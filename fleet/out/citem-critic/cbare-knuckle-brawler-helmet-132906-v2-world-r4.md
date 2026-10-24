@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbare-knuckle-brawler-helmet-132906-v2-world-r4 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4442, 6033, 6, 1154] model=claude-haiku-5-5 -->
+# Bare-Knuckle Brawler Helmet
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 1076/968/107 coin figures are repo store reference prices (stores.json:15653, vendors.json:13805 'price_basis: reference price, no captured retail NPC quote'). The wiki Tayson page has no price. The field reads as Tayson's price, though the answer's own detail text admits it is reference only.", "fix": "Keep the vendor source (wiki Tayson 'Sells' list names Bare-Knuckle Brawler Helmet, verified by lookup) but label the price as 'stores.json reference: 1076 purchase / 968 member / 107 sell, not a captured Tayson quote'. Currency coins is consistent with the client's coin_store_prices [1076]."}]}

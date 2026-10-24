@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cyellow-tulip-37375-v3-world-r4 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3716, 4448, 6, 878] model=claude-haiku-5-5 -->
+# Yellow Tulip
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "The 'collection' kind comes only from the first-pass tag. The client gives just a generic UI description (locale:132285) and the wiki heading lists the Tulips collection without any member rows, so no evidence shows Yellow Tulip is a collection item rather than an ordinary collection-eligible item. The answer already flags this in open, so it is a caveat, not a false claim.", "fix": "Keep kind as unknown or 'item' until a per-item source confirms it. Cite locale:37375 (name only) and locale:132285 (generic membership text) as the only evidence."}]}

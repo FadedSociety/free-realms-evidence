@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpink-rose-1238-v3-world-r4 status=done turns=5 usd=0.0028 tokens(read,write,in,out)=[38162, 12328, 12, 1667] model=claude-haiku-5-5 -->
+# Pink Rose
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / Legacy StoreBundles citation", "issue": "The pack's StoreBundles claim (Id 3090, NameId 72327) does not describe Pink Rose. In FreeRealms-Legacy/src/Resources/StoreBundles.json line 7218, Id 3090 is a bundle record whose NameId 72327 does not resolve in the client locale table, and its entries are GameItemIds such as 1014, 976, 937 and 889, not 3090. The answer correctly drops it as evidence; the note should say so explicitly rather than leave it as an unverified claim.", "fix": "Record the StoreBundles row as rejected: StoreBundles.json:7218 is a bundle with Id 3090 and NameId 72327 (unresolved in locale), with no GameItemId 3090 entry, so it is not an acquisition source for Pink Rose."}]}

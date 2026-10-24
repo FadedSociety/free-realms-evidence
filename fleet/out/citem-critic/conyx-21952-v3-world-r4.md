@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=conyx-21952-v3-world-r4 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4369, 6043, 6, 1362] model=claude-haiku-5-5 -->
+# Onyx
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the mining source is inferred from quest objective text only ('Mine an onyx.', 'Mine 15 onyx.', 'Mine 5 onyx.', 'Mine onyx'). The quest text supports mining as an acquisition path, and the answer says so, but no gather node or drop table is evidenced. Locale 23615 ('onyx gems are fairly common') is extra support for a common node that the answer does not cite.", "fix": "Keep the source as 'mined, quest-evidenced, node unknown'. Optionally cite locale:23615 for the 'fairly common' wording. No change to the price or currency fields is needed (both null, no store evidence)."}]}

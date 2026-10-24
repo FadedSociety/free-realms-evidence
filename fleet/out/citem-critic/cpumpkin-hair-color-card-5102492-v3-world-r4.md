@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpumpkin-hair-color-card-5102492-v3-world-r4 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[8492, 7560, 8, 1147] model=claude-haiku-5-5 -->
+# Pumpkin Hair Color Card
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] (store row 79468)", "issue": "The store row is one of a batch of identical no_sale rows in category 142 (item_id 35950 onward share the same 180/162 prices, null sell price, no_sale true and the same source_tags). That makes it a template listing, not item-specific price evidence. The answer does not say this, and it could be read as a price for this card.", "fix": "Add that the row is part of the category 142 batch (repo:prototype/osfr-tools/data/content/stores.json:7883-7902 and :17188) and carries no item-specific price, so the 180-coin figure should not be used as a coin_shop price for 79468."}]}

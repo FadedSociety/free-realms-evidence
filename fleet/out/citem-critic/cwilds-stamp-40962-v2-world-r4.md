@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwilds-stamp-40962-v2-world-r4 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[12485, 9007, 8, 1203] model=claude-haiku-5-5 -->
+# Wilds Stamp
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the 'Cascading, quality Rare' wiki type/quality and the 'Job Material' and 'Rudolfo's Speedy Kicks' set-level details were not re-verified in this pass; the membership itself checks out.", "fix": "Confirm the cascading/rare fields and the set-level reward against freerealms-wiki/wikitext/2190-27853-ba6c0a72b278.wiki lines 501-518 before publishing. Membership of 'Wilds Stamp' in Postman Stamps is confirmed by that wiki list (* Wilds Stamp at line 511) and by the client description (locale:3698235586)."}]}

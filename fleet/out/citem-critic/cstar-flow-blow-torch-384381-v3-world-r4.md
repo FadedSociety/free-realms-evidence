@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstar-flow-blow-torch-384381-v3-world-r4 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4523, 8998, 6, 1125] model=claude-haiku-5-5 -->
+# Star Flow Blow Torch
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "Minor omission: the answer does not mention that the wiki Items list has a 'New School [Blow] [Torch]' tool and the client has 'Coin Flow Blow Torch' (locale:384372) in the same cluster. Neither names Star Flow Blow Torch, so they do not change the answer, but a builder checking the cluster should know the sibling exists.", "fix": "Note locale:384372 'Coin Flow Blow Torch' (same not_live cluster) and the wiki 'New School [Blow] [Torch]' entry (wiki Items page) as unrelated-by-name rather than matches. No source for Star Flow Blow Torch is added by them."}]}

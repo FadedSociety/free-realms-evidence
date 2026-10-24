@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbriarwood-club-card-2-414449-v3-world-r4 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[12578, 9219, 8, 1261] model=claude-haiku-5-5 -->
+# Briarwood Club Card 2
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / correction note", "issue": "The answer says the earlier citation locale:4393329 was 'wrong'. In the locale dump, 4393329 carries the same description text ('This item can be added to the Briarwood Club Cards Collection') as 132508, so the earlier citation was a duplicate id, not a false claim. Its removal is harmless but the 'wrong' wording overstates it.", "fix": "Cite locale:132508 (verified: 'This item can be added to the Briarwood Club Cards Collection'); note that locale:4393329 holds identical text if you want to keep both."}]}

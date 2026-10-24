@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csnowhill-doll-cap-40586-v3-world-r4 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[8954, 5680, 8, 1264] model=claude-haiku-5-5 -->
+# Snowhill Doll Cap
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "sources / open", "issue": "The answer lists only the Human and Pixie Doll memberships. The repo also has Snowhill Doll Cap in the 'Snowhill Queen Doll' collection (wiki:4:124, collections.json:8067-8074, entry_count 8). The answer marks the Queen list as unchecked, but the line is present in the pack's own data, so it is evidenced membership that should be recorded.", "fix": "Add a third collection-membership entry: Snowhill Queen Doll, collections.json:8067-8074 (wiki:4:124). Keep it as membership only, with no price or currency. The wiki Toys (Collections) lookup confirms the Human and Pixie lists; the Queen list was not confirmed in wiki text."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfancy-seaside-shell-41111-v3-world-r4 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3948, 10499, 6, 1008] model=claude-haiku-5-5 -->
+# Fancy Seaside Shell
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] (wiki List of Collections)", "issue": "The claim that the wiki's List of Collections lists Rare Shells as a [Rare] [Shells] collection has no locator. My lookup of the wiki for 'Seaside Shell' returned only Spawn Types and no List of Collections page, so I could not confirm it. It is not used for any source, so it does not change the answer.", "fix": "Cite the specific wiki page and revision for the List of Collections entry, or drop the claim. Nothing in the pack supports an acquisition source."}]}

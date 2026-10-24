@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celfs-medal-of-honor-41093-v2-world-r4 status=done turns=2 usd=0.0022 tokens(read,write,in,out)=[4086, 12685, 6, 1189] model=claude-haiku-5-5 -->
+# Elfs Medal of Honor
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The only source is a collection-catalogue membership row (collection 111, entry 809, definition 3877). That row proves the item belongs to the set; it does not prove the player can acquire it. The answer states this openly, so it is a labelling point rather than a false claim.", "fix": "Keep the collection row as membership evidence only, and label it as 'member of Medals of Honor (111)' rather than as an acquisition source. Acquisition stays open until a wiki, article, quest, vendor or event names one."}]}

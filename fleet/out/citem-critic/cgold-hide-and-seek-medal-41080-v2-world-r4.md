@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgold-hide-and-seek-medal-41080-v2-world-r4 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13744, 10668, 8, 1371] model=claude-haiku-5-5 -->
+# Gold Hide and Seek Medal
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The cited line range is off. In refs FreeRealms-Legacy/src/Resources/CoinStoreItems.json, the Id 41080 row (CategoryId 105, TintGroupId 3) is at lines 56535-56537, not 56539-56541 (56539 starts the Id 41081 row). The path is also the Legacy copy, not a repo file. The claim itself checks out: 41080 is CategoryId 105 and sibling 41076 is CategoryId 102.", "fix": "Cite FreeRealms-Legacy/src/Resources/CoinStoreItems.json lines 56535-56537 (Id 41080, CategoryId 105, TintGroupId 3). Sibling 41076 is at lines 56530-56532 with CategoryId 102."}]}

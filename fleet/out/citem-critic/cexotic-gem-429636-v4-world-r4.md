@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cexotic-gem-429636-v4-world-r4 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4309, 7532, 6, 1046] model=claude-haiku-5-5 -->
+# Exotic Gem
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says definition 77610 is the correct Exotic Gem and that the earlier 77605 note is a real conflict. The repo notes (Character and Customization.md:327, piece_049.py:787, 049 coverage note:95) tie row 1000013 to 77605, and the client name sits on 77610. The conflict is disclosed honestly, so this is an open item, not a false claim.", "fix": "Keep as an open data conflict: row 1000013 -> mapping 195 -> definition 77605 (Black Waters, boys-only GENDER_USAGE per piece_049.py:787); name locale 429636 -> definition 77610 (mapping row 198). Neither is a sale or drop source."}]}

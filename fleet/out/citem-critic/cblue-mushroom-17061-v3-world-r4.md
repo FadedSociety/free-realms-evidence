@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblue-mushroom-17061-v3-world-r4 status=no_submit turns=2 usd=0.0013 tokens(read,write,in,out)=[3897, 7158, 6, 705] model=claude-haiku-5-5 -->
+# Blue Mushroom
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "The answer records no sources, and that matches the evidence. The only candidates are the legacy harvest drop (harvest_nodes.json:51, tagged legacy_reference), collection membership (metadata, not an acquisition), and the unresolved Croaking Vale Sperry objective (locale 18225). None is a live, evidenced source. My search found no quest data that links the blue mushroom objective to 11054 or 11086.", "fix": "No change needed. Keep sources empty and live 'unsure' until a live node check or a quest-data link resolves the Sperry objective (locale 18225) to item 11054 or 11086."}]}

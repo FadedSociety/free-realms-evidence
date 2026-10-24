@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-valiant-guardian-helm-135636-v2-world-r4 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3783, 7313, 6, 1165] model=claude-haiku-5-5 -->
+# Elite Black Valiant Guardian Helm
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' although the pack names no vendor NPC, store zone or stock row. The only evidence is a coin-store catalog row keyed by item_id 46636 (category 101). It is a store-catalog price, not a confirmed vendor stock entry.", "fix": "Keep the source as a coin-store catalog entry (stores.json line 13038: item_id 46636, category 101, purchase 9453 coins, member price 8507, sell 945). Mark the vendor as unknown, or relabel the type as 'coin_store_catalog' until the source_tags (L1, L2, L4, R2, T633, R1) are decoded. The answer already discloses this in open[0]."}]}

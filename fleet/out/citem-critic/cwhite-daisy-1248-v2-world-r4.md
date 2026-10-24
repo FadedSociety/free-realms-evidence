@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwhite-daisy-1248-v2-world-r4 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3734, 5358, 6, 1293] model=claude-haiku-5-5 -->
+# White Daisy
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that no acquisition source is evidenced. I confirmed this: lookup for 'Daisies Collection' and 'daisy' finds only the client lines locale:132287 and locale:132493 and the wiki List of Collections (Flora: Daisies, Snowhill Daisies). No wiki page, article or video names White Daisy, and locale 38687 'Daisies' is a Chugawug poem-title string, not a source.", "fix": "No change needed. Keep sources empty, retired null, live 'unsure'. The Corflugg daisy-test quest (locale:72065, 72134, 73642, 73645, 103171) is generic 'daisies' and does not name White Daisy, so it correctly stays unlinked. Note that the Daisies Collection membership is not an acquisition route."}]}

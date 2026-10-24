@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgranny-smith-apple-66864-v3-world-r4 status=no_submit turns=2 usd=0.0015 tokens(read,write,in,out)=[3743, 8143, 6, 964] model=claude-haiku-5-5 -->
+# Granny Smith Apple
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The kind 'collection' describes the Green Apples collection, not the apple. The apple is a collection member with no evidenced acquisition, so the label may mislead a builder into treating it as a collection-type reward.", "fix": "Keep the item as a client item (definition 23251, locale 66864) with a collection-membership note, e.g. 'collection member of Green Apples (collection id 156)', and leave the kind as the item's own category. Sources: locale:66864, locale:132415, collection_catalogue.json:12018-12035."}]}

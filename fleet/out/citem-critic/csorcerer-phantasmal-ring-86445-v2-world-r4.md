@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csorcerer-phantasmal-ring-86445-v2-world-r4 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3905, 7977, 6, 871] model=claude-haiku-5-5 -->
+# Sorcerer Phantasmal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[4]", "issue": "The automatic id check flagged this entry because it still cites locale:22454, a string flagged not_live (part of the NOT LIVE quest Help Simone). The text is a note that the citation was removed, not evidence, but it keeps a not-live locale reference in the answer. Also, locale 22454 is a collision with definition Id 22454, so it says nothing about this ring.", "fix": "Drop the locale:22454 reference from open[4] and keep only the statement that a prior citation was removed as an ID collision. Re-check with the id check after the edit."}]}

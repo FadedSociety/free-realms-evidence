@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccooker-sun-ring-96475-v2-world-r4 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[11018, 9942, 8, 1258] model=claude-haiku-5-5 -->
+# Cooker Sun Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / jev_first_pass.flag", "issue": "The evidence pack lists jev_first_pass.flag as null, but refs quest-lines/flags.tsv:8351 and flags.json:83493 do tag locale 96475 as 'joke: \"Cooker\" is not a normal ring quality'. The answer cites this correctly; the pack's null is wrong or incomplete. Minor, and the joke tag is a first-pass hint, not a source.", "fix": "Treat the joke tag as a first-pass hint only (refs quest-lines/flags.tsv:8351). It is not an acquisition source and does not set live or retired status."}]}

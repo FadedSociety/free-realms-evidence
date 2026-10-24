@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwooden-bridge-31505-v3-world-r4 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4102, 7438, 6, 1102] model=claude-haiku-5-5 -->
+# Wooden Bridge
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the Rob Robbie Daily wiki page (ns112) lists a reward-style block with '1 Fluffy Cloud [Bridge]' and 'Curved [Wooden] Walkway'. That is a different bridge piece, not plain Wooden Bridge, so it correctly stays out of sources. The answer does not mention it, but nothing it omits changes the result.", "fix": "Optionally note that wiki Quest:Rob Robbie Daily lists 'Curved [Wooden] Walkway' and 'Fluffy Cloud [Bridge]' and that neither is linked to locale 31505 (lookup wiki ns112 Quest:Rob Robbie Daily)."}]}

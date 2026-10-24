@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpet-dog-small-pointy-lightmark-rusty-75096-v4-world-r4 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3942, 5441, 6, 999] model=claude-haiku-5-5 -->
+# Pet: Dog: Small Pointy: lightmark-rusty
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "The answer lists only R1 and T633 from stores.json:6823. The row's full source_tags are [L1, L2, L4, R2, T633, R1]. Omitting L1/L2/L4/R2 is a small incompleteness. The answer also calls R1 'defaulted', which the pack does not document (no price_provenance block only shows the absence of provenance, not the meaning of R1).", "fix": "Cite the full tag set from repo:prototype/osfr-tools/data/content/stores.json:6823 (item_id 23946: source_tags L1, L2, L4, R2, T633, R1). Describe R1 as 'meaning undocumented' unless a tag legend is found."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cteam-player-431751-v2-world-r4 status=done turns=4 usd=0.0018 tokens(read,write,in,out)=[19687, 8362, 10, 1100] model=claude-haiku-5-5 -->
+# Team Player
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "Checked locale 31716 ('Title: Team Player') and locale 431751/431752; both exist as cited. No wiki, article, video, vendor, or client price row names the title, so sources:[] is correct and the answer does not invent a source. The probable link to the invite-25 achievement stays unconfirmed, which is honestly flagged in open.", "fix": "No change required for pass. Optional: state explicitly that legacy:title:52 is a title-table row (title_type 1), so it belongs to the title model, not the item/vendor model, and that the achievement-to-title grant is unconfirmed. wireable stays false because no evidenced source has a price, quest, enemy or event."}]}

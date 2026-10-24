@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-pink-trauma-support-helmet-1060-v2-world-r4 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3955, 9579, 6, 1116] model=claude-haiku-5-5 -->
+# Elite Pink Trauma Support Helmet
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the answer calls store category 101 the coin store, but the category's currency label was not checked in this pass. The row itself is real: stores.json:281 has item_id 583, category 101, purchase_price_coins 9453, member_price_coins 8507, sell_price_coins 945. Nothing in the pack shows a Station Cash or other currency for this row, so the coin-store source does not conflict with anything else.", "fix": "Confirm that category 101 is the coin store in the store-category table. The row itself (stores.json:281) is correct as stated."}]}

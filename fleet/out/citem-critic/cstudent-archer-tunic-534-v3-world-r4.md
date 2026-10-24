@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstudent-archer-tunic-534-v3-world-r4 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4330, 11370, 6, 1155] model=claude-haiku-5-5 -->
+# Student Archer Tunic
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "retired", "issue": "Left null. The only wiki evidence for the Student set (Student Archer Bow, Student Brawler Hammer in refs:freerealms-wiki/harvest/lists/weapons.json:34633 and :34722) says 'no longer able to be acquired', so the Student-set pattern points toward retired. This is a sibling pattern, not evidence for the tunic itself, so null is defensible but could be flagged as 'likely retired, unverified'.", "fix": "Keep retired as unknown, or record 'likely retired (sibling Student weapons marked no longer acquirable, weapons.json:34633)' with the caveat that the tunic is not directly confirmed."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpixiewood-doll-gear-40598-v2-world-r4 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4131, 6095, 6, 1341] model=claude-haiku-5-5 -->
+# Pixiewood Doll Gear
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail / evidence[2]", "issue": "The 21-coin reward is parsed from wiki_lines [\"Pixie Pixiewood Doll\", \"21\"] in collections.json (key wiki:4:115, lines 7352-7361). The line names an item, 'Pixie Pixiewood Doll', alongside the 21, so the coins field may be a misparse of an item reward. The answer says it is a collection-level coin reward without flagging this.", "fix": "Keep the reward off this item. Note that the wiki reward line for the Pixiewood Pixie Doll collection is ambiguous (item 'Pixie Pixiewood Doll' plus '21'), per repo:prototype/osfr-tools/data/content/collections.json:7352-7361 and wiki 'Toys (Collections)' rev 31048. Do not record it as a coin price."}]}

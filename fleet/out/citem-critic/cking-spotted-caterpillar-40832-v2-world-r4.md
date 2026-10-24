@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cking-spotted-caterpillar-40832-v2-world-r4 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3847, 10271, 6, 1034] model=claude-haiku-5-5 -->
+# King Spotted Caterpillar
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor: the answer says the repo search for 3616 / 40832 found no row, but the repo's prototype/osfr-tools/data/content/collection_catalogue.json (around line 5859) lists name_id 40832 with item_definition_id 3616. That is collection membership, which the answer already excludes from sources, so the conclusion holds, but the 'no row' wording overstates the search.", "fix": "Say the only repo rows for 40832 / 3616 are collection membership (collection_catalogue.json lines 5859-5862, and collections.json 'Spotted Caterpillars' around line 9174). No vendor, stock, drop or quest row exists."}]}

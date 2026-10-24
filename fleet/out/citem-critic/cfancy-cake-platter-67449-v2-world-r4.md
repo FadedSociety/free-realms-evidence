@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfancy-cake-platter-67449-v2-world-r4 status=done turns=4 usd=0.0021 tokens(read,write,in,out)=[17132, 8788, 10, 1636] model=claude-haiku-5-5 -->
+# Fancy Cake Platter
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the Job Material spawn 'points to a Chef job-material or gathering route' but does not name the one route the Chef notes already tie to job-material spawning: the Harvesting minigame at the six Chef farms (Brambleback, Chugaroot, Farnum's, Lakeshore, Perry's, Queensfields). The notes (Chef.md:338) support that route for harvesting, but no source ties it to this platter. Keep it as an unresolved lead, and do not add it as a source.", "fix": "Mention the Harvesting minigame at the six farms (Chef.md:338, wiki Chef) as the untested candidate route. Leave sources empty unless a wiki or client record ties the platter to it."}]}

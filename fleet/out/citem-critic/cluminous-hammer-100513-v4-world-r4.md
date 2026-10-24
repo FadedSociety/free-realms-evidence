@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cluminous-hammer-100513-v4-world-r4 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4389, 8940, 6, 1087] model=claude-haiku-5-5 -->
+# Luminous Hammer
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Left as 'unsure' while retired is true. The wiki page is in Category:Retired Weapons and the Luminous set's wiki entries all say 'can only be acquired through trade', so the retired status is supported. The pack gives no retirement date, so 'unsure' is only about the live date, which is an honest unknown.", "fix": "Keep retired: true. Record live as unknown with the reason (wiki Category:Retired Weapons, no end-of-sale date). Sources checked: wiki 'Luminous Hammer' and 'Blue Text weapon'; wiki harvest weapons.json lists the same trade-only text for all six Luminous weapons."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cminer-s-pickaxe-of-talent-i-29535-v2-world-r4 status=done turns=7 usd=0.0044 tokens(read,write,in,out)=[84502, 19469, 16, 2208] model=claude-haiku-5-5 -->
+# Miner's Pickaxe of Talent I
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 750-coin price is a stores.json reference value (stores.json line 15420, purchase_price_coins 750, member 10% discount to 675), not an observed NPC quote. The answer labels this honestly, so it is a caveat rather than a false claim. Items.json line 216749 also argues the figures should not be used as a source price.", "fix": "Keep the price but mark it as a reference price (repo:data/content/stores.json item 75602; vendors.json line 17279 price_basis). Do not present it as confirmed NPC stock price. The wiki Sells list (freerealms-wiki/wikitext/11443-49003 line 29) names the item but gives no price."}]}

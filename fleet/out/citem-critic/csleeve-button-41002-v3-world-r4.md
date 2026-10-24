@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csleeve-button-41002-v3-world-r4 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3890, 5282, 6, 945] model=claude-haiku-5-5 -->
+# Sleeve Button
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].source", "issue": "Membership in collection 100 'Cool Buttons' (entry index 4, item_definition_id 3786) is confirmed in repo collection_catalogue.json lines 8009-8053. Every entry in that collection, including this one, carries item_link 'sanctuary', so the membership row is only as trustworthy as that catalogue. The answer correctly declines to use item_link as evidence, but it does not say the collection's entries are sanctuary-linked, which a builder should know.", "fix": "Add a note that collection 100's entries (lines 8017-8080) are marked item_link 'sanctuary' and the membership is catalogue-only. Keep the source type as 'collection', with no price or currency."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csavory-service-hat-121170-v2-world-r4 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3807, 6755, 6, 1278] model=claude-haiku-5-5 -->
+# Savory Service Hat
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail / open", "issue": "The 9453-coin tier on definition 41175 is left out, but 41175 is one of this item's own 16 definition_ids in the client pack. The stated reason (MinProfileRank 20 vs 5) was not re-read in this pass. The exclusion is a judgment, not a verified fact, so the item may carry two coin prices that the answer does not show.", "fix": "Verify MinProfileRank for the 41175 row in the client definition or stores data before excluding it. Otherwise list it as an unresolved second coin price for this name, citing repo:prototype/osfr-tools/data/content/stores.json line 12576 (purchase 9453, member 8507, sell 945)."}]}

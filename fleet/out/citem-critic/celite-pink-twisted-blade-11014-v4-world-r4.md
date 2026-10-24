@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-pink-twisted-blade-11014-v4-world-r4 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3671, 8409, 6, 1059] model=claude-haiku-5-5 -->
+# Elite Pink Twisted Blade
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live / retired", "issue": "Live is left as 'unsure' and retired is null. That is honest, since no wiki or article source covers the Elite Pink tint. The base blade's December 14, 2009 retirement is correctly not carried over.", "fix": "No change required. If a stronger live signal is wanted, it would need a source that names the tint directly, which the pack does not contain."}, {"field": "sources[0].where", "issue": "The 'where' field is a store category (207), not a vendor. That is accurate, because the store row names no NPC and the answer says so in its open notes.", "fix": "No change required."}]}

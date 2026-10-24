@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ckitty-skull-cap-88883-v4-world-r4 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[10924, 9895, 8, 1371] model=claude-haiku-5-5 -->
+# Kitty Skull Cap
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence / client_cluster", "issue": "The client cluster lists only locale:88883, but the raw locale data also carries other 'Kitty Skull Cap' strings (ucdt keys 939026933 and ugdt 1911883038) and a separate 'Kitty Skull Shoes' item (2781840810, 4289972717). The answer does not mention these, so the name cluster is not fully reported.", "fix": "Note that the name appears under additional locale keys (939026933, 1911883038) and that 'Kitty Skull Shoes' is a distinct item (2781840810 / 4289972717) that must not be merged with this cap. Check whether the extra keys belong to this item's definitions before treating them as one name."}]}

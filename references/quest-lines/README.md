@@ -43,3 +43,20 @@ far as it goes, and `wireable` says whether a builder can use it now.
 The packs are in `<domain>-packs.json`, and the agents' tool is `fleet.py lookup` (client, wiki, articles, video).
 Video frames are indexed in `video.sqlite` (`quests/video_index.py`). Subscription agents used the same tools through
 `quests/quest_cli.py`. Total API spend for all passes, harvest included: about $169.
+
+## Jev-first passes (2026-10-24)
+
+Bryce: "go for everything jev first". Jev (cheap, uncapped on OpenRouter) screens first; Haiku works only on Jev's
+survivors.
+
+| File | Unit | Final | Wireable | How it ran | Notes |
+|---|---|---|---|---|---|
+| `schedules.json` | live-or-unsure event answer (488) | 433 | 168 | API, `--domain schedule`, lenses evidence/calendar, $5.57 | schedule rows for the T462 scheduler: season window, slots, original dates, zones, what runs, revival recurrence |
+| `quests.json` (rerun) | the 157 quests that never went final | 831 of 912 (was 755) | | API, `augment_open_quests.py` then rounds 13-20, $4.74 | packs gained the later NPC, dialog, item and event answers |
+| `catalogue.sqlite` | client item name not in `items.json` (11,654 of 12,654 names from 58,835 definitions) | 11,582 Jev-tagged | | Jev, `item_catalogue.py`, about $0.30 | live / kind / source guess / flag; 821 not live, 1,108 flagged |
+| `citems.json` | Jev survivor with any evidence (9,752) | 8,608 | 4,471 | API, `--domain citem`, 4 rounds, $106.42 | sources: vendor 2,725, Coin Shop 1,637, collection 725, prize wheel 443, Marketplace 195, drop 89, promotion 65 |
+| `citem-nofind.json` | survivor with no evidence beyond its name (419) | | | none | kept with Jev's tag only |
+
+The test sweep (`lab/fleet/pins.py`: Jev screened 7,124 asserts, Haiku confirmed per file, $0.47) found 284 tests
+pinning tunable gameplay numbers; reports in `lab/reports/pin-audit-20261024/`, fix briefs T645-T652.
+Total API spend after these passes: about $286 (ceiling $310).

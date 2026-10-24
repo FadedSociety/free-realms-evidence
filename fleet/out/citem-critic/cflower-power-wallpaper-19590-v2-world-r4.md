@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cflower-power-wallpaper-19590-v2-world-r4 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3999, 5587, 6, 1156] model=claude-haiku-5-5 -->
+# Flower Power Wallpaper
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the bundle's GameItemId 4149 is not tied to a client item definition in the evidence pack. Only MarketingItemId 76789 is matched (client definition_ids [76789]). The bundle entry itself is confirmed at StoreBundles.json:14458-14489 (Id 4096, NameId 19590, CurrencyType 1, StoreId 1, Price 1, AltCurrencyPrice 1, Status 1, expire 2040-08-15).", "fix": "Keep the Station Cash marketplace source as a candidate, and note that GameItemId 4149 is unmatched. No change to the answer's conclusions is required."}]}

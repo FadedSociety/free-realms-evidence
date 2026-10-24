@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmajestic-wing-pattern-card-415856-v2-world-r4 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4041, 6842, 6, 998] model=claude-haiku-5-5 -->
+# Majestic Wing Pattern Card
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[4] (sibling claim)", "issue": "The pack says sibling cards 68991-69008 'carry the same store row'. The store rows do not match: stores.json lines 14735-14739 (68992-68996) use category_id 144, and 68997-69008 use category 146. Price (270/243) and no_sale are the same across the siblings, but the category is not.", "fix": "Say the price and flags match across the siblings (270 coins, 243 member, no_sale true), and that category differs: 144 for 68992-68996, 146 for 68997-69008 (repo:prototype/osfr-tools/data/content/stores.json:14735-14751). 69002 itself is category 146 (stores.json:14745), which is correct."}]}

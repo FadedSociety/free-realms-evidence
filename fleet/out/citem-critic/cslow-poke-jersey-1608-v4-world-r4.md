@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslow-poke-jersey-1608-v4-world-r4 status=no_submit turns=2 usd=0.0017 tokens(read,write,in,out)=[3941, 8246, 6, 1207] model=claude-haiku-5-5 -->
+# Slow Poke Jersey
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The Soccer Star note's '†' marker is not defined on the lines I read, so calling the kart-driver grouping 'marked unverified' is not confirmed. The line itself (Soccer Star.md:245) only says 'Slow Poke' jerseys are kart and helmet pairs (†) and that they are excluded from the count.", "fix": "Cite Soccer Star.md:245 as stating that 'Slow Poke' jerseys are kart and helmet pairs, and say the † meaning is not defined in the passage. Do not call it 'unverified' unless the note's key says so."}]}

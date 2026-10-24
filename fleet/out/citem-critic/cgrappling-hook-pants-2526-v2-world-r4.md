@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgrappling-hook-pants-2526-v2-world-r4 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[4482, 10661, 6, 1372] model=claude-haiku-5-5 -->
+# Grappling Hook Pants
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the Farmer page's own text (line 4) says farming yields 'coins and various items' and vaultberries, and line 7 ties the spin to the beret, so the pack's 'spin' route is only the Adventurer page's general description. The answer already flags the per-item route as unconfirmed, so this is a wording point, not an error.", "fix": "No change needed to the source. Keep the per-item route as open, citing Adventurer page line 206 ('items not received from chests ... acquired by spinning the farmer market') and Farmer page line 4."}]}

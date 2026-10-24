@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstickfruit-sample-148532-v3-world-r4 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3985, 5395, 6, 776] model=claude-haiku-5-5 -->
+# Stickfruit Sample
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The item description (locale 148551) gives a location hint, 'can be found near pet parks or fallen logs', which the answer leaves out. The answer says the zone and spawn are unknown, which is honest, but it does not record this client-stated hint.", "fix": "Record the locale 148551 hint ('near pet parks or fallen logs') as an unverified location note in the where or open field, not as a confirmed spawn. Locale 434595 ('Harvesting Node - Stickfruit Sample') is the only gather-source text and it is confirmed to exist."}]}

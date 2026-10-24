@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpet-dog-small-pointy-lightmark-chocolate-75098-v4-world-r4 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[8055, 6173, 8, 1116] model=claude-haiku-5-5 -->
+# Pet: Dog: Small Pointy: lightmark-chocolate
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The pack labels the 540 value as coin_store_prices, which reads like a store listing. The answer correctly calls it a catalogue Cost field, but the label itself is misleading. Nothing in the repo or the lookups shows a listing.", "fix": "Keep the 540 value as an unverified catalogue Cost (repo:prototype/osfr-tools/data/content/stores.json item 23948; notes/Research/Coin Shop.md lines 31-33, 'Cost' is used as the starting coin price but never checked against a real transaction). Do not present it as a store price."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csuper-nova-hair-color-card-414067-v3-world-r4 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[9067, 5725, 8, 1114] model=claude-haiku-5-5 -->
+# Super Nova Hair Color Card
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Answer leaves live as 'unsure' with no retired status. That is honest given no source names the card. A coin-store row (35962, category 142, 180/162, no_sale true) exists but is part of a uniform 21-row block, so it cannot be tied to this card.", "fix": "No change required; keep live unknown. Note that the wiki/video frames (video:1xtVveaQ3XI/00112, /00116) show a Coin Shop listing of sibling Hair Color Cards (Gold Rush, Atomic Blast, Sun Kissed, Shock Wave) at 162 coins, but Super Nova is not named in those frames or anywhere in the wiki/video index."}]}

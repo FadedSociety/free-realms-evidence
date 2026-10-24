@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cuncommon-gem-67275-v2-world-r4 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[11773, 8527, 8, 1241] model=claude-haiku-5-5 -->
+# Uncommon Gem
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that Special Gems gives Magical Summoning Ore and the full set gives it as final reward is sourced only to repo notes (Miner.md:235), which the answer itself says is stale. The wiki excerpt I checked (Job Specific (Collections)) confirms Peculiar Gem as the Fancy Gems reward but shows no Magical Summoning Ore reward line. The claim is unverified and should be dropped or marked unverified.", "fix": "Keep only the wiki-confirmed reward: Peculiar Gem is the reward for completing Miner's Fancy Gems (wiki: Job Specific (Collections)). Treat the Special Gems and full-set rewards as unsourced until a wiki page confirms them."}]}

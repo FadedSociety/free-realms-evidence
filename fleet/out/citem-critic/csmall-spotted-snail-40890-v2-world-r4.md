@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmall-spotted-snail-40890-v2-world-r4 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[12217, 8913, 8, 1453] model=claude-haiku-5-5 -->
+# Small Spotted Snail
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].source", "issue": "The answer says locale:1288563318 'does not exist' and that the pack citation is wrong. That id does exist in the raw en_us_data.dat (ucdt key 1288563318 = 'This item can be added to the Spotted Snails Collection'). The locale tool's display id for the same string is 132345. So the citation is an id-namespace mismatch, not a wrong id.", "fix": "Cite the description as locale 132345 (tool display id), noting the raw en_us_data.dat key is 1288563318 for the same string. Drop the claim that the id does not exist."}]}

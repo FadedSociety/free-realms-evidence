@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-sekkou-ninja-tabi-boots-pl-sekkou-ninja-tabi-boots-133229-v4-world-r4 status=done turns=3 usd=0.0027 tokens(read,write,in,out)=[13514, 14719, 8, 1503] model=claude-haiku-5-5 -->
+# {n}Sekkou Ninja Tabi Boots{pl="Sekkou Ninja Tabi Boots"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1].detail / evidence[2]", "issue": "The wiki Sweetwater Climb page lists the Ninja prize-wheel entry as '[Sekkou] [Ninja] Tabi Boots' beside 80 Coins. The answer's quoted form '[Sekkou] [Ninja] [Tabi] [Boots]' adds brackets the page does not show. The match still holds on the words.", "fix": "Quote the wiki line as '[Sekkou] [Ninja] Tabi Boots' (lookup: wiki Sweetwater Climb, '[Ninja] [Prize] [Wheel]' block, '80 Coins'). Source is otherwise correct."}]}

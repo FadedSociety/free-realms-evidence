@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmachete-66852-v2-world-r4 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3811, 6110, 6, 727] model=claude-haiku-5-5 -->
+# Machete
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources list is consistent with the pack. My own lookups (wiki, client, video, articles) returned no Machete hits, and repo search for 66852, 23239 and Machete only finds collection_catalogue.json (lines 11867-11870) plus unrelated numeric matches. No vendor, quest, drop or store row names the item, so no source is invented.", "fix": "No change required. Machete should stay sourceless with live 'unsure' and retired null until a route is evidenced. The Knives collection reward (collections.json, wiki:6:200) is still unknown, and the List of Collections wiki heading does not itemise Machete, so membership there is unconfirmed."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjeweled-key-67176-v2-world-r4 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3851, 8074, 6, 1003] model=claude-haiku-5-5 -->
+# Jeweled Key
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "Kind 'other' is an unforced label. The item's only evidenced role is membership in the Sacred Keys collection (the answer's own evidence), so 'collection' or a collection-member kind may fit better. This is a labelling choice, not a factual error.", "fix": "Optionally set kind to 'collection' or a collection-member type, per the rebuild's categories. The wiki key-locations image (File:Free Realms- Key locations D-0) groups Sacred keys (jeweled key, key to the city, king's key, queen's key) apart from the Special keys, so the answer is right not to assign the Seaside chest."}]}

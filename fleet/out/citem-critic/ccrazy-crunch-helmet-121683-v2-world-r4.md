@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccrazy-crunch-helmet-121683-v2-world-r4 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3843, 5653, 6, 1086] model=claude-haiku-5-5 -->
+# Crazy Crunch Helmet
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence[2]", "issue": "Minor: the class-22 table in piece_041.rs (DEMO_DERBY_DRIVER_GEAR, lines 155-170) lists only the Crazy Crunch Shirt (41696, name 121680, rank 3). The Boots, Gloves and Pants are not in the rows I checked, so the answer is right that the derby table does not place the helmet. The source line should name the constant DEMO_DERBY_DRIVER_GEAR and say 'Demo Derby', not 'Demolition Derby Driver', to match the code comment.", "fix": "Cite repo:prototype/osfr-tools/src/restoration/piece_041.rs:155-159 (DEMO_DERBY_DRIVER_GEAR, class 22, Shirt row only). No helmet row exists there, so no source is added for the helmet."}]}

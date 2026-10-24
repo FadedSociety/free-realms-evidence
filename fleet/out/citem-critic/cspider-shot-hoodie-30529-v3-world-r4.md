@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cspider-shot-hoodie-30529-v3-world-r4 status=done turns=3 usd=0.0031 tokens(read,write,in,out)=[20870, 17127, 8, 1551] model=claude-haiku-5-5 -->
+# Spider Shot Hoodie
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open[1]", "issue": "The StoreBundles record for MarketingItemId 9290 (Price 1, CurrencyType 1, Status 1, 2040 expiry) was left unresolved and the source file was not re-read. Its Station Cash meaning is therefore unknown. Because it is not used as a source, the answer does not overclaim, but the world check on whether a Station Cash source exists is incomplete.", "fix": "Read refs:TCG-Files/Emulator/Resources/StoreBundles.json around line 16681 (and the matching rows in the other forks) and either record it as an unconfirmed bundle note or state that its currency cannot be resolved from the file. Do not add it as a Station Cash source without that check."}]}

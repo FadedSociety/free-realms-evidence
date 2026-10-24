@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=corange-half-cylinder-block-134781-v3-world-r4 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3976, 10520, 6, 1179] model=claude-haiku-5-5 -->
+# Orange Half Cylinder Block
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The answer says rows 77188 and 77245 are the only coin-store rows for the family, but stores.json lines 16510-16561 show a long run (77179 onward) of 50-coin, no_sale=true rows with identical source_tags, so 77188 is one of a bulk block rather than a distinct orange candidate. The answer does not mention this, which weakens its claim that 77188 is a colour-specific candidate.", "fix": "Note that 77188 sits in a bulk run of identical 50-coin no_sale rows (stores.json 16510 onward, source_tags L1,L2,L4,R2,L3,L3), so it is not evidenced as orange or as a distinct item. Keep sources empty until the tint or colour field is found."}]}

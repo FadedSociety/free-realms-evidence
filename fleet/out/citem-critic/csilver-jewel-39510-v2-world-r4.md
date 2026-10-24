@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csilver-jewel-39510-v2-world-r4 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3776, 8768, 6, 1139] model=claude-haiku-5-5 -->
+# Silver Jewel
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "sources", "issue": "The single source row is a wiki group-membership listing (Items page 'Treasure War' heading, with Gold [Jewel] and the Booster Pack). It names no acquisition channel, price, quest, enemy or event, so it is not an acquisition source. Presenting it as a source of type 'other' overstates what is known.", "fix": "Leave sources empty, or record the Treasure War group as a note only. Checked: wiki Treasure War page reads '[Silver] [Jewel] - Makes a card appear in your starting treasures for 15 games' and 'Treasure War items can't be refunded'; client locale:39510 and 39522 match ('Contains 15 charges'). Neither source names a vendor, price or channel."}]}

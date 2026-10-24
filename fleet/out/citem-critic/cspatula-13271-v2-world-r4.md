@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cspatula-13271-v2-world-r4 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3562, 5533, 6, 972] model=claude-haiku-5-5 -->
+# Spatula
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "The pack's client_definition lists coin_store_prices [540] for this item. The answer correctly says no stores.json row links item 13271 or definition ids 6616-6627, and my repo search for those ids in prototype/osfr-tools/data found no store row. So the 540 is not evidenced as a store price for Spatula. The answer should say the client-definition price field is unlinked rather than omit it.", "fix": "Record the 540 as an unlinked client-definition price field with no matching stores.json row (repo prototype/osfr-tools/data/content/stores.json), not as a confirmed coin vendor price. The current wording is close but should name the pack field explicitly."}]}

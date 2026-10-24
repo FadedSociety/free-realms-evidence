@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cthorny-banner-118896-v2-world-r4 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3871, 9210, 6, 1244] model=claude-haiku-5-5 -->
+# Thorny Banner
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the 45-coin member price is described as stated in the row, which is accurate (member_price_coins 45 at stores.json:4228). It is 50 less a 10% member_discount_percent, so it is consistent, but the answer could say it is the stored value, not a separately sourced price. No conflict found.", "fix": "No change required. stores.json:4228 holds purchase_price_coins 50, member_discount_percent 10, member_price_coins 45, sell_price_coins 5, source_tags [L1,L2,L4,R2,T633,R1], which matches the answer. The client coin_store_prices [50] also agrees."}]}

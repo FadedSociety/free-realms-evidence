@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cring-rumbler-shirt-120928-v2-world-r4 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4080, 6587, 6, 1239] model=claude-haiku-5-5 -->
+# Ring Rumbler Shirt
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / open", "issue": "The source_tags on the store row (L1, L2, L4, R2, T633, R1) are identical on every category-103 row I checked (stores.json:7936-7946), so they do not identify a specific vendor. The answer correctly says the shop is unknown, but it does not mention that these tags are shared across the category.", "fix": "Note in the open list that source_tags are shared by all category-103 rows (stores.json:7936-7946) and carry no shirt-specific vendor information. The 618-coin row for definition 40929 (stores.json:7942, member 556, sell 61) is confirmed as written."}]}

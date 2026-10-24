@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crockstar-doll-gear-40622-v3-world-r4 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4126, 5656, 6, 1099] model=claude-haiku-5-5 -->
+# Rockstar Doll Gear
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "The wiki's Rockstar Human Doll and Rockstar Pixie Doll infoboxes both name Robgoblin (Northern Wilds / Central Wilds) as the spawn that yields the collection. The answer records this only in evidence and open, not as a source row. It is correctly not attributed to this piece, so this is a presentation omission, not an error.", "fix": "Optionally add a collection-level note (not a piece source) stating: spawn Robgoblin, Common, reward = doll plus 21 gold, per refs freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki lines 376-404."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfish-wind-sock-banner-147984-v1-world-r4 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3936, 5610, 6, 1037] model=claude-haiku-5-5 -->
+# Fish Wind Sock Banner
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "'live: yes' rests on source_tags (L1, L2, L4, R1, R2, T633) in stores.json, but those tags are opaque codes with no legend in the evidence pack, so they do not by themselves show the item is still sold today. The answer's own open note admits this.", "fix": "Keep live as 'yes (moderate confidence)' and state that the store tags are unexplained; nothing in the pack contradicts a Coin Shop listing. stores.json:4501-4502 confirm the 1000 coin / 900 member price and category 57 for items 18155 and 18156, and the article 1687 (no date) confirms Coin Shop housing sale."}]}

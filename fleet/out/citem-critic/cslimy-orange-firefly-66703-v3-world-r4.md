@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslimy-orange-firefly-66703-v3-world-r4 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[9747, 6480, 8, 1095] model=claude-haiku-5-5 -->
+# Slimy Orange Firefly
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] / open", "issue": "The answer cites collection 134 'Orange Fireflies' from collection_catalogue.json. The repo's collections.json lists 'Orange Fireflies' under a different key (wiki:5:140, client_id 1073741964, entries empty, source 'List of Collections'). The answer does not mention this mismatch, so the collection id it relies on is not reconciled across the two files.", "fix": "Note that collections.json holds 'Orange Fireflies' as wiki:5:140 with no entries, and that the catalogue's collection 134 is the source of the 965 entry link. Resolve which id is canonical before the membership claim is relied on."}]}

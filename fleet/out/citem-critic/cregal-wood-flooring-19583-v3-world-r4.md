@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cregal-wood-flooring-19583-v3-world-r4 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11503, 7724, 8, 1596] model=claude-haiku-5-5 -->
+# Regal Wood Flooring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Minor: 'unsure' is defensible, but the bundle has Status 1 and a 2010-02-19 launch, and the answer never says whether that Status 1 or the Comment-matched bundle means the listing was ever sold. The answer correctly declines to infer status from the 2040 expiry.", "fix": "Keep 'unsure'. Optionally note the StoreBundles.json line 14349 Status 1 as the only status evidence (refs:Lxzxrus-Free-Realms-Server/src/Resources/StoreBundles.json:14331-14361), with no sale channel or date evidence beyond it."}]}

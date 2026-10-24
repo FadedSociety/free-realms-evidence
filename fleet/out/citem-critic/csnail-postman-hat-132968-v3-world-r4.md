@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csnail-postman-hat-132968-v3-world-r4 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[9673, 6170, 8, 1358] model=claude-haiku-5-5 -->
+# Snail Postman Hat
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].price / wireable", "issue": "The Wake vendor source is evidenced (wiki Sells list, and the 'Wake' page says she is a human Postman merchant near the Bixie Defense Tables in Sanctuary), but it has no price, so the source is not wireable with its price as the rule requires. The coin-store 375/337/37 row is correctly kept out of Wake's source.", "fix": "Keep the Wake vendor source with price null; set wireable to false until a captured Wake price or a coin-store listing exists. Sources: wiki 'Wake' (Sells list shows [Snail] [Postman] [Hat]; intro line 'near the Bixie Defense Tables, located in Sanctuary'); stores.json:15701 is reference only."}]}

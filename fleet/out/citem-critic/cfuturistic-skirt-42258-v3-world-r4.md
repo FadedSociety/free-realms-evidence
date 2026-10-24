@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfuturistic-skirt-42258-v3-world-r4 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3791, 6862, 6, 975] model=claude-haiku-5-5 -->
+# Futuristic Skirt
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "The answer says category 104  'has no vendor name in the repo'. That is true as far as it goes, but stores.json shows category 104 is a live category: its non-no_sale rows carry source_tags such as L1, L2, L4, R2, T633, R1 (for example items 137, 221, 622). The answer does not mention this, so a reader could not tell that the category itself is a sold store category. This is context, not a wrong claim.", "fix": "Note that category 104 is a populated store category (source_tags L1/L2/L4/R2/T633/R1 on its other rows, stores.json lines 101-304), so the skirt's no_sale row sits in a live store category. Still no source for this item, so sources stays empty."}]}

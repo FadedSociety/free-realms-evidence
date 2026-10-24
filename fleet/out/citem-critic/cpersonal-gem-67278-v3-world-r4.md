@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpersonal-gem-67278-v3-world-r4 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[8345, 5714, 8, 1112] model=claude-haiku-5-5 -->
+# Personal Gem
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Membership is correctly evidenced: wiki Job Specific (Collections) lists [Personal] [Gem] under Miner's Special Gems, and collections.json:4116-4121 has Personal Gem as entry 7 of 8 with source_tag 'wiki'. The spawn_type 'Job Material' and reward 'Magical Summoning Ore' are collection-level, not item-level, and the answer already says so.", "fix": "No change needed. Optionally state that the collection's spawn_type (Job Material) and reward belong to the collection, not to Personal Gem individually."}]}

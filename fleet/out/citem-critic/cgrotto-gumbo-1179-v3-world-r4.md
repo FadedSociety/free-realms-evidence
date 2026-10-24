@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgrotto-gumbo-1179-v3-world-r4 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[14448, 10509, 8, 1548] model=claude-haiku-5-5 -->
+# Grotto Gumbo
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].price / currency", "issue": "Minor: the answer cites notes/Research/Coin Shop.md:32 for the claim that bundle rows are not coin prices. I did not open that note, so that support is unchecked. The raw row is confirmed: StoreBundles.json lines 40168-40196 show Id 100049, NameId 1179, Price 1, MembersOnlyPrice 1, AltCurrencyPrice 1, CurrencyType 1, StoreId 1, Status 1, Comment 'Grotto Gumbo', one entry MarketingItemId/GameItemId 4020 quantity 3. Those match the answer.", "fix": "Keep price null and currency null. Either open notes/Research/Coin Shop.md:32 to confirm the 'not coin prices' statement, or drop that citation and rely on the raw row alone."}]}

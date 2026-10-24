@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpurple-daisy-1251-v2-world-r4 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[9560, 7512, 8, 1408] model=claude-haiku-5-5 -->
+# Purple Daisy
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer omits a possible acquisition lead that sits in the repo. The Briarwood NPC note and briarwood.json (line 13692) list Corflugg's courting errand 'a daisy with the right number of petals' (quest 928713185) and mark Daisies as a candidate title. The answer never mentions it, though the lead is unconfirmed and the quest does not name Purple Daisy.", "fix": "Add to open: 'Corflugg (Briarwood, Bristlewood) errand 928713185 asks for a daisy with the right number of petals. Daisies is only a candidate title (notes/Build Guides/Content/NPCs/NPCs - Briarwood.md:306; repo npcs/briarwood.json:13692). No reward is confirmed as Purple Daisy, so it is not a source.'"}]}

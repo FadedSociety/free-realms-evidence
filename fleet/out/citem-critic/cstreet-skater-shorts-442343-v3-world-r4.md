@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstreet-skater-shorts-442343-v3-world-r4 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4255, 6421, 6, 987] model=claude-haiku-5-5 -->
+# Street Skater Shorts
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The coin-store source has no vendor or storefront. This is honest, but the source rests on one repo store-table row block (stores.json 16999-17001) whose source_tags are shared by about 30 neighbouring 79xxx rows, so it shows a listing, not a confirmed live sale.", "fix": "Keep where null and state the vendor as unidentified. Optionally note that category 104 is unnamed in the repo data. No change to the price or currency is needed: stores.json 16999-17001 shows purchase 400, member 360, sell 40 for 79235-79237, matching the client coin_store_prices [400]."}]}

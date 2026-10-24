@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccheck-seasnail-41119-v2-world-r4 status=done turns=3 usd=0.0028 tokens(read,write,in,out)=[17189, 15328, 8, 1373] model=claude-haiku-5-5 -->
+# Check Seasnail
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "The answer omits a field in the collection catalogue it cites. Every Seaside Seasnails entry (ids 835-842, items 3903-3910) carries \"item_link\": \"sanctuary\" (collection_catalogue.json:9559 and the following entries). That is a location hint the answer should report, flagged as metadata, not an acquisition route. The answer's 'location is unknown' is therefore incomplete.", "fix": "Record that the catalogue gives item_link \"sanctuary\" for entry 1 (Check Seasnail, item 3903; repo collection_catalogue.json:9559). It is a link hint, not a vendor, quest or drop, so the item stays unsourced and wireable stays false."}]}

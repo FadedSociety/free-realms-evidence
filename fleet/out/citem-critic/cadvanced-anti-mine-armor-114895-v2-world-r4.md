@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cadvanced-anti-mine-armor-114895-v2-world-r4 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[12432, 9196, 8, 1110] model=claude-haiku-5-5 -->
+# Advanced Anti-Mine Armor
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].currency", "issue": "The bundle's CurrencyType is 1 and the answer already admits it does not resolve that to Station Cash in this pass. The station_cash label rests only on the wiki's SC section, which is a single undated page. This is a caveat, not a false claim, and it is already listed in open.", "fix": "No change needed to the claim. Keep the 90 SC wiki price and the StoreBundles Id 3133 evidence as stated (verified: StoreBundles.json lines 7844-7872 show Id 3133, NameId 114895, MarketingItemId 59647, CategoryGroupId 103, Status 1, Price 1). Resolve CurrencyType 1 against the store currency table if one is available."}]}

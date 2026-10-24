@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=corange-half-cylinder-tiger-block-134830-v2-world-r4 status=no_submit turns=3 usd=0.0029 tokens(read,write,in,out)=[18555, 17384, 8, 1145] model=claude-haiku-5-5 -->
+# Orange Half Cylinder Tiger Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The source is labelled 'vendor', but no vendor is named and the pack's vendor_stock is empty. The only evidence is a coin-store row, so 'store' or 'coin_store' describes it better than 'vendor'.", "fix": "Label it a coin store sale (stores.json item 77285, category 147, purchase 350 coins, member 315, sell 35). Do not call it a named vendor."}, {"field": "sources[0].where", "issue": "Null. The store row is evidenced, but the pack gives no shop or vendor name, so the answer correctly leaves it unknown.", "fix": "Keep where as null, with a note that the category-147 shop name is not decoded in the repo."}]}

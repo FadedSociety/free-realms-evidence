@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=clarge-treasure-chest-99968-v3-world-r4 status=done turns=2 usd=0.0024 tokens(read,write,in,out)=[3685, 14302, 6, 1102] model=claude-haiku-5-5 -->
+# Large Treasure Chest
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / open", "issue": "The claim that the Lost Treasure Chest trade lock was in 'Game Update 117' (Template:News) is not confirmed by my lookup. The trade-lock text I found is in the wiki blog 'User blog:Soe amnerys/Weekly Update - 11/05/13' and concerns Lost [Treasure Chest] reward items. The citation should be checked or dropped.", "fix": "Cite wiki 'User blog:Soe amnerys/Weekly Update - 11/05/13' for the Lost Treasure Chest trade lock, or remove the GU117 reference. Either way it concerns the Lost chest, not the Large Treasure Chest, so the non-applicability point stands."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmessenger-orange-necklace-96291-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3602, 5013, 6, 889] model=claude-haiku-5-5 -->
+# Messenger Orange Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The lookup for 'Messenger' across client, wiki, articles and video returned only the six Messenger ring/necklace locale lines and locale:89764 (Quick Messenger Shoes). The only wiki hit was an unrelated Central Storyline line where 'messenger' is a plain noun. My repo search for (?i)messenger found nothing beyond unrelated hits. The answer's no-source finding holds.", "fix": "No change to the answer. Its sources list is correctly empty, retired is correctly null, and live stays 'unsure'. The 'search refs found only locale dump lines' claim was not re-checked by me, but it does not change the outcome."}]}

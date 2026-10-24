@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-hasty-mailing-shorts-pl-hasty-mailing-shorts-6039-v1-evidence-r1 status=no_submit turns=2 usd=0.0013 tokens(read,write,in,out)=[4096, 6270, 6, 1004] model=claude-haiku-5-5 -->
+# {n}Hasty Mailing Shorts{pl="Hasty Mailing Shorts"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The answer calls the 291-coin match 'coincidental' as a finding. My repo search for the definition ids (1772, 1774, 13180, 13190, 13198) in prototype/osfr-tools/data/content found no stores.json link, so the absence of a repo store row is confirmed. But the client definition itself lists coin_store_prices [291], so the client-side store link is unresolved, not disproven.", "fix": "Record the price as 'client definition lists coin store price 291; no repo stores.json row links these definition ids (verified), so the link is unresolved'. Do not record it as a vendor source or as coincidence."}]}

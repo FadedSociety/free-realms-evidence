@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isophie-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3133, 3818, 6, 1017] model=claude-haiku-5-5 -->
+# Sophie
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The Seaside NPC evidence omits a third repo hit for Sophie: prototype/osfr-tools/data/content/npc_spawns_extra.json:56985 has an NPC record named 'Sophie'. It supports the NPC conclusion but is not cited.", "fix": "Add prototype/osfr-tools/data/content/npc_spawns_extra.json:56985 (name 'Sophie') as a spawn record alongside seaside.json:25600."}, {"field": "item.kind", "issue": "Kind 'other' is vague for an entry that is an NPC, not an item. The answer's own conclusion is that no item record exists.", "fix": "Mark the entry as kind 'npc' or as not-an-item, so it does not enter the item acquisition pipeline."}]}

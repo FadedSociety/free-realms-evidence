@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifearless-armored-greaves-v2-evidence-r1 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[8948, 5649, 8, 1324] model=claude-haiku-5-5 -->
+# Fearless Armored Greaves
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 67 member price is described as 'derived' from 75 x 0.9 and 'not stated in the source text'. But the wiki page's station_cash field is [75, 67], so 67 is a recorded wiki value, not a calculation. The prose on the page has its price blanks stripped, so the field is the only place the number appears.", "fix": "Cite the wiki station_cash field [75, 67] (freerealms.fandom.com/wiki/Fearless_Armored_Greaves, rev 36939) as the source for 75 regular and 67 member Station Cash. Keep the note that the prose price text is blank in the pack and that the live listing is unconfirmed."}]}

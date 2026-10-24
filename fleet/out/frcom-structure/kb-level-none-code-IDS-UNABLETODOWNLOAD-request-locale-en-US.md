@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=kb-level-none-code-IDS-UNABLETODOWNLOAD-request-locale-en-US status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 1933, 4, 632] model=claude-haiku-5-5 -->
+# Free Realms - Error IDS_UNABLETODOWNLOAD
+
+{"article": {"title": "Free Realms - Error IDS_UNABLETODOWNLOAD", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This is a freerealms.com knowledgebase error page, not an article. It says the server did not recognize the URL and could not download, and shows only the raw error code IDS_UNABLETODOWNLOAD with site footer links. It gives no game facts for a rebuilder.", "facts": [], "quests": [], "uncertain": ["The page is titled Free Realms but is a generic site error page; it may not be about the game itself. No date is shown; the capture date is 2009-11-18."]}

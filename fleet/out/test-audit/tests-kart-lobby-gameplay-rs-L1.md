@@ -1,0 +1,10 @@
+<!-- fleet job=test-audit id=tests-kart-lobby-gameplay-rs-L1 status=done turns=7 usd=0.0054 tokens(read,write,in,out)=[62251, 18390, 16, 5035] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/kart_lobby_gameplay.rs lines 1-215 of 215
+
+One finding in lines 1-215 of `kart_lobby_gameplay.rs`. I checked it against the code under test (`gameplay.rs` 1043-1064 and `kart_lobby_native.rs` 140-156).
+
+- **[high] prototype/osfr-tools/tests/kart_lobby_gameplay.rs:143 private_lobby_load_refuses_malformed_oversized_and_unknown_fields - the "oversized" case is whitespace-only input, so it fails JSON parsing with or without the 256 KiB cap.**
+  - **Why it cannot catch a regression:** `vec![b' '; 256 * 1024 + 1]` is not valid JSON, so `serde_json::from_slice` returns an error on it. If the `MAX_LOBBY_CONTENT` check at `gameplay.rs:1056` (`bytes.len() > MAX_LOBBY_CONTENT` → "exceeds 256 KiB") were deleted, or the `.take(MAX_LOBBY_CONTENT + 1)` bound were removed, `Gameplay::load` would still return `Err` and the `is_err()` assertion on line 147 would still pass. The test name and its `assert_eq!` on line 148 claim the oversized file is refused for size, but the body never exercises the size limit.
+  - **Fix:** Make the oversized payload valid JSON that only exceeds the cap, for example `{"games":[],"options":[],"values":[],"display":[],"settings":[],"pad":"<a string of 256*1024 bytes>"}`. Then the error must come from the size check and not from parsing. Better still, assert the error message or variant contains "exceeds 256 KiB", so that deleting the cap fails the test. Optionally also add a case of exactly 256 KiB of valid JSON that must load, which pins the boundary.
+
+The other cases in the window hold up. The 102/1 opt-in test compares the full decoded body and the state before and after. The malformed-request cases hit the new truncated and trailing-bytes branches (`gameplay.rs:2304-2309`). `deny_unknown_fields` on `LobbyNativeBody` makes the `guess` case a real check. The gateway test's `decode_tunnel` with `Strict` would catch a double wrap.

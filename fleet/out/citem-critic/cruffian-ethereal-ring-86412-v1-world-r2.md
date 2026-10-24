@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cruffian-ethereal-ring-86412-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3917, 7558, 6, 828] model=claude-haiku-5-5 -->
+# Ruffian Ethereal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the Ruffian ring family is job-themed, with the 'Ruffian' and 'Surgeon' prefixes as job themes, is an interpretation. The pack shows only names. The source is cited as a legacy ClientItemDefinitions.json line range that the pack does not show as verified. It is not used as a source, so it does not change the answer, but it should be labelled as inference.", "fix": "Mark the job-theme reading as an inference from names only. Cite locale:86407-86421 for the names and drop the unverified legacy line range, or verify it first."}]}

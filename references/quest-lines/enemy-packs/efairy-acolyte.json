@@ -1,0 +1,41 @@
+{
+ "title": "Fairy Acolyte",
+ "our_entries": [
+  {
+   "file": "npcs/merry_vale.json",
+   "npc_id": 9500000382,
+   "zone": "Merry Vale",
+   "enemy_kind": "Enemy types of the cave line; not quest givers.",
+   "location_evidence": [
+    "The outskirts and the Den."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:74498 [npc_name | - | Fairy Acolyte] 'Fairy Acolyte'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:74498 [npc_name | - | Fairy Acolyte] 'Fairy Acolyte'"
+ ],
+ "client_cluster": [
+  "locale:74490 [quest_dialog | Sanctuary | Hasti's Homework Heist] 'Thanks for helping me look for my homework! It should be scattered around this general area.'",
+  "locale:74491 [quest_dialog | - | Trixi] \"Since you seem to be on a lucky streak, let's see what you can do to help around here. I was supposed to check on Trixi earlier but it's been too busy around he\"",
+  "locale:74492 [quest_title | - | Miner Favor | FLAG not_live: title starts NOT LIVE] 'NOT LIVE: Miner: Miner Favor'",
+  "locale:74493 [quest_objective | - | Trixi] 'Speak with Trixi and see what kind of help she needs!'",
+  "locale:74494 [quest_dialog | - | Trixi] \"That Therin, always trying to pawn off his work on other people!<BR><BR>He's right, I could use your help.\"",
+  "locale:74495 [quest_title | - | Pixie Hunters!] 'Fairy Sentry'",
+  "locale:74497 [quest_title | - | -] 'Pixie Hunters!'",
+  "locale:74498 [npc_name | - | Fairy Acolyte] 'Fairy Acolyte'",
+  "locale:74499 [quest_objective | - | Pixie Hunters!] 'Speak with Trixi'",
+  "locale:74500 [quest_objective | - | Pixie Hunters!] 'Head over to Trixi and speak with her.'",
+  "locale:74503 [other | - | Erik Test | FLAG placeholder: test text \"Do not translate - DNT\"] 'Erik Test - Do not translate - DNT'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:Sy-W_AHbwcw/00290.jpg (Den of Secrets): quest:   Defeat Illusionist Liana! Bonus: Destroy the mysterious pillars within the caverns! - ?/10  | landmarks: pink-lit cavern | job_level: Warrior 7 | other_text: Den of Secr... 04:50:36 Fairy Acolyte (enemy nameplate) Goals (2)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

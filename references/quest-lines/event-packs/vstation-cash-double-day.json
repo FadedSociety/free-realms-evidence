@@ -1,0 +1,29 @@
+{
+ "title": "Station Cash double day",
+ "names_seen": [
+  "Station Cash double day"
+ ],
+ "facts": [
+  {
+   "statement": "SOE ran a Station Cash double day (Station Cash em Dobro) on Saturday April 30, from 4 AM to 3:59 AM Sunday May 1 Brasilia time (8 AM to 7:59 AM Portugal time), as a thank-you after a service interruption.",
+   "numbers": {
+    "start_hour_brasilia": 4,
+    "end_hour_brasilia": 3.99
+   },
+   "era": "live",
+   "quote": "um dia do Station Cash Dobrado, neste Sábado, dia 30 de abril",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2125",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2125",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Portuguese-language SOE news post announcing a Station Cash double day across SOE's portfolio of games on Saturday April 30 (after a recent service interruption), as an apology. It also says SOE was working on a make-good plan for PS3 players of DC Universe Online and Free Realms, with details to follow on the game forums and websites."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

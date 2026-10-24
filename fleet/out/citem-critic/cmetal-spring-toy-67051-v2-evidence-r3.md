@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetal-spring-toy-67051-v2-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3959, 5633, 6, 952] model=claude-haiku-5-5 -->
+# Metal Spring Toy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "wireable", "issue": "The only source is a collection-add entry with no price, quest, enemy or event. The wireable rule asks for one of those, so the item is not wireable on this evidence even though the collection entry is real.", "fix": "Keep wireable false unless a builder accepts a collection-add entry as an acquisition path. The entry itself is confirmed: collection_catalogue.json lines 14265-14269 show name_id 67051, item_definition_id 23438, item_link 'sanctuary' in collection id 179 (name_id 67545), and the sibling range 67048-67054 is confirmed by lines 14236-14290."}]}

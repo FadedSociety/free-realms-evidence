@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpet-bed-132584-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4082, 7243, 6, 1032] model=claude-haiku-5-5 -->
+# Pet Bed
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[4] / open", "issue": "The pack asserts the 2010 Butterfly bed in the Coin Shop is 'a related but different item' from Pet Bed. The article snippet (articleId=1730) only says Butterfly housing items (rug, side table, bed) were added to the Coin Shop. It does not name the bed or rule out that it is the same item, so the 'different item' claim is unsupported either way.", "fix": "Keep Pet Bed as a Coin Shop source (stores.json:11844, item 36171, category 54, 800 coins, member 720 coins; matches the client's coin_store_prices). Reword the article note as 'unresolved: a 2010 Butterfly bed in the Coin Shop may or may not be this item (source: article 1730)'."}]}

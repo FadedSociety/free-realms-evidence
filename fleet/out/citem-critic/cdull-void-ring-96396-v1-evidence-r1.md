@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-void-ring-96396-v1-evidence-r1 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[9480, 6158, 8, 907] model=claude-haiku-5-5 -->
+# Dull Void Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that 'Dull Void Ring' appears as ucdt/ugdt strings 1397692554 and 1956526860 in en_us_data.dat (lines 37095 and 51583) could not be confirmed. A repo search for both ids returned no matches. The claim is therefore unsupported in the accessible repo, though it does not change the answer.", "fix": "Drop the ucdt/ugdt claim, or re-cite it to a file path the repo search can reach. The only verified client evidence is locale:96396 and definition 30990 (slot 8, class 68, no models, no coin store price)."}]}

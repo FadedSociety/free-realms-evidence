@@ -1,0 +1,53 @@
+{
+ "title": "Marasmius",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\mushroom_cavern.json"
+  },
+  {
+   "file": "dungeons\\mushroom_cavern.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:5506 [npc_name | - | Marasmius] 'Marasmius'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5488 [quest_objective | - | Marasmius] 'Defeat the mad mushroom Marasmius!'",
+  "locale:5506 [npc_name | - | Marasmius] 'Marasmius'",
+  "locale:24745 [npc_dialog | - | Marasmius] '*Scratch behind the ears*'",
+  "locale:100786 [npc_dialog | - | Marasmius] 'You leave Marasmius home now!'",
+  "locale:100787 [other | - | Marasmius | FLAG joke: nonsense gag line, not quest content] 'Marasmius walk around. If you close, Marasmius squish you!'",
+  "locale:103198 [quest_objective | - | Marasmius] 'Fungal beasts and bats are causing havoc! Defeat their leader, Marasmius, to put a stop to their antics!'",
+  "locale:419203 [quest_objective | Briarwood | Marasmius] 'Defeat Marasmius'"
+ ],
+ "client_cluster": [
+  "locale:5498 [place | - | Short Range Elevator Platform] 'Short Range Elevator Platform'",
+  "locale:5499 [other | - | Short Range Elevator Platform] '50% moving. 50% platform. 100% awesome! This platform moves up and down.'",
+  "locale:5500 [quest_dialog | - | Tavern Cellar] 'Defeating Cal should convince the other hooligans to get out of the cellar and stop causing trouble.'",
+  "locale:5501 [quest_dialog | - | Tavern Cellar] 'Lucy has been kidnapped by a band of hooligans. The hooligan hideout is in the Tavern Cellar behind the Roadhouse.'",
+  "locale:5502 [quest_dialog | - | Find those Pies!] \"Jenny Ironstomach's apple pies were stolen by the hooligans. Help her retrieve them before they're devoured!\"",
+  "locale:5503 [npc_dialog | - | Chugilda] \"Chugilda's cooking is the best!\"",
+  "locale:5504 [npc_dialog | - | Chugilda] 'But her baking skills... Well...'",
+  "locale:5505 [npc_dialog | - | -] \"The cake looks a bit unstable, doesn't it?\"",
+  "locale:5506 [npc_name | - | Marasmius] 'Marasmius'",
+  "locale:5507 [place | - | Bat Hole] 'Bat Hole'",
+  "locale:5508 [ability | - | Bat Hole] 'Vampire Bat Bite'",
+  "locale:5510 [ability | - | Screecher Aura] 'Screecher Aura'",
+  "locale:5511 [ability | - | Stink Bombs] 'Stink Bombs'",
+  "locale:5512 [ability | - | Stink Bombs] 'Causes nearby opponents to run in fear.'",
+  "locale:5513 [ability | - | Flute of Slumber] 'Flute of Slumber'",
+  "locale:5514 [ability | - | Flute of Slumber] 'Causes nearby opponents to fall asleep.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

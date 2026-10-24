@@ -1,0 +1,49 @@
+{
+ "title": "Pirate's Plunder community event",
+ "names_seen": [
+  "Pirate's Plunder community event"
+ ],
+ "facts": [
+  {
+   "statement": "A community event in Seaside invited members to play the Pirate's Plunder minigame, collecting gold and capturing a prize, with a party on the pier and beach.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Gather yer crew on the shores of Seaside and party on the pier! Members can try their luck at the Pirate's Plunder minigame.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2020",
+   "date": null
+  },
+  {
+   "statement": "The event ran on Thursday February 3rd, 2011 at 3pm Pacific Time for U.S. and Latin America, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday February 3rd, 2011 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2020",
+   "date": null
+  },
+  {
+   "statement": "The event ran on Friday February 4th, 2011 at 9:00am Pacific Time (4:00pm GMT) for UK and Europe, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "start_hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday February 4th, 2011 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2020",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2020",
+   "date": null,
+   "title": "Community Event: Pirate's Plunder!",
+   "summary": "A SOE community event post announcing a Pirate's Plunder event on the Seaside shores, where members could play the Pirate's Plunder minigame. The event ran on Server 1 on two dates, one for the U.S. and Latin America and one for the UK and Europe. The post's relative posting age does not pin an exact posting date."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "No Prey, No Pay (final, live yes)"
+ ]
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cheavy-infernal-square-shard-69762-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4128, 8796, 6, 1313] model=claude-haiku-5-5 -->
+# Heavy Infernal Square Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "The 'Square shards are job-gear shards sold or awarded through several channels' claim rests on Postman/Fisherman job notes and a Briarheart TCG redemption page. None of these name the Infernal/Heavy tier, so it is background only and does not support any source for item 22860. It should not be read as a channel for this item.", "fix": "Keep it out of the source list or label it as unrelated context. The only evidenced source is stores.json:6715 (item 22860, category 121, purchase 1149, member 1034, sell 114, no_sale false), which I verified directly. The client coin_store_prices [1149] matches."}]}

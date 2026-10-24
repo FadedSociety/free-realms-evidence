@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmall-unfinished-mosaic-dining-chair-147723-v1-world-r2 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[10499, 9685, 8, 988] model=claude-haiku-5-5 -->
+# Small Unfinished Mosaic Dining Chair
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Labelled 'Coin store' with category 53, but category 53 is a shared store category holding many unrelated items (e.g. 36514, 36515, 2709, 15586), and the repo does not name the vendor or the store page behind it. The 'Coin store' label is an inference from stores.json, not a named vendor.", "fix": "Keep the source as a coin-store sale (repo:prototype/osfr-tools/data/content/stores.json item 36524: purchase 350, member 315, sell 35, category 53), and state the vendor as unidentified, as the answer already does. The price is verified; the store-page label is not further evidenced."}]}

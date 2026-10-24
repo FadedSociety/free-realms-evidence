@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=d38fc2ffcaf99cc31b9e0c57d6794fdbae0f1e05 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2163, 4, 634] model=claude-haiku-5-5 -->
+# Bittersweet Sparkling Flair Shard held.jpg
+
+{"kind": "item_render", "has_text": false, "text": "", "tooltip": null, "entries": null, "uncertain": ["The image shows a character model in-game holding two weapons: a double-bladed axe with a pale blue/white metal head and dark engraved pattern, and a mace or flail with a spiked head held in the left hand. It has no visible text, tooltip, stat numbers or labels. The item name 'Bittersweet Sparkling Flair Shard' comes only from the wiki file name and page title, not from anything read in the image, so no locale lookup was made and no locale_id is given. The sparkle effects around the axe are visual only."]}

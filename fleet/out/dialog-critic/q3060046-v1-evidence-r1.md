@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=q3060046-v1-evidence-r1 status=done turns=2 usd=0.0023 tokens(read,write,in,out)=[5795, 12325, 6, 1327] model=claude-haiku-5-5 -->
+# Demo Derby: Only the Strong
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "other_lines / evidence[1]", "issue": "The answer calls locale:403487 a 'soccer-scrimmage objective'. The client text reads only 'Help the Sidekicks out! Play a game against the Snowhill Snowspurs with them.' (quest_objective, hint 'Demo Derby'). Nothing in the line says soccer, so that characterisation is unsupported. The rejection itself still holds: the guide (Demolition Derby Driver.md line 267) says Only the Strong has no objective text, so 403487 is not bound here.", "fix": "Describe 403487 only as a Demo Derby quest_objective about playing a game against the Snowhill Snowspurs with the Sidekicks, citing locale:403487. Do not add a soccer claim."}]}

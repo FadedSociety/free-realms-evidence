@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=6b21e3a696be5dacb91d2a3cbfbf73c718cb0dde status=done turns=2 usd=0.0007 tokens(read,write,in,out)=[2070, 2342, 6, 747] model=claude-haiku-5-5 -->
+# 1L54 batwing cookie card.png
+
+{"kind": "item_render", "has_text": true, "text": "1\nFreeRealms\nBatwing Cookie\nCreates the illusion that you are a shneker for 15 minutes.\n1L54", "tooltip": null, "entries": null, "uncertain": ["The bottom-left code is tiny and blurry; read as '1L54', matching the file name. The top-right '1' is a card number. The description word 'shneker' is as printed; it is not in the locale table, so the spelling is unverified against the client. This is a collectible card face showing an item name and description, not a stat tooltip, so no power, level, price or ability fields apply. Name 'Batwing Cookie' matches locale id 1929."]}

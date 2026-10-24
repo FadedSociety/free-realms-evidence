@@ -1,0 +1,124 @@
+{
+ "title": "Sanctuary",
+ "names_seen": [
+  "Sanctuary"
+ ],
+ "facts": [
+  {
+   "statement": "The Trick or Treat party was held in Sanctuary, where the community team and players wore costumes and brought a cassette radio for a Spooktacular-style party.",
+   "numbers": {},
+   "era": "live",
+   "quote": "El equipo Comunitario y todos tus amigos lucirán los mejore disfraces",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1870",
+   "date": null
+  },
+  {
+   "statement": "Sanctuary was the meeting location for the House Party community event.",
+   "numbers": {},
+   "era": "live",
+   "quote": "we'll meet up in Sanctuary (see the map below)",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2286",
+   "date": null
+  },
+  {
+   "statement": "Players gathered at the intersection in front of the giant tree in Sanctuary for the housing party.",
+   "numbers": {},
+   "era": "live",
+   "quote": "nos reuniremos en la intersección frente al árbol gigantesco",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=834&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1870",
+   "date": null,
+   "title": "Evento Comunitario: Fiesta de Truco o Trato en Santuario",
+   "summary": "A Spanish-language community event notice (captured under the 'What is New?' page) announcing a Trick or Treat party in Sanctuary to celebrate the second anniversary of the Super Spooktacular edition. It gives the event dates and server (Server 1) for the US/Latin America and UK/Europe sessions in October 2010. The article's own posting date is not shown; only the event dates are given."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2286",
+   "date": null,
+   "title": "Community Event: House Party Tuesday",
+   "summary": "A Community Team event announcement: on Tuesday, October 3rd, players meet in Sanctuary for a House Party tour of decorated player homes. A special Community character named \"House Party\" teleports to featured houses, and players can teleport to him when he moves. The page gives times for two server groups, and the year is not stated on the page."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=834&request_locale=en_US",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language community event announcement on freerealms.com: players meet in Sanctuary to visit each other's decorated homes and share decorating tips, for a Friday 8 January 2010 event on Server 1 held at two times for different regions. It gives the meeting point and the rule that you must be on a friend's list to visit their home. The article's own posting date is unclear (it shows only a relative age, '1 year, 4 months ago')."
+  }
+ ],
+ "wiki_category_members": [
+  "Bixie Queen",
+  "Bixie Hive",
+  "Bixie",
+  "Bruce",
+  "Bordon Cloo",
+  "Belladonna",
+  "Alyssa Eggelyn",
+  "Brent",
+  "Bixie Pikeman",
+  "Bixie Battlemage",
+  "Bixie Soldier",
+  "Doctor Gordon",
+  "Cakenstein",
+  "Drone Fauzz",
+  "Darvon's Descent",
+  "Domo",
+  "Camellia",
+  "Captain Sunspark",
+  "Changelings",
+  "Edwin",
+  "Heartseed",
+  "Guard Banee",
+  "Guard Verbi",
+  "Halloween Harry",
+  "Forgotten Caves",
+  "Geoffrey",
+  "Kara Loft",
+  "Florina",
+  "Honey",
+  "Kellin Warpwatcher",
+  "General Glowlight",
+  "Memorial Caverns",
+  "One of Three",
+  "Linraist",
+  "New Year's Eve Party Ball",
+  "Necronomicus",
+  "Queensfields",
+  "Poe Tatters",
+  "Pumpkin Prince",
+  "Queen Valerian",
+  "Sandbur",
+  "Sam Potts",
+  "Rio Cloudjumps",
+  "Shephard",
+  "Sanctuary",
+  "Pixiewood Hills",
+  "Royal Vault",
+  "Osgood",
+  "Tiger the Party Animal",
+  "Wake",
+  "Sunstone Jones",
+  "The Scrutinizer",
+  "World Tree"
+ ],
+ "quest_answers_mentioning_it": [
+  "Blacksmith: Helping the Hospital (unresolved, live yes)",
+  "Card Duelist: Enter the Champion (unresolved, live yes)",
+  "Card Duelist: Sam I Am (unresolved, live unsure)",
+  "Practice Makes Perfect (unresolved, live unsure)",
+  "Card Duelist: 52 Card Pick-Up (final, live unsure)",
+  "Card Duelist: So Over Archery (final, live yes)",
+  "Card Duelist: Cardie 4 Life (unresolved, live yes)",
+  "Card Duelist: History of the Crew (final, live unsure)",
+  "Card Duelist: Half a Deck (final, live yes)",
+  "Card Duelist: Poe's Planted Cards (final, live yes)",
+  "Card Duelist: Poe's Best Deck (final, live yes)",
+  "So You Want to be a Medic? (final, live yes)",
+  "Medic: Operation: Revival (final, live yes)",
+  "Medic: House Call (final, live yes)",
+  "Medic: Take Your Vitamins (unresolved, live yes)"
+ ]
+}

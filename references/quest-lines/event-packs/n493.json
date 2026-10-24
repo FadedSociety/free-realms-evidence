@@ -1,0 +1,28 @@
+{
+ "title": "PSN outage",
+ "names_seen": [
+  "PSN outage"
+ ],
+ "facts": [
+  {
+   "statement": "As of the article (April 28, 2011), PS3 players of Free Realms had been unable to access the game for a week because of the PlayStation Network outage.",
+   "numbers": {
+    "days_without_access": 7
+   },
+   "era": "live",
+   "quote": "DC Universe Online (DCUO) and Free Realms players on the PS3 have also been unable to access their MMOGs during the outage",
+   "article": "http://www.tentonhammer.com:80/node/97926",
+   "date": "2011-04-28"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/97926",
+   "date": "2011-04-28",
+   "title": "Sony Offers PSN Update, SOE Forming a \"make good\" Plan for DCUO and Free Realms Players",
+   "summary": "A Ten Ton Hammer news post from during the 2011 PlayStation Network outage. It says PS3 players of Free Realms could not access the game during the outage, and that Sony Online Entertainment's systems are separate from PSN. It reports that SOE was working on a \"make good\" compensation plan, with details promised later on the PS3 forums; the article gives no details of that plan."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

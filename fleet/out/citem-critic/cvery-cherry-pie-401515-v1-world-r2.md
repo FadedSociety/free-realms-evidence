@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cvery-cherry-pie-401515-v1-world-r2 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[13694, 10476, 8, 1362] model=claude-haiku-5-5 -->
+# Very Cherry Pie
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The cited repo note notes/Build Guides/Content/Jobs/Chef.md:332 was not re-checked here. A repo-wide search for 'Cherry', 'Two-Tone', 'Berry Cupcake', 'Heavenly Donut' and 'Dewy Lettuce' in *.md found nothing, and the lookup of 'Cherry Pie recipe cooking' in wiki and articles returned no matches. The 'no source' finding holds on my checks.", "fix": "Minor: confirm or drop the Chef.md:332 citation. It is not needed for the no-source result. The 'live: unsure' and empty sources stay honest; no vendor, recipe, quest, drop or store source was found in client, wiki, articles, video, repo or refs."}]}

@@ -1,0 +1,57 @@
+{
+ "title": "Child's Play 2010 charity drive",
+ "names_seen": [
+  "Child's Play 2010 charity drive",
+  "Child's Play charity drive"
+ ],
+ "facts": [
+  {
+   "statement": "SOE supported the Child's Play charity with special in-game items purchasable with Station Cash, selected during December 21 to December 31.",
+   "numbers": {
+    "start_day_december": 21,
+    "end_day_december": 31,
+    "donation_per_item_usd": 10,
+    "donation_cap_usd": 50000
+   },
+   "era": "live",
+   "quote": "Por cada articulo seleccionado dentro del juego del 21 de Diciembre al 31 de Diciembre, SOE donara $10 a la beneficencia, hasta $50, 000 en total.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1981",
+   "date": null
+  },
+  {
+   "statement": "SOE ran a Child's Play charity drive in which buying special Child's Play items in participating SOE games, including Free Realms, donates money to Child's Play.",
+   "numbers": {
+    "donation_per_item_usd": 10,
+    "max_total_donation_usd": 50000
+   },
+   "era": "live",
+   "quote": "SOE will donate $10 per item, up to a maximum of $50,000.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2427",
+   "date": null
+  },
+  {
+   "statement": "The special Child's Play items were only available during the month of December.",
+   "numbers": {},
+   "era": "live",
+   "quote": "These very special items will only be available in the month of December",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2427",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1981",
+   "date": null,
+   "title": "Child's Play 2010!",
+   "summary": "A Spanish-language SOE news post about the Child's Play 2010 charity drive. Between December 21 and December 31 (2010), Station Cash items sold in Free Realms earned a donation from SOE of $10 per selected item, up to $50,000 total. The Free Realms item in the drive was a penguin pet; the post lists one item per participating SOE game."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2427",
+   "date": null,
+   "title": "The SOE Child's Play Charity Drive",
+   "summary": "SOE's holiday news post (German-localized page) announces the Child's Play charity drive, in which purchases of special items in participating SOE games, including the Free Realms pet Snowflake, trigger a $10 donation per item up to $50,000. The article says these items were available only in December. The page gives only a relative posting age ('3 months, 2 weeks ago'), so no absolute date is stated."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

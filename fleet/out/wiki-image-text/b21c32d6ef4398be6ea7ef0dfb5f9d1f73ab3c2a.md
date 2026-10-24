@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=b21c32d6ef4398be6ea7ef0dfb5f9d1f73ab3c2a status=done turns=2 usd=0.0008 tokens(read,write,in,out)=[2008, 3548, 6, 671] model=claude-haiku-5-5 -->
+# Gloamstone Hoverboard.png
+
+{"kind": "item_render", "has_text": true, "text": "Gloamstone", "tooltip": null, "entries": null, "uncertain": ["The only legible text is the label 'Gloamstone' under a question-mark marker icon above the hoverboard render. It is not a tooltip, so no stats, power, level or price are shown.", "The label reads as a world nameplate or marker, not the full item name. The client's item name is 'Gloamstone Hoverboard' (locale id 387), which matches the file name. The label 'Gloamstone' itself exists in the client as ids 437824 and 438099, but those are quest/objective strings, so I did not assign it an id."]}

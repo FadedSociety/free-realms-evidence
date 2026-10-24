@@ -1,0 +1,54 @@
+{
+ "title": "Smuggler Hannah",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\croaking_vale.json"
+  },
+  {
+   "file": "dungeons\\croaking_vale.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:77319 [npc_name | - | Smuggler Hannah] 'Smuggler Hannah'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:77319 [npc_name | - | Smuggler Hannah] 'Smuggler Hannah'"
+ ],
+ "client_cluster": [
+  "locale:77312 [quest_objective | Croaking Vale | Hopping Parade!] 'Return the rescued frogs to Ridel!'",
+  "locale:77314 [npc_name | Croaking Vale | Uncorrupted Toad] 'Uncorrupted Toad'",
+  "locale:77315 [item | Croaking Vale | Toad Cage] 'Toad Cage'",
+  "locale:77316 [npc_name | Croaking Vale | Young Squirm] 'Young Squirm'",
+  "locale:77317 [npc_name | - | Smuggler Han] 'Smuggler Han'",
+  "locale:77319 [npc_name | - | Smuggler Hannah] 'Smuggler Hannah'",
+  "locale:77320 [quest_dialog | Dartmoor | Miner: The Perfect Pour] \"That was pretty amazing, but how fast can you smelt tin?<BR><BR><font color='#D9781A'>Smelt five tin bars in a single session</font> and come back to me. If you\"",
+  "locale:77321 [quest_title | Dartmoor | Miner: The Perfect Pour] 'Miner: The Perfect Pour'",
+  "locale:77322 [quest_objective | Dartmoor | Miner: The Perfect Pour] 'Derp wants you to prove you have mastered the art of smelting. Perfectly create five tin bars at the smelting furnace in a single session without spilling any o'",
+  "locale:77323 [quest_dialog | Dartmoor | Miner: The Perfect Pour] \"You've proven me wrong twice now! Well done.\"",
+  "locale:77325 [quest_title | Dartmoor | The Perfect Pour] 'The Perfect Pour'",
+  "locale:77326 [quest_objective | Dartmoor | The Perfect Pour] \"As a miner, smelt five tin bars in a single smelting session. Don't spill any ore!\"",
+  "locale:77327 [quest_objective | Dartmoor | The Perfect Pour] 'Successfully smelt five tin bars'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Smuggler Hannah\nSmuggler Han"
+ ],
+ "video": [
+  "video:CnUr3X24d_M/00122.jpg (-): npcs: Smuggler Hannah nameplate  Trapper nameplate  | quest:   Defeat ? and Hannah in the ? - ?/2 ",
+  "video:pfgmx-YRZD0/00046.jpg (Croaking Vale): npcs: Smuggler Hannah nameplate  | quest:   Defeat Han and Hannah in the Croaking Vale! Bonus: Free any captured frogs you find!  | job_level: Archer 20 | other_text: Goals (2)",
+  "video:nQWw2WOAB04/00062.jpg (Crashing Vale): quest:   Defeat Ham? and Hannah in the Crashing Vale - complete  | job_level: Ninja 20 | other_text: Goal Complete! Smuggler Hannah (enemy name bar) Trapper (enemy nameplates) You don't have enough energy for that ability!",
+  "video:nQWw2WOAB04/00042.jpg (Crashing Vale): quest:   Defeat Ham and Hannah in the Crashing Vale - 0/2  | job_level: Ninja 28 | other_text: Goals (1) Smuggler Hannah You don't have enough energy for that ability! You can't use abilities right now!",
+  "video:nQWw2WOAB04/00046.jpg (Crashing Vale): quest:   Defeat Ham and Hannah in the Crashing Vale - 0/2  | job_level: Ninja 28 | other_text: Goals (1) Smuggler Hannah You don't have enough energy for that ability! You can't use abilities right now!"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Archer: Remain Vigilant' (final): Orson would like for you to travel to the Croaking Vale in Briarwood and defeat the bosses of the smuggling operation."
+ ]
+}

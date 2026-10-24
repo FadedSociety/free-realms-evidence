@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchilled-rose-17506-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3694, 5483, 6, 790] model=claude-haiku-5-5 -->
+# Chilled Rose
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources list is correct: no vendor, price, quest, drop or event evidence for Chilled Rose was found. My lookups confirm the same: locale:132492 says 'This item can be added to the Snowhill Roses Collection', and the wiki List of Collections has a '[Snowhill] [Roses]' entry. Neither names Chilled Rose or a way to obtain it, so the item is not wireable.", "fix": "No change to the answer. Optional: the wiki page for the Snowhill Roses collection (not retrieved) should be checked for its rose list and acquisition method before a source is added. The 'Snowhill Roses Collection' name is from the UI description text, so it describes a collection, not a sold item."}]}

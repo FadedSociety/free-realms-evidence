@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cburning-celestial-triangle-shard-69815-v2-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3689, 7445, 6, 999] model=claude-haiku-5-5 -->
+# Burning Celestial Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Typed as 'vendor', but the only evidence is a coin-store listing row (category 121) with no selling NPC or vendors.json stock row. The answer's own 'where' is null and its open list says the vendor is unknown, so 'vendor' overstates the evidence.", "fix": "Relabel as a coin store listing (type 'coin_store' or similar) at 2363 coins, member 2126, sell-back 236, citing repo:prototype/osfr-tools/data/content/stores.json:6768. Keep the vendor as unknown. I checked the row: item_id 22913, category 121, purchase 2363, member 2126 (10%), sell 236, no_sale false. It matches the answer."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=page-the-user-interface-vm status=nothing_found turns=1 usd=0.0004 tokens(read,write,in,out)=[0, 1917, 4, 309] model=claude-haiku-5-5 -->
+# Free Realms - Error W77
+
+{"article": {"title": "Free Realms - Error W77", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The archived page is an error screen from freerealms.com (URL slug refers to a help answer about the user interface) reading that a Robgoblin got into the computers and asking the visitor to click a button to try again. It contains no game mechanics, quests, items, or release facts a rebuilder could use, and no article content beyond site navigation.", "facts": [], "quests": [], "uncertain": ["The page text is only an error message with site footer links; the intended help article about the user interface is not present in the capture.", "Error code W77 is named only in the title; its meaning is not stated in the text."]}

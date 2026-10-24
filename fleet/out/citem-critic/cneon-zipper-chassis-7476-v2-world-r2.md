@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cneon-zipper-chassis-7476-v2-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4088, 4821, 6, 910] model=claude-haiku-5-5 -->
+# Neon Zipper Chassis
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Lookup across client, wiki, articles and video returns only client locale hits for the Neon Zipper name and its siblings (7169, 7476, 7488, 406499, 406511, 406523, 406535, 406547, 406559, 406571). The repo search for 60983, 'Neon Zipper' or 'Zipper Chassis' returns no matches. No vendor, quest, drop, event or wiki source appears, so leaving sources empty and retired null is consistent with the evidence.", "fix": "No change needed to the sources. The answer should keep 'live: unsure' and 'wireable: false' as stated. The class 131 vs Chassis 139 conflict remains open until item row 60983 is read."}]}

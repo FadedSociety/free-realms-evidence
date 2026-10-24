@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrick-large-floor-30769-v1-evidence-r1 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11855, 8713, 8, 1330] model=claude-haiku-5-5 -->
+# Brick Large Floor
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The only source is a coin-store catalogue row (stores.json category 4). No vendor NPC or stock list names this item, so 'vendor' overstates it. The answer's own open list admits the NPC is unidentified. The row itself is evidenced.", "fix": "Keep the price as evidenced: store category 4, purchase 100 coins, member 90 coins (stores.json:11883, item_id 36334; CoinStoreItems.json:53360 CategoryId 4). Label the type as 'coin store (category 4)' rather than 'vendor' unless an NPC is found."}]}

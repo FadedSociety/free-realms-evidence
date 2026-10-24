@@ -1,0 +1,49 @@
+{
+ "title": "Tuga the Bruiser",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\deep_mines.json"
+  },
+  {
+   "file": "dungeons\\deep_mines.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:6472 [npc_name | - | Tuga the Bruiser] 'Tuga the Bruiser'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6472 [npc_name | - | Tuga the Bruiser] 'Tuga the Bruiser'",
+  "locale:7450 [quest_dialog | Deep Mines | Tuga the Bruiser] 'Tuga the Bruiser took over the Deep Mines! Find and defeat Tuga so the miners can return to their jobs!'"
+ ],
+ "client_cluster": [
+  "locale:6464 [other | - | changeling_f | FLAG dev_note: internal asset id] 'changeling_f'",
+  "locale:6466 [npc_dialog | - | -] \"I'm sizzling delicious, won't you adopt me?\"",
+  "locale:6467 [quest_objective | - | The Bat Cave!] 'Remove the Bat King!'",
+  "locale:6468 [npc_name | - | Frostfang Wolf] 'Frostfang Wolf'",
+  "locale:6470 [quest_dialog | - | Loryn] 'That was some fast sorting!  See if Loryn could use more help.'",
+  "locale:6471 [npc_name | - | Robgoblin Knuckle Head] 'Robgoblin Knuckle Head'",
+  "locale:6472 [npc_name | - | Tuga the Bruiser] 'Tuga the Bruiser'",
+  "locale:6473 [npc_name | - | Burlen] 'Burlen'",
+  "locale:6474 [npc_name | - | Rockslide] 'Rockslide'",
+  "locale:6475 [npc_name | - | Cave Yeti] 'Cave Yeti'",
+  "locale:6476 [npc_name | - | Frosty] 'Frosty'",
+  "locale:6477 [npc_name | - | Chillblaine] 'Chillblaine'",
+  "locale:6478 [npc_name | - | Rock Crawler] 'Rock Crawler'",
+  "locale:6479 [npc_name | - | Elder Rock Crawler] 'Elder Rock Crawler'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Tuga the Bruiser",
+  "image (image:map): 4a.\n2nd trapped miner escorts PC to blast cave-in at POI 5.\nFINISH\n5. Blast rock cave-in\n4. Mini-Boss\n3a.\nAn area trigger is set to alert the combat NPC'S + dialog relating to mini-boss.\n3. Rescue trapped miner. Get dynamite info at action point 4.\n2a.\nRock slide event is triggered by Boss.\n2.\nNPC's"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

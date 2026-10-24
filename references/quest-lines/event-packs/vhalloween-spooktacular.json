@@ -1,0 +1,68 @@
+{
+ "title": "Halloween Spooktacular",
+ "names_seen": [
+  "Halloween Spooktacular"
+ ],
+ "facts": [
+  {
+   "statement": "The Halloween Spooktacular event ran from October 13, 2011 to November 23, 2011.",
+   "numbers": {
+    "start_month": 10,
+    "start_day": 13,
+    "end_month": 11,
+    "end_day": 23,
+    "year": 2011
+   },
+   "era": "live",
+   "quote": "The Spooktacular will be here from October 13, 2011 to November 23, 2011.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2304",
+   "date": null
+  },
+  {
+   "statement": "The Halloween Spooktacular event continued with the release of new items in an update.",
+   "numbers": {},
+   "era": "live",
+   "quote": "The Halloween Spooktacular continues with the release of new items!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2306",
+   "date": null
+  },
+  {
+   "statement": "The Halloween Spooktacular continued with the release of new items in an update.",
+   "numbers": {},
+   "era": "live",
+   "quote": "The Halloween Spooktacular continues with the release of new items!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2309",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2304",
+   "date": null,
+   "title": "Spooktacular Returns",
+   "summary": "Official freerealms.com news post announcing the return of the Halloween Spooktacular event, running October 13 to November 23, 2011. It lists the seasonal world event, a Vampires vs. Werewolves Dance-Off, Halloween quests, Marketplace items, TCG rewards, housing items and outfits. The page gives no exact post date; it shows only 'Posted 4 days, 17 hours ago' relative to capture."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2306",
+   "date": null,
+   "title": "Spooktacular Continues and New Rides",
+   "summary": "A freerealms.com news post saying the Halloween Spooktacular event continued with new items in an update. It lists the October Member Pack, a new Bog Shore lot, Halloween housing items, Halloween outfit pieces, and the return of past Halloween Coin Shop items. The post is relative-dated ('6 days, 18 hours ago') against a 2011-10-27 capture, so the exact posting date is approximate (around 2011-10-21)."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2309",
+   "date": null,
+   "title": "Spooktacular Continues and New Rides",
+   "summary": "A Spanish-language freerealms.com news post announcing new Halloween Spooktacular items in a game update: a teaser for new rides, the October Member Pack contents, a new Bog Shore Lot with Halloween housing items, new Halloween outfits, and the return of past Halloween Coin Shop items. The page gives only a relative date ('hace 1 año, 1 semana'), so the exact date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "A Dark Future (unresolved, live yes)",
+  "A Formal Report (final, live yes)",
+  "Bag Snatchers (final, live yes)",
+  "Candy Gram (final, live yes)",
+  "Delicious Goo'd Candy (final, live yes)",
+  "Halloween Fanatic (final, live yes)",
+  "The Great Scare (final, live unsure)"
+ ]
+}

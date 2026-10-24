@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isamwell-v2-evidence-r3 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3407, 4357, 6, 994] model=claude-haiku-5-5 -->
+# Samwell
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "Cites locale:117196 as support, but the id check flags it as a fragment name-only row (FLAG fragment: name only), so it is not live evidence. The claim that it is the only client match is true (lookup and locale both return only that row), but the citation should not be treated as a live source.", "fix": "Keep the claim but label it as 'only client text row, flagged fragment: name only (locale:117196), not live evidence'. Do not cite it as an item or live source. The wiki (rev 45927) and the repo NPC lists (seaside.json:5454, npc_spawns_extra.json:9957, NPCs - Seaside.md:149) already support the NPC-not-item conclusion, and I confirmed those cites exist."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chardwood-phantasmal-necklace-69676-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3759, 8229, 6, 1019] model=claude-haiku-5-5 -->
+# Hardwood Phantasmal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0]", "issue": "The family-range claim (locale:69670-69681, plus 99276-99281 and 99360-99364) was not re-verified. The pack's cluster lists only 69671-69681 members. The lookup I ran returned only locale:69676 for this name, so the wider range is unchecked.", "fix": "Either verify the 99276-99281 and 99360-99364 ranges against the client locale table or drop them from the claim. The core finding stands: no wiki, article, video, store, vendor or quest source names Hardwood Phantasmal Necklace (I found none in repo or refs either)."}]}

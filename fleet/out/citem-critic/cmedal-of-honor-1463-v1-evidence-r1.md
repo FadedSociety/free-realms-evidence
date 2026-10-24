@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmedal-of-honor-1463-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3526, 7364, 6, 870] model=claude-haiku-5-5 -->
+# Medal of Honor
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The answer sets kind to \"collection\", which is the first-pass guess. The only basis is the item's own description ('This item can be added to a collection.'), which describes its use, not how it is acquired or what category it is. The answer's own open list says so, but the item block states it as fact.", "fix": "Mark kind as unverified (e.g. 'collection?' or 'unknown') until a source names it. The evidence pack supports only the client definition 3315 / locale:1463 and the description text."}]}

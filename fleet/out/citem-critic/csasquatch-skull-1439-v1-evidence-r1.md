@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csasquatch-skull-1439-v1-evidence-r1 status=done turns=6 usd=0.0036 tokens(read,write,in,out)=[58792, 14871, 14, 2267] model=claude-haiku-5-5 -->
+# Sasquatch Skull
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "Minor: the answer does not mention that the Legacy and Sanctuary ClientItemDefinitions.json files carry the same record (Comment 'Sasquatch Skull', Id 3291, NameId 1439, DescriptionId 24229, Type 1, Cost 1, MaxStackSize -1). This corroborates the client definition but is not cited. It is not a wrong claim.", "fix": "Cite refs FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:61186 (and Sanctuary/src/Resources/ClientItemDefinitions.json:61186) as supporting the definition id 3291 and description 24229. Confirmed: locale 24229 reads 'This item can be added to a collection.'"}]}

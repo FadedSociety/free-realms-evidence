@@ -1,0 +1,6 @@
+<!-- fleet job=citem-critic id=cred-petal-8013-v2-evidence-r3 status=no_submit turns=2 usd=0.0014 tokens(read,write,in,out)=[3479, 5966, 6, 1268] model=claude-haiku-5-5 -->
+# Red Petal
+
+```json
+{"lens": "evidence", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].where / detail", "issue": "The coin_shop row is real and its numbers match stores.json lines 2068-2070 (item 8013: purchase 338, member 304, sell 33, category 207, tint group 2). But no vendor or shop is named anywhere in the pack, so the source records a price with no location. The answer is right to leave `where` null and to mark the source unconfirmed.", "fix": "Keep the coin_shop row as an unconfirmed source at 338 coins (member 304, sell 33), citing stores.json line 2069. Do not name a vendor unless a stock or wiki source supplies one. The client's coin_store_prices is empty, so no client confirmation exists."}, {"field": "evidence[2] / open", "issue": "The claim that rows 8012-8014 'are consistent with one sale product' is accurate but is only a pattern in the same table. It supports the price, not a sale. The answer already labels it as not proof, so no change is needed.", "fix": "No change required."}]}
+```

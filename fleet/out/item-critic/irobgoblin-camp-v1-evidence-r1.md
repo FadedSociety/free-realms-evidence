@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=irobgoblin-camp-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3657, 8980, 6, 881] model=claude-haiku-5-5 -->
+# Robgoblin Camp
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest: it says Robgoblin Camp is a place and returns item null with no sources. My checks agree. locale:7920 is 'Robgoblin Camp' and the wiki page is a settlement area with no prices or stock. Nothing in the client or pack names an item called Robgoblin Camp, so no source is invented.", "fix": "No change needed to the verdict. Minor: the evidence cites locale:40386 and locale:103380 as other 'Robgoblin Camp' strings without showing their text. They are not needed for the conclusion, and the camp-related quest strings I found (e.g. locale:15108, 20562, 24116) are NPC and quest text, which supports the answer."}]}

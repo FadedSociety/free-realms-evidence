@@ -1,0 +1,23 @@
+{
+ "title": "Wiki-tagged boss pages: Cracked Claw, Mudshell, Bergram Stumpfinger, Grave Elemental, Spawn of Necrosis, Tormented Spirit, Venomous Frog, Wraith",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000081,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "See the rows above",
+   "location_evidence": [
+    "Wiki Blackspore Swamp \"Battles\" list"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

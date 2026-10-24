@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=canata-s-orange-necklace-96261-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3635, 9785, 6, 842] model=claude-haiku-5-5 -->
+# Anata's Orange Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Left as 'unsure'. This is honest: the pack has no retirement note, and the client has the item (definition 30855, locale 96261). Nothing contradicts it.", "fix": "No change needed. Keep 'unsure' until a source or retirement note is found."}, {"field": "evidence[1]", "issue": "The claim that the Blacksmith Band 5 reward column names nothing is consistent with notes/Build Guides/Content/Jobs/Blacksmith.md rows 26-31, which I checked by search. I did not re-read the full reward column, so this stays a weak negative.", "fix": "Re-check the reward column of rows 26-31 in Blacksmith.md before final publication."}]}

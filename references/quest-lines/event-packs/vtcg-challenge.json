@@ -1,0 +1,50 @@
+{
+ "title": "TCG Challenge",
+ "names_seen": [
+  "TCG Challenge"
+ ],
+ "facts": [
+  {
+   "statement": "A community event focused on player versus player TCG games was held at Highroad Junction (or via the TCG lobby from anywhere in the game), with players able to start games, enter matches, trade cards or watch.",
+   "numbers": {},
+   "era": "live",
+   "quote": "This week's community event will focus on player versus player TCG games.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=626",
+   "date": null
+  },
+  {
+   "statement": "The TCG Challenge ran Friday November 20th, 3pm-5pm Pacific Time for U.S. and Latin America on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15,
+    "end_hour_pacific": 17
+   },
+   "era": "live",
+   "quote": "3pm – 5pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=626",
+   "date": null
+  },
+  {
+   "statement": "A second session for UK and Europe on Server 1 ran 9:00am-11:00am Pacific Time, which is 6:00pm-8:00pm GMT.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "end_hour_pacific": 11,
+    "start_hour_gmt": 18,
+    "end_hour_gmt": 20
+   },
+   "era": "live",
+   "quote": "9:00am – 11:00am Pacific Time / 6:00pm – 8:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=626",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=626",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com community event post announcing a player-versus-player Trading Card Game (TCG) challenge on Server 1, held Friday November 20th (2009) at Highroad Junction or from the TCG lobby anywhere in the game. It tells players that Sam Potts, found at the Pixiewood intersection north of the Sanctuary warpstone, starts new players in the TCG."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

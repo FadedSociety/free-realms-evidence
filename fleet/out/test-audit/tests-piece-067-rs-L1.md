@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-piece-067-rs-L1 status=done turns=6 usd=0.0071 tokens(read,write,in,out)=[68687, 27611, 14, 5840] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_067.rs lines 1-447 of 447
+
+Window: `prototype/osfr-tools/tests/piece_067.rs` lines 1-447 (read in full, plus `src/restoration/piece_067.rs` for the code under test). The other tests in the window (opening chain, unknown/completed quests, branch ordering, membership/level/ride, event window, cooldown boundary at exactly 1 day, cooldown-while-incomplete, malformed tables, undeclared prerequisite gap) assert concrete literal expectations that the engine's real checks produce. I found no cannot-fail assertions, no `#[ignore]`, and no early-return skips. The findings below are the only ones I could confirm.
+
+- **[medium] prototype/osfr-tools/tests/piece_067.rs:73 recovered_opening_rows_are_source_bound - the name says the rows are bound to their source, but the body never reads any source; it only checks hand-typed constants against hand-typed literals.**
+  - Why it cannot catch a regression: the source binding lives in the Python checker (`scripts/pieces/piece_067.py`), not in this test. The only "source" checks here are `first.evidence.contains("27815")` (line 84) and `pack.evidence.contains("28955")` (line 89), which are substring checks on the same hand-written `evidence` strings in `src/restoration/piece_067.rs:413,420`. A change that alters the prerequisite text in the constant and the matching literal at lines 77/83/88 together still passes. A change that keeps the revision number in the evidence string but makes the row wrong (for example, a different revision date or a different quest row) also passes.
+  - Fix: either rename the test to something like `opening_rows_match_pinned_literals` and drop the "source-bound" claim, or make it read `lab/references/freerealms-wiki/quest-pages.json` (or a checked-in extract of it) and assert each row's prereq and revision id against the page, so drift in the rows fails here and not only in the Python script.
+
+- **[low] prototype/osfr-tools/tests/piece_067.rs:84 and :89 recovered_opening_rows_are_source_bound - the evidence check is a bare substring match on the number.**
+  - Why it cannot catch a regression: `contains("27815")` passes for any evidence string that includes that digit run anywhere (for example, "wiki rev 278155" or a note that mentions 27815 for an unrelated reason). The row can point at a different revision and this still passes as long as the digits appear.
+  - Fix: assert the exact evidence string (`assert_eq!(first.evidence, "wiki rev 27815 (2013-07-12)")`) or parse the revision id and compare it as an integer.
+
+- **[low] prototype/osfr-tools/tests/piece_067.rs:74 recovered_opening_rows_are_source_bound - the test pins the opening table's row count at exactly 2.**
+  - Why it is churn: the assertion is about whether the two recovered rows are correct and their prerequisite chain holds. Adding a third recovered opening row (legitimate, source-backed work) makes this line fail even though the two rows checked below still hold.
+  - Fix: drop the `len() == 2` line and rely on the per-row lookups at lines 80-89 (which already fail if either row goes missing), or check `OPENING_QUEST_PREREQUISITES.iter().any(...)` for the two quests the test names.

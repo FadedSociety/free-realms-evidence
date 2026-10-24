@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbutterfly-ring-66941-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3848, 7598, 6, 836] model=claude-haiku-5-5 -->
+# Butterfly Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the Casual Rings collection appears on the wiki's List of Collections under Rare was not reproduced by my lookup; the wiki search returned no Butterfly Ring or Casual Rings page. It is only a collection-level claim and no item-level source is asserted from it, so it does not make the answer false, but it is unverified in this pack.", "fix": "Keep it marked as unverified, or cite the exact List_of_Collections revision text that names Casual Rings before relying on it for live status."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstudent-demo-derby-shirt-69353-v1-world-r2 status=no_submit turns=2 usd=0.0018 tokens(read,write,in,out)=[3665, 10282, 6, 943] model=claude-haiku-5-5 -->
+# Student Demo Derby Shirt
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] (video claim)", "issue": "The video frames (PvUWhApOxWQ/00108 and /00110) are OCR-truncated. They show '[Student] [Demo] [Derby] ... (truncated)' in an inventory list, which does not clearly name the Student Demo Derby Shirt. The claim that the shirt appears in play is stronger than the frame text supports.", "fix": "Soften to: the inventory OCR in PvUWhApOxWQ/00108 and /00110 shows a truncated '[Student] [Demo] [Derby]' entry next to other Student shirts; the exact item is not confirmed."}]}

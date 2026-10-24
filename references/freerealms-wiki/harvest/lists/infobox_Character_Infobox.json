@@ -1,0 +1,98 @@
+[
+ {
+  "page": "Brent",
+  "url": "https://freerealms.fandom.com/wiki/Brent",
+  "params": {
+   "Box title": "Brent<br><Pet Clothing>",
+   "race": "[[Human]]",
+   "gender": "Male",
+   "location": "[[Sanctuary]]",
+   "occupation": "[[Merchant]]",
+   "Image file": "Brent.jpg"
+  },
+  "categories": [
+   "Human",
+   "Merchant",
+   "NPC",
+   "Sanctuary"
+  ],
+  "images": [
+   "Brent.jpg",
+   "Members only.png"
+  ]
+ },
+ {
+  "page": "Burnetta",
+  "url": "https://freerealms.fandom.com/wiki/Burnetta",
+  "params": {
+   "Image file": "Burnetta.png",
+   "race": "[[Chugawug]]",
+   "location": "[[Wugachug]]",
+   "occupation": "[[Chef]]"
+  },
+  "categories": [
+   "Chef",
+   "Chugawug",
+   "NPC",
+   "Wugachug"
+  ],
+  "images": [
+   "Burnetta.png"
+  ]
+ },
+ {
+  "page": "Darrel",
+  "url": "https://freerealms.fandom.com/wiki/Darrel",
+  "params": {
+   "Image file": "Darrel1.jpg",
+   "race": "[[Chugawug]]",
+   "gender": "Male",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "NPC"
+  ],
+  "images": [
+   "Darrel1.jpg"
+  ]
+ },
+ {
+  "page": "Gloria",
+  "url": "https://freerealms.fandom.com/wiki/Gloria",
+  "params": {
+   "Box title": "Gloria<br><Pets>",
+   "race": "[[Human]]",
+   "gender": "Female",
+   "location": "[[Cobblestone Village]]",
+   "occupation": "[[Merchant]]",
+   "Image file": "Gloria.jpg"
+  },
+  "categories": [
+   "Cobblestone Village",
+   "Human",
+   "Merchant",
+   "NPC"
+  ],
+  "images": [
+   "Gloria.jpg",
+   "Members only.png"
+  ]
+ },
+ {
+  "page": "Sunflower",
+  "url": "https://freerealms.fandom.com/wiki/Sunflower",
+  "params": {
+   "Image file": "461.jpg",
+   "race": "[[Pixie]]",
+   "gender": "Male",
+   "location": "[[Queensfields]]",
+   "occupation": "[[Farmer]]"
+  },
+  "categories": [
+   "NPC"
+  ],
+  "images": [
+   "461.jpg"
+  ]
+ }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpostman-m3-jacket-142232-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3553, 4079, 6, 832] model=claude-haiku-5-5 -->
+# Postman M3 Jacket
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the claim that the Postman M1/M2/M3 group is 'client-only' is stated as fact in the evidence, but the source row (Postman.md line 230) only says the group is unproven and the 'M' prefix meaning is unproven. The answer's open list handles this correctly, so this is a wording point, not a failed claim.", "fix": "Reword the evidence claim to 'listed in Postman.md line 230 as an unproven client-only group (M1-M3), with no merchant named'. Source: notes/Build Guides/Content/Jobs/Postman.md:230."}]}

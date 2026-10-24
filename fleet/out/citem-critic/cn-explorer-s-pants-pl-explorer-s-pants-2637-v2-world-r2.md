@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-explorer-s-pants-pl-explorer-s-pants-2637-v2-world-r2 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[14490, 11329, 8, 1249] model=claude-haiku-5-5 -->
+# {n}Explorer's Pants{pl="Explorer's Pants"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Adventurer wiki page lists Explorer collections (Newbie [Explorer], Briarwood [Explorer], Sacred Grove [Explorer], Sunstone Valley [Explorer]) and Rare Exploration pages. The answer says these do not name Explorer's Pants, which I did not verify against the collection pages' reward lists. This is an unchecked omission risk, not a wrong claim.", "fix": "Open the wiki pages for the Newbie, Briarwood, Sacred Grove and Sunstone Valley [Explorer] collections and check each reward list for Explorer's Pants (or a zone variant such as Briarwood Explorer's Pants, locale 31788) before settling the sources."}]}

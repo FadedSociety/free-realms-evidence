@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=call-weather-tires-67373-v3-evidence-r3 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3917, 9304, 6, 1113] model=claude-haiku-5-5 -->
+# All-weather Tires
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The collection id 365389435 is cited as a client id for 'Kart Race Tires' but I could not confirm it. Only 3693658396 (locale 'Kart Race Tires', ucdt) appears in the locale data. The Kart Driver note at line 153 does name the collection with both ids, so the citation is traceable, but the first id is not independently verified.", "fix": "Cite only the verified id: 'Kart Race Tires' is locale 67585 (also tracked as 3693658396 in en_us_data.dat). Mark 365389435 as unverified or drop it. Source: locale tool, and Kart Driver.md:153 for the note."}]}

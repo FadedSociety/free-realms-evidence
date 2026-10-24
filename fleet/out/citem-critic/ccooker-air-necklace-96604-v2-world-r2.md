@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccooker-air-necklace-96604-v2-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3609, 8021, 6, 828] model=claude-haiku-5-5 -->
+# Cooker Air Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the opening-journal and opening-anvil locale dumps contain 'Cooker Air Necklace' (locale 3937901911) and the legacy ClientItemDefinitions.json has the item at NameId 96604 with a Comment line. These are name-only hits, not acquisition evidence. The pack's note that they are 'not independently re-verified' is accurate and the answer does not treat them as sources, so this is an accuracy note, not a failure.", "fix": "Cite the legacy client definition (FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:638061-638064) and the locale dump hits as name-only evidence with no acquisition context. No change to sources, retired or live status is needed."}]}

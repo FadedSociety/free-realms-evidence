@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolished-pumpkin-ring-89477-v1-world-r2 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[11321, 8063, 8, 1240] model=claude-haiku-5-5 -->
+# Polished Pumpkin Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The wraith-drop evidence is for the Polished Fateful Necklace in Consumed by the Past, not for any ring. The answer uses it to suggest a possible origin for the ring family. It is correctly framed as unconfirmed, but it should not be read as a source for this ring.", "fix": "Keep it as family context only. The note at notes/Build Guides/Content/NPCs/NPCs - Blackspore Swamp.md:233 records 'Polished Fateful Necklace' as a wraith/Lukov loot pickup with no quest rewards. Nothing in the repo, refs, or lookup indexes ties a Polished ring to a drop."}]}

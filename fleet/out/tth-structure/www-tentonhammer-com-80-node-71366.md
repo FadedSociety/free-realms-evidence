@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-71366 status=nothing_found turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 6282, 4, 575] model=claude-haiku-5-5 -->
+# New Runes of Magic: The Elven Prophecy Map Revealed | Ten Ton Hammer
+
+{"article": {"title": "New Runes of Magic: The Elven Prophecy Map Revealed", "date": "2009-07-16", "author": "Martuk", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer news post is about Runes of Magic's Chapter 2: The Elven Prophecy update and a new world map of Taborea showing areas such as the Weeping Coast. It does not describe Free Realms. Free Realms appears only in sidebar headlines of other articles (e.g., 'Free Realms to Become Everybody's Second Subscription?'), which state no facts about the game.", "facts": [], "quests": [], "uncertain": ["Free Realms is mentioned only in sidebar article headlines, not in the article body; no Free Realms facts could be sourced from this page."]}

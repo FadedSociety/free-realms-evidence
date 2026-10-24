@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblue-half-cylinder-down-polka-dot-block-147665-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3832, 7682, 6, 991] model=claude-haiku-5-5 -->
+# Blue Half Cylinder Down Polka Dot Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "The 'live: yes' status rests on the first-pass tag plus the store row. The store row shows the item is in a coin-store category, which is reasonable support, but no source dates it or confirms it is currently sold. The answer already flags retirement as unknown, so this is a minor overstatement rather than an error.", "fix": "Keep live as 'likely yes (store row present, repo:prototype/osfr-tools/data/content/stores.json line 11937)', or leave it null until a sale-date or wiki source is found."}]}

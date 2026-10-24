@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfree-realms-firework-4974-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3844, 9189, 6, 1251] model=claude-haiku-5-5 -->
+# Free Realms Firework
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[2]", "issue": "The automatic id check flags locale:4976 as placeholder, but the answer cites 4976 only as a contrast ('unlike neighbours locale:4976 and 4977'), not as evidence for the item. The flag is accurate for 4976 and the citation does not rely on it, so this is not a sourcing error. Minor: the item's own locale:4974/4975 are untagged, which the answer states correctly.", "fix": "No change needed to the verdict. Optionally rephrase to 'neighbours locale:4976 (placeholder flag) and 4977 (dev_note flag) are tagged; 4974/4975 are not' so the flag reads as a contrast, not a citation."}]}

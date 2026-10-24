@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccollar-button-41004-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3812, 5069, 6, 1448] model=claude-haiku-5-5 -->
+# Collar Button
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "sources[0].detail", "issue": "The only source is collection membership. The wiki's 'Various Robgoblin Junk' heading (wiki lines 200-208, 'Cool Buttons' at line 208, Common tier) is a category label, not an acquisition route. The answer already says so, but the source is still listed as a live acquisition path.", "fix": "Keep the source as 'member of Cool Buttons collection (collection id 100, entry 6 of 8, item_definition_id 3788, name_id 41004)' with the wiki listing as category evidence only. Do not treat the Robgoblin junk heading as a drop source. Acquisition method stays unknown, so wireable is false."}]}

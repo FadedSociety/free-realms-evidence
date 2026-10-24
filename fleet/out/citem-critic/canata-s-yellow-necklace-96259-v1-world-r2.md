@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=canata-s-yellow-necklace-96259-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3634, 8486, 6, 902] model=claude-haiku-5-5 -->
+# Anata's Yellow Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The answer ties the necklace to Anata Caliburn's six-quest line by citing a wiki 'Blacksmith' page and repo Blacksmith.md rows 26-31. The evidence pack has wiki_page null and no images or article facts, so that citation is not backed by the pack. My own search of refs found Anata Caliburn quest text (e.g. 'Locate 20 Moonstones', 'Bring the tools back to Anata Caliburn') but no quest text or reward that names any Anata's Necklace or Ring.", "fix": "Keep the association as context only, not as a source. Cite the quest text by locale id if it is relied on, and state that no quest reward names definition 30853 or its siblings."}]}

@@ -1,0 +1,95 @@
+{
+ "title": "Ambassador Haunt and Seek",
+ "names_seen": [
+  "Ambassador Haunt and Seek"
+ ],
+ "facts": [
+  {
+   "statement": "Community Event in which Community Team Ambassadors hid inside Blackspore for players to find.",
+   "numbers": {},
+   "era": "live",
+   "quote": "The Ambassadors are dressed in their costumes and have found great places to hide inside Blackspore.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1851",
+   "date": null
+  },
+  {
+   "statement": "After a player scares an Ambassador properly, the player sends a trade request to the Ambassador and receives a treat; a found Ambassador vanishes and reappears elsewhere.",
+   "numbers": {},
+   "era": "live",
+   "quote": "After you scare them properly, send a trade request and you’ll get a treat!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1851",
+   "date": null
+  },
+  {
+   "statement": "Event ran on Server 1 on Thursday October 14, 2010 at 3pm Pacific Time (U.S. and Latin America).",
+   "numbers": {
+    "server": 1,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday October 14th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1851",
+   "date": null
+  },
+  {
+   "statement": "Second run on Server 1 on Friday October 15, 2010 at 9:00am Pacific Time / 4:00pm GMT for UK and Europe.",
+   "numbers": {
+    "server": 1,
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday October 15th, 2010 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1851",
+   "date": null
+  },
+  {
+   "statement": "Ambassadors gave instructions and hints in the Zone Chat tab; players had to enable the 'Show Area Chat' option via the wrench icon in the lower left of the screen.",
+   "numbers": {},
+   "era": "live",
+   "quote": "The Ambassadors will be using the ZONE CHAT tab in your chat window to give instructions and hints",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1851",
+   "date": null
+  },
+  {
+   "statement": "A community event in which Community Team Ambassadors hide inside Blackspore (Esporaumbría) and players search high and low to find them.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Busca en lo alto y los suelos y cuando encuentres a uno de los embajadores, dales un susto.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1859",
+   "date": null
+  },
+  {
+   "statement": "After a player scares an Ambassador, the player sends it a trade request and is given a prize; the Ambassador then hides again in a new location.",
+   "numbers": {},
+   "era": "live",
+   "quote": "después de asustarlos, envíales una solicitud para intercambiar y se te otorgara un premio",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1859",
+   "date": null
+  },
+  {
+   "statement": "The Ambassadors hide inside Blackspore rather than outside it, and give clues and location codes through the Zone Chat channel.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Los Embajadores estarán usando la sección “Zona de Chat” en la ventanilla de chat para dar instrucciones y claves",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1859",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1851",
+   "date": null,
+   "title": "Community Event: Ambassador Haunt and Seek",
+   "summary": "A Community Team event in which Ambassadors hid inside Blackspore and players searched for them, scaring each one and then sending a trade request for a treat. The page gives two Server 1 run times (October 14 and 15, 2010) and says the Ambassadors give hints in Zone Chat. The exact post date is not shown; it is only given relative to the capture date."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1859",
+   "date": null,
+   "title": "Free Realms - What is New? (Spanish-language community event: Posee y Busca a los Embajadores)",
+   "summary": "A Spanish-language freerealms.com post announcing a community event in which Community Team Ambassadors hide in Blackspore (Esporaumbría in the Spanish text) and players must find them, scare them, and request a trade for a prize. The article gives the event times for Server 1 for Pacific/Latin America and UK/Europe audiences, and explains that clues are posted in the Zone Chat channel and events are reached through the Game Guide calendar."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

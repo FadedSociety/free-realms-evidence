@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cred-wedge-block-21713-v2-evidence-r3 status=done turns=6 usd=0.0034 tokens(read,write,in,out)=[51843, 13933, 14, 2267] model=claude-haiku-5-5 -->
+# Red Wedge Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1].detail", "issue": "The 77171 row is described as 'sellable' with a 350-coin price, but the answer omits that the Legacy client definition for 77171 carries MembersOnly: true (no NoSale key). That restriction bears on how the 350-coin row could be sold and is not mentioned.", "fix": "Add that ClientItemDefinitions.json (FreeRealms-Legacy, the 77171 row near line 1246188) sets Cost 350, MembersOnly true, NoSale absent; 77091 sets Cost 50, NoSale true, MembersOnly absent. Both have MemberDiscount 10."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbirthday-gift-14420-v2-evidence-r3 status=done turns=4 usd=0.0030 tokens(read,write,in,out)=[29136, 14618, 10, 1667] model=claude-haiku-5-5 -->
+# Birthday Gift
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] / Birthday Bash claim", "issue": "The claim that Birthday Bash is an annual April event is only partly supported. The wiki places the event around the April 29 anniversary, but articleId=2580 says the third-anniversary Bash ran through May 24, 2012. The answer also cites articleId=2107 for the per-zone party t-shirt claim, which I did not find in the lookup results. The Bash context is not used as a source for the item, so this does not change the sources.", "fix": "Say the Bash runs around the April 29 anniversary and in 2012 ran through May 24 (articles articleId=2580). Drop or re-verify the articleId=2107 t-shirt claim before relying on it."}]}

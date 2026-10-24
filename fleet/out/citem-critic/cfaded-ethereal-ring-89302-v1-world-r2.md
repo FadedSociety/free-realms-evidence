@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-ethereal-ring-89302-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3707, 4700, 6, 1020] model=claude-haiku-5-5 -->
+# Faded Ethereal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer lists the Polished family as ending in 'Ethereal', but the cited client cluster (locale:89303-89307) only shows Polished Dreadful through Mystical. My lookups found no 'Polished Ethereal Ring' string in the sampled range, so the family list should be checked before it is cited.", "fix": "Verify the Polished Ethereal id with locale search ('Polished Ethereal Ring') or drop it from the family list. The sibling family itself is confirmed by locale:89294-89302 and locale:89303-89307."}]}

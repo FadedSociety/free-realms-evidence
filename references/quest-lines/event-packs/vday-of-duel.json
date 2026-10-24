@@ -1,0 +1,29 @@
+{
+ "title": "Day of the Duel",
+ "names_seen": [
+  "Day of the Duel"
+ ],
+ "facts": [
+  {
+   "statement": "Community event Day of the Duel was held at Highroad Junction on July 31, 2009, from 3pm to 5pm Pacific Time, where players could accept and issue duel challenges.",
+   "numbers": {
+    "start_hour_PT": 15,
+    "end_hour_PT": 17
+   },
+   "era": "live",
+   "quote": "Today, July 31st from 3pm to 5pm Pacific Time, we invite everyone to head to Highroad Junction for the Day of the Duel!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=173",
+   "date": "2009-07-31"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=173",
+   "date": "2009-07-31",
+   "title": "Free Realms - What is New?",
+   "summary": "SOE's official news post announces a community event, Day of the Duel, on July 31, 2009 from 3pm to 5pm Pacific Time at Highroad Junction. Players could challenge others to duels as any class, level, or weapon, and Ambassador Pex (Community Manager) would accept duels on different servers."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

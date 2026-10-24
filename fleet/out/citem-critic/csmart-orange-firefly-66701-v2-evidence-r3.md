@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmart-orange-firefly-66701-v2-evidence-r3 status=done turns=3 usd=0.0012 tokens(read,write,in,out)=[8525, 4942, 8, 1063] model=claude-haiku-5-5 -->
+# Smart Orange Firefly
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4]/sources", "issue": "The wiki Fireflies quote is real (the Collections page, Types of Collections, Fireflies entry, begins 'Never has a bug collection been so rewarding'), but the official-site claim (collections.vm) was not re-checked in this pass and rests only on the author's pack. It is correctly kept out of sources, so it does not change the answer.", "fix": "Keep sources empty. If the official-site line is cited later, verify it against the collections.vm page before listing it as evidence. No acquisition source is evidenced for definition 23088: no store price, vendor row, quest, enemy drop or event, which matches the pack."}]}

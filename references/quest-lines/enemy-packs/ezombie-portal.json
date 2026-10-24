@@ -1,0 +1,56 @@
+{
+ "title": "Zombie Portal",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\necronomicus_unleashed.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:442320 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442321 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442322 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442323 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442324 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442325 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442326 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442327 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:442320 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442321 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442322 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442323 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442324 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442325 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442326 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442327 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'"
+ ],
+ "client_cluster": [
+  "locale:442312 [npc_name | - | Scotty Trackrunner] 'Scotty Trackrunner'",
+  "locale:442313 [npc_name | - | Fighter's Guild Master] \"Fighter's Guild Master\"",
+  "locale:442314 [npc_name | - | Worker's Guild Master] \"Worker's Guild Master\"",
+  "locale:442315 [npc_name | - | Sports Club Manager] 'Sports Club Manager'",
+  "locale:442316 [place | - | Necronomicus Unleashed] 'Necronomicus Unleashed'",
+  "locale:442317 [npc_dialog | - | Gloam Lord lair warning] 'WARNING: You are about to enter the lair of a Gloam Lord! The Royal Guard recommends that this only be attempted by a group of 5 very powerful battlers. Only th'",
+  "locale:442318 [npc_name | - | Skullz Chopper] 'Skullz Chopper'",
+  "locale:442319 [quest_title | - | A Hero Rises!] 'A Hero Rises!'",
+  "locale:442320 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442321 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442322 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442323 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442324 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442325 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442326 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442327 [other | - | Zombie Portal | FLAG placeholder: repeated generic \"Zombie Portal\" label, no quest meaning] 'Zombie Portal'",
+  "locale:442328 [npc_name | - | Ancient Necrowart Zombie] 'Ancient Necrowart Zombie'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

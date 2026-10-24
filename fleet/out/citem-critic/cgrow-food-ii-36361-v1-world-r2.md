@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgrow-food-ii-36361-v1-world-r2 status=no_submit turns=2 usd=0.0014 tokens(read,write,in,out)=[3876, 7770, 6, 849] model=claude-haiku-5-5 -->
+# Grow Food II
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer leaves 'live' as unsure and gives no sources, which matches what I found. My searches of refs and the client/wiki lookup returned only the locale strings (36360-36364) and the Legacy ClientItemDefinitions entry. I found no quest, vendor, drop or event that grants Grow Food II. The Legacy FabledRealms.lua hit on '2989' is an NPC GUID, not this item.", "fix": "No change needed. Keep acquisition empty and note that the 'quest_reward' tag on locale 36361-36364 is a text-table tag only, until a quest script or reward row names item 2989."}]}

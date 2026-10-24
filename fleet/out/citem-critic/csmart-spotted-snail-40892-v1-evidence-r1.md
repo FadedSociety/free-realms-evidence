@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmart-spotted-snail-40892-v1-evidence-r1 status=done turns=4 usd=0.0020 tokens(read,write,in,out)=[20876, 9108, 10, 1324] model=claude-haiku-5-5 -->
+# Smart Spotted Snail
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0]", "issue": "The only source is collection membership. It is evidenced: locale:132345 reads 'This item can be added to the Spotted Snails Collection', and collections.json has key wiki:5:150 'Spotted Snails' (list_listed true, source List of Collections rev 27852). The wiki lookup also shows '[Spotted] [Snails]' on List of Collections. But it carries no price, vendor, quest, enemy or event, so it does not show how the item is acquired.", "fix": "Keep the collection membership as the one evidenced fact, with no acquisition route. Set wireable to false, since no source has a price, quest, enemy or event. The 'open' list already says this correctly."}]}

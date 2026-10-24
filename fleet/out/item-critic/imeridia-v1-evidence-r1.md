@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imeridia-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3533, 4196, 6, 783] model=claude-haiku-5-5 -->
+# Meridia
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The wiki stock list is cited with no price or currency, which is correct as far as the sources go. The answer also cites the page for 'Archer's Flair Shard of Valentines' and similar items without flagging that they are unverified as Meridia-only stock. Minor: the claim is accurate to the wiki text.", "fix": "No change required. Wiki (Meridia, rev 49009) lists the 12 Archer items with no prices; the client locale 5101981 is 'Meridia' as npc_name, confirmed by locale lookup. Keep sources empty and wireable false until a vendor price source exists."}]}

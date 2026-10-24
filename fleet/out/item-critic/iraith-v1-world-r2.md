@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iraith-v1-world-r2 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3166, 4049, 6, 789] model=claude-haiku-5-5 -->
+# Raith
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The item is recorded as kind 'other', but every source in the pack says Raith is an NPC merchant (client locale 116869 typed npc_name; wiki page lists Category:NPC, Merchant, Pixie, Seaside). No item of this name turns up in the client text, wiki or repo beyond the NPC records.", "fix": "Reclassify as an NPC (merchant) rather than an item, or confirm the intended item name. Sources: locale:116869 (npc_name 'Raith'); https://freerealms.fandom.com/wiki/Raith (rev 45925); prototype/osfr-tools/data/content/vendors_unresolved.json:6983 (merchant stub, no stock)."}]}

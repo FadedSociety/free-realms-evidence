@@ -1,0 +1,25 @@
+{
+ "title": "Battle Warthogs",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\tanglewood_fort.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Battle Warthog",
+  "text": "The Battle Warthog is an enemy NPC that appears in Mugwort's Hollow.\nCategory:NPC\nCategory:Enemies\nCategory:Wilds"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [
+  "fact:location: Mugwort's Hollow is a timed instance where Forest Snakes and Battle Warthogs yield life magic samples; the bonus objective is completing it in under 10 minutes. | completing the area in less than 10 minutes (http://www.tentonhammer.com:80/node/69770)"
+ ],
+ "quest_answers_naming_it": []
+}

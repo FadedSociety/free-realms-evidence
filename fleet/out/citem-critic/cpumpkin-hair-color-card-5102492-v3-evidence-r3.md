@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpumpkin-hair-color-card-5102492-v3-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3902, 7464, 6, 921] model=claude-haiku-5-5 -->
+# Pumpkin Hair Color Card
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (store row)", "issue": "Minor: the answer correctly reports the row, but the pack's coin_store_prices [180] is presented without the no_sale caveat in the pack itself. The row is at stores.json:17188 and reads item 79468, category 142, purchase 180, member 162, sell_price null, no_sale true. The answer's reading matches the file.", "fix": "No change needed. Keep the answer's statement that the 180-coin row is not a verified coin_shop route, since no_sale=true and no stock row confirms a sale."}]}

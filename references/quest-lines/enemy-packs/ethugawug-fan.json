@@ -1,0 +1,38 @@
+{
+ "title": "Thugawug Fan",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\thugawug_sneak.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:141245 [npc_name | - | Thugawug Fan] 'Thugawug Fan'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:141245 [npc_name | - | Thugawug Fan] 'Thugawug Fan'"
+ ],
+ "client_cluster": [
+  "locale:141237 [quest_dialog | - | -] 'We have much to do, but I am afraid you are not ready for the trials before you quite yet. Come back to me when you are more powerful.'",
+  "locale:141239 [quest_dialog | - | Tin mining record] \"Hah! You haven't beaten my record at Tin mining yet! Keep trying until you do.\"",
+  "locale:141241 [quest_objective | - | Tin mining record] \"You'd better hurry! The clock's ticking. Just smelt five bars of Tin and get back to me.\"",
+  "locale:141243 [quest_dialog | Southvale | Mili Ironcall] 'Head down to Southvale. Mili Ironcall will have more Mining tasks for you to do.'",
+  "locale:141245 [npc_name | - | Thugawug Fan] 'Thugawug Fan'",
+  "locale:141246 [quest_dialog | Southvale | Grumpore] \"Have you spoken to Grumpore yet? She's inside the mine here in Southvale.\"",
+  "locale:141247 [npc_dialog | - | -] 'Rock is the word!  Rock is the power! Yeah yeah!'",
+  "locale:141248 [quest_objective | Lakeshore | Rourke Ironfist] 'Talk to Rourke Ironfist in Lakeshore'",
+  "locale:141250 [quest_dialog | Lakeshore | Rourke Ironfist] \"Thanks to you my name has been cleared. We could definitely use a Brawler like you in our club. But I can't say anymore. I've already broken the first rule by e\"",
+  "locale:141252 [npc_dialog | Snowhill | -] 'Come see the largest chef tool collection in Snowhill!'",
+  "locale:141253 [npc_dialog | - | -] 'Health potions! Energy potions! Come and get them!'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:world_screenshot): Thugawug Fan"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

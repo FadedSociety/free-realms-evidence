@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isleeping-panther-v1-world-r2 status=done turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 3705, 4, 1216] model=claude-haiku-5-5 -->
+# Sleeping Panther
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "Kind is set to 'other', but the pack shows 'Sleeping Panther' is an NPC on the wiki and a client entry typed 'ability' (locale:5102376). Neither is an item, so no item kind fits.", "fix": "Record it as a non-item (NPC or ability name), not an item. Source: wiki Sleeping_Panther categories NPC/Merchant; locale:5102376 type ability."}, {"field": "evidence[3]", "issue": "The Merchants-list claim cites 'wiki page:ns0 Merchants' with no revision or text in the pack, so it cannot be checked here.", "fix": "Mark it unverified or drop it. The verified location is the wiki infobox: The Roadhouse and Northern Wilds."}]}

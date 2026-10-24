@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-131 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2872, 4, 505] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture contains only the fan forum's vBulletin error page (a 'maximum number of posts you can view' message for guests), the forum index and site navigation, with no thread text. It gives no information about how Free Realms played, so no game facts can be drawn from it.", "facts": [], "quests": [], "uncertain": ["The requested thread (t=131) body did not survive the capture; only the guest view-limit error and forum index appear.", "The forum index lists Free Realms sub-forums (e.g., Combat, Items, Jobs/Classes, In-Game Mini Games, Pets, Membership / Stationcash), but this shows only forum names, not game facts."]}

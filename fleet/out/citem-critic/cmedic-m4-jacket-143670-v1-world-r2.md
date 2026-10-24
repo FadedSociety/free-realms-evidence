@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmedic-m4-jacket-143670-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3525, 7064, 6, 795] model=claude-haiku-5-5 -->
+# Medic M4 Jacket
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer leaves live as 'unsure', which is honest. The first-pass 'live: yes' has no backing in the pack. My own lookups add nothing: the client lookup returns only locale:143670, and refs hold no wiki, vendor or quest entry. The only other hits are client string-table dumps (locale 'Medic M4 Helmet' and 'Medic M4 Jacket' entries in opening-*-lobby/mining data), which are client text, not an acquisition source.", "fix": "No change required. Keep live as unsure until a source (vendor, quest, event or a dated patch note) is found."}]}

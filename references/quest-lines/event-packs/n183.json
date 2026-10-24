@@ -1,0 +1,40 @@
+{
+ "title": "Home Decor Sale",
+ "names_seen": [
+  "Home Decor Sale"
+ ],
+ "facts": [
+  {
+   "statement": "Special discounts on furniture and decor items ran in a sale that began Saturday, February 16, 2013 at 12:01 AM PST.",
+   "numbers": {
+    "start_hour_pst": 0,
+    "start_minute_pst": 1
+   },
+   "era": "live",
+   "quote": "from Saturday, February 16, 2013 at 12:01 AM PST through Monday, February 18, 2013 at 11:59 PM PST",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2839",
+   "date": "2013-02-16"
+  },
+  {
+   "statement": "The Home Decor Sale ended Monday, February 18, 2013 at 11:59 PM PST.",
+   "numbers": {
+    "end_hour_pst": 23,
+    "end_minute_pst": 59
+   },
+   "era": "live",
+   "quote": "through Monday, February 18, 2013 at 11:59 PM PST",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2839",
+   "date": "2013-02-16"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2839",
+   "date": "2013-02-16",
+   "title": "Free Realms - What is New? (Home Decor Sale)",
+   "summary": "A freerealms.com news post announcing a home decor sale. It gives the sale window (February 16 to February 18, 2013, Pacific time) and says furniture and decor items were discounted, with the headline promising 50% off everything for the home. The page does not list individual item prices or the discount on each item."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

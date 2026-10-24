@@ -1,0 +1,41 @@
+{
+ "title": "Great White Snake",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\floren_forest.json"
+  },
+  {
+   "file": "dungeons\\floren_forest.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:45025 [quest_title | - | Great White Snake] 'Great White Snake'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:45025 [quest_title | - | Great White Snake] 'Great White Snake'",
+  "locale:45026 [quest_dialog | - | Great White Snake] 'So uncivilized. Yet so much fun!'",
+  "locale:388837 [quest_objective | - | Great White Snake] 'Scare off the Great White Snake'",
+  "locale:388838 [quest_objective | Floren Forest | Great White Snake] 'Scare off the Great White Snake in Floren Forest.'"
+ ],
+ "client_cluster": [
+  "locale:45018 [other | - | Wug | FLAG fragment: single word] 'Wug'",
+  "locale:45020 [quest_objective | - | Old Corky] 'Return to Old Corky'",
+  "locale:45021 [quest_objective | - | Old Corky] 'Inform Old Corky of your success.'",
+  "locale:45025 [quest_title | - | Great White Snake] 'Great White Snake'",
+  "locale:45026 [quest_dialog | - | Great White Snake] 'So uncivilized. Yet so much fun!'",
+  "locale:45032 [other | - | Don't Buy | FLAG fragment: reply option with no quest meaning on its own] \"Don't Buy \"",
+  "locale:45033 [quest_title | Wugachug | The Next Batch] 'The Next Batch'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccastle-dining-table-118874-v1-evidence-r1 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[10358, 9660, 8, 1315] model=claude-haiku-5-5 -->
+# Castle Dining Table
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only evidence is a coin-store row (stores.json item 16835, category_id 53, tint_group 2) with no named vendor or stock list. The answer's own detail admits category 53 is not a named vendor, so the type overstates what is known.", "fix": "Relabel as a coin-store sale (store category 53, tint_group 2) with the vendor marked unknown. The price is verified: stores.json line 4206 shows purchase 50, member 45 (10% off), sell 5, no_sale false, and the client definition coin_store_prices is [50]."}]}

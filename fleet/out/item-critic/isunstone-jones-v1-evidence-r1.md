@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isunstone-jones-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3255, 4518, 6, 1003] model=claude-haiku-5-5 -->
+# Sunstone Jones
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that locale:847 is a 'Sunstone Valley currency/item text' was not checked in my pass. The wiki hits show '[Sunstone] Valley' as a zone name in the Brawler page, which supports only the place name, not an item or currency.", "fix": "Either cite the exact locale:847 row (its type and text) or drop the currency/item description. The absence of an item named Sunstone Jones is confirmed: locale 5102577 is npc_name 'Sunstone Jones', and the only related string is quest_objective 5102583 'Return to Sunstone Jones'."}]}

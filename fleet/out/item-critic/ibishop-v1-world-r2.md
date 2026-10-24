@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibishop-v1-world-r2 status=no_submit turns=2 usd=0.0017 tokens(read,write,in,out)=[4040, 8291, 6, 1309] model=claude-haiku-5-5 -->
+# Bishop
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "item.kind / sources", "issue": "The record treats 'Bishop' as an NPC with no item sources. I confirmed locale:5102296 is the only plain 'Bishop' npc_name hit, and the other 'Bishop' hits are chess text or 'Bishop Seasnail'. The answer is therefore right that no item named Bishop exists to source.", "fix": "No change to the verdict. If a builder wants vendor coverage, the wiki's Sells list (Energy Transfer Medic Backpack/Fatigues/Helmet/Gloves/Boots/Jacket and the Medic's Flair, Power, Ring, Necklace and Shockrod items) should be recorded as separate item records. Each would need its own price and currency, which the pack does not give (vendor_stock is empty)."}]}

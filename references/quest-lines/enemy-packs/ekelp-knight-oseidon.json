@@ -1,0 +1,46 @@
+{
+ "title": "Kelp Knight Oseidon",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\cray_caves.json"
+  },
+  {
+   "file": "dungeons\\cray_caves.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:76369 [npc_name | - | Kelp Knight Oseidon] 'Kelp Knight Oseidon'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:10013 [other | - | Kelp Knight Oseidon | FLAG dev_note: internal script event name (*OnSpawn*)] \"Kelp Knight Oseidon's *OnSpawn*\"",
+  "locale:10015 [other | - | Kelp Knight Oseidon | FLAG dev_note: internal script event name (*OnHit*)] \"Kelp Knight Oseidon's *OnHit*\"",
+  "locale:10017 [other | - | Kelp Knight Oseidon | FLAG dev_note: internal script event name (*Invuln*)] \"Kelp Knight Oseidon's *Invuln*\"",
+  "locale:76369 [npc_name | - | Kelp Knight Oseidon] 'Kelp Knight Oseidon'",
+  "locale:76456 [quest_dialog | Seaside | Kelp Knight Oseidon] 'The usually kind king and queen crays are now sending their cray to attack beachgoers! Venture in and defeat them!'",
+  "locale:76459 [quest_objective | Seaside | Kelp Knight Oseidon] 'Defeat Kelp Knight Oseidon!'",
+  "locale:76460 [quest_objective | Seaside | Kelp Knight Oseidon] 'Find and defeat Kelp Knight Oseidon!'"
+ ],
+ "client_cluster": [
+  "locale:76361 [quest_objective | Briarwood | Snowberry Soup] 'Please take the Snowberry Soup to my grandson, Sven in Briarwood. Please hurry before it gets cold. Nothing worse that cold Snowberry Soup!'",
+  "locale:76363 [quest_objective | - | Tormented spirits] 'Tormented spirits are attacking travelers! Go in and put them to rest!'",
+  "locale:76366 [npc_name | - | Tideweaver Oceana] 'Tideweaver Oceana'",
+  "locale:76367 [quest_dialog | - | Jane] 'Oh, those miners are always hurting themselves. '",
+  "locale:76369 [npc_name | - | Kelp Knight Oseidon] 'Kelp Knight Oseidon'",
+  "locale:76370 [quest_dialog | - | Jane] \"That's why good ol' Jane is here to patch them up!\"",
+  "locale:76373 [place | - | Tombstone] 'Tombstone'",
+  "locale:76376 [quest_dialog | - | miners] \"Boy, those miners sure get hungry after a hard day's work.\"",
+  "locale:76377 [quest_dialog | - | miners] 'I hope I can make enough food!'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

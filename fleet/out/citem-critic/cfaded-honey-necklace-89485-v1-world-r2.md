@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-honey-necklace-89485-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3528, 7277, 6, 894] model=claude-haiku-5-5 -->
+# Faded Honey Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "open", "issue": "Checked the lookup for 'Faded Necklace' across client, wiki, articles and video. It returned only client locale lines for the Faded family, with no wiki, article or video hits. No vendor, quest, drop or event source for the Faded Honey Necklace appears in the pack or in the refs search. The empty sources list and null retired status are therefore the honest answer, and no evidenced source is omitted.", "fix": "No change needed. Keep sources empty, retired null, live unsure and confidence low. Optionally note that 'Polished Honey Necklace' (locale 706558070 / 351829733) is a different item name and is not a source for this one."}]}

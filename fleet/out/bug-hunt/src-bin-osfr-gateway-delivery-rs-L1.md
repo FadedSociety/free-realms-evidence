@@ -1,0 +1,16 @@
+<!-- fleet job=bug-hunt id=src-bin-osfr-gateway-delivery-rs-L1 status=done turns=18 usd=0.0127 tokens(read,write,in,out)=[371016, 34253, 38, 9379] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/bin/osfr_gateway/delivery.rs lines 1-126 of 126
+
+**[medium] prototype/osfr-tools/src/bin/osfr_gateway/delivery.rs:81 (and :77) - `post_commit` propagates one recipient's queue failure with `?`, so a single stalled recipient aborts the sender's already-committed request and skips the remaining recipients.**
+
+- **Failure scenario:** Player A jumps (opcode 164) while nearby viewers V1 and V2 are in A's directed view. V1's reliable send queue is full (`SendError::QueueFull`, soe_send.rs:157/195), because V1's link has stopped acking and its retained bytes are at `max_queued_bytes`. Step by step:
+  1. `commit_outcome` succeeds, so A's pose and jump are durably committed (osfr-gateway.rs:1673-1683).
+  2. `post_commit` calls `jump_fanout`, which returns deliveries for V1 and V2 (delivery.rs:55-62).
+  3. `queue_delivery` for V1 returns `Err(QueueFull)`; the `?` at delivery.rs:81 returns early, so V2 never gets the relay.
+  4. The `Err` bubbles out of `dispatch_message` (osfr-gateway.rs:1268/1683) to `handle`, and the packet loop calls `self.end_session(key, current, &error)` for A (osfr-gateway.rs:3751-3752). A is disconnected even though its request committed successfully, and V2 never sees the jump.
+  The same `?` pattern applies to the T199 broadcast loop at delivery.rs:77, where one full queue drops the notice for every later recipient while the sender is still disconnected.
+- **Reach:** A remote player sends opcode 164/125 through `Session::handle` (osfr-gateway.rs:1260 / 1342) → `dispatch_message` → `commit_outcome` → `post_commit` (osfr-gateway.rs:1683). The victim's queue state is not checked upstream. The contrast is `end_session` at osfr-gateway.rs:4453-4459, which handles the same `queue_delivery` errors with `fault(...)` and continues to the next recipient. `post_commit` runs after the commit, so the error cannot undo anything; it only tears down the wrong session and truncates fanout.
+- **Fix:** In `post_commit`, treat each recipient's queue error as non-fatal to the sender, matching `end_session`: change `queue_delivery(...)?` at delivery.rs:77 and :81 to `if let Err(error) = queue_delivery(...) { fault("delivery", error.to_string()); }`, or log and continue. Keep `Ok(())` only for the sender's own queue failure, if that should still propagate.
+- **Caveat:** Exploiting this needs a victim whose outbox actually fills (a non-acking or very slow link). The T199 broadcast is only reachable through realm/dev commands, so the jump path is the player-triggerable one. Severity is medium, not high.
+
+No other defects in the window survived checking. `wrap_application`'s `as u32` cast only sees server-built or bounded bodies (the 40-byte relay from jump_relay.rs:135, and `world_notice` text capped by MAX_BROADCAST_BYTES), and `jump_fanout`'s relay body is rebuilt by the server (jump_relay.rs:135), not copied from client bytes. The relay budget is charged after the viewer check, keyed by the server-side `character_guid`, and `forget_jump_relay` on session end is documented as intended behaviour (osfr-gateway.rs:4450, tests.rs:1514), so a reconnect resetting the budget is not reported as a defect.

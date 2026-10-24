@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-frightening-finisher-bandana-404216-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3703, 8505, 6, 1138] model=claude-haiku-5-5 -->
+# Elite Black Frightening Finisher Bandana
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but no vendor or NPC is named anywhere in the pack (vendor_stock is empty, vendors.json has no 61786). The only evidence is a coin-store row in category 101, so 'coin_store' is the accurate type. The answer's own open list already concedes this.", "fix": "Relabel the source as a coin-store listing: stores.json:14508, item_id 61786, category_id 101, purchase 9453 coins, member 8507 (10% off, 9453 x 0.9 = 8507.7 truncated), sell-back 945 coins. Storefront name for category 101 still unknown."}]}

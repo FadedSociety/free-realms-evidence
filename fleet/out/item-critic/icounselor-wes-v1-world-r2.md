@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icounselor-wes-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3401, 4474, 6, 956] model=claude-haiku-5-5 -->
+# Counselor Wes
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind / sources", "issue": "Counselor Wes is an NPC (client npc_name locale:429027; wiki 'pixie NPC' in Camp Robbie, Greenwood Forest), not an item. The answer correctly assigns no item sources, prices, or retirement status. I found no item of this name in client or wiki, and no reward line tying it to an item.", "fix": "No change to the verdict. Optionally record the wiki quest tie precisely: Quest:What's for Dinner? is marked repeatable on the wiki, and Rags to Riches is an appearance only. The client objective and dialog lines (locale:429115, 429778, 429457, 429780) are consistent with that."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chardwood-phantasmal-ring-69720-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3830, 8457, 6, 1161] model=claude-haiku-5-5 -->
+# Hardwood Phantasmal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor: the pack says the Legacy and Lxzxrus ClientItemDefinitions.json carry this ring (cited at line 472438), but my search of the Legacy and Sanctuary files only surfaced other Phantasmal rings (Dull, Sneak, Grunt, Magus, Surgeon, Hoodlum and others) and no 'Hardwood Phantasmal Ring' comment line. The claim is unverified, and it does not change the sources.", "fix": "Drop the Legacy/Lxzxrus carry claim or re-check the exact line. Client-side, the only hit for the name is locale:69720 and a test-data entry in FreeRealmsLocaleTools en_us_data.dat (line 24109, ugdt 909926202), which is not an acquisition source."}]}

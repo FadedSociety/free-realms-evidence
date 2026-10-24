@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-ethereal-ring-86457-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[4244, 8653, 6, 925] model=claude-haiku-5-5 -->
+# Gleaming Ethereal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the Gleaming series has no source in the pack. It omits a related lead: a 'Gleaming Ethereal Necklace' string also exists in the locale data (en_us_data.dat, id 412264207). The answer lists 'Gleaming' rings and necklaces only in the 86449-86461 range. The necklace counterpart is a useful pointer for whoever checks the series, but it is not a source for this ring.", "fix": "Add to open: 'A matching Gleaming Ethereal Necklace string exists (locale data, id 412264207); it is client text only, with no source found.' No source change."}]}

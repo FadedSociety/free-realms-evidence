@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfiery-speedster-engine-117440-v1-world-r2 status=no_submit turns=2 usd=0.0011 tokens(read,write,in,out)=[4128, 5226, 6, 789] model=claude-haiku-5-5 -->
+# Fiery Speedster Engine
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Stated as 'unsure' with no backing source. The client defines the item, but nothing I checked shows it was ever obtainable, so 'unsure' is the honest value.", "fix": "Keep 'unsure' unless a store, reward or drop source is found."}, {"field": "evidence[0].source", "issue": "The answer's description citation holds, but locale:117553 is the Fiery Speedster kart's own name line, not a second engine line. The lookup shows 117553 as 'Fiery Speedster' with the same description, so the answer's wording is slightly loose.", "fix": "Cite locale:117553 as the kart name ('Fiery Speedster') that shares the engine's description text."}]}

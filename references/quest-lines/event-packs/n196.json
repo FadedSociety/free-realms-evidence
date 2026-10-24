@@ -1,0 +1,30 @@
+{
+ "title": "Free Realms Birthday",
+ "names_seen": [
+  "Free Realms Birthday"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms' 1st birthday falls on April 29, with a celebration planned that includes special quests and rewards.",
+   "numbers": {
+    "birthday_day": 29,
+    "birthday_month": 4,
+    "years_old": 1
+   },
+   "era": "live",
+   "quote": "April 29th marks the 1st birthday of Free Realms",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1197",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1197",
+   "date": null,
+   "title": "Free Realms - What is New? / In The Works: Free Realms Birthday Preview",
+   "summary": "A live-era SOE news post previewing Free Realms' first birthday celebration on April 29 (2010), with special in-game quests and rewards across the world plus an all-day Community Team party. The post gives no quest names, reward details, or exact posting date; it is captured 2010-04-05 and says it was posted 3 days, 18 hours before capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

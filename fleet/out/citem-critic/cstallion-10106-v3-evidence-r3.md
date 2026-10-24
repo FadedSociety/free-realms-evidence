@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstallion-10106-v3-evidence-r3 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11884, 8628, 8, 1451] model=claude-haiku-5-5 -->
+# Stallion
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / open[1]", "issue": "The 450 SC figure is labelled 'basis E (estimate)'. The stores.json:17449 provenance is kind 'reconstructed', basis '(R) W169: 450 Station Cash (source basis E)', with sc_basis E. The answer's wording is accurate, but it should say the figure is reconstructed from a source-basis estimate, not a stated price. Ride Sources.md:65 gives the same '450 E' value.", "fix": "Record as: 'stores.json:17449 sc_price 450, sc_basis E, kind reconstructed (round(sc_price*station_cash.sc_price_scale) SC per T230). Estimate only, not a stated price; no_sale=true.' Source: repo:prototype/osfr-tools/data/content/stores.json:17449; notes/Research/Ride Sources.md:65."}]}

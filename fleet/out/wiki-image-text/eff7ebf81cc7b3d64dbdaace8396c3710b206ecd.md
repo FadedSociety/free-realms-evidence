@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=eff7ebf81cc7b3d64dbdaace8396c3710b206ecd status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[2127, 3529, 6, 798] model=claude-haiku-5-5 -->
+# ZandoRacegear.png
+
+{"kind": "art_or_promo", "has_text": true, "text": "6\nZandro Rageracer\nDwarf\n7\n6\nPlunder 3: When I attack, ready\none of my ⚙ allies.\n💎: Score a card.\n5R24\nIllus.: Imaginary Friends", "tooltip": null, "entries": null, "uncertain": ["This is a trading-card-style image (card name, Dwarf type, numbers in shield/circle icons, four green pips), not a Free Realms item tooltip; the number and symbol meanings are not confirmed.", "The yellow symbol after 'one of my' and the red gem symbol before 'Score a card' are icons read as ⚙ and 💎; their exact identity is uncertain.", "Top-left 6, red 7 and green 6 values read clearly. 'Zandro Rageracer' matches client locale ids 439220 and 441573 ('Rageracer'); 'Plunder' matches locale id 426866."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrittle-honey-square-shard-99325-v2-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3961, 7609, 6, 1213] model=claude-haiku-5-5 -->
+# Brittle Honey Square Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The source is labelled 'vendor' but no vendor or NPC is mapped (where is null, and the answer itself says the seller is unknown). The only evidence is a coin-store row in category 121. It is a store listing, not a named vendor.", "fix": "Label it as a coin-store listing (category 121, stores.json item_id 32206, purchase 811 coins, member 729, sell 81, no_sale false), with the vendor left unmapped. Checked: repo stores.json lines 8199-8201 hold this row, and the client's coin_store_prices is [811]."}]}

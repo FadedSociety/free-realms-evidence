@@ -1,0 +1,73 @@
+{
+ "title": "Pumpkin Prince",
+ "names_seen": [
+  "Pumpkin Prince"
+ ],
+ "facts": [
+  {
+   "statement": "The Pumpkin Prince sends ghosts and ghoulies to the surface world at unpredictable locations; players help the Ghost Hunters in Snowhill, Stillwater Crossing and Bristlewood scare them off.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Talk to the Ghost Hunters in Snowhill, Stillwater Crossing and Bristlewood to help scare them off.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1854",
+   "date": null
+  },
+  {
+   "statement": "The Pumpkin Prince appears as a world event, spreading ghosts and ghouls; players can find Ghost Hunters in Snowhill, Bristlewood and Stillwater Crossing to scare them off.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Parle aux chasseurs de fantômes dans la Colline des neiges, Traversée de l'Eauquidort et Bosquets feuillus",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1857",
+   "date": null
+  },
+  {
+   "statement": "The Pumpkin Prince roams the surface of Free Realms hunting ghosts and demons; players can help the Ghostbusters in Snowy Hill, Mansagua Pass and Thornwood against him, and fight the Pumpkin Prince himself in some quests.",
+   "numbers": {},
+   "era": "live",
+   "quote": "El Príncipe de Calabaza está decidido acechar todo tipo de fantasmas y demonios",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1860",
+   "date": null
+  },
+  {
+   "statement": "The Pumpkin Prince roams the surface of the Free Realms world sending ghosts and demons out; players talk to the Ghost Hunters in Snowy Hill, Thornwood Pass and Florestaespina to help scare away the troublemakers.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Habla con los Cazafantasmas en Colina Nevada, Paso de Mansagua y Florestaespina",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1861",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1854",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms Halloween event post (2nd annual Super Spooktacular) describing costumes, decorations in Pixiewood, a Trick or Treating mechanic using /scare, daily quests around Pixiewood, returning quest lines led by Halloween Harry and Madam Zelda, a Pumpkin Prince world event with Ghost Hunters, a Vampire vs. Werewolf Dance Off, and the Bone Bog Cemetery members battle instance. Exact dates and rewards are not given."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1857",
+   "date": null,
+   "title": "Free Realms - What is New? (2ème Édition Annuelle de la Fête Super Fantomastique)",
+   "summary": "A French-language official news post for the second annual Super Fantomastique (Halloween) event in Free Realms. It covers costumes, Pixiewood decorations, the Trick or Treat activity with Harry Halloween, daily quests, the Pumpkin Prince and Vampire vs. Werewolf world events, a Bone Bog Cemetery member combat instance, and Halloween Trading Card Game quest packs. The post gives no absolute date, only a relative 'Posted 7 months, 2 weeks ago'."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1860",
+   "date": null,
+   "title": "Segundo Año de Super Spooktacular (Free Realms - What is New?)",
+   "summary": "A Spanish-language Free Realms news post announcing the second year of the Super Spooktacular Halloween event. It covers costumes, Pixiewood decorations, the /scare trick-or-treat mechanic, daily quests, world events, the Bone Marsh battle instance, and a Trading Card Game (JCC) Halloween pack offer. The post's date is not shown; it is only given as 'posted 7 months, 2 weeks ago' at the 2011-06-04 capture, so it is roughly late 2010."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1861",
+   "date": null,
+   "title": "Segundo Año de Super Spooktacular (Free Realms - What is New?)",
+   "summary": "A Spanish-language official news post announcing the second year of the Super Spooktacular Halloween event. It describes costumes, decorations, a /scare trick-or-treat system, daily quests, world and community events, the Bone Bog Cemetery battle instance, and a Trading Card Game (JCC) Halloween pack. The post gives no exact date; it was captured in June 2011 and says it was posted about 7 months and 2 weeks earlier."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Guardians of the Tomb (final, live yes)",
+  "Sealed with a Signet (final, live yes)",
+  "The Great Scare (final, live unsure)",
+  "The Pumpkin Prince (unresolved, live unsure)"
+ ]
+}

@@ -1,0 +1,14 @@
+<!-- fleet job=test-audit id=tests-piece-074-rs-L1 status=done turns=4 usd=0.0044 tokens(read,write,in,out)=[22721, 21104, 10, 2990] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_074.rs lines 1-332 of 332
+
+Window: `prototype/osfr-tools/tests/piece_074.rs` lines 1-332. Read against `prototype/osfr-tools/src/restoration/piece_074.rs` (the module the test includes via `#[path]`).
+
+- **[high] prototype/osfr-tools/tests/piece_074.rs:52-57,143-156 category_bucket_is_the_recovered_modulo - the test exercises a `category_bucket` helper defined in the test file itself, not anything in the module under test.**
+  - Why it cannot catch a regression: `category_bucket` is a local copy of `% 10` (line 56) and the src module has no such function (a search for `category_bucket` and `% 10` under `src/restoration` finds nothing). Any change to the real module's category handling (for example, a bucket function that is wrong or absent) leaves this test green, because it only checks the test's own arithmetic. The name and the "FUN_009fd050 hashes with % 10" message claim the shipped code is checked, and it is not.
+  - Fix: either delete the helper and test a real bucketing function from `src/restoration/piece_074.rs` (add one if the module is meant to own it), or rename the test and drop the claim. If the bucket is meant to be shipped logic, the test should call that function with ids 0, 1, 10, 11 and assert its output.
+
+- **[medium] prototype/osfr-tools/tests/piece_074.rs:136-139 category_table_is_the_ten_recovered_client_rows - four assertions compare test-local constants with the same literals.**
+  - Why it cannot catch a regression: `COLLECTION_CATEGORY_COLUMNS`, `COLLECTION_ROW_COLUMNS`, `COLLECTION_VIEW_ENTRY_FLAGS` and `COLLECTION_CATEGORY_HASH_BUCKETS` are defined in this file (lines 47-50) with the same values being asserted (3, 17, 8, 10). These lines are constant-against-itself and pass whatever the src does. The client-width claims (3 columns, 17 columns, 8 flags) are never checked against the src module, which has no column-width constant at all.
+  - Fix: remove those four self-comparisons. If the widths matter, put them in the src module as `pub const`s and assert those, or assert the actual row structure of the parsed `COLLECTION_CATEGORIES` (for example, that each row has exactly `id`, `name_id`, `icon_id`). The test name's "ten recovered client rows" claim is covered by the lines 110-133 checks, so the rest adds nothing.
+
+Other tests in the window (collecting_every_entry, replaying, restart, malformed definitions, corrupt ledger) were checked against the src logic (`collect`, `insert`, `to_bytes`/`from_bytes`, `deny_unknown_fields`, byte bound). Their assertions touch the real behaviour and can fail. No `#[ignore]` or early-return skips appear in the window.

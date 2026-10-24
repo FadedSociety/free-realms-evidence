@@ -1,0 +1,60 @@
+{
+ "title": "Fiesta de Inicio al 2011",
+ "names_seen": [
+  "Fiesta de Inicio al 2011"
+ ],
+ "facts": [
+  {
+   "statement": "The Community Team held a New Year 2011 kickoff party as the first major community event of the year, on Server 1 at the Snow Hill stage.",
+   "numbers": {},
+   "era": "live",
+   "quote": "¡Es hora de nuestro primer gran evento comunitario del año!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1987",
+   "date": null
+  },
+  {
+   "statement": "The US and Latin America session was Thursday 6 January 2011 at 3pm Pacific Time on Server 1.",
+   "numbers": {
+    "day": 6,
+    "month": 1,
+    "year": 2011,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Jueves 6 de Enero del 2011 3pm Tiempo del Pacifico (EE. UU. y America Latina) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1987",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session was Friday 7 January 2011 at 9am Pacific Time on Server 1.",
+   "numbers": {
+    "day": 7,
+    "month": 1,
+    "year": 2011,
+    "hour_pacific": 9
+   },
+   "era": "live",
+   "quote": "Viernes 7 de Enero del 2011 9am Tiempo del Pacifico (Reino Unido y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1987",
+   "date": null
+  },
+  {
+   "statement": "Players were invited to bring their favorite outfits and boomboxes to the party.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Trae tus trajes favoritos y tus radio caseteras.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1987",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1987",
+   "date": null,
+   "title": "Evento Comunitario: Fiesta de Inicio al 2011 (Free Realms - What is New?)",
+   "summary": "A Spanish-language community event notice announcing the first community party of 2011, held weekly on Thursdays at a different location, with the Snow Hill stage on Server 1 as the venue. It gives two session times: one for US and Latin America and one for UK and Europe, both on Server 1. The page's 'posted 4 months, 4 weeks ago' label conflicts with the January 2011 event dates, so the posting date is uncertain."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

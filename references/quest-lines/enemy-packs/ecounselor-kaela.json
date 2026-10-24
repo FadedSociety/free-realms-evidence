@@ -1,0 +1,48 @@
+{
+ "title": "Counselor Kaela",
+ "our_entries": [
+  {
+   "file": "dungeons\\bigfoot_defender.json",
+   "definition_id": 930006
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:428931 [npc_name | - | Counselor Kaela] 'Counselor Kaela'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:428931 [npc_name | - | Counselor Kaela] 'Counselor Kaela'"
+ ],
+ "client_cluster": [
+  "locale:428923 [ability | - | Twilight Strike] 'Twilight Strike'",
+  "locale:428924 [ability | - | Twilight Strike] 'Attack all opponents in front of you with the power of twilight. Has a slightly longer reach.'",
+  "locale:428925 [ability | - | Vampiric Wrath] 'Vampiric Wrath'",
+  "locale:428926 [ability | - | Vampiric Wrath] 'Damages all nearby opponents and drains some of their health.'",
+  "locale:428927 [ability | - | Vampiric Wrath Proc] 'Vampiric Wrath Proc'",
+  "locale:428928 [ability | - | Vampiric Wrath Proc] 'Lifetap effect granted by the Vampirc Wrath ultra attack.'",
+  "locale:428929 [npc_name | - | Greenwood Bear] 'Greenwood Bear'",
+  "locale:428930 [npc_name | - | Bigfoot] 'Bigfoot'",
+  "locale:428931 [npc_name | - | Counselor Kaela] 'Counselor Kaela'",
+  "locale:428932 [npc_name | - | Counselor Tyra] 'Counselor Tyra'",
+  "locale:428934 [npc_name | - | Counselor Edmond] 'Counselor Edmond'",
+  "locale:428935 [npc_name | - | Counselor Jake] 'Counselor Jake'",
+  "locale:428938 [quest_dialog | - | Bigfoot] 'Hey! Did Chatty send you to help?'",
+  "locale:428939 [quest_objective | - | Bigfoot] 'Bigfoot is just up ahead... '"
+ ],
+ "wiki": {
+  "title": "Counselor Kaela",
+  "text": "Counselor Kaela is a pixie NPC that can be found in the perimeters of Camp Chatty, located in the Greenwood Forest.\n\nShe is also an enemy NPC in Bigfoot Defender. She is with Jake, Edmond, and Tyra to find and hurt Bigfoot.\n\nQuests\nQuest:Forest Friends (repeatable)\n\nAppearances\nQuest:Meet and Greet\nQuest:Forest Friends\nBigfoot Defender\nCategory:NPC\nCategory:Enemies\nCategory:Females\nCategory:Pixie\nCategory:Quest Givers\nCategory:Camp Chatty\nCategory:Greenwood Forest"
+ },
+ "images": [
+  "image (image:other): FreeRealms v1.828.1781.1215.2904.505563\nMat Stonyspy\n76\n319\n20\nAdventurer\nReferee Violet\n<Free Realms Support>\nActive Quest!\nRain[...]lake (partly hidden by friends panel)\nMy Friends(15/88)\nŠharky\nAlvin Charmsmile1\nAngelina Copperscale\nAri Berry3\nBiohazard\nBlake Grayshade\nElite Nikki\nCounselor Kaela"
+ ],
+ "video": [
+  "video:-zAdRWR9MtE/00036.jpg (-): other_text: Active Quests 10/30 Job Quest Started On Progress Harassing the Harassers Protect Snowhill from the wandering yetis that have been harassing travelers. Jonathon Forkp... 7/17/2012 - 0% Confronting Bigfoot Edmond and the other camp counselors can't seem to make peace w"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "giver of 'Forest Friends' (final, zone Greenwood Forest (Camp Chatty))",
+  "talk target in 'Forest Friends' (final): Return to Counselor Kaela",
+  "talk target in 'Meet and Greet' (final): Speak to Counselor Kaela"
+ ]
+}

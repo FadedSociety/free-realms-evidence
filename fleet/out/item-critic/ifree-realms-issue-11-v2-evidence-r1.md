@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifree-realms-issue-11-v2-evidence-r1 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[10651, 6642, 8, 1300] model=claude-haiku-5-5 -->
+# Free Realms Issue 11
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "retired", "issue": "Left null, though the Treasure Trader route is clearly closed. The wiki says the application ran September 8 to 28, 2010 and that its weapons can no longer be acquired. The answer's own open note calls that route ended. This is an omission of a status the evidence supports, not a false claim.", "fix": "Mark the Treasure Trader source as retired (ended 2010-09-28, per wiki:Treasure Trader and Category:Treasure Trader Weapons). Keep the item-level retired status null, since the comic code route is not verified as closed."}]}

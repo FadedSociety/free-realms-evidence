@@ -1,0 +1,40 @@
+{
+ "title": "Seaside Summer Splash",
+ "names_seen": [
+  "Seaside Summer Splash"
+ ],
+ "facts": [
+  {
+   "statement": "The Seaside Summer Splash event let players complete quests in Seaside to earn Seaside Stickers, which could be redeemed for special fireworks, wearables and other items.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Complete quests and earn Seaside Stickers that you can redeem for special fireworks, fun wearables and other cool items!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=136",
+   "date": null
+  },
+  {
+   "statement": "The Seaside Summer Splash holiday event began on July 2, 2009, kicked off by the Robgoblin Sizzlebottom near the inn at Seaside.",
+   "numbers": {},
+   "era": "live",
+   "quote": "The Seaside Summer Splash begins, there are some new Marketplace items and more!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=137",
+   "date": "2009-07-02"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=136",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com news post for the Seaside Summer Splash event, running on the 2009 live game. Players complete Seaside quests to earn Seaside Stickers, redeemable for fireworks, wearables and other items. Members got a Summer Sparkler Bundle if claimed by 11:59 PM PDT on 7/12/2009."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=137",
+   "date": "2009-07-02",
+   "title": "Free Realms - What is New?",
+   "summary": "Update notes for July 2, 2009 announcing the Seaside Summer Splash holiday event in Seaside, centered on Sizzlebottom's fireworks and several event NPC challenges, plus a few general fixes, a new camera controller option, and new Marketplace holiday items. The page is a Wayback copy of the official site's update notes, so it describes the live game as of that date."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

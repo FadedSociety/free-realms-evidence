@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblinding-hardy-star-shard-86285-v2-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3954, 10835, 6, 1301] model=claude-haiku-5-5 -->
+# Blinding Hardy Star Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Store row verified: stores.json:6709 is item 22294, category 123, purchase 1761, member 1584, sell null, no_sale true. The answer is accurate that the vendor and shop name are unresolved. Same-price no_sale rows also appear in category 124 (22281, 22283), which the answer does not mention; this does not contradict the source, but it shows the 1761 price is shared by a group of no-sale items across two categories.", "fix": "Optionally add that 1761/no_sale rows also occur in category 124 (item_ids 22281, 22283; stores.json:6696, 6698), so the group is not confined to category 123. No change to the coin_shop source is required."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ikimble-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3711, 8130, 6, 1165] model=claude-haiku-5-5 -->
+# Kimble
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says repo vendors.json already has Kimble vendor entries (lines 38529-38909) that could supply the 12 items. It also omits that prototype/osfr-tools/data/content/vendors_unresolved.json has a separate Kimble entry (around lines 8908-8930) that is still unresolved. The answer does not mention this, so the vendor-link status it implies is incomplete.", "fix": "Note that Kimble's vendor rows are split between vendors.json (about 9 entries, lines 38529-38909) and vendors_unresolved.json (line 8908 onward, npc_name Kimble). Check which of the 12 wiki items each entry covers, and whether any has a price, before calling them sourced. Wiki rev 48190 gives no prices."}]}

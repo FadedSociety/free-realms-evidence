@@ -1,0 +1,33 @@
+{
+ "title": "Reto JCC schedule",
+ "names_seen": [
+  "Reto JCC schedule"
+ ],
+ "facts": [
+  {
+   "statement": "The event ran on Friday 20 November in two sessions: 15:00-17:00 Pacific Time for USA and Latin America on Server 1, and 09:00-11:00 Pacific Time / 18:00-20:00 for UK and Europe on Server 1.",
+   "numbers": {
+    "US_LatAm_start_PT_hour": 15,
+    "US_LatAm_end_PT_hour": 17,
+    "UK_EU_start_PT_hour": 9,
+    "UK_EU_end_PT_hour": 11,
+    "UK_EU_start_local_hour": 18,
+    "UK_EU_end_local_hour": 20
+   },
+   "era": "live",
+   "quote": "Viernes 20 de noviembre 1500 – 1700 Tiempo Pacifico",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=641",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=641",
+   "date": null,
+   "title": "Evento Comunitario: Reto JCC",
+   "summary": "A Spanish-language community event page announcing a weekly player-versus-player Trading Card Game (JCC) event. Players were invited to gather at Crossroads (or enter the JCC lobby from anywhere in the game), and new players were directed to NPC Mar Mita in Pixiewood to start. The event ran on Friday 20 November in two time blocks for two server groups."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

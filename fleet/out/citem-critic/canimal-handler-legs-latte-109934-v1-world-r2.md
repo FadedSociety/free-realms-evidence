@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=canimal-handler-legs-latte-109934-v1-world-r2 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[8757, 5702, 8, 941] model=claude-haiku-5-5 -->
+# Animal Handler legs latte
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources list is consistent with the evidence. A repo search for 'Animal Handler' or 'pettrainer_L1' finds only the Pet Trainer.md guide, which lists the colour variants with source [client] and no vendor, quest or event. lookup returned no matches for Animal Handler outfit or Pet Trainer. No clearly evidenced source is omitted.", "fix": "No change required. Optional: note in open that the Pet Trainer.md row 232 'New member pack' (locale 3755074429, contents unknown) is an unverified possible container and is not evidence for this item."}]}

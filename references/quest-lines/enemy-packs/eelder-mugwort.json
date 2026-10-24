@@ -1,0 +1,52 @@
+{
+ "title": "Elder Mugwort",
+ "our_entries": [
+  {
+   "file": "dungeons\\mugwort_s_hollow.json",
+   "definition_id": 930057
+  },
+  {
+   "file": "dungeons\\mugwort_s_hollow.json",
+   "definition_id": 930057
+  },
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000895,
+   "zone": "Wilds",
+   "enemy_kind": "Exiled druid and boss of Mugwort's Hollow; holds the Scroll of the Jade Tiger (1920299577).",
+   "location_evidence": [
+    "The Hollow, \"along the mountain face between Snowhill and Shrouded Glade\" (wiki, via the dungeon page); \"west of Shrouded Glade\" (2867760776)."
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:16811 [item | - | Elder Mugwort] 'Elder Mugwort'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:16811 [item | - | Elder Mugwort] 'Elder Mugwort'"
+ ],
+ "client_cluster": [
+  "locale:16803 [quest_objective | - | Lost Merchandise] 'Find dynamtime to blast cave block '",
+  "locale:16806 [npc_name | - | Earth Toad] 'Earth Toad'",
+  "locale:16807 [npc_name | - | Glade Raven] 'Glade Raven'",
+  "locale:16809 [npc_name | - | Warthog Charger] 'Warthog Charger'",
+  "locale:16810 [npc_name | - | Forest Troll- Test | FLAG placeholder: test name] 'Forest Troll- Test'",
+  "locale:16811 [item | - | Elder Mugwort] 'Elder Mugwort'",
+  "locale:16812 [other | - | fairy_f_child_02 | FLAG dev_note: internal asset name] 'fairy_f_child_02'",
+  "locale:16813 [other | - | fairychild_m_mohawkshorts | FLAG dev_note: internal asset name] 'fairychild_m_mohawkshorts'",
+  "locale:16814 [npc_name | - | Snorg] 'Snorg'",
+  "locale:16815 [quest_dialog | - | Snorg] 'Thank you for saving us from those horrible unruly Bixie! Oh my, there seems to be more coming this way. Save us!'",
+  "locale:16816 [quest_dialog | - | Snorg] 'Oh my, thank you for rescuing us from those unruly Bixie!'",
+  "locale:16817 [other | - | Troll Hut Spawner] 'Troll Hut Spawner'",
+  "locale:16818 [other | - | Kaboom | FLAG fragment: single word] 'Kaboom'",
+  "locale:16819 [other | - | Darvon's Descent | FLAG dev_note: internal \"Rock block explode\" note] \"Darvon's Descent - Rock block explode\""
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Elder Mugwort"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

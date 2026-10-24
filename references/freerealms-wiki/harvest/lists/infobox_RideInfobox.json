@@ -1,0 +1,2384 @@
+[
+ {
+  "page": "Air T-Rex",
+  "url": "https://freerealms.fandom.com/wiki/Air_T-Rex",
+  "params": {
+   "name": "Air T-Rex",
+   "image": "Air-T-Rex.jpg",
+   "gender": "Unknown",
+   "category": "[[T-Rexes|T-rex]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "T-Rexes"
+  ],
+  "images": [
+   "Air T-Rex.png",
+   "Air-T-Rex.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Arctic Cat",
+  "url": "https://freerealms.fandom.com/wiki/Arctic_Cat",
+  "params": {
+   "name": "Arctic Cat",
+   "image": "Arctic cat.jpg",
+   "gender": "Various",
+   "category": "[[Tigers|Tiger]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "12 Days of Presents",
+   "Non-Winged Ride",
+   "Rides",
+   "Seasonal",
+   "Snow Days",
+   "Tigers",
+   "Unobtainable"
+  ],
+  "images": [
+   "Arctic cat.jpg"
+  ]
+ },
+ {
+  "page": "Armored T-Rex",
+  "url": "https://freerealms.fandom.com/wiki/Armored_T-Rex",
+  "params": {
+   "name": "Armored T-Rex",
+   "image": "Armored t-rex.jpg",
+   "gender": "Varies",
+   "category": "[[T-Rexes|T-rex]]",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "T-Rexes"
+  ],
+  "images": [
+   "Armored t-rex.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Basalt Surfboard",
+  "url": "https://freerealms.fandom.com/wiki/Basalt_Surfboard",
+  "params": {
+   "name": "Basalt Surfboard",
+   "image": "Basalt Surfboard.png",
+   "gender": "Unknown",
+   "category": "[[Surfboards|Surfboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Summer",
+   "Surfboards"
+  ],
+  "images": [
+   "Basalt Surfboard.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Bicycle",
+  "url": "https://freerealms.fandom.com/wiki/Bicycle",
+  "params": {
+   "name": "Bicycle",
+   "image": "Bicycle Ride.jpg",
+   "gender": "Unknown",
+   "category": "[[Bicycles|Bicycle]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Bicycles",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Bicycle Ride.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Black-Nosed Stallion",
+  "url": "https://freerealms.fandom.com/wiki/Black-Nosed_Stallion",
+  "params": {
+   "name": "Black-Nosed Stallion",
+   "image": "Blacknosedhorse.jpg",
+   "gender": "Male",
+   "category": "[[Horses|Horse]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Horse",
+   "Males",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Blacknosedhorse.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Bowling Ball",
+  "url": "https://freerealms.fandom.com/wiki/Bowling_Ball",
+  "params": {
+   "name": "Bowling Ball",
+   "image": "Bowling Ball.png",
+   "gender": "Unknown",
+   "category": "Bowling ball",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Bowling Ball.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Broomstick",
+  "url": "https://freerealms.fandom.com/wiki/Broomstick",
+  "params": {
+   "name": "Broomstick",
+   "image": "Broomstick.png",
+   "gender": "Unknown",
+   "category": "Broomstick",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Super Spooktacular"
+  ],
+  "images": [
+   "Broomstick.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Burnt Turkey",
+  "url": "https://freerealms.fandom.com/wiki/Burnt_Turkey",
+  "params": {
+   "name": "Burnt Turkey",
+   "image": "Burnt turkey.jpg",
+   "gender": "Varies",
+   "category": "Turkey",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Holiday",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Thanksgiving",
+   "Turkeys"
+  ],
+  "images": [
+   "Burnt turkey.jpg",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Chilly Surfboard",
+  "url": "https://freerealms.fandom.com/wiki/Chilly_Surfboard",
+  "params": {
+   "name": "Chilly Hoverboard",
+   "image": "Chillysurfboard.png",
+   "gender": "Unknown",
+   "category": "[[Surfboards|Surfboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Mechanical Ride",
+   "Rides",
+   "Surfboards",
+   "Unreleased"
+  ],
+  "images": [
+   "Chillysurfboard.png"
+  ]
+ },
+ {
+  "page": "Chrome Drake",
+  "url": "https://freerealms.fandom.com/wiki/Chrome_Drake",
+  "params": {
+   "name": "Chrome Drake",
+   "image": "ChromeDrake-FullBody.png",
+   "gender": "Unknown",
+   "category": "Robot",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Feathered Drake",
+   "Mechanical Ride",
+   "Rides",
+   "Robot",
+   "Trading Card Game",
+   "Virtual Rewards",
+   "Winged Ride"
+  ],
+  "images": [
+   "Chrome drake.jpg",
+   "ChromeDrake-FullBody.png",
+   "Chromefeathereddrake.jpg"
+  ]
+ },
+ {
+  "page": "Clocktopus",
+  "url": "https://freerealms.fandom.com/wiki/Clocktopus",
+  "params": {
+   "name": "Clocktopus",
+   "image": "42d31fd6343f58ab7523e92cf10f0920.jpg",
+   "gender": "Unknown",
+   "category": "Robot",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Mechanical Ride",
+   "Mystery Chest",
+   "Rides",
+   "Robot"
+  ],
+  "images": [
+   "42d31fd6343f58ab7523e92cf10f0920.jpg"
+  ]
+ },
+ {
+  "page": "Clockwork Horse",
+  "url": "https://freerealms.fandom.com/wiki/Clockwork_Horse",
+  "params": {
+   "name": "Clockwork Horse",
+   "image": "Clockwork Horse.PNG",
+   "gender": "Unknown",
+   "category": "Robot",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Horse",
+   "Mechanical Ride",
+   "Mystery Chest",
+   "Rides",
+   "Robot"
+  ],
+  "images": [
+   "Clockwork Horse.PNG"
+  ]
+ },
+ {
+  "page": "Clockwork Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Clockwork_Hoverboard",
+  "params": {
+   "name": "Clockwork Hoverboard",
+   "image": "Hoverboard01.jpg",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Hoverboard01.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Crocodile",
+  "url": "https://freerealms.fandom.com/wiki/Crocodile",
+  "params": {
+   "name": "Crocodile",
+   "gender": "Varies",
+   "category": "Crocodile",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Crystal Horse",
+  "url": "https://freerealms.fandom.com/wiki/Crystal_Horse",
+  "params": {
+   "name": "Crystal Horse",
+   "gender": "Varies",
+   "category": "[[Horses|Horse]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Horse",
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Dragonfire Broomstick",
+  "url": "https://freerealms.fandom.com/wiki/Dragonfire_Broomstick",
+  "params": {
+   "name": "Dragonfire Broomstick",
+   "image": "Dragon broom.jpg",
+   "gender": "Unknown",
+   "category": "Broomstick",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Super Spooktacular"
+  ],
+  "images": [
+   "Broomstick unidentified.png",
+   "Dragon broom.jpg",
+   "Sc.png",
+   "Spookupdate4.png"
+  ]
+ },
+ {
+  "page": "Dwarftech Chopper",
+  "url": "https://freerealms.fandom.com/wiki/Dwarftech_Chopper",
+  "params": {
+   "name": "Dwarftech Chopper",
+   "image": "Dwarftech Chopper.png",
+   "gender": "Unknown",
+   "category": "Chopper",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Mysterious Merchant",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Dwarftech Chopper.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Dwarftech Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Dwarftech_Hoverboard",
+  "params": {
+   "name": "Dwarftech Hoverboard",
+   "image": "Hoverboard02.jpg",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Hoverboard02.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Earth T-Rex",
+  "url": "https://freerealms.fandom.com/wiki/Earth_T-Rex",
+  "params": {
+   "name": "Earth T-Rex",
+   "gender": "Varies",
+   "category": "[[T-Rexes|T-rex]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "T-Rexes",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Eight Ball",
+  "url": "https://freerealms.fandom.com/wiki/Eight_Ball",
+  "params": {
+   "name": "Eight Ball",
+   "image": "Eight Ball.png",
+   "gender": "Unknown",
+   "category": "Ball",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Eight Ball.png",
+   "Eightball.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Eyeball",
+  "url": "https://freerealms.fandom.com/wiki/Eyeball",
+  "params": {
+   "name": "Eyeball",
+   "image": "Eyeball.jpg",
+   "gender": "Unknown",
+   "category": "Eyeball",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Super Spooktacular"
+  ],
+  "images": [
+   "Eyeball.jpg",
+   "Sc.png",
+   "Spookupdate4.png"
+  ]
+ },
+ {
+  "page": "Fairweather Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Fairweather_Hoverboard",
+  "params": {
+   "name": "Fairweather Hoverboard",
+   "image": "Fairweather Hoverboard.png",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Fairweather Hoverboard.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Fan Faire 2011 Bicycle",
+  "url": "https://freerealms.fandom.com/wiki/Fan_Faire_2011_Bicycle",
+  "params": {
+   "name": "Fan Faire 2011 Bicycle",
+   "image": "Fan Faire 2011 Bicycle.jpg",
+   "gender": "Unknown",
+   "category": "[[Bicycles|Bicycle]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Bicycles",
+   "Mechanical Ride",
+   "Rides",
+   "Unobtainable"
+  ],
+  "images": [
+   "Fan Faire 2011 Bicycle.jpg"
+  ]
+ },
+ {
+  "page": "Fiery Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Fiery_Hoverboard",
+  "params": {
+   "name": "Fiery Hoverboard",
+   "image": "Img 20130126-21-28-15 thumb.png",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Img 20130126-21-28-15 thumb.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Fire Pegasus",
+  "url": "https://freerealms.fandom.com/wiki/Fire_Pegasus",
+  "params": {
+   "name": "Fire Pegasus",
+   "image": "Fire Pegasus.png",
+   "gender": "Various",
+   "category": "[[Pegasi|Pegasus]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Pegasus",
+   "Rides",
+   "SC Marketplace",
+   "Winged Ride"
+  ],
+  "images": [
+   "Fire Pegasus.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Fire T-Rex",
+  "url": "https://freerealms.fandom.com/wiki/Fire_T-Rex",
+  "params": {
+   "name": "Fire T-Rex",
+   "gender": "Varies",
+   "category": "[[T-Rexes|T-rex]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "T-Rexes",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Flying Saucer",
+  "url": "https://freerealms.fandom.com/wiki/Flying_Saucer",
+  "params": {
+   "name": "Flying Saucer",
+   "image": "Flying saucer.jpg",
+   "gender": "Unknown",
+   "category": "Flying saucer",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Mechanical Ride",
+   "Mystery Chest",
+   "Rides"
+  ],
+  "images": [
+   "Flying saucer.jpg",
+   "Flyingsaucer.jpg",
+   "Ufo.jpg"
+  ]
+ },
+ {
+  "page": "Futuristic Bicycle",
+  "url": "https://freerealms.fandom.com/wiki/Futuristic_Bicycle",
+  "params": {
+   "name": "Futuristic Bicycle",
+   "image": "Futuristicbike.jpg",
+   "gender": "Unknown",
+   "category": "[[Bicycles|Bicycle]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Bicycles",
+   "Mechanical Ride",
+   "Members Only",
+   "Rides",
+   "Unobtainable"
+  ],
+  "images": [
+   "Futuristicbike.jpg"
+  ]
+ },
+ {
+  "page": "Giant Frog",
+  "url": "https://freerealms.fandom.com/wiki/Giant_Frog",
+  "params": {
+   "name": "Giant Frog",
+   "gender": "Varies",
+   "category": "Frog",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Giant Turkey",
+  "url": "https://freerealms.fandom.com/wiki/Giant_Turkey",
+  "params": {
+   "name": "Giant Turkey",
+   "image": "Giant turkey.jpg",
+   "gender": "Varies",
+   "category": "Turkey",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Holiday",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Thanksgiving",
+   "Turkeys"
+  ],
+  "images": [
+   "Giant turkey.jpg",
+   "Newride th.jpg",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Glacierator 5000",
+  "url": "https://freerealms.fandom.com/wiki/Glacierator_5000",
+  "params": {
+   "name": "Glacierator 5000",
+   "image": "Glac.png",
+   "gender": "Unknown",
+   "category": "Ice resurfacer",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Mechanical Ride",
+   "Rides",
+   "Trading Card Game",
+   "Virtual Rewards"
+  ],
+  "images": [
+   "FR loot zamboni.jpg",
+   "Glac.png",
+   "Glaccard.jpg",
+   "Glacierator 5000.jpg",
+   "Zamboni mount pub 500.jpg"
+  ]
+ },
+ {
+  "page": "Gold-Tipped Dragon",
+  "url": "https://freerealms.fandom.com/wiki/Gold-Tipped_Dragon",
+  "params": {
+   "name": "Gold-Tipped Dragon",
+   "image": "Gold-Tipped Dragon.png",
+   "gender": "Varies",
+   "category": "[[Dragons|Dragon]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Dragon",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace",
+   "Winged Ride"
+  ],
+  "images": [
+   "Gold-Tipped Dragon.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Haunted Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Haunted_Hoverboard",
+  "params": {
+   "name": "Haunted Hoverboard",
+   "image": "Haunted hoverboard.jpg",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Super Spooktacular"
+  ],
+  "images": [
+   "Haunted hoverboard.jpg",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Hearts Pegasus",
+  "url": "https://freerealms.fandom.com/wiki/Hearts_Pegasus",
+  "params": {
+   "name": "Hearts Pegasus",
+   "image": "Hearts pegasus.jpg",
+   "gender": "Various",
+   "category": "[[Pegasi|Pegasus]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Pegasus",
+   "Rides",
+   "SC Marketplace",
+   "Winged Ride"
+  ],
+  "images": [
+   "Hearts Pegasus.png",
+   "Hearts pegasus.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Holiday Tree Board",
+  "url": "https://freerealms.fandom.com/wiki/Holiday_Tree_Board",
+  "params": {
+   "name": "Holiday Tree Board",
+   "image": "Holiday Tree Hoverboard.png",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Snow Days"
+  ],
+  "images": [
+   "Holiday Tree Hoverboard.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Hydra",
+  "url": "https://freerealms.fandom.com/wiki/Hydra",
+  "params": {
+   "name": "Hydra",
+   "image": "Img 20130629-18-16-34 thumb.png",
+   "gender": "Unknown",
+   "category": "Hydra",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Hydras",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Bandicam 2013-08-13 03-38-51-928.jpg",
+   "Img 20130629-18-16-34 thumb.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Icy Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Icy_Hoverboard",
+  "params": {
+   "name": "Icy Hoverboard",
+   "image": "Icy Hoverboard.jpg",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal"
+  ],
+  "images": [
+   "Icy Hoverboard.jpg",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Jack-O-Lantern Ride",
+  "url": "https://freerealms.fandom.com/wiki/Jack-O-Lantern_Ride",
+  "params": {
+   "name": "Jack-O-Lantern",
+   "image": "Jack-o-lantern ride.jpg",
+   "gender": "Unknown",
+   "category": "Pumpkin",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Marketplace Items",
+   "Members Only",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Super Spooktacular"
+  ],
+  "images": [
+   "Jack-o-lantern ride.jpg",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Jupiter Ball",
+  "url": "https://freerealms.fandom.com/wiki/Jupiter_Ball",
+  "params": {
+   "name": "Jupiter Ball",
+   "gender": "Unknown",
+   "category": "Planet",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Kangaroo",
+  "url": "https://freerealms.fandom.com/wiki/Kangaroo",
+  "params": {
+   "name": "Kangaroo",
+   "image": "Kangaroo Ride.jpg",
+   "gender": "Varies",
+   "category": "Kangaroo",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Mystery Chest",
+   "Non-Winged Ride",
+   "Rides"
+  ],
+  "images": [
+   "Kangaroo Ride.jpg",
+   "KangarooRideConcept CaseM.jpg"
+  ]
+ },
+ {
+  "page": "Lava Wolf",
+  "url": "https://freerealms.fandom.com/wiki/Lava_Wolf",
+  "params": {
+   "name": "Lava Wolf",
+   "gender": "Varies",
+   "category": "[[Wolves|Wolf]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased",
+   "Wolves"
+  ],
+  "images": []
+ },
+ {
+  "page": "Lawless Gloam Chopper",
+  "url": "https://freerealms.fandom.com/wiki/Lawless_Gloam_Chopper",
+  "params": {
+   "name": "Lawless Gloam Chopper",
+   "image": "Lawless gloam chopper.jpg",
+   "gender": "Unknown",
+   "category": "Chopper",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "HeroRealms Month",
+   "Mechanical Ride",
+   "Members Only",
+   "Rides"
+  ],
+  "images": [
+   "Herorealmsmonthly.png",
+   "Herorideteaser.png",
+   "Lawless gloam chopper.jpg"
+  ]
+ },
+ {
+  "page": "Lawn Chair",
+  "url": "https://freerealms.fandom.com/wiki/Lawn_Chair",
+  "params": {
+   "name": "Lawn Chair",
+   "image": "Lawn chair.jpg",
+   "gender": "Unknown",
+   "category": "Lawn chair",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "5 10 p1.png",
+   "Lawn chair teaser.png",
+   "Lawn chair.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Lightning Ball",
+  "url": "https://freerealms.fandom.com/wiki/Lightning_Ball",
+  "params": {
+   "name": "Lightning Ball",
+   "gender": "Unknown",
+   "category": "Ball",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Lion",
+  "url": "https://freerealms.fandom.com/wiki/Lion",
+  "params": {
+   "name": "Lion",
+   "gender": "Varies",
+   "category": "Lion",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Lizard",
+  "url": "https://freerealms.fandom.com/wiki/Lizard",
+  "params": {
+   "name": "Lizard",
+   "gender": "Varies",
+   "category": "Lizard",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Magic Carpet",
+  "url": "https://freerealms.fandom.com/wiki/Magic_Carpet",
+  "params": {
+   "name": "Magic Carpet",
+   "image": "94cf88e166c067327d589c3fe6abacc2.png",
+   "gender": "Unknown",
+   "category": "Carpet",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Mystery Chest",
+   "Non-Winged Ride",
+   "Rides"
+  ],
+  "images": [
+   "94cf88e166c067327d589c3fe6abacc2.png"
+  ]
+ },
+ {
+  "page": "Molten Precursor Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Molten_Precursor_Hoverboard",
+  "params": {
+   "name": "Molten Precursor Hoverboard",
+   "image": "Molten Precursor Hoverboard.png",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Molten Precursor Hoverboard.png",
+   "Player Riding The Molten Precursor Hoverboard.webp",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Nightmare",
+  "url": "https://freerealms.fandom.com/wiki/Nightmare",
+  "params": {
+   "name": "Nightmare",
+   "image": "Nightmareride.jpg",
+   "gender": "Varies",
+   "category": "[[Horses|Horse]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Horse",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Nightmareride.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Nimbus Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Nimbus_Hoverboard",
+  "params": {
+   "name": "Nimbus Hoverboard",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Mechanical Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Octopus",
+  "url": "https://freerealms.fandom.com/wiki/Octopus",
+  "params": {
+   "name": "Octopus",
+   "image": "Octopus mount.jpg",
+   "gender": "Varies",
+   "category": "Octopus",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Members Only",
+   "Non-Winged Ride",
+   "Rides",
+   "Unobtainable"
+  ],
+  "images": [
+   "Octopus mount.jpg"
+  ]
+ },
+ {
+  "page": "Panther",
+  "url": "https://freerealms.fandom.com/wiki/Panther",
+  "params": {
+   "name": "Panther",
+   "gender": "Varies",
+   "category": "Panther",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Pegasus",
+  "url": "https://freerealms.fandom.com/wiki/Pegasus",
+  "params": {
+   "name": "Pegasus",
+   "image": "Pegasus.png",
+   "gender": "Various",
+   "category": "[[Pegasi|Pegasus]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Pegasus",
+   "Rides",
+   "SC Marketplace",
+   "Winged Ride"
+  ],
+  "images": [
+   "Pegasus.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Pegasus Unicorn",
+  "url": "https://freerealms.fandom.com/wiki/Pegasus_Unicorn",
+  "params": {
+   "name": "Pegasus Unicorn",
+   "image": "Pegasus Unicron2.jpg",
+   "gender": "Various",
+   "category": "[[Pegasi|Pegasus]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Pegasus",
+   "Rides",
+   "SC Marketplace",
+   "Winged Ride"
+  ],
+  "images": [
+   "Pegasus Unicron2.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Phoenix",
+  "url": "https://freerealms.fandom.com/wiki/Phoenix",
+  "params": {
+   "name": "Phoenix",
+   "image": "Img 20130329-22-28-26.jpg",
+   "gender": "Varies",
+   "category": "[[:Category:Phoenixes|Phoenix]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Phoenixes",
+   "Rides",
+   "Treasure War",
+   "Virtual Rewards",
+   "Winged Ride"
+  ],
+  "images": [
+   "Img 20130329-22-28-26.jpg"
+  ]
+ },
+ {
+  "page": "Pogo Stick",
+  "url": "https://freerealms.fandom.com/wiki/Pogo_Stick",
+  "params": {
+   "name": "Pogo Stick",
+   "image": "Pogostick.png",
+   "gender": "Unknown",
+   "category": "Pogo stick",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Mysterious Merchant",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Pogostick.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Poison Dragon",
+  "url": "https://freerealms.fandom.com/wiki/Poison_Dragon",
+  "params": {
+   "name": "Poison Dragon",
+   "image": "Poison Dragon.png",
+   "gender": "Varies",
+   "category": "[[Dragons|Dragon]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Dragon",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace",
+   "Winged Ride"
+  ],
+  "images": [
+   "Poison Dragon.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Poison Horse",
+  "url": "https://freerealms.fandom.com/wiki/Poison_Horse",
+  "params": {
+   "name": "Poison Horse",
+   "gender": "Varies",
+   "category": "[[Horses|Horse]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Horse",
+   "Non-Winged Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Poison T-Rex",
+  "url": "https://freerealms.fandom.com/wiki/Poison_T-Rex",
+  "params": {
+   "name": "Poison T-Rex",
+   "gender": "Varies",
+   "category": "[[T-Rexes|T-rex]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "T-Rexes",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Poison Tiger",
+  "url": "https://freerealms.fandom.com/wiki/Poison_Tiger",
+  "params": {
+   "name": "Poison Tiger",
+   "gender": "Varies",
+   "category": "[[Tigers|Tiger]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Tigers",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Polar Bear",
+  "url": "https://freerealms.fandom.com/wiki/Polar_Bear",
+  "params": {
+   "name": "Polar Bear",
+   "image": "Polar Bear Ride.png",
+   "gender": "Various",
+   "category": "Bear",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "12 Days of Presents",
+   "Bear",
+   "Non-Winged Ride",
+   "Rides",
+   "Seasonal",
+   "Snow Days",
+   "Unobtainable"
+  ],
+  "images": [
+   "Img 20130309-21-11-34.jpg",
+   "Img 20130309-21-11-45.jpg",
+   "Polar Bear Ride.png",
+   "Polar Bear.png"
+  ]
+ },
+ {
+  "page": "Precursor Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Precursor_Hoverboard",
+  "params": {
+   "name": "Precursor Hoverboard",
+   "image": "Hoverboard 04.jpg",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Alrightman.jpg",
+   "Hoverboard 04.jpg",
+   "Hoverboard2.jpg",
+   "Hoverboard3.jpg",
+   "Rides3.jpg",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Raw Turkey",
+  "url": "https://freerealms.fandom.com/wiki/Raw_Turkey",
+  "params": {
+   "name": "Raw Turkey",
+   "image": "Raw turkey.jpg",
+   "gender": "Unknown",
+   "category": "Turkey",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Holiday",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Thanksgiving",
+   "Turkeys"
+  ],
+  "images": [
+   "Raw turkey.jpg",
+   "Rawturkeytwitter.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Reindeer (Ride)",
+  "url": "https://freerealms.fandom.com/wiki/Reindeer_(Ride)",
+  "params": {
+   "name": "Reindeer",
+   "image": "89eedc7d4689c79d19f3ad73bf4bd54c.jpg",
+   "gender": "Varies",
+   "category": "Reindeer",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Mystery Chest",
+   "Non-Winged Ride",
+   "Reindeer",
+   "Rides",
+   "Seasonal",
+   "Snow Days"
+  ],
+  "images": [
+   "89eedc7d4689c79d19f3ad73bf4bd54c.jpg"
+  ]
+ },
+ {
+  "page": "Retro Bike",
+  "url": "https://freerealms.fandom.com/wiki/Retro_Bike",
+  "params": {
+   "name": "Retro Bike",
+   "image": "Retro bike.jpg",
+   "gender": "Unknown",
+   "category": "[[Bicycles|Bicycle]]",
+   "type": "[[Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "8-Bit month",
+   "Bicycles",
+   "Mechanical Ride",
+   "Rides",
+   "Unobtainable"
+  ],
+  "images": [
+   "8bike.png",
+   "Retro bike.jpg",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Roasted Turkey",
+  "url": "https://freerealms.fandom.com/wiki/Roasted_Turkey",
+  "params": {
+   "name": "Roasted Turkey",
+   "image": "Roasted turkey.jpg",
+   "gender": "Unknown",
+   "category": "Turkey",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Holiday",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Thanksgiving",
+   "Turkeys"
+  ],
+  "images": [
+   "Roasted turkey.jpg",
+   "Sc.png",
+   "Turkeyad.jpg",
+   "Turkeyride.png"
+  ]
+ },
+ {
+  "page": "Robgoblin Mech",
+  "url": "https://freerealms.fandom.com/wiki/Robgoblin_Mech",
+  "params": {
+   "name": "Robgoblin Mech",
+   "image": "Robgoblin Mech.png",
+   "gender": "Unknown",
+   "category": "Robot",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Mysterious Merchant",
+   "Rides",
+   "Robot",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Robgoblin Mech.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Robo-Roo",
+  "url": "https://freerealms.fandom.com/wiki/Robo-Roo",
+  "params": {
+   "name": "Robo-Roo",
+   "image": "FR th.jpg",
+   "gender": "Unknown",
+   "category": "Robot",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Mechanical Ride",
+   "Rides",
+   "Robot",
+   "Unobtainable"
+  ],
+  "images": [
+   "FR th.jpg"
+  ]
+ },
+ {
+  "page": "Robotic Chicken",
+  "url": "https://freerealms.fandom.com/wiki/Robotic_Chicken",
+  "params": {
+   "name": "Robotic Chicken",
+   "image": "Robotic chicken.jpg",
+   "gender": "Unknown",
+   "category": "Robot",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Mechanical Ride",
+   "Mystery Chest",
+   "Rides",
+   "Robot"
+  ],
+  "images": [
+   "Robotchicken.jpg",
+   "Robotic chicken.jpg"
+  ]
+ },
+ {
+  "page": "S.M.A.C.M.",
+  "url": "https://freerealms.fandom.com/wiki/S.M.A.C.M.",
+  "params": {
+   "name": "S.M.A.C.M.",
+   "image": "Smacm.jpg",
+   "gender": "Unknown",
+   "category": "Robot",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Combiner Ride",
+   "Mechanical Ride",
+   "Rides",
+   "Robot"
+  ],
+  "images": [
+   "IMAG0520.jpg",
+   "Image.jpg",
+   "Smacm.jpg",
+   "Teaser smacm.jpg",
+   "United we stand ad.png",
+   "United we stand.jpg"
+  ]
+ },
+ {
+  "page": "Saber-Tooth Tiger",
+  "url": "https://freerealms.fandom.com/wiki/Saber-Tooth_Tiger",
+  "params": {
+   "name": "Saber-Tooth Tiger",
+   "image": "Saber-Tooth Tiger.png",
+   "gender": "Varies",
+   "category": "[[Tigers|Tiger]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Tigers"
+  ],
+  "images": [
+   "Bandicam 2013-08-13 03-44-58-504.jpg",
+   "SCicon.png",
+   "Saber-Tooth Tiger.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "Santa's Sleigh-mobile",
+  "url": "https://freerealms.fandom.com/wiki/Santa's_Sleigh-mobile",
+  "params": {
+   "name": "Santa's Sleigh-mobile",
+   "image": "SantasSleigh-mobile.png",
+   "gender": "Unknown",
+   "category": "Unknown",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Mechanical Ride",
+   "Mystery Chest",
+   "Rides",
+   "Seasonal",
+   "Snow Days"
+  ],
+  "images": [
+   "SantasSleigh-mobile.png"
+  ]
+ },
+ {
+  "page": "Scaled Dragon",
+  "url": "https://freerealms.fandom.com/wiki/Scaled_Dragon",
+  "params": {
+   "name": "Scaled Dragon",
+   "image": "Scaled Dragon.png",
+   "gender": "Varies",
+   "category": "[[Dragons|Dragon]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Dragon",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace",
+   "Winged Ride"
+  ],
+  "images": [
+   "Img 20130330-04-13-04.jpg",
+   "SCicon.png",
+   "Sc.png",
+   "Scaled Dragon.png",
+   "Scaleddragon.png"
+  ]
+ },
+ {
+  "page": "Shadow Dragon",
+  "url": "https://freerealms.fandom.com/wiki/Shadow_Dragon",
+  "params": {
+   "name": "Shadow Dragon",
+   "gender": "Varies",
+   "category": "[[Dragons|Dragon]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Dragon",
+   "Rides",
+   "Unreleased",
+   "Winged Ride"
+  ],
+  "images": []
+ },
+ {
+  "page": "Skeletal Dragon",
+  "url": "https://freerealms.fandom.com/wiki/Skeletal_Dragon",
+  "params": {
+   "name": "Skeletal Dragon",
+   "image": "Skeletal Dragon.png",
+   "gender": "Unknown",
+   "category": "[[Dragons|Dragon]]",
+   "type": "[[:Category:Winged Ride]",
+   "1": "Winged ride]]"
+  },
+  "categories": [
+   "Dragon",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace",
+   "Winged Ride"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Skeletal Dragon.png"
+  ]
+ },
+ {
+  "page": "Slobbersaurus-Rex",
+  "url": "https://freerealms.fandom.com/wiki/Slobbersaurus-Rex",
+  "params": {
+   "name": "Slobbersaurus-Rex",
+   "image": "Slobrex.jpg",
+   "gender": "Varies",
+   "category": "[[T-Rexes|T-rex]]",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Non-Winged Ride",
+   "Promotional",
+   "Rides",
+   "T-Rexes",
+   "Unobtainable"
+  ],
+  "images": [
+   "711 mounts.jpg",
+   "Slo.jpg",
+   "Slobrex.jpg"
+  ]
+ },
+ {
+  "page": "Snow Globe",
+  "url": "https://freerealms.fandom.com/wiki/Snow_Globe",
+  "params": {
+   "name": "Snow Globe",
+   "image": "SNOW1.png",
+   "gender": "Unknown",
+   "category": "Snow globe",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Snow Days"
+  ],
+  "images": [
+   "SNOW1.png"
+  ]
+ },
+ {
+  "page": "Snow T-Rex",
+  "url": "https://freerealms.fandom.com/wiki/Snow_T-Rex",
+  "params": {
+   "name": "Snow T-Rex",
+   "gender": "Varies",
+   "category": "[[T-Rexes|T-rex]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "T-Rexes",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Snow Tiger",
+  "url": "https://freerealms.fandom.com/wiki/Snow_Tiger",
+  "params": {
+   "name": "Snow Tiger",
+   "gender": "Varies",
+   "category": "[[Tigers|Tiger]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Non-Winged Ride",
+   "Rides",
+   "Tigers",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Snowball",
+  "url": "https://freerealms.fandom.com/wiki/Snowball",
+  "params": {
+   "name": "Snowball",
+   "image": "Snowball.png",
+   "gender": "Unknown",
+   "category": "Snowball",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Snow Days"
+  ],
+  "images": [
+   "Snowball.png"
+  ]
+ },
+ {
+  "page": "Sparky",
+  "url": "https://freerealms.fandom.com/wiki/Sparky",
+  "params": {
+   "name": "Sparky",
+   "image": "Sparky Ride.jpg",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Mechanical Ride",
+   "Rides",
+   "Trading Card Game"
+  ],
+  "images": [
+   "Sparky Ride.jpg"
+  ]
+ },
+ {
+  "page": "Spotted T-Rex",
+  "url": "https://freerealms.fandom.com/wiki/Spotted_T-Rex",
+  "params": {
+   "name": "Spotted T-Rex",
+   "image": "Spotted T-Rex.png",
+   "gender": "Varies",
+   "category": "[[T-Rexes|T-rex]]",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "T-Rexes"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Spotted T-Rex.png",
+   "Spottedtrex.png"
+  ]
+ },
+ {
+  "page": "Star Lawn Chair",
+  "url": "https://freerealms.fandom.com/wiki/Star_Lawn_Chair",
+  "params": {
+   "name": "Star Lawn Chair",
+   "image": "StarLawnChair.png",
+   "gender": "Unknown",
+   "category": "Lawn chair",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Mechanical Ride",
+   "Rides",
+   "Unobtainable"
+  ],
+  "images": [
+   "Sc.png",
+   "Star lawn chair.jpg",
+   "StarLawnChair.png"
+  ]
+ },
+ {
+  "page": "Stone Saber-Tooth Tiger",
+  "url": "https://freerealms.fandom.com/wiki/Stone_Saber-Tooth_Tiger",
+  "params": {
+   "name": "Stone Saber-Tooth Tiger",
+   "image": "Stone Sabor-Tooth Tiger.png",
+   "gender": "Varies",
+   "category": "[[Tigers|Tiger]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Tigers"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Stone Sabor-Tooth Tiger.png"
+  ]
+ },
+ {
+  "page": "Stormy Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Stormy_Hoverboard",
+  "params": {
+   "name": "Stormy Hoverboard",
+   "image": "Stormy Hover board.png",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Stormy Hover board.png",
+   "Stormy Hoverboard..png"
+  ]
+ },
+ {
+  "page": "Striped Robgoblin Mech",
+  "url": "https://freerealms.fandom.com/wiki/Striped_Robgoblin_Mech",
+  "params": {
+   "name": "Striped Robgoblin Mech",
+   "image": "Striped Robgoblin Mech.png",
+   "gender": "Unknown",
+   "category": "Robot",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Mysterious Merchant",
+   "Rides",
+   "Robot",
+   "SC Marketplace"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Striped Robgoblin Mech.png"
+  ]
+ },
+ {
+  "page": "Striped T-Rex",
+  "url": "https://freerealms.fandom.com/wiki/Striped_T-Rex",
+  "params": {
+   "name": "Striped T-Rex",
+   "image": "Striped T-Rex.png",
+   "gender": "Varies",
+   "category": "[[T-Rexes|T-rex]]",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Marketplace Items",
+   "Rides",
+   "SC Marketplace",
+   "T-Rexes"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Striped T-Rex.png"
+  ]
+ },
+ {
+  "page": "Sun",
+  "url": "https://freerealms.fandom.com/wiki/Sun",
+  "params": {
+   "name": "Sun",
+   "image": "Sun.png",
+   "gender": "Unknown",
+   "category": "Sun",
+   "type": "[[:Category:Exotic Ride|Exotic ride]]"
+  },
+  "categories": [
+   "Exotic Ride",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Sun.png"
+  ]
+ },
+ {
+  "page": "Surfboard",
+  "url": "https://freerealms.fandom.com/wiki/Surfboard",
+  "params": {
+   "name": "Surfboard",
+   "image": "Surf.jpg",
+   "gender": "Unknown",
+   "category": "[[Surfboards|Surfboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Summer",
+   "Surfboards"
+  ],
+  "images": [
+   "Sc.png",
+   "Surf.jpg"
+  ]
+ },
+ {
+  "page": "The Blast Rover",
+  "url": "https://freerealms.fandom.com/wiki/The_Blast_Rover",
+  "params": {
+   "name": "The Blast Rover",
+   "image": "BlastRover.png",
+   "gender": "Unknown",
+   "category": "Tank",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Combiner Ride",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "7 23 p3.jpg",
+   "BlastRover.png",
+   "Collect all fiveer.png",
+   "Newrover.jpg",
+   "SCicon.png",
+   "Sc.png",
+   "Theblastrover.jpg"
+  ]
+ },
+ {
+  "page": "The Cyber Cycle",
+  "url": "https://freerealms.fandom.com/wiki/The_Cyber_Cycle",
+  "params": {
+   "name": "The Cyber Cycle",
+   "image": "Cyber Cycle.png",
+   "gender": "Unknown",
+   "category": "Unknown",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Combiner Ride",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "6 7 p72.jpg",
+   "Cyber Cycle.png",
+   "Cyber arm.png",
+   "SCicon.png",
+   "Sc.png"
+  ]
+ },
+ {
+  "page": "The Fire Hawk",
+  "url": "https://freerealms.fandom.com/wiki/The_Fire_Hawk",
+  "params": {
+   "name": "The Fire Hawk",
+   "image": "Firehawk.jpg",
+   "gender": "Unknown",
+   "category": "Plane",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Combiner Ride",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Fire hawk side.jpg",
+   "Firehawk twitch.jpg",
+   "Firehawk.jpg",
+   "SCicon.png",
+   "Sc.png",
+   "Thefirehawkrotate.jpg"
+  ]
+ },
+ {
+  "page": "The Hero Copter",
+  "url": "https://freerealms.fandom.com/wiki/The_Hero_Copter",
+  "params": {
+   "name": "The Hero Copter",
+   "image": "The Hero Copter.png",
+   "gender": "Unknown",
+   "category": "Helicopter",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Combiner Ride",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "Collect all fives.png",
+   "Newcopter.jpg",
+   "SCicon.png",
+   "Sc.png",
+   "The Hero Copter.png"
+  ]
+ },
+ {
+  "page": "The Hover Ring",
+  "url": "https://freerealms.fandom.com/wiki/The_Hover_Ring",
+  "params": {
+   "name": "The Hover Ring",
+   "image": "The Hover Ring.png",
+   "gender": "Unknown",
+   "category": "Unknown",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Combiner Ride",
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "4 12 p2.jpg",
+   "Hover foot.png",
+   "SCicon.png",
+   "Sc.png",
+   "The Hover Ring.png"
+  ]
+ },
+ {
+  "page": "Tiger",
+  "url": "https://freerealms.fandom.com/wiki/Tiger",
+  "params": {
+   "name": "Tiger",
+   "image": "Tiger.png",
+   "gender": "Varies",
+   "category": "[[Tigers|Tiger]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Tigers"
+  ],
+  "images": [
+   "Bandicam 2013-08-13 00-51-12-713.jpg",
+   "Regulartiger.jpg",
+   "SCicon.png",
+   "Sc.png",
+   "Tiger.png"
+  ]
+ },
+ {
+  "page": "Tractor",
+  "url": "https://freerealms.fandom.com/wiki/Tractor",
+  "params": {
+   "name": "Tractor",
+   "image": "Tractor.png",
+   "gender": "Unknown",
+   "category": "Tractor",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Tractor.png"
+  ]
+ },
+ {
+  "page": "Undead Nightmare",
+  "url": "https://freerealms.fandom.com/wiki/Undead_Nightmare",
+  "params": {
+   "name": "Undead Nightmare",
+   "image": "Undead nightmare.jpg",
+   "gender": "Unknown",
+   "category": "[[Pegasi|Pegasus]]",
+   "type": "[[:Category:Winged Ride|Winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Pegasus",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Super Spooktacular",
+   "Winged Ride"
+  ],
+  "images": [
+   "Sc.png",
+   "Spookupdate3.png",
+   "Undead nightmare twitch.jpg",
+   "Undead nightmare.jpg"
+  ]
+ },
+ {
+  "page": "Unicorn",
+  "url": "https://freerealms.fandom.com/wiki/Unicorn",
+  "params": {
+   "name": "Unicorn",
+   "image": "Unicornn.png",
+   "gender": "Various",
+   "category": "[[Unicorns|Unicorn]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Unicorns"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Unicorn.png",
+   "Unicornn.png"
+  ]
+ },
+ {
+  "page": "Valentine's Day Hoverboard",
+  "url": "https://freerealms.fandom.com/wiki/Valentine's_Day_Hoverboard",
+  "params": {
+   "name": "Valentine's Day Hoverboard",
+   "gender": "Unknown",
+   "category": "[[Hoverboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Hoverboards",
+   "Mechanical Ride",
+   "Rides",
+   "Unreleased"
+  ],
+  "images": []
+ },
+ {
+  "page": "Valiant Gleam Cycle",
+  "url": "https://freerealms.fandom.com/wiki/Valiant_Gleam_Cycle",
+  "params": {
+   "name": "Valiant Gleam Cycle",
+   "image": "Valiant gleam cycle.jpg",
+   "gender": "Unknown",
+   "category": "Chopper",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "HeroRealms Month",
+   "Mechanical Ride",
+   "Members Only",
+   "Rides"
+  ],
+  "images": [
+   "Herorealmsmonthly.png",
+   "Valiant gleam cycle.jpg"
+  ]
+ },
+ {
+  "page": "White-Nosed Mare",
+  "url": "https://freerealms.fandom.com/wiki/White-Nosed_Mare",
+  "params": {
+   "name": "White-Nosed Mare",
+   "image": "Whitenosemare.png",
+   "gender": "Female",
+   "category": "[[Horses|Horse]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Females",
+   "Horse",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Whitenosemare.png"
+  ]
+ },
+ {
+  "page": "White-Nosed Stallion",
+  "url": "https://freerealms.fandom.com/wiki/White-Nosed_Stallion",
+  "params": {
+   "name": "White-Nosed Stallion",
+   "image": "Whitenosestallion.png",
+   "gender": "Male",
+   "category": "[[Horses|Horse]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Horse",
+   "Males",
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace"
+  ],
+  "images": [
+   "SCicon.png",
+   "Sc.png",
+   "Whitenosestallion.png"
+  ]
+ },
+ {
+  "page": "Wilds Tractor",
+  "url": "https://freerealms.fandom.com/wiki/Wilds_Tractor",
+  "params": {
+   "name": "Wilds Tractor",
+   "image": "Wilds Tractor.png",
+   "gender": "Unknown",
+   "category": "Tractor",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Farming",
+   "Mechanical Ride",
+   "Rides"
+  ],
+  "images": [
+   "Goldcointemplate.png",
+   "Wilds Tractor.png"
+  ]
+ },
+ {
+  "page": "Windstorm Surfboard",
+  "url": "https://freerealms.fandom.com/wiki/Windstorm_Surfboard",
+  "params": {
+   "name": "Windstorm Hoverboard",
+   "image": "Windstormsurfboard.png",
+   "gender": "Unknown",
+   "category": "[[Surfboards|Surfboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Mechanical Ride",
+   "Rides",
+   "Surfboards",
+   "Unreleased"
+  ],
+  "images": [
+   "Windstormsurfboard.png"
+  ]
+ },
+ {
+  "page": "Wolf",
+  "url": "https://freerealms.fandom.com/wiki/Wolf",
+  "params": {
+   "name": "Wolf",
+   "image": "Wolf.png",
+   "gender": "Varies",
+   "category": "[[Wolves|Wolf]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Non-Winged Ride",
+   "Rides",
+   "SC Marketplace",
+   "Wolves"
+  ],
+  "images": [
+   "Bandicam 2013-08-13 03-43-51-798.jpg",
+   "SCicon.png",
+   "Sc.png",
+   "Wolf.png",
+   "Wolfride.jpg"
+  ]
+ },
+ {
+  "page": "Wonderous Tiger",
+  "url": "https://freerealms.fandom.com/wiki/Wonderous_Tiger",
+  "params": {
+   "name": "Wonderous Tiger",
+   "image": "Wonderous tiger.jpg",
+   "gender": "Varies",
+   "category": "[[Tigers|Tiger]]",
+   "type": "[[:Category:Non-Winged Ride|Non-winged ride]]"
+  },
+  "categories": [
+   "Mystery Chest",
+   "Non-Winged Ride",
+   "Rides",
+   "Tigers"
+  ],
+  "images": [
+   "Wonderous tiger.jpg"
+  ]
+ },
+ {
+  "page": "Wooden Surfboard",
+  "url": "https://freerealms.fandom.com/wiki/Wooden_Surfboard",
+  "params": {
+   "name": "Wooden Surfboard",
+   "image": "Woodensurfboard.jpg",
+   "gender": "Unknown",
+   "category": "[[Surfboards|Surfboard]]",
+   "type": "[[:Category:Mechanical Ride|Mechanical ride]]"
+  },
+  "categories": [
+   "Marketplace Items",
+   "Mechanical Ride",
+   "Rides",
+   "SC Marketplace",
+   "Seasonal",
+   "Summer",
+   "Surfboards"
+  ],
+  "images": [
+   "Sc.png",
+   "Woodensurfboard.jpg",
+   "Woodensurfboard2.jpg"
+  ]
+ }
+]

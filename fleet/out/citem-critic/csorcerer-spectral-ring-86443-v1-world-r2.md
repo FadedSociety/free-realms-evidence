@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csorcerer-spectral-ring-86443-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3925, 6543, 6, 838] model=claude-haiku-5-5 -->
+# Sorcerer Spectral Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest about having no sources and an unknown retired status. My own lookups agree: the wiki and article searches show no page or text for the Sorcerer or Hero ring family, and the repo search for 22452 returns only an unrelated C runtime address (00422452). The client text does confirm the family names (86431 Hero Dreadful Ring, 86440-86448 Sorcerer rings). Nothing in the pack asserts a false source or price.", "fix": "No change required for pass. A future pass should check the client's set or progression tables near definition 22452 and any ring-family wiki page before setting sources. Until then, leave sources empty and live as unsure."}]}

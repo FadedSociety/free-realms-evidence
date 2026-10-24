@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imike-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3249, 4213, 6, 935] model=claude-haiku-5-5 -->
+# Mike
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Set to \"no\", but no source says Mike is retired or unavailable. The evidence only shows he is an NPC, so 'live' does not apply to an item that does not exist. The field should be left null or marked not_an_item, not 'no'.", "fix": "Use live: null (or 'not_an_item'). Evidence: locale:93123 is npc_name 'Mike'; wiki page 'Mike' describes a human NPC in Seaside with categories NPC, Males, Human, Seaside. No item rows exist for this name."}, {"field": "kind", "issue": "kind 'other' is a guess. The record is an NPC, so it is not an item kind at all. Nothing in the pack gives an item category.", "fix": "Classify as NPC, not item. Source: locale:93123 npc_name; wiki Category:NPC."}]}

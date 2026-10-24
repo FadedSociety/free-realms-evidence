@@ -1,0 +1,77 @@
+{
+ "title": "Demolition Derby community event",
+ "names_seen": [
+  "Demolition Derby community event"
+ ],
+ "facts": [
+  {
+   "statement": "A Demolition Derby community event ran at the Thunder Falls (Torrentrueno) track on Server 1, on Thursday 18 November 2010 at 15:00 Pacific Time for USA and Latin America.",
+   "numbers": {
+    "start_hour_pacific": 15,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "Jueves 18 de noviembre del 2010 15:00 Tiempo Pacifico (USA y Latino America) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1913",
+   "date": null
+  },
+  {
+   "statement": "The same Demolition Derby event was scheduled for Friday 19 November 2010 at 09:00 Pacific Time (16:00 GMT) for UK and Europe, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "start_hour_gmt": 16,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "Viernes 19 de noviembre del 2010 09:00 hrs. Tiempo Pacifico/16:00 hrs. GMT (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1913",
+   "date": null
+  },
+  {
+   "statement": "A Demolition Derby community event ran at the Thunder Falls track on Server 1, scheduled for 18 Nov 2010 at 15:00 Pacific (USA and Latin America) and 19 Nov 2010 at 09:00 Pacific / 16:00 GMT (UK and Europe).",
+   "numbers": {
+    "date_usa_latam": 20101118,
+    "time_pacific_usa_latam": 15,
+    "date_uk_europe": 20101119,
+    "time_pacific_uk_europe": 9,
+    "time_gmt_uk_europe": 16
+   },
+   "era": "live",
+   "quote": "Jueves 18 de noviembre del 2010 15:00 Tiempo Pacifico",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1914",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1913",
+   "date": null,
+   "title": "Evento Comunitario: Día de Demolición en el Derbi",
+   "summary": "A Spanish-language community event page announcing a Demolition Derby kart-smashing event at the Thunder Falls (Torrentrueno) racetrack on Server 1, held 18 November 2010 (US/Latin America) and 19 November 2010 (UK/Europe). It explains how to learn kart derby driving from David Destrozos and how to find community events through the in-game Game Guide calendar. The article's posting date is only given relative to capture ('6 months, 2 weeks ago'), so it is left null."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1914",
+   "date": null,
+   "title": "Free Realms - What is New? (Community Event: Demolition Derby at the Derby, Spanish-language post)",
+   "summary": "A Spanish-language Free Realms news post announcing a Demolition Derby community event at the Thunder Falls kart racing track, held on Server 1 on 18 November 2010 (USA/Latin America) and 19 November 2010 (UK/Europe). It explains that players learn kart derby driving from David Destrozos (the trainer NPC) and find matches through the Test Derby Zone, and that events are reached via the in-game Game Guide calendar."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Demolition Derby Tutorial (final, live yes)",
+  "Advanced Demolition Derby Tutorial (final, live unsure)",
+  "Demo Derby: Rules of the Road (final, live yes)",
+  "Demo Derby: Taking the Wheel (final, live unsure)",
+  "Demo Derby: Routine Maintenance (final, live unsure)",
+  "Demo Derby: Break 'er In (final, live unsure)",
+  "Demo Derby: Spare Parts (final, live unsure)",
+  "Demo Derby: So Long, Betty! (final, live unsure)",
+  "Demo Derby: Curious Crash (final, live unsure)",
+  "Demo Derby: Arena Revenge (final, live unsure)",
+  "Demo Derby: Seeking a Sponsor (final, live yes)",
+  "Demo Derby: A Lukewarm Welcome (final, live unsure)",
+  "Demo Derby: Defeating Diggs (final, live unsure)",
+  "Demo Derby: Taking on the Tank (final, live unsure)",
+  "Demo Derby: Think of the Kittens (final, live yes)"
+ ]
+}

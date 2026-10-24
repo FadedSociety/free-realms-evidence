@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csurgeon-eternal-ring-86419-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3769, 5370, 6, 1063] model=claude-haiku-5-5 -->
+# Surgeon Eternal Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (sibling set)", "issue": "The claim that the sibling rings share an identical definition layout and MinProfileRank 16 was not re-checked here. The cited line ranges were not confirmed. It is a structural note, not a source, so it does not change the acquisition answer.", "fix": "Re-read FreeRealms-Legacy ClientItemDefinitions.json around lines 464588-464740 before relying on the layout claim. Also note that locale 86413 'Surgeon Dreadful Ring' and 86422-86430 (Stalker set) form a wider cluster than the pack lists; that does not change the answer."}]}

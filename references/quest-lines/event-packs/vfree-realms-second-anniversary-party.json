@@ -1,0 +1,39 @@
+{
+ "title": "Free Realms second anniversary party",
+ "names_seen": [
+  "Free Realms second anniversary party"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms' second anniversary party started on the posting date and was scheduled to end May 18; the anniversary falls on April 28.",
+   "numbers": {
+    "anniversary_day": 28,
+    "end_day_may": 18
+   },
+   "era": "live",
+   "quote": "Começando hoje e marcado para terminar dia 18 de maio",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2107",
+   "date": null
+  },
+  {
+   "statement": "Party events were held in eight zones: Merry Vale, Seaside, Snowhill, Shrouded Glade, Wugachug, Blackspore, Briarwood and Sanctuary.",
+   "numbers": {
+    "party_zones": 8
+   },
+   "era": "live",
+   "quote": "Vale Feliz, Litoral, Colina Nevada, Clareira Encoberta, Wugachug, Semente Negra, Floresta de Espinhos e Santuário",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2107",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2107",
+   "date": null,
+   "title": "Free Realms - What is New? (Aniversário do FreeRealms!)",
+   "summary": "A Portuguese-language SOE news post announcing Free Realms' second-anniversary party, running from the posting date until May 18 (anniversary on April 28). It lists party zones, daily and subscriber-only party quests given by Camellia/Camilla in Sanctuary, party items sold on the Marketplace, and eight zone-specific birthday cakes plus a bonus Boss Cake for buying all eight. The post gives a relative date only ('1 month, 1 week ago'), so the exact start date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

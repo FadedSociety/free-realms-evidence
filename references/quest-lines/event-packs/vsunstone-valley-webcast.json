@@ -1,0 +1,29 @@
+{
+ "title": "Sunstone Valley webcast",
+ "names_seen": [
+  "Sunstone Valley webcast"
+ ],
+ "facts": [
+  {
+   "statement": "SOE held a community webcast on Sunstone Valley and changes to Free Realms, streamed on Twitch TV, scheduled for Thursday 30 August 2012 at 20:00 Brasília time and lasting about 15 minutes.",
+   "numbers": {
+    "duration_minutes": 15,
+    "start_hour_brasilia": 20
+   },
+   "era": "live",
+   "quote": "Junte-se a nós na Quinta-feira dia 30 de Agosto de 2012 às 20:00 horas (horário de Brasília) na Twitch TV!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2750",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2750",
+   "date": null,
+   "title": "Free Realms - Quoi de neuf ? (Webcast da Comunidade da SOE: Free Realms Mostra Descobertas sobre Sunstone Valley)",
+   "summary": "This official freerealms.com news page (French-language shell, Portuguese post) announces a SOE community webcast previewing the Sunstone Valley area, its expansion and activities, and other changes to Free Realms. The post gives the webcast date and format but no game details beyond the area's name. The page is a 2012 capture; the post's exact publication date is not shown (only 'about 2 months, 3 days ago' relative to the capture)."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,10 @@
+<!-- fleet job=citem-infer id=cwheeler-star-booster-scroll-4533-v1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3759, 7938, 6, 1611] model=claude-haiku-5-5 -->
+# Wheeler Star Booster Scroll
+
+{"item": {"name": "Wheeler Star Booster Scroll", "locale_id": 4533, "kind": "consumable"},
+ "sources": [{"type": "prize_wheel", "detail": "Daily Wheel, Potions and Scrolls wedge", "where": null, "price": null, "currency": null, "source": "wiki page 'Wheeler Star Booster Scroll' (text: 'It is acquired from the Daily Wheel, from the Potions and Scrolls wedge'); wiki Items list entry 'Wheeler Star Booster Scroll - Daily Wheel'"}],
+ "retired": null,
+ "live": "unsure",
+ "evidence": [{"claim": "Client name and description exist as locale:4533 and locale:4534; client definition 65821, class 9, slot 0, no coin store price", "source": "locale:4533; locale:4534; repo:data/content/stores.json has no entry for this item"}, {"claim": "Item is a level 1 scroll usable in any job, +25% Stars activatable effect, Cannot Trade", "source": "wiki page 'Wheeler Star Booster Scroll'"}, {"claim": "Daily Wheel is the source, in the Potions and Scrolls wedge", "source": "wiki page 'Wheeler Star Booster Scroll'; wiki page 'Items' list (Wheeler Star Booster Scroll - Daily Wheel)"}, {"claim": "Wiki categories: Supplies; Scrolls and Trinkets", "source": "wiki page 'Wheeler Star Booster Scroll'"}, {"claim": "Client text for the Wheeler Coin Booster Scroll (locale:4535) sits in the same set and is also listed under Daily Wheel", "source": "locale:4535; wiki page 'Items' list"}],
+ "confidence": 0.6,
+ "open": ["No coin vendor, Station Cash, or Coin Shop price: the item has no store entry, so it is a wheel-only item as far as the sources show.", "The wheel's exact odds, the wedge's spin cost, and the dates the Daily Wheel offered this wedge are not in the sources; retirement is unknown.", "Live status is only inferred from the wiki's present-tense 'is acquired'; no dated source confirms it is still on the wheel.", "The wiki page gives no Station Cash or coin price for the wheel spin itself; the pack's first-pass 'vendor' guess is not supported and was not used."]}

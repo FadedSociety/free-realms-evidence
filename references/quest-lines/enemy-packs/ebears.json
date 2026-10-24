@@ -1,0 +1,44 @@
+{
+ "title": "Bears",
+ "our_entries": [
+  {
+   "file": "dungeons\\bigfoot_s_lair.json",
+   "definition_id": 930051
+  },
+  {
+   "file": "dungeons\\briar_patch.json",
+   "definition_id": 930051
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:130451 [npc_dialog | - | Bears] 'Whoa, bears!'",
+  "locale:130452 [npc_dialog | - | Bears] \"What's wrong?! Never seen a bear before?\"",
+  "locale:130453 [npc_dialog | - | Bears] 'I heard bear eat robgoblins. Dangerous beast!'",
+  "locale:130454 [npc_dialog | - | Bears] 'Where have you heard that?? They like fish and berries and the last thing they want to eat is a robgoblin. Sheesh.'",
+  "locale:130455 [npc_dialog | - | Bears] \"Still, they big and ugly! Don't like bears!\"",
+  "locale:130456 [npc_dialog | - | Bears] \"Oh, hush! You just don't like anything.\"",
+  "locale:432461 [quest_dialog | - | bears] \"Thanks a bunch! I'm glad those bears didn't get into any trouble! <BR><BR><font size='14'>I'm glad I didn't get in trouble too!</font>\""
+ ],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [
+  "image (image:item_tooltip): Wizard's Forged\nWand of Cunning\nThis wand bears the mark of Red Stonehammer, dwarven blacksmith of\nSunstone Valley.\nResell Value: 215\nYou Own: 1\nPower: 5\nEquippable State:\nThis item is currently equipped.\nRequired: Level 16, Wizard\nConcussive Blast\nAn explosive blast that damages a single opponent i",
+  "image (image:item_tooltip): Medic's Forged Saw of Promise\nThis saw bears the mark of Red Stonehammer, dwarven blacksmith of Sunstone Valley.\nResell Value: 215\nYou Own: 1\nPower: 5\nEquippable State:\nThis item is currently equipped.\nRequired: Level 16, Medic\nRevitalizing Slice\nA surgical slice that damages opponents in front of y",
+  "image (image:item_tooltip): Ninja's Forged Sword of Purge\nThis sword bears the mark of Red Stonehammer, dwarven blacksmith of Sunstone Valley.\nResell Value:\n215\nYou Own: 1\nPower: 5\nEquippable State:\nThis item is currently equipped.\nRequired: Level 16, Ninja\nBurning Slash\nA fiery slash that damages opponents in front of you ove"
+ ],
+ "video": [
+  "video:I0qCT1L5kXo/00064.jpg (-): dialog: Mr. Miles says, \"Thanks a bunch! I'm glad those bears didn't get into any trouble!\" Diana Hedgelaw says, \"There are robgoblin boomers wandering around nearby that keep blowing stuff up and scaring the animals.\" | quest: Run off the Robgoblins  Defeat Robgoblin Boomers - 3",
+  "video:L27vxozHOls/00094.jpg (Bigfoot's Lair): npcs: Counselor Tyra chat_speaker  | dialog: Thanks for saving me from those bears. If you're going after Bigfoot I've got your back! | quest:   Defeat Bigfoot!  | job_level: Archer 20",
+  "video:L27vxozHOls/00088.jpg (-): npcs: Counselor Tyra dialog_header  | dialog: Thanks for saving me from those bears. If you're going after Bigfoot I've got your back! | quest:   Defeat Bigfoot!  | job_level: Archer 20 | other_text: Goals (1) Defeat Bigfoot!",
+  "video:L27vxozHOls/00092.jpg (Bigfoot's Lair): npcs: Counselor Tyra dialog_header  | dialog: Thanks for saving me from those bears. If you're going after Bigfoot I've got your back! | quest:   Defeat Bigfoot!  | job_level: Archer 20 | other_text: Bigfoot's Lair Goals (1) Defeat Bigfoot!"
+ ],
+ "article_facts": [
+  "fact:npc: Players can help by finding lost bears wandering around the Durango Zoo. | Whether you try to find lost bears or just take in the sights of this beautiful location (http://www.freerealms.com:80/article/detail.action?articleId=873)",
+  "fact:location: Sweetwater Climb is an area where players brave Snow Bears and other dangers to gather the nectar that gives Sasparilla its taste. | You can head to Sweetwater Climb and brave the Snow Bears and other dangers to gather the nectar (http://www.freerealms.com:80/article/detail.action?articleId=149)",
+  "summary: An official Free Realms news post introducing the Durango Zoo on the northern banks of Lakeshore, run by Zookeeper Sam Durango. It describes the zoo's unfenced design, its wild animals (bears, antelope), and NPC Mr. Miles, who handles dangerous animals and nee (http://www.freerealms.com:80/article/detail.action?articleId=873)",
+  "fact:npc: Mr. Miles at the Durango Zoo keeps dangerous animals away from visitors and needs help because of the no-fence policy, especially with wandering bears. | It's his job to keep the dangerous animals away from the visitors and he always needs help (http://www.freerealms.com:80/article/detail.action?articleId=873)"
+ ],
+ "quest_answers_naming_it": []
+}

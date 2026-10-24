@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=9f86ccd7cc7edff2dbec688ec0ae4d96d3cf202e status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2092, 4, 522] model=claude-haiku-5-5 -->
+# Heartbreaker.jpg
+
+{"kind": "character_or_npc", "has_text": false, "text": "", "tooltip": null, "entries": null, "uncertain": ["No text is visible in the image. The wiki file name (Heartbreaker.jpg) and page names (Changelings; Heart Breakers) are metadata, not text read from the image, so they were not transcribed as image text.", "The image shows three in-game character models: a foreground pale figure with red-and-black hair, an eye patch and a pink heart-shaped weapon held overhead; a purple-haired figure at right with a pale weapon; and a blue-skinned figure in the background at left. No names, labels or numbers are legible."]}

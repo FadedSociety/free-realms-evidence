@@ -1,0 +1,39 @@
+{
+ "title": "Community Event: Kart race challenge",
+ "names_seen": [
+  "Community Event: Kart race challenge"
+ ],
+ "facts": [
+  {
+   "statement": "The Americas/Latin America session was on Thursday 27 January 2011 at 15:00 Pacific Time on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "jueves 27 de enero del 2011 15:00 Tiempo Pacifico (EE.UU. y Latino America) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2013",
+   "date": null
+  },
+  {
+   "statement": "The UK/Europe session was on Friday 28 January 2011 at 09:00 Pacific Time (16:00 European Time) on Server 1.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_european": 16
+   },
+   "era": "live",
+   "quote": "viernes 28 de enero del 2011 09:00 Tiempo Pacifico / 16:00 Tiempo Europeo (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2013",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2013",
+   "date": null,
+   "title": "Free Realms - What is New? (Evento Comunitario: Reto en el Circuito de Carreras de Torrentrueno)",
+   "summary": "A Spanish-language community event announcement for a player-versus-player kart race challenge at the Torrentrueno kart racing circuit, with server times for the Americas/Latin America and UK/Europe. It describes how to join the Karts Lobby and how to set up a PvP race (max players, AI disabled). The posting date is only given relative to capture ('4 months, 1 week ago'), so the event dates are the only dated anchors."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

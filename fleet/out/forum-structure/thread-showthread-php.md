@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2728, 4, 612] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This capture is the fan forum's index page (freerealmsforums.com, captured 2009-04-20), not a thread or article. It shows only navigation, a forum list (for example Free Realms, Monster Mayhem, Fairy Avenue, Free Realms Mini-Games, Guides Galore), and a vBulletin notice that the guest post-view limit was reached. It contains no game facts a rebuilder can use.", "facts": [], "quests": [], "uncertain": ["The page has no thread body, post text, author or date, so no game facts could be extracted.", "The page is a forum index and shows no forum-specific topics or thread titles under the Free Realms section."]}

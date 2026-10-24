@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=irobgoblin-kaboomer-v3-world-r4 status=no_submit turns=2 usd=0.0018 tokens(read,write,in,out)=[4509, 10344, 6, 1008] model=claude-haiku-5-5 -->
+# Robgoblin Kaboomer
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources / open", "issue": "The answer is consistent with the evidence. The card has no evidenced acquisition, and the Robgoblin Kaboomer enemy and quest kill target are correctly kept separate and not counted as sources. I found no vendor, Station Cash, coin, or pack-contents row for the TCG card in the wiki, articles, client or refs searches. The Rumbledome booster pack's 10 game cards are correctly left unattributed.", "fix": "No change needed to sources. Optional tightening: the open note cites the booster price as '5G 249' with currency unstated. The pack evidence does not establish the currency, so it should stay unattributed as it is now."}]}

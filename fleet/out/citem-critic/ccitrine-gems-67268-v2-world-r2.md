@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccitrine-gems-67268-v2-world-r2 status=no_submit turns=3 usd=0.0017 tokens(read,write,in,out)=[11059, 8304, 8, 1079] model=claude-haiku-5-5 -->
+# Citrine Gems
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / open", "issue": "The answer describes the Miner's Fancy Gems spawn as 'Job Material' only in its own notes. The wiki's Miner's Fancy Gems infobox (freerealms-wiki wikitext line 373) confirms spawn='Job Material' with no Citrine-specific node, so the generic spawn rule is the only spawn evidence, and it is correctly not used as a source.", "fix": "No change needed. Keep sources empty. Optionally cite wiki Miner's Fancy Gems infobox (spawn=Job Material, reward=Peculiar Gem) as collection context only."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ikelpy-v1-evidence-r1 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3205, 3686, 6, 837] model=claude-haiku-5-5 -->
+# Kelpy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "Says Kelpy's 'only quest link is Open House Clean-Up' but the same claim then cites Seaside Advertising objectives (locale:95030, 95050, 95039) that also name Kelpy. The 'only' wording is contradicted by its own citations.", "fix": "Drop 'only'. Kelpy is linked to Open House Clean-Up (locale:46815, wiki Quest:Open House Clean-Up) and to Seaside Advertising flyer objectives (locale:95030, 95039, 95050). Also locale:139575 ('Kelpy in Seaside needs help cleaning up the trash on the beach') is a further Kelpy line the answer does not cite."}]}

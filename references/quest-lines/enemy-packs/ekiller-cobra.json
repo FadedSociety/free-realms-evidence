@@ -1,0 +1,28 @@
+{
+ "title": "Killer Cobra",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\snakes_in_a_maze.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:115514 [quest_title | - | Killer Cobra] 'Killer Cobra'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:115514 [quest_title | - | Killer Cobra] 'Killer Cobra'"
+ ],
+ "client_cluster": [
+  "locale:115511 [quest_objective | - | Mustang Alli] 'Talk to Mustang Alli to learn about racing'",
+  "locale:115514 [quest_title | - | Killer Cobra] 'Killer Cobra'",
+  "locale:115521 [quest_objective | - | Burt 'Wrecking' Crewe] \"Talk to Burt 'Wrecking' Crewe to learn about demolition derby\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

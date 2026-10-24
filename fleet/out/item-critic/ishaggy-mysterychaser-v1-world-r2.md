@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ishaggy-mysterychaser-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3160, 9723, 6, 904] model=claude-haiku-5-5 -->
+# Shaggy Mysterychaser
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' although the subject is clearly not an item. Locale 441919 is an npc_name string, and the wiki calls it a human NPC with no shop or item listings. The answer is effectively 'not an item'. The 'unsure' flag reads as an open question about the item when the real finding is that no item exists under this name.", "fix": "Set live to 'n/a (NPC, not an item)'. Evidence: locale:441919 is npc_name, and the wiki page (rev 49940) lists only Category:NPC and quest appearances. The same name appears in the quest dialog and objective strings (locale 441731-441905, 4420173-4420181), which name him as a quest giver in Merry Vale and do not describe any item."}]}

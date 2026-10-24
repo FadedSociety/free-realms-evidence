@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cyeti-toe-jam-226-v1-world-r2 status=done turns=4 usd=0.0029 tokens(read,write,in,out)=[29998, 14164, 10, 1633] model=claude-haiku-5-5 -->
+# Yeti Toe Jam
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "client_definition.description", "issue": "The answer says the client definition has no description. The community definition for id 825 (Sanctuary/src/Resources/ClientItemDefinitions.json:17706-17710, also FreeRealms-Legacy and Lxzxrus copies) sets DescriptionId 1114, so a description string exists in the definition data. The answer's 'no description' claim is only true of the pack's client read, not of the definition itself.", "fix": "Record DescriptionId 1114 (Sanctuary ClientItemDefinitions.json:17710) and look up its locale text before saying the item has no description; the text was not checked here."}]}

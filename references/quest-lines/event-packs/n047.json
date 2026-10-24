@@ -1,0 +1,48 @@
+{
+ "title": "Community Event: Stampede!",
+ "names_seen": [
+  "Community Event: Stampede!"
+ ],
+ "facts": [
+  {
+   "statement": "The Stampede community event sent players with a Ride or pet from Durango Zoo to the Seaside beach, on Server 1.",
+   "numbers": {
+    "event_date_april_2010": 1
+   },
+   "era": "live",
+   "quote": "stampede them from the zoo to the Seaside beach",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1191",
+   "date": null
+  },
+  {
+   "statement": "The Stampede event ran Thursday April 1, 2010 at 3pm Pacific Time for U.S. and Latin America on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday April 1st, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1191",
+   "date": null
+  },
+  {
+   "statement": "For UK and Europe the Stampede started at 9:00am Pacific Time / 4:00pm GMT on Server 1.",
+   "numbers": {
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1191",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1191",
+   "date": null,
+   "title": "Community Event: Stampede!",
+   "summary": "A community event page announcing the Stampede, where players with a Ride or pet run animals from Durango Zoo to the Seaside beach on April 1, 2010 (Server 1, with separate US/Latin America and UK/Europe times). The page gives the event schedule and explains how to find community events via the Game Guide calendar and GO button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

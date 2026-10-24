@@ -1,0 +1,30 @@
+{
+ "title": "Birthday Party For Free Realms",
+ "names_seen": [
+  "Birthday Party For Free Realms"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms' first-anniversary birthday party event ran from the posting day until May 10th, with birthday parties in eight areas.",
+   "numbers": {
+    "end_day_of_month": 10,
+    "end_month": 5,
+    "party_areas": 8
+   },
+   "era": "live",
+   "quote": "Starting today and scheduled to end on May 10th you can help us celebrate!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1261",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1261",
+   "date": null,
+   "title": "Birthday Party For Free Realms",
+   "summary": "SOE's announcement of Free Realms' first-anniversary Birthday Party event, which ran from the posting date until May 10th. It describes party areas across eight zones, birthday quests from Sanctuary NPCs, party items for sale on the Marketplace, and the Cakenstein boss battle. The article gives no exact start date beyond 'today'; the posting date is unknown, though the anniversary falls on April 29th."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

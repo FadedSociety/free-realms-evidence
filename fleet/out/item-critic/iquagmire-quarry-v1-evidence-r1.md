@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iquagmire-quarry-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3437, 5645, 6, 1223] model=claude-haiku-5-5 -->
+# Quagmire Quarry
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The Mines-page claim is correct but its source is cited only as 'wiki page:ns0 Mines' with no revision. I checked it: the Mines page lists Singing Crystal (lvl 1+), Dartmoor Quarry (lvl 5+), Southvale Quarry (lvl 10+), Quagmire Quarry (lvl 15+) and Mother Lode Quarry (lvl 20). The answer's wording 'level 15+ ... alongside Dartmoor, Southvale and Mother Lode' is accurate, so this is a citation-precision gap, not a wrong claim.", "fix": "Cite the wiki Mines page directly (https://freerealms.fandom.com/wiki/Mines), giving the levels 5+/10+/15+/20 for Dartmoor/Southvale/Quagmire/Mother Lode as listed there."}]}

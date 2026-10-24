@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cayani-postcard-1490-v1-world-r2 status=no_submit turns=2 usd=0.0011 tokens(read,write,in,out)=[3905, 4695, 6, 1011] model=claude-haiku-5-5 -->
+# Ayani Postcard
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] and open[1]", "issue": "The answer places the Postman Postcards collection's five entries at Cobblestone Village, Briarwood, Sanctuary, Snowhill and Wilds. My lookup of the wiki's Job Specific (Collections) page shows Snowhill and Wilds postcards in that collection and no Ayani entry, which matches. The answer's claim that Ayani Postcard is absent from the set holds. I found no wiki, article, or video source that places Ayani Postcard in any collection or gives it an acquisition route.", "fix": "No change needed. The sources list is correctly empty. The answer's own open note that Ayani Postcard may be a sixth or removed postcard stays honest."}]}

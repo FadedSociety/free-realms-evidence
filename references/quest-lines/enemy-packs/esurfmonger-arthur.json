@@ -1,0 +1,51 @@
+{
+ "title": "Surfmonger Arthur",
+ "our_entries": [
+  {
+   "file": "dungeons\\oasis_of_peril.json",
+   "definition_id": 930023
+  },
+  {
+   "file": "dungeons\\oasis_of_peril.json",
+   "definition_id": 930023
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:139701 [npc_name | - | Surfmonger Arthur] 'Surfmonger Arthur'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:139701 [npc_name | - | Surfmonger Arthur] 'Surfmonger Arthur'",
+  "locale:139744 [quest_dialog | Oasis of Peril | Surfmonger Arthur] 'Surfmonger Arthur is selling shoddy counterfeit surfboards! Destroy the surfboards and knock some sense into Arthur!'",
+  "locale:139745 [quest_objective | Oasis of Peril | Surfmonger Arthur] 'Destroy all counterfeit surfboards.'",
+  "locale:139746 [quest_dialog | Oasis of Peril | Surfmonger Arthur] 'Surfmonger Arthur is selling counterfeit surfboards and the local surfers are getting hurt.  Destroy his latest shipment of fake goods. '",
+  "locale:139751 [quest_objective | - | Surfmonger Arthur] 'Defeat Surfmonger Arthur.'",
+  "locale:139752 [quest_objective | - | Surfmonger Arthur] 'Defeat Surfmonger Arthur and stop his production of counterfeit surfboards.  '"
+ ],
+ "client_cluster": [
+  "locale:139693 [quest_dialog | - | -] 'Learning to play cards sounds like fun! I will see if I can make it.'",
+  "locale:139694 [quest_objective | Highroad Junction | Art of Brawling] 'Find Harold at Highroad Junction'",
+  "locale:139697 [quest_objective | Stillwater Crossing | Art of Brawling] 'Find Caitlyn Gravefog at Stillwater Crossing'",
+  "locale:139700 [quest_objective | - | Carlos Brazenfist] 'Hidden Objective - Dialogue - Carlos '",
+  "locale:139701 [npc_name | - | Surfmonger Arthur] 'Surfmonger Arthur'",
+  "locale:139702 [npc_name | - | Shadowtalon Guard] 'Shadowtalon Guard'",
+  "locale:139703 [quest_title | - | Bust a Postal Move] 'Bust a Postal Move'",
+  "locale:139705 [quest_objective | Seaside | Counterfeit Quadfish] 'Counterfeit Quadfish'",
+  "locale:139707 [quest_objective | Seaside | Sundancer] \"Run from Sundancer's house in Seaside to the Tide Pools. Watch out for obstacles!\"",
+  "locale:139708 [quest_objective | - | Counterfeit Tri Fin] 'Counterfeit Tri Fin'",
+  "locale:139709 [quest_objective | - | Counterfeit Diamond Tail] 'Counterfeit Diamond Tail'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Surfmonger Arthur"
+ ],
+ "video": [
+  "video:zTAUhC0Rnqc/00146.jpg (-): npcs: Surfmonger Arthur nameplate  Sandi nameplate  | job_level: Adventurer  | other_text: Feeling the Beat! (marker, 11m)",
+  "video:4kAFL0X0KkA/00692.jpg (-): npcs: Bacala distance_marker  | landmarks: fence tree | job_level: Adventurer 4 | other_text: Checkers & Chess Surfmonger Arthur Stealthy Despoiler",
+  "video:F-CFxEBuixg/00122.jpg (-): job_level: Adventurer 1 | items_seen: Elite Exploration Coin (collectible prompt) | other_text: Elite Exploration Surfmonger Arthur (red marker, 19m)",
+  "video:4kAFL0X0KkA/00482.jpg (-): npcs: Spritzy distance_marker  | landmarks: sandy hillside tree | job_level: Adventurer 4 | other_text: Bowling Ball Sommer Trails Surfmonger Arthur Seaside Warpstone",
+  "video:oGuD65aK9Yg/00132.jpg (-): npcs: Surfmonger Arthur nameplate  Pappy Farnum distance_marker  | job_level: Adventurer 4 | other_text: Press X or Active Quest! Upgrade Now for Power Hour!"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

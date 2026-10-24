@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-981 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2947, 4, 323] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This captured page is a vBulletin forum shell for the Free Realms Forums fan site (July 2009), showing a 'maximum number of posts you can view' registration error and a forum index. It contains no actual thread content, guide, or game facts about Free Realms, so there is nothing usable for the rebuild beyond forum section names.", "facts": [], "quests": [], "uncertain": ["The thread title and body (thread t=981) did not appear in the captured text; only the forum navigation and a registration-wall error were present.", "The page is a fan forum index rather than a game article; the forum section list is site navigation, not game data."]}

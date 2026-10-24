@@ -1,0 +1,28 @@
+{
+ "title": "One-millionth player reward",
+ "names_seen": [
+  "One-millionth player reward"
+ ],
+ "facts": [
+  {
+   "statement": "The one-millionth registered player was to receive a lifetime membership, a one-of-a-kind in-game astronaut suit, and 10,000 Station Cash.",
+   "numbers": {
+    "station_cash": 10000
+   },
+   "era": "live",
+   "quote": "The one-millionth player will also receive a lifetime membership to the game, a one-of-a-kind in-game astronaut suit, and 10,000 Station Cash",
+   "article": "http://www.tentonhammer.com:80/node/68118",
+   "date": "2009-05-18"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/68118",
+   "date": "2009-05-18",
+   "title": "Free Realms Surpasses 1 Million Registered Users",
+   "summary": "A Ten Ton Hammer repost of an SOE press release announcing that Free Realms passed one million unique registered users 17 days after its April 28, 2009 launch. It lists the milestone celebration rewards (in-game T-shirts, a lifetime membership and astronaut suit for the one-millionth player, and Station Cash) and the retail channels for starter and Station Cash cards."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

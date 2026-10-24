@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=other-poll-php status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2669, 4, 399] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article":{"title":"Free Realms Forums","date":null,"author":null,"type":"other"},"about_free_realms":false,"summary":"This Wayback capture of the fan forum index page contains only site navigation and a vBulletin 'Invalid Forum specified' error message. It has no article text, guide, or game facts about Free Realms. The only incidental detail is that the forum lists Free Realms sub-forums (e.g., Free Realms, Guides Galore, Free Realms Mini-Games, Developer Q&A's) as of March 2009.","facts":[],"quests":[],"uncertain":["The page is a navigation/error page; no article body was present to extract.","Captured date 2009-03-29 is taken from the capture metadata, not from an article."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=quest-critic id=q3050006-v3-evidence-r3 status=no_submit turns=3 usd=0.0023 tokens(read,write,in,out)=[20483, 11234, 8, 1347] model=claude-haiku-5-5 -->
+# Chef: Cobblestone Village Cafe
+
+{"lens": "evidence", "pass": true, "score": 3, "problems": [{"field": "objectives", "issue": "Objectives are empty and the Simone-side completion text is unresolved. The answer is honest about this, but the record is incomplete for wiring.", "fix": "Leave as open. Any bindings to 21827/21834-21839/94528/94534 need a separate source tying them to record 3050006 before they are used."}, {"field": "live", "issue": "Live status is 'unsure'. I confirmed 94275 is an untagged quest_title and 21831 is 'NOT LIVE - Cobblestone Village Cafe', so the answer's reasoning is correct and no flagged line is treated as live.", "fix": "No change to the id. Mark live as unverified until a source shows 94275 shipped."}]}

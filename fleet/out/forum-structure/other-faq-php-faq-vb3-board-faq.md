@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=other-faq-php-faq-vb3-board-faq status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2613, 4, 507] model=claude-haiku-5-5 -->
+# Free Realms Forums - FAQ: Board FAQ
+
+{"article": {"title": "Free Realms Forums - FAQ: Board FAQ", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This is the generic vBulletin Board FAQ index on the fan forum freerealmsforums.com, captured 2009-05-05. It lists forum usage topics (registration, posting, private messages, signatures, and so on) and says nothing about Free Realms gameplay, quests, items, prices, events or mechanics. It has no content a rebuilder can use.", "facts": [], "quests": [], "uncertain": ["The page is a forum-software help index with no game content; the only Free Realms references are the site header and footer (\"Free Realms Forums\", \"Free Realms Beta\")."]}

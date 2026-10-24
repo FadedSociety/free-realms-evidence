@@ -1,0 +1,21 @@
+{
+ "title": "Sandscale Scavengers",
+ "our_entries": [
+  {
+   "file": "dungeons\\sandscale_oasis.json",
+   "definition_id": 930018
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Sandscale Scavenger",
+  "text": "The Sandscale Scavenger is an enemy manguana NPC that can be found in Sunstone Valley.\n\nDrops\nOnce defeated, there is a chance to receive the following items:\nCoins\nBlast Spheres\nFlabbergast Spheres\nManguana Tribal Necklace\nCloth Wraps\n\nAppearances\nSunstone Valley\nSandscale Oasis\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Manguana\nCategory:Sunstone Valley"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

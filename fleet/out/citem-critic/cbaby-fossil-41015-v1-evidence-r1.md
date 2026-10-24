@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbaby-fossil-41015-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3940, 5879, 6, 1277] model=claude-haiku-5-5 -->
+# Baby Fossil
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "The claim that the wiki 'List of Collections' places '[Mini] [Fossils]' in the Rare group is not supported by the lookup snippet. The snippet lists [Mini] [Fossils] before the 'Rare' heading, so it may sit under the preceding group (Artifact Statues or similar). The snippet cannot confirm the group, and the rev 27852 / 2013-07-13 detail was not verified in my lookup.", "fix": "Say only that the wiki 'List of Collections' includes a '[Mini] [Fossils]' entry (wiki page 'List of Collections'). Drop the 'Rare group' wording unless the page's section structure is checked."}]}

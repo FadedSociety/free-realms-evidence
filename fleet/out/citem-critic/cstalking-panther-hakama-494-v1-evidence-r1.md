@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstalking-panther-hakama-494-v1-evidence-r1 status=done turns=3 usd=0.0030 tokens(read,write,in,out)=[18253, 15253, 8, 1768] model=claude-haiku-5-5 -->
+# Stalking Panther Hakama
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer lists possible sources as 'Blacksmith/ninja armor vendors' but does not name the one ninja-gear merchant the repo already records. The wiki says the Sleeping Panther merchant (near the Tavern Cellar; name ucdt 1978777640) sells 'Ninja gear (Sekkou Ninja set, ...)' per wiki. The stock list is not recorded, so the Hakama is neither confirmed nor ruled out there.", "fix": "Add to open: 'Sleeping Panther merchant (repo prototype/osfr-tools/data/content/npcs/wilds.json:38480; notes/Build Guides/Content/NPCs/NPCs - Wilds.md:46) is wiki-recorded as selling ninja gear; the Stalking Panther set is not named there, so it is unverified.'"}]}

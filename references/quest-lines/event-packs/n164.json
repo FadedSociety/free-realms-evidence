@@ -1,0 +1,40 @@
+{
+ "title": "Community Event: Seaside Launch Pad Leap",
+ "names_seen": [
+  "Community Event: Seaside Launch Pad Leap",
+  "Seaside Launch Pad Leap"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called Seaside Launch Pad Leap was held on Friday January 29, 2010 at Server 1, where players met on the beach in Seaside to bounce on launch pads together.",
+   "numbers": {
+    "players_goal_approx": 30
+   },
+   "era": "live",
+   "quote": "Meet up on the beach and we’ll see how many people we can get bouncing at once.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=906",
+   "date": null
+  },
+  {
+   "statement": "The U.S./Latin America start time was 3pm Pacific Time, equal to 9:00am Pacific / 6:00pm GMT for UK and Europe, both on Server 1.",
+   "numbers": {
+    "us_latam_pacific_hour": 15,
+    "uk_europe_gmt_hour": 18
+   },
+   "era": "live",
+   "quote": "3pm Pacific Time (U.S. and Latin America) Server 1 9:00am Pacific Time / 6:00pm GMT (UK and Europe)",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=906",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=906",
+   "date": null,
+   "title": "Free Realms - What is New? (Community Event: Seaside Launch Pad Leap)",
+   "summary": "A freerealms.com news post announcing a community event: a group launch pad jump in Seaside on Server 1, with times given for U.S./Latin America and UK/Europe. It also explains how players find community events through the Game Guide calendar and its GO button. The post date is only given relative to capture ('5 days, 19 hours ago'), so the exact posting date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

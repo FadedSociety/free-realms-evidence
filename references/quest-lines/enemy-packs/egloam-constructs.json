@@ -1,0 +1,27 @@
+{
+ "title": "Gloam Constructs",
+ "our_entries": [
+  {
+   "file": "npcs/shrouded_glade.json",
+   "npc_id": 9500000684,
+   "zone": "Shrouded Glade",
+   "enemy_kind": "Enemy types of the invasion.",
+   "location_evidence": [
+    "The corrupted area."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [
+  "image (image:item_tooltip): Archer's Power Bow\nThis weapon will level up with you. increasing your power in battle! Does big bonus damage to Elite Gloam Constructs attacking the Dwarves.\nYou Own: 0\nEquippable State:\nPower: 5\nYou can use this right now.\nCannot Sell\nRequired: Level 1, Archer\nCannot Trade\nPower Shot\nPower Rain\nSh",
+  "image (image:item_tooltip): Warrior's Nature\nClaw\nThis weapon will level up with you, increasing your power in battle! Does big bonus damage to Elite Gloam Constructs attacking the Druids.\nResell Value:\nYou Own: 1\nPower: 5\nCannot Sell\nCannot Trade\nEquippable State:\nThis item is currently equipped.\nRequired: Level 1, Warrior\nFe",
+  "image (image:item_tooltip): Wizard's Nature\nWand\nThis weapon will level up with you, increasing your power in battle! Does big bonus damage to Elite Gloam Constructs attacking the Druids.\nResell Value:\n0\nEquippable State:\nYou Own: 1\nThis item is currently equipped.\nPower: 5\nRequired: Level 1, Wizard\nCannot Sell\nCannot Trade\nFe"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

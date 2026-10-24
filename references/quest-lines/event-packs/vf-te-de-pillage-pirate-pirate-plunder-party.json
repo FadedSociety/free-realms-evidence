@@ -1,0 +1,53 @@
+{
+ "title": "Fête de Pillage Pirate (Pirate Plunder Party)",
+ "names_seen": [
+  "Fête de Pillage Pirate (Pirate Plunder Party)"
+ ],
+ "facts": [
+  {
+   "statement": "A Pirate Plunder party event was held on the Criqueville quay, where friends were invited to celebrate.",
+   "numbers": {},
+   "era": "live",
+   "quote": "faire la fête sur le quai! Les membres peuvent tenter leur chance au mini-jeu de Pillage Pirates",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2027&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The first event session was on Thursday 3 February 2011 at 3pm Pacific time, for the US and Latin America, on Server 1.",
+   "numbers": {
+    "date_day": 3,
+    "date_month": 2,
+    "date_year": 2011,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Jeudi 3 février 2011 3pm Heure de Pacifique (U.S. et l'Amerique Latine) Serveur 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2027&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The second event session was on Friday 4 February 2011 at 18:00 CET (4:00pm GMT), for the UK and Europe, on Server 1.",
+   "numbers": {
+    "date_day": 4,
+    "date_month": 2,
+    "date_year": 2011,
+    "hour_cet": 18,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Vendredi 4 février 2011 18h:00 CET (Heure de Paris)/ 4:00pm GMT (UK et l'Europe) Serveur 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2027&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2027&request_locale=en_US",
+   "date": null,
+   "title": "Evénement: Fête de Pillage Pirate!",
+   "summary": "A French-language official news post (captured within the 'What is New?' news listing) announcing a Pirate Plunder party event on the Criqueville docks. Members could play the Pirates Plunder minigame to collect gold and claim a prize. The event ran on Server 1 on two dates, with times given for the Americas and for UK/Europe."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

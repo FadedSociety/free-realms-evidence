@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=0cc305af14bfe523eacba3f52ce7ec09451deed9 status=done turns=2 usd=0.0007 tokens(read,write,in,out)=[2108, 3341, 6, 450] model=claude-haiku-5-5 -->
+# Arestol.png
+
+{"kind": "character_or_npc", "has_text": true, "text": "[exclamation quest marker]\nestol (partially hidden, likely \"Arestol\")\nTruant Druid", "tooltip": null, "entries": null, "uncertain": ["The NPC name above the figure is partly obscured: only \"estol\" is visible (the leading letters are hidden by the quest marker and the blurred background), so \"Arestol\" is inferred from the file name and the locale table, not read directly.", "\"Truant Druid\" is read clearly as the name on the nameplate of the green-robed figure on the right; locale ids 77547 (Truant Druid) confirm the spelling.", "Arestol locale id 45364 matches the file name and the partial text."]}

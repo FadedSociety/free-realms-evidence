@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chardwood-jungle-ring-99301-v1-world-r2 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[9938, 6766, 8, 1113] model=claude-haiku-5-5 -->
+# Hardwood Jungle Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "Minor: the 'Hardwood Celestial Necklace' reward is cited as a 'live-looking' source family link. The repo (prince_of_low_tide.json:602, Prince of Low Tide.md:57) and video 506rO_mhaSs/00102 only show the line 'You receive 1 Hardwood Celestial Necklace' with its source explicitly unknown. It is a sibling-name hint, not evidence for this ring.", "fix": "Keep it as a sibling hint only. Do not treat the Prince of Low Tide line as a source for Hardwood Jungle Ring. Sources stay empty until a wiki, article, video, vendor or recipe names the ring."}]}

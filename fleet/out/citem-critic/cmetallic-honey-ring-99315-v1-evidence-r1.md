@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetallic-honey-ring-99315-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4047, 8425, 6, 1112] model=claude-haiku-5-5 -->
+# Metallic Honey Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "Minor omission: the honey-ring family has a sibling string 'This is a Gleaming Honey Ring item.' (locale:150438, ucdt 2118267322) that the answer does not mention. It suggests a shared item-description template for the family, which is relevant to the answer's 'empty description' point and to the unexplained tier question.", "fix": "Note locale:150438 'This is a Gleaming Honey Ring item.' as a family template string (locale lookup; en_us_data.dat ucdt 2118267322). It does not name Metallic Honey Ring and gives no source."}]}

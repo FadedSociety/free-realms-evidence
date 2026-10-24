@@ -1,0 +1,28 @@
+{
+ "title": "1M Party",
+ "names_seen": [
+  "1M Party"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms reached 1,000,000 registered players on May 15th, 2009, and the team held a party to celebrate.",
+   "numbers": {
+    "registered_players": 1000000
+   },
+   "era": "live",
+   "quote": "On May 15th, 2009 Free Realms reached an awesome milestone: 1,000,000 registered players!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=113",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=113",
+   "date": null,
+   "title": "Event Recap: The 1M Party",
+   "summary": "A freerealms.com news recap of a celebration for Free Realms reaching 1,000,000 registered players, which the article dates to May 15th, 2009. Players and Free Realms team members gathered at Snowhill to hang out and dance. The page gives no quest, item, or mechanic details."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

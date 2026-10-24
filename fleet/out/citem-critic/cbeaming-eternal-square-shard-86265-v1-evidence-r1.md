@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbeaming-eternal-square-shard-86265-v1-evidence-r1 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[11086, 7311, 8, 1163] model=claude-haiku-5-5 -->
+# Beaming Eternal Square Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type / where", "issue": "Labelled 'vendor' with where=null, but the only evidence is a coin store row (category 121) with no resolved vendor, NPC or store page. The row itself is real and its numbers check out, so the source is a store listing rather than a named vendor.", "fix": "Keep the price claim, but describe the source as 'coin store listing, category 121 (vendor unknown)', as the answer's own open notes already say. Verified: repo prototype/osfr-tools/data/content/stores.json line 6689 gives item_id 22274, category_id 121, purchase 1780, member 1602 (10%), sell 178."}]}

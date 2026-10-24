@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-npc-greetings-lakeshore-wilds-rs-L1 status=done turns=5 usd=0.0059 tokens(read,write,in,out)=[52289, 22328, 12, 5206] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/npc_greetings_lakeshore_wilds.rs lines 1-611 of 611
+
+Window: `prototype/osfr-tools/tests/npc_greetings_lakeshore_wilds.rs` lines 1-611. I read the whole window plus `tests/common/npc_greetings.rs` (helpers) and the loader constants in `src/npc_interaction.rs`. The 26/3 service and dispatch tests (372-400, 402-451) do exercise real selection and router output, so they are not holes. The findings below are the ones that hold up.
+
+- **[medium] tests/npc_greetings_lakeshore_wilds.rs:294 the_new_rows_have_nonzero_greetings_and_real_sources - the name says the sources are "real", but the body only string-matches the content JSON's own `evidence` text against constants typed into the test table.**
+  - Why it cannot catch a regression: the locale hash (344-346) and en_us_data.dat line (348-350) are never checked against `en_us_data.dat`, even though `common::npc_greetings::locale_rows` exists for exactly that. If someone edits a hash or line number in the test table and the JSON evidence together, or if the JSON evidence is wrong about the locale, every assertion still passes. The `hash > 0` and `dat_line > 0` checks at 583 are also trivially true.
+  - Fix: resolve each `(hash, dat_line)` pair with `locale_rows(&wanted)` and assert the row at that line has the hash and a non-empty body, and the Global.Text id maps to that hash. Otherwise rename the test to something like `the_new_rows_cite_source_strings`.
+
+- **[medium] tests/npc_greetings_lakeshore_wilds.rs:555 the_content_stays_within_the_loader_bounds - the name says the test checks the loader's bounds, but the body checks hand-copied literals (8 MiB, 32 MiB, 20,000 rows) and never runs the loader's limit.**
+  - Why it cannot catch a regression: the real limits are `MAX_NPC_FILE_BYTES`, `MAX_NPC_TOTAL_BYTES` and `MAX_NPCS` in `src/npc_interaction.rs:53-55`. The test's copies are private, so changing the loader's limits (for example raising them to 64 MiB, or lowering them so the real files are still under the new bound) does not change this test's outcome. The only loader call is `let _ = service()` at 580, which exercises the loader only with the current content and does not test any bound.
+  - Fix: import the limits (make them `pub(crate)` or re-export them) and assert against those, or add a temp-dir fixture that writes a file one byte over `MAX_NPC_FILE_BYTES` and asserts `NpcInteraction::load` returns an error. Also add a check that the loader's error message matches the bound.
+
+- **[low] tests/npc_greetings_lakeshore_wilds.rs:258-259 and 477-484 the_target_rows_are_spawned_and_non_target_rows_are_unchanged - exact row counts (`LAKESHORE_RECORDS = 39`, `WILDS_RECORDS = 118`) are pinned, but this test is about greeting bindings on non-target rows.**
+  - Why it cannot catch a regression: it does not catch a missed greeting. It does break when any unrelated NPC row is added or removed in either file, which causes churn with no bearing on greetings.
+  - Fix: drop the exact count, or assert only that every row with a `greeting_string_id` is in `NEW_GREETINGS`, `LATER_GREETINGS` or `EXISTING_GREETINGS`. Keep the per-row loop.</result>

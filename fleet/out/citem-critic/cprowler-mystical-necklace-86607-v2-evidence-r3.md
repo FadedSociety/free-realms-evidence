@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cprowler-mystical-necklace-86607-v2-evidence-r3 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[12932, 9517, 8, 1098] model=claude-haiku-5-5 -->
+# Prowler Mystical Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the Prowler family 'is a set of cosmetic variants of one necklace' is an inference from shared names, not something any source says. Client names alone do not establish cosmetic status or that the variants share one acquisition path.", "fix": "Reword as: 'The client names share a Prowler necklace family (locale 86603-86611, plus 86602 and 86612). Shared name only; no source states they are cosmetic or share an acquisition.' Verified: locale 86603-86611 are all 'Prowler <Variant> Necklace', and 86607 is 'Prowler Mystical Necklace'."}]}

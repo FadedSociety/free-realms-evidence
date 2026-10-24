@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfierce-frenzy-skirt-846-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4037, 10450, 6, 862] model=claude-haiku-5-5 -->
+# Fierce Frenzy Skirt
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "retired", "issue": "Answer leaves retired null and live as 'unsure'. The pack has no evidence either way, so this is an honest unknown, not an error.", "fix": "No change needed. Retirement and live status stay open until a wiki page, vendor row or store record is found."}, {"field": "evidence[2]", "issue": "The claim that the Savage Snarl set carries tournament-winner text (locale:761/762) was not re-checked in this pass. It does not change the Fierce Frenzy result, which rests on the absence of any source.", "fix": "Verify locale:761/762 text before citing it as evidence, or drop the tournament-winner detail."}]}

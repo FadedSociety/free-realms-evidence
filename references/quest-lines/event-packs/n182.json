@@ -1,0 +1,42 @@
+{
+ "title": "Free pet outfit promotion (Feb 2012)",
+ "names_seen": [
+  "Free pet outfit promotion (Feb 2012)"
+ ],
+ "facts": [
+  {
+   "statement": "For a limited time, buying a dog or cat for 400 Station Cash gave a free cat or dog outfit matching the pet.",
+   "numbers": {
+    "price_station_cash": 400,
+    "start_hour_cet": 9.0167,
+    "end_hour_cet": 8.9833
+   },
+   "era": "live",
+   "quote": "ein Hund oder eine Katze für 400 Station Cash kauft",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2518",
+   "date": "2012-02-10"
+  },
+  {
+   "statement": "The promotion ran from 10 February 2012 at 09:01 until 15 February 2012 at 08:59 CET.",
+   "numbers": {
+    "start_day": 10,
+    "end_day": 15,
+    "year": 2012
+   },
+   "era": "live",
+   "quote": "startet am 10. Februar um 09:01 Uhr und endet am 15. Februar 2012 um 08:59 Uhr CET",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2518",
+   "date": "2012-02-10"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2518",
+   "date": "2012-02-10",
+   "title": "Free Realms - What is New?",
+   "summary": "A German-language SOE promotion offering a free cat or dog outfit with the purchase of a pet for 400 Station Cash, running from 10 February 2012 09:01 to 15 February 2012 08:59 CET. It lists 15 outfit-to-pet pairings (10 dog, 5 cat). The article is a limited-time offer, so it describes the live game only for that window."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

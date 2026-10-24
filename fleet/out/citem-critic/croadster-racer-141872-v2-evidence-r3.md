@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=croadster-racer-141872-v2-evidence-r3 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[10425, 7680, 8, 1416] model=claude-haiku-5-5 -->
+# Roadster Racer
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / open[0]", "issue": "The blog line is quoted accurately, and the answer correctly says it names no store or price. But 'implies Roadster Racer costs Station Cash' is an inference, not a source. It is labelled as an implication, so it is acceptable, but it should not be read as evidence of an SC price.", "fix": "Keep as an unconfirmed lead only. Confirm against the SC Marketplace listing (Racing Karts category) before adding any Station Cash source. Wiki: User blog:CoreyRoyalsword/Kart Driving Tips and Tricks."}]}

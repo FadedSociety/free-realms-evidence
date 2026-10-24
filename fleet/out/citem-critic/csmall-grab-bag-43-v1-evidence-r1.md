@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmall-grab-bag-43-v1-evidence-r1 status=no_submit turns=2 usd=0.0019 tokens(read,write,in,out)=[3865, 10840, 6, 931] model=claude-haiku-5-5 -->
+# Small Grab Bag
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is accurate that no source names Small Grab Bag. Its only evidence is the client name, and the 5M article names a plain 'Grab Bag', not a size. My lookups confirm that the Station Cash 'Daily Grab Bag' is a separate offer, and that the 'Grab Bags' collection category is listed on the wiki's List of Collections page with no members.", "fix": "No change needed. Optionally note that the schedules files (quest-lines/schedules.json:1231, schedule-packs.json:47795) already treat the 5M 'Grab Bag' as unresolved between locale:141315 and 67549, so Small Grab Bag should not be linked to that reward."}]}

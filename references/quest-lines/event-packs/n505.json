@@ -1,0 +1,28 @@
+{
+ "title": "Summer Sizzle",
+ "names_seen": [
+  "Summer Sizzle"
+ ],
+ "facts": [
+  {
+   "statement": "SOE Summer Sizzle was a 7-day series of daily deals, with a new deal each day and savings across the event.",
+   "numbers": {
+    "length_days": 7
+   },
+   "era": "live",
+   "quote": "SOE Summer Sizzle is 7 days of HOT daily deals!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2637",
+   "date": "2012-06-27"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2637",
+   "date": "2012-06-27",
+   "title": "Summer Sizzle – Day #1",
+   "summary": "This freerealms.com 'What is New?' post announces Day 1 of SOE's Summer Sizzle, a seven-day run of daily deals. The Day 1 deal was a Surfboard, available only for 24 hours on Wednesday, June 27, 2012. The page does not describe Free Realms gameplay, and the date is inferred from the deal date and the capture date."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

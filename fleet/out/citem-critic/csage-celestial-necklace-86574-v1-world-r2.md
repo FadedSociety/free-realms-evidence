@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csage-celestial-necklace-86574-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3945, 8207, 6, 900] model=claude-haiku-5-5 -->
+# Sage Celestial Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The tier family is described as 'X Celestial Necklace' tiers plus a 'Sage ... Necklace' family, but the locale data also has a 'Sage Celestial Ring' (locale ugdt 407880500 in opening-journal-text-v2 and FreeRealmsLocaleTools test data). The Sage naming is not limited to necklaces, so the family description is slightly incomplete.", "fix": "Note that a 'Sage Celestial Ring' also exists (locale data, en_us_data.dat line 10793), so the Sage tier spans more than necklaces. No source gives how any Sage tier is obtained."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csorcerer-celestial-necklace-86682-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3940, 9083, 6, 1293] model=claude-haiku-5-5 -->
+# Sorcerer Celestial Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence / open", "issue": "Minor omission: the locale dump holds two more text rows for the name 'Sorcerer Celestial Necklace' (ucdt 937712478 and ugdt 1785020813, in refs/opening-harvesting ... en_us_data.dat). The answer cites only locale:86682. These confirm the name, not any acquisition, so they do not change the verdict.", "fix": "Note the extra name rows (ucdt 937712478, ugdt 1785020813) as name-only evidence, with source refs/opening-harvesting-native .../locale/en_us_data.dat. Keep sources empty and live 'unsure'."}]}

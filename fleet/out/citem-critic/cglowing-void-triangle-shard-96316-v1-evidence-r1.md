@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cglowing-void-triangle-shard-96316-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3716, 11207, 6, 1165] model=claude-haiku-5-5 -->
+# Glowing Void Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Source is recorded as type 'vendor' with where null. The only evidence is a coin store row (category 121), not a named NPC or shop. The store row is real, but 'vendor' overstates it; the record should say the coin store listing with no NPC identified.", "fix": "Keep the coin-store listing (stores.json line 8079: item_id 30910, category_id 121, purchase 540, member 486, sell 54), and label it as a coin store entry with no vendor NPC or location confirmed, as the open list already says."}]}

@@ -1,0 +1,30 @@
+{
+ "title": "Cardie weekend login rewards (April 11-14)",
+ "names_seen": [
+  "Cardie weekend login rewards (April 11-14)"
+ ],
+ "facts": [
+  {
+   "statement": "Logging in during the weekend of April 11-14 earns Cardie items, with each item available on only one listed day, so the player must log in to the TCG every day.",
+   "numbers": {
+    "start_day": 11,
+    "end_day": 14,
+    "month": 4
+   },
+   "era": "live",
+   "quote": "Log in the weekend of April 11th through April 14th and you can earn these cool Cardie items.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2912",
+   "date": "2013-04-10"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2912",
+   "date": "2013-04-10",
+   "title": "Outfit Your Cardie in Style This Weekend!",
+   "summary": "A freerealms.com news post announcing a weekend login reward promotion for the Trading Card Game (TCG) running April 11-14, 2013. Each Cardie item is tied to one specific day, and a tournament win gives a bonus item; all rewards are once per account. The post date is inferred from the page's relative timestamp ('3 days ago' at a 2013-04-13 capture), so it is approximate."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

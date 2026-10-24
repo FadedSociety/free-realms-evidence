@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-collector-431777-v2-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3422, 4914, 6, 1038] model=claude-haiku-5-5 -->
+# Elite Collector
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Stated as 'unsure' with no evidence either way. The first-pass 'live: yes' is only a hint, so 'unsure' is the honest value. No problem with the answer itself.", "fix": "No change needed. Keep 'unsure' until a capture or wiki page confirms the title is still granted."}, {"field": "evidence[4]", "issue": "Sibling 'elite collectable' lines are correctly not treated as a source. Checked: locale 77873-78615 are minigame reward texts ('...earn lots of coin and an elite collectable!'). None names the title, so they stay open, not sourced.", "fix": "No change needed."}]}

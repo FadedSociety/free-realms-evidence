@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cground-veal-quesadillas-96657-v1-world-r2 status=no_submit turns=3 usd=0.0026 tokens(read,write,in,out)=[16323, 14117, 8, 1248] model=claude-haiku-5-5 -->
+# Ground Veal Quesadillas
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The answer omits an asset fact. The shipped asset manifest has icon_activateable_micro_ground_veal_quesadillas_32/64/128.dds (osfr-asset-manifest/Assets_manifest.txt:101113-101115). The 'activateable_micro' prefix hints at a micro/activatable item, not a plain food, which bears on the 'crafting or Chef food' guess in open.", "fix": "Record the icon asset as evidence (Assets_manifest.txt:101113-101115). It names no source, so it should only weaken the crafting guess, not add a source. Keep sources empty and live unsure."}]}

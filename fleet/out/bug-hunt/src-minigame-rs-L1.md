@@ -1,0 +1,14 @@
+<!-- fleet job=bug-hunt id=src-minigame-rs-L1 status=done turns=13 usd=0.0229 tokens(read,write,in,out)=[469628, 60940, 28, 21226] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/minigame.rs lines 1-800 of 822
+
+Window `minigame.rs` 1-800 read in full. Most of it holds up: the mutation-before-`?` ordering in `offer`, `finish_inner`, `start` and `choose_wheel_prize` is clean, the `unwrap`s on `current` are guarded by earlier checks, and the 15-byte header length is checked before `read_i32`. One real defect came out of tracing the reward key used at line 581.
+
+**[medium] prototype/osfr-tools/src/minigame.rs:581 - the win grant key `minigame-run:{instance_id}` is not unique across ledger lifetimes, so after a restart a later win is silently unpaid.**
+
+- **Failure scenario:**
+  1. A player wins chess run #1 in session A. `apply_grant` records `minigame-run:1` in the player's persisted `RewardState.applied_grant_keys`, and the coins are paid.
+  2. The player relogs or the server restarts. `gameplay.rs:932` rebuilds `ChessService` via `with_state`, which calls `with_entropy` and creates `MinigameRuns::new(FIRST_INSTANCE_ID)` (chess_service.rs:313, FIRST_INSTANCE_ID = 1 at chess_service.rs:38). The ledger is restored only as `ChessRewardLedger` (chess_service.rs:320, 338; gameplay.rs:1369), so the instance counter restarts at 1.
+  3. The player wins chess run #2, which gets id 1. `finish_inner` builds key `minigame-run:1` (minigame.rs:581). `apply_grant` finds it already applied and returns `Ok((state.clone(), Vec::new()))` (rewards.rs:104-106).
+  4. `finish_inner` returns `Won` with no reward packets (minigame.rs:580-586). `chess_service.rs:574-579` still treats `reward_state.is_some()` as paid and charges `ledger.record(day, coins)`. The win screen shows, no coins arrive, and the daily chess cap is consumed.
+- **Reach:** client chess start/play packets → `ChessService::route` (chess_service.rs:393-405) → `handle_movie`/`settle` (chess_service.rs:519-581) → `ChessActivity::settle_player` (chess.rs:1724-1726) → `MinigameRuns::finish` (minigame.rs:518-524) → `finish_inner` (minigame.rs:538-603) → key at minigame.rs:581. Nothing upstream checks that the key is fresh: `finish_inner` does not look at `applied_grant_keys`, and the chess caller only checks `reward_state.is_some()`. The same counter-reset pattern also applies to the process-global soccer counter `NEXT_INSTANCE_ID` starting at 47_000_001 (soccer_service.rs:80-82); I did not trace that path to a save.
+- **Fix:** make the run id persistent or the key unique per ledger. The smallest change is to save the chess instance counter in `ChessRewardLedger` and seed `MinigameRuns::new` from it in `with_entropy`. Alternatively, have `finish_inner` refuse (`Err`) when the key is already applied and the grant is non-empty, so a duplicate cannot pass silently.

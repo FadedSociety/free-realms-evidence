@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-hen-feather-archer-leggings-pl-hen-feather-archer-leggings-132744-v1-world-r2 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[10764, 7716, 8, 1981] model=claude-haiku-5-5 -->
+# {n}Hen Feather Archer Leggings{pl="Hen Feather Archer Leggings"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open / sources", "issue": "The wiki Tavern Cellar page lists '[Hen] [Feather] [Archer] [Leggings]' next to a '49 Coins' price line. This conflicts with the 375-coin store price and may be a separate coin-priced source (or a mystery-pack/prize listing). The answer sets it aside as unclear, which is honest, but it is not resolved.", "fix": "Check the Tavern Cellar wiki page (lookup 'Tavern Cellar') to see whether 49 Coins belongs to Leggings or to the adjacent Battle Item Mystery Pack / prize wheel row. If it prices Leggings, add it as a second coin source. Otherwise keep it as an open note."}]}

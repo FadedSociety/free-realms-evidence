@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-disciple-wizard-gloves-pl-disciple-wizard-gloves-133445-v1-evidence-r1 status=done turns=3 usd=0.0032 tokens(read,write,in,out)=[20351, 17324, 8, 1675] model=claude-haiku-5-5 -->
+# {n}Disciple Wizard Gloves{pl="Disciple Wizard Gloves"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[].price", "issue": "Both prize-wheel sources give the wheel's spin cost (176 Coins on Briar Patch, 77 Coins on Mushroom Mania!), not a purchase price for the gloves. The answer's 'price' field does not say this, and a builder could read it as a vendor price.", "fix": "Label these as 'Wizard Prize Wheel spin cost: 176 Coins' (Briar Patch wikitext, lines 71-77) and 'Wizard Prize Wheel spin cost: 77 Coins' (Mushroom Mania! wikitext, lines 64-70). Both figures are confirmed in the wikitext; the 176 and 77 are per-page values, not a sale."}]}

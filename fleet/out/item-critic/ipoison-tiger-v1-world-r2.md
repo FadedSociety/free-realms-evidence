@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ipoison-tiger-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3214, 7302, 6, 1031] model=claude-haiku-5-5 -->
+# Poison Tiger
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The answer says the Tigers page lists Poison Tiger 'with no price, vendor, or release note'. That is accurate for the Poison Tiger entry, but the Tigers page also states at race level: 'Tigers are a race in Free Realms. They are only available to be purchased with Station Cash.' The answer omits this, and a builder might read the Tigers page as a Station Cash source for this ride.", "fix": "Add that the Tigers page's race-level text says tigers are only purchasable with Station Cash (wiki: Tigers, rev text). Record it as context only, not as a source, since no page ties Poison Tiger to a Station Cash listing. Keep sources empty and wireable false."}]}

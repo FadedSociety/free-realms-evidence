@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=choodlum-celestial-ring-86357-v1-world-r2 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[11687, 8114, 8, 1309] model=claude-haiku-5-5 -->
+# Hoodlum Celestial Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The Hoodlum ring family is listed as Infernal, Spectral, Mystical, Phantasmal, Eternal, Ethereal, omitting the Hoodlum Dreadful Ring (locale:86350) and Hoodlum Fateful Ring (locale:86351). The client lookup shows both, so the family list is incomplete. The Physician cluster (86359-86362) is also cited without noting that the Physician rings are a separate set.", "fix": "Hoodlum rings are locale:86350-86358 (Dreadful, Fateful, Infernal, Spectral, Mystical, Phantasmal, Eternal, Celestial, Ethereal), per the client lookup. Physician rings are locale:86359-86362. Hoodlum necklaces also exist in en_us_data.dat (e.g. 'Hoodlum Celestial Necklace')."}]}

@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-encounter-rs-L1 status=done turns=4 usd=0.0075 tokens(read,write,in,out)=[46222, 27279, 10, 7176] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/encounter.rs lines 1-842 of 842
+
+Window reviewed: `prototype/osfr-tools/tests/encounter.rs` lines 1-842. The two `#[ignore]` tests (lines 716 and 777) carry reasons, so they are not silent skips. Most assertions in the window compare against independently written expectations (fixture constants, literal packet bytes, explicit state values), so I found no "cannot fail" tests. Three findings:
+
+- **[medium] tests/encounter.rs:530 save_restart_win_and_exit_preserve_reward_exactly_once - the second clear of 411 never checks its rewards, so the "exactly once" claim is only half-tested.**
+  - Why it cannot catch a regression: after `begin`/`on_zone_ready`, the attack at line 530 returns an outcome whose `.rewards` is never inspected. Only `state().rewarded` and the `Won` phase are checked (lines 531-535). If the engine ever re-grants coins or items on a re-clear while still recording `rewarded`, this test still passes. The earlier check at line 515-520 covers only a different attack, at 5000 ms, in the restored instance.
+  - Fix: `let again = e.attack(201, [0.0; 3], 1, 4, 0).unwrap(); assert!(again.rewards.is_empty());` (or assert the attack returns `changed == false`), placed before the `begin` at line 528 is replaced.
+
+- **[medium] tests/encounter.rs:612-642 pursuer_reaches_real_scale_contact_without_rounding_stall_and_stops_after_aggro - the name says the enemy "stops after aggro", but the body only checks a single `[35,0,8,0]` packet at the disengage tick, never the enemy's position or motion.**
+  - Why it cannot catch a regression: the engine could keep moving the enemy toward the player after the player leaves (or keep it chasing indefinitely) and still emit that packet, so the assertion passes. Lines 632-641 do not read `state().active.enemies[0].position` at all. I read only the surrounding tick code (`tick_encounter`, encounter.rs:2325-2420) and did not fully decode what value `1` with flag `1` means in that packet, so this finding rests on the test body alone.
+  - Fix: after line 633, assert the enemy's position is unchanged across a further tick at 2500 ms, e.g. `let p = e.state().active...enemies[0].position; e.tick([1000.0,28.0,289.0],43,2500)...; assert_eq!(e.state().active...enemies[0].position, p);`. Or rename the test to drop "stops after aggro" if that behaviour is covered elsewhere.
+
+- **[low] tests/encounter.rs:695-713 corrupt_content_and_inconsistent_saves_fail_closed - every rejection is checked only with `is_err()`, so the test would pass if any of the four loads failed for an unrelated reason.**
+  - Why it cannot catch a regression: a broken parser or an unrelated validation error would satisfy `is_err()`. The health cap at 707-708 and the template-hash flip at 710-712 are not shown to be the causes. Only the test name's "fail closed" is checked, not which check fired.
+  - Fix: match the error text, e.g. `.unwrap_err().to_string()` contains `"health"` for line 708 and `"sha256"` (or the actual hash-mismatch message) for line 712. Lines 701 and 704 should likewise assert their specific messages.

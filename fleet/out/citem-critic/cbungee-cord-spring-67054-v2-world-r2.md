@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbungee-cord-spring-67054-v2-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3704, 4805, 6, 1095] model=claude-haiku-5-5 -->
+# Bungee Cord Spring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The 7 coins and 50 XP set-completion reward is cited to collection_catalogue.json lines 14289-14297, but those lines contain only the item entry (id 1316, index 7, name_id 67054, item_definition_id 23441, item_link sanctuary) and no reward. The answer itself says it was not re-read. The reward is unverified in the cited range.", "fix": "Either cite the actual reward location in collection_catalogue.json for the Bouncy Metal Springs collection, or drop the reward figures. Set-completion reward is not an acquisition source for this item in any case."}]}

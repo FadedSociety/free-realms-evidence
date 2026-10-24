@@ -1,0 +1,8 @@
+<!-- fleet job=test-audit id=tests-startup-catalogues-rs-L1 status=done turns=5 usd=0.0048 tokens(read,write,in,out)=[30558, 16420, 12, 4939] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/startup_catalogues.rs lines 1-332 of 332
+
+Window reviewed: `prototype/osfr-tools/tests/startup_catalogues.rs` lines 1-332, against `prototype/osfr-tools/src/startup_catalogues.rs` (builders at lines 113-259, constants at lines 23-24). I checked the byte offsets in every synthetic test against the header layout (4-byte family/sub header, then the body; `inner()` strips 7 bytes); they are correct, so I am not reporting them. The `#[ignore]` on the capture oracle has a reason and the test has no silent early return, so it is not reported.
+
+- **[medium] tests/startup_catalogues.rs:325 synthetic_overworld_combat_flag_changes_only_the_known_flag - the name says only the known flag differs between the two outputs, but the body never compares the inactive packet's unknown bytes or flag byte.**
+  - Why it cannot catch a regression: `inactive` is checked only for total length (line 329) and is never checked for its unknown dwords (`inner(&inactive)[4..12]`) or its flag byte (`inner(&inactive)[12]`). A change that makes `build_overworld_combat_flag(false)` emit a non-zero unknown dword, or a non-boolean byte such as 2 for `false`, still passes `assert_ne!` at line 328 and the active-side checks at lines 330-331, which only inspect `active`.
+  - Fix: assert `inner(&inactive)[4..12] == [0; 8]` and `inner(&inactive)[12] == 0`, or assert `inner(&inactive)[..12] == inner(&active)[..12]` and `inner(&inactive)[12] == 0`, so that the only differing byte is the flag at offset 12.

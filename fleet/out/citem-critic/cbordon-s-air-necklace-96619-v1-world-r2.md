@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbordon-s-air-necklace-96619-v1-world-r2 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[13390, 10425, 8, 1207] model=claude-haiku-5-5 -->
+# Bordon's Air Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Chef-reward guess is speculation, and the answer lists no evidenced source. That is honest, so it does not fail. My checks agree: no repo, wiki or video source names 'Bordon's Air Necklace' or definition 31213. The chef.json quest rows cite only Bordon Cloo's main-series NPC lines, with no reward naming this item.", "fix": "Optional: note that the client also has 'Bordon's Assistant' (locale:73195) and an entrance-exam line (locale:73386) that tie Bordon to a quest line. Check whether that line has a reward table before guessing a Chef source. Keep sources empty and live 'unsure' until a quest, vendor or event names the item."}]}

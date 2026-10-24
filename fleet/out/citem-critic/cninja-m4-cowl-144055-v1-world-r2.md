@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cninja-m4-cowl-144055-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3488, 10306, 6, 907] model=claude-haiku-5-5 -->
+# Ninja M4 Cowl
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that no acquisition source was found. My re-check agrees: lookup of 'Ninja M4 Cowl' across client, wiki, articles and video returns only the client text line locale:144055. A ref search for Ninja cowl/M4/shoulderguard returned only unrelated wiki page dumps, so the repo and refs were not conclusively cleared, but nothing ties this item to a vendor, quest or event.", "fix": "No change required to the answer. The record should stay with no sources, retired null and live unknown until a wiki page, forum post or video frame names an acquisition route for the M-series ninja cowls (locale:144055, 144020, 144160, 144125, 144090)."}]}

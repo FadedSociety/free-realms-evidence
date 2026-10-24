@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cold-rusty-fork-140877-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3720, 7335, 6, 770] model=claude-haiku-5-5 -->
+# Old Rusty Fork
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / live", "issue": "The answer correctly leaves sources empty and live as 'unsure'. My own checks found no vendor, quest, wiki, article or video source for Old Rusty Fork (locale 140877). Refs hits are only the client cluster lists in quest-lines/citem-packs.json and locale dumps, with no acquisition line. The Broken Plate and Old Love Letter hits are also cluster lists, not sources.", "fix": "No change needed. Keep sources empty and retired null. Note that the first-pass 'drop' guess has no evidence and should stay out of sources."}]}

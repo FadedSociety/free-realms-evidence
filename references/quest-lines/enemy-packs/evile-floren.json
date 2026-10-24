@@ -1,0 +1,36 @@
+{
+ "title": "Vile Floren",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\floren_forest.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:15801 [npc_name | Floren Forest | Vile Floren] 'Vile Floren'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:15801 [npc_name | Floren Forest | Vile Floren] 'Vile Floren'"
+ ],
+ "client_cluster": [
+  "locale:15793 [quest_objective | Floren Forest | Floren Bridge Guard] 'Knock out the Floren Bridge Guard in order to gain passage across the pond.'",
+  "locale:15796 [quest_objective | Floren Forest | Investigate the corruption] 'Investigate the corruption.'",
+  "locale:15797 [quest_objective | Floren Forest | Investigate the corruption] 'The most unnatural of magic is taking hold of the Floren Forest.  Investigate the source of the problem.'",
+  "locale:15798 [item | - | Rising Hearts] 'Pet - Rising Hearts'",
+  "locale:15801 [npc_name | Floren Forest | Vile Floren] 'Vile Floren'",
+  "locale:15802 [npc_name | Floren Forest | Twisted Serpent] 'Twisted Serpent'",
+  "locale:15803 [npc_dialog | Floren Forest | Thorn Basher] 'I am Thorn Basher, guardian of our sacred Idol... prepare to face me!'",
+  "locale:15807 [quest_objective | - | Barton] 'Return to Barton'"
+ ],
+ "wiki": {
+  "title": "Vile Floren",
+  "text": "The Vile Floren is a floren enemy NPC that can be found in the Floren Forest, located in the Northern Wilds.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Floren\nCategory:Wilds"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

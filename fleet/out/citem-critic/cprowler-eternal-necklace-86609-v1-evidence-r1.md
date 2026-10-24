@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cprowler-eternal-necklace-86609-v1-evidence-r1 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3921, 9914, 6, 1224] model=claude-haiku-5-5 -->
+# Prowler Eternal Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that 'Prowler' appears in client text only as the Stealthy Prowler NPC name is overstated. My lookup finds the whole Prowler jewelry family as client item names (locale 86603-86611, including 86609 itself), so 'only' must mean outside that family. The wording should say so, otherwise it contradicts evidence[1].", "fix": "Reword to: outside the Prowler jewelry family (locale 86603-86611), 'Prowler' appears in client text only as the Stealthy Prowler NPC name (locale 93129) and in the Stealthy Despoilers battle frame (video:e3pTMvZNdeQ/00016.jpg)."}]}

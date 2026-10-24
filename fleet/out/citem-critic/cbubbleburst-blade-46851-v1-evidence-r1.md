@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbubbleburst-blade-46851-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4112, 5158, 6, 883] model=claude-haiku-5-5 -->
+# Bubbleburst Blade
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "'Player-to-player trade' is an inference. The wiki (Bubbleburst Blade and Category:Blue Text Weapons) says only 'can only be acquired through trade' and does not say who traded or how. The answer's own open note admits this, but the source detail states it as fact.", "fix": "State only 'acquired through trade (no vendor, quest, drop or event named)', citing https://freerealms.fandom.com/wiki/Bubbleburst_Blade and Category:Blue_Text_Weapons (text: 'They are currently only acquired through trade')."}]}

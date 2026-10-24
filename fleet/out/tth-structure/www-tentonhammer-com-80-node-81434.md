@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-81434 status=nothing_found turns=1 usd=0.0012 tokens(read,write,in,out)=[0, 7614, 4, 484] model=claude-haiku-5-5 -->
+# WoW - Daily 3.3.3 Changes Update | Ten Ton Hammer
+
+{"article": {"title": "WoW - Daily 3.3.3 Changes Update", "date": "2010-02-25", "author": "Cyrak", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer news post covers World of Warcraft patch 3.3.3 class and holiday-boss changes. It contains no Free Realms content; the only Free Realms mentions are in the site's sidebar popularity rankings (listed as #9 Most Popular and 'up 17 to #9' Recently Popular), which are not game information.", "facts": [], "quests": [], "uncertain": ["The article is about World of Warcraft. Free Realms appears only in site navigation and sidebar rankings, so no Free Realms facts were recorded."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmelter-orange-ring-96111-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3604, 4666, 6, 809] model=claude-haiku-5-5 -->
+# Melter Orange Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim cites locale:150440, which the automatic id check flags as a placeholder stub ('This is a ... item'). The answer says it does not help, but it still lists it as a source in the evidence block. It is not live evidence and should not appear as a cited source.", "fix": "Drop locale:150440 from the evidence list, or mark it explicitly as a rejected placeholder. The remaining negative result stands: lookup of client, wiki, articles and video finds only the client names locale:96106-96111 and locale:96116, with no wiki, article or video mention of Melter rings."}]}

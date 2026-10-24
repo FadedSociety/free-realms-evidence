@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-focus-fire-boots-pl-focus-fire-boots-568-v2-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4303, 9753, 6, 1229] model=claude-haiku-5-5 -->
+# {n}Focus Fire Boots{pl="Focus Fire Boots"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence / open (price)", "issue": "The pack's client_definition lists coin_store_prices [534], while the answer's Legacy Cost of 270 (Id 1242, NameId 568) is a different number. The answer records the 534 link as unverified and the 270 as a definition field, not a store sale. Both are unresolved, and neither is a source.", "fix": "Keep both as unresolved. Do not promote either to a coin_shop source until a stores row whose item definition id is 1242 (or the 534 store entry) is matched to locale 568. Lookups found no such row: a repo search for 'Focus Fire' and item 534 turned up only the Focus Fire Bow weapon entry and unrelated ids."}]}

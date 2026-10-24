@@ -1,0 +1,30 @@
+{
+ "title": "Fishing Derby",
+ "names_seen": [
+  "Fishing Derby"
+ ],
+ "facts": [
+  {
+   "statement": "A Community Event called Fishing Derby was held in the Sacred Grove Shallows on Friday January 22, 2010, on Server 1.",
+   "numbers": {
+    "U.S./Latin America start (Pacific time, 24h clock 15:00)": 15,
+    "UK/Europe start (Pacific time, 09:00)": 9,
+    "UK/Europe start (GMT, 18:00)": 18
+   },
+   "era": "live",
+   "quote": "Friday January 22nd, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=875",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=875",
+   "date": null,
+   "title": "Community Event: Fishing Derby",
+   "summary": "Announces a Community Event Fishing Derby in the Sacred Grove Shallows on Friday January 22, 2010, on Server 1, with separate times for the U.S./Latin America and UK/Europe audiences. It explains that players need the Fisherman job (obtained from Reed Stillwater by the Shallows entrance) and how to find Community Events via the Game Guide calendar. The page is a Spanish-language copy captured 2010-01-24."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

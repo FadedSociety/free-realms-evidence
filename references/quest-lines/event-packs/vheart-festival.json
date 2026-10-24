@@ -1,0 +1,46 @@
+{
+ "title": "Heart Festival",
+ "names_seen": [
+  "Heart Festival"
+ ],
+ "facts": [
+  {
+   "statement": "The annual Heart Festival has returned to Happy Valley and celebrates a old love story between the pixies Rylan and Arianna.",
+   "numbers": {},
+   "era": "live",
+   "quote": "O Festival anual dos Corações está de volta no Vale Feliz.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2028&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "Festival content includes daily quests, subscriber-only quests, and items and costumes from Station Cash and the Currency Store, with more items due the following week.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Tem aventuras diárias, aventuras Só para Assinantes, itens e fantasias de Station Cash e da Loja de Moeda",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2028&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2028&request_locale=en_US",
+   "date": null,
+   "title": "Free Realms - What is New? (Festival dos Corações / Heart Festival)",
+   "summary": "A Portuguese-language SOE news post announcing the annual Heart Festival (Festival dos Corações) in Happy Valley (Vale Feliz, client name Merry Vale). It describes the festival's legend of Rylan and Arianna, the heart flower, and the villain Stone Heart (Coração de Pedra), who appears each year when the flower blooms. The post says festival content includes daily quests, subscriber-only quests, and Station Cash and Currency Store items, and explains how to reach the festival via the Merry Vale teleport stone."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "A Bundle of Love (final, live yes)",
+  "Dubawug's Sweetheart (unresolved, live unsure)",
+  "Ooey, Gooey Love (unresolved, live yes)",
+  "Petal Picker (final, live unsure)",
+  "Potent Love Potion (unresolved, live yes)",
+  "Potion Testing: Version 6.0 (final, live yes)",
+  "Potion Testing: Version 7.0 (unresolved, live yes)",
+  "Sleeping Pixie (final, live yes)",
+  "Softening the Stone (final, live yes)",
+  "Stone Heart's Hideaway (final, live unsure)",
+  "Where is the Love? (final, live yes)"
+ ]
+}

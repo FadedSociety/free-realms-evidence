@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolished-grape-necklace-89494-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3808, 7527, 6, 1222] model=claude-haiku-5-5 -->
+# Polished Grape Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (ugdt/ucdt hashes)", "issue": "The claim that the Grape necklace name entries carry ucdt 3185619607 and ugdt 2199765485 was not reproduced. My search of the journal-text locale dat for 'Polished Grape|Grape Necklace' showed Polished Grape Ring (ugdt 501622620) but no Polished Grape Necklace line with those hashes. The claim is unverified and should be dropped or re-checked against en_us_data.dat before it is recorded.", "fix": "Keep only what is confirmed: locale 89494 = 'Polished Grape Necklace' (confirmed by locale lookup, and the family and ring names 89472-89477 match the answer). Do not record the hashes unless re-verified."}]}

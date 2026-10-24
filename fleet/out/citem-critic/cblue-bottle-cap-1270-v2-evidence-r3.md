@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblue-bottle-cap-1270-v2-evidence-r3 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3810, 4729, 6, 1010] model=claude-haiku-5-5 -->
+# Blue Bottle Cap
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The wiki List of Collections lists '[Multicolor] [Bottle] [Caps]' under 'Various [Robgoblin] [Junk]', which the answer's 'lookup returned no matches' evidence line understates. The answer does acknowledge the wiki listing in 'open', so this is a wording inconsistency rather than a false claim.", "fix": "Reword evidence line 4 to say the wiki List of Collections names the Multicolor Bottle Caps collection under Robgoblin Junk (collection-level only, no per-item entry). The per-item lookup for 'Blue Bottle Cap' itself did return nothing. Source: lookup wiki 'List of Collections'."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ikelpy-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3203, 4846, 6, 957] model=claude-haiku-5-5 -->
+# Kelpy
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "Says Kelpy's 'only quest link is Open House Clean-Up', but the same claim cites Seaside Advertising objectives (locale:95030, 95050, 95039) and the client also has 'Seaside Kelpy' dialog (locale:139575, 139578, 139576) that names Kelpy in the Seaside chapter. The 'only' wording is wrong; Kelpy is tied to at least two quest chains.", "fix": "Kelpy is linked to Open House Clean-Up (locale:46815) and the Seaside Advertising to the Tourists chapter (locale:95030, 95039, 95050), plus Seaside Kelpy dialog (locale:139575). Verified in the client locale; no item named Kelpy exists in the client or wiki."}]}

@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-piece-069-rs-L1 status=done turns=6 usd=0.0058 tokens(read,write,in,out)=[64282, 21324, 14, 4939] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_069.rs lines 1-425 of 425
+
+Window reviewed: `prototype/osfr-tools/tests/piece_069.rs` lines 1-425, checked against `src/restoration/piece_069.rs` (`consider`, `commit`, `recover`, `open`, `parse_records`, `append`). Most of the window holds up: the exactly-once, crash-replay, stale/invalid rejection (with journal byte-equality), and malformed-journal cases each fail for the reason they name, and I confirmed that against `parse_records`. Two findings:
+
+- **[medium] prototype/osfr-tools/tests/piece_069.rs:385 malformed_or_unbounded_journals_are_refused - `assert!(MAX_LEDGER_RECORDS >= 64)` compares a constant with a constant and the record bound it names is never exercised.**
+  Why it cannot catch a regression: the assertion never calls the code. `append` (src line 474) and `parse_records` (src line 503) both enforce `MAX_LEDGER_RECORDS`, and no test writes or appends past it. Changing the bound, deleting either check, or making `MAX_LEDGER_RECORDS` 1_000_000 would still pass, since the assert only tests the constant's magnitude.
+  Fix: write a journal with `MAX_LEDGER_RECORDS + 1` well-formed records (intent/applied pairs or distinct intents) and assert `TurnInLedger::open(&path).is_err()`. Separately, drive `consider` until `MAX_LEDGER_RECORDS` is reached and assert the next intent returns `Err`, with the file unchanged. Remove the constant-only assert.
+
+- **[low] prototype/osfr-tools/tests/piece_069.rs:89 recovered_packet_constants_match_the_decompiled_quest_family - the name and doc claim the constants match the decompiled enum, but the body only compares them with literals typed in the test.**
+  Why it cannot catch a regression: the test never reads `lab/decompiled/server/LibSOE/SOE/BaseQuestPackets.cs` or any artifact. The source constants in `src/restoration/piece_069.rs:75-90` are plain literals, so a wrong transcription made in both places at once would pass. The test catches drift between the two literals, not a mismatch with the decompiled source.
+  Fix: either rename it to something like `recovered_packet_constants_are_pinned` and note the decompiled source in a comment, or add a check against the `lab/` source, for example a read of the `QuestCompletePacket = 4` line guarded by a skip-with-reason when the lab tree is absent (so the skip is visible and not silent).

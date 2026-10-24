@@ -1,0 +1,39 @@
+{
+ "title": "Leaping Tarantula",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\precursor_ruins.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:407484 [npc_name | Precursor Ruins | Leaping Tarantula] 'Leaping Tarantula'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:407484 [npc_name | Precursor Ruins | Leaping Tarantula] 'Leaping Tarantula'",
+  "locale:407778 [ability | Precursor Ruins | Leaping Tarantula] 'Leaping Tarantula Leap'",
+  "locale:407779 [other | Precursor Ruins | Leaping Tarantula | FLAG dev_note: internal teleport label with numbering] 'Precursor Ruins - 313 - Leaping Tarantula teleport'"
+ ],
+ "client_cluster": [
+  "locale:407476 [npc_name | - | Zombie] 'Zombie'",
+  "locale:407477 [quest_dialog | - | Esther] \"Oi, Esther! There's something else about this gold shard...\"",
+  "locale:407478 [quest_dialog | - | Esther] 'Shh! Keep it down, will you? What if those thieves are still around?'",
+  "locale:407482 [npc_name | Precursor Ruins | Skittering Tarantula] 'Skittering Tarantula'",
+  "locale:407483 [npc_name | Precursor Ruins | Agitated Tarantula] 'Agitated Tarantula'",
+  "locale:407484 [npc_name | Precursor Ruins | Leaping Tarantula] 'Leaping Tarantula'",
+  "locale:407485 [place | Precursor Ruins | Tarantula Tunnel] 'Tarantula Tunnel'",
+  "locale:407486 [item | - | Rocklar Power Artifact] 'Rocklar Power Artifact'",
+  "locale:407487 [npc_name | - | Rocklar Shaper] 'Rocklar Shaper'",
+  "locale:407488 [npc_name | - | Rocklar Guardian] 'Rocklar Guardian'",
+  "locale:407489 [npc_name | - | Garros] 'Garros'",
+  "locale:407490 [npc_name | - | Venoxa] 'Venoxa'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

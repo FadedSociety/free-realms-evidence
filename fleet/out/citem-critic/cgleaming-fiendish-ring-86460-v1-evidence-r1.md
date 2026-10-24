@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-fiendish-ring-86460-v1-evidence-r1 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[10814, 7398, 8, 1187] model=claude-haiku-5-5 -->
+# Gleaming Fiendish Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The pack cites quest-lines/npc-packs.json:52115 and quest-lines/items.json as tying Kai's rings to something. I could not find either reference in the repo search, so that pointer is unverified. The locale names themselves check out: Kai's Fiendish Ring is locale 86496 and the Kai family runs 86486-86497.", "fix": "Drop or correct the quest-lines citations for the Kai rings. The locale ids (86486-86497) are the only verified part. The Chaz and Gleaming family names (86449-86467) are client-only, as the answer already says."}]}

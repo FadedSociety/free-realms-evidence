@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrewery-toasted-sandwich-1194-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4007, 8270, 6, 933] model=claude-haiku-5-5 -->
+# Brewery Toasted Sandwich
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim that the Sasparilla Brewery in Wugachug is a food/drink hub is cited to wiki pages 'Wugachug' and 'Exploration (Collections)'. My wiki lookup for Toasted Sandwich and Chugawug returned only the client line, and I did not re-verify the Wugachug page, so this citation is unconfirmed. It does not change the sources, which are correctly empty.", "fix": "Either re-verify the Wugachug wiki page and quote the exact line, or drop the Sasparilla Brewery sentence. Nothing in the pack links the item to that location."}]}

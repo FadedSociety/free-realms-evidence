@@ -1,0 +1,32 @@
+{
+ "title": "Chugawug Soldiers",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\tanglewood_fort.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:15512 [quest_objective | - | Chugawug Soldiers] 'Assist the Chugawug Soldiers! Prevent the trolls from invading the trail!'",
+  "locale:15513 [quest_objective | - | Chugawug Soldiers] 'Escort the Chugawug Patrol to their Towers. '",
+  "locale:15514 [quest_objective | - | Chugawug Soldiers] 'Speak to the Sergeant Brutus at the final tower.'",
+  "locale:15515 [quest_dialog | - | Chugawug Soldiers] 'First tower secure! Archers, advance!'"
+ ],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:NbP36KcX8N8/00068.jpg (-): other_text: Active Quests 14/30 Bayou: Catch of the Day Gunther can't keep up with the appetites of chugawug soldiers. He's going to need some he... Started On 3/14/2010 Soccer Star: Power Game Coach 'Golden Leg' Eddie wants you to play another game against the Goalbusters. Play "
+ ],
+ "article_facts": [
+  "fact:location: Bristlewood is a wooded area beyond the Thistlerow maze with few inhabitants, kept from being overrun only by Chugawug soldiers on patrol. | Only the Chugawug soldiers on patrol keep Bristlewood from being completely overrun by strange creatures and plant life (http://www.freerealms.com:80/article/detail.action?articleId=118)",
+  "fact:npc: The Chugawug are the soldier people who patrol Bristlewood and garrison Tanglewood Fort in Briarwood. | Only the Chugawug soldiers on patrol keep Bristlewood from being completely overrun (http://www.freerealms.com:80/article/detail.action?articleId=118)"
+ ],
+ "quest_answers_naming_it": [
+  "deliver target in 'Fisherman: An Offering' (unresolved): Deliver the fish to the hungry Chugawugs."
+ ]
+}

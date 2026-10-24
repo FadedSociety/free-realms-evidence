@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmooth-fire-necklace-96517-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3545, 10385, 6, 1126] model=claude-haiku-5-5 -->
+# Smooth Fire Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Possible unexplored lead: the repo's Wilds notes (NPCs - Wilds.md, row for Zinnea Magnolio) record a quest where Zinnea asks for sparkling flowers 'to make necklaces'. The sibling elemental necklaces could plausibly come from a crafting or quest chain there, but the pack does not check it.", "fix": "Not a failure: the answer correctly leaves sources empty. Before closing, check the Zinnea quest (dialog 331882309, 4075335134) and any Dull/Smooth necklace reward in the quest data. Keep the item unsourced unless a reward or recipe names it."}]}

@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-gathering-payout-rs-L1 status=done turns=5 usd=0.0076 tokens(read,write,in,out)=[65047, 27192, 12, 7016] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/gathering_payout.rs lines 1-958 of 958
+
+Window: `prototype/osfr-tools/tests/gathering_payout.rs` lines 1-958 (whole file read). Two findings; the rest of the window checked out (no `#[ignore]`, no early returns; fixtures are `unwrap`ed so a missing reference fails loudly rather than passing).
+
+- **[medium] prototype/osfr-tools/tests/gathering_payout.rs:947-950 live_route_and_shared_lifecycle_agree_on_quit_and_leave_ack - the `26/42` close probe is only asserted for the Offered phase; for Launched through LevelComplete the close result and liveness are printed by `eprintln!` (line 943) and never checked.**
+  - Why it cannot catch a regression: the `if probe != "close"` guard skips the live-vs-shared equality for close in every phase except Offered, and the `probe == "close" && target == "Offered"` block is the only close assertion. A change where the shared lifecycle's `close()` (`mining_lifecycle.rs:192-193`, `harvesting_lifecycle.rs:202`) stops releasing the run, or replies with a different packet, while `Direct` still cancels (`mining.rs:517-532`), passes in Playing/LevelComplete/etc. The name and module doc present this as a parity test over "quit and leave ack", but the close parity for the other six phases is only a log line, so the gate does not check it at all.
+  - Fix: remove the `probe != "close"` guard (assert `live == shared` for all probes), and add a phase-specific expectation for close outside Offered (e.g. `live.1 == false` and `live.0` equal to `[19]` before results are presented, or empty after results), so a shared-route close regression fails.
+
+- **[low] prototype/osfr-tools/tests/gathering_payout.rs:537 ordinary_win_pays_once_then_close_returns_to_the_world - `assert_eq!(second, id + 1)` pins the exact instance-id increment, which is incidental to the payout contract the test is about.**
+  - Why it is churn, not a missed bug: any change to instance-id allocation (for example skipping ids, or a shared counter across games) fails this line even though the payout and the "fresh run is live and paid once" behaviour are still correct; the test's purpose is the second payout, not the numbering.
+  - Fix: capture `second` and assert `second != id` plus `active(&gateway, game) == Some(second as i64)` before the win, dropping the `id + 1` literal.

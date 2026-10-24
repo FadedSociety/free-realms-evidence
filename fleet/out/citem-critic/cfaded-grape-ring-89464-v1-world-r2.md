@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-grape-ring-89464-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3848, 7319, 6, 793] model=claude-haiku-5-5 -->
+# Faded Grape Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources list is consistent with the evidence. My own lookups (client, wiki, articles, video for the Faded ring names) returned no matches, and repo searches for 10455, 89464 or 'Faded' only hit unrelated notes and hashes. No vendor, quest, drop or event source is evidenced, so none should be listed.", "fix": "No change needed. Keep sources empty, retired null and live unsure. Do not carry over Jev's 'drop' guess or 'live: yes'. The client cost 640 is an item-definition field, not a coin store price, so it stays out of the source list."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpet-trainer-head-charcoal-123159-v2-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4176, 5943, 6, 1066] model=claude-haiku-5-5 -->
+# Pet Trainer head charcoal
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "retired", "issue": "Left null. The wiki Pet Trainer page does say the job 'has been removed from the game', which is a weak lean toward retired for job-gated clothing. The item's own status is still unknown, so null is honest, but the answer could note the lean.", "fix": "Keep null, or record 'likely retired, unconfirmed' with source wiki page:ns0 'Pet Trainer' (job removed, undated)."}, {"field": "evidence[5]", "issue": "Correctly flagged. The id check confirms locale:3755074429 does not exist, so the 'new member pack' claim is dropped. Nothing in the client locale table (searched 'Pet Trainer') names a pack or charcoal head item.", "fix": "No change needed."}]}

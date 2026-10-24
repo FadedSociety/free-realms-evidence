@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cminer-m3-helmet-144475-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3573, 8782, 6, 1139] model=claude-haiku-5-5 -->
+# Miner M3 Helmet
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0]", "issue": "Minor incomplete citation: the locale dat also holds 'Miner M3 Helmet' under id 2184932647 (ucdt) and 2974987269 (ugdt), in opening-harvesting-native-20261009T132512Z/locale/en_us_data.dat. The answer cites only locale:144475. The name itself is confirmed, so this does not change the answer.", "fix": "Add the dat ids 2184932647 and 2974987269 alongside locale:144475 as name evidence for the helmet. The claim that there is no coin store price is not re-checked here and rests on repo stores.json."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-goto-newpost-t-1239 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2877, 4, 647] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a Free Realms Forums vBulletin error page ('exceeded the maximum number of posts you can view') with forum navigation and an index of forum sections. It contains no thread text, guide, or game information, so it gives a rebuilder nothing about quests, items, prices, events or mechanics.", "facts": [], "quests": [], "uncertain": ["The thread the URL points to (t=1239) is not in the captured text; only the login/error wall and forum index were preserved.", "The page belongs to the Free Realms fan forum, but no Free Realms game content appears in the text, so about_free_realms is set to false."]}

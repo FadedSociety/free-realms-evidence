@@ -1,0 +1,38 @@
+{
+ "title": "Anniversary celebration (birthday festivities)",
+ "names_seen": [
+  "Anniversary celebration (birthday festivities)"
+ ],
+ "facts": [
+  {
+   "statement": "The Free Realms anniversary festivities included birthday quests and gifts that could be found in the game, covered in a video guide.",
+   "numbers": {},
+   "era": "live",
+   "quote": "qui voudrait nous parler des quêtes d'anniversaire et de tous les cadeaux qu'on peut retrouver dans le jeu.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1330",
+   "date": null
+  },
+  {
+   "statement": "The anniversary festivities were scheduled to end on 10 May 2010.",
+   "numbers": {
+    "end_day": 10,
+    "end_month": 5,
+    "end_year": 2010
+   },
+   "era": "live",
+   "quote": "Le contenu des festivités se termineront le 10 mai 2010.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1330",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1330",
+   "date": null,
+   "title": "Un Guide Vidéo de L'Anniversaire Par Arbitre Ruby!",
+   "summary": "A French-language freerealms.com news post announcing a video guide to the game's anniversary celebration, presented by Referee (Arbitre) Ruby, described as one of the game's best referees. It says the video covers birthday quests and the gifts found in the game, and that the festivities end on 10 May 2010. The post gives only a relative date ('1 year, 1 month ago' at capture), so the exact posting date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

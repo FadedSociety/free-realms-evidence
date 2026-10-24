@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imeika-dozen-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3159, 3943, 6, 1059] model=claude-haiku-5-5 -->
+# Meika Dozen
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The pack's 'mentioned_by_other_answers []' and 'Cross notes []' miss that the client quest text names Meika Dozen as a quest NPC: locale:75494 (quest_objective, 'Seaside Coco-Nuts!', 'Deliver to Meika Dozen') and locale:101365/101368 (quest_objective, 'Seaside Two Feet No Socks', 'Ask Meika and Swatch Dozen in Seaside...'). These show her role in quests, but they name no item she gives or sells, so they do not change the item answer.", "fix": "Add the quest-NPC role as context: she is a delivery target in 'Seaside Coco-Nuts!' (locale:75494) and a sock-question target in 'Seaside Two Feet No Socks' (locale:101365, 101368). Keep kind as NPC, no item sources, and wireable false."}]}

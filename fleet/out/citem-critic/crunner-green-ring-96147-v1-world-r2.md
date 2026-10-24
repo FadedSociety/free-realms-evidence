@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crunner-green-ring-96147-v1-world-r2 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[12886, 10080, 8, 1380] model=claude-haiku-5-5 -->
+# Runner Green Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The racer/derby link is weak. The 'Runner' name in notes/Research/Pieces/041 Racer and derby progression.md (line 49) belongs to Type 11 / CategoryId 127 vehicle rows, not to Type 1 accessory rings such as 30741 (Slot 8, Class 66). The answer's hypothesis is correctly marked unconfirmed, but it should say the family name match is to vehicles, not to this ring.", "fix": "Keep the item unsourced. Note that notes/Research/Pieces/041 (line 49) lists the 'Runner' name only for vehicle catalogue rows (Arrow Runner 61000/45), so it does not evidence a source for Type 1 ring 30741."}]}

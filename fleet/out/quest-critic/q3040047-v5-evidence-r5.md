@@ -1,0 +1,4 @@
+<!-- fleet job=quest-critic id=q3040047-v5-evidence-r5 status=no_submit turns=3 usd=0.0023 tokens(read,write,in,out)=[17989, 12384, 8, 1232] model=claude-haiku-5-5 -->
+# Card Duelist: To Catch a Sneak
+
+{"lens": "evidence", "pass": true, "score": 4, "problems": [{"field": "objectives / line / giver", "issue": "No problems found. I checked the title (locale:2571), the quest_dialog hint (locale:2583), the untagged hiding line (locale:436600), the wiki 'indirectly mentioned' entry, and the giver id 9000000522 in card_duelist.json:2288 and npcs_unresolved.json:4464. All match the answer's citations. The answer correctly holds the record as unsure and leaves giver, line, objectives and rewards empty instead of guessing.", "fix": "None required. Optional: note that locale:436600 is the untagged line that best matches this quest's hiding step, so a later pass that finds a link to it could resolve the objective."}]}

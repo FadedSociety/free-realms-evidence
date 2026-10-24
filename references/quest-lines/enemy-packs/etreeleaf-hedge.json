@@ -1,0 +1,52 @@
+{
+ "title": "Treeleaf Hedge",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\treeleaf_s_retreat.json"
+  },
+  {
+   "file": "dungeons\\treeleaf_s_retreat.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:5739 [item | - | Treeleaf Hedge] 'Treeleaf Hedge'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5599 [quest_dialog | - | Treeleaf Hedge] 'Treeleaf Hedge invaded the maze! Now his animated minions are threatening travelers! You must defeat Treeleaf Hedge!'",
+  "locale:5601 [quest_objective | - | Treeleaf Hedge] 'Defeat Treeleaf Hedge!'",
+  "locale:5602 [quest_objective | - | Treeleaf Hedge] 'Find Treeleaf Hedge within his retreat and defeat him.'",
+  "locale:5603 [quest_objective | - | Treeleaf Hedge] 'Knock out 50 Spikey Seedlings spawned by the Arboreants!'",
+  "locale:5604 [quest_objective | - | Treeleaf Hedge] 'Beware of the Vine Golem Wolves and Spiked Plants!  Knock out these creatures so they harm no one else.'",
+  "locale:5605 [quest_objective | - | Treeleaf Hedge] 'Knock out 10 Man-Eating Plants.'",
+  "locale:5606 [quest_dialog | - | Treeleaf Hedge] 'These teethy blossoms are a menace and should be stopped!  Help us weed out this problem.'",
+  "locale:5739 [item | - | Treeleaf Hedge] 'Treeleaf Hedge'"
+ ],
+ "client_cluster": [
+  "locale:5731 [item | - | Chocolate Truffle] 'Chocolate Truffle'",
+  "locale:5732 [other | - | Truffle trading] 'Truffles for trading? Let the truffle shuffle begin!'",
+  "locale:5733 [ability | - | Deathly Aura] 'Deathly Aura'",
+  "locale:5734 [npc_name | - | Hewey the Bear] 'Hewey the Bear'",
+  "locale:5735 [item | - | Angry Bear Profile] 'Angry Bear Profile'",
+  "locale:5737 [quest_dialog | - | Unga] \"So you managed to teach Unga a thing or two, eh?  Well it probably wasn't enough!  Heck, why I bet if I was there, I coulda showed you how to really teach that \"",
+  "locale:5739 [item | - | Treeleaf Hedge] 'Treeleaf Hedge'",
+  "locale:5740 [item | - | Astral Enchanted Fez] 'Astral Enchanted Fez'",
+  "locale:5742 [item | - | Eclipse Infused Fez] 'Eclipse Infused Fez'",
+  "locale:5744 [item | - | Elite Pink Eclipse Infused Fez] 'Elite Pink Eclipse Infused Fez'",
+  "locale:5745 [item | - | Astral Enchanted Shoes] '{n}Astral Enchanted Shoes{pl=\"Astral Enchanted Shoes\"}'",
+  "locale:5747 [item | - | Pro Wizard Shoes] '{n}Pro Wizard Shoes{pl=\"Pro Wizard Shoes\"}'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Wizard: A Twig From Treeleaf' (final): Defeat Treeleaf Hedge"
+ ]
+}

@@ -1,0 +1,20 @@
+<!-- fleet job=guide-refresh id=Client-Engine-Scripting-Lua status=done turns=21 usd=0.0204 tokens(read,write,in,out)=[524980, 50805, 44, 17514] model=claude-haiku-5-5 -->
+# notes/Build Guides/Client Engine/Scripting (Lua).md
+
+**Verdict:** The counts in the generated header are stale. The row-level content I spot-checked is current: about 60 rows across `lib.lua.api`, `script.lua`, `script.clientlua`, `script.gameevents`, `script.metrics`, `script.lobby` and the others match the label table in names, addresses and confidence. The narrative placeholder is accurate. The note is a generated file (`scripts/native_map/build_guides.py`, `write_guide`, lines 186-192), so the fix is to re-run that script, not to hand-edit.
+
+**Corrections:**
+
+1. `old:` 457 accepted functions: 96 confirmed, 180 likely, 118 speculative, 63 unknown. Network-linked (`wire`): 9.
+   `new:` 829 accepted functions: 164 confirmed, 483 likely, 118 speculative, 64 unknown. Network-linked (`wire`): 9.
+   `why:` client_sql over `label` (status='accepted', subsystem `script` / `script.*` / `lib.lua` / `lib.lua.*`, the set `build_guides.py` line 83 maps here) gives 829 rows: confirmed 164, likely 483, speculative 118, unknown 64. `wire` non-empty is 9 in the same set. The generator reads the same accepted labels (`build_guides.py:134-140`), so the 457 figure is a snapshot from before the mapping grew. The 829-row total is also stated in `Build Guides.md:63` (where the index shows 457), so that index line needs regenerating too.
+
+2. `old:` Subsystems: `script.lua` (257), `lib.lua.api` (73), `lib.lua.debug` (28), `lib.lua.aux` (27), `lib.lua.do` (22), `script.clientlua` (17), `lib.lua.object` (8), `script` (5), `script.metrics` (4), `lib.lua.loadlib` (4), `script.minigame` (3), `script.lobby` (3), `script.gameevents` (2), `script.quest` (1), `script.event` (1), `script.welcome` (1), `lib.lua.vm` (1)
+   `new:` Subsystems: `script.lua` (257), `lib.lua.api` (73), `lib.lua.parser` (51), `lib.lua.code` (47), `lib.lua.debug` (42), `lib.lua.aux` (31), `lib.lua.io` (30), `lib.lua.table` (29), `lib.lua.string` (29), `lib.lua.base` (28), `lib.lua.math` (27), `lib.lua.gc` (25), `lib.lua.do` (22), `script.clientlua` (17), `lib.lua.vm` (17), `lib.lua.lex` (17), `lib.lua.undump` (15), `lib.lua.loadlib` (13), `lib.lua.object` (12), `lib.lua.function` (10), `lib.lua.os` (7), `lib.lua.coroutine` (7), `script` (5), `script.metrics` (4), `lib.lua.memory` (3), `script.minigame` (3), `script.lobby` (3), `script.gameevents` (2), `script.welcome` (1), `script.quest` (1), `script.event` (1)
+   `why:` client_sql `label` subsystem counts (sum 829). Already-listed counts are right for `script.lua`, `lib.lua.api`, `script.clientlua`, `script`, `script.metrics`, `script.minigame`, `script.lobby`, `script.gameevents`, `script.quest`, `script.event`, `script.welcome`, `lib.lua.do`. The rest are stale: `lib.lua.vm` is 17 not 1, `lib.lua.loadlib` 13 not 4, `lib.lua.object` 12 not 8, `lib.lua.debug` 42 not 28, `lib.lua.aux` 31 not 27. Ties are in insertion order, so their relative order is not certain. Generator: `build_guides.py:139-142, 184, 192`.
+
+**Unsure:**
+- The table bodies are a 457-row snapshot. Current rows for `lib.lua.vm` (17), `lib.lua.loadlib` (13), `lib.lua.object` (12) and `lib.lua.debug` (42) are not all listed, e.g. `00e3f250` luaT_init, `00e3f5e0` luaV_gettable and `00e39180` findtable are missing or partial. Regenerating the note is the only reliable fix. I did not add or move rows by hand.
+- I read the counts from the client decompile database (`client_sql`, label table). I assume it is the same data as `lab/native-map/run/map.sqlite` that the generator reads. I could not open that file directly.
+- The `Build Guides.md` index line (`- [[Scripting (Lua)]] — 457 functions (96 confirmed, 180 likely)`, line 63) is outside this note. It has the same staleness.
+- Shard-link counts in "Source shards" and the Obsidian link targets (`S0146`, `S0382`, `UI Framework (GFC and XML)`) resolve to existing files; I did not verify each per-shard count.

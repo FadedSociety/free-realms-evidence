@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-inventory-rs-L1 status=done turns=9 usd=0.0117 tokens(read,write,in,out)=[159187, 31512, 20, 12353] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/inventory.rs lines 1-647 of 647
+
+Window `prototype/osfr-tools/tests/inventory.rs` 1-647 read in full. Checked against `src/inventory.rs` (`load` at ~385-474, `grant_with_tint` 962-1042, `item_update` 1484, `InventoryItem` 51-66) and the fixture `tests/fixtures/inventory-catalog-community-vectors.json` (exists). Most tests are sound: the item-update reply fields in `existing_reward_38_3...` match `item_update` (stored_count=1 is the field at offset 20), the community vector is an external fixture, and the state-unchanged checks are real. Three findings:
+
+- **[medium] tests/inventory.rs:506 patch_preserves_other_layers_and_rejects_changed_proven_spans - the name says changed proven spans are rejected, but only the items span is tampered with (line 514); coins and equipment spans are never altered.**
+- **Why it cannot catch a regression:** a change to `initialization_patch` that stops verifying the coins span (offset `coins_offset`) or the equipment span (offset `equipment_offset`) against their sha256 would still pass, because nothing in this test touches those bytes.
+- **Fix:** after line 515, add the same tamper-and-expect-error for `layered[f.coins_offset] ^= 1` and `layered[f.equipment_offset + 8] ^= 1` (each on a fresh copy of `f.packet`), each asserting `initialization_patch(...).is_err()`. Or rename the test to say only the items span is checked.
+
+- **[low] tests/inventory.rs:567 saved_equipment_cannot_bypass_class_or_slot_requirements - no positive control. The loop never first confirms that `Inventory::load(&f.path, Some(state))` succeeds with `equipment[0].item_id = 8` on the unmodified definition.**
+- **Why it cannot catch a regression:** if the fixture's equipped item 8 (definition 101, category 3, wield_type 0) were rejected for an unrelated reason (for example category/wield validation, or the state itself), the `is_err()` would still hold, so the test would pass without exercising the class or slot check it names.
+- **Fix:** before the mutation loop, assert `Inventory::load(&f.path, Some(state.clone())).is_ok()` with the unmodified definition, then mutate the definition and keep the `is_err()` check. That way the failure is attributable to the class or slot change.
+
+- **[low] tests/inventory.rs:608 private_captured_inventory_roundtrip_and_reward - magic offset and absolute coin value. `signed(&patched, 238) == 50` hard-codes a byte offset into the captured login packet and assumes the account started with zero coins, while the comment says "reward count and coins restored".**
+- **Why it cannot catch a regression:** unrelated changes to the captured packet layout or to starting coins would break it (churn), and a coin regression that also yields 50 from a different base would pass. The test is `#[ignore]`d with a reason, so this is not a silent skip.
+- **Fix:** read the pre-grant coin value from the state (or from `Inventory::load` before `grant`), assert the post-patch coin field equals `before + 50`, and locate the coin field via the `coins` span offset (`inventory.coins_offset`-style lookup) instead of the literal 238.

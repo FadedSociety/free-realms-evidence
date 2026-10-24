@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbordon-s-wind-necklace-96620-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[8331, 11157, 8, 1356] model=claude-haiku-5-5 -->
+# Bordon's Wind Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The sibling-set citations (locale:96487, locale:96499, and the Legacy line ranges 637176-637286 and 638118-638228) were not re-checked. The names I confirmed were Bordon's Fire, Sun, Light, Air and Void Necklaces (locale 96607, 96610, 96611, 96619, 96621). Locale 96499 and the Fire Ring at 96487 were not confirmed.", "fix": "Confirm locale:96487 and locale:96499 (lookup 'Bordon' returned only necklace strings for 96607-96621) before citing them as ring evidence, or drop the ring claim. The necklace siblings are supported by the client lookup."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmedium-dark-wooden-dining-chair-147717-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3793, 7087, 6, 1039] model=claude-haiku-5-5 -->
+# Medium Dark Wooden Dining Chair
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "Top-level \"live\": \"yes\" is stronger than the evidence. The only source is a repo store record (stores.json line 11989, item 36518, no_sale false) plus a client price of 50. No dated or in-game source confirms the chair is sold today, and the answer's own open list says retirement is unknown. The first-pass tag is only a hint.", "fix": "Set live to \"unknown\" or \"likely, unconfirmed\" and keep retired null, citing stores.json line 11989 (no_sale false) as the only current-status signal."}]}

@@ -1,0 +1,121 @@
+{
+ "title": "Ninja Brawl",
+ "names_seen": [
+  "Ninja Brawl"
+ ],
+ "facts": [
+  {
+   "statement": "Community Event Ninja Brawl is a scheduled gathering where players duel other players; players must be present at the scheduled time and place, send duel requests and accept requests received.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Once you are there the goal is to duel. Send duel requests to other players and accept any requests you get.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1391",
+   "date": null
+  },
+  {
+   "statement": "A Ninja Brawl was scheduled for Thursday May 13th, 2010 at 3pm Pacific Time for U.S. and Latin America, on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday May 13th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1391",
+   "date": null
+  },
+  {
+   "statement": "A second Ninja Brawl was listed for UK and Europe at 9:00am Pacific / 6:00pm GMT on Server 1, but the page labels its date as Friday April 14th, 2010, which conflicts with the May date and the weekday; the date is unreliable.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_gmt": 18
+   },
+   "era": "live",
+   "quote": "Friday April 14th, 2010 9:00am Pacific Time / 6:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1391",
+   "date": null
+  },
+  {
+   "statement": "Ninja Brawl was a community event in which ninjas gathered at a scheduled time and place to duel other players.",
+   "numbers": {},
+   "era": "live",
+   "quote": "It's called a \"Ninja Brawl\" and you are invited.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2029",
+   "date": null
+  },
+  {
+   "statement": "The first Ninja Brawl session was on Thursday February 17th, 2011 at 3pm Pacific Time for U.S. and Latin America, on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday February 17th, 2011 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2029",
+   "date": null
+  },
+  {
+   "statement": "A second Ninja Brawl session was on Friday February 18th, 2011 at 9:00am Pacific Time (4:00pm GMT) for UK and Europe, on Server 1.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday February 18th, 2011 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2029",
+   "date": null
+  },
+  {
+   "statement": "Ninja Brawl 2 was a community event where players gathered to duel one another at a scheduled time and place.",
+   "numbers": {
+    "start_hour_pacific": 12,
+    "end_hour_pacific": 14
+   },
+   "era": "live",
+   "quote": "It's called a \"Ninja Brawl\" and you are invited.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=311",
+   "date": null
+  },
+  {
+   "statement": "Ninja Brawl 2 was held on Friday September 11, 2009 on Server 1 at Shrouded Glade, from 12pm to 2pm Pacific Time.",
+   "numbers": {
+    "date_day": 11,
+    "date_month": 9,
+    "date_year": 2009,
+    "start_hour_pacific": 12,
+    "end_hour_pacific": 14
+   },
+   "era": "live",
+   "quote": "Friday September 11th, 2009 12pm – 2pm Pacific Time Server 1 Shrouded Glade",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=311",
+   "date": null
+  },
+  {
+   "statement": "During a Ninja Brawl, participants send duel requests to other players and accept incoming requests; the brawl ends the gathering until the next one is announced.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Send duel requests to other players and accept any requests you get.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=311",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1391",
+   "date": null,
+   "title": "Free Realms - What is New? (Community Event: Ninja Brawl)",
+   "summary": "A Free Realms community event page announcing the 'Ninja Brawl', a scheduled duel gathering where players send duel requests to each other at a set time on Server 1. It also explains how to qualify as a ninja by speaking to Ty in Lakeshore and how to find events via the Game Guide calendar."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2029",
+   "date": null,
+   "title": "Community Event: Ninja Brawl",
+   "summary": "A community event page announcing a Ninja Brawl, where players gather in Shrouded Glade at scheduled times to duel each other by sending and accepting duel requests. The page also explains that players with combat skills from another job (such as Warrior or Brawler) can become a ninja by speaking to Ty in Lakeshore and passing his tests. The post date is not shown; it is only given relative to the capture date, so the exact posting date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=311",
+   "date": null,
+   "title": "Community Event: Ninja Brawl 2",
+   "summary": "A community event page announcing Ninja Brawl 2, a scheduled player-vs-player dueling gathering on Server 1 at Shrouded Glade on Friday September 11, 2009, 12pm–2pm Pacific. It also explains that players with combat skills from another job (such as Warrior or Brawler) can become a ninja by passing tests from Ty in Lakeshore. The page's exact posting date is not shown (only a relative 'posted 2 days, 21 hours ago' against the capture date)."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

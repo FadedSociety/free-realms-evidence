@@ -1,0 +1,157 @@
+{
+ "title": "Hooligan",
+ "our_entries": [
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930050,
+   "model_id": 203,
+   "max_health": 220,
+   "damage": 8,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930050,
+   "model_id": 489,
+   "max_health": 220,
+   "damage": 8,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930050,
+   "model_id": 489,
+   "max_health": 220,
+   "damage": 8,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930050,
+   "model_id": 203,
+   "max_health": 220,
+   "damage": 8,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930050,
+   "model_id": 203,
+   "max_health": 220,
+   "damage": 8,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930050,
+   "model_id": 203,
+   "max_health": 220,
+   "damage": 8,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930050,
+   "model_id": 203,
+   "max_health": 220,
+   "damage": 8,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930060,
+   "model_id": 203,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930060,
+   "model_id": 203,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930060,
+   "model_id": 203,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100401,
+   "definition_id": 930060,
+   "model_id": 203,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  }
+ ],
+ "entry_count": 11,
+ "client_name_matches": [
+  "locale:20483 [npc_name | Croaking Vale | Hooligan] 'Hooligan'",
+  "locale:5100401 [npc_name | - | Hooligan] 'Hooligan'",
+  "locale:5100402 [npc_name | - | Hooligan | FLAG duplicate: same as 5100401] 'Hooligan'",
+  "locale:5100403 [npc_name | - | Hooligan | FLAG duplicate: same as 5100401] 'Hooligan'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:20483 [npc_name | Croaking Vale | Hooligan] 'Hooligan'",
+  "locale:423076 [ability | - | Hooligan] 'Hooligan Hammer Smash'",
+  "locale:423077 [ability | - | Hooligan] 'hooligan tier 2 - hammer smash extra attack'",
+  "locale:423078 [ability | - | Hooligan] 'Hooligan Spinning Attack'",
+  "locale:423082 [ability | - | Hooligan] 'Hooligan Leg Sweep'",
+  "locale:5100400 [npc_name | - | Hooligan] 'Hooligan Archer'",
+  "locale:5100401 [npc_name | - | Hooligan] 'Hooligan'",
+  "locale:5100402 [npc_name | - | Hooligan | FLAG duplicate: same as 5100401] 'Hooligan'",
+  "locale:5100403 [npc_name | - | Hooligan | FLAG duplicate: same as 5100401] 'Hooligan'"
+ ],
+ "client_cluster": [
+  "locale:20475 [quest_objective | Croaking Vale | Vine Golem Bear] 'Knock out 5 Vine Golem Bears.'",
+  "locale:20476 [quest_objective | Croaking Vale | Lost Pigs] 'Rescue the Lost Pigs.'",
+  "locale:20477 [quest_objective | Croaking Vale | Lost Pigs] 'Herd the lost Pigs out of the Vale.'",
+  "locale:20482 [npc_name | Croaking Vale | Mongo] 'Mongo'",
+  "locale:20483 [npc_name | Croaking Vale | Hooligan] 'Hooligan'",
+  "locale:20486 [npc_name | Croaking Vale | Pink Toad] 'Pink Toad'",
+  "locale:20487 [ability | Croaking Vale | Vine Golem Wolf] 'Spinning Blades for Vine Golem Wolf'",
+  "locale:20489 [npc_name | Croaking Vale | Robgoblin Warrior] 'Robgoblin Warrior'",
+  "locale:20490 [npc_name | Croaking Vale | Rogoblin Caster] 'Rogoblin Caster'",
+  "locale:20491 [npc_name | Croaking Vale | Troll Grunt] 'Troll Grunt'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:3jLPsxADZ1w/00076.jpg (-): npcs: Rowdy Hooligan nameplate  Hooligan Bully nameplate  | quest: Local Hero  Defeat the Hooligan Bullies - 4/10  | landmarks: large blue rock wall | job_level: Medic 19",
+  "video:3jLPsxADZ1w/00140.jpg (-): npcs: Hooligan Bully nameplate  | quest: Local Hero  Defeat the Hooligan Bullies - 9/10  | landmarks: blue rock hills tree | job_level: Medic 19 | other_text: Local Hero Defeat the Hooligan Bullies - 9/10",
+  "video:3jLPsxADZ1w/00080.jpg (-): npcs: Hooligan Bully nameplate  | quest: Local Hero  Defeat the Hooligan Bullies - 5/10  | landmarks: large tree trunk blue rocks | job_level: Medic 19 | other_text: Goal Update Local Hero Defeat the Hooligan Bullies - 5/10",
+  "video:3jLPsxADZ1w/00088.jpg (-): quest: Local Hero  Defeat the Hooligan Bullies - 6/10 Stand up to the bullies!  | landmarks: blue rock outcrops dark tree trunks | job_level: Medic 19 | other_text: Local Hero Defeat the Hooligan Bullies - 6/10 Hooligan Bully",
+  "video:3jLPsxADZ1w/00138.jpg (-): npcs: Hooligan Bully nameplate  | quest: Local Hero  Defeat the Hooligan Bullies - 9/10  | landmarks: blue rock hills large tree | job_level: Medic 19 | other_text: Goal Update Local Hero Defeat the Hooligan Bullies - 9/10 -127 (damage number)"
+ ],
+ "article_facts": [
+  "fact:mechanic: Hooligan Leader and Robgoblin Bruiser can play 1-cost creatures for free. | the ability of both Hooligan Leader and Robgoblin Bruiser to play those creatures for free (http://www.freerealms.com:80/article/detail.action?articleId=135)",
+  "fact:item: Hooligan Leader is a card with a similar power-up that lets you play only a cost-1 creature. | Other creatures with similar power-ups include Hooligan Leader and Robgoblin Bruiser. (http://www.freerealms.com:80/article/detail.action?articleId=209)",
+  "fact:card: Hooligan Leader has 4 attack, 4 defense and Collect 3: +2 attack; described as a solid card in Chaos decks. | \"Collect 3: +2 attack\" – which, on top of his 4 attack and 4 defense (http://www.freerealms.com:80/article/detail.action?articleId=186)",
+  "fact:mechanic: Unlike the Invading Bixie Elite, the cards Hooligan Leader, Robgoblin Bruiser and Tipping the Hive do not destroy the free creature automatically at end of turn. | Besides, these creatures aren't automatically destroyed at the end of your turn. (http://www.freerealms.com:80/article/detail.action?articleId=209)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Fighting the Pack' (final): Learn how to use your weapon by fighting Hooligan Wolves.",
+  "defeat target in 'Contract: All Around Win' (final): As an archer, defeat Hooligan Delinquents that wander the wilderness, and some Unruly Bixies in the Bixie Hive. Return t",
+  "defeat target in 'Archer: No Bow, No Work!' (final): While you're in there, defeat a few Hooligan Archers!",
+  "defeat target in 'Brawler: Delinquent Dilemma' (final): Defeat the Hooligan Delinquents south of Jones to recover the artifacts they stole from him.",
+  "collect target in 'Medic: Supply Recovery' (final): As a medic, get the Medical Supplies from the hooligans!",
+  "defeat target in 'Fighting off the Pack' (final): Learn how to use your weapon by fighting Hooligan Wolves."
+ ]
+}

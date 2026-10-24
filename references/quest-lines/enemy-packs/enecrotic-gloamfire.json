@@ -1,0 +1,43 @@
+{
+ "title": "Necrotic Gloamfire",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\necronomicus_unleashed.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:5100693 [ability | - | Necrotic Gloamfire] 'Necrotic Gloamfire'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5100693 [ability | - | Necrotic Gloamfire] 'Necrotic Gloamfire'",
+  "locale:5100694 [ability | - | Necrotic Gloamfire] \"Burns an opponent with Gloamfire. Nearby opponents also catch fire. Necronomicus' signature magic blast. \""
+ ],
+ "client_cluster": [
+  "locale:5100685 [npc_name | - | Sheila | FLAG duplicate: same as 5100684] 'Sheila'",
+  "locale:5100686 [other | - | Necronomicus Buff Package 1] 'Necronomicus Buff Package 1'",
+  "locale:5100687 [other | - | Necronomicus Buff Package 1 | FLAG dev_note: [dev] buff package note] '[dev]Buff Package of Region 2 Boss'",
+  "locale:5100688 [other | - | Necronomicus Buff Package 2] 'Necronomicus Buff Package 2'",
+  "locale:5100689 [other | - | Necronomicus Buff Package 2 | FLAG dev_note: [dev] buff package note] '[dev]Buff Package of Region 2 Boss'",
+  "locale:5100690 [other | - | Necronomicus Buff Package 3] 'Necronomicus Buff Package 3'",
+  "locale:5100691 [other | - | Necronomicus Buff Package 3 | FLAG dev_note: [dev] buff package note] '[dev]Buff Package of Region 2 Boss'",
+  "locale:5100692 [other | - | Hooligan Gate Blocker] 'Hooligan Gate Blocker'",
+  "locale:5100693 [ability | - | Necrotic Gloamfire] 'Necrotic Gloamfire'",
+  "locale:5100694 [ability | - | Necrotic Gloamfire] \"Burns an opponent with Gloamfire. Nearby opponents also catch fire. Necronomicus' signature magic blast. \"",
+  "locale:5100695 [ability | - | Necrotic Gloamfire Splash] 'Necrotic Gloamfire Splash'",
+  "locale:5100696 [ability | - | Necrotic Gloamfire Splash] 'Splash damage inflcited if a nearby ally is struck by Necrotic Gloamfire.'",
+  "locale:5100697 [item | - | Flame Trap!] 'Flame Trap!'",
+  "locale:5100698 [other | - | Flame Trap! | FLAG dev_note: [dev] TCG5 loot tag] '[dev]TCG5 Loot - Housing Fixture - Flame Trap'",
+  "locale:5100699 [item | - | Shock Trap!] 'Shock Trap!'",
+  "locale:5100700 [other | - | Shock Trap! | FLAG dev_note: [dev] TCG5 loot tag] '[dev]TCG5 Loot - Housing Fixture - Shock Trap'",
+  "locale:5100701 [item | - | Spike Trap!] 'Spike Trap!'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

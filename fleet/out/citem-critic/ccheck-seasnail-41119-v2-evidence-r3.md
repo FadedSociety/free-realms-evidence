@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccheck-seasnail-41119-v2-evidence-r3 status=done turns=4 usd=0.0031 tokens(read,write,in,out)=[31836, 15832, 10, 1703] model=claude-haiku-5-5 -->
+# Check Seasnail
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The answer omits the catalogue's item_link field. Every entry of collection 115 (including item 3903, collection_catalogue.json:9559) carries \"item_link\": \"sanctuary\". This is a catalogue link tag, not an acquisition route, so it does not change the wireable verdict, but the answer should mention it and say it is unexplained.", "fix": "Add to evidence: 'collection_catalogue.json:9559 sets item_link \"sanctuary\" on entry 1 (same on all 8 entries); meaning unknown, not an acquisition source.'"}]}

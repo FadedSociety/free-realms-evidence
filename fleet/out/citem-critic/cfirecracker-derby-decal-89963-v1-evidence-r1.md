@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfirecracker-derby-decal-89963-v1-evidence-r1 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11821, 9353, 8, 1202] model=claude-haiku-5-5 -->
+# Firecracker Derby Decal
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] (Articles post 199)", "issue": "The claim that article 199 says racing and derby decals were added to the store could not be confirmed. A lookup of the articles index for 'Firecracker Derby Decal' returned only the two client lines, so the article text was not seen in this pack. The claim is cited only as a URL.", "fix": "Either re-read articleId=199 and quote the sentence, or drop the claim. It does not change the answer, since the answer already says it names no source and no price."}]}

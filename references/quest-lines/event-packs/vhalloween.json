@@ -1,0 +1,36 @@
+{
+ "title": "Halloween",
+ "names_seen": [
+  "Halloween"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms ran Halloween content in October 2009, with more costumes, gear, decorations and quests promised between the post and the 31st.",
+   "numbers": {
+    "end_day": 31
+   },
+   "era": "live",
+   "quote": "Free Realms has a lot of great stuff planned between now and the 31st.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=457",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=457",
+   "date": null,
+   "title": "Halloween Around the Corner!",
+   "summary": "A freerealms.com news post announcing Halloween 2009 content: the first seasonal costumes went on sale in the Station Cash marketplace, including a limited edition Wolfman costume that the post says will not return once sold out. It promises more costumes, gear, decorations and quests through the month, ending October 31."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "A Dark Future (unresolved, live yes)",
+  "A Formal Report (final, live yes)",
+  "Bag Snatchers (final, live yes)",
+  "Candy Gram (final, live yes)",
+  "Delicious Goo'd Candy (final, live yes)",
+  "Halloween Fanatic (final, live yes)",
+  "The Great Scare (final, live unsure)"
+ ]
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwedding-ring-66914-v2-evidence-r3 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3828, 4972, 6, 927] model=claude-haiku-5-5 -->
+# Wedding Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (wiki 'List of Collections' '[Diamond] [Rings]')", "issue": "My lookup of 'Diamond Rings collection wedding ring' across client, wiki and articles returned no matches, so I could not re-confirm the wiki hit. The answer already labels it weak support, so this is a minor gap rather than a false claim.", "fix": "Either re-verify the 'List of Collections' page text for 'Diamond Rings' or drop the wiki line from evidence. The collection claim itself rests on repo collection_catalogue.json lines 12594-12629, which I confirmed: collection id 162, name_id 67528, entry index 3 = name_id 66914 / item_definition_id 23301, item_link 'sanctuary'."}]}

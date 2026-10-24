@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbraided-yeti-beard-23235-v1-evidence-r1 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[14525, 11305, 8, 1107] model=claude-haiku-5-5 -->
+# Braided Yeti Beard
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0]", "issue": "The claim 'Slot 0' does not appear in the client definition record. ClientItemDefinitions.json lines 50657-50673 have Id 2723, Type 1, NameId 23235, DescriptionId 1114, Icon 678, Cost 4, Class 9, MaxStackSize -1, MinProfileRank 1, TintAlias dyetint, MemberDiscount 10, CategoryId 43, and no Slot field. The pack's slots [0] is a default or derived value, not a record field.", "fix": "Drop 'Slot 0' from the definition claim, or label it as a default. Everything else in that claim matches the record. The Cost 4 field is a raw value, not a confirmed coin price, as the answer's own open item says."}]}

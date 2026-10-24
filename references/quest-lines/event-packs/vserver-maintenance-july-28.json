@@ -1,0 +1,39 @@
+{
+ "title": "Server maintenance, July 28, 2010",
+ "names_seen": [
+  "Server maintenance, July 28, 2010"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms servers were taken offline on the evening of July 28, 2010 for a small update, with downtime starting sometime after 9pm PDT.",
+   "numbers": {
+    "start_hour_pdt": 21
+   },
+   "era": "live",
+   "quote": "The servers will be unavailable sometime after 9pm PDT for 2-4 hours.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1711",
+   "date": "2010-07-28"
+  },
+  {
+   "statement": "The July 28, 2010 maintenance was expected to last 2 to 4 hours, with servers restored after testing was completed.",
+   "numbers": {
+    "min_hours": 2,
+    "max_hours": 4
+   },
+   "era": "live",
+   "quote": "We will bring everything back online as soon as we have completed testing.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1711",
+   "date": "2010-07-28"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1711",
+   "date": "2010-07-28",
+   "title": "Maintenance Notice - July 28th, 2010",
+   "summary": "A freerealms.com notice announcing that the servers would go offline on the evening of July 28, 2010 for a small update. The page gives no patch contents, only the downtime window and that the game would return once testing was complete."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

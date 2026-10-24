@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iingrid-v1-evidence-r1 status=done turns=3 usd=0.0011 tokens(read,write,in,out)=[8107, 4505, 8, 963] model=claude-haiku-5-5 -->
+# Ingrid
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / retired", "issue": "Ingrid is an NPC vendor, not an item, so the item record has no source rows. The answer says so honestly. The wiki page confirms she is a pixie merchant near the Stillwater Crossing Cooking Table and lists her stock with no prices. Checked: locale 5102507 = 'Ingrid' (npc_name), and the wiki's Merchants list also places her at Stillwater Crossing.", "fix": "No change to the claims. Optional: note that the wiki's Merchants page lists her among Chef merchants at Cooking Tables (wiki page 'Merchants'), which supports the vendor framing. The stock items can be re-sourced individually if wanted; none has a price in any evidence here."}]}

@@ -1,0 +1,6 @@
+<!-- fleet job=citem-critic id=cn-pro-demo-derby-pants-pl-pro-demo-derby-pants-29026-v2-evidence-r3 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3988, 7958, 6, 1205] model=claude-haiku-5-5 -->
+# {n}Pro Demo Derby Pants{pl="Pro Demo Derby Pants"}
+
+```json
+{"lens": "evidence", "pass": false, "wireable": true, "score": 3, "problems": [{"field": "evidence[3].claim", "issue": "Cites locale:829681851, which does not exist (the automatic id check confirms this). The answer says the id is dropped in the open notes, but the evidence entry still carries it.", "fix": "Delete the locale:829681851 reference from evidence[3]. Keep only the Paws 'n Claws ids 393424 and 431944, which the answer already marks as unlinked to this item."}, {"field": "evidence[2]", "issue": "Claims that Pro boots and Pro jacket are rank rewards and that Rookie, Expert, All-Star and Amateur pants are rank gear, citing piece_041.rs:155-176. I did not open that file, so this claim is unverified here. The locale names match (28990, 29003, 29071, 69389 exist), but the rank-reward mapping is not confirmed.", "fix": "Verify piece_041.rs:155-176 before relying on it, or drop the rank-reward wording and state only that no job-level source is evidenced."}]}
+```

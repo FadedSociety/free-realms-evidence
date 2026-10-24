@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ipear-jam-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3238, 6691, 6, 1170] model=claude-haiku-5-5 -->
+# Pear Jam
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "The answer does not mention that repo notes conflict on Pear Jam's location. NPCs - Snowhill.md:160 and :216 say the wiki Snowhill page lists Pear Jam and that he is not in the Snowhill tables, while the wiki Pear Jam page and NPCs - Wilds.md:37 place him in the Wilds Roadhouse. The Roadhouse placement is well supported, so the answer's conclusion holds, but the conflict is unrecorded.", "fix": "Add a note: 'Wiki Snowhill NPC list includes Pear Jam (repo: NPCs - Snowhill.md:216); the Pear Jam wiki page and client quest text (locale:71283) place him at the Roadhouse in the Wilds.'"}]}

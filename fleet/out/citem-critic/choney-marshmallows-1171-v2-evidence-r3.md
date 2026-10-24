@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=choney-marshmallows-1171-v2-evidence-r3 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[14692, 10755, 8, 1498] model=claude-haiku-5-5 -->
+# Honey Marshmallows
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The detail says 'Price 1 (Station Cash units)', which reads as if the unit were established. The Legacy bundle record only shows Price 1, AltCurrencyPrice 1 and CurrencyType 1. The cash amount is still unconfirmed, and the answer's own open list says so.", "fix": "Keep the price as the raw field value 'Price 1, AltCurrencyPrice 1, CurrencyType 1 (StationCash), for a 3-pack of 4012' (StoreBundles.json:39540-39545, 39556-39560). State that the unit is unconfirmed. CurrencyType 1 = StationCash is verified in Lxzxrus-Free-Realms-Server/src/Sanctuary.Game/Resources/Definitions/Rewards/CurrencyType.cs (Coins=0, StationCash=1)."}]}

@@ -1,0 +1,59 @@
+{
+ "title": "Festival de Corazones semi-formal dance (Festival of Hearts Semi-Formal)",
+ "names_seen": [
+  "Festival de Corazones semi-formal dance (Festival of Hearts Semi-Formal)"
+ ],
+ "facts": [
+  {
+   "statement": "A community semi-formal dance for the Festival of Hearts was held on Friday 12 February 2010, with players asked to wear the Festival of Hearts outfit or a dress or suit bought from the catalog.",
+   "numbers": {
+    "event_date_year": 2010,
+    "event_date_month": 2,
+    "event_date_day": 12
+   },
+   "era": "live",
+   "quote": "Viernes 12 de febrero del 2010",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=960",
+   "date": null
+  },
+  {
+   "statement": "The Americas and Latin America session of the dance started at 15:00 Pacific time on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "15 hrs. Tiempo Pacifico (EE.UU. y Latino América) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=960",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session of the dance started at 09:00 Pacific time (18:00 European time) on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "start_hour_european": 18
+   },
+   "era": "live",
+   "quote": "0900 hrs. Tiempo Pacifico / 18 hrs. Tiempo Europeo (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=960",
+   "date": null
+  },
+  {
+   "statement": "Players were told to bring portable radios and dance; the event was framed as a fun party in which Stone Heart (Corazón Pétreo) would be sent home if he showed up.",
+   "numbers": null,
+   "era": "live",
+   "quote": "Si Corazón Pétreo aparece, lo mandaremos a su casa",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=960",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=960",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This Spanish-language Free Realms page announces a community semi-formal dance party, the \"Festival de Corazones\" (Festival of Hearts), on Friday 12 February 2010, with separate times for the Americas and for UK/Europe, both on Server 1. It also explains how players find community events through the in-game Game Guide calendar and its Go button. The page's own post date is not shown; only the event date is given."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

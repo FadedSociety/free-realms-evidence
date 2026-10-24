@@ -1,0 +1,72 @@
+{
+ "title": "Chugawump",
+ "our_entries": [
+  {
+   "file": "dungeons\\chugawump.json",
+   "definition_id": 930003
+  },
+  {
+   "file": "dungeons\\chugawump.json",
+   "definition_id": 930003
+  },
+  {
+   "file": "npcs/briarwood.json",
+   "npc_id": 9500000103,
+   "zone": "Briarwood",
+   "enemy_kind": "Boss duelist.",
+   "location_evidence": [
+    "Briarheart (Chugawump page). [video: dialog header, Huk5snVvXMI/00006]"
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:72862 [npc_name | Snowhill | Chugawump] 'Chugawump'",
+  "locale:93262 [quest_title | - | Chugawump!] 'Chugawump!'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:72862 [npc_name | Snowhill | Chugawump] 'Chugawump'",
+  "locale:72921 [quest_objective | Briarwood | Chugawump] 'Defeat Chugawump in Briarwood.'",
+  "locale:72922 [quest_objective | - | Chugawump] 'Defeat Chugawump'",
+  "locale:72923 [quest_objective | - | Chugawump] 'Knock out Chugawump in single combat.'",
+  "locale:72930 [quest_objective | - | Chugawump] \"Bonus - Don't get knocked out\"",
+  "locale:72931 [quest_dialog | - | Chugawump] 'Can you stand alone against Chugawump?'",
+  "locale:72932 [quest_objective | - | Chugawump] 'Return to Chugawump'",
+  "locale:72933 [quest_objective | - | Chugawump] 'Speak to Chugawump when the battle is over.'",
+  "locale:140061 [quest_dialog | - | Chugawump] 'Chugawump challenges you to a test of strength! Defeat him!'",
+  "locale:140063 [quest_dialog | - | Chugawump] 'Chugawump wants to test your combat prowess. Defeat him if you can!'",
+  "locale:423162 [other | - | Chugawump] 'Chugawump put up a shield and is taking less damage!'",
+  "locale:423163 [other | - | Chugawump] 'Chugawump lowers his shield and is causing more damage!'",
+  "locale:423164 [ability | - | Chugawump] 'Chugawug Shield'",
+  "locale:423165 [other | - | Chugawump | FLAG dev_note: internal boss ability description] 'chugawump - boss defensive ability'",
+  "locale:423166 [ability | - | chugawump] 'Chugawug Rage'",
+  "locale:423167 [other | - | chugawump | FLAG placeholder: \"place holder\" text] 'chugawump - place holder'",
+  "locale:423168 [ability | - | chugawump] 'Chugawug Anger'",
+  "locale:423169 [other | - | chugawump | FLAG dev_note: internal design note] 'chugawump - damage buff, like muggenstomps'"
+ ],
+ "client_cluster": [
+  "locale:72854 [quest_title | - | So Long Sampson | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - So Long Sampson!'",
+  "locale:72855 [quest_objective | Darvon's Descent | Sampson Idlefist] \"Sampson has challenged you to a duel in Darvon's Descent. Show him who the real Brawler is!\"",
+  "locale:72856 [quest_dialog | Snowhill | Brawler: Reputation Regained] 'You defeated Sampson Idlefist? I cannot believe it!'",
+  "locale:72859 [quest_dialog | Snowhill | Test Your Mettle] \"Meet me in Darvon's Descent and I will show you how a true Brawler fights!\"",
+  "locale:72862 [npc_name | Snowhill | Chugawump] 'Chugawump'",
+  "locale:72863 [quest_dialog | Snowhill | Test Your Mettle] \"Stand tall, soldier! This is no time to be slackin' off. I'm always on the lookout for someone to fight, to <font color='#d9781a'>test my skills in combat</font\"",
+  "locale:72866 [quest_reward | Snowhill | Test Your Mettle] \"Impressive! I've fought many battles since becoming a soldier and I've never lost before!<BR><BR>Good on ya soldier! Here, take this as a reward and a reminder \"",
+  "locale:72867 [quest_dialog | Snowhill | Brawler: Reputation Regained] \"Your heroic actions have helped not just Snowhill, but all of Sacred Grove! <BR><BR>Please let <font color='#D9781A'>Jeni</font> know that she is free to leave,\"",
+  "locale:72868 [quest_title | Snowhill | Brawler: Reputation Regained] 'Brawler: Reputation Regained'",
+  "locale:72869 [quest_objective | Snowhill | Brawler: Reputation Regained] 'Mayor Crystalline wants you to let Jeni Shortfuse know that Sacred Grove is indebted to you both and that she is now officially free of ice troll duty!'",
+  "locale:72870 [quest_dialog | Snowhill | Test Your Mettle] \"Jeni told you about our Brawler Club? That must mean two things. You're one heck of a Brawler, and Jeni obviously forgot the rules.\""
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Chugawump"
+ ],
+ "video": [
+  "video:Huk5snVvXMI/00054.jpg (-): quest: Test Your Mettle  Defeat Chugawump Return to Mugred You receive 11 stars and 13 coins | other_text: Goal Complete Test Your Mettle Defeat Chugawump Chugawump Goals (1) 00:54:89",
+  "video:Huk5snVvXMI/00008.jpg (-): dialog: Chugawump: So you have decided to accept my challenge. Good! I'm pretty sure I'll win but give it your best try anyway! | quest: Test Your Mettle  Defeat Chugawump  | other_text: Chugawump Goals (1) 00:08:73",
+  "video:Huk5snVvXMI/00020.jpg (-): quest: Test Your Mettle  Defeat Chugawump  | other_text: You can't use abilities when you are knocked out! Knocked Out! Recover In 9 Seconds Goals (1) Defeat Chugawump You can't use abilities when you are knocked out!",
+  "video:Huk5snVvXMI/00006.jpg (-): npcs: Chugawump dialog_header  | dialog: So you have decided to accept my challenge. Good! I'm pretty sure I'll win but give it your best try anyway! Stand tall, soldier! This is no time to be dozin' off. I'm always on the lookout for someone to fight, so test my skills in combat"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

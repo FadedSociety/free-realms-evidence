@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-honey-necklace-96189-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3618, 7903, 6, 854] model=claude-haiku-5-5 -->
+# Dull Honey Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live / open", "issue": "Live status is left as 'unsure' and the jev 'live yes' is not used. This is an honest unknown, not an error. My own lookups found no wiki, article, video, vendor, quest or drop naming the item, and no retired-category evidence for it.", "fix": "No change required. Keep live as unknown until a source is found. A possible later check is the 'Dull' necklace family in FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json (Comment 'Dull Honey Necklace', Id 30783) against any vendor or recipe data, which I did not find."}]}

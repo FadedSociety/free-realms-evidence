@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgoldenseal-408300-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3694, 7857, 6, 939] model=claude-haiku-5-5 -->
+# Goldenseal
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "The answer sets kind to 'other' while its own evidence calls the item a plant/harvest ingredient. The 'ingredient' reading is inference from the name cluster and definition pattern, not a stated client type. The evidence pack shows no description and no category field to confirm it.", "fix": "Keep kind 'other' and label the ingredient role as unconfirmed. The client definition (68115, Type 1, no Cost) supports only 'not a coin-store vendor item'. Confirm the role from a harvest node or recipe table before naming it an ingredient."}]}

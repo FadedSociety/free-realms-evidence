@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=irecruit-agga-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3265, 8998, 6, 1294] model=claude-haiku-5-5 -->
+# Recruit Agga
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer never mentions the one item tied to this NPC in the client data. Locale 72206 is typed item and reads \"Agga's bucket\", and the quest objective \"Borrow Recruit Agga's bucket\" (locale 72183/72184) is part of the Briarwood archery quest. The bucket is a quest object he lends out, not a reward or vendor item he gives, so it is not a source for this NPC. It is still the closest item in the data and should be listed as a related item the builder might have meant.", "fix": "Note: locale:72206 item \"Agga's bucket\" (quest objects 72183/72184, 'Borrow Recruit Agga's bucket', she practices archery near Gorg's camp). Not an acquisition source for Recruit Agga; it is a quest item."}]}

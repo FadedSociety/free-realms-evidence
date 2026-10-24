@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-24470 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2948, 4, 591] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin error page from the Free Realms fan forum, not an article. It says the visitor has exceeded the maximum number of posts they can view and asks them to register. The only Free Realms references are forum navigation labels, so it gives a rebuilder no game facts.", "facts": [], "quests": [], "uncertain": ["The captured page contains no thread content; the intended thread (URL p=24470) was not preserved.", "Forum section names such as 'Items', 'Jobs/Classes' and 'Membership / Stationcash' appear only as navigation and were not treated as facts."]}

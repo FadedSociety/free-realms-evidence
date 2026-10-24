@@ -1,0 +1,10 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-051-rs-L1 status=done turns=8 usd=0.0103 tokens(read,write,in,out)=[126335, 38365, 18, 8447] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_051.rs lines 1-447 of 447
+
+I read all of `piece_051.rs` lines 1-447 and found no runtime defect. Nothing in the window is reachable from a client packet: `parse_models_txt` reads the preserved `Resources/Models.txt`, and `validate_actor`/`APPLIED_ENEMIES` are used only by the piece's own tests. The parser's field indexing is guarded by the `fields.len() < 17` check (line 267), and its `parse` errors are mapped rather than unwrapped. The one doc-level finding is below.
+
+**[low] prototype/osfr-tools/src/restoration/piece_051.rs:8-10 - the module doc says the original model table has 27 combat-descriptor rows (Halloween Combat NPC = 8), but the shipped table has 20 (Halloween = 1).**
+- Failure scenario: a maintainer trusts the doc's "Exactly 27" and "Halloween Combat NPC (8)" when reviewing or extending the enemy catalogue, and is misled about how many original enemy models exist. No code path changes behaviour, because `is_enemy_model` and the parser do not use the count.
+- Reach: documentation only. No packet or save input is involved. The tests use a 12-row fixture and assert `flagged == [4, 5, 62, 88, 314]` (tests/piece_051.rs:144), so they do not catch the count.
+- Evidence: an exact-descriptor search of the shipped `Resources/Models.txt` (client root, and the copies under refs/TCG-Files and refs/Sanctuary) finds 17 `Combat NPC` rows, 2 `Combat NPC: Forest Giant*` rows (ids 70 and 75), and 1 `Halloween Combat NPC` row (id 3293). That is 20 rows in total. A search for "Halloween" finds no other Halloween descriptor. The doc's "3743 rows" total was not checked.
+- Fix: correct the doc to "20 rows: Combat NPC (17), Forest Giant (1), Forest Giant Boss (1), Halloween Combat NPC (1)", or re-derive the count from the preserved table if the doc is right and the copy I searched is incomplete.

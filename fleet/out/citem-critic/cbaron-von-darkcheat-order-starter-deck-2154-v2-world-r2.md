@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbaron-von-darkcheat-order-starter-deck-2154-v2-world-r2 status=no_submit turns=2 usd=0.0021 tokens(read,write,in,out)=[5023, 10947, 6, 1309] model=claude-haiku-5-5 -->
+# Baron von Darkcheat Order Starter Deck
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1]", "issue": "The 450 SC entry is the same SC Marketplace listing at a sale price, not a separate acquisition source. The pack itself says the sale was applied by category and is not confirmed per item. Listing it as a second source risks a builder creating two acquisition rows for one listing.", "fix": "Keep the 539 SC regular price (wiki Station Cash list, line 524) as the one marketplace source. Record the Feb 2012 President's Day sale (articleId=2528, articles/facts.json 'TCG starter decks (Sets 1, 2, 3)': 'All starter decks from Sets 1, 2, and 3 for 450SC each') as a dated sale note on that source, not as a separate source."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwheelie-pete-v1-world-r2 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[4132, 12658, 6, 975] model=claude-haiku-5-5 -->
+# Wheelie Pete
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "Wheelie Pete (locale:439944) is an npc_name entry, so it is not an item at all. Recording it as an item of kind 'other' is a category error, though the answer itself says so.", "fix": "Mark the record as not an item (NPC, locale:439944, npc_name, Sunstone Valley), or drop it from the item set. Source: locale:439944 type npc_name; wiki page Wheelie Pete (ns0) says 'dwarf NPC'."}, {"field": "live", "issue": "'unsure' is an honest unknown, but no evidence in the pack bears on it for an NPC; the field has no meaning for a non-item.", "fix": "Leave null or 'not applicable' rather than 'unsure'."}]}

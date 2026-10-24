@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cold-tires-67395-v1-world-r2 status=done turns=4 usd=0.0014 tokens(read,write,in,out)=[13998, 5408, 10, 1152] model=claude-haiku-5-5 -->
+# Old Tires
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The cited Demolition Derby Driver note (line 215) lists cosmetic wheel, exhaust and decal entries in general. It does not name Old Tires (23782) or the collection id 2129583338 in the text I could see, so the claim that the note places Old Tires with the Derby parts is only weakly supported. The locale 67700 line does support that a Demolition Derby tires collection exists.", "fix": "Cite locale:67700 ('A collection of Demolition Derby Driver tires. Give me anything that rolls.') and locale:132479 for the collection. Cite the Derby note only for the cosmetic-parts context, or drop the id claim unless the collection id is confirmed in the client data."}]}

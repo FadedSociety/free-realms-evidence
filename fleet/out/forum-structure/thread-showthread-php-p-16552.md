@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-16552 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2849, 4, 632] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This capture is a fan-forum index and vBulletin error page (Free Realms Forums, captured 2009-05-26), not an article. It shows the forum section names (for example Combat In Free Realms, Items, Jobs/Classes, In-Game Mini Games, Pets, Membership / Stationcash) but contains no game facts, and a rebuilder should not take data from it.", "facts": [], "quests": [], "uncertain": ["The page is a 'maximum posts viewed' error screen with a forum index; no thread or post content was captured.", "No article date or author is shown; the capture date is 2009-05-26.", "The forum category list only names topics and does not describe how the game worked."]}

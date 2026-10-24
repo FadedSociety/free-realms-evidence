@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-piece-025-rs-L1 status=done turns=6 usd=0.0054 tokens(read,write,in,out)=[44895, 19160, 14, 5127] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_025.rs lines 1-176 of 176
+
+Window `prototype/osfr-tools/tests/piece_025.rs` 1-176. I checked each byte vector against `encode`/`decode` and `schema()`/`sample()` in `src/restoration/piece_025.rs`. The byte layouts are correct (LE ordering, header, field widths), and the rejection cases return the errors the code produces. No test is tautological, and no `#[ignore]` or early-return skip exists. Three findings:
+
+- **[medium] tests/piece_025.rs:137 decode_rejects_wrong_base_opcode_truncation_and_unknown_opcodes - the name promises truncation coverage, but only the opcode-6 empty-body case (line 143) is exercised; the SaveFixture (opcode 5) length guard, the largest and most fragile one, is never tested.**
+  - Why it cannot catch a regression: `src/restoration/piece_025.rs:215` guards opcode 5 with `body.len() < 8+16+16+4+4`. Weakening that guard (for example to `< 44`) or deleting it is not caught, because no test feeds a short SaveFixture body. Opcodes 1, 3, 19 and 20 truncation guards (lines 190, 204, 251, 264) are also untested.
+  - Fix: add `assert_eq!(decode(&[0x7f,0x00,0x05,0x00] + 47 zero-or-any bytes), Err(WireError::Truncated))` plus one short case for opcode 1 (12 body bytes) and opcode 19 (12 body bytes), asserting `Truncated`.
+
+- **[medium] tests/piece_025.rs:64 enter_request_matches_the_community_reader - the name says the encoding matches the community reader, but the body never reads or references the C# reader; it only compares against hand-written bytes.**
+  - Why it cannot catch a regression: the test would still pass if the community reader (`refs/FreeRealms-Legacy/.../ClientHousingPacketEnterRequest.cs`, which reads `ulong HouseGuid`, `Unknown` and `bool Unknown2`) changed, or if the encoder and reader drifted while the encoder stayed consistent with these literal bytes. Nothing in the test ties the vector to the reader's field types or order.
+  - Fix: rename to `enter_request_wire_layout_is_u64_u32_bool` (the body then matches its claim), or add a golden fixture derived from the reader's `TryDeserialize` field order and a comment citing it. The header doc's claim that the reader "independently agrees" is not enforced by any assertion here.
+
+- **[low] tests/piece_025.rs:155-176 schema_table_matches_the_encoder - the exact `table.len() == 6` at line 158 pins an incidental count, and the size check cannot see the OpaqueTail contribution because the opcode-5 sample uses an empty tail.**
+  - Why it cannot catch a regression: adding a legitimately recovered opcode churns line 158 with no bug present. Conversely, if `FieldKind::OpaqueTail` were mis-sized, or the encoder wrote a different tail length than the table implies, `wire_size()` still equals `bytes.len()` at line 162 because the sample tail is `Vec::new()` (`src/restoration/piece_025.rs:349`).
+  - Fix: assert each entry's table field list matches the sample's encoded body length for a non-empty tail (for example `sample` with `tail: vec![0; 4]` and `wire_size() + 4`), and replace the literal `6` with a check that every `schema()` opcode appears in `decode`-able samples and in `UNRECOVERED_OPCODES` exclusion, or simply drop the count.</result>

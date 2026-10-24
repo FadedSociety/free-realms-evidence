@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cteal-cylinder-polka-dot-block-31920-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4069, 9402, 6, 1225] model=claude-haiku-5-5 -->
+# Teal Cylinder Polka Dot Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the answer says neighbouring polka dot blocks 36663-36670 share category 147 at 50 coins, but the same 50-coin row also continues through 36671-36673 (and 36674/36675 are 250/350). The batch claim is true but the range is incomplete.", "fix": "Store rows for 36663-36673 in category 147 are all 50 coins / 45 member / 5 sell (repo: prototype/osfr-tools/data/content/stores.json:12133-12143). I verified the 36667 row exactly as stated: purchase 50, member 45 (10% discount), sell 5, no_sale false."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstalker-dreadful-necklace-86657-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3886, 8071, 6, 1064] model=claude-haiku-5-5 -->
+# Stalker Dreadful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer calls the Surgeon/Stalker necklaces 'the same name family' and the cluster 'Stalker/Surgeon class-job' related. That is an inference from names only; no source in the pack or my checks ties them to a class-job or prize set.", "fix": "Label it as a name-based inference. Checked: refs search for 'Dreadful Necklace|22666|86657' returns no wiki, vendor or quest hit; repo search for 'Dreadful|22666|86657' returns only the Dreadful Necklace locale strings (Rover, Intern, Prowler, Hardwood, Jeweled and others) and no content-store, vendor or quest reference to definition 22666. lookup on the name returns only client locale:86657."}]}

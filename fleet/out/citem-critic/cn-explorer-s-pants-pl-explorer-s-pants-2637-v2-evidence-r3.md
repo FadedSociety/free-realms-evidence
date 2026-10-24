@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-explorer-s-pants-pl-explorer-s-pants-2637-v2-evidence-r3 status=done turns=3 usd=0.0027 tokens(read,write,in,out)=[16396, 13709, 8, 1562] model=claude-haiku-5-5 -->
+# {n}Explorer's Pants{pl="Explorer's Pants"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the video lookup failed on the apostrophe and should be re-run, but it was not. I re-ran the wiki, articles and video lookup on 'Explorer Pants' and found no video or article hit for Explorer's Pants. The wiki hits were only Explorer collection pages (Adventurer collections, Sunstone Valley), which do not name the pants.", "fix": "Record that the video and article re-check was done with no Explorer's Pants hit (lookup 'Explorer Pants', wiki/articles/video). Keep the item unsourced and live 'unsure'. The answer's sourcing conclusion stands."}]}

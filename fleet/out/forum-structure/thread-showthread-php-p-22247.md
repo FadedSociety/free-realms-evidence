@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-22247 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2906, 4, 524] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a vBulletin error and navigation shell from the Free Realms fan forum, not a thread. It shows a 'maximum number of posts you can view' registration prompt, forum index names (such as Items, Jobs/Classes, In-Game Mini Games, Pets, Membership / Stationcash) and a date of July 2009. It contains no game facts a rebuilder can use.", "facts": [], "quests": [], "uncertain": ["The thread the URL points to (post 22247) is not present in the extracted text; only the error page and forum index were captured.", "The capture date of 2009-07-08 is taken from the capture metadata; the page itself shows no article date."]}

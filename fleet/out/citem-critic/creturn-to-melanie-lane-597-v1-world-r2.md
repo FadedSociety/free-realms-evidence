@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=creturn-to-melanie-lane-597-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4051, 10318, 6, 845] model=claude-haiku-5-5 -->
+# Return to Melanie Lane
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] (client definition 1305)", "issue": "The answer calls definition 1305 a mis-bound or placeholder record, which is a reasonable reading but is not established. The name locale 597 is a UI string, and the definition has an empty description and no store price. Nothing in the pack shows the definition is a real wearable under a different name.", "fix": "Keep it as an open question, as the answer already does. Locale 597 and its cluster (594, 601, 605) are UI strings: 'Return to Melanie Lane' (ui, Melanie Lane). Definition 1305 has no coin store price in the client and no stock row. Do not present it as an obtainable item."}]}

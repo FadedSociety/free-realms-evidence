@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmunchie-cake-116316-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4055, 5959, 6, 1173] model=claude-haiku-5-5 -->
+# Munchie Cake
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3].source", "issue": "The claim cites locale:232, which is the cancelled 'NOT LIVE' quest Spryleaf's Morphin Munchies. The answer uses it only to say the quest is a different item, but a NOT LIVE record should not appear as evidence in an evidence list (the automatic id check flags it for this reason).", "fix": "Drop locale:232 from the evidence list, or mark it as an excluded lead rather than evidence. My own lookup confirms that the only Munchie Cake client lines are locale:116316 and locale:116317 (Super Munchie Cake). Nothing in the repo search or the client/wiki/articles/video lookup names item 37053 or locale 116316 as a source."}]}

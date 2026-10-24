@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2040 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2871, 4, 640] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This Wayback copy of a freerealmsforums.com thread URL captured only the vBulletin forum chrome and a 'maximum number of posts you can view' registration error. No thread title, post, author, date or game content survived, so it gives a rebuilder no usable Free Realms data.", "facts": [], "quests": [], "uncertain": ["The capture contains no thread title, post text, author or date; the thread at t=2040 could not be read.", "The only Free Realms references are forum section names and site boilerplate, which are not game facts.", "The capture is dated 2009-06-04, but that is the Wayback capture date, not a post date."]}

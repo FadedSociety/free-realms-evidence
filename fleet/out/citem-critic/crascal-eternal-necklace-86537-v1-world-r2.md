@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crascal-eternal-necklace-86537-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4052, 8929, 6, 926] model=claude-haiku-5-5 -->
+# Rascal Eternal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]/evidence[4]", "issue": "The pack's claim that the 'Rascal' pet is a 225 Station Cash SC Marketplace item (wiki rev 47896, stores.json:6808, StoreBundles.json bundle 'Rascal') was not re-verified in this pass. It does not change the answer, since the necklace is still unsourced, but the citation should be checked before reuse.", "fix": "Re-check repo stores.json item 23931 and the wiki 'Rascal' page before relying on the pet's price. Do not link the necklace to the pet unless a source names the necklace."}]}

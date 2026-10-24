@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifairies-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4061, 8540, 6, 1167] model=claude-haiku-5-5 -->
+# Fairies
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / open", "issue": "Minor: the open note says both Fairy Girl and Fairy Boy wiki pages list Coin Shop and Members Only categories. I verified only the Fairy Boy page (refs: quest-lines/item-packs.json:27409, categories include Coin Shop and Members Only; its price is blank). I did not verify the Fairy Girl page's categories.", "fix": "Keep the Fairies answer as no item. If Fairy Girl is wired later, confirm its category list on its own wiki page; the article (articleId=1769) supports Members Only but gives no Coin Shop or price for Fairy Girl."}]}

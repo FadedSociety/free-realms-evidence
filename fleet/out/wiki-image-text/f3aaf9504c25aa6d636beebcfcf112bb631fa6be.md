@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=f3aaf9504c25aa6d636beebcfcf112bb631fa6be status=done turns=2 usd=0.0007 tokens(read,write,in,out)=[1889, 2677, 6, 671] model=claude-haiku-5-5 -->
+# Imagesfffffff.jpg
+
+{"kind": "character_or_npc", "has_text": true, "text": "[small label above the character, partly legible, possibly \"Private Pawn\"]", "tooltip": null, "entries": null, "uncertain": ["The only text is a tiny label above the character's head. At this resolution I cannot read it with confidence, so I have not transcribed it as a name. A locale search for 'Private Pawn' and 'Pawn' found no matching string, so the label may not be a shipped name.", "The image shows a 3D in-game render of a red-armored humanoid character holding a long staff with a blue-tipped head, standing on a sandy or stone floor against a golden background. It has no stat bubble, price, or other numeric text."]}

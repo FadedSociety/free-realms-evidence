@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctiger-flat-square-block-8702-v2-world-r2 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[11196, 7794, 8, 1457] model=claude-haiku-5-5 -->
+# Tiger Flat Square Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Placing store category 147 on the 'Housing > Blocks' page is inferred. locale:436741 confirms that a Housing > Blocks page exists and sells Basic Square Block for coins, but nothing ties category 147 to that page. The answer already hedges this in 'where' and 'open', so it is a labelling caveat, not a false claim.", "fix": "Keep the coin-shop source with category 147 and the 5/4/1 coin prices from repo:prototype/osfr-tools/data/content/stores.json:8319 (item 32688). Describe the page as unconfirmed, or drop the page name, until a source names category 147 (locale:436741 only shows the Blocks page for Basic Square Block)."}]}

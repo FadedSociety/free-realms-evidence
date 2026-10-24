@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iarcher-s-awakened-bow-of-forbidden-magic-v2-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4475, 6975, 6, 1217] model=claude-haiku-5-5 -->
+# Archer's Awakened Bow of Forbidden Magic
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Minor overreach: the Merry Vale location and the 'quest offered from the Fighter's Guild Message Board' are supported by the wiki Necronomicus page and locale:442598, but locale:442598 says the battle is 'recommended for a full group of level 20 players' and does not name the Den of Secrets passage as the only entrance. The answer's wording is acceptable as stated.", "fix": "Keep as is. Optionally cite locale:442598 for 'secret passage behind the mushrooms near the Den of Secrets' and the wiki Necronomicus page for 'Fighter's Guild Message Board in Sanctuary'. Both check out."}]}

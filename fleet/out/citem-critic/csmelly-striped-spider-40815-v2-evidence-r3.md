@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmelly-striped-spider-40815-v2-evidence-r3 status=done turns=4 usd=0.0027 tokens(read,write,in,out)=[24105, 11351, 10, 1995] model=claude-haiku-5-5 -->
+# Smelly Striped Spider
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (item 23077 citation)", "issue": "The answer cites locale:66690 as an 'area name' for 'Striped Spider Battalion'. Locale 66690 is the item-name string itself, not an area name. The 23077 to 'Striped Spider Battalion' link rests on the ClientItemDefinitions entry, which I did not re-read.", "fix": "Describe locale:66690 as the name string for item 23077 ('Striped Spider Battalion'), cited to refs:FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:475676-475677. It is a set-reward item, not a source for this spider."}]}

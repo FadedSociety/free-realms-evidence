@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=caunt-s-ring-66886-v2-evidence-r3 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[14617, 11145, 8, 1441] model=claude-haiku-5-5 -->
+# Aunt's Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / open", "issue": "The claim that the 2013 wiki List of Collections page shows only the 'Family Rings' heading with no entry list could not be confirmed. The raw wiki file (freerealms-wiki/raw/73b7c9e1...json) is a single long line and my search returned only its truncated opening. The claim is plausible but unverified in this pass.", "fix": "Read the full content field of freerealms-wiki/raw/73b7c9e131faa8012f4d9572dcc58520fc2b4fc08940a6469920b0bd1d01247f.json (page 'List of Collections', revid 27852) and confirm whether Family Rings lists entries or acquisition text. Keep the answer as-is unless that page names a source."}]}

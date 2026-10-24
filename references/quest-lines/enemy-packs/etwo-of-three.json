@@ -1,0 +1,57 @@
+{
+ "title": "Two of Three",
+ "our_entries": [
+  {
+   "file": "npcs/highroad_junction.json",
+   "npc_id": 9500000338,
+   "zone": "Highroad Junction",
+   "enemy_kind": "Wandering enemy added 8 October 2013 for the Super Spooktacular.",
+   "location_evidence": [
+    "\"North of the Cursed Graveyard\" in Stillwater Crossing, and north of the spiralmint patch in Highroad Junction (wiki). Not seen in video."
+   ]
+  },
+  {
+   "file": "npcs/stillwater_crossing.json",
+   "npc_id": 9500000795,
+   "zone": "Stillwater Crossing",
+   "enemy_kind": "Wandering enemy added 8 October 2013 for the Super Spooktacular event.",
+   "location_evidence": [
+    "\"North of the spiralmint patch in Highroad Junction\" and north of the Cursed Graveyard in Stillwater Crossing (wiki)."
+   ]
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:5102447 [other | - | Two of Three] 'Two of Three'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5102447 [other | - | Two of Three] 'Two of Three'"
+ ],
+ "client_cluster": [
+  "locale:5102439 [npc_name | - | Hannibal] 'Hannibal'",
+  "locale:5102440 [npc_name | - | Marius] 'Marius'",
+  "locale:5102441 [npc_name | - | Sun] 'Sun'",
+  "locale:5102442 [npc_name | - | Tzu] 'Tzu'",
+  "locale:5102443 [ability | - | Basic Strike] 'Basic Strike'",
+  "locale:5102444 [ability | - | Overhead Stun] 'Overhead Stun'",
+  "locale:5102445 [ability | - | Fire Nova] 'Fire Nova'",
+  "locale:5102446 [other | - | One of Three] 'One of Three'",
+  "locale:5102447 [other | - | Two of Three] 'Two of Three'",
+  "locale:5102448 [other | - | Three of Three] 'Three of Three'",
+  "locale:5102449 [item | - | Pumpkin Carver] 'Pumpkin Carver'",
+  "locale:5102450 [item | - | Pumpkin Carver] 'Won from the mysterious Three, this dastardly blade is adept at carving up more than just pumpkins.'",
+  "locale:5102451 [ui | - | Two-Handed Swords] 'Two-Handed Swords'",
+  "locale:5102452 [ability | - | Two-Handed Chop] 'Two-Handed Chop'",
+  "locale:5102453 [ui | - | Holidays & Events] 'Holidays & Events'",
+  "locale:5102454 [other | - | Spooktacular] 'Spooktacular'",
+  "locale:5102455 [ui | - | One Down] 'Achievement: One Down'"
+ ],
+ "wiki": {
+  "title": "Two of Three",
+  "text": "Two of Three is an enemy NPC that can be found wandering in designated spawn areas that include: North of the Cursed Graveyard located in Stillwater Crossing, and north of the spiralmint patch in Highroad Junction.\n\nTrivia\nTwo of Three was introduced in-game on October 8, 2013.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Highroad Junction\nCategory:Stillwater Crossing\nCategory:Super Spooktacular"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

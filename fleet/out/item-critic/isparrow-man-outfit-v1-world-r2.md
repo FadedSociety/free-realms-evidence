@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isparrow-man-outfit-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3325, 7503, 6, 919] model=claude-haiku-5-5 -->
+# Sparrow Man Outfit
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open", "issue": "Minor: the 'Promotional' category and the retired/unobtainable status are consistent with the single promotion source. No vendor, quest, or Station Cash source appears in the wiki text, the client locale, or the refs (the only other hits are unrelated 'sparrow' tokens and the locale 130967 duplicate). No source is double-counted, so the answer does not conflict with itself.", "fix": "None required. Optionally note in the record that the wiki revision is rev 37687 and that the promotion is the sole evidenced acquisition (freerealms-wiki/wikitext/12843-37687-3dd60442f71c.wiki)."}]}

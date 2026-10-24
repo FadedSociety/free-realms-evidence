@@ -1,0 +1,10 @@
+<!-- fleet job=test-audit id=tests-quest-offer-gates-rs-L1 status=done turns=10 usd=0.0090 tokens(read,write,in,out)=[151302, 28071, 22, 7943] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/quest_offer_gates.rs lines 1-321 of 321
+
+Reviewed `prototype/osfr-tools/tests/quest_offer_gates.rs` lines 1-321 against `src/quest_engine.rs` (`offer`, `offer_denial`, `accept`, `decline`, `dev_mark_offered`, `requirement_denial`, `is_enabled`) and `src/npc_interaction.rs` (`offerable_quest_for_talk`). Fixtures exist (`data/content/npcs/blackspore_swamp.json` contains NPC 9000000047, a QuestGiver), and there are no `#[ignore]` or early returns. The six tests check real outcomes: denial variants, `changed`, exact outbound messages, and full `state()` equality before and after refusals. Expected values are hard-coded, not derived from the code under test. The job-level, limit, and developer-override cases all exercise the branches they name.
+
+**[low] tests/quest_offer_gates.rs:284 `a_declined_developer_offer_cannot_bypass_a_later_ordinary_offers_gate` - the name credits `decline()` with clearing the developer override, but the body never isolates that clear.**
+- **Why it cannot catch a regression:** `offer()` also sets `dev_offer = None` (quest_engine.rs:1594), and the test's later ordinary `offer()` at line 302 clears it again. Deleting `self.dev_offer = None` from `decline()` (quest_engine.rs:1779) still passes. The clear is also redundant in the other direction, because `pending_offer` is only set in `offer()` (which clears the override) and `dev_mark_offered()` (which sets it fresh). So no reachable bypass depends on decline's clear, and the mutation is effectively equivalent, not a missed bug.
+- **Fix:** No state-based canary can observe it. Either rename the test to what it proves ("an ordinary offer after a declined developer offer is still gated by level"), or add a comment at line 296 saying the override is cleared by `offer()`, so the test's protection does not rest on `decline()`.
+
+No high- or medium-severity findings in this window.

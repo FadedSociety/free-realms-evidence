@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=b11f9cbfdf7e5bec3ade6436fe09a874ad7bf36b status=done turns=2 usd=0.0006 tokens(read,write,in,out)=[2062, 2247, 6, 515] model=claude-haiku-5-5 -->
+# 9 cld.png
+
+{"kind": "character_or_npc", "has_text": true, "text": "stalline la mair", "tooltip": null, "entries": null, "uncertain": ["The banner text at the top is cut off at both edges. Only the fragment 'stalline la mair' is visible, so the full phrase (likely a location name) cannot be recovered from this image.", "A locale search for 'stalline la mair' returned no matches, so no locale_id is available.", "The image shows a fairy-like character with brown-and-silver hair, pointed ears, translucent silver-blue wings, and a magenta and green outfit, standing on a pale blue stone platform. No name tag or other text is visible."]}

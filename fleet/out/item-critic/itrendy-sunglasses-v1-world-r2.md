@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=itrendy-sunglasses-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3377, 4451, 6, 1360] model=claude-haiku-5-5 -->
+# Trendy Sunglasses
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence / categories", "issue": "The answer lists the wiki categories as Clothing, Freestyle Jobs, Head, Unobtainable. The wiki's Trendy Sunglasses page carries those four, but the sibling pages Felt Beret and Sport Shades (same November 2009 pack) carry Category:Members Only, which the answer omits. That category is the wiki's own marker for the membership source, so it is a missed corroborating signal, not a conflict.", "fix": "Add 'Members Only' to the sibling-page evidence (Felt Beret wiki page, ns0, category list) as support for the membership source; the Trendy Sunglasses page itself does not show it, so the source should be attributed to the pack text and the sibling pages."}]}

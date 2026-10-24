@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ipoison-t-rex-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3211, 6660, 6, 966] model=claude-haiku-5-5 -->
+# Poison T-Rex
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (T-Rexes page)", "issue": "The claim 'with no sale or obtain information' is incomplete. The T-Rexes page states that T-Rexes 'are only available to be purchased with Station Cash' (item-packs.json, T-Rexes page text). That is a race-level sale statement, not an item-level price. It does not give the Poison T-Rex a source, since the item is unreleased.", "fix": "Note the T-Rexes page race-level statement ('only available to be purchased with Station Cash', wiki T-Rexes) and state that it names no Poison T-Rex price or listing. Sources stay empty."}]}

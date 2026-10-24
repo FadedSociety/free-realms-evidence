@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmagus-fateful-necklace-86622-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3858, 8234, 6, 1013] model=claude-haiku-5-5 -->
+# Magus Fateful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The 'Fateful Necklace' family is larger than the answer's list. My locale search also finds Vagabond, Hero, Faded, Nomad, Grunt, Ruffian, Physician, Surgeon, Granite, Sorcerer, Gleaming and Fastvi's Fateful Necklace. That does not change the item's status, but the answer's family framing is incomplete.", "fix": "Note the wider Fateful family, e.g. from locale data (en_us_data.dat lines for Vagabond, Hero, Faded, Nomad, Ruffian, Physician, Surgeon, Granite, Sorcerer Fateful Necklace), and say that none of them is linked to a source."}]}

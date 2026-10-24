@@ -1,0 +1,54 @@
+{
+ "title": "Community Event: Luau Beach Party",
+ "names_seen": [
+  "Community Event: Luau Beach Party",
+  "Luau Beach Party"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called Luau Beach Party took place in Seaside, where players could dance, turn into crabs, light fireworks and trade collections.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Everyone will be hitting the sand in Seaside to dance, turn into crabs, light fireworks, trade collections",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2062",
+   "date": null
+  },
+  {
+   "statement": "The US and Latin America session of the Luau Beach Party was on Thursday March 24, 2011 at 3pm Pacific Time on Server 1.",
+   "numbers": {
+    "date_year": 2011,
+    "date_month": 3,
+    "date_day": 24,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday March 24th, 2011 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2062",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session of the Luau Beach Party was on Friday March 25, 2011 at 9:00am Pacific Time (5:00pm UTC) on Server 1.",
+   "numbers": {
+    "date_year": 2011,
+    "date_month": 3,
+    "date_day": 25,
+    "hour_pacific": 9,
+    "hour_utc": 17
+   },
+   "era": "live",
+   "quote": "Friday March 25th, 2011 9:00am Pacific Time / 5:00pm UTC (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2062",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2062",
+   "date": null,
+   "title": "Free Realms - What is New? (Community Event: Luau Beach Party)",
+   "summary": "A Free Realms community event announcement for a Luau Beach Party held in Seaside on Server 1 in late March 2011. It describes the event activities, the Community Ambassadors' role, and the ways players could obtain clothing (quests, web codes, vendors, Station Cash). The posting date is given only as a relative age ('1 week, 1 day ago') so the exact post date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

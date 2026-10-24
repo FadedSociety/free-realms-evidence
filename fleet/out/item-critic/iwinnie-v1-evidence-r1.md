@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwinnie-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3291, 4503, 6, 1171] model=claude-haiku-5-5 -->
+# Winnie
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Says the repo lists Winnie 'only as a merchant stub with no quest or stock list'. The same repo note (NPCs - Seaside.md:115, seaside.json:36340) puts her among the Roxy autograph event targets, and locale:394867 ('Sign an autograph for Winnie') confirms a quest objective. The 'no quest' wording is therefore inconsistent with evidence[3]. Winnie is in the stub list (vendors_unresolved.json:6983) and also in the autograph target list.", "fix": "Say she has no vendor stock list and is a merchant stub in vendors_unresolved.json:6983, but she is also an autograph target of the Seaside Roxy event (locale:394867; NPCs - Seaside.md:115). Drop 'no quest' from the stub claim."}]}

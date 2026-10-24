@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icutes-dozen-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3075, 4734, 6, 964] model=claude-haiku-5-5 -->
+# Cutes Dozen
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The quest pages were checked and do not name any reward or item tied to Cutes Dozen. The wiki pages for Horrible Hiccups and Scaredy Pants show her only as a scare target (and a quest-start NPC for Scaredy Pants). The answer's claim that 'no item, price, or sale source is recorded' holds, but the Scaredy Pants reward was not read, so that half is unverified.", "fix": "Optional: read the reward section of Quest:Scaredy Pants and Quest:Horrible Hiccups to confirm no item reward. Lookup returned no reward text for either page. Locale ids 389236 (Horrible Hiccups dialog) and 389239 (Scaredy Pants dialog) do match the cited quests."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblasting-ring-407790-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3732, 9000, 6, 959] model=claude-haiku-5-5 -->
+# Blasting Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence[2]", "issue": "The answer cites the soccer minigame as a feature but does not say its status. The repo's MODLOG.md and notes/Current Progress.md say soccer is 'candidate-only with no native match route'. That is relevant to the retired/live question and is missing from the answer.", "fix": "Add to open or evidence: soccer is recorded as candidate-only with no native match route (MODLOG.md, soccer entries; notes/Current Progress.md line 211). This supports leaving retired null and live unsure, and does not confirm the item is retired."}]}

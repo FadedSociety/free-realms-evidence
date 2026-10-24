@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdotted-layback-dining-chair-147736-v1-evidence-r1 status=done turns=3 usd=0.0025 tokens(read,write,in,out)=[12644, 12404, 8, 1545] model=claude-haiku-5-5 -->
+# Dotted Layback Dining Chair
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The source is labelled 'vendor', but the only evidence is a Coin store row (stores.json:12008, category 53, no NPC named). It is a coin store entry, not an NPC vendor. The answer's own open list says the NPC is unknown, so 'vendor' overstates what is evidenced.", "fix": "Relabel the source type as 'coin_store' (category 53 'Furniture & Decorations', purchase 50 coins, member 45 coins, sell 5 coins, no_sale false), with the NPC/vendor left as unknown. Source: repo:prototype/osfr-tools/data/content/stores.json:12008; notes/Research/Pieces/024 Furniture catalogue.md:42."}]}

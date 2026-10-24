@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-jungle-ring-96067-v1-evidence-r1 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11219, 9207, 8, 1309] model=claude-haiku-5-5 -->
+# Dull Jungle Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "Calling the six rings and six necklaces a 'set' is an inference from adjacent locale ids (96066-96071, 96186-96191). The locale table has the names but nothing says they are one acquisition set. The claim is worded as names only, so it is not false, but 'same set' should be marked as inferred.", "fix": "Say 'sibling names by adjacent locale id (locale:96066-96071, 96186-96191); set membership is not evidenced.' Other sets exist with the same pattern, e.g. Dull Dreadful/Fateful/Infernal/Spectral/Mystical/Phantasmal/Eternal/Celestial/Ethereal Ring (locale 86287-86295) and their Necklaces (86522-86530)."}]}

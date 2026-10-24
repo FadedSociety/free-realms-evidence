@@ -1,0 +1,12 @@
+<!-- fleet job=test-verify id=tests-piece-056-rs-L1-f1 status=done turns=6 usd=0.0068 tokens(read,write,in,out)=[60366, 23660, 14, 6420] model=claude-haiku-5-5 -->
+# high: prototype/osfr-tools/tests/piece_056.rs:395
+
+**Verdict:** `confirmed` (narrow scope: the final assertion is vacuous, and the test cannot catch an encoder regression; other tests in the file cover some of the examples the claim lists).
+
+**Evidence:**
+
+- The final assertion is a self-comparison. `effect.tag` is a `Copy` of `tag` (tests/piece_056.rs:406, built from `tag` at :399). `remaining_seconds` takes `&self` and only reads `expires_at_ms` (src/restoration/piece_056.rs:380-388), so `effect.tag == tag` holds whatever the encoder does. The assertion at lines 412-415 is `encode_add_effect_tag(2, &effect.tag) == encode_add_effect_tag(2, &tag)`. An encoder change (field offset, dropped field, opcode) changes both sides equally, so the test passes. The claim's core point is correct.
+- Nothing else in this test checks the encoder or any tag field against a fixed value. The assertions that do run are `remaining_seconds(0) == 3600`, `remaining_seconds(3_599_000) == 1`, and `remaining_seconds(0) == 0` after `expires_at_ms = 0` (lines 408-411). These cover expiry arithmetic only. None touches a field of `effect` or `tag`, and nothing goes through `StatusLedger::apply`, so a regression in how the ledger stores the row would also pass here.
+- Scope: the file does pin some encoder output elsewhere. `captured_retail_coin_boost_round_trips_byte_for_byte` (lines 93-117) asserts the header `[38,0,16,0]`, the TagId bytes, and `ADD_EFFECT_TAG_LEN` length, and `captured_profile_row_matches...` (lines 120-128) asserts the 4+4+85 length. So an opcode change or a dropped field is caught by those tests, not by this one. The uncovered case is a symmetric change to payload field offsets, which I did not find pinned to literal bytes elsewhere in the file. The claim's "any way" wording overstates the gap, but for this test the conclusion holds.
+
+**Minimal fix:** replace the self-comparison at lines 412-415 with `assert_eq!(encode_add_effect_tag(2, &effect.tag), captured_bytes)`, where `captured_bytes` is the 93-byte literal from the captured row (or, at minimum, `assert_eq!(effect.tag, EffectTagPayload::captured_coin_boost()); assert_eq!(effect.tag.duration_seconds(), 3600); assert_eq!(effect.tag.icon_id(), 7334); assert_eq!(effect.tag.name_id(), 4270);` after the `remaining_seconds` calls).

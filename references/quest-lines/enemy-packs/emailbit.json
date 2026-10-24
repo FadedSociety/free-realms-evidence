@@ -1,0 +1,51 @@
+{
+ "title": "Mailbit",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\return_to_sender.json"
+  },
+  {
+   "file": "dungeons\\return_to_sender.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:384257 [npc_name | - | Mailbit] 'Mailbit'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:384257 [npc_name | - | Mailbit] 'Mailbit'",
+  "locale:384258 [quest_dialog | - | Mailbit] 'N-n-nice s-snake...'",
+  "locale:384259 [quest_dialog | - | Mailbit] 'What is going on here!?  How did the mail get scattered everywhere!?'",
+  "locale:384260 [quest_dialog | - | Mailbit] 'Oh well, whatever happened, gather that mail up and burn it!'",
+  "locale:384263 [quest_dialog | - | Mailbit] 'I have a something for you...'"
+ ],
+ "client_cluster": [
+  "locale:384249 [quest_dialog | Mire's Edge | Shaming the Sheriff | FLAG fragment: player reply option] \"Huh?  What's the bag for?\"",
+  "locale:384252 [place | - | Lavender's Locker] \"Lavender's Locker\"",
+  "locale:384253 [quest_dialog | Mire's Edge | Shaming the Sheriff] \"EEEK!  Snakes!  A whole bag of snakes! EEEEEEK!!  Get'em away, GET THEM AWAY! SNAAAAKES!\"",
+  "locale:384254 [quest_dialog | - | Drinking Chugawug] 'There are some thieving chugawugs out there in the woods. '",
+  "locale:384255 [quest_dialog | - | Drinking Chugawug] '*sniff* Please get them away... I hate snakes!'",
+  "locale:384256 [quest_dialog | - | Drinking Chugawug] 'I would say it is best that you avoid them.'",
+  "locale:384257 [npc_name | - | Mailbit] 'Mailbit'",
+  "locale:384258 [quest_dialog | - | Mailbit] 'N-n-nice s-snake...'",
+  "locale:384259 [quest_dialog | - | Mailbit] 'What is going on here!?  How did the mail get scattered everywhere!?'",
+  "locale:384260 [quest_dialog | - | Mailbit] 'Oh well, whatever happened, gather that mail up and burn it!'",
+  "locale:384261 [npc_dialog | - | -] 'Can I help you?'",
+  "locale:384263 [quest_dialog | - | Mailbit] 'I have a something for you...'",
+  "locale:384264 [quest_objective | - | Return to Sender 219 | FLAG dev_note: test-style ability name] 'Destroy Package'",
+  "locale:384265 [quest_objective | - | Return to Sender 219 | FLAG placeholder: test text 'Mock throw into fire'] 'Return to Sender 219: Mock throw into fire'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Mailbit"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

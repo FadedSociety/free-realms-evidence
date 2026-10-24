@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=forum-forumdisplay-php-f-22 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3398, 4, 626] model=claude-haiku-5-5 -->
+# Music - Free Realms Forums
+
+{"article": {"title": "Music - Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This is a Wayback capture of the index page for the 'Music' off-topic board under 'The Red Carpet' on the Free Realms fan forum (freerealmsforums.com). It lists three off-topic threads (a music-artist thread, a favorite-music-type poll, and a favorite-songs-by-year thread) and forum navigation. It contains no Free Realms game information such as quests, items, prices, events or mechanics, so it gives a rebuilder nothing usable.", "facts": [], "quests": [], "uncertain": ["The capture date is 2009-05-26 but the page itself shows no article date; the most recent thread activity shown is 05-23-2009."]}

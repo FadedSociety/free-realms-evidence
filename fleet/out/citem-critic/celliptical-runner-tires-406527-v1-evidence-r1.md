@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celliptical-runner-tires-406527-v1-evidence-r1 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[12474, 8901, 8, 1230] model=claude-haiku-5-5 -->
+# Elliptical Runner Tires
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the Arrow Runner wiki claim is accurate (the page says it is sold in the Station Cash Marketplace at a regular price, with a 10% Member discount), but the wiki's price digits are blank in the transcription, so the answer is right not to cite a number. Its inference to the Elliptical kart is correctly left open.", "fix": "No change needed. The answer correctly reports sources: [] and retired null. Repo search for 61057, 'Elliptical' and 'Runner Tires' hits only locale data dumps, and the wiki and refs have no Elliptical Runner acquisition page. The vendor first-pass guess is rightly rejected."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpurple-rectangle-tiger-block-30210-v1-world-r2 status=done turns=4 usd=0.0027 tokens(read,write,in,out)=[23046, 12804, 10, 1694] model=claude-haiku-5-5 -->
+# Purple Rectangle Tiger Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' with where=null. The only evidence is a Legacy CoinStoreItems row (stores.json tag L1 = 'Legacy CoinStoreItems.Id, CategoryId, TintGroupId'), which is a coin store listing, not a named vendor NPC. The stock rows the pack checked are empty, so no vendor is evidenced.", "fix": "Keep the source as a coin store sale: type 'coin_shop' (or 'coin_store'), price 350 coins, member 315 coins, sourced to repo:prototype/osfr-tools/data/content/stores.json:16441 (item 77110, category 147, purchase_price_coins 350, member_price_coins 315, sell_price_coins 35), with where stated as unknown. Do not record a vendor NPC."}]}

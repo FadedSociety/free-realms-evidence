@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshrimp-fossil-41016-v1-world-r2 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[7840, 5161, 8, 1253] model=claude-haiku-5-5 -->
+# Shrimp Fossil
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The wiki-side claim is slightly loose. The List of Collections lookup shows '[Mini] [Fossils]' as its own entry in the Rare group, next to Sabertooth, Shark Teeth, Spine, Bird Wing and Skull Fossils. The repo entry wiki:7:213 ('Mini Fossils', name_id 7753, revision 27852, 2013-07-13) matches it. Nothing I checked ties Shrimp Fossil itself to that collection beyond the client description text.", "fix": "Keep the claim as 'the Mini Fossils collection exists (wiki:7:213, List of Collections rev 27852). Shrimp Fossil is linked to it only by its client description (locale:41016)'. Do not present the collection membership as wiki-confirmed for this specific item."}]}

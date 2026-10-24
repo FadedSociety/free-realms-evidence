@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshining-eternal-square-shard-89291-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3841, 11428, 6, 1053] model=claude-haiku-5-5 -->
+# Shining Eternal Square Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but no NPC vendor is named anywhere in the pack. The only evidence is a coin store record (stores.json:2989, item_id 10282, category 121, purchase 1236, member 1112, sell 123, no_sale false). That shows a coin store listing, not a vendor NPC.", "fix": "Keep the source as a coin store listing (category 121, 1236 coins, member 1112) and leave the vendor field unidentified. Do not present it as an NPC vendor source. The price matches stores.json:2989, which I checked directly."}]}

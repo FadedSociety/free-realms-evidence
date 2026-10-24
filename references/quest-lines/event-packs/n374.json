@@ -1,0 +1,28 @@
+{
+ "title": "October Walmart Shirt special",
+ "names_seen": [
+  "October Walmart Shirt special"
+ ],
+ "facts": [
+  {
+   "statement": "For the month of October, buying a $10 Station Cash card at Walmart and redeeming it during October gave the player a Walmart Shirt.",
+   "numbers": {
+    "Station Cash card value ($)": 10
+   },
+   "era": "live",
+   "quote": "Buy a $10 Station Cash card at Walmart, redeem it during the month of October, and get your own Walmart Shirt!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2789",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2789",
+   "date": null,
+   "title": "October Special: Get Your Own Walmart Shirt!",
+   "summary": "A freerealms.com news post promoting a October promotion in which buying a $10 Station Cash card at Walmart and redeeming it during October earned a Walmart Shirt. It is a limited-time retail tie-in for the running game, and the page gives no item stats or quest details."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

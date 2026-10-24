@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-ocean-ring-89462-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3600, 4383, 6, 908] model=claude-haiku-5-5 -->
+# Faded Ocean Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the Faded rings are 'one family of ring variants' is an inference from shared naming, not a source fact. It is stated as a conclusion. The locale ids I checked (89294-89302, 89370, 89373, 89374, 89382-89384, 89462-89467) do match the claimed names, so the naming claim itself is accurate.", "fix": "Reword as: 'shares the Faded <Word> Ring naming pattern with the listed siblings (locale 89294-89384, 89462-89467); shared family membership is inferred, not sourced.' Locale check: confirmed via locale search 'Faded .* Ring'."}]}

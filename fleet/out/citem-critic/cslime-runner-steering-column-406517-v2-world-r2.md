@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslime-runner-steering-column-406517-v2-world-r2 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[12040, 8371, 8, 1230] model=claude-haiku-5-5 -->
+# Slime Runner Steering Column
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The suggested check 'wiki Derby Kart Parts pages' is misdirected. The wiki Derby Kart Parts list covers Derby parts (Derby Elite Engine, Elite Turbo Tank, Pro Jumping Springs and so on), not Race Kart parts. The Slime Runner kart appears only under Race Karts as '[Slime] [Runner]'. A lookup for 'Steering Column' across wiki and articles returns no matches, which supports the no-source conclusion.", "fix": "Point the open check at the wiki Race Karts page (where the Slime Runner kart is listed) and at store data for marketing item 61047. Do not expect the Derby Kart Parts page to list this part."}]}

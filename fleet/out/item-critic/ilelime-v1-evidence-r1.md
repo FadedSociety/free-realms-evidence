@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ilelime-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3157, 5046, 6, 924] model=claude-haiku-5-5 -->
+# Lelime
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The request treats Lelime as an item, and the answer correctly finds no item sources. Client locale 101209 is 'Lelime' and the wiki page is an NPC stub (Human, Male, Seaside). The answer's kind of 'other' is a placeholder, not a checked category.", "fix": "No change to sources. Mark the record as a non-item NPC name (locale 101209, npc_name). Confirmed: locale 101199 is 'Give Lelime a Brain Freeze!', a quest objective target, and the repo notes (NPCs - Seaside.md line 144) say the minigame giver and zone are not established, so no reward is supported."}]}

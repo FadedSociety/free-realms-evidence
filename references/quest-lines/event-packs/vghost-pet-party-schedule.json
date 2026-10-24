@@ -1,0 +1,30 @@
+{
+ "title": "Ghost Pet Party schedule",
+ "names_seen": [
+  "Ghost Pet Party schedule"
+ ],
+ "facts": [
+  {
+   "statement": "The Ghost Pet Party ran on Thursday 7 October 2010 at 15:00 Pacific time for US and Latin America, and on Friday 8 October 2010 at 09:00 Pacific (16:00 European time) for UK and Europe, both on Server 1.",
+   "numbers": {
+    "oct_7_2010_hour_pacific": 15,
+    "oct_8_2010_hour_pacific": 9,
+    "oct_8_2010_hour_european": 16
+   },
+   "era": "live",
+   "quote": "Jueves 7 de octubre del 2010 15:00 hrs Tiempo Pacifico",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1850",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1850",
+   "date": null,
+   "title": "Evento Comunitario: Fiesta para Mascotas Fantasma (Free Realms - What is New?)",
+   "summary": "A Spanish-language SOE community event notice for the Super Spooktacular (October 2010): a Ghost Pet Party held at a hidden spot in the Sporeshade swamp area, on Server 1. It gives the event times for the Americas and for UK/Europe and explains how to reach community events through the Game Guide calendar. The page's posting date is not shown; the event dates are 7-8 October 2010."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

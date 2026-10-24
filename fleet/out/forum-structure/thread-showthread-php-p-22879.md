@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-22879 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2948, 4, 387] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin view-limit error page on the Free Realms fan forum (freerealmsforums.com), showing a sign-up prompt and forum navigation. It contains no thread text, posts, or game facts for the rebuild. The only Free Realms references are forum section names and footer text.", "facts": [], "quests": [], "uncertain": ["The thread the URL pointed to (p=22879) did not render; only the error gate and navigation were captured, so the thread title, author, date and content are unknown."]}

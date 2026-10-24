@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-1321 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2867, 4, 490] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a Free Realms fan-forum page showing only a vBulletin 'maximum number of posts you can view' registration wall, with forum navigation and section names. No thread title, post text, or game information is present, so there is nothing about Free Realms mechanics, items, quests, prices, or events to record.", "facts": [], "quests": [], "uncertain": ["The thread at t=1321 is not readable: the capture shows only the login/registration error page and no post content.", "The page is a Free Realms fan forum shell (captured 2009-05-16), but it contains no article text about the game, so about_free_realms is marked false."]}

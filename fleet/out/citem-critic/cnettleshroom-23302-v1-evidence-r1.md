@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cnettleshroom-23302-v1-evidence-r1 status=no_submit turns=2 usd=0.0022 tokens(read,write,in,out)=[3664, 11903, 6, 1269] model=claude-haiku-5-5 -->
+# Nettleshroom
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The 'repo search' claim is correct but incomplete. My repo search for Nettleshroom, 2892 and 23302 found no vendor, quest, recipe, store or drop entry. It did find the name in the community server definitions (refs: Sanctuary, Lxzxrus-Free-Realms-Server, FreeRealms-Legacy, TCG-Files ClientItemDefinitions.json 'Comment': 'Nettleshroom'). Those are name-only definitions, not acquisition evidence, so the answer's conclusion still holds, but it should have said so.", "fix": "Note that the refs ClientItemDefinitions.json files carry the name 'Nettleshroom' as a Comment, which confirms the name and nothing about acquisition. Source: refs search 'Nettleshroom'."}]}

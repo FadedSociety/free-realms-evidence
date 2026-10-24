@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icole-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3201, 4534, 6, 1053] model=claude-haiku-5-5 -->
+# Cole
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The answer's claims check out. The wiki page (rev 50112) says Cole is a pixie NPC in Seaside, with Quest Givers, NPC and Seaside categories. locale:93337 is tagged npc_name. The quest links match the pack. The answer is correct that no item source exists. Minor omission: the client also has locale:39329 (other - cole, FLAG dev_note 'internal model asset id, not quest text', fairy_m_cole). The answer does not mention it, but it is a flagged asset id, not an item, so it does not change the verdict.", "fix": "Optional: note locale:39329 (fairy_m_cole, a flagged internal model asset id) as a non-item string that explains the 'other' kind. No change to the sources, which stay empty."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwave-ring-66899-v2-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3997, 4637, 6, 1038] model=claude-haiku-5-5 -->
+# Wave Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "open / evidence[4]", "issue": "The answer says the wiki 'List of Collections' listing of Rings of Power is unverified. A lookup now shows that page does list a '[Rings] [of] [Power]' collection, so the collection exists on the wiki. The page excerpt does not show Wave Ring under it, and the answer's caution holds. Membership is still catalogue-only.", "fix": "Cite wiki page 'List of Collections' (ns0) for the existence of the Rings of Power collection. Keep Wave Ring membership sourced to collection_catalogue.json only, until a wiki excerpt names the item. Also check whether the wiki's 'Water [Rings]' collection is a closer home for Wave Ring than Rings of Power."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cice-cream-flooring-26371-v1-world-r2 status=no_submit turns=2 usd=0.0015 tokens(read,write,in,out)=[3916, 8542, 6, 829] model=claude-haiku-5-5 -->
+# Ice Cream Flooring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence", "issue": "The pack misses a real asset for this item. The asset manifest lists hsg_cust_floor_icecream_01.dds and its icon files (icon_hsg_cust_floor_icecream_01_*.dds), which tie an 'icecream' housing floor to the 'hsg_cust' housing-customization family. This supports that Ice Cream Flooring is a real housing flooring. It does not give a source.", "fix": "Add a manifest evidence line: assets_manifest.txt lines 47655 and 111304-111309 (hsg_cust_floor_icecream_01 and icons). Keep sources empty and retired null, since the manifest does not show how the item was obtained."}]}

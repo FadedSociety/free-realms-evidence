@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbirthday-boomer-14573-v2-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4418, 5767, 6, 810] model=claude-haiku-5-5 -->
+# Birthday Boomer
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "'consumable' is inferred from item class 9 and the description; no source in the pack names the item's use. It is harmless as a label but should be marked unverified.", "fix": "Keep kind as unverified, or cite the client item class mapping for class 9 if one exists."}, {"field": "retired", "issue": "Null is correct: no source states a sale, drop, or removal, and the pack has no wiki or article facts. The schedule-pack note (excluded from Birthday Bash, 'no tie to event') is a merge-risk exclusion, not a retirement or source.", "fix": "Leave retired null and live as unsure, as the answer does."}]}

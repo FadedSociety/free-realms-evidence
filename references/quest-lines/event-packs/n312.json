@@ -1,0 +1,29 @@
+{
+ "title": "Seven-day free item login gift",
+ "names_seen": [
+  "Seven-day free item login gift"
+ ],
+ "facts": [
+  {
+   "statement": "Each player received one free item per day for seven days when logging in; logging in before the last day allowed collecting all seven.",
+   "numbers": {
+    "days": 7,
+    "items": 7
+   },
+   "era": "live",
+   "quote": "Un objet par jour pendant sept jours vous sera donné quand vous vous connectez.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2138",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2138",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A French-language SOE welcome-back news post for returning players, dated only as 'Posted 2 weeks, 3 days ago' (so roughly May 2011, not exact). It announces free game time for accounts active before 2 May 2011, a seven-day login gift series of free items, and extra gifts for lifetime members. Item names are given in French and are only loosely matched to client strings."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

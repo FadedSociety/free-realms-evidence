@@ -1,0 +1,30 @@
+{
+ "title": "Uncle-Sam summer items",
+ "names_seen": [
+  "Uncle-Sam summer items"
+ ],
+ "facts": [
+  {
+   "statement": "The Uncle-Sam summer items were only available in the Marketplace until 10 August 2011, after which they were no longer obtainable.",
+   "numbers": {
+    "last_available_day": 10,
+    "last_available_month": 8,
+    "last_available_year": 2011
+   },
+   "era": "live",
+   "quote": "Ab Mittwoch, den 10. August 2011 sind sie nicht mehr erhältlich!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2171",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2171",
+   "date": null,
+   "title": "Free Realms - ¿Qué novedades hay?",
+   "summary": "A freerealms.com news post (page in Spanish chrome, body in German) announcing that the Uncle-Sam summer items would leave the Marketplace, with a deadline of Wednesday 10 August 2011. It lists the Uncle-Sam outfit pieces and three colored sparklers, marked (SC), and tells players to buy them from the Marketplace before then. The page does not state the item prices."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-13243 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2867, 4, 624] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a fan-forum error page (\"exceeded the maximum number of posts you can view\") with the forum index and navigation, not a thread. It contains no Free Realms quest, item, price, event, or mechanic information a rebuild could use.", "facts": [], "quests": [], "uncertain": ["The capture shows only a vBulletin view-limit error and forum navigation; the intended thread body is absent, so no thread title, author, date, or post content could be read.", "The page belongs to the Free Realms fan forum, but it does not itself describe the game, so about_free_realms is marked false."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifrostpetal-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3492, 5102, 6, 1028] model=claude-haiku-5-5 -->
+# Frostpetal
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind / sources", "issue": "Checked the client and wiki: 'Frostpetal' (locale 5448) is an npc_name, and her dialog (locale 7063, 430860) calls her the town greeter for Snowhill Village. The wiki page describes her as a pixie NPC in Snowhill with no coin, Station Cash or IGD price. The answer's claim that she is not an item holds, and its empty sources and null retirement are correct.", "fix": "No change needed for the item question. Optional: the 'Quests' and 'Appearances' lists on the wiki page (Meet the Mayor!, Ninja: Return to the Mentor, Snowhill Secret Society, Ninja: Troubled Waters) are cited as quest giver/appearance evidence, which is accurate as worded. Liveness is correctly left open."}]}

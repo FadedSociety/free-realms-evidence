@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iskullz-biker-gang-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3970, 9786, 6, 937] model=claude-haiku-5-5 -->
+# Skullz biker gang
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor naming inconsistency: the answer says 'Skullz Chopper' (card-duelist reward, repo notes Card Duelist.md), but the articles facts list the Rumbledome! questline reward as 'Skullz Choppa' (articles/facts.json:32730-32735). The two spellings may be the same item or two different items; the answer should not treat them as one without checking.", "fix": "Check the item name against the client locale and the Rumbledome! questline reward before reusing it. Source: articles/facts.json 'Skullz Choppa' and the repo Card Duelist notes."}]}

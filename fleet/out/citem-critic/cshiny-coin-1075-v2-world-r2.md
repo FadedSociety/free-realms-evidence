@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-coin-1075-v2-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4181, 4732, 6, 1078] model=claude-haiku-5-5 -->
+# Shiny Coin
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The only source is the client description (locale 24229: 'This item can be added to a collection.'), which supports kind 'collection' but names no collection. The detail still leans on generic wiki text about sparkling spawn objects and floating exploration coins, which is not evidence about Shiny Coin. It reads as a spawn source even though where is null.", "fix": "Keep the source as 'client description only: can be added to a collection (locale 24229)'. Move the sparkling-spawn and exploration-coin text into open as an unverified possibility, not as a source for this item."}]}

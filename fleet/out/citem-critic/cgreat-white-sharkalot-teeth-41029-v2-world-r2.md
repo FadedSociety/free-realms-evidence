@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgreat-white-sharkalot-teeth-41029-v2-world-r2 status=no_submit turns=2 usd=0.0015 tokens(read,write,in,out)=[4059, 7876, 6, 987] model=claude-haiku-5-5 -->
+# Great White Sharkalot Teeth
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "The Collections wiki page says the set is gathered 'from sharks as large as the Great White'. The answer cites that page only for the collection's existence and leaves the gathering line out of its open notes. It is a set-level statement, not an item-level source, so it does not justify a source row for this teeth variant.", "fix": "Keep sources empty. Add a line to open noting the wiki's 'gather from sharks' wording (wiki: Collections, 'Shark Teeth Fossils' section) as an unverified, set-level lead for how the teeth are obtained, to be checked against drop data or video."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iendless-ice-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3146, 4077, 6, 828] model=claude-haiku-5-5 -->
+# Endless Ice
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "Labelled 'other' although the evidence shows Endless Ice is a location (wiki infobox LocationInfobox, categories Locations and Unused), not an item. Accurate in substance, but a clearer kind would be 'location' or a 'not an item' flag.", "fix": "Record kind as location/not-an-item. Source: wiki page Endless_Ice (rev 50069), categories Locations, Unused."}, {"field": "retired", "issue": "Null is acceptable, but the Unused category is the evidence for an unreleased status, so the answer could state it explicitly rather than leave retired unset.", "fix": "Optionally set retired to 'never released (Unused category)'. Source: wiki page Endless_Ice categories."}]}

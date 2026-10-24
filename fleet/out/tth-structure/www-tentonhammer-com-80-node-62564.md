@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-62564 status=nothing_found turns=1 usd=0.0013 tokens(read,write,in,out)=[0, 8043, 4, 628] model=claude-haiku-5-5 -->
+# Mabinogi: Pioneers of Iria Fact Sheet Released | Ten Ton Hammer
+
+{"article": {"title": "Mabinogi: Pioneers of Iria Fact Sheet Released", "date": "2009-02-02", "author": "Cody Bye", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer news post covers Nexon's Mabinogi expansion, Pioneers of Iria: the new continent Iria, its three areas (Rano, Connus, Physis), the Elf and Giant races, exploration quests, dungeons, actions and skills. It does not describe Free Realms. The only Free Realms references are site sidebar links to unrelated articles, which are not facts about the game.", "facts": [], "quests": [], "uncertain": ["The page is about Mabinogi, not Free Realms. Free Realms appears only in the MMO list and sidebar links, so no Free Realms facts were recorded."]}

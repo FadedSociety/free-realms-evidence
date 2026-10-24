@@ -1,0 +1,29 @@
+{
+ "title": "2nd Birthday Party",
+ "names_seen": [
+  "2nd Birthday Party"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms' second birthday event ran from the start of the post until May 18; the game turned 2 years old on April 28.",
+   "numbers": {
+    "birthday_day": 28,
+    "event_end_day_May": 18
+   },
+   "era": "live",
+   "quote": "On April 28th Free Realms ™ will be two years old!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2106",
+   "date": "2011-04-21"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2106",
+   "date": "2011-04-21",
+   "title": "2nd Birthday Party For Free Realms",
+   "summary": "Announces Free Realms' 2nd birthday party, running from the post date until May 18 (captured 2011-04-30; the post says 'Posted 1 week, 1 day ago', so the date is inferred and approximate). Covers party areas, Speak-to-Camellia quest hub in Sanctuary, Cakenstein battle, birthday rewards, and Marketplace cakes, crates and pets."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

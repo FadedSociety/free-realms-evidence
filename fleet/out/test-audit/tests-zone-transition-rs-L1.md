@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-zone-transition-rs-L1 status=done turns=5 usd=0.0047 tokens(read,write,in,out)=[34177, 16046, 12, 4698] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/zone_transition.rs lines 1-248 of 248
+
+Two findings in `tests/zone_transition.rs` lines 1-248. Read against `src/zone_transition.rs` (decode at :190-264, `Cursor::text` at :174-185, `Cursor::take` at :137-152). The rest of the window holds up: the field-layout, round-trip, NaN/inf, boolean canonicalisation, trailing-byte and encode-oversize tests all exercise real code paths. The ignored capture gate at :232-233 has a reason and checks a SHA-256 and fields, so it is not a silent skip.
+
+- **[medium] tests/zone_transition.rs:127 bounded_string_reads_refuse_oversize_overrun_and_negative_lengths - the decode-side `MAX_STRING_BYTES` bound is never shown to be what refuses the oversize case.**
+  - Why it cannot catch a regression: the frame in the oversize case (:128-130) is about 87 bytes. Its declared scene length of 4097 is refused by `Cursor::take` running past the frame, not by the bound at `src/zone_transition.rs:176`. Deleting or loosening that bound still leaves the test green.
+  - Fix: build a frame whose scene really is `MAX_STRING_BYTES + 1` bytes long, with the outer length field recomputed to match. Assert the error text names the bound (for example "outside 0..=4096"), so the test fails if the bound check is removed.
+
+- **[low] tests/zone_transition.rs:132-141 bounded_string_reads_refuse_oversize_overrun_and_negative_lengths (overrun and truncated cases), and :199-205 short_tails_trailing_bytes_and_oversize_strings_are_refused (short tail) - the "overrun" and "short tail" cases are refused by the outer declared-length check, so `Cursor::take` is never reached.**
+  - Why it cannot catch a regression: `decode` rejects any frame whose `bytes[3..7]` differs from `len - 7` (`src/zone_transition.rs:203-209`) before reading any field. `valid_bytes()[..12]` and `bytes[..len-1]` both fail there. Removing the `take` bounds check, or the per-field overrun check, would not change the result. The i32::MAX case at :133 is refused by the length bound at :176, not by an overrun.
+  - Fix: after truncating or enlarging the frame, rewrite `bytes[3..7]` to `len - 7`, so the frame is self-consistent. Then assert the error comes from the cursor (for example a "runs past the frame" message). Add one in-bound scene length larger than the remaining bytes, so the overrun branch itself is exercised.

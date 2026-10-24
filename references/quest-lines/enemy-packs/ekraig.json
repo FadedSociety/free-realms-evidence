@@ -1,0 +1,39 @@
+{
+ "title": "Kraig",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_rumbledome.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:410345 [npc_name | - | -] 'Kraig'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:410576 [npc_dialog | - | Kraig] 'Ouch!  And down goes Kraig!'"
+ ],
+ "client_cluster": [
+  "locale:410338 [quest_objective | Snowhill | Lucca De'Flor] \"Obtain the items Lucca De'Flor has requested so he can make a special new dish.\"",
+  "locale:410339 [quest_objective | Snowhill | Lucca De'Flor] 'Reel in Frostgill Smelt'",
+  "locale:410340 [quest_objective | Snowhill | Frostgill Smelt] \"Lucca De'Flor needs some Frostgill Smelt for his new dish! Fish of that type swim at the Frostbitten Banks.\"",
+  "locale:410341 [npc_name | - | -] 'Bronzeknuckles'",
+  "locale:410342 [npc_name | - | -] 'Silverfist'",
+  "locale:410343 [quest_objective | Snowhill | Lucca De'Flor] 'Harvest some Spiralmint'",
+  "locale:410344 [quest_objective | Snowhill | Spiralmint] \"Lucca De'Flor needs some Spiralmint for his new dish! It's easily found just outside of Snowhill at Perry's Pasture.\"",
+  "locale:410345 [npc_name | - | -] 'Kraig'",
+  "locale:410347 [quest_objective | Snowhill | Lucca De'Flor] \"Return the ingredients to Lucca De'Flor in Snowhill.\"",
+  "locale:410348 [npc_name | - | -] 'Krissy'",
+  "locale:410349 [quest_objective | Snowhill | Chip Numbwing] 'Deliver to Chip Numbwing'",
+  "locale:410350 [quest_objective | Snowhill | Chip Numbwing] 'Deliver the catch of the day!'",
+  "locale:410351 [quest_objective | Snowhill | Cap'n Sigmundr] \"Deliver to Cap'n Sigmundr\"",
+  "locale:410353 [npc_name | - | Goldcrusher | FLAG fragment: partial name (Geothem Goldcrusher)] 'Goldcrusher'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

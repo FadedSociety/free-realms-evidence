@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfish-wind-sock-banner-147984-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3936, 5761, 6, 960] model=claude-haiku-5-5 -->
+# Fish Wind Sock Banner
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "The 'live: yes' rests partly on store source_tags (L1, L2, L4, R1, R2, T633). Those tags are the same set carried by the neighbouring items 18149 to 18158, so they show the store row exists but do not separately date it. The answer already flags this as moderate confidence, so this is a weak point, not an error.", "fix": "Keep live 'yes' with moderate confidence, citing repo:prototype/osfr-tools/data/content/stores.json:4501-4502 as the store rows. No current-store check is available."}]}</niskip>

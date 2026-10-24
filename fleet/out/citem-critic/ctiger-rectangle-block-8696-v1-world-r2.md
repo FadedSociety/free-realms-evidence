@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctiger-rectangle-block-8696-v1-world-r2 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[11961, 8878, 8, 1222] model=claude-haiku-5-5 -->
+# Tiger Rectangle Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The store row's source_tags (L1, L2, L4, R2, T633, R1) are not explained by the answer. They are shared by the whole category 147 block of rows (32664 to 32690, all 5 coins, member 4, sell 1), so they look like a shared store-list tag rather than a vendor. The answer's open list covers the missing vendor but not these tags.", "fix": "Note in open that source_tags are shared across category 147 rows (repo:prototype/osfr-tools/data/content/stores.json:8295-8321) and do not name a vendor or zone. The 5-coin / member 4 / sell 1 row at stores.json:8312 checks out as stated."}]}

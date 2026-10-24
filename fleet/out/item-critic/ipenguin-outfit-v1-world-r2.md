@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ipenguin-outfit-v1-world-r2 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[12324, 9887, 8, 1421] model=claude-haiku-5-5 -->
+# Penguin Outfit
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources", "issue": "The only source is the Station Cash Marketplace during Snow Days. The wiki (Super Spooktacular and Snow Days pages, rev 48701) says the Penguin Outfit was a Spooktacular item in 2009 before moving to Snow Days in 2010. That earlier acquisition is noted in evidence but not recorded as a source, and no 2009 price or vendor is evidenced, so it should stay out of sources unless a 2009 acquisition is confirmed.", "fix": "Keep the single SC Marketplace source. Optionally note in the item record: 'Spooktacular item in 2009; moved to Snow Days from 2010 (Super Spooktacular and Snow Days wiki pages)', with no price attached. Source: freerealms-wiki/wikitext/2502-48701 and 3113-48700."}]}

@@ -1,0 +1,6 @@
+<!-- fleet job=citem-critic id=cracing-basic-anti-mine-armor-a-114891-v1-world-r2 status=no_submit turns=4 usd=0.0022 tokens(read,write,in,out)=[21977, 10250, 10, 1482] model=claude-haiku-5-5 -->
+# Racing Basic Anti-Mine Armor A
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] (Cost 5000 note)", "issue": "The answer states that the definition's Cost 5000 is 'an internal field, not a store price' without a source that says so. No evidence in the pack establishes what the field means. It is not a price claim, so the answer is still true as far as it goes.", "fix": "Say only that Cost 5000 is unexplained and that no store price for id 59643 is evidenced. No coin or Station Cash price is assigned."}]}
+
+The world checks hold up. The wiki's Race Kart Parts list (refs wiki 2242-43382, lines 492-509) has 'Advanced Anti-Mine Armor - SC 90' and no Basic A row, so the answer correctly keeps that price off this item. No other wiki page, locale line, or vendor row names this item, so the empty sources and null retirement are honest. The item is not wireable because no source gives it a price, quest, or drop. The Sanctuary load-failure log line was cited by the answer but I did not re-verify it.

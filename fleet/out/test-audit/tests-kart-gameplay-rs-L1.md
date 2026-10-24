@@ -1,0 +1,24 @@
+<!-- fleet job=test-audit id=tests-kart-gameplay-rs-L1 status=done turns=9 usd=0.0147 tokens(read,write,in,out)=[219856, 45268, 20, 13677] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/kart_gameplay.rs lines 1-1200 of 1267
+
+Window reviewed: `prototype/osfr-tools/tests/kart_gameplay.rs` lines 1-1200 (the remainder 1200-1267 read only to confirm the `on_restart` and finish-save claims). Every test here is `#[ignore]`d with a reason, and the fixtures are read with `unwrap`, so nothing passes by early return. Most assertions compare real state (snapshots, inventory, profiles, session, exact wire bytes) and would catch the regressions their names describe. I found two real holes, one overclaim, and a few pinned values.
+
+- **[medium] prototype/osfr-tools/tests/kart_gameplay.rs:446 private_pickup_gateway_grant_use_rollback_and_restore - the spawn check builds its expected bytes with the same encoder the gateway uses, so an encoder bug passes.**
+  - Why it cannot catch a regression: `assert_eq!(&packet[7..], osfr_tools::kart_pickups::encode_create(spec))` compares the gateway output with `encode_create`, and the gateway emits packets with that same function (`src/kart_pickups.rs:578`, `.map(encode_create)` at `:451`). Any change inside `encode_create`, such as a wrong handle, type, or position field, changes both sides and still passes. The same pattern covers the grant and destroy checks at lines 509-510 (`encode_grant(5)`, `encode_destroy(specs[0].handle)`). The rest of the file uses literal bytes (for example `[33, 0, 20, 0, 5, 0, 0, 0]` at line 591 and the `[33,0,18,0,4,0,0,0]` checks at lines 306 and 314), so the literal form is already the local convention.
+  - Fix: compare each packet with literal expected bytes: the sub-opcode header `[33,0,15,0]` followed by `specs[i].handle` as LE u32, the item type, and the position as LE f32s written out explicitly in the test, and for grant/destroy the literal `[33,0,18,0,5,0,0,0]` and the literal destroy header plus handle.
+
+- **[low] prototype/osfr-tools/tests/kart_gameplay.rs:165 private_actual_native_checkpoint_capture_completes_three_laps and :239 private_actual_native_route_pays_registered_reward_once - exact counts (93 accepted, 94 progress frames) are pinned to one capture and an unexplained arithmetic offset.**
+  - Why it cannot catch a regression: it is not a regression check. Any unrelated extra progress frame, or a changed registration sequence, breaks the count even when the lap and reward assertions still hold. The `94` is stated as "initial progress plus93", but the `+1` is never derived in the test.
+  - Fix: assert `accepted == progress - 1` against a named constant (for example `INITIAL_PROGRESS_FRAMES`) with a comment on where that frame comes from. Or assert `>= 93` plus the laps, phase, and reward checks that already carry the behaviour.
+
+- **[low] prototype/osfr-tools/tests/kart_gameplay.rs:262-263 private_v15_shield_respawn_preserves_paid_economy, :293 (same test), and :421 private_pickup_gateway_grant_use_rollback_and_restore - the authored pickup counts (15 total, 5 of type 4, 37 specs) are hard-coded.**
+  - Why it cannot catch a regression: these check fixture content, not the behaviour the tests name. Adding or removing one authored pickup fails tests about shield respawn and rollback, not the content change itself.
+  - Fix: derive the expected count from `cfg.race.pickups.len()` (and the type-4 count from the same config), and keep a single dedicated content test for the authored total.
+
+- **[low] prototype/osfr-tools/tests/kart_gameplay.rs:660 private_gateway_entry_save_restore_spoof_job_guard_and_abort - `unwrap_or(48_000_001)` silently supplies a guessed instance when `next_instance` is absent.**
+  - Why it cannot catch a regression: the fallback is not a skip, but the expected zone at line 661 then rests on a constant the test invented, not on the fixture or the code. If the fixture changes so the field is missing, the test checks the guess.
+  - Fix: `.expect("initial-character.json must carry gameplay.kart_entry.next_instance")`, or derive the expected instance from the value `race_start` uses, with no fallback.
+
+- **[low] prototype/osfr-tools/tests/kart_gameplay.rs:1027-1035 complete_private_race (reached from private_complete_race_pays_once_and_preserves_both_banks_on_restart) - the refill loop hard-codes three accepted slots; the comment says the count comes from config but the test does not read config.**
+  - Why it cannot catch a regression: a config change to the refill slot count fails the test with no message about its cause. A bug that accepts or refuses a slot in the wrong place is still caught only by the fourth-entry refusal at line 1046.
+  - Fix: read the slot count from `race` config (or the gateway's refill definition) and loop `slots - 1` times, with `assert_eq!` on the accepted count against that same value.

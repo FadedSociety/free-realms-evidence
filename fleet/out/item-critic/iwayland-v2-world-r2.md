@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwayland-v2-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3927, 5741, 6, 1499] model=claude-haiku-5-5 -->
+# Wayland
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.locale_id / kind", "issue": "Wayland (5102116) is an NPC name, not an item. The answer correctly says so and leaves sources empty. The locale tool did not return a hit for the bare id in my check, but the evidence pack's client_name_matches row (npc_name) and the repo NPC record (npc_id 9500000780) both agree it is the merchant NPC.", "fix": "No change to the verdict. If this item is re-queued, it should be re-run against the item names it sells (Bending Blacksmith Apron/Goggles/Gloves/Boots/Shirt, Blacksmith's Flair Shard of Tempering, Power Shard of Timing III, Necklace of Timing III, Forgeblower of Timing III), which the wiki lists under 'Sells' with no prices."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=camazing-coat-dog-supplement-24595-v2-world-r2 status=done turns=4 usd=0.0027 tokens(read,write,in,out)=[26553, 12895, 10, 1681] model=claude-haiku-5-5 -->
+# Amazing Coat - Dog Supplement
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] repo search note", "issue": "The answer says the repo search found no hit for 24595 apart from unrelated numbers. The refs copy of quest-lines/line-packs.json has locale:24595 at line 13786, but only as a neighbouring line in the context_after of dialog block l24588 (no quest_answers, no npc_answers). It is not an acquisition source, so the conclusion stands. The wording should say the only hit is a context neighbour.", "fix": "Note that quest-lines/line-packs.json:13786 (refs copy, block l24588) lists locale 24595 only as a context_after neighbour; it names no quest, vendor or reward."}]}

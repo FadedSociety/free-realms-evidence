@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iskullz-hooligan-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3186, 9240, 6, 1016] model=claude-haiku-5-5 -->
+# Skullz Hooligan
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' with no evidence either way. The pack has no live/retired signal for this NPC, so 'unsure' is an honest unknown, not an error.", "fix": "Leave as unknown unless a live or retired source is found. No change required for pass."}, {"field": "kind", "issue": "Kind 'other' is a loose label for an enemy NPC that is not an item. Its only evidence is the wiki page, the client npc_name row (locale:439218, Sunstone Valley) and the Sunstone Valley page's Skullz dwarf list. All three check out.", "fix": "Keep the NPC framing, and note in the answer that this is an enemy NPC rather than an item acquisition record."}]}

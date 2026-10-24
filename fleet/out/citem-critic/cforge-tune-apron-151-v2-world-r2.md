@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cforge-tune-apron-151-v2-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4298, 4962, 6, 1013] model=claude-haiku-5-5 -->
+# Forge Tune Apron
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The claim that the coin price 291 is shared by many stores.json rows (item_ids 109, 112, 113, 115, 135, 147, 149) rests on a prior critique and was not re-verified in the repo. My search for 'Forge Tune|Anvil Song|Ash Branded|Elite Pink Slag' found only the Card Duelist.md:209 line, and the lookup found only locale:151 for 'Forge Tune Apron'.", "fix": "Either re-check stores.json for item_ids 109-149 and 291 and cite the rows, or state the 291 price as unlinked. Until then the answer's conclusion (no vendor sale is evidenced) stands, but the store-row claim should be cited or dropped."}]}

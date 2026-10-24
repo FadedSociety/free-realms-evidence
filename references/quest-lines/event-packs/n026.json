@@ -1,0 +1,77 @@
+{
+ "title": "Super Fan Days",
+ "names_seen": [
+  "Super Fan Days"
+ ],
+ "facts": [
+  {
+   "statement": "SOE's 'Super Fan Days' promotion ran from Wednesday 3 November 2010 to Tuesday 9 November 2010.",
+   "numbers": {
+    "start_day_nov_2010": 3,
+    "end_day_nov_2010": 9
+   },
+   "era": "live",
+   "quote": "commencera mercredi 3 Novembre 2010 jusqu'à mardi 9 Novembre 2010",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1885&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "Super Fan Days ran for seven days, offering discounts on some in-game items and on Station Cash purchases.",
+   "numbers": {
+    "duration_days": 7
+   },
+   "era": "live",
+   "quote": "Pendant les sept prochains jours, découvrez des offres incroyables sur quelques objets en jeu et sur des achats Station Cash!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1895&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "Super Fan Days was a November promotion running seven days with in-game item sales and Station Cash purchase deals for fans.",
+   "numbers": {
+    "duration_days": 7
+   },
+   "era": "live",
+   "quote": "por un periodo de siete días vamos a tener ofertas de artículos en el juego y compras por Station Cash",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1896",
+   "date": null
+  },
+  {
+   "statement": "Super Fan Days was a seven-day promotion offering in-game item sales and Station Cash purchase deals to fans.",
+   "numbers": {
+    "duration_days": 7
+   },
+   "era": "live",
+   "quote": "por un periodo de siete días vamos a tener ofertas de artículos en el juego",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1897",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1885&request_locale=en_US",
+   "date": null,
+   "title": "Les 'Super Fan Days' de SOE!",
+   "summary": "A French-language SOE news post announcing the 'Super Fan Days' promotion, running Wednesday 3 November 2010 to Tuesday 9 November 2010. It offered 50% off Station Cash purchases of 2000 Station Cash or more, plus discounted items across several SOE games including Free Realms, with a rotating one-day item sale each day. The page gives no posting date beyond the relative 'posted 7 months, 2 days ago' stamp, so the exact post date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1895&request_locale=en_US",
+   "date": null,
+   "title": "Détails sur 'Super Fan Days' de SOE! (captured under 'Free Realms - What is New?')",
+   "summary": "A French-language SOE news post describing the 'Super Fan Days' promotion: a daily rotating in-game item discount and a 50% discount on Station Cash purchases of 2,000 or more. The post gives the promotion's run as seven days, with the special item at 50% off on November 3 to 9, and the page is dated only as posted 7 months ago, so the exact year is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1896",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language SOE news post promoting a November 'Super Fan Days' sale in Free Realms: a 50% discount on Station Cash purchases of 2,000 or more, and a daily 50%-off in-game item from November 3 to November 9. The year is not stated in the text (the 'posted 7 months ago' stamp is relative to capture), so the date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1897",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language freerealms.com news post (\"Detalles de Super Fan Days\") describing a November Super Fan Days sales promotion: item discounts and Station Cash offers for fans, with a daily 50% off in-game item from November 3 to 9. The post gives no year; its 'Posted 7 months, 22 hours ago' relative stamp against the 2011-06-04 capture implies roughly late 2010, which is an inference and is flagged as uncertain."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

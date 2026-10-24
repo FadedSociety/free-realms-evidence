@@ -1,0 +1,12 @@
+<!-- fleet job=bug-hunt id=src-matchmaking-rs-L801 status=nothing_found turns=5 usd=0.0090 tokens(read,write,in,out)=[69692, 32281, 12, 8546] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/matchmaking.rs lines 801-1600 of 1601
+
+Reviewed `prototype/osfr-tools/src/matchmaking.rs` lines 801-1600 in full, then checked the callers (`gameplay/matchmaking_route.rs:12-33`, which calls `handles` -> `Listings::from_activities` -> `route`) and the constants at lines 14-31 (`MAX_WIRE_ROWS=4096`, `QUEUE_ROW_BYTES=78`, `OUTER_HEADER_BYTES=7`, `JOIN_QUEUE_ID_IN_BODY=0x0c`, `JOIN_BODY_PREFIX=0x10`). No finding meets the bar.
+
+What I checked and why each is safe:
+- **Panics on client bytes:** every slice/index is preceded by a length check or goes through `read_u16`/`read_u32`/`read_u64`, which use `get()` and return `Err`. `route` FAMILY_LOBBY `inner[2]` is guarded by `handles` (len >= 3). `QueueRow::decode_from` checks len >= 78 before `bytes[76]`/`[77]`. `InviteMemberNotice::decode` checks `body.len() == status_offset + 5` before `body[status_offset]`, and `status_offset` is at least 12, so `body[12..status_offset]` is valid.
+- **Unbounded client counts:** every client-supplied count goes through `checked_count` (cap 4096) and is followed by an exact-length or `end > len` check. Both the `QueueListResponse` and `decode_activity_launched` offsets use `checked_mul`/`checked_add`. Blob lengths (`InviteMemberNotice`, `Packet141`, `GroupLaunchPacket`, `TunnelFrame`) are capped at 1 MiB before any allocation.
+- **Atomicity / trust:** `route` builds replies and a refusal without mutating anything (`&Listings`, no state). The join path refuses and never reads a client-supplied id as authority. The caller `handle_matchmaking` takes `&self`.
+- **Doc/code contradictions:** the join body offset, `QUEUE_ROW_BYTES` = 19 dwords + 2 flags, and the param/unknown slot placement in `QueueRow::new` match their comments. The `EmptyRunningListResponse` and `read_u32_array` bounds match their doc comments.
+
+Things I looked at and rejected as not client-triggerable or not defects: `Listings::from_activities` errors on a zero or duplicate battle id, but that comes from server catalogue data, not a packet. A family-41 packet of exactly 3 bytes yields an `Err` from `route`, but that is the documented "recognized but malformed is an error" policy and I could not show a real packet of that length reaching it. Queue-list cloning and O(n²) duplicate checks are performance only.

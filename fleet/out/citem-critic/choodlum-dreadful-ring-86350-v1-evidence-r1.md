@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=choodlum-dreadful-ring-86350-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3771, 9641, 6, 1038] model=claude-haiku-5-5 -->
+# Hoodlum Dreadful Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The sibling-set claim cites locale:86585-86593 for 'Hoodlum <Element> Necklace' rows, which I did not verify. The 'Dreadful Ring' family names listed (Dull, Rascal, Intern, Sneak, Grunt, Sage, Hardwood, Granite, Metallic, Jeweled, etc.) do check out in the client lookup. This is a minor, unverified detail, not a source for acquisition.", "fix": "Either confirm locale:86585-86593 via the locale tool (search 'Hoodlum .* Necklace') or drop the citation. Nothing in the answer's retired/live/source fields depends on it."}]}

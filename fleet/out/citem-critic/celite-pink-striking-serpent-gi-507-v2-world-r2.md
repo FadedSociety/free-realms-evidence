@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-pink-striking-serpent-gi-507-v2-world-r2 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[13183, 9830, 8, 1539] model=claude-haiku-5-5 -->
+# Elite Pink Striking Serpent Gi
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The category is named only as '103'. The repo's cosmetic slot table (prototype/osfr-tools/src/restoration/piece_045.rs lines 55-95) maps category 103 to slot 3, 'Shirts & Dresses' (name_id 23321). The item's slot 3 and chest clothing class fit that category, so the detail is correct but incomplete.", "fix": "Say 'coin store category 103 (Shirts & Dresses, slot 3, per piece_045.rs)'. The price row itself is verified: stores.json line 116 has item_id 172, category 103, purchase 9453, member 8507 (10% off), sell 945, tint_group null, matching the answer."}]}

@@ -1,0 +1,71 @@
+{
+ "title": "Changeling Heartbreaker",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 427522,
+   "definition_id": 930002,
+   "model_id": 2041,
+   "max_health": 340,
+   "damage": 31,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 427522,
+   "definition_id": 930002,
+   "model_id": 2041,
+   "max_health": 340,
+   "damage": 31,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 427522,
+   "definition_id": 930002,
+   "model_id": 2041,
+   "max_health": 340,
+   "damage": 31,
+   "boss": false
+  },
+  {
+   "file": "dungeons\\stone_heart_s_hideaway.json",
+   "definition_id": 930002
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:427522 [quest_title | Merry Vale | Changeling Heartbreaker] 'Changeling Heartbreaker'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:427505 [quest_objective | Merry Vale | Changeling Heartbreaker] \"Help bring the love back to Merry Vale by mending broken hearts during Stone Heart's Rampage.\"",
+  "locale:427506 [quest_objective | Merry Vale | Changeling Heartbreaker] 'Defeat heartbreakers with the power of love'",
+  "locale:427507 [quest_objective | Merry Vale | Changeling Heartbreaker] \"Love potions have the power of love, and can be found scattered around Merry Vale during Stone Heart's Rampage.\"",
+  "locale:427508 [quest_objective | Merry Vale | Changeling Heartbreaker] 'Return to Jecca'",
+  "locale:427509 [quest_objective | Merry Vale | Changeling Heartbreaker] \"Let Jecca know that you've mended a few broken hearts.\"",
+  "locale:427510 [quest_dialog | Merry Vale | Changeling Heartbreaker] \"No one should suffer a broken heart! You'll help mend them, won't you?<BR><BR>Just use one of the love potions that appear during Stone Heart's Rampage.\"",
+  "locale:427522 [quest_title | Merry Vale | Changeling Heartbreaker] 'Changeling Heartbreaker'",
+  "locale:427533 [quest_objective | Merry Vale | Changeling Heartbreaker] \"Enter Stone Heart's hideaway on the western side of Merry Vale.\"",
+  "locale:427538 [quest_objective | Merry Vale | Changeling Heartbreaker] \"Enter Stone Heart's Hideout and Speak to Stone Heart.\"",
+  "locale:427539 [quest_dialog | Merry Vale | Changeling Heartbreaker] \"Speak to Stone Heart.  Don't worry his minions will not attack you.  This time...\""
+ ],
+ "client_cluster": [
+  "locale:427516 [quest_objective | Merry Vale | Cudip] 'Collect flowers'",
+  "locale:427517 [quest_objective | Merry Vale | Cudip] \"Collect flowers that only grow in Stone Heart's Hideaway!\"",
+  "locale:427519 [quest_objective | Merry Vale | Cudip] 'Bring the flowers back to Cudip in Merry Vale.'",
+  "locale:427520 [quest_objective | Merry Vale | Cudip] \"You won't find the <font color='#D9781A'>flowers</font> I need just standing here. You need to enter <font color='#D9781A'>Stone Heart's Hideaway</font>!\"",
+  "locale:427522 [quest_title | Merry Vale | Changeling Heartbreaker] 'Changeling Heartbreaker'",
+  "locale:427526 [npc_dialog | - | - | FLAG fragment: reply option with no quest meaning on its own] 'I have another question.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:EP2-qVs1mR8/00002.jpg (-): npcs: Changeling Heartbreaker nameplate  | landmarks: sunflower green grass field | job_level: Archer 20 | other_text: Your job has been switched because you are entering a combat area. Changeling Heartbreaker",
+  "video:p5sDafXSQtQ/00076.jpg (-): npcs: Ratsplat nameplate  | landmarks: orange tree trunk sunflowers | job_level: Adventurer 20 | other_text: Fairy Cultist Changeling Heartbreaker",
+  "video:p5sDafXSQtQ/00078.jpg (-): npcs: Verna nameplate  | landmarks: sunflowers pink balloons | job_level: Adventurer 20 | other_text: Changeling Heartbreaker Sous-Chef Elden Fairy Cultist",
+  "video:p5sDafXSQtQ/00066.jpg (-): npcs: Ratsplat nameplate  | landmarks: flower patches wooden fence | job_level: Adventurer 20 | other_text: Fairy Cultist Changeling Heartbreaker Sous-Chef Elden",
+  "video:p5sDafXSQtQ/00070.jpg (-): npcs: Ratsplat nameplate  | landmarks: sunflower stalks heart balloons | job_level: Adventurer 20 | other_text: Fairy Cultist Changeling Heartbreaker Sous-Chef Elden"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

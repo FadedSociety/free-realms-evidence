@@ -1,0 +1,30 @@
+{
+ "title": "Haiti relief Station Marketplace promotion",
+ "names_seen": [
+  "Haiti relief Station Marketplace promotion"
+ ],
+ "facts": [
+  {
+   "statement": "From January 15 to January 18, 2010 (until 11:59pm PST), SOE offered specific Free Realms items priced at 500 Station Cash on the Station Marketplace, with SOE contributing $10 toward Haiti relief per 500 SC redeemed, up to $25,000.",
+   "numbers": {
+    "item_price_station_cash": 500,
+    "contribution_usd_per_purchase": 10,
+    "contribution_cap_usd": 25000
+   },
+   "era": "live",
+   "quote": "From January 15th to January 18th, players can redeem 500 station cash towards the purchase of these items and SOE will contribute $10 (up to $25,000)",
+   "article": "http://www.tentonhammer.com:80/node/79393",
+   "date": "2010-01-17"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/79393",
+   "date": "2010-01-17",
+   "title": "Sony Online Entertainment Begins Haiti Charity Relief Drive",
+   "summary": "SOE's announcement of a Haiti relief promotion covering EverQuest, EverQuest 2 and Free Realms. Free Realms is one of three games whose Station Marketplace items were part of the drive, so the article gives only a promotion window and a donation rate, not Free Realms-specific game content. The article does not name which Free Realms items were eligible."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

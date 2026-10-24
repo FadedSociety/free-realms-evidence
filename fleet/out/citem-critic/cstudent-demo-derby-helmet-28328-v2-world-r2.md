@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstudent-demo-derby-helmet-28328-v2-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3539, 4218, 6, 912] model=claude-haiku-5-5 -->
+# Student Demo Derby Helmet
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The restoration-table claim (piece_041.rs:156-176: Amateur helmet at rank 6, All-Star at rank 15, Expert at rank 16, Student 28328 absent) was not re-read by me. My check only confirmed the Student row in notes/Build Guides/Content/Jobs/Demolition Derby Driver.md:183 with no acquisition source and [client] tag.", "fix": "Read prototype/osfr-tools/src/restoration/piece_041.rs:156-176 to confirm the rank rows and the absence of 28328 before relying on the 'rank-gated derby family' inference. The answer's claim that the tier's source is unresolved stands."}]}

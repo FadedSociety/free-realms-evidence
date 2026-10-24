@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-harvesting-job-binding-rs-L1 status=done turns=6 usd=0.0030 tokens(read,write,in,out)=[27702, 9577, 14, 3148] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/harvesting_job_binding.rs lines 1-62 of 62
+
+Reviewed `prototype/osfr-tools/tests/harvesting_job_binding.rs` lines 1-62 against `prototype/osfr-tools/src/harvesting.rs` (constants at 49-64, `region` at 356, `content` at 1016, `validate_content` at 1053). The two main tests are sound: `validate_content` really checks `profile_id` against `CHEF_PROFILE_ID` (line 1070), and the wrong-profile cases (111, 15) reach that check because the region lookup succeeds. No `#[ignore]`, no early return, no fixture dependency. Two minor findings:
+
+- **[low] tests/harvesting_job_binding.rs:22 all_supported_regions_bind_the_chef_profile - the `assert_ne!(spec.profile_id, game_id)` cannot fail independently of the `assert_eq!` on line 18.**
+  - Why it cannot catch a regression: `RECOVERED_REGION_GAME_IDS` (harvesting.rs:54) holds only 109-119, and the test already pins `profile_id == 45`, so `game_id == profile_id` would require a game id of 45, which is not in the list. A change that keeps profile 45 for every id still passes, and the second assertion adds nothing the first does not already cover.
+  - Fix: either drop it, or make the intent explicit by asserting that the profile equals `CHEF_PROFILE_ID` and that `game_id` is not in a set of known profile ids. The `assert_ne` as written is redundant rather than wrong.
+
+- **[low] tests/harvesting_job_binding.rs:56-60 non_regional_profiles_still_refuse_launch - `is_err()` accepts any error, so the test does not pin the documented refusal.**
+  - Why it cannot catch a regression: the comment and name say "gap-profile refusal", and `content` (harvesting.rs:1016-1036) refuses these ids through `region()` returning `None` with a `HarvestError::Content` naming the unrecovered produce set. A change that makes these ids fail with a `Schema` error, or with a `board_spec` error, or that breaks the message, still passes. The test does catch the realistic regression where a gap id gets a region entry and becomes launchable, so it is not a hole, but it is weaker than its comment.
+  - Fix: `assert!(matches!(content(game_id), Err(HarvestError::Content(ref m)) if m.contains("produce set")), ...)`, which pins the variant and the refusal reason.

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-spectral-necklace-86633-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[4063, 4471, 6, 865] model=claude-haiku-5-5 -->
+# Shiny Spectral Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[5] (repo search claim)", "issue": "The pack says repo searches for 'Shiny [A-Za-z]+ Necklace|22642|86633' found locale-data dumps (opening-*/en_us_data.dat). My case-insensitive repo search for 'Spectral Necklace|Shiny .* Necklace' returned no matches, so I could not reproduce that claim. It does not change the answer, since the dumps would name the item but are not a source either way.", "fix": "Re-run the repo search with the exact pattern and cite the file and line if the dump hits are real, or drop the claim. Sources stay empty either way."}]}

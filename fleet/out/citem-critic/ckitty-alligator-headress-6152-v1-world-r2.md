@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ckitty-alligator-headress-6152-v1-world-r2 status=done turns=3 usd=0.0025 tokens(read,write,in,out)=[16089, 13231, 8, 1374] model=claude-haiku-5-5 -->
+# Kitty Alligator Headress
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The coin-store source has no vendor or location. The answer says so honestly, and the Kiel link is flagged as unverified, but a builder still cannot place the vendor from this record.", "fix": "No change to the claim is needed. The price is evidenced by repo:prototype/osfr-tools/data/content/stores.json:631 (item 2168, category 6, tint group 1, 50 coins, member 45, sell 5). Leave where as null until a vendor row is found. Kiel (locale:6156) should not be treated as the vendor without a repo link."}]}

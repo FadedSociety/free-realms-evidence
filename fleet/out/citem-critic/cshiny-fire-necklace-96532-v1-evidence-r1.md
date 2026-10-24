@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-fire-necklace-96532-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3495, 4094, 6, 853] model=claude-haiku-5-5 -->
+# Shiny Fire Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence (sibling family)", "issue": "The answer lists only the necklace siblings. The client also has matching rings with the same element names: 'Smooth Void Ring' (locale:96411) and 'Shiny Fire Ring' (locale:96412). The family is wider than the answer says, which matters for the unverified collection/event guess. Nothing in the pack ties either ring to a source, so this does not change the sourcing.", "fix": "Add locale:96411 'Smooth Void Ring' and locale:96412 'Shiny Fire Ring' to the sibling cluster note. Still no source for any member; the family claim stays unverified."}]}

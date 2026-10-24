@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=df5ca80796ab8ccfb5f2bb2cb36f589bacfd347f status=done turns=2 usd=0.0006 tokens(read,write,in,out)=[2046, 2326, 6, 559] model=claude-haiku-5-5 -->
+# Wizard's Forged Wand of Cunning held.jpg
+
+{"kind": "character_or_npc", "has_text": true, "text": "Keith Silvernight\n<Insiders>", "tooltip": null, "entries": null, "uncertain": ["The name line and the guild/tag line are rendered in a decorative gold font over the image; the spelling is read as shown. Neither 'Keith Silvernight' nor '<Insiders>' has a match in the client's locale table (searched 'Silvernight|Insiders|Keith', no matches), so both are reported without a locale_id. The image shows a character holding a red-and-black wand with a flame effect at its tip; the wand's name is not printed in the image, so it is not transcribed as text."]}

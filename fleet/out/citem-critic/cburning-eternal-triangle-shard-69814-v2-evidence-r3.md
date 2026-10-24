@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cburning-eternal-triangle-shard-69814-v2-evidence-r3 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3955, 10427, 6, 1096] model=claude-haiku-5-5 -->
+# Burning Eternal Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The coin_shop source has no vendor or location, and the store row names none. This is honest, but the source is a bare price row, not a located vendor.", "fix": "No fix needed for truth. A vendor or stock row for category 121 would be needed to name the seller. The row itself is confirmed: repo:prototype/osfr-tools/data/content/stores.json:6767 gives item 22912, category 121, purchase 2363, member 2126 (10% off, 2363*0.9 = 2126.7 truncated), sell 236, no_sale false."}]}

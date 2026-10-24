@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ijack-the-rabbit-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3843, 6303, 6, 1037] model=claude-haiku-5-5 -->
+# Jack the Rabbit
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The wiki's Spring Eggstravaganza page lists Jack the Rabbit among the event's rewards, and the Pet Pals page says it is acquired by completing The Eggcellent Egg Hunt. Both support the quest-reward source. The exact step that grants the prize is still not named in the pack, so the source is correct but its trigger is only partly evidenced.", "fix": "Keep the quest_reward source. Note in open that the Pet Pals and Spring Eggstravaganza pages support the reward, but the step that grants it (first quest of the chain) is not confirmed. No price or currency is evidenced, so price null and currency null stay correct."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-champion-s-square-shard-407939-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3876, 7428, 6, 1001] model=claude-haiku-5-5 -->
+# Elite Black Champion's Square Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only evidence is a coin store row (stores.json:14630, category 121, item 67930) with no vendor or NPC named. vendors.json has no 67930 entry. The 'vendor' label implies an NPC source that is not evidenced.", "fix": "Relabel the type as 'coin_store' (or 'store_listing') with where null. The row itself is accurate: purchase 2557 coins, member 2301 (10%), sell-back 255, no_sale false, matching the client coin_store_prices. Name a vendor only once a store-to-vendor mapping for category 121 is found."}]}

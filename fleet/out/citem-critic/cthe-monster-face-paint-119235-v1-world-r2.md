@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cthe-monster-face-paint-119235-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4095, 4903, 6, 929] model=claude-haiku-5-5 -->
+# The Monster Face Paint
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (Super Spooktacular 2010 list)", "issue": "I could not confirm from the wiki lookup that the 2010 Super Spooktacular section names Troll, Phantom and Starry Moons Face Paint Cards. The wiki search returned only the page intro, so the cited list is unverified here. The answer already says it does not name The Monster Face Paint, so this does not change the answer.", "fix": "Re-read the wiki page 'Super Spooktacular' 2010 section to confirm the sibling names before citing it. Do not add it as a source for The Monster Face Paint."}]}

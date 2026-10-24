@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifarnum-s-farm-v1-evidence-r1 status=done turns=3 usd=0.0012 tokens(read,write,in,out)=[9149, 5572, 8, 856] model=claude-haiku-5-5 -->
+# Farnum's Farm
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim 'it is not a collectible' is the author's inference, not something the wiki or article states. The wiki page lists only crops and dungeons, so it supports 'not sold or dropped here' but not the stronger wording.", "fix": "Reword to: the wiki page lists crops and dungeons and no collectible or item sources (wiki: Farnum's Farm, rev 50145). Locale checks confirm locale:382813 is the place name 'Farnum's Farm'; locale:23909 'Farnum Bushel' and locale:23916 'Rich Farnum Bushel' are separate item names."}]}

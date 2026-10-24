@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=b7febfc0c0bd053f4661adfb56fcfff094cdb5f4 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3776, 5114, 6, 522] model=claude-haiku-5-5 -->
+# Cory-rohlfs-graveelementalwire.jpg
+
+{"kind": "art_or_promo", "has_text": true, "text": "FreeRealms\nRIP", "tooltip": null, "entries": null, "uncertain": ["The 'RIP' text is carved on the tombstone in the UV texture map at lower right; it is not in the client locale table (no match for ^RIP$), so locale_id is null.", "The FreeRealms logo at top is a stylized logo graphic, read as shown.", "The image is a wireframe 3D model of the Grave Elemental (with its skull face, hands and spine) beside its UV texture sheet; the wiki file name and page confirm the subject. The client has the name 'Grave Elemental' (id 115851), but that name does not appear as text in the image itself."]}

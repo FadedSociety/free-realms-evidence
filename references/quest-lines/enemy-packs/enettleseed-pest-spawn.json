@@ -1,0 +1,36 @@
+{
+ "title": "Nettleseed Pest Spawn",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\mushroom_mania.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:74001 [other | - | Nettleseed Pest Spawn | FLAG dev_note: spawn label] 'Nettleseed Pest Spawn'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:74001 [other | - | Nettleseed Pest Spawn | FLAG dev_note: spawn label] 'Nettleseed Pest Spawn'"
+ ],
+ "client_cluster": [
+  "locale:73993 [quest_dialog | - | Mushroom Mania!] 'Gloam magic has twisted nature and brought it to life, and boy is it angry!'",
+  "locale:73994 [npc_name | - | Babbina] 'Babbina'",
+  "locale:73996 [npc_dialog | - | Babbina] \"I just love frogs, don't you?\"",
+  "locale:73997 [npc_name | - | Snapwolf Fungus] 'Snapwolf Fungus'",
+  "locale:74001 [other | - | Nettleseed Pest Spawn | FLAG dev_note: spawn label] 'Nettleseed Pest Spawn'",
+  "locale:74002 [other | - | Encounter 135 | FLAG dev_note: internal encounter label] ' Encounter 135: Spawn Effect'",
+  "locale:74004 [other | - | - | FLAG fragment: single word (cooking state)] 'Burnt'",
+  "locale:74006 [other | - | - | FLAG fragment: single word] 'Light'",
+  "locale:74007 [other | - | - | FLAG fragment: single word] 'Raw'",
+  "locale:74008 [npc_name | - | Mushroom Gigas] 'Mushroom Gigas'",
+  "locale:74009 [quest_dialog | Sanctuary | Beat Finn's Record] \"I've got the world record for a Sanctuary <font color='#D9781A'>foot race</font>. Think you can beat it?<BR><BR>Just use the <font color='#D9781A'>green flag</f\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

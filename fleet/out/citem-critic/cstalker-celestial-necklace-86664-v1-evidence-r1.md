@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstalker-celestial-necklace-86664-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3815, 6116, 6, 738] model=claude-haiku-5-5 -->
+# Stalker Celestial Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "The answer cites a 'Hardwood Celestial Necklace' Prince of Low Tide drop (notes/Build Guides/Content/Dungeons/Prince of Low Tide.md:57; video 506rO_mhaSs). I did not re-verify that note or video frame, so the citation is unchecked. The answer correctly says it is a different item and gives it no weight, so this does not change the verdict.", "fix": "Re-check the Prince of Low Tide note line 57 and video frames 00152/00102 before citing them. Otherwise leave the item sourceless and keep live as unsure."}]}

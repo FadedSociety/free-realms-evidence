@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-pumpkin-necklace-96211-v1-world-r2 status=no_submit turns=2 usd=0.0017 tokens(read,write,in,out)=[3869, 9710, 6, 879] model=claude-haiku-5-5 -->
+# Shiny Pumpkin Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].source", "issue": "The claim that the Gleaming Honey and Pumpkin entries are placeholder-only cites locale:150444 and locale:150446. The id check flags both as placeholder 'This is a ... item' stubs, so they cannot serve as live evidence. The placeholder finding itself is accurate, but it rests on flagged strings rather than on a trusted line.", "fix": "Cite the placeholder finding only as a note on the flagged strings (150444, 150446), not as evidence of the family's status. The family can be called client-only on the basis that no non-flagged line, wiki page, article, video, vendor row or quest names any of the Shiny or Gleaming necklaces."}]}

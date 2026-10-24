@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmonocle-1289-v2-world-r2 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[14495, 10742, 8, 1378] model=claude-haiku-5-5 -->
+# Monocle
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Stefan Schattenscherbe quest (article 2745, 'unique prize (rumoured)') is not present in the repo's quest data. A search of prototype/osfr-tools/data for 'Schattenscherbe' or 'Pfifferdorf' returns nothing, and the lookup over client, wiki and articles found no match. So the rumoured prize cannot be checked against a reward table here, and the answer is right to leave it open.", "fix": "Keep it as an unconfirmed candidate. Test it only against a quest reward table or a player report. Do not add it as a source until one of those confirms item 3141."}]}

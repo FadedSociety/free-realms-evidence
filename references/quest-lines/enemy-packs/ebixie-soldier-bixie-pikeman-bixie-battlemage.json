@@ -1,0 +1,23 @@
+{
+ "title": "Bixie Soldier, Bixie Pikeman, Bixie Battlemage",
+ "our_entries": [
+  {
+   "file": "npcs/sanctuary.json",
+   "npc_id": 9500000453,
+   "zone": "Sanctuary",
+   "enemy_kind": "Enemy bixie groups",
+   "location_evidence": [
+    "Queensfields"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

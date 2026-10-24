@@ -1,0 +1,7300 @@
+[
+ {
+  "page": "1000 Crystal Fuel",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "This item can be added to a collection."
+   ],
+   [
+    ""
+   ],
+   [
+    "Required:\u00a0Level 1 Any Job",
+    "thumb"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Adventurer: Level 4",
+    "Reach Level 4 as an Adventurer.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Adventurer: Level 8",
+    "Reach Level 8 as an Adventurer.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Adventurer: Level 12",
+    "Reach Level 12 as an Adventurer.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Adventurer: Level 16",
+    "Reach Level 16 as an Adventurer.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Adventurer: Level 20",
+    "Reach Level 20 as an Adventurer.",
+    "Gold Trophy - 15 PointsTitle:  The Adventurer Enthusiast"
+   ],
+   [
+    "Archer: Level 4",
+    "Reach Level 4 as an Archer.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Archer: Level 8",
+    "Reach Level 8 as an Archer.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Archer: Level 12",
+    "Reach Level 12 as an Archer.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Archer: Level 16",
+    "Reach Level 16 as an Archer.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Archer: Level 20",
+    "Reach Level 20 as an Archer.",
+    "Gold Trophy - 15 PointsTitle:  The Sniper Extraordinaire"
+   ],
+   [
+    "Blacksmith: Level 4",
+    "Reach Level 4 as a Blacksmith.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Blacksmith: Level 8",
+    "Reach Level 8 as a Blacksmith.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Blacksmith: Level 12",
+    "Reach Level 12 as a Blacksmith.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Blacksmith: Level 16",
+    "Reach Level 16 as a Blacksmith.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Blacksmith: Level 20",
+    "Reach Level 20 as a Blacksmith.",
+    "Gold Trophy - 15 PointsTitle:  The Forge Master"
+   ],
+   [
+    "Hometown Smithy",
+    "Collect all of the Sacred Grove Blacksmithing recipes.",
+    "Gold Trophy - 15 PointsTitle: Sacred Smithy"
+   ],
+   [
+    "Sunny Smithy",
+    "Collect all of the Sunstone Valley Blacksmithing Recipes.",
+    "Platinum Trophy - 25 PointsTitle: Sunny Smithy"
+   ],
+   [
+    "Brawler: Level 4",
+    "Reach Level 4 as a Brawler.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Brawler: Level 8",
+    "Reach Level 8 as a Brawler.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Brawler: Level 12",
+    "Reach Level 12 as a Brawler.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Brawler: Level 16",
+    "Reach Level 16 as a Brawler.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Brawler: Level 20",
+    "Reach Level 20 as a Brawler.",
+    "Gold Trophy - 15 PointsTitle:  The Big Brawler"
+   ],
+   [
+    "Card Duelist: Level 4",
+    "Reach Level 4 as a Card Duelist.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Card Duelist: Level 8",
+    "Reach Level 8 as a Card Duelist.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Card Duelist: Level 12",
+    "Reach Level 12 as a Card Duelist.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Card Duelist: Level 16",
+    "Reach Level 16 as a Card Duelist.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Card Duelist: Level 20",
+    "Reach Level 20 as a Card Duelist.",
+    "Gold Trophy - 15 PointsTitle:  The Card Strategist"
+   ],
+   [
+    "Chef: Level 4",
+    "Reach Level 4 as a Chef.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Chef: Level 8",
+    "Reach Level 8 as a Chef.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Chef: Level 12",
+    "Reach Level 12 as a Chef.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Chef: Level 16",
+    "Reach Level 16 as a Chef.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Chef: Level 20",
+    "Reach Level 20 as a Chef.",
+    "Gold Trophy - 15 PointsTitle:  The Iron Chef"
+   ],
+   [
+    "Demo Derby Driver: Level 4",
+    "Reach Level 4 as a Demo Derby Driver.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Demo Derby Driver: Level 8",
+    "Reach Level 8 as a Demo Derby Driver.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Demo Derby Driver: Level 12",
+    "Reach Level 12 as a Demo Derby Driver.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Demo Derby Driver: Level 16",
+    "Reach Level 16 as a Demo Derby Driver.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Demo Derby Driver: Level 20",
+    "Reach Level 20 as a Demo Derby Driver.",
+    "Gold Trophy - 15 PointsTitle:  The Master of Destruction"
+   ],
+   [
+    "Fisherman: Level 4",
+    "Reach Level 4 as a Fisherman",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Fisherman: Level 8",
+    "Reach Level 8 as a Fisherman",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Fisherman: Level 12",
+    "Reach Level 12 as a Fisherman.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Fisherman: Level 16",
+    "Reach Level 16 as a Fisherman.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Fisherman: Level 20",
+    "Reach Level 20 as a Fisherman.",
+    "Gold Trophy - 15 PointsTitle:  The Angler"
+   ],
+   [
+    "Kart Driver: Level 4",
+    "Reach Level 4 as a Kart Driver.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Kart Driver: Level 8",
+    "Reach Level 8 as a Kart Driver.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Kart Driver: Level 12",
+    "Reach Level 12 as a Kart Driver.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Kart Driver: Level 16",
+    "Reach Level 16 as a Kart Driver.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Kart Driver: Level 20",
+    "Reach Level 20 as a Kart Driver.",
+    "Gold Trophy - 15 PointsTitle:  The Speed Demon"
+   ],
+   [
+    "Medic: Level 4",
+    "Reach Level 4 as a Medic.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Medic: Level 8",
+    "Reach Level 8 as a Medic.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Medic: Level 12",
+    "Reach Level 12 as a Medic.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Medic: Level 16",
+    "Reach Level 16 as a Medic.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Medic: Level 20",
+    "Reach Level 20 as a Medic.",
+    "Gold Trophy - 15 PointsTitle:  The Life Saver"
+   ],
+   [
+    "Miner: Level 4",
+    "Reach Level 4 as a Miner.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Miner: Level 8",
+    "Reach Level 8 as a Miner.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Miner: Level 12",
+    "Reach Level 12 as a Miner.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Miner: Level 16",
+    "Reach Level 16 as a Miner.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Miner: Level 20",
+    "Reach Level 20 as a Miner.",
+    "Gold Trophy - 15 PointsTitle: Wonder Gem"
+   ],
+   [
+    "Ninja: Level 4",
+    "Reach Level 4 as a Ninja.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Ninja: Level 8",
+    "Reach Level 8 as a Ninja.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Ninja: Level 12",
+    "Reach Level 12 as a Ninja.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Ninja: Level 16",
+    "Reach Level 16 as a Ninja.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Ninja: Level 20",
+    "Reach Level 20 as a Ninja.",
+    "Gold Trophy - 15 PointsTitle:  Quickly Vanishes"
+   ],
+   [
+    "Pet Trainer: Level 4",
+    "Reach Level 4 as a Pet Trainer.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Pet Trainer: Level 8",
+    "Reach Level 8 as a Pet Trainer.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Pet Trainer: Level 12",
+    "Reach Level 8 as a Pet Trainer.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Pet Trainer: Level 16",
+    "Reach Level 16 as a Pet Trainer.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Pet Trainer: Level 20",
+    "Reach Level 20 as a Pet Trainer.",
+    "Gold Trophy - 15 PointsTitle:  The Pet Whisperer"
+   ],
+   [
+    "Postman: Level 4",
+    "Reach Level 4 as a Postman.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Postman: Level 8",
+    "Reach Level 8 as a Postman.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Postman: Level 12",
+    "Reach Level 8 as a Postman.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Postman: Level 16",
+    "Reach Level 16 as a Postman.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Postman: Level 20",
+    "Reach Level 20 as a Postman.",
+    "Gold Trophy - 15 PointsTitle:  Delivers On Time"
+   ],
+   [
+    "Soccer Star: Level 4",
+    "Reach Level 4 as a Soccer Star.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Soccer Star: Level 8",
+    "Reach Level 8 as a Soccer Star.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Soccer Star: Level 12",
+    "Reach Level 12 as a Soccer Star.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Soccer Star: Level 16",
+    "Reach Level 16 as a Soccer Star.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Soccer Star: Level 20",
+    "Reach Level 20 as a Soccer Star.",
+    "Gold Trophy - 15 PointsTitle:  The Crowd Pleaser"
+   ],
+   [
+    "Warrior: Level 4",
+    "Reach Level 4 as a Warrior.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Warrior: Level 8",
+    "Reach Level 8 as a Warrior.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Warrior: Level 12",
+    "Reach Level 12 as a Warrior.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Warrior: Level 16",
+    "Reach Level 16 as a Warrior.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Warrior: Level 20",
+    "Reach Level 20 as a Warrior.",
+    "Gold Trophy - 15 PointsTitle:  The Elite Defender"
+   ],
+   [
+    "Wizard: Level 4",
+    "Reach Level 4 as a Wizard.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Wizard: Level 8",
+    "Reach Level 8 as a Wizard.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Wizard: Level 12",
+    "Reach Level 12 as a Wizard.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Wizard: Level 16",
+    "Reach Level 16 as a Wizard.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Wizard: Level 20",
+    "Reach Level 20 as a Wizard.",
+    "Gold Trophy - 15 PointsTitle: Epic Enchanter"
+   ],
+   [
+    "Natural Born Leader",
+    "Eligible to create a guild.",
+    "Bronze Trophy - 5 PointsGuild Name Change"
+   ],
+   [
+    "Master of Levels",
+    "Reach Level 20 On all Jobs.",
+    "Diamond Trophy - 40 PointsHat of Hats"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 1,
+  "header": [],
+  "rows": [
+   [
+    "Blast Off!",
+    "Launch a Rocket Ship inside a house.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Builder",
+    "Place 100 items in your house.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Decorator",
+    "Place 1,000 items in a single house or lot.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Home Maker",
+    "Place 5,000 items in a single house or lot.",
+    "Gold Trophy - 15 Points"
+   ],
+   [
+    "Architect",
+    "Place 9,999 items in a single house or lot.",
+    "Platinum Trophy - 25 PointsTitle: Homemaker"
+   ],
+   [
+    "House Warmer",
+    "Visit another player's house.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Designer",
+    "Use a housing customization on your house.",
+    "Bronze Trophy - 5 Points"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 2,
+  "header": [],
+  "rows": [
+   [
+    "Music Student",
+    "Complete the Feeling the Beat - Very Easy Minigame.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Frontman",
+    "Complete the Feeling the Beat - Easy Minigame.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Music Teacher",
+    "Complete the Feeling the Beat - Medium Minigame.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Composer",
+    "Complete the Feeling the Beat - Hard Minigame.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Conductor",
+    "Complete the Feeling the Beat - Very Hard Minigame.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Maestro",
+    "Complete all 5 Feeling the Beat Minigames.",
+    "Silver Trophy - 10 PointsTitle: Maestro"
+   ],
+   [
+    "Don't be Tippin'",
+    "Tip 10 Cows.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Checkers Boss",
+    "Win a game of Checkers.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Chess Master",
+    "Win a game of Chess.",
+    "Bronze Trophy - 5 Points"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 3,
+  "header": [],
+  "rows": [
+   [
+    "Bixie Hive",
+    "Complete the Bixie Hive combat encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Cracked Claw Caverns",
+    "Complete the Cracked Claw Caverns encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Hot Springs Haven",
+    "Complete the Hot Springs Haven encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Sheep Watch",
+    "Complete the Sheep Watch encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Tavern Cellar",
+    "Complete the Tavern Cellar encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Arachnia's Lair",
+    "Complete the Arachnia's Lair encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Danger Peaks",
+    "Complete the Danger Peaks encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Den of Secrets",
+    "Complete the Den of Secrets encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Highroad Hijinx",
+    "Complete the Highroad Hijinx encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Robgoblin Treasure Trove",
+    "Complete the Robgoblin Treasure Trove encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Sweetwater Climb",
+    "Complete the Sweetwater Climb encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "The Bat Cave!",
+    "Complete the The Bat Cave! encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Bone Bog Cemetery",
+    "Complete the Bone Bog Cemetery encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Bristlewood Glade",
+    "Complete the Bristlewood Glade encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Deep Mines",
+    "Complete the Deep Mines encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Floren Forest",
+    "Complete the Floren Forest encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Forgotten Caves",
+    "Complete the Forgotten Caves encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Howling Hills",
+    "Complete the Howling Hills encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Misty Mountain",
+    "Complete the Misty Mountain  encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Mushroom Cavern",
+    "Complete the Mushroom Cavern encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "The Snarling Hedges",
+    "Complete the The Snarling Hedges encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Bandit Hideout!",
+    "Complete the Bandit Hideout! encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Briar Patch",
+    "Complete the Briar Patch encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Croaking Vale",
+    "Complete the Croaking Vale encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Darvon's Descent",
+    "Complete the Darvon's Descent encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Frostfang Caverns",
+    "Complete the Frostfang Caverns encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Grexan's Camp",
+    "Complete the Grexan's Camp encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Mugwort's Hollow",
+    "Complete the Mugwort's Hollow encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Treeleaf's Retreat",
+    "Complete the Treeleaf's Retreat encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Vale of the Ancients",
+    "Complete the Vale of the Ancients encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Briarheart Caverns",
+    "Complete the Briarheart Caverns encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Cray Caves",
+    "Complete the Cray Caves encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Dark Spore Depths",
+    "Complete the Dark spore Depths encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Forest Troll Fort",
+    "Complete the Forest Troll Fort encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Haunted Mines",
+    "Complete the Haunted Mines encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Snowy Canyon",
+    "Complete the Snowy Canyon encounter.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Group: Bixie Hive",
+    "Complete the Bixie Hive encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Cracked Claw Carverns",
+    "Complete the Cracked Claw Caverns encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Hot Springs Haven",
+    "Complete the Hot Springs Haven encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Sheep Watch",
+    "Complete the Sheep Watch encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Tavern Cellar",
+    "Complete the Tavern Cellar encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Arachnia's Lair",
+    "Complete the Arachnia's Lair encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Danger Peaks",
+    "Complete the Danger Peaks encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Den of Secrets",
+    "Complete the Den of Secrets encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Highroad Hijinx",
+    "Complete the Highroad Hijinx encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Robgoblin Treasure Trove",
+    "Complete the Robgoblin Treasure Trove encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Sweetwater Climb",
+    "Complete the Sweetwater Climb encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: The Bat Cave!",
+    "Complete the The Bat Cave! encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Bone Bog Cemetery",
+    "Complete the Bone Bog Cemetery encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Bristlewood Glade",
+    "Complete the Bristlewood Glade encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Deep Mines",
+    "Complete the Deep Mines encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Floren Forest",
+    "Complete the Floren Forest encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Forgotten Caves",
+    "Complete the Forgotten Caves encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Howling Hills",
+    "Complete the Howling Hills encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Misty Mountain",
+    "Complete the Misty Mountain  encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Mushroom Cavern",
+    "Complete the Mushroom Cavern encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: The Snarling Hedges",
+    "Complete the The Snarling Hedges encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Bandit Hideout!",
+    "Complete the Bandit Hideout! encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Briar Patch",
+    "Complete the Briar Patch encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Croaking Vale",
+    "Complete the Croaking Vale encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Darvon's Descent",
+    "Complete the Darvon's Descent encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Frostfang Caverns",
+    "Complete the Frostfang Caverns encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Grexan's Camp",
+    "Complete the Grexan's Camp encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Mugwort's Hollow",
+    "Complete the Mugwort's Hollow encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Treeleaf's Retreat",
+    "Complete the Treeleaf's Retreat encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Vale of the Ancients",
+    "Complete the Vale of the Ancients encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Briarheart Caverns",
+    "Complete the Briarheart Caverns encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Cray Caves",
+    "Complete the Cray Caves encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Dark Spore Depths",
+    "Complete the Dark spore Depths encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Forest Troll Fort",
+    "Complete the Forest Troll Fort encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Haunted Mines",
+    "Complete the Haunted Mines encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Group: Snowy Canyon",
+    "Complete the Snowy Canyon encounter with a full group.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Duelist",
+    "Win a Duel!",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Arrested Development I",
+    "Defeat 5 Thugawugs in Southern Wilds.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Arrested Development II",
+    "Defeat 50 Thugawugs in Southern Wilds.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Arrested Development III",
+    "Defeat 500 Thugawugs in Southern Wilds.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Bad Doggie I",
+    "Defeat 5 Ice Wolves in Snowhill.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Bad Doggie II",
+    "Defeat 50 Ice Wolves in Snowhill.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Bad Doggie III",
+    "Defeat 500 Ice Wolves in Snowhill.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Bixie-B-Gone I",
+    "Defeat 5 Bixies in Southern Wilds.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Bixie-B-Gone II",
+    "Defeat 50 Bixies in Southern Wilds.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Bixie-B-Gone III",
+    "Defeat 500 Bixies in Southern Wilds.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Boiled Cray I",
+    "Defeat 5 Cray in Seaside.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Boiled Cray II",
+    "Defeat 50 Cray in Seaside.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Boiled Cray III",
+    "Defeat 500 Cray in Seaside.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Bugging Out I",
+    "Defeat 5 Bixies near Wugachug",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Bugging Out II",
+    "Defeat 50 Bixies near Wugachug",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Bugging Out III",
+    "Defeat 500 Bixies near Wugachug",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Cultist Converter I",
+    "Defeat 5 Fairy Cultists in Southern Wilds.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Cultist Converter II",
+    "Defeat 50 Fairy Cultists in Southern Wilds.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Cultist Converter III",
+    "Defeat 500 Fairy Cultists in Southern Wilds.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Don't be a Troll I",
+    "Defeat 5 Ice Trolls in Snowhill.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Don't be a Troll II",
+    "Defeat 50 Ice Trolls in Snowhill.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Don't be a Troll III",
+    "Defeat 500 Ice Trolls in Snowhill.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Honorable End I",
+    "Defeat 5 Ghost Ninjas in Seaside.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Honorable End II",
+    "Defeat 50 Ghost Ninjas in Seaside.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Honorable End III",
+    "Defeat 500 Ghost Ninjas in Seaside.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Flock of Swoopers I",
+    "Defeat 5 Swoopers in Seaside.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Flock of Swoopers II",
+    "Defeat 50 Swoopers in Seaside.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Flock of Swoopers III",
+    "Defeat 500 Swoopers in Seaside.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Freaking Out I",
+    "Defeat 5 Ninjas in Southern Wilds.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Freaking Out II",
+    "Defeat 50 Ninjas in Southern Wilds.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Freaking Out III",
+    "Defeat 500 Ninjas in Southern Wilds.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "If a Tree Falls I",
+    "Defeat 5 Floren",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "If a Tree Falls II",
+    "Defeat 50 Floren",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "If a Tree Falls III",
+    "Defeat 500 Floren",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Not Quite Yeti I",
+    "Defeat 5 Yetis in Snowhill.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Not Quite Yeti II",
+    "Defeat 50 Yetis in Snowhill.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Not Quite Yeti III",
+    "Defeat 500 Yetis in Snowhill.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "When Pigs Fly I",
+    "Defeat 5 Ninjawugs",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "When Pigs Fly II",
+    "Defeat 50 Ninjawugs",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "When Pigs Fly III",
+    "Defeat 500 Ninjawugs",
+    "Silver Trophy - 10 Points"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 4,
+  "header": [],
+  "rows": [
+   [
+    "Marksman",
+    "Complete the Archer Questline.",
+    "Gold Trophy - 15 PointsTitle: Marksman"
+   ],
+   [
+    "Master Smith",
+    "Complete the Blacksmith Questline.",
+    "Gold Trophy - 15 PointsTitle: Master Smith"
+   ],
+   [
+    "The Big Brawler",
+    "Complete the Brawler Questline.",
+    "Gold Trophy - 15 PointsTitle: Street Fighter"
+   ],
+   [
+    "Duelist",
+    "Complete the Card Duelist Questline.",
+    "Gold Trophy - 15 PointsTitle: Card Commander"
+   ],
+   [
+    "The Iron Chef",
+    "Complete the Chef Questline.",
+    "Gold Trophy - 15 PointsTitle: Cookie"
+   ],
+   [
+    "Demolisher",
+    "Complete the Demo Derby Questline.",
+    "Gold Trophy - 15 PointsTitle: Demolisher"
+   ],
+   [
+    "Rageracer",
+    "Complete the Kart Driver Questline.",
+    "Gold Trophy - 15 PointsTitle: Racer"
+   ],
+   [
+    "Ninja Shadow Master",
+    "Complete the Ninja Questline.",
+    "Gold Trophy - 15 PointsTitle: Flying Dragon"
+   ],
+   [
+    "Doctor",
+    "Complete the Medic Questline.",
+    "Gold Trophy - 15 PointsTitle: Doctor"
+   ],
+   [
+    "Postmaster",
+    "Complete the Postman Questline.",
+    "Gold Trophy - 15 PointsTitle: Postmaster"
+   ],
+   [
+    "Striker",
+    "Complete the Soccer Star Questline.",
+    "Gold Trophy - 15 PointsTitle: Striker"
+   ],
+   [
+    "Dwarven Smithy",
+    "Complete the Rumble Ridge Blacksmith Questline.",
+    "Silver Trophy - 10 PointsTitle: Desert Smith"
+   ],
+   [
+    "Warlord",
+    "Complete the Warrior Questline.",
+    "Gold Trophy - 15 PointsTitle: Warlord"
+   ],
+   [
+    "Arcane Master",
+    "Complete the Wizard Questline.",
+    "Gold Trophy - 15 PointsTitle: Arcane Master"
+   ],
+   [
+    "A Shattered Past",
+    "Complete the Shattered Past Questline.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "The Dark Cheater",
+    "Complete the Baron Von Darkcheat Questline.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "A True Hero",
+    "Complete the Heroes Questline.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "rumble-Rumble- RUMBLEDOME!",
+    "Complete the Rumbledome TCG Questline.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Adventurer",
+    "Complete 10 Quests.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Tourist",
+    "Complete 50 Quests.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Journeyer",
+    "Complete 100 Quests.",
+    "Gold Trophy - 15 Points"
+   ],
+   [
+    "Traveler",
+    "Complete 200 Quests.",
+    "Platinum Trophy - 25 Points"
+   ],
+   [
+    "Quester",
+    "Complete 400 Quests.",
+    "Diamond Trophy - 40 PointsTitle: The Quester"
+   ],
+   [
+    "Realm Defender",
+    "Complete the Chapter 1 Storyline.",
+    "Gold Trophy - 15 PointsTitle: Story Teller"
+   ],
+   [
+    "Master of Stories",
+    "Complete the following job questlines.",
+    "Diamond Trophy - 40 PointsQuester Hat"
+   ],
+   [
+    "...And So It Begins",
+    "Complete the tutorial.",
+    "Bronze Trophy - 5 PointsCharacter Name Change"
+   ],
+   [
+    "Bixie in Your Bonnet",
+    "Complete Into the Hive.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Thugawhomped",
+    "Complete Stompenmugg.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Jojo's Mojo Dojo",
+    "Complete Dojo Mojo.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Tidal Power",
+    "Complete Stemming the Tide.",
+    "Bronze Trophy - 5 Points"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 5,
+  "header": [],
+  "rows": [
+   [
+    "Cash Cow",
+    "Earn 500,000 coins through rewards.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Loaded",
+    "Earn 1,000,000 coins through rewards.",
+    "Gold Trophy - 15 Points"
+   ],
+   [
+    "Filthy Rich",
+    "Earn 5,000,000 coins through rewards.",
+    "Platinum Trophy - 25 PointsTitle: Millionaire"
+   ],
+   [
+    "Pet Owner",
+    "Obtain a pet!",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Stylist",
+    "Equip a style card.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Rider",
+    "Obtain a mount.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Tricky",
+    "Perform a trick with your pet.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Performer",
+    "Perform 15 tricks with your pet.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Entertainer",
+    "Perform 50 tricks with your pet.",
+    "Gold Trophy - 15 Points"
+   ],
+   [
+    "Consumerist",
+    "Use a consumable.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Window Shopper",
+    "Visit the Marketplace.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "United We Stand",
+    "Collect all 5 Mechanical Combiner Rides!",
+    "Wonderous Trophy - 0 Points"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 6,
+  "header": [],
+  "rows": [
+   [
+    "Banshee Boss",
+    "Played 10 Chaos cards in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Demo Demon",
+    "Played 10 Machine cards in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Giant Toad",
+    "Played 10 Nature cards in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Ninja Master",
+    "Played 10 Order cards in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Master of Spheres",
+    "Completed all four sphere card play achievements.",
+    "Silver Trophy - 10 PointsNecrolaceous Card"
+   ],
+   [
+    "Creature Controller",
+    "Played 10 creatures in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Resource Wrangler",
+    "Played 10 resources in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Hat Tricks",
+    "Played 10 tricks in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Hero of Heroes",
+    "Played 10 heroes in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Master of Card Types",
+    "Completed all four card type play achievements.",
+    "Silver Trophy - 10 PointsCommander Kluggenkrush Card"
+   ],
+   [
+    "Crusher",
+    "Won a battle by 4.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Destroyer",
+    "Won a battle by 8.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Exterminator",
+    "Won a battle by 12.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Annihilator",
+    "Won a battle by 16.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Master of Battles",
+    "Completed all four battle margin achievements.",
+    "Silver Trophy - 10 PointsMiss Artie Card"
+   ],
+   [
+    "Novice",
+    "Won 1 game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Professional",
+    "Won 10 games.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Veteran",
+    "Won 50 games.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Champion",
+    "Won 100 games.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Master of Victories",
+    "Complete all four game win achievements.",
+    "Silver Trophy - 10 PointsTreeleaf Card"
+   ],
+   [
+    "Make It Last",
+    "Played a game that lasted 10 turns.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Marathon",
+    "Played a game that lasted 15 turns.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Unending Conflict",
+    "Played a game that lasted 25 turns.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Eternal Struggle",
+    "Played a game that lasted 30 turns.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Master of Turns",
+    "Completed all four game time achievements.",
+    "Silver Trophy - 10 PointsVittorio Card"
+   ],
+   [
+    "Chaos Crusher",
+    "Destroyed 10 Chaos cards in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Machine Mauler",
+    "Destroyed 10 Machine cards in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Nature Neutralizer",
+    "Destroyed 10 Nature cards in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Order Obliterator",
+    "Destroyed 10 Order cards in a single game.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Master of Destruction",
+    "Complete all four card destruction achievements.",
+    "Silver Trophy - 10 PointsSergeant Cargug Card"
+   ],
+   [
+    "Power Nap",
+    "Won a game in less than 5 minutes.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Fast-Talker",
+    "Won a game in less than 4 minutes.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Speedy Postman",
+    "Won a game in less than 3 minutes.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Speed Demon",
+    "Won a game in less than 2 minutes.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Master of Minutes",
+    "Completed all four game time achievements.",
+    "Silver Trophy - 10 Points? Card"
+   ],
+   [
+    "Victory Lap",
+    "Won a game by 1 point.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Four the Win",
+    "Won a game by 4 points.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Overkill",
+    "Won a game by 8 points.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Maximum",
+    "Won a game by 12 points.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Master of Points",
+    "Completed all four point margin achievements.",
+    "Silver Trophy - 10 PointsMaster Kart Builder Card"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 7,
+  "header": [],
+  "rows": [
+   [
+    "One Down",
+    "Defeat One, Two or Three of Three",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Three Less",
+    "Defeat One, Two and Three of Three",
+    "Platinum Trophy - 25 PointsPumpkin Carver"
+   ],
+   [
+    "Prince Slayer",
+    "Complete The Great Scare for Ghost Hunter",
+    "Platinum Trophy - 25 Points"
+   ],
+   [
+    "Ghost Vision",
+    "Acquire and equip the Spectral Spectacles",
+    "Gold Trophy - 15 Points"
+   ],
+   [
+    "Costume Shopper",
+    "Visit the Dress Up! costume shop in Sanctuary during the Super Spooktacular",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "In the Pack",
+    "Join Team Werewolf",
+    "Wonderous Trophy - 0 Points"
+   ],
+   [
+    "Undead for Life",
+    "Join Team Vampire",
+    "Wonderous Trophy - 0 Points"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 8,
+  "header": [],
+  "rows": [
+   [
+    "'Tis the Season",
+    "Receive your first gift from the Gifting Tree.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Holiday Detective",
+    "Discover who is snatching presents in Snowhill.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "O, Gifting Tree...",
+    "Save the Snowhill Gifting Tree and receive its thank you gift.",
+    "Gold Trophy - 15 PointsMini Holiday Tree"
+   ],
+   [
+    "Santa's Little Helper",
+    "Complete each Snow Days daily quest at least once.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Snowballer",
+    "Defend Snowhill from the Abominable Snowman and retrieve your reward.",
+    "Gold Trophy - 15 PointsGreen Santa Hat"
+   ],
+   [
+    "Coal Carrier",
+    "Complete Snowman Showdown for Everett 5 times.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Coal Train",
+    "Complete Snowman Showdown for Everett 20 times.",
+    "Platinum Trophy - 25 PointsLump of Coal"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 9,
+  "header": [],
+  "rows": [
+   [
+    "8-Bit Hero",
+    "Summon an 8-Bit Meep pet after completing Momma Meepster's quest.",
+    "Bronze Trophy - 5 Points"
+   ],
+   [
+    "Gleam Hero",
+    "Win 17 PVP Duels for the Choosing Sides daily quest with Gleam Strength buff active during HeroRealms Month.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Gloam Villain",
+    "Win 17 PVP Duels for the Choosing Sides daily quest with Gloam Power buff active during HeroRealms Month.",
+    "Silver Trophy - 10 Points"
+   ],
+   [
+    "Epic Dueler",
+    "Win 30 duels with either Gleam Strength or Gloam Power buff active.",
+    "Silver Trophy - 10 PointsEpic Gleam Hero Outfit OR Epic Gloam Villain Outfit"
+   ]
+  ]
+ },
+ {
+  "page": "Achievements",
+  "index": 10,
+  "header": [],
+  "rows": [
+   [
+    "Bowheart",
+    "Hit Stone Heart with 1000 love arrows.",
+    "Gold Trophy - 15 PointsStone Heart's Pink Bear"
+   ]
+  ]
+ },
+ {
+  "page": "Add Table",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "",
+    ""
+   ],
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "page": "Archer",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "5",
+    "Precision",
+    "Increases the precision of your shots, adding additional damage and increasing the chance of critical hits."
+   ],
+   [
+    "10",
+    "Marksmanship",
+    "Inflicts additional damage when you score a critical hit."
+   ],
+   [
+    "15",
+    "Reflexes",
+    "Increase your run speed and improve your chance of dodging attacks."
+   ],
+   [
+    "20",
+    "Lucky Shot",
+    "A lucky shot can sometimes restore a little bit of your energy."
+   ]
+  ]
+ },
+ {
+  "page": "Archer Power Attacks",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Archer's Advantage",
+    "2372",
+    "1186 extra damage to single target",
+    "In front",
+    "8302",
+    "Increase speed of allies, decrease speed of enemies",
+    "Nearby"
+   ],
+   [
+    "Blizzard Blast",
+    "2372",
+    "Sometimes freezes",
+    "In front",
+    "5977",
+    "Freezes",
+    "In front"
+   ],
+   [
+    "Explosive Shot",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "In front"
+   ],
+   [
+    "Firebomb",
+    "2372",
+    "Sometimes extra damage",
+    "In front",
+    "2324",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Flaming Arrow",
+    "2609",
+    ".",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Heart Breaker",
+    "2372",
+    ".",
+    "In front",
+    "5977",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Lightning Call",
+    "2372",
+    "Sometimes extra damage",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Party Crasher",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    "7685",
+    "Stuns",
+    "Nearby"
+   ],
+   [
+    "Power Rain",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Ricochet",
+    "2372",
+    "Sometime immobilizes",
+    "In front",
+    "10674",
+    ".",
+    "Enemy to enemy"
+   ],
+   [
+    "Sonic Boom",
+    "2372",
+    "Sometimes knocks down",
+    "In front",
+    "8302",
+    "Knocks down",
+    "In front"
+   ],
+   [
+    "Splitting Arrow",
+    "1186",
+    "Damages 2 times",
+    "In front",
+    "8302",
+    ".",
+    "In front"
+   ],
+   [
+    "Stunning Shot",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    "5977",
+    "Stuns",
+    "In front"
+   ],
+   [
+    "VolleyNote: Old School Archer weapons and Briarsting Bow have higher damage values. Their Barrage does 3391 damage and their Volley does 6143 damage.",
+    "2609",
+    ".",
+    "In front",
+    "4732",
+    "Damages 3 times",
+    "Nearby"
+   ]
+  ]
+ },
+ {
+  "page": "Blue Text weapon",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "12",
+    "5",
+    "Aqua",
+    "Aqua Bow",
+    "Aqua Anvil",
+    "Aqua Saw",
+    "Aqua Scythe",
+    "Aqua Hammer",
+    "Aqua Wand"
+   ],
+   [
+    "13",
+    "5",
+    "Batty",
+    "Batty Bow",
+    "Batty Anvil",
+    "Batty Bonesaw",
+    "Batty Scythe",
+    "Batty Hammer",
+    "Batty Wand"
+   ],
+   [
+    "12",
+    "5",
+    "Blazing",
+    "Blazing Bow",
+    "Blazing Drill",
+    "Blazing Mega Saw",
+    "Blazing Scythe",
+    "Blazing Hammer",
+    "Blazing Wand"
+   ],
+   [
+    "4",
+    "3",
+    "Bubbleburst",
+    "Bubbleburst Bow",
+    "Bubbleburst Kendama Hammer",
+    "Bubbleburst Scalpel",
+    "Bubbleburst Blade",
+    "Bubbleburst Axe",
+    "Bubbleburst Wand"
+   ],
+   [
+    "1",
+    "5",
+    "Butterfly",
+    "Butterfly Bow",
+    "Butterfly Log Hammer",
+    "Butterfly Scalpel",
+    "Butterfly Blade",
+    "Butterfly Club",
+    "Butterfly Wand"
+   ],
+   [
+    "5",
+    "3",
+    "Carbon",
+    "Carbon Bow",
+    "Carbon Kendama",
+    "Carbon Scalpel",
+    "Carbon Blade",
+    "Carbon Axe",
+    "Carbon Wand"
+   ],
+   [
+    "5",
+    "3",
+    "Confetti",
+    "Confetti Bow",
+    "Confetti Kendama Hammer",
+    "Confetti Scalpel",
+    "Confetti Blade",
+    "Confetti Axe",
+    "Confetti Wand"
+   ],
+   [
+    "16",
+    "5",
+    "Fiery",
+    "Fiery Bow",
+    "Fiery Drill",
+    "Fiery Mega Saw",
+    "Fiery Scythe",
+    "Fiery Hammer",
+    "Fiery Wand"
+   ],
+   [
+    "1",
+    "2",
+    "Forest",
+    "Forest Branch",
+    "Forest Stem",
+    "Forest Bark",
+    "Forest Root",
+    "Forest Trunk",
+    "Forest Twig"
+   ],
+   [
+    "12",
+    "5",
+    "Frostflame",
+    "Frostflame Bow",
+    "Frostflame Drill",
+    "Frostflame Saw",
+    "Frostflame Scythe",
+    "Frostflame Hammer",
+    "Frostflame Wand"
+   ],
+   [
+    "5",
+    "3",
+    "Gemstone",
+    "Gemstone Bow",
+    "Gemstone Kendama Hammer",
+    "Gemstone Scalpel",
+    "Gemstone Blade",
+    "Gemstone Axe",
+    "Gemstone Wand"
+   ],
+   [
+    "16",
+    "5",
+    "Glacial",
+    "Glacial Bow",
+    "Glacial Hammer",
+    "Glacial Shockrod",
+    "Glacial Blade",
+    "Glacial Axe",
+    "Glacial Wand"
+   ],
+   [
+    "5",
+    "3",
+    "Gravel",
+    "Gravel Bow",
+    "Gravel Kendama Hammer",
+    "Gravel Scalpel",
+    "Gravel Blade",
+    "Gravel Hammer",
+    "Gravel Wand"
+   ],
+   [
+    "12",
+    "5",
+    "Illuminating",
+    "Illuminating Bow",
+    "Illuminating Drill",
+    "Illuminating Mega Saw",
+    "Illuminating Scythe",
+    "Illuminating Hammer",
+    "Illuminating Wand"
+   ],
+   [
+    "5",
+    "3",
+    "Jeweled",
+    "Jeweled Bow",
+    "Jeweled Kendama Hammer",
+    "Jeweled Scalpel",
+    "Jeweled Blade",
+    "Jeweled Axe",
+    "Jeweled Wand"
+   ],
+   [
+    "?",
+    "?",
+    "Juiced",
+    "Juiced Bow",
+    "Juiced Drill",
+    "Juiced Saw",
+    "Juiced Scythe",
+    "Juiced Hammer",
+    "Juiced Wand"
+   ],
+   [
+    "16",
+    "5",
+    "Luminous",
+    "Luminous Bow",
+    "Luminous Hammer",
+    "Luminous Shockrod",
+    "Luminous Shadowblade",
+    "Luminous Axe",
+    "Luminous Wand"
+   ],
+   [
+    "1",
+    "5",
+    "Monarch",
+    "Monarch Bow",
+    "Monarch Log Hammer",
+    "Monarch Scalpel",
+    "Monarch Blade",
+    "Monarch Club",
+    "Monarch Wand"
+   ],
+   [
+    "1",
+    "2",
+    "Nature's",
+    "Nature's Branch",
+    "Nature's Stem",
+    "Nature's Bark",
+    "Nature's Root",
+    "Nature's Trunk",
+    "Nature's Twig"
+   ],
+   [
+    "5",
+    "3",
+    "Party",
+    "Party Bow",
+    "Party Kendama Hammer",
+    "Party Scalpel",
+    "Party Blade",
+    "Party Axe",
+    "Party Wand"
+   ],
+   [
+    "13",
+    "5",
+    "Rainbow",
+    "Rainbow Bow",
+    "Rainbow Anvil",
+    "Rainbow Bonesaw",
+    "Rainbow Scythe",
+    "Rainbow Hammer",
+    "Rainbow Wand"
+   ],
+   [
+    "5",
+    "3",
+    "Rocky",
+    "Rocky Bow",
+    "Rocky Kendama Hammer",
+    "Rocky Scalpel",
+    "Rocky Blade",
+    "Rocky Axe",
+    "Rocky Wand"
+   ],
+   [
+    "16",
+    "5",
+    "Smokey",
+    "Smokey Bow",
+    "Smokey Hammer",
+    "Smokey Shockrod",
+    "Smokey Shadowblade",
+    "Smokey Axe",
+    "Smokey Wand"
+   ],
+   [
+    "4",
+    "3",
+    "Soapy",
+    "Soapy Bow",
+    "Soapy Kendama Hammer",
+    "Soapy Scalpel",
+    "Soapy Blade",
+    "Soapy Battle Axe",
+    "Soapy Wand"
+   ],
+   [
+    "13",
+    "5",
+    "Spectrum",
+    "Spectrum Bow",
+    "Spectrum Anvil",
+    "Spectrum Bonesaw",
+    "Spectrum Scythe",
+    "Spectrum Hammer",
+    "Spectrum Wand"
+   ],
+   [
+    "5",
+    "3",
+    "Sunlit",
+    "Sunlit Bow",
+    "Sunlit Kendama Hammer",
+    "Sunlit Scalpel",
+    "Sunlit Blade",
+    "Sunlit Axe",
+    "Sunlit Wand"
+   ],
+   [
+    "8",
+    "4",
+    "Tidal",
+    "Tidal Bow",
+    "Tidal Drill",
+    "Tidal Saw",
+    "Tidal Scythe",
+    "Tidal Hammer",
+    "Tidal Wand"
+   ],
+   [
+    "12",
+    "5",
+    "Toxic",
+    "Toxic Sting",
+    "Toxic Crush",
+    "Toxic Spur",
+    "Toxic Bite",
+    "Toxic Malice",
+    "Toxic Touch"
+   ],
+   [
+    "8",
+    "4",
+    "Venom's",
+    "Venom's Sting",
+    "Venom's Crush",
+    "Venom's Spur",
+    "Venom's Bite",
+    "Venom's Malice",
+    "Venom's Touch"
+   ],
+   [
+    "13",
+    "5",
+    "Winged",
+    "Winged Bow",
+    "Winged Anvil",
+    "Winged Bonesaw",
+    "Winged Scythe",
+    "Winged Hammer",
+    "Winged Wand"
+   ]
+  ]
+ },
+ {
+  "page": "BrawlWiki",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "\u2022 Coin Shop Weapons",
+    "\u2022 New School Weapons",
+    "\u2022 Weapons by Job"
+   ],
+   [
+    "\u2022 SC Marketplace Weapons",
+    "\u2022 Old School Weapons",
+    "\u2022 Weapons by Level"
+   ],
+   [
+    "\u2022 Prize Wheel Weapons",
+    "\u2022 Vendor Weapons",
+    "\u2022 Weapons by Power"
+   ],
+   [
+    "\u2022 Quest Weapons",
+    "\u2022 Blue Text Weapons",
+    "\u2022 Weapons by Power Attack"
+   ],
+   [
+    "\u2022 Collection Weapons",
+    "\u2022 Green Text Weapons",
+    "\u2022 Weapons with Particle Effects"
+   ],
+   [
+    "\u2022 Blacksmith Recipe Weapons",
+    "\u2022 Treasure Trader Weapons",
+    "\u2022 Flair Shards"
+   ],
+   [
+    "\u2022 Seasonal Weapons",
+    "\u2022 Unobtainable Weapons",
+    ""
+   ],
+   [
+    "\u2022 Code Weapons",
+    "\u2022 Retired Weapons",
+    ""
+   ]
+  ]
+ },
+ {
+  "page": "BrawlWiki",
+  "index": 1,
+  "header": [],
+  "rows": [
+   [
+    "Andrew Diamondhorn",
+    "Grimmjow Jagerjaques",
+    "Lyra Moonflower",
+    "Seth Ninjax"
+   ],
+   [
+    "Adwin Castor",
+    "J\u00e0y",
+    "Marisol Bluesurf",
+    "Sev Kenek"
+   ],
+   [
+    "Annie Hawkclaw",
+    "Jelani Stonemark",
+    "Morgoth",
+    "Spellbinder Ragu"
+   ],
+   [
+    "Autumn Roselake",
+    "Kaden Wolfbane",
+    "Mei Starlight",
+    "Teddy Fluffyspy"
+   ],
+   [
+    "Cindra",
+    "Karen Souldancer",
+    "Noble Stormcastle",
+    "Tye Swordprince"
+   ],
+   [
+    "Darian Spirithorn",
+    "Lolaya",
+    "Ohnonomomojo",
+    "Vestaloyne"
+   ],
+   [
+    "Dorian Silvervale",
+    "Luke Mistycrest",
+    "Sader",
+    "Zhouz"
+   ]
+  ]
+ },
+ {
+  "page": "Brawler",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "5",
+    "Bruising Strikes",
+    "All opponents you hit are weakened are are more likely to be struck by a critical attack."
+   ],
+   [
+    "10",
+    "Savvy",
+    "Your critical strikes cause additional damage."
+   ],
+   [
+    "15",
+    "Toughness",
+    "You are able to withstand more damage before being knocked out."
+   ],
+   [
+    "20",
+    "Resilience",
+    "You show great resilience and gain health and energy after being hit."
+   ]
+  ]
+ },
+ {
+  "page": "Brawler Power Attacks",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Brawler's Challenge",
+    "4744",
+    "Longer cool down timer",
+    "In front",
+    "8302",
+    "Taunts, heals 4750 after Taunt expires",
+    "Nearby"
+   ],
+   [
+    "Detonate",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Enrage",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    ".",
+    "Increase damage reduction & damage",
+    "."
+   ],
+   [
+    "Hammer Toss",
+    "2372",
+    "Sometimes immobilize",
+    "Nearby",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Heart Breaker",
+    "2372",
+    ".",
+    "In front",
+    "5977",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Kick Dirt",
+    "2372",
+    ".",
+    "Nearby",
+    "5977",
+    "Decreases opponents' attack",
+    "Nearby"
+   ],
+   [
+    "Knockout",
+    "2372",
+    ".",
+    "Nearby",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Leg SweepNote: Old School Brawler weapons have higher damage values. Their Glancing Blow does 3083 damage and their Leg Sweep does 10792 damage.",
+    "2372",
+    "Sometimes knocks down",
+    "In front",
+    "8302",
+    "Knocks down",
+    "Nearby"
+   ],
+   [
+    "Overdrive",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Party Crasher",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    "7685",
+    "Stuns in front",
+    "Nearby"
+   ],
+   [
+    "Power Rain",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Pummel",
+    "2609",
+    ".",
+    "In front",
+    "3522",
+    "Damages 4 times",
+    "In front"
+   ],
+   [
+    "Ready to Rumble",
+    "2609",
+    ".",
+    "Nearby",
+    "5977",
+    "Increases damage",
+    "Nearby"
+   ],
+   [
+    "Roundhouse Kick",
+    "2372",
+    "Sometimes knocks down",
+    "Nearby",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Slam",
+    "2372",
+    ".",
+    "Nearby",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Sucker Punch",
+    "2372",
+    ".",
+    "In front",
+    "5977",
+    "Weakens opponents",
+    "In front"
+   ],
+   [
+    "Supernova",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ]
+  ]
+ },
+ {
+  "page": "Coin Shop",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Thunderbird",
+    "Sandrift",
+    "Toasty",
+    "Mantis",
+    "Midnight",
+    "Amethyst"
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Allspice",
+    "Commoner",
+    "Honeydew",
+    "Sapphire",
+    "Blizzard",
+    "Shadestone"
+   ]
+  ]
+ },
+ {
+  "page": "Combat",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "1",
+    "Tier 1. Recommended for everyone."
+   ],
+   [
+    "2",
+    "Tier 2. Recommended for levels 3 and higher."
+   ],
+   [
+    "3",
+    "Tier 3. Requires level 5 and higher."
+   ],
+   [
+    "4",
+    "Tier 4. Requires level 9 and higher."
+   ],
+   [
+    "5",
+    "Tier 5. Requires level 13 and higher."
+   ]
+  ]
+ },
+ {
+  "page": "Free Item Codes",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "KN78CH2",
+    "Striped Shoes",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "JFRE87J",
+    "Doggy Bowling T-Shirt",
+    "Pet Clothing",
+    "Dogs"
+   ],
+   [
+    "CMNJGGE",
+    "Spidey Snack",
+    "Consumable",
+    "30m Shaggy Spider Illusion"
+   ],
+   [
+    "N4PF9R3",
+    "Crystal Hammer (level 1)",
+    "Weapon",
+    "Brawler"
+   ],
+   [
+    "6TNBTGH",
+    "Bermuda Shorts",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "FACEBOOKFANS01",
+    "Veggie Surprise",
+    "Consumable",
+    "30m Man-Eating Plant Illusion"
+   ],
+   [
+    "FACEBOOKFANS02",
+    "Froggy Fries",
+    "Consumable",
+    "30m Frog Illusion"
+   ],
+   [
+    "FACEBOOKFANS03",
+    "Goat Cheese",
+    "Consumable",
+    "30m Goat Illusion"
+   ],
+   [
+    "FACEBOOKFANS04",
+    "Shadowblade (code version)",
+    "Weapon",
+    "Ninja"
+   ],
+   [
+    "FACEBOOKFANS05",
+    "Dynamite",
+    "Tool",
+    "Miner"
+   ],
+   [
+    "FACEBOOKFANS06",
+    "Checker Charged Helmet",
+    "Armor",
+    "Kart Driver"
+   ],
+   [
+    "ROSESFORMOM",
+    "Mother's Day Bouquet (Expired May 17, 2009)",
+    "Weapon",
+    "Adventurer"
+   ],
+   [
+    "ROBGOBLINBOOTY",
+    "Robgoblin T-Shirt",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "MPT38B3",
+    "Layered Skirt",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "SANDWICH",
+    "Small Sandwich",
+    "Consumable",
+    "Decreases Player's Size"
+   ],
+   [
+    "FROGGY",
+    "Froggy Fries",
+    "Consumable",
+    "30m Frog Illusion"
+   ],
+   [
+    "PXNH6HB",
+    "Spook Sphere",
+    "Consumable",
+    "30m Wolf Illusion"
+   ],
+   [
+    "XCZG923",
+    "Baseball Cap",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "T86766R",
+    "Chatty Baseball Cap",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "CP24C5N",
+    "Race Away Jacket",
+    "Armor",
+    "Kart Driver"
+   ],
+   [
+    "Email Code",
+    "Hot-To-Trot Tots",
+    "Consumable",
+    "Fire Around Player's Feet"
+   ],
+   [
+    "3G9MKT2",
+    "Striped T-Shirt",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "FBREDSPARKLER",
+    "Red Summer Sparkler (Expired July 12, 2009)",
+    "Weapon",
+    "Freestyle"
+   ],
+   [
+    "SUMMERSPARKLER",
+    "Purple Summer Sparkler (Expired July 12, 2009)",
+    "Weapon",
+    "Freestyle"
+   ],
+   [
+    "GMBZZ24B",
+    "Sample Booster Pack for use in the Trading Card Game (10 virtual cards, no loot card)",
+    "",
+    "TCG"
+   ],
+   [
+    "SKELETAL",
+    "Skeletal Speed Helmet",
+    "Armor",
+    "Kart Driver"
+   ],
+   [
+    "F7KPG5A",
+    "Chatty T-Shirt",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "STRAWBERRIES",
+    "Strawberry Surge Helmet",
+    "Armor",
+    "Kart Driver"
+   ],
+   [
+    "DXNMJH9",
+    "Kitty Jeweled Collar",
+    "Pet Clothing",
+    "Cats"
+   ],
+   [
+    "DRINKMILK",
+    "Bullhorn Ninja Cowl",
+    "Armor",
+    "Ninja"
+   ],
+   [
+    "MILKROCKS",
+    "Cow Hat",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "MILKRULES",
+    "Pet Trainer Cow Spot Apron",
+    "Clothing",
+    "Pet Trainer"
+   ],
+   [
+    "6FG8ZT7",
+    "Crash Crunch Helmet",
+    "Armor",
+    "Demo Derby Driver"
+   ],
+   [
+    "EMD73DK",
+    "Jagged Scythe (code version)",
+    "Armor",
+    "Ninja"
+   ],
+   [
+    "MMMDONUT",
+    "Heavenly Donut",
+    "Consumable",
+    "30m Matcher's Advantage Increase"
+   ],
+   [
+    "BERRYCUPCAKE",
+    "Berry Cupcake",
+    "Consumable",
+    "30m Matcher's Skill Increase"
+   ],
+   [
+    "G3TACPCH",
+    "Wild Winger Shin Guards",
+    "Clothing",
+    "Soccer Star"
+   ],
+   [
+    "K9KCECXM3EK",
+    "Treeble Cut-Out Mask",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "GETSPOOKY",
+    "Robgoblin Costume",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "SNOWDAYS",
+    "Snowman (furniture)",
+    "Housing",
+    "Interactive House Item"
+   ],
+   [
+    "BARKBARK",
+    "Bark Chocolate",
+    "Consumable",
+    "30m Dog Illusion"
+   ],
+   [
+    "FLYINGDRAGON",
+    "Flying Dragon Cowl",
+    "Armor",
+    "Ninja"
+   ],
+   [
+    "link",
+    "Triceratops",
+    "Pets",
+    "Triceratops Pet"
+   ],
+   [
+    "POPSICLE",
+    "Triple Layer Popsicle",
+    "Consumable",
+    "30m Pixie Dust Effect"
+   ],
+   [
+    "CAMOCAMO",
+    "Camouflage Sunglasses",
+    "Clothing",
+    "Freestyle"
+   ],
+   [
+    "PLANTPOWER",
+    "Animated Snacks",
+    "Consumable",
+    "1m Forest Giant Illusion"
+   ],
+   [
+    "ICECREAMSURPRISE",
+    "Ice Cream Surprise",
+    "Consumable",
+    "30m Snowflake Effect"
+   ],
+   [
+    "REPLENISH",
+    "Medium Replenishment Potion",
+    "Consumable",
+    "Restore Health/Energy in Battle"
+   ],
+   [
+    "CROISSANT",
+    "Crispy Crossiant (in-game item spelled incorrectly)",
+    "Consumable",
+    "30m Shadow Flames Effect"
+   ],
+   [
+    "SMACKDOWN",
+    "Crystal Hammer (level 19)",
+    "Weapon",
+    "Brawler"
+   ]
+  ]
+ },
+ {
+  "page": "Free Realms",
+  "index": 1,
+  "header": [
+   "Publication",
+   "Response"
+  ],
+  "rows": [
+   [
+    "USA Today",
+    "4/5"
+   ],
+   [
+    "IGN",
+    "8.8"
+   ],
+   [
+    "Eurogamer",
+    "7/10"
+   ]
+  ]
+ },
+ {
+  "page": "FreeRealms Wiki",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Starting The Game\n Slash Commands\n Membership",
+    "Interface\n Guilds Station Cash"
+   ],
+   [
+    "Free Realms Game Update Overviews"
+   ]
+  ]
+ },
+ {
+  "page": "FreeRealms Wiki:Manual of Style",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "+ I am a caption Heading one  Heading two  Heading three Row heading 1 Row data 2b Row data 3c Row heading 2 Row data 2b Row data 3a Row heading 3 Row data 2c Row data 3b",
+    "{| class=\"toccolours sortable\"\n|+ I am a caption\n|-\n! Heading one || Heading two || Heading three\n|-\n| class=\"title\" | Row heading\n| Row data 2\n| Row data 3\n|- \n| class=\"title\" | Row heading\n| Row data 2\n| Row data 3\n|- \n| class=\"title\" | Row heading\n| Row data 2\n| Row data 3\n|}"
+   ]
+  ]
+ },
+ {
+  "page": "FreeRealms Wiki:Manual of Style",
+  "index": 1,
+  "header": [
+   "Heading one",
+   "Heading two",
+   "Heading three"
+  ],
+  "rows": [
+   [
+    "Row heading 1",
+    "Row data 2b",
+    "Row data 3c"
+   ],
+   [
+    "Row heading 2",
+    "Row data 2b",
+    "Row data 3a"
+   ],
+   [
+    "Row heading 3",
+    "Row data 2c",
+    "Row data 3b"
+   ]
+  ]
+ },
+ {
+  "page": "FreeRealms Wiki:Manual of Style",
+  "index": 2,
+  "header": [],
+  "rows": [
+   [
+    "Heading one  Heading two  Heading three Row data 1 Row data 2 Row data 3 Row data 1 Row data 2 Row data 3 Row data 1 Row data 2 Row data 3 Row data 1 Row data 2 Row data 3",
+    "{| class=\"toccolours\"\n|-\n! Heading one || Heading two || Heading three\n|-\n| Row data 1\n| Row data 2\n| Row data 3\n|- \n| Row data 1\n| Row data 2\n| Row data 3\n|- class=\"alt\"\n| Row data 1\n| Row data 2\n| Row data 3\n|- \n| Row data 1\n| Row data 2\n| Row data 3\n|- class=\"alt\"\n| Row data 1\n| Row data 2\n| Row data 3\n|}"
+   ]
+  ]
+ },
+ {
+  "page": "FreeRealms Wiki:Manual of Style",
+  "index": 3,
+  "header": [
+   "Heading one",
+   "Heading two",
+   "Heading three"
+  ],
+  "rows": [
+   [
+    "Row data 1",
+    "Row data 2",
+    "Row data 3"
+   ],
+   [
+    "Row data 1",
+    "Row data 2",
+    "Row data 3"
+   ],
+   [
+    "Row data 1",
+    "Row data 2",
+    "Row data 3"
+   ],
+   [
+    "Row data 1",
+    "Row data 2",
+    "Row data 3"
+   ]
+  ]
+ },
+ {
+  "page": "FreeRealms Wiki:Manual of Style/Sample",
+  "index": 0,
+  "header": [
+   "Pink flower"
+  ],
+  "rows": [
+   [
+    "100pxPink flower"
+   ],
+   [
+    "Vital statistics"
+   ],
+   [
+    "Title",
+    "Lord"
+   ],
+   [
+    "Gender",
+    "None"
+   ],
+   [
+    "Race",
+    "Flower"
+   ],
+   [
+    "Faction",
+    "Plant-kind"
+   ],
+   [
+    "Health",
+    "10"
+   ],
+   [
+    "Level",
+    "1"
+   ],
+   [
+    "Status",
+    "Neutral"
+   ],
+   [
+    "Location",
+    "Fields"
+   ]
+  ]
+ },
+ {
+  "page": "Glugmort",
+  "index": 1,
+  "header": [],
+  "rows": [
+   [
+    "",
+    "",
+    ""
+   ],
+   [
+    ""
+   ]
+  ]
+ },
+ {
+  "page": "Green Text weapon",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Alley Fighter Hammer",
+    "yes",
+    ""
+   ],
+   [
+    "Anguish Aid Bonesaw",
+    "yes",
+    ""
+   ],
+   [
+    "Berserk Bruiser Hammer",
+    "",
+    "yes"
+   ],
+   [
+    "Biting Mongoose Blade",
+    "yes",
+    ""
+   ],
+   [
+    "Brutal Blast Bow",
+    "yes",
+    ""
+   ],
+   [
+    "Buff Bruiser Hammer",
+    "",
+    "yes"
+   ],
+   [
+    "Chivalrous Guardian Hammer",
+    "yes",
+    ""
+   ],
+   [
+    "Comet Infused Wand",
+    "",
+    "yes"
+   ],
+   [
+    "Courageous Defender Axe",
+    "",
+    "yes"
+   ],
+   [
+    "Dancing Monkey Bokken",
+    "yes",
+    ""
+   ],
+   [
+    "Daring Champion Cudgel",
+    "",
+    "yes"
+   ],
+   [
+    "Diving Hawk Scythe",
+    "yes",
+    ""
+   ],
+   [
+    "Eclipse Infused Wand",
+    "yes",
+    ""
+   ],
+   [
+    "Emergency Aid Shockrod",
+    "",
+    "yes"
+   ],
+   [
+    "Fast Blast Bow",
+    "",
+    "yes"
+   ],
+   [
+    "Fearless Defender Hammer",
+    "",
+    "yes"
+   ],
+   [
+    "Feisty Fighter Hammer",
+    "",
+    "yes"
+   ],
+   [
+    "Feral Fire Bow",
+    "",
+    "yes"
+   ],
+   [
+    "Field Support Scalpel",
+    "yes",
+    ""
+   ],
+   [
+    "Fighting Tiger Scythe",
+    "",
+    "yes"
+   ],
+   [
+    "First Aid Hammer",
+    "",
+    "yes"
+   ],
+   [
+    "Flying Dragon Sword",
+    "",
+    "yes"
+   ],
+   [
+    "Focus Fire Bow",
+    "yes",
+    ""
+   ],
+   [
+    "Frenzy Fighter Hammer",
+    "yes",
+    ""
+   ],
+   [
+    "Grief Relief Hammer",
+    "",
+    "yes"
+   ],
+   [
+    "Heal Support Bonesaw",
+    "",
+    "yes"
+   ],
+   [
+    "Heroic Champion Axe",
+    "",
+    "yes"
+   ],
+   [
+    "Hurt Mender Scalpel",
+    "",
+    "yes"
+   ],
+   [
+    "Intrepid Protector Axe",
+    "yes",
+    ""
+   ],
+   [
+    "Lunar Enchanted Wand",
+    "yes",
+    ""
+   ],
+   [
+    "Nether Enchanted Wand",
+    "",
+    "yes"
+   ],
+   [
+    "Pain Relief Bonesaw",
+    "yes",
+    ""
+   ],
+   [
+    "Power Charmed Wand",
+    "yes",
+    ""
+   ],
+   [
+    "Prowling Rat Bokken",
+    "",
+    "yes"
+   ],
+   [
+    "Quick Shot Bow",
+    "yes",
+    ""
+   ],
+   [
+    "Rapid Shot Bow",
+    "",
+    "yes"
+   ],
+   [
+    "Ring Rumbler Hammer",
+    "",
+    "yes"
+   ],
+   [
+    "Rowdy Rumbler Hammer",
+    "yes",
+    ""
+   ],
+   [
+    "Savage Sting Bow",
+    "yes",
+    ""
+   ],
+   [
+    "Shadow Infused Wand",
+    "",
+    "yes"
+   ],
+   [
+    "Soaring Eagle Scythe",
+    "",
+    "yes"
+   ],
+   [
+    "Solar Charmed Wand",
+    "",
+    "yes"
+   ],
+   [
+    "Spirited Protector Axe",
+    "",
+    "yes"
+   ],
+   [
+    "Spunky Scrapper Hammer",
+    "yes",
+    ""
+   ],
+   [
+    "Stalking Panther Scythe",
+    "yes",
+    ""
+   ],
+   [
+    "Stalwart Protector Hammer",
+    "yes",
+    ""
+   ],
+   [
+    "Steadfast Guardian Hammer",
+    "",
+    "yes"
+   ],
+   [
+    "Storm Charmed Wand",
+    "",
+    "yes"
+   ],
+   [
+    "Storm Shot Bow",
+    "",
+    "yes"
+   ],
+   [
+    "Street Scrapper Hammer",
+    "",
+    "yes"
+   ],
+   [
+    "Striking Serpent Sword",
+    "yes",
+    ""
+   ],
+   [
+    "Strong Scrapper Hammer",
+    "yes",
+    ""
+   ],
+   [
+    "Swift Sting Bow",
+    "",
+    "yes"
+   ],
+   [
+    "Tempest Woven Wand",
+    "yes",
+    ""
+   ],
+   [
+    "Trauma Support Shockrod",
+    "yes",
+    ""
+   ],
+   [
+    "Trick Shot Bow",
+    "",
+    "yes"
+   ],
+   [
+    "Twisting Cobra Blade",
+    "",
+    "yes"
+   ],
+   [
+    "Valiant Guardian Cudgel",
+    "yes",
+    ""
+   ],
+   [
+    "Void Woven Wand",
+    "yes",
+    ""
+   ],
+   [
+    "Wound Mender Bonesaw",
+    "",
+    "yes"
+   ]
+  ]
+ },
+ {
+  "page": "Harvesting",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Bundle of Briarmelon",
+    "Thorny Tillage Harvesting"
+   ],
+   [
+    "Bundle of Bumbleberry",
+    "Queensfields Harvesting"
+   ],
+   [
+    "Bundle of Choychoy",
+    "Chugaroot Farm Harvesting"
+   ],
+   [
+    "Bundle of Chugaroot",
+    "Chugaroot Farm Harvesting"
+   ],
+   [
+    "Bundle of Gummyfruit",
+    "Chugaroot Farm Harvesting, Lakesfield Harvesting, Queensfields Harvesting"
+   ],
+   [
+    "Bundle of Honeytwig",
+    "Queensfields Harvesting"
+   ],
+   [
+    "Bundle of Moonbean",
+    "Thorny Tillage Harvesting"
+   ],
+   [
+    "Bundle of Punkin",
+    "Lakesfield Harvesting"
+   ],
+   [
+    "Bundle of Rainleaf",
+    "Chugaroot Farm Harvesting, Lakesfield Harvesting, Queensfields Harvesting"
+   ],
+   [
+    "Bundle of Snowberry",
+    "Perry's Pastures Harvesting"
+   ],
+   [
+    "Bundle of Spiralmint",
+    "Thorny Tillage Harvesting, Farnum's Farm Harvesting, Perry's Pastures Harvesting"
+   ],
+   [
+    "Bundle of Stainberry",
+    "Thorny Tillage Harvesting, Farnum's Farm Harvesting, Perry's Pastures Harvesting"
+   ],
+   [
+    "Bundle of Starnut",
+    "Perry's Pastures Harvesting"
+   ],
+   [
+    "Bundle of Stickfruit",
+    "Farnum's Farm Harvesting"
+   ],
+   [
+    "Bundle of Sunleaf",
+    "Lakesfield Harvesting"
+   ],
+   [
+    "Bundle of Tumtumnip",
+    "Farnum's Farm Harvesting"
+   ]
+  ]
+ },
+ {
+  "page": "List of Collections",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Archer",
+    "Archer Stories",
+    "Archer Bow Materials",
+    "Archer Magical Bow Essences",
+    "Magical Essence Bow"
+   ],
+   [
+    "Blacksmith",
+    "Blacksmith Stories",
+    "Blacksmith's Forge Adventures",
+    "Blacksmith Materials",
+    "Slag Hammer"
+   ],
+   [
+    "Brawler",
+    "Brawler Stories",
+    "Brawler Hammer Materials",
+    "Brawler Magical Hammer Essences",
+    "Magical Essence Crystal Hammer"
+   ],
+   [
+    "Chef",
+    "Chef's Cake Baking Books",
+    "Chef's Cake Platters",
+    "Chef's Cake Baking Utensils",
+    "Mystery Cake"
+   ],
+   [
+    "Medic",
+    "Medic Stories",
+    "Medic Shock Rod Materials",
+    "Medic Magical Essences",
+    "Magical Essence Shock Rod"
+   ],
+   [
+    "Ninja",
+    "Ninja Stories",
+    "Ninja Sword Materials",
+    "Ninja Magical Sword Essences",
+    "Magical Essence Shadowblade"
+   ],
+   [
+    "Postman",
+    "Postman Packages and Envelopes",
+    "Postman Postcards",
+    "Postman Stamps",
+    "Rudolfo's Speedy Kicks"
+   ],
+   [
+    "Warrior",
+    "Warrior Stories",
+    "Warrior Axe Materials",
+    "Warrior Magical Axe Essences",
+    "Magical Essence Axe"
+   ],
+   [
+    "Wizard",
+    "Wizard Stories",
+    "Wizard Wand Materials",
+    "Wizard Magical Wand Essences",
+    "Magical Essence Wand"
+   ]
+  ]
+ },
+ {
+  "page": "List of Collections",
+  "index": 1,
+  "header": [],
+  "rows": [
+   [
+    "Miner",
+    "Miner's Copper Ore",
+    "Miner's Silver Ore",
+    "Miner's Gold Ore",
+    "Miner's Precious Gems",
+    "Miner's Fancy Gems",
+    "Miner's Special Gems",
+    "Magical Summoning Ore"
+   ]
+  ]
+ },
+ {
+  "page": "List of Collections",
+  "index": 2,
+  "header": [],
+  "rows": [
+   [
+    "TulipsOrchidsCarnationsRosesDaisiesLiliesSunflowersDaffodils",
+    "Golden Flowers \u00a7",
+    "Exotic Flowers",
+    "Exotic Golden Flower"
+   ],
+   [
+    "Snowhill TulipsSnowhill OrchidsSnowhill CarnationsSnowhill RosesSnowhill DaisiesSnowhill LiliesSnowhill SunflowersSnowhill Daffodils",
+    "Rare Snowhill Flowers \u00a7",
+    "Exotic Snowhill Flowers",
+    "Exotic Snowhill Flower"
+   ]
+  ]
+ },
+ {
+  "page": "List of Collections",
+  "index": 3,
+  "header": [],
+  "rows": [
+   [
+    "Checkered CaterpillarsSolid CaterpillarsStriped CaterpillarsSpotted Caterpillars",
+    "Cocoons \u00a7",
+    "Magnificent Butterflies",
+    "Butterfly Swirl Potion"
+   ]
+  ]
+ },
+ {
+  "page": "List of Collections",
+  "index": 4,
+  "header": [],
+  "rows": [
+   [
+    "Checkered AntsSolid AntsStriped AntsSpotted AntsCheckered CentipedesSolid CentipedesStriped CentipedesSpotted CentipedesCheckered SnailsSolid SnailsStriped SnailsSpotted SnailsCheckered SpidersSolid SpidersStriped SpidersSpotted SpidersFirefliesGreen FirefliesOrange FirefliesRed Fireflies",
+    "Reinforcements Have Arrived \u00a7Espionage \u00a7Ground Support \u00a7Special Forces \u00a7Air Support \u00a7",
+    "Objective Complete \u00a7",
+    "Mission Accomplished",
+    "Seeker's Gloves"
+   ]
+  ]
+ },
+ {
+  "page": "List of Collections",
+  "index": 5,
+  "header": [],
+  "rows": [
+   [
+    "Forks",
+    "Spoons",
+    "Knives",
+    "Plates",
+    "Pathfinder's Gloves"
+   ],
+   [
+    "Okay Buttons",
+    "Cool Buttons",
+    "Better Buttons",
+    "Awesome Buttons",
+    "Button Eyes Potion"
+   ]
+  ]
+ },
+ {
+  "page": "List of Collections",
+  "index": 6,
+  "header": [],
+  "rows": [
+   [
+    "Unique Medals",
+    "Medals of Honor",
+    "Honorable Mention Medals",
+    "Bronze Medals",
+    "Silver Medals",
+    "Gold Medals",
+    "Gold Badge"
+   ]
+  ]
+ },
+ {
+  "page": "Lost Treasures Month",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Fiber Optic Wand",
+    "Giant Penguin Meal",
+    "Hat 'n Monocle"
+   ],
+   [
+    "Merry Vale Bouquet",
+    "Mini-Thugawug Stew",
+    "Propeller Cap"
+   ],
+   [
+    "Spoiled Cat Collar",
+    "Spoiled Cat Crown",
+    "Ultimate Bacon-Maker"
+   ]
+  ]
+ },
+ {
+  "page": "Medic",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "1",
+    "First Aid",
+    "Heals yourself and any ally near you for 250 health. Further ranks increase healing."
+   ],
+   [
+    "5",
+    "Target Vitals",
+    "Knowledge of physiology allows you to strike at the vital points of your enemy inflicting 133 damage. Further ranks increase the damage dealt."
+   ],
+   [
+    "10",
+    "Vitamins",
+    "Makes the medic grow in size, increasing critical hit chance by 1% and increasing critical hit damage by 10% for 5 seconds. Further ranks increase the critical hit and damage %."
+   ],
+   [
+    "15",
+    "Shock Paddles",
+    "Causes 50 damage to an enemy and two other enemies near that enemy. Further ranks increase the damage dealt."
+   ]
+  ]
+ },
+ {
+  "page": "Medic Power Attacks",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Antibodies",
+    "2372",
+    "Sometimes charms",
+    "Nearby",
+    "10674",
+    ".",
+    "Enemy to enemy"
+   ],
+   [
+    "Blood Cell",
+    "2372",
+    ".",
+    "In front",
+    "5977",
+    "Immobilizes",
+    "Nearby"
+   ],
+   [
+    "Elemental Overload",
+    "2372",
+    ".",
+    "In front",
+    "8320",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Flail",
+    "2372",
+    ".",
+    "In front",
+    "3522",
+    "Damages 4 times",
+    "In front"
+   ],
+   [
+    "Heart Breaker",
+    "2372",
+    ".",
+    "In front",
+    "5977",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Immunize",
+    "2372",
+    "Sometimes decreases opponents' attack",
+    "In front",
+    "5977",
+    "Increases damage",
+    "Nearby"
+   ],
+   [
+    "Laser Surgery",
+    "1186",
+    "Damages 2 times; sometimes decreases opponents' defense",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Nurse!",
+    "2372",
+    "Sometimes decreases opponents' defense",
+    "In front",
+    ".",
+    "Summons nurses",
+    "."
+   ],
+   [
+    "Party Crasher",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    "7685",
+    "Stuns in front",
+    "Nearby"
+   ],
+   [
+    "Reflex Test",
+    "2372",
+    ".",
+    "Nearby",
+    "10674",
+    "Sometimes extra damage",
+    "Nearby"
+   ],
+   [
+    "Shock Paddles",
+    "2372",
+    "Sometimes stuns",
+    "Nearby",
+    "8302",
+    "Sometimes stuns",
+    "Nearby"
+   ],
+   [
+    "Target Vitals",
+    "2372",
+    ".",
+    "Nearby",
+    "5977",
+    "Decreases opponents' defense",
+    "In front"
+   ],
+   [
+    "TriageNote: Old School Medic weapons have higher damage values. Their Incision does 3391 damage and their Triage does 10792 damage and heals 3083.",
+    "2609",
+    ".",
+    "In front",
+    "8302",
+    "Heals 2372",
+    "Nearby"
+   ],
+   [
+    "Vital Strike",
+    "1186",
+    "Damages 2 times",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Vitamins",
+    "2372",
+    "Sometimes slows",
+    "In front",
+    ".",
+    "Increases speed & damage",
+    "."
+   ]
+  ]
+ },
+ {
+  "page": "Miner",
+  "index": 0,
+  "header": [
+   "Common",
+   "Rich"
+  ],
+  "rows": [
+   [
+    "1",
+    "Copper Ore",
+    "Turquoise",
+    "Malachite"
+   ],
+   [
+    "5",
+    "Tin Ore",
+    "Topaz",
+    "Garnet"
+   ],
+   [
+    "10",
+    "Iron Ore",
+    "Tourmaline",
+    "Amethyst"
+   ],
+   [
+    "15",
+    "Silver Ore",
+    "Onyx",
+    "Ruby"
+   ],
+   [
+    "20",
+    "Gold Ore",
+    "Moonstone",
+    "Fireagate"
+   ]
+  ]
+ },
+ {
+  "page": "Miner",
+  "index": 1,
+  "header": [
+   "Common",
+   "Rich"
+  ],
+  "rows": [
+   [
+    "Copper Ore",
+    "Singing Crystal Mines (Snowhill)",
+    "Southern Snowhill"
+   ],
+   [
+    "Tin Ore",
+    "Dartmoor Quarry (Merry Vale)",
+    "Northern Wilds"
+   ],
+   [
+    "Iron Ore",
+    "Southvale Quarry",
+    "Southern & Western Wilds"
+   ],
+   [
+    "Silver Ore",
+    "Quagmire Quarry (Blackspore Swamp)",
+    "Outside of Blackspore; Eastern Wilds"
+   ],
+   [
+    "Gold Ore",
+    "Mother Lode Quarry (Briarwood - Nettleseed)",
+    "All regions of Briarwood"
+   ]
+  ]
+ },
+ {
+  "page": "Monthly Member Pack Items",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "February 2014",
+    "N/A",
+    "Sunset Party Boat"
+   ],
+   [
+    "January 2014",
+    "N/A",
+    "Lawless Gloam ChopperValiant Gleam Cycle"
+   ],
+   [
+    "December 2013",
+    "N/A",
+    "SBS-1000"
+   ],
+   [
+    "November 2013",
+    "N/A",
+    "Lost Treasures Backpack Lost Treasures Boots Lost Treasures FedoraLost Treasures JacketLost Treasures PantsLost Treasures Whip"
+   ],
+   [
+    "October 2013",
+    "N/A",
+    "Pinkeye Toeny"
+   ],
+   [
+    "September 2013",
+    "N/A",
+    "Pixel Helm Bit Basher"
+   ],
+   [
+    "August 2013",
+    "N/A",
+    "Chatty Wobblehead Robbie Wobblehead 5x Cans of Beans"
+   ],
+   [
+    "July 2013",
+    "N/A",
+    "Octopus Ride"
+   ],
+   [
+    "June 2013",
+    "N/A",
+    "Storage Vault200 Slot Storage Upgrade"
+   ],
+   [
+    "May 2013",
+    "N/A",
+    "719 Assorted Marble Building Materials (grey)"
+   ],
+   [
+    "April 2013",
+    "N/A",
+    "5x Piano A1 C-Scale Music Block5x Piano B1 C-Scale Music Block5x Piano C1 C-Scale Music Block5x Piano C2 C-Scale Music Block5x Piano D1 C-Scale Music Block5x Piano E1 C-Scale Music Block5x Piano F1 C-Scale Music Block5x Piano G1 C-Scale Music Block"
+   ],
+   [
+    "March 2013",
+    "",
+    "Feathered Wings T-Shirt"
+   ],
+   [
+    "February 2013",
+    "",
+    "Flutterby Hearts T-Shirt"
+   ],
+   [
+    "January 2013",
+    "",
+    "Tuxedo T-Shirt"
+   ],
+   [
+    "December 2012",
+    "",
+    "Holiday Lights T-Shirt"
+   ],
+   [
+    "November 2012",
+    "",
+    "Tie-Dye T-Shirt"
+   ],
+   [
+    "October 2012",
+    "",
+    "Toxic T-Shirt"
+   ],
+   [
+    "September 2012",
+    "",
+    "Rainbow T-Shirt"
+   ],
+   [
+    "August 2012",
+    "",
+    "Awkto T-Shirt"
+   ],
+   [
+    "July 2012",
+    "",
+    "Wireless T-Shirt"
+   ],
+   [
+    "June 2012",
+    "",
+    "Smiley Face T-Shirt"
+   ],
+   [
+    "May 2012",
+    "",
+    "Mystery Key"
+   ],
+   [
+    "April 2012",
+    "",
+    "Mystery Key"
+   ],
+   [
+    "March 2012",
+    "",
+    "Mystery Key"
+   ],
+   [
+    "February 2012",
+    "",
+    "Mystery Key"
+   ],
+   [
+    "January 2012",
+    "",
+    "Mystery Key"
+   ],
+   [
+    "December 2011",
+    "",
+    "Mystery KeyHoundstooth WallpaperGreen Houndstooth2x Lodge Chairs"
+   ]
+  ]
+ },
+ {
+  "page": "Ninja",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "5",
+    "Ultimate Power",
+    "You gain energy for each critical hit you inflict."
+   ],
+   [
+    "10",
+    "Shrouded Armor",
+    "Your special armor reduces damage taken when struck."
+   ],
+   [
+    "15",
+    "Ninja's Grace",
+    "The way of the ninja grants improved run speed, faster health regeneration, and attack."
+   ],
+   [
+    "20",
+    "Dragon's Boon",
+    "The blessing of the dragon grants a chance to counterattack with a lightning strike that will damage a opponent and then chain to another opponent up to 3 times."
+   ]
+  ]
+ },
+ {
+  "page": "Ninja Power Attacks",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "1000 Storms",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Dragon's Rage",
+    "2372",
+    ".",
+    "In front",
+    "4732",
+    "Damages 3 times",
+    "Nearby"
+   ],
+   [
+    "DragonstrikeNote: Old School Ninja weapons have higher damage values. Their Flame Flash does 3083 damage and their Dragonstrike does 13876 damage.",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Fan of Blades",
+    "2372",
+    "Sometimes immobilizes",
+    "In front",
+    "5977",
+    "Immobilizes",
+    "Nearby"
+   ],
+   [
+    "Feral Spirit",
+    "2372",
+    ".",
+    "In front",
+    "9132",
+    ".",
+    "In front"
+   ],
+   [
+    "Flame Breath",
+    "2372",
+    "Sometime extra damage",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Flame Wave",
+    "2372",
+    ".",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Flaming Uppercut",
+    "2609",
+    ".",
+    "Nearby",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Heart Breaker",
+    "2372",
+    ".",
+    "In front",
+    "5977",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Heat Wave",
+    "2372",
+    ".",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Kaleidoscope",
+    "2372",
+    ".",
+    "In front",
+    "4732",
+    "Damages 3 times",
+    "Nearby"
+   ],
+   [
+    "Mystical Blade",
+    "1186",
+    "Damages 2 times",
+    "In front",
+    ".",
+    "Increase damage",
+    "."
+   ],
+   [
+    "Mystical Drain",
+    "2372",
+    "Decrease opponents' health & energy",
+    "In front",
+    "8302",
+    "Decrease opponents' health & energy",
+    "Nearby"
+   ],
+   [
+    "Ninja's Purge",
+    "1186",
+    "Burning Slash: Deals 711 damage every 3 seconds, twice",
+    "In front",
+    "7471",
+    "Deals 7471 to opponents with Burning Slash",
+    "Nearby"
+   ],
+   [
+    "Noxious Cloud",
+    "2372",
+    ".",
+    "In front",
+    "4732",
+    "Damages 3 times",
+    "Nearby"
+   ],
+   [
+    "Omen's Light",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Party Crasher",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    "7685",
+    "Stuns in front",
+    "Nearby"
+   ],
+   [
+    "Radioactive Aura",
+    "2372",
+    ".",
+    "In front",
+    "4732",
+    "Damages 3 times",
+    "Nearby"
+   ],
+   [
+    "Rainbow Cutter",
+    "2372",
+    ".",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Shadow Army",
+    "1186",
+    "Damages 2 times",
+    "In front",
+    ".",
+    "Summons ninjas",
+    "."
+   ],
+   [
+    "Shuriken Storm",
+    "2609",
+    ".",
+    "Nearby",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Thunderstorm",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ]
+  ]
+ },
+ {
+  "page": "Pet Pals",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Baby Black Widow",
+    "Black widow",
+    "",
+    "N/A",
+    "Only available during\u00a0the Super Spooktacular."
+   ],
+   [
+    "Bambi",
+    "Deer",
+    "N/A",
+    "N/A",
+    "No longer available."
+   ],
+   [
+    "Basket Ball",
+    "Basketball",
+    "N/A",
+    "",
+    ""
+   ],
+   [
+    "Cakeling",
+    "Cake creature",
+    "N/A",
+    "",
+    ""
+   ],
+   [
+    "Chicken",
+    "Chicken",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Crab",
+    "Crab",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Creepy Construct",
+    "Ghost",
+    "N/A",
+    "N/A",
+    "Available by redeeming all twelve comic book codes."
+   ],
+   [
+    "Cupcake",
+    "Cupcake",
+    "N/A",
+    "N/A",
+    "Only available during the Birthday Bash."
+   ],
+   [
+    "Cupid",
+    "Cupid",
+    "N/A",
+    "N/A",
+    "Only available during 2011 Festival of Hearts as a random prize from the Gifting Basket."
+   ],
+   [
+    "Domo",
+    "Unknown",
+    "N/A",
+    "",
+    ""
+   ],
+   [
+    "Duck",
+    "Duck",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Dukey the Dog",
+    "Dog",
+    "N/A",
+    "N/A",
+    "No longer available."
+   ],
+   [
+    "Embers",
+    "Dragon",
+    "N/A",
+    "",
+    ""
+   ],
+   [
+    "Fairy Boy",
+    "Fairy",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Fairy Girl",
+    "Fairy",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Feathered Drakeling",
+    "Feathered drake",
+    "N/A",
+    "",
+    ""
+   ],
+   [
+    "Figgy Pudding Critter",
+    "Figgy pudding creature",
+    "N/A",
+    "N/A",
+    "Acquired from the 12 Days of Presents 2013."
+   ],
+   [
+    "Fruit Cake Critter",
+    "Fruit cake creature",
+    "N/A",
+    "N/A",
+    "Acquired from the 12 Days of Presents 2012."
+   ],
+   [
+    "Fish",
+    "Fish",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Flower",
+    "Skunk",
+    "N/A",
+    "N/A",
+    "No longer available."
+   ],
+   [
+    "Friendly Leafling",
+    "Floren",
+    "N/A",
+    "N/A",
+    "Acquired by defeat Bitterleaf."
+   ],
+   [
+    "Ghostly Raven",
+    "Raven",
+    "",
+    "N/A",
+    "Only available during\u00a0the Super Spooktacular."
+   ],
+   [
+    "Ghostly Snake",
+    "Snake",
+    "",
+    "N/A",
+    "Only available during\u00a0the Super Spooktacular."
+   ],
+   [
+    "Ghostly Toad",
+    "Toad",
+    "",
+    "N/A",
+    "Only available during\u00a0the Super Spooktacular."
+   ],
+   [
+    "Grave Elemental",
+    "Unknown",
+    "",
+    "N/A",
+    "Only available during the\u00a0Super Spooktacular."
+   ],
+   [
+    "Heart Critter",
+    "Heart creature",
+    "N/A",
+    "N/A",
+    "Only available during 2011 Festival of Hearts as a random prize from the Gifting Basket."
+   ],
+   [
+    "Jack-O-Lantern",
+    "Pumpkin",
+    "",
+    "N/A",
+    "Only available during\u00a0the Super Spooktacular"
+   ],
+   [
+    "Jack the Rabbit",
+    "Rabbit",
+    "N/A",
+    "N/A",
+    "Acquired by completing the The Eggcellent Egg Hunt quest."
+   ],
+   [
+    "Little Fang",
+    "Tiger",
+    "N/A",
+    "",
+    ""
+   ],
+   [
+    "Marshmallow",
+    "Marshmallow",
+    "N/A",
+    "",
+    "Only available during Summer Camp."
+   ],
+   [
+    "Meep",
+    "Meep",
+    "",
+    "N/A",
+    "Purchased from Momma Meepster."
+   ],
+   [
+    "Minicopter",
+    "Helicopter",
+    "N/A",
+    "",
+    ""
+   ],
+   [
+    "Mini Cray",
+    "Cray",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Mini-Manguana",
+    "Manguana",
+    "N/A",
+    "N/A",
+    "Obtained through completing the Friend or Foe:The Savage quest."
+   ],
+   [
+    "Mini Necrowart Zombie",
+    "Zombie",
+    "",
+    "N/A",
+    "Only available during\u00a0the Super Spooktacular."
+   ],
+   [
+    "Parrot",
+    "Parrot",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Rabbit",
+    "Rabbit",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Road Runner",
+    "Road Runner",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Sandscale Gatherer",
+    "Manguana",
+    "N/A",
+    "N/A",
+    "Acquired through redeeming the Trading Card Game Series 5 Virtual Reward loot card."
+   ],
+   [
+    "Shaggy Cow",
+    "Cow",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Skeleton",
+    "Skeleton",
+    "",
+    "N/A",
+    "Only available during the Super Spooktacular."
+   ],
+   [
+    "Snake",
+    "Snake",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Snow Hog",
+    "Boar",
+    "N/A",
+    "N/A",
+    "Only available during Snow Days."
+   ],
+   [
+    "Snowman",
+    "Snowman",
+    "",
+    "N/A",
+    "Only available during the Snow Days."
+   ],
+   [
+    "Soccer Ball",
+    "Soccer ball",
+    "N/A",
+    "",
+    ""
+   ],
+   [
+    "Spring Chick",
+    "Chicken",
+    "N/A",
+    "N/A",
+    "Acquired through the Spring Chicken Pack during the spring season."
+   ],
+   [
+    "Squirrel",
+    "Squirrel",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Teeny Wrex",
+    "T-rex",
+    "N/A",
+    "",
+    ""
+   ],
+   [
+    "Thumper",
+    "Rabbit",
+    "N/A",
+    "N/A",
+    "No longer available."
+   ],
+   [
+    "Toeny",
+    "Toe creature",
+    "N/A",
+    "N/A",
+    "Received from the October 2013 Member Pack Item."
+   ],
+   [
+    "Turtle",
+    "Turtle",
+    "",
+    "N/A",
+    ""
+   ],
+   [
+    "Wally",
+    "Frog",
+    "N/A",
+    "N/A",
+    "No longer available."
+   ],
+   [
+    "Wild Eagle",
+    "Eagle",
+    "N/A",
+    "N/A",
+    "Acquired by defeat bixies, ninjawugs, hooligans, and necromancers in combat areas."
+   ],
+   [
+    "Wild Hawk",
+    "Hawk",
+    "N/A",
+    "N/A",
+    "Acquired by defeat bixies, ninjawugs, hooligans, and necromancers in combat areas."
+   ]
+  ]
+ },
+ {
+  "page": "Pet Trainer",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "1",
+    "Speak",
+    "Teaches your cat to speak"
+   ],
+   [
+    "5",
+    "Jump",
+    "Teaches your cat to jump"
+   ],
+   [
+    "10",
+    "Box",
+    "Teaches your cat to box"
+   ],
+   [
+    "15",
+    "Spin",
+    "Teaches your cat to spin"
+   ],
+   [
+    "15",
+    "Handstand",
+    "Teaches your cat to perform a handstand"
+   ],
+   [
+    "20",
+    "Dance",
+    "Teaches your cat to dance"
+   ],
+   [
+    "20",
+    "Play Dead",
+    "Teaches your cat to play dead"
+   ]
+  ]
+ },
+ {
+  "page": "Pet Trainer",
+  "index": 1,
+  "header": [],
+  "rows": [
+   [
+    "1",
+    "Speak",
+    "Teaches your dog to speak"
+   ],
+   [
+    "5",
+    "Sit Up",
+    "Teaches your dog to sit up"
+   ],
+   [
+    "10",
+    "Rollover",
+    "Teaches your to dog roll over"
+   ],
+   [
+    "10",
+    "Peek-A-Boo",
+    "Teaches your dog to play peek-a-boo"
+   ],
+   [
+    "15",
+    "Hand Stand",
+    "Teaches your dog to perform a hand stand"
+   ],
+   [
+    "20",
+    "Dance",
+    "Teaches your dog to dance"
+   ],
+   [
+    "20",
+    "Play Dead",
+    "Teaches your dog to play dead"
+   ]
+  ]
+ },
+ {
+  "page": "Pets",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Alfy",
+    "Beetle",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Allie",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Arcadius",
+    "Bear",
+    "",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Amira",
+    "Cat",
+    "Long hair cat",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Archimedes",
+    "Owl",
+    "Spotted owl",
+    "",
+    ""
+   ],
+   [
+    "Arun",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Balloon Animal",
+    "Dog",
+    "Large dog",
+    "",
+    "Only available during the Birthday Bash."
+   ],
+   [
+    "Bandit",
+    "Dog",
+    "Large dog",
+    "",
+    "Available on the Daily Wheel."
+   ],
+   [
+    "Barkley",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Bat",
+    "Bat",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Blair",
+    "Cat",
+    "Long hair cat",
+    "",
+    "No longer available."
+   ],
+   [
+    "Bort",
+    "Dog",
+    "Large dog",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Bruno",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Bubba",
+    "Cat",
+    "Long hair cat",
+    "",
+    ""
+   ],
+   [
+    "Char",
+    "Dragon",
+    "Gold-tip dragon",
+    "",
+    ""
+   ],
+   [
+    "Chester",
+    "Cat",
+    "Short hair cat",
+    "N/A",
+    "Available from a TCG Virtual Reward card."
+   ],
+   [
+    "Chibi",
+    "Unicorn",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Chuck",
+    "Groundhog",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Chumly",
+    "Cat",
+    "Long hair cat",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Cinnamon",
+    "Unicorn",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Clockwork Beetle",
+    "Beetle",
+    "",
+    "N/A",
+    "Available from a TCG Virtual Reward card."
+   ],
+   [
+    "Crackers",
+    "Raptor",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Coyote",
+    "Coyote",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Dakota",
+    "Pegasus",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Dashes",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Dashiell",
+    "Cat",
+    "Long hair cat",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Diego",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Dot",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Duke",
+    "Dog",
+    "Large dog",
+    "N/A",
+    "Available from a TCG Virtual Reward card."
+   ],
+   [
+    "Dumpling",
+    "Hippo",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Echo",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Emo-Tor",
+    "Raptor",
+    "",
+    "N/A",
+    "Available from a TCG Virtual Reward card."
+   ],
+   [
+    "Fire Pegasus",
+    "Pegasus",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Fritz",
+    "Spider",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Garnet",
+    "Reindeer",
+    "",
+    "",
+    "Only available during the Snow Days."
+   ],
+   [
+    "Gizmo",
+    "Cat",
+    "Short hair cat",
+    "",
+    ""
+   ],
+   [
+    "Gray Toyger",
+    "Cat",
+    "Short hair cat",
+    "",
+    "Only available during the Lost Treasures Month."
+   ],
+   [
+    "Hedgewig",
+    "Owl",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Hugo",
+    "Dog",
+    "Small dog",
+    "N/A",
+    "Available from a TCG Virtual Reward card."
+   ],
+   [
+    "Hurricane",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Harley",
+    "Boar",
+    "",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Hydra",
+    "Hydra",
+    "",
+    "",
+    "Must be VIP Rank 4 to purchase."
+   ],
+   [
+    "Icco",
+    "Pony",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Iggy",
+    "Triceratops",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Jaina",
+    "Pony",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Jasper",
+    "Cat",
+    "Short hair cat",
+    "",
+    "No longer available."
+   ],
+   [
+    "Jinx",
+    "Dog",
+    "Small dog",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Kiri",
+    "Cat",
+    "Short hair cat",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Koko",
+    "Cat",
+    "Short hair cat",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Lake",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Landshark",
+    "Groundhog",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Lava Tiger",
+    "Tiger",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Lexy",
+    "Cat",
+    "Short hair cat",
+    "N/A",
+    "Available on the Daily Wheel."
+   ],
+   [
+    "Lilly",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Lovasus",
+    "Pegasus",
+    "",
+    "N/A",
+    "Only available during the Festival of Hearts."
+   ],
+   [
+    "Luna",
+    "Cat",
+    "Long hair cat",
+    "",
+    "No longer available."
+   ],
+   [
+    "Marlin",
+    "Dog",
+    "Large dog",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Max",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Milo",
+    "Cat",
+    "Short hair cat",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Minnie",
+    "Cat",
+    "Long hair cat",
+    "",
+    ""
+   ],
+   [
+    "Mittens",
+    "Cat",
+    "Short hair cat",
+    "",
+    ""
+   ],
+   [
+    "Mojo",
+    "Cat",
+    "Short hair cat",
+    "",
+    ""
+   ],
+   [
+    "Monkey",
+    "Monkey",
+    "Capuchin monkey",
+    "",
+    ""
+   ],
+   [
+    "Mr. Kitty",
+    "Cat",
+    "Short hair cat",
+    "",
+    ""
+   ],
+   [
+    "Muggy",
+    "Dog",
+    "Small dog",
+    "",
+    "Only available during the Super Spooktacular."
+   ],
+   [
+    "Munchy",
+    "Spider",
+    "Furry spider",
+    "",
+    ""
+   ],
+   [
+    "Nightmare Pony",
+    "Pony",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Nox",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Pavel",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Peccadillo",
+    "Dog",
+    "Large dog",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Petunia",
+    "Dog",
+    "Large dog",
+    "N/A",
+    "Available from a TCG Virtual Reward card."
+   ],
+   [
+    "Phoenix",
+    "Phoenix",
+    "",
+    "",
+    "Must be VIP Rank 1 to purchase."
+   ],
+   [
+    "Pig",
+    "Pig",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Pi\u00f1ata Pony",
+    "Pony",
+    "",
+    "",
+    "Only available during the Birthday Bash."
+   ],
+   [
+    "Pinkeye",
+    "Flying eyeball",
+    "",
+    "N/A",
+    "Received from October 2013's Monthly Member Pack."
+   ],
+   [
+    "Pipsqueak",
+    "Penguin",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Pooky",
+    "Cat",
+    "Short hair cat",
+    "",
+    ""
+   ],
+   [
+    "Raja",
+    "Tiger",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Rascal",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Riley",
+    "Cat",
+    "Long hair cat",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Rocco",
+    "Pony",
+    "",
+    "",
+    ""
+   ],
+   [
+    "ROFLE",
+    "Robot",
+    "",
+    "N/A",
+    "Available from a Treasure War Virtual Reward card."
+   ],
+   [
+    "Roxie",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Scooter",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Scout",
+    "Dog",
+    "Large dog",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Screech",
+    "Raptor",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Shadow",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "She-Rex",
+    "T-rex",
+    "",
+    "N/A",
+    "Only available during the Festival of Hearts."
+   ],
+   [
+    "Ski",
+    "Dog",
+    "Large dog",
+    "",
+    ""
+   ],
+   [
+    "Skip",
+    "Pegasus",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Snowflake",
+    "Unicorn",
+    "",
+    "",
+    "No longer available; sales benefited Child's Play in 2011."
+   ],
+   [
+    "Snowheart",
+    "Penguin",
+    "",
+    "N/A",
+    "Only available during the Festival of Hearts."
+   ],
+   [
+    "Spike",
+    "Dragon",
+    "Spiked dragon",
+    "",
+    ""
+   ],
+   [
+    "St. Bernard",
+    "Dog",
+    "Large dog",
+    "N/A",
+    "Acquired from the 12 Days of Presents 2012."
+   ],
+   [
+    "Stretch",
+    "Dogs",
+    "Large dogs",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ],
+   [
+    "Summer",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Tacky Sweater Penguin",
+    "Penguin",
+    "",
+    "",
+    "No longer available; sales benefited Child's Play in 2010."
+   ],
+   [
+    "Tao",
+    "Cat",
+    "Long hair cat",
+    "",
+    ""
+   ],
+   [
+    "Taz",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Tex",
+    "T-rex",
+    "Spiked t-rex",
+    "",
+    ""
+   ],
+   [
+    "Treeble",
+    "Treeble",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Vivi",
+    "Pony",
+    "Palomino",
+    "",
+    ""
+   ],
+   [
+    "Vulture",
+    "Vulture",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Wolf",
+    "Wolf",
+    "",
+    "",
+    ""
+   ],
+   [
+    "York",
+    "Dog",
+    "Small dog",
+    "",
+    ""
+   ],
+   [
+    "Yule",
+    "Reindeer",
+    "",
+    "",
+    "Only available during the Snow Days."
+   ],
+   [
+    "Zando",
+    "T-rex",
+    "",
+    "",
+    "No longer available; sales benefited Haiti Earthquake Relief."
+   ],
+   [
+    "Zax",
+    "T-rex",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Ziggy",
+    "Triceratops",
+    "",
+    "",
+    "No longer available; sales benefited Child's Play in 2009."
+   ],
+   [
+    "Zilla",
+    "T-rex",
+    "",
+    "",
+    "No longer available."
+   ],
+   [
+    "Zinx",
+    "Cat",
+    "Short hair cat",
+    "",
+    ""
+   ],
+   [
+    "Zoey",
+    "Cat",
+    "Short hair cat",
+    "",
+    "Purchased from Cragara, the Mysterious Merchant."
+   ]
+  ]
+ },
+ {
+  "page": "Player Studio",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Happy Heart T-Shirt",
+    "Eden Evergreen",
+    "T-Shirt",
+    "Wave 1 - 12/13/2012"
+   ],
+   [
+    "Swirly Railed Gazebo",
+    "Emily Cabrian",
+    "Furniture",
+    "Wave 1 - 12/13/2012"
+   ],
+   [
+    "Basic Blue T-Shirt",
+    "Danny Silvermeadow",
+    "T-Shirt",
+    "Wave 2 - 06/05/2013"
+   ],
+   [
+    "Camo Combat T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 2 - 06/05/2013"
+   ],
+   [
+    "Cheesy T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 2 - 06/05/2013"
+   ],
+   [
+    "Gloam Memories T-Shirt",
+    "Kaleb Opaleyes",
+    "T-Shirt",
+    "Wave 2 - 06/05/2013"
+   ],
+   [
+    "Hip-strap T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 2 - 06/05/2013"
+   ],
+   [
+    "Lucky Clover T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 2 - 06/05/2013"
+   ],
+   [
+    "Music Penguin T-Shirt",
+    "Danny Silvermeadow",
+    "T-Shirt",
+    "Wave 2 - 06/05/2013"
+   ],
+   [
+    "Punky Plaid T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 2 - 06/05/2013"
+   ],
+   [
+    "Amiable Apple T-Shirt",
+    "Eden Evergreen",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Ancient Precursor T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Blue Bosun's Tunic",
+    "MasterMagnus",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Gearbook Laptop",
+    "Firehawk894",
+    "Furniture",
+    "Wave 2 - 06/05/2013"
+   ],
+   [
+    "Giraffe Safari T-Shirt",
+    "Soren aka \"Sren\"",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Gleeful Gumdrop T-Shirt",
+    "Eden Evergreen",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Fancy Flames T-Shirt",
+    "Eden Evergreen",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Friendly Flowers T-Shirt",
+    "Eden Evergreen",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Goth Gaze T-Shirt",
+    "MasterMagnus",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Hangtime T-Shirt",
+    "Firehawk894",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Headphones T-Shirt",
+    "Soren aka \"Klas\"",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Laughing Leaf T-Shirt",
+    "Eden Evergreen",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Leopard Safari T-Shirt",
+    "Soren aka \"Sren\"",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Lucky T-Shirt",
+    "Miranda Sillyheart",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Molten Precursor T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Partly Cloudy T-Shirt",
+    "Kaleb Opaleyes",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Purple Swirl T-Shirt",
+    "Danny Silvermeadow",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Puzzle T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Technicolor T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Treasure Map T-Shirt",
+    "Soren aka \"Klas\"",
+    "T-Shirt",
+    "Wave 3 - 07/23/2013"
+   ],
+   [
+    "Bat Wing T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Black Cat T-Shirt",
+    "Eve",
+    "T-Shirt",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Creepy Crawly Cupcakes",
+    "Shyshadow",
+    "Furniture",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Cute Kitten T-Shirt",
+    "Lindi Silverwolf",
+    "T-Shirt",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Dolly Doll",
+    "Margaret DeLaney",
+    "Furniture",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Gloam Infused T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Glowing Skeleton T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Golden Heart T-Shirt",
+    "Danny Silvermeadow",
+    "T-Shirt",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Gooey Caramel Candy Apples",
+    "Shyshadow",
+    "Furniture",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Hole-In-One Golf Driver",
+    "Firehawk894",
+    "Weapon",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Jogging Jacket T-Shirt",
+    "Eden Evergreen",
+    "T-Shirt",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Precursor Energy Blade",
+    "Shyshadow",
+    "Weapon",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Punky Pumpkin T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "Slightly Unstable Grandfather Clock",
+    "Andy Barth",
+    "Furniture",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "The Handyman's Shelf",
+    "Andy Barth",
+    "Furniture",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "The Kingmaker",
+    "CoffeeOutlaw",
+    "Weapon",
+    "Wave 4 - 10/22/2013"
+   ],
+   [
+    "3pc Kitchen Cookware Set",
+    "Shyshadow",
+    "Furniture",
+    "Wave 5 - 11/19/2013"
+   ],
+   [
+    "Canned Goodies",
+    "Shyshadow",
+    "Furniture",
+    "Wave 5 - 11/19/2013"
+   ],
+   [
+    "Fancy Candelabra",
+    "Shyshadow",
+    "Furniture",
+    "Wave 5 - 11/19/2013"
+   ],
+   [
+    "Orange Designer T-Shirt",
+    "Danny Silvermeadow",
+    "T-Shirt",
+    "Wave 5 - 11/19/2013"
+   ],
+   [
+    "Purple Fan T-Shirt",
+    "Danny Silvermeadow",
+    "T-Shirt",
+    "Wave 5 - 11/19/2013"
+   ],
+   [
+    "Candy Canes T-Shirt",
+    "Danny Silvermeadow",
+    "T-Shirt",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Cheesy Pepperoni Pizza",
+    "Shyshadow",
+    "Furniture",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Cozy Cobblestone Fireplace",
+    "Shyshadow",
+    "Furniture",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Designer Green T-Shirt",
+    "Danny Silvermeadow",
+    "T-Shirt",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Gingerbread Cookie Armchair",
+    "Shyshadow",
+    "Furniture",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Gingerbread Cookie Coffee Table",
+    "Shyshadow",
+    "Furniture",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Gingerbread Cookie Couch",
+    "Shyshadow",
+    "Furniture",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Frosty Yeti T-Shirt",
+    "Shyshadow",
+    "T-Shirt",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Holiday Milk & Cookies",
+    "Shyshadow",
+    "Furniture",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Ice Queen T-Shirt",
+    "Eve",
+    "T-Shirt",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "North Pole T-Shirt",
+    "Soren",
+    "T-Shirt",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Reindeer Pic T-Shirt",
+    "Soren",
+    "T-Shirt",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Snowman Pic T-Shirt",
+    "Soren",
+    "T-Shirt",
+    "Wave 6 - 01/21/2014"
+   ],
+   [
+    "Bellringer",
+    "MasterMagnus",
+    "Weapon",
+    "Wave 7 - 01/28/2014"
+   ],
+   [
+    "Gleam Energy Fist",
+    "Shyshadow",
+    "Weapon",
+    "Wave 7 - 01/28/2014"
+   ],
+   [
+    "Gloam Energy Fist",
+    "Shyshadow",
+    "Weapon",
+    "Wave 7 - 01/28/2014"
+   ],
+   [
+    "Ice Axe",
+    "Ashley",
+    "Weapon",
+    "Wave 7 - 01/28/2014"
+   ],
+   [
+    "Lightning Blade",
+    "Shyshadow",
+    "Weapon",
+    "Wave 7 - 01/28/2014"
+   ],
+   [
+    "Lunar Blade",
+    "Shyshadow",
+    "Weapon",
+    "Wave 7 - 01/28/2014"
+   ],
+   [
+    "Snowflake Wand",
+    "Ashley",
+    "Weapon",
+    "Wave 7 - 01/28/2014"
+   ],
+   [
+    "Wing Blade",
+    "Shyshadow",
+    "Weapon",
+    "Wave 7 - 01/28/2014"
+   ]
+  ]
+ },
+ {
+  "page": "Postman",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Mail Throw",
+    "Throws the mail into the targeted mailbox"
+   ],
+   [
+    "Toss Bone",
+    "Tosses a bone to distract dogs from knocking the postman over"
+   ]
+  ]
+ },
+ {
+  "page": "Rides",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Air T-Rex",
+    "T-rex",
+    "Exotic ride",
+    "",
+    ""
+   ],
+   [
+    "Arctic Cat",
+    "Tiger",
+    "Non-winged ride",
+    "N/A",
+    "Acquired from the 12 Days of Presents 2013."
+   ],
+   [
+    "Armored T-Rex",
+    "T-rex",
+    "Exotic ride",
+    "",
+    ""
+   ],
+   [
+    "Basalt Surfboard",
+    "Surfboard",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Bat",
+    "Bat",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Beach Ball",
+    "Ball",
+    "Exotic ride",
+    "",
+    ""
+   ],
+   [
+    "Bicycle",
+    "Bicycle",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Black-Nosed Stallion",
+    "Horse",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Bowling Ball",
+    "Ball",
+    "Exotic ride",
+    "",
+    ""
+   ],
+   [
+    "Broomstick",
+    "Broomstick",
+    "Non-winged ride",
+    "",
+    "Only available during the Super Spooktacular."
+   ],
+   [
+    "Burnt Turkey",
+    "Turkey",
+    "Non-winged ride",
+    "",
+    "Only available during Thanksgiving."
+   ],
+   [
+    "Chrome Drake",
+    "Robot",
+    "Winged ride",
+    "N/A",
+    "Acquired through redeeming the Trading Card Game Series 5 Virtual Reward loot card."
+   ],
+   [
+    "Clocktopus",
+    "Robot",
+    "Mechanical ride",
+    "N/A",
+    "Acquired through opening Clockwork Mystery Chests."
+   ],
+   [
+    "Clockwork Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Clockwork Horse",
+    "Robot",
+    "Mechanical ride",
+    "N/A",
+    "Acquired through opening Clockwork Mystery Chests."
+   ],
+   [
+    "Dwarftech Chopper",
+    "Chopper",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Dwarftech Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Drake",
+    "Dragon",
+    "Winged ride",
+    "N/A",
+    "Acquired through redeeming the Trading Card Game Series 4 Virtual Reward loot card."
+   ],
+   [
+    "Dragonfire Broomstick",
+    "Broomstick",
+    "Non-winged ride",
+    "",
+    "Only available during the Super Spooktacular."
+   ],
+   [
+    "Eight Ball",
+    "Ball",
+    "Exotic ride",
+    "",
+    ""
+   ],
+   [
+    "Eyeball",
+    "Eyeball",
+    "Non-winged ride",
+    "",
+    "Only available during the Super Spooktacular."
+   ],
+   [
+    "Fairweather Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Feathered Drake",
+    "Feathered drake",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Fiery Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Fire Pegasus",
+    "Pegasus",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Flying Saucer",
+    "Flying saucer",
+    "Mechanical ride",
+    "N/A",
+    "Acquired through opening Sci-Fi Mystery Chests."
+   ],
+   [
+    "Futuristic Bicycle",
+    "Bicycle",
+    "Mechanical ride",
+    "N/A",
+    "Acquired from a SOE employee through winning the housing contest."
+   ],
+   [
+    "Giant Turkey",
+    "Turkey",
+    "Non-winged ride",
+    "",
+    "Only available during Thanksgiving."
+   ],
+   [
+    "Glacierator 5000",
+    "Ice resurfacer",
+    "Mechanical ride",
+    "N/A",
+    "Available in the Baron von Darkcheat Trading Card Game pack."
+   ],
+   [
+    "Gloamstone Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "N/A",
+    "Only available by completing Baron Von Darkcheat TCG Questline."
+   ],
+   [
+    "Gold-Tipped Dragon",
+    "Dragon",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Haunted Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    "Only available during the Super Spooktacular."
+   ],
+   [
+    "Hearts Pegasus",
+    "Pegasus",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Holiday Tree Board",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    "Only available during the Snow Days."
+   ],
+   [
+    "Hydra",
+    "Hydra",
+    "Exotic ride",
+    "",
+    ""
+   ],
+   [
+    "Icy Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    "Only available during the Snow Days."
+   ],
+   [
+    "Jack-O-Lantern Ride",
+    "Pumpkin",
+    "Exotic ride",
+    "",
+    "Only available during the Super Spooktacular."
+   ],
+   [
+    "Kangaroo",
+    "Kangaroo",
+    "Non-winged ride",
+    "N/A",
+    "Available as a random prize in Mystery Chests."
+   ],
+   [
+    "Lava Tiger",
+    "Tiger",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Lawn Chair",
+    "Lawn chair",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Lawless Gloam Chopper",
+    "Chopper",
+    "Mechanical ride",
+    "N/A",
+    "Only available during the HeroRealms Month."
+   ],
+   [
+    "Magic Carpet",
+    "Carpet",
+    "Non-winged ride",
+    "N/A",
+    "Acquired through opening Chest of Wonders Mystery Chests."
+   ],
+   [
+    "Molten Precursor Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Nightmare",
+    "Horse",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Octopus",
+    "Octopus",
+    "Exotic ride",
+    "N/A",
+    "Received from July's Monthly Membership Pack."
+   ],
+   [
+    "Pegasus Unicorn",
+    "Pegasus",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Pegasus",
+    "Pegasus",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Phoenix",
+    "Phoenix",
+    "Winged ride",
+    "N/A",
+    "Available from a Treasure War Virtual Reward card."
+   ],
+   [
+    "Polar Bear",
+    "Polar bear",
+    "Non-winged ride",
+    "N/A",
+    "Acquired from the 12 Days of Presents 2012."
+   ],
+   [
+    "Pogo Stick",
+    "Pogo sticks",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Poison Dragon",
+    "Dragon",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Precursor Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Raw Turkey",
+    "Turkey",
+    "Non-winged ride",
+    "",
+    "Only available during Thanksgiving."
+   ],
+   [
+    "Reindeer",
+    "Reindeer",
+    "Non-winged ride",
+    "N/A",
+    "Only available during the Snow Days\u00a0from the Snow Days Mystery Chest."
+   ],
+   [
+    "Retro Bike",
+    "Bicycle",
+    "Mechanical ride",
+    "",
+    "Only available during the 8-Bit Month."
+   ],
+   [
+    "Roasted Turkey",
+    "Turkey",
+    "Non-winged ride",
+    "",
+    "Only available during Thanksgiving."
+   ],
+   [
+    "Robotic Chicken",
+    "Robot",
+    "Mechanical ride",
+    "N/A",
+    "Acquired through opening Sci-Fi Mystery Chests."
+   ],
+   [
+    "Robo-Roo",
+    "Robot",
+    "Mechanical ride",
+    "N/A",
+    "Rewarded exclusively to SOE Live 2012 attendees."
+   ],
+   [
+    "Saber-Tooth Tiger",
+    "Tiger",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Santa's Sleigh-mobile",
+    "Unknown",
+    "Mechanical ride",
+    "N/A",
+    "Only available during\u00a0the Snow Days\u00a0from the Snow Days Mystery Chest."
+   ],
+   [
+    "Scaled Dragon",
+    "Dragon",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Skeletal Dragon",
+    "Dragon",
+    "Winged ride",
+    "",
+    ""
+   ],
+   [
+    "Skeletal T-Rex",
+    "T-rex",
+    "Exotic ride",
+    "N/A",
+    "Acquired by completing all of the\u00a0Sunstone Valley Exploration Collections."
+   ],
+   [
+    "Skullz Chopper",
+    "Chopper",
+    "Mechanical ride",
+    "N/A",
+    "Acquired by finishing the Rumbledome TCG Questline."
+   ],
+   [
+    "Slobbersaurus-Rex",
+    "T-rex",
+    "Exotic ride",
+    "N/A",
+    "Available by redeeming specially marked $10 SC cards from 7-11 stores."
+   ],
+   [
+    "S.M.A.C.M.",
+    "Robot",
+    "Mechanical ride",
+    "N/A",
+    "Purchase all 5 Combiner Rides to acquired through completing the \"United We Stand\" achievement."
+   ],
+   [
+    "Snow Globe",
+    "Snow globe",
+    "Exotic ride",
+    "",
+    "Only available during the Snow Days."
+   ],
+   [
+    "Snowball",
+    "Snowball",
+    "Exotic ride",
+    "N/A",
+    "Only available during the Snow Days."
+   ],
+   [
+    "Sparky",
+    "Hoverboard",
+    "Mechanical ride",
+    "N/A",
+    "Acquired by completing Heroes TCG Questline."
+   ],
+   [
+    "Spotted T-Rex",
+    "T-rex",
+    "Exotic ride",
+    "",
+    ""
+   ],
+   [
+    "Stone Saber-Tooth Tiger",
+    "Tiger",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Stormy Hoverboard",
+    "Hoverboard",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Stallion",
+    "Horse",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Star Lawn Chair",
+    "Lawn chair",
+    "Mechanical ride",
+    "N/A",
+    "Acquired through purchasing the 2013 Summer Pass."
+   ],
+   [
+    "Striped T-Rex",
+    "T-rex",
+    "Exotic ride",
+    "",
+    ""
+   ],
+   [
+    "Sun",
+    "Sun",
+    "Exotic ride",
+    "",
+    ""
+   ],
+   [
+    "Surfboard",
+    "Surfboard",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "The Blast Rover",
+    "Tank",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "The Cyber Cycle",
+    "Unknown",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "The Fire Hawk",
+    "Plane",
+    "Mechanical Ride",
+    "",
+    ""
+   ],
+   [
+    "The Hero Copter",
+    "Helicopter",
+    "Mechanical Ride",
+    "",
+    ""
+   ],
+   [
+    "The Hover Ring",
+    "Unknown",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Tiger",
+    "Tiger",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Tractor",
+    "Tractor",
+    "Mechanical ride",
+    "",
+    ""
+   ],
+   [
+    "Unicorn",
+    "Unicorn",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Undead Nightmare",
+    "Pegasus",
+    "Winged ride",
+    "N/A",
+    "Only available during the Super Spooktacular."
+   ],
+   [
+    "Valiant Gleam Cycle",
+    "Chopper",
+    "Mechanical ride",
+    "N/A",
+    "Only available during the HeroRealms Month."
+   ],
+   [
+    "White-Nosed Mare",
+    "Horse",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "White-Nosed Stallion",
+    "Horse",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Wilds Tractor",
+    "Tractor",
+    "Mechanical ride",
+    "N/A",
+    "Available at the Vending Machine on level 20 Farms, sells for 225,000 coins."
+   ],
+   [
+    "Wolf",
+    "Wolf",
+    "Non-winged ride",
+    "",
+    ""
+   ],
+   [
+    "Wonderous Tiger",
+    "Tiger",
+    "Non-winged ride",
+    "N/A",
+    "Acquired through opening Chest of Wonders Mystery Chests."
+   ],
+   [
+    "Wooden Surfboard",
+    "Surfboard",
+    "Mechanical ride",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "page": "SOE Live",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "2 PM - 3 PM",
+    "Free Realms PS3 Q&A yes",
+    "Join us for an open Q&A session on Free Realms and the PlayStation 3 network. Bring all of your questions on cross-platform development, the challenges and opportunities! Presented by Ryan Wells."
+   ],
+   [
+    "3 PM - 4 PM",
+    "Free Realms Events Q&A",
+    "Join panelists Tiffany Chu and Steve Bokkes and talk about the many live events in Free Relams - bring your questions!"
+   ],
+   [
+    "4 PM - 5 PM",
+    "Free Realms Animation Demo",
+    "SOE Artist and developer Floyd Bishop will be demonstrating how we animate characters in Free Realms and answering your questions about this critical phase of the development process."
+   ]
+  ]
+ },
+ {
+  "page": "SOE Live",
+  "index": 1,
+  "header": [],
+  "rows": [
+   [
+    "2 PM - 3 PM",
+    "Free Realms PS3 Q&A",
+    "Join us for an open Q&A session on Free Realms and the PlayStation 3 network. Bring all of your questions on cross-platform development, the challenges and opportunities! Presented by Ryan Wells."
+   ],
+   [
+    "3 PM - 4 PM",
+    "Making Free Realms Fun!",
+    "Join Nick Parkinson, Chris Fritchoff, Eric Hankins and Steve Bokkes as they reveal how they use information collected in-game to evaluate Free Realms game features. How do they adapt and plan development to make Free Realms more fun? Bring your questions for the Q&A!"
+   ]
+  ]
+ },
+ {
+  "page": "SOE Live",
+  "index": 2,
+  "header": [],
+  "rows": [
+   [
+    "4 PM - 5 PM",
+    "Making Free Realms FUN",
+    "Find out where the fun in Free Realms comes from. Learn about the influence Community, Business, and Focus Testing have on the game. Brainstorm a new in-game item with developers! Last year's session brought a Beach Ball ride. What's this year's item going to be?"
+   ]
+  ]
+ },
+ {
+  "page": "SOE Live",
+  "index": 3,
+  "header": [],
+  "rows": [
+   [
+    "4 PM - 5 PM",
+    "Free Realms: How the jackpot Plant Grew Into Farming",
+    "From Jackpot Plants to Farming, we'll discuss how simulation in Free Realms has taken on all new levels of depth, complexity, and most importantly, fun! Join the Free Realms Development Team to learn how the underlying system behind Farming will be used in upcoming features... like Ranching!"
+   ]
+  ]
+ },
+ {
+  "page": "SOE Live",
+  "index": 4,
+  "header": [],
+  "rows": [
+   [
+    "10 AM - 11 AM",
+    "Making Free Realms Fun!",
+    "The Free Realms dev team chats directly with players about what goes into making Free Realms FUN! Got questions? Have some ideas? Bring them all! (Floyd Bishop; Ryan Shannon; Eric Hankins; Tiffany Spence)"
+   ],
+   [
+    "1 PM - 2 PM",
+    "The Animation of Free Realms",
+    "In this popular panel, Floyd Bishop will again animate SOMETHING from start to finish, to show our workflow, processes and the behind-the-scenes stuff needed to make things move in game! (Floyd Bishop)"
+   ],
+   [
+    "3 PM - 4 PM",
+    "Animation at SOE",
+    "A discussion about animation with several experts from various SOE games, sharing their experiences on games like EverQuest, EverQuest II, Star Wars: Galaxies, DCUO, Free Realms, Clone Wars Adventures, and PlanetSide 2! Floyd promises that \"This will be amazingly epic!\" (Floyd Bishop, Tom Tobey, Chris Myers, Chad Lichty)"
+   ]
+  ]
+ },
+ {
+  "page": "SOE Live",
+  "index": 5,
+  "header": [],
+  "rows": [
+   [
+    "8:30 AM - 4 PM",
+    "NEW THIS YEAR! Free Realms and Star Wars\u00ae Clone Wars Adventures Kids Zone!",
+    "Family-friendly and kid-approved activities, like the Free Realms Art Workshop, the Star Wars Clone Wars Adventures activities, including a kids' live quest, tasty treats and fun videos at the Afternoon Ice Cream Social, and prizes, goody bags and themed pictures to take home!"
+   ],
+   [
+    "2 PM - 3 PM",
+    "FR: Designing Sunstone Valley",
+    "A discussion on the development and design involved with creating Sunstone Valley. This panel will cover the design goals chosen for Sunstone and what we wanted to accomplish for Free Realms as a whole. We'll also discuss the second expansion chunk, \"Ponyvale\" (name pending), while giving players a special sneak peek of the new zone. After the preview, we'll close with an audience participation segment to create a new Ponyvale themed item for the expansion and a short Q&A session. (Ryan Shannon; Eric Hankins)"
+   ]
+  ]
+ },
+ {
+  "page": "SOE Live",
+  "index": 6,
+  "header": [],
+  "rows": [
+   [
+    "10 AM - 11 AM",
+    "Star Wars\u00ae: Clone Wars Adventures\u2122 & Free Realms: Creating Art for Kids Games",
+    "Creating characters and animation for kids games, including how to design characters that are bright, stylized, and full of personality."
+   ],
+   [
+    "2 PM - 3 PM",
+    "Star Wars\u00ae: Clone Wars Adventures\u2122 & Free Realms: Designing Games for a Young Audience",
+    "A presentation about how creating a game for children can influence its design."
+   ]
+  ]
+ },
+ {
+  "page": "Station Cash Marketplace",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Rubyburst",
+    "Allspice",
+    "Commoner",
+    "Turbo",
+    "Aqua",
+    "Twilight",
+    "Stonesurf"
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Sunrise",
+    "Sandrift",
+    "Toasty",
+    "Cloverleaf",
+    "Ocean",
+    "Bubblegum",
+    "Stormcloud"
+   ]
+  ]
+ },
+ {
+  "page": "Tint Guide",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Rubyburst",
+    "Thunderbird",
+    "Sunrise",
+    "Allspice",
+    "Sandrift",
+    "Commoner"
+   ],
+   [
+    "16px|top|link=Mystery Chest",
+    "",
+    "16px|top|link=Mystery Chest",
+    "",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Toasty",
+    "Honeydew",
+    "Turbo",
+    "Mantis",
+    "Cloverleaf",
+    "Aqua"
+   ],
+   [
+    "",
+    "",
+    "16px|top|link=Mystery Chest",
+    "",
+    "16px|top|link=Mystery Chest",
+    ""
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Sapphire",
+    "Ocean",
+    "Midnight",
+    "Blizzard",
+    "Amethyst",
+    "Twilight"
+   ],
+   [
+    "",
+    "16px|top|link=Mystery Chest",
+    "",
+    "",
+    "",
+    "16px|top|link=Mystery Chest"
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Bubblegum",
+    "Stonesurf",
+    "Shadestone",
+    "Stormcloud"
+   ],
+   [
+    "16px|top|link=Mystery Chest",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Uncommon"
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Mahogany",
+    "Macaroni",
+    "Lucky",
+    "Electrolime",
+    "Jungle",
+    "Woodland"
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Forest",
+    "Azure",
+    "Icy",
+    "Skylight",
+    "Raindrop",
+    "Berrybright"
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Blossom",
+    "Rosepetal",
+    "Snowfall",
+    "Darkmatter",
+    ""
+   ],
+   [
+    "",
+    "",
+    "16px|top|link=Mystery Chest",
+    "16px|top|link=Mystery Chest",
+    ""
+   ],
+   [
+    "= Tint available through theStation Cash Marketplace",
+    "= Tint available through theCoin Shop",
+    "16px|top|link=Mystery Chest = Tint available through theMystery Chest"
+   ]
+  ]
+ },
+ {
+  "page": "User:MimiWillRuleTheWorld",
+  "index": 1,
+  "header": [],
+  "rows": [
+   [
+    "(\uff89\u25d5\u30ee\u25d5)\uff89*:\u30fb\uff9f\u2727",
+    "Social Media"
+   ],
+   [
+    "Player since 2010\n\n Missed the sunset \ud83d\udc94",
+    "\u2727Instagram\u2727\u2665Youtube\u2665\u2654Tumblr\u2654\n\n Contact me if you need anything!"
+   ]
+  ]
+ },
+ {
+  "page": "Warrior",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "1",
+    "Kick",
+    "Strikes your target which stuns and causes 133 damage. Further ranks improve the damage dealt."
+   ],
+   [
+    "5",
+    "Spinning Blade",
+    "Executes a spinning attack, dealing two hits for 50-68 damage per hit."
+   ],
+   [
+    "10",
+    "Quake",
+    "Slams the ground, taunting and causing 83-126 damage to enemies directly in your path."
+   ],
+   [
+    "15",
+    "Commanding Shout",
+    "A powerful battle cry that strikes fear and does 50-68 damage to nearby enemies."
+   ]
+  ]
+ },
+ {
+  "page": "Warrior Power Attacks",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Axe Throw",
+    "2372",
+    ".",
+    "Nearby",
+    "8302",
+    ".",
+    "Enemy to enemy"
+   ],
+   [
+    "Berserk",
+    "1186",
+    "Damages 2 times",
+    "Nearby",
+    "10674",
+    "Increases damage",
+    "In front"
+   ],
+   [
+    "Cleave",
+    "2609",
+    ".",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Commanding Shout",
+    "2372",
+    "Sometimes stuns",
+    "Nearby",
+    ".",
+    "Increase damage & damage reduction",
+    "."
+   ],
+   [
+    "Feral Spirit",
+    "2372",
+    ".",
+    "In front",
+    "9132",
+    ".",
+    "In front"
+   ],
+   [
+    "Frenzy",
+    "2372",
+    "Sometimes reduces opponents' defense",
+    "Nearby",
+    "2348",
+    "Damages 5 times",
+    "In front"
+   ],
+   [
+    "Heart Breaker",
+    "2372",
+    ".",
+    "In front",
+    "5977",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Ignite",
+    "2372",
+    ".",
+    "In front",
+    "4732",
+    "Damages 3 times",
+    "Nearby"
+   ],
+   [
+    "Party Crasher",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    "7685",
+    "Stuns in front",
+    "Nearby"
+   ],
+   [
+    "Quake",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Spinning AttackNote: Old School Warrior weapons have higher damage values. Their Sweeping Slash does 3391 damage and their Spinning Attack does 6143 damage.",
+    "2609",
+    ".",
+    "Nearby",
+    "4372",
+    "Damages 3 times",
+    "Nearby"
+   ],
+   [
+    "Thunderclap",
+    "1186",
+    "Damages 2 times",
+    "Nearby",
+    "5977",
+    "Immobilizes",
+    "Nearby"
+   ],
+   [
+    "Vampiric Wrath",
+    "2372",
+    ".",
+    "In front",
+    "4750",
+    "Heals",
+    "Nearby"
+   ],
+   [
+    "Vanquish",
+    "2372",
+    ".",
+    "In front",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Warcry",
+    "1186",
+    "Damages 2 times",
+    "In front",
+    "5977",
+    "Increase allies' health & damage",
+    "Nearby"
+   ],
+   [
+    "Warrior's Boon",
+    "2372",
+    "Target is more likely to receive critical damage for 4 seconds",
+    "In front",
+    "8302",
+    "Taunts, Healed when damaged for 8 seconds",
+    "Nearby"
+   ],
+   [
+    "Whirlwind",
+    "2372",
+    "Sometimes extra damage",
+    "Nearby",
+    "8302",
+    "Knocks down",
+    "Nearby"
+   ]
+  ]
+ },
+ {
+  "page": "Wizard",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "1",
+    "Zap",
+    "Assaults your target with arcing bolts of lightning, causing 83-125 damage to up to 3 enemies."
+   ],
+   [
+    "5",
+    "Fireball",
+    "Summons a fireball to burn your target, causing 50-74 damage in an area and burning them over 10 seconds."
+   ],
+   [
+    "10",
+    "Ice Nova",
+    "Freezes all enemies around the wizard in ice for 3 seconds, increasing their damage taken by 3-15%."
+   ],
+   [
+    "15",
+    "Chaos",
+    "Infiltrates your target's mind with compelling whispers, confusing them for 5-9 seconds."
+   ]
+  ]
+ },
+ {
+  "page": "Wizard Power Attacks",
+  "index": 0,
+  "header": [],
+  "rows": [
+   [
+    "Arcane Chain",
+    "2372",
+    "Sometimes extra damage",
+    "In front",
+    "10674",
+    ".",
+    "Enemy to enemy"
+   ],
+   [
+    "Chain Lightning",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    "10674",
+    ".",
+    "Enemy to enemy"
+   ],
+   [
+    "Chaos Explosion",
+    "2372",
+    "Sometimes knocks down",
+    "Nearby",
+    "2324",
+    ".",
+    "Enemy to enemy"
+   ],
+   [
+    "Chaotic Flux",
+    "2372",
+    ".",
+    "Nearby",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Energy Vortex",
+    "2609",
+    ".",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Feral Spirit",
+    "2372",
+    ".",
+    "In front",
+    "9132",
+    ".",
+    "In front"
+   ],
+   [
+    "Firestorm",
+    "2372",
+    "Sometimes extra damage",
+    "In front",
+    "4732",
+    "Continuous damage",
+    "Nearby"
+   ],
+   [
+    "Heart Breaker",
+    "2372",
+    ".",
+    "In front",
+    "5977",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Ice Nova",
+    "2372",
+    "Sometimes freezes",
+    "In front",
+    "5977",
+    "Freezes",
+    "In front"
+   ],
+   [
+    "Lightning BlastNote: Old School Wizard weapons have higher damage values. Their Zap does 3391 damage and their Lightning Blast does 13876 damage.",
+    "2609",
+    ".",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Mass Transfigure",
+    "2372",
+    "Sometimes extra damage",
+    "Nearby",
+    "5977",
+    "Transforms enemies",
+    "Nearby"
+   ],
+   [
+    "Orbital Strike",
+    "2372",
+    ".",
+    "Nearby",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Party Crasher",
+    "2372",
+    "Sometimes stuns",
+    "In front",
+    "7685",
+    "Stuns in front",
+    "Nearby"
+   ],
+   [
+    "Protective Barrier",
+    "2372",
+    "Sometimes freezes",
+    "Nearby",
+    "2324",
+    "Increases allies' defense",
+    "Nearby"
+   ],
+   [
+    "Purge",
+    "2372",
+    ".",
+    "Nearby",
+    "8302",
+    ".",
+    "Nearby"
+   ],
+   [
+    "Tsunami",
+    "2372",
+    "Sometimes knocks down",
+    "In front",
+    "10674",
+    ".",
+    "In front"
+   ],
+   [
+    "Wizard's Cunning",
+    "1779",
+    ".",
+    "In front, around target",
+    "7471",
+    "Allies gain 3 energy every second for 10 seconds",
+    "Nearby"
+   ]
+  ]
+ }
+]

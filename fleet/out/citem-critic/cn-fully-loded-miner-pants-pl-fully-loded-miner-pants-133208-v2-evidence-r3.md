@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-fully-loded-miner-pants-pl-fully-loded-miner-pants-133208-v2-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4142, 6852, 6, 1199] model=claude-haiku-5-5 -->
+# {n}Fully Loded Miner Pants{pl="Fully Loded Miner Pants"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] (set name claim)", "issue": "The answer says 'The set name is confirmed'. The locale only shows six items sharing the prefix 'Fully Loded Miner' (133204-133209, confirmed by locale lookup). No source shows that 'Fully Loded Miner' is a named set or collection, so 'set name is confirmed' overstates it. The item names are confirmed; the set label is not.", "fix": "Say: 'Six locale strings (133204-133209) share the prefix Fully Loded Miner (Breastplate, Boots, Gloves, Helmet, Pants, Kerchief). No source names this as a set.' Source: locale:133204-133209."}]}

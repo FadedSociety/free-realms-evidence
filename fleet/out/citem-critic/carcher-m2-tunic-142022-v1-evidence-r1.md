@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=carcher-m2-tunic-142022-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3485, 8068, 6, 1073] model=claude-haiku-5-5 -->
+# Archer M2 Tunic
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Checked my own lookups: lookup for 'Archer M2 Tunic' returns only the client item line (locale:142022). refs search finds 'Archer M2 Tunic' and 'Archer M1 Tunic' only as client locale strings (ugdt/ucdt entries in the locale data files), with no vendor, quest, or wiki source. The answer's no-source finding holds, so the empty sources list and the null retired status are consistent with the evidence.", "fix": "No change required. The answer is honest that no source is evidenced; keep sources empty, retired null, live 'unsure', and do not carry the jev 'vendor' guess forward. Optional: state that the locale hits are name strings only, not an acquisition record."}]}

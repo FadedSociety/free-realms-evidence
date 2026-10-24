@@ -1,0 +1,26 @@
+{
+ "title": "Floren Forest corruption",
+ "names_seen": [
+  "Floren Forest corruption"
+ ],
+ "facts": [
+  {
+   "statement": "Something evil has corrupted the Floren Forest and the Floren, who previously greeted travelers friendly, now attack on sight.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Now they attack on sight!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=904",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=904",
+   "date": null,
+   "title": "Explore the Floren Forest",
+   "summary": "An SOE news post promoting the Floren Forest as a new area. It describes the Floren, nature beings made of leaves and branches, as having become corrupted and hostile, and invites brave players to fight into the dark woods to find and defeat the source of the corruption. The page gives no level ranges, rewards or quest steps."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

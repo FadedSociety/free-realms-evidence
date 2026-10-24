@@ -1,0 +1,40 @@
+{
+ "title": "Treasure Trader",
+ "names_seen": [
+  "Treasure Trader"
+ ],
+ "facts": [
+  {
+   "statement": "Treasure Trader is a Facebook game added to the official Free Realms Facebook page, where players give gifts to friends or snag them away.",
+   "numbers": {},
+   "era": "live",
+   "quote": "We've added a new app called \"Treasure Trader\" to our Official Free Realms Facebook page!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1802",
+   "date": null
+  },
+  {
+   "statement": "SOE launched a Free Realms Treasure Trader application on Facebook on September 9, 2010, letting players gift or take items from friends to earn codes.",
+   "numbers": {},
+   "era": "live",
+   "quote": "the Free Realms Treasure Trader application lets players gift or snag items from their friends to earn codes",
+   "article": "http://tentonhammer.com/node/89227",
+   "date": "2010-09-09"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1802",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "SOE's official Free Realms news post announces the 'Treasure Trader' Facebook game on the official Free Realms Facebook page. Players give or snag virtual gifts there, and playing earns codes redeemable for in-game rewards in the Free Realms Marketplace. The page is a 2010 capture; the post date is only relative ('2 days, 10 hours ago') and is not exact."
+  },
+  {
+   "url": "http://tentonhammer.com/node/89227",
+   "date": "2010-09-09",
+   "title": "Free Realms Launches New Facebook App",
+   "summary": "Announces the Free Realms Treasure Trader Facebook application, launched September 9, 2010. Players can gift items to Facebook friends or steal from them via the NPC Robbie, with victims getting 24 hours to answer a trivia question to keep the item; codes earned are redeemable in the Free Realms Marketplace. The article gives no code amounts or item lists."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

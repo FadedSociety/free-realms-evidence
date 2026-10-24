@@ -1,0 +1,29 @@
+{
+ "title": "Welcome Back login gift series",
+ "names_seen": [
+  "Welcome Back login gift series"
+ ],
+ "facts": [
+  {
+   "statement": "All players received one free item on login each day for seven days; logging in before the last day was needed to collect all seven.",
+   "numbers": {
+    "days": 7,
+    "items": 7
+   },
+   "era": "live",
+   "quote": "One will be given out upon login each day for seven days.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2127",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2127",
+   "date": null,
+   "title": "Welcome Back to Free Realms!",
+   "summary": "SOE's welcome-back post for lapsed players returning to Free Realms (dated only relatively as \"2 months ago\" on the capture, so about May 2011). It describes a returning-player bonus of 45 extra Member days for accounts in good standing on or before May 2, 2011, or 20,000 Coin for Lifetime Members, plus a seven-day login gift series of free items, with an extra Lonely Island Lot for Lifetime Members."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

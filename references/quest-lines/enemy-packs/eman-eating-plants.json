@@ -1,0 +1,27 @@
+{
+ "title": "Man-Eating Plants",
+ "our_entries": [
+  {
+   "file": "dungeons\\briar_patch.json",
+   "definition_id": 930062
+  },
+  {
+   "file": "dungeons\\bristlewood_glade.json",
+   "definition_id": 930062
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Man-Eating Plant",
+  "text": "The Man-Eating Plant is an enemy NPC that appears throughout Briarwood.\n\nBattle\nMan-eating plants can be found wandering in Bristlewood, Briarwood and require a level 9 or above combat job to encounter. They also featured in dungeons such the Snarling Hedges and the Briar Patch.\n\nAppearances\nThe Snarling Hedges\nMaze Mulcher\nNettleseed Nibblers!\nBristlewood Glade\nBriar Patch\nTrading Card Game\nFree Realms Issue 1 (mentioned)\n\nGallery\n\nTrivia\nIn appearance, the Man-Eating Plant appears to be loosely based on the Little Shop of Horrors adaption of the Venus Flytrap.\n\nSources\nI do! I’m on my phone so I only have a few handy though. on Twitter\nCategory:NPC\nCategory:Enemies\nCategory:Briarwood\nCategory:Bristlewood\nCategory:Trading Card Game"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [
+  "fact:location: Briarwood was feared for tales of mushroom zombies and man-eating plants. | Tales of mushroom zombies and man-eating plants was enough to leave Briarwood mostly undisturbed. (http://www.tentonhammer.com:80/node/65080)"
+ ],
+ "quest_answers_naming_it": []
+}

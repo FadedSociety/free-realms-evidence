@@ -1,0 +1,48 @@
+{
+ "title": "Rebel Mage Pollentine",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\sweetwater_climb.json"
+  },
+  {
+   "file": "dungeons\\sweetwater_climb.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:74022 [npc_name | - | Rebel Mage Pollentine] 'Rebel Mage Pollentine'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:74022 [npc_name | - | Rebel Mage Pollentine] 'Rebel Mage Pollentine'"
+ ],
+ "client_cluster": [
+  "locale:74015 [quest_title | Sanctuary | Beat Finn's Record! | FLAG duplicate: same as 74010] \"Beat Finn's Record!\"",
+  "locale:74016 [quest_objective | - | Finn] 'Click on the green flag next to Finn to start the race.'",
+  "locale:74017 [quest_objective | - | Finn] 'Return to Finn'",
+  "locale:74019 [npc_name | - | Nettlespawn Pest] 'Nettlespawn Pest'",
+  "locale:74020 [quest_dialog | - | Finn] 'Click on the green flag next to me if you want to race. Unless you are a chicken!'",
+  "locale:74022 [npc_name | - | Rebel Mage Pollentine] 'Rebel Mage Pollentine'",
+  "locale:74023 [npc_name | - | Big Hungry Bear] 'Big Hungry Bear'",
+  "locale:74025 [quest_dialog | Snowhill | Medic: A Blustery Blunder] \"This is a disaster! <BR><BR>Oh, I knew I shouldn't have left the windows open... Now the wind has scattered my papers everywhere! <BR><BR>Please help me <font c\"",
+  "locale:74026 [quest_title | Snowhill | Medic: A Blustery Blunder] 'Medic: A Blustery Blunder'",
+  "locale:74027 [quest_dialog | Snowhill | Medic: A Blustery Blunder] \"While you were giving out medicine, the mayor dropped the town's medical records and the wind has scattered them all over town!\"",
+  "locale:74028 [quest_dialog | Snowhill | Medic: A Blustery Blunder] 'Excellent work, but I need another favor...'",
+  "locale:74029 [quest_dialog | - | Medic: A Blustery Blunder] 'How dare you enter my forest! Pets, get them!'",
+  "locale:74030 [quest_objective | - | Robgoblins] \"The robgoblins won't give up the package without a fight. Defeat them!\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:l-KJnbZShSk/00152.jpg (-): npcs: Rebel Mage Pollentine nameplate  | dialog: Who are you? What have you done! | landmarks: snow-covered pine trees blue ice cliffs | job_level: Archer 14 | other_text: Rebel Mage Pollentine Goals (2) Save the Serpentail Bonus: Defeat the Big Hungry Beast You d...bility!",
+  "video:l-KJnbZShSk/00156.jpg (-): npcs: Rebel Mage Pollentine nameplate  | dialog: Who are you? What have you done! | quest:   Save the Serpentail  | landmarks: snow-covered pine trees blue ice cliffs | job_level: Archer 14 | other_text: Goal Complete! Rebel Mage Pollentine Goals (2) Save the Serpentail Bonus: De",
+  "video:l-KJnbZShSk/00018.jpg (-): landmarks: snowy blue cliffs pine trees | items_seen: Archer's Treasure Shard of Vitality II Archer's Necklace of Bark Skin II Archer's Horse Bow of Blizzards | other_text: Sweetwater Climb Difficulty: Rebel Mage Pollentine is stealing nectar from the locals! Find and defeat her "
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

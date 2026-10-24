@@ -1,0 +1,26 @@
+{
+ "title": "Merry Vale strange happenings",
+ "names_seen": [
+  "Merry Vale strange happenings"
+ ],
+ "facts": [
+  {
+   "statement": "Some visitors reported strange happenings in Merry Vale, which the Mayor insists are not a problem.",
+   "numbers": {},
+   "era": "live",
+   "quote": "some visitors have reported strange happenings in Merry Vale. Of course the Mayor insists everything is fine.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=254",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=254",
+   "date": null,
+   "title": "Meet Mayor McFairy",
+   "summary": "A short freerealms.com 'What is New?' news post introducing Mayor McFairy, the cheerful mayor of Merry Vale who runs the town's festivities and directs players to its sights. It hints at strange happenings in town that the Mayor denies. The post gives no dates, numbers or quest details."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

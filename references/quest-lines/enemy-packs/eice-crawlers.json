@@ -1,0 +1,29 @@
+{
+ "title": "Ice Crawlers",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\frostfang_caverns.json"
+  },
+  {
+   "file": "dungeons\\snowy_canyon.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Ice Crawler",
+  "text": "The Ice Crawler is an enemy NPC that appears throughout Snowhill.\n\nAppearances\nHot Springs Haven\nFrostfang Caverns\nSnowy Canyon\nTrading Card Game Series 3\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Spiders\nCategory:Snowhill\nCategory:Trading Card Game"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

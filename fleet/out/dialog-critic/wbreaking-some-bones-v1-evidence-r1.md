@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=wbreaking-some-bones-v1-evidence-r1 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[15066, 9340, 8, 1535] model=claude-haiku-5-5 -->
+# Breaking Some Bones
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "other_lines / open: 384283, 384284", "issue": "Minor. The collect objectives say 'Grave Lord' while the offer (384295) and objective 384297 say 'grave elemental'. The binder kept these as objective_hint and left the target open, which is honest. The Grave Lord wording matches the separate Blackspore Grave Lord boss group (141569, 388854, 385616), so it may belong to a neighbour. This does not affect the offer/complete binding.", "fix": "No change needed to the bindings. If the target is settled later, cite the quest_objective source for it. Until then, leave target null and keep the conflict in open, as the binder did."}]}

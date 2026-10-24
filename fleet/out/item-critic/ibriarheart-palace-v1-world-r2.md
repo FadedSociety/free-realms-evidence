@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibriarheart-palace-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3590, 4866, 6, 996] model=claude-haiku-5-5 -->
+# Briarheart Palace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor wording: the wiki's 'accessible through the chapter one questline (Sacred Grove Questline)' describes how to reach a location, not an item acquisition. The answer correctly does not record it as a source, but it should be labelled as access context only.", "fix": "Keep the Sacred Grove line as location-access context. Acquisition sources stay empty. Confirmed: locale:3984 is typed 'place - Briarheart Palace' and the wiki page carries only Locations and Briarwood categories with no coin, Station Cash, or IGD data."}]}

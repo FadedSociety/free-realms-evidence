@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=camatuer-biomass-triangle-shard-8348-v1-world-r2 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13554, 10396, 8, 1530] model=claude-haiku-5-5 -->
+# Amatuer Biomass Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The coin-store source has no vendor or shop NPC named. Checked stores.json lines 610-640: item 2160 is category 121 with purchase 540, member 486, sell 54, tags L1,L2,L4,R2,T633,R1. The row is real, but nothing in the pack says which NPC or store sells category 121, so the 'Coin Shop' label is unconfirmed.", "fix": "Keep where as null and label the source as a coin-store listing (stores.json item 2160, category 121), not a named vendor. Nothing in the pack shows a vendor or quest reward for it, so no other source should be added."}]}

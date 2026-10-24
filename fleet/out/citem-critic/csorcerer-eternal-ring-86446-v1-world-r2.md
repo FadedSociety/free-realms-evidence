@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csorcerer-eternal-ring-86446-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3647, 7092, 6, 1069] model=claude-haiku-5-5 -->
+# Sorcerer Eternal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].source", "issue": "The ClientItemDefinitions citation (FreeRealms-Legacy line 465196, Sanctuary line 465239) and the slot 8 / class 46 claim were not re-checked in this pass. My lookups found only locale:86446 for the name. A 'Sorcerer Eternal Necklace' locale string exists (en_us_data.dat, ugdt, id 472265260), so the 'matching Necklace set' claim has some support, but the cited line numbers are unverified.", "fix": "Keep the claim as unverified until the cited ClientItemDefinitions rows are opened and confirmed. Cite the locale:472265260 Sorcerer Eternal Necklace string as the supporting evidence for the necklace set."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iunidentified-swamp-area-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3189, 9526, 6, 934] model=claude-haiku-5-5 -->
+# Unidentified Swamp Area
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3].claim", "issue": "Overclaims. The wiki says only that there is a swamp area in Sacred Grove that is Blackspore Swamp. It does not say it is the only swamp in the game. The cited repo note is also weak support: NPCs.md lists Blackspore Swamp as a zone, but the cited NPCs - Blackspore Swamp.md:16 line was not confirmed in my search.", "fix": "Reword to: 'The wiki Trivia says a swamp area in Sacred Grove is Blackspore Swamp, a live zone; the unused location is distinct from it.' Cite the wiki Trivia text, not the repo note, or confirm the repo line first."}]}

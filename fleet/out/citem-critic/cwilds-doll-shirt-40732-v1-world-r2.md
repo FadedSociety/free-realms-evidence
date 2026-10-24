@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwilds-doll-shirt-40732-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4107, 8380, 6, 1388] model=claude-haiku-5-5 -->
+# Wilds Doll Shirt
+
+{"lens": "world", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].where", "issue": "The 'Robgoblin' spawn and 'Northern Wilds' area are collection-level values from the CollectInfobox for Wilds Queen Doll (refs wikitext 2240-31048 lines 575-584). The answer's wording 'Northern Wilds (collection spawn: Robgoblin)' is accurate, but a builder could read it as a per-piece drop location. The answer's own open list already flags this.", "fix": "Keep the source labelled as a collection-level spawn, not a per-piece drop. Per-piece acquisition stays unknown until a per-item source names it."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=idoodle-dozen-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3223, 4540, 6, 1028] model=claude-haiku-5-5 -->
+# Doodle Dozen
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources / evidence[2]", "issue": "The repo citation prototype/osfr-tools/data/content/npcs/seaside.json:13954 is one combined string covering all five Dozen family members ('Dozen family: Mother Dozen , Father Dozen , Doodle Dozen , Dougie Dozen , Tigee Dozen'), not a Doodle-specific entry. The answer calls it a 'name entry', which is accurate only for the group. The repo also has npc_spawns_extra.json:56017 with a Doodle Dozen name, which the answer does not cite; it is a spawn placement, not an item source.", "fix": "Cite the combined seaside.json:13954 line as a group name string, and optionally add npc_spawns_extra.json:56017 as a spawn record. Neither supports any item source."}]}

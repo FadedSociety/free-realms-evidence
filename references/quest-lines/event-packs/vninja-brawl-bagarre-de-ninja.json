@@ -1,0 +1,53 @@
+{
+ "title": "Ninja Brawl (Bagarre de Ninja)",
+ "names_seen": [
+  "Ninja Brawl (Bagarre de Ninja)"
+ ],
+ "facts": [
+  {
+   "statement": "A Ninja Brawl event was held on server 1 where players gathered to duel one another; players had to arrive on time, send duel invitations to other players and accept invitations received.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Envoi des invitations de duel aux autres joueurs et accepte toutes les invitations reçues.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2041&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The Americas and Latin America session was on Thursday 17 February 2011 at 3h Pacific time, on server 1.",
+   "numbers": {
+    "day": 17,
+    "month": 2,
+    "year": 2011,
+    "hour_pacific": 3
+   },
+   "era": "live",
+   "quote": "Jeudi 17 février 2011 3h (heure du Pacifique)",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2041&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session was listed for Friday 18 February 2011 at 18h CET (Paris time) and also as 4:00 GMT, on server 1; the two stated times do not agree with each other.",
+   "numbers": {
+    "day": 18,
+    "month": 2,
+    "year": 2011,
+    "hour_cet": 18,
+    "hour_gmt": 4
+   },
+   "era": "live",
+   "quote": "Vendredi 18 février 2011 18h CET (Heure de Paris) / 4h:00 GMT",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2041&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2041&request_locale=en_US",
+   "date": null,
+   "title": "Free Realms - What is New? (Événement: Bagarre de Ninja!)",
+   "summary": "A French-language Free Realms news post announcing a Ninja Brawl (Bagarre de Ninja) player event on server 1, with duel-based fighting and an invitation to become a Ninja by speaking to Ty at the Lakeside. The post gives two scheduled dates, one for the Americas and one for UK/Europe, and the page lacks a clear publish date (it shows only 'posted 3 months, 2 weeks ago')."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

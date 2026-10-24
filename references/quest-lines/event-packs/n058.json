@@ -1,0 +1,56 @@
+{
+ "title": "Launch Pad Party",
+ "names_seen": [
+  "Launch Pad Party"
+ ],
+ "facts": [
+  {
+   "statement": "Community event Launch Pad Party was held at the launchpads in Seaside on Server 1, with players bringing their rides to party in the sand and sky.",
+   "numbers": {
+    "US/Latin America start hour (Pacific)": 15,
+    "UK/Europe start hour (Pacific)": 9
+   },
+   "era": "live",
+   "quote": "We're gathering at the launchpads in Seaside for a party of dizzying heights and spectacular tricks.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1888",
+   "date": null
+  },
+  {
+   "statement": "The US and Latin America session of Launch Pad Party was on Thursday November 4, 2010 at 3pm Pacific Time, on Server 1.",
+   "numbers": {
+    "year": 2010,
+    "month": 11,
+    "day": 4,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday November 4th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1888",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session of Launch Pad Party was on Friday November 5, 2010 at 9:00am Pacific Time (4:00pm GMT), on Server 1.",
+   "numbers": {
+    "year": 2010,
+    "month": 11,
+    "day": 5,
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday November 5th, 2010 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1888",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1888",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms community event post announcing the Launch Pad Party, held at the launchpads in Seaside on Server 1 on November 4 (US/Latin America, 3pm Pacific) and November 5, 2010 (UK/Europe, 9:00am Pacific / 4:00pm GMT). The post also explains how players find community events through the Game Guide calendar and the GO button. The exact posting date is not given (only 'Posted 3 weeks, 2 days ago')."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

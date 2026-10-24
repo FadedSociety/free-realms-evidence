@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cghost-stand-up-91956-v2-world-r2 status=done turns=2 usd=0.0025 tokens(read,write,in,out)=[4752, 11794, 6, 1862] model=claude-haiku-5-5 -->
+# Ghost Stand-Up
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[2].price", "issue": "The Coin Shop source carries two prices, 900 on the video frames and 100 (member 90) in stores.json. The answer leaves it unresolved, which is honest. But the 900 read sits in the same frame as Jack-O-Lantern Stand-Up at 900, and the answer does not note that. The coin-shop source is therefore only partly settled, and the repo's 100 is a store-table value, not a screen read.", "fix": "Keep the price open as the answer does. Note that the frames show 900 for Ghost Stand-Up and Jack-O-Lantern Stand-Up together, and that stores.json item 17752 (line 4386) reads 100/90. Do not seed a coin price until a dated source settles it."}]}

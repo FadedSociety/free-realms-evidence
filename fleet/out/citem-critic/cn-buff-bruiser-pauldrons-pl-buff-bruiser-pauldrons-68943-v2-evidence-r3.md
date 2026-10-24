@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-buff-bruiser-pauldrons-pl-buff-bruiser-pauldrons-68943-v2-evidence-r3 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3862, 10241, 6, 1121] model=claude-haiku-5-5 -->
+# {n}Buff Bruiser Pauldrons{pl="Buff Bruiser Pauldrons"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer rightly leaves the item sourceless, but it leaves a possible coin-shop binding (stores.json item_id 68943, category 144, 270 coins, member 243, sell 27) open without saying the id-space question can be checked. I confirmed that row at stores.json line 14719 and the surrounding 270-coin run (68936-68981), so the figures are accurate.", "fix": "Keep it unbound. Before citing stores.json item_id 68943 as a sale, confirm whether store item_ids are locale ids or definition ids (the definition ids are 10683-10694). Nothing in the pack ties the row to the pauldrons, so no source is added."}]}

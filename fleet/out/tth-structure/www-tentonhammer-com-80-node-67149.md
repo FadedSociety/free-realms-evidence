@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-67149 status=nothing_found turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 6698, 4, 534] model=claude-haiku-5-5 -->
+# EVE: Level 1 Mission Guides | Ten Ton Hammer
+
+{"article": {"title": "EVE: Level 1 Mission Guides", "date": "2009-04-23", "author": "Savanja", "type": "guide"}, "about_free_realms": false, "summary": "This Ten Ton Hammer guide covers EVE Online Level 1 newbie missions, specifically how to handle the slaver ship in the battle area. It does not mention Free Realms beyond a sidebar 'Recently Popular' ranking line (Free Realms up 5 to #18), so it has no Free Realms facts for the rebuild.", "facts": [], "quests": [], "uncertain": ["The only Free Realms reference is a site-wide popularity ranking widget ('Free Realms up 5 to #18') with no date context beyond the capture date of 2010-06-22; it is not a fact about the game and was not recorded."]}

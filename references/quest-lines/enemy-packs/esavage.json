@@ -1,0 +1,29 @@
+{
+ "title": "Savage",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\vale_of_the_ancients.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:77008 [ability | - | Savage | FLAG fragment: single word with no quest meaning] 'Savage'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:77008 [ability | - | Savage | FLAG fragment: single word with no quest meaning] 'Savage'"
+ ],
+ "client_cluster": [
+  "locale:77004 [quest_objective | Greenwood Forest | Thugawug Fumblers] 'Defeat Thugawug Fumblers'",
+  "locale:77005 [quest_objective | Greenwood Forest | Thugawug Fumblers] 'Thugawug Fumblers are usually found with the Thugawug Bumblers that wander Greenwood Forest north-east of the Greenwood Camp.'",
+  "locale:77008 [ability | - | Savage | FLAG fragment: single word with no quest meaning] 'Savage'",
+  "locale:77009 [item | - | Snowman Decoy] 'Snowman Decoy'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

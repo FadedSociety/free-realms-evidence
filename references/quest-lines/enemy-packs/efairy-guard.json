@@ -1,0 +1,40 @@
+{
+ "title": "Fairy Guard",
+ "our_entries": [
+  {
+   "file": "npcs/merry_vale.json",
+   "npc_id": 9500000384,
+   "zone": "Merry Vale",
+   "enemy_kind": "Enemy types of the cave line; not quest givers.",
+   "location_evidence": [
+    "The outskirts and the Den."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:384961 [npc_name | - | Fairy Guard] 'Fairy Guard'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:384961 [npc_name | - | Fairy Guard] 'Fairy Guard'"
+ ],
+ "client_cluster": [
+  "locale:384953 [npc_name | - | Stage Guest] 'Stage Guest'",
+  "locale:384954 [other | - | (not used) | FLAG not_live: marked not used] '(not used)'",
+  "locale:384955 [quest_objective | - | Check the light source] 'Check all of the light sources!'",
+  "locale:384956 [quest_objective | - | Check the light source] 'Check all of the light sources before time runs out.'",
+  "locale:384957 [quest_objective | - | Check the light source] 'Check the light source'",
+  "locale:384959 [quest_objective | - | -] 'Add these ingredients'",
+  "locale:384961 [npc_name | - | Fairy Guard] 'Fairy Guard'",
+  "locale:384963 [ui | - | -] \"You can't place that on the path!\"",
+  "locale:384964 [quest_dialog | - | Tilda (checkers challenge)] \"Did Tilda send you to check on me, the undisputed champion of checkers? I'm in the middle of a game here. I won't break this winning streak to do homework!<BR><\"",
+  "locale:384965 [quest_dialog | - | Dalar] 'Play or Go Away!'",
+  "locale:384966 [quest_objective | - | Dalar] 'Beat Dalar at a game of checkers so he will stop playing and finally do his homework!'",
+  "locale:384967 [quest_dialog | - | Dalar] \"I can't believe I lost! Oh well, I guess it is about time I started my homework. Have fun and thanks for playing!\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

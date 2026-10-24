@@ -1,0 +1,51 @@
+{
+ "title": "Fiesta de Hogares en el Nuevo Año (New Year Housing Party)",
+ "names_seen": [
+  "Fiesta de Hogares en el Nuevo Año (New Year Housing Party)"
+ ],
+ "facts": [
+  {
+   "statement": "A community housing party event where players show off decorated homes or apartments, held on Friday 8 January 2010 on Server 1.",
+   "numbers": {
+    "date_day": 8,
+    "date_month": 1,
+    "date_year": 2010
+   },
+   "era": "live",
+   "quote": "Viernes 8 de enero del 2010",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=834&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The event for US and Latin America was at 15:00 Pacific Time on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "15hrs Tiempo Pacifico (U.S.A y Latino América) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=834&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The event for UK and Europe was at 09:00 Pacific Time (18:00 European time) on Server 1.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_european": 18
+   },
+   "era": "live",
+   "quote": "0900hrs Tiempo Pacifico / 18hrs Tiempo Europeo (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=834&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=834&request_locale=en_US",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language community event announcement on freerealms.com: players meet in Sanctuary to visit each other's decorated homes and share decorating tips, for a Friday 8 January 2010 event on Server 1 held at two times for different regions. It gives the meeting point and the rule that you must be on a friend's list to visit their home. The article's own posting date is unclear (it shows only a relative age, '1 year, 4 months ago')."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

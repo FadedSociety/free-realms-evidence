@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-enabled-quest-reachability-rs-L1 status=done turns=6 usd=0.0087 tokens(read,write,in,out)=[99566, 29712, 14, 8034] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/enabled_quest_reachability.rs lines 1-1035 of 1035
+
+Window reviewed: `prototype/osfr-tools/tests/enabled_quest_reachability.rs` lines 1-1035 (plus `src/quest_engine.rs:1240-1290` and `tests/support/quest_catalogue_fixture.rs` to confirm behaviour). Most of the file is sound: the reachability, giver, reward and title gates call production loaders and the canaries compare against named quests/objectives. The findings below are the gaps.
+
+- **[high] prototype/osfr-tools/tests/enabled_quest_reachability.rs:850 graded_target_kinds_fail_on_a_scratch_tree - the name says every graded kind fails on a scratch tree, but the canaries cover only 5 of the 11 checked kinds (complete_dungeon, finish_minigame, collect_item/equip_item, craft_recipe, gather_resource).**
+  - Why it cannot catch a regression: `job_level_violation` (lines 418-450) has no canary and no control. Its only check is `rank == level`, and the test has no `job_level`, `defeat`, `reach_poi` or `interact_actor` objective (the fixture contains only a `talk_to_npc` objective, `quest_catalogue_fixture.rs:99`). Deleting the rank comparison, or the `profile <= 0 || !(1..=20)` guard, would leave every test in this file green. That is the T361 proof the module doc at lines 15-20 claims.
+  - Fix: add canaries that patch a `job_level` objective to an absent profile id and to an off-curve level, and assert exactly one violation naming `job_level`. Add a `defeat` canary with `count = 0`, and a `reach_poi` canary with `poi_id = 0`. Rename the test if these are not added.
+
+- **[medium] prototype/osfr-tools/tests/enabled_quest_reachability.rs:605 every_talk_target_and_visit_point_resolves - the name claims visit points resolve, but the body never inspects `visit_position` or any visit geometry.**
+  - Why it cannot catch a regression: `target_violations` (lines 296-401) has no visit arm. It is only the `reach_poi` positivity check (`poi_id != 0`). The doc at lines 293-294 says visit bounds are deliberately not repeated here. A `reach_poi` that resolves to a nonexistent point, or a `visit_position` that is not checked, passes this test.
+  - Fix: rename to something like `every_talk_target_resolves_and_poi_ids_are_positive`, or assert in this test that a visit point is validated by the loader (a bad visit fixture fails `Catalogue::load` here).
+
+- **[medium] prototype/osfr-tools/tests/enabled_quest_reachability.rs:976-980 graded_target_kinds_fail_on_a_scratch_tree (canary E) - the "deterministic order" check compares `catalogue.target_violations()` with a second call on the same unchanged catalogue.**
+  - Why it cannot catch a regression: this is a function compared with its own output. Both calls iterate the same `Vec` in the same order, so it passes unless the code is changed to be nondeterministic in a way the test does not drive. Any reordering of the output (for example, iterating a `HashSet`) still matches itself.
+  - Fix: assert the exact ordered list of violation strings for the two-objective case, or assert that the report is sorted by quest id and objective index.
+
+- **[low] prototype/osfr-tools/tests/enabled_quest_reachability.rs:1031-1033 visit_geometry_bounds_are_enforced - the bad-geometry loop asserts only `Catalogue::load(...).is_err()`.**
+  - Why it cannot catch a regression: any error passes, including a missing file or a parse error in the fixture. The valid fixture at line 1021 only proves the builder works for valid geometry, not that these three rejections come from the geometry bound. A loader that starts rejecting every visit objective for an unrelated reason would still pass.
+  - Fix: assert on the error kind and message (for example, `io::ErrorKind::InvalidData` and that the text mentions the visit position or radius), so the rejection is attributable to the bound.

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ckitty-cardboard-bot-suit-19783-v3-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3742, 4702, 6, 1124] model=claude-haiku-5-5 -->
+# Kitty Cardboard Bot Suit
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "Article 299 is cited as saying the costume is 'sold through the Marketplace for Station Cash'. The article text supports that Station Cash items are bought through the Marketplace in general, and names the combined 'Doggy and Kitty Cardboard Bot Outfit' (locale 72328/72303), not the Suit (19783). The sentence reads as if it covers this item.", "fix": "Attribute the Marketplace/Station Cash claim to the article's general purchase note and to the Outfit (locale 72328), and state that no source ties the Suit 19783 to it. Keep the Marketplace link as a candidate only, as the open list already does."}]}

@@ -1,0 +1,19 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-098-rs-L1 status=done turns=4 usd=0.0094 tokens(read,write,in,out)=[47843, 29515, 10, 10522] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_098.rs lines 1-800 of 1158
+
+Window `piece_098.rs` 1-800 read in full, plus the pinned reader `ForgeLightToolkit/Editor/FileTypes/GcnkFile.cs:127-137` (height-map gate matches the loader's `version > 4`, so that is not a defect) and the only in-tree caller `src/bin/osfr-terrain.rs:57-66`. Inputs are preserved asset files read from disk, not network packets, so all findings are medium or low.
+
+- **[medium] prototype/osfr-tools/src/restoration/piece_098.rs:548-553 - `batch.index_offset + batch.index_count` is computed in `i32` and can overflow, so a batch that is out of range passes the check and then panics on the slice.**
+  - Failure scenario: a GCNK tile has a render batch with `index_offset = 0x7FFFFFFF` and `index_count = 1` (both pass the `>= 0` checks at 545-547). The index buffer holds, for example, 3 entries. At 548 the sum wraps to `i32::MIN` in a release build (it panics in a debug build). `i32::MIN > 3` is false, so the check passes. At 553 the slice `indices[0x7FFFFFFF .. (wrapped as usize)]` has an end far past the length and panics. The same wrap happens with an empty index buffer.
+  - Reach: `load_terrain` (464) -> batch loop (544-559), with the batch fields read unchecked at 501-506 from the chunk payload. `osfr-terrain.rs:57` calls `load_terrain` on every tile in a catalog, and its own `tile.indices[start..start + count]` (line 64) relies on this check. Nothing upstream bounds the sum.
+  - Fix: compare in `i64`, e.g. `(batch.index_offset as i64 + batch.index_count as i64) > indices.len() as i64`, and use the same `i64` (or `usize` after the check) for the slice bounds at 553.
+
+- **[medium] prototype/osfr-tools/src/restoration/piece_098.rs:517 - height-map payload size `size * size * bits / 2` is computed in `usize` without overflow checks, so the skip can wrap to 0 and accept a bogus height map.**
+  - Failure scenario: `size = 2^29` (536870912, which is a valid non-negative `i32`) and `height_bits = 64` with `version > 4`. `size*size*64 = 2^64`, which wraps to 0 in a release build, so `chunk.skip(0)` succeeds and a `HeightMap { size: 2^29, bits_per_pixel: 64 }` is returned with no payload present. Then the rest of the chunk is parsed from the wrong offset. In a debug build the multiplication panics instead.
+  - Reach: `load_terrain` (464) -> lines 509-524, with `height_bits` and `size` read from the chunk payload. The only checks are `size < 0` and `height_bits > 64` (513). Nothing bounds `size` against the remaining bytes before the multiplication.
+  - Fix: compute the payload with `checked_mul` and return `LoadError::Limit` or `Truncated` on overflow, e.g. `(size as usize).checked_mul(size as usize)?.checked_mul(height_bits as usize)? / 2`, or reject `size` values that exceed the remaining bytes.
+
+- **[low] prototype/osfr-tools/src/restoration/piece_098.rs:645-647 - the `DMAT` texture loop reads names with `cursor.string`, which scans past `textures_end`, so the declared texture-block length is never enforced.**
+  - Failure scenario: `texture_bytes = 1` with the data `"abcdef\0"` and a material count after it. `string()` consumes all seven bytes, the offset passes `textures_end`, the loop exits, and the material count and rows are then read from inside the name bytes. The file is accepted with a silent misparse rather than returning `Inconsistent`.
+  - Reach: `load_model` (711) -> `parse_materials` (625). `textures_end` is computed at 637-643 but only checked before the loop.
+  - Fix: after the loop, `if cursor.offset != textures_end { return Err(LoadError::Inconsistent("DMAT texture block")); }`, or give `string` a bounded sub-cursor over `bytes[..textures_end]`.

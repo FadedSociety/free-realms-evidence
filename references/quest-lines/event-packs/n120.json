@@ -1,0 +1,39 @@
+{
+ "title": "Demolition Derby Day",
+ "names_seen": [
+  "Demolition Derby Day"
+ ],
+ "facts": [
+  {
+   "statement": "A Community Event called Demolition Derby Day ran at Thunder Falls Speedway on Server 1, with a U.S./Latin America session on Thursday November 18, 2010 at 3pm Pacific.",
+   "numbers": {
+    "start_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday November 18th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1910",
+   "date": null
+  },
+  {
+   "statement": "A second Demolition Derby Day session was held for UK and Europe on Friday November 19, 2010 at 9:00am Pacific (4:00pm GMT), on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "start_hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday November 19th, 2010 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1910",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1910",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A community event post announcing a Demolition Derby Day at Thunder Falls Speedway on Server 1, on Nov 18, 2010 (U.S./Latin America, 3pm Pacific) and Nov 19, 2010 (UK/Europe, 9am Pacific). It explains that players learn to drive karts from Crash Davis, enter via the demo derby turnstile and the 'Demo Derby Lobby', and find events through the Game Guide calendar."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

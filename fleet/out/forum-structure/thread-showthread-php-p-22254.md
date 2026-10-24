@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-22254 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2935, 4, 490] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This capture is a vBulletin forum shell for the Free Realms fan forum, not a thread. It shows a 'maximum number of posts you can view' registration error and a forum index, with no player post, guide, or game content. It gives a rebuilder no usable facts about quests, items, prices, events or mechanics.", "facts": [], "quests": [], "uncertain": ["The thread body was replaced by a vBulletin 'Free Realms Forums Error' page asking the visitor to register, so the original post(s) at p=22254 could not be read.", "The capture date is 2009-07-08, but the page carries no post date, so the thread's date and author are unknown."]}

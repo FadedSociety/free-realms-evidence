@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslimy-checkered-ant-40758-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3757, 4414, 6, 806] model=claude-haiku-5-5 -->
+# Slimy Checkered Ant
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the collection was 'live by mid-2013' goes a little beyond the wiki list. The List of Collections page does name 'Checkered Ants' (confirmed by lookup), but a listing on a wiki page does not by itself show the collection was live in 2013. The revision number and date (rev 27852, 2013-07-13) were not checked here.", "fix": "Say only that the wiki List of Collections names a 'Checkered Ants' collection (wiki: List of Collections), and leave live status as unknown. Client locale:132328 confirms the collection name 'Checkered Ants Collection' exists in the client UI text."}]}

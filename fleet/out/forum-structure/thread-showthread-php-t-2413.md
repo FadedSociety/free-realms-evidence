@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2413 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2906, 4, 363] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin error screen from the Free Realms fan forum (freerealmsforums.com) saying the viewer had exceeded the maximum number of viewable posts and must register. It contains only forum navigation and boilerplate, with no thread text about the game, so it yields no facts for the rebuild.", "facts": [], "quests": [], "uncertain": ["The thread (t=2413) that the URL points to was not captured; only the login-limit error page and forum index were preserved, so the thread's topic and content are unknown."]}

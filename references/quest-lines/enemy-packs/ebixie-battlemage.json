@@ -1,0 +1,52 @@
+{
+ "title": "Bixie Battlemage",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 440712,
+   "definition_id": 1237004,
+   "model_id": 211,
+   "max_health": 90,
+   "damage": 7,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 440712,
+   "definition_id": 1237005,
+   "model_id": 211,
+   "max_health": 90,
+   "damage": 7,
+   "boss": false
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:440712 [npc_name | - | Bixie Battlemage] 'Bixie Battlemage'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:440712 [npc_name | - | Bixie Battlemage] 'Bixie Battlemage'"
+ ],
+ "client_cluster": [
+  "locale:440711 [npc_name | - | Bixie Soldier] 'Bixie Soldier'",
+  "locale:440712 [npc_name | - | Bixie Battlemage] 'Bixie Battlemage'",
+  "locale:440713 [npc_name | - | Bixie Pikeman] 'Bixie Pikeman'",
+  "locale:440714 [npc_name | - | Buzzuz] 'Buzzuz'",
+  "locale:440715 [npc_name | - | Rebel Lieutenant] 'Rebel Lieutenant'",
+  "locale:440716 [npc_name | - | Bandit Patrolman] 'Bandit Patrolman'",
+  "locale:440717 [npc_name | - | Thugawug Stomper] 'Thugawug Stomper'",
+  "locale:440718 [npc_name | - | Thugawug Guardian] 'Thugawug Guardian'",
+  "locale:440719 [npc_name | - | Stompenmugg] 'Stompenmugg'",
+  "locale:440720 [npc_name | - | Thugawug Saboteur] 'Thugawug Saboteur'"
+ ],
+ "wiki": {
+  "title": "Bixie Battlemage",
+  "text": "The Bixie Battlemage is an enemy bixie NPC that can be found in Queensfields along the two bixie groups of pikemen and soldiers. Most bixie battlemages are Difficulty 1 enemies, they also can be found in Highroad Junction, which referred to as \"Bixie Magus\".\nCategory:NPC\nCategory:Enemies\nCategory:Females\nCategory:Bixie\nCategory:Sanctuary\nCategory:Highroad Junction"
+ },
+ "images": [
+  "image (image:character_or_npc): 1\nBixie Battlemage"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

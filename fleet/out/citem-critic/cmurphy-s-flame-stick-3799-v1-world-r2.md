@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmurphy-s-flame-stick-3799-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4010, 9937, 6, 875] model=claude-haiku-5-5 -->
+# Murphy's Flame Stick
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] (locale 3763 and 3803 citations)", "issue": "The answer cites 'wiki page Collections' for the claim that the Sunstone Valley cluster is the Explorer/Rare/Elite collection set. The evidence pack has wiki_page null and no Collections page, so that citation is not supported by anything in the pack.", "fix": "Drop the 'wiki page Collections' citation, or cite the locale lines alone (locale:3794-3798 and 3802-3803 carry the Explorer/Rare/Elite titles). The collection link stays an inference until a wiki or in-game source confirms it."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshattered-past-nature-starter-deck-4995-v2-evidence-r3 status=done turns=4 usd=0.0026 tokens(read,write,in,out)=[27232, 12054, 10, 1650] model=claude-haiku-5-5 -->
+# Shattered Past Nature Starter Deck
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Says the deck has 'one exclusive card'. The official article (articleId=314) says each deck is a 40-card fixed deck with three copies of an exclusive card. The count is not wrong in the price or currency, but the detail is less precise than the source.", "fix": "Describe it as a 40-card fixed deck containing three copies of one exclusive card (freerealms.com articleId=314, returned by the articles lookup as fact 'each 40-card fixed deck contains three...')."}]}

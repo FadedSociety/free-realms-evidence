@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ckachuga-speedster-mod-117419-v2-evidence-r3 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[13391, 9322, 8, 1296] model=claude-haiku-5-5 -->
+# Kachuga Speedster Mod
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[5] (Kart Driver progression claim)", "issue": "The claim that kart parts are 'the Kart Driver job's progression items' is an inference. Kart Racing.md:24 lists parts windows and Cannot Sell/Cannot Trade tooltips, but does not say parts are job progression rewards. The cited Kart Driver.md lines (25, 152) were not verified here and may not support it.", "fix": "Reword to: kart parts exist and are marked Cannot Sell/Cannot Trade (Kart Racing.md:24); whether they are Kart Driver progression rewards is unverified. Drop the progression claim unless Kart Driver.md:25/152 is checked and says so."}]}

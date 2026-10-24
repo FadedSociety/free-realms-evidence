@@ -1,0 +1,49 @@
+{
+ "title": "TCG Booster Weekend Sale",
+ "names_seen": [
+  "TCG Booster Weekend Sale",
+  "TCG Booster weekend sale"
+ ],
+ "facts": [
+  {
+   "statement": "The TCG booster sale started at 3:00 pm PDT on Friday, August 31 and ended at 10:00 am PDT on Tuesday, September 4.",
+   "numbers": {
+    "start_hour_PDT": 15,
+    "end_hour_PDT": 10
+   },
+   "era": "live",
+   "quote": "from 3:00 pm PDT Friday, August 31st through 10:00 am PDT Tuesday, Sept. 4th",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2753",
+   "date": null
+  },
+  {
+   "statement": "The TCG booster weekend sale started at 19:00 Brasília time on August 31 and ended at 15:00 on September 4 (year not stated).",
+   "numbers": {
+    "start_hour_brasilia": 19,
+    "end_hour_brasilia": 15,
+    "start_day_august": 31,
+    "end_day_september": 4
+   },
+   "era": "live",
+   "quote": "apartir das 19:00 horas (horário de Brasília) do dia 31 de Agosto às 15:00 horas do dia 04 de Setembro",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2764",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2753",
+   "date": null,
+   "title": "Stock Up on TCG Sets 1 Through 3 Boosters This Weekend!",
+   "summary": "A SOE news post announcing a weekend sale on Free Realms Trading Card Game (TCG) booster packs for Sets 1 through 3, at a special price of 199 SC, which is 50 SC off individual boosters. The sale ran from Friday August 31 to Tuesday September 4 (2012 dates inferred from the weekday/date pairing, not stated as a year). The post's exact publication date is not given; the page only says 'Posted 1 week, 2 hours ago'."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2764",
+   "date": null,
+   "title": "Free Realms - Quoi de neuf ?",
+   "summary": "A short French-site news item (body text in Portuguese) announcing a weekend sale of Free Realms TCG Set 1-3 Booster packs. The sale ran from 19:00 Brasília time on August 31 to 15:00 on September 4 at a weekend price of 199 SC, saving 50 SC per pack. The year is not stated in the page text, so the date is left null."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

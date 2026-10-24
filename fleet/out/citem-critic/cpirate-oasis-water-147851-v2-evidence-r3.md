@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpirate-oasis-water-147851-v2-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3902, 5328, 6, 1019] model=claude-haiku-5-5 -->
+# Pirate Oasis Water
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type / where", "issue": "The source is a coin-store record only. Labelling it 'vendor' with where=null implies a vendor NPC, which no source names. The claim is accurate as a coin-store sale and the answer's open list says so, but the type label reads more firmly than the evidence supports.", "fix": "Keep the coin-store price as the source (repo:prototype/osfr-tools/data/content/stores.json:4238, purchase_price_coins 50, member_price_coins 45, sell_price_coins 5, no_sale false; client coin_store_prices [50]). Mark the NPC and zone as unknown. I re-read stores.json:4238 and the figures match the answer exactly."}]}

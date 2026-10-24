@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpower-steering-plus-114898-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4015, 7525, 6, 966] model=claude-haiku-5-5 -->
+# Power Steering Plus
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the Demolition Derby Driver guide lists the raise and lower gear ids (1485549425, 1825655705) is cited as support, but nothing ties those ids to Power Steering Plus. The answer's own open list concedes this, so the evidence line overstates the link slightly.", "fix": "Keep the ids as unmapped guide references only. Do not cite them as evidence for this item until a source names them (Demolition Derby Driver build guide, Content/Jobs/Demolition Derby Driver.md:212, does not name them)."}]}

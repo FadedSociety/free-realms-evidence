@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ielves-v1-evidence-r1 status=no_submit turns=2 usd=0.0012 tokens(read,write,in,out)=[3562, 5477, 6, 905] model=claude-haiku-5-5 -->
+# Elves
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open[1] (vendors_unresolved.json:5946)", "issue": "The answer calls line 5946 an unresolved vendor entry that names 'Elves'. The line is actually a string in the w118_research.wiki_mention_pages list inside an Edwin research block (lines 5935-5955). It lists 'Elves' as a wiki page that mentions Edwin. It is not a vendor stock row or an item name, so the reason it is 'unresolved' does not apply to Elves.", "fix": "Cite repo:prototype/osfr-tools/data/content/vendors_unresolved.json:5946 as a wiki_mention_pages entry in the Edwin w118_research block. It is a page-mention index, not an item or vendor source. The conclusion that no Elves item exists is unchanged."}]}

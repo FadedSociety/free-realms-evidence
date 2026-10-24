@@ -1,0 +1,51 @@
+{
+ "title": "Jarvus",
+ "our_entries": [
+  {
+   "file": "npcs/sunstone_valley.json",
+   "npc_id": 9000000114,
+   "zone": "Sunstone Valley",
+   "enemy_kind": "Red's missing apprentice, who turns to the Skullz and the robgoblins and has been conning every Sunstone race out of supplies with unfair trades (3466071037). Final boss of the Blacksmith line.",
+   "location_evidence": [
+    "Skullz territory; Red sends the player to the Drake Boneyard and Feathered Graveyard to search (2234252732, 3927349836) and \"He was over near the Feathered Drakes last I heard\" (3466071037). The wiki lists \"Jarvus\" in the Sunstone Valley NPC list and as TCG card 5R20 (Rare)."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:440046 [npc_name | Sunstone Valley | Jarvus] 'Jarvus'",
+  "locale:440047 [npc_name | Sunstone Valley | Jarvus | FLAG duplicate: same as 440046] 'Jarvus'",
+  "locale:440132 [npc_name | - | Jarvus] 'Jarvus'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:440046 [npc_name | Sunstone Valley | Jarvus] 'Jarvus'",
+  "locale:440047 [npc_name | Sunstone Valley | Jarvus | FLAG duplicate: same as 440046] 'Jarvus'",
+  "locale:440132 [npc_name | - | Jarvus] 'Jarvus'",
+  "locale:440158 [quest_dialog | Blacksmith: Clash of the Apprentice | Jarvus] 'Jarvus Death Prevent'",
+  "locale:440160 [quest_dialog | - | Jarvus] \"RUBBISH! I'll show you, just wait! We'll meet again soon, and you'll see my true power!\"",
+  "locale:440161 [ability | - | Jarvus] 'Jarvus Death Touch'",
+  "locale:440447 [quest_objective | Sunstone Valley | Jarvus] 'Challenge Jarvus'",
+  "locale:440503 [other | Sunstone Valley | Jarvus | FLAG dev_note: internal cflag command] 'Jarvus - Remove cflag jarvusCombat'"
+ ],
+ "client_cluster": [
+  "locale:440039 [npc_name | Sunstone Valley | <NPC 113583> | FLAG placeholder: unresolved NPC tag] '<NPC 113583>'",
+  "locale:440040 [npc_name | Sunstone Valley | <NPC 113584> | FLAG placeholder: unresolved NPC tag] '<NPC 113584>'",
+  "locale:440041 [npc_name | Sunstone Valley | <NPC 113585> | FLAG placeholder: unresolved NPC tag] '<NPC 113585>'",
+  "locale:440042 [quest_objective | Sunstone Valley | Blacksmith: Hammering It Out] 'Mine Sunstones'",
+  "locale:440044 [quest_objective | Sunstone Valley | Skullz Tag] 'Collect Skullz Biker Badges'",
+  "locale:440046 [npc_name | Sunstone Valley | Jarvus] 'Jarvus'",
+  "locale:440047 [npc_name | Sunstone Valley | Jarvus | FLAG duplicate: same as 440046] 'Jarvus'",
+  "locale:440048 [quest_dialog | Sunstone Valley | Barrels of Sasparilla] \"Still <font color='#D9781A'>looking for those Barrels of Sasparilla</font>? Those Sandscale manguana must have carried them down into the valley.<BR><BR>Now you\"",
+  "locale:440050 [quest_dialog | Sunstone Valley | Barrels of Sasparilla] \"<font color='#D9781A'>Harley</font> is probably down in the valley chasing after <font color='D9781A'>Sandscale Hunters</font>. If you hurry you might even be a\"",
+  "locale:440052 [quest_dialog | Sunstone Valley | Barrels of Sasparilla] 'Back in my day the Sandscale tribe was pretty easy going, but now they just seem to attack anyone they meet. It’s a real shame.<BR><BR>That goes double for <fon'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Blacksmith: Hammering It Out' (unresolved): Gather Supplies from Skullz and Defeat Jarvus",
+  "other target in 'Blacksmith: Clash of the Apprentice' (unresolved): Out craft Jarvus! (Blacksmithing Battle)",
+  "talk target in 'Blacksmith: Clash of the Apprentice' (unresolved): Speak with Jarvus"
+ ]
+}

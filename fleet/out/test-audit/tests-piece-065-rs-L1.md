@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-piece-065-rs-L1 status=done turns=8 usd=0.0113 tokens(read,write,in,out)=[127098, 36833, 18, 10815] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_065.rs lines 1-515 of 515
+
+Window: `prototype/osfr-tools/tests/piece_065.rs` lines 1-515. I read the window in full and the code under test (`src/restoration/piece_065.rs`: gate functions 420-949, `synthetic_reference_replay` 955-1135). I traced the synthetic replay through every gate by hand. The fixture-driven tests (fresh entry, combat, boss, rewards, exit, reconnect, and the "earlier loss" test, which the last-`39/18` rule makes legitimate) each change one thing and assert a `Failed`/`NotEvidenced` outcome with a matching detail, so I did not flag them.
+
+- **[high] tests/piece_065.rs:447-450 and 469-472 `preserved_native_runs_are_not_reported_as_native_acceptance` - the test returns early and passes when `lab/reports` or any `piece-065-*/replay-transcripts` directory is missing, so it grades nothing.**
+  - Why it cannot catch a regression: with the directory absent (the path is `../../../lab/reports` relative to the crate, and the repo tool root shows no `lab` directory), the test body is never run. Any change that makes a preserved run satisfy every gate, i.e. overclaims native acceptance, still gives a green result. This is the only guard in the file against that claim, and it is silently disabled.
+  - Fix: make the missing-fixture case explicit. Either `#[ignore = "requires lab/reports/piece-065-*"]` with a reason, or a checked-in minimal transcript fixture (one accepted-looking and one rejected) that the test always grades, so the `!report.accepted` assertion runs on every CI pass.
+
+- **[medium] tests/piece_065.rs:451-472 and 475-513 `preserved_native_runs_are_not_reported_as_native_acceptance` - the name says "runs" (plural), but the body grades only the transcripts of the single newest `piece-065-*` directory chosen by directory mtime.**
+  - Why it cannot catch a regression: an older preserved run that was accepted (or whose transcript is malformed) is never evaluated. Replacing or adding a newer run directory moves the selection, and the older evidence drops out of the gate with no failure.
+  - Fix: iterate over every `piece-065-*/replay-transcripts` directory (or assert that the chosen run is the one named in the comment), and assert a minimum graded count, e.g. `assert!(graded >= 1)`, so an empty selection cannot pass.
+
+- **[medium] tests/piece_065.rs:341-348 `rewards_gate_requires_a_win_real_defeat_counts_and_score_rows` (the `wrong_count` block) and 350-355 (the `unrewarded` block) - they check only that the detail string contains a substring and never assert the `Failed` outcome.**
+  - Why it cannot catch a regression: a change that turns the gate into `NotEvidenced` with the same wording (for example, the score-row or rewarded-set branch returning `not_evidenced` with the same text), or any future rewording that still contains "defeats" or "reward", still passes. The other blocks in this test match `Failed(_)` first, so these two are weaker than their neighbours.
+  - Fix: add `assert!(matches!(outcome(&report, AcceptanceGate::Rewards), GateOutcome::Failed(_)));` before each detail check, as the `loss` and `no_scores` blocks do.
+
+- **[low] tests/piece_065.rs:94-100 `replay_wire_rows_match_their_recovered_sources` - the provenance check only asserts that `source` is non-empty after trimming.**
+  - Why it cannot catch a regression: a placeholder such as "TODO" or "x" in any `REPLAY_WIRE` row passes, so the test does not check that the row cites a real source. Its name claims the rows match their recovered sources, and it proves only that a string is present.
+  - Fix: pin each row's `source` to an expected pattern or allow-list (for example, one that must start with `lab/references/` or `notes/Research/`), or assert that the source names the packet's opcode/subopcode, so an empty or placeholder citation fails.

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-goto-newpost-t-1693 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2877, 4, 409] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin forum shell for the Free Realms fan forum (freerealmsforums.com), showing a 'maximum posts viewed' registration prompt and the forum index. It contains no thread text, so it yields no game facts about quests, items, prices, events or mechanics.", "facts": [], "quests": [], "uncertain": ["The thread the URL points to (t=1693) did not render; only the error prompt and forum navigation were captured.", "The forum index lists sections such as Combat In Free Realms, Items, Jobs/Classes, In-Game Mini Games, Pets and Membership / Stationcash, but these are navigation labels, not game facts."]}

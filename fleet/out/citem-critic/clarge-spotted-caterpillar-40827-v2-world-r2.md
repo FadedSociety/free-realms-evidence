@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=clarge-spotted-caterpillar-40827-v2-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3857, 11646, 6, 1067] model=claude-haiku-5-5 -->
+# Large Spotted Caterpillar
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The catalogue entry for 40827 (id 543, item_definition 3611) carries item_link 'sanctuary', which the answer sets aside as a hint. It is not an acquisition source, so leaving it in open is correct. The answer could say more plainly that the link is a Sanctuary-side marker, not a vendor or drop.", "fix": "Keep the item_link 'sanctuary' note in open, citing repo collection_catalogue.json:5817-5818. Do not attach any source until a vendor, drop or event names this caterpillar."}]}

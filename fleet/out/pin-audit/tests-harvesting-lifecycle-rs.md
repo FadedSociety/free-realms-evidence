@@ -1,0 +1,7 @@
+<!-- fleet job=pin-audit id=tests-harvesting-lifecycle-rs status=nothing_found turns=5 usd=0.0039 tokens(read,write,in,out)=[31230, 15369, 12, 3279] model=claude-haiku-5-5 -->
+# tests/harvesting_lifecycle.rs
+
+No findings in `prototype/osfr-tools/tests/harvesting_lifecycle.rs` for the two screened lines.
+
+- **Line 449 (`one five-bundle completion per regional goal`, expects 5):** `spec` comes from `harvesting::board_spec(GAME_ID)`. In `src/harvesting.rs` lines 952-965, `board_spec` sets every goal's `quota` and `per_reward` to the code constants `RECONSTRUCTED_QUOTA_TILES` (25) and `RECONSTRUCTED_PER_REWARD_TILES` (5), and `cluster_quantity` to `RECONSTRUCTED_BUNDLES_PER_CLUSTER` (1). It only reads `region.produce` from the data, so the `goals` rows in `data/content/harvesting.json` (quota 15, per_reward 5, around lines 165-190) do not feed this spec. Retuning the data would not break the test. The 5 is a code-side reconstruction constant and is not pinned from a data file. Pinning it is a separate concern, since it is a code constant the team may want to read rather than hardcode, but it is not a data-file pin.
+- **Line 579 (`spec.duration_seconds`, expects 120):** the value comes from the code constant `RECONSTRUCTED_DURATION_SECONDS = 120` (`src/harvesting.rs` line 778), which `board_spec` assigns at line 1003. The 180 in `data/content/harvesting.json` line 217 is a different field and does not match, so this is not a data-file pin.

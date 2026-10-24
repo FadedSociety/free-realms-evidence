@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cnonstop-delivery-skirt-121574-v1-world-r2 status=done turns=3 usd=0.0026 tokens(read,write,in,out)=[12169, 14743, 8, 1282] model=claude-haiku-5-5 -->
+# Nonstop Delivery Skirt
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "client_definition.definition_ids / evidence claim 1", "issue": "The evidence pack says 16 definitions, but its definition_ids array lists only 12 ids (41575, 41582, 41588, 41595, 41602, 41609, 41617, 41624, 41630, 41637, 41644, 41652). The answer repeats the 16 count and the 41575-41652 range without reconciling them. The count and the list disagree, so the 16-definition figure is unverified.", "fix": "Re-extract the Nonstop Delivery Skirt definitions from the client definition pack and report the true count with the full id list. Until then, state the count as unresolved (12 listed ids vs 16 claimed)."}]}

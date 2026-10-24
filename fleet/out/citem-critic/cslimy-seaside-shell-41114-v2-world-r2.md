@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslimy-seaside-shell-41114-v2-world-r2 status=no_submit turns=3 usd=0.0019 tokens(read,write,in,out)=[12883, 9816, 8, 1124] model=claude-haiku-5-5 -->
+# Slimy Seaside Shell
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the answer does not cite the wiki collection listing for 'Rare Shells'. collections.json (key wiki:8:235, name_id 7765) records it from the wiki's 'List of Collections' (revision 27852, 2013-07-13) with entries_known false and reward null. That confirms the collection exists but gives no entries or reward, so it does not change the answer's unknowns.", "fix": "Optionally add: 'wiki List of Collections (rev 27852) lists Rare Shells (name 7765) with entries_known false, reward null (collections.json wiki:8:235).' Keep open: acquisition, price, live and retired status, and the collection 114 reward."}]}

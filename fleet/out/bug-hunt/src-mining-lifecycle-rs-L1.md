@@ -1,0 +1,16 @@
+<!-- fleet job=bug-hunt id=src-mining-lifecycle-rs-L1 status=done turns=14 usd=0.0199 tokens(read,write,in,out)=[379241, 51232, 30, 19470] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/mining_lifecycle.rs lines 1-510 of 510
+
+Window reviewed: `mining_lifecycle.rs` 1-510. Most of the window holds up. The movie parser's length and slice checks are sound, and `reward_grant` checks its overflow and row count. Client packets cannot reach the one defect below. Its reach is server-timer-driven, and the adapter is not wired into the live gateway today (see caveat).
+
+**[medium] prototype/osfr-tools/src/mining_lifecycle.rs:198-226 - `tick()` commits an engine that has gone Lost while the runs ledger is still Offered or Starting, and never runs `validate_pair`, so the divergent pair is persisted.**
+
+- **Failure scenario:** A Mining run is offered (`begin`, runs = Offered, engine = Offered) and the client never sends 39/5. The accumulated `tick(elapsed_ms)` reaches the wall limit. `Type8Engine::tick` sets `phase = Lost` when `wall_ms == MAX_WALL_MS` (mining.rs:552-554), and this happens in any phase, not just Playing. Back in the adapter, `runs.finish(id, &adapter, None)` returns `Ok(default)` because it is a no-op unless `run.state == Playing` (minigame.rs:548-549). The adapter then sets `self.engine = engine` (Lost) and `self.runs = runs` (Offered) at lines 223-224, with no `validate_pair` call. It returns `changed: true`, so the caller saves the snapshot.
+- **Consequences:** On reload, `restore` → `validate_pair` fails with "Mining activity and lifecycle phases diverged" (lines 126, 466-483), so `load` returns an error for that character's Mining lifecycle. Within the session, a 39/5 start makes `handle_control` fail `validate_pair` (line 249) and a 26/42 close only recovers the run by cancelling it.
+- **Reach:** `tick()` is a public method of `MiningLifecycle`. The time-driven trigger needs no client packet, only 1,800,000 ms of accumulated `tick` time while the run is Offered, Launched, Connected or LevelOffered (wall-clock timeout, mining.rs:98). I checked `Type8Engine::tick` (mining.rs:535-560) and `minigame.rs:518-549`. Caveat: `MiningLifecycle` is referenced only by the parity test `tests/gathering_payout.rs:834-888` and by `mining.rs:44`. The live gateway calls `Type8Engine` directly (gameplay/crafting.rs), and the test never calls `tick`. So this is latent for the lifecycle adapter, not a live crash.
+- **Fix:** In `tick()`, when the engine is Lost and `runs.state(id)` is Offered or Starting, cancel both sides with `runs.disconnect()` plus `engine.cancel()`, as `disconnect()` does. Also add `validate_pair(&engine, &runs)?;` before the two assignments at lines 223-224 so that a divergent pair is rejected instead of saved.
+
+No other finding meets the bar. I considered and dropped these:
+- `handle_control` discarding engine replies when only the engine changed: `validate_pair` keeps the two sides in lockstep, so this cannot happen.
+- A win with no `reward_state` returning `Err` (line 341): it mutates nothing and is a caller contract.
+- `close()` calling `engine.cancel()` on a finished run: the replies are discarded correctly.

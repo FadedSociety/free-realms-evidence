@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblack-bird-of-paradise-67112-v2-world-r2 status=no_submit turns=3 usd=0.0020 tokens(read,write,in,out)=[13108, 9644, 8, 1360] model=claude-haiku-5-5 -->
+# Black Bird of Paradise
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open[3]", "issue": "The wiki 'Rare' placement is for the collection 'Birds of Paradise' on the List of Collections page, not for the card itself. The answer's wording is accurate but could be read as a category for the card. I checked the page (freerealms-wiki 2038-27852, 'Rare' section lists '[Birds] [of] [Paradise]').", "fix": "State it as 'the Birds of Paradise collection is listed under Rare on List of Collections (wiki 2038-27852)'. This is a membership-category fact, not an acquisition source."}]}

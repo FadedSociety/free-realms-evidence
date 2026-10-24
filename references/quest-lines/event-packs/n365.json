@@ -1,0 +1,30 @@
+{
+ "title": "Labor Day Double Station Cash weekend",
+ "names_seen": [
+  "Labor Day Double Station Cash weekend"
+ ],
+ "facts": [
+  {
+   "statement": "Station Cash purchases were doubled during the Labor Day weekend promotion, valid from 12:01 AM PDT on 2012-09-01 to 11:59 PM PDT on 2012-09-03.",
+   "numbers": {
+    "double_bonus_multiplier": 2,
+    "start_date": "2012-09-01",
+    "end_date": "2012-09-03"
+   },
+   "era": "live",
+   "quote": "¡Obtener DOBLE STATION CASH entre 01 de septiembre y 3 de septiembre de 2012!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2759",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2759",
+   "date": null,
+   "title": "Fin de semana del Día del Trabajo Doble Station Cash!",
+   "summary": "An official Free Realms news post (page text in Spanish, site in French) announcing a Labor Day weekend promotion that doubled Station Cash purchases from September 1 to September 3, 2012. It states the offer's exact window and which purchase channels qualify, and excludes SMS Station Cash purchases. The article does not name the publication date beyond a relative 'published 2 months, 2 days ago' stamp relative to capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

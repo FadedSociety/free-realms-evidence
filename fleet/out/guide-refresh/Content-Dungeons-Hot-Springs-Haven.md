@@ -1,0 +1,15 @@
+<!-- fleet job=guide-refresh id=Content-Dungeons-Hot-Springs-Haven status=nothing_found turns=19 usd=0.0192 tokens(read,write,in,out)=[587498, 52159, 40, 13660] model=claude-haiku-5-5 -->
+# notes/Build Guides/Content/Dungeons/Hot Springs Haven.md
+
+**Verdict:** current. The note makes almost no claims about our server code. Its one repo-facing claim holds, and the client citations I spot-checked match the locale. No claim I could check is now false, so there are no corrections.
+
+**Checked against the tip:**
+- Conflicts 2 and the index claim "The index lists this dungeon among those with none" match `notes/Build Guides/Content/Dungeons/Dungeons.md:57` (Dungeons with none: "…Hot Springs Haven…") and the row at `Dungeons.md:73` (bonus-objective column "none"). The note's wording is accurate.
+- The client has no "Hot Springs Haven Bonus Objective" string. The `Bonus Objective` locale hits (`locale` search) list other dungeons only. The "Destroy all of the Yeti Jam Boxes!" string does exist (`client:locale/en_us_data.dat:13797`, id 519092191), as the note says.
+- Quoted client strings I checked match the locale: "Umari, the yeti chief, took over…" (`en_us_data.dat` line 204 in the locale dump), "Defeat Umari, the Yeti Chief." (6851), "Champion Pengubowler" quest text (417462–417472), "Campaign 5: Hot Springs Haven" (39513), "Saved by the Bell Brawler Gloves" (132863), and the Snowhill battle quest naming the six bosses.
+- The repo's own `prototype/osfr-tools/data/content/dungeons/hot_springs_haven.json` has `goals: []` and `rewards: []` with a "(R)" reason. The note does not claim those are populated, so nothing contradicts it.
+
+**Unsure:**
+- **Post-Umari boss.** The client's dungeon narration says that after the Yeti Chief, "one more Yeti! It's Unga Frostclaw!… You have to fight him too!" (`client:locale/en_us_data.dat:86962`, id 3292573459; the locale search also shows it at line 432934). The `Snowy Canyon.md` note already cites this as the last fight in Hot Springs Haven. This note does not mention it. It matters for the "Second boss" row (Champion Pengubowler) and for the "Campaign story text, in order" list, which stops at the entrance (`locale/en_us_data.dat:93134`, id 3518130846). I did not correct it because the note's sentence is not strictly false, but the row should probably mention Frostclaw.
+- **Campaign 5 meaning.** The note's inference that "Campaign 5: Hot Springs Haven" is a Treasure War card campaign is plausible. The locale's "campaign mode" wording (`en_us_data.dat` line 5405) fits it. The Clockwork Cowboy reward text (line 39526) says Campaign 5 must be bought and completed first, which fits a paid campaign. I could not confirm the card-game link directly.
+- **Warrior W3 link.** `notes/Autopilot/T257.md:45` and `data/content/quests/warrior.json` say W3 (3150003) "needs the Hot Springs Haven battle" and stays disabled in our build. This note does not mention our build status, so there was nothing to correct, but a future reader may want the link.

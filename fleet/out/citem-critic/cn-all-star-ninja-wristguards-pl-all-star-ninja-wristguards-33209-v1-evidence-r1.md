@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-all-star-ninja-wristguards-pl-all-star-ninja-wristguards-33209-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3808, 6926, 6, 969] model=claude-haiku-5-5 -->
+# {n}All-Star Ninja Wristguards{pl="All-Star Ninja Wristguards"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The single source is labelled type 'vendor', but no vendor is named or evidenced. The only evidence is a coin-store row (stores.json line 4698: item_id 19469, category 102, purchase 715, member 643, sell 71, no_sale false). That supports a coin-store sale, not a vendor.", "fix": "Relabel as a coin-store listing (type 'coin_store', currency coins, price 715, member 643, sell 71, source repo:prototype/osfr-tools/data/content/stores.json line 4698). Leave the vendor field unknown. Price and currency check out against the store row."}]}

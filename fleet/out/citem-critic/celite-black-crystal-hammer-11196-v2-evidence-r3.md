@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-crystal-hammer-11196-v2-evidence-r3 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3660, 11788, 6, 1094] model=claude-haiku-5-5 -->
+# Elite Black Crystal Hammer
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].source_tags (not carried into the answer)", "issue": "The store row carries source_tags [L1, L2, L4, R2, T633, R1], the same tags as the other category-207 rows. The answer does not mention them or say what they mean. They are not evidence of a vendor or of a Brawler category, so this is a gap in explanation, not a wrong claim.", "fix": "State in the answer that the source_tags are shared across category 207 rows and are not interpreted, citing repo:prototype/osfr-tools/data/content/stores.json:2072."}]}

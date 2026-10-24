@@ -1,0 +1,5783 @@
+[
+ {
+  "name": "A Beautiful Friendship",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:A_Beautiful_Friendship",
+   "rev_id": 23970,
+   "quest2": {
+    "detail summary": "Rizzle is probably the laziest robgoblin in Sunstone Valley, which used to be something a robgoblin could be proud of. Nowadays, with junk in short supply, and scrap master Fizzbang on everyone's back, you can't just sit around drinking sasparilla all day, but Rizzle is certainly going to try. Help him out by finding his stolen sasparilla.",
+    "coin amount": "15"
+   },
+   "questprog": {
+    "previous": "[[Quest:For Rizzle|For Rizzle]]",
+    "next": "[[Quest:Ka-Boom or Not To Boom|Ka-Boom or Not To Boom]]",
+    "quest series": "[[Sunstone_Valley#Whirly's_Scrap_Camp|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must achieve at least one Level 8 or higher Combat Job",
+    "To Start": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.",
+    "Goals": "Rizzle wants you to find his Stolen Sasparilla in Sunstone Valley.\nFind the Stolen Sasparilla\nReturn to Rizzle",
+    "Steps": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"You're new around here, right? Well then I bet you could use a friend that knows how this place works, like me!Now since we're friends, and friends help each other, why don't you help me find my Stolen Sasparilla? You know, since we're friends.\" -Rizzle\nFind the Stolen Sasparilla\nThere are 5 Stolen Sasparilla barrels scattered South-East of Whirly's Scrap Camp.\nSpeak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"Way to go, <player Name>! I was worried I would never see those wonderful barrels of joy again, but you really pulled through.\" -Rizzle",
+    "References": "Rizzle\nRobgoblin\nSasparilla\nStolen Sasparilla\nSunstone Valley\nWhirly's Scrap Camp\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Rizzle",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Rizzle",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "A Bundle of Love",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cudip",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Cudip"
+  ]
+ },
+ {
+  "name": "A Dark Future",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Madam Zelda",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Madam Zelda"
+  ]
+ },
+ {
+  "name": "A Deal with a Dust Devil",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:A_Deal_with_a_Dust_Devil",
+   "rev_id": 25193,
+   "quest2": {
+    "detail summary": "Golmie Greasebeard needs a few key parts to get Dorn Geargrinder's motorcycle running again. He has made a trading arrangement with the Robgoblins of Sunstone Valley.",
+    "first reward": "Skullz Pants",
+    "first reward image name": "Skullzpantsreward.png"
+   },
+   "questprog": {
+    "previous": "[[Quest:Bike Retrieval|Bike Retrieval]]",
+    "next": "[[Quest:Fixing Up a Sweet Ride |Fixing Up a Sweet Ride ]]",
+    "quest series": "[[Sunstone_Valley#Rumble_Ridge|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Bike Retrieval in order to do Quest:A Deal with a Dust Devil",
+    "To Start": "Speak with Golmie Greasebeard located in Rumble Ridge, Sunstone Valley.",
+    "Goals": "Make the junk trade with Whirly Willis to get the last motorcycle parts.\nTalk to Whirly Willis\nDefeat Whirly Willis\nTalk to Whirly Willis\nReturn to Golmie Greasebeard",
+    "Steps": "Speak with Golmie Greasebeard located in Rumble Ridge, Sunstone Valley.\n\"I got my work cut out for me gettin' all of these bikes fixed up in time for Dorn’s challenge with the Skullz. Take these parts to Whirly Willis the Robgoblin out in the wilds. He’s the only supplier the Skullz ain't scared away.\" -Golmie Greasebeard\nSpeak with Whirly Willis located in Whirly's Scrap Camp in Sunstone Valley.\n\"Ooh nice, so much precious junk… I just can’t… I must have it!\" -Whirly Willis\nDefeat Whirly Willis, Health Potions recommended, watch out for Robgoblin Mechanics!\n\"I'm SORRY, please stop!\" -Whirly Willis\nSpeak with Whirly Willis located in Whirly's Scrap Camp in Sunstone Valley.\n\"Sorry <\"Player Name\">, just make the world stop spinning. Alright, I’ll make the trade as originally planned. It’s just we Robgoblins have been starving for junk ever since we were cut off from Glimmer Deep.\" -Whirly Willis\nSpeak with Golmie Greasebeard located in Rumble Ridge, Sunstone Valley.\n\"So them dirty Robgoblins tried to pull a fast one on us. Good job puttin' them in their place. With these parts I’ll be able to get our bikes up and runnin' again.\" -Golmie Greasebeard",
+    "References": "Dorn Geargrinder\nGlimmer Dreep\nGolmie Greasebeard\nRobgoblins\nSkullz\nSunstone Valley\nWhirly Willis\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Golmie Greasebeard",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Golmie Greasebeard",
+   "Sunstone Valley",
+   "Whirly Willis"
+  ]
+ },
+ {
+  "name": "A Formal Report",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Halloween Harry",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Halloween Harry",
+   "General Glowlight"
+  ]
+ },
+ {
+  "name": "A Luau",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:A_Luau",
+   "rev_id": 31362,
+   "quest2": {
+    "detail summary": "Tiger the Party Animal wants you to celebrate in style. Wear an outfit suitable for a luau and he'll give you a party favor.",
+    "first reward": "Luau Party Favor",
+    "first reward image name": "petpartyfavoricon.png"
+   },
+   "questprog": null,
+   "sections": {
+    "Requirements": "Quest:A Luau is only available during Luau Community Events.",
+    "To Start": "Speak with Tiger the Party Animal who spawns during Luau Community Events.",
+    "Goals": "Equip a luau outfit and speak to Tiger the Party Animal during a Luau Party.\nEquip a luau outfit\nSpeak to Tiger",
+    "Steps": "Speak with Tiger the Party Animal who spawns during Luau Community Events.\n\"Dude, isn't this party chill?If you put on a luau outfit, I'll give you a special party favor. What do you say?\" -Tiger the Party Animal\nEquip a luau outfit\nEquip a luau themed item\nSpeak with Tiger the Party Animal who spawns during Luau Community Events.\n\"Stellar luau outfit!Dude, take a party favor.\" -Tiger the Party Animal\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Tiger the Party Animal",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Tiger the Party Animal",
+   "Tiger the Party Animal"
+  ]
+ },
+ {
+  "name": "A Piece of Cake",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:A_Piece_of_Cake",
+   "rev_id": 28956,
+   "quest2": {
+    "detail summary": "Camellia, the royal party planner, wants you to grab a slice of today's daily baked good.",
+    "first reward": "Mystery Gift"
+   },
+   "questprog": {
+    "previous": "",
+    "next": "[[Quest:Undelivered Confections |Undelivered Confections ]]",
+    "quest series": "[[Birthday Bash#Quests|Birthday Bash Quest Series]]"
+   },
+   "sections": {
+    "Notes": "This quest is repeatable daily.",
+    "Requirements": "This quest is only available during the annual Birthday Bash event.",
+    "To Start": "Speak with Camellia located in Sanctuary.",
+    "Goals": "Camellia, the royal party planner, wants you to grab a cupcake.\nGrab a cupcake\nReturn to Camellia",
+    "Steps": "Speak with Camellia located in Sanctuary.\n\"Hey, <Player Name>! Did you grab a cupcake today?No? Well, you should!\" -Camellia\nGrab a cupcake\nSelect the floating tray of cupcakes near Camellia.\nSpeak with Camellia located in Sanctuary.\n\"Oh, you ate the last cupcake? I hope it tasted delicious!It looks like we'll need to pick up another order of cakes.\" -Camellia",
+    "References": "Camellia\nCupcake\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Camellia",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Birthday Bash",
+   "Camellia"
+  ]
+ },
+ {
+  "name": "A Profitable Package",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "General Glowlight"
+  ]
+ },
+ {
+  "name": "A Sweetwater Climb",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:A_Sweetwater_Climb",
+   "rev_id": 46083,
+   "quest2": {
+    "detail summary": "Prove your worth in order to participate in the Chug-a-Mug Challenge in [[Wugachug]].",
+    "coin amount": "88",
+    "first reward": "[[Brawler's Power Shard of Durability II]]",
+    "first reward image name": "Brawlerdurability2icon.png"
+   },
+   "questprog": {
+    "next": "[[Quest:Chug-a-Mug Challenge|Chug-a-Mug Challenge]]",
+    "previous": "[[Quest:A Brewing Darkness|A Brewing Darkness]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:A Brewing Darkness in order to do Quest:A Sweetwater Climb.",
+    "To Start": "Speak with Chugzy located in near the Wugachug Warpstone.",
+    "Goals": "Do what needs to be done in order to participate in the Chug-a-Mug Challenge.\nTalk to Guard Thoomlug\nComplete Sweetwater Climb\nReturn to Guard Thoomlug",
+    "Steps": "Speak with Chugzy located in near the Wugachug Warpstone.\n\nSpeak with Guard Thoomlug found in front of the Party Tent in Wugachug.\n\nComplete the Sweetwater Climb dungeon that can be found behind the Wugachug Brewery.\nSpeak with Guard Thoomlug found in front of the Party Tent in Wugachug.\n\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": []
+ },
+ {
+  "name": "A Very Merry Welcome",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Mayor McFairy"
+  ]
+ },
+ {
+  "name": "Advertising to the Tourists",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Emuzz"
+  ]
+ },
+ {
+  "name": "Aiding our Allies",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Aiding_our_Allies",
+   "rev_id": 24780,
+   "quest2": {
+    "detail summary": "Arch Druid Camellia in Shrouded Glade has asked you to aid the dwarves of Sunstone Valley.",
+    "first reward": "[[Rise of the Skullz]]",
+    "first reward image name": "Riseofskullzicon.jpg"
+   },
+   "questprog": {
+    "next": "[[Quest:Sobering Homecoming|Sobering Homecoming]]",
+    "quest series": "[[Sunstone_Valley#Shrouded_Glade|Sunstone Valley Quest Series]]",
+    "previous": ""
+   },
+   "sections": {
+    "To Start": "Speak with Arch Druid Camellia located in front of the Druid Academy in Shrouded Glade.",
+    "Goals": "Arch Druid Camellia in Shrouded Glade has asked you to aid the dwarves of Sunstone Valley.\nTalk to Headmaster Merk",
+    "Steps": "Speak with Arch Druid Camellia located in front of the Druid Academy in Shrouded Glade.\n\"Gus Geargrinder sacrificed everything to save us from the Gloam. Now we have a chance to repay him.A group called the Skullz has taken over Sunstone Valley, putting Gus' friends and family in great danger!If you want to help, find and speak with Headmaster Merk.\" -Arch Druid Camellia\nSpeak with Headmaster Merk located in Rumble Ridge in Sunstone Valley.\n\"Arch Druid Camellia sent you?That's great! The situation here is bad and we can definitely use your help.\" -Headmaster Merk",
+    "References": "Arch Druid Camellia\nGloam\nGus Geargrinder\nHeadmaster Merk\nSkullz\nSunstone Valley\nShrouded Glade\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Arch Druid Camellia",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Gus Geargrinder",
+   "Sunstone Valley",
+   "Arch Druid Camellia"
+  ]
+ },
+ {
+  "name": "All Cakensteins Must Die",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Cakenstein"
+  ]
+ },
+ {
+  "name": "Allergy Season Already?",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Pony Vale"
+  ]
+ },
+ {
+  "name": "Ambush Recovery",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Noggle Cogloose",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Noggle Cogloose",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "An Unexpected Gift",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "Another Day, Another Coin",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lucky Chance McXander",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lucky Chance McXander"
+  ]
+ },
+ {
+  "name": "Archer: Oath of Honor",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lugabow",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lugabow"
+  ]
+ },
+ {
+  "name": "Archer: Path of the Archer",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lugabow",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lugabow"
+  ]
+ },
+ {
+  "name": "Archer: Taking Aim",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lugabow",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lugabow"
+  ]
+ },
+ {
+  "name": "Archer: Test of Agility",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lugabow",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lugabow"
+  ]
+ },
+ {
+  "name": "At the End of the Rainbow",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Wugunbump",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor McFairy",
+   "Wugunbump"
+  ]
+ },
+ {
+  "name": "Backs Against the Wall",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Captain Sunspark",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Captain Sunspark"
+  ]
+ },
+ {
+  "name": "Bad Reputation",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Bad_Reputation",
+   "rev_id": 24216,
+   "quest2": {
+    "detail summary": "Sirdo in Blackspore wants you to steal some supplies from a couple of nearby camps to help him regain his thuggish reputation.",
+    "coin amount": "2"
+   },
+   "questprog": {
+    "previous": "",
+    "next": "[[Quest:The Last Laugh|The Last Laugh]]"
+   },
+   "sections": {
+    "To Start": "Speak with Sirdo \"Squirrel Chaser\" located South-East of the Blackspore Warpstone.",
+    "Goals": "Steal some supplies from the nearby camps. Don't feel bad. I need them more than they do.\nSteal some supplies\nSteal some supplies\nReturn to Sirdo",
+    "Steps": "Speak with Sirdo \"Squirrel Chaser\" located South-East of the Blackspore Warpstone.\n\"Don't laugh at my name! I used to be the best thief around until I botched my last mission and earned this ridiculous nickname.I need to rebuild my reputation as a ruthless thug. But let's start small... Help me swipe some supplies from the nearby camps, and I promise you a nice reward when we're done.\" -Sirdo \"Squirrel Chaser\"\nSteal some supplies\nSteal some supplies from Mucklewhump's camp.\nSteal some supplies\nSteal some supplies from Sal Monella's camp.\nSpeak with Sirdo \"Squirrel Chaser\" located South-East of the Blackspore Warpstone.\n\"You swiped the supplies? Fantastic! We're one step closer to proving my worth once again!Maybe with a little more work, people will finally forget that I royally screwed up my last mission.\"-Sirdo \"Squirrel Chaser\"",
+    "References": "Blackspore\nMucklewhump\nSal Monella\nSirdo \"Squirrel Chaser\"\nSupplies\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Sirdo",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sirdo",
+   "Sirdo"
+  ]
+ },
+ {
+  "name": "Bag Snatchers",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Halloween Harry",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Halloween Harry"
+  ]
+ },
+ {
+  "name": "Beach Ball Wear",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Cole"
+  ]
+ },
+ {
+  "name": "Being Prepared (Team Vampire)",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Madam Zelda",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Madam Zelda"
+  ]
+ },
+ {
+  "name": "Being Prepared (Team Werewolf)",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Madam Zelda",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Madam Zelda"
+  ]
+ },
+ {
+  "name": "Better Threads",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Golmie Greasebeard",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Golmie Greasebeard",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Better Treads",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Golmie Greasebeard",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Golmie Greasebeard",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Big J Says Thanks",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Bigfoot's Endangered",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Jacen",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Counselor Jacen",
+   "Robbie"
+  ]
+ },
+ {
+  "name": "Bigfooted Friend",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Robbie",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Chatty",
+   "Robbie"
+  ]
+ },
+ {
+  "name": "Bike Retrieval",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Bike_Retrieval",
+   "rev_id": 48970,
+   "quest2": {
+    "detail summary": "The Freewheelers are back together again and Dorn is almost ready to challenge the Skullz. Unfortunately while Dorn was away, the Skullz stole the Freewheelers' bikes and threw them off the ridge into Sandscale territory.",
+    "coin amount": "50"
+   },
+   "questprog": {
+    "previous": "[[Quest:Sobering Homecoming|Sobering Homecoming]]",
+    "next": "[[Quest:A Deal with a Dust Devil|A Deal with a Dust Devil]]",
+    "quest series": "[[Sunstone_Valley#Rumble_Ridge|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Sobering Homecoming in order to do Quest:Bike Retrieval",
+    "To Start": "Speak with Dorn Geargrinder located in Rumble Ridge, Sunstone Valley.",
+    "Goals": "Find the missing Freewheeler bikes in Sandscale territory.\nFind Freewheeler Bikes - /6\nReturn to Dorn Geargrinder\nTalk to Golmie Greasebeard",
+    "Steps": "Speak with Dorn Geargrinder located in Rumble Ridge, Sunstone Valley.\n\"What good's a bunch of Dwarven Bikers without bikes? While I was gone, those darned Skullz pitched our bikes over the ridge into Sandscale territory.If you can find our bikes we’ll be able to serve up some humble pie to the Skullz.\" -Dorn Geargrinder\nFind Freewheeler Bikes - /6\nFreewheeler Bike pieces are scattered all around Sandscale Territory\nSpeak with Dorn Geargrinder located in Rumble Ridge, Sunstone Valley.\n\"It's good to see my old ride again. It’s in bad shape, but I’m sure Golmie Greasebeard can fix it up.\" -Dorn Geargrinder\n\"Golmie can fix anything.\" -Player response\nSpeak with Golmie Greasebeard located in Rumble Ridge, Sunstone Valley.\n\"Woo wee, these hogs've seen better days. Well, a busy dwarf's a happy dwarf.\" -Golmie Greasebeard\n\"Thanks!\" -Player response",
+    "References": "Dorn Geargrinder\nDwarves\nFreewheelers' Bikes\nFreewheelers\nGolmie Greasebeard\nSandscale Territory\nSkullz\nSunstone Valley\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Dorn Geargrinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Golmie Greasebeard",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Birthday Cake Bake-off",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Camellia",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Bordon Cloo",
+   "Camellia",
+   "Diggy",
+   "Lucca De'Flor",
+   "Sal Monella"
+  ]
+ },
+ {
+  "name": "Bixie-B-Gone",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Necronomicus",
+   "Necronomicus"
+  ]
+ },
+ {
+  "name": "Blacksmith: Breaking a Sweat",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Red Stonehammer",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Red Stonehammer",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Blacksmith:Can We Build It?",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Blacksmith:Crackin' Skullz",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Skullz Brawler",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Blacksmith:Fom Scraps to Iron",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Blacksmith: Grunt Work",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Red Stonehammer",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Red Stonehammer",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Blacksmith:Scrap Surfin'",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Block Loblog's Bog Log",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Vrok Gravelfist",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Iliya",
+   "Vrok Gravelfist"
+  ]
+ },
+ {
+  "name": "Brawler: Achieve Level 10",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Brawler: An Honest Mistake",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Brawler: Confronting the Crook",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Brawler: Curious Key",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Brawler: Reputation Regained",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Brawler: The Growler Report",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Tevin"
+  ]
+ },
+ {
+  "name": "Brawler: Way of the Brawler",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Tevin",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Tevin"
+  ]
+ },
+ {
+  "name": "Breaking a Few Eggs",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Blackspore Swamp"
+  ]
+ },
+ {
+  "name": "Breaking Some Bones",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Oberyn Duskshine",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Bucket O'Fish",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Diggy",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Diggy"
+  ]
+ },
+ {
+  "name": "Busting the Fourth Wall",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor McFairy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor McFairy"
+  ]
+ },
+ {
+  "name": "Bye-Bye Supplies!",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "Cakey Clue",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor McFairy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Cakenstein",
+   "Mayor McFairy",
+   "Diggy",
+   "Lucca De'Flor"
+  ]
+ },
+ {
+  "name": "Cakey Madness",
+  "page": null,
+  "givers": [
+   {
+    "npc": "General Glowlight",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Cakenstein",
+   "General Glowlight"
+  ]
+ },
+ {
+  "name": "Camp Troubles",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Edmond",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Counselor Edmond",
+   "Robbie"
+  ]
+ },
+ {
+  "name": "Candy Gram",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Halloween Harry",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Halloween Harry"
+  ]
+ },
+ {
+  "name": "Card Duelist: 52 Card Pick-up",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sam Potts",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sam Potts"
+  ]
+ },
+ {
+  "name": "Card Duelist: A Guide to The Baron",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: An Old Friend",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Bry"
+  ]
+ },
+ {
+  "name": "Card Duelist: Baron von Darkcheat",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Baron von Darkcheat (character)",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: Battle Bry",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Bry",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Bry"
+  ]
+ },
+ {
+  "name": "Card Duelist: Cardie 4 Life",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sam Potts",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sam Potts"
+  ]
+ },
+ {
+  "name": "Card Duelist: Cardie Party",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Bry",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Bry"
+  ]
+ },
+ {
+  "name": "Card Duelist: Confronting The Baron",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: Dark Deal",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: Defenders Duty",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Card Duelist: Enter the Champion",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sam Potts"
+  ]
+ },
+ {
+  "name": "Card Duelist: Finder of Secrets",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: Garrisoning Garrison",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Bry",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Bry"
+  ]
+ },
+ {
+  "name": "Card Duelist: Heart of Darkness",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Madam Zelda",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Madam Zelda",
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: In Search of The Baron",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Baron von Darkcheat (character)",
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Card Duelist: Master Explorer",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: Meet the Boss",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Madam Zelda",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Madam Zelda",
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: Pick a Card, any Card",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sam Potts"
+  ]
+ },
+ {
+  "name": "Card Duelist: Practice Makes Perfect",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sam Potts",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sam Potts"
+  ]
+ },
+ {
+  "name": "Card Duelist: Return from the Rumbledome",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Madam Zelda"
+  ]
+ },
+ {
+  "name": "Card Duelist: Sam I Am",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sam Potts"
+  ]
+ },
+ {
+  "name": "Card Duelist: Slow and Steady",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Madam Zelda",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Madam Zelda",
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: Snowhill is Melting",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Card Duelist: So Over Archery",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sam Potts",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sam Potts"
+  ]
+ },
+ {
+  "name": "Card Duelist: Stinky Feet",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Madam Zelda",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Madam Zelda",
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: Suspicious Sneak",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: The Realmkeepers Are Missing!",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Madam Zelda",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Madam Zelda"
+  ]
+ },
+ {
+  "name": "Card Duelist: To Catch a Sneak",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Card Duelist: Zelda's Warning",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Madam Zelda",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Madam Zelda",
+   "Baron von Darkcheat (character)"
+  ]
+ },
+ {
+  "name": "Certified Treasure Hunter",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Robbie",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Robbie"
+  ]
+ },
+ {
+  "name": "Change of Heart",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Gloompetal",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Gloompetal"
+  ]
+ },
+ {
+  "name": "Chapter 1: Bearer of Bad News",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Vittorio",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Darkthorne",
+   "Queen Valerian",
+   "Geoffrey",
+   "Vittorio"
+  ]
+ },
+ {
+  "name": "Chapter 1: Failure is Not an Option",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Geoffrey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Darkthorne",
+   "Queen Valerian",
+   "Geoffrey",
+   "Captain Chugug"
+  ]
+ },
+ {
+  "name": "Chapter 1: Find the Caravan!",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Geoffrey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Darkthorne",
+   "Geoffrey",
+   "Vittorio"
+  ]
+ },
+ {
+  "name": "Chapter 1: Good Help is Hard to Find",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Geoffrey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Geoffrey",
+   "General Glowlight"
+  ]
+ },
+ {
+  "name": "Chapter 1: Haunted by the Past",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Eggert the Mad"
+  ]
+ },
+ {
+  "name": "Chapter 1: Helping the Healers",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Geoffrey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Gordon",
+   "Geoffrey",
+   "Ayani"
+  ]
+ },
+ {
+  "name": "Chapter 1: It's Business Time",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Darkthorne",
+   "Grumpy Amaranthus"
+  ]
+ },
+ {
+  "name": "Chapter 1: One Last Favor",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Darkthorne",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Darkthorne",
+   "Eggert the Mad"
+  ]
+ },
+ {
+  "name": "Chapter 1: Pampered Pets",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Darkthorne"
+  ]
+ },
+ {
+  "name": "Chapter 1: Report to Captain Chugug",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Darkthorne",
+   "Captain Chugug"
+  ]
+ },
+ {
+  "name": "Chapter 1: Rumors of Briarwood",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Geoffrey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Geoffrey"
+  ]
+ },
+ {
+  "name": "Chapter 1: Shrouded History",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Geoffrey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Darkthorne",
+   "Geoffrey"
+  ]
+ },
+ {
+  "name": "Chapter 1: The Alchemy of Betrayal",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Eggert the Mad",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Darkthorne",
+   "Queen Valerian",
+   "Geoffrey",
+   "Eggert the Mad",
+   "Vittorio"
+  ]
+ },
+ {
+  "name": "Chapter 1: The Armor Shipment",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Vittorio",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Vittorio"
+  ]
+ },
+ {
+  "name": "Chapter 1: The Empty Box",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Captain Chugug",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Geoffrey",
+   "Vittorio",
+   "Captain Chugug"
+  ]
+ },
+ {
+  "name": "Chapter 1: The Forgotten Princess",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Geoffrey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Geoffrey",
+   "Ayani"
+  ]
+ },
+ {
+  "name": "Chapter 1: The Missing Sisters",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Geoffrey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Geoffrey"
+  ]
+ },
+ {
+  "name": "Chapter 1: The Queen's Last Hope",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Darkthorne",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Queen Valerian",
+   "Geoffrey"
+  ]
+ },
+ {
+  "name": "Chapter 1: The Small Wooden Box",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Vittorio",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Chapter 1: The Weapon Shipment",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Vittorio",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Chapter 1: There's Fungus Among Us!",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Darkthorne"
+  ]
+ },
+ {
+  "name": "Chapter 1: Thugamug's Thievery",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Geoffrey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Geoffrey"
+  ]
+ },
+ {
+  "name": "Chef: Achieve Level 15",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lucca De'Flor",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lucca De'Flor"
+  ]
+ },
+ {
+  "name": "Chef: Cloo's Cooking Academy",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Bordon Cloo"
+  ]
+ },
+ {
+  "name": "Chef: Cooking with Cloo",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Bordon Cloo",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Bordon Cloo"
+  ]
+ },
+ {
+  "name": "Chef: Craving Something Tasty",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Seaspray",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Diggy"
+  ]
+ },
+ {
+  "name": "Chef: Crazy Craving",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Honey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Honey"
+  ]
+ },
+ {
+  "name": "Chef: Double Dog Dare",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lucca De'Flor",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lucca De'Flor"
+  ]
+ },
+ {
+  "name": "Chef: Family Style",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Lucca De'Flor"
+  ]
+ },
+ {
+  "name": "Chef: Glerga",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lucca De'Flor",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lucca De'Flor"
+  ]
+ },
+ {
+  "name": "Chef: Learning to Crave the Flave",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Bordon Cloo",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Bordon Cloo"
+  ]
+ },
+ {
+  "name": "Chef: Meet the Reputable Bordon Cloo",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Honey",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Bordon Cloo",
+   "Honey"
+  ]
+ },
+ {
+  "name": "Chef: Queensfields",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Honey"
+  ]
+ },
+ {
+  "name": "Chef: Reach Level 5",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Bordon Cloo",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Bordon Cloo"
+  ]
+ },
+ {
+  "name": "Chef: The Food Reviewer",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Lucca De'Flor"
+  ]
+ },
+ {
+  "name": "Choosing Sides",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "HeroRealms Month"
+  ]
+ },
+ {
+  "name": "Cleansing Pearls",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Crabcake",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Crabcake"
+  ]
+ },
+ {
+  "name": "Cloudy Days",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Rio Cloudjumps",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Rio Cloudjumps",
+   "Rio Cloudjumps"
+  ]
+ },
+ {
+  "name": "Coin Clean-Up",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Rio Cloudjumps",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Rio Cloudjumps"
+  ]
+ },
+ {
+  "name": "Combating the Cray",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Donovan Shadeweaver",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Donovan Shadeweaver"
+  ]
+ },
+ {
+  "name": "Committed to the Plan",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Noggle Cogloose",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Noggle Cogloose",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Confronting Bigfoot",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Edmond",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Chatty",
+   "Counselor Edmond",
+   "Robbie"
+  ]
+ },
+ {
+  "name": "Consumed by the Past",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Iliya",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Iliya"
+  ]
+ },
+ {
+  "name": "Contract: Fending off the Floren",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ree Peatpants",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Ree Peatpants"
+  ]
+ },
+ {
+  "name": "Contract: Sharp Claws and Sharper Swords",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ree Peatpants",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Ree Peatpants"
+  ]
+ },
+ {
+  "name": "Contract: Spirits and Spider Trainers",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ree Peatpants",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Ree Peatpants"
+  ]
+ },
+ {
+  "name": "Contract: Trouble in Snowhill",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ree Peatpants",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Ree Peatpants"
+  ]
+ },
+ {
+  "name": "Craving Something Tasty",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Ocean Treasures Cafe"
+  ]
+ },
+ {
+  "name": "Cut the Vines",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Gorg",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Gorg"
+  ]
+ },
+ {
+  "name": "Darci's Deficiencies",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Donovan Shadeweaver",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Donovan Shadeweaver",
+   "Darci Flitterstride"
+  ]
+ },
+ {
+  "name": "Dead Ends",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Iliya",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Iliya",
+   "Rumor Duskveil"
+  ]
+ },
+ {
+  "name": "Defeat the Kraken",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Kai",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Kai",
+   "Nekark"
+  ]
+ },
+ {
+  "name": "Defensive Strategy",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Tyra",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Counselor Tyra"
+  ]
+ },
+ {
+  "name": "Delicious Goo'd Candy",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Halloween Harry",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Halloween Harry"
+  ]
+ },
+ {
+  "name": "Dirty Trails",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Queen Valerian"
+  ]
+ },
+ {
+  "name": "Distracting Druids",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Pony Vale"
+  ]
+ },
+ {
+  "name": "Doctor's Note",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Doctor Gordon"
+  ]
+ },
+ {
+  "name": "Downing Cakenstein",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Cakenstein"
+  ]
+ },
+ {
+  "name": "Druid in the Mist",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Tald Daybreaker",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Dubawug's Sweetheart",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Cudip"
+  ]
+ },
+ {
+  "name": "Dwarven Expertise",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Iliya",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Iliya",
+   "Vrok Gravelfist"
+  ]
+ },
+ {
+  "name": "Easy Money",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Donovan Shadeweaver",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Donovan Shadeweaver",
+   "Rumor Duskveil",
+   "Ned",
+   "Tolliver"
+  ]
+ },
+ {
+  "name": "Enter The Rumbledome",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Dorn Geargrinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Wheelie Pete's Roadhouse",
+   "Skullz Thug",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Excuses, Excuses!",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Bruce"
+  ]
+ },
+ {
+  "name": "Farewell Feast",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Diggy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Diggy"
+  ]
+ },
+ {
+  "name": "Favors for Favors",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Donovan Shadeweaver",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Donovan Shadeweaver"
+  ]
+ },
+ {
+  "name": "Feminine Touch",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Emuzz"
+  ]
+ },
+ {
+  "name": "Fighting off the Pack",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Fighting_off_the_Pack",
+   "rev_id": 28955,
+   "quest2": {
+    "detail summary": "With a new weapon in hand, it is time to learn how to use it to become a hero and protector of the Realms.",
+    "coin amount": "18"
+   },
+   "questprog": {
+    "next": "[[Quest:Eviction Notice|Eviction Notice]]",
+    "previous": "[[Quest:Your First Weapon|Your First Weapon]]",
+    "quest series": "Farnum's Farm"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Your First Weapon in order to do Quest:Fighting off the Pack",
+    "To Start": "Speak with Cleetus Farnum that can be found on Farnum's Farm located in Southern Wilds.",
+    "Goals": "Learn how to use your weapon by fighting Hooligan Wolves.\nSwitch to the Brawler job\nKnock out Hooligan Wolves - /5\nReturn to Cleetus Farnum",
+    "Steps": "Speak with Cleetus Farnum that can be found on Farnum's Farm located in Southern Wilds.\n\"Unfortunately now is one of those times to where you’ll need to use that hammer. Use it to defeat 5 Hooligan Wolves. Be sure to switch to your Brawler job. Return to me when you are finished.\" -Cleetus Farnum\nSwitch to the Brawler Job.\nKnock out Hooligan Wolves - /5\nKnock out 5 Hooligan Wolves nearby in the Wilds.\nSpeak with Cleetus Farnum that can be found on Farnum's Farm located in Southern Wilds.\n\"We should be having less wolf attacks after the trashing that you gave those Hooligan Wolves.\" -Cleetus Farnum",
+    "References": "Brawler\nHooligan Wolves\nCleetus Farnum\nWolf\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": []
+ },
+ {
+  "name": "Fixing Up a Sweet Ride",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Fixing_Up_a_Sweet_Ride",
+   "rev_id": 25190,
+   "quest2": {
+    "detail summary": "Golmie Greasebeard now has the parts he needs to fix Dorn's bike, but the Skullz don't want to risk losing the race and they plan to steal the parts before Golmie can finish Dorn's Bike.",
+    "first reward": "",
+    "first reward image name": "",
+    "coin amount": "30"
+   },
+   "questprog": {
+    "previous": "[[Quest:A Deal with a Dust Devil|A Deal with a Dust Devil]]",
+    "next": "[[Quest:Race for Dominance|Race for Dominance]]",
+    "quest series": "[[Sunstone_Valley#Rumble_Ridge|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:A Deal with a Dust Devil in order to do Quest:Fixing Up a Sweet Ride",
+    "To Start": "Speak with Golmie Greasebeard located in Rumble Ridge, Sunstone Valley.",
+    "Goals": "Watch Golmie's back while he finishes the repairs on Dorn's motorcycle.\nDefend Golmie Greasebeard\nTalk to Golmie Greasebeard\nTalk to Dorn Geargrinder",
+    "Steps": "Speak with Golmie Greasebeard located in Rumble Ridge, Sunstone Valley.\n\"I got most of the repairs done, but it’s hard to do with all of the Skullz gettin' in the way. They been tryin' their best to keep Dorn off the track. It’s like they know they’ll lose in a race against a real biker.\" -Golmie Greasebeard\nDefend Golmie Greasebeard from 3 waves of Skullz Thug.\nSpeak with Golmie Greasebeard located in Rumble Ridge, Sunstone Valley.\n\"Thanks for getting' my back. Go let Dorn know that his bike's ready whenever he is.\" -Golmie Greasebeard\nSpeak with Dorn Geargrinder located in Rumble Ridge, Sunstone Valley.\n\"It'll be good to get back on the old hog again. Thanks, <\"Player Name\">.\" -Dorn Geargrinder",
+    "References": "Dorn Geargrinder\nDorn's Bike\nGolmie Greasebeard\nSkullz\nSunstone Valley\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Golmie Greasebeard",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Skullz Thug",
+   "Golmie Greasebeard",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Flickering Flames",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Raeya Alderspark",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Follow Your Nose",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Eggert the Mad"
+  ]
+ },
+ {
+  "name": "For Rizzle",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:For_Rizzle",
+   "rev_id": 24234,
+   "quest2": {
+    "detail summary": "Robgoblins aren't really known for their interest in anything that isn't junk, but Wheelie Pete happens to have a robgoblin regular that absolutely loves his Sunstone Sasparilla. Do Pete one last favor by delivering a barrel to Rizzle in the robgoblin scrap yard.",
+    "coin amount": "5"
+   },
+   "questprog": {
+    "next": "[[Quest:A Beautiful Friendship|A Beautiful Friendship]]",
+    "quest series": "[[Sunstone_Valley#Wheelie_Pete's_Roadhouse|Sunstone Valley Quest Series]]",
+    "previous": "[[Quest:The Secret Ingredient Is...|The Secret Ingredient Is...]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:The Secret Ingredient Is... in order to do Quest:For Rizzle",
+    "To Start": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.",
+    "Goals": "Wheelie Pete has asked you to deliver a barrel of sasparilla to Rizzle in Sunstone Valley.\nDeliver the sasparilla to Rizzle",
+    "Steps": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.\n\"Robgoblins typically only like junk, but I happen to have a robgoblin customer that loves my sasparilla.Could you do me one last favor and take a barrel to Rizzle? I would do it myself, but all that brewing really did a number on my back.\" -Wheelie Pete\nSpeak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"Whoa! Is that a barrel of Wheelie Pete’s Sunstone Sasparilla? Well give it here!*glug, glug*Ah, that hit the spot.?\" -Rizzle",
+    "References": "Rizzle\nRobgoblin\nSunstone Sasparilla\nSunstone Valley\nWheelie Pete\nWhirly's Scrap Camp\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Wheelie Pete",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Wheelie Pete",
+   "Rizzle",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Forcing the Food",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Diggy"
+  ]
+ },
+ {
+  "name": "Forest Friends",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Kaela",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Counselor Kaela"
+  ]
+ },
+ {
+  "name": "Forgivable Matter",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Camellia"
+  ]
+ },
+ {
+  "name": "Forgotten Lunchbox",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Forgotten_Lunchbox",
+   "rev_id": 23253,
+   "quest2": null,
+   "questprog": null,
+   "sections": {
+    "To Start": "Speak with Chugilda located in Bristlewood.",
+    "Goals": "Chugilda has asked you to take Leddiwug and his men in the Trail of Betrayal their lunchboxes. \nRestock the Watchtower Provisions!",
+    "Steps": "Speak with Chugilda located in Bristlewood.\nMy husband, Leddiwug, and his men forgot their lunches. Help rest​ock the provisions at each of the four watchtowers in the Trail of Betrayal. When you come back, my raven beak soup should be ready!\n2.  Restock the watchtower provisions. \n-/4\n3.  Return to Chugilda. \nOh, back so soon? The raven beak soup is not done yet, so you will have to do without. But take this for helping out.\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": []
+ },
+ {
+  "name": "Free for the Taking",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Blackspore Swamp"
+  ]
+ },
+ {
+  "name": "Fresh Ingredients",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sal Monella",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sal Monella"
+  ]
+ },
+ {
+  "name": "Friend or Foe:The Monster",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Friend or Foe:The Savage",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Friend_or_Foe:The_Savage",
+   "rev_id": 25437,
+   "quest2": {
+    "detail summary": "The Skullz are too strong and too numerous for the Freewheelers to challenge alone. Headmaster Merk has suggested that you try to enlist the aid of the other inhabitants of Sunstone Valley. Start by talking to the Sandscale Leader.",
+    "first reward": "[[Mini-Manguana]]",
+    "first reward image name": "Minimanguanaicon.png"
+   },
+   "questprog": {
+    "next": "[[Quest:Friend or Foe:The Tradesgoblin|Friend or Foe:The Tradesgoblin]]",
+    "previous": "[[Quest:The Search for Golmie Greasebeard|The Search for Golmie Greasebeard]]",
+    "quest series": "[[Sunstone_Valley#Rumble_Ridge|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:The Search for Golmie Greasebeard in order to do Quest:Friend or Foe:The Savage",
+    "To Start": "Speak with Dorn Geargrinder located in Rumble Ridge, Sunstone Valley.",
+    "Goals": "Try to convince the Sandscale to aid the Freewheelers.\nTalk to Headmaster Merk\nTalk to Peace-guana Joe\nDefeat Skullz in Sandscale Territory - /10\nReturn to Peace-guana Joe\nReturn to Headmaster Merk",
+    "Steps": "Speak with Dorn Geargrinder located in Rumble Ridge, Sunstone Valley.\n\"There're too many Skullz for us to face in a straight fight. It also doesn’t help that they're using Gloam artifacts.If we’re going to save Golmie we’ll need one crazy plan. Fortunately Headmaster Merk is one of those thinking types, I’m sure he’ll have a few useful ideas.\" -Dorn Geargrinder\nSpeak with Headmaster Merk located in Rumble Ridge, Sunstone Valley.\n\"Dorn shows his wisdom as a leader by not rushing in blindly to save his friend.From the little time I have spent in Rumble Ridge, one thing is apparent... no one likes the Skullz. I wonder if we could get the Sandscale Manguanas to help out.\" -Headmaster Merk\nSpeak with Peace-guana Joe located in Sandscale Territory in Sunstone Valley.\n\"Those Skullz are a major bummer, man. They've like totally harshed the balance of nature.Put some of the feng shui back into the Valley by getting rid of some of those Skullz and we'll like totally help you out, man. Peace!\" -Peace-guana Joe\nDefeat Skullz Thugs - /10\nThe Skullz Thugs are located all around the Mystical Barrier in Sunstone Valley.\nSpeak with Peace-guana Joe located in Sandscale Territory in Sunstone Valley.\n\"Groovy! Those Skullz are like totally bummed now, thanks to you. We'll for sure help you get your friend back, man.\" -Peace-guana Joe\nSpeak with Headmaster Merk located in Rumble Ridge, Sunstone Valley.\n\"Things must be worse than I imagined if you were able to sway the Manguanas to our cause. Good job! Their help will be invaluable.-Headmaster Merk",
+    "References": "Dorn Geargrinder\nHeadmaster Merk\nManguana\nPeace-guana Joe\nSkullz\nSunstone Valley\nSkullz Thug\nGolmie Greasebeard\nSandscale\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Dorn Geargrinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Skullz Thug",
+   "Peace-guana Joe",
+   "Golmie Greasebeard",
+   "Sunstone Valley",
+   "Pet Pals"
+  ]
+ },
+ {
+  "name": "Friend or Foe:The Tradesgoblin",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Gathering Evidence",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Pony Vale"
+  ]
+ },
+ {
+  "name": "Ghosts of the Past",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Kai",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Kai",
+   "Gloamling"
+  ]
+ },
+ {
+  "name": "Glide Training: Basic Training",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Glide_Training:_Basic_Training",
+   "rev_id": 27858,
+   "quest2": {
+    "detail summary": "Troy Ridewrangler in Seaside has asked me to use a launch pad to launch myself and my untrained glide-trainable ride through a fiery hoop in Merry Vale.",
+    "first reward": "[[Proof of Training - Part 2 of 5|Proof of Training<br>- Part 2 of 5]]",
+    "first reward image name": "Ticketquestreward.png"
+   },
+   "questprog": {
+    "previous": "[[Quest:Glide Training: Getting Started|Glide Training: Getting Started]]",
+    "quest series": "[[Glide Training#Quests|Glide Training Quest Series]]",
+    "next": "[[Quest:Glide Training: Confidence Is Key|Glide Training: Confidence Is Key]]"
+   },
+   "sections": {
+    "Requirements": "Player must own a usable glide-trainable ride along with waiting at least one day after completion of Quest:Glide Training: Getting Started in order to do Quest:Glide Training: Basic Training",
+    "To Start": "Speak with Troy Ridewrangler located near the Seaside Warpstone.",
+    "Goals": "Bounce through the fiery hoop above the launch pad in Merry Vale while on your untrained glide-trainable ride.\nBounce through the Merry Vale hoop\nReturn to Troy Ridewrangler",
+    "Steps": "Speak with Troy Ridewrangler located near the Seaside Warpstone.\n\"The second step in training a ride is to make sure that the ride understands the absolute basics of gliding.Go to the launch pads in Merry Vale and jump through the fiery hoop above while riding your untrained glide-trainable ride.\" -Troy Ridewrangler\nBounce through the Merry Vale hoop\nWhile on your ride bounce on the specific launch pad in North-Eastern Merry Vale, aim for the middle of the pad.\nSpeak with Troy Ridewrangler located near the Seaside Warpstone.\n\"Good job! Your ride's understanding of the basics has been transferred to the Training Saddle!Training is hard work. Come back tomorrow and we can continue the training!\" -Troy Ridewrangler",
+    "References": "Glide Training\nTroy Ridewrangler\nLaunch Pad\nMerry Vale\nSeaside\nRides\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Glide Training"
+  ]
+ },
+ {
+  "name": "Glide Training: Confidence Is Key",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Glide_Training:_Confidence_Is_Key",
+   "rev_id": 27918,
+   "quest2": {
+    "detail summary": "Troy Ridewrangler in Seaside has asked me to use a launch pad to launch myself and my untrained glide-trainable ride through a fiery hoop in Snowhill.",
+    "first reward": "[[Proof of Training - Part 3 of 5|Proof of Training<br>- Part 3 of 5]]",
+    "first reward image name": "Ticketquestreward.png"
+   },
+   "questprog": {
+    "previous": "[[Quest:Glide Training: Basic Training|Glide Training: Basic Training]]",
+    "next": "[[Quest:Glide Training: I'm Advanced!|Glide Training: I'm Advanced!]]",
+    "quest series": "[[Glide Training#Quests|Glide Training Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must own a usable glide-trainable ride along with waiting at least one day after completion of Quest:Glide Training: Basic Training in order to do Quest:Glide Training: Confidence Is Key",
+    "To Start": "Speak with Troy Ridewrangler located near the Seaside Warpstone.",
+    "Goals": "Bounce through the fiery hoop above the launch pad in Snowhill while on your untrained glide-trainable ride.\nBounce through the Snowhill hoop\nReturn to Troy Ridewrangler",
+    "Steps": "Speak with Troy Ridewrangler located near the Seaside Warpstone.\n\"The third step in training a ride is to instill a sense of confidence in your ride.Go to the launch pads in Snowhill and jump through the fiery hoop above while riding your untrained glide-trainable ride.\" -Troy Ridewrangler\nBounce through the Snowhill hoop\nWhile on your ride bounce on the specific launch pad near the Snowhill Playground, aim for the middle of the pad.\nSpeak with Troy Ridewrangler located near the Seaside Warpstone.\n\"Good job! Your ride's confidence has been magically transferred to the Training Saddle.Training is hard work. Come back tomorrow and we can continue the training!\" -Troy Ridewrangler",
+    "References": "Glide Training\nTroy Ridewrangler\nLaunch Pad\nSnowhill\nSeaside\nRides\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Glide Training"
+  ]
+ },
+ {
+  "name": "Glide Training: Getting Started",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Glide_Training:_Getting_Started",
+   "rev_id": 27755,
+   "quest2": {
+    "detail summary": "Troy Ridewrangler in Seaside has asked me to use a launch pad to launch myself and my untrained glide-trainable ride through a fiery hoop in Sanctuary.",
+    "first reward": "[[Proof of Training - Part 1 of 5|Proof of Training<br>- Part 1 of 5]]",
+    "first reward image name": "Ticketquestreward.png"
+   },
+   "questprog": {
+    "previous": "",
+    "next": "[[Quest:Glide Training: Basic Training|Glide Training: Basic Training]]",
+    "quest series": "[[Glide Training#Quests|Glide Training Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must own a usable glide-trainable ride to complete this quest.",
+    "To Start": "Speak with Troy Ridewrangler located near the Seaside Warpstone.",
+    "Goals": "Bounce through the fiery hoop above the launch pad outside of Sanctuary while on your untrained glide-trainable ride.\nBounce through the Sanctuary hoop\nReturn to Troy Ridewrangler",
+    "Steps": "Speak with Troy Ridewrangler located near the Seaside Warpstone.\n\"The first step in training a ride is to ensure that the ride understands what it is that you want to teach.Go to the launch pads outside of Sanctuary and jump through the fiery hoop above while riding your untrained glide-trainable ride.\" -Troy Ridewrangler\nBounce through the Sanctuary hoop\nWhile on your ride bounce on the specific launch pad near the Sanctuary Warpstone, aim for the middle of the pad.\nSpeak with Troy Ridewrangler located near the Seaside Warpstone.\n\"Good job! Your ride's understanding of your commands has been transferred to the Training Saddle!Training is hard work. Come back tomorrow and we can continue the training!\" -Troy Ridewrangler",
+    "References": "Glide Training\nTroy Ridewrangler\nLaunch Pad\nSanctuary\nSeaside\nRides\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Glide Training"
+  ]
+ },
+ {
+  "name": "Glide Training: I'm Advanced!",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Glide_Training:_I'm_Advanced!",
+   "rev_id": 28014,
+   "quest2": {
+    "detail summary": "Troy Ridewrangler in Seaside has asked me to use a launch pad to launch myself and my untrained glide-trainable ride through a fiery hoop in Lakeshore.",
+    "first reward": "[[Proof of Training - Part 4 of 5|Proof of Training<br>- Part 4 of 5]]",
+    "first reward image name": "Ticketquestreward.png"
+   },
+   "questprog": {
+    "previous": "[[Quest:Glide Training: Confidence Is Key|Glide Training: Confidence Is Key]]",
+    "next": "[[Quest:Glide Training: License to Glide|Glide Training: License to Glide]]",
+    "quest series": "[[Glide Training#Quests|Glide Training Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must own a usable glide-trainable ride along with waiting at least one day after completion of Quest:Glide Training: Confidence Is Key in order to do Quest:Glide Training: I'm Advanced!",
+    "To Start": "Speak with Troy Ridewrangler located near the Seaside Warpstone.",
+    "Goals": "Bounce through the fiery hoop above the launch pad near Lakeshore while on your untrained glide-trainable ride.\nBounce through the Lakeshore hoop\nReturn to Troy Ridewrangler",
+    "Steps": "Speak with Troy Ridewrangler located near the Seaside Warpstone.\n\"The fourth step in training a ride is to start teaching new and interesting techniques like turning and diving.Go to the launch pads in Lakeshore and jump through the fiery hoop above while riding your untrained glide-trainable ride.\" -Troy Ridewrangler\nBounce through the Lakeshore hoop\nWhile on your ride bounce on the specific launch pad near Lakeshore, aim for the middle of the pad.\nSpeak with Troy Ridewrangler located near the Seaside Warpstone.\n\"Good job! Your ride's grasp of the advanced gliding techniques like turning and diving has been transferred to the Training Saddle!Training is hard work. Come back tomorrow and we can continue the training!\" -Troy Ridewrangler",
+    "References": "Glide Training\nTroy Ridewrangler\nLaunch Pad\nLakeshore\nSeaside\nRides\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Glide Training"
+  ]
+ },
+ {
+  "name": "Glide Training: License to Glide",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Glide_Training:_License_to_Glide",
+   "rev_id": 28015,
+   "quest2": {
+    "detail summary": "Troy Ridewrangler in Seaside has asked me to use a launch pad to launch myself and my untrained glide-trainable ride through a fiery hoop in Seaside.",
+    "first reward": "[[Training Saddle of Gliding]]",
+    "first reward image name": "trainingsaddlequest.png"
+   },
+   "questprog": {
+    "previous": "[[Quest:Glide Training: I'm Advanced!|Glide Training: I'm Advanced!]]",
+    "quest series": "[[Glide Training#Quests|Glide Training Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must own a usable glide-trainable ride along with waiting at least one day after completion of Quest:Glide Training: I'm Advanced! in order to do Quest:Glide Training: License to Glide",
+    "To Start": "Speak with Troy Ridewrangler located near the Seaside Warpstone.",
+    "Goals": "Bounce through the fiery hoop above the launch pad in Seaside while on your untrained glide-trainable ride.\nBounce through the Seaside hoop\nReturn to Troy Ridewrangler",
+    "Steps": "Speak with Troy Ridewrangler located near the Seaside Warpstone.\n\"The fifth and final step in training a ride how to glide is to reinforce the lessons already learned.Go to the launch pads in Seaside and jump through the fiery hoop above while riding your untrained glide-trainable ride.\" -Troy Ridewrangler\nBounce through the Lakeshore hoop\nWhile on your ride bounce on the specific launch pad in Seaside, aim for the middle of the pad.\nSpeak with Troy Ridewrangler located near the Seaside Warpstone.\n\"Great job! The training reinforcement has been transferred to the saddle!This saddle is now complete! Use the saddle or speak to me again and we can permanently transfer this knowledge to one of your untrained glide-traininable rides.Speak to me again tomorrow if you'd like to start the training process from the beginning.\" -Troy Ridewrangler",
+    "References": "Glide Training\nTroy Ridewrangler\nLaunch Pad\nSeaside\nRides\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Glide Training"
+  ]
+ },
+ {
+  "name": "Grave Blossoms",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Eggert the Mad"
+  ]
+ },
+ {
+  "name": "Guardians of the Tomb",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Pumpkin Prince"
+  ]
+ },
+ {
+  "name": "Guarding the Gifting Tree",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "Half a Dozen",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Half_a_Dozen",
+   "rev_id": 28887,
+   "quest2": {
+    "detail summary": "Take the picture to the post office.",
+    "coin amount": "15"
+   },
+   "questprog": null,
+   "sections": {
+    "To Start": "Speak with Tozer located near the Seaside Information Center.",
+    "Goals": "Tozer has asked you to deliver a picture to the post office in Seaside.\nTake the picture to Enve LeStamp",
+    "Steps": "Speak with Tozer located near the Seaside Information Center.\n\"I am really enjoying the view here at Seaside. In fact I took a picture to send back home. Only I don't know where the post office is...Would you be willing to take it for me?\" -Tozer\nSpeak with Enve LeStamp located near the Seaside Post Office.\n\"Deliver this picture to Tozer's family in Merry Vale? Sure no problem!\" -Enve LeStamp",
+    "References": "Seaside\nTozer\nEnve LeStamp\nSeaside Post Office\nInformation Center\nMerry Vale\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Enve LeStamp"
+  ]
+ },
+ {
+  "name": "Halloween Fanatic",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Halloween Harry",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Halloween Harry"
+  ]
+ },
+ {
+  "name": "Hasty Food Delivery",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Diggy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Diggy",
+   "Seaspray"
+  ]
+ },
+ {
+  "name": "Having a Ball",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Miguel"
+  ]
+ },
+ {
+  "name": "Helping Honeydew",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Helping_Honeydew",
+   "rev_id": 49932,
+   "quest2": {
+    "name": "Helping Honeydew",
+    "detail summary": "The baby horses in Skysong Glade are running around all over the place! Honeydew has asked you to help her bring them back to the nursery as quickly as possible."
+   },
+   "questprog": {
+    "quest series": "[[Pony_Vale#Quest_Series|Pony Vale]]",
+    "previous": "[[Quest:Warm Welcome|Warm Welcome]]",
+    "next": "[[Quest:Meeting the Princess|Meeting the Princess]]"
+   },
+   "sections": {
+    "Quest Overview": "This quest is given to you upon first talking to Honeydew. She is in charge of watching the baby horses and has lost track of them. She requests that you assist her in locating them so that they can head back to the nursery for the night.",
+    "Instructions:": "The ponies will be located in various spots around the immediate area. Upon finding one of the foals, you will interact with them, which will update the goal. Once you find all the horses, you will return to Honeydew for your reward.",
+    "Quest Dialogue:": "",
+    "Honeydew upon first contact:": "\"Those little horses just won't sit still! Oh I wish I could get them back to the nursery... Wait a minute, you seem pretty quick! Want to help me?\n\nThe ponies are just playing hide-n-seek, so all you need to do is find them and they'll go right back to the nursery on their own.\"",
+    "Honeydew upon finding all the baby horses:": "\"Oh thank you! I'm sure I would have been looking for those little horses all day if not for your help.\"\nCategory:Quest\nCategory:Pony Vale\nCategory:Pony Vale Quests"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Pony Vale"
+  ]
+ },
+ {
+  "name": "Helping the Local Chef",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Bordon Cloo",
+    "repeatable": true
+   },
+   {
+    "npc": "Diggy",
+    "repeatable": true
+   },
+   {
+    "npc": "Lucca De'Flor",
+    "repeatable": true
+   },
+   {
+    "npc": "Sal Monella",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Bordon Cloo",
+   "Diggy",
+   "Lucca De'Flor",
+   "Sal Monella"
+  ]
+ },
+ {
+  "name": "History of the Dojo",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Crabcake",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Nekark",
+   "The Great Koodini",
+   "Crabcake"
+  ]
+ },
+ {
+  "name": "Hog Wild Harley",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Hog_Wild_Harley",
+   "rev_id": 23452,
+   "quest2": {
+    "detail summary": "Pete's pet hog, Harley, has wondered off again. Pete thinks she might be giving the Sandscale a little payback, but he's worried she may be in over her head. Find Harley and escort her to safety.",
+    "first reward": "Mystery Reward",
+    "first reward image name": "Sunstonemysteryicon.jpg"
+   },
+   "questprog": {
+    "previous": "[[Quest:Like Scavengers in a Barrel|Like Scavengers in a Barrel]]",
+    "quest series": "[[Sunstone_Valley#Wheelie_Pete's_Roadhouse|Sunstone Valley Quest Series]]",
+    "next": "[[Quest:The Water Must Flow!|The Water Must Flow!]]"
+   },
+   "sections": {
+    "Notes": "This quest is repeatable",
+    "Requirements": "Player must complete Quest:Like Scavengers in a Barrel in order to do Quest:Hog Wild Harley",
+    "To Start": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.",
+    "Goals": "Wheelie Pete needs your help finding his pet hog, Harley in Sunstone Valley.\nFind Harley\nEscort Harley to safety\nReturn to Wheelie Pete",
+    "Steps": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.\n\"Harley went and wandered off again!I figure she went after the Sandscale down in the valley, but there's no way I can go after her with my bad hip. So what do you say, <Player Name>, will you bring Harley back to me?\" -Wheelie Pete\nFind Harley\nHarley can be found in Sandscale Territory South-East of Sandspear in Sunstone Valley.\nEscort Harley to safety\nProtect Harley from the Manguana enemies until she is out of Sandscale Territory.\nSpeak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.\n\"That Harley is a real firecracker, but so are you, <Player Name>!I bet the manguana will steer clear of my place for a while, now that they’ve seen what the two of you can do.\" -Wheelie Pete",
+    "References": "Harley\nManguana\nWheelie Pete\nSunstone Valley\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Wheelie Pete",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Wheelie Pete",
+   "Harley",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Holiday Cheer",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "Holiday Recital",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Horrible Hiccups",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Horrible_Hiccups",
+   "rev_id": 28768,
+   "quest2": {
+    "detail summary": "Slinky has asked you to cure Cutes Dozens' hiccups by giving her a good scare! He has a magic potion that should turn you into something perfect for the job.",
+    "first reward": "[[Orange-Strapped Flip-Flops]]",
+    "name": "[[File:Members_only.png|link=Membership|right]]Horrible Hiccups",
+    "coin amount": "10",
+    "first reward image name": "Orangestrappedflipflopsquests.png"
+   },
+   "questprog": {
+    "previous": "",
+    "next": "[[Quest:Scaredy Pants|Scaredy Pants]]"
+   },
+   "sections": {
+    "Requirements": "Player must have an active Membership in order to do Quest:Horrible Hiccups",
+    "To Start": "Speak with Slinky located at the Seaside Luxurious Oceanfront Homes.",
+    "Goals": "Slinky in Seaside has turned you into a monster to better scare the hiccups out of Cutes. Talk to him again if it wears off.\nScare Cutes Dozen to cure her of the hiccups",
+    "Steps": "Speak with Slinky located at the Seaside Luxurious Oceanfront Homes.\n\"Have you seen Cutes today? She's got a really bad case of the hiccups! Poor girl... we have to help her!Now, I'm no expert, but I believe that the only way to cure hiccups is to give the hiccup-er a real scare! I have just the thing too!Find Cutes Dozen, and scare those hiccups right out of her!\" -Slinky\nScare Cutes Dozen to cure her of the hiccups\nSpeak with Cutes Dozen located at the Seaside Luxurious Oceanfront Homes while under Slinky's Illusion that lasts 30 seconds.\nIf the illusion expires players may speak with Slinky to try again.\nTip: Use a pet with a speed boost.\n\"Ahhhhhhh!Wait...you're not a monster!Hiccups? I don't even have the hiccups!Slinky sent you? That meanie! Why is he always trying to scare me?\" -Cutes Dozen",
+    "References": "Seaside\nCutes Dozen\nSlinky\nLuxurious Oceanfront Homes\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Cutes Dozen",
+   "Slinky"
+  ]
+ },
+ {
+  "name": "House Cleaning",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Hungry Hungry Troll",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Diggy"
+  ]
+ },
+ {
+  "name": "Hunting Treasure",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Hunting_Treasure",
+   "rev_id": 46084,
+   "quest2": {
+    "name": "Hunting Treasure",
+    "detail summary": "Use the clue to find the lost treasure chest.",
+    "coin amount": "Random"
+   },
+   "questprog": {
+    "quest series": "[[Lost Treasures Month]]",
+    "previous": "[[Quest:Scrap Collector|Scrap Collector]]"
+   },
+   "sections": {
+    "Notes": "This quest is repeatable daily.",
+    "Requirements": "Player must complete Quest:Scrap Collector in order to do Quest:Hunting Treasure.",
+    "To Start": "Speak with Kara Loft found northwest of the Sanctuary Warpstone.",
+    "Goals": "Use the clue to find the lost treasure chest.",
+    "Steps": "Speak with Kara Loft found northwest of the Sanctuary Warpstone.\n\"Well I've managed to piece this map together, but all I can make out is this riddle:\"\n\"Across from the stairs leading to the rainbow spire.\"\nAcross from the Ever Rainbow in Merry Vale.\n\"After the first right turn in the ancient hedge maze.\"\nAfter the first right turn in the Thistlerow Hedge Maze.\n\"Behind the field where the black and white ball is kicked.\"\nBehind the Snowhill Soccer Field.\n\"In the cave leading to the glade that lies concealed.\"\nThe entrance tunnel to Shrouded Glade.\n\"In the valley of sun and stone east of the great gears of water.\"\nIn Sunstone Valley, east of the Glimmerdeep Hydropower Dam.\n\"In the valley of sun and stone outside the ruins of those who came first.\"\nIn Sunstone Valley, near the Precursor Ruins dungeon.\n\"Near entrance to the speedway by the sea.\"\nNear the Seaside speedway.\n\"Near the anvil that sits at the great quarry in the swamp.\"\nNear a crafting station in Blackspore Swamp.\n\"Near the doors to the great tree where a queen resides.\"\nNear the Heartseed in Sanctuary.\n\"Near the entrance to the great speedway in the south.\"\nNear the Wildwood Speedway south of Cobblestone Village\n\"Near the gates of the fort that lies tangled in wood.\"\nNear the Tanglewood Fort dungeon.\n\"Through the hollowed tree that leads to the southern swamp.\"\nNear the Passwind Pass in northeast Blackspore Swamp.\n\"On the deck of the ship the pirates abandoned.\"\nOn the Pirate Ship found in southwest Seaside.\n\"On the stage where the Chugawugs chug their mugs.\"\nOn the stage in Wugachug.\n\"That must be where your treasure is!\" -Kara Loft\nCategory:Quest\nCategory:Lost Treasures Month"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Kara Loft",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sunstone Jones",
+   "Kara Loft"
+  ]
+ },
+ {
+  "name": "Idle Hands",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Eggert the Mad",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Eggert the Mad"
+  ]
+ },
+ {
+  "name": "Introduce Yourself",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Introduce_Yourself",
+   "rev_id": 23969,
+   "quest2": {
+    "detail summary": "Introduce yourself to the famous racer, Francis Panic.",
+    "coin amount": "5"
+   },
+   "questprog": {
+    "previous": "",
+    "next": "[[Quest:Power problems|Power Problems]]",
+    "quest series": "[[Stillwater Crossing|Stillwater Crossing Quest Series]]"
+   },
+   "sections": {
+    "To Start": "Speak with Valerie located in Stillwater Crossing.",
+    "Goals": "Introduce yourself to Francis Panic in Stillwater Crossing.\nTalk to Francis Panic",
+    "Steps": "Speak with Valerie located in Stillwater Crossing.\n\"You meet the coolest people here in Stillwater Crossing!Francis Panic is a famous Kart Driver.Go say hi!\" -Valerie\nSpeak with Francis Panic located in Stillwater Crossing.\n\"I can't believe my kart ran out of power! I'm gonna be late to the big race!\" -Francis Panic",
+    "References": "Stillwater Crossing\nFrancis Panic\nValerie\nKart Racer\nKart\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": []
+ },
+ {
+  "name": "Investigating the Cause",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Pony Vale"
+  ]
+ },
+ {
+  "name": "It's Too Quiet...",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sarkin Stonehearth",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sarkin Stonehearth",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Junk or Bust",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Junk_or_Bust",
+   "rev_id": 23249,
+   "quest2": {
+    "detail summary": "While you were away Rizzle's boss, Whirly Willis, found him napping on the job and gave him an ultimatum: Bring back some junk or Rizzle is kicked out of the scrap yard! Unfortunately the only place Rizzle knows to find junk is IN the scrap yard... maybe you can help him get some.",
+    "coin amount": "45"
+   },
+   "questprog": {
+    "previous": "[[Quest:Ka-Boom or Not To Boom|Ka-Boom or Not To Boom]]",
+    "next": "[[Quest:Robot Woes|Robot Woes]]",
+    "quest series": "[[Sunstone_Valley#Whirly's_Scrap_Camp|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Ka-Boom or Not To Boom in order to do Quest:Junk or Bust",
+    "To Start": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.",
+    "Goals": "Rizzle needs you to get him some Scrap Yard Junk in Sunstone Valley.\nCollect Scrap Yard Junk - /10\nReturn to Rizzle",
+    "Steps": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"It's my boss, Whirly Willis. He wants junk or I’m kicked out!But where am I going to get junk? Every last piece is already IN the scrap yard... Wait a second. Are you thinking what I’m thinking? Great, then go get me some junk from the scrap yard.Please?\" -Rizzle\nCollect Scrap Yard Junk - /10\nScrapyard Junk are located all around the Scrap Master Fizzbang's Junkyard located in North-West Sunstone Valley\nSpeak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"<Player Name>! You won't believe what happend... I got promoted! Crazy, right?Willis was so impressed when I told him that I con- err, asked you to bring me some junk that he made me Chief of Junk Security!Now all I have to do is supervise a bunch of robots. There's just one problem...\" -Rizzle",
+    "References": "Whirly Willis\nRizzle\nSunstone Valley\nScrap Yard Junk\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Rizzle",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Rizzle",
+   "Sunstone Valley",
+   "Whirly Willis"
+  ]
+ },
+ {
+  "name": "Ka-Boom or Not To Boom",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Ka-Boom_or_Not_To_Boom",
+   "rev_id": 23248,
+   "quest2": {
+    "detail summary": "Fizzbang was always kind of a pain, but since the robgoblins were cut off from Glimmerdeep he's become a real hassle! He wants more junk, when there really isn't any more junk to be had. He's even sent kaboomers around to \"remind\" everyone of their junk quotas. How's a robgoblin supposed to nap with kaboomers \"kabooming\" all over the place!? Rizzle would really appreciate it if you could do something about that for him.",
+    "coin amount": "30"
+   },
+   "questprog": {
+    "previous": "[[Quest:A Beautiful Friendship|A Beautiful Friendship]]",
+    "next": "[[Quest:Junk or Bust|Junk or Bust]]",
+    "quest series": "[[Sunstone_Valley#Whirly's_Scrap_Camp|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:A Beautiful Friendship in order to do Quest:Ka-Boom or Not To Boom",
+    "To Start": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.",
+    "Goals": "Help Rizzle get his beauty sleep by defeating Robgoblin Kaboomers in Sunstone Valley.\nDefeat Robgoblin Kaboomers - /10\nReturn to Rizzle",
+    "Steps": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"Uuugh. How is a robgoblin supposed to get ANY sleep with all that racket!Night and day, Fizzbang’s lackeys just KABOOM this, or KABOOM that! Honestly, <Player Name>, if you could stop those Robgoblin Kaboomers it would literally be the greatest thing ever.\" -Rizzle\nDefeat Robgoblin Kaboomers - /10\nRobgoblin Kaboomers are located all around the areas outside of Whirly's Scrap Camp in Sunstone Valley.\nSpeak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"*snore**snore*Huh, what... OH! <Player Name>!It’s a good thing you’re back, because I have a whole new problem to deal with!\" -Rizzle",
+    "References": "Glimmerdreep\nRizzle\nRobgoblin Kaboomer\nSunstone Valley\nWhirly's Scrap Camp\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Rizzle",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Rizzle",
+   "Scrapmaster Fizzbang",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Key to the City",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Know Your Enemy",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Seaspray",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Seaspray"
+  ]
+ },
+ {
+  "name": "Like Scavengers in a Barrel",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Like_Scavengers_in_a_Barrel",
+   "rev_id": 23330,
+   "quest2": {
+    "detail summary": "Wheelie Pete has had his share of trouble since the Skullz started throwing their weight around, but recently things have gone from bad to worse. Now he also has to deal with the Sandscale Manguanas who recently stole several barrels of his famous Sunstone Sasparilla! Will you brave the wilds of Sunstone Valley to recover his stolen barrels from the Sandscale?",
+    "coin amount": "10"
+   },
+   "questprog": {
+    "next": "[[Quest:Hog Wild Harley|Hog Wild Harley]]",
+    "quest series": "[[Sunstone_Valley#Wheelie_Pete's_Roadhouse|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "To Start": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.",
+    "Goals": "Find Wheelie Pete's stolen Sasparilla Barrels in Sunstone Valley.\nFind Barrels of Sasparilla - /5\nReturn to Wheelie Pete",
+    "Steps": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.\n\"Can you believe it! A pack of Sandscale manguana made off with all my sasparilla. Why, if I still had a good knee I’d march right down there and...Hey, I bet a young'n like you could bring my Barrels of Sasparilla back, eh?\" -Wheelie Pete\nFind Barrels of Sasparilla - /5\nBarrels of Sasparilla are located all around the Sandscale Territory in Sunstone Valley. Watch out for Sandscales!\nSpeak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.\n\"Hey, look at that, you found my sasparilla!Good on you, <Player Name>. Now how about doing me another favor?\" -Wheelie Pete",
+    "References": "Barrel of Sasparilla\nManguana\nSunstone Sasparilla\nSunstone Valley\nWheelie Pete\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Wheelie Pete",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Wheelie Pete",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Lofty Letter",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Lugabow"
+  ]
+ },
+ {
+  "name": "Looking for Lavender",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Honey"
+  ]
+ },
+ {
+  "name": "Lost Turtle",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Rainchaser"
+  ]
+ },
+ {
+  "name": "Lucca's New Creation",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lucca De'Flor",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lucca De'Flor"
+  ]
+ },
+ {
+  "name": "Lucky's Last Chance",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lucky Chance McXander",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lucky Chance McXander"
+  ]
+ },
+ {
+  "name": "Lucky's Lost Coin",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lucky Chance McXander",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lucky Chance McXander"
+  ]
+ },
+ {
+  "name": "Make Sure to Wash up...",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Eggert the Mad"
+  ]
+ },
+ {
+  "name": "Medic: A Blustery Blunder",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Medic: A Frosty Remedy",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Callahan",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Callahan"
+  ]
+ },
+ {
+  "name": "Medic: A Strong Supplement",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Doctor Gordon"
+  ]
+ },
+ {
+  "name": "Medic: Achieve Level 10",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Doctor Gordon"
+  ]
+ },
+ {
+  "name": "Medic: Achieve Level 20",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Callahan",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Callahan"
+  ]
+ },
+ {
+  "name": "Medic: Achieve Level 5",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Gordon",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Medic: Flu Season",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Gordon",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Gordon",
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Medic: House Call",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Doctor Gordon"
+  ]
+ },
+ {
+  "name": "Medic: Into the Bristlewood",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Medic: Just What the Doctor Ordered",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Callahan",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Callahan"
+  ]
+ },
+ {
+  "name": "Medic: No Pain, No Gain",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Callahan",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Callahan"
+  ]
+ },
+ {
+  "name": "Medic: Omitted Admission",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Doctor Gordon",
+   "Doctor Callahan"
+  ]
+ },
+ {
+  "name": "Medic: Palatable Pills",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Gordon",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Gordon"
+  ]
+ },
+ {
+  "name": "Medic: Paying Your Student Debts",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Callahan",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Callahan"
+  ]
+ },
+ {
+  "name": "Medic: Risky Research",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Callahan",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Callahan"
+  ]
+ },
+ {
+  "name": "Medic: So You Want to be a Medic",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Doctor Gordon"
+  ]
+ },
+ {
+  "name": "Medic: Surgical Precision",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Gordon",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Gordon"
+  ]
+ },
+ {
+  "name": "Medic: Take Your Vitamins",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Gordon",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Gordon"
+  ]
+ },
+ {
+  "name": "Meet and Greet",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Chatty",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Chatty",
+   "Counselor Kaela",
+   "Counselor Tyra",
+   "Counselor Edmond",
+   "Counselor Jake"
+  ]
+ },
+ {
+  "name": "Meet Crabcake",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Crabcake"
+  ]
+ },
+ {
+  "name": "Meet the Mayor!",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Frostpetal",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline",
+   "Frostpetal"
+  ]
+ },
+ {
+  "name": "Meeting the Princess",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Meeting_the_Princess",
+   "rev_id": 49923,
+   "quest2": null,
+   "questprog": null,
+   "sections": {}
+  },
+  "givers": [],
+  "appearances": [
+   "Pony Vale"
+  ]
+ },
+ {
+  "name": "Merry Vale Mysteries",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Shaggy Mysterychaser"
+  ]
+ },
+ {
+  "name": "Miner: Dartmoor Mining Camp",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sorin",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sorin"
+  ]
+ },
+ {
+  "name": "Miner: Gem Appraisal",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sorin"
+  ]
+ },
+ {
+  "name": "Miner: Mother Lode Lift",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Snorg"
+  ]
+ },
+ {
+  "name": "Miner: Part of the Guild",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Snorg",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Snorg"
+  ]
+ },
+ {
+  "name": "Miner: Rare Rock Collection",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Snorg",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Snorg"
+  ]
+ },
+ {
+  "name": "Miner: Reach Level 5",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sorin",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sorin"
+  ]
+ },
+ {
+  "name": "Misplaced Meeps",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Misplaced_Meeps",
+   "rev_id": 32380,
+   "quest2": {
+    "name": "Misplaced Meeps",
+    "detail summary": "Locate Momma Meepster's lost baby Meeps.",
+    "first reward": "[[Meep#Black Meep|Black Meep]]",
+    "first reward image name": "Blackmeepicon.png"
+   },
+   "questprog": null,
+   "sections": {
+    "To Start": "Speak with Momma Meepster located in Snowhill near Big J's.",
+    "Goals": "Locate Momma Meepster's lost baby Meeps.\nMeeps found - /6\nReturn to Momma Meepster",
+    "Steps": "Speak with Momma Meepster located in Snowhill near Big J's.\n\"My baby Meeps are gone! They wandered off to explore the world even though I said not to! Oh, woe is me!Wait, can you help me find them? They're much smaller than me, but we all have the same beautiful edges and shapes!\" -Momma Meepster\nFind Momma Meepster's Lost Meeps which are scattered throughout Sacred Grove.\nPossible locations include:\n\nSpeak with Momma Meepster located in Snowhill near Big J's.\n\"Oh thank you! Thank you! My babies are safe and ready to be adopted!Could you find it in your heart to give a few poor baby Meeps a good home?\" -Momma Meepster\nCategory:Quest\nCategory:8-Bit month"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Momma Meepster"
+  ]
+ },
+ {
+  "name": "Mysteriously Cakey Remains",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Mayor McFairy"
+  ]
+ },
+ {
+  "name": "Mystery Meat Mystery",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sal Monella",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Camellia",
+   "Sal Monella"
+  ]
+ },
+ {
+  "name": "Nature's Cure",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Nature's_Cure",
+   "rev_id": 38260,
+   "quest2": {
+    "name": "Nature's Cure",
+    "detail summary": "Yarith's Chocolate Ice Cream Mixed Remedy is a success! Now it's time to pass it out to the rest of the Unicorns in Unicorn Forest."
+   },
+   "questprog": {
+    "quest series": "[[Pony_Vale#Quest_Series|Pony Vale]]",
+    "next": "[[Quest:Stopping the Spread|Stopping the Spread]]",
+    "previous": "[[Quest:Sweets for Sniffles|Sweets for Sniffles]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Sweets for Sniffles in order to do Quest:Nature's Cure",
+    "To Start": "Speak with Silverspark located in Unicorn Forest, Pony Vale.",
+    "Objectives": "Pass out Yarith's Chocolate Ice Cream Mixed Remedy to the rest of the Unicorns in Unicorn Forest.\nCure sneezing Unicorns - /5Take Yarith's Chocolate Ice Cream Mixed Remedy to the rest of the Unicorns in Unicorn Forest.\nReturn to SilversparkNow that you've cured the Unicorns of their sneezing it's time to tell Silverspark all about Xeydia and her vile plants.",
+    "Steps": "Speak with Silverspark located in Unicorn Forest, Pony Vale.\n\"My sneezing, it's gone! You've cured me [*player_name*], and with such a delicious treat! Quick, you need to take this to the rest of the Unicorns!\" -Silverspark\nCure sneezing Unicorns - /5\nSelect five Unicorns that appear around Unicorn Forest during the quest.\nReturn to Silverspark\nSpeak with Silverspark located in Unicorn Forest, Pony Vale.\n\"Thank you again, [*player_name*]. It's such a relief to be free of that terrible sneezing! Now you must tell me everything. What caused all this trouble in the first place?\" -Silverspark\nCategory:Quest\nCategory:Pony Vale"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Silverspark",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Pony Vale",
+   "Silverspark"
+  ]
+ },
+ {
+  "name": "Necronomicus Unleashed",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Necronomicus"
+  ]
+ },
+ {
+  "name": "Ninja: Achieve Level 10",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ty",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Ree Peatpants",
+   "Ty"
+  ]
+ },
+ {
+  "name": "Ninja: Achieve Level 15",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Ree Peatpants"
+  ]
+ },
+ {
+  "name": "Ninja: Achieve Level 20",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Ree Peatpants",
+   "Ty"
+  ]
+ },
+ {
+  "name": "Ninja: Achieve Level 5",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Ree Peatpants"
+  ]
+ },
+ {
+  "name": "Ninja: Burst of Speed",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ty",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Ty"
+  ]
+ },
+ {
+  "name": "Ninja: Gathered Shadows",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ty",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Ty"
+  ]
+ },
+ {
+  "name": "Ninja: Return to the Mentor",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Frostpetal",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Ty",
+   "Frostpetal"
+  ]
+ },
+ {
+  "name": "Ninja: Shadows in the Snow",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ty",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Ty"
+  ]
+ },
+ {
+  "name": "Ninja: Silence is Golden... and Deadly",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ty",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Ty"
+  ]
+ },
+ {
+  "name": "Ninja: Stilling the Waters",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ty",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Ty"
+  ]
+ },
+ {
+  "name": "Ninja: Stolen Away",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Ty"
+  ]
+ },
+ {
+  "name": "Ninja: Super Star",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ty",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Ninja: The Ninja Path",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ty",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Ty"
+  ]
+ },
+ {
+  "name": "Ninja: Troubled Waters",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Frostpetal"
+  ]
+ },
+ {
+  "name": "Ninja: Walking the Path",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Ty",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Ty"
+  ]
+ },
+ {
+  "name": "No Bro Left Behind",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Dorn Geargrinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder"
+  ]
+ },
+ {
+  "name": "No Prey, No Pay",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Admiral Fishfinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Jolly Roger"
+  ]
+ },
+ {
+  "name": "Noggle Interrupted",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Noggle Cogloose",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Noggle Cogloose",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Noise Permit",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Noise_Permit",
+   "rev_id": 23171,
+   "quest2": {
+    "name": "Noise Permit",
+    "detail summary": "Flynn swears he has permission to put on a concert in Snowhill. He hasn't received the permit in the mail yet however. Search around Snowhill for the permit. Perhaps one of the penguin mailmen delivered it to the wrong address or dropped it while making their rounds.",
+    "coin amount": "48"
+   },
+   "questprog": {
+    "previous": "[[Quest:Noisy Neighbors|Noisy Neighbors]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Noisy Neighbors in order to do Quest:Noise Permit",
+    "To Start": "Speak with Flynn located in Snowhill.",
+    "Goals": "Find Flynn's noise permit in Snowhill.\nFind the Permit\nReturn to Flynn at the Snowhill Stage",
+    "Steps": "Speak with Flynn located on the right side of the Snowhill stage.\n\"Maybe one of the penguin mailmen dropped our permit or delivered it to the wrong address!Look around Snowhill and find the permit before we have to close the show!\" -Flynn\nLocate the permit\nIt can be found near the entrance to Snowhill.\nSpeak with Flynn located on the right side of the Snowhill stage.\n\"You found the permit?Thank goodness. Those penguins sure do make loousy mailmen. The show will be able to continue now.Thanks, and remember to rock on!\" -Flynn",
+    "References": "Flynn\nPenguin\nSnowhill\nPermit\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Snowhill"
+  ]
+ },
+ {
+  "name": "Noisy Neighbors",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Noisy_Neighbors",
+   "rev_id": 23402,
+   "quest2": {
+    "name": "Noisy Neighbors",
+    "detail summary": "All that noise Bruce is making is disturbing the peaceful town of Snowhill. Talk to Flynn about Bruce's noise level.",
+    "coin amount": "30"
+   },
+   "questprog": {
+    "next": "[[Quest:Noise Permit|Noise Permit]]",
+    "previous": ""
+   },
+   "sections": {
+    "To Start": "Speak with Clara Chatterhag located in Snowhill.",
+    "Goals": "Talk to Flynn about Bruce's noise level.\nSpeak to Flynn",
+    "Steps": "Speak with Clara Chatterhag located in Snowhill.\n\"I don't know what's worse, that terrible music or the screaming kids!Tell Flynn to turn down the volume, or I'll complain to the Mayor!\" -Clara Chatterhag\nSpeak with Flynn located on the right side of the Snowhill stage.\n\"What's that? Clara thinks we're too loud?We filed for a permit to perform here!\" -Flynn",
+    "References": "Bruce\nClara Chatterhag\nFlynn\nMayor Crystalline\nSnowhill\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Bruce"
+  ]
+ },
+ {
+  "name": "Not the Ghosts You're Looking For",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Kai",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Kai",
+   "The Great Koodini",
+   "Gloamling"
+  ]
+ },
+ {
+  "name": "Off to the Queen",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Queen Valerian"
+  ]
+ },
+ {
+  "name": "Ooey, Gooey Love",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cudip",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Cudip"
+  ]
+ },
+ {
+  "name": "Open House Clean-Up",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Kelpy",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Ore Survey",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Vrok Gravelfist",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Vrok Gravelfist"
+  ]
+ },
+ {
+  "name": "Party Flyers",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor McFairy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor McFairy"
+  ]
+ },
+ {
+  "name": "Party for Pets",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Party_for_Pets",
+   "rev_id": 31275,
+   "quest2": {
+    "detail summary": "Tiger the Party Animal has started a Pet Party. He'll give you a party favor, if you bring a pet.",
+    "coin amount": "",
+    "first reward": "Pet Party Favor",
+    "first reward image name": "petpartyfavoricon.png"
+   },
+   "questprog": null,
+   "sections": {
+    "Requirements": "Quest:Party for Pets is only available during Pet Party Community Events.",
+    "To Start": "Speak with Tiger the Party Animal who spawns only during Pet Party Community Events.",
+    "Goals": "Obtain a pet and speak to Tiger the Party Animal during a Pet Party.\nObtain a Pet\nSpeak to Tiger",
+    "Steps": "Speak with Tiger the Party Animal who spawns only during Pet Party Community Events.\n\"Dude, my pet rocks! We even wore matching outfits.Bring your own pet and join in the party, bro. I'll give you a party favor too!\" -Tiger the Party Animal\nObtain a Pet\nSummon a Pet.\nSpeak with Tiger the Party Animal who spawns only during Pet Party Community Events.\n\"Sweet pet, dude.You definitely deserve a party favor!\" -Tiger the Party Animal\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Tiger the Party Animal",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Tiger the Party Animal",
+   "Tiger the Party Animal"
+  ]
+ },
+ {
+  "name": "Payback",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Captain Sunspark"
+  ]
+ },
+ {
+  "name": "Perfecting the Batter",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Cakenstein"
+  ]
+ },
+ {
+  "name": "Petal Picker",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cudip",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Cudip"
+  ]
+ },
+ {
+  "name": "Portal Remnants",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Gloamling"
+  ]
+ },
+ {
+  "name": "Postman: Bixie Buds",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Honey"
+  ]
+ },
+ {
+  "name": "Potent Love Potion",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Cudip",
+   "Stone Heart"
+  ]
+ },
+ {
+  "name": "Potion Testing: Version 6.0",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cudip",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Cudip"
+  ]
+ },
+ {
+  "name": "Potion Testing: Version 7.0",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cudip",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Cudip"
+  ]
+ },
+ {
+  "name": "Power Crystals Not Included",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Noggle Cogloose",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Noggle Cogloose",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Present Problems",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "Pulling Weeds",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Eggert the Mad"
+  ]
+ },
+ {
+  "name": "Putting Your Foot Down",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Edmond",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Counselor Edmond",
+   "Robbie"
+  ]
+ },
+ {
+  "name": "Qizard: Filling in the Gaps",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Osgood"
+  ]
+ },
+ {
+  "name": "Race for Dominance",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Dorn Geargrinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Skullz Commander",
+   "Golmie Greasebeard",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Rags to Riches",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Robbie",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Counselor Cammy",
+   "Counselor Jacen",
+   "Counselor Jenny",
+   "Counselor Wes",
+   "Robbie"
+  ]
+ },
+ {
+  "name": "Raider Repo",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sarkin Stonehearth",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sarkin Stonehearth",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Reassuring Health",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Queen Valerian"
+  ]
+ },
+ {
+  "name": "Report to Sunspark",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Captain Sunspark"
+  ]
+ },
+ {
+  "name": "Rescue in the Ruins",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Rescue_in_the_Ruins",
+   "rev_id": 25476,
+   "quest2": {
+    "detail summary": "Sarkin still cant believe the spiders that originally drove them from their dig site attacked the camp as well! On top of that Assistant Bogse disappeared during the battle! Sarkin suspects the spiders may have dragged him into the Precursor Ruins and hopes you will go after him.",
+    "first reward": "[[Cactoid]]",
+    "first reward image name": "cactoidicon.png"
+   },
+   "questprog": {
+    "previous": "[[Quest:It's Too Quiet...|It's Too Quiet...]]",
+    "quest series": "[[Sunstone_Valley#The_Dig|Sunstone Valley Quest Series]]",
+    "next": ""
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:It's Too Quiet... in order to do Quest:Rescue in the Ruins",
+    "To Start": "Speak with Sarkin Stonehearth found at The Dig in Sunstone Valley.",
+    "Goals": "Sarkin wants you to rescue Assistant Bogse in the Precursor Ruins in Sunstone Valley.\nRescue Assistant Bogse\nReturn to Sarkin Stonehearth",
+    "Steps": "Speak with Sarkin Stonehearth found at The Dig in Sunstone Valley.\n\"Wait... where’s Bogse? Oh no. The spiders must have grabbed him!<Player Name>, we have to save Assistant Bogse, but I can barely stand with this poison running through me. Please, you’re the only one that has a chance of finding him in the Precursor Ruins.\" -Sarkin Stonehearth\nRescue Assistant Bogse\nAssistant Bogse is rescued by completing Precursor Ruins Sunstone Valley Dungeon.\nSpeak with Sarkin Stonehearth found at The Dig in Sunstone Valley.\n\"You saved Bogse AND discovered the greatest find I’ve ever heard of! Functioning Precursor artifacts? Unbelievable! Studying them may be a problem, but I’m sure we’ll figure out something.And <Player Name>, if you ever need anything from me or my crew, you just come back here and let me know. As far as I’m concerned we’re pals for life!\" -Sarkin Stonehearth",
+    "References": "The Dig\nSarkin Stonehearth\nSunstone Valley\nSpiders\nAssistant Bogse\nPrecursor Ruins\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Sarkin Stonehearth",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sarkin Stonehearth",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Rider Request",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Bruce"
+  ]
+ },
+ {
+  "name": "Rob Robbie Daily",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Rob_Robbie_Daily",
+   "rev_id": 23902,
+   "quest2": null,
+   "questprog": null,
+   "sections": {
+    "Location": "Robbie's Tent at Camp Robbie",
+    "Overview": "Enter Robbie's Tent and click on the Robgoblin Junkpile inside the tent. Will automatically start and finish quest and get reward.\nIf repeated 7 days in a row without missing a day you can open up a chest buried inside.",
+    "Reward": "Day 1 to Day 4, anything found in a common Robgoblin Junkpile.\nDay 5 to Day 6, anything found in a Rare Robgoblin Junkpile.\nDay 7, a random Station Cash Item, housing items.",
+    "7th Day Chest Items": "Know Rewards:\n1 Aquarium\n1 Automatic Head Size Augmenter\n1 Basic Dance Floor\n1 Basic Swimming Pool\n1 Curved Wooden Walkway\n2 Fall-away Blocks\n2 Fluffy Cloud\n1 Fluffy Cloud Bridge\n1 Gumball Machine\n1 Jack-In-The-Box\n1 Juice Blender\n1 Jukebox   \n1 Large Launch Pad\n1 Medium Launch Pad\n1 Mega Dance Floor\n1 Shrinking Head Cauldron\n1 Spotlight   \n1 Standard Candy Cart   \n1 Stereo\n1 Stone Bridge\n1 Stone Head\n2 Storm Clouds\n1 Storm Cloud Bridge   \n1 Suspension Bridge\n2 Tiki Torch\n1 Train Set\n1 Wacky Waving Arm Flailing Chatty\n1 Wacky Waving Arm Flailing Robbie\n1 Wooden Bridge\n1 Wooden Walkway\n1 Wooden Walkway Ramp   \nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": []
+ },
+ {
+  "name": "Robgoblin Robbery Ring",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "Robot Woes",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Robot_Woes",
+   "rev_id": 23976,
+   "quest2": {
+    "detail summary": "Because of Rizzle's skillful handling of the junk situation at the Scrap Camp, Whirly Willis promoted him to Chief of Junk Security! Now Rizzle spends his days napping while his Robot Gaurds protect the camp from would-be thieves. Unfortunatly the robots keep breaking! Help Rizzle keep his new job by fixing up his robots.",
+    "first reward": "Mystery Reward",
+    "first reward image name": "Sunstonemysteryicon.jpg"
+   },
+   "questprog": {
+    "previous": "[[Quest:Junk or Bust|Junk or Bust]]",
+    "next": "[[Quest:The Legendary Sunstone|The Legendary Sunstone]]",
+    "quest series": "[[Sunstone_Valley#Whirly's_Scrap_Camp|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Notes": "This quest is repeatable",
+    "Requirements": "Player must complete Quest:Junk or Bust in order to do Quest:Robot Woes",
+    "To Start": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.",
+    "Goals": "Rizzle wants you to fix his Broken Robot Guards in Sunstone Valley.\nFix Broken Robot Guards - /4\nReturn to Rizzle",
+    "Steps": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"These robots keep breaking!If I don't get them fixed soon, Willis will kick me out of here faster than you can spin!The only problem is that I'm right in the middle of a nap, so... what do you say, pal! Want to fix up those Broken Robot Guards for me?\" -Rizzle\nFix Broken Robot Guards - /4\nBroken Robot Guards are located all around the outside of Whirly's Scrap Camp in Sunstone Valley. Watch out for Robgoblin Junk Thieves!\nSpeak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"Wow, <Player Name>, you fixed up those robots pretty fast!Well, I guess I owe you something for all your hard work. Uh, let’s see what I’ve got here... Uh...I’m sure I’ve got something here that’s worth something...\" -Rizzle",
+    "References": "Broken Robot Guard\nRizzle\nRobgoblin Junk Thief\nRobot Guard\nSunstone Valley\nWhirly Willis\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Rizzle",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Rizzle",
+   "Sunstone Valley",
+   "Whirly Willis"
+  ]
+ },
+ {
+  "name": "Ruined Return",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Ruined_Return",
+   "rev_id": 23245,
+   "quest2": {
+    "detail summary": "The Legendary Sunstone is a slippery little treasure, but Noggle is sure he will find it eventually. In the meantime he was hopping you could take a care package to a group of dwarves he met a few days ago. And if they ask about the equipment he was supposed to be repairing for them, he recommends that you definitely not mention anything about converting it into jump pads.",
+    "coin amount": "5"
+   },
+   "questprog": {
+    "previous": "[[Quest:Committed to the Plan|Committed to the Plan]]",
+    "next": "[[Quest:Under Pressure|Under Pressure]]",
+    "quest series": "[[Sunstone_Valley#Noggle's_Retreat|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Committed to the Plan in order to do Quest:Ruined Return",
+    "To Start": "Speak with Noggle Cogloose located in Noggle's Retreat, Sunstone Valley.",
+    "Goals": "Noggle has sent you to a dwarven dig site in Sunstone Valley to deliver a package.\nDeliver the package to Sarkin Stonehearth",
+    "Steps": "Speak with Noggle Cogloose located in Noggle's Retreat, Sunstone Valley.\n\"The Legendary Sunstone may have eluded me today, but it won’t elude me for long!In the meantime, could you take this care package to the nice dwarves down the road? Also, try not to mention anything about how I converted their equipment into jump pads.\" -Noggle Cogloose\nSpeak with Sarkin Stonehearth located in The Dig, Sunstone Valley.\n\"Listen stranger, if you’re here to cause trouble you can turn yourself around right now...Oh, you brought a package?Uh, this is just a bunch of junk. Where did you even get this? Actually, never mind, I don’t think I want to know.\" -Sarkin Stonehearth\n\"Thanks!\" -Player response",
+    "References": "Dwarves\nLegendary Sunstone\nNoggle Cogloose\nSarkin Stonehearth\nSunstone Valley\nThe Dig\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Noggle Cogloose",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Noggle Cogloose",
+   "Sarkin Stonehearth",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Rumor has it...",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Rumor Duskveil",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Iliya",
+   "Rumor Duskveil"
+  ]
+ },
+ {
+  "name": "Sabotage for Safety",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sarkin Stonehearth",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Sarkin Stonehearth"
+  ]
+ },
+ {
+  "name": "Sabotage for Safety (repeatable)",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Sal Monella Special",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sal Monella",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sal Monella"
+  ]
+ },
+ {
+  "name": "Sal's Suggestion",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sal Monella",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sal Monella"
+  ]
+ },
+ {
+  "name": "Sanctuary Warp Tests",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Kellin Warpwatcher"
+  ]
+ },
+ {
+  "name": "Saving a Friend",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Dorn Geargrinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Saving Farnum's Farm",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Gloamling"
+  ]
+ },
+ {
+  "name": "Scaredy Pants",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Scaredy_Pants",
+   "rev_id": 28848,
+   "quest2": {
+    "detail summary": "Cutes Dozen wants your help in getting back at Slinky for all of the pranks he's pulled on her. She also happened to have found an illusion potion that should be perfect for the job.",
+    "first reward": "[[Board Shorts]]",
+    "name": "[[File:Members_only.png|link=Membership|right]]Scaredy Pants",
+    "coin amount": "10",
+    "first reward image name": "Boardshortquestreward.png"
+   },
+   "questprog": {
+    "next": "",
+    "previous": "[[Quest:Horrible Hiccups|Horrible Hiccups]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Horrible Hiccups and have an active Membership in order to do Quest:Scaredy Pants.",
+    "To Start": "Speak with Cutes Dozen located at the Seaside Luxurious Oceanfront Homes.",
+    "Goals": "Cutes in Seaside has turned you into a monster to get back at Slinky. Talk to her again if it wears off.\nScare the pants off of Slinky",
+    "Steps": "Speak with Cutes Dozen located at the Seaside Luxurious Oceanfront Homes.\n\"I'm not usually a mean person, but I've had it with Slinky! Will you help me get back at him?I found a potion that'll definitely scare the pants right off him! I can pour it on you if you'd be willing to scare Slinky with it.\" -Cutes Dozen\nScare the pants off of Slinky\nSpeak with Slinky located at the Seaside Luxurious Oceanfront Homes while under Cutes' Illusion that lasts 30 seconds.\nIf the illusion expires players may speak with Cutes Dozen to try again.\nTip: Use a pet with a speed boost.\n\"AHHH! You scared the pants off me! I thought you were a cray for a second...err, uhh...I mean, you're lucky I recognized you, or you would have been in a world of hurt!You found my posters! Sweet! I'm the best law man ever!\" -Slinky",
+    "References": "Seaside\nCutes Dozen\nSlinky\nLuxurious Oceanfront Homes\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Cutes Dozen",
+   "Slinky"
+  ]
+ },
+ {
+  "name": "Scrap Collector",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Scrap_Collector",
+   "rev_id": 35279,
+   "quest2": {
+    "name": "Scrap Collector",
+    "detail summary": "Complete combat encounters to collect lost treasure map scraps.",
+    "coin amount": "Random"
+   },
+   "questprog": {
+    "quest series": "[[Lost Treasures Month]]",
+    "next": "[[Quest:Hunting Treasure|Hunting Treasure]]"
+   },
+   "sections": {
+    "Notes": "This quest is repeatable daily",
+    "To Start": "Speak with Sunstone Jones located in Sanctuary during Lost Treasures Month.",
+    "Goals": "Complete combat encounters to collect lost treasure map scraps.\nMap Scraps Collected - /3\nReturn to Sunstone Jones\nFind Kara Loft",
+    "Steps": "Speak with Sunstone Jones located in Sanctuary.\n\"There's treasure out there for the taking. Trust me. There's just one thing... you'll need a map.Rumor has it combat encounters reward secret treasure map scraps when completed. So why don't you go completed some and see what you find?\" -Sunstone Jones\nMap Scraps Collected - /3\nCollect map scraps by completing Combat Battles.\nSpeak with Sunstone Jones located in Sanctuary.\n\"Nice work, kid. Now you need someone with the brains to assemble these scraps, and I know just the woman.A colleague of mine, Kara Loft. Last seen exploring just outside Sanctuary. Track her down and she'll send you in the right direction.\" -Sunstone Jones\nSpeak with Kara Loft found northwest of the Sanctuary warpstone.\n\"I understand Jones sent you? Lovely chap. I owe him a few favors so perhaps I can help you out...Hmmm. Yes. I believe I can assemble these scraps. Check back with me in a few moments and I should have a map for you.\" -Kara Loft\nCategory:Quest\nCategory:Lost Treasures Month"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Sunstone Jones",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lost Treasures Month",
+   "Lost Treasures Month",
+   "Sunstone Jones",
+   "Kara Loft"
+  ]
+ },
+ {
+  "name": "Sealed with a Signet",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Pumpkin Prince"
+  ]
+ },
+ {
+  "name": "Seaside Report",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Captain Sunspark"
+  ]
+ },
+ {
+  "name": "Seaside Situation",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Gilly",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Gilly"
+  ]
+ },
+ {
+  "name": "Silversnow's Sapling",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "Sleeping Pixie",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cudip",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Cudip"
+  ]
+ },
+ {
+  "name": "Snowhill Secret Society",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Lucca De'Flor",
+   "Frostpetal"
+  ]
+ },
+ {
+  "name": "Snowhill Warp Tests",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Kellin Warpwatcher",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Kellin Warpwatcher"
+  ]
+ },
+ {
+  "name": "Snowmen Disassembly",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "Sobering Homecoming",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Sobering_Homecoming",
+   "rev_id": 23240,
+   "quest2": {
+    "detail summary": "After defeating the Gloam in Shrouded Glade, Dorn Geargrinder has returned to Sunstone Valley to find it overrun by a rival biker gang, the Skullz. Many Freewheelers have gone into hiding and Dorn doubts his ability to reunite the gang.",
+    "first reward": "",
+    "first reward image name": "",
+    "coin amount": "20"
+   },
+   "questprog": {
+    "next": "[[Quest:Bike Retrieval|Bike Retrieval]]",
+    "quest series": "[[Sunstone_Valley#Rumble_Ridge|Sunstone Valley Quest Series]]",
+    "previous": "[[Quest:Aiding our Allies|Aiding our Allies]]"
+   },
+   "sections": {
+    "To Start": "Speak with Dorn Geargrinder located in Rumble Ridge, Sunstone Valley.",
+    "Goals": "Help Dorn Geargrinder by regrouping the Freewheelers.\nTalk to Golmie Greasebeard\nTalk to Headmaster Merk\nTalk to Freewheelers - /3\nReturn to Dorn Geargrinder",
+    "Steps": "Speak with Dorn Geargrinder located in Rumble Ridge, Sunstone Valley.\n\"It seems that while we was in Shrouded Glade, this gang called the Skullz took over Rumble Ridge. And now most of the Freewheelers have deserted! If only Gus was here...\" -Dorn Geargrinder\nSpeak with Golmie Greasebeard located in Rumble Ridge, Sunstone Valley.\n\"Dorn's havin' a hard time acceptin' the loss of his brother Gus. He's a blasted hero and the only one that can pull the gang back together.\" -Golmie Greasebeard\nSpeak with Headmaster Merk located in Rumble Ridge, Sunstone Valley.\n\"Dorn needs to be reminded of the trust his brother Gus had in him. Gus knew Dorn was a natural leader. If you can find the other Freewheelers and tell them of Dorn’s accomplishments in Shrouded Glade, I am certain they would follow him.\" -Headmaster Merk\nSpeak with Freewheelers located in Rumble Ridge, Sunstone Valley.\nOne Freewheeler is located between Wheelie Pete's Roadhouse and The Rumbledome in Rumble Ridge, Sunstone Valley.\n\"A lot's gone wrong for the Freewheelers recently. Why should we follow Dorn?\" -Freewheeler\n\"Dorn's a good leader!\" -Player response\nOne Freewheeler is located near the Sandscale Oasis entrance in Sunstone Valley.\n\"Dorn proved to be a good leader when we took the bridge site, we should probably follow him now.\" -Freewheeler\n\"Hurry Up!\" -Player response\nOne Freewheeler is located near the Rough Rider Raceway in Sunstone Valley.\n\"Can Dorn really expect to fill his brother’s shoes?\" -Freewheeler\n\"Dorn was born to lead.\" -Player response\nSpeak with Dorn Geargrinder located in Rumble Ridge, Sunstone Valley.\n\"Thanks <Player Name>. Gus never doubted me and I guess I shouldn’t either. Leading the Freewheelers to glory is the best way I can honor his memory.\" -Dorn Geargrinder",
+    "References": "Dorn Geargrinder\nFreewheeler\nGloam\nGolmie Greasebeard\nGus Geargrinder\nHeadmaster Merk\nShrouded Glade\nSkullz\nSunstone Valley\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Dorn Geargrinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Golmie Greasebeard",
+   "Gus Geargrinder",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Softening the Stone",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cudip",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Cudip",
+   "Stone Heart"
+  ]
+ },
+ {
+  "name": "Spinnerette",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Gorg",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Spinnerette",
+   "Gorg"
+  ]
+ },
+ {
+  "name": "Status Reports",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Crystalline",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Stemming the Tide",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Crabcake",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Crabcake"
+  ]
+ },
+ {
+  "name": "Stoke the Flames",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Gorg"
+  ]
+ },
+ {
+  "name": "Stone Heart's Hideaway",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cudip",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Cudip"
+  ]
+ },
+ {
+  "name": "Stopping an Infiltration",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Gorg",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Gorg"
+  ]
+ },
+ {
+  "name": "Stopping the Spread",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Silverspark",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Pony Vale",
+   "Silverspark"
+  ]
+ },
+ {
+  "name": "Suspicious Serenity",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Wugunbump",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Wugunbump"
+  ]
+ },
+ {
+  "name": "Sweets for Sniffles",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Sweets_for_Sniffles",
+   "rev_id": 37920,
+   "quest2": {
+    "name": "Sweets for Sniffles",
+    "detail summary": "Yarith has given you medicine that will cure the Unicorns of their allergies. You'll need to take it to Silverspark right away. Hopefully she likes it."
+   },
+   "questprog": {
+    "quest series": "[[Pony_Vale#Quest_Series|Pony Vale]]",
+    "next": "[[Quest:Nature's Cure|Nature's Cure]]",
+    "previous": "[[Quest:Gathering Evidence|Gathering Evidence]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Gathering Evidence in order to do Quest:Sweets for Sniffles",
+    "To Start": "Speak with Yarith Yewroot located in Green Watch, Pony Vale.",
+    "Objectives": "Yarith at Green Watch has given you a remedy for the Unicorns of Unicorn Forest. Use it to cure their allergies.\nTake Yarith's Remedy to SilversparkYarith has given you a remedy to cure the Unicorns of their allergies. Take it to Silverspark in Unicorn Forest as soon as you can.\nFind an expert on sweets near Skysong LedgeThe allergy medicine Yarith gave you needs to be mixed with something sweet before the Unicorns can eat it. Find a sweets expert near Skysong Ledge that can help you find the perfect sweet to mix with!\nBring Marzipan some Vanilla Ice CreamMarzipan thinks Vanilla Ice Cream will mix perfectly with Yarith's Remedy. Go buy some from Razzle the Robgoblin then bring it back to Marzipan for a taste test.\nBring Marzipan some Chocolate Ice CreamVanilla was a bust, but Marzipan is sure that Chocolate Ice Cream will mix perfectly with Yarith's Remedy. Go buy some from Razzle the Robgoblin then bring it back to Marzipan for a taste test.\nTake the Mixed Remedy to SilversparkMarzipan has given Yarith's Chocolate Ice Cream Mixed Remedy her stamp of approval. Deliver it to Silverspark and the other Unicorns of Unicorn Forest as fast as you can.",
+    "Steps": "Speak with Yarith Yewroot located at Green Watch, Pony Vale.\n\"You say someone deliberately created these unnatural plants? That's terrible! They could ruin the delicate balance of nature in Pony Vale!We must do something to fix this [*player_name*]. I'll start working on a way to counter the spread of these unnatural plants, but first we should help the Unicorns. Here, take this remedy to them. It should clear up that terrible sneezing problem they've been suffering from.\" -Yarith Yewroot\nTake Yarith's Remedy to Silverspark\nSpeak with Silverspark located in Unicorn Forest, Pony Vale.\n\"[*player_name*]! It's so- Ah- So good to see you again. Achoo! Have you learned anything about our sneezing problem? Oh, you brought- Achoo! Brought a druid remedy?Ack! This is terrible! There's just no way I can eat it. Maybe if- Ah- If you mixed it- Achoo! Mixed it with something sweet I'd be able to get it down. Look for someone that can help near Skysong Ledge.Achoo!\" -Silverspark\nFind an expert on sweets near Skysong Ledge\nSpeak with Marzipan located near Skysong Ledge, Pony Vale.\n\"Why hello there! What brings you to my neck of the woods?Wow! That's quite a story! So you need to mix this remedy with something the Unicorns will like? That's easy! Unicorns just love Ice Cream! You can even get some right here in Pony Vale. A little fellow named Razzle sells it from a kart to the east. But what flavor to use... maybe vanilla? Bring some back and I'll give it a taste test for you.\" -Marzipan\nBring Marzipan some Vanilla Ice Cream\nPurchase one Snowhill Ice Cream: Vanilla from the Coin Shop\nSpeak with Marzipan located near Skysong Ledge, Pony Vale.\n\"Do you have the Vanilla Ice Cream? Great, let's taste it!Oh no... this flavor doesn't work with the remedy at all. I'm sorry, [*player_name*], I really thought vanilla would be perfect. I guess that just leaves chocolate. Bring me some for one last test!\" -Marzipan\nBring Marzipan some Chocolate Ice Cream\nPurchase one Snowhill Ice Cream: Chocolate from the Coin Shop\nSpeak with Marzipan located near Skysong Ledge, Pony Vale.\n\"Ok, the moment of truth...Yes, this tastes absolutely perfect! You should take it to the Unicorns right away, I'm sure they'll just love this mix.\" -Marzipan\nTake the Mixed Remedy to Silverspark\nSpeak with Silverspark located in Unicorn Forest, Pony Vale.\n\"Oh, [*player_name*], have you- Ah- Have you found something to mix that remedy with? Achoo!Chocolate ice cream! That's brilliant!Achoo!\" -Silverspark\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Pony Vale"
+  ]
+ },
+ {
+  "name": "Take a Number",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Queen Valerian"
+  ]
+ },
+ {
+  "name": "Take the Fight to Them",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Gorg",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Gorg"
+  ]
+ },
+ {
+  "name": "Testing a Theory",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Blackspore Swamp"
+  ]
+ },
+ {
+  "name": "Testing the Tour",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cole",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Cole"
+  ]
+ },
+ {
+  "name": "The Eggcellent Egg Hunt",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:The_Eggcellent_Egg_Hunt",
+   "rev_id": 36212,
+   "quest2": {
+    "detail summary": "A robgoblin stole one of Alyssa Eggelyn's special eggs and hid it somewhere in Sacred Grove. She wants you to find it and return it to her.",
+    "first reward": "Egg Coloring Kit",
+    "first reward image name": "Eggcolouringkit.png",
+    "name": "The Eggcellent Egg Hunt",
+    "second reward": "<small>Alyssa's Oddly Swirled Egg</small>",
+    "second reward image name": "Allysasswirledegg.png",
+    "1": "left"
+   },
+   "questprog": {
+    "previous": "[[Quest:The Spring Eggstravaganza|The Spring Eggstravaganza]]",
+    "next": "[[Quest:The Eggcitingly Eggcellent Egg Hunt|The Eggcitingly Eggcellent Egg Hunt]]",
+    "quest series": "[[Spring_Eggstravaganza#Daily_Quests|Spring Eggstravaganza Quest Series]]"
+   },
+   "sections": {
+    "Notes": "This quest is only available during the time of Spring Eggstravaganza.",
+    "Requirements": "Player must complete Quest:The Spring Eggstravaganza in order to do Quest:The Eggcellent Egg Hunt",
+    "To Start": "Speak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.",
+    "Goals": "One of Alyssa's eggs has been hidden somewhere in Sacred Grove and she needs you to find it.\nFind Alyssa Eggelyn's stolen egg.\nReturn to Alyssa Eggelyn.",
+    "Steps": "Speak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.\n\"That dirty robgoblin did it again. When I went to count my eggs I found one was missing with a note from him saying he hid it again.I need all of my eggs before the Spring Eggstravaganza, please use your special skills to find my missing egg.\" -Alyssa Eggelyn\nFind Alyssa Eggelyn's stolen egg.\nThe egg is located at the Northernmost point of the lake that borders the Blackspore Swamp.\nSpeak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.\n\"Hooray you found it and not a moment too soon. Thank you for helping me, please take this special egg that I saved for you to open on Spring Eggstravaganza day.\" -Alyssa Eggelyn",
+    "References": "Spring Eggstravaganza\nRobgoblin\nAlyssa Eggelyn\nSacred Grove\nCategory:Quest\nCategory:Spring Eggstravaganza"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Alyssa Eggelyn",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Spring Eggstravaganza",
+   "Spring Eggstravaganza",
+   "Alyssa Eggelyn",
+   "Pet Pals"
+  ]
+ },
+ {
+  "name": "The Eggcitingly Eggcellent Egg Hunt",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:The_Eggcitingly_Eggcellent_Egg_Hunt",
+   "rev_id": 36213,
+   "quest2": {
+    "detail summary": "A robgoblin stole one of Alyssa Eggelyn's special eggs and hid it somewhere in Sacred Grove. She wants you to find it and return it to her.",
+    "first reward": "Egg Coloring Kit",
+    "first reward image name": "Eggcolouringkit.png",
+    "name": "The Eggcellent Egg Hunt",
+    "second reward": "Alyssa's Striped Egg"
+   },
+   "questprog": {
+    "previous": "[[Quest:The Eggcellent Egg Hunt|The Eggcellent Egg Hunt]]",
+    "next": "[[Quest:The Eggxtremely Eggcitingly Eggcellent Egg Hunt|The Eggxtremely Eggcitingly Eggcellent Egg Hunt]]",
+    "quest series": "[[Spring_Eggstravaganza#Daily_Quests|Spring Eggstravaganza Quest Series]]"
+   },
+   "sections": {
+    "Notes": "This quest is only available during the time of Spring Eggstravaganza.",
+    "Requirements": "Player must complete Quest:The Eggcellent Egg Hunt in order to do Quest:The Eggcitingly Eggcellent Egg Hunt",
+    "To Start": "Speak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.",
+    "Goals": "One of Alyssa's eggs has been hidden somewhere in Sacred Grove and she needs you to find it.\nFind Alyssa Eggelyn's stolen egg.\nReturn to Alyssa Eggelyn.",
+    "Steps": "Speak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.\n\"A third egg has gone missing and it could only be that stinkin' robgoblin. I don't know what to do. Could you please help me find it?\" -Alyssa Eggelyn\nFind Alyssa Eggelyn's stolen egg.\nThe egg is located on a hill near a house by Floren Forest. \nSpeak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.\n\"I can't believe it! You are eggstremely good at finding eggs. Thank you again, <Player Name>. Please take this special egg as a reward, but don't open it until the Spring Eggstravaganza.\" -Alyssa Eggelyn",
+    "References": "Spring Eggstravaganza\nRobgoblin\nAlyssa Eggelyn\nSacred Grove\nCategory:Quest\nCategory:Spring Eggstravaganza"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Alyssa Eggelyn",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Spring Eggstravaganza",
+   "Spring Eggstravaganza",
+   "Alyssa Eggelyn"
+  ]
+ },
+ {
+  "name": "The Eggxtremely Eggcitingly Eggcellent Egg Hunt",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:The_Eggxtremely_Eggcitingly_Eggcellent_Egg_Hunt",
+   "rev_id": 36214,
+   "quest2": {
+    "detail summary": "A robgoblin stole one of Alyssa Eggelyn's special eggs and hid it somewhere in Sacred Grove. She wants you to find it and return it to her.",
+    "first reward": "<small>Alyssa's Spotted Egg</small>",
+    "first reward image name": "Allysasspottedegg.png",
+    "second reward": "Egg Coloring Kit",
+    "second reward image name": "Eggcolouringkit.png",
+    "name": "</big>'''<small>The Eggxtremely Eggcitingly Eggcellent Egg Hunt</small><big>"
+   },
+   "questprog": {
+    "previous": "[[Quest:The Eggcitingly Eggcellent Egg Hunt|The Eggcitingly Eggcellent Egg Hunt]]",
+    "next": "",
+    "quest series": "[[Spring_Eggstravaganza#Daily_Quests|Spring Eggstravaganza Quest Series]]"
+   },
+   "sections": {
+    "Notes": "This quest is only available during the time of Spring Eggstravaganza.",
+    "Requirements": "Player must complete Quest:The Eggcitingly Eggcellent Egg Hunt in order to do Quest:The Eggxtremely Eggcitingly Eggcellent Egg Hunt",
+    "To Start": "Speak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.",
+    "Goals": "One of Alyssa's eggs has been hidden somewhere in Sacred Grove and she needs you to find it.\nFind Alyssa Eggelyn's stolen egg.\nReturn to Alyssa Eggelyn.",
+    "Steps": "Speak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.\n\"The Spring Eggstravaganza is here, but that darn robgoblin stole another one of my eggs. I can't possibly open my other eggs without that one. Do you think you could try to find it?\" -Alyssa Eggelyn\nFind Alyssa Eggelyn's stolen egg.\nThe egg could be found behind a large pile of colorful gems in the Singing Crystal Mines of Snowhill.\nSpeak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.\n\"Eggcellent work, <Player Name>, and thank you for your help again. Now I can enjoy the Spring Eggstravaganza with a smile on my face, and you can take this special egg that I saved just for you.\" -Alyssa Eggelyn",
+    "References": "Spring Eggstravaganza\nRobgoblin\nAlyssa Eggelyn\nSacred Grove\nCategory:Quest\nCategory:Spring Eggstravaganza"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Alyssa Eggelyn",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Spring Eggstravaganza",
+   "Spring Eggstravaganza",
+   "Alyssa Eggelyn"
+  ]
+ },
+ {
+  "name": "The Eye of Necrosis",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Blackspore Swamp",
+   "Donovan Shadeweaver"
+  ]
+ },
+ {
+  "name": "The Gifting Tree",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "The Great Scare",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Pumpkin Prince"
+  ]
+ },
+ {
+  "name": "The Great Scavenger Hunt",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Jenny",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Counselor Jenny",
+   "Robbie"
+  ]
+ },
+ {
+  "name": "The Great Treeble Race",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Jake",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Chatty",
+   "Counselor Jake"
+  ]
+ },
+ {
+  "name": "The Last Laugh",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sirdo",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sirdo",
+   "Donovan Shadeweaver"
+  ]
+ },
+ {
+  "name": "The Legendary Sunstone",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:The_Legendary_Sunstone",
+   "rev_id": 23252,
+   "quest2": {
+    "detail summary": "Rizzle wants to thank you for all the help you've given him, so he's decided to tell you about the famed Legendary Sunstone. Rizzle doesn't know why anyone would want a \"Legendary Sunstone\" but helping out the dwarf that's looking for it could earn you a lot of quality junk.",
+    "coin amount": "5"
+   },
+   "questprog": {
+    "previous": "[[Quest:Robot Woes|Robot Woes]]",
+    "next": "[[Quest:Ambush Recovery|Ambush Recovery]]",
+    "quest series": "[[Sunstone_Valley#Whirly's_Scrap_Camp|Sunstone Valley Quest Series]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Robot Woes in order to do Quest:The Legendary Sunstone",
+    "To Start": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.",
+    "Goals": "Rizzle has pointed you at a strange dwarf in search of the \"Legendary Sunstone\" in Sunstone Valley.\nFind Noggle Cogloose",
+    "Steps": "Speak with Rizzle located in Whirly's Scrap Camp in Sunstone Valley.\n\"Wait, I know! I’ll give you information!Yes, this is really valuable. See, there’s this crazy dwarf with a whole bunch of junk, but he won’t let anyone touch it unless they help him find some “Legendary Sunstone.” Help the dwarf and you could be rich!\" -Rizzle\nSpeak with Noggle Cogloose located in Noggle's Retreat, Sunstone Valley.\n\"You there, yes you with the face!You heard the news then? About my Power Crystals? Oh but of course you did! Who hasn’t really? That’s a much better question.Well, what are you going to do about it?\" -Noggle Cogloose",
+    "References": "Dwarves\nLegendary Sunstone\nNoggle Cogloose\nNoggle's Retreat\nRizzle\nSunstone Valley\nWhirly's Scrap Camp\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Rizzle",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Noggle Cogloose",
+   "Rizzle",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "The Master's Components",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Eggert the Mad"
+  ]
+ },
+ {
+  "name": "The Mining Operation",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Donovan Shadeweaver",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Blackspore Swamp",
+   "Donovan Shadeweaver"
+  ]
+ },
+ {
+  "name": "The Mystery Cavern",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Shaggy Mysterychaser",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Shaggy Mysterychaser"
+  ]
+ },
+ {
+  "name": "The Oldest Building",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cole",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Seaspray",
+   "Cole"
+  ]
+ },
+ {
+  "name": "The Party Pooper",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor McFairy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Mayor McFairy",
+   "Wugunbump"
+  ]
+ },
+ {
+  "name": "The Perfect Disguise",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Candi Ivy",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Candi Ivy"
+  ]
+ },
+ {
+  "name": "The Pumpkin Prince",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Pumpkin Prince"
+  ]
+ },
+ {
+  "name": "The Road to Mire's Edge",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Blackspore Swamp",
+   "Donovan Shadeweaver"
+  ]
+ },
+ {
+  "name": "The Search for Golmie Greasebeard",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Dorn Geargrinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Golmie Greasebeard",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "The Secret Ingredient Is...",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:The_Secret_Ingredient_Is...",
+   "rev_id": 23741,
+   "quest2": {
+    "detail summary": "The last ingredient for Pete's Sunstone Sasparilla is a well guarded secret, so secret that he can't even tell you what it is! But Pete does need your help retrieving it. Apparently he purchases the ingredient from Peace-guana Joe, the former leader of the Sandscale Manguana tribe, but before Joe will give up the secret ingredient he may need you to do something...",
+    "coin amount": "30"
+   },
+   "questprog": {
+    "previous": "[[Quest:The Water Must Flow!|The Water Must Flow!]]",
+    "quest series": "[[Sunstone_Valley#Wheelie_Pete's_Roadhouse|Sunstone Valley Quest Series]]",
+    "next": "[[Quest:For Rizzle|For Rizzle]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:The Water Must Flow! in order to do Quest:The Secret Ingredient Is...",
+    "To Start": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.",
+    "Goals": "Wheelie Pete needs you to help out a friend of his in Sunstone\nMeet Peace-guana Joe\nPass out the Peace Flyer - /5\nReturn to Peace-guana Joe\nReturn to Wheelie Pete",
+    "Steps": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.\n\"The last ingredient in my Sunstone Sasparilla is top secret! Only my old friend Peace-guana Joe knows what it is.Joe was the Sandscale boss before the tribe went crazy. Now he won’t trade with me unless I send him some help. Are you up for it?\" -Wheelie Pete\nMeet with Peace-guana Joe located in Sandscale Territory in Sunstone Valley.\n\"Hey man, you’re Pete’s friend right? That’s righteous dude.So here’s the deal. I’m trying to win back my tribe with these Peace Flyers. If you pass them out I’ll hook you up with Pete’s secret ingredient. Sound good?\" -Peace-guana Joe\nPass out the Peace Flyer - /5\nPass out Peace Flyers to Peacefull Sandscales located around Sandscale Territory. There are guides and watch out for Enemies!\n\"All this fighting hasn't done a thing for us. I'm ready for peace!\" -Peaceful Sandscale\n\"Oh, uh, thanks. I hope Sandspear doesn't see me with this...\" -Peaceful Sandscale\n\"Wow, a peace flyer? Maybe Peace-guana Joe was right about peace after all.\" -Peaceful Sandscale\n\"Yeah! Peace and love forever, man!\" -Peaceful Sandscale\nReturn to Peace-guana Joe located in Sandscale Territory in Sunstone Valley.\n\"Right on, <Player Name>! The war for peace and love may not be over, but you’ve won a major victory today.And here is Pete’s secret ingredient, just like I promised. Let him know I’ve sent along some positive vibes with it.\" -Peace-guana Joe\nSpeak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.\n\"Ha, the secret ingredient! With this I can finally finish brewing my famous Sunstone Sasparilla!And as promised you get the first barrel.\" -Wheelie Pete",
+    "References": "Wheelie Pete\nManguana\nPeace-guana Joe\nPeaceful Sandscale\nSunstone Valley\nSandscale Manguana Tribe\nSasparilla\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Wheelie Pete",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Wheelie Pete",
+   "Peace-guana Joe",
+   "Sandspear",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "The Spring Eggstravaganza",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:The_Spring_Eggstravaganza",
+   "rev_id": 36211,
+   "quest2": {
+    "detail summary": "A robgoblin stole one of Alyssa Eggelyn's special eggs and hid it somewhere in Sacred Grove. She wants you to find it and return it to her.",
+    "first reward": "Egg Coloring Kit",
+    "first reward image name": "Eggcolouringkit.png",
+    "second reward": "Alyssa's Wacky Striped Egg",
+    "second reward image name": "",
+    "1": "left"
+   },
+   "questprog": {
+    "previous": "",
+    "next": "[[Quest:The Eggcellent Egg Hunt|The Eggcellent Egg Hunt]]",
+    "quest series": "[[Spring_Eggstravaganza#Daily_Quests|Spring Eggstravaganza Quest Series]]"
+   },
+   "sections": {
+    "Notes": "This quest is only available during the time of Spring Eggstravaganza.",
+    "To Start": "Speak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.",
+    "Goals": "One of Alyssa's eggs has been hidden somewhere in Sacred Grove and she needs you to find it.\nFind Alyssa Eggelyn's stolen egg.\nReturn to Alyssa Eggelyn.",
+    "Steps": "Speak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.\n\"A mean robgoblin took one of my eggs and hid them somewhere. Spring Eggstravaganza is around the corner and I need your help finding it.\" -Alyssa Eggelyn\nFind Alyssa Eggelyn's stolen egg.\nThe egg is located in the Briarwood Maze a short distance to the left of Snarling Hedges.\nSpeak with Alyssa Eggelyn located in Pixiewood Hills in Sanctuary.\n\"Wow I thought you would never find it. Your egg seeking abilities are eggsemplary and are deserving of one of my special eggs.\" -Alyssa Eggelyn",
+    "References": "Spring Eggstravaganza\nRobgoblin\nAlyssa Eggelyn\nSacred Grove\nCategory:Quest\nCategory:Spring Eggstravaganza"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Alyssa Eggelyn",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Spring Eggstravaganza",
+   "Spring Eggstravaganza",
+   "Alyssa Eggelyn"
+  ]
+ },
+ {
+  "name": "The Water Must Flow!",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:The_Water_Must_Flow!",
+   "rev_id": 23697,
+   "quest2": {
+    "detail summary": "The recent manguana uprising has really messed with Pete's business, and theft isn't even the worst part! Pete hasn't been able to get a single drop of oasis water, which is a critical ingredient in his famous Sunstone Sasparilla, since the manguana locked down the oasis. Venture into Sandscale Oasis and collect some oasis water for Pete.",
+    "first reward": "",
+    "first reward image name": "",
+    "coin amount": "20"
+   },
+   "questprog": {
+    "previous": "[[Quest:Hog Wild Harley|Hog Wild Harley]]",
+    "quest series": "[[Sunstone_Valley#Wheelie_Pete's_Roadhouse|Sunstone Valley Quest Series]]",
+    "next": "[[Quest:The Secret Ingredient Is...|The Secret Ingredient Is...]]"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Hog Wild Harley in order to do Quest:The Water Must Flow!",
+    "To Start": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.",
+    "Goals": "Wheelie Pete would like some Oasis Water from Sandscale Oasis in Sunstone Valley.\nCollect Oasis Water from Sandscale Oasis - /4\nReturn to Wheelie Pete",
+    "Steps": "Speak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.\n\"I'd like to brew more of my famous Sunstone Sasparilla, but I’m out of oasis water! It’s a critical ingredient and those Sandscale manguana have been hoarding it.Think you can get me some Oasis Water from Sandscale Oasis?\" -Wheelie Pete\nEnter the Sandscale Oasis Battle found North-West of Wheelie Pete's Roadhouse\nCollect Oasis Water from Sandscale Oasis - /4\nCollect Oasis Water found in the Oasis along the path, Watch out for Jumping Cacti!\nSpeak with Wheelie Pete located in front of Wheelie Pete's Roadhouse in Sunstone Valley.\n\"Thanks for bringing me this Oasis Water, <Player Name>! I’ll make sure you get the first barrel of Sunstone Sasparilla I brew with it.But first I need one more ingredient.\" -Wheelie Pete",
+    "References": "Jumping Cactus\nManguana\nOasis Water\nSandscale Oasis\nSunstone Valley\nWheelie Pete\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Wheelie Pete",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Wheelie Pete",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "The Way of the Wilds",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Captain Sunspark",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Captain Sunspark"
+  ]
+ },
+ {
+  "name": "Thieves About!",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Bry"
+  ]
+ },
+ {
+  "name": "This Glade is Ours!",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Captain Sunspark",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Gus Geargrinder",
+   "Captain Sunspark",
+   "Arch Druid Camellia"
+  ]
+ },
+ {
+  "name": "Thugawugs",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lugabow",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lugabow"
+  ]
+ },
+ {
+  "name": "Tides of Change",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Mayor Gilly",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Seaspray",
+   "Mayor Gilly"
+  ]
+ },
+ {
+  "name": "To Coin a Phrase",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Lucky Chance McXander",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Lucky Chance McXander"
+  ]
+ },
+ {
+  "name": "Touring Seaside",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cole",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Diggy",
+   "The Great Koodini",
+   "Cole"
+  ]
+ },
+ {
+  "name": "Trapped and Alone",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Trapped_and_Alone",
+   "rev_id": 27504,
+   "quest2": {
+    "detail summary": "If you want to help the dwarves of Sunstone Valley, Captain Sunspark has suggested that you talk to Gus Geargrinder.",
+    "coin amount": "20"
+   },
+   "questprog": {
+    "next": "[[Quest:Proving Your Worth|Proving Your Worth]]"
+   },
+   "sections": {
+    "Notes": "This quest is no longer available.",
+    "To Start": "Speak with Captain Sunspark located in front of the Warpstone in Shrouded Glade.",
+    "Goals": "Captain Sunspark in Shrouded Glade has sent you to help the dwarves.\nTalk to Gus Geargrinder",
+    "Steps": "Speak with Captain Sunspark located in front of the Warpstone in Shrouded Glade.\n\"Because of this invasion, the dwarves may never get home. They came here looking for allies, but the druids turned them down. Then the invasion began, leaving them trapped with no one to turn to for help.If you want to help them, the person you need to talk to is Gus Geargrinder.\" -Captain Sunspark\nSpeak with Gus Geargrinder located in the Pet Park area of the Shrouded Glade.\n\"Captain Sunspark sent you...What, you think that gives you a free pass or something? I'm going to need more than that before I'll start trusting you!\" -Gus Geargrinder",
+    "References": "Captain Sunspark\nDruids\nDwarves\nGus Geargrinder\nShrouded Glade\nShrouded Gloam\nSunstone Valley\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Captain Sunspark",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Gus Geargrinder",
+   "Captain Sunspark"
+  ]
+ },
+ {
+  "name": "Trick-or-Treat",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Halloween Harry",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Halloween Harry"
+  ]
+ },
+ {
+  "name": "Troubled Waters",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Mayor Gilly"
+  ]
+ },
+ {
+  "name": "Troubling Waters",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Captain Sunspark",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Captain Sunspark"
+  ]
+ },
+ {
+  "name": "Undelivered Confections",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Camellia",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Under Pressure",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sarkin Stonehearth",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sarkin Stonehearth",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "Unearthing Treasures",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Cammy",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Counselor Cammy",
+   "Robbie"
+  ]
+ },
+ {
+  "name": "Unicorn's Plight",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Silverspark",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Pony Vale",
+   "Silverspark"
+  ]
+ },
+ {
+  "name": "Unmasking the Bandits",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Muggenstomp"
+  ]
+ },
+ {
+  "name": "Unmasking the Villain",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Necronomicus"
+  ]
+ },
+ {
+  "name": "Unwanted Guests",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Kai",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Kai",
+   "Nekark"
+  ]
+ },
+ {
+  "name": "Urgent Missive",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Gorg",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Gorg",
+   "Snorg"
+  ]
+ },
+ {
+  "name": "Visiting the Job Center",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Queen Valerian",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Queen Valerian",
+   "Captain Sunspark"
+  ]
+ },
+ {
+  "name": "Warm Welcome",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Warm_Welcome",
+   "rev_id": 49929,
+   "quest2": {
+    "name": "Warm Welcome",
+    "detail summary": "A talking horse named Peppermint wants you to meet her friend Honeydew near Skysong Ledge."
+   },
+   "questprog": {
+    "quest series": "[[Pony_Vale#Quest_Series|Pony Vale]]",
+    "next": "[[Quest:Helping Honeydew|Helping Honeydew]]"
+   },
+   "sections": {
+    "Quest Overview": "There isn't much to this quest; you are greeted by Peppermint and then sent on to talk to Honeydew.",
+    "Quest Dialogue:": "",
+    "Peppermint:": "\"Oh wow! You're a [*player_race*] right? It's wonderful to meet you! This is your first time to Pony Vale isn't it? Then you absolutely have to see Unicorn Forest, oh but first Skysong Ledge, that's where Skysong lives! He brought us all here you know, us horses I mean. He's so cool!\n\nOh right, Skysong Ledge, that's straight north and a little west of here. Hey! You can meet my friend Honeydew when you get there!\"",
+    "Honeydew after being sent by Peppermint:": "\"Hmm, oh hello there... now where did those baby horses get off to?\n\nOh my, I'm being terribly rude aren't I! I haven't even given you a proper welcome. Well, I'm Honeydew. Nice to meet you!\"\nCategory:Quest\nCategory:Pony Vale\nCategory:Pony Vale Quests"
+   }
+  },
+  "givers": [],
+  "appearances": [
+   "Pony Vale"
+  ]
+ },
+ {
+  "name": "Warrior: Finding Facts About Fastvi",
+  "page": null,
+  "givers": [
+   {
+    "npc": "General Glowlight",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "General Glowlight"
+  ]
+ },
+ {
+  "name": "Warrior: General Concerns",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Doctor Gordon",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Doctor Gordon",
+   "General Glowlight"
+  ]
+ },
+ {
+  "name": "Warrior: Take Care of That Ankle",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Doctor Gordon"
+  ]
+ },
+ {
+  "name": "Welcome Back!",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Queen Valerian"
+  ]
+ },
+ {
+  "name": "Welcome to Seaside",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Cole"
+  ]
+ },
+ {
+  "name": "Welcome to the Rumbledome",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Dorn Geargrinder",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Dorn Geargrinder",
+   "Lieutenant Brock",
+   "Golmie Greasebeard",
+   "Sunstone Valley"
+  ]
+ },
+ {
+  "name": "What's for Dinner?",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Counselor Wes",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Counselor Wes"
+  ]
+ },
+ {
+  "name": "What's In a Name?",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sirdo",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sirdo"
+  ]
+ },
+ {
+  "name": "Where is Everyone?",
+  "page": null,
+  "givers": [
+   {
+    "npc": "General Glowlight",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "General Glowlight"
+  ]
+ },
+ {
+  "name": "Where is Lugunwump?",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Wugunbump",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Wugunbump"
+  ]
+ },
+ {
+  "name": "Where is the Love?",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Cudip",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Cudip"
+  ]
+ },
+ {
+  "name": "Winter Party",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Winter_Party",
+   "rev_id": 35916,
+   "quest2": {
+    "detail summary": "Tiger the Party Animal wants to give you a party favor if you're wearing some winter holiday themed clothes.",
+    "first reward": "Holiday Party Mystery Gift",
+    "first reward image name": "Holiday_party_mystery_gift.jpg"
+   },
+   "questprog": null,
+   "sections": {
+    "Requirements": "Quest:Winter Party is only available during Winter Party Community Events.",
+    "To Start": "Speak with Tiger the Party Animal during a Winter Party event.",
+    "Goals": "Put on some wintery gear and speak to Tiger the Party Animal at a Winter Party.\nPut on a winter holiday outfit\nSpeak to Tiger",
+    "Steps": "Speak with Tiger the Party Animal during a Winter Party event.\n\"Look at this chillin' party! Do you like my festive outfit?How about you show me your fave winter holiday gear, and I'll totally give you this super cool party favor? \" -Tiger the Party Animal\nPut on a winter holiday outfit\nEquip holiday themed items such as tacky sweaters or marketplace costumes.\nSpeak with Tiger the Party Animal during a Winter Party event.\n\"Brr! That's so cool, it gives me the shivers! Nice outfit, dude.\" -Tiger the Party Animal\nCategory:Quest"
+   }
+  },
+  "givers": [
+   {
+    "npc": "Tiger the Party Animal",
+    "repeatable": true
+   }
+  ],
+  "appearances": [
+   "Tiger the Party Animal"
+  ]
+ },
+ {
+  "name": "Wizard: An Icy Mistake",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Fizzlesticks",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Fizzlesticks",
+   "Yaren Sunstare"
+  ]
+ },
+ {
+  "name": "Wizard: Crystal Clear Delivery",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sandbur",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Iliya",
+   "Sandbur"
+  ]
+ },
+ {
+  "name": "Wizard: Feeding the Storyteller",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Yaren Sunstare"
+  ]
+ },
+ {
+  "name": "Wizard: Filling in the Gaps",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Iliya",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Iliya",
+   "Sandbur"
+  ]
+ },
+ {
+  "name": "Wizard: Helping a Friend",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Osgood",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sandbur",
+   "Yaren Sunstare",
+   "Osgood"
+  ]
+ },
+ {
+  "name": "Wizard: How to be a Wizard",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Fizzlesticks",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Fizzlesticks"
+  ]
+ },
+ {
+  "name": "Wizard: I Can't Read This!",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Fizzlesticks",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Fizzlesticks"
+  ]
+ },
+ {
+  "name": "Wizard: Lightning Bolt!",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Fizzlesticks",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Fizzlesticks"
+  ]
+ },
+ {
+  "name": "Wizard: Lost Student",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Yaren Sunstare",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Yaren Sunstare"
+  ]
+ },
+ {
+  "name": "Wizard: Market Wizards",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Fizzlesticks",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Fizzlesticks"
+  ]
+ },
+ {
+  "name": "Wizard: Merry Magical Story",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Yaren Sunstare",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Yaren Sunstare"
+  ]
+ },
+ {
+  "name": "Wizard: Missing Student Sven",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Osgood",
+    "repeatable": false
+   }
+  ],
+  "appearances": []
+ },
+ {
+  "name": "Wizard: One Thing to Bind Them",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Osgood"
+  ]
+ },
+ {
+  "name": "Wizard: Osgood as it Gets",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Yaren Sunstare",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Yaren Sunstare",
+   "Osgood"
+  ]
+ },
+ {
+  "name": "Wizard: Parts and Labor",
+  "page": null,
+  "givers": [],
+  "appearances": [
+   "Osgood"
+  ]
+ },
+ {
+  "name": "Wizard: Reach Level 10",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Osgood",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Osgood"
+  ]
+ },
+ {
+  "name": "Wizard: Reach Level 15",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Osgood",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Osgood"
+  ]
+ },
+ {
+  "name": "Wizard: Reach Level 5",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Fizzlesticks",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Fizzlesticks"
+  ]
+ },
+ {
+  "name": "Wizard: Searching for the Past",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Sandbur",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Sandbur"
+  ]
+ },
+ {
+  "name": "Wizard: Sticky Spell Book",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Fizzlesticks",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Fizzlesticks"
+  ]
+ },
+ {
+  "name": "Wizard: Student Profits",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Fizzlesticks",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Fizzlesticks",
+   "Mayor Crystalline"
+  ]
+ },
+ {
+  "name": "Wizard: The First Rule of Being a Wizard...",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Fizzlesticks",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Fizzlesticks"
+  ]
+ },
+ {
+  "name": "Wizard: Things Left Unfinished",
+  "page": null,
+  "givers": [
+   {
+    "npc": "Iliya",
+    "repeatable": false
+   }
+  ],
+  "appearances": [
+   "Iliya",
+   "Sandbur"
+  ]
+ },
+ {
+  "name": "Your First Weapon",
+  "page": {
+   "url": "https://freerealms.fandom.com/wiki/Quest:Your_First_Weapon",
+   "rev_id": 27815,
+   "quest2": {
+    "detail summary": "You've helped almost all you can on the farm and as a reward Farnum will help you with forging your first weapon.  This should be useful in defending yourself from the raiding Hooligans.",
+    "first reward": "",
+    "first reward image name": "",
+    "coin amount": "16"
+   },
+   "questprog": {
+    "next": "[[Quest:Fighting off the Pack|Fighting off the Pack]]",
+    "previous": "[[Quest:Learn to Mine & Smelt Ore|Learn to Mine & Smelt Ore]]",
+    "quest series": "Farnum's Farm"
+   },
+   "sections": {
+    "Requirements": "Player must complete Quest:Learn to Mine & Smelt Ore in order to do Quest:Your First Weapon",
+    "To Start": "Speak with Cleetus Farnum that can be found on Farnum's Farm located in Southern Wilds.",
+    "Goals": "Learn how to forge weapons with Cleetus Farnum's help.\nForge a Funky Scrapper Hammer\nReturn to Cleetus Farnum",
+    "Steps": "Speak with Cleetus Farnum that can be found on Farnum's Farm located in Southern Wilds.\n\"These Hooligans have been causing us a lot of problems and picking up after a mess is only part of the solution. We need to stop them from breaking things in the first place.\" -Cleetus Farnum\n\"Since you’ve been so helpful around here I’m going to give you everything you need to craft yourself a better hammer. Use this Anvil to forge a Spunky Scrapper Hammer.\" -Cleetus Farnum\nPlayer receives:\n10 Copper Bars\n5 Turquoise\n5 Wooden Planks\n5 Thorny Fasteners\nForge a Funky Scrapper Hammer\nForge the Funky Scrapper Hammer at the nearby Blacksmith Anvil.\nSpeak with Cleetus Farnum that can be found on Farnum's Farm located in Southern Wilds.\n\"That’s one mighty hammer, I hope you won’t have to put it to good use too often.\" -Cleetus Farnum",
+    "References": "Farnum\nBlacksmith\nForging\nCleetus Farnum\nHooligans\nSpunky Scrapper Hammer\nCategory:Quest"
+   }
+  },
+  "givers": [],
+  "appearances": []
+ }
+]

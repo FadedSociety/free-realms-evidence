@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwooden-coin-1076-v1-evidence-r1 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[13574, 10536, 8, 1812] model=claude-haiku-5-5 -->
+# Wooden Coin
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The answer says the second definition (48249) shares the name, but leaves out that its entry in the Lxzxrus ClientItemDefinitions.json (line 991252-991256) has no DescriptionId and no Cost or MaxStackSize, unlike Id 60 (lines 1241-1250, DescriptionId 24229, Cost 1, MaxStackSize -1). That difference is the most concrete hint about which definition is the collection coin, and the answer does not mention it.", "fix": "Add: definition 48249 (refs:Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json:991252-991256) carries NameId 1076 with no DescriptionId, Cost or MaxStackSize; Id 60 (lines 1241-1250) carries DescriptionId 24229, Cost 1, MaxStackSize -1."}]}

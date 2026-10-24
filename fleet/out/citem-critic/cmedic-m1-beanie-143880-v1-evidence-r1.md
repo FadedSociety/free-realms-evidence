@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmedic-m1-beanie-143880-v1-evidence-r1 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3183, 3819, 6, 714] model=claude-haiku-5-5 -->
+# Medic M1 Beanie
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Answer sets live to 'unsure' and retired to null. This is honest: the pack has only the client name line and a client definition, with no vendor, quest, drop, event or wiki source. My own lookup of 'Medic M1' across client, wiki, articles and video returned only locale:143880 (Beanie) and locale:143775 (Shirt), and the repo search for 143880 or 51998 found no acquisition data. The unknowns are correctly kept in open.", "fix": "No change required. If a later pass finds a source, set live and retired from it. Jev's 'vendor' guess has no support in the pack (vendor_stock is empty) and is correctly excluded from sources."}]}

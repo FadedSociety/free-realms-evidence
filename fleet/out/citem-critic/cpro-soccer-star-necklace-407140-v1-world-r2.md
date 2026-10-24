@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpro-soccer-star-necklace-407140-v1-world-r2 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13295, 11590, 8, 1156] model=claude-haiku-5-5 -->
+# Pro Soccer Star Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the Snowhill 'Soccer Star Gear' vendor is recorded in snowhill.json:16210 only as a video title ('Soccer Star Gear vendor (video title)'), not as a frame-verified vendor. The answer's open list covers the lead but does not say that the lead rests on a video title alone.", "fix": "State that the Snowhill vendor lead comes from a video title (snowhill.json:16210) and that its stock is unitemized (vendors_unresolved.json:305-316). Keep the item unconfirmed there."}]}

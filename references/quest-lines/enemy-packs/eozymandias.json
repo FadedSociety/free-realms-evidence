@@ -1,0 +1,44 @@
+{
+ "title": "Ozymandias",
+ "our_entries": [
+  {
+   "file": "dungeons\\floren_forest.json",
+   "definition_id": 930037
+  },
+  {
+   "file": "dungeons\\floren_forest.json",
+   "definition_id": 930037
+  },
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000927,
+   "zone": "Wilds",
+   "enemy_kind": "The grinning stone idol and boss of Floren Forest; corrupts the floren.",
+   "location_evidence": [
+    "Floren Forest."
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:16066 [npc_name | - | Ozymandias] 'Ozymandias'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:16066 [npc_name | - | Ozymandias] 'Ozymandias'",
+  "locale:16067 [npc_dialog | - | Ozymandias] 'Who are you? What are you doing here? Go away!'",
+  "locale:16404 [npc_name | - | Ozymandias] 'Ozymandias - Destroyer '",
+  "locale:93968 [quest_dialog | - | Ozymandias] 'Though the grinning artifact Ozymandias was no match for [*player*], the plot with the Shadow Talon thickens.'"
+ ],
+ "client_cluster": [
+  "locale:16060 [ability | - | Shadow Copy!] 'Shadow Copy!'",
+  "locale:16066 [npc_name | - | Ozymandias] 'Ozymandias'",
+  "locale:16067 [npc_dialog | - | Ozymandias] 'Who are you? What are you doing here? Go away!'",
+  "locale:16071 [quest_title | Briarwood | Toad Tag - Round 1] 'Toad Tag - Round 1'",
+  "locale:16072 [quest_objective | Briarwood | Toad Tag - Round 1] 'Darrel in Briarwood wants you to play the third round of Toad Tag.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

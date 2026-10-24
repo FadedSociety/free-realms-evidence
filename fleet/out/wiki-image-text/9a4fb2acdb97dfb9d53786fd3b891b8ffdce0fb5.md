@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=9a4fb2acdb97dfb9d53786fd3b891b8ffdce0fb5 status=done turns=2 usd=0.0006 tokens(read,write,in,out)=[2174, 2547, 6, 488] model=claude-haiku-5-5 -->
+# Hallpassadvertisement.png
+
+{"kind": "art_or_promo", "has_text": true, "text": "FreeRealms\nHALL PASS\nPass Includes...\nFull Game Access*\n+\n250 Station Cash Each Month!\nON SALE\nNOW!\nAvailable for purchase for a Limited Time Only starting September 2nd!\n*Hall Pass Good Through 12-31-2011", "tooltip": null, "entries": null, "uncertain": ["The logo text 'FreeRealms' is stylized; read as 'Free Realms' with the registered mark omitted. The asterisk footnote '*Hall Pass Good Through 12-31-2011' is small but legible. Client locale has 'Hall Pass Backpack' (436315) and 'Hall Pass Membership Package' (436317), but no exact string for this advertisement banner's headline text."]}

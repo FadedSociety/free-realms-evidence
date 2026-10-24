@@ -1,0 +1,56 @@
+{
+ "title": "Queen Verda",
+ "our_entries": [
+  {
+   "file": "dungeons\\forest_troll_fort.json",
+   "definition_id": 930045
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json",
+   "definition_id": 930045
+  },
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000933,
+   "zone": "Wilds",
+   "enemy_kind": "Troll queen and boss of Forest Troll Fort; holds the last shard of Arumune. The Fort text spells her \"Queen Varda\" once (350466328).",
+   "location_evidence": [
+    "The Fort in the north-east Wilds (wiki); \"Troll Fort behind an army of trolls\" (985524057)."
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:17075 [npc_name | - | Queen Verda] 'Queen Verda'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:17072 [quest_objective | Forest Troll Fort | Queen Verda | FLAG dev_note: looks like a developer note on a primary attack] 'forest troll fort - Queen Verda primary attack'",
+  "locale:17075 [npc_name | - | Queen Verda] 'Queen Verda'",
+  "locale:17077 [npc_dialog | - | Queen Verda] 'Why are you here? Go back where you came from!'",
+  "locale:17079 [npc_dialog | - | Queen Verda] 'I mean... I have stolen nothing!  You are here because of those other druids are you not?  It does not matter really, you are not welcomed here!'",
+  "locale:17082 [npc_dialog | - | Queen Verda] 'You will be wise to turn back now... I am spending too much time here talking to you!  Leave now or suffer my wrath!'",
+  "locale:419360 [quest_objective | Troll Fort | Queen Verda] 'Enter the Troll Fort and defeat Queen Varda to obtain the final shard.'",
+  "locale:419361 [quest_objective | Troll Fort | Queen Verda] 'Defeat Queen Verda'"
+ ],
+ "client_cluster": [
+  "locale:17070 [npc_name | - | Reginald] 'Reginald'",
+  "locale:17071 [ability | - | Zap] 'Zap'",
+  "locale:17072 [quest_objective | Forest Troll Fort | Queen Verda | FLAG dev_note: looks like a developer note on a primary attack] 'forest troll fort - Queen Verda primary attack'",
+  "locale:17075 [npc_name | - | Queen Verda] 'Queen Verda'",
+  "locale:17077 [npc_dialog | - | Queen Verda] 'Why are you here? Go back where you came from!'",
+  "locale:17079 [npc_dialog | - | Queen Verda] 'I mean... I have stolen nothing!  You are here because of those other druids are you not?  It does not matter really, you are not welcomed here!'",
+  "locale:17080 [place | - | Mushroom Ring] 'Mushroom Ring'",
+  "locale:17082 [npc_dialog | - | Queen Verda] 'You will be wise to turn back now... I am spending too much time here talking to you!  Leave now or suffer my wrath!'"
+ ],
+ "wiki": {
+  "title": "Queen Verda",
+  "text": "Queen Verda is a troll NPC boss that can be found in the Forest Troll Fort, located in the Forest Troll Village. She is the queen of the Forest Trolls and rules in over the troll village in the Forest Troll Fort. She is known for being a cruel queen and stealing from her own villagers to obtain her own riches.\n\nDialogues\n\nAppearances\nForest Troll Village\nTrading Card Game Series 1\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Females\nCategory:Troll\nCategory:Royalty\nCategory:Trading Card Game"
+ },
+ "images": [],
+ "video": [
+  "video:eko5OxPGNsM/00062.jpg (-): items_seen: Jonin Ninja Cowl Ninja's Power Shard of Vitality V Ninja's Shadow Blade of Dragon Breath | other_text: Forest Troll Fort Difficulty: Requires a level 11 combat job Queen Verda is stealing from everyone - even her own trolls in the village! Ascend the fort and defeat h",
+  "video:eko5OxPGNsM/00064.jpg (-): items_seen: Jonin Ninja Cowl Ninja's Power Shard of Vitality V Ninja's Shadow Blade of Dragon Breath | other_text: Click Here to Change Jobs. Forest Troll Fort Difficulty: Requires a level 13 combat job Queen Verda is stealing from everyone - even her own trolls in the village! A"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

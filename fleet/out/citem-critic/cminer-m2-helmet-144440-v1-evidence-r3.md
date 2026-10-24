@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cminer-m2-helmet-144440-v1-evidence-r3 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[12961, 11427, 8, 1153] model=claude-haiku-5-5 -->
+# Miner M2 Helmet
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer's Kallie claim is accurate (Subsurface Miner set appears in the wiki-sourced NPC and vendor files), and it correctly says that set is not named 'Miner M2'. The locale lines (144440 Helmet, 144545 Overalls) check out. No source is asserted, so no evidence claim is wrong. The 'live: unsure' and confidence 0.15 are honest. Nothing is guessed.", "fix": "No change needed for the evidence lens. Optional: note in open that Witts (NPCs - Wilds.md:59) sells Strip Miner and Slop Miner sets, which are not the M2 name, so they are not a source here unless the M2 set is proven to match them."}]}

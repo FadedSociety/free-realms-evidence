@@ -1,0 +1,50 @@
+{
+ "title": "Community party (fête)",
+ "names_seen": [
+  "Community party (fête)"
+ ],
+ "facts": [
+  {
+   "statement": "Community parties were held every Thursday and Friday in a different location, and players were invited to bring friends.",
+   "numbers": {
+    "days_per_week": 2
+   },
+   "era": "live",
+   "quote": "Rendez-vous tous les jeudis et vendredis avec la communauté pour faire la fête dans un lieu différent",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1989",
+   "date": "2011-01-07"
+  },
+  {
+   "statement": "The party of Friday 7 January 2011 was held on a stage at Snowy Hill (Colline des Neiges) on Server 1, starting 18:00 CET (4:00pm GMT).",
+   "numbers": {
+    "date_year": 2011,
+    "date_month": 1,
+    "date_day": 7,
+    "hour_CET": 18,
+    "hour_GMT": 16
+   },
+   "era": "live",
+   "quote": "sur une scène à la Colline des Neiges sur le serveur 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1989",
+   "date": "2011-01-07"
+  },
+  {
+   "statement": "Players were told to bring their favorite outfits and a boom box to the party.",
+   "numbers": {},
+   "era": "live",
+   "quote": "N’oublie pas d’apporter tes tenues préférées et boom boxe!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1989",
+   "date": "2011-01-07"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1989",
+   "date": "2011-01-07",
+   "title": "Evénement: La Première Fête de 2011!",
+   "summary": "A French-language community event post announcing the first party of 2011. Free Realms community parties were held on Thursdays and Fridays at a rotating location, and this week's party was on a stage at Snowy Hill (Colline des Neiges) on Server 1 on Friday 7 January 2011. Players were asked to bring favorite outfits and a boom box."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

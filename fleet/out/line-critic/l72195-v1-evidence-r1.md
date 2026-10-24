@@ -1,0 +1,4 @@
+<!-- fleet job=line-critic id=l72195-v1-evidence-r1 status=done turns=3 usd=0.0012 tokens(read,write,in,out)=[7278, 4430, 8, 1165] model=claude-haiku-5-5 -->
+# dialog 72195-72195
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[0] / stage", "issue": "Minor: the binding says the opening dialog asks players to borrow buckets, but the pack has no opening dialog line. The borrow request is the quest_objective 72112 ('Murdunk needs to borrow a bucket that won't leak', hint Murdunk), not a dialog line. The claim is supported by the objective, so it is not wrong, but the source should name 72112.", "fix": "Cite locale:72112 (quest_objective, hint Murdunk) as the borrow request. Locale:72195 text is confirmed verbatim: 'Oh, these are perfect! And they are undamaged as well!... have certainly earned a reward.' The stage quest_complete fits this reward speech."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-void-spun-slacks-pl-void-spun-slacks-5875-v1-world-r2 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[11423, 13721, 8, 1101] model=claude-haiku-5-5 -->
+# {n}Void Spun Slacks{pl="Void Spun Slacks"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "Overstated: the Legacy and Sanctuary ClientItemDefinitions.json files list 'Void Spun Slacks' as a Comment, which shows the definition existed in a client build. It does not show the item was sold, dropped or rewarded in the live game, so 'it was a real shipped item' goes further than the source.", "fix": "Say only that the definition exists in refs FreeRealms-Legacy and Sanctuary ClientItemDefinitions.json (Comment 'Void Spun Slacks'). Acquisition stays unknown."}]}

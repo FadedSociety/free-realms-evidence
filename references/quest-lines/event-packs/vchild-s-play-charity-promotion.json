@@ -1,0 +1,31 @@
+{
+ "title": "Child's Play 2010 charity promotion",
+ "names_seen": [
+  "Child's Play 2010 charity promotion"
+ ],
+ "facts": [
+  {
+   "statement": "SOE ran a Child's Play charity promotion in which select in-game items bought with Station Cash raised money for Child's Play, during December 21-31.",
+   "numbers": {
+    "donation per item (USD)": 10,
+    "total donation cap (USD)": 50000,
+    "start day": 21,
+    "end day": 31
+   },
+   "era": "live",
+   "quote": "Por cada articulo seleccionado dentro del juego del 21 de Diciembre al 31 de Diciembre, SOE donara $10 a la beneficencia, hasta $50, 000 en total.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1980",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1980",
+   "date": null,
+   "title": "Child's Play 2010!",
+   "summary": "A Spanish-language SOE news post (listed under Free Realms 'What is New?') announcing SOE's 2010 Child's Play charity promotion. Players could buy a special Free Realms penguin pet item with Station Cash between December 21 and December 31, and SOE would donate $10 per item sold, up to $50,000 total. The post's date is not shown in the text, only 'Posted 5 months, 2 weeks ago' relative to capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

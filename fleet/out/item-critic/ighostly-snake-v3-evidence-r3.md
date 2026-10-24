@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ighostly-snake-v3-evidence-r3 status=done turns=5 usd=0.0025 tokens(read,write,in,out)=[37632, 12114, 12, 1227] model=claude-haiku-5-5 -->
+# Ghostly Snake
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1] (type event)", "issue": "The second source is an event row with null price and currency. It is not an acquisition path, and its own detail says so. It duplicates the Coin Shop window rather than adding evidence. Not a false claim, but it could be read as a separate source.", "fix": "Fold the Super Spooktacular window into the coin_shop source's detail (already done there) and drop the separate event source, or mark it as availability metadata only. Evidence: wiki wikitext freerealms-wiki/wikitext/11109-50234-c912a86ba124.wiki line 6 places the sale 'during the Super Spooktacular'."}]}

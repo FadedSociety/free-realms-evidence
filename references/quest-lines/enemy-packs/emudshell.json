@@ -1,0 +1,59 @@
+{
+ "title": "Mudshell",
+ "our_entries": [
+  {
+   "file": "dungeons\\mudshell.json",
+   "definition_id": 930048
+  },
+  {
+   "file": "dungeons\\mudshell.json",
+   "definition_id": 930048
+  },
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000049,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Wandering elder cray boss",
+   "location_evidence": [
+    "North shoreline and Sinking Graveyard"
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:78144 [npc_name | - | Mudshell] 'Mudshell'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:78144 [npc_name | - | Mudshell] 'Mudshell'",
+  "locale:78145 [npc_dialog | - | Mudshell] 'Snatching Snappers!'",
+  "locale:91293 [quest_objective | Snowhill | Mudshell] 'Mudshell, an elder cray, is making this area unsafe for all! Head in and defeat Mudshell!'",
+  "locale:91294 [quest_objective | Snowhill | Mudshell] 'Defeat Mudshell.'",
+  "locale:91295 [quest_objective | Snowhill | Mudshell] 'Mudshell has been aggressively attacking travelers in this area. Defeat him!'",
+  "locale:92259 [other | - | Mudshell | FLAG dev_note: developer note about a drowning flag proc] 'Mudshell - delete drowning flag proc'",
+  "locale:140237 [quest_dialog | Blackspore | Mudshell] 'Have you seen Mudshell yet?  He probably only ventures about at certain times...'",
+  "locale:418741 [quest_dialog | Blackspore | Mudshell] 'Thank you for your help with Mudshell! If you can spare the time, I have a few more tasks for you here in Blackspore.'",
+  "locale:418748 [quest_dialog | Mire's Edge | Mudshell] \"Thank you for coming! We could really use your help around here!<BR><BR>There's a vicious cray called Mudshell that's been prowling near here. He must be defeat\""
+ ],
+ "client_cluster": [
+  "locale:78143 [npc_name | - | Bergram Stumpfinger's Ghost] \"Bergram Stumpfinger's Ghost\"",
+  "locale:78144 [npc_name | - | Mudshell] 'Mudshell'",
+  "locale:78145 [npc_dialog | - | Mudshell] 'Snatching Snappers!'",
+  "locale:78146 [npc_name | Seaside | Seaside Swoopers] 'Seaside Swoopers'",
+  "locale:78147 [npc_dialog | - | Toady] \"Sic 'em, Toady!\"",
+  "locale:78148 [npc_dialog | - | Mr. Frog] 'Attack them, Mr. Frog!'",
+  "locale:78149 [npc_dialog | - | Mr. Frog] 'Commence hop attack!'",
+  "locale:78150 [npc_dialog | - | Frogster] 'Show them no mercy, Frogster!'",
+  "locale:78152 [npc_dialog | - | -] \"I'm not going near that thing! It looks like it could swallow us whole!\""
+ ],
+ "wiki": {
+  "title": "Mudshell",
+  "text": "thumb|right|Mudshell\nthumb|right|Mudshell, interior\nMudshell, an elder cray, is making this area unsafe for all! Head in and defeat Mudshell!\n\nMudshell is a difficulty 5 battle that is started by clicking on Mudshell in Blackspore. He is found in the north end of the region, near the shoreline and also in the Sinking Graveyard. After accepting a battle with Mudshell he disappears for an unknown duration of time.\n\n Required \n\nLevel 13, Any Combat Job\n\n Goals \n\nDefeat Mudshell.\n\n Rewards \n\n14 Stars\nMembers Only Bonus: 95 Coins\n\n Archer Prize Wheel \n\nArcher's Power Shard of Entangling \nArcher's Power Shard of Regeneration V \nArcher's Raptor Bow of Ricochet \nArcher's Ring of Regeneration V\nUpshot Archer Quiver\n10 Coins\n\n Brawler Prize Wheel \n\nBattle Item Mystery Pack\nBare-Knuckle Brawler Shoulder Pads\nBrawer's Atlas Hammer of Rage\nBrawler's Power Shard of Entangling \nBrawler's Power Shard of Regeneration V \nBrawler's Ring of Regeneration V \n10 coins\n\n Medic Prize Wheel \n\nBattle Item Mystery Pack\nEnergy Transfer Medic Backpack\nMedic's Power Shard of Entangling \nMedic's Power Shard of Regeneration V \nMedic's Ring of Regeneration V\nMedic's Shockrod of Antibodies \n10 Coins\n\n Ninja Prize Wheel \n\nBattle Item Mystery Pack\nChunin Ninja Shoulderguard \nNinja's Power Shard of Entangling \nNinja's Power Shard of Regeneration V \nNinja's Ring of Regeneration V \nNinja's Shadow Blade of Soul Power \n10 Coins\n\n Warrior Prize Wheel \n\nAction Power Warrior Pauldrons \nBattle Item Mystery Pack\nWarrior's Power Shard of Entangling \nWarrior's Power Shard of Regeneration V \nWarrior's Ring of Regeneration V\nWarrior's Warlord Axe of Command\n10 Coins \n\n  \n Wizard Prize Wheel \n\nAdept Wizard Talisman\nBattle Item Mystery Pack\nWizard's Ornate Wand of Chaos\nWizard's Power Shard of Entangling \nWizard's Power S"
+ },
+ "images": [],
+ "video": [
+  "video:qJupvvhKfYg/00022.jpg (-): dialog: Chloe says, \"You defeated Mudshell? That's great news!\" Hopefully that takes a little pressure off the people trying to make their living out here! The Hunt for Mudshell Quest Started! The Hunt for Mudshell Goal Complete: Defeat Mudshell The Hunt for Mudshell New Goal: Re",
+  "video:gKXJiwhlr8I/00020.jpg (-): job_level: Adventurer 10 | other_text: Mudshell (red marker, 48m) Rare Exploration Coin (interaction prompt) Press X or mouse Upgrade!"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

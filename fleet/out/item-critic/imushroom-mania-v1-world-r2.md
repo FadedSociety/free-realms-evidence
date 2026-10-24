@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imushroom-mania-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4125, 4617, 6, 906] model=claude-haiku-5-5 -->
+# Mushroom Mania!
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The record treats 'Mushroom Mania!' as an item of kind 'other', but the evidence shows it is a battle (combat mini-game) title. Locale 73989 is confirmed as the string 'Mushroom Mania!', and the wiki page categories are Battle, Combat Mini-game, Difficulty 5 and Briarwood, with no item category. The answer is right to assign no sources, but the item record itself probably should not exist as an acquirable item.", "fix": "Mark this as a non-item battle title (wiki: Mushroom Mania!, categories Battle / Combat Mini-game) and exclude it from the item acquisition list. Its Prize Wheel rewards are separate items and need their own packs."}]}

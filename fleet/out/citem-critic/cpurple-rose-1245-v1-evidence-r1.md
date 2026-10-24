@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpurple-rose-1245-v1-evidence-r1 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[8957, 5716, 8, 1398] model=claude-haiku-5-5 -->
+# Purple Rose
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the Daisies 1246-1250 'sit in the same cluster' is only a locale-id proximity observation. In collection_catalogue.json the Roses block (catalogue id 25, entries 133-140) lists only defs 3090-3097 (locale 1238-1245). The Daisies are not in that block, so the sentence should not imply they are part of the Roses set.", "fix": "Restrict the statement to what collection_catalogue.json:593-674 shows: the Roses block (id 25, name_id 38685) has entries 1238-1245 (defs 3090-3097), with Purple Rose at index 8, id 140, def 3097, item_link 'sanctuary'. Daisies are not in this block. Verified against repo collection_catalogue.json lines 593-674."}]}

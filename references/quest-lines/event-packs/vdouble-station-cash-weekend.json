@@ -1,0 +1,74 @@
+{
+ "title": "Double Station Cash Weekend",
+ "names_seen": [
+  "Double Station Cash Weekend"
+ ],
+ "facts": [
+  {
+   "statement": "Players with accounts in good standing could buy pre-paid Free Realms Station Cash retail game cards and redeem them during the promotion for double their value in Station Cash.",
+   "numbers": {
+    "bonus_multiplier": 2
+   },
+   "era": "live",
+   "quote": "redeem that card during the promotional period for DOUBLE its value in Station Cash",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1186",
+   "date": null
+  },
+  {
+   "statement": "Free Realms Starter Cards were excluded from the double Station Cash offer.",
+   "numbers": {},
+   "era": "live",
+   "quote": "excluding Free Realms Starter Cards",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1186",
+   "date": null
+  },
+  {
+   "statement": "Cards had to be redeemed from Friday, April 2 (after 4:00pm PDT) until Sunday, April 4 (before 11:00pm PDT) to get the bonus.",
+   "numbers": {
+    "start_hour_pdt": 16,
+    "end_hour_pdt": 23
+   },
+   "era": "live",
+   "quote": "Cards must be redeemed between Friday, April 2nd (after 4:00pm PDT) and Sunday, April 4th (before 11:00pm PDT)",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1186",
+   "date": null
+  },
+  {
+   "statement": "A promotion gave double value in Station Cash for pre-paid Free Realms Station Cash retail game cards redeemed during the promotional period, for players with accounts in good standing.",
+   "numbers": {
+    "bonus_multiplier": 2
+   },
+   "era": "live",
+   "quote": "redeem that card during the promotional period for DOUBLE its value in Station Cash",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=346",
+   "date": null
+  },
+  {
+   "statement": "Cards had to be redeemed starting Friday, September 18th after 7:00am PDT and ending Sunday, September 20th before 10:00pm PDT to get the bonus.",
+   "numbers": {
+    "start_hour_pdt": 7,
+    "end_hour_pdt": 22
+   },
+   "era": "live",
+   "quote": "Cards must be redeemed between Friday, September 18th (after 7:00am PDT) and Sunday, September 20th (before 10:00pm PDT)",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=346",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1186",
+   "date": null,
+   "title": "Double Station Cash Weekend. Don't Miss Out!!",
+   "summary": "A limited-time promotion in which retail Free Realms Station Cash game cards, redeemed within a set window, gave double their value in Station Cash. Starter Cards were excluded, and the article lists participating retailers only as a missing image or link list, so no retailer names appear in the text. The post says it was posted 5 days before capture (captured 2010-04-05), so it likely dates to about 2010-03-31, but the exact date is not stated."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=346",
+   "date": null,
+   "title": "Double Station Cash Weekend. Don't Miss Out!!",
+   "summary": "A limited promotion in which pre-paid Free Realms Station Cash retail game cards (except Starter Cards) redeemed during a weekend window gave double their value in Station Cash, for players with accounts in good standing. The page gives no year; it says it was posted 1 year 4 months before capture (2011-02-08), and the stated redemption dates (Friday September 18 to Sunday September 20) match 2009."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

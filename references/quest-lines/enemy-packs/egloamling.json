@@ -1,0 +1,118 @@
+{
+ "title": "Gloamling",
+ "our_entries": [
+  {
+   "file": "encounters.json",
+   "name_id": 441457,
+   "definition_id": 920100,
+   "model_id": 4201,
+   "max_health": 150,
+   "damage": 20,
+   "boss": false
+  },
+  {
+   "file": "encounters.json",
+   "name_id": 441457,
+   "definition_id": 920101,
+   "model_id": 4201,
+   "max_health": 150,
+   "damage": 20,
+   "boss": false
+  },
+  {
+   "file": "encounters.json",
+   "name_id": 441457,
+   "definition_id": 920102,
+   "model_id": 4201,
+   "max_health": 150,
+   "damage": 20,
+   "boss": false
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "name_id": 441457,
+   "definition_id": 920100,
+   "model_id": 4201,
+   "max_health": 150,
+   "damage": 20,
+   "boss": false
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "name_id": 441457,
+   "definition_id": 920101,
+   "model_id": 4201,
+   "max_health": 150,
+   "damage": 20,
+   "boss": false
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "name_id": 441457,
+   "definition_id": 920102,
+   "model_id": 4201,
+   "max_health": 150,
+   "damage": 20,
+   "boss": false
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "definition_id": 920100
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "definition_id": 920100
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "definition_id": 920100
+  }
+ ],
+ "entry_count": 9,
+ "client_name_matches": [
+  "locale:438337 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:438518 [npc_name | Sunstone Valley | Gloamling] 'Gloamling'",
+  "locale:441457 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:5100374 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:5101588 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:5101818 [npc_name | Seaside | Gloamling] 'Gloamling'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:438337 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:438518 [npc_name | Sunstone Valley | Gloamling] 'Gloamling'",
+  "locale:441457 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:5100374 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:5101588 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:5101818 [npc_name | Seaside | Gloamling] 'Gloamling'"
+ ],
+ "client_cluster": [
+  "locale:438329 [quest_dialog | - | Gloam Behemoth] \"LET'S DANCE ROCKFACE!\"",
+  "locale:438330 [quest_dialog | - | Gloam Behemoth] 'Oi, my head...'",
+  "locale:438331 [quest_dialog | - | Gloam Behemoth] \"Well, that wasn't too bad.\"",
+  "locale:438332 [quest_dialog | - | Gloam Behemoth] \"C'mon boys, we're almost there!\"",
+  "locale:438333 [quest_dialog | - | Gloam Behemoth] \"What the... What's going on here!?\"",
+  "locale:438334 [quest_dialog | - | Gloam Behemoth] 'Right behind ya, boss.'",
+  "locale:438335 [quest_dialog | - | Gloam Behemoth] 'What are they doing?'",
+  "locale:438336 [quest_dialog | - | Gloam Behemoth] \"Who cares!? GET 'EM!\"",
+  "locale:438337 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:438338 [npc_name | - | Gloam Behemoth] 'Gloam Behemoth'",
+  "locale:438339 [quest_objective | - | Gloam Behemoth] 'Reach the construction site'",
+  "locale:438341 [quest_objective | - | Gloam Behemoth] 'Defeat the Gloam Behemoth'",
+  "locale:438343 [quest_dialog | - | Gloam Behemoth] 'With our combined powers, we will destroy you dwarves!'",
+  "locale:438344 [quest_dialog | - | Gloam Behemoth] 'GRAAAAAAAAWWWWWWWWHHHHH!!!!'",
+  "locale:438345 [quest_dialog | - | Gloam Behemoth] 'With our combined powers, we will destroy you!'"
+ ],
+ "wiki": {
+  "title": "Gloamling",
+  "text": "The Gloamling is an enemy NPC that can be found in three locations. It is the Gloam creature that resemble Necronomicus' powered form.\n\nAppearances\nBriarwood Caverns\nQuest:Saving Farnum's Farm (indirectly mentioned)\nQuest:Portal Remnants\nQuest:Ghosts of the Past\nQuest:Not the Ghosts You're Looking For\nUnwanted Guests\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Gloam\nCategory:Briarwood\nCategory:Cobblestone Village\nCategory:Seaside"
+ },
+ "images": [],
+ "video": [
+  "video:3caQP-As968/00306.jpg (-): dialog: Oh no! This gloamling is much tougher than the ones you just fought! Defeat it with your Super Attack by pressing the 2 key or clicking Super Attack icon. | quest: Advanced Combat Tutorial  Use ultimate on tough gloam minion  | job_level: Brawler 1 | other_text: Goal Comp",
+  "video:3caQP-As968/00308.jpg (-): dialog: Oh no! This gloamling is much tougher than the ones you just fought! Defeat it with your Super Attack by pressing the 2 key or clicking Super Attack icon. | quest: Advanced Combat Tutorial  Use ultimate on tough gloam minion  | job_level: Brawler 1 | other_text: Goal Comp"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Basic Combat Tutorial' (final): Defeat gloam minions"
+ ]
+}

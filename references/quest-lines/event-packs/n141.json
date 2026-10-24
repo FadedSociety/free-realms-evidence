@@ -1,0 +1,38 @@
+{
+ "title": "Back to School Bonanza",
+ "names_seen": [
+  "Back to School Bonanza"
+ ],
+ "facts": [
+  {
+   "statement": "The Back to School Bonanza let players redeem pre-paid game cards for Double Station Cash, with redemption open between September 2, 2011 and September 5, 2011.",
+   "numbers": {
+    "bonus_multiplier": 2,
+    "start_date_2011": 9.02,
+    "end_date_2011": 9.05
+   },
+   "era": "live",
+   "quote": "redeem pre-paid game cards for Double Station Cash®*! ... between September 2, 2011, and September 5, 2011.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2238",
+   "date": null
+  },
+  {
+   "statement": "During the promotion, special sale items or activities were to appear in participating games, and details were on soe.com/backtoschool.",
+   "numbers": {},
+   "era": "live",
+   "quote": "be on the lookout for special sale items or activities in participating games throughout the Back to School Bonanza",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2238",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2238",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This freerealms.com news post announces the Back to School Bonanza, a promotion where pre-paid game cards can be redeemed for Double Station Cash between September 2 and September 5, 2011, with special sale items or activities in participating games. The post is a short SOE-wide promotion notice rather than Free Realms-specific mechanics; the exact posting date is not shown (it reads as roughly one month before the 2011-09-30 capture)."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

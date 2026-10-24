@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csneak-fateful-ring-86315-v1-evidence-r1 status=done turns=2 usd=0.0022 tokens(read,write,in,out)=[3946, 11630, 6, 1347] model=claude-haiku-5-5 -->
+# Sneak Fateful Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer's 'Archer's [Ring]' check is incomplete. The wiki Forest Troll Fort page lists an Archer Prize Wheel reward 'Archer's [Ring]' next to other Archer items. The answer does not mention it. It is an Archer ring, not a Sneak or Intern ring, so it does not establish a source here, but the answer should say it was checked and ruled out.", "fix": "Add to the open list: wiki page 'Forest Troll Fort' (Archer Prize Wheel) lists 'Archer's [Ring]'. The name does not match 'Sneak Fateful Ring', so it is not evidence for this item."}]}

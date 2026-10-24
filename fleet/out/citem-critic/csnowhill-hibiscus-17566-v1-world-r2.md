@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csnowhill-hibiscus-17566-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4093, 7052, 6, 1121] model=claude-haiku-5-5 -->
+# Snowhill Hibiscus
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "Recorded as 'collection', but the client text (locale 17566) only says the item can be added to the Exotic Snowhill Flowers Collection. The item is a collectible flower that feeds a collection, not a collection itself. The answer's own open note makes the same point, so the field contradicts the answer's own reasoning.", "fix": "Use a non-collection kind such as 'other' (or a collection-item kind if the schema has one). Source: locale:17566 description 'This item can be added to the Exotic Snowhill Flowers Collection' (locale 132500)."}]}

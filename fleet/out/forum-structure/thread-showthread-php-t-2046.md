@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2046 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2871, 4, 581] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a vBulletin forum error page, not a thread. It shows a 'maximum number of posts you can view' message and forum navigation, with no thread title, post text, or game content. Nothing about Free Realms mechanics, items, quests, or events can be taken from it.", "facts": [], "quests": [], "uncertain": ["The requested thread (t=2046) is not in the capture; only the site shell and a 'Free Realms Forums Error' message appear.", "The forum index lists Free Realms sub-forums (e.g. Combat, Items, Jobs/Classes, In-Game Mini Games, Pets, Membership / Stationcash), but these are navigation labels only and are not facts about the game."]}

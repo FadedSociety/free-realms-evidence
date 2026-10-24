@@ -1,0 +1,54 @@
+{
+ "title": "Zandro Rageracer",
+ "our_entries": [
+  {
+   "file": "npcs/sunstone_valley.json",
+   "npc_id": 9500000865,
+   "zone": "Sunstone Valley",
+   "enemy_kind": "Skullz leader and the Sunstone line's final boss. Gloam-empowered (wiki). The client's captives say he and the Rumble King changed (1999316194, 3955418888).",
+   "location_evidence": [
+    "The Skullz Base Camp (client place name 1190307965); wiki: a mesa in the south-east corner of the valley. [video: a hostile red nameplate \"Leader of the Skullz\" in 33 frames of one Brawler-20 recording, during the Robot Woes hand-in; the place is not shown (IFnl12lu5JM/00046, /00158, /00230)]"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:439220 [npc_name | Sunstone Valley | -] 'Zandro Rageracer'"
+ ],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [
+  "locale:439212 [npc_name | Sunstone Valley | -] 'Feathered Drake Ambusher'",
+  "locale:439213 [npc_name | Sunstone Valley | -] 'Feathered Drake Windwhisperer'",
+  "locale:439214 [npc_name | Sunstone Valley | -] 'Feathered Drake Spiritcaller'",
+  "locale:439215 [npc_name | Sunstone Valley | -] 'Quetzalcoatl'",
+  "locale:439216 [npc_name | Sunstone Valley | -] 'Skullz Roughrider'",
+  "locale:439217 [npc_name | Sunstone Valley | -] 'Skullz Thug'",
+  "locale:439218 [npc_name | Sunstone Valley | -] 'Skullz Hooligan'",
+  "locale:439219 [npc_name | Sunstone Valley | -] 'Skullz Commander'",
+  "locale:439220 [npc_name | Sunstone Valley | -] 'Zandro Rageracer'",
+  "locale:439221 [npc_name | Sunstone Valley | -] 'Sandscale Warlord'",
+  "locale:439222 [npc_name | Sunstone Valley | -] 'Robgoblin Mech Pilot'",
+  "locale:439223 [npc_name | Sunstone Valley | -] 'Feathered Drake Elder'",
+  "locale:439224 [npc_name | Sunstone Valley | -] 'Leader of the Skullz'",
+  "locale:439225 [place | Sunstone Valley | Skullz Fuel Station] 'Skullz Fuel Station'",
+  "locale:439226 [ui | - | trade offer] 'Item [*name*] has been removed from the trade offer.'",
+  "locale:439227 [npc_name | Sunstone Valley | Skullz Thug] 'Skullz Thug'",
+  "locale:439228 [ability | Sunstone Valley | Ambush] 'Ambush'"
+ ],
+ "wiki": {
+  "title": "Zandro Rageracer",
+  "text": "Zandro Rageracer is a dwarf NPC boss featured as the main antagonist of the Sunstone Valley questline. He is the leader of the Skullz that made his first appearance in the Skullz Base Camp when the player and the Freewheelers come to confront him. He obtained super-human features while being influenced by the mysterious magic known as the Gloam. With the Gloam abilities, he led a Skullz invasion of Sunstone Valley.\n\nBiography\nBefore the events of the Freewheelers vs. Skullz, Zandro was once a normal person where he were grumpy and lonely, many the Freewheelers are enjoyed with each other and has feast in Wheelie Pete's. Zandro was the only one who started the Skullz. He challenged with Gus in a race, later Gus won in a race against Zandro. Zandro then met the stranger who is a part of the Gloam, he still don't know who she was. Zandro was influenced and obtained the Gloam abilities, then he use the power to convince the Dwarves to join the Skullz, and the gang had risen to power over Sunstone Valley.\n\nDialogues\n\nTCG\nthumb|220px\nA Trading Card Game card was introduced based on Zandro Rageracer through the Series 5 Rumbledome! Expansion on March 21, 2013. The card's ID is The card's ID is 5R24.\n\nAppearances\nRise of the Skullz\nThe Rumbledome (cameo)\nSaving a Friend\nTrading Card Game Series 5\n\nGallery\n\nSources\nFree Realms: Biker Dwarves on DeviantArt\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Dwarves\nCategory:Skullz\nCategory:Sunstone Valley\nCategory:Trading Card Game"
+ },
+ "images": [
+  "image (image:art_or_promo): 6\nZandro Rageracer\nDwarf\n7\n6\nPlunder 3: When I attack, ready\none of my ⚙ allies.\n💎: Score a card.\n5R24\nIllus.: Imaginary Friends"
+ ],
+ "video": [
+  "video:IFnl12lu5JM/00014.jpg (-): npcs: Zandro Rageracer nameplate Leader of the Skullz Skullz Commander nameplate  | landmarks: red rock canyon with spiky dark plants at the edges | job_level: Brawler 20 | other_text: That ability isn't ready yet... You can't use abilities when you are stunned! Stunned",
+  "video:IFnl12lu5JM/00102.jpg (-): npcs: Zandro Rageracer nameplate Leader of the Skullz | dialog: This isn't going to be fun - for YOU! | landmarks: red rock canyon with spiky dark plants at the edges | job_level: Brawler 20 | other_text: That ability isn't ready yet... You can't use abilities when you are stunne",
+  "video:IFnl12lu5JM/00032.jpg (-): npcs: Zandro Rageracer nameplate Leader of the Skullz | job_level: Brawler 20 | other_text: Rare Sunstone Gold Vein 14m That ability isn't ready yet... You can't use abilities when you are stunned! You can't use abilities right now! You don't have enough energy for that ability! ",
+  "video:IFnl12lu5JM/00048.jpg (-): npcs: Zandro Rageracer nameplate Leader of the Skullz | job_level: Brawler 20 | other_text: Rare Sunstone Gold Vein 19m Little Rascal You can't use abilities when you are stunned! You can't use abilities right now! You don't have enough energy for that ability! That ability isn't",
+  "video:IFnl12lu5JM/00056.jpg (-): npcs: Zandro Rageracer nameplate Leader of the Skullz | dialog: This isn't going to be fun - for YOU! This is going to hurt you more than it hurts me! | job_level: Brawler 20 | other_text: Skullz Commander You can't use abilities when you are stunned! That ability isn't ready yet"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccoldscale-cod-23273-v1-evidence-r1 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[13057, 9846, 8, 1047] model=claude-haiku-5-5 -->
+# Coldscale Cod
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer is honest that no source exists. My own checks agree: a repo search for 'coldscale' and for definition 2863 finds nothing, the only match for 23273 is collection_catalogue.json:12279 (name_id 66886, Aunt's Ring), and lookup on client, wiki, articles and video returns only locale:23273. The 'crafting' guess appears only in the first-pass hint, not in sources, so it is correctly withheld.", "fix": "No change needed to the sources. Optionally drop 'consumable' as a kind claim unless the item's slot/class data supports it, since the pack lists slots [0] and class_ids [0] with no coin price."}]}

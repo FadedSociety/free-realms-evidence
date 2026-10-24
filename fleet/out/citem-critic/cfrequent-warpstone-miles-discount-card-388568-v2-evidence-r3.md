@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfrequent-warpstone-miles-discount-card-388568-v2-evidence-r3 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[4045, 4583, 6, 784] model=claude-haiku-5-5 -->
+# Frequent Warpstone Miles - Discount Card
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The answer cites locale:1990 as the Thick Pocket Book's description. My lookup shows locale 1990 is the item name 'Thick Pocket Book'. The description 'Looks like a powerful opponent dropped some of his belongings.' is locale 1966. The citation is mismatched, though the claim is otherwise right that the book's text is generic.", "fix": "Cite locale:1966 for the book's description and locale:1990 for its name. Keep the note that the book-to-card link rests only on the wiki filename grouping."}]}

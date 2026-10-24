@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblinding-dreadful-triangle-shard-86242-v1-evidence-r1 status=no_submit turns=2 usd=0.0010 tokens(read,write,in,out)=[4081, 4645, 6, 716] model=claude-haiku-5-5 -->
+# Blinding Dreadful Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / evidence[1]", "issue": "The only price source is the repo's stores.json row (item_id 22251, category 121, purchase 3600, member 3240, sell 360, no_sale false). I confirmed that row exists and matches the answer. It is a server-side data file, not a dated store capture or wiki entry, so it shows the price was in the data but not that the item is sold live today.", "fix": "No change needed to the price or currency. Keep the live status as 'unsure' and cite the stores.json row as the source. The 3600 coin price is correct, and 3240 is the 10% member price."}]}

@@ -1,0 +1,45 @@
+{
+ "title": "Welcome Back gifts",
+ "names_seen": [
+  "Welcome Back gifts",
+  "Welcome-back gifts"
+ ],
+ "facts": [
+  {
+   "statement": "Members with a Station Account in good standing on or before May 2, 2011 received an extra 45 days of Member time added to their account.",
+   "numbers": {
+    "extra_member_days": 45
+   },
+   "era": "live",
+   "quote": "An extra 45 days as a Member has been added to your account.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2127",
+   "date": null
+  },
+  {
+   "statement": "Members whose Station account was updated before a cutoff date received extra play time and 43 days of membership added to their account.",
+   "numbers": {
+    "membership_days_added": 43
+   },
+   "era": "live",
+   "quote": "obtienen tiempo de juego extra! Además, han sido añadidos a su cuenta, 43 días como miembro",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2130",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2127",
+   "date": null,
+   "title": "Welcome Back to Free Realms!",
+   "summary": "SOE's welcome-back post for lapsed players returning to Free Realms (dated only relatively as \"2 months ago\" on the capture, so about May 2011). It describes a returning-player bonus of 45 extra Member days for accounts in good standing on or before May 2, 2011, or 20,000 Coin for Lifetime Members, plus a seven-day login gift series of free items, with an extra Lonely Island Lot for Lifetime Members."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2130",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language SOE welcome-back news post for returning players. It describes login-based gifts: extra play time and membership days for returning members who updated their Station account before a cutoff, 20,000 coins for lifetime members, and a seven-day free-item login reward. The post gives no absolute date, and the cutoff date is garbled in the source."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

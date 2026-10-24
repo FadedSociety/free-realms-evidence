@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchugawug-totem-23406-v2-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4123, 7960, 6, 1332] model=claude-haiku-5-5 -->
+# Chugawug Totem
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1] prize_wheel", "issue": "The wiki extract lists [Chugawug] [Totem] in the first wheel block of Bigfoot's Lair, which is followed by a 'Brawler Prize Wheel' heading, so the block is plausibly the Archer wheel. The extract does not print the class label on that block, and the Medic block is cut off. The Archer attribution is an inference, not a printed heading. The '990 Coins' figure is correctly left unconfirmed as the spin cost.", "fix": "Keep the prize_wheel source but state that the block's class label is inferred from its position before the Brawler heading (wiki Bigfoot's Lair, Bigfoot Defender). Leave the price null until a wheel-cost source is found."}]}

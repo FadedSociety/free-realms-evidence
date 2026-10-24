@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdoggy-vinegolem-chest-413965-v2-world-r2 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[9145, 6477, 8, 1106] model=claude-haiku-5-5 -->
+# Doggy Vinegolem Chest
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer's Briarwood Collector's Card note says the card is 'not shown giving or linking to the chest', which is accurate. The client also has a Briarwood quest family (locale 72532-72535, 'I'm a Collector, Not a Brawler') that is unrelated to the Vinegolem chest. Nothing links the chest to it, so no quest source is missing.", "fix": "No change required. Keep sources empty, retired null, live unknown, price null, until a wiki, article, drop, vendor or prize source names the chest (checked: lookup for 'Vinegolem' returns only client rows and Illusion Vinegolem items; wiki/articles/video have no Doggy Vinegolem hit; repo has no 68809/413965 entry)."}]}

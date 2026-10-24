@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstrawberry-402870-v1-world-r2 status=no_submit turns=2 usd=0.0010 tokens(read,write,in,out)=[3788, 4636, 6, 827] model=claude-haiku-5-5 -->
+# Strawberry
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "Lists Maker's Strawberry Cupcake (locale:96695) as a real item with a full name. Its title is marked DEPRECATED and the id check flags it not_live. It is a weak example of a live sibling and should not be presented as a live item.", "fix": "Drop it from the list of real items or label it explicitly as deprecated and not live. The live named siblings are Strawberry Surge Helmet (106214), Strawberry Hair Color Card (414071), Strawberry Blonde Sunflower (1257), VIP Strawberry Juice (29792) and Strawberry Juice Barrel (38098)."}]}

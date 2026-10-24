@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-thugamug-battle-rs-L1201 status=done turns=4 usd=0.0050 tokens(read,write,in,out)=[33072, 20150, 10, 4239] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/thugamug_battle.rs lines 1201-1872 of 1872
+
+Two findings in `thugamug_battle.rs` lines 1201-1872. The window's remaining tests (chapter offer, bridge-battle payout, job-switch reward, premature/forged turn-in, two-adventurer isolation, and the record/engine/spawn resolution test) have assertions that check real state and do not restate the code under test.
+
+- **[medium] prototype/osfr-tools/tests/thugamug_battle.rs:1663 progress_survives_a_reload_and_a_replay_pays_nothing - the final "second session's replay changed the paid save" assertion compares `restored` with a snapshot taken from `restored`, and nothing is sent to `restored` after line 1640.**
+  - Why it cannot catch a regression: the replays at 1651-1662 go to `replayed`, so the final check is true whatever the replay does. A change that made the 49/14 or 49/2 replay mutate the paid save would still pass here. The only check that could catch it is the in-loop one on `replayed`, and that one compares against `reloaded`, which is itself taken after the reload. The replay therefore has no reference to the paid state.
+  - Fix: capture `let reloaded_paid = (typed_state(&restored), saved_bytes(&restored));` at the point of `finished`, and after the replay loop assert `(typed_state(&replayed), saved_bytes(&replayed)) == finished`. Also assert `reloaded == finished` immediately after `reopen` at 1643, so the reload is shown to reproduce the paid save byte for byte.
+
+- **[medium] prototype/osfr-tools/tests/thugamug_battle.rs:1511 a_premature_wrong_or_forged_turn_in_changes_nothing - `if let Some(choice) = menu_option(&menu, TALK_LABEL)` silently skips the "wrong NPC offers no quest" check when Harry's menu lacks the Talk label.**
+  - Why it cannot catch a regression: if the Talk option disappears or its label changes, the block is skipped, the test still passes, and the only remaining check is that the save is unchanged. A wrong NPC that starts offering THIEVERY through Talk would not be detected in that case. The same file already uses `.expect(...)` for this lookup at line 1092, so the conditional is inconsistent with the file's own pattern.
+  - Fix: replace the `if let` with `let choice = menu_option(&menu, TALK_LABEL).expect("the wrong NPC offers a Talk option");` and keep the 49/1 assertion unconditional.

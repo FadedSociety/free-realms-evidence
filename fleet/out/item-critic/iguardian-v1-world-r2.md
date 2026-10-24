@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iguardian-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3802, 9810, 6, 1185] model=claude-haiku-5-5 -->
+# Guardian
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The claim that no client text entry matches Guardian as an item, pet, mount or ride is attributed to the wiki Dragons page. The client-side evidence is the empty client_name_matches field, so the source label mixes a wiki page with a client check. The Dragons page only supports the 'Others' listing and the ride/pet split.", "fix": "Cite the empty client_name_matches result (client text lookup for 'Guardian') for the no-client-entry claim, and cite the wiki Dragons page (Others: [Guardian]) separately for the dragon-list claim. Verified: the wiki Dragons page lists Guardian under Others, with Drake/Scaled/Gold-Tipped/Poison/Skeletal/Shadow as Rides and Char/Spike as Pets."}]}

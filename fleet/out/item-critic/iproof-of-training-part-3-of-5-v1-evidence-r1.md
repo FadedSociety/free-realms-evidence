@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iproof-of-training-part-3-of-5-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3322, 10273, 6, 1367] model=claude-haiku-5-5 -->
+# Proof of Training - Part 3 of 5
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[0] / sources[0].detail", "issue": "The quest-reward claim rests on one wiki sentence (rev 27860). The client text corroborates the series but not this specific reward. Client locale 950381656 and 1065334808 describe the step proofs as 'collected by Troy after completing all 5 steps', which fits the 'removed on completion' note but is not the same wording.", "fix": "Keep the quest_reward source, with the wiki (rev 27860) as its citation. Add the client corroboration: locale 1065334808 and 950381656 say the step proofs are collected by Troy after all 5 steps of Troy Ridewrangler's glide training. Mark 'removed on completion' as wiki-only."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstink-bombs-5511-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4265, 4897, 6, 908] model=claude-haiku-5-5 -->
+# Stink Bombs
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence", "issue": "The answer cites only the Stink Bombs wiki page and the comic cover image. The wiki's 'Free Realms (comic)' page lists 'Stink Bombs (Issue 8)' under its Exclusive Items (code items), alongside Spider Bite (Issue 1) through Bravery Biscuit (Issue 7). That is a corroborating source the answer did not cite.", "fix": "Add a source: wiki page 'Free Realms (comic)', Exclusive Items (code items) list, 'Stink Bombs (Issue 8)'. This supports the promotion source and shows the series pattern of one code item per issue."}]}

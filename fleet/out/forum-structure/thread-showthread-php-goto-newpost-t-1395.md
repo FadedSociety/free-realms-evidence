@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-goto-newpost-t-1395 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2877, 4, 627] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin error page from the Free Realms fan forum saying the visitor had exceeded the maximum number of viewable posts and must register. It contains only forum navigation (forum list, board rules, timestamps), with no thread text, guide, or game information for the rebuild.", "facts": [], "quests": [], "uncertain": ["The page shows a forum-index and error message only; no thread body was captured, so the thread the URL points to (t=1395) cannot be read from this copy.", "The capture date is 2009-05-20, but the page shows only 'All times are GMT -5. The time now is 07:54 PM' with no article date."]}

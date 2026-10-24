@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=c40-slot-bank-upgrade-7-19884-v1-evidence-r1 status=done turns=4 usd=0.0024 tokens(read,write,in,out)=[24385, 11431, 10, 1547] model=claude-haiku-5-5 -->
+# 40-Slot Bank Upgrade 7
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "The answer sets live to \"yes\" with confidence 0.6, but its own open notes say the live status is a guess. The only evidence is an undated wiki Banking listing (no store record for definition 35859, no date). The wiki supports the price, not current availability.", "fix": "Keep the Coin Shop source at 20,000 coins, but set live to \"unsure\" (or flag it as wiki-listed, undated) until a dated source or store record confirms it is still sold. Source: freerealms-wiki/wikitext/3693-30292-8accb955624d.wiki lines 2-10 (page is undated)."}]}

@@ -1,0 +1,70 @@
+{
+ "title": "Welcome Back program",
+ "names_seen": [
+  "Welcome Back program",
+  "Welcome back program",
+  "Welcome-back program"
+ ],
+ "facts": [
+  {
+   "statement": "A \"Welcome Back\" program was outlined on the site to show players what they could expect to receive on return; the rewards are not listed in this article.",
+   "numbers": {},
+   "era": "live",
+   "quote": "We have outlined the details of our “Welcome Back” program here",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2139",
+   "date": null
+  },
+  {
+   "statement": "A 'Welcome back' program was offered to returning players; its details were posted in a linked page (not included in this text).",
+   "numbers": {},
+   "era": "live",
+   "quote": "Hemos definido los detalles de nuestro programa “Welcome back”",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2142",
+   "date": null
+  },
+  {
+   "statement": "After the game returned from a few days of inactivity, the producers announced a 'Welcome back' program whose details were posted in a linked page.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Hemos definido los detalles de nuestro programa “Welcome back” aqui",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2143",
+   "date": null
+  },
+  {
+   "statement": "A welcome-back program gave returning players rewards, with details posted in a separate article that is not included in this text.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Nós demos detalhes do nosso programa de Boas-vindas",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2145",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2139",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A producer letter (titled \"A Welcome Back Producer Letter\") posted after Free Realms returned from a downtime. It says the team is working on new Farming items and a Ranching feature, previewed with screenshots that the article says are works in progress and subject to change. No dates, prices or release timing are given beyond \"the near future\"."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2142",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language producers' letter (posted about two weeks before the 2011-06-04 capture, exact date not shown) announcing that Free Realms had returned after a few days offline with a 'Welcome back' program. It says the team was working on new features, pointing to new farm items and an upcoming Livestock (Ganadería) feature, with images still in progress."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2143",
+   "date": null,
+   "title": "Carta de bienvenida de los productores de Free Realms® (Free Realms - What is New?)",
+   "summary": "A Spanish-language producers' letter posted after Free Realms came back online following a few days of downtime. It announces a 'Welcome back' program (details linked, not in the text), says new farm items are now available, and teases Livestock (Ganadería) as a coming feature whose details were still unrevealed. Dates are not given in the copy."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2145",
+   "date": null,
+   "title": "Carta de Boas-vindas do Produtor (Free Realms - What is New?)",
+   "summary": "A Portuguese-language producer's letter welcoming players back after a downtime. It says the dev team spent recent weeks on upcoming features, mainly Agriculture (farming) and a Ranch, with more farm items to come. The Ranch was described as not yet finished, and all images were marked as work in progress."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

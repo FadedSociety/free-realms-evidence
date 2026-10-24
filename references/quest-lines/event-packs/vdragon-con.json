@@ -1,0 +1,26 @@
+{
+ "title": "Dragon*Con",
+ "names_seen": [
+  "Dragon*Con"
+ ],
+ "facts": [
+  {
+   "statement": "The Free Realms Community Team attended Dragon*Con, a science fiction and fantasy convention in Atlanta, GA, where some fans attended a special panel about the game.",
+   "numbers": {},
+   "era": "live",
+   "quote": "the Free Realms Community Team attended Dragon*Con, a science fiction and fantasy convention in Atlanta, GA",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=369",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=369",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A short official news post (titled 'In The Works: Goal Time Screenshots') saying the Free Realms Community Team attended Dragon*Con in Atlanta, GA, where fans attended a special panel and were shown screenshots of the upcoming Goal Time update. The post gives no details of what Goal Time contains beyond its name. The client has a string 'Goal Time Soccer' (id 318), which may relate to this update but the article does not say so."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

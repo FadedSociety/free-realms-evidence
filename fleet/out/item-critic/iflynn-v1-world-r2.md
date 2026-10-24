@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iflynn-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3385, 6410, 6, 995] model=claude-haiku-5-5 -->
+# Flynn
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / live", "issue": "The entry is typed as an item ('kind': 'other') and marked live 'unsure', but Flynn is an NPC (wiki categories NPC/Males/Pixie/Snowhill; client locale:5453 npc_name). Nothing in the pack makes him an acquirable item, so the entry should be marked as not an item rather than left as an open item with an unsure live status.", "fix": "Record as not an item (no acquisition). Flynn is the Snowhill Stage caretaker and quest giver for Noisy Neighbors, Noise Permit, Rider Request and Status Reports (client locale:36816, 36735, 93045, 36831; wiki Quest:Noise Permit and Quest:Noisy Neighbors). No vendor, coin, Station Cash or IGD source exists for him in the wiki or client text."}]}

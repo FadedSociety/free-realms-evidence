@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfashionable-troll-shirt-23233-v2-evidence-r3 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3612, 4993, 6, 848] model=claude-haiku-5-5 -->
+# Fashionable Troll Shirt
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The claim that the 23228-23238 locale cluster is a 'joke/junk' cluster with no wiki presence is an inference, not something a source states. It is hedged with 'may be', so it does not fail the answer, but it should not be read as evidence.", "fix": "Keep it as an unverified guess. Nothing in the pack (locale 23228-23238 names, or the lookup, which returns only locale:23233 for this name) supports a junk or placeholder label. The only evidenced facts are: locale:23233 = 'Fashionable Troll Shirt'; client definition 2721 has an empty description, no models and no coin store price; no repo, wiki, article or video hit names it."}]}

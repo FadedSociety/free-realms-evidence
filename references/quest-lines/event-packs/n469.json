@@ -1,0 +1,33 @@
+{
+ "title": "Haiti Relief and Development",
+ "names_seen": [
+  "Haiti Relief and Development"
+ ],
+ "facts": [
+  {
+   "statement": "SOE donated $10 to the American Red Cross Haiti relief fund for every Zando (Haiti Relief item) purchased in Free Realms between January 15 and January 18, 2010, with a maximum donation of $25,000.",
+   "numbers": {
+    "donation_per_sale_usd": 10,
+    "max_donation_usd": 25000,
+    "start_day": 15,
+    "end_day": 18,
+    "start_month": 1,
+    "start_year": 2010
+   },
+   "era": "live",
+   "quote": "donating $10 for every EQ Plush Bear, EQ II Protectors of the Faydark Crate, and FR Zando sold",
+   "article": "http://www.tentonhammer.com:80/node/79740",
+   "date": "2010-01-22"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/79740",
+   "date": "2010-01-22",
+   "title": "SOE Raises $25,000 for Haiti Relief",
+   "summary": "A Ten Ton Hammer press-release repost describing SOE's January 2010 charity drive for Haiti relief. Free Realms players helped by buying the Zando spiked T-Rex pet, which SOE matched with a $10 donation per sale during January 15-18, 2010, capped at $25,000 total. The article gives the sale window, price and cap for this one promotion."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

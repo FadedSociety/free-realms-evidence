@@ -1,0 +1,49 @@
+{
+ "title": "Echolyss",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_bat_cave.json"
+  },
+  {
+   "file": "dungeons\\the_bat_cave.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:5102940 [npc_name | - | Echolyss] 'Echolyss'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:422697 [other | - | Echolyss] 'Echolyss lets out a terrible scream.'",
+  "locale:5102940 [npc_name | - | Echolyss] 'Echolyss'"
+ ],
+ "client_cluster": [
+  "locale:5102932 [npc_name | - | Brutus the Brute] 'Brutus the Brute'",
+  "locale:5102933 [npc_name | - | Robgoblin Cook] 'Robgoblin Cook'",
+  "locale:5102934 [npc_name | - | Robgoblin Jester] 'Robgoblin Jester'",
+  "locale:5102935 [npc_name | - | Robgoblin Geomancer] 'Robgoblin Geomancer'",
+  "locale:5102936 [npc_name | - | Scrapmaster Fizzbang] 'Scrapmaster Fizzbang'",
+  "locale:5102937 [npc_name | - | Holiday Robgoblin] 'Holiday Robgoblin'",
+  "locale:5102938 [npc_name | - | Rocklar Boss] 'Rocklar Boss'",
+  "locale:5102939 [npc_name | - | Enraged Screechling] 'Enraged Screechling'",
+  "locale:5102940 [npc_name | - | Echolyss] 'Echolyss'",
+  "locale:5102941 [npc_name | - | Commander Kluggenkrush] 'Commander Kluggenkrush'",
+  "locale:5102942 [npc_name | - | Mushroom Gigas] 'Mushroom Gigas'",
+  "locale:5102943 [npc_name | - | Santa's Sleigh-mobile] \"Santa's Sleigh-mobile\"",
+  "locale:5102944 [npc_name | - | Evil Snowman] 'Evil Snowman'",
+  "locale:5102945 [npc_name | - | Abominable Snowman] 'Abominable Snowman'",
+  "locale:5102946 [npc_name | - | Wonderous Tiger] 'Wonderous Tiger'",
+  "locale:5102947 [npc_name | - | Wilds Tractor | FLAG not_live: no context; likely vehicle/ambient name, verify] 'Wilds Tractor'",
+  "locale:5102948 [npc_name | - | Red Tractor | FLAG not_live: no context; likely vehicle/ambient name, verify] 'Red Tractor'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

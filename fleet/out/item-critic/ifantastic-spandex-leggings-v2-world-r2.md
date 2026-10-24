@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifantastic-spandex-leggings-v2-world-r2 status=done turns=5 usd=0.0024 tokens(read,write,in,out)=[30264, 10203, 12, 1564] model=claude-haiku-5-5 -->
+# Fantastic Spandex Leggings
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 75 / 67 SC figures come only from the pack's station_cash field, because the rendered wiki price text is stripped. I could not see the price in the wiki text myself.", "fix": "Acceptable as stated; the answer already flags this as unverified. Confirm against the rendered wiki infobox or the in-game marketplace if possible."}, {"field": "retired", "issue": "Left null. The page is a limited HeroRealms Month release (categories HeroRealms Month, SC Marketplace), so the sale status is genuinely unknown and null with live 'unsure' is honest.", "fix": "No change needed unless a source states the sale ended or the item is still sold."}]}

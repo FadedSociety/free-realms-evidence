@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=q3000008-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[17859, 9629, 8, 1721] model=claude-haiku-5-5 -->
+# Your First Weapon
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "offer.speaker / complete.speaker", "issue": "Both speakers are null. The binder's reason is honest, and the text itself names no speaker. The quest record gives Cleetus Farnum (npc 9000000050) as giver, and his NPC answer lists 'Your First Weapon' among quests given, so the speaker is supported at quest level, though not attributed per line. Leaving it null is defensible but weak.", "fix": "Set offer and complete speaker to Cleetus Farnum (npc 9000000050, locale 46925) on the strength of the giver record and NPC answer quests_given, and mark it as quest-level attribution rather than line-level. Lines 4420065 and 4420068 are both real, unflagged quest_dialog lines tagged to this quest."}]}

@@ -1,0 +1,61 @@
+{
+ "title": "Trade Faire",
+ "names_seen": [
+  "Trade Faire"
+ ],
+ "facts": [
+  {
+   "statement": "Community Event Trade Faire was held at the Ocean Treasures Café in Seaside, where players could trade items with each other, sell items, and dance.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Come to the Ocean Treasures Café in Seaside to trade items with other players!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1151",
+   "date": null
+  },
+  {
+   "statement": "The Trade Faire took place on Friday March 19, 2010 at 3pm Pacific Time for U.S. and Latin America on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Friday March 19th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1151",
+   "date": null
+  },
+  {
+   "statement": "For UK and Europe the Trade Faire started at 9:00am Pacific Time, which is 5:00pm UTC, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "start_hour_utc": 17
+   },
+   "era": "live",
+   "quote": "9:00am Pacific Time / 5:00pm UTC (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1151",
+   "date": null
+  },
+  {
+   "statement": "A Trade Faire was held in Seaside and drew players from many places; owners of new ponies showed off their Rides there.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Our Trade Faire in Seaside brought players from all over.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1214",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1151",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A community event post announcing a Trade Faire at the Ocean Treasures Café in Seaside, where players trade and sell items and dance. The event ran Friday March 19, 2010 on Server 1, at two times for two regions. The article is a Wayback copy of the freerealms.com news page, captured 2010-03-23."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1214",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Community Team event report (posted roughly four days before the capture) covering a Trade Faire in Seaside, the weekly House Party Tuesday in Sanctuary, and a party for the opening of the Pirate's Plunder minigame on the Seaside docks. It also explains how to find community events through the Game Guide calendar and the GO button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

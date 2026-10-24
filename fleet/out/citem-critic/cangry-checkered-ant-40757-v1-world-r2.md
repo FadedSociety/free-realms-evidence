@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cangry-checkered-ant-40757-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3959, 5091, 6, 855] model=claude-haiku-5-5 -->
+# Angry Checkered Ant
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open (Grexan's Camp lead)", "issue": "The suggested lead is misdescribed. The Grexan's Camp reference (repo grexan_s_camp.json:324, and the build note) is the 'Solid / Striped / Spotted / Checkered Cocoon' pickup set in the spider dungeon. It is about cocoons holding rescued people, not ants, and it does not name any Checkered Ant variant. It should not be carried forward as a possible ant source.", "fix": "Drop the Grexan's Camp lead for Angry Checkered Ant, or state that it concerns 'Checkered Cocoon' pickups (grexan_s_camp.json:324; loc 2065138959, 667889186, 799699984), which are unrelated to the ant collection."}]}

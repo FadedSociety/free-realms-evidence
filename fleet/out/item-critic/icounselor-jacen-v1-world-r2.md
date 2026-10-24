@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icounselor-jacen-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3313, 4176, 6, 904] model=claude-haiku-5-5 -->
+# Counselor Jacen
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "Counselor Jacen is an NPC (client locale 429028 is tagged npc_name, and the wiki categories are NPC, Males, Human, Quest Givers). Recording it as an item of kind 'other' is a category mismatch. The answer's conclusion that it has no item sources is correct.", "fix": "Mark this record as not-an-item (NPC, no acquisition sources) and exclude it from the item acquisition set. Evidence: locale:429028 [npc_name]; https://freerealms.fandom.com/wiki/Counselor_Jacen (rev 50185) categories NPC, Quest Givers."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrittle-spectral-triangle-shard-69775-v2-evidence-r3 status=done turns=2 usd=0.0024 tokens(read,write,in,out)=[4160, 13364, 6, 1304] model=claude-haiku-5-5 -->
+# Brittle Spectral Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type / detail", "issue": "The source is labelled 'vendor' but no vendor or NPC is bound to store category 121 in the pack. What is evidenced is a coin store row only (repo stores.json item 22873, lines 6728 and 6735). The type overstates the evidence, though the 'unknown vendor' caveat in detail and open is honest.", "fix": "Relabel the source as a coin-store row (for example type 'coin_store', category 121, unbound), with the vendor field null. Keep 'vendor' only once a binding for category 121 is found."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ishephard-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3577, 4317, 6, 949] model=claude-haiku-5-5 -->
+# Shephard
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The item is recorded as kind 'other' although the locale entry 5102254 is an npc_name ('Shephard'), so it is not an item at all. The answer's own evidence says this, but the structured field does not reflect it.", "fix": "Mark the record as an NPC (not an item) or leave the item unresolved. Confirmed: locale 5102254 = 'Shephard'; wiki page Shephard (rev 48999) describes a human Medic Job merchant in the Medic Job Center, Sanctuary, with the stock list and the August 27, 2013 introduction date as the answer states."}]}

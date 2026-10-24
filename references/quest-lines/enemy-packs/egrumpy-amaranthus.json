@@ -1,0 +1,47 @@
+{
+ "title": "Grumpy Amaranthus",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\bristlewood_glade.json"
+  },
+  {
+   "file": "dungeons\\bristlewood_glade.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:72007 [npc_name | - | Grumpy Amaranthus] 'Grumpy Amaranthus'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:72007 [npc_name | - | Grumpy Amaranthus] 'Grumpy Amaranthus'"
+ ],
+ "client_cluster": [
+  "locale:71999 [quest_dialog | Merry Vale | Private Yunadug] 'Have you located the missing postchug? I hope nothing has happened to him... Try looking along the path to Merry Vale.'",
+  "locale:72001 [quest_objective | Merry Vale | Private Gailug] 'Speak with Private Gailug'",
+  "locale:72002 [quest_objective | Merry Vale | Private Gailug] 'Speak with private Gailug about taking a vacation in Merry Vale.'",
+  "locale:72004 [quest_objective | Merry Vale | Luella] 'Return to Merry Vale to report your success to Luella.'",
+  "locale:72005 [quest_dialog | Merry Vale | Rimpadun] 'Have you delivered the sasparilla to Rimpadun in Merry Vale yet? If you are having trouble finding him try looking in the chugawug encampment within Merry Vale.'",
+  "locale:72007 [npc_name | - | Grumpy Amaranthus] 'Grumpy Amaranthus'",
+  "locale:72011 [quest_objective | - | Farmer Murglot] 'Collect the flowers for Farmer Murglot'",
+  "locale:72012 [quest_objective | - | Farmer Murglot] 'You can find the wildflowers outside of Wugachug.'",
+  "locale:72013 [npc_name | - | Veterinarian Jilly] 'Veterinarian Jilly'",
+  "locale:72014 [quest_dialog | Vale of the Ancients | Thirty Point Buck] \"The thirty point buck! It must have wandered into the <font color='#d9781a'>Vale of the Ancients</font>.<BR><BR>I have been waiting my whole life to find such a\"",
+  "locale:72015 [quest_title | Vale of the Ancients | Thirty Point Buck] 'Thirty Point Buck'"
+ ],
+ "wiki": {
+  "title": "Grumpy Amaranthus",
+  "text": "Grumpy Amaranthus is a floren NPC boss that can be found in the Bristlewood Glade, located in Bristlewood.\n\nAppearances\nQuest:Chapter 1: It's Business Time\nBristlewood Glade\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Floren\nCategory:Bristlewood"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Chapter 1: It's Business Time' (final): Defeat the floren inside of Bristlewood Glade."
+ ]
+}

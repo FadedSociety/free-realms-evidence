@@ -1,0 +1,28 @@
+{
+ "title": "Japan Earthquake & Tsunami Relief Effort",
+ "names_seen": [
+  "Japan Earthquake & Tsunami Relief Effort"
+ ],
+ "facts": [
+  {
+   "statement": "SOE extended the Japan earthquake and tsunami relief promotion in Free Realms through April 1st.",
+   "numbers": {
+    "end_date_april": 1
+   },
+   "era": "live",
+   "quote": "we'll be extending the duration of this opportunity to help . Through April 1st",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2072",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2072",
+   "date": null,
+   "title": "Extended! - Japan Earthquake & Tsunami Relief Effort",
+   "summary": "An SOE news post (captured 2011-04-02, posted about 4 days earlier, exact date not shown) announcing that the Japan earthquake and tsunami relief promotion was extended through April 1st. Free Realms players could buy specially created Cherry Blossom items in the in-game marketplace, with SOE donating $10 to the American Red Cross; the same promotion ran in other SOE games with alternative items. The article is a promotion notice, not a gameplay source."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

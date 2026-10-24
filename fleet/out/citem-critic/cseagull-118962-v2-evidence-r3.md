@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cseagull-118962-v2-evidence-r3 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[11952, 8172, 8, 1346] model=claude-haiku-5-5 -->
+# Seagull
+
+{"lens": "evidence", "pass": false, "wireable": true, "score": 3, "problems": [{"field": "evidence[4]", "issue": "Cites locale:39343 as evidence that no other source names Seagull. The automatic id check flags it: locale 39343 is 'birds_seagull', an internal model asset id (dev_note), not quest or player-facing text. Citing it as a 'no other hits' check is not live evidence, and it should not appear as a supporting citation.", "fix": "Drop locale:39343 from the evidence list. Keep only locale:118962 ('Seagull', npc_name) for the name, and the stores.json row for the price. The 'no wiki/article/video/quest/drop' claim can stand on the lookups alone, with 93346/93347 noted as the unrelated ability 'Seagull Peck'."}]}

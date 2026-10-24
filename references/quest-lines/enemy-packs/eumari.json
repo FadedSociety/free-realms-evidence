@@ -1,0 +1,55 @@
+{
+ "title": "Umari",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\hot_springs_haven.json"
+  },
+  {
+   "file": "dungeons\\hot_springs_haven.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:6502 [npc_name | Howling Hills | Umari] 'Umari'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:204 [quest_objective | Hot Springs Haven | Umari] 'Umari, the yeti chief, took over Hot Springs Haven! Residents can no longer enjoy their favorite place of leisure! Head in and defeat Umari!'",
+  "locale:6502 [npc_name | Howling Hills | Umari] 'Umari'",
+  "locale:20528 [npc_dialog | - | Umari] \"Umari's tribe now owns these cavern springs!\"",
+  "locale:102029 [quest_objective | Snowhill | Umari] 'Go to Hot Springs Haven, in Snowhill and beat up Umari.'"
+ ],
+ "client_cluster": [
+  "locale:6494 [npc_name | Howling Hills | Yeti] 'Yeti '",
+  "locale:6498 [npc_name | Howling Hills | Screecher Bat] 'Screecher Bat'",
+  "locale:6501 [npc_name | Howling Hills | Yeti Bouncer] 'Yeti Bouncer'",
+  "locale:6502 [npc_name | Howling Hills | Umari] 'Umari'",
+  "locale:6503 [npc_name | Howling Hills | Ice Soldier | FLAG placeholder: marked for E3 demo, delete later] 'Ice Soldier (for E3 demo- delete later)'",
+  "locale:6506 [npc_name | Howling Hills | Silversnow] 'Silversnow'",
+  "locale:6507 [npc_name | Howling Hills | Frostfang - Icy Claws] 'Frostfang - Icy Claws'",
+  "locale:6508 [ability | Howling Hills | Huff n' Puff] \"Huff n' Puff\"",
+  "locale:6509 [ability | Howling Hills | Snarl] 'Snarl'",
+  "locale:6510 [ability | Howling Hills | Howl] 'Howl'"
+ ],
+ "wiki": {
+  "title": "Umari",
+  "text": "Umari is a yeti NPC boss that can be found in the Hot Springs Haven, located in Snowhill.\n\nDialogues\n\nAppearances\nHot Springs Haven\nFree Realms Issue 11\nFree Realms Issue 12\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Yeti\nCategory:Snowhill\nCategory:Comic"
+ },
+ "images": [
+  "image (image:art_or_promo): H MY\nD BY\nOSS\nAND HERE\nI THOUGHT THAT\nDANE HAD THE\nBIGGEST EGO IN\nTHE REALM.\nI WOULDN'T\nBE SURPRISED\nIF CHEF LUCCA WAS\nTHE PRESIDENT OF\nHIS OWN FAN CLUB."
+ ],
+ "video": [
+  "video:QHfkcL2_pfg/00152.jpg (-): npcs: Umari nameplate  | dialog: Umari: I do so love to dance! | quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 2/9  | job_level: Archer 14 | other_text: Goals (2)",
+  "video:QHfkcL2_pfg/00154.jpg (-): npcs: Umari nameplate  | dialog: Umari: I do so love to dance! | quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 2/9  | job_level: Archer 14 | other_text: Goals (2)",
+  "video:QHfkcL2_pfg/00160.jpg (-): npcs: Umari nameplate  | dialog: Umari: Hey! You're the one ruining all our fun! Get out! | quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 4/9  | job_level: Archer 14 | other_text: -1566 Goals (2)",
+  "video:QHfkcL2_pfg/00156.jpg (-): npcs: Umari dialog_header Yeti Chief | dialog: Umari: I do so love to dance! Umari: Hey! You're the one ruining all our fun! Get out! | quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 2/9  | job_level: Archer 14 | other_text: Goals (2) Hey! You'",
+  "video:QHfkcL2_pfg/00036.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Goals (2)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

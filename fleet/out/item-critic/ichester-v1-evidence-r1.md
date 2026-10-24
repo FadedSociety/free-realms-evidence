@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ichester-v1-evidence-r1 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[8485, 4990, 8, 1444] model=claude-haiku-5-5 -->
+# Chester
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[1] / sources[0].detail", "issue": "The 'Series 1 Topps Physical booster packs' origin of the card rests only on the wiki page text. The card image transcription does not mention it. The claim is supported by the wiki but not independently confirmed.", "fix": "Keep it attributed to the wiki Chester page (rev 47930). Treat it as wiki-only, not a second source."}, {"field": "open", "issue": "Locale 41607 is tagged npc_name and the pet item-name string was not found. The answer already says so honestly, so this is a flagged unknown, not an error.", "fix": "No change needed. Leave the item-name string as open."}]}

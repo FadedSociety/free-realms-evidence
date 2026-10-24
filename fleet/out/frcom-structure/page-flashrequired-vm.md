@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=page-flashrequired-vm status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 1892, 4, 618] model=claude-haiku-5-5 -->
+# Free Realms - Flash Plugin is Required
+
+{"article": {"title": "Free Realms - Flash Plugin is Required", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This is a freerealms.com gate page telling visitors to install a Flash plugin, with links to legal notices, help, privacy policy, terms of service and a photosensitive warning. It describes no game content, quests, items, prices, events or mechanics, so a rebuilder gets nothing usable from it.", "facts": [], "quests": [], "uncertain": ["The page text does not state a capture-independent date or author.", "The Flash plugin requirement is site plumbing, not a fact about how the live game played."]}

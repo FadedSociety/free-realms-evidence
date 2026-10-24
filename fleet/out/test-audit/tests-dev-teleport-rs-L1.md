@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-dev-teleport-rs-L1 status=done turns=10 usd=0.0098 tokens(read,write,in,out)=[176914, 28965, 22, 8914] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/dev_teleport.rs lines 1-653 of 653
+
+Window reviewed: `prototype/osfr-tools/tests/dev_teleport.rs` lines 1-653. Four findings, read against `src/opening.rs` and `src/dev_teleport.rs`.
+
+- **[medium] prototype/osfr-tools/tests/dev_teleport.rs:603 private_dev_teleport_location_setter_is_progress_free_but_visit_rules_are_not - the location-setter checks compare `state()`, which does not contain the stored location, so the setter's effect is never asserted.**
+  - Why it cannot catch a regression: `OpeningEngine::state()` returns `&OpeningState` (`stages`, `discoveries`, `version`, `content_sha256`, opening.rs:37-42). The origin lives in the private field `location` (opening.rs:218), which is outside `state()`. `set_location_without_events` (opening.rs:611-621) could become a no-op, or could store NaN before returning Err, and both assertions at lines 629 and 635 would still pass. The test therefore does not show that the origin moved, and the name's "location setter" half is unchecked.
+  - Fix: assert the origin through observable behaviour, for example call `on_interaction` or `on_position` after the setter and check the range result changes, or add a read-only `location()` accessor and assert it equals `(zone, position)` after a successful call and is unchanged after the NaN call.
+
+- **[medium] prototype/osfr-tools/tests/dev_teleport.rs:429 private_dev_teleport_list_ambiguity_unknown_and_malformed_targets_never_move - the name claims ambiguity refusal, but for "fire" and the other bad queries the only reply check is `!text.is_empty()`.**
+  - Why it cannot catch a regression: lines 441-446 pass for any non-empty reply. A change that replaces the ambiguity message with a generic or wrong refusal still passes. The comment at 439 says three zone-0 fires make the name ambiguous, but no assertion checks that the refusal is the ambiguity refusal. The no-mutation check still holds, so the "never move" half is covered.
+  - Fix: for `"fire"`, assert the reply contains the ambiguity wording (or lists the candidate GUIDs). For `"gloamling"`, assert the cave-only/unknown wording. Do this with explicit `contains` checks instead of `!is_empty()`.
+
+- **[low] prototype/osfr-tools/tests/dev_teleport.rs:544 private_dev_teleport_bundle_is_atomic_and_restart_keeps_the_position - `assert!(gateway.handle_at(&bundle, 2_500).is_err())` does not show that the failure came from the invalid child.**
+  - Why it cannot catch a regression: any framing or bundle-level error (for example a bad header or a length problem, `gateway.rs:659-685`) also gives `is_err()`, and the snapshot check would still pass. Atomicity is therefore not shown for the intended cause. The test has no control proving the same teleport child succeeds on its own in a bundle.
+  - Fix: assert the error message (for example that it mentions the invalid equip child) and add a control bundle with the teleport child plus a valid child, which must succeed and relocate.
+
+- **[low] prototype/osfr-tools/tests/dev_teleport.rs:307 content_npcs_support_filtered_listing_name_and_guid_teleports_with_visibility_refresh and :348 content_npc_goto_arrives_on_the_side_the_npc_faces - these are not `#[ignore]`d, but they call `fixture()`, which needs the private `lab/references` campaign.**
+  - Why it matters: `lab/references` does not exist under `repo` (listing `lab` returns "not a directory"), so these tests panic in `fixture_facing` at line 171 on any checkout without the private data. That is not a silent pass, but it makes the public gate red, and every other fixture-based test in this file is `#[ignore]`d with a reason. This is outside the five listed categories, so it is reported only for consistency.
+  - Fix: either add the same `#[ignore = "requires private opening campaign and gateway reference; no native launch"]` attribute, or make the fixture missing a clear, explicit skip-with-message rather than a panic.

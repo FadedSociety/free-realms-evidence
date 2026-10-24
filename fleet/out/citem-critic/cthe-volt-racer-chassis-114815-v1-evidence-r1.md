@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cthe-volt-racer-chassis-114815-v1-evidence-r1 status=done turns=4 usd=0.0018 tokens(read,write,in,out)=[16336, 7057, 10, 1411] model=claude-haiku-5-5 -->
+# The Volt Racer Chassis
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "Minor omission: the client holds a family of Volt Racer kart parts (locale 403100 Engine, 403101 Turbo, 403102 Steering Column, 403103 Tires, 403104 Jump Springs, plus customized variants 403155-403159). The answer does not mention them when it says the chassis's kart is unchecked. None of them has an evidenced source either, so this does not change the answer.", "fix": "Add to open: 'Sibling Volt Racer parts (locale 403100-403104, 403155-403159) exist in client text; no source checked for any of them.' Source: lookup locale 'Volt Racer' client hits."}]}

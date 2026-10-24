@@ -1,0 +1,23 @@
+{
+ "title": "Giant Toads",
+ "our_entries": [
+  {
+   "file": "dungeons\\cracked_claw_caverns.json",
+   "definition_id": 930059
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:9652 [quest_dialog | - | giant toads] 'Wow! You really saw some giant toads? That is so awesome! I wish I could have one as a pet. <BR><BR>Thanks for helping me out.'"
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Giant Toad",
+  "text": "The Giant Toad is an enemy in Free Realms, their is also an TCG card version of it. It is a member of Darrel Handy's \"Stayin Alive\" deck. http://www.freerealms.com/article/detail.action?articleId=221\nReferences\n\nCategory:Enemies\nCategory:Cards\nCategory:NPC"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

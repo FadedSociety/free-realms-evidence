@@ -1,0 +1,30 @@
+{
+ "title": "SOE Super Fan Spring Fever",
+ "names_seen": [
+  "SOE Super Fan Spring Fever"
+ ],
+ "facts": [
+  {
+   "statement": "During SOE Super Fan Spring Fever, Free Realms was one of the participating games in a promotion where Station Cash purchases were doubled, running April 22-25.",
+   "numbers": {
+    "start_day": 22,
+    "end_day": 25,
+    "start_month": 4
+   },
+   "era": "live",
+   "quote": "Entre os dias 22 e 25 de abril, ganhe Station Cash dobrados quando você comprar SC!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2105",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2105",
+   "date": null,
+   "title": "SOE Super Fan Spring Fever - de 22 a 25 de abril",
+   "summary": "This is a Portuguese-language SOE site-wide promotion post, not a Free Realms article. Free Realms appears only as one of several participating SOE games in a Station Cash double-purchase event held April 22-25; it gives no quests, items or mechanics. The year is not stated in the text; the capture date (2011-06-04) suggests 2011."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

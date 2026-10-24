@@ -1,0 +1,33 @@
+{
+ "title": "Giant Bat",
+ "our_entries": [
+  {
+   "file": "dungeons\\frostfang_caverns.json",
+   "definition_id": 930079
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:100588 [npc_name | - | Giant Bat] 'Giant Bat'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:100588 [npc_name | - | Giant Bat] 'Giant Bat'",
+  "locale:139544 [quest_objective | - | giant bat] 'Defeat the giant bat!'",
+  "locale:139546 [quest_dialog | - | giant bat] 'There is a rumor that within the cavern is a giant bat who hordes treasure.  Knock out the bat and see what kind of treasure it was guarding!'"
+ ],
+ "client_cluster": [
+  "locale:100580 [quest_objective | Snowhill | -] 'As a Warrior, defeat the Frostfang Snarlers wandering the mountains south-east of Snowhill.'",
+  "locale:100581 [quest_title | - | -] 'One More to Go!'",
+  "locale:100583 [quest_title | Seaside | -] \"Beat Sundancer's time in Seaside\"",
+  "locale:100584 [quest_objective | Seaside | Beat Sundancer's time in Seaside] \"Touch the barrel down on the path in front of Sundancer's home to begin the race!\"",
+  "locale:100585 [quest_objective | Snowhill | Steele] 'Find Steele in Snowhill to continue your weapons training.'",
+  "locale:100587 [quest_objective | Seaside | Beat Sundancer's time in Seaside] 'Inform Sundancer you have beaten his time!'",
+  "locale:100588 [npc_name | - | Giant Bat] 'Giant Bat'",
+  "locale:100595 [quest_objective | Seaside | Beat Sundancer's time in Seaside] 'Ahead to Checkpoint #2'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

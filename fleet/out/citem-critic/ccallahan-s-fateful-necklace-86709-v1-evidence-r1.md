@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccallahan-s-fateful-necklace-86709-v1-evidence-r1 status=done turns=2 usd=0.0025 tokens(read,write,in,out)=[3942, 15286, 6, 1162] model=claude-haiku-5-5 -->
+# Callahan's Fateful Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor: the answer does not mention the sibling 'Callahan's Fateful Ring' (locale-table and Legacy ClientItemDefinitions.json line 465786) and the 'Callahan's ... Ring' family, which sit alongside the necklace cluster. It is context only, not a source.", "fix": "Optionally note the parallel 'Callahan's Fateful Ring' family (ClientItemDefinitions.json:465786 in FreeRealms-Legacy; en_us_data.dat 365673152) as unsourced, to show the Callahan's set naming is shared across necklace and ring slots."}]}

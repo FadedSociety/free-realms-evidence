@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpettrainer-l1-head-violet-109920-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4192, 9369, 6, 956] model=claude-haiku-5-5 -->
+# pettrainer_L1_head_violet
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[5] (job removal)", "issue": "The claim that the Pet Trainer job was removed from new players in December 2009 is cited only to a repo job-table row. I did not confirm it against the wiki text in this pass, so it is unverified here and is used to explain the item's live status.", "fix": "Confirm the December 2009 removal against the wiki Jobs page (or the 'Character and Customization' job 121 row's cited wiki line) before relying on it; until then keep live as 'unsure', which the answer already does."}]}

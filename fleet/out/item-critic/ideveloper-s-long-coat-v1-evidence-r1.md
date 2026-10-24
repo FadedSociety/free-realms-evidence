@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ideveloper-s-long-coat-v1-evidence-r1 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[10973, 8613, 8, 1540] model=claude-haiku-5-5 -->
+# Developer's Long Coat
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer sets live to \"no\", but the only support is the wiki's Unobtainable category. No source gives a retirement or removal date, and the answer's own open list says retired status is unknown. 'Unobtainable' supports 'no player acquisition' rather than 'not live'. Live should be null or 'unknown', or it should be explained as 'no player acquisition source'.", "fix": "live: null (or 'no player acquisition'), citing the wiki Unobtainable category (freerealms-wiki/wikitext/11556-47008-043e575278b9.wiki, line 18). No retirement date exists in the evidence."}]}

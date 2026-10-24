@@ -1,0 +1,46 @@
+{
+ "title": "Thugamug Henchman",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 103726,
+   "definition_id": 1234002,
+   "model_id": 199,
+   "max_health": 140,
+   "damage": 9,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 103726,
+   "definition_id": 1234003,
+   "model_id": 199,
+   "max_health": 140,
+   "damage": 9,
+   "boss": false
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:103726 [npc_name | - | Thugamug Henchman] 'Thugamug Henchman'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:103726 [npc_name | - | Thugamug Henchman] 'Thugamug Henchman'"
+ ],
+ "client_cluster": [
+  "locale:103718 [quest_objective | - | Sasparilla Sprint] 'Collect extra Jugs'",
+  "locale:103722 [npc_name | - | Merigold] 'Merigold'",
+  "locale:103723 [npc_name | - | Raina Rush] 'Raina Rush'",
+  "locale:103724 [npc_name | - | Auguste Frydaze] 'Auguste Frydaze'",
+  "locale:103726 [npc_name | - | Thugamug Henchman] 'Thugamug Henchman'",
+  "locale:103728 [quest_title | - | Sasparilla Sprint] 'Sasparilla Sprint'",
+  "locale:103729 [quest_objective | - | Sasparilla Sprint] 'Collect the Sasparilla Jugs and return them to Postchug Runalug before time runs out!'",
+  "locale:103732 [quest_dialog | - | Poe's Best Deck] 'Did you find my hidden cards yet? I know I stashed them in one of the yellow planters along this street somewhere...'",
+  "locale:103734 [ability | - | Slap Knockback] 'Slap Knockback'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

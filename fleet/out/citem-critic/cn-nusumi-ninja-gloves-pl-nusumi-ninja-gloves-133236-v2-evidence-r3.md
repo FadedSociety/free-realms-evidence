@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-nusumi-ninja-gloves-pl-nusumi-ninja-gloves-133236-v2-evidence-r3 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4625, 8549, 6, 1371] model=claude-haiku-5-5 -->
+# {n}Nusumi Ninja Gloves{pl="Nusumi Ninja Gloves"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "where / vendor detail", "issue": "The 'Pixie NPC Merchant' and 'Perry's Pastures, south of Snowhill' details are attributed to the wiki intro line. My wiki lookup returned the intro sentence (introduced August 27, 2013; sells exclusively Ninja Job Items) and the Sells list, but no location or race text. The location is therefore not re-verified from the wiki snippet I could see.", "fix": "Keep the Dizzy Toad vendor and the Sells entry (wiki Dizzy_Toad, Sells section, rev 2013-10-03). Mark 'Pixie' and 'Perry's Pastures' as unconfirmed unless the full wiki page is re-read. Nothing else in the answer needs to change."}]}

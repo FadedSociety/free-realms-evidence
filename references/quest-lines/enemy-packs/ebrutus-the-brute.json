@@ -1,0 +1,52 @@
+{
+ "title": "Brutus the Brute",
+ "our_entries": [
+  {
+   "file": "dungeons\\trail_of_betrayal.json",
+   "definition_id": 930001
+  },
+  {
+   "file": "dungeons\\trail_of_betrayal.json",
+   "definition_id": 930001
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:116054 [quest_title | - | Brutus the Brute] 'Brutus the Brute!'",
+  "locale:116426 [npc_name | - | Brutus the Brute] 'Brutus the Brute'",
+  "locale:5102932 [npc_name | - | Brutus the Brute] 'Brutus the Brute'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:116054 [quest_title | - | Brutus the Brute] 'Brutus the Brute!'",
+  "locale:116061 [quest_objective | - | Brutus the Brute] \"Wizard Hildegarde's enforcer Brutus is forcibly &quot;collecting taxes&quot; from residents! Knock this thieving brute out so he returns to Robgoblin Trove!\"",
+  "locale:116426 [npc_name | - | Brutus the Brute] 'Brutus the Brute'",
+  "locale:130811 [quest_dialog | - | Brutus the Brute] \"I bet ya cheatin' on ya taxes!  I'll teach ya to ignore Hildegarde's law!\"",
+  "locale:130812 [quest_objective | - | Brutus the Brute] 'Tax collectors!  Bring me what you have collected!'",
+  "locale:130813 [quest_dialog | - | Brutus the Brute] 'YES!  Money gives me strength!  Your turn to pay!'",
+  "locale:130814 [quest_dialog | - | Brutus the Brute] 'WHAT!?  None of my tax collectors have returned!?'",
+  "locale:130820 [quest_objective | - | Brutus the Brute] 'Defeat Brutus the Brute!'",
+  "locale:5102932 [npc_name | - | Brutus the Brute] 'Brutus the Brute'"
+ ],
+ "client_cluster": [
+  "locale:116046 [npc_name | - | Mysticglint] 'Mysticglint'",
+  "locale:116047 [item | - | Wizard Clothing] 'Wizard Clothing'",
+  "locale:116048 [quest_objective | Briarwood | Lyrral Pathfinder] 'Find Lyrral Pathfinder in Briarwood.'",
+  "locale:116049 [quest_dialog | - | Thank you, thank you. You're too kind! | FLAG fragment: reply option with no quest meaning on its own] \"Thank you, thank you. You're too kind!\"",
+  "locale:116051 [quest_objective | Nettleseed | Sperry's hut] \"Scout the location near Sperry's hut, in northern Nettleseed.\"",
+  "locale:116052 [quest_dialog | - | Raina's pen] \"I'll sign autographs as soon as I find my pen.\"",
+  "locale:116053 [quest_title | - | Prince of Low Tide | FLAG flag?] 'Prince of Low Tide!'",
+  "locale:116054 [quest_title | - | Brutus the Brute] 'Brutus the Brute!'",
+  "locale:116055 [quest_title | - | Call of the Wildest] 'Call of the Wildest!'",
+  "locale:116057 [quest_title | - | Unrooted Terror] 'Unrooted Terror!'",
+  "locale:116058 [quest_title | - | Spawn of Necrosis] 'Spawn of Necrosis!'",
+  "locale:116059 [quest_objective | Sanctuary | Deliver the mail] 'Deliver the mail in Sanctuary. Watch out for the dog named Streak!'",
+  "locale:116060 [quest_objective | - | The Cray Prince] 'The Cray Prince is stealing souvenirs from locals and visitors! Defeat him so he returns to Cray Caves.'",
+  "locale:116061 [quest_objective | - | Brutus the Brute] \"Wizard Hildegarde's enforcer Brutus is forcibly &quot;collecting taxes&quot; from residents! Knock this thieving brute out so he returns to Robgoblin Trove!\"",
+  "locale:116062 [quest_objective | - | Call of the Wildest] 'An unusually savage wolf is terrorizing locals and travelers! Defeat this wolf so it returns to Frostfang Caverns!'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-honey-ring-96089-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3628, 7995, 6, 984] model=claude-haiku-5-5 -->
+# Shiny Honey Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The guess that the ring set comes from a promotion or event, given the sequential IDs 96086-96091, is speculation. It is flagged as unknown, so it does not fail the answer.", "fix": "Keep it as an open question. No source in the client, wiki, articles, video, repo or refs names an event or promotion for these rings."}, {"field": "evidence", "issue": "The sibling-ring claim (locale 96412-96426 'Shiny Fire/Sun/Light/Air/Wind/Void Ring') was not re-checked in this pass. Its id range is cited without a fresh lookup.", "fix": "Verify the sibling locale ids before relying on them. The honest-unknown conclusion does not depend on them."}]}

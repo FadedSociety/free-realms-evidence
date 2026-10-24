@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=16ceb64e4f9ea0deecd7bb99a06cfecb4d9b7c76 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3938, 5961, 6, 652] model=claude-haiku-5-5 -->
+# Free realms issue 6.jpg
+
+{"kind": "art_or_promo", "has_text": true, "text": "BASED ON THE VIRTUAL WORLD PHENOMENON FREE REALMS!\nFreeRealms™\n#6 APR 10\nExclusive\nIn-Game Reward\nInside! Collect all 12.\nSee page 28 for details\non collecting the\nDarkthorne's\nEmbrace\nPlay now at www.FreeRealms.com\nDIRECT SALES\n$3.99US WILDSTORM.COM\n7 61941 28670 9\n00611\nWILDSTORM\nWS\nLEWIS • BURAN • NOME • MARTINEZ\nMARTINEZ (artist signature)", "tooltip": null, "entries": null, "uncertain": ["The artist signature in the lower right is small and was read as 'Martinez'; the barcode digits were read as shown but may be imprecise.", "The 'Free Realms' logo wordmark is stylized; text is transcribed as it reads. 'Darkthorne's Embrace' matches locale id 4143."]}

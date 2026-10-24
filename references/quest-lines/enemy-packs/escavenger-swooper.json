@@ -1,0 +1,34 @@
+{
+ "title": "Scavenger Swooper",
+ "our_entries": [
+  {
+   "file": "dungeons\\seaside_swoopers.json",
+   "definition_id": 930019
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:92321 [quest_title | - | Scavenger Swooper] 'Scavenger Swooper'",
+  "locale:5101508 [npc_name | - | Scavenger Swooper] 'Scavenger Swooper'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:92321 [quest_title | - | Scavenger Swooper] 'Scavenger Swooper'",
+  "locale:5101508 [npc_name | - | Scavenger Swooper] 'Scavenger Swooper'"
+ ],
+ "client_cluster": [
+  "locale:92316 [quest_objective | - | Doctor's Note] 'Speak with Milla'",
+  "locale:92317 [quest_dialog | - | Doctor's Note] \"I need a doctor's note? Hrmm... maybe you could visit <font color='#D9781A'>Doctor Gordon</font> in <font color='#D9781A'>Sanctuary</font> and pretend to be me?\"",
+  "locale:92318 [quest_title | - | Doctor's Note] \"Doctor's Note\"",
+  "locale:92319 [quest_objective | - | Doctor's Note] \"Milla has asked you to get a doctor's note for her from Doctor Gordon. First you will need to eat some of Glerga's cooking from the Robgoblin Camp and get sick \"",
+  "locale:92320 [quest_dialog | - | Doctor's Note] \"Really? I can go? Woohoo! I can't wait to see Bruce play! He's SUPER dreamy!\"",
+  "locale:92321 [quest_title | - | Scavenger Swooper] 'Scavenger Swooper'",
+  "locale:92327 [npc_name | - | Annoyed Penguin] 'Annoyed Penguin'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:wA9BqwA5lr4/00066.jpg (-): landmarks: sandy dunes palm trunk | job_level: Medic 18 | other_text: You receive 3 coins Lazy Swooper Scavenger Swooper"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

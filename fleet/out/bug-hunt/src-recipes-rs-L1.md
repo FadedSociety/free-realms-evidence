@@ -1,0 +1,13 @@
+<!-- fleet job=bug-hunt id=src-recipes-rs-L1 status=nothing_found turns=8 usd=0.0095 tokens(read,write,in,out)=[121104, 27954, 18, 9627] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/recipes.rs lines 1-731 of 731
+
+Reviewed `prototype/osfr-tools/src/recipes.rs` lines 1-731 in full, plus the callers that reach it (`gameplay.rs:1414-1450` `recipe_replace_all_packet` / `learn_recipe`, `gameplay.rs:861` `load_runtime`) and the helpers it relies on (`inventory.rs:498-589` `has_definition` / `presentation`, `inventory.rs:1399` `read`). I found no defect that a remote client can trigger.
+
+Checked and ruled out:
+- **Client-controlled input:** the only client-influenced value is `recipe_id` in `learn_recipe`. It is resolved by searching the server's own catalog (`gameplay.rs:1425-1432`), so an unknown id returns an error. Nothing in this window parses packet bytes; all decoding is of server-owned JSON or the pinned client catalogue.
+- **Panics:** `presentation` (`inventory.rs:564-589`) bounds-checks every read: `read` uses `.get()`, string lengths are `try_from`-checked and `checked_add`/`filter` bounded, and `offset+4` cannot overflow because `offset <= len`. `ingredient.definition_id as u32` is safe because `validate_recipe` (line 467) rejects values `<= 0`. The `i32 -> u32` conversions in `wire_rows` go through `max(0)` or `try_from`. `encode_recipe_row` has no unchecked arithmetic.
+- **Unbounded growth:** recipe counts come from the server's content file, not the client. `learn_recipe` inserts into `learned_recipes` only after the packet is built, so there is no half-applied state.
+- **Validation logic:** duplicate keys and duplicate `recipe_id`s are rejected (lines 225-236). Required-rank bounds are 1..=20 for both recipe kinds. `validate_sources` and the field-provenance checks match their stated rules. `ids_from_item_definitions_json` rejects non-i32 ids.
+- **`load_runtime` item check (lines 193-213):** the reference set is built from the same file, so the check is tautological. The doc comment says so, and `tests/recipes.rs:391` names this design, so I did not report it.
+
+Low-severity observation, not reported: `wire_rows` (lines 290-301) picks the presentation with `presentation(output).or_else(presentation(pattern))`, but picks `item_definition_id` with `has_definition(output)`. If an output definition exists but its bytes are malformed, the row would mix the pattern's name/icon with the product's item id. This needs a malformed row in the pinned client catalogue, which no client packet can supply, and the tests cover only the missing-definition case (`tests/recipes_wire.rs:297`). I could not show a reachable failure.

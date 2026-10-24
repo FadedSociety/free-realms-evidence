@@ -1,0 +1,28 @@
+{
+ "title": "Tägliche Aktivitäten (daily activities)",
+ "names_seen": [
+  "Tägliche Aktivitäten (daily activities)"
+ ],
+ "facts": [
+  {
+   "statement": "Two new daily activities were added in this update.",
+   "numbers": {
+    "new_daily_activities": 2
+   },
+   "era": "live",
+   "quote": "Zwei neue tägliche Aktivitäten wurden hinzugefügt.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1639",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1639",
+   "date": null,
+   "title": "Free Realms - Neuigkeiten: Aktualisierungsbemerkungen vom 15. Juli",
+   "summary": "A German-language SOE patch-notes page (update of 15 July, year not stated on the page; relative age on capture suggests about 2010) listing two new daily activities, a combat-zone villain-count adjustment, and new items in the Coin Shop, housing, mounts and clothing categories. Item names are listed under category headings only, with no prices or stats given."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

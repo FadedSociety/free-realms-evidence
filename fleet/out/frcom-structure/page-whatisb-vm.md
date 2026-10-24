@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=page-whatisb-vm status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 1902, 4, 526] model=claude-haiku-5-5 -->
+# Free Realms - Error W77
+
+{"article": {"title": "Free Realms - Error W77", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a freerealms.com error page (error W77) that says only that the site is having a problem and invites the visitor to retry. It contains no game content: no quests, items, mechanics, events, or dates about Free Realms. It has no value as a source for the rebuild beyond confirming that the site footer links existed in March 2011.", "facts": [], "quests": [], "uncertain": ["The capture date (2011-03-31) is from the Wayback timestamp, not from the page itself, and the page shows no publication date.", "The page is a site error page, so it may not reflect what the game or site looked like at the time."]}

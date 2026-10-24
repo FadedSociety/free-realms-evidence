@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=other-faq-php-faq-posting status=done turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2553, 4, 479] model=claude-haiku-5-5 -->
+# Free Realms Forums - FAQ: Posting
+
+{"article": {"title": "Free Realms Forums - FAQ: Posting", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This is the fan forum's posting-rules FAQ (spam, bumping threads once every 24 hours, and double posting rules) as captured in May 2009. It is about forum etiquette and does not describe any Free Realms gameplay, quests, items, prices, or events, so it yields no game facts for the rebuild.", "facts": [], "quests": [], "uncertain": ["The page gives no article date or author; the capture date is 2009-05-26.", "The page is a forum rules FAQ for the Free Realms fan forum, not about the game itself."]}

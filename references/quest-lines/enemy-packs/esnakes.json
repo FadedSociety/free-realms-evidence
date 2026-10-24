@@ -1,0 +1,27 @@
+{
+ "title": "Snakes",
+ "our_entries": [
+  {
+   "file": "dungeons\\floren_forest.json",
+   "definition_id": 930069
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:103483 [quest_dialog | - | Snakes] \"I keep hearing reports that there are <font color= '#D9781A'>snakes</font> slithering around and scaring some of the animals and our guests. <BR><BR>I doubt the\"",
+  "locale:115954 [quest_objective | - | Snakes] 'Defeat all of the snakes!'"
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Snake",
+  "text": "The Snake is a  pet pal that is available exclusively to Members through the Coin Shop at the price of .\nCategory:Pet Pal\nCategory:Snake\nCategory:Members Only\nCategory:Coin Shop\nCategory:Marketplace Items"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [
+  "fact:location: Mugwort's Hollow is a timed instance where Forest Snakes and Battle Warthogs yield life magic samples; the bonus objective is completing it in under 10 minutes. | completing the area in less than 10 minutes (http://www.tentonhammer.com:80/node/69770)",
+  "fact:location: The Thistlerow hedge maze is the first obstacle adventurers meet when entering Briarwood's dark forest; it hides many dangers such as snakes and vineweeds. | The Thistlerow hedge maze is the first obstacle adventurers will encounter when entering this dark for (http://www.freerealms.com:80/article/detail.action?articleId=118)"
+ ],
+ "quest_answers_naming_it": []
+}

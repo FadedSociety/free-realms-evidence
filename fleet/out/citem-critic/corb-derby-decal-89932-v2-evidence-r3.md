@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=corb-derby-decal-89932-v2-evidence-r3 status=no_submit turns=3 usd=0.0012 tokens(read,write,in,out)=[8639, 4919, 8, 955] model=claude-haiku-5-5 -->
+# Orb Derby Decal
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says Article 199 is 'category-level' and does not name the item, and its evidence pack lists no wiki page. Both points hold: the article says racing and demolition derby stickers were added to the store, with no decal named, and the wiki Items page does list '[Orb] [Derby] [Decal]' in a plain name list. The answer is accurate here, but the wiki hit is a naming hint only, which it already says.", "fix": "No change needed. Keep Sources empty and live as 'unsure' until a price, vendor, quest or event row names definition 9272 (Items wiki page and article 199 verified by lookup, neither gives a price or currency)."}]}

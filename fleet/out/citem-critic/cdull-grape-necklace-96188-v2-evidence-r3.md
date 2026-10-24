@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-grape-necklace-96188-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3654, 7886, 6, 800] model=claude-haiku-5-5 -->
+# Dull Grape Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer correctly leaves sources empty. I re-checked the evidence: the lookup across client, wiki, articles and video returns only locale:96188, and the repo note 'Items and Inventory.md' line 94 does say slot 8 is Accessory1 with locale name 'Ring' and slot 9 is 'Necklace'. The withdrawal of the earlier slot claim is supported.", "fix": "No change needed to the answer. Optionally, the 'live' field of 'unsure' is right: nothing in the evidence shows sale, drop or retirement. The slot-8 versus 'Necklace' name conflict stays open, as the answer says."}]}

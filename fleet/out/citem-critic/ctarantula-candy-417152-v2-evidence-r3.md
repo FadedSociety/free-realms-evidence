@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctarantula-candy-417152-v2-evidence-r3 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[8941, 5342, 8, 1580] model=claude-haiku-5-5 -->
+# Tarantula Candy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The top-level live 'yes' is stated more firmly than the evidence supports. It rests on one receipt frame (video:L8GVYeD4dKE/00060.jpg) that names no giver or activity, and the answer's own confidence is 0.3. Nothing else dates or confirms availability.", "fix": "Keep live as an unverified 'yes (single receipt frame, no source named)' or set it to unknown until a second frame or a source confirms it. The frame itself is real: 'You receive 1 Tarantula Candy', Adventurer 20, 3-minute timer."}]}

@@ -1,0 +1,73 @@
+{
+ "title": "Milo E. Lizardo",
+ "our_entries": [
+  {
+   "file": "npcs/sunstone_valley.json",
+   "npc_id": 9000000408,
+   "zone": "Sunstone Valley",
+   "enemy_kind": "Runs the \"Monster Mesa Travel Company\" (658083063) and holds Magetech. A wanted-style line reads \"Wanted KO'd or alive for overcharging for tours of Sunstone Valley\" (219244888; matched to him by wording).",
+   "location_evidence": [
+    "\"Near the Manguana Oasis in Rumble Ridge\" (3491510185, 3771261332). [video: dialog 2nq801iM8kU/00054, /00062]"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:442193 [npc_name | - | Milo E. Lizardo] 'Milo E. Lizardo'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:442160 [item | - | Milo E. Lizardo] \"Milo E. Lizardo's Resource Deck\"",
+  "locale:442161 [item | - | Milo E. Lizardo] \"Milo E. Lizardo's Trick Deck\"",
+  "locale:442162 [item | - | Milo E. Lizardo] \"Milo E. Lizardo's Creature Deck\"",
+  "locale:442163 [item | - | Milo E. Lizardo] \"Milo E. Lizardo's Tournament Deck\"",
+  "locale:442176 [quest_objective | - | Milo E. Lizardo] 'Battle Milo E. Lizardo and his Resource deck. Be the first to score 12 points to win the match and a Sandscale Oasis Nature card from his deck.'",
+  "locale:442177 [quest_objective | - | Milo E. Lizardo] 'Battle Milo E. Lizardo and his Trick deck. Be the first to score 12 points to win the match and a Furious Strikes Nature card from his deck.'",
+  "locale:442178 [quest_objective | - | Milo E. Lizardo] 'Battle Milo E. Lizardo and his Creature deck. Be the first to score 12 points to win the match and a Sandscale Water-seeker Nature card from his deck.'",
+  "locale:442179 [quest_objective | - | Milo E. Lizardo] 'Battle Milo E. Lizardo and his Tournament deck. Be the first to score 12 points to win the match and a Milo E. Lizardo Hero card from his deck.'",
+  "locale:442193 [npc_name | - | Milo E. Lizardo] 'Milo E. Lizardo'",
+  "locale:442197 [quest_dialog | - | Milo E. Lizardo] \"No man, Milo E. ain’t seen nobody like- oh, that guy in the cage over there? Don't worry about him. He's okay, we're just playing a little game.<BR><BR>How abou\"",
+  "locale:442198 [quest_dialog | - | Milo E. Lizardo] \"Milo E. does not want your pity!<BR><BR>Let's play another game and then maybe we'll talk about those missing kids that you're looking for. What do you say?\"",
+  "locale:442199 [quest_dialog | - | Milo E. Lizardo] \"Looks like you be pretty good at this game!<BR><BR>Maybe I'll remember what happened to those kids after this next game. Play again?\"",
+  "locale:442200 [quest_dialog | - | Milo E. Lizardo] \"You beat me again!<BR><BR>Ok, one more time, and now I'm usin' my killer special deck! You win this time and maybe I'll help you find one of those missing kids.\"",
+  "locale:5100276 [quest_objective | Shady Shores | Milo E. Lizardo] 'Talk to Milo E. Lizardo'",
+  "locale:5100294 [quest_dialog | Shady Shores | Milo E. Lizardo] 'You beat every deck Milo E. owns!<BR><BR>Is that really is one of your friends in my cage? Fine! He can go free.'",
+  "locale:5100296 [quest_dialog | Shady Shores | Milo E. Lizardo] \"Ok, ok, I can see that you're determined, so I'll let your friend go.<BR><BR>It looks like I'll need to find a new use for that cage.\"",
+  "locale:5100298 [quest_dialog | Shady Shores | Milo E. Lizardo] 'Your victory was hard fought. Now the truth must be told and the prisoner freed.<BR><BR>It was not our decision to be here. It was none other than the Rumble Ki'",
+  "locale:5100300 [quest_dialog | Shady Shores | Milo E. Lizardo] \"Ok! Ok! Your friend can go free! I'm tired of this kidnapping stuff anyway!<BR><BR>Zandro got really powerful lately and it changed him. I sense some of the sam\"",
+  "locale:5100312 [quest_objective | Manguana Oasis | Milo E. Lizardo] 'Go talk to Milo E. Lizardo near the entrance to the Manguana Oasis. He should know more about your missing friends.'"
+ ],
+ "client_cluster": [
+  "locale:442185 [quest_objective | - | Quizzical Yucca] 'Battle Quizzical Yucca and her Trick deck. Be the first to score 12 points to win the match and a Wind Barrier Order card from her deck.'",
+  "locale:442186 [quest_objective | - | Quizzical Yucca] 'Battle Quizzical Yucca and her Creature deck. Be the first to score 12 points to win the match and a Windwhisperer Drake Order card from her deck.'",
+  "locale:442187 [quest_objective | - | Quizzical Yucca] 'Battle Quizzical Yucca and her Tournament deck. Be the first to score 12 points to win the match and a Quizzical Yucca Hero card from her deck.'",
+  "locale:442188 [quest_objective | - | Ironteeth] 'Battle Ironteeth and his Resource deck. Be the first to score 12 points to win the match and a Cool Wheelz Machine card from his deck.'",
+  "locale:442189 [quest_objective | - | Ironteeth] 'Battle Ironteeth and his Trick deck. Be the first to score 12 points to win the match and a Wrath of the Skullz Machine card from his deck.'",
+  "locale:442190 [quest_objective | - | Ironteeth] 'Battle Ironteeth and his Creature deck. Be the first to score 12 points to win the match and a Skullz Commander Machine card from his deck.'",
+  "locale:442191 [quest_objective | - | Ironteeth] 'Battle Ironteeth and his Tournament deck. Be the first to score 12 points to win the match and a Ironteeth Hero card from his deck.'",
+  "locale:442192 [npc_name | - | Rumble King Don] 'Rumble King Don'",
+  "locale:442193 [npc_name | - | Milo E. Lizardo] 'Milo E. Lizardo'",
+  "locale:442194 [npc_name | - | Junkmaker Jort] 'Junkmaker Jort'",
+  "locale:442195 [npc_name | - | Quizzical Yucca] 'Quizzical Yucca'",
+  "locale:442196 [npc_name | - | Ironteeth] 'Ironteeth'",
+  "locale:442197 [quest_dialog | - | Milo E. Lizardo] \"No man, Milo E. ain’t seen nobody like- oh, that guy in the cage over there? Don't worry about him. He's okay, we're just playing a little game.<BR><BR>How abou\"",
+  "locale:442198 [quest_dialog | - | Milo E. Lizardo] \"Milo E. does not want your pity!<BR><BR>Let's play another game and then maybe we'll talk about those missing kids that you're looking for. What do you say?\"",
+  "locale:442199 [quest_dialog | - | Milo E. Lizardo] \"Looks like you be pretty good at this game!<BR><BR>Maybe I'll remember what happened to those kids after this next game. Play again?\"",
+  "locale:442200 [quest_dialog | - | Milo E. Lizardo] \"You beat me again!<BR><BR>Ok, one more time, and now I'm usin' my killer special deck! You win this time and maybe I'll help you find one of those missing kids.\"",
+  "locale:442201 [quest_dialog | - | Junkmaker Jort] 'Is that your friend I got captured? Well too bad! She was trespassing!<BR><BR>I’m Junkmaker Jort, this is my territory, and there’s nothing you can do about it!'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:item_render): FreeRealms\nMilo's Magical Staff\nA travel-sized version of Milo E.\nLizardo's magical staff.\n5129",
+  "image (image:art_or_promo): 5\nMilo E. Lizardo\nManguana\n5\n6\nWhen you play a trick while I'm battling, ready me.\nHow about maybe you and Milo E. we play some cards?\n5P4\nIllus.: Imaginary Friends",
+  "image (image:item_tooltip): Milo E's Magical Staff\nA travel-sized version of Milo E. Lizardo's magical staff.\nResell Value: 0\nYou Own: 1\nCannot Sell\nCannot Trade\nEquippable State:\nYou can use this item if you change jobs.\nRequired: Freestyle Jobs\nTribal Influence\nTake your friends on a walk on the wild side.\nTribal Mastery\nTak"
+ ],
+ "video": [
+  "video:2nq801iM8kU/00062.jpg (-): npcs: Milo E. Lizardo nameplate  | items_seen: Furious Strikes Royal Mage Warrior Trainee Chugawug Cook Royal Archer Sprint | other_text: Reward for beating Milo E. Lizardo's Trick Deck Delivery",
+  "video:2nq801iM8kU/00054.jpg (-): npcs: Milo E. Lizardo dialog_header Card Duelist | dialog: No man, Milo E. ain't seen nobody like- oh, that guy in the cage over there? Don't worry about him. He's okay, we're just playing a little game. How about maybe you and Milo E. play some cards? | quest: Card Duelist: Milo"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "giver of 'Card Duelist: Milo E. Lizardo' (final, zone Sunstone Valley)",
+  "talk target in 'Card Duelist: Milo E. Lizardo' (final): Talk to Milo E. Lizardo near the Manguana Oasis in Rumble Ridge."
+ ]
+}

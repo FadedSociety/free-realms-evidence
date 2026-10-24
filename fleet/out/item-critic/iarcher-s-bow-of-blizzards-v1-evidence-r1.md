@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iarcher-s-bow-of-blizzards-v1-evidence-r1 status=done turns=4 usd=0.0033 tokens(read,write,in,out)=[30604, 16902, 10, 1695] model=claude-haiku-5-5 -->
+# Archer's Bow of Blizzards
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "The claim says the bow is 'Also obtainable from 16 named prize wheels'. The wiki page lists 15 wheels, and the answer's own prize_wheel sources have 15 entries.", "fix": "Change the count to 15. The wiki page text (refs freerealms-wiki/wikitext/16854-32745-a87db6083fb3.wiki, rev 32745) lists: Bixies Gone Wild!, Bixie Hive, Cracked Claw Caverns, Frostfang Growler!, Frostfang Snarlers!, Hooligan Brawling Club!, Hot Springs Haven, Robgoblin Camp!, Robgoblin Pondblasters!, Sheep Watch, Snakes in a Maze!, Tavern Cellar, Thugawug Bumbler!, Treasure of the Bone Shaman!, Troll Summoner Madness!."}]}

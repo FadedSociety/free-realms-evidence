@@ -1,0 +1,14 @@
+<!-- fleet job=bug-hunt id=src-gameplay-crafting-rs-L1 status=nothing_found turns=37 usd=0.0415 tokens(read,write,in,out)=[1608032, 77861, 76, 31333] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/gameplay/crafting.rs lines 1-519 of 519
+
+No reportable defect in `prototype/osfr-tools/src/gameplay/crafting.rs` lines 1-519. I read the whole window (plus lines 256-300) and traced the callers that matter.
+
+What I checked and why each candidate was dropped:
+
+- **Atomicity (apply_craft 337-414, apply_type8 437-487, consume_materials 489-518).** These mutate inventory and opening state before later `?` steps, so a mid-way error leaves partial changes. That is harmless here because every live entry point runs on a clone that is discarded on `Err`: `gameplay.rs:2335-2351` (`staged.handle_opening_inner`) and `gateway.rs:1841-1842` (`game.clone()` then `gameplay.tick`). `begin_gather` (gameplay.rs:4260-4266) is the same pattern. The Type8 and craft transactions also come from the engine only on the completion packets (`cooking.rs:527`, `forging.rs:634`, `mining.rs:1716`). Duplicate completions are blocked by the `Won`/`LevelComplete` phase checks.
+- **Cancel with transaction.** `cancel()` in cooking.rs:338, forging.rs:325, smelting.rs:326 and mining.rs:517 always returns no transaction, so the `cancel_movie` → `apply_craft` path cannot grant or consume.
+- **Client-controlled amounts.** Grant counts for craft come from recipe data. Type8 grants come from server-side `collected` counts via `reward_transaction` (mining.rs:1686-1720) and are bounded with `checked_mul`/`checked_add` plus `MAX_REWARD_ITEMS` in `reward_grant` (mining_lifecycle.rs:399-437, harvesting_lifecycle.rs:409-436). Consume quantities are checked against `material_count` (apply_craft) or fail in `consume_materials`.
+- **Panics on client input.** The `unwrap()`s on `profiles`, `cooking`, `forging`, `smelting`, `type8_mut` and `opening` are guarded by `running_movie`/`is_occupied` or by load-time invariants. `load` (gameplay.rs:671-831) requires opening content and matching campaign markers before any craft engine exists. `OpeningState.stages` is built from content and length-checked on load (opening.rs:249-271), so the `stages[&id]` index cannot miss for valid saves. `elapsed_if_due` (movie.rs:92-95) clamps to `u32`. `near_any` and `world_stations` handle NaN and non-finite positions.
+- **Logic against doc comments.** The `cancel_movie`, `tick_gather` and `begin_gather` ordering matches its comments. `apply_craft` (lines 345 and 380-391) lets a recipe-book completion advance a pending tutorial Craft objective. That contradicts the "no tutorial objective" comment, but it only matches on the station's recipe id, and the same profile and station gates still apply. I judged it a design choice rather than a defect I can show, so I did not report it.
+
+No finding meets the bar of a crash, save corruption, or item/coin gain from a remote player.

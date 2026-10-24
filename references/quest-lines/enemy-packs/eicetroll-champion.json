@@ -1,0 +1,43 @@
+{
+ "title": "Icetroll Champion",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\snowy_canyon.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:4555 [npc_name | - | Icetroll Champion] 'Icetroll Champion'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:4555 [npc_name | - | Icetroll Champion] 'Icetroll Champion'",
+  "locale:4556 [quest_dialog | Snowy Canyon | Icetroll Champion] 'Hello there! I was delivering my turnips to town but it appears that the yetis got into my stock again. Can you please go to the Snowy Canyon and retrieve my mi'"
+ ],
+ "client_cluster": [
+  "locale:4547 [item | - | Bonus Coin Scroll] 'Increases the amount of coins you earn for a short amount of time.'",
+  "locale:4548 [item | - | Luau Party Favor] 'Luau Party Favor'",
+  "locale:4549 [item | - | Pet Party Favor] 'Pet Party Favor'",
+  "locale:4550 [item | - | Luau Party Favor] \"Keep warm while chillin'.\"",
+  "locale:4551 [item | - | Pet Party Favor] 'Perfect for harsh weather.'",
+  "locale:4552 [item | - | Pet Party Favor] 'You laugh in the face of frost.'",
+  "locale:4553 [ability | - | Incapacitate] 'Incapacitate'",
+  "locale:4554 [npc_name | - | Cinn | FLAG fragment: single word] 'Cinn'",
+  "locale:4555 [npc_name | - | Icetroll Champion] 'Icetroll Champion'",
+  "locale:4556 [quest_dialog | Snowy Canyon | Icetroll Champion] 'Hello there! I was delivering my turnips to town but it appears that the yetis got into my stock again. Can you please go to the Snowy Canyon and retrieve my mi'",
+  "locale:4557 [ui | - | Mark Location] 'Mark Location'",
+  "locale:4558 [item | - | 7-11 Pet | FLAG placeholder: possible test name] '7-11 Pet'",
+  "locale:4559 [npc_name | - | Sigroy] 'Sigroy'",
+  "locale:4560 [npc_name | - | Iggy] 'Iggy'",
+  "locale:4561 [other | - | - | FLAG fragment: single word] 'Flag'",
+  "locale:4562 [npc_dialog | - | -] 'For the druids!'",
+  "locale:4563 [quest_title | - | Stolen Turnips] 'Stolen Turnips'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

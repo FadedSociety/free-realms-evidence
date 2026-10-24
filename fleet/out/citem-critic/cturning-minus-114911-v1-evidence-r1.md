@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cturning-minus-114911-v1-evidence-r1 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[11739, 12916, 8, 1420] model=claude-haiku-5-5 -->
+# Turning Minus
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (StoreBundles.json negative claim)", "issue": "I did not re-verify the claim that StoreBundles.json bundles 3129-3139 (GameItemId 1919-1929, MarketingItemIds 59610-59661) exclude Turning Minus or that marketing id 59663 is in no bundle. It is a negative claim resting on a grep, and the line range cited is broad (7699-7999). It is harmless to the answer's conclusion, which is 'no source found', but a builder should re-grep before relying on it.", "fix": "Re-run a search for '59663' and 'Turning Minus' across refs/FreeRealms-Legacy/src/Resources/StoreBundles.json to confirm the negative before treating the item as sourceless."}]}

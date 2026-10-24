@@ -1,0 +1,46 @@
+{
+ "title": "Hogosh",
+ "our_entries": [
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000909,
+   "zone": "Wilds",
+   "enemy_kind": "Troll boss; he threw Gulsh out of the clan for missing his tolls (1351663225) and likes his Noglash Stew (1061620688).",
+   "location_evidence": [
+    "\"At the Troll Fort to North East\" (663077754); \"He can be found by the Troll Fort\" (699838204); \"in the Troll Village north-east of Sanctuary\" (2558739045)."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:15202 [npc_name | Sanctuary | Hogosh] 'Hogosh'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:9806 [quest_dialog | - | Hogosh] 'Hogosh no want me back? I guess I live here then. Thank you for try to help me. Take this for reward. I busy cook dinner now. You go. Not spend time with troll.'",
+  "locale:15197 [quest_dialog | Sanctuary | Hogosh] 'This is my bridge. You pay toll to come here. Aw. Me no good at toll thing. Maybe you help Gulsh?'",
+  "locale:15202 [npc_name | Sanctuary | Hogosh] 'Hogosh'",
+  "locale:15203 [quest_dialog | Sanctuary | Hogosh | FLAG not_live: cut Gulsh/Hogosh branch of Toll Trouble (title marked NOT LIVE)] 'Gulsh send you to the mighty Hogosh? Gulsh is no good troll. He cannot make the toll money. He no come back to village. You go now and tell Gulsh stay away. Go '",
+  "locale:23855 [npc_dialog | - | Hogosh] 'Hogosh be strong, but maybe not so smart.'",
+  "locale:23861 [npc_dialog | - | Hogosh] 'Not this time. Hogosh to busy playing cards to know we to tired to continue.'",
+  "locale:23885 [npc_dialog | - | Hogosh] 'Yes, sometimes Hogosh and Laggosh fall asleep playing cards. Should try then.'",
+  "locale:47274 [npc_dialog | - | Hogosh] 'Me think Hogosh got rocks in head.'",
+  "locale:73223 [quest_objective | Troll Fort | Hogosh] 'Have you talked to Hogosh yet? He can be found by the Troll Fort.'",
+  "locale:116744 [quest_objective | Sanctuary | Hogosh] 'Talk to Hogosh at the Forest Troll Fort and then return to Gulsh under the bridge near Sanctuary.'",
+  "locale:116965 [quest_objective | Sanctuary | Hogosh] 'Talk to Hogosh in the Troll Village north-east of Sanctuary.'",
+  "locale:430989 [quest_objective | - | Hogosh] 'Interact with Hogosh to deliver the stew to him.'",
+  "locale:431023 [quest_dialog | - | Hogosh] 'What you be waiting for? Hogosh be hungry and want me to make Noglash Stew, but you need to collect ingredients for me. Interact with the barrel near me to star'"
+ ],
+ "client_cluster": [
+  "locale:15195 [quest_dialog | Sanctuary | Find Guard Banee] \"I don't want to go to work today, although I don't want to make the General angry either. I'll report to him in a few minutes.\"",
+  "locale:15197 [quest_dialog | Sanctuary | Hogosh] 'This is my bridge. You pay toll to come here. Aw. Me no good at toll thing. Maybe you help Gulsh?'",
+  "locale:15202 [npc_name | Sanctuary | Hogosh] 'Hogosh'",
+  "locale:15203 [quest_dialog | Sanctuary | Hogosh | FLAG not_live: cut Gulsh/Hogosh branch of Toll Trouble (title marked NOT LIVE)] 'Gulsh send you to the mighty Hogosh? Gulsh is no good troll. He cannot make the toll money. He no come back to village. You go now and tell Gulsh stay away. Go '",
+  "locale:15205 [quest_title | Sanctuary | Toll Trouble | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - Toll Trouble'",
+  "locale:15206 [quest_objective | Sanctuary | Toll Trouble | FLAG not_live: sibling of NOT LIVE quest] 'Help Gulsh with his problem.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

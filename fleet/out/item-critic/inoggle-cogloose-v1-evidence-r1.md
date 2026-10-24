@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=inoggle-cogloose-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3364, 6246, 6, 1010] model=claude-haiku-5-5 -->
+# Noggle Cogloose
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says a Power Crystal item named after Noggle might be the intended item but does not name any. The client text table has locale 440149 \"Noggle's Power Crystal\" and locale 440150 / 440235 \"Noggle's Launch Pad\", both item-like names tied to his quest line. The answer should mention these as the closest item leads, marked unevidenced as acquisition sources.", "fix": "Name the candidates: locale:440149 \"Noggle's Power Crystal\" and locale:440150 \"Noggle's Launch Pad\" (client text table). Neither has a price, vendor, or drop source in the pack, so the item stays unwired."}]}

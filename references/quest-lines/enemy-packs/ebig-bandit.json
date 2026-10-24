@@ -1,0 +1,74 @@
+{
+ "title": "Big Bandit",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 139345,
+   "definition_id": 1236002,
+   "model_id": 199,
+   "max_health": 160,
+   "damage": 12,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 139345,
+   "definition_id": 1236003,
+   "model_id": 199,
+   "max_health": 160,
+   "damage": 12,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 139345,
+   "definition_id": 1236004,
+   "model_id": 199,
+   "max_health": 160,
+   "damage": 12,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 139345,
+   "definition_id": 1236005,
+   "model_id": 199,
+   "max_health": 160,
+   "damage": 12,
+   "boss": false
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:139345 [npc_name | - | Big Bandit] 'Big Bandit'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:139345 [npc_name | - | Big Bandit] 'Big Bandit'",
+  "locale:139346 [quest_objective | - | Big Bandit] 'Defeat all of the Big Bandits!'",
+  "locale:139347 [quest_objective | - | Big Bandit] 'Bandits rely on their brew to relax at the end of a long day of waylaying travelers. Depriving them of their brewmaster will break their spirits.'"
+ ],
+ "client_cluster": [
+  "locale:139337 [quest_dialog | Wugachug | Thugawug Thugs rescue] 'Thanks for rescuing us!'",
+  "locale:139339 [quest_dialog | Wugachug | Thugawug Thugs rescue] 'Thank goodness you came! Not only was I kidnapped, I am almost out of sasparilla!'",
+  "locale:139341 [quest_dialog | Wugachug | Thugawug Thugs rescue] 'Thanks, stranger! Now we can go back to Wugachug!'",
+  "locale:139343 [quest_objective | Wugachug | Thugawug Thugs rescue] 'Please hurry and rescue Sal, Delilah, Happalot, and Chuggoom from the Thugawug Thugs to the south of Wugachug!'",
+  "locale:139345 [npc_name | - | Big Bandit] 'Big Bandit'",
+  "locale:139346 [quest_objective | - | Big Bandit] 'Defeat all of the Big Bandits!'",
+  "locale:139347 [quest_objective | - | Big Bandit] 'Bandits rely on their brew to relax at the end of a long day of waylaying travelers. Depriving them of their brewmaster will break their spirits.'",
+  "locale:139349 [other | - | Enter Area objective | FLAG dev_note: sets dependent prerequisite script text] 'Sets dependent pre req for Enter Area objective'",
+  "locale:139350 [quest_dialog | - | Mug Throw | FLAG joke: gag line, not quest text] 'Here comes a big one!'",
+  "locale:139352 [other | - | Mug Throw | FLAG dev_note: runs script for objective completion] 'Runs objective complete script for primary objective.'",
+  "locale:139353 [ability | - | Mug Throw] 'Mug Throw'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:9gfkEIFMV4s/00230.jpg (Bandit Hideout): npcs: Muggenstomp nameplate  Big Bandit nameplate  | dialog: Muggenstomp: Who are you?! I'll teach you to come into my hideout! | quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandit? - 4/5  | job_level: Brawler 9 | other_text: Muggenstomp",
+  "video:9gfkEIFMV4s/00238.jpg (Bandit Hideout): npcs: Big Bandit nameplate  Muggenstomp nameplate  | quest:   Defeat Muggenstomp! (checked) Bonus: Defeat all of the Big Bandit? (checked)  | job_level: Brawler 9 | items_seen: Saved by the Bell Brawler Shirt | other_text: You receive 1 Saved by the Bell Brawler Shirt Goals (2)",
+  "video:9gfkEIFMV4s/00102.jpg (Bandit Hideout): quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandit? - 1/5  | job_level: Brawler 9 | other_text: Goals (2)",
+  "video:9gfkEIFMV4s/00166.jpg (Bandit Hideout): quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandit? - 3/5  | landmarks: chest | job_level: Brawler 9 | other_text: Goals (2)",
+  "video:9gfkEIFMV4s/00074.jpg (Bandit Hideout): quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandit? - 1/5  | landmarks: campfire barrels | job_level: Brawler 9 | other_text: Goals (2)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

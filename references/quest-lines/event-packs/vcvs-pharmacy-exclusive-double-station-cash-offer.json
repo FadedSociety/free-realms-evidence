@@ -1,0 +1,29 @@
+{
+ "title": "CVS/pharmacy Exclusive Double Station Cash Offer",
+ "names_seen": [
+  "CVS/pharmacy Exclusive Double Station Cash Offer"
+ ],
+ "facts": [
+  {
+   "statement": "CVS/pharmacy ran a weekend promotion in which Free Realms Station Cash was doubled on Free Realms Station Cash cards purchased at CVS/pharmacy and redeemed within the offer window.",
+   "numbers": {
+    "offer_start_pst_hour": 0.0,
+    "offer_end_pst_hour": 23.98
+   },
+   "era": "live",
+   "quote": "This weekend only get Double Station Cash* on Free Realms Game Cards purchased at CVS/pharmacy!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2483",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2483",
+   "date": null,
+   "title": "CVS/pharmacy Exclusive Double Station Cash Offer: January 20 – 22, 2012",
+   "summary": "A freerealms.com news post announcing a limited promotion at CVS/pharmacy stores: Free Realms Station Cash cards bought there would be doubled if redeemed during a set window in January 2012. The page gives no author, and its relative posting time ('4 weeks, 2 days ago' at capture) does not pin an exact publication date. The page wrapper is in French but the article body is English."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

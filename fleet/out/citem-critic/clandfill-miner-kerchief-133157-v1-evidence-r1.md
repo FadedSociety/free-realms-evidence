@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=clandfill-miner-kerchief-133157-v1-evidence-r1 status=no_submit turns=3 usd=0.0017 tokens(read,write,in,out)=[10602, 7369, 8, 1311] model=claude-haiku-5-5 -->
+# Landfill Miner Kerchief
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence", "issue": "Minor overstatement: the wiki Yanaco page does list Kerchief, Pants, Hat, Gloves, Boots and Shirt under Sells, so the set claim holds. But the Yanaco entry gives no price, and the answer's price rests only on repo store data. That is labelled as a reference price, so it is honest, not a false claim.", "fix": "No change required. Keep the price marked as a store-data reference (stores.json line 15851: purchase 378, member 340 at 10% off, sell 37; vendors.json line 17691 Yanaco stock entry), and keep the 'confirm against a captured Yanaco screen' open item."}]}

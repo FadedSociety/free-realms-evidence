@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-support-chess-bot-rs-L1 status=done turns=2 usd=0.0023 tokens(read,write,in,out)=[2302, 5984, 6, 3037] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/support/chess_bot.rs lines 1-223 of 223
+
+**[medium] prototype/osfr-tools/tests/support/chess_bot.rs:106 Human::choose - the repetition penalty can never fire, so the doc's "positions that would repeat twice are demoted" claim is not exercised.**
+- Why it cannot catch a regression: `seen` is a `BTreeSet<String>` (line 21), so each FEN key is stored at most once. `self.seen.iter().filter(|seen| **seen == key).count()` is therefore always 0 or 1, and the `>= 2` branch on lines 106-108 is unreachable. Removing the repetition check entirely, or breaking `remember()`, would still pass every test that drives this bot. The bot could walk into a threefold repetition without any test noticing, which is the exact failure the doc comment on lines 46-48 says is prevented.
+- Fix: either change `seen` to a counting map (`BTreeMap<String, u32>`, incremented in `remember()`, checked with `>= 2`) and add a canary that a position seen twice gets the -1_000_000 penalty, or delete the branch and the doc sentence. Then add a unit check that `choose()` avoids a move leading to a twice-seen position.
+
+**[low] prototype/osfr-tools/tests/support/chess_bot.rs:174 Human::apply_events - unknown chess event codes are silently skipped (`_ => continue`).**
+- Why it cannot catch a regression: if the server renumbers or changes a move event (anything other than 10-13), the mirrored board silently stops receiving that move. Divergence only surfaces later, and only if a subsequent event happens to be illegal on the stale board (line 176-178). A server that stops emitting the computer's move entirely can still look fine until the 400-ply cap panics, and the failure message then points away from the cause.
+- Fix: treat any `OnChessEventMsg` whose code is not in the known set (including 14+ and non-numeric) as a panic, or assert that the number of applied server moves equals the number of `OnChessEventMsg` lines with codes 10-13, so a dropped or renamed move event fails at the point it happens.
+
+Notes outside the window's categories (not reported as findings): no `#[test]` functions exist in this file; the file is a support module, so its findings matter only through the tests that call `play_line` and `Human`.

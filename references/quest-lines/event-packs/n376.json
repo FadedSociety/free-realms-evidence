@@ -1,0 +1,28 @@
+{
+ "title": "Walmart t-shirt",
+ "names_seen": [
+  "Walmart t-shirt"
+ ],
+ "facts": [
+  {
+   "statement": "Buying a $10 Station Cash card at Walmart also gave an in-game Walmart t-shirt.",
+   "numbers": {
+    "card_value_usd": 10
+   },
+   "era": "live",
+   "quote": "When you buy a $10 Station Cash® card at Walmart, you also get an in-game Walmart t-shirt!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2790",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2790",
+   "date": null,
+   "title": "Double Station Cash® Exclusive with Walmart!",
+   "summary": "A freerealms.com news post (shown on the Portuguese-language page) promoting double Station Cash for SOE Pre-Paid Game Cards bought and redeemed at US Walmart stores during October 12-14, 2012. It also says a $10 Station Cash card bought at Walmart comes with an in-game Walmart t-shirt. The page gives no exact post date; it only says it was published 4 weeks and 1 day before capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

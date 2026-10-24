@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iquagmire-quarry-v1-world-r2 status=no_submit turns=2 usd=0.0013 tokens(read,write,in,out)=[3435, 6797, 6, 794] model=claude-haiku-5-5 -->
+# Quagmire Quarry
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind / live", "issue": "The record treats a location as an item. The client marks locale:74875 as type 'place', and the wiki infobox is LocationInfobox2 with categories Locations, Mines and Blackspore, so 'other' with live 'no' is a category mismatch rather than a real acquisition question. Nothing here should be set as an item acquisition.", "fix": "Mark it as a place, not an item (locale:74875 type 'place'; wiki categories Locations/Mines/Blackspore). Leave sources empty; no coin, Station Cash or IGD entry exists on the wiki for it."}]}

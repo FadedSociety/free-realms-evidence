@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbonus-coin-scroll-4546-v2-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4087, 9919, 6, 920] model=claude-haiku-5-5 -->
+# Bonus Coin Scroll
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim that Wheeler Star Booster Scroll is locale 4533/4534 and that the earlier 4544/4545 mapping was wrong rests on a prior critique the answer itself says it did not re-verify. It is not evidence for this item and should not be stated as fact.", "fix": "Drop the claim or verify it against the client locale table (locale 4533, 4534, 4544, 4545) before citing it. Lookup of '\"Bonus Coin Scroll\"' returns only locale:4546 and locale:4547, so nothing in the pack ties this item to any wiki page, vendor, quest or event."}]}

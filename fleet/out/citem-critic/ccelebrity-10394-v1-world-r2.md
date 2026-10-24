@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccelebrity-10394-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4458, 5467, 6, 840] model=claude-haiku-5-5 -->
+# Celebrity
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Answer leaves live as 'unsure'. The pack gives no status for the VIP title system, so this is an honest unknown, not an error.", "fix": "No change required; keep 'unsure' unless a VIP rank source is found."}, {"field": "sources", "issue": "Empty sources is correct. Locale 10394 is 'Celebrity' with no item binding, the wiki VIP page lists 'Rank 4 VIP / Title: [Celebrity]', and locale 3830, 395332 and 395809 are the Kart Driver 'Celebrity Giveaway' minigame, not an item grant. No vendor or quest reward names this item.", "fix": "None. Optionally note in the rebuild that VIP rank titles are a separate entry type."}]}

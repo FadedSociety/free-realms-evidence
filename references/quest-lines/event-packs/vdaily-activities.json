@@ -1,0 +1,44 @@
+{
+ "title": "Daily Activities",
+ "names_seen": [
+  "Daily Activities"
+ ],
+ "facts": [
+  {
+   "statement": "Two new Daily Activities were added in the July 15, 2010 update.",
+   "numbers": {
+    "new_daily_activities": 2
+   },
+   "era": "live",
+   "quote": "Two new Daily Activies have been added.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1637",
+   "date": "2010-07-15"
+  },
+  {
+   "statement": "Two new Daily Activities were added in this update.",
+   "numbers": {
+    "new_daily_activities": 2
+   },
+   "era": "live",
+   "quote": "Deux nouveaux Activités quotidiennes ont été ajoutées.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1644&request_locale=en_US",
+   "date": "2010-07-15"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1637",
+   "date": "2010-07-15",
+   "title": "Free Realms - Quoi de neuf ?",
+   "summary": "Update notes for July 15, 2010 (the page is in French chrome but the notes are in English). They add two Daily Activities (one from Rio Cloudjumper above the royal vaults, one from Robbie's Summer Camp tent), adjust the number of enemies in combat encounters, and list new Coin Shop, Marketplace and clothing items. Item lists are given only by name, with descriptions for two surfboard/hoverboard rides."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1644&request_locale=en_US",
+   "date": "2010-07-15",
+   "title": "Free Realms - What is New?",
+   "summary": "This French-language Free Realms patch notes page (dated 15/07/2010) lists two new Daily Activities (one with Rio Cloudjumper, one with Robbie at the Summer Camp treasure), an adjustment to the number of baddies in combat encounters, and new items in the Parts Shop, Market and clothing lines. The item lists are given as names only; no prices are stated."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

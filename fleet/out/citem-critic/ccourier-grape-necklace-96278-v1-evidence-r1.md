@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccourier-grape-necklace-96278-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3677, 4416, 6, 888] model=claude-haiku-5-5 -->
+# Courier Grape Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The 'Possible lead' that the Courier family may be a set or event reward is speculation with no evidence cited. It is labelled as a lead, so it is not a wrong source, but it should not be read as a source.", "fix": "Keep it as an open question. Nothing in the client (locale 96156-96161, 96276-96281), the repo, refs or the lookup indexes names a set, event or vendor for the Courier family. Checked again: lookup over client, wiki, articles and video returns only the six locale name rows, and repo search for 'Courier (Grape|Necklace|Ring)' returns no matches."}]}

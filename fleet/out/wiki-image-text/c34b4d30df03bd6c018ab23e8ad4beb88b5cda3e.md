@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=c34b4d30df03bd6c018ab23e8ad4beb88b5cda3e status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2113, 4, 467] model=claude-haiku-5-5 -->
+# Amplifier Tempered Circle Shard held.jpg
+
+{"kind": "item_render", "has_text": false, "text": "", "tooltip": null, "entries": null, "uncertain": ["The image contains no legible text. It shows a character model in a grey helmet and grey armor holding a large double-bladed axe in the right hand and a spiked, mace-like weapon in the left hand, on an orange dirt ground with a wooden fence behind. No stat bubble, tooltip, name or numbers are visible. The item identity is inferred only from the file name 'Amplifier Tempered Circle Shard held.jpg' and was not confirmed from the image itself.", "No locale lookup was run because no item, ability or NPC name could be read from the image."]}

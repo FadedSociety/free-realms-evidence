@@ -1,0 +1,65 @@
+[
+ {
+  "page": "Fritti Bluebelle",
+  "url": "https://freerealms.fandom.com/wiki/Fritti_Bluebelle",
+  "params": {
+   "name": "Fritti Bluebelle",
+   "image": "",
+   "caption": "",
+   "title": "",
+   "gender": "Female",
+   "race": "Pixie",
+   "faction": "",
+   "health": "",
+   "level": "",
+   "status": "Vendor (Member Only)",
+   "location": "Snowhill"
+  },
+  "categories": [
+   "NPC"
+  ],
+  "images": []
+ },
+ {
+  "page": "Miguel Falconfort",
+  "url": "https://freerealms.fandom.com/wiki/Miguel_Falconfort",
+  "params": {
+   "name": "miguel falconfort",
+   "image": "",
+   "caption": "",
+   "title": "Title",
+   "gender": "human male",
+   "race": "human",
+   "faction": "Faction",
+   "health": "Health",
+   "level": "",
+   "status": "Status",
+   "location": "Location"
+  },
+  "categories": [
+   "Characters"
+  ],
+  "images": []
+ },
+ {
+  "page": "Quests templ",
+  "url": "https://freerealms.fandom.com/wiki/Quests_templ",
+  "params": {
+   "name": "guard slashi",
+   "image": "",
+   "caption": "Image caption",
+   "title": "Title",
+   "gender": "Gender",
+   "race": "Race/species",
+   "faction": "Faction",
+   "health": "Health",
+   "level": "Level",
+   "status": "Status",
+   "location": "Location"
+  },
+  "categories": [
+   "Free Realms Wiki"
+  ],
+  "images": []
+ }
+]

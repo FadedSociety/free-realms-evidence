@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-18771 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2873, 4, 365] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a freerealmsforums.com shell showing a vBulletin 'maximum posts viewed' registration error and the forum index. It contains no thread text, guide, or gameplay information about Free Realms, so there is nothing for the rebuild to take from it.", "facts": [], "quests": [], "uncertain": ["The requested thread (p=18771) body did not appear in the captured text; only the error wrapper and forum navigation were present.", "The page date is the capture date 2009-06-08; the thread's own date is unknown."]}

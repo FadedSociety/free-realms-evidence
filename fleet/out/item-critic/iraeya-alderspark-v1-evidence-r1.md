@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iraeya-alderspark-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3087, 3934, 6, 854] model=claude-haiku-5-5 -->
+# Raeya Alderspark
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "The claim that the items in 41219 are 'quest items for Flickering Flames, not this entity' goes slightly past the text. Locale 41219 says only 'Return the items to Raeya Alderspark at the camp just south of Lakeshore' under the Flickering Flames objective. It names the quest but does not name what the items are.", "fix": "Reword to: the Flickering Flames objective (locale:41219) asks the player to return unnamed items to Raeya Alderspark; the item identity is not in the evidence. The NPC-not-item conclusion still holds."}]}

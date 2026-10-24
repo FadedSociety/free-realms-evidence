@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csprinkler-435464-v3-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4909, 6626, 6, 1302] model=claude-haiku-5-5 -->
+# Sprinkler
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open", "issue": "The client definition carries a coin_store_prices value of 100 for definition 15972 and the coin-store catalogue lists it. The answer leaves this unreconciled and gives no reason for treating it as a non-sale. The 'no_sale true' flag it relies on is not cited in any source the answer lists.", "fix": "Cite the client store row that carries the 100-coin price and its no_sale flag (client definition / CoinStoreItems.json lines 18453-18457), and state explicitly that the coin price is not a sale source, or add it as a coin-store source if a sale is evidenced. Until then the item stays Station Cash only."}]}

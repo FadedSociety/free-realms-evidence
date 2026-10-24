@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ijenny-greenteeth-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3367, 4580, 6, 864] model=claude-haiku-5-5 -->
+# Jenny Greenteeth
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The subject is an NPC name (locale 390903 is npc_name), not an item. Kind 'other' is an honest label, but the record should be flagged as a non-item mis-match rather than left as an item candidate.", "fix": "Mark the record as not an item (NPC name string, locale:390903, wiki 'Jenny Greenteeth' is a pixie NPC in Thistlerow/Briarwood). No acquisition sources apply."}, {"field": "evidence[2]", "issue": "Checked: locale:390907 reads 'Here's some stuff for all the planting you did!...' and names no item. The claim is correct. Quest title and planting objective are also supported by locale:390904, 390912 and the articleId=98 lookup.", "fix": "No change needed."}]}

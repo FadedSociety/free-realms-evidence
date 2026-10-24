@@ -1,0 +1,39 @@
+{
+ "title": "Spikey Seedling",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\treeleaf_s_retreat.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:422859 [npc_name | - | Spikey Seedling] 'Spikey Seedling'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:422859 [npc_name | - | Spikey Seedling] 'Spikey Seedling'",
+  "locale:422860 [ability | - | Spikey Seedling] 'Entangle'",
+  "locale:422861 [ability | - | Spikey Seedling] 'treeleafs retreat - elite ability'"
+ ],
+ "client_cluster": [
+  "locale:422851 [npc_dialog | Seaside | A Luau] \"Where's your luau outfit?<BR><BR>Dude, totally NOT cool. \"",
+  "locale:422852 [ui | - | A Luau | FLAG fragment: single word reply option] 'Sorry!'",
+  "locale:422856 [ability | - | Snowball Buff] 'Snowball Buff'",
+  "locale:422858 [ui | - | Combat Controls] \"<b><font color='#f5b929' size='24'>Combat Controls</font></b>\"",
+  "locale:422859 [npc_name | - | Spikey Seedling] 'Spikey Seedling'",
+  "locale:422860 [ability | - | Spikey Seedling] 'Entangle'",
+  "locale:422861 [ability | - | Spikey Seedling] 'treeleafs retreat - elite ability'",
+  "locale:422862 [ability | - | Staff Slam] 'Staff Slam'",
+  "locale:422863 [ability | - | Staff Slam] 'treeleafs retreat - boss ability'",
+  "locale:422864 [npc_dialog | Seaside | A Luau] \"Dude, isn't this party chill?<BR><BR>If you put on a luau outfit, I'll give you a special party favor. What do you say?\"",
+  "locale:422865 [quest_title | Seaside | A Luau] 'A Luau'",
+  "locale:422866 [quest_objective | Seaside | A Luau] \"Tiger the Party Animal wants you to celebrate in style. Wear an outfit suitable for a luau and he'll give you a party favor. \""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

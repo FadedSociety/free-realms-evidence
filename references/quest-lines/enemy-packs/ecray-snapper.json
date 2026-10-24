@@ -1,0 +1,41 @@
+{
+ "title": "Cray Snapper",
+ "our_entries": [
+  {
+   "file": "dungeons\\snatching_snappers.json",
+   "definition_id": 930008
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:91930 [npc_name | - | Cray Snapper] 'Cray Snapper'",
+  "locale:5101049 [npc_name | - | Cray Snapper] 'Cray Snapper'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:91930 [npc_name | - | Cray Snapper] 'Cray Snapper'",
+  "locale:5101049 [npc_name | - | Cray Snapper] 'Cray Snapper'"
+ ],
+ "client_cluster": [
+  "locale:91922 [quest_dialog | - | Fastvi] \"I think I may remember something about Fastvi, but I'm sure that the trek you'll have to make to recover that information will be incredibly dangerous. I suspec\"",
+  "locale:91927 [other | - | - | FLAG fragment: reply option \"Leave.\"] 'Leave.'",
+  "locale:91928 [quest_objective | - | Chloe] \"Collect Chloe's bags\"",
+  "locale:91929 [quest_objective | - | Chloe] 'Chloe scattered several bags nearby to test your Ninja skills of perception.'",
+  "locale:91930 [npc_name | - | Cray Snapper] 'Cray Snapper'",
+  "locale:91931 [quest_objective | - | Collect Chloe's bags] 'Collect an additional bag.'",
+  "locale:91932 [quest_objective | - | Collect Chloe's bags] 'Demonstrate your superior skills by collecting an additional bag.'",
+  "locale:91933 [quest_objective | - | Collect Chloe's bags] 'Collect two additional bags.'",
+  "locale:91934 [quest_objective | - | Collect Chloe's bags] 'Demonstrate your superior skills by collecting two additional bags.'",
+  "locale:91937 [quest_objective | - | Chloe] 'Bring the bags back to Chloe.'",
+  "locale:91938 [other | - | - | FLAG fragment: single word with no quest meaning] 'Bubble'"
+ ],
+ "wiki": {
+  "title": "Cray Snapper",
+  "text": "The Cray Snapper is a cray enemy NPC that can be found in combat areas, located in Seaside.\nCategory:NPC\nCategory:Enemies\nCategory:Cray\nCategory:Seaside"
+ },
+ "images": [],
+ "video": [
+  "video:nDX88pgHwSg/00068.jpg (-): quest: Finding the Raiders  Defeat Snatching Snappers  | other_text: You receive 10 stars and 7 coins Cray Snapper Goals (1) They only come out at night, so be ready! Finding the Raiders Quest Started! Finding the Raiders Goal Update: Defeat Snatching Snappers"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,40 @@
+{
+ "title": "JCC tournaments",
+ "names_seen": [
+  "JCC tournaments"
+ ],
+ "facts": [
+  {
+   "statement": "Trading card game (JCC) tournaments during Snow Days ran throughout the whole day.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Los torneos JCC acontecerán durante todo el día.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=709",
+   "date": null
+  },
+  {
+   "statement": "JCC tournaments ran all day during Snow Days.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Los torneos JCC acontecerán durante todo el día.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=771",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=709",
+   "date": null,
+   "title": "Eventos y Actividades en Días de Nieve (Free Realms - What is New?)",
+   "summary": "A Spanish-language official news post promoting the Snow Days holiday event, running from December 18, 2009 to January 3, 2010. It describes the daily community events and trading card game (JCC) tournaments and how players find the event calendar in the in-game Game Guide. The exact posting date is not shown (only 'Posted 1 year, 5 months ago' relative to the capture), so the date is left null."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=771",
+   "date": null,
+   "title": "Recordatorio de Eventos en Días de Nieve",
+   "summary": "A Spanish-language SOE news post (listed on the freerealms.com 'What is New?' page, captured 2011-06-04; the post itself shows only a relative date, '1 year, 5 months ago') reminding players of Snow Days community events running until January 3. It says a different community event is scheduled each day at 15:00 Pacific time, plus JCC tournaments all day, and explains how to find the event calendar in the in-game Game Guide and join events with the Go button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

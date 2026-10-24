@@ -1,0 +1,41 @@
+{
+ "title": "5M Celebration Event (5M Party Wheel)",
+ "names_seen": [
+  "5M Celebration Event (5M Party Wheel)"
+ ],
+ "facts": [
+  {
+   "statement": "A special 5M Party Wheel was available for a limited time to celebrate the 5,000,000th registered Free Realms player, and players could log in daily to spin it.",
+   "numbers": {
+    "registered_players": 5000000
+   },
+   "era": "live",
+   "quote": "a special 5M Party Wheel is available for a limited time",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=316",
+   "date": "2009-09-16"
+  },
+  {
+   "statement": "To take part, players had to log in to Free Realms during the event window of September 16, 2009 to September 23, 2009.",
+   "numbers": {
+    "start_day": 16,
+    "end_day": 23,
+    "month": 9,
+    "year": 2009
+   },
+   "era": "live",
+   "quote": "you must log in to Free Realms between September 16, 2009 and September 23, 2009",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=316",
+   "date": "2009-09-16"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=316",
+   "date": "2009-09-16",
+   "title": "5 Million Celebration Event - Limited Time Only",
+   "summary": "SOE's news post announces a limited-time 5M Party Wheel event celebrating the 5,000,000th registered Free Realms player. Players who logged in between September 16 and September 23, 2009 could spin the wheel daily for party-themed virtual rewards. The post's date is inferred from the capture date and its relative 'posted 6 days, 3 hours ago' stamp."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

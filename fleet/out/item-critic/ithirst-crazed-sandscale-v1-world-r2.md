@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ithirst-crazed-sandscale-v1-world-r2 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[7113, 6805, 8, 1091] model=claude-haiku-5-5 -->
+# Thirst-crazed Sandscale
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence / open", "issue": "The answer says the pack has no other mentions of the subject, but the wiki has other pages that name it: Sandscale Oasis lists 'Thirst-crazed Sandscale' under NPCs (with its Mobs/Rewards section), and Manguana lists it under Notable Manguanas. Both are consistent with the NPC reading but are not cited.", "fix": "Add the wiki pages Sandscale Oasis (NPCs list) and Manguana (Notable Manguanas list) as corroborating sources that it is a world NPC, not an item. Also note client dialog locale:435972 ('So thirsty. Stop... the big cactus...', npc_dialog) as further confirmation of the NPC type."}]}

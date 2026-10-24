@@ -1,0 +1,14 @@
+<!-- fleet job=bug-hunt id=src-kart-pickups-rs-L1 status=nothing_found turns=8 usd=0.0123 tokens(read,write,in,out)=[156674, 32672, 18, 13297] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/kart_pickups.rs lines 1-763 of 763
+
+I read `kart_pickups.rs` lines 1-763 in full and traced the callers in `kart_service.rs` (claim path ~1900-1960, due-respawn tick ~1738-1756, restore ~2220-2251). I found no defect I could tie to a line and show reachable from a client packet or a save, so there are no findings.
+
+Candidates I checked and dropped:
+
+- **Panics on client input.** Every slice (`specs[..index]`, `snapshot.consumed[..index]`, `snapshot.pending[..index]`) is bounded by its own index. Positions are checked finite (`finite()`) before `stage_claim` does arithmetic, and spec positions are validated in `with_respawn`. Finite minus finite can overflow to `inf` but never NaN, so `distance > radius` is well defined. No `unwrap` touches packet or save data in the window.
+- **`live_count` underflow** (`specs.len() - consumed.len()`). Only `commit` (after a spec lookup) and `restore` (after a membership check and a duplicate check) add to `consumed`, so `consumed` is always a subset of `specs`.
+- **Atomicity.** `commit` mutates only after its last fallible step (the `find` and `AlreadyConsumed` checks). `due_respawns` has no error path. `restore` builds a local `set` and assigns fields only after all checks pass. `claim` is stage-then-commit and the second step cannot fail after a successful stage. The caller's `commit` error arm is unreachable and changes nothing.
+- **Trusting the client.** The grant type is resolved from the definition, not the token (`commit`, tested). The claimed guid is checked against the owned guid, and `owned` is 0 only when no race context exists, which `begin` (`kart_service.rs:1535`) forbids. The position goes through the caller's `check_movement` before `stage_claim`.
+- **Respawn budget and window.** `commit` counts fired respawns against `max_respawns`. A scheduled return (`due_ms <= race_end_ms`) is never parked past the window. `restore` counts fired plus pending per handle and rejects a count above the limit. The `respawned` entries need no consumed-mark check, because a fired respawn leaves the box live until it is collected again.
+- **Tie-breaking and ordering.** Specs are sorted by handle and the nearest search uses strict `<`, so ties resolve to the lowest handle as documented. Pending is kept sorted by `(due_ms, handle)` on every path that adds to it.
+- **Resource use.** Definitions are capped at `MAX_PICKUPS`. Respawns are capped per handle. Saved vectors are duplicate-checked early, so the quadratic scans in `restore` stay bounded for any save the server could have written. Only a hand-crafted oversized save could slow them, which is not a remote-client path.

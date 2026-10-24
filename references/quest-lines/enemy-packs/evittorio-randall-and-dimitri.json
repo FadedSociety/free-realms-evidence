@@ -1,0 +1,23 @@
+{
+ "title": "Vittorio, Randall and Dimitri",
+ "our_entries": [
+  {
+   "file": "npcs/briarwood.json",
+   "npc_id": 9500000230,
+   "zone": "Briarwood",
+   "enemy_kind": "Thieves who steal the plant in Chapter 1",
+   "location_evidence": [
+    "Fought in Blackspore (video oTsYJ8Uq_Jc/00160); Vittorio's other post is a broken caravan in Briarwood"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

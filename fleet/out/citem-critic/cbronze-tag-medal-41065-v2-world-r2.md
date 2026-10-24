@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbronze-tag-medal-41065-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4239, 5972, 6, 1128] model=claude-haiku-5-5 -->
+# Bronze Tag Medal
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].source (wiki citation)", "issue": "The cited wiki List of Collections page is not confirmed. My lookup for 'Bronze Medals collection medal' across client, wiki, articles and video returned no matches, so the wiki line cannot be verified from the index. The open note's claim that the collection appears on a '2013 wiki list' is likewise unverified.", "fix": "Keep the wiki reference only as an unverified pointer, or drop it. The repo evidence (collection_catalogue.json lines 8836-8935) is verified: collection 108 'Bronze Medals', entry index 3 = item_definition 3849 / locale 41065, reward coins 3, item 3858 x1, xp profile 12 amount 50, collection_add 109."}]}

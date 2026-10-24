@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolished-wind-ring-89398-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3470, 7970, 6, 1123] model=claude-haiku-5-5 -->
+# Polished Wind Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (video)", "issue": "The claim that video:8F4ZomE2kxI/00028.jpg shows '[Polished] Fateful [Necklace]' at 8 coins could not be re-checked: lookup on 'Polished Wind Ring' returns only the client locale line, with no video hit. The claim is harmless because the answer correctly says the hit is a different item, but the frame detail is unverified.", "fix": "Either re-verify the frame text in the video index or drop the specific coin/job/quest details and keep only 'no video names this ring'."}]}

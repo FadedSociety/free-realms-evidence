@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csingle-glove-140857-v1-world-r2 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[10485, 7380, 8, 1066] model=claude-haiku-5-5 -->
+# Single Glove
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer correctly leaves sources empty. My lookups of Single Glove across client, wiki, articles and video found no quest, vendor, drop, event or collection naming it, and the refs search only hit the same locale and client definition rows (Sanctuary ClientItemDefinitions id 48285, NameId 140857). Nothing contradicts the empty source list.", "fix": "No change needed. Optionally note in open that the Fossilized Teeth collection link is confirmed by articles collections.vm (Shark Teeth Fossils set), but that link only places the sibling item, not Single Glove."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=irobbie-wobblehead-v1-evidence-r1 status=no_submit turns=3 usd=0.0011 tokens(read,write,in,out)=[7090, 4330, 8, 878] model=claude-haiku-5-5 -->
+# Robbie Wobblehead
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The August 2013 pack row reads '[Chatty] [Wobblehead] Robbie [Wobblehead] 5x Cans of Beans'. The Chatty Wobblehead page carries the same 'distributed throughout August 2013 as part of August's Monthly Membership Pack' wording, so the pack may have held both heads. The answer's open note is right to flag this, but the membership source itself is supported.", "fix": "Keep the membership source. Note that the August 2013 pack row lists Chatty Wobblehead and Robbie Wobblehead together with 5x Cans of Beans (wiki: Monthly Member Pack Items). Confirm whether Robbie was a separate pack entry or a row-text artifact."}]}

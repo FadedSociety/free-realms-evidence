@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cancient-telescope-140873-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3778, 7421, 6, 1076] model=claude-haiku-5-5 -->
+# Ancient Telescope
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open", "issue": "The claim that the only other 'Telescope' text is locale:11540 is incomplete. The locale string tables also contain 'Ancient Telescope' under other keys: en_us_data.dat line 7869 (key 296455176, ucdt) and line 13403 (key 503656722, ugdt). These may be the same name under other tables or a separate entry, so the search was not exhaustive. It does not supply an acquisition source.", "fix": "Record the extra locale keys (296455176 ucdt, 503656722 ugdt, from en_us_data.dat) and check whether they belong to a quest, event or vendor string. The evidence pack's 'no other text' claim should be corrected to name them."}]}

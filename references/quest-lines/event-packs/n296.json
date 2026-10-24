@@ -1,0 +1,31 @@
+{
+ "title": "Fiebre de la Super Fan de primavera (Spring Super Fan Fever)",
+ "names_seen": [
+  "Fiebre de la Super Fan de primavera (Spring Super Fan Fever)"
+ ],
+ "facts": [
+  {
+   "statement": "A spring promotion ran from April 22 to April 25 in which Station Cash purchases were doubled; SMS Station Cash purchases were excluded.",
+   "numbers": {
+    "start_day": 22,
+    "end_day": 25,
+    "start_month": 4,
+    "bonus_multiplier": 2
+   },
+   "era": "unknown",
+   "quote": "Entre el 22 y el 25 de abril, ¡obten doble Station Cash con la compra de tu SC!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2102",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2102",
+   "date": null,
+   "title": "Fiebre de la Super Fan de primavera",
+   "summary": "This Spanish-language freerealms.com news page (captured under the title 'Free Realms - What is New?') is a cross-game SOE promotion, not a Free Realms update. It says that from April 22 to April 25, purchases of Station Cash were doubled, excluding SMS purchases, and that Free Realms was one of six SOE titles taking part. The post gives no year, so the event year cannot be confirmed from the page."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

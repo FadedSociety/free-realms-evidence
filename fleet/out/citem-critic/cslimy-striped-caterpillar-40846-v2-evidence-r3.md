@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslimy-striped-caterpillar-40846-v2-evidence-r3 status=no_submit turns=2 usd=0.0012 tokens(read,write,in,out)=[4163, 5645, 6, 816] model=claude-haiku-5-5 -->
+# Slimy Striped Caterpillar
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] / sources[0].where", "issue": "Minor: the evidence pack cites the 'Striped Caterpillars' collection name only from the repo (collections.json:9314). The client has a stronger confirmation that the answer does not use: locale:132339 (ui, 'Striped Caterpillars Collection', 'This item can be added to the Striped Caterpillars Collection'). Item 3630's membership in catalogue id 80 entry index 5 checks out against collection_catalogue.json lines 6044-6052.", "fix": "Optionally cite locale:132339 as the client-side confirmation of the collection name. The membership claim itself is correct and needs no change."}]}

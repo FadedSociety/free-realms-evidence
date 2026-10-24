@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ivalinda-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3257, 6798, 6, 1069] model=claude-haiku-5-5 -->
+# Valinda
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3].source", "issue": "The citation locale:14953 is the objective 'Return to Valinda in Snowhill'. It is not the title or text of the 'Save the Penguin Training Institute' quest. That quest's objective is locale:5102173 ('Return to Valinda'). The claim is supported overall, but the cited ref is loose.", "fix": "Cite locale:5102173 for the Save the Penguin Training Institute quest, and locale:14904 ('Valinda has asked you to rescue her missing penguins from the Howling Hills') for the penguin rescue. Keep locale:14953 only for the generic 'Return to Valinda' objective."}]}

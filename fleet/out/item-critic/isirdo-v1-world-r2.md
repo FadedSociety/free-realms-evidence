@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isirdo-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4237, 5098, 6, 869] model=claude-haiku-5-5 -->
+# Sirdo
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind / name", "issue": "The item 'Sirdo' (locale 390381) is an NPC name, not an item. Locale confirms 390381 'Sirdo \"Squirrel Chaser\"' and 390721 'Sirdo \"King of Squirrels\"' are NPC/quest-giver titles. The answer's NPC reading holds, so an empty source list is correct for a coin, Station Cash or vendor item.", "fix": "No change to sources. Optionally record kind as NPC rather than 'other', and note that the only item-like tie is the TCG card 'Sirdo, King of Squirrels' (4R5, Series 4 Heroes, 23 Aug 2012, wiki Sirdo TCG section and card image), which has no acquisition source in the evidence."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-air-necklace-96514-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3470, 4199, 6, 871] model=claude-haiku-5-5 -->
+# Dull Air Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Checked for any wiki page, article, video frame, vendor, quest, or drop naming Dull Air/Wind/Void Necklace or Dull Air Ring. The lookup returns only client name-table rows (locale 96514, 96515, 96516, 96394, 96395). The repo search finds no quest, vendor, or drop naming them; the only id match (31108) is an unrelated achievements.json description_id. An empty sources list is therefore the true state of the evidence, and no clearly evidenced source is omitted.", "fix": "No change needed. Leave sources empty and keep live as unsure and retired as null. Optionally note that the Dull Wind Necklace and Dull Air Ring are the same unsourced family."}]}

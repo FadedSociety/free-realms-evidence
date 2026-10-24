@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=choodlum-phantasmal-necklace-86590-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3960, 9734, 6, 988] model=claude-haiku-5-5 -->
+# Hoodlum Phantasmal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor: the claim that a matching Hoodlum ring set sits at locale 86350-86358 and the Physician necklace range were not re-checked. My lookups confirmed only the necklace names 86585-86593 and the Physician Dreadful/Fateful pair at 86594-86595. Ring names such as 'Hoodlum Infernal Ring' and 'Hoodlum Celestial Ring' do exist in the refs name dumps, so the family is real.", "fix": "Keep the locale 86350-86358 ring range only if re-verified against locale:86350-86358. Otherwise cite the ring names directly from refs opening-harvesting-native name entries."}]}

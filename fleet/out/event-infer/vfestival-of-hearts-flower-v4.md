@@ -1,0 +1,70 @@
+<!-- fleet job=event-infer id=vfestival-of-hearts-flower-v4 status=done turns=2 usd=0.0041 tokens(read,write,in,out)=[9037, 12063, 6, 5091] model=claude-haiku-5-5 -->
+# Festival of Hearts flower
+
+{"event": {"name": "Festival of Hearts", "aliases": ["Festival de Corazones (article 2018/2019 Spanish title and outfit name, article 959)", "Festival des Coeurs (French, article 1009)", "Festival del Corazon (not found in lookup, dropped)"]},
+ "kind": "holiday",
+ "live": "unsure",
+ "occurrences": [
+  {"year": 2014, "when": "Began February 4, 2014 (week 1 dated 02/04/2014); end not stated", "source": "wiki: Festival of Hearts (2014 section)"},
+  {"year": 2010, "when": "Community semi-formal dance held Friday 12 February 2010 during the festival; the article does not state the festival's own dates", "source": "http://www.freerealms.com/article/detail.action?articleId=960"},
+  {"year": 2011, "when": "Year only, no month or dates stated. Gifting Basket and Cupid/Heart Critter pets were sold during the 2011 Festival", "source": "wiki: Gifting Basket ; wiki: Cupid ; wiki: Heart Critter"}
+ ],
+ "recurring": "Annual, February through March (wiki stated pattern; articles 2016, 2018, 2019, 969 and 2501 call it 'annual'). Only 2014 has an exact start date.",
+ "zones": ["Merry Vale", "Vegalegre (named only by articles 2018 and 2019, conflict unresolved)"],
+ "npcs": ["Cudip", "Jecca Ruchcups", "Postmaster Vixie", "Stone Heart (boss)", "Heart Breakers (minions)", "Rois and Araiana (legend pixies in article 2018; Rylan and Arianna in articles 969/2016)"],
+ "quests": ["Mending Hearts", "Potent Love Potion", "Sleeping Pixie", "Stone Heart's Hideaway", "Forget-Me-Not", "Secret Admirer", "Truffle Shuffle"],
+ "activities": ["Daily festival quests", "Members-only quests", "Petal Picker: pick a petal from the heart flower each day (locale 426989)", "Spin the Festival of Hearts prize wheel each day (locale 431950, 400038, 400039)", "Drive off Heart Breakers with the love potion during Stone Heart's Rampage", "Gifting Basket gifting (2011)", "Community semi-formal dance (2010, community event)", "Community webcast showing festival item animations (article 2522)"],
+ "items": [
+  {"name": "She-Rex", "price": null, "currency": "station_cash", "source": "wiki: She-Rex (price truncated)"},
+  {"name": "Lovelectric Boombox", "price": null, "currency": "station_cash", "source": "wiki: Lovelectric Boombox (price truncated)"},
+  {"name": "Snowheart", "price": null, "currency": "station_cash", "source": "wiki: Snowheart (SC Marketplace during the festival; price not in pack)"},
+  {"name": "Stone Heart's Gummy Bear", "price": null, "currency": "station_cash", "source": "wiki: Stone Heart's Gummy Bear (price truncated)"},
+  {"name": "Stone Heart's Bear Costume", "price": null, "currency": "station_cash", "source": "wiki: Stone Heart's Bear Costume (price truncated)"},
+  {"name": "Teddy Bear Costume", "price": null, "currency": "station_cash", "source": "wiki: Teddy Bear Costume (price truncated)"},
+  {"name": "Hearts Outfit", "price": null, "currency": "station_cash", "source": "wiki: Hearts Outfit (distributed in the event; SC Marketplace category)"},
+  {"name": "Festival of Hearts TCG Bundle", "price": null, "currency": "station_cash", "source": "locale:4874, locale:4875 (name); http://www.freerealms.com/article/detail.action?articleId=1009 (offer ended with the festival)"},
+  {"name": "Festival of Hearts Mystery Gift", "price": null, "currency": null, "source": "locale:4418 (name only)"},
+  {"name": "Gifting Basket", "price": null, "currency": "station_cash", "source": "wiki: Gifting Basket (2011 Festival, Station Cash Marketplace, no longer obtainable)"},
+  {"name": "Cupid", "price": null, "currency": "reward", "source": "wiki: Cupid (Gifting Basket prize, 2011, no longer obtainable)"},
+  {"name": "Heart Critter", "price": null, "currency": "reward", "source": "wiki: Heart Critter (Gifting Basket prize, 2011 only)"},
+  {"name": "Dove", "price": null, "currency": "reward", "source": "wiki: Dove (Members Only pet pal, Sleeping Pixie quest)"},
+  {"name": "Holiday Basket", "price": null, "currency": "reward", "source": "locale:6942 (final Gifting Basket gift)"},
+  {"name": "Sweetheart Saw, Wooing Wand, Everloving Edge, Beloved Bow, Match-Maker Mallet, Heartthrob Hammer", "price": null, "currency": "reward", "source": "wiki: each weapon page (listed as prize-wheel rewards; the wheel-acquisition line was not checked on each page)"}
+ ],
+ "rewards": ["Heart Critter, Cupid (2011 Gifting Basket)", "Dove pet pal", "Holiday Basket", "Festival weapons from the prize wheel (per wiki)", "Hearts Outfit", "Complete 100 Festival of Hearts repeatable quests achievement (locale 5103220)"],
+ "evidence": [
+  {"claim": "The Festival of Hearts is annual, held in Merry Vale, with Stone Heart and Heart Breakers as antagonists", "source": "wiki: Festival of Hearts ; wiki: Heart Breakers"},
+  {"claim": "Annual festival returned to Merry Vale, celebrating the Rylan and Arianna pixie legend", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2016 ; http://www.freerealms.com:80/article/detail.action?articleId=969"},
+  {"claim": "Article 2018 (Spanish) says the annual festival returned to Vegalegre with daily and members-only quests, Station Cash and Coin items; zone differs from Merry Vale", "source": "http://www.freerealms.com/article/detail.action?articleId=2018"},
+  {"claim": "Article 2019 describes the flower in Vegalegre; no post date given", "source": "http://www.freerealms.com/article/detail.action?articleId=2019"},
+  {"claim": "Festival returned to Merry Vale as a seasonal celebration with daily and members-only quests", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2500 ; http://www.freerealms.com/article/detail.action?articleId=2501"},
+  {"claim": "The festival launched in Free Realms for PS3 on the day of the news post", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2498 ; http://www.freerealms.com/article/detail.action?articleId=2499"},
+  {"claim": "New Holiday items were added to the Marketplace for the festival", "source": "http://www.freerealms.com:80/article/detail.action?articleId=967"},
+  {"claim": "Animations for several festival items were showcased in a community webcast", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2522"},
+  {"claim": "Community semi-formal dance held Friday 12 February 2010, players asked to wear the Festival of Hearts outfit", "source": "http://www.freerealms.com/article/detail.action?articleId=960"},
+  {"claim": "Festival of Hearts 2014 began February 4, 2014", "source": "wiki: Festival of Hearts (2014 section)"},
+  {"claim": "Gifting Basket and Cupid/Heart Critter were 2011 Festival prizes, no longer obtainable", "source": "wiki: Gifting Basket ; wiki: Cupid ; wiki: Heart Critter"},
+  {"claim": "Festival of Hearts TCG Bundle offer ended when the festival ended", "source": "http://www.freerealms.com/article/detail.action?articleId=1009"},
+  {"claim": "Mending Hearts quest title; Jecca Ruchcups is the NPC", "source": "locale:427177 (title) ; locale:427178 (description) ; locale:427320 (NPC name)"},
+  {"claim": "Festival prize wheel and daily spin", "source": "locale:431950 ; locale:400038 ; locale:400039"},
+  {"claim": "Festival-time Merry Vale check-in with Cudip", "source": "locale:1418"}
+ ],
+ "confidence": 0.6,
+ "open": [
+  "Dates: only 2014 has an exact start (Feb 4, 2014, wiki). No article in the pack gives a per-year festival start or end. The articles that call it annual (969, 2016, 2018, 2019, 2500, 2501) show no date in the pack and need their post dates checked before they are used as occurrences.",
+  "The 2010 occurrence rests on article 960, a community semi-formal dance on 12 Feb 2010. It shows the festival's outfit was in use then, not the festival's own dates. Treated as supporting only.",
+  "The 2011 occurrence is year-only (Gifting Basket, Cupid, Heart Critter wiki pages). No month is stated.",
+  "Wiki Events says 'The event was introduced in 2012' (conflicts with 2010 and 2011 occurrences). This is a source conflict, not resolved. Articles 960 and the 2011 pages predate or contradict it.",
+  "Zone conflict: articles 2016, 969, 2500, 2501 and wiki/client say Merry Vale; articles 2018 and 2019 say Vegalegre. Merry Vale is the majority; Vegalegre is kept as a noted conflict.",
+  "Live status: the pack shows the event ran 2010-2014 and no current run. Marked 'unsure'.",
+  "Prices: all null. Wiki price text is truncated; TCG Bundle and Mystery Gift prices are not in the pack.",
+  "Item years: Stone Heart's Gummy Bear, Stone Heart's Bear Costume, Teddy Bear Costume, She-Rex, Lovelectric Boombox, Snowheart and Hearts Outfit are tied to 'Festival of Hearts' by wiki category or text, but no year is given for each.",
+  "The six festival weapons (Sweetheart Saw, Wooing Wand, Everloving Edge, Beloved Bow, Match-Maker Mallet, Heartthrob Hammer) are tied by the prize-wheel wording. Each wiki page's acquisition line was not read in full.",
+  "Potent Love Potion (locale 427152-427154) is a client quest title naming the festival's heart flower. Its giver (Cudip) is probable, not confirmed: the wiki 'given by' line is truncated.",
+  "Forget-Me-Not, Secret Admirer and Truffle Shuffle are from the wiki quest list only; client titles not verified. Sleeping Pixie (Dove) is carried over from the earlier answer, not rechecked.",
+  "Postmaster Vixie (locale 427172) and Joyce and Fenwink (wiki quest list) are added as NPCs with thin support. Verna and Coin Farmer Mokolug are excluded (roles unconfirmed).",
+  "Anti-festival items (locale 3559, 3545) and Community Event rows (locale 31033, 31034, 6672, 2778, 2779) are not festival items; excluded.",
+  "Aliases: 'Festival de Corazones' (article 2018 title, article 959 outfit name) and 'Festival des Coeurs' (article 1009) are supported. 'Festival del Corazon' is not found and was dropped. Stone Heart's Hideaway is an encounter, not an alias.",
+  "Locale 5103220 'Complete 100 Festival of Hearts repeatable quests' is an achievement row, not proof of a quest series."
+ ]
+}

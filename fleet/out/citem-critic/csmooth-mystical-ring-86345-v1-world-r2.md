@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmooth-mystical-ring-86345-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3901, 8001, 6, 1202] model=claude-haiku-5-5 -->
+# Smooth Mystical Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "The cluster description is slightly wrong. It calls locale 86340 and 86350 'Smooth <Adjective> Ring' names, but the pack shows 86340 is 'Sage Ethereal Ring' and 86350 is 'Hoodlum Dreadful Ring'. Only 86341-86349 are Smooth-prefixed.", "fix": "Say the Smooth cluster is locale 86341-86349 (Dreadful, Fateful, Infernal, Spectral, Mystical, Phantasmal, Eternal, Celestial, Ethereal). Locale 86340 (Sage Ethereal Ring) and 86350 (Hoodlum Dreadful Ring) are neighbouring entries from other families. Source: locale 86340-86350 in the evidence pack."}]}

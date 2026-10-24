@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isunstone-dam-v2-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[4237, 6301, 6, 1487] model=claude-haiku-5-5 -->
+# Sunstone Dam
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1].price", "issue": "The bundle price is left null and described as unconfirmed, but the client has the pack's own price. locale:10350 (ui, Giant Wood Builders Pack) reads 'Get everything you need to build a giant Wood structure for only 10000 SC. That's a 5000 SC savings!'. The answer cites locale:10349 and locale:10505 but misses this line.", "fix": "Record the Giant Wood Builders Pack as an SC Marketplace bundle at 10000 SC (locale:10350, client). Keep the Sunstone Dam as the free bonus valued at SC 1000 (locale:10505). Note that the pack's 10000 SC price is the in-game bundle price, not a wiki figure."}]}

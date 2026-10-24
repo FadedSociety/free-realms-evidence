@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imother-dozen-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3267, 9418, 6, 1032] model=claude-haiku-5-5 -->
+# Mother Dozen
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "Mother Dozen is an NPC, not an item. Her only client entry is npc_name (locale:45778), and the repo's NPC notes list her as a name-only entry. 'kind: other' implies an item category that the evidence does not support.", "fix": "Record her as a non-item (NPC) with no acquisition sources. Evidence: locale:45778 npc_name; notes/Build Guides/Content/NPCs/NPCs - Seaside.md:147 (name entry only, no quest, vendor or reward)."}, {"field": "open", "issue": "The 10-versus-11 children count is correctly flagged as unresolved. The repo note at NPCs - Seaside.md:300 lists 11 Dozen children. It does not affect the item sourcing.", "fix": "No change needed; keep as an honest open item."}]}

@@ -1,0 +1,56 @@
+{
+ "title": "Trick or Treat",
+ "names_seen": [
+  "Trick or Treat"
+ ],
+ "facts": [
+  {
+   "statement": "Players start Trick or Treat by talking to Harry Halloween on the road to Pixiewood and can return each day to get more candy.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Retourne chaque jour pour faire une Friandise ou un Sort",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1857",
+   "date": null
+  },
+  {
+   "statement": "Treats in Pixiewood are collected by using the /scare command, starting by talking to Harry Halloween on the road to Pixiewood; players can return daily for more.",
+   "numbers": {},
+   "era": "live",
+   "quote": "tendrás que utilizar un comando (/scare) para conseguirlas",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1860",
+   "date": null
+  },
+  {
+   "statement": "Trick or Treat quests handed out candy daily during the Sanctuary party.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Tienen un montón de caramelos para repartir diariamente con las misiones de Truco o Trato",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1870",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1857",
+   "date": null,
+   "title": "Free Realms - What is New? (2ème Édition Annuelle de la Fête Super Fantomastique)",
+   "summary": "A French-language official news post for the second annual Super Fantomastique (Halloween) event in Free Realms. It covers costumes, Pixiewood decorations, the Trick or Treat activity with Harry Halloween, daily quests, the Pumpkin Prince and Vampire vs. Werewolf world events, a Bone Bog Cemetery member combat instance, and Halloween Trading Card Game quest packs. The post gives no absolute date, only a relative 'Posted 7 months, 2 weeks ago'."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1860",
+   "date": null,
+   "title": "Segundo Año de Super Spooktacular (Free Realms - What is New?)",
+   "summary": "A Spanish-language Free Realms news post announcing the second year of the Super Spooktacular Halloween event. It covers costumes, Pixiewood decorations, the /scare trick-or-treat mechanic, daily quests, world events, the Bone Marsh battle instance, and a Trading Card Game (JCC) Halloween pack offer. The post's date is not shown; it is only given as 'posted 7 months, 2 weeks ago' at the 2011-06-04 capture, so it is roughly late 2010."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1870",
+   "date": null,
+   "title": "Evento Comunitario: Fiesta de Truco o Trato en Santuario",
+   "summary": "A Spanish-language community event notice (captured under the 'What is New?' page) announcing a Trick or Treat party in Sanctuary to celebrate the second anniversary of the Super Spooktacular edition. It gives the event dates and server (Server 1) for the US/Latin America and UK/Europe sessions in October 2010. The article's own posting date is not shown; only the event dates are given."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Trick-or-Treat (final, live unsure)"
+ ]
+}

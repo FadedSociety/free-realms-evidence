@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-light-ring-96416-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3579, 9910, 6, 1120] model=claude-haiku-5-5 -->
+# Shiny Light Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The family list says 'waiter/toaster/cooker/hardwood Void Ring variants'. I confirmed the Waiter (96456) and Toaster (96457 Fire, 96460 Sun) names in the locale, but did not see a Cooker or Hardwood name in the portion I checked. The claim is minor and does not affect the Shiny Light Ring answer.", "fix": "Either verify the Cooker and Hardwood names in the locale table (locale query) or drop them from the list. The Shiny Light Ring claims themselves hold: locale 96416 is 'Shiny Light Ring', the same-pattern names (96411, 96412, 96415, 96426) exist, and the lookup and repo searches show no source for 96416 or definition 31010."}]}

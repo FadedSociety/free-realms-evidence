@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cprowler-mystical-necklace-86607-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3964, 7859, 6, 794] model=claude-haiku-5-5 -->
+# Prowler Mystical Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "retired", "issue": "Stored as null. It should read as an honest unknown, since no source says whether the item was ever sold, dropped or retired. This is consistent with the evidence, so it is a wording point, not a failure.", "fix": "Keep retired unknown. Re-check if a Prowler necklace source (vendor, drop, event or prize) turns up in the repo or refs. My lookups of 'Prowler Necklace' across client, wiki, articles and video returned only the client name rows 86603-86611, and a repo/refs text search found no vendor, quest or drop line for 86607."}]}

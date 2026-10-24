@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=call-star-miner-helmet-35318-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13227, 11107, 8, 1296] model=claude-haiku-5-5 -->
+# All-Star Miner Helmet
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "The answer marks live as 'yes', but the only support is a single coin-store row (stores.json:4864, item 21612, category 101) with source tags L1, L2, L4, R2, T633, R1 that the answer never interprets. The row shows the item is stocked, not that it is currently sold. Confidence 0.6 is honest, but 'yes' is stronger than the evidence.", "fix": "Keep the coin-store row as the source (verified: stores.json line 4864 gives purchase 715, member 643 at 10%, sell 71, no_sale false). Downgrade live to 'likely' or explain the source tags, or cite the store-tag meaning if one is documented."}]}

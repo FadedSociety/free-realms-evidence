@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cglowing-ethereal-square-shard-86259-v1-world-r2 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[11618, 10701, 8, 1426] model=claude-haiku-5-5 -->
+# Glowing Ethereal Square Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but no vendor or NPC is evidenced. The only evidence is a coin-store listing row (stores.json:6683: item 22268, category 121, purchase 540, member 486, sell 54, no_sale false). Category 121 is shared by many unrelated items (e.g. item 2107, 2117, 2126 carry the same 540 price row), so it is a generic store category, not a named shop.", "fix": "Record the source as type 'coin_store' (repo:prototype/osfr-tools/data/content/stores.json:6683, category 121, 540 coins, member 486, sell 54), with no vendor claimed. The 'where' field should say the shop is unidentified, as the open list already does."}]}

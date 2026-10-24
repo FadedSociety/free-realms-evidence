@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2566 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2906, 4, 372] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article":{"title":"Free Realms Forums","date":null,"author":null,"type":"other"},"about_free_realms":false,"summary":"The capture is a vBulletin forum shell for the fan forum freerealmsforums.com, showing only a 'maximum number of posts you can view' registration gate, forum index navigation and footer. No thread text, game facts, quests, items or mechanics appear in the captured text, so there is nothing a rebuilder can use from this copy.","facts":[],"quests":[],"uncertain":["The thread the URL points to (t=2566) is not visible; only the error gate and navigation were captured.","Thread title, author and date could not be determined from the capture."]}

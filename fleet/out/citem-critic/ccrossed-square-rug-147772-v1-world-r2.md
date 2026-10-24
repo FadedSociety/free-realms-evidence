@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccrossed-square-rug-147772-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3727, 6442, 6, 1113] model=claude-haiku-5-5 -->
+# Crossed Square Rug
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only evidence is a coin-store catalogue row (stores.json:12043, category 53, item 36573, tint group 1). No NPC vendor is named or evidenced, so 'vendor' overstates it. The source is a coin-store listing, not an NPC stock row.", "fix": "Relabel as a coin store catalogue entry (category 53, purchase 50 coins, member 45, sell-back 5) and keep the vendor NPC as unknown. The row itself checks out: item_id 36573, purchase_price_coins 50, member_price_coins 45, sell_price_coins 5, no_sale false, tint_group_id 1 (stores.json:12043)."}]}

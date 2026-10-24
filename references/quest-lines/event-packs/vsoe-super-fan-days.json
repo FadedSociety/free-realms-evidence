@@ -1,0 +1,79 @@
+{
+ "title": "SOE Super Fan Days",
+ "names_seen": [
+  "SOE Super Fan Days"
+ ],
+ "facts": [
+  {
+   "statement": "SOE Super Fan Days promotion ran from Wednesday 2010-11-03 to Tuesday 2010-11-09, covering Free Realms along with other SOE titles.",
+   "numbers": {
+    "start_date_2010": 11,
+    "end_date_2010": 9
+   },
+   "era": "live",
+   "quote": "comienza este Miércoles, 03 de noviembre del 2010, y se extiende hasta el Martes, 09 de noviembre del 2010",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1883",
+   "date": null
+  },
+  {
+   "statement": "SOE ran a seven-day November promotion for fans with deals on select in-game items and online Station Cash purchases.",
+   "numbers": {
+    "duration_days": 7
+   },
+   "era": "live",
+   "quote": "For seven days in November we will have awesome deals on select in-game items and online Station Cash purchases",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1886",
+   "date": null
+  },
+  {
+   "statement": "Super Fan Days ran from Wednesday November 3, 2010 through Tuesday November 9, 2010, with 50% off Station Cash purchases of 2000 Station Cash or more.",
+   "numbers": {
+    "discount_percent": 50,
+    "minimum_station_cash_purchase": 2000
+   },
+   "era": "live",
+   "quote": "Super Fan Days begins on Wednesday, November 3rd, 2010, and runs through Tuesday, November 9th, 2010.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1880",
+   "date": "2010-10-13"
+  },
+  {
+   "statement": "SOE Super Fan Days ran from Wednesday 3 November 2010 to Tuesday 9 November 2010 and included Free Realms among participating SOE games.",
+   "numbers": {
+    "start_day_nov_2010": 3,
+    "end_day_nov_2010": 9
+   },
+   "era": "live",
+   "quote": "Super Fan days comienza este Miércoles, 03 de noviembre del 2010, y se extiende hasta el Martes, 09 de noviembre del 2010.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1884",
+   "date": "2010-11-03"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1883",
+   "date": null,
+   "title": "Free Realms - What is New? (SOE Super Fan Days)",
+   "summary": "A Spanish-language SOE news post announcing the Super Fan Days promotion, running Wednesday 2010-11-03 through Tuesday 2010-11-09. It covers a 50% Station Cash discount on purchases of 2000+ Station Cash and rotating one-day item sales across several SOE games, including Free Realms. The post is one of several SOE games' promotions and does not name the specific Free Realms items on sale."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1886",
+   "date": null,
+   "title": "SOE Super Fan Days Details",
+   "summary": "SOE's Super Fan Days promotion ran for seven days in November (item-of-the-day deals November 3 to 9, per the article) with a 50% discount on online Station Cash purchases of 2,000 or more. The page is a Spanish-language freerealms.com news page whose body is in English; it gives no item names, so the specific sale items are not recorded here."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1880",
+   "date": "2010-10-13",
+   "title": "SOE Super Fan Days",
+   "summary": "A SOE-wide promotion announced on the Free Realms news page: Super Fan Days ran November 3-9, 2010, offering 50% off Station Cash purchases of 2000 Station Cash or more, plus one-day item sales each day in several SOE games including Free Realms. The page is dated only as 'posted 3 weeks, 3 days ago' relative to the November 2010 capture, so the posting date is inferred, not stated."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1884",
+   "date": "2010-11-03",
+   "title": "SOE Super Fan Days",
+   "summary": "A Spanish-language SOE news post announcing Super Fan Days, a sale running from Wednesday 3 November 2010 to Tuesday 9 November 2010 across several SOE games including Free Realms. For Free Realms it describes a daily one-day sale on one selected item and a 50% discount on select Station Cash purchases of 2000 or more. The post is multi-game and gives no Free Realms-specific item names or prices."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

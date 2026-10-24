@@ -1,0 +1,33 @@
+{
+ "title": "Sarah",
+ "our_entries": [
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000938,
+   "zone": "Wilds",
+   "enemy_kind": "Traitor instructor who stole Ty's signet ring and now leads Shadow Talon ninjas in Danger Peaks (996886437).",
+   "location_evidence": [
+    "Danger Peaks."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:78908 [quest_dialog | Danger Peaks | Sarah] \"When the dojo fell, an instructor named Sarah stole my <font color='#D9781A'>signet ring</font>, a symbol of my authority.<BR><BR><font color='#D9781A'>Sarah</f\"",
+  "locale:91488 [quest_objective | Danger Peaks | Sarah | FLAG duplicate: same as 91489] 'Use your Shadow Minion ability'",
+  "locale:91489 [quest_objective | Danger Peaks | Sarah] 'Use your Shadow Minion ability.'",
+  "locale:91490 [quest_objective | Danger Peaks | Sarah] 'Defeat Sarah'",
+  "locale:91491 [quest_objective | Danger Peaks | Sarah] \"Defeat Sarah at Danger Peaks and recovery Ty's signet ring.\"",
+  "locale:93975 [quest_dialog | - | Sarah] '#Cap([*player*]) challenged the traitor, Sarah, and emerged victorious!'",
+  "locale:139523 [quest_dialog | Danger Peaks | Sarah] 'Sarah betrayed me and stole my signet ring.  You can find her in the Danger Peaks.'"
+ ],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "other target in 'Ninja: Gathered Shadows' (unresolved): As a Ninja, fight your way through Danger Peaks and confront Sarah."
+ ]
+}

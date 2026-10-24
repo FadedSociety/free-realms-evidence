@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=q3150006-v1-evidence-r1 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[16253, 9793, 8, 1343] model=claude-haiku-5-5 -->
+# Contract: Ready Your Weapon!
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "offer.speaker / complete.speaker", "issue": "Both speakers are null. The NPC answer for Caleb Sleepyswing (npc 9000000040) lists 'Contract: Ready Your Weapon!' under quests_given, and the offer text ('We don't have time to chat... a warrior's work is done with a weapon') is in a giver's voice, so Caleb is supported by the NPC answer. The null is honest but leaves a supported speaker unset. Fix: set speaker to Caleb Sleepyswing (npc 9000000040, locale 388352) for offer 388356 and complete 388359, citing the caleb sleepyswing NPC answer as the support. Neither text names him, so this rests on the giver record, not the line itself."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crascal-infernal-necklace-86533-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3937, 4888, 6, 768] model=claude-haiku-5-5 -->
+# Rascal Infernal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Live is marked 'unsure' while the first-pass tag says 'yes'. The answer is right not to adopt the first-pass value, since nothing in the pack confirms it.", "fix": "Keep 'unsure' unless a live source is found. My own lookups (client, wiki, articles, video) return only locale:86533 for this name. A repo search for definition 22542 and 'Rascal/Infernal Necklace' finds no store, vendor, quest or drop row."}, {"field": "retired", "issue": "Retired is null. That is honest, since with no sources there is no basis for retired or live status.", "fix": "No change required. Leave as unknown until a source dates the item."}]}

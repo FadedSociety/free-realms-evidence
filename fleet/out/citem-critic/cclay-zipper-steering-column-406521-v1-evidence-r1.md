@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cclay-zipper-steering-column-406521-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3821, 8178, 6, 993] model=claude-haiku-5-5 -->
+# Clay Zipper Steering Column
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] and evidence[2]", "issue": "The class 129 / ItemClasses rows 75/76 claim and the catalogue vehicle numbers (61000-series, Type 11, CategoryId 127; Splash Zipper 61006/51) rest only on a internal research note (notes/Research/Pieces/041). I could not confirm them in the client or refs data. They are not used as acquisition sources, so the answer's conclusion is not affected.", "fix": "Mark these as note-sourced and unverified, or re-check them against the client item definition 61051 and the catalogue rows before relying on them."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ithistlerow-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3780, 8479, 6, 1151] model=claude-haiku-5-5 -->
+# Thistlerow
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that 'Thistlerow Complete' (locale:93995) is a place string is loosely worded. The client table types it as 'other' (hint: Briarwood Thistlerow), not 'place'. It shares the Thistlerow name but its meaning is not confirmed as a location, so it should be listed as 'other'/unconfirmed.", "fix": "Cite locale:93995 as an 'other' string tagged Briarwood/Thistlerow, not as a place name. The place strings are locale:74180 ('Thistlerow', place), locale:93638 ('Briarwood - Thistlerow', place) and locale:93642 ('Thistlerow Maw', place)."}]}

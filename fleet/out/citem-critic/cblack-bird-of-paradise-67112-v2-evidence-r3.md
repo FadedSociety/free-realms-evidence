@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblack-bird-of-paradise-67112-v2-evidence-r3 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[10094, 6354, 8, 1140] model=claude-haiku-5-5 -->
+# Black Bird of Paradise
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the detail cites 'entry 1 of 8' and the 'sanctuary' item_link correctly, but the wiki 'Rare' listing is only a category placement and the source is correctly labelled membership-only. No problem with the claim itself.", "fix": "No change needed. Verified: collection_catalogue.json lines 15015-15032 show id 187, name_id 66645, entry index 1, name_id 67112, item_definition_id 23499, item_link 'sanctuary'. Completion reward at lines 15097-15109 is coins 3 and xp profile_id 16 amount 50, so it is correctly excluded as a source. Wiki 'List of Collections' lists [Birds of Paradise] under Rare, as claimed."}]}

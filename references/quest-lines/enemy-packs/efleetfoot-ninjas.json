@@ -1,0 +1,22 @@
+{
+ "title": "Fleetfoot Ninjas",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\fleetfoot_ninja.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Contract: Sharp Claws and Sharper Swords' (final): Defeat Fleetfoot Ninjas"
+ ]
+}

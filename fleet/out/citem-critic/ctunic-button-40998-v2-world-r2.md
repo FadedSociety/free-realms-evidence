@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctunic-button-40998-v2-world-r2 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11118, 9795, 8, 1078] model=claude-haiku-5-5 -->
+# Tunic Button
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[1]", "issue": "Cites locale:3150597236, which is not a locale table id. The automatic id check flags it. The 3150597236 value appears only as a hash-style key in the en_us_data.dat test file, next to the collection sentence.", "fix": "Drop the nonexistent citation. The correct citation for the collection sentence is locale:132358 (verified in the locale table: 'This item can be added to the Better Buttons Collection'). The answer's own evidence row already gives that id, so the open note should only restate it or be removed."}]}

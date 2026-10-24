@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=tentonhammer-com-node-90911 status=nothing_found turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 6811, 4, 442] model=claude-haiku-5-5 -->
+# SOE Gets Spooky with its Halloween Hocus Pocus Ustream Event | Ten Ton Hammer
+
+{"article": {"title": "SOE Gets Spooky with its Halloween Hocus Pocus Ustream Event", "date": "2010-10-20", "author": "Martuk", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer news post announces a Halloween 'Hocus Pocus' Ustream broadcast by Sony Online Entertainment staff on October 29, 2010, starting 2:00pm PDT. Free Realms appears only in the page's tag list and site navigation, not in the article body, so it has no Free Realms game facts for the rebuild.", "facts": [], "quests": [], "uncertain": ["Free Realms is listed only as a tag on this page; the article body does not mention it, so no Free Realms facts were recorded."]}

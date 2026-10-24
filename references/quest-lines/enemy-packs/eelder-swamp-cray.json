@@ -1,0 +1,29 @@
+{
+ "title": "Elder Swamp Cray",
+ "our_entries": [
+  {
+   "file": "dungeons\\cracked_claw_caverns.json",
+   "definition_id": 930078
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:75949 [npc_name | - | Elder Swamp Cray] 'Elder Swamp Cray'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:75949 [npc_name | - | Elder Swamp Cray] 'Elder Swamp Cray'"
+ ],
+ "client_cluster": [
+  "locale:75941 [npc_name | - | Poisonous Swamp Frog] 'Poisonous Swamp Frog'",
+  "locale:75947 [npc_name | - | Swamp Cray] 'Swamp Cray'",
+  "locale:75949 [npc_name | - | Elder Swamp Cray] 'Elder Swamp Cray'",
+  "locale:75955 [other | - | - | FLAG placeholder: TD test objectives] 'Todds Test TD Objectives'",
+  "locale:75956 [other | - | - | FLAG placeholder: test text] 'Test'",
+  "locale:75957 [npc_name | - | Robgoblin Prisoner] 'Robgoblin Prisoner'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=clifeguard-baseball-cap-105933-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3397, 8353, 6, 826] model=claude-haiku-5-5 -->
+# Lifeguard Baseball Cap
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "where", "issue": "Store row verified at stores.json:11076: item_id 32851, category_id 101, purchase 270, member 243 (10%), sell 27, no_sale false. The answer's price and currency are correct. The only source is a coin store row with no vendor NPC, and the answer says so honestly. Nothing in the repo or evidence pack names a quest, enemy or event that gives the cap, so no source is guessed.", "fix": "No change required. Optionally name category 101 as the store-category key in the detail, since the category name is unknown. Keep the source as coin_store only (no Station Cash or vendor source is evidenced)."}]}

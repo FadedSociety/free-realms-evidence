@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbutterfly-side-table-147781-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3827, 5626, 6, 756] model=claude-haiku-5-5 -->
+# Butterfly Side Table
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open", "issue": "The store category 53 name is still unresolved, so the 'Housing Items' shelf label rests on the article text alone. This is an honest unknown, not a wrong claim.", "fix": "Resolve category_id 53 in the store category table if one exists, or keep the caveat. Checked: stores.json line 12052 has item_id 36582, category_id 53, purchase_price_coins 750, member_price_coins 675, sell_price_coins 75, which matches the answer. Articles 1730 and 1734 both list the Butterfly side table as a Coin Shop house item from the August 13, 2010 update, so the single coin-shop source is evidenced and no conflicting source exists."}]}

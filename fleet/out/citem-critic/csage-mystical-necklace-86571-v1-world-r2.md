@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csage-mystical-necklace-86571-v1-world-r2 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[13578, 12851, 8, 1170] model=claude-haiku-5-5 -->
+# Sage Mystical Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].claim", "issue": "The Legacy 'Cost 540' is not specific to this item. The same Cost 540 appears on dozens of unrelated ClientItemDefinitions entries in FreeRealms-Legacy, Lxzxrus-Free-Realms-Server and OpenSourceFreeRealms (e.g. Legacy lines 8151, 10606, 18059), so it is a shared default, not a price signal. The answer's refusal to treat it as a coin vendor price is correct, but the reason should be stated as 'shared default Cost, not a sale record'.", "fix": "Cite the Cost 540 as a generic default shared by many items (FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json lines 8151, 10606, 18059 and others), with no store row for id 22580 to support it."}]}

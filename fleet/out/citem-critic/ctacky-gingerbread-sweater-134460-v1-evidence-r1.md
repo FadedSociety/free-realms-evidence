@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctacky-gingerbread-sweater-134460-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3963, 7775, 6, 1116] model=claude-haiku-5-5 -->
+# Tacky Gingerbread Sweater
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The text calls the listing a 'Coin store sale'. The repo row (stores.json line 16163) gives purchase_price_coins 375, member_price_coins 337 (10% member discount) and sell_price_coins 37. It is a regular purchase price, not a sale, and nothing in the row marks it as limited-time.", "fix": "Describe it as a coin-store purchase listing: purchase 375 coins, member 337 coins, sell-back 37 coins, from repo:prototype/osfr-tools/data/content/stores.json item 76536 (line 16163). Drop the word 'sale' unless a source names a sale."}]}

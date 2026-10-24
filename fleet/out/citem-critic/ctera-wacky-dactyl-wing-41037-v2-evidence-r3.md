@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctera-wacky-dactyl-wing-41037-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4134, 7537, 6, 1167] model=claude-haiku-5-5 -->
+# Tera-wacky-dactyl Wing
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] / sources[0].detail", "issue": "Minor: my search for definition id 3821 in the client returned no hit, so the definition_ids link is only as good as the evidence pack. The item name (locale:41037) and the 7-item 'Tera-...' cluster (41032-41038) check out.", "fix": "Re-verify definition_ids [3821] against the client definition table before treating it as a settled link. Locale claims otherwise hold: 132363 is the description that names Bird Wing Fossils Collection, 7755 is the collection name, 7831 is the collection blurb, and 140897 says collection items are found by exploring the world, with some gathered by clicking objects."}]}

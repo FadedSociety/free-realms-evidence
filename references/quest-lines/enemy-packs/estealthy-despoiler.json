@@ -1,0 +1,47 @@
+{
+ "title": "Stealthy Despoiler",
+ "our_entries": [
+  {
+   "file": "dungeons\\stealthy_despoilers.json",
+   "definition_id": 930021
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:93120 [npc_name | - | Stealthy Despoiler] 'Stealthy Despoiler'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:93120 [npc_name | - | Stealthy Despoiler] 'Stealthy Despoiler'"
+ ],
+ "client_cluster": [
+  "locale:93112 [quest_objective | - | Snognosh] 'Snognosh Frost Rain'",
+  "locale:93114 [quest_dialog | - | Snowhill] 'Well done! Now secure the area.'",
+  "locale:93116 [quest_dialog | - | Snowhill] 'The town is destroyed, but stay alert!'",
+  "locale:93117 [quest_dialog | - | Snowhill] 'Snowhill is near. They may cause trouble.'",
+  "locale:93118 [quest_dialog | - | Mayor's status report] 'A status report for the mayor? Sure, I got mine right here.'",
+  "locale:93120 [npc_name | - | Stealthy Despoiler] 'Stealthy Despoiler'",
+  "locale:93121 [npc_name | - | Marie] 'Marie'",
+  "locale:93122 [npc_name | - | Connie] 'Connie'",
+  "locale:93123 [npc_name | - | Mike] 'Mike'",
+  "locale:93124 [npc_name | - | Chris] 'Chris'",
+  "locale:93125 [npc_name | - | Coli] 'Coli'",
+  "locale:93126 [quest_dialog | - | Brandywine hot chocolate] \"Brrrr, I swear it's colder up here than it is down in Snowhill. So cold in fact that I didn't want to take my gloves off to fill out my report!<BR><BR>Tell you \"",
+  "locale:93128 [npc_name | - | Brandywine] 'Brandywine'"
+ ],
+ "wiki": {
+  "title": "Stealthy Despoilers",
+  "text": "thumb|right\nthumb|right|Stealthy Despoilers, interior\nGhost ninjas are attacking tourists! Head in and defeat them!\n\nStealthy Despoilers is a difficulty 4 battle that is started by clicking on a Stealthy Despoiler in Seaside. They are found in the south end of the region, on the path to the Luxurious Oceanfront Homes and also at the Abandoned Dojo.\n\n Required \n\nLevel 9, Any Combat Job\n\n Goals \n\nFind and defeat all of the stealthy ninjas.\n\n Rewards \n\n156 Stars\nMembers Only Bonus: 37 Coins\n\n Archer Prize Wheel \n\nArcher's Necklace of Bark Skin IV\nArcher's Power Shard of Regeneration IV\nArcher's Recurve Bow of Blizzards\nBattle Item Mystery Pack\nBobtailed Archer Leggings\n32 Coins\n\n Brawler Prize Wheel \n\nBarnburner Brawler Pants\nBattle Item Mystery Pack\nBrawler's Drill Hammer of Rumbling\nBrawler's Necklace of Bark Skin IV\nBrawler's Power Shard of Regeneration IV\n32 Coins\n\n Medic Prize Wheel \n\nBattle Item Mystery Pack\nHydrostatic Medic Fatigues\nMedic's Megasaw of Vitals\nMedic's Necklace of Bark Skin IV\nMedic's Power Shard of Regeneration IV\n32 Coins\n\n Ninja Prize Wheel \n\nBattle Item Mystery Pack\nKanja Ninja Hakama\nNinja's Jagged Scythe of 1000 Storms\nNinja's Necklace of Bark Skin IV\nNinja's Power Shard of Regeneration IV\n32 Coins\n\n Warrior Prize Wheel \n\nBattle Item Mystery Pack\nHigh Initiative Warrior Breeches\nWarrior's Double Axe of Cleaving\nWarrior's Necklace of Bark Skin IV\nWarrior's Power Shard of Regeneration IV\n32 Coins\n\n Wizard Prize Wheel \n\nAdherent Wizard Slacks\nBattle Item Mystery Pack\nWizard's Jewel Wand of Glaciers\nWizard's Necklace of Bark Skin IV\nWizard's Power Shard of Regeneration IV\n32 Coins\n\nCategory:Combat Mini-game\nCategory:Battle\nCategory:Difficulty 4\nCategory:Seaside\nCategory:BrawlWiki"
+ },
+ "images": [],
+ "video": [
+  "video:iyNQpapbjAc/00306.jpg (-): job_level: Ninja 4 | other_text: 10% Off Sale See what's on sale in the Marketplace right now! Stealthy Despoiler (off-screen nameplate marker, 43m) Stealthy Despoiler (off-screen nameplate marker, 37m) Upgrade Now for Power Hour!",
+  "video:uhM3h5OTPNk/00014.jpg (-): npcs: Spritzy nameplate  Audrye Jean nameplate  | other_text: Stealthy Despoiler 50m (red marker) Upgrade! Unregistered HyperCam 3",
+  "video:i7ZWB-fF9x4/00058.jpg (-): npcs: Miguel nameplate  | job_level: Ninja 4 | other_text: Stealthy Despoiler (red marker, two shown; likely enemy)",
+  "video:4kAFL0X0KkA/00012.jpg (-): npcs: Audrye Jean distance_marker  | job_level: Adventurer 1 | other_text: Sommer Trails Bowling Ball Stealthy Despoiler",
+  "video:4kAFL0X0KkA/00610.jpg (-): landmarks: sandstone cliff | job_level: Adventurer 4 | other_text: Seaside Elite Exploration Up Sandy Rocks Stealthy Despoiler"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Contract: Spirits and Spider Trainers' (final): Defeat Stealthy Despoilers in Seaside."
+ ]
+}

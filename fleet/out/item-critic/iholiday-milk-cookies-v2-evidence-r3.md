@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iholiday-milk-cookies-v2-evidence-r3 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3768, 4558, 6, 762] model=claude-haiku-5-5 -->
+# Holiday Milk & Cookies
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer cites the event-pack files quest-lines/event-packs/n039.json and vplayer-studio.json as listing the item, which I did not re-verify. This does not change the sources, since they are not counted as event sources.", "fix": "Either drop the file references or verify them. The wiki wikitext (rev 43314 line 2: regular 49, member 44 SC; line 4: Shyshadow, Player Studio, introduced 01/21/2014) and the Player Studio wave table (6715-45234 line 133: Wave 6 - 01/21/2014) both support the answer as written."}]}

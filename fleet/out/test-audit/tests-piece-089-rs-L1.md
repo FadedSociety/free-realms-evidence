@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-piece-089-rs-L1 status=done turns=5 usd=0.0055 tokens(read,write,in,out)=[40163, 21826, 12, 4681] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_089.rs lines 1-296 of 296
+
+Window reviewed: `prototype/osfr-tools/tests/piece_089.rs` lines 1-296, checked against `src/restoration/piece_089.rs` (lines 1-486). Most assertions are real: the envelope and sub-opcode rejections, invite/accept/capacity/decline/kick/leave/disconnect outcomes all match the code paths, and `audit()` is a genuine cross-check of the maps. Three findings:
+
+- **[medium] prototype/osfr-tools/tests/piece_089.rs:104 `subopcode_table_matches_client_constructors` - the name and the file header ("Every ORIGINAL check reads the shipped client's own constructor table") say the table is checked against the client, but the body only compares `PartyMessage` against a hand-typed copy of the same 15 rows inside the test.**
+  - Why it cannot catch a regression: if the client table is wrong (or the Rust enum is edited together with the local copy in this test), nothing in this test reads the client or the checker output, so it still passes. The test proves only that the enum agrees with itself.
+  - Fix: either rename it (for example `subopcode_table_matches_local_copy`) and correct the header's claim, or make the test load the table that `scripts/pieces/piece_089.py` derives from the client (or a committed fixture of it) and assert equality with `PartyMessage::ALL`, so a row changed in only one place fails.
+
+- **[medium] prototype/osfr-tools/tests/piece_089.rs:219 `leaving_member_is_not_re_addable_while_invited_elsewhere` - the name claims the test checks refusal of a re-add while the player holds an invite elsewhere, but the body never has a second party or a second invite; it just leaves, re-invites into the same party, and accepts.**
+  - Why it cannot catch a regression: `invite` in src (lines 302-328) has no multi-party guard beyond `membership.contains_key(&target)`. A change that lets a player hold invites to two parties, or that makes a left member's re-invite behave differently for an other party, would still pass, since no such case is exercised.
+  - Fix: create a second party `p2` led by 3, then with player 2 in `party` (after accept) assert `registry.invite(3, p2, 2)` returns `PartyError::AlreadyInParty`; after `leave(2)`, assert `invite(3, p2, 2)` succeeds and `invite(1, party, 2)` succeeds only once with `pending_for(2)` showing the expected party, and check `audit()` afterwards. Otherwise rename the test to match what it does (`leave_then_reinvite_same_party_succeeds`).
+
+- **[low] prototype/osfr-tools/tests/piece_089.rs:92 `rejects_malformed_envelope` - the comment says "keep one stray byte", but `frame[len - 1] = 0` writes a byte that is already 0 (the high byte of sub 1), so the line is a no-op and the only case covered is an appended trailing byte; a truncated frame whose inner length exceeds the payload is never tested.**
+  - Why it cannot catch a regression: a change to the length check that only handles longer-than-declared frames (for example comparing `>=` instead of `!=`) would still pass.
+  - Fix: add a case that drops the last byte of a valid frame (`frame.pop()`) and assert `MalformedEnvelope`, and correct the comment to describe what the mutation actually does.

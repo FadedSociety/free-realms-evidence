@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpro-miner-helmet-35296-v1-evidence-r1 status=no_submit turns=2 usd=0.0014 tokens(read,write,in,out)=[3342, 6631, 6, 1003] model=claude-haiku-5-5 -->
+# Pro Miner Helmet
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The vendor source is null. The store row (stores.json:4861) is a coin store listing, not a named NPC, so 'vendor' is accurate only as 'coin store listing'. The answer says so in its detail text, so this is a wording gap, not a false claim.", "fix": "Keep the type as a coin store listing (category 101, tint group 2, 358 coins, member 322). State that no NPC or zone is evidenced. Do not call it a vendor NPC source until one is found."}, {"field": "live", "issue": "The 'unsure' value is honest. The only evidence is the store row, and Jev's 'yes' is not supported by anything in the pack.", "fix": "Leave as unsure. No change needed."}]}

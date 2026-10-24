@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imaramius-v2-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3576, 4379, 6, 974] model=claude-haiku-5-5 -->
+# Maramius
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the boss gives no item source, but locale 419202 ('Enter Mushroom Cavern and defeat Marasmius to obtain the fourth shard') ties the boss to a quest item. The fourth shard is obtained by defeating him, so the boss is a quest-reward link to the shard quest, which the answer does not list.", "fix": "Add a note that Marasmius is the quest gate for the fourth shard (locale 419202, 419197, 419195). Whether the shard is a drop or a scripted quest grant is not evidenced in the pack, so keep it as an open question and do not list it as a sourced item source. Confirm the shard's quest answer before cross-linking."}]}

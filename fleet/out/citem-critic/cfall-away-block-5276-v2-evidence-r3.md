@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfall-away-block-5276-v2-evidence-r3 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13200, 10177, 8, 1520] model=claude-haiku-5-5 -->
+# Fall-away Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail / where", "issue": "Minor: the 6858 and 16895 rows are coin-store listings whose vendor is unknown. The answer says so honestly, but its source_tags on 6858 list L3 twice, which the answer does not explain. This does not change the price or currency.", "fix": "Keep the vendor as open. Optionally note that source_tags are unexplained metadata, not a vendor or zone. Verified: stores.json line 1868 = item 6858, category 147, 200 coins, member 180, sell null, no_sale true; line 4258 = item 16895, category 147, tint 2, 500 coins, member 450, sell 50, no_sale false."}]}

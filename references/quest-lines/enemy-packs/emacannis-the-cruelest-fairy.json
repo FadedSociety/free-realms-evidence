@@ -1,0 +1,45 @@
+{
+ "title": "Macannis, the Cruelest Fairy",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\pixie_hunters.json"
+  },
+  {
+   "file": "dungeons\\pixie_hunters.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:141358 [npc_name | - | Macannis, the Cruelest Fairy] 'Macannis, the Cruelest Fairy'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:141358 [npc_name | - | Macannis, the Cruelest Fairy] 'Macannis, the Cruelest Fairy'"
+ ],
+ "client_cluster": [
+  "locale:141351 [other | - | Universal Time Bonus] 'Universal Time Bonus'",
+  "locale:141352 [npc_name | - | Vengeful Wraith] 'Vengeful Wraith'",
+  "locale:141353 [npc_name | - | Molli] 'Molli'",
+  "locale:141354 [quest_title | - | Wraiths of Wrath] 'Wraiths of Wrath'",
+  "locale:141355 [quest_objective | - | Wraiths of Wrath] 'Vengeful wraiths are on a rampage, attacking anything that moves! You must defeat them!'",
+  "locale:141356 [quest_objective | - | Wraiths of Wrath] 'Defeat all wraiths.'",
+  "locale:141357 [quest_objective | - | Wraiths of Wrath] 'The wraiths are on a rampage, attacking anything that moves. You must defeat them!'",
+  "locale:141358 [npc_name | - | Macannis, the Cruelest Fairy] 'Macannis, the Cruelest Fairy'",
+  "locale:141359 [quest_objective | - | Chaz Strongarm] 'Return to Chaz Strongarm'",
+  "locale:141360 [quest_dialog | - | Chaz Strongarm] 'I really need your help, but you are not ready yet. Come back and talk to me when you are a bit stronger.'",
+  "locale:141362 [other | - | Speed Boost Placeholder NPC - DNT | FLAG placeholder: placeholder NPC marked DNT] 'Speed Boost Placeholder NPC - DNT'",
+  "locale:141363 [quest_dialog | - | Chaz Strongarm] \"Hey there. I have more work for you, but you need to come talk to me again when you are stronger. I don't want to see you get hurt, my friend.\"",
+  "locale:141365 [npc_name | - | Hugo] 'Hugo'",
+  "locale:141366 [npc_name | - | Petunia] 'Petunia'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

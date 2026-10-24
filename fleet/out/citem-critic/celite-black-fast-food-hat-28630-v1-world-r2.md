@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-fast-food-hat-28630-v1-world-r2 status=done turns=3 usd=0.0025 tokens(read,write,in,out)=[16004, 13172, 8, 1460] model=claude-haiku-5-5 -->
+# Elite Black Fast Food Hat
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The source's 'category 101 hat listing' label is not checked. Category 101 holds many unrelated items in stores.json (for example 14638 and 14663), and the answer does not show what category 101 is called.", "fix": "Either name the category from its own record in stores.json or the Legacy store data, or drop the word 'hat listing'. The item row itself is confirmed: stores.json line 3853 gives item 14793, category 101, purchase 9453, member 8507, sell 945, no_sale false."}]}

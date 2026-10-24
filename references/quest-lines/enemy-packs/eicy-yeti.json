@@ -1,0 +1,38 @@
+{
+ "title": "Icy Yeti",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\petty_yetis.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:116239 [npc_name | - | Icy Yeti] 'Icy Yeti'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:116239 [npc_name | - | Icy Yeti] 'Icy Yeti'"
+ ],
+ "client_cluster": [
+  "locale:116231 [quest_reward | - | Osgood] '[*player*] sought out the wand making expertise of the wizard Osgood!'",
+  "locale:116236 [other | - | - | FLAG joke: sound effect text] '*Click* *Clack*'",
+  "locale:116237 [ui | - | - | FLAG fragment: single word] 'Member'",
+  "locale:116238 [other | - | - | FLAG joke: sound effect text] '*Clack* *Click*'",
+  "locale:116239 [npc_name | - | Icy Yeti] 'Icy Yeti'",
+  "locale:116240 [quest_objective | Blackspore | Foreman Ironfist] 'Go to Blackspore and get a crystal from Foreman Ironfist in the Haunted Mines.'",
+  "locale:116241 [other | - | - | FLAG placeholder: test bundle name] 'Test Bundle Name123'",
+  "locale:116242 [other | - | - | FLAG placeholder: test bundle description] 'Test Bundle Description123'",
+  "locale:116243 [quest_dialog | Sanctuary | Sven] 'Sven is not here, he may have gone back to Karin Spellweaver in Sanctuary'",
+  "locale:116246 [ui | - | -] \"These symbols encourage or discourage your pet's behavior.\"",
+  "locale:116247 [quest_dialog | Blackspore | Briarheart] \"Don't worry. I'm leaving for Briarheart as soon as you leave for the <font color='#D9781A'>Haunted Mines</font> in <font color='#D9781A'>Blackspore</font>.\""
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Icy Yeti"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

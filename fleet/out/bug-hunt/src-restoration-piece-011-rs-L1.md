@@ -1,0 +1,18 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-011-rs-L1 status=done turns=6 usd=0.0073 tokens(read,write,in,out)=[73739, 24445, 14, 6960] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_011.rs lines 1-590 of 590
+
+Window: `prototype/osfr-tools/src/restoration/piece_011.rs` lines 1-590. Reach caveat for all findings: this module is not registered in the crate (`src/lib.rs` / `restoration/mod.rs` do not declare it; only `tests/piece_011.rs` pulls it in via `#[path]`), so no client packet reaches these functions in the current build. The findings are latent defects for when the module is integrated.
+
+No panics on client bytes were found: `decode_trick_record` checks length 37 before slicing, `decode_favorite_set` and `decode_u32` check length before `try_into`, `encode_favorite_set` rejects slot 0 before `slot - 1`, and the gesture parser checks `fields.len() >= 4` before indexing. `NaN` waypoints fail the `0.0..=1.0` range check. No unbounded growth was found: round samples are capped by `max_samples()`, and the node list is cloned from the fixed library.
+
+- **[low] prototype/osfr-tools/src/restoration/piece_011.rs:578-590 (`finish`, line 439-440) - `elapsed` is computed as `(now - started).max(0) as u32`, which wraps for gaps of 2^32 ms or more, so a long-stale round can pass the timeout check.**
+  - Failure scenario: a round starts at `started_milliseconds = 0`. `finish` is called with `now_milliseconds = 4_294_967_396` (about 49.7 days plus 100 ms). `elapsed` is `4_294_967_396 as u32 = 100`, which is under the 10 000 ms timeout. With all nodes hit, `finish` returns `Ok(RoundOutcome { elapsed_milliseconds: 100, .. })` for a round that actually lasted 49 days.
+  - Reach: `TrickRoundLedger::complete` (line 512) calls `round.finish(now_milliseconds, settings)`. Nothing bounds the `now` value or the gap between begin and complete in this module. The caller-supplied `now` is what matters, so a future integration that passes an unvalidated or persisted timestamp hits this.
+  - Fix: `let elapsed = u32::try_from((now_milliseconds - self.started_milliseconds).max(0)).unwrap_or(u32::MAX);` (or compare in i64 against `timeout_milliseconds()` before casting).
+
+- **[low] prototype/osfr-tools/src/restoration/piece_011.rs:548-560 (`decode_favorite_set`) - the decoder returns the zero-based slot without the `< FAVORITE_SLOT_COUNT` check that the module's own encoder and the client guard enforce.**
+  - Failure scenario: a client sends a favourite-set body with slot value 4 (zero-based, i.e. UI slot 5). `decode_favorite_set` returns `Ok((pet, 4, trick))`. A caller that trusts this tuple writes to favourite index 4 of a 4-slot array, or stores an out-of-range slot in the save.
+  - Reach: `decode_favorite_set` is `pub` and is the only parse path for `SUB_FAVORITE_SET` (14) in this module. Its doc says "zero-based favourite slot", and the client rejects slots outside `param_2 - 1U < 4` (module doc, line 19). The existing tests (tests/piece_011.rs:311-318) only check valid slots, so nothing pins the rejection on the decode side.
+  - Fix: after decoding, return `Err(WireError::InvalidFavoriteSlot(slot + 1))` when `slot >= FAVORITE_SLOT_COUNT`, mirroring `encode_favorite_set`.
+
+No other defects met the bar. Checked and dropped: `parse_settings` duplicate-key overwrite (shipped file, not client input); `record_sample` i64 arithmetic (needs extreme server timestamps); `TrickRoundLedger::complete` replay gate (correct for completed instance ids, and failed rounds are not recorded, so they can be retried); `completed` set growth (one entry per successful completion, bounded by gameplay).

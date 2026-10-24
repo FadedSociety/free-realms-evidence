@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchef-s-power-shard-of-timing-i-132111-v2-world-r2 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[12212, 9814, 8, 1201] model=claude-haiku-5-5 -->
+# Chef's Power Shard of Timing I
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "Honest unknown, not an error. The coin store row (stores.json:15463, item 75665, category 121, 750 purchase, 10% member, 675 member price, 75 sell) matches the answer. The Chef NPC wiki snippets I checked (Gaston, Mikael, Ingrid, Lorraine, Skye, Zamzani, Rachael, Nadia) list Timing II-V and Talent I-IV, never Timing I. That fits a coin-store-only item, and the answer's refusal to name a Chef NPC seller is correct.", "fix": "None required. Optional: note that Nadia's snippet lists Chef's Power Shard of Talent I and Spatula of Timing I, so a full Nadia page read would confirm Timing I is absent from her stock before closing the NPC question."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibrighteyes-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3146, 4134, 6, 934] model=claude-haiku-5-5 -->
+# Brighteyes
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind / open", "issue": "The answer correctly finds that Brighteyes is an NPC (locale:413069 is tagged npc_name, wiki categories NPC/Females/Horse/Pony Vale) and that no coin, Station Cash, IGD, vendor or reward source exists. The 'Blaming Brighteyes' quest (locale:413208) is not evidenced as a reward source, and Brighteyes is not in the Pony Vale 'Rides' list, so no source is missing. Minor: the wiki body misspells the name as 'Bighteyes', and 'live: unsure' could be stated as 'not an item' rather than left open, but neither changes the answer.", "fix": "No change to sources. Optionally set live/kind to reflect that the job target is an NPC, not an item (locale:413069; wiki Brighteyes rev 49954)."}]}

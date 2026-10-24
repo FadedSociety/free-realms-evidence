@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfelt-beret-4415-v2-evidence-r3 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[14806, 10572, 8, 1831] model=claude-haiku-5-5 -->
+# Felt Beret
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[2] (membership)", "issue": "The White Snowfall Felt Beret is attached as a membership source, but the answer itself says its mapping to definition 210, 79421 or 79422 is unconfirmed. The wiki text ('Originally, a Snowfall (white) Felt Beret had been introduced... November 2009 Member's Pack') names no definition id, so this source is by name only and has no id-level evidence.", "fix": "Keep it as a historical note on the item page, not as an acquisition source for ids 210/79421/79422, until the white variant is mapped. Wiki 'Felt Beret' and 'Trendy Sunglasses' (Category:Unobtainable) are the only support."}]}

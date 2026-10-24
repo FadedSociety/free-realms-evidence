@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cburning-fire-square-shard-99417-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3983, 4655, 6, 859] model=claude-haiku-5-5 -->
+# Burning Fire Square Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].detail / where", "issue": "The answer omits the row's source_tags field (L1, L2, L4, R2, T633, R1) from stores.json line 8244. These tags may point to where the store entry is offered, so the 'where: unknown' call is less complete than the data allows. The tags are unexplained, so this is an omission, not a wrong claim.", "fix": "Record the raw source_tags ['L1','L2','L4','R2','T633','R1'] from repo:prototype/osfr-tools/data/content/stores.json line 8244 in the source, and mark their meaning as unresolved."}]}

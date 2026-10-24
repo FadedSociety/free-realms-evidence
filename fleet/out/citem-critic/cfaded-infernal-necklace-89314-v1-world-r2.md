@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-infernal-necklace-89314-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3807, 8079, 6, 958] model=claude-haiku-5-5 -->
+# Faded Infernal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer leaves live as 'unsure' with no sources, which is honest. My lookups agree: lookup returns only the client name line (locale:89314). The wiki, articles and video have no hit for this item, and repo and refs have no acquisition record. The only other hits are the same-family 'Faded Infernal Ring' (locale-table string, client only) and other 'Infernal Necklace' names, which are different items.", "fix": "No change needed to sources. Keep sources empty, retired null and live unsure. Do not mark it live or retired until a vendor, quest, drop or event record names it. The first-pass 'drop' guess should stay out of sources."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslimy-green-firefly-66719-v2-evidence-r3 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[8945, 6381, 8, 1249] model=claude-haiku-5-5 -->
+# Slimy Green Firefly
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the wiki's List of Collections lists 'Green Fireflies' under Insects > Fireflies is not confirmed. My lookup of the wiki 'List of Collections' page returned only other collections (Robgoblin Junk, Medals, Seeker's Gloves) and no Fireflies entry. The repo citations (collections.json:8922 name 'Green Fireflies') and the locale line 132395 do check out.", "fix": "Cite only repo:prototype/osfr-tools/data/content/collections.json:8922 for the collection name. Drop the wiki listing claim, or re-verify it on the wiki page before keeping it."}]}

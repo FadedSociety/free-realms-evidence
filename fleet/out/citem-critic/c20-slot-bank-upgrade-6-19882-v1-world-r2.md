@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=c20-slot-bank-upgrade-6-19882-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4400, 10397, 6, 1033] model=claude-haiku-5-5 -->
+# 20-Slot Bank Upgrade 6
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "The answer sets live to 'yes' from the Banking page's present tense. The page is undated and only says the feature was introduced on December 4th, 2012. Nothing in the pack shows the Coin Shop still sold Upgrade 6 at the 2009-2014 cutoff.", "fix": "Keep live as unknown or 'yes (present-tense wiki only)' and leave retired null, as the open list already says. Verify against a dated Coin Shop listing. Source: wiki Banking, refs freerealms-wiki/wikitext/3693-30292-8accb955624d.wiki line 1 (introduced 2012-12-04)."}]}

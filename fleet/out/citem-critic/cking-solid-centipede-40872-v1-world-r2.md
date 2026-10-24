@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cking-solid-centipede-40872-v1-world-r2 status=done turns=4 usd=0.0014 tokens(read,write,in,out)=[13105, 5483, 10, 1131] model=claude-haiku-5-5 -->
+# King Solid Centipede
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' with the collection existing on the wiki list. I confirmed the wiki List of Collections page (ns0) lists 'Solid Centipedes' alongside Checkered, Spotted and Striped Centipedes, and client locale 132342 ties King Solid Centipede to the Solid Centipedes Collection. The membership is supported; the live status is not, so 'unsure' is the honest value.", "fix": "No change required. Keep live 'unsure' and sources empty until a reward line, enemy drop or vendor row is found for King Solid Centipede."}]}

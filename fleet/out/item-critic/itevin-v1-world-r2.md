@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=itevin-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3122, 5589, 6, 1115] model=claude-haiku-5-5 -->
+# Tevin
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that Tevin appears 'only ... in the Brawler questline' lists Assisting the Assistant, Deliver Fliers! and Hot Mess, but the client hints for those quests (locale:78770, 93224, 79033) are Snowhill quest names, and nothing fetched links them to the Brawler questline. The wording overstates the wiki, which lists only Way of the Brawler and The Growler Report.", "fix": "Say Tevin is a Snowhill quest giver and target in the Brawler questline (wiki Brawler page, Quest:Brawler: Way of the Brawler and The Growler Report) and in the Snowhill quests Assisting the Assistant, Deliver Fliers! and Hot Mess (client locale:78770, 93224, 79033). Either way he is a quest NPC, not an item source."}]}

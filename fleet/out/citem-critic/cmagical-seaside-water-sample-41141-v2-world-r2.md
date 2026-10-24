@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmagical-seaside-water-sample-41141-v2-world-r2 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[9678, 6904, 8, 1165] model=claude-haiku-5-5 -->
+# Magical Seaside Water Sample
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The 'possible route' names the Embir Clearwell water-sample chain as a possible source for the Magical Seaside Water Sample. The chain in the Shrouded Glade note (line 227) covers the falls, Misty Mountain, Lakeshore and Snowhill samples, and never names Seaside. Nothing in the pack links it to the Seaside samples.", "fix": "Drop the Seaside link or state it as unsupported. The only evidence is repo:notes/Build Guides/Content/NPCs/NPCs - Shrouded Glade.md:227, which names no Seaside sample. The answer's sources stay empty, which is correct."}]}

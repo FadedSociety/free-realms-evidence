@@ -1,0 +1,90 @@
+{
+ "title": "Mac",
+ "our_entries": [
+  {
+   "file": "encounters.json",
+   "name_id": 5100344,
+   "definition_id": 920002,
+   "model_id": 3897,
+   "max_health": 500,
+   "damage": 45,
+   "boss": true
+  },
+  {
+   "file": "dungeons\\highroad_hijinx.json",
+   "definition_id": 920002
+  },
+  {
+   "file": "dungeons\\highroad_hijinx.json",
+   "definition_id": 920002
+  },
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000043,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Highroad blockade boss; Adventurer text puts him in \"the cave leading to Blackspore Swamp\" (2441990229)",
+   "location_evidence": [
+    "The cave east of Cobblestone Village"
+   ]
+  },
+  {
+   "file": "npcs/cobblestone_village.json",
+   "npc_id": 9500000250,
+   "zone": "Cobblestone Village",
+   "enemy_kind": "Hooligan leader who blockaded the village.",
+   "location_evidence": [
+    "A camp shielded by Gloam Artifacts, then \"the cave leading to Blackspore Swamp\" (2441990229). Also the boss of Highroad Hijinx (row on NPCs - Wilds)."
+   ]
+  },
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000918,
+   "zone": "Wilds",
+   "enemy_kind": "Hooligan leader and boss of Highroad Hijinx (the same Mac is the Cobblestone Village blockade leader in the Adventurer line; \"Mac Gravelfist\" of the Sunstone Gateway, 3037238698, is a different person).",
+   "location_evidence": [
+    "The hooligan camp in the hills above the high road."
+   ]
+  }
+ ],
+ "entry_count": 6,
+ "client_name_matches": [
+  "locale:15368 [npc_name | - | Mac] 'Mac'",
+  "locale:5100344 [npc_name | - | Mac] 'Mac'",
+  "locale:5100362 [npc_name | - | Mac] 'Mac'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:15368 [npc_name | - | Mac] 'Mac'",
+  "locale:5100344 [npc_name | - | Mac] 'Mac'",
+  "locale:5100362 [npc_name | - | Mac] 'Mac'",
+  "locale:5100382 [quest_dialog | - | Mac] 'Have you defeated Mac?'"
+ ],
+ "client_cluster": [
+  "locale:15362 [npc_name | - | Hooligan Archer] 'Hooligan Archer'",
+  "locale:15363 [quest_dialog | Sanctuary | Flurti] \"Welcome to Flurti's Tour Service! It is your lucky day! I am offering free tours of some of the most popular areas in and around Sanctuary. I won't actually be \"",
+  "locale:15365 [ability | - | Shuriken Throw] 'Shuriken Throw'",
+  "locale:15366 [ability | Danger Peaks | Shuriken Throw] 'Danger Peaks 46 - Ninja shuriken throw'",
+  "locale:15368 [npc_name | - | Mac] 'Mac'",
+  "locale:15373 [quest_objective | Sanctuary | Flurti] \"Tour Honey's Fields.\"",
+  "locale:15374 [quest_objective | Sanctuary | Flurti] \"Honey's Fields can be found just south of Sanctuary.\"",
+  "locale:15375 [quest_objective | Sanctuary | Flurti] 'Tour Shimmering Pond.'",
+  "locale:15376 [quest_objective | Sanctuary | Flurti] 'Shimmering Pond can be found southeast of Sanctuary.'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:art_or_promo): Sony\nmake.believe\nJoin Free!\nNews\nGame\nShop\nCommunity\nHelp\nParents\nLog In\nFreeRealms\nWhat is Free Realms\nCHECK OUT THE Trading Card Game\nNEWS!\nStation Cash Cards Available at: Walgreens\nNow on the PS3 More Info\nNew Players\nExisting Players\nRedeem your code:\nRedeem\nParents | Legal & Copyright Notices",
+  "image (image:art_or_promo): BEST BUY EXCLUSIVE\nGET\nDOUBLE STATION Cash\nwhen you redeem an SOE Game Card\nfrom any participating U.S. Best Buy\nstores for Station Cash® from\nAugust 16th - August 18th, 2013.\n\n[Game card art]\nSOE GAME CARD\n1500 STATION CASH®\n$15\nSOE\nSOE ONLINE ENTERTAINMENT\nREDEEM FOR STATION CASH FOR USE IN THESE "
+ ],
+ "video": [
+  "video:3caQP-As968/00208.jpg (-): dialog: Look directly at this Magic Sphere. Click and hold the right button on your mouse and follow the arrows. Mac users hold the Command key and click and hold the mouse button. | landmarks: Magic Sphere (camera tutorial)"
+ ],
+ "article_facts": [
+  "fact:other: The Mac client download was offered on the official freerealms.com site, with separate pages for Mac system requirements and the Free Realms Mac plugin download. | Den Download gibt es auf www.freerealms.com. (http://www.freerealms.com/article/detail.action?articleId=1901)",
+  "fact:mechanic: The announced Mac and PC versions were to be identical and playable on the same servers, so Mac users could play with PC users. | Las versiones para Mac y PC serán idénticas y se podrán jugar en los mismos servidores. (http://www.freerealms.com/article/detail.action?articleId=1844)",
+  "fact:release: Free Realms became available on Mac, requiring Mac OS X Leopard 10.5.8 or higher. | Si vous avez un Mac ® OS X Leopard avec 10.5.8 ou supérieur, vous pouvez vous connecter à Free Realms (http://www.freerealms.com/article/detail.action?articleId=1900&request_locale=en_US)",
+  "fact:release: Free Realms was announced as coming soon to the Mac and PlayStation 3. | Free Realms is coming soon to the Mac and Playstation 3 (http://tentonhammer.com/node/87661)"
+ ],
+ "quest_answers_naming_it": [
+  "go target in 'Cobblestone Showdown' (unresolved): With their Artifacts destroyed, Mac and his gang are vulnerable to attack. Show them who's boss and free Cobblestone Vil",
+  "defeat target in 'Cobblestone Showdown' (unresolved): Defeat Mac"
+ ]
+}

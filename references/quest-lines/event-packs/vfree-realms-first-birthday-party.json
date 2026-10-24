@@ -1,0 +1,29 @@
+{
+ "title": "Free Realms first birthday party",
+ "names_seen": [
+  "Free Realms first birthday party"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms' first birthday (April 29) was celebrated with a large party that started on the posting day and ended May 10.",
+   "numbers": {
+    "end_day_of_may": 10,
+    "birthday_day_of_april": 29
+   },
+   "era": "live",
+   "quote": "Am 29. April ist Free Realms erster Geburtstag! Sie geht heute los und endet am 10. Mai.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1268",
+   "date": "2010-04-22"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1268",
+   "date": "2010-04-22",
+   "title": "Die Free Realms Geburtstagsfeier! (Free Realms - What is New?)",
+   "summary": "A German-language official SOE news post announcing Free Realms' first-anniversary birthday party, running from the launch-day kickoff until May 10, 2010, with party zones, new quests, party items, cakes and a boss fight against Cakenstein. The page is in German; the date is inferred from the capture (posted 6 days 13 hours before 2010-04-28), not printed in the text."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

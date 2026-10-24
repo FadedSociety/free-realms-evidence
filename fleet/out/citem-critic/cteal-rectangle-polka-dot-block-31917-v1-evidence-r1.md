@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cteal-rectangle-polka-dot-block-31917-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3971, 7343, 6, 1012] model=claude-haiku-5-5 -->
+# Teal Rectangle Polka Dot Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the category 147 entries at stores.json:135, 728 and 1969-1984 share the same tag pattern was not checked. Lines 12125-12150 do show the same L1,L2,L4,R2,T633,R1 tags across category 147, so the claim holds for the nearby block, but the cited line numbers are unverified.", "fix": "Cite only the verified range (stores.json:12133-12143, category 147, source_tags L1,L2,L4,R2,T633,R1), or re-verify lines 135, 728 and 1969-1984 before keeping them."}]}

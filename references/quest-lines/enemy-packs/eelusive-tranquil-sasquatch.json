@@ -1,0 +1,43 @@
+{
+ "title": "Elusive Tranquil Sasquatch",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\snowy_canyon.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:130569 [quest_title | - | Elusive Tranquil Sasquatch] 'Elusive Tranquil Sasquatch'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:130569 [quest_title | - | Elusive Tranquil Sasquatch] 'Elusive Tranquil Sasquatch'",
+  "locale:130580 [quest_objective | - | Elusive Tranquil Sasquatch] 'Find the Elusive Tranquil Sasquatch!'",
+  "locale:130581 [quest_dialog | - | Elusive Tranquil Sasquatch] 'There is a rumor that a tranquil sasquatch lives in this canyon but nobody can ever take a picture of it!  If you happen to see him, chase him until you find hi'"
+ ],
+ "client_cluster": [
+  "locale:130561 [npc_dialog | - | -] 'The average human will accidentally eat just under a pound of insects every year.'",
+  "locale:130562 [npc_dialog | - | -] 'For some reason, chugawugs consume twice that amount.'",
+  "locale:130563 [npc_dialog | - | -] 'The white part of your fingernail is called the lunula.'",
+  "locale:130564 [npc_dialog | - | -] \"Are you taking notes? I'm not up here spouting all this off for fun.\"",
+  "locale:130565 [npc_dialog | - | -] 'The average person releases nearly a pint of intestinal gas by flatulence every day.'",
+  "locale:130566 [npc_dialog | - | -] 'Chugawugs however, are known to release up to 4 pints of gas in a day.'",
+  "locale:130567 [npc_dialog | - | -] 'Many speculate as to why, but the mystery remains unsolved.'",
+  "locale:130569 [quest_title | - | Elusive Tranquil Sasquatch] 'Elusive Tranquil Sasquatch'",
+  "locale:130571 [quest_objective | - | Cook Yumtumlot] 'Take your Rainleaf Wrapped Dumplings to Cook Yumtumlot.'",
+  "locale:130572 [quest_dialog | - | -] \"Thank you!  I was afraid the corruption was going to consume me!  I'm getting out of here!\"",
+  "locale:130573 [quest_dialog | - | -] 'How did you find me!?'",
+  "locale:130574 [quest_dialog | - | -] \"Please don't tell anyone about my secret hiding place here! Ok?\"",
+  "locale:130575 [quest_objective | - | Yeti Jam Boxes] 'Destroy all of the yeti jam boxes!'",
+  "locale:130576 [quest_objective | - | Yeti Jam Boxes] 'The Yetis are making WAY too much noise. Destroy all of their Jam Boxes and do your part to stop noise pollution.'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Elusive Tranquil Sasquatch"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

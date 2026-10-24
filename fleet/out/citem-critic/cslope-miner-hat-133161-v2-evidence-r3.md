@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslope-miner-hat-133161-v2-evidence-r3 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13877, 10316, 8, 1462] model=claude-haiku-5-5 -->
+# Slope Miner Hat
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail / where", "issue": "Minor: the coin-store source is correctly evidenced as a store price row, but it is a store-data record with no vendor or location. The answer states this honestly (where: null), so it is not an error. The only gap is that 'coin store sale' is a record type, not a located acquisition.", "fix": "No change required. Keep where: null and note the source as stores.json line 15854 (item 76153, category 101, purchase 403, member 362, sell 40) with the refs CoinStoreItems.json line 71569 (Id 76153, CategoryId 101, TintGroupId 1) as corroboration. Both verified in this review."}]}

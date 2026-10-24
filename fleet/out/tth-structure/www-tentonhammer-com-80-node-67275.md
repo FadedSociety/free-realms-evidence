@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-67275 status=nothing_found turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 7489, 4, 323] model=claude-haiku-5-5 -->
+# EVE Online: Sci-Fi Sharecroppers | Ten Ton Hammer
+
+{"article": {"title": "EVE Online: Sci-Fi Sharecroppers", "date": "2009-04-27", "author": "The Mittani", "type": "editorial"}, "about_free_realms": false, "summary": "This Ten Ton Hammer editorial, captured in 2010, is about EVE Online's 'pet system' of rented territory and does not discuss Free Realms. The only Free Realms references are in site-wide sidebar rankings (Free Realms appeared at #9 in a popularity list), which are not facts about the game. No rebuild-relevant Free Realms data was found.", "facts": [], "quests": [], "uncertain": ["Page is not about Free Realms; Free Realms appears only in site navigation/popularity sidebar."]}

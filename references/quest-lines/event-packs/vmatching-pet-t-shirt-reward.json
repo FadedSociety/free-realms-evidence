@@ -1,0 +1,29 @@
+{
+ "title": "Matching pet T-shirt reward",
+ "names_seen": [
+  "Matching pet T-shirt reward"
+ ],
+ "facts": [
+  {
+   "statement": "999,999 players were to receive a matching pet T-shirt for their pet and 200 Station Cash.",
+   "numbers": {
+    "players": 999999,
+    "station_cash": 200
+   },
+   "era": "live",
+   "quote": "999,999 players will receive a matching pet T-shirt for their four-legged friends, and 200 Station Cash",
+   "article": "http://www.tentonhammer.com:80/node/68118",
+   "date": "2009-05-18"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/68118",
+   "date": "2009-05-18",
+   "title": "Free Realms Surpasses 1 Million Registered Users",
+   "summary": "A Ten Ton Hammer repost of an SOE press release announcing that Free Realms passed one million unique registered users 17 days after its April 28, 2009 launch. It lists the milestone celebration rewards (in-game T-shirts, a lifetime membership and astronaut suit for the one-millionth player, and Station Cash) and the retail channels for starter and Station Cash cards."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

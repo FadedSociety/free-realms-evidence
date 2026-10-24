@@ -1,0 +1,13 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-096-rs-L801 status=nothing_found turns=9 usd=0.0086 tokens(read,write,in,out)=[115676, 26347, 20, 8220] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_096.rs lines 801-1169 of 1169
+
+Window `repo:prototype/osfr-tools/src/restoration/piece_096.rs` 801-1169 read in full (encode tail, `split_frame`, `decode_items`, `decode_stats`, `decode_abilities`, `decode_payload`, `decode`, `verify_captured`), with the supporting `Reader` (lines 347-449), `frame`, the constants (lines 44-53), and the `ItemDefinitions` encode (lines 713-792) read to check round-trip symmetry. No defect I could tie to a line and show reachable.
+
+Checked and ruled out:
+- **Panics:** `split_frame` checks `len < 7` before `frame[..2]` and `frame[3..7]`, and `frame.len() - 7` is safe after that. `Reader::take` uses `checked_add` and `get(..)`, so every fixed-width read is bounds-checked. `null_terminated` computes `bytes.len() - offset`, which cannot underflow because `offset` never exceeds `len`. `rest[end + 1..]` is in range because `end < rest.len()`. `u8` indexes `[0]` only after a successful 1-byte take.
+- **Unbounded allocation:** every client-sized count is capped before `Vec::with_capacity` or the loop: item count ≤ 8192 (`decode_items`), stat/ability/update-stat counts ≤ 4096 (`decode_stats`, `decode_abilities`, `UpdateStat` arm), announcement count ≤ 1024, message length ≤ `MAX_MESSAGE` (`decode_items`, `SelfToClient`), text length ≤ 65536 (`text`). Negative `i32` counts are rejected before the `as usize` cast.
+- **Trusting the client:** the opcode is checked against the slot's writer, and `reader.remaining() != 0` rejects trailing bytes after the body. `decode_items` also calls `inner.end()` for the inner length-prefixed block.
+- **Round-trip symmetry:** field order and widths in the `decode_items`, `decode_stats`, `decode_abilities`, `UpdateStat`, `DoneSendingPreloadCharacters`, `SelfToClient` and `AnnouncementData` decoders match their encoders.
+- **Reach:** the module is not registered in the gateway (header lines 31-39). Its only callers are the offline oracle in `tests/piece_096.rs` and the `verify_captured` / `decode` entry points, which take captured or server-recovered bytes. No live client packet reaches these decoders in the current tree.
+
+The two minor items I considered and did not report: the `count.max(0)` in the `TooManyRows` error reports 0 for a negative count (cosmetic), and `decode_payload` does not compare `inner_opcode` (it is stored and re-emitted verbatim, so it is not a defect).

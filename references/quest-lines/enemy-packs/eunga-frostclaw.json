@@ -1,0 +1,49 @@
+{
+ "title": "Unga Frostclaw",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\snowy_canyon.json"
+  },
+  {
+   "file": "dungeons\\snowy_canyon.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:4218 [npc_name | - | Unga Frostclaw] 'Unga Frostclaw'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:4218 [npc_name | - | Unga Frostclaw] 'Unga Frostclaw'",
+  "locale:18625 [quest_objective | Snowhill | Unga Frostclaw] 'Defeat Unga Frostclaw'",
+  "locale:432934 [quest_dialog | Snowhill | Unga Frostclaw] \"You've defeated the Yeti Chief! Now there's nothing standing between you and the Yeti treasure... except one more Yeti! It's Unga Frostclaw! He must have been v\""
+ ],
+ "client_cluster": [
+  "locale:4210 [npc_name | - | Chick] 'Chick'",
+  "locale:4212 [npc_name | - | Ice Troll] 'Ice Troll'",
+  "locale:4213 [npc_name | - | Snow Turnips] 'Snow Turnips'",
+  "locale:4214 [npc_name | - | Crab] 'Crab'",
+  "locale:4215 [npc_name | - | Hedge Knight] 'Hedge Knight'",
+  "locale:4217 [other | - | Ice Block] 'Ice Block'",
+  "locale:4218 [npc_name | - | Unga Frostclaw] 'Unga Frostclaw'",
+  "locale:4219 [npc_name | - | Mushroom_Shambler_02 | FLAG placeholder: internal asset name] 'Mushroom_Shambler_02'",
+  "locale:4220 [other | - | Default NPC | FLAG placeholder: default placeholder name] 'Default NPC'",
+  "locale:4221 [npc_name | - | Forest Giant Boss] 'Forest Giant Boss'",
+  "locale:4223 [npc_name | - | Fungus Golem (DEPRECATED) | FLAG not_live: marked DEPRECATED] 'Fungus Golem (DEPRECATED)'",
+  "locale:4225 [npc_name | - | Mushroom_Soldier_01 | FLAG placeholder: internal asset name] 'Mushroom_Soldier_01'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [
+  "fact:item: The Yeti card Unga Frostclaw is a tournament reward. | Unga Frostclaw is a tournament reward (http://www.freerealms.com:80/article/detail.action?articleId=2815)",
+  "fact:item: The TCG has seven Yeti-named cards: Angry, Icy, Frosty, Chief, Overlord, Pounder, and Unga Frostclaw; the first five come from sets 1 and 3. | You’ll find seven different flavors: Angry , Icy , Frosty , Chief , Overlord , Pounder , and Unga Frostclaw (http://www.freerealms.com:80/article/detail.action?articleId=2815)",
+  "summary: A Free Realms TCG developer post announcing a limited-time promo: the Abominable Snowman card, given to players who enter a TCG tournament and win at least one game. It lists the Yeti cards available in the Deck Builder and where the Pounder and Unga Frostclaw (http://www.freerealms.com:80/article/detail.action?articleId=2815)"
+ ],
+ "quest_answers_naming_it": []
+}

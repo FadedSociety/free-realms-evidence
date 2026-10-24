@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-explorer-s-gloves-pl-explorer-s-gloves-965-v1-world-r2 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[14713, 12329, 8, 1493] model=claude-haiku-5-5 -->
+# {n}Explorer's Gloves{pl="Explorer's Gloves"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "Non-blocking: the 270-coin stores.json row for item 5965 is correctly not tied to this item, but the pack's 'coin_store_prices: [270]' is a client definition value with no store item id. It should not be read as a coin vendor source. I did not re-verify the stores.json row (sell 27, member 243).", "fix": "Keep sources empty until a store row names one of the Explorer's Gloves definition ids (1530, 1532, 1533, 16199-16218) as its item_id. Source: repo:prototype/osfr-tools/data/content/stores.json."}]}

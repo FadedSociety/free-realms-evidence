@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ispud-edgins-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3152, 4830, 6, 956] model=claude-haiku-5-5 -->
+# Spud Edgins
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Video support is slightly overstated. The frames tag 'Kart Driver' as a job_level on screen near the Spud Edgins nameplate, but they do not show him as a Kart Driver NPC by role. The locale 412398 objective ('Speak to Spud Edgins at Sandstorm Speedway') and the frame text (dialog 'Ah, another challenger?' at the Kart Race Lobby) do support the Sandstorm Speedway kart-race link.", "fix": "Reword to: 'Spud Edgins is the Sandstorm Speedway kart-race contact (locale:412398; video:eCjjzP3ef0E/00016.jpg shows his kart-race lobby dialog; job_level tags Kart Driver 1/2 appear near his nameplate in several frames).'"}]}

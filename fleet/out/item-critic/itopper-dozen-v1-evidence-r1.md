@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=itopper-dozen-v1-evidence-r1 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3055, 3629, 6, 870] model=claude-haiku-5-5 -->
+# Topper Dozen
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / sources", "issue": "The answer correctly reports that Topper Dozen is an NPC, not an item. I checked locale 45788 (npc_name 'Topper Dozen') and 75512 (quest_objective 'Deliver to Topper Dozen'), and the wiki page (rev 45941) has only NPC, Males, Pixie and Seaside categories with no coin, Station Cash or IGD entries. No item name match exists in the locale. The empty sources list and the quest-delivery note are supported, so the answer is true as far as it goes.", "fix": "No change to the evidence. Optionally set kind to 'npc' rather than 'other', and note that the delivery quest name is unidentified (locale 75512 only gives the objective text)."}]}

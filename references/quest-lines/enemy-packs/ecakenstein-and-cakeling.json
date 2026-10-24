@@ -1,0 +1,23 @@
+{
+ "title": "Cakenstein and Cakeling",
+ "our_entries": [
+  {
+   "file": "npcs/seaside.json",
+   "npc_id": 9500000564,
+   "zone": "Seaside",
+   "enemy_kind": "Birthday Bash boss and enemies",
+   "location_evidence": [
+    "\"Cakenstein has been spotted terrorizing several locations: Merry Vale, Seaside, Wugachug, Snowhill, Shrouded Glade, Briarwood, and Blackspore\" (105084494)"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

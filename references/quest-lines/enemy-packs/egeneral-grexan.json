@@ -1,0 +1,70 @@
+{
+ "title": "General Grexan",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\grexan_s_camp.json"
+  },
+  {
+   "file": "dungeons\\grexan_s_camp.json"
+  },
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000901,
+   "zone": "Wilds",
+   "enemy_kind": "Troll leader and boss of Grexan's Camp.",
+   "location_evidence": [
+    "The camp; the client says Briarwood (1062088120) while the wiki zone says the Northern Wilds."
+   ]
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:5357 [npc_name | - | General Grexan] 'General Grexan'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5224 [other | Hidden Valley | General Grexan] 'Spiders summoned by General Grexan in Hidden Valley'",
+  "locale:5357 [npc_name | - | General Grexan] 'General Grexan'",
+  "locale:18948 [quest_objective | - | General Grexan] 'Defeat General Grexan.'",
+  "locale:18949 [quest_dialog | - | General Grexan] \"General Grexan is the mastermind behind training the spiders of the Grexan's Camp. Defeating him should put an end to the clan's activities here.\"",
+  "locale:419071 [quest_dialog | - | General Grexan] \"You've been sent to Grexan's Camp to defeat the leader of the troll encampment, General Grexan.\"",
+  "locale:419072 [quest_dialog | - | General Grexan] \"At the rate you're going now, I'm going to be able to give some of my soldiers time off!<BR>\"",
+  "locale:419074 [quest_objective | - | General Grexan] \"Enter Grexan's Camp and defeat General Grexan.\"",
+  "locale:419075 [quest_objective | - | General Grexan] 'Defeat General Grexan'",
+  "locale:419079 [quest_dialog | - | General Grexan] \"You'll find General Grexan inside Grexan's Camp. It's tricky, I know, but something tells me you'll be able to remember.\""
+ ],
+ "client_cluster": [
+  "locale:5349 [npc_name | - | treesoldier_ice] 'treesoldier_ice'",
+  "locale:5350 [npc_name | - | troll_forest] 'troll_forest'",
+  "locale:5351 [npc_name | - | troll_ice] 'troll_ice'",
+  "locale:5352 [npc_name | - | troll_stone_grey] 'troll_stone_grey'",
+  "locale:5353 [item | - | Tasty Marshmallow] 'Tasty Marshmallow'",
+  "locale:5354 [npc_dialog | - | Tasty Marshmallow] \"Don't panic, the fire will only make you tasty and delicious.\"",
+  "locale:5355 [npc_name | - | turtle_01] 'turtle_01'",
+  "locale:5356 [npc_name | - | Troll Pathfinder] 'Troll Pathfinder'",
+  "locale:5357 [npc_name | - | General Grexan] 'General Grexan'",
+  "locale:5358 [npc_name | - | Vine Matriarch] 'Vine Matriarch'",
+  "locale:5359 [npc_name | - | Hedge Boss] 'Hedge Boss'",
+  "locale:5360 [ui | - | Holiday Cheer promo] 'Show Off Your Holiday Cheer!'",
+  "locale:5361 [ui | - | SC Marketplace promo] 'Get A Reindeer Pet, A Cool Holiday Costume Or A Fun Party Item At The SC Marketplace Today!'",
+  "locale:5362 [ui | - | Get A New Pet! promo] 'Get A New Pet!'",
+  "locale:5363 [ui | - | SC Marketplace promo] 'Unicorns, Dinosaurs, Ponies and Dragons Are Now Available In The SC Marketplace!'",
+  "locale:5364 [ui | - | Housing promo] 'Housing Is Here!'",
+  "locale:5365 [ui | - | Housing promo] 'Buy A Bigger House Or Redecorate Your Apartment!'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): General Grexan"
+ ],
+ "video": [
+  "video:1qqVwVCxjGM/00006.jpg (-): dialog: General Grexan: When we get saddles and ride into town on our spiders, you'll be sorry! General Grexan: Spiders, attack! Andrew says, \"I'd love to buy these, but I lost my wallet traveling through the hedge maze.\" | quest: Missing Wallet  Find Andrew's wallet (goal comple",
+  "video:1qqVwVCxjGM/00074.jpg (-): dialog: Whoa, scary! I'm getting out of here! I lost my wallet traveling through the hedge maze. Can you search Grexan's Camp for my wallet? | quest:   Rescue: Free all the people trapped in cocoons? Defeat General Grexan.  | other_text: Goals (2) Breaden Missing Wallet Quest Sta"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

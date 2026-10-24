@@ -1,0 +1,40 @@
+{
+ "title": "Yetis",
+ "our_entries": [
+  {
+   "file": "dungeons\\petty_yetis.json",
+   "definition_id": 930073
+  },
+  {
+   "file": "dungeons\\snowy_canyon.json",
+   "definition_id": 930073
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:3898 [quest_dialog | - | yetis] \"Boy, business just isn't the same since those yetis moved into the caves above us.<BR><BR>They come down at night and wash their feet in the springs!  It smells\"",
+  "locale:3899 [quest_dialog | - | yetis] 'Complete with milk mustache.'",
+  "locale:3901 [quest_dialog | - | yetis] 'Please go run them out! Take this torch too, will ya? You may need it to melt any ice in the way.'",
+  "locale:6330 [quest_dialog | - | yetis] 'Please tell me you are not here to complain about the price increase of turnips. Those ugly yetis keep stomping my crops and making a mess out of everything. It'",
+  "locale:116824 [quest_objective | - | Yetis] 'Take down the yetis!'",
+  "locale:116825 [quest_objective | - | Yetis] 'Defeat all of the Yetis.'",
+  "locale:388631 [quest_objective | Snowhill | Yetis] 'Defeat Yetis'",
+  "locale:388632 [quest_dialog | Snowhill | Yetis] 'Stop the Yetis from pounding the residents of Snowhill!'"
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Yeti",
+  "text": "Yetis are ape-like creatures that live primarily in the Hot Springs Haven, they enjoy rock music and penguin bowling. Like robgoblins, most yetis are mostly enemies with a few rare NPC yetis. At the moment there are no quests giving yetis.\n\nNotable Yetis\nSnowhill\nUmari\nUnga Frostclaw\nChampion Pengubowler\n\nMerry Vale\nYeti Merrymaker\n\nStillwater Crossing\nPasswind\n\nAppearances\nHot Springs Haven\nPetty Yetis!\nSnowy Canyon\nTrading Card Game Series 1\nTreasure War\n\nGallery\n\nCategory:Races\nCategory:Yeti\nCategory:Snowhill"
+ },
+ "images": [],
+ "video": [
+  "video:-zAdRWR9MtE/00036.jpg (-): other_text: Active Quests 10/30 Job Quest Started On Progress Harassing the Harassers Protect Snowhill from the wandering yetis that have been harassing travelers. Jonathon Forkp... 7/17/2012 - 0% Confronting Bigfoot Edmond and the other camp counselors can't seem to make peace w"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Contract: Colder Weather' (final): As a brawler, defeat Frosty Yetis, and Ice Trolls that wander the icy slopes Snowhill.",
+  "other target in 'Contract: Trouble in Snowhill' (final): Ree Peatpants has asked you to defeat wolves and yetis in Snowhill.",
+  "other target in 'Contract: Defending Snowhill' (final): Caleb needs all able-bodied warriors to help defend the recruit camp in Snowhill from ice trolls, yetis, and snowmen."
+ ]
+}

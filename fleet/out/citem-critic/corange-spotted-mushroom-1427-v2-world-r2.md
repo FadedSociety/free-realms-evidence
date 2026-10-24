@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=corange-spotted-mushroom-1427-v2-world-r2 status=no_submit turns=2 usd=0.0012 tokens(read,write,in,out)=[4269, 6010, 6, 835] model=claude-haiku-5-5 -->
+# Orange Spotted Mushroom
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "A lead the answer does not mention: client locale 5461 is a separate item named plain 'Spotted Mushroom'. The pack's 'client_cluster' and the answer never address it. My lookup found no evidence that it is this item's source, but it may be the mushroom the Chicory quest collects. The answer should say it was checked and ruled out, or name it as an open lead.", "fix": "Add an open item: 'locale:5461 Spotted Mushroom (plain) may be the quest-collected mushroom; relation to definition 3279 is unverified (lookup client locale:5461).'"}]}

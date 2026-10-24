@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgolden-blue-ring-66926-v2-evidence-r3 status=no_submit turns=3 usd=0.0020 tokens(read,write,in,out)=[12028, 9775, 8, 1299] model=claude-haiku-5-5 -->
+# Golden Blue Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / wiki News template claim", "issue": "The answer says the wiki Template:News mention of Golden Blue Ring is a 'client-linked item name' with no acquisition method. The only wiki hit is a placeholder, '[ring] in 2014', in a Dec 31 2013 holiday update note. The text does not show that the placeholder is this item, so the claim is an inference presented as a finding.", "fix": "Describe it as an unconfirmed possible reference: the holiday News template (Dec 31 2013) has a '[ring] in 2014' placeholder that may or may not be this item (lookup wiki page:ns10 Template:News)."}]}

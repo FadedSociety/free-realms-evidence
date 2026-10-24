@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-job-level-quest-rs-L1 status=done turns=12 usd=0.0130 tokens(read,write,in,out)=[314820, 38346, 26, 10139] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/job_level_quest.rs lines 1-1095 of 1095
+
+Window reviewed: `prototype/osfr-tools/tests/job_level_quest.rs` lines 1-1095. Most tests here are sound: the 49/10 and 49/9 frames are checked byte-for-byte or by field, the helpers (`offer`, `accept`, `assert_packet_changes_nothing`, `assert_no_offer`) assert internally, and the `real_xp`, `reload`, `refusals` and `turn-in XP` tests compare real state. Nothing is `#[ignore]`d and there is no early return. The findings below are the weak spots I could confirm.
+
+- **[medium] prototype/osfr-tools/tests/job_level_quest.rs:628-652 `a_near_cap_wallet_refuses_the_turn_in_atomically` - the refusal is only checked as `is_err()`, with no positive control showing the same 49/14 pays on a normal wallet.**
+  - Why it cannot catch a regression: any error from `handle_in_world` passes, including a parse failure, a wrong quest state, or a new unrelated refusal. A change that makes every 49/14 error out would still pass, because the state checks (`saved` unchanged, Active, pending Some(W5)) hold when nothing is paid. The test therefore does not prove the coin cap is what refused it.
+  - Fix: run the identical setup with a normal wallet and assert `Ok` plus `coins == before + 15` and `Completed` (the control). In the near-cap case, assert the error message or kind names the coin cap, not just `is_err()`.
+
+- **[low] prototype/osfr-tools/tests/job_level_quest.rs:1049-1061 and 1064-1095 `a_malformed_job_level_goal_is_a_load_error` - `load_goal` returns `false` for both a load `Err` and a loaded-but-disabled quest, so the name overclaims.**
+  - Why it cannot catch a regression: a change that loads a malformed goal as a disabled quest (for example, a fallback that sets `enabled: false` instead of erroring) would still make `load_goal` return false and pass. The clean case proves only that the scaffold loads, not that the failure is a load error. I checked `from_split_content` (quest_engine.rs:776-872): the validator at quest_engine.rs:2188-2196 does return `Err`, and `disabled` is populated only from the explicit `enabled` flag, so the test is currently correct. It is weak only against the regression above.
+  - Fix: make the helper return `Result<(), io::Error>` (or `Option<io::ErrorKind>`) and assert `is_err()` for each malformed goal and `Ok` plus `is_enabled` for the clean one, so disabled and error are separate outcomes.
+
+- **[low] prototype/osfr-tools/tests/job_level_quest.rs:391-401 and 1-595 helper `complete_with_realm_level` (line 143-154) - the developer command check accepts any 15/0/3/0 chat reply.**
+  - Why it cannot catch a regression: the reply is checked only for existence, so a chat error (for example "unknown command" or "not permitted") would pass the helper's assertion. The downstream `profile_xp` and `counts` checks catch most of this, but the helper's own message ("the developer level command answers in chat") claims more than it checks.
+  - Fix: assert the reply text names the level change (for example via `said(&level, "level")`) or assert `level.changed` in the helper.
+
+- **[low] prototype/osfr-tools/tests/job_level_quest.rs:282-298 `the_record_loads_and_offers_to_a_warrior` - the name says it offers to a Warrior, but the body only checks the Active state and count after accept, and the offer is asserted only inside the `offer` helper.**
+  - Why it cannot catch a regression: a change that offers W5 to a different profile, or that offers without the Warrior eligibility, still leaves the test's own assertions (Active, counts 0, no 49/10) passing, because the Warrior-specific part is never asserted here.
+  - Fix: assert the offer's 49/1 decode shows quest W5 and that `quest_status(&game, W5)` moved through Offered before Active, or rename the test to say it accepts at rank 1.</result>

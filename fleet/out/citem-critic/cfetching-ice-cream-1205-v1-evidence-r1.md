@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfetching-ice-cream-1205-v1-evidence-r1 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3923, 10339, 6, 1187] model=claude-haiku-5-5 -->
+# Fetching Ice Cream
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The wiki Items index entry is quoted as '[Fetching] [Some] [Ice] [Cream]'. The index text is '[Fetching] Some [Ice] [Cream]'. The answer's bracket formatting is slightly off, and the index names it 'Some Ice Cream', which is not the client name 'Fetching Ice Cream'. The answer correctly does not treat it as a source.", "fix": "Quote the index line exactly as '[Fetching] Some [Ice] [Cream]' (wiki page:ns0 Items). Note the name differs from the client name, so it is an unconfirmed lead, not a source. Open a direct check of that wiki page for acquisition text."}]}

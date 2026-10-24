@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ichase-wheeler-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3393, 5720, 6, 999] model=claude-haiku-5-5 -->
+# Chase Wheeler
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The suggestion that an item might be the 'Sweetwater Sasparilla' item from the Kart Driver series is speculation. Nothing in the pack or the client text names such an item; the only Sweetwater hit is a quest title for the sponsorship quest.", "fix": "Drop the speculative item suggestion, or label it as an unverified guess. The evidenced facts are: 'Chase Wheeler' (locale 395167) is a quest_title for an NPC at Thunder Falls Speedway, and the wiki page (rev 46768) lists no coin, Station Cash, IGD, or drop sources."}]}

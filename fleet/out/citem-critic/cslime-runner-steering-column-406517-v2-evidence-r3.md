@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslime-runner-steering-column-406517-v2-evidence-r3 status=no_submit turns=3 usd=0.0020 tokens(read,write,in,out)=[12293, 9702, 8, 1350] model=claude-haiku-5-5 -->
+# Slime Runner Steering Column
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "Minor overstatement. The sentence says the steering column 'sits in the 406517 block with these parts' and lists Chassis 7470 among the siblings, but 7470 is outside the 406xxx block. The Chassis is a sibling by name only, not by id block.", "fix": "Say the Engine, Turbo, Tires and Mod ids (406493, 406505, 406529, 406541) share the 406xxx block. Chassis 7470 (locale 7470 'Slime Runner Chassis') is a name-family sibling only. Verified against the locale table."}]}

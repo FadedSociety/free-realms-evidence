@@ -1,0 +1,29 @@
+{
+ "title": "SOE Child's Play Charity Drive",
+ "names_seen": [
+  "SOE Child's Play Charity Drive"
+ ],
+ "facts": [
+  {
+   "statement": "SOE and Child's Play ran a charity drive in Free Realms in which purchases of Child's Play items led SOE to donate money to Child's Play.",
+   "numbers": {
+    "donation_per_item_usd": 10,
+    "donation_cap_usd": 50000
+   },
+   "era": "live",
+   "quote": "Wenn ihr einen \"Child's Play\"-Gegenstand kauft, wird Sony Online Entertainment für jeden erworbenen Gegenstand $10 (bis zu $50 000) spenden.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2420",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2420",
+   "date": null,
+   "title": "\"SOE Child's Play\"-Spendenaktion",
+   "summary": "A SOE news post (German text on a Portuguese-language page wrapper) announcing the yearly SOE x Child's Play charity drive in Free Realms. Players buy Child's Play items, mainly the Snowflake unicorn mount, during December, and SOE donates $10 per item up to $50,000. The page gives a relative age ('10 months, 3 weeks ago') rather than an exact date."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

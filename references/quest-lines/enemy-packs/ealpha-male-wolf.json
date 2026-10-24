@@ -1,0 +1,40 @@
+{
+ "title": "Alpha Male Wolf",
+ "our_entries": [
+  {
+   "file": "dungeons\\sheep_watch.json",
+   "definition_id": 930050
+  },
+  {
+   "file": "dungeons\\sheep_watch.json",
+   "definition_id": 930050
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:92277 [npc_name | - | Alpha Male Wolf] 'Alpha Male Wolf'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:92277 [npc_name | - | Alpha Male Wolf] 'Alpha Male Wolf'",
+  "locale:93736 [quest_dialog | - | Alpha Male Wolf] 'The Alpha Male Wolf is furious!'"
+ ],
+ "client_cluster": [
+  "locale:92271 [quest_dialog | Snowhill | Excuses, Excuses!] 'I know I should be in school right now. Normally I would never ask anyone to lie for me, honest! But Bruce is playing a show in Snowhill today that I simply can'",
+  "locale:92272 [quest_title | Snowhill | Excuses, Excuses!] 'Excuses, Excuses!'",
+  "locale:92273 [quest_objective | Snowhill | Excuses, Excuses!] 'Milla wants to play hookey from school so she can see Bruce perform in Snowhill. She has asked you to tell her teacher, Tilda that she is too sick to come to sc'",
+  "locale:92274 [quest_dialog | Snowhill | Excuses, Excuses!] \"She needs a doctor's note? Oh no...\"",
+  "locale:92276 [npc_name | - | Alpha Female Wolf] 'Alpha Female Wolf'",
+  "locale:92277 [npc_name | - | Alpha Male Wolf] 'Alpha Male Wolf'",
+  "locale:92278 [quest_objective | Snowhill | Excuses, Excuses!] 'Tell Tilda Milla is sick'",
+  "locale:92279 [quest_objective | - | Excuses, Excuses!] 'Tilda Timidleaf teaches up at the Druid Academy.'",
+  "locale:92281 [quest_objective | Snowhill | Excuses, Excuses!] \"Return to Milla and let her know Tilda will not excuse her absence without a doctor's note.\"",
+  "locale:92282 [quest_dialog | Snowhill | Excuses, Excuses!] \"Poor Milla, I hope she feels better! Please let her know though, that without a doctor's note her absence will be unexcused.\""
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Alpha Male Wolf"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

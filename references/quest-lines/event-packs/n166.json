@@ -1,0 +1,40 @@
+{
+ "title": "Festival of Hearts Semi-Formal Dance",
+ "names_seen": [
+  "Festival of Hearts Semi-Formal Dance"
+ ],
+ "facts": [
+  {
+   "statement": "A community Festival of Hearts semi-formal dance was held on Friday February 12, 2010, billed as the first annual one, with the dress code semi-formal.",
+   "numbers": {
+    "event_day": "2010-02-12"
+   },
+   "era": "live",
+   "quote": "join us for our first annual Festival of Hearts Semi-formal dance!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=957",
+   "date": null
+  },
+  {
+   "statement": "The semi-formal dance ran on Server 1 at 3pm Pacific Time for U.S. and Latin America, which the article lists as 9:00am Pacific / 6:00pm GMT for UK and Europe (the UK/Europe entry is printed with the same Server 1 line).",
+   "numbers": {
+    "start_hour_pacific_us_latam": 15,
+    "start_hour_pacific_uk_eu": 9,
+    "start_gmt_uk_eu": 18
+   },
+   "era": "live",
+   "quote": "3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=957",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=957",
+   "date": null,
+   "title": "Community Event: Festival of Hearts Semi-Formal Dance",
+   "summary": "A Free Realms community event announcement for the first annual Festival of Hearts Semi-Formal dance, held on Friday February 12, 2010 on Server 1 at two times for US/Latin America and UK/Europe. The page also gives the in-game Game Guide calendar steps for finding community events and using the GO button to teleport to them. The post date is not shown; it is only given relative to capture ('2 days, 5 hours ago')."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

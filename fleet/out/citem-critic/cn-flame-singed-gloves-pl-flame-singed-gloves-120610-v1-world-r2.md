@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-flame-singed-gloves-pl-flame-singed-gloves-120610-v1-world-r2 status=done turns=2 usd=0.0023 tokens(read,write,in,out)=[3991, 14118, 6, 1050] model=claude-haiku-5-5 -->
+# {n}Flame Singed Gloves{pl="Flame Singed Gloves"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the community Legacy and Lxzxrus ClientItemDefinitions.json files tag the Flame Singed items with a Comment field (Flame Singed Shirt at lines 597713-597779, next to the Soot Singed block). This is a naming hint only, not a vendor, quest or price source, so it does not change the sources or the unknown status.", "fix": "Optionally cite the Comment fields in Legacy/Lxzxrus ClientItemDefinitions.json (around line 597713) as a naming-only corroboration for the Flame Singed set, and state that they give no acquisition source."}]}

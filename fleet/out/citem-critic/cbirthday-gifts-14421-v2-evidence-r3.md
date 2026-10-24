@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbirthday-gifts-14421-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4359, 6933, 6, 896] model=claude-haiku-5-5 -->
+# Birthday Gifts
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The label 'Coin Shop, category 54' is not backed by any category name in the pack. The store row only gives category_id 54, and I did not find a category table that names it as Coin Shop. Other rows in category 54 (for example 77451, 77453, 77455) have the same 100/250 coin pattern, which is consistent with a coin store, but the name itself is unverified.", "fix": "Keep the price claim, which is verified: stores.json:16676 gives item 77452, category_id 54, purchase_price_coins 250, member_price_coins 225, sell_price_coins 25, no_sale false. Either cite the category name from a source or write 'category_id 54' without the 'Coin Shop' label."}]}

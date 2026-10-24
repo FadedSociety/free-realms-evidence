@@ -1,0 +1,51 @@
+{
+ "title": "Baron von Darkcheat",
+ "names_seen": [
+  "Baron von Darkcheat"
+ ],
+ "facts": [
+  {
+   "statement": "The card game expansion's storyline says Baron von Darkcheat has a new scheme to rule all of Free Realms, opposed by a mysterious gypsy, four heroes and the most powerful card.",
+   "numbers": {},
+   "era": "live",
+   "quote": "O Baron von Darkcheat tem um novo golpe para governar todo o Free Realms!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2751",
+   "date": null
+  },
+  {
+   "statement": "The expansion's story: someone has taken the stolen runes from the Shimmering Stone and threatens all of Snowhill; players must gather clues, find the Shimmering Stone and defeat the master behind it.",
+   "numbers": {},
+   "era": "pre_launch_plan",
+   "quote": "Alguém tomou as runas roubadas da Pedra Cintilante e ameaça toda a Colina Nevada!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2361",
+   "date": "2011-11-13"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2751",
+   "date": null,
+   "title": "Free Realms - Quais são as Novidades?",
+   "summary": "A Portuguese-language Free Realms news page (captured 2012-11-03) promoting a new expansion of the Free Realms card game, centered on the villain Baron von Darkcheat and new heroes. It gives no dates, prices or numbers beyond the promotional text, so it mainly confirms the expansion's theme and that a questline duelist card was added."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2361",
+   "date": "2011-11-13",
+   "title": "Free Realms - What is New?",
+   "summary": "A Portuguese-language official Free Realms news post previewing the Free Realms Collectible Card Game (JCC) expansion Baron von Darkcheat, which was described as almost released. It introduces the expansion's story premise (stolen runes from the Shimmering Stone threaten Snowhill) and previews one Chaos-sphere card, SRS Bully, a 'progressive enhancer' that gains a bonus that grows with each gem flipped."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Card Duelist: Defenders Duty (final, live yes)",
+  "Card Duelist: Dark Deal (final, live unsure)",
+  "Card Duelist: In Search of The Baron (final, live unsure)",
+  "Card Duelist: Suspicious Sneak (final, live unsure)",
+  "Card Duelist: To Catch a Sneak (final, live unsure)",
+  "Card Duelist: Finder of Secrets (unresolved, live unsure)",
+  "Card Duelist: A Guide to The Baron (final, live unsure)",
+  "Card Duelist: Master Explorer (final, live unsure)",
+  "Card Duelist: Confronting The Baron (final, live unsure)",
+  "Card Duelist: Baron von Darkcheat (unresolved, live yes)"
+ ]
+}

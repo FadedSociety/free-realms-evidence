@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-light-ring-96416-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3577, 5654, 6, 895] model=claude-haiku-5-5 -->
+# Shiny Light Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources, retired null, live unsure. I found no wiki, article, video, vendor, quest, or repo evidence for locale:96416 or definition 31010. A lookup on 'Shiny Light Ring' returns only the client locale line. The locale search for 'Shiny' and 'Void Ring' turns up no ring vendor or quest line that names this item or its family. The answer correctly drops the first-pass 'collection' guess.", "fix": "No change to the answer is needed. Keep sources empty and live as unsure, and flag the item for a check against the client's collection or achievement tables near definition 31010, as the answer's open list already says."}]}

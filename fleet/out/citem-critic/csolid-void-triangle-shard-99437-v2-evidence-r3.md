@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csolid-void-triangle-shard-99437-v2-evidence-r3 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4358, 10056, 6, 1187] model=claude-haiku-5-5 -->
+# Solid Void Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[5].claim", "issue": "The answer names the source of the Shimmering Air Triangle Shard as 'Peep's Missing Bowl'. The cited frame video:3JXpHghLOTs/00014.jpg reads 'Posy's Missing Bowl Quest Completed! You receive 1 Shimmering Air [Triangle] [Shard]' (Farnum Farmstead, Uncle Irving). The quest name is wrong. It does not change the verdict because the claim is only a non-evidence aside.", "fix": "Change 'Peep's Missing Bowl' to 'Posy's Missing Bowl' (video:3JXpHghLOTs/00014.jpg, Farnum Farmstead)."}]}

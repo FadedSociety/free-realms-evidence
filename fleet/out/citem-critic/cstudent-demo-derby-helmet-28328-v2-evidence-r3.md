@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstudent-demo-derby-helmet-28328-v2-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3541, 6678, 6, 1197] model=claude-haiku-5-5 -->
+# Student Demo Derby Helmet
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / open", "issue": "The Demolition Derby Driver note's [client] Student Demo Derby row (line 183) lists helmet sample 891680963, not 28328 or 14481. The answer does not conflate them, but it should say the note's helmet is a different id that is not linked to 28328. The claim about job rank labels Novice/Intermediate/Advanced (line 193) was not re-checked here.", "fix": "Keep sources empty. Note that notes/Build Guides/Content/Jobs/Demolition Derby Driver.md:183 names helmet sample 891680963, which is not id-linked to locale 28328 or definition 14481."}]}

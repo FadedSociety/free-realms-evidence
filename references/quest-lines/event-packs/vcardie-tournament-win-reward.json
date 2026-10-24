@@ -1,0 +1,28 @@
+{
+ "title": "Cardie tournament win reward",
+ "names_seen": [
+  "Cardie tournament win reward"
+ ],
+ "facts": [
+  {
+   "statement": "Winning one game in a TCG tournament between April 11-14 earns the Card Champion's Sack.",
+   "numbers": {
+    "games_to_win": 1
+   },
+   "era": "live",
+   "quote": "Win one game in a tournament between the 11th-14th and get the Card Champion's Sack!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2912",
+   "date": "2013-04-10"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2912",
+   "date": "2013-04-10",
+   "title": "Outfit Your Cardie in Style This Weekend!",
+   "summary": "A freerealms.com news post announcing a weekend login reward promotion for the Trading Card Game (TCG) running April 11-14, 2013. Each Cardie item is tied to one specific day, and a tournament win gives a bonus item; all rewards are once per account. The post date is inferred from the page's relative timestamp ('3 days ago' at a 2013-04-13 capture), so it is approximate."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

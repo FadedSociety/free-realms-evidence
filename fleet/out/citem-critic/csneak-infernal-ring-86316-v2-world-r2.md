@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csneak-infernal-ring-86316-v2-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4087, 8389, 6, 1047] model=claude-haiku-5-5 -->
+# Sneak Infernal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim that Kai's Infernal Ring is locale 86487 at quest-lines/npc-packs.json:52106 was not verified in my pass. It is only used to suggest NPC-linked rewards, and the answer correctly says it does not tie the Sneak ring to any source, so it does not change the result.", "fix": "Verify quest-lines/npc-packs.json:52106 before relying on it; otherwise drop the NPC-family inference. Sources stay empty, since no evidenced vendor, quest, drop or event names locale 86316 (my lookups of refs, repo, client and wiki found only the client name line and the locale-dump copies)."}]}

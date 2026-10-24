@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwhite-feather-1451-v1-world-r2 status=no_submit turns=2 usd=0.0021 tokens(read,write,in,out)=[3577, 12821, 6, 888] model=claude-haiku-5-5 -->
+# White Feather
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the feather and spring cluster 'reads as one collection family' is an inference from shared description text. The cited quest-lines/citem-packs.json entry was not re-checked here.", "fix": "Label it as an inference from the shared 'can be added to a collection' description, not as a sourced fact. The client text confirms only the shared description and names (locales 1446-1456)."}, {"field": "live", "issue": "'unsure' is the right call. A client definition alone does not show the item was obtainable.", "fix": "Keep 'unsure' until a vendor, quest, drop or event names the item."}]}

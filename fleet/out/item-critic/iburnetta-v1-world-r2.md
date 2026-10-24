@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iburnetta-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3058, 4891, 6, 971] model=claude-haiku-5-5 -->
+# Burnetta
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Mae Farnum vendor claim for 'Burnetta's Curious Creation' is repeated in the open notes but is not in the evidence pack. The pack has no vendor row, price or currency for it. The client has locale:38650 (item), locale:1515 (recipe) and locale:73257 tagged 'NOT LIVE - Burnetta's Curious Creation', so that item's liveness is contested and it is not a source for the NPC 'Burnetta'.", "fix": "Keep it as an unverified lead only. Do not attach it as a source of item 'Burnetta' until a separate pack supplies the vendor page, price, currency and live status for 'Burnetta's Curious Creation'. Note the locale:73257 'NOT LIVE' tag."}]}

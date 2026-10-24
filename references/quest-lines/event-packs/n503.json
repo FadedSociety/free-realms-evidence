@@ -1,0 +1,30 @@
+{
+ "title": "Free Realms Birthday (Triple Station Cash)",
+ "names_seen": [
+  "Free Realms Birthday (Triple Station Cash)"
+ ],
+ "facts": [
+  {
+   "statement": "For Free Realms' birthday, players who logged in on 4/28/2012 received a free Birthday Cake Hat, and Station Cash purchases were tripled for that day.",
+   "numbers": {
+    "bonus_multiplier": 3,
+    "valid_from_PDT_hour": 0,
+    "valid_until_PDT_date_exclusive": "2012-04-29"
+   },
+   "era": "live",
+   "quote": "Get a FREE Birthday Cake Hat by logging into Free Realms today!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2578",
+   "date": "2012-04-28"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2578",
+   "date": "2012-04-28",
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com news post announcing a 4/28/2012 Free Realms birthday event: a free Birthday Cake Hat for logging in that day, and triple Station Cash on purchases during a 24-hour window. The post is a short promo; it gives no quest, item-stat, or price details beyond the bonus terms."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

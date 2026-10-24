@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icounselor-tyra-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3368, 7899, 6, 1069] model=claude-haiku-5-5 -->
+# Counselor Tyra
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / sources", "issue": "Counselor Tyra is an NPC, not a purchasable or collectible item. The answer correctly records no sources, but the entry should not sit in the item list at all. The answer does not say it should be dropped from the item list, and it leaves live as 'unsure' when the question is really whether this is an item.", "fix": "Mark as not an item (NPC name, locale 428932 npc_name) and remove it from the item acquisition list. Evidence: wiki Counselor_Tyra (rev 50173) categories NPC, Enemies, Quest Givers; client locale 428932 is npc_name; lookup shows her only as a quest giver/target (Meet and Greet, Defensive Strategy, Bigfoot Thrash, Bigfoot's Lair, Bigfoot Defender)."}]}

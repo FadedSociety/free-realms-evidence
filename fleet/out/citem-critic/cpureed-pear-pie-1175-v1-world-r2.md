@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpureed-pear-pie-1175-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3826, 9884, 6, 1040] model=claude-haiku-5-5 -->
+# Pureed Pear Pie
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] (Bark Chocolate wiki precedent)", "issue": "The claim that the wiki has a transformation-food tooltip precedent for Bark Chocolate (illusion dog, 30 minutes, Cannot Sell/Trade) is not supported by my lookup: a cat-illusion/transform query across client, wiki, articles and video returned no matches, and the evidence pack lists no wiki image for it. It is cited only as an image name.", "fix": "Drop the Bark Chocolate precedent or cite a verified wiki page or image. Only the client-backed facts stand: locale:1175 name, locale:2728 tooltip ('change the player into a cat for thirty minutes'), and the locale:1170-1180 name cluster."}]}

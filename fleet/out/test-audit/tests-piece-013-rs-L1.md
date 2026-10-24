@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-piece-013-rs-L1 status=done turns=5 usd=0.0063 tokens(read,write,in,out)=[30628, 22985, 12, 6216] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_013.rs lines 1-171 of 171
+
+Window: `prototype/osfr-tools/tests/piece_013.rs` lines 1-171. I read the window in full and the code under test in `src/restoration/piece_013.rs` (`classify_phases`, `check_content`, `check_payload_surface`, the constants). I hand-checked the expected `Origin` values in `prepared_content_classifies_recovered_and_reconstructed_cells` against the branches in `classify_phases`; they match, so that test is not tautological. The ignored `private_prepared_content_is_conformant` has a reason string and is not silently skipped.
+
+- **[medium] prototype/osfr-tools/tests/piece_013.rs:136 payload_surface_rejects_messages_the_movie_never_sends - the test checks a hand-written literal list against the constant, not the messages the Rust layer actually handles.**
+  - Why it cannot catch a regression: the `handled` array at lines 137-152 is typed into the test. Any change to the real dispatch code, such as a new `FRServer_*` arm in `src/smelting.rs` (around lines 421 and 491) or `src/cooking.rs`, that acts on a message the movie never sends would not be seen. The rejection half only proves `check_payload_surface` rejects one invented string (line 154). The name and the doc on `check_payload_surface` ("every message the Rust layer acts on") claim more than that.
+  - Fix: derive the handled list from the actual dispatch code (or a shared constant that the dispatch match uses) and assert each entry is in `CLIENT_TO_SERVER_MESSAGES`. Alternatively, rename the test to say it checks the test's own list.
+
+- **[medium] prototype/osfr-tools/tests/piece_013.rs:105-106 contradictory_rows_are_rejected - the error branch only asserts the message is non-empty, so the reason for each rejection is never checked.**
+  - Why it cannot catch a regression: a change that rejects the row for an unrelated reason still passes. For example, the "non-positive heat goal" row could fail on a `stage_type` or length error instead of the `data[0] <= 0` check at `src/restoration/piece_013.rs:349`, and the test would still pass. The label names a specific rule, but the body does not check it.
+  - Fix: assert `error.contains(...)` with a fragment specific to each rule. Use "unknown" or "1-5" for the ore case (line 256), "1-100" for the measure case (line 312), "not positive" for the heat and spill cases (lines 350 and 363), and "precision" for the perfect-precision case, as the last block at lines 109-115 already does.
+
+- **[low] prototype/osfr-tools/tests/piece_013.rs:131-132 wrong_phase_count_or_order_is_rejected - `contains("11")` matches almost any message.**
+  - Why it cannot catch a regression: the error text is a serde message ("invalid length 3, expected an array of length 11"). Any error containing the digits "11" passes, and so does a change in the expected length that keeps the digits. The phase-count check at line 122 is also only `is_err()`, so it would pass on any error.
+  - Fix: assert the full serde phrase ("expected an array of length 11") or a `phases.len()` error string such as "expected 4 phase rows, found 3" for line 122.
+
+- **[low] prototype/osfr-tools/tests/piece_013.rs:43-44 recovered_movie_tables_are_present - the exact table lengths (15 and 8) pin the surface to a count, not the entries.**
+  - Why it cannot catch a regression: a reorder, rename, or swap of one message, with the count unchanged, passes. Conversely, an unrelated addition to the list fails the test even when the behaviour under test is unaffected. The count is incidental to what the test is about, which is that the recovered movie constants are present.
+  - Fix: assert membership of the specific entries that matter (for example `FRServer_GameWon` and `OnPhaseDataMsg`) and drop the bare `len()` checks, or keep the length check in the payload-surface test where it belongs.

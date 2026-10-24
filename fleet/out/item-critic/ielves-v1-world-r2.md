@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ielves-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3560, 10111, 6, 1225] model=claude-haiku-5-5 -->
+# Elves
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The vendors_unresolved.json:5946 hit is misdescribed. Line 5946 is inside an Edwin NPC research record (w118_research.wiki_mention_pages), a list of wiki pages that mention Edwin. It is not an unresolved vendor stock row naming an Elves item. The answer's own open note hedges on this, but the evidence line states the wrong thing.", "fix": "Describe it as: vendors_unresolved.json:5946 is a wiki_mention_pages entry ('Elves') in Edwin's research block, i.e. a page-mention, not stock. Client search confirms no item named Elves: client hits are npc_dialog/quest_dialog only (locale:45141-45148), and the wiki hits are race, category and character pages."}]}

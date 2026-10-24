@@ -1,0 +1,35 @@
+{
+ "title": "Grave Elementals",
+ "our_entries": [
+  {
+   "file": "dungeons\\bone_bog_cemetery.json",
+   "definition_id": 930011
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Grave Elemental",
+  "text": "Were you look for the pet pal?\n\nThe Grave Elemental is an enemy NPC that appears throughout Blackspore Swamp.\n\nBattle\nGrave Elementals can be found wandering in Blackspore Swamp. They are featured in the Bone Bog Cemetery. They also feature at Super Spooktacular when the Pumpkin Prince arrives. Sometimes the Pumpkin Prince will spawn a spawner which will spawn hostiles such as Grave Elementals and Necrowart Zombies.\n\nAppearances\nHaunted by the Past\nBone Bog Cemetery\nTrading Card Game Series 4\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Blackspore\nCategory:Seasonal\nCategory:Super Spooktacular\nCategory:Trading Card Game"
+ },
+ "images": [
+  "image (image:world_screenshot): RIP"
+ ],
+ "video": [
+  "video:oTsYJ8Uq_Jc/00002.jpg (-): quest: Haunted by the Past  Save Eggert the Mad from the Grave Elementals.  | job_level: Ninja 20 | other_text: Grave Elemental (enemy health bar, level 5)",
+  "video:oTsYJ8Uq_Jc/00046.jpg (-): quest: Haunted by the Past  Save Eggert the Mad from the Grave Elementals.  | job_level: Ninja 20 | other_text: Grave Elemental (enemy health bar, level 4)",
+  "video:oTsYJ8Uq_Jc/00000.jpg (-): quest: Haunted by the Past  Save Eggert the Mad from the Grave Elementals.  | job_level: Ninja 20 | other_text: Haunted by the Past Grave Elemental Goals (1)",
+  "video:oTsYJ8Uq_Jc/00074.jpg (-): quest:   Save Eggert the Mad from the Grave Elementals.  | landmarks: dark swamp teal grass tall dead tree | job_level: Ninja 20 | other_text: Haunted by the Past Goals (1)",
+  "video:oTsYJ8Uq_Jc/00032.jpg (-): npcs: Eggert the Mad nameplate  | quest: Haunted by the Past  Save Eggert the Mad from the Grave Elementals.  | job_level: Ninja 20 | other_text: Grave Elemental (enemy health bar, level 4)"
+ ],
+ "article_facts": [
+  "fact:location: Blackspore Swamp holds Tormented Spirits (source of opal gems), Poisondart Polliwogs with Poison Cure frogs, and Grave Elementals that must have their bone clusters destroyed first. | Grave Elementals in Blackspore Swamp. ... destroying all the bone clusters o (http://www.tentonhammer.com:80/node/69770)",
+  "fact:combat: Among the gravestones and mausoleums of the Crumbling Cemetery, players find grave elementals and tormented spirits that attack anyone who wanders near. | tu trouveras d'élémentaires graves et d'esprits tourmentés (http://www.freerealms.com/article/detail.action?articleId=538)",
+  "fact:quest: Natali asks for Poisondart Polliwog poison and Elemental Guardian ice shards (Misty Mountain, Shrouded Glade) at levels 10-15, and life and undead magic samples (Mugwort's Hollow, Blackspore Swamp Grave Elementals) at levels 15-20. | some ice shards from the E (http://www.tentonhammer.com:80/node/69770)"
+ ],
+ "quest_answers_naming_it": [
+  "other target in 'Chapter 1: Haunted by the Past' (final): hidden objective for defeating all grave elementals"
+ ]
+}

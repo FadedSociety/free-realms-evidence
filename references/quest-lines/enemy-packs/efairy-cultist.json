@@ -1,0 +1,80 @@
+{
+ "title": "Fairy Cultist",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 441992,
+   "definition_id": 930010,
+   "model_id": 500,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 441992,
+   "definition_id": 930010,
+   "model_id": 500,
+   "max_health": 140,
+   "damage": 11,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 441992,
+   "definition_id": 930010,
+   "model_id": 500,
+   "max_health": 140,
+   "damage": 11,
+   "boss": false
+  },
+  {
+   "file": "dungeons\\pixie_hunters.json",
+   "definition_id": 930010
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:440727 [npc_name | - | Fairy Cultist] 'Fairy Cultist'",
+  "locale:441992 [npc_name | - | Fairy Cultist] 'Fairy Cultist'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:440727 [npc_name | - | Fairy Cultist] 'Fairy Cultist'",
+  "locale:441992 [npc_name | - | Fairy Cultist] 'Fairy Cultist'"
+ ],
+ "client_cluster": [
+  "locale:440719 [npc_name | - | Stompenmugg] 'Stompenmugg'",
+  "locale:440720 [npc_name | - | Thugawug Saboteur] 'Thugawug Saboteur'",
+  "locale:440721 [npc_name | - | Ninja Apprentice] 'Ninja Apprentice'",
+  "locale:440722 [npc_name | - | Ninja Ambusher] 'Ninja Ambusher'",
+  "locale:440723 [npc_name | - | Ninja Deceiver] 'Ninja Deceiver'",
+  "locale:440724 [npc_name | - | Jintaka] 'Jintaka'",
+  "locale:440725 [npc_name | - | Ninja Sensei] 'Ninja Sensei'",
+  "locale:440726 [npc_name | - | Cultist Initiate] 'Cultist Initiate'",
+  "locale:440727 [npc_name | - | Fairy Cultist] 'Fairy Cultist'",
+  "locale:440728 [npc_name | - | Monsterous Necrowart] 'Monsterous Necrowart'",
+  "locale:440729 [npc_name | - | Necronomicus] 'Necronomicus'",
+  "locale:440730 [npc_name | - | Gloam Lord of Necromancy] 'Gloam Lord of Necromancy'",
+  "locale:440731 [npc_name | - | Icewolf Forager] 'Icewolf Forager'",
+  "locale:440732 [npc_name | - | Icewolf Howler] 'Icewolf Howler'",
+  "locale:440733 [npc_name | - | Icewolf Pack Leader] 'Icewolf Pack Leader'",
+  "locale:440734 [npc_name | - | Chilblaine] 'Chilblaine'",
+  "locale:440735 [npc_name | - | Icewolf Pack Alpha] 'Icewolf Pack Alpha'"
+ ],
+ "wiki": {
+  "title": "Fairy Cultist",
+  "text": "The Fairy Cultist is a fairy enemy NPC that can be found in Merry Vale.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Fairy\nCategory:Merry Vale"
+ },
+ "images": [],
+ "video": [
+  "video:Oa-JwM60kJQ/00022.jpg (-): npcs: Verna nameplate  Aida Humblehoop nameplate  | landmarks: Cooking Table | job_level: Adventurer 13 | other_text: Fairy Cultist (red marker, 49m) Fairy Cultist (red marker, 94m) Cooking Table (38m) Upgrade!",
+  "video:Oa-JwM60kJQ/00030.jpg (-): other_text: HyperCam 3.0 Record Options Region Fullscreen Window Select Window Pause Stop Recent records Screen notes Register About Fairy Cultist (red marker, 20m) Fairy Cultist (red marker, 100m)",
+  "video:Oa-JwM60kJQ/00018.jpg (-): npcs: Aida Humblehoop nameplate  | landmarks: Cooking Table (13m) | job_level: Adventurer 13 | other_text: Cooking Table (13m, purple marker) Fairy Cultist (red marker, 59m) Fairy Cultist (red marker, 13m, partly hidden) Upgrade!",
+  "video:p5sDafXSQtQ/00100.jpg (-): npcs: Verna nameplate  | job_level: Adventurer 20 | other_text: Fairy Cultist",
+  "video:p5sDafXSQtQ/00128.jpg (-): npcs: Verna nameplate  | landmarks: sunflowers pink flower stalks | job_level: Adventurer 20 | other_text: Fairy Cultist Love Potion"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "other target in 'Contract: Thinning Their Numbers' (final): Handle the fairy cultists and robgoblin fishmongers nearby; the pixies of the Pixie Nursery are being threatened. No cou"
+ ]
+}

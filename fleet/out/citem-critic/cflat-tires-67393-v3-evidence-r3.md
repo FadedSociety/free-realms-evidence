@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cflat-tires-67393-v3-evidence-r3 status=no_submit turns=2 usd=0.0015 tokens(read,write,in,out)=[3857, 6476, 6, 1262] model=claude-haiku-5-5 -->
+# Flat Tires
+
+{"lens": "evidence", "pass": false, "wireable": false, "score": 3, "problems": [{"field": "open[4]", "issue": "The automatic id check flags locale:3390796772 as nonexistent. The entry says it was 'removed', yet the id is still written into the answer. The lookup confirms no such id: locale 67393 is 'Flat Tires', 67588 is 'Derby Driver Tires', 132479 is the 'can be added to the Derby Driver Tires Collection' description, and 67700 is the collection text.", "fix": "Delete locale:3390796772 from open[4] entirely. Keep the verified citations: name locale:67393, description locale:132479, collection name locale:67588, collection text locale:67700, and the repo note 'Demolition Derby Driver.md' line 215, which lists Derby Driver Tires (2129583338)."}]}

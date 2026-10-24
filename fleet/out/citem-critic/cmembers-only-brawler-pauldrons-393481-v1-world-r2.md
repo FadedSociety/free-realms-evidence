@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmembers-only-brawler-pauldrons-393481-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4048, 10538, 6, 841] model=claude-haiku-5-5 -->
+# Members Only Brawler Pauldrons
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The open entry says 'Membership packs, the Members Only New House Package and the Blacksmith Membership Upgrade Bundle are real membership sources elsewhere'. No source in the evidence pack names either pack, so this is asserted without support, though it is framed as context and not as a source for this item.", "fix": "Either cite a source for those pack names (locale or wiki page) or drop the sentence. It does not change the item's source list, which correctly stays empty."}]}

@@ -1,0 +1,50 @@
+{
+ "title": "SOE Super Fan Holidays",
+ "names_seen": [
+  "SOE Super Fan Holidays"
+ ],
+ "facts": [
+  {
+   "statement": "SOE Super Fan Holidays sale ran from 29 November at 09:00 Pacific Time until 3 December at 18:00 Pacific Time.",
+   "numbers": {
+    "start_hour_PT": 9,
+    "end_hour_PT": 18,
+    "start_day": 29,
+    "end_day": 3
+   },
+   "era": "live",
+   "quote": "desde el 29 de noviembre comenzando a las 09:00 hrs Tiempo Pacifico hasta el 3 de diciembre terminando a las 18:00 hrs",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1939",
+   "date": null
+  },
+  {
+   "statement": "Station Cash discounts ran from 9am PST November 29 until 6pm PST December 3 (2010).",
+   "numbers": {
+    "start_hour_pst": 9,
+    "end_hour_pst": 18,
+    "start_day": 29,
+    "end_day": 3
+   },
+   "era": "live",
+   "quote": "you can get great discounts on Station Cash between 9am PST November 29th and 6pm PST December 3rd",
+   "article": "http://www.freerealms.com:80/article/detail.action?cid=EM4400&articleId=1933",
+   "date": "2010-11-25"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1939",
+   "date": null,
+   "title": "SOE Super Fan Holidays",
+   "summary": "A Spanish-language Free Realms news post announcing SOE's Super Fan Holidays sale, running from 29 November at 09:00 Pacific Time to 3 December at 18:00 Pacific Time. It lists Station Cash discounts for everyone and an extra in-game discount tier for members, including a 30% discount on the dragon transport. The post gives no year, and the capture date and 'posted 6 months, 5 days ago' label only suggest late November 2010."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?cid=EM4400&articleId=1933",
+   "date": "2010-11-25",
+   "title": "Free Realms - What is New? (SOE Super Fan Holidays)",
+   "summary": "A late-November 2010 SOE news post announcing the Super Fan Holidays sale for Free Realms, running from 9am PST November 29 to 6pm PST December 3, 2010. It lists Station Cash discounts for online credit card/PayPal purchases and a 30% in-game discount on Station Cash items for Members. The date is inferred from the 'posted 4 days, 16 hours ago' relative stamp and the capture date, so it is approximate."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,90 @@
+{
+ "title": "Wolf",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 374,
+   "definition_id": 930071,
+   "model_id": 3284,
+   "max_health": 90,
+   "damage": 5,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 374,
+   "definition_id": 930071,
+   "model_id": 3284,
+   "max_health": 90,
+   "damage": 5,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 374,
+   "definition_id": 930071,
+   "model_id": 3284,
+   "max_health": 90,
+   "damage": 5,
+   "boss": false
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:374 [item | - | Wolf] 'Wolf'",
+  "locale:6270 [npc_name | - | Wolf] 'Wolf'",
+  "locale:6286 [npc_name | - | wolf | FLAG dev_note: lowercase internal asset-style id] 'wolf'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:374 [item | - | Wolf] 'Wolf'",
+  "locale:375 [item | - | Wolf] \"You'll be in dire need of this wolf ride when winter comes.\"",
+  "locale:6270 [npc_name | - | Wolf] 'Wolf'",
+  "locale:6286 [npc_name | - | wolf | FLAG dev_note: lowercase internal asset-style id] 'wolf'",
+  "locale:28268 [other | - | Wolf] 'Wolf Special!'",
+  "locale:28269 [other | - | Wolf] 'For a limited time only, save 40% on a Wolf. Priority 25. Bundle Sale.'",
+  "locale:28294 [ui | - | Wolf] 'Wolf Special!'",
+  "locale:28295 [ui | - | Wolf] 'For a limited time only, save 40% on a Wolf. Priority 175. Bundle Sale.'"
+ ],
+ "client_cluster": [
+  "locale:366 [npc_name | - | Reggie Skylight] 'Reggie Skylight'",
+  "locale:367 [item | - | Fast Blast Quiver] 'Fast Blast Quiver'",
+  "locale:368 [item | - | Riding Pants] 'Riding Pants'",
+  "locale:369 [item | - | Dobo Dankins' Sick Kicks] \"Dobo Dankins' Sick Kicks\"",
+  "locale:372 [item | - | Bat] 'Bat'",
+  "locale:373 [item | - | Bat] 'Hang out with the battiest ride in the Realms.'",
+  "locale:374 [item | - | Wolf] 'Wolf'",
+  "locale:375 [item | - | Wolf] \"You'll be in dire need of this wolf ride when winter comes.\"",
+  "locale:376 [quest_title | - | Meet Merigold] 'Meet Merigold'",
+  "locale:377 [quest_objective | - | Meet Merigold] 'Welcome to Free Realms, visit Merigold to get started!'",
+  "locale:378 [item | - | Kangaroo] 'Kangaroo'",
+  "locale:379 [item | - | Kangaroo] 'Hop around the Realms in your Kangaroo ride. This ride was unlocked from a Mystery Chest.'",
+  "locale:380 [quest_objective | - | Meet Merigold] 'Visit Merigold to get started in Free Realms!'",
+  "locale:381 [item | - | Amateur Archer Quiver] 'Amateur Archer Quiver'",
+  "locale:382 [ui | - | Thanks for playing Free Realms! (daily login message)] 'Thanks for playing Free Realms! Come back tomorrow to receive a Turtle Pet Pal and a Super Star Booster!'"
+ ],
+ "wiki": {
+  "title": "Wolf",
+  "text": "The Wolf is a non-winged ride that is available to everyone for purchase through the SC Marketplace at the regular price of , and to Members at the 10% discount price of .\n\nGallery\n\nCategory:Rides\nCategory:Non-Winged Ride\nCategory:Wolves\nCategory:SC Marketplace\nCategory:Marketplace Items"
+ },
+ "images": [
+  "image (image:character_or_npc): Alpha Male Wolf",
+  "image (image:character_or_npc): Alpha Female Wolf\nSheep",
+  "image (image:item_render): FreeRealms\nWolf T-Shirt\nYou tend to think of yourself as a one man wolf pack.\n2L30"
+ ],
+ "video": [
+  "video:fktAs_GRrjM/00634.jpg (Tavern Cellar): quest:   Defeat Cal, leader of the hooligans. Bonus: Find and destroy all the brawl club ? - 0/4  | landmarks: wooden wolf house stone fire pit | other_text: Wolf House Attack the wolf house to stop the wolves from coming!",
+  "video:bLxqx_aCizY/00108.jpg (-): landmarks: large tree trunk | job_level: Brawler 7 | other_text: Brugo Alpha Wolf",
+  "video:fktAs_GRrjM/00632.jpg (Tavern Cellar): quest:   Defeat Cal, leader of the hooligans. Bonus: Find and destroy all the brawl club ? - 0/4  | landmarks: cave walls wooden wolf house | other_text: Attack the wolf house to stop the wolves from coming! Goals",
+  "video:bLxqx_aCizY/00110.jpg (-): landmarks: large tree trunk at top | job_level: Brawler 7 | other_text: Alpha Wolf",
+  "video:Ml2qwkrJtR4/00038.jpg (-): npcs: Mungo nameplate  Voggun nameplate  | job_level: Adventurer 20 | other_text: Active Quest! Alpha Wolf"
+ ],
+ "article_facts": [
+  "fact:item: Wolf Vine Golem is a 2-cost Nature creature card with 3 attack and 3 defense, described as a flexible card for Nature decks. | Wolf Vine Golem is an incredibly flexible and efficient 2-cost creature (http://www.freerealms.com:80/article/detail.action?articleId=193)",
+  "fact:npc: Frostfang Wolves are white wolves that roam the slopes around Snowhill and are more aggressive inside the caverns. | The Frostfang Wolf is the most legendary. These white wolves prowl the slopes around Snowhill. (http://www.freerealms.com:80/article/detail.action?articleId=75)",
+  "fact:mechanic: Wolf Vine Golem gives its controller an extra star in every battle involving it, enabling stronger star tricks a turn earlier. | The first gives you an extra star in every battle involving him. (http://www.freerealms.com:80/article/detail.action?articleId=193)",
+  "fact:mechanic: Wolf Vine Golem has a power-up ability: matching a yellow gem lets it take revenge on the creature that defeated it in combat, stunning that creature. | Just match that yellow gem ... and have your revenge on the creature with the nerve to beat you in combat. (http://www.freerealms.com:80/article/detail.action?articleId=193)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Fighting the Pack' (final): Learn how to use your weapon by fighting Hooligan Wolves."
+ ]
+}

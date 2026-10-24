@@ -1,0 +1,47 @@
+{
+ "title": "Thugawugs",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\thugawug_sneak.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:20574 [quest_title | - | Thugawugs] 'Thugawugs'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5127 [quest_objective | Bandit Hideout | Thugawugs] 'Beware of Thugawugs in the area. They are giving all us chugawugs a bad name. How would ya like to go rough them up a little? Defeat five Thugawugs in the Bandi'",
+  "locale:9713 [quest_dialog | - | Thugawugs] 'They were all robbed by Thugawugs? I still want my money! Hmm, maybe I can think of another way to get my money back...'",
+  "locale:20574 [quest_title | - | Thugawugs] 'Thugawugs'",
+  "locale:20575 [quest_objective | - | Thugawugs] 'The thugawugs are giving chugawugs everywhere a bad name. Go into the Bandit Hideout and defeat the bandits.'",
+  "locale:20577 [quest_objective | - | Thugawugs] 'Defeat Bandit Guards in the Bandit Hideout. Return to Lugabow when done.'"
+ ],
+ "client_cluster": [
+  "locale:20566 [quest_title | - | A Fancy Meal for Glugmort] 'A Fancy Meal for Glugmort'",
+  "locale:20567 [quest_dialog | - | A Fancy Meal for Glugmort] 'Burnetta needs some eggs from Danger Peaks to make a special dish for Glugmort.'",
+  "locale:20569 [quest_objective | - | A Fancy Meal for Glugmort] 'Collect some eggs from Danger Peaks and return to Burnetta when done.'",
+  "locale:20572 [quest_dialog | - | A Fancy Meal for Glugmort] 'Now that Glugmort realizes my cooking is not so bad, I want to make him the best dish ever. Only problem is I am out of eggs.'",
+  "locale:20573 [quest_dialog | - | A Fancy Meal for Glugmort] 'Think you could scuttle on over to Danger Peaks and get me five eggs. The birds there should have some.'",
+  "locale:20574 [quest_title | - | Thugawugs] 'Thugawugs'",
+  "locale:20575 [quest_objective | - | Thugawugs] 'The thugawugs are giving chugawugs everywhere a bad name. Go into the Bandit Hideout and defeat the bandits.'",
+  "locale:20577 [quest_objective | - | Thugawugs] 'Defeat Bandit Guards in the Bandit Hideout. Return to Lugabow when done.'",
+  "locale:20580 [quest_objective | - | A Bandit's Life] 'Defeat hooligans to get back the cards'",
+  "locale:20581 [quest_objective | - | A Bandit's Life] 'Knock out Highroad Hooligans to get Cards back from them.'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:art_or_promo): ONE TIME A SPORTSCASTER PREDICTED\nTHAT FREDDY FOXBERRY WAS GOING TO BEAT\nTAZ. THE NEXT DAY A BUNCH OF THUGAWUGS\nROUGHED FREDDY UP. COINCIDENCE?"
+ ],
+ "video": [
+  "video:pvBqJO3H0gM/00024.jpg (-): npcs: Royal Courier nameplate  | dialog: These thugawugs stole my bag! It has an important message for Queen Valerian that I need to deliver! | quest: Local Hero Royal Courier   | job_level: Adventurer 20 | other_text: Press X or mouse Power Hour! 2x Coins Now!",
+  "video:pvBqJO3H0gM/00028.jpg (-): npcs: Royal Courier nameplate  | dialog: These thugawugs stole my bag! It has an important message for Queen Valerian that I need to deliver! I'm no fighter, will you defeat these thugs and return the message to me? | quest: Local Hero Royal Courier   | other_text: Yes, I accept!",
+  "video:pvBqJO3H0gM/00000.jpg (-): npcs: Royal Courier nameplate  | dialog: These thugawugs stole my bag! It has an important message for Queen Valerian that I need to deliver! I'm no fighter, will you defeat these thugs and return the message to me? | quest: Local Hero Royal Courier   | job_level: Adventurer 20 |",
+  "video:pvBqJO3H0gM/00026.jpg (-): npcs: Royal Courier nameplate  Thugawug Thug nameplate  | dialog: These thugawugs stole my bag! It has an important message for Queen Valerian that I need to deliver! I'm no fighter, will you defeat these thugs and return the message to me? | quest: Local Hero Royal Courier   | j",
+  "video:92VCAHXkLGQ/00016.jpg (Danger Peaks): dialog: are training birds to fight, but they may also be working with the Thugawugs! Could you defeat several ninjas in Danger Peaks? Perhaps, then they'll let us be. | quest: Bad Ninjas  Defeat Shadow Talon Ninjas - 1/10 Defeat Taka, leader of the Shadow Talon ninja.  | job_lev"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

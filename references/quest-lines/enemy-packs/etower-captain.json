@@ -1,0 +1,37 @@
+{
+ "title": "Tower Captain",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\trail_of_betrayal.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:15524 [npc_name | - | Tower Captain] 'Tower Captain'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:15524 [npc_name | - | Tower Captain] 'Tower Captain'"
+ ],
+ "client_cluster": [
+  "locale:15518 [quest_objective | - | Watchtower Provisions] 'Restock the Watchtower Provisions!'",
+  "locale:15519 [quest_objective | - | Watchtower Provisions] 'Bring the lunchboxes to the chugawugs at each of the watchtowers.'",
+  "locale:15520 [quest_objective | - | Watchtower Provisions] 'Speak to the Sentry Sergeant.'",
+  "locale:15521 [quest_objective | - | Watchtower Provisions] 'Speak to the Sentry Sergeant near the entrance for further instructions...'",
+  "locale:15522 [quest_objective | - | Summoner Magic Pouches] 'Collect Summoner Magic Pouches!'",
+  "locale:15523 [npc_name | - | Chugawug Sergeant] 'Chugawug Sergeant'",
+  "locale:15524 [npc_name | - | Tower Captain] 'Tower Captain'",
+  "locale:15530 [npc_name | - | Chugawug Sentry] 'Chugawug Sentry'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:IbSE0-r_SC8/00012.jpg (Trail of Betrayal): npcs: Tower Captain dialog_header  | dialog: Tower Captain: Fall in! Single File! We have towers to take back! | quest:   Speak to the Sentry Sergeant. Bonus: Find all of the troll marching orders - 0/4 Secure the first tower.  | job_level: Ninja 20 | other_text: Trail of Betraya",
+  "video:IbSE0-r_SC8/00624.jpg (Trail of Betrayal): npcs: Tower Captain dialog_header  Sergeant Brutus dialog_header  | dialog: Tower Captain: Securing the final tower! Sergeant Brutus: Trolls! Get ready! | quest:   Speak to the Sentry Sergeant. Bonus: Find all of the troll marching orders - 1/4 Secure the first tower. Secure the ",
+  "video:IbSE0-r_SC8/00630.jpg (Trail of Betrayal): npcs: Tower Captain dialog_header  Sergeant Brutus dialog_header  | dialog: Tower Captain: Securing the final tower! Sergeant Brutus: Trolls! Get ready! Sergeant Brutus: We take towers again! | quest:   Speak to the Sentry Sergeant. Bonus: Find all of the troll marching orders - "
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

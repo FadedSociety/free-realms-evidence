@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ca-bag-of-boogers-67080-v2-evidence-r3 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11804, 8890, 8, 1263] model=claude-haiku-5-5 -->
+# A Bag of Boogers
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Honest unknown. The pack has no acquisition source for item 23467, and my lookups agree: locale:67080 and the Grab Bags collection entry (catalogue id 183, entry index 1, item_definition_id 23467, item_link 'sanctuary') are the only references. The collection reward (2 coins, 50 XP on profile 49, no items) checks out at collection_catalogue.json:14692-14704, so the correction from 4 coins is supported.", "fix": "No change needed to the sources. The answer correctly leaves sources empty. Optional: the 'Lots of stuff' lead (locale:141316) returned no matches on the client locale table, so it should be dropped as a lead rather than cited as a pending check."}]}

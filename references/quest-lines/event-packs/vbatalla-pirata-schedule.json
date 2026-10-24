@@ -1,0 +1,45 @@
+{
+ "title": "Batalla Pirata event schedule",
+ "names_seen": [
+  "Batalla Pirata event schedule"
+ ],
+ "facts": [
+  {
+   "statement": "The Pirate Battle event ran on Server 1 on Thursday January 3, 2011 at 15:00 Pacific Time for US and Latin America.",
+   "numbers": {
+    "date_year": 2011,
+    "date_month": 1,
+    "date_day": 3,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Jueves 03 de enero 2011 15:00 hrs. Tiempo Pacifico (EE.UU. y Latino America) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2022",
+   "date": null
+  },
+  {
+   "statement": "The Pirate Battle event ran on Server 1 on Friday January 4, 2011 at 09:00 Pacific Time (16:00 European Time) for UK and Europe.",
+   "numbers": {
+    "date_year": 2011,
+    "date_month": 1,
+    "date_day": 4,
+    "hour_pacific": 9,
+    "hour_european": 16
+   },
+   "era": "live",
+   "quote": "Viernes 04 de enero 2011 09:00 hrs. Tiempo Pacifico/16:00 hrs. Tiempo Europeo (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2022",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2022",
+   "date": null,
+   "title": "Evento Comunitario: ¡Batalla Pirata!",
+   "summary": "A Spanish-language community event announcement for a Pirate Battle event at the Seaside (Playazul) docks, where members could play the Pirate Battle minigame for gold and prizes. The event ran on Server 1 on January 3, 2011 (US and Latin America, 15:00 Pacific) and January 4, 2011 (UK and Europe, 09:00 Pacific / 16:00 European). The page gives only a relative post date ('4 months, 1 day ago'), so the exact posting date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

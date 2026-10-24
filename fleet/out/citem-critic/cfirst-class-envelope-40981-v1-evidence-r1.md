@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfirst-class-envelope-40981-v1-evidence-r1 status=no_submit turns=3 usd=0.0018 tokens(read,write,in,out)=[12407, 9398, 8, 1075] model=claude-haiku-5-5 -->
+# First Class Envelope
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].where / open", "issue": "The answer says no source gives an acquisition method. The wiki's Postman Packages and Envelopes infobox says spawn = Job Material, type = Cascading, quality = Common, reward = Sanctuary Postcard. That is a collection-level acquisition hint the answer omits. It does not name a source for this specific piece.", "fix": "Add to the collection source or to open: the wiki (Postman collections section, refs freerealms-wiki/wikitext/2190-27853-ba6c0a72b278.wiki:463-482) gives the Packages and Envelopes collection as Cascading, spawn Job Material, quality Common. The per-piece source is still unknown."}]}

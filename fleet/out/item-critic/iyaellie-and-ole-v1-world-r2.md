@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iyaellie-and-ole-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[2831, 8289, 6, 1047] model=claude-haiku-5-5 -->
+# Yaellie and Ole
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "The claim that no client text matched 'Yaellie' or 'Ole' is incomplete. The client locale has two npc_name strings: locale:41544 = 'Ole' and locale:41545 = 'Yaellie' (quest-lines/npcs.json and npc-packs.json cite these). They are NPC names, not item names, so the 'not an item' verdict still holds.", "fix": "State that the client matches are npc_name strings (locale:41544 'Ole', locale:41545 'Yaellie'), which fits the NPC page. No item, vendor, Station Cash, quest reward or drop row names them. Source: client locale table; wiki page 'Yaellie and Ole' (rev 33526)."}]}

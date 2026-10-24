@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-kart-pickups-rs-L1 status=done turns=6 usd=0.0077 tokens(read,write,in,out)=[77914, 26955, 14, 7132] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/kart_pickups.rs lines 1-598 of 598
+
+Window reviewed: `prototype/osfr-tools/tests/kart_pickups.rs` lines 1-598 (read in full), checked against `prototype/osfr-tools/src/kart_pickups.rs` (`create_frames` 442, `live_create_frames` 447, `stage_claim` 478, `commit` 529, `due_respawns` 566, `claim` 593, `restore` 631, `new`/`with_respawn` sorting at 362-379, respawn constants 95-99). Most tests are sound: the golden-frame hashes are pinned to captured bytes, the equidistant-tie test is valid because specs are sorted by handle (src 379), the respawn boundary tests (14_999/15_000, 10_000/15_000 vs 10_001) match the `due_ms <= race_end_ms` and `due_respawns` logic, and the tampered-snapshot table exercises distinct refusal paths. Findings:
+
+- **[medium] prototype/osfr-tools/tests/kart_pickups.rs:173 claim_consumes_once_and_replies_grant_then_destroy (also repeated at :266 in snapshot_round_trips_and_legacy_restores_empty) - `assert_eq!(set.live_create_frames(), set.create_frames())` compares a function with itself.**
+  - Why it cannot catch a regression: `create_frames()` is defined as `self.live_create_frames()` (src/kart_pickups.rs:442-443), so these two calls always return the same value. Any change to live-only filtering, or to `create_frames` itself, leaves the assertion passing.
+  - Fix: drop the comparison at :173 and :266, or replace it with a literal expectation, e.g. `assert_eq!(set.live_create_frames(), vec![])` after the claim (already present at :199) and, for :266, keep the concrete `vec![encode_create(...handle 2...)]` assertion at :262-265, which does catch regressions.
+
+- **[low] prototype/osfr-tools/tests/kart_pickups.rs:110-119 item_expired_frame_matches_the_recovered_shape - the doc and comment claim behaviour (value 1 is ignored; raw PE at 0xba88c1/0xba88c6 subtracts 2 twice) that the body never exercises.**
+  - Why it cannot catch a regression: the test only encodes `SHIELD_EXPIRE_VALUE` and checks the subtype and payload bytes. Line 119 `assert_eq!((EXPIRE_SUBTYPE, SHIELD_EXPIRE_VALUE), (21, 4))` only pins two constants against literals. No assertion touches selector 1 or any shield-off semantics, so a change that treats value 1 as active would still pass.
+  - Fix: either narrow the doc to "encodes the 33/21 frame with the shield-off value 4" and remove the claim about value 1 from the test, or move the behaviour check into the consumer code's tests (the expiry handler), where a value-1 frame would be asserted to leave the shield on.
+
+- **[low] prototype/osfr-tools/tests/kart_pickups.rs:207-212 claim_consumes_once_and_replies_grant_then_destroy - comment says "Committing the same staged claim twice is refused", but lines 208-212 call `stage_claim` on an already-consumed set.**
+  - Why it cannot catch a regression: the body does not commit twice here. The real double-commit check is at :213-221, so coverage exists but the comment points at the wrong assertion. A change that breaks only the stage-after-consume refusal would be reported under the wrong label.
+  - Fix: correct the comment to "Staging against a consumed box is refused", and keep :217-221 as the double-commit check.

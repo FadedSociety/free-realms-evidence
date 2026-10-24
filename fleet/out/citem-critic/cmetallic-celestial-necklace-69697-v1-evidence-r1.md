@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetallic-celestial-necklace-69697-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3696, 4850, 6, 1263] model=claude-haiku-5-5 -->
+# Metallic Celestial Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[1]", "issue": "The answer cites 'repo:data/content/stores.json' as the file to confirm the Cost 1656 against. My repo search for 'Metallic', '69697' and '22795' found no match in any store or vendor file. The only content hits are in prototype/osfr-tools/data/content/pets.json, which are unrelated. The cited path is not confirmed to exist.", "fix": "Drop the stores.json pointer or replace it with the path actually checked. The evidence shows no coin store price: client coin_store_prices is empty and the Legacy Cost 1656 is an unlabelled definition field (refs: FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:471999-472004)."}]}

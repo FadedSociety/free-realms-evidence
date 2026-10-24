@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbronze-tag-medal-41065-v2-evidence-r3 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4241, 6112, 6, 901] model=claude-haiku-5-5 -->
+# Bronze Tag Medal
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].source", "issue": "The item description 'This item can be added to the Bronze Medals Collection' comes from the client definition, but the cited locale:132367 is the collection's name line ('Bronze Medals Collection'), not the item's description. The claim is still supported by the client definition in the pack, so only the citation is loose.", "fix": "Cite the client definition (item_definition 3849, description text) for the description, and locale:132367 only for the collection name 'Bronze Medals Collection'."}]}

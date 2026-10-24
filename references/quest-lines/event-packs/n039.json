@@ -1,0 +1,131 @@
+{
+ "title": "Player Studio",
+ "names_seen": [
+  "Player Studio"
+ ],
+ "facts": [
+  {
+   "statement": "Player Studio is a program inviting US-based players aged 18 and up to download sample geometry and design new Free Realms items.",
+   "numbers": {
+    "minimum age": 18
+   },
+   "era": "live",
+   "quote": "invites US-based players (18 years-old and up) to download sample geometry",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2798",
+   "date": null
+  },
+  {
+   "statement": "Player Studio was accepting submissions of player-created weapons, with axes, swords, hammers and wands named as examples.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Player Studio is now accepting submissions of player-created weapons!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2925",
+   "date": null
+  },
+  {
+   "statement": "Player Studio is an SOE program letting players design in-game items that can be sold in the marketplace of participating online games.",
+   "numbers": {},
+   "era": "pre_launch_plan",
+   "quote": "Player Studio is a program that offers players the opportunity to tap into their own creativity",
+   "article": "http://www.freerealms.com:80/player-studio-faq.vm",
+   "date": null
+  },
+  {
+   "statement": "Player Studio is a program inviting initially US-based players to download sample geometry, learn how virtual items are constructed, and try designing items.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Player Studio™ is a new program that invites (initially US-based) players to download sample geometry",
+   "article": "http://www.freerealms.com:80/player-studio.vm",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2798",
+   "date": null,
+   "title": "Create New Items for the Free Realms Marketplace!",
+   "summary": "SOE's official news post announces Player Studio, a program letting US-based players aged 18 and up design new in-game items (with a name, description and storyline rationale) for possible sale in the SOE Marketplace. Selected items are priced in Station Cash, and designers share the revenue. The post gives no exact date; it is shown as posted about one month before the December 2012 capture."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2925",
+   "date": null,
+   "title": "Forge Amazing Weapons with Player Studio!",
+   "summary": "An official freerealms.com news post announcing that Player Studio, a program inviting (initially US-based) players to design items, is now accepting submissions of player-created weapons (axes, swords, hammers, wands). Selected designs would be sold in the SOE Marketplace for Station Cash, with revenue shared back to the creator. The post gives no exact date, only a relative 'posted 3 months, 4 days ago' stamp."
+  },
+  {
+   "url": "http://www.freerealms.com:80/player-studio-faq.vm",
+   "date": null,
+   "title": "Free Realms - Player Studio FAQ",
+   "summary": "This SOE FAQ page describes the Player Studio program, in which players design in-game items for sale in the SOE Marketplace and receive a share of sales. Free Realms is one of four SOE games listed as slated to kick off the program, with more details promised at SOE Live (October 18-21, 2012). The page describes a planned program and does not detail any Free Realms item, quest or mechanic."
+  },
+  {
+   "url": "http://www.freerealms.com:80/player-studio.vm",
+   "date": null,
+   "title": "Free Realms - Player Studio",
+   "summary": "A freerealms.com program page announcing Player Studio, where players design new in-game items using sample geometry, write a name, description and storyline rationale, and submit them. Selected items are sold in the SOE Marketplace priced in Station Cash, with revenue shared with the creator. The page gives no date, and the client text table has many 'Created by ... for Player Studio!' item descriptions, showing the program did ship items."
+  }
+ ],
+ "wiki_category_members": [
+  "Basic Blue T-Shirt",
+  "Blue Bosun's Tunic",
+  "Bat Wing T-Shirt",
+  "Black Cat T-Shirt",
+  "3pc Kitchen Cookware Set",
+  "Boiling Pot",
+  "Bellringer",
+  "Ancient Precursor T-Shirt",
+  "Amiable Apple T-Shirt",
+  "Cheesy T-Shirt",
+  "Camo Combat T-Shirt",
+  "Fancy Flames T-Shirt",
+  "Cute Kitten T-Shirt",
+  "Creepy Crawly Cupcakes",
+  "Dolly Doll",
+  "Canned Goodies",
+  "Fancy Candelabra",
+  "Candy Canes T-Shirt",
+  "Cheesy Pepperoni Pizza",
+  "Designer Green T-Shirt",
+  "Cozy Cobblestone Fireplace",
+  "Hip-strap T-Shirt",
+  "Gloam Memories T-Shirt",
+  "Happy Heart T-Shirt",
+  "Gearbook Laptop",
+  "Giraffe Safari T-Shirt",
+  "Friendly Flowers T-Shirt",
+  "Goth Gaze T-Shirt",
+  "Hangtime T-Shirt",
+  "Gleeful Gumdrop T-Shirt",
+  "Headphones T-Shirt",
+  "Gloam Infused T-Shirt",
+  "Glowing Skeleton T-Shirt",
+  "Jogging Jacket T-Shirt",
+  "Golden Heart T-Shirt",
+  "Gooey Caramel Candy Apples",
+  "Hole-In-One Golf Driver",
+  "Holiday Milk & Cookies",
+  "Gingerbread Cookie Coffee Table",
+  "Gingerbread Cookie Armchair",
+  "Gingerbread Cookie Couch",
+  "Gingerbread T-Shirt",
+  "Ice Queen T-Shirt",
+  "Frosty Yeti T-Shirt",
+  "Ice Axe",
+  "Gleam Energy Fist",
+  "Gloam Energy Fist",
+  "Music Penguin T-Shirt",
+  "Lucky Clover T-Shirt",
+  "Lucky T-Shirt",
+  "Molten Precursor T-Shirt",
+  "Leopard Safari T-Shirt",
+  "Laughing Leaf T-Shirt",
+  "Orange Designer T-Shirt",
+  "North Pole T-Shirt",
+  "Lunar Blade",
+  "Lightning Blade",
+  "Player Studio",
+  "Punky Plaid T-Shirt",
+  "Partly Cloudy T-Shirt"
+ ],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstalker-phantasmal-necklace-86662-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3944, 7965, 6, 998] model=claude-haiku-5-5 -->
+# Stalker Phantasmal Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "Says the whole Phantasmal family, including Hardwood, Granite, Metallic and Jeweled, sits in adjacent locale IDs 86527-86667. The lookup shows Hardwood, Granite, Metallic and Jeweled Phantasmal Necklace at locale 69676, 69686, 69699 and 69712, outside that range. The family claim is loosely worded but does not affect acquisition.", "fix": "Say the class-named family (Dull 86527 through Stalker 86662, and Hero/Nomad/Sorcerer/Bullseye variants) sits in 86527-86667, and separately note Hardwood/Granite/Metallic/Jeweled Phantasmal Necklace at locale 69676-69712 (lookup client, locale ids)."}]}

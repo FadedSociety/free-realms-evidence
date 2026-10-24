@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-fire-necklace-96532-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3493, 7452, 6, 996] model=claude-haiku-5-5 -->
+# Shiny Fire Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence / client_cluster", "issue": "The answer describes the element-themed family as necklaces only. The client string table also has matching ring names (Shiny Fire Ring, Smooth Air Ring, Shiny Sun Ring) in the same ucdt/ugdt blocks. The family is wider than the six necklace ids the answer lists, and the answer does not mention it.", "fix": "Note that sibling Shiny Fire Ring, Smooth Air Ring and Shiny Sun Ring exist in the client string table (opening-harvesting-native .../en_us_data.dat, e.g. 'Shiny Fire Ring' at 2738054871 and 3944409968). No source ties any of them to a sale, drop or quest, so the family-level status stays unknown."}]}

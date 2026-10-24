@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolished-light-necklace-89419-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3698, 7390, 6, 940] model=claude-haiku-5-5 -->
+# Polished Light Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the same definition appears in the Lxzxrus and Sanctuary copies at line 195441 was not re-checked in my pass. My refs search for 89419, 'Polished Light' and 10410 returned no hit in those files, so the line citation is unverified.", "fix": "Re-read refs:Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json and refs:Sanctuary/.../ClientItemDefinitions.json around line 195441 to confirm, or drop the claim. It does not change the outcome, since it only supports the definition's existence."}]}

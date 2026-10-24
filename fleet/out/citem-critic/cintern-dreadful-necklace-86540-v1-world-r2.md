@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cintern-dreadful-necklace-86540-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4110, 8558, 6, 1075] model=claude-haiku-5-5 -->
+# Intern Dreadful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "slots / evidence[0]", "issue": "The answer states 'Slot 9 per pack' while the neighbouring Rascal Ethereal Necklace (22548) is Slot 8 in the Lxzxrus definition. The conflict is left in open[4] and is not resolved. It does not change the world picture, since no source depends on the slot.", "fix": "Check Slot for definition 22549 directly in refs Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json around lines 467138-467150 and record the value that definition states. Until then, keep the slot marked unverified."}]}

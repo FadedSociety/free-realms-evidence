@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csparkling-pineapple-burger-96649-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3692, 10550, 6, 923] model=claude-haiku-5-5 -->
+# Sparkling Pineapple Burger
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Answer correctly leaves live as 'unsure'. The first-pass 'live: yes' is a hint only and is not evidenced by any source I could find. My lookups (client locale, wiki, articles, video, refs search for 'Sparkling' and 31243) returned only the locale name 96649 and unrelated 'Sparkling' hits (Sparkling Tiara TCG data, Sparkling Mushroom test data). No source names this burger.", "fix": "No change required. Keep live as 'unsure' until a source (vendor, quest, event or wiki page) confirms it was on the live server."}]}

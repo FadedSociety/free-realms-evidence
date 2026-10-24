@@ -1,0 +1,40 @@
+{
+ "title": "Corrupted Artifact",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\vale_of_the_ancients.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:419733 [item | - | Corrupted Artifact] 'Corrupted Artifact'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:419733 [item | - | Corrupted Artifact] 'Corrupted Artifact'",
+  "locale:419737 [quest_dialog | - | Corrupted Artifact] 'You should leave this place now!  You do not belong here!'"
+ ],
+ "client_cluster": [
+  "locale:419725 [ability | - | Buffer:RapidBlue | FLAG placeholder: internal buffer name, not player-facing quest content] 'Buffer:RapidBlue'",
+  "locale:419726 [ability | - | Buffer:RapidRed | FLAG placeholder: internal buffer name, not player-facing quest content] 'Buffer:RapidRed'",
+  "locale:419727 [ability | - | Buffer:AOEBlue | FLAG placeholder: internal buffer name, not player-facing quest content] 'Buffer:AOEBlue'",
+  "locale:419728 [ability | - | Buffer:AOERed | FLAG placeholder: internal buffer name, not player-facing quest content] 'Buffer:AOERed'",
+  "locale:419732 [item | - | Econo House 2000] 'Econo House 2000'",
+  "locale:419733 [item | - | Corrupted Artifact] 'Corrupted Artifact'",
+  "locale:419734 [quest_title | - | Making Amends - Tag | FLAG placeholder: \"- Tag\" suffix suggests test or dev title] 'Making Amends - Tag'",
+  "locale:419737 [quest_dialog | - | Corrupted Artifact] 'You should leave this place now!  You do not belong here!'",
+  "locale:419738 [quest_dialog | - | Taming (animal spirits)] 'Not only do the animals obey me, so do their spirits!'",
+  "locale:419739 [ui | - | Stand Spot Sit | FLAG placeholder: looks like a test or debug command label] 'Stand Spot Sit'",
+  "locale:419740 [quest_dialog | - | Taming (animal spirits)] 'Ouch!  I said go away!'",
+  "locale:419741 [quest_dialog | - | Taming (animal spirits)] 'I am not defeated so easily!'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:world_screenshot): Corrupted Artifact"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgreen-feather-1447-v1-world-r2 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[12990, 10030, 8, 1254] model=claude-haiku-5-5 -->
+# Green Feather
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "open / evidence", "issue": "The answer leaves out client fields that bear on the item's category. Legacy ClientItemDefinitions.json (id 3299, NameId 1447, CategoryId 19, Cost 1, TintAlias 'dyetint', MemberDiscount 10, MinProfileRank 1) shows the feather cluster is dye-tinted, not obviously collection-only. The 'collection' kind is therefore a hint, not established.", "fix": "Record CategoryId 19, Cost 1 and TintAlias 'dyetint' from refs FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json (lines ~61313-61328) as the item's client data, and state that the 'collection' kind is unconfirmed. The cost field is a client field, not a store price, and should not be read as a coin price."}]}

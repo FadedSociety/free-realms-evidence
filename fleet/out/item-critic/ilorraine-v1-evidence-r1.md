@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ilorraine-v1-evidence-r1 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3561, 4, 850] model=claude-haiku-5-5 -->
+# Lorraine
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer's stock claims are accurate to the wiki page, but it does not say that the page's 'Sells' list has no prices or currency, so a reader could assume the listed wares are priced or evidenced as Lakeshore vendor stock. The pack's vendor_stock is empty, so no price, currency or vendor-to-item link is supported.", "fix": "State explicitly: the wiki 'Sells' list (rev 48956) names 9 items with no prices or currency; no vendor_stock rows support any item-level price. Each ware needs its own pack with its own price evidence before it can be wired."}]}

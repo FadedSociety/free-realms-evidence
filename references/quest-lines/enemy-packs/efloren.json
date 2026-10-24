@@ -1,0 +1,74 @@
+{
+ "title": "Floren",
+ "our_entries": [
+  {
+   "file": "dungeons\\floren_forest.json",
+   "definition_id": 930058
+  },
+  {
+   "file": "dungeons\\misty_mountain.json",
+   "definition_id": 930058
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:5312 [other | - | floren | FLAG dev_note: internal asset id] 'floren'",
+  "locale:20492 [npc_name | Croaking Vale | Floren] 'Floren'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5312 [other | - | floren | FLAG dev_note: internal asset id] 'floren'",
+  "locale:20492 [npc_name | Croaking Vale | Floren] 'Floren'",
+  "locale:36141 [item | - | Floren | FLAG placeholder: \"Default3 floren\" looks like a test item name] 'Default3 floren'",
+  "locale:36144 [item | - | Floren | FLAG placeholder: \"ice floren\" looks like a test item name] 'ice floren'",
+  "locale:388442 [quest_objective | Floren Forest | Floren] 'Defeat Floren'",
+  "locale:388443 [quest_objective | Floren Forest | Floren] 'Defeat Floren in the Floren Forest.'",
+  "locale:388862 [quest_dialog | - | floren] \"I hope you didn't just wash your hands, because we're about to get 'em dirty again.  Have you heard of the floren?\"",
+  "locale:442724 [quest_objective | - | Floren] 'Defeat 5 Floren '",
+  "locale:442725 [quest_objective | - | Floren] 'Defeat 50 Floren '",
+  "locale:442726 [quest_objective | - | Floren] 'Defeat 500 Floren '",
+  "locale:5101443 [quest_objective | - | Floren] 'Defeat the upstart Floren'"
+ ],
+ "client_cluster": [
+  "locale:5304 [other | - | fairy_f_lorina | FLAG dev_note: internal asset id] 'fairy_f_lorina'",
+  "locale:5305 [other | - | fairy_f_penelope | FLAG dev_note: internal asset id] 'fairy_f_penelope'",
+  "locale:5306 [other | - | fairy_f_valinda | FLAG dev_note: internal asset id] 'fairy_f_valinda'",
+  "locale:5307 [other | - | fairy_m_01 | FLAG dev_note: internal asset id] 'fairy_m_01'",
+  "locale:5308 [other | - | fairy_m_02 | FLAG dev_note: internal asset id] 'fairy_m_02'",
+  "locale:5309 [other | - | fairy_m_farmer_01 | FLAG dev_note: internal asset id] 'fairy_m_farmer_01'",
+  "locale:5310 [other | - | fairy_m_miner_01 | FLAG dev_note: internal asset id] 'fairy_m_miner_01'",
+  "locale:5311 [other | - | fairy_m_old_01 | FLAG dev_note: internal asset id] 'fairy_m_old_01'",
+  "locale:5312 [other | - | floren | FLAG dev_note: internal asset id] 'floren'",
+  "locale:5313 [other | - | forestgiant | FLAG dev_note: internal asset id] 'forestgiant'",
+  "locale:5314 [other | - | forestgiantboss | FLAG dev_note: internal asset id] 'forestgiantboss'",
+  "locale:5315 [npc_name | - | shroomgiant | FLAG flag:-] 'shroomgiant'",
+  "locale:5316 [npc_name | - | Kittakat] 'Kittakat'",
+  "locale:5319 [npc_name | - | chugawug_f_01] 'chugawug_f_01'",
+  "locale:5320 [npc_name | - | chugawug_m_01] 'chugawug_m_01'"
+ ],
+ "wiki": {
+  "title": "Floren",
+  "text": "Floren are a plant-like sentient race that live in the Floren Forest. Some of white pigmentation can be found in Snowhill.\n\nNotable Floren\nSanctuary\nJacque\n\nNorthern Wilds\nLief\nFloren Leafling\nFloren Defender\nCorrupted Floren\nBitterleaf\n\nBlackspore Swamp\nSilverray\n\nBristlewood\nVile Floren\nEvil Floren\nGrumpy Amaranthus\n\nOther\nFriendly Leafling\n\nAppearances\nBristlewood Glade\nFeisty Floren!\nFloren Forest\nMisty Mountain\nNorthern Wilds\n\nGallery\n\nSources\nFree Realms Comic Pitch Art on DeviantArt\nCategory:Races\nCategory:Floren\nCategory:Wilds\nCategory:Snowhill\nCategory:Shrouded Glade\nCategory:Bristlewood"
+ },
+ "images": [
+  "image (image:art_or_promo): Floren",
+  "image (image:art_or_promo): Floren",
+  "image (image:world_screenshot): Floren Budling"
+ ],
+ "video": [
+  "video:9YtzJEW_TEs/00006.jpg (-): landmarks: Floren Forest (red arrow, 19m) | job_level: Adventurer 20 | other_text: Floren Forest Bumbleberry Plant Snowberry Plant",
+  "video:Yoxys3l0-vg/00098.jpg (-): quest:   Defeat the Floren! Bonus: Restore Natural - ?/10  | landmarks: large tree trunk blue rock formations | job_level: Warrior 7 | other_text: Corrupted Floren Goals (2)",
+  "video:Yoxys3l0-vg/00010.jpg (-): npcs: Corrupted Floren nameplate  | quest:   Defeat the Floral Bonus: Restore Natural -  | landmarks: blue rock cliffs pale flowers | job_level: Warrior 7 | other_text: Goals (2) Corrupted Floren",
+  "video:Yoxys3l0-vg/00112.jpg (-): npcs: Corrupted Floren nameplate  | quest:   Defeat the Floral Bonus: Restore Natural -  | landmarks: white flowers green grass tree | job_level: Warrior 7 | other_text: Goals (2) Corrupted Floren",
+  "video:Yoxys3l0-vg/00052.jpg (-): quest:   Defeat the Floren! Bonus: Restore Natural - ?/10  | landmarks: grassy field blue flowers | job_level: Warrior 7 | other_text: Corrupted Floren Goals (2) Finding the Raiders Quest Completed!"
+ ],
+ "article_facts": [
+  "fact:location: Floren Forest is a hidden valley that has been home to the Floren for many generations, once a beautiful place. | This hidden valley has been home to the Floren for many generations. (http://www.freerealms.com:80/article/detail.action?articleId=904)",
+  "fact:combat: Hidden Floren has a power-up that can damage the opponent even when the player loses a battle. | through the power-up on Hidden Floren (http://www.freerealms.com:80/article/detail.action?articleId=143)",
+  "fact:event: Something evil has corrupted the Floren Forest and the Floren, who previously greeted travelers friendly, now attack on sight. | Now they attack on sight! (http://www.freerealms.com:80/article/detail.action?articleId=904)",
+  "fact:npc: The Floren are magical beings who are in touch with nature and whose bodies are made of leaves and branches. | Their bodies are made up of leaves and branches. (http://www.freerealms.com:80/article/detail.action?articleId=904)"
+ ],
+ "quest_answers_naming_it": [
+  "go target in 'Ninja: Idol Conversation' (final): Sakka in the Pixie Nursery has asked you to investigate the idol in the Floren Forest as a Ninja.",
+  "go target in 'The Eggcitingly Eggcellent Egg Hunt' (final): Find Alyssa Eggelyn's stolen egg."
+ ]
+}

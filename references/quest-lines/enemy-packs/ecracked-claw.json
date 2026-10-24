@@ -1,0 +1,72 @@
+{
+ "title": "Cracked Claw",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\cracked_claw_caverns.json"
+  },
+  {
+   "file": "dungeons\\cracked_claw_caverns.json"
+  },
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000013,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Boss of the Cracked Claw Caverns",
+   "location_evidence": [
+    "Cracked Claw Caverns"
+   ]
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:76410 [npc_name | Briarheart Caverns | Cracked Claw] 'Cracked Claw'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:76410 [npc_name | Briarheart Caverns | Cracked Claw] 'Cracked Claw'",
+  "locale:76413 [quest_dialog | Briarheart Caverns | Cracked Claw] 'The cray in these caverns are extremely aggressive lately! Find their leader Cracked Claw and defeat him to lessen their aggressive nature!'",
+  "locale:76424 [quest_objective | Briarheart Caverns | Cracked Claw] 'Defeat the ancient cray, Cracked Claw!'",
+  "locale:76425 [quest_objective | Briarheart Caverns | Cracked Claw] 'Find and defeat the ancient cray, Cracked Claw!'",
+  "locale:76429 [quest_objective | Briarheart Caverns | Cracked Claw] 'Avoid being defeated three times!'",
+  "locale:76494 [npc_dialog | Merry Vale | Cracked Claw] 'Cracked Claw looks at you with rage.'"
+ ],
+ "client_cluster": [
+  "locale:76402 [quest_objective | - | Doctor Gordon] 'Return to Doctor Gordon'",
+  "locale:76404 [npc_name | - | Shopper] 'Shopper'",
+  "locale:76405 [npc_dialog | - | Shopper] 'What are you looking at? Get out of here!'",
+  "locale:76406 [quest_objective | Briarheart Caverns | Geomancer Hailstorm] 'Please get that crystal from Geomancer Hailstorm in Briarheart Caverns. I must have it!'",
+  "locale:76409 [npc_dialog | - | - | FLAG fragment: unattributed reaction line] 'How dare you hit a girl!'",
+  "locale:76410 [npc_name | Briarheart Caverns | Cracked Claw] 'Cracked Claw'",
+  "locale:76411 [ui | - | Preview | FLAG fragment: single word UI label] 'Preview'",
+  "locale:76413 [quest_dialog | Briarheart Caverns | Cracked Claw] 'The cray in these caverns are extremely aggressive lately! Find their leader Cracked Claw and defeat him to lessen their aggressive nature!'"
+ ],
+ "wiki": {
+  "title": "Cracked Claw",
+  "text": "The Cracked Claw is a cray NPC boss that can be found in the Cracked Claw Caverns, located in Blackspore Swamp. He is the ancient cray, and the leader of the Blackspore cray. The cray in the Cracked Claw Caverns are extremely aggressive lately, it is up to the player to come and defeat the Cracked Claw to lessen the cray' aggressive nature.\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Cray\nCategory:Blackspore"
+ },
+ "images": [
+  "image (image:character_or_npc): Cracked Claw",
+  "image (image:map): Splortata (repeatable)\nPath To Stillwater\nCave Walkway to Crossroads\n131k\nBlackspore Swamp\nPetra (Brawler Quest)\nChloe (Ninja Quest)\nVendors\nMire's Edge\nVysha (Repeatable)\nOswald (Crystals are forever)\nVusala (Pets on the loose) (bugged)\nObery Duskshine (Breaking some bones)\nCracked Claw Caverns\nAnc"
+ ],
+ "video": [
+  "video:-5UUuwaVXnM/00012.jpg (Cracked Claw Caverns): quest:   Defeat the ancient cray, Cracked Claw!  | job_level: Ninja 2 | other_text: Cracked Claw Caverns Goals (1) Defeat the ancient cray, Cracked Claw!",
+  "video:NtXTmB-wPW0/00050.jpg (Cracked Claw Caverns): quest:   Defeat the ancient cray, Cracked Claw! Bonus: Release the trapped spirits of the explorers lost within Cracked Claw Caverns!  | job_level: Brawler 10 | other_text: Goals (2) The bones crumble and a tormented spirit materializes!",
+  "video:NtXTmB-wPW0/00122.jpg (Cracked Claw Caverns): quest:   Defeat the ancient cray, Cracked Claw! Bonus: Release the trapped spirits of the explorers lost within Cracked Claw Caverns!  | job_level: Brawler 10 | other_text: Goals (2) The bones crumble and a tormented spirit materializes!",
+  "video:NtXTmB-wPW0/00140.jpg (Cracked Claw Caverns): quest:   Defeat the ancient cray, Cracked Claw!  | job_level: Brawler 10 | items_seen: Lost Explorer Bones | other_text: Cracked Claw You don't have enough energy for that ability! The bones crumble and a tormented spirit materializes!",
+  "video:NtXTmB-wPW0/00042.jpg (Cracked Claw Caverns): quest:   Defeat the ancient cray, Cracked Claw! Bonus: Release the trapped spirits of the explorers lost within Cracked Claw Caverns! You receive 15 coins | job_level: Brawler 10 | other_text: Goals (2) You receive 15 coins ?p Cray"
+ ],
+ "article_facts": [
+  "quest: Vasher Cracked Claw Caverns Recover old explorer bones for burial (http://www.freerealms.com:80/article/detail.action?articleId=98)",
+  "fact:quest: Members-only quests were added in Briarwood, Farnum's Farm, Pixie Nursery, Wuagachug, Shrouded Glade, Sanctuary, Blackspore Swamp and Seaside, and ten new members-only combat quests were listed (Bat Caves, Briar Patch, Bixie Hive, Bristlewood Glade, Cracked Cl (http://www.freerealms.com:80/article/detail.action?articleId=98)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Archer: Archer Test' (final): Bullseye has asked you to defeat some cray in the Cracked Claw Caverns and bring back proof of your archer skills.",
+  "defeat target in 'Combating the Cray' (final): Defeat Cracked Claw, in the Cracked Claw Caverns of Blackspore.",
+  "go target in 'Darci's Deficiencies' (final): Investigate near Cracked Claw Caverns"
+ ]
+}

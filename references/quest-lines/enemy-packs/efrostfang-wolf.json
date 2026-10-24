@@ -1,0 +1,47 @@
+{
+ "title": "Frostfang Wolf",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\frostfang_snarlers.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:6468 [npc_name | - | Frostfang Wolf] 'Frostfang Wolf'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6437 [quest_dialog | - | Frostfang Wolf] 'I heard there is a beastly wolf that lives in Frostfang Caverns with a majestic coat of fur. If you could get me his pelt, I would never be cold again! What do '",
+  "locale:6468 [npc_name | - | Frostfang Wolf] 'Frostfang Wolf'",
+  "locale:432936 [quest_dialog | Snowhill | Frostfang wolf] \"You defeat the nasty little cub at last. From not too far away, you hear the howl of a wolf. A larger wolf. Maybe the cub's parents are nearby! Sure enough, a F\"",
+  "locale:432937 [quest_dialog | Snowhill | Frostfang wolf] \"You manage to defeat the Frostfang wolf. Looks like these hills are more dangerous than you expected! You still don't know exactly where the Hot Springs Haven i\"",
+  "locale:432938 [quest_dialog | Snowhill | Frostfang wolf] 'The arctic Frostfang was tough, but you defeated it. There must be lots of treasure in the Yeti haven if you have to fight through all these wolves just to get '"
+ ],
+ "client_cluster": [
+  "locale:6460 [other | - | troll_archer | FLAG dev_note: internal asset id] 'troll_archer'",
+  "locale:6461 [other | - | human_f_explorer_caucasian01 | FLAG dev_note: internal asset id] 'human_f_explorer_caucasian01'",
+  "locale:6463 [other | - | human_m_freestyle_01 | FLAG dev_note: internal asset id] 'human_m_freestyle_01'",
+  "locale:6464 [other | - | changeling_f | FLAG dev_note: internal asset id] 'changeling_f'",
+  "locale:6466 [npc_dialog | - | -] \"I'm sizzling delicious, won't you adopt me?\"",
+  "locale:6467 [quest_objective | - | The Bat Cave!] 'Remove the Bat King!'",
+  "locale:6468 [npc_name | - | Frostfang Wolf] 'Frostfang Wolf'",
+  "locale:6470 [quest_dialog | - | Loryn] 'That was some fast sorting!  See if Loryn could use more help.'",
+  "locale:6471 [npc_name | - | Robgoblin Knuckle Head] 'Robgoblin Knuckle Head'",
+  "locale:6472 [npc_name | - | Tuga the Bruiser] 'Tuga the Bruiser'",
+  "locale:6473 [npc_name | - | Burlen] 'Burlen'",
+  "locale:6474 [npc_name | - | Rockslide] 'Rockslide'",
+  "locale:6475 [npc_name | - | Cave Yeti] 'Cave Yeti'",
+  "locale:6476 [npc_name | - | Frosty] 'Frosty'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [
+  "fact:npc: Frostfang Wolves are white wolves that roam the slopes around Snowhill and are more aggressive inside the caverns. | The Frostfang Wolf is the most legendary. These white wolves prowl the slopes around Snowhill. (http://www.freerealms.com:80/article/detail.action?articleId=75)",
+  "fact:other: The Stayin' Alive deck contains 30 cards: 22 creatures, 8 resources... see counts; creatures include 3 Arctic Frostfang, 2 Frostfang Wolf, 2 Ferocious Frostfang, 3 Frostfang Cub, 3 Fierce Bear, 3 Poison Toad, 3 Giant Toad, 3 Ernie; resources 3 Move Out!, 2 Ban (http://www.freerealms.com:80/article/detail.action?articleId=221)",
+  "summary: An in-game-world news post (Free Realms site, 'What is New?' section, captured 2009-05-10) that presents the Frostfang Caverns on the eastern slopes of Snowhill as a dangerous ice cave complex. It names the Frostfang Wolf, Frostfang Bats and Icy Crawlers as in (http://www.freerealms.com:80/article/detail.action?articleId=75)"
+ ],
+ "quest_answers_naming_it": []
+}

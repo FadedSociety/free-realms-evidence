@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=corange-half-cylinder-tiger-block-134830-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4001, 8083, 6, 1015] model=claude-haiku-5-5 -->
+# Orange Half Cylinder Tiger Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "Says the same tag set appears on category 147 items 'sold for 200-300 coins'. The store file shows that tag set on items priced 200, 350 and 400 coins (e.g. 77275-77282 at 400 coins, stores.json lines 16606-16613). The price range is misstated; the 350-coin price for 77285 itself is correct (line 16616).", "fix": "Correct the range to 200-400 coins (category 147, source_tags L1,L2,L4,R2,T633,R1), citing repo:prototype/osfr-tools/data/content/stores.json lines 16600-16630. Item 77285's own entry (purchase 350, member 315, sell 35) is verified as stated."}]}

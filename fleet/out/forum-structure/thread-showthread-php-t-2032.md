@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2032 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2872, 4, 403] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article":{"title":"Free Realms Forums","date":null,"author":null,"type":"other"},"about_free_realms":false,"summary":"The captured page is a vBulletin shell from freerealmsforums.com showing only a 'maximum number of posts you can view' registration error, forum navigation and footer text. No thread title, post body, or game information is present, so there is nothing about Free Realms mechanics, items, quests, or prices to record.","facts":[],"quests":[],"uncertain":["The thread the URL points to (t=2032) did not render; its actual title, author, date and content are unavailable in this capture.","Only forum category names (e.g., 'Items', 'Jobs/Classes', 'Membership / Stationcash') appear in navigation; these are not evidence of game content."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isilverspark-v1-evidence-r1 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3316, 11711, 6, 1294] model=claude-haiku-5-5 -->
+# Silverspark
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The answer labels Silverspark as kind \"other\", but the evidence it cites says this is an NPC (npc_name at locale:413065; wiki infobox and categories NPC, Females, Unicorns, Quest Givers, Pony Vale). It is not an item, so no item kind applies.", "fix": "Record kind as NPC (not an item). Locale 413065 is npc_name 'Silverspark', and the wiki page Silverspark lists her in Unicorn Forest, Pony Vale, with quests Unicorn's Plight, Nature's Cure and Stopping the Spread. Her quest-text lines (e.g. locale:413229 'Find Silverspark', locale:413549 'Return to Silverspark') confirm she is a quest giver and quest target."}]}

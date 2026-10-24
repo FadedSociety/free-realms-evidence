@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpowerslide-gt-racer-141863-v2-evidence-r3 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4470, 5573, 6, 1085] model=claude-haiku-5-5 -->
+# Powerslide GT Racer
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (repo derby note)", "issue": "The claim that Demolition Derby Driver.md:197 names five wiki-confirmed derby karts and none is Powerslide GT Racer was not verified. My repo search for 'Powerslide|Green Speed Racer|Turbo Racer' returned no matches, so the note does not name the cluster, which is consistent with the answer's withdrawal. The specific 'five karts' detail should be re-read from the note before it is relied on.", "fix": "Read repo:notes/Build Guides/Content/Jobs/Demolition Derby Driver.md around line 197 and cite the actual kart names, or drop the five-kart claim."}]}

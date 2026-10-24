@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csage-fateful-necklace-86568-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4030, 5806, 6, 989] model=claude-haiku-5-5 -->
+# Sage Fateful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the X Fateful Necklace family 'is job/class-themed, which suggests it is a class-gated variant set' is inference, not evidence. The family also includes Hardwood, Granite, Metallic and Jeweled Fateful Necklace (locale 69681, 69683, 69693, 69704), so the naming pattern is wider than the Sage/Grunt/Intern class tiers. It is labelled as a suggestion, but it should not be read as a source.", "fix": "Keep it as an unverified naming observation only. Cite locale:69681, 69683, 69693, 69704 alongside the 86523-86573 block, and state that no class-gating source was found."}]}

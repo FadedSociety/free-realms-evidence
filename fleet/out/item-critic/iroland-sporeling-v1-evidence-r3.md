@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iroland-sporeling-v1-evidence-r3 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3358, 4077, 6, 863] model=claude-haiku-5-5 -->
+# Roland Sporeling
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 5, "problems": [{"field": "item.kind", "issue": "Recorded as kind 'other' although every source identifies Roland Sporeling as an NPC (locale:432170 is npc_name; the wiki calls him a human NPC). The answer's own open note already says no item exists. Minor labelling point only; it does not change the sourcing.", "fix": "Mark as an NPC, not an item, e.g. kind 'npc' or 'not_an_item', with no acquisition sources. Evidence: locale:432170 [npc_name] 'Roland Sporeling'; wiki page 'Roland Sporeling' (rev 45144), 'a human NPC found in the mountains above Frostfang Caverns'."}]}

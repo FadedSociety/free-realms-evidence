@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstone-gramophone-147798-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3696, 8972, 6, 1287] model=claude-haiku-5-5 -->
+# Stone Gramophone
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] / sources[0].source", "issue": "The sibling article (articleId=1816) is cited as supporting the Coin Shop source for the gramophone set. The article names only the Industrial Gramophone, not Stone Gramophone. It is evidence for the sibling, and the claim that it supports Stone Gramophone's Coin Shop entry is an extrapolation.", "fix": "Cite the article only for Industrial Gramophone (locale:147799). The Stone Gramophone source is repo:prototype/osfr-tools/data/content/stores.json:4008 (item 15615, category 53, 200 coins, member 180, sell 20) and :12069 (item 36599, tint group 1, same prices), both verified. Stone Gramophone's Coin Shop source rests on the store rows alone."}]}

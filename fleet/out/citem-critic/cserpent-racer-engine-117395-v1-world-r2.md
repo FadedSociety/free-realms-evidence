@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cserpent-racer-engine-117395-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4188, 8410, 6, 1080] model=claude-haiku-5-5 -->
+# Serpent Racer Engine
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer calls the Slicing Racer bundle (StoreBundles.json:8259) the 'closest' candidate for Serpent Racer acquisition. It is a different kart's bundle and is correctly left out of sources, so this is only a note, not an error.", "fix": "No change required. Keep the Slicing Racer bundle out of sources unless a Serpent Racer bundle or item ID link is evidenced. My checks agree: lookup and refs search for 'Serpent Racer' find only client locale strings, with no store, wiki or briefs hits."}]}

@@ -1,0 +1,39 @@
+{
+ "title": "Spawn of Venoxa",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\precursor_ruins.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:408551 [npc_name | - | Spawn of Venoxa] 'Spawn of Venoxa'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:408551 [npc_name | - | Spawn of Venoxa] 'Spawn of Venoxa'"
+ ],
+ "client_cluster": [
+  "locale:408543 [other | - | -] 'Vice President, Finance and Chief Financial Officer'",
+  "locale:408544 [other | - | -] 'Executive Director, Development'",
+  "locale:408545 [other | - | -] 'Executive Assistants'",
+  "locale:408546 [other | - | -] 'Special Thanks'",
+  "locale:408547 [quest_dialog | - | unruly bixies] \"Did you <font color='#d9781A'>knock out</font> those <font color='#d9781A'>unruly bixies</font> yet?<BR><BR>The queen needs her daily dose of calcium and refuse\"",
+  "locale:408549 [quest_dialog | - | sundaes] \"You didn't <font color='#d9781A'>make</font> those <font color='#d9781A'>sundaes</font> yet?<BR><BR>Those poor kids at the Ayani Hospital really need a pick me \"",
+  "locale:408551 [npc_name | - | Spawn of Venoxa] 'Spawn of Venoxa'",
+  "locale:408552 [other | - | Ancient Force Wall] 'Ancient Force Wall'",
+  "locale:408553 [quest_title | - | Hidden Rock] 'Hidden Rock'",
+  "locale:408554 [quest_dialog | - | Bugaloo] \"If you want to learn how to fish, I'll give you Bugaloo's gear. It's not like he's going to use it while sleeping.\"",
+  "locale:408556 [item | - | Rock Bucket] 'Rock Bucket'",
+  "locale:408557 [npc_name | - | Anna Mudskipper] 'Anna Mudskipper'",
+  "locale:408558 [quest_objective | Sacred Grove Shallows | Get a perfect cast] 'Get a perfect cast'",
+  "locale:408559 [quest_objective | Sacred Grove Shallows | Get a perfect cast] 'Line up your casting ring within the target ring to get a perfect cast!'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

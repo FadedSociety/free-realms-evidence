@@ -1,0 +1,40 @@
+{
+ "title": "Power Hour",
+ "names_seen": [
+  "Power Hour"
+ ],
+ "facts": [
+  {
+   "statement": "The builder earned coins through Power Hour to fund continued construction the next day.",
+   "numbers": {},
+   "era": "live",
+   "quote": "earning enough coins to do so through Power Hour the next day",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1916",
+   "date": null
+  },
+  {
+   "statement": "The player earned the coins needed for the build partly through Power Hour, after progress had been slow for financial reasons.",
+   "numbers": {},
+   "era": "live",
+   "quote": "a través del Power Hour",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1926",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1916",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms Home Show feature (posted about three days before the 2010-11-26 capture, so no absolute date) spotlighting player Firehawk894's Small Wilds House, decorated with a large Serpent Dragon Slide. The player describes the build time and coin cost and says he earned coins through Power Hour between work sessions."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1926",
+   "date": null,
+   "title": "Programa Hogareño: Firehawk894",
+   "summary": "A Spanish-language Free Realms 'Home Showcase' feature (Programa Hogareño) on a player's Small Wilds House decorated with a large serpent-dragon slide. The post gives the build cost and time (about 4 days and about 85,000 coins) and says the coins came partly through Power Hour. The page is dated only as 'Posted 6 months, 1 week ago' relative to the 2011-06-04 capture, so no exact date."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

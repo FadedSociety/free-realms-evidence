@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmagus-spectral-necklace-86624-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3897, 11427, 6, 1149] model=claude-haiku-5-5 -->
+# Magus Spectral Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] and evidence[1]", "issue": "The client-definition details (Id 22633, Class 46, Slot 9, CategoryId 108, MinProfileRank 10, Cost 582, sibling Id 22630) and the 'same dye-tint necklace shape' claim could not be re-checked in my lookups. Only the locale names were confirmed (locale:86624 is 'Magus Spectral Necklace'; 86619-86629 are the Champion/Magus necklace block). Treat the record fields as unverified by this review.", "fix": "Re-read FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json at the cited lines before relying on Cost, MinProfileRank or the sibling record. The name and cluster claims are confirmed by locale:86619-86629."}]}

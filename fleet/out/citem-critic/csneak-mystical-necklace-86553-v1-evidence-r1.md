@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csneak-mystical-necklace-86553-v1-evidence-r1 status=no_submit turns=2 usd=0.0024 tokens(read,write,in,out)=[3728, 15489, 6, 911] model=claude-haiku-5-5 -->
+# Sneak Mystical Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that no acquisition source exists. My checks agree: lookup of the name across client, wiki, articles and video returned only the client line locale:86553, and repo/refs searches for 'necklace' and definition 22562 found no Sneak Mystical Necklace source. Its sources list is correctly empty and its confidence is low.", "fix": "No change needed. Optional: note in the family-grouping claim that 'Sneak', 'Intern' and 'Grunt' read like role or job tiers, but that is an inference, not evidence, and it should stay in open."}]}

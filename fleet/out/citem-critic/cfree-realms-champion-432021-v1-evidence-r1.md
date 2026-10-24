@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfree-realms-champion-432021-v1-evidence-r1 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[12640, 9574, 8, 1189] model=claude-haiku-5-5 -->
+# Free Realms Champion
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The 'Complete all Achievements' link is only a hypothesis. Locale 432019 is a quest_title-tagged line, and the repo disagreements file (quest-lines/disagreements.tsv:5996) flags the tag conflict. Nothing in the wiki image text or the other packs ties the title to an award condition.", "fix": "Keep the acquisition as unknown with no source. The wiki Achievements image text (freerealms-wiki/harvest/lists/image_text.json) lists achievement categories and rewards but does not name this title. Mention that the 'Complete all Achievements' link is unverified."}]}

@@ -1,0 +1,26 @@
+{
+ "title": "Goal Time update",
+ "names_seen": [
+  "Goal Time update"
+ ],
+ "facts": [
+  {
+   "statement": "Attendees at the Dragon*Con panel were shown screenshots detailing the upcoming Goal Time update.",
+   "numbers": {},
+   "era": "live",
+   "quote": "were treated to screenshots detailing the upcoming Goal Time update",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=369",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=369",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A short official news post (titled 'In The Works: Goal Time Screenshots') saying the Free Realms Community Team attended Dragon*Con in Atlanta, GA, where fans attended a special panel and were shown screenshots of the upcoming Goal Time update. The post gives no details of what Goal Time contains beyond its name. The client has a string 'Goal Time Soccer' (id 318), which may relate to this update but the article does not say so."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

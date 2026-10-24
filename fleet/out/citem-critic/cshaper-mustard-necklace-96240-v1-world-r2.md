@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshaper-mustard-necklace-96240-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3483, 8925, 6, 1016] model=claude-haiku-5-5 -->
+# Shaper Mustard Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The citation locale:407487 for the claim that the set name is shared with Rocklar Shaper was not re-checked. The repo has the Rocklar Shaper enemy (loc 2775596314, Precursor Ruins) and the Shaper necklace/ring client names resolve, but the name-match link is only a string coincidence and the answer correctly labels it that way.", "fix": "No change to the answer's status. Either verify locale:407487 or drop that citation and keep the claim as an unlinked name match. The Rocklar Shaper enemy has no loot row in the repo (precursor_ruins.json:959-973, status unresolved), so it must not be listed as a source."}]}

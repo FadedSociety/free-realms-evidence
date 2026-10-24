@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdaring-destroyer-helmet-44930-v2-evidence-r3 status=done turns=2 usd=0.0022 tokens(read,write,in,out)=[3805, 11684, 6, 1423] model=claude-haiku-5-5 -->
+# Daring Destroyer Helmet
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only evidence is a stores.json coin price row (category 101) with no NPC, vendor id, or vendors.json stock row. The answer's own 'where' is null and 'open' admits the vendor type is an inference.", "fix": "Label the source as a coin-store price row (for example type 'coin_store', where unknown), not a named vendor. The verified rows are stores.json lines 2808 (item 9929: 358 coins, member 322, sell 35, tint 1), 2810 (item 9931: 358 coins, member 322, sell 35, tint 2) and 2811 (item 9932: 433 coins, member 389, sell 43, tint 3). The prices match the evidence pack's coin_store_prices [358, 433]."}]}

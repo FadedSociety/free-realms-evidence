@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cburning-honey-triangle-shard-99357-v2-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3908, 10876, 6, 1250] model=claude-haiku-5-5 -->
+# Burning Honey Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' although no vendor, NPC or shop is identified. The only evidence is a coin store price row in category 121 (stores.json:8232). Calling it a vendor overclaims what the repo supports.", "fix": "Type should be a coin store category row (e.g. 'coin_store_category', store category 121, item 32238, purchase 2363 coins). Vendor identity stays open. stores.json:8232 is the evidence and it is correct: purchase 2363, member 2126 (10% off), sell 236, no_sale false."}]}

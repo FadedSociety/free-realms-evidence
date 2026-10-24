@@ -1,0 +1,40 @@
+{
+ "title": "Birthday party locations",
+ "names_seen": [
+  "Birthday party locations"
+ ],
+ "facts": [
+  {
+   "statement": "Birthday parties took place in Jubeltal, Sanddorf, Schneehügel, Schleierwiese, Wugachug, Pfifferdorf, Dornenwald and Freistätte; players start by meeting Camellia near the big tree in Freistätte (Sanctuary).",
+   "numbers": {},
+   "era": "live",
+   "quote": "Treffe dich mit Camellia, um loszulegen.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2099",
+   "date": null
+  },
+  {
+   "statement": "Birthday parties took place across the game in Jubeltal, Sanddorf, Schneehügel, Schleierwiese, Wugachug, Pfifferdorf, Dornenwald and Freistätte.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Gehe einfach nach Jubeltal, Sanddorf, Schneehügel, Schleierwiese, Wugachug, Pfifferdorf, Dornenwald und Freistätte.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1268",
+   "date": "2010-04-22"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2099",
+   "date": null,
+   "title": "Free Realms - What is New? (German post: Die Free Realms Geburtstagsfeier!)",
+   "summary": "A German-language official news post announcing Free Realms' second-anniversary birthday party (anniversary on April 28), running from the post date until May 18. It describes party locations, birthday quests, party items, a boss called Kuchenstein with his cakelings, and an eight-cake collection reward. The post gives no exact post date; the capture is dated 2011-04-30 and the page says 'Posted 1 week, 1 day ago'."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1268",
+   "date": "2010-04-22",
+   "title": "Die Free Realms Geburtstagsfeier! (Free Realms - What is New?)",
+   "summary": "A German-language official SOE news post announcing Free Realms' first-anniversary birthday party, running from the launch-day kickoff until May 10, 2010, with party zones, new quests, party items, cakes and a boss fight against Cakenstein. The page is in German; the date is inferred from the capture (posted 6 days 13 hours before 2010-04-28), not printed in the text."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

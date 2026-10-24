@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjeweled-eternal-ring-69755-v1-evidence-r1 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[11796, 10770, 8, 1313] model=claude-haiku-5-5 -->
+# Jeweled Eternal Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] family list", "issue": "The family description is incomplete. Locale also has many more '<Name> Eternal Ring' entries (86293 Dull, 86302 Rascal, 86311 Intern, ... 86491 Kai's Eternal Ring), which the answer does not mention. This does not change the item's sourcing, but the family claim is narrower than the locale data.", "fix": "Locale lookup 'Eternal (Ring|Necklace)' shows the material-tier set (69675 Hardwood Necklace, 69685 Granite Necklace, 69698 Metallic Necklace, 69711 Jeweled Necklace, 69719/69730/69744/69755 Rings) plus a separate block of class-named Eternal Rings at 86293-86491. Source: locale."}]}

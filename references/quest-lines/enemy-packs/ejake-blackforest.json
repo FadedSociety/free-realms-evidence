@@ -1,0 +1,49 @@
+{
+ "title": "Jake Blackforest",
+ "our_entries": [
+  {
+   "file": "dungeons\\werewolf_dance_practice.json",
+   "definition_id": 930036
+  },
+  {
+   "file": "dungeons\\werewolf_dance_practice.json",
+   "definition_id": 930036
+  },
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000036,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Werewolf boss and \"a great dancer\"",
+   "location_evidence": [
+    "Blackspore"
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:432094 [npc_name | Sacred Grove | Jake Blackforest] 'Jake Blackforest'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:432093 [quest_objective | Sacred Grove | Jake Blackforest] 'Defeat the werewolves!'",
+  "locale:432094 [npc_name | Sacred Grove | Jake Blackforest] 'Jake Blackforest'",
+  "locale:432095 [npc_dialog | Sacred Grove | Jake Blackforest] \"You're gonna regret messin' with our practice!\""
+ ],
+ "client_cluster": [
+  "locale:432093 [quest_objective | Sacred Grove | Jake Blackforest] 'Defeat the werewolves!'",
+  "locale:432094 [npc_name | Sacred Grove | Jake Blackforest] 'Jake Blackforest'",
+  "locale:432095 [npc_dialog | Sacred Grove | Jake Blackforest] \"You're gonna regret messin' with our practice!\"",
+  "locale:432096 [ui | - | Custom name validation] 'The Custom name you have entered is invalid.  The last name must be less than 15 characters.'",
+  "locale:432097 [ui | - | Custom name validation] 'The Custom name you have entered is invalid.  The first name must be less than 15 characters.'",
+  "locale:432098 [ability | - | Werewolf Rage I] 'Werewolf Rage I'",
+  "locale:432099 [other | - | Werewolf Rage I | FLAG dev_note: internal note on halloween combat buff for boss NPC] 'halloween combat buff - boss NPC'",
+  "locale:432100 [ability | - | Werewolf Rage II] 'Werewolf Rage II'",
+  "locale:432102 [ability | - | Werewolf Rage III] 'Werewolf Rage III'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:Y4EnEYHMgsU/00002.jpg (-): npcs: Jake Blackforest distance_marker  | job_level: Adventurer 16 | other_text: Active Quest! Broken Robot Guard Werewolf Dance Crew"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

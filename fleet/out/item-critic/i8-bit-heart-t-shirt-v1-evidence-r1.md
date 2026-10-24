@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=i8-bit-heart-t-shirt-v1-evidence-r1 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[14500, 11707, 8, 1283] model=claude-haiku-5-5 -->
+# 8-Bit Heart T-Shirt
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 5, "problems": [{"field": "sources[0] and sources[1] (price pairing)", "issue": "The answer says the regular/Members pairing is inferred from the 10% wording. The page's wikitext (refs: freerealms-wiki/wikitext/16537-33604-ce16de64787b.wiki, line 3) shows the numbers directly: regular price {{Coin|4,999}}, Members 10% discount {{Coin|4,499}}. The prices and currency (coins, Coin Shop) are correct, and 4499 is 10% off 4999 after rounding.", "fix": "Cite the wikitext for the pairing: 'Coin Shop regular 4,999 coins; Members 4,499 coins' (wiki rev 33604 wikitext, line 3). The open note on the blanked numbers can be closed. No change to the price or currency."}]}

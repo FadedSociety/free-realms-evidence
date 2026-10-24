@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cindustrial-gramophone-147799-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3736, 7060, 6, 1049] model=claude-haiku-5-5 -->
+# Industrial Gramophone
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Wording 'Coin Shop sale' and the 225 'member price' could be read as a time-limited sale. The store row (stores.json:12070) gives a standing purchase price of 250 coins with a 10% member price of 225; it is not a sale. The answer's open list already says so.", "fix": "Describe it as a standing Coin Shop listing at 250 coins (member 225), per repo:prototype/osfr-tools/data/content/stores.json:12070 and the article articleId=1816 'added to the Coin Shop' fact. No sale is evidenced."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cissue-10-certificate-of-authenticity-416379-v2-evidence-r3 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4044, 5081, 6, 914] model=claude-haiku-5-5 -->
+# Issue 10 Certificate of Authenticity
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4]/open", "issue": "The answer's claim that the Issue 10 cover text is evidence (image_text.json:104737) was not verified in my pass. The weapons.json:16208 citation does support that Flute of Slumber is acquired by entering the code from comic #10, so the Flute claim holds.", "fix": "Cite the Flute of Slumber wiki acquisition text (weapons.json:16208) and confirm the cover-text citation separately, or drop it. The comic-code-to-reward link is confirmed by the wiki page 'Free Realms (comic)' (code inside each issue redeems exclusive items)."}]}

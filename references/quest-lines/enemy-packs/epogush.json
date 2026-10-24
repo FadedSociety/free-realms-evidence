@@ -1,0 +1,29 @@
+{
+ "title": "Pogush",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json"
+  },
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000931,
+   "zone": "Wilds",
+   "enemy_kind": "Fort lieutenants: \"Blutin, the Roughguard Captain\", \"Videez, the Master Sneakscout\", \"Pogush, the Mighty Seerdoctor\".",
+   "location_evidence": [
+    "Inside the Fort."
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

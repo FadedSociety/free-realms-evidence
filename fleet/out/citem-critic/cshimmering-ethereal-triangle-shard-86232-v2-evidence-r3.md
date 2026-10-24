@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshimmering-ethereal-triangle-shard-86232-v2-evidence-r3 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4158, 8951, 6, 1245] model=claude-haiku-5-5 -->
+# Shimmering Ethereal Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' although no vendor is identified (where: null). The only evidence is a stores.json coin-store row in category 121, which is a store-category listing, not a named vendor stock row. The label overstates what is known.", "fix": "Relabel as a coin store listing (category 121, vendor unidentified), e.g. type 'coin_store_row', as the answer's own open[0] already concedes. Price is supported: stores.json line 6656 item_id 22241, purchase 866, member 779 (10%), matching the client coin_store_prices [866]."}]}

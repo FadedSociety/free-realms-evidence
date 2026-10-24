@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2690 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2948, 4, 368] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin error screen ('exceeded the maximum number of posts you can view') on the Free Realms fan forum, showing only site navigation and forum category names. It contains no thread text, guide, drop or price report, or game mechanics a rebuilder could use.", "facts": [], "quests": [], "uncertain": ["The requested thread (t=2690) body was not captured; only the registration-wall error page and forum index appear in the extracted text.", "The page date is not shown; only the capture date 2009-07-27 is known."]}

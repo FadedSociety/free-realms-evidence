@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cyellow-square-tiger-block-30204-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3837, 7945, 6, 1326] model=claude-haiku-5-5 -->
+# Yellow Square Tiger Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / open", "issue": "The store row for 77104 checks out (stores.json line 16435: category 147, purchase 250, member 225 at 10%, sell 25, no_sale false). The answer correctly leaves the vendor NPC and retired status open. Nothing in the repo ties category 147 to a named coin vendor, and the wiki has no Tiger Block entry, so 'coin vendor sale' stays an inference from the store table alone.", "fix": "No change needed to the claim. Optionally note that the row's source_tags (L1, L2, L4, R2, T633, R1) are unexplained and that sibling rows 77095-77104 share the same 250-coin price, so the price is set per group, not per item."}]}

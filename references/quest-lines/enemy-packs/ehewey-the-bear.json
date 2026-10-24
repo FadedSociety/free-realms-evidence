@@ -1,0 +1,64 @@
+{
+ "title": "Hewey the Bear",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\hewey_s_escape.json"
+  },
+  {
+   "file": "dungeons\\hewey_s_escape.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:5734 [npc_name | - | Hewey the Bear] 'Hewey the Bear'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5734 [npc_name | - | Hewey the Bear] 'Hewey the Bear'",
+  "locale:101558 [quest_objective | - | Hewey the Bear] 'Defeat the angry bear!'",
+  "locale:101560 [quest_objective | - | Hewey the Bear] 'Knock out Hewey the Bear!'",
+  "locale:101561 [quest_dialog | - | Hewey the Bear] 'Hewey the Bear has escaped from the zoo and refuses to leave this cave. Knock him out so Harold can take him home.'",
+  "locale:101562 [quest_dialog | - | Hewey the Bear] \"So, you found me! Well, prepare to defend yourself! I won't hold back!\"",
+  "locale:102018 [npc_dialog | - | Hewey the Bear] 'Hewey the Bear roars angrily!'",
+  "locale:102022 [npc_dialog | - | Hewey the Bear] 'The angry bear runs away to find and eat some honey... angry honey!'",
+  "locale:115071 [quest_dialog | - | Hewey the Bear] \"Hewey the Bear escaped from the zoo! He's a friendly bear, but he hurt himself and won't let anyone near him.<BR><BR>I need to capture him to treat his injury. \"",
+  "locale:115073 [quest_dialog | - | Hewey the Bear] \"I've helped raise <font color='#D9781A'>Hewey</font> from nothing but a little cub. I can't hurt him, not even a little bit, but he's so angry for some reason!<\"",
+  "locale:115342 [quest_dialog | - | Hewey the bear] \"<font color='#D9781A'>Hewey's in the cave behind me</font>. I know he's a big bear, but try to go easy on him! He isn't really mean, something's just upset him.\""
+ ],
+ "client_cluster": [
+  "locale:5727 [item | - | Raspberry Truffle] 'Raspberry Truffle'",
+  "locale:5728 [item | - | Lemon Truffle] 'Lemon Truffle'",
+  "locale:5729 [item | - | Vanilla Truffle] 'Vanilla Truffle'",
+  "locale:5730 [item | - | Mint Truffle] 'Mint Truffle'",
+  "locale:5731 [item | - | Chocolate Truffle] 'Chocolate Truffle'",
+  "locale:5732 [other | - | Truffle trading] 'Truffles for trading? Let the truffle shuffle begin!'",
+  "locale:5733 [ability | - | Deathly Aura] 'Deathly Aura'",
+  "locale:5734 [npc_name | - | Hewey the Bear] 'Hewey the Bear'",
+  "locale:5735 [item | - | Angry Bear Profile] 'Angry Bear Profile'",
+  "locale:5737 [quest_dialog | - | Unga] \"So you managed to teach Unga a thing or two, eh?  Well it probably wasn't enough!  Heck, why I bet if I was there, I coulda showed you how to really teach that \"",
+  "locale:5739 [item | - | Treeleaf Hedge] 'Treeleaf Hedge'",
+  "locale:5740 [item | - | Astral Enchanted Fez] 'Astral Enchanted Fez'",
+  "locale:5742 [item | - | Eclipse Infused Fez] 'Eclipse Infused Fez'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Hewey the Bear\nHarold",
+  "image (image:world_screenshot): Hewey the Bear\nAHHHHHHHHH! HELP ME!!!\nHarold\nHarold: HELLLLLLLLLLLP MEEEEEEEEEEE!!!\nHarold: AHHHHHHHHH! HELP ME!!!"
+ ],
+ "video": [
+  "video:DheErd-aDpQ/00058.jpg (-): npcs: Harold nameplate  | dialog: Looks like you have full energy! | quest:   Knock out Hewey the Bear!  | job_level: Brawler 5 | other_text: Hewey the Bear Goals (1) You can't use abilities when you are stunned!",
+  "video:fktAs_GRrjM/00424.jpg (-): npcs: Hewey the Bear nameplate  Harold chat_speaker  | dialog: Harold: Phew! You got here just in time! | quest:   Knock out Hewey the Bear  | landmarks: cave wall stone path | other_text: You don't have enough energy for that ability!",
+  "video:fktAs_GRrjM/00418.jpg (-): npcs: Hewey the Bear nameplate  Harold chat_speaker  | dialog: Harold: AHHHHHHHHHH! HELP ME!!! Harold: HELLLLLLLLLLLLLP MEEEEEEEEEEE!!! | quest:   Knock out Hewey the Bear  | landmarks: cave wall stone path | other_text: You don't have enough energy for that ability! Goals (1)",
+  "video:fktAs_GRrjM/00416.jpg (Highroad Junction): npcs: Harold chat_speaker  | dialog: Don't just stand there! HELP ME!!! AHHHHHHHHHH! HELP ME!!! HELLLLLLLLLLLP MEEEEEEEEEEE!!! | quest:   Knock out Hewey the Bear? (partly legible)  | other_text: Highroad Junction Hewey's Escape Hewey the Bear (enemy nameplate, health bar) Goals ",
+  "video:fktAs_GRrjM/00438.jpg (-): npcs: Hewey the Bear nameplate  Harold chat_speaker  | dialog: Don't Stop! Keep attacking! Are you okay!? Try using a potion! | quest: Hewey's Escape  Knock out Hewey the Bear  | landmarks: cave walls | other_text: You don't have enough energy for that ability! Introduce Yourself"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Brawler: Hewey's Escape!' (final): Knock out Hewey the Bear!"
+ ]
+}

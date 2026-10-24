@@ -1,0 +1,40 @@
+{
+ "title": "Chatty's Summer Camp Party",
+ "names_seen": [
+  "Chatty's Summer Camp Party"
+ ],
+ "facts": [
+  {
+   "statement": "Bigfoot was reported near Camp Chatty during the summer camp event week, and players were invited to seek it out.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Si tu es à la recherche de Bigfoot près du Camp d’été de Chatty",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1552",
+   "date": null
+  },
+  {
+   "statement": "Summer Camp update: players were told to log in to check new quests, activities, loot items, clothing, Marketplace and Camp Store items, and housing decorations.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Connectez-vous aujourd'hui pour vérifier des nouvelles quêtes, des activités, des objets butin, des vêtements",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1502",
+   "date": "2010-06-04"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1552",
+   "date": null,
+   "title": "Camp d'été – La Semaine d'Aventure! (Free Realms - What is New?)",
+   "summary": "A French-language official news post from Free Realms' summer camp event run, announcing the 'Adventure Week' theme and listing when in-game events run. It also explains how to use the in-game Game Guide calendar to find events and teleport to them. The post gives no exact date (only 'posted 11 months, 1 week ago' relative to capture)."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1502",
+   "date": "2010-06-04",
+   "title": "Free Realms - What is New?",
+   "summary": "This French-language patch note (headed 'Les Notes de Mise à Jour (04/06/2010)') announces a Summer Camp event with Chatty and Robbie camps near the Greenwood Forest warpstone, including new Marketplace and Camp Store items, a playground near the Sanctuary warpstone, a housing surprise-block option, next-generation doctor equipment on the Station Cash marketplace, and multi-month subscriptions. The date is read from dd/mm/yyyy and is not otherwise confirmed."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

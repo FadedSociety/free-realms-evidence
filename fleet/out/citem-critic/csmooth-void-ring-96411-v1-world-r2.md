@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmooth-void-ring-96411-v1-world-r2 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[12231, 11996, 8, 1482] model=claude-haiku-5-5 -->
+# Smooth Void Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that no stores.json entry exists for item 31005 cites no file I could confirm. The evidence pack only shows coin_store_prices is empty. The conclusion (no coin price evidenced) still holds.", "fix": "Cite the pack's client_definition.coin_store_prices = [] as the basis, or search the repo vendor/store files for 31005 before claiming none exists."}, {"field": "evidence[3]", "issue": "The repo hit for name_id 131005 at prototype/osfr-tools/data/content/vendors.json:45907 is a different item, as the answer says. It is not evidence for this item. The answer correctly labels it as a non-match.", "fix": "No change needed; keep it as a negative check."}]}

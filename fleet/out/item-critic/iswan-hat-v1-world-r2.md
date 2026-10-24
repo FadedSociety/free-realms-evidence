@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iswan-hat-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3391, 7310, 6, 1051] model=claude-haiku-5-5 -->
+# Swan Hat
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 89 and 80 coin values rest only on the wiki's coin metadata field; the rendered page text has its price numbers stripped. The answer already flags this in open. The figures are internally consistent (80 is 10% off 89, rounded), so the claim holds as far as it goes.", "fix": "Keep the open note. Confirm 89 regular / 80 Members against Coin Shop data before treating the price as final."}, {"field": "retired / live", "issue": "Null and unsure are honest. The pack shows no Retired category and no post-2014 evidence, so there is nothing to change.", "fix": "No change required; leave retired null and live unsure until Coin Shop data is checked."}]}

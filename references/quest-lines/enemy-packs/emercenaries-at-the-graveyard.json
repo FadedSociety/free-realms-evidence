@@ -1,0 +1,23 @@
+{
+ "title": "Mercenaries at the graveyard",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000046,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Hired guards of relic diggers",
+   "location_evidence": [
+    "Blackspore graveyard"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

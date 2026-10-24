@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-printthread-php-t-2088 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2871, 4, 572] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a Free Realms Forums page showing only a vBulletin 'maximum number of posts you can view' error and forum navigation. The thread the URL points to (t=2088) has no readable post text, so it yields no game facts for the rebuild.", "facts": [], "quests": [], "uncertain": ["The thread's actual content is absent; only the forum error and navigation text was captured.", "The thread title, author and date are not shown in the capture.", "The capture date is 2009-06-03 (from the Captured field), but the page shows 'The time now is 07:51 PM' with no date, so no article date can be established."]}

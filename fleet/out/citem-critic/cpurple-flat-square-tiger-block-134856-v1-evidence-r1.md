@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpurple-flat-square-tiger-block-134856-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3976, 6202, 6, 1102] model=claude-haiku-5-5 -->
+# Purple Flat Square Tiger Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type / where", "issue": "The source is a coin-store category row (category 147), not a identified vendor. Labelling it type 'vendor' with where null overstates what is known. The stores.json row itself is real and matches.", "fix": "Relabel as a coin store sale (store category 147, no vendor NPC identified), e.g. type 'coin_store', with the price left as stated. Source: prototype/osfr-tools/data/content/stores.json line 16642 (item_id 77311, category_id 147, purchase_price_coins 250, member_price_coins 225, sell_price_coins 25)."}]}

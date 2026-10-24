@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmall-striped-caterpillar-40842-v1-world-r2 status=no_submit turns=3 usd=0.0018 tokens(read,write,in,out)=[11574, 8702, 8, 1177] model=claude-haiku-5-5 -->
+# Small Striped Caterpillar
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources / open", "issue": "Minor: the answer's line that the collection is on the 2013 wiki list is only partly supported. The wiki List of Collections page I checked shows '[Striped] [Caterpillars]', which fits, but it gives no per-item sources. The answer is right to leave sources empty.", "fix": "No change to the answer. Keep sources empty and retired null. Cite the List of Collections entry '[Striped] [Caterpillars]' as the evidence that the collection existed, not as evidence for this item."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbriarwood-archway-44087-v1-evidence-r1 status=no_submit turns=2 usd=0.0014 tokens(read,write,in,out)=[3786, 6452, 6, 1067] model=claude-haiku-5-5 -->
+# Briarwood Archway
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail / open", "issue": "The coin-store row is real. stores.json line 4076 has item_id 16016, category 57, purchase 50, member 45, sell 5, no_sale false. The sibling rows 16014-16026 carry the same 50-coin price, which supports the group reading. The unexplained source_tags (L1, L2, L4, R2, T633, R1) are shared by every row in this block, so they add no item-specific evidence. The vendor and shop remain unevidenced, and the answer already says so in open.", "fix": "No correction needed to the price or currency. Optionally note that source_tags are a shared block tag, not per-item evidence, and that the coin_shop label rests only on the stores.json row."}]}

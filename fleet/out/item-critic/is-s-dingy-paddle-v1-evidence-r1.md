@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=is-s-dingy-paddle-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3781, 8748, 6, 1116] model=claude-haiku-5-5 -->
+# S.S. Dingy Paddle
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[4] / sources", "issue": "The claim that Sanctuary/src/Resources/ClientItemDefinitions.json:50008 defines this item was not verified in my check. I confirmed only FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:50008 has Comment 'S.S. Dingy Paddle'. The 'consistent with a real item' claim is weak and proves nothing about acquisition.", "fix": "Cite only the verified Legacy line (FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:50008), or re-verify the Sanctuary path before citing it."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfiery-speedster-steering-column-117442-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4016, 10615, 6, 1330] model=claude-haiku-5-5 -->
+# Fiery Speedster Steering Column
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] and evidence[3]", "issue": "Two supporting claims were not re-checked: the ItemClasses rows 75/76 and 131 part rows from piece 041, and the video frame showing a Blast Speedster Turbo 'Tight Turning ... Value: 10' tooltip. The answer's sources list is empty, so these do not feed any source. They are background only.", "fix": "Either verify them against notes/Research/Pieces/041 Racer and derby progression.md item 5 and video frame P2SusMJ2_tQ/00002, or label them as unverified background. No change to the sources or the answer is needed."}]}

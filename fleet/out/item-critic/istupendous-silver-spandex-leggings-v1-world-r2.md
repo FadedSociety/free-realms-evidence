@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=istupendous-silver-spandex-leggings-v1-world-r2 status=no_submit turns=2 usd=0.0015 tokens(read,write,in,out)=[3817, 7351, 6, 1025] model=claude-haiku-5-5 -->
+# Stupendous Silver Spandex Leggings
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "retired", "issue": "The retired flag is inferred from past tense and the March 31, 2014 window end. The wiki's categories (All Jobs, Clothing, HeroRealms Month, Legs, Trading Card Game, Virtual Rewards) include no Retired or Unobtainable category. The answer already lists this in `open`, so it is an honest unknown rather than a wrong fact.", "fix": "Keep retired=true only as inferred. Cite the wiki's 'were' tense and the 2014 window (wiki page text, rev 38560) as the basis, and note that no retirement category exists."}]}

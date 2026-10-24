@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-amateur-chef-pants-pl-amateur-chef-pants-28675-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3398, 8431, 6, 1081] model=claude-haiku-5-5 -->
+# {n}Amateur Chef Pants{pl="Amateur Chef Pants"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but no vendor NPC is evidenced. The only source is a stores.json row (category_id 104). The row's purchase_price_coins 291 and member_price_coins 261 are a coin store entry, not a named vendor sale. The answer's own open list says the vendor is unknown.", "fix": "Type should read 'coin store' (stores.json line 3857, item 14839, category 104, purchase_price_coins 291, member_price_coins 261, 10% member discount), with vendor and zone left unknown. I checked the row directly and the numbers match. The evidence pack's coin_store_prices [291] agrees."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfastvi-s-cosmic-necklace-86742-v2-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4241, 5245, 6, 1124] model=claude-haiku-5-5 -->
+# Fastvi's Cosmic Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[1]", "issue": "The text still contains 'locale:262959974', which the answer itself says is removed and which the id check confirms does not exist. The correction is written into the open list while claiming it was removed, so the record is internally inconsistent.", "fix": "Delete the sentence that mentions locale:262959974 entirely. Keep only the statement that no Steelbloom necklace sale is evidenced; the real Steelbloom texts are repo:notes/Build Guides/Content/Jobs/Warrior.md:66 (client 245522932) and Blacksmith.md:408 (client 1432511810), and neither names a necklace or a purchase."}]}

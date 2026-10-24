@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-17649 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2872, 4, 401] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a Free Realms Forums vBulletin error and index page. It shows a 'maximum number of posts you can view' registration prompt and a list of forum section names, but no thread text. It contains no usable Free Realms facts for the rebuild.", "facts": [], "quests": [], "uncertain": ["The page captured a forum-view-limit error instead of the intended thread (p=17649); the original thread content is not present.", "Forum section names listed (e.g., Combat In Free Realms, Items, Jobs/Classes, In-Game Mini Games, Pets, Membership / Stationcash) are navigation labels only, not game facts."]}

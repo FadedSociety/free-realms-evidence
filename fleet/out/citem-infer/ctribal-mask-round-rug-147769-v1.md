@@ -1,0 +1,10 @@
+<!-- fleet job=citem-infer id=ctribal-mask-round-rug-147769-v1 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[7300, 7180, 8, 1667] model=claude-haiku-5-5 -->
+# Tribal Mask Round Rug
+
+{"item": {"name": "Tribal Mask Round Rug", "locale_id": 147769, "kind": "furniture"},
+ "sources": [{"type": "vendor", "detail": "Coin store sale (category 53, decorations/rugs); the specific vendor NPC is not named in the store data", "where": null, "price": "50 coins (member price 45 coins, 10% member discount)", "currency": "coins", "source": "prototype/osfr-tools/data/content/stores.json item 36570 (line 14836: purchase_price_coins 50, member_price_coins 45, sell_price_coins 5, no_sale false)"}],
+ "retired": null,
+ "live": "yes",
+ "evidence": [{"claim": "Client name exists as item text 'Tribal Mask Round Rug' (locale 147769), in the same rug cluster 147764-147774", "source": "locale:147769"}, {"claim": "Store data lists item 36570 for sale at 50 coins, not marked no_sale, so it is a current coin store item", "source": "prototype/osfr-tools/data/content/stores.json item 36570 (line 14836)"}, {"claim": "Its source tags (L1, L2, L4, R2, T633, R1) match the tag set shared by other coin-sold decorations in category 53, which indicates the same coin-store listing pattern", "source": "prototype/osfr-tools/data/content/stores.json, category 53 entries"}, {"claim": "Wiki Decorations list includes other round/square rugs (Flower [Round] [Rug], Starry Night [Rug], Snowhill Lodge [Rug]) but no Tribal Mask entry appears in the matched wiki text", "source": "wiki page:ns0 Items"}],
+ "confidence": 0.5,
+ "open": ["The vendor NPC and zone for the coin sale are not identified: the store tags (L1, L2, L4, R1, R2, T633) are location codes with no name mapping in the pack.", "No wiki article, article fact, or video names this rug, so the 50-coin price rests only on the store data.", "Whether the rug was ever retired or removed from sale is unknown; no source in the pack says.", "Pack's stores.json path is prototype/osfr-tools/data/content/stores.json, not data/content/stores.json.", "No drop, quest, event, or prize-wheel source found."]}

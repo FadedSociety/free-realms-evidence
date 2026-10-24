@@ -1,0 +1,94 @@
+{
+ "title": "Cherry Blossom Tree",
+ "names_seen": [
+  "Cherry Blossom Tree"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms players could buy a Cherry Blossom Tree for 500 Station Cash as part of the Japan earthquake relief fundraiser.",
+   "numbers": {
+    "price_station_cash": 500
+   },
+   "era": "live",
+   "quote": "dans EverQuest, Free Realms, et Clone Wars Adventures, les joueurs pourront acheter un 'Cherry Blossom Tree' ... pour 500 Station Cash.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2068",
+   "date": null
+  },
+  {
+   "statement": "A Cherry Blossom item was sold in the in-game catalog as part of a Japan disaster relief promotion, available until April 1.",
+   "numbers": {
+    "donation_per_item_usd": 10
+   },
+   "era": "live",
+   "quote": "Hasta el 1ro de Abril, adquiere un Cherry Blossom (Cerezo de Flor)",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2076",
+   "date": null
+  },
+  {
+   "statement": "Free Realms players could buy a Cherry Blossom Tree for 500 Station Cash as a show of support for Japan earthquake relief.",
+   "numbers": {
+    "price_station_cash": 500
+   },
+   "era": "live",
+   "quote": "los jugadores podrán comprar un Cherry Blossom Tree ... por una suma de 500 Station Cash",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2070",
+   "date": "2011-03-25"
+  },
+  {
+   "statement": "The Cherry Blossom Tree is a virtual home decoration meant to show community support for Japan's devastation.",
+   "numbers": {},
+   "era": "live",
+   "quote": "pueden ser ubicados como adornos hogareños virtuales dentro de nuestros juegos",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2070",
+   "date": "2011-03-25"
+  },
+  {
+   "statement": "Free Realms offered a Cherry Blossom Tree for purchase at 500 Station Cash as support for Japan earthquake relief.",
+   "numbers": {
+    "price_station_cash": 500
+   },
+   "era": "live",
+   "quote": "los jugadores podrán comprar un Cherry Blossom Tree ... por una suma de 500 Station Cash",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2071",
+   "date": "2011-03-25"
+  },
+  {
+   "statement": "SOE donated $10 to the American Red Cross for each Cherry Blossom item bought during the sale window, across its games including Free Realms.",
+   "numbers": {
+    "donation_usd": 10
+   },
+   "era": "live",
+   "quote": "SOE donará $10 a la * Cruz Roja Americana",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2071",
+   "date": "2011-03-25"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2068",
+   "date": null,
+   "title": "Comment Aider les Victimes du Séisme au Japon!",
+   "summary": "A French-language SOE news post (captured under the 'What is New?' page) announcing a 2011 charity sale after the Japan earthquake and tsunami. Free Realms took part by selling a 'Cherry Blossom Tree' for 500 Station Cash, with SOE donating $10 to the American Red Cross for each Cherry Blossom bought during March 25-28. The post is multi-game; the Free Realms-specific details are limited to the tree's price and availability window."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2076",
+   "date": null,
+   "title": "Free Realms - What is New? (Spanish: Apoyo Extendido a los Damnificados del Desastre ocurrido en Japón!)",
+   "summary": "A Spanish-language SOE news post on the freerealms.com news page, extending a Japan earthquake and tsunami relief promotion. Buyers of a Cherry Blossom item in the in-game catalog through April 1 had SOE donate $10 per item to the American Red Cross. The post is part of a multi-game SOE promotion, and the page does not state a exact post date (only a relative 'Posted 2 months, 6 days ago')."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2070",
+   "date": "2011-03-25",
+   "title": "Apoyo a los Damnificados del Terremoto y Tsunami ocurrido en Japón",
+   "summary": "This Spanish-language SOE news post (page titled 'Free Realms - What is New?') describes a March 2011 fundraiser for Japan earthquake and tsunami relief. Free Realms was one of several SOE games where a Cherry Blossom Tree could be bought for 500 Station Cash, with SOE donating $10 per Cherry Blossom purchased from March 25 to March 28 to the American Red Cross. Free Realms is only one item in a multi-game list, so the rebuild should treat it as a minor fact."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2071",
+   "date": "2011-03-25",
+   "title": "Apoyo a los Damnificados del Terremoto y Tsunami ocurrido en Japón",
+   "summary": "A Spanish-language SOE post (page title 'Free Realms - What is New?') announcing a Japan earthquake and tsunami relief fundraiser. Free Realms players could buy a Cherry Blossom Tree for 500 Station Cash during the sale window, and SOE donated $10 per Cherry Blossom item sold to the American Red Cross. The post is mostly site-wide, and only the Free Realms lines are kept here."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

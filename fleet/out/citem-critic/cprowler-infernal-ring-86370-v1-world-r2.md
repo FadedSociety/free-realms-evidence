@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cprowler-infernal-ring-86370-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3875, 8100, 6, 1017] model=claude-haiku-5-5 -->
+# Prowler Infernal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "The family description lists only Physician and Prowler rings. The locale dumps also contain matching Prowler and Physician Necklace names (for example 'Prowler Infernal Necklace', 'Prowler Celestial Necklace', 'Prowler Dreadful Necklace'), so the tier family is wider than the answer says. This is context only and does not change the ring's status.", "fix": "Note that the same tier words are used for Prowler and Physician necklaces as well as rings (en_us_data.dat string tables in the repo and refs; locale:86359-86376 for the ring rows). No source for any of them is found."}]}

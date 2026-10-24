@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmart-solid-caterpillar-40836-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4082, 6770, 6, 1448] model=claude-haiku-5-5 -->
+# Smart Solid Caterpillar
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the collection_catalogue.json collection 79 record also carries a collection-level reward (coins 4 plus an items list, starting at line 5978) that the answer never mentions. It is a collection reward, not a source for this item, so it does not change the answer, but a builder reading the sources should know it exists.", "fix": "Optionally note in open that collection 79 has a collection-level reward block (repo:collection_catalogue.json:5978) that is not attributed to individual entries. Do not attach it to Smart Solid Caterpillar."}]}

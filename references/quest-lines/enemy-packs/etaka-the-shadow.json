@@ -1,0 +1,48 @@
+{
+ "title": "Taka the Shadow",
+ "our_entries": [
+  {
+   "file": "dungeons\\danger_peaks.json",
+   "definition_id": 930047
+  },
+  {
+   "file": "dungeons\\danger_peaks.json",
+   "definition_id": 930047
+  },
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000951,
+   "zone": "Wilds",
+   "enemy_kind": "Shadow Talon ninja leader and boss of Danger Peaks.",
+   "location_evidence": [
+    "\"At the top of Danger Peaks\" (1972472335); the gate is \"near Greenwood Forest\" (2109427437)."
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:15570 [npc_name | - | Taka the Shadow] 'Taka the Shadow'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:15570 [npc_name | - | Taka the Shadow] 'Taka the Shadow'",
+  "locale:20030 [quest_dialog | Danger Peaks | Taka the Shadow] 'However, there is a task I need assistance with. I have recently learned that the leader of the Shadow Talon Clan is up to no good. Should you defeat him, I wil'",
+  "locale:20032 [quest_objective | Danger Peaks | Taka the Shadow] 'The leader is named Taka the Shadow and he can be found in Danger Peaks. Use caution if you go up against him.'",
+  "locale:4420169 [quest_objective | - | Taka the Shadow] 'Taka the Shadow hides at the top of Danger Peaks.<BR><BR>Scale the mountain and retrieve his super-old (but super COOL) ninja sword!'"
+ ],
+ "client_cluster": [
+  "locale:15562 [quest_objective | - | kart parts (robgoblins' treasure trove)] 'If you could go there and get four kart parts for me, I would be the happiest - and fastest - pixie in the whole wide world!'",
+  "locale:15567 [item | - | Shadow Talon Blade] 'Shadow Talon Blade'",
+  "locale:15568 [item | - | Shadow Talon Ninja] 'Shadow Talon Ninja'",
+  "locale:15570 [npc_name | - | Taka the Shadow] 'Taka the Shadow'",
+  "locale:15571 [item | - | Trained Hawk] 'Trained Hawk'",
+  "locale:15572 [item | - | Trained Eagle] 'Trained Eagle'",
+  "locale:15575 [quest_dialog | - | Changeling joke book pages] 'Have you seen a Changeling run by here? Some Changeling bandit stole some pages from a joke book I was writing! Maybe you could help me recover the pages!'",
+  "locale:15576 [other | - | TESTMiner | FLAG placeholder: test text] 'TESTMiner'",
+  "locale:15578 [quest_dialog | - | Changeling joke book pages] 'There was a Changeling that was looking down so I tried to cheer him up by telling him this joke: How many Changelings does it take to light a lantern? None! Th'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

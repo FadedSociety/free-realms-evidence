@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-piece-053-rs-L1 status=done turns=4 usd=0.0057 tokens(read,write,in,out)=[23514, 15701, 10, 7101] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_053.rs lines 1-331 of 331
+
+Window reviewed: `prototype/osfr-tools/tests/piece_053.rs` lines 1-331, against `src/restoration/piece_053.rs` (the module under test). Most tests check real behaviour: the acquire, reject, disengage, reach and clamp paths all have concrete expected values that the code under test does not compute for itself. Three findings:
+
+- **[medium] prototype/osfr-tools/tests/piece_053.rs:136 pursuit_steps_toward_the_target_without_overshooting_the_stop_margin - the pursuit loop has no iteration bound, so a regression that stops movement makes the test hang instead of fail.**
+  - Why it cannot catch a regression: if `close_in` (src line 245-247) computes a step of 0, or `step_toward` stops moving the actor, every tick still returns `Pursuing` with an unchanged position. The `break` only fires on empty events or `InReach`, and the `remaining >= AGGRO_STOP_MARGIN` check passes on every iteration. The loop never ends. The other two loops in this file (lines 199-209 and 319-329) have an `assert!(now < 100_000)` guard, and this one does not.
+  - Fix: add `assert!(now < 100_000, "pursuit never closed to reach")` at the top of the loop, or cap the iteration count, so a stalled actor fails the test.
+
+- **[medium] prototype/osfr-tools/tests/piece_053.rs:305 returning_actor_reacquires_only_after_reaching_home - the "still returning" premise is false, so the test never exercises a returning actor that is far from home.**
+  - Why it cannot catch a regression: the actor is only about 0.3 units from its anchor when it disengages. At tick 300 (line 311), `return_home` (src lines 255-269) moves it onto the anchor and emits `ReturnedHome` in that same tick, so the actor is already Idle when the "reacquired while still returning" assertion runs at lines 312-317. A change that lets a Returning actor re-acquire at any distance from home, or that acquires before it arrives, can still pass as long as it does not act on this specific tick.
+  - Fix: first move the actor several ticks toward the target, or put the target further out so the disengage happens far from the anchor. Then assert `npc.phase() == AggroPhase::Returning` and that no `Acquired` event appears on every tick until a `ReturnedHome` event has been seen. Only after that should the reacquire be checked.
+
+- **[low] prototype/osfr-tools/tests/piece_053.rs:118 nearest_eligible_player_is_acquired_when_several_are_present - the name says "nearest eligible", but every candidate is eligible, so the eligibility filter is never tested against a nearer candidate.**
+  - Why it cannot catch a regression: if `acquire` (src lines 187-194) drops the `rejection_for(...).is_none()` filter, the pick is still guid 9 at distance 4, which is the nearest. The test would still pass even though a dead, out-of-zone, or non-hostile nearer candidate could now be chosen.
+  - Fix: add a nearer candidate that is ineligible (for example guid 6 at distance 1 with `alive: false`, or `zone: ZONE + 1`), and assert that guid 9 is still acquired. Optionally assert that the ineligible one is never the target.

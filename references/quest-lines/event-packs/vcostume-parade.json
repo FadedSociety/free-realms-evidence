@@ -1,0 +1,49 @@
+{
+ "title": "Costume Parade",
+ "names_seen": [
+  "Costume Parade"
+ ],
+ "facts": [
+  {
+   "statement": "The Costume Parade community event ran on Friday October 23rd, 2009 on Server 1, with separate times for US/Latin America and UK/Europe.",
+   "numbers": {
+    "US/Latin America start hour (Pacific)": 15,
+    "US/Latin America end hour (Pacific)": 17,
+    "UK/Europe start hour (Pacific equivalent)": 9,
+    "UK/Europe end hour (Pacific equivalent)": 11
+   },
+   "era": "live",
+   "quote": "Friday October 23rd 3pm – 5pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=516",
+   "date": null
+  },
+  {
+   "statement": "Players were to bring their pet, wear a favorite costume, and teleport to Blackspore to party for about an hour before marching as a group out of the swamp.",
+   "numbers": {
+    "party duration hours": 1
+   },
+   "era": "live",
+   "quote": "Bring your pet and wear your favorite costume and teleport to Blackspore. We will party for about an hour",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=516",
+   "date": null
+  },
+  {
+   "statement": "After leaving the swamp, the parade was to overrun Crossroads and keep partying there; the organisers also floated dropping headstones so everyone turned into skeletons.",
+   "numbers": {},
+   "era": "live",
+   "quote": "From there we’ll overrun Crossroads where we’ll party some more!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=516",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=516",
+   "date": null,
+   "title": "Free Realms - What is New? (Community Event: Costume Parade)",
+   "summary": "A community event announcement for a Costume Parade on Friday October 23rd, 2009, run on Server 1 at two times for US/Latin America and UK/Europe. Players were to bring their pet, wear a costume, teleport to Blackspore, party about an hour, then march out of the swamp into Crossroads. The post date is not printed; the page's relative timestamp ('1 week, 20 hours ago' at capture on 2009-10-30) suggests about October 21, 2009."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,48 @@
+{
+ "title": "Trolls",
+ "our_entries": [
+  {
+   "file": "dungeons\\forest_troll_fort.json",
+   "definition_id": 930070
+  },
+  {
+   "file": "dungeons\\trail_of_betrayal.json",
+   "definition_id": 930070
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:5667 [quest_objective | - | Trolls] 'Trolls are training spiders to strengthen their army. Defeat General Grexan before the trolls become unstoppable!'",
+  "locale:9585 [quest_dialog | - | trolls] \"All dem lazy trolls be workin' hard? They probably just see you comin' and then start workin'. Some work better than no work though, aye? Thanks for checkin' up\"",
+  "locale:72949 [quest_objective | - | Trolls] 'Trolls are up to something sinister here. Go in and defeat them!'",
+  "locale:73236 [npc_dialog | - | Trolls] 'A pox! A pox on those filthy trolls!'",
+  "locale:78526 [npc_dialog | - | Trolls] 'Need more trolls. Where dey be?'",
+  "locale:78527 [npc_dialog | - | Trolls] 'No wait for more trolls. Attack!'",
+  "locale:91641 [quest_objective | - | Trolls] 'Trolls have kicked the chugawugs out of this area! Find the instigator of this attack and defeat him!'"
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Trolls",
+  "text": "Trolls are a sentient race that mainly reside in the Forest Troll Village.\n\nSub-Races\nThere are currently two sub-races of trolls in any locations. All of them have the basic body shape, skins, ears, and eyes, but there is a difference.\n\nRegular trolls can be found in any locations expect Snowhill. They have green skins, long ears, and big noses.\n\nIce trolls can be found in Snowhill, they have light blue skins, large ears, big noses, and red eyes.\n\nNotable Trolls\nCobblestone Village\nMongo\n\nSanctuary\nGlush\n\nWilds\nSnarf\nGertrude\nColonel Cogruch\nGeneral Grexan\nQueen Verda\n\nWugachug\nGrandpa Snarfs\n\nSeaside\nZumwalt\nZwargug\n\nAppearances\nTreasure of the Bone Shaman!\nTroll Summoner Madness!\nIce Troll Scout!\nHowling Hills\nGrexan's Camp\nForest Troll Fort\nSnowy Canyon\nTrail of Betrayal\nTrading Card Game\nCategory:Races\nCategory:Troll"
+ },
+ "images": [
+  "image (image:character_or_npc): Ice Troll Scout\nArcheAge\n[small copyright line, illegible]"
+ ],
+ "video": [
+  "video:eko5OxPGNsM/00062.jpg (-): items_seen: Jonin Ninja Cowl Ninja's Power Shard of Vitality V Ninja's Shadow Blade of Dragon Breath | other_text: Forest Troll Fort Difficulty: Requires a level 11 combat job Queen Verda is stealing from everyone - even her own trolls in the village! Ascend the fort and defeat h",
+  "video:eko5OxPGNsM/00064.jpg (-): items_seen: Jonin Ninja Cowl Ninja's Power Shard of Vitality V Ninja's Shadow Blade of Dragon Breath | other_text: Click Here to Change Jobs. Forest Troll Fort Difficulty: Requires a level 13 combat job Queen Verda is stealing from everyone - even her own trolls in the village! A",
+  "video:IbSE0-r_SC8/00624.jpg (Trail of Betrayal): npcs: Tower Captain dialog_header  Sergeant Brutus dialog_header  | dialog: Tower Captain: Securing the final tower! Sergeant Brutus: Trolls! Get ready! | quest:   Speak to the Sentry Sergeant. Bonus: Find all of the troll marching orders - 1/4 Secure the first tower. Secure the ",
+  "video:IbSE0-r_SC8/00630.jpg (Trail of Betrayal): npcs: Tower Captain dialog_header  Sergeant Brutus dialog_header  | dialog: Tower Captain: Securing the final tower! Sergeant Brutus: Trolls! Get ready! Sergeant Brutus: We take towers again! | quest:   Speak to the Sentry Sergeant. Bonus: Find all of the troll marching orders - "
+ ],
+ "article_facts": [
+  "fact:npc: Forest Trolls were advertised as one of the enemies players would battle. | Battle entertaining enemies like Robgoblins, Yeti, Forest Trolls, Giant Spiders and Mushroom Zombies (http://www.freerealms.com:80/whatIsBattle.vm)",
+  "quest: Buttercup Webbywand Grexan's Camp Rescue the spider kidnapped by trolls (http://www.freerealms.com:80/article/detail.action?articleId=98)",
+  "fact:npc: Robgoblins were advertised as one of the enemies players would battle. | Battle entertaining enemies like Robgoblins, Yeti, Forest Trolls, Giant Spiders and Mushroom Zombies (http://www.freerealms.com:80/whatIsBattle.vm)",
+  "fact:npc: Yeti were advertised as one of the enemies players would battle. | Battle entertaining enemies like Robgoblins, Yeti, Forest Trolls, Giant Spiders and Mushroom Zombies (http://www.freerealms.com:80/whatIsBattle.vm)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Contract: Colder Weather' (final): As a brawler, defeat Frosty Yetis, and Ice Trolls that wander the icy slopes Snowhill.",
+  "other target in 'Contract: Defending Snowhill' (final): Caleb needs all able-bodied warriors to help defend the recruit camp in Snowhill from ice trolls, yetis, and snowmen."
+ ]
+}

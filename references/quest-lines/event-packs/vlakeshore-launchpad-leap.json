@@ -1,0 +1,51 @@
+{
+ "title": "Lakeshore Launchpad Leap",
+ "names_seen": [
+  "Lakeshore Launchpad Leap"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called Launch Pad Leap was held in Lakeshore on Thursday April 15th, 2010, with players meeting on the dock to bounce on the launch pads.",
+   "numbers": {
+    "event_date_day": 15,
+    "event_date_month": 4,
+    "event_date_year": 2010
+   },
+   "era": "live",
+   "quote": "This week's Community Event is a Launch Pad Leap in Lakeshore! Meet up on the dock",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1254",
+   "date": "2010-04-15"
+  },
+  {
+   "statement": "The Lakeshore Launch Pad Leap ran at 3pm Pacific Time for U.S. and Latin America players on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1254",
+   "date": "2010-04-15"
+  },
+  {
+   "statement": "The Lakeshore Launch Pad Leap ran at 9:00am Pacific Time (6:00pm GMT) for UK and Europe players on Server 1.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_gmt": 18
+   },
+   "era": "live",
+   "quote": "9:00am Pacific Time / 6:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1254",
+   "date": "2010-04-15"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1254",
+   "date": "2010-04-15",
+   "title": "Free Realms - What is New?",
+   "summary": "A community event announcement for a 'Launch Pad Leap' in Lakeshore, where players gather on the dock to bounce on the launch pads together and then dance at a nearby dock. The post lists two start times (U.S./Latin America and UK/Europe) on Server 1 and explains how to find community events through the Game Guide calendar and its GO button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

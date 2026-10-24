@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ithundercat-s-t-shirt-v1-evidence-r1 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[8558, 6459, 8, 1386] model=claude-haiku-5-5 -->
+# Thundercat's T-Shirt
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence/igd", "issue": "The evidence pack's wiki 'igd' field holds the Sword of Omens tooltip text, not the T-shirt's. The answer cites locale 435937 as the shirt's description, which I confirmed: 'ThunderCats T-Shirt, from ThunderCats on Cartoon Network!...'. The pack's igd entry is a mismatch the answer never flags, though the answer's own citation is correct.", "fix": "Cite locale 435937 ('ThunderCats T-Shirt, from ThunderCats on Cartoon Network!...') as the in-game description. Drop the wiki igd line, which belongs to Sword of Omens (locale 435946)."}]}

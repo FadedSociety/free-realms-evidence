@@ -1,0 +1,28 @@
+{
+ "title": "Fête d'Anniversaire (Birthday Party event)",
+ "names_seen": [
+  "Fête d'Anniversaire (Birthday Party event)"
+ ],
+ "facts": [
+  {
+   "statement": "A birthday party event ran in Free Realms across the zones Joyful Vale, Criqueville, Snowy Hill, Misty Glade, Wugachug, Black Spore, Heather Wood and Sanctuary.",
+   "numbers": {
+    "zones": 8
+   },
+   "era": "live",
+   "quote": "Tu peux faire la fête à la Vallée joyeuse, au Criqueville, à la Colline des Neiges, à la Clairière Embrumée, au Wugachug, au Spore Noire, au Bois des Bruyères et dans le Sanctuaire.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2100",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2100",
+   "date": null,
+   "title": "Fête d'Anniversaire pour Free Realms!",
+   "summary": "A French-language SOE news post announcing a Free Realms birthday party event running across all zones. It describes the starting NPC, birthday quests (some member-only), the boss fight against a cake creature with gâtolin helpers, market items, and a set of eight zone cakes that combine into a boss birthday cake reward. The post gives no absolute date, only 'Posted 1 month, 1 week ago' relative to capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

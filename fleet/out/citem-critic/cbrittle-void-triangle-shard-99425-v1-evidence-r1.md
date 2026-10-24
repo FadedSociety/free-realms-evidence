@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrittle-void-triangle-shard-99425-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4127, 7260, 6, 1221] model=claude-haiku-5-5 -->
+# Brittle Void Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "live", "issue": "The answer sets live to \"yes\", but the only support is the store source tag set (L1, L2, L4, R2, T633, R1). That exact tag set is on every category-121 row I checked (items 32294-32316), so it does not distinguish this item and cannot show it is live. The first-pass tag was also just a hint. Nothing in the pack shows the listing is current.", "fix": "Set live to \"unknown\" (or \"likely, unverified\"), citing only repo:prototype/osfr-tools/data/content/stores.json item 32306 (line 8252). Keep retired null, since no retirement source exists."}]}

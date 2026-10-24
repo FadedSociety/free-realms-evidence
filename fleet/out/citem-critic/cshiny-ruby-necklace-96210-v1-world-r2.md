@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-ruby-necklace-96210-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3893, 8853, 6, 923] model=claude-haiku-5-5 -->
+# Shiny Ruby Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the family's text is unreliable cites locale:150436, which the client flags as a placeholder. The string is the generic stub 'This is a Gleaming Jungle Ring item.' A flagged stub should not be cited as evidence, even for a negative point. The automatic id check already rejects it.", "fix": "Drop locale:150436 from the evidence, or cite it only as a flagged placeholder with no bearing on live status. The family's unreliability can rest on the absence of any wiki, article, video or repo source for any member (lookup and repo search, both checked)."}]}

@@ -1,0 +1,63 @@
+{
+ "title": "Dance de Dinde (Turkey Dance)",
+ "names_seen": [
+  "Dance de Dinde (Turkey Dance)"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called the Turkey Dance (Dance de Dinde) ran on Thursday and Friday during the 2010 Thanksgiving period, on Server 1.",
+   "numbers": {
+    "servers": 1
+   },
+   "era": "live",
+   "quote": "au programme ce jeudi et vendredi nous allons faire la Dance de Dinde!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1927",
+   "date": "2010-11-24"
+  },
+  {
+   "statement": "The US/Latin America session was Thursday 25 November 2010 at 3pm Pacific Time.",
+   "numbers": {
+    "day": 25,
+    "month": 11,
+    "year": 2010,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "jeudi 25 Novembre 2010 3pm (Heure du Pacifique)",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1927",
+   "date": "2010-11-24"
+  },
+  {
+   "statement": "The UK/Europe session was Friday 26 November 2010 at 18:00 CET (4:00pm GMT).",
+   "numbers": {
+    "day": 26,
+    "month": 11,
+    "year": 2010,
+    "hour_cet": 18,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Vendredi 26 novembre 2010 18:00 CET (Heure de Paris)/ 4:00pm GMT",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1927",
+   "date": "2010-11-24"
+  },
+  {
+   "statement": "The event was held at the shopping mall in Pixiewood, north of the teleport stone in the Sanctuary.",
+   "numbers": null,
+   "era": "live",
+   "quote": "Rendez-vous au centre commercial à Pixiewood au nord de la pierre de téléportation au Sanctuaire.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1927",
+   "date": "2010-11-24"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1927",
+   "date": "2010-11-24",
+   "title": "Evènement de la Communauté: Dance de Dinde! (Free Realms - What is New?)",
+   "summary": "A French-language community event post announcing a Turkey Dance (Dance de Dinde) held the day after US Thanksgiving in November 2010, on Server 1, at the Pixiewood shopping mall north of the Sanctuary teleport stone. Players were told to buy turkey costumes and turkey hats at the Marketplace, and the post explains how to find events using the in-game Game Guide calendar and its 'Go' button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

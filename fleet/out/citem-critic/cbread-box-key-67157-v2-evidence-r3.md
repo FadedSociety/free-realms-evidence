@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbread-box-key-67157-v2-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3727, 7267, 6, 1034] model=claude-haiku-5-5 -->
+# Bread Box Key
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the collection membership is supported (collection_catalogue.json lines 15549-15557 show id 1419, index 6, name_id 67157, item_definition_id 23544), but the answer does not verify that collection 1419 is the Everyday Keys Collection. The membership entry itself is confirmed, the collection name is not.", "fix": "Keep the membership row as is; optionally confirm the collection name for id 1419 in collection_catalogue.json or the locale table before relying on the label. No acquisition route is evidenced, so the sources list should stay as a membership-only entry."}]}

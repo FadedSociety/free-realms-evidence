@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-all-star-kart-driver-shoes-pl-all-star-kart-driver-shoes-28033-v1-world-r2 status=done turns=4 usd=0.0029 tokens(read,write,in,out)=[26996, 13151, 10, 1897] model=claude-haiku-5-5 -->
+# {n}All-Star Kart Driver Shoes{pl="All-Star Kart Driver Shoes"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim that the Speedway Thunder update brought '40 new quests' is not supported by the cited article 170 in what I could retrieve. Article 170 names the Speedway Thunder update, and article 169 is the one that says it added new quests for Kart Drivers and Demolition Derby Drivers. The '40' figure is not shown in either.", "fix": "Cite articleId=169 for 'new quests for Kart Drivers and Demolition Derby Drivers' and drop the '40 new quests' number unless a source names it. Article 170 supports only that the Speedway Thunder update exists."}]}

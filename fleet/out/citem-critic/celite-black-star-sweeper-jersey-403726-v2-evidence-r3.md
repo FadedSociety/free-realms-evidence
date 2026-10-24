@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-star-sweeper-jersey-403726-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3552, 7130, 6, 961] model=claude-haiku-5-5 -->
+# Elite Black Star Sweeper Jersey
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail / where", "issue": "Minor: the store row carries source_tags (L1, L2, L4, R2, T633, R1) that the answer never explains. They are shared by every category-103 row, so they say nothing about this item's seller. The answer is right to leave them out, but it could say so.", "fix": "Optional note: source_tags are identical across the category-103 block (stores.json:8440-8465), so they do not identify a vendor. Re-read: stores.json:8455 shows item_id 61296, category_id 103, purchase 9453, member 8507, sell 945, no_sale false, matching the answer."}]}

@@ -1,0 +1,22 @@
+<!-- fleet job=test-audit id=tests-piece-096-rs-L1 status=done turns=6 usd=0.0089 tokens(read,write,in,out)=[77981, 26664, 14, 9637] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_096.rs lines 1-465 of 465
+
+**[high] prototype/osfr-tools/tests/piece_096.rs:409-412 captured_templates_re_encode_byte_identically - when `OSFR_GATEWAY_REFERENCE` is unset the test prints "skipped" and returns, so it reports PASS; the private reference is not in the repo (`lab/references` does not exist here).**
+- Why it cannot catch a regression: with the variable unset, the body after the early return never runs, so no manifest, length, opcode or byte check executes. The only byte-identity oracle against captured data for the 12 typed slots therefore passes on any writer change, and the integrator's `--ignored` run shows green.
+- Fix: replace the `let Ok(..) else { eprintln!; return; }` with a panic or `unreachable`/`panic!("OSFR_GATEWAY_REFERENCE not set")` so the absence is a failure, or move the requirement into an explicit, separately-gated CI job. Also keep the reference path and the typed-slot count (`typed == TYPED_SLOTS.len()`) as hard checks that run without the private data.
+
+**[medium] prototype/osfr-tools/tests/piece_096.rs:385-390 verify_captured_reports_a_byte_mismatch - the "captured" input is produced by the same writer under test (`InitMessage::ZoneDetails(zone_details()).encode()`), so the positive `verify_captured(3, &frame).expect(...)` checks the writer against itself.**
+- Why it cannot catch a regression: any change to how `ZoneDetails` is encoded (field order, a literal byte, a length prefix) regenerates `frame` identically, and `verify_captured` still returns Ok. Only the tampered-flag negative case is meaningful.
+- Fix: build the expected frame from literal bytes (copied from a captured or manifest vector, or a hand-written `[u8; N]` with the recovered layout) and call `verify_captured(3, &LITERAL)`, so a writer drift makes the `expect` fail.
+
+**[medium] prototype/osfr-tools/tests/piece_096.rs:406-408 and 450-453 captured_templates_re_encode_byte_identically - the name says every captured template re-encodes byte-identically, but for the 34 non-typed slots the body only checks `bytes[0] == 5` (outer opcode) and never re-encodes or compares anything.**
+- Why it cannot catch a regression: a regression in any of the 34 still-captured slots' bytes, or in the tunnel body beyond byte 0, passes. The name overclaims what the body proves.
+- Fix: either rename it to something like `typed_templates_re_encode_byte_identically` and assert the captured-slot contract separately, or add a per-captured-slot check (e.g. length and opcode against the manifest, plus `bytes[2] == 1` and the declared `u32` length matching `bytes.len() - 7`), which is the frame invariant the other tests already check for typed slots.
+
+**[low] prototype/osfr-tools/tests/piece_096.rs:456-458 captured_templates_re_encode_byte_identically - `assert_eq!(pending_captured_slots().len(), captured)` restates the loop's own classification: `captured` is incremented in the `None` arm of `writer_for(slot)`, and `pending_captured_slots()` (lines 461-464) filters on the same `writer_for(*slot).is_none()`.**
+- Why it cannot catch a regression: both sides come from the same predicate, so the check is always true and never compares against an independent expectation of 34.
+- Fix: assert against the literal expected count (`assert_eq!(captured, 46 - 12)` or `34`) and/or against the explicit list `TYPED_SLOTS`, so a change to the typed/captured registry that the test doesn't expect fails.
+
+**[low] prototype/osfr-tools/tests/piece_096.rs:191-192 slot_table_matches_the_captured_sequence - `assert_eq!(INIT_SLOTS.len(), INIT_SLOT_COUNT)` compares an array's length with the constant that sized its type (`[Slot; INIT_SLOT_COUNT]`, src/restoration/piece_096.rs:182), so it cannot fail.**
+- Why it cannot catch a regression: the compiler already enforces the equality; the assertion adds nothing.
+- Fix: delete it, or replace it with a check that matters, such as the per-slot opcode comparison below it covering all 46 positions (it already does) plus an assertion that `CAPTURED_OPCODES.len() == INIT_SLOT_COUNT` against the literal 46 in the `CAPTURED_OPCODES` declaration (line 49), which would catch a table that was shrunk to the same type size by accident.

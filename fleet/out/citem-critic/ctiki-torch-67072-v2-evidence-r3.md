@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctiki-torch-67072-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4064, 7333, 6, 1307] model=claude-haiku-5-5 -->
+# Tiki Torch
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[4]", "issue": "The answer cites a wiki line ('Rob Robbie Daily' lists '[Tiki] [Torch]') that is not in the evidence pack (wiki_page is null there). It is correctly not used as a source, but the citation is unverified against the pack.", "fix": "Either drop the claim or cite the lookup result directly. It does not change any source. The store row for definition 16912 is confirmed: stores.json line 4275 has category 56, tint group 2, purchase 500, member 450, sell 50, no_sale false. Definition 36200 is confirmed at line 11872 with null prices, so it has no coin source. Definition 23459 appears only in collection_catalogue.json line 14529 as a membership entry."}]}

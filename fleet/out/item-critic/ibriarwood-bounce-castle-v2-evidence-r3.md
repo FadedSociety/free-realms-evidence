@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibriarwood-bounce-castle-v2-evidence-r3 status=done turns=6 usd=0.0032 tokens(read,write,in,out)=[50512, 15212, 14, 1571] model=claude-haiku-5-5 -->
+# Briarwood Bounce Castle
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The quote is attributed to 'wikitext line 1', but the wiki's line 1 reads 'Bounce around, Bounce around. Bounce up and fall down.' The answer's quote ('Bounce around. Bound around. Bounce up and up and fall down.') matches only the client string locale:436135, not the wiki.", "fix": "Cite the in-game description as locale:436135 ('Bounce around. Bound around. Bounce up and up and fall down.'). Wiki line 1 (freerealms-wiki/wikitext/8045-43347-5994e7e8e9f0.wiki) quotes a different wording; note it as a wiki variant, not the source of the client text."}]}

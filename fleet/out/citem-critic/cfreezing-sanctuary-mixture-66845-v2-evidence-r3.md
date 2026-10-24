@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfreezing-sanctuary-mixture-66845-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3972, 5929, 6, 1248] model=claude-haiku-5-5 -->
+# Freezing Sanctuary Mixture
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "Wording is ambiguous: 'Completing it pays 5 x item 3082' could be read as the individual mixture paying the reward. The catalogue (collection_catalogue.json:11805-11817) puts the reward on the whole collection (collection 153, 8 mixtures, entries 1-8, name_ids 66840-66847), so it is paid for completing the collection, not for this item.", "fix": "Say: 'Completing collection 153 (all 8 Sanctuary Mixture entries, including 23232 at index 6) pays 5 x item 3082 (repo: collection_catalogue.json:11805-11817).' Item 3082 remains unidentified, which the answer already marks as open."}]}

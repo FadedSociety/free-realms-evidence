@@ -1,0 +1,37 @@
+{
+ "title": "Lazy Swooper",
+ "our_entries": [
+  {
+   "file": "dungeons\\seaside_swoopers.json",
+   "definition_id": 930013
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:93049 [other | - | Lazy Swooper | FLAG fragment: single name with no quest meaning on its own] 'Lazy Swooper'",
+  "locale:5101509 [npc_name | - | Lazy Swooper] 'Lazy Swooper'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:93049 [other | - | Lazy Swooper | FLAG fragment: single name with no quest meaning on its own] 'Lazy Swooper'",
+  "locale:5101509 [npc_name | - | Lazy Swooper] 'Lazy Swooper'"
+ ],
+ "client_cluster": [
+  "locale:93041 [quest_dialog | Shrouded Glade | Kari and Karmen] 'I am sure one of the girls around Shrouded Glade would make a good friend. Can you please look around?'",
+  "locale:93045 [quest_objective | Snowhill | Status Reports] 'Report from Flynn'",
+  "locale:93047 [quest_objective | Snowhill | Status Reports] 'Report from Brandywine'",
+  "locale:93049 [other | - | Lazy Swooper | FLAG fragment: single name with no quest meaning on its own] 'Lazy Swooper'",
+  "locale:93050 [quest_objective | - | Brandywine] 'Get Brandywine some hot chocolate'",
+  "locale:93052 [quest_objective | - | Brandywine] 'Return to Brandywine'",
+  "locale:93054 [quest_title | Cobblestone Village | Learning Your Way - DemoDriver Q1] 'Learning Your Way - DemoDriver Q1'",
+  "locale:93055 [quest_dialog | Cobblestone Village | Learning Your Way - DemoDriver Q1 | FLAG dev_note: developer credit tag in title line] 'Demolition Driver Quest #1 - Cobblestone Village - DCronkhite'",
+  "locale:93056 [quest_objective | Cobblestone Village | Learning Your Way - DemoDriver Q1] 'Get Familiar With the Controls of Your Car'",
+  "locale:93057 [quest_objective | Cobblestone Village | Learning Your Way - DemoDriver Q1] 'Drive around and learn the controls.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:wA9BqwA5lr4/00066.jpg (-): landmarks: sandy dunes palm trunk | job_level: Medic 18 | other_text: You receive 3 coins Lazy Swooper Scavenger Swooper"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

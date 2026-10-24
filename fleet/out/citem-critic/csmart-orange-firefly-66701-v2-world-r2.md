@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmart-orange-firefly-66701-v2-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3963, 8821, 6, 909] model=claude-haiku-5-5 -->
+# Smart Orange Firefly
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The first-pass 'live: yes' was correctly dropped. The answer's sources are empty and it honestly says no acquisition source is evidenced. My own lookups (wiki, client, articles, refs) found no drop, vendor, quest, or event for definition 23088 or locale 66701, so the empty sources and live 'unsure' hold.", "fix": "No change needed. Keep sources empty and live unsure; the collection catalogue entry (collection_catalogue.json) shows membership, not acquisition, and the group's completion reward (collection 134) belongs to the set, not this item."}]}

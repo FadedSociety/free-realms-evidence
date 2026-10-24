@@ -1,0 +1,45 @@
+{
+ "title": "TCG sets 1-3 weekend sale",
+ "names_seen": [
+  "TCG sets 1-3 weekend sale"
+ ],
+ "facts": [
+  {
+   "statement": "The TCG booster sale ran from 3:00 pm PDT Friday 31 August until 10:00 am Pacific time Tuesday 4 September.",
+   "numbers": {
+    "start_day": 31,
+    "start_month": 8,
+    "end_day": 4,
+    "end_month": 9
+   },
+   "era": "live",
+   "quote": "desde las 3:00 pm PDT Viernes, 31 de agosto hasta las 10:00 am hora del Pacífico Martes, 04 de septiembre",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2760",
+   "date": null
+  },
+  {
+   "statement": "The TCG booster sale ran from 3:00 pm PDT on Friday, August 31 until 10:00 am Pacific time on Tuesday, September 4 (year not stated on the page).",
+   "numbers": {},
+   "era": "live",
+   "quote": "desde las 3:00 pm PDT Viernes, 31 de agosto hasta las 10:00 am hora del Pacífico Martes, 04 de septiembre",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2761",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2760",
+   "date": null,
+   "title": "Free Realms - Quais são as Novidades?",
+   "summary": "This Wayback copy is a Portuguese-language news page whose only substantive text is a Spanish-language notice about a weekend sale of Free Realms Trading Card Game (TCG) sets 1-3 booster packs. The page gives a relative publish date ('2 months, 2 days ago') with no absolute date; the sale window (Friday 31 August to Tuesday 4 September) matches 2012. The rest of the text is site navigation and legal boilerplate."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2761",
+   "date": null,
+   "title": "Free Realms - Quoi de neuf ?",
+   "summary": "This captured page is a French-language site news index shell whose only substantive content is a Spanish-language item announcing a weekend sale of Free Realms Trading Card Game (TCG) sets 1-3 booster packs. It gives the sale price and window; the year is not stated in the text. The article title and the rest of the page are generic site navigation."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

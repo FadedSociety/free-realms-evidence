@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-trick-shot-boots-pl-trick-shot-boots-653-v2-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4096, 5484, 6, 959] model=claude-haiku-5-5 -->
+# {n}Trick Shot Boots{pl="Trick Shot Boots"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence / open", "issue": "The answer misses a related lead in the wiki. The Trick Shot Bow wiki page (ns0) says it is a Green Text weapon that 'can only be acquired through trade'. The Green Text weapon page also lists '[Trick] [Shot] Bow yes'. This is a sibling of the same Trick Shot set, but it does not name the boots, so it cannot be recorded as a source for them.", "fix": "Record it under open as an unverified lead, e.g. 'Trick Shot Bow (wiki: Trick Shot Bow; Green Text weapon) is trade-only; whether the Trick Shot boots share that status is not evidenced.' Do not add a trade source for the boots without a page that names them."}]}

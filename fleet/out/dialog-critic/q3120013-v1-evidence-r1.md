@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=q3120013-v1-evidence-r1 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[9019, 10244, 6, 1509] model=claude-haiku-5-5 -->
+# Pet Trainer: Go with the Punches
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "offer.speaker / complete.speaker", "issue": "Speaker 'Vidor Stormshroud' is supported only by inference: the wiki lists Vidor as giver of the quest in Shrouded Glade, and the NPC answer lists the quest among his quests_given. Neither the locale text nor a tag names a speaker for 90050 or 90053. The binding's own open note says this. It is reasonable but not line-level evidence.", "fix": "Keep Vidor Stormshroud as speaker, but label it 'giver inference (wiki Pet Trainer page; NPC answer quests_given)' rather than presenting it as sourced per line. No other source names a different speaker."}]}

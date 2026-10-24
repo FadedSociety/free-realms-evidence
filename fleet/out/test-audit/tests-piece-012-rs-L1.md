@@ -1,0 +1,18 @@
+<!-- fleet job=test-audit id=tests-piece-012-rs-L1 status=done turns=7 usd=0.0061 tokens(read,write,in,out)=[62741, 19773, 16, 5977] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_012.rs lines 1-174 of 174
+
+Window: `prototype/osfr-tools/tests/piece_012.rs` 1-174. I read the window, `src/restoration/piece_012.rs` (audit driver, ledger model), and the `Cooking::handle`/`load` paths in `src/cooking.rs` that the audit exercises. The literal expected values (consumed 16/12 per material, grant 35, `RecipeLedger` short/duplicate/exact cases) are not derived from the code under test, and the replay assertions do go through a real rejection path (`cooking.rs:527` win handling returns no transaction and `changed: false` once `phase == Won`). The findings are limited to the following.
+
+- **[medium] tests/piece_012.rs:103-104 repeated_cooking_completions_consume_and_grant_exactly_once - `live_replays_ignored == 4` and `reload_replays_ignored == 4` only restate the loop count.**
+  - Why it cannot catch a regression: in `src/restoration/piece_012.rs:153` and `:161` the counters are incremented unconditionally after the replay check, so they always equal `cycles` whenever no error is returned. A change that silently skips the state-comparison or the replay call would still produce 4 as long as the code path does not early-return. The test therefore has no way to see that a replay was actually sent and ignored as opposed to bypassed. The same pattern appears at tests/piece_012.rs:170-171 in the ignored test.
+  - Fix: have the audit record the observed replay outcome (for example, count only when `replay.transaction.is_none() && !replay.changed`, and assert the state fields are unchanged before and after the replay, e.g. `completed` and `applied` counts), and assert on that value rather than the loop counter.
+
+- **[low] tests/piece_012.rs:153 private_original_cooking_content_matches_the_recovered_recipe_and_repeats_atomically - name claims atomic repetition but the body checks only counts from the report.**
+  - Why it cannot catch a regression: nothing in the body compares ledger or game state for the short-stock case, and no partial-consumption assertion is made. Atomicity is only indirectly exercised, because `ledger.apply(...)?` would error and panic the unwrap. A change to the audit that tolerated a failed apply (e.g. logging and continuing) would still pass as long as the counts happen to match, and the ignored test is only run with `OSFR_COOKING_REFERENCE` set, so it is rarely exercised.
+  - Fix: either drop "atomically" from the name, or add a short-stock/duplicate `RecipeLedger` check against the same recovered materials inside this test, as test 2 already does for the synthetic case.
+
+- **[low] tests/piece_012.rs:103-104 (and 170-173) - exact `next_instance_id`, `completed`, and per-material totals are pinned to the cycle count, which is incidental to the reload-replay behaviour under test.**
+  - Why it cannot catch a regression: any change to how many instances are allocated per run, or how grants are batched, would fail these assertions with no connection to the replay/atomicity property the name describes. It produces churn rather than missed bugs.
+  - Fix: keep the per-cycle invariants (`consumed == cycles * RECOVERED_MATERIALS`) and drop or relate the instance-id check to a single computed baseline, so unrelated allocation changes do not break this test.
+
+Not reported: the `#[ignore]` on line 152 carries a reason, and the fallback fixture `lab/references/rust-cooking-isolated` is only needed when the test is run explicitly, so it does not pass silently on the integrator. The `RecipeLedger` tests do exercise the aggregation and no-partial-consumption paths.

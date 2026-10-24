@@ -1,0 +1,23 @@
+{
+ "title": "Hedge Knights",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_snarling_hedges.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:130504 [quest_objective | Briarwood | Hedge Knights] 'Remove the curse upon the bears and defeat the Hedge Knights!'",
+  "locale:130506 [quest_objective | Briarwood | Hedge Knights] 'The bears who live in this area have become cursed.  Remove the curse by finding and destroying the source.  Beware of the Hedge Knights, they are the keepers o'"
+ ],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

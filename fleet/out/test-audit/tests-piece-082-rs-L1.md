@@ -1,0 +1,18 @@
+<!-- fleet job=test-audit id=tests-piece-082-rs-L1 status=done turns=4 usd=0.0040 tokens(read,write,in,out)=[20457, 13509, 10, 4175] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_082.rs lines 1-291 of 291
+
+Window: `prototype/osfr-tools/tests/piece_082.rs` lines 1-291. Read against `prototype/osfr-tools/src/restoration/piece_082.rs` (all 353 lines). Most tests in the window are sound: the expected values are literals, the error variants and ids are checked, and the fingerprint test is sensitive to both category and instance changes. Three findings:
+
+- **[medium] tests/piece_082.rs:118 duplicate_instance_and_conflicting_definition_are_rejected - the test checks only the returned error, never the stored state, so a rejected write that still mutates the index passes.**
+  - Why it cannot catch a regression: `add_instance` (src:243-245) and `insert_definition` (src:102-105) currently return early before writing. A change that inserts first and then returns `Err` would still pass. In that case instance 2 would be overwritten with definition 1195, and definition 76476 would be overwritten with category 5. The test only matches `DuplicateInstanceId(2)` and `ConflictingDefinition(76476)`. The module doc at src:84-85 says conflicts are "refused rather than silently overwritten", and the test never checks that.
+  - Fix: after each rejected call, assert on `report()` or `content()`. Check that `report.rows.len()` is still 2, that row 2 keeps `definition_id 76476`, and that `content().definition(76476)` still equals `DefinitionRow { category_id: 4, name_id: 8530 }`. Also compare the fingerprint before and after the rejected calls.
+
+- **[low] tests/piece_082.rs:202 recovered_native_constants_stay_pinned - the name says all recovered constants are pinned, but `SEARCH_STALE_FLAG_OFFSET` (src:49, value 0x2d0, documented as the cleared pending flag) is not asserted.**
+  - Why it cannot catch a regression: changing `SEARCH_STALE_FLAG_OFFSET` to any other value, including the wrong one, still passes. The other recovered offsets (0x2e8, 0x2f0, 0x2ec, 0x3c) are pinned, so the gap is only this one.
+  - Fix: add `assert_eq!(piece_082::SEARCH_STALE_FLAG_OFFSET, 0x2d0);`.
+
+- **[low] tests/piece_082.rs:281-289 private_crash_run_preflight_matches_the_python_checker - the Rust side hardcodes `missing_definitions.len() == 3` and a missing-category sum of `63`, while every other expectation comes from the JSON `expected` block.**
+  - Why it cannot catch a regression: nothing is wrong with the test's logic, but if `expected` is regenerated from a different preserved run, these two literals fail with no link to the JSON. The reverse is also true: a change that keeps the JSON counts but moves rows between missing and resolved would not be caught by these literals in the way the JSON-driven checks are. The check is also inconsistent with the rest of the oracle, which reads from the input file.
+  - Fix: move both values into `expected` (for example `expected["missing_definitions"]` and `expected["definitions_missing_category_total"]`) and assert against those, so the oracle is driven by one source of truth.
+
+Checked and not flagged: `#[ignore]` on the private oracle has a reason string. The fixture-dependent test is ignored, not early-returned, so it is not a silent skip. `fully_resolved_rows_report_no_gaps`, `instance_without_a_definition_is_reported_with_both_ids`, `dangling_definition_category_and_name_are_reported`, `zero_and_negative_identifiers_are_rejected`, and `fingerprint_is_deterministic_and_sensitive_to_the_input_set` all assert values that come from the module's own behavior as documented, not by re-running it.

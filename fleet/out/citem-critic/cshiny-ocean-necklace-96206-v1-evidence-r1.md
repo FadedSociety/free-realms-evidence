@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-ocean-necklace-96206-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4292, 11004, 6, 1067] model=claude-haiku-5-5 -->
+# Shiny Ocean Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4]", "issue": "The answer says the Cray Caves page 'lists the zone's enemies and rewards'. The wiki text only has a 'Rewards' heading followed by '274 Stars or less' and 'Members Only..'. It names no item, so the claim that it lists rewards overstates the page, though the answer's conclusion that it does not name this necklace is correct.", "fix": "Describe the Cray Caves wiki page as having a Rewards section with only '274 Stars or less' and 'Members Only..' (wiki: Cray Caves). It names no item, so it is not evidence for the Shiny Ocean Necklace."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-wacky-crash-pants-pl-wacky-crash-pants-28943-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3847, 6660, 6, 1273] model=claude-haiku-5-5 -->
+# {n}Wacky Crash Pants{pl="Wacky Crash Pants"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].source / open[0]", "issue": "The answer says the 291 price row is tagged 'R118 not a captured retail NPC price'. The stores.json row for item 15127 (line 3907) has source_tags [L1, L2, L4, R2, T633, R1]; R118 is not on it. The caveat's tag citation does not match the row.", "fix": "Cite the row's actual tags (L1, L2, L4, R2, T633, R1) from repo:prototype/osfr-tools/data/content/stores.json line 3907, and state the Legacy-derived basis without the R118 reference unless it is found elsewhere. The price 291 / member 261 / item 15127 / category 104 match the row."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cempty-cocoon-140867-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3851, 8395, 6, 839] model=claude-haiku-5-5 -->
+# Empty Cocoon
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "kind", "issue": "The answer sets kind to \"other\" while the first-pass tag says \"quest_item\". The answer never explains the change. Its own open list also says it is likely a quest item, so the kind field is not backed by a source.", "fix": "Keep kind as \"other\" (or \"quest_item\" if the builder accepts it) and state in the result that the classification rests on the 140860-140872 nameless-item block, not on any quest or vendor. My lookups found only the client locale entry (locale:140867, ucdt 955982122, ugdt 3963329633) and no wiki, video, article, or repo reference to 'Empty Cocoon'."}]}

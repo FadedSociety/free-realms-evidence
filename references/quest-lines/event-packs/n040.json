@@ -1,0 +1,85 @@
+{
+ "title": "12 Days of Presents",
+ "names_seen": [
+  "12 Days of Presents"
+ ],
+ "facts": [
+  {
+   "statement": "A new challenge was added each day from December 13 through December 24; completing it on the day it was offered earned a present with a bow.",
+   "numbers": {
+    "first_day": 13,
+    "last_day": 24
+   },
+   "era": "live",
+   "quote": "Every day from December 13th through the 24th we've been adding a new challenges to the game.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2827",
+   "date": null
+  },
+  {
+   "statement": "Presents were opened by logging in on December 25.",
+   "numbers": {
+    "open_date_december": 25
+   },
+   "era": "live",
+   "quote": "On December 25th, log in to open your presents!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2827",
+   "date": null
+  },
+  {
+   "statement": "A new challenge was added to the game each day from December 13 through December 24; completing a challenge on the first day it is offered awards a present with its bow.",
+   "numbers": {
+    "challenges": 12,
+    "first_day": 13,
+    "last_day": 24
+   },
+   "era": "live",
+   "quote": "Complete each challenge on the first day it is offered and you get a present with its bow.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2813",
+   "date": "2012-12-13"
+  },
+  {
+   "statement": "Presents are opened by logging in on December 25.",
+   "numbers": {
+    "open_date": 25
+   },
+   "era": "live",
+   "quote": "On December 25th, log in to open your presents!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2813",
+   "date": "2012-12-13"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2827",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "An official SOE news post for the final day (Day 12) of Free Realms' 12 Days of Holidays event. It explains the 12 Days of Presents system: one daily challenge per day from December 13 to 24, a present per challenge completed on its first day, presents opened on December 25, and bonus Big Presents, with bows bought from the Marketplace for missed days. The post gives no exact dates for the posting itself."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2813",
+   "date": "2012-12-13",
+   "title": "Free Realms - What is New?",
+   "summary": "A December 2012 SOE news post announcing the 12 Days of Holidays event, running December 13 to December 24, 2012. It covers daily Marketplace specials, a daily holiday challenge at Snowhill that awards a present with a bow, and a present-opening step on December 25. The date is inferred from the 'Posted 4 days, 9 hours ago' stamp against the 2012-12-18 capture."
+  }
+ ],
+ "wiki_category_members": [
+  "12 Days of Presents",
+  "Arctic Cat",
+  "Figgy Pudding Critter",
+  "Icy Snowflake Glasses",
+  "Hot Cocoa Mug",
+  "Holigoblin Mask",
+  "Fruit Cake Critter",
+  "Icy Snow Days Flair Shard",
+  "Snow Days Unicorn Sweater",
+  "Snow Days Lot",
+  "Snow Days Builders Pack",
+  "Polar Bear",
+  "Temporary Snowflake Parachute",
+  "St. Bernard",
+  "Snowman Mask",
+  "Snowglobe Helmet",
+  "Snowflake Glasses"
+ ],
+ "quest_answers_mentioning_it": []
+}

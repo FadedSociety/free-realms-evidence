@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cteal-wedge-tiger-block-30239-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3905, 7917, 6, 936] model=claude-haiku-5-5 -->
+# Teal Wedge Tiger Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The storefront name 'Coin Shop' is inferred. The stores.json row (line 16473: item_id 77142, category_id 147, purchase_price_coins 400, member_discount_percent 10, member_price_coins 360, sell_price_coins 40, no_sale false) gives only a category number, not a storefront name. The answer does flag this in open, so it is a hedge rather than a false claim.", "fix": "Keep the source as 'store category 147' and drop 'Coin Shop' as a stated fact, or cite it only as an inference from the coin price. The price and member figures are confirmed by the row and match the client's coin_store_prices [400]."}]}

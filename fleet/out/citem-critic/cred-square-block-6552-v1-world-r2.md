@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cred-square-block-6552-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3910, 9458, 6, 1444] model=claude-haiku-5-5 -->
+# Red Square Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail / evidence", "issue": "Minor omission: the store row for 2705 also carries sell_price_coins 20 (stores.json:728), which the answer does not mention. Also, the 7471 'no_sale' sibling sits in a block of no_sale category-147 rows (7465-7478, same 200/300 coin prices, several with tint_group_ids) that the answer does not mention; the name check only covers 2705 and 7471.", "fix": "Add sell_price 20 coins from stores.json:728 as a note. Optionally state that 7465-7478 are other category-147 no_sale rows with unverified names, so the 'two definitions' claim is limited to the two checked rows."}]}

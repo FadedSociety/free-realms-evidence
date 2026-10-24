@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccourier-grape-necklace-96278-v1-world-r2 status=done turns=2 usd=0.0022 tokens(read,write,in,out)=[3675, 13647, 6, 966] model=claude-haiku-5-5 -->
+# Courier Grape Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The 'Courier family may be a set or event reward' lead is speculation, not evidence. It is labelled as a lead, so it is not a wrong source, but a builder could mistake it for one.", "fix": "Keep it as an unverified lead. Nothing in the repo, refs or lookup indexes names a set, event, vendor, quest or drop for any Courier necklace or ring (checked lookup client/wiki/articles/video and repo/refs search: only locale rows, en_us_data.dat name strings and ClientItemDefinitions.json 'Comment' fields)."}]}

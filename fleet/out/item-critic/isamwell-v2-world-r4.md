@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isamwell-v2-world-r4 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3405, 4305, 6, 928] model=claude-haiku-5-5 -->
+# Samwell
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "Cites locale:117196 as support, but that locale row is FLAGGED 'fragment: name only' and is not live evidence (the automatic id check confirms this). It should not be used to back the claim.", "fix": "Drop locale:117196 from the evidence. Rely on the wiki page (Samwell is a male human NPC in Seaside; categories NPC, Males, Human, Seaside, with no coin, Station Cash or IGD data) and the repo spawn rows (prototype/osfr-tools/data/content/npcs/seaside.json:5454 and npc_spawns_extra.json:9957), which list Samwell as an NPC name. Both were re-checked and say this."}]}

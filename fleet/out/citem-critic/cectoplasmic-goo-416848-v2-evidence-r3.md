@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cectoplasmic-goo-416848-v2-evidence-r3 status=done turns=2 usd=0.0026 tokens(read,write,in,out)=[4397, 14781, 6, 1341] model=claude-haiku-5-5 -->
+# Ectoplasmic Goo
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The no_sale flag is ambiguous. The answer reads it as 'sale availability unverified', but in stores.json it could also mean the row is not sold. The price (90 / member 81) is correct, and the answer already marks the sale status as open, so this is a caveat rather than a false claim.", "fix": "Keep the coin_shop source at 90 coins (member 81) from repo:prototype/osfr-tools/data/content/stores.json:11732, and state that no_sale: true means sale status is unknown. Do not treat it as confirmed purchasable."}]}

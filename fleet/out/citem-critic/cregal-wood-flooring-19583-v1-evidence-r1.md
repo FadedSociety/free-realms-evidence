@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cregal-wood-flooring-19583-v1-evidence-r1 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[11739, 8358, 8, 1163] model=claude-haiku-5-5 -->
+# Regal Wood Flooring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources list is consistent with the evidence. My checks found no vendor, coin price, quest, drop or recipe for Regal Wood Flooring: lookup returns only the client locale 19583 and the wiki Items index entry under Floors (Natural [Wood] [Flooring], Pleasant Tile [Flooring], [Regal] [Wood] [Flooring]). The refs grep for 'Regal Wood' hits only locale data dumps, with no acquisition text. A housing vendor or coin-store search for the cluster returned no matches.", "fix": "No change required. Keep sources empty and live as unsure, with the open items stating that no acquisition source has been verified."}]}

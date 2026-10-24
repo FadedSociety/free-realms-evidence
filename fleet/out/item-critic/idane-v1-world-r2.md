@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=idane-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4062, 4676, 6, 919] model=claude-haiku-5-5 -->
+# Dane
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure', but the pack and my lookups show nothing that would make Dane an acquirable item at all. He is an NPC name (locale:403385, npc_name). 'Unsure' overstates the doubt about whether an item source exists.", "fix": "Set kind to NPC (not an item) and note that no item acquisition applies. Sources: locale:403385 is an npc_name string, and the wiki page (https://freerealms.fandom.com/wiki/Dane) describes him as a human NPC found in Seaside and Briarwood. A lookup of 'Dane Kensington' across client, wiki and articles finds no shop, quest reward, drop or event tied to him."}]}

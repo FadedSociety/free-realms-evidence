@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cburner-turner-99670-v1-evidence-r1 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3425, 10168, 6, 1513] model=claude-haiku-5-5 -->
+# Burner Turner
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[2] (refs citation)", "issue": "The FreeRealms-Legacy hit at ClientItemDefinitions.json:812858 is a 'Comment' field, a developer label, not a shipped display name. It shows the label appears in older builds, but it does not confirm the in-game name or any sale. The same label also appears in Lxzxrus, TCG-Files and Sanctuary, so it is only weak corroboration.", "fix": "Keep the claim scoped: 'Burner Turner' appears as a dev Comment on the 8 definitions in several community data sets (e.g. FreeRealms-Legacy ClientItemDefinitions.json:812858). The name itself rests on locale:99670, which is confirmed. Not evidence of sale or of retirement."}]}

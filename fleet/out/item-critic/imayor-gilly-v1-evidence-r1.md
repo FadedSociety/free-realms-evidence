@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imayor-gilly-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3444, 4965, 6, 1112] model=claude-haiku-5-5 -->
+# Mayor Gilly
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the wiki page lists Quest:Troubled Waters under Appearances, which the answer does not mention. It does not change the NPC-not-item conclusion.", "fix": "Optionally add: wiki Mayor Gilly 'Appearances' includes Quest:Troubled Waters (alongside Seaside Situation and Tides of Change)."}, {"field": "evidence[2]", "issue": "The article citation is a bare URL with no quoted text. The article facts in the pack do support the town-leader and quest-giver claims, but the citation is weaker than the other two.", "fix": "Cite the article fact directly: 'Mayor Gilly is the town leader of Seaside' (articleId=1379)."}]}

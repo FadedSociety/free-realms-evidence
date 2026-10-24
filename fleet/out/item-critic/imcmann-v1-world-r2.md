@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imcmann-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3740, 4567, 6, 996] model=claude-haiku-5-5 -->
+# McMann
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / sources", "issue": "The answer correctly treats McMann as an NPC (client locale 5102205 reads exactly 'McMann'; the wiki describes a Pixie NPC merchant at the Shrouded Glade warpstone), so an item with no sources and retired null is consistent. Nothing in the pack gives McMann itself a coin, Station Cash or IGD source.", "fix": "No change to the item-level answer. Optionally note in open that the wiki Sells list (McMann, Shrouded Glade) is vendor evidence for the listed Brawler items, which each need their own pack with price and currency; the wiki gives none."}]}

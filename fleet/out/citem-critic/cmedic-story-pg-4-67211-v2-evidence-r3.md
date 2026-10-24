@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmedic-story-pg-4-67211-v2-evidence-r3 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[12335, 9673, 8, 1847] model=claude-haiku-5-5 -->
+# Medic Story pg. 4
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[5] (Flow Capacitor reward, collections.json:3530)", "issue": "Line 3530 is a cascade_source field ('Medic Stories') on the Flow Capacitor entry of a Cascading collection (wiki_type Cascading, spawn_type Job Material, reward '?'). The answer calls it a 'collection reward for the whole set', which the line does not say. The reward is unknown and the line is a cascade link, not evidence of how pg. 4 is received.", "fix": "Describe it as: collections.json:3530 links Medic Stories as the cascade_source of a Flow Capacitor entry in a Cascading collection (source: wiki Job Specific (Collections), rev 27853, 2013); the reward is recorded as '?'. It does not name a pg. 4 source."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chardwood-pumpkin-ring-99305-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4049, 8195, 6, 1109] model=claude-haiku-5-5 -->
+# Hardwood Pumpkin Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer does not mention that the client has a whole family of Pumpkin rings (Dull, Polished, Shiny, Faded, Gleaming, Metallic, Jeweled, Granite Pumpkin, Hardwood Pumpkin) that share the 'Pumpkin' name. That family is a useful lead for the Halloween question, but it does not prove a source for this ring.", "fix": "Optionally add: locale names for the Pumpkin ring family (e.g. locale 'Faded Pumpkin Ring', 'Jeweled Pumpkin Ring', 'Granite Pumpkin Ring') exist in en_us_data.dat, so the set can be checked for a shared source. No source for 99305 or 32186 is evidenced."}]}

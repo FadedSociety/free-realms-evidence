@@ -1,0 +1,43 @@
+{
+ "title": "Mushroom Gigas",
+ "our_entries": [
+  {
+   "file": "dungeons\\the_mushroom_gigas.json",
+   "definition_id": 930063
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:74008 [npc_name | - | Mushroom Gigas] 'Mushroom Gigas'",
+  "locale:5102942 [npc_name | - | Mushroom Gigas] 'Mushroom Gigas'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:74008 [npc_name | - | Mushroom Gigas] 'Mushroom Gigas'",
+  "locale:74047 [quest_dialog | - | Mushroom Gigas] 'Monstrous mushrooms are multiplying their numbers at an alarming rate! Venture in and stop them!'",
+  "locale:74053 [quest_objective | - | Mushroom Gigas] 'Defeat all of the Mushroom Gigas!'",
+  "locale:139607 [other | - | Mushroom Gigas | FLAG dev_note: internal label with \"132\" number] ' mushroom gigas! 132'",
+  "locale:139609 [other | - | Mushroom Gigas | FLAG dev_note: internal label with \"132\" and AoE tag] ' mushroomg gigas! 132: AoE'",
+  "locale:5102942 [npc_name | - | Mushroom Gigas] 'Mushroom Gigas'"
+ ],
+ "client_cluster": [
+  "locale:74001 [other | - | Nettleseed Pest Spawn | FLAG dev_note: spawn label] 'Nettleseed Pest Spawn'",
+  "locale:74002 [other | - | Encounter 135 | FLAG dev_note: internal encounter label] ' Encounter 135: Spawn Effect'",
+  "locale:74004 [other | - | - | FLAG fragment: single word (cooking state)] 'Burnt'",
+  "locale:74006 [other | - | - | FLAG fragment: single word] 'Light'",
+  "locale:74007 [other | - | - | FLAG fragment: single word] 'Raw'",
+  "locale:74008 [npc_name | - | Mushroom Gigas] 'Mushroom Gigas'",
+  "locale:74009 [quest_dialog | Sanctuary | Beat Finn's Record] \"I've got the world record for a Sanctuary <font color='#D9781A'>foot race</font>. Think you can beat it?<BR><BR>Just use the <font color='#D9781A'>green flag</f\"",
+  "locale:74010 [quest_title | Sanctuary | Beat Finn's Record] \"Beat Finn's Record\"",
+  "locale:74011 [quest_objective | Sanctuary | Beat Finn's Record] \"Beat Finn's best time around Sanctuary. Click on the green flag next to him to start the foot race.\"",
+  "locale:74012 [quest_dialog | Sanctuary | Beat Finn's Record] \"You're pretty good at running. You could always use some more practice though. <BR><BR>Just click on the flag again if you want to race.\"",
+  "locale:74015 [quest_title | Sanctuary | Beat Finn's Record! | FLAG duplicate: same as 74010] \"Beat Finn's Record!\"",
+  "locale:74016 [quest_objective | - | Finn] 'Click on the green flag next to Finn to start the race.'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): The Mushroom Gigas"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

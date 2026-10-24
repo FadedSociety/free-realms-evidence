@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-wound-mender-boots-pl-wound-mender-boots-122369-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4098, 10725, 6, 1154] model=claude-haiku-5-5 -->
+# {n}Wound Mender Boots{pl="Wound Mender Boots"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that tint rows 42377 and 42382 are both priced 9453 is only partly checked. My search confirms stores.json:12731 (item 42377, category 101, 9453) and 7998-7999 (42374 and 42379, 9453). I did not find a 42382 row in the search hits.", "fix": "Cite only the rows confirmed in repo:prototype/osfr-tools/data/content/stores.json (42372 at line 12730 = 828 coins, 42377 at 12731 = 9453, 42374 and 42379 at 7998-7999 = 9453), or find the 42382 row before citing it."}]}

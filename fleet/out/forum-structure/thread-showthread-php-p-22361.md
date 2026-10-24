@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-22361 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2948, 4, 534] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin error page ('Free Realms Forums Error'). It says the visitor exceeded the maximum number of viewable posts and asks them to register. The only Free Realms content is forum navigation: board names such as Combat In Free Realms, Items, Jobs/Classes, Pets and Membership / Stationcash, plus a 'Free Realms Beta' header. It contains no thread text, so it gives a rebuilder no quest, item, price or mechanic data.", "facts": [], "quests": [], "uncertain": ["The intended thread (URL p=22361) did not load; only the error page was captured.", "The page holds no player posts, so no gameplay facts can be taken from it."]}

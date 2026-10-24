@@ -1,0 +1,23 @@
+{
+ "title": "Shadowtalon Initiate, Pupil, Guard, Enforcer, Apprentice",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000062,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Ninja clan enemies",
+   "location_evidence": [
+    "Shadowtalon Dojo in the south-east corner (wiki); Apprentices also at Danger Peaks (501005009)"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

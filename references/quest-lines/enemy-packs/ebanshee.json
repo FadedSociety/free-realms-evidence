@@ -1,0 +1,63 @@
+{
+ "title": "Banshee",
+ "our_entries": [
+  {
+   "file": "dungeons\\bone_bog_cemetery.json",
+   "definition_id": 930026
+  },
+  {
+   "file": "dungeons\\bone_bog_cemetery.json",
+   "definition_id": 930026
+  },
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000000,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Boss of the Bone Bog Cemetery (non-event)",
+   "location_evidence": [
+    "Bone Bog Cemetery"
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:3082 [npc_name | - | -] 'Banshee'"
+ ],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [
+  "locale:3074 [item | - | Mother's Day Bouquet] \"Mother's Day Bouquet\"",
+  "locale:3075 [other | - | - | FLAG dev_note: flavor/vendor text unclear, possibly not quest content] 'Virtual flowers are way better than plastic ones!'",
+  "locale:3076 [npc_name | - | -] 'Snowflake'",
+  "locale:3077 [npc_name | - | -] 'Bausch'",
+  "locale:3078 [npc_name | - | -] 'Jessica'",
+  "locale:3079 [ui | - | -] \"You can't use that ability right now.\"",
+  "locale:3080 [npc_name | - | -] 'Nilly'",
+  "locale:3081 [item | - | umbrella] 'Even the darkest of rainy days will be colorful with this umbrella.'",
+  "locale:3082 [npc_name | - | -] 'Banshee'",
+  "locale:3083 [item | - | Heal Over Time Potion I] 'Heal Over Time Potion I'",
+  "locale:3084 [ability | - | Dragon Strike] 'Dragon Strike'",
+  "locale:3085 [ability | - | Shuriken Toss] 'Shuriken Toss'",
+  "locale:3086 [ability | - | Smoke Bomb] 'Smoke Bomb'",
+  "locale:3087 [ability | - | Alacrity] 'Alacrity'",
+  "locale:3088 [ability | - | Dodge] 'Dodge'",
+  "locale:3089 [item | - | Heal Over Time Potion I] ' This potion heals over a set amount of time.'",
+  "locale:3090 [ability | - | Dragon Strike] 'Instantly perform a devastating slash for 133 damage. Next rank: Damage increased to 150.'"
+ ],
+ "wiki": {
+  "title": "Banshee",
+  "text": "The Banshee is an NPC boss that can be found in the Bone Bog Cemetery, located in Blackspore Swamp where five of the wraiths spawns.\n\nAppearances\nBone Bog Cemetery\nTrading Card Game Series 1\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Females\nCategory:Blackspore\nCategory:Trading Card Game"
+ },
+ "images": [],
+ "video": [
+  "video:TjpDl22Lwpk/00344.jpg (-): npcs: Banshee nameplate  | quest:   Defeat the cemetery banshee (checked) Bonus: Find and defeat the 3 Bone Bog Skeletons! - 1/3  | landmarks: Cemetery arch and stone wall | job_level: Archer 16 | other_text: Banshee Goals (2)",
+  "video:TjpDl22Lwpk/00328.jpg (-): npcs: Banshee nameplate  | quest:   Defeat the cemetery banshee Bonus: Find and defeat the 3 Bone Bog Skeletons! - 1/3  | landmarks: Cemetery fence with stone posts | job_level: Archer 16 | other_text: Banshee You don't have enough energy for that ability! -2490 Goals (2)",
+  "video:TjpDl22Lwpk/00326.jpg (-): npcs: Banshee nameplate  | quest:   Defeat the cemetery banshee! Bonus: Find and defeat the 3 Bone Bog Skeletons! - 1/3  | landmarks: iron fence stone pillars | job_level: Archer 16 | other_text: You don't have enough energy for that ability! -4981!! -190 Goals (2)",
+  "video:TjpDl22Lwpk/00182.jpg (-): quest:   Defeat the cemetery banshee Bonus: Find and defeat the 3 Bone Bog Skeletons! - 1/3  | landmarks: Domed stone mausoleum Gravestones Bare dead tree | job_level: Archer 16 | other_text: Goals (2)",
+  "video:TjpDl22Lwpk/00152.jpg (-): quest:   Defeat the cemetery banshee Bonus: Find and defeat the 3 Bone Bog Skeletons! - 1/3  | landmarks: Blue-lit cemetery ground with stone tombs | job_level: Archer 16 | other_text: Goals (2) You receive 15 coins"
+ ],
+ "article_facts": [
+  "fact:mechanic: Agreeing to join the Friday the 13th event turned the player into a creature such as a banshee, grave elemental or skeleton. | Agreeing to join in will turn you into a creepy creature, like a banshee, grave elemental or skeleton (http://www.freerealms.com:80/article/detail.action?articleId=2571)",
+  "fact:mechanic: Creatures with cool play effects, such as Banshee Boss, Mushroom Giant Boss, Ninja Master, Star-Throwing Ninja, Bullseye and Shifty the Shuffler, work especially well with the Invading Bixie Elite. | This power-up works great with creatures that have cool effe (http://www.freerealms.com:80/article/detail.action?articleId=209)"
+ ],
+ "quest_answers_naming_it": []
+}

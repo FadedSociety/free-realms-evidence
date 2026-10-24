@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccobblestone-pillar-148399-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3853, 10411, 6, 1084] model=claude-haiku-5-5 -->
+# Cobblestone Pillar
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The store row is real: stores.json line 12162 is item_id 36879, category_id 4, purchase 10, member 9, sell 1, no_sale false. The category is unnamed in the repo, so calling it 'Coin store' rests on the answer's inference, not on a named store. The answer already flags this in open, so it is a caveat, not an error.", "fix": "Keep the source as a coin-store listing (stores.json line 12162, category 4). Do not name a specific vendor or shop unless a source names one. The 'vendor' type is a loose label for a store listing."}]}

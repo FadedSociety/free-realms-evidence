@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfisher-s-livebox-square-shard-30653-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3940, 6292, 6, 1113] model=claude-haiku-5-5 -->
+# Fisher's Livebox Square Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Vendor NPC and zone are null. The store row only shows category_id 121 and source_tags (L1, L2, L4, R2, T633, R1), which are not named as vendors. The answer correctly says so in open, but the source type 'vendor' is a label for a coin store price, not a confirmed NPC.", "fix": "Keep 'where' null and describe the source as a coin store price (stores.json line 606), not a named vendor. The row itself checks out: item_id 2136, category_id 121, purchase_price_coins 866, member_price_coins 779 (866 x 0.9 = 779.4, rounded down), no_sale false. The client's coin_store_prices [866] matches."}]}

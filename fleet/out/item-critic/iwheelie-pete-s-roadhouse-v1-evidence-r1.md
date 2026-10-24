@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwheelie-pete-s-roadhouse-v1-evidence-r1 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[13297, 11119, 8, 1121] model=claude-haiku-5-5 -->
+# Wheelie Pete's Roadhouse
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "The repo note (NPCs - Wilds.md:26) identifies 1885145003 as Wheelie Pete's Roadhouse, the place, and says it is separate from The Roadhouse. It does not say the note lists 'no item drops or sales' for it. That absence claim is the answer's inference, not something the note states.", "fix": "Reword to: the repo note (NPCs - Wilds.md:26) identifies Wheelie Pete's Roadhouse (1885145003) as a Sunstone Valley place, separate from The Roadhouse. The pack shows no coin, Station Cash, vendor, quest reward or drop for it (wiki coins/station_cash/igd empty; vendor_stock empty)."}]}

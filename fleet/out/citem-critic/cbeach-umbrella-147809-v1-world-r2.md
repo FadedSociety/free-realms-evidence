@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbeach-umbrella-147809-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4026, 5396, 6, 884] model=claude-haiku-5-5 -->
+# Beach Umbrella
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].source / evidence", "issue": "Minor: article 1573's summary line says the umbrella is 'sold in the Marketplace', which conflicts with its body text (Coin Shop). The answer already flags this as open and does not list Marketplace as a source, so it is not a defect. Article 1571 (not cited) also independently places the beach umbrella at the Coin Shop, which would strengthen the citation list.", "fix": "Optionally add http://www.freerealms.com/article/detail.action?articleId=1571 as a supporting Coin Shop source (its text: 'the Coin Shop offered a beach chair, beach umbrella, and volleyball net'). Keep the Marketplace line as an open note."}]}

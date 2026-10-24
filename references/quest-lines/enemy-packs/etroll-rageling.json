@@ -1,0 +1,57 @@
+{
+ "title": "Troll Rageling",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 42040,
+   "definition_id": 930097,
+   "model_id": 166,
+   "max_health": 140,
+   "damage": 3,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 42040,
+   "definition_id": 930097,
+   "model_id": 166,
+   "max_health": 140,
+   "damage": 3,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 42040,
+   "definition_id": 930097,
+   "model_id": 166,
+   "max_health": 140,
+   "damage": 3,
+   "boss": false
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:42040 [npc_name | - | Troll Rageling] 'Troll Rageling'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:42040 [npc_name | - | Troll Rageling] 'Troll Rageling'"
+ ],
+ "client_cluster": [
+  "locale:42033 [quest_objective | - | Encounter 95] 'Encounter 95: Less damaging dynamite toss'",
+  "locale:42034 [npc_name | - | Robgoblin Boomer] 'Robgoblin Boomer'",
+  "locale:42038 [npc_name | - | Troll Scoutling] 'Troll Scoutling'",
+  "locale:42039 [npc_name | - | Troll Novice Archer] 'Troll Novice Archer'",
+  "locale:42040 [npc_name | - | Troll Rageling] 'Troll Rageling'",
+  "locale:42041 [npc_name | - | Troll Young Guardian] 'Troll Young Guardian'",
+  "locale:42042 [quest_dialog | - | Brad | FLAG dev_note: \"Changed Brad's end text blah\" is a developer changelog note] \"Changed Brad's end text blah\"",
+  "locale:42044 [npc_dialog | - | Robgoblin Boomer] \"Ya ain't so tough! C'mon, I'll fight ya!\"",
+  "locale:42045 [npc_dialog | - | Robgoblin Boomer] \"I sees ya! Stop sneakin' around and fight!\"",
+  "locale:42046 [npc_dialog | - | Robgoblin Boomer] 'Ya too chicken to fight? Bwawk bwawk bwawk! Look at ya run!'",
+  "locale:42047 [npc_dialog | - | Robgoblin Boomer] \"Make like an egg and scramble! Or I'll beat ya!\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

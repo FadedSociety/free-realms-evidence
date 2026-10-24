@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpile-o-loot-16145-v2-evidence-r3 status=done turns=2 usd=0.0022 tokens(read,write,in,out)=[4258, 12170, 6, 1173] model=claude-haiku-5-5 -->
+# Pile O' Loot
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[1] / client_definition.coin_store_prices", "issue": "The evidence pack lists coin_store_prices [75000] under the client definition, but evidence[1] says the 75000 price comes only from the stores.json row, not the client definition. The two statements conflict about where the price is evidenced. I did not find a price field in the client definition to confirm either way.", "fix": "Cite the price only to stores.json:2690 (item_id 9048, category_id 54, purchase_price_coins 75000, member_price_coins 67500, sell_price_coins 7500, no_sale false), which I re-read and confirmed. Drop or verify the client coin_store_prices field before saying the client also carries 75000."}]}

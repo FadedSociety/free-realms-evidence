@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstucco-wall-texture-19597-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3765, 7554, 6, 941] model=claude-haiku-5-5 -->
+# Stucco Wall Texture
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence[1] (wiki Items index)", "issue": "Minor wording: the wiki Items index lists this entry as '[Stucco] [Wall] [Texture]' under Walls, not as a plain 'Stucco Wall Texture' page title. The title match holds, but the claim should quote the index form. The index is a title list only, so it supports existence in the wiki, not any acquisition source.", "fix": "Cite the wiki Items index entry '[Stucco] [Wall] [Texture]' under Walls (title only, no body). It does not establish a vendor, price, quest or drop."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmart-striped-caterpillar-40844-v1-evidence-r1 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[14978, 12022, 8, 1501] model=claude-haiku-5-5 -->
+# Smart Striped Caterpillar
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "client_definition / name source", "issue": "The answer does not note that locale 40844 is tagged npc_name in the client text table, not item text. The name is checked and real, but the tag is odd for an item and the answer should have flagged it as a possible mis-tag, since the item's identity rests on a shared name string.", "fix": "Add a caveat: locale:40844 is tagged npc_name; the collection link is confirmed by collection_catalogue.json lines 6026-6034 (entry index 3, item_definition_id 3628, name_id 40844) and locale:132339, so the identity holds despite the tag."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=page-secondpage-vm status=nothing_found turns=1 usd=0.0004 tokens(read,write,in,out)=[0, 1895, 4, 312] model=claude-haiku-5-5 -->
+# Free Realms - Free Realms Sign Up
+
+{"article": {"title": "Free Realms - Free Realms Sign Up", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This archived freerealms.com page (captured 2009-02-21) is an account sign-up/login page. It contains only navigation text: prompts for users with an existing Station Account to log in, links for forgotten username or password, and legal links (Privacy Policy, Terms of Service, Photosensitive Warning). It gives no game mechanics, quests, items or other gameplay details.", "facts": [], "quests": [], "uncertain": ["The page body contains no article text; the sign-up form fields themselves were not captured.", "No publication date or author is shown on the page."]}

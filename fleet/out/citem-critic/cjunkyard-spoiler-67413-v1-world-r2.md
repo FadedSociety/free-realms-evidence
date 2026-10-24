@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjunkyard-spoiler-67413-v1-world-r2 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[15300, 11798, 8, 1524] model=claude-haiku-5-5 -->
+# Junkyard Spoiler
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The open note says the Derby Junkyard Kart Parts collection is 'a Demo Derby job item'. The only support is the repo build note listing it among Demolition Derby collections. No source ties the collection or its pieces to the job's rewards, so this is an unsupported inference, not evidence.", "fix": "Reword as: the collection is listed in the client next to Derby Driver Tires and Derby Kart Fuel (repo notes, Demolition Derby Driver.md:215); its acquisition route is unknown. Checked: lookup over wiki, articles and video for 'derby junkyard collection reward' returned no hits."}]}

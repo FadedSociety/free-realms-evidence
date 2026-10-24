@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstalker-mystical-ring-86426-v1-world-r2 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[13304, 9870, 8, 1131] model=claude-haiku-5-5 -->
+# Stalker Mystical Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "No source is evidenced. My checks agree: the wiki, articles and video lookups name no 'Stalker Mystical Ring' or Stalker/Hero ring page, and the only 'Stalker' wiki hit is 'Scoped Stalker Bow'. The repo's only 'Mystical Ring' hits are client locale rows, and the 22435 hits are Drill Sergeant Dewey. The first-pass 'drop' guess is correctly excluded.", "fix": "No change needed. The answer correctly leaves sources empty and retired null. Only a future vendor, quest, or drop row for the Stalker/Mystical ring family would add a source."}]}

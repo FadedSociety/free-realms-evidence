@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=igingerbread-cookie-coffee-table-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3612, 8793, 6, 1154] model=claude-haiku-5-5 -->
+# Gingerbread Cookie Coffee Table
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor omission: the wiki Player Studio category page lists this table under 'Wave 6 - 01/21/2014' with Shyshadow as designer, and the Template:News holiday release list names it alongside the Gingerbread Cookie Armchair and Couch. The answer gives the January 21, 2014 date only in evidence, not as a release-wave detail. This is supporting context, not a new source.", "fix": "Optionally add 'Player Studio Wave 6, 01/21/2014' to the detail (source: wiki Player Studio page, rev 43321 neighbourhood; wiki Template:News holiday list). No change to sources or prices."}]}

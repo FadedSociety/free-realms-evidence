@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=call-star-algae-necklace-8344-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[15501, 11804, 8, 1108] model=claude-haiku-5-5 -->
+# All-Star Algae Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources list is correct: I found no vendor, store, quest, drop, event or collection row that names locale 8344 or definition 2156. The repo search for 'Algae|8344|2156' hit only unrelated lines, and the lookup on 'All-Star Algae' returned only the client locale line (locale:8344). No coin price exists in the client definition, so none is asserted.", "fix": "No change needed. Keep sources empty and retired null. Fisherman.md:291 (client-only, names and collection IDs) is quoted accurately: it lists the 'All-Star Biomass Triangle Shard' example and says tier order and stats are unknown, so the answer's 'open' items match the note."}]}

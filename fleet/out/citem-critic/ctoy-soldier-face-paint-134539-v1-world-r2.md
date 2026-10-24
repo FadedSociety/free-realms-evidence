@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctoy-soldier-face-paint-134539-v1-world-r2 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3894, 4239, 6, 742] model=claude-haiku-5-5 -->
+# Toy Soldier Face Paint
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Toy Soldier Outfit sibling sale (SC 199 / SC 179) is listed as evidence, but it is for a different item. It does not bear on this face paint's acquisition, and the answer correctly leaves it out of sources. It should be labelled as context only, not evidence for this item.", "fix": "Mark as sibling context only. No price or vendor for Toy Soldier Face Paint is evidenced. Lookup across client, wiki, articles and video returns only locale:134539, which confirms the name and nothing about acquisition."}]}

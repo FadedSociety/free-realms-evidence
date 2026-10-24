@@ -1,0 +1,43 @@
+{
+ "title": "Feisty Floren",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\feisty_floren.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:141040 [quest_title | - | Feisty Floren!] 'Feisty Floren!'",
+  "locale:384801 [npc_name | Lakeshore | Feisty Floren] 'Feisty Floren'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:384801 [npc_name | Lakeshore | Feisty Floren] 'Feisty Floren'",
+  "locale:388439 [quest_objective | Pixie Woods | Feisty Floren] 'Defeat Feisty Floren'",
+  "locale:388440 [quest_objective | Pixie Woods | Feisty Floren] 'Defeat Feisty Floren in the Pixie Nursery.'"
+ ],
+ "client_cluster": [
+  "locale:141033 [npc_dialog | Snowhill | -] \"You haven't taken off for Snowhill yet?  Might want to bundle up while searching for ice lotus.  It's cold up there!\"",
+  "locale:141035 [npc_dialog | - | Sergeant Flubtum] 'Have you been to the Vale yet? I do hope Sergeant Flubtum is okay...'",
+  "locale:141037 [quest_title | - | Grave Danger!] 'Grave Danger!'",
+  "locale:141038 [quest_title | - | Wraiths of Wrath!] 'Wraiths of Wrath!'",
+  "locale:141039 [quest_title | - | Pixie Hunters!] 'Pixie Hunters!'",
+  "locale:141040 [quest_title | - | Feisty Floren!] 'Feisty Floren!'",
+  "locale:141043 [quest_title | - | Return to Sender!] 'Return to Sender!'",
+  "locale:141045 [quest_title | - | Scary Fire] 'Scary Fire'",
+  "locale:141046 [other | - | - | FLAG dev_note: internal map/aura label] ' mugworts hollow 39: snake scare aura'",
+  "locale:141047 [quest_dialog | - | Private Gailug] 'Private Gailug and the chugawugs need our help Medic.  You can do it!'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Feisty Floren"
+ ],
+ "video": [
+  "video:Yoxys3l0-vg/00158.jpg (-): other_text: YOU WIN! Feisty Floren! Score Info Enemies Defeated Goals Knockouts Remaining Rewards",
+  "video:RdFC2N87-3c/00006.jpg (-): npcs: Durple nameplate  | job_level: Adventurer 3 | other_text: Feisty Floren (pink marker, 96m) Upgrade!"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

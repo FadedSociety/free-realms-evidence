@@ -1,0 +1,146 @@
+{
+ "title": "Community Event schedule",
+ "names_seen": [
+  "Community Event schedule",
+  "Community event schedule",
+  "Community events schedule"
+ ],
+ "facts": [
+  {
+   "statement": "In-game events were expected Tuesdays at 9am and 4pm PST, Thursdays at 3pm PST, and Friday mornings at 9am PST; TCG events were expected every day.",
+   "numbers": {
+    "tuesday_am_pst": 9,
+    "tuesday_pm_pst": 16,
+    "thursday_pst": 15,
+    "friday_am_pst": 9
+   },
+   "era": "live",
+   "quote": "expected to happen every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST and Friday mornings at 9am PST",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1510",
+   "date": null
+  },
+  {
+   "statement": "Game events were expected on Tuesdays at 09:00 and 16:00 Pacific Time, Thursdays at 15:00 Pacific Time, and Friday mornings at 09:00 Pacific Time; JCC events were expected daily.",
+   "numbers": {
+    "tuesday_start_1_pacific_hour": 9,
+    "tuesday_start_2_pacific_hour": 16,
+    "thursday_start_pacific_hour": 15,
+    "friday_start_pacific_hour": 9,
+    "jcc_events_per_day": 1
+   },
+   "era": "live",
+   "quote": "Se espera que los eventos de juego ocurran todos los martes a las 09:00 hrs. y 16:00 hrs. TP",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1601",
+   "date": null
+  },
+  {
+   "statement": "Community team events ran every Thursday at 16:00 Pacific Time and every Friday at 09:00 Pacific Time.",
+   "numbers": {
+    "thursday_hour_pacific": 16,
+    "friday_hour_pacific": 9
+   },
+   "era": "live",
+   "quote": "todos los jueves a las 16:00 hrs. Tiempo Pacifico y los viernes a las 09:00 hrs.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1860",
+   "date": null
+  },
+  {
+   "statement": "Community team events run every Thursday at 16:00 and every Friday at 09:00, Pacific Time.",
+   "numbers": {
+    "Thursday hour (Pacific, 24h)": 16,
+    "Friday hour (Pacific, 24h)": 9
+   },
+   "era": "live",
+   "quote": "todos los jueves a las 16:00 hrs. Tiempo Pacifico y los viernes a las 09:00 hrs.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1861",
+   "date": null
+  },
+  {
+   "statement": "The U.S. and Latin America session was on Thursday January 6, 2011 at 3pm Pacific Time on Server 1.",
+   "numbers": {
+    "day": 6,
+    "month": 1,
+    "year": 2011,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday January 6th, 2011 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1984",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session was on Friday January 7, 2011 at 9:00am Pacific Time (4:00pm GMT) on Server 1.",
+   "numbers": {
+    "day": 7,
+    "month": 1,
+    "year": 2011,
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday January 7th, 2011 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1984",
+   "date": null
+  },
+  {
+   "statement": "The Thursday session for US and Latin America was at 3pm Pacific Time on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Jueves 6 de Enero del 2011 3pm Tiempo del Pacifico (EE. UU. y America Latina) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1988",
+   "date": null
+  },
+  {
+   "statement": "The Friday session for UK and Europe was at 9am Pacific Time on Server 1.",
+   "numbers": {
+    "hour_pacific": 9
+   },
+   "era": "live",
+   "quote": "Viernes 7 de Enero del 2011 9am Tiempo del Pacifico (Reino Unido y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1988",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1510",
+   "date": null,
+   "title": "Summer Camp All Summer Long",
+   "summary": "A Free Realms news post announcing the summer Community Team event season: Chatty's summer camp in Greenwood Forest (reached by a newly activated Warpstone) and Robbie the Robgoblin's rival camp across the lake, with weekly themed events through Labor Day. It gives the expected in-game event schedule and how to join events via the Game Guide calendar."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1601",
+   "date": null,
+   "title": "Free Realms - What is New? (Campamento de Verano – Semana Deportiva)",
+   "summary": "A Spanish-language official news post for the Free Realms Summer Camp event, covering its Sports Week theme. It gives the scheduled times for in-game community events and explains how to reach them via the Game Guide calendar. The exact post date is not shown (only 'Posted 10 months, 4 weeks ago' relative to capture), so it is undated."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1860",
+   "date": null,
+   "title": "Segundo Año de Super Spooktacular (Free Realms - What is New?)",
+   "summary": "A Spanish-language Free Realms news post announcing the second year of the Super Spooktacular Halloween event. It covers costumes, Pixiewood decorations, the /scare trick-or-treat mechanic, daily quests, world events, the Bone Marsh battle instance, and a Trading Card Game (JCC) Halloween pack offer. The post's date is not shown; it is only given as 'posted 7 months, 2 weeks ago' at the 2011-06-04 capture, so it is roughly late 2010."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1861",
+   "date": null,
+   "title": "Segundo Año de Super Spooktacular (Free Realms - What is New?)",
+   "summary": "A Spanish-language official news post announcing the second year of the Super Spooktacular Halloween event. It describes costumes, decorations, a /scare trick-or-treat system, daily quests, world and community events, the Bone Bog Cemetery battle instance, and a Trading Card Game (JCC) Halloween pack. The post gives no exact date; it was captured in June 2011 and says it was posted about 7 months and 2 weeks earlier."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1984",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com community news post announcing the '2011 Kick Off Party' Community Event, held at the stage in Snowhill on Server 1 in two sessions for different regions. It describes the Community Team's weekly Thursday meetups in different in-game places. The post's exact date is not shown; it is listed as posted 4 days and 1 hour before the January 10, 2011 capture."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1988",
+   "date": null,
+   "title": "Evento Comunitario: Fiesta de Inicio al 2011",
+   "summary": "A Spanish-language official freerealms.com community event notice announcing the first community party of 2011, held on a stage in Snowy Hill on Server 1. The Community Team said it gathers at a different location each Thursday, and players were asked to bring favorite outfits and boomboxes. Event times are given per region in Pacific Time."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

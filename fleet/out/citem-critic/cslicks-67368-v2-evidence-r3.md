@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslicks-67368-v2-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3791, 4829, 6, 1119] model=claude-haiku-5-5 -->
+# Slicks
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[5] / open", "issue": "The answer says the lookups for 'Slicks' returned no matches. A wiki lookup does return a loose hit: a Redsden 'Sells' list containing 'Journeyman Wizard [Slicks]'. It is a different item (a wizard outfit piece), so it does not change the answer, but the 'no matches' wording overstates the search.", "fix": "Say that the wiki search for 'Slicks' returns only an unrelated 'Journeyman Wizard [Slicks]' Redsden vendor line, which does not name the Kart tire item. Source: lookup(wiki) 'Slicks', Redsden page."}]}

@@ -1,0 +1,6 @@
+<!-- fleet job=citem-critic id=cn-frame-notched-derby-pants-pl-frame-notched-derby-pants-133063-v1-world-r2 status=no_submit turns=6 usd=0.0047 tokens(read,write,in,out)=[81576, 21910, 14, 2313] model=claude-haiku-5-5 -->
+# {n}Frame-Notched Derby Pants{pl="Frame-Notched Derby Pants"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The wording says the coin-store rules 'treat it as a coin vendor sale' and that no vendor NPC stocks it in the repo vendor data. I did not check the repo vendor data, and the pack's vendor_stock is empty, so the claim is unverified rather than wrong.", "fix": "Say only that the vendor check is empty in the pack (vendor_stock: []) and that the coin store row is the sole source. The coin_shop type is correct as stated."}]}
+
+The core claim holds. `repo:prototype/osfr-tools/data/content/stores.json:15775` has item 76055, category 104, purchase 752, member 676, sell 75, and the client definition's coin_store_prices is [752]. `FreeRealms-Legacy/.../CoinStoreItems.json:71174` also lists Id 76055 under CategoryId 104. No quest, wiki, or event source names 76055 or the pants, and I found no drop or reward evidence to add. The answer's `open` list already admits this, so it is honest. The answer is wireable from the coin-store price alone.

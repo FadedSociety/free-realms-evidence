@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmedium-pouch-99959-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3845, 7563, 6, 997] model=claude-haiku-5-5 -->
+# Medium Pouch
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] and evidence[1]", "issue": "The answer links Medium Pouch to Fishing Junk only by locale-block adjacency and by ucdt/ugdt rows sitting near Soggy Socks and Old Boot. Adjacency in a text dump is not a source. The answer does flag this as 'plausibly' and 'not confirmed', so it is not a false source claim, but it should not be read as a fishing link.", "fix": "Keep sources empty. Describe the cluster as a locale-block neighbour only, with no fishing attribution (the Fisherman.md line 244 remark is itself a guess)."}]}

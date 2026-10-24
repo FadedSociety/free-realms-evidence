@@ -1,0 +1,24 @@
+<!-- fleet job=test-audit id=tests-piece-051-rs-L1 status=done turns=5 usd=0.0074 tokens(read,write,in,out)=[40392, 25247, 12, 7653] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_051.rs lines 1-294 of 294
+
+Window: `prototype/osfr-tools/tests/piece_051.rs` lines 1-294. Read against `prototype/osfr-tools/src/restoration/piece_051.rs` (validate_actor, parse_models_txt, is_enemy_model, binding_gap_evidence, APPLIED_ENEMIES). Most assertions hold up: the drift cases in `actor_validation_rejects_model_and_name_drift` each hit a real branch, the malformed-row case (line 2) matches the parser, and the flagged-descriptor list matches the fixture. The findings below are the real gaps.
+
+- **[medium] prototype/osfr-tools/tests/piece_051.rs:245 `name_lookup_tolerates_only_the_recovered_trailing_space` - the name and comment say only trailing-space drift is tolerated, but the code trims both sides, and the body never tests leading whitespace.**
+  - Why it cannot catch a regression: `validate_actor` (src line 339) compares `text.trim() != actor.name.trim()`. A name of `" Crash Davis"` (leading space) passes today, and the test never checks it, so a change that makes the comparison trim-insensitive in some other way would still pass. The "never rewrites either side" claim is also not checked.
+  - Fix: add `actor.name = " Crash Davis"` and assert the intended outcome (accept it and rename the test to match trim-both-sides, or reject it if only trailing space is meant to be tolerated). Also assert `actor.name` and the locale map are unchanged after the call.
+
+- **[medium] prototype/osfr-tools/tests/piece_051.rs:148 `applied_enemies_match_original_models_and_locale` - the name claims a match against the original models and locale, but the test checks only a 12-row hand-typed slice (`MODELS_TXT`) and a hand-typed name map (`recovered_names`, lines 61-73).**
+  - Why it cannot catch a regression: if the real `Resources/Models.txt` row for 3284 or 3933 changed, or the real locale for 5101961 changed, this test would still pass, because it never reads the artifact. Other tests in the repo read the real file (e.g. `bandit_hideout_dungeon.rs:2261`, `content_npc_spawns.rs`). It also never checks that APPLIED_ENEMIES is in sync with the rows it claims to match beyond the 7 entries.
+  - Fix: either rename it to say it checks against the fixture slice, or load the real `lab/working/OSFR.Client/OSFR Client/Resources/Models.txt` and the locale source (as the other tests do) and assert the same `validate_actor` result, skipping only with an explicit reason if the artifact is absent.
+
+- **[low] prototype/osfr-tools/tests/piece_051.rs:192 `unbound_definition_ids_are_reported_as_local_only` - `assert!(PEER_DEFINITION_ID_BASE > 0);` is a constant check that no change to the placement convention can break.**
+  - Why it cannot catch a regression: the constant is a `u64` literal, so the assertion tests nothing about placement, and the test name does not mention peer bases. Changing the base to any other nonzero value still passes.
+  - Fix: delete the line, or replace it with an assertion on a value the convention actually produces (e.g. `PEER_DEFINITION_ID_BASE + 3156 == 100_000_003_156`), in a test that is named for that behaviour.
+
+- **[low] prototype/osfr-tools/tests/piece_051.rs:81 and :104 `models_schema_matches_the_recovered_original_header` - `MODELS_TXT_COLUMNS.len() == 17` and `DEFINITION_FIELDS.len() == 5` restate the array types (`[&str; 17]`, `[&str; 5]`) and cannot fail.**
+  - Why it cannot catch a regression: the length is fixed by the type at compile time, so the assertion passes for any content change. The content comparison at lines 82-103 is the real check and is unaffected.
+  - Fix: remove the two length lines, or keep only the content comparison and add `DEFINITION_FIELDS` content against the expected field names.
+
+- **[low] prototype/osfr-tools/tests/piece_051.rs:283-293 `missing_bindings_are_explicit_about_what_was_never_recovered` - the gap explanations are checked only by loose keyword matches (`contains("ability") || contains("skill")`, `contains("health") || contains("stat")`).**
+  - Why it cannot catch a regression: `binding_gap_evidence(EnemyStats)` (src line 123) still contains "stats" in "never historical stats" after the text is changed to something like "original enemy health 500; stats unknown". The `||` in the skills check passes if either word appears. The check does not verify that each gap names the evidence that would close it, which the source doc says is the purpose.
+  - Fix: pin the full string for each gap (`assert_eq!` against the expected sentence), or at least assert the evidence-closing phrase (e.g. "server-side NPC/encounter data source" for EnemySkills, "spawn capture" for DefinitionId).

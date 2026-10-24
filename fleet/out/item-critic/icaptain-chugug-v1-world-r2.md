@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icaptain-chugug-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3433, 10499, 6, 1167] model=claude-haiku-5-5 -->
+# Captain Chugug
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open[0]", "issue": "The claim that he is 'only a quest-dialog character' overstates the evidence. The wiki's Quest Givers category and the Report to Captain Chugug quest objectives (locale 90908-90910) show he is a named quest giver and a speaking objective, not just dialog. The 'Failure is Not an Option' link is only a wiki appearance entry, not a verified quest-giver role.", "fix": "State: NPC, Quest Givers category (wiki Captain_Chugug), objectives 'Speak with Captain Chugug' in Chapter 1: Report to Captain Chugug (locale:90908-90910). Drop 'only a quest-dialog character'. No item, price or vendor source exists in the pack (wiki coins/station_cash/igd empty, no vendor_stock)."}]}

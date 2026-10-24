@@ -1,0 +1,90 @@
+{
+ "title": "Halloween Harry",
+ "our_entries": [
+  {
+   "file": "npcs/sanctuary.json",
+   "npc_id": 9500000493,
+   "zone": "Sanctuary",
+   "enemy_kind": "Skeleton candy-stall keeper",
+   "location_evidence": [
+    "Pixiewood Hills (wiki Super Spooktacular)"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:415047 [npc_name | - | Halloween Harry] 'Halloween Harry'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:415042 [quest_dialog | - | Halloween Harry] 'Hey!  I need your help!'",
+  "locale:415043 [quest_dialog | - | Halloween Harry] 'Azure and his necrospores are causing mayhem!  But I have a plan...'",
+  "locale:415044 [quest_dialog | - | Halloween Harry] \"Help me get to my radios.  If I can put these batteries in, the necrospores won't be able to stop dancing!\"",
+  "locale:415045 [quest_objective | - | Halloween Harry] 'Get me close to one of my radios!'",
+  "locale:415046 [quest_dialog | - | Halloween Harry] \"I'm putting the batteries in the radio, knock out anything that gets too close!\"",
+  "locale:415047 [npc_name | - | Halloween Harry] 'Halloween Harry'",
+  "locale:415048 [quest_dialog | - | Halloween Harry] \"Oh no! I'm too scared to fight them alone!\"",
+  "locale:415053 [quest_dialog | - | Halloween Harry] 'Be careful!  The necrospores are dangerous in large groups!'",
+  "locale:415054 [quest_dialog | - | Halloween Harry] 'Done!  The radio is now on!'",
+  "locale:415374 [quest_objective | Sanctuary | Halloween Harry] 'Pick up some caramel from Halloween Harry in Sanctuary.'",
+  "locale:415384 [quest_objective | Sanctuary | Halloween Harry] 'Help Halloween Harry recover the missing candy bags.'",
+  "locale:415385 [quest_objective | Sanctuary | Halloween Harry] 'Return the bags of candy to children around Sanctuary.'",
+  "locale:415386 [quest_objective | Sanctuary | Halloween Harry] \"Let the general in Sanctuary know that Bella's brother has gone missing.\"",
+  "locale:415407 [quest_objective | Sanctuary | Halloween Harry] 'Get caramel from Halloween Harry'",
+  "locale:415408 [quest_objective | Sanctuary | Halloween Harry] 'Halloween Harry has every sweet imaginable at his candy cart in Sanctuary.'",
+  "locale:416800 [other | Pixie Woods | Halloween Harry] 'This candy-obsessed skeleton is on the main street at Pixiewood.'",
+  "locale:416847 [quest_dialog | Sanctuary | Halloween Harry] \"What's that in your hands? Ectoplasmic goo from the ghosts!?<BR><BR>I don't have much use for that, [*player*], but my friend <font color='#d9781a'>Halloween Ha\"",
+  "locale:416849 [quest_dialog | Sanctuary | Halloween Harry] \"The ghost hunters don't want the ectoplasmic goo that you've collected so they're sending you to Halloween Harry in Sanctuary. Maybe he'll take it off your hand\"",
+  "locale:416850 [quest_dialog | Sanctuary | Halloween Harry] 'Hello there! Have you been having a happy Halloween?'",
+  "locale:416852 [quest_objective | Sanctuary | Halloween Harry] 'Give your ectoplasmic goo to Halloween Harry in Sanctuary.'",
+  "locale:416853 [quest_objective | Sanctuary | Halloween Harry] 'Speak to Halloween Harry'",
+  "locale:416855 [quest_dialog | Sanctuary | Halloween Harry] \"I'd hurry up, [*player*], <font color='#d9781a'>Halloween Harry</font> doesn't usually stay around for long.\"",
+  "locale:416865 [quest_dialog | Sanctuary | Halloween Harry] \"Hey [*player*]!<BR><BR>That's a lot of ectoplasmic goo you got there. You should go see <font color='#d9781a'>Halloween Harry</font> in Sanctuary.\"",
+  "locale:432033 [quest_dialog | - | Halloween Harry] \"I can't make my famous candied apples until you get some caramel from Halloween Harry.\"",
+  "locale:432174 [other | Sanctuary | Halloween Harry] \"It's a Spooktacular Halloween party in Sanctuary! <BR><BR>Check out the decorations, go trick-or-treating, and see Halloween Harry for fun and games.\"",
+  "locale:432472 [quest_dialog | - | Halloween Harry] \"Yes, Halloween Harry did ask me to make a special costume for him... <font size='14'>I am famous for my sense of fashion, you know?</font><BR><BR>I thought he w\""
+ ],
+ "client_cluster": [
+  "locale:415041 [quest_title | - | The Perfect Game] 'The Perfect Game'",
+  "locale:415042 [quest_dialog | - | Halloween Harry] 'Hey!  I need your help!'",
+  "locale:415043 [quest_dialog | - | Halloween Harry] 'Azure and his necrospores are causing mayhem!  But I have a plan...'",
+  "locale:415044 [quest_dialog | - | Halloween Harry] \"Help me get to my radios.  If I can put these batteries in, the necrospores won't be able to stop dancing!\"",
+  "locale:415045 [quest_objective | - | Halloween Harry] 'Get me close to one of my radios!'",
+  "locale:415046 [quest_dialog | - | Halloween Harry] \"I'm putting the batteries in the radio, knock out anything that gets too close!\"",
+  "locale:415047 [npc_name | - | Halloween Harry] 'Halloween Harry'",
+  "locale:415048 [quest_dialog | - | Halloween Harry] \"Oh no! I'm too scared to fight them alone!\"",
+  "locale:415049 [npc_dialog | - | Trick-or-Treat] \"Happy Halloween! Kek kek!<BR><BR>Have you ever <font color='#D9781A'>trick-or-treated</font> before?<BR><BR>People here won't pass out any candy unless you give\"",
+  "locale:415050 [quest_title | - | Trick-or-Treat] 'Trick-or-Treat'",
+  "locale:415051 [quest_objective | - | Trick-or-Treat] 'Look for people with the Halloween icon to trick with a good &quot;/scare&quot; for your treat!'",
+  "locale:415052 [quest_dialog | Sanctuary | Trick-or-Treat] \"That's quite a stash of candy you've got there! Of course, there's no such thing as too much. <BR><BR>Don't forget, you can <font color='#D9781A'>trick-or-treat\"",
+  "locale:415053 [quest_dialog | - | Halloween Harry] 'Be careful!  The necrospores are dangerous in large groups!'",
+  "locale:415054 [quest_dialog | - | Halloween Harry] 'Done!  The radio is now on!'",
+  "locale:415055 [quest_objective | - | Manager Landon] 'Talk to Manager Landon '"
+ ],
+ "wiki": {
+  "title": "Halloween Harry",
+  "text": "Halloween Harry is a skeleton NPC that can be found in Sanctuary during the Super Spooktacular.\n\nQuests\nQuest:Trick-or-Treat (repeatable)\nQuest:Bag Snatchers\nQuest:Candy Gram\nQuest:A Formal Report\nQuest:Halloween Fanatic\nQuest:Delicious Goo'd Candy (repeatable whenever you have 15 Ectoplasmic Goo in your inventory)\n\nAppearances\nQuest:Trick-or-Treat\nQuest:Bag Snatchers\nQuest:Candy Gram\nQuest:A Formal Report\nQuest:Halloween Fanatic\nQuest:Delicious Goo'd Candy\n\nGallery\n\nCategory:NPC\nCategory:Males\nCategory:Quest Givers\nCategory:Sanctuary\nCategory:Seasonal\nCategory:Super Spooktacular"
+ },
+ "images": [],
+ "video": [
+  "video:L8GVYeD4dKE/00008.jpg (-): npcs: Halloween Harry nameplate  | job_level: Adventurer 20 | other_text: Halloween Harry (interaction prompt) Sam Potts 22m (pink marker) Coin Jackpot Plant... 23m Goo'd Candy (partly hidden label) Timer 00:07:59 (top centre)",
+  "video:yWuHe_jYyc4/00044.jpg (-): npcs: Halloween Harry nameplate  | dialog: If you desire to trick or treat come see Halloween Harry at Sanctuary. | landmarks: pumpkin candy cart candy stall | job_level: Adventurer 2 | other_text: Goo'd Candy Ghost Hunter Active Quest",
+  "video:yWuHe_jYyc4/00196.jpg (-): npcs: Ghost Hunter nameplate  Halloween Harry nameplate  | job_level: Adventurer 2 | other_text: Active Quest! Chugzy 1449m",
+  "video:yWuHe_jYyc4/00254.jpg (-): npcs: Ghost Hunter nameplate  Halloween Harry nameplate  | job_level: Adventurer 2 | other_text: Active Quest! Chugzy 1449m",
+  "video:yWuHe_jYyc4/00000.jpg (-): npcs: Ghost Hunter nameplate  Halloween Harry nameplate  | job_level: Adventurer 2 | other_text: Good Candy Active Quest! (partly hidden) 1449m"
+ ],
+ "article_facts": [
+  "fact:event: Halloween Harry joined the shopkeepers in decorating Pixiewood for the Trick or Treat party in Sanctuary. | Los dueños de la tienda y Halloween Harry han engalanado Pixiewood (http://www.freerealms.com/article/detail.action?articleId=1870)",
+  "fact:npc: Halloween Harry, found on the road to Pixiewood, starts the Trick or Treating activity and sends players on further Halloween quests. | Speak to Halloween Harry on the road to Pixiewood to get started. (http://www.freerealms.com:80/article/detail.action?articleId=476)",
+  "fact:npc: Halloween Harry starts Trick or Treating in Pixiewood and sends players on further Halloween quests, including to fight the Pumpkin Prince; his quest givers have a pumpkin icon over their heads. | Halloween Harry will send you on more quests that will lead you (http://www.freerealms.com:80/article/detail.action?articleId=1854)",
+  "fact:mechanic: In Pixiewood, players collect treats by using the /scare command; Halloween Harry starts Trick or Treating and players can return each day for more treats. | you'll have to use the /scare command to get them. Speak to Halloween Harry on the road to Pixiewood t (http://www.freerealms.com:80/article/detail.action?articleId=1854)"
+ ],
+ "quest_answers_naming_it": [
+  "giver of 'A Formal Report' (final, zone Sanctuary)",
+  "giver of 'Bag Snatchers' (final, zone Sanctuary)",
+  "giver of 'Candy Gram' (final, zone Sanctuary)",
+  "giver of 'Delicious Goo'd Candy' (final, zone Sanctuary (NPC zone_id 10); Harry's street location is Pixiewood Hills)",
+  "talk target in 'Delicious Goo'd Candy' (final): Talk to Halloween Harry",
+  "giver of 'Halloween Fanatic' (final, zone Sanctuary (Pixiewood). Exact spot unresolved: locale:416800 says Halloween Harry is on the main street at Pixiewood; the Sanctuary NPC guide (repo:notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:134) says Pixiewood Hills.)",
+  "giver of 'Trick-or-Treat' (final, zone Sanctuary)"
+ ]
+}

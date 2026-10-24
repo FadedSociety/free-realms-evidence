@@ -1,0 +1,37 @@
+{
+ "title": "Hulking Shambler",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\haunted_mines.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:71202 [npc_name | Blackspore | Hulking Shambler] 'Hulking Shambler'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:71202 [npc_name | Blackspore | Hulking Shambler] 'Hulking Shambler'"
+ ],
+ "client_cluster": [
+  "locale:71195 [npc_name | Blackspore | Bandits] 'Bandits'",
+  "locale:71196 [npc_name | Blackspore | sneaking bandit] 'sneaking bandit'",
+  "locale:71199 [npc_name | Blackspore | Foreman Ironfist] 'Foreman Ironfist'",
+  "locale:71200 [item | - | Old Gregory's Game Table] \"Old Gregory's Game Table\"",
+  "locale:71201 [npc_name | Blackspore | Enraged Shambler] 'Enraged Shambler'",
+  "locale:71202 [npc_name | Blackspore | Hulking Shambler] 'Hulking Shambler'",
+  "locale:71203 [npc_dialog | Blackspore | -] \"You don't belong here, mortal!\"",
+  "locale:71206 [ability | Blackspore | Life Drain] 'Life Drain'",
+  "locale:71207 [other | Blackspore | Life Drain | FLAG dev_note: internal label \"Haunted Mines: Lifetap\"] 'Haunted Mines: Lifetap '",
+  "locale:71208 [ability | Blackspore | Dark Power] 'Dark Power'",
+  "locale:71209 [other | Blackspore | Foreman Ironfist | FLAG dev_note: internal label \"Haunted Mines: Foreman Buff\"] 'Haunted Mines: Foreman Buff'",
+  "locale:71210 [quest_dialog | - | Extending an Invite] 'You just missed the druids! They set up a chess table while you were gone.<BR><BR>Lorna will have to visit now, right?'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

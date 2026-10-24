@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cclassic-runner-steering-column-406518-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3740, 8073, 6, 995] model=claude-haiku-5-5 -->
+# Classic Runner Steering Column
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].claim", "issue": "The parenthetical says locale:406578 is 'Classic Runner' vehicle item text. Locale 406578 is actually the description 'The steering column for the Classic Runner.' The vehicle's own name is locale:7164 'Classic Runner' (description locale:7483 is the chassis line, not the vehicle).", "fix": "Cite locale:406518 for the name and locale:406578 for the description ('The steering column for the Classic Runner.'). Vehicle name is locale:7164 'Classic Runner'."}]}

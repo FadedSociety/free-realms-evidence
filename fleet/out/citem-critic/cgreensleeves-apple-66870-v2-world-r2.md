@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgreensleeves-apple-66870-v2-world-r2 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[9384, 6215, 8, 1283] model=claude-haiku-5-5 -->
+# Greensleeves Apple
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / live", "issue": "Minor: the wiki's List of Collections does list '[Green] [Apples]' under Flora > Common, which the answer cites accurately, but that listing is for the collection as a whole and gives no acquisition route for the individual apple. The answer already says so. Consistent with the empty sources list.", "fix": "No change required. Optionally note that the wiki Flora > Common group is a gathering-style category, so a gathering or collection-drop source is plausible but unevidenced for this apple."}]}

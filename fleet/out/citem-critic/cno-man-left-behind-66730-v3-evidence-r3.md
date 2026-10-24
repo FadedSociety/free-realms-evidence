@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cno-man-left-behind-66730-v3-evidence-r3 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3816, 5159, 6, 1179] model=claude-haiku-5-5 -->
+# No Man Left Behind
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "open[4]", "issue": "Cites locale:932441498, which does not exist (the automatic id check flags it). The text also still says the citation was 'removed', so the open list contains a fabricated reference and stale critique notes.", "fix": "Delete the locale:932441498 reference and the 'Critique fixes applied' sentence from open[4]. The only valid citations are locale:132397 (item description, verified: 'This item can be added to the Objective Complete Collection') and locale:67504 (collection name, verified: 'Objective Complete'). The wiki List of Collections entry '[Objective] [Complete]' also checks out."}]}

@@ -1,0 +1,29 @@
+{
+ "title": "First Annual Super Spooktacular",
+ "names_seen": [
+  "First Annual Super Spooktacular"
+ ],
+ "facts": [
+  {
+   "statement": "The Halloween event ran October 14 through November 11 and was free to all registered players.",
+   "numbers": {
+    "start_day_oct": 14,
+    "end_day_nov": 11
+   },
+   "era": "live",
+   "quote": "Super Spooktacular is scheduled to run October 14 through November 11, and is free to all registered players.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=476",
+   "date": "2009-10-16"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=476",
+   "date": "2009-10-16",
+   "title": "First Annual Super Spooktacular",
+   "summary": "SOE's official news post announcing Free Realms' Halloween event, the First Annual Super Spooktacular, running October 14 through November 11 (2009) and free to all registered players. It lists the event's costumes, Pixiewood decorations, trick-or-treating, Halloween quests, world events, a new Members battle instance, TCG quest packs and a daily prize wheel."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,141 @@
+{
+ "title": "Hooligan Wolf",
+ "our_entries": [
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 100,
+   "damage": 7,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 100,
+   "damage": 7,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 100,
+   "damage": 7,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 180,
+   "damage": 25,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 180,
+   "damage": 25,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 100,
+   "damage": 7,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 100,
+   "damage": 7,
+   "boss": false
+  },
+  {
+   "file": "encounters.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 180,
+   "damage": 25,
+   "boss": false
+  },
+  {
+   "file": "encounters.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 180,
+   "damage": 25,
+   "boss": false
+  },
+  {
+   "file": "encounters.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 180,
+   "damage": 25,
+   "boss": false
+  },
+  {
+   "file": "encounters.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 180,
+   "damage": 25,
+   "boss": false
+  },
+  {
+   "file": "encounters.json",
+   "name_id": 5100200,
+   "definition_id": 3156,
+   "model_id": 3284,
+   "max_health": 180,
+   "damage": 25,
+   "boss": false
+  }
+ ],
+ "entry_count": 12,
+ "client_name_matches": [
+  "locale:5100200 [npc_name | Sunstone Valley | Hooligan Wolf] 'Hooligan Wolf'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5100200 [npc_name | Sunstone Valley | Hooligan Wolf] 'Hooligan Wolf'"
+ ],
+ "client_cluster": [
+  "locale:5100192 [quest_objective | Rumble Ridge | Card Duelist: Ironteeth] 'Talk to Ironteeth in front of the Rumbledome.'",
+  "locale:5100193 [quest_dialog | Rumble Ridge | Card Duelist: Ironteeth] 'Ugh. What happened? The last thing I remember was taking a bag of coins from some weird guy with a top hat, monocle, and a greasy moustache. <BR><BR>I sure hope'",
+  "locale:5100194 [quest_title | Sunstone Valley | TCG5 - Quest 1] 'TCG5 - Quest 1'",
+  "locale:5100195 [quest_objective | Sunstone Valley | TCG5 - Quest 1] 'Help Madame Zelda search for the missing Realmkeepers in Sunstone Valley.'",
+  "locale:5100196 [quest_objective | Sunstone Valley | TCG5 - Quest 1] 'Talk to Rumble King Don'",
+  "locale:5100198 [quest_objective | Rumble Ridge | TCG5 - Quest 1] 'Speak to Milo E. Lizardo'",
+  "locale:5100200 [npc_name | Sunstone Valley | Hooligan Wolf] 'Hooligan Wolf'",
+  "locale:5100201 [quest_dialog | Sunstone Valley | TCG5 - Quest 1] 'Have you found the Realmkeepers?<BR><BR>I heard they were going to investigate Sunstone Valley.'",
+  "locale:5100203 [quest_objective | Sunstone Valley | TCG5 - Quest 1] 'Defeat Hooligan Wolves'",
+  "locale:5100205 [quest_title | Rumble Ridge | TCG5 - Quest 2] 'TCG5 - Quest 2'",
+  "locale:5100206 [quest_objective | Rumble Ridge | TCG5 - Quest 2] 'Talk to Milo E. Lizardo near the Manguana Oasis in Rumble Ridge.'",
+  "locale:5100207 [quest_objective | Rumble Ridge | TCG5 - Quest 2] 'Talk to Milo E. Lizardo'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Fighting the Pack' (final): Learn how to use your weapon by fighting Hooligan Wolves."
+ ]
+}

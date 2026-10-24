@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cheavy-fire-square-shard-99411-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3809, 7097, 6, 949] model=claude-haiku-5-5 -->
+# Heavy Fire Square Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that sibling Briarheart Bandage Square Shard is a Medic power shard and came from a TCG virtual reward was not confirmed by my lookup; the wiki lookup returned no page. It is only a sibling-family hint and does not support any source for item 32292.", "fix": "Drop it or mark it unverified. The only evidenced source for 32292 is the coin store row in repo:prototype/osfr-tools/data/content/stores.json line 8238: item_id 32292, category_id 121, purchase_price_coins 1149, member_price_coins 1034 (10% discount), sell_price_coins 114."}]}

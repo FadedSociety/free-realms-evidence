@@ -1,0 +1,40 @@
+{
+ "title": "Fashion Week",
+ "names_seen": [
+  "Fashion Week"
+ ],
+ "facts": [
+  {
+   "statement": "During Summer Camp Fashion Week, fashion shows were held through the week, with activities players could do with friends to show off their wardrobes.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Estaremos teniendo desfiles de modas durante la semana",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1593",
+   "date": null
+  },
+  {
+   "statement": "Fashion Week featured fashion shows during the week and activities players could do with friends to show off their wardrobes.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Estaremos teniendo desfiles de modas durante la semana",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1592",
+   "date": "2010-07-01"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1593",
+   "date": null,
+   "title": "Free Realms - What is New? (Campamento de Verano – Semana de Moda / Summer Camp – Fashion Week)",
+   "summary": "A Spanish-language official news post for the Summer Camp community event, themed as Fashion Week, with fashion shows and friend activities during the week. It gives the expected in-game event times (Tuesday, Thursday and Friday) and explains how to reach events through the Game Guide calendar and its Go button. The post is undated; it was posted about 11 months before the 2011-06-04 capture."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1592",
+   "date": "2010-07-01",
+   "title": "Campamento de Verano – Semana de Moda (Free Realms - What is New?)",
+   "summary": "A Spanish-language SOE news post announcing Fashion Week, the themed week of the Summer Camp community event in Free Realms. It gives the weekly schedule for in-game community events and explains how players find and join them via the Game Guide calendar. It also says Trading Card Game (JCC) events run daily."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

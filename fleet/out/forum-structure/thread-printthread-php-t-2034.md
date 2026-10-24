@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-printthread-php-t-2034 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2872, 4, 562] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a vBulletin thread-print page from freerealmsforums.com (thread t=2034) that shows only a 'maximum number of posts you can view' registration error and forum navigation. No thread posts, guide text, or game facts were captured, so there is nothing about Free Realms a rebuilder can use from this copy.", "facts": [], "quests": [], "uncertain": ["The thread's title, author, date and posts are not present in the extracted text; the page shows only the forum error banner and navigation.", "The page is hosted on the Free Realms fan forum, but no Free Realms-specific content is visible, so about_free_realms is marked false."]}

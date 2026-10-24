@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csorcerer-fateful-ring-86441-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4010, 5087, 6, 949] model=claude-haiku-5-5 -->
+# Sorcerer Fateful Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The cluster is described as 11 names, but the client has more Sorcerer ring names than the list gives. Locale 86447 'Sorcerer Celestial Ring' and 86448 'Sorcerer Ethereal Ring' exist and are omitted from the claim, so the cluster is 13 names (Hero x4, Sorcerer x9).", "fix": "Say the cluster runs locale:86436 through locale:86448 (Hero Phantasmal/Eternal/Celestial/Ethereal Ring, then Sorcerer Dreadful/Fateful/Infernal/Spectral/Mystical/Phantasmal/Eternal/Celestial/Ethereal Ring). Source: locale lookup 86440-86448."}]}

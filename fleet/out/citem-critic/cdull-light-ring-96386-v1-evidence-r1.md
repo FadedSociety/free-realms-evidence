@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-light-ring-96386-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3402, 8404, 6, 931] model=claude-haiku-5-5 -->
+# Dull Light Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] (client cluster)", "issue": "The sibling list omits 'Dull Light Necklace', which sits alongside 'Dull Light Ring' in the locale dump (e.g. ids 1583112237 and 1722633175 in opening-*/locale/en_us_data.dat). The 'Dull Light' family is therefore wider than the answer states. This does not change the result, since no source is claimed.", "fix": "Add 'Dull Light Necklace' to the client cluster list (locale dump, same family as 96386). Still no acquisition source in lookup (client/wiki/articles/video), repo, or refs for any Dull Light or Blinding Void item."}]}

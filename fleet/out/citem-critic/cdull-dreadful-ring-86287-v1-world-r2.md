@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-dreadful-ring-86287-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3849, 7869, 6, 1146] model=claude-haiku-5-5 -->
+# Dull Dreadful Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The 'Dull <X> Ring' family is a tier-like chain (the 'Dull', 'Polished', 'Shining', 'Beaming' prefixes recur across Dreadful Ring and Star Shard items in the client locale). The answer's speculation that Dull is the lowest tier or a crafting or gathering reward is unconfirmed and is correctly kept in open, not sources.", "fix": "No change needed. Keep sources empty and the drop guess out. The only confirmed facts are the locale:86287 name, definition 22296 and slot 8 (see locale lookups for 'Dreadful Ring' and the 'Dull ... Ring' cluster). Nothing in refs, wiki, articles or video names an acquisition path."}]}

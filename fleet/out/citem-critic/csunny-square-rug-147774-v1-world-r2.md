@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csunny-square-rug-147774-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3707, 4286, 6, 846] model=claude-haiku-5-5 -->
+# Sunny Square Rug
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / open", "issue": "The answer leaves the vendor location null, but the same stores.json row (line 12045) carries source_tags [\"L1\",\"L2\",\"L4\",\"R2\",\"T633\",\"R1\"]. The answer does not mention these tags, so a builder would miss a possible location lead. They are not a vendor mapping, so the null location is still honest.", "fix": "Cite the source_tags from repo:prototype/osfr-tools/data/content/stores.json:12045 as unresolved location tags in open. Keep where: null until a vendor-stock row for category 53 is found."}]}

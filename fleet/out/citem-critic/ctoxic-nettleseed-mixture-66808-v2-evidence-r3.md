@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctoxic-nettleseed-mixture-66808-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4354, 5991, 6, 1189] model=claude-haiku-5-5 -->
+# Toxic Nettleseed Mixture
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence[3].source", "issue": "Cites locale:143501558 for 'Toxic Nettleseed Liquid Concoction', which does not exist (automatic id check confirmed; locale lookup for that id returns no match). The claim that Liquid Concoction is a separate name is still true, but the citation is fabricated.", "fix": "Cite the wiki List of Collections (rev 27852) for the separate 'Nettleseed Liquid Concoction' collection row, or drop the citation. No real locale id was found for 'Toxic Nettleseed Liquid Concoction' in this check."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-light-necklace-96551-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3585, 7226, 6, 965] model=claude-haiku-5-5 -->
+# Gleaming Light Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The automatic id check flags locale:150455 as a placeholder stub. The answer lists it under evidence, though its own claim says it does not confirm the item is live. It should not sit in the evidence list as support. Keeping it as a noted non-source is fine.", "fix": "Remove locale:150455 from evidence, or move it to a 'rejected / non-evidence' note: 'This is a Gleaming Light Necklace item.' (locale 150455) is a FLAG placeholder stub and is not live evidence. My lookup confirms it is flagged placeholder."}]}

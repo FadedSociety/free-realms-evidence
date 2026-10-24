@@ -1,0 +1,43 @@
+{
+ "title": "Pet Parade",
+ "names_seen": [
+  "Pet Parade",
+  "Pet parade"
+ ],
+ "facts": [
+  {
+   "statement": "A huge pet parade ran from Crossroads up to Sanctuary on Thursday and Friday of Pet Week, where players could show off pet costumes and tricks.",
+   "numbers": {},
+   "era": "live",
+   "quote": "On Thursday and Friday we'll have a huge pet parade from Crossroads up to Sanctuary.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1775",
+   "date": null
+  },
+  {
+   "statement": "The Pet Parade ran on Server 1 with separate sessions for U.S./Latin America on Thursday September 2nd, 2010 at 3pm Pacific and for UK/Europe on Friday September 3rd, 2010 at 9:00am Pacific / 4:00pm GMT.",
+   "numbers": {
+    "year": 2010
+   },
+   "era": "live",
+   "quote": "Thursday September 2nd, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1780",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1775",
+   "date": null,
+   "title": "Summer Camp - Pet Week",
+   "summary": "A freerealms.com news post announcing Pet Week, the final theme of the 2010 Summer Camp community event season. It describes a pet parade from Crossroads to Sanctuary and the expected schedule of in-game and TCG events, and explains how to find events through the Game Guide calendar. The post gives a relative posting time ('2 days, 21 hours ago') and no absolute date."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1780",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A SOE community-event notice announcing a Pet Parade starting in Crossroads and marching to the area near the Sanctuary warpstone, held on Server 1 on September 2 and 3, 2010 (US/LatAm and UK/Europe times). It also says the event was the last Summer Camp event and explains how to find community events via the Game Guide calendar and GO button. The post's date is only given as 'Posted 1 week, 3 days ago' relative to the capture, so the exact posting date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

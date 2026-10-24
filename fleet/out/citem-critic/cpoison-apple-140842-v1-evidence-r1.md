@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpoison-apple-140842-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3635, 6935, 6, 918] model=claude-haiku-5-5 -->
+# Poison Apple
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / refs", "issue": "The answer cites only the Legacy and TCG-Files ClientItemDefinitions.json comments. The same 'Poison Apple' comment also appears in Sanctuary, Sanctuary-PS3, Sanctuary-PC2009 and Sanctuary-main-20261019 definitions (for example Sanctuary/src/Resources/ClientItemDefinitions.json:991592). This does not change the conclusion: a bare code comment is not an acquisition source, and the answer correctly attaches no source or price to it.", "fix": "Optionally list all the community definition files that carry the comment (Legacy, TCG-Files, Sanctuary and its variants). Keep it as non-evidence for acquisition."}]}

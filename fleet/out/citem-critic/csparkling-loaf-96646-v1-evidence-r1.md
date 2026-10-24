@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csparkling-loaf-96646-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3744, 5588, 6, 1053] model=claude-haiku-5-5 -->
+# Sparkling Loaf
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].source", "issue": "The description claim cites locale:47445, but the link from definition 31240 to that locale id is not shown. The evidence pack gives the item's own description text, which matches locale:47445 word for word. The answer should cite the definition's description field, with locale:47445 as the matching text, rather than presenting 47445 as the item's own record.", "fix": "Cite 'client definition 31240 description (matches locale:47445 text: Eating this food temporarily increases your talent as a Blacksmith, Chef, Miner, and Postman)'. Lookup confirms 96646 is named 'Sparkling Loaf' and 47445 has that text; no separate wiki, article or quest source exists."}]}

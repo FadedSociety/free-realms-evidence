@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icounselor-cammy-v1-world-r2 status=done turns=3 usd=0.0011 tokens(read,write,in,out)=[6607, 4495, 8, 1040] model=claude-haiku-5-5 -->
+# Counselor Cammy
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the pack has no reward data for Unearthing Treasures. The client text (locale:429358) shows Counselor Cammy giving the player 'this instead' when the dug-up item is worthless, so a consolation item exists in the quest script. The item is not named in the client text or the wiki pack, so no source can be added without guessing.", "fix": "Keep the answer as an NPC with no item sources. If a reward item is wanted, look up the Unearthing Treasures quest's reward record (not in the pack) and add it as a separate item with its own quest source. Do not attach it to Counselor Cammy."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cthe-volt-racer-steering-column-403102-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3682, 4763, 6, 909] model=claude-haiku-5-5 -->
+# The Volt Racer Steering Column
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the client text has a parent 'The Volt Racer' chassis/vehicle (locale:141855, 114629; chassis at locale:114815) that the answer never mentions. The sibling parts (engine, turbo, tires, jump springs) are a kit for that vehicle, so the answer's open note about a racer kit bundle could have named it. This is a lead for the open question, not a wrong claim.", "fix": "Name the parent vehicle in the open note: 'The Volt Racer' (locale:141855; chassis description locale:114629, item name locale:114815) as the likely bundle to check for an acquisition path."}]}

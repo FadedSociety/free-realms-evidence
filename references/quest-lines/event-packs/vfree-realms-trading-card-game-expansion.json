@@ -1,0 +1,83 @@
+{
+ "title": "Free Realms Trading Card Game expansion",
+ "names_seen": [
+  "Free Realms Trading Card Game expansion",
+  "Free Realms trading card game expansion"
+ ],
+ "facts": [
+  {
+   "statement": "SOE announced an upcoming expansion to the Free Realms TCG and previewed several of its cards, saying it was 'almost here'.",
+   "numbers": {},
+   "era": "live",
+   "quote": "we've got a sneak peek at a few of the cards you'll see with this exciting new set",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2720",
+   "date": null
+  },
+  {
+   "statement": "A new Free Realms Trading Card Game expansion was released, with the Baron von Darkcheat storyline as its centrepiece.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Play the brand new expansion for the Free Realms Trading Card Game now!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2732",
+   "date": null
+  },
+  {
+   "statement": "A new expansion for the Free Realms collectible card game was released, centered on Baron Trampaoscura's plan to rule all the Realms.",
+   "numbers": {},
+   "era": "live",
+   "quote": "¡Juega la expansión nueva para el juego de cartas coleccionables Free Realms ahora!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2736",
+   "date": null
+  },
+  {
+   "statement": "Free Realms announced a new expansion for its Trading Card Game (JCC) that players could play immediately on the site.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Joue à la nouvelle extension du JCC de Free Realms dès maintenant!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2741",
+   "date": null
+  },
+  {
+   "statement": "A new expansion of the Free Realms trading card game (Sammelkartenspiel) was released and playable at the time of this post.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Spielt jetzt die brandneue Erweiterung des Free Realms Sammelkartenspiels!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2743",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2720",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A short SOE news post teasing an upcoming expansion (new set) for the Free Realms Trading Card Game. It shows art and sneak-peek images of new cards, including returning villain Baron Von Darkcheat, four new characters and several 'Heroes' cards, but gives no card names, release date or set name beyond saying a third expansion is coming. The post is a teaser, so it offers little mechanical detail."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2732",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A short promotional news page (headline 'Meet Free Realms' Newest Heroes', posted relative to capture date, no exact date shown) announcing a new expansion for the Free Realms Trading Card Game centred on Baron von Darkcheat, plus new in-game loot, a new Card Duelist questline and multi-color power-ups. The page gives no detailed mechanics, numbers or dates beyond these announcements; the locale table confirms the Baron and Card Duelist quest content of the expansion."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2736",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language Free Realms news post (captured 2012-11-03, shown as posted 2 months, 6 days before capture, so the exact date is unknown) announcing a new expansion for the Free Realms trading card game. It names the villain Baron Trampaoscura, promises new in-game items, new card player quests and multicolor booster battles, and invites players to log in to see new Realms heroes. The post gives no numbers, prices or dates."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2741",
+   "date": null,
+   "title": "Free Realms - Quoi de neuf ?",
+   "summary": "A short French-language promotional news page from freerealms.com announcing a new Free Realms Trading Card Game (JCC) expansion, with new loot, new card-player quests and multicolored boosts in combat. It gives no dates, numbers or item names. The post is relative-dated ('Publié il y a 2 mois, 6 jours') so its exact date cannot be recovered from the capture."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2743",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A German-language Free Realms news post (headline 'Trefft Free Realms neuste Helden', posted 2 months, 6 days before capture, so no absolute date) announcing a new expansion of the Free Realms trading card game. It says the expansion brings a new card-shop questline, new in-game loot items, and reinforcements with multiple colors. The client locale has no matches for the villain or questline names, so they are recorded without locale ids."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csage-phantasmal-necklace-86572-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3780, 7576, 6, 1016] model=claude-haiku-5-5 -->
+# Sage Phantasmal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0]/open", "issue": "Minor conflation: the answer treats quest text near definition 22581 as a 'nearest clue', but my repo search shows 22581 is a locale string id (the W4 description in prototype/osfr-tools/data/content/quests/warrior.json), not an item definition id. The statement is harmless because the answer says it is unrelated, but the id should not be read as tying the item to that quest.", "fix": "Say that definition 22581 collides with the locale string id 22581 used by warrior.json (T257 W4 description), and that the collision is coincidental, not a source."}]}

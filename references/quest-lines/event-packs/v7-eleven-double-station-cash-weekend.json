@@ -1,0 +1,61 @@
+{
+ "title": "7-Eleven Double Station Cash Weekend",
+ "names_seen": [
+  "7-Eleven Double Station Cash Weekend"
+ ],
+ "facts": [
+  {
+   "statement": "A promotion gave double Station Cash when an SOE Game Card bought at a US 7-Eleven store was redeemed for Station Cash during the promotional period.",
+   "numbers": {
+    "promo_start_pst_1216": 1,
+    "promo_end_pst_1218": 1
+   },
+   "era": "live",
+   "quote": "get Double Station Cash when you redeem an SOE Game Card for Station Cash. This promotion is exclusive to cards purchased at 7-Eleven stores in the US.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2806",
+   "date": null
+  },
+  {
+   "statement": "The promotional redemption window ran from 12:01 AM PST on 11/16/12 to 11:59 PM PST on 11/18/12.",
+   "numbers": {
+    "start_date_2012_11_16": 1,
+    "end_date_2012_11_18": 1
+   },
+   "era": "live",
+   "quote": "Offer valid only for qualifying Game Cards that are redeemed for Station Cash between 12:01 AM PST 11/16/12 and 11:59 PM PST 11/18/12.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2806",
+   "date": null
+  },
+  {
+   "statement": "Players who bought an SOE Pre-Paid Game Card at a 7-Eleven store in the United States and redeemed it for Station Cash during the promotional period received double Station Cash.",
+   "numbers": {
+    "promo_start_pst_month": 11,
+    "promo_start_day": 16,
+    "promo_start_year": 2012,
+    "promo_end_pst_month": 11,
+    "promo_end_day": 18,
+    "promo_end_year": 2012
+   },
+   "era": "live",
+   "quote": "Get Double Station Cash when you purchase the SOE Pre-Paid Game Card from 7-Eleven and redeem for Station Cash between 11/16/12 and 11/18/12",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2807",
+   "date": "2012-11-16"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2806",
+   "date": null,
+   "title": "Free Realms - What is New? (7-Eleven Double Station Cash Weekend)",
+   "summary": "A freerealms.com news post announcing an upcoming US 7-Eleven promotion: SOE Game Cards bought at 7-Eleven and redeemed for Station Cash during 11/16/12-11/18/12 yield double Station Cash. The post's relative date ('2 weeks, 2 days ago') cannot be converted to an exact posting date from the capture alone. Redemption for membership time does not qualify."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2807",
+   "date": "2012-11-16",
+   "title": "7-Eleven Double Station Cash Weekend!",
+   "summary": "A promotional news post on the official Free Realms site announcing double Station Cash for SOE Pre-Paid Game Cards bought at US 7-Eleven stores and redeemed during a weekend window. The offer applied only to redemption for Station Cash, not membership time. The post is dated relative to the capture ('2 weeks, 20 hours ago') so its exact posting date is not stated; the dates given are the promo window."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

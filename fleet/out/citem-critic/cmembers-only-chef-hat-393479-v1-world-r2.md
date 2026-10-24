@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmembers-only-chef-hat-393479-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3855, 9577, 6, 797] model=claude-haiku-5-5 -->
+# Members Only Chef Hat
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / retired", "issue": "The answer leaves retired null and live as 'unsure', which is honest. My lookups found no retirement source, so this stays an open unknown and does not fail the item.", "fix": "No change needed. If a retirement source is found later, record it in retired with its evidence."}, {"field": "evidence[2]", "issue": "The Jobs page does mark Chef as [Members] [Only], and the answer correctly says this does not name the hat. The answer does not overreach by linking the job gate to this item.", "fix": "No change needed. Keep the Chef job gate as context only, not as a source."}]}

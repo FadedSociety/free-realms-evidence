@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-smelting-gameplay-rs-L1 status=done turns=5 usd=0.0052 tokens(read,write,in,out)=[35138, 15951, 12, 5788] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/smelting_gameplay.rs lines 1-371 of 371
+
+Window reviewed: `prototype/osfr-tools/tests/smelting_gameplay.rs` lines 1-371 (plus `tests/common/smelting_movie.rs` helpers and the `smelting` / `Gameplay` serde shape in `src/gameplay.rs`). Most assertions are meaningful: snapshot-equality checks after refused interactions, count checks against the opening stage counts, the double-win and malformed-bundle rollbacks, the save/load round trip, and the restart cancel with no victory. The ignore has a reason, and the fixture paths `unwrap` rather than returning early, so a missing fixture fails instead of passing. I found two issues.
+
+- **[medium] tests/smelting_gameplay.rs:120-125 `private_mining_smelting_reward_atomic_once_restore_and_cancel` - the comment says older saves "still load unchanged" but nothing compares the state before and after dropping the `smelting` key.**
+  - Why it cannot catch a regression: `Gameplay::load` on a fixture with `smelting.json` yields `smelting: Some(..)` (src/gameplay.rs:698-702, 1359). The test removes the key and deserializes, which turns it into `None`. Nothing checks that. A change where the deserialized default differs from the original, or where a missing key drops other fields, still passes. The comment's claim is never exercised.
+  - Fix: capture `let before = serde_json::to_value(&state)` before removing the key. After `from_value`, assert `serde_json::to_value(&state) == before`, or assert the expected `smelting` value explicitly (None, or the documented default) with a comment saying the drop is intentional. Alternatively, move the claim into the unit test at line 19 and delete the comment here.
+
+- **[low] tests/smelting_gameplay.rs:235 and :344 `private_mining_smelting_reward_atomic_once_restore_and_cancel` - `replies.len() == 6` pins the exact count of content-phase reply messages.**
+  - Why it cannot catch a regression: the test is about atomic reward, restore and cancel, not reply packaging. Adding or removing one content phase message (for example, a new OnGameDataMsg phase) fails here without touching the behaviour under test. The count is also repeated at line 344.
+  - Fix: assert that the reply list is non-empty and that it ends with the data-complete reply, or check only the message kinds the test depends on (`ReadyForGameData` acceptance and the movie launch), and drop the exact count.

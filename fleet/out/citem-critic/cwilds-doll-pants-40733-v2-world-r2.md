@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwilds-doll-pants-40733-v2-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4075, 6036, 6, 1047] model=claude-haiku-5-5 -->
+# Wilds Doll Pants
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail / open", "issue": "Minor: the one source is collection membership, not an acquisition source. The answer already says so in 'open', and wireable=false is consistent with that. No coin price is claimed, which matches an empty coin_store_prices in the client definition.", "fix": "No change required. If the builder wants a fuller record, the wiki 'Queen Wilds Doll' reward (21 coins, Robgoblin, Northern Wilds) should stay attached to the collection, not to the pants piece, as the answer already does."}]}

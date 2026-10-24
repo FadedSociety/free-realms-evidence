@@ -1,0 +1,11 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-016-rs-L1 status=done turns=6 usd=0.0074 tokens(read,write,in,out)=[77530, 28424, 14, 6063] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_016.rs lines 1-396 of 396
+
+One latent finding in lines 1-396 of `piece_016.rs`. Its only reachable path is a test or a future caller, so it is low severity.
+
+- **[low] prototype/osfr-tools/src/restoration/piece_016.rs:89-91 - `KnockOut::remaining` computes `self.max - self.current` on two client-supplied `i32` values with unchecked arithmetic, so it overflows and panics in debug builds.**
+  - **Failure scenario:** a 39/23 frame (`KNOCK_OUT_LEN` = 23) carries `current = -1` and `max = i32::MAX`. `knock_out()` (line 112-124) decodes it without range checks. A later call to `remaining()` computes `i32::MAX - (-1)`, which overflows and panics in a debug build (wraps silently in release).
+  - **Reach:** `decode_frame` (line 140) accepts outer opcode 6 (`CLIENT_TUNNEL_OUTER_OPCODE`, line 145) as well as 5, so a client-originated frame reaches `knock_out()` (line 112) with arbitrary `current` and `max`. Nothing in the file or the `src/` tree calls `remaining()` or `knock_out()` outside `tests/piece_016.rs` (lines 199-210, which use only captured values). The `Ledger` (lines 283-392) never reads knockout fields. The panic therefore needs a future production caller that passes client frames through `knock_out().remaining()`.
+  - **Fix:** `self.max.wrapping_sub(self.current)`, or `checked_sub(..).unwrap_or(i32::MIN)`. Alternatively, reject negative or inverted counts in `knock_out()` (line 112).
+
+Checked and found clean: `decode_frame` length guards (ten bytes before `packet[9]`, and `inner = packet[7..]` matched to the declared length); `decode_base_header` and `read_i32` offsets (all fixed-size, length-checked); `knock_out` and `game_over` exact-length gates; `encode_*` lengths (15/23/28); the `Ledger` mutation order (`retry` and `mint` fail before any state write, and `finish` writes state only after all checks and before infallible encoding); reward issuance (at most one, and only for a win on the current unsettled state). `start()` rejecting after a settled instance is pinned by `tests/piece_016.rs:234`, so it is intended and not reported.</result>

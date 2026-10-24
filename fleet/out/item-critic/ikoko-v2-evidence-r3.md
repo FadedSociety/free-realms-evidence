@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ikoko-v2-evidence-r3 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4053, 8605, 6, 1284] model=claude-haiku-5-5 -->
+# Koko
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The Members 202 Station Cash figure is a derived calculation (225 x 0.9, rounded down), not a quoted price. It sits in the vendor price field next to the quoted 225, so a builder could wire it as fact. The answer does flag it as derived in its own text and open list, so this is a presentation risk rather than a false claim.", "fix": "Keep 225 Station Cash as the only price in the price field (Pets wikitext row for Koko, {{SC|225}}, per the pack). Record the Members 202 as a non-quoted derivation in notes, or leave it out, until a dated source quotes it. The Koko article itself gives a blank price, so no quoted Members figure exists."}]}

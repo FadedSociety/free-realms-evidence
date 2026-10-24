@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iguard-reli-v1-evidence-r1 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3159, 3803, 6, 853] model=claude-haiku-5-5 -->
+# Guard Reli
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The wiki claim checks out: the page text and categories (NPC, Males, Chugawug, Briarwood) match the pack. The locale claim also checks out: locale:116888 is 'Guard Reli' and is tagged quest_objective. The answer cites only that one quest_objective row, but the same name appears in several quest objectives (locale:391094, 391095, 390045, 391127), which is supporting context rather than an error.", "fix": "Optionally cite the other quest_objective rows (locale:391094, 391095, 390045, 391127) to show the name is an NPC referenced across quests. No change to the verdict: Guard Reli is an NPC, not an item, and no item sources, prices or retirement status apply."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-81453 status=nothing_found turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 5645, 4, 512] model=claude-haiku-5-5 -->
+# DC Universe Online Team Fields More Facebook Questions | Ten Ton Hammer
+
+{"article": {"title": "DC Universe Online Team Fields More Facebook Questions", "date": "2010-02-25", "author": "Martuk", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer page is about DC Universe Online, not Free Realms. Its only mention of Free Realms is in site-wide sidebar popularity rankings (\"Free Realms up 17 to #9\"), so it gives a Free Realms rebuilder no usable game facts.", "facts": [], "quests": [], "uncertain": ["The article text is a short video post with no body text describing the questions or answers; the video itself was not readable."]}

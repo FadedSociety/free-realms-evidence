@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-void-ring-96441-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3860, 7825, 6, 990] model=claude-haiku-5-5 -->
+# Gleaming Void Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The automatic id check flags locale:150452 as a placeholder stub (generic 'This is a ... item' text) cited as a source in the evidence list. The claim itself correctly says it is not evidence of live status, but listing it under evidence still counts a flagged string as a source; it should be dropped from the evidence list or moved to a note.", "fix": "Remove locale:150452 from the evidence array (or keep it only as an explicitly excluded placeholder note). The only evidenced fact is client name/description/definition 31035 (locale:96441, locale:97157)."}]}

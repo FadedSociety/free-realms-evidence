@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctroller-s-backwater-necklace-30631-v2-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3933, 9305, 6, 923] model=claude-haiku-5-5 -->
+# Troller's Backwater Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer records the Fisherman.md:291 'Fisherman Accessories' collection (4239768659) as an unverified lead, but it does not say the note's list of collection contents was checked against this item. Re-check of the repo shows the note still lists no contents for that collection, so the lead stays unrecorded as a source, which is correct.", "fix": "No change required. Keep the collection as an open lead only; do not record it as a source until a collection membership row names 30631 or definition 2104."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpink-carnation-67105-v2-evidence-r3 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3680, 6060, 6, 989] model=claude-haiku-5-5 -->
+# Pink Carnation
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] (cluster count)", "issue": "The answer says Pink Carnation is one of 11 carnation/orchid variants (locale 67100-67110). The locale table also has 67111 'Blue Carnation', so the cluster in the pack is 12 items, and the 11-count is incomplete. This does not change the acquisition finding.", "fix": "Say the colour cluster is locale 67100-67111 (12 names, including 67111 Blue Carnation), per the locale table. Pink Carnation is locale 67105, 23492 definition, description locale 132445 'This item can be added to the Carnations Collection'."}]}

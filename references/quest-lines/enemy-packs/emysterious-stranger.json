@@ -1,0 +1,37 @@
+{
+ "title": "Mysterious Stranger",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\vale_of_the_ancients.json"
+  },
+  {
+   "file": "dungeons\\vale_of_the_ancients.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:18891 [npc_name | - | Mysterious Stranger] 'Mysterious Stranger'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:18891 [npc_name | - | Mysterious Stranger] 'Mysterious Stranger'",
+  "locale:419177 [quest_objective | Briarwood | Mysterious Stranger] 'Defeat the Mysterious Stranger'"
+ ],
+ "client_cluster": [
+  "locale:18891 [npc_name | - | Mysterious Stranger] 'Mysterious Stranger'",
+  "locale:18892 [place | - | Campfire | FLAG fragment: single word with no quest meaning on its own] 'Campfire'",
+  "locale:18894 [npc_dialog | - | Gribbit! | FLAG joke: nonsense sound line] 'Gribbit!'",
+  "locale:18898 [npc_name | - | Cave Yeti] 'Cave Yeti '",
+  "locale:18899 [place | - | Lakeshore | FLAG fragment: single zone name with no quest meaning on its own] 'Lakeshore'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

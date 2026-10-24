@@ -1,0 +1,52 @@
+{
+ "title": "Harvest Picnic Party",
+ "names_seen": [
+  "Harvest Picnic Party"
+ ],
+ "facts": [
+  {
+   "statement": "Community Event 'Harvest Picnic Party' was held on Server 1 with an outdoor feast, games and dancing, run by the Ambassadors.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Come join the Ambassadors for an outdoor feast, fun games and lots of dancing!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2407",
+   "date": null
+  },
+  {
+   "statement": "The Harvest Picnic Party had a Thursday session on November 17, 2011 at 3:00 P.M. US Pacific Time on Server 1.",
+   "numbers": {
+    "day": 17,
+    "month": 11,
+    "year": 2011,
+    "hour_pt": 15
+   },
+   "era": "live",
+   "quote": "Thursday, November 17th, 2011 3:00 P.M. (US Pacific Time) Server 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2407",
+   "date": null
+  },
+  {
+   "statement": "The Harvest Picnic Party had a Friday session on November 18, 2011 at 9:30 A.M. US Pacific Time on Server 1.",
+   "numbers": {
+    "day": 18,
+    "month": 11,
+    "year": 2011,
+    "hour_pt": 9.5
+   },
+   "era": "live",
+   "quote": "Friday, November 18th, 2011 9:30 A.M. (US Pacific Time) Server 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2407",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2407",
+   "date": null,
+   "title": "Community Event: Harvest Picnic Party",
+   "summary": "A Spanish-language freerealms.com news page announcing the Community Event 'Harvest Picnic Party', an in-game Thanksgiving-season gathering run by the Ambassadors with a feast, games and dancing. It gives two Server 1 showtimes (November 17 and 18, 2011) and says players join via the GO button on the in-game Activity Calendar or by adding the Ambassador Events character to friends. The page was captured in March 2012, after the event."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

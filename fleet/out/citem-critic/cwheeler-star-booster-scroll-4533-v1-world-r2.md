@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwheeler-star-booster-scroll-4533-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4158, 10968, 6, 912] model=claude-haiku-5-5 -->
+# Wheeler Star Booster Scroll
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "Left as 'unsure' with no dated source. The wiki's present-tense 'is acquired from the Daily Wheel' is the only live signal, and the wheel's wedge schedule is not in the pack. This is an honest unknown, not a failure.", "fix": "No change required. If a dated wheel schedule is found later, update live and retired."}, {"field": "sources[0].where", "issue": "Null is acceptable. The wiki gives no wedge odds or spin cost, and the answer correctly says so in open.", "fix": "No change required."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbattery-spring-67045-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3814, 5511, 6, 1007] model=claude-haiku-5-5 -->
+# Battery Spring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Omitted detail: every entry in collection 178 (including Battery Spring, item 23432, entry id 1307) carries \"item_link\": \"sanctuary\" in collection_catalogue.json lines 14139-14210. The answer does not mention it. It is a link tag, not an acquisition source, so it does not make the spring obtainable, but a builder could read it as a lead and it should be recorded as an open lead.", "fix": "Add to evidence/open: collection_catalogue.json lines 14190-14191 set item_link 'sanctuary' for Battery Spring (23432); meaning unverified, not a drop, vendor or quest source."}]}

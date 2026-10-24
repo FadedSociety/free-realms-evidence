@@ -1,0 +1,38 @@
+{
+ "title": "Yeti Bouncer",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\hot_springs_haven.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:6501 [npc_name | Howling Hills | Yeti Bouncer] 'Yeti Bouncer'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6501 [npc_name | Howling Hills | Yeti Bouncer] 'Yeti Bouncer'"
+ ],
+ "client_cluster": [
+  "locale:6494 [npc_name | Howling Hills | Yeti] 'Yeti '",
+  "locale:6498 [npc_name | Howling Hills | Screecher Bat] 'Screecher Bat'",
+  "locale:6501 [npc_name | Howling Hills | Yeti Bouncer] 'Yeti Bouncer'",
+  "locale:6502 [npc_name | Howling Hills | Umari] 'Umari'",
+  "locale:6503 [npc_name | Howling Hills | Ice Soldier | FLAG placeholder: marked for E3 demo, delete later] 'Ice Soldier (for E3 demo- delete later)'",
+  "locale:6506 [npc_name | Howling Hills | Silversnow] 'Silversnow'",
+  "locale:6507 [npc_name | Howling Hills | Frostfang - Icy Claws] 'Frostfang - Icy Claws'",
+  "locale:6508 [ability | Howling Hills | Huff n' Puff] \"Huff n' Puff\"",
+  "locale:6509 [ability | Howling Hills | Snarl] 'Snarl'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:QHfkcL2_pfg/00054.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Yeti Bouncer (enemy nameplate) You don't have enough energy for that ability! -1566 damage number Goals (2)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Warrior: Warrior's Rites' (final): Defeat Yetis in Hot Springs Haven"
+ ]
+}

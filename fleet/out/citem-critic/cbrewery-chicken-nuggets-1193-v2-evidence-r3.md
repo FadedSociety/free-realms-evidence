@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrewery-chicken-nuggets-1193-v2-evidence-r3 status=done turns=3 usd=0.0012 tokens(read,write,in,out)=[8426, 4565, 8, 1012] model=claude-haiku-5-5 -->
+# Brewery Chicken Nuggets
+
+{"lens": "evidence", "pass": false, "wireable": false, "score": 3, "problems": [{"field": "open[3]", "issue": "Still cites locale:564218199, which does not exist (locale lookup returns 'no such id'). The answer mentions it only to say it was removed, but a fabricated citation remains in the answer text.", "fix": "Delete the locale:564218199 reference entirely. Keep only the removal note without any id, or cite nothing. The client name and description ids that are real are locale:1193 ('Brewery Chicken Nuggets') and locale:2746 (verified: 'Eating this food will change the player into a female chugawug mage for thirty minutes.')."}]}

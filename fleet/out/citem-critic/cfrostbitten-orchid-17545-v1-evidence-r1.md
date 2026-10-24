@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfrostbitten-orchid-17545-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3894, 7896, 6, 1223] model=claude-haiku-5-5 -->
+# Frostbitten Orchid
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The open note says the Snowhill Orchids collection reward is unknown because 'reward null in collections.json'. The collection catalogue for the same collection (id 240, name_id 17578) has a reward block with 'coins': 6 at collection_catalogue.json line 18344. The 'reward null' claim may hold for collections.json only, but it is not stated as such, and the catalogue shows a coin reward for the collection.", "fix": "Say the collection reward is coins: 6 per collection_catalogue.json:18344 (id 240), and note that collections.json has reward null. The collection reward is not an acquisition source for the orchid itself, so the item stays unsourced."}]}

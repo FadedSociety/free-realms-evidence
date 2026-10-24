@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ilocksley-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3600, 6777, 6, 1400] model=claude-haiku-5-5 -->
+# Locksley
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "open / vendor_stock", "issue": "The answer says the repo vendor data is not yet checked and that vendor_stock is empty. The repo does hold Locksley vendor rows: prototype/osfr-tools/data/content/vendors.json (around line 11661, npc_name Locksley, with several wiki-page rows) and vendors_unresolved.json (line 2125). Its claim that the vendor data is unchecked is therefore incomplete, though the pack itself is accurate.", "fix": "Cross-check the Locksley rows in data/content/vendors.json (line ~11661) against the 13 wiki-listed Archer items before calling the vendor stock unknown. Note that vendors_unresolved.json also lists him, so the stock may still be unresolved for some items."}]}

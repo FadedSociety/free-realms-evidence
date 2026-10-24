@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cheavy-air-triangle-shard-99429-v1-evidence-r1 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[12761, 9731, 8, 1431] model=claude-haiku-5-5 -->
+# Heavy Air Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only source is a coin-store row (category 121) with no NPC named. It is a store listing, not an NPC vendor. The answer's own detail says so, so the type label is inconsistent with its description.", "fix": "Relabel as a coin-store listing (e.g. type 'coin_store'), not an NPC vendor. Evidence: repo:prototype/osfr-tools/data/content/stores.json:8256 (item_id 32310, category_id 121, purchase_price_coins 1149, member_price_coins 1034, sell_price_coins 114)."}]}

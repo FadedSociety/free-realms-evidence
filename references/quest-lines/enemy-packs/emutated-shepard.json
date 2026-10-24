@@ -1,0 +1,37 @@
+{
+ "title": "Mutated Shepard",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\briar_patch.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:7624 [npc_name | - | Mutated Shepard] 'Mutated Shepard'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:7624 [npc_name | - | Mutated Shepard] 'Mutated Shepard'"
+ ],
+ "client_cluster": [
+  "locale:7616 [item | - | Fireworks] 'Fireworks'",
+  "locale:7617 [ability | - | ROFL | FLAG fragment: single word with no quest meaning] 'ROFL'",
+  "locale:7618 [ui | - | Burning Bonfire] 'Spawn in Burning Bonfire'",
+  "locale:7620 [other | - | Red rose petals] 'Red rose petals fall around you for 2 minutes.'",
+  "locale:7621 [other | - | Black rose petals] 'Black rose petals fall around you for 2 minutes.'",
+  "locale:7622 [other | - | Candy hearts] 'Candy hearts surround you for 2 minutes.'",
+  "locale:7623 [other | - | Cupid's arrow] \"Fire Cupid's arrow at someone nearby to make him/her briefly fall in love.\"",
+  "locale:7624 [npc_name | - | Mutated Shepard] 'Mutated Shepard'",
+  "locale:7628 [ui | - | Wizard Failed Teleport | FLAG dev_note: internal label] 'Wizard Failed Teleport'",
+  "locale:7631 [ui | - | Wizard Teleport To Bruisers | FLAG dev_note: internal label] 'Wizard Teleport To Bruisers'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Mutated Shepard"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

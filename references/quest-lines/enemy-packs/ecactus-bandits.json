@@ -1,0 +1,26 @@
+{
+ "title": "Cactus Bandits",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\sandscale_oasis.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:rWTxDOHv-eY/00034.jpg (-): quest:   Defeat Cactus Jake Bonus: Defeat Cactus Bandits - 0/10  | job_level: Archer 13 | other_text: You don't have enough energy for that ability! Goals (2)",
+  "video:rWTxDOHv-eY/00070.jpg (-): quest:   Defeat Cactus Jake Bonus: Defeat Cactus Bandits - 0/10  | job_level: Archer 13 | other_text: You don't have enough energy for that ability! Goals (2)",
+  "video:rWTxDOHv-eY/00028.jpg (-): quest:   Defeat Cactus Jake Bonus: Defeat Cactus Bandits - 0/10  | job_level: Archer 13 | other_text: You don't have enough energy for that ability! Goals (2) Sandscale Scavenger",
+  "video:rWTxDOHv-eY/00180.jpg (-): npcs: Cactus Jake dialog_header  | dialog: Cactus Jake: My thorns will protect me while my friends deal with you! | quest:   Defeat Cactus Jake Bonus: Defeat Cactus Bandits - 4/10  | job_level: Archer 13 | other_text: Goals (2)",
+  "video:rWTxDOHv-eY/00066.jpg (-): npcs: Sandscale Scavenger nameplate  | quest:   Defeat Cactus John Bonus: Defeat Cactus Bandits - 0/10  | landmarks: dark twisted tree purple sky | job_level: Archer 13 | other_text: You don't have enough energy for that ability! -167 Goals (2)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

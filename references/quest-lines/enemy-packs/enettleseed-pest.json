@@ -1,0 +1,53 @@
+{
+ "title": "Nettleseed Pest",
+ "our_entries": [
+  {
+   "file": "dungeons\\mushroom_mania.json",
+   "definition_id": 930016
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:73988 [npc_name | - | Nettleseed Pest] 'Nettleseed Pest'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:73988 [npc_name | - | Nettleseed Pest] 'Nettleseed Pest'",
+  "locale:74039 [quest_objective | - | Nettleseed Pest] 'Defeat all the pests!'",
+  "locale:74040 [quest_objective | - | Nettleseed Pest] 'Knock out all the Nettleseed Pests in this area.'",
+  "locale:74049 [other | - | Nettleseed Pest | FLAG dev_note: encounter label, not player text] 'Encounter 135: Pest Bite'",
+  "locale:74051 [other | - | Nettleseed Pest] 'The Nettleseed Pest begins to split!'",
+  "locale:74058 [quest_objective | - | Nettleseed Pest] 'Stop them from Multiplying!'",
+  "locale:74062 [quest_objective | - | Nettleseed Pest] \"Prevent the Nettleseed Pests from multiplying as much as you can.  Do this by knocking them out or interrupting them when they start to split!  Don't let more t\""
+ ],
+ "client_cluster": [
+  "locale:73980 [npc_name | - | Moldy Shambler] 'Moldy Shambler'",
+  "locale:73982 [quest_title | - | Moldy Shamblers] 'Moldy Shamblers'",
+  "locale:73983 [quest_objective | - | Moldy Shamblers | FLAG duplicate: near-identical to 73984 (typo)] 'Defeal all Moldy Shamblers'",
+  "locale:73984 [quest_objective | - | Moldy Shamblers] 'Defeat all Shamblers!'",
+  "locale:73985 [quest_objective | - | Moldy Shamblers] 'Gloam magic in the area has created some nasty shamblers, defeat them all!'",
+  "locale:73986 [quest_dialog | - | Moldy Shamblers] 'Evil magic and mushroom monsters are creating shamblers! Venture in and stop them!'",
+  "locale:73987 [ui | - | -] 'Select a Pet below to summon it'",
+  "locale:73988 [npc_name | - | Nettleseed Pest] 'Nettleseed Pest'",
+  "locale:73989 [quest_title | - | Mushroom Mania!] 'Mushroom Mania!'",
+  "locale:73990 [quest_objective | - | -] 'Sink the opponent ships'",
+  "locale:73992 [other | - | - | FLAG placeholder: description label for 73990] 'Sink the opponent Ships description'",
+  "locale:73993 [quest_dialog | - | Mushroom Mania!] 'Gloam magic has twisted nature and brought it to life, and boy is it angry!'",
+  "locale:73994 [npc_name | - | Babbina] 'Babbina'",
+  "locale:73996 [npc_dialog | - | Babbina] \"I just love frogs, don't you?\""
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Nettleseed Pest",
+  "image (image:world_screenshot): FreeRealms v1.828.1772.1194.2883.504807\nMat Stonyspy\n76\n4607\nettleseed Pest (partly cut off at top left)\nNettleseed Pest\n13m\nV. I. P. House Party\n<Community Team>\nActive Quest:\nWildwood Kart Racing\n26?\nMy Friends(12/61)\nAkios\nAlex Stormsurfer3\nAlvin Charmsmile1\nBen\nByzo\nGoth Jeremy\nHouse Party\nBriar",
+  "image (image:world_screenshot): FreeRealms v1.828.1772.1194.2883.504807\nMat Stonyspy\n76\n4607\n20\nAdventurer\nActive Quest!\nWildwood Kart Racing\n2632m\nCommander\n<Strike>\nAmbassador Vaneloppe\nDrew Glowinghelper\nAmbassador 'Masigoui\n<Community Team>\n<Arise>\nKind of a Big Deal RobRawr\n<Monster>\nTanglewood Fort\n50m\nNettleseed Pest\n12m\nMy"
+ ],
+ "video": [
+  "video:piWfe7lXZ9I/00387.jpg (-): npcs: Gribbit nameplate  ?nugilda nameplate  | other_text: Card Duelist Cooking Table Nettleseed Pest",
+  "video:fAU3fhmegI4/00034.jpg (-): landmarks: Tanglewood Fort (distance marker 33m) | job_level: Adventurer 20 | other_text: Nettleseed Pest (red marker, 46m) Briarapple Plant (24m)",
+  "video:piWfe7lXZ9I/00384.jpg (-): landmarks: purple hills stone platform | other_text: Gribbit (nameplate, 79m) Cooking Table (nameplate, 33m) Nettleseed Pest (nameplate, 67m) Rich... (partly hidden, right edge)",
+  "video:eS3bRs9fR5k/00000.jpg (-): landmarks: Tanglewood Fort | job_level: Adventurer 16 | other_text: Tanglewood Fort (marker, 20m) Rich Gold Mining (purple marker, 45m) Nettleseed Pest (red marker, 64m; likely enemy)",
+  "video:rGbK7YgD1w0/00000.jpg (-): landmarks: stone path purple rock wall wooden pavilion | job_level: Brawler 20 | other_text: Accept duel with [player]? Tanglewood Fort 25m Gold Vein 48m Gold Vein 52m Nettleseed Pest 82m"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

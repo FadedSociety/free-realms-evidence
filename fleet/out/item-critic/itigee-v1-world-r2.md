@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=itigee-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[2971, 4877, 6, 832] model=claude-haiku-5-5 -->
+# Tigee
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the autograph objective 'may point to an autograph item' and asks for the item name. Checked: locale 394851 is a quest objective in the Seaside autograph-signing chain (Roxy's event, locale 394678/394680). The same pattern covers Cole (394796), Brenna (394843) and Gaius (394847). These are signing actions, not obtainable items, so no item source follows from it.", "fix": "Optional: state in the evidence that the 'Sign an autograph for X' objectives belong to the Seaside autograph event quest line (locale 394678, 394680) and are not item acquisitions. No change to the verdict."}]}

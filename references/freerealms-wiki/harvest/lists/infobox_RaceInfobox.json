@@ -1,0 +1,91 @@
+[
+ {
+  "page": "Fairies",
+  "url": "https://freerealms.fandom.com/wiki/Fairies",
+  "params": {
+   "name": "Fairies",
+   "image": "Cd34d8c190ecf9c4acf9fc0882521057.jpg",
+   "skin color": "Light purple, light blue, pink, light green",
+   "eye color": "Light pink, blue, silver",
+   "location(s)": "[[Merry Vale]]",
+   "distinctions": "Like [[Pixies|pixies]], but with antennae and different wings"
+  },
+  "categories": [
+   "Fairy",
+   "Merry Vale",
+   "Races"
+  ],
+  "images": [
+   "Cd34d8c190ecf9c4acf9fc0882521057.jpg",
+   "Fairy Girl.png",
+   "Fb.jpg"
+  ]
+ },
+ {
+  "page": "Floren",
+  "url": "https://freerealms.fandom.com/wiki/Floren",
+  "params": {
+   "name": "Floren",
+   "image": "Floren.png",
+   "complexion": "Leafy, shades of green, purple, orange",
+   "eye color": "Orange, green, white",
+   "location(s)": "[[Northern Wilds]]<br>[[Snowhill]]<br>[[Shrouded Glade]]<br>[[Bristlewood]]"
+  },
+  "categories": [
+   "Bristlewood",
+   "Floren",
+   "Races",
+   "Shrouded Glade",
+   "Snowhill",
+   "Wilds"
+  ],
+  "images": [
+   "981.jpg",
+   "FR Roster Dailey.jpg",
+   "Floren Model.jpg",
+   "Floren beautyshot.jpg",
+   "Floren concept.jpg",
+   "Floren.png",
+   "Fr filter 22.jpg",
+   "Frcomicpitchart.jpg",
+   "The-free-realms-filter-55.webp"
+  ]
+ },
+ {
+  "page": "Horses",
+  "url": "https://freerealms.fandom.com/wiki/Horses",
+  "params": {
+   "name": "Horses",
+   "image": "Whitenosestallion.png",
+   "skin color": "Brown, white, etc.",
+   "eye color": "Black",
+   "distinctions": "[[wikipedia:Horse|Horse]]"
+  },
+  "categories": [
+   "Horse",
+   "Races"
+  ],
+  "images": [
+   "Whitenosestallion.png"
+  ]
+ },
+ {
+  "page": "Unicorns",
+  "url": "https://freerealms.fandom.com/wiki/Unicorns",
+  "params": {
+   "name": "Unicorns",
+   "image": "Unicornn.png",
+   "skin color": "White, light gray, etc.",
+   "eye color": "Silver, light blue, etc.",
+   "distinctions": "Like [[Horses|horses]], but with spiraling horns"
+  },
+  "categories": [
+   "Races",
+   "Unicorns"
+  ],
+  "images": [
+   "Unicorn Egg Jeff Merghart.png",
+   "Unicornn.png"
+  ]
+ }
+]

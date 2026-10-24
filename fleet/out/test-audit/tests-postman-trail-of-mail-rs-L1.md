@@ -1,0 +1,14 @@
+<!-- fleet job=test-audit id=tests-postman-trail-of-mail-rs-L1 status=done turns=6 usd=0.0052 tokens(read,write,in,out)=[45300, 18306, 14, 4815] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/postman_trail_of_mail.rs lines 1-212 of 212
+
+Window: `prototype/osfr-tools/tests/postman_trail_of_mail.rs` lines 1-212. I read the window in full, plus the helpers it calls in `tests/support/npc_quest_chain.rs` (`send`, `quest_end_reply`, `end_screen_reward`, `finish_quest`, `counts`, `coins`, `profile_xp`, `saved`, `assert_packet_changes_nothing`, `reload_serialized`) and the production gate at `src/quest_engine.rs:2015-2031` and `:2110-2130`.
+
+Most of the window is sound. The coin, XP, status, and pending-turn-in checks compare against literal constants and independent state reads, not against the code under test. The duplicate-turn-in check and the reload checks compare serialized state before and after. The 49/13 position and speaker checks use literal offsets. I found no `#[ignore]`, no early return, and no `is_ok()`-only assertion.
+
+- **[medium] tests/postman_trail_of_mail.rs:168-212 a_locked_postman_profile_is_paid_nothing - the doc says the quest "stays active for a later Talk" and that the refusal is the F249 `QuestDenial::Job` gate, but the body never does a later Talk and never checks the denial reason.**
+  - Why it cannot catch a regression: the test only proves the end screen was released, no 49/4 was sent, coins and XP are unchanged, and the status is Active. A change that stops the job gate from being the reason, for example a path that clears `pending_turnin` and leaves the quest Active for some other reason, would still pass. A change that breaks re-offering on a later Talk would also pass, because no later Talk is driven.
+  - Fix: either drop "for a later Talk" and the `QuestDenial::Job` claim from the doc, or add a second `talk_step` after the refusal and assert that a 49/1 or pending turn-in is produced as expected. If the `Outcome` exposes the denial, assert it equals `QuestDenial::Job` directly.
+
+- **[low] tests/postman_trail_of_mail.rs:116-120 postmaster_lane_pays_trail_of_mail_once - the test pins the re-sent 49/13 to exactly 99 bytes, a detail unrelated to what the test is about (relog ordering and reward).**
+  - Why it cannot catch a regression: it is not a hole. It is churn. The check would fail on any unrelated change to the end-screen tail or to the reward bundle that keeps the client reader valid (for example, an extra trailing field the reader ignores), even though the speaker, text, and reward asserts would still hold.
+  - Fix: keep the minimum-length guard that `end_screen_reward` already enforces (`>= 35`) and the offset checks at 6..14, 18..22, and 27..35. If the full-length pin is kept on purpose as a wire contract, say so in the comment and link it to the client reader's length.

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpostage-tempered-circle-shard-6273-v2-world-r2 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[14993, 12050, 8, 1364] model=claude-haiku-5-5 -->
+# Postage Tempered Circle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the store row alone does not name a vendor or zone. Category 124 is shared by many items (for example item 49 at 10 coins, item 831 at 6600 coins, item 2099 at 900 coins in repo stores.json), so it is a coin-store category, not a single vendor. The answer's 'vendor not named' caveat is honest and correct.", "fix": "Keep the coin_shop source as stated (stores.json line 641: item 2209, category 124, 10 coins, member 9, no_sale false). Do not attach a vendor NPC until one is evidenced."}]}

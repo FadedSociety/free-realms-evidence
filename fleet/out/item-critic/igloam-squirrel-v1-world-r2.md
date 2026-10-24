@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=igloam-squirrel-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3341, 4109, 6, 1240] model=claude-haiku-5-5 -->
+# Gloam Squirrel
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The answer cites locale:438370, 438373-438375 as 'Gloam Squirrel 1-4' and locale:438371 as 'Squirrel Fear'. My locale lookup confirms the 1-4 strings and the 438371 text. But the evidence pack's client_name_matches is empty, so the pack and the answer disagree. The 'not_live' flag is also not visible in the lookup output I ran; it is cited only to quest-lines/flags.tsv:16870-16874, which I did not open.", "fix": "Reconcile client_name_matches with the locale hits (locale:438370, 438373, 438374, 438375 are npc_name strings 'Gloam Squirrel 1'-'4'). Verify the not_live flag against quest-lines/flags.tsv before stating it, or drop the flag claim."}]}

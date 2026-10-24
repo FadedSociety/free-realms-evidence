@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwaiter-fire-ring-96442-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3467, 8311, 6, 983] model=claude-haiku-5-5 -->
+# Waiter Fire Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Checked the client text: the Waiter family is confirmed (Fire 96442, Sun 96445, Light 96446, Air 96454, Wind 96455, Void 96456, plus Waiter necklaces) and the Gleaming ring family exists, but no wiki, article, video, vendor or quest source names either family. The answer's empty sources and null retired status are consistent with that. The open note's suggested checks (Resources tables, Prize Wheel/Coin Shop wiki pages) remain unverified and are reasonable next steps.", "fix": "No change required to the answer as far as it goes. Sources stay empty and wireable stays false until a source is evidenced; the 'Waiter' family name alone is not a source."}]}

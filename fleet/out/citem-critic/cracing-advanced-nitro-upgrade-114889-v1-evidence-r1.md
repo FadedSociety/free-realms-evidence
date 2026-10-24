@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cracing-advanced-nitro-upgrade-114889-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3983, 5180, 6, 1020] model=claude-haiku-5-5 -->
+# Racing Advanced Nitro Upgrade
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (wiki Items page)", "issue": "The wiki Items page (ns0) does contain a '[Nitro] [Upgrade]' entry near the decal/armor rows, but my lookup snippet does not show the 'Race Kart Parts' heading or the 'Pro [Nitro] [Upgrade]' wording the answer quotes. The claim is only partly confirmed; the answer should quote the exact row or drop the section name.", "fix": "Re-read wiki page Items (ns0) and quote the exact row text and heading, or state that the Pro Nitro row could not be confirmed. The conclusion that the Advanced Racing Nitro Upgrade is not named there still holds."}]}

@@ -1,0 +1,26 @@
+{
+ "title": "Bristlewood Vultures",
+ "our_entries": [
+  {
+   "file": "dungeons\\vale_of_the_ancients.json",
+   "definition_id": 930055
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:72132 [quest_objective | Briarwood | Bristlewood Vultures] 'Knock out the Bristlewood Vultures.  They can be found along the path in southern Bristlewood.'",
+  "locale:116146 [quest_objective | Briarwood | Bristlewood Vultures] 'Defeat Bristlewood Vultures in Briarwood.'"
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Bristlewood Vulture",
+  "text": "The Bristlewood Vulture is an enemy NPC that mainly reside in Bristlewood, located in Briarwood.\n\nBattle\nYou will find them standing stationary somewhere in the woods and can only encounter them if you are ranked level 9 or higher in a combat job. Bristlewood vultures have a reasonably unique ability also, after they have been defeated in combat they somewhat \"evolve\" into an undead vulture known as a vengeful vulture.\n\nTrivia\nBristlewood vultures resemble real life vultures except obviously with an animated look about them.\nCategory:NPC\nCategory:Enemies\nCategory:Vultures\nCategory:Briarwood\nCategory:Bristlewood"
+ },
+ "images": [],
+ "video": [
+  "video:4s1Ztnn3YLc/00034.jpg (-): npcs: Smuggo dialog_header  | dialog: Smuggo says, \"That's real sharp, alright. Thanks so much. You're handy with a blade!\" | quest: Fighting is for the Birds!  Knock out Bristlewood Vultures  | landmarks: mossy tree roots web-covered tree | other_text: Goal Complete Fighting is "
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cteam-trophy-66969-v2-evidence-r3 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13570, 10535, 8, 1410] model=claude-haiku-5-5 -->
+# Team Trophy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "Says the Team Trophy catalogue entry is part of a 'six-entry-group' collection. The group in prototype/osfr-tools/data/content/collection_catalogue.json (category_id 6, entries from line 13274) runs past index 8 (ids 1230-1237 and beyond, item_definition_ids 23355-23361 at least), so the 'six' count is wrong.", "fix": "The group has at least 8 entries (index 1 to 8 confirmed at collection_catalogue.json lines 13275-13340; client cluster locale:66964-66974 suggests 11). Item 23356 is index 2 with item_link 'sanctuary'."}]}

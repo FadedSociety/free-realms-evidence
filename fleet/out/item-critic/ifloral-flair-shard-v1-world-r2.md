@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifloral-flair-shard-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4108, 10704, 6, 1068] model=claude-haiku-5-5 -->
+# Floral Flair Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1].detail", "issue": "Minor: the articles say Treasure Trader paid out codes redeemable for in-game rewards in the Marketplace (articles/facts.json: 'Codes earned in Treasure Trader are redeemable for rewards'). The wiki's Treasure Trader prize list does name Floral Flair Shard, so the source holds, but the mechanism is a code redemption, not a direct prize. Detail could say so.", "fix": "Note: 'Treasure Trader prize, delivered as a Marketplace redemption code (articles: Treasure Trader codes; wiki:Treasure Trader prize list includes Floral Flair Shard)'. Not a failure."}]}

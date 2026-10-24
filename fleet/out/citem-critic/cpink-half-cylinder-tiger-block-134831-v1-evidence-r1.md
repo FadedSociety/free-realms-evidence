@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpink-half-cylinder-tiger-block-134831-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3987, 8367, 6, 1149] model=claude-haiku-5-5 -->
+# Pink Half Cylinder Tiger Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[2] (sibling cluster)", "issue": "The claim says the cluster is '14-item', but locale 134826 through 134836 is only 11 ids, and the pack lists 11. The lookup also shows a sibling 'Pink Half Cylinder Down Tiger Block' at locale 134839, which is omitted from the cluster. The count and membership are wrong, though the color-variant point still holds.", "fix": "Say the cluster is 11 ids in locale 134826-134836, plus 'Pink Half Cylinder Down Tiger Block' at locale 134839 (found by lookup). Drop the '14-item' wording."}]}

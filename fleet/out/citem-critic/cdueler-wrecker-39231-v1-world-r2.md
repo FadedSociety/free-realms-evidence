@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdueler-wrecker-39231-v1-world-r2 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[12821, 8731, 8, 1117] model=claude-haiku-5-5 -->
+# Dueler Wrecker
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail / retired", "issue": "Checked the wiki Station Cash wikitext: line 463 reads 'Dueler Wrecker - {{SC|495}}' (and line 462 'Bear Wrecker - {{SC|495}}'), so the marketplace source and price are supported. The source is an undated snapshot with no regular/member distinction, which the answer already flags in open. Nothing in the pack shows a coin vendor row, so no coin source is wrongly added. Retired stays null, which is honest because no retirement evidence exists either way.", "fix": "No change needed to the price or currency. Optionally note the source as an undated Station Cash list snapshot (wiki wikitext line 463) so a builder knows the price may be stale."}]}

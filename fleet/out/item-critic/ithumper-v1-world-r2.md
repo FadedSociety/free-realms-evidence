@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ithumper-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3337, 3989, 6, 1084] model=claude-haiku-5-5 -->
+# Thumper
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "item.locale_id", "issue": "Locale 10467 is an automatic-check FLAG (single-word fragment, no quest meaning). The only tie to the pet is an exact text match on the word 'Thumper'; nothing shows 10467 is the pet's item record. The answer also cites it as evidence[3].", "fix": "Leave item.locale_id unset or mark it unconfirmed. The wiki page (rev 50249) is the only real identity evidence for the pet pal. The name match is not live evidence."}, {"field": "sources[0].price / currency", "issue": "Null price is correct. The wiki gives no price, and the answer's 'free' is only an inference that the open list already flags.", "fix": "No change needed. Keep the price null and do not write 'free' into the source."}]}

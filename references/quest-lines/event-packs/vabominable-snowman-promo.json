@@ -1,0 +1,28 @@
+{
+ "title": "Abominable Snowman promo",
+ "names_seen": [
+  "Abominable Snowman promo"
+ ],
+ "facts": [
+  {
+   "statement": "For a limited time, entering a TCG tournament and winning at least 1 game grants a copy of the Abominable Snowman promo card.",
+   "numbers": {
+    "games_to_win": 1
+   },
+   "era": "live",
+   "quote": "when you enter a TCG tournament and win at least 1 game, you’ll get a copy of the Abominable Snowman promo",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2815",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2815",
+   "date": null,
+   "title": "The Adbominable Snowman Comes to Free Realms TCG!",
+   "summary": "A Free Realms TCG developer post announcing a limited-time promo: the Abominable Snowman card, given to players who enter a TCG tournament and win at least one game. It lists the Yeti cards available in the Deck Builder and where the Pounder and Unga Frostclaw cards come from. The page gives only a relative posting date ('3 weeks, 4 days ago') relative to the 2013 capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

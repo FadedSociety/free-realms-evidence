@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-intrepid-protector-hightops-pl-intrepid-protector-hightops-135315-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3784, 10391, 6, 867] model=claude-haiku-5-5 -->
+# {n}Intrepid Protector Hightops{pl="Intrepid Protector Hightops"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The 957 coin-store price comes only from the client definition pack. I did not re-verify the stores.json mismatch, so the claim that no store row keys to definition ids 46315-46329 rests on the pack alone.", "fix": "Keep the price as an unmapped client-definition value, not a sourced vendor price. Re-check repo:prototype/osfr-tools/data/content/stores.json for any row keyed to these definition ids before wiring a vendor."}]}

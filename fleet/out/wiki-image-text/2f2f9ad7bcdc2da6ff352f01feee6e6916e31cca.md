@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=2f2f9ad7bcdc2da6ff352f01feee6e6916e31cca status=done turns=2 usd=0.0007 tokens(read,write,in,out)=[2088, 3079, 6, 618] model=claude-haiku-5-5 -->
+# Chattywobblehead.jpg
+
+{"kind": "character_or_npc", "has_text": true, "text": "SOE\nLIVE", "tooltip": null, "entries": null, "uncertain": ["The image is an in-game character render of a fox-like avatar with a blue mohawk and a black SOE LIVE t-shirt; the 'SOE' and 'LIVE' text on the shirt is the only legible text. No name tag or label is visible, so the character is not identified by the image itself. The locale search returned 'Chatty T-Shirt' (id 2802) and 'Chatty Baseball Cap' (id 2804) and 'Chatty Costume' (id 119190), but the shirt shown is a plain black SOE LIVE shirt and does not carry the word Chatty, so I did not link it to those items. Shirt text is small and stylized; the reading SOE / LIVE is taken from the logo shape."]}

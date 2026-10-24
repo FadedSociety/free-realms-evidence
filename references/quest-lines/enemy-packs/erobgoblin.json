@@ -1,0 +1,139 @@
+{
+ "title": "Robgoblin",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 2232,
+   "definition_id": 1230200,
+   "model_id": 4,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 2232,
+   "definition_id": 1230201,
+   "model_id": 4,
+   "max_health": 140,
+   "damage": 3,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 2232,
+   "definition_id": 1230202,
+   "model_id": 4,
+   "max_health": 140,
+   "damage": 3,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 2232,
+   "definition_id": 1230203,
+   "model_id": 4,
+   "max_health": 140,
+   "damage": 3,
+   "boss": false
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:2232 [other | - | Robgoblin | FLAG fragment: single word category label] 'Robgoblin'",
+  "locale:37104 [npc_name | - | robgoblin | FLAG placeholder: test-like name] 'robgoblin'",
+  "locale:439012 [npc_name | - | Robgoblin] 'Robgoblin'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:2232 [other | - | Robgoblin | FLAG fragment: single word category label] 'Robgoblin'",
+  "locale:3123 [item | - | Robgoblin | FLAG not_live: text says THIS ITEM IS NOT LIVE] 'Eating this food will temporarily disguise you as a Robgoblin.<BR>THIS ITEM IS NOT LIVE'",
+  "locale:20148 [other | - | RobGoblin | FLAG dev_note: internal hidden object label] 'Hidden Object - RobGoblin'",
+  "locale:23986 [ability | - | Robgoblin] 'Robgoblin basic taunt'",
+  "locale:36786 [npc_dialog | - | Robgoblin] \"Ya ain't supposed to be here!\"",
+  "locale:36787 [npc_dialog | - | Robgoblin] \"Get 'em!\"",
+  "locale:36790 [npc_dialog | - | Robgoblin] \"Ya ain't stealin' our stolen goods!\"",
+  "locale:36791 [npc_dialog | - | Robgoblin] \"Size don't matter!\"",
+  "locale:36792 [npc_dialog | - | Robgoblin] \"Ya after my beautiful hat, ain't ya?\"",
+  "locale:36793 [npc_dialog | - | Robgoblin] \"How'd ya get in here?\"",
+  "locale:36794 [npc_dialog | - | Robgoblin] \"These ain't yer mines. They're ours!\"",
+  "locale:36795 [npc_dialog | - | Robgoblin] \"I smell somethin' cookin'. Hey, it's you!\"",
+  "locale:36796 [npc_dialog | - | Robgoblin] 'I love fire so much, I wanna share!'",
+  "locale:36797 [npc_dialog | - | Robgoblin] \"It's gettin' hot in here!\"",
+  "locale:36798 [npc_dialog | - | Robgoblin] 'Mam always told me not to play with fire. Sorry Mam!'",
+  "locale:36799 [npc_dialog | - | Robgoblin] \"Here's a shock for ya!\"",
+  "locale:36800 [npc_dialog | - | Robgoblin] 'I gots an electric personality!'",
+  "locale:36801 [npc_dialog | - | Robgoblin] \"Feelin' tingly?\"",
+  "locale:36802 [npc_dialog | - | Robgoblin] 'Look what I found in my nose!'",
+  "locale:36803 [npc_dialog | - | Robgoblin] 'Hungry?'",
+  "locale:36804 [npc_dialog | - | Robgoblin] 'Catch!'",
+  "locale:37104 [npc_name | - | robgoblin | FLAG placeholder: test-like name] 'robgoblin'",
+  "locale:37337 [npc_dialog | - | Robgoblin] \"I shouldn't have opened that letter! I don't want bad luck!\"",
+  "locale:41935 [ui | - | Robgoblin] \"Or use the 'W' key to move towards the robgoblins, and the 'A' and 'D' keys to turn left and right.\"",
+  "locale:41946 [npc_dialog | - | Robgoblin] \"Tryin' to sneak up on me? Not this time buddy!\"",
+  "locale:41947 [npc_dialog | - | Robgoblin] 'Think you can catch me? Think again!'",
+  "locale:41948 [npc_dialog | - | Robgoblin] \"This is getting too dangerous! I'm out of here!\"",
+  "locale:41949 [npc_dialog | - | Robgoblin] \"Out of my way! Busy Robgoblin comin' through!\"",
+  "locale:41951 [npc_dialog | - | Robgoblin] 'Whoa there little fella!'",
+  "locale:41952 [npc_dialog | - | Robgoblin] 'Hey, over here! I need help!'"
+ ],
+ "client_cluster": [
+  "locale:2224 [item | - | Yeti yarn] \"Some yarn you found in a yeti's hand after you fought him.  You can sell this to a merchant.\"",
+  "locale:2225 [npc_name | - | Gardener] 'Gardener'",
+  "locale:2226 [other | - | Gardener] 'Gardener Description'",
+  "locale:2228 [item | - | Doggy Hiking Scarf] 'Doggy Hiking Scarf'",
+  "locale:2230 [other | - | Human | FLAG fragment: single word category label] 'Human'",
+  "locale:2231 [other | - | Pixie | FLAG fragment: single word category label] 'Pixie'",
+  "locale:2232 [other | - | Robgoblin | FLAG fragment: single word category label] 'Robgoblin'",
+  "locale:2233 [ui | - | Jewelry & Shards | FLAG fragment: category label] 'Jewelry & Shards'",
+  "locale:2235 [ui | - | All Combat Job Item Job | FLAG fragment: filter label] 'All Combat Job Item Job'",
+  "locale:2236 [other | - | Chugawug | FLAG fragment: single word category label] 'Chugawug'",
+  "locale:2237 [other | - | Penguin | FLAG fragment: single word category label] 'Penguin'",
+  "locale:2238 [other | - | Present | FLAG fragment: single word category label] 'Present'",
+  "locale:2239 [other | - | Dog | FLAG fragment: single word category label] 'Dog'",
+  "locale:2240 [ability | - | Movement speed | FLAG dev_note: unfilled template parameter [*Param2*]] 'Increases movement speed by #number([*Param2*]) times your normal speed'"
+ ],
+ "wiki": {
+  "title": "Robgoblins",
+  "text": "Robgoblins are a race of goblin-like creatures. They are small creatures that live primarily in camps with other robgoblins. They have an affinity for destruction, explosives, magic and stealing.\n\nMany robgoblins are enemies, but there are also robgoblin NPCs and questgivers.\n\nSub-Races\nThere are currently two sub-races of robgoblins in two locations. All of them have the basic body shape, skins, ears, and eyes, but there is a difference.\n\nRobgoblins can be found in Sacred Grove. They have green skins, long ears, and big noses. They can also be found in Sunstone Valley, although there are several differences in these two cousins. Such include a red skin tone and a default occupation as a scrapsmith. There is a scrapsmith camp just outside of the hostile area controlled by these small creatures.\n\nNotable Robgoblins\nSouthern Wilds\nRobbie\n\nLakeshore\nFizzlesticks\nBizzie\n\nSeaside\nSizzlebottom\nBurglz\nGrekel\nTriggster\nTwitch\nWemo\n\nSnowhill\nHoligoblin\n\nMerry Vale\nLucky Chance McXander\n\nWugachug\nRumple\n\nSunstone Valley\nWhirly Willis\nRizzle\nScrapsmith Crackle\nJunkmaker Jort\nScrapmaster Fizzbang\nRobgoblin Junk Thief\nRobgoblin Shinyseeker\nRobgoblin Mechanic\nRobgoblin Kaboomer\nRobgoblin Tinkerer\n\nGallery\n\nCategory:Races\nCategory:Robgoblin\nCategory:Sacred Grove\nCategory:Sunstone Valley"
+ },
+ "images": [
+  "image (image:character_or_npc): Robgoblin Pyromancer",
+  "image (image:item_render): FreeRealms\n3\nRobgoblin Cooking Mask\nAllows you to disguise\nyourself as a robgoblin chef.\n1L82",
+  "image (image:world_screenshot): Robgoblin Treasure Trove"
+ ],
+ "video": [
+  "video:4h2eVoje3Eg/00080.jpg (-): items_seen: Robgoblin Boss Robgoblin Bruiser | other_text: Robgoblin Boss Robgoblin Robgoblin Bruiser Discard a card → Your battling creature gets +1 attack and +1 defense Move an opponent's creature. Illus.: Derek Herring Illus.: Strauss / Hubrich",
+  "video:jt1vMCwS8h4/00048.jpg (-): quest: Brawler: Stolen Merchandise  Defeat Robgoblin Pondblasters - 27/30  | other_text: Robgoblin Pondblasters!",
+  "video:qCG_K2piQgE/00036.jpg (Robgoblin Treasure Trove): landmarks: Robgoblin Mobile Home wooden goblin house with pots tent | job_level: Medic 10 | items_seen: Clover's Gear | other_text: Robgoblin Mobile Home Clover's Gear",
+  "video:jt1vMCwS8h4/00018.jpg (-): npcs: Robgoblin Rock Head nameplate enemy | quest: Brawler: Stolen Merchandise  Defeat Robgoblin Pondblasters - 1/30  | landmarks: green field rocky cliffs",
+  "video:qCG_K2piQgE/00032.jpg (Robgoblin Treasure Trove): quest: Medic: Clover's Crisis  As a medic, collect Clover's gear in the Robgoblin Trove - 1/6  | landmarks: Robgoblin Mobile Home | job_level: Medic 10 | other_text: Medic: Clover's Crisis As a medic, collect Clover's gear in the Robgoblin Trove - 1/6 You don't have enough energy"
+ ],
+ "article_facts": [
+  "fact:item: The Robgoblin Rampage is a Chaos deck for the Free Realms TCG built around Robgoblin creatures, with 2 Hooligan Leader, 2 Robgoblin Bruiser, 3 Robgoblin Boss, 2 Robgoblin Sorceress and 2 Pappy Farnum among its creatures. | this rampaging Chaos deck for the Fre (http://www.freerealms.com:80/article/detail.action?articleId=135)",
+  "fact:item: A Robgoblin Stage decoration was available for Station Cash. | Utiliza este Escenario Robgoblin (SC) (http://www.freerealms.com/article/detail.action?articleId=1619)",
+  "fact:housing: The Robgoblin Trunk is a Station Cash decoration. | add a stylish Robgoblin Trunk (SC) as a decoration. (http://www.freerealms.com/article/detail.action?articleId=1609)",
+  "summary: A freerealms.com news post by game designer Darrell Hardy introducing the Robgoblin Rampage Chaos deck for the Free Realms Trading Card Game. It explains how the Robgoblin creatures, Hooligan Leader, Robgoblin Bruiser, Robgoblin Boss, Robgoblin Sorceress and P (http://www.freerealms.com:80/article/detail.action?articleId=135)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Wilbur's Trouble' (final): Chase away the robgoblins",
+  "defeat target in 'Archer: Pondblaster Target Practice' (final): Defeat some Robgoblin Pondblasters as an archer, and then return to Hilforn.",
+  "collect target in 'Archer: Explosive Expedition' (final): Recover dynamite (explosives) from the Robgoblin Pondblasters near the small lake north of Hilforn (six). Drop-vs-defeat",
+  "defeat target in 'Archer: Pondblaster Payback' (final): Take out the remaining Robgoblin Pondblasters to the north of Hilforn.",
+  "collect target in 'Blacksmith: Scrap Surfin'' (final): Collect Robgoblin Shiny's from Robgoblins in the Scrap Yard of Sunstone Valley",
+  "talk target in 'Blacksmith: Scrap Surfin'' (final): Speak with the Robgoblin Scrapsmith",
+  "defeat target in 'The \"Hands On\" Method' (final): Defeat a few of the robgoblins ruining Ashley's party to get the whole bunch to leave.",
+  "defeat target in 'Brawler: Stolen Merchandise' (final): As a brawler, defeat Robgoblin Pondblasters to the east of Seth McGrobie's camp, outside of Stillwater Crossing.",
+  "talk target in 'Brawler: IOU!' (final): Talk to Nurble at the Robgoblin Camp.",
+  "go target in 'Brawler: One Man's Junk...' (final): As a brawler, collect the stolen goods from the Robgoblin Troublemakers that lair to the north of the Robgoblin Camp and",
+  "defeat target in 'Brawler: One Man's Junk...' (final): Defeat Robgoblin Troublemakers",
+  "use target in 'Kart Driver: Stopping the Sabotage' (final): Scare off the Robgoblin Saboteurs",
+  "go target in 'Kart Driver: Stopping the Sabotage' (final): Find all the Robgoblin Saboteurs before time runs out.",
+  "defeat target in 'Contract: Local Problems' (unresolved): As a Medic, defeat bixies near Queensfield and Robgoblin Pondblasters near Stillwater Crossing!",
+  "use target in 'Soccer Star: Returning The Trophy' (final): Distract the Robgoblins with your \"Something Shiny\" ability so you can retrieve the tournament trophy!",
+  "other target in 'Soccer Star: Robgoblin Troublemakers' (unresolved): Scold the robgoblin troublemakers.",
+  "defeat target in 'Soccer Star: Robgoblin Troublemakers' (unresolved): Defeat all of the Robgoblin Troublemakers and Pranksters!",
+  "other target in 'Contract: Thinning Their Numbers' (final): Handle the fairy cultists and robgoblin fishmongers nearby; the pixies of the Pixie Nursery are being threatened. No cou",
+  "go target in 'Wizard: How to be a Wizard' (unresolved): Search the wilds near the Robgoblin Camp for the thieving Robgoblin Adept!",
+  "visit_position target in 'Wizard: I Can't Read This!' (final): Find Fizzlesticks' glasses in the Robgoblin Camp."
+ ]
+}

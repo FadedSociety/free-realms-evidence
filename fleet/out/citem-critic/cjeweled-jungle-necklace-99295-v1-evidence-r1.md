@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjeweled-jungle-necklace-99295-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3788, 7368, 6, 975] model=claude-haiku-5-5 -->
+# Jeweled Jungle Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The sibling-set inference is stated more firmly than the pack supports. The refs search shows the same colour-and-material naming pattern across many unrelated necklaces and rings (for example Dull, Shiny, Granite, Metallic and Hardwood Jungle Necklace, and Jeweled Jungle Ring), so a shared 'colour-variant set' reading is a naming pattern, not an evidenced set.", "fix": "Describe the cluster only as name-pattern siblings (locale:99290-99300). Do not infer a shared source from it. Source: refs locale dump (en_us_data.dat, 'Jeweled Jungle Necklace' ucdt/ugdt rows)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccracked-roundtop-coffee-table-147695-v1-world-r2 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[11564, 10730, 8, 1357] model=claude-haiku-5-5 -->
+# Cracked Roundtop Coffee Table
+
+{"lens": "world", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].detail", "issue": "The label 'furniture category' for store category 53 is not supported. I checked stores.json: category 53 holds many unrelated item ids (for example 1834, 2709, 2760, 2937, 3056, 15586) and no record or name in the repo ties category 53 to furniture. The only furniture link is the client model hsg_coffee_table_04.adr on the item itself.", "fix": "Describe the source as 'coin store row, store category 53 (category name not decoded; vendor not resolved)' and drop the furniture label, citing repo:prototype/osfr-tools/data/content/stores.json line 11967 (item 36496, category 53, purchase 50, member 45, sell 5, no_sale false)."}]}

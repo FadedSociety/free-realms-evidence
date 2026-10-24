@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=e66e8e1be218f9ab94aa921a2ee706a77edcaacc status=done turns=2 usd=0.0007 tokens(read,write,in,out)=[2064, 2364, 6, 711] model=claude-haiku-5-5 -->
+# FR comics Ashley Dazzlespark.jpg
+
+{"kind": "character_or_npc", "has_text": true, "text": "REV\n(stylized red letters on a yellow starburst microphone flag; the letters are hard to read and may not be exactly \"REV\")", "tooltip": null, "entries": null, "uncertain": ["The microphone flag letters are stylized and small; I read them as \"REV\" but could not confirm them.", "The wiki file name suggests the character is Ashley Dazzlespark, but the image itself shows no name caption. The locale search for \"Ashley Dazzlespark\" returned no matches, so the name is not confirmed by the client table.", "No other text is visible in the illustration."]}

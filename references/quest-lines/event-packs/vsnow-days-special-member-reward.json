@@ -1,0 +1,41 @@
+{
+ "title": "Snow Days Special Member Reward",
+ "names_seen": [
+  "Snow Days Special Member Reward"
+ ],
+ "facts": [
+  {
+   "statement": "Member accounts in good standing at noon on Wednesday December 15th (and non-members who signed up before the deadline) receive a Snow Days Special Member Reward; limited to one per account.",
+   "numbers": {
+    "deadline_day": 15,
+    "deadline_month": 12
+   },
+   "era": "live",
+   "quote": "All Member accounts in good standing at NOON on Wednesday December 15th will receive a super cool Snow Days Special Member Reward!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1964",
+   "date": null
+  },
+  {
+   "statement": "Reward delivery begins December 16th at noon and can take two to three days to reach every account; the reward appears in the Claim window with no action needed.",
+   "numbers": {
+    "delivery_start_day": 16,
+    "delivery_days_min": 2,
+    "delivery_days_max": 3
+   },
+   "era": "live",
+   "quote": "We will begin delivering the rewards on December 16th at noon. It will take two to three days for the gifts to get to every account.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1964",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1964",
+   "date": null,
+   "title": "Snow Days Special Member Reward",
+   "summary": "SOE's freerealms.com news post announcing a one-time Snow Days Special Member Reward for member accounts in good standing (and members who signed up before the deadline) at noon on Wednesday December 15th, with delivery starting December 16th and taking two to three days. The reward contents scale with the membership plan in effect at the deadline, from 1 month up to Lifetime. The post is dated only relatively ('1 week, 12 hours ago'), so its exact posting date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

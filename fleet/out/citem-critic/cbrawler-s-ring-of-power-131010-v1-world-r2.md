@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrawler-s-ring-of-power-131010-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4086, 7828, 6, 943] model=claude-haiku-5-5 -->
+# Brawler's Ring of Power
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].source", "issue": "The cited line numbers (en_us_data.dat lines 56732 and 64858) do not match the copies I can see in the locale data (ugdt at line 56747, ucdt at line 64875). The Brawler's Ring of Power entries do exist, so the claim holds, but the line citations are off by about 15 lines.", "fix": "Cite the entries as ugdt/ucdt Brawler's Ring of Power in en_us_data.dat (ugdt at line 56747, ucdt at line 64875 in the copies I checked). Existence of the client name is confirmed; the line numbers are not."}]}

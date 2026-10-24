@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpatchwork-padded-dining-chair-147728-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4033, 7888, 6, 1084] model=claude-haiku-5-5 -->
+# Patchwork Padded Dining Chair
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "The answer sets live to \"yes\", but its own evidence says the row is only present in the shipped store data, not a confirmed current sale, and no source checks live status. The only supported claim is that the row exists and is enabled (no_sale false).", "fix": "Set live to \"unknown\" or \"data_only\". Support: repo:prototype/osfr-tools/data/content/stores.json:12000 shows item 36529, category 53, purchase_price_coins 50, member_price_coins 45, sell_price_coins 5, no_sale false. Nothing else in the pack speaks to current availability."}]}

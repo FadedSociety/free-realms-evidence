@@ -1,0 +1,58 @@
+<!-- fleet job=event-infer id=vhouse-tour-visite-de-maison-v6 status=done turns=2 usd=0.0035 tokens(read,write,in,out)=[7613, 11186, 6, 4141] model=claude-haiku-5-5 -->
+# House Tour (Visite de Maison)
+
+{"event": {"name": "House Party Tuesday", "aliases": ["House Party", "House Tour (Visite de Maison)", "Community Event: House Party Tuesday (locale:428314)", "[House] [Party] Tuesday (article titles)", "Wilds Condo Tuesday (special edition per article 2492 and wiki 'Community Events'; not merged, see open)"]},
+ "kind": "weekly",
+ "live": "unsure",
+ "occurrences": [
+  {"year": 2010, "when": "Tuesday March 23, 2010, 4pm Pacific (first source-dated session)", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1168"},
+  {"year": 2010, "when": "Tuesday April 6, 2010, 3pm Pacific (first listed session)", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1209"},
+  {"year": 2010, "when": "'Tuesday April 12th' as stated, 3pm Pacific. WEEKDAY-UNVERIFIED: April 12, 2010 was a Monday", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1241"},
+  {"year": 2010, "when": "Tuesday April 20, 2010, 4pm Pacific", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1263"},
+  {"year": 2010, "when": "Tuesday June 15, 2010, 4pm Pacific (summer theme: Camping)", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1536"},
+  {"year": 2010, "when": "Tuesday June 22, 2010, Sanctuary, Server 1, theme 'Obstacle Course Adventure'", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1556"},
+  {"year": 2011, "when": "Tuesday September 13, 2011, Sanctuary (start time 9:30am Pacific per article; conflicts with 3pm/4pm pattern, see open)", "source": "http://www.freerealms.com/article/detail.action?articleId=2262"},
+  {"year": 2011, "when": "Sunday September 18, 2011, 3pm Pacific, Server 1 (special instance, not a Tuesday)", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2269"},
+  {"year": 2011, "when": "Tuesday September 20, 2011, Sanctuary, Server 1 (regular tour)", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2270"},
+  {"year": 2012, "when": "Tuesday January 31, 2012, Sanctuary, Server 1 (Wilds Condo special edition of the weekly House Party)", "source": "http://www.freerealms.com/article/detail.action?articleId=2492"}
+ ],
+ "recurring": "Weekly on Tuesdays. Stated as recurring/'every Tuesday' in articles 1168, 1209, 1241, 1263, 1452 (undated), 1536, 1556 and 2270; dated Tuesday instances 2010-2012 support it. Wiki 'Community Events' says 'most Tuesdays'.",
+ "zones": ["Sanctuary (meeting point, Server 1)", "player housing (decorated homes and lots; Wilds Condos in the Jan 2012 special edition)"],
+ "npcs": ["Community Team character '[House] [Party]' (Friends List; players teleport to him as he moves between featured houses)"],
+ "quests": [],
+ "activities": ["Meet in Sanctuary on Server 1", "Add the House Party character to Friends List and teleport to him", "Tour player-decorated homes and lots", "Summer 2010: houses visited matched a weekly theme (June 15 Camping; June 22 Obstacle Course Adventure), per articles 1536 and 1556", "Jan 2012 special: show off newly assigned Wilds Condo; decorated Wilds Condo screenshots emailed to homeshow@soe.sony.com (articles 2493/2494, not re-read)"],
+ "items": [],
+ "rewards": [],
+ "evidence": [
+  {"claim": "Weekly community event held every Tuesday in Sanctuary, Server 1, players meet and visit decorated homes; Community Team character teleports between houses", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1452 (undated)"},
+  {"claim": "Weekly Tuesday meetings in Sanctuary; first source-dated session Tuesday March 23, 2010 4pm Pacific", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1168"},
+  {"claim": "Every Tuesday players meet in Sanctuary to party and visit decorated homes; April 6 first listed session", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1209"},
+  {"claim": "April 20, 2010 Tuesday instance", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1263"},
+  {"claim": "June 15, 2010 Tuesday instance and summer houses matching a weekly theme", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1536"},
+  {"claim": "June 22, 2010 Tuesday theme 'Obstacle Course Adventure' on Server 1", "source": "http://www.freerealms.com:80/article/detail.action?articleId=1556"},
+  {"claim": "Tuesday September 13 (2011) House Party in Sanctuary", "source": "http://www.freerealms.com/article/detail.action?articleId=2262"},
+  {"claim": "Sunday September 18, 2011 special instance, 3pm Pacific", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2269"},
+  {"claim": "Tuesday September 20, 2011 regular tour on Server 1", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2270"},
+  {"claim": "Tuesday January 31, 2012 Wilds Condo special edition of the weekly House Party", "source": "http://www.freerealms.com/article/detail.action?articleId=2492"},
+  {"claim": "Client UI name 'Community Event: House Party Tuesday'", "source": "locale:428314"},
+  {"claim": "Client UI text 'Join the Community Team on a tour of homes and lots!'", "source": "locale:428315"},
+  {"claim": "Wiki: 'Wilds Condo Tuesday' was a special edition of the House Party; weekly House Party run most Tuesdays", "source": "wiki page: Community Events"},
+  {"claim": "French recap: weekly Tuesday house tours starting at the Sanctuary (undated; the title 'House Tour (Visite de Maison)' comes from this article)", "source": "http://www.freerealms.com/article/detail.action?articleId=1229"}
+ ],
+ "confidence": 0.6,
+ "open": [
+  "Live status: dated articles run only to Jan 31, 2012. A wiki screenshot dated 1/4/2013 shows a Community Team [House][Party] character (weak, not verified in this pass). No end date found, so live = 'unsure'.",
+  "Title: 'House Tour (Visite de Maison)' is the French-language alias of this event (article 1229, undated). The pack's name is an alias, not a separate event.",
+  "Client string 428314 has no 'Seaside' or other prefix. Other client strings (436162 Pirate House Party, 436455/436459 Snow Days House Party, 31364 and 426815 New Year House Party, 430483 Treehouse Party) are different named editions with no dated source tying them to the weekly calendar. Not merged.",
+  "Start time conflict: 4pm Pacific (1168, 1263, 1536) vs 3pm Pacific (1209, 1241, 2269); article 2262 gives 9:30am Pacific. Year-specific times are as stated per article; UK times appear as 9am Pacific / 4pm GMT in some 2010 sources.",
+  "Article 1241 says 'Tuesday April 12th' but April 12, 2010 was a Monday. Kept as stated, weekday-unverified.",
+  "Article 2262 (Tuesday September 13) has no year in the text; 2011 is inferred from the Sept 2011 article run (2269, 2270) and the weekday. Included, flagged.",
+  "Article 2286 (Tuesday, October 3) excluded: Oct 3 was not a Tuesday in 2009-2014 (it was a Monday in 2011).",
+  "Article 1452 is undated; used only for cadence and location, not as the sole basis for weekly Tuesdays.",
+  "Wilds Condo Tuesday (articles 2492, 2493, 2494; Jan 31, 2012) is described as a special edition of the weekly House Party. It is listed as an occurrence, but it may be a separate event name.",
+  "Items: none sourced to the event. Futuristic Bicycle was dropped: wiki sources conflict (home-tour code in Community Events, housing contest in Rides, SOE Employees in Items) and the text is garbled. No price or currency found.",
+  "Quests: none tied to the weekly House Party in the pack.",
+  "NPC Ambassador Amnerys is named on the wiki as helping run House Party, but no article ties her to it. Not listed.",
+  "Excluded: locale 3545 (Festival of Hearts house party) is flavor text only. The Criqueville pirate party (article 1229) and Thursday community events (articles 1984, 1987, 1854) are different events and were not checked.",
+  "Article 2269 (Sunday Sept 18, 2011) is a special instance, not a regular Tuesday."
+ ]}

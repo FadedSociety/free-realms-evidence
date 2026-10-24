@@ -1,0 +1,16 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-017-rs-L1 status=done turns=6 usd=0.0067 tokens(read,write,in,out)=[57896, 21669, 14, 6862] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_017.rs lines 1-207 of 207
+
+Window: `prototype/osfr-tools/src/restoration/piece_017.rs` lines 1-207. Scope note: this module is a read-only audit checker. Its only callers are `tests/piece_017.rs` (via `#[path]`) and the Python checker; the runtime server does not call it. Its inputs are persisted gameplay snapshots, so the reach below is "save/snapshot file", not a live packet. Both findings are real in the code as written.
+
+- **[medium] prototype/osfr-tools/src/restoration/piece_017.rs:186 - `audit_conservation` accepts a replacement run whose id equals the pre-boundary counter while the post-boundary `next_instance_id` is not advanced past it, so the next allocation reuses a live attempt id.**
+  - Failure scenario: before = `cooking` with `next_instance_id = 46_000_002` and active `46_000_001` (phase `Offered`). After = active `46_000_002` (phase `Playing`) with `next_instance_id = 46_000_002`. Checks: counter 46_000_002 > 46_000_002 is false (line 155, passes); completed unchanged; phase is not Won/Lost; id 46_000_002 != 46_000_001 (line 183, passes); `replacement < counter(before)` is 46_000_002 < 46_000_002, false (line 186, passes). The audit returns Ok with `cleared = [46_000_001]`. But the allocator (`cooking.rs:300-304`: `id = next_instance_id; next = id+1; next_instance_id = next`) would then hand out 46_000_002 again to the next run, duplicating the live run's id. The module doc (line 13) and the doc at line 108-110 ("a cleared run may only be replaced by a freshly allocated attempt") forbid this, and the test at `tests/piece_017.rs:162-181` shows the intended post-state has the counter advanced (46_000_003).
+  - Reach: `audit_recovery` (line 204) → `audit_conservation` (line 111); no other check in the window covers the after-counter's relation to the replacement id.
+  - Fix: at line 186, require the replacement to be inside the allocated range, e.g. `if replacement < counter(before_movie, service)? || replacement >= counter(after_movie, service)? { return Err(...) }`.
+
+- **[low] prototype/osfr-tools/src/restoration/piece_017.rs:62 - `+=` on the summed `u64` item count can overflow.**
+  - Failure scenario: a snapshot with two inventory rows of the same `(definition_id, tint)` and `count = u64::MAX` (both accepted by `as_u64` at line 60). The second `+=` at line 62 panics in debug builds (wraps silently in release), so the audit aborts instead of returning an `Err`.
+  - Reach: `inventory_totals` (line 46) ← `audit_conservation` line 114-115 ← `audit_recovery`. Only reachable with a hand-crafted or corrupted snapshot file, since the server's own counts are far smaller.
+  - Fix: `let entry = totals.entry((definition, tint)).or_default(); *entry = entry.checked_add(count).ok_or_else(|| format!("inventory item {definition} count overflows"))?;`
+
+Nothing else in lines 1-207 met the bar. The `tint` fallback (line 57) and the `completed` comparison (line 162, which compares as `u64` and treats non-u64 values as equal) are weak checks on malformed saves, but they do not cause a crash, a gain or a loss under any realistic save, so I did not report them.

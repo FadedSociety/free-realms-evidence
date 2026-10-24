@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-16669 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2870, 4, 510] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is only a vBulletin 'Free Realms Forums Error' page telling a visitor they have exceeded the post-view limit and must register. It contains forum navigation (board list, forum jump, footer) but no thread, guide, or post text about the game, so it gives a rebuilder no usable Free Realms facts.", "facts": [], "quests": [], "uncertain": ["The thread the URL pointed to (post 16669) did not render; only the error page and navigation were captured.", "The forum board list names sections such as Items, Jobs/Classes, In-Game Mini Games, Pets and Membership / Stationcash, but this is navigation, not a fact about the live game."]}

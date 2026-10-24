@@ -1,0 +1,54 @@
+{
+ "title": "Geomancer Hailstorm",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\briarheart_caverns.json"
+  },
+  {
+   "file": "dungeons\\briarheart_caverns.json"
+  },
+  {
+   "file": "npcs/briarwood.json",
+   "npc_id": 9500000136,
+   "zone": "Briarwood",
+   "enemy_kind": "Changeling ruler, boss.",
+   "location_evidence": [
+    "Briarheart Caverns (client 1506585754)."
+   ]
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:16000 [npc_name | Briarheart Cavern | -] 'Geomancer Hailstorm'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:76406 [quest_objective | Briarheart Caverns | Geomancer Hailstorm] 'Please get that crystal from Geomancer Hailstorm in Briarheart Caverns. I must have it!'",
+  "locale:92503 [npc_dialog | - | Geomancer Hailstorm] 'I grow stronger with each attack! HA!'",
+  "locale:92504 [quest_objective | - | Geomancer Hailstorm] 'Geomancer Hailstorm is ruling his changelings through fear! Defeat Hailstorm to free the changelings!'",
+  "locale:92506 [other | - | Geomancer Hailstorm | FLAG dev_note: internal balance note] 'briarheart_caverns 42: power increase'",
+  "locale:432914 [quest_dialog | Briarwood | Geomancer Hailstorm] 'The elder knew many tricks, but still you defeated him. Into the cavern chamber walks a powerful Changeling. This must be Hailstorm. \"You dare to enter my caver'",
+  "locale:432922 [quest_dialog | Briarwood | Geomancer Hailstorm] \"You're barely able to defeat the ninja. Deep in the caverns now, you expect to see Hailstorm around every corner. There is a Changeling up ahead, but he doesn't\""
+ ],
+ "client_cluster": [
+  "locale:15993 [item | - | Fire Hydrant] 'Fire Hydrant'",
+  "locale:15995 [npc_name | - | Changeling Hacker] 'Changeling Hacker'",
+  "locale:15996 [npc_name | - | Changeling Marauder] 'Changeling Marauder'",
+  "locale:15997 [npc_name | - | Changeling Berserker] 'Changeling Berserker'",
+  "locale:16000 [npc_name | Briarheart Cavern | -] 'Geomancer Hailstorm'",
+  "locale:16004 [npc_dialog | - | -] 'Come here! No time to waste!'",
+  "locale:16006 [quest_title | - | sanctuary foot races] 'sanctuary foot races'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Change of Heart' (final): Defeat Geomancer Hailstorm!"
+ ]
+}

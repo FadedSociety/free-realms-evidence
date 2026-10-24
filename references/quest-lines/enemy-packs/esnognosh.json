@@ -1,0 +1,52 @@
+{
+ "title": "Snognosh",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\howling_hills.json"
+  },
+  {
+   "file": "dungeons\\howling_hills.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:5044 [item | Snowhill | Snognosh] 'Snognosh'",
+  "locale:440739 [npc_name | - | Snognosh] 'Snognosh'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5044 [item | Snowhill | Snognosh] 'Snognosh'",
+  "locale:5055 [quest_objective | Snowhill | Snognosh] 'Find and defeat Snognosh!'",
+  "locale:5056 [quest_objective | Snowhill | Snognosh] 'Snognosh is the leader of this roving band of Ice Trolls.  They have raided and taken over a small snowy village.  Run them out of town!'",
+  "locale:92500 [quest_objective | Snowhill | Snognosh] 'Trained snow wolves and their ice troll masters threaten Snowhill! Defeat their leader, Snognosh!'",
+  "locale:93108 [quest_objective | - | Snognosh] 'Snognosh Brain Freeze'",
+  "locale:93110 [quest_objective | - | Snognosh] 'Snognosh Chilling Breath'",
+  "locale:93112 [quest_objective | - | Snognosh] 'Snognosh Frost Rain'",
+  "locale:100484 [quest_objective | Snowhill | Snognosh] 'Defeat Snognosh in the Howling Hills of Snowhill'",
+  "locale:440739 [npc_name | - | Snognosh] 'Snognosh'"
+ ],
+ "client_cluster": [
+  "locale:5037 [item | - | Chocolate Cupcake] 'Chocolate Cupcake'",
+  "locale:5038 [npc_dialog | - | Chocolate Cupcake] 'Mmmm... chocolate.'",
+  "locale:5040 [npc_name | Snowhill | Ice Sentinel] 'Ice Sentinel'",
+  "locale:5042 [place | Snowhill | Ghost Tails Campfire] 'Ghost Tails Campfire'",
+  "locale:5044 [item | Snowhill | Snognosh] 'Snognosh'",
+  "locale:5046 [quest_objective | Snowhill | Ernie's Lost Letters] 'Find the letters Ernie dropped'",
+  "locale:5047 [quest_objective | Snowhill | Ernie's Lost Letters] \"We have so much mail to deliver that it's falling out of our mail bags. Find all of the lost mail and then deliver it to the correct addresses.\"",
+  "locale:5048 [ability | - | Illusion: Marshmallow] 'Illusion: Marshmallow - 2 minutes'",
+  "locale:5049 [quest_title | Snowhill | Ernie's Lost Letters] \"Ernie's Lost Letters\"",
+  "locale:5050 [quest_objective | Snowhill | Ernie's Lost Letters] \"Deliver Ernie's Lost Letters.\"",
+  "locale:5051 [quest_objective | Snowhill | Ernie's Lost Letters] \"The lost mail is scattered between the post office and 1 Rock 'n Roll Rd.\"",
+  "locale:5052 [quest_dialog | Snowhill | Ernie's Lost Letters] 'You have delivered the mail.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

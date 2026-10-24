@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=idarci-flitterstride-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3268, 4555, 6, 875] model=claude-haiku-5-5 -->
+# Darci Flitterstride
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer leaves open whether the quest 'Darci's Deficiencies' gives her an item. The client text shows that quest (locale 78764-78838) is Donovan's job, where the reward is coins ('Darci's payment', 'the amount of coins I still owe to Darci'). Darci is the one who loses the coin, not the giver of an item.", "fix": "Record that 'Darci's Deficiencies' (locale 78765) pays coins from Donovan, not an item from Darci Flitterstride (locale 45299). So she has no item acquisition source. The answer's null sources and retired status stand."}]}

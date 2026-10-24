@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csaint-s-key-40958-v1-evidence-r1 status=done turns=4 usd=0.0025 tokens(read,write,in,out)=[24233, 11400, 10, 1746] model=claude-haiku-5-5 -->
+# Saint's Key
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer sets live to \"yes\", but no cited source says the item is live. The only basis is the first-pass tag, which the lens says is a hint, not evidence. The sources also give no retirement or unobtainable note, and the answer's own open list says so.", "fix": "Set live to unknown (null) unless a dated source shows the key is obtainable. The client definition (locale:40958, definition_id 3742, no coin store price) and the empty stock and quest rows support only 'no acquisition source found'."}]}

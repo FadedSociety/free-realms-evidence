@@ -1,0 +1,28 @@
+{
+ "title": "Hero Rises",
+ "names_seen": [
+  "Hero Rises"
+ ],
+ "facts": [
+  {
+   "statement": "Hero Rises is a new storyline feature that will bring new stories, content and items to Free Realms gradually over time.",
+   "numbers": {},
+   "era": "unknown",
+   "quote": "a new storyline feature called Hero Rises! Hero Rises will bring new stories to Free Realms gradually over time",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2875",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2875",
+   "date": null,
+   "title": "Are You Brave Enough to Be a Hero?",
+   "summary": "SOE announces Hero Rises, a new storyline feature that releases story chapters gradually over time with new content and items. The first release is a tutorial for new players introducing movement, combat and the UI, and it introduces the Hero's Journal, which replaces the existing quest journal. The post says the first chapter reveals the Gloam Overlord and that more chapters follow over the rest of the year."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Hero's Journal (final, live yes)"
+ ]
+}

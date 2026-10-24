@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-fishing-rs-L1 status=done turns=5 usd=0.0054 tokens(read,write,in,out)=[38329, 17506, 12, 5665] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/fishing.rs lines 1-453 of 453
+
+Window reviewed: `prototype/osfr-tools/tests/fishing.rs` 1-453 (read with `src/fishing.rs` 380-430, 495-520, 640-780). Most tests hold up: the byte-length and envelope checks match the encoders, the NaN fixture in `fishing_result_rejects_nan_fields` lays out bytes so NaN lands in `at_38` and the decode succeeds, and the ordering tests pin `Error` variants that the code really returns. Three real gaps:
+
+- **[medium] tests/fishing.rs:366 session_rejects_nonfinite_and_negative_values_without_mutating - the only "no mutation" check is `phase() == Idle`, which is also the phase right after registration, so any refused request that changes `actor`, `registered`, or other state still passes.**
+  - Why it cannot catch a regression: a change to `Session::request` that calls `self.reset()` (or clears `registered`) before returning `Err(InvalidValue)` leaves phase `Idle`. The loop only checks `matches!(..., Err(InvalidValue))` and `phase()`, so this passes. The `Cast` case with `NEG_INFINITY` also only reaches `Casting` if validation is skipped, so a reset-on-refusal regression is invisible.
+  - Fix: snapshot `session.actor()`, `session.registered()` and `session.phase()` before the loop, and assert all three are unchanged after each refused request. Make the registration state non-Idle before the loop (e.g. `cast` first, then reject) so the phase check can actually move.
+
+- **[medium] tests/fishing.rs:183 fishing_result_rejects_nan_fields - the name says the result is rejected, but the test only asserts `ResultBody::valid()` is false. It never runs the packet through `Session::server`, which is where the rejection happens (`src/fishing.rs:743`).**
+  - Why it cannot catch a regression: deleting the `ServerPacket::Result { body } if !body.valid() => Err(Error::InvalidValue)` arm in `Session::server` would let a NaN result reach the reel-window gate. Session tests in this window only send valid results (`at_7c: 2.0`, others default 0), so nothing fails and the NaN result would move a Reeling session to `Landing`.
+  - Fix: after decoding, register, cast, hook, reel in, then assert `session.server(&ServerPacket::Result { body })` returns `Err(Error::InvalidValue)` and that `phase()` stays `Reeling`. Add a case where `at_7c` is NaN to check the gate is on the `at_7c` field the test is named for.
+
+- **[low] tests/fishing.rs:436 session_rejects_a_result_for_a_foreign_actor - the `phase() == Idle` assertion is trivially true (the session is Idle after registration), and nothing checks that the actor binding survived the refused result.**
+  - Why it cannot catch a regression: a change that clears `actor` or `registered` when a foreign result arrives still returns `ForeignActor` and leaves the phase `Idle`, so this passes.
+  - Fix: after the refused result, assert `session.actor() == Some(handle())` and `session.registered()`. Better still, put the session in `Reeling` first, so that the `phase() == Idle` check is a real "did not advance to Landing" check.

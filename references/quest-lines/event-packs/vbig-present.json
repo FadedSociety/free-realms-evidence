@@ -1,0 +1,48 @@
+{
+ "title": "Big Present",
+ "names_seen": [
+  "Big Present"
+ ],
+ "facts": [
+  {
+   "statement": "A bonus Big Present was awarded for every 4 daily presents a player could open; completing all 12 challenges gave 12 bows and a total of 15 presents.",
+   "numbers": {
+    "daily_presents_per_big_present": 4,
+    "total_presents_for_all_12": 15,
+    "bows_for_all_12": 12
+   },
+   "era": "live",
+   "quote": "you get a bonus “Big Present” for every 4 of the daily presents you are able to open",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2827",
+   "date": null
+  },
+  {
+   "statement": "A bonus Big Present is earned for every 4 daily presents opened; completing all 12 challenges gives 12 bows and 15 presents in total.",
+   "numbers": {
+    "daily_presents_per_big_present": 4,
+    "bows_for_full_set": 12,
+    "total_presents_full_set": 15
+   },
+   "era": "live",
+   "quote": "you get a bonus “Big Present” for every 4 of the daily presents you are able to open. Complete all 12 daily challenges, get 12 bows, and you'll get a total of 15 presents!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2813",
+   "date": "2012-12-13"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2827",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "An official SOE news post for the final day (Day 12) of Free Realms' 12 Days of Holidays event. It explains the 12 Days of Presents system: one daily challenge per day from December 13 to 24, a present per challenge completed on its first day, presents opened on December 25, and bonus Big Presents, with bows bought from the Marketplace for missed days. The post gives no exact dates for the posting itself."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2813",
+   "date": "2012-12-13",
+   "title": "Free Realms - What is New?",
+   "summary": "A December 2012 SOE news post announcing the 12 Days of Holidays event, running December 13 to December 24, 2012. It covers daily Marketplace specials, a daily holiday challenge at Snowhill that awards a present with a bow, and a present-opening step on December 25. The date is inferred from the 'Posted 4 days, 9 hours ago' stamp against the 2012-12-18 capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

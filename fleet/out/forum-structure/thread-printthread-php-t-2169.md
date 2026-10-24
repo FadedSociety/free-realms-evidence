@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-printthread-php-t-2169 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2873, 4, 558] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This Wayback capture (2009-06-08) of a Free Realms Forums page contains only forum navigation, a vBulletin 'maximum posts viewed' registration error, and a list of forum section names. It contains no thread text, guide, or player report, so there is no game mechanic, item, quest, price, or event information a rebuilder can use.", "facts": [], "quests": [], "uncertain": ["The capture shows a registration-required error page instead of the intended thread; the thread title and posts are not recoverable from this copy.", "The page's thread ID (t=2169) is in the URL but its subject is not shown in the extracted text."]}

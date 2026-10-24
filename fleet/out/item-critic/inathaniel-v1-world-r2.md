@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=inathaniel-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3043, 3857, 6, 940] model=claude-haiku-5-5 -->
+# Nathaniel
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind / sources", "issue": "The pack confirms Nathaniel is an NPC, not an item: wiki categories NPC/Males/Human/Seaside, no coin, Station Cash or IGD price, no vendor rows, and client locale 92495 is tagged npc_name. Empty sources are therefore the correct world-lens result, and no item source should be added.", "fix": "Keep sources empty. Optionally record the NPC name id 3603871757 from 'notes/Build Guides/Content/NPCs/NPCs - Seaside.md:149' so the Seaside spawn link is traceable. The answer's status should read nothing_found for an item, not a guessed one."}]}

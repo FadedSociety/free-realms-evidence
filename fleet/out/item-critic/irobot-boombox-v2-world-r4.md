@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=irobot-boombox-v2-world-r4 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3529, 5461, 6, 1213] model=claude-haiku-5-5 -->
+# Robot Boombox
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[4]", "issue": "Cites locale:636, which the automatic id check flags as not_live promotional text. It is only mentioned as dropped, not used as a source, so it does not change the answer, but it should not appear as evidence at all.", "fix": "Remove the locale:636 reference or mark it explicitly as excluded (not_live). Live drop evidence is the article articleId=2604 (\"A Robo Boombox can be found inside a Sci-Fi Mystery Chest\"), which I confirmed via lookup, plus the wiki page and categories Boombox and Mystery Chest."}]}

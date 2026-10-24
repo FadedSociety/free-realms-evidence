@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icupid-v1-world-r2 status=no_submit turns=2 usd=0.0017 tokens(read,write,in,out)=[3633, 8151, 6, 1233] model=claude-haiku-5-5 -->
+# Cupid
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / price / currency", "issue": "The Gifting Basket is a Station Cash Marketplace item, which the answer records only as a non-source note. Its SC price is missing, and the wiki page does not give one either. The answer is honest about this in `open`, so it is not a fail. Cupid should still be recorded as a random prize from a basket that was sold for Station Cash, not as a free event reward.", "fix": "Keep price null, but note in the source detail that the basket was bought for Station Cash on the SC Marketplace during Festival of Hearts 2011 (Gifting Basket wiki page). Cupid's only evidenced route is the basket's random prize."}]}

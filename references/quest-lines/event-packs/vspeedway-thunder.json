@@ -1,0 +1,50 @@
+{
+ "title": "Speedway Thunder",
+ "names_seen": [
+  "Speedway Thunder"
+ ],
+ "facts": [
+  {
+   "statement": "The Speedway Thunder update added new quests for Kart Drivers and Demolition Derby Drivers and new racetracks in Seaside and at the Thunder Falls Speedway near Lakeshore.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Speedway Thunder is here! There are new quests for Kart Drivers and Demolition Derby Drivers",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=169",
+   "date": null
+  },
+  {
+   "statement": "Free Realms launched the Speedway Thunder game update, which is described as a racing update with fast cars and crashes.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Free Realms is launching its newest game update, Speedway Thunder!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=170",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=169",
+   "date": null,
+   "title": "Speedway Thunder Update Notes",
+   "summary": "SOE's update notes for the Speedway Thunder update. They describe new kart and demolition derby quests and new racetracks (Sandstorm Speedway and Thunder Falls Speedway near Lakeshore), plus kart garages, new Marketplace karts and in-game leaderboards. The page gives no exact date and names no specific quests, rewards or prices."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=170",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms news post announcing the 'Speedway Thunder' game update, which added kart and derby racing content: about 40 quests for the Kart Driver and Derby Driver jobs, new karts, two race tracks, player garages, car upgrades and racing apparel. The post was captured on 2009-08-04 and says it was posted 5 days and 3 hours before capture, so the posting date is roughly 2009-07-30, but the page itself gives no exact date."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Kart Driver: Age Before Beauty (final, live unsure)",
+  "Kart Driver: Settling the Score (final, live unsure)",
+  "Kart Driver: Making Amends (final, live unsure)",
+  "Kart Driver: High Speed Chase (final, live yes)",
+  "Kart Driver: Sweetwater Sasparilla Sponsorship (final, live yes)",
+  "Kart Driver: Thunder Falls Sprint Challenge (final, live yes)",
+  "Kart Driver: Thunder Falls Endurance Challenge (final, live unsure)",
+  "Kart Driver: Dominating and Thunder Falls (unresolved, live unsure)",
+  "Kart Driver: Endorsement Deal (unresolved, live yes)"
+ ]
+}

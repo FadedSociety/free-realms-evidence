@@ -1,0 +1,49 @@
+{
+ "title": "Circuit du Tonnerre Rugissant community kart event",
+ "names_seen": [
+  "Circuit du Tonnerre Rugissant community kart event"
+ ],
+ "facts": [
+  {
+   "statement": "The weekly community event was a kart race at the Roaring Thunder Circuit (Circuit du Tonnerre Rugissant), scheduled for the Americas and Europe on Server 1.",
+   "numbers": {
+    "server": 1
+   },
+   "era": "live",
+   "quote": "l'événement de la Communauté sera ultra-rapide au Circuit du Tonnerre Rugissant",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2015&request_locale=en_US",
+   "date": "2011-01-27"
+  },
+  {
+   "statement": "The US and Latin America session was Thursday 27 January 2011 at 3:00 Pacific time on Server 1.",
+   "numbers": {
+    "hour_pacific": 3
+   },
+   "era": "live",
+   "quote": "Jeudi 27 janvier 2011 3h (heure du Pacifique)",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2015&request_locale=en_US",
+   "date": "2011-01-27"
+  },
+  {
+   "statement": "The UK and Europe session was Friday 28 January 2011 at 18:00 Paris time (04:00 GMT) on Server 1.",
+   "numbers": {
+    "hour_paris": 18,
+    "hour_gmt": 4
+   },
+   "era": "live",
+   "quote": "Vendredi 28 janvier 2011 18h (Heure de Paris)/ 4h:00 GMT",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2015&request_locale=en_US",
+   "date": "2011-01-27"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2015&request_locale=en_US",
+   "date": "2011-01-27",
+   "title": "Evénement: Circuit du Tonnerre Rugissant",
+   "summary": "A French-language Free Realms community event announcement: a kart-racing community event at the Circuit du Tonnerre Rugissant (Roaring Thunder Circuit), held on two dates for different regions on Server 1. It explains how to reach the track through the Kart Race Lobby icon and how to set up a player-versus-player race. The page is a capture from 2011-06-04 and the posting date is given only relatively ('4 months, 1 week ago')."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

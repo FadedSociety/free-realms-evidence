@@ -1,0 +1,30 @@
+{
+ "title": "Frost Ridge Speedway Challenge",
+ "names_seen": [
+  "Frost Ridge Speedway Challenge"
+ ],
+ "facts": [
+  {
+   "statement": "A community event held at Frost Ridge Speedway was a player-versus-player kart racing session on Friday, August 28, 2009, 11am-1pm Pacific Time, on Server 7.",
+   "numbers": {
+    "start_hour_pacific": 11,
+    "end_hour_pacific": 13,
+    "server": 7
+   },
+   "era": "live",
+   "quote": "Friday August 28th, 2009 11am-1pm Pacific Time Server 7",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=235",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=235",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A SOE community event announcement inviting players to a player-versus-player kart racing session at Frost Ridge Speedway on Friday, August 28, 2009, 11am-1pm Pacific Time, on Server 7. Players join via the Kart Racing Lobby icon, and must create a race with the max players and 'Enable AI' turned off to race only against each other. The page's relative post time ('3 days, 15 hours ago' at capture on 2009-08-31) puts the posting around 2009-08-27, but no exact post date is shown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

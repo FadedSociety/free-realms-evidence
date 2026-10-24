@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csneak-spectral-ring-86317-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3835, 8565, 6, 1191] model=claude-haiku-5-5 -->
+# Sneak Spectral Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The answer calls the ring family the 11 rings in locale 86312-86322. The client's Spectral ring names are spread across more tier blocks: Intern Spectral (locale:86308), Rascal Spectral (86299), Dull Spectral (86290), Grunt Spectral (86326), plus Hardwood/Granite/Metallic/Jeweled Spectral (69722-69752). The 'one 11-item family' framing is narrower than the client shows.", "fix": "Describe the 86312-86322 block as one cluster and note that the same Spectral pattern recurs at locale:86290, 86299, 86308, 86326 (client lookup), so the family is not confined to that block. No source attaches to any of them."}]}

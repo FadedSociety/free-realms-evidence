@@ -1,0 +1,79 @@
+{
+ "title": "Reto Futbolístico (Soccer Challenge)",
+ "names_seen": [
+  "Reto Futbolístico (Soccer Challenge)"
+ ],
+ "facts": [
+  {
+   "statement": "A community soccer event ran at the soccer field south of Snowy Hill, where players wore soccer jerseys and formed teams to compete against other players.",
+   "numbers": {},
+   "era": "live",
+   "quote": "dirígete al campo de futbol justo al sur de Colina Nevada",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1622",
+   "date": null
+  },
+  {
+   "statement": "Players entered the event by clicking the doors and choosing the ball labeled 'Zona de Juego' to create a team.",
+   "numbers": {},
+   "era": "live",
+   "quote": "elije el balón que dice \"Zona de Juego\"",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1622",
+   "date": null
+  },
+  {
+   "statement": "The event was scheduled on Thursday 8 July 2010 at 15:00 Pacific time for US and Latin America, and on Friday 9 July 2010 at 09:00 Pacific (16:00 GMT) for UK and Europe, both on Server 1.",
+   "numbers": {
+    "thursday_pacific_hour": 15,
+    "friday_pacific_hour": 9,
+    "friday_gmt_hour": 16
+   },
+   "era": "live",
+   "quote": "Viernes 9 de Julio del 2010 09:00 am Tiempo Pacifico/ 16:00 GMT",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1622",
+   "date": null
+  },
+  {
+   "statement": "A community soccer event ran on Thursday July 8, 2010 at 15:00 Pacific Time (US and Latin America), on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15,
+    "day": 8,
+    "month": 7,
+    "year": 2010
+   },
+   "era": "live",
+   "quote": "Jueves 8 de Julio del 2010 15:00 hrs. Tiempo Pacifico (EE.UU. y Latino America) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1621",
+   "date": "2010-07-08"
+  },
+  {
+   "statement": "A second session ran on Friday July 9, 2010 at 09:00 Pacific Time, which the post equates to 16:00 GMT (European time), for UK and Europe, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "start_hour_gmt": 16,
+    "day": 9,
+    "month": 7,
+    "year": 2010
+   },
+   "era": "live",
+   "quote": "Viernes 9 de Julio del 2010 09:00 am Tiempo Pacifico/ 16:00 GMT (Tiempo Europeo) (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1621",
+   "date": "2010-07-08"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1622",
+   "date": null,
+   "title": "Evento Comunitario: Reto Futbolístico (Free Realms - What is New?)",
+   "summary": "A Spanish-language community event notice for a soccer-themed event tied to the Summer Camp \"Semana Deportiva\" theme, held at the soccer field just south of Snowy Hill on Server 1. Players wore soccer jerseys, clicked doors to pick a \"Zona de Juego\" ball to form a team and compete against other players. Event times are given in Pacific time with the European session listed separately."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1621",
+   "date": "2010-07-08",
+   "title": "Evento Comunitario: Reto Futbolístico (Free Realms - What is New?)",
+   "summary": "A Spanish-language community event post announcing a soccer event held during the Summer Camp theme \"Semana Deportiva\" on July 8 and 9, 2010, on Server 1. Players wore soccer shirts to a field south of Snowy Hills, clicked doors to pick a \"Zona de Juego\" ball to form a team and compete against other players. The page explains how to find community events through the Game Guide calendar."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

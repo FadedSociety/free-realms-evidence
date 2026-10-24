@@ -1,0 +1,29 @@
+{
+ "title": "Yeti Jam Boxes",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\hot_springs_haven.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:130575 [quest_objective | - | Yeti Jam Boxes] 'Destroy all of the yeti jam boxes!'",
+  "locale:130576 [quest_objective | - | Yeti Jam Boxes] 'The Yetis are making WAY too much noise. Destroy all of their Jam Boxes and do your part to stop noise pollution.'"
+ ],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:QHfkcL2_pfg/00036.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Goals (2)",
+  "video:QHfkcL2_pfg/00042.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Goals (2)",
+  "video:QHfkcL2_pfg/00044.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Goals (2)",
+  "video:QHfkcL2_pfg/00068.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Goals (2)",
+  "video:QHfkcL2_pfg/00114.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 1/9  | job_level: Archer 14 | other_text: Goals (2)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

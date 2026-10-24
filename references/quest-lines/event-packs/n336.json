@@ -1,0 +1,72 @@
+{
+ "title": "Merry Vale",
+ "names_seen": [
+  "Merry Vale"
+ ],
+ "facts": [
+  {
+   "statement": "During the Festival of Hearts, festival favorite characters Rylan and Arianna are waiting in Merry Vale for players.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Rylan, Arianna, and all the festival favorite characters are waiting in Merry Vale for you to join them",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2498",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2498",
+   "date": null,
+   "title": "Festival of Hearts on the PlayStation®3 system",
+   "summary": "A short official freerealms.com news post announcing that the Festival of Hearts event launched in Free Realms on the PlayStation 3 on the day of posting. It says the festival characters Rylan and Arianna are in Merry Vale, and that Stone Heart and his Heartbreakers are there as antagonists. The exact posting date is not given; the page shows only a relative age ('1 week, 4 days ago') at capture time."
+  }
+ ],
+ "wiki_category_members": [
+  "Archer's Wild Bow of Forbidden Magic",
+  "Arel",
+  "Brawler's Wild Hammer of Forbidden Magic",
+  "Fairies",
+  "Cakenstein",
+  "Den of Secrets",
+  "Cudip",
+  "Cragara",
+  "Fairy Cultist",
+  "Changelings",
+  "Claudia",
+  "Ever Rainbow",
+  "Festival of Hearts",
+  "Heart Breakers",
+  "Merry Vale",
+  "Michelle",
+  "Lucky Chance McXander",
+  "Launch Pads",
+  "Mayor McFairy",
+  "Meridia",
+  "Miesha",
+  "Ninja's Wild Sword of Forbidden Magic",
+  "Nadia",
+  "Necronomicus",
+  "Pixie Hunters!",
+  "Shaggy Mysterychaser",
+  "Stone Heart",
+  "Yaellie and Ole",
+  "Wugunbump"
+ ],
+ "quest_answers_mentioning_it": [
+  "To Coin a Phrase (final, live yes)",
+  "Card Duelist: Herme the Hermit (final, live yes)",
+  "Card Duelist: Playing a Prodigy (final, live unsure)",
+  "Card Duelist: Best of the Best! (unresolved, live yes)",
+  "Chef: Reach Level 10 (final, live yes)",
+  "Chef: Chugawhat? (final, live yes)",
+  "Postman: Missing Mail (final, live yes)",
+  "Postman: Mail Mix-Up (final, live yes)",
+  "Postman: And the Winner Is... (unresolved, live yes)",
+  "Postman: Beautiful Bouquet (final, live unsure)",
+  "A Bundle of Love (final, live yes)",
+  "A Very Merry Welcome (final, live unsure)",
+  "At the End of the Rainbow (final, live yes)",
+  "Dubawug's Sweetheart (unresolved, live unsure)",
+  "Glide Training: I'm Advanced! (final, live yes)"
+ ]
+}

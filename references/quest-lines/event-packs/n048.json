@@ -1,0 +1,47 @@
+{
+ "title": "Farnum's Love The Land Party",
+ "names_seen": [
+  "Farnum's Love The Land Party"
+ ],
+ "facts": [
+  {
+   "statement": "Farnum Farm hosts a yearly community party honoring the land that grows Free Realms' food; players dance, harvest, play games and visit friends.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Every year Farnum Farm hosts a party honoring the land that grows the food for Free Realms.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1275",
+   "date": null
+  },
+  {
+   "statement": "The U.S. and Latin America session was on Thursday April 22, 2010 at 3pm Pacific Time on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday April 22nd, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1275",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session was on Friday April 23, 2010 at 9:00am Pacific Time (4:00pm GMT) on Server 1.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday April 23rd, 2010 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1275",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1275",
+   "date": null,
+   "title": "Community Event: Farnum's Love The Land Party",
+   "summary": "A freerealms.com 'What is New?' post announcing a community party at Farnum Farm, held on Server 1 on April 22, 2010 (US/Latin America) and April 23, 2010 (UK/Europe). The party invites players to dance, harvest, play games and wear farming clothes, and explains how to find community events via the Game Guide calendar and GO button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

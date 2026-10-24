@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iamai-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3166, 4256, 6, 910] model=claude-haiku-5-5 -->
+# Amai
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "Amai is a human NPC merchant, not an item, so kind 'other' is a category fit for a non-item and the answer correctly assigns no item sources. The answer is true as far as it goes. Minor: the 'clothing seller' hint is only in the Collections page (lookup shows 'near [Amai] the [ninja] [clothing] [seller]') and in repo collections.json:1711, which is a landmark note, not a stock list. The answer already flags this as open.", "fix": "No change required. If the builder wants the item, it needs a named clothing item and its vendor row; none is in the pack (wiki infobox has no stock, vendors_unresolved.json:6983 lists Amai as a stub with no stock)."}]}

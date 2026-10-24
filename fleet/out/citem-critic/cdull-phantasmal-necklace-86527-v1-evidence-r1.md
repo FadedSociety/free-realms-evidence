@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-phantasmal-necklace-86527-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3718, 5340, 6, 858] model=claude-haiku-5-5 -->
+# Dull Phantasmal Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the necklace family matches the 'Phantasmal Ring family in the client text (locale:86287-86337)' was not re-checked. A search for Phantasmal returned only the necklace locale lines (69676-69712, 86527-86572), so no ring family lines appeared. The claim is unsupported by anything in the pack.", "fix": "Either cite the ring locale lines explicitly with their ids, or drop the ring-family comparison. The necklace family itself is confirmed in the locale (Dull, Rascal, Intern, Sneak, Grunt, Sage Phantasmal Necklace at 86527, 86536, 86545, 86554, 86563, 86572)."}]}

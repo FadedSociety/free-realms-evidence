@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cextra-large-goofy-grouper-407630-v2-world-r2 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[8686, 5085, 8, 1236] model=claude-haiku-5-5 -->
+# Extra Large Goofy Grouper
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The XL size tier is not confirmed as the 35% or 11% weight entry; the size_weights array [27,35,27,11] in fishing.json has no labels, so the XL catch share is unknown. The answer already flags this in open, so it is an honest unknown rather than a false claim.", "fix": "Keep the catch source as 'catchable at Frostbitten Banks, level 14+'. Do not state a catch rate for XL until a size-label source is found (fishing.json:1339-1344; open item already notes this)."}]}

@@ -1,0 +1,73 @@
+{
+ "title": "Robbie",
+ "our_entries": [
+  {
+   "file": "dungeons\\bigfoot_s_lair.json",
+   "definition_id": 930000
+  },
+  {
+   "file": "dungeons\\bigfoot_s_lair.json",
+   "definition_id": 930000
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:429024 [npc_name | - | Robbie] 'Robbie'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:429008 [other | - | Robbie | FLAG dev_note: internal note about Bigfoot/Robbie] 'Bigfoot is Robbie'",
+  "locale:429024 [npc_name | - | Robbie] 'Robbie'",
+  "locale:429058 [other | - | Robbie | FLAG dev_note: internal proc note] 'on death proc - Spawns Robbie'",
+  "locale:429076 [npc_dialog | - | Robbie] \"<font size='20'>Don't call me Bob!</font><BR>Oh, that little treeble... I'm going to come up with a new way to get at him, I swear!<BR><BR>Well, now that you're\"",
+  "locale:429091 [quest_objective | - | Robbie] \"We should let camp leader Chatty know that Bigfoot's another one of Bob--err, Robbie's pranks. \"",
+  "locale:429110 [quest_objective | - | Robbie] 'Look around Camp Robbie and meet the camp counselors.'",
+  "locale:429119 [quest_objective | - | Robbie] 'Return to Robbie'",
+  "locale:429353 [npc_dialog | - | Robbie] \"Well, I can't wait for you all day, camper!<BR><BR>Robbie could head over any minute to ask if I found any new treasures yet... I mean--he loves this game too! \""
+ ],
+ "client_cluster": [
+  "locale:429016 [npc_dialog | - | hoverboard] 'Well, turns out that these are powered by the stuff in the warpstones. At least, it looks awfully similar. They hover above the ground and can go pretty fast!<B'",
+  "locale:429018 [npc_dialog | - | hoverboard | FLAG fragment: player reply option] 'I want one!'",
+  "locale:429024 [npc_name | - | Robbie] 'Robbie'",
+  "locale:429025 [npc_name | - | Counselor Cammy] 'Counselor Cammy'",
+  "locale:429026 [npc_name | - | Counselor Jenny] 'Counselor Jenny'",
+  "locale:429027 [npc_name | - | Counselor Wes] 'Counselor Wes'",
+  "locale:429028 [npc_name | - | Counselor Jacen] 'Counselor Jacen'",
+  "locale:429029 [quest_dialog | Camp Chatty | Meet and Greet] \"Welcome to Camp Chatty! Isn't this lake in the forest just the perfect spot? <BR><BR>I even got some cool people to help run this place. <font color='#D9781A'>M\"",
+  "locale:429030 [quest_title | Camp Chatty | Meet and Greet] 'Meet and Greet'",
+  "locale:429031 [quest_dialog | Camp Chatty | Meet and Greet] 'Welcome to Camp Chatty! Chatty would like you to meet his awesome camp counselors, Kaela, Tyra, Jake, and Edmond. They will point out the cool things to do at t'",
+  "locale:429032 [quest_dialog | Camp Chatty | Camp Troubles] 'Lately, a lot of campers have been scared off by something. I wish I knew what it was!'"
+ ],
+ "wiki": {
+  "title": "Robbie",
+  "text": "Robbie is a robgoblin NPC that can be found at Camp Robbie, located in the Greenwood Forest. Robbie, along with Chatty, are the official mascots of Free Realms.\n\nRobbie is also an NPC boss in Bigfoot's Lair, he used to wear the Bigfoot costume which come to attack the player in the battle.\n\nQuests\nQuest:Rags to Riches\nQuest:Certified Treasure Hunter\nQuest:Bigfooted Friend\n\nAppearances\nFree Realms Trailer 2007\nFree Realms Trailer 2008\nFree Realms Ninja Prank Commercial\nQuest:Camp Troubles\nQuest:Confronting Bigfoot\nBigfoot's Lair\nQuest:Putting Your Foot Down\nQuest:Rags to Riches\nQuest:Unearthing Treasures (mentioned)\nQuest:The Great Scavenger Hunt (mentioned)\nQuest:Certified Treasure Hunter\nQuest:Bigfooted Friend\nQuest:Bigfoot's Endangered\nBigfoot Defender\n\nGallery\n\nTrivia\nRobbie was introduced in-game as a part of Camp Robbie on June 4th, 2010.\n\nSources\nThe Free Realms Filter on SlideShare\nFree Realms Comic Pitch Art on DeviantArt\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Robgoblin\nCategory:Quest Givers\nCategory:Camp Robbie\nCategory:Sacred Glade\nCategory:Greenwood Forest"
+ },
+ "images": [
+  "image (image:art_or_promo): Team Robbie",
+  "image (image:art_or_promo): FreeRealms\n™\nTeam Robbie\nTeam Chatty\nM",
+  "image (image:item_tooltip): Members Only\nCamp Robbie Flair\nShard\nShow that green and gold spirit!\nResell Value:\n215\nEquippable State:\nYou Own: 1\nThis item is currently equipped.\nRequired: Membership, Level 1, Any Job"
+ ],
+ "video": [
+  "video:s4q4D_xmPoU/00198.jpg (Bigfoot's Lair): npcs: Counselor Edmond dialog_header  Robbie dialog_header  | dialog: Robbie: Ow ow ow! I give up! Counselor Edmond: Robbie!? You were Bigfoot!? Robbie: Yeah yeah... it was me... | quest:   Defeat Bigfoot!  | job_level: Warrior 8 | other_text: Exit (marker 19m)",
+  "video:s4q4D_xmPoU/00192.jpg (-): npcs: Robbie dialog_header  | dialog: Robbie: Ow ow ow! I give up! | quest:   Defeat Bigfoot!  | job_level: Warrior 8 | other_text: Goal Complete! Confronting Bigfoot Bigfoot",
+  "video:s4q4D_xmPoU/00204.jpg (Bigfoot's Lair): npcs: Counselor Edmond dialog_header  Robbie dialog_header  | dialog: Robbie: Yeah yeah... it was me... Counselor Edmond: But why? Robbie: If I scared off all of the campers... Robbie: then I could keep all of the hidden treasure! | quest: Confronting Bigfoot  Speak to Counselor ",
+  "video:s4q4D_xmPoU/00194.jpg (Bigfoot's Lair): npcs: Counselor Edmond dialog_header  Robbie dialog_header  | dialog: Robbie: Ow ow ow! I give up! Counselor Edmond: Robbie!? You were Bigfoot!? | quest: Confronting Bigfoot  Defeat Bigfoot!  | landmarks: orange rock cave wall glowing stone archway | job_level: Warrior 8 | other_",
+  "video:s4q4D_xmPoU/00212.jpg (Bigfoot's Lair): npcs: Counselor Edmond dialog_header  Robbie dialog_header  | dialog: Robbie: then I could keep all of the hidden treasure! Counselor Edmond: What treasure? Robbie: And I would have gotten away with it too! | quest:   Defeat Bigfoot!  | job_level: Warrior 8 | other_text: Exit (ma"
+ ],
+ "article_facts": [
+  "fact:mechanic: In the Treasure Trader app, players can mischievously steal an item from a friend's inventory, in the style of the NPC Robbie. | mischievously steal from a friend’s inventory ala Robbie (http://tentonhammer.com/node/89227)",
+  "fact:event: A Summer Camp community party was held in Robbie's Camp in the Greenwood Forest, with players encouraged to wear Robbie Camp clothing and bring a boom box. | Wear your Robbie Camp clothing, bring your boom box and get ready to dance around the campfire. (http://www.freerealms.com:80/article/detail.action?articleId=1534)",
+  "fact:item: Camp Chatty and Camp Robbie banners, campfires, tents, stackable totems, and playgrounds were sold in the Summer Camp Coin Shop. | Camp Chatty and Camp Robbie banners (http://www.freerealms.com:80/article/detail.action?articleId=1498)",
+  "fact:event: Robbie the Robgoblin set up a competing summer camp across the lake; both camps have quests, counselors, rewards and Marketplace and Coin Shop items. | Robbie the Robgoblin has set up a competing camp across the lake. (http://www.freerealms.com:80/article/detail.action?articleId=1510)"
+ ],
+ "quest_answers_naming_it": [
+  "giver of 'Bigfooted Friend' (final, zone Greenwood Forest (Camp Robbie))",
+  "giver of 'Certified Treasure Hunter' (final, zone Greenwood Forest (Camp Robbie, the Summer Camp by the lake near the Greenwood Forest warpstone))",
+  "talk target in 'Certified Treasure Hunter' (final): Win at the scavenger hunt, or dig up a precious artifact, then come back and show Robbie what you find",
+  "go target in 'Putting Your Foot Down' (final): Find and chase Robbie away in his Bigfoot costume. (the actionable segment of a longer paragraph)",
+  "giver of 'Rags to Riches' (final, zone Greenwood Forest (Camp Robbie))",
+  "go target in 'Rags to Riches' (final): Camp leader Robbie asks that you explore the camp grounds and check out the various activities you can do.",
+  "go target in 'Rags to Riches' (final): Look around Camp Robbie and meet the camp counselors.",
+  "talk target in 'Rags to Riches' (final): Return to Robbie",
+  "use target in 'Rob Robbie daily' (final): Take something from Robbie's abandoned junkpile (once per day)"
+ ]
+}

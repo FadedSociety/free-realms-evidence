@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpain-relief-helmet-1025-v1-evidence-r1 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[14397, 11204, 8, 1698] model=claude-haiku-5-5 -->
+# Pain Relief Helmet
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3].source", "issue": "The sibling-helmet claim cites locale:1020, which is FLAGGED not_live (part of the NOT LIVE Introduction to Combat quest). The id check confirms this is not live evidence. The sibling-name claim is only context, and the non-quest lines (locale:1023, 1025, 1027) already support it, so the citation should not rest on the flagged line.", "fix": "Cite locale:1023 and locale:1027 (unflagged item names) for the sibling-helmet claim. Drop locale:1020 from that claim, or label it as NOT LIVE context. Keep it out of any live or quest-reward reasoning."}]}

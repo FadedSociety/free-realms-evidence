@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iburning-purple-flair-shard-v3-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3955, 6501, 6, 1278] model=claude-haiku-5-5 -->
+# Burning Purple Flair Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "retired / live", "issue": "The raw wikitext the answer cites (freerealms-wiki/wikitext/4536-42710-5e0afc2139bd.wiki, line 17) ends with the template {{Sunset Sale}}. The answer never mentions it, and says 'no removal evidence was found'. A sunset-sale tag is a weak but real signal that the SC listing was being withdrawn, so the retired/live 'unsure' should cite it as an open signal.", "fix": "Add to evidence/open: raw wikitext rev 42710 line 17 carries {{Sunset Sale}}, which suggests the SC listing was being sold off or retired; it is not confirmed as removed. Keep retired null and live unsure."}]}

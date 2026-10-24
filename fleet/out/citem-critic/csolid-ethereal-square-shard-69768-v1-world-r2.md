@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csolid-ethereal-square-shard-69768-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3963, 8984, 6, 1337] model=claude-haiku-5-5 -->
+# Solid Ethereal Square Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The answer labels category 121 as the Coin Store, citing FreeRealms-Legacy CoinStoreItems. I checked the stores.json rows (lines 6715-6725) and they match the price fields, but I did not confirm from the category table that category 121 is the coin store rather than another store.", "fix": "Confirm category 121 is the coin store in the stores/category definitions before marking the vendor as Coin Store. The row itself (item 22866, category 121, purchase 1656, member 1490 at 10%, sell 165, no_sale false) is correct per repo:prototype/osfr-tools/data/content/stores.json:6721."}]}

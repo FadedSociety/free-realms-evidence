@@ -1,0 +1,66 @@
+<!-- fleet job=event-infer id=vtcg-tournaments-v4 status=done turns=2 usd=0.0053 tokens(read,write,in,out)=[10653, 17555, 6, 6001] model=claude-haiku-5-5 -->
+# TCG Tournaments
+
+{"event": {"name": "Snow Days", "aliases": ["Snow Days holiday season", "12 Days of Presents (wiki name for the daily-quest present series inside Snow Days, 2012 and 2013)", "Snow Days Are Back! (news ad/quest title, locale:1653)"]},
+ "kind": "holiday",
+ "live": "yes",
+ "occurrences": [
+  {"year": 2009, "when": "Dec 18, 2009 through Jan 3, 2010, daily community events; TCG/JCC tournaments all day", "source": "http://www.freerealms.com:80/article/detail.action?articleId=705 (also 709, 718, 770, 771)"},
+  {"year": 2011, "when": "Season only; article says Snow Days 2011 was live. No month or days stated.", "source": "http://www.freerealms.com/article/detail.action?articleId=2428"},
+  {"year": 2012, "when": "12 Days of Presents: one daily challenge per day, presents opened Dec 25, 2012 (the wiki Snow Days page says the presents open on Dec 25, 2012). The 12 Days of Presents series runs Dec 13-24 as part of SOE's 12 Days of Holidays.", "source": "wiki: Snow Days; wiki: 12 Days of Presents; wiki: Events; SOE news post on Day 12 of the 12 Days of Holidays (articles.json, 12 Days of Presents system; articleId not captured)"},
+  {"year": 2013, "when": "12 Days of Presents 2013 (season only; exact days not stated)", "source": "wiki: Icy Snowflake Glasses; wiki: Hot Cocoa Mug; wiki: Figgy Pudding Critter; wiki: Holigoblin Mask; wiki: Arctic Cat (each: 'an annual Snow Days quest event')"}
+ ],
+ "recurring": "Yearly, in winter. Dated Dec-to-early-Jan seasons in 2009-10 (articles) and 12 Days of Presents Dec 13-24 with Dec 25 opening (wiki, 2012). The wiki calls the series 'annual' (Events, Snow Days Unicorn Sweater, Icy Snowflake Glasses). Article 892 is said to note a return the next year, but I could not re-read it, so it is not used as evidence.",
+ "zones": ["Snowhill"],
+ "npcs": ["Candi Ivy"],
+ "quests": ["The Gifting Tree", "Present Problems", "Holiday Cheer", "Silversnow's Sapling", "Guarding the Gifting Tree", "The Perfect Disguise", "Snowmen Disassembly", "Robgoblin Robbery Ring", "An Unexpected Gift"],
+ "activities": ["Daily community events, one per day, 2009-10 (article 705; start 15:00 Pacific per articles 718 and 771)", "JCC / trading card game tournaments all day (articles 709, 718, 771). This is the 'TCG Tournaments' name in the pack: one activity inside Snow Days, not the event itself.", "Talk to Candi Ivy daily for a present from under the Gifting Tree (article 828 per pack; wiki Candi Ivy)", "Spin the Snow Days Bonus Wheel (article 828; wiki Snow Days)", "Fight Robgoblins for Snow Days clothing (article 2429)", "Fight snowmen and Robgoblins that steal presents (wiki Events)", "Complete daily 12 Days of Presents challenges to collect presents, opened Dec 25 (wiki Snow Days; SOE 12 Days post)"],
+ "items": [
+  {"name": "Snow Days Present", "price": null, "currency": null, "source": "locale:1729"},
+  {"name": "Snow Days outfits", "price": null, "currency": null, "source": "http://www.freerealms.com:80/article/detail.action?articleId=828 (sold in Marketplace for a limited time)"},
+  {"name": "Snow Days Unicorn Sweater", "price": null, "currency": null, "source": "wiki: Snow Days Unicorn Sweater (12 Days of Presents 2012)"},
+  {"name": "Icy Snow Days Flair Shard", "price": null, "currency": null, "source": "wiki: Icy Snow Days Flair Shard; wiki: 12 Days of Presents (Day 1, 2012)"},
+  {"name": "Snow Days Builders Pack", "price": null, "currency": null, "source": "wiki: Snow Days Builders Pack; wiki: 12 Days of Presents (Day 3, 2012)"},
+  {"name": "Snowman Mask", "price": null, "currency": null, "source": "wiki: 12 Days of Presents 2012 series (per wiki index; page not opened)"},
+  {"name": "Fruit Cake Critter", "price": null, "currency": null, "source": "wiki: 12 Days of Presents (Day 2, 2012)"},
+  {"name": "Icy Snowflake Glasses", "price": null, "currency": null, "source": "wiki: Icy Snowflake Glasses (12 Days of Presents 2013)"},
+  {"name": "Hot Cocoa Mug", "price": null, "currency": null, "source": "wiki: Hot Cocoa Mug (12 Days of Presents 2013)"},
+  {"name": "Figgy Pudding Critter", "price": null, "currency": null, "source": "wiki: Figgy Pudding Critter (12 Days of Presents 2013)"},
+  {"name": "Holigoblin Mask", "price": null, "currency": null, "source": "wiki: Holigoblin Mask (12 Days of Presents 2013)"},
+  {"name": "Arctic Cat", "price": null, "currency": null, "source": "wiki: Arctic Cat (12 Days of Presents 2013)"},
+  {"name": "Subarctic Winterwear Jacket", "price": null, "currency": null, "source": "wiki: Subarctic Winterwear Jacket (Snowmen Disassembly reward)"},
+  {"name": "Subarctic Winterwear Hat", "price": null, "currency": null, "source": "wiki: Subarctic Winterwear Hat (Robgoblin Robbery Ring reward)"}
+ ],
+ "rewards": ["Snow Days Present, opened by Candi Ivy (articleId 2808)", "Daily present from under the Gifting Tree (article 828)", "Snow Days clothing from Robgoblin fights (article 2429)", "Snow Days outfits, limited Marketplace sale (article 828)", "Snow Days Bonus Wheel prizes (article 828; wiki Snow Days Bonus Wheel)", "Subarctic Winterwear Jacket and Hat (wiki)", "12 Days of Presents daily presents, opened Dec 25 (wiki Snow Days; SOE 12 Days post)"],
+ "evidence": [
+  {"claim": "Snow Days ran daily Dec 18, 2009 through Jan 3, 2010, with community events and TCG/JCC tournaments throughout the day. The pack's name 'TCG Tournaments' is an activity inside the event.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=705"},
+  {"claim": "The 2009-10 window is repeated in the same season's posts, with JCC tournaments and 15:00 Pacific start times.", "source": "http://www.freerealms.com/article/detail.action?articleId=709; http://www.freerealms.com/article/detail.action?articleId=718; http://www.freerealms.com/article/detail.action?articleId=770; http://www.freerealms.com/article/detail.action?articleId=771"},
+  {"claim": "Snow Days 2011 was live when the community webcast aired. No month or days given.", "source": "http://www.freerealms.com/article/detail.action?articleId=2428"},
+  {"claim": "Snow Days outfits were sold in the Marketplace for a limited time and would not return until the next Snow Days.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=828"},
+  {"claim": "Fighting Robgoblins during Snow Days earns Snow Days clothing.", "source": "http://www.freerealms.com/article/detail.action?articleId=2429"},
+  {"claim": "The 12 Days of Presents is an annual event, Dec 13-24, part of SOE's 12 Days of Holidays; one challenge per day, presents opened Dec 25. Snow Days items are tied to it as 'an annual Snow Days quest event'.", "source": "wiki: Events; wiki: 12 Days of Presents; wiki: Snow Days"},
+  {"claim": "The 2012 Snow Days presents could be opened on December 25, 2012.", "source": "wiki: Snow Days"},
+  {"claim": "2013 items (Icy Snowflake Glasses, Hot Cocoa Mug, Figgy Pudding Critter, Holigoblin Mask, Arctic Cat) were acquired in the 12 Days of Presents 2013, an annual Snow Days quest event.", "source": "wiki: Icy Snowflake Glasses; wiki: Hot Cocoa Mug; wiki: Figgy Pudding Critter; wiki: Holigoblin Mask; wiki: Arctic Cat"},
+  {"claim": "Snowmen Disassembly is a Snow Days quest from Candi Ivy.", "source": "locale:420292; locale:420293; wiki: Candi Ivy"},
+  {"claim": "Robgoblin Robbery Ring is a Snow Days quest from Candi Ivy.", "source": "locale:420602; wiki: Candi Ivy"},
+  {"claim": "Snow Days Present is a client item named with the event.", "source": "locale:1729"}
+ ],
+ "confidence": 0.7,
+ "open": [
+  "Pack name is wrong. 'TCG Tournaments' is one activity in Snow Days (article 705). The event name is Snow Days.",
+  "Excluded: April 2013 TCG promos (articleId 2815 Abominable Snowman card; articleId 2912 Card Champion's Sack, Apr 11-14 2013). Separate TCG events.",
+  "Excluded: SOE's 12 Days of Holidays (articleId 2431, Dec 13-24 2011) as a cross-game promo. The 12 Days of Presents is linked to Snow Days by the wiki, but the 2011 SOE promo is not tied to Snow Days by a source.",
+  "2011: no month or days in the source. The 2011 window is unknown.",
+  "2012 window: the wiki gives Dec 13-24 for 12 Days of Presents (general) and Dec 25 opening for 2012. Exact 2012 dates are not stated in an article the pack cites. The SOE 12 Days post (Day 12) is in articles.json but its URL was not captured.",
+  "2013: the wiki gives the year only. The Dec 10, 2013 Pumpkin Prince toy date and Game Update 124 (12/18/2013, Snow Days Builders Pack in Marketplace) are from wiki pages I did not open, so they are not cited here.",
+  "Article 892 (the 'returns next year' claim) could not be re-read. The recurrence rests on the 2009-10 articles, the 2012 and 2013 wiki series, and the wiki's 'annual' wording.",
+  "Article 705 has no date field in the pack; the 2009 dates come from its text. Article 709 shows only a relative 'Posted 1 year, 5 months ago'.",
+  "Start times: article 705 says 3pm PST; articles 718 and 771 say 15:00 Pacific. Article 770 has no time.",
+  "Zones: only Snowhill is tied to Snow Days by a source. Wintery Basin and Hot Springs are client party strings with no year, so they are not listed.",
+  "NPCs: only Candi Ivy is named. The Mayor of Snow Hill (article 828) is unnamed.",
+  "Prices and currencies are not stated in any source. All price and currency fields are null.",
+  "Not listed as items: Snow Days Floor (locale:441325), Snow Days Pillar (locale:441326), Snow Days Lot (housing, unobtainable), Snow Days Wheel (locale:426650, an activity). No source gives their use or sale status.",
+  "Quest title variants: 'Robgoblin Robbery Ring' (locale:420602) vs 'The Great Robgoblin Robbery Ring' (locale:420288) vs wiki '[Robgoblin] [Robbery] [Ring]'. Confirm which title the rebuild uses. 'Bye-Bye Supplies' is on the Candi Ivy wiki page only, so it is not listed.",
+  "Snowman Mask and Fruit Cake Critter (2012) are cited from the wiki index and the 12 Days of Presents page; their individual pages were not opened.",
+  "Abominable Snowman and evil snowmen (wiki Events) are not tied to a specific year, so they are not listed as event enemies."
+ ]}

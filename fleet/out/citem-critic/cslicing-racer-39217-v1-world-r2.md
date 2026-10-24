@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslicing-racer-39217-v1-world-r2 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[9210, 5381, 8, 1125] model=claude-haiku-5-5 -->
+# Slicing Racer
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence[1]", "issue": "The wiki Items index writes the entry as '[Slicing] [Racer]' with bracket markup, the same form as 'Wicked [Racer]'. That suggests a linked wiki page exists for Slicing Racer. The answer says no page was retrieved but does not note this link. My follow-up lookup for 'Slicing Racer' in wiki returned only the index, so the page is not in the index I can reach.", "fix": "Note that the Items index links 'Slicing Racer' (bracket form), so a dedicated wiki page probably exists and should be fetched before the item is wired. Source fields stay empty until that page or another source names a price, vendor, event or drop."}]}

@@ -1,0 +1,21 @@
+[
+ {
+  "page": "Items templ",
+  "url": "https://freerealms.fandom.com/wiki/Items_templ",
+  "params": {
+   "name": "guitar",
+   "image": "",
+   "caption": "Image caption",
+   "effects": "Effects",
+   "source": "Source",
+   "location": "level",
+   "type": "Type",
+   "buy": "Buy amount",
+   "sell": "Sell amount"
+  },
+  "categories": [
+   "Article stubs"
+  ],
+  "images": []
+ }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chardwood-eternal-ring-69719-v1-world-r2 status=no_submit turns=2 usd=0.0010 tokens(read,write,in,out)=[3804, 4639, 6, 807] model=claude-haiku-5-5 -->
+# Hardwood Eternal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor wording: the pack calls the Hardwood Celestial Necklace source 'Cook-off Catastrophe fight'. The repo's own notes place it in the Prince of Low Tide fight, which is the dungeon behind the Cook-off Catastrophe quest. The answer's sources are still correctly empty.", "fix": "Name the source as 'Prince of Low Tide fight (Cook-off Catastrophe quest run)', citing repo:notes/Build Guides/Content/Dungeons/Prince of Low Tide.md:57 and the video frames it cites (506rO_mhaSs/00152, 00102)."}]}

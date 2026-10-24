@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-spectral-necklace-86687-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4119, 9206, 6, 889] model=claude-haiku-5-5 -->
+# Gleaming Spectral Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence[1].source", "issue": "Cites locale:150429, which the automatic id check flags as a placeholder stub. The answer does correctly describe it as having no source or price, but it is listed as evidence. It should be recorded as a non-evidence placeholder, not as a supporting source.", "fix": "Drop locale:150429 from the evidence list or mark it 'placeholder, not evidence'. The only defensible facts are the client definition 22696 (slot 8, class 50) and locale:86687. No vendor, price, quest, drop, event or wiki source exists in client, wiki, articles, video, repo or refs (re-checked: refs and lookup return only the name and the placeholder line)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cserbia-soccer-flag-39098-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3808, 7725, 6, 1101] model=claude-haiku-5-5 -->
+# Serbia Soccer Flag
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "The answer omits the store row's source_tags (L1, L2, L4, R2, L3, L3), which appear on every row in the 16723-16754 block. They are unexplained in the pack and could mean something about where or how the block is offered. The answer neither cites nor rules them out.", "fix": "Cite repo:prototype/osfr-tools/data/content/stores.json line 4185 with its source_tags and note that their meaning is unknown (no wiki, article or video source names them). Do not read them as a sale source."}]}

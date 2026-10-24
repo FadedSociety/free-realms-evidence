@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imedic-s-flair-shard-of-glamour-v2-evidence-r1 status=done turns=4 usd=0.0036 tokens(read,write,in,out)=[32122, 18431, 10, 1930] model=claude-haiku-5-5 -->
+# Medic's Flair Shard of Glamour
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] / sources[1] (Coin Shop page claim)", "issue": "The claim that the Coin Shop wiki page lists this shard among Medic flair shards rests only on the page's category tags. The Coin Shop page body was not checked in this pass. Minor, since the shard's own wikitext already names the Coin Shop as its source.", "fix": "Cite the shard's own wikitext (repo:freerealms-wiki/wikitext/4499-32683-5c66b5c7216c.wiki:5: 'acquired from the Coin Shop where it sells for {{Coin|1504}}') as the primary source, and treat the Coin Shop page as a secondary check."}]}

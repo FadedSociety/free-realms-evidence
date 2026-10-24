@@ -1,0 +1,26 @@
+{
+ "title": "Party Planners",
+ "names_seen": [
+  "Party Planners"
+ ],
+ "facts": [
+  {
+   "statement": "Only Members can talk to Party Planners to throw a party; non-Member friends can be teleported into a party by a Member.",
+   "numbers": {},
+   "era": "live",
+   "quote": "The Party Planners will only talk to Members, but if you have a friend who is not a Member, they can teleport to your location inside the party.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=763",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=763",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A SOE news post explaining how Members use Party Planner NPCs to reach party areas in three locations (Sanctuary, Lakeshore, Briarwood). Members can teleport non-Member friends into a party, and clicking the party cake grants a temporary illusion."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

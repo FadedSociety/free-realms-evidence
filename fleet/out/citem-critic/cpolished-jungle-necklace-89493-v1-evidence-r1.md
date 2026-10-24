@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolished-jungle-necklace-89493-v1-evidence-r1 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3804, 10306, 6, 1480] model=claude-haiku-5-5 -->
+# Polished Jungle Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / open", "issue": "The claim that other Polished necklaces (Dreadful, Fateful, Infernal) appear in ClientItemDefinitions comments, and the StoreBundles.json:20848 DescriptionId claim, were not re-verified in this pass. Only the repo note at Blackspore Swamp.md:233 was confirmed: the video shows 'Polished Fateful Necklace' as a wraith/Lukov loot pickup, not a quest reward.", "fix": "Keep the claim only as stated in the pack, or re-check refs:Sanctuary/src/Resources/ClientItemDefinitions.json and StoreBundles.json before relying on them. No change to the answer's conclusion."}]}

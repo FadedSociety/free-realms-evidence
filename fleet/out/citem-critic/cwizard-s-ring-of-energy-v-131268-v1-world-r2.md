@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwizard-s-ring-of-energy-v-131268-v1-world-r2 status=done turns=4 usd=0.0020 tokens(read,write,in,out)=[15290, 7814, 10, 1662] model=claude-haiku-5-5 -->
+# Wizard's Ring of Energy V
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 2152 / 1936 / 215 figures are a reference price from stores.json whose price_provenance is 'reconstructed' from Legacy data. The vendor record says 'reference price, not captured NPC quote'. The answer flags this in open, but the price field itself reads as a plain coin price.", "fix": "Keep the price but label it as a reconstructed reference: purchase 2152 coins (stores.json line 17391, price_provenance reconstructed), member 1936, sell 215. No captured in-game Alusru quote exists in the pack (vendors.json lines 28871-28910, price_basis '(R) reference price')."}]}

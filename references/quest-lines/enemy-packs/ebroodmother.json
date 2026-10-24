@@ -1,0 +1,36 @@
+{
+ "title": "Broodmother",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\misty_mountain.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:103634 [npc_name | - | Broodmother] 'Broodmother'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:103634 [npc_name | - | Broodmother] 'Broodmother'"
+ ],
+ "client_cluster": [
+  "locale:103627 [npc_name | - | Angro's Vanquisher] \"Angro's Vanquisher\"",
+  "locale:103629 [npc_name | - | Icecrusher] 'Icecrusher'",
+  "locale:103631 [npc_name | - | Broodling] 'Broodling'",
+  "locale:103632 [item | - | Sasparilla Jug] 'Sasparilla Jug'",
+  "locale:103633 [quest_dialog | - | Cardie Crew] 'Have you talked to them yet? You can find Posey near the Tournament board, Buzz hangs out up the road to the northwest, Nirvi is usually up by her place up near'",
+  "locale:103634 [npc_name | - | Broodmother] 'Broodmother'",
+  "locale:103636 [npc_name | - | Elemental Guardian] 'Elemental Guardian'",
+  "locale:103637 [npc_name | - | Snowface] 'Snowface'",
+  "locale:103639 [quest_dialog | - | Cardie Crew] 'Back in the day, duelists could only play one deck. Sheldon convinced Ari to play a nature deck, same as Maple Sugarleaf. She wanted to be the best, and lost.<B'",
+  "locale:103641 [quest_title | - | Half a Deck] 'Half a Deck'",
+  "locale:103642 [quest_objective | - | Half a Deck] \"Beat Poe Tatters' Trick Deck to win one of his cards.\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

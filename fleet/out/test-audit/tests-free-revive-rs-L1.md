@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-free-revive-rs-L1 status=done turns=9 usd=0.0124 tokens(read,write,in,out)=[187783, 37841, 20, 11582] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/free_revive.rs lines 1-720 of 720
+
+Window `prototype/osfr-tools/tests/free_revive.rs` 1-720 reviewed against `src/encounter/revive.rs`, `src/gameplay/knockout.rs`, `src/encounter.rs` (`heal_full`, `attack`). Most tests hold up: the expected values are literal packet bytes or the `(R)`/client-fact constants, and the grace, fallback, replay, malformed-resume and lost-instance paths are each checked against real state. The gateway tests use the same `lab/reports/round59...` fixture as the other suites, and `with_private_content` asserts the fixture exists, so they fail rather than skip. Findings:
+
+- **[medium] prototype/osfr-tools/tests/free_revive.rs:404 a_knockout_saved_to_disk_wakes_up_on_reload - the name says the knockout is saved to disk, but the body never writes or reads a file; it passes `e.state().clone()` straight into `EncounterEngine::load`.**
+  - Why it cannot catch a regression: a serde change that drops or skips `player_health` or `active` on serialization (for example a `#[serde(skip)]` or a renamed field) would still pass, because the in-memory clone carries every field. The save path the name promises is not exercised.
+  - Fix: serialize `e.state()` to JSON, write it under `f.0` (for example `save.json`), read it back and deserialize, then call `EncounterEngine::load` with the round-tripped value. Assert `player_health == 1000` and `active.is_none()` on that value. Alternatively, rename the test to say it reloads an in-memory state.
+
+- **[low] prototype/osfr-tools/tests/free_revive.rs:152 world_knockout_is_held_and_offers_the_window_once - `assert_eq!(window().len(), 20)` checks the test's own `window()` helper, which builds 4+8+4+4 bytes by construction, so it can only fail if someone edits the helper, not the game code.**
+  - Why it cannot catch a regression: no code under test is involved. A real change to the 41/125 length in `respawn_window()` (`revive.rs:158`) is not caught here. The real length is only pinned at line 177, in `the_window_carries_the_retail_paid_price`.
+  - Fix: delete line 152, or assert the length of the packet the engine emitted, e.g. `assert_eq!(count(&out, &window()), 1)` plus `out.replies.iter().any(|p| p.starts_with(&[41,0,125,0]) && p.len() == 20)`, with the `20` tied to `respawn_window()` output rather than to the helper.
+
+- **[low] prototype/osfr-tools/tests/free_revive.rs:288 paid_revive_charges_the_price_once_and_revives_in_place - `assert_eq!(out.replies, vec![hp(1000, 1000), hide()])` pins the exact reply list and its order.**
+  - Why it is churn, not a missed bug: the test is about the price charge, grace and in-place revive. An unrelated change, such as also sending the energy packet from `heal_full` (`encounter.rs:1255`) or reordering the hp and hide packets in `revive()` (`revive.rs:148`), would fail it even though the paid revive still works.
+  - Fix: check the relevant packets by membership, as the free-revive test does at lines 222-223: `assert_eq!(count(&out, &hp(1000,1000)), 1)` and `assert_eq!(count(&out, &hide()), 1)`.

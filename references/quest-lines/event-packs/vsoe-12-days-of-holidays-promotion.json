@@ -1,0 +1,29 @@
+{
+ "title": "SOE 12 Days of Holidays promotion",
+ "names_seen": [
+  "SOE 12 Days of Holidays promotion"
+ ],
+ "facts": [
+  {
+   "statement": "On day 8 of the SOE 12 Days of Holidays promotion, Free Realms offered double Station Cash on redemptions made until 21 December at 08:59 CET.",
+   "numbers": {
+    "promotion_day": 8,
+    "bonus_multiplier": 2
+   },
+   "era": "live",
+   "quote": "Heute ist der 8. Tag der \" SOE 12 Days of Holidays\"-Promotion!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2457",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2457",
+   "date": null,
+   "title": "Doppel Station Cash - nur für eine begrenzte Zeit",
+   "summary": "A German-language Free Realms news post announcing a limited-time double Station Cash promotion, run as day 8 of SOE's \"12 Days of Holidays\" promotion. Double Station Cash applied to Station Cash purchased in-game, via a Station account, or by redeeming an SOE Pre-Paid Game Card, until 21 December at 08:59 CET. The post gives no year, so the exact date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,48 @@
+{
+ "title": "General Wugashima",
+ "our_entries": [
+  {
+   "file": "npcs/wugachug.json",
+   "npc_id": 9500000977,
+   "zone": "Wugachug",
+   "enemy_kind": "Wiki: chugawug general of the Flying Pig Dojo Ninjawugs, an enemy under Raven's influence who becomes an ally once the Gloam obelisk falls. Boss of the Ninjawug Outpost battle.",
+   "location_evidence": [
+    "\"a mountaintop located south of Wugachug\" (wiki); client \"the mountains above Wugachug\" (952567617), \"the clearing behind\" Chugzy (2381626551)."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:442916 [npc_name | - | General Wugashima] 'General Wugashima'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:442916 [npc_name | - | General Wugashima] 'General Wugashima'"
+ ],
+ "client_cluster": [
+  "locale:442908 [npc_name | - | Rumple] 'Rumple'",
+  "locale:442909 [npc_name | - | Glugalug] 'Glugalug'",
+  "locale:442910 [npc_name | - | Sunspotter] 'Sunspotter'",
+  "locale:442911 [npc_name | - | Chug Sasparilla] 'Chug Sasparilla'",
+  "locale:442912 [npc_name | - | Queen Raven] 'Queen Raven'",
+  "locale:442913 [npc_name | - | Robgoblin Spectator] 'Robgoblin Spectator'",
+  "locale:442914 [npc_name | - | Thugawug Spectator] 'Thugawug Spectator'",
+  "locale:442915 [npc_name | - | Sandscale Spectator] 'Sandscale Spectator'",
+  "locale:442916 [npc_name | - | General Wugashima] 'General Wugashima'",
+  "locale:442917 [item | - | Archer's Feathered Bow of Ragnarok] \"Archer's Feathered Bow of Ragnarok\"",
+  "locale:442918 [item | - | Brawler's Feathered Hammer of Ragnarok] \"Brawler's Feathered Hammer of Ragnarok\"",
+  "locale:442919 [item | - | Medic's Feathered Bonesaw of Ragnarok] \"Medic's Feathered Bonesaw of Ragnarok\"",
+  "locale:442920 [item | - | Ninja's Feathered Sword of Ragnarok] \"Ninja's Feathered Sword of Ragnarok\"",
+  "locale:442921 [item | - | Warrior's Feathered Axe of Ragnarok] \"Warrior's Feathered Axe of Ragnarok\"",
+  "locale:442922 [item | - | Wizard's Feathered Wand of Ragnarok] \"Wizard's Feathered Wand of Ragnarok\"",
+  "locale:442923 [item | - | Archer's Awakened Bow of Ragnarok] \"Archer's Awakened Bow of Ragnarok\"",
+  "locale:442924 [item | - | Brawler's Awakened Hammer of Ragnarok] \"Brawler's Awakened Hammer of Ragnarok\""
+ ],
+ "wiki": {
+  "title": "General Wugashima",
+  "text": "General Wugashima is a chugawug enemy NPC that appears on a mountaintop located south of Wugachug during the quests Countering the Calvary and Elf Ex Machina. He is the general of the Flying Pig Dogo Ninjawugs, and one of Raven's minions while influenced by the Gloam throughout the Bugawug Queen quest series.\n\nNinjawug Outpost\nNinjawug Outpost is a difficulty 2 battle available during the quest Ex Elf Machina.\n\nthumb|Gloam obilisk\nDuring the quest named Elf Ex Machina, the player is sent to stop General Wugashima who is preparing a ninjawug attack on Wugachug by the order of Bixie Queen, Raven. During the first confrontation with General Wugashima, he claims the player's arrival was expected and begins attacking. Once defeated, he summons Ninjawugs of the Flying Pig Dojo to attack, and continues to respawn the Ninjawugs after defeat until a Gloam obilisk is destroyed by Chugzy.\n\nOnce the Gloam obilisk is destroyed, General Wugashima is no longer under the influence of Queen Raven and becomes an ally.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Chugawug\nCategory:Ninja\nCategory:Ninjawug\nCategory:Wugachug"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

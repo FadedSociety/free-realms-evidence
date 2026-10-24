@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-spectral-ring-86452-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4165, 9634, 6, 1035] model=claude-haiku-5-5 -->
+# Gleaming Spectral Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim and source cite locale:150420, which the automatic id check flags as a placeholder stub ('This is a ... item.'). The answer says the stub is not evidence, but it still lists it as a cited source for the cluster claim. It should not be cited as support.", "fix": "Drop locale:150420 from evidence[1]. Keep only the cluster evidence from locale:86447-86457, which the client text confirms (checked: 86452 'Gleaming Spectral Ring' and its siblings exist). The stub line also appears in the repo's locale dumps (e.g. opening-anvil-placement-v1/locale/en_us_data.dat:45762), which is still only a placeholder string, not a source."}]}

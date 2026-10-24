@@ -1,0 +1,37 @@
+{
+ "title": "One Million Registered Players",
+ "names_seen": [
+  "One Million Registered Players"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms registered more than one million users, reaching the goal in 17 days.",
+   "numbers": {
+    "registered_users": 1000000,
+    "days_to_reach": 17
+   },
+   "era": "live",
+   "quote": "Free Realms has registered more than one million users! It took only 17 days to reach this goal.",
+   "article": "http://www.freerealms.com:80/article/detail.action?cid=1000021,1053612&articleId=90",
+   "date": null
+  },
+  {
+   "statement": "All current Free Realms players were rewarded with a limited-edition in-game T-shirt for their character to wear.",
+   "numbers": {},
+   "era": "live",
+   "quote": "SOE is rewarding all current Free Realms players with limited edition, in-game T-shirt featuring special graphics.",
+   "article": "http://www.freerealms.com:80/article/detail.action?cid=1000021,1053612&articleId=90",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?cid=1000021,1053612&articleId=90",
+   "date": null,
+   "title": "Free Realms - What is New? (One Million Registered Players!)",
+   "summary": "SOE announced that Free Realms passed one million registered users, reaching the goal in 17 days. It describes the celebration rewards: a limited-edition in-game T-shirt for characters, a matching pet T-shirt, and Station Cash, with extra prizes for the one-millionth player. The post is dated only as '1 month, 2 weeks ago' relative to the June 2009 capture, so its exact date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

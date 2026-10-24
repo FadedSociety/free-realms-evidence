@@ -1,0 +1,29 @@
+{
+ "title": "Spring Chicken Pack sale",
+ "names_seen": [
+  "Spring Chicken Pack sale"
+ ],
+ "facts": [
+  {
+   "statement": "The Memorial Day and Spring Chicken pack promotion ran from 7:00 AM PDT Friday May 27 to 11:59 PM PDT Monday May 30, 2011.",
+   "numbers": {
+    "start hour PDT": 7,
+    "end hour PDT": 23
+   },
+   "era": "live",
+   "quote": "The promotion begins at 7:00 AM PDT on Friday, May 27 and ends at 11:59 PM PDT on Monday, May 30.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2146",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2146",
+   "date": null,
+   "title": "Free Realms - Quais são as Novidades? (Memorial Mania May 27th through May 30th)",
+   "summary": "A Free Realms news page (Portuguese site wrapper, English body text) promoting the Memorial Mania event of May 27-30, 2011. It lists two Station Cash item packs with prices and states the Station Cash card bonus and the New Member Bonus Bonanza that was running at the time."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,40 @@
+{
+ "title": "Free Realms TV commercial",
+ "names_seen": [
+  "Free Realms TV commercial"
+ ],
+ "facts": [
+  {
+   "statement": "The new TV commercial shows activities including riding bicycles, creating new houses, showing new outfits, and farming.",
+   "numbers": {},
+   "era": "live",
+   "quote": "andar en bicleta, crear nuevas casas increíbles, mostrar tus nuevos trajes y por supuesto, ¡la agricultura!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2148",
+   "date": null
+  },
+  {
+   "statement": "A new Free Realms TV commercial was released, showing activities such as biking, creating houses, showing new outfits and farming.",
+   "numbers": {},
+   "era": "live",
+   "quote": "andar en bicleta, crear nuevas casas increíbles, mostrar tus nuevos trajes y por supuesto, ¡la agricultura!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2149",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2148",
+   "date": null,
+   "title": "Nuevo comercial de TV de Free Realms (Free Realms - What is New?)",
+   "summary": "A Spanish-language official Free Realms news post, captured June 2011, announcing a new Free Realms TV commercial and pointing readers to the video below the text or to the Free Realms Online YouTube channel. The commercial is described as showing biking, building new houses, showing off new outfits, and farming. The post gives no date beyond a relative timestamp and no game mechanics or numbers."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2149",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language SOE news post announcing a new Free Realms TV commercial. The article says the ad shows players biking, building new houses, displaying new outfits and farming, and that the commercial can be watched on the Free Realms Online YouTube channel. It gives no numbers, dates or mechanics beyond these showcased activities."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

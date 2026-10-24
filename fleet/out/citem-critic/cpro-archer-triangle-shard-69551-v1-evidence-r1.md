@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpro-archer-triangle-shard-69551-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4090, 5862, 6, 972] model=claude-haiku-5-5 -->
+# Pro Archer Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The sibling-cluster claim cites locale:119383 as a supporting source, but that string is FLAGGED placeholder text (the automatic id check flags it). The answer does disclaim it in the same sentence, yet it still sits in the evidence array as a source. Placeholder strings should not be cited at all.", "fix": "Remove locale:119383 from the evidence array and from the sibling claim. Keep only locale:69547-69556 (non-placeholder client item names) as the sibling-cluster reference. The placeholder strings can be mentioned in open[] as excluded, not as evidence."}]}

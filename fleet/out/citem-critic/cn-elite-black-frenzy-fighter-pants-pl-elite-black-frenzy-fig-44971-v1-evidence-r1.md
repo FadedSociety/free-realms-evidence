@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-elite-black-frenzy-fighter-pants-pl-elite-black-frenzy-fig-44971-v1-evidence-r1 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11895, 8674, 8, 1433] model=claude-haiku-5-5 -->
+# {n}Elite Black Frenzy Fighter Pants{pl="Elite Black Frenzy Fighter Pants"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "The answer sets live: \"yes\", but the only source is a Legacy coin-store snapshot. That shows the row existed in the historical data, not that it is live now. The open list admits this, so the top-level flag is stronger than its evidence.", "fix": "Mark live as \"historical\" or \"unknown\", or say explicitly that it is taken from the Legacy CoinStoreItems snapshot (repo stores.json:2818; FreeRealms-Legacy/src/Resources/CoinStoreItems.json:12603, CategoryId 104)."}]}

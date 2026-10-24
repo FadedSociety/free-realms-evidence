@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csuper-nova-429761-v1-world-r2 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[7934, 5219, 8, 1368] model=claude-haiku-5-5 -->
+# Super Nova
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources with live 'unsure' and retired null is consistent with the evidence. My own lookups found no wiki page, store row, vendor stock, or video frame naming bare item 429761 'Super Nova'. The repo hit for 77596 is only archer.json intro_text_string_id, not an item source. Nothing is missing that a world check can name.", "fix": "No change needed. Optional: the Coin Shop frames (video:1xtVveaQ3XI/00112.jpg, /00116.jpg) show Hair Color Cards at 162 coins, including Sun Kissed, but not Super Nova, so the card's price stays unproven as the answer says. The answer's 'hair-tint variant' guess is hedged in its open list and should not be recorded as a source."}]}

@@ -1,0 +1,29 @@
+{
+ "title": "Weekend Price Cut",
+ "names_seen": [
+  "Weekend Price Cut"
+ ],
+ "facts": [
+  {
+   "statement": "The sale ran from 12:01AM PDT on 8/10/2012 to 11:59PM PDT on 8/12/2012.",
+   "numbers": {
+    "start_hour_pdt": 0,
+    "end_hour_pdt": 23
+   },
+   "era": "live",
+   "quote": "Offer is valid from 12:01AM PDT 8/10/2012 to 11:59PM PDT 8/12/2012.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2707",
+   "date": "2012-08-10"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2707",
+   "date": "2012-08-10",
+   "title": "Free Realms - What is New? (Weekend Price Cut!)",
+   "summary": "A short official freerealms.com news post announcing a three-day Station Cash sale: up to 30% off Station Cash items in the Marketplace, with memberships excluded. The page gives the offer window (12:01AM PDT 8/10/2012 to 11:59PM PDT 8/12/2012); the posted date is inferred from the relative '1 week, 3 hours ago' stamp at the 2012-08-17 capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

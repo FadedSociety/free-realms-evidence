@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-81457 status=nothing_found turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 6364, 4, 515] model=claude-haiku-5-5 -->
+# Warhammer's New Producer Talks About Future Updates | Ten Ton Hammer
+
+{"article": {"title": "Warhammer's New Producer Talks About Future Updates", "date": "2010-02-25", "author": "Martuk", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer news post is about Warhammer Online: Age of Reckoning. It reports that a new Franchise Producer, Carrie Gouskos, wrote a Producer's Letter describing the 1.3.5 update, which shifts city content from PvE to RvR. The article contains no Free Realms content; the only Free Realms mentions are in site navigation lists (Most Popular and the MMO index), which were ignored.", "facts": [], "quests": [], "uncertain": ["Free Realms appears only in site navigation boilerplate (popularity ranking and MMO list), not in the article body."]}

@@ -1,0 +1,47 @@
+{
+ "title": "Cray Royal Servant",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\prince_of_low_tide.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:116198 [npc_name | - | Cray Royal Servant] 'Cray Royal Servant'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:116198 [npc_name | - | Cray Royal Servant] 'Cray Royal Servant'"
+ ],
+ "client_cluster": [
+  "locale:116190 [quest_objective | - | - | FLAG fragment: objective label with no text] 'Primary:'",
+  "locale:116191 [quest_objective | - | - | FLAG fragment: objective label with no text] 'Secondary: '",
+  "locale:116192 [quest_objective | - | - | FLAG fragment: objective label with no text] 'Bonus: '",
+  "locale:116193 [quest_objective | - | - | FLAG fragment: objective label with no text] 'Elite: '",
+  "locale:116194 [quest_objective | - | - | FLAG fragment: objective label with no text] 'Job: '",
+  "locale:116195 [quest_title | - | Prince of Low Tide] 'Prince of Low Tide'",
+  "locale:116196 [ui | - | Prince of Low Tide | FLAG placeholder: format string \"%s %s\"] '%s %s'",
+  "locale:116198 [npc_name | - | Cray Royal Servant] 'Cray Royal Servant'",
+  "locale:116199 [quest_objective | - | Prince of Low Tide] 'Stolen stuff'",
+  "locale:116200 [npc_dialog | - | Prince of Low Tide] 'They found us!'",
+  "locale:116201 [npc_dialog | - | Prince of Low Tide] 'Which of you was followed? Idiots!'",
+  "locale:116202 [npc_dialog | - | Prince of Low Tide] 'Get them!'",
+  "locale:116203 [ui | - | Prince of Low Tide | FLAG fragment: menu option] 'Give Orders'",
+  "locale:116204 [other | - | Prince of Low Tide | FLAG dev_note: internal ability description] 'prince_of_low_tide 186: changes nearby servants to opponent disposition'",
+  "locale:116205 [npc_dialog | - | Prince of Low Tide] 'I am the prince! I said get them!'",
+  "locale:116206 [quest_reward | - | Talespinner Yvelle] '[*player*] has found Talespinner Yvelle, the famous storyteller.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:506rO_mhaSs/00076.jpg (-): npcs: Cray Royal Servant nameplate  | dialog: Prince of Low Tide: I am the prince! I said get them! [Prince of Low Tide]: Get them! [Prince of Low Tide]: Which of you was followed! Idiots! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide! Knock out some Cray Royal ",
+  "video:506rO_mhaSs/00126.jpg (-): npcs: Cray Royal Servant nameplate  | dialog: Prince of Low Tide: Get them, or I'll make chowder out of you! [Prince of Low Tide]: Get them, or I'll make chowder out of you! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide! Knock out some Cray Royal Servants! - 6/8",
+  "video:506rO_mhaSs/00132.jpg (-): npcs: Cray Royal Servant nameplate  | dialog: [Prince of Low Tide]: Get them, or I'll make chowder out of you! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide!  | landmarks: Green misty grove | job_level: Medic  | other_text: Goals (1)",
+  "video:506rO_mhaSs/00134.jpg (-): npcs: Cray Royal Servant nameplate  | dialog: [Prince of Low Tide]: Get them, or I'll make chowder out of you! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide! Knock out some Cray Royal Servants! - 6/8  | landmarks: Green misty grove | job_level: Medic  | other_te",
+  "video:506rO_mhaSs/00128.jpg (-): npcs: Cray Royal Servant nameplate  | dialog: Prince of Low Tide: Get them, or I'll make chowder out of you! [Prince of Low Tide]: Get them, or I'll make chowder out of you! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide!  | landmarks: Green misty grove | job_lev"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

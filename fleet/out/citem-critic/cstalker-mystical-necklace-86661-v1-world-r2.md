@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstalker-mystical-necklace-86661-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3883, 8756, 6, 1207] model=claude-haiku-5-5 -->
+# Stalker Mystical Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "The family count is wrong. The answer says the 'Stalker' family has 11 items and then lists nine Stalker names. The client cluster (locale:86656-86666) has nine Stalker necklaces (Dreadful, Fateful, Infernal, Spectral, Mystical, Phantasmal, Eternal, Celestial, Ethereal) plus Hero Dreadful and Surgeon Ethereal, which are not Stalker items.", "fix": "Say the Stalker family is 9 items (locale:86657-86665, 86661 is Mystical), with Hero Dreadful (86666) and Surgeon Ethereal (86656) as two non-Stalker neighbours in the same locale block."}]}

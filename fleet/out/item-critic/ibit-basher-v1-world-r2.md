@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibit-basher-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3844, 8612, 6, 1083] model=claude-haiku-5-5 -->
+# Bit Basher
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "retired", "issue": "Left null. The sources do not state retirement, but the wiki's Monthly Member Pack Items page is an archive of past months (Sept 2013 is well before the Feb 2014 end of the list), and the item is 'cannot sell or trade' with Membership required. The retired field should not stay silently null.", "fix": "Set retired to 'unknown, pack-only' or 'likely retired: September 2013 monthly pack item, per Monthly Member Pack Items (archive) and 8-Bit Month page'; keep live as unsure. No source states it is currently unobtainable."}]}

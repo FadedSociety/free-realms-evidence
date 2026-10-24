@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-18163 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2900, 4, 397] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin forum shell for freerealmsforums.com showing a 'maximum number of posts you can view' registration wall, a forum index and site navigation. It contains no thread text, guide, or game content about Free Realms, so it yields no usable facts for the rebuild.", "facts": [], "quests": [], "uncertain": ["The captured page has no thread body; the forum index lists sections (e.g., Combat In Free Realms, Items, Jobs/Classes, In-Game Mini Games, Membership / Stationcash, Pets) but no content from them, so nothing was extracted from those headings."]}

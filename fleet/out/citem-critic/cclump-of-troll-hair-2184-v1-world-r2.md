@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cclump-of-troll-hair-2184-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3635, 9727, 6, 846] model=claude-haiku-5-5 -->
+# Clump of troll hair
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer gives no acquisition source, and that is honest. My own lookups (client text, wiki, video, repo search for 'troll hair' and definition 894) also find no quest reward, enemy drop, vendor stock row or coin-store entry for this item. The description ('Some hair from a troll that vendors will buy', locale:2185) supports only a sell-to-vendor junk role, which the answer already states as unknown-price.", "fix": "No change required. Keep sources empty, retired null and live unknown. Drop-from-troll remains an unevidenced hypothesis, correctly not listed as a source."}]}

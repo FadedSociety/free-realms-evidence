@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cindustrial-gramophone-147799-v1-evidence-r1 status=no_submit turns=3 usd=0.0021 tokens(read,write,in,out)=[13975, 10785, 8, 1149] model=claude-haiku-5-5 -->
+# Industrial Gramophone
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].source", "issue": "The coin-store listing is cited only to the repo's stores.json. The Legacy reference copy independently lists item 36600 in CoinStoreItems.json (CategoryId 53, TintGroupId 1), which corroborates the Coin Shop placement and category.", "fix": "Add refs FreeRealms-Legacy/src/Resources/CoinStoreItems.json:54198 as a second source for the Coin Shop listing (category 53). The 250-coin price is already matched by the client's coin_store_prices [250] and stores.json:12070."}]}

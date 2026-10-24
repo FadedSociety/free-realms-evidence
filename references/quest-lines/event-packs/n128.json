@@ -1,0 +1,41 @@
+{
+ "title": "Batalla Pirata (Pirate Battle community event)",
+ "names_seen": [
+  "Batalla Pirata (Pirate Battle community event)",
+  "Batalla Pirata (Pirate Battle)"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called Batalla Pirata was held at the Seaside (Playazul) coast and docks, with a Pirate Battle minigame where members could try their luck to win gold and a prize.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Los que son miembros pueden probar suerte en el mini juego de Batalla Pirata.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2022",
+   "date": null
+  },
+  {
+   "statement": "A community event called Pirate Battle was held on the coasts of Playazul, with a party at the pier, and included a Pirate Battle minigame.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Reúne la tripulación en las costas de Playazul y únete a la fiesta en el muelle.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2023",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2022",
+   "date": null,
+   "title": "Evento Comunitario: ¡Batalla Pirata!",
+   "summary": "A Spanish-language community event announcement for a Pirate Battle event at the Seaside (Playazul) docks, where members could play the Pirate Battle minigame for gold and prizes. The event ran on Server 1 on January 3, 2011 (US and Latin America, 15:00 Pacific) and January 4, 2011 (UK and Europe, 09:00 Pacific / 16:00 European). The page gives only a relative post date ('4 months, 1 day ago'), so the exact posting date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2023",
+   "date": null,
+   "title": "Evento Comunitario: ¡Batalla Pirata! (Free Realms - What is New?)",
+   "summary": "A Spanish-language community event announcement for a Pirate Battle (\"Batalla Pirata\") minigame event held on the Playazul coast, with the pier party open to players and the minigame open to members. It gives the event schedule by region and server (Servidor 1) for early January 2011. The client text table has no matching string for the event name or for Playazul, so those names are recorded as written."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

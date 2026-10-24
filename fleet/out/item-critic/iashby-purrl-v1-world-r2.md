@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iashby-purrl-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3243, 4743, 6, 885] model=claude-haiku-5-5 -->
+# Ashby Purrl
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that 'Ashby Purrl' is an NPC name (locale:45577, npc_name), with no coin, Station Cash or IGD source on the wiki page. The Beach Ball quest strings (locale:101731, 101714, 101733, 101732) only ask the player to bring accessories and do not name an item after her. Nothing in the pack or my lookups shows a sellable item called Ashby Purrl, so retired null and no sources are consistent with the world.", "fix": "No change needed to the answer's claims. If a follow-up is run, the candidate item is the Beach Ball necklace or shoes, which need their own quest reward or vendor check; none is evidenced here."}]}

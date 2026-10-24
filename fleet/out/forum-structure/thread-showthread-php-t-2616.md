@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2616 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2948, 4, 563] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin error page, not a thread. It says the visitor has exceeded the maximum number of posts they can view and asks them to register. The only Free Realms content is forum navigation labels (for example 'Items', 'Pets', 'Membership / Stationcash', 'Developer Q&A's'), with no game facts, so there is nothing a rebuilder can use.", "facts": [], "quests": [], "uncertain": ["The thread title, author, date and body text are not present in the capture; the requested thread (t=2616) could not be read.", "Forum category names alone do not establish any game mechanic, item, price or event."]}

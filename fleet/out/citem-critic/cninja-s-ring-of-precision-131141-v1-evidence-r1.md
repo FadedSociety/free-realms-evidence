@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cninja-s-ring-of-precision-131141-v1-evidence-r1 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[11519, 7980, 8, 1319] model=claude-haiku-5-5 -->
+# Ninja's Ring of Precision
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The entry point (barrier/gate in Snowhill) and the 'difficulty-5' label are not shown in the evidence pack; the wiki Snowy Canyon page I checked lists only the Ninja prize wheel contents and does not show this entry detail in the excerpt.", "fix": "Keep the wheel source, but mark the Snowhill entry route as unverified or cite the notes line that states it. The wheel listing itself is confirmed: wiki page 'Snowy Canyon' lists Ninja's Ring of Precision in the Ninja prize wheel, and locale 131141 matches the name."}]}

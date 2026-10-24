@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=article-526 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 1917, 4, 552] model=claude-haiku-5-5 -->
+# Free Realms - What is New?
+
+{"article": {"title": "Free Realms - What is New?", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This capture of the official freerealms.com 'What is New?' page contains no article body. The only text is the page title, a one-line teaser, and the message 'No article found.' It gives a rebuilder no game facts (no quests, items, prices, events, or mechanics).", "facts": [], "quests": [], "uncertain": ["The page reads 'No article found.' and has no news content, so the capture may be empty or the article may have been removed before archiving.", "The capture date is 2009-10-31, but no article date appears on the page.", "A plugin-install notice appears in place of content; it is site boilerplate, not game information."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccooker-air-ring-96484-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3728, 10001, 6, 883] model=claude-haiku-5-5 -->
+# Cooker Air Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer leaves live as 'unsure' and retired as null. My checks found no source for the Cooker ring set in the client text, wiki, articles, video frames or repo notes. The only 'Quick Cookers' line (2145785937, Plexi in Merry Vale) is a cooking pan, not a ring. The honest status is unknown, so this is not a failure.", "fix": "No change required. Keep live 'unsure' and retired null until a wiki, forum or client source names a vendor, quest, drop or event for the Cooker rings. Optionally note that flags.tsv:8353-8355 was not re-checked in this pass."}]}

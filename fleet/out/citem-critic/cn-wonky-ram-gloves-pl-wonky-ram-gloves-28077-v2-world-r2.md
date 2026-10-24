@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-wonky-ram-gloves-pl-wonky-ram-gloves-28077-v2-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3687, 7690, 6, 906] model=claude-haiku-5-5 -->
+# {n}Wonky Ram Gloves{pl="Wonky Ram Gloves"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].claim", "issue": "Says Elite Pink/Black variants exist as client text for the Wonky Ram set. My lookup found Elite Pink/Black rows only for Boots (69402, 69403), Pants (69426, 69427) and Shirt (69394). No Elite Gloves row turned up, so the claim is overstated for the gloves.", "fix": "Say the Elite Pink/Black variants exist for Boots, Pants and Shirt (locale 69402-69403, 69426-69427, 69394). Do not imply an Elite Gloves variant exists unless a locale row is found."}]}

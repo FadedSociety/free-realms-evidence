@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-item-categories-rs-L1 status=done turns=3 usd=0.0030 tokens(read,write,in,out)=[6998, 7219, 8, 4106] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/item_categories.rs lines 1-131 of 131
+
+Window: `prototype/osfr-tools/tests/item_categories.rs` lines 1-131. I checked the hand-built `expected` layout in `Fixture::new` (lines 30-48) against `ItemCategories::load` (`src/item_categories.rs:73-124`). The layout matches and the 98-byte length is correct, so test 1 is fine. The findings are below.
+
+- **[high] tests/item_categories.rs:87 conflicting_duplicate_or_invalid_rows_and_changed_proof_reject - mutations 0-3 and 6 are rejected only by the stale `packet_sha256`, so the row-validation checks are never exercised.**
+  - Why it cannot catch a regression: the fixture's proof is computed once over the original packet (line 53) and never recomputed after a mutation. Each of mutations 0 (duplicate category id), 1 (duplicate group pair), 2 (negative display), 3 (group id 0) and 6 (empty categories) changes the rows but keeps the old hash. Deleting the `!ids.insert(...)`, `!pairs.insert(...)`, `display < 0`, `id <= 0` or `categories.is_empty()` checks (`src/item_categories.rs:66-111`) would still make `load` return `Err` via "item category packet differs from prepared proof" at line 125. The test would still pass.
+  - Fix: assert on the error text, e.g. `assert!(err.to_string().contains("invalid or duplicate item category"))` for mutations 0-3, and the "unsupported item category content" text for 5-6. Alternatively, recompute `packet_sha256` for each mutated content so that only the validation step can reject it. Keep the proof-only case (4) asserting the "differs from prepared proof" message.
+
+- **[medium] tests/item_categories.rs:105 oversized_and_malformed_private_content_reject - the oversized input is whitespace-only, so it fails as malformed JSON and the 256 KiB limit is never tested.**
+  - Why it cannot catch a regression: `vec![b' '; 256*1024+1]` is not valid JSON, so `serde_json::from_slice` fails with EOF. Removing the `bytes.len() > MAX_CONTENT` check (`src/item_categories.rs:62-64`) or changing `MAX_CONTENT` would leave the test passing, because the error comes from the parser.
+  - Fix: write a valid fixture document padded past the limit (for example, trailing spaces after the valid JSON so the total is `256*1024+1` bytes), and assert the error message contains "exceeds 256 KiB". Keep a second assertion at exactly `256*1024` bytes of valid JSON that must not hit the size error.
+
+- **[low] tests/item_categories.rs:128-129 private_community_serializer_packet_matches_exactly - the header and length pins (`71` categories, `2675` bytes) duplicate the oracle comparison and will churn when private content changes.**
+  - Why it matters: `assert_eq!(packet, oracle)` on line 127 already covers the count and length. The hardcoded 71 and 2675 break whenever the prepared table is legitimately updated, even though the test is about byte-for-byte serializer parity. The println on line 130 also reports a "74 group associations" figure that is never asserted.
+  - Fix: drop the hardcoded length and category count, or derive them from the oracle file (`oracle.len()`, and the header count read from the oracle), and remove the unasserted println count.

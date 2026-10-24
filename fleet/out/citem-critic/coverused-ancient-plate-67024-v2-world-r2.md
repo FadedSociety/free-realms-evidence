@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=coverused-ancient-plate-67024-v2-world-r2 status=no_submit turns=2 usd=0.0012 tokens(read,write,in,out)=[3941, 6144, 6, 825] model=claude-haiku-5-5 -->
+# Overused Ancient Plate
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Sanctuary item_link on the collection entry is flagged but not checked. A Sanctuary-side source could exist, so this stays an open lead rather than a missing source.", "fix": "Check the item_link 'sanctuary' value in collection_catalogue.json and the Sanctuary refs for any plate acquisition before marking the item final."}, {"field": "evidence[3]", "issue": "The video citation shows the Ancient Artifact Plates collection at (3/8) in the My Collections list. That is consistent with the claim, so it holds. The wiki lookup also confirms the 8-plate listing, including Overused Ancient Plate.", "fix": "No change needed."}]}

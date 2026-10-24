@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=igilbert-v2-evidence-r3 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3835, 8649, 6, 1532] model=claude-haiku-5-5 -->
+# Gilbert
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The repo citation names only vendors.json:15858 and greenwood_forest.json:10960. The repo also holds a Gilbert entry in vendors_unresolved.json:3315-3337, which the answer does not mention. That file marks the vendor as unresolved, so the claim that repo vendor data records Gilbert as resolved is slightly overstated.", "fix": "Cite vendors.json:15858 and greenwood_forest.json:10960 for the resolved record, and note that vendors_unresolved.json:3315 also lists Gilbert as unresolved (source: repo search, Gilbert hits)."}]}

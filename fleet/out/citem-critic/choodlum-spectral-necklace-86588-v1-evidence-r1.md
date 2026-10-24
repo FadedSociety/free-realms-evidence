@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=choodlum-spectral-necklace-86588-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3863, 5527, 6, 982] model=claude-haiku-5-5 -->
+# Hoodlum Spectral Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim cites repo:opening-journal-text-v2/locale/en_us_data.dat for ucdt/ugdt Hoodlum necklace lines. A repo search for 'Hoodlum' returned no hits in that file, so I could not verify the citation or the claim that sibling tiers appear there. The claim is unsupported as written. The client lookup independently confirms only locale:86588 for this name.", "fix": "Drop the citation or re-verify it. The only confirmed evidence is locale:86588 (client name, definition 22597, no coin_store_prices, no description) and the 11-name cluster at locale:86583-86593 from the evidence pack. Sources stay empty, which the answer already reflects."}]}

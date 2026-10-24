@@ -1,0 +1,49 @@
+{
+ "title": "Fête des Jours Enneigés (Snowy Days Festival)",
+ "names_seen": [
+  "Fête des Jours Enneigés (Snowy Days Festival)"
+ ],
+ "facts": [
+  {
+   "statement": "The first Snowy Days festival (Fête des Jours Enneigés) was held at the Winter Basin on Friday 10 December 2010 on Server 1.",
+   "numbers": {
+    "start_hour_CET": 18,
+    "start_hour_GMT": 16,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "C'est la première fête de Jours Enneigés!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1962&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "Players were asked to wear their winter outfit and bring their transistors to the festival, and to bring mittens.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Porte ta tenue hivernale et apporte tes transistors.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1962&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The festival was scheduled for 18:00 CET (Paris time) / 4:00pm GMT, aimed at players in the UK and Europe.",
+   "numbers": {
+    "hour_CET": 18,
+    "hour_GMT": 16
+   },
+   "era": "live",
+   "quote": "vendredi 10 décembre 2010 18h CET (Heure de Paris)/ 4:00pm GMT",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1962&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1962&request_locale=en_US",
+   "date": null,
+   "title": "Free Realms - What is New? (Événement: Fête des Jours Enneigés au Bassin Hivernal)",
+   "summary": "A French-language official event notice announcing the first Snowy Days (Jours Enneigés) festival at the Winter Basin (Bassin Hivernal), held Friday 10 December 2010 on Server 1. It describes the festival as a party where players should wear winter outfits and bring transistors, and mentions a fishing spot above Snow Hill as a starting point for the Snowy Days adventure. The page gives no rewards or mechanics beyond that."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

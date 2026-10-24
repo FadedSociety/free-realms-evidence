@@ -1,0 +1,59 @@
+{
+ "title": "President's Day Sale",
+ "names_seen": [
+  "President's Day Sale",
+  "President's Day sale"
+ ],
+ "facts": [
+  {
+   "statement": "For the President's Day long weekend, all housing and land items sold for Station Cash were discounted 50%.",
+   "numbers": {
+    "discount_percent": 50
+   },
+   "era": "live",
+   "quote": "TOUS les articles du logement et des terrains de Station Cash à 50% de réduction",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2043&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The President's Day sale ran from 21:00 CET on 18 February 2011 until 08:59 CET on 22 February 2011.",
+   "numbers": {
+    "start_hour_cet": 21,
+    "end_hour_cet": 8,
+    "start_day": 18,
+    "end_day": 22,
+    "year": 2011
+   },
+   "era": "live",
+   "quote": "commencera à 21h CET (Heure de Paris) le 18 février jusqu’au 8h:59 CET le 22 Février 2011",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2043&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "A weekend-only promotion offered all houses and lots at 50% off on the Marketplace, valid from 12:01am PST 2/17/12 to 11:59pm PST 2/20/12.",
+   "numbers": {
+    "discount_percent": 50
+   },
+   "era": "live",
+   "quote": "This weekend only*, we’re offering all houses and lots for 50% off on the Marketplace!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2528",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2043&request_locale=en_US",
+   "date": null,
+   "title": "Soldes de President's Day! (Free Realms - What is New?)",
+   "summary": "A French-language Free Realms news post announcing a President's Day weekend sale in February 2011: all housing and land items in the Station Cash marketplace were discounted 50%. The sale ran from 21:00 CET on 18 February to 08:59 CET on 22 February 2011. The page's exact post date is not shown; it is dated only by the sale window."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2528",
+   "date": null,
+   "title": "Shop the President's Day Sale – Save Up to 50%!!",
+   "summary": "A President's Day weekend sale (valid 12:01am PST 2/17/12 to 11:59pm PST 2/20/12) offering housing and lots at 50% off on the Marketplace and discounted TCG booster packs and starter decks from Sets 1-3. The post lists the Shard (SC) prices of houses and lots during the sale, which a rebuilder can use as a sale-period price table."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

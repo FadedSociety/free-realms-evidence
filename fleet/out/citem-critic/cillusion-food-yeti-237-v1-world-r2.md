@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cillusion-food-yeti-237-v1-world-r2 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[13407, 9718, 8, 1036] model=claude-haiku-5-5 -->
+# Illusion Food - Yeti
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence[3].source", "issue": "Cites locale:134992, which the automatic id check flags as a duplicate near-repeat of the end of 134991, so it is not live evidence. The robgoblin line is also a quest dialog that does not name the Yeti form, so it cannot tie any source to this item.", "fix": "Drop evidence[3] or mark it as non-live. Nothing in the pack supports a quest, vendor, drop or event source. My own checks agree: lookup finds only locale:237 (no wiki or article hits), and no stores.json row exists with item_id 2942."}]}

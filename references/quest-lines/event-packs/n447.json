@@ -1,0 +1,29 @@
+{
+ "title": "One million registered users milestone",
+ "names_seen": [
+  "One million registered users milestone"
+ ],
+ "facts": [
+  {
+   "statement": "By May 2009 more than one million unique users had registered for Free Realms, about 17 days after launch.",
+   "numbers": {
+    "registered_users": 1000000,
+    "days_after_launch": 17
+   },
+   "era": "live",
+   "quote": "more than one million unique users have registered for Free Realms",
+   "article": "http://www.tentonhammer.com:80/node/68118",
+   "date": "2009-05-18"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/68118",
+   "date": "2009-05-18",
+   "title": "Free Realms Surpasses 1 Million Registered Users",
+   "summary": "A Ten Ton Hammer repost of an SOE press release announcing that Free Realms passed one million unique registered users 17 days after its April 28, 2009 launch. It lists the milestone celebration rewards (in-game T-shirts, a lifetime membership and astronaut suit for the one-millionth player, and Station Cash) and the retail channels for starter and Station Cash cards."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

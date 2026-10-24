@@ -1,0 +1,36 @@
+{
+ "title": "Ice Trolls",
+ "our_entries": [
+  {
+   "file": "dungeons\\howling_hills.json",
+   "definition_id": 930061
+  },
+  {
+   "file": "dungeons\\snowy_canyon.json",
+   "definition_id": 930061
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:19651 [quest_objective | - | Ice Trolls] \"Ice Trolls have taken over this small snowy village.  Teach them not to take what isn't theirs!\"",
+  "locale:93973 [quest_dialog | - | ice trolls] '#Cap([*player*]) showed the ice trolls what happens when you pick on the elderly. I wonder what their problem was, anyway?'",
+  "locale:141101 [quest_objective | - | Ice Trolls] 'Go pummel some Ice Trolls in the Howling Hills and then return to me.'",
+  "locale:141129 [quest_objective | - | Ice Trolls] 'Pummel some Ice Trolls in the Howling Hills and then return to me.'",
+  "locale:388604 [quest_dialog | Snowhill | Ice Trolls] 'As a warrior, head to the frosty north and remove some of the chillier threats to Snowhill.'",
+  "locale:388605 [quest_objective | Snowhill | Ice Trolls] 'Defeat Ice Trolls'",
+  "locale:388606 [quest_objective | Snowhill | Ice Trolls] 'Find and knock out Ice Trolls at Snowy Canyon.'"
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Ice Troll",
+  "text": "Ice Trolls are enemy NPCs that can be found in Snowhill. They are similar to regular trolls, only they are accustomed to cold weather. Due to this fact, they only live on terror mountain. Ice trolls are often the masters of frostfang snarlers and have been known to battle yetis. Currently, they are only found in battles with the exception of one named Gertrude who can be found south east of the Forest Troll Fort for unknown reasons.\n\nAppearances\nIce Troll Scout!\nHowling Hills\nSnowy Canyon\nTrading Card Game Series 1\n\nGallery\n\nTrivia\nPart of the Totem Polls from the Greenwood Forest is an ice troll head.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Troll\nCategory:Snowhill\nCategory:Trading Card Game"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Contract: Colder Weather' (final): As a brawler, defeat Frosty Yetis, and Ice Trolls that wander the icy slopes Snowhill.",
+  "other target in 'Contract: Defending Snowhill' (final): Caleb needs all able-bodied warriors to help defend the recruit camp in Snowhill from ice trolls, yetis, and snowmen."
+ ]
+}

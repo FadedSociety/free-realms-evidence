@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=croast-rabbit-ribs-116334-v2-evidence-r3 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4017, 9703, 6, 1238] model=claude-haiku-5-5 -->
+# Roast Rabbit Ribs
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / refs citation", "issue": "The legacy-definition claim cites refs:FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:831512-831513. I confirmed the 'Roast Rabbit Ribs' comment at line 831512 in the Sanctuary and Lxzxrus-Free-Realms-Server copies of that file, but did not open the FreeRealms-Legacy path itself. The claim is likely right; the citation is unverified for that exact path.", "fix": "Cite the confirmed copy (Sanctuary/src/Resources/ClientItemDefinitions.json:831512, Comment 'Roast Rabbit Ribs') or re-verify the FreeRealms-Legacy path before relying on it."}]}

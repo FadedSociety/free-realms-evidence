@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cintern-spectral-ring-86308-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3888, 8655, 6, 1102] model=claude-haiku-5-5 -->
+# Intern Spectral Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Minor omission: the Comment corroboration also exists in Sanctuary-PC2009-20261009/src/Resources/ClientItemDefinitions.json:460519 and Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json:462568, not only FreeRealms-Legacy. This strengthens the client-existence claim but does not change the answer.", "fix": "Cite all three ClientItemDefinitions.json Comment entries (Legacy:462568, Lxzxrus:462568, Sanctuary:460519) for the 'Comment: Intern Spectral Ring' claim. Source text confirmed by search."}]}

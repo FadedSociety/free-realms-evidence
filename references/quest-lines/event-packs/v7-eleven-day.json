@@ -1,0 +1,29 @@
+{
+ "title": "7-Eleven Day",
+ "names_seen": [
+  "7-Eleven Day"
+ ],
+ "facts": [
+  {
+   "statement": "On 7-Eleven Day, July 11, 2013, guests visiting any participating US 7-Eleven store between 11AM and 7PM received a free small Slurpee drink.",
+   "numbers": {
+    "start_hour": 11,
+    "end_hour": 19
+   },
+   "era": "live",
+   "quote": "All guests visiting any 7-Eleven on July 11th, 2013, between 11AM and 7PM, will get a FREE small Slurpee drink",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2945",
+   "date": "2013-07-04"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2945",
+   "date": "2013-07-04",
+   "title": "Bonus Station Cash and Free Slurpees at 7-Eleven Stores!",
+   "summary": "A SOE news post promoting a 7-Eleven Day event on July 11, 2013, offering a free small Slurpee at US 7-Eleven stores and a bonus of 500 Station Cash (SC500) for redeeming an SOE Game Card in store on that day. The post gives the redemption window in PDT and notes that the card can be bought before the offer ends. The post is dated relative to the capture (posted 1 week, 17 hours before the 2013-07-18 capture), so the exact posting date is inferred."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

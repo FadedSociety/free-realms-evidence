@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=canata-s-grape-ring-96138-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3827, 7792, 6, 1096] model=claude-haiku-5-5 -->
+# Anata's Grape Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "The answer says the Anata's ring set has no client description and no source. I confirmed the six names at locale 96136-96141 (Blue, Green, Grape, Yellow, Mustard, Orange). The lookup for 'Anata ring' returned only those six client lines, with no wiki, article or video hits. Nothing in the pack names a vendor, quest, drop or event for any of them.", "fix": "No change needed. The answer correctly leaves sources empty and marks the item unsourced. The 'vendor' and 'live: yes' values are first-pass hints only and should stay out of the acquisition record."}]}

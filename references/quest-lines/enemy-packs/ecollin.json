@@ -1,0 +1,46 @@
+{
+ "title": "Collin",
+ "our_entries": [
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000889,
+   "zone": "Wilds",
+   "enemy_kind": "Enemy hooligan in Highroad Hijinx (wiki). The client holds a \"NewbieZone Collin\" flag grant (279606014) and the speech \"Oy! What did you chumps do to Collin?\" (3590798864).",
+   "location_evidence": [
+    "Highroad Hijinx."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:38372 [npc_name | Lakeshore | Collin] 'Collin'",
+  "locale:5100267 [npc_name | Shady Shores | Collin] 'Collin'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:38372 [npc_name | Lakeshore | Collin] 'Collin'",
+  "locale:5100267 [npc_name | Shady Shores | Collin] 'Collin'"
+ ],
+ "client_cluster": [
+  "locale:38364 [quest_title | Sacred Grove | A Pinch of Choy] 'A Pinch of Choy'",
+  "locale:38365 [quest_dialog | Sacred Grove | A Pinch of Choy] \"There's still something missing from my recipe. <BR><BR>Hmm... I got it! Choychoy! You want to help me make history? <BR><BR><font color='#D9781A'>Bring me four\"",
+  "locale:38366 [quest_dialog | Sacred Grove | A Pinch of Choy] 'Funnel needs four choychoy to finish off his drink and you are the lucky harvester he has chosen to obtain it for him!'",
+  "locale:38367 [quest_objective | Sacred Grove | A Pinch of Choy] 'Harvest choychoy'",
+  "locale:38370 [quest_dialog | Sacred Grove | A Pinch of Choy] 'I really need those four choychoy when you have time. I want my creation to be just perfect!'",
+  "locale:38372 [npc_name | Lakeshore | Collin] 'Collin'",
+  "locale:38374 [quest_dialog | Lakeshore | Taste Test] \"I made some relished choychoy for my friend, <font color='#d9781a'>Merri De'Flor</font> in <font color='#d9781a'>Lakeshore</font>, but I really don't have time \"",
+  "locale:38375 [quest_title | Lakeshore | Taste Test] 'Taste Test'",
+  "locale:38376 [quest_dialog | Lakeshore | Taste Test] \"Dahlia made some relished choychoy for her friend, Merri De'Flor in Lakeshore and has asked you to deliver it to her.\"",
+  "locale:38377 [quest_objective | Lakeshore | Taste Test] \"Deliver the relished choychoy to Merri De'Flor\"",
+  "locale:38378 [quest_objective | Lakeshore | Taste Test] \" Deliver the relished choychoy to Merri De'Flor in Lakeshore.\"",
+  "locale:38379 [quest_dialog | Lakeshore | Taste Test] \"Please hurry and deliver that relished choychoy to Merri De'Flor in Lakeshore. I don't want it to get cold. Thanks!\"",
+  "locale:38380 [quest_dialog | Lakeshore | Taste Test] \"Relished choychoy? Sounds weird, but here goes! Munch! Mmm... it's sweet... and tangy... and delicious! If you see her again, tell her I want the recipe!\""
+ ],
+ "wiki": {
+  "title": "Collin",
+  "text": "Collin is an enemy human NPC that can be found in Highroad Hijinx.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Human\nCategory:Wilds"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

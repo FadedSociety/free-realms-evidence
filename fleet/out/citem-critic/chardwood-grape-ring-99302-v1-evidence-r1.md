@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chardwood-grape-ring-99302-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3796, 5536, 6, 1075] model=claude-haiku-5-5 -->
+# Hardwood Grape Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "Calls the Hardwood Celestial Necklace a 'drop' seen in a fight video. The repo note (Prince of Low Tide.md:57) and the dungeon JSON describe it as a 'You receive 1 Hardwood Celestial Necklace' reward line during the fight, with its source unknown. 'Drop' is an overstatement, though the answer correctly says it is a different item.", "fix": "Reword to: a quest-run fight reward line ('You receive 1 Hardwood Celestial Necklace') in the Prince of Low Tide video [506rO_mhaSs/00152, 00102], source unknown; a different item that does not name the grape ring (repo: notes/Build Guides/Content/Dungeons/Prince of Low Tide.md:57)."}]}

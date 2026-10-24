@@ -1,0 +1,31 @@
+{
+ "title": "Gift Tree",
+ "names_seen": [
+  "Gift Tree"
+ ],
+ "facts": [
+  {
+   "statement": "The Gift Tree blooms on the coldest day of winter and keeps dropping gifts until all of them have fallen from its branches.",
+   "numbers": {},
+   "era": "live",
+   "quote": "El Árbol encantado comienza a florear en el día mas frío del invierno, y continúa floreando hasta que todos los regalos hayan caído de sus ramas.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1957",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1957",
+   "date": null,
+   "title": "Días de Nieve ah Regresado (Free Realms - What is New?)",
+   "summary": "A Spanish-language official news post announcing the return of the Snow Days seasonal event in Snowhill (called Colina Nevada in Spanish). It covers the Gift Tree and its daily gifts, the Abominable Snowman attacks that players defend against with snow piles, snowball battles, Robgoblin fights for event clothing, and Snow Days outfits. The post is undated; it says it was posted 5 months, 3 weeks before the 2011-06-04 capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "An Unexpected Gift (final, live yes)",
+  "Guarding the Gifting Tree (final, live yes)",
+  "Holiday Cheer (final, live yes)",
+  "The Gifting Tree (final, live unsure)"
+ ]
+}

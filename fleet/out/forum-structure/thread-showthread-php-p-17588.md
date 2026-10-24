@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-17588 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2849, 4, 572] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture contains no thread content. It is a vBulletin error page ('Free Realms Forums Error', asking the visitor to register after exceeding the post-view limit) plus the forum index and navigation. No Free Realms facts can be drawn from it.", "facts": [], "quests": [], "uncertain": ["The requested thread (p=17588) did not appear in the capture; only the forum-limit error page and forum index were preserved.", "The page's forum index lists sections such as 'Combat In Free Realms', 'Items', 'Jobs/Classes', 'In-Game Mini Games', 'Pets' and 'Membership / Stationcash', but these are navigation labels only, not statements of game fact."]}

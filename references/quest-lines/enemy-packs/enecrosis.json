@@ -1,0 +1,55 @@
+{
+ "title": "Necrosis",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\haunted_mines.json"
+  },
+  {
+   "file": "dungeons\\haunted_mines.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:70627 [quest_title | - | Necrosis] 'Necrosis'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:70625 [quest_objective | - | Necrosis] 'Talk to Wuga in the smithing camp and see if he knows what happened to Tooga.'",
+  "locale:70627 [quest_title | - | Necrosis] 'Necrosis'",
+  "locale:70628 [quest_objective | - | Necrosis] 'Collect barrel of water'",
+  "locale:70629 [quest_objective | - | Necrosis] \"Take the barrel of water from the smithing camp for Burgl's miners.\"",
+  "locale:70630 [quest_objective | - | Necrosis] 'Speak to Nog'",
+  "locale:70631 [quest_dialog | - | Necrosis] 'Nog fixed up a special batch of his stew for Burgl and his boys. '",
+  "locale:70792 [npc_dialog | - | Necrosis] 'Necrosis senses your presence.'",
+  "locale:70793 [npc_dialog | - | Necrosis] 'Yeah! Hit him again!'",
+  "locale:139997 [quest_objective | - | Necrosis] 'Chase away all the spawns of Necrosis!'"
+ ],
+ "client_cluster": [
+  "locale:70619 [quest_reward | - | Tummy Rumblin'] 'Finally! Me boys were getting might hungry here in da mines. <BR><BR>Here, you take some food too! You look a bit hungry yourself!'",
+  "locale:70620 [ability | - | Eat Flies | FLAG fragment: reads as a UI/ability name, no quest meaning on its own] 'Eat Flies'",
+  "locale:70622 [quest_title | - | Tummy Rumblin | FLAG duplicate: near-identical to 70617 (missing apostrophe)] 'Tummy Rumblin'",
+  "locale:70623 [quest_objective | - | Tummy Rumblin'] \"Get food for Burgl's workers at the Forest Troll village.\"",
+  "locale:70624 [quest_objective | - | Tummy Rumblin'] 'Speak to Wuga'",
+  "locale:70625 [quest_objective | - | Necrosis] 'Talk to Wuga in the smithing camp and see if he knows what happened to Tooga.'",
+  "locale:70627 [quest_title | - | Necrosis] 'Necrosis'",
+  "locale:70628 [quest_objective | - | Necrosis] 'Collect barrel of water'",
+  "locale:70629 [quest_objective | - | Necrosis] \"Take the barrel of water from the smithing camp for Burgl's miners.\"",
+  "locale:70630 [quest_objective | - | Necrosis] 'Speak to Nog'",
+  "locale:70631 [quest_dialog | - | Necrosis] 'Nog fixed up a special batch of his stew for Burgl and his boys. '",
+  "locale:70632 [other | - | Tutorial.CookingTutorial1 | FLAG not_live: disabled client script line] '*DISABLED* Runs Tutorial.CookingTutorial1 client script for Crafting Lesson.'",
+  "locale:70634 [other | - | Tutorial.ClearAllTutorialElements | FLAG dev_note: client script call for camera lesson] 'Runs Tutorial.ClearAllTutorialElements client script for Camera Lesson.'",
+  "locale:70635 [other | - | Tutorial.ClearAllTutorialElements | FLAG dev_note: client script call for minimap lesson] 'Runs Tutorial.ClearAllTutorialElements client script for Minimap Lesson.'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:world_screenshot): FreeRealms v1.828.1710.1143.2817.501554\nMat Stonyspy\n46\n1001\nAgent<The Freewheelers>\nPiñata Pony\nClockwc\nMonkey\nAstro\nRyan Oakenhood\n14m\n20\nAdventurer\nBoom Box Mannequin\n19m\nActive Quest!\nMaple Sugarleaf\n818m\nDennis Jaguar\nSâmm\nReferee Amethyst\nSuperstar Toxic essThunder\n<Free Realms Support>\n<Darke"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

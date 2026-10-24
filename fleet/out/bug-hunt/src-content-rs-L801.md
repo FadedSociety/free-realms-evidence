@@ -1,0 +1,11 @@
+<!-- fleet job=bug-hunt id=src-content-rs-L801 status=done turns=7 usd=0.0067 tokens(read,write,in,out)=[67572, 21996, 16, 6489] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/content.rs lines 801-1037 of 1037
+
+Window `content.rs:801-1037` read in full. Almost everything in it is a sound lookup-and-error check. Nothing here is reachable from a client packet: `ContentDb` is loaded from authored JSON at startup, so the findings below are content-authoring defects, not remote ones. I found one latent logic error.
+
+- **[low] prototype/osfr-tools/src/content.rs:1003-1011 - `validate_reward` lets a non-positive job profile id through when `jobs.json` declares that id, contradicting the `(R)` doc comment at 976-978 and the quest-engine path.**
+  - Failure scenario: a `jobs.json` row has `profile_id: 0`. `ContentDb::validate` (the jobs loop at content.rs:654-663) never checks `profile_id > 0`, so `"0"` enters `job_profiles` via `unique_ids` at 698-703. A dungeon, minigame or encounter reward with `job_xp: {0: N}` then gets `job_xp_profile_unknown` → `Some(0)` (the `*profile <= 0` arm at 986). The follow-up `reference(..., job_profiles.contains("0"))` at 1006-1011 is true, so the reward validates with a non-positive profile. The quest path (`quest_engine.rs:2393-2401`) rejects the same data, so the two content paths disagree.
+  - Reach: `ContentDb::load` → `validate` → `validate_reward` (content.rs:823-828, 827-829, 841-843). Only authored data can trigger it; no shipped `jobs.json` has a 0 or negative profile id (checked: profile ids in `data/content/jobs.json` are all positive).
+  - Fix: in `validate_reward`, reject non-positive keys before the lookup, e.g. `if let Some(p) = reward.job_xp.keys().find(|p| **p <= 0) { return Err(...) }`, or add `profile_id > 0` to the jobs loop in `validate` (content.rs:654).
+
+No other defects found in the window. The three `check_*_sources` helpers (849-891) are called from `validate` (lines 648-688) and are correct. The `JobLevel` goal check (928-944) guards `profile_id > 0` and `level` in 1..=20. The `CompleteDungeon` and `InteractActor` positivity checks (957-962) are correct. The `validate_requirement` lookups (1016-1037) are correct.

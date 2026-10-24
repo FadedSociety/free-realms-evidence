@@ -1,0 +1,4 @@
+<!-- fleet job=line-critic id=l426594-v1-evidence-r1 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[7808, 5185, 8, 1300] model=claude-haiku-5-5 -->
+# dialog 426594-426594
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "stage", "issue": "'idle' is an inference, not evidenced by the pack. The line is a self-introduction ('Howdy! I'm Tex... Partner up with me'), and the pack has no trigger. The binder admits this in 'open'. The stage is weak but does not contradict the text.", "fix": "Keep 'idle' only as low-confidence pet chatter, or use 'other' if the schema has no pet-idle stage. Source for the pet context: quest-lines/item-packs.json:29632 (wiki 'Tex is a t-rex pet ... SC Marketplace'). Locale 426594 and 426595 confirmed via locale tool: 426595 = 'Tex' (npc_name)."}]}

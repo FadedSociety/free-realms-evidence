@@ -1,0 +1,31 @@
+{
+ "title": "Greater Corrupted Hound",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\vale_of_the_ancients.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:19607 [npc_name | - | Greater Corrupted Hound] 'Greater Corrupted Hound'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:19607 [npc_name | - | Greater Corrupted Hound] 'Greater Corrupted Hound'"
+ ],
+ "client_cluster": [
+  "locale:19599 [item | - | Colorful Vertical Stripe Wallpaper] 'Colorful Vertical Stripe Wallpaper'",
+  "locale:19600 [item | - | Victorian Wallpaper] 'Victorian Wallpaper'",
+  "locale:19606 [item | - | Storm Cloud] 'Storm Cloud'",
+  "locale:19607 [npc_name | - | Greater Corrupted Hound] 'Greater Corrupted Hound'",
+  "locale:19608 [quest_title | - | Grow Big] 'Grow Big'",
+  "locale:19613 [quest_objective | - | Grow Big] 'Return to Wintara with any news about Rocko.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

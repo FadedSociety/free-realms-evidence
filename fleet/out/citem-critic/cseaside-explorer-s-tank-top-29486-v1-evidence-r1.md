@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cseaside-explorer-s-tank-top-29486-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[10495, 10737, 8, 1589] model=claude-haiku-5-5 -->
+# Seaside Explorer's Tank Top
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' but no vendor is identified anywhere in the pack; the only evidence is a coin-store catalogue row (category 103) with no NPC or stock link. The price evidence is real, but calling it a vendor source overstates what is known.", "fix": "Record as a coin-store row: repo:prototype/osfr-tools/data/content/stores.json line 6595 (item_id 15663, category_id 103, purchase_price_coins 270, member_price_coins 243 at 10% discount, sell_price_coins 27), sourced from FreeRealms-Legacy CoinStoreItems.json per the file header. Keep the vendor as unknown and leave 'vendor' in open."}]}

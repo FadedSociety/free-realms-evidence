@@ -1,0 +1,33 @@
+{
+ "title": "Tarantula",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\precursor_ruins.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:412758 [other | - | Tarantula | FLAG fragment: single word] 'Tarantula'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:412758 [other | - | Tarantula | FLAG fragment: single word] 'Tarantula'"
+ ],
+ "client_cluster": [
+  "locale:412754 [quest_objective | - | Finnerty Windchaser] \"You'll need to get the rare bottles from the arena during a Rumbledome match. Don't let me down!\"",
+  "locale:412756 [npc_dialog | - | -] \"Here, fishy, fishies! Don't be shy.\"",
+  "locale:412758 [other | - | Tarantula | FLAG fragment: single word] 'Tarantula'",
+  "locale:412759 [npc_dialog | - | -] \"Why aren't these fish biting?!\"",
+  "locale:412761 [item | - | Jumping Fish] 'Jumping Fish '",
+  "locale:412766 [npc_dialog | - | Precursor Ruins] \"Whoa! Where do ya think you're going? This is a dangerous excavation, not a playground!\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:L8GVYeD4dKE/00060.jpg (-): npcs: Dani nameplate Ghost (partly hidden) | job_level: Adventurer 20 | items_seen: Tarantula Candy (received) | other_text: You receive 1 Tarantula Candy Timer 00:00:96 (top centre)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

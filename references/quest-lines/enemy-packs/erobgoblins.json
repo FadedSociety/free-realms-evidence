@@ -1,0 +1,73 @@
+{
+ "title": "Robgoblins",
+ "our_entries": [
+  {
+   "file": "dungeons\\deep_mines.json",
+   "definition_id": 930065
+  },
+  {
+   "file": "dungeons\\robgoblin_treasure_trove.json",
+   "definition_id": 930065
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:406 [quest_objective | - | Robgoblins] 'Spy on the Robgoblins'",
+  "locale:4306 [npc_dialog | - | Robgoblins] \"Don't mess with [*player*], they just took care of some unruly Robgoblins pretty easily!\"",
+  "locale:9744 [quest_dialog | - | robgoblins] \"Ya did a mighty fine job of showing those robgoblins who's boss. Wish I coulda been there myself.\"",
+  "locale:24851 [quest_objective | - | robgoblins] \"There are some <font color='#D9781A'>super high-performance kart parts</font> I need for my kart, but the <font color='#D9781A'>robgoblins</font> are storing th\"",
+  "locale:41877 [npc_dialog | - | robgoblins] 'Hey, give that back!'",
+  "locale:41878 [npc_dialog | - | robgoblins] \"That doesn't belong to you!\"",
+  "locale:41879 [npc_dialog | - | robgoblins] 'Too slow buddy!'",
+  "locale:41880 [npc_dialog | - | robgoblins] \"You'll never get this back from us!\"",
+  "locale:41881 [npc_dialog | - | robgoblins] 'I could do this all day!'",
+  "locale:41908 [quest_dialog | Sacred Glade | robgoblins] 'Whoa! Where did you come from?'",
+  "locale:41909 [quest_dialog | Sacred Glade | robgoblins] 'I guess questions will have to wait, right now I just need your help!'",
+  "locale:41910 [quest_dialog | Sacred Glade | robgoblins] 'Wow! You came through that warpstone just before those robgoblins broke it!<BR><BR>Now you can help me chase off those little cowards!'",
+  "locale:41912 [quest_dialog | Sacred Glade | robgoblins] \"Aren't you going to help my friends?\"",
+  "locale:41913 [quest_dialog | Sacred Glade | robgoblins] \"Uh oh, they're teaming up on us!\"",
+  "locale:41914 [npc_dialog | Sacred Glade | robgoblins] 'Retreat!'",
+  "locale:41915 [npc_dialog | Sacred Glade | robgoblins] 'But that warpstone was broke!'",
+  "locale:41916 [npc_dialog | Sacred Glade | robgoblins] \"Hey! Where'd you come from!?\"",
+  "locale:41917 [npc_dialog | Sacred Glade | robgoblins] \"No fair! You can't use broken warpstone's!\"",
+  "locale:41918 [npc_dialog | Sacred Glade | robgoblins] \"Oof! Watch where you're standing!\"",
+  "locale:41919 [npc_dialog | Sacred Glade | robgoblins] \"Owe! Come on, that's just being rude!\"",
+  "locale:41920 [npc_dialog | Sacred Glade | robgoblins] \"You won't catch me!\"",
+  "locale:41921 [npc_dialog | Sacred Glade | robgoblins] 'Gah, this thing is heavier than it looks! I need a quick break...'",
+  "locale:41926 [quest_dialog | Sacred Glade | robgoblins] \"Keep 'em busy, guys. I'll get help!\"",
+  "locale:41930 [quest_dialog | Sacred Glade | robgoblins] \"You robgoblins don't stand a chance now!\"",
+  "locale:41931 [quest_dialog | Sacred Glade | robgoblins] \"Let's get rid of these robgoblins, once and for all!\"",
+  "locale:41932 [npc_dialog | Sacred Glade | robgoblins] 'We gots unwelcome guests!'",
+  "locale:45882 [quest_dialog | - | Robgoblins | FLAG placeholder: [Placeholder] tag in text] '[Placeholder]<BR>You did it, you really got rid of all those Robgoblins!'",
+  "locale:71612 [npc_dialog | - | robgoblins] \"That's right, you robgoblins better keep running!\"",
+  "locale:72367 [quest_dialog | - | Robgoblins] 'Have you taught those Robgoblins a lesson yet? They may never learn!'",
+  "locale:73383 [quest_dialog | - | Robgoblins] 'Have you made friends with the robgoblins yet? Try offering them a flower...'"
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Robgoblins",
+  "text": "Robgoblins are a race of goblin-like creatures. They are small creatures that live primarily in camps with other robgoblins. They have an affinity for destruction, explosives, magic and stealing.\n\nMany robgoblins are enemies, but there are also robgoblin NPCs and questgivers.\n\nSub-Races\nThere are currently two sub-races of robgoblins in two locations. All of them have the basic body shape, skins, ears, and eyes, but there is a difference.\n\nRobgoblins can be found in Sacred Grove. They have green skins, long ears, and big noses. They can also be found in Sunstone Valley, although there are several differences in these two cousins. Such include a red skin tone and a default occupation as a scrapsmith. There is a scrapsmith camp just outside of the hostile area controlled by these small creatures.\n\nNotable Robgoblins\nSouthern Wilds\nRobbie\n\nLakeshore\nFizzlesticks\nBizzie\n\nSeaside\nSizzlebottom\nBurglz\nGrekel\nTriggster\nTwitch\nWemo\n\nSnowhill\nHoligoblin\n\nMerry Vale\nLucky Chance McXander\n\nWugachug\nRumple\n\nSunstone Valley\nWhirly Willis\nRizzle\nScrapsmith Crackle\nJunkmaker Jort\nScrapmaster Fizzbang\nRobgoblin Junk Thief\nRobgoblin Shinyseeker\nRobgoblin Mechanic\nRobgoblin Kaboomer\nRobgoblin Tinkerer\n\nGallery\n\nCategory:Races\nCategory:Robgoblin\nCategory:Sacred Grove\nCategory:Sunstone Valley"
+ },
+ "images": [
+  "image (image:item_render): FreeRealms\nChrome Feathered Drake\nThe fiercest ride the Robgoblins could build!\n511"
+ ],
+ "video": [
+  "video:0F0xaW5jiFQ/00104.jpg (-): other_text: Crafty Robgoblins",
+  "video:XFN5i5Pb1cc/00052.jpg (-): other_text: WIN! YOU Band of Robgoblins!",
+  "video:I0qCT1L5kXo/00120.jpg (-): quest: Run off the Robgoblins  Defeat Robgoblin Boomers - 7/10 You receive 12 stars and 22 coins | other_text: Goal Update Exit Door 24m Goals (1) Defeat all robgoblins Robgoblin Boomer",
+  "video:0F0xaW5jiFQ/00116.jpg (-): items_seen: Candy Cane | other_text: YOU WIN! Crafty Robgoblins Congratulations! You won Candy Cane",
+  "video:45PgwOt0gMI/00000.jpg (-): quest: Run off the Robgoblins Shane Defeat Robgoblin Boomers - 0/25  | landmarks: large tree trunks lake edge | job_level: Adventurer 20 | other_text: Run off the Robgoblins Defeat Robgoblin Boomers - 0/25 Rock Tin Mining Rare Exploration Coin Press X or Meet and Greet Quest Star"
+ ],
+ "article_facts": [
+  "fact:combat: Fighting Robgoblins during Snow Days earns special Snow Days clothing. | Fight against greedy Robgoblins to earn special Snow Days clothing. (http://www.freerealms.com/article/detail.action?articleId=2429)",
+  "fact:combat: Fighting the greedy Robgoblins rewards special Snow Days clothing. | Pelea contra los codiciosos Robgoblins y obtén ropa especial de Días de Nieve. (http://www.freerealms.com/article/detail.action?articleId=1956)",
+  "fact:npc: Robgoblins are greedy enemies during Snow Days; defeating them rewards special Snow Days clothing. | Pelea contra los codiciosos Robgoblins y obtén ropa especial de Días de Nieve. (http://www.freerealms.com/article/detail.action?articleId=1957)",
+  "fact:other: The error page jokingly blames Robgoblins for stealing stuff, showing Robgoblins as the game's mischievous antagonists. | What do you expect with all these robgoblins running around stealing stuff? (http://www.freerealms.com:80/knowledgebase/view.action?code=G9&info=gateway+disconnected)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Wilbur's Trouble' (final): Chase away the robgoblins",
+  "other target in 'Contract: Thinning Their Numbers' (final): Handle the fairy cultists and robgoblin fishmongers nearby; the pixies of the Pixie Nursery are being threatened. No cou",
+  "other target in 'Friend or Foe: The Tradesgoblin' (final): Robgoblins have always been resourceful creatures... help them and they will offer to help for the right price (Freewhee"
+ ]
+}

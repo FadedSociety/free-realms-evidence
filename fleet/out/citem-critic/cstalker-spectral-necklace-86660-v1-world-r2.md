@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstalker-spectral-necklace-86660-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3866, 7863, 6, 952] model=claude-haiku-5-5 -->
+# Stalker Spectral Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence[2]", "issue": "Says repo searches for definition id 22669 found only unrelated hash matches. The refs search finds id 22669 with Comment 'Stalker Spectral Necklace' at FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:469425-469426 and the same in Sanctuary's copy. This is a client definition, not a content record, so it adds no acquisition source, but the wording is inaccurate.", "fix": "Say that repo hits for id 22669 are only the client definition table entry (ClientItemDefinitions.json, Comment 'Stalker Spectral Necklace', Id 22669) in Legacy and Sanctuary, with no vendor, quest or drop record."}]}

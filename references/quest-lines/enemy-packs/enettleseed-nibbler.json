@@ -1,0 +1,38 @@
+{
+ "title": "Nettleseed Nibbler",
+ "our_entries": [
+  {
+   "file": "dungeons\\nettleseed_nibblers.json",
+   "definition_id": 930015
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:45945 [npc_name | - | Nettleseed Nibbler] 'Nettleseed Nibbler'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:45945 [npc_name | - | Nettleseed Nibbler] 'Nettleseed Nibbler'"
+ ],
+ "client_cluster": [
+  "locale:45940 [ability | - | forest troll fort] 'forest troll fort - basepop primary ability'",
+  "locale:45942 [quest_objective | - | Private Gailug] 'Private Gailug has asked you to defeat several trolls in the pass.'",
+  "locale:45945 [npc_name | - | Nettleseed Nibbler] 'Nettleseed Nibbler'",
+  "locale:45946 [quest_objective | Wugachug | Postchug Runalug] 'Find Postchug Runalug'",
+  "locale:45947 [quest_objective | Wugachug | Postchug Runalug] 'Postchug Runalug is in the Thoroughfare in Wugachug.'",
+  "locale:45949 [quest_objective | Wugachug | Sasparilla Brewmaster Wugawump] 'Sasparilla Brewmaster Wugawump is near the Sasparilla Brewery in Wugachug.'",
+  "locale:45951 [npc_name | - | Florina | FLAG placeholder: unattributed name in list, check] 'Florina'",
+  "locale:45952 [npc_name | - | Trix | FLAG placeholder: unattributed name in list, check] 'Trix'",
+  "locale:45953 [npc_name | - | Bigby | FLAG placeholder: unattributed name in list, check] 'Bigby'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:piWfe7lXZ9I/00414.jpg (-): other_text: Card Duelist Nettleseed Nibbler Rich Gold Mining Shady Smuggler",
+  "video:piWfe7lXZ9I/00423.jpg (-): npcs: Johnny nameplate  | other_text: Card Duelist Nettleseed Nibbler Rich Gold Mining Shady Smuggler",
+  "video:piWfe7lXZ9I/00432.jpg (-): npcs: Johnny nameplate  | other_text: Card Duelist Shady Smuggler Rich Gold Mining Nettleseed Nibbler",
+  "video:piWfe7lXZ9I/00447.jpg (-): npcs: Johnny nameplate  | other_text: Card Duelist Rich Gold Mining Shady Smuggler Nettleseed Nibbler",
+  "video:piWfe7lXZ9I/00360.jpg (-): landmarks: large dark tree trunk purple cliff | job_level: Card Duelist 20 | other_text: Nettleseed Nibbler (nameplate, 115m)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

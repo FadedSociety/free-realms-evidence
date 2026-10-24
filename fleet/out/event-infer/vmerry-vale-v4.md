@@ -1,0 +1,71 @@
+<!-- fleet job=event-infer id=vmerry-vale-v4 status=done turns=2 usd=0.0045 tokens(read,write,in,out)=[9779, 12622, 6, 5681] model=claude-haiku-5-5 -->
+# Merry Vale
+
+{"event": {"name": "Festival of Hearts", "aliases": ["Festival des Coeurs (French, article 1009)"]},
+ "kind": "holiday",
+ "live": "unsure",
+ "occurrences": [
+  {"year": 2010, "when": "Feb 12, 2010 (update started the run; semi-formal dance Friday Feb 12, 2010)", "source": "http://www.freerealms.com:80/article/detail.action?articleId=967; http://www.freerealms.com/article/detail.action?articleId=957 (dance). Pack-reported; not re-read in this pass."},
+  {"year": 2012, "when": "Feb 7, 2012 update announced the festival; Feb 9, 2012 update added festival Marketplace items", "source": "wiki:Template:News/Archive ('Update of February 7, 2012 - Festival of Hearts'; 'Update of February 9, 2012')"},
+  {"year": null, "when": "undated: 'the annual Festival of Hearts has begun in Merry Vale' (PS3 launch post, undated)", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2498 (no date in pack); http://www.freerealms.com:80/article/detail.action?articleId=969 (annual wording, undated)"},
+  {"year": null, "when": "undated: 'the annual Festival of Hearts has returned to Merry Vale'. The 2019 Spanish post names Vegalegre, not Merry Vale, so it is not counted here.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2016 (undated)"}
+ ],
+ "recurring": "annual, February through March in Merry Vale (wiki:Festival of Hearts; wiki:Events; articles 969 and 2016 say 'annual'). Dated runs confirmed only for 2010 and 2012; 2011 and 2013+ not established.",
+ "zones": ["Merry Vale", "Stone Heart's Hideaway (named in quest chain, locale:426971)"],
+ "npcs": ["Rylan", "Arianna", "Cudip", "Stone Heart", "Heartbreakers (Heart Breakers)", "Jecca"],
+ "quests": ["Softening the Stone", "Mending Hearts", "Truffle Shuffle", "Dubawug's Sweetheart (live unsure)", "A Tale of Two Hearts (festival link inferred from the Rylan/Arianna story, not named as a festival quest)"],
+ "activities": ["Spin the Festival of Hearts wheel daily for bonus prizes (locale:400038)", "Defeat Heartbreaker minions of Stone Heart", "Soften Stone Heart with love arrows dipped in Love Potion (locale:427158, 427156)", "Fill chocolate boxes for sweethearts (Truffle Shuffle, locale:427164)", "Community semi-formal and dance party events (locale:6676 Merry Vale semi-formal, SERVER 1; locale:2779 Festival of Hearts dance party, SERVER 1)", "Earn Bowheart achievement (1000 love arrows at Stone Heart) for Stone Heart's Pink Bear (wiki:Achievements)"],
+ "items": [
+  {"name": "Stone Hearted Armoire", "price": null, "currency": null, "source": "locale:3558; locale:3570 (ids for armoire and wall lamp; names as festival-era Stone Heart furniture)"},
+  {"name": "Stone Hearted Wall Lamp", "price": null, "currency": null, "source": "locale:3570; locale:3574"},
+  {"name": "Stone Hearted Furniture Bundle", "price": "825", "currency": "station_cash", "source": "locale:3575 ('Get the Stone Hearted Furniture Bundle now for only 825 SC')"},
+  {"name": "Stone Heart's Gummy Bear", "price": null, "currency": "station_cash", "source": "wiki:Stone Heart's Gummy Bear (wiki places it in SC Marketplace during festival; price blank)"},
+  {"name": "Stone Heart's Bear Costume", "price": null, "currency": "station_cash", "source": "wiki:Stone Heart's Bear Costume (price blank)"},
+  {"name": "Lovelectric Boombox", "price": null, "currency": "station_cash", "source": "wiki:Lovelectric Boombox (price blank)"},
+  {"name": "She-Rex", "price": null, "currency": "station_cash", "source": "wiki:She-Rex (price blank)"},
+  {"name": "Stone Heart's Pink Bear", "price": null, "currency": "reward", "source": "wiki:Achievements (Festival of Hearts section); wiki:Stone Heart's Pink Bear"},
+  {"name": "Dove (pet pal)", "price": null, "currency": "reward", "source": "wiki:Dove; wiki:Cudip (wiki only, from Sleeping Pixie quest)"},
+  {"name": "Festival of Hearts TCG Bundle", "price": null, "currency": null, "source": "http://www.freerealms.com/article/detail.action?articleId=1009 (per pack; availability wording not re-verified)"}
+ ],
+ "rewards": ["Festival of Hearts wheel bonus prizes", "Stone Heart's Pink Bear (Bowheart achievement)", "Dove pet pal (wiki)", "Festival TCG bundles and Holiday items (2010 article 976 summary, 2012 Marketplace update)"],
+ "evidence": [
+  {"claim": "Festival of Hearts is an annual event in Merry Vale, celebrating Rylan and Arianna, with Stone Heart as villain.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=969; http://www.freerealms.com:80/article/detail.action?articleId=2016; wiki:Festival of Hearts; wiki:Events"},
+  {"claim": "Wiki describes the event as an annual Valentine's Day-themed event held February through March in Merry Vale.", "source": "wiki:Festival of Hearts; wiki:Events"},
+  {"claim": "Festival of Hearts ran in Feb 2012: Feb 7 update announced it in Merry Vale and asked players to help Cudip.", "source": "wiki:Template:News/Archive ('Update of February 7, 2012 - Festival of Hearts')"},
+  {"claim": "Feb 9, 2012 update added new Holiday items to the Marketplace for the festival.", "source": "wiki:Template:News/Archive ('Update of February 9, 2012')"},
+  {"claim": "A community webcast recap on the festival showed animations for several new festival items, hosted by Referee Ruby, with artist Nafisah Tung and designer Chris Fritchoff. The recap gives no exact post date, so no 2012 date is attached to it.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2522 (verified this pass)"},
+  {"claim": "Festival characters Rylan and Arianna are in Merry Vale; Stone Heart and his Heartbreakers are the antagonists (PS3 launch post, undated).", "source": "http://www.freerealms.com:80/article/detail.action?articleId=2498"},
+  {"claim": "Community dance party 'to celebrate the Festival of Hearts' ran on SERVER 1 (Ambassador Events).", "source": "locale:2779 (verified this pass: text names the festival and SERVER 1)"},
+  {"claim": "Semi-formal dance in Merry Vale on SERVER 1 (community event, not a run item).", "source": "locale:6676 (verified this pass)"},
+  {"claim": "Softening the Stone: hit Stone Heart with love-potion arrows to soften him.", "source": "locale:427158; locale:427156"},
+  {"claim": "Mending Hearts: use the love potion to drive off heartbreakers during Stone Heart's Rampage, given by Jecca.", "source": "locale:427176; locale:427178"},
+  {"claim": "Truffle Shuffle: fill chocolate boxes for sweethearts during the festival.", "source": "locale:427164"},
+  {"claim": "Dubawug's Sweetheart says it is the Festival of Hearts right now (live status unsure).", "source": "locale:427242"},
+  {"claim": "Spin the Festival of Hearts wheel every day for bonus prizes.", "source": "locale:400038 (text verified in pack critique); locale:431950"},
+  {"claim": "Stone Hearted Furniture Bundle costs 825 SC.", "source": "locale:3575"},
+  {"claim": "The 2010 run had daily wheel, daily and members-only quests, TCG packs, new pets, and King and Queen of Hearts outfits (dated only [2010]).", "source": "http://www.freerealms.com/article/detail.action?articleId=976 (summary)"},
+  {"claim": "Festival of Hearts was started by a Feb 12, 2010 update with Cudip's storyline.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 (pack-reported; not re-read this pass)"}
+ ],
+ "confidence": 0.6,
+ "open": [
+  "Live status: no source gives a current run. Mark unsure until a dated run after 2012 is confirmed.",
+  "Dated runs are 2010 (Feb 12) and 2012 (Feb 7). 2011 and 2013+ runs are not established by dated sources. Articles 969, 2016 and 2498 are undated in the archive summaries, so they only support 'annual' wording.",
+  "The 2019 Spanish post names Vegalegre, not Merry Vale. Not counted as a Merry Vale occurrence until the zone is resolved.",
+  "Article 2498 is a PS3 platform-launch post. Treated as a platform launch, not a separate run; undated.",
+  "The Feb 9, 2012 webcast date in the previous answer is not supported: article 2522 gives no post date. The webcast is listed without a date.",
+  "A Bundle of Love (locale:427041) is in the pack's quest list as final/live yes, but no source read ties it to the festival. Not listed as a festival quest; needs a source.",
+  "Other pack quests not tied to the festival by any source read, with pack live flags: To Coin a Phrase (yes), A Very Merry Welcome (unsure), At the End of the Rainbow (yes), Glide Training: I'm Advanced! (yes), Card Duelist: Herme the Hermit (yes), Card Duelist: Playing a Prodigy (unsure), Card Duelist: Best of the Best! (yes, unresolved), Chef: Reach Level 10 (yes), Chef: Chugawhat? (yes), Postman: Missing Mail (yes), Postman: Mail Mix-Up (yes), Postman: And the Winner Is... (yes, unresolved), Postman: Beautiful Bouquet (unsure). Membership unresolved; these may belong to other events.",
+  "Ooey, Gooey Love and Where is the Love? are on wiki:Festival of Hearts and wiki:Cudip but have no client text found. Unverified.",
+  "Arianna's Diary is not a client title; the client quest is A Tale of Two Hearts (locale:427148), with an inferred festival link.",
+  "Love Struck Armoire (locale:3545) is flagged placeholder and excluded.",
+  "locale:435369 is flagged not_live and not used.",
+  "Prices for Gummy Bear, Bear Costume, Boombox and She-Rex are blank in the wiki and missing in client data. Currency is station_cash only from the wiki's SC Marketplace placement.",
+  "Stone Hearted Armoire and Wall Lamp have no price in the pack.",
+  "'15 presents per year' (wiki:Events) is not included: it is a single unchecked wiki line not tied to a dated run.",
+  "Dove and Pink Bear are wiki-sourced only (wiki:Dove, wiki:Achievements), not client-verified.",
+  "Article 1009 (TCG Bundle 'only until festival ended') was not re-read this pass; its wording is unverified.",
+  "Aliases: only 'Festival des Coeurs' (article 1009, French) is pack-sourced. The pack's dance and semi-formal names are community event names, not aliases.",
+  "The pack may merge the festival with Merry Vale community events (dance parties, semi-formal) listed under SERVER 1. These are kept separate.",
+  "Heartbreakers combat mechanic beyond love-potion use (locale:427156) is not in the wiki."
+ ]
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-spunky-scrapper-shirt-39115-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3878, 7725, 6, 1058] model=claude-haiku-5-5 -->
+# Elite Black Spunky Scrapper Shirt
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The 'Coin Shop' location label rests on store category_id 103. I confirmed the row (stores.json line 6265: item_id 7493, category 103, purchase 9453, member 8507, sell 945, tags L1, L2, L4, R2, T633, R1) but did not find a source in the pack that names category 103 as 'Coin Shop'.", "fix": "Keep the 9453 / 8507 / 945 coin price, which matches stores.json line 6265. Either cite the category-name mapping for 103 or label the location as 'coin store category 103'. The wiki and client lookups for the shirt returned only the client name line, so there is no independent wiki confirmation."}]}

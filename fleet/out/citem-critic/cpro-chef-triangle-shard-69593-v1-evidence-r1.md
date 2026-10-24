@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpro-chef-triangle-shard-69593-v1-evidence-r1 status=no_submit turns=2 usd=0.0020 tokens(read,write,in,out)=[4037, 10340, 6, 1341] model=claude-haiku-5-5 -->
+# Pro Chef Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the store data 'treats it as currently sold' goes slightly beyond the row. The row at stores.json line 3169 shows purchase_price 1149, member 10% giving 1034, sell_price 114 and no_sale false. That is a sale record, but 'currently sold' is an inference, not a dated or live-confirmed fact. The item's 'live: yes' rests only on this store row.", "fix": "Say 'stores.json line 3169 has a non-no_sale coin-store row for item 10854 at 1149 coins (member 1034, sell-back 114)'. Keep live as 'yes, per store row only'. I verified these figures: 1149 × 0.9 ≈ 1034 and 1149 × 0.1 ≈ 114, and the row matches."}]}

@@ -1,0 +1,30 @@
+{
+ "title": "Account and Station Cash maintenance",
+ "names_seen": [
+  "Account and Station Cash maintenance"
+ ],
+ "facts": [
+  {
+   "statement": "Account services, including account maintenance and all Station Cash services, were offline for a planned maintenance window of about 2 hours on Thursday, 8 July 2010, from 10:00 AM to 12:00 PM (TP).",
+   "numbers": {
+    "duration_hours": 2,
+    "start_hour_AM": 10,
+    "end_hour_PM": 12
+   },
+   "era": "live",
+   "quote": "tendrá una duración aproximada de 2 horas este Jueves, 08 de julio del 2010, comenzando a las 10:00 AM hasta las 12:00 PM TP",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1613",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1613",
+   "date": null,
+   "title": "Servicio de Cuentas y Mantenimiento de Comercio – jueves 8 de julio (Free Realms - What is New?)",
+   "summary": "This official freerealms.com notice, written in Spanish, announces a planned maintenance window for account services, all Station Cash services and the purchase catalog. It is a service notice, not gameplay content, and it gives no details of quests, items or mechanics. The page does not name Free Realms in its body; it is included because it sits in the game's official news section."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

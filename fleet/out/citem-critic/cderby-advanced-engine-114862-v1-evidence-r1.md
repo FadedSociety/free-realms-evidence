@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cderby-advanced-engine-114862-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3777, 8209, 6, 927] model=claude-haiku-5-5 -->
+# Derby Advanced Engine
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The Advanced engine's upgrade-description claim is loosely worded. Locale 114677 reads 'An upgraded demo derby engine that is faster than the advanced engine.' That is the Pro tier's description, not the Advanced one. The answer's 'faster than the basic/advanced/pro engine' phrasing across 114674-114678 is a fair summary of the ladder, but it should not be read as Advanced's own text.", "fix": "Cite locale:114677 as 'faster than the advanced engine' (the Pro-tier description) and locale:114862 as the Advanced item's own description. The ladder is in the locale table (114674-114678)."}]}

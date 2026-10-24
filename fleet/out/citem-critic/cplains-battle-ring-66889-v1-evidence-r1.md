@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cplains-battle-ring-66889-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3757, 4963, 6, 907] model=claude-haiku-5-5 -->
+# Plains Battle Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer leaves live as 'unsure' and the pack's 'live: yes' is only a hint. The repo catalogue does mark entry 1151 (item 23276) with item_link 'sanctuary', the same as its sibling 23275, so the entry may come from Sanctuary data rather than a live source. The answer's open note on this is correct and honest.", "fix": "Keep live 'unsure' until a live acquisition or collection source is found. Cite repo:prototype/osfr-tools/data/content/collection_catalogue.json:12306-12332 (collection 159 'Battle Rings', entry index 2, item_definition_id 23276, item_link 'sanctuary') as the basis for the collection membership."}]}

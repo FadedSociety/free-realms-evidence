@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbasic-crash-protection-114900-v1-world-r2 status=no_submit turns=4 usd=0.0027 tokens(read,write,in,out)=[29333, 13745, 10, 1277] model=claude-haiku-5-5 -->
+# Basic Crash Protection
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that derby parts are 'associated with' the Demolition Derby Equipment vendor is a loose inference. The unresolved entry (npcs_unresolved.json:2148-2172, ref 9000000299) is a trainer context from the Demolition Derby Driver job page with no item named, and the answer's own open list says it cannot be tied to this part.", "fix": "Keep it as an unlinked lead only: the vendor entry exists (npcs_unresolved.json ref 9000000299, source 'Demolition Derby Driver.md' Trainers table) but names no item and no place. Do not present it as a source for item 59652."}]}

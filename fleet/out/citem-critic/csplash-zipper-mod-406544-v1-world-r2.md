@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csplash-zipper-mod-406544-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4155, 5325, 6, 855] model=claude-haiku-5-5 -->
+# Splash Zipper Mod
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Stated as 'unsure', which is honest. My own lookups found no wiki, article, video or store evidence for this mod beyond its locale row (locale:406544). The Splash Zipper kart listing does not name the mod, so it cannot be a source.", "fix": "Keep live as unknown. No change needed."}, {"field": "sources", "issue": "Empty, and I found no evidenced source to add. The repo has no store, vendor, drop or quest row for definition 61074 or the 'Zipper Mod' name. The kart-parts vendor line (locale:384317) names no vendor and no stock row, so it correctly stays out.", "fix": "No change needed. Leave sources empty until a dated listing or stock row is found."}]}

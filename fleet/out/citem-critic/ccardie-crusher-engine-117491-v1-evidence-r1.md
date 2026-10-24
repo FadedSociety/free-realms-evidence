@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccardie-crusher-engine-117491-v1-evidence-r1 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[4070, 10286, 6, 1503] model=claude-haiku-5-5 -->
+# Cardie Crusher Engine
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The answer cites a wiki 'Derby Karts' category lookup for the five named derby karts. My wiki, articles and video lookup for 'Cardie Crusher' returned no matches, so I could not reproduce that category read. The five-kart list is only in the repo note at Demolition Derby Driver.md:197, which is itself a wiki-derived note.", "fix": "Cite the repo note Demolition Derby Driver.md:197 for the five-kart list, or re-run the wiki category read and quote it. Either way, the claim that the Cardie Crusher is absent from the wiki category stands (no wiki, article or video hit for Cardie Crusher)."}]}

@@ -1,0 +1,52 @@
+{
+ "title": "Taraz",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\deep_mines.json"
+  },
+  {
+   "file": "dungeons\\deep_mines.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:36922 [npc_name | - | Taraz] 'Taraz'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:36922 [npc_name | - | Taraz] 'Taraz'",
+  "locale:37128 [quest_dialog | - | Taraz] 'Ach, ya defeated Taraz! Good job!'",
+  "locale:37129 [quest_dialog | - | Taraz] \"I thought a heard a cave-in earlier. I'd bet all me copper that filthy big robgoblin was messin' around with our diggin' tools.\"",
+  "locale:37130 [quest_dialog | - | Taraz] 'Cave in? I can blast the rocks out of the way!'",
+  "locale:37133 [quest_dialog | - | Taraz] 'Follow me to the entrance near the cave in!'",
+  "locale:130544 [quest_objective | - | Taraz | FLAG dev_note: internal label for a hidden objective] 'hidden objective for defeating Taraz'"
+ ],
+ "client_cluster": [
+  "locale:36915 [ability | Greenwood Camp | Greenwood Super Shot!] 'Greenwood Super Shot!'",
+  "locale:36918 [npc_dialog | Greenwood Camp | Dynamite Toss] \"I could've saved meself. Just catchin' my breath. Thanks for the help, though.\"",
+  "locale:36919 [npc_dialog | Greenwood Camp | Dynamite Toss] 'If ya need dynamite, a big robgoblin to the north took it all. Good luck!'",
+  "locale:36921 [other | - | Mini-Boss | FLAG fragment: single label word] 'Mini-Boss'",
+  "locale:36922 [npc_name | - | Taraz] 'Taraz'",
+  "locale:36923 [npc_name | Snowhill | Scarlet Shadeveil] 'Scarlet Shadeveil'",
+  "locale:36924 [ability | - | Dynamite Toss] 'Dynamite Toss'",
+  "locale:36925 [ability | - | Dynamite Toss] ' Throws a stick of dynamite at the target and harms anyone near the target.'",
+  "locale:36926 [quest_dialog | Snowhill | Snowhill Secret Society] \"Hey, want to join our <font color='#D9781A'>secret society</font>? Oops! That was supposed to be a secret.<BR><BR>You have to <font color='#D9781A'>talk</font> \"",
+  "locale:36927 [quest_title | Snowhill | Snowhill Secret Society] 'Snowhill Secret Society'",
+  "locale:36928 [quest_objective | Snowhill | Snowhill Secret Society] 'Snowhill has a secret society made up of prominent people from the community. Together, they help plan fun events for the town. You can ask some of the members '",
+  "locale:36929 [quest_objective | Snowhill | Snowhill Secret Society] 'Find member #1 '",
+  "locale:36930 [quest_objective | Snowhill | Snowhill Secret Society] 'Clue: He likes to heat things up in this chilly town.'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Taraz",
+  "image (image:map): 4a.\n2nd trapped miner escorts PC to blast cave-in at POI 5.\nFINISH\n5. Blast rock cave-in\n4. Mini-Boss\n3a.\nAn area trigger is set to alert the combat NPC'S + dialog relating to mini-boss.\n3. Rescue trapped miner. Get dynamite info at action point 4.\n2a.\nRock slide event is triggered by Boss.\n2.\nNPC's"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

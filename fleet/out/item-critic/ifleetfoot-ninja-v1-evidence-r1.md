@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifleetfoot-ninja-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4239, 5660, 6, 1301] model=claude-haiku-5-5 -->
+# Fleetfoot Ninja!
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that each weapon's page lists its sources, including Coin Shop and prize wheels at several battles, is only checked for one page here. The 'Ninja's Blade of Flame Wave' wiki page does say it is sold at the Coin Shop and dropped from prize wheels at Fleetfoot Ninja! among other battles. The other five weapon pages are not verified in this pack.", "fix": "Keep the claim scoped to the pages actually read, e.g. 'Ninja's Blade of Flame Wave' wiki page (Coin Shop; prize wheel at Fleetfoot Ninja!). Verify the other weapon pages before citing them as sources."}]}

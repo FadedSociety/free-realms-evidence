@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-high-velocity-pants-pl-high-velocity-pants-1829-v2-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4063, 8385, 6, 926] model=claude-haiku-5-5 -->
+# {n}High Velocity Pants{pl="High Velocity Pants"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].claim", "issue": "The claim says '19 definitions sharing the name', but the evidence pack lists only 12 definition_ids (2047, 2048, 2049, 2051, 2054, 2055, 14987, 14988, 14990, 14992, 14993, 14995). The count of 19 is not reconciled with the 12 ids the answer cites.", "fix": "Report the count as the pack gives it (19 per client_definition.definitions) and state that only 12 definition ids are named in the pack, or cite the source that lists all 19. Source: evidence pack client_definition (definitions: 19, definition_ids: 12 entries)."}]}

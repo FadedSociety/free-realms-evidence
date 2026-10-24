@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=carcher-m2-quiver-142092-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3487, 4017, 6, 903] model=claude-haiku-5-5 -->
+# Archer M2 Quiver
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] sibling list", "issue": "I confirmed the Archer M1-M5 Quiver and M1/M2 Tunic names at 141882, 142022, 142057, 142092, 142127, 142162 and 142197. I did not check the three Hoodie ids (141987, 141952, 141917) it cites. The claim is minor and does not affect the answer.", "fix": "Verify the Hoodie M3-M5 ids against the locale table, or drop them from the sibling list. Archer names confirmed: locale:142057 'Archer M1 Quiver', 142092 'Archer M2 Quiver', 142127 'Archer M5 Quiver', 142162 'Archer M3 Quiver', 142197 'Archer M4 Quiver'."}]}

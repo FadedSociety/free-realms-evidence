@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=igeneral-glowlight-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3649, 11602, 6, 1026] model=claude-haiku-5-5 -->
+# General Glowlight
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The answer keeps the request as an item with kind 'other' and live 'unsure'. The name resolves only to an npc_name (locale:7670) and the wiki page is an NPC page. Nothing in the client, wiki, or refs names a Glowlight-named item that could be sold, dropped or rewarded.", "fix": "Mark the request as not an item: kind null or 'npc', with the note that 'General Glowlight' is a Sanctuary pixie NPC (locale:7670; wiki General_Glowlight rev 49946, category NPC). Sources stay empty. Quest-linked strings such as locale:36252 and the 'golden axe you forged for General Glowlight' text (locale:132683570) are quest content, not item acquisition sources."}]}

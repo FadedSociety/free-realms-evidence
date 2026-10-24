@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cruffian-eternal-ring-86410-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3953, 7792, 6, 851] model=claude-haiku-5-5 -->
+# Ruffian Eternal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The open item says a source for any ring sibling 'would likely apply'. That is speculation, not evidence, and it should not be read as a lead. Sibling rings in the Ruffian/Surgeon family are only named in locale, with no acquisition source found in the wiki, client or refs.", "fix": "Keep it as an unknown. Do not transfer sources between family members without a per-item source. My own check found only locale strings for Ruffian and Surgeon rings and Ruffian Necklaces (for example locale:86410 and the Necklace names), and no vendor, quest or drop rows naming any of them."}]}

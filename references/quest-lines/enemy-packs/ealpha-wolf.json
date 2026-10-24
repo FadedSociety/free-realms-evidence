@@ -1,0 +1,75 @@
+{
+ "title": "Alpha Wolf",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 102128,
+   "definition_id": 1235000,
+   "model_id": 3284,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 102128,
+   "definition_id": 930050,
+   "model_id": 3284,
+   "max_health": 160,
+   "damage": 8,
+   "boss": true
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 102128,
+   "definition_id": 930050,
+   "model_id": 3284,
+   "max_health": 160,
+   "damage": 8,
+   "boss": true
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:93271 [quest_objective | - | Alpha Wolf] 'Alpha Wolf!'",
+  "locale:102128 [npc_name | - | Alpha Wolf] 'Alpha Wolf'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:93271 [quest_objective | - | Alpha Wolf] 'Alpha Wolf!'",
+  "locale:102128 [npc_name | - | Alpha Wolf] 'Alpha Wolf'",
+  "locale:102129 [quest_dialog | - | Alpha Wolf] 'An alpha wolf and his pack took over the tree fort! Venture in and defeat them!'",
+  "locale:102130 [quest_objective | - | Alpha Wolf] 'Defeat the wolves.'",
+  "locale:102131 [quest_objective | - | Alpha Wolf] 'Defeat the wolves that have taken over this tree fort.'",
+  "locale:102137 [quest_objective | - | Alpha Wolf | FLAG dev_note: internal note about hidden objective] 'hidden objective for defeating 5 wolves'",
+  "locale:102153 [ability | - | Alpha Wolf] 'Alpha Wolf - alpha wolf claw'",
+  "locale:102155 [ability | - | Alpha Wolf] 'Alpha Wolf - alpha wolf howl buff'",
+  "locale:432939 [quest_dialog | Snowhill | alpha wolf] 'You narrowly defeated the ferocious Frostfang. Looking up the hill, you can see a cave that must be the hot springs haven of the Yeti. Unfortunately, on the pat'"
+ ],
+ "client_cluster": [
+  "locale:93264 [quest_title | - | Snakes in a Maze!] 'Snakes in a Maze!'",
+  "locale:93265 [quest_title | - | When Plants Attack!] 'When Plants Attack!'",
+  "locale:93266 [quest_title | - | Introducing Bullseye!] 'Introducing Bullseye!'",
+  "locale:93267 [quest_title | - | Bullseye - Round Two!] 'Bullseye - Round Two!'",
+  "locale:93268 [quest_title | - | Robgoblin Troublemakers!] 'Robgoblin Troublemakers!'",
+  "locale:93269 [quest_title | - | Thugawug Bandits!] 'Thugawug Bandits!'",
+  "locale:93270 [quest_title | - | Down by the River!] 'Down by the River!'",
+  "locale:93271 [quest_objective | - | Alpha Wolf] 'Alpha Wolf!'",
+  "locale:93272 [place | - | Oasis of Peril] 'Oasis of Peril!'",
+  "locale:93273 [quest_dialog | - | Retrieve Vicki's bow] 'The kids that took my bow ran into the Highroad Hijinx, the little brats. Can you go in there and get it back for me?'",
+  "locale:93274 [other | - | Petty Yetis | FLAG fragment: bare monster-name line, no quest meaning on its own] 'Petty Yetis!'",
+  "locale:93276 [other | - | Frostfang Growler | FLAG fragment: bare monster-name line, no quest meaning on its own] 'Frostfang Growler!'",
+  "locale:93277 [other | - | Ice Troll Scout | FLAG fragment: bare monster-name line, no quest meaning on its own] 'Ice Troll Scout!'",
+  "locale:93278 [quest_title | - | Retrieve Vicki's bow] \"Retrieve Vicki's bow\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:bLxqx_aCizY/00108.jpg (-): landmarks: large tree trunk | job_level: Brawler 7 | other_text: Brugo Alpha Wolf",
+  "video:bLxqx_aCizY/00110.jpg (-): landmarks: large tree trunk at top | job_level: Brawler 7 | other_text: Alpha Wolf",
+  "video:Ml2qwkrJtR4/00038.jpg (-): npcs: Mungo nameplate  Voggun nameplate  | job_level: Adventurer 20 | other_text: Active Quest! Alpha Wolf",
+  "video:bLxqx_aCizY/00206.jpg (-): npcs: Mungo nameplate  | landmarks: large tree trunk at left | job_level: Brawler 7 | other_text: Alpha Wolf",
+  "video:bLxqx_aCizY/00212.jpg (-): npcs: Mungo nameplate  | landmarks: large tree trunk at left | job_level: Brawler 7 | other_text: Alpha Wolf"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=camateur-wizard-cap-26048-v2-evidence-r3 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3647, 8519, 6, 1105] model=claude-haiku-5-5 -->
+# Amateur Wizard Cap
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the coin-store row is verified (stores.json line 3408: item_id 12150, category 101, tint group 1, purchase 291, member 10% to 261, sell 29, no_sale false). The client definition's coin_store_prices [291] matches. The source is still only a data-file row with no named vendor, shop, or dated sale window, so 'coin_shop' is correct as far as it goes but rests on the repo data file alone.", "fix": "Keep the source as a coin_shop row with price 291 coins (member 261). Leave the vendor/NPC as unknown. Note that the row's source_tags (L1, L2, L4, R2, T633, R1) are undecoded, so the sale window is unconfirmed."}]}

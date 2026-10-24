@@ -1,0 +1,38 @@
+{
+ "title": "Rumbledome Gladiator",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_rumbledome.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:412569 [npc_name | - | Rumbledome Gladiator] 'Rumbledome Gladiator'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:412569 [npc_name | - | Rumbledome Gladiator] 'Rumbledome Gladiator'"
+ ],
+ "client_cluster": [
+  "locale:412567 [quest_dialog | - | medium pacu pacu] 'What did you do with those medium pacu pacu you caught?<BR><BR>Check your bags and come back when you have at least twelve.'",
+  "locale:412569 [npc_name | - | Rumbledome Gladiator] 'Rumbledome Gladiator'",
+  "locale:412572 [npc_name | - | Rumbledome Boss] 'Rumbledome Boss'",
+  "locale:412576 [quest_dialog | - | Kent Kippersun] \"Hrm, it looks like you might be missing a fish or two.<BR><BR>You'd better check your bags and come back to me when you have all the fish I asked for.\"",
+  "locale:412577 [quest_objective | - | Nettletrout] 'Catch Nettletrout'"
+ ],
+ "wiki": {
+  "title": "Rumbledome Gladiator",
+  "text": "Rumbledome Gladiator is a Dwarf enemy NPC that players are able to battle in The Rumbledome located in Sunstone Valley who's allegiance is with the Skullz.\n\nCategory:Skullz\nCategory:NPC\nCategory:Enemies\nCategory:Dwarves\nCategory:Sunstone Valley"
+ },
+ "images": [],
+ "video": [
+  "video:MGbXhwbWFV4/00118.jpg (The Rumbledome): npcs: Rumbledome Gladiator nameplate  | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00130.jpg (The Rumbledome): npcs: Rumbledome Gladiator nameplate  | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00082.jpg (The Rumbledome): npcs: Announcer chat_speaker  Rumbledome Gladiator nameplate  | dialog: Announcer: Our next challenger spent years sparring with the manguana hunters in the Sandscale Oasis. He is - SILVERFIST! | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena cen",
+  "video:MGbXhwbWFV4/00084.jpg (The Rumbledome): npcs: Announcer chat_speaker  Rumbledome Gladiator nameplate  | dialog: Announcer: Our next challenger spent years sparring with the manguana hunters in the Sandscale Oasis. He is - SILVERFIST! | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena cen"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

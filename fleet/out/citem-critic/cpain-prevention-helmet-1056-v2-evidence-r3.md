@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpain-prevention-helmet-1056-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3862, 7781, 6, 1188] model=claude-haiku-5-5 -->
+# Pain Prevention Helmet
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence / open", "issue": "The answer states 19 definitions share the name, but the evidence pack lists only 12 definition_ids (584, 585, 586, 2243, 18798, 18799, 18805, 18806, 18808, 18810, 18811, 18813). The open item 'other 16+ definitions' does not reconcile with either count. The answer should give the full 19 ids or say that only 12 were captured.", "fix": "Client definitions: the pack's client_definition.definitions = 19, but definition_ids lists 12 (ClientItemDefinitions.json via the FreeRealms-Legacy reference). Either list all 19 or state 'definitions: 19, ids captured: 12'."}]}

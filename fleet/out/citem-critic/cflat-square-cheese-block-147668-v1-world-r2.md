@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cflat-square-cheese-block-147668-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3986, 8435, 6, 1048] model=claude-haiku-5-5 -->
+# Flat Square Cheese Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "The 'live: yes' status rests only on store-data presence (stores.json row with no_sale false and the L/R/T source tags). Nothing in the pack dates the Coin Shop listing or confirms it is still sold today. The answer's own open list says retirement is unknown, so 'yes' is stronger than the evidence.", "fix": "Keep retired null, but mark live as 'probably' or 'unverified' unless a dated listing or live check is added. Store row repo:prototype/osfr-tools/data/content/stores.json:11940 (item 36469, category 147, tint group 3, 1000 coins, member 900, sell 100, no_sale false) and the articleId=1435 developer article both check out as stated."}]}

@@ -1,0 +1,70 @@
+{
+ "title": "Drone Fauzz",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 38510,
+   "definition_id": 1237001,
+   "model_id": 220,
+   "max_health": 260,
+   "damage": 10,
+   "boss": true
+  },
+  {
+   "file": "dungeons\\bixie_hive.json"
+  },
+  {
+   "file": "dungeons\\bixie_hive.json"
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:38510 [npc_name | - | Drone Fauzz] 'Drone Fauzz'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:16784 [quest_objective | - | Drone Fauzz] 'Drone Fauzz is trying to take over the hive! Help Queen Bixie regain control by defeating Drone Fauzz!'",
+  "locale:38510 [npc_name | - | Drone Fauzz] 'Drone Fauzz'",
+  "locale:38640 [npc_dialog | - | Drone Fauzz] 'Drone Fauzz prepares for a big attack!'",
+  "locale:38641 [npc_dialog | - | Drone Fauzz] 'Drone Fauzz is about to drink some honey!'"
+ ],
+ "client_cluster": [
+  "locale:38502 [other | - | - | FLAG dev_note: internal asset/color name \"base_01 blizzard\"] 'base_01 blizzard'",
+  "locale:38503 [other | - | - | FLAG dev_note: internal asset/color name \"base_01 rosepetal\"] 'base_01 rosepetal'",
+  "locale:38504 [other | - | - | FLAG dev_note: internal asset/color name \"base_01 grape\"] 'base_01 grape'",
+  "locale:38505 [other | - | - | FLAG dev_note: internal asset/color name \"base_01 violet\"] 'base_01 violet'",
+  "locale:38506 [other | - | - | FLAG dev_note: internal asset/color name \"base_01 pumpkin\"] 'base_01 pumpkin'",
+  "locale:38507 [other | - | - | FLAG dev_note: internal asset/color name \"base_01 raincloud\"] 'base_01 raincloud'",
+  "locale:38508 [npc_name | Memorial Caverns | Memorial Cavern Mom] 'Memorial Cavern Mom'",
+  "locale:38509 [npc_name | Memorial Caverns | Memorial Caverns Son] 'Memorial Caverns Son'",
+  "locale:38510 [npc_name | - | Drone Fauzz] 'Drone Fauzz'",
+  "locale:38511 [npc_dialog | - | Vergosh] \"Dat Vergosh always be thinkin' we trolls not workin'. You tell him we workin' OK?\"",
+  "locale:38514 [quest_title | - | Loyal Bixie Gatherer] 'Loyal Bixie Gatherer'",
+  "locale:38515 [quest_objective | - | Loyal Bixie Gatherer] ' Talk to Nog'",
+  "locale:38516 [quest_objective | - | Loyal Bixie Gatherer] \"Find Nog's camp and make sure he's hard at work!\"",
+  "locale:38518 [quest_objective | - | Loyal Bixie Gatherer] ' Return to Vergosh'"
+ ],
+ "wiki": {
+  "title": "Drone Fauzz",
+  "text": "Drone Fauzz is a bixie NPC boss that can be found in the Bixie Hive, located in Sanctuary. He is a bixie drone who trying to take over the hive, and it is up to the player to come for help Bixie Queen regain control by defeating Drone Fauzz.\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Bixie\nCategory:Sanctuary"
+ },
+ "images": [
+  "image (image:character_or_npc): Drone Fauzz"
+ ],
+ "video": [
+  "video:5_U-uAzDuR4/00190.jpg (Bixie Hive): npcs: Drone Fauzz nameplate  Frightened Bixie Worker nameplate  | dialog: Bixie Queen: Fauzz, it breaks my heart that you would betray me! | quest:   Save the Queen from unruly Bixies. Bonus: Save the Frightened Bixie Workers!  | job_level: Brawler 9 | other_text: Goal Complete! ",
+  "video:5_U-uAzDuR4/00188.jpg (Bixie Hive): npcs: Bixie Queen chat_speaker  Drone Fauzz nameplate  | dialog: Bixie Queen: Fauzz, it breaks my heart that you would betray me! | quest:   Save the Queen from unruly Bixies. Bonus: Save the Frightened Bixie Workers!  | job_level: Brawler 9 | other_text: You don't have enough en"
+ ],
+ "article_facts": [
+  "fact:quest: Sunflower explains that Drone Fauzz led an uprising of unruly bixies and captured the queen; the main objective is rescuing Queen Bixie, with bonus credit for freeing frightened workers. | Drone Fauzz has led an uprising of unruly bixies and captured the queen (http://www.tentonhammer.com:80/node/67379)",
+  "fact:npc: Drone Fauzz is a boss who spawns after the four waves are beaten, at the point where the lobster's tail meets the body; he is an Unruly Elite with high defense, attack and hit points, and a charged knockdown special attack. The guide advises drinking a health  (http://www.tentonhammer.com:80/node/67379)",
+  "quest: Sunflower Southwest of Sanctuary; instance (Bixie Hive) Talk to Sunflower southwest of Sanctuary to learn Drone Fauzz has captured the queen. Enter the lobster-shaped instance and defeat Unruly Warriors, Unruly Mages and Unruly Elites. Free Frightened Bixie Wo (http://www.tentonhammer.com:80/node/67379)",
+  "summary: A Ten Ton Hammer quest guide (posted 2009-04-29, after the April 2009 launch) walking through the Bixies Gone Bad instance: starting NPC Sunflower near Sanctuary, the lobster-shaped instance layout, enemy waves, the boss Drone Fauzz, and rewards. It was writte (http://www.tentonhammer.com:80/node/67379)"
+ ],
+ "quest_answers_naming_it": []
+}

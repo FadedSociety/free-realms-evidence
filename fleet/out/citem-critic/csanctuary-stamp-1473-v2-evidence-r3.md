@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csanctuary-stamp-1473-v2-evidence-r3 status=done turns=4 usd=0.0028 tokens(read,write,in,out)=[27854, 14394, 10, 1458] model=claude-haiku-5-5 -->
+# Sanctuary Stamp
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open", "issue": "The answer says the wiki Postman Stamps set lists Wilds, Briarwood, Chugawug, Penguin, Free Realms, Robgoblin, Ayani. It omits Snowhill Stamp, which is also in that list. This does not change the conclusion, since Sanctuary Stamp is absent from the full list.", "fix": "Postman Stamps list on wiki page 'Job Specific (Collections)' (freerealms-wiki/wikitext/2190-27853-ba6c0a72b278.wiki lines 511-518): Wilds, Briarwood, Chugawug, Penguin, Free Realms, Robgoblin, Ayani, Snowhill. Sanctuary Stamp is not listed, so the exclusion holds."}]}

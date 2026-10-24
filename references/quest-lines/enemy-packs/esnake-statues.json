@@ -1,0 +1,26 @@
+{
+ "title": "Snake Statues",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\floren_forest.json"
+  },
+  {
+   "file": "dungeons\\the_snarling_hedges.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

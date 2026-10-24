@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cupgraded-headers-67389-v2-evidence-r3 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3867, 4332, 6, 955] model=claude-haiku-5-5 -->
+# Upgraded Headers
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[3] and evidence[1] (citation hygiene)", "issue": "The answer still cites locale:1118874273, which the automatic id check flags as nonexistent. The open[3] note repeats it while saying it was corrected, and evidence[1] mentions it in its claim text. The text is harmless, but it is an invalid id in the answer.", "fix": "Remove the 1118874273 reference from open[3] and evidence[1]. Keep only the verified citation: locale:132478 is the item's description, 'This item can be added to the Kart Part Upgrades Collection'. Locale 67587 is the collection name 'Kart Part Upgrades'. I re-checked both with the locale tool."}]}

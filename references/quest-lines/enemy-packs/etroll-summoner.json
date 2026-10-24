@@ -1,0 +1,58 @@
+{
+ "title": "Troll Summoner",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 15623,
+   "definition_id": 930096,
+   "model_id": 168,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 15623,
+   "definition_id": 930096,
+   "model_id": 168,
+   "max_health": 900,
+   "damage": 4,
+   "boss": true
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:15623 [item | - | Troll Summoner] 'Troll Summoner'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:15623 [item | - | Troll Summoner] 'Troll Summoner'",
+  "locale:42081 [quest_objective | - | troll summoner] 'Defeat the troll summoner to complete the encounter.'",
+  "locale:140307 [quest_objective | Forest Troll Village | Troll Summoner] 'Defeat the Troll Summoner near the Forest Troll Village to end the kidnappings.'"
+ ],
+ "client_cluster": [
+  "locale:15615 [quest_objective | Sanctuary | Honey's Fields] \"Scout near Honey's Fields\"",
+  "locale:15617 [quest_objective | Sanctuary | Remote Mansion] 'Scout the area near the Remote Mansion. '",
+  "locale:15623 [item | - | Troll Summoner] 'Troll Summoner'",
+  "locale:15624 [item | - | Provisions Cache] 'Provisions Cache'",
+  "locale:15626 [place | - | 1 Sunrise St.] '1 Sunrise St.'",
+  "locale:15627 [place | - | 2 Sunrise St.] '2 Sunrise St.'",
+  "locale:15628 [place | - | 3 Sunrise St.] '3 Sunrise St.'",
+  "locale:15629 [place | - | 4 Sunrise St.] '4 Sunrise St.'",
+  "locale:15630 [place | - | 5 Sunrise St.] '5 Sunrise St.'",
+  "locale:15631 [place | - | 6 Sunrise St.] '6 Sunrise St.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:bLxqx_aCizY/00036.jpg (-): npcs: Mister Nooklings nameplate  Lan Spryleaf nameplate  | landmarks: large teal boulder tree canopy | job_level: Brawler 7 | other_text: Troll Summoner",
+  "video:bLxqx_aCizY/00046.jpg (-): npcs: Mister Nooklings nameplate  | landmarks: large tree trunk teal rock mound | job_level: Brawler 7 | other_text: Troll Summoner Lakeshore Bushel",
+  "video:bLxqx_aCizY/00060.jpg (-): npcs: Silas Emptyhook nameplate  | landmarks: lily-pad pond shaded bank | job_level: Brawler 7 | other_text: Brugo Troll Summoner Rich Silver Mining",
+  "video:bLxqx_aCizY/00042.jpg (-): npcs: Mister Nooklings nameplate  Lan Spryleaf nameplate  | landmarks: large tree trunk at left teal rock mound | job_level: Brawler 7 | other_text: Troll Summoner",
+  "video:bLxqx_aCizY/00044.jpg (-): npcs: Mister Nooklings nameplate  Lan Spryleaf nameplate  | landmarks: large tree trunk lily pads on water | job_level: Brawler 7 | other_text: Troll Summoner Lakeshore Bushel"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Ninja: Stolen Away' (final): Defeat the Troll Summoner",
+  "defeat target in 'Contract: Troll Magic' (final): Defeat Troll Summoners (same intro text)."
+ ]
+}

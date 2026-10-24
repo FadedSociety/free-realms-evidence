@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crascal-celestial-ring-86303-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3615, 4299, 6, 835] model=claude-haiku-5-5 -->
+# Rascal Celestial Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer lists the Rascal necklace series as 86531-86539 and the 9-ring series as 86296-86304 without a locale cite for the necklace range. My check confirmed only locale:86303 for this name; the necklace range was not re-verified here.", "fix": "Verify the necklace locale range against the client text table (locale tool) before citing it. Otherwise the answer stands: no store, quest, drop, vendor, recipe or wiki source exists for this item in the pack or in my lookups (lookup on 'Rascal Celestial Ring' returns only client:locale 86303; repo search for 86303, 'Celestial Ring' and 22312 returns no item binding)."}]}

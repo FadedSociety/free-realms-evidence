@@ -1,0 +1,51 @@
+{
+ "title": "Lost Explorer",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000040,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Spirit shown after the bones are gathered",
+   "location_evidence": [
+    "Cracked Claw Caverns"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:139363 [quest_title | Cracked Claw Caverns | Lost Explorer] 'Lost Explorer'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:139363 [quest_title | Cracked Claw Caverns | Lost Explorer] 'Lost Explorer'",
+  "locale:139366 [quest_dialog | Cracked Claw Caverns | Lost Explorer] 'The bones crumble and a tormented spirit materializes!'",
+  "locale:139367 [quest_objective | Cracked Claw Caverns | Lost Explorer] 'Release the trapped spirits of the explorers lost within Cracked Claw Caverns!'",
+  "locale:139368 [quest_dialog | Cracked Claw Caverns | Lost Explorer] 'Some intrepid explorers have been lost within the ancient cave.  Help them to find their final rest.'",
+  "locale:139369 [quest_dialog | - | Lost Explorer] \"I don't think you're strong enough yet. Come back when you have learned some more spells.\""
+ ],
+ "client_cluster": [
+  "locale:139355 [npc_name | - | Emahl] 'Emahl'",
+  "locale:139357 [quest_dialog | - | Emahl] \"You think you've stopped me? You've only slowed me down a little. The PCA will be back stronger than ever. You just wait! We WILL win in the end, postman!\"",
+  "locale:139358 [quest_dialog | - | Emahl] \"We'll be waiting, Emahl!\"",
+  "locale:139359 [item | - | Lost Explorer Bones] 'Lost Explorer Bones'",
+  "locale:139360 [npc_dialog | - | Yaren] 'Better get stronger so you can learn that fire spell. Yaren might appreciate it...'",
+  "locale:139363 [quest_title | Cracked Claw Caverns | Lost Explorer] 'Lost Explorer'",
+  "locale:139364 [ability | - | Strong Kick] 'Strong Kick'",
+  "locale:139365 [quest_objective | - | Bandit Hideout - kickback | FLAG fragment: unclear quest meaning] 'Bandit Hideout - kickback'",
+  "locale:139366 [quest_dialog | Cracked Claw Caverns | Lost Explorer] 'The bones crumble and a tormented spirit materializes!'",
+  "locale:139367 [quest_objective | Cracked Claw Caverns | Lost Explorer] 'Release the trapped spirits of the explorers lost within Cracked Claw Caverns!'",
+  "locale:139368 [quest_dialog | Cracked Claw Caverns | Lost Explorer] 'Some intrepid explorers have been lost within the ancient cave.  Help them to find their final rest.'",
+  "locale:139369 [quest_dialog | - | Lost Explorer] \"I don't think you're strong enough yet. Come back when you have learned some more spells.\"",
+  "locale:139371 [quest_title | - | Frog Trap] 'Frog Trap'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:0egOV5hzmjI/00038.jpg (-): npcs: Lost Explorer nameplate  | quest: Burial Service  Collect lost explorer bones Return to Vasher  | job_level: Ninja  | other_text: Burial Service Collect lost explorer bones Lost Explorer Bones Goals (2)",
+  "video:0egOV5hzmjI/00040.jpg (-): npcs: Lost Explorer nameplate  | quest: Burial Service  Collect lost explorer bones Return to Vasher  | job_level: Ninja  | other_text: New Goal You receive 10 stars and 42 coins Lost Explorer Bones Goals (2)",
+  "video:0egOV5hzmjI/00036.jpg (-): npcs: Lost Explorer nameplate  | quest: Burial Service  Collect lost explorer bones  | landmarks: blue crystal cavern glowing spirit column | job_level: Ninja  | items_seen: Lost Explorer Bones | other_text: Goal Complete Burial Service Collect lost explorer bones The bones crumb",
+  "video:0egOV5hzmjI/00034.jpg (-): npcs: Lost Explorer nameplate  | dialog: The bones crumble and a tormented spirit materializes! | quest: Burial Service  Collect lost explorer bones  | job_level: Ninja  | other_text: Goal Complete Lost Explorer Bones Goals (2) Ninja Strike from the Shadows Goal Complete Burial S",
+  "video:0egOV5hzmjI/00042.jpg (-): npcs: Lost Explorer nameplate  | quest: Burial Service  Return to Vasher  | job_level: Ninja  | other_text: New Goal Burial Service Return to Vasher You receive 10 stars and 42 coins Lost Explorer"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

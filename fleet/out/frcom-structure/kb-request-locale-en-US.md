@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=kb-request-locale-en-US status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 1888, 4, 580] model=claude-haiku-5-5 -->
+# Free Realms - Error 0000
+
+{"article": {"title": "Free Realms - Error 0000", "date": "2009-08-19", "author": null, "type": "other"}, "about_free_realms": true, "summary": "This freerealms.com knowledgebase page is only a generic error message (\"there was a problem with the last action\", error code 0000) with site footer links for Parents, Legal, Help & Support, Privacy Policy, Terms of Service and Photosensitive Warning. It contains no game content, so it gives a rebuilder no quest, item, price, event or mechanic data.", "facts": [], "quests": [], "uncertain": ["The capture date is taken from the Wayback timestamp 20090819; the page itself shows no date.", "The page has no author and no game information; the error text does not identify which action failed."]}

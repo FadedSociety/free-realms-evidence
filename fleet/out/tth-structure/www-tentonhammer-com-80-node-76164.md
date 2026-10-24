@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-76164 status=nothing_found turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 6605, 4, 569] model=claude-haiku-5-5 -->
+# Join Runes of Magic for the Halloween Pumpkin Festival | Ten Ton Hammer
+
+{"article": {"title": "Join Runes of Magic for the Halloween Pumpkin Festival", "date": "2009-10-29", "author": "Martuk", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer news post is about Runes of Magic's Taborean Pumpkin Festival Halloween event, not Free Realms. The only Free Realms mention is a sidebar ranking line ('Free Realms up 4 to #19') and an MMO list entry, which give no game facts, so no facts are extracted.", "facts": [], "quests": [], "uncertain": ["Free Realms appears only in the site's 'Recently Popular' sidebar and the MMO directory list; the article body is entirely about Runes of Magic."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-valiant-guardian-helm-135636-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3785, 6857, 6, 1077] model=claude-haiku-5-5 -->
+# Elite Black Valiant Guardian Helm
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The source is a coin-store catalog row (category 101, purchase_price_coins 9453) with no named vendor NPC. Labelling it 'vendor' goes slightly beyond the row, which only evidences a coin-store listing. The answer does flag the vendor as unconfirmed, so this is a labelling nuance rather than a false claim.", "fix": "Keep the source as a coin-store listing: stores.json line 13038, item_id 46636, category 101, purchase_price_coins 9453, member_price_coins 8507, sell 945. Record the vendor as unknown until source_tags (L1, L2, L4, R2, T633, R1) are decoded."}]}

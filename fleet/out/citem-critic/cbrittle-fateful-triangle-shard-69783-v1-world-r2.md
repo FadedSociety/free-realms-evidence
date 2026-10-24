@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrittle-fateful-triangle-shard-69783-v1-world-r2 status=done turns=4 usd=0.0036 tokens(read,write,in,out)=[32454, 17681, 10, 2103] model=claude-haiku-5-5 -->
+# Brittle Fateful Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / open", "issue": "Minor: the answer says category 121 is unlabelled in the repo, which is accurate for stores.json. I checked: no category-name table for stores.json exists, and the only 'id': 121 hit is collection_catalogue.json (a separate id namespace, collection entry 121, category_id 8), so it does not label store category 121. The vendor attribution therefore stays unconfirmed, as the answer says.", "fix": "No change needed. Keep the vendor as 'unnamed coin store (stores.json category 121)' and do not link it to the collection entry 121."}]}

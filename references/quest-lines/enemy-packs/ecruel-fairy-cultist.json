@@ -1,0 +1,40 @@
+{
+ "title": "Cruel Fairy Cultist",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 141196,
+   "definition_id": 930056,
+   "model_id": 500,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "dungeons\\pixie_hunters.json",
+   "definition_id": 930056
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:141196 [npc_name | - | Cruel Fairy Cultist] 'Cruel Fairy Cultist'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:141196 [npc_name | - | Cruel Fairy Cultist] 'Cruel Fairy Cultist'"
+ ],
+ "client_cluster": [
+  "locale:141188 [quest_objective | - | Smelting Copper Bars] \"It looks like you bought some Singing Coal. Go ahead and <font color='#D9781A'>use the smelting fire next to me to smelt some Copper Bars</font>.<BR><BR>If you \"",
+  "locale:141190 [quest_objective | - | Sorin] \"Head over and <font color='#D9781A'>talk to Sorin</font> in the main area of these mines.\"",
+  "locale:141192 [quest_objective | - | Turquoise mining] 'Come back to me once you have some freshly mined turquoise. Just use any of the mining tools in this area.'",
+  "locale:141194 [quest_objective | Singing Crystal Mines | Shimmer Shinyaxe delivery] 'Not done with the delivery to Shimmer Shinyaxe in Dartmoor, I see.<BR><BR>If you need more turquoise you can mine it up here in the Singing Crystal Mines.<BR><B'",
+  "locale:141196 [npc_name | - | Cruel Fairy Cultist] 'Cruel Fairy Cultist'",
+  "locale:141197 [quest_objective | - | Hunter Surelytree] 'Head over and speak with Hunter Surelytree, across the camp.'",
+  "locale:141199 [item | - | Booming Blue Firefrackers] 'Booming Blue Firefrackers'",
+  "locale:141204 [item | - | Skylightning Firecracker] 'Skylightning Firecracker'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

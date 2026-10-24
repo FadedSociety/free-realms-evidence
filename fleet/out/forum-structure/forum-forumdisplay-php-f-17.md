@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=forum-forumdisplay-php-f-17 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3315, 4, 570] model=claude-haiku-5-5 -->
+# Avatars - Free Realms Forums
+
+{"article": {"title": "Avatars - Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This is a thread-list index for the 'Avatars' sub-forum under 'Fine Arts' on the Free Realms fan forum, captured 2009-05-26. It lists two threads ('hi' and 'Need an Av') and forum navigation, with no information about gameplay, quests, items, prices or mechanics. It offers nothing a rebuilder can use for the game itself.", "facts": [], "quests": [], "uncertain": ["The page only shows thread titles and dates (latest reply 05-09-2009, and 02-05-2009 for 'Need an Av'), with no post contents. The 03-29-2009 date appears beside an announcement about forum rules, not the game. No article date could be determined."]}

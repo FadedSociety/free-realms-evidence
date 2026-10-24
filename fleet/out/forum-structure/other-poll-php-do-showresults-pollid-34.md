@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=other-poll-php-do-showresults-pollid-34 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2262, 4, 597] model=claude-haiku-5-5 -->
+# Free Realms Forums - View Poll Results
+
+{"article": {"title": "Free Realms Forums - View Poll Results", "date": "2009-05-16", "author": null, "type": "other"}, "about_free_realms": false, "summary": "This is a fan-forum poll results page from the Free Realms Forums (Pixiewood Polls section) asking 'Cats or Dogs?'. It has 24 voters: Cats 8 (33.33%), Dogs 16 (66.67%). It contains no information about game mechanics, items, quests, prices, events or any other part of Free Realms, so it gives the rebuild nothing usable.", "facts": [], "quests": [], "uncertain": ["The capture date is given as 20090516 and the page footer shows 'The time now is 06:46 PM' with no article date, so the date is inferred from the capture only and is not a stated article date."]}

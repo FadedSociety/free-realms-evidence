@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwolf-t-shirt-v1-world-r2 status=done turns=4 usd=0.0037 tokens(read,write,in,out)=[25350, 18858, 10, 2154] model=claude-haiku-5-5 -->
+# Wolf T-Shirt
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "wireable", "issue": "The only source is a TCG Series 2 loot-card redemption with no price, quest, enemy or event. Under the wireable rule (an evidenced source with its price or its quest, enemy or event), this item is not wireable from the pack, even though the acquisition path is evidenced.", "fix": "Keep wireable false, or state the loot-card redemption as the acquisition path with a note that no price, quest or event is attached. Evidence: wiki Wolf_T-Shirt rev 38469 (Series 2 loot card, redeemed via communicator); image_text 'Wolf T-Shirt ... 2L30' (harvest/lists/image_text.json line 34952)."}]}

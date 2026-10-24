@@ -1,0 +1,64 @@
+{
+ "title": "Ice Troll Scout",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\ice_troll_scout.json"
+  },
+  {
+   "file": "dungeons\\ice_troll_scout.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:93277 [other | - | Ice Troll Scout | FLAG fragment: bare monster-name line, no quest meaning on its own] 'Ice Troll Scout!'",
+  "locale:116741 [npc_name | - | Ice Troll Scout] 'Ice Troll Scout'",
+  "locale:5102978 [npc_name | - | Ice Troll Scout] 'Ice Troll Scout'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:93277 [other | - | Ice Troll Scout | FLAG fragment: bare monster-name line, no quest meaning on its own] 'Ice Troll Scout!'",
+  "locale:116741 [npc_name | - | Ice Troll Scout] 'Ice Troll Scout'",
+  "locale:116805 [ability | Snowhill | Ice Troll Scout] 'Ability for wandering encounter - Ice Troll Scout'",
+  "locale:116829 [quest_objective | Snowhill | Ice Troll Scout] 'An ice troll is stealing from tourists! Find him and knock him out!'",
+  "locale:116830 [quest_objective | Snowhill | Ice Troll Scout] 'Defeat the Ice Troll Scout!'",
+  "locale:116831 [quest_objective | Snowhill | Ice Troll Scout] 'Find and defeat the Ice Troll Scout! Careful... He may try to ambush you!'",
+  "locale:116832 [quest_dialog | Snowhill | Ice Troll Scout] 'The Ice Trolls keep sending scouts to spy on the people of Snowhill! Find and beat up one of their scouts and show the Ice Trolls what happens when they mess wi'",
+  "locale:389478 [quest_objective | Snowhill | Ice Troll Scout] 'Defeat the Ice Troll Scout'",
+  "locale:389484 [quest_objective | Howling Hills | Ice Troll Scout] 'Defeat Ice Trolls in the Howling Hills, north of Snowhill.'",
+  "locale:5102978 [npc_name | - | Ice Troll Scout] 'Ice Troll Scout'"
+ ],
+ "client_cluster": [
+  "locale:93269 [quest_title | - | Thugawug Bandits!] 'Thugawug Bandits!'",
+  "locale:93270 [quest_title | - | Down by the River!] 'Down by the River!'",
+  "locale:93271 [quest_objective | - | Alpha Wolf] 'Alpha Wolf!'",
+  "locale:93272 [place | - | Oasis of Peril] 'Oasis of Peril!'",
+  "locale:93273 [quest_dialog | - | Retrieve Vicki's bow] 'The kids that took my bow ran into the Highroad Hijinx, the little brats. Can you go in there and get it back for me?'",
+  "locale:93274 [other | - | Petty Yetis | FLAG fragment: bare monster-name line, no quest meaning on its own] 'Petty Yetis!'",
+  "locale:93276 [other | - | Frostfang Growler | FLAG fragment: bare monster-name line, no quest meaning on its own] 'Frostfang Growler!'",
+  "locale:93277 [other | - | Ice Troll Scout | FLAG fragment: bare monster-name line, no quest meaning on its own] 'Ice Troll Scout!'",
+  "locale:93278 [quest_title | - | Retrieve Vicki's bow] \"Retrieve Vicki's bow\"",
+  "locale:93282 [quest_dialog | Seaside | Welcome to Seaside] \"Woah! Dude, it's rad that you decided to cruise to Seaside! Before you do anything crazy, you REALLY have to check out the view!<BR><BR><font color='#D9781A'>Wa\"",
+  "locale:93283 [quest_title | Seaside | Welcome to Seaside] 'Welcome to Seaside'",
+  "locale:93284 [quest_objective | Seaside | Welcome to Seaside] 'Spritzy has asked you to check out the view in Seaside.'",
+  "locale:93285 [npc_dialog | Seaside | Cole | FLAG duplicate: near-copy of 93335] \"Well, hello there mate! Glad to see you stop by. This is the Information Center, where all tourists' needs are assisted. \""
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Ice Troll Scout",
+  "image (image:character_or_npc): Ice Troll Scout\nArcheAge\n[small copyright line, illegible]"
+ ],
+ "video": [
+  "video:gEi7O6pbnQQ/00026.jpg (-): npcs: Willie nameplate  Lealin nameplate  | other_text: Ice Troll Scout Smelting Upgrade!",
+  "video:YxvolFOnaJM/00098.jpg (-): npcs: Smitty nameplate  | other_text: Ice Troll Scout 39m (red marker) Hot Springs Haven (label partly hidden) Smitty 108m Upgrade!",
+  "video:YxvolFOnaJM/00096.jpg (-): landmarks: Copper Mining (purple markers, 101m and 98m) | other_text: Copper Mining 101m Copper Mining 98m Ice Troll Scout 35m (red marker) Upgrade!",
+  "video:YxvolFOnaJM/00100.jpg (-): landmarks: Copper Mining (purple markers, 104m and 102m) | other_text: Copper Mining 104m Copper Mining 102m Ice Troll Scout 33m (red marker) Upgrade!",
+  "video:_a9VF878icg/00022.jpg (-): npcs: Lealin nameplate  Willie nameplate  | landmarks: Hot Springs Haven (88m) Smelting Furnace (89m) | job_level: Adventurer 15 | other_text: Ice Troll Scout (enemy nameplate, red marker, 46m) Smelting Furnace (purple marker, 89m) Upgrade!"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

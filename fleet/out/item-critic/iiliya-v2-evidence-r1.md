@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iiliya-v2-evidence-r1 status=done turns=3 usd=0.0026 tokens(read,write,in,out)=[13947, 12463, 8, 1807] model=claude-haiku-5-5 -->
+# Iliya
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The citation repo:notes/Build Guides/Content/Jobs/Wizard.md:54 supports only Things Left Unfinished and Filling in the Gaps. It does not name Dwarven Expertise, Consumed by the Past or Dead Ends, so the claim that 'the repo lists the same Wizard quests for her' is stated more broadly than that row supports. The precursor-city quests are backed by NPCs - Blackspore Swamp.md:203-206, and Wizard.md:210 also names them.", "fix": "Cite Wizard.md:54 only for Things Left Unfinished and Filling in the Gaps. Cite NPCs - Blackspore Swamp.md:203-206 and Wizard.md:210 for Dwarven Expertise, Consumed by the Past and Dead Ends. The wiki Quests list (rev 50399) matches this set."}]}

@@ -1,0 +1,31 @@
+{
+ "title": "Child's Play 2010",
+ "names_seen": [
+  "Child's Play 2010"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms took part in a Child's Play 2010 charity promotion running 21 to 31 December, where special in-game items could be bought with Station Cash.",
+   "numbers": {
+    "start_day": 21,
+    "end_day": 31,
+    "donation_per_purchase_usd": 10,
+    "donation_cap_usd": 50000
+   },
+   "era": "live",
+   "quote": "A partir de 21 au 31 décembre, Sony Online Entertainment continu de soutenir la noble cause avec des objets spécials en jeu que vous pouvez acheter avec Station Cash.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1978&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1978&request_locale=en_US",
+   "date": null,
+   "title": "Child's Play 2010!",
+   "summary": "An SOE news post (French-language text on the archived page) announcing the Child's Play 2010 charity promotion. From 21 to 31 December, Station Cash purchases of special in-game items supported the charity, with SOE donating $10 per purchase up to a $50,000 maximum. Free Realms' promotional item was a domestic penguin pet, one of several items across SOE's games."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

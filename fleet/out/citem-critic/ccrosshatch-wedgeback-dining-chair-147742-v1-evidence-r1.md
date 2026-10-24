@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccrosshatch-wedgeback-dining-chair-147742-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3884, 8065, 6, 1108] model=claude-haiku-5-5 -->
+# Crosshatch Wedgeback Dining Chair
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' although no vendor is identified anywhere in the pack. The only evidence is a store-data row, so the source is a coin store listing with an unknown vendor, not a named vendor source.", "fix": "Relabel as type 'coin_store' (or 'store_category_53, vendor unknown'). The evidence in repo:prototype/osfr-tools/data/content/stores.json:12014 supports only a coin store listing: item_id 36543, category_id 53, purchase 50, member 45 (10%), sell 5, no_sale false. Those figures match the client coin_store_prices [50]."}]}

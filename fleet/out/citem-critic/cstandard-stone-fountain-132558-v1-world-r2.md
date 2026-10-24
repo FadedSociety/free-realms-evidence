@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstandard-stone-fountain-132558-v1-world-r2 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[9063, 5551, 8, 1029] model=claude-haiku-5-5 -->
+# Standard Stone Fountain
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "The stores.json row for item 36145 carries source_tags [\"L1\",\"R1\",\"L4\",\"R1\",\"R3\",\"R1\"], which the evidence pack does not mention. The answer calls category 57 undocumented and leaves the row unused, which is honest, but the tags are a possible lead the answer omits.", "fix": "Report the source_tags on the 36145 store row as an unexplained lead (not a source). Category 57 meaning is still undocumented; no price is recorded, so no coin vendor source can be claimed."}]}

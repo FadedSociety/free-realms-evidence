@@ -1,0 +1,57 @@
+{
+ "title": "Necrolaceous",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\dark_spore_depths.json"
+  },
+  {
+   "file": "dungeons\\dark_spore_depths.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:4580 [npc_name | - | Necrolaceous] 'Necrolaceous'",
+  "locale:10292 [npc_name | - | Necrolaceous] 'Necrolaceous'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:4580 [npc_name | - | Necrolaceous] 'Necrolaceous'",
+  "locale:10292 [npc_name | - | Necrolaceous] 'Necrolaceous'",
+  "locale:20237 [quest_objective | - | Necrolaceous] \"Defeat Necrolaceous's fungal guardians to anger him to face you in combat.\"",
+  "locale:92413 [quest_title | - | Necrolaceous] 'Defeat Necrolaceous!'",
+  "locale:92414 [quest_objective | - | Necrolaceous] 'Defeat the powerful fiend that calls this place home. Survival is key or risk being turned into a shambler!'",
+  "locale:92427 [npc_dialog | - | Necrolaceous] \"I'll drain your life!\"",
+  "locale:92480 [quest_objective | - | Necrolaceous] 'Necrolaceous, a giant mushroom shambler, is amassing a huge army! Defeat him before his army gets too big!'",
+  "locale:100482 [quest_objective | Briarwood | Necrolaceous] 'Defeat Necrolaceous in the Dark Spore Depths of Briarwood'"
+ ],
+ "client_cluster": [
+  "locale:4572 [ui | - | Style Cards] 'Hair Colors'",
+  "locale:4573 [ui | - | Style Cards] 'Eye Colors'",
+  "locale:4574 [ui | - | Style Cards] 'Facial Hair Styles'",
+  "locale:4575 [ui | - | Style Cards] 'Face Paints'",
+  "locale:4576 [ui | - | Style Cards] 'Wing Patterns'",
+  "locale:4577 [npc_dialog | - | -] 'UNICORN POWER!'",
+  "locale:4578 [quest_dialog | - | -] \"I hope my dad won't be mad!\"",
+  "locale:4579 [quest_dialog | - | -] 'Please hurry!'",
+  "locale:4580 [npc_name | - | Necrolaceous] 'Necrolaceous'",
+  "locale:4581 [npc_name | - | Fungal Soldier] 'Fungal Soldier'",
+  "locale:4582 [other | - | ManEathingPlant_04 | FLAG dev_note: internal asset name] 'ManEathingPlant_04'",
+  "locale:4584 [other | - | Miniboss | FLAG placeholder: profile label] 'Miniboss'",
+  "locale:4585 [other | - | Miniboss | FLAG placeholder: template text for minibosses] 'This is the basic profile for minibosses.'",
+  "locale:4586 [item | - | Bravery Biscuit] 'Bravery Biscuit'",
+  "locale:4587 [item | - | Bravery Biscuit] 'This biscuit summons a pet companion to help you in battle for 1 minute.'",
+  "locale:4588 [npc_name | - | Vine Golem | FLAG not_live: marked NOT LIVE] 'NOT LIVE - Vine Golem'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Necrolaceous"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

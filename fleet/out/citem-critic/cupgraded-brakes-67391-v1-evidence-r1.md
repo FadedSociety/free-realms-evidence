@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cupgraded-brakes-67391-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3742, 7165, 6, 1116] model=claude-haiku-5-5 -->
+# Upgraded Brakes
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].source", "issue": "The description is cited as locale:1118874273, which the automatic id check says does not exist in the client locale table. The text 'This item can be added to the Kart Part Upgrades Collection' does appear in the opening-journal-text-v2 data file under id 1118874273, but the client locale lookup returns it as locale:132478. The citation mixes a non-client id with the client id.", "fix": "Cite the description as locale:132478 (client locale lookup: 'This item can be added to the Kart Part Upgrades Collection'). Collection name locale:67587 'Kart Part Upgrades' is confirmed by the locale tool."}]}

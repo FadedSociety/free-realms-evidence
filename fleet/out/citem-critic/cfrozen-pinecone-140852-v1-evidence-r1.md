@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfrozen-pinecone-140852-v1-evidence-r1 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[12888, 10090, 8, 1323] model=claude-haiku-5-5 -->
+# Frozen Pinecone
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "Minor omission: the answer does not mention the item's icon. Refs (Resources/ImageSets.txt:1148) map icon 1826 to item_PineCone_frosted, and the asset manifest has a matching frosted icon set. The frosted look hints at a seasonal or winter-themed item, which is worth noting as a lead, though it is not evidence of a source.", "fix": "Add to open: 'Icon 1826 = item_PineCone_frosted (Resources/Images/ImageSets.txt:1148); suggests a winter or seasonal item, unconfirmed.' No source change is needed."}]}

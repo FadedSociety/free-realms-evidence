@@ -1,0 +1,24 @@
+{
+ "title": "Bone Bog Skeletons",
+ "our_entries": [
+  {
+   "file": "dungeons\\bone_bog_cemetery.json",
+   "definition_id": 930054
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:0LoQe5VZ0PY/00026.jpg (Bone Bog Cemetery): quest:   Defeat the cemetery landlord Bonus: Find and defeat the 3 Bone Bog Skeletons! - 0/3  | job_level: Brawler 20 | other_text: Goals (2)",
+  "video:TjpDl22Lwpk/00182.jpg (-): quest:   Defeat the cemetery banshee Bonus: Find and defeat the 3 Bone Bog Skeletons! - 1/3  | landmarks: Domed stone mausoleum Gravestones Bare dead tree | job_level: Archer 16 | other_text: Goals (2)",
+  "video:0LoQe5VZ0PY/00004.jpg (Bone Bog Cemetery): quest:   Defeat the cemetery landlord Bonus: Find and defeat the 3 Bone Bog Skeletons! - 0/3  | job_level: Brawler 20 | other_text: Grave Elemental (red enemy nameplate, enemy) Goals (2)",
+  "video:0LoQe5VZ0PY/00006.jpg (Bone Bog Cemetery): quest:   Defeat the cemetery landlord Bonus: Find and defeat the 3 Bone Bog Skeletons! - 0/3  | job_level: Brawler 20 | other_text: Grave Elemental (red enemy nameplate, enemy) Goals (2)",
+  "video:0LoQe5VZ0PY/00078.jpg (Bone Bog Cemetery): npcs: The Pumpkin Prince nameplate  | quest:   Defeat the cemetery landlord Bonus: Find and defeat the 3 Bone Bog Skeletons! - 0/3  | job_level: Brawler 20 | other_text: -2372 Goals (2)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

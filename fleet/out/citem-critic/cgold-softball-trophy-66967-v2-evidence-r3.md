@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgold-softball-trophy-66967-v2-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4061, 6100, 6, 1331] model=claude-haiku-5-5 -->
+# Gold Softball Trophy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].source", "issue": "Minor omission: the catalogue entry for this trophy (id 1229, item_definition_id 23354, lines 13242-13250) carries \"item_link\": \"sanctuary\", and the sibling entries do too. The answer does not mention this field, which is the only hint in the pack about where the trophy's acquisition lives. It is not an acquisition source, so the source list is still correct.", "fix": "Add a note that collection_catalogue.json entry 1229 has item_link \"sanctuary\" (repo:prototype/osfr-tools/data/content/collection_catalogue.json:13248-13249), and state that this does not by itself evidence how the trophy is earned."}]}

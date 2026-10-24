@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccoyote-juice-bottle-33952-v2-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4275, 9981, 6, 1300] model=claude-haiku-5-5 -->
+# Coyote Juice Bottle
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The only source is the Skullz Roughrider wiki drop list, which places that enemy in Sunstone Valley. The one in-game sighting of the bottle (video rWTxDOHv-eY/00054) is in a Sandscale fight, and enemies.json:5344 says the killer is unknown. The answer keeps this in open, so it is honest, but the 'where' field should not be read as confirmed in-game.", "fix": "Keep the Skullz Roughrider / Sunstone Valley source as 'wiki drop list, unrated' (wiki page Skullz Roughrider, freerealms-wiki/wikitext/7248-45434-624affb48648.wiki:17, confirmed by lookup). Record the Sandscale sighting as an unattributed sighting only (enemies.json:5344), not as a second source."}]}

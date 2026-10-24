@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetallic-grape-ring-99314-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3811, 8928, 6, 940] model=claude-haiku-5-5 -->
+# Metallic Grape Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' with no evidence either way. This is honest, but the first-pass 'live: yes' is unsupported, so 'unsure' is the correct state, not a fix target.", "fix": "Keep 'unsure'. Nothing in client, wiki, articles, video, repo or refs ties 99314 or definition 32195 to any acquisition, so no retired or live status can be inferred."}, {"field": "retired", "issue": "Null is correct given no source. The ring family cluster (locale:99309-99319) is only a naming pattern and cannot be used to assign a category.", "fix": "No change. A category would need a sibling item (e.g. Metallic Ocean Ring, locale:99312) with a named source."}]}

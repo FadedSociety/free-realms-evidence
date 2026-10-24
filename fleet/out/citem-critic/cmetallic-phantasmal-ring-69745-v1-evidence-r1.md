@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetallic-phantasmal-ring-69745-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3777, 4950, 6, 787] model=claude-haiku-5-5 -->
+# Metallic Phantasmal Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the 'Phantasmal' family is described as possibly tied to enemy or NPC drops, which is speculation. The family members I found (Phantasmal Rover Ring locale:42246, Hardwood, Granite, Jeweled, Dull, Rascal, Intern, Sneak, Grunt, and so on) are client-named items only, with no source line in the lookup. The answer already marks this as unconfirmed, so it does not fail the item.", "fix": "Keep the item unsourced. Say the family is client-only in the client text table (lookup: locale:42246, 69720, 69731, 69754, 86292, 86301, 86310, 86319, 86328) with no wiki, article, video or repo source found. Do not name a drop source until one is evidenced."}]}

@@ -1,0 +1,21 @@
+<!-- fleet job=test-audit id=tests-vendor-buy-sell-gateway-rs-L1 status=done turns=6 usd=0.0116 tokens(read,write,in,out)=[103056, 38043, 14, 11633] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/vendor_buy_sell_gateway.rs lines 1-872 of 872
+
+Reviewed `prototype/osfr-tools/tests/vendor_buy_sell_gateway.rs` lines 1-872 (whole file), plus the helpers it calls in `tests/common/gateway_vendor.rs`, `tests/common/vendor_fixture.rs` and `tests/common/vendor_purchase.rs`. No test is `#[ignore]`d, no early return skips a fixture, and the prices and stock are read from `stores.json`, not recomputed from the code under test. The main assertions (debit equals the stores.json price, `refused_buy`/`refused_sell` snapshot and save-byte checks, the header-sequence check in `the_round_trip_uses_no_dev_commands`, and the forged-price test) would catch the regressions they name. The findings below are the gaps I could confirm.
+
+- **[medium] tests/vendor_buy_sell_gateway.rs:809 two_players_at_the_same_vendor_keep_independent_wallets_and_shops - the name claims independent shops, but no assertion isolates one player's shop state from the other's.**
+  - Why it cannot catch a regression: the test only checks that each player's buy succeeds after the other has bought. A gateway where open-shop state is global (one shared `open shop` slot for all sessions) would still pass, because both sessions open the shop and buy successfully. Nothing closes or refuses in one session and then checks the other.
+  - Fix: after `first` buys, close or refuse in `first` (for example a 66/43 with no open shop after a relog or a 26/8 to a different vendor) and assert `second` still serves its own open shop with `buy_status == 1`. Alternatively, rename the test to drop "shops" and keep the wallet claim only.
+
+- **[low] tests/vendor_buy_sell_gateway.rs:1-4 (module doc) - the header says "every refusal [is] asserted to change neither `Gateway::snapshot()` nor the serialized save", but two refusals check only the snapshot.**
+  - The closed-shop refusal at lines 357-371 and the out-of-range interaction refusal at lines 637-652 compare `snapshot()` and `gameplay_changed`, but never compare the serialized save bytes. The `refused_buy`/`refused_sell` helpers (lines 149-208) do compare the bytes.
+  - Why it cannot catch a regression: a change that altered only the saved bytes without changing the snapshot would pass those two refusals. The current save path is probably a pure function of the snapshot, so the risk is low.
+  - Fix: route both refusals through a helper that also compares `saved_bytes(...)` before and after, or narrow the header wording to "every buy and sell refusal".
+
+- **[low] tests/vendor_buy_sell_gateway.rs:434-436 the_same_item_can_be_sold_once_through_165_5 - `assert_ne!(done[0].transaction, 0)` is the only check on the ledger transaction id.**
+  - Why it cannot catch a regression: any nonzero constant (for example a stale id reused across sales, or a fixed id) passes. The message says the sale "allocated a ledger transaction", which the check does not establish.
+  - Fix: assert that the transaction differs from the buy-back ledger id of the previous sale in the same session, or that a second sale gets a new id (`assert_ne!` between the first and second completions at lines 421-423 and 482-483).
+
+- **[low] tests/vendor_buy_sell_gateway.rs:28-31 (module comment on the `vendor_purchase` include) - the comment is inaccurate about what runs in this target.**
+  - The comment says it keeps "the shared module's canonical test" running here, and then says the representative buy/refusal proof "still runs in `vendor_stock_coverage`". The test that actually runs in this target from that module is `connect_with_logs_in_the_saved_character_guid` (`common/vendor_purchase.rs:37-53`), and the representative proof is not in this target. A future reader may believe the representative proof is covered here, or remove the include without losing that coverage.
+  - Fix: name the test that is kept (`connect_with_logs_in_the_saved_character_guid`) and state that the representative proof lives in `vendor_stock_coverage::representative_new_stock_buys_once_and_refuses_atomically`.

@@ -1,0 +1,41 @@
+{
+ "title": "Stone Heart's Hideaway",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 426971,
+   "definition_id": 1230300,
+   "model_id": 2056,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:426971 [place | - | Stone Heart's Hideaway] \"Stone Heart's Hideaway\""
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:426971 [place | - | Stone Heart's Hideaway] \"Stone Heart's Hideaway\""
+ ],
+ "client_cluster": [
+  "locale:426963 [ui | - | Snare | FLAG dev_note: internal ability tag] 'vday combat - basepop snare'",
+  "locale:426965 [quest_dialog | - | Heartbreakers] \"The Heartbreakers are running around and breaking people's hearts!  Go in and defeat them!\"",
+  "locale:426966 [ability | - | Hatred] 'Hatred'",
+  "locale:426967 [ui | - | Hatred | FLAG dev_note: internal ability tag] 'vday combat - basepop nuke'",
+  "locale:426968 [ability | - | Tough Love] 'Tough Love'",
+  "locale:426969 [ability | - | Tough Love] 'Beats up your opponents with the power of love! Damages all opponents in front of you.'",
+  "locale:426971 [place | - | Stone Heart's Hideaway] \"Stone Heart's Hideaway\"",
+  "locale:426972 [ability | - | Heart Attack] 'Heart Attack'",
+  "locale:426973 [ability | - | -] \"Use the power of love to make the opponent's heart skip a beat. Damages all opponents in front of you.\"",
+  "locale:426974 [quest_objective | - | Stone Heart] 'Stop Stone Heart by entering his hideout and defeating him in combat!'",
+  "locale:426977 [quest_objective | - | Stone Heart] 'Defeat Stone Heart'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "go target in 'Stone Heart's Hideaway' (final): Enter Stone Heart's hideaway on the western side of Merry Vale."
+ ]
+}

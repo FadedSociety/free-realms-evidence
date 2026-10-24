@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgrape-soda-2425-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3758, 5002, 6, 1128] model=claude-haiku-5-5 -->
+# Grape Soda
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "States as fact that locale:262 'FX Food - Grape Soda' means the item 'is part of the FX food effect set, not a named vendor or quest item'. The string confirms only that a name exists in the client text table. It does not rule out a vendor or quest link, so the 'not a vendor or quest item' part is an inference presented as evidence.", "fix": "Keep the locale:262 string as a name-level fact (locale:262 'FX Food - Grape Soda', verified). Mark the FX-set grouping and the 'not vendor/quest' reading as inference. Sources stay empty because lookup and repo search found no vendor, quest, drop or wiki entry for Grape Soda, locale 2425 or definition 83."}]}

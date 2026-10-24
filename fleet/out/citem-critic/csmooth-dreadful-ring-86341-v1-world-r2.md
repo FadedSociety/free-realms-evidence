@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmooth-dreadful-ring-86341-v1-world-r2 status=done turns=3 usd=0.0012 tokens(read,write,in,out)=[8494, 4765, 8, 1075] model=claude-haiku-5-5 -->
+# Smooth Dreadful Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Cites a shard-based link to 'opening-harvesting-native-20261009T132512Z/locale/en_us_data.dat' lines. That file is not in the evidence pack, and I could not confirm it. It is hedged as 'locale text only' and 'suggests', so it does not drive any source.", "fix": "Keep it as a hint only, or drop it. No recipe, vendor, quest, drop or wiki source names Smooth Dreadful Ring: lookup of 'Dreadful Ring' across wiki, articles and video returned no hits, and the repo search for 'Dreadful|22350' returned none. Client lines for the family (e.g. Dull, Sage, Sneak, Grunt Dreadful Ring at locale:86287-86332) do confirm the sibling set."}]}

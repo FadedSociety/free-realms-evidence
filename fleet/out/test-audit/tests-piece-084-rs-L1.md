@@ -1,0 +1,10 @@
+<!-- fleet job=test-audit id=tests-piece-084-rs-L1 status=done turns=6 usd=0.0081 tokens(read,write,in,out)=[67551, 27776, 14, 7968] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_084.rs lines 1-359 of 359
+
+Reviewed `tests/piece_084.rs` lines 1-359 against `src/restoration/piece_084.rs` (`VendorLedger::clear_transaction_history`, `sell`, `buy_back`, `record_purchase`, `snapshot`/`restore`). Nothing in the window cannot fail: the expected values (81, 135, 6_442_450_941, 4_611_686_014_132_420_609, the 1_000/1_081/1_135 coin ledger) are literals that the implementation does not produce by construction. No `#[ignore]`, no early returns, and the fixture the header cites (`CoinStoreItems.json` / `ClientItemDefinitions.json`, Id 79388 = Zipped Leather Jacket) exists under `refs`. Name claims in the window match their bodies.
+
+One gap found:
+
+- **[medium] tests/piece_084.rs:289 clearing_transaction_history_ends_buyback_eligibility - it never checks that transaction ids stay monotonic across a clear, which is the property the module documents for this exact operation.**
+  - Why it cannot catch a regression: `src/restoration/piece_084.rs:511-515` says "Ids keep counting up so a cleared history cannot hand a stale id to a fresh transaction." If `clear_transaction_history` also reset `next_transaction_id` to 1, the test still passes: after the clear, `buy_back(1, 2)` returns `UnknownTransaction` because the history is empty, and no sale is made afterwards, so no reused id is ever observed. A stale id 1 would then match the next real sale and could be bought back a second time.
+  - Fix: after line 296, add `let fresh = ledger.sell(MERCHANT, 1, 1).expect("sale after clear");` and `assert_eq!(fresh.transaction_id, 3, "cleared history must not reuse ids");`, then `assert_eq!(ledger.buy_back(1, 0).unwrap_err(), VendorError::UnknownTransaction);` to show the old id stays dead. Under the current code the ids would be 1 (cleared), 2 (fresh), so pin the value that the implementation actually yields and check the stale id 1 is refused.

@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-opening-journal-rs-L1 status=done turns=8 usd=0.0107 tokens(read,write,in,out)=[131714, 28556, 18, 11624] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/opening_journal.rs lines 1-668 of 668
+
+Window: `prototype/osfr-tools/tests/opening_journal.rs` lines 1-668. Most tests in the window check real behaviour: the `patch_self` byte layout, the Add/Update/turn-in packets, and rejection of corrupted or regressive input. The hand-computed expectations (0.125 and 0.5 progress, 27/23-byte packets, offset 29+4+107+8) match `src/opening_journal.rs`. Four findings follow, all in the ignored private-fixture tests or in name/assertion strength.
+
+- **[medium] tests/opening_journal.rs:553 private_all_51_goal_labels_map_without_changing_definitions_progress_or_live_keys - the name claims all 51 goal labels map, but only 24 labels are asserted and the body lets the other 27 keep their source text.**
+  - Why it cannot catch a regression: line 606 asserts `labels.len() == 24`. Line 638 uses `.unwrap_or(prior.objective_texts[index])`, so any goal absent from the mapping is required to equal the source text. A mapper that drops or fails to apply labels for goals outside those 24 still passes. Line 651 (`added.len() == 17`) and line 667 only test the count of packets and the checkpoint state, not label coverage.
+  - Fix: rename the test to reflect 24 mapped goals, or assert that the set of goals whose text changed is exactly the 24 keys in `labels` and that the remaining 27 are the ones the mapping file marks as unmapped. Also add `assert_eq!(labels.len(), 51 - unmapped_count)` with an explicit unmapped count.
+
+- **[medium] tests/opening_journal.rs:535 private_captured_journal_loads_and_only_the_proven_span_changes - the strongest check (full payload equality with the compiled `ReadFromJSON` oracle) is guarded by `if let Some(oracle)`, so it silently disappears when `OSFR_JOURNAL_ORACLE` is unset.**
+  - Why it cannot catch a regression: a run with only `OSFR_JOURNAL_CONTENT` and `OSFR_JOURNAL_SELF` set passes after checking only the prefix, the suffix, and one decoded objective. The field-writer output is never compared with the native oracle, and nothing reports that the check was skipped.
+  - Fix: make `OSFR_JOURNAL_ORACLE` required (`.expect(...)`, as the other env vars are), or assert that the oracle comparison ran, for example by printing a skip notice and failing if the variable is absent.
+
+- **[low] tests/opening_journal.rs:325 fresh_self_removes_inherited_quests_preserves_other_fields_and_native_current_counter - the name promises a "native current counter" check, but the body only asserts a zero completed/rewarded count at line 361 next to a comment, and the other two counter-like values (10 and 30, lines 364-365) are preserved root bytes.**
+  - Why it cannot catch a regression: nothing in the test defines or tests a "current counter" beyond the value 0. A change to how that counter is computed for a non-rewarded, non-visible future entry would only be caught if it happened to produce a nonzero value here.
+  - Fix: rename the test to what it checks (for example `fresh_self_removes_inherited_quests_and_resets_rewarded_count`), or add a case with one rewarded entry in the same patch and assert the counter becomes 1 at the same position.
+
+- **[low] tests/opening_journal.rs:316 optional_text_rejects_wrong_content_objective_ids_locale_and_conflicting_strings - the final rejection of a bad `opening.json` objective name is a bare `is_err()`, with no check for which rule rejected it.**
+  - Why it cannot catch a regression: the SHA is recomputed so the hash check is bypassed, but any unrelated error (a parse error, a different validation failure) would still satisfy `is_err()`. A regression that stops checking the objective `name_id` would be missed if another error fires first.
+  - Fix: match the error message or kind (for example `err.to_string().contains("objective")`) so the test fails when the specific objective-label check no longer fires.

@@ -1,0 +1,4 @@
+<!-- fleet job=quest-critic id=q3120010-v4-evidence-r5 status=no_submit turns=2 usd=0.0029 tokens(read,write,in,out)=[9191, 16743, 6, 1477] model=claude-haiku-5-5 -->
+# Pet Trainer: Mosey On Up
+
+{"lens": "evidence", "pass": true, "score": 4, "problems": [{"field": "previous", "issue": "'Pet Trainer: Achieve Level 10' has no client title, so the previous link rests only on the wiki order and the guide. The answer already flags this, and the chain note's 'matches no quest answer' is consistent with it.", "fix": "Keep it flagged as wiki-only. Do not wire a retail id for it; 3120009 is only the batch key."}, {"field": "evidence", "issue": "The answer cites repo 'notes/Research/Quest Audit.md:79' for the claim that Quest Audit flags giver absent or non-spawning. I did not open that file, so this citation is unverified.", "fix": "Read notes/Research/Quest Audit.md around line 79 before relying on the spawn-blocker claim, or drop the citation."}]}

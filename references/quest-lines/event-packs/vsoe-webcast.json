@@ -1,0 +1,47 @@
+{
+ "title": "SOE Community Webcast",
+ "names_seen": [
+  "SOE Community Webcast",
+  "SOE Webcast"
+ ],
+ "facts": [
+  {
+   "statement": "An SOE webcast about Free Realms was scheduled for Thursday, October 6, 2011 at 4:00 p.m. US Pacific Time, streamed live on the Stickam SOE channel and expected to last about 20 minutes.",
+   "numbers": {
+    "start_hour_pacific": 16,
+    "duration_minutes": 20
+   },
+   "era": "live",
+   "quote": "Join us on Thursday, October 6, 2011, at 4:00 p.m. US Pacific Time",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2292",
+   "date": null
+  },
+  {
+   "statement": "SOE held a community webcast on Free Realms to present the Sunstone Valley area and other game changes, hosted by producer Harvey Burgess with designers Eric Hankins and Chris Fritchoff.",
+   "numbers": {
+    "duration_minutes": 15,
+    "start_hour_CET": 1
+   },
+   "era": "live",
+   "quote": "Seid am Donnerstag dem 30. August, 2012 um 1:00 CET auf Twitch TV mit dabei!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2748",
+   "date": "2012-08-30"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2292",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This official SOE news post announces a Free Realms webcast (Thursday, October 6, 2011, 4:00 p.m. US Pacific, streamed on the Stickam SOE channel, about 20 minutes) previewing the Spooktacular event, Farming updates, and the new mini-game \"Spot the Difference\". It is a schedule announcement and gives no mechanics, rewards or item details."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2748",
+   "date": "2012-08-30",
+   "title": "SOE Community Webcast: Free Realms erkundet das Sonnenstein-Tal",
+   "summary": "A German-language SOE news post announcing a community webcast (about 15 minutes, on Twitch TV) in which the producer and two designers would present the new Sunstone Valley area and other upcoming Free Realms changes. The post gives the webcast date and length but no details of the area's contents. The page's own date is not shown; the date given here is the webcast date, taken from the text."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

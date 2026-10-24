@@ -1,0 +1,42 @@
+{
+ "title": "Champion Pengubowler",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\hot_springs_haven.json"
+  },
+  {
+   "file": "dungeons\\hot_springs_haven.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:41652 [quest_title | - | Champion Pengubowler] 'Champion Pengubowler'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:41652 [quest_title | - | Champion Pengubowler] 'Champion Pengubowler'",
+  "locale:41654 [quest_dialog | - | Champion Pengubowler] 'Those fires scared off my sheep, and they are due for a good shearing!<BR><BR>Think you could find them and shear them for me?'",
+  "locale:417467 [quest_objective | Hot Springs Haven | Champion Pengubowler] 'Enter Hot Springs Haven and defeat the Champion Pengubowler.'",
+  "locale:417468 [quest_objective | Hot Springs Haven | Champion Pengubowler] 'Defeat the Champion Pengubowler'",
+  "locale:417472 [quest_dialog | Hot Springs Haven | Champion Pengubowler] 'What are you waiting for?! Those poor penguins in Hot Springs Haven are getting... bowled... as we speak! Go get that awful Champion Pengubowler!'"
+ ],
+ "client_cluster": [
+  "locale:41645 [quest_dialog | Merry Vale | Ambassador to Snowhill | FLAG not_live: neighbouring quest marked NOT LIVE] \"You've spoken to everyone? Very good! It sounds as if Kiel will come, Clara might come, and Smitty is too busy? Well, hopefully Smitty will reconsider! He's mis\"",
+  "locale:41651 [quest_title | Merry Vale | Ambassador to Seaside | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - Ambassador to Seaside'",
+  "locale:41652 [quest_title | - | Champion Pengubowler] 'Champion Pengubowler'",
+  "locale:41654 [quest_dialog | - | Champion Pengubowler] 'Those fires scared off my sheep, and they are due for a good shearing!<BR><BR>Think you could find them and shear them for me?'",
+  "locale:41658 [quest_dialog | - | Find Bo's missing sheep] 'You found my precious sheep, and look at all that wool! Thank you so much.'",
+  "locale:41659 [quest_title | - | Ambassador to Snowhill] 'Ambassador to Snowhill'",
+  "locale:41660 [quest_objective | - | Ambassador to Snowhill] 'Travel to Snowhill to speak with its residents about visiting Merry Vale.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

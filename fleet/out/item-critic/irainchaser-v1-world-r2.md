@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=irainchaser-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3414, 7641, 6, 1254] model=claude-haiku-5-5 -->
+# Rainchaser
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the Rainchaser quest and challenge rewards 'were not in this pack, so they were not recorded.' The repo's Seaside notes do record some of them: Starfish Picking's offer shows 15 coins (video AW041GUrkus/00220), and Combo Challenge's completion frame shows 1 Wild T-Shirt. These are real sources for other items, but they are not sources for Rainchaser.", "fix": "Keep Rainchaser at no item sources. Optionally list the NPC's quest rewards as pointers to other items: Starfish Picking, 15 coins (notes/Build Guides/Content/NPCs/NPCs - Seaside.md row 75; seaside.json:34992), and Combo Challenge, Wild T-Shirt (same row). Do not attach them to Rainchaser."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-wind-ring-96395-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3443, 7878, 6, 897] model=claude-haiku-5-5 -->
+# Dull Wind Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence / family claim", "issue": "The answer lists the Dull/Smooth ring family but omits the sibling 'Dull Wind Necklace' (locale 98005316 in en_us_data.dat, ugdt 2093129301) and 'Dull Air Necklace' (ugdt 2318141678, ucdt 3294441124). The necklace siblings are part of the same naming family and would be the first place to look for a shared source.", "fix": "Add the necklace siblings to the family list, noting that no source was found for them either (locale data: en_us_data.dat lines 2537, 55188, 61015, 87033)."}]}

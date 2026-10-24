@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=wbad-reputation-v1-evidence-r1 status=no_submit turns=3 usd=0.0019 tokens(read,write,in,out)=[16134, 8867, 8, 1278] model=claude-haiku-5-5 -->
+# Bad Reputation
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "other_lines[1] (locale_id 390387)", "issue": "390387 is third-person narration ('Sirdo in Blackspore wants you to steal...'), not a line Sirdo speaks. The binding still gives it speaker 'Sirdo \"Squirrel Chaser\"'. The NPC answer only ties it to Bad Reputation, which does not support a speaker. The binding's own open note concedes it is a summary.", "fix": "Set speaker to null, or role 'quest_summary', for 390387. Its source is locale:390387 (third-person text) and the sirdo NPC answer, which lists it as quest_other, not quest_dialog."}]}

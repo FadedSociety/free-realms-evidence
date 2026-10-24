@@ -1,0 +1,46 @@
+{
+ "title": "Super Fan Summer Sizzle",
+ "names_seen": [
+  "Super Fan Summer Sizzle"
+ ],
+ "facts": [
+  {
+   "statement": "The Super Fan Summer Sizzle promotion ran from Friday 12 August to Thursday 18 August 2011 and offered a 30% discount on Station Cash purchases.",
+   "numbers": {
+    "discount_percent": 30,
+    "start_day": 12,
+    "end_day": 18,
+    "month": 8,
+    "year": 2011
+   },
+   "era": "live",
+   "quote": "Du vendredi 12 août au jeudi 18 août 2011, bénéficiez d’une réduction* de 30% sur les achats de Station Cash!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2186",
+   "date": "2011-08-12"
+  },
+  {
+   "statement": "The Super Fan Summer Sizzle promotion's last day was August 18, 2011, when discounted Station Cash was available online.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Today's the last day of the Super Fan Summer Sizzle ! Get your discounted Station Cash online while you still can!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2218",
+   "date": "2011-08-18"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2186",
+   "date": "2011-08-12",
+   "title": "Super Fan Summer Sizzle- 12 août 2011",
+   "summary": "A French-language official news post announcing the Super Fan Summer Sizzle promotion, running Friday 12 August to Thursday 18 August 2011. It gives a 30% discount on Station Cash purchases with exclusions, plus one-day discounts on summer items under Item of the Day. It also mentions featured items at the Marketplace for participating games, without naming them."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2218",
+   "date": "2011-08-18",
+   "title": "Free Realms - What is New?",
+   "summary": "A short SOE 'Daily Special' news post dated August 18, 2011. It says the Super Fan Summer Sizzle promotion ends that day, with discounted Station Cash available online, and teases an Item of the Day, but the captured text does not name the item or give its details."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

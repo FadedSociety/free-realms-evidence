@@ -1,0 +1,48 @@
+{
+ "title": "Assistant Archy",
+ "our_entries": [
+  {
+   "file": "npcs/highroad_junction.json",
+   "npc_id": 9000000015,
+   "zone": "Highroad Junction",
+   "enemy_kind": "Harold's assistant: \"My boss, Harold, went after Hewey the bear, but now he's trapped in that cave behind me.\" (973814746)",
+   "location_evidence": [
+    "\"Near the wagons to my left\" (1624210645); \"he's to the east\" (1247952731); \"Assistant Archy can be found in Highroad Junction.\" (1397799865). [video: blue distance marker 17 m, fktAs_GRrjM/00318, /00342, /00572; quest giver \"Archy\" in the Brawler tracker, aveqYa4AVk8/00000]"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:116666 [npc_name | - | Assistant Archy] 'Assistant Archy'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:116666 [npc_name | - | Assistant Archy] 'Assistant Archy'",
+  "locale:399606 [quest_objective | Briarwood | Assistant Archy] 'Talk to Assistant Archy'",
+  "locale:407518 [quest_objective | Highroad Junction | Assistant Archy] 'Assistant Archy can be found in Highroad Junction.'"
+ ],
+ "client_cluster": [
+  "locale:116659 [quest_objective | Stillwater Crossing | Honey] 'As a chef, find Honey at the Queensfields, southwest of Stillwater Crossing.'",
+  "locale:116661 [quest_objective | Stillwater Crossing | Seth McGrobie] 'As a brawler, find Seth McGrobie who was last seen traveling southeast out of Stillwater Crossing.'",
+  "locale:116663 [quest_objective | Stillwater Crossing | Seth McGrobie] \"As a brawler, defeat Robgoblin Pondblasters to the east of Seth McGrobie's camp, outside of Stillwater Crossing.\"",
+  "locale:116665 [quest_objective | Blackspore | Virgil Veilmont] \"As a brawler, find Virgil Veilmont at the Mire's Edge cemetery, far to the south in Blackspore.\"",
+  "locale:116666 [npc_name | - | Assistant Archy] 'Assistant Archy'",
+  "locale:116668 [npc_name | - | Gravedigger Dustin] 'Gravedigger Dustin'",
+  "locale:116670 [quest_dialog | - | -] \"Help! My kart's power crystal is busted!\"",
+  "locale:116671 [quest_dialog | - | -] \"I can't believe I forgot to bring a spare power crystal...\"",
+  "locale:116672 [quest_dialog | - | -] \"Please! You've got to help me get another power crystal!\"",
+  "locale:116673 [other | - | Royal Vault | FLAG duplicate: same as 116674] 'Vault Runspeed Buff'",
+  "locale:116674 [other | - | Royal Vault] 'Royal Vault - Runspeed Game Buff'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:fktAs_GRrjM/00572.jpg (-): npcs: Raina Rush distance_marker  | quest: The Burden of Fame    | landmarks: village street | other_text: Active Quest! Coin Farmer Goldwrupp Assistant Archy Mining Practice Cooking Table",
+  "video:fktAs_GRrjM/00342.jpg (-): npcs: Raina Rush distance_marker  | quest: Highroad Cooking    | landmarks: lantern on a post blue rock | other_text: Quest Started! Chef: Highroad Cooking Mining Practice Assistant Archy Coin Farmer Goldwrupp",
+  "video:fktAs_GRrjM/00318.jpg (Highroad Junction): npcs: Zoren Orecrusher nameplate Miner Trainer Harold distance_marker  | quest: The Burden of Fame    | landmarks: wooden cart with a barrel crates village house | other_text: Warpstones Highroad Junction Warpstone Mining Practice Assistant Archy"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "giver of 'Brawler: Hewey's Escape!' (final, zone Highroad Junction)",
+  "talk target in 'Brawler: Hewey's Escape!' (final): Talk to Assistant Archy"
+ ]
+}

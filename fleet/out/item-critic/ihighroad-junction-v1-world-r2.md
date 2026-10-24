@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ihighroad-junction-v1-world-r2 status=no_submit turns=2 usd=0.0012 tokens(read,write,in,out)=[3841, 5453, 6, 900] model=claude-haiku-5-5 -->
+# Highroad Junction
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Pet Collar and Pet Supplies shops are listed on the wiki page as shops inside Highroad Junction, but the pack ties neither item to a price or vendor. A client lookup for 'Highroad Junction Pet Collar vendor' also returned nothing. The answer correctly leaves them out, and its open note asks for a rerun with the intended item.", "fix": "No change needed to the answer. If the intended item is a Pet Collar or Pet Supplies item, it needs its own evidence pack with the vendor and price from the wiki shop list."}]}

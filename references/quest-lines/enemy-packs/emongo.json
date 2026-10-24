@@ -1,0 +1,88 @@
+{
+ "title": "Mongo",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 20482,
+   "definition_id": 1240001,
+   "model_id": 168,
+   "max_health": 900,
+   "damage": 4,
+   "boss": true
+  },
+  {
+   "file": "dungeons\\king_of_the_ring.json"
+  },
+  {
+   "file": "dungeons\\king_of_the_ring.json"
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:20482 [npc_name | Croaking Vale | Mongo] 'Mongo'",
+  "locale:434613 [npc_name | - | Mongo] 'Mongo'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:4308 [npc_dialog | - | Mongo] '#Cap([*player*]) danced like a butterfly and stung like a bee... and down goes Mongo! Down goes Mongo!'",
+  "locale:9566 [quest_dialog | - | Mongo] \"That's some mighty fine brawlin' you did there with Mongo. I think I have met my new champion Brawler!\"",
+  "locale:20482 [npc_name | Croaking Vale | Mongo] 'Mongo'",
+  "locale:21770 [quest_dialog | Cobblestone Village | Mongo] \"Eh?  Wadda ya lookin' at?  A tough guy, eh?  Think you can go three rounds wit de champ?  Why I bet you couldn't go three rounds wit me grandma!<BR><BR>Let's se\"",
+  "locale:24338 [quest_objective | - | Mongo] 'Defeat Mongo!'",
+  "locale:24339 [quest_dialog | - | Mongo] 'Mongo is the king of the ring.  You could be king of the ring if you beat him!'",
+  "locale:24340 [quest_objective | - | Mongo] 'Knock out Mongo!'",
+  "locale:24341 [quest_objective | - | Mongo] 'Get a knock out on Mongo!'",
+  "locale:37316 [quest_dialog | - | Mongo] 'Six... seven. Mongo see you. Finish push up. You wait,'",
+  "locale:37317 [quest_dialog | - | Mongo] 'Mongo ready! You fight now!'",
+  "locale:47297 [quest_dialog | - | Mongo] \"Alright, are you ready to take on Mongo?<BR><BR>It won't be easy, he's tough and fights dirty, but I have faith in you.<BR><BR>Don't forget to <font size='20' c\"",
+  "locale:70416 [npc_dialog | - | Mongo] 'Are ya the next Ring King? Do ya have what it takes?'",
+  "locale:70417 [npc_dialog | - | Mongo] 'Ya look tough! Ya wanna try to beat Mongo?'",
+  "locale:70418 [npc_dialog | - | Mongo] \"Who's brave enough to challenge this troll?\"",
+  "locale:70419 [npc_dialog | - | Mongo] 'Everyone a yellow-livered coward? Step up! Step up!'",
+  "locale:94586 [quest_objective | Cobblestone Village | Mongo] 'Defeat Mongo in the brawling ring'",
+  "locale:94602 [quest_dialog | Cobblestone Village | Mongo] \"Mongo's reign is over! That mindless brute didn't stand a chance against your skillful display of brawling prowess. Now let Carlos know about your victory!\"",
+  "locale:103260 [quest_objective | - | Mongo] \"Have you talked to <font color= '#D9781A'>Carlos Brazenfist</font> about fighting Mongo? Remember, <font color= '#D9781A'>he's near the Brawling Ring to the eas\"",
+  "locale:103322 [quest_dialog | - | Mongo] \"Come on partner, <font color= '#D9781A'>I know you can beat Mongo</font>! <font color= '#D9781A'>Just click on the gate to get in there</font>, then you can rea\"",
+  "locale:431097 [quest_objective | - | Mongo] 'Interact with the gate to the Brawling Ring behind Carlos to fight Mongo.'",
+  "locale:434613 [npc_name | - | Mongo] 'Mongo'",
+  "locale:434948 [npc_dialog | Farmers Market | Mongo] 'Mongo: [Stomach rumbles]'",
+  "locale:434949 [npc_dialog | Farmers Market | Mongo] 'Mongo: Om nom nom nom.'",
+  "locale:434950 [npc_dialog | Farmers Market | Mongo] 'Mongo: Why we shop here again?'",
+  "locale:434951 [npc_dialog | Farmers Market | Mongo] 'Mongo: Mongo Smash!'",
+  "locale:436806 [quest_objective | - | Mongo] 'Use basic attacks on Mongo'",
+  "locale:436812 [quest_dialog | - | Mongo] \"Mongo is almost unbeatable, but if you listen to my advice you'll be able to take him down!  Start by using your Basic Attacks.\"",
+  "locale:436813 [quest_objective | - | Mongo] 'Use a super attack on Mongo.'",
+  "locale:436814 [quest_dialog | - | Mongo] 'Your basic attacks deal damage when you hit. Some even have bonus effects like stunning or knocking down your opponent.'",
+  "locale:436815 [quest_dialog | - | Mongo] 'Click the game dock button that shows your weapon to perform your basic attack!'"
+ ],
+ "client_cluster": [
+  "locale:20474 [quest_objective | Croaking Vale | Vine Golem Bear] 'Defeat the Vine Golem Bears.'",
+  "locale:20475 [quest_objective | Croaking Vale | Vine Golem Bear] 'Knock out 5 Vine Golem Bears.'",
+  "locale:20476 [quest_objective | Croaking Vale | Lost Pigs] 'Rescue the Lost Pigs.'",
+  "locale:20477 [quest_objective | Croaking Vale | Lost Pigs] 'Herd the lost Pigs out of the Vale.'",
+  "locale:20482 [npc_name | Croaking Vale | Mongo] 'Mongo'",
+  "locale:20483 [npc_name | Croaking Vale | Hooligan] 'Hooligan'",
+  "locale:20486 [npc_name | Croaking Vale | Pink Toad] 'Pink Toad'",
+  "locale:20487 [ability | Croaking Vale | Vine Golem Wolf] 'Spinning Blades for Vine Golem Wolf'",
+  "locale:20489 [npc_name | Croaking Vale | Robgoblin Warrior] 'Robgoblin Warrior'",
+  "locale:20490 [npc_name | Croaking Vale | Rogoblin Caster] 'Rogoblin Caster'"
+ ],
+ "wiki": {
+  "title": "Mongo",
+  "text": "Mongo was a troll NPC boss that could be found at Crossroads. He was the boss of the King of the Ring! dungeon.\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Troll\nCategory:Cobblestone Village\nCategory:No longer in-game"
+ },
+ "images": [
+  "image (image:world_screenshot): -254\nMongo"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Brawler: Bringing Back Brazenfist' (final): Defeat Mongo in the brawling ring",
+  "complete_dungeon target in 'Brawler: Honor Lost' (final): Defeat Mongo in the brawling ring"
+ ]
+}

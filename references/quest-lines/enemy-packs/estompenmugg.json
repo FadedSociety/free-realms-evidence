@@ -1,0 +1,55 @@
+{
+ "title": "Stompenmugg",
+ "our_entries": [
+  {
+   "file": "npcs/greenwood_forest.json",
+   "npc_id": 9500000321,
+   "zone": "Greenwood Forest",
+   "enemy_kind": "Muggenstomp's twin sister, \"the thugawug bandit saboteur\" (1024880524).",
+   "location_evidence": [
+    "\"The bandit camp west of here\" (896225437); in the open world, not the hideout."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:440719 [npc_name | - | Stompenmugg] 'Stompenmugg'",
+  "locale:441706 [quest_title | - | Stompenmugg] 'Stompenmugg'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:440719 [npc_name | - | Stompenmugg] 'Stompenmugg'",
+  "locale:441705 [quest_objective | - | Stompenmugg] 'While you were dealing with the bandit leader in the Bandit Hideout, we received news from our own scouts that Muggenstomp has a twin sister working out in the '",
+  "locale:441706 [quest_title | - | Stompenmugg] 'Stompenmugg'",
+  "locale:441707 [quest_objective | - | Stompenmugg] 'Glugmort, a chugawug tactician in the Greenwood Archer camp, has asked me to defeat the twin sister to the bandit leader and expert saboteur, Stompenmugg.'",
+  "locale:441825 [quest_title | Wilds South | Stompenmugg] 'SGRevamp - Wilds South - 2-5 - Stompenmugg'",
+  "locale:441826 [quest_objective | Wilds South | Stompenmugg] 'Defeat Stompenmugg, the thugawug bandit saboteur.'",
+  "locale:441827 [quest_objective | Wilds South | Stompenmugg] 'Defeat Stompenmugg'",
+  "locale:441829 [quest_objective | Wilds South | Stompenmugg] 'Return to Glugmort'",
+  "locale:442014 [quest_objective | Southern Wilds | Stompenmugg] 'Complete Stompenmugg.'",
+  "locale:4420155 [quest_objective | - | Stompenmugg] \"Find and defeat the Thugawug saboteur, <font color='D9781A'>Stompenmugg</font>, in the bandit camp west of here.\""
+ ],
+ "client_cluster": [
+  "locale:440711 [npc_name | - | Bixie Soldier] 'Bixie Soldier'",
+  "locale:440712 [npc_name | - | Bixie Battlemage] 'Bixie Battlemage'",
+  "locale:440713 [npc_name | - | Bixie Pikeman] 'Bixie Pikeman'",
+  "locale:440714 [npc_name | - | Buzzuz] 'Buzzuz'",
+  "locale:440715 [npc_name | - | Rebel Lieutenant] 'Rebel Lieutenant'",
+  "locale:440716 [npc_name | - | Bandit Patrolman] 'Bandit Patrolman'",
+  "locale:440717 [npc_name | - | Thugawug Stomper] 'Thugawug Stomper'",
+  "locale:440718 [npc_name | - | Thugawug Guardian] 'Thugawug Guardian'",
+  "locale:440719 [npc_name | - | Stompenmugg] 'Stompenmugg'",
+  "locale:440720 [npc_name | - | Thugawug Saboteur] 'Thugawug Saboteur'",
+  "locale:440721 [npc_name | - | Ninja Apprentice] 'Ninja Apprentice'",
+  "locale:440722 [npc_name | - | Ninja Ambusher] 'Ninja Ambusher'",
+  "locale:440723 [npc_name | - | Ninja Deceiver] 'Ninja Deceiver'",
+  "locale:440724 [npc_name | - | Jintaka] 'Jintaka'",
+  "locale:440725 [npc_name | - | Ninja Sensei] 'Ninja Sensei'",
+  "locale:440726 [npc_name | - | Cultist Initiate] 'Cultist Initiate'",
+  "locale:440727 [npc_name | - | Fairy Cultist] 'Fairy Cultist'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

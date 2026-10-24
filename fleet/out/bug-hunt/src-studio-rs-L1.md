@@ -1,0 +1,9 @@
+<!-- fleet job=bug-hunt id=src-studio-rs-L1 status=done turns=6 usd=0.0034 tokens(read,write,in,out)=[30787, 9914, 14, 3771] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/studio.rs lines 1-122 of 122
+
+Reviewed `prototype/osfr-tools/src/studio.rs` lines 1-122. The parsing, bounds and allocation logic are sound: head and body are both capped (`MAX_HEAD`, `MAX_BODY`), `data[head_end..]` is safe because `head_end` is found inside `data`, `truncate(length)` handles over-read, and `from_utf8`/`parse` errors propagate as `Err` rather than panicking. The only candidate I could show is a timeout gap:
+
+- **[low] prototype/osfr-tools/src/studio.rs:28 (and read loops at :38-42, :61-65) - the "short timeout" is a per-read timeout, not a total deadline, so a slow client can hold the gateway's single event loop for a very long time.**
+  - **Failure scenario:** with `--dev-tools` enabled, a local process connects to the studio port and sends one byte just under every 500 ms. Each `stream.read` succeeds before the 500 ms timeout fires, so the timeout never trips. Filling the 16 KB head takes about 2 hours, and a 1 MB body takes far longer. `poll_studio` runs inside `step()` before the UDP receive loop, so game packet handling stalls for the whole time.
+  - **Reach:** `osfr-gateway.rs:3672` (`step` calls `poll_studio`) → `poll_studio` at `:3820-3843`, which runs `studio::read_request` serially on up to 4 accepted streams → `studio.rs:26-69`. The only gate is `peer.ip().is_loopback()` at `:3827`, and the listener is bound to 127.0.0.1 only when `dev_tools` is set (`:3345-3346`). So the attacker must already be local, and the endpoint is a dev-only feature. That is why this is low severity.
+  - **Fix:** record `Instant::now()` at entry and return a timeout error from the read loops once the elapsed time exceeds a total budget (for example 1-2 s). Alternatively, set `read_timeout` to the remaining budget before each read.

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslop-bowl-147976-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3810, 5067, 6, 972] model=claude-haiku-5-5 -->
+# Slop Bowl
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail / evidence", "issue": "Article 1689 is cited as a Coin Shop housing source, but the lookup text for it is German-localized (\"Schüssel voller Geschlabber\"). It does name the Bowl of Slop as a Coin Shop housing item, so it corroborates article 1687, but its release date is unknown, as the answer's own open list says.", "fix": "Keep article 1687 as the primary source. Cite 1689 only as corroboration, with its German-variant status noted. Store row confirmed: repo stores.json item_id 18147, category_id 57, purchase_price_coins 100, member_price_coins 90 (10% discount), so the Coin Shop source and its prices hold."}]}

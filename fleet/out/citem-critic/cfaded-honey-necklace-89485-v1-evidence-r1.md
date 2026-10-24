@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-honey-necklace-89485-v1-evidence-r1 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3530, 4231, 6, 636] model=claude-haiku-5-5 -->
+# Faded Honey Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer leaves live as 'unsure' and lists no sources. That is an honest unknown, not a false claim. I re-ran the locale search and the lookup: the Faded family names (89312-89487) and the 89485 client line exist, and nothing in wiki, articles or video names the item.", "fix": "No change needed. Keep live 'unsure' and kind/source as open until a vendor, quest, drop or event source is found for the Faded necklace family (the locale names are the only evidence, locale:89312-89487)."}]}

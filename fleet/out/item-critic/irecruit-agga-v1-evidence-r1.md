@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=irecruit-agga-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3267, 5881, 6, 1081] model=claude-haiku-5-5 -->
+# Recruit Agga
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says nothing about the item-typed locale 72206 'Agga's bucket' (type item). It is a quest item tied to the 'Borrow Recruit Agga's bucket' objective (locale 72183/72184), so it is a quest object, not a reward or sale source. The answer should note it so a builder does not mistake it for Recruit Agga's item.", "fix": "Client locale 72206 is typed item 'Agga's bucket'; locale 72183/72184 'Borrow Recruit Agga's bucket' is its quest objective. No vendor, Station Cash, or reward evidence for it in the pack. Mention it as a related quest item, not an acquisition source."}]}

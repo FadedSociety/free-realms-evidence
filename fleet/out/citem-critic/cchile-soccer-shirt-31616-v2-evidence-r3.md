@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchile-soccer-shirt-31616-v2-evidence-r3 status=no_submit turns=2 usd=0.0018 tokens(read,write,in,out)=[3891, 8563, 6, 1307] model=claude-haiku-5-5 -->
+# Chile Soccer Shirt
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / coin price handling", "issue": "The answer correctly withholds a coin_shop source, but it does not explain the stores.json source_tags on the row (L1, L2, L4, R2, L3, L3). Those tags may point to vendor or location data that was not checked. The answer's claim that no vendor is named holds for the row fields, but the tags were left unexamined.", "fix": "Before fully closing the coin-price question, decode what the source_tags mean in stores.json (repo:prototype/osfr-tools/data/content/stores.json, rows 6606-6632). If they map to a vendor, record it as an unconfirmed lead. Otherwise keep the current 'no vendor evidenced' statement."}]}

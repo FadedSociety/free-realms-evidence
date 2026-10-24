@@ -1,0 +1,30 @@
+{
+ "title": "Community Team birthday party",
+ "names_seen": [
+  "Community Team birthday party"
+ ],
+ "facts": [
+  {
+   "statement": "The Community Team held an all-day birthday party where the party moved to a different location each hour, and Community Team members hid nearby to hand out birthday cake.",
+   "numbers": {
+    "start_hour_PDT": 9,
+    "end_hour_PDT": 17,
+    "location_changes_per_day": 8
+   },
+   "era": "live",
+   "quote": "Each hour from 9am PDT to 5pm PDT, they will be moving the party to a different location.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1197",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1197",
+   "date": null,
+   "title": "Free Realms - What is New? / In The Works: Free Realms Birthday Preview",
+   "summary": "A live-era SOE news post previewing Free Realms' first birthday celebration on April 29 (2010), with special in-game quests and rewards across the world plus an all-day Community Team party. The post gives no quest names, reward details, or exact posting date; it is captured 2010-04-05 and says it was posted 3 days, 18 hours before capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

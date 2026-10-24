@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchaz-s-cosmic-necklace-86706-v2-world-r2 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[4179, 11851, 6, 1177] model=claude-haiku-5-5 -->
+# Chaz's Cosmic Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim cites locale:282491522 and locale:80179219 as the wrong ids. The automatic id check confirms neither exists as a locale id. Citing them in the evidence list, even as corrections, adds unverifiable ids to the record.", "fix": "Drop the two nonexistent ids. Keep only the verified ones: locale:117044 is the NPC name 'Chaz Strongarm', and locale:72945 and locale:72959 are the Brawler's club rumor and quest text (both confirmed in the locale table). The repo note references can stay as plain file citations."}]}

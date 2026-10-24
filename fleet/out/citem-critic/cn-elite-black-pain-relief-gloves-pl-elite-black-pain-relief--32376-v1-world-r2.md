@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-elite-black-pain-relief-gloves-pl-elite-black-pain-relief--32376-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3631, 6948, 6, 1076] model=claude-haiku-5-5 -->
+# {n}Elite Black Pain Relief Gloves{pl="Elite Black Pain Relief Gloves"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open", "issue": "The open note cites items 87, 100 and 102 as sharing the 9453-coin tier, but the store rows I checked show the same price and category 102 for items 18591 and 18650 (stores.json lines 4562 and 4573). The examples given are not the ones I could confirm.", "fix": "Name the verified same-tier siblings: item 18591 (line 4562) and item 18650 (line 4573), both category 102, 9453 coins, member 8507, sell 945. The row for item 18621 is at stores.json line 4566 and matches the answer: 9453 / 8507 / 945, category 102."}]}

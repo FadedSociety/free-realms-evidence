@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icard-champion-s-sack-v1-evidence-r1 status=no_submit turns=3 usd=0.0015 tokens(read,write,in,out)=[7689, 5427, 8, 1394] model=claude-haiku-5-5 -->
+# Card Champion's Sack
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim that the Card Champion's Case is 'acquired by winning a TCG tournament' cites a wiki page that is not in the pack. I could not check it. The only Case text I found, a community blog (ns500, 'Outfit Your Cardie in Style'), lists the Case as a Sunday April 14 reward alongside the Sack, not as a tournament-win prize. The answer's own open note says the Case's acquisition is unconfirmed, so this claim should not be stated as evidence.", "fix": "Drop evidence[3] or mark it unverified. Sourced facts: the Case is listed for Sunday April 14 in the blog (ns500, 'Outfit Your Cardie in Style This Weekend'). Its acquisition method is not confirmed."}]}

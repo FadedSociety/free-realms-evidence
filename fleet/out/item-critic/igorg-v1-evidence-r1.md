@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=igorg-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3452, 9533, 6, 1132] model=claude-haiku-5-5 -->
+# Gorg
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / appearances", "issue": "Minor omission: the wiki Appearances list also includes Quest:Stoke the Flames, which the answer's quest list leaves out. The quest list it gives (Cut the Vines, Spinnerette, Stopping an Infiltration, Take the Fight to Them, Urgent Missive) matches the wiki's Quests section, so this does not change the verdict.", "fix": "Add 'Quest:Stoke the Flames' to the appearances list, per the wiki Gorg page (rev 49948) Appearances section. Client quest_objective 74583 ('Stoke the pair of braziers leading to Gorg's camp') supports it."}]}

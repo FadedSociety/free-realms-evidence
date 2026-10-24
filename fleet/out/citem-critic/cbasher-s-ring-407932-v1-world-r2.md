@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbasher-s-ring-407932-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3831, 7941, 6, 1117] model=claude-haiku-5-5 -->
+# Basher's Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Floren Forest location for Thorn Basher is stated from locale:15792 and locale:15803, but my check only confirmed the boss's lines in the client text (e.g. 'Defeat Thorn Basher, guardian of the excavation site!' and 'I am Thorn Basher, guardian of our sacred Idol... prepare to face me!'). The zone was not confirmed by me. The answer should label it as unverified, or cite the zone data.", "fix": "Keep the boss as a name match only. Cite the client quest lines (locale 15792/15803) for the boss, and mark the Floren Forest zone as unverified unless the zone table confirms it."}]}

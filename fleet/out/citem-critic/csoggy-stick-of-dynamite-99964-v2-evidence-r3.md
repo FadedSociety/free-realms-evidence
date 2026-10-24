@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csoggy-stick-of-dynamite-99964-v2-evidence-r3 status=done turns=2 usd=0.0022 tokens(read,write,in,out)=[3765, 11926, 6, 1249] model=claude-haiku-5-5 -->
+# Soggy Stick of Dynamite
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind / open", "issue": "The pack's first-pass tag 'quest_item' with source_guess 'quest_reward' is not supported, and the answer correctly rejects it. The answer's 'probably a failed or rejected fishing catch' is speculation, though it is confined to open and not stated as a source.", "fix": "Keep the sources list empty. Note in open that the quest text (locale 410101, 'fish out any unused, non-soggy sticks') only implies the soggy stick is unwanted, and that Fisherman.md:244 lists 'sticks of dynamite at Wintery Basin' (1920246094) as junk without naming the soggy item."}]}

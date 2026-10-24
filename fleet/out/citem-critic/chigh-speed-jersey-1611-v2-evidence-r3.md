@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chigh-speed-jersey-1611-v2-evidence-r3 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4408, 8035, 6, 1323] model=claude-haiku-5-5 -->
+# High Speed Jersey
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open[7]", "issue": "The open note cites locale:1616 (Thanksgiving promo text, FLAG not_live) as the dropped item. The automatic id check flags it. The text is not used as a source, so the answer is not wrong, but the note still names a not_live string in its own text. Its only purpose is to say the text was excluded.", "fix": "Drop locale:1616 from the open list, or label it explicitly as a flagged not_live string that was excluded. It is not evidence for this item (the text says the jersey is sold for SC550 in the Marketplace, but it names no 'High Speed Jersey' and is not live)."}]}

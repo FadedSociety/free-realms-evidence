@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-printthread-php-t-2062 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2871, 4, 580] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin error page from the fan forum freerealmsforums.com, showing a 'maximum number of posts you can view' message and the forum index. It contains no player thread, guide, price report or game mechanic, so it gives a rebuilder no usable Free Realms data. The only Free Realms references are forum section names such as Items, Jobs/Classes, In-Game Mini Games, Pets and Membership / Stationcash.", "facts": [], "quests": [], "uncertain": ["The capture contains no article body; the requested thread (t=2062) content was not visible, only the error message and forum navigation."]}

@@ -1,0 +1,12 @@
+<!-- fleet job=bug-hunt id=src-harvesting-rs-L801 status=nothing_found turns=9 usd=0.0120 tokens(read,write,in,out)=[171124, 37674, 20, 11118] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/harvesting.rs lines 801-1320 of 1320
+
+No client-reachable defect found in `prototype/osfr-tools/src/harvesting.rs` lines 801-1320.
+
+What I read and traced:
+- **Reach:** the window's validators (`validate_content` 1053-1234, `validate_tile_kinds_parts` 1253-1292, `validate_border` 1300-1320) take their input from server-authored data only. `content()`/`board_spec()`/`write_content()` (930-1048) build the spec from compile-time constants and the pinned produce table. The on-disk `harvesting.json` is loaded by `Type8Engine::load` (`mining.rs:296`), which runs its own `validate_spec` and `validate_powerup_definitions` first. The only other caller of the window's helpers is the load gate at `gameplay.rs:1003-1014`. A client packet never writes that file, so none of these paths is reachable from the network.
+- **Panics:** the index math in `validate_content` is guarded. `min_x`/`max_x` are only set together, so `max_x - min_x` cannot underflow. The `dropzone_row >= height` test is short-circuited before `spec.shape[dropzone_row*width+x]`. The goal/output/tile accesses are preceded by length checks at 1166 and 1215. `padded_engine_shape` indexes at most 120 of 121 cells with the constants used. `value - TILE_SELECTABLE_CATEGORY` at 971 is safe because produce values start at 401. The `i32` `width*height` products at 879/1088 would only overflow with absurd file values, and `validate_content` is not reached from load.
+- **Atomicity:** the window has no state mutation. `write_content` is a single `fs::write`.
+- **Logic:** I checked the category rule (`floor(value/100)*100`), the duplicate-tile and unregistered-selectable rejections, the full-rectangle and dropzone-row rules, and the border rule (`x==0 || y==0` rejects anything but 0 or 4). Each matches its doc comment and the constants (border 1, 11x11 board, 9 playable rows, dropzone 4). I found no contradiction.
+
+Observations I did not report because they are not demonstrable defects and carry no client reach: `validate_content` does not check `goal.index == slot`, and the `gameplay.rs` load gate runs only the tile and border checks, not the full `validate_content`. Both concern server-authored content, so they are hardening gaps rather than exploitable bugs.

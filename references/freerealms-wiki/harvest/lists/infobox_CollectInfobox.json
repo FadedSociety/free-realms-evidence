@@ -1,0 +1,2745 @@
+[
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Blackspore",
+   "image": "blackspore",
+   "text": "A collection of creepy sites and places where ghouls roam in Blackspore.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Blackspore Rare Exploration",
+   "image": "blackspore",
+   "text": "Rare coins placed throughout Sacred Grove. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Seeker's Boots [[Image:Male.png|10px]] [[Image:Female.png|8px]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Briarwood - Briarheart",
+   "image": "briarwood",
+   "text": "A collection of places around Briarheart.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Briarwood - Bristlewood",
+   "image": "briarwood",
+   "text": "A collection of places around Bristlewood.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Briarwood - Nettleseed",
+   "image": "briarwood",
+   "text": "A collection of places around Nettleseed.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Briarwood - Thistlerow",
+   "image": "briarwood",
+   "text": "A collection of places around Thistlerow.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp.",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Briarwood Rare Exploration",
+   "image": "briarwood",
+   "text": "Rare coins placed throughout Sacred Grove. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Traveler's Shorts [[Image:Male.png|10px]] [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Briarwood Explorer",
+   "image": "briarwood",
+   "text": "Once this collection is complete, you will have navigated through the maze, traveled into Bristlewood, past Nettleseed and into Briarheart.",
+   "type": "Explorer",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Cobblestone Village",
+   "image": "sanctuary",
+   "text": "Every adventurer needs to start out somewhere, why not seek out these locations at the Crossroads.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Forest Troll Village",
+   "image": "sanctuary",
+   "text": "Visit the Forest Trolls and see what's going on around the village.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Highroad Junction",
+   "image": "sanctuary",
+   "text": "Every Adventurer needs to start somewhere, why not seek out these locations around Highroad Junction?",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Lakeshore",
+   "image": "sanctuary",
+   "text": "Kick back and relax around these Lakeshore hotspots.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Major Warpstones",
+   "image": "warpstone",
+   "text": "With these warpstones traveling to any of these areas will be a breeze.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Merry Vale",
+   "image": "merryvale",
+   "text": "A place of sunflowers, rainbows, and happiness. What more could you ask for. Make sure you explore it all.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Merry Vale Rare Exploration",
+   "image": "merryvale",
+   "text": "Rare coins placed throughout Sacred Grove. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Seeker's Shirt [[Image:Male.png|10px]]<br/>\nSeeker's Midriff Shirt [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Newbie Explorer",
+   "image": "sanctuary",
+   "text": "Completing this collection is just the beginning, oh weary traveler. There are plenty more things to discover out there in this vast land that is Sacred Grove.",
+   "type": "Explorer",
+   "reward": "Pathfinder's Capris [[Image:Male.png|10px]] [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Queensfields",
+   "image": "sanctuary",
+   "text": "A collection of places to visit around Queensfields.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Sacred Grove Explorer",
+   "image": "sanctuary",
+   "text": "You can't call yourself a true adventurer until you can say you've seen it all.",
+   "type": "Explorer",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "[[Sanctuary]]",
+   "image": "sanctuary",
+   "text": "A collection of exciting places to visit and truly see what goes on around Sanctuary.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Sanctuary Rare Exploration",
+   "image": "sanctuary",
+   "text": "Rare coins placed throughout Sacred Grove. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Pathfinder's Boots [[Image:Male.png|10px]] [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Seaside",
+   "image": "seaside",
+   "text": "A day at the beach is a nice break from all this adventuring. Check out all of the fun and exciting things to see at Seaside.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Seaside Rare Exploration",
+   "image": "seaside",
+   "text": "Rare coins placed throughout Sacred Grove. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Traveler's Boots [[Image:Male.png|10px]] [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Shrouded Glade",
+   "image": "shroudedg",
+   "text": "A collection of places to visit around Shrouded Glade.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Shrouded Glade Rare Exploration",
+   "image": "shroudedg",
+   "text": "Rare coins placed throughout Sacred Glade. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Seeker's Hat [[Image:Male.png|10px]] [[Image:Female.png|8px]]<br/>\nSeeker's Backpack [[Image:Male.png|10px]] [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Snowhill",
+   "image": "snowhill",
+   "text": "From the Snowhill stage to the Snowhill hot springs, there's never a dull moment at Snowhill. See what's going on at these locations.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Snowhill Rare Exploration",
+   "image": "snowhill",
+   "text": "Rare coins placed throughout Sacred Grove. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Pathfinder Pants [[Image:Male.png|10px]]    \nPathfinder Capri's [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Stillwater Crossing",
+   "image": "sanctuary",
+   "text": "Every adventurer needs to start somewhere, why not seek out these locations around Stillwater Crossing.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Warpstones",
+   "image": "warpstone",
+   "text": "Slow travel around Sacred Grove will be a thing of the past with these warpstones.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Wilds Explorer",
+   "image": "sanctuary",
+   "text": "Completing this collection will hone your adventurer abilities and knowledge of the Wilds.",
+   "type": "Explorer",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Wilds Northeast Rare Exploration",
+   "image": "sanctuary",
+   "text": "Rare coins placed throughout [[Sacred Grove]]. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Traveler's Cap [[Image:Male.png|10px]] [[Image:Female.png|8px]]<br/>\nTraveler's Backpack [[Image:Male.png|10px]] [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Wilds Northwest Rare Exploration",
+   "image": "sanctuary",
+   "text": "Rare coins placed throughout [[Sacred Grove]]. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Pathfinder's Hat [[Image:Male.png|10px]] [[Image:Female.png|8px]]<br/>\nPathfinder's Backpack [[Image:Male.png|10px]] [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Wilds Southeast Rare Exploration",
+   "image": "sanctuary",
+   "text": "Rare coins placed throughout [[Sacred Grove]]. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Traveler's Shirt [[Image:Male.png|10px]] [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Wilds Southwest Rare Exploration",
+   "image": "sanctuary",
+   "text": "Rare coins placed throughout [[Sacred Grove]]. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Pathfinder's Shirt [[Image:Male.png|10px]]<br/>\nPathfinder's Midriff Shirt [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Wugachug",
+   "image": "wugachug",
+   "text": "They come from near, they come from far, they come for the Sasparilla. See what's going on around the fun town that is Wugachug.",
+   "type": "Exploration",
+   "quality": "Common",
+   "reward": "[[Adventurer]] Exp."
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Exploration (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Exploration_(Collections)",
+  "params": {
+   "name": "Wugachug Rare Exploration",
+   "image": "wugachug",
+   "text": "Rare coins placed throughout Sacred Grove. Only true adventurers willing to search and explore will find them all.",
+   "type": "Exploration",
+   "quality": "Rare",
+   "spawn": "Coin",
+   "reward": "Seeker's Pants [[Image:Male.png|10px]] [[Image:Female.png|8px]]"
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blackspore.png",
+   "Collect briarwood.png",
+   "Collect merryvale.png",
+   "Collect sanctuary.png",
+   "Collect seaside.png",
+   "Collect shroudedg.png",
+   "Collect snowhill.png",
+   "Collect warpstone.png",
+   "Collect wugachug.png",
+   "Collections.png",
+   "Female.png",
+   "Male.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Archer Stories",
+   "image": "JOBstory",
+   "text": "A collection of stories about the sharp shooting archer.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Lightweight Wood",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Archer Bow Materials",
+   "text": "A collection of materials that would be used to make a bow.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Bow Essence of Earth?",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Archer Magical Bow Essences",
+   "image": "JOBessence",
+   "text": "A collection of magical bow essences. A final touch added to a bow.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Magical Essence Bow",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Blacksmith Stories",
+   "image": "JOBstory",
+   "text": "A collection of stories about a blacksmith hard at work at the forge.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Forge Stories, pg. 1",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Blacksmith's Forge Adventures",
+   "image": "JOBstory",
+   "text": "",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Sculpting Table",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Blacksmith Materials",
+   "text": "",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Slag Hammer",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Brawler Stories",
+   "image": "JOBstory",
+   "text": "A collection of stories about a Brawler from the streets.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Hammer Head",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Brawler Hammer Materials",
+   "text": "A collection of items used in making a hammer.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Hammer Essence of Fire",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Brawler Magical Hammer Essences",
+   "image": "JOBessence",
+   "text": "A collection of magical hammer essences. A final touch added to a hammer.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Magical Essence Crystal Hammer",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Chef's Cake Baking Books",
+   "image": "chefbooks",
+   "text": "A collection of cake books teaching you how to bake a pretty cake. Don't forget to do it by the book!",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Party Sized Platter",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Chef's Cake Platters",
+   "image": "chefcake",
+   "text": "A collection of cake platters. Every good cake needs to be set on a nice platter.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Cake Baking Whisk",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Chef's Cake Baking Utensils",
+   "image": "chefutensils",
+   "text": "A collection of cake baking utensils one would use in making the perfect cake.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Mystery Cake",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Medic Stories",
+   "image": "JOBstory",
+   "text": "A collection of stories about the days and lives of a medic.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Flow Capacitor",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Medic Shock Rod Materials",
+   "text": "A collection of materials one would use to make a shock rod.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "?",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Medic Magical Essences",
+   "image": "JOBessence",
+   "text": "A collection of magical shock rod essences. A final touch added to a shock rod.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Magical Essence Shock Rod",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Miner's Copper Ore",
+   "text": "A collection of various copper ore.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Block of Silver Ore",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Miner's Silver Ore",
+   "image": "minersilver",
+   "text": "A collection of various silver ore.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Sliver of Gold Ore",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Miner's Gold Ore",
+   "image": "minergold",
+   "text": "A collection of various gold ore.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Onyx Gems",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Miner's Precious Gems",
+   "text": "Precious gems such as these are a great find.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Iolite Gems",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Miner's Fancy Gems",
+   "image": "minerfancy",
+   "text": "A collection of fancy gems to show off to your friends.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Peculiar Gem",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Miner's Special Gems",
+   "image": "minerspecial",
+   "text": "These are some really special gems.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Magical Summoning Ore",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Ninja Stories",
+   "image": "JOBstory",
+   "text": "A collection of stories about the ways of a ninja.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Sword Handle",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Ninja Sword Materials",
+   "image": "ninjamaterial",
+   "text": "A collection of materials that just might be used to make a sword.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Sword Essence of Fire",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Ninja Magical Sword Essences",
+   "image": "JOBessence",
+   "text": "A collection of magical sword essences. A final touch added to a sword.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Magical Essence Shadowblade",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Postman Packages and Envelopes",
+   "image": "postpackenvel",
+   "text": "An assorted collection of packages and envelopes.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Sanctuary Postcard",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Postman Postcards",
+   "image": "postpostcard",
+   "text": "A nice way of saying, \"Look at all the fun I'm having. Too bad you're not having as much fun as me. Wish you were here.\"",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Penguin Stamp",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Postman Stamps",
+   "image": "poststamp",
+   "text": "A postman is impeded in their tracks without their stamps.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Rudolfo's Speedy Kicks",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Warrior Stories",
+   "image": "JOBstory",
+   "text": "A collection of stories about a warrior and his battles.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Axe Handle",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Warrior Axe Materials",
+   "text": "A collection of materials that would make a nice little axe.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Axe Essence of Wind",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Warrior Magical Axe Essences",
+   "image": "JOBessence",
+   "text": "A collection of magical axe essences. A final added touch to an axe.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Magical Essence Warlords Axe",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Wizard Stories",
+   "image": "JOBstory",
+   "text": "A collection of stories about the great wizard and how he triumphed over evil.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Carved Wood",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Wizard Wand Materials",
+   "text": "A collection of materials used in making a magical wand.",
+   "type": "Cascading",
+   "quality": "Common",
+   "spawn": "Job Material",
+   "reward": "Wand Essence of Wind",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Job Specific (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Job_Specific_(Collections)",
+  "params": {
+   "name": "Wizard Magical Wand Essences",
+   "image": "JOBessence",
+   "text": "A collection of magical wand essences. A final added touch to a wand.",
+   "type": "Cascading",
+   "quality": "Rare",
+   "spawn": "Job Material",
+   "reward": "Magical Essence Wand",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect JOBessence.png",
+   "Collect JOBstory.png",
+   "Collect blank.png",
+   "Collect chefbooks.png",
+   "Collect chefcake.png",
+   "Collect chefutensils.png",
+   "Collect minerfancy.png",
+   "Collect minergold.png",
+   "Collect minersilver.png",
+   "Collect minerspecial.png",
+   "Collect ninjamaterial.png",
+   "Collect postpackenvel.png",
+   "Collect postpostcard.png",
+   "Collect poststamp.png",
+   "Collections.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Army Men",
+   "text": "Army Men, CHARRRRGE!",
+   "area": "Southern Wilds",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "reward": "Gold Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Bamboo Ninja Doll",
+   "text": "Bamboo and cherry blossom combat outfits.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Central Wilds",
+   "reward": "Green Ninja Outfit Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Big Blue Sky Ninja Doll",
+   "text": "Big blue sky combat outfit.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Northern Wilds",
+   "reward": "White Ninja Outfit Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Brawler Human Doll",
+   "text": "Brawler wear for the Human Doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Northern Wilds",
+   "reward": "Human Brawler Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Bright Yellow Sun Ninja Doll",
+   "text": "Bright yellow sun combat outfit.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Northern Wilds",
+   "reward": "Blue Ninja Outfit Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Casual Human Doll",
+   "text": "Casual wear for the Human doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Southern Wilds",
+   "reward": "Human Casual Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Casual Pixie Doll",
+   "text": "Casual wear for the Pixie doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Southern Wilds",
+   "reward": "Pixie Casual Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Deep Blue Sea Ninja Doll",
+   "text": "Fire and ice combat outfit.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Wilds",
+   "reward": "Black Ninja Outfit Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Dolls",
+   "text": "These cute little toys are favored by humans and pixies alike.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Northern Wilds",
+   "reward": "Molten Lava Top<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Doll's Pets",
+   "text": "These doll pets belong to their doll owners. They also complete this doll collection.",
+   "quality": "Rare",
+   "spawn": "Robgoblin",
+   "area": "Southern Wilds",
+   "reward": "Doggy Triple Stripe Sweater<br/>Doggy Dark Plaid Sweater<br/>Kitty Horizon \n\nSweater<br/>Kitty Argyle Pink Sweater<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Fire and Ice Ninja Doll",
+   "text": "Fire and ice combat outfit.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Southern Wilds",
+   "reward": "Red Ninja Outfit Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Formal Pixie Doll",
+   "text": "Formal wear for the Pixie doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Southern Wilds",
+   "reward": "Pixie Formal Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Formal Queen Doll",
+   "text": "Formal wear for the Queen doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Southern Wilds",
+   "reward": "Queen Formal Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Free Realms Elite Dolls",
+   "text": "These dolls are rare and hard to come by. If you see one, grab it quickly!",
+   "type": "Meta",
+   "reward": "Shadow<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Human Dolls",
+   "text": "Human male dolls, dressed up from places around Free Realms.",
+   "type": "Meta",
+   "reward": "Elite Human Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Lakeshore Human Doll",
+   "text": "Lakeshore wear for the Human doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Central Wilds",
+   "reward": "Human Lakeshore Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Ninja Dolls",
+   "text": "A collection of Ninja dolls. Even ninjas find the time to play with their dolls.",
+   "type": "Meta",
+   "reward": "Elite Ninja Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Rockstar Human Doll",
+   "text": "A rockstar outfit for the Human doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Northern Wilds",
+   "reward": "Human Rockstar Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Rockstar Pixie Doll",
+   "text": "A rockstar outfit for the pixie doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Central Wilds",
+   "reward": "Pixie Rockstar Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Royal Doll",
+   "text": "A royal outfit for the Queen doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Central Wilds",
+   "reward": "Queen Royal Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Seaside Human Doll",
+   "text": "Seaside wear for the Human doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Central Wilds",
+   "reward": "Human Seaside Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Seaside Pixie Doll",
+   "text": "Seaside wear for the Pixie doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Central Wilds",
+   "reward": "Pixie Seaside Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Seaside Queen Doll",
+   "text": "Seaside wear for the Queen doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Central Wilds",
+   "reward": "Queen Seaside Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Snowhill Human Doll",
+   "text": "Snowhill wear for the Human doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Northern Wilds",
+   "reward": "Human Snowhill Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Snowhill Pixie Doll",
+   "text": "Snowhill wear for the pixie doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Northern Wilds",
+   "reward": "Pixie Snowhill Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Snowhill Queen Doll",
+   "text": "Snowhill wear for the Queen doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Northern Wilds",
+   "reward": "Queen Snowhill Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Tops",
+   "text": "\"My top's always playful. It loves to dance and spin.\" - An old Pixie song.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Central Wilds",
+   "reward": "Bumble Bee Stinger Yo-yo<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Wilds Queen Doll",
+   "text": "Wilds wear for the Queen doll.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Northern Wilds",
+   "reward": "Queen Wilds Doll<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ },
+ {
+  "page": "Toys (Collections)",
+  "url": "https://freerealms.fandom.com/wiki/Toys_(Collections)",
+  "params": {
+   "name": "Yo-yos",
+   "text": "The coolest yo-yos in all of Free Realms.",
+   "quality": "Common",
+   "spawn": "Robgoblin",
+   "area": "Central Wilds",
+   "reward": "Traveller's Wristband<br/>\n21 [[Image:Gicon.png|15px|Gold Coins]]",
+   "1": ""
+  },
+  "categories": [
+   "Collections"
+  ],
+  "images": [
+   "Collect blank.png",
+   "Collections.png",
+   "Gicon.png"
+  ]
+ }
+]

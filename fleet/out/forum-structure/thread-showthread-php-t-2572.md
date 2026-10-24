@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2572 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2935, 4, 354] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin error and navigation page from freerealmsforums.com (captured 2009-07-08). It shows a 'maximum number of posts you can view' registration prompt and a forum index, with no thread body, guide, or game content. It yields no usable Free Realms facts for the rebuild.", "facts": [], "quests": [], "uncertain": ["The thread ID (t=2572) is in the URL, but the thread's actual title and posts were not in the captured text, so the thread's content could not be identified."]}

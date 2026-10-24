@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgreaser-biker-boots-19026-v2-evidence-r3 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[10453, 7057, 8, 1342] model=claude-haiku-5-5 -->
+# Greaser Biker Boots
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / detail", "issue": "Minor omission: the stores.json rows for 79301, 79302 and 79303 (lines 17055-17057) also carry source_tags [\"L1\",\"L2\",\"L4\",\"R2\",\"T633\",\"R1\"], which the answer never mentions. The tags are not decoded anywhere in the pack, so they do not change the price or currency, but a builder should know they exist.", "fix": "Note the source_tags on the three stores.json rows (repo: data/content/stores.json lines 17055-17057) as unexplained metadata. Do not treat them as a drop or quest source without a decoder."}]}

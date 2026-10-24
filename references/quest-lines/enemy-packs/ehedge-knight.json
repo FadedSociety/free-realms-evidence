@@ -1,0 +1,43 @@
+{
+ "title": "Hedge Knight",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_snarling_hedges.json"
+  },
+  {
+   "file": "dungeons\\the_snarling_hedges.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:4215 [npc_name | - | Hedge Knight] 'Hedge Knight'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:4215 [npc_name | - | Hedge Knight] 'Hedge Knight'"
+ ],
+ "client_cluster": [
+  "locale:4208 [other | - | Exploration Point] 'Exploration Point'",
+  "locale:4210 [npc_name | - | Chick] 'Chick'",
+  "locale:4212 [npc_name | - | Ice Troll] 'Ice Troll'",
+  "locale:4213 [npc_name | - | Snow Turnips] 'Snow Turnips'",
+  "locale:4214 [npc_name | - | Crab] 'Crab'",
+  "locale:4215 [npc_name | - | Hedge Knight] 'Hedge Knight'",
+  "locale:4217 [other | - | Ice Block] 'Ice Block'",
+  "locale:4218 [npc_name | - | Unga Frostclaw] 'Unga Frostclaw'",
+  "locale:4219 [npc_name | - | Mushroom_Shambler_02 | FLAG placeholder: internal asset name] 'Mushroom_Shambler_02'",
+  "locale:4220 [other | - | Default NPC | FLAG placeholder: default placeholder name] 'Default NPC'",
+  "locale:4221 [npc_name | - | Forest Giant Boss] 'Forest Giant Boss'",
+  "locale:4223 [npc_name | - | Fungus Golem (DEPRECATED) | FLAG not_live: marked DEPRECATED] 'Fungus Golem (DEPRECATED)'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

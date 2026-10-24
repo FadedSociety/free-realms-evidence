@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrittle-ethereal-triangle-shard-69777-v2-evidence-r3 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[13084, 12619, 8, 1412] model=claude-haiku-5-5 -->
+# Brittle Ethereal Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Minor: the vendor source is a store-data row only. The answer correctly says the NPC and zone are unknown, but the 'vendor' type still rests on stores.json alone, with no vendor or stock row in the pack. This is an honest unknown, not an error.", "fix": "Keep the source as 'coin store row, category 121, item 22875' and leave where null. Verified: repo:prototype/osfr-tools/data/content/stores.json line 6730 reads item_id 22875, category_id 121, purchase 811, member discount 10%, member price 729, sell price 81, no_sale false. Matches the answer and the client coin_store_prices value of 811."}]}

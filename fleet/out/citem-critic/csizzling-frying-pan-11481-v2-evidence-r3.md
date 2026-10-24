@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csizzling-frying-pan-11481-v2-evidence-r3 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[11290, 7374, 8, 1444] model=claude-haiku-5-5 -->
+# Sizzling Frying Pan
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1].detail", "issue": "The coin store row is real. stores.json line 721 has item_id 2690, category 12, purchase 540, member 486 (10%), sell 54, no_sale false. The vendor is unnamed, which the answer already states as open. The 'vendor' type is supported by a priced store row, but the answer does not show that category 12 is a vendor rather than a store-wide listing. This is a minor caveat, not an error.", "fix": "Keep the coin store source as is. Optionally note that the row is a store listing (repo:prototype/osfr-tools/data/content/stores.json:721), with the vendor still unidentified."}]}

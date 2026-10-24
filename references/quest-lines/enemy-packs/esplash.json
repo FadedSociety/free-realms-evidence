@@ -1,0 +1,55 @@
+{
+ "title": "Splash",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\necronomicus_unleashed.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:421067 [ability | - | Splash] 'Splash'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:421067 [ability | - | Splash] 'Splash'",
+  "locale:421068 [ability | - | Splash] 'Wizard Tier 2 - Spammable Ability - Splash'"
+ ],
+ "client_cluster": [
+  "locale:421059 [ability | - | Dual Strike] 'Dual Strike'",
+  "locale:421060 [ability | - | Dual Strike | FLAG dev_note: internal ability label] 'Warrior Tier 2 - Spammable Ability - Dual Strike'",
+  "locale:421061 [quest_dialog | Snowhill | Downey] \"Don't forget to make Burnetta's Curious Creation! My gift baskets won't be complete without it.<BR><BR>If you don't have the recipe, you can buy it from Bordon \"",
+  "locale:421063 [ability | - | Warcry] 'Warcry'",
+  "locale:421064 [ability | - | Warcry] 'Warrior Tier 2 - Ultra Ability - Warcry'",
+  "locale:421065 [item | - | Robgoblin Wand] 'Robgoblin Wand'",
+  "locale:421066 [other | - | robgoblin trove - basepop mage primary attack | FLAG dev_note: internal label, not player text] 'robgoblin trove - basepop mage primary attack'",
+  "locale:421067 [ability | - | Splash] 'Splash'",
+  "locale:421068 [ability | - | Splash] 'Wizard Tier 2 - Spammable Ability - Splash'",
+  "locale:421069 [quest_dialog | Snowhill | Pretty Presents] \"I've counted my presents a dozen times. I'm sure a few of the gifts wrapped with green bows are missing.<BR><BR>What kind of coldhearted person would steal my p\"",
+  "locale:421070 [quest_title | Snowhill | Pretty Presents] 'Pretty Presents'",
+  "locale:421071 [quest_dialog | Snowhill | Pretty Presents] \"Annabelle swears some red and green presents have been stolen from her gift pile. She's asked you to take a look around Snowhill and try to recover them.\"",
+  "locale:421072 [quest_dialog | Snowhill | Pretty Presents] \"You found the gifts!<BR><BR>I promise, I'll keep a close eye on my present pile from now on.\"",
+  "locale:421073 [ability | - | Tsunami] 'Tsunami'",
+  "locale:421074 [ability | - | Tsunami] 'Wizard Tier 2 - Ultra Ability - Tsunami'",
+  "locale:421075 [item | - | Snowman Coal] 'Snowman Coal'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:item_tooltip): Wizard's Wand of Tsunami\nWizard's Wand of Tsunami\nResell Value: 85\nYou Own: 0\nPower: 2\nEquippable State:\nYou can use this right now.\nRequired: Level 5, Wizard\nSplash\nBlasts enemies with a torrent of magical water, damaging all enemies in front of you.\nDeals 444 damage.\nSometimes knocks opponents dow",
+  "image (image:item_tooltip): Wizard's Ornate\nWand of Tsunami\nWizard's Ornate Wand of Tsunami\nResell Value: 215\nYou Own: 0\nPower: 5\nEquippable State:\nYou can use this right now.\nRequired: Level 16, Wizard\nSplash\nBlasts enemies with a torrent of magical water, damaging all enemies in front of you.\nDeals 2372 damage.\nSometimes kno",
+  "image (image:item_tooltip): Wizard's Jewel Wand\nof Tsunami\nWizard's Jewel Wand of Tsunami\nResell Value:\n150\nEquippable State:\nYou cannot use this right now.\nYou Own: 0\nRequired: Level 12, Wizard\nPower: 4\nSplash\nTsunami\nBlasts opponents with a torrent of magical water, damaging all opponents in front of you.\nSummons a wave of d"
+ ],
+ "video": [
+  "video:h8cat5auEqA/00056.jpg (Seaside): landmarks: teal water pool with splash rings tan cliff wall on the right | other_text: Seaside Elite Exploration Cliff Diving Upgrade!",
+  "video:506rO_mhaSs/00226.jpg (-): dialog: [Prince of Low Tide]: Water will wash you away! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide!  | landmarks: Green misty grove with a water splash | job_level: Medic  | other_text: The water around the prince no longer looks safe! Look out! Goals (1)",
+  "video:506rO_mhaSs/00188.jpg (-): dialog: Prince of Low Tide: I command the tide! Wash away my foe! [Prince of Low Tide]: I command the tide! Wash away my foe! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide!  | landmarks: Green misty grove with a water splash | job_level: Medic  | other_text: Goa"
+ ],
+ "article_facts": [
+  "fact:event: The Seaside Summer Splash holiday event began on July 2, 2009, kicked off by the Robgoblin Sizzlebottom near the inn at Seaside. | The Seaside Summer Splash begins, there are some new Marketplace items and more! (http://www.freerealms.com:80/article/detail.action?articleId=137)",
+  "fact:event: The Seaside Summer Splash event let players complete quests in Seaside to earn Seaside Stickers, which could be redeemed for special fireworks, wearables and other items. | Complete quests and earn Seaside Stickers that you can redeem for special fireworks, fu (http://www.freerealms.com:80/article/detail.action?articleId=136)",
+  "fact:item: The Sand Castle was added to the Marketplace for the Seaside Summer Splash celebration. | Sand Castle (http://www.freerealms.com:80/article/detail.action?articleId=137)",
+  "fact:item: The Hula Outfit was added to the Marketplace for the Seaside Summer Splash celebration. | Hula Outfit (http://www.freerealms.com:80/article/detail.action?articleId=137)"
+ ],
+ "quest_answers_naming_it": []
+}

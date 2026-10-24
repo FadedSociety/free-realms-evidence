@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-content-dungeons-rs-L1 status=done turns=4 usd=0.0043 tokens(read,write,in,out)=[24655, 13967, 10, 4636] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/content_dungeons.rs lines 1-437 of 437
+
+Reviewed `tests/content_dungeons.rs` lines 1-437 (helpers, `every_dungeon_file_loads_and_validates`, `external_references_resolve_or_are_listed`, `opening_cave_matches_the_native_accepted_content_definition`), checking against `src/content.rs` `ContentDb::load`/`validate` (lines 591-720). The `external_references` and `opening_cave` tests compare against independent data (the unresolved list both directions; the lab-reference `encounters.json`) and are sound. Findings:
+
+- **[medium] tests/content_dungeons.rs:257,285-291 every_dungeon_file_loads_and_validates - the `references` vector (every `dungeon_data.references` entry) is collected and never asserted, so the "validates" claim does not cover references.**
+  - Why it cannot catch a regression: `references` is built at 285-291 and then dropped; nothing checks it. Any change that stops emitting, or corrupts, `dungeon_data.references` in a dungeon file still passes this test. `ContentDb::load` (content.rs:664-683) never reads `dungeon_data`, so nothing else checks it here either. Only `external_references_resolve_or_are_listed` reads these references, and it is a separate test.
+  - Fix: assert in this test that `references` is non-empty for the opening cave file, and that each reference is either resolvable through `Catalogues::resolves` or present in `dungeons_unresolved.json`. Or drop the unused variable and rename the test so it no longer claims reference coverage.
+
+- **[medium] tests/content_dungeons.rs:205-227 validation_fixture / every_dungeon_file_loads_and_validates - the fixture injects zone 411 and item 1195 into the scratch copy, so `ContentDb::load` passes the opening cave's zone and reward-item references against fabricated rows.**
+  - Why it cannot catch a regression: the real `data/content/zones.json` and `items.json` have no `"id": 411` / `"id": 1195` rows (a repo-wide search for those pretty-printed ids only hits `encounters.json` and NPC files). If the real data drops or breaks those rows, this test still loads and validates, because the `if !any(...)` guard adds them back into the copy. The test name suggests the real dungeon data is validated, but its zone and item references are only checked against test-only rows.
+  - Fix: run the `ContentDb::load` check against the unmodified `data/content` directory (or assert that `zones.json`/`items.json` already contain ids 411 and 1195 before injecting anything), so a missing real row fails the test.
+
+- **[low] tests/content_dungeons.rs:254 and 297 every_dungeon_file_loads_and_validates - exact dungeon count `75` is pinned twice, to the number of files, not to anything the test is about.**
+  - Why it cannot catch a regression: it is not a missed bug. Adding or removing a guide page (which is routine content work) breaks both asserts even when every file validates. This causes churn, not a missed regression.
+  - Fix: assert that `db.dungeons.len() == paths.len()` and that the opening cave id is present, instead of a hard-coded 75.

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ckachuga-speedster-engine-117415-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3781, 10558, 6, 1180] model=claude-haiku-5-5 -->
+# Kachuga Speedster Engine
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3].source", "issue": "The citation 'notes/Build Guides/Content/Jobs/Kart Driver.md:25' could not be checked. The kart reward wording ('Blast Speedster from Sandstorm's Grand Opening') matches the Kart Racing note at Kart Racing.md:25 ('Blast Speedster from Sandstorm's quest'), so the path and wording may be off.", "fix": "Verify the Kart Driver.md path and line, or cite notes/Build Guides/Gameplay/Kart Racing.md:25, which says 'at least one kart item reward (Blast Speedster from Sandstorm's quest)'. The answer should also say 'quest' rather than 'Grand Opening' if that is the wording the source uses."}]}

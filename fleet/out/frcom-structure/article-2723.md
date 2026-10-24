@@ -1,0 +1,10 @@
+<!-- fleet job=frcom-structure id=article-2723 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[2391, 4310, 6, 1009] model=claude-haiku-5-5 -->
+# Free Realms - Quoi de neuf ?
+
+# Free Realms TCG expansion teaser (French-language freerealms.com news page)
+
+This is a French-language news post about the Free Realms Trading Card Game. It is a teaser with no card names, stats or release dates.
+
+Result is intended as one JSON object; here is the structured content:
+
+{"article": {"title": "Free Realms - Quoi de neuf ?", "date": null, "author": null, "type": "news"}, "about_free_realms": true, "summary": "A French-language freerealms.com news teaser announcing the next expansion of the Free Realms Trading Card Game. It shows sketches and a preview of four new characters, including the Baron de Trompesombre, and four cards from the set. The page gives no release date, card names or stats, so it adds little beyond confirming an upcoming TCG expansion.", "facts": [{"topic": "release", "name": "Free Realms Trading Card Game expansion", "locale_id": null, "statement": "A new expansion set for the Free Realms Trading Card Game was being previewed in a teaser post, with its cards shown in stages.", "numbers": {}, "era": "unknown", "quote": "la prochaine extension du JCC de Free Realms"}, {"topic": "npc", "name": "Baron de Trompesombre", "locale_id": null, "statement": "The Baron de Trompesombre was introduced as a figure in the TCG expansion, arriving with four new characters.", "numbers": {"new characters": 4}, "era": "unknown", "quote": "Le Baron de Trompesombre est arrivé avec quatre nouveaux personnages."}], "quests": [], "uncertain": ["The page has a relative date only ('Publié il y a 2 mois, 2 semaines'), so no absolute date could be determined.", "The Baron de Trompesombre name is in French; no English locale match was found, so the English equivalent is unknown.", "The article refers to images (sketches and cards) that are not present in the extracted text."]}

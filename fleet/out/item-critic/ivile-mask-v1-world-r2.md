@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ivile-mask-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3735, 4768, 6, 1228] model=claude-haiku-5-5 -->
+# Vile Mask
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1] (event)", "issue": "The event source cites only the Vile Mask page. The HeroRealms Month wiki page lists the Vile gear set (Boots, Gloves, Mask, Spandex Chestpiece, Spandex Leggings) as Station Cash Marketplace items, so the Mask's event tie is also supported by that page. The answer does not mention the set, and the event source has no price, so it does not add a second acquisition path.", "fix": "Cite https://freerealms.fandom.com/wiki/HeroRealms_Month (Station Cash Marketplace 'Vile' gear set includes the Mask) alongside the Vile Mask page, and note that the Mask is one piece of the Vile set. The marketplace source with 75 SC is the only priced source and stays as is."}]}

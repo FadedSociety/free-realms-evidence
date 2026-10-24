@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-soccer-review-rs-L1 status=done turns=11 usd=0.0086 tokens(read,write,in,out)=[165413, 29317, 24, 6503] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/soccer_review.rs lines 1-462 of 462
+
+Reviewed `tests/soccer_review.rs` lines 1-462 against `src/soccer.rs` (`Match::handle`, `apply_goal`, `apply_game_time`, `restart`, `decode`, `decode_packet`). Most tests are sound: the round trips compare bytes against the input, the goal, clock, team, possession and ball-geometry rejections all hit real `Err` paths with state checks, and the malformed-envelope cases (truncation, outer opcode, flag byte, trailing bytes via `end(reader)`) each fail on the intended check. One finding:
+
+- **[medium] tests/soccer_review.rs:431 unregistered_holder_is_rejected_before_mutation - the "client registration is not authority" claim is never tested.**
+  - Why it cannot catch a regression: the client-direction `register(PREVIOUS_HOLDER)` at line 450 is followed by only a `possession() == None` check, which holds trivially because no acquire has happened yet. The test then sends the server-direction `register(PREVIOUS_HOLDER)` at line 457 before the acquire at line 459. If `handle` ever let `ClientToServer` `RegisterPlayer` insert into `registered` (the `soccer.rs` arm at ~line 866 is reached only for `ServerToClient`, and the early return at ~line 843 is what currently prevents it), the server registration would still make the acquire succeed, and the test would still pass.
+  - Fix: after the client-direction register, assert that a `ServerToClient` `acquire(PREVIOUS_HOLDER, 0)` is still `Err` and that `possession()` stays `None`. Only then send the server-direction register and assert the acquire succeeds.
+
+- **[low] tests/soccer_review.rs:197 restart_and_end_handling_are_gated_on_the_captured_phases - the restart reply is only counted, not checked.**
+  - Why it cannot catch a regression: `assert_eq!(replies.len(), 1)` passes even if `restart()` returns a malformed or wrong `UpdateGameTime` packet (wrong clock values, wrong sub-id, or a non-tunnel outer). The test name is about phase gating, so this is a minor gap, but the reply shape is still unverified.
+  - Fix: `assert_eq!(decode(&replies[0]).unwrap().packet, SoccerPacket::UpdateGameTime { remaining: 151.411_88, elapsed: 60.622_398 })`, or equivalent, so that a change to the restart payload fails.

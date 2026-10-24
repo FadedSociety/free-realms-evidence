@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cburning-grape-triangle-shard-99356-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3973, 6323, 6, 942] model=claude-haiku-5-5 -->
+# Burning Grape Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The only source is a coin-store listing (store category 121 row for item 32237), not an NPC vendor. The answer labels it 'vendor' and says the seller is unknown, which blurs a store-category sale with an NPC vendor sale.", "fix": "Label the source as a coin-store listing (store category 121, item 32237, purchase 2363 coins, member 2126 coins, sell-back 236 coins, no_sale false) per repo:prototype/osfr-tools/data/content/stores.json line 8231. Keep the vendor NPC as unknown."}]}

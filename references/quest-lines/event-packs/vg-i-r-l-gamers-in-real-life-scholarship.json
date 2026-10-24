@@ -1,0 +1,30 @@
+{
+ "title": "G.I.R.L. (Gamers in Real Life) scholarship",
+ "names_seen": [
+  "G.I.R.L. (Gamers in Real Life) scholarship"
+ ],
+ "facts": [
+  {
+   "statement": "SOE's G.I.R.L. scholarship program awarded a $10,000 scholarship with an optional internship to Sylvia Liu of Milpitas, California; this was the third year in a row the program ran.",
+   "numbers": {
+    "scholarship_usd": 10000,
+    "applicants_over": 200,
+    "years_running": 3
+   },
+   "era": "live",
+   "quote": "Sylvia Liu of Milpitas, California, has been selected as the lucky recipient of a $10,000 scholarship and optional internship",
+   "article": "http://www.tentonhammer.com:80/node/85165",
+   "date": "2010-06-08"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/85165",
+   "date": "2010-06-08",
+   "title": "SOE Grants $10,000 Scholarship to Sylvia Liu in Third Annual G.I.R.L. Competition",
+   "summary": "A Ten Ton Hammer news post (June 2010) reporting that SOE's G.I.R.L. (Gamers in Real Life) scholarship went to Sylvia Liu, who was chosen from more than 200 applicants. Applicants had to submit original concept art of a new Free Realms game environment and character. The article is only tangentially about the game; it gives no gameplay, item or quest data."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

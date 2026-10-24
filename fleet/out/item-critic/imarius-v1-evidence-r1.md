@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imarius-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3672, 4370, 6, 926] model=claude-haiku-5-5 -->
+# Marius
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Shadetree distinction cites locale 438696 'Marius Shadetree' and a Shrouded Gloam boss. Neither appears in the evidence pack, and I did not verify them here. The claim is not supported by the supplied evidence.", "fix": "Either attach a locale lookup for 438696 and the boss source to the pack, or drop the Shadetree claim. The rest of the answer is consistent with the pack: locale 5102440 is npc_name 'Marius', and the wiki page describes a male Pixie Warrior merchant near Briarwood with no prices (coins and station_cash arrays are empty)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imaya-s-father-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[2926, 6257, 6, 903] model=claude-haiku-5-5 -->
+# Maya's Father
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that wiki full-text search for 'Maya' father chef pixie returns only the character page is not quite accurate. A wiki page in the harvest (wikitext/18238-50040) lists [[Maya's Father]] as '(flashback)', so the name is linked from another page. This does not make him an item.", "fix": "Reword to say the character page is the main page, and that another wiki page (the 50040 revision listing Maya's Father as a flashback) links to him. No vendor, Station Cash, Coin, drop, or quest source is attached to him."}]}

@@ -1,0 +1,48 @@
+{
+ "title": "President's Day event",
+ "names_seen": [
+  "President's Day event"
+ ],
+ "facts": [
+  {
+   "statement": "SOE's President's Day special offers included Free Realms, with offers tailored to each game beginning February 18th.",
+   "numbers": {
+    "offer_start_day": 18
+   },
+   "era": "live",
+   "quote": "Free Realms™, PoxNora™, Magic the Gathering - Tactics™, and Wildlife Refuge™ will find special offers tailored to each individual game beginning February 18th.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2033",
+   "date": null
+  },
+  {
+   "statement": "Free Realms took part in SOE's President's Day weekend promotion, with special offers for players of all listed games from 18 to 21 February 2011.",
+   "numbers": {
+    "start_day": 18,
+    "end_day": 21,
+    "start_month": 2,
+    "end_month": 2,
+    "year": 2011
+   },
+   "era": "live",
+   "quote": "trouveront des offres spéciales pour tous les jeux à partir de 18 février au 21 février 2011",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2042",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2033",
+   "date": null,
+   "title": "SOE President's Day Event This Weekend!",
+   "summary": "This is a site-wide SOE news post announcing President's Day special offers across many SOE games. Free Realms appears only in the list of games receiving tailored offers starting February 18th; the post gives no Free Realms-specific details. The page's listed heading ('Free Realms - What is New?') does not match the body text, which is about SOE games in general."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2042",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This is a French-language SOE news post announcing a President's Day promotion across several SOE games, including Free Realms, running from 18 to 21 February 2011. The page says Free Realms players would find special offers, but it does not specify what those offers were for Free Realms, so it gives a rebuilder only the event window and the fact that the promotion existed."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

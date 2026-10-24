@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crobgoblin-s-race-fuel-67376-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[4174, 8398, 6, 1029] model=claude-haiku-5-5 -->
+# Robgoblin's Race Fuel
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] / open", "issue": "The answer calls locale:67586 'Kart Race Fuel' an 'umbrella item'. The client shows it only as an item name with no structural link to the fuel family; the umbrella relationship is an inference.", "fix": "Describe locale:67586 as a sibling item name, not an umbrella, unless a definition or collection row confirms the grouping."}, {"field": "open", "issue": "The 'Kart Racing' and 'holiday/event' candidate sources are unverified. The answer flags them as unverified and claims none, so this is honest, but they add no evidence.", "fix": "No change needed. Keep the sources list empty until a vendor, quest, reward or event row names the item."}]}

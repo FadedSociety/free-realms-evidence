@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2474 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2906, 4, 623] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This Wayback capture (2009-07-08) is only the forum shell and a 'maximum number of posts you can view' registration error page for the Free Realms fan forum, with no thread text. It contains no statements about how the live game played, so it yields no quest, item, price, event or mechanic data for the rebuild.", "facts": [], "quests": [], "uncertain": ["The thread (t=2474) body did not survive the capture; only navigation, the forum index and a vBulletin view-limit error are present, so the thread's original title and content are unknown.", "No author or post date is visible in the extracted text."]}

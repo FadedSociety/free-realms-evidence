@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-30275 status=nothing_found turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 5668, 4, 495] model=claude-haiku-5-5 -->
+# EQ2: Updated Monk Class Guide | Ten Ton Hammer
+
+{"article": {"title": "EQ2: Updated Monk Class Guide", "date": "2008-04-11", "author": "Shayalyn", "type": "guide"}, "about_free_realms": false, "summary": "This Ten Ton Hammer page is a guide to the EverQuest II Monk class (tank role, leather armor, agility-based avoidance, Tier 8 info). It is not about Free Realms. The only Free Realms mention is a site sidebar ranking entry ('Free Realms up 10 to #19'), which is navigation and not a game fact, so no facts are recorded.", "facts": [], "quests": [], "uncertain": ["The page's posted date (April 11, 2008) differs from the capture date (2009-12-14); I used the posted date. The Free Realms mention is a sidebar popularity ranking, not article content."]}

@@ -1,0 +1,55 @@
+{
+ "title": "Cray Marauder",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000015,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Swamp cray",
+   "location_evidence": [
+    "East and inside Blackspore (1689438919)"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:76573 [npc_name | - | Cray Marauder] 'Cray Marauder'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:76570 [quest_objective | - | Cray Marauder] 'Cray marauders are everywhere! Head in and defeat them before someone gets pinched!'",
+  "locale:76571 [quest_objective | - | Cray Marauder] 'Defeat the Cray Marauders.'",
+  "locale:76572 [quest_dialog | - | Cray Marauder] \"These marauders won't let you go without a fight so you will need to defeat them.\"",
+  "locale:76573 [npc_name | - | Cray Marauder] 'Cray Marauder'"
+ ],
+ "client_cluster": [
+  "locale:76565 [item | - | Sparkling Water] 'Sparkling Water'",
+  "locale:76568 [other | - | Job Switch Lesson | FLAG dev_note: internal script note] 'Runs client script for Job Switch Lesson.'",
+  "locale:76570 [quest_objective | - | Cray Marauder] 'Cray marauders are everywhere! Head in and defeat them before someone gets pinched!'",
+  "locale:76571 [quest_objective | - | Cray Marauder] 'Defeat the Cray Marauders.'",
+  "locale:76572 [quest_dialog | - | Cray Marauder] \"These marauders won't let you go without a fight so you will need to defeat them.\"",
+  "locale:76573 [npc_name | - | Cray Marauder] 'Cray Marauder'",
+  "locale:76574 [npc_name | - | Cray Marauder Captain] 'Cray Marauder Captain'",
+  "locale:76578 [quest_dialog | - | He Who Smelt It Dealt It | FLAG not_live: part of NOT LIVE quest 76579] \"Anytime you're up to the task, <font color='#D9781A'>I am always short on Copper Bars</font> for my Blacksmith orders.<BR><BR>Talk to me every time you begin Sm\"",
+  "locale:76579 [quest_title | - | He Who Smelt It Dealt It | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - Miner: He Who Smelt It, Dealt It'",
+  "locale:76580 [quest_dialog | - | He Who Smelt It Dealt It | FLAG not_live: part of NOT LIVE quest 76579] \"Smitty always needs smelted bars. Every time you prepare him smelted bars, he'll share some of the profits!\"",
+  "locale:76581 [quest_reward | - | He Who Smelt It Dealt It | FLAG not_live: part of NOT LIVE quest 76579] \"Thanks again! Here's your share of the profits.\""
+ ],
+ "wiki": {
+  "title": "Cray Marauder",
+  "text": "thumbCray Marauders are crab-like creatures that live among Blackspore  in Cracked Claw Carvens  , they have four legs, a small useless arm, and a little arm with a giant claw on it that they use for battling. For some unusual reason they all have an aggressive nature, for terrorizing travelers, wrecking materials, and even though once apotting a cray was a sign of luck, but now it means danger. in Craked Claw Caverns, it requires a level 1 or higher, or a lone Cray, is level 5 or higher. they are mostly spotted outside the graveyard.\nCategory:Enemies\nCategory:NPC"
+ },
+ "images": [],
+ "video": [
+  "video:7JPHZIE_C5I/00074.jpg (-): npcs: Oberyn Duskshine nameplate  | other_text: Cray Marauder (red marker 42m, enemy)",
+  "video:yv37TmrcE-M/00568.jpg (-): job_level: Adventurer 12 | other_text: Grave Elemental Cray Marauder Rich Silver Mining Trash Barrel Upgrade Now for Power Hour!",
+  "video:7JPHZIE_C5I/00080.jpg (-): npcs: Oberyn Duskshine nameplate  | landmarks: twisted purple tree roots dark purple crystal pillars | other_text: Cray Marauder (red marker, 42m)",
+  "video:yv37TmrcE-M/00542.jpg (-): job_level: Adventurer 12 | other_text: Grave Elemental (119m) Rich Silver Mining (129m) Cray Marauder (54m) Treat Barrel Site? (14m)",
+  "video:Y--yaYHn3yA/00014.jpg (-): npcs: Vusala nameplate  Shibumi Shi nameplate  | job_level: Adventurer 10 | other_text: Grave Elemental (red marker, 122m) Cray Marauder (red marker, 99m) Upgrade!"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Archer: A Piercing Attack' (final): Take out the Cray Marauders",
+  "defeat target in 'Contract: Sharp Claws and Sharper Swords' (final): Defeat Cray Marauders and Fleetfoot Ninjas (as asked by Ree Peatpants)",
+  "collect target in 'Fresh Ingredients' (final): Bring Sal swamp lichen scraped from the shells of cray marauders, and pond scum from the bellies of venomous frogs."
+ ]
+}

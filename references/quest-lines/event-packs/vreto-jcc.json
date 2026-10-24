@@ -1,0 +1,50 @@
+{
+ "title": "Reto JCC (Community Event)",
+ "names_seen": [
+  "Reto JCC (Community Event)"
+ ],
+ "facts": [
+  {
+   "statement": "A weekly community event focused on the JCC card game, player versus player; players can start games, join matches, trade cards or watch.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Este evento comunitario semanal se enfoca en el juego JCC, jugador contra jugador.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=640",
+   "date": null
+  },
+  {
+   "statement": "The JCC event session for US and Latin America was Friday 20 November, 15:00-17:00 Pacific time, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15,
+    "end_hour_pacific": 17
+   },
+   "era": "live",
+   "quote": "Viernes 20 de noviembre 1500 – 1700 Tiempo Pacifico",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=640",
+   "date": null
+  },
+  {
+   "statement": "The JCC event session for UK and Europe was Friday 20 November, 09:00-11:00 Pacific time (18:00-20:00 local listed), on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "end_hour_pacific": 11,
+    "start_hour_uk_europe": 18,
+    "end_hour_uk_europe": 20
+   },
+   "era": "live",
+   "quote": "0900 – 1100 Tiempo Pacifico / 1800 – 2000",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=640",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=640",
+   "date": null,
+   "title": "Evento Comunitario: Reto JCC",
+   "summary": "A Spanish-language community event post promoting a weekly player-versus-player Juego de Cartas de Coleccion (JCC, the in-game trading card game). It tells players to meet at Encrucijada (or enter the JCC lobby from anywhere) and gives a start point, NPC Mar Mita, with two timed sessions for different regions on Server 1."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

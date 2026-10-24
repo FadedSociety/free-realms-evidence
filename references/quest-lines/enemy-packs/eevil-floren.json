@@ -1,0 +1,42 @@
+{
+ "title": "Evil Floren",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\floren_forest.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:45047 [npc_name | - | Evil Floren] 'Evil Floren'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:45047 [npc_name | - | Evil Floren] 'Evil Floren'"
+ ],
+ "client_cluster": [
+  "locale:45039 [quest_objective | Wugachug | The Next Batch] 'Speak to Guard Thoomlug'",
+  "locale:45040 [quest_objective | Wugachug | The Next Batch] 'Speak to Guard Thoomlug in Wugachug.'",
+  "locale:45041 [quest_objective | - | The Next Batch] 'Return to Sasparilla Brewmaster Wugawump'",
+  "locale:45042 [quest_objective | - | The Next Batch] 'Return to Sasparilla Brewmaster Wugawump and tell him of what you have learned.'",
+  "locale:45043 [ui | - | Buy Pet] 'Buy Pet'",
+  "locale:45045 [item | - | Warpstone chunk] 'Warpstone chunk'",
+  "locale:45046 [ability | - | Warpstone chunk] 'This is a no damage ability used by Robgoblins in the tutorial encounter (10) to taunt Michael Tallstrider'",
+  "locale:45047 [npc_name | - | Evil Floren] 'Evil Floren'",
+  "locale:45048 [quest_objective | - | Smitty] 'Smitty is curious as to why Trixi suddenly canceled an order for him to make several pickaxes. Smitty has asked you to ask Trixi why she has canceled her order.'",
+  "locale:45050 [item | - | Murglot's Chick] \"Murglot's Chick\"",
+  "locale:45052 [quest_objective | Briarwood | violet mushrooms] 'Fertilize the violet mushrooms in Briarwood.'",
+  "locale:45053 [npc_name | - | Screeching Banshee] 'Screeching Banshee'",
+  "locale:45054 [quest_objective | Briarwood | violet mushrooms | FLAG duplicate: same as 45052] 'Fertilize the violet mushrooms'",
+  "locale:45055 [quest_objective | Nettleseed | Violet Mushroom] 'Use fertilizer on the violet mushrooms growing on the banks of the western pond in Nettleseed.'"
+ ],
+ "wiki": {
+  "title": "Evil Floren",
+  "text": "The Evil Floren is a floren NPC that can be found in the Floren Forest, located in the Northern Wilds.\n\nDialogues\n\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Floren\nCategory:Wilds"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

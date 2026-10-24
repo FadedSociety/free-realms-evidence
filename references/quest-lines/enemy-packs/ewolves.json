@@ -1,0 +1,78 @@
+{
+ "title": "Wolves",
+ "our_entries": [
+  {
+   "file": "dungeons\\briarheart_caverns.json",
+   "definition_id": 930071
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json",
+   "definition_id": 930071
+  },
+  {
+   "file": "dungeons\\frostfang_caverns.json",
+   "definition_id": 930071
+  },
+  {
+   "file": "dungeons\\howling_hills.json",
+   "definition_id": 930071
+  },
+  {
+   "file": "dungeons\\misty_mountain.json",
+   "definition_id": 930071
+  },
+  {
+   "file": "dungeons\\tavern_cellar.json",
+   "definition_id": 930071
+  },
+  {
+   "file": "dungeons\\trail_of_betrayal.json",
+   "definition_id": 930071
+  },
+  {
+   "file": "dungeons\\vale_of_the_ancients.json",
+   "definition_id": 930071
+  }
+ ],
+ "entry_count": 8,
+ "client_name_matches": [
+  "locale:430765 [other | - | Wolves | FLAG fragment: single word] 'Wolves'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:430765 [other | - | Wolves | FLAG fragment: single word] 'Wolves'"
+ ],
+ "client_cluster": [
+  "locale:430757 [ui | - | Switch Page] 'Switch Page'",
+  "locale:430759 [ui | - | Show Jobs] 'Show Jobs'",
+  "locale:430760 [ui | - | Show Jobs] 'Show / Hide Jobs'",
+  "locale:430761 [ui | - | Increase / Decrease] 'Increase / Decrease'",
+  "locale:430762 [ui | - | Add / Subtract] 'Add / Subtract'",
+  "locale:430763 [ability | - | Chilblaine] 'Chilblaine Self-Root'",
+  "locale:430765 [other | - | Wolves | FLAG fragment: single word] 'Wolves'"
+ ],
+ "wiki": {
+  "title": "Wolves",
+  "text": "Wolves are a race found throughout Sacred Grove.\n\nNotable Wolves\nWilds\nAlpha Wolf\nRavenous Wolf\n\nSnowhill\nFrostfang Growler\nFrostfang Snarler\nWild Wolf\nChillblaine\n\nShrouded Glade\nArctic Wolf\nCorrupted Wolf\nGloamtooth\n\nBriarwood\nBriar Patch Wolf\nCorrupted Pup\nHowling Fateater\nVine Wolf\n\nRides\nWolf (Ride)\nLava Wolf\n\nOthers\nWolf (Pet)\n\nLocations\nList of wolves that may be found in the following places:\n\nBriarwood: The wolves are found in several encounters. Vine wolves can also be related to this category of creature.\n\nSnowhill: Mostly called 'frostfang', these wolves have a snowy white coat, and can be encountered in the Frostfang Caverns, and lone instances.\n\nWilds: Other wolves can be found in dungeons, roaming the wilds, and sometimes as pets.\n\nShrouded Gloam: Corrupted wolves are found in Shrouded Glade during the Gloam Invasion.\n\nGallery\n\nCategory:Races\nCategory:Wolves\nCategory:Sacred Grove"
+ },
+ "images": [
+  "image (image:art_or_promo): V.M...\nSuper...\n...Knight Wolves>\nMiranda Ponymel...\nV. I. P. Pl...ite\n<NeonMoon...ars>\nDO WHAT YOU LOVE MOST...\nBECAUSE IT ONLY HAPPENS ONCE"
+ ],
+ "video": [
+  "video:eH45ENEe0a8/00000.jpg (South Sacred Grove): npcs: Geoffrey dialog_header  Valerian dialog_header  | dialog: Geoffrey says, \"It seems that two local girls are missing after playing in the hills...\" Valerian says, \"You don't look like you're here on any official business...perhaps you have come to offer your services to the ",
+  "video:fktAs_GRrjM/00632.jpg (Tavern Cellar): quest:   Defeat Cal, leader of the hooligans. Bonus: Find and destroy all the brawl club ? - 0/4  | landmarks: cave walls wooden wolf house | other_text: Attack the wolf house to stop the wolves from coming! Goals",
+  "video:fktAs_GRrjM/00634.jpg (Tavern Cellar): quest:   Defeat Cal, leader of the hooligans. Bonus: Find and destroy all the brawl club ? - 0/4  | landmarks: wooden wolf house stone fire pit | other_text: Wolf House Attack the wolf house to stop the wolves from coming!"
+ ],
+ "article_facts": [
+  "fact:npc: Frostfang Wolves are white wolves that roam the slopes around Snowhill and are more aggressive inside the caverns. | The Frostfang Wolf is the most legendary. These white wolves prowl the slopes around Snowhill. (http://www.freerealms.com:80/article/detail.action?articleId=75)",
+  "fact:event: A group of hooligans has moved into the nearby canyon and keeps causing trouble at the farm; wolves also get into the sheep pen. | A group of hooligans has moved into the nearby canyon and are always causing trouble. (http://www.freerealms.com:80/article/detail.action?articleId=624)",
+  "fact:housing: The third-floor living room has a large screen for watching movies, and the rooftop has a 3D flower garden, a park, and a hidden hideout for lone wolves. | Le salon au 3ème étage a un grand écran pour passer des soirées en regardant un film. (http://www.freerealms.com/article/detail.action?articleId=1949)",
+  "summary: An SOE freerealms.com 'What is New?' post (captured 2009-11-23, posted about 4 days earlier) describing Farnum Farmstead, a large private farm south of Crossroads. It covers the sheep (kept by Bo), harvestable crops reachable through a harvesting minigame, the (http://www.freerealms.com:80/article/detail.action?articleId=624)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Chapter 1: The Missing Sisters' (unresolved): The sisters are in trouble! Defeat the wolves",
+  "defeat target in 'Contract: No Boundaries on Bounties' (final): Defeat Vicious Vinewolves",
+  "defeat target in 'Contract: Beth's Tasks' (unresolved): As a Medic, defeat wolves at Farnum Farmstead and bixies in Sweetwater Climb!",
+  "other target in 'Contract: Trouble in Snowhill' (final): Ree Peatpants has asked you to defeat wolves and yetis in Snowhill.",
+  "defeat target in 'Fighting off the Pack' (final): Learn how to use your weapon by fighting Hooligan Wolves."
+ ]
+}

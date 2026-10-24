@@ -1,0 +1,40 @@
+{
+ "title": "Brawling Ring",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 24276,
+   "definition_id": 1240000,
+   "model_id": 3126,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:24276 [quest_title | - | King of the Ring!] 'King of the Ring!'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:140499 [npc_dialog | - | Brawling Ring] 'Well, come on in, contender! My buddies and I are waiting for you!'",
+  "locale:431096 [quest_objective | - | Brawling Ring] 'Interact with the gate to the Brawling Ring'"
+ ],
+ "client_cluster": [
+  "locale:24268 [quest_title | - | Making Slugmud Surprise | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - Making Slugmud Surprise'",
+  "locale:24270 [quest_objective | - | Making Slugmud Surprise | FLAG not_live: part of NOT LIVE quest 24268] 'Glerga wants to keep a watchful eye on you while you create a Slugmud Surprise. Make one with 100% accuracy.'",
+  "locale:24271 [quest_objective | - | Making Slugmud Surprise | FLAG not_live: part of NOT LIVE quest 24268] 'Make a Slugmud Surprise with 100% accuracy.'",
+  "locale:24274 [quest_dialog | - | Making Slugmud Surprise | FLAG not_live: part of NOT LIVE quest 24268] 'Now that you have the recipe and ingredients to make Slugmud Surprise, I want to see how you do with actually making it. I will be keeping an eye on you though!'",
+  "locale:24276 [quest_title | - | King of the Ring!] 'King of the Ring!'",
+  "locale:24277 [quest_objective | - | King of the Ring!] 'Mongo is the toughest troll around! Defeat Mongo to put him in his place!'",
+  "locale:24279 [quest_title | - | Mystery Meal | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - Mystery Meal'",
+  "locale:24280 [quest_objective | - | Mystery Meal | FLAG not_live: part of NOT LIVE quest 24279] \"Line cook, Lucca De'Flor has been known to eat all sorts of strange foods. Challenge him to eat a Slugmud Surprise.\"",
+  "locale:24281 [quest_objective | - | Mystery Meal | FLAG not_live: part of NOT LIVE quest 24279] \"Talk to Lucca De'Flor and challenge him to eat a Slugmud Surprise.\"",
+  "locale:24282 [quest_objective | Snowhill | Mystery Meal | FLAG not_live: part of NOT LIVE quest 24279] 'Lucca can be found in Snowhill.'",
+  "locale:24283 [quest_dialog | Snowhill | Mystery Meal | FLAG not_live: part of NOT LIVE quest 24279] \"You're not bad at making Slugmud Surprise. Now take it to Lucca De'flor in Snowhill and challenge him to eat it. I bet he will chicken out!\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

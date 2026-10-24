@@ -1,0 +1,55 @@
+{
+ "title": "Wildwood Racing Challenge",
+ "names_seen": [
+  "Wildwood Racing Challenge"
+ ],
+ "facts": [
+  {
+   "statement": "Community Team Ambassadors held a kart racing community event called the Wildwood Racing Challenge at the Wildwood Speedway, with a party held just outside the race course.",
+   "numbers": {},
+   "era": "live",
+   "quote": "we are gathering at the Wildwood Speedway, just south of the Crossroads Warpstone for some fast and furious kart racing action.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2045",
+   "date": null
+  },
+  {
+   "statement": "The Wildwood Racing Challenge ran on Server 1 on Thursday March 10, 2011 at 3pm Pacific Time for U.S. and Latin America players.",
+   "numbers": {
+    "server": 1,
+    "day": 10,
+    "month": 3,
+    "year": 2011,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday March 10th, 2011 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2045",
+   "date": null
+  },
+  {
+   "statement": "A second Wildwood Racing Challenge session ran on Server 1 on Friday March 11, 2011 at 9:00am Pacific Time (4:00pm GMT) for UK and Europe players.",
+   "numbers": {
+    "server": 1,
+    "day": 11,
+    "month": 3,
+    "year": 2011,
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday March 11th, 2011 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2045",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2045",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com community event notice announcing an Ambassador-run kart racing event at the Wildwood Speedway, south of the Crossroads Warpstone, with a party outside the course. It ran on Server 1 on Thursday March 10, 2011 (3pm Pacific, US and Latin America) and Friday March 11, 2011 (9:00am Pacific / 4:00pm GMT, UK and Europe)."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

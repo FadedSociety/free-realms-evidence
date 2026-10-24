@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cspicy-vegetable-stirfry-38664-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4605, 9613, 6, 1513] model=claude-haiku-5-5 -->
+# Spicy Vegetable Stirfry
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence / open", "issue": "The answer's pack shows wiki_page null, but the wiki does list this dish. Lookup returns the 'List of Recipes (Chef)' entry with Ingredients: Punkin x3, Sunleaf x3, Rainleaf x3, Butter x7 and Effect: Improves Maker's Stats, and the Chef page lists it as 'Improves Maker's Stats'. The answer's wiki citations are therefore correct, and the pack's null is a gap in the pack rather than in the answer.", "fix": "No change to the answer is required. Note that the wiki 'Where to find' field is empty for this dish, which the open list already states. Source: lookup wiki 'List of Recipes (Chef)'."}]}

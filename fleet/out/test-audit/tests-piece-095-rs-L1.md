@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-piece-095-rs-L1 status=done turns=4 usd=0.0047 tokens(read,write,in,out)=[23226, 17904, 10, 4544] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_095.rs lines 1-349 of 349
+
+Window: `prototype/osfr-tools/tests/piece_095.rs` lines 1-349. Read against `src/restoration/piece_095.rs` (migrate_legacy, load, save, rollback_to_legacy, insert/update/select). Most tests in the window are sound: the byte-for-byte rollback (215), refused rollback of a second character (231), diverged legacy refusal with store bytes unchanged (247), and corrupt/oversized store preservation (292) all compare against independently produced state. Findings:
+
+- **[medium] prototype/osfr-tools/tests/piece_095.rs:316 a_fresh_process_restores_every_character_and_the_active_selection - the child-process check can pass without running any assertion.**
+  - Why it cannot catch a regression: the parent re-runs the binary with `--exact a_fresh_process_restores_every_character_and_the_active_selection`. If that test is renamed, moved, or filtered out, libtest matches zero tests and exits 0, so `output.status.success()` holds and the child-side asserts (lines 321-325) never run. The restart proof is then silently gone while the gate stays green.
+  - Fix: assert the child's stdout reports exactly one test run, e.g. `assert!(String::from_utf8_lossy(&output.stdout).contains("running 1 test"))` and `contains("1 passed")`, or have the child write a sentinel file/env marker that the parent checks.
+
+- **[medium] prototype/osfr-tools/tests/piece_095.rs:102 migration_imports_the_legacy_character_and_keeps_the_source_bytes - the fixture cannot tell an import from the file apart from an import from the default.**
+  - Why it cannot catch a regression: the legacy file is written with `character(1)` and `migrate_legacy` is passed `character(1)` as `default`. `migrate_legacy` (src line 314) only uses `default` when the legacy file is absent, so an implementation that imports `default` instead of reading the file passes lines 113-116 unchanged. The name claims the legacy character is what gets imported, but that is not exercised.
+  - Fix: pass a different default, e.g. `migrate_legacy(&files.legacy, &files.store, character(9))`, and assert `store.get(1) == Some(&legacy)`, `store.get(9) == None`, and `store.len() == 1`. Make the legacy file's contents differ from the default in at least one field (e.g. position), so only a read of the file satisfies the assertion.
+
+- **[low] prototype/osfr-tools/tests/piece_095.rs:285-288 invalid_or_duplicate_characters_are_refused - the capacity refusal is checked only by a substring of the bound.**
+  - Why it cannot catch a regression: `error.to_string().contains("10")` also matches any message containing "10" (for example a different refusal that happens to print 10), and it does not confirm the refused insert left `len()` at MAX_CHARACTERS. A change that drops the new character while still erroring differently, or that stops enforcing the bound and errors on something else, is not distinguished.
+  - Fix: after the failed insert assert `store.len() == MAX_CHARACTERS` and `store.get(MAX_CHARACTERS as u64 + 1) == None`, and match the exact message text from src line 191 rather than a bare number.

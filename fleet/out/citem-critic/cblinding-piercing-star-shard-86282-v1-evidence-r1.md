@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblinding-piercing-star-shard-86282-v1-evidence-r1 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[12403, 10717, 8, 1638] model=claude-haiku-5-5 -->
+# Blinding Piercing Star Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] / kind", "issue": "The claim that the star-shard cluster is 'consistent with a star shard family of gear sockets' is an inference. The client definition does give slot 14, but no source names this item as a socket. The wiki's Star Flow and Tempered Circle shard pages support a star-boost shard family in general, not this exact item.", "fix": "Keep kind 'other' and label the socket role as inferred from slots [14] (client definition 22291) and the wiki shard pages, not confirmed for this item."}]}

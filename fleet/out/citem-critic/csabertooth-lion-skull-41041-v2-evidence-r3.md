@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csabertooth-lion-skull-41041-v2-evidence-r3 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[10101, 6248, 8, 879] model=claude-haiku-5-5 -->
+# Sabertooth Lion Skull
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[4]", "issue": "The automatic id check flags locale:2324878421 as nonexistent. It appears only inside the open-question text as a retracted citation, not as a source, so it does not affect the answer, but it should not be repeated as a reference. I confirmed locale:2324878421 returns 'no such id'.", "fix": "Drop the reference to locale:2324878421 entirely; keep only that the description is locale:132364, which I confirmed reads 'This item can be added to the Sabertooth Fossils Collection'."}]}

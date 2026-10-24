@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ishelly-sandishoes-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3616, 9962, 6, 1095] model=claude-haiku-5-5 -->
+# Shelly Sandishoes
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4]", "issue": "The claim that the repo notes name Shelly as the NPC for the digging turn-in that gives Seaside Stickers, and that Sizzlebottom handles the sticker-for-firework trades, was not re-checked here. The Seaside Stickers reward is not evidenced in the pack, so it should not be asserted as a source.", "fix": "Leave the sticker reward out of the sources unless the repo note and a quest reward row confirm it. Within this pack, the only evidenced links are the quest names (locale:400832, 400044, 400819, 400876) and the giver list in articles/quests.json, which lists Shelly among the Seaside celebrant givers."}]}

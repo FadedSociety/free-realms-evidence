@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmagus-dreadful-necklace-86621-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3945, 10073, 6, 1193] model=claude-haiku-5-5 -->
+# Magus Dreadful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The 'Magus' prefix matches the enemy name 'Sandscale Magus' (wiki and repo npc_spawns_extra.json). The answer calls the enemy-rank reading a guess, which is correct, but it does not say that the name match is the only lead.", "fix": "Keep it as an unsourced lead: the 'Magus' prefix shares a name with the Sandscale Magus enemy (wiki:Sandscale Magus), but the wiki drop list for that enemy names only the Manguana Tribal Necklace. No source links the Magus Dreadful Necklace to it."}]}

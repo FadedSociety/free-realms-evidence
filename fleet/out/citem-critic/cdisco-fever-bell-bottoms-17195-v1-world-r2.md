@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdisco-fever-bell-bottoms-17195-v1-world-r2 status=no_submit turns=2 usd=0.0017 tokens(read,write,in,out)=[3886, 9238, 6, 942] model=claude-haiku-5-5 -->
+# Disco Fever Bell Bottoms
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "retired", "issue": "Left null, which is defensible because the item was never released. The answer does not say that it is an unreleased item rather than a retired one, and it does not explain why the 270-coin client price doesn't count as a store source.", "fix": "Keep retired null and state explicitly that the status is 'unreleased, never sold or granted' (wiki page 'Disco Fever Bell Bottoms'; 'Unreleased Features' lists it under Clothing). Note that the client's coin price 270 has no bound stores.json row, so the item has no evidenced coin vendor."}]}

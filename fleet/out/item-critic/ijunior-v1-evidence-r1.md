@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ijunior-v1-evidence-r1 status=done turns=4 usd=0.0018 tokens(read,write,in,out)=[15228, 7223, 10, 1416] model=claude-haiku-5-5 -->
+# Junior
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The answer says no item record named Junior exists in the repo. Strictly, repo/prototype/osfr-tools/data/content/vendors_unresolved.json:9763 lists 'Junior' inside the River (Thunder Falls Speedway) wiki_mention_pages research block, next to 'Kart Driver' and 'Elvis'. It is a wiki page-mention list, not a stock row or sale, so it does not make Junior an item source. The answer should cite it and say it was rejected, not omit it.", "fix": "Add: 'vendors_unresolved.json:9763 lists Junior only as a wiki mention in River's research block (w118_research.wiki_mention_pages); it is not a vendor stock row and is not a source.'"}]}

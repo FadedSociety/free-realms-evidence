@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iskip-v2-world-r4 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[9553, 6723, 8, 1320] model=claude-haiku-5-5 -->
+# Skip
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live / retired", "issue": "Live is 'unsure' and retired is null. The pack has no dated retirement source, and the pet table row (16738 line 194) has no retirement note, while Snowflake (line 196) does. Checked the Pegasi category page (18603 line 28) and it only lists Skip as a pet with no status. The honest unknown is fine as written.", "fix": "No change needed. Keep live 'unsure' and retired null unless a dated source turns up."}, {"field": "evidence[5]", "issue": "The locale:24666 claim is a flagged fragment and is correctly marked not live. The item has no locale match, so locale_id null is right.", "fix": "No change needed."}]}

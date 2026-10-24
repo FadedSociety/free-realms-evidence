@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=kb-level-none-code-IDS-BADFILESIGNATURE-request-locale-en-US status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 1935, 4, 536] model=claude-haiku-5-5 -->
+# Free Realms - Error IDS_BADFILESIGNATURE
+
+{"article": {"title": "Free Realms - Error IDS_BADFILESIGNATURE", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This is a generic error page from the freerealms.com knowledgebase (captured 2010-08-22). It shows a 'problem with the last action' message and the raw error code IDS_BADFILESIGNATURE, with site footer links. It contains no game content: no quests, items, prices, events, or mechanics.", "facts": [], "quests": [], "uncertain": ["The error code IDS_BADFILESIGNATURE is a raw string key, not a game-facing name. It was not searched in the locale table because it is a generic error identifier, not a game name. The page does not say what triggered the error."]}

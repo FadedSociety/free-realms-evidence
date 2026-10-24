@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgreen-party-popper-407460-v2-evidence-r3 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3609, 4987, 6, 744] model=claude-haiku-5-5 -->
+# Green Party Popper
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "I checked the pack's claims. Lookup finds no wiki, article, video or coin-store source naming the Green Party Popper. The only wiki hit is 'Winter [Party] [Popper]' in the Snow Days gift box, which is a different item. Repo search for 62531 finds no hit. The client lines (locale:407460, 407468, 407461-407464, 407420, 407422) match the pack. The answer's claims are accurate and its unknowns are honest, so it passes. Minor: the 'Party Popper' generic lead (locale:407420) is noted as a lead only, which is correct. No sources are evidenced, so the item is not wireable."}]}

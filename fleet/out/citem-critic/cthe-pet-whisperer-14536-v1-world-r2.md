@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cthe-pet-whisperer-14536-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3904, 5796, 6, 1229] model=claude-haiku-5-5 -->
+# The Pet Whisperer
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0] / wireable", "issue": "The only source is an achievement reward (title). The wireable definition requires an evidenced source with a price, quest, enemy or event. An achievement is none of those, so the item cannot be set as wireable by the stated rule, even though the source is real. The answer does not say this.", "fix": "Keep the achievement source (repo:prototype/osfr-tools/data/content/achievements.json:2085-2100, reward.title_names = 'The Pet Whisperer', Gold Trophy 15 points) and mark wireable false, or add an explicit achievement category to the wireable rule. No coin store price, vendor stock row or drop exists for it."}]}

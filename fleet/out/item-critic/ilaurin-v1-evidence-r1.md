@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ilaurin-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3165, 3981, 6, 912] model=claude-haiku-5-5 -->
+# Laurin
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The quest name 'Stillwater Crossing Power Problems' is not in the cited locale strings (116468, 116470, 116471, 116896, 116904, 116890). Those strings do confirm the content: Laurin is the sponsor who supplies a power crystal for Francis's kart, and she refers the player to Dane Blueshift (Kart Driver) and Crash Davis (demolition derby). The quest title is unsourced.", "fix": "Either drop the quest title or cite the locale entry that names it. The referral and sponsor claims are supported by locale:116468, 116470, 116471, 116896, 116904, 116890."}]}

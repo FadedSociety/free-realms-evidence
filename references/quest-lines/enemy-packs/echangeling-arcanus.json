@@ -1,0 +1,49 @@
+{
+ "title": "Changeling Arcanus",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\darvon_s_descent.json"
+  },
+  {
+   "file": "dungeons\\darvon_s_descent.json"
+  },
+  {
+   "file": "dungeons\\forgotten_caves.json"
+  }
+ ],
+ "entry_count": 6,
+ "client_name_matches": [
+  "locale:16181 [npc_name | Briarwood | Darrel] 'Changeling Arcanus'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:24736 [quest_objective | - | Changeling Arcanus] 'Defeat Changeling Arcanus'",
+  "locale:24737 [quest_objective | - | Changeling Arcanus] \"The Changeling Arcanus carry the transfiguring crystals - you'll need to defeat them to obtain the crystals.\"",
+  "locale:40483 [ability | - | Changeling Arcanus] 'Changeling Arcanus basic attack'"
+ ],
+ "client_cluster": [
+  "locale:16173 [place | Shrouded Glade | Shrouded Glade] 'The Shrouded Glade Druids never roam this place alone for fear of what lives here.  Enter at your own risk!'",
+  "locale:16174 [quest_objective | Mugwort | Defeat the druid, Mugwort!] 'Defeat the druid, Mugwort!'",
+  "locale:16175 [quest_dialog | Mugwort | Defeat the druid, Mugwort!] 'Beware! The powerful magic he wields can be the end of anyone curious enough to enter...'",
+  "locale:16176 [quest_title | - | Toad Tag - Round 2] 'Toad Tag - Round 2'",
+  "locale:16180 [quest_dialog | Briarwood | Toad Tag - Round 2] 'Darrel in Briarwood wants you to play the second round of Toad Tag.'",
+  "locale:16181 [npc_name | Briarwood | Darrel] 'Changeling Arcanus'",
+  "locale:16182 [quest_dialog | Briarwood | Toad Tag - Round 2] 'Are you ready for round 2 of Toad Tag? Tag my toads in the following order: Ruberto, Ted, Ribberto, Ted, Roberto, and Ruberto!'",
+  "locale:16187 [quest_objective | Briarwood | Toad Tag - Round 2] 'Tag Ruberto'",
+  "locale:16188 [quest_objective | Briarwood | Toad Tag - Round 2] 'Tag Ruberto.'",
+  "locale:16189 [quest_objective | Briarwood | Toad Tag - Round 2] 'Tag Ted.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

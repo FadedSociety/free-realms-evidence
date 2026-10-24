@@ -1,0 +1,41 @@
+{
+ "title": "Baile de Pavos (Turkey Dance)",
+ "names_seen": [
+  "Baile de Pavos (Turkey Dance)"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called Turkey Dance was held in the Pixiewood shopping district, just north of the Sanctuary teleport stone, on Thursday 25 November 2010 at 15:00 Pacific Time for US and Latin America on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "Todo el mundo se reunirá en el distrito comercial de Pixiewood. Es justo al norte de la piedra tele-transportadora de Santuario.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1930",
+   "date": "2010-11-25"
+  },
+  {
+   "statement": "A second session of the Turkey Dance was held on Friday 26 November 2010 at 09:00 Pacific Time (16:00 GMT) for UK and Europe on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "start_hour_gmt": 16,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "Viernes 26 de noviembre del 2010 09:00 hrs. Tiempo Pacifico/16:00 hrs. GMT (Reino Unido y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1930",
+   "date": "2010-11-25"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1930",
+   "date": "2010-11-25",
+   "title": "Free Realms - What is New? (Spanish-language community event: Baile de Pavos / Turkey Dance)",
+   "summary": "This Spanish-language SOE news post announces a community event called Baile de Pavos (Turkey Dance) held on Thursday 25 and Friday 26 November 2010 on Server 1, in the Pixiewood shopping district just north of the Sanctuary teleport stone. Players open the Game Guide from the toolbar, pick the Calendar icon, and click Go to be teleported to a running event. The date is inferred from the stated event dates; the page's own posting date is given only as '6 months, 1 week ago' relative to capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

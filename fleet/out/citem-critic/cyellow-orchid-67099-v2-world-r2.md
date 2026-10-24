@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cyellow-orchid-67099-v2-world-r2 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[8662, 5591, 8, 1186] model=claude-haiku-5-5 -->
+# Yellow Orchid
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked live 'yes', but the only support is that the client carries locale 67099 and definition 23486. Nothing in the pack confirms the item is obtainable in the current game. The sources list is empty, so 'live' is a client-presence inference.", "fix": "Keep 'live' as 'client-defined, live status unconfirmed' unless a source shows it is obtainable. The collection_catalogue and collections.json entries (wiki:3:76, List of Collections rev 27852, 2013-07-13) carry no area, spawn_type, reward or entry list, so they support membership only."}]}

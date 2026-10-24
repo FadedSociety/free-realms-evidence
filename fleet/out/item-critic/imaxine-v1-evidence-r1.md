@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imaxine-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3126, 4086, 6, 952] model=claude-haiku-5-5 -->
+# Maxine
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim names 'Veevo Vanny' and cites the wiki page Veevo_Vanny. The repo build guide (NPCs - Seaside.md:148) spells the name 'Veevo Vanna' and says the wiki puts Veevo Vanna next to Maxine. The spelling is inconsistent across the sources, and the pack's wiki_page text for Maxine does not itself mention Veevo.", "fix": "Note the spelling discrepancy (wiki 'Veevo Vanny' vs repo 'Veevo Vanna', client name id 883625828) and cite the Dogs category page for Maxine's listing. The Dogs page lists Maxine under Seaside Notable Dogs, confirmed by lookup."}]}

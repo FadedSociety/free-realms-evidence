@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=clarge-striped-snail-40907-v2-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3891, 7661, 6, 1053] model=claude-haiku-5-5 -->
+# Large Striped Snail
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim and open[4]", "issue": "The withdrawn id locale:122159565 is still written into the evidence and open text. The automatic check confirms it does not exist; the only description string I can find is locale:132347 ('This item can be added to the Striped Snails Collection'). Carrying the bad id in the record risks a builder citing it.", "fix": "Remove locale:122159565 from evidence and open. Cite the description as locale:132347 only. Lookups confirm locale:40906-40913, 66698 and 7739 exist with the names given."}]}

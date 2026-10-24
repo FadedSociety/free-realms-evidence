@@ -1,0 +1,31 @@
+{
+ "title": "Kart race community event session (Americas and Latin America)",
+ "names_seen": [
+  "Kart race community event session (Americas and Latin America)"
+ ],
+ "facts": [
+  {
+   "statement": "The kart race event ran Thursday 10 March 2011 at 15:00 PST on Server 1 for US and Latin America.",
+   "numbers": {
+    "start_hour_PST": 15,
+    "day": 10,
+    "month": 3,
+    "year": 2011
+   },
+   "era": "live",
+   "quote": "jueves 10 de marzo, 2011 15:00 PST (00:00hrs CET/23:00hrs GMT) (EE.UU. y Latino America) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2048",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2048",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language community event notice from the official Free Realms site, inviting players to a kart-racing gathering run by the Free Realms ambassador team at the Hojasilvestre race track. It gives two Server 1 session times, one for the Americas and Latin America and one for the UK and Europe, both in March 2011. The page does not give the post date, and the track's English name is not in the client text table."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

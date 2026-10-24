@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmooth-air-ring-96409-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3470, 7228, 6, 1155] model=claude-haiku-5-5 -->
+# Smooth Air Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].source", "issue": "The citation 'refs quest-lines/citem-packs.json:352242-352283' and the claim that the sibling Smooth Air Necklace is definition 31123 could not be re-verified: my refs search for 31123/31003 returned no citem-packs hit. The client locale rows (96409, 96397, 96410-96412, 96517, 96529-96532) do check out.", "fix": "Keep the locale citations, which verify. Either re-cite the definition ids from the client item table with the exact file, or drop the 31123 sibling claim until it is confirmed. Definition 31003 and slot 8 / class 68 come only from the evidence pack's client_definition and are not independently checked here."}]}

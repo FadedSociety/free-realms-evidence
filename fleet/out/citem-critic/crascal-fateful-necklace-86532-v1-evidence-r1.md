@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crascal-fateful-necklace-86532-v1-evidence-r1 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[15708, 12311, 8, 1317] model=claude-haiku-5-5 -->
+# Rascal Fateful Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The answer cites the Legacy client definitions for 'Rascal Fateful Ring' and 'Polished Fateful Necklace' but omits that the same file also carries a Comment 'Rascal Fateful Necklace' (FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:466987). The comment-only label is still no source for acquisition, so the conclusion holds, but the claim list is incomplete.", "fix": "Add: the Legacy ClientItemDefinitions.json line 466987 has Comment 'Rascal Fateful Necklace' (name only, no price, vendor or source). Verified by search of refs/FreeRealms-Legacy."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-22256 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2906, 4, 347] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin error screen from the Free Realms fan forum saying the guest post-view limit was reached, plus forum navigation and boilerplate. It contains no thread text, guide, or game mechanics, so it gives a rebuilder nothing about how the live game played.", "facts": [], "quests": [], "uncertain": ["The thread the URL points to (post 22256) did not render; only the error message and forum index were captured, so the thread's actual subject is unknown."]}

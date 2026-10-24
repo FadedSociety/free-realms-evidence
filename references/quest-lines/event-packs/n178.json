@@ -1,0 +1,45 @@
+{
+ "title": "Fiesta en Plataformas de Salto (community event)",
+ "names_seen": [
+  "Fiesta en Plataformas de Salto (community event)"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called a party on the jumping platforms in Playazul was scheduled for Thursday 4 November 2010 at 15:00 Pacific time for US and Latin America, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15,
+    "day": 4,
+    "month": 11,
+    "year": 2010
+   },
+   "era": "live",
+   "quote": "Jueves 4 de Noviembre del 2010 15 hrs. Tiempo Pacifico (EE.UU. y Latino América) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1893",
+   "date": "2010-10-31"
+  },
+  {
+   "statement": "A second run of the same community event was scheduled for Friday 5 November 2010 at 09:00 Pacific time (16:00 European GMT) for UK and Europe, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "start_hour_gmt": 16,
+    "day": 5,
+    "month": 11,
+    "year": 2010
+   },
+   "era": "live",
+   "quote": "Viernes 5 de November del 2010 09:00 hrs. Tiempo Pacifico / 16:00 Tiempo Europeo GMT (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1893",
+   "date": "2010-10-31"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1893",
+   "date": "2010-10-31",
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language announcement for a Free Realms community event, a party at the jumping platforms in Playazul, held on Server 1 on the two dates listed. The article explains how players reach community events through the Game Guide's Calendar and the Go button. It gives no rewards or mechanics beyond the schedule and access steps."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

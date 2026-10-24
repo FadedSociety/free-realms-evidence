@@ -1,0 +1,26 @@
+{
+ "title": "Pirates Plunder",
+ "names_seen": [
+  "Pirates Plunder"
+ ],
+ "facts": [
+  {
+   "statement": "Freerealms.com posted a video guide by Referee Ruby covering the pirate-themed content in Free Realms, including how to collect gold doubloons.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Referee Ruby is here to take you through all the Pirate-themed goodies Free Realms has to offer",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1577",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1577",
+   "date": null,
+   "title": "Ref Ruby's Video Guide to Pirates Plunder",
+   "summary": "A short freerealms.com news post (captured July 2010) presenting Referee Ruby's video guide to the pirate-themed content in Free Realms, specifically how to collect gold doubloons. The page gives no detailed steps, rewards or amounts. The client has a 'Pirates Plunder' minigame string (id 31028), which the article's pirate theme likely refers to."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

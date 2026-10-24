@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwilds-dirt-flooring-26377-v2-evidence-r3 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4158, 5237, 6, 1207] model=claude-haiku-5-5 -->
+# Wilds Dirt Flooring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / open[2]", "issue": "The answer says the wiki Items list of flooring was not re-checked. It can be checked now: the Items page (ns0) lists Wilds Cobblestone, Seaside Sand, Pirate, Briarwood Cobblestone and other flooring, but no Wilds Dirt Flooring. That absence is weak support for the 'no wiki source' claim and should be stated as a fact, not left open.", "fix": "Items page (wiki ns0, 'Items' flooring list) names Wilds Cobblestone, Seaside Sand, Pirate, Briarwood Cobblestone, Rainbow, Fruity, Spooky, Natural Wood, Pleasant Tile and Regal Wood flooring; it does not name Wilds Dirt Flooring."}]}

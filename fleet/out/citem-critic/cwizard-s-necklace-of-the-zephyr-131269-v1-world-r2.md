@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwizard-s-necklace-of-the-zephyr-131269-v1-world-r2 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[12538, 9303, 8, 1338] model=claude-haiku-5-5 -->
+# Wizard's Necklace of the Zephyr
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the 'of the Zephyr' search 'outside the opening-* snapshots returned nothing' is slightly off. The repo search also hits FreeRealmsLocaleTools/test/.../en_us_data.dat, which holds the same locale strings. These are locale-table hits only, not item records, so the conclusion (no source record) still holds.", "fix": "Say the search hits only locale data files (opening-* snapshots and FreeRealmsLocaleTools test data). No vendor, drop, quest, recipe or store record references 75525 or 131269."}]}

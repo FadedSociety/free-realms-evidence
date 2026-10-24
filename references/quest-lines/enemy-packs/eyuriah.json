@@ -1,0 +1,40 @@
+{
+ "title": "Yuriah",
+ "our_entries": [
+  {
+   "file": "npcs/merry_vale.json",
+   "npc_id": 9500000434,
+   "zone": "Merry Vale",
+   "enemy_kind": "Necrowart zombie, \"the son\" in a Den of Secrets line; the wiki lists him as a notable Merry Vale fairy.",
+   "location_evidence": [
+    "Den of Secrets (\"Defeat Yuriah in the Den of Secrets!\", 426775865)."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:115655 [npc_name | - | Yuriah] 'Yuriah'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:115655 [npc_name | - | Yuriah] 'Yuriah'",
+  "locale:115676 [quest_objective | Den of Secrets | Yuriah] 'Defeat Yuriah'",
+  "locale:115677 [quest_objective | Den of Secrets | Yuriah] 'Defeat Yuriah in the Den of Secrets!'"
+ ],
+ "client_cluster": [
+  "locale:115648 [npc_dialog | - | -] \"Did you <font color='#D9781A'>teach your pet &quot;Handstand&quot;</font> yet?\"",
+  "locale:115650 [npc_dialog | - | -] \"Did you <font color='#D9781A'>teach your cat &quot;Spin&quot;</font> yet?\"",
+  "locale:115652 [npc_dialog | - | -] \"Did you <font color='#D9781A'>practice Handstand</font> with your pet? Well, what are you waiting for?\"",
+  "locale:115654 [quest_objective | - | -] \"Go <font color='#D9781A'>play fetch with your pet</font>! It will be good for you both.\"",
+  "locale:115655 [npc_name | - | Yuriah] 'Yuriah'",
+  "locale:115657 [npc_dialog | - | -] \"You need to <font color='#D9781A'>feed, groom, and play with your pet</font> to make them happy.\"",
+  "locale:115660 [npc_dialog | - | -] \"Keep practicing; I'm sure you and your pet will <font color='#D9781A'>score an &quot;Amazing!&quot; on a pet trick</font> soon enough.\"",
+  "locale:115662 [quest_objective | Seaside | Moanna] \"<font color='#D9781A'>Moanna is in Seaside</font>. It's west of here, on the coast.\""
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:art_or_promo): Deep inside the Den of Secrets\nOH,\nYURIAH...\nWHAT HAVE I\nBECOME?"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

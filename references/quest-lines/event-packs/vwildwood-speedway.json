@@ -1,0 +1,37 @@
+{
+ "title": "Wildwood Speedway",
+ "names_seen": [
+  "Wildwood Speedway"
+ ],
+ "facts": [
+  {
+   "statement": "The kart race event was held at the Bois Sauvage circuit (Wildwood Speedway in the client), south of the Crossroads teleport stone.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Rendez-vous ce jeudi et vendredi, sur le Circuit du Bois Sauvage, sud de la Pierre de téléportation du Carrefour",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2049",
+   "date": "2011-03-10"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2049",
+   "date": "2011-03-10",
+   "title": "Free Realms - What is New?",
+   "summary": "A French-language official news/event notice announcing a kart race event at the Wildwood (French: Bois Sauvage) Speedway, held on two dates in March 2011 on Server 1 for different regions, hosted by Free Realms ambassadors. The page gives the race schedule and a helmet reminder; it says nothing about rewards or race rules. The date 2011-03-10 is inferred from the first event date given in the text; the page header itself shows only a relative 'posted 2 months, 3 weeks ago' age."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Kart Driver: Target Acquired (final, live yes)",
+  "Kart Driver: Even the Odds (final, live unsure)",
+  "Kart Driver: Ready to Redline (final, live unsure)",
+  "Kart Driver: Challenging T.R. (final, live unsure)",
+  "Kart Driver: You Want to Go Fast? (final, live unsure)",
+  "Kart Driver: Exploder's League Sponsorship (final, live yes)",
+  "Kart Driver: Wildwood Sprint Challenge (final, live unsure)",
+  "Kart Driver: Wildwood Endurance Challenge (final, live yes)",
+  "Kart Driver: Dominating at Wildwood (final, live unsure)",
+  "Kart Driver: Guest of Honor (final, live unsure)"
+ ]
+}

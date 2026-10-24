@@ -1,0 +1,39 @@
+{
+ "title": "SOE Community Webcast: Shrouded Glade Under Siege",
+ "names_seen": [
+  "SOE Community Webcast: Shrouded Glade Under Siege"
+ ],
+ "facts": [
+  {
+   "statement": "SOE hosted a community webcast titled 'Shrouded Glade Under Siege' about the Shrouded Glade being attacked and players defending it.",
+   "numbers": {
+    "duration_minutes_expected": 20
+   },
+   "era": "live",
+   "quote": "Shrouded Glade is under attack and it’s up to you to defend it!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2622",
+   "date": null
+  },
+  {
+   "statement": "The webcast was scheduled for Thursday, June 14, 2012, at 4:00 p.m. US Pacific Time on Twitch TV, and was expected to last about 20 minutes.",
+   "numbers": {
+    "start_hour_pt": 16,
+    "expected_minutes": 20
+   },
+   "era": "live",
+   "quote": "Join us on Thursday, June 14, 2012, at 4:00 p.m. US Pacific Time* on  Twitch TV!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2622",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2622",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "An SOE news post announcing a Free Realms community webcast (hosted on Twitch TV) about the Shrouded Glade under siege storyline, the druids vs. dwarves conflict over Sacred Grove, and when Sunstone Valley will appear in game. It also teases upcoming Overworld Combat. The post gives no detailed mechanics, so it is mainly a record of content planned around June 2012."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

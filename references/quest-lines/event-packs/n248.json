@@ -1,0 +1,31 @@
+{
+ "title": "Double Member Discount Event",
+ "names_seen": [
+  "Double Member Discount Event"
+ ],
+ "facts": [
+  {
+   "statement": "The Double Member Discount Event was valid from September 1, 2010 at 11:59am PDT until September 8, 2010 at 11:59am PDT, and was limited to Members.",
+   "numbers": {
+    "start_day": 1,
+    "end_day": 8,
+    "month": 9,
+    "year": 2010
+   },
+   "era": "live",
+   "quote": "Double Member Discount Event valid from September 1st (at 11:59am PDT) to September 8th (at 11:59am PDT).",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1782",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1782",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A limited-time SOE news post announcing that the Member Discount on Station Cash Marketplace purchases was doubled from 10% to 20% for Members only. The event ran from September 1 to September 8, 2010 (times given in PDT). The exact posting date is not shown; the page says only 'Posted 3 days, 19 hours ago' relative to the capture date."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjeweled-eternal-ring-69755-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3950, 8370, 6, 961] model=claude-haiku-5-5 -->
+# Jeweled Eternal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources / open", "issue": "No source is evidenced, and I found no contrary evidence. My lookups (client, wiki, articles, video) return only locale:69755. The repo has no match for 22853, 69755 or 'Jeweled Eternal'. The refs tree has only the client-name line in a test locale dump and unrelated 'Eternal Ring' names in the Lxzxrus definitions. The answer correctly leaves sources empty.", "fix": "No change needed. Keep sources empty and retired null. Keep live as unknown and the crafting guess out of sources, since no recipe output for 22853 or 69755 was found."}]}

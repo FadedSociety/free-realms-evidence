@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=itootsie-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3086, 5087, 6, 1080] model=claude-haiku-5-5 -->
+# Tootsie
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "The word 'only' is stronger than the pack shows. The client has two Tootsie quest objectives (75492 'Deliver to Tootsie' under Seaside Coco-Nuts!, 95046 'Deliver a flyer to Tootsie' under Seaside Advertising to the Tourists). I found no other Tootsie quest text, but the pack did not run a full search for every locale id, so 'only' should read 'the only Tootsie entries found'.", "fix": "Reword to 'the only Tootsie quest text found: locale:75492 and locale:95046'. Both are confirmed by lookup (quest_objective, Seaside Coco-Nuts! and Seaside Advertising to the Tourists)."}]}

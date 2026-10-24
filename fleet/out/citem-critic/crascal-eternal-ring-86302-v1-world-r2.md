@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crascal-eternal-ring-86302-v1-world-r2 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[14081, 10297, 8, 1206] model=claude-haiku-5-5 -->
+# Rascal Eternal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the Rascal pet's wiki page lists SC Marketplace / Marketplace Items categories and 225 SC was not re-verified. My lookups of wiki and articles for 'Rascal dog pet ring necklace Marketplace' returned nothing. The pets.json rows (around 20645-20671) do cite the archived wiki page, so the claim is plausible but is only a name link.", "fix": "Keep the pet-name link as a naming coincidence only. Cite repo:prototype/osfr-tools/data/content/pets.json:20645-20671 for the pet and the wiki revision it cites, and do not treat the ring as sold with the pet."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-66859 status=nothing_found turns=1 usd=0.0012 tokens(read,write,in,out)=[0, 7365, 4, 564] model=claude-haiku-5-5 -->
+# From the Page to Your PC | Ten Ton Hammer
+
+{"article": {"title": "From the Page to Your PC", "date": "2009-04-16", "author": "Dalmarus", "type": "other"}, "about_free_realms": false, "summary": "This Ten Ton Hammer editorial discusses which fantasy book series (Dragonlance, Ravenloft, and others named in comments) would make good MMOG settings. It does not discuss Free Realms. The only Free Realms mention is a sidebar headline, \"Free Realms Beta Giveaway,\" and a navigation entry, which are site boilerplate rather than article content, so no Free Realms facts are recorded.", "facts": [], "quests": [], "uncertain": ["The 'Free Realms Beta Giveaway' link appears only in the Ten Ton Hammer sidebar, and its article body is not in this capture, so it was not used."]}

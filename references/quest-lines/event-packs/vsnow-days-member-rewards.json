@@ -1,0 +1,31 @@
+{
+ "title": "Snow Days member rewards",
+ "names_seen": [
+  "Snow Days member rewards"
+ ],
+ "facts": [
+  {
+   "statement": "Paying members in good standing (or those who registered before the deadline) received a Snow Days reward pack, delivered starting noon 16 December, taking two to three days to reach every account.",
+   "numbers": {
+    "reward_claim_day": 15,
+    "reward_delivery_start_day": 16,
+    "delivery_days_min": 2,
+    "delivery_days_max": 3
+   },
+   "era": "live",
+   "quote": "Tomará dos a tres días para que los regalos lleguen a cada cuenta",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1968",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1968",
+   "date": null,
+   "title": "Premios para Miembros de Días de Nieve (Free Realms - What is New?, Spanish-language post)",
+   "summary": "A Spanish-language SOE news post announcing the Snow Days member gift. Paying members in good standing (or those who registered before the deadline) would receive a reward pack at noon on Wednesday 15 December, delivered 16 December over two to three days, with the contents scaling by membership plan length. The page shows no year; the post's relative date (5 months, 3 weeks ago, at a 2011-06-04 capture) suggests late 2010, but this is inferred, so the date is left null."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

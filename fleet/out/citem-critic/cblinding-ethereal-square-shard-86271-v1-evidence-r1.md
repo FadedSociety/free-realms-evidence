@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblinding-ethereal-square-shard-86271-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4105, 9672, 6, 1127] model=claude-haiku-5-5 -->
+# Blinding Ethereal Square Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[4] / open", "issue": "The answer calls client line locale:150178 'a generic placeholder-style line'. The pack only shows that the line is tagged to the item name; nothing in it establishes placeholder status. The characterization is unsupported, though it does not change any source.", "fix": "Drop the 'placeholder-style' wording and state only that locale:150178 ('This is a Blinding Ethereal Square Shard item.') is tagged to name 86271 and is not a description. Its text is the only confirmed content of that line."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iandrea-motorspeak-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3122, 6801, 6, 1191] model=claude-haiku-5-5 -->
+# Andrea Motorspeak
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "The answer cites locale 2942629997 as the source of the name 'Andrea Motorspark'. That id is the tune-up hint string. The name itself is locale 401325 ('Andrea Motorspark'), which the repo's npcs/briarwood.json (NameId=401325, Npcs.json Id=2678) also resolves to.", "fix": "Cite locale 401325 for the name 'Andrea Motorspark' and locale 2942629997 separately for the 'Visit a mechanic at any of the Speedways' tune-up hint. Both are confirmed by my locale lookup and the repo notes at NPCs - Briarwood.md:130."}]}

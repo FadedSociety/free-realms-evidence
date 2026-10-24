@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cforest-bark-98396-v1-evidence-r1 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[12307, 9073, 8, 1397] model=claude-haiku-5-5 -->
+# Forest Bark
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open (Triage effect numbers)", "issue": "The answer lists the wiki's 'Heals 444 damage. Deals 1554 damage.' under Triage as an unresolved inconsistency. The reference data resolves it: repo:prototype/osfr-tools/data/reference/weapons.json lines 18290-18292 hold one effect with damage 1554 and heal 444, so both figures belong to the same Triage effect.", "fix": "Treat the Triage numbers as consistent: heal 444 and damage 1554 on one effect (weapons.json ~18291-18292). The Incision value of 488 damage is not checked against the same file here."}]}

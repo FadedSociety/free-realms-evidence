@@ -1,0 +1,45 @@
+{
+ "title": "Counselor Jake",
+ "our_entries": [
+  {
+   "file": "dungeons\\bigfoot_defender.json",
+   "definition_id": 930005
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:428935 [npc_name | - | Counselor Jake] 'Counselor Jake'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:428935 [npc_name | - | Counselor Jake] 'Counselor Jake'"
+ ],
+ "client_cluster": [
+  "locale:428927 [ability | - | Vampiric Wrath Proc] 'Vampiric Wrath Proc'",
+  "locale:428928 [ability | - | Vampiric Wrath Proc] 'Lifetap effect granted by the Vampirc Wrath ultra attack.'",
+  "locale:428929 [npc_name | - | Greenwood Bear] 'Greenwood Bear'",
+  "locale:428930 [npc_name | - | Bigfoot] 'Bigfoot'",
+  "locale:428931 [npc_name | - | Counselor Kaela] 'Counselor Kaela'",
+  "locale:428932 [npc_name | - | Counselor Tyra] 'Counselor Tyra'",
+  "locale:428934 [npc_name | - | Counselor Edmond] 'Counselor Edmond'",
+  "locale:428935 [npc_name | - | Counselor Jake] 'Counselor Jake'",
+  "locale:428938 [quest_dialog | - | Bigfoot] 'Hey! Did Chatty send you to help?'",
+  "locale:428939 [quest_objective | - | Bigfoot] 'Bigfoot is just up ahead... '",
+  "locale:428940 [quest_dialog | - | Bigfoot] \"If you think we can take him I'll get your back.\"",
+  "locale:428941 [quest_dialog | - | Bigfoot] 'But the others would help out a lot.'",
+  "locale:428942 [ability | - | Pulse | FLAG fragment: ability name only] 'Pulse'",
+  "locale:428943 [ability | - | Pulse] 'Launch a pulse of energy at all nearby opponents.'"
+ ],
+ "wiki": {
+  "title": "Counselor Jake",
+  "text": "Counselor Jake is a human NPC that can be found in the perimeters of Camp Chatty, located in the Greenwood Forest.\n\nHe is also an enemy NPC in Bigfoot Defender. He is with Edmond, Tyra, and Kaela to find and hurt Bigfoot.\n\nQuests\nQuest:The Great Treeble Race (repeatable)\n\nAppearances\nQuest:Meet and Greet\nQuest:The Great Treeble Race\nBigfoot Defender\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Human\nCategory:Quest Givers\nCategory:Camp Chatty\nCategory:Greenwood Forest"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "talk target in 'Meet and Greet' (final): Speak to Counselor Jake",
+  "giver of 'The Great Treeble Race' (final, zone Greenwood Forest)",
+  "talk target in 'The Great Treeble Race' (final): Counselor Jake challenges you to beat the current best time for running around the lake.",
+  "talk target in 'The Great Treeble Race' (final): Return to Counselor Jake"
+ ]
+}

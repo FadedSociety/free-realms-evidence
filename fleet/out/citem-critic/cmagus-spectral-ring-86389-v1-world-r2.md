@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmagus-spectral-ring-86389-v1-world-r2 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[11673, 9152, 8, 1165] model=claude-haiku-5-5 -->
+# Magus Spectral Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] (sibling cluster)", "issue": "The cluster list omits Champion Spectral Ring (locale:86380), the Spectral-tinted sibling of this ring. The pack's cluster of Champion/Magus rings is therefore incomplete, and the Magus Spectral Necklace family (locale:86624, with Magus Dreadful/Fateful/Infernal/Mystical/Phantasmal/Eternal/Celestial/Ethereal Necklace at locale:86621-86629) is not mentioned as a sibling set.", "fix": "Add locale:86380 'Champion Spectral Ring' to the Champion/Magus ring cluster (client lookup), and note the parallel Magus necklace set at locale:86621-86629. Both are name-only, so no source is added for either."}]}

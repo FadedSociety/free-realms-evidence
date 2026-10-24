@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpet-dog-small-floppy-solid-gold-75103-v2-world-r2 status=done turns=3 usd=0.0012 tokens(read,write,in,out)=[8450, 5181, 8, 917] model=claude-haiku-5-5 -->
+# Pet: Dog: Small Floppy: solid-gold
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer correctly lists no sources. My checks agree: the only repo row for item 23953 is stores.json:6830, a 540/486/54 default with R1 tags, and no wiki, article, video or client line names this solid-gold variant or any vendor, quest or event. Retired and live status are honestly unknown.", "fix": "No change needed. Optional: the Coin Shop.md citation (lines 33-34) was not re-read in this pass, so its wording is taken from the evidence pack. The sibling Small Floppy names (locale 75050-75058) carry no acquisition evidence either, so they cannot stand in as sources."}]}

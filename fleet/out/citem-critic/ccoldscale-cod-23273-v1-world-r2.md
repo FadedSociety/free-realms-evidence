@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccoldscale-cod-23273-v1-world-r2 status=done turns=3 usd=0.0025 tokens(read,write,in,out)=[16804, 13677, 8, 1211] model=claude-haiku-5-5 -->
+# Coldscale Cod
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the answer does not mention that the name also exists as title strings in the locale data (ucdt 818785984 and ugdt 535953999, both 'Coldscale Cod'). These are name-table entries, not source evidence, so they do not change the answer, but a builder checking the name would expect them to be listed.", "fix": "Add to evidence: 'Name also appears as title strings ucdt 818785984 and ugdt 535953999 (en_us_data.dat, 'Coldscale Cod'); these name the item only and give no source.' (Found via search of refs locale dumps, e.g. opening-native-lobby-20261009T163603Z/locale/en_us_data.dat.)"}]}

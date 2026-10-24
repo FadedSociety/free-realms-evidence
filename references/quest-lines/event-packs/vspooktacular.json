@@ -1,0 +1,67 @@
+{
+ "title": "Spooktacular",
+ "names_seen": [
+  "Spooktacular"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms' Spooktacular event was the subject of a SOE webcast scheduled for Thursday, October 6, 2011.",
+   "numbers": {},
+   "era": "live",
+   "quote": "talk about the always fun and frightening Spooktacular event in Free Realms",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2291",
+   "date": null
+  },
+  {
+   "statement": "Free Realms' Spooktacular event was the subject of an SOE webcast in early October 2011, with Referee Ruby and developers discussing it.",
+   "numbers": {},
+   "era": "live",
+   "quote": "talk about the always fun and frightening Spooktacular event in Free Realms",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2292",
+   "date": null
+  },
+  {
+   "statement": "The October 6, 2011 webcast discussed the Spooktacular event in Free Realms.",
+   "numbers": {},
+   "era": "live",
+   "quote": "talk about the always fun and frightening Spooktacular event in Free Realms",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2300",
+   "date": "2011-10-10"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2291",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms webcast announcement (captured 2011-10-07, post date not shown; it says 'posted 2 days, 2 hours ago'). It promotes the Spooktacular event and a SOE Webcast on Thursday, October 6, 2011 covering Spooktacular, Farming updates, and the new mini-game 'Spot the Difference'. The article itself contains no mechanics details."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2292",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This official SOE news post announces a Free Realms webcast (Thursday, October 6, 2011, 4:00 p.m. US Pacific, streamed on the Stickam SOE channel, about 20 minutes) previewing the Spooktacular event, Farming updates, and the new mini-game \"Spot the Difference\". It is a schedule announcement and gives no mechanics, rewards or item details."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2300",
+   "date": "2011-10-10",
+   "title": "Free Realms Webcast Recap",
+   "summary": "A recap of the SOE webcast held Thursday, October 6, 2011, with Referee Ruby, Producer Harvey Burgess, Game Designer Christopher Fritchoff and Senior Artist Matt Case. It covered the Spooktacular event, Farming updates, the new mini-game \"Spot the Difference\", and vampires and werewolves. The article gives no detailed mechanics, dates or rewards."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "A Dark Future (unresolved, live yes)",
+  "A Formal Report (final, live yes)",
+  "Bag Snatchers (final, live yes)",
+  "Being Prepared (final, live yes)",
+  "Catch a chicken for Lon (unresolved, live yes)",
+  "Candy Gram (final, live yes)",
+  "Delicious Goo'd Candy (final, live yes)",
+  "Guardians of the Tomb (final, live yes)",
+  "Halloween Fanatic (final, live yes)",
+  "Sealed with a Signet (final, live yes)",
+  "The Great Scare (final, live unsure)",
+  "Trick-or-Treat (final, live unsure)"
+ ]
+}

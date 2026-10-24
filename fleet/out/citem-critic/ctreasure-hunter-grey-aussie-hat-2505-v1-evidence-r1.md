@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctreasure-hunter-grey-aussie-hat-2505-v1-evidence-r1 status=no_submit turns=4 usd=0.0033 tokens(read,write,in,out)=[32498, 16924, 10, 1727] model=claude-haiku-5-5 -->
+# Treasure Hunter Grey Aussie Hat
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].source / evidence[1].source", "issue": "The sale is cited to repo stores.json line 130, which is a derived tool file. The primary Legacy row is FreeRealms-Legacy/src/Resources/CoinStoreItems.json line 310 (Id 211, CategoryId 101, no tint group). That file confirms the store listing but carries no price, so the price rests on stores.json and the client definition's coin_store_prices [270].", "fix": "Cite CoinStoreItems.json:310 for the listing (Id 211, CategoryId 101) and the client definition coin_store_prices [270] for the 270-coin price. Cite stores.json line 130 only for the member price (243) and resale (27)."}]}

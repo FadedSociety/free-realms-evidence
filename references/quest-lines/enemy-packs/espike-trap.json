@@ -1,0 +1,36 @@
+{
+ "title": "Spike Trap",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_rumbledome.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:5100701 [item | - | Spike Trap!] 'Spike Trap!'"
+ ],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [
+  "locale:5100693 [ability | - | Necrotic Gloamfire] 'Necrotic Gloamfire'",
+  "locale:5100694 [ability | - | Necrotic Gloamfire] \"Burns an opponent with Gloamfire. Nearby opponents also catch fire. Necronomicus' signature magic blast. \"",
+  "locale:5100695 [ability | - | Necrotic Gloamfire Splash] 'Necrotic Gloamfire Splash'",
+  "locale:5100696 [ability | - | Necrotic Gloamfire Splash] 'Splash damage inflcited if a nearby ally is struck by Necrotic Gloamfire.'",
+  "locale:5100697 [item | - | Flame Trap!] 'Flame Trap!'",
+  "locale:5100698 [other | - | Flame Trap! | FLAG dev_note: [dev] TCG5 loot tag] '[dev]TCG5 Loot - Housing Fixture - Flame Trap'",
+  "locale:5100699 [item | - | Shock Trap!] 'Shock Trap!'",
+  "locale:5100700 [other | - | Shock Trap! | FLAG dev_note: [dev] TCG5 loot tag] '[dev]TCG5 Loot - Housing Fixture - Shock Trap'",
+  "locale:5100701 [item | - | Spike Trap!] 'Spike Trap!'",
+  "locale:5100702 [other | - | Spike Trap! | FLAG dev_note: [dev] TCG5 loot tag] '[dev]TCG5 Loot - Housing Fixture - Spike Trap'",
+  "locale:5100703 [quest_dialog | - | Golden Pots] 'Well there are many places it can be, so it is hard for me to remember them all. I do remember details about the areas they can be in, so heed this poem if you '",
+  "locale:5100705 [quest_dialog | - | Golden Pots] \"What are you doing here whippersnapper? Me lucky coin won't find itself you know. <BR>If you're having trouble finding me golden pots make sure you be wearing t\"",
+  "locale:5100707 [quest_dialog | - | Golden Pots] 'Well there are many places it can be, so it is hard for me to remember them all. I do remember details about the areas they can be in, so heed this poem if you '"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

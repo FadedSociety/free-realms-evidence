@@ -1,0 +1,16 @@
+<!-- fleet job=bug-hunt id=src-startup-snapshot-rs-L1 status=nothing_found turns=11 usd=0.0140 tokens(read,write,in,out)=[251061, 39615, 24, 13050] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/startup_snapshot.rs lines 1-800 of 918
+
+No reportable defects in `prototype/osfr-tools/src/startup_snapshot.rs` lines 1-800.
+
+What I checked, and why each candidate was dropped:
+
+- **Snapshot load path (`load`, 208-221; `validate`, 254-304).** The snapshot is an operator file (`gateway.rs:838`, `configured_snapshot_path`), not a client packet. `validate` runs on load and on the synthetic path (`gateway.rs:835`). It bounds all row counts, checks the NUL-free environment that `build_initialization_parameters` asserts on (`startup_messages.rs:49`), checks `effect_tags.len() == 2` and `npc_spawns.len() == 23`, and checks stat kinds and NaN values. The `bytes[..4]` slice at 281 is guarded by the `len() < 4` short-circuit.
+- **`build_packet` (307-368).** Index 7 returns an error and is never built by the gateway, which routes it to `build_self_message` (`gateway.rs:1917`). Indices 10-32 use `.get()`. Indices 36/37 index `effect_tags[index-36]`, which is safe because `validate` fixes the length at 2. `build_stats` maps `kind` 0/other to Integer/Float, which is safe because `validate` restricts `kind` to 0..=1.
+- **Reader (559-619).** `take` uses `checked_add` and `get(..)`, and only advances on success, so `offset <= len` always holds. `count()` caps at `MAX_ROWS`, so the `with_capacity` calls at 755 and 772 are bounded. The `try_into().unwrap()` calls are on exact-length slices.
+- **Parsers (664-788).** `parse_environment` handles an empty remainder (`last()` is `None`, so the check short-circuits to Err). `parse_zone`, `parse_combat_flag`, `parse_hit_points`, `parse_mana`, `parse_journal_set` and `parse_stats` all use `finish()` for trailing-byte checks. `read_capture_inner` computes `7 + length` in `usize`, which cannot overflow on the 64-bit target, and the input is a lab capture anyway.
+- **Export (223-252) and `verify_capture` (543-555).** Verification completes before the output is written, and the output path is pinned to `lab/content/startup-snapshot/startup.json`. The phase split (`index < 8` → login) matches the gateway's `Kind::Login => 0..8` / `Kind::Ready => 8..46` ranges (`gateway.rs:1900-1901`). Builders return tunnel-framed bytes, which is consistent with `read_capture` (raw) on the verify side and `read_capture_inner` (stripped) on the parse side. The inventory path `reference.parent().join("rust-gameplay/inventory.json")` matches the layout the tests use.
+- **`build_zone` override (370-394).** `geometry_id as u32` from an i32 keeps the same bytes on the wire, and `zone_type: 2` is documented in the source as the existing gateway behaviour. The override ignores the `zone_id` argument, but the source does not say whether that is a bug, so I did not report it.
+- **Non-atomic `fs::write` in export (246-250).** A crash mid-write could leave a truncated startup.json, but `load` rejects it with a bounded error. This is operator tooling, not a remote-player path, so I did not report it.
+
+No client-controlled input reaches any of these functions in a way the existing checks fail to stop.

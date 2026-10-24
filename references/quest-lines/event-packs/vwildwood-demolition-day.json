@@ -1,0 +1,29 @@
+{
+ "title": "Wildwood Demolition Day",
+ "names_seen": [
+  "Wildwood Demolition Day"
+ ],
+ "facts": [
+  {
+   "statement": "A community demolition derby event ran on August 7, 2009 from 2pm to 4pm Pacific time on all servers at the Wildwood Speedway Demolition Derby Track.",
+   "numbers": {
+    "start_hour_pacific": 14,
+    "end_hour_pacific": 16
+   },
+   "era": "live",
+   "quote": "Today, August 7th, 2009, from 2pm to 4pm Pacific time, the Community Team challenges everyone",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=188",
+   "date": "2009-08-07"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=188",
+   "date": "2009-08-07",
+   "title": "Community Event: Wildwood Demolition Day",
+   "summary": "A Community Team event on Friday August 7, 2009 (2pm to 4pm Pacific, all servers) held a demolition derby at the Wildwood Speedway kart track. Players learn to drive karts from Mad Jack and join races through the Demo Derby Lobby, reached by the demo derby icon at the turnstiles. The article gives no reward or rule details beyond this."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

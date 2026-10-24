@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-sun-necklace-96535-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3391, 7754, 6, 934] model=claude-haiku-5-5 -->
+# Shiny Sun Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The pack's claims check out. The lookup returns only locale:96535 for the name, and refs search finds no store, drop, quest or wiki entry for definition 31129. The answer lists no sources and marks live as unsure, which is an honest unknown. No price, vendor or drop is asserted, so nothing is unsupported.", "fix": "No change required for the evidence lens. Optional: note in the sibling list that refs also contain a 'Shiny Sun Ring' client name (refs locale table, ids 3252689871 and 3810110440), which suggests a related but separate item family. Its source is also unevidenced."}]}

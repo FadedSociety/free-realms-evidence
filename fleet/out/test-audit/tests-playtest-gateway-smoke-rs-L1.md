@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-playtest-gateway-smoke-rs-L1 status=done turns=6 usd=0.0103 tokens(read,write,in,out)=[107265, 35274, 14, 9601] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/playtest_gateway_smoke.rs lines 1-1146 of 1146
+
+Window reviewed: `prototype/osfr-tools/tests/playtest_gateway_smoke.rs` lines 1-1146 (all read). Four findings; the rest of the window's assertions check real server state, real replies or real save bytes, and the fixed-ticket, malformed-packet and duplicate-login refusals do change observable state (session count, save bytes, `auth_failure` log row).
+
+- **[medium] playtest_gateway_smoke.rs:585 `a_normal_player_logs_in_enters_moves_chats_and_relogs` - the "not a developer-command refusal" check searches for the text `developer command`, which the role-gated refusal never contains, so the negative assertion can never fail.**
+  - Why it cannot catch a regression: `gameplay.rs:3705-3708` builds the refusal as either "Cannot do that: your account role does not allow this command." (role path) or "Cannot do that: developer command requires --dev-tools ..." (dev-tools-off path). The role path, which is the one a `Player` session takes, does not contain `developer command`. A regression that answers the ordinary line "synthetic smoke line" with the role refusal text would pass this check. The only remaining guard is the delivery check at 574-580, and that one does not check for a refusal either.
+  - Fix: assert that no family 15 sub 3 reply exists at all for the ordinary line (`!replies.iter().any(|m| is_family(m, 15, 3))`), or search for `b"does not allow"` as well as `b"developer command"`.
+
+- **[medium] playtest_gateway_smoke.rs:1039-1046 `a_bad_packet_or_abrupt_disconnect_ends_only_that_session` - the comment and assertion say the abandoned session stays "until the existing idle timeout", but the body only steps the server 5 times and never reaches the timeout.**
+  - Why it cannot catch a regression: the real timeout is 60 s (`osfr-gateway.rs:3810`, `current.last_activity.elapsed() > Duration::from_secs(60)`). Five `step()` calls take milliseconds. A change that ends abandoned sessions after, say, 1 s, or after a few hundred ms, would still leave `active_session_count() == 2` here, and the relog refusal at 1055-1069 would still pass.
+  - Fix: either rename the test/assertion to "an abandoned socket is not ended immediately", or add a check that the session survives just under the timeout and is ended once it passes it, with the timeout made injectable or time-advanced in the harness.
+
+- **[medium] playtest_gateway_smoke.rs:719 `the_smoke_uses_no_dev_commands_or_roles` - the name and the comment at 750 claim the flow causes "no role change", but the role is read only before the flow (725-728) and never again.**
+  - Why it cannot catch a regression: a server-side change that rewrites the owner's account role during an ordinary login/move/chat flow would pass. The only evidence is the scan of sent client bytes for `realm ` and `teleport` (783-793), which says nothing about server state.
+  - Fix: after the flow, reload the store (or query the server's account store) and assert `account_role(owner) == Some(AccountRole::Player)`, and assert the security log has no role-change row.
+
+- **[low] playtest_gateway_smoke.rs:661 `a_normal_player_logs_in_enters_moves_chats_and_relogs` - the "transform appears exactly once" check pins the raw byte layout of the self-data record, and the comment at 631-634 says that layout moves with appearance string lengths.**
+  - Why it cannot catch a regression: it is not about the saved position at all, and an unrelated change to the self-data encoding (for example a different float-to-string field or padding that the parser already handles) would fail it while the typed `parse_self` checks at 635-647 still pass. This is churn, not a missed bug.
+  - Fix: drop the byte-count assertion and rely on the typed `parse_self` position and rotation checks at 635-647, which the test's own comment says are the authoritative reader.

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cserbia-soccer-flag-39098-v2-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3806, 7655, 6, 992] model=claude-haiku-5-5 -->
+# Serbia Soccer Flag
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence / open", "issue": "The answer reads the store row as a no_sale price record only and never mentions the row's source_tags array (L1, L2, L4, R2, L3, L3), which is present on every row in the 16723-16754 block (stores.json lines 4165-4192, and item 16747 at line 4185). The answer does not say what these tags mean, so a builder could miss a possible shop or location link.", "fix": "Add to open: 'Store rows for item 16747 and its block carry source_tags [L1, L2, L4, R2, L3, L3] (stores.json line 4185); their meaning is unverified and they are not evidence of a vendor sale.' No vendor, quest, or event source is evidenced, so the sources list stays empty and wireable stays false."}]}

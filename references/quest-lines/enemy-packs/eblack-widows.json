@@ -1,0 +1,52 @@
+{
+ "title": "Black Widows",
+ "our_entries": [
+  {
+   "file": "dungeons\\arachnia_s_lair.json",
+   "definition_id": 930028
+  },
+  {
+   "file": "dungeons\\haunted_mines.json",
+   "definition_id": 930028
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:411068 [other | - | Black Widows | FLAG fragment: team or name label with no quest meaning on its own] 'Black Widows'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:406409 [quest_dialog | Soccer | Black Widows] \"Did you <font color='#d9781A'>beat</font> the Black Widows yet? <BR><BR><font color='#d9781A'>&quot;Fancy Feet&quot;</font> must <font color='#d9781A'>be tackle\"",
+  "locale:409744 [npc_dialog | Briarwood | Black Widows] \"Briarwood's Black Widows only take on level 5 teams.\"",
+  "locale:411068 [other | - | Black Widows | FLAG fragment: team or name label with no quest meaning on its own] 'Black Widows'",
+  "locale:415172 [quest_dialog | - | Black Widows] \"You best get those legs onto the field quickly, kiddo. The rematch starts shortly! Just <font color='#d9781A'>beat</font> those <font color='#d9781A'>Black Wido\"",
+  "locale:416087 [quest_dialog | - | Black Widows] \"Rematch or not we'll show the Black widows we're no pushovers!\""
+ ],
+ "client_cluster": [
+  "locale:411060 [quest_objective | - | Reel in Sticks of Dynamite] 'Reel in Sticks of Dynamite'",
+  "locale:411061 [quest_objective | - | Reel in Sticks of Dynamite] \"Reel in some dynamite sticks from the Wintery Basin. Just be sure they're not soggy!\"",
+  "locale:411062 [quest_objective | - | Blast the ice holes] 'Blast the ice holes'",
+  "locale:411063 [quest_objective | - | Blast the ice holes] 'Blast the ice holes around the lake.'",
+  "locale:411065 [quest_objective | - | Blast the ice holes] \"Let Ernest know that you've blasted the ice holes.\"",
+  "locale:411066 [quest_dialog | - | Silverfist has been defeated!] 'Silverfist has been defeated!'",
+  "locale:411067 [other | - | Goalbusters | FLAG fragment: team or name label with no quest meaning on its own] 'Goalbusters'",
+  "locale:411068 [other | - | Black Widows | FLAG fragment: team or name label with no quest meaning on its own] 'Black Widows'",
+  "locale:411069 [other | - | Mud Hoppers | FLAG fragment: team or name label with no quest meaning on its own] 'Mud Hoppers'",
+  "locale:411070 [other | - | Snowspurs | FLAG fragment: team or name label with no quest meaning on its own] 'Snowspurs'",
+  "locale:411071 [other | - | Twinkletoes | FLAG fragment: team or name label with no quest meaning on its own] 'Twinkletoes'",
+  "locale:411072 [other | - | Cheetahs | FLAG fragment: team or name label with no quest meaning on its own] 'Cheetahs'",
+  "locale:411073 [other | - | Sidekicks | FLAG fragment: team or name label with no quest meaning on its own] 'Sidekicks'",
+  "locale:411074 [npc_dialog | - | Rowdy Spectator] 'You stand no chance against me!'",
+  "locale:411076 [ability | - | Krissy's Heal | FLAG not_live: test or dev-style rumbledome entry] \"rumbledome 326 - Krissy's Heal (self only)\""
+ ],
+ "wiki": {
+  "title": "Black Widow",
+  "text": "Black Widows are a race of arachnid that live exclusively in Briarwood and Blackspore Swamp. Most black widows serve as dungeon enemies with the few exceptions such as Spinnerette. Black widows found in Briarwood serve under the rule of Queen Arachnia and the forest troll boss, General Grexan; while the black widows found in Blackspore serve under the rule of Necrosis.\n\nBaby black widows are known as hatchlings, and often appear spawning out of eggs in the dungeon instances Arachnia's Lair and Haunted Mines.\n\nDifference\nThere is a difference between its gender. Male black widows tend to have smooth legs and two fangs; while the female black widows have hairy legs, four fangs, and a spike at the end of their abdomen. Although their eyes and skin are different.\n\nNotable Black Widows\nBriarwood\nSpinnerette\nQueen Arachnia\n\nBlackspore Swamp\nNecrosis\n\nOther\nBaby Black Widow\n\nRelated Items\nWidow Candy (Consumable)\nBug Me Potion (Consumable)\nSpider Sprayer (Freestyle Weapon)\n\nAppearances\nArachnia's Lair\nGrexan's Camp\nHaunted Mines\n\nGallery\n\nCategory:Races\nCategory:Black Widows\nCategory:Briarwood\nCategory:Blackspore"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "minigame target in 'Soccer Star: Briarwood's Fancy Feet' (final): Beat the Black Widows",
+  "other target in 'Soccer Star: Black Widows' Rematch' (unresolved): The Black Widows aren't taking the loss very well. They want a rematch. Coach \"Golden Leg\" Eddie has reserved the field "
+ ]
+}

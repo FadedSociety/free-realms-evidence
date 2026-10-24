@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfree-realms-champion-432021-v1-world-r2 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[11282, 7850, 8, 1008] model=claude-haiku-5-5 -->
+# Free Realms Champion
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the title is tied to completing all achievements is an inference from the sibling string 'Complete all Achievements' (locale 432019). It is hedged in the answer, but no source names the award condition. Lookups of wiki, articles, video and client found nothing else about this title.", "fix": "Keep it as an open question. Only the title string itself is evidenced (locale 432019 'Complete all Achievements' is a quest_title tagged to this name). No award condition or acquisition source should be stated until a wiki Achievements page or video confirms it."}]}

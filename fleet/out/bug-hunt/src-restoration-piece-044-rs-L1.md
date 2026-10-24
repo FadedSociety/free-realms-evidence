@@ -1,0 +1,12 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-044-rs-L1 status=done turns=5 usd=0.0050 tokens(read,write,in,out)=[34077, 19064, 12, 4526] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_044.rs lines 1-303 of 303
+
+Reviewed `prototype/osfr-tools/src/restoration/piece_044.rs` lines 1-303 in full. No panic, overflow, unbounded growth, or atomicity defect is reachable. Every slice index in `decode_switch_request` (lines 200-221) follows a length check that covers it, `profile_id <= 0` is rejected, and `decide_switch` (225-236) mutates nothing. The module has no production callers yet (`search` finds only the work-item notes and the Python checker), so no client packet reaches it today.
+
+**[low] prototype/osfr-tools/src/restoration/piece_044.rs:281-302 - `preserve()` requires the equipped set to be identical across a switch, which contradicts the module's own recovered fact that gear moves with the newly activated profile.**
+- **Failure scenario:** a character with profile A (equipment `[10, 11]`) switches to profile B, whose recovered `ClientPcProfile.Items` are `[20, 21]`. The activation is correct and sent. `preserve(before, after)` then returns `Err(PreserveError::EquipmentChanged)` at line 292, so a caller that treats the error as a failed switch reports a failure after the profile has already become active.
+- **Reach:** no live caller yet. A future wiring of `preserve` into the switch path would hit this, because the caller samples the values after its own activation (doc at lines 238-240).
+- **Why it is only low:** the module's documents disagree with each other. Lines 35-37 say gear and the ability bar "move with the newly activated profile instead of being cleared". Line 271 says "gear belongs to the profiles, not to the switch itself". The code follows the second reading. The contradiction is real, but whether gear should be equal across a switch is a game-semantics question I could not settle from the window.
+- **Fix:** decide whether equipment should be unchanged or should match the target profile's `Items`. If it should match, compare against the target profile's recovered items instead of `before`. Otherwise correct the doc comments at lines 35-37 and 271.
+
+Not reported: `ability_count` is compared by size only (line 294). That matches its documented meaning ("Size of the ability set"), so I did not count it as a defect.

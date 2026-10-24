@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cyellow-flat-rectangle-block-134807-v1-world-r2 status=no_submit turns=3 usd=0.0023 tokens(read,write,in,out)=[15293, 11696, 8, 1338] model=claude-haiku-5-5 -->
+# Yellow Flat Rectangle Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[].type", "issue": "Both sources are labelled 'vendor', but the repo rows (stores.json 16545 and 16597) are coin-store category 147 listings with no NPC or vendor identified anywhere in the pack. Calling them vendors overstates what is evidenced. The rows are real and the prices match.", "fix": "Label them 'coin_store' (category 147, unnamed), not 'vendor'. Prices are confirmed: 77214 at 50 coins, member 45, no_sale true (stores.json line 16545); 77266 at 300 coins, member 270, sell-back 30, no_sale false (line 16597). The vendor/NPC stays open."}]}

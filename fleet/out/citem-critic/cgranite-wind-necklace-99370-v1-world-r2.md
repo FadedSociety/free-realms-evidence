@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgranite-wind-necklace-99370-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3801, 9753, 6, 1110] model=claude-haiku-5-5 -->
+# Granite Wind Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the refs root holds the name in a community file, Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json (line 657604, Comment 'Granite Wind Necklace'), next to its Fire/Sun/Air/Void siblings. The answer's 'nothing names it' claim is true only for repo, wiki, articles and video. The file is a definitions list, not an acquisition source, so it does not change sources or retired status.", "fix": "Add a note: 'Named only in the Lxzxrus community ClientItemDefinitions.json (line 657604) as a definition comment; that file gives no acquisition for it.' Sources stay empty and live stays 'unsure'."}]}

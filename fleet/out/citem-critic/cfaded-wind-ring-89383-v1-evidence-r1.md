@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-wind-ring-89383-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3439, 7369, 6, 755] model=claude-haiku-5-5 -->
+# Faded Wind Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty, and the answer is honest about it. My own lookups confirm no wiki page, article, video frame, vendor, quest or drop names 'Faded Wind Ring'. The only hit is the client text line locale:89383. Refs search finds only locale-table hash entries for the name, plus the sibling 'Faded Wind Necklace', with no acquisition data.", "fix": "No change needed. Leave sources empty and keep live 'unsure' and retired null until a wiki, forum or video source names an acquisition path for the Faded/Polished ring family (locale 89294-89388)."}]}

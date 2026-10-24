@@ -1,0 +1,36 @@
+{
+ "title": "Valentine's 2012 pet outfit promotion",
+ "names_seen": [
+  "Valentine's 2012 pet outfit promotion"
+ ],
+ "facts": [
+  {
+   "statement": "A promotion gave a free doggy or kitty outfit when a Dog or Cat priced at 400 Station Cash was bought.",
+   "numbers": {
+    "pet_price_station_cash": 400
+   },
+   "era": "live",
+   "quote": "give you a FREE doggy or kitty outfit when you buy a Dog or Cat priced at 400 Station Cash",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2521",
+   "date": null
+  },
+  {
+   "statement": "The promotion ran from 12:01 AM Pacific on February 10, 2012 to 11:59 PM Pacific on February 14, 2012.",
+   "numbers": {},
+   "era": "live",
+   "quote": "available starting at 12:01 AM Pacific on February 10, 2012, and ending at 11:59 PM Pacific on February 14, 2012",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2521",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2521",
+   "date": null,
+   "title": "Free Realms - What is New? (We love our Free Realms Players!)",
+   "summary": "A freerealms.com news post announcing a Valentine's 2012 promotion: buying a Dog or Cat priced at 400 Station Cash gave a free matching doggy or kitty outfit, with a per-pet list of which outfit came with which pet. The post is dated only as '6 months, 5 days ago' relative to the capture, so its exact posting date is unknown; the promo window is stated as February 10-14, 2012."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

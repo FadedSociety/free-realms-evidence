@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwhite-daisy-1248-v2-evidence-r3 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[13942, 11017, 8, 1211] model=claude-haiku-5-5 -->
+# White Daisy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the answer does not mention locale:17584 ('These special daisies are able to survive even the harshest cold weather conditions.'), a Snowhill Daisies description line that sits beside locale:17574 'Snowhill Daisies'. It is not a White Daisy source, but it bears on the Snowhill Daisies collection the answer leaves open.", "fix": "Cite locale:17574 and 17584 in the open item on Snowhill Daisies. They describe the Snowhill Daisies collection and do not name White Daisy or give an acquisition route."}]}

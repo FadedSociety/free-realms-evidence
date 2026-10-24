@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-spectral-ring-86452-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4167, 5617, 6, 932] model=claude-haiku-5-5 -->
+# Gleaming Spectral Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim / evidence[1].source", "issue": "The claim cites locale:150420, which the automatic id check flags as a placeholder generic stub ('This is a ... item'). The answer does say the stub is not evidence, but it still lists it as a source inside the evidence array, which a reader could mistake for support.", "fix": "Drop locale:150420 from the evidence array, or record it only in open/notes as a flagged placeholder with no bearing on acquisition. The cluster evidence (locale:86447-86457) alone is sufficient for the naming-pattern note."}]}

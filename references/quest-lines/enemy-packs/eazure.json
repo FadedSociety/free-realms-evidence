@@ -1,0 +1,78 @@
+{
+ "title": "Azure",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\briar_patch.json"
+  },
+  {
+   "file": "dungeons\\briar_patch.json"
+  },
+  {
+   "file": "dungeons\\the_mushroom_gigas.json"
+  },
+  {
+   "file": "dungeons\\the_mushroom_gigas.json"
+  }
+ ],
+ "entry_count": 8,
+ "client_name_matches": [
+  "locale:6455 [other | - | Azure | FLAG fragment: single word] 'Azure'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6455 [other | - | Azure | FLAG fragment: single word] 'Azure'",
+  "locale:7008 [quest_dialog | Briarwood | Azure] 'It has been rumored that an Evil Wizard has sought refuge within the depths of the Briarpatch. In addition, he currently is staging a gathering of forest foes t'",
+  "locale:7009 [quest_objective | Briarwood | Azure] 'Defeat Azure.'",
+  "locale:7010 [quest_dialog | Briarwood | Azure] 'Azure, the evil wizard is preparing to grant powerful abilities to the forest foes... stop him before an uprising unfolds!'",
+  "locale:74050 [npc_dialog | - | Azure] 'Argh! Face me in the Briar Patch if you dare!'",
+  "locale:74052 [quest_objective | - | Azure] \"Foil Azure's scheme!\"",
+  "locale:74054 [quest_dialog | - | Azure] 'Azure is causing nothing but trouble! Go in and stop him!'",
+  "locale:74131 [quest_objective | Briarwood | Azure] 'The evil wizard Azure performs sinister experiments in the Briar Patch. Put a stop to him!'",
+  "locale:130533 [quest_objective | Briarwood | Azure] 'Defeat the Mutated Shepards before Azure is defeated!'",
+  "locale:130534 [quest_objective | Briarwood | Azure] 'Azure has mutated several creatures in Briar Patch.  If you see the mutant wolf, defeat it quickly! It may not be around for a long time!'",
+  "locale:384280 [quest_dialog | - | Azure] 'Thanks for the help!  Be careful though -- that Azure guy has a lot of tricks up his sleeve!'",
+  "locale:419123 [quest_dialog | Briarwood | Azure] 'The evil wizard Azure is conducting his sinister experiments in the Briar Patch!'"
+ ],
+ "client_cluster": [
+  "locale:6447 [item | - | Fairweather Hoverboard] 'Fairweather Hoverboard'",
+  "locale:6448 [npc_dialog | - | -] 'So bright, so vivid.'",
+  "locale:6449 [npc_name | - | Echolyss, the Bat King] 'Echolyss, the Bat King'",
+  "locale:6450 [npc_name | - | Elder Deep Bat] 'Elder Deep Bat'",
+  "locale:6451 [npc_name | - | Deep Cave Bat] 'Deep Cave Bat'",
+  "locale:6452 [npc_name | - | Swarming Shrieker] 'Swarming Shrieker'",
+  "locale:6454 [npc_dialog | - | -] 'If I promise not to huff and puff down your house, will you adopt me?'",
+  "locale:6455 [other | - | Azure | FLAG fragment: single word] 'Azure'",
+  "locale:6456 [place | - | The Bat Cave!] 'The Bat Cave!'",
+  "locale:6457 [quest_dialog | - | The Bat Cave!] 'An infestation of dangerous bats shut down the mine! Defeat the Bat King so miners can return to work!'",
+  "locale:6458 [quest_dialog | - | The Bat Cave!] 'The bats appear to follow the orders of one huge bat; remove this Bat King and the rest will leave the miners alone!'",
+  "locale:6459 [other | - | troll_scout | FLAG dev_note: internal asset id] 'troll_scout'",
+  "locale:6460 [other | - | troll_archer | FLAG dev_note: internal asset id] 'troll_archer'",
+  "locale:6461 [other | - | human_f_explorer_caucasian01 | FLAG dev_note: internal asset id] 'human_f_explorer_caucasian01'",
+  "locale:6463 [other | - | human_m_freestyle_01 | FLAG dev_note: internal asset id] 'human_m_freestyle_01'"
+ ],
+ "wiki": {
+  "title": "Azure",
+  "text": "Azure is a human NPC boss that can be found in Briarwood. He is the evil wizard who performs sinister experiments.\n\nDialogues\n\nAppearances\nThe Mushroom Gigas!\nBriar Patch\nTrading Card Game Series 2\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Human\nCategory:Wizard\nCategory:Briarwood\nCategory:Trading Card Game"
+ },
+ "images": [
+  "image (image:character_or_npc): Azure",
+  "image (image:other): Briar Patch - Combat\nField 03\nFreeRealms\nBattle Design Map\nEncounter #: 23\nSTART\nHills\nHigh Hills\nInaccessible Terrain\nHills\nHills\nInaccessible Terrain\nHigh Hills\nHills\nFINISH\n1. Trigger Event: Once the player reaches this point they will get some dialogue from Azure followed by waves of enemies att",
+  "image (image:map): Snowhill\nSanctuary\nBriarwood\nWigglepop\nFern Nursery\nSweet Village\nMerry Vale\nSever Fold\nKelpgrove Camp\nLakeshore\nLower Trails\nGrizzled Glade\nMemorial Caverns\nAzure Palace\nPrimeval Hills\nQuarrelford\nSandit Camp\nGreenvale\nFamous Farmstead\nBlackpool\nSpeedway\nBriarburr\nNettlewood\nTanglewood\nThistlewood\n"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "other target in 'Wizard: Sven's Job Offer' (final): Retrieve the crystal from Azure's staff"
+ ]
+}

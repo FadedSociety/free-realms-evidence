@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=caxe-essence-of-wind-67337-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4065, 6395, 6, 1206] model=claude-haiku-5-5 -->
+# Axe Essence of Wind
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / open", "issue": "The coin count is unresolved between sources: collection_catalogue.json record 214 (lines 16543-16544) gives coins: 10, while the wiki Warrior Axe Materials section (4887-43379 line 11) says 20 coins. The answer correctly leaves coins unasserted, so this is an honest open item, not a failure. It should be stated that the reward source itself (the Wind essence, definition 23724, count 1) is confirmed by both the catalogue and the wiki.", "fix": "No change required to the item's acquisition; keep coins as open, citing collection_catalogue.json:16544 (10) vs wiki line 11 (20)."}]}

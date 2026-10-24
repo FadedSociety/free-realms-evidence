@@ -1,0 +1,26 @@
+{
+ "title": "hooligans",
+ "names_seen": [
+  "hooligans"
+ ],
+ "facts": [
+  {
+   "statement": "A group of hooligans has moved into the nearby canyon and keeps causing trouble at the farm; wolves also get into the sheep pen.",
+   "numbers": {},
+   "era": "live",
+   "quote": "A group of hooligans has moved into the nearby canyon and are always causing trouble.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=624",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=624",
+   "date": null,
+   "title": "Free Realms - What is New? (Explore Farnum Farmstead)",
+   "summary": "An SOE freerealms.com 'What is New?' post (captured 2009-11-23, posted about 4 days earlier) describing Farnum Farmstead, a large private farm south of Crossroads. It covers the sheep (kept by Bo), harvestable crops reachable through a harvesting minigame, the hooligans and wolves causing trouble, and how to get there. The article's heading misspells the name as 'Farmun'; the body and client text use 'Farnum'."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

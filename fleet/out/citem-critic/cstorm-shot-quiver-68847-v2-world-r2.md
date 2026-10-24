@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstorm-shot-quiver-68847-v2-world-r2 status=no_submit turns=3 usd=0.0020 tokens(read,write,in,out)=[12146, 10803, 8, 1121] model=claude-haiku-5-5 -->
+# Storm Shot Quiver
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence (Archer wiki Vendors)", "issue": "The Archer wiki page has a 'Vendors' section beginning 'Sanctuary..', which the answer cites only for the [Storm] [Shot] ability. My lookup truncated it, so I could not confirm whether it lists the Storm Shot Quiver or any set piece. The answer does not say this section was checked for the quiver.", "fix": "Open the full wiki page 'Archer' (Vendors section) and check whether it names the Storm Shot Quiver or the Storm Shot set with a price. If it does, add that vendor as a source; if not, record that the page was checked and has no quiver row."}]}

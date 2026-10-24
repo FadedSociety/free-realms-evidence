@@ -1,0 +1,83 @@
+{
+ "title": "Farming",
+ "names_seen": [
+  "Farming"
+ ],
+ "facts": [
+  {
+   "statement": "The webcast was to recap recent Farming updates in Free Realms.",
+   "numbers": {},
+   "era": "live",
+   "quote": "They'll also give us a recap on some Farming updates",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2291",
+   "date": null
+  },
+  {
+   "statement": "Farming was added to Free Realms and was available on PC and Mac at the time of the announcement.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Farming is now available in Free Realms for the PC and MAC systems.",
+   "article": "http://www.tentonhammer.com:80/node/97451",
+   "date": "2011-04-12"
+  },
+  {
+   "statement": "The webcast gave a recap of some Farming updates; the article does not specify them.",
+   "numbers": {},
+   "era": "live",
+   "quote": "They also gave us a recap on some Farming updates",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2301",
+   "date": "2011-10-06"
+  },
+  {
+   "statement": "The webcast gave a recap of some Farming updates.",
+   "numbers": {},
+   "era": "live",
+   "quote": "They also gave us a recap on some Farming updates",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2300",
+   "date": "2011-10-10"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2291",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms webcast announcement (captured 2011-10-07, post date not shown; it says 'posted 2 days, 2 hours ago'). It promotes the Spooktacular event and a SOE Webcast on Thursday, October 6, 2011 covering Spooktacular, Farming updates, and the new mini-game 'Spot the Difference'. The article itself contains no mechanics details."
+  },
+  {
+   "url": "http://www.tentonhammer.com:80/node/97451",
+   "date": "2011-04-12",
+   "title": "Farming Comes to Free Realms",
+   "summary": "Ten Ton Hammer relays SOE's April 2011 announcement that Free Realms added farming on PC and Mac. Every player gets a Wilds Farm instance; crops are grown, harvested and converted to coin via mini-games, and farms level from 1 to 20 with Membership required beyond level 5. The press release gives the feature list and the player count used in the boilerplate."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2301",
+   "date": "2011-10-06",
+   "title": "Free Realms Webcast Recap",
+   "summary": "A recap of the SOE webcast held Thursday, October 6, 2011, with Referee Ruby, Producer Harvey Burgess, Game Designer Christopher Fritchoff and Senior Artist Matt Case. It covered the Spooktacular event, Farming updates, the new mini-game \"Spot the Difference\", and a discussion of vampires and werewolves. The article gives no mechanics or numbers."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2300",
+   "date": "2011-10-10",
+   "title": "Free Realms Webcast Recap",
+   "summary": "A recap of the SOE webcast held Thursday, October 6, 2011, with Referee Ruby, Producer Harvey Burgess, Game Designer Christopher Fritchoff and Senior Artist Matt Case. It covered the Spooktacular event, Farming updates, the new mini-game \"Spot the Difference\", and vampires and werewolves. The article gives no detailed mechanics, dates or rewards."
+  }
+ ],
+ "wiki_category_members": [
+  "Bumbleberry Patch",
+  "Farmer",
+  "Honey",
+  "Fungal Sprayer",
+  "Muglap",
+  "Mega Growth Sprayer",
+  "Vending Machine",
+  "Spider Sprayer",
+  "Wilds Tractor",
+  "Withering Can"
+ ],
+ "quest_answers_mentioning_it": [
+  "Farming 101 (unresolved, live yes)",
+  "Cooking 101 (final, live unsure)",
+  "Farming 101 (final, live yes)"
+ ]
+}

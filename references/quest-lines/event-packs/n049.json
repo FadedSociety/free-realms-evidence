@@ -1,0 +1,44 @@
+{
+ "title": "Gâtostein",
+ "names_seen": [
+  "Gâtostein"
+ ],
+ "facts": [
+  {
+   "statement": "Gâtostein is a monster of uncertain nature, described as the result of a strange accident in Glerga's kitchen, and it appears everywhere in Free Realms.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Gâtostein apparaît partout dans Free Realms",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1306",
+   "date": null
+  },
+  {
+   "statement": "Glerga added mysterious meat to her recipe to win a cooking contest, making seven cakes; this led to Gâtostein's appearance.",
+   "numbers": {
+    "cakes_made": 7
+   },
+   "era": "live",
+   "quote": "Elle a réalisé sept gâteaux en utilisant de la viande mystérieuse",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1306",
+   "date": null
+  },
+  {
+   "statement": "Gâtostein appears at unpredictable times; players are advised to arm themselves with fireworks to fight it and its Gâtolins.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Tu ne sais jamais à quel moment Gâtostein apparaîtra",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1306",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1306",
+   "date": null,
+   "title": "À La Rencontre de Gâtostein (listed on page as 'Free Realms - What is New?')",
+   "summary": "A French-language in-game event announcement introducing Gâtostein, a cake-like monster that appears unpredictably across Free Realms. It describes its Gâtolin helpers, its invulnerability mechanic when fed cake, and that players should bring fireworks to fight it. The article gives no exact date beyond 'posted 1 year, 1 month ago' relative to the 2011 capture, so it likely dates to around spring 2010."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

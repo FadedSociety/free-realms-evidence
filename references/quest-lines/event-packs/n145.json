@@ -1,0 +1,39 @@
+{
+ "title": "Double Station Cash holiday gift promotion",
+ "names_seen": [
+  "Double Station Cash holiday gift promotion"
+ ],
+ "facts": [
+  {
+   "statement": "A holiday promotion gave recipients of SOE Pre-Paid Game Cards double Station Cash when they redeemed cards in a window from 24 to 27 December 2011.",
+   "numbers": {
+    "bonus_multiplier": 2
+   },
+   "era": "live",
+   "quote": "sie erhalten Doppel Station Cash, wenn sie Karten zwischen dem 24.12.2011 und 27.12.2011 einlösen",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2462",
+   "date": null
+  },
+  {
+   "statement": "The promotion's fine print sets the redemption window as 24 December 2011 09:01 CET to 28 December 2011 08:59 CET.",
+   "numbers": {
+    "start_hour_cet": 9,
+    "end_hour_cet": 8
+   },
+   "era": "live",
+   "quote": "zwischen dem 12/24/11 09:01 Uhr und dem 28.12.2011 um 8: 59 Uhr CET eingelöst werden",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2462",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2462",
+   "date": null,
+   "title": "Verschenkt Doppel Station Cash!",
+   "summary": "A German-language freerealms.com news post (captured under the 'Free Realms - What is New?' page) announcing a holiday promotion: buying SOE Pre-Paid Game Cards as gifts gives the recipient double Station Cash when the card is redeemed in a set window. The article does not name the game itself; it is treated as Free Realms because it is on the Free Realms site and Station Cash is the game's currency (client string 349 confirms 'Station Cash'). The post's exact date is not shown; the promotion ran over the 2011 Christmas period, per the post's stated dates."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

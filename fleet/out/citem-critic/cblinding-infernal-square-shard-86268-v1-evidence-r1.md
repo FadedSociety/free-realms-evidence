@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblinding-infernal-square-shard-86268-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4166, 4692, 6, 894] model=claude-haiku-5-5 -->
+# Blinding Infernal Square Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' although no NPC vendor is identified and the only evidence is a coin store listing (store category 121). The source is a coin-store sale, not a located vendor, so 'vendor' with where:null overstates what is known.", "fix": "Record as a coin store listing (e.g. type 'coin_store', price 3600 coins, member price 3240), citing repo:prototype/osfr-tools/data/content/stores.json line 6692 (item_id 22277, category_id 121, purchase_price_coins 3600, member_discount_percent 10, member_price_coins 3240, sell_price_coins 360, no_sale false). Client coin_store_prices [3600] corroborates the price."}]}

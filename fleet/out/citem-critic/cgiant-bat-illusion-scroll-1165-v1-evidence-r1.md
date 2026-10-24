@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgiant-bat-illusion-scroll-1165-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4219, 11113, 6, 1202] model=claude-haiku-5-5 -->
+# Giant Bat Illusion Scroll
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Screecher food line is cited as ucdt 669486100, but the client text 'Eating this food will cause you to change into a Screecher!' is locale 385512 in the locale table. I could not confirm the ucdt value. The line is also a related text, not a source for this scroll, and the claim that the cluster shares one family is an inference.", "fix": "Cite the line as locale 385512 ('Eating this food will cause you to change into a Screecher!'), and mark the family grouping as an inference, not evidence. Nothing in the pack makes any of the cluster items an acquisition source."}]}

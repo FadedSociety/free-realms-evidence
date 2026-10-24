@@ -1,0 +1,8 @@
+<!-- fleet job=test-audit id=tests-piece-023-rs-L1 status=done turns=5 usd=0.0052 tokens(read,write,in,out)=[38823, 22946, 12, 3849] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_023.rs lines 1-261 of 261
+
+**[medium] prototype/osfr-tools/tests/piece_023.rs:253-261 client_edit_flag_follows_recovered_level_three - the name and doc say the client's edit flag is checked, but the body only checks `client_permission_level` (the "Permission Level" column) and never `client_can_edit`.**
+- **Why it cannot catch a regression:** `client_can_edit` is computed separately from `role_of` (src/restoration/piece_023.rs:301-306). A change that makes `client_can_edit(FRIEND)` return true (for example, `client_can_edit` returning `true` for any listed entry, or dropping the `Owner | Editor` match) still leaves every assertion in this test green, because `client_permission_level` is untouched. The `!client_can_edit(FRIEND)` check exists only in a different test (line 166), not in the one named for the edit flag.
+- **Fix:** add `assert!(!h.client_can_edit(FRIEND));` and `assert!(h.client_can_edit(EDITOR));` / `assert!(h.client_can_edit(OWNER));` to this test (or rename it to something like `client_permission_level_column_reports_listed_levels`, if the edit-flag claim is meant to be covered elsewhere). The asserted behaviour about `Some(1)` for FRIEND is correct, so only the claim needs to match the body.
+
+No other issues in the window: the wire-byte, malformed-body, role, cap, and error-message tests all check values that are literals or independent of the code under test. The opcode constants match the community `PacketCodes`/`PacketReaderExtensions` values I spot-checked (6, 11, 45, 47), and the test has no early return or `#[ignore]`.

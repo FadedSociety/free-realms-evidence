@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2461 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2906, 4, 370] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin error screen from freerealmsforums.com stating the visitor had exceeded the maximum number of viewable posts, plus site navigation and forum index. It contains no thread content, guide, or game mechanics, so it gives a rebuilder no usable Free Realms facts.", "facts": [], "quests": [], "uncertain": ["The thread title and the post content for thread t=2461 are absent; only the registration-wall error text and forum index were captured.", "The page date is unknown; only the capture date 2009-07-08 is available."]}

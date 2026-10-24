@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccrazy-crunch-helmet-121683-v2-evidence-r3 status=done turns=3 usd=0.0031 tokens(read,write,in,out)=[18310, 16724, 8, 1745] model=claude-haiku-5-5 -->
+# Crazy Crunch Helmet
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The last open bullet refers to an earlier 'critique' that claimed TCG-Files id 822699 could not be confirmed. That critique is not in the evidence pack, so the note is unintelligible to a builder and should not be in the answer.", "fix": "Drop the bullet. The id itself is confirmed: TCG-Files/Emulator/Resources/ClientItemDefinitions.json:822699 has Comment 'Crazy Crunch Helmet', and 15 further Helmet comments follow (16 in total, matching the client's 16 variants). Legacy id 897848 is also confirmed at Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json:897848 (the pack cites FreeRealms-Legacy)."}]}

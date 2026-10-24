@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cglacial-daisy-17515-v2-evidence-r3 status=done turns=3 usd=0.0026 tokens(read,write,in,out)=[13067, 13067, 8, 1660] model=claude-haiku-5-5 -->
+# Glacial Daisy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (wiki Flora table row claim)", "issue": "The claim that the wiki Flora table rows name only Snowhill Daisies, Rare Snowhill Flowers and Exotic Snowhill Flowers, and not Glacial Daisy, was not re-verified. My lookup confirms the List of Collections page has '[Snowhill] [Daisies]' entries but did not show the table rows. The claim stands only on the cited revid 27852 lines 378-387.", "fix": "Re-read freerealms-wiki/wikitext/2038-27852-f0e36d086ea8.wiki lines 378-387 before relying on the 'not in table' statement. Keep it as unverified until then."}]}

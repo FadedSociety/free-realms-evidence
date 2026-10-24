@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfirst-class-postman-jacket-133031-v1-world-r2 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[8640, 8097, 8, 1060] model=claude-haiku-5-5 -->
+# First-Class Postman Jacket
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Stated as 'unsure' with no source. Correct as far as the evidence goes: a recheck of the client, wiki and repo finds only the five locale lines (133031-133035) and the unresolved 'First-Class Postman' row at repo notes/Build Guides/Content/Jobs/Postman.md:229, which has no tier, level or source. The wiki hit for 'First Class' is only a '[First Class] Envelope' in the Job Specific Collections page, which is a different item.", "fix": "No change needed. Keep sources empty and live unknown, and drop the first-pass 'quest_reward' guess, which no source supports."}]}

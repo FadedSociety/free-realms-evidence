@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstandard-smooth-dining-table-132549-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3693, 9804, 6, 1121] model=claude-haiku-5-5 -->
+# Standard Smooth Dining Table
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Minor: the source is a coin-store row in stores.json (item 36136, category 53, tint group 1, purchase 2000, member 1800, sell 200, no_sale false), which I confirmed at line 11811. The 'vendor' type is supported only as a store-table listing; no named vendor or location is evidenced. The answer already flags this as open, so it is an honest unknown, not an error.", "fix": "Keep 'where' null and describe the source as 'coin store listing (stores.json item 36136)' rather than a named vendor until a vendor table or wiki source names the seller."}]}

@@ -1,0 +1,45 @@
+{
+ "title": "Pogush, the Mighty Seerdoctor",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json"
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:21324 [npc_name | - | Pogush, the Mighty Seerdoctor] 'Pogush, the Mighty Seerdoctor'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:21324 [npc_name | - | Pogush, the Mighty Seerdoctor] 'Pogush, the Mighty Seerdoctor'"
+ ],
+ "client_cluster": [
+  "locale:21316 [npc_name | - | Rainchaser] 'Rainchaser'",
+  "locale:21317 [npc_name | - | Sola] 'Sola'",
+  "locale:21318 [npc_name | - | Tido] 'Tido'",
+  "locale:21319 [npc_name | - | Cici] 'Cici'",
+  "locale:21321 [npc_name | - | Trudee] 'Trudee'",
+  "locale:21324 [npc_name | - | Pogush, the Mighty Seerdoctor] 'Pogush, the Mighty Seerdoctor'",
+  "locale:21325 [npc_name | - | Troll Runtling] 'Troll Runtling'",
+  "locale:21326 [quest_objective | - | Axe (missing part)] \"Looks like you're missing one other part to that axe.  Use the keyboard to run around and find it.\"",
+  "locale:21327 [npc_name | - | Troll Spotter] 'Troll Spotter'",
+  "locale:21328 [quest_objective | Treebles rescue | Chop the tree down] 'Chop the tree down'",
+  "locale:21329 [quest_dialog | Treebles rescue | Chop the tree down] 'With that new axe of yours, see if you can chop the tree down to rescue the other Treebles.'",
+  "locale:21330 [other | - | sh_mine_crate_01 | FLAG placeholder: internal asset name] 'sh_mine_crate_01'",
+  "locale:21331 [other | - | sh_mine_barrel_01 | FLAG placeholder: internal asset name] 'sh_mine_barrel_01'",
+  "locale:21332 [other | - | sh_barrel_01 | FLAG placeholder: internal asset name] 'sh_barrel_01'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

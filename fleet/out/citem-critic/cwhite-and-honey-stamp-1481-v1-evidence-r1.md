@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwhite-and-honey-stamp-1481-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3568, 4229, 6, 1047] model=claude-haiku-5-5 -->
+# White and Honey Stamp
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].source", "issue": "The citation 'locale:117342' and the range 117305-117342 for the 'Seaside post office' hint do not hold up. locale:117342 is only the name 'Enve LeStamp'. The text about the Seaside post office is locale:103042 ('Enve LeStamp can be found at the Seaside post office.'). The 117305-117342 range was not checked here and should not be cited as the post-office evidence.", "fix": "Cite locale:103042 for the Seaside post office line and locale:117342 only for the name 'Enve LeStamp'. Locale 7746 'Postman Stamps' does exist as a string, so that part stands as a weak lead."}]}

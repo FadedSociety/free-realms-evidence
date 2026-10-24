@@ -1,0 +1,31 @@
+{
+ "title": "Giant Man Eating Fungus",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\mushroom_cavern.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:419790 [npc_name | - | Giant Man Eating Fungus] 'Giant Man Eating Fungus'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:419790 [npc_name | - | Giant Man Eating Fungus] 'Giant Man Eating Fungus'"
+ ],
+ "client_cluster": [
+  "locale:419783 [npc_dialog | - | Changelings] 'This is not over!'",
+  "locale:419786 [npc_name | - | Softshell Slasher] 'Softshell Slasher'",
+  "locale:419788 [npc_name | - | Ocean Cray Brood Mother] 'Ocean Cray Brood Mother'",
+  "locale:419789 [npc_name | - | Ocean Cray Broodling] 'Ocean Cray Broodling'",
+  "locale:419790 [npc_name | - | Giant Man Eating Fungus] 'Giant Man Eating Fungus'",
+  "locale:419798 [ability | - | Breathe Fire] 'Breathe Fire'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

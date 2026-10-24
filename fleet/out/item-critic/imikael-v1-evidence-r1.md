@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imikael-v1-evidence-r1 status=no_submit turns=2 usd=0.0009 tokens(read,write,in,out)=[3561, 4090, 6, 757] model=claude-haiku-5-5 -->
+# Mikael
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item", "issue": "The inferred item 'Mikael' is an NPC name, not an item. Locale 5102509 reads 'Mikael' and the wiki page is an NPC page (pixie merchant, Bristlewood Cooking Table). The answer assigns no sources and sets live to 'unsure', which is accurate.", "fix": "No change needed to the verdict. The item should be re-pointed at a real item name, or the job should be closed as not an item. If the intended targets are his stock, each stock item needs its own evidence pack, since the wiki gives no prices or currency for them."}]}

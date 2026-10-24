@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmonster-tires-67397-v2-world-r2 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[8785, 10230, 8, 1295] model=claude-haiku-5-5 -->
+# Monster Tires
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open[1]", "issue": "The claim that the Demolition Derby Driver notes list a 'Derby Driver Tires' collection with client id 2129583338 could not be confirmed. The note at repo notes/Build Guides/Content/Jobs/Demolition Derby Driver.md:215 mentions cosmetic parts and DEPRECATED duplicates, and my search for 2129583338 in the Jobs notes found no hit on that line. The id should be treated as unverified until the line is read in full.", "fix": "Read Demolition Derby Driver.md around line 215 in full. Keep the collection id only if that line shows it; otherwise drop it and say the collection id is unknown."}]}

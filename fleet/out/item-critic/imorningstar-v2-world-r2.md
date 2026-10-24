@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imorningstar-v2-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3337, 4851, 6, 1150] model=claude-haiku-5-5 -->
+# Morningstar
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / live", "issue": "The answer records kind 'other' and live 'no' for a name that the wiki describes as a cat NPC. The only client hit is locale:413956, which is FLAGGED as a fragment, so 'live: no' rests on the absence of a live item rather than on a positive source. This is a reasonable reading but is stated as a finding.", "fix": "Keep the no-source conclusion, and say the item is an NPC (wiki: 'Morningstar is a cat NPC that can be found in Briarwood'; categories Briarwood, Cats, Comic, Females, NPC) with no coin, Station Cash, IGD, vendor, quest, drop or event source. Label live as 'unknown, no live item found' rather than 'no'."}]}

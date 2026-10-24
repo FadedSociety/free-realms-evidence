@@ -1,0 +1,64 @@
+{
+ "title": "SOE Fan Faire 2007",
+ "names_seen": [
+  "SOE Fan Faire 2007",
+  "SOE Fan Faire 2008"
+ ],
+ "facts": [
+  {
+   "statement": "The podcast's SOE Fan Faire 2007 segment included a Free Realms discussion item at 3:45 in the episode.",
+   "numbers": {
+    "segment_timestamp_minutes": 3.75
+   },
+   "era": "pre_launch_plan",
+   "quote": "3:45 Free Realms",
+   "article": "http://www.tentonhammer.com:80/node/20754",
+   "date": "2007-08-20"
+  },
+  {
+   "statement": "The podcast episode included a segment on Free Realms at 3:45, within coverage of SOE Fan Faire 2007 (held August 2-5 in Las Vegas).",
+   "numbers": {
+    "segment_timestamp_minutes": 3.75
+   },
+   "era": "pre_launch_plan",
+   "quote": "3:45 Free Realms",
+   "article": "http://www.tentonhammer.com/node/10347",
+   "date": "2007-08-20"
+  },
+  {
+   "statement": "SOE's 2008 Fan Faire was scheduled for August 14-17, 2008 at the Las Vegas Hilton in Las Vegas, Nevada, and included demos of upcoming SOE titles including Free Realms.",
+   "numbers": {
+    "start_day": 14,
+    "end_day": 17,
+    "month": 8,
+    "year": 2008
+   },
+   "era": "pre_launch_plan",
+   "quote": "will be held August 14-17, at the Las Vegas Hilton in Las Vegas, Nevada",
+   "article": "http://tentonhammer.com:80/node/30684",
+   "date": "2008-04-18"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/20754",
+   "date": "2007-08-20",
+   "title": "Ten Ton Hammer Podcast #4",
+   "summary": "This is a Ten Ton Hammer podcast episode covering the week of August 20, 2007, mainly about Warhammer Online, Age of Conan, Legends of Norrath and The Agency. Free Realms appears only as a segment title (at 3:45) in the SOE Fan Faire 2007 discussion; the page gives no details about the game, so it offers nothing usable for quests, items, prices or mechanics."
+  },
+  {
+   "url": "http://www.tentonhammer.com/node/10347",
+   "date": "2007-08-20",
+   "title": "Ten Ton Hammer Podcast #4",
+   "summary": "This is a Ten Ton Hammer podcast show-notes page (episode covering the week of August 20, 2007) that is mainly about other MMOs such as Age of Conan, Warhammer Online and EVE Online. Free Realms appears only as one short segment title, at 3:45, during a discussion of SOE Fan Faire 2007; the page gives no details of what was said about the game."
+  },
+  {
+   "url": "http://tentonhammer.com:80/node/30684",
+   "date": "2008-04-18",
+   "title": "SOE Sets Date for 2008 Fan Faire",
+   "summary": "A Ten Ton Hammer news post reprinting SOE's press release announcing the 2008 Sony Online Entertainment Fan Faire. Free Realms is mentioned only in passing: demos of it, alongside The Agency and other upcoming SOE titles, were to be showcased at the event. Nothing about the game's mechanics, quests or items is described."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

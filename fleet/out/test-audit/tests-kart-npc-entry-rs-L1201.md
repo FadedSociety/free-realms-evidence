@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-kart-npc-entry-rs-L1201 status=done turns=6 usd=0.0066 tokens(read,write,in,out)=[67570, 22246, 14, 6344] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/kart_npc_entry.rs lines 1201-1621 of 1621
+
+Window `kart_npc_entry.rs` 1201-1621. Most of the window is sound: the save-decision tests (1283-1322) exercise the real `changed_for_save` / `save_decision_eq` (`kart_gateway.rs:124`, `kart_weapons.rs:870`), the quit test checks state equality after every foreign, malformed and replayed input, and the gateway test is `#[ignore]` with a stated reason. Two assertions do not back what their comments or names claim:
+
+- **[medium] prototype/osfr-tools/tests/kart_npc_entry.rs:1279 `the_last_gate...` (the finish block inside `a_race_that_is_ticked_...`, ~1259-1281) - the comment says "a finished race pays and saves once", but after the paid tick only `!paid.changed` is checked and the coin count is never re-read.**
+- **Why it cannot catch a regression:** a change that pays the reward a second time on the tick, while leaving the kart state untouched so `changed` stays false, still passes. `paid` is only checked for `changed`, and the coin total is last checked before that tick (line 1277). The payment path (`kart_gateway.rs:734-760`) writes `inventory` and `profiles` separately from the kart state that drives `changed`.
+- **Fix:** after line 1280, add `assert_eq!(game.state().inventory.coins, coins + 40);` (and the same check on `profiles` if the payout touches XP) so a second payout fails even when the save flag does not move.
+
+- **[low] prototype/osfr-tools/tests/kart_npc_entry.rs:1602-1604 private_ordinary_player_starts_the_race_from_the_npc_menu_without_realm_race - the replay comment says "a replayed choice while racing changes nothing", but the only check is `next_instance`.**
+- **Why it cannot catch a regression:** a replayed choice that overwrites `active` (for example, re-stamping `previous_job` to the current job 48, or replacing the context with the same instance id) leaves `next_instance` unchanged, so the test still passes. The prior-job restore at 1617-1618 would then fail only much later, and the test would not point at the replay.
+- **Fix:** compare the whole racing entry and the job right after the replay: `assert_eq!(again.active, Some(racing.clone()))` and `assert_eq!(job(&g), 48)`, alongside the existing `next_instance` check.

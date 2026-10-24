@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-elite-pink-intense-quickness-pants-pl-elite-pink-intense-q-1874-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4315, 8602, 6, 1022] model=claude-haiku-5-5 -->
+# {n}Elite Pink Intense Quickness Pants{pl="Elite Pink Intense Quickness Pants"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but no vendor or NPC is evidenced. The only support is a coin-store row in stores.json (category 104), so the source is a coin-store listing with no named seller.", "fix": "Relabel as a coin-store listing (for example type 'coin_store') with where null, or keep 'vendor' and state the vendor is unknown. Source: repo stores.json line 592 (item_id 2091, category_id 104, purchase_price_coins 9453, member_price_coins 8507, sell_price_coins 945, no_sale false)."}]}

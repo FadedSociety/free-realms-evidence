@@ -1,0 +1,76 @@
+{
+ "title": "Gloam Invasion",
+ "names_seen": [
+  "Gloam Invasion",
+  "Gloam invasion"
+ ],
+ "facts": [
+  {
+   "statement": "Sunstone Vale continues the story from where the Gloam invasion ended.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Pegando a história onde a invasão Gloam terminou",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2773",
+   "date": null
+  },
+  {
+   "statement": "Sunstone Valley begins where the story of the Gloam Invasion ends.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Empezando donde acabo la historia de la Invasión Gloam",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2781",
+   "date": null
+  },
+  {
+   "statement": "Sunstone Valley begins where the story of the Gloam Invasion ends.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Empezando donde acabo la historia de la Invasión Gloam",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2782",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2773",
+   "date": null,
+   "title": "Benvindo ao Vale da Pedra do Sol!",
+   "summary": "Portuguese-language official news post announcing that Sunstone Vale, described as the first expansion area of Free Realms, is open. It lists the zone's headline additions: nearly 50 new quests, more than half a dozen overworld combat areas and battles, 30 Blacksmithing recipes as a minigame, and many new items. The post gives only a relative publish date ('1 month, 2 weeks ago') so no absolute date can be recorded."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2781",
+   "date": null,
+   "title": "Free Realms - Quais são as Novidades? (post: ¡Bienvenidos a Valle Piedrasolar!)",
+   "summary": "A Spanish-language official news post announcing Valle Piedrasolar (Sunstone Valley) as the first Free Realms expansion area, described as available now. It lists roughly 50 new quests, more than half a dozen outdoor combat areas and boss fights, 30 Blacksmithing recipes, and new items, and says it starts where the Gloam Invasion story ends; non-members and members both can play it. The page gives no exact release date (only a relative 'Publicado 1 mês, 2 semanas atrás')."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2782",
+   "date": null,
+   "title": "¡Bienvenidos a Valle Piedrasolar! (Free Realms - Quais são as Novidades?)",
+   "summary": "A Spanish-language SOE news post (on a Portuguese-titled freerealms.com page, captured 2012-11-09) announcing Valle Piedrasolar (Sunstone Valley) as Free Realms' first expansion area, built for outdoor combat. It lists the zone's new quests, outdoor combat areas and boss fights, Blacksmithing recipes, and new items, and says non-members can play freely while members can earn extra rewards. The post gives no exact release date."
+  }
+ ],
+ "wiki_category_members": [
+  "Gloam Overlord",
+  "Heroes Journal: The Seaside Gloam Invasion",
+  "Shrouded Gloam",
+  "The Invasion of Shrouded Glade"
+ ],
+ "quest_answers_mentioning_it": [
+  "Let's Get Kraken (final, live unsure)",
+  "Ghosts of the Past (final, live yes)",
+  "History of the Dojo (final, live unsure)",
+  "Know your Enemy (final, live unsure)",
+  "Meet Crabcake (unresolved, live yes)",
+  "Not the Ghosts You're Looking For (final, live yes)",
+  "Payback (unresolved, live yes)",
+  "Report to Sunspark (unresolved, live unsure)",
+  "Seaside Report (final, live yes)",
+  "Stemming the Tide (final, live yes)",
+  "This Glade is Ours! (unresolved, live yes)",
+  "Tides of Change (final, live yes)",
+  "Trapped and Alone (final, live yes)",
+  "Troubled Waters (final, live unsure)",
+  "Troubled Waters (final, live unsure)"
+ ]
+}

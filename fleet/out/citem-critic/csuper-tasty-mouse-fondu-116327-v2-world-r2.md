@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csuper-tasty-mouse-fondu-116327-v2-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3910, 9006, 6, 959] model=claude-haiku-5-5 -->
+# Super Tasty Mouse Fondu
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "'consumable' is inferred from the client's slot and class ids (205, 61). No text in the pack or my lookups names the item's use type.", "fix": "Keep 'consumable' as a working label, or mark it unverified until a client definition field or a use-path source confirms it."}, {"field": "open", "issue": "The claim that ClientItemDefinitions.json lines 831336 and 831358 hold this item's definitions is still unverified. My lookups did not confirm it.", "fix": "Leave it open. Do not cite those lines until someone checks them against definition id 37064."}]}

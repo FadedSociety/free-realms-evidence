@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwood-pillar-148402-v1-evidence-r1 status=no_submit turns=2 usd=0.0011 tokens(read,write,in,out)=[3797, 4730, 6, 934] model=claude-haiku-5-5 -->
+# Wood Pillar
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The sibling-cluster claim overstates the wiki. The Snow Days page lists 'Snow Days' walls and pillars, not Brick, Toy or Wood wall housing sets. I did not check the Nekark page. The claim is not used as a source, so the price answer is not affected.", "fix": "Drop the wiki half of the sibling claim, or reword it to say only that the Snow Days page lists its own Snow Days pillar and wall sets, with no Wood Pillar entry. The repo store block (stores.json lines 12155-12170) is the only sibling evidence."}]}

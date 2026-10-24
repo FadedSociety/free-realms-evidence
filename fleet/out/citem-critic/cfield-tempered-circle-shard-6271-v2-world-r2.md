@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfield-tempered-circle-shard-6271-v2-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3749, 9111, 6, 1074] model=claude-haiku-5-5 -->
+# Field Tempered Circle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open", "issue": "Daily Wheel source is absent for Field, but the wiki names the Shards wedge as the acquisition for sibling shards (Stealth, Battle, Amplifier, Champion file pages). The answer correctly does not claim it for Field, since no Field-specific page or text names it.", "fix": "Keep it open. Verify on a Field-specific wiki or video frame before adding a Daily Wheel source. Sibling evidence: wiki pages 'Stealth Tempered Circle Shard' and 'Battle Tempered Circle Shard' ('acquired from the Daily Wheel, from the Shards wedge')."}]}

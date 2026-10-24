@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=clargestone-mosaic-coffee-table-147685-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3750, 6693, 6, 1156] model=claude-haiku-5-5 -->
+# Largestone Mosaic Coffee Table
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' with where null and no NPC, zone or stock row. The evidence is a coin-store listing record (stores.json, category_id 53), not a named vendor. Calling it 'vendor' is a loose label, though the price and currency are supported.", "fix": "Keep the price and currency as they stand: 50 coins, 45 member, sell 5, not no_sale, item 36486 at stores.json line 11957. Describe the source as a coin store listing (category 53) with the vendor NPC unknown, and do not present it as a named NPC vendor."}]}

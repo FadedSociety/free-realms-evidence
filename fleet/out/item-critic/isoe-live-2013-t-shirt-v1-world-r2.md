@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isoe-live-2013-t-shirt-v1-world-r2 status=done turns=3 usd=0.0011 tokens(read,write,in,out)=[7406, 4160, 8, 965] model=claude-haiku-5-5 -->
+# SOE Live 2013 T-Shirt
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The event source is supported only by the wiki page's one-line statement that the shirt was acquired by logging on between July 30 and August 3, 2013. A wiki blog post (User blog:Virrago/Development Update 7/23/2013) confirms a SOE LIVE bonus that week, which corroborates the event but does not name the shirt or the login mechanism. The answer's 'event SOE Live' label is an inference from that, not a quoted name.", "fix": "Keep the source as the wiki page (rev 46382) with the date window. Optionally cite the July 23, 2013 dev blog as corroboration that a SOE LIVE bonus ran that week. Leave the mechanism as open."}]}

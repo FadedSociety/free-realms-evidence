@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-load-players-rs-L1 status=done turns=5 usd=0.0059 tokens(read,write,in,out)=[35320, 20772, 12, 5942] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/load_players.rs lines 1-345 of 345
+
+Window reviewed: `prototype/osfr-tools/tests/load_players.rs` lines 1-345. Most of the window is sound: `registry_scaling` does compare the live grid registry against the independent frozen reference (`players_reference.rs`, not the code under test) with `assert_eq!` on every output, and the `#[ignore]` attributes carry reasons. The fixture files referenced by the gateway probe exist. One finding is worth fixing.
+
+- **[medium] prototype/osfr-tools/tests/load_players.rs:336 gateway_sixteen_players (the `w96_step_and_clone` probe body) - the "exact movement relay" check only matches the last two bytes `[state, 0]` of the relayed opcode-125 message.**
+  - Why it cannot catch a regression: the message the test builds at lines 322-325 carries a GUID (`1u64`), six pose floats `[1.0, 2.0, 3.0, 0.0, 0.0, 1.0]`, and then `[state, 0]`. The `ends_with` check passes as long as the relay ends with the state bytes and the opcode is 125. A gateway change that relays the wrong GUID, zeroes or reorders the position/heading floats, or drops the pose payload while keeping the trailing bytes would still pass, even though the message text claims "exact movement relay".
+  - Fix: compare the relayed payload to the sent one, for example assert that the received opcode-125 message contains the exact `fields` byte slice (`m.windows(fields.len()).any(|w| w == fields.as_slice())`), or assert full equality against the expected relay bytes after the header. Keep the count-of-1 assertion.
+
+- **[low] prototype/osfr-tools/tests/load_players.rs:85-89 registry_scaling - the `w96_us` column and the printed `w96_speedup` come from hardcoded receipt constants, not from any measurement made in this run.**
+  - Why it cannot catch a regression: nothing in the test checks these values, so they can never fail. Their presence in the CSV output still makes a stale constant divided by a live timing look like a live W96-vs-grid comparison. A change in the registry's speed does not move this column.
+  - Fix: either drop the W96 column and speedup from the printed output (keep the receipt in the doc comment), or label the columns `w96_receipt_us` and `w96_receipt_speedup` so they are not read as live results.

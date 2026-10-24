@@ -1,0 +1,33 @@
+{
+ "title": "Frostfang Alpha",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\frostfang_snarlers.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:423045 [npc_name | - | Frostfang Alpha] 'Frostfang Alpha'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:423045 [npc_name | - | Frostfang Alpha] 'Frostfang Alpha'"
+ ],
+ "client_cluster": [
+  "locale:423037 [quest_objective | Snowhill | Gifting Tree] 'Plant the festive fertilizer in the dirt at the base of the Gifting Tree.'",
+  "locale:423039 [quest_objective | Snowhill | Gifting Tree] \"Let Candi Ivy know you've done all you can to help the Gifting Tree.\"",
+  "locale:423041 [quest_objective | Snowhill | Gifting Tree | FLAG duplicate: near-identical to 423007] 'Make sure you use fresh snowberries and starnut for the festive fertilizer. The Gifting Tree only deserves the best.'",
+  "locale:423043 [ability | - | Antibody] 'Antibody'",
+  "locale:423044 [other | - | Medic Tier 5 Ability Chain | FLAG dev_note: developer shorthand for ability chain] 'Medic Tier 5 Ability Chain'",
+  "locale:423045 [npc_name | - | Frostfang Alpha] 'Frostfang Alpha'",
+  "locale:423050 [other | - | Out-of-bounds warning] \"Don't fall out of bounds!\"",
+  "locale:423053 [npc_name | - | Robgoblin Rock Head] 'Robgoblin Rock Head'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

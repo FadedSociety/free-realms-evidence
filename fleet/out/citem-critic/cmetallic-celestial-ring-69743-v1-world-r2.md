@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetallic-celestial-ring-69743-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3629, 8930, 6, 862] model=claude-haiku-5-5 -->
+# Metallic Celestial Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources list is consistent with the evidence. A lookup for 'Metallic Ring' returns only client name lines for the Dreadful to Infernal family (69739-69748) and the Ocean to Wind family (99312-99400), with no wiki, article or video hits. Repo and refs searches for 'Metallic', '22841' and '69743' turn up no vendor, quest, recipe or drop data. No quest answers are listed to cross-check.", "fix": "No change needed. The answer correctly reports no acquisition source. Optional: note that the client has no 'Metallic Celestial Ring' stock row in any vendor file searched, so it stays unsourced rather than retired."}]}

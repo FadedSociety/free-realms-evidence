@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ijustin-roderic-v1-evidence-r1 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3076, 3653, 6, 858] model=claude-haiku-5-5 -->
+# Justin Roderic
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / live", "issue": "The record treats 'Justin Roderic' as an item of kind 'other' with live 'unsure'. The evidence (wiki page rev 45916, categories NPC/Males/Human/Guild Helpers/Shrouded Glade; client locale 394987 tagged npc_name) shows he is an NPC, not an item. The item record should not exist, so 'live: unsure' understates a clear non-item.", "fix": "Mark as not an item (no acquisition), e.g. retired: null, live: no, with a note that locale 394987 is an npc_name, per locale:394987 and wiki Justin_Roderic. The answer's sources are correctly empty; I found no coin, Station Cash, IGD, vendor, or quest source in the wiki or client text."}]}

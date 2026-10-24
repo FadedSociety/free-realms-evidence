@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-pumpkin-necklace-96211-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3871, 5309, 6, 1298] model=claude-haiku-5-5 -->
+# Shiny Pumpkin Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the family 'is client-only' is an overreach. The id check flags locale:150444 and 150446 as placeholder stub text, which only shows that the Gleaming Honey and Pumpkin description strings are unfinished. It does not show that the family has no source. Placeholder text is not evidence of absence.", "fix": "Reword to: 'Gleaming Pumpkin Necklace (locale:96221) has only placeholder description text (locale:150446, FLAGGED stub), so no description source exists for it. Whether the Shiny family has any acquisition source is unknown.' The 'client-only' conclusion should go in open, not in evidence."}]}

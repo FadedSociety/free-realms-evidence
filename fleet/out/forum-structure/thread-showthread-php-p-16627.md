@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-16627 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2870, 4, 567] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin forum shell: a 'maximum number of posts you can view' error page with a forum index and site navigation. It contains no thread, guide, or post text about Free Realms, so it gives a rebuilder no game facts. The only Free Realms references are forum names and the site footer.", "facts": [], "quests": [], "uncertain": ["The captured page carries no thread body, post author, or post date; the intended thread (p=16627) did not survive in the copy.", "The page shows a 'Free Realms Forums Error' message about the view limit, which is site chrome rather than game content."]}

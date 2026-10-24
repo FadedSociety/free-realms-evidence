@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-kart-gameplay-rs-L1201 status=done turns=8 usd=0.0054 tokens(read,write,in,out)=[62278, 17160, 18, 5315] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/kart_gameplay.rs lines 1201-1267 of 1267
+
+Window `tests/kart_gameplay.rs:1201-1267` is the tail of `complete_private_race` (line 918), reached only via `private_different_driving_lane_finishes_and_registers_rewards_once` (line 914), which is `#[ignore]`d with a reason and needs `OSFR_KART_PLAYABLE`. The fixture gating is explicit, so the ignore is not a silent skip. The checks at 1201-1222 (toast, coins, rank, XP packets), 1223-1232 (corrupt-load refusal, replayed last packet produces no replies, full `snapshot()` equality) and 1250-1266 (save/reload round trip restoring inventory, profiles and `reward_taken`) all compare against values that are independent of the code path under test, or against full state. I found two weaknesses:
+
+- **[medium] tests/kart_gameplay.rs:1233-1249 complete_private_race - the "never claims a second award" close check only compares inventory, so a second XP award would pass.**
+  - Why it cannot catch a regression: a Native Close that re-registers the reward and adds XP (`profiles.experience[48]` or the rank-up) but leaves `inventory` unchanged still satisfies `closing.snapshot().gameplay.inventory == after_game.inventory`. The `reward_taken` flag on `kart_entry.race` is also not re-checked after close. The only state-level check that covers XP is the reconnect block at 1264-1266, which runs on a different save, not on the closed gateway.
+  - Fix: after the close, assert `closing.snapshot().gameplay.as_ref().unwrap().profiles == after_game.profiles` and that `kart_entry.race.reward_taken` is still true. Ideally assert the whole `closing.snapshot().gameplay == after_game` if Close is expected to leave gameplay unchanged.
+
+- **[low] tests/kart_gameplay.rs:1243 complete_private_race - the return-to-world check is `any(zone_transition::decode(r).is_ok())`, which proves only that some reply is a well-formed opcode-31 frame.**
+  - Why it cannot catch a regression: a change that sends the player to the wrong scene, type, or position, or that drops the transition and sends an unrelated valid frame, still passes. `decode` in `src/zone_transition.rs:190` validates framing only, not destination.
+  - Fix: decode the transition and assert its scene and type equal the race's return destination (taken from the same content config, not from the code's output), e.g. `assert_eq!(decoded.scene, expected_scene)`.

@@ -1,0 +1,39 @@
+{
+ "title": "Double Station Cash Stocking Stuffer",
+ "names_seen": [
+  "Double Station Cash Stocking Stuffer"
+ ],
+ "facts": [
+  {
+   "statement": "Players with accounts in good standing could buy pre-paid Station Cash retail game cards at participating retailers and redeem them during the promotion for double their value in Station Cash.",
+   "numbers": {
+    "multiplier": 2
+   },
+   "era": "live",
+   "quote": "purchase any pre-paid Station Cash retail game card at any of our participating retailers. Redeem that card during the promotional period for DOUBLE its value",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1974",
+   "date": null
+  },
+  {
+   "statement": "Cards had to be redeemed between Friday, December 24 at 12 p.m. PDT and Monday, December 27 at 12 a.m. PDT to get the doubled value.",
+   "numbers": {
+    "start_hour_PDT": 12,
+    "end_hour_PDT": 0
+   },
+   "era": "live",
+   "quote": "The cards MUST be redeemed between Friday, December 24th at 12p.m. PDT and Monday, December 27th at 12a.m. PDT",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1974",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1974",
+   "date": null,
+   "title": "Double Station Cash Stocking Stuffer",
+   "summary": "A limited-time holiday promotion (captured Dec 2010) in which pre-paid Station Cash retail game cards, bought at participating retailers, are worth double their value in Station Cash when redeemed during a set window. The page gives the redemption window and exclusions but no exact posting date (it says 'Posted 2 days, 17 hours ago' relative to capture)."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

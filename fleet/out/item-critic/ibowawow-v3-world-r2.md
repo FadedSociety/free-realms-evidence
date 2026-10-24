@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibowawow-v3-world-r2 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3801, 10234, 6, 1533] model=claude-haiku-5-5 -->
+# Bowawow
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[3]", "issue": "The Pampered Pets quest link rests on repo note T315.md:109, which I did not check. The claim is unverified and no client or wiki source in the pack names Bowawow in that quest.", "fix": "Either verify T315.md:109 against the quest's client text or drop the link from open. It should not be used as a source."}, {"field": "evidence[2]", "issue": "The claim that the objective is 'not flagged' cites locale:91473, which I confirmed returns the text without a flag. The repo's title-id claim (2576876953) is only repo-side and is not client-verified.", "fix": "Keep locale:91473 as the client text source. Label 2576876953 as repo-side only."}]}

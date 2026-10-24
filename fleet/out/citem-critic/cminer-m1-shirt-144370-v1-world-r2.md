@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cminer-m1-shirt-144370-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3672, 4078, 6, 880] model=claude-haiku-5-5 -->
+# Miner M1 Shirt
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].source", "issue": "The answer cites repo:quest-lines/citem-packs.json (key cminer-m1-shirt-144370), but a repo search for 'cminer-m1' and '144370' returned no matches, so the pack key could not be confirmed. The client locale entry itself does verify (locale:144370 = 'Miner M1 Shirt', item).", "fix": "Either cite the exact path where the pack key lives or drop the key citation; the locale:144370 citation alone supports the client-definition claim. Lookup of 'Miner M1 Shirt' across client, wiki, articles and video returned only locale:144370, which matches the answer's own finding that no acquisition source exists."}]}

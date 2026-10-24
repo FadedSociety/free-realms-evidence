@@ -1,0 +1,51 @@
+{
+ "title": "Frostfang Snarler",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\frostfang_snarlers.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:78096 [npc_name | - | Frostfang Snarler] 'Frostfang Snarler'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:78092 [quest_objective | - | Frostfang Snarler] 'Defeat the Snarlers!'",
+  "locale:78093 [quest_objective | - | Frostfang Snarler] 'Knock out all Snarlers!'",
+  "locale:78095 [quest_objective | - | Frostfang Snarler] 'Aggressive wolves are terrorizing travelers.  Knock them out to teach them their place!'",
+  "locale:78096 [npc_name | - | Frostfang Snarler] 'Frostfang Snarler'",
+  "locale:78097 [quest_objective | - | Frostfang Snarler] 'A pack of hungry wolves are endangering travelers! Stop them before someone gets hurt!'"
+ ],
+ "client_cluster": [
+  "locale:78088 [npc_dialog | - | Bruce] 'Go, Bruce! I never get tired of this song!'",
+  "locale:78089 [other | - | Frostfang Snarlers | FLAG fragment: bare name, no quest meaning alone] 'Frostfang Snarlers!'",
+  "locale:78090 [other | - | Board Objective Templates | FLAG dev_note: template heading] 'Board Objective Templates'",
+  "locale:78091 [other | - | Board Objective Templates | FLAG dev_note: template description] 'Templates for the creation of boardgame objectives.'",
+  "locale:78092 [quest_objective | - | Frostfang Snarler] 'Defeat the Snarlers!'",
+  "locale:78093 [quest_objective | - | Frostfang Snarler] 'Knock out all Snarlers!'",
+  "locale:78095 [quest_objective | - | Frostfang Snarler] 'Aggressive wolves are terrorizing travelers.  Knock them out to teach them their place!'",
+  "locale:78096 [npc_name | - | Frostfang Snarler] 'Frostfang Snarler'",
+  "locale:78097 [quest_objective | - | Frostfang Snarler] 'A pack of hungry wolves are endangering travelers! Stop them before someone gets hurt!'",
+  "locale:78098 [other | - | - | FLAG placeholder: \"Test character\"] 'Test character '",
+  "locale:78101 [npc_name | - | Pixie Farmer] 'Pixie Farmer'",
+  "locale:78103 [quest_objective | Blackspore | Silverray] 'Speak with Silverray at Quagmire Quarry in Blackspore.'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Frostfang Snarler"
+ ],
+ "video": [
+  "video:0KcQWIEfWhM/00082.jpg (-): landmarks: windmill with green sails | job_level: Adventurer 5 | other_text: Frostfang Snarler 46m",
+  "video:_a9VF878icg/00016.jpg (-): npcs: Lealin nameplate  Willie nameplate  | job_level: Adventurer 15 | other_text: Frostfang Snarler (enemy nameplate, red marker, 49m) Upgrade!",
+  "video:YxvolFOnaJM/00000.jpg (-): npcs: Vaelen Warpwatcher nameplate  Frostpetal nameplate  | landmarks: snow-covered rocks tall glowing blue warp monument | other_text: Frostbitten Banks Calvin Coldcastle Frostfang Snarler Upgrade!",
+  "video:os5l_1mh9vM/00006.jpg (-): npcs: Murphy distance_marker  Lealin distance_marker  | landmarks: ice cave wall icy pillars | job_level: Adventurer 20 | other_text: Frostfang Snarler (red marker, 31m)",
+  "video:gEi7O6pbnQQ/00000.jpg (-): npcs: Vaelen Warpwatcher nameplate  Frostpetal nameplate  | landmarks: glowing blue warpstone snowy rock formations | job_level: Adventurer 15 | other_text: Frostbitten Banks Calvin Coldcastle Frostfang Snarler Upgrade!"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Warrior: Warrior Warm-up' (final): As a Warrior, defeat the Frostfang Snarlers wandering the mountains south-east of Snowhill. (PROVISIONAL: not linked to "
+ ]
+}

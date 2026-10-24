@@ -1,0 +1,78 @@
+{
+ "title": "Cray",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\cracked_claw_caverns.json",
+   "definition_id": 930075
+  },
+  {
+   "file": "dungeons\\cray_caves.json",
+   "definition_id": 930074
+  },
+  {
+   "file": "dungeons\\misty_mountain.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:90007 [place | - | Cray | FLAG fragment: single word] 'Cray'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:90007 [place | - | Cray | FLAG fragment: single word] 'Cray'",
+  "locale:130915 [npc_dialog | Seaside | Cray] \"Want to do battle? There are ninja's to the South or Cray to the North. Choose your battle in Seaside!\"",
+  "locale:390289 [quest_objective | Blackspore | Cray] 'Get these off the shells of the cray'",
+  "locale:420552 [quest_dialog | - | Cray] \"You should have no issues with those Cray, if you've got a shot like I think you do.\"",
+  "locale:5101329 [npc_dialog | - | Cray] 'Have you found this friendly Cray? Try to find something to offer him if he is reluctant to talk to you.'",
+  "locale:5101332 [npc_dialog | - | Cray] 'I’m not sure how this tastes, but I’d bet my lucky hat that any Cray would love to eat this.'"
+ ],
+ "client_cluster": [
+  "locale:90001 [other | - | trail of betrayal | FLAG dev_note: internal label for chugawug ally auto attack] 'trail of betrayal - chugawug ally auto attack'",
+  "locale:90002 [quest_dialog | - | -] 'Please help me find my missing merchandise!'",
+  "locale:90005 [other | - | cray caves facade | FLAG dev_note: asset label] 'cray caves facade 01'",
+  "locale:90006 [other | - | Erik Dev Test | FLAG placeholder: dev test text] 'Erik Dev Test'",
+  "locale:90007 [place | - | Cray | FLAG fragment: single word] 'Cray'",
+  "locale:90008 [other | - | cray facade | FLAG dev_note: asset label] 'facade cray 02'",
+  "locale:90009 [quest_dialog | - | -] 'Trolls! Get ready!'",
+  "locale:90010 [quest_dialog | - | -] 'We take towers again!'",
+  "locale:90011 [quest_dialog | - | -] \"Yes, it was I who opened the gate and let the trolls attack the towers from behind!  Although taking back the towers has slowed us down, it won't be enough to s\"",
+  "locale:90013 [quest_dialog | - | -] 'My captains are already moving into position.  Good luck trying to stop them!'",
+  "locale:90015 [quest_dialog | - | -] \"We'll see about that!\""
+ ],
+ "wiki": {
+  "title": "Cray",
+  "text": "Cray are a crab-like race that live in Seaside. They are crustaceans that, when fully grown, are larger than a human.\n\nNotable Cray\nSeaside\nCrabcake\nSnatching Snapper\nCray Snapper\nCray Bubbler\nKelp Knight Oseidon\nTideweaver Oceana\nPrince of Low Tide\nKing of Low Tide\n\nBlackspore\nCray Marauder\nCracked Claw\nMudshell\n\nShrouded Glade\nArctic Cray\nBroodling\nBroodmother\n\nOther\nMini Cray\n\nAppearances\nCracked Claw Caverns\nCray Caves\nSnatching Snappers!\nPrince of Low Tide!\nMudshell\n\nGallery\n\nCategory:Races\nCategory:Cray\nCategory:Seaside\nCategory:Blackspore\nCategory:Shrouded Glade"
+ },
+ "images": [
+  "image (image:art_or_promo): Cray\nMOVES SIDEWAYS?\nCRAY",
+  "image (image:art_or_promo): FreeRealms",
+  "image (image:character_or_npc): 4\nCray Bubbler"
+ ],
+ "video": [
+  "video:3JblMg1quEY/03016.jpg (-): landmarks: Cray Castle | other_text: Cray Castle (world label)",
+  "video:SUgDAmJpyVs/00052.jpg (-): npcs: Cray Marauder nameplate  | job_level: Brawler 4 | other_text: Goals (1) Defeat the Cray Marauders. - 0/13? Contract: Cheap Clients Goal Complete: Defeat a Grave Elemental",
+  "video:-5UUuwaVXnM/00012.jpg (Cracked Claw Caverns): quest:   Defeat the ancient cray, Cracked Claw!  | job_level: Ninja 2 | other_text: Cracked Claw Caverns Goals (1) Defeat the ancient cray, Cracked Claw!",
+  "video:506rO_mhaSs/00148.jpg (-): npcs: Cray Royal Servant nameplate  | dialog: [Prince of Low Tide]: Get them, or I'll make chowder out of you! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide! Knock out some Cray Royal Servants!  | landmarks: Green misty grove | job_level: Medic  | other_text: Co",
+  "video:AW041GUrkus/00110.jpg (-): landmarks: Cray Caves (24m marker) | other_text: Snatching Snapper (red marker)"
+ ],
+ "article_facts": [
+  "fact:housing: The Cray Castle is part of the Summer Bundle. | Cray Castle (http://www.freerealms.com:80/article/detail.action?articleId=2153)",
+  "fact:location: The Crays on the beach have been attacking people and destroying things, and Mayor Gilly asks players to explore the Cray Caves to find out why. | If you speak to him, he will gladly ask you to explore the Cray Caves and help him find out why. (http://www.freerealms.com:80/article/detail.action?articleId=1379)",
+  "quest: Mayor Gilly Seaside Speak to Mayor Gilly in Seaside, who asks you to explore the Cray Caves to find out why the Crays are aggressive. (http://www.freerealms.com:80/article/detail.action?articleId=1379)",
+  "fact:item: Everyone who buys the Summer Pass receives a Summer Bundle of items: Beach Ball, Golden Summer Sparkler, Palm Tree Hat, Shark Fin Backpack, Cray Castle and Sandy Beach Lot. | a Summer Bundle of items will be granted to everyone who purchases the Summer Pass (http://www.freerealms.com:80/article/detail.action?articleId=2153)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Archer: Archer Test' (final): Bullseye has asked you to defeat some cray in the Cracked Claw Caverns and bring back proof of your archer skills.",
+  "defeat target in 'Archer: A Piercing Attack' (final): Take out the Cray Marauders",
+  "go target in 'Medic: Risky Research' (final): Escort Acade Vulgari through the Cray Caves.",
+  "defeat target in 'Contract: Sharp Claws and Sharper Swords' (final): Defeat Cray Marauders and Fleetfoot Ninjas (as asked by Ree Peatpants)",
+  "collect target in 'Fresh Ingredients' (final): Bring Sal swamp lichen scraped from the shells of cray marauders, and pond scum from the bellies of venomous frogs.",
+  "defeat target in 'Know your Enemy' (final): The Cray have been growing more aggressive for some time, but Seaspray suspects Orchid Eventide is secretly pushing them",
+  "go target in 'Seaside Situation' (final): Mayor Gilly in Seaside wants you to explore the Cray Caves to find clues about why the cray are so aggressive.",
+  "go target in 'Seaside Situation' (final): Check near the entrance",
+  "go target in 'Seaside Situation' (final): Check the water",
+  "go target in 'Seaside Situation' (final): See how far in the damage reaches"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "title": "Smuggler Boss",
+ "our_entries": [
+  {
+   "file": "dungeons\\shady_smugglers.json",
+   "definition_id": 930068
+  },
+  {
+   "file": "dungeons\\shady_smugglers.json",
+   "definition_id": 930068
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:91885 [npc_name | Shady Shores | Smuggler Boss] 'Smuggler Boss'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:91885 [npc_name | Shady Shores | Smuggler Boss] 'Smuggler Boss'"
+ ],
+ "client_cluster": [
+  "locale:91880 [quest_objective | Shady Shores | Smugglers] 'A group of dangerous smugglers are camping here! Head in and defeat them.'",
+  "locale:91882 [quest_objective | Shady Shores | Smugglers] 'hidden objective for 10 defeated smugglers'",
+  "locale:91883 [quest_objective | Shady Shores | Smugglers] 'Defeat the smugglers.'",
+  "locale:91884 [quest_objective | Shady Shores | Smugglers] 'Knock out all the smugglers and their boss!'",
+  "locale:91885 [npc_name | Shady Shores | Smuggler Boss] 'Smuggler Boss'",
+  "locale:91886 [quest_dialog | Shady Shores | Smugglers] \"#Cap([*player*]) showed those mischievous changelings who's boss around here!\"",
+  "locale:91887 [quest_objective | Sanctuary | General Glowlight] 'Find General Glowlight in Sanctuary'",
+  "locale:91889 [quest_objective | Sanctuary | Changeling Marauders] 'Defeat the Changeling Marauders'",
+  "locale:91890 [quest_objective | Sanctuary | Forgotten Caves] 'The Forgotten Caves can be a little difficult to find. First enter the Memorial Caverns, north of General Glowlight. Then head into the east tunnel and follow i'",
+  "locale:91893 [quest_dialog | Sanctuary | Changeling Marauders] \"What's going on here?\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

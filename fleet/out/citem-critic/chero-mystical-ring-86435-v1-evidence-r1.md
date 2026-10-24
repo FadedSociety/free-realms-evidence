@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chero-mystical-ring-86435-v1-evidence-r1 status=no_submit turns=2 usd=0.0014 tokens(read,write,in,out)=[3982, 7661, 6, 881] model=claude-haiku-5-5 -->
+# Hero Mystical Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].source", "issue": "I did not re-verify the cited Legacy ClientItemDefinitions line range or the sibling Hero ring Class/MinProfileRank/PowerRating/Cost values. The pack's client definition for 22444 is consistent with the answer, but the sibling claim rests on the answer's own reading.", "fix": "Confirm 22440-22444 in FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json before relying on the sibling-family comparison. The 22444 definition itself (name 86435, Class 45, Slot 8, Cost 640) is supported by the pack."}]}

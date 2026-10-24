@@ -1,0 +1,101 @@
+{
+ "title": "Yeti",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 2245,
+   "definition_id": 930073,
+   "model_id": 4547,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 2245,
+   "definition_id": 930073,
+   "model_id": 4547,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 2245,
+   "definition_id": 930073,
+   "model_id": 4547,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 2245,
+   "definition_id": 930073,
+   "model_id": 4547,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:2245 [other | - | Yeti | FLAG fragment: single word category label] 'Yeti'",
+  "locale:6494 [npc_name | Howling Hills | Yeti] 'Yeti '"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:2245 [other | - | Yeti | FLAG fragment: single word category label] 'Yeti'",
+  "locale:6494 [npc_name | Howling Hills | Yeti] 'Yeti '",
+  "locale:76944 [other | - | Yeti | FLAG placeholder: test buff text (99% reduction)] 'Yeti damage reduction 99%'",
+  "locale:390176 [quest_dialog | - | yeti] 'What batteries are the yeti using?'",
+  "locale:432940 [quest_dialog | Snowhill | Yeti] \"Finally, you defeat the mighty alpha wolf! There are no more wolves in sight. You stand before the entrance to Hot Springs Haven. There's a Yeti inside who keep\"",
+  "locale:432941 [quest_dialog | Snowhill | Yeti] \"That angry Yeti was no match for you! Moving inside the haven, you see lots of cavern rooms and icy passages. You're met by a big Yeti who blocks your way! He's\""
+ ],
+ "client_cluster": [
+  "locale:2237 [other | - | Penguin | FLAG fragment: single word category label] 'Penguin'",
+  "locale:2238 [other | - | Present | FLAG fragment: single word category label] 'Present'",
+  "locale:2239 [other | - | Dog | FLAG fragment: single word category label] 'Dog'",
+  "locale:2240 [ability | - | Movement speed | FLAG dev_note: unfilled template parameter [*Param2*]] 'Increases movement speed by #number([*Param2*]) times your normal speed'",
+  "locale:2241 [other | - | Bat | FLAG fragment: single word category label] 'Bat'",
+  "locale:2242 [other | - | Moon | FLAG fragment: single word category label] 'Moon'",
+  "locale:2243 [other | - | Dwarf | FLAG fragment: single word category label] 'Dwarf'",
+  "locale:2244 [other | - | Cat | FLAG fragment: single word category label] 'Cat'",
+  "locale:2245 [other | - | Yeti | FLAG fragment: single word category label] 'Yeti'",
+  "locale:2246 [item | - | Archer Jewelry] 'Archer Jewelry'",
+  "locale:2247 [item | - | Brawler Jewelry] 'Brawler Jewelry'",
+  "locale:2248 [item | - | Medic Jewelry] 'Medic Jewelry'",
+  "locale:2249 [item | - | Ninja Jewelry] 'Ninja Jewelry'",
+  "locale:2250 [item | - | Warrior Jewelry] 'Warrior Jewelry'",
+  "locale:2251 [item | - | Wizard Jewelry] 'Wizard Jewelry'",
+  "locale:2252 [item | - | Red Bones Bowl] 'Red Bones Bowl'",
+  "locale:2253 [item | - | Pink Bones Bowl] 'Pink Bones Bowl'"
+ ],
+ "wiki": {
+  "title": "Yeti",
+  "text": "Yetis are ape-like creatures that live primarily in the Hot Springs Haven, they enjoy rock music and penguin bowling. Like robgoblins, most yetis are mostly enemies with a few rare NPC yetis. At the moment there are no quests giving yetis.\n\nNotable Yetis\nSnowhill\nUmari\nUnga Frostclaw\nChampion Pengubowler\n\nMerry Vale\nYeti Merrymaker\n\nStillwater Crossing\nPasswind\n\nAppearances\nHot Springs Haven\nPetty Yetis!\nSnowy Canyon\nTrading Card Game Series 1\nTreasure War\n\nGallery\n\nCategory:Races\nCategory:Yeti\nCategory:Snowhill"
+ },
+ "images": [
+  "image (image:character_or_npc): Frosty Yeti",
+  "image (image:character_or_npc): Icy Yeti",
+  "image (image:item_render): Abominable Snowman\nHero, Yeti\n3\n6\n7\n6\nMy [red gem icon] allies can't be destroyed.\nI get +1 attack for each other Yeti in play.\n4P24\nIllus.: Imaginary Friends"
+ ],
+ "video": [
+  "video:QHfkcL2_pfg/00054.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Yeti Bouncer (enemy nameplate) You don't have enough energy for that ability! -1566 damage number Goals (2)",
+  "video:QHfkcL2_pfg/00036.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Goals (2)",
+  "video:QHfkcL2_pfg/00042.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Goals (2)",
+  "video:QHfkcL2_pfg/00044.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Goals (2)",
+  "video:QHfkcL2_pfg/00068.jpg (-): quest:   Defeat Umari, the Yeti Chief. Bonus: Destroy all of the yeti jam boxes! - 0/9  | job_level: Archer 14 | other_text: Goals (2)"
+ ],
+ "article_facts": [
+  "fact:npc: Yeti were advertised as one of the enemies players would battle. | Battle entertaining enemies like Robgoblins, Yeti, Forest Trolls, Giant Spiders and Mushroom Zombies (http://www.freerealms.com:80/whatIsBattle.vm)",
+  "fact:mechanic: Players find Yeti cards by typing 'Yeti' into the search field in the TCG Deck Builder. | Go to the Deck Builder and type “Yeti” in the search field (http://www.freerealms.com:80/article/detail.action?articleId=2815)",
+  "summary: A short official freerealms.com news post announcing the second Free Realms television commercial, which viewers could watch on the site and share with friends. The post gives no gameplay details, mechanics, quests, items or prices. Its title refers to a Yeti, (http://www.freerealms.com/article/detail.action?articleId=746)",
+  "fact:event: Free Realms released its second television commercial, which features the Yeti, and invited viewers to watch and share it. | Nuestro segundo comercial de televisión está aquí para que lo veas. (http://www.freerealms.com/article/detail.action?articleId=757)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Contract: Colder Weather' (final): As a brawler, defeat Frosty Yetis, and Ice Trolls that wander the icy slopes Snowhill.",
+  "other target in 'Contract: Trouble in Snowhill' (final): Ree Peatpants has asked you to defeat wolves and yetis in Snowhill.",
+  "defeat target in 'Warrior: Warrior's Rites' (final): Defeat Yetis in Hot Springs Haven",
+  "other target in 'Contract: Defending Snowhill' (final): Caleb needs all able-bodied warriors to help defend the recruit camp in Snowhill from ice trolls, yetis, and snowmen."
+ ]
+}

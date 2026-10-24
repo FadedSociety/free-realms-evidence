@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=b5af5529ecf6e80bf23ab081a28cceaccf5eef4b status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[2970, 4745, 6, 629] model=claude-haiku-5-5 -->
+# FRIssues12 Valerian.jpg
+
+{"kind": "art_or_promo", "has_text": true, "text": "Ins\nSee th\nback\ndetai\nMor\nBOMMARITO\n2010\nMARTINEZ", "tooltip": null, "entries": null, "uncertain": ["Top-right yellow sticker text is cut off at the image edge; only fragments 'Ins', 'See th', 'back', 'detai', 'Mor' are legible, so the full sentences cannot be reconstructed.", "Artist signature near the bottom center is small and stylized; 'BOMMARITO', '2010' and 'MARTINEZ' are read with moderate confidence (the year could be 2010 or 2016).", "The name 'Queen Valerian' is taken from the wiki page and the client's locale (id 130547 'Queen Valerian'); no name label is printed on the image itself."]}

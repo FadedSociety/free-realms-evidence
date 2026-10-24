@@ -1,0 +1,53 @@
+{
+ "title": "Ghost Pet Party",
+ "names_seen": [
+  "Ghost Pet Party"
+ ],
+ "facts": [
+  {
+   "statement": "A Ghost Pet Party community event was held in a hidden location in the swamp, with players bringing a ghost pet, wearing a costume, and joining the fun.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Una fiesta para mascotas fantasmas que se llevara acabo en un oculto lugar en el Pantano de Esporaumbría",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1849",
+   "date": null
+  },
+  {
+   "statement": "The Ghost Pet Party ran on Server 1 on Thursday 7 October 2010 at 15:00 Pacific Time for US and Latin America.",
+   "numbers": {
+    "year": 2010,
+    "month": 10,
+    "day": 7,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Jueves 7 de octubre del 2010 15:00 hrs Tiempo Pacifico (EE.UU. y Latino America) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1849",
+   "date": null
+  },
+  {
+   "statement": "A second run of the Ghost Pet Party ran on Server 1 on Friday 8 October 2010 at 09:00 Pacific Time, 16:00 European Time, for UK and Europe.",
+   "numbers": {
+    "year": 2010,
+    "month": 10,
+    "day": 8,
+    "hour_pacific": 9,
+    "hour_european": 16
+   },
+   "era": "live",
+   "quote": "Viernes 08 de octubre del 2010 09:00 hrs. Tiempo Pacifico / 16:00 hrs. Tiempo Europeo (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1849",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1849",
+   "date": null,
+   "title": "Evento Comunitario: Fiesta para Mascotas Fantasma (Free Realms - What is New?)",
+   "summary": "A Spanish-language community event notice for the Super Spooktacular in October 2010: a Ghost Pet Party held in a hidden spot in the swamp, with two scheduled server-1 runs (Thursday 7 October 2010 and Friday 8 October 2010). It also describes the weekly community-event rhythm and how players find events through the Game Guide calendar."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

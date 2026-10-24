@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfitted-green-429642-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3751, 7631, 6, 1189] model=claude-haiku-5-5 -->
+# Fitted Green
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The coin_shop source is listed as a sale source, but its own row sets no_sale=true (stores.json:17200) and sell_price_coins is null. The answer does say no_sale conflicts with a sellable listing, but the source entry itself does not carry that caveat, so a builder could read it as a confirmed purchasable 180-coin sale.", "fix": "Keep the price as evidenced (stores.json:17200: purchase_price_coins 180, member_price_coins 162, category 142, no_sale true) and mark the source as unverified for sale. The client definition's coin_store_prices [180] independently corroborates the 180 figure. No vendor or NPC is evidenced, so where stays null."}]}

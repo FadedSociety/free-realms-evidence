@@ -1,0 +1,4 @@
+<!-- fleet job=event-critic id=vfree-realms-tcg-next-expansion-v7-calendar-r6 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3992, 4432, 6, 870] model=claude-haiku-5-5 -->
+# Free Realms TCG next expansion
+
+{"lens": "calendar", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "event.aliases", "issue": "The alias 'Free Realms TCG third expansion (unnamed)' is an inference from the wording of article 2727, not a stated fact. The answer's own open list already marks this, but the alias field presents it as settled.", "fix": "Keep it only as a tentative alias, or label it 'probably the third TCG expansion'. The supporting quote checks out: the article says the third expansion's name was not revealed (articles fact:release, 'Me pregunto como se llamará la [tercera] [expansión]')."}]}

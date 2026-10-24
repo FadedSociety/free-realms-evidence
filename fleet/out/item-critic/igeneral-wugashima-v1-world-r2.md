@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=igeneral-wugashima-v1-world-r2 status=no_submit turns=2 usd=0.0014 tokens(read,write,in,out)=[3731, 6296, 6, 1218] model=claude-haiku-5-5 -->
+# General Wugashima
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim that he is the 'boss of the Ninjawug Outpost battle' comes from the repo's NPC notes (NPCs - Wugachug.md:90), not from the wiki. The wiki page says only that Ninjawug Outpost is a difficulty 2 battle during Ex Elf Machina and never names him as its boss. The answer also presents this as a repo-notes claim without flagging that it is unsupported by the wiki.", "fix": "Cite the wiki accurately: he appears in Countering the Calvary and Elf Ex Machina (wiki: General_Wugashima), and Ninjawug Outpost is a difficulty 2 battle in Ex Elf Machina (wiki). Mark the 'boss' role as repo-notes only, or drop it."}]}

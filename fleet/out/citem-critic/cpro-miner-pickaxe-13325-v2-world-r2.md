@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpro-miner-pickaxe-13325-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3630, 6899, 6, 977] model=claude-haiku-5-5 -->
+# Pro Miner Pickaxe
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type / where", "issue": "The single source is a category-107 coin store row with no named vendor or zone. The row itself checks out: stores.json line 1828 has item_id 6536, category 107, purchase 715, member 643, sell 71, no_sale false. The client definition 6536 also carries coin_store_prices [715]. The price and currency are supported, but calling it a 'vendor' source overstates what the row identifies.", "fix": "Keep the source as a coin-store price row (stores.json:1828, price 715 coins). Label it as a store listing with no vendor identified, not a named vendor. The 'live: unsure' and the open items are honest and need no change."}]}

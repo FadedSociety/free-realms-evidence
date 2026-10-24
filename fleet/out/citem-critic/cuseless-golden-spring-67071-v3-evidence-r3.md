@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cuseless-golden-spring-67071-v3-evidence-r3 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[8822, 5269, 8, 1244] model=claude-haiku-5-5 -->
+# Useless Golden Spring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The catalogue entry for item 23458 (index 8, name_id 67071) carries an extra field, \"item_link\": \"sanctuary\", which the answer does not mention. It is not an acquisition source, but a builder may want it noted.", "fix": "Mention that repo collection_catalogue.json:14497 sets item_link to 'sanctuary' for this entry, and that it says nothing about how the item is acquired. Checked: the locale name, the item id, the 2-coin / 50-XP profile-52 reward (lines 14500-14508) and index 8 all match the catalogue."}]}

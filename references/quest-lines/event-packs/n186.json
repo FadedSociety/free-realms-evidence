@@ -1,0 +1,28 @@
+{
+ "title": "The Dares concert",
+ "names_seen": [
+  "The Dares concert"
+ ],
+ "facts": [
+  {
+   "statement": "The Dares performed a live concert on the Snowhill stage in Free Realms, streamed in real time from E3, on June 2 at 4pm Pacific.",
+   "numbers": {
+    "start_hour_pacific": 16
+   },
+   "era": "live",
+   "quote": "experience the music of Free Realms in a concert on the Snowhill stage June 2nd at 4pm Pacific",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=106",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=106",
+   "date": null,
+   "title": "Rock Out with The Dares",
+   "summary": "A freerealms.com 'What is New?' news post announcing an in-game concert by The Dares on the Snowhill stage, performed live at E3 and viewable in-game. The Dares were to perform the Free Realms theme song 'It's Your World'. The post date is not exact; the page only says it was posted 3 days, 2 hours before capture (2009-06-02)."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

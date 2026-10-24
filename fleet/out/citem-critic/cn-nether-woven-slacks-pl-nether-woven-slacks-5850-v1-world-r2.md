@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-nether-woven-slacks-pl-nether-woven-slacks-5850-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3890, 6612, 6, 877] model=claude-haiku-5-5 -->
+# {n}Nether Woven Slacks{pl="Nether Woven Slacks"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim that the 291-coin price sits on other item ids is only partly checked. My search of stores.json for the definition ids found no item_id match. The only hits were sell_price_coins 114 on other items, which is a different field. The claim holds, but it is not a source for this item.", "fix": "Keep the 291 price marked unverified, as the answer does. Do not record it as a coin vendor source until a store row with item_id matching this item (or one of its definition ids) is found in stores.json."}]}

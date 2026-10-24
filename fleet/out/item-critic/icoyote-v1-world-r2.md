@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icoyote-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3498, 4115, 6, 959] model=claude-haiku-5-5 -->
+# Coyote
+
+{"lens": "world", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources", "issue": "The two marketplace sources are one SC Marketplace listing counted twice: the 404 entry is the Members price of the same 449 pet, not a separate acquisition path. This double-counts the source list and could make a builder add two listings.", "fix": "Keep one marketplace source for Coyote at 449 Station Cash, with a note that Members pay 404 (10% off), per the wiki page text (rev 48011), which says Members get a 10% discount. The 404 figure matches 449 minus 10% (404.1) but is taken from the structured station_cash field, since the rendered price is stripped."}]}

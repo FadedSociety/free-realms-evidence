@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolkadot-rectangle-block-8685-v1-evidence-r1 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[11998, 8621, 8, 1094] model=claude-haiku-5-5 -->
+# Polkadot Rectangle Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only evidence is a coin store record (stores.json item 32670, category 147, no vendor or shop field). Nothing in the pack names a vendor, so 'vendor' overstates the evidence. The price, currency and member figures are right.", "fix": "Type should be a coin store sale with no named vendor, e.g. 'coin_store' (category 147, purchase 5 coins, member 4 coins, sell-back 1 coin), per repo:prototype/osfr-tools/data/content/stores.json line 8301 and the client coin_store_prices [5]. Vendor/shop left as unknown."}]}

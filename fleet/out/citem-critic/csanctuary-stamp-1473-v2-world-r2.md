@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csanctuary-stamp-1473-v2-world-r2 status=no_submit turns=2 usd=0.0010 tokens(read,write,in,out)=[3886, 4912, 6, 787] model=claude-haiku-5-5 -->
+# Sanctuary Stamp
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Stated as 'unsure', which is honest. The evidence pack gives no retired or live signal either way, and the first-pass 'live: yes' is only a hint.", "fix": "No change needed unless a source states the item is live or retired."}, {"field": "kind", "issue": "Kind 'other' is consistent with the client tag 'place' and the lack of models or slots. The first-pass 'collection' guess is not supported by any source that names this item.", "fix": "Keep 'other' until a collection row or wiki page names the stamp."}]}

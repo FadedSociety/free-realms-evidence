@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cillusion-food-bat-244-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3776, 7248, 6, 923] model=claude-haiku-5-5 -->
+# Illusion Food - Bat
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Bark Chocolate tooltip image is cited as showing the family's tooltip format, but the pack's images list is empty and I found no such image in my checks. The claim is unverified, and it is not used as a source for any acquisition claim.", "fix": "Drop the tooltip claim, or cite the actual wiki image after confirming it exists. It does not change the answer."}, {"field": "evidence[1]", "issue": "The sibling list omits Illusion Food - Buck (locale-table string at locale 'ucdt' entry 'Illusion Food - Buck' in the client text dump). The family list is incomplete, not wrong.", "fix": "Add Buck to the family list, or say the list is partial."}]}

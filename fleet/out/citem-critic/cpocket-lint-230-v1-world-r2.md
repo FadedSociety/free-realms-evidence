@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpocket-lint-230-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4043, 7929, 6, 919] model=claude-haiku-5-5 -->
+# Pocket Lint
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Answer correctly leaves live as 'unsure' rather than the first-pass 'yes'. My checks agree: the only Pocket Lint hit in client, wiki, articles and video is the locale:230 name; no vendor, quest, drop or event names it. Nothing in the world lens contradicts the null retired status, since no source gives a retirement signal either way.", "fix": "No change needed. Keep sources empty, retired null, live unsure. The first-pass 'drop' guess stays unsupported (quest-lines/enemies.json names Yeti Toe Jam and Slimy Yeti Snot as undrafted drops, but never Pocket Lint)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2725 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2948, 4, 460] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article":{"title":"Free Realms Forums","date":null,"author":null,"type":"other"},"about_free_realms":false,"summary":"The capture is a vBulletin error page from freerealmsforums.com, not a thread. It says the visitor exceeded the maximum number of viewable posts and asks them to register. It contains only forum navigation and boilerplate, with no thread text, guide, post, or game information. Nothing here can be used for the rebuild.","facts":[],"quests":[],"uncertain":["The thread the URL points to (t=2725) was not captured; only the 'maximum posts viewed' error page and forum navigation appear in the text.","The thread title, author, date and content are unknown."]}

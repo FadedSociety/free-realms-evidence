@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csplash-zipper-engine-406496-v1-world-r2 status=no_submit turns=2 usd=0.0018 tokens(read,write,in,out)=[4318, 10124, 6, 1015] model=claude-haiku-5-5 -->
+# Splash Zipper Engine
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].claim", "issue": "The client-definition claim cites the description as locale 107923600. A lookup on 'Splash Zipper Engine' returned locale:406556 'Splash Zipper' with the text 'The engine for the Splash Zipper.', so the description may sit on a different name id. This does not change any source, but the citation should be rechecked.", "fix": "Confirm which name id carries 'The engine for the Splash Zipper.' (406556 in the lookup) and correct the description locale cited for definition 61026."}]}

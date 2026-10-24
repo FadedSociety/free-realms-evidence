@@ -1,0 +1,47 @@
+{
+ "title": "Fiesta en la Piscina de Las Cavernas del Recuerdo",
+ "names_seen": [
+  "Fiesta en la Piscina de Las Cavernas del Recuerdo"
+ ],
+ "facts": [
+  {
+   "statement": "A community pool party event was held in the pools under the Cavernas del Recuerdo, with dancing, confetti cannons and swimming, jumping from bridges into the warm cave water.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Acompaña al equipo comunitario y a todos tus amigos de Free Realms a las piscinas que están debajo de las Cavernas del Recuerdo",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2004",
+   "date": null
+  },
+  {
+   "statement": "The US and Latin America session was on Thursday 21 January 2011 at 15:00 Pacific Time, on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Jueves 21 de enero del 2011 15:00 Tiempo Pacifico (EE.UU. y Latino America) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2004",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session was on Friday 22 January 2011 at 9:00 Pacific Time (16:00 European time), on Server 1.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_european": 16
+   },
+   "era": "live",
+   "quote": "Viernes 22 de enero del 2011 9:00 Tiempo Pacifico / 16:00 Tiempo Europeo (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2004",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2004",
+   "date": null,
+   "title": "Free Realms - What is New? (Spanish-language community event: Fiesta en la Piscina de Las Cavernas del Recuerdo)",
+   "summary": "A Spanish-language community event notice announcing a pool party in the pools beneath the Cavernas del Recuerdo (Caverns of Remembrance), reached from the Sanctuary caves, on Server 1. The page gives two session times in January 2011, one for US and Latin America and one for UK and Europe; the 'posted' date is relative and the capture date is 2011-06-04, so the post date is not certain."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

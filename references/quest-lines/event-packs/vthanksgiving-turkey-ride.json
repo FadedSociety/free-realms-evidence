@@ -1,0 +1,28 @@
+{
+ "title": "Thanksgiving Turkey ride",
+ "names_seen": [
+  "Thanksgiving Turkey ride"
+ ],
+ "facts": [
+  {
+   "statement": "A separate Thanksgiving-era item (a giant turkey mount) was sold in the Marketplace for SC550 (per the client's Thanksgiving text; not stated in this article).",
+   "numbers": {
+    "price_sc": 550
+   },
+   "era": "live",
+   "quote": "Available in the Marketplace for only SC550.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1927",
+   "date": "2010-11-24"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1927",
+   "date": "2010-11-24",
+   "title": "Evènement de la Communauté: Dance de Dinde! (Free Realms - What is New?)",
+   "summary": "A French-language community event post announcing a Turkey Dance (Dance de Dinde) held the day after US Thanksgiving in November 2010, on Server 1, at the Pixiewood shopping mall north of the Sanctuary teleport stone. Players were told to buy turkey costumes and turkey hats at the Marketplace, and the post explains how to find events using the in-game Game Guide calendar and its 'Go' button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-elite-pink-brutal-blast-boots-pl-elite-pink-brutal-blast-b-657-v1-evidence-r1 status=done turns=2 usd=0.0024 tokens(read,write,in,out)=[4082, 13729, 6, 1376] model=claude-haiku-5-5 -->
+# {n}Elite Pink Brutal Blast Boots{pl="Elite Pink Brutal Blast Boots"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the coin-shop label rests only on the stores.json row (purchase_price_coins/member_price_coins fields). The row's category 105 has no name in our data, and no vendor or NPC is evidenced. The answer already says so, so this is a wording caveat, not a wrong claim.", "fix": "Keep the claim as 'coin store listing, store item 1317, category 105, 9453 coins / member 8507 / sell 945 (repo stores.json line 441)'. Do not name a vendor until one is evidenced."}]}

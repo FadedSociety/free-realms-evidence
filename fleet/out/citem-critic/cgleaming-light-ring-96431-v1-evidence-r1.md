@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-light-ring-96431-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3530, 5329, 6, 1137] model=claude-haiku-5-5 -->
+# Gleaming Light Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].source", "issue": "The automatic id check flags locale:150447 as a placeholder stub. The claim only uses those lines to say they are placeholder text, not to support a live fact, so the claim itself is accurate. Still, citing placeholder lines in the evidence list weakens it and should be labelled as non-live.", "fix": "Keep the cluster claim based on locale:96426, 96427, 96430 and 96431 (real item names). Mark locale:150447-150449 as FLAG placeholder (non-live) in the source note. My lookup confirms locale:150449 is the placeholder 'This is a Gleaming Light Ring item.'"}]}

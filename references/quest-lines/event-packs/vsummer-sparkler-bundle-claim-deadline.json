@@ -1,0 +1,31 @@
+{
+ "title": "Summer Sparkler Bundle claim deadline",
+ "names_seen": [
+  "Summer Sparkler Bundle claim deadline"
+ ],
+ "facts": [
+  {
+   "statement": "The Summer Sparkler Bundle for members must be claimed by 11:59 PM PDT on 7/12/2009.",
+   "numbers": {
+    "deadline_day": 12,
+    "deadline_month": 7,
+    "deadline_year": 2009,
+    "deadline_time_pdt": 2359
+   },
+   "era": "live",
+   "quote": "Members must log in and claim this bundle by 11:59 PM PDT on 7/12/2009",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=136",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=136",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com news post for the Seaside Summer Splash event, running on the 2009 live game. Players complete Seaside quests to earn Seaside Stickers, redeemable for fireworks, wearables and other items. Members got a Summer Sparkler Bundle if claimed by 11:59 PM PDT on 7/12/2009."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

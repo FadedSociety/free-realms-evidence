@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=idizzy-toad-v1-evidence-r1 status=done turns=3 usd=0.0012 tokens(read,write,in,out)=[7941, 4924, 8, 1054] model=claude-haiku-5-5 -->
+# Dizzy Toad
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer's note that the Merchants page lists Dizzy Toad is accurate (checked: 'Dizzy Toad found at Perry's Pastures, south of Snowhill' under Ninja), and the locale tag 'ability' is confirmed (locale:5102377 'ability - Dizzy Toad'). No problem with the claims. The answer is honest that no item price, currency or source exists.", "fix": "No change needed for the evidence. The Dizzy Toad wiki page (rev 33135) gives no prices or currency for its wares, so no item source can be wired from it. If the target was meant to be one of the Nusumi Ninja items it sells, that item needs its own run with its own price evidence."}]}

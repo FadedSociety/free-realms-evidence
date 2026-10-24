@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjeweled-pumpkin-necklace-99299-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4063, 9979, 6, 940] model=claude-haiku-5-5 -->
+# Jeweled Pumpkin Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence[5]", "issue": "The Super Spooktacular link is speculative. The answer ties Pumpkin-named gear to the event only as an unverified possibility. My lookups found no wiki, article, client or video line that connects any Pumpkin Necklace to the event, so it should stay in open and not be treated as a source.", "fix": "Keep it as an open lead only. Nothing in the evidence pack or my checks supports a source. The Super Spooktacular event itself is evidenced (wiki Super Spooktacular, NPCs - Blackspore Swamp), but no reward is named for this item."}]}

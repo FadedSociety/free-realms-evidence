@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-dress-shoes-pl-dress-shoes-8601-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3505, 7556, 6, 1111] model=claude-haiku-5-5 -->
+# {n}Dress Shoes{pl="Dress Shoes"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence (wiki image)", "issue": "The answer says no wiki image covers locale 8601, but the wiki has a file page 'File:Dress Shoes.png' (ns6) matching this name. The file page has no transcribed text in the pack, so it is not evidence of a price or source, but it should be listed as an unread image rather than left out.", "fix": "Add to open: 'wiki File:Dress Shoes.png exists (ns6); no transcribed text, so it cannot confirm locale 8601 or a price.' Source: lookup [wiki] page:ns6 File:Dress Shoes.png."}]}

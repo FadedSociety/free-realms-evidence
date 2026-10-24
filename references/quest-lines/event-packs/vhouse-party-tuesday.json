@@ -1,0 +1,264 @@
+{
+ "title": "Community Event: House Party Tuesday",
+ "names_seen": [
+  "Community Event: House Party Tuesday",
+  "House Party Tuesday"
+ ],
+ "facts": [
+  {
+   "statement": "A weekly House Party Community Event was run every Tuesday, meeting in Sanctuary to party and visit decorated homes.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Every Tuesday we’ll meet up in Sanctuary (see the map below), party and visit decorated homes throughout Free Realms",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1168",
+   "date": null
+  },
+  {
+   "statement": "The first House Party was on Tuesday March 23, 2010 at 4pm Pacific Time (U.S. and Latin America) on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 16
+   },
+   "era": "live",
+   "quote": "Tuesday March 23rd, 2010 4pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1168",
+   "date": null
+  },
+  {
+   "statement": "Community event held every Tuesday where players meet in Sanctuary and visit decorated homes.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Every Tuesday we’ll meet up in Sanctuary (see the map below), party and visit decorated homes throughout Free Realms !",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1209",
+   "date": null
+  },
+  {
+   "statement": "The featured session was on Tuesday April 6, 2010 at 3pm Pacific Time (U.S. and Latin America) on Server 1.",
+   "numbers": {
+    "day_of_month": 6,
+    "hour_pacific_24h": 15
+   },
+   "era": "live",
+   "quote": "Tuesday April 06th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1209",
+   "date": null
+  },
+  {
+   "statement": "The Community Team holds a House Party every Tuesday, meeting in Sanctuary and visiting different player houses.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Every Tuesday is our House Party! We meet in Sanctuary and go to different player houses",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1214",
+   "date": null
+  },
+  {
+   "statement": "Every Tuesday, players meet in Sanctuary to party and visit decorated homes throughout Free Realms.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Every Tuesday we'll meet up in Sanctuary (see the map below), party and visit decorated homes throughout Free Realms",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1241",
+   "date": null
+  },
+  {
+   "statement": "The April 12, 2010 House Party ran at 3pm Pacific Time for U.S. and Latin America on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Tuesday April 12th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1241",
+   "date": null
+  },
+  {
+   "statement": "The same April 12, 2010 House Party was listed at 9:00am Pacific / 4:00pm GMT for UK and Europe on Server 1.",
+   "numbers": {
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1241",
+   "date": null
+  },
+  {
+   "statement": "House Party Tuesday is a weekly community event held every Tuesday in Sanctuary on Server 1, where players party and visit decorated homes.",
+   "numbers": {
+    "start_time_US_Latin_America_Pacific": 16,
+    "start_time_UK_Europe_Pacific": 9
+   },
+   "era": "live",
+   "quote": "Every Tuesday we’ll meet up in Sanctuary (see the map below), party and visit decorated homes throughout Free Realms !",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1452",
+   "date": null
+  },
+  {
+   "statement": "House Party Tuesday is a weekly community event held every Tuesday in Sanctuary where players meet, party and visit decorated homes.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Every Tuesday we'll meet up in Sanctuary (see the map below), party and visit decorated homes throughout Free Realms",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1536",
+   "date": null
+  },
+  {
+   "statement": "Over the summer, House Party Tuesday visits houses matching a weekly theme; the theme for the June 15, 2010 event was Camping.",
+   "numbers": {},
+   "era": "live",
+   "quote": "All summer long we are going to visit houses that match the theme of the week.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1536",
+   "date": null
+  },
+  {
+   "statement": "The June 15, 2010 House Party ran at 4pm Pacific Time for U.S. and Latin America on Server 1, and at 9:00am Pacific / 4:00pm GMT for UK and Europe on Server 1.",
+   "numbers": {
+    "US_LatAm_start_hour_PT": 16,
+    "UK_Europe_start_hour_PT": 9,
+    "UK_Europe_start_hour_GMT": 16
+   },
+   "era": "live",
+   "quote": "Tuesday June 15th, 2010 4pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1536",
+   "date": null
+  },
+  {
+   "statement": "Every Tuesday players meet in Sanctuary to party and visit decorated player homes throughout Free Realms; summer 2010 houses visited matched a weekly theme.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Every Tuesday everyone meets in Sanctuary (see the map below) to party and visit decorated homes throughout Free Realms!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1556",
+   "date": null
+  },
+  {
+   "statement": "The House Party theme for the week of June 22, 2010 was Obstacle Course Adventure, with visited houses requiring agility such as launching, jumping, flying, falling and bouncing between obstacles.",
+   "numbers": {
+    "event_date_2010_06_22": 1,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "We will be visiting houses that require visitors to test their agility by launching, jumping, flying, falling and bouncing",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1556",
+   "date": null
+  },
+  {
+   "statement": "The event time was listed as 4pm Pacific Time (U.S. and Latin America) on Server 1, and 9:00am Pacific / 4:00pm GMT (UK and Europe) on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 16,
+    "start_hour_pacific_uk_listing": 9,
+    "gmt_hour_uk_listing": 16
+   },
+   "era": "live",
+   "quote": "4pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1556",
+   "date": null
+  },
+  {
+   "statement": "The Community Team held a House Party event on Tuesday, October 3rd, meeting in Sanctuary to visit decorated homes throughout Free Realms.",
+   "numbers": {
+    "start_hour_pacific_US_LatAm": 4,
+    "start_hour_pacific_UK_Europe_equivalent_gmt_hour": 16.5
+   },
+   "era": "live",
+   "quote": "On Tuesday, October 3rd, join the Community Team for a House Party! During this event, we'll meet up in Sanctuary",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2286",
+   "date": null
+  },
+  {
+   "statement": "On Tuesday, January 31, 2012, the Community Team hosted a special Wilds Condo version of the House Party Tuesday event, which started in Sanctuary with players teleporting to the House Party character.",
+   "numbers": {
+    "event_date_year": 2012,
+    "event_date_month": 1,
+    "event_date_day": 31,
+    "player_decorated_condos_visited": 8
+   },
+   "era": "live",
+   "quote": "the Community Team hosted a special Wilds Condo version of the House Party Tuesday event.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2493",
+   "date": null
+  },
+  {
+   "statement": "On Tuesday, January 31, 2012, the Community Team hosted a special Wilds Condo version of the House Party Tuesday event.",
+   "numbers": {
+    "date": "2012-01-31"
+   },
+   "era": "live",
+   "quote": "the Community Team hosted a special Wilds Condo version of the House Party Tuesday event.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2494",
+   "date": null
+  },
+  {
+   "statement": "The event party started in Sanctuary, and players quickly teleported to the House Party character upon its login; during the event the team visited about 8 player-decorated Wilds Condos.",
+   "numbers": {
+    "player_decorated_condos_visited": 8
+   },
+   "era": "live",
+   "quote": "we visited around 8 player-decorated Wilds Condos.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2494",
+   "date": null
+  },
+  {
+   "statement": "Every Tuesday players meet in Sanctuary to party and visit decorated homes throughout Free Realms.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Every Tuesday we’ll meet up in Sanctuary (see the map below), party and visit decorated homes",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1263",
+   "date": "2010-04-20"
+  },
+  {
+   "statement": "The April 20, 2010 House Party ran at 4pm Pacific Time (U.S. and Latin America) on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 16
+   },
+   "era": "live",
+   "quote": "Tuesday April 20th, 2010 4pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1263",
+   "date": "2010-04-20"
+  },
+  {
+   "statement": "For UK and Europe the April 20, 2010 House Party was at 9:00am Pacific Time / 4:00pm GMT on Server 1.",
+   "numbers": {
+    "start_gmt_hour": 16
+   },
+   "era": "live",
+   "quote": "9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1263",
+   "date": "2010-04-20"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1168",
+   "date": null,
+   "title": "Community Event: House Party Tuesday!",
+   "summary": "SOE announced a new weekly House Party community event in which players meet in Sanctuary and visit decorated player homes, with the Community Team's 'House Party' character teleporting between houses. The post gives the first event as Tuesday March 23, 2010 at 4pm Pacific on Server 1, and notes the Game Guide teleport would not work that week so players had to arrive on foot."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1209",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com community event notice announcing a recurring 'House Party Tuesday' in which players meet in Sanctuary and visit decorated player homes, with a special 'House Party' character teleporting to featured houses. The first listed session was Tuesday April 6, 2010 at 3pm Pacific Time on Server 1. The post date is not stated exactly (only a relative 'posted 2 weeks, 2 days ago')."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1214",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Community Team event report (posted roughly four days before the capture) covering a Trade Faire in Seaside, the weekly House Party Tuesday in Sanctuary, and a party for the opening of the Pirate's Plunder minigame on the Seaside docks. It also explains how to find community events through the Game Guide calendar and the GO button."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1241",
+   "date": null,
+   "title": "Community Event: House Party Tuesday!",
+   "summary": "A Free Realms community event page announcing a recurring 'House Party' tour held every Tuesday in Sanctuary, where a Community Team character visits featured player-decorated homes. It gives the event date and times for the April 12, 2010 instance and explains how players can find events through the Game Guide calendar."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1452",
+   "date": null,
+   "title": "Community Event: House Party Tuesday!",
+   "summary": "Official freerealms.com news post announcing a recurring weekly community event, House Party Tuesday, held in Sanctuary on Server 1, where players gather and visit decorated player homes. A Community Team character named \"House Party\" teleports to featured houses, and players can reach the event through the Game Guide calendar."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1536",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms community event announcement for the weekly 'House Party Tuesday' gathering held in Sanctuary, where players visit decorated player homes. The featured theme for the week of June 15, 2010 was Camping, with houses using tents, campfires and decorations from Chatty and Robbie's Summer Camps. It also explains how to find community events via the Game Guide calendar and its GO button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

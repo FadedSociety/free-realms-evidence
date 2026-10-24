@@ -1,0 +1,70 @@
+{
+ "title": "Birthday Bash",
+ "names_seen": [
+  "Birthday Bash"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms' third-anniversary celebration, the Birthday Bash, ran through May 24, 2012.",
+   "numbers": {
+    "end_month": 5,
+    "end_day": 24,
+    "end_year": 2012
+   },
+   "era": "live",
+   "quote": "The Birthday Bash runs through May 24, 2012",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2580",
+   "date": "2012-04-26"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2580",
+   "date": "2012-04-26",
+   "title": "Happy 3rd Birthday, Free Realms!",
+   "summary": "SOE's official news post announcing Free Realms' third-anniversary Birthday Bash, which ran through May 24, 2012. It describes a cake bake-off storyline in Sanctuary led by Queen Valerian, daily party-prep quests, and a monster called Cakenstein disrupting the celebration in Sacred Grove. It also lists a free Birthday Cake hat and four new pinata pets in the Marketplace."
+  }
+ ],
+ "wiki_category_members": [
+  "Balloon Pet Pumper",
+  "Balloon Animal",
+  "Balloon Bow",
+  "Balloon Hammer",
+  "Balloon Saw",
+  "Balloon Sword",
+  "Balloon Axe",
+  "Balloon Wand",
+  "Birthday Bash",
+  "Blackspore Swamp Birthday T-Shirt",
+  "Briarwood Birthday T-Shirt",
+  "Birthday Cake Hat",
+  "Cakenstein",
+  "Cakeling (Pet Pal)",
+  "Cupcake",
+  "Camellia",
+  "Cupcake Hat",
+  "Cakeling",
+  "Gifting Piñata",
+  "Free Realms Birthday T-Shirt",
+  "Merry Vale Birthday T-Shirt",
+  "Piñata Pony",
+  "Shrouded Glade Birthday T-Shirt",
+  "Sanctuary Birthday T-Shirt",
+  "Seaside Birthday T-Shirt",
+  "Streamer Flair Shard",
+  "Snowhill Birthday T-Shirt",
+  "Wugachug Birthday T-Shirt"
+ ],
+ "quest_answers_mentioning_it": [
+  "A Piece of Cake (final, live unsure)",
+  "Cakenstein's Last Stand (final, live yes)",
+  "Cakey Clue (final, live yes)",
+  "Cakey Madness (final, live yes)",
+  "Downing Cakenstein (final, live yes)",
+  "Forgivable Matter (final, live unsure)",
+  "Mysteriously Cakey Remains (final, live yes)",
+  "Mystery Meat Mystery (final, live unsure)",
+  "Perfecting the Batter (final, live yes)",
+  "Undelivered Confections (unresolved, live yes)"
+ ]
+}

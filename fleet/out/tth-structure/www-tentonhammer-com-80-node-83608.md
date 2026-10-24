@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-83608 status=nothing_found turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 5762, 4, 500] model=claude-haiku-5-5 -->
+# EQ2 Mage Alternate Advancement Updates | Ten Ton Hammer
+
+{"article": {"title": "EQ2 Mage Alternate Advancement Updates", "date": "2010-04-22", "author": "Savanja", "type": "guide"}, "about_free_realms": false, "summary": "This Ten Ton Hammer page is an EverQuest II guide post announcing updated Alternate Advancement info for the six mage classes, including the Shadows and Sentinel's Fate lines. It does not describe Free Realms. The only Free Realms mentions are site navigation items: a 'Recently Popular' ranking (up 8 to #11) and an entry in the MMO list.", "facts": [], "quests": [], "uncertain": ["The page mentions Free Realms only in site navigation (Recently Popular ranking and the MMO index), so no Free Realms facts were extracted."]}

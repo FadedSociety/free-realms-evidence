@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crobgoblin-shiny-8460-v2-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3972, 7081, 6, 1210] model=claude-haiku-5-5 -->
+# Robgoblin Shiny
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the source is a quest collect objective, which the evidence supports (repo:refs quest-lines/quests.json:23604-23607 maps text locale 439785 to target locale 8460; locale:439785 reads 'Collect Robgoblin Shiny's from Robgoblins in the Scrap Yard of Sunstone Valley'). The answer does not claim a price, vendor, or drop table, and it flags the enemy-dropper link as unverified. No guessed source was found.", "fix": "No change required for the evidence. Optionally state that the item's only evidenced acquisition is the quest collect at locale:439785 (quest 3020037, target 8460), and that the record is a disabled skeleton with no reward data."}]}

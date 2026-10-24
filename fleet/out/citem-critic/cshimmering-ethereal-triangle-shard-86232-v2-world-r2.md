@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshimmering-ethereal-triangle-shard-86232-v2-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4156, 9427, 6, 1002] model=claude-haiku-5-5 -->
+# Shimmering Ethereal Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The vendor is left null. The row in stores.json:6656 is a store-category row (category 121), not a named NPC. It is shared by many items with the same tags (for example item_id 2108 and 22233 to 22240 carry identical 866/779 rows). The answer states this honestly, so it is an open gap, not an error.", "fix": "Keep vendor as unidentified. Mark the source as 'coin store row, category 121, vendor unknown' until a client or wiki sale confirms the NPC. The price 866 coins (member 779) matches stores.json:6656 and the client coin_store_prices value 866."}]}

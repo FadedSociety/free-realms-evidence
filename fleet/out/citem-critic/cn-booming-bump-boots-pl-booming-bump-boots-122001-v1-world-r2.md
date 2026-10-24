@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-booming-bump-boots-pl-booming-bump-boots-122001-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3763, 11227, 6, 1079] model=claude-haiku-5-5 -->
+# {n}Booming Bump Boots{pl="Booming Bump Boots"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The cost 1266 is cited to Lxzxrus-Free-Realms-Server ClientItemDefinitions.json lines 903228-903240. The same Booming Bump Boots row (line 903229) also appears in refs/FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json, so the citation is incomplete but not wrong. The answer correctly labels it as an item-definition Cost, not a store price.", "fix": "Cite both refs copies of the definition (Lxzxrus and FreeRealms-Legacy, line 903229 'Comment: Booming Bump Boots'). Keep the Cost field labelled as definition cost, not a sale price."}]}

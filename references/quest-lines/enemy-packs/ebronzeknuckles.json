@@ -1,0 +1,53 @@
+{
+ "title": "Bronzeknuckles",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_rumbledome.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:410341 [npc_name | - | -] 'Bronzeknuckles'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:410417 [other | - | Bronzeknuckles | FLAG dev_note: internal label \"rumbledome 326 - bronzeknuckles extra ability\"] 'rumbledome 326 - bronzeknuckles extra ability'",
+  "locale:410418 [ability | - | Bronzeknuckles] 'Bronzeknuckle Punch!!'",
+  "locale:410421 [quest_objective | - | Bronzeknuckles] 'Defeat Bronzeknuckles!'",
+  "locale:410435 [quest_dialog | - | Bronzeknuckles] 'Bronzeknuckles has been defeated!'",
+  "locale:412002 [quest_dialog | - | Bronzeknuckles] 'Haha!  Bronzeknuckles went down easy!  I knew you had it in you!'"
+ ],
+ "client_cluster": [
+  "locale:410333 [other | Snowhill | Fisherman: Fresh Fish Special | FLAG fragment: menu-style label, not quest text] 'Fisherman: Fresh Fish Special'",
+  "locale:410334 [quest_dialog | Snowhill | Lucca De'Flor] 'Chef Lucca has been inspired by your fishing skills! He wants to create a new menu item using Frostgill Smelt and Spiralmint.'",
+  "locale:410335 [quest_dialog | Snowhill | Lucca De'Flor] \"That's the heartiest dish I've ever had from Lucca. I heard you reeled in the Frostgill yourself.<BR><BR>If that's true, then I wonder why you're not on my team\"",
+  "locale:410336 [quest_title | - | Rumbledome Run-in] 'Rumbledome Run-in'",
+  "locale:410338 [quest_objective | Snowhill | Lucca De'Flor] \"Obtain the items Lucca De'Flor has requested so he can make a special new dish.\"",
+  "locale:410339 [quest_objective | Snowhill | Lucca De'Flor] 'Reel in Frostgill Smelt'",
+  "locale:410340 [quest_objective | Snowhill | Frostgill Smelt] \"Lucca De'Flor needs some Frostgill Smelt for his new dish! Fish of that type swim at the Frostbitten Banks.\"",
+  "locale:410341 [npc_name | - | -] 'Bronzeknuckles'",
+  "locale:410342 [npc_name | - | -] 'Silverfist'",
+  "locale:410343 [quest_objective | Snowhill | Lucca De'Flor] 'Harvest some Spiralmint'",
+  "locale:410344 [quest_objective | Snowhill | Spiralmint] \"Lucca De'Flor needs some Spiralmint for his new dish! It's easily found just outside of Snowhill at Perry's Pasture.\"",
+  "locale:410345 [npc_name | - | -] 'Kraig'",
+  "locale:410347 [quest_objective | Snowhill | Lucca De'Flor] \"Return the ingredients to Lucca De'Flor in Snowhill.\"",
+  "locale:410348 [npc_name | - | -] 'Krissy'",
+  "locale:410349 [quest_objective | Snowhill | Chip Numbwing] 'Deliver to Chip Numbwing'"
+ ],
+ "wiki": {
+  "title": "Bronzeknuckles",
+  "text": "Bronzeknuckles is a dwarf enemy NPC that players fight in the Rumbledome, located in Sunstone Valley. He is a Skullz rumbledome gladiator whose allegiance is with the Skullz. The Rumbledome announcer states that prior to the battle, Bronzeknuckles had been at Wheelie Pete's Roadhouse.\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Dwarves\nCategory:Skullz\nCategory:Sunstone Valley"
+ },
+ "images": [],
+ "video": [
+  "video:MGbXhwbWFV4/00038.jpg (The Rumbledome): npcs: Bronzeknuckles nameplate  | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00044.jpg (The Rumbledome): npcs: Bronzeknuckles nameplate  | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00048.jpg (The Rumbledome): npcs: Bronzeknuckles nameplate  | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00050.jpg (The Rumbledome): npcs: Bronzeknuckles nameplate  | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00034.jpg (The Rumbledome): npcs: Announcer chat_speaker  | dialog: Announcer: Our first contender: Stumbling all the way down the road from Wheelie Pete's - BRONZEKNUCKLES! | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

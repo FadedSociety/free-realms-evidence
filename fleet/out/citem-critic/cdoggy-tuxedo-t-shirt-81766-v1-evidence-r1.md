@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdoggy-tuxedo-t-shirt-81766-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3549, 4960, 6, 899] model=claude-haiku-5-5 -->
+# Doggy Tuxedo T-Shirt
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the Scooter promo text in locale 3680 (\"Valentine's Special! Buy Scooter and get the Doggy Tuxedo Outfit free!\") is a second Doggy Tuxedo promo source. The answer calls article 2521 the only promo source found. It still names the Outfit, not the T-shirt, so the answer's conclusion holds.", "fix": "Cite locale:3680 alongside article 2521 as the Scooter promo evidence, noting it is a Valentine's buy-Scooter-get-Outfit-free promo for the Outfit only. It does not support any T-shirt source."}]}

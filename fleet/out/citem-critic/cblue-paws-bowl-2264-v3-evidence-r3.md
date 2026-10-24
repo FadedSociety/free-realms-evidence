@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblue-paws-bowl-2264-v3-evidence-r3 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4189, 9182, 6, 1107] model=claude-haiku-5-5 -->
+# Blue Paws Bowl
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / live", "issue": "Minor: the claim that the Coin Shop frames show Red and Green Paws 'then cut off' is accurate, but the answer does not say that the same frames also list 'Blue' Daisies as an OCR fragment ('[Blue] Daisies'), which is the only Blue-colour bowl text in the frames. It is mentioned in the open list, so this is a clarity point, not an error.", "fix": "No change needed to the verdict. Optionally state that the frame OCR reads '[Blue] Daisies' at 15 coins (video:_ZDf8mYDil4/00192.jpg, video:Ih74NMrp7F0/01998.jpg), so the Blue colour exists in that shop list while Blue Paws is unconfirmed."}]}

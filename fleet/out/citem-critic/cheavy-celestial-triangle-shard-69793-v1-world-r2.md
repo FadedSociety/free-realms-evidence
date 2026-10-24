@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cheavy-celestial-triangle-shard-69793-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4060, 10180, 6, 1082] model=claude-haiku-5-5 -->
+# Heavy Celestial Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only evidence is a coin store row (stores.json item_id 22891, category_id 121, purchase 1149, member 1034, sell 114). No vendor, NPC or store page is named anywhere in the pack, so 'vendor' overstates what is evidenced. The same category 121 is shared by many items at other prices (for example 2107 at 540, 2108 at 866, 22880 at 811), so category 121 reads as a price tier, not a specific vendor.", "fix": "Type should be 'coin store' (stores.json item 22891, category 121, 1149 coins), with vendor 'unknown'. Keep the vendor as an open item."}]}

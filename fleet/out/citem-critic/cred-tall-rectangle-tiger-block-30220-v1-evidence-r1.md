@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cred-tall-rectangle-tiger-block-30220-v1-evidence-r1 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11237, 9222, 8, 1236] model=claude-haiku-5-5 -->
+# Red Tall Rectangle Tiger Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "'yes' is stated as settled, but its only support is that item 77121 has a coin-store row in repo stores.json (category 147, tags L1, L2, L4, R2, T633, R1). That row shows the item is in the store data, not that it is currently sold. The open list already admits this, so the field overstates confidence.", "fix": "Keep the coin-store row as the evidence. Set live to 'store-data listed (undated)' or leave it unconfirmed, citing repo:prototype/osfr-tools/data/content/stores.json item 77121 as the only basis."}]}

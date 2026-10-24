@@ -1,0 +1,54 @@
+{
+ "title": "The Pumpkin Prince",
+ "our_entries": [
+  {
+   "file": "dungeons\\bone_bog_cemetery.json",
+   "definition_id": 930024
+  },
+  {
+   "file": "dungeons\\bone_bog_cemetery.json",
+   "definition_id": 930024
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:414863 [npc_name | Bone Bog | The Pumpkin Prince] 'The Pumpkin Prince'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:414863 [npc_name | Bone Bog | The Pumpkin Prince] 'The Pumpkin Prince'",
+  "locale:416809 [quest_objective | Stillwater Crossing | The Pumpkin Prince] 'The Pumpkin Prince is terrorizing Stillwater Crossing!'",
+  "locale:416810 [quest_objective | Snowhill | The Pumpkin Prince] 'The Pumpkin Prince is terrorizing Snowhill!'",
+  "locale:416811 [quest_objective | Bristlewood | The Pumpkin Prince] 'The Pumpkin Prince is terrorizing Bristlewood!'"
+ ],
+ "client_cluster": [
+  "locale:414857 [npc_name | Bone Bog | Fresh Grave Elemental] 'Fresh Grave Elemental'",
+  "locale:414860 [npc_name | Bone Bog | Pumpkin Prince Ghost] 'Pumpkin Prince Ghost'",
+  "locale:414861 [npc_name | Bone Bog | Necromancer] 'Necromancer'",
+  "locale:414863 [npc_name | Bone Bog | The Pumpkin Prince] 'The Pumpkin Prince'",
+  "locale:414865 [ability | Bone Bog | Wraith Scream] 'Wraith Scream'",
+  "locale:414866 [other | Bone Bog | Wraith Scream | FLAG dev_note: internal ability note] 'bone bog cemetery 339 - scream attack'",
+  "locale:414867 [ability | Bone Bog | Banshee Scream] 'Banshee Scream'",
+  "locale:414868 [other | Bone Bog | Banshee Scream | FLAG dev_note: internal ability note] 'bone bog cemetery 339 - Banshe Scream'",
+  "locale:414869 [ability | Bone Bog | Paralysis] 'Paralysis'",
+  "locale:414870 [other | Bone Bog | Paralysis | FLAG dev_note: internal ability note] 'bone bog cemetery 339 - wraith root'",
+  "locale:414871 [ability | Bone Bog | Curse of Undeath] 'Curse of Undeath'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:0LoQe5VZ0PY/00102.jpg (Bone Bog Cemetery): npcs: The Pumpkin Prince nameplate  Lucinda dialog_header  | dialog: Let's get out of here! I'll talk to you outside when you are finished here. | quest:   Defeat the cemetery landlord Bonus: Find and defeat the 3 Bone Bog Skeletons! - 0/3  | job_level: Brawler 20 | other_text: T",
+  "video:0LoQe5VZ0PY/00098.jpg (Bone Bog Cemetery): npcs: The Pumpkin Prince dialog_header boss Lucinda dialog_header  | dialog: The Pumpkin Prince: You will not send me back! Lucinda: Yeah! You did it! | job_level: Brawler 20 | items_seen: Frag Sphere (ability tooltip at bottom centre) | other_text: Goal Complete The Pumpkin Prin",
+  "video:0LoQe5VZ0PY/00108.jpg (Bone Bog Cemetery): npcs: Lucinda dialog_header  | dialog: Lucinda: Let's get out of here! I'll talk to you outside when you are finished here. | quest:   Speak to Lucinda  | job_level: Brawler 20 | other_text: Bone Bog Cemetery The Pumpkin Prince The Pumpkin Prince Goal Complete: Defeat the Pumpkin",
+  "video:0LoQe5VZ0PY/00104.jpg (Bone Bog Cemetery): npcs: The Pumpkin Prince nameplate  Lucinda dialog_header  | dialog: Let's get out of here! I'll talk to you outside when you are finished here. | quest:   Defeat the cemetery landlord Bonus: Find and defeat the 3 Bone Bog Skeletons! - 0/3  | job_level: Brawler 20 | other_text: N",
+  "video:0LoQe5VZ0PY/00096.jpg (Bone Bog Cemetery): npcs: The Pumpkin Prince dialog_header boss | dialog: The Pumpkin Prince: Noo! I needed them to stay in this world! The Pumpkin Prince: You will not send me back! | job_level: Brawler 20 | items_seen: Frag Sphere (ability tooltip at bottom centre) | other_text: Bone Bog Cemetery "
+ ],
+ "article_facts": [
+  "fact:event: The side with the most fans wins the competition and can get a piece of special cake from the Pumpkin Prince. | The side with the most fans will win the competition and be able to get a piece of special cake from the Pumpkin Prince! (http://www.freerealms.com:80/article/detail.action?articleId=1862)",
+  "fact:event: The Pumpkin Prince roams the surface of Free Realms hunting ghosts and demons; players can help the Ghostbusters in Snowy Hill, Mansagua Pass and Thornwood against him, and fight the Pumpkin Prince himself in some quests. | El Príncipe de Calabaza está decidid (http://www.freerealms.com/article/detail.action?articleId=1860)",
+  "fact:event: Vampires and Werewolves compete in a Dance Off for the Pumpkin Prince near the Bone Bog Cemetery; players show team spirit by wearing vampire or werewolf costumes. | The Vampires and Werewolves will be competing in a Dance Off for the pumpkin Prince near the B (http://www.freerealms.com:80/article/detail.action?articleId=1854)",
+  "fact:npc: The Pumpkin Prince is the event antagonist who sends ghosts and ghouls to the surface world; players can fight him, and characters with a pumpkin icon above their heads give Halloween quests. | even to fight the Pumpkin Prince himself! Look for characters with (http://www.freerealms.com:80/article/detail.action?articleId=476)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'The Pumpkin Prince' (unresolved): Defeat the Pumpkin Prince"
+ ]
+}

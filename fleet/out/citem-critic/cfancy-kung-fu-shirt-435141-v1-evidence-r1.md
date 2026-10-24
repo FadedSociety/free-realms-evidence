@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfancy-kung-fu-shirt-435141-v1-evidence-r1 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[10484, 7578, 8, 1344] model=claude-haiku-5-5 -->
+# Fancy Kung-Fu Shirt
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type / where", "issue": "The source is a coin-store purchase from store category 103 with no named vendor. Labelling it 'vendor' overstates what the store data shows. The answer's own detail and open list already say the vendor is unnamed, so this is a labelling nit, not a false claim.", "fix": "Keep the price, but type it as 'coin_store' (category 103, purchase_price_coins 250, member_price_coins 225, sell_price_coins 25 per repo:prototype/osfr-tools/data/content/stores.json lines 17121-17123). Name the vendor only when a source gives it."}]}

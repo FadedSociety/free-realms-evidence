@@ -1,0 +1,42 @@
+{
+ "title": "Members Double Discount",
+ "names_seen": [
+  "Members Double Discount"
+ ],
+ "facts": [
+  {
+   "statement": "A limited-time Members Double Discount raised the discount on Station Cash Market purchases for members from 10% to 20%.",
+   "numbers": {
+    "standard_discount_percent": 10,
+    "event_discount_percent": 20
+   },
+   "era": "live",
+   "quote": "sur tous les objets achetés du marché Station Cash de 10% à 20%",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1793&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The Members Double Discount event ran from 1 September at 20:59 CET until 8 September at 20:59 CET (Paris time). The year is not stated in the post.",
+   "numbers": {
+    "start_day": 1,
+    "end_day": 8,
+    "start_hour_cet": 20.98,
+    "end_hour_cet": 20.98
+   },
+   "era": "live",
+   "quote": "valable à partir du 1er Septembre à 20h59 CET jusqu'au 8 Septembre 20h59 CET",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1793&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1793&request_locale=en_US",
+   "date": null,
+   "title": "Double Remise aux Membres Pour un Temps Limité!",
+   "summary": "A French-language official news post announcing a time-limited Members double discount on Market purchases in Free Realms. Members get a 20% discount on Market items, and for a limited window the Station Cash Market discount rises from 10% to 20%. The page gives no year, so the event dates are only partly fixed (September 1 to September 8, times in CET/Paris)."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

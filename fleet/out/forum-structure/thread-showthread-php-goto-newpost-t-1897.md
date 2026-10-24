@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-goto-newpost-t-1897 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2856, 4, 706] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "The capture is a vBulletin error page from the Free Realms fan forum, showing a 'maximum number of posts you can view' message and the forum index. It contains no thread text, guide, patch notes or game facts, so nothing about quests, items, prices or mechanics can be drawn from it.", "facts": [], "quests": [], "uncertain": ["The thread the URL points to (t=1897) did not render; only the forum error and navigation boilerplate was captured.", "The page lists forum section names (for example 'Items', 'Jobs/Classes', 'In-Game Mini Games', 'Pets', 'Membership / Stationcash') but these are board categories, not game facts."]}

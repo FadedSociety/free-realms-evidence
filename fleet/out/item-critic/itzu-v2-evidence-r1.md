@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=itzu-v2-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3737, 4539, 6, 1115] model=claude-haiku-5-5 -->
+# Tzu
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item", "issue": "The subject 'Tzu' is an NPC merchant (client npc_name string, locale:5102442), not a purchasable item. The record correctly admits it has no item-level acquisition source, but the item kind 'other' still leaves the record without a usable item to wire.", "fix": "Re-scope the pack to each stocked Warrior item listed on https://freerealms.fandom.com/wiki/Tzu (Called Shot Warrior pieces, Flair Shard of Prosperity, Power Shard, Necklace, Ring of Regeneration V, five Warlord Axes). Each needs its own pack; the vendor link to Tzu can be one source on each. Tzu's prices and currency remain unknown from the wiki and are correctly left open."}]}

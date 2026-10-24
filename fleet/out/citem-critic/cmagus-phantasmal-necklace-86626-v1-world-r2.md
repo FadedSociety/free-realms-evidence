@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmagus-phantasmal-necklace-86626-v1-world-r2 status=done turns=4 usd=0.0034 tokens(read,write,in,out)=[33612, 15934, 10, 2191] model=claude-haiku-5-5 -->
+# Magus Phantasmal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Incomplete description of the locale hits. The repo search also finds 'Phantasmal' in many non-Magus names in the locale data (Nomad, Hero, Sorcerer, Prowler, Dull, Bullseye's, Physician, Callahan's Phantasmal Necklace/Ring; Shimmering, Burning, Solid Phantasmal Triangle Shard). So 'Phantasmal' is a wider name pattern, not a Magus-only family, and the answer does not say so. This does not create a source.", "fix": "Note that 'Phantasmal' is a shared word across several necklace and ring families in the locale (opening-journal-text-v2/locale/en_us_data.dat lines 862-18762). The Magus link is only the 'Magus' prefix. No source is added."}]}

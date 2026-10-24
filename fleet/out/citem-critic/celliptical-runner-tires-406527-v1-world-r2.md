@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celliptical-runner-tires-406527-v1-world-r2 status=done turns=4 usd=0.0019 tokens(read,write,in,out)=[19857, 8690, 10, 1212] model=claude-haiku-5-5 -->
+# Elliptical Runner Tires
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor precision: the answer says the wiki Items Race Kart list names only Arrow, Speedy and Slime Runner, which is correct for 'Runner' karts, but the same list also has Wicked Racer and Splash Zipper, which sit in the Splash Zipper cluster the answer cites. Neither is evidence for the tires, so this does not change the result.", "fix": "Optionally say 'the Runner karts on the Items page are Arrow, Speedy and Slime Runner' to be exact. Source: wiki page 'Items' (Race Karts section)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdeep-blue-doll-legs-40686-v2-world-r2 status=no_submit turns=2 usd=0.0012 tokens(read,write,in,out)=[4034, 5245, 6, 949] model=claude-haiku-5-5 -->
+# Deep Blue Doll Legs
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The collection's collect item spawn (Robgoblin, Wilds) and its reward (Black Ninja Outfit Doll plus 21 coins) are correctly kept off the piece, but the answer does not say how a piece gets added to the collection. The client text at locale:132319 only says the item 'can be added' to it.", "fix": "Keep the source as collection membership only. Add a note that the wiki's CollectInfobox (refs: freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki:141-159) lists the piece, and that the spawn and reward belong to the collection, not the piece. Leave where and price null."}]}

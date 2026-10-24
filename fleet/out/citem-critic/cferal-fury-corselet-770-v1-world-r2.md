@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cferal-fury-corselet-770-v1-world-r2 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[15511, 11842, 8, 1575] model=claude-haiku-5-5 -->
+# Feral Fury Corselet
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / open (quest zone label)", "issue": "The answer calls 'A Tree for the Ages' a Sunstone Valley quest, taken from the hint on locale 766-774. The quest title records (locale 737 and 437645) and the Shrouded Glade wiki quest list place it in Shrouded Glade (Barrier Tree defence, druid arc). The Sunstone Valley hint on those lines is a client label that conflicts with the title records, and the answer does not flag the conflict.", "fix": "Describe the quest as 'A Tree for the Ages' (Shrouded Glade, locale 737/437645). Keep the Sunstone Valley hint only as a noted label conflict. This still does not link any armor to the quest."}]}

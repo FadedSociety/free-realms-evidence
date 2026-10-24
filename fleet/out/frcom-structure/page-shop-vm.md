@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=page-shop-vm status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 1892, 4, 507] model=claude-haiku-5-5 -->
+# Free Realms - Shop
+
+{"article": {"title": "Free Realms - Shop", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This is a placeholder page from the official freerealms.com shop section, captured 2009-03-21, before the April 2009 launch. It shows only a \"Coming Soon\" notice, a plugin-install prompt, and legal footer links. It gives no shop items, prices, or mechanics a rebuilder could use.", "facts": [], "quests": [], "uncertain": ["The capture date (2009-03-21) is from the archive, not a dated article; no publication date is shown on the page.", "The page text contains no shop inventory, prices, or other game details; the 'Coming Soon' notice is the only content."]}

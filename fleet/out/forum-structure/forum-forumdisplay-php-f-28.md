@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=forum-forumdisplay-php-f-28 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3257, 4, 497] model=claude-haiku-5-5 -->
+# Elf Island - Free Realms Forums
+
+{"article": {"title": "Elf Island - Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is the Free Realms Forums sub-forum index for 'Elf Island', which sits under 'Other Online Games' and is not a Free Realms forum. It shows no threads (0 threads, 'There are no posts in this forum') and contains no information about Free Realms, so it gives a rebuilder nothing usable.", "facts": [], "quests": [], "uncertain": ["The page carries a 03-29-2009 date next to a Forum Rules announcement and a poster name (TheFalcon), but these are site chrome, not article content, so no article date is assigned."]}

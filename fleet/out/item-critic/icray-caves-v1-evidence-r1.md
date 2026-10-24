@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icray-caves-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4834, 6932, 6, 994] model=claude-haiku-5-5 -->
+# Cray Caves
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] / article_facts summary", "issue": "The claim that the Mayor Gilly news post was 'captured May 2010' is not supported by the retrieved text. The article summary only says the post gives 'no exact date, only a relative posted 2...' (truncated), so the May 2010 date cannot be confirmed from the pack.", "fix": "Drop the 'captured May 2010' date, or cite the exact text of the article's relative date line. The quest hook itself is supported: locale:76199 and locale:76213 ('Mayor Gilly in Seaside wants you to explore the Cray Caves...') and the articleId=1379 quest/location facts all match."}]}

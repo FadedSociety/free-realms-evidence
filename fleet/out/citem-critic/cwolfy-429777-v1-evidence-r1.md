@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwolfy-429777-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3957, 4473, 6, 904] model=claude-haiku-5-5 -->
+# Wolfy
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].detail", "issue": "The detail states the card 'unlocks the Wolfy hairstyle' as fact. The frame shows only the card name and 486 coins; no record links locale 114562 to hair item 429777. The answer's own open list admits this link is inferred from the name.", "fix": "Keep the Coin Shop 486-coin listing for 'Wolfy Hair Style Card' (video:1xtVveaQ3XI/00128.jpg, confirmed; locale 114562 'Wolfy Hair Style Card' confirmed). Label the card-to-hair-item link as name-inferred, not evidenced. Note the frame date is unknown."}]}

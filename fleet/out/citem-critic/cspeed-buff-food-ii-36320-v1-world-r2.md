@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cspeed-buff-food-ii-36320-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3835, 11463, 6, 1144] model=claude-haiku-5-5 -->
+# Speed Buff Food II
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[5]", "issue": "The Charge / Frostfang Cavern and bixie-quest link is speculation. It sits in the evidence list, not in open, and the client lines (locale 36315-36317, 36324, 36325) only sit near the name in the locale table. Nothing ties Speed Buff Food to them.", "fix": "Keep it as an unverified lead only, under open. Do not treat locale 36325 'Frostfang Cavern - Charge Buff' as a source. Re-checked: lookup of 'Speed Buff Food' across client, wiki, articles and video returns only the five client item names (locale 36319-36323) and the unrelated food descriptions (97392, 97382, 97391, 442508). No quest, vendor, drop or price names the set."}]}

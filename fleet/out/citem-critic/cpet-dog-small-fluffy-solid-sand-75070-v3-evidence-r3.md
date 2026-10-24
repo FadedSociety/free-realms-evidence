@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpet-dog-small-fluffy-solid-sand-75070-v3-evidence-r3 status=done turns=2 usd=0.0024 tokens(read,write,in,out)=[3993, 12623, 6, 1506] model=claude-haiku-5-5 -->
+# Pet: Dog: Small Fluffy: solid-sand
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "The 'Small Fluffy' lookup list cites locale:6246 (internal asset name) as a hit. The automatic id check flags it as a dev_note, so it is not live evidence. Listing it beside the live hits blurs that line. (My client lookup did not return 6246; the 6246 citation rests only on the answer's own lookup.)", "fix": "Drop locale:6246 from the list, or label it explicitly as a flagged dev_note that is not evidence. The unflagged hits are locale:147585 (Illusion: Dog Small Fluffy - 30 minutes), locale:382774 (Small fluffy dog), locale:3134 and locale:150833 (Small Fluffy Dog food)."}]}

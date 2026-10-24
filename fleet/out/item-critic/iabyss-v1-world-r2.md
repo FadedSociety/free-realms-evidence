@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iabyss-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3414, 4118, 6, 829] model=claude-haiku-5-5 -->
+# Abyss
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the client text locale:429628 'Dark Abyss' is typed 'item' and says it is a hair-color appearance option. The lookup confirms the client tags it 'item - Dark Abyss' and that it sits in the character-creator Hair Color row. The answer leaves this open without saying how the item type is reconciled with the appearance option.", "fix": "Keep it as an unresolved note: the client types locale:429628 as 'item', but it appears only as a Hair Color option (video:-itStdznbPo/00002.jpg, /00004.jpg; ui_panel 'Continue Creating Character.jpg'). No vendor, quest, or Station Cash record names it, so it stays unwired and must not be merged into 'Abyss'."}]}

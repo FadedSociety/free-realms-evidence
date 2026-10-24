@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshort-sleeve-t-shirt-29956-v2-world-r2 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[13988, 10439, 8, 1650] model=claude-haiku-5-5 -->
+# Short-Sleeve T-Shirt
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "The video inventory frames show 'Short-Sleeve T-Shirt (Worth 27)' (confirmed in video:PvUWhApOxWQ/00108 and 00110). Reading 'Worth 27' as the sell-back value is an inference, not something the frame states. The answer labels it as matching, which is reasonable, but it should be marked as inferred.", "fix": "Keep the 'Worth 27' reading as an inference from stores.json sell_price_coins 27 (stores.json line 16141), not as a confirmed sell-back. Otherwise the coin-store source is correct: stores.json line 16141 gives item 76503, category 103, tint group 1, purchase 270, member 243, sell 27, no_sale false."}]}

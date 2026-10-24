@@ -1,0 +1,36 @@
+{
+ "title": "Elite Sneak Scout",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:130893 [npc_name | - | Elite Sneak Scout] 'Elite Sneak Scout'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:130893 [npc_name | - | Elite Sneak Scout] 'Elite Sneak Scout'",
+  "locale:130906 [quest_objective | - | Elite Sneak Scout] 'There are several elite sneak scouts hiding in the fort.  Prove that you can see through their trickery and reveal them!'"
+ ],
+ "client_cluster": [
+  "locale:130886 [quest_objective | Blackspore | Find Petra] \"Petra is north of Mire's Edge in Blackspore. Find her and deliver Virgil's job offer.\"",
+  "locale:130887 [quest_title | - | PCA Trickster Mailbox Attack] 'PCA Trickster Mailbox Attack'",
+  "locale:130890 [quest_dialog | Blackspore | Find Petra] \"I haven't heard back from <font color='#D9781A'>Petra</font> yet. Did you deliver my message?<BR><BR>Oh, you're having trouble finding her? She's <font color='#\"",
+  "locale:130892 [npc_dialog | - | Bacala] 'I am checking to make sure the plants have adequate water. '",
+  "locale:130893 [npc_name | - | Elite Sneak Scout] 'Elite Sneak Scout'",
+  "locale:130895 [npc_dialog | - | Bacala] 'Mistress Bacala would be furious if I let any of the plants wither!'",
+  "locale:130896 [quest_dialog | Blackspore | Find Petra] \"Did you get my offer to <font color = '#D9781A'>Petra</font>?<BR><BR>Oh, well are you having trouble finding her? I know she's out in the swamp to the <font col\"",
+  "locale:130899 [npc_dialog | - | Three Leaf Strike] 'Oh well, now we have to fight!  Face my attack of the three leaves!'",
+  "locale:130900 [ability | - | Three Leaf Strike] 'Three Leaf Strike'",
+  "locale:130901 [other | - | Three Leaf Strike | FLAG dev_note: internal fort label] ' forest troll fort 43: three leaf strike'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

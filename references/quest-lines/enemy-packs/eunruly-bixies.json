@@ -1,0 +1,33 @@
+{
+ "title": "Unruly Bixies",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\bixie_hive.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:408547 [quest_dialog | - | unruly bixies] \"Did you <font color='#d9781A'>knock out</font> those <font color='#d9781A'>unruly bixies</font> yet?<BR><BR>The queen needs her daily dose of calcium and refuse\""
+ ],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:0usiXDsUYhk/00024.jpg (-): quest:   Save the Queen from unruly Bixies.  | other_text: Goals (1)",
+  "video:0usiXDsUYhk/00040.jpg (-): npcs: Unruly Elite nameplate  | quest:   Save the Queen from unruly Bixies.  | other_text: Goals (1)",
+  "video:0usiXDsUYhk/00018.jpg (-): quest:   Save the Queen from unruly Bixies.  | landmarks: rust-red rock canyon | other_text: Goals (1)",
+  "video:5_U-uAzDuR4/00028.jpg (Bixie Hive): quest:   Save the Queen from unruly Bixies. Bonus: Save the Frightened Bixie Workers! - ?/4  | job_level: Brawler 9",
+  "video:5_U-uAzDuR4/00076.jpg (Bixie Hive): quest:   Save the Queen from unruly Bixies. Bonus: Save the Frightened Bixie Workers! - ?/4  | job_level: Brawler 9"
+ ],
+ "article_facts": [
+  "fact:quest: Sunflower explains that Drone Fauzz led an uprising of unruly bixies and captured the queen; the main objective is rescuing Queen Bixie, with bonus credit for freeing frightened workers. | Drone Fauzz has led an uprising of unruly bixies and captured the queen (http://www.tentonhammer.com:80/node/67379)",
+  "fact:event: In the story behind the card, unruly Bixies have invaded the Bixie Hive and captured the Bixie Queen's workers; players defeat creatures such as the Invading Bixie Elite to save them. | Some unruly Bixies have invaded the Bixie Hive and captured her workers. (http://www.freerealms.com:80/article/detail.action?articleId=209)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Contract: All Around Win' (final): As an archer, defeat Hooligan Delinquents that wander the wilderness, and some Unruly Bixies in the Bixie Hive. Return t"
+ ]
+}

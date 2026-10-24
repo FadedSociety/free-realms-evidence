@@ -1,0 +1,60 @@
+{
+ "title": "Goldcrusher",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_rumbledome.json"
+  },
+  {
+   "file": "dungeons\\the_rumbledome.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:410353 [npc_name | - | Goldcrusher | FLAG fragment: partial name (Geothem Goldcrusher)] 'Goldcrusher'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:410353 [npc_name | - | Goldcrusher | FLAG fragment: partial name (Geothem Goldcrusher)] 'Goldcrusher'",
+  "locale:410434 [quest_objective | - | Goldcrusher] 'Goldcrusher is the current champion of the Rumbledome!  Knock him out to become the rumbledome champion!'",
+  "locale:412135 [npc_dialog | - | Goldcrusher] 'Entering the dome is the one, the only... Goldcrusher!'",
+  "locale:412136 [npc_dialog | - | Goldcrusher] 'The Goldcrusher is looking winded!  Could this be the fight that actually dethrones him!?'",
+  "locale:412137 [npc_dialog | - | Goldcrusher] \"You sure showed him, [*player*]!  Rest up, the next fight won't be so easy.\"",
+  "locale:412139 [npc_dialog | - | Goldcrusher] \"I can't beleive it! The goldcrusher has been knocked out!\"",
+  "locale:412140 [npc_dialog | - | Goldcrusher] 'Congratulations to our new champion of the rumble dome!'",
+  "locale:412141 [npc_dialog | - | Goldcrusher] 'Whoa, you really are something!  Way to go!  Gather your strength now, because you are about to face Goldcrusher, the rumbledome champion!'",
+  "locale:412284 [quest_dialog | - | Goldcrusher] \"This is the big one.  Goldcrusher is a mean one, but if you're smart I think you can take him down.  Try to get him near the traps…he really hates those traps.\"",
+  "locale:412285 [quest_dialog | - | Goldcrusher] \"I can't believe it, [*player*]!  You might actually be the greatest fighter that the rumbledome has ever seen.  Well done!\""
+ ],
+ "client_cluster": [
+  "locale:410345 [npc_name | - | -] 'Kraig'",
+  "locale:410347 [quest_objective | Snowhill | Lucca De'Flor] \"Return the ingredients to Lucca De'Flor in Snowhill.\"",
+  "locale:410348 [npc_name | - | -] 'Krissy'",
+  "locale:410349 [quest_objective | Snowhill | Chip Numbwing] 'Deliver to Chip Numbwing'",
+  "locale:410350 [quest_objective | Snowhill | Chip Numbwing] 'Deliver the catch of the day!'",
+  "locale:410351 [quest_objective | Snowhill | Cap'n Sigmundr] \"Deliver to Cap'n Sigmundr\"",
+  "locale:410353 [npc_name | - | Goldcrusher | FLAG fragment: partial name (Geothem Goldcrusher)] 'Goldcrusher'",
+  "locale:410356 [npc_name | - | -] 'Announcer'",
+  "locale:410357 [other | - | Banana | FLAG joke: food gag, not a quest or item line] 'Banana'",
+  "locale:410359 [npc_name | - | -] 'Combat Dummy'",
+  "locale:410360 [npc_dialog | - | Announcer] 'Welcome all!  Another exciting match is about to begin in the rumbledome!'",
+  "locale:410361 [npc_dialog | - | -] \"No means no. I'm not going to deal with some city slicker who doesn’t know the meaning of speed.\""
+ ],
+ "wiki": {
+  "title": "Goldcrusher",
+  "text": "Goldcrusher is a dwarf enemy NPC that players fight in the Rumbledome, located in Sunstone Valley. He is the champion of the Rumbledome and a Skullz commander whose allegiance is with the Skullz. The Rumbledome announcer states that prior to the battle, Goldcrusher needs no introduction, but some people say that he was born in the Rumbledome itself.\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Dwarves\nCategory:Skullz\nCategory:Sunstone Valley"
+ },
+ "images": [],
+ "video": [
+  "video:MGbXhwbWFV4/00154.jpg (The Rumbledome): npcs: Goldcrusher nameplate  Announcer chat_speaker  | dialog: Announcer: The champion of the Rumbledome - GOLDCRUSHER! | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00156.jpg (The Rumbledome): npcs: Goldcrusher nameplate  Announcer chat_speaker  | dialog: Announcer: The champion of the Rumbledome - GOLDCRUSHER! | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00168.jpg (The Rumbledome): npcs: Goldcrusher nameplate  | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00172.jpg (The Rumbledome): npcs: Goldcrusher nameplate  | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

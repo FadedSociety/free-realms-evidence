@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-81425 status=nothing_found turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 6480, 4, 526] model=claude-haiku-5-5 -->
+# Loremaster's Corner #4: Is Blizzard rewriting the history for Cataclysm? | Ten Ton Hammer
+
+{"article": {"title": "Loremaster's Corner #4: Is Blizzard rewriting the history for Cataclysm?", "date": "2010-02-25", "author": "Xerin", "type": "other"}, "about_free_realms": false, "summary": "This Ten Ton Hammer editorial is about World of Warcraft: Cataclysm and whether its revamp will retcon existing WoW lore. Free Realms appears only in the site's navigation sidebar (a 'Most Popular' ranking and an MMO list), not in the article, so it gives a Free Realms rebuilder nothing usable.", "facts": [], "quests": [], "uncertain": ["Free Realms is mentioned only in site navigation boilerplate (Most Popular list and MMO selector), not in the article body."]}

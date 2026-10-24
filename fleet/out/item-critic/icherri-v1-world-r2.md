@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icherri-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3082, 5341, 6, 962] model=claude-haiku-5-5 -->
+# Cherri
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "Cherri is an NPC, not an item, so kind 'other' with no sources is a reasonable outcome for an item brief. The wiki (categories NPC, Females, Human, Seaside), client npc_name locale:101210, and quest objective locale:101201 ('Give Cherri a Brain Freeze!') all agree. No wiki coin, Station Cash or IGD entry, and no vendor or reward row exists for Cherri.", "fix": "No change required. Optionally note in the open list that the brief's item is not 'Cherri'. The Brain Freeze Mix-up giver and reward are unestablished per repo notes (prototype/osfr-tools/data/content/npcs/seaside.json:5072: 'its giver and zone are not established'), so no reward source can be added."}]}

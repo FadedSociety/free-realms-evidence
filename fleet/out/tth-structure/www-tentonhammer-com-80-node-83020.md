@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-83020 status=nothing_found turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 5946, 4, 579] model=claude-haiku-5-5 -->
+# EQ2 Alternate Advancement Basics Update | Ten Ton Hammer
+
+{"article": {"title": "EQ2 Alternate Advancement Basics Update", "date": "2010-04-01", "author": "Savanja", "type": "guide"}, "about_free_realms": false, "summary": "This Ten Ton Hammer page is an EverQuest II guide update about Alternate Advancements and how achievement experience is earned after level cap. It does not mention Free Realms beyond a site sidebar line showing Free Realms' popularity ranking, so it gives a Free Realms rebuilder nothing usable.", "facts": [], "quests": [], "uncertain": ["The only Free Realms reference is a 'Recently Popular' ranking in site navigation ('Free Realms up 21 to #16'), which is site boilerplate, not a game fact. The page's capture date (2010-05-30) and ranking are not game data."]}

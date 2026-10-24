@@ -1,0 +1,134 @@
+{
+ "title": "House Party",
+ "names_seen": [
+  "House Party"
+ ],
+ "facts": [
+  {
+   "statement": "The Community Team created a special character named 'House Party' that players add to their Friends List during the event; he teleports to featured houses and players can teleport to him when he moves.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Add him to your Friends List during the event. He will teleport to the featured houses.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1209",
+   "date": null
+  },
+  {
+   "statement": "Community House Party event held on Tuesday, September 13, meeting in Sanctuary to visit decorated player homes throughout Free Realms.",
+   "numbers": {
+    "event_day": 13,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "On Tuesday, September 13th, we'll meet up in Sanctuary (see the map below), party and visit decorated homes throughout Free Realms !",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2262",
+   "date": null
+  },
+  {
+   "statement": "The event ran at 4pm Pacific Time for U.S. and Latin America, and at 9:30am Pacific / 4:30pm GMT for UK and Europe, both on Server 1.",
+   "numbers": {
+    "us_start_hour_pt": 16,
+    "uk_eu_start_hour_pt": 9.5
+   },
+   "era": "live",
+   "quote": "4pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2262",
+   "date": null
+  },
+  {
+   "statement": "A Community Team special character named \"House Party\" teleports to featured houses during the event; players can add him to Friends List and teleport to him each time he moves to a new house.",
+   "numbers": {},
+   "era": "live",
+   "quote": "He will teleport to the featured houses. You can teleport to him each time he moves to a new house!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2286",
+   "date": null
+  },
+  {
+   "statement": "Community House Party event on Tuesday, September 20th, meeting in Sanctuary to visit decorated player homes; held on Server 1.",
+   "numbers": {
+    "start_pacific_us_latam_hour": 16,
+    "start_pacific_uk_europe_hour_gmt": 16.5
+   },
+   "era": "live",
+   "quote": "On Tuesday, September 20th, we'll meet up in Sanctuary",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2270",
+   "date": "2011-09-13"
+  },
+  {
+   "statement": "A Community Team character named 'House Party' teleports to featured houses; players can add him to Friends List during the event and teleport to him each time he moves.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Add him to your Friends List during the events. He will teleport to the featured houses.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2270",
+   "date": "2011-09-13"
+  },
+  {
+   "statement": "Community House Party event held on Sunday, September 18, 2011, at 3pm Pacific Time (U.S. and Latin America) on Server 1, where players meet in Sanctuary and tour decorated homes.",
+   "numbers": {
+    "start_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "On Sunday, September 18th, we'll meet up in Sanctuary (see the map below), party and visit decorated homes throughout Free Realms",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2269",
+   "date": "2011-09-18"
+  },
+  {
+   "statement": "A community character named 'House Party' was created by the Community Team; players add him to their Friends List during the event and he teleports to featured houses, and players can teleport to him when he moves.",
+   "numbers": {},
+   "era": "live",
+   "quote": "He will teleport to the featured houses. You can teleport to him each time he moves to a new house!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2269",
+   "date": "2011-09-18"
+  },
+  {
+   "statement": "The weekly House Party event is a Community Team celebration where a tour of decorated homes is given; the event's start times were 9:30 a.m. Pacific (4:30pm GMT) for UK and Europe and 4:00 p.m. Pacific for U.S. and Latin America.",
+   "numbers": {
+    "start_time_pacific_uk_europe_am": 9.5,
+    "start_time_pacific_us_latam_pm": 4.0
+   },
+   "era": "live",
+   "quote": "9:30 a.m. Pacific Time / 4:30pm GMT",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2492",
+   "date": "2012-01-24"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1209",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com community event notice announcing a recurring 'House Party Tuesday' in which players meet in Sanctuary and visit decorated player homes, with a special 'House Party' character teleporting to featured houses. The first listed session was Tuesday April 6, 2010 at 3pm Pacific Time on Server 1. The post date is not stated exactly (only a relative 'posted 2 weeks, 2 days ago')."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2262",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A SOE community-event notice announcing a 'House Party' event on Tuesday, September 13 in Sanctuary, where players tour decorated player homes. A special Community Team character named 'House Party' teleports to featured houses and can be added to the Friends List; players can teleport to him when he moves. The article gives no post date beyond a relative 'posted 2 weeks, 6 days ago'."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2286",
+   "date": null,
+   "title": "Community Event: House Party Tuesday",
+   "summary": "A Community Team event announcement: on Tuesday, October 3rd, players meet in Sanctuary for a House Party tour of decorated player homes. A special Community character named \"House Party\" teleports to featured houses, and players can teleport to him when he moves. The page gives times for two server groups, and the year is not stated on the page."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2270",
+   "date": "2011-09-13",
+   "title": "Free Realms - What is New?",
+   "summary": "A Community Event announcement: a 'House Party' tour on Tuesday, September 20th (Server 1) where players meet in Sanctuary and visit decorated player homes. A Community Team character named 'House Party' teleports to featured houses, and players can add him to their Friends List and teleport to him when he moves. Events are listed in the in-game activity calendar."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2269",
+   "date": "2011-09-18",
+   "title": "Community Event: House Party on Sunday!",
+   "summary": "A Community Team event announcement (page titled in Spanish, body in English) for a House Party on Sunday, September 18, 2011, at 3pm Pacific Time on Server 1. Players were to meet in Sanctuary and tour decorated player houses, guided by a community character named House Party who teleports to featured houses. The article date is inferred from the event date; the posting date is not shown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2492",
+   "date": "2012-01-24",
+   "title": "Free Realms - What is New?",
+   "summary": "A SOE community news post announcing a special Wilds Condo Tuesday edition of the weekly House Party community event on Tuesday, January 31, 2012, in Sanctuary on Server 1. Players were invited to show off their newly assigned Wilds Condo, and the Community Team's House Party character would move between homes for teleporting."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

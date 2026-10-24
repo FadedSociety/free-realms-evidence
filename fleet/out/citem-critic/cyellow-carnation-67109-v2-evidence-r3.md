@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cyellow-carnation-67109-v2-evidence-r3 status=no_submit turns=4 usd=0.0020 tokens(read,write,in,out)=[16569, 9064, 10, 1383] model=claude-haiku-5-5 -->
+# Yellow Carnation
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] (wiki List of Collections citation)", "issue": "I could not confirm that the wiki's List of Collections lists a Carnations collection in a Flora section. The page exists, but my lookup returned only its Robgoblin and medal sections, and I did not see the rev 27852 text the claim relies on. The claim is not contradicted, but it is unverified.", "fix": "Keep it only as a wiki-page reference, or re-check the Flora list in the page text before citing it. The collection name itself is supported by locale 67552 'Carnations'."}]}

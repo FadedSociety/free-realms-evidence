@@ -1,0 +1,36 @@
+{
+ "title": "Presidents' Day promotions",
+ "names_seen": [
+  "Presidents' Day promotions"
+ ],
+ "facts": [
+  {
+   "statement": "SOE announced special offers for Free Realms as part of a Presidents' Day weekend promotion across several of its games, beginning February 18.",
+   "numbers": {
+    "start_day_of_february": 18
+   },
+   "era": "live",
+   "quote": "Free Realms™, PoxNora™, Magic the Gathering - Tactics™, y Wildlife Refuge™ encontraran ofertas especiales exclusivas para cada juego empezando el 18 de febrero",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2038",
+   "date": null
+  },
+  {
+   "statement": "Promotions across the listed SOE games, including Free Realms, were said to include bonus XP days, item discounts, and some new items; the post does not specify which offers applied to Free Realms.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Algunas ofertas incluyen Días Bonus XP, otros obtendrán descuentos en artículos, y algunos introducirán nuevos artículos.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2038",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2038",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This is a Spanish-language SOE site-wide news post announcing Presidents' Day weekend promotions across many SOE games, starting February 18. Free Realms is one of the listed games; the post gives no Free Realms-specific details beyond that offers include bonus XP days, item discounts and some new items. The year is not stated in the text."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

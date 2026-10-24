@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-piece-077-rs-L1 status=done turns=12 usd=0.0116 tokens(read,write,in,out)=[236510, 43085, 26, 7610] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_077.rs lines 1-383 of 383
+
+Window: `tests/piece_077.rs` 1-383 (whole file), with `src/restoration/piece_077.rs` read for the code under test. Most tests hold up: the opcode and codec assertions check independent literals, the malformed-body cases match `expect_exact` and the `[90,0,9,0,0]` case decodes as opcode 90 plus 3 body bytes, the reply-length and terminator checks match `decode_point_of_interest_*`, and the locked/unknown/non-warpstone cases exercise the real gates in `zone_teleport`. Two findings:
+
+- **[medium] tests/piece_077.rs:82 captured_teleport_requests_decode_and_re_encode_byte_exactly - the "pinned" capture hash is only checked for length 64, so the test never ties the hand-typed hex to the capture it claims to reproduce.**
+  - Why it cannot catch a regression: a change to any `request_body_hex` or `reply_message_hex` value in `CAPTURED_TELEPORT_SAMPLES` (src/restoration/piece_077.rs:500-562), or a swapped `capture_sha256`, still passes as long as the hex round-trips through the codec and the hash is 64 characters. The captures are not in `repo` (no sha256 match under `refs`), so nothing in the suite checks the samples against the recorded frames.
+  - Fix: pin the hash itself, e.g. compare the sample's `capture_sha256` to a known constant per capture file, or hash the source frame bytes when the capture is present and fail (not skip) when it is missing. At minimum, assert that all samples sharing a `capture` name carry the same hash, which would catch a copy-paste error.
+
+- **[low] tests/piece_077.rs:280-290 locked_destination_is_rejected_until_attuned - the comment says the relocation is "byte for byte" the captured `38/12` body, but the test only compares the first three lanes of position and rotation.**
+  - Why it cannot catch a regression: a change to `arrival` that alters the trailer or the W lane, or to how `relocation` maps to the outgoing `38/12` body, passes this test because the W lane and the teleport flag are never compared. The comment overstates what is checked.
+  - Fix: either correct the comment to "position and facing match the captured spawn", or assert `UpdateLocation { position: [..4] from the relocation with W=1.0, rotation: ..., teleport: true, trailer: sent.trailer }.encode_message() == unhex(captured.reply_message_hex)`, which would fail on any lane or trailer drift.

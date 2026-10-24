@@ -1,0 +1,30 @@
+{
+ "title": "Japan Earthquake & Tsunami Relief fundraiser",
+ "names_seen": [
+  "Japan Earthquake & Tsunami Relief fundraiser"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms joined an SOE fundraiser in which players could buy Cherry Blossom items, with SOE donating $10 per item sold to the American Red Cross.",
+   "numbers": {
+    "donation_per_item_usd": 10,
+    "start_day_march": 25,
+    "end_day_march": 28
+   },
+   "era": "live",
+   "quote": "From Friday, March 25th through Monday, March 28th, our players will be invited to purchase specially created Cherry Blossom items",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2066",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2066",
+   "date": null,
+   "title": "Free Realms - What is New? (Support the Japan Earthquake & Tsunami Relief Effort)",
+   "summary": "An SOE news post announcing a fundraiser after the 2011 Japan earthquake and tsunami. Free Realms took part by selling a Cherry Blossom Tree for 500 Station Cash and by offering Cherry Blossom items in the in-game marketplace from March 25 to March 28, with SOE donating $10 per item sold to the American Red Cross. The post is a capture of a page dated about one week before the 2011-04-02 capture; the exact posting date is not shown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

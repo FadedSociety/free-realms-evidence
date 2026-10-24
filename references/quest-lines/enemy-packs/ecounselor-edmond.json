@@ -1,0 +1,61 @@
+{
+ "title": "Counselor Edmond",
+ "our_entries": [
+  {
+   "file": "dungeons\\bigfoot_defender.json",
+   "definition_id": 930004
+  },
+  {
+   "file": "npcs/greenwood_forest.json",
+   "npc_id": 9500000297,
+   "zone": "Greenwood Forest",
+   "enemy_kind": "Camp Chatty counselor, a pixie male (wiki). Main giver of the Bigfoot hunt. Enemy in Bigfoot Defender.",
+   "location_evidence": [
+    "Camp Chatty; Edmond is also an ally inside Bigfoot's Lair. [video: nameplate and dialog headers on 23 frames, s4q4D_xmPoU/00024, /00154, L27vxozHOls/00296]"
+   ]
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:428934 [npc_name | - | Counselor Edmond] 'Counselor Edmond'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:428934 [npc_name | - | Counselor Edmond] 'Counselor Edmond'",
+  "locale:429069 [quest_objective | - | Counselor Edmond] 'Return to Counselor Edmond'"
+ ],
+ "client_cluster": [
+  "locale:428926 [ability | - | Vampiric Wrath] 'Damages all nearby opponents and drains some of their health.'",
+  "locale:428927 [ability | - | Vampiric Wrath Proc] 'Vampiric Wrath Proc'",
+  "locale:428928 [ability | - | Vampiric Wrath Proc] 'Lifetap effect granted by the Vampirc Wrath ultra attack.'",
+  "locale:428929 [npc_name | - | Greenwood Bear] 'Greenwood Bear'",
+  "locale:428930 [npc_name | - | Bigfoot] 'Bigfoot'",
+  "locale:428931 [npc_name | - | Counselor Kaela] 'Counselor Kaela'",
+  "locale:428932 [npc_name | - | Counselor Tyra] 'Counselor Tyra'",
+  "locale:428934 [npc_name | - | Counselor Edmond] 'Counselor Edmond'",
+  "locale:428935 [npc_name | - | Counselor Jake] 'Counselor Jake'",
+  "locale:428938 [quest_dialog | - | Bigfoot] 'Hey! Did Chatty send you to help?'",
+  "locale:428939 [quest_objective | - | Bigfoot] 'Bigfoot is just up ahead... '",
+  "locale:428940 [quest_dialog | - | Bigfoot] \"If you think we can take him I'll get your back.\"",
+  "locale:428941 [quest_dialog | - | Bigfoot] 'But the others would help out a lot.'",
+  "locale:428942 [ability | - | Pulse | FLAG fragment: ability name only] 'Pulse'"
+ ],
+ "wiki": {
+  "title": "Counselor Edmond",
+  "text": "Counselor Edmond is a pixie NPC that can be found in the perimeters of Camp Chatty, located in the Greenwood Forest.\n\nHe is also an enemy NPC in Bigfoot Defender. He is with Jake, Tyra, and Kaela to find and hurt Bigfoot.\n\nQuests\nQuest:Camp Troubles\nQuest:Confronting Bigfoot\nQuest:Putting Your Foot Down (repeatable)\n\nAppearances\nQuest:Meet and Greet\nQuest:Camp Troubles\nQuest:Confronting Bigfoot\nBigfoot's Lair\nQuest:Putting Your Foot Down\nBigfoot Defender\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Pixie\nCategory:Quest Givers\nCategory:Camp Chatty\nCategory:Greenwood Forest"
+ },
+ "images": [],
+ "video": [
+  "video:L27vxozHOls/00280.jpg (-): npcs: Counselor Edmond nameplate  Counselor Tyra nameplate  | quest: Confronting Bigfoot  Confront Bigfoot and see what he wants Confront Bigfoot (done) Speak to Counselor Edmond (done) Return to Chatty  | job_level: Archer 20 | other_text: Goal Complete Confronting Bigfoot Speak",
+  "video:s4q4D_xmPoU/00222.jpg (-): npcs: Counselor Edmond dialog_header  Robbie nameplate  | dialog: Robbie: ...if it weren't for you meddling campers! Counselor Edmond: Umm... yeah... whatever. Counselor Edmond: Let's go back to camp and tell everyone it's safe. | quest:   Defeat Bigfoot!  | landmarks: Exit (17m ",
+  "video:s4q4D_xmPoU/00204.jpg (Bigfoot's Lair): npcs: Counselor Edmond dialog_header  Robbie dialog_header  | dialog: Robbie: Yeah yeah... it was me... Counselor Edmond: But why? Robbie: If I scared off all of the campers... Robbie: then I could keep all of the hidden treasure! | quest: Confronting Bigfoot  Speak to Counselor ",
+  "video:L27vxozHOls/00296.jpg (-): npcs: Counselor Edmond nameplate  | quest: Confronting Bigfoot  Confront Bigfoot Speak to Counselor Edmond Return to Chatty Talk to Bob  | landmarks: campfire with stone ring orange tent | job_level: Archer 20 | other_text: Confront Bigfoot and see what he wants Take Me There",
+  "video:s4q4D_xmPoU/00198.jpg (Bigfoot's Lair): npcs: Counselor Edmond dialog_header  Robbie dialog_header  | dialog: Robbie: Ow ow ow! I give up! Counselor Edmond: Robbie!? You were Bigfoot!? Robbie: Yeah yeah... it was me... | quest:   Defeat Bigfoot!  | job_level: Warrior 8 | other_text: Exit (marker 19m)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "giver of 'Camp Troubles' (unresolved, zone Greenwood Forest (Camp Chatty, southwest Wilds edge))",
+  "giver of 'Confronting Bigfoot' (final, zone Greenwood Forest (Camp Chatty; the Bigfoot's Lair battle is entered from the southwest Wilds near camp))",
+  "talk target in 'Meet and Greet' (final): Speak to Counselor Edmond",
+  "giver of 'Putting Your Foot Down' (final, zone Camp Chatty (giver location, Greenwood Forest perimeter). Bigfoot's Lair battle entrance: southwest Wilds near Camp Chatty (repo:notes/Build Guides/Content/Dungeons/Bigfoot's Lair.md:3,20). Wiki says 'Southern Wilds'; treat as the same area.)"
+ ]
+}

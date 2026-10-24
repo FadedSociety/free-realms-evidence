@@ -1,0 +1,22 @@
+{
+ "title": "Vileblooms",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\bristlewood_glade.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:139488 [quest_objective | - | Vileblooms] 'Defeat all 4 Vileblooms!'"
+ ],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

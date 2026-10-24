@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ijunior-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3338, 5832, 6, 1041] model=claude-haiku-5-5 -->
+# Junior
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "The answer says the dialog at 420201-420204 is 'kart-race quest dialog from his comic appearance'. The client text shows those lines are spoken by Junior in a kart-reward context (Elvis, reward coins, enhancements on the kart), but nothing in the pack ties them to the comic rather than to a live in-game quest. The attribution is an inference.", "fix": "Say only that locale 420201-420204 are Junior's kart-related quest_dialog lines (locale:420201-420204). Whether they belong to a live quest or to the comic is not evidenced here."}]}

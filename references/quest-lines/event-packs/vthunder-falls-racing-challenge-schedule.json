@@ -1,0 +1,45 @@
+{
+ "title": "Thunder Falls Racing Challenge schedule",
+ "names_seen": [
+  "Thunder Falls Racing Challenge schedule"
+ ],
+ "facts": [
+  {
+   "statement": "The event ran on Server 1 on Thursday January 27, 2011 at 3pm Pacific Time for U.S. and Latin America.",
+   "numbers": {
+    "date_year": 2011,
+    "date_month": 1,
+    "date_day": 27,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday January 27, 2011 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2009",
+   "date": null
+  },
+  {
+   "statement": "A second run was held on Server 1 on Friday January 28, 2011 at 9:00am Pacific Time (4:00pm GMT) for UK and Europe.",
+   "numbers": {
+    "date_year": 2011,
+    "date_month": 1,
+    "date_day": 28,
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday January 28, 2011 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2009",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2009",
+   "date": null,
+   "title": "Community Event: Thunder Falls Racing Challenge",
+   "summary": "A Free Realms Community Event page announcing a player-versus-player kart race at Thunder Falls Speedway, held on Server 1 on January 27, 2011 (U.S./Latin America) and January 28, 2011 (UK/Europe). It explains how to join or create a race lobby and how to set up a PvP race with AI turned off. The post date is not given; it is only described as 1 month, 1 week before capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

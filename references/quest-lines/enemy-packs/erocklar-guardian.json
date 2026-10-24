@@ -1,0 +1,38 @@
+{
+ "title": "Rocklar Guardian",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\precursor_ruins.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:407488 [npc_name | - | Rocklar Guardian] 'Rocklar Guardian'",
+  "locale:5102884 [npc_name | - | Rocklar Guardian] 'Rocklar Guardian'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:407488 [npc_name | - | Rocklar Guardian] 'Rocklar Guardian'",
+  "locale:5102884 [npc_name | - | Rocklar Guardian] 'Rocklar Guardian'"
+ ],
+ "client_cluster": [
+  "locale:407482 [npc_name | Precursor Ruins | Skittering Tarantula] 'Skittering Tarantula'",
+  "locale:407483 [npc_name | Precursor Ruins | Agitated Tarantula] 'Agitated Tarantula'",
+  "locale:407484 [npc_name | Precursor Ruins | Leaping Tarantula] 'Leaping Tarantula'",
+  "locale:407485 [place | Precursor Ruins | Tarantula Tunnel] 'Tarantula Tunnel'",
+  "locale:407486 [item | - | Rocklar Power Artifact] 'Rocklar Power Artifact'",
+  "locale:407487 [npc_name | - | Rocklar Shaper] 'Rocklar Shaper'",
+  "locale:407488 [npc_name | - | Rocklar Guardian] 'Rocklar Guardian'",
+  "locale:407489 [npc_name | - | Garros] 'Garros'",
+  "locale:407490 [npc_name | - | Venoxa] 'Venoxa'",
+  "locale:407495 [quest_title | Precursor Ruins | Defeat the spider queen!] 'Defeat the spider queen!'",
+  "locale:407496 [quest_objective | Precursor Ruins | Defeat the spider queen!] 'Find and defeat the queen spider deep within the Precursor Ruins.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,1700 @@
+[
+ {
+  "name": "Gooplemoop's Kitten",
+  "locale_id": 39909,
+  "giver": "Gooplemoop",
+  "location": "Wugachug",
+  "steps": [
+   "Look around the village of Wugachug",
+   "Find Gertrude, Gooplemoop's lost kitten",
+   "Return to Gooplemoop"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1243",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1243",
+   "title": "Free Realms - What is New?",
+   "date": null
+  }
+ },
+ {
+  "name": "A la Rencontre de Michelou",
+  "locale_id": null,
+  "giver": "Michelou",
+  "location": "Wugachug, near the town hall",
+  "steps": [
+   "Find Michelou near the town hall in Wugachug",
+   "Help find his lost kitten Gertrude around the village"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1247",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1247",
+   "title": "Free Realms - What is New?",
+   "date": null
+  }
+ },
+ {
+  "name": "Cake bake-off sponsorship",
+  "locale_id": null,
+  "giver": "Camellia",
+  "location": null,
+  "steps": [
+   "Talk to Camellia to get more cupcakes",
+   "Talk to the chefs in the cake bake-off",
+   "Return to Camellia",
+   "Return to the chef you want to sponsor"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1282",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1282",
+   "title": "Ref Ruby's Birthday Party Guide - Part 2",
+   "date": null
+  }
+ },
+ {
+  "name": "Invitation contest",
+  "locale_id": 7595,
+  "giver": "Flitter",
+  "location": "next to Flitter",
+  "steps": [
+   "Pick up invitations next to Flitter",
+   "Hand out as many as you can and get some back",
+   "Return to Flitter once you have more invitations than Flitter"
+  ],
+  "rewards": [
+   "Special prize"
+  ],
+  "article": {
+   "id": "article-1282",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1282",
+   "title": "Ref Ruby's Birthday Party Guide - Part 2",
+   "date": null
+  }
+ },
+ {
+  "name": "Balloon collection",
+  "locale_id": 10083,
+  "giver": "Quills",
+  "location": "Sanctuary",
+  "steps": [
+   "Find Quills in Sanctuary",
+   "Trade balloons with other players for a blue, orange and green balloon",
+   "Give them to Quills"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1282",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1282",
+   "title": "Ref Ruby's Birthday Party Guide - Part 2",
+   "date": null
+  }
+ },
+ {
+  "name": "Feast ingredients",
+  "locale_id": null,
+  "giver": "Helga",
+  "location": null,
+  "steps": [
+   "Harvest extra ingredients for the feast",
+   "Deliver to Helga"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1282",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1282",
+   "title": "Ref Ruby's Birthday Party Guide - Part 2",
+   "date": null
+  }
+ },
+ {
+  "name": "Cakenstein battle",
+  "locale_id": 9043,
+  "giver": "General Glowlight",
+  "location": "Queensfields",
+  "steps": [
+   "Go to Queensfields and find Cakenstein",
+   "Start the battle"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1282",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1282",
+   "title": "Ref Ruby's Birthday Party Guide - Part 2",
+   "date": null
+  }
+ },
+ {
+  "name": "Cakenstein Attacks!",
+  "locale_id": 4917,
+  "giver": "Camellia",
+  "location": "Sanctuary; Happy Valley; Robgoblin Camp",
+  "steps": [
+   "Talk to Camellia at the Sanctuary to start the birthday celebration and get small cakes",
+   "Talk to Chef Jarvie in Happy Valley for more cakes and to fight the cake monsters for a sample",
+   "Return to Mayor Mac Fée, who sends you to look for the mysterious meat; Lucas de Fleur and Glerga are the leads",
+   "Gather ingredients from Glerga's list at the Robgoblin Camp and bring them back to make her cake",
+   "Taste Glerga's cake, which spawns Gâtostein",
+   "Stop Gâtostein and its cakelings with fireworks, defeating Gâtostein 7 times",
+   "Return to Glerga for a meat-free cake, then tell Camellia everything is fine"
+  ],
+  "rewards": [
+   "A cake, described as either a thank-you gift or a keep-quiet gift",
+   "A hat (not named in the article)"
+  ],
+  "article": {
+   "id": "article-1293",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1293",
+   "title": "Guide d'Anniversaire par l'Arbitre Ruby - Première Partie!",
+   "date": null
+  }
+ },
+ {
+  "name": "Birthday cake competition (sponsor a chef)",
+  "locale_id": 707,
+  "giver": "Camellia",
+  "location": "Sanctuary",
+  "steps": [
+   "Talk to Camellia again to get more small cakes",
+   "Talk to the chefs to get to know them, then return to Camellia",
+   "Go back to the chef you want to sponsor; one chef can be helped per day"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1300",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1300",
+   "title": "Guide d'Anniversaire par Arbitre Ruby: Deuxième Partie! (archived as 'Free Realms - What is New?')",
+   "date": null
+  }
+ },
+ {
+  "name": "Party invitations contest",
+  "locale_id": 4951,
+  "giver": "Papillonnette",
+  "location": null,
+  "steps": [
+   "Pick up invitations near Papillonnette",
+   "Invite many people",
+   "Receive more invitations than Papillonnette to earn a special prize"
+  ],
+  "rewards": [
+   "Special prize for out-inviting Papillonnette"
+  ],
+  "article": {
+   "id": "article-1300",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1300",
+   "title": "Guide d'Anniversaire par Arbitre Ruby: Deuxième Partie! (archived as 'Free Realms - What is New?')",
+   "date": null
+  }
+ },
+ {
+  "name": "Balloon exchange",
+  "locale_id": null,
+  "giver": "Plumette",
+  "location": "Sanctuary",
+  "steps": [
+   "Find Plumette at the Sanctuary",
+   "Trade with friends until you have a blue, orange and green balloon",
+   "Return the balloons to Plumette"
+  ],
+  "rewards": [
+   "Balloons for the party"
+  ],
+  "article": {
+   "id": "article-1300",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1300",
+   "title": "Guide d'Anniversaire par Arbitre Ruby: Deuxième Partie! (archived as 'Free Realms - What is New?')",
+   "date": null
+  }
+ },
+ {
+  "name": "Party food ingredients",
+  "locale_id": null,
+  "giver": "Helga",
+  "location": null,
+  "steps": [
+   "Gather extra ingredients for the party"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1300",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1300",
+   "title": "Guide d'Anniversaire par Arbitre Ruby: Deuxième Partie! (archived as 'Free Realms - What is New?')",
+   "date": null
+  }
+ },
+ {
+  "name": "Gâtostein battle",
+  "locale_id": 707,
+  "giver": "General Luminaire",
+  "location": "Prés des Fées (battle); Gâtostein is at Sanctuary",
+  "steps": [
+   "Go to Prés des Fées to find Gâtostein and start the epic battle"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1300",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1300",
+   "title": "Guide d'Anniversaire par Arbitre Ruby: Deuxième Partie! (archived as 'Free Realms - What is New?')",
+   "date": null
+  }
+ },
+ {
+  "name": "Seaside Summer Splash challenges",
+  "locale_id": 400812,
+  "giver": "Sizzlebottom, Tarisa Teaspoon, Heddy Heathcliff, Shelly Sandishoes, Grekel",
+  "location": "Seaside",
+  "steps": [
+   "Find the celebrants near the inn at Seaside and take on their challenges"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-137",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=137",
+   "title": "Free Realms - What is New?",
+   "date": "2009-07-02"
+  }
+ },
+ {
+  "name": "Mayor Gilly's Cray investigation",
+  "locale_id": 76199,
+  "giver": "Mayor Gilly",
+  "location": "Seaside",
+  "steps": [
+   "Speak to Mayor Gilly in Seaside, who asks you to explore the Cray Caves to find out why the Crays are aggressive."
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1379",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1379",
+   "title": "Free Realms - What is New?",
+   "date": null
+  }
+ },
+ {
+  "name": "Grottes aux Crustacés (Crustacean Caves investigation)",
+  "locale_id": null,
+  "giver": "Maire Gilles (Mayor Gilles)",
+  "location": "Criqueville; Crustacean Caves",
+  "steps": [
+   "Talk to Mayor Gilles",
+   "Explore the Crustacean Caves",
+   "Report your findings back to Mayor Gilles"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1386",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1386",
+   "title": "Free Realms - What is New?",
+   "date": null
+  }
+ },
+ {
+  "name": "Super Spooktacular daily quests",
+  "locale_id": null,
+  "giver": "Pucca De'Flor, Rubí, Guardia Bocadedragón, Cadi, Ikeo, Esquileto, Brujilda, Vladamir, Finkelstein, Crofti, Harry Halloween",
+  "location": "Pixiewood",
+  "steps": [
+   "Help Pucca De'Flor gather materials for caramel apples (east Pixiewood).",
+   "Find Rubí (west Pixiewood) to start her daily mission.",
+   "Help Guardia Bocadedragón find his lost candy.",
+   "Help Cadi with the greedy toads (west Pixiewood).",
+   "Help Ikeo find a werewolf costume.",
+   "Choose a bone from Esquileto.",
+   "Gather ingredients for Brujilda's potion.",
+   "Help Vladamir (west Pixiewood) with a vampire.",
+   "Bring Finkelstein ghostly essence to wake his girlfriend.",
+   "Bring Crofti bandages to complete his mummy costume."
+  ],
+  "rewards": [
+   "Daily rewards (not specified)"
+  ],
+  "article": {
+   "id": "article-1860",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1860",
+   "title": "Segundo Año de Super Spooktacular (Free Realms - What is New?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Vampires vs. Werewolves",
+  "locale_id": null,
+  "giver": "Madam Zelda",
+  "location": "Blackspore",
+  "steps": [
+   "Visit Madam Zelda in Blackspore to start the quest",
+   "Choose Vampires or Werewolves",
+   "Dance for the Pumpkin King outside Bone Bog Cemetery during the dance-off"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1862",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1862",
+   "title": "Vampires vs. Werewolves",
+   "date": null
+  }
+ },
+ {
+  "name": "Vampire vs. Werewolf side selection mission",
+  "locale_id": null,
+  "giver": "Madame Zelda",
+  "location": "Shadowbrook, on the road to Bone Marsh just south of the Cursed Mines",
+  "steps": [
+   "Visit Madame Zelda to start the mission and choose a side",
+   "After finishing the mission, go to Bone Marsh when the contest announcement appears",
+   "Wear vampire or werewolf costume pieces"
+  ],
+  "rewards": [
+   "A piece of the Pumpkin King's special cake for the winning side's supporters"
+  ],
+  "article": {
+   "id": "article-1866",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1866",
+   "title": "Vampiros vs. Hombres Lobos (Free Realms - What is New?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Vampire vs. Werewolf contest mission (start with Madame Zelda)",
+  "locale_id": null,
+  "giver": "Madame Zelda",
+  "location": "Shadowmoor (Esporaumbría), road south of the Cursed Mines",
+  "steps": [
+   "Visit Madame Zelda in Esporaumbría to start the mission",
+   "Choose the vampire or werewolf side",
+   "When the in-game dance contest announcement appears, go to the Ciénaga de los Huesos",
+   "Wear costume pieces of your chosen side"
+  ],
+  "rewards": [
+   "A piece of the Pumpkin Prince's special cake (for the winning side, per the article)"
+  ],
+  "article": {
+   "id": "article-1867",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1867",
+   "title": "Vampiros vs. Hombres Lobos (Free Realms - What is New?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Vampires vs. Werewolves dance contest (Madame Zelda quest)",
+  "locale_id": null,
+  "giver": "Madame Zelda",
+  "location": "Black Spore, near the Boneyard cemetery, just south of the Haunted Mines",
+  "steps": [
+   "Talk to Madame Zelda at Black Spore to start the quest and choose a side (vampires or werewolves).",
+   "Complete the quests.",
+   "When the in-game announcement says the dance is starting, go to the Boneyard cemetery wearing your Vampire or Werewolf costume."
+  ],
+  "rewards": [
+   "A piece of cake from the Pumpkin Prince for the side with the most fans (the winning side)"
+  ],
+  "article": {
+   "id": "article-1878",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1878",
+   "title": "Des Vampires contre les Loups-Garous! (Free Realms - What is New?)",
+   "date": null
+  }
+ },
+ {
+  "name": "The Gifting Tree",
+  "locale_id": null,
+  "giver": "Candi Ivy",
+  "location": "Snowhill",
+  "steps": [
+   "Speak to Candi Ivy every day to receive the daily quest"
+  ],
+  "rewards": [
+   "A present from the Gifting Tree"
+  ],
+  "article": {
+   "id": "article-1950",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1950",
+   "title": "Free Realms - What is New? (Snow Days Return)",
+   "date": null
+  }
+ },
+ {
+  "name": "Gifting Tree daily quest (L'Arbre à Cadeaux)",
+  "locale_id": null,
+  "giver": "Zena Lierre",
+  "location": "Snowhill",
+  "steps": [
+   "Talk to Zena Lierre every day to receive the Gifting Tree daily quests",
+   "Talk to Zena first to get a list of available quests"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-1955",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1955",
+   "title": "Le Retour des Jours Enneigés! (Free Realms - What is New?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Gifting Tree (daily)",
+  "locale_id": null,
+  "giver": "Alana Yedra",
+  "location": "Snowhill",
+  "steps": [
+   "Talk to Alana Yedra each day to get the daily Gifting Tree quest"
+  ],
+  "rewards": [
+   "A gift from the Gifting Tree"
+  ],
+  "article": {
+   "id": "article-1956",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1956",
+   "title": "Días de Nieve ah Regresado (Free Realms - What is New?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Gift Tree (Árbol de Regalos)",
+  "locale_id": null,
+  "giver": "Alana Yedra",
+  "location": "Snowhill",
+  "steps": [
+   "Talk to Alana Yedra each day to get the daily Gift Tree quest."
+  ],
+  "rewards": [
+   "A gift from the Gift Tree"
+  ],
+  "article": {
+   "id": "article-1957",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1957",
+   "title": "Días de Nieve ah Regresado (Free Realms - What is New?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Card duelist quest chain (Dominic)",
+  "locale_id": null,
+  "giver": "Poe Tatters",
+  "location": "Sanctuary (quest start); Briarwood (Dominic, Sir Wellington's dig site)",
+  "steps": [
+   "Play through the new quest with Dominic in Briarwood, helping Sir Wellington protect the archeological dig site",
+   "Meet new card duelists in the quest chain"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-200",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=200",
+   "title": "More Card Duelist Challenges Added",
+   "date": null
+  }
+ },
+ {
+  "name": "Cakenstein's Last Stand / Cakenstein Attacks!",
+  "locale_id": 4917,
+  "giver": "Camellia",
+  "location": "Sanctuary",
+  "steps": [
+   "Speak to Camellia near the great tree in Sanctuary to start the party quests (article)."
+  ],
+  "rewards": [
+   "Anniversary gifts such as balloon weapons, t-shirts and illusions (article)"
+  ],
+  "article": {
+   "id": "article-2107",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2107",
+   "title": "Free Realms - What is New? (Aniversário do FreeRealms!)",
+   "date": null
+  }
+ },
+ {
+  "name": "Chiller Boombox Quest Pack",
+  "locale_id": 114,
+  "giver": "Dani",
+  "location": "Pixiewood",
+  "steps": [
+   "Purchase the quest from the Marketplace",
+   "Challenge Dani in a TCG game"
+  ],
+  "rewards": [
+   "Chiller Boombox"
+  ],
+  "article": {
+   "id": "article-2304",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2304",
+   "title": "Spooktacular Returns",
+   "date": null
+  }
+ },
+ {
+  "name": "Pumpkin Costume Quest Pack",
+  "locale_id": null,
+  "giver": "Rose",
+  "location": "Pixiewood",
+  "steps": [
+   "Purchase the quest from the Marketplace",
+   "Challenge Rose in a TCG game"
+  ],
+  "rewards": [
+   "Jack-o-lantern costume"
+  ],
+  "article": {
+   "id": "article-2304",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2304",
+   "title": "Spooktacular Returns",
+   "date": null
+  }
+ },
+ {
+  "name": "Meet the Cardies",
+  "locale_id": null,
+  "giver": "Sam Potts (Card Duelist Trainer)",
+  "location": "downtown Sanctuary",
+  "steps": [
+   "Talk to Sam Potts for a free starter deck and voice-guided tutorial",
+   "Progress through the first quest line; characters cheat more in later lines"
+  ],
+  "rewards": [
+   "some rewards along the way (unspecified)"
+  ],
+  "article": {
+   "id": "article-2734",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2734",
+   "title": "Free Realms TCG Card Duelist Quests Are FREE TO PLAY!",
+   "date": null
+  }
+ },
+ {
+  "name": "Shattered Past",
+  "locale_id": null,
+  "giver": "Sir Wellington",
+  "location": "outside the Vale of the Ancients in Bristlewood",
+  "steps": [
+   "Reach level 20 Card Duelist and finish the first release's quests",
+   "Play card games against characters seeking pieces of an artifact around Free Realms"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-2734",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2734",
+   "title": "Free Realms TCG Card Duelist Quests Are FREE TO PLAY!",
+   "date": null
+  }
+ },
+ {
+  "name": "Baron von Darkcheat",
+  "locale_id": 294,
+  "giver": "Tyrone Shadowshard",
+  "location": "Blackspore Swamp (Snowhill threatened)",
+  "steps": [
+   "Finish the first line and Shattered Past",
+   "Collect clues to find the Baron and defeat him",
+   "Beat his final challenge"
+  ],
+  "rewards": [
+   "a rumored unique prize for beating the final challenge"
+  ],
+  "article": {
+   "id": "article-2734",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2734",
+   "title": "Free Realms TCG Card Duelist Quests Are FREE TO PLAY!",
+   "date": null
+  }
+ },
+ {
+  "name": "Heroes",
+  "locale_id": null,
+  "giver": "Madam Zelda",
+  "location": "Blackspore Swamp",
+  "steps": [
+   "Finish Baron von Darkcheat",
+   "Fight the Baron's cronies while the four Realmkeepers train",
+   "Final reckoning with Baron von Darkcheat"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-2734",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2734",
+   "title": "Free Realms TCG Card Duelist Quests Are FREE TO PLAY!",
+   "date": null
+  }
+ },
+ {
+  "name": "Card game series 1 (Meet the Players)",
+  "locale_id": null,
+  "giver": "Sam Potts (card game trainer)",
+  "location": "Sanctuary",
+  "steps": [
+   "Talk to Sam Potts in Sanctuary to get a free starter deck and voice-guided tutorial",
+   "Progress through the series, playing card battles against characters"
+  ],
+  "rewards": [
+   "Card game prizes along the way",
+   "Card player level 20 on completion"
+  ],
+  "article": {
+   "id": "article-2740",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2740",
+   "title": "¡TCG misiones de juego de cartas son GRATIS para jugar en Free Realms! (Spanish-language copy of the Free Realms news page; title as captured: Free Realms - ¿Qué novedades hay?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Card game series 2 (Broken Past)",
+  "locale_id": null,
+  "giver": "Professor Altamiro",
+  "location": "Outside the Valley of the Ancestors, Thorny Forest",
+  "steps": [
+   "Complete the launch card-game quests and reach card player level 20",
+   "Talk to Professor Altamiro",
+   "Play card battles to collect pieces of a powerful artifact"
+  ],
+  "rewards": [
+   "Pieces of a powerful artifact"
+  ],
+  "article": {
+   "id": "article-2740",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2740",
+   "title": "¡TCG misiones de juego de cartas son GRATIS para jugar en Free Realms! (Spanish-language copy of the Free Realms news page; title as captured: Free Realms - ¿Qué novedades hay?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Card game series 3 (Baron Trampaoscura)",
+  "locale_id": null,
+  "giver": "Telmo Runabruna",
+  "location": "Sporeshade Swamp",
+  "steps": [
+   "Complete series 1 and series 2",
+   "Talk to Telmo Runabruna",
+   "Follow clues to find and defeat the Baron Trampaoscura"
+  ],
+  "rewards": [
+   "A special prize if the player beats the Baron's final challenge"
+  ],
+  "article": {
+   "id": "article-2740",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2740",
+   "title": "¡TCG misiones de juego de cartas son GRATIS para jugar en Free Realms! (Spanish-language copy of the Free Realms news page; title as captured: Free Realms - ¿Qué novedades hay?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Card game series 4 (HEROES)",
+  "locale_id": null,
+  "giver": "Madam Zelda",
+  "location": "Sporeshade Swamp",
+  "steps": [
+   "Defeat Baron Trampaoscura",
+   "Talk to Madam Zelda",
+   "Keep the Baron and his minions busy while the four Defenders train",
+   "Defeat all four Defenders",
+   "Face Baron Trampaoscura in the final showdown"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-2740",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2740",
+   "title": "¡TCG misiones de juego de cartas son GRATIS para jugar en Free Realms! (Spanish-language copy of the Free Realms news page; title as captured: Free Realms - ¿Qué novedades hay?)",
+   "date": null
+  }
+ },
+ {
+  "name": "Kartenhai questline",
+  "locale_id": null,
+  "giver": null,
+  "location": null,
+  "steps": [],
+  "rewards": [],
+  "article": {
+   "id": "article-2743",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2743",
+   "title": "Free Realms - What is New?",
+   "date": null
+  }
+ },
+ {
+  "name": "Meet the Card Players",
+  "locale_id": null,
+  "giver": "Sam Potts",
+  "location": "Freistätte (centre)",
+  "steps": [
+   "Talk to Card Duelist trainer Sam Potts in the middle of Freistätte",
+   "Play characters in the world to learn tips and strategies",
+   "Follow the line to reach level 20"
+  ],
+  "rewards": [
+   "Free starter deck",
+   "Rewards during card games"
+  ],
+  "article": {
+   "id": "article-2745",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2745",
+   "title": "Free Realms - What is New? (German post: Free Realms Sammelkartenspiel Kartenhai-Quest kostenlos spielen!)",
+   "date": null
+  }
+ },
+ {
+  "name": "Shattered Past",
+  "locale_id": null,
+  "giver": "Sir Wellington",
+  "location": "Borstenwald, outside Ancestor Valley",
+  "steps": [
+   "Requires level 20 Card Duelist and completion of first expansion quests",
+   "Challenge Sir Wellington and friends to win cards from the Shattered Past set",
+   "Search for pieces of a powerful artifact"
+  ],
+  "rewards": [
+   "Shattered Past card set cards"
+  ],
+  "article": {
+   "id": "article-2745",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2745",
+   "title": "Free Realms - What is New? (German post: Free Realms Sammelkartenspiel Kartenhai-Quest kostenlos spielen!)",
+   "date": null
+  }
+ },
+ {
+  "name": "Baron von Dunkelschwindel",
+  "locale_id": null,
+  "giver": "Stefan Schattenscherbe",
+  "location": "Pfifferdorf-Sumpf",
+  "steps": [
+   "Talk to Stefan Schattenscherbe in Pfifferdorf-Sumpf",
+   "Collect clues to find the Baron and defeat him in his final challenge"
+  ],
+  "rewards": [
+   "A unique prize (rumoured)"
+  ],
+  "article": {
+   "id": "article-2745",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2745",
+   "title": "Free Realms - What is New? (German post: Free Realms Sammelkartenspiel Kartenhai-Quest kostenlos spielen!)",
+   "date": null
+  }
+ },
+ {
+  "name": "Heroes",
+  "locale_id": null,
+  "giver": "Madame Zelda",
+  "location": "Pfifferdorf-Sumpf",
+  "steps": [
+   "Talk to Madame Zelda in Pfifferdorf-Sumpf",
+   "Keep Baron von Dunkelschwindel and his allies busy while the four Wächter des Reichs train",
+   "Defeat all of the Baron's allies",
+   "Fight the Baron in the final battle"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-2745",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2745",
+   "title": "Free Realms - What is New? (German post: Free Realms Sammelkartenspiel Kartenhai-Quest kostenlos spielen!)",
+   "date": null
+  }
+ },
+ {
+  "name": "The Gifting Tree",
+  "locale_id": 419835,
+  "giver": "Candi Ivy",
+  "location": "Snowhill",
+  "steps": [
+   "Speak to Candi Ivy every day to get the daily quest"
+  ],
+  "rewards": [
+   "Presents from the Gifting Tree"
+  ],
+  "article": {
+   "id": "article-2808",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2808",
+   "title": "Snow Days Are Here Again!",
+   "date": null
+  }
+ },
+ {
+  "name": "Sarkin Stonehearth's daily quest",
+  "locale_id": 440143,
+  "giver": "Sarkin Stonehearth",
+  "location": null,
+  "steps": [
+   "Run with the shortcut",
+   "Use a few potions",
+   "Go as Brawler with the Hammer of Rumbling or Archer with a Bow of Firebomb"
+  ],
+  "rewards": [
+   "Top tier Sunstone rewards"
+  ],
+  "article": {
+   "id": "article-2844",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2844",
+   "title": "Tuesday TipsDay - February 19, 2013",
+   "date": "2013-02-19"
+  }
+ },
+ {
+  "name": "Vusala's missing pets",
+  "locale_id": null,
+  "giver": "Vusala",
+  "location": "Blackspore",
+  "steps": [
+   "Talk to Vusala",
+   "Find all of Vusala's missing pets before Sal Monella gets them"
+  ],
+  "rewards": [
+   "Option to adopt a ghost pet afterwards (reward not specified in article)"
+  ],
+  "article": {
+   "id": "article-464",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=464",
+   "title": "Explore the Blackspore Pet Adoption Center",
+   "date": null
+  }
+ },
+ {
+  "name": "Snow Days daily quests (Candi Ivy and Gifting Tree)",
+  "locale_id": 1654,
+  "giver": "Candi Ivy",
+  "location": "Snowhill",
+  "steps": [
+   "Talk to Candi Ivy every day",
+   "Collect the present from under the Gifting Tree",
+   "Fight Snowmen and Robgoblins stealing presents"
+  ],
+  "rewards": [
+   "A present from the Gifting Tree"
+  ],
+  "article": {
+   "id": "article-828",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=828",
+   "title": "Free Realms - What is New?",
+   "date": null
+  }
+ },
+ {
+  "name": "Save Buttercup Webbywand's spider from Grexan's Camp.",
+  "locale_id": 390663,
+  "giver": "Buttercup Webbywand",
+  "location": "Grexan's Camp, Briarwood",
+  "steps": [
+   "Teleport to the Briarwood warpstone",
+   "Head up the hill to a large tunnel and find Buttercup",
+   "Explore Grexan's Camp and rescue the spider; the battle entrance is further inside the tunnel"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-924",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=924",
+   "title": "Meet Buttercup Webbywand",
+   "date": null
+  }
+ },
+ {
+  "name": "Flori Telarañas rescue",
+  "locale_id": null,
+  "giver": "Flori Telarañas",
+  "location": "Grexan's Camp (outside the tunnel, Thorny Forest hill)",
+  "steps": [
+   "Teleport to the Thorny Forest teleport stone",
+   "Climb the hill to find Flori outside the tunnel",
+   "Explore Grexan's Camp and rescue her eight-legged pet",
+   "Avoid being wrapped in a cocoon"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-927",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=927",
+   "title": "Free Realms - What is New?",
+   "date": null
+  }
+ },
+ {
+  "name": "Flori Telarañas rescue (Spanish news item; quest name not given)",
+  "locale_id": null,
+  "giver": "Flori Telarañas",
+  "location": "Grexan's Camp, Briarwood",
+  "steps": [
+   "Teleport to the Briarwood teleport stone",
+   "Climb the hill to find Flori outside the tunnel",
+   "Explore Grexan's Camp and rescue her pet spider from the trolls",
+   "Beware of being wrapped in a cocoon"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-928",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com/article/detail.action?articleId=928",
+   "title": "Free Realms - What is New?",
+   "date": null
+  }
+ },
+ {
+  "name": "Ronnie Britesmile's chores",
+  "locale_id": 40416,
+  "giver": "Ronnie Britesmile",
+  "location": "Merry Vale",
+  "steps": [
+   "Help Ronnie Britesmile with his chores"
+  ],
+  "rewards": [
+   "Unspecified 'something cool' per article"
+  ],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Mugwopp task",
+  "locale_id": null,
+  "giver": "Blorple",
+  "location": "Greenwood Camp",
+  "steps": [
+   "Players who already found Mugwopp for Blorple get a new task"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Hedge maze map",
+  "locale_id": null,
+  "giver": "Recruit Agga",
+  "location": "Briarwood",
+  "steps": [
+   "Help piece together a map of the hedge maze"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Farmhand challenges",
+  "locale_id": null,
+  "giver": "Rucks",
+  "location": "Farnum's Farm",
+  "steps": [
+   "Take on a series of challenges for skilled harvesters"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Missing pet fish",
+  "locale_id": null,
+  "giver": "Blazing Star and Flax",
+  "location": "Pixie Nursery",
+  "steps": [
+   "Find out what happened to the pet fish taken from the pond"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Bixie rebellion",
+  "locale_id": null,
+  "giver": "Tugaboom",
+  "location": "Wuagachug",
+  "steps": [
+   "Help solve the rebelling Bixie problem"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Baby penguin",
+  "locale_id": null,
+  "giver": "Cella Cedernook",
+  "location": "Shrouded Glade",
+  "steps": [
+   "Help care for a baby penguin"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Boating accident",
+  "locale_id": null,
+  "giver": "Emil Jadefish",
+  "location": "Shrouded Glade",
+  "steps": [
+   "Help Emil Jadefish and a friend after a boating accident"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Lost friend in Misty Mountains",
+  "locale_id": null,
+  "giver": "Tald Daybreaker",
+  "location": "Shrouded Glade",
+  "steps": [
+   "Rescue Tald Daybreaker's friend in Misty Mountains"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Party invitation",
+  "locale_id": null,
+  "giver": "Auralie",
+  "location": "Sanctuary",
+  "steps": [
+   "Deliver an invitation to the queen"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Feldman's story",
+  "locale_id": null,
+  "giver": "Feldman",
+  "location": "Sanctuary",
+  "steps": [
+   "Gather more information for a story"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Squirrel Chaser's reputation",
+  "locale_id": null,
+  "giver": "Sirdo \"Squirrel Chaser\"",
+  "location": "Blackspore Swamp",
+  "steps": [
+   "Help Sirdo overcome his bad reputation"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Rainchaser challenges",
+  "locale_id": null,
+  "giver": "Rainchaser",
+  "location": "Seaside",
+  "steps": [
+   "Complete more challenges"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Lifeguard help",
+  "locale_id": null,
+  "giver": "Kendall",
+  "location": "Seaside",
+  "steps": [
+   "Help the lifeguard quickly"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Beach trash cleanup",
+  "locale_id": null,
+  "giver": "Mr. Mudd",
+  "location": "Seaside",
+  "steps": [
+   "Help clean up trash on the beach"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Robin the lost pet",
+  "locale_id": null,
+  "giver": "Spruce Waynehammer",
+  "location": "Bat Caves",
+  "steps": [
+   "Find Robin, Spruce's pet, lost in the Bat Caves"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Bear problem",
+  "locale_id": null,
+  "giver": "Susy Cloudrunner",
+  "location": "Briar Patch",
+  "steps": [
+   "Deal with a big bear problem"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Royal honey",
+  "locale_id": null,
+  "giver": "Yuri Petaldancer",
+  "location": "Bixie Hive",
+  "steps": [
+   "Taste royal honey"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Sick saplings",
+  "locale_id": null,
+  "giver": "Blari",
+  "location": "Bristlewood Glade",
+  "steps": [
+   "Cure the sickly saplings, fighting off creatures"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Explorer bones",
+  "locale_id": null,
+  "giver": "Vasher",
+  "location": "Cracked Claw Caverns",
+  "steps": [
+   "Recover old explorer bones for burial"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Kidnapped spider",
+  "locale_id": null,
+  "giver": "Buttercup Webbywand",
+  "location": "Grexan's Camp",
+  "steps": [
+   "Rescue the spider kidnapped by trolls"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Science project",
+  "locale_id": null,
+  "giver": "Puck Petalpucker",
+  "location": "Misty Mountain",
+  "steps": [
+   "Help with the science project"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Mushroom idea",
+  "locale_id": null,
+  "giver": "Johnny",
+  "location": "Mushroom Cavern",
+  "steps": [
+   "Try out Johnny's idea"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Kidnapped snowman",
+  "locale_id": null,
+  "giver": "Jimmy Squarefeet",
+  "location": "Snowy Canyon",
+  "steps": [
+   "Seek out the kidnapped snowman"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Friendly plants",
+  "locale_id": null,
+  "giver": "Jenny Greenteeth",
+  "location": "Treeleaf's Retreat",
+  "steps": [
+   "Plant friendly plants"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "article-98",
+   "source": "freerealms.com",
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=98",
+   "title": "Free Realms - What is New?",
+   "date": "2009-05-20"
+  }
+ },
+ {
+  "name": "Card Duelist: Heart of Darkness",
+  "locale_id": 7947,
+  "giver": null,
+  "location": null,
+  "steps": [],
+  "rewards": [],
+  "article": {
+   "id": "www-tentonhammer-com-80-free-realms-news-free-20Relams-20Gets-20a-20New-20Trading-20Card-2",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/free-realms/news/free%20Relams%20Gets%20a%20New%20Trading%20Card%20Game",
+   "title": "Free Realms Gets a New Trading Card Game",
+   "date": "2012-08-25"
+  }
+ },
+ {
+  "name": "Card Duelist: Slow and Steady",
+  "locale_id": 7951,
+  "giver": null,
+  "location": null,
+  "steps": [],
+  "rewards": [],
+  "article": {
+   "id": "www-tentonhammer-com-80-free-realms-news-free-20Relams-20Gets-20a-20New-20Trading-20Card-2",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/free-realms/news/free%20Relams%20Gets%20a%20New%20Trading%20Card%20Game",
+   "title": "Free Realms Gets a New Trading Card Game",
+   "date": "2012-08-25"
+  }
+ },
+ {
+  "name": "Card Duelist: Stinky Feet",
+  "locale_id": 7955,
+  "giver": null,
+  "location": null,
+  "steps": [],
+  "rewards": [],
+  "article": {
+   "id": "www-tentonhammer-com-80-free-realms-news-free-20Relams-20Gets-20a-20New-20Trading-20Card-2",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/free-realms/news/free%20Relams%20Gets%20a%20New%20Trading%20Card%20Game",
+   "title": "Free Realms Gets a New Trading Card Game",
+   "date": "2012-08-25"
+  }
+ },
+ {
+  "name": "Card Duelist: Meet the Boss",
+  "locale_id": 7959,
+  "giver": null,
+  "location": null,
+  "steps": [],
+  "rewards": [],
+  "article": {
+   "id": "www-tentonhammer-com-80-free-realms-news-free-20Relams-20Gets-20a-20New-20Trading-20Card-2",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/free-realms/news/free%20Relams%20Gets%20a%20New%20Trading%20Card%20Game",
+   "title": "Free Realms Gets a New Trading Card Game",
+   "date": "2012-08-25"
+  }
+ },
+ {
+  "name": "Bixies Gone Bad",
+  "locale_id": 15335,
+  "giver": "Sunflower",
+  "location": "Southwest of Sanctuary; instance (Bixie Hive)",
+  "steps": [
+   "Talk to Sunflower southwest of Sanctuary to learn Drone Fauzz has captured the queen.",
+   "Enter the lobster-shaped instance and defeat Unruly Warriors, Unruly Mages and Unruly Elites.",
+   "Free Frightened Bixie Workers by talking to them.",
+   "Defeat the four waves of enemies around Queen Bixie.",
+   "Defeat Drone Fauzz at the point where the lobster's tail meets the body.",
+   "Talk to the queen to open the exit and collect the reward, then return to Sunflower for the final reward."
+  ],
+  "rewards": [
+   "Collection item Hammer Essence of Earth (instance collectible)",
+   "Reflex Hammer",
+   "Short Bow",
+   "Feisty Fighter Pants",
+   "Final reward from Sunflower (unspecified)"
+  ],
+  "article": {
+   "id": "www-tentonhammer-com-80-node-67379",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/node/67379",
+   "title": "Free Realms Bixies Gone Bad Quest Guide",
+   "date": "2009-04-29"
+  }
+ },
+ {
+  "name": "Bixies Gone Bad",
+  "locale_id": 15335,
+  "giver": null,
+  "location": null,
+  "steps": [
+   "Defeat the Unruly Mage enemies, which are casters using projectile magic; rush them to kill quickly."
+  ],
+  "rewards": [],
+  "article": {
+   "id": "www-tentonhammer-com-80-node-67381",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/node/67381",
+   "title": "Free Realms Bixies Gone Bad Quest Guide",
+   "date": "2009-04-29"
+  }
+ },
+ {
+  "name": "Bixies Gone Bad",
+  "locale_id": 15335,
+  "giver": null,
+  "location": null,
+  "steps": [
+   "Bust bad guys' heads to restore order (combat quest)"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "www-tentonhammer-com-80-node-67397",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/node/67397",
+   "title": "Loading... Forgetting to Wipe",
+   "date": "2009-04-29"
+  }
+ },
+ {
+  "name": "Pick a Card, any Card",
+  "locale_id": 383065,
+  "giver": "Ari the Fish",
+  "location": "Hills due west of the Sanctuary warpstone",
+  "steps": [
+   "Find Ari the Fish in the hills west of the Sanctuary warpstone",
+   "Keep this quest active in the tracker",
+   "Go to Sam Potts in Sanctuary to start TCG training"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "www-tentonhammer-com-80-node-67679",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/node/67679",
+   "title": "Free Realms Trading Card Game How-To Guide",
+   "date": "2009-05-06"
+  }
+ },
+ {
+  "name": "Learning to Cook at the Precious Party",
+  "locale_id": null,
+  "giver": "Ashley Lightwings",
+  "location": "Picnic area, Sacred Glade",
+  "steps": [
+   "Meet Cookie and learn to harvest the ingredients for a stew",
+   "Harvest the ingredients with the harvesting minigame",
+   "Cook the stew with the cooking minigame",
+   "Deliver the stew to Ashley Lightwings at the picnic area"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "www-tentonhammer-com-80-node-68495",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/node/68495",
+   "title": "Free Realms Chef Guide",
+   "date": "2009-05-28"
+  }
+ },
+ {
+  "name": "Fizzlesticks' spell book",
+  "locale_id": null,
+  "giver": "Fizzlesticks",
+  "location": "Robgoblin camp between Snowhill and Lakeshore",
+  "steps": [
+   "Recover the spell book stolen by Robgoblins",
+   "Defeat the Robgoblin Adept who casts spells and teleports"
+  ],
+  "rewards": [],
+  "article": {
+   "id": "www-tentonhammer-com-80-node-68497",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/node/68497",
+   "title": "Free Realms Wizard Guide - Levels 1 to 10",
+   "date": "2009-05-28"
+  }
+ },
+ {
+  "name": "Wand quest chain (Osgood to Sven to Karin Spellweaver)",
+  "locale_id": 45555,
+  "giver": "Osgood",
+  "location": "Sanctuary, Briarwood, Blackspore Swamp, Briarheart Caverns",
+  "steps": [
+   "Help Sandbur gather transfiguring crystals from the Forgotten Caves and opal gems from Tormented Spirits in Blackspore Swamp (level 10).",
+   "Osgood asks you to return at level 15 to get the wand.",
+   "Find Sven at Briarwood; retrieve a summoning crystal from a wizard in the Briar Patch and a twig from Treeleaf's Retreat.",
+   "Collect web from the biggest spider in Arachnia's Lair for Sven.",
+   "At level 20, get the gem from Foreman Ironfist in the Haunted Mines; Sven goes to Briarheart Caverns.",
+   "Complete Commander Kluggenkrush's trials at Tanglewood Fort, then rescue Sven in Briarheart Caverns.",
+   "Return Sven's wand parts to Karin Spellweaver; buy the Orb of Spectral Fire from Lavarius Sparksizzle for 12,000 gold; give it to Osgood."
+  ],
+  "rewards": [
+   "A wand made by Osgood, described as the player's epic wand with sparkle effects (the Wizard's epic weapon)"
+  ],
+  "article": {
+   "id": "www-tentonhammer-com-80-node-69770",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/node/69770",
+   "title": "Free Realms Wizard Guide - Levels 10 to 20",
+   "date": "2009-06-15"
+  }
+ },
+ {
+  "name": "Card Duelist unlock / Sam Potts",
+  "locale_id": null,
+  "giver": "Ari the Fish",
+  "location": "Sanctuary",
+  "steps": [
+   "Find Ari the Fish in the hills west of Sanctuary",
+   "Beat Sam Potts's training deck to unlock Card Duelist",
+   "Beat Sam Potts's trick deck"
+  ],
+  "rewards": [
+   "Striped shoes at level 2"
+  ],
+  "article": {
+   "id": "www-tentonhammer-com-80-node-69806",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/node/69806",
+   "title": "Free Realms Card Duelist Guide",
+   "date": "2009-06-15"
+  }
+ },
+ {
+  "name": "Cardie Crew rebuild",
+  "locale_id": 401335,
+  "giver": "Poe Tatters",
+  "location": "Sanctuary",
+  "steps": [
+   "Learn Cardie Crew history from Posey, Buzz, Nirvi and Guard Banee",
+   "Beat Poe Tatters in a practice duel",
+   "Recruit students for Bry in Lakeshore",
+   "Get supplies for the party and duel Bry",
+   "Challenge Garrison Gold in Snowhill",
+   "Find Shifty in Wugachug",
+   "Retrieve lost cards for Jammie Swiftsong in Seaside",
+   "Return Ari's cards and duel Ari",
+   "Beat Herme and then Maple at Farnum Farmstead",
+   "Beat Maple's tournament deck to reconcile Ari and Maple"
+  ],
+  "rewards": [
+   "Striped tee shirt at level 4",
+   "Hoodie at level 6",
+   "Chaos cap at level 10",
+   "Robgoblin tee at level 20"
+  ],
+  "article": {
+   "id": "www-tentonhammer-com-80-node-69806",
+   "source": "tentonhammer.com",
+   "url": "http://www.tentonhammer.com:80/node/69806",
+   "title": "Free Realms Card Duelist Guide",
+   "date": "2009-06-15"
+  }
+ },
+ {
+  "name": "Ninja: Burst of Speed",
+  "locale_id": 78881,
+  "giver": null,
+  "location": null,
+  "steps": [],
+  "rewards": [],
+  "article": {
+   "id": "forum-forumdisplay-php-f-83",
+   "source": "freerealmsforums.com",
+   "url": "http://www.freerealmsforums.com:80/forums/forumdisplay.php?f=83",
+   "title": "Jobs/Classes - Free Realms Forums",
+   "date": "2009-05-26"
+  }
+ },
+ {
+  "name": "Ninja: Handle with Care",
+  "locale_id": 78857,
+  "giver": null,
+  "location": null,
+  "steps": [],
+  "rewards": [],
+  "article": {
+   "id": "forum-forumdisplay-php-f-83",
+   "source": "freerealmsforums.com",
+   "url": "http://www.freerealmsforums.com:80/forums/forumdisplay.php?f=83",
+   "title": "Jobs/Classes - Free Realms Forums",
+   "date": "2009-05-26"
+  }
+ },
+ {
+  "name": "Blacksmith: Lady of the Lake",
+  "locale_id": 95098,
+  "giver": null,
+  "location": null,
+  "steps": [],
+  "rewards": [],
+  "article": {
+   "id": "forum-forumdisplay-php-f-83",
+   "source": "freerealmsforums.com",
+   "url": "http://www.freerealmsforums.com:80/forums/forumdisplay.php?f=83",
+   "title": "Jobs/Classes - Free Realms Forums",
+   "date": "2009-05-26"
+  }
+ }
+]

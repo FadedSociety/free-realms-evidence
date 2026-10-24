@@ -1,0 +1,47 @@
+{
+ "title": "Community Event: Snowhill Playground Party",
+ "names_seen": [
+  "Community Event: Snowhill Playground Party"
+ ],
+ "facts": [
+  {
+   "statement": "A community party was held on the main level of the Snowhill playground, a block, launchpad, teleporter and elevator structure high in the hills of Snowhill, for dancing and hanging out.",
+   "numbers": {},
+   "era": "live",
+   "quote": "We’re meeting on the main level of the playground for some dancing and hanging out.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1830",
+   "date": null
+  },
+  {
+   "statement": "The US and Latin America session was on Thursday, September 30, 2010 at 3pm Pacific Time on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday September 30th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1830",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session was on Friday, October 1, 2010 at 9:00am Pacific Time (4:00pm GMT) on Server 1.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday October 1st, 2010 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1830",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1830",
+   "date": null,
+   "title": "Community Event: Snowhill Playground Party",
+   "summary": "An official freerealms.com news post announcing a Community Event party on the Snowhill playground, held on Server 1 on 2010-09-30 (US/Latin America) and 2010-10-01 (UK/Europe). It also explains how players find Community events through the Game Guide calendar and its GO button. The post's exact publish date is not given (only 'posted 1 week, 6 days ago' relative to the capture)."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

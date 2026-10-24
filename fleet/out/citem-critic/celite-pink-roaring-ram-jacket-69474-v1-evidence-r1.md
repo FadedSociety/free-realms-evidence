@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-pink-roaring-ram-jacket-69474-v1-evidence-r1 status=no_submit turns=2 usd=0.0019 tokens(read,write,in,out)=[3565, 10331, 6, 1092] model=claude-haiku-5-5 -->
+# Elite Pink Roaring Ram Jacket
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "where", "issue": "The answer calls the source the 'Station coin shop' and the sources list says 'Coin store listing'. The store row (stores.json:350) only gives item_id 752, category_id 103, and prices. Nothing in the repo names category 103 as the Station coin shop, and the answer's own open item says so. The name is an inference and should be marked as one.", "fix": "Say 'coin store, category 103 (name not in the data)', as the open list already does. The row itself is confirmed: stores.json:350 gives item 752, category 103, purchase 9453, member 8507 (10%), sell 945, tags L1, L2, L4, R2, T633, R1."}]}

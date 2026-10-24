@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ckitty-turban-6151-v2-world-r2 status=done turns=3 usd=0.0032 tokens(read,write,in,out)=[15162, 16885, 8, 1789] model=claude-haiku-5-5 -->
+# Kitty Turban
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The single source is a coin store record (stores.json item 2167, category 6, 50 coins, member 45, sell 5, no_sale false), not an NPC vendor. Labelling it 'vendor' with where=null implies a shop-keeper source that no evidence names.", "fix": "Type it as a coin store listing (repo:prototype/osfr-tools/data/content/stores.json line 630, item 2167, purchase 50 coins), with the NPC/location left unknown. I re-read line 630 and lines 626-633; the record and its 50-coin siblings (2163-2170, category 6) are confirmed. No category name or NPC appears in the repo, and Kiel (locale 6156) is an unrelated Snowhill ambassador target, so he is not a source."}]}

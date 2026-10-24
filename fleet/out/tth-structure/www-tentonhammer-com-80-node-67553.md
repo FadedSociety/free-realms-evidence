@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-67553 status=nothing_found turns=1 usd=0.0012 tokens(read,write,in,out)=[0, 7841, 4, 518] model=claude-haiku-5-5 -->
+# Champions Online Powers Preview | Ten Ton Hammer
+
+{"article": {"title": "Champions Online Powers Preview", "date": "2009-05-04", "author": "RadarX", "type": "preview"}, "about_free_realms": false, "summary": "This is a pre-launch hands-on preview of Champions Online's power frameworks (Elemental, Technology, Magic, Psychic, Melee) written by Ten Ton Hammer. Free Realms appears only in the page's site navigation (MMO popularity lists and the MMO search list), not in the article, so no Free Realms facts can be drawn from it.", "facts": [], "quests": [], "uncertain": ["Free Realms is mentioned only in site-wide navigation boilerplate (a 'Most Popular' list at #9 and a 'Recently Popular' note), which is not about the game and was not recorded as fact."]}

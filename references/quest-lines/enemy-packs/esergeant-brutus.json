@@ -1,0 +1,45 @@
+{
+ "title": "Sergeant Brutus",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\trail_of_betrayal.json"
+  },
+  {
+   "file": "dungeons\\trail_of_betrayal.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:78737 [npc_name | - | Sergeant Brutus] 'Sergeant Brutus'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:78737 [npc_name | - | Sergeant Brutus] 'Sergeant Brutus'",
+  "locale:419289 [quest_dialog | - | Sergeant Brutus] \"Your next target is a treacherous chug named <font color='#D9781A'>Sergeant Brutus</font>! He turned on his own soldiers in the <font color='#D9781A'>Trail of B\"",
+  "locale:419294 [quest_objective | Trail of Betrayal | Sergeant Brutus] 'Enter the Trail of Betrayal and defeat Sergeant Brutus to obtain the seventh shard.'",
+  "locale:419295 [quest_objective | Trail of Betrayal | Sergeant Brutus] 'Defeat Sergeant Brutus'",
+  "locale:419299 [quest_objective | Trail of Betrayal | Sergeant Brutus] 'Sergeant Brutus was last seen in the Trail of Betrayal. Move quickly before he escapes!'"
+ ],
+ "client_cluster": [
+  "locale:78730 [npc_name | - | Gozunga] 'Gozunga'",
+  "locale:78732 [quest_dialog | - | Smitty] 'Do you have the 10 smelted Copper Bars yet?'",
+  "locale:78736 [quest_dialog | - | Smitty | FLAG fragment: reply option with no quest meaning on its own] 'Not yet.'",
+  "locale:78737 [npc_name | - | Sergeant Brutus] 'Sergeant Brutus'",
+  "locale:78740 [quest_title | - | Extra reports] 'Extra reports'",
+  "locale:78741 [quest_objective | - | Extra reports] 'Click on even more Archers on Patrol to deliver extra reports to Glugmort.'",
+  "locale:78742 [quest_objective | - | Vysha] 'Deliver to Vysha'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:IbSE0-r_SC8/00630.jpg (Trail of Betrayal): npcs: Tower Captain dialog_header  Sergeant Brutus dialog_header  | dialog: Tower Captain: Securing the final tower! Sergeant Brutus: Trolls! Get ready! Sergeant Brutus: We take towers again! | quest:   Speak to the Sentry Sergeant. Bonus: Find all of the troll marching orders - ",
+  "video:IbSE0-r_SC8/00624.jpg (Trail of Betrayal): npcs: Tower Captain dialog_header  Sergeant Brutus dialog_header  | dialog: Tower Captain: Securing the final tower! Sergeant Brutus: Trolls! Get ready! | quest:   Speak to the Sentry Sergeant. Bonus: Find all of the troll marching orders - 1/4 Secure the first tower. Secure the "
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

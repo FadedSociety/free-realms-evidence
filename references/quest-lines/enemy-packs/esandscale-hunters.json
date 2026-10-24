@@ -1,0 +1,24 @@
+{
+ "title": "Sandscale Hunters",
+ "our_entries": [
+  {
+   "file": "dungeons\\sandscale_oasis.json",
+   "definition_id": 930017
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Sandscale Hunter",
+  "text": "Sandscale Hunter is an enemy manguana NPC that can be found in Sunstone Valley.\n\nAppearances\nSunstone Valley\nSandscale Oasis\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Manguana\nCategory:Sunstone Valley"
+ },
+ "images": [],
+ "video": [
+  "video:ZGmx2bp3DCM/00110.jpg (-): quest: Better Threads  Collect manguana spit from Sandscale Hunters. Collect Manguana Spit - 9/20  | job_level: Adventurer 8 | other_text: Better Threads (quest tracker)",
+  "video:8b0rE0O1OzA/00106.jpg (-): quest: Better Threads  Collect Manguana Spit - 16/20  | landmarks: Sunstone Iron Vein, 50m marker | job_level: Archer 20 | other_text: Collect manguana spit from Sandscale Hunters. What is... What quest? What the heck? What to do? They said what? Say what! Power Hour! 2x Coins No"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ipca-camp-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3583, 4427, 6, 1034] model=claude-haiku-5-5 -->
+# PCA Camp
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim and evidence[1].source", "issue": "The answer cites locale:130248 and locale:130249 as client matches. Both are flagged dev_note internal DNT labels ('Postman PCA Camp IWMG OBJ GRP - DNT' and '... Description - DNT'), so they are not live evidence. The client-match claim should drop them.", "fix": "Remove locale:130248 and locale:130249. The live client matches are the quest and dialog strings (locale:130247, 130257-130260, 130656-130657, 130723-130726, 141841) and the item-type match 'PCA Camp Flag' (locale:387769), which the answer already covers. Verified via locale lookup on 'PCA Camp'."}]}

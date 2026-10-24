@@ -1,0 +1,29 @@
+{
+ "title": "Seven-day free item login reward",
+ "names_seen": [
+  "Seven-day free item login reward"
+ ],
+ "facts": [
+  {
+   "statement": "All players received one free item per day on login for seven days; logging in before the last day allowed collecting all seven.",
+   "numbers": {
+    "days": 7,
+    "items": 7
+   },
+   "era": "live",
+   "quote": "siete artículos libres para todos los jugadores ... durante siete días",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2130",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2130",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language SOE welcome-back news post for returning players. It describes login-based gifts: extra play time and membership days for returning members who updated their Station account before a cutoff, 20,000 coins for lifetime members, and a seven-day free-item login reward. The post gives no absolute date, and the cutoff date is garbled in the source."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

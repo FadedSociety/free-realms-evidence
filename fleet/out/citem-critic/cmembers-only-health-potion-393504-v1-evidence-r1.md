@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmembers-only-health-potion-393504-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3450, 8025, 6, 871] model=claude-haiku-5-5 -->
+# Members Only Health Potion
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The Membership claim cites 'wiki page:ns0 Membership', which I did not re-read. The articles corpus does support that membership grants 'Members Only items' in general (articles/facts.json:50518, 50649), but no source ties this potion to that grant.", "fix": "Keep the claim as stated, and add the generic membership-perk source (articles/facts.json:50518) as context only, marked as not naming this potion. The answer's conclusion that no source names the potion is correct."}]}

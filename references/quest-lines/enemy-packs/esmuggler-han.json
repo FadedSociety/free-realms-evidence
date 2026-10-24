@@ -1,0 +1,47 @@
+{
+ "title": "Smuggler Han",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\croaking_vale.json"
+  },
+  {
+   "file": "dungeons\\croaking_vale.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:77317 [npc_name | - | Smuggler Han] 'Smuggler Han'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:77317 [npc_name | - | Smuggler Han] 'Smuggler Han'"
+ ],
+ "client_cluster": [
+  "locale:77310 [quest_objective | Croaking Vale | Hopping Parade!] 'Rescue the uncorrupted frogs from within the Croaking Vale!'",
+  "locale:77312 [quest_objective | Croaking Vale | Hopping Parade!] 'Return the rescued frogs to Ridel!'",
+  "locale:77314 [npc_name | Croaking Vale | Uncorrupted Toad] 'Uncorrupted Toad'",
+  "locale:77315 [item | Croaking Vale | Toad Cage] 'Toad Cage'",
+  "locale:77316 [npc_name | Croaking Vale | Young Squirm] 'Young Squirm'",
+  "locale:77317 [npc_name | - | Smuggler Han] 'Smuggler Han'",
+  "locale:77319 [npc_name | - | Smuggler Hannah] 'Smuggler Hannah'",
+  "locale:77320 [quest_dialog | Dartmoor | Miner: The Perfect Pour] \"That was pretty amazing, but how fast can you smelt tin?<BR><BR><font color='#D9781A'>Smelt five tin bars in a single session</font> and come back to me. If you\"",
+  "locale:77321 [quest_title | Dartmoor | Miner: The Perfect Pour] 'Miner: The Perfect Pour'",
+  "locale:77322 [quest_objective | Dartmoor | Miner: The Perfect Pour] 'Derp wants you to prove you have mastered the art of smelting. Perfectly create five tin bars at the smelting furnace in a single session without spilling any o'",
+  "locale:77323 [quest_dialog | Dartmoor | Miner: The Perfect Pour] \"You've proven me wrong twice now! Well done.\"",
+  "locale:77325 [quest_title | Dartmoor | The Perfect Pour] 'The Perfect Pour'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Smuggler Hannah\nSmuggler Han"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Archer: Remain Vigilant' (final): Orson would like for you to travel to the Croaking Vale in Briarwood and defeat the bosses of the smuggling operation."
+ ]
+}

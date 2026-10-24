@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=q3130020-v1-evidence-r1 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[16238, 9104, 8, 1079] model=claude-haiku-5-5 -->
+# Postman: Jug Clean Up
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "offer.speaker / complete.speaker", "issue": "Both speakers are null. The pack's own quests_given answer and the wiki list Postchug Runalug as this quest's giver (wiki: 'Postman: [Jug Clean Up]: Postchug Runalug in Wugachug'), so a speaker is supported at quest level. The binder's note that the line-level attribution is missing is accurate, so leaving them null is honest, but the binding is weaker than it could be.", "fix": "Set offer.speaker and complete.speaker to Postchug Runalug (NPC id 9000000172), citing the quests_given answer and the wiki giver entry for this quest. Keep it marked as quest-level, not line-level, attribution."}]}

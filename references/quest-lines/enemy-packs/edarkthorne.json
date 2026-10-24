@@ -1,0 +1,104 @@
+{
+ "title": "Darkthorne",
+ "our_entries": [
+  {
+   "file": "encounters.json",
+   "name_id": 441292,
+   "definition_id": 0,
+   "model_id": 353,
+   "max_health": 1000,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "name_id": 441292,
+   "definition_id": 0,
+   "model_id": 353,
+   "max_health": 1000,
+   "damage": 0,
+   "boss": false
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:91522 [npc_name | - | Darkthorne] 'Darkthorne'",
+  "locale:441292 [npc_name | - | Darkthorne] 'Darkthorne'",
+  "locale:5102910 [npc_name | - | Darkthorne] 'Darkthorne'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:22880 [place | - | Darkthorne] 'Almost a replica of the Royal Palace, this tree looks more brooding and sinister. Did this majestic tree also sprout from a heartseed? And who is this &quot;Dar'",
+  "locale:90930 [quest_objective | Briarheart | Darkthorne] 'Enter Briarheart Palace and speak with Darkthorne'",
+  "locale:91225 [quest_dialog | Briarwood | Darkthorne] \"People say that there's an <font color='#D9781A'>evil druid named Darkthorne</font> that created this hedge maze to keep unwanted visitors out!<BR><BR>That way \"",
+  "locale:91229 [npc_dialog | Briarwood | Darkthorne] \"Halt! What business do you have in Briarwood? <font color='#D9781A'>Lady Darkthorne</font> doesn't like strangers wandering around!<BR><BR><font color='#D9781A'\"",
+  "locale:91233 [npc_dialog | Briarwood | Darkthorne] \"We will be ready when <font color='#D9781A'>Darkthorne</font> says it is time to march!<BR><BR>You're not here to stir up any trouble are you?\"",
+  "locale:91245 [npc_dialog | - | Darkthorne] \"You seek information about Darkthorne?<BR><BR>I don't even need to check my documents, she's rather famous in certain circles.<BR><BR><font color='#D9781A'>Dark\"",
+  "locale:91247 [npc_dialog | - | Darkthorne] \"Darkthorne was the <font color='#D9781A'>twin sister of Ayani</font>, but she was always overshadowed by her sister's power and fame. <BR><BR>We've never had an\"",
+  "locale:91257 [npc_dialog | - | Darkthorne] \"You see, out of jealousy of her sister, <font color='#D9781A'>Darkthorne</font> did some terrible things. Her actions <font color='#D9781A'>disgraced her family\"",
+  "locale:91436 [npc_dialog | - | Darkthorne | FLAG not_live: old/unformatted variant of 91454] \"You want the wooden box we took off those &quot;merchants&quot; earlier?<BR><BR>Sorry, but that was sent directly to Darkthorne. And no, you can't see her. Acce\"",
+  "locale:91454 [quest_dialog | - | Darkthorne] \"You want the <font color='#D9781A'>wooden box</font> we took off those &quot;merchants&quot; earlier?<BR><BR>Sorry, but that was <font color='#D9781A'>sent to D\"",
+  "locale:91457 [quest_dialog | - | Darkthorne] \"Sounds like you're outta luck then. Come back if you change your mind.<BR><BR>Now move along, nothing to see here.\"",
+  "locale:91463 [quest_dialog | - | Darkthorne] \"Me and some of the other guys decided to try and cheer Darkthorne up by getting her some <font color='#D9781A'>gifts</font> for her pets.<BR><BR>All the stuff w\"",
+  "locale:91519 [quest_dialog | - | Darkthorne] \"Darkthorne said that you would return. She wanted me to send you to her when you arrived.<BR><BR>She does not often entertain visitors. I'm not sure if you shou\"",
+  "locale:91522 [npc_name | - | Darkthorne] 'Darkthorne'",
+  "locale:91604 [quest_dialog | - | Darkthorne] \"Darkthorne is only a mask I've worn since my exile. <font color='#D9781A'>I am Princess Lavender of Sanctuary</font>, or I was once.<BR><BR>I took half of the H\"",
+  "locale:91615 [quest_dialog | - | Darkthorne] 'The Queen will perish, I will crush her conniving sister &quot;Darkthorne&quot; under my boot, and I will rule Sanctuary uncontested.'",
+  "locale:91624 [quest_dialog | - | Darkthorne] 'What...what have I done? I allowed him to destroy my family, and endanger Sanctuary!'",
+  "locale:94436 [quest_objective | Sanctuary | Darkthorne] 'Speak to Darkthorne'",
+  "locale:94437 [quest_dialog | - | Darkthorne | FLAG fragment: reply option \"Whatever.\"] 'Whatever.'",
+  "locale:94464 [npc_dialog | Sacred Grove | Darkthorne] 'Darkthorne seems unhappy a lot of the time, but she loves all her animals and always seems to get happier around them.'",
+  "locale:139568 [npc_dialog | - | Darkthorne] 'The queen will perish, I will crush her conniving sister &quot;Darkthorne&quot; under my boot, and I will rule Sanctuary uncontested.'",
+  "locale:391308 [quest_dialog | Sanctuary | Darkthorne] 'You dare to return without the contents of the box? I suggest you take back what &quot;Darkthorne&quot; has stolen from me before you show yourself in Sanctuary'",
+  "locale:391521 [npc_dialog | - | Darkthorne] 'The sorceress Darkthorne has been found responsible for poisoning the Queen Valerian with her dark magic.'",
+  "locale:391562 [quest_dialog | Sanctuary | Darkthorne] 'Honor thy Queen, devote mine life to thee!'",
+  "locale:391567 [quest_dialog | Sanctuary | Darkthorne] 'The oath... Er... follow the leader?'",
+  "locale:391569 [quest_dialog | Sanctuary | Darkthorne] 'Devote my life to the advisor... oh, and the Queen.'",
+  "locale:391572 [quest_dialog | Sanctuary | Darkthorne] \"It's something like... love thy mother?\"",
+  "locale:391574 [quest_objective | Sanctuary | Darkthorne] 'Please feed all the pets their vitamins. All the pets can be found here in the throne room.'",
+  "locale:441292 [npc_name | - | Darkthorne] 'Darkthorne'",
+  "locale:441293 [quest_dialog | - | Darkthorne] \"It worked! You're really here!<BR><BR>But, hmm... something doesn't seem right. Oh! I hope there weren't any problems with the summoning spell! Let's make sure \""
+ ],
+ "client_cluster": [
+  "locale:91514 [ability | - | Chugawug Rend] 'Chugawug Rend'",
+  "locale:91515 [other | - | Training Soldier Bleed | FLAG dev_note: internal label with zone prefix] 'tanglewood_fort 158: Training Soldier Bleed'",
+  "locale:91516 [other | - | Buddy | FLAG fragment: single word with no quest meaning] 'Buddy'",
+  "locale:91519 [quest_dialog | - | Darkthorne] \"Darkthorne said that you would return. She wanted me to send you to her when you arrived.<BR><BR>She does not often entertain visitors. I'm not sure if you shou\"",
+  "locale:91521 [npc_dialog | - | -] 'Just thinking about ghosts... lurking in a dark, scary swamp... It gives me the bubbleguts!'",
+  "locale:91522 [npc_name | - | Darkthorne] 'Darkthorne'",
+  "locale:91523 [quest_dialog | Shrouded Glade | Missing Books] \"Books around here seem to end up everywhere except the library! The students drop them on the way to class or leave them near the dorms.<BR><BR>I don't want to \"",
+  "locale:91524 [quest_title | Shrouded Glade | Missing Books] 'Missing Books'",
+  "locale:91525 [quest_objective | Shrouded Glade | Missing Books] \"Several books have gone missing from the Druid Academy's library recently. Arestol would like for you to search Shrouded Glade and find them.\"",
+  "locale:91526 [quest_dialog | Shrouded Glade | Missing Books] 'Ah, the books! They are a little dirty, but can be cleaned up. Thank you!'",
+  "locale:91529 [quest_dialog | - | -] 'You seem to have the makings of a hero about you, but the difference between &quot;hero&quot; and &quot;villain&quot; dances on the edge of a razor.<BR><BR>I ha'"
+ ],
+ "wiki": {
+  "title": "Darkthorne",
+  "text": "Darkthorne (known as Princess Lavender) is the queen of Briarwood, and the sister of Queen Valerian.\n\nShe began ruling over Briarwood after the assassination of her parents, Geoffrey, Valerian's loyal and most trusted advisor, blamed Lavender and the Chugawugs and they were exiled. She stole half the Heartseed from the Royal Palace and took it to Briarheart, where Lavender tore the Heartseed apart and grew a new version of the World Tree and named it Briarheart Palace. She then assumed the name of Darkthorne, Ayani's twin sister.\n\nIn the Free Realms comic series, it is explained how Darkthorne was blamed by Geoffrey for poisoning her sister Queen Valerian. We learn that this is false, and at the end of the issue 6, it is explained how Geoffrey had poisoned Queen Valerian. It cames out to a happy ending where Darkthorne and the two protagonists, Dane, and Maya get an antidote to Queen Valerian and save her. Darkthorne disappears seconds before Queen Valerian wakes up.\n\nQuests\nQuest:Chapter 1: One Last Favor\nQuest:Chapter 1: The Queen's Last Hope\n\nAppearances\nFree Realms - Briarwood\nQuest:Chapter 1: Shrouded History (mentioned)\nQuest:Chapter 1: Find the Caravan! (mentioned)\nQuest:Chapter 1: There's Fungus Among Us! (mentioned)\nQuest:Chapter 1: It's Business Time (mentioned)\nQuest:Chapter 1: Pampered Pets (mentioned)\nQuest:Chapter 1: Report to Captain Chugug (mentioned)\nQuest:Chapter 1: Bearer of Bad News (mentioned)\nQuest:Chapter 1: Failure is Not an Option\nQuest:Chapter 1: One Last Favor\nQuest:Chapter 1: The Alchemy of Betrayal\nFree Realms Issue 1 (mentioned)\nFree Realms Issue 2 (mentioned)\nFree Realms Issue 3 (mentioned)\nFree Realms Issue 4\nFree Realms Issue 5\nFree Realms Issue 6\nFree Realms Issue 8 (mentioned)\nFree Realms Issue 9 (mentioned)\nFree Realms Issue 12\nBriarw"
+ },
+ "images": [
+  "image (image:art_or_promo): DARKTHORNE",
+  "image (image:character_or_npc): Briarheart Palace\nDarkthorne\nAdventurer\n20\n0\n2500/2500\n100/100",
+  "image (image:art_or_promo): Darkthorne\nNeeds\nYour Help\nTo Fight\nThe Gloam\nOverlord!"
+ ],
+ "video": [
+  "video:w8TRT6qbfmI/00014.jpg (-): npcs: Pappy Farnum nameplate  | quest: The Last Best Hope  Defend Darkthorne from the Gloam Talk to Pappy Farnum  | job_level: Adventurer 1 | other_text: Active Quest! The Gloam have trapped Darkthorne in the Heartseed Chamber. Take Me There Upgrade Now for Power Hour!",
+  "video:3caQP-As968/00370.jpg (-): dialog: Ah, at last. I've found you. There is no escaping the Gloam! | quest: The Last Best Hope  Defend Darkthorne from the Gloam - 0/3  | job_level: Brawler 1 | other_text: Goal Complete Interact with the Hero's Journal The Gloam have trapped Darkthorne in the Heartseed Chamber",
+  "video:0mJBW1a0EIc/00096.jpg (-): npcs: Private Grimple nameplate  Private Yorble nameplate  | dialog: Isn't the password Darkthorne? | job_level: Archer 20 | other_text: 00:34:93",
+  "video:3caQP-As968/00194.jpg (Darkthorne?): dialog: It worked! You're really here! But, hmm... something doesn't seem right. Oh! I hope there weren't any problems with the summoning spell! Let's make sure everything is all right first. | other_text: Okay!",
+  "video:3caQP-As968/00410.jpg (-): npcs: Landon Oldfrown nameplate  | dialog: So you're the great hero Darkthorne sent eh? You don't look like much but we Farnums are people of our word, we'll help you do what you need to do. | quest: The Last Best Hope Landon Oldfrown   | other_text: Show Details Thanks!"
+ ],
+ "article_facts": [
+  "fact:npc: Darkthorne is a fairy princess who was exiled from The Sanctuary and sought refuge in Briarwood. | When the fairy princess Darkthorne was exiled from The Sanctuary, she sought refuge in Briarwood. (http://www.tentonhammer.com:80/node/65080)",
+  "fact:location: Briarwood grew darker and more forbidding for several years after Darkthorne's exile, though Darkthorne has made it safer to make a living there. | For several years after Darkthorne was exiled, the lands of Briarwood grew darker and more forbidding. (http://www.tentonhammer.com:80/node/65080)",
+  "fact:other: In comic issue #5, Darkthorne reveals a dangerous secret, and the issue raises the question of a spy in Queen Valerian's court. | Darkthorne reveals a dangerous secret. Could there be a spy in Queen Valerian's court? (http://www.freerealms.com:80/article/detail.action?articleId=936)",
+  "fact:location: Briarwood is a area of Free Realms with a foreboding depths where the fairy princess Darkthorne has been in exile for several years. | Dark within the foreboding depths of Briarwood, the fairy princess Darkthorne has remained in exile for several years. (http://www.tentonhammer.com:80/node/65239)"
+ ],
+ "quest_answers_naming_it": [
+  "giver of 'Hero's Journal' (final, zone Briarwood)",
+  "go target in 'Chapter 1: Failure is Not an Option' (final): Enter Briarheart Palace and speak with Darkthorne",
+  "giver of 'Chapter 1: One Last Favor' (final, zone Briarwood (giver); Briarheart Palace, Blackspore (objectives))",
+  "go target in 'Chapter 1: One Last Favor' (final): Enter Briarheart Palace and speak with Darkthorne",
+  "go target in 'Chapter 1: The Alchemy of Betrayal' (final): Return to Darkthorne in Briarheart Palace",
+  "giver of 'Chapter 1: The Queen's Last Hope' (final, zone Sanctuary)"
+ ]
+}

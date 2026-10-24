@@ -1,0 +1,45 @@
+{
+ "title": "Amazing Asp",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\snakes_in_a_maze.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:115500 [quest_title | - | Amazing Asp] 'Amazing Asp'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:115500 [quest_title | - | Amazing Asp] 'Amazing Asp'",
+  "locale:115501 [quest_objective | Shrouded Glade | Amazing Asp] 'Deliver the mail in Shrouded Glade.'",
+  "locale:115502 [quest_objective | Shrouded Glade | Amazing Asp] 'Click on each of the specified people to deliver the mail to them.'"
+ ],
+ "client_cluster": [
+  "locale:115492 [quest_objective | Highroad Junction | Moxy] \"Click on Mercy's dog, Moxy, to start the pet tutorial.\"",
+  "locale:115495 [quest_dialog | Highroad Junction | Mercy Merrywings] \"Junior Pet Trainer Mercy Merrywings is about to teach you the basics of pet training. Learn all you can so that you're ready to take care of your own pet someda\"",
+  "locale:115496 [quest_objective | Frost Ridge Speedway | Chad Fastflutter] 'Talk to Chad Fastflutter'",
+  "locale:115497 [quest_objective | Frost Ridge Speedway | Chad Fastflutter] \"Chad should be hanging out in front of the Frost Ridge Speedway. Find him and see if he has Raina's autographing pen!\"",
+  "locale:115498 [quest_title | Shrouded Glade | Always on Time] 'Always on Time'",
+  "locale:115499 [quest_objective | Shrouded Glade | Always on Time] 'Deliver the mail in Shrouded Glade before time runs out!'",
+  "locale:115500 [quest_title | - | Amazing Asp] 'Amazing Asp'",
+  "locale:115501 [quest_objective | Shrouded Glade | Amazing Asp] 'Deliver the mail in Shrouded Glade.'",
+  "locale:115502 [quest_objective | Shrouded Glade | Amazing Asp] 'Click on each of the specified people to deliver the mail to them.'",
+  "locale:115503 [quest_title | - | Sneaky Serpent] 'Sneaky Serpent'",
+  "locale:115504 [quest_title | - | Poisonous Python] 'Poisonous Python'",
+  "locale:115505 [quest_dialog | Shrouded Glade | Maple] \"Maple trusted me to keep her location secret. &quot;Don't tell anyone where I am going unless they beat you in a card match&quot; she said. Of course, no one's \""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:piWfe7lXZ9I/00066.jpg (-): npcs: Private Gorglemain nameplate  Private Driple nameplate  | job_level: Card Duelist 20 | other_text: Amazing Asp (marker, 52m)",
+  "video:piWfe7lXZ9I/00078.jpg (-): npcs: Private Driple nameplate  | job_level: Card Duelist 20 | other_text: Bristlewood Vulture (marker) Amazing Asp (marker, 53m)",
+  "video:piWfe7lXZ9I/00084.jpg (-): npcs: Private Driple nameplate  | job_level: Card Duelist 20 | other_text: Bristlewood Vulture (marker) Amazing Asp (marker, 53m)",
+  "video:piWfe7lXZ9I/00096.jpg (-): npcs: Carlisle Grey nameplate  Private Driple nameplate  | landmarks: Rich Gold Mining (marker, 108m) | job_level: Card Duelist 20 | other_text: Press X or Amazing Asp (marker, 46m)",
+  "video:piWfe7lXZ9I/00057.jpg (-): npcs: Private Gorglemain nameplate  | landmarks: large dark cliff wall purple hedges | job_level: Card Duelist 20 | other_text: Amazing Asp (nameplate, 62m) The Snarling Hedges (label, partly hidden)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

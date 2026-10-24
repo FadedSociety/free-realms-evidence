@@ -1,0 +1,36 @@
+{
+ "title": "Shambler Miner",
+ "our_entries": [
+  {
+   "file": "dungeons\\haunted_mines.json",
+   "definition_id": 930034
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:6482 [npc_name | - | Shambler Miner] 'Shambler Miner'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6482 [npc_name | - | Shambler Miner] 'Shambler Miner'"
+ ],
+ "client_cluster": [
+  "locale:6474 [npc_name | - | Rockslide] 'Rockslide'",
+  "locale:6475 [npc_name | - | Cave Yeti] 'Cave Yeti'",
+  "locale:6476 [npc_name | - | Frosty] 'Frosty'",
+  "locale:6477 [npc_name | - | Chillblaine] 'Chillblaine'",
+  "locale:6478 [npc_name | - | Rock Crawler] 'Rock Crawler'",
+  "locale:6479 [npc_name | - | Elder Rock Crawler] 'Elder Rock Crawler'",
+  "locale:6481 [npc_name | - | Ghost Miner] 'Ghost Miner'",
+  "locale:6482 [npc_name | - | Shambler Miner] 'Shambler Miner'",
+  "locale:6484 [ability | - | Aggravating Wing Flap] 'Aggravating Wing Flap'",
+  "locale:6486 [other | - | -] 'The mushroom caverns are full of interesting types of mushrooms.  Beware of the ferocious denizens of this deep cave.'",
+  "locale:6488 [place | Howling Hills | Howling Hills] 'Howling Hills'",
+  "locale:6489 [item | - | Boombox!] 'Boombox!'",
+  "locale:6490 [item | - | sh_primitive_radio_01 | FLAG placeholder: internal asset name] 'sh_primitive_radio_01'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

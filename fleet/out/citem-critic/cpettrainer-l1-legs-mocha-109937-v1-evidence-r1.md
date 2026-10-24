@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpettrainer-l1-legs-mocha-109937-v1-evidence-r1 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4229, 8368, 6, 1674] model=claude-haiku-5-5 -->
+# pettrainer_L1_legs_mocha
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (sibling colour sets)", "issue": "Says 'the same colour set appears under both prefixes'. The pack only shows partial overlap: Animal Handler legs honey, jungle, latte, mahogany, mudpie and ocean match Pet Trainer colours, but Pet Trainer also has merlot, mocha, olive and plum, and the Pet Trainer.md:231 list has 16 colours that are not all Animal Handler ones. The sets overlap; they are not the same.", "fix": "Say 'the two prefixes share several colour names (e.g. honey, jungle, latte, mahogany, mudpie, ocean)'. Source: locale:109932-109940 in the pack; Pet Trainer.md:231 for the 16-colour Pet Trainer legs list."}]}

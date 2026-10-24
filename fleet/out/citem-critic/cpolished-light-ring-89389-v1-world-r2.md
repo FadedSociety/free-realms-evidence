@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolished-light-ring-89389-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3177, 6943, 6, 839] model=claude-haiku-5-5 -->
+# Polished Light Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / source_guess", "issue": "The first-pass 'crafting' guess was correctly dropped to unverified. My lookups confirm nothing else: lookup on 'Polished Light Ring' returns only client locale:89389, with no wiki, article or video hit, and repo searches for 10380, Polished Light, Polished Sun or Faded Void find no item, store, recipe or quest row.", "fix": "No change needed. The answer correctly leaves sources empty, retired null and live 'unsure'. Consider recording that the sibling rings (Faded Void, Polished Fire, Polished Sun) share the same unsourced status, so they can be checked together."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifladnag-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3611, 4403, 6, 900] model=claude-haiku-5-5 -->
+# Fladnag
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the wiki 'Sells' list is 'not an item-level source for any one item' is too strong. The wiki does name each listed item as sold by Fladnag, which is a vendor-level source for those items. It is only missing prices and currency, so the honest wording is 'vendor source, no price'.", "fix": "Reword to: the wiki Fladnag page lists 15 stock items as sold by him (e.g. Scholar Wizard Talisman, Wizard's Bone Wand of Lightning), giving vendor membership but no price or currency. Source: https://freerealms.fandom.com/wiki/Fladnag"}]}

@@ -1,0 +1,44 @@
+{
+ "title": "Gloam Creature",
+ "our_entries": [
+  {
+   "file": "encounters.json",
+   "name_id": 5101961,
+   "definition_id": 920001,
+   "model_id": 3933,
+   "max_health": 300,
+   "damage": 35,
+   "boss": false
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:5101961 [npc_name | - | Gloam Creature] 'Gloam Creature'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5101961 [npc_name | - | Gloam Creature] 'Gloam Creature'"
+ ],
+ "client_cluster": [
+  "locale:5101953 [npc_dialog | - | Queen Raven] 'SILENCE!'",
+  "locale:5101954 [npc_dialog | - | Queen Raven] 'Yes, my Queen!'",
+  "locale:5101955 [npc_dialog | - | Queen Raven] 'This is a day of festivities!'",
+  "locale:5101956 [npc_dialog | - | Wugachug | FLAG joke: robgoblin party gag line, not quest content] 'So eat, drink, and be merry! Party on, Wugachug!'",
+  "locale:5101957 [npc_dialog | - | Queen Raven] 'Queen Raven is SO cool!'",
+  "locale:5101958 [npc_dialog | - | Queen Raven] 'I want to be like Queen Raven when I grow up!'",
+  "locale:5101959 [npc_dialog | - | Queen Raven] \"She's so beautiful!\"",
+  "locale:5101960 [npc_dialog | - | Queen Raven] 'Party on, Queen Raven!'",
+  "locale:5101961 [npc_name | - | Gloam Creature] 'Gloam Creature'",
+  "locale:5101962 [ability | - | Wild Recovery] 'Passive - Shard - Tier 2 - Wild Recovery'",
+  "locale:5101964 [ability | - | Wild Durability | FLAG flag: typo \"Durabiilty\" in title] 'Passive - Shard - Tier 2 - Wild Durabiilty'",
+  "locale:5101966 [ability | - | Recklessness] 'Passive - Shard - Tier 2 - Recklessness'",
+  "locale:5101968 [ability | - | Chugging] 'Passive - Shard - Tier 2 - Chugging'",
+  "locale:5101969 [other | - | Shard passives | FLAG dev_note: internal note about consumables triggering effects] 'New consumables key off of this effect to trigger alternate ability effects.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'One More Gloam' (final): Before you leave to find the Queen, Pappy Farnum asked for your help defeating one last Gloam Creature roaming nearby."
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "title": "Troll Initiate",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\treasure_of_the_bone_shaman.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:72267 [npc_name | - | Troll Initiate] 'Troll Initiate'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:72267 [npc_name | - | Troll Initiate] 'Troll Initiate'"
+ ],
+ "client_cluster": [
+  "locale:72264 [place | - | Skull's Eye North] \"Skull's Eye North\"",
+  "locale:72267 [npc_name | - | Troll Initiate] 'Troll Initiate'",
+  "locale:72269 [npc_name | - | Troll Bone Shaman] 'Troll Bone Shaman'",
+  "locale:72270 [ability | - | Skull Eye Beam] 'Skull Eye Beam'",
+  "locale:72272 [npc_dialog | - | Skull's Eye North] \"What ya waitin' for? Start lootin' already!\"",
+  "locale:72273 [quest_dialog | Bristlewood Glade | NOT LIVE - Shadows in the Trees | FLAG not_live: part of NOT LIVE quest] \"Amaranthus has become quite angry with us as of late, and won't let us approach Bristlewood Glade.  I did see something that seemed suspicious though.<BR><BR>I \"",
+  "locale:72274 [quest_title | Bristlewood Glade | NOT LIVE - Shadows in the Trees | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - Shadows in the Trees'",
+  "locale:72275 [quest_dialog | Bristlewood Glade | NOT LIVE - Shadows in the Trees | FLAG not_live: part of NOT LIVE quest] 'A farmer named Clem says that he saw a shadowy figure crawling among the trees of the Bristlewood Glade! Perhaps it is time to search the Glade for some clues.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

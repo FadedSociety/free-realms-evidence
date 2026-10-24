@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgemstone-scalpel-139930-v2-evidence-r3 status=no_submit turns=3 usd=0.0024 tokens(read,write,in,out)=[15009, 11875, 8, 1435] model=claude-haiku-5-5 -->
+# Gemstone Scalpel
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "The Blacksmith quest 'Blacksmith: Gemstone Roundup' (client locale 95101) is a Gemstone-named quest that the answer never checks. The client text shows it asks for 20 Moonstones and 20 Fire Agates, so it is not evidently a reward for the Scalpel, but the pack doesn't rule it out as a route to the Gemstone set.", "fix": "Leave the Scalpel without a quest source unless a reward row names item 48180 or the Gemstone Scalpel. Note the Blacksmith quest as checked and unlinked (locale:95101; wiki page Blacksmith)."}]}

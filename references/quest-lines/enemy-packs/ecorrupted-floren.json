@@ -1,0 +1,47 @@
+{
+ "title": "Corrupted Floren",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\feisty_floren.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:141109 [npc_name | - | Corrupted Floren] 'Corrupted Floren'",
+  "locale:5102916 [npc_name | - | Corrupted Floren] 'Corrupted Floren'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:141109 [npc_name | - | Corrupted Floren] 'Corrupted Floren'",
+  "locale:5102916 [npc_name | - | Corrupted Floren] 'Corrupted Floren'"
+ ],
+ "client_cluster": [
+  "locale:141101 [quest_objective | - | Ice Trolls] 'Go pummel some Ice Trolls in the Howling Hills and then return to me.'",
+  "locale:141103 [ui | - | -] 'You need to be a Member to use this gate!'",
+  "locale:141106 [quest_title | - | Bixie Bud Blitz] 'Bixie Bud Blitz'",
+  "locale:141108 [quest_dialog | - | -] 'The wolf whimpers and runs away.  '",
+  "locale:141109 [npc_name | - | Corrupted Floren] 'Corrupted Floren'",
+  "locale:141110 [quest_title | - | Nature's Essence] \"Nature's Essence\"",
+  "locale:141113 [quest_objective | - | Nature's Essence] 'Corrupted Floren are absorbing the life out of the wilderness around them! Stop them before the land becomes barren!'",
+  "locale:141114 [other | - | Thunder Falls Demo Derby] 'Thunder Falls Demo Derby'",
+  "locale:141115 [quest_objective | - | Nature's Essence] 'Defeat the Floren!'",
+  "locale:141116 [quest_objective | - | Nature's Essence] 'Prevent the Corrupted Floren from sapping the life out of the land.  '",
+  "locale:141117 [quest_objective | - | Nature's Essence] 'Feisty Floren! Bonus'"
+ ],
+ "wiki": {
+  "title": "Corrupted Floren",
+  "text": "The Corrupted Floren is a floren enemy NPC that appears in the Feisty Floren! battle, located in Northern Wilds.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Floren\nCategory:Wilds"
+ },
+ "images": [],
+ "video": [
+  "video:Yoxys3l0-vg/00010.jpg (-): npcs: Corrupted Floren nameplate  | quest:   Defeat the Floral Bonus: Restore Natural -  | landmarks: blue rock cliffs pale flowers | job_level: Warrior 7 | other_text: Goals (2) Corrupted Floren",
+  "video:Yoxys3l0-vg/00112.jpg (-): npcs: Corrupted Floren nameplate  | quest:   Defeat the Floral Bonus: Restore Natural -  | landmarks: white flowers green grass tree | job_level: Warrior 7 | other_text: Goals (2) Corrupted Floren",
+  "video:Yoxys3l0-vg/00008.jpg (-): npcs: Corrupted Floren nameplate  | quest:   Defeat the Floral Bonus: Restore Natural -  | landmarks: blue rock cliffs green glowing spores | job_level: Warrior 7 | other_text: Goals (2) Corrupted Floren",
+  "video:Yoxys3l0-vg/00092.jpg (-): npcs: Corrupted Floren nameplate  | quest:   Defeat the Floral Bonus: Restore Natural -  | landmarks: large tree trunk blue rock cliff | job_level: Warrior 7 | other_text: Goals (2) Corrupted Floren",
+  "video:Yoxys3l0-vg/00126.jpg (-): npcs: Corrupted Floren nameplate  | quest:   Defeat the Floral Bonus: Restore Natural -  | landmarks: blue rock wooden log white flowers | job_level: Warrior 7 | other_text: Goals (2) Corrupted Floren"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

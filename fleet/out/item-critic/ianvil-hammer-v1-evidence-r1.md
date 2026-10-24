@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ianvil-hammer-v1-evidence-r1 status=no_submit turns=2 usd=0.0010 tokens(read,write,in,out)=[3793, 4308, 6, 942] model=claude-haiku-5-5 -->
+# Anvil Hammer
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[1] / sources[0].price", "issue": "The claim 'for 928 coins' is attributed to the wiki page text, but the fetched page text reads 'for  coins' with the number blank. The 928 comes only from the wiki's structured coins field (rev 27945). The price is right to use, but it should be cited as that field, not as the sentence.", "fix": "Keep 928 coins, citing the wiki coins field (rev_id 27945), and note the prose price is blank. Hank Fisticuffs as the Snowhill seller is confirmed by the wiki prose and the client NPC name at locale 90196."}]}

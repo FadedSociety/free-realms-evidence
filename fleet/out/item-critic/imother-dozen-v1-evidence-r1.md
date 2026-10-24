@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imother-dozen-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3269, 5203, 6, 1015] model=claude-haiku-5-5 -->
+# Mother Dozen
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The spawn-data claim cites npc_spawns_extra.json:11212. I did not verify that line. The claim is harmless to the item answer, but it is unchecked.", "fix": "Verify the line number in prototype/osfr-tools/data/content/npc_spawns_extra.json or drop the claim. It does not change the sourcing result."}, {"field": "open[1]", "issue": "The 10-versus-11 children note cites NPCs - Seaside.md:300, which I did not check. The wiki text does say 10 pixie children, as stated.", "fix": "No change to sources. Keep it as an honest unknown, or check line 300 before relying on the count."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbent-fork-1310-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4079, 6189, 6, 1517] model=claude-haiku-5-5 -->
+# Bent Fork
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / source.where", "issue": "The answer calls the wiki placement a 'category label only' citation. collections.json lines 11843-11848 are a label_difference record with client_label 'Robgoblin Junk', wiki_label 'Various Robgoblin Junk' and source_tag 'client+wiki', so the repo does record a wiki label. The claim is still unconfirmed by the wiki lookup (no matches), so the hedge is right, but the citation should describe the record accurately.", "fix": "Cite repo collections.json:11843-11848 as a label_difference record (client 'Robgoblin Junk' vs wiki 'Various Robgoblin Junk'); note that no live wiki page text was found to confirm it."}]}

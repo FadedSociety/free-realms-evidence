@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-piece-047-rs-L1 status=done turns=6 usd=0.0058 tokens(read,write,in,out)=[48044, 22885, 14, 4902] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_047.rs lines 1-208 of 208
+
+Window: `prototype/osfr-tools/tests/piece_047.rs` lines 1-208. Read against `src/restoration/piece_047.rs` (`stat_row` at 434, `decode_item_stat` at 444, `GEAR_STAT_ITEMS` at 546, `equip_gate` at 609).
+
+- **[medium] prototype/osfr-tools/tests/piece_047.rs:50 stat_table_is_contiguous_and_matches_the_recovered_enum - the name check compares the table with itself, so only the index check is real.**
+  Why it cannot catch a regression: `stat_row(id)` is `CHARACTER_STAT_IDS.get(id as usize)` (src 434-435), i.e. the same slice iterated on line 53. Line 55 `assert_eq!(stat_row(row.id).map(|r| r.name), Some(row.name))` is therefore always true for any name, and nothing in the test reads the recovered `CharacterStatId` enum or `CharacterStats.cs` (which the module doc cites as the source). Renaming or re-kinding a row (e.g. `id: 24` changed from Float to Int, or two names swapped with ids kept in order) still passes lines 51-69 unless it hits one of the seven spot-checked ids.
+  Fix: assert the full 69-entry name list (and each row's Int/Float kind) against an literal array transcribed from `CharacterStatId.cs` and `CharacterStats.cs`, instead of re-reading `CHARACTER_STAT_IDS`; drop the self-comparison on line 55.
+
+- **[medium] prototype/osfr-tools/tests/piece_047.rs:141 fire_hawk_item_binds_to_the_recovered_mount_row - the name claims a bind to the mount row, but the mount row is never loaded or compared.**
+  Why it cannot catch a regression: line 143 only checks `item.param1 == FIRE_HAWK_MOUNT_ID`, and that constant is the same literal `13459` the item row was written with (src 55, 572). No code or test reads `data/content/mounts.json` (row 13459 exists there) or compares its glide fields with item 78397's vector (lines 88-100 of this file). The item's doc calls Mounts.json the "independent second source", but this test never uses it. Changing the mount id in both constants, or altering the mount's glide values, still passes.
+  Fix: load the mount row 13459 from `data/content/mounts.json` and assert its glide fields (default speed, min, max, fall time, glide enabled, and the other values) equal the decoded `GEAR_STAT_ITEMS` vector for 78397. Alternatively rename the test to say only that `Param1` is 13459.
+
+- **[low] prototype/osfr-tools/tests/piece_047.rs:204 native_container_capacity_stays_above_the_recovered_id_space - lines 205 and 207 pin constants to their own literals.**
+  Why it cannot catch a regression: `NATIVE_ITEM_STAT_CONTAINER_CAPACITY == 71` (line 205) and `(INT_WIRE_TYPE, FLOAT_WIRE_TYPE) == (0, 1)` (line 207) compare a `const` with a literal, so they only fail if someone edits the constant alone; no behaviour is exercised. The only real check is line 206 (`>= 69`), which is weak because it does not tie the value to the 71-slot pseudocode.
+  Fix: keep the 71 pin as a documented constant with a source reference, and have the wire-type check exercise `decode_item_stat`/the serializer for a float-kind row (for example, a type-1 stat must decode from a float32 bit pattern). Treat this as churn-prone and low priority.

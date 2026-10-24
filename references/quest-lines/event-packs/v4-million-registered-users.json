@@ -1,0 +1,41 @@
+{
+ "title": "4 Million Registered Users celebration",
+ "names_seen": [
+  "4 Million Registered Users celebration"
+ ],
+ "facts": [
+  {
+   "statement": "An in-game bonus reward event celebrated 4 million registered Free Realms players.",
+   "numbers": {
+    "registered_players": 4000000
+   },
+   "era": "live",
+   "quote": "To celebrate the 4 million registered players in Free Realms, we're hosting an in-game bonus reward event",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=134",
+   "date": "2009-07-02"
+  },
+  {
+   "statement": "During the event (July 2 to July 8, 2009), receiving Treasure Tickets was doubled.",
+   "numbers": {
+    "start_day": 2,
+    "end_day": 8,
+    "month": 7,
+    "year": 2009
+   },
+   "era": "live",
+   "quote": "From July 2nd to July 8th 2009, receive double the Treasure Tickets!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=134",
+   "date": "2009-07-02"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=134",
+   "date": "2009-07-02",
+   "title": "Celebrate With Us - Over 4 Million Registered Users",
+   "summary": "SOE's news post announces a limited in-game bonus event celebrating 4 million registered Free Realms players, running July 2 to July 8, 2009, in which Treasure Tickets are doubled. Players spend Treasure Tickets at the Royal Vault in Sanctuary for rewards, and Members Only rewards are also mentioned. The posting date is inferred from the relative 'Posted 1 day, 5 hours ago' stamp against the July 3, 2009 capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

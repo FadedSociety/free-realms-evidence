@@ -1,0 +1,128 @@
+{
+ "title": "In-game community events schedule",
+ "names_seen": [
+  "In-game community events schedule",
+  "In-game events schedule",
+  "in-game community events schedule"
+ ],
+ "facts": [
+  {
+   "statement": "In-game events ran on Tuesdays at 18:00 and 16:00 PST, Thursdays at 15:00, and Friday mornings at 18h (as written in the post).",
+   "numbers": {
+    "tuesday_hours_pst_a": 18,
+    "tuesday_hours_pst_b": 16,
+    "thursday_hour_pst": 15,
+    "friday_morning_hour": 18
+   },
+   "era": "live",
+   "quote": "les événements en jeu se produisent tous les mardis à 18 heures et 16 heures PST, les jeudis à 15 heures, et le vendredi matin à 18h",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1552",
+   "date": null
+  },
+  {
+   "statement": "In-game community events were expected on Tuesdays at 9am and 4pm PST, Thursdays at 3pm PST, and Friday mornings at 9am PST; TCG events were expected every day.",
+   "numbers": {
+    "tuesday_am_pst": 9,
+    "tuesday_pm_pst": 16,
+    "thursday_pst": 15,
+    "friday_am_pst": 9
+   },
+   "era": "live",
+   "quote": "expected to happen every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST and Friday mornings at 9am PST",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1596",
+   "date": null
+  },
+  {
+   "statement": "In-game events were expected every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST, and Friday mornings at 9am PST; TCG events were expected every day.",
+   "numbers": {
+    "tuesday_am_pst": 9,
+    "tuesday_pm_pst": 16,
+    "thursday_pst": 15,
+    "friday_am_pst": 9
+   },
+   "era": "live",
+   "quote": "expected to happen every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST and Friday mornings at 9am PST",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1624",
+   "date": null
+  },
+  {
+   "statement": "In-game events were expected Tuesdays at 9am and 4pm PST, Thursdays at 3pm PST, and Friday mornings at 9am PST.",
+   "numbers": {
+    "Tuesday_am_PST": 9,
+    "Tuesday_pm_PST": 16,
+    "Thursday_PST": 15,
+    "Friday_am_PST": 9
+   },
+   "era": "live",
+   "quote": "expected to happen every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST and Friday mornings at 9am PST",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1757",
+   "date": null
+  },
+  {
+   "statement": "In-game events were expected every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST, and Friday mornings at 9am PST.",
+   "numbers": {
+    "Tuesday_am_PST": 9,
+    "Tuesday_pm_PST": 16,
+    "Thursday_PST": 15,
+    "Friday_am_PST": 9
+   },
+   "era": "live",
+   "quote": "expected to happen every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST and Friday mornings at 9am PST",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1775",
+   "date": null
+  },
+  {
+   "statement": "Game community events were expected on Tuesdays at 09:00 and 16:00 Pacific Time, Thursdays at 15:00 Pacific Time, and Friday mornings at 09:00 Pacific Time.",
+   "numbers": {
+    "tuesday_am_pt_hour": 9,
+    "tuesday_pm_pt_hour": 16,
+    "thursday_pt_hour": 15,
+    "friday_am_pt_hour": 9
+   },
+   "era": "live",
+   "quote": "martes a las 09:00 hrs. y 16:00 hrs. TP (tiempo pacifico), y los jueves a las 15:00 hrs.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1592",
+   "date": "2010-07-01"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1552",
+   "date": null,
+   "title": "Camp d'été – La Semaine d'Aventure! (Free Realms - What is New?)",
+   "summary": "A French-language official news post from Free Realms' summer camp event run, announcing the 'Adventure Week' theme and listing when in-game events run. It also explains how to use the in-game Game Guide calendar to find events and teleport to them. The post gives no exact date (only 'posted 11 months, 1 week ago' relative to capture)."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1596",
+   "date": null,
+   "title": "Summer Camp - Sports Week",
+   "summary": "An official Free Realms news post announcing Sports Week, one week of the Summer Camp community event series, with a Snowhill soccer challenge and a sports-themed house party. It gives the schedule of in-game events and explains how to find and teleport to them through the Game Guide calendar. The post is dated only relatively ('1 month, 6 days ago' at capture on 2010-08-13), so its exact date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1624",
+   "date": null,
+   "title": "Summer Camp - Arts and Crafts Week",
+   "summary": "A live-game community event post for the Summer Camp season, covering the 'Arts and Crafts Week' theme, which highlights crafting jobs (Blacksmith, Cook), music boomboxes, and house block sculptures. It gives the expected in-game event schedule and explains how to find events through the Game Guide calendar and GO button teleport. The post is dated only relatively ('1 week, 5 days ago') so no absolute date can be confirmed."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1757",
+   "date": null,
+   "title": "Summer Camp - Treasure Hunting Week",
+   "summary": "A Free Realms official news post from the 2010 Summer Camp series, themed Treasure Hunting Week. It lists the ways players could find treasure (mining, Robgoblin Junk Piles, hidden exploration tokens, pet digging) and the expected schedule of in-game and TCG community events, plus how to use the Game Guide calendar to teleport to events. The post gives expected schedules, not confirmed ones."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1775",
+   "date": null,
+   "title": "Summer Camp - Pet Week",
+   "summary": "A freerealms.com news post announcing Pet Week, the final theme of the 2010 Summer Camp community event season. It describes a pet parade from Crossroads to Sanctuary and the expected schedule of in-game and TCG events, and explains how to find events through the Game Guide calendar. The post gives a relative posting time ('2 days, 21 hours ago') and no absolute date."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1592",
+   "date": "2010-07-01",
+   "title": "Campamento de Verano – Semana de Moda (Free Realms - What is New?)",
+   "summary": "A Spanish-language SOE news post announcing Fashion Week, the themed week of the Summer Camp community event in Free Realms. It gives the weekly schedule for in-game community events and explains how players find and join them via the Game Guide calendar. It also says Trading Card Game (JCC) events run daily."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

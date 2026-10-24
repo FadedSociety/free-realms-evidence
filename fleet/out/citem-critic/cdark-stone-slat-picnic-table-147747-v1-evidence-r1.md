@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdark-stone-slat-picnic-table-147747-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3929, 6064, 6, 1192] model=claude-haiku-5-5 -->
+# Dark Stone Slat Picnic Table
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' although no vendor or NPC is identified (where: null). The only evidence is a coin-store row in category 53, which is a store listing, not a named vendor.", "fix": "Relabel as a coin-store listing (store category 53, item_id 36548) and leave the vendor field unknown. Supporting row: repo:prototype/osfr-tools/data/content/stores.json:12019."}, {"field": "sources[0].source", "issue": "The row's source_tags (L1, L2, L4, R2, T633, R1) are not mentioned. They are unexplained and may matter for where the item is sold.", "fix": "Record the source_tags array alongside the row, or state that their meaning is unknown."}]}

@@ -1,0 +1,23 @@
+{
+ "title": "Black Widow, Frostfang Bat, Necrowart Zombie",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000004,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Wiki enemy pages tagged Blackspore",
+   "location_evidence": [
+    "Swamp, caves, Pumpkin Prince spawns"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

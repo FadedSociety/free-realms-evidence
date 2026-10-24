@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=forum-forumdisplay-php-f-85 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3582, 4, 550] model=claude-haiku-5-5 -->
+# Guilds - Free Realms Forums
+
+{"article": {"title": "Guilds - Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This is a thread-index page for the fan forum's Guilds subforum, captured 2009-05-26. It lists eight threads (for example Kokoro Kara, Tis Guild, Ctrl Alt Elites, Site Guild/Clan, F5mashers) with reply counts, view counts and last-post dates from late April to late May 2009. It contains no game mechanics, guild features, quests, items or prices, so it gives a rebuilder no usable game facts.", "facts": [], "quests": [], "uncertain": ["The page is a forum index with no player posts or staff statements; the thread titles are player-created community groups, not game features, so none were recorded as facts."]}

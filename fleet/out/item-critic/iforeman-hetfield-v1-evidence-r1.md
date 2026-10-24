@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iforeman-hetfield-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3779, 4942, 6, 1131] model=claude-haiku-5-5 -->
+# Foreman Hetfield
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].claim", "issue": "The claim 'He sells no item of his own under his name' is a negative inference. The wiki page (rev 44484) only says he prompts the player to open the SC Marketplace with a housing filter. It neither confirms nor denies that he sells items, and no vendor stock row exists in the pack.", "fix": "Reword to: 'The wiki page describes him only as opening the SC Marketplace with a playground housing filter; it lists no item he sells (wiki text, https://freerealms.fandom.com/wiki/Foreman_Hetfield; vendor_stock is empty).'"}]}

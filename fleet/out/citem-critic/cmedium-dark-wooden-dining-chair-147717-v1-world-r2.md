@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmedium-dark-wooden-dining-chair-147717-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3791, 4711, 6, 893] model=claude-haiku-5-5 -->
+# Medium Dark Wooden Dining Chair
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "Marked \"yes\" on the strength of the stores.json record plus the first-pass tag. The record has no date or dated source, and the answer's own open list says retirement is unknown. \"live\" should read unknown or unconfirmed, not yes.", "fix": "Set live to unknown (or 'record present in stores.json, no dated confirmation'). The store row itself is verified: repo stores.json line 11989 has item_id 36518, category 53, tint group 1, purchase 50, member discount 10%, member price 45, no_sale false."}]}

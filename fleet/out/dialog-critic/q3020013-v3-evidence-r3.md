@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=q3020013-v3-evidence-r3 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[17760, 9723, 8, 1668] model=claude-haiku-5-5 -->
+# Blacksmith: Supply Delivery
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "progress.speaker", "issue": "94383 carries the tag hint 'Derp', but its text ('Are you here to deliver the Field Support Scalpels from Derp? I asked for these weeks ago!') is the recipient's line, which fits Supply Master Leo. The binder kept the speaker null, which is the honest choice, but the tag/text conflict is only noted in open, not resolved.", "fix": "Leave speaker null (or record Leo as the probable speaker with the text as the basis). Source: locale:94383 tag Derp versus the text, which asks about scalpels 'from Derp' and so is said by the receiver. Do not set Derp from the tag alone."}]}

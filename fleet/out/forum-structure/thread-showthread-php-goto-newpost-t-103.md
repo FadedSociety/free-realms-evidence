@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-goto-newpost-t-103 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2855, 4, 353] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin error screen from the Free Realms fan forum: a 'maximum number of posts you can view' sign-up prompt over a generic forum index. It contains no thread text, guide, or game mechanics, so nothing about how the live game played can be extracted from it.", "facts": [], "quests": [], "uncertain": ["The intended thread (t=103) content is not present; only the error/login wall and forum navigation list were captured.", "Capture date 2009-05-26 is from the archive header; no article date is shown on the page."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ikai-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3587, 4416, 6, 784] model=claude-haiku-5-5 -->
+# Kai
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The ring range is cited as 86486 through 86496, but locale also has 86497 \"Kai's Corporeal Ring\", so the list of Kai-named rings is incomplete.", "fix": "Cite the range as locale 86486-86497 (12 rings, including Kai's Corporeal Ring at 86497). The pack's claim that these are not Kai and have no sources here still holds."}, {"field": "open[1]", "issue": "The claim that the Twisting Hornet stall at Kai's Shack sells Ninja job items was not in the evidence pack, and I did not verify it.", "fix": "Treat it as unverified, or cite the wiki Twisting Hornet page directly before relying on it."}]}

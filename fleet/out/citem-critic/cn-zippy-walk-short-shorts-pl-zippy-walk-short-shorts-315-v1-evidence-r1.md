@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-zippy-walk-short-shorts-pl-zippy-walk-short-shorts-315-v1-evidence-r1 status=no_submit turns=3 usd=0.0029 tokens(read,write,in,out)=[17804, 15254, 8, 1536] model=claude-haiku-5-5 -->
+# {n}Zippy Walk Short Shorts{pl="Zippy Walk Short Shorts"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].claim", "issue": "The claim says there are 17 definitions and lists the ids in the pack, but the pack's definition_ids array has only 12 ids. The other 5 definitions are not named anywhere in the pack, so 'ids ... listed in pack' overstates what was checked.", "fix": "State 12 of 17 definition ids are listed (2779, 2780, 2783, 13301, 13302, 13308, 13309, 13311, 13313, 13314, 13316, 13323); the remaining 5 are unidentified. Source: client definition in the evidence pack."}]}

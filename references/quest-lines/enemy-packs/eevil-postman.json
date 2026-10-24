@@ -1,0 +1,36 @@
+{
+ "title": "Evil Postman",
+ "our_entries": [
+  {
+   "file": "dungeons\\return_to_sender.json",
+   "definition_id": 930009
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:384822 [quest_title | Blackspore | Evil Postman] 'Evil Postman'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:384822 [quest_title | Blackspore | Evil Postman] 'Evil Postman'"
+ ],
+ "client_cluster": [
+  "locale:384814 [quest_dialog | Lakeshore | Thieves About!] \"Someone stole my prized fish! It was the biggest one caught out of this lake in almost a year and now it's gone!\"",
+  "locale:384816 [quest_dialog | Lakeshore | Thieves About!] 'My jewelry chest was stolen two days ago. One moment it was there, and the next it was gone. My mother gave that chest to me. I sure do want it back.'",
+  "locale:384818 [quest_dialog | Lakeshore | Thieves About!] 'Bah... my garden is a mess, and someone has stolen my shovel. How can I dig up the weeds and plant new flowers without my shovel?'",
+  "locale:384820 [quest_dialog | Lakeshore | Thieves About!] \"I'm a gamer see... but it's hard to concentrate on much when my custom gaming table is missing. I'm sure it was those blasted robgoblins who stole it!\"",
+  "locale:384822 [quest_title | Blackspore | Evil Postman] 'Evil Postman'",
+  "locale:384824 [quest_objective | Blackspore | Find the dropped loot!] 'Collect the scattered objects before they sink in to the Blackspore swamp!'",
+  "locale:384825 [quest_objective | Blackspore | Find the dropped loot!] 'Find the dropped loot!'",
+  "locale:384827 [quest_title | Blackspore | Venomous Frog] 'Venomous Frog'",
+  "locale:384828 [quest_title | - | Run off the Robgoblins] 'Run off the Robgoblins'",
+  "locale:384829 [quest_dialog | - | Run off the Robgoblins] 'Shana wants you to teach the Robgoblin Boomers near the Durango Zoo a lesson!'",
+  "locale:384830 [quest_objective | - | Run off the Robgoblins] \"There are <font color='#D9781A'>Robgoblin Boomers</font> wandering around nearby that keep blowing stuff up and scaring the animals. I think they find it funny!\""
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Evil Postman"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

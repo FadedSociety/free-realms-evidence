@@ -1,0 +1,18 @@
+<!-- fleet job=test-audit id=tests-piece-018-rs-L1 status=done turns=4 usd=0.0058 tokens(read,write,in,out)=[32811, 23485, 10, 5140] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_018.rs lines 1-520 of 520
+
+Window: `prototype/osfr-tools/tests/piece_018.rs` lines 1-520. Read against `src/restoration/piece_018.rs` (`handle`, `plan`, `resolve`, `Command`) and `src/dev_teleport.rs` (`STANDOFF`).
+
+- **[high] prototype/osfr-tools/tests/piece_018.rs:401 candidate_routes_report_driver_or_gap_without_relocation - the name promises "without relocation", but every reply is read through `reply_text`, which unwraps both `Command::Reply` and `Command::Route`, so the variant is never checked.**
+  - Why it cannot catch a regression: `plan()` in `src/restoration/piece_018.rs:405-420` could return `Command::Route { reply, actor, guid }` for `mining`, `harvesting`, `fishing`, `kart_racing`, `soccer` or `derby`, with the same reply text. The `api`, `driver` and `module_path` substring checks at lines 410-412 and the `missing` check at line 418 would still pass, and the relocation would go unnoticed. The `handle` side is only checked for `Some` via `unwrap()`.
+  - Fix: at line 409 and line 414, assert the variant directly, e.g. `assert!(matches!(command, Command::Reply(_)), "{slug} must not relocate")`, instead of routing the result through `reply_text`. Do the same for `game derby`.
+
+- **[medium] prototype/osfr-tools/tests/piece_018.rs:324 exact_alias_and_unique_prefix_resolve_without_guessing - the last assertion is `resolve("COOKING").is_err() || resolve("COOKING").unwrap().slug == "cooking"`, which accepts either outcome.**
+  - Why it cannot catch a regression: `resolve` lowercases its input (`src/restoration/piece_018.rs:288`), so the query currently resolves to `cooking`, and the test passes. If case-folding were removed, `resolve("COOKING")` would become `Err` and the disjunction would still pass. Any other result that is `Ok` with a different slug would be caught, but the line does not pin which behaviour is intended, so it asserts nothing decisive about case handling.
+  - Fix: pick the intended behaviour and assert it exactly. Given the implementation, `assert_eq!(resolve("COOKING").unwrap().slug, "cooking");` is the correct pin. If the intent is case-sensitive, use `assert!(resolve("COOKING").is_err());` instead.
+
+- **[low] prototype/osfr-tools/tests/piece_018.rs:185-188 route_table_covers_every_supported_game_once - the exact nine-row expected table pins the route count and each status.**
+  - Why it is churn: adding a route or reclassifying a candidate (for example promoting `mining` to `NativeAccepted`) fails this test even when the change is intended and the test's real concern, that each route is well formed and aliases are unique, still holds. The alias-uniqueness and slug-charset checks are the parts that matter.
+  - Fix: keep the per-route invariants (lines 189-206) and check the status table in `acceptance_status_is_limited_to_the_three_reviewed_movies`, which already covers the status rules; drop the fixed length and row-by-row status list from this test, or move it into a separate, clearly labelled snapshot.
+
+Checked and not reported: the two `#[ignore]` tests at lines 455-520 carry a reason, so they are not silently skipped. The `dev_teleport` standoff checks (lines 343-388) compare against the real `STANDOFF` constant and the actor's own position, so they are not circular. `world_route_refuses_a_missing_entry_actor` (line 390) checks the "Nothing changed" text, which only the `Reply` branch emits, so it is adequate.

@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-node-35064 status=nothing_found turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 5722, 4, 539] model=claude-haiku-5-5 -->
+# SOE Podcast 37 is Live! | Ten Ton Hammer
+
+{"article": {"title": "SOE Podcast 37 is Live!", "date": "2008-06-07", "author": "Morvelaira", "type": "news"}, "about_free_realms": false, "summary": "This is a Ten Ton Hammer news post announcing SOE Podcast #37, which features the Vanguard team, a Cat Neri interview, a new server hamster, and Fan Faire 2008 tips. Free Realms appears only in the page's tag list and sidebar navigation, not in the article body, so the post gives a rebuilder no Free Realms facts.", "facts": [], "quests": [], "uncertain": ["Free Realms is listed only as a tag and in site navigation; the podcast body does not discuss it, so no Free Realms facts were recorded.", "The capture is dated 2010-01-06 but the post itself is from June 2008; the date given is the posting date."]}

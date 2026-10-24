@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-forge-blower-13172-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3501, 11064, 6, 1116] model=claude-haiku-5-5 -->
+# Elite Black Forge Blower
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The source is labelled 'vendor', but the only evidence is a coin-store price row (stores.json line 1819, category_id 107, purchase 338, member 304). No NPC or shop stock row names item 6316, and the pack's vendor_stock is empty. The label claims a vendor the evidence does not show.", "fix": "Relabel as a coin-store sale (for example type 'coin_store') with where null, price 338 coins (304 member), source repo:prototype/osfr-tools/data/content/stores.json:1819. Keep the vendor NPC as an open item. The price and currency check out against stores.json line 1819 and the client definition's coin_store_prices [338]."}]}

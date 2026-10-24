@@ -1,0 +1,4 @@
+<!-- fleet job=quest-critic id=q3010007-v2-evidence-r3 status=done turns=5 usd=0.0033 tokens(read,write,in,out)=[44599, 14118, 12, 2151] model=claude-haiku-5-5 -->
+# Archer: Pondblaster Target Practice
+
+{"lens": "evidence", "pass": true, "score": 4, "problems": [{"field": "live", "issue": "Minor overstatement: 'live: yes' rests only on unflagged client text and a wiki list entry, not a live-server record. The answer's live_reason already says this, so it is a wording point only.", "fix": "Keep the qualifier; consider 'client-present, shipped status inferred'. No change to ids needed."}, {"field": "dialog.progress", "issue": "Left null. 383057 is a hint line that reads like a progress/nudge line, but it is not mapped to a state. The answer correctly declines to assert it.", "fix": "No change required; builder may map 383057 as a progress hint if state wiring is confirmed."}]}

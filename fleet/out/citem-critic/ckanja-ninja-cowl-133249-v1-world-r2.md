@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ckanja-ninja-cowl-133249-v1-world-r2 status=no_submit turns=3 usd=0.0026 tokens(read,write,in,out)=[10520, 12279, 8, 1879] model=claude-haiku-5-5 -->
+# Kanja Ninja Cowl
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 752 / 676 / 75 coin figures come from repo stores.json (category 101, item 76241), which the vendors.json price_basis calls a reference price, not a captured NPC quote. The vendor source states them as if they were the Striking Cheetah price. The answer's open list discloses this, but the source row does not.", "fix": "Mark the vendor price as an unverified store reference (752 coins, repo stores.json item 76241, price_basis 'reference price, not captured NPC quote'), not a Striking Cheetah quote. The wiki Sells list (lookup 'Striking Cheetah', 2023-11-18) confirms the item is sold but gives no price."}]}

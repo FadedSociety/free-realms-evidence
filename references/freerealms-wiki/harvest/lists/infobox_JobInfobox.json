@@ -1,0 +1,292 @@
+[
+ {
+  "page": "Archer",
+  "url": "https://freerealms.fandom.com/wiki/Archer",
+  "params": {
+   "name": "Archer",
+   "image": "Archer.png",
+   "caption": "Male Pixie Archer"
+  },
+  "categories": [
+   "Archer",
+   "Jobs",
+   "Members Only"
+  ],
+  "images": [
+   "Archer.png",
+   "ArcherT-0.png",
+   "Jobs.png"
+  ]
+ },
+ {
+  "page": "Blacksmith",
+  "url": "https://freerealms.fandom.com/wiki/Blacksmith",
+  "params": {
+   "name": "Blacksmith",
+   "image": "Blacksmith.png",
+   "caption": "Male [[Human]] Blacksmith"
+  },
+  "categories": [
+   "Blacksmith",
+   "Jobs",
+   "Members Only",
+   "ZAM Credits"
+  ],
+  "images": [
+   "Blacksmith.png",
+   "BlacksmithT.png",
+   "Icon repeat.png",
+   "Jobs.png",
+   "ZAM.png"
+  ]
+ },
+ {
+  "page": "Brawler",
+  "url": "https://freerealms.fandom.com/wiki/Brawler",
+  "params": {
+   "name": "Brawler",
+   "image": "Brawler.png",
+   "caption": "Male [[Human]] Brawler",
+   "1": ""
+  },
+  "categories": [
+   "Brawler",
+   "Combat",
+   "Jobs"
+  ],
+  "images": [
+   "Brawler.png",
+   "BrawlerT.png",
+   "Icon repeat.png",
+   "Jobs.png",
+   "Micon.png",
+   "Trsaits2'.png"
+  ]
+ },
+ {
+  "page": "Card Duelist",
+  "url": "https://freerealms.fandom.com/wiki/Card_Duelist",
+  "params": {
+   "name": "Card Duelist",
+   "image": "CardDuelist.png",
+   "caption": "Male [[Human]] Card Duelist"
+  },
+  "categories": [
+   "Card Duelist",
+   "Jobs",
+   "Trading Card Game"
+  ],
+  "images": [
+   "CardDT.png",
+   "CardDuelist.png",
+   "Img 20130427-13-54-11.jpg",
+   "Jobs.png",
+   "Pumpkinprince.png"
+  ]
+ },
+ {
+  "page": "Chef",
+  "url": "https://freerealms.fandom.com/wiki/Chef",
+  "params": {
+   "name": "Chef",
+   "image": "Chef.png",
+   "caption": "Female [[Human]] Chef"
+  },
+  "categories": [
+   "Chef",
+   "Jobs"
+  ],
+  "images": [
+   "Chef.png",
+   "ChefT.png",
+   "Jobs.png",
+   "Members only.png"
+  ]
+ },
+ {
+  "page": "Demolition Derby Driver",
+  "url": "https://freerealms.fandom.com/wiki/Demolition_Derby_Driver",
+  "params": {
+   "name": "Demolition Derby Driver",
+   "image": "Demo.png",
+   "caption": "Male [[Human]] Derby Driver"
+  },
+  "categories": [
+   "Jobs"
+  ],
+  "images": [
+   "Demo.png",
+   "DemoT.png",
+   "Jobs.png"
+  ]
+ },
+ {
+  "page": "Kart Driver",
+  "url": "https://freerealms.fandom.com/wiki/Kart_Driver",
+  "params": {
+   "name": "Kart Driver",
+   "image": "Kart.png",
+   "caption": "Male [[Human]] Kart Driver"
+  },
+  "categories": [
+   "Jobs",
+   "Kart Driver"
+  ],
+  "images": [
+   "Jobs.png",
+   "Kart.png",
+   "KartT.png"
+  ]
+ },
+ {
+  "page": "Medic",
+  "url": "https://freerealms.fandom.com/wiki/Medic",
+  "params": {
+   "name": "Medic",
+   "image": "Medic.png",
+   "caption": "Female [[Pixies|Pixie]] Medic"
+  },
+  "categories": [
+   "Combat",
+   "Jobs",
+   "Medic",
+   "Members Only",
+   "ZAM Credits"
+  ],
+  "images": [
+   "Icon repeat.png",
+   "Jobs.png",
+   "Medic.png",
+   "MedicT.png",
+   "Medictraits.png",
+   "ZAM.png"
+  ]
+ },
+ {
+  "page": "Miner",
+  "url": "https://freerealms.fandom.com/wiki/Miner",
+  "params": {
+   "name": "Miner",
+   "image": "Miner.png",
+   "caption": "Female [[Pixies|Pixie]] Miner",
+   "1": ""
+  },
+  "categories": [
+   "Jobs",
+   "Miner"
+  ],
+  "images": [
+   "Jobs.png",
+   "Micon.png",
+   "Miner.png",
+   "MinerT-0.png",
+   "Minerok.jpg",
+   "Singing Crystal Mines.png"
+  ]
+ },
+ {
+  "page": "Ninja",
+  "url": "https://freerealms.fandom.com/wiki/Ninja",
+  "params": {
+   "name": "Ninja",
+   "image": "ninja.png",
+   "caption": "Male [[Human]] Ninja"
+  },
+  "categories": [
+   "Combat",
+   "Jobs",
+   "Ninja"
+  ],
+  "images": [
+   "Jobs.png",
+   "Members only.png",
+   "Ninja.png",
+   "NinjaT.png",
+   "Screen Shot 2016-06-29 at 3.31.42 PM.png"
+  ]
+ },
+ {
+  "page": "Pet Trainer",
+  "url": "https://freerealms.fandom.com/wiki/Pet_Trainer",
+  "params": {
+   "name": "Pet Trainer",
+   "image": "PetTrain.png",
+   "caption": "Female [[Pixies|Pixie]] Pet Trainer"
+  },
+  "categories": [
+   "Jobs",
+   "No longer in-game"
+  ],
+  "images": [
+   "Jobs.png",
+   "PetTrain.png",
+   "PetTrainT.png",
+   "Petboots.png",
+   "Petout.png",
+   "Petpants.png",
+   "Petshirt.png"
+  ]
+ },
+ {
+  "page": "Postman",
+  "url": "https://freerealms.fandom.com/wiki/Postman",
+  "params": {
+   "name": "Postman",
+   "image": "Postman.png",
+   "caption": "Male [[Human]] Postman"
+  },
+  "categories": [
+   "Jobs",
+   "Postman"
+  ],
+  "images": [
+   "Jobs.png",
+   "Postman.png",
+   "PostmanT.png"
+  ]
+ },
+ {
+  "page": "Warrior",
+  "url": "https://freerealms.fandom.com/wiki/Warrior",
+  "params": {
+   "name": "Warrior",
+   "image": "Warrior.png",
+   "caption": "Male [[Human]] Warrior"
+  },
+  "categories": [
+   "Jobs",
+   "Members Only",
+   "Warrior",
+   "ZAM Credits"
+  ],
+  "images": [
+   "Icon repeat.png",
+   "Jobs.png",
+   "Warrior.png",
+   "WarriorT.png",
+   "ZAM.png"
+  ]
+ },
+ {
+  "page": "Wizard",
+  "url": "https://freerealms.fandom.com/wiki/Wizard",
+  "params": {
+   "name": "Wizard",
+   "image": "Wizard.png",
+   "caption": "Female [[Human]] Wizard"
+  },
+  "categories": [
+   "Jobs",
+   "Members Only",
+   "Wizard",
+   "ZAM Credits"
+  ],
+  "images": [
+   "Icon repeat.png",
+   "Jobs.png",
+   "Wizard.png",
+   "WizardT.png",
+   "ZAM.png"
+  ]
+ }
+]

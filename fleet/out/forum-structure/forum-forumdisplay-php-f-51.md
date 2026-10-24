@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=forum-forumdisplay-php-f-51 status=nothing_found turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 4626, 4, 528] model=claude-haiku-5-5 -->
+# Birthday Balooza! - Free Realms Forums
+
+{"article": {"title": "Birthday Balooza! - Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This is a thread-index page for the off-topic 'Birthday Balooza!' subforum under 'Virtually Free' on the Free Realms fan forum (freerealmsforums.com), captured 2009-05-26. It lists automated birthday announcements and general forum navigation, and says nothing about Free Realms gameplay, quests, items, prices or mechanics. It has no rebuild-relevant game data.", "facts": [], "quests": [], "uncertain": ["The page carries no article date or author; the capture date is 2009-05-26.", "Only forum navigation and birthday thread titles are present; no game content is described."]}

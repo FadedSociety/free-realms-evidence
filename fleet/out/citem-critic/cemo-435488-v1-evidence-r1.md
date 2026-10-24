@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cemo-435488-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4447, 4857, 6, 928] model=claude-haiku-5-5 -->
+# Emo
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.locale_id / evidence[0]", "issue": "The name rests on locale:435488, which the automatic id check flags as a fragment ('hairstyle name, no quest meaning'). The answer cites it as the item's identity and as client text, without marking that the name itself is a fragment. My lookup found no other Emo hairstyle text in wiki, articles or client.", "fix": "Keep the locale id, but state in the evidence that the name is a flagged fragment and that the definition (78045, slot 2, class 1, no coin_store_prices) is the only identity support. Nothing else in the pack or my lookup links a source to it."}]}

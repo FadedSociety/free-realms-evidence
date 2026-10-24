@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpettrainer-l1-head-plum-109907-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3939, 6542, 6, 1189] model=claude-haiku-5-5 -->
+# pettrainer_L1_head_plum
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor wording: the answer says the Pet Trainer cap, apron and new member pack are 'the nearest leads for this family's source'. The notes support only that these items exist with unknown sources (Pet Trainer.md:224 and :232 both say source unknown or contents unknown). Nothing links the plum cap to any of them.", "fix": "Keep the unknowns as stated. Notes/Build Guides/Content/Jobs/Pet Trainer.md:224 marks the Pet Trainer Cap source as unknown, and :232 marks the new member pack contents as unknown. No source for pettrainer_L1_head_plum exists in the repo or the evidence pack."}]}

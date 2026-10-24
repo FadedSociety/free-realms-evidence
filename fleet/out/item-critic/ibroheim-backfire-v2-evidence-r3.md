@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibroheim-backfire-v2-evidence-r3 status=no_submit turns=2 usd=0.0015 tokens(read,write,in,out)=[3718, 6724, 6, 1173] model=claude-haiku-5-5 -->
+# Broheim Backfire
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]/open", "issue": "Minor gap: the answer does not mention the video frames that carry the name in banner text (video:fMOGHMuA2Hc/00198.jpg and others show '[Broheim] [Backfire] Power Hour! 2x Coins Now!'). These are event banners, not a stock or price source. The answer's nameplate correction for 00228 is right, but the banner text is worth noting so no one reads it as a vendor source.", "fix": "Add: video frames 00198, 00214, 00252, 00292 show 'Broheim Backfire' only inside a 'Power Hour! 2x Coins' banner (other_text). No item, price or currency is shown (lookup: video, client)."}]}

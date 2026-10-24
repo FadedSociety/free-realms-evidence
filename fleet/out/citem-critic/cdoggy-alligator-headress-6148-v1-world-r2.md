@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdoggy-alligator-headress-6148-v1-world-r2 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3993, 12081, 6, 1178] model=claude-haiku-5-5 -->
+# Doggy Alligator Headress
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor' but no vendor NPC or shop is named anywhere (where is null, and vendors.json has no row for 2164). The only evidence is a coin store row in stores.json line 627 (item_id 2164, category_id 6, purchase 50, member 45, sell 5, no_sale false). That supports a coin-store sale, not a named vendor.", "fix": "Record the source as a coin store sale (stores.json line 627, 50 coins, member 45, sell-back 5), with the vendor marked unknown. The price matches the client definition's coin_store_prices [50], so the price is evidenced."}]}

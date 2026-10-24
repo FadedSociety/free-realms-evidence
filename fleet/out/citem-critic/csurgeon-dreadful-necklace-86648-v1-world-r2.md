@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csurgeon-dreadful-necklace-86648-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3897, 7148, 6, 1077] model=claude-haiku-5-5 -->
+# Surgeon Dreadful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence[3].source", "issue": "The cited path 'opening-harvesting-native-20261009T132512Z/locale/en_us_data.dat:2999' does not match what I found. The 'Surgeon Dreadful Ring' line at en_us_data.dat:2999 is in the opening-journal-text-v2 and opening-anvil-placement-v1 dumps. The claim itself holds, but the citation should name one of those dumps.", "fix": "Cite opening-journal-text-v2/locale/en_us_data.dat:2999 (also opening-anvil-placement-v1, same line), which reads '115008786 ugdt Surgeon Dreadful Ring'."}]}

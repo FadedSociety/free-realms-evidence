@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ishamus-sootbender-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3257, 4590, 6, 954] model=claude-haiku-5-5 -->
+# Shamus Sootbender
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that Shamus Sootbender is an NPC with no item sources, so it does not overclaim. Its only gap is that it does not say what the kart questline's reward is, which would matter if the intended item is a Kart Driver reward.", "fix": "No change needed for an NPC record. If a kart reward is the real target, the Kart Driver quest reward rows should be checked in the repo quest data; the client text (locale:395488, 395499, 395491, 395493) names no item reward, so none can be asserted from this pack."}]}

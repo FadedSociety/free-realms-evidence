@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccardie-speedster-mod-117449-v2-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3896, 4397, 6, 900] model=claude-haiku-5-5 -->
+# Cardie Speedster Mod
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The answer says the jump-springs description is locale:117562 on the kart 'Cardie Speedster'. The client lookup confirms 117562 is the item 'Cardie Speedster' with that description, so the attribution holds. The claim that the same per-kart pattern covers 117527, 117552, 117579, 117585 and 117588 was not re-checked here.", "fix": "No change needed for 117449. Keep the open note that definition 60924 may point at 117562 rather than 117449. Verify the other per-kart locale ids before relying on that pattern."}]}

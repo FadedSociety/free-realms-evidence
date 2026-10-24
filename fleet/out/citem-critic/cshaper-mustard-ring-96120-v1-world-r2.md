@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshaper-mustard-ring-96120-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3437, 7506, 6, 1013] model=claude-haiku-5-5 -->
+# Shaper Mustard Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The sibling-necklace claim (locale 146691361 and others) and the FreeRealms-Legacy ClientItemDefinitions.json line ranges were not re-verified. My checks only confirmed the six Shaper ring locale lines (96116-96121) and the Shaper Mustard Ring name hits across the locale data. The cited file ranges and necklace locale IDs are unconfirmed.", "fix": "Verify the necklace locale IDs and the ClientItemDefinitions.json line ranges before relying on the set-membership claim. The ring block 96116-96121 itself is confirmed by the client lookup."}]}

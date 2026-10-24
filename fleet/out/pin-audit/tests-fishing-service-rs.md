@@ -1,0 +1,4 @@
+<!-- fleet job=pin-audit id=tests-fishing-service-rs status=nothing_found turns=2 usd=0.0009 tokens(read,write,in,out)=[1799, 4626, 6, 596] model=claude-haiku-5-5 -->
+# tests/fishing_service.rs
+
+No findings. `tests/fishing_service.rs:216` (`assert_eq!(body.at_18, 5)`, test `registration_cast_bite_reel_catch_has_exact_messages_and_one_item`) does not pin a data-file value. `at_18` is a protocol outcome code, not a tunable: the server hardcodes `at_18: 5` for a paid catch in `src/fishing_service.rs:967` and `0` for an escape (`:903`), and the client result reader (`00b66be0`, noted in `src/bin/osfr_gateway/f120_fishing_hour_reconnect.rs:540`) reads these as 0 = escape, 5 = paid catch. The value is not read from any file under `data/content`, so retuning data cannot break it. Leave the assertion as is.

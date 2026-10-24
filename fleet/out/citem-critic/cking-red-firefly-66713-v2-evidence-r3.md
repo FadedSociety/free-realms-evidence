@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cking-red-firefly-66713-v2-evidence-r3 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3766, 9404, 6, 1423] model=claude-haiku-5-5 -->
+# King Red Firefly
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Cited locale:132394 is the string 'Red Fireflies Collection' ('This item can be added to the Red Fireflies Collection'), which is the collection's own name line. The item-description wording is in the client definition for 23100, so the citation is slightly loose, though the quoted text matches the definition field.", "fix": "Cite the client definition for definition 23100 (description field) as the source of 'This item can be added to the Red Fireflies Collection'; locale:132394 is the collection name string. Both agree on the wording."}]}

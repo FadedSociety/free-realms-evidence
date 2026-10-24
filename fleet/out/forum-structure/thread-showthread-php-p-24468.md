@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-24468 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2948, 4, 681] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a vBulletin error page from the Free Realms fan forum (freerealmsforums.com), saying the visitor had exceeded the number of posts they could view and must register. It contains no thread text, guide, or player report, so it gives a rebuilder no facts about quests, items, prices, events or mechanics. The forum navigation lists board names only.", "facts": [], "quests": [], "uncertain": ["The capture contains no thread content; the thread the URL points to (post 24468) could not be read.", "The capture date (2009-07-27) is when the page was archived, not a publication date for any article, so date is null."]}

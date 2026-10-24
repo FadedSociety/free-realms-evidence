@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imoosheewug-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3139, 4129, 6, 978] model=claude-haiku-5-5 -->
+# Moosheewug
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Overstated repo citation. seaside.json:5454 is a reconstructed_content_key entry (npc_id 9500000558) whose name field lists 11 names together (Betsy, Connie, ... Moosheewug, Zumwalt). It is a grouped, unresolved row, not a per-NPC spawn for Moosheewug. The claim 'placed as a Seaside NPC spawn' should be softened to 'appears in a grouped Seaside NPC row (npc_id 9500000558) with 10 other names'.", "fix": "Cite repo:prototype/osfr-tools/data/content/npcs/seaside.json:5454 as a grouped, unresolved Seaside row listing Moosheewug among 11 names, not a confirmed single spawn."}]}

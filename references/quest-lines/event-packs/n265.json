@@ -1,0 +1,34 @@
+{
+ "title": "Halloween Super Spooktacular",
+ "names_seen": [
+  "Halloween Super Spooktacular"
+ ],
+ "facts": [
+  {
+   "statement": "A news item on the official Free Realms site promoted a new TV commercial tied to the Halloween Super Spooktacular, in Spanish ('Un Espacio en la TV').",
+   "numbers": {},
+   "era": "live",
+   "quote": "Un Espacio en la TV – Halloween Super Spooktacular",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1876",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1876",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This Wayback copy of the freerealms.com 'What is New?' news page shows only a single news item: a Spanish-language TV commercial headlined 'Un Espacio en la TV – Halloween Super Spooktacular', with the text '¡Checa nuestro nuevo comercial de TV!'. The page gives a relative posting time ('7 months, 1 week ago') rather than an absolute date, and no details of the event or commercial beyond the title. The rest is site navigation."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "A Dark Future (unresolved, live yes)",
+  "A Formal Report (final, live yes)",
+  "Bag Snatchers (final, live yes)",
+  "Candy Gram (final, live yes)",
+  "Delicious Goo'd Candy (final, live yes)",
+  "Halloween Fanatic (final, live yes)",
+  "The Great Scare (final, live unsure)"
+ ]
+}

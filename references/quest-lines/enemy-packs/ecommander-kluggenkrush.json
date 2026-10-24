@@ -1,0 +1,72 @@
+{
+ "title": "Commander Kluggenkrush",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\tanglewood_fort.json"
+  },
+  {
+   "file": "dungeons\\tanglewood_fort.json"
+  },
+  {
+   "file": "npcs/briarwood.json",
+   "npc_id": 9500000109,
+   "zone": "Briarwood",
+   "enemy_kind": "Fort commander; boss.",
+   "location_evidence": [
+    "Tanglewood Fort (client 758239076)."
+   ]
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:10293 [npc_name | - | Commander Kluggenkrush] 'Commander Kluggenkrush'",
+  "locale:90308 [npc_name | Blackspore | Commander Kluggenkrush] 'Commander Kluggenkrush'",
+  "locale:5102941 [npc_name | - | Commander Kluggenkrush] 'Commander Kluggenkrush'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:10293 [npc_name | - | Commander Kluggenkrush] 'Commander Kluggenkrush'",
+  "locale:90308 [npc_name | Blackspore | Commander Kluggenkrush] 'Commander Kluggenkrush'",
+  "locale:91651 [npc_dialog | Briarwood | Commander Kluggenkrush] \"Tanglewood Fort is the gateway into the heart of Briarwood! You must pass Commander Kluggenkrush's trials in order to proceed!\"",
+  "locale:91690 [quest_objective | - | Commander Kluggenkrush] 'Speak with Commander Kluggenkrush!'",
+  "locale:91695 [quest_objective | - | Commander Kluggenkrush] 'Speak with Commander Kluggenkrush again!'",
+  "locale:91709 [quest_objective | - | Commander Kluggenkrush] 'Defeat Commander Kluggenkrush!'",
+  "locale:91719 [quest_dialog | - | Commander Kluggenkrush] \"Ha ha!  I must admit that I'm surprised!  I did not expect you to beat my soldiers!  Well... let's see what you can do.  Go talk to Chef Truffenglug -- I think \"",
+  "locale:103507 [quest_objective | Commander Kluggenkrush | Commander Kluggenkrush] 'Talk to Commander Kluggenkrush'",
+  "locale:103508 [quest_objective | Commander Kluggenkrush | Commander Kluggenkrush] 'Tell Kluggenkrush you have completed his challenge!'",
+  "locale:423126 [quest_dialog | - | Commander Kluggenkrush] 'The last test is to defeat Commander Kluggenkrush himself!'",
+  "locale:5102941 [npc_name | - | Commander Kluggenkrush] 'Commander Kluggenkrush'"
+ ],
+ "client_cluster": [
+  "locale:10285 [item | - | Jagged Scythe] 'Jagged Scythe'",
+  "locale:10290 [item | - | Elite Pink Jagged Scythe] 'Elite Pink Jagged Scythe'",
+  "locale:10291 [item | - | Elite Black Jagged Scythe] 'Elite Black Jagged Scythe'",
+  "locale:10292 [npc_name | - | Necrolaceous] 'Necrolaceous'",
+  "locale:10293 [npc_name | - | Commander Kluggenkrush] 'Commander Kluggenkrush'",
+  "locale:10294 [npc_name | - | Miss Artie] 'Miss Artie'",
+  "locale:10295 [npc_name | - | Treeleaf] 'Treeleaf'",
+  "locale:10296 [npc_name | - | Vittorio] 'Vittorio'",
+  "locale:10297 [npc_name | - | Sergeant Cargug] 'Sergeant Cargug'",
+  "locale:10298 [npc_name | - | Darrel] 'Darrel'",
+  "locale:10299 [npc_name | - | Master Kart Builder] 'Master Kart Builder'",
+  "locale:10300 [item | - | Free Realms Trading Card Game] 'A Chaos card for the Free Realms Trading Card Game.'",
+  "locale:10301 [item | - | Free Realms Trading Card Game] 'A Hero card for the Free Realms Trading Card Game.'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Commander Kluggenkrush"
+ ],
+ "video": [],
+ "article_facts": [
+  "fact:location: Tanglewood Fort, beyond Bristlewood Gate among giant mushrooms, is the gateway into the heart of Briarwood; passage requires impressing Commander Kluggenkrush. | In order to pass through the fort, you must impress Commander Kluggenkrush. (http://www.freerealms.com:80/article/detail.action?articleId=118)",
+  "fact:npc: Commander Kluggenkrush commands the Chugawug forces guarding Tanglewood Fort and must be impressed before adventurers can pass into Briarwood's heart. | Only then will you be allowed access to the heart of Briarwood (http://www.freerealms.com:80/article/detail.action?articleId=118)",
+  "fact:npc: Commander Kluggenkrush guards Tanglewood Fort, which the player must pass through to reach Briarheart Caverns; his trials are five soldier/archer kills, then boar roundup for Chef Truffenglug, then Blacksmith Blix, then Kluggenkrush himself. | Defeat five of h (http://www.tentonhammer.com:80/node/69770)",
+  "quest: Osgood Sanctuary, Briarwood, Blackspore Swamp, Briarheart Caverns Help Sandbur gather transfiguring crystals from the Forgotten Caves and opal gems from Tormented Spirits in Blackspore Swamp (level 10). Osgood asks you to return at level 15 to get the wand. Fi (http://www.tentonhammer.com:80/node/69770)"
+ ],
+ "quest_answers_naming_it": []
+}

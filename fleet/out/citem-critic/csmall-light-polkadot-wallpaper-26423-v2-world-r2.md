@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmall-light-polkadot-wallpaper-26423-v2-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3967, 6735, 6, 895] model=claude-haiku-5-5 -->
+# Small Light Polkadot Wallpaper
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The store row for item_id 26423 (category 6, 270/243/27 coins) carries source_tags [L1, L2, L4, R2, T633, R1]. The answer calls it a block template and omits it, which is defensible because rows 26411-26431 are identical. But the tags were not decoded, so the answer never checks whether they name a vendor or zone that would be a real world source.", "fix": "Decode the source_tags (L1, L2, L4, R2, T633, R1) in the repo's store schema notes and state whether they name a vendor or zone. Until then the item stays unsourced, which matches the answer's null sources and unsure status."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-1395 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2871, 4, 576] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture contains no article content. It is a vBulletin page from the Free Realms fan forum showing a 'maximum number of posts you can view' registration error, plus forum navigation and boilerplate. The thread itself (t=1395) was not captured, so there is nothing about the game's quests, items, prices, or mechanics to record.", "facts": [], "quests": [], "uncertain": ["The thread at showthread.php?t=1395 is not in the capture; only the error banner and forum index appear.", "The page title and forum names mention Free Realms, but no game facts are stated.", "Capture date 20090604 is the Wayback capture date; no post date is shown."]}

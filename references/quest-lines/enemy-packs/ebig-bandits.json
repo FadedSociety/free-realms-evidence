@@ -1,0 +1,26 @@
+{
+ "title": "Big Bandits",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\bandit_hideout.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:9gfkEIFMV4s/00018.jpg (Bandit Hideout): quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandits! 0/5  | job_level: Brawler 9 | other_text: Goals (2)",
+  "video:9gfkEIFMV4s/00022.jpg (Bandit Hideout): quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandits! - 0/5  | job_level: Brawler 9 | other_text: Goals (2) Bandit Hideout",
+  "video:9gfkEIFMV4s/00024.jpg (Bandit Hideout): quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandits! - 0/5  | job_level: Brawler 9 | other_text: Goals (2) Bandit Hideout",
+  "video:9gfkEIFMV4s/00088.jpg (Bandit Hideout): quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandits! - 1/5  | job_level: Brawler 9 | other_text: Goals (2) Bandit Hideout",
+  "video:9gfkEIFMV4s/00092.jpg (Bandit Hideout): quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandits! - 1/5  | job_level: Brawler 9 | other_text: Goals (2) Bandit Hideout"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

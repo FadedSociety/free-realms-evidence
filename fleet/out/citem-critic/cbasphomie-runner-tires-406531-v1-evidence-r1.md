@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbasphomie-runner-tires-406531-v1-evidence-r1 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[11931, 8674, 8, 1196] model=claude-haiku-5-5 -->
+# Basphomie Runner Tires
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The kart-racing lead is thin but could be stated more precisely. A wiki blog (ns500 'User blog:CoreyRoyalsword/Kart Driving Tips and Tricks') names a Kart Racing reward of a Blast Speedster kart, not any Basphomie part. That shows Kart Racing has kart-item rewards, but it does not tie Basphomie Runner Tires to any race reward.", "fix": "Keep sources empty and retired null. Note the blog as an unverified lead on kart rewards (wiki: 'Kart Driving Tips and Tricks'), not as evidence for this item."}]}

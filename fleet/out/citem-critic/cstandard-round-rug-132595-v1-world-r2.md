@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstandard-round-rug-132595-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3813, 9954, 6, 928] model=claude-haiku-5-5 -->
+# Standard Round Rug
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The vendor source has no location and no vendor NPC. The only evidence is a store-category row (stores.json:11855, item 36182, category 54, 50 coins, member 45, sell 5). I confirmed that row exactly. Category 54 is shared by about 20 neighbouring housing rows (36172 to 36186 and so on), and nothing in the pack ties category 54 to a named vendor.", "fix": "Keep the source as 'unnamed coin store, category 54, 50 coins (member 45, sell-back 5), stores.json:11855'. Do not name a vendor or zone until a vendor table referencing category 54 is found. The answer's open list already says this, so the claim as written is honest."}]}

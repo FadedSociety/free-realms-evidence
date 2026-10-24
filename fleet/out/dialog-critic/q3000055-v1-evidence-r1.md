@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=q3000055-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[17583, 9855, 8, 1577] model=claude-haiku-5-5 -->
+# Lucky's Lost Coin
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "progress", "issue": "5100413 is tagged quest_objective and is third-person narration ('Lucky needs your help... search Sacred Grove'), not a line Lucky speaks. The binding already flags this as uncertain. It fits the progress slot as a reminder, but it is not confirmed NPC dialog. No spoken NPC reminder for the search step was found in the client, so the empty alternative is not clearly better.", "fix": "Keep 5100413 as the progress reminder, but label it as an objective-sourced string (speaker not confirmed). Do not present it as Lucky's spoken dialog. If a spoken reminder exists, it was not found in the client lookups."}]}

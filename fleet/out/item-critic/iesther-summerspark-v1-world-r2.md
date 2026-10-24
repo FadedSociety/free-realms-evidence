@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iesther-summerspark-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3297, 9524, 6, 1279] model=claude-haiku-5-5 -->
+# Esther Summerspark
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Briarwood notes (NPCs - Briarwood.md:333) state as settled that the client Esther is 'not the Seaside chef', while the Seaside notes (NPCs - Seaside.md:301) keep Esther Summerspark as a possible Seaside chef. The answer flags this as unresolved, which is honest, but it does not say which repo note is the outlier.", "fix": "Keep the open item. Note that the two repo notes disagree. Locale 45548 is the npc_name 'Esther Summerspark', and the Burger Stand lines (locale 46896, 46900) name no town, so the identity is unresolved, not settled."}]}

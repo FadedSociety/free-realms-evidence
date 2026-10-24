@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csylvan-dining-chair-132547-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3657, 6721, 6, 964] model=claude-haiku-5-5 -->
+# Sylvan Dining Chair
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The answer leaves the vendor/location null and does not report the store row's source_tags (L1, L2, L4, R2, T633, R1). These tags are in the same stores.json row (line 11809) and may locate the shop, so the omission leaves a checkable lead unused.", "fix": "Report the row's source_tags from repo:prototype/osfr-tools/data/content/stores.json line 11809 alongside the price, and say what they map to (NPC or location) if a tag legend is found. Keep the vendor as unidentified until one is found."}]}

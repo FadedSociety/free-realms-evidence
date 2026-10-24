@@ -1,0 +1,23 @@
+{
+ "title": "Necrosis and Spawn of Necrosis",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000050,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Spider queen and her brood",
+   "location_evidence": [
+    "A dark corner of Blackspore; open-world battle"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

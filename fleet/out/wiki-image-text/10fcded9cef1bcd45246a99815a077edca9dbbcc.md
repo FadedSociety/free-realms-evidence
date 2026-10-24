@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=10fcded9cef1bcd45246a99815a077edca9dbbcc status=done turns=2 usd=0.0008 tokens(read,write,in,out)=[2266, 3885, 6, 524] model=claude-haiku-5-5 -->
+# Briarheart Caverns.jpg
+
+{"kind": "world_screenshot", "has_text": true, "text": "Briarheart Cave\n(label partly hidden behind the wooden barricade beam; the client name is \"Briarheart Caverns\")", "tooltip": null, "entries": null, "uncertain": ["The map label under the red crossed-swords icon is cut off by the wooden beam. Only \"Briarheart Cave\" is visible; the full name is inferred as \"Briarheart Caverns\" (locale id 5707) from the page title, not read directly from the image.", "The icon above the label is a red/white circular crossed-swords marker (likely a PvE/encounter or quest-area marker); no other text is legible."]}

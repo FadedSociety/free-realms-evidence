@@ -1,0 +1,30 @@
+{
+ "title": "Graveyard Dance",
+ "names_seen": [
+  "Graveyard Dance"
+ ],
+ "facts": [
+  {
+   "statement": "A community costume event called Graveyard Dance was held in the graveyard in Blackspore on Thursday April 8th, 2010, on Server 1.",
+   "numbers": {
+    "US/Latin America start hour Pacific": 15,
+    "UK/Europe start hour Pacific": 9,
+    "UK/Europe start hour GMT": 18
+   },
+   "era": "live",
+   "quote": "Grab your favorite costumes and head to the graveyard in Blackspore for our Graveyard Dance!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1221",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1221",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A community event post announcing the Graveyard Dance in Blackspore, a costume party in the graveyard on Thursday April 8th, 2010, held at two times for US/Latin America and UK/Europe on Server 1. It also explains how to find community events through the Game Guide calendar and the GO button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

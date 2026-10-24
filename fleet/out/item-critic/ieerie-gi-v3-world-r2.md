@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ieerie-gi-v3-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4035, 4458, 6, 1225] model=claude-haiku-5-5 -->
+# Eerie Gi
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "item.locale_id / evidence[2]", "issue": "locale:3952 is FLAGGED 'fragment: truncated name' in the automatic id check. The answer dismisses the flag as spurious because the locale tool resolves 3952 to 'Eerie Gi', but the flag is not cleared by that. The name is only supported by the wiki page title and tooltip, so the locale id is not live evidence.", "fix": "Keep the item name 'Eerie Gi' sourced to the wiki (Eerie_Gi rev 47265 and the Free Realms (comic) Collection Rewards line). Mark locale 3952 as flagged and do not cite it as live evidence. Leave live as 'unsure' until the flag is cleared against flags.tsv."}]}

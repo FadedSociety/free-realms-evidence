@@ -1,0 +1,49 @@
+{
+ "title": "Singing Crystal Mine Party",
+ "names_seen": [
+  "Singing Crystal Mine Party"
+ ],
+ "facts": [
+  {
+   "statement": "A community party event was held in the Singing Crystal Mines on Server 1 on Thursday September 9, 2010 at 3pm Pacific Time (U.S. and Latin America).",
+   "numbers": {
+    "server": 1,
+    "start_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday September 9th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1800",
+   "date": null
+  },
+  {
+   "statement": "A second run of the Singing Crystal Mine party was held on Friday September 10, 2010 at 9:00am Pacific Time / 4:00pm GMT for UK and Europe, on Server 1.",
+   "numbers": {
+    "server": 1,
+    "start_hour_pacific": 9,
+    "start_hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday September 10th, 2010 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1800",
+   "date": null
+  },
+  {
+   "statement": "Players were invited to bring mining gear, boomboxes and dancing shoes to the party, which would run until Therin kicked them out.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Bring your mining gear, boomboxes and dancing shoes and we’ll party until Therin kicks us out.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1800",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1800",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms community event announcement: a Singing Crystal Mine party held in the Singing Crystal Mines on Server 1, on Thursday September 9, 2010 (US/Latin America time) and Friday September 10, 2010 (UK/Europe time). The page also explains how players find community events through the Game Guide calendar and its GO button teleport."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

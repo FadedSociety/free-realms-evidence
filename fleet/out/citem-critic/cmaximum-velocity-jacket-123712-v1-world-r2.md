@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmaximum-velocity-jacket-123712-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3894, 5600, 6, 1348] model=claude-haiku-5-5 -->
+# Maximum Velocity Jacket
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1].detail", "issue": "The 9453/8507 price tier is shared by many unrelated category-103 rows (for example items 43503, 43608, 43615, 44632). Naming items 43720 and 43727 as this jacket's tint 2 and 3 rows rests only on the definition ID list, not on any name or vendor link. The answer's open list already flags tint mapping, so this is a caveat, not a failure.", "fix": "Keep the rows as the evidence. Say the tint-to-definition mapping is inferred from the definition ID list. Source: repo stores.json lines 8026-8032 (items 43503, 43608, 43615, 43713, 43720, 43727)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-disciple-wizard-shoes-pl-disciple-wizard-shoes-133443-v1-world-r2 status=no_submit turns=4 usd=0.0029 tokens(read,write,in,out)=[27824, 13671, 10, 1796] model=claude-haiku-5-5 -->
+# {n}Disciple Wizard Shoes{pl="Disciple Wizard Shoes"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[2].detail", "issue": "The Oasis of Peril! wheel is described as the same five-outcome wheel as Grexan's Camp, which lists Wizard's Jewel Wand of Lightning. The Oasis page's Wizard Prize Wheel lists Wizard's Jewel Wand of Tsunami, not Lightning.", "fix": "Oasis of Peril! Wizard Prize Wheel: Battle Item Mystery Pack, Disciple Wizard Shoes, Wizard's Jewel Wand of Tsunami, Wizard's Necklace of Vitality IV, Wizard's Power Shard of Regeneration IV, Coins (refs freerealms-wiki/wikitext/4626-49844-ce7ec481873e.wiki lines 60-66). Grexan's Camp keeps Wand of Lightning (4585 wiki lines 60-66)."}]}

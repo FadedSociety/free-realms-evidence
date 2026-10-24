@@ -1,0 +1,42 @@
+{
+ "title": "Fire Trap",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_rumbledome.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:4421 [ability | - | Fire Trap] 'Fire Trap'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:4421 [ability | - | Fire Trap] 'Fire Trap'"
+ ],
+ "client_cluster": [
+  "locale:4413 [item | - | Striped Umbrella] 'Striped Umbrella'",
+  "locale:4414 [other | - | Striped Umbrella] 'Beware of strong winds.'",
+  "locale:4415 [item | - | Felt Beret] 'Felt Beret'",
+  "locale:4416 [other | - | Felt Beret] 'Snug to the fit.'",
+  "locale:4417 [ability | Snarling Hedges | Nogg] 'Snarling Hedges - Nogg buff'",
+  "locale:4418 [item | - | Festival of Hearts Mystery Gift] 'Festival of Hearts Mystery Gift'",
+  "locale:4419 [ability | Snarling Hedges | Nogg] 'Snarling Hedges - Nogg kick'",
+  "locale:4420 [item | - | Flying Heart] 'Flying Heart'",
+  "locale:4421 [ability | - | Fire Trap] 'Fire Trap'",
+  "locale:4422 [quest_title | Briarwood | Hide 'n Seek] \"Hide 'n Seek\"",
+  "locale:4423 [quest_objective | Briarwood | Hide 'n Seek] 'Find Drixi, Banx, Morgan and Xander in Briarwood.'",
+  "locale:4424 [npc_name | - | Man-Eating Plant] 'Man-Eating Plant'",
+  "locale:4425 [item | - | Thermal Winterwear Gloves] 'Thermal Winterwear Gloves'",
+  "locale:4426 [item | - | Rugged Winterwear Gloves] 'Rugged Winterwear Gloves'",
+  "locale:4427 [item | - | Subarctic Winterwear Gloves] 'Subarctic Winterwear Gloves'",
+  "locale:4428 [place | Merry Vale | Merry Vale] 'Merry Vale'",
+  "locale:4429 [place | - | Forest Troll Village] 'Forest Troll Village'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cminer-m2-helmet-144440-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3510, 4938, 6, 1113] model=claude-haiku-5-5 -->
+# Miner M2 Helmet
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The manifest citation (osfr-asset-manifest/Assets_manifest.txt:35544, worker_fairy_f_head_hardhatwcandle.adr) was not in the evidence pack and I did not re-verify the line number. The inference that the model 'suggests a worker/miner clothing item' is weak: the model name is a race-generic worker hardhat, not a Miner M2 asset.", "fix": "Mark the manifest line as unverified, or verify it in Assets_manifest.txt before relying on it. Treat the worker-hardhat model as a weak clue only, not a source."}]}</settlement>

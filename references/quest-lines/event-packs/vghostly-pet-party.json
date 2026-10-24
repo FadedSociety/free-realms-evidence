@@ -1,0 +1,53 @@
+{
+ "title": "Ghostly Pet Party",
+ "names_seen": [
+  "Ghostly Pet Party"
+ ],
+ "facts": [
+  {
+   "statement": "The week's Community event was a Ghostly Pet Party hidden deep in the Blackspore swamp; players were asked to bring a ghost pet and wear a costume.",
+   "numbers": {},
+   "era": "live",
+   "quote": "This week's event is a Ghostly Pet Party hidden deep in the Blackspore swamp.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1845",
+   "date": null
+  },
+  {
+   "statement": "The Ghostly Pet Party ran on Thursday October 7, 2010 at 3pm Pacific Time (U.S. and Latin America) on Server 1.",
+   "numbers": {
+    "day": 7,
+    "month": 10,
+    "year": 2010,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday October 7th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1845",
+   "date": null
+  },
+  {
+   "statement": "A second Ghostly Pet Party ran on Friday October 8, 2010 at 9:00am Pacific Time (4:00pm GMT) for UK and Europe on Server 1.",
+   "numbers": {
+    "day": 8,
+    "month": 10,
+    "year": 2010,
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday October 8th, 2010 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1845",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1845",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms community-event news post for October 2010's Super Spooktacular month. It announces a Ghostly Pet Party in the Blackspore swamp on two server-1 time slots (Thursday October 7 and Friday October 8, 2010), and explains how to find community events through the Game Guide calendar. The post date is not shown; the page says it was posted 4 days, 9 hours before capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

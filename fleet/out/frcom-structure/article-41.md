@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=article-41 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 1917, 4, 553] model=claude-haiku-5-5 -->
+# Free Realms - What is New?
+
+{"article": {"title": "Free Realms - What is New?", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This capture of freerealms.com has no article body. It shows only the page heading 'Find out what's new in Free Realms!', a 'No article found.' message, footer links, and a notice that a browser plugin must be installed. It contains no game facts for a rebuilder.", "facts": [], "quests": [], "uncertain": ["The archived page reports 'No article found.' and has no news content, so no facts could be extracted.", "The page title suggests a Free Realms news index, but the capture does not show any news items or dates.", "The plugin prompt suggests the original page may have relied on content that did not survive the capture."]}

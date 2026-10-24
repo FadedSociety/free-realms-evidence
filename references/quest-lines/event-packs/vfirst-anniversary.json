@@ -1,0 +1,40 @@
+{
+ "title": "First anniversary celebration",
+ "names_seen": [
+  "First anniversary celebration"
+ ],
+ "facts": [
+  {
+   "statement": "The guide covers activities for celebrating Free Realms' 1st anniversary, with daily quests that can be repeated each day.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Voici la deuxième partie du guide d'Arbitre Ruby sur les activités pour fêter le 1er anniversaire de Free Realms.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1300",
+   "date": null
+  },
+  {
+   "statement": "An anniversary update was released the week before the post, and events were planned throughout the day to celebrate Free Realms' first anniversary.",
+   "numbers": {},
+   "era": "live",
+   "quote": "avec la mise à jour de la semaine dernière, nous allons organiser des événements toute la journée",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1331",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1300",
+   "date": null,
+   "title": "Guide d'Anniversaire par Arbitre Ruby: Deuxième Partie! (archived as 'Free Realms - What is New?')",
+   "summary": "Part two of a French-language guide by Arbitre Ruby to the Free Realms first-anniversary celebration. It lists daily quests for the party: helping Camellia with a cake-baking contest, distributing invitations with Papillonnette, collecting balloons from Plumette, gathering food ingredients for Helga, and fighting the Gâtostein (Cakenstein) cake monsters, including ones tied to Glerga and Commandant Kagoul. The page is undated in the capture ('posted 1 year, 1 month ago'), so the exact date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1331",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A French-language first-anniversary blog post by new Free Realms producer Nick Parkinson. It says the game officially launched one year earlier, claims over ten million players, mentions an anniversary update and all-day anniversary events, and previews unspecified summer content (new pets, items, mounts, housing decor and summer-camp-style events). The exact post date is not stated in the text."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

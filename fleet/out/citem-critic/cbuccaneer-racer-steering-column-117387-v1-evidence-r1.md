@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbuccaneer-racer-steering-column-117387-v1-evidence-r1 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3862, 11812, 6, 1254] model=claude-haiku-5-5 -->
+# Buccaneer Racer Steering Column
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] and open[2]", "issue": "The answer says the Buccaneer Racer kart's regular price is blank in the wiki text. The wiki wikitext says the kart costs {{SC|550}} Station Cash regular and {{SC|495}} for Members (10% off). The blank only appears in the pack's rendered text. The price is also Station Cash, not coins, and the answer does not say so.", "fix": "Buccaneer Racer kart: 550 SC regular, 495 SC for Members, sold by Cragara (Category:Mysterious Merchant). Source: refs wikitext freerealms-wiki/wikitext/10958-37259-a556c43b6386.wiki line 2. This price belongs to the kart, not the steering column, so it does not change the item's sources."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwaldo-hat-glasses-9148-v2-world-r2 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[10439, 7124, 8, 1486] model=claude-haiku-5-5 -->
+# Waldo Hat & Glasses
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The Waldo Sweater wiki page does exist and does say it is sold on the Station Cash Marketplace, but the page gives no price (the price text is blank for both regular and member prices). The answer cites it as a 'Station Cash' lead without noting that the price is missing, and it is not in the evidence pack itself.", "fix": "Cite wiki page 'Waldo Sweater' (ns0) as: Station Cash Marketplace, price not shown on the page. Note that it does not name the hat, so item 17926 stays unsourced. Source confirmed by lookup: wiki page:ns0 'Waldo Sweater'."}]}

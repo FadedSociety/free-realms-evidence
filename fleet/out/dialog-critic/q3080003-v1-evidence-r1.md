@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=q3080003-v1-evidence-r1 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2752, 4, 644] model=claude-haiku-5-5 -->
+# q3080003
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "quest / offer / complete", "issue": "Every slot is null because the evidence pack names no quest: title is empty, quest_answer is all null, client_lines_tagged_to_quest and client_cluster_around_title are empty, and all five NPC answers are unanswered. Nothing in the pack can be checked against this quest, so no id is bound and wireable is false.", "fix": "Supply the quest key or title and its giver NPC, then re-run the client lookup for quest_title, quest_objective and quest_dialog lines tagged to that quest. The open list correctly states this blocker. The binder did not claim a briefs search it could not support, so the empty binding stands as honest."}]}

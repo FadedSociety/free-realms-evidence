@@ -1,0 +1,41 @@
+{
+ "title": "Members Only - 30 Percent Off Sale",
+ "names_seen": [
+  "Members Only - 30 Percent Off Sale"
+ ],
+ "facts": [
+  {
+   "statement": "Members received 30% off all Station Cash items in the Marketplace during a weekend sale.",
+   "numbers": {
+    "discount_percent": 30
+   },
+   "era": "live",
+   "quote": "members save big by getting 30% off all Station Cash items in the Marketplace!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2611",
+   "date": null
+  },
+  {
+   "statement": "The sale ran from 12:01 am Pacific on May 25, 2012 through 11:59 pm Pacific on May 28, 2012.",
+   "numbers": {
+    "start_hour_pacific_am": 0,
+    "start_minute": 1,
+    "end_hour_pacific_pm": 23,
+    "end_minute": 59
+   },
+   "era": "live",
+   "quote": "*12:01 am Pacific on May 25 through 11:59 pm Pacific on May 28, 2012",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2611",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2611",
+   "date": null,
+   "title": "Members Only - 30 Percent Off Sale!",
+   "summary": "A German-localized freerealms.com news post announcing a members-only weekend sale: 30% off all Station Cash items in the Marketplace. The article gives the sale window as May 25 to May 28, 2012 (Pacific time) and says the sale can be reached from the What's New window or the Shopping Cart icon. The exact post date is not shown; the page says it was posted about 5 months and 1 week before the 2012-11-03 capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

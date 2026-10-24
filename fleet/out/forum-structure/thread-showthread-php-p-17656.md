@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-17656 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2872, 4, 376] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin error screen ('maximum number of posts you can view') plus forum index navigation for freerealmsforums.com. It contains no thread body, guide, or player report, so it gives a rebuilder no gameplay, quest, item, price, or mechanic information.", "facts": [], "quests": [], "uncertain": ["The thread the URL points to (p=17656) is not present; only the view-limit error and forum index were captured.", "Capture date 2009-05-27 is from the archive metadata, not an article date."]}

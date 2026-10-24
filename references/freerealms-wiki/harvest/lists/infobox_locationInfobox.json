@@ -1,0 +1,603 @@
+[
+ {
+  "page": "Bay of Serpents",
+  "url": "https://freerealms.fandom.com/wiki/Bay_of_Serpents",
+  "params": {
+   "name": "Bay of Serpents",
+   "image": "BayofSerpents 2007.jpg",
+   "type": "Region",
+   "level": "N/A",
+   "location": "N/A",
+   "inhabitants": "N/A"
+  },
+  "categories": [
+   "Locations",
+   "Unused"
+  ],
+  "images": [
+   "BayofSerpents 2007.jpg"
+  ]
+ },
+ {
+  "page": "Black Forest",
+  "url": "https://freerealms.fandom.com/wiki/Black_Forest",
+  "params": {
+   "name": "Black Forest",
+   "image": "Img 20120216-18-02-59 thumb.png",
+   "type": "Region",
+   "level": "N/A",
+   "location": "East of [[Stillwater Crossing]]",
+   "inhabitants": "Snails (likely)"
+  },
+  "categories": [
+   "Locations",
+   "Unreleased"
+  ],
+  "images": [
+   "214956c026072c9dc002a51301182bfc.jpg",
+   "714d63696c3a84d44f0fa56934774768.jpg",
+   "BlackForest 2007.jpg",
+   "Fr filter 8.webp",
+   "Img 20120216-18-02-59 thumb.png"
+  ]
+ },
+ {
+  "page": "Blackspore Swamp",
+  "url": "https://freerealms.fandom.com/wiki/Blackspore_Swamp",
+  "params": {
+   "name": "Blackspore Swamp[[File:Logo blackspore.png|50px]]",
+   "image": "Map blackspore.png",
+   "type": "Region",
+   "level": "All",
+   "location": "East of [[Crossroads]], southeast of [[Stillwater Crossing]]",
+   "inhabitants": "[[Human|Humans]]<br>[[Pixies]]<br>Thugawugs"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations",
+   "Sacred Grove"
+  ],
+  "images": [
+   "Alen-lapidis-screenshot-11.jpg",
+   "Alen-lapidis-screenshot-13.jpg",
+   "Alen-lapidis-screenshot-14.jpg",
+   "Alen-lapidis-screenshot-17.jpg",
+   "B017cdfe8db21c7f2170cca03527cbe7.jpg",
+   "Blackspore..png",
+   "Explore.png",
+   "FRIssue5 Blackspore.jpg",
+   "Freerealms Blackspore.jpg",
+   "Logo blackspore.png",
+   "Map blackspore.png"
+  ]
+ },
+ {
+  "page": "Briarheart",
+  "url": "https://freerealms.fandom.com/wiki/Briarheart",
+  "params": {
+   "name": "Briarwood - Briarheart",
+   "image": "C01c7552a0ce069752cea0e124559984.png",
+   "type": "Sub-region",
+   "level": "N/A",
+   "location": "Venturing into the [[Tanglewood Fort]]",
+   "inhabitants": "Mainly [[Chugawugs|chugawugs]]"
+  },
+  "categories": [
+   "Briarwood",
+   "Locations"
+  ],
+  "images": [
+   "C01c7552a0ce069752cea0e124559984.png",
+   "Explore.png"
+  ]
+ },
+ {
+  "page": "Briarwood",
+  "url": "https://freerealms.fandom.com/wiki/Briarwood",
+  "params": {
+   "name": "Briarwood[[File:Logo briarwood.png|50px]]",
+   "image": "Map briarwood.png",
+   "type": "Region",
+   "level": "All",
+   "location": "South-east of [[Sanctuary]]",
+   "inhabitants": "[[Chugawugs]]<br>[[Pixies]]<br>[[Humans]]"
+  },
+  "categories": [
+   "Briarwood",
+   "Locations",
+   "Sacred Grove"
+  ],
+  "images": [
+   "Banner-04-fr.png",
+   "Banner-12-fr.png",
+   "Banner-20-fr.png",
+   "Banner-24-fr.png",
+   "Briarwood.webp",
+   "D8wsaqj-4639d016-e896-40ca-9e9c-e1305ed5609a.jpg",
+   "Explore.png",
+   "Logo briarwood.png",
+   "Map briarwood.png",
+   "Members only.png",
+   "The-free-realms-filter-17.jpg",
+   "The-free-realms-filter-5.webp"
+  ]
+ },
+ {
+  "page": "Bristlewood",
+  "url": "https://freerealms.fandom.com/wiki/Bristlewood",
+  "params": {
+   "name": "Briarwood - Bristlewood",
+   "image": "Hqdefault.jpg",
+   "type": "Sub-region",
+   "level": "All",
+   "location": "Middle section of [[Briarwood]]",
+   "inhabitants": "Mainly [[Chugawugs|chugawugs]]"
+  },
+  "categories": [
+   "Briarwood",
+   "Locations"
+  ],
+  "images": [
+   "Explore.png",
+   "Hqdefault.jpg",
+   "Members only.png"
+  ]
+ },
+ {
+  "page": "Endless Ice",
+  "url": "https://freerealms.fandom.com/wiki/Endless_Ice",
+  "params": {
+   "name": "Endless Ice",
+   "image": "EndlessIce 2007.jpg",
+   "type": "Region",
+   "level": "N/A",
+   "location": "N/A",
+   "inhabitants": "N/A"
+  },
+  "categories": [
+   "Locations",
+   "Unused"
+  ],
+  "images": [
+   "EndlessIce 2007.jpg"
+  ]
+ },
+ {
+  "page": "Glimmerdeep",
+  "url": "https://freerealms.fandom.com/wiki/Glimmerdeep",
+  "params": {
+   "name": "Glimmerdeep",
+   "image": "Img 2023 17-15-48.jpg",
+   "type": "Region",
+   "level": "N/A",
+   "location": "North between the [[Rocklar Village]] and the [[Drakewind Peak]]",
+   "inhabitants": "N/A"
+  },
+  "categories": [
+   "Locations",
+   "Unreleased"
+  ],
+  "images": [
+   "BronzeMountains 2007.jpg",
+   "Img 2023 17-15-48.jpg"
+  ]
+ },
+ {
+  "page": "Isles of the Moon",
+  "url": "https://freerealms.fandom.com/wiki/Isles_of_the_Moon",
+  "params": {
+   "name": "Isles of the Moon",
+   "image": "IslesoftheMoon 2007.jpg",
+   "type": "Region",
+   "level": "N/A",
+   "location": "N/A",
+   "inhabitants": "N/A"
+  },
+  "categories": [
+   "Locations",
+   "Unused"
+  ],
+  "images": [
+   "3a39d51c1999aacd1ac4f15ae9061766.jpg",
+   "Fc2ec9d0b6fb2163f40b4f057356e83e.jpg",
+   "IslesoftheMoon 2007.jpg"
+  ]
+ },
+ {
+  "page": "Lavender Coast",
+  "url": "https://freerealms.fandom.com/wiki/Lavender_Coast",
+  "params": {
+   "name": "Lavender Coast",
+   "image": "8e897e9054cdd639a2d8229869f31dea.png",
+   "type": "Region",
+   "level": "N/A",
+   "location": "South of [[Lavender Coast Pass]]",
+   "inhabitants": "Harpies"
+  },
+  "categories": [
+   "Lavender Coast",
+   "Locations",
+   "Unreleased"
+  ],
+  "images": [
+   "8e897e9054cdd639a2d8229869f31dea.png",
+   "Lavender coast concept1.jpg",
+   "Lavender coast concept2.jpg",
+   "Lavender coast concept3.jpg",
+   "LavenderCoast 2007.jpg",
+   "The-free-realms-filter-9.webp"
+  ]
+ },
+ {
+  "page": "Merry Vale",
+  "url": "https://freerealms.fandom.com/wiki/Merry_Vale",
+  "params": {
+   "name": "Merry Vale[[File:Logo merryvale.png|50px]]",
+   "image": "Map merryvale.png",
+   "type": "City",
+   "level": "All",
+   "location": "East of [[Sanctuary]]",
+   "inhabitants": "[[Pixies]]<br>[[Human|Humans]]<br>[[Fairies]]"
+  },
+  "categories": [
+   "Locations",
+   "Merry Vale",
+   "Sacred Grove"
+  ],
+  "images": [
+   "001fc60d4beef1347907cee3cd95cec538f5662f.jpg",
+   "Explore.png",
+   "FRIssue10 MerryVale.jpg",
+   "Logo merryvale.png",
+   "Map merryvale.png",
+   "Members only.png",
+   "Merry Vale..png"
+  ]
+ },
+ {
+  "page": "Nettleseed",
+  "url": "https://freerealms.fandom.com/wiki/Nettleseed",
+  "params": {
+   "name": "Briarwood - Nettleseed",
+   "image": "5ca7bf4e68e30209446d61aa9ad900a6.png",
+   "type": "Sub-region",
+   "level": "All",
+   "location": "Last section of [[Briarwood]]",
+   "inhabitants": "Mainly [[Chugawugs|chugawugs]]"
+  },
+  "categories": [
+   "Briarwood",
+   "Locations"
+  ],
+  "images": [
+   "5ca7bf4e68e30209446d61aa9ad900a6.png",
+   "Explore.png"
+  ]
+ },
+ {
+  "page": "Pony Vale",
+  "url": "https://freerealms.fandom.com/wiki/Pony_Vale",
+  "params": {
+   "name": "Sunstone Valley - Pony Vale",
+   "image": "Pony Vale.png",
+   "type": "Sub-region",
+   "level": "N/A",
+   "location": "Venturing into the [[Mystical Barrier]]",
+   "inhabitants": "[[Unicorns]]<br>[[Horses]]<br>[[Pegasi]]"
+  },
+  "categories": [
+   "Locations",
+   "Pony Vale",
+   "Sunstone Valley",
+   "Sunstone Valley Locations"
+  ],
+  "images": [
+   "212px-Rainbowland.1.PNG",
+   "Memories22.png",
+   "Pony Vale.png",
+   "Pony valley.jpg",
+   "Ponyvale zps84348d10.png",
+   "Ponyvale.jpg",
+   "Ponyvalemap.jpg",
+   "Rainbowland.4.png",
+   "Strange he is.PNG"
+  ]
+ },
+ {
+  "page": "Rocklar Village",
+  "url": "https://freerealms.fandom.com/wiki/Rocklar_Village",
+  "params": {
+   "name": "Sunstone Valley - Rocklar Village",
+   "image": "Rocklar Village.jpg",
+   "type": "Sub-region",
+   "level": "N/A",
+   "location": "Encountered when near the [[Drakewind Peak]]",
+   "inhabitants": "N/A"
+  },
+  "categories": [
+   "Locations",
+   "Sunstone Valley",
+   "Sunstone Valley Locations"
+  ],
+  "images": [
+   "1.jpg",
+   "Img20330.jpg",
+   "Img22303.jpg",
+   "Jason-johnson-rocklar-village-overview-revised.jpg",
+   "Rocklar Village Concept.jpg",
+   "Rocklar Village.jpg",
+   "Rocklarmap.jpg",
+   "Rocklarvillage.png"
+  ]
+ },
+ {
+  "page": "Sanctuary",
+  "url": "https://freerealms.fandom.com/wiki/Sanctuary",
+  "params": {
+   "name": "Sanctuary[[File:Logo sanctuary.png|50px]]",
+   "image": "map sanctuary.png",
+   "type": "City",
+   "level": "All",
+   "location": "Heart of [[Sacred Grove]]",
+   "inhabitants": "[[Human|Humans]]<br>[[Pixies]]"
+  },
+  "categories": [
+   "Locations",
+   "Sacred Grove",
+   "Sanctuary"
+  ],
+  "images": [
+   "Ayani Color Concept.jpg",
+   "Explore.png",
+   "Logo sanctuary.png",
+   "Map sanctuary.png",
+   "Sanctuary Arch..png",
+   "The-free-realms-filter-5.webp"
+  ]
+ },
+ {
+  "page": "Scarstone Ruins",
+  "url": "https://freerealms.fandom.com/wiki/Scarstone_Ruins",
+  "params": {
+   "name": "Scarstone Ruins",
+   "image": "ScarstoneRuins 2007.jpg",
+   "type": "Region",
+   "level": "N/A",
+   "location": "N/A",
+   "inhabitants": "N/A"
+  },
+  "categories": [
+   "Locations",
+   "Unused"
+  ],
+  "images": [
+   "ScarstoneRuins 2007.jpg"
+  ]
+ },
+ {
+  "page": "Seaside",
+  "url": "https://freerealms.fandom.com/wiki/Seaside",
+  "params": {
+   "name": "Seaside[[File:Logo seaside.png|50px]]",
+   "image": "Map seaside.png",
+   "type": "City",
+   "level": "All",
+   "location": "SW of [[Wugachug]], W of [[Merry Vale]]",
+   "inhabitants": "[[Human|Humans]]<br>[[Pixies]]"
+  },
+  "categories": [
+   "Locations",
+   "Sacred Grove",
+   "Seaside",
+   "Seaside Locations"
+  ],
+  "images": [
+   "\"Free realms seaside by jelzie-d4rcqwd-1-.jpg",
+   "436e6b381aa5a3a2df5483656170a039.jpg",
+   "Employeespotlightnov11.jpg",
+   "Explore.png",
+   "Freerealms seaside.jpg",
+   "Freerealms seaside2-1-.jpg",
+   "Logo seaside.png",
+   "Map seaside.png",
+   "Members only.png",
+   "Seaside color.jpg",
+   "Seaside..webp",
+   "The-free-realms-filter-5.webp"
+  ]
+ },
+ {
+  "page": "Shrouded Glade",
+  "url": "https://freerealms.fandom.com/wiki/Shrouded_Glade",
+  "params": {
+   "name": "Shrouded Glade[[File:Logo shroud.png|50px]]",
+   "image": "map shrouded.png",
+   "type": "City",
+   "level": "All",
+   "location": "NE of [[Sacred Grove]]",
+   "inhabitants": "[[Druids]] ([[Pixies]])"
+  },
+  "categories": [
+   "Locations",
+   "Sacred Grove",
+   "Shrouded Glade"
+  ],
+  "images": [
+   "Explore.png",
+   "FRIssue12 ShroudedGlade.jpg",
+   "Logo shroud.png",
+   "Map shrouded.png",
+   "SGBridge.jpg",
+   "SGBridge2.jpg",
+   "SGBridge3.jpg",
+   "SGBridge4.jpg",
+   "Shrouded Glade..png",
+   "Shrouded Glades Sketch.jpg",
+   "Shrouded glade panoramic small.jpg",
+   "Shrouded glade.jpg"
+  ]
+ },
+ {
+  "page": "Silver Hills",
+  "url": "https://freerealms.fandom.com/wiki/Silver_Hills",
+  "params": {
+   "name": "Silver Hills",
+   "image": "Img 20130623-23-11-11.jpg",
+   "type": "Region",
+   "level": "N/A",
+   "location": "North of [[Snowhill]]",
+   "inhabitants": "[[Elves]]"
+  },
+  "categories": [
+   "Locations",
+   "Unreleased"
+  ],
+  "images": [
+   "Img 20130623-23-11-11.jpg",
+   "Silver hills concept.jpg",
+   "SilverHills 2007.jpg"
+  ]
+ },
+ {
+  "page": "Snowhill",
+  "url": "https://freerealms.fandom.com/wiki/Snowhill",
+  "params": {
+   "name": "Snowhill[[File:Logo snowhill.png|50px]]",
+   "image": "Map snowhill.png",
+   "type": "City",
+   "level": "All",
+   "location": "North of [[Sanctuary]]",
+   "inhabitants": "[[Pixies]]<br>[[Human|Humans]]"
+  },
+  "categories": [
+   "Locations",
+   "Sacred Grove",
+   "Snowhill"
+  ],
+  "images": [
+   "1f47d37cece6357544b14f76e957c0f9.jpg",
+   "55bf09814fdd879dc85a026c17091745.jpg",
+   "7366182050 b5a6732e7d o by krisfirebolt-d8wr675.jpg",
+   "Explore.png",
+   "FRIssue11 Snowhill1.jpg",
+   "FRIssue11 Snowhill2.jpg",
+   "Logo snowhill.png",
+   "Map snowhill.png",
+   "Snowhill..webp",
+   "The-free-realms-filter-16.jpg",
+   "The-free-realms-filter-5.webp"
+  ]
+ },
+ {
+  "page": "Sunstone Valley",
+  "url": "https://freerealms.fandom.com/wiki/Sunstone_Valley",
+  "params": {
+   "name": "Sunstone Valley[[File:Logo Sunstone Valley.png|50px]]",
+   "image": "Sunstone.jpg",
+   "type": "Region",
+   "level": "Varied",
+   "location": "NE of [[Shrouded Glade]], N of [[Briarwood]]",
+   "inhabitants": "[[Robgoblins]]<br>[[Dwarves]]<br>[[Feathered Drakes]]<br>[[Manguana|Manguanas]]<br>[[Rocklar|Rocklars]]"
+  },
+  "categories": [
+   "Locations",
+   "Sunstone Valley",
+   "Sunstone Valley Locations"
+  ],
+  "images": [
+   "Cda095e107c8d7fa42d5bd0153340a17.jpg",
+   "Explore.png",
+   "FR SV image.jpg",
+   "Free Realms PC 02.jpg",
+   "Img 20130103-17-26-50 thumb.png",
+   "Img 3re2a.png",
+   "Logo Sunstone Valley.png",
+   "Screenshot.free-realms.1013x720.2011-09-28.687.jpg",
+   "Screenshot.free-realms.1016x720.2011-09-28.690.jpg",
+   "Stormfront market huts comp 001.jpg",
+   "StormfrontMountains 2007.jpg",
+   "Sunstone Valley concept.png",
+   "Sunstone.jpg",
+   "Welcometossv.jpg"
+  ]
+ },
+ {
+  "page": "The Pit",
+  "url": "https://freerealms.fandom.com/wiki/The_Pit",
+  "params": {
+   "name": "The Pit",
+   "image": "ThePit 2007.jpg",
+   "type": "Region",
+   "level": "N/A",
+   "location": "N/A",
+   "inhabitants": "N/A"
+  },
+  "categories": [
+   "Locations",
+   "Unused"
+  ],
+  "images": [
+   "ThePit 2007.jpg"
+  ]
+ },
+ {
+  "page": "Thistlerow",
+  "url": "https://freerealms.fandom.com/wiki/Thistlerow",
+  "params": {
+   "name": "Briarwood - Thistlerow",
+   "image": "7366178854 01db6eff9b o by krisfirebolt-d8ws1dq.jpg",
+   "type": "Sub-region",
+   "level": "All",
+   "location": "Middle section of [[Briarwood]]",
+   "inhabitants": "Mainly [[Chugawugs|chugawugs]]"
+  },
+  "categories": [
+   "Briarwood",
+   "Locations"
+  ],
+  "images": [
+   "7366178854 01db6eff9b o by krisfirebolt-d8ws1dq.jpg",
+   "Explore.png"
+  ]
+ },
+ {
+  "page": "Underworld",
+  "url": "https://freerealms.fandom.com/wiki/Underworld",
+  "params": {
+   "name": "Underworld",
+   "image": "Underworld.jpg",
+   "type": "Dimension (likely)",
+   "level": "N/A",
+   "location": "N/A",
+   "inhabitants": "Skeletons<br>Undead monsters (possibly)"
+  },
+  "categories": [
+   "Dimensions",
+   "Locations",
+   "Unreleased"
+  ],
+  "images": [
+   "Underworld Festival.jpg",
+   "Underworld.jpg"
+  ]
+ },
+ {
+  "page": "Unidentified Swamp Area",
+  "url": "https://freerealms.fandom.com/wiki/Unidentified_Swamp_Area",
+  "params": {
+   "name": "Unidentified Swamp Area",
+   "image": "Unidentified swamp area.jpg",
+   "type": "Region",
+   "level": "N/A",
+   "location": "N/A",
+   "inhabitants": "N/A"
+  },
+  "categories": [
+   "Locations",
+   "Unused"
+  ],
+  "images": [
+   "Unidentified swamp area.jpg"
+  ]
+ }
+]

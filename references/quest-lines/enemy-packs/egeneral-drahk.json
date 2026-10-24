@@ -1,0 +1,61 @@
+{
+ "title": "General Drahk",
+ "our_entries": [
+  {
+   "file": "npcs/shrouded_glade.json",
+   "npc_id": 9500000683,
+   "zone": "Shrouded Glade",
+   "enemy_kind": "Boss of the invasion: \"The merciless General Drahk has invaded Shrouded Glade!\" (3258784759).",
+   "location_evidence": [
+    "Open-world fight every 15 minutes (wiki); also the finale boss in \"This Glade is Ours!\". Video: nameplate in combat (ct2JrtOiO4g/00436, /00440, /00444, /00452, /00496, /00500)."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:437153 [npc_name | Shrouded Glade | General Drahk] 'General Drahk'",
+  "locale:437795 [npc_name | Shrouded Glade | General Drahk] 'General Drahk'",
+  "locale:5102921 [npc_name | - | General Drahk] 'General Drahk'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:437153 [npc_name | Shrouded Glade | General Drahk] 'General Drahk'",
+  "locale:437795 [npc_name | Shrouded Glade | General Drahk] 'General Drahk'",
+  "locale:438278 [quest_dialog | Shrouded Glade | General Drahk] 'PUNY WOLF! BEHOLD MY FIST!'",
+  "locale:438294 [quest_dialog | Shrouded Glade | General Drahk] 'You did it! You defeated Drahk!<BR><BR>But did you see the treasure chest he left behind? Make sure you collect a reward from it before you go.'",
+  "locale:438305 [ui | Shrouded Glade | General Drahk] 'Do you want to face General Drahk again in the final battle?'",
+  "locale:438306 [ui | Shrouded Glade | General Drahk] \"What ever it is... I'll CRUSH IT!\"",
+  "locale:438307 [ui | Shrouded Glade | General Drahk] 'Yes!'",
+  "locale:438308 [ui | Shrouded Glade | General Drahk] 'Not right now.'",
+  "locale:438309 [npc_dialog | Shrouded Glade | General Drahk] 'This defeat will not last. The Gloam endures.'",
+  "locale:5102921 [npc_name | - | General Drahk] 'General Drahk'"
+ ],
+ "client_cluster": [
+  "locale:437145 [npc_name | Shrouded Glade | Captain Sunspark] 'Captain Sunspark'",
+  "locale:437146 [npc_name | Shrouded Glade | Male Warpstone Druid] 'Male Warpstone Druid'",
+  "locale:437147 [npc_name | Shrouded Glade | Female Warpstone Druid] 'Female Warpstone Druid'",
+  "locale:437148 [other | Shrouded Glade | gloam invasion - warpstone power | FLAG dev_note: internal event tag] 'gloam invasion - warpstone power'",
+  "locale:437150 [place | Shrouded Glade | Gloam Obelisk] 'Gloam Obelisk'",
+  "locale:437151 [item | Shrouded Glade | Gloamstone 1 | FLAG placeholder: numbered test name] 'Gloamstone 1'",
+  "locale:437152 [item | Shrouded Glade | Corrupted Warpstone] 'Corrupted Warpstone'",
+  "locale:437153 [npc_name | Shrouded Glade | General Drahk] 'General Drahk'",
+  "locale:437154 [npc_name | Shrouded Glade | Druid 1 | FLAG placeholder: numbered test name] 'Druid 1'",
+  "locale:437155 [npc_name | Shrouded Glade | Druid 2 | FLAG placeholder: numbered test name] 'Druid 2'",
+  "locale:437156 [npc_name | Shrouded Glade | Druid 3 | FLAG placeholder: numbered test name] 'Druid 3'",
+  "locale:437157 [npc_name | Shrouded Glade | Druid 4 | FLAG placeholder: numbered test name] 'Druid 4'",
+  "locale:437158 [npc_name | Shrouded Glade | Druid Defender] 'Druid Defender'",
+  "locale:437159 [other | - | Quality Assurance Leads | FLAG dev_note: QA credits label] 'Quality Assurance Leads'",
+  "locale:437160 [npc_name | Shrouded Glade | Druid Defender | FLAG duplicate: same as 437158] 'Druid Defender'",
+  "locale:437161 [npc_name | Shrouded Glade | Druid Defender | FLAG duplicate: same as 437158] 'Druid Defender'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:ct2JrtOiO4g/00440.jpg (-): npcs: General Drahk nameplate  | landmarks: orange-roofed buildings | job_level: Archer 20",
+  "video:ct2JrtOiO4g/00452.jpg (-): npcs: General Drahk nameplate  | landmarks: orange-roofed buildings | job_level: Archer 20",
+  "video:ct2JrtOiO4g/00436.jpg (-): npcs: General Drahk nameplate  Headmaster Merk nameplate  | landmarks: red fire hydrant cobblestone path topiary tree stone archway | job_level: Archer 20",
+  "video:ct2JrtOiO4g/00500.jpg (-): npcs: General Drahk nameplate  Gus Geargrinder nameplate  Dorn Geargrinder nameplate  Druid of the Branch nameplate  | landmarks: purple crystal cluster orange building | job_level: Archer 20 | other_text: -2490",
+  "video:ct2JrtOiO4g/00496.jpg (-): npcs: General Drahk nameplate  Gus Geargrinder nameplate  Dorn Geargrinder nameplate  Druid of the Branch nameplate  | landmarks: purple crystal cluster orange building | job_level: Archer 20 | other_text: -2490 -4981!!"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

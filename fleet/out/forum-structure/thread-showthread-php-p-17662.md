@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-17662 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2872, 4, 638] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article":{"title":"Free Realms Forums","date":null,"author":null,"type":"other"},"about_free_realms":true,"summary":"This capture is a vBulletin error page from the Free Realms fan forum, not a thread. It shows a 'maximum number of posts you can view' message and forum navigation, with no thread text, patch details, quests, items, prices or mechanics. It gives a rebuilder no game facts.","facts":[],"quests":[],"uncertain":["The requested thread (showthread.php, post p=17662) did not load; only the forum error message and site navigation were captured.","The capture date (2009-05-27) and the forum board list are the only usable content; no author or post date is available."]}

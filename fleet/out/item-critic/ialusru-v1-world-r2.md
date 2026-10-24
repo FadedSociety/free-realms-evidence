@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ialusru-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3475, 4435, 6, 1188] model=claude-haiku-5-5 -->
+# Alusru
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "The wiki 'Sells' list (15 Wizard job items) is a vendor relationship that the answer mentions only in evidence and open, not as structured sources. Prices and currency are absent in the pack, so an empty sources list is defensible, but the vendor link itself is clearly evidenced.", "fix": "Keep sources empty for Alusru as an item (she is an NPC, not an item), and record the vendor link per sold item only where a price is evidenced. Source for the link: wiki page Alusru 'Sells' list and Merchants page, Wizard section."}]}

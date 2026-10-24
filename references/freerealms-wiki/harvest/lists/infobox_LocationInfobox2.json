@@ -1,0 +1,717 @@
+[
+ {
+  "page": "Abyss",
+  "url": "https://freerealms.fandom.com/wiki/Abyss",
+  "params": {
+   "type": "Dimension",
+   "location": "N/A"
+  },
+  "categories": [
+   "Dimensions",
+   "Locations"
+  ],
+  "images": []
+ },
+ {
+  "page": "Ancient's Wall",
+  "url": "https://freerealms.fandom.com/wiki/Ancient's_Wall",
+  "params": {
+   "image": "9db623bdcf1432b7415c6bea810ce706.jpg.png",
+   "type": "Ruined wall",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations"
+  ],
+  "images": [
+   "9db623bdcf1432b7415c6bea810ce706.jpg.png"
+  ]
+ },
+ {
+  "page": "Briarheart Palace",
+  "url": "https://freerealms.fandom.com/wiki/Briarheart_Palace",
+  "params": {
+   "image": "Briarheart Tree.jpg",
+   "type": "Tree",
+   "location": "[[Briarheart]], [[Briarwood]]"
+  },
+  "categories": [
+   "Briarwood",
+   "Locations"
+  ],
+  "images": [
+   "Briarheart Door.jpg",
+   "Briarheart Tree.jpg",
+   "D8ws1s4-0fc9cb9b-b23f-4f07-b9a7-847b693f23a2.jpg",
+   "FRIssue4BriarheartPalace.jpg",
+   "Mqdefault.jpg"
+  ]
+ },
+ {
+  "page": "Camp Chatty",
+  "url": "https://freerealms.fandom.com/wiki/Camp_Chatty",
+  "params": {
+   "image": "Camp Chatty.jpg",
+   "type": "Camp",
+   "location": "[[Greenwood Forest]]"
+  },
+  "categories": [
+   "Camp Chatty",
+   "Greenwood Forest",
+   "Locations"
+  ],
+  "images": [
+   "Camp Chatty.jpg"
+  ]
+ },
+ {
+  "page": "Camp Robbie",
+  "url": "https://freerealms.fandom.com/wiki/Camp_Robbie",
+  "params": {
+   "image": "E3-2010-free-realms-screens-20100617024822279-3242339.jpg",
+   "type": "Camp",
+   "location": "[[Greenwood Forest]]"
+  },
+  "categories": [
+   "Camp Robbie",
+   "Greenwood Forest",
+   "Locations"
+  ],
+  "images": [
+   "Camp Robbie.jpg",
+   "E3-2010-free-realms-screens-20100617024822279-3242339.jpg"
+  ]
+ },
+ {
+  "page": "Cloud World",
+  "url": "https://freerealms.fandom.com/wiki/Cloud_World",
+  "params": {
+   "name": "Cloud World",
+   "image": "Img 20130617-21-26-46.jpg",
+   "type": "Dimension",
+   "ownership": "[[Rio Cloudjumps]] (presumably)",
+   "location": "Above the [[World|Realms]]"
+  },
+  "categories": [
+   "Dimensions",
+   "Locations",
+   "Mini Games"
+  ],
+  "images": [
+   "Img 20130617-21-26-46.jpg",
+   "Img 20130617-21-26-58 thumb.png"
+  ]
+ },
+ {
+  "page": "Cobblestone Village",
+  "url": "https://freerealms.fandom.com/wiki/Cobblestone_Village",
+  "params": {
+   "image": "129804.png",
+   "type": "Town",
+   "location": "[[Southern Wilds]]"
+  },
+  "categories": [
+   "Cobblestone Village",
+   "Locations",
+   "Sacred Grove"
+  ],
+  "images": [
+   "129804.png",
+   "Explore.png"
+  ]
+ },
+ {
+  "page": "Dartmoor Quarry",
+  "url": "https://freerealms.fandom.com/wiki/Dartmoor_Quarry",
+  "params": {
+   "image": "5cc2f5d3693c0b9603ffa79ed87d58a4.png",
+   "type": "Mining corporation",
+   "location": "[[Northern Wilds]]"
+  },
+  "categories": [
+   "Locations",
+   "Mines",
+   "Wilds"
+  ],
+  "images": [
+   "5cc2f5d3693c0b9603ffa79ed87d58a4.png"
+  ]
+ },
+ {
+  "page": "Durango Zoo",
+  "url": "https://freerealms.fandom.com/wiki/Durango_Zoo",
+  "params": {
+   "image": "081.jpg",
+   "type": "Zoo",
+   "location": "[[Lakeshore]]"
+  },
+  "categories": [
+   "Lakeshore",
+   "Locations",
+   "Sacred Grove"
+  ],
+  "images": [
+   "081.jpg",
+   "Explore.png"
+  ]
+ },
+ {
+  "page": "Farnum's Farm",
+  "url": "https://freerealms.fandom.com/wiki/Farnum's_Farm",
+  "params": {
+   "image": "9ac999d53a9e4663b22c098dcd83cd02.png",
+   "type": "Farm",
+   "location": "South of the [[Cobblestone Village]] [[Warpstones|warpstone]]"
+  },
+  "categories": [
+   "Cobblestone Village",
+   "Locations"
+  ],
+  "images": [
+   "9ac999d53a9e4663b22c098dcd83cd02.png"
+  ]
+ },
+ {
+  "page": "Flying Dragon Dojo",
+  "url": "https://freerealms.fandom.com/wiki/Flying_Dragon_Dojo",
+  "params": {
+   "image": "Flying dragon dojo.jpg",
+   "type": "Dojo",
+   "location": "[[Seaside]]"
+  },
+  "categories": [
+   "Locations",
+   "Seaside",
+   "Seaside Locations"
+  ],
+  "images": [
+   "Flying dragon dojo.jpg"
+  ]
+ },
+ {
+  "page": "Forest Troll Village",
+  "url": "https://freerealms.fandom.com/wiki/Forest_Troll_Village",
+  "params": {
+   "image": "1592bc4920598e07d82f66ac12a18c26.png",
+   "type": "Village",
+   "location": "[[Central Wilds]]"
+  },
+  "categories": [
+   "Locations",
+   "Sacred Grove",
+   "Wilds"
+  ],
+  "images": [
+   "1592bc4920598e07d82f66ac12a18c26.png",
+   "Explore.png"
+  ]
+ },
+ {
+  "page": "Greenwood Camp",
+  "url": "https://freerealms.fandom.com/wiki/Greenwood_Camp",
+  "params": {
+   "image": "Screen Shot 2016-06-28 at 9.41.45 PM.png",
+   "type": "Camp",
+   "location": "[[Greenwood Forest]]"
+  },
+  "categories": [
+   "Greenwood Forest",
+   "Locations",
+   "Sacred Grove"
+  ],
+  "images": [
+   "Screen Shot 2016-06-28 at 9.41.45 PM.png"
+  ]
+ },
+ {
+  "page": "Greenwood Forest",
+  "url": "https://freerealms.fandom.com/wiki/Greenwood_Forest",
+  "params": {
+   "image": "4781f78bb429b901b6d73f0cf5693153.png",
+   "type": "Forest",
+   "location": "[[Southern Wilds]]"
+  },
+  "categories": [
+   "Greenwood Forest",
+   "Locations",
+   "Sacred Grove"
+  ],
+  "images": [
+   "4781f78bb429b901b6d73f0cf5693153.png",
+   "9572dc0cd2fb357a3f6e52d6f32b155b.png"
+  ]
+ },
+ {
+  "page": "Highroad Junction Playground",
+  "url": "https://freerealms.fandom.com/wiki/Highroad_Junction_Playground",
+  "params": {
+   "image": "921.jpg",
+   "type": "Playground",
+   "location": "[[Highroad Junction]]"
+  },
+  "categories": [
+   "Highroad Junction",
+   "Locations",
+   "Playgrounds"
+  ],
+  "images": [
+   "921.jpg"
+  ]
+ },
+ {
+  "page": "Isle of Tears",
+  "url": "https://freerealms.fandom.com/wiki/Isle_of_Tears",
+  "params": {
+   "image": "Screen Shot 2016-06-29 at 4.20.41 PM.png",
+   "type": "Island",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations"
+  ],
+  "images": [
+   "Screen Shot 2016-06-29 at 4.20.41 PM.png"
+  ]
+ },
+ {
+  "page": "Mire's Edge",
+  "url": "https://freerealms.fandom.com/wiki/Mire's_Edge",
+  "params": {
+   "image": "B90ce973c0c2cd0d5ad09e80d41c7a73.jpg.png",
+   "type": "Outpost",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations"
+  ],
+  "images": [
+   "B90ce973c0c2cd0d5ad09e80d41c7a73.jpg.png"
+  ]
+ },
+ {
+  "page": "Mother Lode Quarry",
+  "url": "https://freerealms.fandom.com/wiki/Mother_Lode_Quarry",
+  "params": {
+   "image": "MotherLode01-0.jpg",
+   "type": "Mining corporation",
+   "location": "[[Bristlewood]], [[Briarwood]]"
+  },
+  "categories": [
+   "Bristlewood",
+   "Locations",
+   "Mines"
+  ],
+  "images": [
+   "MotherLode01-0.jpg"
+  ]
+ },
+ {
+  "page": "Mucklewhump's Ferry",
+  "url": "https://freerealms.fandom.com/wiki/Mucklewhump's_Ferry",
+  "params": {
+   "image": "Mucklewhump's Ferry.jpg",
+   "type": "House",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations"
+  ],
+  "images": [
+   "Mucklewhump's Ferry.jpg"
+  ]
+ },
+ {
+  "page": "PCA Camp",
+  "url": "https://freerealms.fandom.com/wiki/PCA_Camp",
+  "params": {
+   "image": "641.jpg",
+   "type": "Camp",
+   "location": "[[Northern Wilds]]"
+  },
+  "categories": [
+   "Locations",
+   "Wilds"
+  ],
+  "images": [
+   "641.jpg"
+  ]
+ },
+ {
+  "page": "Pixie Nursery",
+  "url": "https://freerealms.fandom.com/wiki/Pixie_Nursery",
+  "params": {
+   "image": "E47921c7001db4f6bd72ff9e4997c29e.png",
+   "type": "Outpost",
+   "location": "[[Northern Wilds]]"
+  },
+  "categories": [
+   "Locations",
+   "Wilds"
+  ],
+  "images": [
+   "E47921c7001db4f6bd72ff9e4997c29e.png"
+  ]
+ },
+ {
+  "page": "Pixiewood Hills",
+  "url": "https://freerealms.fandom.com/wiki/Pixiewood_Hills",
+  "params": {
+   "image": "Pixiewood1 zpsd4db93eb.jpg",
+   "type": "Town",
+   "location": "[[Sanctuary]]"
+  },
+  "categories": [
+   "Locations",
+   "Sanctuary"
+  ],
+  "images": [
+   "Pixiewood1 zpsd4db93eb.jpg"
+  ]
+ },
+ {
+  "page": "Quagmire Quarry",
+  "url": "https://freerealms.fandom.com/wiki/Quagmire_Quarry",
+  "params": {
+   "image": "Cd8552cc04e2e3e0931a0b37ecef612e.png",
+   "type": "Quarry",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations",
+   "Mines"
+  ],
+  "images": [
+   "Cd8552cc04e2e3e0931a0b37ecef612e.png"
+  ]
+ },
+ {
+  "page": "Red's Haven",
+  "url": "https://freerealms.fandom.com/wiki/Red's_Haven",
+  "params": {
+   "image": "1bbf66ce517bdea24fa6a4dfc8491c62.png",
+   "type": "Crafting station",
+   "location": "[[Rumble Ridge]], [[Sunstone Valley]]"
+  },
+  "categories": [
+   "Locations",
+   "Sunstone Valley",
+   "Sunstone Valley Locations"
+  ],
+  "images": [
+   "1bbf66ce517bdea24fa6a4dfc8491c62.png"
+  ]
+ },
+ {
+  "page": "Relic Excavation Site",
+  "url": "https://freerealms.fandom.com/wiki/Relic_Excavation_Site",
+  "params": {
+   "image": "87087e305e03f1c1a5c9a7a52ca7c46b.jpg",
+   "type": "[[wikipedia:Archaeology|Archaeological]] [[wikipedia:Excavation (archaeology)|dig]] site",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations"
+  ],
+  "images": [
+   "87087e305e03f1c1a5c9a7a52ca7c46b.jpg"
+  ]
+ },
+ {
+  "page": "Robgoblin Camp",
+  "url": "https://freerealms.fandom.com/wiki/Robgoblin_Camp",
+  "params": {
+   "image": "Robgoblincamp.png",
+   "type": "Settlement area",
+   "location": "[[Lakeshore]]"
+  },
+  "categories": [
+   "Lakeshore",
+   "Locations",
+   "Sacred Grove"
+  ],
+  "images": [
+   "Explore.png",
+   "Robgoblincamp.png"
+  ]
+ },
+ {
+  "page": "Royal Vault",
+  "url": "https://freerealms.fandom.com/wiki/Royal_Vault",
+  "params": {
+   "name": "Royal Vault",
+   "image": "Vault.jpg",
+   "type": "Cave",
+   "location": "[[Sanctuary]]"
+  },
+  "categories": [
+   "Locations",
+   "No longer in-game",
+   "Sanctuary"
+  ],
+  "images": [
+   "Sc.png",
+   "Screen shot 2013-03-31 at 10.53.19 AM.png",
+   "Screen shot 2013-03-31 at 10.59.25 AM.png",
+   "Vault.jpg"
+  ]
+ },
+ {
+  "page": "Rumble Ridge",
+  "url": "https://freerealms.fandom.com/wiki/Rumble_Ridge",
+  "params": {
+   "image": "Rumbleridge2.jpg",
+   "type": "City",
+   "location": "[[Sunstone Valley]]"
+  },
+  "categories": [
+   "Locations",
+   "Sunstone Valley",
+   "Sunstone Valley Locations"
+  ],
+  "images": [
+   "Rumbleridge2.jpg"
+  ]
+ },
+ {
+  "page": "Sacred Glade",
+  "url": "https://freerealms.fandom.com/wiki/Sacred_Glade",
+  "params": {
+   "name": "Sacred Glade",
+   "image": "Sacred Glade.png",
+   "type": "N/A",
+   "location": "N/A"
+  },
+  "categories": [
+   "Locations",
+   "No longer in-game",
+   "Sacred Glade",
+   "Sacred Grove",
+   "ZAM Credits"
+  ],
+  "images": [
+   "Sacred Glade.png",
+   "ZAM.png"
+  ]
+ },
+ {
+  "page": "Seaside Pet Adoption Center",
+  "url": "https://freerealms.fandom.com/wiki/Seaside_Pet_Adoption_Center",
+  "params": {
+   "image": "Img 20131003-18-02-28.jpg",
+   "type": "Pet adoption center",
+   "location": "[[Seaside]]"
+  },
+  "categories": [
+   "Locations",
+   "Seaside",
+   "Seaside Locations"
+  ],
+  "images": [
+   "Img 20131003-18-02-28.jpg"
+  ]
+ },
+ {
+  "page": "Seaside Post Office",
+  "url": "https://freerealms.fandom.com/wiki/Seaside_Post_Office",
+  "params": {
+   "image": "Seasidepostoffice.png",
+   "type": "Post office",
+   "location": "[[Seaside]]"
+  },
+  "categories": [
+   "Locations",
+   "Seaside",
+   "Seaside Locations"
+  ],
+  "images": [
+   "Seasidepostoffice.png"
+  ]
+ },
+ {
+  "page": "Seaside School of Medicine",
+  "url": "https://freerealms.fandom.com/wiki/Seaside_School_of_Medicine",
+  "params": {
+   "image": "",
+   "type": "[[Medic]] school",
+   "ownership": "[[Doctor Callahan]]",
+   "location": "[[Seaside]]"
+  },
+  "categories": [
+   "Locations",
+   "Seaside",
+   "Seaside Locations"
+  ],
+  "images": []
+ },
+ {
+  "page": "Shadowtalon Dojo",
+  "url": "https://freerealms.fandom.com/wiki/Shadowtalon_Dojo",
+  "params": {
+   "image": "Shadowtalon Dojo.jpg",
+   "type": "Dojo",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations"
+  ],
+  "images": [
+   "Shadowtalon Dojo.jpg"
+  ]
+ },
+ {
+  "page": "Sinking Graveyard",
+  "url": "https://freerealms.fandom.com/wiki/Sinking_Graveyard",
+  "params": {
+   "image": "86c982870a00346604bdc30dffb3d14a.png",
+   "type": "Graveyard",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations"
+  ],
+  "images": [
+   "86c982870a00346604bdc30dffb3d14a.png"
+  ]
+ },
+ {
+  "page": "Snowhill Stage",
+  "url": "https://freerealms.fandom.com/wiki/Snowhill_Stage",
+  "params": {
+   "image": "Snowhillstage.jpg",
+   "type": "Stage",
+   "location": "[[Snowhill]]"
+  },
+  "categories": [
+   "Locations",
+   "Snowhill"
+  ],
+  "images": [
+   "Snowhillstage.jpg"
+  ]
+ },
+ {
+  "page": "Southvale Quarry",
+  "url": "https://freerealms.fandom.com/wiki/Southvale_Quarry",
+  "params": {
+   "image": "963.jpg",
+   "type": "Mining corporation",
+   "location": "[[Greenwood Forest]]"
+  },
+  "categories": [
+   "Greenwood Forest",
+   "Locations",
+   "Mines"
+  ],
+  "images": [
+   "963.jpg"
+  ]
+ },
+ {
+  "page": "Stillwater Crossing",
+  "url": "https://freerealms.fandom.com/wiki/Stillwater_Crossing",
+  "params": {
+   "image": "Img 20120216-18-17-42 thumb.png",
+   "type": "Town",
+   "location": "Southeast of [[Sanctuary]], northeast of [[Blackspore Swamp|Blackspore]]"
+  },
+  "categories": [
+   "Locations",
+   "Sacred Grove",
+   "Stillwater Crossing"
+  ],
+  "images": [
+   "Explore.png",
+   "Img 20120216-18-17-42 thumb.png"
+  ]
+ },
+ {
+  "page": "The Dig",
+  "url": "https://freerealms.fandom.com/wiki/The_Dig",
+  "params": {
+   "image": "Img 20131005-14-42-07 thumb.png",
+   "type": "[[wikipedia:Archaeology|Archaeological]] [[wikipedia:Excavation (archaeology)|dig]] site",
+   "location": "[[Sunstone Valley]]"
+  },
+  "categories": [
+   "Locations",
+   "Sunstone Valley",
+   "Sunstone Valley Locations"
+  ],
+  "images": [
+   "Img 20131005-14-42-07 thumb.png"
+  ]
+ },
+ {
+  "page": "The Guild House",
+  "url": "https://freerealms.fandom.com/wiki/The_Guild_House",
+  "params": {
+   "image": "39e0b7f644f784228012ab8811c1e424.jpg",
+   "type": "House",
+   "location": "[[Blackspore Swamp]]"
+  },
+  "categories": [
+   "Blackspore",
+   "Locations"
+  ],
+  "images": [
+   "39e0b7f644f784228012ab8811c1e424.jpg"
+  ]
+ },
+ {
+  "page": "The Roadhouse",
+  "url": "https://freerealms.fandom.com/wiki/The_Roadhouse",
+  "params": {
+   "image": "074d18b0dfc73826025f07e1050c6e49.png",
+   "type": "Tavern",
+   "location": "[[Northern Wilds]]"
+  },
+  "categories": [
+   "Locations",
+   "Wilds"
+  ],
+  "images": [
+   "074d18b0dfc73826025f07e1050c6e49.png"
+  ]
+ },
+ {
+  "page": "Whirly's Scrap Camp",
+  "url": "https://freerealms.fandom.com/wiki/Whirly's_Scrap_Camp",
+  "params": {
+   "image": "D2c025a98cff135cf2bccc0945c3d0ae.png",
+   "type": "Settlement area",
+   "location": "[[Sunstone Valley]]"
+  },
+  "categories": [
+   "Locations",
+   "Sunstone Valley",
+   "Sunstone Valley Locations"
+  ],
+  "images": [
+   "D2c025a98cff135cf2bccc0945c3d0ae.png"
+  ]
+ },
+ {
+  "page": "Wugachug Stage",
+  "url": "https://freerealms.fandom.com/wiki/Wugachug_Stage",
+  "params": {
+   "image": "Wugachugstage.jpg",
+   "type": "Stage",
+   "location": "[[Wugachug]]"
+  },
+  "categories": [
+   "Locations",
+   "Wugachug"
+  ],
+  "images": [
+   "Wugachugstage.jpg"
+  ]
+ }
+]

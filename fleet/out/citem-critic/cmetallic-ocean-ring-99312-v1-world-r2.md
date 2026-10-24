@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetallic-ocean-ring-99312-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3855, 7374, 6, 1041] model=claude-haiku-5-5 -->
+# Metallic Ocean Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer does not mention the sibling 'Metallic Ocean Necklace' (client string in the opening-journal data, locale 2175367238 / 2945544323) or 'Granite Ocean Necklace' (locale 1159589248). The Ocean-family naming runs across ring and necklace, so an honest open note should say the Ocean material family also has necklace variants with no sources either.", "fix": "Add to open: 'Sibling Metallic Ocean Necklace and Granite Ocean Necklace exist as client strings with no sources found; the Ocean family likely shares one acquisition path.' Source: opening-journal-text-v2 en_us_data.dat lines 30708, 57316, 77747."}]}

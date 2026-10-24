@@ -1,0 +1,29 @@
+{
+ "title": "Pirate Party! (Pirate's Plunder event)",
+ "names_seen": [
+  "Pirate Party! (Pirate's Plunder event)"
+ ],
+ "facts": [
+  {
+   "statement": "A Pirate's Plunder community event ran on Friday March 26, 2010 at 3:00pm Pacific Daylight Time on Server 1.",
+   "numbers": {
+    "start_hour_PDT": 15,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "Friday March 26th, 2010 3:00pm Pacific Daylight Time Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1170",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1170",
+   "date": null,
+   "title": "Community Event: Pirate Party!",
+   "summary": "A community event page announcing a Pirate's Plunder event on the shores of Seaside, with a beach party, for a single server at a set time. The page notes that the Game Guide would not work for this event, so players had to arrive on foot. The post's exact date is not shown; only the event date (March 26, 2010) is given."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

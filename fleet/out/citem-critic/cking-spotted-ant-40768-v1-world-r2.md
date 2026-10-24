@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cking-spotted-ant-40768-v1-world-r2 status=done turns=4 usd=0.0029 tokens(read,write,in,out)=[31044, 14749, 10, 1390] model=claude-haiku-5-5 -->
+# King Spotted Ant
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "Minor: the wiki collection-list citation is correct in substance (the 'Spotted Ants' entry is at List of Collections line 178, and repo collections.json has it as wiki:5:147 with entries_known false, entries [], reward null). The answer could say so explicitly: the wiki list gives no members or rewards for the collection, which is what its 'open' item already implies.", "fix": "Cite repo:prototype/osfr-tools/data/content/collections.json (key wiki:5:147, name 'Spotted Ants', entries_known false, reward null) alongside the wiki list line, to show the collection itself has no evidenced members or reward."}]}

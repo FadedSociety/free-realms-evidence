@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstandard-chaise-132529-v2-evidence-r3 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3762, 6554, 6, 978] model=claude-haiku-5-5 -->
+# Standard Chaise
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open", "issue": "Minor: the store row's source_tags (L1, L2, L4, R2, T633, R1) are left undecoded. That is honest, but the sale-channel question is still open.", "fix": "No change required for pass. Checked repo:prototype/osfr-tools/data/content/stores.json line 11792: item_id 36116, category_id 53, tint_group_id 3, purchase 800, member 10% -> 720, sell 80, no_sale false, tags L1,L2,L4,R2,T633,R1. The client locale 132529 'Standard Chaise' is confirmed by lookup. The article 1818 fact concerns a different item (Medium Roped Dining Chair) and is correctly excluded. No wiki, video or article source names the chaise, so the vendor stays unknown."}]}

@@ -1,0 +1,76 @@
+{
+ "title": "Pumpkin Prince",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000057,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Super Spooktacular boss; open-world visit to Blackspore plus the Bone Bog Cemetery fight (level 13 or higher)",
+   "location_evidence": [
+    "Bone Bog Cemetery; Blackspore is one of four spawn towns"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:416102 [npc_name | - | Pumpkin Prince] 'Pumpkin Prince'",
+  "locale:5102926 [npc_name | - | Pumpkin Prince] 'Pumpkin Prince'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:415391 [quest_objective | Bone Bog Cemetery | Pumpkin Prince] \"Place the signets into the Prince's headstone near Bone Bog Cemetery.\"",
+  "locale:415392 [quest_objective | Bone Bog Cemetery | Pumpkin Prince] 'Enter Bone Bog Cemetery and stop the Pumpkin Prince from raising his undead army.'",
+  "locale:416062 [quest_dialog | - | Pumpkin Prince] \"This could only mean one thing. The <font color='#d9781A'>Pumpkin Prince</font> is plotting his return to the world of the living.<BR><BR>Take this signet, for \"",
+  "locale:416102 [npc_name | - | Pumpkin Prince] 'Pumpkin Prince'",
+  "locale:416103 [quest_dialog | Sacred Grove | Pumpkin Prince] \"Finally, I've been released from my tomb! I have you to thank, [*player*]. If you hadn't placed those signets, I never would have been able to escape.<BR><BR>No\"",
+  "locale:416108 [quest_objective | - | Pumpkin Prince] 'Speak to the Pumpkin Prince'",
+  "locale:416325 [quest_dialog | - | Pumpkin Prince] 'You helped scare away the Pumpkin Prince!'",
+  "locale:416738 [quest_dialog | - | Pumpkin Prince] 'The Pumpkin Prince is summoning ghouls and zombies to the world of the mortals. Quickly scare them all away to weaken the prince and send him back to the underw'",
+  "locale:431558 [quest_objective | - | Pumpkin Prince] \"When the Pumpkin Prince appears, you'll find freshly spawned graves. Interact with one, and help scare the ghosts and zombies away.\"",
+  "locale:432065 [other | - | Pumpkin Prince | FLAG dev_note: internal spawn script label] 'Pumpkin Prince *OnSpawn*'",
+  "locale:432067 [other | - | Pumpkin Prince | FLAG dev_note: internal death script label] 'Pumpkin Prince *OnDeath*'",
+  "locale:432069 [item | - | Pumpkin Prince] \"Pumpkin Prince's Treasure\"",
+  "locale:432072 [npc_dialog | - | Pumpkin Prince] \"This isn't the end, I'll be back! And next time I won't be stopped!\"",
+  "locale:432073 [quest_dialog | - | Pumpkin Prince] 'The Pumpkin Prince dropped a large golden chest. Claim your reward?'",
+  "locale:432082 [quest_dialog | Sacred Grove | Pumpkin Prince] \"Foolish mortals! I can't be beaten; I am the Pumpkin Prince!\"",
+  "locale:432206 [quest_dialog | - | Pumpkin Prince] \"<BR>Now, you don't get an opportunity like this every year. The Pumpkin Prince has offered a special prize to the &quot;scariest&quot; monster of Halloween.<BR>\"",
+  "locale:432207 [quest_objective | - | Pumpkin Prince] 'Join Team Vampire!'",
+  "locale:432208 [quest_objective | - | Pumpkin Prince] 'Join Team Werewolf!'",
+  "locale:5102926 [npc_name | - | Pumpkin Prince] 'Pumpkin Prince'"
+ ],
+ "client_cluster": [
+  "locale:416095 [quest_dialog | - | Sidekicks] 'Double trouble, the Cheetahs are out to show the Sidekicks how to play proper soccer.'",
+  "locale:416096 [quest_dialog | Sacred Grove | Spectral Guardian] \"Only the <font color='#d9781A'>spectral guardians</font> know how to keep the tomb sealed.<BR><BR>Seek them out around Sacred Grove.\"",
+  "locale:416098 [quest_dialog | Sacred Grove | Signets] \"Only a [*player_race*] can <font color='#d9781A'>place</font> the <font color='#d9781A'>signets</font> and seal the Underworld Prince in his tomb.\"",
+  "locale:416100 [quest_dialog | - | Lesser Artifact] 'Good job! Two more to go!'",
+  "locale:416101 [quest_dialog | - | Lesser Artifact] 'Excellent!  Only one more to go!'",
+  "locale:416102 [npc_name | - | Pumpkin Prince] 'Pumpkin Prince'",
+  "locale:416103 [quest_dialog | Sacred Grove | Pumpkin Prince] \"Finally, I've been released from my tomb! I have you to thank, [*player*]. If you hadn't placed those signets, I never would have been able to escape.<BR><BR>No\"",
+  "locale:416105 [quest_dialog | - | Greater Artifact] \"It's working!  Come back over here!\"",
+  "locale:416106 [quest_objective | - | Greater Artifact] 'Place the signets'",
+  "locale:416108 [quest_objective | - | Pumpkin Prince] 'Speak to the Pumpkin Prince'"
+ ],
+ "wiki": {
+  "title": "Pumpkin Prince",
+  "text": "The Pumpkin Prince is an enemy NPC boss featured as the main antagonist of the Super Spooktacular. He is the pumpkin monster, his main goal while arrived is to terrorizing the four locations, though his goal was said to rule all of Sacred Grove.\n\nBattle\nOpen World\nDuring the Super Spooktacular, a message will pop up saying \"The Pumpkin Prince is terrorizing in <Warpstone>\". While the Pumpkin Prince is arrived, ectoplasmic destabilizer dispseners appear on the pathways of four locations which you will find somewhere near where the Pumpkin Prince is (he is walking around somewhere in that area and anyone can attack him). All you must do is keep firing at him with your ectoplasmic shooter which will be at the bottom of your screen where your combat moves are.\n\nThe Pumpkin Prince can spawn undead enemies such as grave elementals or necrowart zombies that will attack you with effects that slow you down. The Pumpkin Prince can also attack you with himself and if he strikes you will be turned into a necrowart zombie and lose your ectoplasmic shooter ability. You will have to pick up another one when the effect wears off.\n\nOnce defeated, he will cry a call in defeat and drop a treasure chest, which will give you a limited Super Spooktacular reward. If he wins he will cry a call of victory and will not drop anything.\n\nBone Bog Cemetery\nThe Pumpkin Prince appears in the Bone Bog Cemetery, located in Blackspore Swamp during the Super Spooktacular, which at one point will require you to encounter him in a battle which requires you to be level 13 combat job or above to enter. You going to the dungeon with Lucinda. You will go to fight against the Pumpkin Prince, and send his undead army back to the ghost world. The Pumpkin Prince also spawn the ghosts which will heal him in a battle"
+ },
+ "images": [
+  "image (image:art_or_promo): SUPER!\nSPOOKTACULAR!\nPumpkin Prince!\nVampires!\nvs\nWerewolves!",
+  "image (image:art_or_promo): 6\nPumpkin Prince\nHero, Ghost\n6\n6\nI can't be destroyed while another Ghost is in play.\nI get +1 attack and +1 defense for each other Ghost in play.\n4P23\nIllus.: Imaginary Friends\n1"
+ ],
+ "video": [
+  "video:0LoQe5VZ0PY/00102.jpg (Bone Bog Cemetery): npcs: The Pumpkin Prince nameplate  Lucinda dialog_header  | dialog: Let's get out of here! I'll talk to you outside when you are finished here. | quest:   Defeat the cemetery landlord Bonus: Find and defeat the 3 Bone Bog Skeletons! - 0/3  | job_level: Brawler 20 | other_text: T",
+  "video:0LoQe5VZ0PY/00098.jpg (Bone Bog Cemetery): npcs: The Pumpkin Prince dialog_header boss Lucinda dialog_header  | dialog: The Pumpkin Prince: You will not send me back! Lucinda: Yeah! You did it! | job_level: Brawler 20 | items_seen: Frag Sphere (ability tooltip at bottom centre) | other_text: Goal Complete The Pumpkin Prin",
+  "video:nmT76ti9kyo/00312.jpg (-): items_seen: Pumpkin Prince's Treasure | other_text: Pumpkin Prince's Treasure Press X or Trade completed Assistant Chef Edward Garrison Cook Cooking Table",
+  "video:NDiMxzJ3n2A/00130.jpg (-): npcs: Pumpkin Prince dialog_header  | dialog: Pumpkin Prince: This Dance-off is now over! | landmarks: glowing blue lantern lights dark swamp water | job_level: Ninja 20",
+  "video:NDiMxzJ3n2A/00128.jpg (-): npcs: Pumpkin Prince dialog_header  | dialog: Pumpkin Prince: This Dance-off is now over! | landmarks: blue stone archway lantern posts dark trees | job_level: Ninja 20"
+ ],
+ "article_facts": [
+  "fact:event: The Pumpkin Prince roams the surface of Free Realms hunting ghosts and demons; players can help the Ghostbusters in Snowy Hill, Mansagua Pass and Thornwood against him, and fight the Pumpkin Prince himself in some quests. | El Príncipe de Calabaza está decidid (http://www.freerealms.com/article/detail.action?articleId=1860)",
+  "fact:npc: The Pumpkin Prince is the event antagonist who sends ghosts and ghouls to the surface world; players can fight him, and characters with a pumpkin icon above their heads give Halloween quests. | even to fight the Pumpkin Prince himself! Look for characters with (http://www.freerealms.com:80/article/detail.action?articleId=476)",
+  "fact:npc: The Pumpkin Prince (called 'Rey Calabaza' / 'Príncipe de Calabaza' in this Spanish text) decides the debate and judges the dance contest himself. | el Príncipe de Calabaza decidió ponerle fin al debate, y quiere juzgar por sí mismo (http://www.freerealms.com/article/detail.action?articleId=1867)",
+  "fact:event: The Pumpkin Prince appears as a world event, spreading ghosts and ghouls; players can find Ghost Hunters in Snowhill, Bristlewood and Stillwater Crossing to scare them off. | Parle aux chasseurs de fantômes dans la Colline des neiges, Traversée de l'Eauquidort (http://www.freerealms.com/article/detail.action?articleId=1857)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'The Pumpkin Prince' (unresolved): Defeat the Pumpkin Prince"
+ ]
+}

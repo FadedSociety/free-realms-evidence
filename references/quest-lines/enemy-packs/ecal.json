@@ -1,0 +1,85 @@
+{
+ "title": "Cal",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\tavern_cellar.json"
+  },
+  {
+   "file": "dungeons\\tavern_cellar.json"
+  },
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000885,
+   "zone": "Wilds",
+   "enemy_kind": "Hooligan boss of the Tavern Cellar.",
+   "location_evidence": [
+    "The cellar under the Roadhouse. [video: boss speech in the cellar, fktAs_GRrjM/00870, /00894]"
+   ]
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:7273 [npc_name | - | Cal] 'Cal'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5495 [quest_objective | - | Cal] 'Defeat Cal, leader of the hooligans.'",
+  "locale:7066 [quest_objective | - | Cal] 'The hooligan leader, Cal, moved into the cellar! Now his thugs are causing a ruckus all day long! Defeat Cal!'",
+  "locale:7273 [npc_name | - | Cal] 'Cal'",
+  "locale:37578 [npc_dialog | Tarver Cellar | Cal] 'Ha! Check you out Sergeant Quackers!'",
+  "locale:37579 [npc_dialog | Tarver Cellar | Cal] 'Zap!  I love this wand!'",
+  "locale:417319 [quest_dialog | - | Cal] \"The circumstances could be better, but I'm excited to finally get the chance to work with you. <BR><BR>It seems the main strength of the hooligans is held up in\"",
+  "locale:417321 [quest_objective | Tavern Cellar | Cal] 'Defeat the hooligan boss Cal, in the Tavern Cellar'",
+  "locale:417330 [quest_objective | - | Cal] 'Head to the Tavern Cellar south of Wugachug and defeat the hooligan boss, Cal!'"
+ ],
+ "client_cluster": [
+  "locale:7265 [ability | - | Darvon's Descent- Ninja Summon] \"Darvon's Descent- Ninja Summon\"",
+  "locale:7267 [other | - | explorer ability camp | FLAG dev_note: internal ability label] 'explorer ability camp'",
+  "locale:7271 [quest_title | - | Help Marcus turn off TV's] \"Help Marcus turn off TV's\"",
+  "locale:7272 [quest_objective | - | Help Marcus turn off TV's] 'Follow Marcus and do what you can to help him out.'",
+  "locale:7273 [npc_name | - | Cal] 'Cal'",
+  "locale:7275 [quest_dialog | - | Help Marcus turn off TV's] 'So Victor sent you to help?  Great!  I need you to knock out the yeti while I sneak in and disconnect their cable.  Are you ready?'",
+  "locale:7276 [ui | - | Yes. | FLAG fragment: reply option with no quest meaning on its own] 'Yes.'",
+  "locale:7278 [other | - | human_m_hooligan_archer_01 | FLAG dev_note: internal asset ID] 'human_m_hooligan_archer_01'",
+  "locale:7279 [other | - | <NPC 862> | FLAG placeholder: unfilled NPC name token] '<NPC 862>'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Cal"
+ ],
+ "video": [
+  "video:fktAs_GRrjM/00594.jpg (-): other_text: Tavern Cellar The hooligan leader, Cal, moved into the cellar! Now his thugs are causing a ruckus all day long! Defeat Cal! Difficulty: PLAY! Hot Springs Haven Sheep Watch Cracked Claw Caverns Bixie Hive",
+  "video:fktAs_GRrjM/00894.jpg (-): npcs: Cal nameplate  | dialog: Cal: Ha! Check you out [addressee name redacted]! | quest:   Defeat Cat, leader of the hooligans. Bonus: Find and destroy all the brawl club ru?es - 2/4  | other_text: You can't use abilities when you are stunned!",
+  "video:fktAs_GRrjM/00870.jpg (Tavern Cellar): npcs: Cal chat_speaker  Hooligan chat_speaker  | dialog: All right, you two. Stand still! Sure, boss, but... Do you know how to use that thing? | quest:   Defeat Cal, leader of the hooligans.  | landmarks: cave walls stone pit | other_text: Brawler: Hewey's Escape Goal Complete: ",
+  "video:fktAs_GRrjM/00686.jpg (Tavern Cellar): quest:   Defeat Cal, leader of the hooligans.  | landmarks: cave walls | other_text: Hooligan Guard Wolf You don't have enough energy for that ability!",
+  "video:fktAs_GRrjM/00740.jpg (Tavern Cellar): quest:   Defeat Cal, leader of the hooligans. Bonus: Find and destroy all the brawl club ? - 0/4  | landmarks: cave walls torch-lit passage | other_text: You don't have enough energy for that ability!"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "other target in 'Blacksmith: Supply Delivery' (final): Forge Field Support Scalpels (craft two at the anvil)",
+  "talk target in 'Blacksmith: Do Work!' (final): Speak with Mili Ironcall, the camp's director.",
+  "deliver target in 'Blacksmith: Bolstering the Bows' (final): Give the Bows to Mili Ironcall",
+  "talk target in 'Blacksmith: Bolstering the Bows' (final): Talk to Mili Ironcall and give her the Bows you crafted",
+  "deliver target in 'Hammer of Courage' (final): Give the Chivalrous Guardian Hammer to Mili Ironcall",
+  "talk target in 'Blacksmith: Local Bonesaw Shortage' (final): Speak with Mili",
+  "deliver target in 'Blacksmith: Local Bonesaw Shortage' (final): Give the Bonesaws to Mili Ironcall",
+  "talk target in 'Blacksmith: Reach Level 15' (final): Your mining career will continue once you have reached level 15 as a Blacksmith. Return to Mili Ironcall at that time.",
+  "talk target in 'Blacksmith: Lady of the Lake' (final): Return to Anata Caliburn",
+  "talk target in 'Blacksmith: Lady of the Lake' (final): Return to Anata Caliburn, north of Blackspore.",
+  "talk target in 'Blacksmith: Lady of the Lake' (final): Speak with Anata",
+  "deliver target in 'Blacksmith: Tools of the Trade' (final): Bring the tools back to Anata Caliburn north of Blackspore at the Awespring Tributary.",
+  "deliver target in 'Blacksmith: Gemstone Roundup' (final): Give Anata 20 Moonstones",
+  "deliver target in 'Blacksmith: Gemstone Roundup' (final): Give Anata 20 Fire Agates",
+  "talk target in 'Card Duelist: Quizzical Yucca' (final): Talk to Quizzical Yucca near the path from Rumble Ridge into Sunstone Valley.",
+  "defeat target in 'Card Duelist: Quizzical Yucca' (final): Defeat Quizzical Yucca's Trick Deck",
+  "defeat target in 'Card Duelist: Quizzical Yucca' (final): Defeat Quizzical Yucca's Resource Deck",
+  "defeat target in 'Card Duelist: Quizzical Yucca' (final): Defeat Quizzical Yucca's Creature Deck",
+  "defeat target in 'Card Duelist: Quizzical Yucca' (final): Defeat Quizzical Yucca's Tournament Deck",
+  "minigame target in 'Demo Derby: Dizzy Driver' (unresolved): Complete 'Dizzy Driver' minigame"
+ ]
+}

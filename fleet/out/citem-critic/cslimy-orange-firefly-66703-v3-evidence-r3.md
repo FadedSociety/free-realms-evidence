@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cslimy-orange-firefly-66703-v3-evidence-r3 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[8601, 4986, 8, 1199] model=claude-haiku-5-5 -->
+# Slimy Orange Firefly
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4]", "issue": "The answer says no cited source carries icon data in the pack. The catalogue entry it cites (collection_catalogue.json:10372) does carry icon_id 293 and icon_tint_id 100 for item_definition_id 23090. The icon fields are real data, so the claim that the pack has none is wrong. Dropping the icon from the answer is still a defensible conservative choice.", "fix": "Reword to: 'Catalogue entry (collection_catalogue.json:10372-10374) lists icon_id 293 / tint 100 for this item; icon is catalogue-only and not used as an acquisition source.'"}]}

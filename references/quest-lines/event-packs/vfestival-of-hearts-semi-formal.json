@@ -1,0 +1,56 @@
+{
+ "title": "Festival of Hearts Semi-Formal",
+ "names_seen": [
+  "Festival of Hearts Semi-Formal"
+ ],
+ "facts": [
+  {
+   "statement": "A Festival of Hearts dance party was held in Merry Vale, with Festival of Love T-shirts and dancing in the streets.",
+   "numbers": {},
+   "era": "live",
+   "quote": "There was a dance in Merry Vale, Hide and Seek in Briarwood and a Luau on the beach!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1136",
+   "date": null
+  },
+  {
+   "statement": "A community semi-formal dance called the 'Festival de Corazones' was held on Friday 12 February 2010 on Server 1, with the US and Latin America session at 15:00 Pacific Time and the UK and Europe session at 09:00 Pacific / 18:00 European time.",
+   "numbers": {
+    "date_day": 12,
+    "date_month": 2,
+    "date_year": 2010,
+    "americas_hour_pacific": 15,
+    "uk_europe_hour_pacific": 9,
+    "uk_europe_hour_european": 18,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "Viernes 12 de febrero del 2010 15 hrs. Tiempo Pacifico",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=959",
+   "date": "2010-02-09"
+  },
+  {
+   "statement": "Attendees were asked to wear semi-formal attire: either the Festival de Corazones outfit or a formal outfit bought from the catalog.",
+   "numbers": {},
+   "era": "live",
+   "quote": "luce el atuendo Festival de Corazones o el bello traje o vestido que te hayas comprado en el catálogo de compras",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=959",
+   "date": "2010-02-09"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1136",
+   "date": null,
+   "title": "Event Recap: Festival of Hearts, Hide and Seek and Beach Party!",
+   "summary": "A community-team recap of several recent events: a Festival of Hearts semi-formal dance in Merry Vale, an Ambassador Hide and Seek game in Briarwood where finding hidden Community Ambassadors paid coins, and a Seaside Beach Luau where pets could swim. It also explains how to reach community events via the Game Guide calendar and its GO button."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=959",
+   "date": "2010-02-09",
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language community event notice (page titled 'What is New?', post dated roughly one year three months before the 2011-06-04 capture) announcing a semi-formal 'Festival de Corazones' dance on Friday 12 February 2010, held on Server 1 at two times for the Americas and for UK/Europe. It explains that community events are found through the Game Guide's Calendar, and that the Go button teleports players to an event once it has started."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

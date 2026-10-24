@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=other-calendar-php-day-2009-05-18-do-getday-sb-1 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2946, 4, 330] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article":{"title":"Free Realms Forums","date":null,"author":null,"type":"other"},"about_free_realms":false,"summary":"This capture is a vBulletin calendar day view (2009-05-18) from the Free Realms fan forum, but the page is only a login-required error screen plus forum navigation. It contains no article, event details, or game mechanics a rebuilder could use.","facts":[],"quests":[],"uncertain":["The page shows 'You are not logged in or you do not have permission to access this page'; no calendar events for 2009-05-18 are visible.","Only forum section names are visible (e.g., Combat In Free Realms, Items, Jobs/Classes, In-Game Mini Games, Pets, Membership / Stationcash); they carry no game data."]}

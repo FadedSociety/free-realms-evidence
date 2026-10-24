@@ -1,0 +1,57 @@
+{
+ "title": "TCG Events",
+ "names_seen": [
+  "TCG Events",
+  "TCG events"
+ ],
+ "facts": [
+  {
+   "statement": "TCG events were expected to be held every day.",
+   "numbers": {},
+   "era": "live",
+   "quote": "TCG Events are expected to be held every day.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1757",
+   "date": null
+  },
+  {
+   "statement": "TCG events were expected to be held every day during Summer Camp.",
+   "numbers": {},
+   "era": "live",
+   "quote": "TCG Events are expected to be held every day.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1775",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1757",
+   "date": null,
+   "title": "Summer Camp - Treasure Hunting Week",
+   "summary": "A Free Realms official news post from the 2010 Summer Camp series, themed Treasure Hunting Week. It lists the ways players could find treasure (mining, Robgoblin Junk Piles, hidden exploration tokens, pet digging) and the expected schedule of in-game and TCG community events, plus how to use the Game Guide calendar to teleport to events. The post gives expected schedules, not confirmed ones."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1775",
+   "date": null,
+   "title": "Summer Camp - Pet Week",
+   "summary": "A freerealms.com news post announcing Pet Week, the final theme of the 2010 Summer Camp community event season. It describes a pet parade from Crossroads to Sanctuary and the expected schedule of in-game and TCG events, and explains how to find events through the Game Guide calendar. The post gives a relative posting time ('2 days, 21 hours ago') and no absolute date."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Card Duelist: A Card Dueling Rumor (unresolved, live unsure)",
+  "Card Duelist: Dominic's New Card (unresolved, live yes)",
+  "Card Duelist: Break Time (unresolved, live yes)",
+  "Card Duelist: Quick Game of Cards (unresolved, live yes)",
+  "Card Duelist: Esther's Special Card (unresolved, live yes)",
+  "Card Duelist: Esther, the Brains (unresolved, live yes)",
+  "Card Duelist: Alleged Thievery (final, live yes)",
+  "Card Duelist: Something Precious (unresolved, live unsure)",
+  "Card Duelist: Cardie Partay (final, live yes)",
+  "Card Duelist: Defenders Duty (final, live yes)",
+  "Card Duelist: In Search of The Baron (final, live unsure)",
+  "Card Duelist: Finder of Secrets (unresolved, live unsure)",
+  "Card Duelist: A Guide to The Baron (final, live unsure)",
+  "Card Duelist: Master Explorer (final, live unsure)",
+  "Card Duelist: Confronting The Baron (final, live unsure)"
+ ]
+}

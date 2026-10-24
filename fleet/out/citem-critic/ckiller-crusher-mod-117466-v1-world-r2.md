@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ckiller-crusher-mod-117466-v1-world-r2 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[11601, 8760, 8, 1528] model=claude-haiku-5-5 -->
+# Killer Crusher Mod
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / live", "issue": "The answer is honest that no acquisition source is evidenced. I checked the store bundle it cites: Legacy StoreBundles.json lines 36465-36485 (Id 50096, NameId 39234) sells only GameItemId 1897, the kart, and no 60941 appears in StoreBundles. The Station Cash path is therefore not evidenced for the Mod, and the answer correctly does not claim it.", "fix": "No change needed on sources. Optionally note that bundle 50096 is a kart bundle (CurrencyType 1, Price 1) and should not be read as selling the Mod. The 'Derby Karts category lists five karts' claim was not re-verified here and should be sourced or dropped."}]}

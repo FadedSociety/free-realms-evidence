@@ -1,0 +1,23 @@
+{
+ "title": "Corrupted Druids",
+ "our_entries": [
+  {
+   "file": "npcs/shrouded_glade.json",
+   "npc_id": 9500000662,
+   "zone": "Shrouded Glade",
+   "enemy_kind": "Enemy types of the invasion.",
+   "location_evidence": [
+    "The corrupted area."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

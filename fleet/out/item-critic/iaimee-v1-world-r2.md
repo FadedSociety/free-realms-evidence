@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iaimee-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3325, 7833, 6, 1130] model=claude-haiku-5-5 -->
+# Aimee
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence[2]", "issue": "The answer reads 'Sign an autograph for Aimee' (locale 394871) as a bare NPC interaction. The repo's Seaside notes (NPCs - Seaside.md, row 115) tie a Seaside autograph signing event to publicist Roxy, with a barrel and an autograph quest. The answer does not mention that Aimee may sit in the same event, so this is an unchecked link, not a confirmed one.", "fix": "Add to open: 'Aimee may be part of the Seaside autograph signing event run by Roxy (NPCs - Seaside.md row 115); unverified.' No change to the sources list, which is correctly empty."}]}

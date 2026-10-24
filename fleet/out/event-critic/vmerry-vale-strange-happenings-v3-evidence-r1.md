@@ -1,0 +1,4 @@
+<!-- fleet job=event-critic id=vmerry-vale-strange-happenings-v3-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[4390, 4814, 6, 749] model=claude-haiku-5-5 -->
+# Merry Vale strange happenings
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "npcs", "issue": "Mayor McFairy is listed as an event NPC on one line of article 254, which only says the Mayor denies the strange happenings. Wiki, client and video sources place him in Merry Vale but do not tie him to this event. The answer's own open note says this is weak, but the field still states him as an event NPC.", "fix": "Leave npcs empty, or mark it as a provisional link. The only source is http://www.freerealms.com:80/article/detail.action?articleId=254 (the Mayor's denial line). Nothing else ties him to strange happenings."}]}

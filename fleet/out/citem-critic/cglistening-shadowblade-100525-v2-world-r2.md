@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cglistening-shadowblade-100525-v2-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3960, 9296, 6, 1162] model=claude-haiku-5-5 -->
+# Glistening Shadowblade
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The coin-store source has no vendor NPC or zone, so it is a price row with no place a player can buy it. The answer says this honestly in open, so it is not a false claim, but a builder cannot place the vendor from this source alone.", "fix": "Keep 'where' null until the vendor for store category 207 is found in the repo data; the row itself (stores.json line 13193: item 48137, category 207, purchase 2204, member 1983, sell 220, no_sale false) checks out, including the 10% member discount (2204 x 0.9 = 1983.6, shown as 1983) and sell-back (10% = 220)."}]}

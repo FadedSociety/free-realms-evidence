@@ -1,0 +1,12 @@
+<!-- fleet job=test-verify id=tests-role-enforcement-rs-L1-f1 status=done turns=9 usd=0.0070 tokens(read,write,in,out)=[84878, 21635, 20, 6922] model=claude-haiku-5-5 -->
+# high: role_enforcement.rs:108-110
+
+**Verdict:** `confirmed` (narrowly). The gap is real, but the claim's example that a default-to-Admin change would go unexercised is wrong.
+
+**Evidence:**
+
+- **The fail-closed step cannot see a cached-role regression.** At `role_enforcement.rs:102` the session is already `Player`, and the file is removed at line 109 with the role still `Player`. If `refresh_role` (`gateway.rs:1118-1126`) kept the cached role on load failure instead of resetting it, `realm here` at line 110 would still be denied, so line 110 passes. The claim is right on this point: a "keep cached Admin past store loss" regression is not exercised, because the role is never Admin at the moment of removal.
+- **A default-to-Admin regression is caught, so the claim's example is wrong.** If `unwrap_or(Player)` at `gateway.rs:1123` were changed to Admin, `refresh_role` would set Admin when `gateway.handle` runs `refresh_role` at `gateway.rs:1410`. `realm here` is a tool command (`gameplay.rs:4318`, `if tool && command == "here"`), so it would be allowed and `dev_command_denials` would be 0, failing the assertion at line 110. The first-pass reviewer's "defaults to Admin would not be exercised" is therefore incorrect.
+- **The "online demotion is immediate" half is also weakly tested.** The only demotion is self-demotion via `realm role 2 player` (line 97). `change_account_role` already calls `self.refresh_role()` at `gateway.rs:1174`, so line 102 passes from that reload, not from the per-use refresh in `handle` at line 1410. Removing the `handle`-level refresh at line 1410 would leave the test green, since nothing in it changes account 2's role out of band. Other tests I checked (`roles.rs`, `world_notice.rs`) do not use `bind_account_role` to test out-of-band demotion (the `bind_account_role` call sites in `tests/` are only in this file).
+
+**Minimal fix:** Before line 109, re-bind Admin and assert it (`store.set_account_role_offline(2, Admin)`, save, `bind_account_role(&path, 2)`, `assert_eq!(gateway.role(), Admin)`), then remove the file and assert `role() == Player` and `dev_command_denials == 1` on `realm here`. Add an out-of-band case: another writer saves account 2 as Player while the gateway stays Admin, then `realm god` must return `dev_command_denials == 1`. That case is the one that catches removal of the per-use refresh at `gateway.rs:1410`.

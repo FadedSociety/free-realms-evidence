@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=irizzle-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3761, 5907, 6, 881] model=claude-haiku-5-5 -->
+# Rizzle
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that none of Rizzle's quests awards Rizzle as an item is an absence claim, not a sourced fact. The quest pages I checked (For Rizzle, A Beautiful Friendship, Ka-Boom or Not To Boom, Junk or Bust, Robot Woes, The Legendary Sunstone) show Rizzle as the quest giver or target, and none names an item reward called Rizzle. That supports the answer, but it is not proof of absence.", "fix": "Reword as: no quest, vendor, drop or event in the wiki or client text names an item called Rizzle (checked against wiki Quest:For Rizzle, Quest:A Beautiful Friendship, Quest:Robot Woes; locale:440140 text is bare 'Rizzle')."}]}

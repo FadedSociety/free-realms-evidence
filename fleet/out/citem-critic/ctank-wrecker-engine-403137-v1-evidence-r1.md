@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctank-wrecker-engine-403137-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13655, 11225, 8, 1410] model=claude-haiku-5-5 -->
+# Tank Wrecker Engine
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence[2]", "issue": "The answer says the wiki 'Elite Turbo [Tank]' is not a Tank Wrecker part, but it never checks the name. A '[Tank]' bracket could be a tank-kart or Tank Wrecker turbo label. The answer treats it as unrelated without saying so.", "fix": "Keep it as an open question. Check the wiki 'Elite Turbo [Tank]' page (lookup on wiki, page:ns0 Items) and say whether it refers to the Tank Wrecker turbo (locale:403138, 790038045) or to another tank item. No source in the pack confirms either reading."}]}

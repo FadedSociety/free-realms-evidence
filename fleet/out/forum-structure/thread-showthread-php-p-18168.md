@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-18168 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2873, 4, 415] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article":{"title":"Free Realms Forums","date":null,"author":null,"type":"other"},"about_free_realms":false,"summary":"The capture is a vBulletin forum shell for the Free Realms fan forum, showing only a 'maximum posts viewed' registration notice, site navigation, and the forum index. No thread text, player post, guide, or game information is present, so it gives a rebuilder no usable facts about how Free Realms played.","facts":[],"quests":[],"uncertain":["The thread that was requested (p=18168) did not render; only the error notice and forum index were captured.","Captured page date 2009-06-08 is from the Wayback capture; the forum footer shows a time of 09:41 PM GMT-5, which is not an article date."]}

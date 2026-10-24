@@ -1,0 +1,30 @@
+{
+ "title": "Spring Fever (Double Station Cash)",
+ "names_seen": [
+  "Spring Fever (Double Station Cash)"
+ ],
+ "facts": [
+  {
+   "statement": "A Spring special gave players two times the SC when buying Station Cash during April 6-8, 2012.",
+   "numbers": {
+    "bonus_multiplier": 2,
+    "start_date_2012": 20120406,
+    "end_date_2012": 20120408
+   },
+   "era": "live",
+   "quote": "Get two times the SC when you buy Station Cash® between April 6th and April 8th*!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2557",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2557",
+   "date": null,
+   "title": "Double Station Cash Spring Fever",
+   "summary": "A official freerealms.com news post announcing a Spring promotion: purchases of Station Cash (SC) made during a limited window give two times the SC. The post is dated only relatively (posted 1 week, 4 days before capture), so its exact posting date is unknown; the capture date is 2012-04-18."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

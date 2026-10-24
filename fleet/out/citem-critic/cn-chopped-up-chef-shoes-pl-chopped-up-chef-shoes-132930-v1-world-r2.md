@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-chopped-up-chef-shoes-pl-chopped-up-chef-shoes-132930-v1-world-r2 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[12875, 12780, 8, 1396] model=claude-haiku-5-5 -->
+# {n}Chopped Up Chef Shoes{pl="Chopped Up Chef Shoes"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "vendor.price", "issue": "The price is presented as a plain vendor price (403 coins). The only price source is the stores.json reference price; vendors.json marks it '(R) reference price; no captured retail NPC quote'. The caveat appears in open but not in the price field itself.", "fix": "Label the price as 'stores.json reference price, 403 coins (member 362), not a captured Zamzani quote', citing repo:prototype/osfr-tools/data/content/vendors.json item 75922 price_basis."}]}

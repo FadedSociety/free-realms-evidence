@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isandscale-hunter-v2-world-r2 status=no_submit turns=2 usd=0.0011 tokens(read,write,in,out)=[3753, 5292, 6, 874] model=claude-haiku-5-5 -->
+# Sandscale Hunter
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Left as 'unsure'. The pack has no evidence on whether the Sandscale Hunter NPC still spawns, so this is an honest unknown and does not fail the answer.", "fix": "No change needed unless a live-status source is found."}, {"field": "evidence[3] / open[2]", "issue": "The quest_title locale:403237 is tagged to the Sanctuary area, but the answer does not name the quest it belongs to. The lookup shows only the bare name 'Sandscale Hunter', so this stays unconfirmed. It is not a source for the NPC as an item.", "fix": "Keep as unconfirmed. If a builder needs it, check which quest uses 403237 before recording it as a related quest."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-absolute-quickness-shoes-pl-absolute-quickness-shoes-123601-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3973, 4824, 6, 1426] model=claude-haiku-5-5 -->
+# {n}Absolute Quickness Shoes{pl="Absolute Quickness Shoes"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].claim", "issue": "The answer says the family has '12-definition' ids (43602-43679) and '16 definitions total'. The evidence pack lists only 12 definition_ids, while its definitions count is 16. The answer does not reconcile the two, so the family size is internally inconsistent.", "fix": "Either list the 16 definition ids from the client definition, or state that the pack's definition_ids (12) are a subset of the 16 definitions and name the 4 unlisted ids (source: client definition 'definitions: 16' in the evidence pack, ClientItemDefinitions via FreeRealms-Legacy)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iguard-verbi-v1-evidence-r1 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3201, 3747, 6, 828] model=claude-haiku-5-5 -->
+# Guard Verbi
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "Guard Verbi is an NPC (Royal Guard, pixie), not an item. Setting kind to \"other\" and creating an item record is a category error; the answer does say so in its open notes, but the item framing itself is unsupported.", "fix": "Do not treat as an item. Checked: locale 91094 is npc_name 'Guard Verbi' (Sanctuary); locale 90698 is quest_objective 'Find Guard Verbi' in 'Good Help is Hard to Find' (Sanctuary); wiki page says he is a pixie NPC in Sanctuary who patrols southwest between Queensfields, with no item, price or reward data. Both locale claims verified."}]}

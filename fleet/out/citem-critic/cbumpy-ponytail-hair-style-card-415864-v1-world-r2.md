@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbumpy-ponytail-hair-style-card-415864-v1-world-r2 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11346, 8574, 8, 1418] model=claude-haiku-5-5 -->
+# Bumpy Ponytail Hair Style Card
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that item 6826-6846 is 'a standard coin store item' overstates the comparison. Item 6826 (stores.json:1841) shares category 141, 540 coins and 486 member price, but it has no_sale false and sell_price 54, while 69010 has no_sale true and sell_price null. The price and category match; the sell rule does not. The comparison supports the price and category only.", "fix": "Say: item 6826 (stores.json:1841) matches category 141, 540 coins, member 486, but is sellable (sell_price 54), unlike 69010 (no_sale true, sell_price null). Only the price and category are shared; the sell flag is not."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshaper-grape-necklace-96238-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3558, 6534, 6, 765] model=claude-haiku-5-5 -->
+# Shaper Grape Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is an honest unknown: no sources, no retired status, live 'unsure'. My lookup of 'Shaper Necklace' across client, wiki, articles and video returned only the six client lines (locale:96236 to 96241), and a refs search for 'Shaper', '96238' or '30832' found no wiki, quest, vendor or drop record. Nothing in the pack contradicts this, so the world lens passes.", "fix": "No change needed. Keep sources empty and wireable false. The 'Rocklar Shaper' link is a name-only guess and should stay labelled unverified, as the answer already does. A future source would need a quest, vendor or drop record that names the necklace."}]}

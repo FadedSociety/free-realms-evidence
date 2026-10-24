@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-pink-shadowblade-10938-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3535, 6356, 6, 1062] model=claude-haiku-5-5 -->
+# Elite Pink Shadowblade
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The single source is a coin-store category row (category 207, item 4796) with no named vendor, NPC, or location. It is labelled 'vendor' but is really a store-stock record. The price is evidenced, but the vendor type is weaker than the label implies. The answer does state this openly in its open items.", "fix": "Keep the price source as 'coin store stock record, category 207, no vendor linked' (repo stores.json line 914: purchase_price_coins 1656, member_price_coins 1490, sell_price_coins 165, no_sale false). Do not attach the Yoko/Lakeshore Shadowblade wiki entry, which the answer already excludes."}]}

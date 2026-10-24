@@ -1,0 +1,36 @@
+{
+ "title": "Cave-in",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\necronomicus_unleashed.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:24743 [quest_title | - | Cave In] 'Cave In'"
+ ],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [
+  "locale:24736 [quest_objective | - | Changeling Arcanus] 'Defeat Changeling Arcanus'",
+  "locale:24737 [quest_objective | - | Changeling Arcanus] \"The Changeling Arcanus carry the transfiguring crystals - you'll need to defeat them to obtain the crystals.\"",
+  "locale:24738 [quest_title | - | Terrified Miner] 'Terrified Miner'",
+  "locale:24739 [other | - | - | FLAG placeholder: QA quest intro test text] '(QA) Quest Intro text, GO! Go! gO! Goooooooo!'",
+  "locale:24740 [quest_dialog | - | Esmeralda] 'Collections are so much fun.  Esmeralda loves them and she can tell you about them.'",
+  "locale:24743 [quest_title | - | Cave In] 'Cave In'",
+  "locale:24744 [npc_name | - | Mushroom Boss Cave In Actor | FLAG dev_note: internal actor name] 'Mushroom Boss Cave In Actor'",
+  "locale:24745 [npc_dialog | - | Marasmius] '*Scratch behind the ears*'",
+  "locale:24749 [quest_objective | - | Terrified Miner] 'Rescue the terrified miners!'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:map): 4a.\n2nd trapped miner escorts PC to blast cave-in at POI 5.\nFINISH\n5. Blast rock cave-in\n4. Mini-Boss\n3a.\nAn area trigger is set to alert the combat NPC'S + dialog relating to mini-boss.\n3. Rescue trapped miner. Get dynamite info at action point 4.\n2a.\nRock slide event is triggered by Boss.\n2.\nNPC's"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "go target in 'Confront the Cultists' (unresolved): Shaggy Mysterychaser, an amateur detective in Merry Vale, needs me to help him investigate the cave in the north part of"
+ ]
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=dd2e0d7a53de37d5eb589faee6ac2306eaa0eff5 status=done turns=3 usd=0.0008 tokens(read,write,in,out)=[4038, 3618, 8, 694] model=claude-haiku-5-5 -->
+# Server Selection.png
+
+{"kind": "ui_panel", "has_text": true, "text": "FreeRealms\n(green button, label not legible at this resolution)", "tooltip": null, "entries": null, "uncertain": ["The image is a very small banner (roughly 150x20 px) showing a 'FreeRealms' logo on a blue background with a green button on the left. The green button's label is not legible, so I could not transcribe it.", "The logo reads 'FreeRealms' (no space). The client has 'FreeRealms Client' (id 26) and 'Welcome to FreeRealms!' (id 24), so that spelling is used in-game, but the image itself is too small to confirm the exact logo lettering.", "Filename 'Server Selection' suggests a server-selection UI, but the visible content is only the logo and button; no server names are legible."]}

@@ -1,0 +1,54 @@
+{
+ "title": "Clockwork Mystery Chest",
+ "names_seen": [
+  "Clockwork Mystery Chest"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms featured a Clockwork Mystery Chest whose rewards are clockwork gear that players can wear in-game.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Now you can rock out in clockwork gear in-game.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2721",
+   "date": null
+  },
+  {
+   "statement": "SOE promoted a video titled 'Cosas Super Secretas: Cofres Misteriosos Mecánicos' featuring Chris and Lola showing the Mechanical Mystery Chest in Free Realms.",
+   "numbers": {},
+   "era": "unknown",
+   "quote": "Echa un vistazo a Cofres Misterios Mecánicos en Free Realms con Chris y Lola",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2729",
+   "date": null
+  },
+  {
+   "statement": "The official Free Realms site ran a Portuguese promotion for the Clock Mystery Chest (Baú Misterioso do Relógio), featuring the characters Chris and Lola, saying players can win equipment from it in the game.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Dê uma espiada no Baú Misterioso do Relógio do Free Realms com o Chris e a Lola!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2731",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2721",
+   "date": null,
+   "title": "Free Realms - Quais são as Novidades? (Super Secret Stuff: Clockwork Mystery Chests)",
+   "summary": "A short Portuguese-language SOE news teaser announcing a sneak peek at Clockwork Mystery Chests, hosted by Chris and Lola. It says players can earn clockwork-gear rewards in-game and wear clockwork outfits. The page gives no item lists, prices or dates beyond the relative timestamp."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2729",
+   "date": null,
+   "title": "Cosas Super Secretas: Cofres Misteriosos Mecánicos",
+   "summary": "This is a German-language Free Realms news index page (captured 2012-11-03) whose only visible entry is a Spanish-language promotional blurb for a video about the Clockwork Mystery Chest. The blurb says players can dance on the clockwork gear in the game with the characters Chris and Lola, and that prizes can be won at freerealms.com. The page gives no date (only 'two months, one week ago'), no mechanics or prize details."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2731",
+   "date": null,
+   "title": "Coisa Super Secreta: Baú Misterioso do Relógio",
+   "summary": "A short Portuguese-language promotional post from the official Free Realms site (captured 2012-11-03, with the post dated only relatively as about 2 months and 1 week earlier). It announces the Clock Mystery Chest (Baú Misterioso do Relógio), presented by the characters Chris and Lola, which lets players win equipment, and points to a video and to free play at freerealms.com. It gives no prices, drop rates, or item lists."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

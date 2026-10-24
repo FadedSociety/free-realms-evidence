@@ -1,0 +1,349 @@
+{
+ "title": "Community Events (Snow Days)",
+ "names_seen": [
+  "Community Events (Snow Days)",
+  "Snow Days",
+  "Snow Days 2011",
+  "Snow Days community events"
+ ],
+ "facts": [
+  {
+   "statement": "Snow Days is a seasonal holiday event in which Snowhill is decorated and presents can be found under the Gifting Tree in the center of town.",
+   "numbers": {},
+   "era": "live",
+   "quote": "It's the special time of year when Snowhill puts up decorations and presents can be found under the Gifting Tree",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1950",
+   "date": null
+  },
+  {
+   "statement": "The Snow Days season was the winter seasonal event; the party was described as the first Snow Days party of the season.",
+   "numbers": null,
+   "era": "live",
+   "quote": "It's the first Snow Days party of the season!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1953",
+   "date": null
+  },
+  {
+   "statement": "Snow Days returned to Snowhill (called Colina Nevada in this Spanish page), the yearly winter event centred on the gift tree in the town centre.",
+   "numbers": {},
+   "era": "live",
+   "quote": "¡Días de nieve está aquí! Es la época del año más especial",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1956",
+   "date": null
+  },
+  {
+   "statement": "Snow Days is a winter seasonal event that returned to Snowhill, with special quests, outfits and gifts.",
+   "numbers": {},
+   "era": "live",
+   "quote": "¡Días de nieve está aquí! Es la época del año más especial",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1957",
+   "date": null
+  },
+  {
+   "statement": "Snow Days member reward: rewards began at 21:00 CET (Paris time) on Wednesday 15 December 2010 and could take two to three days to appear on the account.",
+   "numbers": {
+    "start_hour_CET": 21
+   },
+   "era": "live",
+   "quote": "Nous commençons à offrir des récompenses à partir de 21h CET (Heure de Paris) mercredi 15 décembre 2010.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1966&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "Snow Days member reward: active members in good standing received a special reward pack, delivered starting at noon on Wednesday 15 December (rewards began 16 December per the post).",
+   "numbers": {
+    "delivery_start_hour": 12,
+    "delivery_days_min": 2,
+    "delivery_days_max": 3
+   },
+   "era": "live",
+   "quote": "todas las cuentas de miembros en buen estado recibirán una recompensa super cool de Días de Nieve",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1967",
+   "date": null
+  },
+  {
+   "statement": "Snow Days 2011 was live when the community webcast aired, and the recap says Snow Days is HERE.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Snow Days is HERE!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2428",
+   "date": null
+  },
+  {
+   "statement": "Snow Days is a seasonal event in which Snowhill is decorated and presents can be found under the Gifting Tree in the town center.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Snow Days are here! It's the special time of year when Snowhill puts up decorations",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2429",
+   "date": null
+  },
+  {
+   "statement": "Snow Days is a seasonal event in which Snowhill is decorated and presents can be found under the Gifting Tree in the center of town.",
+   "numbers": {},
+   "era": "live",
+   "quote": "It’s the special time of year when Snowhill puts up decorations, and presents can be found under the Gifting Tree in the center of town.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2808",
+   "date": null
+  },
+  {
+   "statement": "During Snow Days, the Abominable Snowman appeared as a large figure towering over players around the quest givers in Snowhill.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Towering over the hordes of dancing players surrounding the quest givers in Snowhill during Snow Days",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2815",
+   "date": null
+  },
+  {
+   "statement": "Snow Days was a holiday event season with in-game community events, TCG tournaments and activities scheduled every day from December 18, 2009 through January 3, 2010.",
+   "numbers": {
+    "start_month": 12,
+    "start_day": 18,
+    "start_year": 2009,
+    "end_month": 1,
+    "end_day": 3,
+    "end_year": 2010
+   },
+   "era": "live",
+   "quote": "Every day from December 18, 2009 through January 3, 2010 we have scheduled in-game Snow Days community events",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=705",
+   "date": null
+  },
+  {
+   "statement": "Community Events for Snow Days took place each day at 3pm PST.",
+   "numbers": {
+    "start_hour_pst": 15
+   },
+   "era": "live",
+   "quote": "The Community Events will take place each day at 3pm PST.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=705",
+   "date": null
+  },
+  {
+   "statement": "The Snow Days holiday event ran daily from December 18, 2009 through January 3, 2010, with community events and JCC tournaments scheduled.",
+   "numbers": {
+    "start_month": 12,
+    "start_day": 18,
+    "start_year": 2009,
+    "end_month": 1,
+    "end_day": 3,
+    "end_year": 2010
+   },
+   "era": "live",
+   "quote": "Todos los días a partir del 18 de diciembre del 2009 hasta el 3 de enero del 2010",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=709",
+   "date": null
+  },
+  {
+   "statement": "Community events during Snow Days took place every day at 15:00 Pacific time.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "La Eventos Comunitarios acontecerán todos los días a la 15horas tiempo pacifico.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=718",
+   "date": null
+  },
+  {
+   "statement": "Snow Days community events started on the posting day and ran until January 3, with a different event scheduled each day.",
+   "numbers": {
+    "end_day": 3,
+    "end_month": 1
+   },
+   "era": "live",
+   "quote": "empiezan el día de hoy hasta el 3 de enero",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=770",
+   "date": null
+  },
+  {
+   "statement": "Community events were scheduled daily at 15:00 Pacific time; they included snowball battles and jump-pad platforms.",
+   "numbers": {
+    "start_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Cada día un evento diferente está programado acontecer a las 15 horas tiempo pacifico",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=770",
+   "date": null
+  },
+  {
+   "statement": "Snow Days community events run from the post date until January 3, with a different community event each day.",
+   "numbers": {
+    "end_day": 3,
+    "end_month": 1
+   },
+   "era": "live",
+   "quote": "hasta el 3 de enero! Cada día un evento diferente está programado",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=771",
+   "date": null
+  },
+  {
+   "statement": "Snow Days community events start at 15:00 Pacific time each day.",
+   "numbers": {
+    "start_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Cada día un evento diferente está programado acontecer a las 15 horas tiempo pacifico",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=771",
+   "date": null
+  },
+  {
+   "statement": "Snow Days events include snowball battles and jump-platform games, and players were invited to bring friends.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Trae a tus amigos y participa en las batallas con bolas de nieve, salta en las plataformas de salto",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=771",
+   "date": null
+  },
+  {
+   "statement": "Snow Days outfits were offered for a limited time to help players get into the holiday spirit.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Por un tiempo limitado podrás obtener trajes especiales de Días de Nieves",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=809&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "In the live game, the official site ran a Spanish-language promotion for a desktop wallpaper inspired by the Snow Days radio cassette player item (Radiocasetera de Días de Nieve).",
+   "numbers": {},
+   "era": "live",
+   "quote": "¡Tenemos un gran fondo de escritorio inspirado por nuestra Radiocasetera de Días de Nieve!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=820",
+   "date": null
+  },
+  {
+   "statement": "The Snow Days holiday event was near its end, with the article saying the temperatures were rising and the holiday would soon be over.",
+   "numbers": {},
+   "era": "live",
+   "quote": "the Snow Days holiday is coming to an end",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=828",
+   "date": null
+  },
+  {
+   "statement": "During Snow Days, players could talk to Candi Ivy daily to get a present from under the Gifting Tree, and could spin the Snow Days prize wheel.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Talk to Candi Ivy every day to get a present from under the Gifting Tree. Spin the Snow Days prize wheel.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=828",
+   "date": null
+  },
+  {
+   "statement": "Snow Days ended and was to return the following year.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Snow Days is over until next year.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=892",
+   "date": "2010-01-26"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1950",
+   "date": null,
+   "title": "Free Realms - What is New? (Snow Days Return)",
+   "summary": "A freerealms.com news post announcing the seasonal Snow Days event in Snowhill, with the Gifting Tree presents, Candi Ivy's daily quest, the Abominable Snowman attacks and snowball fights, Everett's coal request, Robgoblin fights, and Snow Days outfits. The article gives no numbers and no exact post date; the relative 'posted 1 week, 4 days ago' against the 2010-12-19 capture suggests early December 2010."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1953",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms community event announcement for the Snow Days season party in the Wintery Basin fishing area above Snowhill. It gives the two scheduled server 1 times (Dec 9 for US/Latin America, Dec 10 for UK/Europe) and asks players to wear wintery outfits and bring boomboxes. The posting date is not shown; it was posted roughly five days before the December 14, 2010 capture."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1956",
+   "date": null,
+   "title": "Días de Nieve ah Regresado (Free Realms - What is New?)",
+   "summary": "A Spanish-language SOE news post announcing the return of the Snow Days (Días de Nieve) seasonal event in Snowhill (Colina Nevada). It describes the Gifting Tree gift drops, the Abominable Snowman raids that players repel with snowballs, and the daily tree quest, snowball fights, Robgoblin fights, and outfit rewards. The post gives no absolute date; it says only 'posted 5 months, 3 weeks ago' relative to the capture."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1957",
+   "date": null,
+   "title": "Días de Nieve ah Regresado (Free Realms - What is New?)",
+   "summary": "A Spanish-language official news post announcing the return of the Snow Days seasonal event in Snowhill (called Colina Nevada in Spanish). It covers the Gift Tree and its daily gifts, the Abominable Snowman attacks that players defend against with snow piles, snowball battles, Robgoblin fights for event clothing, and Snow Days outfits. The post is undated; it says it was posted 5 months, 3 weeks before the 2011-06-04 capture."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1966&request_locale=en_US",
+   "date": null,
+   "title": "Free Realms - What is New? (Les Jours de Neige: Récompenses aux Membres!)",
+   "summary": "A French-language SOE news post announcing Snow Days (Les Jours de Neige) member rewards. Members who held or bought a membership before the deadline got a tiered reward pack, starting Wednesday 15 December 2010 at 21:00 CET, arriving within two to three days. The post's exact posting date is not shown; it is roughly five months and three weeks before the June 2011 capture."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1967",
+   "date": null,
+   "title": "Premios para Miembros de Días de Nieve (Free Realms - What is New?, article 1967)",
+   "summary": "A Spanish-language SOE news post announcing Snow Days member rewards. Members in good standing were to receive a reward pack at noon on Wednesday December 15 (delivery starting December 16, taking two to three days), with contents set by the membership plan active at the deadline. The page gives no year, so the 2010 date is inferred from the weekday and is not stated."
+  }
+ ],
+ "wiki_category_members": [
+  "Abominable Snowman",
+  "Barber Pole Bow",
+  "Bah Humbug Hat",
+  "Bah Humbug Outfit",
+  "2013 Snow Days Toy Collector Pack",
+  "Bow Wrapped Suit",
+  "Bow Wrapped Suit Pants",
+  "Bow Wrapped Suit Jacket",
+  "12 Days of Presents",
+  "Arctic Cat",
+  "Argyle Holiday Sweater",
+  "Candi Ivy",
+  "Candy Cane Hammer",
+  "Cinnamon Saw",
+  "Candy Stick Sword",
+  "Candy Striped Axe",
+  "Figgy Pudding Critter",
+  "Holiday Tree Board",
+  "Holiday Gifting Tree",
+  "Garnet",
+  "Jingle Bell Boombox",
+  "Green Santa Hat",
+  "Gingerbread Man Outfit",
+  "Golden Santa Suit",
+  "Lacy Gift Dress",
+  "Icy Snowflake Glasses",
+  "Hot Cocoa Mug",
+  "Holigoblin Mask",
+  "Fruit Cake Critter",
+  "Icy Snow Days Flair Shard",
+  "Light Strand Whip",
+  "Lump of Coal",
+  "Mini Holiday Tree",
+  "Snow Days",
+  "Red Ryder Rod",
+  "Snow Globe",
+  "Shooshboom Jacket",
+  "Shooshboom Ice Skates",
+  "SBS-1000",
+  "Snow Days Toys",
+  "Penguin Outfit",
+  "Reindeer Outfit",
+  "Santa Claus Outfit",
+  "Santa Hat",
+  "Oversized Candy Cane",
+  "Reindeer Antlers",
+  "Shooshboom Gloves",
+  "Shooshboom Scarf",
+  "Snow Days Unicorn Sweater",
+  "Snow Days Lot",
+  "Snow Days Builders Pack",
+  "Polar Bear",
+  "Shooshboom Hat",
+  "Shooshboom Pants",
+  "Rugged Winterwear Jacket",
+  "Reindeer (Ride)",
+  "Santa's Sleigh-mobile",
+  "The Gifting Tree",
+  "The Gifting Tree (quest)",
+  "Toy Soldier Outfit"
+ ],
+ "quest_answers_mentioning_it": [
+  "Bye-Bye Supplies! (final, live yes)",
+  "Guarding the Gifting Tree (final, live yes)",
+  "Holiday Cheer (final, live yes)",
+  "Holiday Recital (final, live yes)",
+  "Present Problems (unresolved, live yes)",
+  "The Great Robgoblin Robbery Ring (unresolved, live yes)",
+  "Silversnow's Sapling (final, live yes)",
+  "Snowmen Disassembly (final, live unsure)",
+  "The Gifting Tree (final, live unsure)",
+  "The Perfect Disguise (final, live yes)"
+ ]
+}

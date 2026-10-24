@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cveterinarian-l4-chest-105449-v2-evidence-r3 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3422, 4338, 6, 865] model=claude-haiku-5-5 -->
+# Veterinarian L4 Chest
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[2]", "issue": "The automatic id check flags locale:17427 as a fragment with no quest meaning. The answer does say it was removed as evidence and is not used to support any claim, so the answer stays honest. Still, citing a flagged id in the open list adds noise next to the evidence.", "fix": "Drop the locale:17427 sentence from open, or state only that the bare term 'Veterinarian' (locale:17427, flagged fragment) was excluded. My own lookup confirms it is flagged and carries no quest or vendor meaning."}]}

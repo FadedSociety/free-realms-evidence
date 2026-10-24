@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-24447 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2948, 4, 628] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin error page from the Free Realms fan forum, not a thread. It says the visitor exceeded the guest post-view limit and asks them to register. It contains no player posts, guides, drop or price reports, or game mechanics to record.", "facts": [], "quests": [], "uncertain": ["The capture shows only the forum's navigation and a 'maximum number of posts you can view' error; the thread the URL points to (post 24447) was not captured.", "Forum section names (e.g. Items, Jobs/Classes, Membership / Stationcash) appear only as navigation labels, not as game facts."]}

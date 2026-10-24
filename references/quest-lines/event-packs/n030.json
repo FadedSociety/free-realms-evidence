@@ -1,0 +1,55 @@
+{
+ "title": "Community Event: Robgoblin Rave",
+ "names_seen": [
+  "Community Event: Robgoblin Rave"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called Robgoblin Rave was held at the Robgoblin Camp north of the Lakeshore Warpstone, with music, dancing and fun.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Our next community event will be at the Robgoblin Camp north of the Lakeshore Warpstone.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1993",
+   "date": null
+  },
+  {
+   "statement": "The U.S. and Latin America session of the Robgoblin Rave was on Thursday January 13th, 2011 at 3pm Pacific Time, on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday January 13th, 2011 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1993",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session of the Robgoblin Rave was on Friday January 14th, 2011 at 9:00am Pacific Time / 6:00pm GMT, on Server 1.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_gmt": 18
+   },
+   "era": "live",
+   "quote": "Friday January 14th, 2011 9:00am Pacific Time / 6:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1993",
+   "date": null
+  },
+  {
+   "statement": "Players were encouraged to wear Wizard robes to the Robgoblin Rave, and the event expected spell effects.",
+   "numbers": {},
+   "era": "live",
+   "quote": "If you have Wizard robes this is the party where you will want to wear them!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1993",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1993",
+   "date": null,
+   "title": "Free Realms - What is New? (Community Event: Robgoblin Rave)",
+   "summary": "A community event announcement for a party ('Robgoblin Rave') held at the Robgoblin Camp north of the Lakeshore Warpstone, with music, dancing and spells, and Wizard robes encouraged. It gives two server-1 time slots, one for the U.S./Latin America and one for UK/Europe. The page is dated only as 'Posted 6 days, 8 hours ago' relative to the capture, so the posting date is inferred from the capture (about January 2011) rather than stated."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetallic-wind-necklace-99376-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3861, 4260, 6, 941] model=claude-haiku-5-5 -->
+# Metallic Wind Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence[2]", "issue": "Minor: the answer cites a 'Polished Fateful Necklace' video quest reward line. My lookup of the wiki, articles, video and client for Metallic Wind Necklace returned only locale:99376, and the repo search for Metallic/Jeweled/Elemental Necklace returned no matches. I did not re-verify the video frame, so that claim is unchecked here.", "fix": "Either re-check video:8F4ZomE2kxI/00028.jpg for the Polished Fateful Necklace line and keep it only as a non-matching sibling, or drop it. It does not affect the Metallic Wind Necklace sources, which remain empty."}]}

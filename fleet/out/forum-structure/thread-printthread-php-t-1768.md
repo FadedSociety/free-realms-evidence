@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-printthread-php-t-1768 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2867, 4, 594] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This Wayback capture of a freerealmsforums.com thread page is only a vBulletin shell: a 'maximum number of posts you can view' error banner, the forum index, and site footer. It contains no thread posts, guide text, drops, prices or mechanics, so it gives a rebuilder no usable Free Realms facts.", "facts": [], "quests": [], "uncertain": ["The thread title and the posts it was meant to show are missing; the capture only shows the registration-required error and forum navigation.", "The thread ID (t=1768) is the only identifier available; the thread's subject could not be determined from this copy."]}

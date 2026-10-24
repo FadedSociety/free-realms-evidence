@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icaveman-outfit-v1-world-r2 status=done turns=3 usd=0.0026 tokens(read,write,in,out)=[13276, 13700, 8, 1561] model=claude-haiku-5-5 -->
+# Caveman Outfit
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open / retired", "issue": "Honest unknowns: the pack does not say which Super Spooktacular year(s) the outfit was sold in, and retired is null. Nothing in the pack or refs names a retirement date, so null with live 'unsure' is the right status. The wiki's own Super Spooktacular categories cover 2009 to 2013, so the sale window is still unpinned.", "fix": "No change needed to the answer. A builder should note the year(s) of sale as unknown, sourced to the wiki page's Super Spooktacular category (wikitext rev 33738, freerealms-wiki/wikitext/11247-33738-f2a7b9af0684.wiki)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrewery-toasted-sandwich-1194-v1-evidence-r1 status=done turns=2 usd=0.0026 tokens(read,write,in,out)=[4009, 15785, 6, 1186] model=claude-haiku-5-5 -->
+# Brewery Toasted Sandwich
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] (Sasparilla Brewery / wiki citation)", "issue": "The claim cites wiki pages 'Wugachug' and 'Exploration (Collections)' for the Brewery being the town's food/drink hub. My lookups did not surface those pages. The repo's Wugachug notes and articles/facts.json support the Brewery as a sasparilla hub, not as a source of food items. The citation is loose but does not change the conclusion.", "fix": "Cite only what was verified: the Sasparilla Brewery is Wugachug's sasparilla hub (repo notes/Build Guides/Content/NPCs/NPCs - Wugachug.md; articles/articles.json Wugachug feature). Nothing links it to item 4035."}]}

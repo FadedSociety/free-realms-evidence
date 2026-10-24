@@ -1,0 +1,40 @@
+{
+ "title": "Summer Camp Activity Calendar",
+ "names_seen": [
+  "Summer Camp Activity Calendar"
+ ],
+ "facts": [
+  {
+   "statement": "A printable Summer Camp Activity Calendar was released with a new version each week.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Print out the Summer Camp Activity Calendar. There will be a new one each week!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1661",
+   "date": null
+  },
+  {
+   "statement": "A printable Summer Camp Activity Calendar was released, with a new one each week, for players to complete activities alone or with friends.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Print out the Summer Camp Activity Calendar. There will be a new one each week!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1737",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1661",
+   "date": null,
+   "title": "Summer Camp - Pirates Week",
+   "summary": "Official freerealms.com news post for the Summer Camp event's Pirates Week theme. It describes a themed week with pirate-costume dressing, a member-only Pirates Plunder game, a Seaside pier NPC, and the expected schedule of in-game community events and TCG events, plus how players used the in-game Game Guide calendar to teleport to events."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1737",
+   "date": null,
+   "title": "Summer Camp - Lakeshore Fun Week",
+   "summary": "Freerealms.com news post for the Summer Camp community event series, this week's theme 'Lakeshore Fun Week'. It describes Lakeshore as a lake area with the Durango Zoo and Robgoblins nearby, lists expected in-game event times, and explains how to use the Game Guide calendar and GO button to teleport to events. The post gives only a relative posting time ('4 days, 22 hours ago') so the exact date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

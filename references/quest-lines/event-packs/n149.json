@@ -1,0 +1,37 @@
+{
+ "title": "Bonus Station Cash (Best Buy prepaid card promotion)",
+ "names_seen": [
+  "Bonus Station Cash (Best Buy prepaid card promotion)"
+ ],
+ "facts": [
+  {
+   "statement": "A limited promotion gave 500 Station Cash for buying a $15 prepaid card at Best Buy between 17 and 19 August.",
+   "numbers": {
+    "bonus_station_cash": 500,
+    "card_value_usd": 15
+   },
+   "era": "live",
+   "quote": "Ganhe 500 Station Cash na compra de um cartão pré-pago de $15 na Best Buy entre os dias 17 e 19 de Agosto.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2719",
+   "date": null
+  },
+  {
+   "statement": "The promotion's redemption window ran from 04:01 on 17/08/12 to 04:01 on 19/08/12.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Resgate entre 17/08/12 apartir das 04:01 até as 04:01 do dia 19/08/12.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2719",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2719",
+   "date": null,
+   "title": "Free Realms - What is New? (Vem Aí: Bonus Station Cash!)",
+   "summary": "A Portuguese-language freerealms.com news post announcing a limited Station Cash bonus: buying a $15 prepaid card at Best Buy during 17-19 August (2012) grants 500 Station Cash. The page gives redemption window times but no post date, and the surrounding page text is site navigation."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

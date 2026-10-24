@@ -1,0 +1,41 @@
+{
+ "title": "Trading Card Game (JCC) events",
+ "names_seen": [
+  "Trading Card Game (JCC) events",
+  "Trading card game events (JCC)"
+ ],
+ "facts": [
+  {
+   "statement": "Trading card game (JCC) events ran every day.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Les événements JCC se déroulent tous les jours.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1552",
+   "date": null
+  },
+  {
+   "statement": "Trading Card Game (JCC) events were expected to occur daily.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Se espera que los eventos del JCC ocurran diariamente.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1592",
+   "date": "2010-07-01"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1552",
+   "date": null,
+   "title": "Camp d'été – La Semaine d'Aventure! (Free Realms - What is New?)",
+   "summary": "A French-language official news post from Free Realms' summer camp event run, announcing the 'Adventure Week' theme and listing when in-game events run. It also explains how to use the in-game Game Guide calendar to find events and teleport to them. The post gives no exact date (only 'posted 11 months, 1 week ago' relative to capture)."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1592",
+   "date": "2010-07-01",
+   "title": "Campamento de Verano – Semana de Moda (Free Realms - What is New?)",
+   "summary": "A Spanish-language SOE news post announcing Fashion Week, the themed week of the Summer Camp community event in Free Realms. It gives the weekly schedule for in-game community events and explains how players find and join them via the Game Guide calendar. It also says Trading Card Game (JCC) events run daily."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

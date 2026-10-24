@@ -1,0 +1,30 @@
+{
+ "title": "European Double Station Cash",
+ "names_seen": [
+  "European Double Station Cash"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms ran a Double Station Cash promotion in Europe: redeeming SOE Pre-Paid PC Game Cards in the window gave double Station Cash (SC).",
+   "numbers": {
+    "multiplier": 2,
+    "start_hour_CET_oct7_2011": 0.0,
+    "end_hour_CET_oct10_2011": 23.98
+   },
+   "era": "live",
+   "quote": "Redeem SOE Pre-Paid Game Cards anytime between October 7th, 2011 and October 10th, 2011 to get Double SC*.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2294",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2294",
+   "date": null,
+   "title": "European Double Station Cash (Free Realms - ¿Qué novedades hay?)",
+   "summary": "A Spanish-language Free Realms news post (freerealms.com, captured Nov 2011) announcing a Double Station Cash promotion for redeeming SOE Pre-Paid PC Game Cards in Europe. The redemption window was October 7 to October 10, 2011 (CET), and the offer applied only to cards bought from participating European retailers. The post carries no explicit publication date beyond its relative 'hace 4 semanas' stamp."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

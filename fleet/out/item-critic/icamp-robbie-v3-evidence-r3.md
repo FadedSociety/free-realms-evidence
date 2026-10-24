@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icamp-robbie-v3-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4265, 5570, 6, 1256] model=claude-haiku-5-5 -->
+# Camp Robbie
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor wording: the wiki item page says the shard is acquired from 'the prize wheels at Bigfoot Defender and Bigfoot's Lair' (plural, no named wheel). The 'Medic Prize Wheel' attribution is supported by both Bigfoot pages' wheel lists (checked: [Camp] [Robbie] [Flair] [Shard] appears under Medic Prize Wheel on both), so the claim holds, but the answer should say the item page does not name the wheel itself.", "fix": "Keep the Medic Prize Wheel source, citing the two Bigfoot pages' 'Medic Prize Wheel' lists; note the item page only says 'prize wheels'. Source: freerealms.fandom.com/wiki/Camp_Robbie_Flair_Shard and the Bigfoot pages."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstalker-fateful-necklace-86658-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3839, 5721, 6, 1028] model=claude-haiku-5-5 -->
+# Stalker Fateful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Polished Fateful Necklace line says it drops 'for 8 coins'. The source (notes/Build Guides/Content/NPCs/NPCs - Blackspore Swamp.md:233) says the video shows '1 Polished Fateful Necklace' and '8 coins' as separate loot pickups, not a price or a sale. The wording could be misread as a price. It is a different item and does not change the Stalker answer.", "fix": "Reword to: 'Polished Fateful Necklace appears as a loot pickup from wraiths and Lukov in Consumed by the Past, alongside a separate 8-coin pickup (Blackspore Swamp notes line 233; video:8F4ZomE2kxI/00026, 00028). Not a price, and not evidence for the Stalker variant.'"}]}

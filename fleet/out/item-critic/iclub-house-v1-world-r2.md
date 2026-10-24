@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iclub-house-v1-world-r2 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[7772, 9312, 8, 1083] model=claude-haiku-5-5 -->
+# Club House
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "Minor: an older wiki revision (freerealms-wiki/wikitext/2242-43382, the VIP Club House entry) lists 'VIP Club House - SC 1350', which differs from the current 1499 regular / 1349 Member pair. The answer does not mention this earlier price, though its open list does flag that later price changes need checking.", "fix": "Current wikitext (freerealms-wiki/wikitext/18125-49512, rev 49512) confirms {{SC|1499}} regular and {{SC|1349}} Member, and the locale entries 6775 and 6776 match. Optionally note the older 1350 VIP-era price as history, not as a current price."}]}

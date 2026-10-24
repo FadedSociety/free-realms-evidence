@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cadvanced-turbo-booster-114868-v1-world-r2 status=done turns=4 usd=0.0017 tokens(read,write,in,out)=[16866, 6711, 10, 1447] model=claude-haiku-5-5 -->
+# Advanced Turbo Booster
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the wiki Items page has a '[Race] [Kart] [Parts]' section that lists '[Advanced] [Turbo] [Booster]' alongside other kart parts. It corroborates that the item exists as a race-kart part, but it gives no price, vendor, or acquisition source, so it does not change sources or retired status. The answer does not cite it.", "fix": "Cite the wiki Items page '[Race] [Kart] [Parts]' section (lookup wiki 'Advanced Turbo Booster') as existence/category evidence only, with no acquisition source. Sources stay empty and wireable stays false."}]}

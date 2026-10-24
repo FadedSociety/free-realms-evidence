@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crascal-spectral-necklace-86534-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3910, 9420, 6, 1135] model=claude-haiku-5-5 -->
+# Rascal Spectral Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] (family list)", "issue": "The family list is incomplete and mislabels the range. The client has more '<Prefix> Spectral Necklace' members than the answer lists (e.g. Magus, Shiny, Ruffian, Surgeon, Stalker at locale:86624-86660, and Hardwood/Granite/Metallic/Jeweled at 69671-69708). The answer also says the Rascal-prefixed necklaces run 86529-86539, but locale:86529 and 86530 are 'Dull Celestial' and 'Dull Ethereal Necklace', not Rascal-prefixed.", "fix": "Describe the family as 'Spectral Necklace' members across locale 69671-86660, with Rascal Spectral at 86534 in the Rascal block 86531-86539 (locale lookup 'Spectral Necklace', client)."}]}

@@ -1,0 +1,36 @@
+{
+ "title": "Misty Mountain Hermit",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\misty_mountain.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:140363 [npc_name | - | Misty Mountain Hermit] 'Misty Mountain Hermit'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:140363 [npc_name | - | Misty Mountain Hermit] 'Misty Mountain Hermit'"
+ ],
+ "client_cluster": [
+  "locale:140359 [quest_objective | - | Caitlyn Gravefog] 'You need to chase off any spiders you find.  Defeating the largest of the spiders should be enough to frighten all the spiders away!'",
+  "locale:140360 [item | - | Exploding Necrosis Egg] 'Exploding Necrosis Egg'",
+  "locale:140361 [ability | - | Lay Necrosis Egg] 'Lay Necrosis Egg'",
+  "locale:140362 [other | - | Spawn of Necrosis | FLAG dev_note: internal debug text] 'spawn of necrosis 190: summon egg'",
+  "locale:140363 [npc_name | - | Misty Mountain Hermit] 'Misty Mountain Hermit'",
+  "locale:140364 [item | - | Spawn Dance boombox | FLAG duplicate: same as 140365] 'Spawn dance boombox'",
+  "locale:140365 [item | - | Spawn Dance boombox] 'Spawn Dance boombox'",
+  "locale:140366 [npc_dialog | - | -] 'Snowface... s-s-s-snow f-f-f-face!'",
+  "locale:140367 [npc_dialog | - | -] 'Must stop him...'",
+  "locale:140370 [quest_dialog | - | -] 'The oracle... enslaved!'",
+  "locale:140371 [quest_objective | Sanctuary | Cook Briarmelon Surprise] 'As a chef, impress Bordon Cloo in Sanctuary by making a Briarmelon Surprise.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

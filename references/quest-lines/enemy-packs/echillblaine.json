@@ -1,0 +1,56 @@
+{
+ "title": "Chillblaine",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\frostfang_caverns.json"
+  },
+  {
+   "file": "dungeons\\frostfang_caverns.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:6477 [npc_name | - | Chillblaine] 'Chillblaine'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6477 [npc_name | - | Chillblaine] 'Chillblaine'",
+  "locale:9554 [quest_dialog | - | Chillblaine] \"I am so glad to see that you are ok. This is Chillblaine's pelt? Wow, it is nice and heavy. I appreciate your help, friend!\"",
+  "locale:20653 [quest_objective | - | Chillblaine] 'Defeat Chillblaine'",
+  "locale:20654 [quest_objective | - | Chillblaine] 'Knock out Chillblaine so you can get his furry coat.'",
+  "locale:94078 [quest_objective | Snowhill | Chillblaine] 'Use Spinning Blade on Chillblaine'",
+  "locale:103254 [quest_objective | - | Chillblaine] 'Use Kick on Chillblaine'",
+  "locale:103256 [quest_objective | - | Chillblaine] 'Use Commanding Shout on Chillblaine'",
+  "locale:103258 [quest_objective | - | Chillblaine] 'Use Quake on Chillblaine'"
+ ],
+ "client_cluster": [
+  "locale:6470 [quest_dialog | - | Loryn] 'That was some fast sorting!  See if Loryn could use more help.'",
+  "locale:6471 [npc_name | - | Robgoblin Knuckle Head] 'Robgoblin Knuckle Head'",
+  "locale:6472 [npc_name | - | Tuga the Bruiser] 'Tuga the Bruiser'",
+  "locale:6473 [npc_name | - | Burlen] 'Burlen'",
+  "locale:6474 [npc_name | - | Rockslide] 'Rockslide'",
+  "locale:6475 [npc_name | - | Cave Yeti] 'Cave Yeti'",
+  "locale:6476 [npc_name | - | Frosty] 'Frosty'",
+  "locale:6477 [npc_name | - | Chillblaine] 'Chillblaine'",
+  "locale:6478 [npc_name | - | Rock Crawler] 'Rock Crawler'",
+  "locale:6479 [npc_name | - | Elder Rock Crawler] 'Elder Rock Crawler'",
+  "locale:6481 [npc_name | - | Ghost Miner] 'Ghost Miner'",
+  "locale:6482 [npc_name | - | Shambler Miner] 'Shambler Miner'",
+  "locale:6484 [ability | - | Aggravating Wing Flap] 'Aggravating Wing Flap'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [
+  "fact:npc: According to local legend, Chillblaine controls all of the animals in the Frostfang Caverns and is said to be twice the size of any person. | According to local legend, Chillblaine controls all of the animals in the caverns. (http://www.freerealms.com:80/article/detail.action?articleId=75)",
+  "summary: An in-game-world news post (Free Realms site, 'What is New?' section, captured 2009-05-10) that presents the Frostfang Caverns on the eastern slopes of Snowhill as a dangerous ice cave complex. It names the Frostfang Wolf, Frostfang Bats and Icy Crawlers as in (http://www.freerealms.com:80/article/detail.action?articleId=75)"
+ ],
+ "quest_answers_naming_it": [
+  "other target in 'Warrior: Steele is Useful' (final): Collect all the pieces of Fastvi's broken weapon and defeat Chillblaine in Frostfang Caverns (described step, taken from"
+ ]
+}

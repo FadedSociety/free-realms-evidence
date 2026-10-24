@@ -1,0 +1,14 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-028-rs-L1 status=nothing_found turns=7 usd=0.0106 tokens(read,write,in,out)=[103142, 34507, 16, 10527] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_028.rs lines 1-468 of 468
+
+No reportable defects in `prototype/osfr-tools/src/restoration/piece_028.rs` lines 1-468.
+
+What I checked, and why each candidate was dropped:
+
+- **Client-controlled input never reaches the migration.** The only caller is the operator-supplied snapshot file (`read_bounded` → `migrate` → `restore`). Nothing in `src/` calls `migrate` or `restore` from a packet handler, so the "remote player" reach criteria don't apply. The only other callers are scripts and the owned test target `tests/piece_028.rs`.
+- **Panics (lines 207-295, 333-380).** Size is checked before parsing (207). The version is read via `as_u64` with an error on failure (218-221). `area[0..5]` indexes a fixed `[f32; 6]`. Build-area ordering is checked as x 0/3, y 1/4, z 2/5, which matches `housing.rs:222-227`. Non-finite values are rejected before ordering comparisons. `build_areas.len() > 64` is capped. `fixtures.len() as u32` (245) cannot wrap, because the 1 MiB document cap bounds the fixture count far below `u32::MAX`.
+- **Unbounded growth.** The JSON is capped at `MAX_SNAPSHOT_BYTES` (`read_bounded` 433, `migrate` 207). `serde_json` recursion is limited by default. Staging creation is capped at 64 attempts (451).
+- **Atomicity (restore, 391-413).** Nothing live is mutated before the loader. The loader runs against the staged file. `Housing::load_state` → `restore_lots` (`housing.rs:1213-1264`) validates the whole document, including the count check (1215), `validate_snapshot`, and `PropertyDefinition::validate` (1234-1236), before swapping `properties`, `grants` and `lots`. A failure leaves live state untouched. The staging file is removed on both the write and the load path.
+- **Trusting the client.** The migration only recomputes `count` from the fixture list. Legacy `build_areas` supplied in the file is passed through and then checked by `PropertyDefinition::validate` in the loader. Legacy lots with no build areas are filled from the recovered `Houses.json` table rows and cross-checked against zone and name id (333-355). Those rows are caller-provided content, not client input.
+- **Legacy copy of build areas not cross-checked against `Houses.json`.** A legacy lot that carries its own non-empty `build_areas` skips the zone/name and row checks. I judged this to be the documented policy ("fill … when the legacy lot has none", module doc lines 40-42), and the input is an operator save file, not remote input, so I did not report it.
+- **Version dispatch (216-278).** A negative, float or non-number `schema_version` is refused as `VersionNotInteger`. A newer version is refused as `UnsupportedVersion`. A duplicate-key document is parsed consistently by `Value` and by the struct, so the two readings agree.

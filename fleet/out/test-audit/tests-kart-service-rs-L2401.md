@@ -1,0 +1,28 @@
+<!-- fleet job=test-audit id=tests-kart-service-rs-L2401 status=done turns=10 usd=0.0139 tokens(read,write,in,out)=[234134, 41320, 22, 12755] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/kart_service.rs lines 2401-3600 of 4095
+
+Window reviewed: `prototype/osfr-tools/tests/kart_service.rs` 2401-3600 (the window ends mid-test at 3600; I only read the start of `shield_deadline_is_clamped...` past the window). Helpers and the code under test (`src/kart_service.rs` restore checks at ~2215-2270, the observation/pickup guards at ~1888-1912 and ~1960-1975) were read to confirm the findings below. Most tests here are sound: the pickup, respawn-restore and shield-deadline tests check real state and exact reply frames, and the timed-pickup budget test matches the code's guard order.
+
+- **[medium] tests/kart_service.rs:3198 respawn_never_fires_before_go_after_finish_or_past_the_window - the "clock that predates Go ... even when its due time has passed" case cannot exercise a due time at all.**
+  - Why it cannot catch a regression: the box claim at 3202 is at `start + 1_000` with a 5 s delay, so the pending due is `start + 6_000` (asserted in the sibling test at 3155). The regressed tick at 3204 is `start - 1`, which is before that due time, so no due-time logic could fire there. Also, the claim's outcome at 3202 is discarded, so if the claim were refused, the "nothing changed" assertions at 3205-3206 would still pass with no pending return to protect. A change that wrongly returns boxes whenever `now < race_started_ms` (with a due time already set) would still pass.
+  - Fix: assert the pre-tick snapshot has `pickups_pending == [PendingRespawn{handle:1, due_ms: start+6_000}]` before the regressed tick, and tick with a clock that is both before Go and past the due time (for example, schedule the respawn after Go, then rewind the clock to a value before `race_started_ms` but after the due time is impossible, so instead drop the "due time has passed" wording from the comment and assert the pending entry is unchanged).
+
+- **[medium] tests/kart_service.rs:3098 legacy_content_without_pickups_emits_the_same_frames - the name promises identical frames, but the body only checks that no CREATE frame appears.**
+  - Why it cannot catch a regression: any change to the GAME_STATE frame, the countdown/Go frames, or any other non-pickup reply on a no-pickup race still passes, since only `!is_create` is asserted at 3107.
+  - Fix: capture the replies from the same race on a build with pickups disabled (or a hard-coded expected `go.replies()` list) and assert `go.replies()` equals it exactly, not only the absence of 33/21 frames.
+
+- **[medium] tests/kart_service.rs:2601 bulk_observations_are_bounded_and_inert - the name says "bounded", but the body never reaches the observation bound.**
+  - Why it cannot catch a regression: the test sends only one bulk observation with the default `max_observations`, and then checks an unrelated pickup refusal and malformed frames. Removing or weakening the `observations >= max_observations` guard (src/kart_service.rs ~1971) leaves this test green. The bound itself is only covered by `observation_budget_is_separate_from_the_gate_budget` at 2408.
+  - Fix: either rename it to `bulk_observations_are_inert_and_malformed_frames_are_refused`, or set `max_observations = 1` and assert the second bulk frame returns `ObservationBudget { observations: 1 }` with the snapshot changed only by `spending(..)`.
+
+- **[low] tests/kart_service.rs:2520 a_high_rate_gate_stream_cannot_finish_or_offer_a_reward - every gate outcome is discarded with `let _ =`, so the comment's claim that "the movement bound refuses every claim before attribution" is never checked.**
+  - Why it cannot catch a regression: a refusal for any reason (for example, a foreign guid or an invalid phase) passes, as long as the cursor stays at 1. A change that moves the cursor by a different route would be caught, but a change that starts returning `Handled` without moving the cursor would not be.
+  - Fix: assert each outcome is `ServiceOutcome::Refused(ServiceRefusal::ImplausibleSpeed { .. } | ClaimRate { .. })` (the expected refusal for a 1 ms, 10 m leg), instead of discarding it.
+
+- **[low] tests/kart_service.rs:3504 shield_use_refreshes_the_deadline_and_the_caller_clears_it_at_the_edges - the second box claim at 3503-3512 is only checked with `.unwrap()`, so a refused claim is not caught at the point it happens.**
+  - Why it cannot catch a regression: the test's premise, "two shields let one use refresh the other's deadline", depends on that second claim being collected. A refusal (for example, a movement-bound change) is only noticed indirectly at 3519-3524, where the expected deadline would be wrong, so the failure message would point at the wrong step.
+  - Fix: wrap the 20 m claim in `assert!(matches!(..., ServiceOutcome::Handled { .. }))` and check `queued_items == [SHIELD_ITEM_TYPE, SHIELD_ITEM_TYPE]` before the first use.
+
+- **[low] tests/kart_service.rs:3347 respawn_state_round_trips_and_tampered_saves_are_refused - the out-of-window due time is pinned to the field name `"pickups_consumed"`.**
+  - Why it cannot catch a regression: the error comes from `PickupSet::restore` being mapped to `field: "pickups_consumed"` (src/kart_service.rs:2249-2251), so any change that reports the bad due time under a more accurate field (for example `pickups_pending`) breaks this test without changing behaviour. That is churn, not a missed bug.
+  - Fix: assert `matches!(err, ServiceError::CorruptSnapshot { .. })` for the due-time and unknown-handle cases, or pin the field only once the code names it.

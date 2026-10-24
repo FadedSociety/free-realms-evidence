@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgold-star-1462-v1-evidence-r1 status=done turns=4 usd=0.0021 tokens(read,write,in,out)=[18426, 9600, 10, 1512] model=claude-haiku-5-5 -->
+# Gold Star
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "'collection' rests only on the client description text ('This item can be added to a collection.') and the first-pass tag. No collection row in any root names item 3314 as a member, so the kind is a reading of the description, not a confirmed role.", "fix": "Keep kind as provisional or 'unknown' until a collection table lists definition 3314 (Sanctuary ClientItemDefinitions.json:61553-61562 confirms Id 3314, NameId 1462, DescriptionId 24229, Icon 519, Cost 1 and only the description supports collection use)."}]}

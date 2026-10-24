@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfather-s-ring-66882-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3754, 7996, 6, 1115] model=claude-haiku-5-5 -->
+# Father's Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Stated as 'unsure' with no retired status. Consistent with the empty sources, so not wrong. The collection list is evidence the item was part of a collection, not evidence of live or retired status.", "fix": "Leave live as unsure and retired as null until a source names a retirement or a current obtain method. Sources checked: client locale 66882 and the item description (locale 3567380706, 'This item can be added to the Family Rings Collection'); no wiki page, video or quest/vendor mention found beyond the 2013 'List of Collections' entry (revid 27852)."}]}

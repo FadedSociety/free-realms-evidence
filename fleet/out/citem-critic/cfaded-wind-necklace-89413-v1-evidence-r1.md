@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-wind-necklace-89413-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3522, 4752, 6, 1012] model=claude-haiku-5-5 -->
+# Faded Wind Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the Faded Wind and Polished Sun necklaces each have a matching Ring name is only partly supported. Locale confirms Faded Air Ring (89382) and Faded Wind Ring (89383), and Faded Void Ring (89384) too. No Polished Sun Ring string turned up in my lookup, so that part is unverified.", "fix": "Keep the Faded Air/Wind Ring match (locale 89382, 89383). Drop or mark unverified the Polished Sun Ring claim unless a locale string is found. The family sibling names (locale 89412, 89413, 89414, 89415, 89418) are confirmed."}]}

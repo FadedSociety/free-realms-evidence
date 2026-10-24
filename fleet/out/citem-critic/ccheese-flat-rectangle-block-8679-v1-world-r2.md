@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccheese-flat-rectangle-block-8679-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3873, 6811, 6, 914] model=claude-haiku-5-5 -->
+# Cheese Flat Rectangle Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The article (articleId=1435) says all standard block shapes made of cheese can be found on the Coin Shop. It does not name Flat Rectangle specifically, so the specific item-to-article link rests on the client name and the store row. That is a reasonable inference, not a fault, but the detail reads as if the article named this item.", "fix": "Keep the Coin Shop source. Word the article as covering the cheese block shape set generally, and cite the store row stores.json:8296 (item 32665, category 147, purchase 5, member 4, sell 1) as the item-specific evidence. Both checked out on my own lookup."}]}

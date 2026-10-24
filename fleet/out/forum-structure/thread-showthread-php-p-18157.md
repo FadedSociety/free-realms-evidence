@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-18157 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2900, 4, 569] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin forum shell for the Free Realms fan forum, not a thread. It shows a 'maximum number of posts you can view' error page plus forum navigation and the forum index, with no player post, guide, or game content. It gives a rebuilder no gameplay facts.", "facts": [], "quests": [], "uncertain": ["The capture is a forum error and navigation page, not an article; the thread the URL pointed to (post 18157) did not load, so its content is unknown.", "The capture date is 2009-06-03 but no date appears in the article text, so the date is left null."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icherri-v1-evidence-r1 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[7746, 4949, 8, 1213] model=claude-haiku-5-5 -->
+# Cherri
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "Minor omission: the repo has a Cherri entry in prototype/osfr-tools/data/content/npc_spawns_extra.json:8945 (spawn data) that the answer does not cite. It is NPC spawn evidence, not an item source, so it does not change the verdict.", "fix": "Optionally cite prototype/osfr-tools/data/content/npc_spawns_extra.json:8945 as a spawn record for Cherri as an NPC. Locale 101210 = 'Cherri' and 101201 = 'Give Cherri a Brain Freeze!' were both re-checked and match the answer; the notes at NPCs - Seaside.md:144 and :312 match as cited."}]}

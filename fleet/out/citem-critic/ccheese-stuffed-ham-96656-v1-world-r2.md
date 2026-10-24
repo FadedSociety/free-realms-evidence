@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccheese-stuffed-ham-96656-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3857, 5065, 6, 1028] model=claude-haiku-5-5 -->
+# Cheese-stuffed Ham
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live / retired", "issue": "The only source is an undated wiki Station Cash line. The answer correctly leaves live as 'unsure' and retired as null, and it does not invent a retired status. Nothing in the pack contradicts a Station Cash source, and no coin vendor, quest, drop or event is evidenced, so the sources fit together.", "fix": "No change needed for the world lens. Confirm the date of the wiki Items Station Cash block (lines 600-618 of wikitext 2242-43382-0a935accf24e.wiki) before setting live. I did not check the section header above line 600 to confirm it is the Supplies section."}]}

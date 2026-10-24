@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstudent-medic-beanie-32537-v3-evidence-r3 status=done turns=2 usd=0.0024 tokens(read,write,in,out)=[3788, 12433, 6, 1602] model=claude-haiku-5-5 -->
+# Student Medic Beanie
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[3]", "issue": "The automatic id check flags locale:1259359894 as nonexistent, and the answer says it is a stale citation that 'does not exist'. That is inaccurate. The id is present in the locale test dump as 'Student Medic Shirt' (FreeRealmsLocaleTools/test/.../en_us_data.dat:33361). It is a real id, just the wrong one to cite for the Beanie.", "fix": "Reword as: locale:1259359894 is 'Student Medic Shirt' (en_us_data.dat:33361), not a Beanie reference, so it was rightly removed. Keep the sibling ids the answer lists (891 Shirt, 10764 Hammer, 32239 Boots, 32450 Gloves, 32634 Pants) only if they are checked against the same dump."}]}

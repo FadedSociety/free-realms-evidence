@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csage-eternal-necklace-86573-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3786, 8535, 6, 1212] model=claude-haiku-5-5 -->
+# Sage Eternal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The 'Sage' family speculation (sold or dropped together) is not evidenced. It is flagged as open, so it does not fail the answer, but it should not be read as a source hint.", "fix": "Keep it as an unverified open question. No repo or refs source ties any Sage Necklace tier to a vendor, quest, drop or event; my searches of refs and repo for 'Sage Eternal Necklace' and 22582 returned only locale dump lines and unrelated ids (22582 in warrior.json is a Global.Text id, not this item)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchaz-s-fateful-necklace-86697-v1-evidence-r1 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 4350, 4, 966] model=claude-haiku-5-5 -->
+# Chaz's Fateful Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4].source", "issue": "The Chaz Strongarm / Brawler Club claim cites locale:22811, which the automatic id check flags as part of NOT LIVE quest 22810. It is not live evidence, so it should not support any statement about this item or its NPC context.", "fix": "Drop locale:22811 from the evidence. Keep only live sources for Chaz Strongarm (for example repo:notes/Build Guides/Content/Jobs/Brawler.md:167, if that line is confirmed live), or state the Chaz name link as an unsourced name match. The item's sources stay empty, which is correct: no evidence in the pack names locale:86697 as a drop, quest reward, or vendor item."}]}

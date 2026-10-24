@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwemo-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3047, 3848, 6, 890] model=claude-haiku-5-5 -->
+# Wemo
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer marks live as 'unsure', but nothing in the pack shows Wemo is retired or inactive. The NPC evidence is only that the name exists as an npc_name string and a wiki NPC page.", "fix": "Leave live as unsure, or state that no item acquisition applies. The wiki page (Category:NPC, Robgoblin, Seaside) and locale 45792 (npc_name) support the NPC reading."}, {"field": "evidence[2]", "issue": "The quest objective 75516 'Deliver to Wemo' does not say whether Wemo gives or receives. The answer hedges this, which is fair, but it does not name the quest that holds the objective.", "fix": "Name the owning quest for locale 75516 before treating Wemo as a delivery target. The pack does not show it."}]}

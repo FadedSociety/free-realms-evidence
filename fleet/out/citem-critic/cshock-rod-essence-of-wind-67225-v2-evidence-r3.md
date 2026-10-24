@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshock-rod-essence-of-wind-67225-v2-evidence-r3 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4157, 9996, 6, 1154] model=claude-haiku-5-5 -->
+# Shock Rod Essence of Wind
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The dungeon name 'Robgoblin Treasure Trove' is taken from the video frame's world tag, not from the wiki. The answer already says so in open[], so it is honest, but the 'where' field reads as if it were sourced. Verified: video:qCG_K2piQgE/00094.jpg shows 'Medic Shock Rod Materials / Medic Materials Rare Collection' and 'You receive 1 Shock Rod Essence of Wind' at Medic 10, and the frame's world tag is Robgoblin Treasure Trove.", "fix": "Keep the dungeon name attributed to the video frame only (world tag on video:qCG_K2piQgE/00094.jpg). The wiki sourcing stands at 'dungeons' only."}]}

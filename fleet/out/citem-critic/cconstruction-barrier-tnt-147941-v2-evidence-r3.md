@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cconstruction-barrier-tnt-147941-v2-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3920, 7467, 6, 1058] model=claude-haiku-5-5 -->
+# Construction Barrier TNT
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The answer says the 45-coin member price is 'computed from 50 at 10% off, not shown in the client or store row'. The store row does show it: stores.json:4458 has member_price_coins 45 alongside purchase_price_coins 50 and member_discount_percent 10. The price itself is correct, but the attribution is wrong.", "fix": "Cite stores.json:4458 for both purchase_price_coins 50 and member_price_coins 45 (member_discount_percent 10). Client coin_store_prices [50] is the client-side confirmation of the base price."}]}

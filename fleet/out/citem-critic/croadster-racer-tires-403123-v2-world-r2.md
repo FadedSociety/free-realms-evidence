@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=croadster-racer-tires-403123-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3909, 8067, 6, 793] model=claude-haiku-5-5 -->
+# Roadster Racer Tires
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor: the claim that locale 403178 has the same description as 403123 is accurate, but the client lookup lists 403178 under the name 'Roadster Racer' rather than a tire item, so the answer's note that it may be a second tire definition is speculative. It is correctly flagged as unknown and does not change the result.", "fix": "Keep as an open question. Client lookup shows locale:403178 as item 'Roadster Racer' with description 'The customized tires for the Roadster Racer.' (no tire name)."}]}

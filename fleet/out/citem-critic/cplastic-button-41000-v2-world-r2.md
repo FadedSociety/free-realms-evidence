@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cplastic-button-41000-v2-world-r2 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[15900, 12512, 8, 1227] model=claude-haiku-5-5 -->
+# Plastic Button
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the wiki's List of Collections (revid 27852) has a 'Robgoblin Junk' / Common section naming Awesome, Better, Cool and Okay Buttons could not be re-checked. My lookup of 'Cool Buttons Collection buttons junkpile' returned no wiki or client matches, so this citation is unverified here.", "fix": "Re-open freerealms-wiki 'List of Collections' (revid 27852) and confirm the section and entries before relying on it. Keep the Plastic Button exclusion only if that section is confirmed."}]}

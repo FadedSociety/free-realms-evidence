@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=caged-gramophone-147801-v1-world-r2 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[11258, 10385, 8, 1144] model=claude-haiku-5-5 -->
+# Aged Gramophone
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Null storefront is honest but leaves the source unplaceable. Category 53 is a large coin-store category (dozens of item ids in stores.json, e.g. 2709, 2937, 3008, 15586) with no category-to-storefront mapping anywhere in the repo, so 'coin_shop' names the price table, not a vendor.", "fix": "Keep the source as a coin store row: repo:prototype/osfr-tools/data/content/stores.json item 36602 (line 12072), category 53, purchase 50, member 45, sell 5, no_sale false. Leave where null and state that category 53 is unmapped to a storefront."}]}

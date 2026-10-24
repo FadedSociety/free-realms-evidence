@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-phantasmal-ring-86400-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4151, 5976, 6, 1138] model=claude-haiku-5-5 -->
+# Shiny Phantasmal Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open", "issue": "The Polished Fateful Necklace note is real. repo:notes/Build Guides/Content/NPCs/NPCs - Blackspore Swamp.md:233 says the 'Consumed by the Past' loot came from wraiths and Lukov, not quests. But that line does not cite video 8F4ZomE2kxI, so the video ID in the answer's source column is not confirmed by that note. The answer should cite the note line and mark the video ID as unverified.", "fix": "Cite repo:notes/Build Guides/Content/NPCs/NPCs - Blackspore Swamp.md:233 only, or add the video ID with a note that it came from the pack, not from that line."}]}

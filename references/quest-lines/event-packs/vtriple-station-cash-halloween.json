@@ -1,0 +1,39 @@
+{
+ "title": "Triple Station Cash (Halloween 2012)",
+ "names_seen": [
+  "Triple Station Cash (Halloween 2012)"
+ ],
+ "facts": [
+  {
+   "statement": "On November 4, 2012, SOE offered Triple Station Cash for one day on Station Cash purchases made in-game, online, or by redeeming an SOE pre-paid game card.",
+   "numbers": {
+    "bonus_multiplier": 3
+   },
+   "era": "live",
+   "quote": "On November 4th, 2012 SOE is treating you to Triple Station Cash!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2799",
+   "date": null
+  },
+  {
+   "statement": "The Triple Station Cash offer ran from 12:01 AM PDT on 11/4/12 to 11:59 PM PST on 11/4/12.",
+   "numbers": {
+    "start_hour_am": 0,
+    "end_hour_pm": 23
+   },
+   "era": "live",
+   "quote": "Offer is valid between 12:01 AM PDT 11/4/12 and 11:59 PM PST 11/4/12.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2799",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2799",
+   "date": null,
+   "title": "Triple Station Cash for Halloween",
+   "summary": "SOE's official freerealms.com news post announcing a one-day Triple Station Cash promotion on November 4, 2012, covering in-game, online and pre-paid card purchases of Station Cash. The post itself is listed as posted '3 weeks, 6 days ago' relative to the capture, so its exact posting date is not stated. Purchases made by SMS payment were excluded."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

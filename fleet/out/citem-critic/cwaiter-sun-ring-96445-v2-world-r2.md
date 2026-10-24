@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwaiter-sun-ring-96445-v2-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3773, 5170, 6, 867] model=claude-haiku-5-5 -->
+# Waiter Sun Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources list is honest. My lookups (client, wiki, articles, video) and a refs TSV search found no vendor, quest, drop, event or wiki source naming Waiter Sun Ring (96445). The only related data is the first-pass 'joke' tag in quest-lines/flags.tsv:8339 and 8355-8361, which the answer already labels as an unverified hint.", "fix": "No change required. Keep sources empty and live as 'unsure'. The 'joke/gag' tag at refs:quest-lines/flags.tsv:8338-8343 and 8356-8361 should not be read as retirement or non-obtainability evidence."}]}

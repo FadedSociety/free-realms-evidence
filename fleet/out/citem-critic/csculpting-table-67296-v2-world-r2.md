@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csculpting-table-67296-v2-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3919, 8010, 6, 1095] model=claude-haiku-5-5 -->
+# Sculpting Table
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].source", "issue": "The wiki citation is an old revision (2013-07-13, revision 27853). The repo entry and the wiki line both say the reward is for Blacksmith's Forge Adventures, but the answer does not note that this is a 2013 snapshot. Nothing shows the reward still exists on live servers.", "fix": "Keep the source, and add that it comes from the 2013 wiki revision (repo collections.json:2755-2768, wiki Job_Specific_(Collections) rev 27853, line 86 'reward= Sculpting Table' and line 108 'Sculpting Table -- This is the reward for completing Blacksmith's Forge Adventures'). Keep live as 'unsure'."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ioswald-v1-world-r2 status=done turns=3 usd=0.0012 tokens(read,write,in,out)=[7519, 4899, 8, 1044] model=claude-haiku-5-5 -->
+# Oswald
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the 'Crystals are forever' quest label comes only from the wiki map image transcription (the Oswald entry on the Blackspore map), not from a client quest title. The client does show Oswald as the appraiser for Blackspore crystal fragments (locale:76054) and as a delivery/return target (locale:140554, locale:76103). The answer's point stands: Oswald is an npc_name (locale:78534) and no item acquisition source applies.", "fix": "Optionally cite locale:76054 ('Oswald in Mire's Edge can determine their value') as the crystal-appraisal role, since it is the in-game evidence for the quest tie. Keep kind 'other' / no sources / wireable false."}]}

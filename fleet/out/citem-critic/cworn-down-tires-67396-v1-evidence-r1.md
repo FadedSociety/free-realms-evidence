@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cworn-down-tires-67396-v1-evidence-r1 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[13599, 10448, 8, 1345] model=claude-haiku-5-5 -->
+# Worn Down Tires
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "Kind is set to 'other' with the reasoning that the first-pass 'collection' tag describes the collection, not the item. That reasoning is correct, and the answer is honest about it. No change needed.", "fix": "None required. The item is a Demolition Derby tire part; the collection 'Derby Driver Tires' (locale 67588, id 2129583338) is the only linked object."}, {"field": "evidence[2]", "issue": "Locale 67700 is tagged as an item-type string in the lookup, not a collection name. The answer calls it 'a separate string' that does not name who takes the tires. Both points check out against the locale, so the claim stands.", "fix": "None required."}]}

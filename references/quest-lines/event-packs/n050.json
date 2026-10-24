@@ -1,0 +1,68 @@
+{
+ "title": "Summer Camp in-game event schedule",
+ "names_seen": [
+  "Summer Camp in-game event schedule"
+ ],
+ "facts": [
+  {
+   "statement": "In-game community events were expected on Tuesdays at 09:00 and 16:00 Pacific Time, Thursdays at 15:00 Pacific Time, and Friday mornings at 09:00 Pacific Time; Trading Card Game (JCC) events were expected daily.",
+   "numbers": {
+    "tuesday_times_pacific_hours": 9,
+    "tuesday_second_time_pacific_hours": 16,
+    "thursday_time_pacific_hours": 15,
+    "friday_time_pacific_hours": 9
+   },
+   "era": "live",
+   "quote": "los eventos de juego ocurran todos los martes a las 09:00 hrs. y 16:00 hrs. TP",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1627",
+   "date": null
+  },
+  {
+   "statement": "In-game community events were expected Tuesdays at 9am and 4pm PST, Thursdays at 3pm PST, and Friday mornings at 9am PST; TCG events were expected every day.",
+   "numbers": {
+    "tuesday_events_am_pst": 9,
+    "tuesday_events_pm_pst": 16,
+    "thursday_pst": 15,
+    "friday_am_pst": 9
+   },
+   "era": "live",
+   "quote": "expected to happen every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST and Friday mornings at 9am PST",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1661",
+   "date": null
+  },
+  {
+   "statement": "In-game Summer Camp events were expected every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST, and Friday mornings at 9am PST; TCG events were expected every day.",
+   "numbers": {
+    "tuesday_times_am_pm_pst": 2,
+    "thursday_time_pst_hour": 15,
+    "friday_time_pst_hour": 9
+   },
+   "era": "live",
+   "quote": "The in-game events are expected to happen every Tuesday at 9am and 4pm PST, Thursdays at 3pm PST and Friday mornings at 9am PST.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1737",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1627",
+   "date": null,
+   "title": "Campamento de Verano – Semana de Artesanías (Free Realms - What is New?)",
+   "summary": "A Spanish-language official news post for the Summer Camp event's 'Crafting Week' theme. It describes the weekly printable event calendar, the in-game event schedule (Pacific Time), and how to reach events through the Game Guide's calendar and Go button. The post is dated only by a relative 'Posted 10 months, 3 weeks ago' stamp, so the exact date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1661",
+   "date": null,
+   "title": "Summer Camp - Pirates Week",
+   "summary": "Official freerealms.com news post for the Summer Camp event's Pirates Week theme. It describes a themed week with pirate-costume dressing, a member-only Pirates Plunder game, a Seaside pier NPC, and the expected schedule of in-game community events and TCG events, plus how players used the in-game Game Guide calendar to teleport to events."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1737",
+   "date": null,
+   "title": "Summer Camp - Lakeshore Fun Week",
+   "summary": "Freerealms.com news post for the Summer Camp community event series, this week's theme 'Lakeshore Fun Week'. It describes Lakeshore as a lake area with the Durango Zoo and Robgoblins nearby, lists expected in-game event times, and explains how to use the Game Guide calendar and GO button to teleport to events. The post gives only a relative posting time ('4 days, 22 hours ago') so the exact date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iscary-chest-thump-painting-v2-world-r2 status=no_submit turns=4 usd=0.0034 tokens(read,write,in,out)=[33440, 16996, 10, 1845] model=claude-haiku-5-5 -->
+# Scary Chest Thump Painting
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1] (vendor, Edwin)", "issue": "The Edwin source is evidenced only by a bare list entry on the Edwin wiki page (wikitext line 31, '*[[Scary Chest Thump Painting]]'). That page names no currency for its Sells list, so the vendor's payment currency is unknown. It is not established that Edwin sells this painting for coins, and it should not be read as a second coin route alongside the SC listing.", "fix": "Keep the vendor source with price and currency null, and state that the currency is unknown. Cite freerealms-wiki/wikitext/12184-50067-8de69ea0e588.wiki line 31 as the only evidence. Do not infer a coin price or treat it as independent of the SC listing."}]}

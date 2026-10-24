@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgranite-void-necklace-99371-v2-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[4018, 4398, 6, 888] model=claude-haiku-5-5 -->
+# Granite Void Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "slots / wiring note", "issue": "The answer says definition 32252 has slot 8 (Accessory1, 'Ring') while the name says Necklace (slot 9). I did not re-verify the slot table line it cites (repo notes Items and Inventory.md:94). The conflict is flagged as open, so it does not make the answer false, but the wiring note rests on an unchecked source.", "fix": "Recheck the Accessory slot value for definition 32252 against the slot table in repo notes/Build Guides/Gameplay/Items and Inventory.md before any wiring. Until then, treat the slot as unknown."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cernie-s-blue-ring-96176-v1-world-r2 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[13657, 10638, 8, 1625] model=claude-haiku-5-5 -->
+# Ernie's Blue Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "Minor omission: the Ernie ring cluster has extra ugdt-tagged string rows that the answer does not mention: Ernie's Green Ring (462219478, ugdt) and Ernie's Grape Ring (1020409122, ugdt, plus 89588341 ucdt). The answer cites only the ucdt name for the Blue Ring and does not say whether the Blue Ring has a similar twin. Its 'live unknown' reading would be stronger with that noted.", "fix": "Add to evidence: the Green and Grape rings have ugdt twins in opening-native-lobby en_us_data.dat (462219478, 1020409122), so the ring set may follow the same NOT LIVE pattern as the Snowhill Ernie quests; no ugdt row for 96176 was found."}]}

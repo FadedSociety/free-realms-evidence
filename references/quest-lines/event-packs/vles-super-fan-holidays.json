@@ -1,0 +1,33 @@
+{
+ "title": "Les Super Fan Holidays",
+ "names_seen": [
+  "Les Super Fan Holidays"
+ ],
+ "facts": [
+  {
+   "statement": "SOE's Super Fan Holidays sale ran from 18h CET on 29 November 2010 to 18h CET on 3 December 2010, with Station Cash discounts.",
+   "numbers": {
+    "start_hour_CET": 18,
+    "end_hour_CET": 18,
+    "start_day": 29,
+    "end_day": 3,
+    "end_month": 12,
+    "year": 2010
+   },
+   "era": "live",
+   "quote": "Vous pouvez profiter des réductions sur Station Cash entre 18h (CET) 29 novembre au 18h (CET) 3 décembre 2010!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1938&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1938&request_locale=en_US",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A French-language SOE news post announcing the 'Les Super Fan Holidays' sale, which ran from 18h CET on 29 November 2010 to 18h CET on 3 December 2010. It describes Station Cash discounts for buyers and an extra 30% discount for Free Realms members on Station Cash items, including Dragon mounts. The post itself does not state its exact posting date; the page shows only 'Posted 6 months, 5 days ago' relative to the capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

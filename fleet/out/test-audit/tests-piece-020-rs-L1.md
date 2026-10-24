@@ -1,0 +1,26 @@
+<!-- fleet job=test-audit id=tests-piece-020-rs-L1 status=done turns=6 usd=0.0098 tokens(read,write,in,out)=[89052, 32737, 14, 9726] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_020.rs lines 1-563 of 563
+
+Window: `prototype/osfr-tools/tests/piece_020.rs` lines 1-563. I read the whole window and the code under test (`src/restoration/piece_020.rs`, all 875 lines). The envelope, sub-opcode, membership, launch, disconnect and state paths are exercised by real assertions, and the hard-coded fixtures match the parser (I checked the four capture frames' lengths and the 0x4b52cc6a9573ca91 little-endian body). The findings below are the holes.
+
+- **[medium] tests/piece_020.rs:192 `activity_launch_sub_opcodes_match_the_recovered_class_table` - the `evidence() == Evidence::Original` check is constant against constant, and the `from_sub(sub).sub_opcode() == sub` check at :190 restates `from_sub`'s own lookup.**
+  - Why it cannot catch a regression: `evidence()` at src/restoration/piece_020.rs:183-185 returns `Evidence::Original` unconditionally, so changing any row to `Reconstructed` or `Missing` in the code would need no test change and this check cannot fail. `from_sub` (:187-191) finds by `sub_opcode()`, so the round-trip at :190 is true by construction. The sub-opcode and class-name checks against the literal table at :187-191 do carry real signal.
+  - Fix: make evidence a per-row fact in the test table (for example, the expected evidence for each row listed beside the sub-opcode), or drop the check. Keep the table and `class_name` assertions, and assert `from_sub` against the literal number, not against `sub_opcode()`.
+
+- **[medium] tests/piece_020.rs:541-562 `group_state_snapshot_reports_members_and_instances` - the name says it reports members and instances, but only counts and ids are asserted.**
+  - Why it cannot catch a regression: `state()` (src :808-855) could emit `"state": "invited"` for every member, `"phase": "forming"` for a launched group, a null or wrong `instance_id`, or a wrong instance roster identity, and every assertion here would still pass. The member `state` and `phase` strings are never read, and `instance_id` is not checked under the group.
+  - Fix: assert `snapshot["groups"][0]["phase"] == "launched"`, `snapshot["groups"][0]["instance_id"] == instance_id`, each member's `state` (`"accepted"` for the owner and `"ready"` for the member, since `launched_registry` sets ready), and `snapshot["instances"][0]["members"] == [OWNER, MEMBER]`.
+
+- **[medium] tests/piece_020.rs:380-389 `launch_requires_every_accepted_member_to_be_ready` - the comment says "Ready can be taken back while forming", but the group has already launched at :378, so the retraction is only checked after launch.**
+  - Why it cannot catch a regression: a change that rejects `set_ready(false)` while the group is in `Forming` (before launch) passes this test, because the only retraction tested happens after launch, where `set_ready` is documented as allowed (src :525-526). The forming-phase retraction behavior is not covered anywhere in the window.
+  - Fix: before the `launch` at :378, add `assert_eq!(registry.set_ready(ACTIVITY, MEMBER, false).unwrap(), Reply::MemberStateUpdated { activity_id: ACTIVITY, player: MEMBER, state: MemberState::Accepted })`, then re-ready the member and launch. Correct the comment to match the post-launch assertion.
+
+- **[low] tests/piece_020.rs:378 `launch_requires_every_accepted_member_to_be_ready` - `assert!(registry.launch(...).is_ok())` checks only the `Ok`, not that the group launched.**
+  - Why it cannot catch a regression: a `launch` that returns `Ok` without setting `GroupPhase::Launched` or creating a roster would pass, and the test never reads `phase` or `instance_of` after this call.
+  - Fix: replace with `let Reply::Launched { instance_id, .. } = registry.launch(...).unwrap() else { panic!() };` and assert `registry.phase(ACTIVITY) == Some(GroupPhase::Launched { instance_id })`.
+
+- **[low] tests/piece_020.rs:148-158 malformed-envelope truncation case - the second assertion (after `truncated.pop()`) does not exercise truncation as its comment implies.**
+  - Why it cannot catch a regression: after `pop()` the 11-byte frame still declares an inner length of 5, so it is rejected by the length-mismatch check at src :238, not by the sub-opcode width check at :244. The truncation path is covered only by the first assertion at :150-153, so the second assertion adds no coverage of its own. Removing the width check would still be caught only by the first assertion, which is fine, but the second assertion looks like it tests the same rule when it does not.
+  - Fix: to test truncation of the 4-byte sub-opcode at the second step, fix the inner length to match the shorter frame (`truncated[3] = 4` before the pop) so the only failing check is the width check. Otherwise drop the second assertion.
+
+No `#[ignore]`, no early returns on missing fixtures, and no exact counts that are incidental (`ALL.len() == 20` at :186 tracks the table on purpose). The name-overclaim check on `membership_mutation_after_launch_is_rejected` (:513) is not a finding: its name claims only that the calls are rejected, and each call does get the expected error.

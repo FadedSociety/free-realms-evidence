@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cghost-cupcake-16642-v1-evidence-r1 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[12596, 9148, 8, 1437] model=claude-haiku-5-5 -->
+# Ghost Cupcake
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the community definition files 'confirm the item is a defined client item' is accurate but thin: the only hit is a bare \"Comment\": \"Ghost Cupcake\" line at the same offset in Sanctuary and FreeRealms-Legacy ClientItemDefinitions.json. It is a name comment, not a definition body, so it supports existence only, which the answer already says.", "fix": "No change required to the verdict. Keep the wording as 'name comment only (Sanctuary and FreeRealms-Legacy ClientItemDefinitions.json line 1193345); no vendor, price or drop fields'. Verified by search."}]}

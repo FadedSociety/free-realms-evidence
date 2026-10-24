@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpetrified-leaf-140830-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3851, 9585, 6, 1131] model=claude-haiku-5-5 -->
+# Petrified Leaf
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor incompleteness: the answer says the name appears only as locale 140830. The raw locale dumps (refs FreeRealms-Legacy and FreeRealmsLocaleTools test data, en_us_data.dat) also hold 'Petrified Leaf' under two other string-hash keys (ucdt 2152387142 and ugdt 4157820536). These are name-table variants, not a quest, vendor or wiki source, so they do not change the answer, but the answer's 'only one locale id' wording is slightly overstated.", "fix": "Note that the name also appears as ucdt 2152387142 and ugdt 4157820536 in the raw en_us_data.dat dumps (refs FreeRealms-Legacy / FreeRealmsLocaleTools tests); these are name variants with no source attached."}]}

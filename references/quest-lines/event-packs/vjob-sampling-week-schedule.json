@@ -1,0 +1,31 @@
+{
+ "title": "Job Sampling Week schedule",
+ "names_seen": [
+  "Job Sampling Week schedule"
+ ],
+ "facts": [
+  {
+   "statement": "Events ran twice a day at fixed times on Server 1: 4pm-5pm Pacific Time for U.S. and Latin America, and 9:00am-10:00am Pacific (6:00pm-7:00pm GMT) for UK and Europe.",
+   "numbers": {
+    "US_LatAm_start_pacific_hour": 16,
+    "US_LatAm_end_pacific_hour": 17,
+    "UK_EU_start_pacific_hour": 9,
+    "UK_EU_end_pacific_hour": 10
+   },
+   "era": "live",
+   "quote": "4pm – 5pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=580",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=580",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "SOE announced a community event week, 'Job Sampling Week', in which staff met players at job trainers on consecutive days (Nov 9-13, 2009) to socialize, answer questions, trade equipment and duel. It covers jobs that were previously locked to free players (Archer, Wizard, Medic, Blacksmith, Warrior), with a meeting time and location for each day on Server 1."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccallahan-s-celestial-necklace-86715-v1-world-r2 status=done turns=3 usd=0.0027 tokens(read,write,in,out)=[13078, 14547, 8, 1471] model=claude-haiku-5-5 -->
+# Callahan's Celestial Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer does not mention the Callahan shard lead found in the locale dump: 'This is a Callahan's Tempered Circle Shard item.' (locale 322885120). That suggests the Callahan family may be a crafting or shard-linked set rather than only a Seaside quest reward. It is a lead, not a source for this necklace.", "fix": "Add to open: 'Locale 322885120 describes a Callahan's Tempered Circle Shard item, so the family may include crafted or shard-linked pieces. Nothing ties Callahan's Celestial Necklace (86715) to that line.' Source: en_us_data.dat:8565 (FreeRealmsLocaleTools test data)."}]}

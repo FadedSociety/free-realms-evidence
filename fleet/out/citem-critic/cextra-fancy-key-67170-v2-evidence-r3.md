@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cextra-fancy-key-67170-v2-evidence-r3 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3575, 6698, 6, 916] model=claude-haiku-5-5 -->
+# Extra Fancy Key
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The collection-membership claim (collection 194, entry 3, item_definition_id 23557, item_link 'sanctuary') cites repo collection_catalogue.json lines 15691-15726, which is not in the evidence pack and which I did not verify. It does not affect the acquisition answer, since the answer correctly treats collection membership as non-source.", "fix": "Verify the collection_catalogue.json entry directly before relying on it, or drop the claim. Membership is not an acquisition source either way."}]}

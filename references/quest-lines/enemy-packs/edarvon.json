@@ -1,0 +1,60 @@
+{
+ "title": "Darvon",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\darvon_s_descent.json"
+  },
+  {
+   "file": "dungeons\\darvon_s_descent.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:17031 [npc_name | Pixie Woods | Darvon] 'Darvon'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:17031 [npc_name | Pixie Woods | Darvon] 'Darvon'",
+  "locale:17033 [quest_objective | Pixie Woods | Darvon] 'Knock out Darvon!'",
+  "locale:17034 [quest_objective | Pixie Woods | Darvon] 'Darvon is leading the way towards the kidnapped Pixies. Knock him out in order to break the barrier to Autumn and Flutter fly!'",
+  "locale:94598 [quest_objective | - | Darvon] \"Pixies are getting kidnapped by Darvon's changeling followers! Free the pixies and defeat Darvon!\""
+ ],
+ "client_cluster": [
+  "locale:17026 [place | Pixie Woods | Autumn] 'Autumn'",
+  "locale:17030 [npc_name | Pixie Woods | Autumn] 'Flutter Fly '",
+  "locale:17031 [npc_name | Pixie Woods | Darvon] 'Darvon'",
+  "locale:17032 [npc_name | Pixie Woods | Otis] 'Otis'",
+  "locale:17033 [quest_objective | Pixie Woods | Darvon] 'Knock out Darvon!'",
+  "locale:17034 [quest_objective | Pixie Woods | Darvon] 'Darvon is leading the way towards the kidnapped Pixies. Knock him out in order to break the barrier to Autumn and Flutter fly!'",
+  "locale:17035 [quest_objective | Seaside | Cray Castle] 'Place Sandcastle'",
+  "locale:17036 [quest_objective | Seaside | Bucket of Bouncing Bait] \"Place Bucket o' Bait\"",
+  "locale:17037 [item | Seaside | Bucket of Bouncing Bait] 'Bucket of Bouncing Bait'",
+  "locale:17038 [quest_dialog | Seaside | Cray Castle] 'Something smells fishy...'",
+  "locale:17039 [quest_title | Seaside | Cray Castle] 'Cray Castle'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:world_screenshot): Darvon's Descent"
+ ],
+ "video": [
+  "video:G0YPMcMAX4A/00010.jpg (-): npcs: Anura nameplate  | landmarks: Smelting Furnace Darvon's Descent | job_level: Adventurer 12 | other_text: Smelting Furnace (10m, purple marker) Darvon's Descent (28m, red marker) Upgrade!",
+  "video:sNQUG-ushkE/00068.jpg (-): landmarks: Smelting Furnace Anvil Darvon's Descent (33m)",
+  "video:sNQUG-ushkE/00080.jpg (-): landmarks: Smelting Furnace Anvil Darvon's Descent (33m)",
+  "video:mu9Y82K62nk/00004.jpg (-): npcs: Tori nameplate  | landmarks: Darvon's Descent Smelting Furnace Practice Dummy | job_level: Adventurer 12 | other_text: Darvon's Descent (10m) Smelting Furnace (39m) Practice Dummy (41m) Upgrade!",
+  "video:G0YPMcMAX4A/00006.jpg (-): npcs: Tori nameplate  | landmarks: Darvon's Descent Practice Dummy Smelting Furnace | job_level: Adventurer 12 | other_text: Darvon's Descent (13m) Practice Dummy (37m) Smelting Furnace (38m) Tori (107m) Upgrade!"
+ ],
+ "article_facts": [
+  "fact:location: Darvon's Descent is a complex system of tunnels deep within the caves of Sanctuary, run by Darvon and his Changling soldiers, where the kidnapped pixies are held. | Deep within the caves of Sanctuary is a place called Darvon’s Descent. (http://www.freerealms.com:80/article/detail.action?articleId=482)",
+  "fact:location: Darvon's Descent is an underground combat quest area reached from the Memorial Caverns. | Darvon's Descent and Forgotten Caves are two exciting combat quests (http://www.freerealms.com:80/article/detail.action?articleId=144)",
+  "fact:combat: Darvon's Descent is described as one of the more difficult battles in Free Realms, especially for characters with lower level jobs; the event encouraged high-level players to group with less experienced ones. | Darvon’s Descent is one of the more difficult bat (http://www.freerealms.com:80/article/detail.action?articleId=482)",
+  "fact:event: A community event had groups take on Darvon's Descent, a cave dungeon in Sanctuary run by Darvon and his Changling soldiers, on Friday October 16 (3pm-5pm Pacific, U.S. and Latin America) and Monday October 19 (7:30am-9:30am Pacific / 4:30pm-6:30pm GMT, UK and (http://www.freerealms.com:80/article/detail.action?articleId=482)"
+ ],
+ "quest_answers_naming_it": [
+  "go target in 'Medic: Shocking Developments' (final): Head into Darvon's Descent and find the missing shock paddles!"
+ ]
+}

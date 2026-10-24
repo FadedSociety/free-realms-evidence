@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbasic-rectangle-block-8663-v1-world-r2 status=no_submit turns=2 usd=0.0021 tokens(read,write,in,out)=[4311, 11924, 6, 1168] model=claude-haiku-5-5 -->
+# Basic Rectangle Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "vendor.where / vendor.detail", "issue": "The coin-store row is unnamed. Store category 147 has no name in the repo, and the lookups I ran (wiki, articles) returned nothing for this item. The answer discloses this in `open`, so it is a limit, not a false claim.", "fix": "No change needed for pass. A builder should confirm the shop NPC or category name before treating the vendor as a located NPC. The price and currency are supported by stores.json:8279 (item 32648, category 147, purchase 5 coins, member 4, sell-back 1), which matches the client's coin_store_prices of 5."}]}

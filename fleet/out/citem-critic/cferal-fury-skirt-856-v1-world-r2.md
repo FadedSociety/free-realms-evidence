@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cferal-fury-skirt-856-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4089, 10425, 6, 1022] model=claude-haiku-5-5 -->
+# Feral Fury Skirt
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer's sibling-pack note says the Raging Rampage Skirt pack 'guesses drop'. That guess is unverified, and the answer correctly does not use it. No change needed, but it should not be carried over as a source.", "fix": "Keep sources empty. My checks found no source naming Feral Fury Skirt, Savage Snarl or Raging Rampage in refs (no wiki, article, quest-line or vendor hit). The lookup returned only client text rows for the Feral Fury and Savage Snarl bracers, boots, leggings and skirt names (locale:688, 698, 728, 750, 775, 776, 851). Those rows show the names exist, not how they are obtained."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifergus-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3093, 4896, 6, 1070] model=claude-haiku-5-5 -->
+# Fergus
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The answer calls 'Fergus Plimwiggle' (locale:35741) 'a different NPC entry, likely a distinct character'. The repo note it cites (NPCs - Seaside.md:145) lists 'Fergus (name 1936952712; client entry \"Fergus Plimwiggle\" 1359469969)' as one NPC's client entry. The answer's 'likely distinct' reading contradicts its own cited source. Its 'lamb-themed dialog' detail (locale:35740) was not checked by me.", "fix": "Say the repo note (NPCs - Seaside.md:145) pairs the client entry 'Fergus Plimwiggle' with Fergus. The link is unconfirmed by the pack, so keep it in open as unresolved, not as 'distinct'."}]}

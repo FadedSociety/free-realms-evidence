@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdoggy-viking-helmet-82396-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3666, 4196, 6, 892] model=claude-haiku-5-5 -->
+# Doggy Viking Helmet
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open[0]", "issue": "The coin store price 270 is correctly flagged as unverified, but it is still listed in the evidence and in coin_store_prices of the pack. Nothing in the answer's sources links store item 270 to this helmet, so it must not appear as a source.", "fix": "Keep the 270 price out of sources until stores.json item_id 270 is confirmed as this helmet (its definition_ids 15698, 27643-27653 do not include 270). My search of repo found no stores.json line naming the viking helmet, so it stays unverified."}]}

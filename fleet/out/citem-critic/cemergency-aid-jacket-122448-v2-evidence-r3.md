@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cemergency-aid-jacket-122448-v2-evidence-r3 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3829, 4914, 6, 944] model=claude-haiku-5-5 -->
+# Emergency Aid Jacket
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / stores.json source", "issue": "The answer says stores.json prices for 42449 are unverified and excludes them as sources, which is correct. It does not mention that the same stores.json row carries source_tags (L1, L2, L4, R2, T633, R1) that it never explains. These tags are not evidence of an acquisition source, but a reader could mistake them for one.", "fix": "Add an open note: stores.json row 42449 (line 8000, category 103, tint_group 1) carries unexplained source_tags L1, L2, L4, R2, T633, R1. Their meaning is unknown and they are not counted as sources. Confirmed by search of repo/prototype/osfr-tools/data/content/stores.json."}]}

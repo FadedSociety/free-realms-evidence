@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cintern-infernal-ring-86307-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3908, 6359, 6, 991] model=claude-haiku-5-5 -->
+# Intern Infernal Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor: the cited supporting locale rows (locale:86287, 86323, 86332, 69715) and the claim that the suffix is shared across Hardwood, Granite, Dull, Sneak and other ring families were not re-verified in my pass. They do not affect the item's acquisition answer.", "fix": "Re-check those cited locale ids before relying on the family-tag claim. The core claims hold: lookup of 'Intern Infernal Ring' (client, wiki, articles, video) returns only locale:86307; the Intern family (86305-86313) and Rascal family (86296 onward) exist in the client text table; and a repo search finds no record for definition 22316, store row or vendor/quest reference."}]}

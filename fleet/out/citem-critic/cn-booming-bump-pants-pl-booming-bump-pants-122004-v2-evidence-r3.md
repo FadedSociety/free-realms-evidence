@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-booming-bump-pants-pl-booming-bump-pants-122004-v2-evidence-r3 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4141, 8906, 6, 1402] model=claude-haiku-5-5 -->
+# {n}Booming Bump Pants{pl="Booming Bump Pants"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence / client_definition", "issue": "The answer says the client definition lists 12 definition ids, but the evidence pack's definitions count is 16. Four definitions (the ids beyond the 12 listed) are not accounted for, and the answer does not flag the mismatch. The open list covers 42020-42060 only in part.", "fix": "State both figures: 12 definition ids listed in the pack, 16 definitions in the client definition. Mark the four unlisted definitions as unverified. Source: evidence pack client_definition (definition_ids vs definitions)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmooth-air-necklace-96529-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3693, 7702, 6, 794] model=claude-haiku-5-5 -->
+# Smooth Air Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live / retired", "issue": "The answer leaves live as 'unsure' and retired as null, and lists no sources. My own checks found no wiki page, article, video frame, vendor, quest, drop or event for locale 96529 or def 31123. The only hits were the locale row and an unrelated client-manifest and quest-pack entry. The 'unsure' and null values fit the empty source list, so the answer is honest as far as it goes.", "fix": "No change required. The jev_first_pass 'live: yes' and 'source_guess: drop' are not supported by any source in the pack, and the answer correctly does not use them. Leave the item as unsourced with live unknown until a wiki, quest or vendor source is found."}]}

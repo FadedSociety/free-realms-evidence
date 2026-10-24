@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isnowi-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3236, 5131, 6, 980] model=claude-haiku-5-5 -->
+# Snowi
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "Typo 'runing' in the claim text; the source itself (NPCs - Snowhill.md:32) does say she runs the stage music stand, so the content is supported.", "fix": "Read 'running the stage music stand' (repo notes/Build Guides/Content/NPCs/NPCs - Snowhill.md:32)."}, {"field": "evidence[2]", "issue": "Cites quest strings by locale id only. Checked: 93240 'Return to Snowi' and 93251 'Return to Snowi' are quest_objective strings, 392144 'Speak to Snowi' and 94549 'Talk to Snowi' are objectives, and 395674 is the quest title 'Flex for Snowi'. All are NPC-dialogue quest text, not item rewards, so the NPC-not-item conclusion holds.", "fix": "No change to the conclusion; the cited ids are correct."}]}

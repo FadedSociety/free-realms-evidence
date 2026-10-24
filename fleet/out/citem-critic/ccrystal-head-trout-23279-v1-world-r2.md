@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccrystal-head-trout-23279-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3458, 6032, 6, 799] model=claude-haiku-5-5 -->
+# Crystal Head Trout
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that no acquisition source is evidenced. My own checks agree: lookup over client, wiki, articles and video finds only locale:23279, and the refs and repo searches find no wiki page, vendor, quest reward or fishing row. Nothing in the pack is a clearly evidenced source left out.", "fix": "No change needed. Optional: the asset manifest (osfr-asset-manifest/Assets_manifest.txt, lines 111067-111069) has icon_fish_Crystal_Head_32/64/128.dds, which supports 'a fish' but not a route to obtain it. Note it as supporting context only, not as a source."}]}

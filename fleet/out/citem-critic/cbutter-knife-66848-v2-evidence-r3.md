@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbutter-knife-66848-v2-evidence-r3 status=no_submit turns=3 usd=0.0015 tokens(read,write,in,out)=[9315, 6123, 8, 1294] model=claude-haiku-5-5 -->
+# Butter Knife
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The answer reports item_link 'sanctuary' only for entry 1 (Butter Knife). In the catalogue, all eight Knives entries (item definitions 23235 to 23242) carry item_link 'sanctuary', and the answer does not say so. That makes the field look like a one-off when it is set on the whole set.", "fix": "Note that item_link is 'sanctuary' on all 8 entries (collection_catalogue.json lines 11831-11898), so the field is set uniformly across the set and is not evidence that Butter Knife is a Sanctuary item."}]}

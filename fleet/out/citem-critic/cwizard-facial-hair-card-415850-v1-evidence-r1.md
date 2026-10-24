@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwizard-facial-hair-card-415850-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3965, 6140, 6, 969] model=claude-haiku-5-5 -->
+# Wizard Facial Hair Card
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "The answer marks live as 'yes', but the only support is a repo store row (stores.json:14739, item 68996, category 144, purchase 270, member 243, no_sale true). That row shows the listing exists in the imported data, not that it is sold in the current shop. The answer's own open list admits the live status is unverified.", "fix": "Mark live as 'store-listed (unverified current)' or leave it unknown until a current Coin Shop check. The store row itself is confirmed: item 68996, category 144, 270 coins, 243 member price, no_sale true (stores.json:14739)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=clow-fat-milk-carton-3980-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4075, 9667, 6, 1124] model=claude-haiku-5-5 -->
+# Low Fat Milk Carton
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "The 'Milk Rocks' quest is mentioned as a possible source family. The answer correctly leaves it unlisted, but the claim that Milk Carton (154090) came from Milk Rocks was not re-checked in this pass; I only confirmed the Dares-signed carton prize text at locale 403232/408601 and the Whole Milk Carton wiki page (Category:Unobtainable, 'no longer able to be acquired') in item-packs.json.", "fix": "No change to the answer's sources. Keep Milk Rocks out of Low Fat's sources. If the Milk Carton (154090) claim is kept, cite the wiki 'Milk Carton' page directly."}]}

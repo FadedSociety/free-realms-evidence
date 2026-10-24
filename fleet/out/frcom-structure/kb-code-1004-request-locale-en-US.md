@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=kb-code-1004-request-locale-en-US status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 1893, 4, 590] model=claude-haiku-5-5 -->
+# Free Realms - Error 1004
+
+{"article": {"title": "Free Realms - Error 1004", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "This capture is a generic error page from the freerealms.com knowledgebase (error code 1004) saying there was a problem with the last action and asking the user to retry later. It contains no game content, so it gives a rebuilder no quests, items, prices, events or mechanics.", "facts": [], "quests": [], "uncertain": ["The page has no article date or author. It is only identified as Free Realms by its title and the freerealms.com site furniture, and the body text never names the game.", "The error code 1004 is the only identifier; its meaning beyond the displayed message is not stated on the page."]}

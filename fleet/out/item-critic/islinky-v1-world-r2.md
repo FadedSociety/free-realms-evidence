@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=islinky-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3177, 4827, 6, 1077] model=claude-haiku-5-5 -->
+# Slinky
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "States that Horrible Hiccups rewards 10 coins and Orange-Strapped Flip-Flops. The evidence pack has no reward table, and the wiki quest excerpts I checked show requirements and steps only. The reward text appears only in repo notes (NPCs - Seaside.md:80, citing 'wiki rewards') and in T317 autopilot notes flagged as reward text only. This is an unverified reward claim, though the open list already flags it.", "fix": "Keep the Slinky verdict (NPC, no item acquisition, sources empty). Mark the Horrible Hiccups reward as unverified until a reward table or the wiki Rewards section is pulled. Do not cite it as a source for Slinky or as a coin/Station Cash source."}]}

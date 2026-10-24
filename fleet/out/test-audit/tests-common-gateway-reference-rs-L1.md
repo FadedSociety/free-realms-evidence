@@ -1,0 +1,11 @@
+<!-- fleet job=test-audit id=tests-common-gateway-reference-rs-L1 status=nothing_found turns=6 usd=0.0044 tokens(read,write,in,out)=[43463, 15818, 14, 4035] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/common/gateway_reference.rs lines 1-209 of 209
+
+Reviewed `prototype/osfr-tools/tests/common/gateway_reference.rs` lines 1-209 in full. This file is a fixture module, not a test file: it has no `#[test]` functions and no assertions, so the five categories do not apply to it directly. I checked the parts that could make consumers pass vacuously and found no defect:
+
+- **Offsets stay valid after profile injection.** `self_packet_with_content_profiles` (l.176-209) takes `position_offset`/`rotation_offset` from the unmodified fixture packet and then rebuilds the packet with new profiles. Position and rotation sit in the identity/appearance/transform block, which precedes `jobs` in `startup_selfdata::build_self` layout (see `startup_selfdata_fixture.rs` l.22-34, 67-70, 103-106). Replacing profiles therefore does not shift those offsets, so the manifest offsets stay correct.
+- **Profile prefix matches the consumer.** The helper copies `record[4..equipment_offset]` as `opaque_before_equipment_without_key`. `gateway.rs:1976-1987` (`apply_profile_state`) expects exactly that layout: the content offset includes the 4-byte key, and the typed row stores the prefix after it. The helper's doc comment matches the code.
+- **Zone and template offsets.** `zone_id_offset = 9 + zone.len()` matches the 9-byte template header (3 + u32 length + u16 opcode) plus the preceding zone fields. `guid_offset = 21` matches the 13-byte self header plus the 8-byte unknown identity u64, consistent with the fixture's `13 + body_position_offset` arithmetic.
+- **Cleanup guard.** `Drop` removes only roots whose parent is the temp dir, and every root is created there.
+
+Limitations: `after_equipment_value` and `abilities` are zeroed or emptied for injected profiles rather than copied from content. Nothing in this window asserts on those fields, so this is not a test-gate hole. Out-of-window callers (for example `tests/gateway.rs` l.435-444, which mutates manifest offsets) were not reviewed beyond locating them.

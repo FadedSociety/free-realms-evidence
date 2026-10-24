@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-17650 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2872, 4, 545] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This Wayback copy of a freerealmsforums.com thread URL shows only the vBulletin 'maximum number of posts you can view' error page and the forum index and navigation. It contains no thread posts, guide text, or game information, so it gives a rebuilder nothing usable about how Free Realms played.", "facts": [], "quests": [], "uncertain": ["The thread the URL (p=17650) pointed to is not present in the capture; only the error and forum-navigation chrome were archived.", "The capture date is 2009-05-27, but no article date is shown on the page."]}

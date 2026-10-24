@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chigh-voltage-40927-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3719, 4297, 6, 1071] model=claude-haiku-5-5 -->
+# High Voltage
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "The only source is the collection membership itself, with where, price and currency all null. It says how the item is grouped, not how a player obtains it. Accurate as stated, but it is not an acquisition source, so the item is not wireable from this pack.", "fix": "Keep as an honest unknown. The membership is confirmed by client locale:132349 ('This item can be added to the Sunburst Lanterns Collection') and by the wiki 'List of Collections' page, which lists [Sunburst] [Lanterns]. No coin vendor, quest, drop or event for High Voltage was found in the client, wiki or articles, so no price or source can be cited."}]}

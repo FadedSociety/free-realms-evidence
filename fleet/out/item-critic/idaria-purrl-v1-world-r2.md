@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=idaria-purrl-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3101, 4008, 6, 856] model=claude-haiku-5-5 -->
+# Daria Purrl
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer leaves the Daria pearl quest and its Member Only quest unnamed. I confirmed locale:103032 (quest_dialog) and locale:103033 (quest_objective, 'Pearls from the Cray Caves along the North end of the Beach') and the wiki line 'She gives out a Member Only quest', but no quest title or reward is in the pack.", "fix": "Optional: name the quest from the client quest tables, with its reward if evidenced. The answer is otherwise consistent: Daria Purrl is an NPC (locale:103028 npc_name, wiki Category:NPC), so an item acquisition with no vendor or price is correct and retired null fits."}]}

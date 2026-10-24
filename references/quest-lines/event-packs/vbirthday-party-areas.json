@@ -1,0 +1,42 @@
+{
+ "title": "Birthday party areas",
+ "names_seen": [
+  "Birthday party areas"
+ ],
+ "facts": [
+  {
+   "statement": "Birthday parties were held in Merry Vale, Seaside, Snowhill, Shrouded Glade, Wugachug, Blackspore, Briarwood and Sanctuary; Camellia near the great tree in Sanctuary starts the event.",
+   "numbers": {},
+   "era": "live",
+   "quote": "You can find them in Merry Vale, Seaside, Snowhill, Shrouded Glade, Wugachug, Blackspore, Briarwood and Sanctuary.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1261",
+   "date": null
+  },
+  {
+   "statement": "Birthday parties were held in eight areas: Merry Vale, Seaside, Snowhill, Shrouded Glade, Wugachug, Blackspore, Briarwood and Sanctuary.",
+   "numbers": {
+    "party_areas": 8
+   },
+   "era": "live",
+   "quote": "You can find them in Merry Vale, Seaside, Snowhill, Shrouded Glade, Wugachug, Blackspore, Briarwood and Sanctuary.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2106",
+   "date": "2011-04-21"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1261",
+   "date": null,
+   "title": "Birthday Party For Free Realms",
+   "summary": "SOE's announcement of Free Realms' first-anniversary Birthday Party event, which ran from the posting date until May 10th. It describes party areas across eight zones, birthday quests from Sanctuary NPCs, party items for sale on the Marketplace, and the Cakenstein boss battle. The article gives no exact start date beyond 'today'; the posting date is unknown, though the anniversary falls on April 29th."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2106",
+   "date": "2011-04-21",
+   "title": "2nd Birthday Party For Free Realms",
+   "summary": "Announces Free Realms' 2nd birthday party, running from the post date until May 18 (captured 2011-04-30; the post says 'Posted 1 week, 1 day ago', so the date is inferred and approximate). Covers party areas, Speak-to-Camellia quest hub in Sanctuary, Cakenstein battle, birthday rewards, and Marketplace cakes, crates and pets."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

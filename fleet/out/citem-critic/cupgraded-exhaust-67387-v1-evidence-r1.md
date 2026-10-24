@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cupgraded-exhaust-67387-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3657, 4386, 6, 916] model=claude-haiku-5-5 -->
+# Upgraded Exhaust
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind vs evidence[1]", "issue": "The item is labelled kind 'collection', but evidence claim 2 concludes its kind is 'collection-part'. The two labels conflict, and 'collection-part' is not a kind used elsewhere in the answer.", "fix": "Use one kind. The client supports only that the item is a contributor to the 'Kart Part Upgrades' collection (locale:67587 'Kart Part Upgrades', item-type; locale:132478 'This item can be added to the Kart Part Upgrades Collection'). Either state kind 'collection part' consistently or drop the 'collection' label. The client does not show a reward or sale for it."}]}

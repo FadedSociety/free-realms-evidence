@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-83411 status=nothing_found turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 5897, 4, 564] model=claude-haiku-5-5 -->
+# Alan "Brenlo" Crosby Leaves SOE - New Producer Named | Ten Ton Hammer
+
+{"article": {"title": "Alan \"Brenlo\" Crosby Leaves SOE - New Producer Named", "date": "2010-04-15", "author": "Savanja", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer page is about EverQuest II: SOE producer Alan \"Brenlo\" Crosby left Sony Online Entertainment, and Dave Georgeson was named the new EQII producer. It does not describe Free Realms. The only Free Realms mention is a site sidebar ranking line (\"Free Realms up 11 to #16\"), which is navigation boilerplate and not a game fact.", "facts": [], "quests": [], "uncertain": ["The page has no Free Realms content; the only reference is a MMO ranking sidebar entry, which was excluded."]}

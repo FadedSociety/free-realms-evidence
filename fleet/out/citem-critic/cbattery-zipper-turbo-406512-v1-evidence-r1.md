@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbattery-zipper-turbo-406512-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3766, 5034, 6, 1151] model=claude-haiku-5-5 -->
+# Battery Zipper Turbo
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]/open[2] (class mapping)", "issue": "Not a false claim, but the unresolved conflict is real: the client definition lists class_ids [132], and the notes (041 Racer and derby progression.md:44-46) map 132 to Traction while Turbo is 130. The answer correctly leaves this open. A builder should not rely on the class/slot data for this item until it is resolved.", "fix": "Confirm the item's category against ItemClasses.txt for definition 61042 (class 132 = Traction per notes:46, Turbo = 130). Until then, record the class as unresolved rather than Turbo."}]}

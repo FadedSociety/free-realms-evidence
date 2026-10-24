@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ialienware-t-shirt-v2-world-r2 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[8065, 5398, 8, 1006] model=claude-haiku-5-5 -->
+# Alienware T-Shirt
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / wireable", "issue": "The only source is a promotional key-code giveaway with no price, and its start and end dates are unknown. A builder may not be able to set a purchase price, so the item is only marginally wireable as an event source.", "fix": "Keep the promotion source as the event (Free Realms Coin & Item Giveaway, AlienwareArena.com, 50,000 codes, 1 per account, archive snapshot 2013-10-29). Leave price null and state that the source is an event redemption, not a vendor or Station Cash item."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=article-2937 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2168, 4, 576] model=claude-haiku-5-5 -->
+# Free Realms - What is New?
+
+{"article": {"title": "GameStop & EB Games Father's Day Promotion", "date": null, "author": null, "type": "news"}, "about_free_realms": false, "summary": "This freerealms.com news post advertises a Father's Day retail discount on SOE pre-paid game cards at GameStop and EB Games stores in the USA and Canada (June 14-16, 2013, extended in Canada to June 17). It does not mention Free Realms, its quests, items, or mechanics, so it contributes no game facts for the rebuild.", "facts": [], "quests": [], "uncertain": ["The post date is given only as 'Posted 1 week, 1 day ago' relative to the 2013-06-22 capture, so the exact date is unknown (roughly 2013-06-14).", "The article is a retail promotion for SOE game cards and does not mention Free Realms by name."]}

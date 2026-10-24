@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-82240 status=nothing_found turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 5778, 4, 595] model=claude-haiku-5-5 -->
+# EQ2 Dev Chat - Fans Invited! | Ten Ton Hammer
+
+{"article": {"title": "EQ2 Dev Chat - Fans Invited!", "date": "2010-03-17", "author": "Savanja", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer news post is about EverQuest II. It announces a rescheduled Zam developer chat for March 18, 2010 at 5:00pm PDT on the Zam IRC channel. Free Realms appears only in site navigation (a 'Recently Popular' ranking line and the MMO list), so it has no usable Free Realms content for the rebuild.", "facts": [], "quests": [], "uncertain": ["The only Free Realms mentions are sidebar boilerplate: 'Free Realms up 6 to #16' in the Recently Popular ranking and 'Free Realms' in the MMO list. These are site navigation, not game information, so I did not record them as facts."]}

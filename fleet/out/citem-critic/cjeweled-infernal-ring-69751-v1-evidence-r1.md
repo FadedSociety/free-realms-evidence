@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjeweled-infernal-ring-69751-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3639, 5761, 6, 844] model=claude-haiku-5-5 -->
+# Jeweled Infernal Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the 'open' list says to check the jeweler recipe data, but the answer already concedes the crafting guess is unsupported. This is an honest unknown, not an error, so it does not fail the answer.", "fix": "No change needed. Re-check the client text for a jeweler recipe that names definition 22849 or locale 69751 if one is ever found. My own lookups confirm the pack: repo search for 22849, 69751 and 'Infernal Ring' finds no stock, price or recipe row for this item, and lookup across client, wiki, articles and video returns only locale:69751."}]}

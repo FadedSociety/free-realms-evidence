@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpin-pet-brush-24617-v2-evidence-r3 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3892, 9404, 6, 1539] model=claude-haiku-5-5 -->
+# Pin Pet Brush
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open", "issue": "Checked: locale 2552955626 is 'Pin Pet Brush' (en_us_data.dat:67248, ucdt), and locale 1262888315 is 'Pin Brush' (en_us_data.dat:33446, ucdt). The answer keeps them separate, which is correct. Florina's 'Pin Brush' is item 37012 / locale 116275 (vendors.json:23688-23690; stores.json:17282 at 15 coins, 13 member, 1 sell). The answer does not attach that price to 24617, which is correct. No additional evidence was found that links 24617 to a vendor, quest or drop.", "fix": "No change required for the evidence. Optionally note that the wiki Florina Sells line 'Pin [Brush]' is the only wiki support for the Florina row, and that it names 37012, not 24617."}]}

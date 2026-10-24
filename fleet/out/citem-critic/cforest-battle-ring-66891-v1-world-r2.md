@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cforest-battle-ring-66891-v1-world-r2 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[11863, 8455, 8, 958] model=claude-haiku-5-5 -->
+# Forest Battle Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (wiki List of Collections citation)", "issue": "The claim that the wiki's List of Collections page lists a 'Battle Rings' entry is confirmed (the page shows '[Battle] [Rings]'), but the revision number and date (rev 27852, 2013-07-13) are not in the evidence pack and I could not verify them. It also only shows collection membership, not an acquisition source.", "fix": "Cite the List of Collections page for membership only, and drop the unverified revision and date unless a builder confirms them."}]}

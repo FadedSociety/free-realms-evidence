@@ -1,0 +1,1416 @@
+[
+ {
+  "file": "src/bin/osfr_gateway/f120_fishing_hour_reconnect.rs",
+  "lines": [
+   "379: assert_eq!(coins(&paid), 25);  [jev: reward, fishing reward table / coins payout data]",
+   "380: assert_eq!(fisherman_xp(&paid), 10);  [jev: xp, fishing reward table / fisherman XP data]",
+   "546: assert_eq!(coins(&second.gateway.snapshot()), 25);  [jev: reward, fishing reward table / coins payout data]",
+   "547: assert_eq!(fisherman_xp(&second.gateway.snapshot()), 10);  [jev: xp, fishing reward table / fisherman XP data]",
+   "572: assert_eq!(coins(&second.gateway.snapshot()), 50);  [jev: reward, fishing reward table / coins payout data]",
+   "573: assert_eq!(fisherman_xp(&second.gateway.snapshot()), 20);  [jev: xp, fishing reward table / fisherman XP data]"
+  ]
+ },
+ {
+  "file": "src/bin/osfr_gateway/lead_trade_commit.rs",
+  "lines": [
+   "85: assert_eq!(a.gateway.inventory_state().unwrap().coins, 15);  [jev: price, player starting coins / trade amount fixture]",
+   "86: assert_eq!(taken[0].1.gateway.inventory_state().unwrap().coins, 15);  [jev: price, player starting coins / trade amount fixture]",
+   "87: assert_eq!(saved_coins(&a.state_path), 15);  [jev: price, player starting coins / trade amount fixture]",
+   "88: assert_eq!(saved_coins(&taken[0].1.state_path), 15);  [jev: price, player starting coins / trade amount fixture]",
+   "121: assert_eq!(a.gateway.inventory_state().unwrap().coins, 24);  [jev: reward, trade/quest payout amount fixture]",
+   "122: assert_eq!(taken[0].1.gateway.inventory_state().unwrap().coins, 5);  [jev: reward, trade/quest payout amount fixture]",
+   "168: assert_eq!(saved_coins(&a.state_path), 15);  [jev: price, player starting coins / trade amount fixture]",
+   "169: assert_eq!(saved_coins(&b.state_path), 15);  [jev: price, player starting coins / trade amount fixture]"
+  ]
+ },
+ {
+  "file": "src/bin/osfr_gateway/t020_group_routing.rs",
+  "lines": [
+   "1065: assert_eq!(member_health(&server, keys[1]), 100);  [jev: health, member/npc base health stat data]"
+  ]
+ },
+ {
+  "file": "src/bin/osfr_gateway/t458_world_events.rs",
+  "lines": [
+   "377: assert_eq!(rig.tick(T0 + 500)[0], [removal(first, POOF)]);  [jev: timer, spawn poof / effect duration data]"
+  ]
+ },
+ {
+  "file": "src/encounter/field_rewards.rs",
+  "lines": [
+   "379: assert_eq!(rewards.reward_for(930050, 1), Some((2, 5)));  [jev: reward, field rewards table]",
+   "380: assert_eq!(rewards.reward_for(930050, 3), Some((4, 10)));  [jev: reward, field rewards table]",
+   "381: assert_eq!(rewards.reward_for(3156, 3), Some((1, 3)));  [jev: reward, field rewards table]",
+   "532: assert_eq!(rewards.reward_for(930053, 10), Some((12, 25)));  [jev: reward, field_rewards data reward amount]",
+   "533: assert_eq!(rewards.reward_for(930025, 13), Some((12, 25)));  [jev: reward, field_rewards data reward amount]",
+   "534: assert_eq!(rewards.reward_for(930025, 14), Some((18, 35)));  [jev: reward, field_rewards data reward amount]",
+   "535: assert_eq!(rewards.reward_for(930025, 20), Some((18, 35)));  [jev: reward, field_rewards data reward amount]",
+   "538: assert_eq!(rewards.reward_for(3156, 14), Some((2, 5)));  [jev: reward, field_rewards data reward amount]"
+  ]
+ },
+ {
+  "file": "src/gameplay/movie.rs",
+  "lines": [
+   "159: assert_eq!(wall(&game), before + 250, \"the due tick did not advance\");  [jev: timer, movie scene/cooldown timer config]"
+  ]
+ },
+ {
+  "file": "src/gameplay/s6_characterization.rs",
+  "lines": [
+   "207: assert_eq!(forging.game.forging_tick_ms, Some(NOW + 250));  [jev: timer, forging tick interval]",
+   "242: assert_eq!(harvesting.type8_tick_ms, Some(NOW + 250));  [jev: timer, harvesting tick interval]",
+   "686: assert_eq!(clock(&game), Some(NOW + 250), \"{noun}: an early restamp\");  [jev: timer, activity tick interval]",
+   "726: assert_eq!(game.forging_tick_ms, Some(NOW + 250));  [jev: timer, forging tick interval]",
+   "743: assert_eq!(game.type8_tick_ms, Some(NOW + 250));  [jev: timer, harvesting tick interval]"
+  ]
+ },
+ {
+  "file": "src/gameplay/t013_objective_events.rs",
+  "lines": [
+   "1074: assert_eq!(game.inventory.state().coins, 40);  [jev: reward, quest coin reward]",
+   "1347: assert_eq!(game.job_level(profile), 2, \"75 + 25 XP is rank 2\");  [jev: xp, job level XP thresholds]"
+  ]
+ },
+ {
+  "file": "src/gameplay/w64_regional_quest_tests.rs",
+  "lines": [
+   "1593: assert_eq!(reward.coins, 25);  [jev: reward, quest reward coins]",
+   "1594: assert_eq!(reward.job_xp, 50, \"battles level the combat job\");  [jev: xp, quest reward job_xp]",
+   "2751: assert_eq!((summoner.run_ms, summoner.leash), (4000, 12.0));  [jev: timer, NPC behaviour data (run_ms/leash)]",
+   "2840: assert_eq!(encounter.behaviour(HOOLIGAN).unwrap().move_speed, 6.0);  [jev: rate, NPC behaviour data (move_speed)]",
+   "2848: assert_eq!(encounter.behaviour(100_000_096_001).unwrap().run_ms, 4000);  [jev: timer, NPC behaviour data (run_ms)]"
+  ]
+ },
+ {
+  "file": "tests/abilities.rs",
+  "lines": [
+   "175: assert_eq!(first_aid.effects[0].amount.as_ref().unwrap().value, 250);  [jev: health, abilities data file (first_aid effect amount)]",
+   "242: assert_eq!(target.health, 15);  [jev: health, ability damage value in ability data]",
+   "243: assert_eq!(caster.cooldown_until_ms.get(&0), Some(&200));  [jev: timer, ability cooldown field in ability data]",
+   "307: assert_eq!(target.health, 100);  [jev: health, character/base max health data]",
+   "340: assert_eq!(caster.health, 100);  [jev: health, character/base max health data]"
+  ]
+ },
+ {
+  "file": "tests/bandit_hideout_dungeon.rs",
+  "lines": [
+   "1171: assert_eq!(count_definition(&gateway, filler), filler_before + 2);  [jev: reward, dungeon reward quantity]",
+   "1205: assert_eq!(count_definition(&gateway, filler), filler_before + 2);  [jev: reward, dungeon reward quantity]"
+  ]
+ },
+ {
+  "file": "tests/bixie_hive_dungeon.rs",
+  "lines": [
+   "1323: assert_eq!(coins(&gateway), before.coins + 7);  [jev: reward, coin reward amount in dungeon/quest reward data]",
+   "1325: assert_eq!(live.coins, before.coins + 7);  [jev: reward, coin reward amount in dungeon/quest reward data]"
+  ]
+ },
+ {
+  "file": "tests/blacksmith_first_order.rs",
+  "lines": [
+   "345: assert_eq!(coins(&game), coins_before + 5);  [jev: reward, coin reward amount in order/quest reward data]",
+   "346: assert_eq!(profile_xp(&game, BLACKSMITH), 20);  [jev: xp, XP reward in blacksmith order data]",
+   "424: assert_eq!(coins(&game), coins_before + 5);  [jev: reward, quest reward coin amount]",
+   "425: assert_eq!(profile_xp(&game, BLACKSMITH), 40);  [jev: xp, blacksmith job XP table]",
+   "652: assert_eq!(coins(&reconnect), coins_before + 5);  [jev: reward, quest reward coin amount]",
+   "653: assert_eq!(profile_xp(&reconnect, BLACKSMITH), 20);  [jev: xp, blacksmith job XP table]",
+   "827: assert_eq!(profile_xp(&a, BLACKSMITH), 20);  [jev: xp, blacksmith job XP table]",
+   "828: assert_eq!(profile_xp(&b, BLACKSMITH), 20);  [jev: xp, blacksmith job XP table]",
+   "829: assert_eq!(coins(&a), 100 - 8 * UNIT_PRICE + 5);  [jev: reward, quest reward coin amount]",
+   "830: assert_eq!(coins(&b), 100 - 2 * UNIT_PRICE + 5);  [jev: reward, quest reward coin amount]",
+   "883: assert_eq!(profile_xp(&b, BLACKSMITH), 20);  [jev: xp, blacksmith job XP table]",
+   "884: assert_eq!(coins(&b), 100 - 8 * UNIT_PRICE + 5);  [jev: reward, quest reward coin amount]"
+  ]
+ },
+ {
+  "file": "tests/brawler_job_chain.rs",
+  "lines": [
+   "1200: assert_eq!(state.inventory.coins, initial + 3 * QUEST_REWARD_COINS);  [jev: reward, quest reward coins (QUEST_REWARD_COINS)]",
+   "1357: assert_eq!(state.inventory.coins, initial + 3 * QUEST_REWARD_COINS);  [jev: reward, quest reward coins (QUEST_REWARD_COINS)]"
+  ]
+ },
+ {
+  "file": "tests/brawler_mongo_chain.rs",
+  "lines": [
+   "671: assert_eq!(won.coins, initial.coins + BATTLE_COINS, \"19 coins once\");  [jev: reward, battle reward coins (BATTLE_COINS)]",
+   "672: assert_eq!(won.brawler_xp, initial.brawler_xp + BATTLE_XP, \"50 XP once\");  [jev: xp, battle XP reward]",
+   "1282: assert_eq!(rewards[0][\"job_xp\"][\"43\"], QUEST_XP);  [jev: xp, quest XP reward]"
+  ]
+ },
+ {
+  "file": "tests/chat_settings.rs",
+  "lines": [
+   "371: assert_eq!(allowed, 10, \"burst of 10, then silent drops\");  [jev: rate, chat flood/burst limit config]"
+  ]
+ },
+ {
+  "file": "tests/chess.rs",
+  "lines": [
+   "450: assert_eq!(won.reward_state.unwrap().inventory.state().coins, 7);  [jev: reward, reward table / coins payout for chess win]",
+   "640: assert_eq!(chess::skill_for_row(20), Some(20));  [jev: xp, skill-per-row table (row 20 → skill 20)]",
+   "641: assert_eq!(chess::skill_for_row(66), Some(60));  [jev: xp, skill-per-row table (row 66 → skill 60)]",
+   "642: assert_eq!(chess::skill_for_row(67), Some(100));  [jev: xp, skill-per-row table (row 67 → skill 100)]",
+   "1049: assert_eq!(live.inventory.state().coins, 7);  [jev: reward, reward table / coins payout for chess win]"
+  ]
+ },
+ {
+  "file": "tests/client_areas.rs",
+  "lines": [
+   "110: assert!(halloween(at(2026, 10, 21, 12, 0)));  [jev: timer, halloween event date window (event schedule data)]",
+   "111: assert!(!halloween(at(2026, 9, 19, 23, 59)));  [jev: timer, halloween event date window (event schedule data)]",
+   "112: assert!(halloween(at(2026, 9, 20, 0, 0)), \"the first day is inside\");  [jev: timer, halloween event start date (event schedule data)]",
+   "117: assert!(!halloween(at(2026, 11, 12, 0, 0)));  [jev: timer, halloween event end date (event schedule data)]",
+   "129: assert!(yule(at(2026, 12, 20, 0, 0)) && yule(at(2027, 1, 5, 23, 59)));  [jev: timer, Winterfest/Yule active dates]",
+   "130: assert!(!yule(at(2026, 12, 19, 23, 59)) && !yule(at(2027, 1, 6, 0, 0)));  [jev: timer, Winterfest/Yule active dates]",
+   "159: assert!(west.is_season_active(\"H\", at(2026, 11, 12, 3, 0)));  [jev: timer, H season active window/timezone]",
+   "160: assert!(!utc.is_season_active(\"H\", at(2026, 11, 12, 3, 0)));  [jev: timer, H season active window/timezone]",
+   "161: assert!(east.is_season_active(\"H\", at(2026, 9, 19, 23, 30)));  [jev: timer, H season active window/timezone]",
+   "162: assert!(!utc.is_season_active(\"H\", at(2026, 9, 19, 23, 30)));  [jev: timer, H season active window/timezone]",
+   "232: assert!(areas.season_changes(at(2026, 10, 1, 0, 0)).is_empty());  [jev: timer, season change schedule]",
+   "279: assert!(areas.world_ready_packets(at(2026, 10, 21, 0, 0)).is_empty());  [jev: timer, area season schedule]",
+   "280: assert!(areas.season_changes(at(2026, 10, 21, 0, 0)).is_empty());  [jev: timer, area season schedule]",
+   "282: assert!(!areas.is_season_active(\"Halloween\", at(2026, 10, 21, 0, 0)));  [jev: timer, Halloween event schedule]"
+  ]
+ },
+ {
+  "file": "tests/coin_shop.rs",
+  "lines": [
+   "96: assert_eq!(shop.inventory().state().coins, 100 - 15 * bought);  [jev: price, shop item purchase price (the 15 per item)]",
+   "117: assert_eq!(shop.inventory().state().coins, 87);  [jev: price, shop item purchase price (result of buying at pinned price)]",
+   "366: assert_eq!(shop.inventory().state().coins, 85);  [jev: price, shop item purchase price (coins after purchase)]",
+   "384: assert_eq!(shop.inventory().state().coins, 85);  [jev: price, shop item purchase price (coins after failed/resale flow)]"
+  ]
+ },
+ {
+  "file": "tests/coin_store_siblings.rs",
+  "lines": [
+   "1654: assert_eq!(wallet_balance(&after_reload), 50);  [jev: price, wallet fixture or SC_RIDE_PRICE-derived refund]",
+   "1673: assert_eq!(wallet_balance(&inner_packets(&replay)), 50);  [jev: price, wallet fixture or SC_RIDE_PRICE-derived refund]",
+   "1752: assert_eq!(sold.coins, start.coins + 750);  [jev: reward, item sell price / coin reward data]"
+  ]
+ },
+ {
+  "file": "tests/collection_catalogue.rs",
+  "lines": [
+   "236: assert_eq!(reward(313).items, [item(Some(79446), 12410)]);  [jev: reward, collection reward 313 items]",
+   "237: assert_eq!(reward(313).coins, 12);  [jev: reward, collection reward 313 coins]"
+  ]
+ },
+ {
+  "file": "tests/combat.rs",
+  "lines": [
+   "84: assert_eq!(u32_at(enemy, 16), 4);  [jev: damage, enemy/npc definition data (stat field at offset 16)]",
+   "86: assert_eq!(u32_at(enemy, 37), 4_f32.to_bits());  [jev: rate, enemy definition data (f32 stat, likely speed/rate)]",
+   "92: assert_eq!(u32_at(enemy, 133 + 9 + 10), 8);  [jev: damage, enemy definition data (stat field after name)]",
+   "94: assert_eq!(enemy[250 + 9 + 10], 0x5a);  [jev: health, enemy definition data (value 0x5a=90, likely health/max health)]",
+   "162: assert_eq!(combat.state().enemy_health, 75);  [jev: health, enemy health stat in NPC/combat data]",
+   "163: assert!(!combat.attack([0.0; 3], 1599).changed);  [jev: timer, attack cooldown in combat data]",
+   "164: assert!(!combat.attack([0.0; 3], 999).changed);  [jev: timer, attack cooldown in combat data]",
+   "165: assert!(combat.attack([0.0; 3], 1600).changed);  [jev: timer, attack cooldown in combat data]",
+   "225: assert_eq!(transaction.state().enemy_health, 75);  [jev: health, enemy health stat data]",
+   "229: assert_eq!(restored.state().enemy_health, 75);  [jev: health, enemy health stat data]"
+  ]
+ },
+ {
+  "file": "tests/combat_scale.rs",
+  "lines": [
+   "172: assert_eq!(e.player_health(), (500, 500));  [jev: health, player health stat data]",
+   "179: assert_eq!(combat_scale::base_health(), 500);  [jev: health, combat scale base health data]",
+   "189: assert_eq!(e.player_health(), (500, 500));  [jev: health, player health stat data]",
+   "240: assert_eq!(combat_scale::enemy_health(180), 670);  [jev: health, enemy health scaling data]"
+  ]
+ },
+ {
+  "file": "tests/cooking.rs",
+  "lines": [
+   "316: assert_eq!(t.grants, vec![(35, 1)]);  [jev: reward, recipe grant data]"
+  ]
+ },
+ {
+  "file": "tests/cooking_gameplay.rs",
+  "lines": [
+   "339: assert_eq!(count(&g, 14794), 1);  [jev: reward, Cooking stage item rewards]",
+   "340: assert_eq!(count(&g, 35), 1);  [jev: reward, Cooking stage item rewards]",
+   "345: assert_eq!((count(&restored, 35), count(&restored, 2862)), (1, 0));  [jev: reward, Cooking stage item rewards]"
+  ]
+ },
+ {
+  "file": "tests/cooking_supplies_vendor.rs",
+  "lines": [
+   "417: assert_eq!(store[\"member_price_coins\"], 10, \"{name}: member price\");  [jev: price, Store member_price_coins]",
+   "482: assert_eq!(after.coins, coins - 2 * PRICE, \"server price, not client\");  [jev: price, Vendor price backing PRICE]",
+   "603: assert_eq!(inventory_of(&other).coins, 100 - PRICE);  [jev: price, Vendor price backing PRICE]",
+   "613: assert_eq!(bought.coins, 100 - PRICE);  [jev: price, Vendor price backing PRICE]"
+  ]
+ },
+ {
+  "file": "tests/derby.rs",
+  "lines": [
+   "140: assert_eq!(i32::from_le_bytes(offer[35..39].try_into().unwrap()), 11);  [jev: price, derby offer amount field (likely from derby data file)]",
+   "378: assert_eq!(derby.driver(OWNER).unwrap().score, 2);  [jev: reward, per-event score points (derby scoring data)]",
+   "385: assert_eq!(derby.driver(OTHER).unwrap().health, 20);  [jev: health, derby driver max health (data file)]",
+   "413: assert_eq!(derby.driver(OWNER).unwrap().health, 15);  [jev: health, damage/health values (derby data file)]",
+   "438: assert_eq!(derby.driver(OWNER).unwrap().health, 20);  [jev: health, derby driver max health (data file)]",
+   "470: assert_eq!(derby.driver(OTHER).unwrap().health, 20);  [jev: health, derby driver max health (data file)]",
+   "548: assert_eq!(derby.driver(OTHER).unwrap().health, 20);  [jev: health, derby driver max health (data file)]",
+   "550: assert_eq!(derby.driver(OTHER).unwrap().health, 15);  [jev: health, damage/health values (derby data file)]"
+  ]
+ },
+ {
+  "file": "tests/derby_chapter.rs",
+  "lines": [
+   "613: assert_eq!(live_coins, before_coins + 2 * COMPLETION_COINS);  [jev: reward, COMPLETION_COINS (derby completion reward data)]",
+   "614: assert_eq!(live_xp, before_xp + 2 * COMPLETION_XP);  [jev: xp, COMPLETION_XP (derby completion reward data)]"
+  ]
+ },
+ {
+  "file": "tests/derby_route.rs",
+  "lines": [
+   "1489: assert_eq!(farmed.inventory.coins, before_coins + 2 * COMPLETION_COINS);  [jev: reward, derby completion coin reward data (COMPLETION_COINS)]"
+  ]
+ },
+ {
+  "file": "tests/encounter.rs",
+  "lines": [
+   "449: assert!(!restored.tick([0.0; 3], 43, 9000).unwrap().changed);  [jev: timer, attack cooldown]",
+   "452: assert!(!restored.tick([0.0; 3], 43, 9099).unwrap().changed);  [jev: timer, attack cooldown]",
+   "453: assert!(restored.tick([0.0; 3], 43, 9100).unwrap().changed);  [jev: timer, attack cooldown]",
+   "456: assert!(e.tick([0.0; 3], 43, 6100).unwrap().changed);  [jev: timer, attack cooldown]",
+   "523: assert_eq!(win.rewards[0].coins, 50);  [jev: reward, encounter coin reward]",
+   "524: assert_eq!(win.rewards[0].items, vec![(1195, 1)]);  [jev: reward, encounter item reward quantity]",
+   "693: assert!(!e.attack(201, [0.0; 3], 1, 0, 599).unwrap().changed);  [jev: timer, attack cooldown / weapon cooldown]",
+   "694: assert!(e.attack(201, [0.0; 3], 1, 0, 600).unwrap().changed);  [jev: timer, attack cooldown / weapon cooldown]"
+  ]
+ },
+ {
+  "file": "tests/encounter_job_skills.rs",
+  "lines": [
+   "27: assert_eq!(damage, basic * 3 / 2, \"x1.5 rounds down\");  [jev: damage, damage multiplier / skill power factor]",
+   "111: assert!(again.replies.contains(&vec![36, 0, 1, 0, 31, 1, 0, 0])); // 287 cooldown  [jev: timer, skill cooldown 287]",
+   "173: assert!(hit_damages(&e.tick([0.0; 3], 32, 1900).unwrap()).is_empty());  [jev: timer, job skill tick/activation timer]",
+   "175: assert!(!hit_damages(&e.tick([0.0; 3], 32, 2000).unwrap()).is_empty());  [jev: timer, job skill tick/activation timer]",
+   "288: assert!(hit_damages(&e.job_ability(&a, 100, [0.0; 3], 2, 600).unwrap()).is_empty());  [jev: timer, job ability cooldown/timer]",
+   "290: assert!(hit_damages(&e.job_ability(&a, 100, [0.0; 3], 2, 10000).unwrap()).is_empty());  [jev: timer, job ability cooldown/timer]"
+  ]
+ },
+ {
+  "file": "tests/encounter_score.rs",
+  "lines": [
+   "209: assert_eq!(rows[1].1, [-1, 4, -1, -1, 5000]);  [jev: reward, encounter score reward total]"
+  ]
+ },
+ {
+  "file": "tests/enemies.rs",
+  "lines": [
+   "252: assert_eq!(players[0].health, 75);  [jev: health, enemy attack damage / player health data]",
+   "285: assert_eq!(kill.reward_state.inventory.state().coins, 5);  [jev: reward, enemy kill coin reward table]",
+   "286: assert_eq!(kill.reward_state.profiles.experience[&43], 7);  [jev: xp, enemy kill XP reward table]",
+   "292: assert_eq!(engine.enemy(key, 17).unwrap().respawn_at_ms, Some(600));  [jev: timer, enemy respawn time in spawn/enemy data]",
+   "434: assert_eq!(engine.enemy(public, public_guid).unwrap().health, 30);  [jev: health, enemy max health stat data]",
+   "435: assert_eq!(engine.enemy(private, private_guid).unwrap().health, 40);  [jev: health, enemy max health stat data]"
+  ]
+ },
+ {
+  "file": "tests/farnum_starting_quests.rs",
+  "lines": [
+   "464: assert_eq!(xp_before, 5 * MINING_XP_PER_WIN);  [jev: xp, mining XP per win]"
+  ]
+ },
+ {
+  "file": "tests/field_battle_roster.rs",
+  "lines": [
+   "856: assert_eq!(after.experience, before.experience + 50);  [jev: xp, xp reward data]",
+   "908: assert_eq!(level(&gateway, BRAWLER), 3);  [jev: xp, level/xp threshold data]"
+  ]
+ },
+ {
+  "file": "tests/field_camps_elite_band.rs",
+  "lines": [
+   "419: assert_eq!(row[\"respawn_seconds\"], 180);  [jev: timer, respawn_seconds spawn data]",
+   "434: assert!(evidence.contains(\"180 s respawn\"));  [jev: timer, respawn_seconds spawn data]",
+   "456: assert_eq!(row[\"spawn_area\"][\"radius\"], 6.0);  [jev: rate, spawn_area radius data]",
+   "491: assert!(evidence.contains(\"180 s\"));  [jev: timer, respawn_seconds spawn data]",
+   "528: assert_eq!(row[\"spawn_area\"][\"radius\"], 6.0);  [jev: rate, spawn_area radius data]",
+   "594: assert_eq!(coins, 18);  [jev: reward, quest reward table (coins)]",
+   "595: assert_eq!(xp.get(&43), Some(&35));  [jev: xp, job XP table (job 43)]",
+   "706: assert_eq!(a.state().inventory.coins, 18);  [jev: reward, quest reward table (coins)]",
+   "707: assert_eq!(a.state().profiles.unwrap().experience.get(&43), Some(&35));  [jev: xp, job XP table (job 43)]",
+   "719: assert_eq!(b.state().inventory.coins, 18);  [jev: reward, quest reward table (coins)]",
+   "720: assert_eq!(b.state().profiles.unwrap().experience.get(&43), Some(&35));  [jev: xp, job XP table (job 43)]",
+   "732: assert_eq!(c.state().inventory.coins, 12);  [jev: reward, quest reward table (coins)]",
+   "733: assert_eq!(c.state().profiles.unwrap().experience.get(&43), Some(&25));  [jev: xp, job XP table (job 43)]",
+   "767: assert_eq!(a.state().inventory.coins, 18);  [jev: reward, quest reward table (coins)]",
+   "768: assert_eq!(a.state().profiles.unwrap().experience.get(&43), Some(&35));  [jev: xp, job XP table (job 43)]",
+   "784: assert_eq!(coins, 18);  [jev: reward, quest reward table (coins)]",
+   "785: assert_eq!(xp.get(&35), Some(&35));  [jev: xp, job XP table (job 35)]",
+   "1067: assert_eq!(coins, 2);  [jev: reward, quest reward table (coins)]",
+   "1068: assert_eq!(xp.get(&43), Some(&5));  [jev: xp, job XP table (job 43)]"
+  ]
+ },
+ {
+  "file": "tests/field_camps_high_band.rs",
+  "lines": [
+   "430: assert_eq!(group[\"respawn_seconds\"], if index < 2 { 120 } else { 150 });  [jev: timer, camp data (respawn_seconds)]",
+   "602: assert_eq!(coins, 18);  [jev: reward, job coin payout table]",
+   "603: assert_eq!(xp.get(&43), Some(&35));  [jev: xp, job XP table]",
+   "638: assert_eq!(coins, 18);  [jev: reward, job coin payout table]",
+   "639: assert_eq!(xp.get(&35), Some(&35), \"the active job receives the XP\");  [jev: xp, job XP table]",
+   "681: assert_eq!(a.state().inventory.coins, 12);  [jev: reward, job coin payout table]",
+   "682: assert_eq!(a.state().profiles.unwrap().experience.get(&43), Some(&25));  [jev: xp, job XP table]",
+   "694: assert_eq!(b.state().inventory.coins, 12);  [jev: reward, job coin payout table]",
+   "695: assert_eq!(b.state().profiles.unwrap().experience.get(&43), Some(&25));  [jev: xp, job XP table]",
+   "716: assert_eq!(game.state().inventory.coins, 18);  [jev: reward, job coin payout table]",
+   "770: assert_eq!(a.state().inventory.coins, 18, \"the killer is paid at once\");  [jev: reward, job coin payout table]",
+   "833: assert_eq!(a.state().inventory.coins, 18);  [jev: reward, job coin payout table]",
+   "834: assert_eq!(a.state().profiles.unwrap().experience.get(&43), Some(&35));  [jev: xp, job XP table]",
+   "848: assert_eq!(b.state().inventory.coins, 18);  [jev: reward, job coin payout table]",
+   "849: assert_eq!(b.state().profiles.unwrap().experience.get(&43), Some(&35));  [jev: xp, job XP table]"
+  ]
+ },
+ {
+  "file": "tests/field_kill_rewards.rs",
+  "lines": [
+   "155: assert_eq!(coins, 2);  [jev: reward, kill reward data (coins)]",
+   "156: assert_eq!(xp.get(&43), Some(&5));  [jev: xp, kill reward data (xp per job)]",
+   "214: assert_eq!(game.state().inventory.coins, 2);  [jev: reward, kill reward data (coins)]",
+   "261: assert_eq!(a.state().inventory.coins, 2);  [jev: reward, kill reward data (coins)]",
+   "262: assert_eq!(a.state().profiles.unwrap().experience.get(&43), Some(&5));  [jev: xp, kill reward data (xp per job)]",
+   "283: assert_eq!(paid.0, 2);  [jev: reward, kill reward data (coins)]",
+   "284: assert_eq!(paid.1.get(&35), Some(&5));  [jev: xp, kill reward data (xp per job)]",
+   "290: assert_eq!(a.state().inventory.coins, 2);  [jev: reward, kill reward data (coins)]",
+   "417: assert_eq!(a.state().profiles.unwrap().experience.get(&43), Some(&2));  [jev: xp, kill reward data (xp per job)]",
+   "434: assert_eq!(b_after.0, b_coins + 1000);  [jev: reward, kill/battle coin reward data]",
+   "435: assert_eq!(b_after.1.get(&43), Some(&1));  [jev: xp, job 43 kill xp reward data]",
+   "444: assert_eq!(c.state().profiles.unwrap().experience.get(&43), Some(&2));  [jev: xp, job 43 kill xp reward data]",
+   "478: assert_eq!(a.state().profiles.unwrap().experience.get(&43), Some(&1000));  [jev: xp, job switch xp grant data]",
+   "564: assert_eq!(fresh.state().inventory.coins, 9);  [jev: reward, coin payout data]",
+   "583: assert_eq!(b.state().inventory.coins, 2);  [jev: reward, coin payout data]",
+   "584: assert_eq!(b.state().profiles.unwrap().experience.get(&43), Some(&5));  [jev: xp, kill xp reward data]",
+   "637: assert_eq!(b.state().inventory.coins, 2);  [jev: reward, coin payout data]",
+   "784: assert_eq!(state.inventory.coins, 25, \"battle 12310 pays its 25 coins\");  [jev: reward, battle 12310 reward data]"
+  ]
+ },
+ {
+  "file": "tests/fisherman_entry_chain.rs",
+  "lines": [
+   "569: assert_eq!(rig.coins(), coins + 10);  [jev: reward, fisherman quest coin reward data]",
+   "570: assert_eq!(rig.fisherman_xp(), xp + 25);  [jev: xp, fisherman quest xp reward data]",
+   "608: assert_eq!(rig.fisherman_xp(), xp + 25);  [jev: xp, job xp reward data (fisherman xp)]",
+   "674: assert_eq!(rig.coins(), coins + 10);  [jev: reward, coin reward data]",
+   "675: assert_eq!(rig.fisherman_xp(), xp + 25);  [jev: xp, job xp reward data (fisherman xp)]",
+   "694: assert_eq!(rig.coins(), coins + 10, \"the catch pays no coins\");  [jev: reward, coin reward data]",
+   "704: assert_eq!(rig.coins(), coins + 10);  [jev: reward, coin reward data]",
+   "708: assert_eq!(rig.coins(), coins + 20);  [jev: reward, coin reward data]",
+   "709: assert_eq!(rig.fisherman_xp(), xp + 60);  [jev: xp, job xp reward data (fisherman xp)]",
+   "723: assert_eq!(rig.coins(), coins + 20);  [jev: reward, coin reward data]",
+   "724: assert_eq!(rig.fisherman_xp(), xp + 60);  [jev: xp, job xp reward data (fisherman xp)]",
+   "901: assert_eq!(rig.fisherman_xp(), xp + 10);  [jev: xp, job xp reward data (fisherman xp)]",
+   "1025: assert_eq!(rewards[0][\"coins\"], json!(10));  [jev: reward, rewards[0][\"coins\"] in quest/mission data JSON]",
+   "1027: assert_eq!(rewards[0][\"job_xp\"], json!({\"137\": 25}));  [jev: xp, rewards[0][\"job_xp\"] in quest/mission data JSON]",
+   "1072: assert_eq!(first.coins(), first_coins + 10);  [jev: reward, coin reward data]",
+   "1073: assert_eq!(second.coins(), second_coins + 10);  [jev: reward, coin reward data]",
+   "1074: assert_eq!(first.fisherman_xp(), first_xp + 25);  [jev: xp, job xp reward data (fisherman xp)]",
+   "1075: assert_eq!(second.fisherman_xp(), second_xp + 35);  [jev: xp, job xp reward data (fisherman xp)]"
+  ]
+ },
+ {
+  "file": "tests/fishing_entry.rs",
+  "lines": [
+   "330: assert_eq!(row[\"fisherman_xp\"], json!(10), \"the previous (R) policy\");  [jev: xp, fisherman_xp payout data]",
+   "761: assert_eq!(round.fisherman_xp(), 10);  [jev: xp, fisherman_xp payout data]",
+   "780: assert_eq!(round.fisherman_xp(), 10 * caught);  [jev: xp, fisherman_xp per-catch payout]",
+   "792: assert_eq!(round.fisherman_xp(), 10 * caught);  [jev: xp, fisherman_xp per-catch payout]",
+   "826: assert_eq!(round.coins(), grade * 10, \"the caught grade's coin row\");  [jev: reward, payout by_grade coin row]",
+   "864: assert_eq!(round.fisherman_xp(), 20);  [jev: xp, fisherman_xp payout data]",
+   "1223: assert_eq!(round.fisherman_xp(), 10);  [jev: xp, fishing XP reward data]"
+  ]
+ },
+ {
+  "file": "tests/fishing_review.rs",
+  "lines": [
+   "289: assert_eq!(body.at_38, 1.25);  [jev: timer, decoded packet body field (likely from fishing data)]",
+   "291: assert_eq!(body.at_40, 2.5);  [jev: timer, decoded packet body field (likely from fishing data)]",
+   "299: assert_eq!(body.at_7c, 3.75);  [jev: timer, decoded packet body field (likely from fishing data)]"
+  ]
+ },
+ {
+  "file": "tests/fishing_service.rs",
+  "lines": [
+   "216: assert_eq!(body.at_18, 5);  [jev: timer, packet body field (likely from fishing data)]"
+  ]
+ },
+ {
+  "file": "tests/forging.rs",
+  "lines": [
+   "409: assert_eq!(a.score, 400);  [jev: reward, minigame scoring data]",
+   "455: assert_eq!(tx.grants, [(30280, 1)]);  [jev: reward, recipe grant/reward data]",
+   "545: assert_eq!(out.transaction.unwrap().grants, [(30280, 1)]);  [jev: reward, forging recipe grants]"
+  ]
+ },
+ {
+  "file": "tests/forging_gameplay.rs",
+  "lines": [
+   "347: assert!(loss.tick_at(181001).unwrap().state_changed);  [jev: timer, forging loss timeout]"
+  ]
+ },
+ {
+  "file": "tests/free_revive.rs",
+  "lines": [
+   "208: assert!(untouched(&e.tick([0.0; 3], 11, 15_100).unwrap()));  [jev: timer, free revive delay]",
+   "285: assert!(out.feedback.as_deref().unwrap().contains(\"1000 coins\"));  [jev: price, paid revive coin cost]",
+   "326: assert!(refused(&out, \"1000 coins\"));  [jev: price, paid revive coin cost]",
+   "331: assert!(e.tick([0.0; 3], 11, 17_100).unwrap().zoning.is_some());  [jev: timer, free revive delay]",
+   "358: assert_eq!(i32::from_le_bytes(offered[16..20].try_into().unwrap()), 250);  [jev: price, paid revive coin cost]",
+   "359: assert_eq!(e.paid_revive(249, 200).1, 0);  [jev: price, paid revive coin cost]",
+   "360: assert_eq!(e.paid_revive(250, 300).1, 250);  [jev: price, paid revive coin cost]"
+  ]
+ },
+ {
+  "file": "tests/gameplay.rs",
+  "lines": [
+   "103: assert_eq!(progress.inventory.coins, 25);  [jev: reward, inventory.coins starting currency/reward data]",
+   "136: assert!(gateway.handle_at(&bundle, clock + 1600).is_err());  [jev: timer, bundle/session expiry timeout]"
+  ]
+ },
+ {
+  "file": "tests/gathering_nodes.rs",
+  "lines": [
+   "624: assert_eq!(xp(&gateway, MINING), 25, \"(R) Miner XP per win\");  [jev: xp, Miner XP per win]",
+   "780: assert_eq!(ore(&gateway, game), vec![2; game.goals]);  [jev: reward, gathering ore reward per goal]"
+  ]
+ },
+ {
+  "file": "tests/gathering_payout.rs",
+  "lines": [
+   "512: assert_eq!(subs(&results), vec![18, 47, 19], \"{} results\", game.name);  [jev: reward, gathering payout table]",
+   "539: assert_eq!(ore(&gateway, game), vec![2; game.goals]);  [jev: reward, gathering ore reward per goal]",
+   "547: assert_eq!(ore(&gateway, game), vec![2; game.goals]);  [jev: reward, gathering payout table (ore amount per goal)]"
+  ]
+ },
+ {
+  "file": "tests/harvesting.rs",
+  "lines": [
+   "21: assert_eq!(row.spawn_chance, 25);  [jev: rate, harvesting spawn_chance]",
+   "29: assert_eq!(row.per_reward, 5);  [jev: reward, harvesting per_reward]",
+   "43: assert_eq!(row.duration, 180);  [jev: timer, harvesting duration]",
+   "45: assert_eq!(row.collectable_spawn, 10);  [jev: rate, harvesting collectable_spawn]",
+   "47: assert_eq!(row.selectable_spawn, 80);  [jev: rate, harvesting selectable_spawn]",
+   "48: assert_eq!(row.powerup_spawn, 10);  [jev: rate, harvesting powerup_spawn]",
+   "50: assert_eq!(row.blocker_spawn, 5);  [jev: rate, harvesting blocker_spawn]",
+   "51: assert_eq!(row.wildcard_spawn, 5);  [jev: rate, harvesting wildcard_spawn]",
+   "70: assert!((timer.chain_m - 3.0).abs() < f64::EPSILON);  [jev: rate, chain multiplier field in harvesting data]",
+   "71: assert!((timer.chain_f - 0.2).abs() < f64::EPSILON);  [jev: rate, chain falloff field in harvesting data]",
+   "166: assert_eq!(chain_score(3), 400);  [jev: reward, chain score table]",
+   "167: assert_eq!(chain_score(4), 600);  [jev: reward, chain score table]",
+   "168: assert_eq!(chain_score(12), 2200);  [jev: reward, chain score table]",
+   "170: assert_eq!(chain_time_bonus_seconds(3), 6);  [jev: timer, chain time bonus table]",
+   "173: assert_eq!(collectable_score(1, 15), 500);  [jev: reward, collectable score table]",
+   "174: assert_eq!(collectable_score(15, 15), 1000);  [jev: reward, collectable score table]",
+   "175: assert_eq!(collectable_score(16, 15), 1000);  [jev: reward, collectable score table]",
+   "176: assert_eq!(collectable_score(1, 0), 500);  [jev: reward, collectable score table]",
+   "259: assert_eq!(CHAIN_SCORE, 400);  [jev: reward, harvesting scoring config]",
+   "260: assert_eq!(CHAIN_BONUS_TILE_SCORE, 200);  [jev: reward, harvesting scoring config]",
+   "261: assert_eq!(COLLECTABLE_SCORE, 500);  [jev: reward, harvesting scoring config]",
+   "262: assert_eq!(BONUS_SCORE, 2000);  [jev: reward, harvesting scoring config]",
+   "263: assert_eq!(POWERUP_SCORE, 250);  [jev: reward, harvesting scoring config]",
+   "264: assert_eq!(REMAINING_TIME_SCORE, 25);  [jev: reward, harvesting scoring config]",
+   "558: assert_eq!(c.spec.wildcard_percent, 5);  [jev: rate, harvesting spec wildcard_percent]"
+  ]
+ },
+ {
+  "file": "tests/harvesting_lifecycle.rs",
+  "lines": [
+   "449: assert_eq!(bundles, 5, \"one five-bundle completion per regional goal\");  [jev: reward, regional goal reward bundles]",
+   "579: assert_eq!(spec.duration_seconds, 120);  [jev: timer, spec.duration_seconds]"
+  ]
+ },
+ {
+  "file": "tests/investigate_the_wolves.rs",
+  "lines": [
+   "274: assert_eq!(u32_at(packet, 32), COINS, \"49/1 displayed coins\");  [jev: reward, quest reward coins in quest data]",
+   "275: assert_eq!(u32_at(packet, 36), 0, \"49/1 displayed XP stars\");  [jev: xp, quest reward XP in quest data]",
+   "515: assert_eq!(coins(&game), coins_before + COINS, \"49/14 pays 20 coins\");  [jev: reward, quest 49/14 coin reward]",
+   "983: assert_eq!(coins(&game), coins_before + 100);  [jev: reward, quest coin payout]"
+  ]
+ },
+ {
+  "file": "tests/item_bar.rs",
+  "lines": [
+   "394: assert_eq!(reply.heal_percent, 35);  [jev: health, item heal percentage field]",
+   "435: assert_eq!(reply.heal_percent, 35);  [jev: health, item heal percentage field]",
+   "454: assert_eq!(reply.heal_percent, 35);  [jev: health, item heal percentage field]",
+   "536: assert_eq!((reply.heal_percent, count(&inventory, 10)), (35, 2));  [jev: health, item heal percentage field]"
+  ]
+ },
+ {
+  "file": "tests/item_bar_gameplay.rs",
+  "lines": [
+   "118: assert_eq!(now as u32, (hurt + max as u32 * 35 / 100).min(max as u32));  [jev: health, consumables heal percent]"
+  ]
+ },
+ {
+  "file": "tests/job_level_quest.rs",
+  "lines": [
+   "317: assert_eq!(profile_xp(&game, WARRIOR), 300);  [jev: xp, job level XP requirement table]",
+   "604: assert_eq!(coins(&game), before + 7);  [jev: reward, quest reward coin amount]",
+   "887: assert_eq!(end_screen_reward(&end), (0, 100));  [jev: reward, quest end-screen reward data]"
+  ]
+ },
+ {
+  "file": "tests/job_trainers.rs",
+  "lines": [
+   "1541: assert_eq!(before.get(&35), Some(&400), \"the prerequisite was not\");  [jev: xp, job prerequisite XP reward data]",
+   "1695: assert_eq!(xp(&a_state, 35), 400);  [jev: xp, job XP reward data]",
+   "1696: assert_eq!(xp(&b_state, 35), 300);  [jev: xp, job XP reward data]"
+  ]
+ },
+ {
+  "file": "tests/kart_gameplay.rs",
+  "lines": [
+   "241: assert_eq!(after.inventory.coins, before.inventory.coins + 50);  [jev: reward, race reward table (coin payout)]",
+   "251: assert_eq!(xp(&after), xp(&before) + 25);  [jev: xp, race reward table (XP payout)]",
+   "766: assert!(g.handle_at(&wrap(&[41, 0, 108, 0]), 90_000).is_err());  [jev: timer, kart race timeout/duration]",
+   "789: assert!(g.handle_at(&wrap(&[33, 0, 9, 0]), 1600).is_err());  [jev: timer, kart ability cooldown/timing]",
+   "1222: assert_eq!(&xp_packet[4..16], &[48, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]);  [jev: xp, kart race XP reward table]"
+  ]
+ },
+ {
+  "file": "tests/kart_lobby_gameplay.rs",
+  "lines": [
+   "204: assert!(gateway.handle_at(&wrap(&[102, 0, 1, 0, 0]), 4_000).is_err());  [jev: timer, kart lobby timeout]"
+  ]
+ },
+ {
+  "file": "tests/kart_npc_entry.rs",
+  "lines": [
+   "654: assert_eq!(g.admit_at(GATE_NPC, false, paid + 600), Ok(()));  [jev: timer, gate admission timer config]",
+   "704: assert_eq!((coins(&inventory), xp(&profiles)), (40, 60));  [jev: reward, kart entry reward config (coins/xp payout)]",
+   "726: assert_eq!((coins(&inventory), xp(&profiles)), (40, 60));  [jev: reward, kart entry reward config (coins/xp payout)]",
+   "746: assert_eq!((coins(&inventory), xp(&profiles)), (40, 60));  [jev: reward, kart entry reward config (coins/xp payout)]",
+   "1220: assert_eq!(race_clock(&game), green + 100);  [jev: timer, race start/clock duration data]",
+   "1261: assert_eq!(race_clock(&restored), green + 150);  [jev: timer, race clock duration data]",
+   "1281: assert_eq!(game.state().inventory.coins, coins + 40);  [jev: reward, kart entry coin reward config]"
+  ]
+ },
+ {
+  "file": "tests/kart_pickups.rs",
+  "lines": [
+   "119: assert_eq!((EXPIRE_SUBTYPE, SHIELD_EXPIRE_VALUE), (21, 4));  [jev: timer, kart pickup shield duration config]",
+   "217: assert_eq!(fresh.commit(staged, 1_000, 600_000).unwrap().len(), 2);  [jev: timer, kart commit args (likely payout/cooldown params from kart pickup data)]"
+  ]
+ },
+ {
+  "file": "tests/kart_racing.rs",
+  "lines": [
+   "596: assert_eq!(snapshot.reward, Some(RewardSchedule { coins: 10, xp: 25 }));  [jev: reward, kart race rewards]"
+  ]
+ },
+ {
+  "file": "tests/kart_review.rs",
+  "lines": [
+   "240: assert_eq!(row0, (1, 1, 1, 37, 3030));  [jev: price, kart data table row (id 37, value 3030)]",
+   "500: assert_eq!(first.reward, RewardProposal::Granted { coins: 10, xp: 25 });  [jev: reward, kart reward data table (coins/xp grant)]",
+   "501: assert_eq!(second.reward, RewardProposal::Granted { coins: 10, xp: 25 });  [jev: reward, kart reward data table (coins/xp grant)]",
+   "541: assert_eq!(snapshot.reward, Some(RewardSchedule { coins: 10, xp: 25 }));  [jev: reward, kart reward data table (RewardSchedule)]"
+  ]
+ },
+ {
+  "file": "tests/kart_weapons.rs",
+  "lines": [
+   "319: assert!(state.tick(RACE_START + 99, Some(&fresh)).is_empty());  [jev: timer, mine arm/trigger delay in weapon data]",
+   "352: assert!((update.matrix[14] - (MISSILE_CREATE_FORWARD_M + 2.0 * expected)).abs() < 1e-3);  [jev: rate, missile speed/travel constant]",
+   "368: assert!((terminal.matrix[14] - (MISSILE_CREATE_FORWARD_M + full_flight)).abs() < 1e-2);  [jev: timer, missile flight speed/lifetime]"
+  ]
+ },
+ {
+  "file": "tests/l052_staff_jobs.rs",
+  "lines": [
+   "364: assert_eq!(profiles[\"experience\"], json!({real_job.to_string(): 200}));  [jev: xp, job experience table / activity XP award]"
+  ]
+ },
+ {
+  "file": "tests/live_events.rs",
+  "lines": [
+   "285: assert_eq!(coins(&hunter), 50);  [jev: reward, event/quest reward table (coin payout)]",
+   "286: assert_eq!(profile_xp(&hunter, ADVENTURER), 25);  [jev: xp, event/quest XP reward table]"
+  ]
+ },
+ {
+  "file": "tests/login_auth.rs",
+  "lines": [
+   "25: assert!(!limits.allow(hash, now + Duration::from_secs(59)));  [jev: timer, rate-limit window config]",
+   "41: assert!(limits.allow([255; 32], later + Duration::from_secs(600)));  [jev: timer, rate-limit window config]"
+  ]
+ },
+ {
+  "file": "tests/medic_level_five_chapter.rs",
+  "lines": [
+   "1084: assert_eq!(medic_xp(&first), 425);  [jev: xp, medic job xp]",
+   "1085: assert_eq!(medic_xp(&second), 425);  [jev: xp, medic job xp]"
+  ]
+ },
+ {
+  "file": "tests/miner_first_ore.rs",
+  "lines": [
+   "341: assert_eq!(end_screen_reward(&end), (5, 15), \"49/13 reward bundle\");  [jev: reward, end screen reward bundle]",
+   "344: assert_eq!(profile_xp(&game, MINER), miner_after_mining + 15);  [jev: xp, miner job xp reward]",
+   "392: assert_eq!(end_screen_reward(&end), (5, 15));  [jev: reward, end screen reward bundle]",
+   "446: assert_eq!(end_screen_reward(&end), (5, 15));  [jev: reward, end screen reward bundle]",
+   "467: assert_eq!(coins_after, coins_before + 5);  [jev: reward, quest coin reward]",
+   "468: assert_eq!(xp_after, xp_before + 15);  [jev: xp, quest xp reward]",
+   "550: assert_eq!(end_screen_reward(&end), (5, 15));  [jev: reward, end screen reward bundle]",
+   "563: assert_eq!(coins(&game), coins_before + 5, \"the coins still pay\");  [jev: reward, quest coin reward]",
+   "756: assert_eq!(end_screen_reward(&end_b), (5, 15));  [jev: reward, end screen reward bundle]",
+   "795: assert_eq!(end_screen_reward(&end_a), (5, 15));  [jev: reward, end screen reward bundle]",
+   "798: assert_eq!(coins(&a), 5, \"each Miner is paid its own quest\");  [jev: reward, quest coin reward]",
+   "799: assert_eq!(coins(&b), 5);  [jev: reward, quest coin reward]",
+   "977: assert_eq!(rewards[0][\"coins\"], json!(5));  [jev: reward, quest reward data (rewards[0].coins)]",
+   "979: assert_eq!(rewards[0][\"job_xp\"], json!({\"14\": 15}));  [jev: xp, quest reward data (rewards[0].job_xp)]",
+   "1101: assert_eq!(coins(&game), 5);  [jev: reward, quest reward data (coins)]",
+   "1102: assert_eq!(profile_xp(&game, MINER), MINING_XP_PER_WIN + 15);  [jev: xp, quest reward data (job_xp 15)]",
+   "1133: assert_eq!(coins(&game), 5);  [jev: reward, quest reward data (coins)]",
+   "1134: assert_eq!(profile_xp(&game, MINER), MINING_XP_PER_WIN + 15);  [jev: xp, quest reward data (job_xp 15)]",
+   "1242: assert_eq!(end_screen_reward(&end), (5, 15), \"49/13 reward bundle\");  [jev: reward, quest reward bundle (coins/xp)]",
+   "1249: assert_eq!(coins(&game), coins_before + 5, \"exactly 5 coins\");  [jev: reward, quest reward data (coins)]",
+   "1276: assert_eq!(coins(&game), coins_before + 5);  [jev: reward, quest reward data (coins)]",
+   "1277: assert_eq!(profile_xp(&game, MINER), xp_before + 15);  [jev: xp, quest reward data (job_xp 15)]",
+   "1307: assert_eq!(end_screen_reward(&end), (5, 15));  [jev: reward, quest reward bundle (coins/xp)]",
+   "1467: assert_eq!(end_screen_reward(&end), (5, 15));  [jev: reward, quest reward bundle (coins/xp)]",
+   "1490: assert_eq!(coins(&game), coins_before + 5);  [jev: reward, quest reward data (coins)]",
+   "1491: assert_eq!(profile_xp(&game, MINER), xp_before + 15);  [jev: xp, quest reward data (job_xp 15)]",
+   "1554: assert_eq!(end_screen_reward(&end_a), (5, 15));  [jev: reward, quest reward bundle (coins/xp)]",
+   "1581: assert_eq!(end_screen_reward(&end_b), (5, 15));  [jev: reward, quest reward bundle (coins/xp)]",
+   "1586: assert_eq!(coins(&a), 10);  [jev: reward, quest reward data (coins, two completions)]",
+   "1587: assert_eq!(coins(&b), 10);  [jev: reward, minigame reward data (coins)]",
+   "1588: assert_eq!(profile_xp(&a, MINER), MINING_XP_PER_WIN + 30);  [jev: xp, job XP reward data]",
+   "1589: assert_eq!(profile_xp(&b, MINER), MINING_XP_PER_WIN + 30);  [jev: xp, job XP reward data]",
+   "1614: assert_eq!(rewards[0][\"coins\"], json!(5));  [jev: reward, reward table / coins field]",
+   "1616: assert_eq!(rewards[0][\"job_xp\"], json!({\"14\": 15}));  [jev: xp, reward table / job_xp field]",
+   "1756: assert_eq!(coins(&game), 5);  [jev: reward, minigame reward data (coins)]",
+   "1892: assert_eq!(end_screen_reward(&end), (5, 20), \"49/13 reward bundle\");  [jev: reward, reward data (coins + job XP)]",
+   "1896: assert_eq!(profile_xp(&game, MINER), xp_after_mining + 20);  [jev: xp, job XP reward data]",
+   "1907: assert_eq!(coins(&game), coins_before + 5);  [jev: reward, minigame reward data (coins)]",
+   "1908: assert_eq!(profile_xp(&game, MINER), xp_after_mining + 20);  [jev: xp, job XP reward data]",
+   "2097: assert_eq!(rewards[0][\"coins\"], json!(5));  [jev: reward, reward table / coins field]",
+   "2099: assert_eq!(rewards[0][\"job_xp\"], json!({\"14\": 20}));  [jev: xp, reward table / job_xp field]",
+   "2210: assert_eq!(end_screen_reward(&end), (5, 20));  [jev: reward, reward data (coins + job XP)]",
+   "2247: assert_eq!(coins(game), 15);  [jev: reward, minigame reward coins]",
+   "2248: assert_eq!(profile_xp(game, MINER), 2 * MINING_XP_PER_WIN + 50);  [jev: xp, mining xp per win / first-ore bonus xp]"
+  ]
+ },
+ {
+  "file": "tests/minigame.rs",
+  "lines": [
+   "294: assert_eq!(won.reward_packets[0], [38, 0, 19, 0, 15, 0, 0, 0]);  [jev: reward, minigame reward coins (embedded in packet)]",
+   "297: assert_eq!(committed_reward.inventory.state().coins, 15);  [jev: reward, minigame reward coins]",
+   "573: assert_eq!(twice.inventory.state().coins, 15);  [jev: reward, minigame coin reward data]"
+  ]
+ },
+ {
+  "file": "tests/mining.rs",
+  "lines": [
+   "390: assert_eq!(run.remaining_ms, before + 6000);  [jev: timer, mining time bonus data]",
+   "391: assert_eq!(run.score, 400);  [jev: reward, mining score data]",
+   "812: assert_eq!(spec.collectable_percent, 40);  [jev: rate, mining collectable percent data]"
+  ]
+ },
+ {
+  "file": "tests/mining_dead_board.rs",
+  "lines": [
+   "281: assert_eq!(run.score, 3500);  [jev: reward, mining score data]"
+  ]
+ },
+ {
+  "file": "tests/mining_lifecycle.rs",
+  "lines": [
+   "450: assert_eq!(count_item(&rewards.inventory.state(), ORE_ITEM), 12);  [jev: reward, ORE_ITEM reward amount]"
+  ]
+ },
+ {
+  "file": "tests/mining_review.rs",
+  "lines": [
+   "713: assert_eq!(spec.collectable_percent, 40);  [jev: rate, mining spec collectable_percent]"
+  ]
+ },
+ {
+  "file": "tests/missing_sisters_quest.rs",
+  "lines": [
+   "118: assert_eq!(group[\"respawn_seconds\"], json!(45));  [jev: timer, group respawn_seconds in quest/zone data]",
+   "147: assert_eq!(enemy[\"max_health\"], json!(100), \"starter wolf HP\");  [jev: health, enemy max_health in quest enemy data]",
+   "148: assert_eq!(enemy[\"damage\"], json!(7), \"starter wolf damage\");  [jev: damage, enemy damage in quest enemy data]"
+  ]
+ },
+ {
+  "file": "tests/mount_stats.rs",
+  "lines": [
+   "531: assert!(MountCatalog::new(types.clone(), vec![with_stats], 8.0, RideStats::default()).is_err());  [jev: rate, mount speed (types config / RideStats)]",
+   "532: assert!(MountCatalog::new(types.clone(), vec![wolf.clone()], 8.0, nan).is_err());  [jev: rate, mount speed (types config / RideStats)]",
+   "542: assert!(MountCatalog::new(types, vec![wolf], 8.0, RideStats::default()).is_ok());  [jev: rate, mount speed (types config / RideStats)]"
+  ]
+ },
+ {
+  "file": "tests/movement.rs",
+  "lines": [
+   "994: assert_eq!(multiplier(Some(64.0)), 1.5, \"capped\");  [jev: rate, speed modifier cap constant/config]",
+   "995: assert_eq!(SpeedModifiers::riding(None).base_speed_per_second, 10.0);  [jev: rate, riding base speed data]"
+  ]
+ },
+ {
+  "file": "tests/npc_interaction.rs",
+  "lines": [
+   "160: assert_eq!(shop.inventory().state().coins, 85);  [jev: price, shop item price data (coins paid)]",
+   "176: assert_eq!(shop.inventory().state().coins, 70);  [jev: price, shop item price data (coins paid)]",
+   "657: assert_eq!(window.items[0].purchase_price_coins, Some(15));  [jev: price, vendor shop purchase_price_coins]"
+  ]
+ },
+ {
+  "file": "tests/opening.rs",
+  "lines": [
+   "111: assert_eq!(result.rewards[0].coins, 25);  [jev: reward, opening quest rewards coins]",
+   "130: assert_eq!(result.rewards[0].coins, 10);  [jev: reward, quest reward coins]",
+   "326: assert_eq!(engine.initial_profiles(), &[1, 43]);  [jev: reward, quest reward coins]",
+   "333: assert_eq!(weapon[\"reward\"][\"items\"], serde_json::json!([[75030, 1]]));  [jev: reward, quest reward coins]"
+  ]
+ },
+ {
+  "file": "tests/opening_journal.rs",
+  "lines": [
+   "364: assert_eq!(i32le(&mut reader), 10);  [jev: reward, quest reward (XP) data]",
+   "365: assert_eq!(i32le(&mut reader), 30);  [jev: reward, quest reward data]",
+   "382: assert_eq!(i32le(&mut reader), 10);  [jev: reward, quest reward (XP) data]",
+   "383: assert_eq!(i32le(&mut reader), 30);  [jev: reward, quest reward data]"
+  ]
+ },
+ {
+  "file": "tests/pets.rs",
+  "lines": [
+   "217: assert!(service.rename(id, 60, 0).is_err());  [jev: price, pet rename fee/cost in pet data]"
+  ]
+ },
+ {
+  "file": "tests/piece_011.rs",
+  "lines": [
+   "90: assert_eq!(s.timeout_seconds, 10.0);  [jev: timer, timeout_seconds]"
+  ]
+ },
+ {
+  "file": "tests/piece_013.rs",
+  "lines": [
+   "47: assert_eq!(copper.measure_percent, 65);  [jev: rate, mining minigame ORES data (copper measure_percent)]",
+   "51: assert_eq!(ORES[4].measure_percent, 85);  [jev: rate, mining minigame ORES data (gold measure_percent)]",
+   "55: assert_eq!(FURNACE.spill_data, 2.5);  [jev: timer, furnace spill data]",
+   "56: assert_eq!(HEAT_FURNACE.gain_max, 30.0);  [jev: rate, heat furnace gain max]",
+   "58: assert_eq!(GAME_WON_QUANTITY_LITERAL, 10);  [jev: reward, minigame reward quantity]"
+  ]
+ },
+ {
+  "file": "tests/piece_017.rs",
+  "lines": [
+   "229: assert_eq!(after[\"gameplay\"][\"inventory\"][\"coins\"], json!(110));  [jev: reward, coin reward/payout amounts in game data files]"
+  ]
+ },
+ {
+  "file": "tests/piece_019.rs",
+  "lines": [
+   "208: assert_eq!(rows[0].value, 150);  [jev: reward, minigame score/reward value from game data]"
+  ]
+ },
+ {
+  "file": "tests/piece_021.rs",
+  "lines": [
+   "103: assert_eq!(seaside.station_cash.map(|price| price.member), Some(270));  [jev: price, property catalogue station cash price]",
+   "195: assert_eq!(engine.station_cash(CHARACTER), 730);  [jev: price, starting wallet / store price data]",
+   "231: assert_eq!(outcome.charged, 300);  [jev: price, item purchase price data]",
+   "255: assert_eq!(engine.station_cash(CHARACTER), 100);  [jev: price, starting wallet / purchase price data]",
+   "422: assert_eq!(engine.station_cash(CHARACTER), 500);  [jev: price, starting wallet balance data]",
+   "486: assert_eq!(outcome.charged, 270);  [jev: price, property station cash price data]"
+  ]
+ },
+ {
+  "file": "tests/piece_033.rs",
+  "lines": [
+   "225: assert_eq!(kick.rank_damage, &[133, 150, 167, 183, 200]);  [jev: damage, skill data (kick rank damage values)]",
+   "230: assert_eq!(spinning_blade.rank_damage, &[50, 56, 63, 69, 75]);  [jev: damage, skill data (spinning_blade rank damage values)]",
+   "235: assert_eq!(quake.rank_damage, &[83, 94, 104, 115, 125]);  [jev: damage, skill data (quake rank damage values)]",
+   "240: assert_eq!(shout.rank_damage, &[50, 56, 63, 69, 75]);  [jev: damage, skill data (shout rank damage values)]"
+  ]
+ },
+ {
+  "file": "tests/piece_034.rs",
+  "lines": [
+   "192: assert_eq!(weapon.power_rating, 2);  [jev: damage, weapon data (power_rating)]",
+   "205: assert_eq!(basic.damage, 254);  [jev: damage, ability/weapon data (basic damage)]",
+   "206: assert_eq!(basic.cooldown_ms, Some(600));  [jev: timer, ability data (cooldown_ms)]",
+   "208: assert_eq!(special.damage, 889);  [jev: damage, ability/weapon data (special damage)]",
+   "251: assert_eq!(first.cooldown_ms, Some(600));  [jev: timer, ability data (cooldown_ms)]",
+   "297: assert_eq!(ninja.energy(), 100);  [jev: health, ninja profile max energy stat]",
+   "318: assert_eq!(ninja.energy(), 100);  [jev: health, ability/character data (max energy)]",
+   "396: assert_eq!(restarted.energy(), 100);  [jev: health, ability/character data (max energy)]",
+   "456: assert_eq!(special.damage, 889);  [jev: damage, ability definition data (special damage)]"
+  ]
+ },
+ {
+  "file": "tests/piece_036.rs",
+  "lines": [
+   "97: assert_eq!(WIZARD_BASIC_RECAST_MS, 600);  [jev: timer, ability definition data (basic ability recast/cooldown)]",
+   "98: assert_eq!(WIZARD_ENERGY_MAX, 100);  [jev: health, wizard profile data (max energy)]",
+   "99: assert_eq!(WIZARD_ENERGY_REGEN_PER_SECOND, 4);  [jev: rate, wizard profile data (energy regen per second)]",
+   "112: assert_eq!(fallback.damage, 200);  [jev: damage, ability data damage field (fallback ability)]",
+   "124: assert_eq!(zap.damage, 279);  [jev: damage, ability data damage field (zap)]",
+   "133: assert_eq!(blast.damage, 1143);  [jev: damage, ability data damage field (blast)]"
+  ]
+ },
+ {
+  "file": "tests/piece_037.rs",
+  "lines": [
+   "70: assert_eq!(FIRST_AID_HEAL_LADDER, [250, 281, 313, 344, 375]);  [jev: health, first aid heal ladder in ability data]",
+   "71: assert_eq!(first_aid_heal(1), Some(250));  [jev: health, first aid heal ladder in ability data]",
+   "72: assert_eq!(first_aid_heal(2), Some(281));  [jev: health, first aid heal ladder in ability data]",
+   "73: assert_eq!(first_aid_heal(5), Some(375));  [jev: health, first aid heal ladder in ability data]",
+   "233: assert!(offer.paid_revive_enabled(1000));  [jev: price, paid revive cost threshold in store/revive data]",
+   "234: assert!(offer.paid_revive_enabled(1001));  [jev: price, paid revive cost threshold in store/revive data]",
+   "235: assert!(!offer.paid_revive_enabled(999));  [jev: price, paid revive cost threshold in store/revive data]"
+  ]
+ },
+ {
+  "file": "tests/piece_039.rs",
+  "lines": [
+   "156: assert_eq!(rank_for_xp(&FARM_RANKS_58, 179), 1);  [jev: xp, FARM_XP_REQUIRED]",
+   "157: assert_eq!(rank_for_xp(&FARM_RANKS_58, 180), 2);  [jev: xp, FARM_XP_REQUIRED]",
+   "158: assert_eq!(rank_for_xp(&FARM_RANKS_58, 539), 2);  [jev: xp, FARM_XP_REQUIRED]",
+   "159: assert_eq!(rank_for_xp(&FARM_RANKS_58, 540), 3);  [jev: xp, FARM_XP_REQUIRED]",
+   "160: assert_eq!(rank_for_xp(&FARM_RANKS_58, 89_999), 19);  [jev: xp, FARM_XP_REQUIRED]",
+   "161: assert_eq!(rank_for_xp(&FARM_RANKS_58, 90_000), 20);  [jev: xp, FARM_XP_REQUIRED]",
+   "169: assert_eq!(at_rank_three.xp, 700);  [jev: xp, rank XP / reward data]",
+   "170: assert_eq!(at_rank_three.rank_experience, 160);  [jev: xp, rank XP / reward data]",
+   "171: assert_eq!(at_rank_three.rank_max_experience, 450);  [jev: xp, rank max experience progression data]",
+   "178: assert_eq!(fresh.rank_max_experience, 180);  [jev: xp, rank max experience progression data]"
+  ]
+ },
+ {
+  "file": "tests/piece_043.rs",
+  "lines": [
+   "150: assert_eq!(ledger.apply(&win, &fixture_curve()).unwrap().xp, 60);  [jev: xp, XP curve / win reward]",
+   "155: assert_eq!(ledger.xp_in_level(), 60);  [jev: xp, XP curve / XP threshold]",
+   "156: assert_eq!(ledger.xp_total(), 60);  [jev: xp, XP total / win reward]",
+   "167: assert_eq!(pet.apply(&trick, &curve).unwrap().xp, 20);  [jev: xp, pet trick XP]",
+   "168: assert_eq!(card.apply(&duel, &curve).unwrap().xp, 20);  [jev: xp, card duel XP]",
+   "200: assert_eq!(total, 100 * 25);  [jev: xp, XP rewards / XP curve]"
+  ]
+ },
+ {
+  "file": "tests/piece_046.rs",
+  "lines": [
+   "247: assert!(costly.usable_now(0, 40));  [jev: price, item cost field (costly item's price threshold)]",
+   "248: assert!(!costly.usable_now(0, 39));  [jev: price, item cost field (costly item's price threshold)]",
+   "298: assert_eq!(stew.cost, 180);  [jev: price, item data cost field (stew price)]",
+   "307: assert_eq!(consumable(11002).expect(\"small potion\").power_rating, 1);  [jev: damage, consumable definition power_rating (potion strength)]",
+   "388: assert_eq!(ledger.cooldown_ready_at(2, 0), Some(11_000));  [jev: timer, consumable cooldown duration from data]"
+  ]
+ },
+ {
+  "file": "tests/piece_053.rs",
+  "lines": [
+   "59: assert_eq!(AGGRO_MOVE_SPEED, 3.0);  [jev: rate, AI/aggro tuning constants (move speed)]",
+   "60: assert_eq!(AGGRO_STEP_CLAMP_MS, 250);  [jev: timer, AI/aggro tuning constants (step clamp)]",
+   "61: assert_eq!(AGGRO_TICK_INTERVAL_MS, 100);  [jev: timer, aggro tuning constants (tick interval; may be engine-level)]"
+  ]
+ },
+ {
+  "file": "tests/piece_054.rs",
+  "lines": [
+   "101: assert_eq!(MELEE_REPEAT_GATE_MS, 600);  [jev: timer, combat tuning constants (melee repeat gate)]",
+   "153: assert!(player_attack(2.0, 180, 10_600, Some(10_000)).is_ok());  [jev: timer, melee attack cooldown]",
+   "227: assert_eq!(ANY_TO_COMBAT_TIMING.ease_in_seconds, 0.2);  [jev: timer, any-to-combat timing ease_in_seconds]",
+   "228: assert_eq!(ANY_TO_COMBAT_TIMING.ease_out_seconds, 0.2);  [jev: timer, any-to-combat timing ease_out_seconds]",
+   "229: assert_eq!(COMBAT_TO_STAND_TIMING.ease_in_seconds, 0.6);  [jev: timer, combat-to-stand timing ease_in_seconds]",
+   "230: assert_eq!(COMBAT_TO_STAND_TIMING.ease_out_seconds, 0.2);  [jev: timer, combat-to-stand timing ease_out_seconds]"
+  ]
+ },
+ {
+  "file": "tests/piece_055.rs",
+  "lines": [
+   "92: assert_eq!(attack.begin_cast(1_000, 30.5), Err(CastError::OutOfRange));  [jev: timer, attack/cast config (cast time or range)]"
+  ]
+ },
+ {
+  "file": "tests/piece_056.rs",
+  "lines": [
+   "98: assert_eq!(tag.duration_seconds(), 3600);  [jev: timer, effect row / duration_seconds field]",
+   "257: assert_eq!(tag.duration_seconds(), 3600);  [jev: timer, status tag duration_seconds]",
+   "336: assert_eq!(effect.remaining_seconds(10_000), 60);  [jev: timer, effect duration/expiry]",
+   "376: assert_eq!(rows[0].1.duration_seconds(), 3000);  [jev: timer, status tag duration_seconds]",
+   "385: assert_eq!(restored.get(1).unwrap().remaining_seconds(0), 2400);  [jev: timer, effect/buff duration in game data]",
+   "389: assert_eq!(tag.duration_seconds(), 2400);  [jev: timer, effect/buff duration in game data]",
+   "489: assert_eq!(effect.remaining_seconds(0), 3600);  [jev: timer, effect/buff duration in game data]"
+  ]
+ },
+ {
+  "file": "tests/piece_057.rs",
+  "lines": [
+   "119: assert_eq!(table.total_weight(), Ok(2));  [jev: rate, loot table drop weights]",
+   "185: assert_eq!(ledger.granted(&kill), Some(WeightedDrop::item(205, 1, 1)));  [jev: reward, loot table drop entry]"
+  ]
+ },
+ {
+  "file": "tests/piece_058.rs",
+  "lines": [
+   "158: assert_eq!(arbiter.health(), 400);  [jev: health, npc health data]",
+   "215: assert!(arbiter.apply_damage(1000));  [jev: damage, combat damage data]",
+   "226: assert_eq!(outcome.health, 1000);  [jev: health, health data]",
+   "227: assert_eq!(arbiter.coins(), 2500);  [jev: price, coin balance]",
+   "262: assert!(arbiter.apply_damage(1000));  [jev: damage, combat damage data]",
+   "265: assert_eq!(outcome.charged_coins, 1000);  [jev: price, revive cost]",
+   "266: assert_eq!(arbiter.coins(), 1500);  [jev: price, coin balance]",
+   "267: assert_eq!(outcome.health, 1000);  [jev: health, health data]",
+   "278: assert_eq!(arbiter.coins(), 1500);  [jev: price, coin balance]",
+   "290: assert!(arbiter.apply_damage(1000));  [jev: damage, combat damage data]",
+   "299: assert_eq!(arbiter.coins(), 999);  [jev: price, coin balance]",
+   "307: assert!(arbiter.apply_damage(1000));  [jev: damage, combat damage data]",
+   "325: assert_eq!(arbiter.coins(), 5000);  [jev: price, coin balance]",
+   "326: assert_eq!(arbiter.health(), 1000);  [jev: health, health data]",
+   "366: assert!(arbiter.apply_damage(1000));  [jev: damage, combat damage data]",
+   "374: assert!(arbiter.apply_damage(1000));  [jev: damage, combat damage data]"
+  ]
+ },
+ {
+  "file": "tests/piece_062.rs",
+  "lines": [
+   "207: assert!((BARK_RECORDINGS[0].seconds - 1.392).abs() < 5e-3);  [jev: timer, BARK_RECORDINGS seconds]",
+   "209: assert!((BARK_RECORDINGS[2].seconds - 3.552).abs() < 5e-3);  [jev: timer, BARK_RECORDINGS seconds]",
+   "215: assert!((SPAWN_SMOKE_END_SECONDS - 3.0).abs() < 1e-6);  [jev: timer, SPAWN_SMOKE_END_SECONDS]",
+   "216: assert!((CHEST_BEAM_END_SECONDS - 3.0).abs() < 1e-6);  [jev: timer, CHEST_BEAM_END_SECONDS]",
+   "217: assert!((CHEST_BEAM_HIT_FLASH_SECONDS - 0.5).abs() < 1e-6);  [jev: timer, CHEST_BEAM_HIT_FLASH_SECONDS]"
+  ]
+ },
+ {
+  "file": "tests/piece_063.rs",
+  "lines": [
+   "301: assert_eq!(snapshot[\"runs\"][0][\"coins\"], 50);  [jev: reward, minigame coin payout data]"
+  ]
+ },
+ {
+  "file": "tests/piece_065.rs",
+  "lines": [
+   "302: assert!(detail(&report, AcceptanceGate::Boss).contains(\"100 hp\"));  [jev: health, boss/encounter health in data files]"
+  ]
+ },
+ {
+  "file": "tests/piece_066.rs",
+  "lines": [
+   "117: assert_eq!(weapon.coin_reward, Some(16));  [jev: reward, item/quest coin reward field]",
+   "134: assert_eq!(pack.coin_reward, Some(18));  [jev: reward, item/quest coin reward field]"
+  ]
+ },
+ {
+  "file": "tests/piece_083.rs",
+  "lines": [
+   "189: assert_eq!(member_unit_price(5, 10), 4);  [jev: price, merchant item price table]",
+   "190: assert_eq!(member_unit_price(320, 10), 288);  [jev: price, merchant item price table (member discount)]",
+   "191: assert_eq!(member_unit_price(206, 10), 185);  [jev: price, merchant item price table (member discount)]",
+   "194: assert_eq!(member_unit_price(1, 10), 0);  [jev: price, merchant item price table / discount rounding]",
+   "207: assert_eq!(catalogue.item(MERCHANT, 2).map(|i| i.cost), Some(320));  [jev: price, merchant catalogue item cost]",
+   "248: assert_eq!(receipt.unit_price, 320);  [jev: price, merchant catalogue item cost]",
+   "249: assert_eq!(receipt.total_price, 320);  [jev: price, merchant catalogue item cost]",
+   "258: assert_eq!(receipt.record.price, 320);  [jev: price, merchant catalogue item cost]",
+   "276: assert_eq!(receipt.unit_price, 288);  [jev: price, merchant item price table (member discount)]",
+   "277: assert_eq!(receipt.total_price, 288);  [jev: price, merchant item price table (member discount)]",
+   "433: assert_eq!(staged.coins(11), 995);  [jev: price, merchant item price data]"
+  ]
+ },
+ {
+  "file": "tests/piece_084.rs",
+  "lines": [
+   "138: assert_eq!(sale.coins_paid, 81);  [jev: price, item price data (27 coin unit price)]",
+   "150: assert_eq!(record.unit_price, 27);  [jev: price, item price data]",
+   "196: assert_eq!(buyback.coins_charged, 81);  [jev: price, item price data (3 x unit price)]",
+   "226: assert_eq!(first.coins_charged, 27);  [jev: price, item price data]",
+   "239: assert_eq!(rest.coins_charged, 81);  [jev: price, item price data (3 x unit price)]",
+   "253: assert_eq!(buyback_cost(27, 5), Ok(135));  [jev: price, item price data (unit price x quantity)]",
+   "260: assert_eq!(ledger.coins(), 15);  [jev: price, item price data (remaining wallet balance derived from prices)]",
+   "265: assert_eq!(ledger.coins(), 15);  [jev: price, item price data (remaining wallet balance derived from prices)]",
+   "357: assert_eq!(ledger.item(1).map(|item| item.resell_value), Some(27));  [jev: price, item data resell_value]",
+   "358: assert_eq!(ledger.grant(79_388, 0, 1, 27, false), 2);  [jev: price, item data resell_value]"
+  ]
+ },
+ {
+  "file": "tests/piece_086.rs",
+  "lines": [
+   "166: assert_eq!(report.coins_sourced, 237);  [jev: reward, coin reward amount]",
+   "224: assert_eq!(mixed.station_cash_sourced, 499);  [jev: price, station cash price]",
+   "225: assert_eq!(mixed.coins_sunk, 100);  [jev: price, item coin price]"
+  ]
+ },
+ {
+  "file": "tests/piece_087.rs",
+  "lines": [
+   "222: assert_eq!(&bytes[42..46], &110i32.to_le_bytes());  [jev: health, player health]"
+  ]
+ },
+ {
+  "file": "tests/piece_092.rs",
+  "lines": [
+   "288: assert_eq!(float_stat(&dragon_stats, GLIDE_FALL_TIME_STAT), Some(0.75));  [jev: timer, mount stats data (dragon glide fall time)]"
+  ]
+ },
+ {
+  "file": "tests/piece_093.rs",
+  "lines": [
+   "174: assert_eq!(EMOTE_TRANSITION.ease_in, 0.4);  [jev: timer, emote transition config / animation data]",
+   "175: assert_eq!(EMOTE_TRANSITION.ease_out, 0.4);  [jev: timer, emote transition config / animation data]"
+  ]
+ },
+ {
+  "file": "tests/player_trade.rs",
+  "lines": [
+   "505: assert_eq!(b_items, [(20, 200, 1), (21, 100, 2)]);  [jev: price, item value/price data (item definitions)]",
+   "544: assert_eq!(side_a.gave, [mv(10, 100, 2), mv(11, 200, 2)]);  [jev: price, item value/price data (item definitions)]",
+   "545: assert_eq!(side_b.gave, [mv(30, 100, 1), mv(31, 400, 4)]);  [jev: price, item value/price data (item definitions)]",
+   "547: assert_eq!(side_a.received, [mv(10, 100, 1), mv(12, 400, 4)]);  [jev: price, item value/price data (item definitions)]",
+   "549: assert_eq!(side_b.received, [mv(30, 100, 2), mv(32, 200, 2)]);  [jev: price, item value/price data (item definitions)]",
+   "558: assert_eq!(rows(side_a), [(10, 100, 2), (12, 400, 4)]);  [jev: price, item value/price data (item definitions)]",
+   "559: assert_eq!(rows(side_b), [(30, 100, 6), (32, 200, 2)]);  [jev: price, item value/price data (item definitions)]"
+  ]
+ },
+ {
+  "file": "tests/playtest_first_hour.rs",
+  "lines": [
+   "583: assert_eq!(coins(&game), coins_before + QUEST_COINS, \"exactly 10 coins\");  [jev: reward, quest reward table (QUEST_COINS coin payout)]"
+  ]
+ },
+ {
+  "file": "tests/postman_trainer.rs",
+  "lines": [
+   "152: assert_eq!(end_screen_reward(&end), (5, 5));  [jev: reward, postman race end-screen reward data]",
+   "160: assert_eq!(profile_xp(&game, POSTMAN), 5);  [jev: xp, postman profile XP reward data]"
+  ]
+ },
+ {
+  "file": "tests/power_up_drops.rs",
+  "lines": [
+   "277: assert_eq!(health(&near), Some((350, 500)), \"50% of max health\");  [jev: health, character/enemy max health data]",
+   "278: assert_eq!(heal_numbers(&near), [250]);  [jev: health, power-up heal amount (percent of max)]",
+   "279: assert_eq!(near.group_heal.map(|g| g.percent), Some(50));  [jev: health, power-up group heal percent]",
+   "281: assert_eq!(e.player_health().0, 350);  [jev: health, character/enemy max health data]",
+   "292: assert_eq!(health(&out), Some((175, 500)), \"15% of max health\");  [jev: health, character/enemy max health data]",
+   "334: assert_eq!(health(&heart), Some((175, 500)));  [jev: health, character/enemy max health data]",
+   "372: assert_eq!(pickups(&kill(&mut e, FIRST, 1_000)).len(), 2);  [jev: rate, loot/drop table for kill pickups]",
+   "723: assert_eq!(removed(&e.tick(SPOT, 2, 1_200).unwrap()).len(), 1);  [jev: timer, pickup despawn lifetime data]",
+   "744: assert_eq!((a.percent, a.kill), (50, b.kill), \"one kill, one key\");  [jev: rate, power-up drop rate]",
+   "758: assert_eq!(health(&out), Some((350, 500)));  [jev: health, player health/max health]",
+   "759: assert_eq!(heal_numbers(&out), [250]);  [jev: health, power-up heal amount]",
+   "762: assert_eq!(health(&again), Some((500, 500)));  [jev: health, max health]"
+  ]
+ },
+ {
+  "file": "tests/progression_extras.rs",
+  "lines": [
+   "226: assert_eq!(packet[20..24], 10u32.to_le_bytes());  [jev: reward, quest/achievement reward value in data file]",
+   "334: assert_eq!(completed.reward_state.inventory.state().coins, 5);  [jev: reward, quest reward coins in data file]",
+   "357: assert_eq!(replay.reward_state.inventory.state().coins, 5);  [jev: reward, quest reward coins in data file]"
+  ]
+ },
+ {
+  "file": "tests/quest_engine.rs",
+  "lines": [
+   "534: assert_eq!(paid.inventory.state().coins, 5);  [jev: price, quest/item price table coin cost]",
+   "568: assert_eq!(paid_again.inventory.state().coins, 5);  [jev: price, quest/item price table coin cost]"
+  ]
+ },
+ {
+  "file": "tests/quest_item_reward.rs",
+  "lines": [
+   "487: assert_eq!(u32::from_le_bytes(bundle[1..5].try_into().unwrap()), COINS);  [jev: reward, quest coin reward]",
+   "488: assert_eq!(u32::from_le_bytes(bundle[5..9].try_into().unwrap()), XP);  [jev: xp, quest XP reward]"
+  ]
+ },
+ {
+  "file": "tests/quest_job_xp.rs",
+  "lines": [
+   "275: assert_eq!(profile_xp(&game, ADVENTURER), 15);  [jev: xp, quest job XP reward]",
+   "287: assert_eq!(profile_xp(&game, ADVENTURER), 15);  [jev: xp, quest job XP reward]",
+   "333: assert_eq!(profile_xp(&game, CHEF), 20);  [jev: xp, quest job XP reward]",
+   "346: assert_eq!(profile_xp(&game, KART_DRIVER), 25);  [jev: xp, quest job XP reward]",
+   "347: assert_eq!(profile_xp(&game, ADVENTURER), 15);  [jev: xp, quest job XP reward]",
+   "348: assert_eq!(coins(&game), 10);  [jev: reward, quest coin reward]",
+   "359: assert_eq!(profile_xp(&game, KART_DRIVER), 25);  [jev: xp, quest job XP reward]",
+   "370: assert_eq!(profile_xp(&game, NINJA), 15);  [jev: xp, quest job XP reward]",
+   "419: assert_eq!(profile_xp(&game, NINJA), 15, \"profile 2 receives the XP\");  [jev: xp, quest job XP reward]",
+   "779: assert_eq!(profile_xp(&game, NINJA), 15, \"the paid XP survives reload\");  [jev: xp, quest job XP reward]",
+   "807: assert_eq!(profile_xp(&game, NINJA), 15);  [jev: xp, quest job XP reward]",
+   "829: assert_eq!(profile_xp(game, ADVENTURER), 15);  [jev: xp, quest reward XP data]",
+   "830: assert_eq!(coins(game), 5);  [jev: reward, quest coin reward data]"
+  ]
+ },
+ {
+  "file": "tests/quest_offer_reward.rs",
+  "lines": [
+   "297: assert_eq!((displayed_coins, displayed_xp), (5, 20));  [jev: reward, quest reward bundle coins/xp]"
+  ]
+ },
+ {
+  "file": "tests/quests.rs",
+  "lines": [
+   "135: assert_eq!(completed.rewards[0].coins, 25);  [jev: reward, quest reward data (coins)]",
+   "136: assert_eq!(completed.rewards[0].items, vec![(1195, 1)]);  [jev: reward, quest reward data (item id + quantity)]",
+   "162: assert_eq!(result.rewards[0].items, vec![(1843, 1)]);  [jev: reward, quest reward data (item id + quantity)]",
+   "232: assert_eq!(result.rewards[0].coins, 10);  [jev: reward, quest reward data (coins)]",
+   "233: assert_eq!(engine.state().trial_best_ms, Some(6000));  [jev: timer, race/trial time threshold data]"
+  ]
+ },
+ {
+  "file": "tests/rewards.rs",
+  "lines": [
+   "157: assert_eq!(signed(bundle, 8), 15);  [jev: reward, coin amount field in reward bundle (matches the 15 in messages[0]); could be a f]",
+   "160: assert_eq!(u64::from_le_bytes(bundle[40..48].try_into().unwrap()), 700);  [jev: xp, XP/reward amount in reward table (700 looks like a tunable XP or coin payout)]",
+   "161: assert_eq!(u64::from_le_bytes(bundle[48..56].try_into().unwrap()), 800);  [jev: reward, coin/reward amount in reward table (800 looks like a tunable payout)]",
+   "163: assert_eq!(u32::from_le_bytes(bundle[68..72].try_into().unwrap()), 3);  [jev: reward, reward grant data (amount field in grant bundle)]",
+   "167: assert_eq!(next.inventory.state().coins, 15);  [jev: reward, coin reward amount in grant data]",
+   "170: assert_eq!(next.inventory.state().items[0].count, 2);  [jev: reward, item quantity in grant data]",
+   "175: assert_eq!(next.profiles.experience.get(&1), Some(&105));  [jev: xp, XP amount in grant/reward data]",
+   "291: assert_eq!(signed(bundle, 16), 16);  [jev: reward, grant bundle field (possibly reward amount)]"
+  ]
+ },
+ {
+  "file": "tests/sc_earnings.rs",
+  "lines": [
+   "331: assert_eq!(next.wallet.as_ref().unwrap().balance, 4);  [jev: reward, Station Cash earnings/reward data]",
+   "347: assert_eq!(again.wallet.as_ref().unwrap().balance, 4);  [jev: reward, Station Cash earnings/reward data]",
+   "365: assert_eq!(next.wallet.as_ref().unwrap().balance, 10);  [jev: reward, Station Cash earnings/reward data]",
+   "411: assert_eq!(restored.balance, 20);  [jev: reward, wallet balance / reward data]"
+  ]
+ },
+ {
+  "file": "tests/scavenger_hunt_quest.rs",
+  "lines": [
+   "259: assert_eq!(i32::from_le_bytes(screen[27..31].try_into().unwrap()), 50);  [jev: reward, quest coin reward amount in data file]",
+   "260: assert_eq!(i32::from_le_bytes(screen[31..35].try_into().unwrap()), 25);  [jev: xp, quest XP reward amount in data file]",
+   "329: assert_eq!(coins(&game), coins_before + 50);  [jev: reward, quest coin reward amount in data file]",
+   "330: assert_eq!(profile_xp(&game, ADVENTURER), xp_before + 25);  [jev: xp, quest XP reward amount in data file]",
+   "376: assert_eq!(coins(&game), coins_before + 50);  [jev: reward, quest reward coins in quest data]",
+   "377: assert_eq!(profile_xp(&game, ADVENTURER), xp_before + 25);  [jev: xp, quest reward xp in quest data]",
+   "640: assert_eq!(coins(&game), 50);  [jev: reward, quest reward coins in quest data]",
+   "641: assert_eq!(profile_xp(&game, ADVENTURER), 25);  [jev: xp, quest reward xp in quest data]",
+   "649: assert_eq!(coins(&game), 50);  [jev: reward, quest reward coins in quest data]",
+   "650: assert_eq!(profile_xp(&game, ADVENTURER), 25);  [jev: xp, quest reward xp in quest data]",
+   "733: assert_eq!(coins(&a), 50);  [jev: reward, quest reward coins in quest data]",
+   "734: assert_eq!(profile_xp(&a, ADVENTURER), 25);  [jev: xp, quest reward xp in quest data]",
+   "763: assert_eq!(coins(&b), 50);  [jev: reward, quest reward coins in quest data]",
+   "764: assert_eq!(profile_xp(&b, ADVENTURER), 25);  [jev: xp, quest reward xp in quest data]",
+   "765: assert_eq!(coins(&a), 50);  [jev: reward, quest reward coins in quest data]",
+   "766: assert_eq!(profile_xp(&a, ADVENTURER), 25);  [jev: xp, quest reward xp in quest data]",
+   "783: assert_eq!(coins(&a), 50);  [jev: reward, quest reward coins in quest data]",
+   "784: assert_eq!(profile_xp(&a, ADVENTURER), 25);  [jev: xp, quest reward xp in quest data]",
+   "785: assert_eq!(coins(&b), 50);  [jev: reward, quest reward coins in quest data]",
+   "786: assert_eq!(profile_xp(&b, ADVENTURER), 25);  [jev: xp, quest reward xp in quest data]",
+   "866: assert_eq!(coins(&b), 50);  [jev: reward, quest reward coins in quest data]",
+   "867: assert_eq!(profile_xp(&b, ADVENTURER), 25);  [jev: xp, quest reward xp in quest data]",
+   "1075: assert_eq!(rewards[0][\"coins\"], json!(50));  [jev: reward, quest reward coins]",
+   "1077: assert_eq!(rewards[0][\"job_xp\"], json!({\"1\": 25}));  [jev: xp, quest reward job_xp]"
+  ]
+ },
+ {
+  "file": "tests/scavenger_hunt_two_players.rs",
+  "lines": [
+   "280: assert_eq!(end_screen_reward(&a_screen), (50, 25));  [jev: reward, quest end-screen reward]",
+   "281: assert_eq!(end_screen_reward(&b_screen), (50, 25));  [jev: reward, quest end-screen reward]",
+   "309: assert_eq!(coins(&a), a_coins_before + 50);  [jev: reward, quest reward coins]",
+   "310: assert_eq!(profile_xp(&a, ADVENTURER), a_xp_before + 25);  [jev: xp, quest reward XP]",
+   "326: assert_eq!(coins(&b), 50);  [jev: reward, quest reward coins]",
+   "327: assert_eq!(profile_xp(&b, ADVENTURER), 25);  [jev: xp, quest reward XP]",
+   "332: assert_eq!(coins(&a), a_coins_before + 50);  [jev: reward, quest reward coins]",
+   "364: assert_eq!(coins(&a), a_coins_before + 50);  [jev: reward, quest reward coins]",
+   "365: assert_eq!(coins(&b), 50);  [jev: reward, quest reward coins]",
+   "527: assert_eq!(coins(&a), 50);  [jev: reward, quest reward coins]",
+   "528: assert_eq!(coins(&b), 50);  [jev: reward, quest reward coins]",
+   "529: assert_eq!(profile_xp(&a, ADVENTURER), 25);  [jev: xp, quest reward XP]",
+   "530: assert_eq!(profile_xp(&b, ADVENTURER), 25);  [jev: xp, quest reward XP]",
+   "547: assert_eq!(coins(&a), 50);  [jev: reward, quest reward coins]",
+   "548: assert_eq!(coins(&b), 50);  [jev: reward, scavenger hunt reward coins]",
+   "549: assert_eq!(profile_xp(&a, ADVENTURER), 25);  [jev: xp, scavenger hunt reward XP]",
+   "550: assert_eq!(profile_xp(&b, ADVENTURER), 25);  [jev: xp, scavenger hunt reward XP]",
+   "578: assert_eq!(end_screen_reward(&a_screen), (50, 25));  [jev: reward, scavenger hunt reward coins/XP]",
+   "579: assert_eq!(end_screen_reward(&b_screen), (50, 25));  [jev: reward, scavenger hunt reward coins/XP]",
+   "649: assert_eq!(coins(&b), 50);  [jev: reward, scavenger hunt reward coins]",
+   "650: assert_eq!(profile_xp(&b, ADVENTURER), 25);  [jev: xp, scavenger hunt reward XP]",
+   "653: assert_eq!(coins(&a), 50);  [jev: reward, scavenger hunt reward coins]",
+   "654: assert_eq!(profile_xp(&a, ADVENTURER), 25);  [jev: xp, scavenger hunt reward XP]",
+   "664: assert_eq!(reward[\"coins\"], json!(50));  [jev: reward, quest reward coins]",
+   "665: assert_eq!(reward[\"job_xp\"], json!({\"1\": 25}));  [jev: xp, quest reward job XP]",
+   "710: assert_eq!(end_screen_reward(&screen), (50, 25));  [jev: reward, scavenger hunt reward coins/XP]",
+   "713: assert_eq!(coins(&b), 50);  [jev: reward, scavenger hunt reward coins]",
+   "714: assert_eq!(profile_xp(&b, ADVENTURER), 25);  [jev: xp, scavenger hunt reward XP]"
+  ]
+ },
+ {
+  "file": "tests/shared_field_interest.rs",
+  "lines": [
+   "275: assert_eq!(hp_values(packets), vec![hp_after(2)]);  [jev: health, combat/health data (hp_after baseline value)]",
+   "538: assert_eq!(field.respawn_at(E), Some(2600));  [jev: timer, NPC respawn delay]",
+   "546: assert_eq!(field.respawn_at(E), Some(2600));  [jev: timer, NPC respawn delay]"
+  ]
+ },
+ {
+  "file": "tests/shared_field_kill_quest_credit.rs",
+  "lines": [
+   "823: assert_eq!(coins(&b), 2);  [jev: reward, quest coin reward data]",
+   "824: assert_eq!(profile_xp(&b, BRAWLER), 5);  [jev: xp, quest Brawler XP reward data]",
+   "838: assert_eq!((coins(&b), profile_xp(&b, BRAWLER)), (2, 5));  [jev: reward, quest reward coins and Brawler XP data]",
+   "1084: assert_eq!(coins(&c), 2);  [jev: reward, quest coin reward data]",
+   "1085: assert_eq!(profile_xp(&c, BRAWLER), 5);  [jev: xp, quest Brawler XP reward data]"
+  ]
+ },
+ {
+  "file": "tests/smelting.rs",
+  "lines": [
+   "316: assert_eq!(transaction.grants, vec![(21785, 5)]);  [jev: reward, smelting recipe output quantity]"
+  ]
+ },
+ {
+  "file": "tests/smelting_gameplay.rs",
+  "lines": [
+   "198: assert_eq!((count(&g, 2739), count(&g, 879)), (5, 5));  [jev: reward, smelting recipe output/ingredient quantities]",
+   "275: assert_eq!((count(&restored, 879), count(&restored, 21785)), (2, 5));  [jev: reward, smelting recipe output/ingredient quantities]",
+   "327: assert_eq!(count(&g, 21785), 5);  [jev: reward, smelting recipe output quantity]"
+  ]
+ },
+ {
+  "file": "tests/soccer.rs",
+  "lines": [
+   "221: assert_eq!(game.clock().remaining, 120.0);  [jev: timer, soccer minigame config match duration]",
+   "242: assert!((game.clock().remaining - 110.0).abs() < 0.001);  [jev: timer, soccer minigame config match duration]",
+   "250: assert!((remaining - 110.0).abs() < 0.001);  [jev: timer, soccer minigame config match duration]"
+  ]
+ },
+ {
+  "file": "tests/soccer_entry.rs",
+  "lines": [
+   "285: assert_eq!(game.inventory_state().coins, coins_before + 10);  [jev: reward, soccer entry coin payout data]",
+   "745: assert_eq!(coins(&gateway), coins_before + CLAIM_COINS + 10);  [jev: reward, claim payout / coin reward data]",
+   "778: assert_eq!(coins(&gateway), coins_before + 10);  [jev: reward, soccer entry coin payout data]"
+  ]
+ },
+ {
+  "file": "tests/soccer_match.rs",
+  "lines": [
+   "815: assert!((game.remaining() - HALF_SECONDS).abs() < 1e-4);  [jev: timer, soccer match half duration]"
+  ]
+ },
+ {
+  "file": "tests/soccer_review.rs",
+  "lines": [
+   "179: assert!((game.clock().remaining - 151.412).abs() < 1e-3);  [jev: timer, game clock / match duration data]"
+  ]
+ },
+ {
+  "file": "tests/soccer_service.rs",
+  "lines": [
+   "349: assert!((remaining - 179.75).abs() < 1.0e-3, \"{remaining}\");  [jev: timer, game clock remaining / match duration]",
+   "350: assert!((elapsed - 0.25).abs() < 1.0e-3, \"{elapsed}\");  [jev: timer, game clock elapsed / match duration]",
+   "398: assert!((power - 4.0).abs() < 1.0e-6);  [jev: damage, kick power / soccer tuning data]",
+   "404: assert!((velocity[0] - 4.0).abs() < 1.0e-5, \"{velocity:?}\");  [jev: damage, kick power / ball velocity tuning]"
+  ]
+ },
+ {
+  "file": "tests/starter_items.rs",
+  "lines": [
+   "417: assert_eq!(after_buy.coins, coins_before - 10);  [jev: price, starter vendor item price]",
+   "426: assert_eq!(inventory_of(&gateway).coins, coins_before - 10);  [jev: price, starter vendor item price]",
+   "434: assert_eq!(after_buy.coins, coins_before - 25);  [jev: price, starter vendor item price]"
+  ]
+ },
+ {
+  "file": "tests/starting_quest_chain.rs",
+  "lines": [
+   "542: assert_eq!(rewards.inventory.state().coins, starting_coins + 15);  [jev: reward, quest reward coins]",
+   "608: assert_eq!(rewards.inventory.state().coins, starting_coins + 15);  [jev: reward, quest reward coins]",
+   "774: assert_eq!(after.inventory.coins, coins_before + 5);  [jev: reward, quest reward coins]"
+  ]
+ },
+ {
+  "file": "tests/station_cash.rs",
+  "lines": [
+   "668: assert_eq!(price, 12, \"1/4 of the wiki price\");  [jev: price, station cash catalogue item price]"
+  ]
+ },
+ {
+  "file": "tests/thugamug_battle.rs",
+  "lines": [
+   "143: assert_eq!(u32_field(&enemies[0], \"max_health\"), 220);  [jev: health, enemy max health]",
+   "144: assert_eq!(u32_field(&enemies[0], \"damage\"), 12);  [jev: damage, enemy damage]",
+   "152: assert_eq!(u32_field(hand, \"max_health\"), 140);  [jev: health, max_health]",
+   "153: assert_eq!(u32_field(hand, \"damage\"), 9);  [jev: damage, damage]",
+   "1205: assert_eq!(u32_at(&end, 27), MISSING_SISTERS_COINS);  [jev: reward, MISSING_SISTERS_COINS]",
+   "1206: assert_eq!(u32_at(&end, 31), MISSING_SISTERS_XP);  [jev: xp, MISSING_SISTERS_XP]",
+   "1438: assert_eq!(u32_at(&end, 27), QUEST_COINS, \"49/13 coin bundle\");  [jev: reward, quest coin reward]",
+   "1439: assert_eq!(u32_at(&end, 31), QUEST_XP, \"49/13 displayed XP bundle\");  [jev: xp, quest xp reward]",
+   "1483: assert_eq!(u32_at(&end, 27), QUEST_COINS);  [jev: reward, quest coin reward]",
+   "1484: assert_eq!(u32_at(&end, 31), QUEST_XP);  [jev: xp, quest xp reward]",
+   "1630: assert_eq!(u32_at(&end, 27), QUEST_COINS);  [jev: reward, quest coin reward]",
+   "1631: assert_eq!(u32_at(&end, 31), QUEST_XP);  [jev: xp, quest xp reward]",
+   "1825: assert_eq!(u32_at(&end, 27), QUEST_COINS);  [jev: reward, quest coin reward]",
+   "1826: assert_eq!(u32_at(&end, 31), QUEST_XP);  [jev: xp, quest xp reward]"
+  ]
+ },
+ {
+  "file": "tests/titles_claims.rs",
+  "lines": [
+   "702: assert_eq!(before.gameplay.as_ref().unwrap().inventory.coins, 7);  [jev: price, inventory coins / title claim price data]"
+  ]
+ },
+ {
+  "file": "tests/two_player_dungeons.rs",
+  "lines": [
+   "517: assert_eq!(a_with_delta.coins, a_paid.coins + 7);  [jev: reward, dungeon coin reward]"
+  ]
+ },
+ {
+  "file": "tests/vendor_coin_window.rs",
+  "lines": [
+   "182: assert_eq!(word(completion, 48), RING_PRICE, \"the server unit price\");  [jev: price, vendor item unit price (RING_PRICE)]"
+  ]
+ },
+ {
+  "file": "tests/vendor_sell.rs",
+  "lines": [
+   "249: assert_eq!(after_buy.coins, 100 - 15);  [jev: price, vendor buy price]",
+   "755: assert_eq!((done[0].quantity, done[0].price), (2, 375));  [jev: price, item resale price]",
+   "757: assert_eq!(after.coins, before.coins + 750);  [jev: price, item resale total]",
+   "834: assert_eq!(inventory_of(&gateway).coins, 100 + 7);  [jev: price, item resale price]",
+   "847: assert_eq!(paid.coins, 107);  [jev: price, item resale price plus start coins]",
+   "864: assert_eq!(bought.coins, before.coins - 15);  [jev: price, vendor buy price]",
+   "879: assert_eq!(sold.coins, bought.coins + 7);  [jev: price, vendor sell price/item worth]",
+   "893: assert_eq!(after.coins, before.coins - 15);  [jev: price, vendor buy price]",
+   "923: assert_eq!(after.coins, 10 + 7 - 15);  [jev: price, vendor sell/buy prices]",
+   "968: assert_eq!(after.coins, 100 + 375 - 15);  [jev: price, vendor sell price/item worth]",
+   "1027: assert_eq!(after.coins, before.coins - 15);  [jev: price, vendor buy price]"
+  ]
+ },
+ {
+  "file": "tests/vendor_sell_worth.rs",
+  "lines": [
+   "149: assert_eq!(inventory_of(&gateway).coins, 10_000 - 750);  [jev: price, vendor buy price]"
+  ]
+ },
+ {
+  "file": "tests/warrior_entry_chain.rs",
+  "lines": [
+   "557: assert_eq!(profile_xp(&game, WARRIOR), xp_before + 2 * REWARD_XP);  [jev: xp, quest reward XP]",
+   "939: assert_eq!(w5[\"rewards\"][0][\"coins\"].as_u64(), Some(15));  [jev: reward, quest reward coins]"
+  ]
+ },
+ {
+  "file": "tests/wizard_entry_chain.rs",
+  "lines": [
+   "561: assert_eq!(final_coins, starting_coins + 2 * REWARD_COINS);  [jev: reward, quest reward coins]",
+   "562: assert_eq!(final_xp, starting_xp + 2 * REWARD_XP);  [jev: xp, quest reward XP]"
+  ]
+ },
+ {
+  "file": "tests/zone_quests_seaside.rs",
+  "lines": [
+   "239: assert_eq!(coins(&game), coins_before + 120);  [jev: reward, seaside quest reward coins in quest data]",
+   "240: assert_eq!(profile_xp(&game, ADVENTURER), xp_before + 100);  [jev: xp, seaside quest reward XP in quest data]"
+  ]
+ }
+]

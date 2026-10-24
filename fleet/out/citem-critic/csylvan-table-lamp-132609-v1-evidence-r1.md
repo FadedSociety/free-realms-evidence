@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csylvan-table-lamp-132609-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3702, 10256, 6, 1296] model=claude-haiku-5-5 -->
+# Sylvan Table Lamp
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "Marked 'yes' but the only support is that a coin store row exists in the repo's stores.json dump (item 36196, category 54). A data row does not show the item is currently sold; the pack has no wiki, article or video confirmation and the answer's own open list says sale status is unknown.", "fix": "Keep the claim to 'store row present in repo:prototype/osfr-tools/data/content/stores.json item 36196 (category 54, purchase 1000, member 900, sell 100)'. Set live to 'unverified' or 'yes (data row only)' rather than a confirmed 'yes'."}]}

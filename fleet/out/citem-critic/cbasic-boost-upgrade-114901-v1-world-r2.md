@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbasic-boost-upgrade-114901-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3820, 4593, 6, 885] model=claude-haiku-5-5 -->
+# Basic Boost Upgrade
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' with no source. The client definition exists, but nothing in the pack shows it sold, granted, or retired, so 'unsure' is the honest value.", "fix": "No change needed; keep 'unsure' until live data or a derby parts vendor is checked."}, {"field": "evidence[3]", "issue": "The repo notes line (Demolition Derby Driver.md:211) does list 'Basic Boost Fuel' 2114910911 with description 3604595090, as cited. The claim that this is a closest match, not confirmed identical, is accurate. I found no source linking 'Basic Boost Upgrade' to it.", "fix": "No change needed; the open item correctly keeps the identity question unresolved."}]}

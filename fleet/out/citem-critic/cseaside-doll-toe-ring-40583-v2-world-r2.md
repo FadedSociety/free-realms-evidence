@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cseaside-doll-toe-ring-40583-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4205, 5843, 6, 1189] model=claude-haiku-5-5 -->
+# Seaside Doll Toe Ring
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Central Wilds is shown as this item's location. It comes from the set-level spawn_type and area on the whole Seaside Pixie Doll collection, and nothing names it per item. The answer's own 'set-level' hedge is accurate, but the 'where' field still reads as an item location.", "fix": "Keep the Central Wilds/Robgoblin detail labelled as set-level only (repo collections.json lines 7780-7781 apply to all 8 entries). Do not present it as a per-item drop source for locale:40583."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csurgeon-fateful-ring-86414-v1-evidence-r1 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3991, 9218, 6, 1360] model=claude-haiku-5-5 -->
+# Surgeon Fateful Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "Reward detail is slightly misstated. The video lines read '1 Granite [Fateful] [Ring]', 'You receive 19 coins', then 'You receive 11 stars and 13 coins'. The answer's '19 coins and 11 stars' drops the 13 coins. The Granite ring is also a different family member from the Surgeon item, and the answer keeps it as family context only, which is correct.", "fix": "Cook-off Catastrophe (Teaspoon Tarisa, Seaside) gave 1 Granite [Fateful] [Ring], 19 coins, and 11 stars and 13 coins (video:506rO_mhaSs/00248, 00250; notes/Build Guides/Content/Jobs/Chef.md:184). This is evidence for Granite only, not for Surgeon Fateful Ring."}]}

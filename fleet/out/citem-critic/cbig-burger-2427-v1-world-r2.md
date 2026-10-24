@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbig-burger-2427-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3695, 6143, 6, 833] model=claude-haiku-5-5 -->
+# Big Burger
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "sources", "issue": "Empty sources list is consistent with every searched root. Client text lookup returns only locale:2427 and locale:2428. The wiki, articles and video have no hit. Repo and refs hits are only the client definition's 'Comment: Big Burger' line in ClientItemDefinitions.json (Legacy, Sanctuary, TCG-Files, Lxzxrus) and copies of the locale dat and citem packs. None of these is a vendor, quest, drop or store row.", "fix": "No change needed. Leave sources empty and retired null. live stays 'unsure'. The 'sources' rows in the quest-lines packs for this item only repeat the client strings, so they are not acquisition evidence."}]}

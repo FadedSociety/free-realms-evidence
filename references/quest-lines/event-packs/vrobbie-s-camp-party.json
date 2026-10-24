@@ -1,0 +1,46 @@
+{
+ "title": "Robbie's Camp Party",
+ "names_seen": [
+  "Robbie's Camp Party"
+ ],
+ "facts": [
+  {
+   "statement": "A Summer Camp community party was held in Robbie's Camp in the Greenwood Forest, with players encouraged to wear Robbie Camp clothing and bring a boom box.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Wear your Robbie Camp clothing, bring your boom box and get ready to dance around the campfire.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1534",
+   "date": "2010-06-14"
+  },
+  {
+   "statement": "The US and Latin America party ran Thursday June 17th, 2010 at 3pm Pacific Time on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday June 17th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1534",
+   "date": "2010-06-14"
+  },
+  {
+   "statement": "The UK and Europe party ran Friday June 18th at 9:00am Pacific Time / 4:00pm GMT on Server 1.",
+   "numbers": {
+    "start_hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday June 18th 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1534",
+   "date": "2010-06-14"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1534",
+   "date": "2010-06-14",
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com news post announcing a Community Event, the Robbie's Camp Party, held in Robbie's Camp in the Greenwood Forest on Server 1, with separate times for US/Latin America and UK/Europe. It also explains how players reach community events through the Game Guide calendar and GO button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

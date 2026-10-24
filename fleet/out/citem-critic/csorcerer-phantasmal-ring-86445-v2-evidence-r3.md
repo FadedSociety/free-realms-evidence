@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csorcerer-phantasmal-ring-86445-v2-evidence-r3 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3907, 4465, 6, 868] model=claude-haiku-5-5 -->
+# Sorcerer Phantasmal Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[4]", "issue": "The automatic id check flags locale:22454 as a NOT LIVE quest_objective string (Help Simone). The text cites it only to say the earlier evidence was removed, so it is not used as a source. It is still a flagged id in the answer and should not appear there.", "fix": "Delete the locale:22454 mention from open[4]. Say only that an earlier citation was removed because it was a locale-ID collision with definition Id 22454, with no id given. No source supports this ring, so the answer's sources stay empty."}]}

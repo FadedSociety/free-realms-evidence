@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iblake-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3588, 4966, 6, 923] model=claude-haiku-5-5 -->
+# Blake
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The claim that the repo notes say the Seaside Blake entry has 'no client match' conflicts with the client text itself: locale:92497 is exactly 'Blake' and typed npc_name. The NPC does have a client text tie, so the open item overstates the uncertainty about whether this NPC is real.", "fix": "Replace with: client text locale:92497 'Blake' is typed npc_name, and the wiki (Blake, rev 45819) describes a Seaside pixie NPC; the repo's three-name Seaside row is a grouping and does not by itself confirm the NPC's live status. Live status stays unknown."}]}

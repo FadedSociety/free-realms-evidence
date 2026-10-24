@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ipoison-tiger-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3216, 6945, 6, 977] model=claude-haiku-5-5 -->
+# Poison Tiger
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Tigers page is described as listing Poison Tiger 'with no price, vendor, or release note'. The Tigers page does say tigers 'are only available to be purchased with Station Cash' (wiki Tigers page, lists Poison Tiger under Notable Tigers/Rides). The claim is accurate for this item, since the page gives no price for it, but the answer omits that general Station Cash statement, which a builder might read as a hint.", "fix": "Optionally add: the Tigers page says tigers are 'only available to be purchased with Station Cash' in general, yet names no price or vendor for Poison Tiger (wiki: Tigers, rev as in refs)."}]}

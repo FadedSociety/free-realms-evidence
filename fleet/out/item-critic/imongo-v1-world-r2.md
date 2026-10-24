@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imongo-v1-world-r2 status=no_submit turns=2 usd=0.0017 tokens(read,write,in,out)=[3238, 9166, 6, 1059] model=claude-haiku-5-5 -->
+# Mongo
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer lists possible intended items (Mongo Smash, a Mongo-related reward) but misses the one item whose name contains Mongo. locale:7 is an item string 'Mongo's Glowy Axe'. It is not a Mongo drop, but a builder searching 'Mongo' would hit it, so the answer should say it was checked and ruled out.", "fix": "Add to open: 'locale:7 item \"Mongo's Glowy Axe\" exists. No evidence in the pack links it to Mongo's NPC or to any wiki page, vendor, quest or Station Cash source, so it is not treated as Mongo's item.' Also note that 'Mongo Smash' (locale:434928) is an ability string from Farmers Market, not an item."}]}

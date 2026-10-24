@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cflames-429645-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4322, 5956, 6, 836] model=claude-haiku-5-5 -->
+# Flames
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "The answer correctly records zero sources and says so. My own lookup finds no vendor, quest, store, or wiki page that names an item 'Flames' as a sourced item. The Fancy Flames T-Shirt (Player Studio, July 23 2013), Flames Face Paint Card, and Flickering Flames quest are different named items, so the answer is right to keep them separate.", "fix": "No change needed to the sources. Optional: the answer could note that locale:150049 'Flames food' (a 30-minute flame-aura food effect) is a separate client item that shares the name. It is not evidence for definition 77546 and should stay out of the sources unless its definition is linked."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjeweled-honey-necklace-99297-v1-evidence-r1 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[12720, 12934, 8, 1409] model=claude-haiku-5-5 -->
+# Jeweled Honey Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].claim", "issue": "The claim that slot 8 is named 'Ring'/'Necklace' overstates the cited note. Items and Inventory.md line 94 says slots 8 and 9 are Accessory1 and Accessory2 with client names 'Ring' and 'Necklace', but it does not map slot 8 to 'Necklace'. The item's slot 8 is not confirmed to be the necklace slot.", "fix": "Cite only what the note says: slots 8 and 9 are Accessory1/Accessory2, named 'Ring' and 'Necklace' (notes/Build Guides/Gameplay/Items and Inventory.md:94). Do not assign the name to slot 8 unless the client definition or slot table confirms it."}]}

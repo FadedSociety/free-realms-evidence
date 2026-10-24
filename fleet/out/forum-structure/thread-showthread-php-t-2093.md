@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2093 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2871, 4, 573] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin error page from the Free Realms fan forum (thread t=2093), not the thread itself. It shows a 'maximum number of posts you can view' registration prompt, plus forum navigation and section names only. It contains no game mechanics, items, quests, prices or events a rebuilder could use.", "facts": [], "quests": [], "uncertain": ["The thread's actual title, author, date and posts were not captured; the page only shows the forum's view-limit error.", "Forum section names (e.g. 'Items', 'Jobs/Classes', 'Membership / Stationcash') are navigation text, not game facts, so they were not recorded."]}

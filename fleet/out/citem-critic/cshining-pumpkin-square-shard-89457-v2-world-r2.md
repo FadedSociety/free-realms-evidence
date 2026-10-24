@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshining-pumpkin-square-shard-89457-v2-world-r2 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3857, 11089, 6, 1270] model=claude-haiku-5-5 -->
+# Shining Pumpkin Square Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The only source is labelled 'vendor', but the evidence is a stores.json coin-store row in category 121 with no vendor or NPC key. The pack's vendor_stock is empty. The row supports a coin-store listing, not a named vendor.", "fix": "Relabel as a coin-store listing (category 121, purchase 1236 coins, member 1112, sell 123). Keep the vendor as unknown, as the answer's own 'open' list already does. Source: repo:prototype/osfr-tools/data/content/stores.json line 3075, which I re-read and confirmed."}]}

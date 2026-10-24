@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-air-ring-89382-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3797, 4419, 6, 875] model=claude-haiku-5-5 -->
+# Faded Air Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The sibling list is incomplete. The client has more 'Faded <X> Ring' names than the answer gives, for example 89302 Faded Ethereal Ring, 89370 Faded Fire Ring, 89373 Faded Sun Ring, 89374 Faded Light Ring, and 89462-89467 (Ocean, Jungle, Grape, Honey, Ruby, Pumpkin). The 'one ring set or tier' reading is only a guess and is not backed by the full family. Fix: list the full family from locale (regex 'Faded .* Ring') and label the grouping as an unverified guess.", "fix": "Client locale: 89294-89302, 89370, 89373-89374, 89382-89384, 89462-89467 are all 'Faded <X> Ring'. No source is named for any of them in the pack."}]}

@@ -1,0 +1,85 @@
+{
+ "title": "Community Event: Memorial Caverns Pool Party",
+ "names_seen": [
+  "Community Event: Memorial Caverns Pool Party",
+  "Memorial Caverns Pool Party"
+ ],
+ "facts": [
+  {
+   "statement": "A community pool party event was held in the pools below the Memorial Caverns, hosted by the Community Team, with high dives, dancing, silly string fights and swimming.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Join the Community Team and all of your Free Realms friends in the pools below the Memorial Caverns for an exciting pool party!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2002",
+   "date": null
+  },
+  {
+   "statement": "The US and Latin America session was on Thursday January 20th, 2011 at 3pm Pacific Time on Server 1.",
+   "numbers": {
+    "year": 2011,
+    "month": 1,
+    "day": 20,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday January 20th, 2011 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2002",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session was on Friday January 21st at 9:00am Pacific Time (4:00pm GMT) on Server 1.",
+   "numbers": {
+    "day": 21,
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday January 21th 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2002",
+   "date": null
+  },
+  {
+   "statement": "A community pool party was held at the Memorial Caverns pool, with dancing, duels and swimming, on Server 1; scheduled for US/Latin America on Thursday 20 January 2011 at 3:00 Pacific time.",
+   "numbers": {
+    "start_hour_pacific": 3,
+    "date_day": 20,
+    "date_month": 1,
+    "date_year": 2011
+   },
+   "era": "live",
+   "quote": "Jeudi 20 janvier 2011 3h (heure du Pacifique) (États-Unis et l’Amérique latine) Serveur 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2007&request_locale=en_US",
+   "date": null
+  },
+  {
+   "statement": "The same pool party was repeated for UK and Europe on Friday 21 January 2011 at 18:00 CET (4:00 GMT), on Server 1.",
+   "numbers": {
+    "start_hour_cet": 18,
+    "start_hour_gmt": 4,
+    "date_day": 21,
+    "date_month": 1,
+    "date_year": 2011
+   },
+   "era": "live",
+   "quote": "Vendredi 21 janvier 2011 18h CET (Heure de Paris) / 4h:00 GMT (UK et l'Europe) Serveur 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2007&request_locale=en_US",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2002",
+   "date": null,
+   "title": "Community Event: Memorial Caverns Pool Party",
+   "summary": "A Free Realms community event announcement inviting players to a pool party in the Memorial Caverns, which lie in the caves of Sanctuary. The event ran on Server 1 on two dates, one for US and Latin America and one for UK and Europe. The article says players can reach the Memorial Caverns by teleporting to the Forgotten Caves battle via the atlas."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2007&request_locale=en_US",
+   "date": null,
+   "title": "Fête de la Piscine des Cavernes du Mémorial!",
+   "summary": "A French-language community event announcement (posted on the Free Realms site, roughly four and a half months before the June 2011 capture) inviting players to a pool party at the Memorial Caverns pool on Server 1, with the event on two dates timed for different regions. It says the Memorial Caverns lie deep in the Sanctuary Caves and can be reached from anywhere via the atlas teleport to the Forgotten Caves battle."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chighest-ranked-trophy-66975-v2-evidence-r3 status=done turns=4 usd=0.0021 tokens(read,write,in,out)=[18183, 8889, 10, 1702] model=claude-haiku-5-5 -->
+# Highest Ranked Trophy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The link between collections.json key wiki:6:171 (name 'Combat Trophies', client_id 1073741995) and catalogue collection id 169 (name_id 67535) is a name match only. Nothing in either file cross-references the two IDs. The answer presents it as confirmed, which overstates it.", "fix": "Say the link is by name: locale 67535 = 'Combat Trophies' matches collections.json:9818 and the wiki 'List of Collections' page, which lists [Combat] [Trophies]. The per-trophy acquisition path is still unknown."}]}

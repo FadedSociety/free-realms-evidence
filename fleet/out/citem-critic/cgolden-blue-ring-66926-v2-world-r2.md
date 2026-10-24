@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgolden-blue-ring-66926-v2-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3894, 8923, 6, 1279] model=claude-haiku-5-5 -->
+# Golden Blue Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4] (wiki News template)", "issue": "The cited wiki News template text reads 'Be there at Midnight Eastern Time ... to [ring] in 2014!' and the ring name appears only as a bracketed placeholder. The answer describes it as a client-linked item name in holiday update notes, which is a slight overreach. It supports no acquisition, so it does not change the sources, but the citation should say it is a '[ring]' placeholder in a New Year 2014 announcement, not a named item.", "fix": "Cite wiki Template:News as a New Year 2014 announcement using a '[ring]' placeholder; it names no acquisition method and no item id."}]}

@@ -1,0 +1,60 @@
+{
+ "title": "Wizard Hildegarde",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\robgoblin_treasure_trove.json"
+  },
+  {
+   "file": "dungeons\\robgoblin_treasure_trove.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:6946 [npc_name | - | Wizard Hildegarde] 'Wizard Hildegarde'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6946 [npc_name | - | Wizard Hildegarde] 'Wizard Hildegarde'",
+  "locale:7012 [quest_objective | Briarwood | Wizard Hildegarde] 'Defeat Wizard Hildegarde!'",
+  "locale:7013 [quest_dialog | Briarwood | Wizard Hildegarde] \"Hildegarde is the matriarch of this band of Robgoblins. As a 37th degree Wizard, she's one tough cookie! Defeat her in order to run off her band of trouble make\"",
+  "locale:7067 [quest_objective | - | Wizard Hildegarde] 'Robgoblins are stashing stolen loot in this trove! Venture in and defeat their leader, Wizard Hildegarde.'"
+ ],
+ "client_cluster": [
+  "locale:6938 [place | Snowhill | Snowhill Frozen Lake] 'Snowhill Frozen Lake'",
+  "locale:6939 [place | - | Rock Star Stage] 'Rock Star Stage'",
+  "locale:6940 [ability | - | Paralyzing Bite] 'Paralyzing Bite'",
+  "locale:6941 [item | - | Holiday Basket] 'Holiday Basket'",
+  "locale:6942 [item | - | Holiday Basket] \"A final gift from the Festival of Heart's Gifting Basket.\"",
+  "locale:6943 [item | - | Holiday Basket | FLAG dev_note: internal description of an item, not player-facing quest text] \"Some technical text to describe that this can't be picked up, but isn't a plant and thus differs from the gifting tree.\"",
+  "locale:6944 [npc_name | - | Robgoblin Bruiser] 'Robgoblin Bruiser'",
+  "locale:6945 [npc_name | - | Robgoblin Wiz-ord] 'Robgoblin Wiz-ord'",
+  "locale:6946 [npc_name | - | Wizard Hildegarde] 'Wizard Hildegarde'",
+  "locale:6947 [ability | - | Deep Mines - Bruiser Burp Blast] 'Deep Mines - Bruiser Burp Blast'",
+  "locale:6948 [other | - | Trading Card Game] 'Trading Card Game'",
+  "locale:6949 [place | - | Treasure War] 'Treasure War'",
+  "locale:6950 [ui | - | Broadcast from [*player*] | FLAG placeholder: chat template string] 'Broadcast from [*player*]: [*message*]'",
+  "locale:6951 [ui | - | Zone Broadcast from [*player*] | FLAG placeholder: chat template string] 'Zone Broadcast from [*player*]: [*message*]'",
+  "locale:6952 [ui | - | World Broadcast from [*player*] | FLAG placeholder: chat template string] 'World Broadcast from [*player*]: [*message*]'",
+  "locale:6953 [ui | - | [*message*] | FLAG placeholder: chat template string] '[*message*]'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:WuTrZmFvTmI/00204.jpg (-): npcs: Wizard Hildegarde nameplate boss | dialog: Wizard Hildegarde: Ouch! Medics! Heal me! | job_level: Warrior 9 | other_text: Robgoblin Treas Wizard Hildegarde Goals (2) Defeat Wizard Hildegarde! Bonus: Find Wizard Hildegarde's Spellbook!",
+  "video:qCG_K2piQgE/00016.jpg (Robgoblin Treasure Trove): npcs: Wizard Hildegarde nameplate  | dialog: Prepare to face the bruisers! Alakagrmgnnmm! | quest:   Defeat Wizard Hildegarde! Bonus: Find Wizard Hildegarde's Spellbook!  | job_level: Medic 10 | other_text: Goals (2) Defeat Wizard Hildegarde! Bonus: Find Wizard Hildegarde's Spell",
+  "video:qCG_K2piQgE/00022.jpg (Robgoblin Treasure Trove): npcs: Wizard Hildegarde nameplate  | dialog: Hmm...that wasn't right. Hold on a second... I got it! Alakazam! | quest:   Defeat Wizard Hildegarde! Bonus: Find Wizard Hildegarde's Spellbook!  | job_level: Medic 10 | other_text: Goals (2) Defeat Wizard Hildegarde! Bonus: Find Wizar",
+  "video:WuTrZmFvTmI/00216.jpg (Robgoblin Treas...): npcs: Wizard Hildegarde dialog_header boss | dialog: Wizard Hildegarde: You want to see some pretty magic? Stand still and I'll show you! Wizard Hildegarde: Hey, take it easy! Medic! | quest:   Defeat Wizard Hildegarde! Bonus: Find Wizard Hildegarde's Spellbook! (checked)  | land",
+  "video:WuTrZmFvTmI/00214.jpg (-): npcs: Wizard Hildegarde dialog_header boss | dialog: Wizard Hildegarde: You want to see some pretty magic? Stand still and I'll show you! Wizard Hildegarde: Hey, take it easy! Medic! | job_level: Warrior 9 | other_text: Robgoblin Treas Wizard Hildegarde Goals (2) Defeat Wizard Bo"
+ ],
+ "article_facts": [
+  "fact:npc: The wizard Hildegarde watches over the Robgoblin Trove along with her guards. | The Trove is watched over by the wizard Hildegarde and her guards. (http://www.freerealms.com:80/article/detail.action?articleId=195)",
+  "fact:location: The Robgoblin Trove is a cave south of the Robgoblin Camp where the Robgoblins store stolen loot; it is guarded by the wizard Hildegarde and her guards, who must all be defeated to get the loot. | In a cave to the south of the camp is the Robgoblin Trove. (http://www.freerealms.com:80/article/detail.action?articleId=195)",
+  "summary: A Free Realms 'What is New?' post describing the Robgoblin Camp, a makeshift campsite north of Sanctuary between Highroad Junction and Shrouded Glade. It covers the camp's vendors, the NPCs Boss Bigguns and Fizzlesticks (who teaches the wizard class after his  (http://www.freerealms.com:80/article/detail.action?articleId=195)"
+ ],
+ "quest_answers_naming_it": []
+}

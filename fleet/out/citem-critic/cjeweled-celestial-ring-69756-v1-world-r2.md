@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjeweled-celestial-ring-69756-v1-world-r2 status=no_submit turns=2 usd=0.0018 tokens(read,write,in,out)=[3915, 10712, 6, 897] model=claude-haiku-5-5 -->
+# Jeweled Celestial Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Checked the repo, refs and wiki/client lookups myself. The only hits for 'Jeweled Celestial Ring' are the locale dump in the opening-harvesting extracts (locale line 197279803, ugdt type). No vendor, quest, recipe or wiki page names it. The Brittle shards and the Jeweled Axe hits are not tied to the ring. The answer's 'unsure' live status and empty sources match the evidence.", "fix": "No change needed. Keep sources empty, retired null and live unsure. Only a recipe table or wiki page naming the ring would let a builder assign a source."}]}

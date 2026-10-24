@@ -1,0 +1,35 @@
+{
+ "title": "Fairy Cultists",
+ "our_entries": [
+  {
+   "file": "dungeons\\den_of_secrets.json",
+   "definition_id": 930010
+  },
+  {
+   "file": "npcs/merry_vale.json",
+   "npc_id": 9500000383,
+   "zone": "Merry Vale",
+   "enemy_kind": "Enemy types of the cave line; not quest givers.",
+   "location_evidence": [
+    "The outskirts and the Den."
+   ]
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:388542 [quest_objective | - | Fairy Cultists] 'Handle some Fairy Cultists'",
+  "locale:388543 [quest_objective | - | Fairy Cultists] \"Give some Fairy Cultists a rundown they'll never forget!\""
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Fairy Cultist",
+  "text": "The Fairy Cultist is a fairy enemy NPC that can be found in Merry Vale.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Fairy\nCategory:Merry Vale"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "other target in 'Contract: Thinning Their Numbers' (final): Handle the fairy cultists and robgoblin fishmongers nearby; the pixies of the Pixie Nursery are being threatened. No cou"
+ ]
+}

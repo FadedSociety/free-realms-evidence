@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-kitty-fairy-shoes-pl-kitty-fairy-shoes-80222-v2-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3689, 6684, 6, 953] model=claude-haiku-5-5 -->
+# {n}Kitty Fairy Shoes{pl="Kitty Fairy Shoes"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3].source", "issue": "The answer cites articles fact 2521 (freerealms.com articleId=2521) for the Valentine's Kiri promo, but the evidence pack's article_facts is empty and my articles lookup returned no fact 2521. The promo text itself is supported only by locale:3685, which I verified.", "fix": "Cite locale:3685 (text verified: 'Valentine's Special! Buy Kiri and get the Kitty Fairy Outfit free!') and drop the unverified article citation, or add the article fact to the pack if it exists."}]}

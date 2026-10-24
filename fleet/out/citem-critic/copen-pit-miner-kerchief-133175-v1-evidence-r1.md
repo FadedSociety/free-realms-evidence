@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=copen-pit-miner-kerchief-133175-v1-evidence-r1 status=no_submit turns=4 usd=0.0033 tokens(read,write,in,out)=[25957, 16612, 10, 1857] model=claude-haiku-5-5 -->
+# Open-Pit Miner Kerchief
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail (stock note)", "issue": "The 'Added 15 Oct 2013 (wiki)' date is attributed to the wiki, but the wiki's Vaal 'Sells' text I pulled (lookup, and the npc-packs excerpt) lists the four items with no date. The date appears only in repo notes and vendors.json/snowhill.json stock descriptions, so it is an internal annotation, not wiki-sourced.", "fix": "Drop the date attribution or cite it as a repo annotation (vendors.json:36727 / npcs/snowhill.json:44484). The wiki-backed claim is only that Vaal's Sells list names 'Open-Pit Miner Kerchief' (wiki Vaal, section Sells; vendors.json:37072-37113)."}]}

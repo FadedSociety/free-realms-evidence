@@ -1,0 +1,28 @@
+{
+ "title": "TCG Booster Pack weekend sale",
+ "names_seen": [
+  "TCG Booster Pack weekend sale"
+ ],
+ "facts": [
+  {
+   "statement": "The TCG booster pack sale ran from midnight Saturday 1 September until 19:00 Tuesday 4 September.",
+   "numbers": {
+    "end_hour_24h": 19
+   },
+   "era": "live",
+   "quote": "à partir de minuit le samedi 1er septembre au mardi 4 septembre à 19:00",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2757",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2757",
+   "date": null,
+   "title": "Free Realms - ¿Qué novedades hay? (TCG booster pack weekend sale; headline: Faites le plein de série 1 à 3 de Booster du JCC ce week-end!)",
+   "summary": "A short SOE news post (Spanish-language page, French body text) announcing a weekend sale of Free Realms Trading Card Game (JCC) booster packs for Sets 1 to 3. The sale ran from midnight Saturday 1 September to 19:00 Tuesday 4 September, with packs at a special price of 199 SC, 50 SC off the individual booster price. The post's exact year is not stated; the capture-relative age suggests late August 2012."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

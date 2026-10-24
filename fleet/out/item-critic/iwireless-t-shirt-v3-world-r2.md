@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwireless-t-shirt-v3-world-r2 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[9606, 6323, 8, 1358] model=claude-haiku-5-5 -->
+# Wireless T-Shirt
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor wording: the membership source is correctly evidenced (Items column, July 2012 row, no coin price). The 10,000 in the Coins column is the per-month grant shared by every 2012-2013 row, so it is not an item price. The answer handles this correctly, but the 'open' note still says the critic's pack-grant text was not re-read; that reading is now confirmed by the archive's column structure (rows June 2012 to March 2013 all carry 10,000).", "fix": "No change to the source. Could state in the evidence that the Coins column is 10,000 on every 2012-2013 row, which supports reading it as a pack grant (freerealms-wiki/wikitext/10814-45659-024ff38958d5.wiki:5-47)."}]}

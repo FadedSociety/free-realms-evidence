@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iflying-dragon-dojo-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3390, 8222, 6, 1152] model=claude-haiku-5-5 -->
+# Flying Dragon Dojo
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The location reading holds. Locale 510187 is quest dialog about learning the dojo's past, the wiki page is a building in Seaside with categories Locations/Seaside/Seaside Locations, and Seaside lists it under Points of Interest. No coin, Station Cash, drop or quest-reward item named Flying Dragon Dojo turns up in client, wiki or articles. Nothing is misattributed.", "fix": "Optional tightening: the pack omits the alias 'Abandoned Dojo', which the wiki page gives ('also known as the Abandoned Dojo') and which the client carries as locale 116992 'Abandoned Dojo'. Adding it would help a builder searching under that name find this location entry."}]}

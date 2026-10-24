@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=camatuer-backwater-square-shard-8345-v2-evidence-r3 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4082, 7466, 6, 1268] model=claude-haiku-5-5 -->
+# Amatuer Backwater Square Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The source is a coin store listing in stores.json, not a named vendor. The 'vendor' type and the 'Unnamed coin store vendor' label are an inference: no NPC, zone or vendors.json row ties item 2157 to a vendor. The price data itself is verified.", "fix": "Keep the price claim as 'coin store listing, category 121, 540 coins (member 486)' (repo:prototype/osfr-tools/data/content/stores.json:620). Label the vendor as unknown until the category 121 NPC is found. The answer already says this in open[0], so only the type label needs to match it."}]}

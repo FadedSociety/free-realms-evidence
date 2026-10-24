@@ -1,0 +1,41 @@
+{
+ "title": "Dahlia",
+ "our_entries": [
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000890,
+   "zone": null,
+   "enemy_kind": "Gardener who wants Twisted Serpent venom pouches and sends relished choychoy to Merri De'Flor in Lakeshore (392402446).",
+   "location_evidence": [
+    "Not stated."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:38035 [npc_name | - | Dahlia] 'Dahlia'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:38035 [npc_name | - | Dahlia] 'Dahlia'",
+  "locale:77906 [quest_dialog | - | Dahlia] \"You're growing up fast, Dahlia! Soon you'll need a bigger pot!\"",
+  "locale:116719 [quest_objective | Lakeshore | Dahlia] \"Dahlia has asked you to deliver some relished choychoy to her friend, Merri De'Flor, in Lakeshore.\"",
+  "locale:116720 [quest_objective | - | Dahlia] 'Dahlia has asked you to get venom pouches from the Serpents in the Floren Forest. '"
+ ],
+ "client_cluster": [
+  "locale:38027 [npc_name | - | Blazing Star] 'Blazing Star'",
+  "locale:38029 [npc_name | - | Funnel Bindweed] 'Funnel Bindweed'",
+  "locale:38031 [npc_name | - | Zinnea Magnolio] 'Zinnea Magnolio'",
+  "locale:38033 [npc_name | - | Oxalis Shamrock] 'Oxalis Shamrock'",
+  "locale:38035 [npc_name | - | Dahlia] 'Dahlia'",
+  "locale:38037 [npc_name | - | Calla] 'Calla'",
+  "locale:38039 [other | - | Bulb | FLAG fragment: single word] 'Bulb'",
+  "locale:38041 [quest_title | - | Round Up the Loose Penguins!] 'Round Up the Loose Penguins!'",
+  "locale:38042 [quest_dialog | - | Fishy Business] \"I saw a bunch of cats lugging around fish. All the cats in town are owned by someone, right? <BR><BR>Can you <font color='#d9781a'>check</font> all of the <font\"",
+  "locale:38043 [quest_title | - | Fishy Business] 'Fishy Business'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

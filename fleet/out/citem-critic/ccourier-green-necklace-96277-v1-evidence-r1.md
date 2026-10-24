@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccourier-green-necklace-96277-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3625, 7939, 6, 1052] model=claude-haiku-5-5 -->
+# Courier Green Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that a 12-item courier family of rings and necklaces exists rests on locale 96156-96161 and a client-definition block. I confirmed the necklace locales and the Legacy definition, but I did not re-verify the ring locale range. The 'Courier Green Ring' and 'Courier Mustard Ring' strings do exist in the locale dump, so the family claim is plausible, though it is not fully checked.", "fix": "Re-read locale 96156-96161 and the matching ClientItemDefinitions block to confirm the ring set before stating the 12-item count."}]}

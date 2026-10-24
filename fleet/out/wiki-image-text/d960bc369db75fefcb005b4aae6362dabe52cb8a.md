@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=d960bc369db75fefcb005b4aae6362dabe52cb8a status=done turns=2 usd=0.0005 tokens(read,write,in,out)=[2003, 2203, 6, 498] model=claude-haiku-5-5 -->
+# Wizard's Flair Shard of Necromancy item.jpg
+
+{"kind": "item_tooltip", "has_text": true, "text": "Wizard's Flair Shard\nof Necromancy\nBe spooky all year round.\nResell Value: 150\nYou Own: 1\nEquippable State:\nThis item is currently equipped.\nRequired: Level 12, Wizard", "tooltip": {"name": "Wizard's Flair Shard of Necromancy", "name_locale_id": 131304, "subtitle": "Be spooky all year round.", "power": null, "required_level": 12, "required_job": "Wizard", "resell_value": 150, "price": null, "member_price": null, "price_currency": null, "you_own": 1, "equippable_state": "This item is currently equipped.", "other_fields": {}, "abilities": []}, "entries": null, "uncertain": ["The subtitle 'Be spooky all year round.' matches locale id 134406 and is shown as a flavor line, not a stat."]}

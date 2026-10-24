@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpink-square-tiger-block-30199-v1-evidence-r1 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[11374, 9037, 8, 1468] model=claude-haiku-5-5 -->
+# Pink Square Tiger Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only evidence is a stores.json row (item 77099, category 147, purchase 250, member 225 at 10%, sell 25, no_sale false). That row proves a coin-store sale and price, not a named vendor. The 'vendor' label is the first-pass guess carried into the answer.", "fix": "Label the source as a coin store sale (category 147, 250 coins) with vendor null. Only call it a vendor once a vendor or store id for category 147 is evidenced. Repo: prototype/osfr-tools/data/content/stores.json line 16430."}]}

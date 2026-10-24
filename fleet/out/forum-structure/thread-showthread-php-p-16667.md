@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-16667 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2870, 4, 488] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is only the vBulletin chrome of freerealmsforums.com: a 'maximum number of posts you can view' registration error, navigation, a forum index, and footer. It contains no thread text, guide, or game information, so there is nothing about Free Realms mechanics, items, quests, prices, or events for the rebuild to use.", "facts": [], "quests": [], "uncertain": ["The actual thread content (the post the URL p=16667 points to) was not captured; only the error and navigation page appeared.", "The page date is unknown; only the capture date 2009-05-20 is given.", "No author is shown."]}

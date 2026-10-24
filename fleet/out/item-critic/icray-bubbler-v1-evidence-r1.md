@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icray-bubbler-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3155, 4625, 6, 1033] model=claude-haiku-5-5 -->
+# Cray Bubbler
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that repo notes list Cray Bubbler as 'not a vendor or reward item' overreaches. Notes line 164 only says 'Open-world cray' and 'combat-area enemies (wiki Cray Snapper, Cray Bubbler)'. It says nothing about vendors or rewards either way.", "fix": "Cite it only as: notes/Build Guides/Content/NPCs/NPCs - Seaside.md:164 lists Cray Bubbler as an open-world combat-area cray enemy. The 'not a vendor or reward' conclusion rests on the absence of any vendor or reward row, which should be stated as such."}]}

@@ -1,0 +1,30 @@
+{
+ "title": "Wraiths",
+ "our_entries": [
+  {
+   "file": "dungeons\\bone_bog_cemetery.json",
+   "definition_id": 930072
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:416018 [quest_objective | - | wraiths] 'Collect bone shards from wraiths'",
+  "locale:416019 [quest_objective | - | wraiths] 'Retrieve spectral bone shards from wraiths in Bone Bog Cemetery.'"
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Wraith",
+  "text": "The Wraith is an enemy NPC that appears throughout Blackspore Swamp.\n\nAppearances\nFree Realms Official First Birthday Yearbook\nFree Realms Halloween TV Spot 2010\nBone Bog Cemetery\nWraiths of Wrath!\nFree Realms Issue 7\nTrading Card Game Series 4\n\nGallery\nIn-Game\n\nComic\n\nArtworks\n\nCategory:NPC\nCategory:Enemies\nCategory:Blackspore\nCategory:Super Spooktacular\nCategory:Seasonal\nCategory:Comic\nCategory:Trading Card Game"
+ },
+ "images": [],
+ "video": [
+  "video:8F4ZomE2kxI/00250.jpg (-): quest: Consumed by the Past  Defeat all wraiths  | landmarks: mossy stone and flowers | job_level: Ninja  | other_text: Goals (1) Defeat all wraiths",
+  "video:8F4ZomE2kxI/00272.jpg (-): quest: Consumed by the Past  Defeat all wraiths  | landmarks: grassy marsh stone outcrop | job_level: Ninja  | other_text: Goals (1) Defeat all wraiths",
+  "video:8F4ZomE2kxI/00234.jpg (-): quest: Consumed by the Past  Defeat all wraiths  | landmarks: hanging vines dark marsh field | job_level: Ninja  | other_text: Goals (1) Defeat all wraiths",
+  "video:8F4ZomE2kxI/00298.jpg (-): quest: Consumed by the Past  Defeat all wraiths  | landmarks: mountain ridge dark marsh field | job_level: Ninja  | other_text: Goals (1) Defeat all wraiths",
+  "video:8F4ZomE2kxI/00300.jpg (-): quest: Consumed by the Past  Defeat all wraiths  | landmarks: mountain ridge dark marsh field | job_level: Ninja  | other_text: Goals (1) Defeat all wraiths"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

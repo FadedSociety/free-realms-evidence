@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cayani-postcard-1490-v1-evidence-r1 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[11888, 9694, 8, 1443] model=claude-haiku-5-5 -->
+# Ayani Postcard
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4]", "issue": "The claim that the description line 'This item can be added to the Postman Postcards Collection' (ucdt 300118664) is the description for the Postman Postcards set is supported. The cited path is the test-data copy, where the line is at en_us_data.dat:7968; the journal copy puts it at line 7971. The cite works, but it should name the file that carries the line.", "fix": "Cite locale id 300118664 (ucdt 'This item can be added to the Postman Postcards Collection'), e.g. refs:FreeRealmsLocaleTools/test/.../en_us_data.dat:7968. Its wording confirms the set-level text, and Ayani Postcard's own description ('This item can be added to a collection.') names no set."}]}

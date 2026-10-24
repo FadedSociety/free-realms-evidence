@@ -1,0 +1,74 @@
+{
+ "title": "Prince of Low Tide",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\prince_of_low_tide.json"
+  },
+  {
+   "file": "dungeons\\prince_of_low_tide.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:116053 [quest_title | - | Prince of Low Tide | FLAG flag?] 'Prince of Low Tide!'",
+  "locale:116195 [quest_title | - | Prince of Low Tide] 'Prince of Low Tide'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:116053 [quest_title | - | Prince of Low Tide | FLAG flag?] 'Prince of Low Tide!'",
+  "locale:116195 [quest_title | - | Prince of Low Tide] 'Prince of Low Tide'",
+  "locale:116196 [ui | - | Prince of Low Tide | FLAG placeholder: format string \"%s %s\"] '%s %s'",
+  "locale:116199 [quest_objective | - | Prince of Low Tide] 'Stolen stuff'",
+  "locale:116200 [npc_dialog | - | Prince of Low Tide] 'They found us!'",
+  "locale:116201 [npc_dialog | - | Prince of Low Tide] 'Which of you was followed? Idiots!'",
+  "locale:116202 [npc_dialog | - | Prince of Low Tide] 'Get them!'",
+  "locale:116203 [ui | - | Prince of Low Tide | FLAG fragment: menu option] 'Give Orders'",
+  "locale:116204 [other | - | Prince of Low Tide | FLAG dev_note: internal ability description] 'prince_of_low_tide 186: changes nearby servants to opponent disposition'",
+  "locale:116205 [npc_dialog | - | Prince of Low Tide] 'I am the prince! I said get them!'",
+  "locale:116219 [npc_dialog | - | Prince of Low Tide] \"I need smarter servants. I'll get you myself!\"",
+  "locale:116220 [npc_dialog | - | Prince of Low Tide] 'The water will get you!'",
+  "locale:116222 [other | - | Prince of Low Tide | FLAG dev_note: deprecated boss ability] 'prince_of_low_tide 186: Boss extra attack (deprecated)'",
+  "locale:116225 [quest_objective | - | Prince of Low Tide] 'You have to help me! That bully is blocking the exit!'",
+  "locale:116229 [other | - | Prince of Low Tide | FLAG dev_note: deprecated base pop ability] 'prince_of_low_tide 186: Base pop extra attack (deprecated)'",
+  "locale:117009 [quest_dialog | - | Prince of Low Tide] 'The water around the prince no longer looks safe!  Look out!'"
+ ],
+ "client_cluster": [
+  "locale:116045 [item | - | Ninja Clothing] 'Ninja Clothing'",
+  "locale:116046 [npc_name | - | Mysticglint] 'Mysticglint'",
+  "locale:116047 [item | - | Wizard Clothing] 'Wizard Clothing'",
+  "locale:116048 [quest_objective | Briarwood | Lyrral Pathfinder] 'Find Lyrral Pathfinder in Briarwood.'",
+  "locale:116049 [quest_dialog | - | Thank you, thank you. You're too kind! | FLAG fragment: reply option with no quest meaning on its own] \"Thank you, thank you. You're too kind!\"",
+  "locale:116051 [quest_objective | Nettleseed | Sperry's hut] \"Scout the location near Sperry's hut, in northern Nettleseed.\"",
+  "locale:116052 [quest_dialog | - | Raina's pen] \"I'll sign autographs as soon as I find my pen.\"",
+  "locale:116053 [quest_title | - | Prince of Low Tide | FLAG flag?] 'Prince of Low Tide!'",
+  "locale:116054 [quest_title | - | Brutus the Brute] 'Brutus the Brute!'",
+  "locale:116055 [quest_title | - | Call of the Wildest] 'Call of the Wildest!'",
+  "locale:116057 [quest_title | - | Unrooted Terror] 'Unrooted Terror!'",
+  "locale:116058 [quest_title | - | Spawn of Necrosis] 'Spawn of Necrosis!'",
+  "locale:116059 [quest_objective | Sanctuary | Deliver the mail] 'Deliver the mail in Sanctuary. Watch out for the dog named Streak!'",
+  "locale:116060 [quest_objective | - | The Cray Prince] 'The Cray Prince is stealing souvenirs from locals and visitors! Defeat him so he returns to Cray Caves.'",
+  "locale:116061 [quest_objective | - | Brutus the Brute] \"Wizard Hildegarde's enforcer Brutus is forcibly &quot;collecting taxes&quot; from residents! Knock this thieving brute out so he returns to Robgoblin Trove!\""
+ ],
+ "wiki": {
+  "title": "Prince of Low Tide",
+  "text": "Were you look for the battle?\n\nThe Prince of Low Tide is a cray NPC boss that can be found in the battle of the same name, located in Seaside, where he can be found anywhere on the main beach, on the cove beach, or around the oceanfront homes. He is the cray prince who stealing souvenirs from locals and visitors, it is up to the player to come and defeat him, so he returns to the Cray Caves.\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Cray\nCategory:Seaside"
+ },
+ "images": [
+  "image (image:art_or_promo): Prince of Low Tide",
+  "image (image:world_screenshot): Ithril\n4\nWizard\nScreen Capture\nPrince of Low Tide\n79m\nSommer Trails\n79m\nBowling Ball\n88m\nIthril\n<iBelieve>\nAudrye Jean\n12m\nSpritzy\n57m\nUpgrade Now\nfor\nPower Hour!"
+ ],
+ "video": [
+  "video:506rO_mhaSs/00214.jpg (-): npcs: Prince of Low Tide nameplate  | dialog: Prince of Low Tide: Water will wash you away! [Prince of Low Tide]: Water will wash you away! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide  | landmarks: Green swamp field with a crab-like boss | job_level: Medic 19 ",
+  "video:506rO_mhaSs/00186.jpg (-): npcs: Prince of Low Tide nameplate  | dialog: Prince of Low Tide: The water will get you! [Prince of Low Tide]: The water will get you! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide!  | landmarks: Green misty grove | job_level: Medic  | other_text: Goals (1)",
+  "video:506rO_mhaSs/00108.jpg (-): dialog: [Prince of Low Tide]: They found us! [Prince of Low Tide]: Which of you was followed! Idiots! [Prince of Low Tide]: Get them! [Prince of Low Tide]: I am the prince! I said get them! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide! Knock out some Cray Royal",
+  "video:506rO_mhaSs/00110.jpg (-): dialog: [Prince of Low Tide]: They found us! [Prince of Low Tide]: Which of you was followed! Idiots! [Prince of Low Tide]: Get them! [Prince of Low Tide]: I am the prince! I said get them! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide! Knock out some Cray Royal",
+  "video:506rO_mhaSs/00114.jpg (-): dialog: [Prince of Low Tide]: They found us! [Prince of Low Tide]: Which of you was followed! Idiots! [Prince of Low Tide]: Get them! [Prince of Low Tide]: I am the prince! I said get them! | quest: Cook-off Catastrophe  Knock out the Prince of Low Tide! Knock out some Cray Royal"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

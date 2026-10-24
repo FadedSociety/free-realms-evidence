@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=c100-crystal-fuel-67405-v2-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3880, 8951, 6, 956] model=claude-haiku-5-5 -->
+# 100 Crystal Fuel
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources / open", "issue": "The answer correctly leaves sources empty and status unknown. I found no evidenced vendor, coin-store, quest, drop, or event source for 100 Crystal Fuel, so nothing contradicts the other sources. The 'Required: Level 1 Any Job' note is correctly limited to the 1000 tier page.", "fix": "No change needed for pass. Optionally, check /prototype/osfr-tools/data/content/collection_catalogue.json around the Derby Kart Fuel collection (name_id 67589, around line 17129) for a collection reward or unlock row that might name how the tiers are obtained. The answer should then say it was checked."}]}

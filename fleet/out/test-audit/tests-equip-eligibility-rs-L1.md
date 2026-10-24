@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-equip-eligibility-rs-L1 status=done turns=7 usd=0.0088 tokens(read,write,in,out)=[94962, 27504, 16, 8818] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/equip_eligibility.rs lines 1-478 of 478
+
+Window reviewed: `prototype/osfr-tools/tests/equip_eligibility.rs` lines 1-478, checked against `src/inventory.rs` (`route`, `equip`, `ineligible`, `Requirement::from_wire`, `EquipContext`). Most of the window holds up: the refusal table pins the message, the state, and a canary per case; the garbage-row test really fails open (string length i32::MAX makes `from_wire` return the default); the row offsets (54 gender, 66 members, 80 min rank) match the code.
+
+- **[medium] tests/equip_eligibility.rs:427 unequip_needs_an_unlocked_profile_and_keeps_inactive_outfits - the "required slots are not banned" check is `assert!(...is_ok())`, which passes for any Ok reply, including a refusal.**
+  - Why it cannot catch a regression: a change that bans unequipping required slots (3 or 4) by returning `refused(...)` (an `Ok` with `changed: false`) still satisfies `is_ok()`. Even a change that returns `Ok` with nothing done passes. The test asserts nothing about what happens.
+  - Fix: assert the outcome. For `request(2, &[3, 2])` on profile 2 slot 3 (empty in the fixture), assert `changed == false` and the exact reply, or make the slot non-empty first and assert `changed == true` and `worn(&inventory, 2, 3) == 0`. Either way the check must fail if the required-slot rule changes.
+
+- **[medium] tests/equip_eligibility.rs:404 unequip_needs_an_unlocked_profile_and_keeps_inactive_outfits - the name claims inactive outfits are kept, but no assertion checks profiles 1 or 2.**
+  - Why it cannot catch a regression: the only state checks are `worn(&inventory, 3, 3) == 0` and the whole-state equality on the refusal. An unequip that also clears the same slot on another profile (for example, one that matches on slot alone, or resets all equipment for the account) would still pass, because profiles 1 and 2 are never compared after the successful unequip.
+  - Fix: after the successful unequip at line 420-425, assert `worn(&inventory, 1, 3) == 10`... more precisely, compare the equipment entries for profiles 1 and 2 with their values from `before` (e.g. `equipment` filtered by `profile_id != 3` equals before's), so the test fails if an inactive outfit is touched. Otherwise rename the test to drop "keeps inactive outfits".

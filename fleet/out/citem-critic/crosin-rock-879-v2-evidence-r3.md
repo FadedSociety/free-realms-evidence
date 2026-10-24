@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crosin-rock-879-v2-evidence-r3 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3985, 8797, 6, 1270] model=claude-haiku-5-5 -->
+# Rosin Rock
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "The answer says no event or minigame reference names Rosin Rock, but the asset manifest has icon_minigame_smelting_rosin_rock_32/64/128.dds (repo osfr-asset-manifest/Assets_manifest.txt:106953-106955). That is a smelting-minigame icon for Rosin Rock. It does not prove a source, but it is an unexamined lead that the answer should have listed in open.", "fix": "Add to open: 'Asset manifest has icon_minigame_smelting_rosin_rock icons (Assets_manifest.txt:106953); the smelting minigame may be the acquisition path, unconfirmed. Check the smelting minigame's reward or input tables before adding a source.' Keep sources empty until that is evidenced."}]}

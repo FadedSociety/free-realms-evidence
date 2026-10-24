@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwilds-doll-shirt-40732-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4109, 8376, 6, 1412] model=claude-haiku-5-5 -->
+# Wilds Doll Shirt
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The 'Robgoblin' spawn and 'Northern Wilds' area come from the collection-level CollectInfobox for Wilds Queen Doll, not from any per-piece source. The answer labels it as collection spawn, and the open list admits per-piece acquisition is unknown. This is honest but thin: the item-level source is the collection membership only.", "fix": "Keep the source as collection membership. Cite refs freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki lines 575-592 (=== Wilds Queen Doll === with spawn Robgoblin, area Northern Wilds, reward Queen Wilds Doll + 21 Gold Coins) and state explicitly that the spawn applies to the collection, not to the individual piece."}]}

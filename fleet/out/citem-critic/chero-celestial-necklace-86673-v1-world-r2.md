@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chero-celestial-necklace-86673-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3881, 4293, 6, 901] model=claude-haiku-5-5 -->
+# Hero Celestial Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live / retired", "issue": "Left as 'unsure' and null. This is an honest unknown, not a wrong claim. The pack has no retired or live evidence for this item.", "fix": "No change needed. Keep live as unknown and retired as null until a source or retirement signal is found."}, {"field": "open", "issue": "The note that the Hero necklace family may be a level or class-tier reward set is a guess, not a source. It is correctly flagged as unconfirmed.", "fix": "Keep it in open. Do not promote it to a source without a quest, drop or vendor line naming the item."}]}

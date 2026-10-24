@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccheese-arched-block-8675-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3882, 9785, 6, 1535] model=claude-haiku-5-5 -->
+# Cheese Arched Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type / where", "issue": "The single source is a coin-store row with no vendor identity. Its type 'vendor' and where: null are a placeholder for an unnamed store listing, not a named stocking NPC. The answer says so honestly in 'open', so it is not a false claim, but the type label overstates what is evidenced.", "fix": "Keep the coin-store row (repo stores.json line 8292: item 32661, category 147, purchase 5, member 4, sell 1, no_sale false, source_tags L1,L2,L4,R2,T633,R1; client coin_store_prices [5]) and label it as a coin-store listing with the vendor unidentified, rather than a vendor source. Price and currency are correct as stated."}]}

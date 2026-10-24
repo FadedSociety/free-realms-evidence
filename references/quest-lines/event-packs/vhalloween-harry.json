@@ -1,0 +1,30 @@
+{
+ "title": "Halloween Harry",
+ "names_seen": [
+  "Halloween Harry"
+ ],
+ "facts": [
+  {
+   "statement": "Halloween Harry joined the shopkeepers in decorating Pixiewood for the Trick or Treat party in Sanctuary.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Los dueños de la tienda y Halloween Harry han engalanado Pixiewood",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1870",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1870",
+   "date": null,
+   "title": "Evento Comunitario: Fiesta de Truco o Trato en Santuario",
+   "summary": "A Spanish-language community event notice (captured under the 'What is New?' page) announcing a Trick or Treat party in Sanctuary to celebrate the second anniversary of the Super Spooktacular edition. It gives the event dates and server (Server 1) for the US/Latin America and UK/Europe sessions in October 2010. The article's own posting date is not shown; only the event dates are given."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Bag Snatchers (final, live yes)",
+  "Candy Gram (final, live yes)",
+  "Delicious Goo'd Candy (final, live yes)"
+ ]
+}

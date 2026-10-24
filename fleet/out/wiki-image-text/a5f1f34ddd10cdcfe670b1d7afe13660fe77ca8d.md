@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=a5f1f34ddd10cdcfe670b1d7afe13660fe77ca8d status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2750, 4, 735] model=claude-haiku-5-5 -->
+# FR comics AshCinderflame.jpg
+
+{"kind": "art_or_promo", "has_text": true, "text": "WAIT UP!\nN.\nD...\nJUST...\nSH...\nDOE...", "tooltip": null, "entries": null, "uncertain": ["This is a comic-book panel showing a woman in a pink tracksuit holding a small blue dog with a purple collar; no name caption appears in the image itself. The name Ash Cinderflame comes from the wiki page, not from the picture.", "Speech bubbles are cut off at the panel edges. Top-left shows only 'N.' at the edge, top-right shows a partial 'D' over 'JUST', and bottom-right shows partial 'SH' over 'DOE'. The full wording of these bubbles is not legible.", "No proper names are legible in the image, so no locale lookup was made."]}

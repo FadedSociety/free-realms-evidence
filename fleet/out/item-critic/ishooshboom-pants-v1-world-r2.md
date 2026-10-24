@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ishooshboom-pants-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3427, 9750, 6, 1119] model=claude-haiku-5-5 -->
+# Shooshboom Pants
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The source is a Snow Days Mystery Chest, which is a chest, not a place. 'where' is null and the event's dates and chest cost are not evidenced in the pack. The entry is correct as far as it goes but is less specific than a builder would want.", "fix": "Keep the source as the Snow Days Mystery Chest. Fill 'where' or the chest price only if a source is found; the wiki 'Mystery Chest' page says only 'Only available during Snow Days this Mystery Chest is filled with the best Shooshbooming Gear' (locale:538242680), with no price or date."}]}

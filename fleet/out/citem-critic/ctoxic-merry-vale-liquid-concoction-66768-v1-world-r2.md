@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctoxic-merry-vale-liquid-concoction-66768-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4049, 5763, 6, 1316] model=claude-haiku-5-5 -->
+# Toxic Merry Vale Liquid Concoction
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The wiki citation is looser than stated. The List of Collections and the Merry Vale page both name the collection '[Merry] [Vale] [Liquid] [Concoction]', but neither ties the single entry 'Toxic Merry Vale Liquid Concoction' (66768) to it. The answer reads the collection-level listing as an entry-level one.", "fix": "Cite the collection-level listing only: the wiki's List of Collections names the 'Merry Vale Liquid Concoction' collection. Say explicitly that no entry-level wiki source exists, which the open[] field already covers."}]}

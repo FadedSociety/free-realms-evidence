@@ -1,0 +1,28 @@
+{
+ "title": "Welcome back login gifts",
+ "names_seen": [
+  "Welcome back login gifts"
+ ],
+ "facts": [
+  {
+   "statement": "Free login rewards were given to all players, one item per day for seven days, provided the player logged in before the last day.",
+   "numbers": {
+    "days": 7
+   },
+   "era": "unknown",
+   "quote": "Que serán entregados al iniciar sesión diariamente, durante siete días.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2131",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2131",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language welcome-back news post for returning players. It lists a welcome-back bonus (extra game time and 43 days of membership for members whose Station account was updated before a early-May cutoff, and 20,000 Coins for lifetime members) and a seven-day free login gift schedule. The post gives no absolute date (only 'posted 2 weeks, 6 days ago' at capture) and contains a typo in the cutoff year ('201')."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

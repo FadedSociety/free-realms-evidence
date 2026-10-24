@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-housing-session-rs-L1 status=done turns=5 usd=0.0085 tokens(read,write,in,out)=[61354, 29634, 12, 8351] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/housing_session.rs lines 1-804 of 804
+
+Window: `prototype/osfr-tools/tests/housing_session.rs` lines 1-804. No `#[ignore]` or silent early `return` in this file. Missing fixtures panic through `unwrap` in `copy_dir`/`Gameplay::load`, so they do not pass silently. The findings below are the weak spots I confirmed.
+
+- **[medium] tests/housing_session.rs:229 `saves_and_reconnects_inside_a_house_keep_the_world_pose` - the name says the saved world pose is kept, but the body only checks `house_return()` and the lot list, never the pose in the saved state.**
+  - Why it cannot catch a regression: `house_return()` returns `return_to`, which is set from the character at entry (`gameplay/housing.rs:173-186`). A change that writes house-local coordinates into `game.state()` or the reloaded `GameplayState` (or into the gateway's `CharacterState`) leaves `house_return()` at `character()`, so every assertion still passes. The reloaded game is only checked for `listed.records`.
+  - Fix: after `abandon_house_for_reconnect`, assert the saved pose (the character state the save persists, e.g. `game.state()` position/rotation/zone) equals `character()`. Also assert that after `Gameplay::load(&content.0, Some(saved))` the next save or `house_return` is still the world pose. Alternatively rename the test to drop the pose claim.
+
+- **[low] tests/housing_session.rs:319-325 `refused_requests_change_nothing` - all the refusal assertions sit inside `if let Ok(out) = out`, so an `Err` return passes without checking `changed`, `scene_zoning`, or the chat/127-53 reply.**
+  - Why it cannot catch a regression: if `leaving while outside` or `an unknown house` starts returning `Err`, or if a refused enter returns an `Ok` with a scene change that is later reverted, only the state equality and `house_return()` are checked. The refusal shape is never pinned, and the `truncated enter` case may always hit `Err`, which makes that row check the state alone.
+  - Fix: assert each case's result explicitly. Either `unwrap()` and check `changed`/`scene_zoning`/replies as the other tests do, or assert `Err` for the malformed case, so a silent `Err` on a valid refusal cannot pass.
+
+- **[low] tests/housing_session.rs:570 `a_new_127_1_retires_the_previous_selection` - the comment says the test pins that "a place/pickup loop cannot grow the bindings", but nothing measures the binding count.**
+  - Why it cannot catch a regression: the body only shows that the old id `first` is refused with one message (lines 571-572). A change that keeps every old binding alive but still rejects the old id in this one path would still pass, and an unbounded binding table would go unnoticed.
+  - Fix: either remove the bindings claim from the comment, or add a check that exercises the growth. For example, run several place/pickup cycles and assert that the earlier ids are refused and that the binding set size stays at one (through a public accessor, or a state/size canary that fails if old selections accumulate).

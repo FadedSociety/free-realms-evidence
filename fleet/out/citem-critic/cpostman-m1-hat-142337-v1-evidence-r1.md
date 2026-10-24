@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpostman-m1-hat-142337-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3539, 7329, 6, 1068] model=claude-haiku-5-5 -->
+# Postman M1 Hat
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 5, "problems": [{"field": "sources", "issue": "Empty sources list is correct. I checked the Postman note (Postman.md:230) and it names M1 Hat 2419195763 with no vendor, quest, drop or store; the id search finds that line only. The gear table (lines 206-217) lists the ten merchants' numbered sets, and no M1 hat appears. Lookup of client, wiki, articles and video returns only locale:142337.", "fix": "No change needed. The answer correctly declines to assume the first-pass 'vendor' guess. Minor note: the 'no M1 hat among merchant sets' and 'Feb 11 2014 hotfix' claims rest on the repo note and an unverified hotfix reference; the answer should cite the wiki pages directly if it relies on them."}]}

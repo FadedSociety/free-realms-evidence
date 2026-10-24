@@ -1,0 +1,39 @@
+{
+ "title": "All Day Birthday Party",
+ "names_seen": [
+  "All Day Birthday Party"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms' 1st birthday community event consisted of eight parties, one per region, starting every hour.",
+   "numbers": {
+    "parties": 8
+   },
+   "era": "live",
+   "quote": "How about eight parties! Perfect!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1308",
+   "date": null
+  },
+  {
+   "statement": "The birthday parties ran on Thursday April 29, 2010, every hour from 9am PDT until 5pm PDT, each in a different region.",
+   "numbers": {
+    "start_hour_PDT": 9,
+    "end_hour_PDT": 17
+   },
+   "era": "live",
+   "quote": "Every hour starting at 9am PDT on the 29th, and running until 5pm PDT",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1308",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1308",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A SOE community news post announcing an All Day Birthday Party for Free Realms' first anniversary, with eight hourly parties in different regions on April 29, 2010 that doubled as Ambassador Hide and Seek games. It explains how to reach community events through the Game Guide calendar and its GO button. The posting date is not printed; it is only given relative to the capture date."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

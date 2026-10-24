@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-piece-031-rs-L1 status=done turns=4 usd=0.0045 tokens(read,write,in,out)=[19122, 13961, 10, 5217] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_031.rs lines 1-203 of 203
+
+Window: `prototype/osfr-tools/tests/piece_031.rs` lines 1-203, checked against `prototype/osfr-tools/src/restoration/piece_031.rs` (JOBS table, validate, validate_locale, Coverage::recovered, job_unlock). No `#[ignore]` and no early-return skips in the window. The locale, classification-count, type-2 combat, name-id uniqueness, removed-job and unlock-name assertions do check hardcoded expectations that match the source table, so they are not tautological.
+
+- **[medium] prototype/osfr-tools/tests/piece_031.rs:179 client_profile_datasource_columns_keep_the_recovered_order - only 7 of the 16 `PROFILE_DS_COLUMNS` positions are asserted (0-3, 13-15); indices 4-12 (Rank through RankPercent) are unchecked, despite the name claiming the whole order is kept.**
+  - Why it cannot catch a regression: swapping `"Rank"` and `"StarsAvailable"`, or `"MembersOnly"` and `"StarsEarned"`, in the const at src/restoration/piece_031.rs:29-46 leaves every assertion here green; only the length of 16 is checked for those slots.
+  - Fix: assert the full array against the recovered Lua order, e.g. `assert_eq!(PROFILE_DS_COLUMNS, ["Id","Name","Description","Type","Rank","StarsAvailable","Icon","BadgeImageSet","ButtonImageSet","AbilityBgImageSet","MembersOnly","StarsEarned","RankPercent","Hint","Trial","TrialExpired"]);`.
+
+- **[medium] prototype/osfr-tools/tests/piece_031.rs:191 unlock_evidence_stays_client_side_and_names_the_captured_state - the body never inspects the `evidence` field or any client-side property; the only "stays client-side" check is `!unlock.quest_ids_recovered` at line 202.**
+  - Why it cannot catch a regression: `job_unlock()` at src/restoration/piece_031.rs:469-476 could drop the `UNLOCK_EVIDENCE` pointer (set `evidence: &[]`) or replace the four ActivityFinder/JobScreen/profiles breadcrumbs with unrelated strings, or start claiming a server-side unlock source, and the test still passes as long as the bool stays false.
+  - Fix: assert `unlock.evidence == &UNLOCK_EVIDENCE[..]` and that the entries name `StartJobQuest` and `JobScreen.SelectJob` (e.g. `assert!(unlock.evidence.iter().any(|e| e.contains("StartJobQuest")))`), or rename the test to what it checks (captured active/unlocked ids and the unrecovered quest flag).
+
+- **[low] prototype/osfr-tools/tests/piece_031.rs:165 coverage_reports_captured_community_only_and_removed_rows - `coverage.captured` is compared with `CAPTURED_PAYLOAD_IDS.to_vec()`, and `Coverage::recovered()` is just a copy of that same constant (src/restoration/piece_031.rs:431), so the line restates the code under test.**
+  - Why it cannot catch a regression: a `Coverage::recovered` that filters JOBS by provenance wrongly, or a payload list that drifts from JOBS, is not caught here; only a hand-edit that makes the copy differ from the const fails. The JOBS-to-captured link is covered only indirectly by line 74.
+  - Fix: compare against a literal `vec![1, 2, 4, 11, 12, 14, 16, 32, 35, 43, 45, 48, 49, 52, 120, 137]` and against `jobs().iter().filter(CapturedPayload)` ids, so the coverage view is checked against the JOB rows rather than the constant it copies.
+
+- **[low] prototype/osfr-tools/tests/piece_031.rs:172 coverage_reports_captured_community_only_and_removed_rows - `assert_eq!(REMOVED_JOBS.len(), 1)` pins the count of retired jobs, which is incidental to what the test is about (the coverage view of removed rows).**
+  - Why it cannot catch a regression: it is not a regression check; adding a second removed job from the wiki would fail this line for reasons unrelated to coverage, causing churn. The useful check (Pet Trainer appears in `coverage.removed`) is already at line 167.
+  - Fix: drop the length assertion and instead assert that every `REMOVED_JOBS` name appears in `coverage.removed` (e.g. `assert_eq!(coverage.removed.len(), REMOVED_JOBS.len())`).

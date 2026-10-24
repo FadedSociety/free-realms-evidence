@@ -1,0 +1,26 @@
+{
+ "title": "The Free Realms Holiday Pass",
+ "names_seen": [
+  "The Free Realms Holiday Pass"
+ ],
+ "facts": [
+  {
+   "statement": "The official Free Realms news page listed a post titled 'The Free Realms Holiday Pass!' as its newest item, but the captured text contains no description of the pass.",
+   "numbers": {},
+   "era": "unknown",
+   "quote": "The Free Realms Holiday Pass! Posted 2 weeks, 5 days ago.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2823",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2823",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This capture is a freerealms.com 'What is New?' news index page. Its only article content is a headline, 'The Free Realms Holiday Pass!', posted 2 weeks and 5 days before the capture date, with no body text. It gives a rebuilder no details on what the Holiday Pass contained, cost, or how it worked."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

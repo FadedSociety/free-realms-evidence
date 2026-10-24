@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibixie-soldier-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3229, 4314, 6, 905] model=claude-haiku-5-5 -->
+# Bixie Soldier
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / live", "issue": "The record treats an enemy NPC as an item. The answer's own evidence says it is not an item, so 'kind: other' and 'live: unsure' are weak. Live status is not in question for an NPC; the entry should be marked as not an item rather than as an unresolved item.", "fix": "Mark the entry as a non-item NPC (locale 440711, npc_name, wiki 'Bixie Soldier', rev 45837: enemy bixie NPC in Queensfields, Difficulty 1 for most). Leave sources empty and live as not applicable. Verified: locale:440711 is npc_name 'Bixie Soldier'; wiki page text and categories (NPC, Enemies, Males, Bixie, Sanctuary) match the answer; no coin, Station Cash or IGD entries in the pack."}]}

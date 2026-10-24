@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ijenny-greenteeth-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3365, 5046, 6, 904] model=claude-haiku-5-5 -->
+# Jenny Greenteeth
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the quest 'Plant friendly plants' gives a reward, but the locale text 390907 ('Here's some stuff for all the planting you did!') is the only reward-adjacent string and names no item. The repo notes (Treeleaf's Retreat.md:91; briarwood.json:32623) record the quest title as 'not found', so the quest name in the evidence is not directly confirmed by the client text either.", "fix": "Keep the quest as an unnamed, unconfirmed-title lead. No item source should be assigned. Client line 3548979879 is the quest prompt, and 390907 is the generic reward text."}]}

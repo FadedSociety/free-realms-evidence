@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csneak-celestial-necklace-86556-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3854, 6210, 6, 876] model=claude-haiku-5-5 -->
+# Sneak Celestial Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the Celestial family is a 'rank/title-tier naming pattern' is an inference, not something any cited source shows. The lookup only lists the item names (locale 86529, 86538, 86547, 86556, 86565, 86574, 69674, 69684, 69697, 69710). No rank or title record was found for any tier.", "fix": "Reword as an unverified guess: 'The name pattern suggests tiers; no rank or title gating was found in the client or repo.' The client lookup (locale ids above) supports only that the names exist."}]}

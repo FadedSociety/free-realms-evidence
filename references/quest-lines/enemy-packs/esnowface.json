@@ -1,0 +1,60 @@
+{
+ "title": "Snowface",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\misty_mountain.json"
+  },
+  {
+   "file": "dungeons\\misty_mountain.json"
+  },
+  {
+   "file": "npcs/shrouded_glade.json",
+   "npc_id": 9500000714,
+   "zone": "Shrouded Glade",
+   "enemy_kind": "Boss of Misty Mountain (\"Elemental Lord\" on that page). Wiki: a frozen treant, the only treant outside Briarwood.",
+   "location_evidence": [
+    "Misty Mountain, \"located in Shrouded Glade\" (wiki)."
+   ]
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:103637 [npc_name | - | Snowface] 'Snowface'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:103637 [npc_name | - | Snowface] 'Snowface'"
+ ],
+ "client_cluster": [
+  "locale:103629 [npc_name | - | Icecrusher] 'Icecrusher'",
+  "locale:103631 [npc_name | - | Broodling] 'Broodling'",
+  "locale:103632 [item | - | Sasparilla Jug] 'Sasparilla Jug'",
+  "locale:103633 [quest_dialog | - | Cardie Crew] 'Have you talked to them yet? You can find Posey near the Tournament board, Buzz hangs out up the road to the northwest, Nirvi is usually up by her place up near'",
+  "locale:103634 [npc_name | - | Broodmother] 'Broodmother'",
+  "locale:103636 [npc_name | - | Elemental Guardian] 'Elemental Guardian'",
+  "locale:103637 [npc_name | - | Snowface] 'Snowface'",
+  "locale:103639 [quest_dialog | - | Cardie Crew] 'Back in the day, duelists could only play one deck. Sheldon convinced Ari to play a nature deck, same as Maple Sugarleaf. She wanted to be the best, and lost.<B'",
+  "locale:103641 [quest_title | - | Half a Deck] 'Half a Deck'",
+  "locale:103642 [quest_objective | - | Half a Deck] \"Beat Poe Tatters' Trick Deck to win one of his cards.\"",
+  "locale:103643 [quest_objective | - | Half a Deck] \"As a Card Duelist; Beat Poe Tatters' Trick Deck\""
+ ],
+ "wiki": {
+  "title": "Snowface",
+  "text": "Snowface is an NPC boss that can be found in the Misty Mountain, located in Shrouded Glade.\n\nDialogues\n\nAppearances\nFree Realms Holiday TV Spot\nMisty Mountain\nFree Realms Issue 12\n\nGallery\n\nTrivia\nSnowface is the only known exception that appears to be a completely frozen over treant, but it is unknown if he is actually a completely new type of treant or a frozen Briarwood treant.\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Treant\nCategory:Shrouded Glade\nCategory:Comic"
+ },
+ "images": [],
+ "video": [
+  "video:UgBonM1p0Z0/00292.jpg (Misty Moun?): npcs: The Rose that Knows dialog_header  Snowface dialog_header  | dialog: The Rose that Knows: But beware! The enemy approaches! Prepare yourself... Snowface: The oracle is mine! You will never leave here! | quest:   Investigate the Shrine of Knowledge! Bonus: Find the pieces of",
+  "video:UgBonM1p0Z0/00294.jpg (-): npcs: The Rose that Knows dialog_header  | dialog: The Rose that Knows: But beware! The enemy approaches! Prepare yourself... Snowface: The oracle is mine!  You will never leave here! | quest:   Investigate the Shrine of Knowledge! Bonus: Find the pieces of the Oracle's lost tabl",
+  "video:UgBonM1p0Z0/00302.jpg (Misty Moun?): npcs: Snowface nameplate  | quest:   Investigate the Shrine of Knowledge! Bonus: Find the pieces of the Oracle's lost tablet of teachings! - 2/4  | job_level: Ninja 20 | other_text: You can't use abilities when you are stunned! Goals (2) timer 05:02:46",
+  "video:UgBonM1p0Z0/00300.jpg (-): quest:   Investigate the Shrine of Knowledge! Bonus: Find the pieces of the Oracle's lost tablet of teachings! - ?/4  | landmarks: ice pillars | job_level: Ninja 20 | other_text: You can't use abilities when you are stunned! Snowface Goals (2) Misty Moun (title bar cut off)",
+  "video:UgBonM1p0Z0/00314.jpg (Misty Moun?): npcs: The Rose that Knows dialog_header  Snowface nameplate  | dialog: The Rose that Knows: Finally, I will be a prisoner no longer, thanks to you. | quest:   Investigate the Shrine of Knowledge! (check mark) Bonus: Find the pieces of the Oracle's lost tablet of teachings!  | job"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

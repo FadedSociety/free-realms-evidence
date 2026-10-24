@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblack-feather-1449-v2-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3793, 12291, 6, 898] model=claude-haiku-5-5 -->
+# Black Feather
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Cites repo:prototype/osfr-tools/data/content/collection_catalogue.json:15888-15931 for the Ninja Story pg. 4 entry (item 23574). I did not re-read that file; the repo search for 'Black Feather|3301|1449' found no catalogue row linking 1449 to a collection, which is consistent with the answer's claim but does not independently confirm the 23574 mapping.", "fix": "Re-read collection_catalogue.json around lines 15888-15931 to confirm the Ninja Story pg. 4 / item 23574 row before relying on the removal of the Ninja Stories source."}]}

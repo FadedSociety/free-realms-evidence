@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-1323 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2867, 4, 556] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a vBulletin error page from the fan forum freerealmsforums.com, not a thread. It shows a 'maximum number of posts you can view' message and forum navigation, with no Free Realms guide, question, price report or other game content. Nothing here is usable for the rebuild.", "facts": [], "quests": [], "uncertain": ["The URL names thread t=1323, but the captured text contains only the error and navigation boilerplate, so the thread's actual subject and posts are unknown.", "The capture date is 2009-05-16, but the page itself gives no article date."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chen-feather-archer-quiver-132745-v3-evidence-r3 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4428, 8016, 6, 1370] model=claude-haiku-5-5 -->
+# Hen Feather Archer Quiver
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1,2] (Meridia, Roberge)", "issue": "Both are listed as vendor sources with no price, currency or location. The wiki Sells lists I checked do show [Hen] [Feather] [Archer] [Quiver] for both, so the source is evidenced, but no price is evidenced and the Merry Vale / Greenwood cooking-table locations in the pack were not verified.", "fix": "Keep both as unpriced wiki-evidenced vendor sources (price null, where null or marked unverified). Only Gilbert carries a price: 375 coins, member 337, sell 37, per repo stores.json item 75737 (verified) and Gilbert stock row vendors.json 15856-15875 (verified, includes 75737)."}]}

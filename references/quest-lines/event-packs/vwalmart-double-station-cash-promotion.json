@@ -1,0 +1,30 @@
+{
+ "title": "Walmart Double Station Cash promotion",
+ "names_seen": [
+  "Walmart Double Station Cash promotion"
+ ],
+ "facts": [
+  {
+   "statement": "Buying an SOE Pre-Paid Card at Walmart and redeeming it between October 12 and October 14, 2012 gave double Station Cash.",
+   "numbers": {
+    "bonus_multiplier": 2,
+    "redeem_start_2012_10": 12,
+    "redeem_end_2012_10": 14
+   },
+   "era": "live",
+   "quote": "Get Double Station Cash® when you buy an SOE Pre-Paid Card at Walmart and redeem it October 12, 2012 through October 14, 2012.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2790",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2790",
+   "date": null,
+   "title": "Double Station Cash® Exclusive with Walmart!",
+   "summary": "A freerealms.com news post (shown on the Portuguese-language page) promoting double Station Cash for SOE Pre-Paid Game Cards bought and redeemed at US Walmart stores during October 12-14, 2012. It also says a $10 Station Cash card bought at Walmart comes with an in-game Walmart t-shirt. The page gives no exact post date; it only says it was published 4 weeks and 1 day before capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

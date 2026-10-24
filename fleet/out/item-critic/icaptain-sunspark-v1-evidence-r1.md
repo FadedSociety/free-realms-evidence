@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icaptain-sunspark-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3699, 6826, 6, 897] model=claude-haiku-5-5 -->
+# Captain Sunspark
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind / item.kind", "issue": "Minor: the answer labels the record kind 'other' while its own evidence says the name is an NPC. The record is not an item, so 'other' is a weak fit. Nothing is wrong as far as it goes, but the answer should say it is out of scope as an item.", "fix": "Mark as not-an-item (NPC, npc_name locale:437517 and locale:437145; wiki page Captain_Sunspark, categories NPC/Pixie/Quest Givers). Client and wiki lookups confirm no item named 'Captain Sunspark' exists; the hits are npc_name strings, quest objectives ('Report to Captain Sunspark', 'Talk to Captain Sunspark') and wiki pages about the NPC and quests."}]}

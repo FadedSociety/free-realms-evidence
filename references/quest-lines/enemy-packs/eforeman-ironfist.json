@@ -1,0 +1,63 @@
+{
+ "title": "Foreman Ironfist",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\haunted_mines.json"
+  },
+  {
+   "file": "dungeons\\haunted_mines.json"
+  },
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000027,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Ghost foreman, boss of the Haunted Mines",
+   "location_evidence": [
+    "Haunted Mines"
+   ]
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:71199 [npc_name | Blackspore | Foreman Ironfist] 'Foreman Ironfist'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:18717 [quest_objective | - | Foreman Ironfist] 'Defeat Foreman Ironfist.'",
+  "locale:18718 [quest_objective | - | Foreman Ironfist] 'The Foreman still works tirelessly, forever toiling in the mines he once oversaw as his own.  Defeat him and free him from his eternal labor.'",
+  "locale:71199 [npc_name | Blackspore | Foreman Ironfist] 'Foreman Ironfist'",
+  "locale:71209 [other | Blackspore | Foreman Ironfist | FLAG dev_note: internal label \"Haunted Mines: Foreman Buff\"] 'Haunted Mines: Foreman Buff'",
+  "locale:71726 [quest_objective | - | Foreman Ironfist] 'Something evil happened to this once prosperous mining operation. Find Foreman Ironfist and defeat him!'",
+  "locale:116240 [quest_objective | Blackspore | Foreman Ironfist] 'Go to Blackspore and get a crystal from Foreman Ironfist in the Haunted Mines.'",
+  "locale:116392 [quest_objective | Blackspore | Foreman Ironfist] 'As a wizard, head into the Haunted Mines in Blackspore and defeat Foreman Ironfist.'",
+  "locale:117072 [quest_reward | Blackspore | Foreman Ironfist] '[*player*] has claimed a powerful gem from the ghost of Foreman Ironfist in the Haunted Mines of Blackspore Swamp!'"
+ ],
+ "client_cluster": [
+  "locale:71195 [npc_name | Blackspore | Bandits] 'Bandits'",
+  "locale:71196 [npc_name | Blackspore | sneaking bandit] 'sneaking bandit'",
+  "locale:71199 [npc_name | Blackspore | Foreman Ironfist] 'Foreman Ironfist'",
+  "locale:71200 [item | - | Old Gregory's Game Table] \"Old Gregory's Game Table\"",
+  "locale:71201 [npc_name | Blackspore | Enraged Shambler] 'Enraged Shambler'",
+  "locale:71202 [npc_name | Blackspore | Hulking Shambler] 'Hulking Shambler'",
+  "locale:71203 [npc_dialog | Blackspore | -] \"You don't belong here, mortal!\"",
+  "locale:71206 [ability | Blackspore | Life Drain] 'Life Drain'",
+  "locale:71207 [other | Blackspore | Life Drain | FLAG dev_note: internal label \"Haunted Mines: Lifetap\"] 'Haunted Mines: Lifetap '"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Foreman Ironfist"
+ ],
+ "video": [],
+ "article_facts": [
+  "fact:npc: Foreman Ironfist is found in the Haunted Mines at the southern edge of Blackspore and holds one of the two powerful gems Sven needs. | The one he wants you to get is held by Foreman Ironfist in the Haunted Mines (http://www.tentonhammer.com:80/node/69770)",
+  "quest: Osgood Sanctuary, Briarwood, Blackspore Swamp, Briarheart Caverns Help Sandbur gather transfiguring crystals from the Forgotten Caves and opal gems from Tormented Spirits in Blackspore Swamp (level 10). Osgood asks you to return at level 15 to get the wand. Fi (http://www.tentonhammer.com:80/node/69770)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Wizard: Two Gems Are Better Than One' (final): Defeat Foreman Ironfist"
+ ]
+}

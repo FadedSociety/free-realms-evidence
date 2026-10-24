@@ -1,0 +1,45 @@
+{
+ "title": "Niobe",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\fleetfoot_ninja.json"
+  },
+  {
+   "file": "dungeons\\fleetfoot_ninja.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:76013 [npc_name | - | Niobe] 'Niobe'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:76013 [npc_name | - | Niobe] 'Niobe'"
+ ],
+ "client_cluster": [
+  "locale:76005 [npc_dialog | - | Cray Pin] 'How do you think they keep birds and stuff from pooping on it all the time?'",
+  "locale:76006 [npc_dialog | - | Cray Pin] 'Hmm... I never see anyone up there cleaning it...'",
+  "locale:76007 [npc_dialog | - | Cray Pin] 'I know, right?'",
+  "locale:76008 [ability | - | Cray Claw] 'Cray Claw'",
+  "locale:76009 [other | - | Cray Claw | FLAG dev_note: internal label with zone code] ' cracked_claw_caverns 118: Cray Claw attack'",
+  "locale:76010 [npc_dialog | - | Cray Claw] 'Maybe the sign used to be blue...'",
+  "locale:76011 [npc_dialog | - | Cray Claw] 'Gross dude! That would be a lot of bird poop.'",
+  "locale:76012 [npc_dialog | - | Cray Claw] 'Think about it! What else do birds have to do all day except poop on stuff?'",
+  "locale:76013 [npc_name | - | Niobe] 'Niobe'",
+  "locale:76016 [quest_reward | Snowhill | Mine the Training Node] 'The Dwarven Mining Guild recruited [*player*] to become a miner!'",
+  "locale:76018 [quest_title | Snowhill | Mine the Training Node] 'Mine the Training Node'",
+  "locale:76019 [quest_objective | Snowhill | Mine the Training Node] 'Try to mine using the Training Node next to Therin.'",
+  "locale:76020 [quest_objective | Snowhill | Mine the Training Node] 'Speak to Therin'",
+  "locale:76021 [quest_objective | Snowhill | Mine the Training Node] 'Therin is at the Singing Crystal Mines in Snowhill.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

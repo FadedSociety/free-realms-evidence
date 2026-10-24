@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccarving-knife-66850-v2-evidence-r3 status=done turns=3 usd=0.0013 tokens(read,write,in,out)=[9017, 5934, 8, 1019] model=claude-haiku-5-5 -->
+# Carving Knife
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] (wiki List of Collections)", "issue": "The answer says the wiki entry has no dates visible. The repo's collections.json (key wiki:6:200, name 'Knives') records the source revision as 2013-07-13 (revision_id 27852). The page shows only the [Knives] heading and no entries, which matches the answer's point that it does not establish obtainability.", "fix": "Cite the revision date from prototype/osfr-tools/data/content/collections.json:10626-10650 (revision 27852, 2013-07-13). Keep the conclusion that the wiki gives no acquisition source for Carving Knife."}]}

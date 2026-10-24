@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cspotted-sunglasses-4703-v2-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4018, 5923, 6, 882] model=claude-haiku-5-5 -->
+# Spotted Sunglasses
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open", "issue": "The answer reads the Legacy store row as a Cost field (tag L2) and reads the L3 tag as NoSale. I did not open the source_tags legend (stores.json lines 26-42) to confirm the L3 meaning, so that reading is unverified by me. The row itself checks out: stores.json line 423 is item 1204, category 101, tint 2, purchase 270, member 243, sell null, no_sale true, with tags L1,L2,L4,R2,L3,L3.", "fix": "Confirm the L3 = ClientItemDefinitions.NoSale and L2 = Cost legend at stores.json lines 26-42 before relying on it. Until then, keep the 270 as an unverified Legacy Cost value, not a vendor price."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbronze-basketball-trophy-66948-v2-evidence-r3 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4029, 5634, 6, 1064] model=claude-haiku-5-5 -->
+# Bronze Basketball Trophy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The only listed source is a collection-membership record (item 23335 sits in the Bronze Trophies collection). That records what the item belongs to, not how a player acquires it. The answer's own open note says it should not be wired as an acquisition source, which contradicts it being listed as a source at all.", "fix": "Keep the collection membership as context, not as an acquisition source. Sources should be empty, with the note that no price, vendor, quest, drop or named event is evidenced (client: locale 66948, 132425; repo collection_catalogue.json:13026-13030; locale 67644 gives only the 3rd-place description)."}]}

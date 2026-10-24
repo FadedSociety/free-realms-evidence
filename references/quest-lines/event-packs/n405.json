@@ -1,0 +1,31 @@
+{
+ "title": "Briarheart Dueling",
+ "names_seen": [
+  "Briarheart Dueling"
+ ],
+ "facts": [
+  {
+   "statement": "A community event held an open duel at the Briarheart Warpstone on Friday December 4th, on Server 1, open to all levels and jobs.",
+   "numbers": {
+    "US/LatAm start hour (Pacific)": 3,
+    "US/LatAm end hour (Pacific)": 5,
+    "UK/Europe start hour (Pacific)": 9,
+    "UK/Europe end hour (Pacific)": 11
+   },
+   "era": "live",
+   "quote": "we’re having an open duel at the Briarheart Warpstone",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=651",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=651",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A SOE community event post announcing an open player-vs-player duel at the Briarheart Warpstone on Friday December 4th, held on Server 1 in two time slots (US/Latin America and UK/Europe). It also explains how to start a duel: select the 'Duel' option from another player's radial menu, and the accepting player is moved to a private dueling area. The post's date is not shown; it says it was posted 1 week, 3 days before capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

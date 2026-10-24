@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-elite-black-quick-shot-gloves-pl-elite-black-quick-shot-gl-25416-v1-evidence-r1 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3469, 10692, 6, 1198] model=claude-haiku-5-5 -->
+# {n}Elite Black Quick Shot Gloves{pl="Elite Black Quick Shot Gloves"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The 'where' field attributes the row to a FreeRealms-Legacy CoinStoreItems.json import. The cited file is repo:prototype/osfr-tools/data/content/stores.json, and I found no provenance in the row or the pack that names the Legacy import as its origin. The provenance claim is unverified.", "fix": "Cite the row as repo:prototype/osfr-tools/data/content/stores.json:3329 (item_id 11503, category_id 102, purchase_price_coins 9453, member_price_coins 8507, sell_price_coins 945, source_tags L1,L2,L4,R2,T633,R1). Drop the Legacy attribution or source it separately."}]}

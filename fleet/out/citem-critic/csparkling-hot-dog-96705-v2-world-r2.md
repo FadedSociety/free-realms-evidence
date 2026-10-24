@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csparkling-hot-dog-96705-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3724, 7582, 6, 825] model=claude-haiku-5-5 -->
+# Sparkling Hot Dog
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Left as 'unsure' with no retired status. The pack gives no evidence either way, so this is an honest unknown, not an error. My own lookups (client, wiki, articles, video, and a repo search for 31299, 96705 and Sparkling) found only the client name line locale:96705. No vendor, coin-store, quest, drop or wiki entry names the item.", "fix": "No change needed. Keep sources empty and retired null until an item-to-source record (event or holiday table, or a wiki page for the Sparkling/Chrono food set) is found."}]}

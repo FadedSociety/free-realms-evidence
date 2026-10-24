@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-spectral-ring-86398-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3659, 7228, 6, 956] model=claude-haiku-5-5 -->
+# Shiny Spectral Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the Dull/Rascal/Intern/Sneak/Grunt/Sage/Smooth/Hoodlum Spectral Ring and Hardwood/Granite/Metallic/Jeweled Spectral Ring names are 'separate families' is an inference from name patterns, not sourced. The repo locale dump also shows other Spectral Ring names (Gleaming, Ruffian, Prowler, Rover, Sorcerer, Fastvi's, Hero) that the answer does not mention.", "fix": "Label the family grouping as a naming-pattern guess, not a fact. Name the other Spectral Ring names in the locale dump (e.g. opening-native-lobby locale en_us_data.dat) or state that the family boundaries are unverified."}]}

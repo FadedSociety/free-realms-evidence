@@ -1,0 +1,48 @@
+{
+ "title": "Rave Party Robgobeline",
+ "names_seen": [
+  "Rave Party Robgobeline"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called Rave Party Robgobeline was scheduled at the Robgoblin Camp north of the Lakeshore shores, with music, dancing and other activities.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Notre prochain événement de communauté sera au Campement de robgobelins au nord des Rives du lac.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1998&request_locale=en_US",
+   "date": "2011-01-14"
+  },
+  {
+   "statement": "The Rave Party Robgobeline was scheduled for Friday 14 January 2011 at 18:00 CET (6:00pm GMT) on Server 1.",
+   "numbers": {
+    "day": 14,
+    "month": 1,
+    "year": 2011,
+    "hour_CET": 18,
+    "hour_GMT": 18
+   },
+   "era": "live",
+   "quote": "vendredi 14 janvier 2011 18h CET(Heure de Paris)/ 6:00pm GMT",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1998&request_locale=en_US",
+   "date": "2011-01-14"
+  },
+  {
+   "statement": "Organisers hoped attendees would cast spells to make the event more festive, and warned players to guard their wallets.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Nous espérons voir des sorts, afin de rendre l'événement plus festif.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1998&request_locale=en_US",
+   "date": "2011-01-14"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1998&request_locale=en_US",
+   "date": "2011-01-14",
+   "title": "Free Realms - What is New?",
+   "summary": "This French-language page announces a community event, a 'Rave Party Robgobeline', held at the Robgoblin Camp north of the Lakeshore shores on Server 1 on Friday 14 January 2011 at 18:00 CET / 6:00pm GMT. It promises music, dancing and spellcasting for players wearing wizard robes, and mentions a magician trainer named Torbâton at the camp. The page header and posting age are inconsistent with the event date, so the exact posting date is uncertain."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

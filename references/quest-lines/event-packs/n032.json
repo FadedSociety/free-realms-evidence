@@ -1,0 +1,70 @@
+{
+ "title": "Presidents' Day sale",
+ "names_seen": [
+  "Presidents' Day sale",
+  "Presidents' Day sale (2011)"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms ran a Presidents' Day weekend sale in which all Station Cash housing items and building lots were 50% off.",
+   "numbers": {
+    "discount_percent": 50
+   },
+   "era": "live",
+   "quote": "todos los artículos hogareños de Station Cash y terrenos para construir estarán a 50% de descuento",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2039",
+   "date": null
+  },
+  {
+   "statement": "The sale began at noon on February 18 and ended at 23:59 PST on February 21, 2011.",
+   "numbers": {
+    "start_day": 18,
+    "end_day": 21,
+    "year": 2011
+   },
+   "era": "live",
+   "quote": "Esta oferta iniciará a mediodía del 18 de febrero y terminara a las 23:59hrs. PST",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2039",
+   "date": null
+  },
+  {
+   "statement": "SOE ran a Presidents' Day weekend sale in which all Station Cash housing items and building lots were 50% off.",
+   "numbers": {
+    "discount_percent": 50
+   },
+   "era": "live",
+   "quote": "todos los artículos hogareños de Station Cash y terrenos para construir estarán a 50% de descuento",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2040",
+   "date": null
+  },
+  {
+   "statement": "The sale started at noon on February 18, 2011 and ended at 23:59 PST on February 21, 2011.",
+   "numbers": {
+    "start_day": 18,
+    "end_day": 21,
+    "year": 2011,
+    "end_time_pst_hour": 23.98
+   },
+   "era": "live",
+   "quote": "Esta oferta iniciará a mediodía del 18 de febrero y terminara a las 23:59hrs. PST",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2040",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2039",
+   "date": null,
+   "title": "¡Venta de SOE en el Día de los Presidentes! (Free Realms - What is New?)",
+   "summary": "A Spanish-language official Free Realms news post announcing a Presidents' Day weekend sale in the in-game catalog. All Station Cash housing items and building lots were discounted 50% for a limited window ending February 21, 2011. The post names two housing lots as examples but gives no prices."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2040",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language official news post announcing a Presidents' Day weekend sale: 50% off all Station Cash housing items and building lots. It gives the exact sale window (February 18 to February 21, 2011, ending 23:59 PST) and names two lots/houses as examples. The post itself is dated only as '3 months, 2 weeks ago' relative to the capture, so its exact posting date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

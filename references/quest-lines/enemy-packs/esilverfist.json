@@ -1,0 +1,51 @@
+{
+ "title": "Silverfist",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_rumbledome.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:410342 [npc_name | - | -] 'Silverfist'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:410425 [quest_objective | - | Silverfist] 'Defeat Silverfist!'",
+  "locale:410426 [quest_objective | - | Silverfist] 'Knock out Silverfist in a Rumbledome Rumble!  Watch out for the traps!'",
+  "locale:412025 [quest_dialog | - | Silverfist] \"Silverfist is a chump, just watch out for those traps and you'll be fine.\""
+ ],
+ "client_cluster": [
+  "locale:410334 [quest_dialog | Snowhill | Lucca De'Flor] 'Chef Lucca has been inspired by your fishing skills! He wants to create a new menu item using Frostgill Smelt and Spiralmint.'",
+  "locale:410335 [quest_dialog | Snowhill | Lucca De'Flor] \"That's the heartiest dish I've ever had from Lucca. I heard you reeled in the Frostgill yourself.<BR><BR>If that's true, then I wonder why you're not on my team\"",
+  "locale:410336 [quest_title | - | Rumbledome Run-in] 'Rumbledome Run-in'",
+  "locale:410338 [quest_objective | Snowhill | Lucca De'Flor] \"Obtain the items Lucca De'Flor has requested so he can make a special new dish.\"",
+  "locale:410339 [quest_objective | Snowhill | Lucca De'Flor] 'Reel in Frostgill Smelt'",
+  "locale:410340 [quest_objective | Snowhill | Frostgill Smelt] \"Lucca De'Flor needs some Frostgill Smelt for his new dish! Fish of that type swim at the Frostbitten Banks.\"",
+  "locale:410341 [npc_name | - | -] 'Bronzeknuckles'",
+  "locale:410342 [npc_name | - | -] 'Silverfist'",
+  "locale:410343 [quest_objective | Snowhill | Lucca De'Flor] 'Harvest some Spiralmint'",
+  "locale:410344 [quest_objective | Snowhill | Spiralmint] \"Lucca De'Flor needs some Spiralmint for his new dish! It's easily found just outside of Snowhill at Perry's Pasture.\"",
+  "locale:410345 [npc_name | - | -] 'Kraig'",
+  "locale:410347 [quest_objective | Snowhill | Lucca De'Flor] \"Return the ingredients to Lucca De'Flor in Snowhill.\"",
+  "locale:410348 [npc_name | - | -] 'Krissy'",
+  "locale:410349 [quest_objective | Snowhill | Chip Numbwing] 'Deliver to Chip Numbwing'",
+  "locale:410350 [quest_objective | Snowhill | Chip Numbwing] 'Deliver the catch of the day!'"
+ ],
+ "wiki": {
+  "title": "Silverfist",
+  "text": "Silverfist is a dwarf enemy NPC that players fight in the Rumbledome, located in Sunstone Valley. He is a Skullz thug whose allegiance is with the Skullz. The Rumbledome announcer states that prior to the battle, Silverfist had been spent years sparring with the manguana hunters in the Sandscale Oasis.\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Dwarves\nCategory:Skullz\nCategory:Sunstone Valley"
+ },
+ "images": [],
+ "video": [
+  "video:MGbXhwbWFV4/00094.jpg (The Rumbledome): npcs: Silverfist nameplate  | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00090.jpg (The Rumbledome): npcs: Announcer chat_speaker  | dialog: Announcer: Our next challenger spent years sparring with the manguana hunters in the Sandscale Oasis. He is - SILVERFIST! | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00106.jpg (The Rumbledome): npcs: Silverfist nameplate  Announcer chat_speaker  | dialog: Announcer: Such a shocking turn of events! Shocking? Yes, it's time for the SHOCK TRAPS! | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena centre | job_level: Warrior 20",
+  "video:MGbXhwbWFV4/00082.jpg (The Rumbledome): npcs: Announcer chat_speaker  Rumbledome Gladiator nameplate  | dialog: Announcer: Our next challenger spent years sparring with the manguana hunters in the Sandscale Oasis. He is - SILVERFIST! | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena cen",
+  "video:MGbXhwbWFV4/00084.jpg (The Rumbledome): npcs: Announcer chat_speaker  Rumbledome Gladiator nameplate  | dialog: Announcer: Our next challenger spent years sparring with the manguana hunters in the Sandscale Oasis. He is - SILVERFIST! | quest:   Defeat the Champion of the Rumbledome!  | landmarks: grate in the arena cen"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

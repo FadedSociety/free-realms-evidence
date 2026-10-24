@@ -1,0 +1,53 @@
+{
+ "title": "Concurso de Pesca (Fishing Contest) community event",
+ "names_seen": [
+  "Concurso de Pesca (Fishing Contest) community event"
+ ],
+ "facts": [
+  {
+   "statement": "A community fishing event was scheduled at the Sacred Grove Marsh on Friday 22 January 2010, with players fishing alongside community staff and telling fish stories.",
+   "numbers": {
+    "event_date_day": 22,
+    "event_date_month": 1,
+    "event_date_year": 2010
+   },
+   "era": "live",
+   "quote": "Viernes 22 de enero del 2010",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=887",
+   "date": null
+  },
+  {
+   "statement": "The event ran at 15:00 Pacific Time for USA and Latin America, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 15,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "15 hrs Tiempo Pacifico (USA y Latino América) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=887",
+   "date": null
+  },
+  {
+   "statement": "The event ran at 09:00 Pacific Time (18:00 European time) for UK and Europe, on Server 1.",
+   "numbers": {
+    "start_hour_pacific": 9,
+    "start_hour_european": 18,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "0900 hrs Tiempo Pacifico / 18 hrs Tiempo Europeo (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=887",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=887",
+   "date": null,
+   "title": "Free Realms - What is New? (Spanish-language community event post: Concurso de Pesca / Fishing Contest)",
+   "summary": "A Spanish-language SOE community event announcement for a fishing contest in the Marisma de la Arboleda Sagrada (Sacred Grove Marsh), scheduled for Friday 22 January 2010 on Server 1 at two times for different regions. It explains how to get fishing gear from an NPC at the marsh entrance and how players reach community events through the Game Guide calendar. The posting date is not given; the page only says 'Posted 1 year, 4 months ago' relative to capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

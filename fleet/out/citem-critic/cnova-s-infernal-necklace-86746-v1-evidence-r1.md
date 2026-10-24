@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cnova-s-infernal-necklace-86746-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4169, 7929, 6, 962] model=claude-haiku-5-5 -->
+# Nova's Infernal Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that 'Nova's Infernal Ring also exists in the locale (ucdt 10971635)' is not confirmed by my lookups. The locale search for 'Infernal Necklace' returned no Nova's entries, and the refs search for 86746 and 22755 found no Nova's Infernal Ring line. The ring claim is unverified in this pack.", "fix": "Drop the ring ucdt id or re-check it against the locale table (en_us_data.dat) before citing it. The client locale confirms only locale:86746 'Nova's Infernal Necklace' and its cluster neighbours 86741-86751."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdull-ruby-necklace-96190-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3832, 4751, 6, 1106] model=claude-haiku-5-5 -->
+# Dull Ruby Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that all six Dull necklaces share a definition layout with 'Id 30784 to 30785 range' is imprecise. The ClientItemDefinitions.json entries near this block run Id 30780 through 30785 (lines 634213 to 634308), so the range is wider than stated. I did not confirm which definition ID maps to each of the six names, so the layout claim is only partly supported.", "fix": "State the observed range as Ids 30780-30785 (ClientItemDefinitions.json lines 634213-634308), and say the name-to-ID mapping for 96186-96191 is unverified. Only Ruby's own entry (Id 30784, NameId 96190, Cost 540) is confirmed."}]}

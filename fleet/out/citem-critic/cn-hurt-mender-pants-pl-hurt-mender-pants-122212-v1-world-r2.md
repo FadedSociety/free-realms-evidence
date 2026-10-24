@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-hurt-mender-pants-pl-hurt-mender-pants-122212-v1-world-r2 status=no_submit turns=2 usd=0.0012 tokens(read,write,in,out)=[3588, 6026, 6, 770] model=claude-haiku-5-5 -->
+# {n}Hurt Mender Pants{pl="Hurt Mender Pants"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer's claim that 'Hurt Mender' is a Medic level 8 ability is accurate per the wiki Medic page (Level 8 lists [Hurt] [Mender]). But the page lists Medic gear at level 10 (Pro Medic Cap, Pro Medic Shirt) and no Hurt Mender clothing, so the set's gating is still unknown. The answer correctly leaves it open.", "fix": "No change required. Keep the set's source as unknown until a vendor row, quest reward or wiki page names the Hurt Mender clothing (locale 122208-122212)."}]}

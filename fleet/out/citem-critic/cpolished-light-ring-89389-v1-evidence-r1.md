@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolished-light-ring-89389-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3179, 7491, 6, 956] model=claude-haiku-5-5 -->
+# Polished Light Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that the four-item cluster (89384, 89385, 89388, 89389) is the whole family is understated. The locale table has the same 'Polished X Ring' pattern across a larger set: Polished Dreadful/Fateful/Infernal/Spectral/Mystical/Phantasmal/Eternal/Celestial/Ethereal Ring (89303-89311), and Polished Air/Wind/Void Ring (89397-89399). Calling the four a standalone cluster is not supported by the locale data.", "fix": "Describe 89389 as one member of a larger 'Polished <element> Ring' family (locale 89303-89311, 89384-89399), with no source for any member. Locale ids are from the client text table (locale tool, query 'Polished|Faded Void Ring')."}]}

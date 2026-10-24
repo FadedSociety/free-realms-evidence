@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cintern-infernal-necklace-86542-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3876, 7778, 6, 893] model=claude-haiku-5-5 -->
+# Intern Infernal Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The community-definition citation names only FreeRealms-Legacy and Lxzxrus. Sanctuary/src/Resources/ClientItemDefinitions.json:467177 also carries the same 'Intern Infernal Necklace' comment and Id 22551, so the list is incomplete. It is a name-only mention and does not change any conclusion.", "fix": "Add Sanctuary/src/Resources/ClientItemDefinitions.json:467177 (Comment 'Intern Infernal Necklace', Id 22551) to the name-only community mentions. Also note that the ugdt entry is at en_us_data.dat line 11121 (offset 420735882) and that a ucdt copy also exists at line 23386; both are name-only."}]}

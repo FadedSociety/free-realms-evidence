@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetallic-grape-ring-99314-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3813, 4599, 6, 877] model=claude-haiku-5-5 -->
+# Metallic Grape Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "Cites repo:data/content/stores.json as having no entry for 32195, relying on the pack's statement. My repo search for 32195, 99314 and 'Metallic Grape' found no hit in any store or vendor file, so the claim holds. The citation is weak only because it is a negative result, not a found row.", "fix": "Keep the 'no coin store price' claim as a negative search result. Say explicitly that the search was for 32195/99314/'Metallic Grape' across repo, and that no vendor row was found."}]}

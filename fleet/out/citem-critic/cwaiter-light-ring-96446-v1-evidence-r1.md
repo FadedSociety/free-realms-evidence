@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwaiter-light-ring-96446-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3484, 4795, 6, 1140] model=claude-haiku-5-5 -->
+# Waiter Light Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the Gleaming Void Ring (locale:96441) has only a placeholder description cites locale:150452. The automatic id check flags that string as a placeholder stub ('This is a ... item'), so it is not live evidence. The cited point is also irrelevant to the Waiter Light Ring's acquisition.", "fix": "Drop the locale:150452 citation or mark it as placeholder-only. The Waiter-set point rests on the client name rows alone (locale:96442, 96445, 96446, 96454, 96455, 96456, 96562-96576), which I re-verified: all names match and none is in the vendor or wiki evidence."}]}

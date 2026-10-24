@@ -1,0 +1,54 @@
+{
+ "title": "Thanksgiving greeting",
+ "names_seen": [
+  "Thanksgiving greeting"
+ ],
+ "facts": [
+  {
+   "statement": "The Free Realms team posted a Thanksgiving greeting to players in the United States of America (Unión Americana).",
+   "numbers": {},
+   "era": "live",
+   "quote": "El equipo de Free Realms les desea a todos nuestros jugadores en la Unión Americana un feliz y saludable día de Acción de Gracias.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1935",
+   "date": null
+  },
+  {
+   "statement": "The Free Realms team posted a Thanksgiving greeting in Spanish to its players in the Americas (as worded: 'Unión Americana').",
+   "numbers": {},
+   "era": "live",
+   "quote": "El equipo de Free Realms les desea a todos nuestros jugadores en la Unión Americana un feliz y saludable día de Acción de Gracias.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1936",
+   "date": null
+  },
+  {
+   "statement": "The Free Realms team posted a Thanksgiving greeting to players in the U.S. and elsewhere.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Everyone on the Free Realms team would like to wish our players in the U.S. and elsewhere a happy and healthy Thanksgiving.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1920",
+   "date": "2010-11-25"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1935",
+   "date": null,
+   "title": "¡Feliz dia de Accion de Gracias!",
+   "summary": "A short Spanish-language SOE holiday greeting from the Free Realms team to players in the United States, wishing them a happy and healthy Thanksgiving. It contains no game mechanics, quests, items, prices, events or other gameplay details. Its only game-related content is that it was posted to the official site, in the Free Realms news section."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1936",
+   "date": null,
+   "title": "¡Feliz dia de Accion de Gracias! (Free Realms - What is New?)",
+   "summary": "This is a short Spanish-language Thanksgiving greeting posted on the official Free Realms news page. The team wishes players in the 'Unión Americana' a happy Thanksgiving. It contains no game mechanics, items, quests, prices or event details."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1920",
+   "date": "2010-11-25",
+   "title": "Happy Thanksgiving!",
+   "summary": "A short official freerealms.com news post from the Free Realms team wishing players in the U.S. and elsewhere a happy and healthy Thanksgiving. It contains no game mechanics, items, events or numbers. The page is titled 'Free Realms - What is New?' and the post is listed under that news section."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

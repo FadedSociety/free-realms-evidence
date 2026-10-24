@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csneak-fateful-ring-86315-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3944, 8248, 6, 1068] model=claude-haiku-5-5 -->
+# Sneak Fateful Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The Sneak/Intern family is described as rings only, but the locale data also has matching necklace names (e.g. 'Sneak Fateful Necklace', 'Intern Eternal Necklace', 'Intern Phantasmal Necklace', 'Sneak Dreadful Necklace', 'Sneak Infernal Necklace'). The family is wider than the answer states, which matters for the 'job-level set' guess in open[1].", "fix": "Note that the family also includes Necklace variants (locale strings in opening-journal-text-v2/locale/en_us_data.dat and the harvesting dumps). Keep it as an unsourced family, with no source assigned. Nothing in the pack supports a source for Sneak Fateful Ring."}]}

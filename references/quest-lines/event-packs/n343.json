@@ -1,0 +1,29 @@
+{
+ "title": "Leap Day 2012 Walgreens promotion",
+ "names_seen": [
+  "Leap Day 2012 Walgreens promotion"
+ ],
+ "facts": [
+  {
+   "statement": "Players who bought a $10 Free Realms game card at participating Walgreens and redeemed it on February 29, 2012 received the Wally Pet Pal plus 250 Station Cash (SC250).",
+   "numbers": {
+    "card_price_usd": 10,
+    "station_cash": 250
+   },
+   "era": "live",
+   "quote": "Go to your local participating Walgreens and purchase a $10 Free Realms Game Card. Redeem in Free Realms or at www.soe.com/gamecards on February 29, 2012",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2541",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2541",
+   "date": null,
+   "title": "Don't Forget About Leap Day Fun!",
+   "summary": "A freerealms.com promo post (listed under 'What is New?') for a one-day Leap Day 2012 offer: a $10 Walgreens Free Realms Game Card redeemed on February 29, 2012 gave the Wally Pet Pal plus 250 Station Cash. The post's posting date is given only as relative ('1 month, 2 weeks ago') so the exact date is unknown. The locale table confirms the offer and names Wally the Leap Frog as the reward."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

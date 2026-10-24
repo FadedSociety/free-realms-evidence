@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iscrapsmith-crackle-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3305, 5104, 6, 974] model=claude-haiku-5-5 -->
+# Scrapsmith Crackle
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / evidence[0]", "issue": "Checked: locale 439983 is tagged npc_name (Sunstone Valley), not an item, and the wiki page calls Crackle a robgoblin NPC and master blacksmith at a crafting station in Whirly's Scrap Camp. The answer's reading is correct, so 'nothing_found' for an item is honest.", "fix": "No change needed. Optionally note that the quest objective for locale 439990 reads 'Craft the Motorsmith Tank Top for Scrapsmith Crackle.' and locale 439995 reads 'Speak with Scrapsmith Crackle.' (quest 'Sunstone Valley Blacksmith: From Scraps to Iron'), which the answer paraphrases correctly."}]}

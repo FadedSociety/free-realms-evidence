@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=calchemist-l5-chest-104399-v1-world-r2 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[10479, 10905, 8, 1172] model=claude-haiku-5-5 -->
+# Alchemist L5 Chest
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The sibling-set claim cites ClientItemDefinitions.json 'Comment' fields around line 547245. I checked: those Comment fields only repeat the item name ('Alchemist L5 Chest') and carry no acquisition data. The claim about the sibling chests is accurate as naming only, but the citation should not be read as support for any source. I did not verify the Runecaster, Veterinarian or Fashion Designer siblings individually.", "fix": "Keep the claim as naming-pattern only. Cite the locale ids (e.g. Alchemist L1 Chest 104644, L2 104609, L3 104539 in quest-lines/citem-packs.json) rather than the Comment fields, which carry no sourcing."}]}

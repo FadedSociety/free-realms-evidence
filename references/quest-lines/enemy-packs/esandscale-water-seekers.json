@@ -1,0 +1,21 @@
+{
+ "title": "Sandscale Water-seekers",
+ "our_entries": [
+  {
+   "file": "dungeons\\sandscale_oasis.json",
+   "definition_id": 930067
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Sandscale Water-seeker",
+  "text": "The Sandscale Water-seeker is an enemy manguana NPC that can be found in the Sandscale Oasis dungeon, located in Sunstone Valley. Most water-seekers can heal sandscale scavengers when they are knocked out.\n\nAppearance\nSandscale Oasis\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Manguana\nCategory:Sunstone Valley"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

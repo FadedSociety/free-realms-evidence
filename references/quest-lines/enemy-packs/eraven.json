@@ -1,0 +1,55 @@
+{
+ "title": "Raven",
+ "our_entries": [
+  {
+   "file": "npcs/highroad_junction.json",
+   "npc_id": 9500000336,
+   "zone": "Highroad Junction",
+   "enemy_kind": "Harpy Queen, Gloam world boss; \"Raven, the Harpy Queen, has been spotted south of Highroad Junction! Use the secret passage behind the lamp post close to where she was originally defeated to challenge her again. WARNING: This battle is recommended for a full group of level 20 players.\" (1359368403). \"Defeated by the fortold hero in a secluded grove south of Highroad Junction.\" (3810880742)",
+   "location_evidence": [
+    "South of the town (client). Wiki: \"In the old tutorial area, in Highroad Junction as a world boss\"; massive logs and green tornadoes to climb; drops Raven's Treasure Chest; added 13 August 2013."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:5159 [npc_name | - | Raven] 'Raven'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:3122 [item | - | Raven] 'Eating this food will temporarily change the player into a Raven.'",
+  "locale:5159 [npc_name | - | Raven] 'Raven'",
+  "locale:5101469 [quest_objective | - | Raven] 'Defeat Raven'",
+  "locale:5102247 [ui | - | Raven] 'Restores Raven to full health.'"
+ ],
+ "client_cluster": [
+  "locale:5151 [npc_name | - | Mini Cray] 'Mini Cray'",
+  "locale:5152 [npc_dialog | - | Banditry] 'Nothing better than a hot meal after a day of banditry!'",
+  "locale:5153 [ui | - | Housing race] 'You have been kicked from the race because a player is decorating this house.'",
+  "locale:5154 [npc_dialog | - | Roasted caterpillar] 'Roasted caterpillar again?'",
+  "locale:5155 [ui | - | Race start error] 'The race was unable to start because you are too far from the starting line.'",
+  "locale:5156 [npc_dialog | - | Argo the Alert] 'I bet that lazy Argo is sleeping on duty again. If Glugmort catches him, he will be in big trouble.'",
+  "locale:5157 [place | - | Palescale Pit] 'Palescale Pit'",
+  "locale:5158 [npc_dialog | - | Spike (guard dog)] \"Watch yourself. We have trained guard dogs. That's a good boy, Spike!\"",
+  "locale:5159 [npc_name | - | Raven] 'Raven'",
+  "locale:5160 [npc_dialog | - | Bandit guard] \"I don't know who you are, but you are welcome here as long as you don't cause any trouble.\"",
+  "locale:5161 [other | - | Pet POI | FLAG dev_note: internal label] 'Pet POI'",
+  "locale:5163 [npc_name | - | Rhino Beetle] 'Rhino Beetle'",
+  "locale:5164 [other | - | Wiki | FLAG dev_note: internal label] 'Wiki'",
+  "locale:5166 [other | - | Dog Spawner | FLAG dev_note: internal spawner label] 'Dog Spawner'",
+  "locale:5167 [item | - | Cupcake Hat] 'Cupcake Hat'"
+ ],
+ "wiki": {
+  "title": "Raven",
+  "text": "Raven is a harpy NPC boss featured as the primary antagonist in the Hero Rises questline. Disguised as the Bixie Queen, she attempted to take over Wugachug using gloamwater sarsaparilla. When inside the party tent, at the end of the Chug-a-Mug Challenge battle, she will appear outside the tent to tells the contestants to stop fighting. After the player come to fight Raven in Highroad Junction, she fails and got defeated by the player.\n\nBattle\nIn the old tutorial area, in Highroad Junction as a world boss. When Raven is there, massive logs will appear and she will fly between them. To get up, you must find some green tornadoes and jump where they are. This will rocket you up and you can land on them. The teleport is quite frequent so be fast. Once defeated, Raven drops Raven's Treasure Chest, bixies will appear and the logs will not be there.\n\nGallery\n\nTrivia\nRaven was introduced in the update of August 13th, 2013.\nRaven is currently the only known harpy in Sacred Grove, although Chugzy mentions that harpies are from Lavender Coast, thus implying that there are more of her kind.\nTwo world bosses, Raven and Nekark were supposed to have Level 20 Awakened fights similar to Necronomicus, but they were never completed before the game shut down.\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Females\nCategory:Gloam\nCategory:Wugachug\nCategory:Highroad Junction"
+ },
+ "images": [
+  "image (image:art_or_promo): Ghostly Raven",
+  "image (image:art_or_promo): FreeRealms",
+  "image (image:item_tooltip): Brawler's Feathered\nHammer of\nRagnarok\nHarness some of Raven's power with this feathered hammer!\nResell Value:  75\nYou Own: 1\nPower: 2\nEquippable State:\nThis item is currently equipped.\nRequired: Level 6, Brawler\nBrawler's Smash\nDelivers a quick smash, damaging all opponents in front of you.\nDeals 6"
+ ],
+ "video": [
+  "video:_QEYeqqMW4Q/00026.jpg (-): store: Item Of The Day (Pets panel) Item Of The Day (name not shown) 20000 coins | items_seen: Aify Baby Black Widow Captain Clean Captain Mojo Ghostly Raven Ghostly Snake Ghostly Toad Grave Elemental Happy Duke Jack-O-Lantern Landshark Lil Spike Mini Necrowarr Zombie Scratch | o"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

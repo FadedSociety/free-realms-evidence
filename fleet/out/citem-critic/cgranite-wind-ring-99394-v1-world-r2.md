@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgranite-wind-ring-99394-v1-world-r2 status=done turns=5 usd=0.0024 tokens(read,write,in,out)=[28951, 9218, 12, 1880] model=claude-haiku-5-5 -->
+# Granite Wind Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Granite Fateful Ring reward from Cook-off Catastrophe is supported by the video frames (video:506rO_mhaSs/00248.jpg and 00250.jpg show 'You receive 1 [Granite Fateful Ring]'), but the cited repo note notes/Build Guides/Content/Jobs/Chef.md:184 is truncated at 'Video reward lines: 5 coins and 3 Unmovin' and does not name the ring. Cite the video frames as the source, not the Chef note.", "fix": "Cook-off Catastrophe (Teaspoon Tarisa, Seaside) rewards 1 Granite Fateful Ring, per video:506rO_mhaSs/00248.jpg and 00250.jpg (locale:69729). This is evidence for the sibling only, not for Granite Wind Ring."}]}

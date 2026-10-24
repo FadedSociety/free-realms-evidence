@@ -1,0 +1,76 @@
+{
+ "title": "Cakenstein",
+ "names_seen": [
+  "Cakenstein"
+ ],
+ "facts": [
+  {
+   "statement": "Cakenstein is a monster that is the result of a baking accident in the kitchen of Glerga, a Robgoblin chef, after she added Mystery Meat to a recipe for a bake-off.",
+   "numbers": {
+    "cakes_baked_with_mystery_meat": 7
+   },
+   "era": "unknown",
+   "quote": "She baked seven cakes using Mystery Meat and now Cakenstein is appearing everywhere one of these cakes was sent.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1284",
+   "date": null
+  },
+  {
+   "statement": "Cakenstein, a bizarre cake monster, and his cakeling helpers must be fought during the party.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Você também vai ter que lutar com Cakenstein, uma criatura de bolo bizarra e seus ajudantes bolomorfos.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2107",
+   "date": null
+  },
+  {
+   "statement": "A monster called Cakenstein was loose in Sacred Grove, stealing cakes and trying to ruin the Birthday Bash.",
+   "numbers": {},
+   "era": "live",
+   "quote": "A monster called Cakenstein is on the loose trying to ruin the tastiest part of the celebration",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2580",
+   "date": "2012-04-26"
+  },
+  {
+   "statement": "The birthday world event featured the return of Cakenstein, described as one of Sacred Grove's favorite villains.",
+   "numbers": {},
+   "era": "live",
+   "quote": "an epic in-game world event featuring the return of one of Sacred Grove’s favorite villains, Cakenstein.",
+   "article": "http://www.tentonhammer.com:80/free-realms/news/free-realms-celebrates-its-3rd-birthday-with-new-events",
+   "date": "2012-04-30"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1284",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A SOE news post introducing the Cakenstein event: a monster created by a baking accident in Glerga's kitchen that appears wherever one of seven Mystery Meat cakes was sent. Cakenstein fights players with Cakelings, and a Cakeling that returns cake to him makes him invulnerable for a short time; players are told to use fireworks against him. The post's date is only given as '3 years, 10 months ago' relative to the capture, so the exact date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2107",
+   "date": null,
+   "title": "Free Realms - What is New? (Aniversário do FreeRealms!)",
+   "summary": "A Portuguese-language SOE news post announcing Free Realms' second-anniversary party, running from the posting date until May 18 (anniversary on April 28). It lists party zones, daily and subscriber-only party quests given by Camellia/Camilla in Sanctuary, party items sold on the Marketplace, and eight zone-specific birthday cakes plus a bonus Boss Cake for buying all eight. The post gives a relative date only ('1 month, 1 week ago'), so the exact start date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2580",
+   "date": "2012-04-26",
+   "title": "Happy 3rd Birthday, Free Realms!",
+   "summary": "SOE's official news post announcing Free Realms' third-anniversary Birthday Bash, which ran through May 24, 2012. It describes a cake bake-off storyline in Sanctuary led by Queen Valerian, daily party-prep quests, and a monster called Cakenstein disrupting the celebration in Sacred Grove. It also lists a free Birthday Cake hat and four new pinata pets in the Marketplace."
+  },
+  {
+   "url": "http://www.tentonhammer.com:80/free-realms/news/free-realms-celebrates-its-3rd-birthday-with-new-events",
+   "date": "2012-04-30",
+   "title": "Free Realms Celebrates Its 3rd Birthday with New Events",
+   "summary": "A April 30, 2012 SOE press release announcing Free Realms' third-birthday celebration: birthday story quests, daily birthday rewards, a Cakenstein world event, a special birthday hat for all players, and birthday Marketplace items. The festivities were stated to run until May 24, 2012. The article gives player and item totals but names no specific quests or rewards beyond these."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Cakenstein's Last Stand (final, live yes)",
+  "Cakey Clue (final, live yes)",
+  "Downing Cakenstein (final, live yes)",
+  "Mysteriously Cakey Remains (final, live yes)",
+  "Undelivered Confections (unresolved, live yes)"
+ ]
+}

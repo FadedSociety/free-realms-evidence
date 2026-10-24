@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-81411 status=nothing_found turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 6544, 4, 526] model=claude-haiku-5-5 -->
+# WoW: Upcoming PvP Changes in Patch 3.3.3 | Ten Ton Hammer
+
+{"article": {"title": "WoW: Upcoming PvP Changes in Patch 3.3.3", "date": "2010-02-25", "author": "Xerin", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer article covers World of Warcraft patch 3.3.3 PvP changes, including a random battleground queue for level 80 players and honor system changes. It does not discuss Free Realms. The only Free Realms mentions are in the site's sidebar popularity lists, so no Free Realms facts are recorded.", "facts": [], "quests": [], "uncertain": ["The page is a World of Warcraft article; 'Free Realms' appears only in the site-wide 'Most Popular' and 'Recently Popular' sidebar lists, which are navigation rather than article content."]}

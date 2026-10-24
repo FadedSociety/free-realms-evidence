@@ -1,0 +1,28 @@
+{
+ "title": "Birthday celebration content",
+ "names_seen": [
+  "Birthday celebration content"
+ ],
+ "facts": [
+  {
+   "statement": "The anniversary update was to add new community events, minigames, and 15 new birthday quests.",
+   "numbers": {
+    "new_birthday_quests": 15
+   },
+   "era": "live",
+   "quote": "New community events, minigames, and 15 new birthday quests will be added",
+   "article": "http://www.tentonhammer.com:80/node/83041",
+   "date": "2010-04-02"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/83041",
+   "date": "2010-04-02",
+   "title": "Free Realms Surpasses 10 Million Users and Prepares for 1st Birthday",
+   "summary": "A Ten Ton Hammer press-release repost announcing that Free Realms had passed 10 million registered users and was preparing a one-year anniversary celebration on April 28, 2010. It says party decorations would appear in game from mid-April, along with new community events, minigames and 15 new birthday quests. It names no quests or rewards."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

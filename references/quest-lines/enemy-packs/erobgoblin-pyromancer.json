@@ -1,0 +1,40 @@
+{
+ "title": "Robgoblin Pyromancer",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\deep_mines.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:430417 [npc_name | - | Robgoblin Pyromancer] 'Robgoblin Pyromancer'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:7034 [quest_objective | - | Robgoblin Pyromancer] 'Find and defeat the Robgoblin Pyromancer!'",
+  "locale:7035 [quest_objective | - | Robgoblin Pyromancer] \"The Robgoblin Pyromancer really shouldn't be playing with fire... especially since there is a lot of dynamite in the mines. Find him and teach him a lesson.\"",
+  "locale:430417 [npc_name | - | Robgoblin Pyromancer] 'Robgoblin Pyromancer'"
+ ],
+ "client_cluster": [
+  "locale:430410 [item | - | Spider Eggs] 'Spider Eggs'",
+  "locale:430413 [quest_title | - | Mana Drain Test | FLAG placeholder: test text] 'Mana Drain Test'",
+  "locale:430415 [ability | - | Dark Crystal Mana Drain] 'Dark Crystal Mana Drain'",
+  "locale:430416 [quest_title | - | Den of Secrets - Bonus Objective] 'Den of Secrets - Bonus Objective'",
+  "locale:430417 [npc_name | - | Robgoblin Pyromancer] 'Robgoblin Pyromancer'",
+  "locale:430418 [npc_name | - | Test Robgoblin Pyromancer | FLAG placeholder: test NPC name] 'Test Robgoblin Pyromancer'",
+  "locale:430419 [ability | - | Pyromancer's Firebolt] \"Pyromancer's Firebolt\"",
+  "locale:430420 [quest_title | Deep Mines | Deep Mines - Bonus Objective NPC attack] 'Deep Mines - Bonus Objective NPC attack'",
+  "locale:430421 [ability | - | Pyromancer's Firestorm] \"Pyromancer's Firestorm\"",
+  "locale:430422 [quest_objective | Deep Mines | deep mines - bonus objective NPC] 'deep mines - bonus objective NPC'",
+  "locale:430423 [ui | - | Spin / Accept] 'Spin / Accept'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Robgoblin Pyromancer"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

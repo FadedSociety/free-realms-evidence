@@ -1,0 +1,36 @@
+{
+ "title": "SOE Community Webcast: Free Realms Explores Sunstone Valley",
+ "names_seen": [
+  "SOE Community Webcast: Free Realms Explores Sunstone Valley"
+ ],
+ "facts": [
+  {
+   "statement": "An SOE community webcast about the Sunstone Valley area was scheduled for Thursday, August 30, 2012 at 4:00 p.m. US Pacific Time on Twitch TV, expected to last about 15 minutes.",
+   "numbers": {
+    "duration_minutes": 15
+   },
+   "era": "live",
+   "quote": "Join us on Thursday, August 30, 2012, at 4:00 p.m. US Pacific Time* on Twitch TV!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2747",
+   "date": null
+  },
+  {
+   "statement": "The webcast was hosted by producer Harvey Burgess, with designers Eric Hankins and Chris Fritchoff, who would describe what players can do in Sunstone Valley and other changes to the game.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Host Harvey Burgess (Producer), will be joined by Eric Hankins (Designer) and Chris Fritchoff (Designer)",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2747",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2747",
+   "date": null,
+   "title": "Free Realms - Quoi de neuf ? (SOE Community Webcast: Free Realms Explores Sunstone Valley)",
+   "summary": "SOE announced a community webcast, hosted on Twitch TV, that would walk through the new Sunstone Valley area and other changes to Free Realms. The page is a 2012 announcement; it gives the webcast date, time and length but no details of the area's contents."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

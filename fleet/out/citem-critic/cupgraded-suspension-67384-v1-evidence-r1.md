@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cupgraded-suspension-67384-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3803, 7121, 6, 914] model=claude-haiku-5-5 -->
+# Upgraded Suspension
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "Minor: the answer records kind 'other' with no source. The client text confirms only that the item can be added to a collection (locale:132478). The collection itself exists in client text as 'Kart Part Upgrades' (ugdt 925527769, ucdt 893637394), which the answer does not mention.", "fix": "Optionally note that the collection name 'Kart Part Upgrades' is present in the client data (en_us_data.dat, ugdt 925527769 / ucdt 893637394). Keep kind 'other' and live 'unsure' because no acquisition source is evidenced. Searches of lookup (client, wiki, articles, video) and refs found no reference to Upgraded Suspension or the collection's rewards."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iqueen-valerian-v2-world-r2 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[11893, 7313, 8, 1052] model=claude-haiku-5-5 -->
+# Queen Valerian
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer rightly records no vendor, drop, quest or event source. My lookups agree: locale:119218 'Valerian Costume' and locale:119281 description exist, and no wiki, article or client text links them to any acquisition. So sources=[] and wireable=false are correct.", "fix": "No change required. Optional: note that 'Silver Valerian Voucher' (locale:2405) and 'Gold Valerian Voucher' (locale:2406) are also client items with the Valerian name. Nothing in the pack links them to the costume, so they should stay an unverified lead, not a source."}]}

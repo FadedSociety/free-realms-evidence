@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cnova-s-ethereal-necklace-86752-v1-world-r2 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[12973, 9492, 8, 945] model=claude-haiku-5-5 -->
+# Nova's Ethereal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' with no retired status. This is consistent with the evidence: the client defines the item (locale:86752, definition 22761) but no wiki, article, video, vendor, quest or drop source names it. My own lookups on the exact name returned nothing for Nova's Ethereal Necklace. The phrase search on Ethereal Necklace hit only other tier families (Hardwood, Granite, Dull, Rascal, etc.). Repo search for 22761 and 86752 found nothing either.", "fix": "No change needed. Keep sources empty, retired null, live unsure, and note that the client defines the item without any evidenced acquisition."}]}

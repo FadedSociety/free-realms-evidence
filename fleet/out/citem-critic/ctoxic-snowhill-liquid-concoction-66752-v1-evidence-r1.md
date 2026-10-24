@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctoxic-snowhill-liquid-concoction-66752-v1-evidence-r1 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[9723, 9417, 8, 1252] model=claude-haiku-5-5 -->
+# Toxic Snowhill Liquid Concoction
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open", "issue": "Minor omission: the sibling 'Toxic Snowhill Mixture' (locale 66800) is in the client text and in the Legacy/Sanctuary ClientItemDefinitions next to the Liquid Concoction row (comment at ClientItemDefinitions.json:477469 in FreeRealms-Legacy). The pack lists the concoction variants but not this one. It is context only, not an acquisition source.", "fix": "Optionally add locale 66800 'Toxic Snowhill Mixture' to the sister-variant list. No source change follows from it."}]}

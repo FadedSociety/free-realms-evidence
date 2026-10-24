@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cillusion-food-antelope-1198-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4130, 7382, 6, 742] model=claude-haiku-5-5 -->
+# Illusion Food - Antelope
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The first-pass tag 'live: yes' was not carried into the answer, which correctly says 'unsure'. The client definition alone does not prove obtainability. My check found no wiki, article, video, vendor or repo source naming Illusion Food - Antelope (locale 1198) beyond the client definition and the Antelope NPC/exhibit names, which are unrelated to the food.", "fix": "Keep live 'unsure' and retired null until a wiki page, dated promotion or vendor row names the item. No source to add."}]}

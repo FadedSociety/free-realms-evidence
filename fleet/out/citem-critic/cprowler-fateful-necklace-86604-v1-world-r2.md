@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cprowler-fateful-necklace-86604-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3739, 4511, 6, 892] model=claude-haiku-5-5 -->
+# Prowler Fateful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The open note that the Prowler/Physician necklace tiers 'may share one acquisition path' is speculation with no cited evidence. It is flagged as unverified, so it does not fail the answer, but it should not be read as a lead.", "fix": "Keep it as an unverified hint, or drop it. Nothing in the repo, wiki, video or client text links the necklace tiers to a common source. Checked: repo search for Prowler/Fateful/Physician Necklace returns only the Polished Fateful Necklace wraith-loot note (NPCs - Blackspore Swamp.md:233) and an unrelated 'Frostfang Prowler' mob entry."}]}

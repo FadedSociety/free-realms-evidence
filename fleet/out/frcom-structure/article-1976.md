@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=article-1976 status=done turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 1933, 4, 511] model=claude-haiku-5-5 -->
+# Free Realms - What is New?
+
+{"article": {"title": "Happy Holidays from Free Realms", "date": null, "author": "The Free Realms Team", "type": "news"}, "about_free_realms": true, "summary": "This is a short holiday greeting from the Free Realms team, posted on the official site and captured in December 2010. It contains no gameplay, patch, event, quest, item or pricing details, so it adds nothing to the rebuild's mechanics data beyond confirming the live site was running at that time.", "facts": [], "quests": [], "uncertain": ["The exact post date is not given; the page says only 'Posted 3 days, 4 hours ago' relative to the capture date of 2010-12-27, which would put it around 2010-12-23 but this is an estimate."]}

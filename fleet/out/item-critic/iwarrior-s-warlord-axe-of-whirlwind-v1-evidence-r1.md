@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwarrior-s-warlord-axe-of-whirlwind-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4102, 9337, 6, 1146] model=claude-haiku-5-5 -->
+# Warrior’s Warlord Axe of Whirlwind
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 2152 coin price is not in the wiki prose (the sentence reads 'where it sells for  and' with the number blanked). It rests only on the page's structured coins field. The answer discloses this in open, so it is not a false claim, but the source string should say the number comes from the coins field, not the sentence.", "fix": "Keep price 2152 coins, citing the wiki coins field (rev 34630) and the Coin Shop Weapons category; note the prose price is blank. Confirm against a live Coin Shop listing before treating it as current."}]}

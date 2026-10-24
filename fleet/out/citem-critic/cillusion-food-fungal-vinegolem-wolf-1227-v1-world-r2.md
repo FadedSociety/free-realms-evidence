@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cillusion-food-fungal-vinegolem-wolf-1227-v1-world-r2 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[15006, 11247, 8, 966] model=claude-haiku-5-5 -->
+# Illusion Food - Fungal Vinegolem Wolf
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that no source was found. I re-checked: lookup for 'Vinegolem' across wiki, articles and video returns no matches; the wiki's only Illusion Food tooltip is Bark Chocolate; repo hits for Vinegolem are only client model/NPC spawn data (bear_vinegolem.adr, bear_vinegolem_fungus.adr) and not an item source. No vendor, quest, or event source exists in the pack to add.", "fix": "No change required. Keep sources empty, retired null, live unsure, wireable false. Optional: note that the Illusion Food family (Bark Chocolate, Penguin, Owl, etc.) shows no shared vendor in the evidence reviewed."}]}

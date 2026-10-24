@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-17589 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2849, 4, 510] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is only the forum shell for the fan forum freerealmsforums.com: navigation, a forum index listing Free Realms subforums (Combat, Items, Jobs/Classes, In-Game Mini Games, Pets, Membership / Stationcash, etc.), and a vBulletin 'maximum number of posts you can view' registration error. No thread title, post text, or game facts appear, so there is nothing a rebuilder can use from it.", "facts": [], "quests": [], "uncertain": ["The thread the URL points to (p=17589) is not present in the extracted text; only the error page and forum index were captured.", "No author or post date is visible on this page."]}

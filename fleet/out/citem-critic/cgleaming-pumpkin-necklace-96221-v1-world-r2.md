@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-pumpkin-necklace-96221-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3834, 8241, 6, 1139] model=claude-haiku-5-5 -->
+# Gleaming Pumpkin Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "Cites locale:150446 as a source-search finding. That line is flagged placeholder (generic 'This is a ... item' stub), so it is not live evidence. The answer's own open[4] already disowns it, but the evidence entry still lists it as a mention of the item.", "fix": "Drop locale:150446 from the evidence list, or mark it explicitly as a non-live placeholder. The correct statement is that no vendor, quest, drop, event, or recipe source was found in client text, wiki, articles, video, or repo/refs data (my own repo and refs searches for 'Gleaming' and 30815 also returned nothing for this item)."}]}

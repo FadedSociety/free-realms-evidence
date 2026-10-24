@@ -1,0 +1,38 @@
+{
+ "title": "Trick-or-Treat (SOE cross-game event, 2011)",
+ "names_seen": [
+  "Trick-or-Treat (SOE cross-game event, 2011)"
+ ],
+ "facts": [
+  {
+   "statement": "SOE ran a Trick-or-Treat promotion across its games, through October 31, 2011, where visiting participating games each day gives treats and tricks.",
+   "numbers": {
+    "end_date_day": 31,
+    "end_month": 10,
+    "end_year": 2011
+   },
+   "era": "live",
+   "quote": "Today through October 31, 2011, get treats and tricks when you visit your participating games each day.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2322",
+   "date": null
+  },
+  {
+   "statement": "Free Realms was one of the games participating in the 2011 Trick-or-Treat promotion.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Participating games include: EverQuest® EverQuest® II,;EverQuest® II Extended, Free Realms®",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2322",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2322",
+   "date": null,
+   "title": "Free Realms - What is New? (Trick-or-Treat! Double Your Treats Today!)",
+   "summary": "An SOE cross-game news post announcing a Trick-or-Treat promotion running through October 31, 2011, in which players earn treats and tricks by visiting their participating games each day. Free Realms is one of the listed participating games, but the post gives no Free Realms-specific rewards or mechanics. Details are on soe.com/trickortreat, which is not in the capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

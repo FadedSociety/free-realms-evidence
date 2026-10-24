@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-18780 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2873, 4, 651] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a vBulletin error page from the Free Realms fan forum (freerealmsforums.com), not a thread. It shows a 'maximum number of posts you can view' registration prompt and forum index navigation, with no player post, guide, or game information. It gives a rebuilder nothing about quests, items, prices, events or mechanics.", "facts": [], "quests": [], "uncertain": ["The requested thread (p=18780) did not load; only the 'Free Realms Forums Error' message and forum navigation are present in the capture.", "The capture date is 2009-06-08, but the page shows 'The time now is 09:42 PM' with no date, so no article date can be given."]}

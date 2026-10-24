@@ -1,0 +1,43 @@
+{
+ "title": "Ghost Dwarf",
+ "our_entries": [
+  {
+   "file": "dungeons\\haunted_mines.json",
+   "definition_id": 930032
+  },
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000028,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Ghosts of the dead miners",
+   "location_evidence": [
+    "Haunted Mines and Quagmire Quarry"
+   ]
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:75995 [npc_name | - | Ghost Dwarf] 'Ghost Dwarf'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:75995 [npc_name | - | Ghost Dwarf] 'Ghost Dwarf'"
+ ],
+ "client_cluster": [
+  "locale:75991 [ability | - | Toad Splat] 'Toad Splat'",
+  "locale:75992 [other | - | Toad Splat | FLAG dev_note: internal label with zone code] 'cracked_claw_caverns 118:  base pop attack'",
+  "locale:75993 [ability | - | Toad Poison] 'Toad Poison'",
+  "locale:75994 [other | - | Toad Poison | FLAG dev_note: internal label with zone code] ' cracked_claw_caverns 118: poison toad'",
+  "locale:75995 [npc_name | - | Ghost Dwarf] 'Ghost Dwarf'",
+  "locale:75998 [other | Pixiewood Hills | PixiewoodSignKidA | FLAG dev_note: internal sign id] 'PixiewoodSignKidA'",
+  "locale:75999 [npc_dialog | Pixiewood Hills | PixiewoodSignKidA | FLAG joke: sign gag] 'Tormented Spirits!'",
+  "locale:76000 [other | Pixiewood Hills | PixiewoodSignKidB | FLAG dev_note: internal sign id] 'PixiewoodSignKidB'",
+  "locale:76001 [npc_dialog | Pixiewood Hills | PixiewoodSignKidB] 'The letters look really clean from here...'",
+  "locale:76002 [npc_dialog | Pixiewood Hills | PixiewoodSignKidB] 'Oh, look at this mess!'",
+  "locale:76003 [item | - | Cray Pin] 'Cray Pin'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

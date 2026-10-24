@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crascal-phantasmal-ring-86301-v1-world-r2 status=no_submit turns=2 usd=0.0014 tokens(read,write,in,out)=[3866, 7820, 6, 705] model=claude-haiku-5-5 -->
+# Rascal Phantasmal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer's claim that the ring set's acquisition is unknown holds up. My lookups found only the nine client locale entries (locale:86296-86304) for the Rascal ring series, with no wiki, article or video hit naming any Rascal ring or necklace. The 'marketplace' first-pass guess is correctly dropped. The only other hits were unrelated Phantasmal rings and necklaces in the refs dumps, which do not bind to this item.", "fix": "No change required. Keep sources empty, retired null and live unsure. Re-check when a wiki page for the Rascal pet or the Rascal ring set is available."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgreen-arch-tiger-block-30225-v1-world-r2 status=no_submit turns=3 usd=0.0023 tokens(read,write,in,out)=[14899, 11994, 8, 1213] model=claude-haiku-5-5 -->
+# Green Arch Tiger Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The source is labelled 'vendor', but no NPC or shop is evidenced. The only record is a coin-store row in stores.json (category 147), and the answer's own open list says the vendor is unknown. A 'vendor' label implies an NPC that the pack does not support.", "fix": "Label the source as a coin store listing (store category 147, stores.json line 16458, item_id 77127, purchase_price_coins 400, member_price_coins 360), with vendor and zone left unknown. This is what repo:stores.json supports."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccourier-mustard-necklace-96280-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3537, 9011, 6, 1206] model=claude-haiku-5-5 -->
+# Courier Mustard Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer cites the Ernie necklace family but does not mention that the repo's quest-lines/npc-packs.json tags locale:96300 ('Ernie's Mustard Necklace') to an NPC named 'Ernie' (line 64779). That is a name tag in an NPC pack, not an acquisition source, so it does not change the empty sources list, but a builder checking the Mustard family should look at it.", "fix": "Keep sources empty. Note that quest-lines/npc-packs.json:64779 links locale:96300 to an NPC 'Ernie' as a name tag only; it is not evidence of a vendor, reward, or drop for the Courier necklace."}]}

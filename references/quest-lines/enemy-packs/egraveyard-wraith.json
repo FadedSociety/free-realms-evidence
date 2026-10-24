@@ -1,0 +1,58 @@
+{
+ "title": "Graveyard Wraith",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\cursed_graveyard.json"
+  },
+  {
+   "file": "dungeons\\cursed_graveyard.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:115827 [npc_name | - | Graveyard Wraith] 'Graveyard Wraith'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:115823 [quest_objective | - | Graveyard Wraith] 'Something sinister is moving about this graveyard. Venture in and defeat the ominous presence!'",
+  "locale:115824 [quest_dialog | - | Graveyard Wraith] \"I can't control myself!\"",
+  "locale:115825 [quest_dialog | - | Graveyard Wraith] \"I'm being forced to stop you!\"",
+  "locale:115826 [quest_dialog | - | Graveyard Wraith] 'Only darkness awaits if you continue...'",
+  "locale:115827 [npc_name | - | Graveyard Wraith] 'Graveyard Wraith'",
+  "locale:115968 [quest_objective | - | graveyard wraith] 'Defeat the graveyard wraith!'",
+  "locale:115971 [quest_dialog | - | graveyard wraith] 'A wraith is haunting this graveyard, send him back to where he came from!'"
+ ],
+ "client_cluster": [
+  "locale:115819 [other | - | - | FLAG dev_note: internal tag text] 'misty_mountains 159: extra players aoe attack'",
+  "locale:115821 [other | - | -] 'The wolves howl and then attack.'",
+  "locale:115822 [place | - | Cursed Graveyard] 'Cursed Graveyard!'",
+  "locale:115823 [quest_objective | - | Graveyard Wraith] 'Something sinister is moving about this graveyard. Venture in and defeat the ominous presence!'",
+  "locale:115824 [quest_dialog | - | Graveyard Wraith] \"I can't control myself!\"",
+  "locale:115825 [quest_dialog | - | Graveyard Wraith] \"I'm being forced to stop you!\"",
+  "locale:115826 [quest_dialog | - | Graveyard Wraith] 'Only darkness awaits if you continue...'",
+  "locale:115827 [npc_name | - | Graveyard Wraith] 'Graveyard Wraith'",
+  "locale:115828 [quest_objective | Briarwood | Sven Fardreamer] \"As a wizard, enter Treeleaf's Retreat in Briarwood and take a twig from Treeleaf.\"",
+  "locale:115829 [quest_objective | Briarwood | Sven Fardreamer] 'Return to Sven outside the Briar Patch in Briarwood'",
+  "locale:115831 [quest_title | Briarwood | Snake Dance] 'Snake Dance'",
+  "locale:115832 [quest_objective | Briarwood | Snake Dance] 'Snakes in a Maze - Snake Dance - Roots target'",
+  "locale:115833 [quest_objective | Sacred Grove | Snake Dance] 'Retrieve books from various people around Sacred Grove.'",
+  "locale:115834 [quest_title | - | Deadly Poison] 'Deadly Poison'",
+  "locale:115835 [quest_objective | - | Deadly Poison] 'Snakes in a Maze - Killer Cobra - Deadly Poison - DoT'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:5Su_nfQZyHU/00018.jpg (-): npcs: Graveyard Wraith nameplate enemy | dialog: Graveyard Wraith: What are yoooOooooo doooOoooooing here? | quest:   Defeat the graveyard wraith!  | landmarks: Graveyard tombstones and a picket fence | job_level: Ninja 20 | other_text: Cursed Grave Goals (1) Defeat the graveyard",
+  "video:5Su_nfQZyHU/00020.jpg (Cursed Grave?): npcs: Graveyard Wraith nameplate  | dialog: Graveyard Wraith: What are yoooOOoooo dooOOoooing here? | quest:   Defeat the graveyard wraith!  | landmarks: Graveyard tombstones and iron fence Purple flowers by the crypt | job_level: Ninja 20 | other_text: Goals (1) Defeat the grave",
+  "video:5Su_nfQZyHU/00036.jpg (Cursed Grave): quest:   Defeat the graveyard wraith!  | landmarks: blue stone tombstones arched wooden door in stone frame purple flowers iron fence | job_level: Ninja 20"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Brawler: Graveyard Grumble' (final): Defeat the graveyard wraith!"
+ ]
+}

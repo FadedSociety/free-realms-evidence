@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccharged-crusher-chassis-114845-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3900, 4721, 6, 791] model=claude-haiku-5-5 -->
+# Charged Crusher Chassis
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The per-kart part-set claim (chassis, engine, turbo, mod, steering as one derby kart) is an inference. The client does show sibling parts (locale:117467 Engine, 117468 Turbo, 117469 Mod, 117580-117582 descriptions) and the kart name (locale:39235), so the grouping is supported by names, but no source confirms the kart exists in any sale or reward.", "fix": "Keep it labelled as an inference from client names (locale:39235, 117467-117469, 117580-117582). Do not state it as a confirmed derby kart."}]}

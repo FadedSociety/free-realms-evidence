@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmooth-light-necklace-96521-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3558, 4229, 6, 927] model=claude-haiku-5-5 -->
+# Smooth Light Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that repo search for definition 31115 found nothing is literally true for the item, but my own repo search for 31115 returns a hit in prototype/osfr-tools/data/content/achievements.json (line 4543, description_id 31115). It is unrelated to this necklace, so the conclusion holds, but the answer should say the hit was checked and is a different record.", "fix": "Note that repo matches for 31115 are an achievements.json description_id (achievements.json:4543), not this item. No item source is found."}]}

@@ -1,0 +1,58 @@
+{
+ "title": "Amoranth",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\forgotten_caves.json"
+  },
+  {
+   "file": "dungeons\\forgotten_caves.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:40154 [npc_name | - | Amoranth] 'Amoranth'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:16355 [quest_objective | - | Amoranth] 'Defeat Amoranth.'",
+  "locale:16356 [quest_dialog | - | Amoranth] 'Amoranth protects the magic fires.  Defeating him is the only way to assist Petulia with her task.  '",
+  "locale:40154 [npc_name | - | Amoranth] 'Amoranth'",
+  "locale:40181 [npc_dialog | - | Amoranth] \"Wait until I absorb power from the Brazier! You won't be able to stop me!\"",
+  "locale:40182 [npc_dialog | - | Amoranth] 'I have the power!'",
+  "locale:40183 [ability | - | Amoranth] 'Sleeping Powder'",
+  "locale:40184 [ability | - | Amoranth] 'Amoranth AoE Sleep'",
+  "locale:40185 [ability | - | Amoranth] 'Power of the Brazier'",
+  "locale:40186 [ability | - | Amoranth] 'Amoranth Absorb Brazier Power'",
+  "locale:40188 [ability | - | Amoranth] 'Amoranth AoE Swing Attack'",
+  "locale:40189 [ability | - | Amoranth] 'Flurry'",
+  "locale:40190 [ability | - | Amoranth] 'Amoranth Multithrust Jab'",
+  "locale:40191 [ability | - | Amoranth] 'Lightning Blast'",
+  "locale:40192 [ability | - | Amoranth] 'Amoranth Lightning Blast'"
+ ],
+ "client_cluster": [
+  "locale:40146 [quest_objective | - | Yummy Pie] 'Go grab the pie up high!'",
+  "locale:40147 [quest_objective | - | Yummy Pie] \"Go grab the pie up high! It's not in the sky.\"",
+  "locale:40148 [quest_objective | - | Yummy Pie] 'Return the pie to Kaylie.'",
+  "locale:40149 [quest_objective | - | Yummy Pie] ' Now that you have the delicious pie, make sure to hurry back to Kaylie so she can enjoy her dessert!'",
+  "locale:40150 [quest_dialog | - | Yummy Pie] \"Thank you so much for bringing me a pie, but wait... this smells horrible!  Figures.  My mom's a terrible baker.  Oh well!\"",
+  "locale:40152 [npc_name | - | Jubell Runningbrew] 'Jubell Runningbrew'",
+  "locale:40154 [npc_name | - | Amoranth] 'Amoranth'",
+  "locale:40155 [quest_objective | - | mural pieces] 'Find mural pieces'",
+  "locale:40156 [quest_dialog | - | Izzie Amberaura] 'Changeling Berserkers are among the strongest of their clans.  If anyone has the murals, it would be them.  '",
+  "locale:40157 [npc_name | - | Izzie Amberaura] 'Izzie Amberaura'",
+  "locale:40158 [quest_objective | Memorial Caverns | Saedi] 'Return to Saedi in the Memorial Caverns'",
+  "locale:40159 [quest_objective | Memorial Caverns | Saedi] 'Now that you have retrieved the mural pieces, return them to Saedi.'",
+  "locale:40160 [quest_title | - | Race to the Racetrack | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - Race to the Racetrack'",
+  "locale:40161 [quest_objective | - | Race to the Racetrack] \"Run through the gates on the course and beat Mandy's time to the finish.\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

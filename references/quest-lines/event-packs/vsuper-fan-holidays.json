@@ -1,0 +1,33 @@
+{
+ "title": "Super Fan Holidays",
+ "names_seen": [
+  "Super Fan Holidays"
+ ],
+ "facts": [
+  {
+   "statement": "SOE Super Fan Holidays sale ran from November 29 at 09:00 Pacific Time to December 3 at 18:00 Pacific Time.",
+   "numbers": {
+    "start_hour_PT": 9,
+    "end_hour_PT": 18,
+    "start_day": 29,
+    "end_day": 3,
+    "start_month": 11,
+    "end_month": 12
+   },
+   "era": "live",
+   "quote": "desde el 29 de noviembre comenzando a las 09:00 hrs Tiempo Pacifico hasta el 3 de diciembre terminando a las 18:00 hrs",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1940",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1940",
+   "date": null,
+   "title": "SOE Super Fan Holidays",
+   "summary": "A Spanish-language SOE news post announcing the Super Fan Holidays sale, with Station Cash discounts for everyone and extra discounts for Free Realms members. The post gives the sale window and the discount percentages; the exact year is not shown, and the 'posted 6 months ago' age implies late 2010 relative to the June 2011 capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

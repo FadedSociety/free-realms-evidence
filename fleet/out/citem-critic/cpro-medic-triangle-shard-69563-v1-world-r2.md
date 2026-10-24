@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpro-medic-triangle-shard-69563-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3932, 9788, 6, 1476] model=claude-haiku-5-5 -->
+# Pro Medic Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[1] / sources[0].detail", "issue": "The label 'job-shard group' for category 121 is an inference, not something the data states. Category 121 also holds rows outside the 10811-10830 block (for example items 2107-2143 in stores.json lines 596-621), so the category is not shown to be a Medic-shard-only group.", "fix": "Keep the price claim, which matches repo:prototype/osfr-tools/data/content/stores.json line 3139 (item 10824, category 121, purchase 1149, member 1034 at 10%, sell 114, no_sale false). Describe category 121 as a mixed coin-store category, or say the shard grouping is inferred from the 10811-10830 neighbour pattern."}]}

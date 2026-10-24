@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-live-placements-rs-L1 status=nothing_found turns=14 usd=0.0174 tokens(read,write,in,out)=[381696, 49939, 30, 14714] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/live_placements.rs lines 1-612 of 612
+
+Reviewed `prototype/osfr-tools/tests/live_placements.rs` lines 1-612 (all 12 tests plus helpers) against the code under test: `gameplay/placement_watch.rs` (poll, observe, retry, tick_live_placements), `gameplay.rs` (tick, place_npc, unplace_npc, load/“Could not read the placements” paths, shared_npc_view, take_shared_fields), `gameplay/npc.rs` (update_npc_visibility), and `world.rs` (replace_placements, remove, update diff with shared short-circuit, read_placements). No finding meets the five categories:
+
+- **Cannot fail:** None. The expected values (GUIDs, models, names, positions, packet counts) come from fixtures or independent inputs, not from re-running the function under test. The byte offsets in `added()`/`removed()` match the framing built by `world.rs` (`[35,0,3,0]`, u16 count at 4..6, GUID at 6..14).
+- **Asserts nothing:** None. Each test asserts packet counts per GUID, and the refusal tests also compare file bytes, `state()`, `npc_visibility_revision()`, and `changed`.
+- **Name overclaims:** Checked the ones most at risk. `poll_is_rate_limited` is real: `poll` sets `next_check_ms` on each due check, and the 1500 ms tick returns nothing only because of the budget. `shared_view…through_the_revision` is backed by `update` returning empty in shared mode and the revision assertion. `an_unreadable_table…` covers all three commands that read the table.
+- **Silent skip:** None. The fixture asserts that `opening.json` exists and fails loudly if it is missing. There are no `#[ignore]` attributes or early returns.
+- **Over-pinned:** Only the 16 MiB + 1 boundary in the oversized case. It matches the documented `read_placements` bound (`MAX_NPC_DATA_BYTES`), so I am not reporting it.
+
+Two places looked weaker but still catch real regressions, so I left them out: the "no self reload" check at line 171 would fail if `apply_own_placement_write` stopped calling `observe`, because `replace_placements` always emits removals and re-adds for every placed row; and the "previous view still has the actor" check at line 313 would fail if the view silently dropped the actor, because `update` diffs against `visible` and emits a 35/3.

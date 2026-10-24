@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwarrior-s-ring-of-power-131205-v2-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4088, 5261, 6, 1079] model=claude-haiku-5-5 -->
+# Warrior's Ring of Power
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[3]", "issue": "The automatic id check flags this entry: it cites locale:131210, a FLAG placeholder (tbd name), and it is a critique of a prior answer rather than a fact about this item. A placeholder should not appear in an item's open list, and the correction about line numbers 95061/95036 and 85043/85021 is not evidence about Warrior's Ring of Power. My lookups did not confirm those line numbers.", "fix": "Delete open[3]. Keep the item's own open questions only: no acquisition source found, live status unknown, retired null. If the line-number correction matters, record it in the critique log, not the item answer."}]}

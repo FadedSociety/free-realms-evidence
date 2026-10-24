@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cteal-tall-rectangle-polka-dot-block-31918-v1-evidence-r1 status=no_submit turns=3 usd=0.0018 tokens(read,write,in,out)=[10243, 9155, 8, 1167] model=claude-haiku-5-5 -->
+# Teal Tall Rectangle Polka Dot Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The 'where' field states 'Coin store (store category 147)' as fact, but nothing in the repo names category 147. Category 147 holds many unrelated items (for example item 218 at 20 coins, item 2705 at 200, item 7452 at 200), and the store file gives no category-to-shop mapping. The answer's own open list admits this.", "fix": "Keep the price-backed record as the source (repo:prototype/osfr-tools/data/content/stores.json:12135, item_id 36665, purchase_price_coins 50, member_price_coins 45, sell_price_coins 5, no_sale false), but label the shop as unconfirmed, e.g. 'store category 147 (shop name not evidenced)'."}]}

@@ -1,0 +1,51 @@
+{
+ "title": "Nogg the Cruel",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\the_snarling_hedges.json"
+  },
+  {
+   "file": "dungeons\\the_snarling_hedges.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:4093 [npc_name | - | Nogg the Cruel] 'Nogg the Cruel'",
+  "locale:5102919 [npc_name | - | Nogg the Cruel] 'Nogg the Cruel'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:4093 [npc_name | - | Nogg the Cruel] 'Nogg the Cruel'",
+  "locale:4800 [quest_dialog | - | Nogg the Cruel] 'Nogg the Cruel is a dangerous gremlin. In order to ensure the safety of travelers, he must be defeated so this section of the maze can be secured.'",
+  "locale:100827 [quest_objective | Blackspore | Nogg the Cruel] 'Nogg the Cruel corrupted the hedge maze, and released snakes and tree monsters. Defeat Nogg!'",
+  "locale:5102919 [npc_name | - | Nogg the Cruel] 'Nogg the Cruel'"
+ ],
+ "client_cluster": [
+  "locale:4085 [other | - | - | FLAG placeholder: realmsroll test command] 'realmsroll dance 1'",
+  "locale:4087 [other | - | - | FLAG fragment: size option] 'Small'",
+  "locale:4088 [other | - | - | FLAG fragment: size option] 'Medium'",
+  "locale:4089 [other | - | - | FLAG fragment: size option] 'Large'",
+  "locale:4090 [other | - | - | FLAG fragment: size option] 'Extra Large'",
+  "locale:4091 [other | - | - | FLAG placeholder: realmsroll test command] 'realmsroll spawner'",
+  "locale:4092 [npc_name | - | Oakheart] 'Oakheart'",
+  "locale:4093 [npc_name | - | Nogg the Cruel] 'Nogg the Cruel'",
+  "locale:4094 [other | - | - | FLAG placeholder: realmsroll test command] 'realmsroll knockback'",
+  "locale:4095 [item | - | Mailbox] 'Mailbox'",
+  "locale:4096 [quest_title | - | Snowdrip Lane Deliveries | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - Snowdrip Lane Deliveries'",
+  "locale:4097 [quest_objective | - | Snowdrip Lane Deliveries | FLAG not_live: part of NOT LIVE quest block] 'My Coins'",
+  "locale:4098 [quest_objective | - | Snowdrip Lane Deliveries | FLAG not_live: part of NOT LIVE quest block] '1 Snowdrip Ln.'",
+  "locale:4099 [quest_objective | - | Snowdrip Lane Deliveries | FLAG not_live: part of NOT LIVE quest block] '2 Snowdrip Ln.'",
+  "locale:4100 [quest_objective | - | Snowdrip Lane Deliveries | FLAG not_live: part of NOT LIVE quest block] '3 Snowdrip Ln.'",
+  "locale:4101 [quest_objective | - | Snowdrip Lane Deliveries | FLAG not_live: part of NOT LIVE quest block] 'Deliver to 1 Snowdrip Ln.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

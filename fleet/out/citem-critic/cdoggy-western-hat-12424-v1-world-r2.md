@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdoggy-western-hat-12424-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3768, 10058, 6, 1217] model=claude-haiku-5-5 -->
+# Doggy Western Hat
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The only source is a coin-store row with no vendor NPC. The answer labels it 'vendor' but cannot name where it is sold. Item 5853 does not appear in vendors.json or vendors_unresolved.json, so no vendor is evidenced. Brent is correctly not claimed.", "fix": "Keep the source as an unresolved coin-store entry (stores.json line 1429: item_id 5853, category_id 6, purchase 270, member 243, sell 27, source_tags L1,L2,L4,R2,T633,R1). Label the vendor as unresolved rather than as a vendor type, and do not attach it to Brent (wiki 'Brent' Sells does not list the hat)."}]}

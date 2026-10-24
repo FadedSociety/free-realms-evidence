@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-focus-fire-cap-25474-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3434, 6582, 6, 1317] model=claude-haiku-5-5 -->
+# Elite Black Focus Fire Cap
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The vendor is an unnamed coin-store row. The store row itself checks out: stores.json:3337 has item_id 11563, category 101, purchase 9453, member price 8507 (10%), sell-back 945, no_sale false, tags L1/L2/L4/R2/T633/R1. The NPC and shop stay unknown, which the answer already admits in open.", "fix": "No change needed to the price or currency. The unknown vendor should stay in open. The wiki, article and video searches for 'Focus Fire Cap' return no hit for this cap, so no second source exists to add. The claim that the row is 'coin-store clothing' is consistent with the other category-101 rows at 9453, 291 and 358 coins."}]}

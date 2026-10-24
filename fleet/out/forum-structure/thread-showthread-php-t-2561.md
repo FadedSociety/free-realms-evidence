@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2561 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2906, 4, 296] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article":{"title":"Free Realms Forums","date":null,"author":null,"type":"other"},"about_free_realms":false,"summary":"The captured page is a vBulletin forum shell for the Free Realms fan forums (freerealmsforums.com) showing a 'maximum number of posts' registration error and a forum index. It contains no article text, guide, or gameplay information about Free Realms, so it gives a rebuilder no usable facts.","facts":[],"quests":[],"uncertain":["The page is only navigation, a view-limit error, and forum category listings; no thread body text was captured.","The thread title and the first post of thread t=2561 are not present in the extracted text."]}

@@ -1,0 +1,56 @@
+{
+ "title": "Nettalie",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\briar_patch.json"
+  },
+  {
+   "file": "dungeons\\briar_patch.json"
+  },
+  {
+   "file": "dungeons\\briar_patch.json"
+  }
+ ],
+ "entry_count": 6,
+ "client_name_matches": [
+  "locale:7212 [npc_name | - | Nettalie] 'Nettalie'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:3273 [quest_dialog | - | Nettalie] 'They have walked right into our trap Nettalie! Forest creatures, attack!'",
+  "locale:7212 [npc_name | - | Nettalie] 'Nettalie'",
+  "locale:24768 [quest_objective | - | Nettalie] 'Defeat Nettalie, servant of Azure.'",
+  "locale:24769 [quest_dialog | - | Nettalie] 'You defeated Nettalie and forced the magical barrier to fade away!'"
+ ],
+ "client_cluster": [
+  "locale:7206 [quest_dialog | - | Frostpetal] \"If you have some spare time, we'd certainly appreciate any help you can lend us at those spots.\"",
+  "locale:7207 [npc_name | - | Monkey | FLAG fragment: single word with no quest meaning on its own] 'Monkey'",
+  "locale:7208 [item | - | Cymbals] 'Cymbals'",
+  "locale:7209 [ability | - | Throw] 'Throw'",
+  "locale:7210 [ability | - | Handstand] 'Handstand'",
+  "locale:7212 [npc_name | - | Nettalie] 'Nettalie'",
+  "locale:7213 [item | - | One-Way Teleporter] 'One-Way Teleporter'",
+  "locale:7214 [item | - | One-Way Teleporter] 'Place two one-way teleporters to transport from the first to the second.'",
+  "locale:7215 [item | - | Multi-Way Teleporter] 'Multi-Way Teleporter'",
+  "locale:7216 [item | - | Multi-Way Teleporter] 'Place two or more multi-way teleporters to transport randomly between them.'",
+  "locale:7217 [quest_objective | - | Marcus] \"Help Marcus disconnect the stolen cable from the yeti's TVs.\"",
+  "locale:7218 [place | - | Sunstone Copper Vein] 'Sunstone Copper Vein'",
+  "locale:7219 [place | - | Rare Sunstone Copper Vein] 'Rare Sunstone Copper Vein'",
+  "locale:7220 [place | - | Sunstone Tin Vein] 'Sunstone Tin Vein'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:other): Briar Patch - Combat\nField 03\nFreeRealms\nBattle Design Map\nEncounter #: 23\nSTART\nHills\nHigh Hills\nInaccessible Terrain\nHills\nHills\nInaccessible Terrain\nHigh Hills\nHills\nFINISH\n1. Trigger Event: Once the player reaches this point they will get some dialogue from Azure followed by waves of enemies att"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

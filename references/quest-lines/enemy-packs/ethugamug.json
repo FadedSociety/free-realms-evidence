@@ -1,0 +1,85 @@
+{
+ "title": "Thugamug",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 103031,
+   "definition_id": 1234000,
+   "model_id": 199,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 103031,
+   "definition_id": 1234001,
+   "model_id": 199,
+   "max_health": 220,
+   "damage": 12,
+   "boss": true
+  },
+  {
+   "file": "npcs/greenwood_forest.json",
+   "npc_id": 9500000322,
+   "zone": "Greenwood Forest",
+   "enemy_kind": "Bandit with two \"Hands\" who run his operation: \"very powerful, but a complete buffoon\" (1681220843). Encounter 144.",
+   "location_evidence": [
+    "\"prowls the roads of Greenwood Forest\" (3291818255); \"has taken over a bridge and is charging tolls\" (3939651702); \"come out of the toll booth\" (171340852). [video: tracker \"Defeat Thugamug\" and bubble \"You're not crossing this bridge without a fight!\", db53WZqLX58/00048, hmx3WC_T-V8/00014]"
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:103031 [npc_name | - | Thugamug] 'Thugamug'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:90702 [quest_dialog | Greenwood | Thugamug] \"The bandit, <font color='#D9781A'>Thugamug</font>, has been a scourge on passing travelers. He is very powerful, but a complete buffoon.<BR><BR>He has two &quot\"",
+  "locale:91810 [quest_objective | - | Thugamug] 'Defeat Thugamug'",
+  "locale:103031 [npc_name | - | Thugamug] 'Thugamug'",
+  "locale:103748 [quest_dialog | - | Thugamug] 'Thugamug has taken over a bridge and is charging tolls! Knock this thieving thugawug out!'",
+  "locale:103750 [quest_objective | - | Thugamug] 'Defeat Thugamug.'",
+  "locale:103751 [quest_objective | - | Thugamug] 'You will not be able to cross the bridge until you defeat Thugamug.'",
+  "locale:141590 [quest_dialog | - | Thugamug] \"You have to be kidding me! It looks like Thugamug heard about you roughing up his thugs. He's decided to come out of the toll booth and block the path himself. \"",
+  "locale:141592 [quest_dialog | - | Thugamug] \"There's no way I am getting through with that big brute, Thugamug, blocking the way now. You will have to defeat him so I can pass!\"",
+  "locale:389688 [other | Robgoblin Creek | Thugamug | FLAG dev_note: internal encounter label] 'Encounter 144 Boss Ability Thugamug'",
+  "locale:389701 [quest_dialog | Wugachug | Thugamug] 'You are tougher than I thought!  Time to pull out the big guns!'",
+  "locale:389718 [other | - | Thugamug | FLAG dev_note: internal encounter script label] 'encounter 144: thugamug slap with damage'",
+  "locale:389721 [other | - | Thugamug | FLAG dev_note: internal encounter script label] 'encounter 144: Thugamug Ground Pound'",
+  "locale:389725 [quest_objective | Wugachug | Thugamug] 'Catch the Crate Thief before time runs out!'",
+  "locale:389734 [quest_objective | Wugachug | Thugamug] 'Defeat Thugamug!'",
+  "locale:389735 [quest_objective | Wugachug | Thugamug] 'Knock out Thugamug and his allies!'",
+  "locale:389933 [quest_objective | - | Thugamug] 'Defeat the bandit Thugamug and his associates.'",
+  "locale:390498 [quest_objective | Greenwood Forest | Thugamug] 'Thugamug prowls the roads of Greenwood Forest, robbing travelers. Defeat him and his &quot;Hands&quot;, without them, his banditry is sure to suffer.'",
+  "locale:390607 [quest_objective | - | Thugamug] 'Defeat Thugamug and his allies.'",
+  "locale:390626 [npc_dialog | - | Thugamug] 'This dirt shield will protect you, Thugamug!'",
+  "locale:390627 [npc_dialog | - | Thugamug] 'Show them your fists of rage Thugamug!'",
+  "locale:434944 [npc_dialog | Farmers Market | Thugamug] 'Thugamug looks carefully at Gulsh as he enters the Farmers Market.'",
+  "locale:434945 [npc_dialog | Farmers Market | Thugamug] 'Thugamug throws his money on the counter and leaves.'",
+  "locale:434946 [npc_dialog | Farmers Market | Thugamug] \"Thugamug: If I can't have any, then no one will!\"",
+  "locale:434947 [npc_dialog | Farmers Market | Thugamug] 'Thugamug: Free is better!'"
+ ],
+ "client_cluster": [
+  "locale:103024 [quest_objective | Cray Caves | Cray Caves nets] \"Have you got my nets back from the <font color='#D9781A'>Cray Caves to the north</font>?\"",
+  "locale:103026 [quest_objective | Cray Caves | Cray Caves junk cleanup] \"Did you already <font color='#D9781A'>clean up the junk in the Cray Caves to the North</font>? Oh, not yet? Ok... well get to it!\"",
+  "locale:103028 [npc_name | Seaside | Daria Purrl] 'Daria Purrl'",
+  "locale:103031 [npc_name | - | Thugamug] 'Thugamug'",
+  "locale:103032 [quest_dialog | Seaside | Daria Purrl pearls] \"Some ladies need their pearls more than others. [*player*] has retrieved some pearls for Daria in Seaside. They're quite the sight!\"",
+  "locale:103033 [quest_objective | Seaside | Daria Purrl pearls] \"Have you gotten the <font color='#D9781A'>Pearls from the Cray Caves along the North end of the Beach?</font>\"",
+  "locale:103036 [quest_objective | - | Sundancer race] \"Beat Sundancer's best time through the green flags to the finish line marked with red flags.\"",
+  "locale:103037 [quest_objective | Seaside | Seaside tour] \"Have you taken the tour of Seaside? Make sure to visit all 3 places I mentioned. <font color='#D9781A'>The Fortune Teller's Tent, the Boardwalk, and Ocean Treas\"",
+  "locale:103039 [quest_title | Seaside | Half a Dozen] 'Half a Dozen'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:hmx3WC_T-V8/00056.jpg (-): quest:   Defeat Thugamug?  | other_text: Goals (1) Defeat Thugamug? That ability isn't ready yet... Thugamug Bruiser 00:56:85",
+  "video:db53WZqLX58/00048.jpg (-): quest: Chapter 1: Thugamug's Thievery  Return to Geoffrey in the Royal Palace  | landmarks: Wooden door with a stone arch | other_text: New Goal Chapter 1: Thugamug's Thievery Return to Geoffrey in the Royal Palace Goals (1) Defeat Thugamug",
+  "video:hmx3WC_T-V8/00136.jpg (-): other_text: YOU WIN! Thugamug Score Info Enemies Defeated Time Bonus Goals Knock outs Remaining Rewards",
+  "video:hmx3WC_T-V8/00014.jpg (-): dialog: Thugamugs: You're not crossing this bridge without a fight! Get 'em, ?! | quest:   Defeat Thugamug?  | other_text: Goals (1) Knocking Some Sense Into"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Chapter 1: Thugamug's Thievery' (final): Defeat Thugamug and his two Hands"
+ ]
+}

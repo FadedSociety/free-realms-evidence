@@ -1,0 +1,47 @@
+{
+ "title": "Wraith",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000082,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Undead enemy",
+   "location_evidence": [
+    "The wilds near Mire's Edge (3502264276)"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:118994 [npc_name | - | Wraith] 'Wraith'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:116791 [quest_dialog | - | Wraith] \"Woah! Don't sneak up on people like that!<BR><BR>You're here to <font color = '#D9781A'>fight the wraith</font>? It's in the <font color = '#D9781A'>graveyard</\"",
+  "locale:116793 [quest_dialog | - | Wraith] \"Woah! Don't sneak up on people like that!<BR><BR>You're here to <font color = '#D9781A'>fight the wraith</font>? Let me teach you the brawler job first. The wra\"",
+  "locale:116797 [quest_dialog | - | Wraith] \"<font color = '#D9781A'>That wraith is still in my graveyard</font>. I'm not going back in there until someone gets rid of it!<BR><BR><font color = '#D9781A'>Th\"",
+  "locale:118994 [npc_name | - | Wraith] 'Wraith'"
+ ],
+ "client_cluster": [
+  "locale:118988 [item | - | Purple Toad | FLAG placeholder: unclear item name, possibly test/unused] 'Purple Toad'",
+  "locale:118989 [item | - | Mini Tree Soldier] 'Mini Tree Soldier'",
+  "locale:118990 [item | - | Mini Ice Tree Soldier] 'Mini Ice Tree Soldier'",
+  "locale:118991 [item | - | Mushroom Tree Soldier] 'Mushroom Tree Soldier'",
+  "locale:118994 [npc_name | - | Wraith] 'Wraith'"
+ ],
+ "wiki": {
+  "title": "Wraith",
+  "text": "The Wraith is an enemy NPC that appears throughout Blackspore Swamp.\n\nAppearances\nFree Realms Official First Birthday Yearbook\nFree Realms Halloween TV Spot 2010\nBone Bog Cemetery\nWraiths of Wrath!\nFree Realms Issue 7\nTrading Card Game Series 4\n\nGallery\nIn-Game\n\nComic\n\nArtworks\n\nCategory:NPC\nCategory:Enemies\nCategory:Blackspore\nCategory:Super Spooktacular\nCategory:Seasonal\nCategory:Comic\nCategory:Trading Card Game"
+ },
+ "images": [],
+ "video": [
+  "video:5Su_nfQZyHU/00018.jpg (-): npcs: Graveyard Wraith nameplate enemy | dialog: Graveyard Wraith: What are yoooOooooo doooOoooooing here? | quest:   Defeat the graveyard wraith!  | landmarks: Graveyard tombstones and a picket fence | job_level: Ninja 20 | other_text: Cursed Grave Goals (1) Defeat the graveyard",
+  "video:5Su_nfQZyHU/00020.jpg (Cursed Grave?): npcs: Graveyard Wraith nameplate  | dialog: Graveyard Wraith: What are yoooOOoooo dooOOoooing here? | quest:   Defeat the graveyard wraith!  | landmarks: Graveyard tombstones and iron fence Purple flowers by the crypt | job_level: Ninja 20 | other_text: Goals (1) Defeat the grave",
+  "video:8F4ZomE2kxI/00266.jpg (-): npcs: Vengeful Wraith nameplate  | quest: Consumed by the Past  Defeat all wraiths  | landmarks: winding stream willow tree | job_level: Ninja  | other_text: Goals (1) Defeat all wraiths Vengeful Wraith",
+  "video:8F4ZomE2kxI/00078.jpg (-): npcs: Vengeful Wraith nameplate  | quest: Consumed by the Past  Defeat all wraiths  | landmarks: dark marsh field rocky hillside | job_level: Ninja  | other_text: Goals (1) Defeat all wraiths Vengeful Wraith",
+  "video:8F4ZomE2kxI/00124.jpg (-): npcs: Vengeful Wraith nameplate  | quest: Consumed by the Past  Defeat all wraiths  | landmarks: dark marsh field rocky hillside | job_level: Ninja  | other_text: Goals (1) Defeat all wraiths Vengeful Wraith"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Brawler: Graveyard Grumble' (final): Defeat the graveyard wraith!"
+ ]
+}

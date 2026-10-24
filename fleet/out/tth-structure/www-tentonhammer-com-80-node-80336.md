@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=www-tentonhammer-com-80-node-80336 status=nothing_found turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 5940, 4, 518] model=claude-haiku-5-5 -->
+# Why EQ2 Battlegrounds Won't Suck | Ten Ton Hammer
+
+{"article": {"title": "Why EQ2 Battlegrounds Won't Suck", "date": "2010-02-04", "author": "Savanja", "type": "other"}, "about_free_realms": false, "summary": "This Ten Ton Hammer editorial is about planned battlegrounds in EverQuest II, not Free Realms. It discusses the earlier Maj'dul arena and how World of Warcraft's cross-realm battlegrounds helped that game's success. Free Realms appears only in the site's sidebar popularity rankings, so the article gives a rebuilder nothing about Free Realms.", "facts": [], "quests": [], "uncertain": ["The only Free Realms mentions are in the site's sidebar rankings (\"Free Realms up 17 to #9\" and a Most Popular list entry), which are not game facts."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwar-crusher-turbo-117477-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3867, 8002, 6, 840] model=claude-haiku-5-5 -->
+# War Crusher Turbo
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer cites a wiki price of 700 Station Cash for Cutlass Wrecker with a 10% member discount, and a 'Derby Kart Parts' group id 2718209282. My wiki lookup returned the Items page's kart and parts lists but no price figures, so I could not confirm either number here.", "fix": "Either cite the wiki page revision that shows the 700 price and the member discount, or drop the figure from the open notes. Nothing in the pack names War Crusher Turbo as a Station Cash, vendor, quest, drop or event item, so the sources list stays empty and is correct."}]}

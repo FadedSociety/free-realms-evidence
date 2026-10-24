@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-phantasmal-ring-86400-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4149, 9922, 6, 1062] model=claude-haiku-5-5 -->
+# Shiny Phantasmal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "Kind is set to 'other' on the strength of the slot 8 (Accessory1) mapping, which the answer cites to repo notes line 94. The answer does not show that the rebuild's category list has an accessory-ring kind, so 'other' is a placeholder rather than a confirmed category. This is minor and does not make the answer false.", "fix": "Keep 'other' flagged as provisional until the rebuild's item-kind list is checked against slot 8 (Accessory1 'Ring', repo:notes/Build Guides/Gameplay/Items and Inventory.md:94)."}]}

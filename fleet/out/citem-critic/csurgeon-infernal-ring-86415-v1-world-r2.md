@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csurgeon-infernal-ring-86415-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3794, 9363, 6, 953] model=claude-haiku-5-5 -->
+# Surgeon Infernal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "'clothing' is only inferred from slot 8 and class 43 in the client definition; no source names the item class. Stated as unverified in open, so it is honest but unconfirmed.", "fix": "Leave kind as unverified, or confirm the item class from the client item definition (definition id 22424)."}, {"field": "evidence[1]", "issue": "The family claim (Ruffian 86404-86412, Surgeon 86413-86421, Ruffian necklaces 86639-86647) is only partly in the pack; I confirmed the 86410-86420 Surgeon/Ruffian names in the client table but did not check the full ranges or the necklace family.", "fix": "Keep the family claim as client-text only; no source needed beyond locale ids."}]}

@@ -1,0 +1,60 @@
+{
+ "title": "Grave Elemental",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000031,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Undead enemy",
+   "location_evidence": [
+    "Graveyards of Blackspore (537417961)"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:115851 [npc_name | - | Grave Elemental] 'Grave Elemental'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:115851 [npc_name | - | Grave Elemental] 'Grave Elemental'"
+ ],
+ "client_cluster": [
+  "locale:115843 [quest_title | Briarwood | Lost Wand] 'Lost Wand'",
+  "locale:115845 [quest_objective | - | Sven Fardreamer] 'Defeat the wolves without losing any sheep.'",
+  "locale:115846 [quest_objective | - | Sven Fardreamer] 'Herd the sheep into the middle of the pen by clicking on them or attack the wolves before they get to the sheep.'",
+  "locale:115847 [npc_name | Briarwood | Sven Fardreamer] 'Sven Fardreamer'",
+  "locale:115850 [npc_name | - | Lesser Grave Elemental] 'Lesser Grave Elemental'",
+  "locale:115851 [npc_name | - | Grave Elemental] 'Grave Elemental'",
+  "locale:115852 [npc_name | - | Chugogo] 'Chugogo'",
+  "locale:115854 [quest_objective | Shrouded Glade | Chugogo] 'Catch rabbits around Shrouded Glade and then release them at the Durango Zoo.'",
+  "locale:115856 [other | - | - | FLAG test: placeholder: lol test string] 'lol test string'",
+  "locale:115858 [quest_title | - | Kill Count 2 - First Wave] 'Kill Count 2 - First Wave'",
+  "locale:115859 [quest_objective | Shrouded Glade | Karmen] 'Find a friend for Karmen in Shrouded Glade.'"
+ ],
+ "wiki": {
+  "title": "Grave Elemental",
+  "text": "Were you look for the pet pal?\n\nThe Grave Elemental is an enemy NPC that appears throughout Blackspore Swamp.\n\nBattle\nGrave Elementals can be found wandering in Blackspore Swamp. They are featured in the Bone Bog Cemetery. They also feature at Super Spooktacular when the Pumpkin Prince arrives. Sometimes the Pumpkin Prince will spawn a spawner which will spawn hostiles such as Grave Elementals and Necrowart Zombies.\n\nAppearances\nHaunted by the Past\nBone Bog Cemetery\nTrading Card Game Series 4\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Blackspore\nCategory:Seasonal\nCategory:Super Spooktacular\nCategory:Trading Card Game"
+ },
+ "images": [
+  "image (image:art_or_promo): Grave Elemental",
+  "image (image:character_or_npc): Grave Elemental\nBones",
+  "image (image:ui_panel): Active Quest!\nGrave Elemental\n1570m\n18\nWizard\n6805/6805\n100/100"
+ ],
+ "video": [
+  "video:0yGtjJBzmGw/00096.jpg (-): dialog: Grave Elemental: There is a grave here for you! | quest:   Defeat all enemies?  | other_text: You receive 3 coins Goals (1) 01:36:88 Cheap Cheats Goal Complete: Defeat a Grave Elemental",
+  "video:6yyOfeOsq80/00202.jpg (-): job_level: Adventurer 6 | other_text: 12 Days of Sales Check out the Sales category to see what's on sale! Time Left 17 Hours Grave Elemental (red marker, 21m) Grave Elemental (red marker, right edge)",
+  "video:gKXJiwhlr8I/00010.jpg (-): job_level: Adventurer 10 | other_text: Grave Elemental (enemy nameplate, red marker, 45m) Houses Upgrade!",
+  "video:yv37TmrcE-M/00568.jpg (-): job_level: Adventurer 12 | other_text: Grave Elemental Cray Marauder Rich Silver Mining Trash Barrel Upgrade Now for Power Hour!",
+  "video:yv37TmrcE-M/00542.jpg (-): job_level: Adventurer 12 | other_text: Grave Elemental (119m) Rich Silver Mining (129m) Cray Marauder (54m) Treat Barrel Site? (14m)"
+ ],
+ "article_facts": [
+  "fact:mechanic: Agreeing to join the Friday the 13th event turned the player into a creature such as a banshee, grave elemental or skeleton. | Agreeing to join in will turn you into a creepy creature, like a banshee, grave elemental or skeleton (http://www.freerealms.com:80/article/detail.action?articleId=2571)",
+  "summary: A Ten Ton Hammer player guide covering the Wizard class from level 10 to 20 as played in mid-2009: the Sven and Osgood wand quest chain, the Chaos spell at level 15, and the Briarwood/Briarheart Caverns and Tanglewood Fort content. It gives the cost of the Orb (http://www.tentonhammer.com:80/node/69770)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Chapter 1: Haunted by the Past' (final): Save Eggert from the grave elemental",
+  "other target in 'Chapter 1: Haunted by the Past' (final): hidden objective for defeating all grave elementals",
+  "defeat target in 'Contract: Cheap Clients' (unresolved): As a Medic, defeat a Grave Elemental and stop the spiders at the Haunted Mines in Blackspore!",
+  "collect target in 'Contract: Life and Death Magic' (final): As a wizard, collect some samples for Natali's new project from Mugwort's Hollow and Blackspore."
+ ]
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=igeneral-glowlight-v1-evidence-r1 status=done turns=2 usd=0.0023 tokens(read,write,in,out)=[3651, 12682, 6, 1304] model=claude-haiku-5-5 -->
+# General Glowlight
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Stated as 'unsure' although the answer's own evidence supports a firm call: the subject is an NPC, so there is no item acquisition to be live or retired. The 'unsure' flag is honest, but 'kind: other' with no item status leaves the record hanging.", "fix": "Mark the record as not an item (NPC, locale 7670 npc_name 'General Glowlight', per locale:7670 and wiki General_Glowlight rev 49946) and close it rather than leaving live as unsure. Optionally cite prototype/osfr-tools/data/content/npcs/sanctuary.json (name 'General Glowlight', NameId 7670) as a second check."}]}

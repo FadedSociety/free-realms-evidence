@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crowdy-ruckus-helm-703-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4344, 8679, 6, 896] model=claude-haiku-5-5 -->
+# Rowdy Ruckus Helm
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Recorded as 'unsure', which is the honest status. My check found no retirement or live evidence either way, so 'unsure' is right and retired:null is consistent with it.", "fix": "No change needed."}, {"field": "evidence[4] / open[2]", "issue": "The Rowdy Rumbler Hammer 'Blacksmith recipe' claim is not backed by any source in the pack. It is only used to say the hammer is a different item, so it does not affect the helm, but it should not be stated as fact without a cited recipe row.", "fix": "Drop the Blacksmith claim or cite the recipe row that produces Rowdy Rumbler Hammer."}]}

@@ -1,0 +1,44 @@
+{
+ "title": "Tormented Spirit",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000073,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Silver-dust-carrying spirit",
+   "location_evidence": [
+    "The southern reaches (699889355)"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:76190 [npc_name | - | Tormented Spirit] 'Tormented Spirit'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:76190 [npc_name | - | Tormented Spirit] 'Tormented Spirit'"
+ ],
+ "client_cluster": [
+  "locale:76187 [ui | Briarwood | Trail of Betrayal] '[*Player*] completed a dangerous mission helping the Briarwood chugawugs retake the Trail of Betrayal!'",
+  "locale:76190 [npc_name | - | Tormented Spirit] 'Tormented Spirit'",
+  "locale:76193 [quest_dialog | - | Trail of Betrayal] \"You're the combat medic from Seaside? I hope you'll be enough...<BR><BR>When you are prepared, head into the Trail of Betrayal and collect the weapon crates the\"",
+  "locale:76195 [quest_dialog | - | Trail of Betrayal] \"Are you all the help that Callahan sent? You'll get creamed! Go get some help and come back, I won't send you in there alone.\"",
+  "locale:76197 [quest_dialog | Seaside | Seaside Situation] 'How the times have changed! Spotting a cray was once a sign of luck. Now they attack fishing boats, and terrorize the residents of Seaside!<BR><BR>Can you <font'",
+  "locale:76198 [quest_title | Seaside | Seaside Situation] 'Seaside Situation'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:yv37TmrcE-M/00096.jpg (-): landmarks: Ramirez's Dig Site (marker 113m) | job_level: Adventurer 12 | other_text: Tormented Spirit (enemy marker 8m) Tormented Spirit (enemy marker 19m)",
+  "video:yv37TmrcE-M/00430.jpg (-): landmarks: blue cave blue plants dead tree | job_level: Adventurer 12 | other_text: Tormented Spirit 50m (red marker) Tormented Spirit (second label, distance blurred, red marker) Rich Silver Mining (pink marker)",
+  "video:b4a3fPvP_M4/00060.jpg (-): landmarks: spider web on a tree dark blue rock | other_text: Tormented Spirit",
+  "video:b4a3fPvP_M4/00166.jpg (-): npcs: Burke nameplate  | landmarks: blue rock outcrop | other_text: Tormented Spirit Balok Battlerock",
+  "video:yv37TmrcE-M/00504.jpg (-): npcs: Oberyn Duskshine nameplate  | job_level: Adventurer 12 | other_text: Cray Marauder (34m, red marker) Tormented Spirit (red marker) Rich Silver Mining (66m)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "collect target in 'Brawler: Splendid Silver!' (final): Collect silver dust from tormented spirits that wander around Blackspore, for Petra. The offer text says to defeat the s",
+  "other target in 'Ninja: That's the Spirit' (final): Chloe has directed you to hone your skills on the tormented spirits wandering Blackspore.",
+  "collect target in 'Wizard: Things Left Unfinished' (final): As a wizard, retrieve opal gems from wandering tormented spirits in Blackspore Swamp."
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "title": "Community dance party",
+ "names_seen": [
+  "Community dance party"
+ ],
+ "facts": [
+  {
+   "statement": "The Community Team held dance parties in Sanctuary on Server 1 on October 21, 2011.",
+   "numbers": {
+    "server": 1
+   },
+   "era": "live",
+   "quote": "The parties will take place in Sanctuary on Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2305",
+   "date": null
+  },
+  {
+   "statement": "Dance party time slots on October 21, 2011 were 9:30-10:30 a.m. PDT and 4:00-6:00 p.m. PDT.",
+   "numbers": {
+    "slot1_start_hour": 9.5,
+    "slot1_end_hour": 10.5,
+    "slot2_start_hour": 16,
+    "slot2_end_hour": 18
+   },
+   "era": "live",
+   "quote": "Friday, October 21st from 4:00 p.m. to 6:00 pm. PDT!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2305",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2305",
+   "date": null,
+   "title": "Free Realms Celebrates 20 Million Registered Players!",
+   "summary": "SOE's official news post announcing 20 million registered players and a limited-time giveaway of a Letterman Jacket for logging in between October 21 and October 31, 2011. The Community Team also held two dance parties in Sanctuary on Server 1 on October 21, 2011. The post gives the launch date as April 28, 2009."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

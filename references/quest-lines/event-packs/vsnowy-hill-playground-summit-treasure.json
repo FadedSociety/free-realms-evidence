@@ -1,0 +1,28 @@
+{
+ "title": "Snowy Hill playground summit treasure",
+ "names_seen": [
+  "Snowy Hill playground summit treasure"
+ ],
+ "facts": [
+  {
+   "statement": "Players who reach the summit of the Snowy Hill playground can collect a treasure every day.",
+   "numbers": {
+    "collections_per_day": 1
+   },
+   "era": "live",
+   "quote": "où tu pourras récolter un trésor tout les jours.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1696",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1696",
+   "date": null,
+   "title": "Explorez le Terrain de Jeu de la Colline des Neiges (Free Realms - What is New?)",
+   "summary": "A freerealms.com news post, written in French, describing a jumping playground built in Snowy Hill (Colline des Neiges) from the decorative blocks and moving platforms normally used for housing. The article says the trampoline gives access to the lower levels, the summit holds a treasure collectable every day, and some blocks vanish so only a few players can cross to the clouds. The post is dated only relatively ('Posted 10 months, 1 week ago') with no absolute date in the copy."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

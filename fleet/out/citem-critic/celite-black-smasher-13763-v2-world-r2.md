@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-smasher-13763-v2-world-r2 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3671, 12307, 6, 1129] model=claude-haiku-5-5 -->
+# Elite Black Smasher
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Typed as 'vendor' although no NPC or vendor is linked. The only evidence is a coin store row (stores.json line 1929: item 7076, category 207, 1236 coins, member 1112). That is a coin-store sale, not an identified vendor.", "fix": "Keep the coin-store row as the evidenced source, labelled as a coin store sale (category 207, 1236 / 1112 member coins, stores.json:1929). Type it as coin_store or unattributed vendor, not a named vendor. The Fizzi link stays unproven, which the answer already says."}]}

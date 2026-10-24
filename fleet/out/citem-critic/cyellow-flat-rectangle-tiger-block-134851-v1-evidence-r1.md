@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cyellow-flat-rectangle-tiger-block-134851-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3933, 9930, 6, 969] model=claude-haiku-5-5 -->
+# Yellow Flat Rectangle Tiger Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / detail", "issue": "The store row's source_tags (L1, L2, L4, R2, T633, R1) sit on the same line as the price but the answer does not mention them. They are not resolved to any vendor or shop page, so the omission does not make the price claim false. It does leave the 'where' field null without saying the tags exist.", "fix": "Keep the coin-store price as the sole source, and add a note that stores.json item 77306 (line 16637, category 147) carries source_tags [L1, L2, L4, R2, T633, R1], which are unresolved location or shop tags, not named vendors."}]}

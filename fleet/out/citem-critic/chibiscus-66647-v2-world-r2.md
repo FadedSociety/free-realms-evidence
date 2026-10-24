@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chibiscus-66647-v2-world-r2 status=done turns=4 usd=0.0020 tokens(read,write,in,out)=[20671, 9387, 10, 1234] model=claude-haiku-5-5 -->
+# Hibiscus
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the Exotic Flowers harvest result is group-level only. I confirmed the wiki Flora table (2038-27852 wikitext lines 371-387) lists 'Exotic Flowers' as the Stage 3 result for the Tulips/Orchids/Roses group and names no Hibiscus row. The answer is correct to leave Hibiscus unsourced, but it should say the flower harvest chain is the one unverified lead, not just a 'group result'.", "fix": "Keep sources empty. Record that the Flora harvest chain (wiki 2038-27852 lines 371-387) yields 'Exotic Flowers' at Stage 3 and that the per-item mapping to Hibiscus is unevidenced. Do not wire it as a source until a per-item node or drop is found."}]}

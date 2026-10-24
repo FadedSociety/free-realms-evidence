@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccheese-flat-rectangle-block-8679-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3875, 6670, 6, 986] model=claude-haiku-5-5 -->
+# Cheese Flat Rectangle Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence/article claim", "issue": "The article (articleId=1435) only says cheese versions of 'all standard block shapes' are on the Coin Shop. It does not name the Flat Rectangle shape, so the link to this item rests on the shape category plus the client name. The answer states it as a direct article fact.", "fix": "Keep the article as supporting context and say it covers the shape family, not this exact item. The direct per-item evidence is the store row repo:stores.json:8296 (item 32665, category 147, purchase 5, member 4 at 10% off, sell 1 coin), which I confirmed. The client definition (32665 -> locale 8679) also matches."}]}

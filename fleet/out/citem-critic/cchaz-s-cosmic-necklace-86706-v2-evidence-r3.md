@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchaz-s-cosmic-necklace-86706-v2-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4181, 6037, 6, 1341] model=claude-haiku-5-5 -->
+# Chaz's Cosmic Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence[3].source / claim", "issue": "The record still lists locale:282491522 and locale:80179219 as evidence ids, though its own claim says they are not locale strings. The automatic id check confirms neither id exists. Keeping them in the evidence array makes the record look like it cites them.", "fix": "Remove both ids from the evidence list and keep only the repo note references (repo:notes/Build Guides/Content/NPCs/NPCs - Lakeshore.md:36; repo:notes/Build Guides/Content/Jobs/Brawler.md:273) as non-locale notes. Verified: locale:117044 is 'Chaz Strongarm', and locale:72945 and locale:72959 contain the Brawler's club rumor text, so those corrections hold."}]}

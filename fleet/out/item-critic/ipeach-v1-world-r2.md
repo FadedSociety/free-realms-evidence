@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ipeach-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3196, 5333, 6, 887] model=claude-haiku-5-5 -->
+# Peach
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor wording: the Brain Freeze objective is locale:101197 'Give Peach a Brain Freeze!' (quest_objective), and the answer cites it correctly as a target. The answer's claim that Peach is 'not a reward or shop' is supported by the lack of any vendor or reward row in the pack. No world-lens conflict found: wiki (rev 45502) lists Peach only as a female human NPC at Seaside with no coin, Station Cash or IGD category, and the repo notes (NPCs - Seaside.md:144, :312) say the Brain Freeze giver is unknown.", "fix": "No change required. Optionally note in open that the Brain Freeze objective names Peach as the target only; the giver is unknown (NPCs - Seaside.md:312)."}]}

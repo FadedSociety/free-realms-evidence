@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpro-miner-triangle-shard-69599-v2-evidence-r3 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3900, 8827, 6, 1112] model=claude-haiku-5-5 -->
+# Pro Miner Triangle Shard
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the detail says 'derived store table' but the row's source_tags (L1, L2, L4, R2, T633, R1) are unexplained in the pack, so the row's meaning as a live coin sale is not established. The answer already says this honestly.", "fix": "Keep the sale status as unconfirmed. Cite the row itself: repo:prototype/osfr-tools/data/content/stores.json:3175 (item_id 10860, category 121, purchase_price_coins 1149, member_price_coins 1034, sell_price_coins 114). I re-read that line and it matches. The 1149 price also matches the client's coin_store_prices value for definition 10860."}]}

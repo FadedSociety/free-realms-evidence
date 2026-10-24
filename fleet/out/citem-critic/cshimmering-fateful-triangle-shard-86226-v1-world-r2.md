@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshimmering-fateful-triangle-shard-86226-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3991, 8105, 6, 1117] model=claude-haiku-5-5 -->
+# Shimmering Fateful Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claimed family list (Brittle, Heavy, Solid, Burning, Beaming, Blinding, Pulsing, Shining) and the cited locale ids 86217, 86234, 86243, 89270, 89279, 69783, 69788, 69797, 69809 were not checked. The evidence pack's cluster only shows Glowing/Shimmering names around 86221-86231. This is a side claim and does not change the item's acquisition.", "fix": "Either verify those ids with locale lookups or drop the family list and keep only the 86221-86231 cluster from the pack."}]}

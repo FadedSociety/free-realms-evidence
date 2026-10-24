@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfashion-designer-l4-chest-105064-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3859, 4833, 6, 1093] model=claude-haiku-5-5 -->
+# Fashion Designer L4 Chest
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "Cites locale:17397 ('Fashion Designer') as part of the name family. The automatic check flags it as a fragment with no quest meaning, so it is not live evidence. The claim is accurate but should be marked as a non-live family reference, not a supporting line.", "fix": "Keep the 17397 mention only as a flagged, non-live fragment (locale:17397 'Fashion Designer', flag: fragment, no quest meaning). Cite the live family names only: locale:45000, 109851, 105134, 106004."}]}

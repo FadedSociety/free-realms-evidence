@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cflabbergast-grenade-1-37410-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3810, 5691, 6, 1219] model=claude-haiku-5-5 -->
+# Flabbergast Grenade 1
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "The answer labels the item 'consumable' and the evidence cites class ids 3 and 9, but no source in the pack shows what those class ids mean. The 'consumable' kind rests on the item description ('A potion that stuns...') and the first-pass guess, not on a verified class mapping.", "fix": "Keep kind as unverified unless the client class-id table is checked; the description text in locale:37411 supports 'consumable' only loosely. No source change needed for the empty sources list."}]}

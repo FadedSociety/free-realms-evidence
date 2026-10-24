@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibrent-v1-evidence-r1 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3384, 3858, 6, 840] model=claude-haiku-5-5 -->
+# Brent
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.name / kind", "issue": "Brent is an NPC merchant, not an item. The answer correctly declines to assign item sources, but the job is misfiled as an item acquisition. Confirmed: locale 116863 is the bare string 'Brent', and the wiki page describes him as a male Human NPC Merchant at the Sanctuary Pet Adoption Center near the Sanctuary Warpstone, selling Pet Clothing.", "fix": "Reclassify as an NPC (not an item) and drop it from item acquisition. Each listed clothing item (e.g. Kitty Pirate Collar, Doggy Single Stripe Sweater) needs its own pack. Brent's sale list is named only on the wiki page (wiki: Brent), with no prices or currency given."}]}

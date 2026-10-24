@@ -1,0 +1,18 @@
+<!-- fleet job=test-audit id=tests-piece-088-rs-L1 status=done turns=7 usd=0.0083 tokens(read,write,in,out)=[92103, 26633, 16, 8003] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_088.rs lines 1-392 of 392
+
+Window `prototype/osfr-tools/tests/piece_088.rs` 1-392, checked against `src/restoration/piece_088.rs` (route, route_tell, parse_request, CHANNEL_FACTS) and `src/chat.rs::request`. Behavioural assertions hold up: the routing, ignore, dedupe, ambiguity, and parser-rejection tests would fail on the regressions they name. No `#[ignore]`, no early-return skips, no fixture gaps. Three findings:
+
+- **[medium] tests/piece_088.rs:96 channel_table_matches_the_recovered_client_surface - the name says the table matches the recovered client surface, but lines 99-109 also pin wire numbers 0, 1, 2, 3, 4, 5 and 9, which the module header (`src/restoration/piece_088.rs:27-31`, `:15-16`) and `client_number_confirmed = false` (lines 120, 130, 140, 150, 160, 170, 210 of the source) mark as community reconstruction, not client evidence.**
+  - Why it cannot catch a regression: the test cannot tell the client-confirmed numbers (6, 7, 8, 10) from the reconstructed ones. A change to the reconstructed numbering that keeps the table self-consistent would only trip a test whose name claims client backing, and the test's comment at line 152 credits the client for the whole block.
+  - Fix: split the test. Keep the four client-confirmed numbers (lines 153-156) in a test named for client confirmation, and move the reconstructed 0-5 and 9 numbering into a test named for the community-reconstructed numbering, with its name and doc saying so.
+
+- **[low] tests/piece_088.rs:97-98 channel_table_matches_the_recovered_client_surface - `assert_eq!(CHANNELS.len(), 11)` and `assert_eq!(CHANNEL_FACTS.len(), 11)` compare a fixed-size array's length with the literal used to declare it (`CHANNELS: [ChatChannel; 11]`, `CHANNEL_FACTS: [ChannelFacts; 11]` in the source), so they cannot fail.**
+  - Why it cannot catch a regression: the array length is enforced at compile time, so no runtime change to the table can make these fail.
+  - Fix: drop both lines and instead assert that every `ChatChannel` variant appears exactly once in `CHANNEL_FACTS` (for example, `CHANNEL_FACTS.iter().map(|f| f.channel)` sorted and deduplicated, compared with `CHANNELS`). That fails when a variant is missing from the facts table or is listed twice.
+
+- **[low] tests/piece_088.rs:153-157 channel_table_matches_the_recovered_client_surface - the "FUN_00b978b0 confirms these four numbers" block only reads the `client_number_confirmed` boolean from the same table; it never checks the wire numbers against any client-derived value.**
+  - Why it cannot catch a regression: a change that flips a flag (for example, sets `client_number_confirmed` on GroupSay) and also edits the flag in step, or a wrong number paired with `true`, passes this block. The number check at lines 99-109 uses the same reconstructed table, so the block adds no independent evidence.
+  - Fix: store the client-confirmed numbers as a separate literal table (6→WorldTrade, 7→WorldLfg, 8→WorldArea, 10→WorldMembersOnly) that is not read from `CHANNEL_FACTS`, and assert `facts(ch).client_number_confirmed` and `ch.wire()` against that literal set, so both a mislabelled number and a stray flag fail.
+
+Not reported: the setup at lines 340-342 gives the non-target peer `visible = false`, which `route_tell` never reads. This is harmless noise, not a hole. Line 351's "stale" peer name implies liveness logic that does not exist, but the test does not claim liveness, so there is no overclaim.

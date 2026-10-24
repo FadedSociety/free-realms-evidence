@@ -1,0 +1,45 @@
+{
+ "title": "Elemental Guardian",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\misty_mountain.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:103636 [npc_name | - | Elemental Guardian] 'Elemental Guardian'",
+  "locale:5102915 [npc_name | - | Elemental Guardian] 'Elemental Guardian'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:103636 [npc_name | - | Elemental Guardian] 'Elemental Guardian'",
+  "locale:5102915 [npc_name | - | Elemental Guardian] 'Elemental Guardian'"
+ ],
+ "client_cluster": [
+  "locale:103629 [npc_name | - | Icecrusher] 'Icecrusher'",
+  "locale:103631 [npc_name | - | Broodling] 'Broodling'",
+  "locale:103632 [item | - | Sasparilla Jug] 'Sasparilla Jug'",
+  "locale:103633 [quest_dialog | - | Cardie Crew] 'Have you talked to them yet? You can find Posey near the Tournament board, Buzz hangs out up the road to the northwest, Nirvi is usually up by her place up near'",
+  "locale:103634 [npc_name | - | Broodmother] 'Broodmother'",
+  "locale:103636 [npc_name | - | Elemental Guardian] 'Elemental Guardian'",
+  "locale:103637 [npc_name | - | Snowface] 'Snowface'",
+  "locale:103639 [quest_dialog | - | Cardie Crew] 'Back in the day, duelists could only play one deck. Sheldon convinced Ari to play a nature deck, same as Maple Sugarleaf. She wanted to be the best, and lost.<B'",
+  "locale:103641 [quest_title | - | Half a Deck] 'Half a Deck'",
+  "locale:103642 [quest_objective | - | Half a Deck] \"Beat Poe Tatters' Trick Deck to win one of his cards.\"",
+  "locale:103643 [quest_objective | - | Half a Deck] \"As a Card Duelist; Beat Poe Tatters' Trick Deck\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:UgBonM1p0Z0/00144.jpg (Misty Moun?): npcs: Elemental Guardian dialog_header  | dialog: Elemental Guardian: Please. Elemental Guardian: Come no further. Elemental Guardian: We do not wish to harm you. | quest:   Investigate the Shrine of Knowledge! Bonus: Find the pieces of the Oracle's lost tablet of teachings! - 1/",
+  "video:UgBonM1p0Z0/00140.jpg (Misty Moun?): npcs: Elemental Guardian dialog_header  | dialog: Elemental Guardian: Please. | quest:   Investigate the Shrine of Knowledge! Bonus: Find the pieces of the Oracle's lost tablet of teachings! - 1/4  | job_level: Ninja 20 | other_text: Goals (2) timer 02:20:73"
+ ],
+ "article_facts": [
+  "fact:quest: Natali asks for Poisondart Polliwog poison and Elemental Guardian ice shards (Misty Mountain, Shrouded Glade) at levels 10-15, and life and undead magic samples (Mugwort's Hollow, Blackspore Swamp Grave Elementals) at levels 15-20. | some ice shards from the E (http://www.tentonhammer.com:80/node/69770)"
+ ],
+ "quest_answers_naming_it": [
+  "collect target in 'Contract: Secret Magic' (final): Bring ice shards from the Elemental Guardians on Misty Mountain (travel via Shrouded Glade)."
+ ]
+}

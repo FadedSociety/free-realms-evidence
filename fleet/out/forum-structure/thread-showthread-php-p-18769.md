@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-18769 status=nothing_found turns=1 usd=0.0005 tokens(read,write,in,out)=[0, 2873, 4, 373] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a vBulletin page from the Free Realms fan forum showing only a 'maximum number of posts' registration prompt, site navigation, and a forum index. It contains no thread content, guide, or game information about Free Realms mechanics, items, quests, prices, or events.", "facts": [], "quests": [], "uncertain": ["The thread the URL pointed to (post p=18769) did not render; only the error and navigation page was captured, so the original thread content is unavailable."]}

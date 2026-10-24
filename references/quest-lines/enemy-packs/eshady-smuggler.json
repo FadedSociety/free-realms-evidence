@@ -1,0 +1,41 @@
+{
+ "title": "Shady Smuggler",
+ "our_entries": [
+  {
+   "file": "dungeons\\shady_smugglers.json",
+   "definition_id": 930020
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:140959 [npc_name | - | Shady Smuggler] 'Shady Smuggler'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:140959 [npc_name | - | Shady Smuggler] 'Shady Smuggler'"
+ ],
+ "client_cluster": [
+  "locale:140954 [quest_title | - | Elemental Guardian Patrol] 'Elemental Guardian Patrol'",
+  "locale:140956 [npc_dialog | - | Treasure Tickets] 'Come back when you have 60 Treasure Tickets!'",
+  "locale:140959 [npc_name | - | Shady Smuggler] 'Shady Smuggler'",
+  "locale:140960 [ui | - | Royal Vault Deluxe] 'You are a Member. You should go to the Royal Vault Deluxe gate.'",
+  "locale:140962 [item | - | Treasure Tickets] 'Treasure Tickets'",
+  "locale:140963 [ui | - | Royal Vault Deluxe] \"Not the Vault you're looking for\"",
+  "locale:140964 [ui | - | -] 'Most Stars'",
+  "locale:140965 [ui | - | -] 'Total Stars'",
+  "locale:140966 [ui | - | -] 'Global'",
+  "locale:140967 [ui | - | -] 'Most Opponents Defeated'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Shady Smuggler"
+ ],
+ "video": [
+  "video:0mJBW1a0EIc/00990.jpg (-): npcs: Shady Smuggler nameplate  | job_level: Archer 20 | other_text: Shady Smuggler Press X or mouse 00:01:40",
+  "video:piWfe7lXZ9I/00414.jpg (-): other_text: Card Duelist Nettleseed Nibbler Rich Gold Mining Shady Smuggler",
+  "video:piWfe7lXZ9I/00450.jpg (-): npcs: Johnny nameplate  | other_text: Card Duelist Shady Smuggler Rich Gold Mining",
+  "video:piWfe7lXZ9I/00456.jpg (-): npcs: Johnny nameplate  | other_text: Card Duelist Shady Smuggler Rich Gold Mining",
+  "video:piWfe7lXZ9I/00423.jpg (-): npcs: Johnny nameplate  | other_text: Card Duelist Nettleseed Nibbler Rich Gold Mining Shady Smuggler"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

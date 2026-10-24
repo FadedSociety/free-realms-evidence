@@ -1,0 +1,14 @@
+<!-- fleet job=bug-hunt id=src-guilds-rs-L1 status=nothing_found turns=14 usd=0.0200 tokens(read,write,in,out)=[404231, 48563, 30, 19727] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/guilds.rs lines 1-800 of 2261
+
+No reportable defects in `prototype/osfr-tools/src/guilds.rs` lines 1-800.
+
+What I checked (window read in full, plus the helpers it calls at 916-1012, `validate()` at 1014-1060, `normalize_guild_name` at 2136, the one in-file test at 2167-2202, and the request dispatch callers at 1421, 1437, 1575, 1590, 1651):
+
+- **Panics on client input:** every `unwrap()`/index in the window follows a guard. `promote`/`demote`/`transfer_leadership` `unwrap()`s run only after `same_guild_ranks` has confirmed both members exist. `leave`/`disband`/`set_motd` index `guilds[..]` and `members[..]` through `character_refs`, and `validate()` (run on every `load` and `save`) enforces that every ref points at a guild containing that member. `checked_add` guards next-guid and invite expiry; `expire_invites` uses `saturating_sub`. `normalize_guild_name` checks char count and byte length before iterating.
+- **Unbounded growth:** member count is capped at `MAX_GUILD_MEMBERS` in both `invite` and `accept_invite`. MOTD is capped at 1024 bytes. Guild names are capped at 32 chars. `pending_invites` is swept by `expire_invites` (called from the tick at 1651), so forged targets are bounded by the window.
+- **Atomicity:** every failure path returns before any mutation. `accept_invite` keeps the pending invite on refusal, as the in-file test requires. `create_guild` updates the guid allocator only after its last fallible step. Leader succession and transfer apply all rank changes before the broadcast.
+- **Trust:** `decline_invite`/`timeout_invite`/`accept_invite` use the caller's own guid (`actor`) at the dispatch sites. The guild id in `accept_invite`/`finish_invite` is checked against the pending invite. `invite` checks the claimed guild against the actor's real guild. Rank checks in `require_manage_target` and the self-action checks are sound. The `Ord` on `GuildRank` (Leader < Officer < Member < Recruit) matches the `<=` comparisons and the `min_by_key` successor choice.
+- **Logic against doc/test:** the in-file test matches the code. The expiry and grace logic in `expire_invites` matches its doc comment. `promote` to Officer by an Officer is allowed by the code's own "Officer manages Member and Recruit only" rule, so I did not report it.
+
+Possible concerns I rejected: `create_guild`/`accept_invite` store the caller's `NameData` without `is_valid()`. Its only source is the session identity, whose names are bounded by `valid_name` at character creation, so I could not make that reachable. `accept_invite` sets the joiner online without a presence broadcast; that is a design choice I could not show to be wrong from client code.

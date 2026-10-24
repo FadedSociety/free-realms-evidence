@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iclara-chatterhag-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3281, 4877, 6, 1095] model=claude-haiku-5-5 -->
+# Clara Chatterhag
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Minor citation imprecision: locale:36818 is a quest_dialog line (Snowhill Noise Permit), not a quest objective. The objective strings are 41663, 41664 and 141278, which the answer does cite. The 'Noisy Neighbors' wiki page confirms the Clara step.", "fix": "Label locale:36818 as quest dialog for Noisy Neighbors. Objectives: locale:41663 'Speak with Clara Chatterhag', locale:41664 'Speak with Clara Chatterhag about visiting Merry Vale.', locale:141278 'Deliver a flier to Clara Chatterhag' (verified in client locale table)."}]}

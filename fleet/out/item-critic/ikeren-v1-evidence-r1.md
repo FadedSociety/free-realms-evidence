@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ikeren-v1-evidence-r1 status=done turns=3 usd=0.0011 tokens(read,write,in,out)=[7774, 4406, 8, 966] model=claude-haiku-5-5 -->
+# Keren
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Merchants page entry is correct in substance but the answer does not quote the location as written: the Merchants page says 'South of the Thunder Falls Raceway', while the Keren page says 'Thunder Falls Speedway'. The answer's claim of 'Raceway' for the Merchants page is accurate, so this is only a note that the two wiki pages name the location differently.", "fix": "Cite both wording variants: Keren page (rev 46793) says 'Thunder Falls Speedway'; Merchants page says 'Thunder Falls Raceway'. Both place her south of the track in Lakeshore."}]}

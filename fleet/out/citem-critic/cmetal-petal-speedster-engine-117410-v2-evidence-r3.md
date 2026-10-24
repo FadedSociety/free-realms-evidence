@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetal-petal-speedster-engine-117410-v2-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4176, 4964, 6, 1007] model=claude-haiku-5-5 -->
+# Metal Petal Speedster Engine
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "The automatic id check is correct: locale:811648465 does not exist. The claim cites it only to say the previous answer's id is invalid, so the answer's own description evidence is locale:117523, which I confirmed reads 'The customized engine for the Metal Petal Speedster.' The bad id should not appear as a cited locale id.", "fix": "Drop the locale:811648465 reference from the claim (or label it as a rejected prior value, not a locale id). Keep the description as locale:117523 'The customized engine for the Metal Petal Speedster.' (verified in locale lookup)."}]}

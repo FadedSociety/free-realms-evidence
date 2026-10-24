@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolished-ruby-necklace-89496-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3590, 5530, 6, 1079] model=claude-haiku-5-5 -->
+# Polished Ruby Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim lists 'Polished Ruby/Ocean/Honey/Grape Rings' as part of the set. My locale search returned Polished Dreadful through Ethereal Rings (89303-89311) and Fire/Sun/Light/Air/Wind/Void Rings (89385-89399), but no Polished Ruby, Ocean, Honey or Grape Ring row, so that part is unverified.", "fix": "Drop the Ruby/Ocean/Honey/Grape Ring names unless a locale row confirms them (search locale for 'Polished .* Ring'). The necklace rows 89321-89329, 89415 and 89492-89497 are confirmed."}]}

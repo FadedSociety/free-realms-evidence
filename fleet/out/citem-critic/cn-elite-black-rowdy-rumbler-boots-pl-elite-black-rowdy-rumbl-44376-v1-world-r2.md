@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-elite-black-rowdy-rumbler-boots-pl-elite-black-rowdy-rumbl-44376-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4027, 10453, 6, 1314] model=claude-haiku-5-5 -->
+# {n}Elite Black Rowdy Rumbler Boots{pl="Elite Black Rowdy Rumbler Boots"}
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Typed as 'vendor' while the only evidence is a coin store row (stores.json:2725, item_id 9375, category 105, purchase 9453, member 8507, sell 945, no_sale false). The source names no vendor or NPC, so 'vendor' overstates what is evidenced. The open list already says this.", "fix": "Record the source as a coin store sale (coin_shop) at stores.json:2725, with no vendor NPC, as the answer's own open note concedes. The price and currency match the row and the definition is 9375, so the row itself is correctly cited."}]}

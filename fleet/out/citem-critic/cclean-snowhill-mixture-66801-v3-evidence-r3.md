@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cclean-snowhill-mixture-66801-v3-evidence-r3 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[14582, 10816, 8, 1153] model=claude-haiku-5-5 -->
+# Clean Snowhill Mixture
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim and open[4]", "issue": "The automatic id check flags locale:2686815662, which does not exist. The answer names it only in prose ('the pack's citation ... is dropped' and 'Prior pack's locale:2686815662 citations were removed'), so no source relies on it, but the dead id still appears in the text.", "fix": "Drop the dead id from the prose. Keep only the verified citation: Clean Snowhill Liquid Concoction is locale:66753 (re-checked: '66753: Clean Snowhill Liquid Concoction')."}]}

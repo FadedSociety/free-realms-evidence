@@ -1,0 +1,24 @@
+{
+ "title": "Bixie Soldiers",
+ "our_entries": [
+  {
+   "file": "dungeons\\bixie_hive.json",
+   "definition_id": 930053
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Bixie Soldier",
+  "text": "The Bixie Soldier is an enemy bixie NPC that can be found in Queensfields along the two bixie groups of pikemen and battlemages. Most bixie soldiers are Difficulty 1 enemies.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Bixie\nCategory:Sanctuary"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "other target in 'Bixie-B-Gone I' (unresolved): Defeat the Bixie Soliders attacking the area (Larkspur asks you to defend)",
+  "use target in 'Bixie-B-Gone I' (unresolved): Use this sprayer to chase away nearby Bixie Soldiers and Bixie Battlemages"
+ ]
+}

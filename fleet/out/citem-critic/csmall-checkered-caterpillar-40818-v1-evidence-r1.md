@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmall-checkered-caterpillar-40818-v1-evidence-r1 status=done turns=3 usd=0.0025 tokens(read,write,in,out)=[13217, 12593, 8, 1642] model=claude-haiku-5-5 -->
+# Small Checkered Caterpillar
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] (wiki List of Collections)", "issue": "The claim cites a repo JSON line range (collections.json:8782-8801) rather than the wiki source. The wiki page itself is present (freerealms-wiki/wikitext/2038-27852-f0e36d086ea8.wiki, line 165 '* Checkered Caterpillars', and a table row at line 395), so the claim holds, but the citation should point to the wiki revision. The 'Insects > Common' heading was not verified in this pass.", "fix": "Cite List of Collections revision 27852 (2013-07-13), wikitext line 165 and 395 (freerealms-wiki/wikitext/2038-27852-f0e36d086ea8.wiki). Confirm the Insects/Common heading before keeping it."}]}

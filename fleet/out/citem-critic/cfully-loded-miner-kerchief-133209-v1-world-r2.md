@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfully-loded-miner-kerchief-133209-v1-world-r2 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[11857, 8519, 8, 1345] model=claude-haiku-5-5 -->
+# Fully Loded Miner Kerchief
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The source is a coin-store row (stores.json, category 106, tint group 2), not a named vendor NPC. Labelling it type 'vendor' with where null overstates what is known; it is a store-channel entry with no location.", "fix": "Keep the entry as a coin-store sale (stores.json line 15894, item_id 76201, purchase 1500, member 1350 at 10%, sell 150, source_tags L1, L2, L4, R2, T633, R1), and state that the selling NPC/location is unknown. This matches the open list."}]}

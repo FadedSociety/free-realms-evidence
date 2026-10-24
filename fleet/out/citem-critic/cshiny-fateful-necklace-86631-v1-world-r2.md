@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-fateful-necklace-86631-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3743, 9984, 6, 1210] model=claude-haiku-5-5 -->
+# Shiny Fateful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The cluster description is narrower than the client data. 'Fateful Necklace' is a much larger name family: Hardwood (69681), Granite (69683), Metallic (69693), Jeweled (69704), Dull (86523), Rascal (86532), Intern (86541), Sneak (86550), Grunt (86559) and others, not just the Magus/Shiny set at 86621-86636. The answer does not mention this, so its 'family' reading is incomplete.", "fix": "Note that 'X Fateful Necklace' appears across several client ranges (e.g. locale:69681, 69683, 69693, 69704, 86523-86559), and that the Shiny variant's membership in a set is unproven. Source: lookup of client 'Fateful Necklace'."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cripper-wrecker-chassis-114834-v1-evidence-r1 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[9988, 7436, 8, 1489] model=claude-haiku-5-5 -->
+# Ripper Wrecker Chassis
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0]", "issue": "The answer says the pack's description 'The chassis for the USA Wrecker.' is a different id in the 114648 family. Nothing I checked supports that. Locale lookup confirms 3889 = 'The chassis for the Ripper Wrecker.', but I found no 114648-family string and no link from definition 58586 or 60669 to either description id.", "fix": "State only what the locale shows: 3889 reads 'The chassis for the Ripper Wrecker.' Flag the pack's 'USA Wrecker' description as unresolved against definition 58586's description field, rather than naming a different id."}]}

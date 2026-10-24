@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmystical-sanctuary-mixture-66847-v2-world-r2 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[9513, 6631, 8, 1193] model=claude-haiku-5-5 -->
+# Mystical Sanctuary Mixture
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer is honest that live status is unknown, but the evidence gives no basis for retired or live. The pack's 'live: yes' tag is unconfirmed and was correctly dropped.", "fix": "Keep live as unknown. No retirement evidence was found in client, wiki, video or articles."}, {"field": "evidence[2]", "issue": "The wiki 'List of Collections' entry for [Sanctuary] [Mixture] (collections.json key wiki:8:237, name_id 67519) has reward null and entries_known false. The claim is accurate, but it only shows membership, not acquisition.", "fix": "No change needed. Membership alone is not a source. Keep sources empty, as the answer does."}]}

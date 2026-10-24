@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshadow-infused-skirt-124917-v3-evidence-r3 status=no_submit turns=2 usd=0.0012 tokens(read,write,in,out)=[3865, 5659, 6, 848] model=claude-haiku-5-5 -->
+# Shadow Infused Skirt
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is accurate as far as it goes. I re-ran the lookup and repo search and got the same results: locale:124917 is the only client line naming the skirt, and no wiki page, article, video frame, or stores.json row names it. The 828 coin price stays unmatched, and the answer correctly declines to treat it as a vendor link.", "fix": "No change needed. Optionally note that the wiki Wizard page's '[Shadow] [Infused]' Level 17 entry is a class-tier name only and does not name the skirt (wiki page:ns0 'Wizard')."}]}

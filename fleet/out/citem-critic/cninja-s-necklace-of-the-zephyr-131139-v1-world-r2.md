@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cninja-s-necklace-of-the-zephyr-131139-v1-world-r2 status=done turns=3 usd=0.0026 tokens(read,write,in,out)=[13096, 13295, 8, 1528] model=claude-haiku-5-5 -->
+# Ninja's Necklace of the Zephyr
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Checked repo for Zephyr, 75395 and 131139: no hits in vendors, dungeons, wheel or quest data. Checked refs: 'Zephyr' appears only in locale test data and community item-definition comments (Legacy ClientItemDefinitions.json line 1213027 'Ninja's Necklace of the Zephyr'), with no sources, prices or vendor rows. Wiki, article, video and client lookups return only the locale names. The empty sources array is supported by the evidence.", "fix": "No change needed. Optional: note in open that the Zephyr family also appears as Comment fields in FreeRealms-Legacy ClientItemDefinitions.json, which is definition-only, not acquisition evidence."}]}

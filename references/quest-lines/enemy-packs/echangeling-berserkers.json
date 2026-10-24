@@ -1,0 +1,26 @@
+{
+ "title": "Changeling Berserkers",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\briarheart_caverns.json"
+  },
+  {
+   "file": "dungeons\\forgotten_caves.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

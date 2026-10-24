@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=igolden-santa-suit-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3599, 4039, 6, 893] model=claude-haiku-5-5 -->
+# Golden Santa Suit
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence / sources[0].source", "issue": "Every acquisition claim (TCG Series 5 loot card, 1st-4th placement, Dec 10-23 2013 window, card ID 5P9, redemption via communicator) rests on one wiki page. The image text confirms only the name, description and 5P9. The wiki text I checked matches the answer, so the claims are supported as far as they go, but no second source corroborates them.", "fix": "Keep the answer as is. Label the redemption mechanics as single-source (wiki rev 36416) in confidence, as the open list already partly does. No price is needed: the wiki shows no coin or Station Cash price, so price null and currency null are correct."}]}

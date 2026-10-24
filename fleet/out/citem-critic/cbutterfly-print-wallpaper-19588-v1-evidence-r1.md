@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbutterfly-print-wallpaper-19588-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3822, 4878, 6, 838] model=claude-haiku-5-5 -->
+# Butterfly Print Wallpaper
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the wiki Items index entry '[Butterfly] [Print] [Wallpaper]' is cited as listing the item, which my lookup confirms, but the answer says nothing about the index page's other wallpaper rows. That is harmless, since the index carries no price or vendor text.", "fix": "No change needed. The answer correctly records no acquisition source. Locale 19588 'Butterfly Print Wallpaper' is confirmed by the locale tool and lookup. A repo search for 76787 or 'Butterfly Print' finds no coin store, vendor or quest row."}]}

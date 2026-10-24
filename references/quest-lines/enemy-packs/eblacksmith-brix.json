@@ -1,0 +1,57 @@
+{
+ "title": "Blacksmith Brix",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\tanglewood_fort.json"
+  },
+  {
+   "file": "dungeons\\tanglewood_fort.json"
+  },
+  {
+   "file": "npcs/briarwood.json",
+   "npc_id": 9500000093,
+   "zone": "Briarwood",
+   "enemy_kind": "Fort enemy.",
+   "location_evidence": [
+    "Tanglewood Fort (\"Defeat Blacksmith Brix!\", client 1895053945)."
+   ]
+  }
+ ],
+ "entry_count": 5,
+ "client_name_matches": [
+  "locale:91744 [npc_name | - | Blacksmith Brix] 'Blacksmith Brix'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:91707 [quest_objective | - | Blacksmith Brix] 'Defeat Blacksmith Brix!'",
+  "locale:91744 [npc_name | - | Blacksmith Brix] 'Blacksmith Brix'",
+  "locale:423125 [quest_dialog | - | Blacksmith Brix] 'Years of blacksmithing has made Brix a worthy opponent.  Defeat him to prove yourself!'",
+  "locale:423154 [npc_dialog | - | Blacksmith Brix] 'I taught this move to Blacksmith Brix!'"
+ ],
+ "client_cluster": [
+  "locale:91737 [quest_dialog | Hot Springs Haven | Morninglory] \"You should really find <font color='#D9781A'>Morninglory</font> as soon as possible. The warrior initiation rites could start any minute! Just head <font color=\"",
+  "locale:91739 [quest_title | - | Retrieve Tumbolina's weapons crate] \"Retrieve Tumbolina's weapons crate\"",
+  "locale:91740 [quest_objective | - | Retrieve Tumbolina's weapons crate] \"Head into the Den of Secrets to retrieve Tumbolina's weapons crate.\"",
+  "locale:91741 [quest_objective | Merry Vale | Retrieve Tumbolina's weapons crate] 'Return to Tumbolina in Merry Vale'",
+  "locale:91742 [quest_objective | Merry Vale | Retrieve Tumbolina's weapons crate] 'Bring the weapons crate back to Tumbolina in Merry Vale.'",
+  "locale:91744 [npc_name | - | Blacksmith Brix] 'Blacksmith Brix'",
+  "locale:91745 [ability | - | Water Cage] 'Water Cage'",
+  "locale:91746 [ability | - | Mudshell - water bubble] 'Mudshell - water bubble'",
+  "locale:91747 [ability | - | Water Shield] 'Water Shield'",
+  "locale:91748 [ability | - | Mudshell - self bubble] 'Mudshell - self bubble'",
+  "locale:91749 [item | - | Keldon Iceblock] 'Keldon Iceblock'",
+  "locale:91750 [npc_name | - | Keldon] 'Keldon'",
+  "locale:91751 [quest_dialog | Snowhill | Encased in Ice] 'So, you can dodge boulders! Good for you!'",
+  "locale:91752 [quest_dialog | Snowhill | Encased in Ice] \"Let's see how you fare against me!\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

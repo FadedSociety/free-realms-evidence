@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-air-necklace-96559-v2-evidence-r3 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3789, 4466, 6, 769] model=claude-haiku-5-5 -->
+# Gleaming Air Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim cites locale:150456, which the automatic id check flags as placeholder stub text. The answer does say it is not cited as evidence, so this is a labelling problem, not a false claim. Listing it under evidence muddles the evidence list.", "fix": "Move locale:150456 out of the evidence array into a note saying it is a flagged placeholder stub and carries no acquisition or live weight. Client lookup confirms it reads 'This is a Gleaming Air Necklace item.' and is flagged placeholder."}]}

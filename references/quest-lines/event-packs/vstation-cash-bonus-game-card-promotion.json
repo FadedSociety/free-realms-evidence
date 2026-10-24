@@ -1,0 +1,29 @@
+{
+ "title": "Station Cash bonus game card promotion",
+ "names_seen": [
+  "Station Cash bonus game card promotion"
+ ],
+ "facts": [
+  {
+   "statement": "The Station Cash bonus promotion ran from 12:01 AM PDT on 6/8/2012 to 11:59 PM PDT on 6/10/2012, with cards redeemable in-game or at soe.com/gamecards.",
+   "numbers": {
+    "start_hour_pdt_am": 0,
+    "end_hour_pdt_pm": 23
+   },
+   "era": "live",
+   "quote": "Redeem between 12:01 AM PDT 6/8/2012 and 11:59 PM PDT 6/10/2012",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2613",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2613",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com news post announcing a weekend promotion: redeeming an SOE Pre-Paid Game Card in the window June 8-10, 2012 grants a 500 Station Cash bonus. The page gives no patch or gameplay details. The post's exact date is not shown; it was captured 2012-06-10 and said it was posted 5 days earlier."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

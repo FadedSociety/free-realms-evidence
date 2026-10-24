@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=curuguay-soccer-flag-39105-v1-world-r2 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[15029, 11695, 8, 1363] model=claude-haiku-5-5 -->
+# Uruguay Soccer Flag
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] / source_tags", "issue": "The answer reads the store tag L3 as 'Legacy NoSale' and uses it to say the flag is 'marked not sellable'. I did not open the source_tags legend (stores.json line 29), so that gloss is unverified. The no_sale:true field on the same row is the firmer evidence and already covers the resale point.", "fix": "Cite no_sale:true (stores.json line 4192) for 'cannot be resold to vendors' and drop or verify the L3 gloss against the source_tags legend at stores.json line 29."}]}

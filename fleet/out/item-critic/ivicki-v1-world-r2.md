@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ivicki-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3453, 5076, 6, 775] model=claude-haiku-5-5 -->
+# Vicki
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer calls 'Vicki's Bow' (locale 103436) 'probably a quest item' without checking it. The client text confirms the link: locale 93278 'Retrieve Vicki's bow' and 77661 say hooligans from Highroad Hijinx took the bow, and 77663 says the player recovered it. That fits a quest item, not a vendor or drop. The answer is still honest to leave it open.", "fix": "Optional: note that Vicki's Bow is a quest-object item from the Archer chain (locale 77661, 77663, 93278, 101026), and that the item sourcing for it is a separate question."}]}

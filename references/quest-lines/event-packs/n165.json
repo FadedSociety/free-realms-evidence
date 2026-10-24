@@ -1,0 +1,38 @@
+{
+ "title": "Bristlewood Bash",
+ "names_seen": [
+  "Bristlewood Bash"
+ ],
+ "facts": [
+  {
+   "statement": "The Community Event Bristlewood Bash was held in the highest towers of Tanglewood Fort, in Briarwood, on Friday February 5th, 2010.",
+   "numbers": {
+    "start_pacific_us_latam_hour": 15,
+    "start_pacific_uk_europe_hour": 9,
+    "gmt_hour_uk_europe": 18
+   },
+   "era": "live",
+   "quote": "Join us in Briarwood for a special party in the highest towers of the Tanglewood Fort!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=937",
+   "date": null
+  },
+  {
+   "statement": "The event ran on Server 1 for both the U.S./Latin America time slot and the UK/Europe time slot.",
+   "numbers": {},
+   "era": "live",
+   "quote": "3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=937",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=937",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com news page announcing the Community Event 'Bristlewood Bash', a party in the towers of Tanglewood Fort near Briarwood, on Friday February 5th, 2010. Members get a teleport to the party from the Briarwood Party Planner, and anyone can reach it via the Game Guide calendar during the event."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctoy-cube-148431-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3550, 7576, 6, 1079] model=claude-haiku-5-5 -->
+# Toy Cube
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].type / detail", "issue": "Labelled 'vendor', but no vendor NPC or shop is named anywhere in the evidence. The only evidence is a store row (stores.json item 36911, category 4). That supports a coin-store listing, not a specific vendor. The type is an overreach until a vendor is found.", "fix": "Record the source as type 'coin_store' with where null and vendor unknown: stores.json line 12193, item_id 36911, category_id 4, purchase_price_coins 5, member_discount_percent 10, member_price_coins 4, sell_price_coins 1, no_sale false. Confirmed by my read of the file."}]}

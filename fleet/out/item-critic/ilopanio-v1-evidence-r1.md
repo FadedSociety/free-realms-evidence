@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ilopanio-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3288, 4921, 6, 1016] model=claude-haiku-5-5 -->
+# Lopanio
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The answer cites vendors_unresolved.json:3372 as a 'Lopanio vendor entry'. I checked it: the entry is an NPC-keyed record (npc_id 9500000313, source greenwood_forest.json) whose wiki_stock_page has has_item_list false, vendor_stock null, resolved_item_ids empty and unresolved_items empty. It is a name match with no stock, so the answer's reading is correct, but calling it a vendor entry overstates it.", "fix": "Describe it as an unresolved NPC record with vendor_stock null and no items, not as a vendor. Sources: repo prototype/osfr-tools/data/content/vendors_unresolved.json:3365-3380; wiki https://freerealms.fandom.com/wiki/Lopanio (no item list)."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchrono-steak-96650-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3711, 4286, 6, 1000] model=claude-haiku-5-5 -->
+# Chrono Steak
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The Chef.md line (notes/Build Guides/Content/Jobs/Chef.md:317) is a per-dish reward row for Honey Roasted Moonbean: 'Total score 30,700; Coins x452, Stars x53, Chrono Sour Fruit x8'. It is a score-based reward for one dish, not a general 'cooking reward' rule, so the paraphrase is a little loose. The citation itself is accurate.", "fix": "Reword to: Chef.md:317 lists Chrono Sour Fruit x8 as a reward on the Honey Roasted Moonbean row (total score 30,700). It does not mention Chrono Steak."}]}

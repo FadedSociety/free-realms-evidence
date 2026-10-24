@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iryanna-v1-world-r2 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3108, 3901, 6, 830] model=claude-haiku-5-5 -->
+# Ryanna
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' although the answer's own evidence shows Ryanna is an NPC name (locale:92496 npc_name), not an item. Live status for an NPC is not meaningful for an item acquisition answer; the status could be stated as 'not an item'.", "fix": "Set kind to a non-item value (e.g. 'npc') and state that no item acquisition exists; locale:92496 is npc_name, wiki page 'Ryanna' is categorised NPC/Females/Human/Seaside, and the repo lists Ryanna among Seaside NPC names (seaside.json:5454, NPC name id 3455421409 in NPCs - Seaside.md:149)."}]}

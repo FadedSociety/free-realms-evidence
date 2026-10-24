@@ -1,0 +1,185 @@
+{
+ "title": "Ambassador Hide and Seek",
+ "names_seen": [
+  "Ambassador Hide and Seek"
+ ],
+ "facts": [
+  {
+   "statement": "A community event in which Community Team Ambassadors hid in Briarwood and players searched for them, running on Server 1.",
+   "numbers": {
+    "event_date_2010": 19,
+    "us_latam_time_pacific_hour": 15,
+    "uk_europe_time_gmt_hour": 18
+   },
+   "era": "live",
+   "quote": "The Ambassadors will be hiding out in Briarwood and it’s your job to find their hiding spots.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1020",
+   "date": null
+  },
+  {
+   "statement": "Players found an Ambassador by sending a duel request to a member of the guild 'Community Team'; the first finder received some in-game coin, and the found Ambassador then moved and hid again.",
+   "numbers": {},
+   "era": "live",
+   "quote": "send a duel request. If you are the first, he or she will give you some of their in-game coin as a reward.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1020",
+   "date": null
+  },
+  {
+   "statement": "The Ambassadors gave instructions and hints through the ZONE CHAT tab.",
+   "numbers": {},
+   "era": "live",
+   "quote": "The Ambassadors will be using the ZONE CHAT tab in your chat window",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1020",
+   "date": null
+  },
+  {
+   "statement": "Community Ambassadors hid all over Briarwood; finding one rewarded the player with some coins.",
+   "numbers": {},
+   "era": "live",
+   "quote": "If you found one, you got some coins!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1136",
+   "date": null
+  },
+  {
+   "statement": "Each birthday party included an Ambassador Hide and Seek game: one Community Team member hosted and another hid, and the host told players who to look for.",
+   "numbers": {},
+   "era": "live",
+   "quote": "it will also be an Ambassador Hide and Seek! Each party will have one Community Team member hosting",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1308",
+   "date": null
+  },
+  {
+   "statement": "Community Team Ambassadors hid in Briarwood and players had to find them; the event ran on Server 1.",
+   "numbers": {
+    "US/LatAm start hour (Pacific)": 15,
+    "UK/Europe start hour (Pacific)": 9,
+    "UK/Europe start hour (GMT)": 16
+   },
+   "era": "live",
+   "quote": "The Ambassadors will be hiding out in Briarwood and it’s your job to find their hiding spots.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1763",
+   "date": null
+  },
+  {
+   "statement": "The event ran on Thursday August 26, 2010 at 3pm Pacific for U.S. and Latin America, and on Friday August 27, 2010 at 9:00am Pacific / 4:00pm GMT for UK and Europe.",
+   "numbers": {
+    "date_US": "2010-08-26",
+    "date_EU": "2010-08-27"
+   },
+   "era": "live",
+   "quote": "Thursday August 26th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1763",
+   "date": null
+  },
+  {
+   "statement": "A Community Team event in which Ambassadors hid inside the zone; players searched for them, scared them, then sent a trade request to receive a prize, after which the Ambassador hid again elsewhere.",
+   "numbers": {
+    "prize_per_ambassador_found": 1
+   },
+   "era": "live",
+   "quote": "dales un susto. ¡Después de asustarlos, envíales una solicitud para intercambiar y se te otorgara un premio!",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1858",
+   "date": null
+  },
+  {
+   "statement": "Event dates: Thursday 14 August 2010 at 15:00 Pacific Time for US and Latin America, and Friday 15 August 2010 at 09:00 Pacific / 16:00 European time for UK and Europe; both on Server 1.",
+   "numbers": {
+    "americas_start_hour_pacific": 15,
+    "europe_start_hour_pacific": 9,
+    "europe_start_hour_cet_equivalent": 16
+   },
+   "era": "live",
+   "quote": "Jueves 14 de agosto del 2010 15 hrs. Tiempo Pacifico (EE.UU. y Latino América) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1858",
+   "date": null
+  },
+  {
+   "statement": "Community Team Ambassadors hid in Snowhill for a Hide and Seek community event on Server 1, held on the US/Latin America and UK/Europe schedules.",
+   "numbers": {
+    "US/LatAm start hour Pacific (March 17, 2011)": 15,
+    "UK/Europe start hour Pacific (March 18, 2011)": 9
+   },
+   "era": "live",
+   "quote": "The Ambassadors will be hiding out in Snowhill and it’s your job to find their hiding spots.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2060",
+   "date": null
+  },
+  {
+   "statement": "The first player to find an Ambassador receives some of the Ambassador's in-game coin; the Ambassador then disappears and re-hides in a new location.",
+   "numbers": {},
+   "era": "live",
+   "quote": "If you are the first, he or she will give you some of their in-game coin as a reward.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2060",
+   "date": null
+  },
+  {
+   "statement": "Ambassadors gave clues and hints through the AREA CHAT tab during the event.",
+   "numbers": {},
+   "era": "live",
+   "quote": "The Ambassadors will be using the AREA CHAT tab in your chat window to give instructions and hints",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2060",
+   "date": null
+  },
+  {
+   "statement": "Community event where Community Team Ambassadors hid in Briarwood on Server 3; players found them and sent duel requests.",
+   "numbers": {
+    "start_hour_pacific": 13,
+    "end_hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "The Community Team Ambassadors are playing a game of Hide and Seek and you're invited!",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=212",
+   "date": "2009-08-21"
+  },
+  {
+   "statement": "The event ran on Server 3 on Friday August 21, 2009.",
+   "numbers": {
+    "server": 3
+   },
+   "era": "live",
+   "quote": "Friday August 21st, 2009 1pm – 3pm Pacific Time Server 3",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=212",
+   "date": "2009-08-21"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1020",
+   "date": null,
+   "title": "Community Event: Ambassador Hide and Seek",
+   "summary": "An official freerealms.com community event post announcing a Hide and Seek game run by the Community Team Ambassadors in Briarwood on Friday February 19th, 2010, on Server 1 at two times for different regions. Players found hidden Ambassadors by sending duel requests, and the first finder got in-game coin. The page also explains how to find community events through the Game Guide calendar."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1136",
+   "date": null,
+   "title": "Event Recap: Festival of Hearts, Hide and Seek and Beach Party!",
+   "summary": "A community-team recap of several recent events: a Festival of Hearts semi-formal dance in Merry Vale, an Ambassador Hide and Seek game in Briarwood where finding hidden Community Ambassadors paid coins, and a Seaside Beach Luau where pets could swim. It also explains how to reach community events via the Game Guide calendar and its GO button."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1308",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A SOE community news post announcing an All Day Birthday Party for Free Realms' first anniversary, with eight hourly parties in different regions on April 29, 2010 that doubled as Ambassador Hide and Seek games. It explains how to reach community events through the Game Guide calendar and its GO button. The posting date is not printed; it is only given relative to the capture date."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1763",
+   "date": null,
+   "title": "Community Event: Ambassador Hide and Seek",
+   "summary": "A Community Team event in which Community Team Ambassadors hide in Briarwood (from Thistlerow to Briarheart Palace) and players find them by saying hello, with the first finder of each Ambassador receiving in-game coin. The event ran on Server 1 on August 26, 2010 (US/Latin America) and August 27, 2010 (UK/Europe). The post gives a relative age ('5 days, 12 hours ago') rather than a date, so the posting date is unknown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1858",
+   "date": null,
+   "title": "Free Realms - What is New? (Spanish-language community event post: Ambassador Hide and Seek, \"Posee y Busca a los Embajadores\")",
+   "summary": "A Spanish-language official community event post announcing an Ambassador hide-and-seek event in the Blackspore zone (Esporaumbría in Spanish), run by the Community Team. Ambassadors hid inside the zone and gave clues over Zone Chat; players who found one and sent a trade request received a prize. The post gives the event dates and times for Americas and European regions on Server 1."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2060",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A community event page announcing an Ambassador Hide and Seek game in Snowhill, run by the Community Team guild on Server 1 over March 17-18, 2011. Players who spot an Ambassador say hello, and the first finder gets in-game coin; the Ambassador then moves and hides again. Posting date is only given relatively (3 days, 20 hours ago), so the exact date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

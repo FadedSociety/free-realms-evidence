@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ispain-soccer-shirt-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3233, 4141, 6, 1069] model=claude-haiku-5-5 -->
+# Spain Soccer Shirt
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price / currency", "issue": "Price and currency are null. The wiki page (lookup of the page prose) gives no Station Cash price, so the null is honest and the item is not overclaimed.", "fix": "No change to the answer needed. A price should be added only after a marketplace listing or article confirms it. Checked: the wiki prose says 'acquired during the 2010 FIFA World cup through the Station Cash Marketplace' and lists Unobtainable, Clothing, Chest and All Jobs. Those match the answer. locale:31639 is 'Spain Soccer Shirt', which matches."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstandard-large-potted-plant-132587-v1-evidence-r1 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[4193, 10684, 6, 1487] model=claude-haiku-5-5 -->
+# Standard Large Potted Plant
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price (member price)", "issue": "The 90-coin member price rests only on our repo's stores.json rows (15604 and 36174, member_discount_percent 10). No video frame or wiki shows it. The answer already flags it as unverified, so this is a caveat, not a false claim. Keep it marked as repo-derived, not observed.", "fix": "Keep 100 coins regular, supported by video:Ih74NMrp7F0/02048.jpg (OCR reads '[Standard] [Large] [Potted] [Plant] 100 coins') and repo:stores.json 15604/36174 purchase_price_coins 100. Label 90 as repo-only member price (stores.json member_price_coins 90)."}]}

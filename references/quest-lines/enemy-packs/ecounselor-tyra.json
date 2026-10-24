@@ -1,0 +1,51 @@
+{
+ "title": "Counselor Tyra",
+ "our_entries": [
+  {
+   "file": "dungeons\\bigfoot_defender.json",
+   "definition_id": 930007
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:428932 [npc_name | - | Counselor Tyra] 'Counselor Tyra'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:428932 [npc_name | - | Counselor Tyra] 'Counselor Tyra'"
+ ],
+ "client_cluster": [
+  "locale:428924 [ability | - | Twilight Strike] 'Attack all opponents in front of you with the power of twilight. Has a slightly longer reach.'",
+  "locale:428925 [ability | - | Vampiric Wrath] 'Vampiric Wrath'",
+  "locale:428926 [ability | - | Vampiric Wrath] 'Damages all nearby opponents and drains some of their health.'",
+  "locale:428927 [ability | - | Vampiric Wrath Proc] 'Vampiric Wrath Proc'",
+  "locale:428928 [ability | - | Vampiric Wrath Proc] 'Lifetap effect granted by the Vampirc Wrath ultra attack.'",
+  "locale:428929 [npc_name | - | Greenwood Bear] 'Greenwood Bear'",
+  "locale:428930 [npc_name | - | Bigfoot] 'Bigfoot'",
+  "locale:428931 [npc_name | - | Counselor Kaela] 'Counselor Kaela'",
+  "locale:428932 [npc_name | - | Counselor Tyra] 'Counselor Tyra'",
+  "locale:428934 [npc_name | - | Counselor Edmond] 'Counselor Edmond'",
+  "locale:428935 [npc_name | - | Counselor Jake] 'Counselor Jake'",
+  "locale:428938 [quest_dialog | - | Bigfoot] 'Hey! Did Chatty send you to help?'",
+  "locale:428939 [quest_objective | - | Bigfoot] 'Bigfoot is just up ahead... '",
+  "locale:428940 [quest_dialog | - | Bigfoot] \"If you think we can take him I'll get your back.\""
+ ],
+ "wiki": {
+  "title": "Counselor Tyra",
+  "text": "Counselor Tyra is a human NPC that can be found in the perimeters of Camp Chatty, located in the Greenwood Forest.\n\nShe is also an enemy NPC in Bigfoot Defender. She is with Jake, Edmond, and Kaela to find and hurt Bigfoot.\n\nQuests\nQuest:Defensive Strategy (repeatable)\n\nAppearances\nQuest:Meet and Greet\nQuest:Defensive Strategy\nBigfoot's Lair\nBigfoot Defender\nCategory:NPC\nCategory:Enemies\nCategory:Females\nCategory:Human\nCategory:Quest Givers\nCategory:Camp Chatty\nCategory:Greenwood Forest"
+ },
+ "images": [],
+ "video": [
+  "video:L27vxozHOls/00082.jpg (Bigfoot's Lair): npcs: Counselor Tyra dialog_header  | dialog: Help! Help!!! | quest:   Defeat Bigfoot!  | job_level: Archer 20 | other_text: -2490 Stunned Goals (1) Defeat Bigfoot!",
+  "video:L27vxozHOls/00094.jpg (Bigfoot's Lair): npcs: Counselor Tyra chat_speaker  | dialog: Thanks for saving me from those bears. If you're going after Bigfoot I've got your back! | quest:   Defeat Bigfoot!  | job_level: Archer 20",
+  "video:L27vxozHOls/00088.jpg (-): npcs: Counselor Tyra dialog_header  | dialog: Thanks for saving me from those bears. If you're going after Bigfoot I've got your back! | quest:   Defeat Bigfoot!  | job_level: Archer 20 | other_text: Goals (1) Defeat Bigfoot!",
+  "video:L27vxozHOls/00092.jpg (Bigfoot's Lair): npcs: Counselor Tyra dialog_header  | dialog: Thanks for saving me from those bears. If you're going after Bigfoot I've got your back! | quest:   Defeat Bigfoot!  | job_level: Archer 20 | other_text: Bigfoot's Lair Goals (1) Defeat Bigfoot!",
+  "video:L27vxozHOls/00280.jpg (-): npcs: Counselor Edmond nameplate  Counselor Tyra nameplate  | quest: Confronting Bigfoot  Confront Bigfoot and see what he wants Confront Bigfoot (done) Speak to Counselor Edmond (done) Return to Chatty  | job_level: Archer 20 | other_text: Goal Complete Confronting Bigfoot Speak"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "giver of 'Defensive Strategy' (final, zone Greenwood Forest)",
+  "talk target in 'Defensive Strategy' (final): Counselor Tyra has developed a plan to help campers prepare for an attack by forest creatures. Beat her tower defense ga",
+  "talk target in 'Defensive Strategy' (final): Return to Counselor Tyra",
+  "talk target in 'Meet and Greet' (final): Speak to Counselor Tyra"
+ ]
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-boom-bump-pants-pl-boom-bump-pants-1115-v2-evidence-r3 status=done turns=3 usd=0.0027 tokens(read,write,in,out)=[16583, 13057, 8, 1786] model=claude-haiku-5-5 -->
+# {n}Boom Bump Pants{pl="Boom Bump Pants"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].open / set-mates", "issue": "Minor omission: locale 1109 'Boom Bump Helmet' is in the same Boom Bump naming family and is not listed among the set-mates (the answer lists Gloves 1111, Shirt 1113, Boots 1117, Roar Ram Helmet 1119). The 1119 'Roar Ram Helmet' name does not carry the Boom Bump prefix, so the set list is loose. The answer correctly makes no shared-acquisition claim, so this does not change the source verdict.", "fix": "Set-mate list should read: Boom Bump Helmet 1109, Boom Bump Gloves 1111, Boom Bump Shirt 1113, Boom Bump Boots 1117 (locale.json), with 1119 noted as unrelated by name. Sources unchanged."}]}

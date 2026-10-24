@@ -1,0 +1,67 @@
+{
+ "title": "Bergram Stumpfinger",
+ "our_entries": [
+  {
+   "file": "dungeons\\bergram_stumpfinger_s_ghost.json",
+   "definition_id": 930049
+  },
+  {
+   "file": "dungeons\\bergram_stumpfinger_s_ghost.json",
+   "definition_id": 930049
+  },
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000003,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Ghost of a bitter old crook",
+   "location_evidence": [
+    "A tombstone just north of Mire's Edge"
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:90419 [npc_name | - | Bergram Stumpfinger] 'Bergram Stumpfinger'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:90096 [quest_dialog | - | Bergram Stumpfinger] \"Bergram Stumpfinger's ghost is haunting this area! Venture in and defeat him!\"",
+  "locale:90113 [quest_objective | - | Bergram Stumpfinger] 'Defeat Bergram Stumpfinger.'",
+  "locale:90114 [quest_objective | - | Bergram Stumpfinger | FLAG duplicate: near-identical to 90113] 'Defeat Bergram Stumpfinger - if you can!'",
+  "locale:90419 [npc_name | - | Bergram Stumpfinger] 'Bergram Stumpfinger'"
+ ],
+ "client_cluster": [
+  "locale:90411 [quest_objective | Shrouded Glade | Kosha] 'Speak to Kosha in Shrouded Glade'",
+  "locale:90412 [quest_objective | Shrouded Glade | Kosha] 'Speak to Kosha in Shrouded Glade to learn secrets of stealth.'",
+  "locale:90413 [quest_title | - | Graverobber] 'Graverobber'",
+  "locale:90414 [ability | - | Bone Explosion] 'Bone Explosion'",
+  "locale:90415 [ability | - | Bone Explosion] \"Bergram Stumpfinger's Ghost - bone explosion\"",
+  "locale:90417 [quest_dialog | - | Graverobber] 'Look what we found here!'",
+  "locale:90419 [npc_name | - | Bergram Stumpfinger] 'Bergram Stumpfinger'",
+  "locale:90420 [quest_objective | Snowhill | Tanda T. Toes] 'Speak to Tanda T. Toes in Snowhill'",
+  "locale:90421 [quest_objective | Snowhill | Tanda T. Toes] 'Speak to Tanda T. Toes in Snowhill to learn secrets of stealth.'",
+  "locale:90422 [quest_objective | Seaside | Brendan] 'Speak to Brendan in Seaside'",
+  "locale:90423 [quest_objective | Seaside | Brendan] 'Speak to Brendan in Seaside to learn secrets of stealth.'",
+  "locale:90424 [quest_objective | Greenwood Forest | Cyndreela] 'Speak to Cyndreela in Greenwood Forest'",
+  "locale:90425 [quest_objective | Greenwood Forest | Cyndreela] 'Speak to Cyndreela in the Greenwood Forest to learn secrets of stealth.'",
+  "locale:90426 [quest_objective | Blackspore | Chloe] 'Speak to Chloe in Blackspore'",
+  "locale:90427 [quest_objective | Blackspore | Chloe] 'Speak to Chloe.'"
+ ],
+ "wiki": {
+  "title": "Bergram Stumpfinger",
+  "text": "Bergram Stumpfinger is an NPC boss that can be found in the Bergram Stumpfinger's Ghost battle, located in Blackspore Swamp. He is a dwarf ghost that is angry at someone for a reason and haunting the battle. The player must venture in and defeat him.\n\nDialogues\n\nAppearances\nBergram Stumpfinger's Ghost\nTrading Card Game Series 4\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Dwarves\nCategory:Ghosts\nCategory:Blackspore\nCategory:Trading Card Game"
+ },
+ "images": [
+  "image (image:character_or_npc): Bergram Stumpfinger",
+  "image (image:character_or_npc): Bergram Stumpfinger",
+  "image (image:world_screenshot): Bergram Stumpfinger"
+ ],
+ "video": [
+  "video:7JPHZIE_C5I/00026.jpg (-): other_text: Bergram Stumpfinger (red marker 37m, unclear if NPC)",
+  "video:qll29Uexu1k/00016.jpg (-): landmarks: misty dark forest | other_text: Bergram Stumpfinger (nameplate, red crossed-swords battle marker) Dragon Fruits (green text, not a marker)",
+  "video:SUgDAmJpyVs/00090.jpg (-): dialog: [Grave Elemental]: I must have... energy! [Grave Elemental]: Must feed... [Graverobber]: Look what we found here! [Bergram Stumpfinger]: You dare disturb my bones? [Bergram's Bone]: You'll never beat me like that. [Bergram Stumpfinger]: Curse you! I'll take you down with ",
+  "video:SUgDAmJpyVs/00026.jpg (-): npcs: Cray Marauder nameplate  | dialog: [Graverobber]: Look what we found here! [Bergram Stumpfinger]: You dare disturb my bones? [Bergram's Bone]: You'll never beat me like that. [Bergram Stumpfinger]: Curse you! I'll take you down with me! | job_level: Brawler 4 | other_text: ",
+  "video:SUgDAmJpyVs/00094.jpg (-): dialog: [Grave Elemental]: I must have... energy! [Grave Elemental]: Must feed... [Graverobber]: Look what we found here! [Bergram Stumpfinger]: You dare disturb my bones? [Bergram's Bone]: You'll never beat me like that. [Bergram Stumpfinger]: Curse you! I'll take you down with "
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

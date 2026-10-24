@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbronze-star-1467-v1-evidence-r1 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3795, 9904, 6, 1218] model=claude-haiku-5-5 -->
+# Bronze Star
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] and open[0]", "issue": "The link between the Bronze Star and the Bronze Medals collection is an inference from the name and the 'can be added to a collection' text, which is hedged as 'most likely'. Nothing in the pack ties item 1467 to a collection. This is honest, but it should not be read as a source.", "fix": "Keep the star with no source. Only the client line locale:132367 ('This item can be added to the Bronze Medals Collection') and the collections.json row 'Bronze Medals' (collections.json:9762) are real. Neither names the star. The wiki 'List of Collections' lookup confirms that a Bronze Medals collection exists, not its contents."}]}

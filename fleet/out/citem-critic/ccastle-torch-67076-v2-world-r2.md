@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccastle-torch-67076-v2-world-r2 status=no_submit turns=3 usd=0.0015 tokens(read,write,in,out)=[8585, 6537, 8, 1136] model=claude-haiku-5-5 -->
+# Castle Torch
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources / open", "issue": "Minor: every entry in the Torches collection (id 182, including Castle Torch at line 14562-14567) carries item_link \"sanctuary\". The answer does not mention this field. It is a link tag, not an acquisition source, so it does not change the empty sources list, but a builder reading the record should know it is there.", "fix": "Note in open that collection_catalogue.json id 182 entries all have item_link \"sanctuary\" (lines 14523-14594). This is unexplained and is not an acquisition source."}]}

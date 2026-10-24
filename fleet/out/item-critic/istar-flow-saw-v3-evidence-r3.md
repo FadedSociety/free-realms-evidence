@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=istar-flow-saw-v3-evidence-r3 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3993, 9229, 6, 1313] model=claude-haiku-5-5 -->
+# Star Flow Saw
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[2]", "issue": "Automatic id check flags locale:384386 as FLAG not_live. The answer already declines to use it as evidence or as locale_id, so this is a disclosure, not a wrong source. The flag is confirmed in quest-lines/flags.tsv (384386, not_live, unused weapon variant with no quest context).", "fix": "No change to the sources needed. Keep locale_id null and the live name as unverified."}, {"field": "evidence[2]", "issue": "The claim that the Medic wiki page lists Star Flow Saw under Equipment > Weapons > Level 1 is supported by the Medic page text (Equipment, Weapons, Level 1 list includes [[Star Flow Saw]]). Verified, no fix needed.", "fix": "None."}]}

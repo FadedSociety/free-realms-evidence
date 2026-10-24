@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmessenger-grape-ring-96168-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3638, 7360, 6, 862] model=claude-haiku-5-5 -->
+# Messenger Grape Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Minor: 'unsure' is the honest status, but the pack shows only that the client locale and definitions contain the name. The Legacy definition (Cost 640) does not establish sale, drop or retirement. Nothing in the pack contradicts an unsure status.", "fix": "Keep live as 'unsure'. No evidenced source exists in client locale, wiki, articles or video (checked again: lookup 'Messenger ring' returned only the six client locale lines 96166-96171; locale search returned the necklaces 96286-96291 and Quick Messenger Shoes 89764; refs search found no item source)."}]}

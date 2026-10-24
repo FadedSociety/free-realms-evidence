@@ -1,0 +1,114 @@
+{
+ "title": "Turkey Dance",
+ "names_seen": [
+  "Turkey Dance"
+ ],
+ "facts": [
+  {
+   "statement": "A community Turkey Dance Party was held in Pixiewood on Thanksgiving week 2010, gathering at the Pixiewood shopping district just north of the Sanctuary warpstone.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Everyone will gather at the Pixiewood shopping district. It is just north of the Sanctuary warpstone.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1918",
+   "date": null
+  },
+  {
+   "statement": "The U.S. and Latin America session of the Turkey Dance was on Thursday November 25, 2010 at 3pm Pacific Time, on Server 1.",
+   "numbers": {
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Thursday November 25th , 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1918",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session of the Turkey Dance was on Friday November 26, 2010 at 9:00am Pacific Time (4:00pm GMT), on Server 1.",
+   "numbers": {
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday November 26th, 2010 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1918",
+   "date": null
+  },
+  {
+   "statement": "A community event called the Turkey Dance (Baile de Pavos) was held in the Pixiewood shopping district, just north of the Sanctuary teleport stone, on Server 1.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Todo el mundo se reunirá en el distrito comercial de Pixiewood. Es justo al norte de la piedra tele-transportadora de Santuario.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1931",
+   "date": null
+  },
+  {
+   "statement": "The US and Latin America session was Thursday 25 November 2010 at 15:00 Pacific time on Server 1.",
+   "numbers": {
+    "day": 25,
+    "month": 11,
+    "year": 2010,
+    "hour_pacific": 15
+   },
+   "era": "live",
+   "quote": "Jueves 25 de noviembre del 2010 15:00 hrs. Tiempo Pacifico (EE.UU. y Latino America) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1931",
+   "date": null
+  },
+  {
+   "statement": "The UK and Europe session was Friday 26 November 2010 at 09:00 Pacific time (16:00 GMT) on Server 1.",
+   "numbers": {
+    "day": 26,
+    "month": 11,
+    "year": 2010,
+    "hour_pacific": 9,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Viernes 26 de noviembre del 2010 09:00 hrs. Tiempo Pacifico/16:00 hrs. GMT (Reino Unido y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1931",
+   "date": null
+  },
+  {
+   "statement": "A community event called Turkey Dance Party was held on the Friday after US Thanksgiving, at the Pixiewood shopping district just north of the Sanctuary warpstone, on Server 1.",
+   "numbers": {
+    "US/Latin America start hour PST": 15,
+    "UK/Europe start hour PST": 9,
+    "UK/Europe start hour GMT": 18
+   },
+   "era": "live",
+   "quote": "Everyone will gather at the Pixiewood shopping district. It is just north of the Sanctuary warpstone.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=645",
+   "date": null
+  },
+  {
+   "statement": "Event dress code: players were told to wear turkey suits and turkey hats bought from the Marketplace.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Grab your turkey suits and put on your turkey hats from the Marketplace",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=645",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1918",
+   "date": null,
+   "title": "Community Event: Turkey Dance",
+   "summary": "A Free Realms community event page announcing a Turkey Dance Party at the Pixiewood shopping district over Thanksgiving 2010, held on Thursday November 25 and Friday November 26, 2010 on Server 1, at two times for different regions. It explains how to find community events through the Game Guide calendar and GO button. The page was posted about three days before the capture date (around 2010-11-23, exact date not shown)."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1931",
+   "date": null,
+   "title": "Evento Comunitario: Baile de Pavos (Free Realms - What is New?)",
+   "summary": "A Spanish-language Free Realms community event page announcing the Turkey Dance (Baile de Pavos) for late November 2010, held in the Pixiewood shopping district on Server 1 at two times for different regions. It also explains how players reach community events via the Game Guide's calendar and the Go button."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=645",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "SOE's Free Realms news post announcing a Turkey Dance Party community event at the Pixiewood shopping district, held the Friday after US Thanksgiving. Players were asked to wear turkey hats/suits from the Marketplace and bring a boombox, with times given for US/Latin America and UK/Europe on Server 1."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,41 @@
+{
+ "title": "Spring Celebration - Double Station Cash Weekend",
+ "names_seen": [
+  "Spring Celebration - Double Station Cash Weekend"
+ ],
+ "facts": [
+  {
+   "statement": "Double Station Cash was offered on Station Cash purchases and SOE Pre-Paid Station Cash card redemptions during the Spring Celebration weekend.",
+   "numbers": {
+    "bonus_multiplier": 2
+   },
+   "era": "live",
+   "quote": "get Double Station Cash between March 29th-31st when you buy Station Cash or redeem an SOE Pre-Paid Station Cash card",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2893",
+   "date": null
+  },
+  {
+   "statement": "The Double Station Cash offer ran from 12:01 AM PDT on March 29, 2013 to 11:59 PM PDT on March 31, 2013.",
+   "numbers": {
+    "start_hour_pdt_am": 0,
+    "start_minute": 1,
+    "end_hour_pdt_pm": 23,
+    "end_minute": 59
+   },
+   "era": "live",
+   "quote": "Offer valid from 12:01 AM PDT March 29, 2013 to 11:59PM PDT March 31, 2013.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2893",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2893",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A freerealms.com news post announcing a Spring Celebration Double Station Cash weekend, offering double Station Cash on Station Cash purchases and SOE Pre-Paid Station Cash card redemptions from March 29 to March 31, 2013. The post says Marketplace deals were also coming. The post is titled 'Spring Celebration - Double Station Cash Weekend' and was listed as posted 3 days, 17 hours before capture (capture date 2013-04-01), so the posting date is approximately 2013-03-28 but is not stated exactly."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

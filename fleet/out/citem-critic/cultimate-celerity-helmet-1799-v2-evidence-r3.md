@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cultimate-celerity-helmet-1799-v2-evidence-r3 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[11151, 9959, 8, 1513] model=claude-haiku-5-5 -->
+# Ultimate Celerity Helmet
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail / sources[1].detail", "issue": "The coin-store price rows are cited as if they were captured prices, but their source_tags are L1, L2, L4, R2, T633, R1 and the R tags mark reconstructed legacy values. The caveat appears only in evidence[2] and open[3], not on the sources themselves, so a builder reading the sources alone would take 1266/957 as observed prices.", "fix": "Keep the prices (checked: stores.json:560 gives item 2012, category 101, purchase 1266, member 1139; lines 563-564 give items 2018 and 2019, category 101, purchase 957, member 861), but label each source as a reconstructed (R-tagged) coin store row, per stores.json source_tags."}]}

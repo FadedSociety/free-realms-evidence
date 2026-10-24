@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cscraggle-vine-18605-v1-world-r2 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3407, 6514, 6, 831] model=claude-haiku-5-5 -->
+# Scraggle Vine
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources with retired null and live 'unsure' is consistent with the pack. My own checks found no wiki page, article, video, vendor, quest or drop naming Scraggle Vine. The only hits are the locale string (18605) and the name in the community ClientItemDefinitions.json 'Comment' fields and locale .dat files, which are client-definition labels, not acquisition sources.", "fix": "No change required. The 'crafting' and 'harvest' guesses are correctly kept out of sources and listed under open. Optional: note in open that the ClientItemDefinitions.json 'Comment' entries (e.g. Lxzxrus-Free-Realms-Server, Sanctuary) confirm the name only, not a source."}]}

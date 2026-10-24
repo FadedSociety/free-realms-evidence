@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ifantastic-boots-v2-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3686, 4470, 6, 926] model=claude-haiku-5-5 -->
+# Fantastic Boots
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 49/44 mapping is left open, which is honest. The wiki text is blank in the price sentence, so neither figure is confirmed as regular or Member. The 10% arithmetic (49 to 44) fits but does not prove it.", "fix": "Keep the price open as 49 and 44 Station Cash, unassigned. Do not state which is regular until a source names it. Wiki Fantastic_Boots (rev 36930) and HeroRealms_Month both confirm the Station Cash Marketplace sale, Week #2 01/21/2014."}, {"field": "retired", "issue": "Null is correct. No end date appears in the wiki or the HeroRealms Month page, and the item is not marked retired anywhere.", "fix": "No change needed."}]}

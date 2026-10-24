@@ -1,0 +1,28 @@
+{
+ "title": "Welcome Back free game time",
+ "names_seen": [
+  "Welcome Back free game time"
+ ],
+ "facts": [
+  {
+   "statement": "Members with an active Station.com account before 2 May 2011 received 45 days of free game time added to their account.",
+   "numbers": {
+    "free_days": 45
+   },
+   "era": "live",
+   "quote": "Nous avons ajouté 45 jours de jeu gratuit à votre compte.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2138",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2138",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A French-language SOE welcome-back news post for returning players, dated only as 'Posted 2 weeks, 3 days ago' (so roughly May 2011, not exact). It announces free game time for accounts active before 2 May 2011, a seven-day login gift series of free items, and extra gifts for lifetime members. Item names are given in French and are only loosely matched to client strings."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

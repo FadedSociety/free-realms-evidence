@@ -1,0 +1,40 @@
+{
+ "title": "Haiti Charity Drive",
+ "names_seen": [
+  "Haiti Charity Drive"
+ ],
+ "facts": [
+  {
+   "statement": "SOE offered items priced at 500 Station Cash on the Station Marketplace for EverQuest, EverQuest II and Free Realms as Haiti earthquake relief support.",
+   "numbers": {
+    "item_price_station_cash": 500
+   },
+   "era": "live",
+   "quote": "SOE will be offering items priced at 500SC on the Station Marketplace through EverQuest, EverQuest II, and Free Realms.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=870",
+   "date": null
+  },
+  {
+   "statement": "Redeeming 500 Station Cash toward one of the drive's items during January 15-18, 2010 (up to 11:59pm PST on January 18) made SOE contribute $10 to Haiti relief.",
+   "numbers": {
+    "station_cash_redeemed": 500,
+    "donation_usd_per_purchase": 10,
+    "donation_cap_usd": 25000
+   },
+   "era": "live",
+   "quote": "redeem 500 station cash towards the purchase of one of these items and SOE will contribute $10 (up to $25,000)",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=870",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=870",
+   "date": null,
+   "title": "Haiti Charity Drive",
+   "summary": "An SOE news post (captured as the 'Free Realms - What is New?' page on 2010-01-20) announcing a Haiti earthquake relief drive. Free Realms is one of three SOE games (with EverQuest and EverQuest II) whose Station Marketplace items priced at 500 Station Cash count toward the drive. The article names no specific Free Realms item, and its exact posting date is not stated."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

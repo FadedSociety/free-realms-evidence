@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgreat-velocity-jersey-123200-v2-evidence-r3 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4344, 6435, 6, 1808] model=claude-haiku-5-5 -->
+# Great Velocity Jersey
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1].detail", "issue": "The 9,453 coin source rests on store rows for items 43208 and 43215 (tint groups 2 and 3). I confirmed those rows at stores.json:8019-8020 with purchase_price_coins 9453 and member_price_coins 8507, and the pack's definition list includes both IDs. But no locale or name check ties 43208 or 43215 to 'Great Velocity Jersey' directly; the link is only through the ID family 43201 to 43278 in the client definition.", "fix": "Keep the source, but state that the tint 2 and 3 rows (43208, 43215 at 9453 / member 8507) are attributed to the jersey by definition-ID family only, not by a direct name match. Price and currency are correct as written."}]}

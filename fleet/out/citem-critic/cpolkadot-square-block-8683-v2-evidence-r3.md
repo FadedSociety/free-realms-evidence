@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpolkadot-square-block-8683-v2-evidence-r3 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[15096, 11634, 8, 1189] model=claude-haiku-5-5 -->
+# Polkadot Square Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].source", "issue": "Minor omission: the answer cites only the repo stores.json row. Two other reference files also place item 32669 in CoinStoreItems with CategoryId 147 (refs: FreeRealms-Legacy/src/Resources/CoinStoreItems.json:37499 and Sanctuary-PS3-20261009/src/Resources/CoinStoreItems.json:963). This corroborates the category, not the price.", "fix": "Add the CoinStoreItems.json category-147 row as a supporting source for the category claim. Keep the 5-coin price sourced only to stores.json:8300 and the client coin_store_prices [5]. Neither reference file gives a price."}]}

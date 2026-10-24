@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-air-necklace-96544-v2-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3457, 9997, 6, 831] model=claude-haiku-5-5 -->
+# Shiny Air Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live / retired", "issue": "The answer leaves live as 'unsure' and retired as null. That is honest given the pack, but the answer does not say whether the item is retired or live. Nothing in the pack shows a release, so null is correct; no clearly evidenced source is omitted.", "fix": "No change required. My own lookups (lookup across client, wiki, articles, video; refs search for 31138, 96544 and 'Shiny Air') returned only client locale 96544 and no wiki, article, video or vendor hit. The first-pass 'live: yes, source: unknown' stays unsupported and should not be used."}]}

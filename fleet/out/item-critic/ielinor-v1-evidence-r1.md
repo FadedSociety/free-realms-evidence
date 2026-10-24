@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ielinor-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3607, 8686, 6, 1289] model=claude-haiku-5-5 -->
+# Elinor
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / sources", "issue": "Checked: 'Elinor' (locale 5101996) is tagged npc_name in the client text, and the wiki page calls her a human NPC merchant near the Shrouded Glade Pet Park. The repo's npcs/shrouded_glade.json:14577 and vendors.json:29470 both model her as an NPC vendor. The answer's claim that this is an NPC, not an item, holds. No item sources are recorded, which is correct.", "fix": "No correction needed for the core claim. Optional tightening: the wiki Merchants page says 'near the Shrouded Glade Pet Center' while her own page says 'Pet Park'; the answer cites only the Park wording, so it could note the discrepancy (the repo's notes already flag both as the same area)."}]}

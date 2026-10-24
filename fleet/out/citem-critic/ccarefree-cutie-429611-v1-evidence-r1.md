@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccarefree-cutie-429611-v1-evidence-r1 status=no_submit turns=3 usd=0.0013 tokens(read,write,in,out)=[8011, 5408, 8, 1038] model=claude-haiku-5-5 -->
+# Carefree Cutie
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Cheeky Fridays claim checks out. stores.json has 77684, 79506 and 79507 at purchase_price_coins 270 in category 103. But the repo path is prototype/osfr-tools/data/content/stores.json, not data/content/stores.json as cited. The citation is a path error only.", "fix": "Cite prototype/osfr-tools/data/content/stores.json:16767-16769 for the 270-coin rows (item_ids 77684, 79506, 79507, category 103)."}, {"field": "evidence[0]", "issue": "The no-price claim holds. No row for 77683 exists in stores.json, and the client lookup returns only locale:429611 for the name. Nothing in the pack contradicts the item being unsourced.", "fix": "None needed."}]}

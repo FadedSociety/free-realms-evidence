@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-310 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2905, 4, 597] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is only a vBulletin shell from the Free Realms fan forum: a 'maximum number of posts you can view' error banner, login and navigation, a forum index, and a footer. It contains no thread title, post body, guide, or game facts, so there is nothing here for the rebuild to record.", "facts": [], "quests": [], "uncertain": ["The thread at t=310 did not load; the capture shows only the 'Free Realms Forums Error' banner and forum navigation, so the intended thread content is unknown.", "The page shows a capture date of 2009-07-08 and a forum index, but no dated post or author, so no date or author could be assigned."]}

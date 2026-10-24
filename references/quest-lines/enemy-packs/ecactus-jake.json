@@ -1,0 +1,70 @@
+{
+ "title": "Cactus Jake",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\sandscale_oasis.json"
+  },
+  {
+   "file": "dungeons\\sandscale_oasis.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:407534 [npc_name | Sandscale Oasis | Cactus Jake] 'Cactus Jake'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:407534 [npc_name | Sandscale Oasis | Cactus Jake] 'Cactus Jake'",
+  "locale:407535 [quest_objective | Sandscale Oasis | Cactus Jake] 'Click on a Bomb to pick it up, then use your Bomb Toss ability to throw it back!'",
+  "locale:408295 [quest_title | - | Cactus Jake] 'Defeat Cactus Bandits'",
+  "locale:410325 [quest_dialog | Sunstone Valley | Cactus Jake] 'Cactus Jake and his band of cactus outlaws have taken over this once tranquil manguana watering hole. Since the takeover, the Sandscale tribe of manguana have b'",
+  "locale:411010 [quest_objective | Sunstone Valley | Cactus Jake] \"You've got to head to the summit of Sandscale Oasis to knock out Cactus Jake!\"",
+  "locale:412538 [quest_dialog | - | Cactus Jake] 'If only Cactus Jake had left us alone!'",
+  "locale:412541 [quest_dialog | - | Cactus Jake] \"If I ever get my hands on Cactus Jake for spoiling our spring, I'll make him pay!\"",
+  "locale:436143 [npc_dialog | - | Cactus Jake] 'My thorns will protect me while my friends deal with you!'",
+  "locale:436146 [ability | - | Cactus Jake] \"Cactus Jake's Thorn Shield\"",
+  "locale:436147 [ability | - | Cactus Jake] \"Cactus Jake's Needles\"",
+  "locale:436148 [ability | - | Cactus Jake] \"Cactus Jake's Stomp\"",
+  "locale:436149 [item | - | Cactus Jake] 'Cactus Juice'",
+  "locale:436150 [ability | - | Cactus Jake] \"Cactus Jake's Thorns\"",
+  "locale:436372 [quest_dialog | - | Cactus Jake] \"Cactus Jake's thorns fall away!\""
+ ],
+ "client_cluster": [
+  "locale:407526 [quest_objective | Sandscale Oasis | Wade Shatterslag] 'Return to Wade Shatterslag'",
+  "locale:407527 [quest_objective | Sandscale Oasis | Wade Shatterslag] 'Inform Wade Shatterslag of your success.'",
+  "locale:407530 [ability | Sandscale Oasis | Call Tornado] 'Call Tornado'",
+  "locale:407531 [other | Sandscale Oasis | Call Tornado | FLAG dev_note: internal note with zone and level] 'sandscale oasis 317 - summon tornado'",
+  "locale:407532 [ability | - | Lightning Breath] 'Lightning Breath'",
+  "locale:407533 [other | Sandscale Oasis | - | FLAG dev_note: internal note with zone/level tag (sandscale oasis 317 - drake aoe breath attack)] 'sandscale oasis 317 - drake aoe breath attack'",
+  "locale:407534 [npc_name | Sandscale Oasis | Cactus Jake] 'Cactus Jake'",
+  "locale:407535 [quest_objective | Sandscale Oasis | Cactus Jake] 'Click on a Bomb to pick it up, then use your Bomb Toss ability to throw it back!'",
+  "locale:407536 [npc_name | Sandscale Oasis | Wade Shatterslag] 'Wade Shatterslag'",
+  "locale:407537 [npc_name | Sandscale Oasis | 'Tip Top' Tommy] \"'Tip Top' Tommy\"",
+  "locale:407538 [npc_name | Sandscale Oasis | Griff] 'Griff'",
+  "locale:407539 [npc_name | Sandscale Oasis | Boril Greybeard] 'Boril Greybeard'",
+  "locale:407540 [npc_name | Sandscale Oasis | Bronn Greybeard] 'Bronn Greybeard'",
+  "locale:407541 [npc_name | Sandscale Oasis | Amaran Ridgerider] 'Amaran Ridgerider'",
+  "locale:407542 [npc_name | Sandscale Oasis | Finnerty Windchaser] 'Finnerty Windchaser'"
+ ],
+ "wiki": {
+  "title": "Cactus Jake",
+  "text": "Cactus Jake is an enemy NPC boss that can be found in the Sandscale Oasis, located in Sunstone Valley. He is the leader of a band of cactus outlaws.\n\nSandscale Oasis\nCactus Jake and his Cactus Outlaws have taken over the manguana watering hole. While lacking hydration, the Sandscale manguana tribe have become aggressive and began attacking travelers and residents.\n\nTCG\n220px|right\n\nOn March 21, 2013, a Trading Card Game Hero card was introduced based on Cactus Jake in the Series 5 Rumbledome! Expansion. The card's ID is 5U1.\n\nAppearances\nSandscale Oasis\nTrading Card Game\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Males\nCategory:Cactoid\nCategory:Sunstone Valley"
+ },
+ "images": [
+  "image (image:art_or_promo): 5\nCactus Jake\nHero, Plant\n6\n5\nI get +1 attack for each card in\nmy score pile.\n5U1\nIllus.: Imaginary Friends"
+ ],
+ "video": [
+  "video:rWTxDOHv-eY/00052.jpg (-): npcs: Cactus Jake dialog_header  Sandscale Scavenger nameplate  | dialog: Cactus Jake: My thorns will protect me while my friends deal with you! | quest:   Defeat Cactus Jake Bonus: Defeat Cactus Bandits - 0/10?  | landmarks: Purple-lit desert hollow with cacti | job_level: Arche",
+  "video:rWTxDOHv-eY/00180.jpg (-): npcs: Cactus Jake dialog_header  | dialog: Cactus Jake: My thorns will protect me while my friends deal with you! | quest:   Defeat Cactus Jake Bonus: Defeat Cactus Bandits - 4/10  | job_level: Archer 13 | other_text: Goals (2)",
+  "video:rWTxDOHv-eY/00054.jpg (-): npcs: Cactus Jake dialog_header  | dialog: Cactus Jake: My thorns will protect me while my friends deal with you! | quest:   Defeat Cactus Jake Bonus: Defeat Cactus Bandits - 0/10  | job_level: Archer 13 | items_seen: Coyote Juice Bottle | other_text: You receive 1 Coyote Juice B",
+  "video:rWTxDOHv-eY/00058.jpg (-): npcs: Cactus Jake dialog_header  Sandscale Scavenger nameplate  | dialog: Cactus Jake: My thorns will protect me while my friends deal with you! | quest:   Defeat Cactus Jake Bonus: Defeat Cactus Bandits - 0/10?  | landmarks: Purple-lit desert hollow with cacti | job_level: Arche",
+  "video:rWTxDOHv-eY/00034.jpg (-): quest:   Defeat Cactus Jake Bonus: Defeat Cactus Bandits - 0/10  | job_level: Archer 13 | other_text: You don't have enough energy for that ability! Goals (2)"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

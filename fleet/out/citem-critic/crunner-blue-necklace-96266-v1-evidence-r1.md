@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crunner-blue-necklace-96266-v1-evidence-r1 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3531, 10545, 6, 1128] model=claude-haiku-5-5 -->
+# Runner Blue Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "The cluster note is incomplete. The client also has the full Anata's necklace family, Anata's Blue, Green, Grape, Yellow and Mustard Necklace (96256 to 96260), alongside Anata's Orange Necklace (96261). The answer cites only 96261 as the sibling, so the family is under-described. This does not change the verdict.", "fix": "Cite locale:96256 through locale:96261 for the Anata's Necklace family (six items, same colour set as the Runner necklaces at 96266 to 96271), and keep the note that the link to a set or promotion is unsourced. Source: locale lookup for 'Anata' in the client text table."}]}

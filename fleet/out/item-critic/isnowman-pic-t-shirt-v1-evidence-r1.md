@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isnowman-pic-t-shirt-v1-evidence-r1 status=done turns=4 usd=0.0015 tokens(read,write,in,out)=[13184, 5951, 10, 1310] model=claude-haiku-5-5 -->
+# Snowman Pic T-Shirt
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 149/134 figures are only in the wiki's structured station_cash field; the visible page prose is blank. The answer discloses this, so it is a caveat rather than an error. Corroboration is indirect: the 10/22/13 weekly update lists other Player Studio shirts at [149 Station Cash], which fits the 149 regular price.", "fix": "No change required. Keep the caveat. Optionally cite the User blog:Soe amnerys/Weekly Update - 10/22/13 as a price comparison for other Player Studio shirts at 149."}]}

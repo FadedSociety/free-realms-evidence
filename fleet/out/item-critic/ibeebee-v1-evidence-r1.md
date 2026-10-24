@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibeebee-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3109, 5674, 6, 1256] model=claude-haiku-5-5 -->
+# Beebee
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "Minor: the record labels Beebee kind 'other' while every evidence line says she is an NPC (locale 101207 tagged npc_name; wiki categories NPC/Females/Pixie/Seaside; repo NPCs - Seaside.md:144 lists her as a Brain Freeze target). Nothing in the evidence supports an item kind.", "fix": "Mark this brief as not an item (no acquisition to wire) or as an NPC name entry, per the wiki page (rev 45516) and locale:101207 npc_name tag. Checked: locale 101195 is 'Give Beebee a Brain Freeze!' (a quest objective), and the repo line 144 and line 312 say the giver and zone are unknown, as the answer states."}]}

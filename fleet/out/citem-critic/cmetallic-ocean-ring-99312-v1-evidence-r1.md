@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmetallic-ocean-ring-99312-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3857, 8136, 6, 986] model=claude-haiku-5-5 -->
+# Metallic Ocean Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3].claim", "issue": "Says the repo search for 'Metallic Ocean Ring' found nothing relevant. In the refs root, the name does appear in community-server and locale data: Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json (line ~656466, Comment 'Metallic Ocean Ring') and the locale .dat files. These are client definition hits only, with no acquisition source, so the conclusion (no source) still holds, but the wording overstates what was checked.", "fix": "Say: the name appears only in client definition/locale dumps (ClientItemDefinitions.json line ~656466; en_us_data.dat), with no vendor, quest, drop, or wiki source. Acquisition remains unknown."}]}

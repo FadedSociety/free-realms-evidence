@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cangler-s-livebox-ring-30630-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3823, 8924, 6, 1038] model=claude-haiku-5-5 -->
+# Angler's Livebox Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' with no sources, which is the honest state. My lookups found no wiki page, article fact, video frame, quest reward, or store row for Angler's Livebox Ring (client, wiki, articles and video return only the locale lines locale:8340, 30628, 30629, 30630). The refs and repo search turn up only the Fisherman.md guide line naming it in the shard family.", "fix": "No change needed. Keep sources empty, retired null and live 'unsure' until a Fisherman collection page, fishing reward table or quest names this ring. The 'Fisherman Shards', 'Fisherman Accessories' and 'Fisherman Gear' collections stay unconfirmed as holders."}]}

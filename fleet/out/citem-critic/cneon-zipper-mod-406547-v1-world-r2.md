@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cneon-zipper-mod-406547-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3703, 8244, 6, 942] model=claude-haiku-5-5 -->
+# Neon Zipper Mod
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / live", "issue": "The answer is an honest unknown: sources is empty, retired is null, live is 'unsure'. My own lookups agree. The client has locale:406547 'Neon Zipper Mod' and sibling Zipper parts, but no wiki page, article, video, vendor or quest names it. Nothing in the pack contradicts this, so it passes as far as it goes.", "fix": "No change needed. A builder should not wire an acquisition for this item until a source appears. The client-side Zipper family (locale 406542-406549) should be checked as a group, as the answer's open list already says."}]}

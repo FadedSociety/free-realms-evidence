@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cveterinarian-l3-chest-105484-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3545, 4031, 6, 851] model=claude-haiku-5-5 -->
+# Veterinarian L3 Chest
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the scrubs chest model, vet textures, and L3/L4 icons appear in Assets_manifest.txt lines 27528-27531 and Images.txt lines 11632-11641 was not re-checked by this critic. The locale names in evidence[1] do check out (locale search returns 14, 15, 105204, 105449, 105484, 105934, 105969, 72013 with the stated names).", "fix": "Re-read client Assets_manifest.txt 27528-27531 and Resources/Images/Images.txt 11632-11641 to confirm, or drop the claim. It does not change the answer, since it is not offered as an acquisition source."}]}

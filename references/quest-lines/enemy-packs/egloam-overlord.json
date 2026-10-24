@@ -1,0 +1,67 @@
+{
+ "title": "Gloam Overlord",
+ "our_entries": [
+  {
+   "file": "encounters.json",
+   "name_id": 5101505,
+   "definition_id": 920110,
+   "model_id": 3956,
+   "max_health": 500,
+   "damage": 40,
+   "boss": true
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "name_id": 5101505,
+   "definition_id": 920110,
+   "model_id": 3956,
+   "max_health": 500,
+   "damage": 40,
+   "boss": true
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "definition_id": 920110
+  },
+  {
+   "file": "dungeons\\opening_cave.json",
+   "definition_id": 920110
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:5101505 [npc_name | - | Gloam Overlord] 'Gloam Overlord'",
+  "locale:5102911 [npc_name | - | Gloam Overlord] 'Gloam Overlord'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5101505 [npc_name | - | Gloam Overlord] 'Gloam Overlord'",
+  "locale:5101804 [quest_objective | Seaside | Gloam Overlord] 'Defeat Gloam Overlord'",
+  "locale:5102911 [npc_name | - | Gloam Overlord] 'Gloam Overlord'"
+ ],
+ "client_cluster": [
+  "locale:5101497 [quest_objective | - | Wugachug Queen] 'Talk to the Wugachug Queen'",
+  "locale:5101499 [quest_objective | - | Ninjawug Blademasters] 'Defeat Ninjawug Blademasters'",
+  "locale:5101501 [quest_objective | - | Ninjawug Archers] 'Defeat Ninjawug Archers'",
+  "locale:5101503 [quest_objective | - | Ninjawug invasion] 'Stop the ninjawug invasion.'",
+  "locale:5101505 [npc_name | - | Gloam Overlord] 'Gloam Overlord'",
+  "locale:5101506 [npc_name | - | Kai] 'Kai'",
+  "locale:5101507 [npc_name | - | Jintaka] 'Jintaka'",
+  "locale:5101508 [npc_name | - | Scavenger Swooper] 'Scavenger Swooper'",
+  "locale:5101509 [npc_name | - | Lazy Swooper] 'Lazy Swooper'",
+  "locale:5101510 [place | - | Rock Barrier] 'Rock Barrier'"
+ ],
+ "wiki": {
+  "title": "Gloam Overlord",
+  "text": "  \nThe Gloam Overlord is an NPC featured as the antagonist of Free Realms. He has come to Sacred Grove to cause danger and harm to its people. The player must help Darkthorne defeat him and defend the Cobblestone Village from his evil forces. The Gloam Overlord and his will lieutenants try to corrupt the various regions of Free Realms, when a new evil appears, the player must defeat them.\n\nHistory\nNot much is known about him. But it is known that he is the leader of the Gloam and caused the battle in Shrouded Glade, and now he is causing harm to the Cobblestone Village.\n\nCobblestone Village\nNow that the Gloam Overlord had come to the Cobblestone Village, he sent his forces to wreak havoc on its citizens. And Darkthorne has sent the player there to help and defeat the Gloam in the village. But soon enough, he will cause more harm, and its up to the player to save Sacred Grove.\n\nDialogues\n\nAppearances\nFree Realms Issue 6 (indirectly mentioned)\nThe Queen's Last Hope (indirectly mentioned)\nBriarwood Caverns (debut)\n\nGallery\n\nCategory:NPC\nCategory:Males\nCategory:Gloam\nCategory:Briarwood\nCategory:Gloam Invasion"
+ },
+ "images": [
+  "image (image:art_or_promo): Darkthorne\nNeeds\nYour Help\nTo Fight\nThe Gloam\nOverlord!",
+  "image (image:art_or_promo): Darkthorne\nNeeds\nYour Help\nTo Fight\nThe Gloam\nOverlord!"
+ ],
+ "video": [],
+ "article_facts": [
+  "fact:npc: The Gloam Overlord is the first big bad guy revealed by Hero Rises, and his lieutenants will try to corrupt the regions of Free Realms over the rest of the year. | The first release will reveal of our first big bad guy known as the Gloam Overlord. (http://www.freerealms.com:80/article/detail.action?articleId=2875)",
+  "summary: SOE announces Hero Rises, a new storyline feature that releases story chapters gradually over time with new content and items. The first release is a tutorial for new players introducing movement, combat and the UI, and it introduces the Hero's Journal, which  (http://www.freerealms.com:80/article/detail.action?articleId=2875)"
+ ],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,12 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-077-rs-L1 status=nothing_found turns=5 usd=0.0088 tokens(read,write,in,out)=[65088, 28918, 12, 9041] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_077.rs lines 1-800 of 1346
+
+No reportable defects in `prototype/osfr-tools/src/restoration/piece_077.rs` lines 1-800.
+
+What I checked:
+
+- **Client-facing decoders are bounds-safe.** `ZoneTeleportRequest::decode` (line 173), `WorldTeleportRequest::decode` (208), `ZoneSafeTeleportRequest::decode` (193) and `UpdateLocation::decode_message`/`decode_body` (236-288) all call `expect_exact` first, so the later `try_into().unwrap()`, `message[..2]` and `body[offset]` indexing cannot go out of range. `read_i32`, `read_f32` and `read_ascii_string` (66-115) use `checked_add` and `body.get(..)`, and reject negative lengths. Nothing here allocates from a client count.
+- **Reply decoders are not reachable from clients.** `decode_point_of_interest_reply` (401), `decode_point_of_interest_message` (356) and `strip_optional_length_prefix` (417) are called only from `tests/`. The `strip_optional_length_prefix` heuristic could misparse a bare stream whose first four bytes happen to equal the remaining length, but no client input reaches it, so I did not report it.
+- **Client input reaches the window only through the registry.** `ZoneTeleportRequest::decode` is called at line 1170 in `WarpRegistry::zone_teleport` (outside my window). There, the id is looked up with `destination(id)`, rejected if unknown, non-warpstone or not attuned, and checked against the context and cooldown before `last_travel_ms` is set. I found no mutation before a failing `?`.
+- **Captured and curated data.** I checked the hex in `CAPTURED_TELEPORT_SAMPLES` (line 498) byte by byte: it is 36 bytes, and the position, rotation, teleport and trailer fields decode as the comments say. `CURATED` has eight hubs with ids 3-10 plus id 15, which matches its doc comment. `curated_destination` (814) prefers the captured spawn for ids 9 and 15, which is intended and documented.
+- **Smaller observations, not defects.** The captured position for id 9 differs from the curated row by about 2 cm. The `TrailingBytes` error in `decode_point_of_interest_message` (391) has its `expected`/`got` fields swapped in meaning. The `WarpDestination.name` doc says "locale text" but the captured rows use "captured". None of these changes behaviour a player can trigger.

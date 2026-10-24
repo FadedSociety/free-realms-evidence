@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctrophy-racing-decal-89964-v2-evidence-r3 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3837, 7752, 6, 931] model=claude-haiku-5-5 -->
+# Trophy Racing Decal
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim that the wiki Items list has a separate 'Trophy [Derby] [Decal]' entry is not visible in my lookup. The snippet shows '[Trophy] Derby [Decal]' and other Derby decals, with no 'Trophy [Derby] [Decal]' row. The claim may be right, but it is unverified here and is not needed for the answer.", "fix": "Cite only the '[Trophy] Derby [Decal]' wiki row (Items page), which matches locale 89940 'Trophy Derby Decal', or re-check the full Items page for the second entry before stating it."}]}

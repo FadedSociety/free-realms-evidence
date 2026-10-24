@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crusty-spoon-1320-v2-world-r2 status=no_submit turns=2 usd=0.0020 tokens(read,write,in,out)=[3845, 10974, 6, 1098] model=claude-haiku-5-5 -->
+# Rusty Spoon
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].source", "issue": "The cited range repo:collection_catalogue.json:1428-1508 is accurate for collection 34 and entry 3, but the entry's item_link 'sanctuary' is not carried into the source record. It is only mentioned as an open question, so a reader cannot tell that the membership data came from Sanctuary-linked data.", "fix": "Note in the source record that collection 34 entry 3 (item_definition_id 3172, name_id 1320) has item_link 'sanctuary' (collection_catalogue.json:1461-1462). This is a provenance note, not a new acquisition source."}]}

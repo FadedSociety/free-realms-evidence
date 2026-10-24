@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-sun-ring-89373-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3496, 4656, 6, 838] model=claude-haiku-5-5 -->
+# Faded Sun Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer correctly leaves live as 'unsure', but the pack's first-pass tag live='yes' and source_guess='event' are not evidence. My lookups also found nothing tying Faded Sun Ring to any source, so the answer's empty sources are the honest state.", "fix": "Keep live as 'unsure' and sources empty until a source is found. Do not promote the first-pass 'event' guess to a source. (Checked: lookup client returns only locale:89373 for 'Faded Sun Ring'; 'Faded Ring' hits are the sibling client names 89294-89302 and 89370, with no wiki, vendor or quest rows; repo search for 'Faded|89373' hits only unrelated notes.)"}]}

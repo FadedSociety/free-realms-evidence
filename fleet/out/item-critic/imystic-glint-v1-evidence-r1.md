@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imystic-glint-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3435, 8202, 6, 1074] model=claude-haiku-5-5 -->
+# Mystic Glint
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The news line is accurately quoted (Game Update 122.1, 12/04/2013, Mystic Glint listed among NPCs whose store interactions were returned to coin merchant types). But the answer leaves the reader to infer that this is only NPC behavior. The news says nothing about which items, prices or currency that NPC sells, so it does not make Mystic Glint a coin-vendor item source.", "fix": "Keep the claim as stated: the wiki news (Template:News, Game Update 122.1, 12/04/2013) names Mystic Glint as a coin merchant type, and no item, price or stock row for it appears in the wiki, client or repo. Say explicitly that the news adds no item source."}]}

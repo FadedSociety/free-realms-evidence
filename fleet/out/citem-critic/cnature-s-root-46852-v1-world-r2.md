@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cnature-s-root-46852-v1-world-r2 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[9240, 6509, 8, 1178] model=claude-haiku-5-5 -->
+# Nature's Root
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail / evidence", "issue": "Minor: the trade-only claim is a generic statement. The wiki's Blue Text weapon page says Blue Text weapons 'are currently only acquired through trade', so the item-page statement is backed by a category-level claim too. The answer's citation of the item page is accurate and the source is evidenced, so this is a strengthening note, not an error.", "fix": "Optionally cite the Blue Text weapon wiki page as corroboration (lookup: 'Blue Text weapon' page, 'currently only acquired through trade')."}]}

@@ -1,0 +1,47 @@
+{
+ "title": "Tideweaver Oceana",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\cray_caves.json"
+  },
+  {
+   "file": "dungeons\\cray_caves.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:76366 [npc_name | - | Tideweaver Oceana] 'Tideweaver Oceana'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:76366 [npc_name | - | Tideweaver Oceana] 'Tideweaver Oceana'",
+  "locale:76857 [quest_objective | - | Tideweaver Oceana] 'Defeat Tideweaver Oceana!'",
+  "locale:76858 [quest_objective | - | Tideweaver Oceana] 'Find and defeat Tideweaver Oceana!'",
+  "locale:431704 [npc_dialog | - | Tideweaver Oceana] 'Tideweaver Oceana is gathering energy!'"
+ ],
+ "client_cluster": [
+  "locale:76359 [quest_objective | Sanctuary | Snowberry Soup] 'Please get some Snowberry Soup from Bordon Cloo here in Sanctuary.'",
+  "locale:76361 [quest_objective | Briarwood | Snowberry Soup] 'Please take the Snowberry Soup to my grandson, Sven in Briarwood. Please hurry before it gets cold. Nothing worse that cold Snowberry Soup!'",
+  "locale:76363 [quest_objective | - | Tormented spirits] 'Tormented spirits are attacking travelers! Go in and put them to rest!'",
+  "locale:76366 [npc_name | - | Tideweaver Oceana] 'Tideweaver Oceana'",
+  "locale:76367 [quest_dialog | - | Jane] 'Oh, those miners are always hurting themselves. '",
+  "locale:76369 [npc_name | - | Kelp Knight Oseidon] 'Kelp Knight Oseidon'",
+  "locale:76370 [quest_dialog | - | Jane] \"That's why good ol' Jane is here to patch them up!\"",
+  "locale:76373 [place | - | Tombstone] 'Tombstone'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Tideweaver Oceana"
+ ],
+ "video": [
+  "video:BJy3sgpdqpw/00588.jpg (-): items_seen: Chunin Ninja Cowl Soke Ninja Cowl Sensei Ninja Cowl Nusumi Ninja Cowl Shinobi Ninja Cowl Flying Dragon Cowl Nokizaru Ninja Cowl Sekkou Ninja Cowl | other_text: Tideweaver Oceana",
+  "video:BJy3sgpdqpw/00590.jpg (Tideweaver Oceana): landmarks: orange coral underwater scene | items_seen: Balloon Sword Elitist's Sword Magical Essence Shadowblade New School Dragon Blade New School Storm Breaker Ninja's Shadow Blade of Deception Ninja's Shadow Blade of Dragonstrike Ninja's Shadow Blade of Flame Wave Ninja's Shad"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

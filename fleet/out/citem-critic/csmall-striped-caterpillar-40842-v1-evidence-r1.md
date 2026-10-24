@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmall-striped-caterpillar-40842-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[11875, 11271, 8, 1354] model=claude-haiku-5-5 -->
+# Small Striped Caterpillar
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "The answer labels the item kind 'collection', but the item is a collection member (its description says it 'can be added to the Striped Caterpillars Collection'), not the collection itself. The label is a mild misclassification, not a sourcing error.", "fix": "Use a member or collection-entry kind for 3626 (e.g. 'collection_item'), keeping the collection 'Striped Caterpillars' (wiki:5:153) as its parent. Evidence: locale:40842 and locale:132339 in the client text table."}]}

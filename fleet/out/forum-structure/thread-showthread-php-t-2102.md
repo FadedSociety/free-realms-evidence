@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-t-2102 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2900, 4, 526] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This Wayback copy is a vBulletin error page from freerealmsforums.com, not a thread or article. It shows only a 'maximum number of posts you can view' registration prompt plus forum navigation and board names. It contains no statements about how Free Realms played, so nothing is recorded for the rebuild.", "facts": [], "quests": [], "uncertain": ["The captured page is a forum error screen with no thread body, so the intended thread (threadid t=2102) could not be read.", "The page date is 2009-06-03 by capture, not by any posted date; no post date is visible."]}

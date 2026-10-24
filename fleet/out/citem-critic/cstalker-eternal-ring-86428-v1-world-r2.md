@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstalker-eternal-ring-86428-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3837, 9052, 6, 1213] model=claude-haiku-5-5 -->
+# Stalker Eternal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim that Stalker Dreadful Ring sits at 441950878 in the client table is not confirmed by my lookups. The client-table hits I found for the Stalker family use different hash-style ids (for example Stalker Eternal Ring at 1459344505 and 2074895540), and none of them is 441950878. This is a side detail and does not change the answer.", "fix": "Drop the 441950878 reference or cite the exact file and line where it appears. The locale 86423-86430 cluster matches the pack's client_cluster."}]}

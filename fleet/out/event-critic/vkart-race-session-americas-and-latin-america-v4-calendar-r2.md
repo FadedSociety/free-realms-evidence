@@ -1,0 +1,4 @@
+<!-- fleet job=event-critic id=vkart-race-session-americas-and-latin-america-v4-calendar-r2 status=done turns=3 usd=0.0019 tokens(read,write,in,out)=[12057, 9392, 8, 1293] model=claude-haiku-5-5 -->
+# Kart race community event session (Americas and Latin America)
+
+{"lens": "calendar", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "activities", "issue": "Omits two live details from the same article 2048 entry in the refs facts file: players were asked to bring a helmet ('No olvides tu casco'), and a party was held outside the circuit for non-racers. These describe this gathering and belong in activities.", "fix": "Add to activities: 'Players were asked to bring a helmet; a party was held outside the circuit for those not racing' (refs articles/facts.json, article-2048, quote 'No olvides tu casco.'). Source: http://www.freerealms.com/article/detail.action?articleId=2048"}]}

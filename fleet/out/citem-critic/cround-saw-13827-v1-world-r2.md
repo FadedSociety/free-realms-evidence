@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cround-saw-13827-v1-world-r2 status=done turns=2 usd=0.0021 tokens(read,write,in,out)=[3598, 11627, 6, 1214] model=claude-haiku-5-5 -->
+# Round Saw
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open", "issue": "The open note says only the first tint (7140) of the 12 definitions has an explicit store row, but the sources field itself cites rows 7141 and 7142 as well. The two statements contradict each other. stores.json lines 1937-1938 do carry 7141 and 7142 at 3522 / member 3169 / resale 352, so the sources are right and the open note is stale.", "fix": "Say that rows 7140, 7141 and 7142 (tint groups 1-3) are present in stores.json (lines 1936-1938) at the same price. Only ids 7143-7151 and the other 'more' definitions remain unverified."}]}

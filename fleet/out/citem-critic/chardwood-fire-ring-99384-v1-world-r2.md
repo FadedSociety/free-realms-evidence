@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chardwood-fire-ring-99384-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3782, 7530, 6, 809] model=claude-haiku-5-5 -->
+# Hardwood Fire Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "open", "issue": "The answer is honest that no source was found. My own lookups agree: lookup returns only the client hit (locale:99384), and refs contain no wiki, article or video mention of the Hardwood Fire Ring. The only other hits are the same name in locale data files, which show no acquisition path.", "fix": "No change needed to sources. Optionally note that the locale data files list the sibling 'Hardwood Fire Necklace' and 'Jeweled Sun Necklace' as well, so the set-level check should cover those too."}]}

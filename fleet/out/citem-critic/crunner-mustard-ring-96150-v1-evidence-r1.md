@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crunner-mustard-ring-96150-v1-evidence-r1 status=done turns=6 usd=0.0034 tokens(read,write,in,out)=[51807, 16321, 14, 1708] model=claude-haiku-5-5 -->
+# Runner Mustard Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that Mandy's Farnum Farmstead race is a possible reward source is only a hypothesis. The cited notes file was not re-checked, and no client line, wiki page or video ties the rings to it. The answer already flags this as unknown, so this is a wording caveat, not a fault.", "fix": "Keep as an open question only. Nothing in the pack or my lookups (client, wiki, articles, video for 'Runner rings' and 'Runner Ring reward race') names a source for the Runner ring set."}]}

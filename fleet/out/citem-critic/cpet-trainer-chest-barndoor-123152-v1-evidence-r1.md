@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpet-trainer-chest-barndoor-123152-v1-evidence-r1 status=done turns=4 usd=0.0023 tokens(read,write,in,out)=[21879, 10725, 10, 1389] model=claude-haiku-5-5 -->
+# Pet Trainer chest barndoor
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] / open", "issue": "Minor: the 'only tier L1' and asset-name claim (pettrainer_L1_<slot>_<colour>) comes from the repo build note (Pet Trainer.md:231), not from a direct client lookup I could reproduce; my lookup only returned the three locale lines 123152-123154. The claim is accurately attributed to the repo note, so it is not a false source, but it is second-hand.", "fix": "Keep the attribution to repo:notes/Build Guides/Content/Jobs/Pet Trainer.md:231 as written. No change to sources needed."}]}

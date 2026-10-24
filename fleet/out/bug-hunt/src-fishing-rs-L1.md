@@ -1,0 +1,9 @@
+<!-- fleet job=bug-hunt id=src-fishing-rs-L1 status=done turns=8 usd=0.0114 tokens(read,write,in,out)=[145220, 37155, 18, 10689] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/fishing.rs lines 1-793 of 793
+
+I read `fishing.rs` lines 1-793 in full and traced the client-facing paths into `fishing_service.rs` (`handle`, lines 684-819). I found no high or medium defect. Every slice in the codec is guarded by `exact`, `body.get`, or `read_blob`, and I checked the `ResultBody` offsets by hand against the NaN test body (`tests/fishing.rs:183-209`, which sums to 74 bytes). The `Session` state changes happen after validation and ordering checks, so there is no mutate-then-fail path. One low-severity finding:
+
+- **[low] `prototype/osfr-tools/src/fishing.rs:28` (with `:496-498`) - `MAX_BODY` (512) is smaller than the largest result body the decoder accepts, so `ServerPacket::decode_known(Sub::Result, ..)` rejects some well-formed results with `Oversize`.**
+  - **Failure scenario:** a sub-14 body with a 74-byte fixed part plus three count-prefixed blobs of 256 bytes each (`read_blob` accepts each one, `:426-439`, against `MAX_BLOB`, `:30`) is 74 + 768 = 842 bytes. The check at `:496` returns `Oversize` for anything over 512, before `ResultBody::decode` runs. Blobs of roughly 439 bytes in total already fail.
+  - **Reach:** `decode_known` is called in `src/` only from tests (`tests/fishing.rs`, `tests/fishing_entry.rs`, `tests/fishing_service.rs`, and the `f120` gateway fixture). No production path feeds it client bytes. It is only reachable for server-built results, so this is a latent logic inconsistency, not a remote crash or a gain.
+  - **Fix:** raise the `decode_known` body cap for `Sub::Result` to 74 + 3 × `MAX_BLOB` (842), or check the length in `ResultBody::decode` only, and keep `MAX_BODY` for the opaque fallback.

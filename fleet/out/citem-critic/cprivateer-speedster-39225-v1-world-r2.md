@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cprivateer-speedster-39225-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4566, 5416, 6, 805] model=claude-haiku-5-5 -->
+# Privateer Speedster
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "The answer sets kind to 'other' while the first-pass tag says 'mount'. The answer's own open note flags this, and the evidence supports a racing-kart vehicle, not a mount. The schema gap is real but it is not a source error.", "fix": "Leave kind as 'other' with the vehicle note, or add a vehicle category. Do not use 'mount' without evidence."}, {"field": "retired", "issue": "retired is null and live is 'unsure'. Nothing in the pack or my check (locale, repo, wiki, articles, video) shows whether the kart is obtainable or retired, so the honest unknown is correct.", "fix": "Keep null/unsure until a store, quest or event row is recovered."}]}

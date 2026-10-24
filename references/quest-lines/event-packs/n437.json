@@ -1,0 +1,30 @@
+{
+ "title": "SOE Live 2012",
+ "names_seen": [
+  "SOE Live 2012"
+ ],
+ "facts": [
+  {
+   "statement": "More Player Studio details were to be announced at SOE Live, held October 18-21, 2012.",
+   "numbers": {
+    "event_start_day": 18,
+    "event_end_day": 21,
+    "year": 2012
+   },
+   "era": "pre_launch_plan",
+   "quote": "announcing more information and details about the Player Studio program at this years SOE Live event on October 18-21, 2012",
+   "article": "http://www.freerealms.com:80/player-studio-faq.vm",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/player-studio-faq.vm",
+   "date": null,
+   "title": "Free Realms - Player Studio FAQ",
+   "summary": "This SOE FAQ page describes the Player Studio program, in which players design in-game items for sale in the SOE Marketplace and receive a share of sales. Free Realms is one of four SOE games listed as slated to kick off the program, with more details promised at SOE Live (October 18-21, 2012). The page describes a planned program and does not detail any Free Realms item, quest or mechanic."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

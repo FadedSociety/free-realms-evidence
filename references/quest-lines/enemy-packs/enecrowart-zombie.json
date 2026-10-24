@@ -1,0 +1,27 @@
+{
+ "title": "Necrowart Zombie",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\necronomicus_unleashed.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Necrowart Zombie",
+  "text": "Were you looking for the pet pal?\n\nThe Necrowart Zombie is an enemy NPC that can be found mainly in Briarwood. It's appearance isn't much to be desired as they walk on all fours, frequently wheeze, are somewhat purple in pigmentation and have a mushroom growing out of their back.\n\nBattle\nNecrowart Zombies are mainly found wandering near the stream in Bristlewood, Briarwood and require a level 9 combat job to encounter. They also feature in some dungeons such as the Haunted Mines in Blackspore Swamp (which requires a level 13 combat job to enter) except they are referred to as Shamblers and do not have a mushroom growing out of their back. They also feature at Super Spooktacular when the Pumpkin Prince arrives. Sometimes the Pumpkin Prince will spawn a spawner which will spawn hostiles such as Grave Elementals and Necrowart Zombies.\n\nAlso if you own a level 11 or above farm you can purchase a fungus sprayer from the vending machine on your farm. This enables you to turn yourself and others into necrowart zombies. Also at Halloween if you are attacked by the Pumpkin Prince then a chance that you will turn into a necrowart zombie and lose your ectoplasmic shooter and will have to pick up another one once the effect has worn out.\n\nAppearances\nDen of Secrets\nMoldy Shamblers!\nDark Spore Depths\nBergram Stumpfinger's Ghost\nHaunted Mines\nFree Realms Issue 1 (mentioned)\nFree Realms Issue 2\nNecronomicus Unleashed\n\nGallery\nComic\n\nArtworks\n\nConcept Arts\n\nTrivia\nIn the Free Realms comic series, Necrowart Zombies are referred to as Spore Zombies.\nCategory:NPC\nCategory:Enemies\nCategory:Briarwood\nCategory:Bristlewood\nCategory:Blackspore\nCategory:Seasonal\nCategory:Super Spooktacular\nCategory:Comic"
+ },
+ "images": [
+  "image (image:item_tooltip): Fungal Sprayer\nEquip the Fungal Sprayer and spray your friends to turn them into a necrowart zombie.\nzombie.\n*Must own a Rank 5 Farm to buy.\nResell Value: 800\nEquippable State:\nYou Own: 0\nYou can use this right now.\nCannot Trade\nRequired: Level 1, Freestyle Jobs\nFungal Spray\nFungal Spray\nFungal Rain"
+ ],
+ "video": [],
+ "article_facts": [
+  "fact:pet: The Necrowart Zombie Pet Pal was added to the Coin Shop as a pet that follows the player. | The Necrowart Zombie Pet Pal is a disturbingly awesome creature to have follow you around! (http://www.freerealms.com:80/article/detail.action?articleId=1822)"
+ ],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iheat-lebron-james-jersey-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3523, 3993, 6, 914] model=claude-haiku-5-5 -->
+# Heat Lebron James Jersey
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 50 Station Cash price rests only on the wiki's structured station_cash field (rev 45770). The page body's price sentence is blank ('at the price of .'), and no second source or SC listing confirms it. The source is stated as a firm price, though the open list admits this.", "fix": "Keep 50 Station Cash but label it as coming from the station_cash infobox field only (freerealms.fandom.com rev 45770), not from body text or a listing. Confirm against an archived SC Marketplace page before treating it as verified."}]}

@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-soccer-rs-L1 status=done turns=6 usd=0.0064 tokens(read,write,in,out)=[63618, 21062, 14, 6232] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/soccer.rs lines 1-581 of 581
+
+Reviewed `prototype/osfr-tools/tests/soccer.rs` lines 1-581 against `prototype/osfr-tools/src/soccer.rs` (`Match::handle`, `apply_game_time`, `apply_goal`, `restart`, `reward_proposal`). Most tests are sound: the goal, restart, timeout, client-direction and possession-chain tests exercise real reducer transitions, and the ignored corpus test has a stated reason. The corpus per-sub counts sum to the pinned total of 2917. One finding:
+
+- **[medium] prototype/osfr-tools/tests/soccer.rs:481 authority_waits_for_messages_before_moving_the_ball - the ball fixture has zero velocity, so the "no invented ball physics" check cannot detect any physics step.**
+  - Why it cannot catch a regression: the fixture is `identity_ball([3.0, 1.0, 4.0], [0.0, 0.0, 0.0])` (line 485). A reducer change that integrates `velocity` into `ball_position` on each `UpdateGameTime` (line 490, elapsed 1.0) would compute a displacement of `velocity * dt = 0`, so `ball_position` stays equal to `before` and the test passes. The only other step is `ClientToServer` controls (line 492), and `handle` returns early for client packets (soccer.rs:837-843), so that step cannot move the ball whatever the reducer does. The test's claim therefore rests on zero motion, not on the server withholding motion.
+  - Fix: give the ball a non-zero velocity, e.g. `identity_ball([3.0, 1.0, 4.0], [1.2, 2.5, -0.4])`, and advance the clock by several seconds (e.g. `vec_time(110.0, 5.0)` after the start) before asserting `game.ball_position() == before`. Keep the client-controls step, but treat it as the separate direction check it is.
+
+- **[low] prototype/osfr-tools/tests/soccer.rs:345-346 possession_chain_tracks_acquire_and_free_ball - the first position assertion is circular.**
+  - Why it cannot catch a regression: `last_free` was built by `encode` from the literal `[5.5, 1.25, 6.0]` (line 325), so `decode(...).packet.position` checked against the same literal only tests the codec's float round trip. A change to the reducer cannot affect it.
+  - Fix: drop the line 345 check. Keep line 346, which reads the reducer state, and add a per-step check of `game.ball_position()` against the FreeBall position inside the loop, so an intermediate ball-position regression is caught.

@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=isingle-hoop-earrings-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3506, 4108, 6, 816] model=claude-haiku-5-5 -->
+# Single Hoop Earrings
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The 'suggesting limited availability' reading of 'Enjoy them as soon as they last!' and the 14 rare colors is an inference, not a stated retirement or limited-run fact. The answer does mark live as 'unsure', so this is a weak overreach rather than a failure.", "fix": "Keep the quote verbatim and drop the 'suggesting limited availability' gloss, or flag it as the author's reading. Wiki File:Single Hoop Earrings.png text: 'you can pick out of 14 rare colors! Enjoy them as soon as they last!'"}]}

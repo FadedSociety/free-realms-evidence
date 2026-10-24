@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchrono-cupcake-96706-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3737, 4295, 6, 833] model=claude-haiku-5-5 -->
+# Chrono Cupcake
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the 'Chrono' family is larger than the answer's cluster note implies. The client text table also has 'Members Only Chrono Muffin' (393505), a membership-type sibling that a reviewer would expect to be checked alongside the Chrono food items. The answer does not mention it, though it is a different item and does not change this answer's conclusion.", "fix": "Optionally add to the open lead: check locale 393505 'Members Only Chrono Muffin' and the other Chrono items (96628-96651) for a shared event, membership or promotion source (locale text table, sources checked by the author)."}]}

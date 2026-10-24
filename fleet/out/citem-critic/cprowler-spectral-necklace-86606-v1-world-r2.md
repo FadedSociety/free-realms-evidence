@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cprowler-spectral-necklace-86606-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3668, 8741, 6, 974] model=claude-haiku-5-5 -->
+# Prowler Spectral Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission of context: the Prowler necklace family has matching Prowler Ring variants in the client (e.g. Prowler Spectral Ring locale 810914993, Prowler Eternal Ring 837197350, Prowler Celestial Ring 1536315313, Prowler Infernal Ring 695013764 in the locale data). The answer never mentions them. This is not a source, but a builder comparing the family would want it.", "fix": "Note in open/evidence that the Prowler family also includes rings (locale data in opening-anvil-placement-v1/locale/en_us_data.dat), with no acquisition source found for any of them either."}]}

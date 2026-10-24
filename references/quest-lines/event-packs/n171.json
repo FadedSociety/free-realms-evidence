@@ -1,0 +1,40 @@
+{
+ "title": "3M Pet Party Pack",
+ "names_seen": [
+  "3M Pet Party Pack"
+ ],
+ "facts": [
+  {
+   "statement": "SOE granted the 3M Pet Party Pack, filled with pet goodies, to each of the first three million Free Realms registrants.",
+   "numbers": {
+    "eligible_players": 3000000
+   },
+   "era": "live",
+   "quote": "SOE will grant its first three million Free Realms registrants the \"3M Pet Party Pack\"",
+   "article": "http://www.tentonhammer.com:80/node/69709",
+   "date": "2009-06-12"
+  },
+  {
+   "statement": "Players had until June 19, 2009 at 11:59 PM PDT to redeem the 3M Pet Party Pack.",
+   "numbers": {
+    "deadline_month": 6,
+    "deadline_day": 19,
+    "deadline_year": 2009
+   },
+   "era": "live",
+   "quote": "Players have until Friday June 19, 2009 (11:59 PM PDT) to redeem",
+   "article": "http://www.tentonhammer.com:80/node/69709",
+   "date": "2009-06-12"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/69709",
+   "date": "2009-06-12",
+   "title": "Free Realms Celebrates 3 Million Users",
+   "summary": "A Ten Ton Hammer repost of SOE's June 12, 2009 press release announcing that Free Realms passed three million registered users within seven weeks of its April 28, 2009 launch. It gives the 3M Pet Party Pack reward and its redemption deadline, plus launch-period figures such as weekly sign-up rate and Station Cash card distribution."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-pumpkin-ring-96091-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3756, 8172, 6, 1110] model=claude-haiku-5-5 -->
+# Shiny Pumpkin Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The tier list for the pumpkin-ring family omits the Gleaming Pumpkin Ring (locale:96101), which the client tags as an item and the Legacy ClientItemDefinitions list also carries. The family description is incomplete, though it does not change any source.", "fix": "Add locale:96101 'Gleaming Pumpkin Ring' to the Pumpkin family list (Faded 89467, Polished 89477, Dull 96071, Smooth 96081, Shiny 96091, Gleaming 96101, plus Hardwood 99305, Granite 99311, Metallic 99317, Jeweled 99323), sourced to the client locale table and the Legacy ClientItemDefinitions.json."}]}

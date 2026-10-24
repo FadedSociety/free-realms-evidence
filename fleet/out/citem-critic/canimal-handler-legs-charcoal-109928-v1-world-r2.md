@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=canimal-handler-legs-charcoal-109928-v1-world-r2 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[13886, 12427, 8, 1276] model=claude-haiku-5-5 -->
+# Animal Handler legs charcoal
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that Freestyle Jobs items can only be equipped through the Adventurer, Card Duelist, or Pet Trainer jobs is cited to the Pet Trainer page and Category:Freestyle Jobs, but I found no page text in the refs supporting that exact equip rule. It is background only and does not affect the acquisition answer.", "fix": "Either drop the equip-rule sentence or cite the exact wiki text. The supported facts are that Pet Trainer was a Freestyle job used to raise pets (articles/facts.json:64395) and that its progression was later simplified to trophies (articles/facts.json:63816), which fits a removed job."}]}

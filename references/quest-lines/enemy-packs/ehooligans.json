@@ -1,0 +1,45 @@
+{
+ "title": "Hooligans",
+ "our_entries": [
+  {
+   "file": "dungeons\\highroad_hijinx.json",
+   "definition_id": 930060
+  },
+  {
+   "file": "dungeons\\tavern_cellar.json",
+   "definition_id": 930060
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:385119 [npc_dialog | - | hooligans] 'I chased off three hooligans already today!'",
+  "locale:385122 [npc_dialog | - | hooligans] \"I've chased off five hooligans.\"",
+  "locale:385123 [npc_dialog | - | hooligans | FLAG fragment: single word reply with no quest meaning on its own] 'Showoff.'",
+  "locale:385124 [npc_dialog | - | hooligans | FLAG fragment: reply line with no quest meaning on its own] 'If you say so...'",
+  "locale:432893 [quest_dialog | Highroad Junction | Hooligans] 'Hooligans are making trouble on the road west of Highroad Junction! You can make a lot of friends if you teach these punks a lesson. You start looking for their'",
+  "locale:432894 [quest_dialog | Highroad Junction | Hooligans] 'The boss takes a dive! Now another Robgoblin wizard steps into the cavern. \"I didn\\'t like him anyway,\" says the wizard. \"My name is Hildegarde, and there\\'s no w'",
+  "locale:432895 [quest_dialog | Highroad Junction | Hooligans] \"That delinquent wasn't too hard to handle! Once you defeated him, he showed you where the Hooligan hideout is, so he wasn't completely worthless. You open up th\"",
+  "locale:432896 [quest_dialog | Highroad Junction | Hooligans] 'The Hooligan doorman is defeated! If he was supposed to keep you out, he should be fired. As you creep through the cellar hallways, an arrow zings right by your'",
+  "locale:432897 [quest_dialog | Highroad Junction | Hooligans] \"Once you got close to the archer, he was just a bullying coward like the rest! Now it's time to go all the way downstairs and find the leader. He says his name \"",
+  "locale:432898 [quest_dialog | Highroad Junction | Hooligans] 'Cal surrenders! \"I promise we\\'ll leave town,\" he says. \"All our loot got stolen by some Robgoblins anyway, we were thinkin\\' about movin\\' on!\" You\\'re thinking of'",
+  "locale:432899 [quest_dialog | Highroad Junction | Hooligans] 'The thief is defeated! You recover your coins. \"You wanna find the real treasure?\" asks the cowering thief. \"Just follow that burglar over there.\" He points to '"
+ ],
+ "client_cluster": [],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:fktAs_GRrjM/00686.jpg (Tavern Cellar): quest:   Defeat Cal, leader of the hooligans.  | landmarks: cave walls | other_text: Hooligan Guard Wolf You don't have enough energy for that ability!",
+  "video:fktAs_GRrjM/00864.jpg (-): quest:   Defeat Cat, leader of the hooligans. Bonus: Find and destroy all the brawl club ru?es - 2/4  | other_text: You don't have enough energy for that ability!",
+  "video:3jLPsxADZ1w/00004.jpg (South Sacred Grove): npcs: Rowdy Hooligan nameplate  | dialog: Quest: Local Hero. Royal Courier says. \"These hooligans stole my bag! It has an important message for Queen Valerian that I need to deliver!\" I'm no fighter, will you defeat these hooligans and return the message to me? | quest: Local Her",
+  "video:3jLPsxADZ1w/00006.jpg (-): dialog: Rowdy Hooligan: Hey guys, look over here! We have guests! | quest: Local Hero Royal Courier Stand up to the bullies!  | landmarks: blue rock outcrops large tree trunk | job_level: Medic 19 | other_text: Hooligan Bully Local Hero Quest Started! Quest Local Hero, Royal Cour",
+  "video:5ZDRXl-DES8/00254.jpg (Cobblestone Village): landmarks: hand-drawn village map on the left page | other_text: Cobblestone Village The Cobblestone Village was once a great crossroads of commerce, but has recently been barricaded by a thieving band of hooligans!"
+ ],
+ "article_facts": [
+  "fact:event: A group of hooligans has moved into the nearby canyon and keeps causing trouble at the farm; wolves also get into the sheep pen. | A group of hooligans has moved into the nearby canyon and are always causing trouble. (http://www.freerealms.com:80/article/detail.action?articleId=624)",
+  "summary: An SOE freerealms.com 'What is New?' post (captured 2009-11-23, posted about 4 days earlier) describing Farnum Farmstead, a large private farm south of Crossroads. It covers the sheep (kept by Bo), harvestable crops reachable through a harvesting minigame, the (http://www.freerealms.com:80/article/detail.action?articleId=624)"
+ ],
+ "quest_answers_naming_it": [
+  "collect target in 'Medic: Supply Recovery' (final): As a medic, get the Medical Supplies from the hooligans!"
+ ]
+}

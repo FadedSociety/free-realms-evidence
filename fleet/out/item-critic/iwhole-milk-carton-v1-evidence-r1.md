@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwhole-milk-carton-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3325, 5216, 6, 1362] model=claude-haiku-5-5 -->
+# Whole Milk Carton
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer calls locale 740059043 a 'separate item reference'. The client text (locale 403232, 403234, 403249, 403250, 408601) shows it is a prize for a Sanctuary rock-collection contest, a 'milk carton signed by The Dares'. The pack does not show it is the same item as Whole Milk Carton (3978), so keeping it separate is correct, but the answer should name it as a rock-contest prize rather than leave it unexplained.", "fix": "Note: locale 740059043 = signed milk carton, prize for the Sanctuary rock-collection contest (client strings 403232-403250, 408601). Not evidenced as Whole Milk Carton 3978."}]}

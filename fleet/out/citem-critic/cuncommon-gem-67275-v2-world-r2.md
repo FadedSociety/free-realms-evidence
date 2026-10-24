@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cuncommon-gem-67275-v2-world-r2 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[10291, 7569, 8, 1290] model=claude-haiku-5-5 -->
+# Uncommon Gem
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / sources", "issue": "The answer discards the wiki's spawn type for the collection. The wiki's Miner's Special Gems infobox (refs freerealms-wiki/wikitext/2190-27853-ba6c0a72b278.wiki, lines 386-395) reads 'spawn= Job Material' and 'reward= Magical Summoning Ore'. This is evidence that the collection's members come from Job Material spawns, which Miner.md:235 places in mines while the Miner job is active. The answer treats this as 'not an acquisition source' and does not mention it. Fix: record a low-confidence note that the only evidenced route is generic Miner Job Material mine spawns (wiki infobox spawn field), with no node or rate named, rather than an empty source list.", "}]}"]

@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-mount-bots-rs-L1 status=done turns=8 usd=0.0109 tokens(read,write,in,out)=[152038, 34196, 18, 10246] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/mount_bots.rs lines 1-788 of 788
+
+Window reviewed: `prototype/osfr-tools/tests/mount_bots.rs` lines 1-788. Most assertions here are sound: the negative checks use a 2 s `QUIET` window, the positive emote control at 682-684 proves delivery works after the mounted refusal, and `wait_for` in `src/bin/osfr-bot.rs:571` consumes older messages, so the ordered waits at 736-754 read the messages they name. The `SPAWN_DEBOUNCE` wait at 689 is safe against `src/mounts.rs:375`. I found two issues, both in the W167 test.
+
+- **[medium] tests/mount_bots.rs:774-777 `the_ride_moves_with_its_rider_and_a_late_arrival_gets_the_native_mount_tail` - the "Put away: the ride is gone" step checks removal only for B, although C is a late arrival that was shown the ride at 766-768.**
+  - Why it cannot catch a regression: a gateway change that sends `RemovePlayer`/ride removal to every viewer except C (for example, one that drops `with_rides`' removal path for a viewer who joined late) would still pass, because nothing asserts C's removal. The sibling test at 676-681 does check all three viewers, so the omission here is inconsistent.
+  - Fix: after line 776, add `c.wait_for(T, |m| is_ride_removal(m, ride)).unwrap_or_else(|e| panic!("C: ride not removed ({e})"));`, and optionally assert that C gets no ride move after the put-away, as B does at 781-783.
+
+- **[low] tests/mount_bots.rs:761-765 `the_ride_moves_with_its_rider_and_a_late_arrival_gets_the_native_mount_tail` - the mount block is located by a fixed offset from the end of AddPc (`len - 40..len - 20`), which assumes exactly 20 bytes of unrelated trailing data after the tail.**
+  - Why it cannot catch a regression: it is not a missed bug. It is churn. Any unrelated field appended to AddPc, or a change in the 0x23 layout, would break the offsets and fail the test even though the mount block is still correct. The test is about the mount block, not the trailer length.
+  - Fix: locate the block by its leading ride GUID, for example `let at = add_pc.windows(8).position(|w| w == ride.to_le_bytes()).expect("ride guid in AddPc")`, then check `add_pc[at + 8..at + 12]`, `[at + 12..at + 16]`, and `[at + 16..at + 20]`. Keep the value assertions as they are.

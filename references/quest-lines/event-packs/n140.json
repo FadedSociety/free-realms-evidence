@@ -1,0 +1,40 @@
+{
+ "title": "ThunderCats promotion",
+ "names_seen": [
+  "ThunderCats promotion"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms offered free ThunderCats-themed items as a promotion tied to the ThunderCats show on Cartoon Network.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Did you know that you can get FREE ThunderCats™ themed items in Free Realms ®?",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2237",
+   "date": null
+  },
+  {
+   "statement": "Free Realms offered free ThunderCats-themed items for a limited time.",
+   "numbers": {},
+   "era": "live",
+   "quote": "you can get FREE ThunderCats™ themed items in Free Realms",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2257",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2237",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms news post (captured September 2011) announcing free ThunderCats-themed items: a Poster, a T-shirt, and the Sword of Omens weapon. The items were obtained by watching ThunderCats show videos through the yellow ad box on the MY PROFILE page, and were offered for a limited time. The post is dated only relatively ('Posted 1 month, 1 week ago'), so no absolute date can be recovered."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2257",
+   "date": null,
+   "title": "Free Realms - Quais são as Novidades? (Check out the ThunderCats™ Items in Free Realms!)",
+   "summary": "A promotional news post (page in Portuguese chrome, body in English) announcing free ThunderCats-themed items in Free Realms. Players obtained them by watching ThunderCats videos through the yellow ad box on the MY PROFILE page, and the items were available only for a limited time. The post gives no absolute date; it shows only a relative 'Publicado 2 meses, 2 dias atrás' stamp."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

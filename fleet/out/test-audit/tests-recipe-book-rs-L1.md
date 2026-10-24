@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-recipe-book-rs-L1 status=done turns=8 usd=0.0077 tokens(read,write,in,out)=[111146, 25054, 18, 6960] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/recipe_book.rs lines 1-484 of 484
+
+Window reviewed: `prototype/osfr-tools/tests/recipe_book.rs` lines 1-484, checked against `src/recipe_book.rs` (decode, near_any, start, stations, Refusal) and `src/chat.rs` (system). Most tests are sound: the refusal order, the `<=` radius edge, the NaN handling and the no-mutation canary in `refuse()` all match the code, and no test is ignored or silently skipped. Three findings:
+
+- **[medium] tests/recipe_book.rs:469 every_refusal_has_a_system_chat_line - the test only checks the 4-byte header and a non-empty message, never that the message text is in the packet.**
+  - Why it cannot catch a regression: `Refusal::feedback()` could return `vec![15,0,3,0]` (or any packet with the wrong body) and still pass, because the test never looks past `packet[..4]` and `message()` is checked on its own, not through `feedback()`. `chat::system` (chat.rs:82-92) writes a u32 length, the escaped text and a trailing byte, so a regression that drops or mis-encodes the body would go unseen.
+  - Fix: assert the full packet, e.g. `assert_eq!(packet, chat::system(refusal.message()))`, or decode the length prefix and check `&packet[8..8+len] == refusal.message().as_bytes()` and that the length is `refusal.message().len()`.
+
+- **[medium] tests/recipe_book.rs:228 chef_recipe_starts_at_a_station_with_exact_inputs - the name claims an exact-input check, but the body only checks `requirements()` against the constants and never tests exactness.**
+  - Why it cannot catch a regression: `requirements()` is the recipe's own catalog list, so it passes whatever `available` contains. A change that accepts short or surplus inputs (or one that consumes the wrong amounts) would still pass here. The only input-validation test, `one_missing_ingredient_is_refused` (line 371), covers one case (short by one) and nothing covers surplus.
+  - Fix: rename to say only "starts with the catalog requirements", and add a case where `available` is exactly the requirement set and asserts `Started::Cooking` with the completion's consumed items (or the cooking state's consume list) equal to `GUMBO_INPUTS`, plus a surplus case that asserts the outcome consumes only the required amounts.
+
+- **[low] tests/recipe_book.rs:282 split_stacks_of_one_ingredient_add_up - the only check is `is_ok()`, which does not show that the split stacks were counted toward the same ingredient or consumed in full.**
+  - Why it cannot catch a regression: if `has_ingredients` were changed to read only the first stack, the test would fail, but a change that accepts the start while consuming the wrong total (for example, consuming only the first stack's count) would still pass, because `is_ok()` ignores what was consumed.
+  - Fix: assert the forging/cooking state after the start (for example `w.cooking.requirements()` plus the state's consumed-stack totals equal `[(2875,3),(2899,3)]` contributions), or add a second case where the split stacks total one short and assert `Refusal::MissingIngredients`.

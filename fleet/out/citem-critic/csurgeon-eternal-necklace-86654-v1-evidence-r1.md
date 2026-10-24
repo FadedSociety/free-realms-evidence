@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csurgeon-eternal-necklace-86654-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3771, 6642, 6, 1230] model=claude-haiku-5-5 -->
+# Surgeon Eternal Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1] (sibling items)", "issue": "Incomplete but not wrong: the locale also holds Surgeon Dreadful/Fateful/Infernal/Mystical/Phantasmal/Eternal/Spectral/Celestial/Ethereal RING variants (e.g. 'Surgeon Eternal Ring' in locale/en_us_data.dat), so the 'family' is broader than the necklaces the answer lists. This does not change the evidence result.", "fix": "Note that the Surgeon family also includes Ring variants (client locale/en_us_data.dat, e.g. 'Surgeon Eternal Ring', 'Surgeon Mystical Ring'); the answer's necklace-only list is accurate for the necklace subset."}]}

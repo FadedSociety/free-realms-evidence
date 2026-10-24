@@ -1,0 +1,30 @@
+{
+ "title": "Japan earthquake relief sale",
+ "names_seen": [
+  "Japan earthquake relief sale"
+ ],
+ "facts": [
+  {
+   "statement": "The Cherry Blossom relief sale ran from Friday, March 25 through Monday, March 28 (2011).",
+   "numbers": {
+    "start_day": 25,
+    "end_day": 28,
+    "month": 3
+   },
+   "era": "live",
+   "quote": "Empezando este Viernes, 25 de marzo hasta el lunes, 28 de marzo",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2071",
+   "date": "2011-03-25"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2071",
+   "date": "2011-03-25",
+   "title": "Apoyo a los Damnificados del Terremoto y Tsunami ocurrido en Japón",
+   "summary": "A Spanish-language SOE post (page title 'Free Realms - What is New?') announcing a Japan earthquake and tsunami relief fundraiser. Free Realms players could buy a Cherry Blossom Tree for 500 Station Cash during the sale window, and SOE donated $10 per Cherry Blossom item sold to the American Red Cross. The post is mostly site-wide, and only the Free Realms lines are kept here."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

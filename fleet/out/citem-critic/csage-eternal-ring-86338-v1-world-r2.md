@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csage-eternal-ring-86338-v1-world-r2 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[11659, 11942, 8, 1614] model=claude-haiku-5-5 -->
+# Sage Eternal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The cited ucdt/ugdt entries for 'Sage Eternal Ring' do exist in opening-anvil-placement-v1/locale/en_us_data.dat (lines 74779 and 101090), but they are bare locale-table name strings with no price, vendor, quest or drop attached. They support only that the name exists, not any acquisition, and should be labelled as name-only.", "fix": "Keep the claim as 'name-only locale entries (en_us_data.dat ucdt 2835617966, ugdt 3821345670); no acquisition text'. No source to add: a search of refs and repo finds no vendor, quest, drop or store row referencing 22347, and the wiki, articles and video lookups return only the locale line (locale:86338)."}]}

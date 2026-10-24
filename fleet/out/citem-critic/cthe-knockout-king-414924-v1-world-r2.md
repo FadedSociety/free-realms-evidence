@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cthe-knockout-king-414924-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3532, 3949, 6, 868] model=claude-haiku-5-5 -->
+# The Knockout King
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer correctly leaves acquisition empty. My lookups confirm no wiki, article or video source names the title, and the only client hits are locale:414924 (quest_title) and locale:31689 ('Title: The Knockout King'). No evidenced quest, reward, vendor or drop exists in the pack, so no source should be added.", "fix": "No change needed. Keep sources empty, retired null and live unsure until a quest or title-grant record is found. The SG encounter-collection link stays a hypothesis, since the 414919-414923 objectives do not name a reward."}]}

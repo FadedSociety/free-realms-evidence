@@ -1,0 +1,46 @@
+{
+ "title": "Changelings",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\briarheart_caverns.json"
+  },
+  {
+   "file": "dungeons\\darvon_s_descent.json"
+  },
+  {
+   "file": "dungeons\\forgotten_caves.json"
+  }
+ ],
+ "entry_count": 6,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [
+  "locale:16157 [quest_objective | Changeling caverns | Changelings] 'Scared changelings have taken refuge inside of these caverns.  Speak with them to find out what they are up to!'",
+  "locale:73275 [quest_objective | - | changelings] 'We sure could use some of that honey to help cheer some of the changelings up. Can you get me some?'",
+  "locale:103096 [quest_objective | Forgotten Caves | changelings] 'Have you tested the honey on any of the changelings? You can find them in the Forgotten Caves, deeper inside this cavern.'",
+  "locale:419776 [npc_dialog | - | Changelings] 'Intruders? Turn back now or you will face more than just us changelings...'",
+  "locale:419783 [npc_dialog | - | Changelings] 'This is not over!'",
+  "locale:419803 [npc_dialog | - | Changelings] \"I warned you!  I won't hold back this time!  Minions!  Attack!\""
+ ],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Changelings",
+  "text": "Changelings are a mutated race of pixies that were stuck above ground during the Unbinding. The large waves of magic from the Unbinding mutated their bodies and minds, along with limbs transformed into elements of land such as sticks, branches, and stones. Most changelings are known to be sad, bitter creatures because of what happened to them and how people treat them now.Free Realms: The Official Handbook and Strategy Guide, Tracy West, page 83\n\nChangelings appear in many dungeons and in Sacred Grove. During the Festival of Hearts, a group of changelings known as the Heart Breakers attempt to ruin the event and steal all of the love.\n\nNotable Changelings\nSanctuary\nSandbur\n\nMemorial Caverns\nBelladonna\nSaedi\nAmoranth\nDarvon\n\nSeaside\nVeevo Vanny\n\nMerry Vale\nHeart Breakers\n\nBlackspore Swamp\nEggert the Mad\nOberyn Duskshine\nVysha\n\nBriarwood\nFreidi\nGloompetal\nGlowlum\nGlumleaf\nJellum\nLumfall\nNoctelun\nScared Changeling\nSorrowspine\nGeomancer Hailstorm\n\nBehavior\nMany of the changelings appear to be very unapproachable and hostile in nature. Their mutations have caused them to be mangled and considered ugly by some, so they often feel like an outcast race in Sacred Grove. Many changelings can be found isolated or alone in the corners of cities, towns, and even within their own small sanctuaries out in the Wilds.\n\nDespite their sour behavior, some of the changelings still have good hearts, and will often help the player or give them quests to do to help.\n\nAppearances\nBriarheart Caverns\nDarvon's Descent\nForgotten Caves\nFestival of Hearts\nTrading Card Game\n\nGallery\n\nReferences\n\nCategory:Races\nCategory:Changeling\nCategory:Sanctuary\nCategory:Blackspore\nCategory:Merry Vale"
+ },
+ "images": [
+  "image (image:art_or_promo): e realms strategy guide book changelings\nrful fighters, and the bixie elite\neven more dangerous! Plus there\nche elusive but deadly bixie mages!\nChangelings\nSome pixies were stuck aboveground during the\nUnbinding. The radiation changed them. Their bodies and\nminds mutated. Now they look like part of "
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "defeat target in 'Contract: Forgotten Favor' (final): As a Medic, defeat the changelings in the Forgotten Caves!"
+ ]
+}

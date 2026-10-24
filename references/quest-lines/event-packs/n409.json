@@ -1,0 +1,26 @@
+{
+ "title": "TCG Tournaments",
+ "names_seen": [
+  "TCG Tournaments"
+ ],
+ "facts": [
+  {
+   "statement": "TCG tournaments were held throughout the day during Snow Days.",
+   "numbers": {},
+   "era": "live",
+   "quote": "TCG Tournaments are held throughout the day.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=705",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=705",
+   "date": null,
+   "title": "Snow Days Events and Activities",
+   "summary": "SOE's official news post announces the Free Realms Snow Days holiday season: scheduled in-game community events and TCG tournaments every day from December 18, 2009 through January 3, 2010. It explains how players find the daily event calendar in the in-game Game Guide and use the GO button to teleport to events."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

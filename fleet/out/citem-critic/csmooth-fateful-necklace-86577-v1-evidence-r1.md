@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmooth-fateful-necklace-86577-v1-evidence-r1 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3896, 8903, 6, 1307] model=claude-haiku-5-5 -->
+# Smooth Fateful Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "Minor imprecision: the video loot is described as coming from wraiths only. The repo note (NPCs - Blackspore Swamp.md:233) says the Polished Fateful Necklace and 8 coins were loot pickups from wraiths and Lukov in Consumed by the Past, and that no quest reward is recorded. The answer's point that this is not the Smooth tier and not a source for this item is correct.", "fix": "Say 'from wraiths and Lukov (loot pickups, not quest rewards)' citing video:8F4ZomE2kxI/00026, /00028 and NPCs - Blackspore Swamp.md:233."}]}

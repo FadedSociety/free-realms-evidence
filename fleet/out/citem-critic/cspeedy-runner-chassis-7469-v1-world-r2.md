@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cspeedy-runner-chassis-7469-v1-world-r2 status=done turns=3 usd=0.0028 tokens(read,write,in,out)=[17613, 14939, 8, 1441] model=claude-haiku-5-5 -->
+# Speedy Runner Chassis
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the parts '[Arrow] [Runner] [Chassis]' appear together in video:XtvRqM7RejE/00302.jpg as inventory items was not re-verified. The lookup for the Speedy Runner Chassis found only the two client lines (locale:7469, locale:7481) and no video or wiki hit, so the 'held as inventory items' inference rests on an unchecked frame.", "fix": "Either open video:XtvRqM7RejE/00302.jpg and confirm the Arrow Runner Chassis text is on screen, or drop the inventory-items inference and keep only the wiki Arrow Runner kart listing (630 SC, Category:Race Kart, Category:SC Marketplace)."}]}

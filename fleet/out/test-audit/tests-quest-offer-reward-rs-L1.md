@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-quest-offer-reward-rs-L1 status=done turns=6 usd=0.0060 tokens(read,write,in,out)=[58372, 17690, 14, 6337] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/quest_offer_reward.rs lines 1-474 of 474
+
+Window reviewed: `prototype/osfr-tools/tests/quest_offer_reward.rs` lines 1-474 (whole file). Byte offsets in the bundle checks (coins at 1..5, stars at 5..9, row count at 61..65, GUIDs at 37..53) match the encoder in `src/quest_engine.rs:2940-2975`, so those pins are sound. The findings below are the weak spots.
+
+- **[medium] prototype/osfr-tools/tests/quest_offer_reward.rs:327 `a_malformed_reward_is_refused_without_mutation` - the "without mutation" claim rests on a state comparison that cannot fail, because both calls it makes take `&self`.**
+  - Why it cannot catch a regression: `quest_reward_bundle` (`src/quest_engine.rs:1268`) and `quest_end_packet` (`src/quest_engine.rs:1278`) take `&self`, so the compiler already forbids mutation. Any change that keeps those signatures leaves the `serde_json::to_vec(engine.state())` equality at lines 370-374 always true. The real refusal checks are only `is_err()` / `kind()`, which would still pass if the encoder silently wrote a partial or altered bundle on the error path, since nothing inspects the output.
+  - Fix: keep the refusal assertions, and make the mutation claim meaningful by exercising a path that takes `&mut` (for example the gameplay offer path in `gameplay/npc.rs`, comparing the saved state before and after a refused offer), or drop "without mutation" from the name and doc.
+
+- **[medium] prototype/osfr-tools/tests/quest_offer_reward.rs:162-168 `the_offer_card_carries_the_authored_reward` - the doc and assertion say the card matches "the bundle the 49/13 turn-in builds", but no 49/13 packet is ever captured.**
+  - Why it cannot catch a regression: the expected value is `engine(CHARACTER).quest_reward_bundle(REWARD_QUEST)`, the same encoder call the offer path uses. If the 49/13 turn-in path were changed to build its bundle differently (or the offer began to send a different encoding), this equality still holds as long as both calls reach the same function. The turn-in side is never compared to anything.
+  - Fix: capture the 49/13 packet from `release_end_screen` (or `quest_end_packet`) in this test and assert `decoded.reward_bundle_body == end_packet[26..95]` (the 69-byte bundle at packet offset 26 per the module doc), so the two screens are compared to each other rather than to the encoder.
+
+- **[low] prototype/osfr-tools/tests/quest_offer_reward.rs:115-124 `assert_trailing_fields` - pins the float and both bools to zero, which are documented as reconstructed defaults (R), not authored values.**
+  - Why it is churn-prone: the encoder comments mark those success/default fields as "reconstructed (R)" and the field semantics are not yet confirmed. A legitimate change to a default (for example a float that the client needs set to a real value) would fail this test even though the offer's reward and actor checks are still correct.
+  - Fix: keep the actor check (bytes 0..8 of the tail) as the hard assertion and drop or loosen the zero check on the last 6 bytes, or move it into a separate test that documents the default values.

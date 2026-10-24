@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cruffian-fateful-necklace-86640-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4298, 4834, 6, 969] model=claude-haiku-5-5 -->
+# Ruffian Fateful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence[4].source", "issue": "Cites locale:656083302, which does not exist (automatic id check confirmed). The claim about the Biker Ruffians KO quest is real, but this citation is broken. The other two cited ids (329539895, 1137642790) were not verified here.", "fix": "Cite the real Biker Ruffians locale ids: 406828 ('Knock out the Biker Ruffians'), 406829 ('Knock out the Biker Ruffians in the Sunstone Valley Gateway.'), 408218 and 410955 (the Wheelie Pete's dialogue lines). Verify any other ids before citing them."}]}

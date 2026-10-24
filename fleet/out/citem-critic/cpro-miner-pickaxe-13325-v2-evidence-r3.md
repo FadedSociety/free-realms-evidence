@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpro-miner-pickaxe-13325-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3632, 7188, 6, 939] model=claude-haiku-5-5 -->
+# Pro Miner Pickaxe
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type / where", "issue": "The single source is typed 'vendor' with where=null, but the stores.json row (line 1828) is a category-107 coin store listing with no NPC or vendor named. Nothing in the pack shows a vendor. The 'vendor' label goes beyond the evidence; the row supports only a coin-store price listing.", "fix": "Keep the price source as a coin-store listing (repo:prototype/osfr-tools/data/content/stores.json:1828, item_id 6536, category 107, purchase 715, member 643, sell 71, no_sale false), and label the type as coin store with vendor unidentified, rather than vendor."}]}

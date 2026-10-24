@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cevil-snowman-illusion-scroll-36377-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3851, 9638, 6, 807] model=claude-haiku-5-5 -->
+# Evil Snowman Illusion Scroll
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources / retired", "issue": "Minor verification gap. The answer says stores.json has no entry for definition 3004, but my repo search output was truncated at 12,000 characters, so I could not confirm that absence myself. The lookup also returned only the client name line (locale:36377), which matches the pack.", "fix": "Re-run a targeted search on data/content/stores.json and vendors.json for 3004 and 36377 before relying on the 'no source' claim. No source is evidenced in the pack, so sources stays empty and retired stays null."}]}

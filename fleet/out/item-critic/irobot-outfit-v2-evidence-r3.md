@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=irobot-outfit-v2-evidence-r3 status=done turns=3 usd=0.0018 tokens(read,write,in,out)=[12290, 9009, 8, 1165] model=claude-haiku-5-5 -->
+# Robot Outfit
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price / evidence[1] / open[0]", "issue": "The answer calls the 499 and 449 mapping inferred from array order, and says the visible text strips the numbers. The wikitext for rev 37132 states both prices directly, so the mapping is evidenced, not guessed.", "fix": "Cite the wikitext: freerealms-wiki/wikitext/11823-37132-695714414157.wiki line 2 reads 'at the regular price of {{SC|499}}, and to [[Members]] at the 10% discount price of {{SC|449}}'. Regular 499 Station Cash, Members 449 Station Cash, both on the SC Marketplace listing. Drop the 'inferred' caveat from open[0]."}]}

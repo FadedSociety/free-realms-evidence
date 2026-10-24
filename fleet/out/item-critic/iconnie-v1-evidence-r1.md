@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iconnie-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3150, 4255, 6, 1016] model=claude-haiku-5-5 -->
+# Connie
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The citation repo:prototype/osfr-tools/data/content/npcs/seaside.json:5454 is a grouped record listing eleven Seaside NPC names (Betsy, Connie, Marie, ...), not a Connie-specific spawn. Only npc_spawns_extra.json:9605 names Connie alone. The claim 'Connie as a Seaside NPC spawn' is supported, but the seaside.json citation should be described as a group entry.", "fix": "Cite repo:prototype/osfr-tools/data/content/npc_spawns_extra.json:9605 for the Connie spawn. Describe seaside.json:5454 as a grouped name list that includes Connie. The notes file line 149 also groups her with the same ten NPCs."}]}

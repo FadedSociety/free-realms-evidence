@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=ad825efd45c8cc14aba6fc14acf80f9040c7fb9f status=done turns=2 usd=0.0006 tokens(read,write,in,out)=[2135, 2668, 6, 569] model=claude-haiku-5-5 -->
+# Fr tshirt.png
+
+{"kind": "art_or_promo", "has_text": true, "text": "ThunderCats (logo on the front of both white T-shirts, rendered as an image; not a legible text line)", "tooltip": null, "entries": null, "uncertain": ["The shirt logo is a stylized graphic; the word 'ThunderCats' is inferred from the logo shape and the wiki page title 'Thundercat's T-Shirt', not clearly legible at this resolution.", "No other text is visible in the scene; no prices, stats or names appear on screen. The two characters (a fairy-winged figure with purple pants and a red-haired man with a goatee) are unnamed in the image.", "Client locale match for the item name: 'Thundercat's T-Shirt' (id 435945). Related strings 'ThunderCats T-Shirt' (id 435937) is the promotional description text."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csneak-eternal-ring-86320-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3831, 4255, 6, 1057] model=claude-haiku-5-5 -->
+# Sneak Eternal Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "The claim that 'Sneak' in repo files refers to Card Duelist 'Suspicious Sneak' and Thugawug Sneak could not be checked here. My repo search for Sneak or Grunt ring names returned no matches, and lookup found only the client locale line locale:86320, so the ring-family claim holds but the unrelated-quest detail is unverified.", "fix": "Either cite the file and line for the 'Suspicious Sneak' and Thugawug Sneak references or drop them. Nothing in the pack names a quest reward, vendor, drop or event for any Sneak or Grunt ring (client lookup only returns locale:86320)."}]}

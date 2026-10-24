@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ipear-jam-v1-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3236, 5954, 6, 1207] model=claude-haiku-5-5 -->
+# Pear Jam
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission. The answer cites only locale 71277, 71283 and 71859 for the missing-rockstar quest. The client also has locale 71242, which sends the player to look for clues on the road to Wugachug. The Wugachug notes (NPCs - Wugachug.md:162, :202) say the clues go back to Wootmoot in Wugachug, and that the host is probable but not confirmed. The answer does not mention this chain, so its quest picture is incomplete.", "fix": "Add locale:71242 and the Wugachug notes as quest context: the clue search starts from Wootmoot (497711267) in Wugachug, and the host's speaker line (774116531) is still unnamed. Pear Jam stays an NPC with no item source."}]}

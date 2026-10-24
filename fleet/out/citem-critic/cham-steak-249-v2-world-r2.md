@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cham-steak-249-v2-world-r2 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[15383, 12165, 8, 1309] model=claude-haiku-5-5 -->
+# Ham Steak
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that no acquisition source exists. My checks agree: locale:3121 (the Pig description) is the only text match for the Pig effect, no wiki, video or article names Ham Steak, and the robgoblin dialog at locale:134991 names no food. locale:134992 is flagged as a duplicate and was correctly dropped.", "fix": "No change required to the sources. Optionally add that the Pig illusion food is a separate client item from the other 'Illusion Food - X' items (locale 233-257, 1166-1217, 36379), and that no vendor or quest in the pack names any of them, so the shared-description link to Ham Steak stays unproven."}]}

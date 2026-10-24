@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cflared-metal-slat-picnic-table-147750-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3973, 5821, 6, 871] model=claude-haiku-5-5 -->
+# Flared Metal Slat Picnic Table
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail (minor omission)", "issue": "The store row also carries sell_price_coins 80 and category_id 53. The answer cites category_id 53 but omits the sell price. This does not affect the acquisition claim.", "fix": "Optionally add: sell_price_coins 80 (repo: prototype/osfr-tools/data/content/stores.json, item 36551)."}, {"field": "evidence[2] / open (store tags)", "issue": "Source tags L1, L2, L4, R1, R2, T633 are correctly marked as undecoded in open. Nothing in the pack contradicts the Coin Shop source.", "fix": "No change needed."}]}

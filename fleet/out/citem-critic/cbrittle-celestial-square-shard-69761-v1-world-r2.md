@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrittle-celestial-square-shard-69761-v1-world-r2 status=done turns=4 usd=0.0030 tokens(read,write,in,out)=[22764, 14167, 10, 2029] model=claude-haiku-5-5 -->
+# Brittle Celestial Square Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "Minor: the store row carries the same source tags (L1, L2, L4, R2, T633, R1) as the rest of store category 121, which are version tags with no stated meaning. The answer's 'unsure' is honest, but the pack does not add a retired or live fact either way.", "fix": "Keep live as 'unsure' unless a version-tag key is documented. The coin_shop source itself checks out: stores.json line 6714 is item_id 22859, category_id 121, purchase 811, member 729 (10%), sell 81, no_sale false. Siblings 22856-22858 match at 811. Category 121 holds many unrelated items (e.g. 2107 at 540, 2109 at 1780), so the category alone does not name a vendor."}]}

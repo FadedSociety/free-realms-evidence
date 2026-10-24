@@ -1,0 +1,38 @@
+{
+ "title": "Pirate Party and Invasion",
+ "names_seen": [
+  "Pirate Party and Invasion"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called Pirate Party and Invasion took place in Seaside, in the cove south of the warpstone, on Friday August 18, 2009.",
+   "numbers": {
+    "start_hour_PDT": 16,
+    "end_hour_PDT": 18,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "Where : Seaside, in the cove south of the warpstone",
+   "article": "http://www.freerealms.com/article/detail.action?cid=EM1268&articleId=331&login=false",
+   "date": "2009-08-18"
+  },
+  {
+   "statement": "The event started on the beach south of the Seaside warpstone with dancing and trivia, then the crew marched on a nearby town to dance, duel and party.",
+   "numbers": {},
+   "era": "live",
+   "quote": "We will dance, have trivia questions and celebrate coming ashore.",
+   "article": "http://www.freerealms.com/article/detail.action?cid=EM1268&articleId=331&login=false",
+   "date": "2009-08-18"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?cid=EM1268&articleId=331&login=false",
+   "date": "2009-08-18",
+   "title": "Community Event: Pirate Party and Invasion",
+   "summary": "A community event page announcing a one-off Pirate Party and Invasion in Seaside on Friday August 18, 2009, 4pm-6pm PDT on Server 1, where players gathered on the beach south of the Seaside warpstone and marched on a nearby town. The page also promotes pirate hats for characters and pets sold for Station Cash, including an exclusive red pirate hat for a dog on 1,000 Station Cash retail cards."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

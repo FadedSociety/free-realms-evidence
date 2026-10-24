@@ -1,0 +1,57 @@
+<!-- fleet job=event-infer id=vfree-realms-comic-book-issue-5-v4 status=done turns=4 usd=0.0046 tokens(read,write,in,out)=[34691, 13095, 10, 5277] model=claude-haiku-5-5 -->
+# Free Realms comic book issue #5
+
+{"event": {"name": "Free Realms comic book series (12 issues, in-game code redemption)", "aliases": ["Free Realms comic", "Free Realms comic book", "Free Realms Comic Book Series 1", "Free Realms comic book issue #5", "Free Realms Comic Book Issues 1-4", "Free Realms Comic Book Issues 5-8", "Free Realms Comic Book Issues 9-12", "Comic Book Issues 1-4", "Comic Book Issues 5-8", "Comic Book Issues 9-12", "Free Realms Issue 1"]},
+ "kind": "promotion",
+ "live": "unsure",
+ "occurrences": [{"year": 2009, "when": "July 29 (issue #1 publication, per wiki; no article confirms it)", "source": "wiki page: Free Realms Issue 1 (\"published on July 29, 2009 by Wildstorm\")"}],
+ "recurring": null,
+ "zones": [],
+ "npcs": ["Darkthorne", "Queen Valerian"],
+ "quests": ["Free Realms Comic Book Series 1", "Free Realms Comic Book Issues 9-12", "Comic Book Issues 1-4", "Comic Book Issues 5-8", "Comic Book Issues 9-12", "Issue 8 Certificate of Authenticity", "Issue 9 Certificate of Authenticity", "Issue 10 Certificate of Authenticity", "Issue 11 Certificate of Authenticity", "Issue 12 Certificate of Authenticity"],
+ "activities": ["Read the comic book issues", "Enter the unique code from each issue to redeem its in-game item"],
+ "items": [
+  {"name": "Spider Bite", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 1)"},
+  {"name": "Mushroom Pizza", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 2); wiki page: Mushroom Pizza"},
+  {"name": "Team Rockabilly Nitrous System", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 3); wiki page: Team Rockabilly Nitrous System"},
+  {"name": "Cloak of Shadows", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 4); wiki page: Cloak of Shadows"},
+  {"name": "Lightning Elixir", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 5); wiki page: Lightning Elixir"},
+  {"name": "Darkthorne's Embrace", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 6); wiki page: Darkthorne's Embrace"},
+  {"name": "Bravery Biscuit", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 7); wiki page: Bravery Biscuit"},
+  {"name": "Stink Bombs", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 8)"},
+  {"name": "Spelunker's Shard", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 9); wiki page: Spelunker's Shard"},
+  {"name": "Flute of Slumber", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 10); wiki page: Flute of Slumber (\"acquired by entering the code from Free Realms comic book #10\"); locale:5513"},
+  {"name": "Floral Flair Shard", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 11); wiki page: Floral Flair Shard"},
+  {"name": "Masher Mask", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Exclusive Items list (Issue 12); wiki page: Masher Mask"},
+  {"name": "Eerie Gi", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Collection Rewards (codes for issues 1-4); wiki page: Eerie Gi; locale:3952"},
+  {"name": "Nightmarish Gloves", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Collection Rewards (codes for issues 5-8); wiki page: Nightmarish Gloves"},
+  {"name": "Sinister Cowl", "price": null, "currency": "reward", "source": "wiki page: Free Realms (comic), Collection Rewards (codes for issues 9-12); wiki page: Sinister Cowl"},
+  {"name": "Creepy Construct", "price": null, "currency": "reward", "source": "wiki page: Creepy Construct (codes from all twelve comic books)"}
+ ],
+ "rewards": ["Spider Bite", "Mushroom Pizza", "Team Rockabilly Nitrous System", "Cloak of Shadows", "Lightning Elixir", "Darkthorne's Embrace", "Bravery Biscuit", "Stink Bombs", "Spelunker's Shard", "Flute of Slumber", "Floral Flair Shard", "Masher Mask", "Eerie Gi (collection, issues 1-4)", "Nightmarish Gloves (collection, issues 5-8)", "Sinister Cowl (collection, issues 9-12)", "Creepy Construct (ghost pet, all twelve codes)"],
+ "evidence": [
+  {"claim": "Issue #5 of the Free Realms comic book is on sale now; the post is undated.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=936"},
+  {"claim": "The comic has 12 issues; each issue has a unique code redeemable for a special in-game item.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=936"},
+  {"claim": "Issue #5 reveals a secret from Darkthorne and hints at a spy in Queen Valerian's court.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=936"},
+  {"claim": "Free Realms #1 was published July 29, 2009 by Wildstorm (DC). This is a wiki statement, not an article; it is the only dated source for any issue.", "source": "wiki page: Free Realms Issue 1"},
+  {"claim": "Pre-launch plan only: a July 23 2009 Joystiq preview said the series would come July 29 2009. A plan, not a live date.", "source": "wiki page: Free Realms (comic), citing http://www.joystiq.com/2009/07/23/free-realms-comic-coming-july-29-includes-in-game-bonuses/"},
+  {"claim": "Exclusive items by issue: Spider Bite (1), Mushroom Pizza (2), Team Rockabilly Nitrous System (3), Cloak of Shadows (4), Lightning Elixir (5), Darkthorne's Embrace (6), Bravery Biscuit (7), Stink Bombs (8), Spelunker's Shard (9), Flute of Slumber (10), Floral Flair Shard (11), Masher Mask (12).", "source": "wiki page: Free Realms (comic)"},
+  {"claim": "Flute of Slumber is acquired by entering the code from comic book #10.", "source": "wiki page: Flute of Slumber; locale:5513"},
+  {"claim": "Collection rewards: Eerie Gi (issues 1-4), Nightmarish Gloves (issues 5-8), Sinister Cowl (issues 9-12).", "source": "wiki page: Free Realms (comic); wiki page: Eerie Gi; wiki page: Nightmarish Gloves; wiki page: Sinister Cowl"},
+  {"claim": "Certificate of Authenticity quests exist for issues 1-12 in the client (e.g. Issue 10 = locale 416379, Issue 11 = locale 416380).", "source": "locale:416375; locale:416379; locale:416380; locale:416381"},
+  {"claim": "Client quest titles 'Free Realms Comic Book Series 1' (416382), 'Free Realms Comic Book Issues 9-12' (416376), 'Comic Book Issues 1-4' (416384), '5-8' (416386), '9-12' (416387) exist.", "source": "locale:416382; locale:416376; locale:416384; locale:416386; locale:416387"},
+  {"claim": "Purple Triceratops came from a Fun! Online Games promotion and is excluded.", "source": "http://www.freerealms.com:80/article/detail.action?articleId=853"}
+ ],
+ "confidence": 0.45,
+ "open": [
+  "MERGE, NOT RESOLVED: the pack combines the 2009 print comic series (DC/Wildstorm) and the in-game code promotion under one name. Split them before wiring, or confirm with Bryce that one record is wanted. Per-issue release dates for #2-#12 are not in any source.",
+  "Issue #1 date (2009-07-29) is from a wiki page, not an article. Rules require article dates, so it is recorded with its source and not treated as a confirmed in-game live date. live stays 'unsure'.",
+  "Joystiq 2009-07-23 preview is cited only through the wiki; the article is not in the pack.",
+  "Issue #5 article (articleId=936) has no date, so issue #5 has no year or month.",
+  "Redemption window (when codes stopped working) is unsourced. Zones are empty: no zone is sourced for the comic or for code entry.",
+  "Certificate of Authenticity quests for 1-12: linked to the comic by title only. Their in-game function is not sourced; quest text was not read.",
+  "Item prices are null: items are reward-by-code, not sold. Issue numbers for Creepy Construct and Eerie Gi come from wiki collection lists, not per-issue codes.",
+  "Queen Valerian is named only in the issue #5 article; she has no client or wiki NPC record.",
+  "Excluded: Ten Ton Hammer San Diego Comic-Con 2009 and 2011 PSN hits; they match 'comic' but are not about this comic.",
+  "Locale 3953 is marked FLAG dev_note and is not used. Eerie Gi is confirmed by locale:3952 and the wiki page."
+ ]}

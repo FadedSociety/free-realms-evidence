@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chero-eternal-ring-86437-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13364, 10276, 8, 1471] model=claude-haiku-5-5 -->
+# Hero Eternal Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The answer keeps live as 'unsure' while the first-pass tag says 'yes'. The pack and my checks give no evidence of obtainability, so 'unsure' is the honest value and is not a defect. Noted only because the first-pass tag disagrees.", "fix": "Keep live as unsure unless a vendor, quest, or event source is found. Locale 86437 'Hero Eternal Ring' is confirmed (lookup, locale tool). Repo search for 'Hero (Eternal|Fateful|Celestial|Ethereal)|Hero .*Ring' returns no matches, so no builder-side source exists."}]}

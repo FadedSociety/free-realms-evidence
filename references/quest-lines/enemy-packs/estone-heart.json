@@ -1,0 +1,85 @@
+{
+ "title": "Stone Heart",
+ "our_entries": [
+  {
+   "file": "field_battles.json",
+   "name_id": 427068,
+   "definition_id": 930022,
+   "model_id": 2055,
+   "max_health": 1020,
+   "damage": 62,
+   "boss": true
+  },
+  {
+   "file": "dungeons\\stone_heart_s_hideaway.json",
+   "definition_id": 930022
+  },
+  {
+   "file": "dungeons\\stone_heart_s_hideaway.json",
+   "definition_id": 930022
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:427068 [npc_name | - | Stone Heart] 'Stone Heart'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:426974 [quest_objective | - | Stone Heart] 'Stop Stone Heart by entering his hideout and defeating him in combat!'",
+  "locale:426977 [quest_objective | - | Stone Heart] 'Defeat Stone Heart'",
+  "locale:426982 [quest_dialog | - | Stone Heart] \"Stone Heart is trying to ruin the holiday by breaking peoples hearts!  You've found his hideout, go in there and take him out!\"",
+  "locale:427068 [npc_name | - | Stone Heart] 'Stone Heart'",
+  "locale:427125 [other | - | Stone Heart | FLAG dev_note: internal combat label] 'vday combat 2 - basepop extra attack'",
+  "locale:427126 [npc_dialog | - | Stone Heart] 'Invaders!  Changelings!  Stop them!'",
+  "locale:427127 [npc_dialog | - | Stone Heart] 'Blasted birds!  Shoo!  SHOOO!'",
+  "locale:427128 [npc_dialog | - | Stone Heart] 'Traitors!  I will knock out any changelings who defies my hatred!'",
+  "locale:427129 [npc_dialog | - | Stone Heart] 'Fools!  Breaking hearts is easier than healing them!'",
+  "locale:427130 [npc_dialog | - | Stone Heart] 'You cannot defeat me!  I will break your hearts for even trying!'",
+  "locale:427131 [npc_dialog | - | Stone Heart] 'Changelings!  Come out of hiding and attack the intruders!'",
+  "locale:427132 [ability | - | Stone Heart] \"Stone Heart's Stone Slam\"",
+  "locale:427133 [other | - | Stone Heart | FLAG dev_note: internal combat label] 'vday combat 2 - knockback'",
+  "locale:427188 [npc_dialog | - | Stone Heart] \"Stone Heart is gone!  Let's get out of here!\"",
+  "locale:427189 [npc_dialog | - | Stone Heart] 'You should leave! Now!'",
+  "locale:427190 [npc_dialog | - | Stone Heart | FLAG fragment: single word with no quest meaning] 'Grrrr...'",
+  "locale:427191 [npc_dialog | - | Stone Heart] 'Noooo!  You have not seen the last of Stone Heart!'",
+  "locale:427225 [quest_objective | Merry Vale | Stone Heart] 'Use a love potion on Stone Heart during his rampage to soften him up enough to talk.'",
+  "locale:427226 [quest_objective | Merry Vale | Stone Heart] 'Shoot love arrows at Stone Heart'",
+  "locale:427227 [quest_objective | Merry Vale | Stone Heart] \"Stick around Merry Vale, and you'll be sure to see Stone Heart and his minions stomping about.\"",
+  "locale:427229 [quest_objective | Merry Vale | Stone Heart] 'Let him know what she said!'",
+  "locale:427350 [other | - | Stone Heart | FLAG dev_note: internal *OnSpawn* event tag] 'Stone Heart *OnSpawn*'",
+  "locale:427352 [other | - | Stone Heart | FLAG dev_note: internal *OnHit* event tag] 'Stone Heart *OnHit*'",
+  "locale:427357 [other | - | Stone Heart | FLAG dev_note: internal *Invuln* event tag] 'Stone Heart *Invuln*'",
+  "locale:5103223 [npc_dialog | Merry Vale | Stone Heart] \"Stick around Merry Vale, and you'll be sure to see Stone Heart and his minions stomping about.\""
+ ],
+ "client_cluster": [
+  "locale:427060 [quest_objective | Snowhill | A Bundle of Love] 'Pluck a flower from Snowhill'",
+  "locale:427061 [quest_objective | Snowhill | A Bundle of Love] 'Use the launch pads to jump your way to the flower in Snowhill.'",
+  "locale:427062 [quest_objective | Seaside | A Bundle of Love] 'Pluck a flower from Seaside'",
+  "locale:427063 [quest_objective | Seaside | A Bundle of Love] 'Use the launch pads to jump your way to the flower in Seaside.'",
+  "locale:427065 [quest_objective | Merry Vale | A Bundle of Love] 'Return to Cudip'",
+  "locale:427066 [quest_objective | Merry Vale | A Bundle of Love] 'Take the rare flowers back to Cudip in Merry Vale.'",
+  "locale:427068 [npc_name | - | Stone Heart] 'Stone Heart'"
+ ],
+ "wiki": {
+  "title": "Stone Heart",
+  "text": "Stone Heart is an enemy NPC boss featured as the main antagonist of the Festival of Hearts. He is a heart-shaped monster, his main goal while arrived is to destroy the Love Potions in Merry Vale which will break all the people's love.\n\nBiography\nBefore the Festival of Hearts, Rylan and Arianna who were two lovers met long ago and came together near a flower that grew every time they were near each other. One day, dark magic fell over the land and Rylan never showed up again. He went out on the day of dark magic, he got turned into Stone Heart. He gathered the changelings around him. Stone Heart has no love and sees the festival as an insult. He will try to crush as much of the special magic as he can so others will be as lonely as he is.\n\nBattle\nOpen World\nDuring the time that Stone Heart is arrived, bring sadness and the feeling of heart break to all the people in love. He will slowly walk along the pathways of Merry Vale giving players time to confront the boss, the Love Potions appear on the pathways of Merry Vale. The Love Potions temporarily grant players an enchanted bow with the ability to attack Stone Heart and stop the Heart Breakers from stealing Valentine Love.\n\nOnce defeated, Stone Heart drops a special treasure chest that rewards the players that assisted in that specific battle a Festival of Hearts themed item. If he wins, he will successfully destroy the Love Potion that will break all the people's love and disappear which him and the Heart Breakers ruin the Festival of Hearts in Merry Vale, which will not drop anything.\n\nStone Heart's Hideaway\nWhile Stone Heart doesn't appear in Merry Vale, but instead a Heart Breaker. Encounter the battle which at one point will require you to encounter in a battle which requires you to be level 13 combat job or above t"
+ },
+ "images": [],
+ "video": [
+  "video:GR0ORW4cWts/00008.jpg (-): npcs: Stone Heart nameplate  | dialog: Stone Heart: ... has been destroyed! Hahaha! | quest: Softening the Stone  Shoot love arrows at Stone Heart - 61/100  | job_level: Card Duelist 20 | other_text: Use a love potion on Stone Heart during his rampage to soften him up enough to t",
+  "video:EP2-qVs1mR8/00068.jpg (-): items_seen: Stone Heart's Candy Large Heart Wall Sticker Hearts Wall Sticker Heart Antennae Small Heart Wall Sticker Stone Heart's H? B? Heart T-Shirt? | other_text: YOU WIN!",
+  "video:Gk3v5EcwUBc/00022.jpg (-): quest: Softening the Stone  Use a love potion on Stone Heart during his rampage to soften him up enough to talk. Shoot love arrows at Stone Heart  | landmarks: Orange dirt slope Large glowing yellow ground ring at left | job_level: Adventurer 20 | other_text: Softening the Stone ",
+  "video:D5spNSvquDQ/00078.jpg (-): items_seen: Heart-Shaped Harp Stone Heart's Harp Stone Heart's Roses Birthday Candle Bone Calico Catfish Ceremonial Jeweled Axe Conductor's Wand Defender Baton Floppy Fish Fungal Sprayer Globfish Golden Summer Sparkler | other_text: Weapon Click to Decorate Submit your home to th",
+  "video:Gk3v5EcwUBc/00014.jpg (-): quest: Softening the Stone  Use a love potion on Stone Heart during his rampage to soften him up enough to talk. Shoot love arrows at  | landmarks: Orange dirt slope with grass | job_level: Adventurer 20 | other_text: Softening the Stone Use a love potion on Stone Heart during hi"
+ ],
+ "article_facts": [
+  "fact:npc: Stone Heart and his minions, the heartbreakers, are antagonists of the Festival of Hearts event who oppose happiness during the holiday. | beware of Stone Heart and his minions, the heartbreakers. (http://www.freerealms.com:80/article/detail.action?articleId=967)",
+  "fact:event: Stone Heart is a dark creature that appears near the festival's special flower when it blooms and tries to drain the festival's magic. | a dark creature lurks nearby called Stone Heart (http://www.freerealms.com:80/article/detail.action?articleId=2016)",
+  "fact:npc: Stone Heart and his Heartbreakers are present during the PS3 Festival of Hearts, where they are there to ruin the fun. | Stone Heart and his Heartbreakers who are there to ruin all the fun! (http://www.freerealms.com/article/detail.action?articleId=2499)",
+  "fact:npc: Stone Heart and his Heartbreakers are present during the Festival of Hearts to disrupt the festivities. | Be on the lookout for Stone Heart and his Heartbreakers who are there to ruin all the fun! (http://www.freerealms.com:80/article/detail.action?articleId=2498)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Softening the Stone' (final): Hit Stone Heart with the potion-dipped arrows to weaken him.",
+  "other target in 'Softening the Stone' (final): Once he's defeated, find his hiding place and convince him to talk.",
+  "go target in 'Stone Heart's Hideaway' (final): Enter Stone Heart's hideaway on the western side of Merry Vale."
+ ]
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cupgraded-exhaust-67387-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3655, 4484, 6, 966] model=claude-haiku-5-5 -->
+# Upgraded Exhaust
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The answer's kind is 'collection' but its own evidence calls the item a collection part ('collection-part, not a standalone reward'). The two labels are inconsistent, and the client text only says the item 'can be added to the Kart Part Upgrades Collection' (locale:132478), which supports a collection-membership role, not a standalone kind.", "fix": "Use one label for this role, e.g. kind 'collection_part' or 'collection', and state it as 'contributor to Kart Part Upgrades (locale:67587, text locale:132478)'. Lookup confirms both strings exist; no reward, vendor, or event for the collection appears in client, wiki, articles or video."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-16792 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2870, 4, 509] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a vBulletin page-view limit error on the fan forum freerealmsforums.com, with forum navigation and a list of sub-forums. It contains no thread content, player reports, guide text or game facts that a rebuilder could use. Nothing was recorded.", "facts": [], "quests": [], "uncertain": ["The page shows only the 'maximum number of posts you can view' error and forum index; the actual thread the URL points to (p=16792) did not render, so no content could be read.", "The capture date is 2009-05-20 and the page's own clock reads 'GMT -5 07:58 PM', which is not a date for the article."]}

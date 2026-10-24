@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crunner-yellow-ring-96149-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3405, 7108, 6, 1047] model=claude-haiku-5-5 -->
+# Runner Yellow Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]", "issue": "Says lookups of 'Runner Ring' returned no matches. That is only true for wiki, articles and video. The client lookup returns the six locale rows (96146-96151), and the locale/ucdt/ugdt rows also match. The wording overstates the negative result.", "fix": "Restrict the claim to: no wiki, articles or video hits; client hits are only the six name rows locale:96146-96151 (and their ucdt/ugdt copies in en_us_data.dat). No vendor, quest, drop or event row names definition 30743 (verified: refs search for 30743 hits only unrelated numeric strings)."}]}

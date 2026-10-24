@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-aviator-shades-pl-aviator-shades-142934-v2-evidence-r3 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3659, 6333, 6, 1123] model=claude-haiku-5-5 -->
+# {n}Aviator Shades{pl="Aviator Shades"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The source is labelled 'vendor' but the only evidence is a coin store price row (stores.json line 14841). The row names no vendor, NPC or stock entry, so 'vendor' overstates what is known. It is a coin-shop price record with an unknown seller.", "fix": "Relabel the type as a coin-shop price row (for example 'coin_store_price') with where null, and keep the open note that the seller is unknown. stores.json lines 14841-14843 support 50 coins for items 51052, 51053 and 51054 only."}]}

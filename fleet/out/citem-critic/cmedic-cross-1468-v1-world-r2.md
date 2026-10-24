@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmedic-cross-1468-v1-world-r2 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[11806, 8770, 8, 1047] model=claude-haiku-5-5 -->
+# Medic Cross
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open[1]", "issue": "The wiki 'Medals of Honor' collection exists (lookup of 'List of Collections' and 'Collections' pages confirms the collection name), but the lookup snippets do not show its item list, so neither membership of Medic Cross nor the empty-entry claim can be checked from the wiki side. The answer correctly leaves membership unconfirmed.", "fix": "Keep the membership as unconfirmed. Only attach Medic Cross to 'Medals of Honor' after the wiki page's item list (List of Collections / Medals of Honor) names it. No source is evidenced now."}]}

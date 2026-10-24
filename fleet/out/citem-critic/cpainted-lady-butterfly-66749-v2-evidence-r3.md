@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpainted-lady-butterfly-66749-v2-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4124, 5307, 6, 916] model=claude-haiku-5-5 -->
+# Painted Lady Butterfly
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: the membership entry is labelled as a source of type 'collection' with a wiki URL, but the wiki page only shows the collection name under the 'Rare' heading. The answer correctly says this is not a price or drop rate, so it is not an acquisition route.", "fix": "Keep the membership-only wording. Optionally note that the wiki 'Rare' heading (List of Collections, revision 27852, 2013-07-13) is a category label only. collections.json key wiki:5:157 has reward and wiki_type null, which supports 'no acquisition route evidenced'."}]}

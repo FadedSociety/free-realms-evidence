@@ -1,0 +1,70 @@
+{
+ "title": "Bats",
+ "our_entries": [
+  {
+   "file": "dungeons\\bone_bog_cemetery.json",
+   "definition_id": 930027
+  },
+  {
+   "file": "dungeons\\darvon_s_descent.json",
+   "definition_id": 930027
+  },
+  {
+   "file": "dungeons\\forgotten_caves.json",
+   "definition_id": 930027
+  },
+  {
+   "file": "dungeons\\frostfang_caverns.json",
+   "definition_id": 930027
+  },
+  {
+   "file": "dungeons\\mushroom_cavern.json",
+   "definition_id": 930027
+  },
+  {
+   "file": "dungeons\\the_bat_cave.json",
+   "definition_id": 930027
+  }
+ ],
+ "entry_count": 6,
+ "client_name_matches": [
+  "locale:432409 [item | - | Bats | FLAG fragment: single word with no quest meaning on its own] 'Bats'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:9654 [quest_dialog | - | bats] \"Good to see the bats didn't get the best of ya. These samples are top notch.<BR><BR>Thanks for your help.\"",
+  "locale:432409 [item | - | Bats | FLAG fragment: single word with no quest meaning on its own] 'Bats'"
+ ],
+ "client_cluster": [
+  "locale:432401 [quest_dialog | - | Dance-off] \"You vampires definitely need more practice before you'll even have a chance against us!\"",
+  "locale:432402 [quest_dialog | - | Dance-off] \"Is that dancing? Don't make me laugh.\"",
+  "locale:432403 [item | - | Voting Box] 'Voting Box'",
+  "locale:432404 [item | - | Vampire Cake] 'Vampire Cake'",
+  "locale:432405 [item | - | Werewolf Cake] 'Werewolf Cake'",
+  "locale:432406 [quest_dialog | - | Dance-off] 'This Dance-off is now over!'",
+  "locale:432407 [quest_dialog | - | Dance-off] 'And the winner... is Team Werewolf!'",
+  "locale:432409 [item | - | Bats | FLAG fragment: single word with no quest meaning on its own] 'Bats'",
+  "locale:432410 [item | - | Team Vampire Bundle] 'Team Vampire Bundle'",
+  "locale:432411 [quest_reward | - | Team Vampire Bundle] 'Show support for your favorite team! The Team Vampire bundle comes with a Black Vampire Outfit; a Black Bat Pet; exclusive Vampire Fangs and a Team Vampire T-Sh'",
+  "locale:432414 [item | - | Team Werewolf Bundle] 'Team Werewolf Bundle'",
+  "locale:432415 [quest_reward | - | Team Werewolf bundle] 'Show support for your favorite team! The Team Werewolf bundle comes with a Black Werewolf Outfit; a Black Wolf Pet; an exclusive Werewolf Tail and a Team Werewo'"
+ ],
+ "wiki": {
+  "title": "Bats",
+  "text": "Bats are a race found throughout Sacred Grove.\n\nNotable Bats\nSnowhill\nBat King\nElder Deep Bat\nSwarming Shrieker\n\nOthers\nFrostfang Bat\nBat (Pet)\nBat (Ride)\n\nGallery\n\nCategory:Races\nCategory:Bats\nCategory:Sacred Grove"
+ },
+ "images": [],
+ "video": [
+  "video:dYq8DkeKGpw/00268.jpg (-): landmarks: stone archway with bats Square Mausoleum | job_level: Card Duelist 20 | other_text: Square Mausoleum Press X or mouse",
+  "video:FamA1qX7C38/00000.jpg (-): npcs: Spruce Waynehammer distance_marker  Sorin distance_marker  Dwarf Miner chat_speaker  | dialog: I'm gettin' too old for this sort of thing. If ya be headin' in the cave, be wary! It is chock full of bats. Help! The bats are after me! | landmarks: The Bat Cave (label) | job_l",
+  "video:FamA1qX7C38/00008.jpg (-): npcs: Spruce Waynehammer nameplate  Sorin distance_marker  Dwarf Miner chat_speaker  | dialog: I'm gettin' too old for this sort of thing. If ya be headin' in the cave, be wary! It is chock full of bats. Help! The bats are after me! | landmarks: The Bat Cave (26m marker) | job_le",
+  "video:FamA1qX7C38/00002.jpg (-): npcs: Dwarf Miner chat_speaker  Spruce Waynehammer distance_marker  Sorin distance_marker  | dialog: I'm gettin' too old for this sort of thing. If you be headin' in the cave, be wary! It is chock full of bats. Help! The bats are after me! | landmarks: The Bat Cave wooden mine su",
+  "video:FamA1qX7C38/00010.jpg (-): npcs: Dwarf Miner chat_speaker  Spruce Waynehammer distance_marker  Sorin distance_marker  | dialog: I'm gettin' too old for this sort of thing. If you be headin' in the cave, be wary! It is chock full of bats. Help! The bats are after me! | landmarks: large crystal pile The Bat "
+ ],
+ "article_facts": [
+  "fact:npc: Frostfang Bats, Icy Crawlers and other creatures live inside the Frostfang Caverns. | you can also find Frostfang Bats, Icy Crawlers and more. (http://www.freerealms.com:80/article/detail.action?articleId=75)",
+  "fact:combat: Players could fight using multicolored boosts in the update. | Bats-toi avec des boosts multicolores! (http://www.freerealms.com/article/detail.action?articleId=2741)",
+  "fact:location: The Sunstone Valley announcement says players can meet new friends and enemies, fight for new rewards, and do more blacksmithing (forgeron) there. | Rencontre de nouveaux amis et ennemis, bats-toi pour de nouvelles récompenses et fais un peu plus le forgeron (http://www.freerealms.com/article/detail.action?articleId=2786)",
+  "summary: An in-game-world news post (Free Realms site, 'What is New?' section, captured 2009-05-10) that presents the Frostfang Caverns on the eastern slopes of Snowhill as a dangerous ice cave complex. It names the Frostfang Wolf, Frostfang Bats and Icy Crawlers as in (http://www.freerealms.com:80/article/detail.action?articleId=75)"
+ ],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,56 @@
+{
+ "title": "Fiesta Luau en la Playa (Luau Beach Party)",
+ "names_seen": [
+  "Fiesta Luau en la Playa (Luau Beach Party)"
+ ],
+ "facts": [
+  {
+   "statement": "A community event called a luau beach party was held at Playa Azul, with players gathering at the sea shore to dance, turn into crabs, set off fireworks, trade collections and socialize.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Todo mundo estará llegando a las orillas del mar en Playa Azul para bailar, convertirse en cangrejos",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2065",
+   "date": null
+  },
+  {
+   "statement": "The luau event ran Thursday 24 March 2011 at 15:00 PST (23:00 CET) for US and Latin America, on Server 1.",
+   "numbers": {
+    "start_hour_PST": 15,
+    "start_hour_CET": 23
+   },
+   "era": "live",
+   "quote": "Jueves 24 de marzo, 2011 15:00hrs. PST (23:00 CET) (EE.UU. y Latino America) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2065",
+   "date": null
+  },
+  {
+   "statement": "A second run of the luau event was held Friday 25 March 2011 at 09:00 PST / 17:00 UTC for UK and Europe, on Server 1.",
+   "numbers": {
+    "start_hour_PST": 9,
+    "start_hour_UTC": 17
+   },
+   "era": "live",
+   "quote": "viernes 25 de marzo, 2011 09:00hrs. PST / 17:00hrs. UTC (UK y Europa) Servidor 1",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2065",
+   "date": null
+  },
+  {
+   "statement": "Community Ambassadors attended the luau to ask trivia questions, dance on the sea and answer players' questions about the game.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Nuestros Embajadores de la comunidad estarán presentes para hacer preguntas triviales, bailar sobre el mar",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2065",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2065",
+   "date": null,
+   "title": "Evento Comunitario: Fiesta Luau en la Playa (Free Realms - What is New?)",
+   "summary": "A Spanish-language community event post announcing a luau beach party at Playa Azul, held on two dates in March 2011 on Server 1, with Community Ambassadors hosting trivia, dancing and Q&A. The post also says outfits can be obtained by completing quests, redeeming web codes, spending in-game currency, or buying from the Station Cash catalog, and that pets have items too. The post date is only given as a relative age ('2 months, 1 week ago') in the capture, so the exact posting date is unknown."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

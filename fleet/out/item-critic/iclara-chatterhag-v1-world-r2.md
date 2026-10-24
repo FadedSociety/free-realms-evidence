@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iclara-chatterhag-v1-world-r2 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3279, 4442, 6, 1245] model=claude-haiku-5-5 -->
+# Clara Chatterhag
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources", "issue": "Empty sources are correct, since Clara Chatterhag is an NPC (npc_name, locale 36808) and not an item. The answer's quest-target evidence checks out: locale 41663 and 41664 are 'Ambassador to Snowhill' objectives (speak with Clara), locale 141278 is 'Deliver a flier to Clara Chatterhag', and the wiki Quest:Noisy Neighbors page has her as the starting NPC. Her quest roles are correctly kept out of sources.", "fix": "No change to the sources needed. Optionally, state in the answer that the quest links are NPC-role evidence, not item acquisition, so a builder does not read them as a source."}]}

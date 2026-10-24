@@ -1,0 +1,162 @@
+{
+ "title": "Bixie Soldier",
+ "our_entries": [
+  {
+   "file": "field_enemies.json",
+   "name_id": 440711,
+   "definition_id": 940102,
+   "model_id": 220,
+   "max_health": 100,
+   "damage": 7,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 440711,
+   "definition_id": 940102,
+   "model_id": 220,
+   "max_health": 100,
+   "damage": 7,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 440711,
+   "definition_id": 940102,
+   "model_id": 220,
+   "max_health": 100,
+   "damage": 7,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 440711,
+   "definition_id": 930053,
+   "model_id": 220,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 440711,
+   "definition_id": 930053,
+   "model_id": 220,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 440711,
+   "definition_id": 930053,
+   "model_id": 220,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "field_enemies.json",
+   "name_id": 440711,
+   "definition_id": 930053,
+   "model_id": 220,
+   "max_health": 180,
+   "damage": 15,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 440711,
+   "definition_id": 1237000,
+   "model_id": 220,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 440711,
+   "definition_id": 1237002,
+   "model_id": 220,
+   "max_health": 120,
+   "damage": 5,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 440711,
+   "definition_id": 1237003,
+   "model_id": 220,
+   "max_health": 120,
+   "damage": 5,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 440711,
+   "definition_id": 1230100,
+   "model_id": 220,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 440711,
+   "definition_id": 1230101,
+   "model_id": 220,
+   "max_health": 140,
+   "damage": 3,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 440711,
+   "definition_id": 1230102,
+   "model_id": 220,
+   "max_health": 140,
+   "damage": 3,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 440711,
+   "definition_id": 1230103,
+   "model_id": 220,
+   "max_health": 140,
+   "damage": 3,
+   "boss": false
+  }
+ ],
+ "entry_count": 14,
+ "client_name_matches": [
+  "locale:440711 [npc_name | - | Bixie Soldier] 'Bixie Soldier'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:440711 [npc_name | - | Bixie Soldier] 'Bixie Soldier'"
+ ],
+ "client_cluster": [
+  "locale:440711 [npc_name | - | Bixie Soldier] 'Bixie Soldier'",
+  "locale:440712 [npc_name | - | Bixie Battlemage] 'Bixie Battlemage'",
+  "locale:440713 [npc_name | - | Bixie Pikeman] 'Bixie Pikeman'",
+  "locale:440714 [npc_name | - | Buzzuz] 'Buzzuz'",
+  "locale:440715 [npc_name | - | Rebel Lieutenant] 'Rebel Lieutenant'",
+  "locale:440716 [npc_name | - | Bandit Patrolman] 'Bandit Patrolman'",
+  "locale:440717 [npc_name | - | Thugawug Stomper] 'Thugawug Stomper'",
+  "locale:440718 [npc_name | - | Thugawug Guardian] 'Thugawug Guardian'",
+  "locale:440719 [npc_name | - | Stompenmugg] 'Stompenmugg'"
+ ],
+ "wiki": {
+  "title": "Bixie Soldier",
+  "text": "The Bixie Soldier is an enemy bixie NPC that can be found in Queensfields along the two bixie groups of pikemen and battlemages. Most bixie soldiers are Difficulty 1 enemies.\nCategory:NPC\nCategory:Enemies\nCategory:Males\nCategory:Bixie\nCategory:Sanctuary"
+ },
+ "images": [
+  "image (image:character_or_npc): 1\nBixie Soldier"
+ ],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "other target in 'Bixie-B-Gone I' (unresolved): Defeat the Bixie Soliders attacking the area (Larkspur asks you to defend)",
+  "use target in 'Bixie-B-Gone I' (unresolved): Use this sprayer to chase away nearby Bixie Soldiers and Bixie Battlemages"
+ ]
+}

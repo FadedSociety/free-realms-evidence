@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=corange-party-popper-407464-v2-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3757, 4614, 6, 1164] model=claude-haiku-5-5 -->
+# Orange Party Popper
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4].source", "issue": "Cites locale:407421 as a source. The automatic check flags it as a placeholder sample line ('Used for 5M item: Party Popper'). It is cited only to withdraw the 5M Party Wheel link, not as support for the Orange Party Popper, but it should not sit in the evidence list as a source.", "fix": "Drop locale:407421 from the source list and keep only the withdrawal note, e.g. 'Previous 5M Party Wheel link withdrawn: article 316 names no colour (http://www.freerealms.com:80/article/detail.action?articleId=316); the only sample line (407421) is a placeholder and is not used.'"}]}

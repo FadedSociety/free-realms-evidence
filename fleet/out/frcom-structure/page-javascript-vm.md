@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=page-javascript-vm status=nothing_found turns=1 usd=0.0004 tokens(read,write,in,out)=[0, 1881, 4, 315] model=claude-haiku-5-5 -->
+# Free Realms - Enable JavaScript in your Web Browser
+
+{"article": {"title": "Free Realms - Enable JavaScript in your Web Browser", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This archived page is a generic browser-compatibility notice from freerealms.com, saying the site has no plugin-installation instructions for the visitor's browser. It contains only site navigation links (Parents, Legal & Copyright, Privacy Policy, Terms of Service, Photosensitive Warning) and no game facts a rebuild could use.", "facts": [], "quests": [], "uncertain": ["The capture date is 2008-12-18 but the page itself carries no article date.", "The page text does not name any game content; it is a plugin/browser error page."]}

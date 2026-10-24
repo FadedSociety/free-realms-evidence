@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgleaming-ocean-ring-96096-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4145, 7779, 6, 948] model=claude-haiku-5-5 -->
+# Gleaming Ocean Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].source", "issue": "Cites locale:150435 as a source line for the item's description check. The automatic id check flags it as a placeholder stub ('This is a ... item.'). The answer itself says it is not a real description, but it still lists it as evidence.", "fix": "Drop locale:150435 from the evidence list, or mark it explicitly as a rejected placeholder. The only description evidence is locale:96812, which is the real text. Re-checked: locale 96096 is 'Gleaming Ocean Ring'; no wiki, article, video, vendor or quest source appears in the pack. My own search of refs and lookup of client/wiki/articles/video found nothing beyond client text."}]}

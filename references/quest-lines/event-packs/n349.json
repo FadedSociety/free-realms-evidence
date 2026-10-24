@@ -1,0 +1,32 @@
+{
+ "title": "Weekend de réduction de prix (Weekend discount)",
+ "names_seen": [
+  "Weekend de réduction de prix (Weekend discount)"
+ ],
+ "facts": [
+  {
+   "statement": "A limited-time promotion gave 30% off Station Cash Marketplace items, with subscriptions excluded.",
+   "numbers": {
+    "discount_percent": 30,
+    "start_date_2012": 10,
+    "start_time_CET": 9.01,
+    "end_date_2012": 13,
+    "end_time_CET": 8.59
+   },
+   "era": "live",
+   "quote": "Obtiens 30% de réduction sur le articles Station Cash de la place du marché",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2710",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2710",
+   "date": null,
+   "title": "Free Realms - Quais são as Novidades? (item: Weekend de réduction de prix)",
+   "summary": "This Free Realms news page (Portuguese title, French body text) announces a limited weekend discount of 30% on Station Cash marketplace items, excluding subscriptions. It gives the exact offer window in CET, so it is useful for dating a 2012 live promotion. The page gives no absolute publication date, only a relative 'Publicado 2 meses, 3 semanas atrás'."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

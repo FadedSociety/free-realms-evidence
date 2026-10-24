@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-tempest-woven-long-cloak-25851-v1-evidence-r1 status=done turns=3 usd=0.0016 tokens(read,write,in,out)=[10392, 7219, 8, 1262] model=claude-haiku-5-5 -->
+# Elite Black Tempest Woven Long Cloak
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].source / evidence[1]", "issue": "Minor: the store row's source_tags (L1, L2, L4, R2, T633, R1) are release tags shared by many store rows, not acquisition evidence. The answer correctly does not treat them as proof of availability, but it should say so explicitly rather than only citing them as 'tagged for several releases'.", "fix": "Keep the coin store source as is. Note that repo:prototype/osfr-tools/data/content/stores.json line 6532 (item_id 11948, category 103, purchase 9453, member 8507, sell 945, no_sale false) is the only evidence, and that its source_tags are release tags, not a sale-window record."}]}

@@ -1,0 +1,30 @@
+{
+ "title": "Double Station Cash promotion",
+ "names_seen": [
+  "Double Station Cash promotion"
+ ],
+ "facts": [
+  {
+   "statement": "For a limited time, Station Cash retail game cards (excluding Starter Cards) redeemed during the promotion period give double their value in Station Cash.",
+   "numbers": {
+    "bonus_multiplier": 2,
+    "redeem_start_PDT_hour": 12,
+    "redeem_end_PDT_hour": 0
+   },
+   "era": "live",
+   "quote": "Redeem that card during the promotional period for DOUBLE its value in Station Cash.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1590",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1590",
+   "date": null,
+   "title": "Double Station Cash and Free Trial Membership Weekend",
+   "summary": "SOE's news post (captured July 2010) announcing a Fourth of July weekend promotion: prepaid Free Realms Station Cash retail cards redeemed in the window return double their value in Station Cash, and a free trial membership weekend gives non-members access to member content. Members-only items stay usable after the trial only if a membership is purchased."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

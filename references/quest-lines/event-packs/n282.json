@@ -1,0 +1,28 @@
+{
+ "title": "Community Event: Kart race challenge at Torrentrueno kart racing circuit",
+ "names_seen": [
+  "Community Event: Kart race challenge at Torrentrueno kart racing circuit"
+ ],
+ "facts": [
+  {
+   "statement": "A weekly community event was a kart race challenge where the winner takes the whole race on the Torrentrueno kart racing circuit.",
+   "numbers": {
+    "event_days": 2
+   },
+   "era": "live",
+   "quote": "el evento comunitario de esta semana será de extrema velocidad, donde el ganador se lleva toda la carrera",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2013",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2013",
+   "date": null,
+   "title": "Free Realms - What is New? (Evento Comunitario: Reto en el Circuito de Carreras de Torrentrueno)",
+   "summary": "A Spanish-language community event announcement for a player-versus-player kart race challenge at the Torrentrueno kart racing circuit, with server times for the Americas/Latin America and UK/Europe. It describes how to join the Karts Lobby and how to set up a PvP race (max players, AI disabled). The posting date is only given relative to capture ('4 months, 1 week ago'), so the event dates are the only dated anchors."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

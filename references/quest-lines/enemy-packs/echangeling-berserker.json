@@ -1,0 +1,31 @@
+{
+ "title": "Changeling Berserker",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\forgotten_caves.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:15997 [npc_name | - | Changeling Berserker] 'Changeling Berserker'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:15997 [npc_name | - | Changeling Berserker] 'Changeling Berserker'"
+ ],
+ "client_cluster": [
+  "locale:15993 [item | - | Fire Hydrant] 'Fire Hydrant'",
+  "locale:15995 [npc_name | - | Changeling Hacker] 'Changeling Hacker'",
+  "locale:15996 [npc_name | - | Changeling Marauder] 'Changeling Marauder'",
+  "locale:15997 [npc_name | - | Changeling Berserker] 'Changeling Berserker'",
+  "locale:16000 [npc_name | Briarheart Cavern | -] 'Geomancer Hailstorm'",
+  "locale:16004 [npc_dialog | - | -] 'Come here! No time to waste!'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

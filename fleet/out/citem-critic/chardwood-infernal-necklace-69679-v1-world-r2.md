@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chardwood-infernal-necklace-69679-v1-world-r2 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3800, 4474, 6, 892] model=claude-haiku-5-5 -->
+# Hardwood Infernal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Live is 'unsure' while the evidence pack's first-pass 'live: yes' is only a hint. The answer's handling is honest: no source shows the item is obtainable. My own checks agree: lookup across client, wiki, articles and video returns only the client name entry locale:69679, and repo search for Infernal, 22777 and 69679 finds no acquisition entry (only unrelated NPC and zone data).", "fix": "No change required. Keep live as unsure and record the first-pass 'live: yes' as unverified. Hardwood Celestial (locale:69674) is only a lead via video:506rO_mhaSs/00102 and was not confirmed by me; it must not be attributed to the Infernal variant."}]}

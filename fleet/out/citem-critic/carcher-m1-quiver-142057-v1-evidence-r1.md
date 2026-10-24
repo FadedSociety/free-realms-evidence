@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=carcher-m1-quiver-142057-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3654, 6210, 6, 1046] model=claude-haiku-5-5 -->
+# Archer M1 Quiver
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The series list is incomplete. The client also has Archer M1 Tunic/M2 Tunic (locale:141882, 142022) and Archer M2-M5 Hoodie (locale:141987, 141952, 141917 for M3-M5 Hoodie) alongside the Quiver names. The answer lists only some of them. This does not change the item's status, but the series claim should name the full set.", "fix": "Archer M-series in the client locale: M1 Tunic 141882, M2 Tunic 142022, M3 Hoodie 141987, M4 Hoodie 141952, M5 Hoodie 141917, M1 Quiver 142057, M2 Quiver 142092, M3 Quiver 142162, M4 Quiver 142197, M5 Quiver 142127 (locale table, checked)."}]}

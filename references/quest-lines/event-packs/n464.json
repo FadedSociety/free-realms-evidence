@@ -1,0 +1,30 @@
+{
+ "title": "Thanksgiving Station Cash bonus promotion",
+ "names_seen": [
+  "Thanksgiving Station Cash bonus promotion"
+ ],
+ "facts": [
+  {
+   "statement": "The Station Cash bonus promotion ran Monday November 23 through Sunday November 29, 2009, and cards had to be redeemed within that week to receive the bonus.",
+   "numbers": {
+    "start_day": 23,
+    "end_day": 29,
+    "bonus_percent": 25
+   },
+   "era": "live",
+   "quote": "Cards must be redeemed this week to receive the bonus Station Cash reward.",
+   "article": "http://www.tentonhammer.com:80/node/77125",
+   "date": "2009-11-24"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/77125",
+   "date": "2009-11-24",
+   "title": "SOE Offers 25% Bonus to Station Cash Cards Thanksgiving Week",
+   "summary": "Sony Online Entertainment announced a 25% bonus on retail Station Cash prepaid cards for Thanksgiving week (November 23-29, 2009). Station Cash cards were redeemable in Free Realms, EverQuest and EverQuest II, but the promotion excluded Free Realms Starter Cards. The article is a multi-game promotion notice, so Free Realms appears only as one redemption target."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

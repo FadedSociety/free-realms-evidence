@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgreen-speed-racer-nitro-upgrade-403109-v1-world-r2 status=no_submit turns=4 usd=0.0023 tokens(read,write,in,out)=[25041, 11175, 10, 1205] model=claude-haiku-5-5 -->
+# Green Speed Racer Nitro Upgrade
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The answer omits locale:403160 and locale:403161, which the lookup returns as item entries named 'Green Speed Racer' with descriptions 'The customized engine for the Green Speed Racer.' and 'The customized turbo for the Green Speed Racer.'. They sit outside the 403100-403114 cluster the answer relies on. They do not change the answer, since no source is named for any part, but a complete kart-part set would include them.", "fix": "Add locale:403160 and locale:403161 to the Green Speed Racer part cluster (lookup: client item entries), noting they are unsourced and may be a second engine/turbo naming set."}]}

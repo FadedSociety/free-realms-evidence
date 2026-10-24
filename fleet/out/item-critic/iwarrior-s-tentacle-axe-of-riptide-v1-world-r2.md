@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwarrior-s-tentacle-axe-of-riptide-v1-world-r2 status=no_submit turns=4 usd=0.0018 tokens(read,write,in,out)=[15470, 7618, 10, 1352] model=claude-haiku-5-5 -->
+# Warrior's Tentacle Axe of Riptide
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The claim that the Nekark fight happens 'alongside Orchid Eventide' is not supported. The repo notes (NPCs - Seaside.md:36 and :156) put Orchid Eventide as the first boss of the chain, in the cave under the dojo, and Nekark as a separate final fight in western Seaside waters.", "fix": "Drop 'alongside Orchid Eventide'. Use: Seaside, western waters just off the main beachfront, the final Heroes Journal fight after Unwanted Guests / Defeat the Kraken (repo notes/Build Guides/Content/NPCs/NPCs - Seaside.md:156, :224; wiki Nekark)."}]}

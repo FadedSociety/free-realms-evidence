@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-recipe-book-route-rs-L1 status=done turns=7 usd=0.0072 tokens(read,write,in,out)=[76575, 23095, 16, 7006] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/recipe_book_route.rs lines 1-287 of 287
+
+Window `prototype/osfr-tools/tests/recipe_book_route.rs` 1-287. Both tests are `#[ignore]` with a reason, and the fixture is a real private directory (`lab/references/rust-opening-cooking-original-assets`, referenced in MODLOG.md and notes), so there is no silent early-return skip. The findings below are the real gaps.
+
+- **[high] tests/recipe_book_route.rs:232 recipe_book_refusals_change_nothing - the "malformed lengths" packets carry recipe id 1, which is not learned, so they are refused for an unrelated reason.**
+  - Why it cannot catch a regression: `recipe_book::decode` (src/recipe_book.rs:39-49) rejects any 26/24 packet whose length is not 8. If that check were relaxed to `< 8`, or trailing bytes were ignored, the 9-byte packet `[26,0,24,0,1,0,0,0,0]` would decode to recipe 1. Recipe 1 is not learned, so the start is still refused and the snapshot is unchanged, and the test still passes. The 4-byte packet has no id at all, so a decoder that defaulted a missing id to 0 would also still be refused (0 is in the unknown-id list above).
+  - Fix: use the learned recipe id in the malformed packets, e.g. `[26,0,24,0,70,0,0,0,0]` (GUMBO, 70 LE) and a truncated `[26,0,24,0,70,0,0]`. Then a length-tolerant decoder would start a real cook, and `assert_same(...)` would fail. Also assert that the rejected packet produced a rejection outcome or error, rather than discarding it with `let _ =`.
+
+- **[medium] tests/recipe_book_route.rs:230 recipe_book_refusals_change_nothing - the "ready" baseline is never checked to be Chef.**
+  - Why it cannot catch a regression: the wrong-job block asserts that the switch to 43 happened (lines 215-226), but `select(&mut g, 45)` on line 230 has no such check. If the switch back fails, `ready` is a snapshot with the wrong job active, and the malformed loop becomes another "wrong job" refusal. Refusing for the wrong reason would pass, and the test would not show that a valid job plus bad length is refused.
+  - Fix: after line 230, `assert_eq!(g.snapshot().gameplay.unwrap().profiles.unwrap().active, 45, "back to Chef")`, mirroring the check at lines 215-226.
+
+- **[medium] tests/recipe_book_route.rs:192-228 recipe_book_refusals_change_nothing - the refusal blocks never check that a refusal happened, so a no-op `book_start` passes.**
+  - Why it cannot catch a regression: all refusal checks (missing inputs at 196-197, unknown ids at 202-203, away at 207-208, wrong job at 227-228) only compare snapshots. If the 26/24 handler ignored every start, or the gateway never dispatched it, every comparison would still match. The `send` outcome (`GatewayOutcome`, with a `replies` field) is discarded. The positive control exists only in the other test (line 245), not in this one.
+  - Fix: capture `send(...).replies` for each refusal and assert it contains the recipe refusal feedback (`Refusal::...feedback()` in src/recipe_book.rs). Alternatively, add a positive control in this test that the same start succeeds once the blocker is cleared (for example, inputs restored, or the station reached), so the refusal is shown to be caused by the blocker.
+
+- **[low] tests/recipe_book_route.rs:285-286 recipe_book_cooks_a_learned_recipe_once - the "cannot be re-run without inputs" claim is not what the check proves.**
+  - Why it cannot catch a regression: the final `book_start` is compared only against `idle`. It would pass if the start were refused for any reason (for example, cooking still marked active after exit, or the station out of reach), since the test does not check why it was refused.
+  - Fix: assert that the refusal feedback appears in the reply and that `count(&g, GUMBO_ITEM)` and the inputs are still at their post-craft values, so the refusal is pinned to the missing-inputs case.

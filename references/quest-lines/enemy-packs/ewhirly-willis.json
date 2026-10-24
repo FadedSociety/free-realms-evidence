@@ -1,0 +1,53 @@
+{
+ "title": "Whirly Willis",
+ "our_entries": [
+  {
+   "file": "npcs/wilds.json",
+   "npc_id": 9500000960,
+   "zone": "Wilds",
+   "enemy_kind": "Robgoblin \"shinyseeker\" and boss of the camp (\"Rizzle's boss, Whirly Willis\", 754500862). Supplier for the Freewheelers: \"the only supplier the Skullz ain't scared away\" (2891257134).",
+   "location_evidence": [
+    "Whirly's Scrap Camp (\"Speak with Whirly Willis located in Whirly's Scrap Camp\", wiki). Golmie says \"out in the wilds\"."
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:438999 [npc_name | - | Whirly Willis] 'Whirly Willis'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:438999 [npc_name | - | Whirly Willis] 'Whirly Willis'",
+  "locale:439000 [quest_dialog | - | Whirly Willis] 'Ooh nice, so much precious junk… I just can’t… I must have it!'",
+  "locale:439001 [quest_dialog | - | Whirly Willis | FLAG fragment: single-reply option \"Ok...\"] 'Ok...'",
+  "locale:439002 [quest_dialog | - | Whirly Willis] 'Sorry [*player*], just make the world stop spinning.  Alright, I’ll make the trade as originally planned.  It’s just we Robgoblins have been starving for junk e'",
+  "locale:439003 [quest_dialog | - | Whirly Willis] 'Just this once...'",
+  "locale:439024 [quest_objective | Sandscale Oasis | Whirly Willis] 'Defeat Whirly Willis'"
+ ],
+ "client_cluster": [
+  "locale:438991 [quest_dialog | - | Freewheeler Bike] \"It's good to see my old ride again.  It’s in bad shape, but I’m sure Golmie Greasebeard can fix it up.\"",
+  "locale:438992 [quest_dialog | - | Golmie Greasebeard] 'Golmie can fix anything.'",
+  "locale:438997 [item | - | Freewheeler Bike] 'Freewheeler Bike'",
+  "locale:438998 [other | - | Age: | FLAG fragment: UI label with no quest meaning] 'Age:'",
+  "locale:438999 [npc_name | - | Whirly Willis] 'Whirly Willis'",
+  "locale:439000 [quest_dialog | - | Whirly Willis] 'Ooh nice, so much precious junk… I just can’t… I must have it!'",
+  "locale:439001 [quest_dialog | - | Whirly Willis | FLAG fragment: single-reply option \"Ok...\"] 'Ok...'",
+  "locale:439002 [quest_dialog | - | Whirly Willis] 'Sorry [*player*], just make the world stop spinning.  Alright, I’ll make the trade as originally planned.  It’s just we Robgoblins have been starving for junk e'",
+  "locale:439003 [quest_dialog | - | Whirly Willis] 'Just this once...'",
+  "locale:439004 [quest_dialog | - | Golmie Greasebeard] 'I’m no miracle worker I still need parts to fix up these bikes.  Go make the trade with Whirly Willis in the wilds.'"
+ ],
+ "wiki": {
+  "title": "Whirly Willis",
+  "text": "Whirly Willis is a robgoblin NPC that can be found in Sunstone Valley. He is a shinyseeker who had been help with the player, Dorn, Peace-guana Joe, and the Freewheelers to fight against the Skullz.\n\nDialogues\n\nAppearances\nQuest:A Deal with a Dust Devil\nQuest:Junk or Bust (mentioned)\nQuest:Robot Woes (mentioned)\nSaving a Friend\nTrading Card Game Series 5\nCategory:NPC\nCategory:Males\nCategory:Robgoblin\nCategory:Sunstone Valley\nCategory:Trading Card Game"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "deliver target in 'A Deal with a Dust Devil' (final): Make the junk trade with Whirly Willis to get the last motorcycle parts.",
+  "talk target in 'A Deal with a Dust Devil' (final): Talk to Whirly Willis",
+  "defeat target in 'A Deal with a Dust Devil' (final): Defeat Whirly Willis",
+  "talk target in 'A Deal with a Dust Devil' (final): Talk to Whirly Willis (second talk after the fight; wiki Goals only, no client string)",
+  "other target in 'Fixing Up a Sweet Ride' (final): Make the junk trade with Whirly Willis to get the last motorcycle parts.",
+  "talk target in 'Fixing Up a Sweet Ride' (final): Talk to Whirly Willis"
+ ]
+}

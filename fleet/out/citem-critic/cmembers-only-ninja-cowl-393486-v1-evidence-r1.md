@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmembers-only-ninja-cowl-393486-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3860, 7731, 6, 1345] model=claude-haiku-5-5 -->
+# Members Only Ninja Cowl
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live / retired", "issue": "The answer correctly leaves live as unsure and retired as null. My lookup adds one related wiki fact it does not mention: the Sunset of Free Realms news entry (ns0, 02/11/2014) says all items were flagged non-Member to fix Members Only items unequipping on logout. That bears on the item's status, but it does not name the Ninja Cowl, so it is context, not a source.", "fix": "Optionally cite wiki 'Sunset of Free Realms' (02/11/2014 entry) as context for the Members Only flag change. Keep retired null and live unsure unless a source names the item."}]}

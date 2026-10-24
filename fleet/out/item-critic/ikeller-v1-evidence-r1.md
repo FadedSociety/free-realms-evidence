@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ikeller-v1-evidence-r1 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3571, 9698, 6, 1211] model=claude-haiku-5-5 -->
+# Keller
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is right that Keller is an NPC and not an item. Locale 5102122 is tagged npc_name (confirmed with the locale lookup). The wiki page has no prices, and the pack has no coin or Station Cash data. The answer's open notes say so honestly.", "fix": "Optional: the repo's own records already hold Keller as a vendor (prototype/osfr-tools/data/content/vendors.json, npc_name Keller, with stock rows such as Blacksmith's Hammer of Talent V and notes/Build Guides/Content/Jobs/Blacksmith.md line 194, 'none listed' for price). The answer could cite these as the stock list, still with no price. The wiki's 'Sells' list is the evidence for the stock; the answer does not need to list every item."}]}

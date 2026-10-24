@@ -1,0 +1,56 @@
+{
+ "title": "Letterman Jacket giveaway",
+ "names_seen": [
+  "Letterman Jacket giveaway"
+ ],
+ "facts": [
+  {
+   "statement": "Players who logged in and claimed a Letterman Jacket during the celebration window received it free.",
+   "numbers": {},
+   "era": "live",
+   "quote": "we're giving away a Letterman Jacket to everyone who logs in and claims this rare item",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2305",
+   "date": null
+  },
+  {
+   "statement": "The claim window ran from Friday October 21, 2011 through Monday October 31, 2011 at 11:59 p.m. PDT.",
+   "numbers": {
+    "start_date": 20111021,
+    "end_date": 20111031
+   },
+   "era": "live",
+   "quote": "from Friday, October 21st, 2011, through Monday, October 31st, 2011, at 11:59 p.m. PDT",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2305",
+   "date": null
+  },
+  {
+   "statement": "A free Free Realms Letterman Jacket, a rare item, was given to every player who logged in and claimed it from October 21, 2011 through October 31, 2011 at 11:59 p.m. PDT.",
+   "numbers": {
+    "claim_start_day": 21,
+    "claim_end_day": 31,
+    "month": 10,
+    "year": 2011
+   },
+   "era": "live",
+   "quote": "giving away a Letterman Jacket to everyone who logs in and claims this rare item",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2308",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2305",
+   "date": null,
+   "title": "Free Realms Celebrates 20 Million Registered Players!",
+   "summary": "SOE's official news post announcing 20 million registered players and a limited-time giveaway of a Letterman Jacket for logging in between October 21 and October 31, 2011. The Community Team also held two dance parties in Sanctuary on Server 1 on October 21, 2011. The post gives the launch date as April 28, 2009."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2308",
+   "date": null,
+   "title": "Free Realms Celebrates 20 Million Registered Players!",
+   "summary": "SOE announced that more than 20 million users had registered for Free Realms since its April 28, 2009 launch. To celebrate, a Letterman Jacket was given away to players who logged in and claimed it between October 21 and October 31, 2011, and the Community Team held dance parties in Sanctuary on October 21, 2011."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

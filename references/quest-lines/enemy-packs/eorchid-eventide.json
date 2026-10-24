@@ -1,0 +1,50 @@
+{
+ "title": "Orchid Eventide",
+ "our_entries": [
+  {
+   "file": "npcs/seaside.json",
+   "npc_id": 9500000611,
+   "zone": "Seaside",
+   "enemy_kind": "Pixie ninja at the Flying Dragon Dojo, under Gloam influence; first boss of the chain",
+   "location_evidence": [
+    "The cave under the dojo (\"Head to the caves under the dojo and stop Orchid Eventide\", 38538413); wiki: reached from the south side of the dojo, a one-time dungeon battle"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:5101587 [quest_title | - | Orchid Eventide] 'Orchid Eventide'",
+  "locale:5101599 [quest_title | - | Orchid Eventide] 'Orchid Eventide'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:5101566 [quest_dialog | - | Orchid Eventide] 'Normally people ask me about the future and not the past… Promise to not tell anyone, but I’m better at seeing the past than the future. Here I’ll show you what'",
+  "locale:5101577 [quest_objective | - | Orchid Eventide] 'Have you defeated 10 ghosts? Return when you have done so.'",
+  "locale:5101579 [quest_dialog | - | Orchid Eventide | FLAG fragment: single word reply option \"Ty\"] 'Ty'",
+  "locale:5101580 [quest_dialog | - | Orchid Eventide] 'First you want to see the past now you want to divinate ghosts? I’m a fortune teller not an exorcist.<BR><BR>Ok, I’ll help, those ghost haven’t been too good fo'",
+  "locale:5101582 [quest_dialog | - | Orchid Eventide] 'Oh no, you broke it!<BR><BR>Did you at least learn anything? WHAT! GLOAMLINGS?! Wow that’s not good. Well I guess the loss of the stone was worth learning the t'",
+  "locale:5101587 [quest_title | - | Orchid Eventide] 'Orchid Eventide'",
+  "locale:5101599 [quest_title | - | Orchid Eventide] 'Orchid Eventide'",
+  "locale:5101800 [quest_objective | Seaside | Orchid Eventide] 'Get to Orchid Eventide'",
+  "locale:5101808 [quest_objective | Seaside | Orchid Eventide] 'Orchid Eventide Gloam Pearls'",
+  "locale:5101842 [quest_objective | - | Orchid Eventide] 'Head to the caves under the dojo and stop Orchid Eventide.'"
+ ],
+ "client_cluster": [
+  "locale:5101579 [quest_dialog | - | Orchid Eventide | FLAG fragment: single word reply option \"Ty\"] 'Ty'",
+  "locale:5101580 [quest_dialog | - | Orchid Eventide] 'First you want to see the past now you want to divinate ghosts? I’m a fortune teller not an exorcist.<BR><BR>Ok, I’ll help, those ghost haven’t been too good fo'",
+  "locale:5101582 [quest_dialog | - | Orchid Eventide] 'Oh no, you broke it!<BR><BR>Did you at least learn anything? WHAT! GLOAMLINGS?! Wow that’s not good. Well I guess the loss of the stone was worth learning the t'",
+  "locale:5101583 [ui | - | - | FLAG placeholder: \"New Choice Text\" is a template string] 'New Choice Text'",
+  "locale:5101584 [quest_title | - | Unwanted Guests] 'Unwanted Guests'",
+  "locale:5101585 [quest_objective | - | Unwanted Guests] 'Have you collected the needed ingredients?'",
+  "locale:5101587 [quest_title | - | Orchid Eventide] 'Orchid Eventide'",
+  "locale:5101588 [npc_name | - | Gloamling] 'Gloamling'",
+  "locale:5101589 [npc_name | - | Nekark] 'Nekark'",
+  "locale:5101590 [quest_dialog | Sweetwater | Sasparilla Festival] \"Howdy-hi-hi, friend! <font size='12'>(buzz)</font><br><br>With the Sasparilla Festival in full swing, you've picked a wonderful time to visit Wugachug! <font si\"",
+  "locale:5101592 [quest_dialog | Sweetwater | Sasparilla Festival] \"There's always plenty to drink during the Sasparilla Festival! <font size='12'>(buzz)</font><br><br>We even have the main event coming up - a drinking contest a\"",
+  "locale:5101594 [quest_dialog | Sweetwater | Sasparilla Festival] \"The Sasparilla Festival is the time when people come from all over to share their best batch of Sweetwater Sasparilla! <font size='12'>(buzz)</font><br><br>In f\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

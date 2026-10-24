@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csea-of-flames-40937-v2-evidence-r3 status=no_submit turns=2 usd=0.0013 tokens(read,write,in,out)=[3932, 5898, 6, 948] model=claude-haiku-5-5 -->
+# Sea of Flames
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence / open (wiki claim)", "issue": "The answer says the wiki 'List of Collections' mention of Inferno Lanterns could not be re-confirmed. My lookup does return it: wiki page 'List of Collections' lists [Inferno] [Lanterns] among its collection names. The claim should be restored as confirmed, but it only shows that the collection exists. It is not an acquisition source.", "fix": "Mark the wiki List of Collections entry (Inferno Lanterns) as confirmed, with a note that it establishes the collection name only, not how the item is obtained."}]}

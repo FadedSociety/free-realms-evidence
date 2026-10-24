@@ -1,0 +1,78 @@
+{
+ "title": "Bigfoot",
+ "our_entries": [
+  {
+   "file": "dungeons\\bigfoot_s_lair.json",
+   "definition_id": 930000
+  },
+  {
+   "file": "dungeons\\bigfoot_s_lair.json",
+   "definition_id": 930000
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:428930 [npc_name | - | Bigfoot] 'Bigfoot'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:428930 [npc_name | - | Bigfoot] 'Bigfoot'",
+  "locale:428938 [quest_dialog | - | Bigfoot] 'Hey! Did Chatty send you to help?'",
+  "locale:428939 [quest_objective | - | Bigfoot] 'Bigfoot is just up ahead... '",
+  "locale:428940 [quest_dialog | - | Bigfoot] \"If you think we can take him I'll get your back.\"",
+  "locale:428941 [quest_dialog | - | Bigfoot] 'But the others would help out a lot.'",
+  "locale:428981 [quest_objective | - | Bigfoot] 'Defeat Bigfoot!'",
+  "locale:428990 [quest_dialog | - | Bigfoot] 'Oh, I thought you were Bigfoot.'",
+  "locale:429002 [npc_dialog | - | Bigfoot] 'GRRR! ...um, and RAWR!'",
+  "locale:429003 [npc_dialog | - | Bigfoot] 'BARK! ...I mean... er... RAWR!'",
+  "locale:429004 [npc_dialog | - | Bigfoot | FLAG joke: nonsense growl line] 'BLERG!'",
+  "locale:429005 [npc_dialog | - | Bigfoot] 'RAAAAWR! ...and stuff...'",
+  "locale:429006 [ability | - | Bigfoot] 'Bigfoot Rock Throw'",
+  "locale:429009 [other | - | Bigfoot | FLAG dev_note: internal proc note] 'On death proc'",
+  "locale:429105 [npc_dialog | - | Bigfoot] \"What do I do around here? Uh... well, let's just say I take care of a very special friend of this camp. <BR><BR>I'll tell you more about it if Robbie makes you \"",
+  "locale:429142 [quest_dialog | - | Bigfoot] 'Thanks for saving me from those bears.'",
+  "locale:429143 [quest_dialog | - | Bigfoot] \"If you're going after Bigfoot I've got your back!\"",
+  "locale:429144 [quest_dialog | - | Bigfoot] 'But I got separated from the others.'",
+  "locale:429526 [quest_dialog | - | Bigfoot] 'Wait!  I thought I saw something...'",
+  "locale:429527 [quest_dialog | - | Bigfoot] \"I'm not scared of you, Bigfoot! Come out!\"",
+  "locale:429528 [quest_dialog | - | Bigfoot] 'Maybe Bigfoot always looks blurry because he IS blurry.'"
+ ],
+ "client_cluster": [
+  "locale:428922 [ability | - | Ember Strike] 'Attack all opponents in front of you with burning fury!'",
+  "locale:428923 [ability | - | Twilight Strike] 'Twilight Strike'",
+  "locale:428924 [ability | - | Twilight Strike] 'Attack all opponents in front of you with the power of twilight. Has a slightly longer reach.'",
+  "locale:428925 [ability | - | Vampiric Wrath] 'Vampiric Wrath'",
+  "locale:428926 [ability | - | Vampiric Wrath] 'Damages all nearby opponents and drains some of their health.'",
+  "locale:428927 [ability | - | Vampiric Wrath Proc] 'Vampiric Wrath Proc'",
+  "locale:428928 [ability | - | Vampiric Wrath Proc] 'Lifetap effect granted by the Vampirc Wrath ultra attack.'",
+  "locale:428929 [npc_name | - | Greenwood Bear] 'Greenwood Bear'",
+  "locale:428930 [npc_name | - | Bigfoot] 'Bigfoot'",
+  "locale:428931 [npc_name | - | Counselor Kaela] 'Counselor Kaela'",
+  "locale:428932 [npc_name | - | Counselor Tyra] 'Counselor Tyra'",
+  "locale:428934 [npc_name | - | Counselor Edmond] 'Counselor Edmond'",
+  "locale:428935 [npc_name | - | Counselor Jake] 'Counselor Jake'",
+  "locale:428938 [quest_dialog | - | Bigfoot] 'Hey! Did Chatty send you to help?'"
+ ],
+ "wiki": null,
+ "images": [
+  "image (image:character_or_npc): Bigfoot"
+ ],
+ "video": [
+  "video:s4q4D_xmPoU/00138.jpg (Bigfoot's Lair): dialog: Bigfoot: GRRR! ...um, and RAWR! | quest:   Defeat Bigfoot!  | job_level: Warrior 8 | other_text: Bigfoot (boss name bar)",
+  "video:L27vxozHOls/00230.jpg (Bigfoot's Lair): job_level: Archer 20 | other_text: Bigfoot's Lair Goals (1) Defeat Bigfoot!",
+  "video:s4q4D_xmPoU/00120.jpg (Bigfoot's Lair): dialog: Bigfoot: RAAAAWR! ...and stuff... | quest:   Defeat Bigfoot!  | job_level: Warrior 8 | other_text: Bigfoot (boss name bar) You can't use abilities when you are stunned!",
+  "video:L27vxozHOls/00194.jpg (Bigfoot's Lair): npcs: Counselor Edmond nameplate  Counselor Tyra nameplate  Robbie dialog_header  | dialog: Ow ow ow! I give up! Robbie!? You were Bigfoot!? | quest:   Defeat Bigfoot! (complete)  | job_level: Archer 20 | other_text: Goal Complete Confronting Bigfoot Speak to Counselor Edmond Con",
+  "video:L27vxozHOls/00092.jpg (Bigfoot's Lair): npcs: Counselor Tyra dialog_header  | dialog: Thanks for saving me from those bears. If you're going after Bigfoot I've got your back! | quest:   Defeat Bigfoot!  | job_level: Archer 20 | other_text: Bigfoot's Lair Goals (1) Defeat Bigfoot!"
+ ],
+ "article_facts": [
+  "fact:npc: Bigfoot sightings were reported in the Greenwood Forest area during Summer Camp. | There have also been sightings of Bigfoot in the area! (http://www.freerealms.com:80/article/detail.action?articleId=1498)",
+  "fact:event: Bigfoot was reported near Camp Chatty during the summer camp event week, and players were invited to seek it out. | Si tu es à la recherche de Bigfoot près du Camp d’été de Chatty (http://www.freerealms.com/article/detail.action?articleId=1552)",
+  "fact:event: Chatty and Robbie set up summer camps near the new warpstone in Greenwood Forest, and reports mention Bigfoot in the area. | Chatty et Robbie ont établi des camps d'été près de la nouvelle Pierre de téléportation de la Forêt de Boisvert. (http://www.freerealms.com:80/article/detail.action?articleId=1502)"
+ ],
+ "quest_answers_naming_it": [
+  "use target in 'Bigfoot's Endangered' (final): Bigfoot is a clickable node only while this quest is held; clicking it starts the battle Bigfoot Defender",
+  "go target in 'Camp Troubles' (unresolved): The foot prints lead to a copse of trees. That must be where Bigfoot hides out!",
+  "talk target in 'Confronting Bigfoot' (final): Confront Bigfoot and see what he wants.",
+  "go target in 'Putting Your Foot Down' (final): Find and chase Robbie away in his Bigfoot costume. (the actionable segment of a longer paragraph)",
+  "defeat target in 'Putting Your Foot Down' (final): Defeat \"Bigfoot\" (quest-log wording; completed by the Bigfoot's Lair battle goal)"
+ ]
+}

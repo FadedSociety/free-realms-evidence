@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icroaking-vale-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4512, 11849, 6, 940] model=claude-haiku-5-5 -->
+# Croaking Vale
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' although the pack shows the name is a point-of-interest/dungeon label, not an item. Nothing in the client or wiki sells or awards a 'Croaking Vale' item, so the item has no live acquisition to verify.", "fix": "Keep the item out of the item catalogue. The client confirms the name is a place label: locale 18219 'Croaking Vale' is the NameId of world point of interest id=72 (prototype/osfr-tools/data/content/npcs/briarwood.json, PointOfInterests crosswalk), and locale 30424 is tagged place. Its quest and objective uses (20472, 23135-23137, 31074, 30461) are dungeon-context text, not item text."}]}

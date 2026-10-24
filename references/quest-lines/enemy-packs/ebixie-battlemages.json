@@ -1,0 +1,21 @@
+{
+ "title": "Bixie Battlemages",
+ "our_entries": [
+  {
+   "file": "dungeons\\bixie_hive.json",
+   "definition_id": 930052
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [],
+ "client_lines_tagged_to_name": [],
+ "client_cluster": [],
+ "wiki": {
+  "title": "Bixie Battlemage",
+  "text": "The Bixie Battlemage is an enemy bixie NPC that can be found in Queensfields along the two bixie groups of pikemen and soldiers. Most bixie battlemages are Difficulty 1 enemies, they also can be found in Highroad Junction, which referred to as \"Bixie Magus\".\nCategory:NPC\nCategory:Enemies\nCategory:Females\nCategory:Bixie\nCategory:Sanctuary\nCategory:Highroad Junction"
+ },
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-16652 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2870, 4, 584] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is only the vBulletin shell of the Free Realms Forums (captured 2009-05-20). It shows a 'maximum number of posts you can view' error and forum navigation, with no thread or article text. It gives a rebuilder no facts about quests, items, prices, events or mechanics.", "facts": [], "quests": [], "uncertain": ["The intended thread content is absent. The page shows only a view-limit error and forum index, so the original post could not be read.", "The thread title, author and date are unknown from this capture."]}

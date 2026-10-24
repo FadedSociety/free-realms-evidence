@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iburglz-v1-evidence-r1 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3234, 5613, 6, 1032] model=claude-haiku-5-5 -->
+# Burglz
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "Cites locale:441431 as a dialog line identifying Burglz as the Robgoblin Banker. The client tags 441431 as npc_dialog under Burglz, but its text is 'Yoink here! Robgoblin Banker ready to serve.', which names Yoink, not Burglz. Only locale:441432 ('Pleased to meet you, I'm Burglz the Robgoblin Banker.') supports the identification.", "fix": "Cite only locale:441432 for the Burglz/Robgoblin Banker identification (client lookup, npc_dialog). Drop 441431 or flag it as a mis-tagged Yoink line. The wiki Banking page and the Robgoblins page both list Burglz as a Seaside Robgoblin Banker, and the repo notes (NPCs - Seaside.md:133) list bank storage with no item sold."}]}

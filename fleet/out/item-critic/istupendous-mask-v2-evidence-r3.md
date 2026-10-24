@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=istupendous-mask-v2-evidence-r3 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[11499, 9957, 8, 1514] model=claude-haiku-5-5 -->
+# Stupendous Mask
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price / open[0]", "issue": "The answer says the 70 price comes only from the wiki infobox and that the page text price fields are blank. The wikitext for rev 36456 has the price inline as {{Coin|70}} in the lead sentence, and the Members 10% price is the same page's text. The price is therefore evidenced by the page wikitext, not only by metadata.", "fix": "Cite freerealms-wiki/wikitext/12404-36456 (lead sentence: 'at the regular price of {{Coin|70}}, and to Members at the 10% discount'), with catalog.json coins [70, 63] as corroboration. 63 is consistent with 10% off 70. Currency 'coins' is supported by the {{Coin}} template."}]}

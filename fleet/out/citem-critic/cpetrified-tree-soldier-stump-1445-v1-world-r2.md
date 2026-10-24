@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpetrified-tree-soldier-stump-1445-v1-world-r2 status=done turns=6 usd=0.0025 tokens(read,write,in,out)=[41528, 10445, 14, 1542] model=claude-haiku-5-5 -->
+# Petrified Tree Soldier Stump
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer does not mention the article fact that collection items are found throughout the world and identified by a sparkle (refs articles/facts.json:47216, 'Collection items are found throughout the world and are identifiable by a sparkle'). It is a general rule, not a source for this item, so leaving it out is acceptable, but it could be noted in open as context for where to look.", "fix": "Optionally add to open: 'General rule: collection items are found in the world and marked by a sparkle (articles/facts.json:47216); no specific placement for 1445 is recorded.'"}]}

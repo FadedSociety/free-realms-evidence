@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ichatty-v2-world-r2 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4754, 5970, 6, 1169] model=claude-haiku-5-5 -->
+# Chatty
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4]", "issue": "The claims that Chatty Suit was sold in the SC Marketplace with a 10% member discount, that Chatty Costume is a Super Spooktacular item, and that Chatty Wobblehead is in the Monthly Member Pack (Aug 2013) cite wiki pages whose text is not in the evidence pack. The pack only lists their titles. These are unverified as stated, though the answer does not use them as sources for the record.", "fix": "Mark these as title-only leads, or pull the full wiki text for Chatty Suit, Chatty Costume and Monthly Member Pack Items before citing prices or event sources. My own wiki search found the Chatty Costume image but no page text confirming the claims."}]}

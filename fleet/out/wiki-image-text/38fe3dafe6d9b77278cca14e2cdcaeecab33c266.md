@@ -1,0 +1,4 @@
+<!-- fleet job=wiki-image-text id=38fe3dafe6d9b77278cca14e2cdcaeecab33c266 status=done turns=2 usd=0.0006 tokens(read,write,in,out)=[1870, 2174, 6, 603] model=claude-haiku-5-5 -->
+# Sammy.png
+
+{"kind": "character_or_npc", "has_text": true, "text": "Sammy", "tooltip": null, "entries": null, "uncertain": ["The image is very small (about 100 px wide). The only text I can make out is a faint word at the top that appears to read \"Sammy\"; it may be a name label or overlay, and I cannot confirm its exact placement or any other characters.", "The render shows a character with pink/red hair and butterfly-like wings in a blue-green setting. No other text is legible.", "Locale matches for \"Sammy\": 74360 is \"Sammy\" (NPC name); 436624 is \"Sammy &quot;The Shark&quot;\"; 74353 is a quest line \"Locate all of Meliee's friends! Find Sammy!\". The on-screen text is consistent with the NPC name, but I did not confirm which one the image shows."]}

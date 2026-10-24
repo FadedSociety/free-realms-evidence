@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctoxic-seaside-mixture-66824-v2-evidence-r3 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4176, 6365, 6, 989] model=claude-haiku-5-5 -->
+# Toxic Seaside Mixture
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "Labelled 'collection', but the item is a member of collection 151 (its description says it 'can be added to the Seaside Mixture Collection'). Nothing in the pack shows it is itself a collection. The label is a first-pass guess carried through, not evidence.", "fix": "Use a kind such as 'collection_member' or 'collection_item', or leave kind unset until the item's role is confirmed. Evidence: locale:132410; collection_catalogue.json:11539-11611 (collection 151 entry index 1 = item 23211)."}]}

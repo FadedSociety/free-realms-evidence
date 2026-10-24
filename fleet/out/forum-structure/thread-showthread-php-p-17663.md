@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-17663 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2872, 4, 487] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": true, "summary": "The capture is a Free Realms Forums page showing only the vBulletin 'maximum number of posts you can view' error and forum navigation. It contains no thread text, guide, or game information, so there is nothing a rebuilder can take from it about quests, items, prices, events or mechanics.", "facts": [], "quests": [], "uncertain": ["The intended thread (URL p=17663) did not load; only the forum error page and forum index were captured.", "No thread title, author, post date or post body is present in the extracted text."]}

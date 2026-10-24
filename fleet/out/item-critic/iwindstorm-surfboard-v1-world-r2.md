@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iwindstorm-surfboard-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3592, 8837, 6, 1062] model=claude-haiku-5-5 -->
+# Windstorm Surfboard
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The answer does not mention that the Surfboards category page (wiki, 'Surfboards') lists Windstorm Surfboard under 'Notable Surfboards' alongside Surfboard, Wooden Surfboard, Basalt Surfboard and Chilly Surfboard. This is a wiki listing that agrees with the unreleased status, so it should be cited as a supporting world source, not left out.", "fix": "Add: wiki page 'Surfboards' lists [Windstorm Surfboard] under Notable Surfboards (lookup of wiki:Surfboards). It fits the item's unreleased status and does not create a vendor, price or currency source."}]}

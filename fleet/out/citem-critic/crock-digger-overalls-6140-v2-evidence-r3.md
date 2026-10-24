@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crock-digger-overalls-6140-v2-evidence-r3 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3886, 5370, 6, 990] model=claude-haiku-5-5 -->
+# Rock Digger Overalls
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].type", "issue": "Typed 'vendor' although no NPC, vendor name or stock row is evidenced. The only evidence is a store-category row (category 104, shared with many unrelated items at other prices). Calling it a vendor source overstates what the data shows.", "fix": "Keep the coin store price as the source (repo:prototype/osfr-tools/data/content/stores.json:674: item_id 2497, category 104, tint_group 1, purchase 464, member 417, sell 46), but type it as 'coin_store_row' with where=null, or state explicitly that the vendor is unidentified. The answer already says this in open[0]; the source type should match."}]}

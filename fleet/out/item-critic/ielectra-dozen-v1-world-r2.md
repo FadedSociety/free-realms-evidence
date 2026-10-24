@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ielectra-dozen-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3418, 10472, 6, 1058] model=claude-haiku-5-5 -->
+# Electra Dozen
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / live", "issue": "The record is an NPC (locale:45790, npc_name; wiki 'Electra Dozen is a pixie NPC'), not an item, so 'kind: other' and live 'unsure' describe a non-item. The answer says so itself. Not a wrong claim, but the item-acquisition question has no valid target here.", "fix": "Mark as not an acquirable item (no acquisition sources) rather than an item with unsure live status. Electra Dozen's quest role is confirmed: locale:93922, 93924, 93926, 93929, 93930, 93937, 93959 and 139772 (Seaside Electric Scouting / Seaside Sandi talent-show target), and locale:75478 (Seaside Coco-Nuts! 'Deliver to Electra Dozen')."}]}

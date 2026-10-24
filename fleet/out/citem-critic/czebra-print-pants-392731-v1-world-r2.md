@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=czebra-print-pants-392731-v1-world-r2 status=done turns=4 usd=0.0013 tokens(read,write,in,out)=[11423, 4579, 10, 1320] model=claude-haiku-5-5 -->
+# Zebra Print Pants
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Tiger Sunglasses wiki claim checks out (wiki page 'Tiger Sunglasses': Station Cash Marketplace and Cragara, head slot, All Jobs). But no wiki page, article, video frame, vendor row, quest or drop names Zebra Print Pants, and the Animal-print set link is speculation. Nothing in the pack or the repo (*.json search for 'zebra') or the wiki/articles lookup for 'animal print' ties the pants to that set.", "fix": "Keep sources empty and retired null. Keep live as 'unsure'. Keep the animal-print set as an open lead only, not a source. The answer is honest as written; no clearly evidenced source is omitted."}]}

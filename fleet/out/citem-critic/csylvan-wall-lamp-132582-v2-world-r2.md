@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csylvan-wall-lamp-132582-v2-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4272, 8528, 6, 1355] model=claude-haiku-5-5 -->
+# Sylvan Wall Lamp
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "The evidence pack's video claim cites an 'Adventurer 20' housing 'Click to Decorate' list, but the only job-level tag in the cited frames is 'Card Duelist 20' (video:dYq8DkeKGpw/00398.jpg). The Adventurer 20 label is not visible in the frames I checked, and the answer does not explain where it came from.", "fix": "Cite only what the frames show: 'Sylvan Wall Lamp' in world views with the prompt 'Press X or' (video:3JblMg1quEY/02636.jpg, 01984.jpg; dYq8DkeKGpw/00398.jpg with Card Duelist 20 display context). Drop the Adventurer 20 housing-list claim unless a frame is cited for it."}]}

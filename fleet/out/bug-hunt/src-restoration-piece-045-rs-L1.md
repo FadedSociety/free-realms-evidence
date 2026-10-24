@@ -1,0 +1,16 @@
+<!-- fleet job=bug-hunt id=src-restoration-piece-045-rs-L1 status=done turns=9 usd=0.0109 tokens(read,write,in,out)=[169096, 33307, 20, 10087] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/src/restoration/piece_045.rs lines 1-667 of 667
+
+Window `prototype/osfr-tools/src/restoration/piece_045.rs` lines 1-667 read in full. No remote-reachable defect found. The module is not registered in the server: its only consumer is `tests/piece_045.rs` (via `#[path]`), so both findings below are latent or test-side and are rated low.
+
+Checked and clean: the `Cursor` reads (`read_i32`, `read_text`, offsets stay ≤ len, and `length` is bounded to 4096 before the cast); `parse_profile_attachments` (count bounded to 1024 before `usize` cast, trailing bytes rejected); `parse_equip_reply` and `parse_visible_reply` (length checks precede every index and slice); `placeholders` (every slice boundary is a `<`/`>` ASCII char, so no char-boundary panic); `inspect`'s `expect` (ownership is verified on the same `state` immediately before, with no mutation in between).
+
+**[low] prototype/osfr-tools/src/restoration/piece_045.rs:588-601 - `replay_equip` returns `Refused` after `inventory.handle` has already committed the equip.**
+- Failure scenario: `inventory.handle(request)` succeeds (equipment is written to `inventory`). The reply's `validate_appearance` (line 589) or `parse_visible_reply` (line 600) then fails. The function returns `Replay::Refused { error, equipment }` at line 592 or 601, where `equipment` is the post-commit state from line 575. The caller is told the equip was refused while the inventory now holds the new row. This breaks the "a refusal is byte-stable" contract that `tests/piece_045.rs:729` and `:743` assert. The test only passes because the shipped content always validates.
+- Reach: caller is `tests/piece_045.rs` only. The trigger is a content definition whose appearance fails `validate_appearance` (for example a non-`.adr` model or empty tint alias), which I did not confirm exists in the shipped catalogue.
+- Fix: on those two error paths, return `equipment: before` (the pre-handle snapshot taken at line 568), or restore the saved state before returning.
+
+**[low] prototype/osfr-tools/src/restoration/piece_045.rs:476-508 - `inspect` pairs raw `state.equipment` rows with `profile_attachments`, which reads `client_visible_state()`, so the two counts can disagree.**
+- Failure scenario: a profile equips an item whose definition is absent from content. `client_visible_state` (inventory.rs:836-848) zeroes that row's `item_id`, and `profile_attachments` (inventory.rs:648-674) omits it. `inspect` still counts the row, because it filters only raw `state.equipment` (line 487-491), and the ownership check at line 493 passes because the raw item exists. So `attachments.len() != equipped.len()` (line 504) returns `Malformed("attachment list does not match the equipment rows")`, and the whole inventory fails validation even though the server treats that row as retained-but-hidden.
+- Reach: only the offline validator (`inspect`); no packet path calls it.
+- Fix: build `equipped` from the same visible view (or skip `item_id` entries whose item definition is not in content), so both sides count the same rows.

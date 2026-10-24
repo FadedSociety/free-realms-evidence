@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=choodlum-spectral-ring-86353-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3806, 9552, 6, 1179] model=claude-haiku-5-5 -->
+# Hoodlum Spectral Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The 11-item 'Hoodlum/Smooth' family is overstated. locale 86348-86349 are 'Smooth' rings and 86350-86358 are the nine 'Hoodlum' rings, so the Smooth pair does not share the Hoodlum name pattern. The claim that the family 'suggests a tiered or tinted clothing set' is speculation, not evidence.", "fix": "Describe it as nine Hoodlum rings (locale 86350-86358, including 86353) plus two Smooth rings (86348-86349). Set membership is unconfirmed by any client or wiki source (client locale table; refs en_us_data.dat lines 30107 and 39731 confirm the names only)."}]}

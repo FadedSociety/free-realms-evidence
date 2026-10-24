@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccooker-light-ring-96476-v1-world-r2 status=done turns=3 usd=0.0024 tokens(read,write,in,out)=[13799, 11742, 8, 1583] model=claude-haiku-5-5 -->
+# Cooker Light Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the Cooker and Toaster ring/necklace family is also listed in the community Legacy client dump (FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json, lines ~636948-638099, Comment fields 'Cooker Light Ring' etc.). This corroborates that the family is a set of client definitions, but it is still only a name list and gives no acquisition source, so it does not change the sources or the unknown status.", "fix": "Optionally cite FreeRealms-Legacy ClientItemDefinitions.json (Comment 'Cooker Light Ring', around line 637100) as a second name-only confirmation of the family. Keep sources empty and live/retired unknown."}]}

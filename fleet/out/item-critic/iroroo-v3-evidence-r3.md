@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iroroo-v3-evidence-r3 status=done turns=2 usd=0.0009 tokens(read,write,in,out)=[3392, 3952, 6, 730] model=claude-haiku-5-5 -->
+# Roroo
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Locale 24040 ('Roroo can be found at the Greenwood Camp to the southwest of Cobblestone Village') and 5118 ('Roroo') exist and match the claims. The pack does not show whether 24040 is flagged, so the 'unflagged' label is unverified from my lookup. The 'unsure' live status is an honest unknown and should stay.", "fix": "Keep live as 'unsure'. Confirm the FLAG field on locale:24040 before calling it an unflagged live source. Locales 20144 and 20145 (Thugawug Camp, flagged not_live) stay as the conflicting location, as the answer already says."}]}

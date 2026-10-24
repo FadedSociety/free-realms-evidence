@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchampion-dreadful-necklace-86612-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3767, 7816, 6, 975] model=claude-haiku-5-5 -->
+# Champion Dreadful Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].claim", "issue": "The tier-by-family naming pattern is an inference from locale names only. Related names exist outside the 86607-86617 block (for example 'Prowler Dreadful Necklace' and 'Rover Dreadful Necklace' in refs locale data), so the 'Champion' family grouping is not established. The answer hedges it ('looks like'), so this is a minor point, not a failure.", "fix": "Keep the pattern labelled as an unverified guess. Cite the locale ids as the only evidence and do not present the family grouping as fact."}]}

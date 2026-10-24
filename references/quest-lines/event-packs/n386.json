@@ -1,0 +1,38 @@
+{
+ "title": "Spring Eggstravaganza",
+ "names_seen": [
+  "Spring Eggstravaganza"
+ ],
+ "facts": [
+  {
+   "statement": "The Free Realms Wiki invited players to write about the recently held Spring Eggstravaganza event, as part of its 'Wiki Wednesday' feature.",
+   "numbers": {},
+   "era": "live",
+   "quote": "What do you know about the Spring Eggstravaganza ? The Free Realms Wiki has room for lots of info about this recent event",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2902",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2902",
+   "date": null,
+   "title": "Wiki Wednesday: Spring Eggstravaganza",
+   "summary": "A short official News page (captured 2013-04-11, shown as posted '1 week, 16 hours ago') inviting players to contribute to the Free Realms Wiki article on the Spring Eggstravaganza, described as a recent event. It gives no event details itself; the client text table supplies the event's mechanics (eggs hidden in Sacred Grove from the 28th through the 31st, cracked open on Spring Eggstravaganza day)."
+  }
+ ],
+ "wiki_category_members": [
+  "Big Bunny Suit",
+  "Alyssa Eggelyn",
+  "Bunny Goggles",
+  "Jack the Rabbit",
+  "Spring Eggstravaganza Basket",
+  "Spring Eggstravaganza"
+ ],
+ "quest_answers_mentioning_it": [
+  "The Eggcellent Egg Hunt (final, live yes)",
+  "The Eggcitingly Eggcellent Egg Hunt (final, live unsure)",
+  "The Eggxtremely Eggcitingly Eggcellent Egg Hunt (final, live unsure)",
+  "The Spring Eggstravaganza (final, live yes)"
+ ]
+}

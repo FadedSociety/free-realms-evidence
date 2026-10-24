@@ -1,0 +1,45 @@
+{
+ "title": "Ed Sullenfangs",
+ "our_entries": [
+  {
+   "file": "dungeons\\vampire_dance_practice.json",
+   "definition_id": 930031
+  },
+  {
+   "file": "dungeons\\vampire_dance_practice.json",
+   "definition_id": 930031
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:432135 [npc_name | Sacred Grove | Ed Sullenfangs] 'Ed Sullenfangs'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:432135 [npc_name | Sacred Grove | Ed Sullenfangs] 'Ed Sullenfangs'",
+  "locale:432239 [quest_dialog | Blackspore | Ed Sullenfangs] \"Now that the last bit of business is settled, it's time for you to join us for the main event!\"",
+  "locale:432241 [quest_objective | Blackspore | Ed Sullenfangs] 'The quicker the winner of the dance-off is decided, the quicker these scary monsters can go home.'",
+  "locale:432242 [quest_objective | Blackspore | Ed Sullenfangs] 'Speak to Ed Sullenfangs'",
+  "locale:432244 [quest_dialog | Blackspore | Ed Sullenfangs] \"Drake's the newest member of our family, and isn't fully accustomed to our usual feeding habits... ha ha ha.<BR><BR>Now, he says you're very resourceful. Care t\"",
+  "locale:432246 [quest_objective | Blackspore | Ed Sullenfangs | FLAG duplicate: near-identical to 432238] \"Sabotage the werewolves' dance practice!\"",
+  "locale:432248 [quest_objective | Blackspore | Ed Sullenfangs] 'Return to Ed'",
+  "locale:432250 [quest_dialog | Blackspore | Ed Sullenfangs] \"Did you go talk to ol' Eddie yet? He's right in front of the big Mausoleum.\""
+ ],
+ "client_cluster": [
+  "locale:432127 [quest_objective | Sacred Grove | Foil the Pumpkin Prince's plans!] 'The Pumpkin Prince is devastating the lands of Sacred Grove! Help send him back to where ever he came from.'",
+  "locale:432128 [quest_dialog | Sacred Grove | Foil the Pumpkin Prince's plans!] \"Wow! Fantastic job with the prince. Let's hope he stays gone.\"",
+  "locale:432132 [quest_dialog | Sacred Grove | Foil the Pumpkin Prince's plans!] \"What are you standing there lookin' at me for? Go get the Pumpkin Prince!\"",
+  "locale:432135 [npc_name | Sacred Grove | Ed Sullenfangs] 'Ed Sullenfangs'",
+  "locale:432142 [quest_title | Sacred Grove | Foil the Pumpkin Prince's plans!] \"Foil the Pumpkin Prince's plans!\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:S8hbCvXj8Kg/00090.jpg (-): quest: Pre-Emptive Bite  Speak to Ed Sullenfangs (complete) Sabotage the werewolf/dance practice!  | job_level: Archer 20",
+  "video:S8hbCvXj8Kg/00124.jpg (-): quest: Pre-Emptive Bite  Speak to Ed Sullenfangs (complete) Sabotage the werewolf/dance practice!  | job_level: Archer 20",
+  "video:Y4EnEYHMgsU/00038.jpg (-): npcs: Ed Sullenfangs distance_marker  | job_level: Adventurer 16 | items_seen: Vampire Outfit | other_text: Active Quest! Vampire Outfit Grave Elemental",
+  "video:Y4EnEYHMgsU/00032.jpg (-): npcs: Ed Sullenfangs distance_marker  | job_level: Adventurer 16 | items_seen: Vampire Outfit | other_text: Active Quest! Broken Robot Guard Vampire Dance Crew Grave Elemental",
+  "video:S8hbCvXj8Kg/00142.jpg (-): npcs: Cuttensnip nameplate  Slothi nameplate  | quest: Pre-Emptive Bite  Speak to Ed Sullenfangs (complete) Sabotage the werewolves' dance practice!  | job_level: Archer 20 | other_text: Amazing Asp 02:22:79"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

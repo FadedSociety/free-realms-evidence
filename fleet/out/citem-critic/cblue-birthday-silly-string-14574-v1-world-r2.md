@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblue-birthday-silly-string-14574-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3829, 4246, 6, 981] model=claude-haiku-5-5 -->
+# Blue Birthday Silly String
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The Cakenstein and Birthday Bash (May 2012) claim is cited to a wiki page and articles/facts.json, but my lookup of 'Silly String birthday' across client, wiki, articles and video returned only locale:14574, and repo search found no Cakenstein or Birthday Bash data. The claim is unverified in my pass. It is context only and is not used as a source, so it does not change the answer.", "fix": "Either cite the exact wiki or article passage for the Cakenstein fight and the May 2012 Birthday Bash dates, or mark them as unverified in the evidence list."}]}

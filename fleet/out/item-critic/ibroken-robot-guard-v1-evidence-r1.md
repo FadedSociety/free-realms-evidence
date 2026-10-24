@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibroken-robot-guard-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3257, 5128, 6, 945] model=claude-haiku-5-5 -->
+# Broken Robot Guard
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "The answer says no quest data points at the NPC, but the wiki has Quest:Robot Woes, which links to Broken Robot Guard, and the client has quest text 'Fix Broken Robot Guards' (locale 439856, 439855) and quest_objective 'Fixing Robot Guard' (locale 440496). These are quest links to the NPC, not item acquisition, so the item conclusion holds, but the answer should name the quest as context rather than imply none exists.", "fix": "Add a note: NPC is the target of the 'Robot Woes' quest (wiki Quest:Robot Woes; client locale 439855/439856/440496). It gives no item reward for the NPC itself, so kind 'other' with no acquisition sources remains correct."}]}

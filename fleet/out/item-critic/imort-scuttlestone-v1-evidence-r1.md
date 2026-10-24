@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imort-scuttlestone-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3357, 6188, 6, 1101] model=claude-haiku-5-5 -->
+# Mort Scuttlestone
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the quest reward for delivering Cinn's present is not in the pack. The repo guide (prototype/osfr-tools/data/content/npcs/shrouded_glade.json:27453) quotes Mort's quest text 'I'm sure he'll give you some coin for your trouble' (2813387351). That is a hint of a coin reward, not a verified amount, so leaving it open is correct, but the answer should cite that quote as the only reward hint.", "fix": "Cite repo:shrouded_glade.json:27453 for the 'some coin for your trouble' line as an unpriced reward hint for 'Better Late Than Never'. No amount or item is evidenced."}]}

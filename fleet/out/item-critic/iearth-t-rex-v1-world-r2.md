@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iearth-t-rex-v1-world-r2 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[14197, 12020, 8, 1365] model=claude-haiku-5-5 -->
+# Earth T-Rex
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "The answer says no repo content references an Earth T-Rex. That is true of the data stores I checked (mounts.json and the notes list only the released T-Rexes), but the repo's wiki harvest (freerealms-wiki/harvest/lists/catalog.json, infobox_RideInfobox.json, categories.json) and quest-lines/item-packs.json do contain an Earth T-Rex page. It is a wiki record, not a sale, quest or vendor source, so the status is unaffected, but the claim is stated too broadly.", "fix": "Say: no sale, quest, vendor, drop or stock row references Earth T-Rex. The wiki page (rev 50450, categories Unreleased, Rides, Non-Winged Ride, T-Rexes) and its harvest records do exist."}]}

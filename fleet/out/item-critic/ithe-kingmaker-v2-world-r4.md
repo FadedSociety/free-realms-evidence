@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ithe-kingmaker-v2-world-r4 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4614, 5626, 6, 958] model=claude-haiku-5-5 -->
+# The Kingmaker
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' with no retirement evidence found. That is an honest unknown, so it does not fail the answer.", "fix": "No change required unless a delisting source is found; keep 'unsure'."}, {"field": "sources[0].detail", "issue": "The 179 Station Cash member price is derived (199 x 0.9), not quoted. The answer says so, which is correct, but it should not be treated as a separate price.", "fix": "Keep 199 Station Cash as the only evidenced price; member price 179 is derived from the wiki's 10% member discount text."}]}

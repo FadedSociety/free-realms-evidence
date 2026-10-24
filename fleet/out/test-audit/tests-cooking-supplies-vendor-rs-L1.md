@@ -1,0 +1,10 @@
+<!-- fleet job=test-audit id=tests-cooking-supplies-vendor-rs-L1 status=done turns=6 usd=0.0101 tokens(read,write,in,out)=[97478, 29578, 14, 10807] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/cooking_supplies_vendor.rs lines 1-836 of 836
+
+Window reviewed: `prototype/osfr-tools/tests/cooking_supplies_vendor.rs` lines 1-836. I read the helpers in `tests/common/gateway_vendor.rs` (lines 60-140), the 66/44 and 165/6 and 165/13 builders in `src/coin_shop.rs` (1150-1230, 1290-1330), and the `RESULT_SUCCESS` constant. The offsets the test uses (66/44 status at 48, 165/6 at 4/24/48/52, 165/13 result at 8) match the production encoders. No `#[ignore]`, no early-return skips, and no tautological expected values were found in the window.
+
+- **[medium] tests/cooking_supplies_vendor.rs:834-835 `a_second_player_does_not_share_bordon_state` - the closing comment claims "both windows still list the twelve rows", but the assertions only compare against `list`, which is never checked to have 12 entries.**
+  - Why it cannot catch a regression: if 66/42 drops a row for both players, both sides shrink together (`list` is taken at line 800, before the buys), so the equality still holds. The buys at 803 and 811 still succeed because the dropped row is not one of the two bought. Nothing in this test fails.
+  - Fix: add `assert_eq!(list.len(), INGREDIENTS.len(), "twelve rows")` after line 801 (or compare `list` to the `expected` vector built at lines 441-445), and make the post-buy checks at 834-835 compare against that same length-checked list. The full-row check at line 446 covers the first player only, so this is the only second-player guard for row count.
+
+No other findings meet the criteria in this window. I considered and rejected: the `shop_choice()` helper, which derives its input from the production loader but is still checked by the external 66/42 oracle; the `lab/` fixtures (`locale-id-to-text.json`, `round70` content), which sit outside `repo`, so the tests panic rather than skip, which is not a silent skip; and the 56-byte 165/6 length check, which matches the client reader.

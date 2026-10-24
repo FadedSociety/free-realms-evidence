@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ipurra-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3087, 5479, 6, 1032] model=claude-haiku-5-5 -->
+# Purra
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "Attributes locale:38456 to a quest objective titled \"Glimmer's companions\". The client text at 38456 is only \"Find the lost Pixie, Purra, in Nettleseed.\" and says nothing about Glimmer. The repo note (NPCs - Briarwood.md row 167) explicitly says the quest title was not found. The title is unsupported.", "fix": "Cite locale:38456 as the objective text \"Find the lost Pixie, Purra, in Nettleseed.\" and locale:38455 \"Find Purra\" as the objective title. Drop \"Glimmer's companions\" unless a source names it. The quest title is unknown (repo row 167)."}]}

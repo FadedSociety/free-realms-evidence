@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfaded-honey-ring-89465-v1-world-r2 status=no_submit turns=2 usd=0.0014 tokens(read,write,in,out)=[3338, 7427, 6, 847] model=claude-haiku-5-5 -->
+# Faded Honey Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that no source is evidenced. My lookups agree: 'Faded Honey Ring' returns only its client locale entry (locale:89465), and the sibling 'Faded' rings (Dreadful, Fateful, Infernal, Spectral and others at locale:89294-89302, plus Fire at 89370) have no wiki, article or video hits either. The repo search for 10456 only matched locale data dumps, where 10456 is a locale id, not a definition id.", "fix": "No change needed. The pack supports sources: [], retired: null, live: unsure. The 'drop' guess and 'live: yes' from the first pass should stay out of the answer."}]}

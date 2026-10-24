@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cheavy-grape-triangle-shard-99344-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3907, 5062, 6, 837] model=claude-haiku-5-5 -->
+# Heavy Grape Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "vendor.detail", "issue": "The claim that store category 121 'holds other shard and accessory items' is not shown by the pack. The store row only gives category_id 121 for item 32225; no other category 121 rows were checked in the answer.", "fix": "Drop the category description, or cite the other category 121 rows in repo:prototype/osfr-tools/data/content/stores.json to support it. The row itself is confirmed at stores.json line 8219: item_id 32225, category 121, purchase 1149, member 1034 (10%), sell 114, no_sale false."}]}

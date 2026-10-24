@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=caviators-1292-v2-evidence-r3 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3775, 9421, 6, 973] model=claude-haiku-5-5 -->
+# Aviators
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "Minor: the claim that collection 32's name_id 38707 is 'Glasses' and description_id 38708 is not verified in the pack or in my lookups; I only checked the collection JSON structure (id 32, entries 182-189 mapping definitions 3138-3145 to locales 1286-1293, reward coins 6 and XP 50 for profile 12, no items). The sibling-cluster and 'membership only' claims check out against the same file.", "fix": "Either verify locale 38707/38708 via the locale tool or mark the collection's display name as unverified. The Aviators entry itself (index 7, definition 3144, locale 1292, icon 1848, item_link 'sanctuary') is confirmed at repo collection_catalogue.json lines 1292-1300."}]}

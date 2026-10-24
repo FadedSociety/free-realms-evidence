@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=carcane-master-wizard-talisman-133471-v2-evidence-r3 status=done turns=3 usd=0.0032 tokens(read,write,in,out)=[17713, 15788, 8, 2014] model=claude-haiku-5-5 -->
+# Arcane Master Wizard Talisman
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The prize_wheel source carries '77 Coins' in its price field. The wiki header (Tanglewood Fort page, '77 Coins' above the [Wizard] Prize Wheel list) is the wheel or dungeon price, not a price for this talisman. The answer's own detail text says so, but a builder reading the price field would take it as the item's price.", "fix": "Set the prize_wheel price to null and record the 77-coin figure as the wheel's cost, citing the wiki Tanglewood Fort page header. Keep the named-item match and the unverified odds as they are."}]}

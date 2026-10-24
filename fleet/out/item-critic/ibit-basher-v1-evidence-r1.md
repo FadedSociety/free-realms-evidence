@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ibit-basher-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3846, 8446, 6, 1194] model=claude-haiku-5-5 -->
+# Bit Basher
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "live", "issue": "Minor: 'unsure' is an honest unknown and is listed in open, so it does not fail. The 8-Bit month category and the pack-only source point to a limited item, but no source states retirement.", "fix": "Leave live as unknown. The September 2013 pack row is corroborated by the wiki's Monthly Member Pack Items page (lookup and wikitext row: 'September 2013 || N/A || Pixel Helm {{Member}} / Bit Basher {{Member}}'). Name matches locale:510233. Tooltip (Resell Value 0, Cannot Sell, Cannot Trade, Required: Membership, Freestyle, Brawler) and the damage tiers 558/976/1707/2985/5218 and 889/1554/2716/4750/8302 match the wiki page text."}]}

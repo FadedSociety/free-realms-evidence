@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iflurrie-flo-v1-evidence-r1 status=done turns=4 usd=0.0016 tokens(read,write,in,out)=[15209, 6370, 10, 1232] model=claude-haiku-5-5 -->
+# Flurrie Flo
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer says the 'Flurrie Flo' brief has no item sources, which holds for the NPC. But the client has a separate item string, locale:45802 'Flurrie's Boom Box' (item type), which sits next to the NPC's name id and is not mentioned in the answer or the open list. The brief could mean that item. The pack gives no wiki, vendor or drop evidence for it, so the fix is to note it as a lead to check, not as a source.", "fix": "Add to open: 'Possible item intended: locale:45802 \"Flurrie's Boom Box\" (client item string). No wiki, vendor, quest or drop source for it was found in the pack; confirm with the brief author before wiring.'"}]}

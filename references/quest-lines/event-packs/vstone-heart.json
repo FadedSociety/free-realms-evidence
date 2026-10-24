@@ -1,0 +1,75 @@
+{
+ "title": "Stone Heart",
+ "names_seen": [
+  "Stone Heart"
+ ],
+ "facts": [
+  {
+   "statement": "Stone Heart is a dark creature that appears near the festival's special flower when it blooms and tries to drain the festival's magic.",
+   "numbers": {},
+   "era": "live",
+   "quote": "a dark creature lurks nearby called Stone Heart",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2016",
+   "date": null
+  },
+  {
+   "statement": "During the Festival of Hearts, the villain Stone Heart and his several Heartbreakers try to ruin the festival by draining its magic.",
+   "numbers": {},
+   "era": "live",
+   "quote": "You’ll even get a chance to save the festival from Stone Heart and his Heartbreakers.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2500",
+   "date": null
+  },
+  {
+   "statement": "Stone Heart, a dark creature, is the festival's villain; he is joined by several Heartbreakers who also want to ruin the festival.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Stone Heart is joined by several Heartbreakers who also want to ruin the festival.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2501",
+   "date": null
+  },
+  {
+   "statement": "The event notice said that if Stone Heart (Corazón Pétreo) showed up, the community team would send it home, as the event was meant to be fun.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Si Corazón Pétreo aparece, lo mandaremos a su casa",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=959",
+   "date": "2010-02-09"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2016",
+   "date": null,
+   "title": "The Festival of Hearts Returns",
+   "summary": "SOE's news post announces the return of the annual Festival of Hearts in Merry Vale, a seasonal event tied to the legend of the pixies Rylan and Arianna and a dark creature called Stone Heart. It lists daily quests, Members Only quests, and Station Cash and Coin Shop items, and explains how to reach the festival via the Merry Vale Warpstone. The post gives no exact dates, prices or rewards."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2500",
+   "date": null,
+   "title": "Free Realms - What is New? (The Festival of Hearts Returns!)",
+   "summary": "An official Free Realms news post announcing that the Festival of Hearts had returned to Merry Vale, with daily and members-only quests, Marketplace and Coin Shop items, and the Stone Heart and Heartbreakers storyline. It also gives the festival's background legend of Rylan and Arianna and how to reach the event via the Merry Vale Warpstone. The post gives only a relative date ('1 week, 3 days ago') and no exact date."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2501",
+   "date": null,
+   "title": "The Festival of Hearts Returns!",
+   "summary": "A freerealms.com news post (Spanish-language site chrome, English article text) announcing the Festival of Hearts returning to Merry Vale. It describes the festival's story (Rylan and Arianna's flower, the villain Stone Heart and his Heartbreakers), how to reach the festival, and that festival items appear daily in the Marketplace and Coin Shop. The page gives a relative posting time ('6 months, 1 week ago' as of the 2012-08-19 capture) rather than an exact date."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=959",
+   "date": "2010-02-09",
+   "title": "Free Realms - What is New?",
+   "summary": "A Spanish-language community event notice (page titled 'What is New?', post dated roughly one year three months before the 2011-06-04 capture) announcing a semi-formal 'Festival de Corazones' dance on Friday 12 February 2010, held on Server 1 at two times for the Americas and for UK/Europe. It explains that community events are found through the Game Guide's Calendar, and that the Go button teleports players to an event once it has started."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "It's Too Quiet... (final, live yes)",
+  "Sabotage For Safety (final, live yes)",
+  "Sabotage For Safety (final, live yes)",
+  "Softening the Stone (final, live yes)",
+  "Stone Heart's Hideaway (final, live unsure)",
+  "Under Pressure (final, live yes)"
+ ]
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-14210 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2849, 4, 509] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a Free Realms Forums index and error page, not an article. It shows a 'maximum number of posts' error that blocks thread viewing, plus a list of forum section names (for example Items, Jobs/Classes, In-Game Mini Games, Pets, Membership / Stationcash). It contains no game facts a rebuilder can use.", "facts": [], "quests": [], "uncertain": ["The captured text is only navigation, a login/post-limit error, and forum section titles; no thread body or post content was captured.", "Date of capture is 2009-05-26 per the Captured field, but no article date is shown."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cyellow-flat-rectangle-tiger-block-134851-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3931, 9399, 6, 1043] model=claude-haiku-5-5 -->
+# Yellow Flat Rectangle Tiger Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The coin store row is real, but no named vendor or shop page is recorded for category 147 or item 77306, so 'where' stays null. This is an honest unknown, not an error.", "fix": "Leave 'where' null until a shop page or vendor is identified. stores.json line 16637 carries source_tags [L1,L2,L4,R2,T633,R1] that the answer does not interpret; they are not evidence of a location."}, {"field": "retired", "issue": "Null is acceptable. Neither the store row nor the pack shows a retirement, and the no_sale flag is false. The answer correctly leaves it open.", "fix": "No change needed; retired remains unknown, not 'not retired'."}]}

@@ -1,0 +1,31 @@
+{
+ "title": "Seaside Beach Party",
+ "names_seen": [
+  "Seaside Beach Party"
+ ],
+ "facts": [
+  {
+   "statement": "A community event was held in Seaside on Friday August 14, 2009, with activities including dancing, turning into crabs, fireworks, trading collections, and trivia by Community Ambassadors.",
+   "numbers": {
+    "date_day": 14,
+    "start_hour_pdt": 13,
+    "end_hour_pdt": 15,
+    "server": 1
+   },
+   "era": "live",
+   "quote": "Everyone will be hitting the sand in Seaside to dance, turn into crabs, light fireworks, trade collections",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=194",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=194",
+   "date": null,
+   "title": "Community Event: Seaside Beach Party - Friday August 14th",
+   "summary": "A Spanish-language freerealms.com news post announcing a community beach party in Seaside on Friday August 14, 2009, from 1pm to 3pm Pacific Daylight Time on Server 1. It describes beach-themed activities hosted by Community Ambassadors and says beach outfits can be bought with Station Cash or earned in-game through quests, web codes, or vendors in Sanctuary's Pixiewood area."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

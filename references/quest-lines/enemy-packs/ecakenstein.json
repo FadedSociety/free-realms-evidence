@@ -1,0 +1,114 @@
+{
+ "title": "Cakenstein",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000010,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Birthday Bash boss",
+   "location_evidence": [
+    "\"Cakenstein has risen in Blackspore!\" (2930679067)"
+   ]
+  },
+  {
+   "file": "npcs/sanctuary.json",
+   "npc_id": 9500000460,
+   "zone": "Sanctuary",
+   "enemy_kind": "Birthday Bash boss",
+   "location_evidence": [
+    "Queensfields (581950168), other zones too"
+   ]
+  },
+  {
+   "file": "npcs/shrouded_glade.json",
+   "npc_id": 9500000656,
+   "zone": "Shrouded Glade",
+   "enemy_kind": "Birthday Bash boss; \"Cakenstein has risen in Shrouded Glade!\" (1210460181); \"Birthday Party in Shrouded Glade\" (2372888813); \"Party in Shrouded Glade. Look for the Community Team playing hide and seek nearby!\" (1496682435).",
+   "location_evidence": [
+    "Birthday party \"southwest of the warpstone, at the entrance of the tunnel that leads into the Wilds\" (wiki Birthday Bash)."
+   ]
+  }
+ ],
+ "entry_count": 3,
+ "client_name_matches": [
+  "locale:9043 [npc_name | - | Cakenstein] 'Cakenstein'",
+  "locale:5102905 [npc_name | - | Cakenstein] 'Cakenstein'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6396 [npc_dialog | - | Cakenstein] 'I brought in a bunch more firecrackers, just in case Cakenstein shows up here!'",
+  "locale:6397 [npc_dialog | - | Cakenstein] \"Why didn't you just get a really big cake knife?\"",
+  "locale:6398 [npc_dialog | - | Cakenstein] \"WHAT?! That's so violent!\"",
+  "locale:6399 [npc_dialog | - | Cakenstein | FLAG fragment: ellipsis only] '. . .'",
+  "locale:6707 [other | Shrouded Glade | Cakenstein] 'Cakenstein has risen in Shrouded Glade!'",
+  "locale:6708 [other | Briarwood | Cakenstein] 'Cakenstein has risen in Briarwood!'",
+  "locale:6709 [other | Blackspore | Cakenstein] 'Cakenstein has risen in Blackspore!'",
+  "locale:6710 [other | Merry Vale | Cakenstein] 'Cakenstein has risen in Merry Vale!'",
+  "locale:6711 [other | Seaside | Cakenstein] 'Cakenstein has risen in Seaside!'",
+  "locale:6712 [other | Wugachug | Cakenstein] 'Cakenstein has risen in Wugachug!'",
+  "locale:6713 [other | Snowhill | Cakenstein] 'Cakenstein has risen in Snowhill!'",
+  "locale:6715 [npc_dialog | - | Cakenstein] 'Look how cute the little cupcakes are!'",
+  "locale:6716 [npc_dialog | - | Cakenstein] 'Look how cute the little faries are!'",
+  "locale:6717 [npc_dialog | - | Cakenstein] 'Look how cute these little houses are!'",
+  "locale:6718 [npc_dialog | - | Cakenstein | FLAG fragment: single exclamation with no quest meaning] 'SQUEEE!'",
+  "locale:9043 [npc_name | - | Cakenstein] 'Cakenstein'",
+  "locale:9044 [other | - | Cakenstein] 'Cakenstein Path Marker'",
+  "locale:428100 [npc_dialog | - | Cakenstein] 'Cakenstein SMASH cake!'",
+  "locale:428129 [npc_dialog | - | Cakenstein] 'No! Cakenstein not lose! NO!'",
+  "locale:428130 [npc_dialog | - | Cakenstein] 'Cakenstein is BEST cake! Ha Ha Ha!'",
+  "locale:428131 [npc_dialog | - | Cakenstein] 'You not stop Cakenstein!'",
+  "locale:428132 [npc_dialog | - | Cakenstein] 'Cakenstein smash cake...'",
+  "locale:428133 [npc_dialog | - | Cakenstein] 'No cake better than Cakenstein...'",
+  "locale:428134 [npc_dialog | - | Cakenstein] 'Cakenstein is only cake...'",
+  "locale:428139 [other | - | Cakenstein | FLAG dev_note: script trigger name (*OnSpawn*)] 'Cakenstein *OnSpawn*'",
+  "locale:428141 [other | - | Cakenstein | FLAG dev_note: script trigger name (*OnDeath*)] 'Cakenstein *OnDeath*'",
+  "locale:428153 [ability | - | Cakenstein] 'Cakenstein Attack'",
+  "locale:428157 [ability | - | Cakenstein] \"Cakenstein's Shield\"",
+  "locale:428163 [ability | - | Cakenstein] 'Cakenstein Damage Absorb'",
+  "locale:428174 [ability | - | Cakenstein] 'Cakenstein Cake Toss'"
+ ],
+ "client_cluster": [
+  "locale:9035 [ui | - | -] 'Heat the furnace to its maximum temperature by activating the bellows.'",
+  "locale:9036 [ui | - | -] 'Do it as fast as you can, as the heat decreases quickly!'",
+  "locale:9037 [ui | - | -] 'Click-and-drag the handle to pour the required quantity of mix into the container.'",
+  "locale:9038 [ui | - | -] 'Stop right on target for bonus stars and points!'",
+  "locale:9039 [ui | - | -] 'Click the handle and slowly drag it to pour the molten metal into the mold!'",
+  "locale:9040 [ui | - | -] 'Be careful not to spill the mix by tipping the bucket.'",
+  "locale:9041 [ui | - | -] 'Target'",
+  "locale:9042 [item | - | Party Fireworks] 'Party Fireworks'",
+  "locale:9043 [npc_name | - | Cakenstein] 'Cakenstein'",
+  "locale:9044 [other | - | Cakenstein] 'Cakenstein Path Marker'",
+  "locale:9045 [other | - | Cakeling Spawner] 'Cakeling Spawner'",
+  "locale:9047 [other | - | Cake Target] 'Cake Target'",
+  "locale:9048 [other | - | Cake-Fight Pile] 'Cake-Fight Pile'",
+  "locale:9049 [other | - | Cakenstein's Treasure] \"Cakenstein's Treasure\"",
+  "locale:9050 [ui | - | -] 'Play'",
+  "locale:9051 [ui | - | -] 'Next Page'"
+ ],
+ "wiki": {
+  "title": "Cakenstein",
+  "text": "Cakenstein is an enemy NPC boss featured as the main antagonist of the Birthday Bash. He is a mutant-like walking cake that appears during the only Birthday Bash and in Treasure War. His main goal is to eat the cakes made for the birthday of Free Realms. Cakenstein was created by a robgoblin chef, Glerga. He is often accompanied by cakelings.\n\nBattle\nOpen World\nDuring the Birthday Bash, a message will pop up saying  \"Cakenstein has risen in <Warpstone>\". While Cakenstein is risen, fireworks appear in crates on the pathways of eight locations near Cakenstein. You must fire fireworks at him, but while fighting him, he will run around the area, eating the cakes and getting stronger while doing it.\n\nCakenstein can also spawn cakelings which bring cake to him. If they succeed, Cakenstein will becomes invincible for a short amount of time.\n\nOnce defeated, Cakenstein will melt and drop piles of cakes and a treasure chest, which will give you a limited Birthday Bash reward. If he wins, he will successfully eat birthday cakes and disappear, and he will not drop anything.\n\nCakenstein Attacks!\nCakenstein appears in Queensfields, located in just outside Sanctuary. This battle requires you to be level 13 or higher to start. Cakenstein is trying to eat more birthday cakes, and you must stop him before he becomes any stronger. During the battle he spawns cakelings which will attack you. He also seems to have a weakness of the Fire Power-Up if you use Fire Power-Up to attack him.\n\nDialogues\n\nBoss Cake\nCakenstein is included in the Birthday Bash SC Marketplace item named the Boss Cake. The Boss Cake grants players an illusion to appear as a boss.\n\nAppearances\nFree Realms 2nd Birthday Yearbook Video\nQuest:Cakey Clue (mentioned)\nQuest:Perfecting the Batter\nQuest:All Cakensteins Must Die\nQ"
+ },
+ "images": [
+  "image (image:art_or_promo): Riot\nPixels",
+  "image (image:character_or_npc): Responsibility: Model, Texture, and Rig\nFreeRealms",
+  "image (image:world_screenshot): FreeRealms v1.828.1884.1292.3012.511861\nGeneral Mark\n23\n191118\n20\nCard Duelist\nZach Powerwood2\n32m\nCakenstein\n34m\nBumbleberry Plant\n41m\nGeneral Mark\n<-LoL->\nBanter\n35m\nSnowberry Plant\n26m\nComet\n3:19 PM\n3/29/2013"
+ ],
+ "video": [
+  "video:pJzcZTI1Pgk/00104.jpg (-): npcs: Cakenstein nameplate  | quest:   Defeat Cakenstein!  | job_level: Archer 16 | other_text: Cakenstein Attacks! Goals (1) Defeat Cakenstein!",
+  "video:pJzcZTI1Pgk/00120.jpg (-): npcs: Cakenstein nameplate  | quest:   Defeat Cakenstein!  | job_level: Archer 16 | other_text: Cakenstein Attacks! Goals (1) Defeat Cakenstein!",
+  "video:pJzcZTI1Pgk/00140.jpg (-): npcs: Cakenstein nameplate  | quest:   Defeat Cakenstein!  | job_level: Archer 16 | other_text: Cakenstein Attacks! Goals (1) Defeat Cakenstein!",
+  "video:pJzcZTI1Pgk/00092.jpg (-): npcs: Cakenstein nameplate  | quest:   Defeat Cakenstein!  | job_level: Archer 16 | items_seen: Blast Sphere | other_text: Cakenstein Attacks! Goals (1) Defeat Cakenstein!",
+  "video:pJzcZTI1Pgk/00102.jpg (-): npcs: Cakenstein nameplate  | quest:   Defeat Cakenstein!  | job_level: Archer 16 | items_seen: Unmoving Sphere | other_text: Cakenstein Attacks! Goals (1) Defeat Cakenstein!"
+ ],
+ "article_facts": [
+  "fact:combat: A second Cakenstein appeared from Glerga's strange cakes and Commander Kiggle asks Members to stop it. | Now there’s another Cakenstein spoiling the party. (http://www.freerealms.com/article/detail.action?articleId=1282)",
+  "fact:combat: Players battle Cakenstein, a cake creature, and his cakeling helpers as part of the event. | You will also have to battle Cakenstein, a bizarre cake creature and his cakeling helpers. (http://www.freerealms.com/article/detail.action?articleId=1261)",
+  "fact:npc: Players battle Cakenstein, a cake creature, and his cakeling helpers as part of the party. | You will also have to battle Cakenstein, a bizarre cake creature and his cakeling helpers. (http://www.freerealms.com:80/article/detail.action?articleId=2106)",
+  "fact:event: Cakenstein, a bizarre cake monster, and his cakeling helpers must be fought during the party. | Você também vai ter que lutar com Cakenstein, uma criatura de bolo bizarra e seus ajudantes bolomorfos. (http://www.freerealms.com/article/detail.action?articleId=2107)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Cakenstein's Last Stand' (final): Glerga feels really horrible about her little accident. She wants you to help her make amends. You've been asked to defe",
+  "defeat target in 'Cakey Madness' (final): General Glowlight in Sanctuary is looking for experienced battle goers. He wants to keep Sanctuary safe during the birth",
+  "other target in 'Downing Cakenstein' (final): Commander Kiggle challenges you to defeat Cakenstein. This monster can only be defeated by launching fireworks at him."
+ ]
+}

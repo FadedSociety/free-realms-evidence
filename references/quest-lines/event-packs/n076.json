@@ -1,0 +1,60 @@
+{
+ "title": "Double Station Cash day",
+ "names_seen": [
+  "Double Station Cash day"
+ ],
+ "facts": [
+  {
+   "statement": "SOE announced a double Station Cash day on Saturday April 30 as a thank-you for player patience, across its game lineup (not Free Realms alone).",
+   "numbers": {
+    "day_of_month": 30
+   },
+   "era": "live",
+   "quote": "incluyendo un día de doble Station Cash, el sábado 30 de abril",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2118",
+   "date": null
+  },
+  {
+   "statement": "SOE ran a one-day double Station Cash promotion on Saturday, April 30, across its game lineup, as a thank-you for player patience.",
+   "numbers": {
+    "bonus_multiplier": 2
+   },
+   "era": "live",
+   "quote": "incluyendo un día de doble Station Cash, el sábado 30 de abril",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2119",
+   "date": null
+  },
+  {
+   "statement": "SOE held a one-day Double Station Cash promotion on Saturday, April 30th, as a thank-you for players' patience during a recent service interruption.",
+   "numbers": {
+    "day_of_month": 30
+   },
+   "era": "live",
+   "quote": "we will be hosting a Double Station Cash day on Saturday, April 30th",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2112",
+   "date": "2011-04-30"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2118",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This is a Spanish-language SOE news post (captured 2011-06-04) about a recent service interruption. It announces a double Station Cash day on Saturday April 30 across SOE's games, says a 'repair' plan is being prepared for PS3 players of DC Universe Online and Free Realms, and apologizes for the outage. The post gives no Free Realms-specific mechanics, items or quests."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2119",
+   "date": null,
+   "title": "¡Sólo este sábado! Doble Station Cash (Free Realms - What is New?)",
+   "summary": "A Spanish-language SOE news post from roughly late April 2011 announcing a one-day double Station Cash promotion on Saturday April 30 across SOE's games, apologizing for a recent service interruption, and saying SOE was preparing a repair plan for PS3 players of DC Universe Online and Free Realms. It gives no details of the repair plan, which was to be posted later on the game sites and forums. The post is a site-wide SOE notice; Free Realms appears only in the PS3 repair line."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2112",
+   "date": "2011-04-30",
+   "title": "Saturday Only! Double Station Cash",
+   "summary": "SOE's freerealms.com news post announces a one-day Double Station Cash promotion on Saturday, April 30th, framed as a thank-you for players' patience during a recent service interruption. Game cards of eligible types can be redeemed for Station Cash on the Game Cards webpage, or Station Cash can be bought through the SOE account. The post gives no bonus amounts beyond 'double', and the year is inferred from the capture context and the relative 'posted 2 months, 2 weeks ago' label, not stated outright."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

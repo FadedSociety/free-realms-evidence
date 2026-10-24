@@ -1,0 +1,52 @@
+{
+ "title": "Queen Arachnia",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\arachnia_s_lair.json"
+  },
+  {
+   "file": "dungeons\\arachnia_s_lair.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:3592 [npc_name | - | Queen Arachnia] 'Queen Arachnia'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:3592 [npc_name | - | Queen Arachnia] 'Queen Arachnia'",
+  "locale:3594 [npc_name | - | Queen Arachnia] 'Spiderling'"
+ ],
+ "client_cluster": [
+  "locale:3585 [npc_name | - | Darrel] 'Darrel'",
+  "locale:3586 [quest_dialog | - | Darrel] 'Got a sec to help out an old farmer?'",
+  "locale:3587 [quest_title | Tangletrack | Kart Racer: Tangletrack Sprint Challenge] 'Kart Racer: Tangletrack Sprint Challenge'",
+  "locale:3588 [quest_dialog | - | Darrel | FLAG fragment: player reply option] \"Sorry, can't now.\"",
+  "locale:3589 [quest_dialog | - | Darrel] \"Ya see, the kids are off playing hide-n-seek, but it's time for them to do their chores. Can ya round them up for me? Banx, Xander, Morgan, and the little one, \"",
+  "locale:3590 [quest_dialog | - | Darrel | FLAG fragment: player reply option] 'I will do my best!'",
+  "locale:3592 [npc_name | - | Queen Arachnia] 'Queen Arachnia'",
+  "locale:3593 [item | - | Spider Egg] 'Spider Egg'",
+  "locale:3594 [npc_name | - | Queen Arachnia] 'Spiderling'",
+  "locale:3596 [quest_title | Tangletrack | Kart Racer: Tangletrack Endurance Challenge] 'Kart Racer: Tangletrack Endurance Challenge'",
+  "locale:3597 [ability | - | Spider Lair - Poison Spit] 'Spider Lair - Poison Spit'",
+  "locale:3598 [quest_title | Tangletrack | Kart Driver: Dominating at Tangletrack] 'Kart Driver: Dominating at Tangletrack'",
+  "locale:3599 [quest_title | Tangletrack | SG Tour 400: Tangletrack] 'Kart Driver: SG Tour 400: Tangletrack'",
+  "locale:3600 [other | - | USA Racer] 'USA Racer'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [
+  "fact:npc: Queen Arachnia is the giant spider ruler of Arachnia's Lair; adventurers who are caught end up wrapped in spider silk at her mercy and that of her young. | held at the mercy of Arachnia and her young. (http://www.freerealms.com:80/article/detail.action?articleId=291)",
+  "fact:location: Arachnia's Lair is a long valley of cobwebs overrun by giant spiders loyal to Queen Arachnia, reached after passing the Briarwood maze. | Arachnia’s Lair is a long valley of cobwebs completely overrun by giant spiders loyal to Queen Arachnia. (http://www.freerealms.com:80/article/detail.action?articleId=291)",
+  "summary: A Free Realms news post introducing Arachnia's Lair, a dangerous valley of cobwebs beyond the Briarwood maze in the area locals call Bristlewood, overrun by giant spiders loyal to Queen Arachnia. The article is flavor text with no mechanics, levels or rewards  (http://www.freerealms.com:80/article/detail.action?articleId=291)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Wizard: One Thing to Bind Them' (final): Defeat Queen Arachnia"
+ ]
+}

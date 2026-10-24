@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iryanna-v1-evidence-r1 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3110, 3996, 6, 940] model=claude-haiku-5-5 -->
+# Ryanna
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / open", "issue": "Ryanna is an NPC, not an item. The answer's claim is supported: lookup returns locale:92496 as npc_name 'Ryanna', the wiki page (rev 45841) says 'Ryanna is a human NPC located in Seaside' with only NPC/Females/Human/Seaside categories, and the repo lists Ryanna in the Seaside NPC spawn data (seaside.json:5454, npc_spawns_extra.json:8879). No coin, Station Cash, IGD, vendor, quest or drop source appears anywhere in the pack. Sources empty and wireable false are correct. Minor nit: the locale id check via a bare '^92496$' regex returned no match, so the locale citation rests on the lookup tool's hit rather than the locale tool's id query; the claim still holds."}]}

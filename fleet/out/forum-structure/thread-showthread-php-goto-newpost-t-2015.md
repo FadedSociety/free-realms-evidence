@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-goto-newpost-t-2015 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2885, 4, 424] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article":{"title":"Free Realms Forums","date":null,"author":null,"type":"other"},"about_free_realms":false,"summary":"The captured page is a vBulletin error page from the Free Realms fan forum (freerealmsforums.com) showing a 'maximum number of posts you can view' registration prompt, followed by the forum index. It contains no article, guide, or game-mechanics content. The only Free Realms references are forum section names (e.g., Items, Jobs/Classes, In-Game Mini Games, Membership / Stationcash) and the footer.","facts":[],"quests":[],"uncertain":["The thread title and original post content were not present in the capture; the thread ID (t=2015) could not be read.","Forum section names are navigation text, not verified game facts."]}

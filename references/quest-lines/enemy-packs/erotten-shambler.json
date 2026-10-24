@@ -1,0 +1,38 @@
+{
+ "title": "Rotten Shambler",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\moldy_shamblers.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:74481 [quest_objective | - | Rotten Shambler] 'Rotten Shambler'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:74481 [quest_objective | - | Rotten Shambler] 'Rotten Shambler'"
+ ],
+ "client_cluster": [
+  "locale:74473 [quest_dialog | - | Another one bites the dust!] 'Another one bites the dust!'",
+  "locale:74474 [npc_dialog | - | Purple bunny] 'Who released that purple bunny in the camp?! I hate purple bunnies! AHHH!!!'",
+  "locale:74476 [quest_objective | - | Unconscious Traveler] 'Unconscious Traveler'",
+  "locale:74477 [quest_dialog | - | Robgoblin fishing] 'This is how robgoblins fish!'",
+  "locale:74478 [quest_dialog | - | Hooligan Brawling Club!] 'Look boys, another victim. Get em!'",
+  "locale:74481 [quest_objective | - | Rotten Shambler] 'Rotten Shambler'",
+  "locale:74483 [ability | - | Magic Blast] 'Magic Blast'",
+  "locale:74484 [ability | Sweetwater | Pollentine] 'sweet water climb - boss primary attack'",
+  "locale:74485 [ability | - | Sonic Blast] 'Sonic Blast'",
+  "locale:74486 [ability | Sweetwater | Pollentine] \"Sweetwater - Pollentine's Sonic Blast\"",
+  "locale:74487 [npc_name | - | Southvale Demolition Miner] 'Southvale Demolition Miner'",
+  "locale:74488 [quest_title | - | Scaring Robgoblins] 'Scaring Robgoblins'",
+  "locale:74489 [other | - | ScareThemGobos | FLAG dev_note: internal flag description] 'This ability is used to increment the ScareThemGobos character flag on the targeted player.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cvictorian-wallpaper-19600-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3777, 7852, 6, 877] model=claude-haiku-5-5 -->
+# Victorian Wallpaper
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "The first-pass 'live: yes' is unsupported and the answer correctly leaves it as 'unsure'. My lookups confirm only client text entries (locale:19600 name, locale:19998 description). Nothing in wiki, articles, video or refs names a vendor, quest, drop or event for this item, so there is no evidenced source and no evidenced live status.", "fix": "Keep live as 'unsure' and sources empty. Do not set live to yes or add a vendor source unless a stock row, wiki listing or video frame is found. The only tangential hit is an unrelated locale-data string in the opening-harvesting dumps (dat id 1047430728), which is a text id, not an acquisition source."}]}

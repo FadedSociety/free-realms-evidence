@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshiny-ocean-ring-96086-v1-world-r2 status=no_submit turns=2 usd=0.0016 tokens(read,write,in,out)=[3639, 8754, 6, 910] model=claude-haiku-5-5 -->
+# Shiny Ocean Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].claim", "issue": "The repo search note names the folders as opening-harvesting, native and anvil. My search found the Shiny Ocean Ring locale lines in opening-mining-starter and FreeRealmsLocaleTools/test data (en_us_data.dat), not those folders. The conclusion (locale dumps only, no vendor, quest or store entry) still holds.", "fix": "Cite the actual locale-dump paths: opening-mining-starter-20261009T180011Z/locale/en_us_data.dat and FreeRealmsLocaleTools/test/.../data/en_us_data.dat. Both contain only the name string."}]}

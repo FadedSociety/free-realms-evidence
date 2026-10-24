@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfake-ring-66917-v2-world-r2 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[11354, 8091, 8, 1228] model=claude-haiku-5-5 -->
+# Fake Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "Labelled 'collection', but Fake Ring is a member of the Diamond Rings Collection, not a collection itself. The client text (locale:325421700) only says it 'can be added to the Diamond Rings Collection'.", "fix": "Use a member-item kind (e.g. 'other' or a collection-member tag) and keep the collection name only as a membership note. Source: locale:325421700 and locale:66917."}, {"field": "evidence[1]", "issue": "Citation checks out: wiki List of Collections (revid 27852) lists 'Diamond Rings' under '== Various Robgoblin Junk == / === Common ===' at lines 200-209. Fake Ring is not named there, so no source is added, which is correct.", "fix": "None needed."}]}

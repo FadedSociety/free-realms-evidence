@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iflurrie-flo-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3292, 9261, 6, 1035] model=claude-haiku-5-5 -->
+# Flurrie Flo
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live", "issue": "Marked 'unsure' although the NPC name string (locale:45805, npc_name), the Seaside quest text (locale:93939, 93941, 93945, 93972) and the repo NPC record (seaside.json, Npcs.json Id=1788) all agree that the NPC exists in the shipped client. The 'unsure' is about the item brief, not the NPC.", "fix": "Keep the answer's stance that this is an NPC, not an item. Say the NPC is present in the client (locale:45805) and that the item acquisition question does not apply. Live status for the NPC is supported; for an item it is not applicable."}]}

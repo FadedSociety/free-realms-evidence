@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cglowing-grape-triangle-shard-96012-v1-world-r2 status=done turns=4 usd=0.0031 tokens(read,write,in,out)=[25273, 15387, 10, 1920] model=claude-haiku-5-5 -->
+# Glowing Grape Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "evidence[3] / sources[0].detail", "issue": "The 'shard set sold together' reading is an inference, not a source fact. Store category 121 is a large mixed category: stores.json also lists unrelated item ids 2107, 2117, 2126, 2135, 2138, 2141, 2157 at the same 540/866/1780 tiers, and CoinStoreItems.json has many category-121 rows. Grouping by the 540 price is not evidence of a shard set.", "fix": "State only that item 30606 is in category 121 at 540 coins (stores.json line 8040; CoinStoreItems.json line 36371 confirms the category). Drop the 'shard set' wording, or mark it as a guess."}]}

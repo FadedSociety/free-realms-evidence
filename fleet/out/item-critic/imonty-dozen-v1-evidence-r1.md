@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imonty-dozen-v1-evidence-r1 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3287, 5319, 6, 1023] model=claude-haiku-5-5 -->
+# Monty Dozen
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor omission: the answer does not name the quest that the NPC belongs to. Client quest strings show 'Card Duelist: Monty Has 'Em All' (locale:104271), with objectives to recover Jammie's cards and to deliver Monty's surfboard from Delvin (locale:104263, 104267). The quest reward text (locale:104274) says only 'made a fair trade with Monty Dozen', so it names no item and no card is attributable.", "fix": "Add the quest link as context, not as an item source: quest 'Card Duelist: Monty Has 'Em All' (locale:104271), with the trade described in locale:104274. Leave sources empty, since no card or item reward is named in the client text or the wiki."}]}

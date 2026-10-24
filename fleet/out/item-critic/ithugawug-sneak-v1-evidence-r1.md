@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ithugawug-sneak-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3594, 7107, 6, 1123] model=claude-haiku-5-5 -->
+# Thugawug Sneak!
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open", "issue": "The answer is accurate that the name is a battle and not an item, and it correctly declines to list sources. It could be stronger: the wiki's Medic's Scalpel of Vitals page says the scalpel is also acquired from the prize wheel at Thugawug Sneak!, which confirms the wheel link, and the answer does not cite it. The prize-wheel contents are only a battle reward table, as the answer says.", "fix": "Cite the wiki item pages (Medic's Scalpel of Vitals, Warrior's Axe of Cleaving, Ninja's Blade of 1000 Storms, Brawler's Hammer of Rumbling) that name Thugawug Sneak! as a prize-wheel source. Those pages are the item-side evidence; the battle page alone is not."}]}

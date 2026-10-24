@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csurgeon-ethereal-ring-86421-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4059, 9457, 6, 958] model=claude-haiku-5-5 -->
+# Surgeon Ethereal Ring
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The ring grid is described as Stalker x {Dreadful, Fateful, Infernal, Spectral, Mystical} at 86422-86426. The client lookup also returns locale:86430 'Stalker Ethereal Ring', so the Stalker series is wider than stated. The answer is incomplete on the family, but it does not affect this item's acquisition.", "fix": "Note that the Stalker series also includes Ethereal at locale 86430 (client lookup, locale:86430). Re-check the full Stalker range before using the grid as a set-level claim."}]}

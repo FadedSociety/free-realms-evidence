@@ -1,0 +1,44 @@
+{
+ "title": "Blutin, the Roughguard Captain",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json"
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:40424 [npc_name | Forest Troll Fort | Blutin, the Roughguard Captain] 'Blutin, the Roughguard Captain'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:40424 [npc_name | Forest Troll Fort | Blutin, the Roughguard Captain] 'Blutin, the Roughguard Captain'",
+  "locale:45839 [quest_objective | - | Blutin, the Roughguard Captain] 'Defeat Blutin, the Roughguard Captain!'"
+ ],
+ "client_cluster": [
+  "locale:40416 [npc_name | - | Ronnie Britesmile] 'Ronnie Britesmile'",
+  "locale:40417 [npc_dialog | - | Ronnie Britesmile] 'I am SO bored right now. I just want to go have fun! Not do my chores!'",
+  "locale:40419 [npc_dialog | - | -] 'Dis dagger for you!'",
+  "locale:40424 [npc_name | Forest Troll Fort | Blutin, the Roughguard Captain] 'Blutin, the Roughguard Captain'",
+  "locale:40425 [npc_name | Forest Troll Fort | Forest Troll Ritualist] 'Forest Troll Ritualist'",
+  "locale:40426 [other | Forest Troll Fort | Troll Cauldron] 'Troll Cauldron'",
+  "locale:40427 [npc_dialog | Forest Troll Fort | -] 'You come here, make big mistake!'",
+  "locale:40428 [ability | - | Spinning Blades] 'Spinning Blades'",
+  "locale:40429 [ability | - | Troll Spinning Attack] 'Troll Spinning Attack'",
+  "locale:40430 [ability | - | Smash] 'Smash'",
+  "locale:40431 [other | - | forest troll fort - elite proc attack | FLAG dev_note: internal ability note] 'forest troll fort - elite proc attack'",
+  "locale:40432 [quest_dialog | Forest Troll Fort | The Queen's Favor] 'Why the Queen throw me out?  I do a good job, right? I good Captain of Guard, but she make me leave!<BR><BR>I want job back!<BR><BR>I know! You show Queen that '"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

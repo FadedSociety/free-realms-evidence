@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cred-silly-string-can-408140-v2-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3881, 8189, 6, 1155] model=claude-haiku-5-5 -->
+# Red Silly String Can
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "The answer omits a wiki lead it could have listed as an open item. The wiki blog 'User blog:Soe amnerys/Weekly Update - 10/15/13' says a horde of ghosts at Phantom Maze 4 hid to ambush players with a 'can of silly string'. It names no colour, so it does not evidence the red can, but it is a possible event context for the silly string cans.", "fix": "Add it as an unresolved lead: wiki page ns500 'User blog:Soe amnerys/Weekly Update - 10/15/13' (Phantom Maze 4 ghost event, silly string, no colour named). Do not attach it to the red can without a colour-specific source."}]}

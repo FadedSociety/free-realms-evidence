@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=ivampire-dance-practice-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4247, 9576, 6, 1433] model=claude-haiku-5-5 -->
+# Vampire Dance Practice
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] / kind", "issue": "The answer calls this a battle and not an inventory item, which the wiki supports. But the client tags locale 432024 as a quest_title under the Pixie Woods quest, and the answer does not say how that quest relates to the battle. The Super Spooktacular page and the Battles list do support the battle framing.", "fix": "Keep kind 'other' and sources empty. Add a note that locale 432024 is the Pixie Woods quest title and 432025 is its objective (defeat Ed Sullenfangs), so the battle is a quest-linked encounter, not a sellable or rewarded item."}]}

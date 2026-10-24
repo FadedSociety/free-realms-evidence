@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-fearless-defender-breeches-pl-fearless-defender-breeches-136785-v1-world-r2 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3498, 10267, 6, 1352] model=claude-haiku-5-5 -->
+# {n}Fearless Defender Breeches{pl="Fearless Defender Breeches"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0]", "issue": "The claim that the ugdt 1984713075 and ucdt 2122749248 entries share the name, and that the 12 ids are tints/races, is not checked here. My locale lookup confirms only locale 136785 for the breeches name. The tint/race explanation is an inference.", "fix": "Keep as an unverified note, or cite the ugdt/ucdt rows directly. Locale 136785 is confirmed as '{n}Fearless Defender Breeches{pl=...}'. Sibling names Fearless Defender Tunic (136120), Helm (136645), Gauntlets (136505), Hightops (136330), Pauldrons (136925) and Hammer (99028) exist in the client locale."}]}

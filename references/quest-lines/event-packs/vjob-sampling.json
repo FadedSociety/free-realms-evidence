@@ -1,0 +1,57 @@
+{
+ "title": "Job Sampling Community Event",
+ "names_seen": [
+  "Job Sampling Community Event",
+  "Job Sampling Community Events"
+ ],
+ "facts": [
+  {
+   "statement": "The site highlighted a different job each day during one week, with a new article daily and linked Job Sampling Community Events.",
+   "numbers": {
+    "jobs_highlighted_days": 7
+   },
+   "era": "live",
+   "quote": "We will be highlighting a different job each day this week.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=589",
+   "date": null
+  },
+  {
+   "statement": "A different job was highlighted each day of the week, with new articles daily and players invited to the Job Sampling Community Events.",
+   "numbers": {},
+   "era": "live",
+   "quote": "We will be highlighting a different job each day this week.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=605",
+   "date": null
+  },
+  {
+   "statement": "During the Job Sampling event week a different job was featured each day with a new article, and players were invited to join the Job Sampling Community Events.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Chaque jour et pendant toute la semaine, nous vous présenterons un métier différent.",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=607",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=589",
+   "date": null,
+   "title": "Free Realms - What is New? (Be An Archer)",
+   "summary": "A live-game news post from the official site (captured 2009-11-14) that launches a week-long job spotlight, starting with the Archer job. It explains how to find the Archer trainer Lugabow in Greenwood Forest and lists the trainer NPCs for the Archer, Wizard, Medic, Blacksmith and Warrior jobs. The post gives no exact dates, levels or rewards beyond general descriptions."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=605",
+   "date": null,
+   "title": "Free Realms - What is New? (Be A Medic)",
+   "summary": "A freerealms.com news post from the week of the Job Sampling event, highlighting the Medic job. It says Medics heal and use special medical equipment such as shock paddles, and that players start Medic training by talking to Nurse Naia outside the Sanctuary hospital. The post says a different job is featured each day that week and lists the trainer NPCs for Archer, Wizard, Medic, Blacksmith and Warrior."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=607",
+   "date": null,
+   "title": "Etre Un Médecin (Free Realms - What is New?)",
+   "summary": "A French-language official news post, part of a week-long Job Sampling series, introducing the Medic job. It says a Medic heals a group in hard fights and fights with specialized medical gear such as a defibrillator, and that aspiring Medics find trainer Naima, the nurse outside the Sanctuary hospital, who may recommend Medical Training. It also lists the five job trainers and says a different job is featured each day of the event week."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

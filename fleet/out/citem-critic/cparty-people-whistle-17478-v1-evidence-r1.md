@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cparty-people-whistle-17478-v1-evidence-r1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3946, 9484, 6, 1026] model=claude-haiku-5-5 -->
+# Party People Whistle
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The automatic id check flags locale:17483 ('Summon: Thomas - minute') as a placeholder test string. The claim itself correctly says it is not evidence, but the item still lists it under evidence, so a flagged string sits in the evidence array.", "fix": "Drop locale:17483 from the evidence array, or keep it only in open/notes as a flagged, non-evidence string. Cite locale:17478 and locale:17479 for the name and description, and the definition (refs:FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:194682-194700, Id 10372) for the definition."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-18777 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2873, 4, 591] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "The capture is a forum shell page, not the thread. It shows a vBulletin 'maximum number of posts you can view' error and forum navigation, with no post text, guide, or game information. Nothing about Free Realms mechanics, items, quests, or prices can be taken from it.", "facts": [], "quests": [], "uncertain": ["The requested thread (p=18777) body is absent; only a vBulletin view-limit error and forum index appear.", "The thread title, author, and date could not be determined from the capture.", "Forum names in the navigation (e.g., Items, Jobs/Classes, Pets, Membership / Stationcash) are index labels only, not article content."]}

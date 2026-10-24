@@ -1,0 +1,45 @@
+{
+ "title": "12 Days of Holidays",
+ "names_seen": [
+  "12 Days of Holidays"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms ran a 12 Days of Holidays event with special daily challenges and rewards, daily offers and deals.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Celebrate the Holidays with our special daily challenges and rewards, the 12 Days of Presents",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2827",
+   "date": null
+  },
+  {
+   "statement": "The 12 Days of Holidays event ran from December 13, 2012 12:01 am PST through December 24, 2012 11:59 pm PST, with a daily challenge and reward plus daily offers and deals.",
+   "numbers": {
+    "start_day": 13,
+    "end_day": 24,
+    "month": 12,
+    "year": 2012
+   },
+   "era": "live",
+   "quote": "Starting today, December 13, 2012 at 12:01 am PST through December 24, 2012 at 11:59 pm PST",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2813",
+   "date": "2012-12-13"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2827",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "An official SOE news post for the final day (Day 12) of Free Realms' 12 Days of Holidays event. It explains the 12 Days of Presents system: one daily challenge per day from December 13 to 24, a present per challenge completed on its first day, presents opened on December 25, and bonus Big Presents, with bows bought from the Marketplace for missed days. The post gives no exact dates for the posting itself."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2813",
+   "date": "2012-12-13",
+   "title": "Free Realms - What is New?",
+   "summary": "A December 2012 SOE news post announcing the 12 Days of Holidays event, running December 13 to December 24, 2012. It covers daily Marketplace specials, a daily holiday challenge at Snowhill that awards a present with a bow, and a present-opening step on December 25. The date is inferred from the 'Posted 4 days, 9 hours ago' stamp against the 2012-12-18 capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

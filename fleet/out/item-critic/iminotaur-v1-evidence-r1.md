@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=iminotaur-v1-evidence-r1 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[3121, 6789, 6, 999] model=claude-haiku-5-5 -->
+# Minotaur
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "The record treats 'Minotaur' as an item of kind 'other', but the only evidence (wiki wikitext rev 50078, infobox gender/race/eye color) describes a character who was 'no longer in-game'. Nothing in the pack shows it is an obtainable item at all.", "fix": "Keep sources empty and retired, and flag it as a non-item character entry. Source: freerealms-wiki/wikitext/18460-50078-6c9ef4544115.wiki lines 2-7 and the Minotaur infobox. Optionally note that the wiki's line-up and model images (Cory-rohlfs-minotaurpose.jpg, Cory-rohlfs-minotaurwire.jpg) are concept renders, not acquisition evidence."}]}

@@ -1,0 +1,94 @@
+{
+ "title": "Muggenstomp",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 7058,
+   "definition_id": 1236000,
+   "model_id": 200,
+   "max_health": 1,
+   "damage": 0,
+   "boss": false
+  },
+  {
+   "file": "field_battles.json",
+   "name_id": 7058,
+   "definition_id": 1236001,
+   "model_id": 200,
+   "max_health": 320,
+   "damage": 22,
+   "boss": true
+  },
+  {
+   "file": "dungeons\\bandit_hideout.json"
+  },
+  {
+   "file": "dungeons\\bandit_hideout.json"
+  },
+  {
+   "file": "npcs/greenwood_forest.json",
+   "npc_id": 9500000315,
+   "zone": "Greenwood Forest",
+   "enemy_kind": "Leader of the thugawugs and boss of Bandit Hideout; the wiki calls her female; the client uses \"him\" and \"his hideout\" in several lines (326297386, 2582044520).",
+   "location_evidence": [
+    "The hideout, \"Click the barrier near the Greenwood Camp\" (wiki via the dungeon page). [video: nameplate in the hideout, 9gfkEIFMV4s/00226, /00230]"
+   ]
+  }
+ ],
+ "entry_count": 7,
+ "client_name_matches": [
+  "locale:7058 [npc_name | - | Muggenstomp] 'Muggenstomp'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6995 [quest_objective | - | Muggenstomp] 'An unruly band of thugawugs are inside the Bandit Hideout! Defeat their leader, Muggenstomp, to end their greedy ways!'",
+  "locale:6997 [quest_objective | - | Muggenstomp] 'Defeat Muggenstomp!'",
+  "locale:6999 [quest_objective | - | Muggenstomp] 'Removing the current champion will force the bandits to choose a new one, taking them away from the roads for some time.'",
+  "locale:7058 [npc_name | - | Muggenstomp] 'Muggenstomp'",
+  "locale:24734 [quest_objective | - | Muggenstomp] 'Defeat the Bandit Champion, Muggenstomp!'",
+  "locale:35674 [quest_dialog | - | Muggenstomp] \"I can't believe you beat Muggenstomp. I guess you are stronger than I thought. Nice job.\"",
+  "locale:38072 [npc_dialog | - | Muggenstomp] 'Muggenstomp told us to knock you out!'",
+  "locale:38289 [npc_dialog | - | Muggenstomp | FLAG placeholder: no quest context, looks like combat barks; kept as npc_dialog] 'Bzzzz! Heal!'",
+  "locale:38290 [npc_dialog | - | Muggenstomp] \"You'd hurt a medic?\"",
+  "locale:38295 [other | - | Muggenstomp] \"Muggenstomp's fists glow with furious anger!\"",
+  "locale:38496 [quest_objective | - | Muggenstomp] 'Defeat Muggenstomp in the Bandit Hideout'",
+  "locale:38497 [quest_objective | - | Muggenstomp] 'Retrieve the bandit mask by defeating Muggenstomp in the Bandit Hideout. '",
+  "locale:416931 [quest_dialog | Greenwood Forest | Muggenstomp] \"We have been informed that there is a bandit hideout in Greenwood. The leader of their gang, a thugawug called <font color='#d9781a'>Muggenstomp</font>, is hole\"",
+  "locale:416936 [quest_objective | Greenwood Forest | Muggenstomp] 'Enter the Bandit Hideout and defeat the thugawug leader, Muggenstomp.'",
+  "locale:416937 [quest_objective | Greenwood Forest | Muggenstomp] 'Defeat Muggenstomp'",
+  "locale:416941 [quest_objective | Greenwood Forest | Muggenstomp] 'Seek out Muggenstomp in the Bandit Hideout and defeat him!  <BR><BR>Without him leading the bandits, travelers through Greenwood Forest should have an easier ti'",
+  "locale:442126 [quest_dialog | - | Muggenstomp] 'Muggenstomp and her band of thugawug bandits have been stopped.'",
+  "locale:4420153 [quest_objective | - | Muggenstomp] \"Go into the <font color='D9781A'>Bandit Hideout</font> and defeat their leader, <font color='D9781A'>Muggenstomp</font>!\""
+ ],
+ "client_cluster": [
+  "locale:7050 [npc_name | - | BirdsRaven] 'BirdsRaven'",
+  "locale:7053 [npc_name | - | Wintara] 'Wintara'",
+  "locale:7054 [npc_name | - | Sol] 'Sol'",
+  "locale:7056 [npc_name | - | Forest Giant] 'Forest Giant'",
+  "locale:7058 [npc_name | - | Muggenstomp] 'Muggenstomp'",
+  "locale:7063 [npc_dialog | Snowhill | Frostpetal] \"Hi there, I'm Frostpetal, the town greeter for Snowhill Village.<BR><BR>I have a bunch of tips and tricks for you. Just click whatever button you want to learn \"",
+  "locale:7066 [quest_objective | - | Cal] 'The hooligan leader, Cal, moved into the cellar! Now his thugs are causing a ruckus all day long! Defeat Cal!'"
+ ],
+ "wiki": {
+  "title": "Muggenstomp",
+  "text": "Muggenstomp is a chugawug NPC boss that can be found in the Bandit Hideout, located in the Greenwood Forest.\n\nDialogues\n\nAppearances\nQuest:Unmasking the Bandits (mentioned)\nBandit Hideout!\nFree Realms Issue 8\nFree Realms Issue 9\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Boss\nCategory:Females\nCategory:Chugawug\nCategory:Thugawug\nCategory:Greenwood Forest\nCategory:Comic"
+ },
+ "images": [
+  "image (image:character_or_npc): Muggenstomp",
+  "image (image:character_or_npc): HAV\nYOU\nHEARD TH\nHONOR\nTHIE"
+ ],
+ "video": [
+  "video:9gfkEIFMV4s/00230.jpg (Bandit Hideout): npcs: Muggenstomp nameplate  Big Bandit nameplate  | dialog: Muggenstomp: Who are you?! I'll teach you to come into my hideout! | quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandit? - 4/5  | job_level: Brawler 9 | other_text: Muggenstomp",
+  "video:9gfkEIFMV4s/00240.jpg (Bandit Hideout): npcs: Muggenstomp nameplate  | quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandits!  | job_level: Brawler 9 | other_text: Muggenstomp You don't have enough energy for that ability! Goals (2) Bandit Hideout",
+  "video:9gfkEIFMV4s/00226.jpg (Bandit Hideout): npcs: Muggenstomp nameplate  | dialog: Muggenstomp: Who are you?! I'll teach you to come into my hideout! | quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandit? - 4/5  | job_level: Brawler 9 | other_text: Goals (2)",
+  "video:9gfkEIFMV4s/00238.jpg (Bandit Hideout): npcs: Big Bandit nameplate  Muggenstomp nameplate  | quest:   Defeat Muggenstomp! (checked) Bonus: Defeat all of the Big Bandit? (checked)  | job_level: Brawler 9 | items_seen: Saved by the Bell Brawler Shirt | other_text: You receive 1 Saved by the Bell Brawler Shirt Goals (2)",
+  "video:9gfkEIFMV4s/00228.jpg (Bandit Hideout): npcs: Muggenstomp chat_speaker  | dialog: Who are you?! I'll teach you to come into my hideout! | quest:   Defeat Muggenstomp! Bonus: Defeat all of the Big Bandits! - 4/5  | job_level: Brawler 9 | other_text: Big Bandit (red enemy nameplate) Goals (2) Bandit Hideout"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

@@ -1,0 +1,54 @@
+{
+ "title": "Seaside Beach Luau",
+ "names_seen": [
+  "Seaside Beach Luau"
+ ],
+ "facts": [
+  {
+   "statement": "A community beach party in Seaside was held on Friday March 5, 2010, at 3pm Pacific (U.S. and Latin America, Server 1) and 9:00am Pacific / 5:00pm UTC (UK and Europe, Server 1).",
+   "numbers": {
+    "date_day": 5,
+    "date_month": 3,
+    "date_year": 2010,
+    "us_latam_time_pacific_hour": 15,
+    "uk_europe_time_utc_hour": 17
+   },
+   "era": "live",
+   "quote": "Friday March 5th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1092",
+   "date": null
+  },
+  {
+   "statement": "Activities at the Seaside luau included dancing, turning into crabs, lighting fireworks, trading collections, and trivia questions asked by Community Ambassadors who also danced in the surf and answered game questions.",
+   "numbers": {},
+   "era": "live",
+   "quote": "dance, turn into crabs, light fireworks, trade collections and basically have a good time.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1092",
+   "date": null
+  },
+  {
+   "statement": "A beach party where players could take their pets for a swim; beach fashions and Hula Outfits were available.",
+   "numbers": {},
+   "era": "live",
+   "quote": "This time we were able to take our pets for a swim.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1136",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1092",
+   "date": null,
+   "title": "Seaside Beach Luau",
+   "summary": "A Free Realms community event announcement for a Seaside beach party on Friday March 5, 2010, with dancing, crab transformations, fireworks, collection trading and trivia run by Community Ambassadors. It also states how players can get beach clothing (quests, web codes, vendors for coin, or Station Cash) and how to find community events via the Game Guide calendar."
+  },
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1136",
+   "date": null,
+   "title": "Event Recap: Festival of Hearts, Hide and Seek and Beach Party!",
+   "summary": "A community-team recap of several recent events: a Festival of Hearts semi-formal dance in Merry Vale, an Ambassador Hide and Seek game in Briarwood where finding hidden Community Ambassadors paid coins, and a Seaside Beach Luau where pets could swim. It also explains how to reach community events via the Game Guide calendar and its GO button."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

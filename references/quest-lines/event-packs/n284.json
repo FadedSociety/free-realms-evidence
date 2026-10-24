@@ -1,0 +1,29 @@
+{
+ "title": "Presidents' Day weekend promotion",
+ "names_seen": [
+  "Presidents' Day weekend promotion"
+ ],
+ "facts": [
+  {
+   "statement": "SOE ran Presidents' Day weekend special offers and events across several games, including Free Realms, starting February 18.",
+   "numbers": {
+    "start_day": 18,
+    "start_month": 2
+   },
+   "era": "live",
+   "quote": "encontraran ofertas especiales exclusivas para cada juego empezando el 18 de febrero",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=2037",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=2037",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "This is a Spanish-language SOE site notice announcing a Presidents' Day weekend promotion across many SOE games, including Free Realms. It gives no Free Realms-specific details; it only says offers begin February 18 and may include bonus XP days, item discounts, or new items. The post date is not shown on the page (only a relative 'Posted 3 months, 2 weeks ago' stamp), so the year is uncertain."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

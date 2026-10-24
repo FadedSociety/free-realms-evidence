@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchef-s-spatula-of-talent-v-29529-v1-world-r2 status=done turns=3 usd=0.0014 tokens(read,write,in,out)=[9915, 6132, 8, 1167] model=claude-haiku-5-5 -->
+# Chef's Spatula of Talent V
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 2152-coin price comes from stores.json reference data (vendors.json price_basis: '(R) stores.json reference price; no captured retail NPC quote'). The Mikael wiki Sells section lists the item name only and gives no price. The answer does disclose this, but the 'vendor' source is only partly price-evidenced.", "fix": "Keep the vendor source, but label the price as 'stores.json reference price, unverified against NPC quote' (vendors.json items[].price_basis, repo stores.json item 75596 purchase_price_coins 2152). Member price 1936 is 2152 x 0.9 rounded down, so it is derived, not captured."}]}

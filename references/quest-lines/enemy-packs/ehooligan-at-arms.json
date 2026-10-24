@@ -1,0 +1,35 @@
+{
+ "title": "Hooligan-At-Arms",
+ "our_entries": [
+  {
+   "file": "dungeons\\highroad_hijinx.json",
+   "definition_id": 930060
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:130608 [npc_name | - | Hooligan-At-Arms] 'Hooligan-At-Arms'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:130608 [npc_name | - | Hooligan-At-Arms] 'Hooligan-At-Arms'"
+ ],
+ "client_cluster": [
+  "locale:130600 [other | - | Necro Spore | FLAG dev_note: internal label \"Dark Spore Depths 19\" style name, not player text] ' Dark Spore Depths 19: Necro Spore'",
+  "locale:130603 [quest_objective | - | Red Singing Crystal] 'Buy a Red Singing Crystal from Therin.'",
+  "locale:130604 [quest_dialog | - | Therin] 'Therin is always busy at the mines in Snowhill.'",
+  "locale:130605 [ui | - | Start Game | FLAG fragment: menu button label] 'Start Game'",
+  "locale:130606 [ui | - | Next Stage | FLAG fragment: menu button label] 'Next Stage'",
+  "locale:130607 [item | - | Hooligan Weapon Rack] 'Hooligan Weapon Rack'",
+  "locale:130608 [npc_name | - | Hooligan-At-Arms] 'Hooligan-At-Arms'",
+  "locale:130609 [quest_title | - | Destroy the Hooligan Weapon Racks!] 'Destroy the Hooligan Weapon Racks!'",
+  "locale:130610 [quest_objective | - | Destroy the Hooligan Weapon Racks!] \"The Hooligans have stockpiled weapons within their camp!  Destroy the weapons so that they can't be used against anyone!\"",
+  "locale:130611 [quest_dialog | - | Destroy the Hooligan Weapon Racks!] \"Hey you!  Don't touch those!  They totally belong to us!!\"",
+  "locale:130612 [quest_objective | - | Destroy the Hooligan Weapon Racks!] 'Click on the barrel near Ty'",
+  "locale:130613 [quest_objective | - | Destroy the Hooligan Weapon Racks!] 'Click on the barrel behind Ty to begin.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

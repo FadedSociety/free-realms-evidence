@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-elite-black-snowhill-stopper-shorts-pl-elite-black-snowhil-404531-v1-evidence-r1 status=no_submit turns=2 usd=0.0014 tokens(read,write,in,out)=[3739, 7537, 6, 910] model=claude-haiku-5-5 -->
+# {n}Elite Black Snowhill Stopper Shorts{pl="Elite Black Snowhill Stopper Shorts"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "The source is labelled 'vendor' with where=null, but the only evidence is a coin-store listing row in stores.json (item_id 62101, category 104, purchase 9453, member 8507). No NPC is named, so 'vendor' overstates what the pack shows.", "fix": "Label it as a coin-store listing (type 'coin_store', where 'coin store, category 104, NPC unresolved'). Price and currency are correct: 9453 coins, member price 8507 with 10% discount, per repo:prototype/osfr-tools/data/content/stores.json:14545."}]}

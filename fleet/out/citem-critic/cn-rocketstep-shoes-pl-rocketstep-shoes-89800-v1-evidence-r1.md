@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-rocketstep-shoes-pl-rocketstep-shoes-89800-v1-evidence-r1 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3551, 7032, 6, 1084] model=claude-haiku-5-5 -->
+# {n}Rocketstep Shoes{pl="Rocketstep Shoes"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The source rests on a stores.json row whose category_id 105 is not mapped to a store name or vendor anywhere in the pack. The answer correctly says so in open, but 'vendor' is an inference from the store row, not a named NPC.", "fix": "Keep the row as the source (stores.json line 11670: item_id 35739, category 105, tint group 1, purchase 1182, member 1063 at 10%, sell 118, source_tags L1,L2,L4,R2,T633,R1). Label the vendor as 'legacy coin store, NPC unnamed'. This is what the answer already does."}]}

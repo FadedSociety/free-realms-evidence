@@ -1,0 +1,8 @@
+<!-- fleet job=test-audit id=tests-cooking-gameplay-rs-L1 status=done turns=4 usd=0.0044 tokens(read,write,in,out)=[20754, 15288, 10, 4503] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/cooking_gameplay.rs lines 1-375 of 375
+
+Window reviewed: `prototype/osfr-tools/tests/cooking_gameplay.rs` lines 1-375 (plus `tests/common/cooking_movie.rs` helpers). Most of the window holds up: the fixture asserts its content file exists (line 82, no silent skip), both `#[ignore]` attributes carry a reason, `GameplayState` serializes `cooking` with `skip_serializing_if` (gameplay.rs:92-101), so the round-trip at line 20 is a real check, and the rejected-packet cases compare full snapshots. One finding:
+
+- **[medium] tests/cooking_gameplay.rs:258 private_chef_gather_cooking_atomic_once_gates_restore_cancel - the post-restart `26/42` cancel is checked only by two item counts, not by the full state.**
+  - Why it cannot catch a regression: the test name claims the "restore cancel" gate, but lines 258-259 only compare `count(2862)` and `count(35)` after `send(&mut restarted, &[26, 0, 42, 0], 1000)`. A change that drops or resets the cooking/opening state, moves a non-item field, or alters a rental or other stack would still pass, because those counts are unchanged. The same packet is cancellation in the sense the name means, but nothing checks that it leaves the state alone.
+  - Fix: take `let before = restarted.snapshot();` before line 258 and replace the count assertion after it with `assert_eq!(restarted.snapshot(), before);`. Optionally also assert that the cooking `active` is still `None` afterwards.

@@ -1,0 +1,77 @@
+{
+ "title": "Cakeling",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000009,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Birthday Bash enemy",
+   "location_evidence": [
+    "Several zones, Blackspore listed"
+   ]
+  },
+  {
+   "file": "npcs/sanctuary.json",
+   "npc_id": 9500000459,
+   "zone": "Sanctuary",
+   "enemy_kind": "Birthday Bash enemy",
+   "location_evidence": [
+    "Sanctuary and other zones"
+   ]
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:6215 [npc_name | - | Cakeling] 'Cakeling'",
+  "locale:5102904 [npc_name | - | Cakeling] 'Cakeling'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:6215 [npc_name | - | Cakeling] 'Cakeling'",
+  "locale:6216 [npc_dialog | - | Cakeling] 'How could you eat something this strange?'",
+  "locale:6218 [npc_dialog | - | Cakeling] 'How could you eat something this cute?'",
+  "locale:427874 [npc_dialog | - | Cakeling | FLAG joke: gag line] 'Om nom nom nom!'",
+  "locale:427929 [quest_objective | - | Cakeling] 'Defeat all of the cakelings!'",
+  "locale:427930 [quest_objective | - | Cakeling] \"All of the cakelings are eating the stolen birthday cakes! Don't let them finish or they will get stronger.\"",
+  "locale:5102904 [npc_name | - | Cakeling] 'Cakeling'"
+ ],
+ "client_cluster": [
+  "locale:6207 [other | - | Invisible Block] 'Invisible Block'",
+  "locale:6208 [other | - | Invisible Block] 'This block is almost invisible until you get close to it.'",
+  "locale:6209 [quest_objective | Snowhill | Skate Shop Ads] 'Deliver as many advertisements for the Skate Shop Showdown as you can to mailboxes in Snowhill Village.'",
+  "locale:6210 [quest_objective | Snowhill | Skate Shop Ads] 'Deliver as many advertisements to mailboxes as you can.'",
+  "locale:6211 [quest_title | - | Rainbow Bridge] 'Rainbow Bridge'",
+  "locale:6212 [quest_dialog | - | Rainbow Bridge] \"Whoa, that's a full rainbow all the way.  Collect more to make a double rainbow... or even a triple rainbow!  So intense!\"",
+  "locale:6213 [quest_objective | - | Skate Shop Ads] 'Deliver Ads'",
+  "locale:6214 [quest_dialog | - | Frostfang Caverns] 'Have you come to learn the ways of Ninjitsu? I do not think you are ready yet. Go to the Frostfang Caverns and defeat 12 Snowfoot Ninjas and maybe I will help y'",
+  "locale:6215 [npc_name | - | Cakeling] 'Cakeling'",
+  "locale:6216 [npc_dialog | - | Cakeling] 'How could you eat something this strange?'",
+  "locale:6218 [npc_dialog | - | Cakeling] 'How could you eat something this cute?'",
+  "locale:6219 [quest_title | - | Deep Mines | FLAG not_live: title starts NOT LIVE] 'NOT LIVE - Deep Mines'",
+  "locale:6221 [item | - | Saber-Tooth Tiger] 'Saber-Tooth Tiger'",
+  "locale:6222 [item | - | Saber-Tooth Tiger] 'Let the realms hear you roar on this Saber-Tooth Tiger.'",
+  "locale:6223 [quest_dialog | - | Penguin Babysitting] 'Hello. Do you think you could help me and my penguins with something? Some dogs have been chasing my penguins and they are now too scared to continue their trai'"
+ ],
+ "wiki": {
+  "title": "Cakeling",
+  "text": "Were you look for the pet pal?\n\nThe Cakeling is an enemy NPC that appear throughout Sacred Grove during the Birthday Bash.\n\nAppearances\nCake-Eating Cakelings\nCakenstein Attacks!\n\nGallery\n\nCategory:NPC\nCategory:Enemies\nCategory:Seasonal\nCategory:Birthday Bash"
+ },
+ "images": [
+  "image (image:character_or_npc): Cakeling\nMunchy"
+ ],
+ "video": [
+  "video:a1p2wZhNao0/00006.jpg (-): job_level: Archer 16 | other_text: 00:06:56 (event timer) Pixie Hunters! (pink marker, 22m) Cakeling (enemy nameplate)",
+  "video:a1p2wZhNao0/00004.jpg (-): landmarks: giant sunflowers large tree trunk | job_level: Archer 16 | other_text: 00:04:43 Cakeling Power Hour 2x Coin Now",
+  "video:a1p2wZhNao0/00098.jpg (-): quest:   Defeat all of the cakelings!  | job_level: Archer 16 | other_text: Cake-Eating Cakelings Goals (1) Defeat all of the cakelings! Cakeling",
+  "video:a1p2wZhNao0/00000.jpg (-): npcs: Verna distance_marker  | job_level: Archer 16 | other_text: Pixie Hunters! (pink marker, 25m) Spiralmint Plant (pink marker, 45m) Cakeling (enemy nameplate) 00:00:40 (event timer)"
+ ],
+ "article_facts": [
+  "fact:pet: Cakeling and Balloon Animal pets were sold individually in the Marketplace. | Cakeling and Balloon Animal pets can be purchased individually. (http://www.freerealms.com/article/detail.action?articleId=1261)",
+  "fact:pet: Cakeling and Balloon Animal pets could be bought individually in the Marketplace. | Cakeling and Balloon Animal pets can be purchased individually. (http://www.freerealms.com:80/article/detail.action?articleId=2106)",
+  "fact:combat: Players battle Cakenstein, a cake creature, and his cakeling helpers as part of the event. | You will also have to battle Cakenstein, a bizarre cake creature and his cakeling helpers. (http://www.freerealms.com/article/detail.action?articleId=1261)",
+  "fact:npc: Players battle Cakenstein, a cake creature, and his cakeling helpers as part of the party. | You will also have to battle Cakenstein, a bizarre cake creature and his cakeling helpers. (http://www.freerealms.com:80/article/detail.action?articleId=2106)"
+ ],
+ "quest_answers_naming_it": [
+  "defeat target in 'Mysteriously Cakey Remains' (final): Chef Jarvie thinks Cakenstein's minions will leave behind a clue once they're defeated. Help Chef Jarvie find out if the",
+  "defeat target in 'Undelivered Confections' (unresolved): Defeat some cakelings; if you find clues, return immediately."
+ ]
+}

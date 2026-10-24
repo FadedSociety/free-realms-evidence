@@ -1,0 +1,16 @@
+<!-- fleet job=test-audit id=tests-pathing-rs-L1 status=done turns=3 usd=0.0068 tokens(read,write,in,out)=[10461, 13244, 8, 10046] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/pathing.rs lines 1-342 of 342
+
+Window: `prototype/osfr-tools/tests/pathing.rs` lines 1-342. I read the window in full plus `src/pathing.rs` (the code under test). No tautologies, no `#[ignore]`, no fixture-dependent early returns, and the exact-byte expectations (lines 238-244, 274-278) are built from the documented 98/2 layout rather than from the code's output. The findings below are the gaps I could confirm.
+
+- **[medium] tests/pathing.rs:187 `refused_requests_leave_the_rate_budget_alone` (and the same gap at :282 `take_me_there_is_refused_and_rate_capped_like_the_breadcrumb`) - every refusal is sent at `now = 0`, so the clock-dependent part of refusal handling is never exercised.**
+  - Why it cannot catch a regression: in `src/pathing.rs:149-154` the window reset runs before the grid `OutOfZone` refusal at :162-163. A refusal sent at a later time therefore already mutates `window_start_ms` and `used`. At `now = 0` the reset never fires (`0 - 0 < 1000`), so a change that rolls or clears the window on refused requests (or that moves the reset further up) leaves both tests green. The "refused requests spend no budget" claim is only tested at one instant.
+  - Fix: after exhausting the budget at t=0 (4 answered requests), send a refused request at t=1000 (for example a `walk(400.0)` TooFar or a to-z=150 OutOfZone) and assert it is refused, then assert that a valid request at t=500 still gets `TooFast`. That fails if refusals roll the window.
+
+- **[medium] tests/pathing.rs:140-151 `refusals_each_have_a_canary` - the comment "Not finite, in every position class" overclaims: only `from[0]`, `from[1]`, `from[3]` and `to[0]` are tested.**
+  - Why it cannot catch a regression: `from[2]`, `to[1]`, `to[2]` and `to[3]` are never set to NaN or infinity. Removing one index from the `is_finite` check (`src/pathing.rs:135`) still refuses those requests (the NaN flows into `reach` and yields `TooFar`), so the test passes while the refusal variant silently changes from `NotFinite` to `TooFar` for those inputs.
+  - Fix: loop over all eight components (both vec4s, every index) and assert `Refusal::NotFinite` for each NaN/±inf, so the variant is pinned per component.
+
+- **[low] tests/pathing.rs:100-111 `the_longest_legal_request_stays_under_the_point_cap` - the name promises a point-cap test, but the cap is never exercised.**
+  - Why it cannot catch a regression: a 300 m request yields 60 segments and 61 points. The clamp at `src/pathing.rs:167` (`clamp(1, MAX_POINTS - 1)`) is unreachable for any request the reach check admits (max 300 m / 5 m = 60), so removing it or changing `MAX_POINTS` to any value ≥ 61 still passes. The `<= MAX_POINTS` assertion at :104 is implied by the `== 61` at :105 and adds nothing. The "over" half of the test checks the 300 m reach limit (`TooFar`), not the cap.
+  - Fix: rename to reflect the reach limit (e.g. `the_longest_legal_request_is_61_points_and_one_more_is_refused`), or drop the `<=` line. If the cap must be tested, call the path builder directly with a segment count above the cap, or assert the clamp is dead code.

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpink-pearl-ring-66923-v2-world-r2 status=done turns=4 usd=0.0026 tokens(read,write,in,out)=[23134, 11751, 10, 1882] model=claude-haiku-5-5 -->
+# Pink Pearl Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].source", "issue": "The automatic id check flags locale:391572261 as nonexistent. The number is real in the locale .dat files but is not indexed by the locale tool, so the citation is unresolvable as written.", "fix": "Cite the raw data instead: opening-harvesting-native-20261009T132512Z/locale/en_us_data.dat line 10365 (or FreeRealmsLocaleTools/test/.../en_us_data.dat line 10360) for 391572261 'This item can be added to the Pretty Rings Collection'. Name 66923 'Pink Pearl Ring' is in the same file."}]}

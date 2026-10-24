@@ -1,0 +1,4 @@
+<!-- fleet job=dialog-critic id=q3070044-v1-evidence-r1 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[6414, 8356, 6, 1506] model=claude-haiku-5-5 -->
+# Fisherman: Reel Riches
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "offer.speaker / complete.speaker", "issue": "Both are left null. The NPC answer for Gunther lists 3070044 Reel Riches among quests_given, and its quest_dialog list includes three Reel Riches lines (409589, 409592, 409601), so Gunther is the only supported speaker for this quest's dialog. The null is honestly explained in open, so it is a minor gap, not a failure.", "fix": "Set offer.speaker and complete.speaker to Gunther, citing the NPC answer (quests_given includes Fisherman: Reel Riches) and the client hint pattern for 409589/409592/409601. Keep the hedge in open if you want it."}]}

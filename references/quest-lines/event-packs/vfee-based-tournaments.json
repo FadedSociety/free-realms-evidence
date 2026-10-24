@@ -1,0 +1,44 @@
+{
+ "title": "Fee-based tournaments",
+ "names_seen": [
+  "Fee-based tournaments"
+ ],
+ "facts": [
+  {
+   "statement": "Fee-based tournaments with prizes cannot be offered to residents of Arizona, Connecticut, Iowa, Maryland, Nevada, Tennessee and Vermont; non-U.S. citizens are not eligible for paid-entry or prize tournaments.",
+   "numbers": {
+    "restricted_us_states": 7
+   },
+   "era": "live",
+   "quote": "we cannot offer fee-based tournaments with prizes to residents of the States of Arizona, Connecticut, Iowa, Maryland, Nevada, Tennessee and Vermont",
+   "article": "http://www.freerealms.com:80/eulaPrint.vm",
+   "date": "2009-04-30"
+  },
+  {
+   "statement": "Fee-based tournaments with prizes cannot be offered to residents of Arizona, Connecticut, Iowa, Maryland, Nevada, Tennessee and Vermont; non-US citizens are not eligible for fee or prize tournaments.",
+   "numbers": {
+    "restricted US states": 7
+   },
+   "era": "live",
+   "quote": "we cannot offer fee-based tournaments with prizes to residents of the States of Arizona, Connecticut, Iowa, Maryland, Nevada, Tennessee and Vermont",
+   "article": "http://www.freerealms.com:80/publicEula.vm",
+   "date": "2009-04-30"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/eulaPrint.vm",
+   "date": "2009-04-30",
+   "title": "Free Realms - End User License Agreement",
+   "summary": "This is the live Free Realms End User License Agreement, last updated April 30, 2009, and captured July 2009. It sets the rules a rebuild should follow for account access, the free client, paid Premium Content and memberships, tournament eligibility, and termination. It contains no quest, item or price tables."
+  },
+  {
+   "url": "http://www.freerealms.com:80/publicEula.vm",
+   "date": "2009-04-30",
+   "title": "Free Realms - End User License Agreement",
+   "summary": "This is the Free Realms End User License Agreement (last updated April 30, 2009) captured in July 2009, describing the terms for the client software, accounts, Premium Content, tournaments and termination. For a rebuilder it mainly sets account rules (adults or parent-created accounts, one child per account, restricted activation under 13), the Premium Content categories, refund policy and monitoring rules, with few gameplay numbers."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

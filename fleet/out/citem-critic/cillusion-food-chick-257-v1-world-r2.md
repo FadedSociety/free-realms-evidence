@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cillusion-food-chick-257-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3699, 8925, 6, 958] model=claude-haiku-5-5 -->
+# Illusion Food - Chick
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live / retired", "issue": "The answer leaves live as 'unsure' and retired as null, which is honest. A cross-check found nothing that retires or confirms the item. The wiki tooltip pack holds only an unrelated Illusion food (Bark Chocolate, a Dog Large Floppy effect, 30 min), so the Illusion mechanic is live-documented in the wiki but not this item.", "fix": "No change required. Keep live 'unsure' and retired null until a wiki tooltip or vendor row for Illusion Food - Chick is found. Optional: cite the Bark Chocolate tooltip (wiki image:item_tooltip) as evidence that the Illusion food mechanic existed on the live wiki, not as evidence for this item."}]}

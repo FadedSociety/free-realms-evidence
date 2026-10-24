@@ -1,0 +1,34 @@
+{
+ "title": "Changeling Bruiser",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\darvon_s_descent.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:16785 [npc_name | - | Changeling Bruiser] 'Changeling Bruiser'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:16785 [npc_name | - | Changeling Bruiser] 'Changeling Bruiser'"
+ ],
+ "client_cluster": [
+  "locale:16777 [item | - | -] 'This tool will level up with you, increasing your stat bonuses as a Blacksmith.'",
+  "locale:16779 [item | - | -] 'This tool will level up with you, increasing your stat bonuses as a Chef.'",
+  "locale:16781 [item | - | -] 'This tool will level up with you, increasing your stat bonuses as a Miner.'",
+  "locale:16784 [quest_objective | - | Drone Fauzz] 'Drone Fauzz is trying to take over the hive! Help Queen Bixie regain control by defeating Drone Fauzz!'",
+  "locale:16785 [npc_name | - | Changeling Bruiser] 'Changeling Bruiser'",
+  "locale:16788 [item | - | Dynamite Pile] 'Dynamite Pile '",
+  "locale:16791 [quest_objective | - | Queen Bixie] 'Save the Queen from unruly Bixies.'",
+  "locale:16792 [quest_objective | - | Queen Bixie] 'The unruly Bixies are holding their Queen hostage. Defeat them to rescue her.'",
+  "locale:16793 [ui | - | - | FLAG fragment: unformatted progress counter with no quest meaning] '2 defeated invasion bixie'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

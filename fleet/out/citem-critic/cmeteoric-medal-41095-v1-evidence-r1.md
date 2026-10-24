@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmeteoric-medal-41095-v1-evidence-r1 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[13380, 11235, 8, 1509] model=claude-haiku-5-5 -->
+# Meteoric Medal
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "The claim that the wiki listing makes the collection 'a live-era wiki collection (revision 2013-07-13)' goes beyond the lookup. The List of Collections excerpt names 'Unique Medals' and 'Medals of Honor' under a Robgoblin-junk/collection tree, but shows no revision date and no live-era status. The 2013-07-13 revision is not verifiable in the pack.", "fix": "Say only that the wiki's 'List of Collections' page (source https://freerealms.fandom.com/wiki/List_of_Collections) lists 'Unique Medals' as a collection. Drop the live-era and revision-date wording unless the page revision is checked. Live status stays unsure."}]}

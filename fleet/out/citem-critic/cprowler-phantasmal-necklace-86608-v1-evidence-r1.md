@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cprowler-phantasmal-necklace-86608-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3807, 8268, 6, 1088] model=claude-haiku-5-5 -->
+# Prowler Phantasmal Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The sibling-family claim cites FreeRealms-Legacy comments 'near lines 463711-463863'. In the Legacy file the matching comments I can see are Phantasmal Ring entries at 462264-463635 (Dull through Physician). I did not confirm that the necklace entries sit at 463711-463863, so the line range is unverified. The locale ids 86527-86617 are the stronger citation.", "fix": "Cite the locale ids (86603-86613 cluster, from the evidence pack) and re-check the Legacy line range against FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json before relying on it."}]}

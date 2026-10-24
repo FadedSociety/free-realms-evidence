@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=icounselor-edmond-v1-evidence-r1 status=done turns=2 usd=0.0025 tokens(read,write,in,out)=[3602, 13903, 6, 1457] model=claude-haiku-5-5 -->
+# Counselor Edmond
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Minor omission: the Confronting Bigfoot reward 'You receive 1 Camp Chatty Hat' (video L27vxozHOls/00326, per the repo NPC notes) and the Edmond-as-ally-in-Bigfoot's-Lair role are not mentioned. Neither changes the verdict that Edmond is not an item.", "fix": "Optionally add: Confronting Bigfoot reward 'You receive 1 Camp Chatty Hat' (video L27vxozHOls/00326, repo NPC notes line 40), and Edmond is an ally in Bigfoot's Lair (repo NPC notes line 40). Both are quest-side facts, not item sources for Edmond."}]}

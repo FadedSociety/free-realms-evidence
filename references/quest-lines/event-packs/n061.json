@@ -1,0 +1,52 @@
+{
+ "title": "Wintery Basin Snow Days Party",
+ "names_seen": [
+  "Wintery Basin Snow Days Party"
+ ],
+ "facts": [
+  {
+   "statement": "A Snow Days community party was held in the Wintery Basin fishing area on Server 1, with a US/Latin America session on Thursday December 9, 2010 at 3pm Pacific Time.",
+   "numbers": {
+    "start_hour_pacific": 15,
+    "day": 9,
+    "month": 12,
+    "year": 2010
+   },
+   "era": "live",
+   "quote": "Thursday December 9th, 2010 3pm Pacific Time (U.S. and Latin America) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1953",
+   "date": null
+  },
+  {
+   "statement": "A second Snow Days party session for UK and Europe was scheduled on Server 1 for Friday December 10, 2010 at 9:00am Pacific Time / 4:00pm GMT.",
+   "numbers": {
+    "day": 10,
+    "month": 12,
+    "year": 2010,
+    "hour_gmt": 16
+   },
+   "era": "live",
+   "quote": "Friday December 10th, 2010 9:00am Pacific Time / 4:00pm GMT (UK and Europe) Server 1",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1953",
+   "date": null
+  },
+  {
+   "statement": "Players were encouraged to wear wintery outfits and costumes and bring boomboxes to the party.",
+   "numbers": null,
+   "era": "live",
+   "quote": "Wear your wintery outfits and costumes and bring your boomboxes.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1953",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1953",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A Free Realms community event announcement for the Snow Days season party in the Wintery Basin fishing area above Snowhill. It gives the two scheduled server 1 times (Dec 9 for US/Latin America, Dec 10 for UK/Europe) and asks players to wear wintery outfits and bring boomboxes. The posting date is not shown; it was posted roughly five days before the December 14, 2010 capture."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

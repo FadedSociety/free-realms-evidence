@@ -1,0 +1,36 @@
+{
+ "title": "Moldy Shambler",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\moldy_shamblers.json"
+  }
+ ],
+ "entry_count": 2,
+ "client_name_matches": [
+  "locale:73980 [npc_name | - | Moldy Shambler] 'Moldy Shambler'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:73980 [npc_name | - | Moldy Shambler] 'Moldy Shambler'"
+ ],
+ "client_cluster": [
+  "locale:73977 [npc_name | - | Cray Marauders] 'Cray Marauders'",
+  "locale:73978 [npc_dialog | - | Cray Marauders] \"You'll pay for interfering with the Master!\"",
+  "locale:73979 [npc_dialog | - | -] 'My goodness!'",
+  "locale:73980 [npc_name | - | Moldy Shambler] 'Moldy Shambler'",
+  "locale:73982 [quest_title | - | Moldy Shamblers] 'Moldy Shamblers'",
+  "locale:73983 [quest_objective | - | Moldy Shamblers | FLAG duplicate: near-identical to 73984 (typo)] 'Defeal all Moldy Shamblers'",
+  "locale:73984 [quest_objective | - | Moldy Shamblers] 'Defeat all Shamblers!'",
+  "locale:73985 [quest_objective | - | Moldy Shamblers] 'Gloam magic in the area has created some nasty shamblers, defeat them all!'",
+  "locale:73986 [quest_dialog | - | Moldy Shamblers] 'Evil magic and mushroom monsters are creating shamblers! Venture in and stop them!'",
+  "locale:73987 [ui | - | -] 'Select a Pet below to summon it'",
+  "locale:73988 [npc_name | - | Nettleseed Pest] 'Nettleseed Pest'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

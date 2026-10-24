@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csmooth-ocean-ring-96076-v1-world-r2 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[3683, 10129, 6, 1222] model=claude-haiku-5-5 -->
+# Smooth Ocean Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 3, "problems": [{"field": "evidence[1] (family list)", "issue": "The family list is incomplete. The client lookup also shows the parent name 'Ocean Ring' (locale:66906), 'Granite Ocean Ring' (locale:99306), 'Metallic Ocean Ring' (locale:99312) and 'Jeweled Ocean Ring' (appears in the locale data copies). None of these changes the verdict, but the family is larger than stated.", "fix": "Add locale:66906 'Ocean Ring', locale:99306 'Granite Ocean Ring', locale:99312 'Metallic Ocean Ring' and the Jeweled Ocean Ring string to the family list (client lookup, en_us_data.dat)."}]}

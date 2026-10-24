@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chardwood-pumpkin-ring-99305-v1-world-r2 status=no_submit turns=2 usd=0.0021 tokens(read,write,in,out)=[4047, 13246, 6, 882] model=claude-haiku-5-5 -->
+# Hardwood Pumpkin Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / live", "issue": "The answer correctly lists no sources and marks live as unsure. My own lookups found no wiki, article, video, vendor, quest or drop evidence for locale 99305 or definition 32186. The repo's Pumpkin ring hits are only the Pumpkin Carver weapon and Super Spooktacular NPC notes, none of which name this ring.", "fix": "No change to the answer. Optional: note that the client has a family of other Pumpkin rings (Faded, Dull, Polished, Shiny, Gleaming, Metallic Pumpkin Ring, locale strings in en_us_data.dat), which may be a related Super Spooktacular set. No source links them to this ring, so they should stay out of sources."}]}

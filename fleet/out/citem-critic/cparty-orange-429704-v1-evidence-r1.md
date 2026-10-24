@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cparty-orange-429704-v1-evidence-r1 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3993, 6962, 6, 1287] model=claude-haiku-5-5 -->
+# Party Orange
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2]", "issue": "I confirmed the chest/legs/feet IDs in CharacterCreateItemClothingSets.txt line 7 (set 5: feet 15814, legs 16610, chest 2182). I did not open ItemDefinitions.txt lines 37, 43, 45, so the claim that chest 2182 carries dye tint 231 is unverified by me.", "fix": "Check client:Resources/CharacterCreate/ItemDefinitions.txt for item 2182's tint field before relying on the tint link. The rest of the chain is confirmed: CharacterCreateCustomizationClothes.txt line 10 (1000009^3298^231^161^Pixie^Female^429704), CharacterCreateItemMappings.txt line 183 (161 -> Party set, index 5), and the locale 429704 'Party Orange'."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csnowflake-medal-41099-v1-evidence-r1 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[14177, 10677, 8, 1457] model=claude-haiku-5-5 -->
+# Snowflake Medal
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0] / sources[0].detail", "issue": "The claim that the Unique Medals set spans definition ids 3878-3885 is not supported by the cited range. In collection_catalogue.json, the entry for 3878 (lines 9215-9219) sits in the block before collection 112, and collection 112's own entries (ids 811-816, lines 9250-9294) map indexes 1-5 to 3879-3883. The set's extent is therefore unverified.", "fix": "Cite only what the evidence shows: collection 112 (name 7763) holds entries 811-816 with definition ids 3879-3883 (index 1-5), and 3883 is index 5 at repo collection_catalogue.json:9286-9294. Treat the 3878 and 3884-3885 membership as unconfirmed."}]}

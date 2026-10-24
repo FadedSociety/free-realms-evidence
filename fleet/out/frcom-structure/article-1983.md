@@ -1,0 +1,4 @@
+<!-- fleet job=frcom-structure id=article-1983 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 1965, 4, 676] model=claude-haiku-5-5 -->
+# Free Realms - What is New?
+
+{"article": {"title": "Felices días Festivos les Desea Free Realms", "date": null, "author": null, "type": "news"}, "about_free_realms": true, "summary": "This is a short Spanish-language holiday greeting from the Free Realms team, posted on the official site's 'What is New?' news page. It contains no game mechanics, quests, items, events, prices or release details, so it adds no rebuild data beyond confirming the team posted seasonal wishes.", "facts": [], "quests": [], "uncertain": ["The page gives only a relative date ('Posted 4 months, 4 weeks ago') with no absolute date, so the posting date cannot be determined from the capture.", "The capture's extracted text is only a holiday greeting plus site footer links; no article body beyond the greeting was available."]}

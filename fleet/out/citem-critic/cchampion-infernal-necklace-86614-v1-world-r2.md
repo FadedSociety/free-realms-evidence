@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cchampion-infernal-necklace-86614-v1-world-r2 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3811, 8481, 6, 856] model=claude-haiku-5-5 -->
+# Champion Infernal Necklace
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The cited path 'refs:Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json:468548' was not re-checked. In the TCG-Files copy, 'Champion Infernal Necklace' is a Comment on Id 22623 at ClientItemDefinitions.json:467760-467761, with no vendor, quest or price field beside it. The claim that these are only comments still holds, but the line citation should point to the file that was actually read.", "fix": "Cite refs:TCG-Files/Emulator/Resources/ClientItemDefinitions.json:467760 (Comment 'Champion Infernal Necklace', Id 22623) as the definition source. It has no acquisition data."}]}

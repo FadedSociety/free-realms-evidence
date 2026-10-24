@@ -1,0 +1,48 @@
+{
+ "title": "Videez, the Master Sneakscout",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json"
+  },
+  {
+   "file": "dungeons\\forest_troll_fort.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:40273 [npc_name | - | Videez, the Master Sneakscout] 'Videez, the Master Sneakscout'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:40273 [npc_name | - | Videez, the Master Sneakscout] 'Videez, the Master Sneakscout'",
+  "locale:45837 [quest_objective | - | Videez, the Master Sneakscout] 'Defeat Videez, the Master Sneakscout!'"
+ ],
+ "client_cluster": [
+  "locale:40265 [npc_dialog | - | -] 'Why are you here? Leave us alone!'",
+  "locale:40266 [npc_dialog | - | -] \"I'm tough as stone!\"",
+  "locale:40267 [npc_dialog | - | -] \"My specialty is pain. I'd like to share it with you!\"",
+  "locale:40268 [npc_dialog | - | -] \"Outsiders like you don't belong here.\"",
+  "locale:40269 [npc_dialog | - | -] 'Keep up the fight!'",
+  "locale:40270 [npc_dialog | - | -] \"I'll heal you!\"",
+  "locale:40271 [npc_name | - | Harried Troll Wrangler] 'Harried Troll Wrangler'",
+  "locale:40272 [npc_name | - | Sneakscout Trainee] 'Sneakscout Trainee'",
+  "locale:40273 [npc_name | - | Videez, the Master Sneakscout] 'Videez, the Master Sneakscout'",
+  "locale:40274 [npc_dialog | - | -] 'Guards, we got company!!!'",
+  "locale:40275 [npc_dialog | - | -] 'I need some help here!!!'",
+  "locale:40276 [npc_dialog | - | -] 'Fist say hello!'",
+  "locale:40278 [npc_dialog | - | -] 'Time for a beatdown!'",
+  "locale:40279 [npc_dialog | - | -] \"I'm not paid enough for this!\"",
+  "locale:40280 [other | - | - | FLAG placeholder: unfilled template token <NPC 4147>] '<NPC 4147>'",
+  "locale:40281 [npc_dialog | - | -] \"You think we didn't see you coming? Attack!\""
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

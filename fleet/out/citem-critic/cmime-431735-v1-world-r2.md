@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cmime-431735-v1-world-r2 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3223, 4961, 6, 906] model=claude-haiku-5-5 -->
+# Mime
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind / overall classification", "issue": "Checked locale 31706 ('Title: Mime') and 431735 ('Mime'). The client carries 'Mime' as a title label, not an item. The answer's 'other' item entry with 'live: unsure' is therefore a classification gap, not an item with missing sources. It should be excluded from the item acquisition set or moved to a title/achievement record, not wired as an item.", "fix": "Mark as a title (locale:31706 'Title: Mime'), not an item. Leave sources empty and note that the item pipeline does not cover titles (locale:431736 'Perform 10 emotes' is the only earning line, unconfirmed as the title's unlock)."}]}

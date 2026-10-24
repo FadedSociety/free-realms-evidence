@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csabertooth-tiger-skull-41039-v1-evidence-r1 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4005, 5044, 6, 865] model=claude-haiku-5-5 -->
+# Sabertooth Tiger Skull
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0]", "issue": "The only source is a 'collection' entry that evidences membership (client text 132364 'This item can be added to the Sabertooth Fossils Collection'), not an acquisition route. Membership is real, but it is not a way to obtain the skull, so it should not be read as a source. The answer's own 'open' field admits no route is cited.", "fix": "Keep the membership fact as a collection_membership note (Sabertooth Fossils Collection, locale 7756 and 132364; wiki 'List of Collections' lists [Sabertooth] Fossils). Leave sources empty until a drop, gather, quest or vendor route is evidenced."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=celite-black-eclipse-infused-medium-cloak-25880-v1-world-r2 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3529, 8775, 6, 1054] model=claude-haiku-5-5 -->
+# Elite Black Eclipse Infused Medium Cloak
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only evidence is a coin store row (category 103) with no NPC or vendor named anywhere in the repo, and vendors.json has no match. The source is a coin-store listing, not a vendor, so the type overstates what is known.", "fix": "Type should be a coin store listing (category 103, store row item_id 11978 in repo:prototype/osfr-tools/data/content/stores.json line 6535), with where: null and the vendor left as an open unknown. Verified: the row reads purchase_price_coins 9453, member_discount 10%, member_price 8507, sell_price 945, matching the client coin_store_prices [9453]."}]}

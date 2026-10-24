@@ -1,0 +1,5182 @@
+[
+ {
+  "name": "Starting-area opening arc, Part A (repo:notes/Build Guides/Content/Jobs/Adventurer.md:60-66)",
+  "quests": [
+   {
+    "key": "q3000001",
+    "title": "Basic Combat Tutorial",
+    "live": "yes"
+   },
+   {
+    "key": "q3000002",
+    "title": "Advanced Combat Tutorial",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000003",
+    "title": "Hero's Journal",
+    "live": "yes"
+   },
+   {
+    "key": "q3000004",
+    "title": "The Last Best Hope",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Farnum's Farm quest series (wiki questprog 'quest series': Farnum's Farm)",
+  "quests": [
+   {
+    "key": "q3000008",
+    "title": "Your First Weapon",
+    "live": "yes"
+   },
+   {
+    "key": "q3000009",
+    "title": "Fighting the Pack",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000010",
+    "title": "One More Gloam",
+    "live": "yes"
+   },
+   {
+    "key": "q3000011",
+    "title": "Where's the Help?",
+    "live": "yes"
+   },
+   {
+    "key": "q3000012",
+    "title": "Pull the Plug",
+    "live": "yes"
+   },
+   {
+    "key": "q3000013",
+    "title": "Cobblestone Showdown",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000014",
+    "title": "Off to the Queen",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Farnum Farmstead farm quests (Cleetus Farnum)",
+  "quests": [
+   {
+    "key": "q3000016",
+    "title": "Cleetus' Copper Collection",
+    "live": "yes"
+   },
+   {
+    "key": "q3000017",
+    "title": "Forging for Reinforcements",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Adventurer starting-town chain, row C1 'Introduce Yourself' (Highroad variant); the Kart Driver line continues at The Burden of Fame",
+  "quests": [
+   {
+    "key": "q3000020",
+    "title": "Introduce Yourself",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080001",
+    "title": "The Burden of Fame",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080002",
+    "title": "Racing Tutorial",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Cobblestone Village starter quests (Ricky Danger kart referral chain)",
+  "quests": [
+   {
+    "key": "q3000021",
+    "title": "Introduce Yourself",
+    "live": "yes"
+   },
+   {
+    "key": "q3000059",
+    "title": "Call the Crew!",
+    "live": "yes"
+   },
+   {
+    "key": "q3000060",
+    "title": "Back for More",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Stillwater Crossing quest series (wiki Quest:Introduce Yourself)",
+  "quests": [
+   {
+    "key": "q3000022",
+    "title": "Introduce Yourself",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Sacred Glade tutorial (Adventurer job unlock); no line record in our data",
+  "quests": [
+   {
+    "key": "q3000023",
+    "title": "Wilbur's Trouble",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Adventurer entry quests, Part D Chapter 1 (four alternative entry quests per the guide)",
+  "quests": [
+   {
+    "key": "q3000024",
+    "title": "Local Hero",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Chapter 1 entry quests (Adventurer), Part D of Adventurer.md; alternative entry quests, not a linear chain",
+  "quests": [
+   {
+    "key": "q3000025",
+    "title": "Sal's Suggestion",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Sacred Grove Chapter 1 entry quests (Adventurer entry into Queen Valerian; one of four entry quests, only one needed; sibling titles per Adventurer.md:112-115: Local Hero, Sal's Suggestion, Sharing Your Talents)",
+  "quests": [
+   {
+    "key": "q3000026",
+    "title": "Farnum's Free Advice",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Adventurer Chapter 1 entry quests (Part D). Any one of the four entry quests (Local Hero, Sal's Suggestion, Farnum's Free Advice, Sharing Your Talents) leads to Take a Number. This is a wiki-sourced alternative group, not a record prerequisite.",
+  "quests": [
+   {
+    "key": "q3000027",
+    "title": "Sharing Your Talents",
+    "live": "yes"
+   },
+   {
+    "key": "q3000028",
+    "title": "Take a Number",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Chapter 1 (Adventurer quest line, Part E)",
+  "quests": [
+   {
+    "key": "q3000030",
+    "title": "Chapter 1: Helping the Healers",
+    "live": "yes"
+   },
+   {
+    "key": "q3000031",
+    "title": "Chapter 1: Good Help is Hard to Find",
+    "live": "yes"
+   },
+   {
+    "key": "q3000032",
+    "title": "Chapter 1: Thugamug's Thievery",
+    "live": "yes"
+   },
+   {
+    "key": "q3000033",
+    "title": "Chapter 1: Rumors of Briarwood",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000034",
+    "title": "Chapter 1: Shrouded History",
+    "live": "yes"
+   },
+   {
+    "key": "q3000035",
+    "title": "Chapter 1: The Forgotten Princess",
+    "live": "yes"
+   },
+   {
+    "key": "q3000036",
+    "title": "Chapter 1: Find The Caravan!",
+    "live": "yes"
+   },
+   {
+    "key": "q3000037",
+    "title": "Chapter 1: The Weapon Shipment",
+    "live": "yes"
+   },
+   {
+    "key": "q3000038",
+    "title": "Chapter 1: The Armor Shipment",
+    "live": "yes"
+   },
+   {
+    "key": "q3000039",
+    "title": "Chapter 1: The Small Wooden Box",
+    "live": "yes"
+   },
+   {
+    "key": "q3000040",
+    "title": "Chapter 1: There's Fungus Among Us!",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000041",
+    "title": "Chapter 1: It's Business Time",
+    "live": "yes"
+   },
+   {
+    "key": "q3000042",
+    "title": "Chapter 1: Pampered Pets",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000043",
+    "title": "Chapter 1: Report to Captain Chugug",
+    "live": "yes"
+   },
+   {
+    "key": "q3000044",
+    "title": "Chapter 1: The Empty Box",
+    "live": "yes"
+   },
+   {
+    "key": "q3000045",
+    "title": "Chapter 1: Bearer of Bad News",
+    "live": "yes"
+   },
+   {
+    "key": "q3000046",
+    "title": "Chapter 1: Failure is Not an Option",
+    "live": "yes"
+   },
+   {
+    "key": "q3000047",
+    "title": "Chapter 1: One Last Favor",
+    "live": "yes"
+   },
+   {
+    "key": "q3000048",
+    "title": "Chapter 1: Haunted by the Past",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000049",
+    "title": "Chapter 1: The Alchemy of Betrayal",
+    "live": "yes"
+   },
+   {
+    "key": "q3000050",
+    "title": "Chapter 1: The Queen's Last Hope",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Adventurer side quests, Part F (non-essential), per Adventurer.md row F1",
+  "quests": [
+   {
+    "key": "q3000051",
+    "title": "Belated Bonny",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Lucky Chance McXander St. Patrick's coin hunt (Adventurer part G)",
+  "quests": [
+   {
+    "key": "q3000055",
+    "title": "Lucky's Lost Coin",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000056",
+    "title": "Another Day Another Coin",
+    "live": "yes"
+   },
+   {
+    "key": "q3000057",
+    "title": "To Coin a Phrase",
+    "live": "yes"
+   },
+   {
+    "key": "q3000058",
+    "title": "Lucky's Last Chance",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": null,
+  "quests": [
+   {
+    "key": "q3000320",
+    "title": "Welcome to Seaside",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000321",
+    "title": "The Oldest Building",
+    "live": "yes"
+   },
+   {
+    "key": "q3000322",
+    "title": "Touring Seaside",
+    "live": "yes"
+   },
+   {
+    "key": "q3000323",
+    "title": "Testing the Tour",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Job advancement 'Being a Better …' set (one quest per job; Archer's is an optional entry quest per Archer.md)",
+  "quests": [
+   {
+    "key": "q3010001",
+    "title": "Being a Better Archer",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Archer job chain (Lugabow, Greenwood Camp)",
+  "quests": [
+   {
+    "key": "q3010003",
+    "title": "Path of the Archer",
+    "live": "yes"
+   },
+   {
+    "key": "q3010004",
+    "title": "Archer: Test of Agility",
+    "live": "yes"
+   },
+   {
+    "key": "q3010005",
+    "title": "Archer: Taking Aim",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Archer job line (Path of the Archer, Band 0)",
+  "quests": [
+   {
+    "key": "q3010006",
+    "title": "Archer: Oath of Honor",
+    "live": "yes"
+   },
+   {
+    "key": "q3010007",
+    "title": "Archer: Pondblaster Target Practice",
+    "live": "yes"
+   },
+   {
+    "key": "q3010008",
+    "title": "Archer: Explosive Expedition",
+    "live": "yes"
+   },
+   {
+    "key": "q3010009",
+    "title": "Archer: Achieve Level 5",
+    "live": "unsure"
+   },
+   {
+    "key": "q3010010",
+    "title": "Contract: All Around Win",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Archer Band 4 contracts (level 15 to 20; Eddie Eagle Eyes, Bowman Bilter, Orson)",
+  "quests": [
+   {
+    "key": "q3010025",
+    "title": "Contract: No Boundaries on Bounties",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Archer job quest line (Band 4, level 15 to 20)",
+  "quests": [
+   {
+    "key": "q3010026",
+    "title": "Archer: Cutting Out the Buyers",
+    "live": "yes"
+   },
+   {
+    "key": "q3010027",
+    "title": "Archer: Finding Vicki",
+    "live": "yes"
+   },
+   {
+    "key": "q3010028",
+    "title": "Archer: Remain Vigilant",
+    "live": "unsure"
+   },
+   {
+    "key": "q3010029",
+    "title": "Archer: New Challenges",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Archer job quest line (Bullseye trainer, level 15 to 20 band)",
+  "quests": [
+   {
+    "key": "q3010030",
+    "title": "Archer: Level 20",
+    "live": "yes"
+   },
+   {
+    "key": "q3010031",
+    "title": "Contract: That'll Teach 'Em",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith job quest line (Snowhill entry, Band 0 row 2)",
+  "quests": [
+   {
+    "key": "q3020002",
+    "title": "Basics of Blacksmithing",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith job (16) quest line, Band 0",
+  "quests": [
+   {
+    "key": "q3020003",
+    "title": "Blacksmith: Smithy Merchandise",
+    "live": "yes"
+   },
+   {
+    "key": "q3020005",
+    "title": "Blacksmith: Curious Cancelation",
+    "live": "yes"
+   },
+   {
+    "key": "q3020006",
+    "title": "Blacksmith: Warrior Weapon",
+    "live": "yes"
+   },
+   {
+    "key": "q3020007",
+    "title": "Blacksmith: Bat Fighter",
+    "live": "yes"
+   },
+   {
+    "key": "q3020008",
+    "title": "Blacksmith: Reach Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3020009",
+    "title": "Blacksmith: Impressing the Axemaker",
+    "live": "yes"
+   },
+   {
+    "key": "q3020010",
+    "title": "Blacksmith: Dull Challenge",
+    "live": "yes"
+   },
+   {
+    "key": "q3020011",
+    "title": "Blacksmith: Hammer Quality",
+    "live": "yes"
+   },
+   {
+    "key": "q3020012",
+    "title": "Blacksmith: Reach Level 10",
+    "live": "unsure"
+   },
+   {
+    "key": "q3020013",
+    "title": "Blacksmith: Supply Delivery",
+    "live": "yes"
+   },
+   {
+    "key": "q3020014",
+    "title": "Blacksmith: Do Work!",
+    "live": "yes"
+   },
+   {
+    "key": "q3020015",
+    "title": "Blacksmith: Bolstering the Bows",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith quest line (Band 3: Southvale)",
+  "quests": [
+   {
+    "key": "q3020016",
+    "title": "Hammer of Courage",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith quest line (Band 3: Southvale, levels 10-15, Mili Ironcall / Supply Master Leo)",
+  "quests": [
+   {
+    "key": "q3020017",
+    "title": "Blacksmith: Local Bonesaw Shortage",
+    "live": "yes"
+   },
+   {
+    "key": "q3020018",
+    "title": "Blacksmith: Breaking Bank",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith career line (Mili Ironcall, Southvale band, then Billie JoBob, Silverray)",
+  "quests": [
+   {
+    "key": "q3020019",
+    "title": "Blacksmith: Reach Level 15",
+    "live": "yes"
+   },
+   {
+    "key": "q3020020",
+    "title": "Blacksmith: Silver Appearance",
+    "live": "yes"
+   },
+   {
+    "key": "q3020021",
+    "title": "Blacksmith: Wand Replacement",
+    "live": "yes"
+   },
+   {
+    "key": "q3020023",
+    "title": "Blacksmith: Scythes of Stalking",
+    "live": "unsure"
+   },
+   {
+    "key": "q3020024",
+    "title": "Blacksmith: Reach Level 20",
+    "live": "yes"
+   },
+   {
+    "key": "q3020025",
+    "title": "Blacksmith: Forging Rumors",
+    "live": "unsure"
+   },
+   {
+    "key": "q3020026",
+    "title": "Blacksmith: Lady of the Lake",
+    "live": "unsure"
+   },
+   {
+    "key": "q3020027",
+    "title": "Blacksmith: Tools of the Trade",
+    "live": "yes"
+   },
+   {
+    "key": "q3020028",
+    "title": "Blacksmith: No Sticks and Plenty of Stones",
+    "live": "unsure"
+   },
+   {
+    "key": "q3020029",
+    "title": "Blacksmith: Gemstone Roundup",
+    "live": "unsure"
+   },
+   {
+    "key": "q3020030",
+    "title": "Blacksmith: Legendary Summersaber",
+    "live": "yes"
+   },
+   {
+    "key": "q3020031",
+    "title": "Blacksmith: The Royal Smithy",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith Band 4 (Blackspore, level 15 to 20), guide order; repeatable batch branch. Not a confirmed prerequisite chain.",
+  "quests": [
+   {
+    "key": "q3020022",
+    "title": "Blacksmith: Teacher's Aid",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Sunstone Blacksmith line (Red Stonehammer)",
+  "quests": [
+   {
+    "key": "q3020033",
+    "title": "Blacksmith: Grunt Work",
+    "live": "yes"
+   },
+   {
+    "key": "q3020034",
+    "title": "Blacksmith: Breaking a Sweat",
+    "live": "yes"
+   },
+   {
+    "key": "q3020035",
+    "title": "Blacksmith: Crackin’ Skullz",
+    "live": "yes"
+   },
+   {
+    "key": "q3020036",
+    "title": "Blacksmith: Can We Build It?",
+    "live": "yes"
+   },
+   {
+    "key": "q3020037",
+    "title": "Blacksmith: Scrap Surfin'",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith: Red Stonehammer Sunstone Valley line (Rumble Ridge Blacksmith Questline)",
+  "quests": [
+   {
+    "key": "q3020042",
+    "title": "Blacksmith: Grave Discovery",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Brawler entry quests (Sacred Glade tutorial, optional, outside the three starting lines)",
+  "quests": [
+   {
+    "key": "q3030001",
+    "title": "Brawling 101",
+    "live": "unsure"
+   },
+   {
+    "key": "q3030002",
+    "title": "The \"Hands On\" Method",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Brawler class quests, optional 'Quests' entry (wiki Brawler page)",
+  "quests": [
+   {
+    "key": "q3030003",
+    "title": "Art of Brawling",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Brawler starter line (Brawler job, profile 43)",
+  "quests": [
+   {
+    "key": "q3030004",
+    "title": "Brawler: Bringing Back Brazenfist",
+    "live": "yes"
+   },
+   {
+    "key": "q3030005",
+    "title": "Brawler: Honor Lost",
+    "live": "yes"
+   },
+   {
+    "key": "q3030006",
+    "title": "Brawler: Building your Rep",
+    "live": "yes"
+   },
+   {
+    "key": "q3030007",
+    "title": "Brawler: Delinquent Dilemma",
+    "live": "yes"
+   },
+   {
+    "key": "q3030008",
+    "title": "Brawler: Bad Business",
+    "live": "yes"
+   },
+   {
+    "key": "q3030009",
+    "title": "Brawler: Given to Guard",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Brawler trainer series, Highroad Junction starting line (Archy / Harold)",
+  "quests": [
+   {
+    "key": "q3030010",
+    "title": "Brawler: Hewey's Escape!",
+    "live": "yes"
+   },
+   {
+    "key": "q3030011",
+    "title": "Brawler: Restless Rumors",
+    "live": "yes"
+   },
+   {
+    "key": "q3030012",
+    "title": "Brawler: Growler Encroachment",
+    "live": "yes"
+   },
+   {
+    "key": "q3030013",
+    "title": "Brawler: The Growler Report",
+    "live": "unsure"
+   },
+   {
+    "key": "q3030014",
+    "title": "Brawler: Way of the Brawler",
+    "live": "yes"
+   },
+   {
+    "key": "q3030020",
+    "title": "Brawler: Prey on the Cray",
+    "live": "yes"
+   },
+   {
+    "key": "q3030021",
+    "title": "Brawler: Achieve Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3030023",
+    "title": "Brawler: Splendid Silver!",
+    "live": "yes"
+   },
+   {
+    "key": "q3030024",
+    "title": "Brawler: Finding a Buyer",
+    "live": "yes"
+   },
+   {
+    "key": "q3030025",
+    "title": "Brawler: Missing Wallet",
+    "live": "yes"
+   },
+   {
+    "key": "q3030026",
+    "title": "Brawler: Missing Money",
+    "live": "yes"
+   },
+   {
+    "key": "q3030027",
+    "title": "Brawler: IOU!",
+    "live": "yes"
+   },
+   {
+    "key": "q3030028",
+    "title": "Brawler: One Man's Junk...",
+    "live": "unsure"
+   },
+   {
+    "key": "q3030029",
+    "title": "Brawler: Curious Key",
+    "live": "yes"
+   },
+   {
+    "key": "q3030030",
+    "title": "Brawler: Achieve Level 10",
+    "live": "yes"
+   },
+   {
+    "key": "q3030031",
+    "title": "Contract: Colder Weather",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Brawler job quest line, Starting line 3 (Stillwater Crossing)",
+  "quests": [
+   {
+    "key": "q3030015",
+    "title": "Brawler: Graveyard Grumble",
+    "live": "unsure"
+   },
+   {
+    "key": "q3030016",
+    "title": "Brawler: Get McGrobie!",
+    "live": "yes"
+   },
+   {
+    "key": "q3030017",
+    "title": "Brawler: Stolen Merchandise",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Brawler line, Stillwater Crossing start (row S5, after Brawler: Rightful Owner)",
+  "quests": [
+   {
+    "key": "q3030019",
+    "title": "Brawler: Cemetery Security",
+    "live": "yes"
+   },
+   {
+    "key": "q3030020",
+    "title": "Brawler: Prey on the Cray",
+    "live": "yes"
+   },
+   {
+    "key": "q3030021",
+    "title": "Brawler: Achieve Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3030023",
+    "title": "Brawler: Splendid Silver!",
+    "live": "yes"
+   },
+   {
+    "key": "q3030024",
+    "title": "Brawler: Finding a Buyer",
+    "live": "yes"
+   },
+   {
+    "key": "q3030025",
+    "title": "Brawler: Missing Wallet",
+    "live": "yes"
+   },
+   {
+    "key": "q3030026",
+    "title": "Brawler: Missing Money",
+    "live": "yes"
+   },
+   {
+    "key": "q3030027",
+    "title": "Brawler: IOU!",
+    "live": "yes"
+   },
+   {
+    "key": "q3030028",
+    "title": "Brawler: One Man's Junk...",
+    "live": "unsure"
+   },
+   {
+    "key": "q3030029",
+    "title": "Brawler: Curious Key",
+    "live": "yes"
+   },
+   {
+    "key": "q3030030",
+    "title": "Brawler: Achieve Level 10",
+    "live": "yes"
+   },
+   {
+    "key": "q3030031",
+    "title": "Contract: Colder Weather",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Brawler main series, band 4 (guide row M17; repeatable Fernando bounties)",
+  "quests": [
+   {
+    "key": "q3030036",
+    "title": "Contract: Local Bounty",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (optional entry)",
+  "quests": [
+   {
+    "key": "q3040001",
+    "title": "Pick a Card, any Card",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (Sanctuary line, Sam Potts / Poe Tatters)",
+  "quests": [
+   {
+    "key": "q3040002",
+    "title": "Card Duelist: Enter the Champion",
+    "live": "yes"
+   },
+   {
+    "key": "q3040003",
+    "title": "Card Duelist: Sam I Am",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (Sam Potts, Sanctuary)",
+  "quests": [
+   {
+    "key": "q3040004",
+    "title": "Practice Makes Perfect",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (Sanctuary trainer line, giver Sam Potts)",
+  "quests": [
+   {
+    "key": "q3040005",
+    "title": "Card Duelist: 52 Card Pick-Up",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (Sam Potts, Sanctuary chain)",
+  "quests": [
+   {
+    "key": "q3040006",
+    "title": "Card Duelist: So Over Archery",
+    "live": "yes"
+   },
+   {
+    "key": "q3040007",
+    "title": "Card Duelist: Cardie 4 Life",
+    "live": "yes"
+   },
+   {
+    "key": "q3040008",
+    "title": "Card Duelist: History of the Crew",
+    "live": "unsure"
+   },
+   {
+    "key": "q3040009",
+    "title": "Card Duelist: Half a Deck",
+    "live": "yes"
+   },
+   {
+    "key": "q3040010",
+    "title": "Card Duelist: Poe's Planted Cards",
+    "live": "yes"
+   },
+   {
+    "key": "q3040011",
+    "title": "Card Duelist: Poe's Best Deck",
+    "live": "yes"
+   },
+   {
+    "key": "q3040012",
+    "title": "Card Duelist: An Old Friend",
+    "live": "yes"
+   },
+   {
+    "key": "q3040013",
+    "title": "Card Duelist: Battle Bry",
+    "live": "probable"
+   },
+   {
+    "key": "q3040014",
+    "title": "Card Duelist: Cardie Party",
+    "live": "unsure"
+   },
+   {
+    "key": "q3040015",
+    "title": "Card Duelist: Garrisoning Garrison",
+    "live": "yes"
+   },
+   {
+    "key": "q3040016",
+    "title": "Card Duelist: Serious Business",
+    "live": "yes"
+   },
+   {
+    "key": "q3040017",
+    "title": "Card Duelist: Snowhill Showdown",
+    "live": "yes"
+   },
+   {
+    "key": "q3040018",
+    "title": "Card Duelist: Shifty Dealings",
+    "live": "unsure"
+   },
+   {
+    "key": "q3040019",
+    "title": "Card Duelist: Misplaced Deck",
+    "live": "yes"
+   },
+   {
+    "key": "q3040020",
+    "title": "Card Duelist: Squash the Shuffler",
+    "live": "yes"
+   },
+   {
+    "key": "q3040021",
+    "title": "Card Duelist: Parcel Recovery",
+    "live": "unsure"
+   },
+   {
+    "key": "q3040022",
+    "title": "Card Duelist: Monty Has 'Em All",
+    "live": "yes"
+   },
+   {
+    "key": "q3040023",
+    "title": "Card Duelist: Just One More!",
+    "live": "yes"
+   },
+   {
+    "key": "q3040024",
+    "title": "Card Duelist: Finding the Fish",
+    "live": "yes"
+   },
+   {
+    "key": "q3040025",
+    "title": "Card Duelist: Proof is in the Cards",
+    "live": "yes"
+   },
+   {
+    "key": "q3040026",
+    "title": "Card Duelist: Herme the Hermit",
+    "live": "yes"
+   },
+   {
+    "key": "q3040027",
+    "title": "Card Duelist: Playing a Prodigy",
+    "live": "unsure"
+   },
+   {
+    "key": "q3040028",
+    "title": "Card Duelist: Best of the Best!",
+    "live": "yes"
+   },
+   {
+    "key": "q3040029",
+    "title": "Card Duelist: A Card Dueling Rumor",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (Briarwood Esther/Dominic card arc, TCG Series 2)",
+  "quests": [
+   {
+    "key": "q3040033",
+    "title": "Card Duelist: Esther's Special Card",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (Shattered Past, Briarwood and Blackspore chain)",
+  "quests": [
+   {
+    "key": "q3040038",
+    "title": "Card Duelist: Scattered Artifacts",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist: Shattered Past series (TCG Series 2), per the build guide Part 2 and article 2734. The client text block 413766-413797 mixes several zones and quests, so it is not a confirmed chain.",
+  "quests": [
+   {
+    "key": "q3040039",
+    "title": "Card Duelist: Wellington's Game Face",
+    "live": "yes"
+   },
+   {
+    "key": "q3040036",
+    "title": "Card Duelist: Alleged Thievery",
+    "live": "yes"
+   },
+   {
+    "key": "q3040031",
+    "title": "Card Duelist: Break Time",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist, Access Granted to Final Dig chain (text-ordered, not record-confirmed)",
+  "quests": [
+   {
+    "key": "q3040041",
+    "title": "Card Duelist: Final Dig",
+    "live": "unsure"
+   },
+   {
+    "key": "q3040040",
+    "title": "Card Duelist: Cardie Partay",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (Trading Card Game Series 3, Snowhill arc)",
+  "quests": [
+   {
+    "key": "q3040042",
+    "title": "Card Duelist: Snowhill is Melting",
+    "live": "unsure"
+   },
+   {
+    "key": "q3040046",
+    "title": "Card Duelist: Suspicious Sneak",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist, Snowhill and the Baron von Darkcheat quest packs (TCG Series 3)",
+  "quests": [
+   {
+    "key": "q3040043",
+    "title": "Card Duelist: Defenders Duty",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist: Tyrone Shadowshard / Baron von Darkcheat storyline (text-inferred; position unconfirmed)",
+  "quests": [
+   {
+    "key": "q3040044",
+    "title": "Card Duelist: Dark Deal",
+    "live": "unsure"
+   },
+   {
+    "key": "q3040045",
+    "title": "Card Duelist: In Search of The Baron",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist: Baron von Darkcheat storyline (Snowhill), inferred",
+  "quests": [
+   {
+    "key": "q3040047",
+    "title": "Card Duelist: To Catch a Sneak",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist, Baron von Darkcheat storyline (Snowhill; TCG Baron quest packs)",
+  "quests": [
+   {
+    "key": "q3040049",
+    "title": "Card Duelist: A Guide to The Baron",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Snowhill Card Duelist chain (TCG Series 3, Baron von Darkcheat packs); exact position unresolved",
+  "quests": [
+   {
+    "key": "q3040050",
+    "title": "Card Duelist: Master Explorer",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist, Part 3: Snowhill and the Baron von Darkcheat quest packs (TCG Series 3)",
+  "quests": [
+   {
+    "key": "q3040051",
+    "title": "Card Duelist: Confronting The Baron",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist, Part 4 - Realmkeepers and Madam Zelda (TCG Series 4)",
+  "quests": [
+   {
+    "key": "q3040053",
+    "title": "Card Duelist: Zelda's Warning",
+    "live": "yes"
+   },
+   {
+    "key": "q3040054",
+    "title": "Card Duelist: Heart of Darkness",
+    "live": "yes"
+   },
+   {
+    "key": "q3040055",
+    "title": "Card Duelist: Slow and Steady",
+    "live": "yes"
+   },
+   {
+    "key": "q3040056",
+    "title": "Card Duelist: Stinky Feet",
+    "live": "yes"
+   },
+   {
+    "key": "q3040057",
+    "title": "Card Duelist: Meet the Boss",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist / TCG Series 5 - The Rumbledome (Part 5)",
+  "quests": [
+   {
+    "key": "q3040060",
+    "title": "Card Duelist: Milo E. Lizardo",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist: TCG Series 5, The Rumbledome captive Realmkeepers branch (guide Part 5, Sunstone Valley)",
+  "quests": [
+   {
+    "key": "q3040061",
+    "title": "Card Duelist: Quizzical Yucca",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist TCG Series 5 Rumbledome captive line (Part 5, guide row 61)",
+  "quests": [
+   {
+    "key": "q3040062",
+    "title": "Card Duelist: Ironteeth",
+    "live": "yes"
+   },
+   {
+    "key": "q3040063",
+    "title": "Card Duelist: Return from the Rumbledome",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Chef job tutorial (Sacred Glade entry quests, outside the three trainer series)",
+  "quests": [
+   {
+    "key": "q3050001",
+    "title": "Chef Express",
+    "live": "unsure"
+   },
+   {
+    "key": "q3050002",
+    "title": "Stewing to Success",
+    "live": "unsure"
+   },
+   {
+    "key": "q3050003",
+    "title": "Party Payback",
+    "live": "no"
+   }
+  ]
+ },
+ {
+  "name": "Farnum's Farmstead opening tutorials (Saving Farnum's Farm / Farming 101 / Cooking 101); placement unresolved",
+  "quests": [
+   {
+    "key": "q3050004",
+    "title": "Cooking 101",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Farnum's Farmstead opening chain (W110 table, row 3000006 'Farming 101')",
+  "quests": [
+   {
+    "key": "q3050005",
+    "title": "Farming 101",
+    "live": "yes"
+   },
+   {
+    "key": "q3000015",
+    "title": "Second Helping of Strongarm Stew",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Chef job trainer series (Simone, Cobblestone Village)",
+  "quests": [
+   {
+    "key": "q3050006",
+    "title": "Chef: Cobblestone Village Cafe",
+    "live": "unsure"
+   },
+   {
+    "key": "q3050007",
+    "title": "Chef: Delivery Derailed",
+    "live": "yes"
+   },
+   {
+    "key": "q3050008",
+    "title": "Chef: Package Recovery!",
+    "live": "yes"
+   },
+   {
+    "key": "q3050018",
+    "title": "Chef: Queensfields",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Chef trainer series 1: Cobblestone Village (Simone)",
+  "quests": [
+   {
+    "key": "q3050009",
+    "title": "Chef: Queensfields",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Chef trainer series 2: Highroad Junction (Auguste Frydaze), Chef.md row H2",
+  "quests": [
+   {
+    "key": "q3050011",
+    "title": "Chef: Ranger Requisition",
+    "live": "yes"
+   },
+   {
+    "key": "q3050012",
+    "title": "Chef: Fireworks Frenzy!",
+    "live": "yes"
+   },
+   {
+    "key": "q3050013",
+    "title": "Chef: Perry's Pastures",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Chef job trainer series, Highroad Junction (Auguste Frydaze) per wiki Chef page",
+  "quests": [
+   {
+    "key": "q3050014",
+    "title": "Chef: Snowy Treats",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Trainer Series: Stillwater Crossing (Chef job line)",
+  "quests": [
+   {
+    "key": "q3050015",
+    "title": "Chef: Stillwater Inn",
+    "live": "unsure"
+   },
+   {
+    "key": "q3050016",
+    "title": "Chef: Gavin Gone Missing",
+    "live": "yes"
+   },
+   {
+    "key": "q3050017",
+    "title": "Chef: Harvest Hiccup!",
+    "live": "yes"
+   },
+   {
+    "key": "q3050018",
+    "title": "Chef: Queensfields",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Chef questline (Main series, band 1: level 1 to 5)",
+  "quests": [
+   {
+    "key": "q3050020",
+    "title": "Chef: Reach Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3050021",
+    "title": "Chef: Learning to Crave the Flave",
+    "live": "yes"
+   },
+   {
+    "key": "q3050022",
+    "title": "Chef: Roasted Mysteries",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Chef job-trainer series (Chef Jarvie, Merry Vale, level 5 to 10 band)",
+  "quests": [
+   {
+    "key": "q3050023",
+    "title": "Chef: Reach Level 10",
+    "live": "yes"
+   },
+   {
+    "key": "q3050024",
+    "title": "Chef: Chugawhat?",
+    "live": "yes"
+   },
+   {
+    "key": "q3050025",
+    "title": "Chef: Surprise Me!",
+    "live": "yes"
+   },
+   {
+    "key": "q3050026",
+    "title": "Chef: The Food Reviewer",
+    "live": "yes"
+   },
+   {
+    "key": "q3050027",
+    "title": "Chef: Double Dog Dare",
+    "live": "yes"
+   },
+   {
+    "key": "wchef-achieve-level-15",
+    "title": "Chef: Reach Level 15",
+    "live": "yes"
+   },
+   {
+    "key": "q3050029",
+    "title": "Chef: Glerga",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Chef job quest line, band 4 (level 15 to 20): Glerga, then Bordon Cloo",
+  "quests": [
+   {
+    "key": "q3050031",
+    "title": "Chef: Reach Level 20",
+    "live": "unsure"
+   },
+   {
+    "key": "q3050032",
+    "title": "Chef: Cloo's Cooking Academy",
+    "live": "unsure"
+   },
+   {
+    "key": "q3050033",
+    "title": "Chef: Cooking with Cloo",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby (Demolition Derby Driver job line), entry and tutorial quests. Chain placement is unsettled: the guide and our chain notes disagree.",
+  "quests": [
+   {
+    "key": "q3060001",
+    "title": "Demolition Derby Tutorial",
+    "live": "yes"
+   },
+   {
+    "key": "q3060002",
+    "title": "Advanced Demolition Derby Tutorial",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demolition Derby Driver: Series 1 (Thunder Falls and Crash Davis)",
+  "quests": [
+   {
+    "key": "q3060004",
+    "title": "Demo Derby: Rules of the Road",
+    "live": "yes"
+   },
+   {
+    "key": "q3060005",
+    "title": "Demo Derby: License to Drive",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060006",
+    "title": "Demo Derby: Taking the Wheel",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060007",
+    "title": "Demo Derby: Routine Maintenance",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060008",
+    "title": "Demo Derby: Break 'er In",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby Driver series 1: Thunder Falls and Crash Davis (guide row 6), order inferred",
+  "quests": [
+   {
+    "key": "q3060009",
+    "title": "Demo Derby: Dealing Damage",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060010",
+    "title": "Demo Derby: Spare Parts",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demolition Derby Driver, Series 1: Thunder Falls and Crash Davis (training, karts, Crash for Coin)",
+  "quests": [
+   {
+    "key": "q3060011",
+    "title": "Demo Derby: So Long, Betty!",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby Driver, Series 1 (Thunder Falls and Crash Davis), guide row 9; guide order only, not a confirmed quest chain",
+  "quests": [
+   {
+    "key": "q3060012",
+    "title": "Demo Derby: Thunder Falls Crash for Coin",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060013",
+    "title": "Demo Derby: Tucker's Troubles",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby (Demolition Derby Driver job), Series 2 Thunder Falls: guide-inferred, not verified",
+  "quests": [
+   {
+    "key": "q3060014",
+    "title": "Demo Derby: Curious Crash",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demolition Derby, Series 2 (Tucker Thunderjolt, Samuel and Nash); guide row order only",
+  "quests": [
+   {
+    "key": "q3060015",
+    "title": "Demo Derby: Arena Revenge",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060016",
+    "title": "Demo Derby: Seeking a Sponsor",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby series 3 (Paws 'n Claws and Frost Ridge arena), guide-inferred from Demolition Derby Driver.md row 14",
+  "quests": [
+   {
+    "key": "q3060017",
+    "title": "Demo Derby: A Lukewarm Welcome",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby (Paws 'n Claws / Frost Ridge arena series, per the Demolition Derby Driver guide; grouping only)",
+  "quests": [
+   {
+    "key": "q3060018",
+    "title": "Demo Derby: Defeating Diggs",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby (Series 3: Paws 'n Claws and the Frost Ridge arena), guide row 16; order unconfirmed",
+  "quests": [
+   {
+    "key": "q3060019",
+    "title": "Demo Derby: Turf Tussle",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby series (Paws 'n Claws, Frost Ridge arena; repo guide row 18)",
+  "quests": [
+   {
+    "key": "q3060021",
+    "title": "Demo Derby: Wear and Tear",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Demolition Derby Driver job, Series 3: Paws 'n Claws and the Frost Ridge arena (guide row 20, order only)",
+  "quests": [
+   {
+    "key": "q3060023",
+    "title": "Demo Derby: Taking on the Tank",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060024",
+    "title": "Demo Derby: Think of the Kittens",
+    "live": "yes"
+   },
+   {
+    "key": "q3060025",
+    "title": "Demo Derby: Paws 'n Claws Smash-a-thon",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060026",
+    "title": "Demo Derby: Frost Ridge Invitational",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby Driver job (quest_ids list, repo:prototype/osfr-tools/data/content/jobs.json:655)",
+  "quests": [
+   {
+    "key": "q3060027",
+    "title": "Demo Derby: Frost Ridge",
+    "live": "no"
+   }
+  ]
+ },
+ {
+  "name": "Demolition Derby Driver / Demo Derby Series 4 'The film set at Wildwood' (guide order, unconfirmed)",
+  "quests": [
+   {
+    "key": "q3060028",
+    "title": "Demo Derby: An Eye for Talent",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060029",
+    "title": "Demo Derby: Not One, But a Few",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby film-set series (guide Demolition Derby Driver.md, Series 4: The film set at Wildwood, rows 26-28); order is guide-sourced, not server-confirmed",
+  "quests": [
+   {
+    "key": "q3060030",
+    "title": "Demo Derby: Stunt Double",
+    "live": "yes"
+   },
+   {
+    "key": "q3060031",
+    "title": "Demo Derby: An Incomplete Set",
+    "live": "yes"
+   },
+   {
+    "key": "q3060032",
+    "title": "Demo Derby: Action!",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060033",
+    "title": "Demo Derby: Hurtin' Crewe Act II",
+    "live": "yes"
+   },
+   {
+    "key": "q3060034",
+    "title": "Demo Derby: Pixiewood Premiere",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060035",
+    "title": "Demo Derby: Sir Horace the Horrible",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060036",
+    "title": "Demo Derby: Encore!",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby series (Series 4: The film set at Wildwood, per repo guide row 34)",
+  "quests": [
+   {
+    "key": "q3060037",
+    "title": "Demo Derby: The Odd Audition",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby (Demolition Derby Driver job), Series 5: Tangletrack arena",
+  "quests": [
+   {
+    "key": "q3060038",
+    "title": "Demo Derby: Copy Cat",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby Series 5, Tangletrack arena (guide grouping, inferred; pirate storyline of Jackson Spinner)",
+  "quests": [
+   {
+    "key": "q3060040",
+    "title": "Demo Derby: Tangletrack Trio",
+    "live": "unsure"
+   },
+   {
+    "key": "q3060041",
+    "title": "Demo Derby: Booby Trapped!",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby series (Tangletrack clean-up, Series 5; Demolition Derby Driver guide row 39)",
+  "quests": [
+   {
+    "key": "q3060042",
+    "title": "Demo Derby: A Hero's Homecoming",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Crash Cup (client text names Wildwood Derby 1000 as its second event; event 1 and event 3 unidentified)",
+  "quests": [
+   {
+    "key": "q3060043",
+    "title": "Demo Derby: Wildwood",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby (Demo Derby Driver job) series; position unverified",
+  "quests": [
+   {
+    "key": "q3060044",
+    "title": "Demo Derby: Wildwood Derby 1000",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Demo Derby (guide heading 'Series 6: Wildwood arena events and other derbies', row 42; guide order only, not a verified client chain)",
+  "quests": [
+   {
+    "key": "q3060045",
+    "title": "Demo Derby: Down and Dirty Derby",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman job quest line",
+  "quests": [
+   {
+    "key": "q3070001",
+    "title": "Become a Fisherman",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman job quest line, Entry and tutorial (Fisherman.md row E2); sibling 'Being a Better <Job>' titles locale:442268-442282",
+  "quests": [
+   {
+    "key": "q3070002",
+    "title": "Being a Better Fisherman",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman quest line, Entry and tutorial (guide row E3, repo:notes/Build Guides/Content/Jobs/Fisherman.md:56)",
+  "quests": [
+   {
+    "key": "q3070003",
+    "title": "Learn to Fish!",
+    "live": "unsure"
+   },
+   {
+    "key": "q3070004",
+    "title": "Testing the Waters",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Cluster A - Sacred Grove Shallows beginners (Fisherman job line)",
+  "quests": [
+   {
+    "key": "q3070006",
+    "title": "Fisherman: So A-Luring",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman beginner quests, Sacred Grove Shallows (Anna Mudskipper, Muggup, Guppie)",
+  "quests": [
+   {
+    "key": "q3070008",
+    "title": "Fisherman: Stronger Equipment",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Jonah Relicreel bait chain (Fisherman job, Cluster B)",
+  "quests": [
+   {
+    "key": "q3070009",
+    "title": "Itty Bitty Bait",
+    "live": "unsure"
+   },
+   {
+    "key": "q3070010",
+    "title": "Much Bigger Bait",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Unresolved. Client text places this in the Ernest McScuttle / Karl Kippersun creeping-cod contest at Darklit Lagoon. The repo places record 3070011 in Jonah Relicreel's bait chain at Sacred Grove Shallows, and the guide itself says the title-to-row match is not proven.",
+  "quests": [
+   {
+    "key": "q3070011",
+    "title": "Fisherman: Bigger is Better",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Jonah Relicreel bait chain (Itty Bitty Bait 3070009, Fisherman: Bigger is Better 3070011, Better Bacon Bait 3070012; Bacon Bait 3070013 is a sibling branch)",
+  "quests": [
+   {
+    "key": "q3070012",
+    "title": "Better Bacon Bait",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman job quest line, Cluster C (Vick Sapshot and Callie Kelpcake)",
+  "quests": [
+   {
+    "key": "q3070015",
+    "title": "Fisherman: Beware of Sharks!",
+    "live": "unsure"
+   },
+   {
+    "key": "q3070016",
+    "title": "Fisherman: What Is It?!",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman job line, Cluster C (Vick Sapshot / Callie Kelpcake, Sacred Grove Shallows); placement is the guide's row order only",
+  "quests": [
+   {
+    "key": "q3070017",
+    "title": "Fisherman: Good Enough to Eat!",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman questline, Cluster D (Gunther at Brambleback's Bayou)",
+  "quests": [
+   {
+    "key": "q3070019",
+    "title": "Fisherman: Hungry Chugs",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman job quest line (Gunther / Brambleback's Bayou cluster, guide rows 15-21)",
+  "quests": [
+   {
+    "key": "q3070020",
+    "title": "Fisherman: Fishy Fungus",
+    "live": "unsure"
+   },
+   {
+    "key": "q3070021",
+    "title": "Fisherman: Ink Cod Ink",
+    "live": "yes"
+   },
+   {
+    "key": "q3070022",
+    "title": "Fisherman: Restocking the Stream",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman quest line, Briarwood / Brambleback's Bayou cluster (Gunther); order from the guide table only",
+  "quests": [
+   {
+    "key": "q3070023",
+    "title": "Fisherman: Undercover",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman quest line (Dooba / Estelle LaFrell, Briarwood and Darklit Lagoon)",
+  "quests": [
+   {
+    "key": "q3070028",
+    "title": "Fisherman: Taking the Bait",
+    "live": "unsure"
+   },
+   {
+    "key": "q3070029",
+    "title": "Fisherman: A Gift For Estelle",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman (Merri De'Flor's Lakeshore chain, Cluster F)",
+  "quests": [
+   {
+    "key": "q3070030",
+    "title": "Fisherman: Bluerose's Best Bait",
+    "live": "yes"
+   },
+   {
+    "key": "q3070031",
+    "title": "Fisherman: Fish Fry",
+    "live": "yes"
+   },
+   {
+    "key": "q3070032",
+    "title": "Fisherman: Fish Market",
+    "live": "yes"
+   },
+   {
+    "key": "q3070034",
+    "title": "Fisherman: McScuttle Family Farm",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman (guide Cluster F, row 33)",
+  "quests": [
+   {
+    "key": "q3070037",
+    "title": "Fisherman: Snowhill Getaway",
+    "live": "yes"
+   },
+   {
+    "key": "q3070047",
+    "title": "Fisherman: My Hut is Your Hut",
+    "live": "unsure"
+   },
+   {
+    "key": "q3070049",
+    "title": "Fisherman: Showing Off Your Skills",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman: Big J's crew (Wintery Basin / Snowhill fishing line)",
+  "quests": [
+   {
+    "key": "q3070039",
+    "title": "Fisherman: Partner Up",
+    "live": "yes"
+   },
+   {
+    "key": "q3070040",
+    "title": "Fisherman: Plenty of Fish",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman (Big J's crew / Snowhill-Frostbitten Banks cluster); text-derived grouping, not a recorded line",
+  "quests": [
+   {
+    "key": "q3070041",
+    "title": "Fisherman: Fish Food",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Sacred Grove Shallows fishing tournament (Fishing Frenzy)",
+  "quests": [
+   {
+    "key": "q3070042",
+    "title": "Fisherman: Fishing Frenzy",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman quest line, Cluster G (Big J's crew, Wintery Basin, Snowhill); Ernest rescue arc",
+  "quests": [
+   {
+    "key": "q3070043",
+    "title": "Fisherman: To the Rescue!",
+    "live": "unsure"
+   },
+   {
+    "key": "q3070024",
+    "title": "Fisherman: Reel Riches",
+    "live": "yes"
+   },
+   {
+    "key": "q3070025",
+    "title": "Fisherman: Say Cheese!",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman (Big J's crew, Wintery Basin) line",
+  "quests": [
+   {
+    "key": "q3070045",
+    "title": "Fisherman: Sunken Treasure",
+    "live": "unsure"
+   },
+   {
+    "key": "q3070046",
+    "title": "Fisherman: Buried Treasure",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Kart Driver tier 1 (Wildwood Speedway)",
+  "quests": [
+   {
+    "key": "q3080003",
+    "title": "Challenge Verve McNichols",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080004",
+    "title": "Kart Driver: Target Acquired",
+    "live": "yes"
+   },
+   {
+    "key": "q3080005",
+    "title": "Kart Driver: Even the Odds",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080006",
+    "title": "Kart Driver: Ready to Redline",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080007",
+    "title": "Kart Driver: Challenging T.R.",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080008",
+    "title": "Kart Driver: You Want to Go Fast?",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080009",
+    "title": "Kart Driver: Exploder's League Sponsorship",
+    "live": "yes"
+   },
+   {
+    "key": "q3080010",
+    "title": "Kart Driver: Wildwood Sprint Challenge",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080011",
+    "title": "Kart Driver: Wildwood Endurance Challenge",
+    "live": "yes"
+   },
+   {
+    "key": "q3080012",
+    "title": "Kart Driver: Dominating at Wildwood",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080013",
+    "title": "Kart Driver: Guest of Honor",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080014",
+    "title": "Kart Driver: A Treacherous Track",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080015",
+    "title": "Kart Driver: Stopping the Sabotage",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Kart Driver job quest line, Tier 2 - Frost Ridge Speedway (guide row 14)",
+  "quests": [
+   {
+    "key": "q3080016",
+    "title": "Kart Driver: Redline Returns",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Kart Driver Tier 2 Frost Ridge Speedway line (sponsor Petal Oceanmist; order from the Kart Driver guide, inferred)",
+  "quests": [
+   {
+    "key": "q3080017",
+    "title": "Kart Driver: Self Promotion",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080018",
+    "title": "Kart Driver: Icy Perfection",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Kart Driver tier 2 (Frost Ridge Speedway) sponsorship chain",
+  "quests": [
+   {
+    "key": "q3080019",
+    "title": "Kart Driver: Seaside Board of Tourism Sponsorship",
+    "live": "yes"
+   },
+   {
+    "key": "q3080020",
+    "title": "Kart Driver: Frost Ridge Sprint Challenge",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080021",
+    "title": "Kart Driver: Frost Ridge Endurance Challenge",
+    "live": "yes"
+   },
+   {
+    "key": "q3080022",
+    "title": "Kart Driver: Dominating at Frost Ridge",
+    "live": "yes"
+   },
+   {
+    "key": "q3080023",
+    "title": "Kart Driver: The Price of Fame",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080024",
+    "title": "Kart Driver: Age Before Beauty",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Kart Driver job line, tier 3 - Thunder Falls Speedway",
+  "quests": [
+   {
+    "key": "q3080026",
+    "title": "Kart Driver: Settling the Score",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080027",
+    "title": "Kart Driver: Making Amends",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080028",
+    "title": "Kart Driver: High Speed Chase",
+    "live": "yes"
+   },
+   {
+    "key": "q3080029",
+    "title": "Kart Driver: Sweetwater Sasparilla Sponsorship",
+    "live": "yes"
+   },
+   {
+    "key": "q3080030",
+    "title": "Kart Driver: Thunder Falls Sprint Challenge",
+    "live": "yes"
+   },
+   {
+    "key": "q3080031",
+    "title": "Kart Driver: Thunder Falls Endurance Challenge",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Kart Driver sponsorship line, Thunder Falls (Shooblemoot sponsorship); guide order only, not a verified prerequisite",
+  "quests": [
+   {
+    "key": "q3080033",
+    "title": "Kart Driver: Dominating and Thunder Falls",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080034",
+    "title": "Kart Driver: Endorsement Deal",
+    "live": "yes"
+   },
+   {
+    "key": "q3080035",
+    "title": "Kart Driver: Burning Up the Track",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080036",
+    "title": "Kart Driver: Burnt Rubber",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080037",
+    "title": "Kart Driver: The Showdown",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Kart Driver Tier 4 - Tangletrack Speedway (Lightning Cup ladder)",
+  "quests": [
+   {
+    "key": "q3080038",
+    "title": "Kart Driver: The Keys to Victory",
+    "live": "yes"
+   },
+   {
+    "key": "q3080039",
+    "title": "Kart Driver: The Right Stuff",
+    "live": "yes"
+   },
+   {
+    "key": "q3080040",
+    "title": "Kart Driver: Miner's Guild Sponsorship",
+    "live": "yes"
+   },
+   {
+    "key": "q3080041",
+    "title": "Kart Driver: Tangletrack Sprint Challenge",
+    "live": "yes"
+   },
+   {
+    "key": "q3080042",
+    "title": "Kart Driver: Tangletrack Endurance Challenge",
+    "live": "yes"
+   },
+   {
+    "key": "q3080043",
+    "title": "Kart Driver: Dominating at Tangletrack",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080044",
+    "title": "Kart Driver: Celebrity Giveaway",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "SG Tour 400 (Lightning Cup series, reigning champion Kade Carmichael)",
+  "quests": [
+   {
+    "key": "q3080045",
+    "title": "SG Tour 400: Wildwood",
+    "live": "yes"
+   },
+   {
+    "key": "q3080046",
+    "title": "Kart Driver: SG Tour 400: Frost Ridge",
+    "live": "yes"
+   },
+   {
+    "key": "q3080047",
+    "title": "Kart Driver: SG Tour 400: Thunder Falls",
+    "live": "unsure"
+   },
+   {
+    "key": "q3080048",
+    "title": "Kart Driver: SG Tour 400: Tangletrack",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "SG Tour 400 (probable duplicate; not placed in the chain)",
+  "quests": [
+   {
+    "key": "q3080049",
+    "title": "Kart Driver: Sacred Grove Gup: Frost Ridge",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Medic job quest line (Nurse Naia, Sanctuary)",
+  "quests": [
+   {
+    "key": "q3090001",
+    "title": "So You Want to be a Medic?",
+    "live": "yes"
+   },
+   {
+    "key": "q3090002",
+    "title": "Medic: Operation: Revival",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Medic repeatable contracts (Beth Callahan)",
+  "quests": [
+   {
+    "key": "q3090007",
+    "title": "Contract: Local Problems",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Medic quest line (Clover, Sanctuary; level 5 to 10 band; Medic.md row 13)",
+  "quests": [
+   {
+    "key": "q3090013",
+    "title": "Medic: Achieve Level 10",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Medic quest line (Band 3: level 10 to 15)",
+  "quests": [
+   {
+    "key": "q3090015",
+    "title": "Medic: A Strong Supplement",
+    "live": "no"
+   },
+   {
+    "key": "q3090016",
+    "title": "Medic: Flu Season",
+    "live": "unsure"
+   },
+   {
+    "key": "q3090017",
+    "title": "Medic: A Blustery Blunder",
+    "live": "yes"
+   },
+   {
+    "key": "q3090018",
+    "title": "Medic: Into the Bristlewood",
+    "live": "yes"
+   },
+   {
+    "key": "q3090019",
+    "title": "Medic: Virtuous Venom",
+    "live": "yes"
+   },
+   {
+    "key": "q3090020",
+    "title": "Medic: Dewpetal Tea",
+    "live": "yes"
+   },
+   {
+    "key": "q3090021",
+    "title": "Medic: Achieve Level 15",
+    "live": "yes"
+   },
+   {
+    "key": "q3090023",
+    "title": "Medic: Shock Paddles and You",
+    "live": "yes"
+   },
+   {
+    "key": "q3090024",
+    "title": "Medic: The Missing Patrol",
+    "live": "yes"
+   },
+   {
+    "key": "q3090025",
+    "title": "Medic: Shocking Developments",
+    "live": "yes"
+   },
+   {
+    "key": "q3090026",
+    "title": "Medic: Omitted Admission",
+    "live": "yes"
+   },
+   {
+    "key": "q3090027",
+    "title": "Medic: Achieve Level 20",
+    "live": "yes"
+   },
+   {
+    "key": "q3090029",
+    "title": "Medic: No Pain, No Gain",
+    "live": "yes"
+   },
+   {
+    "key": "q3090030",
+    "title": "Medic: Risky Research",
+    "live": "yes"
+   },
+   {
+    "key": "q3090031",
+    "title": "Medic: A Frosty Remedy",
+    "live": "yes"
+   },
+   {
+    "key": "q3090032",
+    "title": "Medic: Just What the Doctor Ordered",
+    "live": "yes"
+   },
+   {
+    "key": "q3090033",
+    "title": "Medic: Paying Your Student Debts",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Miner job quest line (Miner.md Band 0, row 0a, optional entry)",
+  "quests": [
+   {
+    "key": "q3100001",
+    "title": "Become a Miner",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Miner job line (Therin, Singing Crystal Mines, Snowhill)",
+  "quests": [
+   {
+    "key": "q3100002",
+    "title": "So, You Want To Be A Miner?",
+    "live": "yes"
+   },
+   {
+    "key": "q3100003",
+    "title": "Miner: All I Got",
+    "live": "yes"
+   },
+   {
+    "key": "q3100004",
+    "title": "Miner: Rush Order",
+    "live": "yes"
+   },
+   {
+    "key": "q3100005",
+    "title": "Miner: Gem Appraisal",
+    "live": "yes"
+   },
+   {
+    "key": "q3100006",
+    "title": "Miner: Reach Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3100007",
+    "title": "Miner: Dartmoor Mining Camp",
+    "live": "yes"
+   },
+   {
+    "key": "q3100008",
+    "title": "Miner: Simple Surveying",
+    "live": "unsure"
+   },
+   {
+    "key": "q3100009",
+    "title": "Miner: Suspicious Eyes",
+    "live": "yes"
+   },
+   {
+    "key": "q3100010",
+    "title": "Miner: Bigger Challenges",
+    "live": "yes"
+   },
+   {
+    "key": "q3100011",
+    "title": "Miner: The Perfect Pour",
+    "live": "yes"
+   },
+   {
+    "key": "q3100012",
+    "title": "Miner: Reach Level 10",
+    "live": "yes"
+   },
+   {
+    "key": "q3100013",
+    "title": "Miner: Finding Southvale",
+    "live": "yes"
+   },
+   {
+    "key": "q3100014",
+    "title": "Miner: Gems For Good Luck",
+    "live": "yes"
+   },
+   {
+    "key": "q3100015",
+    "title": "Miner: Marriage Proposal",
+    "live": "yes"
+   },
+   {
+    "key": "q3100016",
+    "title": "Miner: Checking the Chug",
+    "live": "unsure"
+   },
+   {
+    "key": "q3100017",
+    "title": "Miner: Grumpore's Challenge",
+    "live": "yes"
+   },
+   {
+    "key": "q3100018",
+    "title": "Miner: Arrowheads for Lugabow",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Miner career, Grumpore band (Southvale Quarry, level 10 to 15)",
+  "quests": [
+   {
+    "key": "q3100019",
+    "title": "Miner: Reach Level 15",
+    "live": "yes"
+   },
+   {
+    "key": "q3100020",
+    "title": "Miner: See For Yourself",
+    "live": "yes"
+   },
+   {
+    "key": "q3100021",
+    "title": "Miner: Minor Mix-Up",
+    "live": "yes"
+   },
+   {
+    "key": "q3100022",
+    "title": "Miner: Smelting Secrets",
+    "live": "yes"
+   },
+   {
+    "key": "q3100023",
+    "title": "Miner: Reach Level 20",
+    "live": "unsure"
+   },
+   {
+    "key": "q3100024",
+    "title": "Miner: Growing Up So Quickly",
+    "live": "yes"
+   },
+   {
+    "key": "q3100025",
+    "title": "Miner: Biggest is Best",
+    "live": "yes"
+   },
+   {
+    "key": "q3100026",
+    "title": "Miner: Speed Smelting",
+    "live": "no"
+   },
+   {
+    "key": "q3100027",
+    "title": "Miner: Mother Lode Lift",
+    "live": "yes"
+   },
+   {
+    "key": "q3100028",
+    "title": "Miner: Rare Rock Collection",
+    "live": "yes"
+   },
+   {
+    "key": "q3100029",
+    "title": "Miner: Part of the Guild",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Ninja quest line (Entry line E1 in Ninja.md)",
+  "quests": [
+   {
+    "key": "q3110001",
+    "title": "Ninja: The Ninja Path",
+    "live": "yes"
+   },
+   {
+    "key": "q3110002",
+    "title": "Ninja: Stolen Away",
+    "live": "unsure"
+   },
+   {
+    "key": "q3110003",
+    "title": "Ninja: Super Star",
+    "live": "unsure"
+   },
+   {
+    "key": "q3110004",
+    "title": "Ninja: Silence is Golden... and Deadly",
+    "live": "unsure"
+   },
+   {
+    "key": "q3110005",
+    "title": "Ninja: Strike from the Shadows",
+    "live": "unsure"
+   },
+   {
+    "key": "q3110006",
+    "title": "Ninja: Handle with Care",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Ninja training: Chloe, Blackspore band 1 (level 1 to 5)",
+  "quests": [
+   {
+    "key": "q3110007",
+    "title": "Ninja: Achieve Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3110009",
+    "title": "Ninja: Nothing to Sneeze At",
+    "live": "yes"
+   },
+   {
+    "key": "q3110010",
+    "title": "Ninja: That's the Spirit",
+    "live": "yes"
+   },
+   {
+    "key": "q3110011",
+    "title": "Ninja: Troubled Waters",
+    "live": "unsure"
+   },
+   {
+    "key": "q3110012",
+    "title": "Ninja: Return to the Mentor",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Ninja job quest line, level-10 gate with Ty (Band 2 in Ninja.md)",
+  "quests": [
+   {
+    "key": "q3110013",
+    "title": "Ninja: Achieve Level 10",
+    "live": "yes"
+   },
+   {
+    "key": "q3110015",
+    "title": "Ninja: Shadows in the Snow",
+    "live": "yes"
+   },
+   {
+    "key": "q3110016",
+    "title": "Ninja: Burst of Speed",
+    "live": "yes"
+   },
+   {
+    "key": "wninja-walking-the-path",
+    "title": "Ninja: Walking the Path",
+    "live": "unsure"
+   },
+   {
+    "key": "q3110017",
+    "title": "Ninja: Idol Conversation",
+    "live": "unsure"
+   },
+   {
+    "key": "q3110018",
+    "title": "Ninja: Achieve Level 15",
+    "live": "yes"
+   },
+   {
+    "key": "q3110019",
+    "title": "Contract: Fending off the Floren",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Ninja job quest line, Band 3 (level 10 to 15), Ree Peatpants contracts",
+  "quests": [
+   {
+    "key": "q3110014",
+    "title": "Contract: Sharp Claws and Sharper Swords",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Ninja job quest line, Band 4 (level 15 to 20)",
+  "quests": [
+   {
+    "key": "q3110020",
+    "title": "Ninja: Missive for Michi",
+    "live": "yes"
+   },
+   {
+    "key": "q3110021",
+    "title": "Ninja: Real Ultimate Power",
+    "live": "yes"
+   },
+   {
+    "key": "q3110022",
+    "title": "Ninja: The Masterless Ninja",
+    "live": "unsure"
+   },
+   {
+    "key": "q3110023",
+    "title": "Ninja: Ice Troll Rampage",
+    "live": "yes"
+   },
+   {
+    "key": "q3110024",
+    "title": "Ninja: Achieve Level 20",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Ninja repeatable Contracts (Ree Peatpants)",
+  "quests": [
+   {
+    "key": "q3110025",
+    "title": "Contract: Spirits and Spider Trainers",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Pet Trainer job entry (Entry quests E1), then the Pet Tutorial series",
+  "quests": [
+   {
+    "key": "q3120001",
+    "title": "Become a Pet Trainer",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Pet Tutorial series (Basics, Happiness, Training), Majorie variant",
+  "quests": [
+   {
+    "key": "q3120003",
+    "title": "Pet Tutorial: Happiness",
+    "live": "yes"
+   },
+   {
+    "key": "q3120004",
+    "title": "Pet Tutorial: Training",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Pet Trainer common trainer series (after the pet tutorials, before Pet Trainer: To Sanctuary!)",
+  "quests": [
+   {
+    "key": "q3120005",
+    "title": "Pet Trainer: Speak Up!",
+    "live": "unsure"
+   },
+   {
+    "key": "q3120006",
+    "title": "Pet Trainer: To Sanctuary!",
+    "live": "yes"
+   },
+   {
+    "key": "q3120007",
+    "title": "Pet Trainer: Sit Up and Take Notice",
+    "live": "yes"
+   },
+   {
+    "key": "q3120008",
+    "title": "Pet Trainer: Jump High!",
+    "live": "yes"
+   },
+   {
+    "key": "q3120010",
+    "title": "Pet Trainer: Mosey On Up",
+    "live": "yes"
+   },
+   {
+    "key": "q3120011",
+    "title": "Pet Trainer: Peek-A-Who?",
+    "live": "yes"
+   },
+   {
+    "key": "q3120012",
+    "title": "Pet Trainer: A Rolling Good Time",
+    "live": "yes"
+   },
+   {
+    "key": "q3120013",
+    "title": "Pet Trainer: Go with the Punches",
+    "live": "yes"
+   },
+   {
+    "key": "q3120014",
+    "title": "Pet Trainer: Making a Champ",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Pet Trainer main series (wiki order)",
+  "quests": [
+   {
+    "key": "q3120009",
+    "title": "Pet Trainer: Achieve Level 10",
+    "live": "no"
+   },
+   {
+    "key": "q3120010",
+    "title": "Pet Trainer: Mosey On Up",
+    "live": "yes"
+   },
+   {
+    "key": "q3120011",
+    "title": "Pet Trainer: Peek-A-Who?",
+    "live": "yes"
+   },
+   {
+    "key": "q3120012",
+    "title": "Pet Trainer: A Rolling Good Time",
+    "live": "yes"
+   },
+   {
+    "key": "q3120013",
+    "title": "Pet Trainer: Go with the Punches",
+    "live": "yes"
+   },
+   {
+    "key": "q3120014",
+    "title": "Pet Trainer: Making a Champ",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Pet Trainer main series, band 2 (build-guide row G15; wiki order, not client-verified)",
+  "quests": [
+   {
+    "key": "q3120015",
+    "title": "Pet Trainer: Achieve Level 15",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Pet Trainer (main series, band 3, level 15 to 20)",
+  "quests": [
+   {
+    "key": "q3120017",
+    "title": "Pet Trainer: Can You Give Me a Hand... stand?",
+    "live": "yes"
+   },
+   {
+    "key": "q3120018",
+    "title": "Pet Trainer: Spinning Tails",
+    "live": "yes"
+   },
+   {
+    "key": "q3120019",
+    "title": "Pet Trainer: Skills for Stars",
+    "live": "unsure"
+   },
+   {
+    "key": "q3120021",
+    "title": "Pet Trainer: Amaze Me",
+    "live": "unsure"
+   },
+   {
+    "key": "q3120022",
+    "title": "Pet Trainer: Down by the Bay",
+    "live": "yes"
+   },
+   {
+    "key": "q3120023",
+    "title": "Pet Trainer: Shake Your Groove Thing",
+    "live": "unsure"
+   },
+   {
+    "key": "q3120024",
+    "title": "Pet Trainer: Seek the Master",
+    "live": "yes"
+   },
+   {
+    "key": "q3120025",
+    "title": "Pet Trainer: Nearly Departed",
+    "live": "yes"
+   },
+   {
+    "key": "q3120026",
+    "title": "Pet Trainer: Show Off!",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Postman job quest line (Sanctuary entry)",
+  "quests": [
+   {
+    "key": "q3130001",
+    "title": "Become a Postman",
+    "live": "yes"
+   },
+   {
+    "key": "q3130003",
+    "title": "Can You Deliver?",
+    "live": "unsure"
+   },
+   {
+    "key": "q3130004",
+    "title": "Postman: Mail Marksman",
+    "live": "yes"
+   },
+   {
+    "key": "q3130005",
+    "title": "Postman: Beware of Ankle Biters",
+    "live": "yes"
+   },
+   {
+    "key": "q3130006",
+    "title": "Postman: It's a Postal Disaster!",
+    "live": "unsure"
+   },
+   {
+    "key": "q3130007",
+    "title": "Postman: Sort of a Mess",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Postman job quest line, Entry quests row E2 (guide table order only; not live)",
+  "quests": [
+   {
+    "key": "q3130002",
+    "title": "It's all in the Training",
+    "live": "no"
+   }
+  ]
+ },
+ {
+  "name": "Postman quest line (Sanctuary band: Felipe and Flitter)",
+  "quests": [
+   {
+    "key": "q3130009",
+    "title": "Postman: Special Delivery",
+    "live": "yes"
+   },
+   {
+    "key": "q3130010",
+    "title": "Postman: Achieve Level 5",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Postman job quest line (Band 2, Merry Vale, levels 5 to 10)",
+  "quests": [
+   {
+    "key": "q3130012",
+    "title": "Postman: Missing Mail",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Postman (Postmaster Vixie, Merry Vale, band 2)",
+  "quests": [
+   {
+    "key": "q3130013",
+    "title": "Postman: Mail Mix-Up",
+    "live": "yes"
+   },
+   {
+    "key": "q3130014",
+    "title": "Postman: And the Winner Is...",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Postman / Postmaster Vixie job line (Merry Vale), position unverified",
+  "quests": [
+   {
+    "key": "q3130015",
+    "title": "Postman: Beautiful Bouquet",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Postman job progression (Band 3 - Seaside, levels 10 to 15), guide order only",
+  "quests": [
+   {
+    "key": "q3130017",
+    "title": "Postman: Achieve Level 10",
+    "live": "unsure"
+   },
+   {
+    "key": "q3130018",
+    "title": "Postman: Invitation Only",
+    "live": "unsure"
+   },
+   {
+    "key": "q3130019",
+    "title": "Postman: Where's the Sasparilla?",
+    "live": "unsure"
+   },
+   {
+    "key": "q3130020",
+    "title": "Postman: Jug Clean Up",
+    "live": "yes"
+   },
+   {
+    "key": "q3130021",
+    "title": "Postman: Sorting It Out",
+    "live": "yes"
+   },
+   {
+    "key": "q3130022",
+    "title": "Postman: Achieve Level 15",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Postman job quest line, Band 5 - Snowhill (Loryn)",
+  "quests": [
+   {
+    "key": "q3130024",
+    "title": "Postman: What a Mess!",
+    "live": "yes"
+   },
+   {
+    "key": "q3130025",
+    "title": "Postman: A Plea for Help",
+    "live": "yes"
+   },
+   {
+    "key": "q3130026",
+    "title": "Postman: Biting Back",
+    "live": "unsure"
+   },
+   {
+    "key": "q3130027",
+    "title": "Postman: Summit in Shrouded Glade",
+    "live": "unsure"
+   },
+   {
+    "key": "q3130028",
+    "title": "Postman: Beware of Dogs",
+    "live": "yes"
+   },
+   {
+    "key": "q3130029",
+    "title": "Postman: Mile High Mail",
+    "live": "yes"
+   },
+   {
+    "key": "q3130030",
+    "title": "Postman: Always On Time",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Postman job quest line (Band 6, Shrouded Glade)",
+  "quests": [
+   {
+    "key": "q3130031",
+    "title": "Postman: Achieve Level 20",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star job entry (Arc 0, Joining the job), guide row 0a",
+  "quests": [
+   {
+    "key": "q3140001",
+    "title": "Become a Soccer Star",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star job entry titles (Arc 0 - Joining the job, guide row 0b)",
+  "quests": [
+   {
+    "key": "q3140002",
+    "title": "Being a Better Soccer Star",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star job, Arc 0 entry titles (0a, 0b, 0c); order unknown, unplaced",
+  "quests": [
+   {
+    "key": "q3140003",
+    "title": "Running Towards Soccer Stardom",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star (Arc 1 - Joining the Sidekicks)",
+  "quests": [
+   {
+    "key": "q3140005",
+    "title": "Soccer Star: Meeting The Team",
+    "live": "unsure"
+   },
+   {
+    "key": "q3140006",
+    "title": "Soccer Star: The Perfect Mascot",
+    "live": "yes"
+   },
+   {
+    "key": "q3140007",
+    "title": "Soccer Star: Achieve Level 2",
+    "live": "yes"
+   },
+   {
+    "key": "q3140008",
+    "title": "Soccer Star: Slowing The Snowspurs",
+    "live": "yes"
+   },
+   {
+    "key": "q3140009",
+    "title": "Soccer Star: Goal Stopper",
+    "live": "yes"
+   },
+   {
+    "key": "q3140010",
+    "title": "Soccer Star: Power Game",
+    "live": "unsure"
+   },
+   {
+    "key": "q3140011",
+    "title": "Soccer Star: Achieve Level 5",
+    "live": "unsure"
+   },
+   {
+    "key": "q3140012",
+    "title": "Soccer Star: Briarwood's Fancy Feet",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star (Arc 2 - The season: Briarwood, mascot, Cheetahs, Mud Hoppers)",
+  "quests": [
+   {
+    "key": "q3140014",
+    "title": "Soccer Star: Mascot Madness",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star, Arc 2 - The season: Briarwood, mascot, Cheetahs, Mud Hoppers (guide row 13)",
+  "quests": [
+   {
+    "key": "q3140016",
+    "title": "Soccer Star: Cheetahs Double Challenge",
+    "live": "unsure"
+   },
+   {
+    "key": "q3140017",
+    "title": "Soccer Star: Missing Soccer Balls",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star story line (Arc 3 - The trophy and the finals), guide row order",
+  "quests": [
+   {
+    "key": "q3140021",
+    "title": "Soccer Star: Trophy Detective",
+    "live": "unsure"
+   },
+   {
+    "key": "q3140022",
+    "title": "Soccer Star: Returning The Trophy",
+    "live": "yes"
+   },
+   {
+    "key": "q3140023",
+    "title": "Soccer Star: Achieve Level 13",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star (Arc 3 - The trophy and the finals), per the guide's row order",
+  "quests": [
+   {
+    "key": "q3140024",
+    "title": "Soccer Star: Making The Finals",
+    "live": "yes"
+   },
+   {
+    "key": "q3140025",
+    "title": "Soccer Star: Twinkle Toes",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star quest line (Coach Eddie's level ladder: Achieve Level 2, 5, 8, 10, 13, 15, 19)",
+  "quests": [
+   {
+    "key": "q3140026",
+    "title": "Soccer Star: Achieve Level 15",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Soccer Star (Premier Soccer Cup line, Arc 3 - The trophy and the finals)",
+  "quests": [
+   {
+    "key": "q3140027",
+    "title": "Soccer Star: Ants In The Pants",
+    "live": "unsure"
+   },
+   {
+    "key": "q3140028",
+    "title": "Soccer Star: Robgoblin Troublemakers",
+    "live": "unsure"
+   },
+   {
+    "key": "q3140029",
+    "title": "Soccer Star: Achieve Level 19",
+    "live": "unsure"
+   },
+   {
+    "key": "q3140030",
+    "title": "Soccer Star: Tournament Champion",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Warrior quest line (Warrior job, band 1)",
+  "quests": [
+   {
+    "key": "q3150001",
+    "title": "Becoming a Warrior",
+    "live": "unsure"
+   },
+   {
+    "key": "q3150002",
+    "title": "Warrior: Warrior Warm-up",
+    "live": "unsure"
+   },
+   {
+    "key": "q3150003",
+    "title": "Warrior: Warrior's Rites",
+    "live": "yes"
+   },
+   {
+    "key": "q3150004",
+    "title": "Warrior: One With Your Weapon",
+    "live": "yes"
+   },
+   {
+    "key": "q3150005",
+    "title": "Warrior: Achieve Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3150007",
+    "title": "Warrior: You Deserve Better",
+    "live": "yes"
+   },
+   {
+    "key": "q3150008",
+    "title": "Warrior: Distracted",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Warrior job quests (Band 2, level 5 to 10, repeatable Caleb contracts)",
+  "quests": [
+   {
+    "key": "q3150006",
+    "title": "Contract: Ready Your Weapon!",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Warrior job-level chain (Aster, Wilds)",
+  "quests": [
+   {
+    "key": "q3150010",
+    "title": "Warrior: Achieve Level 10",
+    "live": "yes"
+   },
+   {
+    "key": "q3150012",
+    "title": "Warrior: Knocking Some Sense In",
+    "live": "yes"
+   },
+   {
+    "key": "q3150013",
+    "title": "Warrior: Take Care of That Ankle",
+    "live": "yes"
+   },
+   {
+    "key": "q3150014",
+    "title": "Warrior: General Concerns",
+    "live": "yes"
+   },
+   {
+    "key": "q3150015",
+    "title": "Warrior: Finding Facts About Fastvi",
+    "live": "unsure"
+   },
+   {
+    "key": "q3150016",
+    "title": "Warrior: Achieve Level 15",
+    "live": "yes"
+   },
+   {
+    "key": "q3150018",
+    "title": "Warrior: Legend of Fastvi Frostflutter",
+    "live": "yes"
+   },
+   {
+    "key": "q3150019",
+    "title": "Warrior: Asking Old Folks",
+    "live": "unsure"
+   },
+   {
+    "key": "q3150020",
+    "title": "Warrior: Steele is Useful",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Warrior Band 3 repeatable contracts (Caleb Sleepyswing, Doctor Gordon, General Glowlight)",
+  "quests": [
+   {
+    "key": "q3150011",
+    "title": "Contract: Thinning Their Numbers",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Warrior: Fastvi's axe restoration (Snowhill)",
+  "quests": [
+   {
+    "key": "q3150021",
+    "title": "Warrior: Hero in the Making",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Warrior class quest line, Fastvi band (level 20 step)",
+  "quests": [
+   {
+    "key": "q3150022",
+    "title": "Warrior: Achieve Level 20",
+    "live": "yes"
+   },
+   {
+    "key": "q3150024",
+    "title": "Warrior: A Magical Boost",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Warrior job contract quests (Caleb Sleepyswing, repeatable), level 20 band",
+  "quests": [
+   {
+    "key": "q3150023",
+    "title": "Contract: Defending Snowhill",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Wizard job-advancement entry quest, placed before the Wizard line by the guide only (unverified)",
+  "quests": [
+   {
+    "key": "q3160001",
+    "title": "Being a Better Wizard",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Wizard job line (Fizzlesticks, Band 1)",
+  "quests": [
+   {
+    "key": "q3160004",
+    "title": "Wizard: I Can't Read This!",
+    "live": "unsure"
+   },
+   {
+    "key": "wwizard-sticky-spell-book",
+    "title": "Sticky Spell Book",
+    "live": "unsure"
+   },
+   {
+    "key": "q3160006",
+    "title": "Wizard: Lightning Bolt!",
+    "live": "unsure"
+   },
+   {
+    "key": "q3160007",
+    "title": "Wizard: The First Rule of Being a Wizard...",
+    "live": "yes"
+   },
+   {
+    "key": "q3160008",
+    "title": "Wizard: Market Wizards",
+    "live": "yes"
+   },
+   {
+    "key": "q3160009",
+    "title": "Wizard: Student Profits",
+    "live": "yes"
+   },
+   {
+    "key": "q3160010",
+    "title": "Wizard: Reach Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3160011",
+    "title": "Contract: Troll Magic",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Wizard job quest line (Fizzlesticks, Robgoblin Camp)",
+  "quests": [
+   {
+    "key": "q3160005",
+    "title": "Sticky Spell Book",
+    "live": "yes"
+   },
+   {
+    "key": "q3160006",
+    "title": "Wizard: Lightning Bolt!",
+    "live": "unsure"
+   },
+   {
+    "key": "q3160007",
+    "title": "Wizard: The First Rule of Being a Wizard...",
+    "live": "yes"
+   },
+   {
+    "key": "q3160008",
+    "title": "Wizard: Market Wizards",
+    "live": "yes"
+   },
+   {
+    "key": "q3160009",
+    "title": "Wizard: Student Profits",
+    "live": "yes"
+   },
+   {
+    "key": "q3160010",
+    "title": "Wizard: Reach Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3160011",
+    "title": "Contract: Troll Magic",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Wizard job quest line, Band 3 (level 10 to 15): Iliya / Sandbur chain",
+  "quests": [
+   {
+    "key": "q3160023",
+    "title": "Wizard: Filling in the Gaps",
+    "live": "yes"
+   },
+   {
+    "key": "q3160024",
+    "title": "Wizard: Reach Level 15",
+    "live": "yes"
+   },
+   {
+    "key": "q3160026",
+    "title": "Wizard: Missing Student Sven",
+    "live": "yes"
+   },
+   {
+    "key": "q3160027",
+    "title": "Wizard: Sven's Job Offer",
+    "live": "yes"
+   },
+   {
+    "key": "q3160028",
+    "title": "Wizard: A Twig From Treeleaf",
+    "live": "yes"
+   },
+   {
+    "key": "q3160029",
+    "title": "Wizard: One Thing to Bind Them",
+    "live": "unsure"
+   },
+   {
+    "key": "q3160030",
+    "title": "Wizard: Reach Level 20",
+    "live": "yes"
+   },
+   {
+    "key": "q3160032",
+    "title": "Wizard: Two Gems Are Better Than One",
+    "live": "yes"
+   },
+   {
+    "key": "q3160033",
+    "title": "Wizard: Rescue Mission",
+    "live": "yes"
+   },
+   {
+    "key": "q3160034",
+    "title": "Wizard: Parts and Labor",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Wizard repeatable Contracts (Natali)",
+  "quests": [
+   {
+    "key": "q3160031",
+    "title": "Contract: Life and Death Magic",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Super Spooktacular (Blackspore Swamp Halloween event, per wiki page Super Spooktacular); an event, not a confirmed quest chain",
+  "quests": [
+   {
+    "key": "wa-dark-future",
+    "title": "A Dark Future",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Tiger the Party Animal themed-party quests (sibling quests sharing giver and event; order not established)",
+  "quests": [
+   {
+    "key": "wa-luau",
+    "title": "A Luau",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Birthday Bash (Birthday Bash Quest Series)",
+  "quests": [
+   {
+    "key": "wa-piece-of-cake",
+    "title": "A Piece of Cake",
+    "live": "unsure"
+   },
+   {
+    "key": "wundelivered-confections",
+    "title": "Undelivered Confections",
+    "live": "yes"
+   },
+   {
+    "key": "wmysteriously-cakey-remains",
+    "title": "Mysteriously Cakey Remains",
+    "live": "yes"
+   },
+   {
+    "key": "wcakey-clue",
+    "title": "Cakey Clue",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Wugachug Chug-a-Mug / Sasparilla questline (client titles locale:442623-442634; wiki questprog chain)",
+  "quests": [
+   {
+    "key": "wa-sweetwater-climb",
+    "title": "A Sweetwater Climb",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Merry Vale cotton candy handout (unconfirmed)",
+  "quests": [
+   {
+    "key": "wa-very-merry-welcome",
+    "title": "A Very Merry Welcome",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Sunstone Valley Quest Series",
+  "quests": [
+   {
+    "key": "waiding-our-allies",
+    "title": "Aiding our Allies",
+    "live": "yes"
+   },
+   {
+    "key": "wsobering-homecoming",
+    "title": "Sobering Homecoming",
+    "live": "yes"
+   },
+   {
+    "key": "wbike-retrieval",
+    "title": "Bike Retrieval",
+    "live": "yes"
+   },
+   {
+    "key": "wa-deal-with-a-dust-devil",
+    "title": "A Deal with a Dust Devil",
+    "live": "yes"
+   },
+   {
+    "key": "wfixing-up-a-sweet-ride",
+    "title": "Fixing Up a Sweet Ride",
+    "live": "yes"
+   },
+   {
+    "key": "wrace-for-dominance",
+    "title": "Race for Dominance",
+    "live": "unsure"
+   },
+   {
+    "key": "wwelcome-to-the-rumbledome",
+    "title": "Welcome to the Rumbledome",
+    "live": "yes"
+   },
+   {
+    "key": "wbetter-treads",
+    "title": "Better Treads",
+    "live": "yes"
+   },
+   {
+    "key": "wbetter-threads",
+    "title": "Better Threads",
+    "live": "yes"
+   },
+   {
+    "key": "whouse-cleaning",
+    "title": "House Cleaning",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Noggle Cogloose quest chain (Noggle's Retreat, Sunstone Valley)",
+  "quests": [
+   {
+    "key": "wambush-recovery",
+    "title": "Ambush Recovery",
+    "live": "unsure"
+   },
+   {
+    "key": "wpower-crystals-not-included",
+    "title": "Power Crystals Not Included",
+    "live": "yes"
+   },
+   {
+    "key": "wnoggle-interrupted",
+    "title": "Noggle Interrupted",
+    "live": "unsure"
+   },
+   {
+    "key": "wcommitted-to-the-plan",
+    "title": "Commited To The Plan",
+    "live": "unsure"
+   },
+   {
+    "key": "wruined-return",
+    "title": "Ruined Return",
+    "live": "yes"
+   },
+   {
+    "key": "wunder-pressure",
+    "title": "Under Pressure",
+    "live": "yes"
+   },
+   {
+    "key": "wraider-repo",
+    "title": "Raider Repo",
+    "live": "yes"
+   },
+   {
+    "key": "wsabotage-for-safety-repeatable",
+    "title": "Sabotage For Safety",
+    "live": "yes"
+   },
+   {
+    "key": "wit-s-too-quiet",
+    "title": "It's Too Quiet...",
+    "live": "yes"
+   },
+   {
+    "key": "wrescue-in-the-ruins",
+    "title": "Rescue In The Ruins",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Archer quest line (Lugabow chain, Greenwood Camp)",
+  "quests": [
+   {
+    "key": "warcher-path-of-the-archer",
+    "title": "Path of the Archer",
+    "live": "yes"
+   },
+   {
+    "key": "q3010004",
+    "title": "Archer: Test of Agility",
+    "live": "yes"
+   },
+   {
+    "key": "q3010005",
+    "title": "Archer: Taking Aim",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Wugunbump / Merry Vale missing-children story (Suspicious Serenity, Where is Lugunwump?, At the End of the Rainbow)",
+  "quests": [
+   {
+    "key": "wat-the-end-of-the-rainbow",
+    "title": "At the End of the Rainbow",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Shrouded Gloam split (Sunspark): druid branch Backs Against the Wall vs dwarf branch Trapped and Alone (438476)",
+  "quests": [
+   {
+    "key": "wbacks-against-the-wall",
+    "title": "Backs Against the Wall",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Sirdo's Blackspore series (Bad Reputation, The Last Laugh, What's In a Name?)",
+  "quests": [
+   {
+    "key": "wbad-reputation",
+    "title": "Bad Reputation",
+    "live": "yes"
+   },
+   {
+    "key": "wthe-last-laugh",
+    "title": "The Last Laugh",
+    "live": "unsure"
+   },
+   {
+    "key": "wwhat-s-in-a-name",
+    "title": "What's In a Name?",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Halloween Harry Super Spooktacular candy errand (wiki-listed)",
+  "quests": [
+   {
+    "key": "wbag-snatchers",
+    "title": "Bag Snatchers",
+    "live": "yes"
+   },
+   {
+    "key": "wcandy-gram",
+    "title": "Candy Gram",
+    "live": "yes"
+   },
+   {
+    "key": "wa-formal-report",
+    "title": "A Formal Report",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Seaside Birthday Beach Ball (Bacala outfit-help branch)",
+  "quests": [
+   {
+    "key": "wbeach-ball-wear",
+    "title": "Beach Ball Wear?",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Super Spooktacular (Team Vampire side)",
+  "quests": [
+   {
+    "key": "wbeing-prepared-team-vampire",
+    "title": "Being Prepared",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Super Spooktacular (Blackspore Vampires vs Werewolves event; wiki grouping)",
+  "quests": [
+   {
+    "key": "wbeing-prepared-team-werewolf",
+    "title": "Catch a chicken for Lon",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Mayor McFairy quests (wiki list, unordered)",
+  "quests": [
+   {
+    "key": "wbusting-the-fourth-wall",
+    "title": "Busting the Fourth Wall",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Birthday Bash (2013 seasonal event) daily set",
+  "quests": [
+   {
+    "key": "wcakey-madness",
+    "title": "Cakey Madness",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (TCG job line), entry quest E1 (wiki order)",
+  "quests": [
+   {
+    "key": "wcard-duelist-pick-a-card-any-card",
+    "title": "Pick a Card, any Card",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Card Duelist (Part 1a - Sanctuary, Poe Tatters and Sam Potts)",
+  "quests": [
+   {
+    "key": "wcard-duelist-practice-makes-perfect",
+    "title": "Practice Makes Perfect",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Campaign series (Campaign 3: Change of Heart)",
+  "quests": [
+   {
+    "key": "wchange-of-heart",
+    "title": "Change of Heart",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "HeroRealms Month (January 2014) event dailies",
+  "quests": [
+   {
+    "key": "wchoosing-sides",
+    "title": "Choosing Sides",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Rio Cloudjumps / Cloud World coin clean-up (unconfirmed)",
+  "quests": [
+   {
+    "key": "wcloudy-days",
+    "title": "Cloudy Days",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Rio Cloudjumps Cloud World dailies (unordered; parallel to Cloudy Days, not sequenced)",
+  "quests": [
+   {
+    "key": "wcoin-clean-up",
+    "title": "Coin Clean-up",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Blackspore Swamp Series",
+  "quests": [
+   {
+    "key": "wdarci-s-deficiencies",
+    "title": "Darci's Deficiencies",
+    "live": "yes"
+   },
+   {
+    "key": "wfavors-for-favors",
+    "title": "Favors for Favors",
+    "live": "yes"
+   },
+   {
+    "key": "wcombating-the-cray",
+    "title": "Combating the Cray",
+    "live": "yes"
+   },
+   {
+    "key": "wthe-mining-operation",
+    "title": "The Mining Operation",
+    "live": "yes"
+   },
+   {
+    "key": "wfree-for-the-taking",
+    "title": "Free for the Taking",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Heroes Journal: The Seaside Gloam Invasion",
+  "quests": [
+   {
+    "key": "wdefeat-the-kraken",
+    "title": "Let's Get Kraken",
+    "live": "unsure"
+   },
+   {
+    "key": "wseaside-report",
+    "title": "Seaside Report",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Halloween event (Super Spooktacular) quest set given by Halloween Harry",
+  "quests": [
+   {
+    "key": "wdelicious-goo-d-candy",
+    "title": "Delicious Goo'd Candy",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Birthday Bash (Cakenstein event)",
+  "quests": [
+   {
+    "key": "wdowning-cakenstein",
+    "title": "Downing Cakenstein",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Misty Mountain: Milwind rescue",
+  "quests": [
+   {
+    "key": "wdruid-in-the-mist",
+    "title": "Druid in the Mist",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Festival of Hearts 2010 Cudip/Yvelle errand chain, Merry Vale (inferred; shares steps with Where is the Love?)",
+  "quests": [
+   {
+    "key": "wdubawug-s-sweetheart",
+    "title": "Dubawug's Sweetheart",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Iliya and Lukov precursor-city chain (Blackspore Swamp)",
+  "quests": [
+   {
+    "key": "wdwarven-expertise",
+    "title": "Dwarven Expertise",
+    "live": "yes"
+   },
+   {
+    "key": "wblock-loblog-s-bog-log",
+    "title": "Block Loblog's Bog Log",
+    "live": "yes"
+   },
+   {
+    "key": "wconsumed-by-the-past",
+    "title": "Consumed by the Past",
+    "live": "yes"
+   },
+   {
+    "key": "wdead-ends",
+    "title": "Dead Ends",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Milla / Tilda Timidleaf school-absence errand (Excuses, Excuses!); the Doctor's Note chain is a separate journal chain that follows it",
+  "quests": [
+   {
+    "key": "wexcuses-excuses",
+    "title": "Excuses, Excuses!",
+    "live": "no"
+   },
+   {
+    "key": "wdoctor-s-note",
+    "title": "Doctor's Note",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Farnum's Farm opening quests (wiki questprog series \"Farnum's Farm\")",
+  "quests": [
+   {
+    "key": "wfighting-off-the-pack",
+    "title": "Fighting off the Pack",
+    "live": "yes"
+   },
+   {
+    "key": "q3000010",
+    "title": "One More Gloam",
+    "live": "yes"
+   },
+   {
+    "key": "q3000011",
+    "title": "Where's the Help?",
+    "live": "yes"
+   },
+   {
+    "key": "q3000012",
+    "title": "Pull the Plug",
+    "live": "yes"
+   },
+   {
+    "key": "q3000013",
+    "title": "Cobblestone Showdown",
+    "live": "unsure"
+   },
+   {
+    "key": "q3000014",
+    "title": "Off to the Queen",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Glide Training (five-step series, Troy Ridewrangler, Seaside)",
+  "quests": [
+   {
+    "key": "wglide-training-basic-training",
+    "title": "Glide Training: Basic Training",
+    "live": "yes"
+   },
+   {
+    "key": "wglide-training-confidence-is-key",
+    "title": "Glide Training: Confidence Is Key",
+    "live": "unsure"
+   },
+   {
+    "key": "wglide-training-i-m-advanced",
+    "title": "Glide Training: I'm Advanced!",
+    "live": "yes"
+   },
+   {
+    "key": "wglide-training-license-to-glide",
+    "title": "Glide Training: License to Glide",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Milford's ingredient series for Eggert the Mad (Blackspore Swamp)",
+  "quests": [
+   {
+    "key": "wgrave-blossoms",
+    "title": "Grave Blossoms",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Super Spooktacular: Pumpkin Prince (Sacred Grove) chain",
+  "quests": [
+   {
+    "key": "wguardians-of-the-tomb",
+    "title": "Guardians of the Tomb",
+    "live": "yes"
+   },
+   {
+    "key": "wsealed-with-a-signet",
+    "title": "Sealed with a Signet",
+    "live": "yes"
+   },
+   {
+    "key": "wthe-pumpkin-prince",
+    "title": "The Pumpkin Prince",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Snow Days",
+  "quests": [
+   {
+    "key": "wguarding-the-gifting-tree",
+    "title": "Guarding the Gifting Tree",
+    "live": "yes"
+   },
+   {
+    "key": "wthe-perfect-disguise",
+    "title": "The Perfect Disguise",
+    "live": "yes"
+   },
+   {
+    "key": "wrobgoblin-robbery-ring",
+    "title": "The Great Robgoblin Robbery Ring",
+    "live": "yes"
+   },
+   {
+    "key": "wsnowmen-disassembly",
+    "title": "Snowmen Disassembly",
+    "live": "unsure"
+   },
+   {
+    "key": "wan-unexpected-gift",
+    "title": "An Unexpected Gift",
+    "live": "yes"
+   },
+   {
+    "key": "wbye-bye-supplies",
+    "title": "Bye-Bye Supplies!",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Seaside Diggy / Seaspray chef delivery",
+  "quests": [
+   {
+    "key": "whasty-food-delivery",
+    "title": "Hasty Food Delivery",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Unresolved (no verified Seaside chain)",
+  "quests": [
+   {
+    "key": "whaving-a-ball",
+    "title": "Having a Ball",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Birthday Cake Bake-off chef-sponsor errands (per-chef variants sharing title 428085)",
+  "quests": [
+   {
+    "key": "whelping-the-local-chef",
+    "title": "Helping the Local Chef",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Snowhill repeatable town quests (wiki Snow Days page): flat set of repeatables, not an ordered chain",
+  "quests": [
+   {
+    "key": "wholiday-recital",
+    "title": "Holiday Recital",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Horrible Hiccups (no named line in client; wiki questprog chain)",
+  "quests": [
+   {
+    "key": "whorrible-hiccups",
+    "title": "Horrible Hiccups",
+    "live": "unsure"
+   },
+   {
+    "key": "wscaredy-pants",
+    "title": "Scaredy Pants",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Sunstone Valley Quest Series (Wheelie Pete's Roadhouse)",
+  "quests": [
+   {
+    "key": "wlike-scavengers-in-a-barrel",
+    "title": "Like Scavengers in a Barrel",
+    "live": "yes"
+   },
+   {
+    "key": "whog-wild-harley",
+    "title": "Hog Wild Harley",
+    "live": "unsure"
+   },
+   {
+    "key": "wthe-water-must-flow",
+    "title": "The Water Must Flow!",
+    "live": "yes"
+   },
+   {
+    "key": "wthe-secret-ingredient-is",
+    "title": "The Secret Ingredient Is...",
+    "live": "yes"
+   },
+   {
+    "key": "wfor-rizzle",
+    "title": "For Rizzle",
+    "live": "yes"
+   },
+   {
+    "key": "wa-beautiful-friendship",
+    "title": "A Beautiful Friendship",
+    "live": "yes"
+   },
+   {
+    "key": "wka-boom-or-not-to-boom",
+    "title": "Ka-Boom or Not To Boom",
+    "live": "yes"
+   },
+   {
+    "key": "wjunk-or-bust",
+    "title": "Junk or Bust",
+    "live": "yes"
+   },
+   {
+    "key": "wrobot-woes",
+    "title": "Robot Woes",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Looking for Lavender (Feldman's journalist errand; Fish Pro photographer)",
+  "quests": [
+   {
+    "key": "wlooking-for-lavender",
+    "title": "Looking for Lavender",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Lucca De'Flor side quests (Snowhill chef trainer)",
+  "quests": [
+   {
+    "key": "wlucca-s-new-creation",
+    "title": "Lucca's New Creation",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Eggert the Mad ingredient errands (Milford, Blackspore Swamp)",
+  "quests": [
+   {
+    "key": "wmake-sure-to-wash-up",
+    "title": "Make Sure to Wash up...",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Medic job quest line (Band 3, level 10 to 15)",
+  "quests": [
+   {
+    "key": "wmedic-a-strong-supplement",
+    "title": "Medic: A Strong Supplement",
+    "live": "no"
+   },
+   {
+    "key": "q3090016",
+    "title": "Medic: Flu Season",
+    "live": "unsure"
+   },
+   {
+    "key": "q3090017",
+    "title": "Medic: A Blustery Blunder",
+    "live": "yes"
+   },
+   {
+    "key": "q3090018",
+    "title": "Medic: Into the Bristlewood",
+    "live": "yes"
+   },
+   {
+    "key": "q3090019",
+    "title": "Medic: Virtuous Venom",
+    "live": "yes"
+   },
+   {
+    "key": "q3090020",
+    "title": "Medic: Dewpetal Tea",
+    "live": "yes"
+   },
+   {
+    "key": "q3090021",
+    "title": "Medic: Achieve Level 15",
+    "live": "yes"
+   },
+   {
+    "key": "q3090023",
+    "title": "Medic: Shock Paddles and You",
+    "live": "yes"
+   },
+   {
+    "key": "q3090024",
+    "title": "Medic: The Missing Patrol",
+    "live": "yes"
+   },
+   {
+    "key": "q3090025",
+    "title": "Medic: Shocking Developments",
+    "live": "yes"
+   },
+   {
+    "key": "q3090026",
+    "title": "Medic: Omitted Admission",
+    "live": "yes"
+   },
+   {
+    "key": "q3090027",
+    "title": "Medic: Achieve Level 20",
+    "live": "yes"
+   },
+   {
+    "key": "q3090029",
+    "title": "Medic: No Pain, No Gain",
+    "live": "yes"
+   },
+   {
+    "key": "q3090030",
+    "title": "Medic: Risky Research",
+    "live": "yes"
+   },
+   {
+    "key": "q3090031",
+    "title": "Medic: A Frosty Remedy",
+    "live": "yes"
+   },
+   {
+    "key": "q3090032",
+    "title": "Medic: Just What the Doctor Ordered",
+    "live": "yes"
+   },
+   {
+    "key": "q3090033",
+    "title": "Medic: Paying Your Student Debts",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Medic job quest series (Naia's Medic chain, Sanctuary)",
+  "quests": [
+   {
+    "key": "wmedic-so-you-want-to-be-a-medic",
+    "title": "So You Want to be a Medic?",
+    "live": "yes"
+   },
+   {
+    "key": "q3090002",
+    "title": "Medic: Operation: Revival",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Camp Chatty quests (Chatty's camp; counselor introductions)",
+  "quests": [
+   {
+    "key": "wmeet-and-greet",
+    "title": "Meet and Greet",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Unconfirmed. The repo's Southern Wilds series-4 dev-label list (NPCs - Merry Vale.md:198) may be a related chain, but the repo says this title may be its older name and that is unproven.",
+  "quests": [
+   {
+    "key": "wmerry-vale-mysteries",
+    "title": "Merry Vale Mysteries",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "8-Bit Month event (September 2013) quest",
+  "quests": [
+   {
+    "key": "wmisplaced-meeps",
+    "title": "Misplaced Meeps",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Birthday Bash event (Sal Monella chef side quest)",
+  "quests": [
+   {
+    "key": "wmystery-meat-mystery",
+    "title": "Mystery Meat Mystery",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Necronomicus battle sequel (follows 'No More Necro(nomicus)')",
+  "quests": [
+   {
+    "key": "wnecronomicus-unleashed",
+    "title": "Necronomicus Unleashed",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Ty's Flying Dragon ninja quests",
+  "quests": [
+   {
+    "key": "wninja-gathered-shadows",
+    "title": "Ninja: Gathered Shadows",
+    "live": "unsure"
+   },
+   {
+    "key": "wninja-stilling-the-waters",
+    "title": "Ninja: Stilling the Waters",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Shrouded Gloam dwarf arc (Freewheelers, Shrouded Glade)",
+  "quests": [
+   {
+    "key": "wno-bro-left-behind",
+    "title": "No Bro Left Behind",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Pirate's Plunder introduction (Admiral Fishfinder, then Jolly Roger)",
+  "quests": [
+   {
+    "key": "wno-prey-no-pay",
+    "title": "No Prey, No Pay",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Snowhill: Noise Permit questline (Flynn / Bruce's concert)",
+  "quests": [
+   {
+    "key": "wnoisy-neighbors",
+    "title": "Noisy Neighbors",
+    "live": "yes"
+   },
+   {
+    "key": "wnoise-permit",
+    "title": "Noise Permit",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Kelpy's Seaside oceanfront home sale (Open House)",
+  "quests": [
+   {
+    "key": "wopen-house-clean-up",
+    "title": "Open House Clean-Up",
+    "live": "yes"
+   },
+   {
+    "key": "wadvertising-to-the-tourists",
+    "title": "Advertising to the Tourists",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Miner job line (placement unconfirmed)",
+  "quests": [
+   {
+    "key": "wore-survey",
+    "title": "Ore Survey",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Shrouded Glade invasion, dwarf arc (Freewheelers)",
+  "quests": [
+   {
+    "key": "wpayback",
+    "title": "Payback",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Birthday Bash 2011 (Glerga's cake chain)",
+  "quests": [
+   {
+    "key": "wperfecting-the-batter",
+    "title": "Perfecting the Batter",
+    "live": "yes"
+   },
+   {
+    "key": "wall-cakensteins-must-die",
+    "title": "Cakenstein's Last Stand",
+    "live": "yes"
+   },
+   {
+    "key": "wforgivable-matter",
+    "title": "Forgivable Matter",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Festival of Hearts (Cudip's Merry Vale quest series)",
+  "quests": [
+   {
+    "key": "wpetal-picker",
+    "title": "Petal Picker",
+    "live": "unsure"
+   },
+   {
+    "key": "wa-bundle-of-love",
+    "title": "A Bundle of Love",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Festival of Hearts (Cudip's love-potion quests, Merry Vale)",
+  "quests": [
+   {
+    "key": "wpotion-testing-version-6-0",
+    "title": "Potion Testing: Version 6.0",
+    "live": "yes"
+   },
+   {
+    "key": "wooey-gooey-love",
+    "title": "Ooey, Gooey Love",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Snow Days (Candi Ivy quest set, wiki list order only)",
+  "quests": [
+   {
+    "key": "wpresent-problems",
+    "title": "Present Problems",
+    "live": "yes"
+   },
+   {
+    "key": "wholiday-cheer",
+    "title": "Holiday Cheer",
+    "live": "yes"
+   },
+   {
+    "key": "wsilversnow-s-sapling",
+    "title": "Silversnow's Sapling",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Camp Chatty Bigfoot hunt (related quests, not a chain)",
+  "quests": [
+   {
+    "key": "wputting-your-foot-down",
+    "title": "Putting Your Foot Down",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Camp Robbie intro (Robbie side)",
+  "quests": [
+   {
+    "key": "wrags-to-riches",
+    "title": "Rags to Riches",
+    "live": "yes"
+   },
+   {
+    "key": "wcertified-treasure-hunter",
+    "title": "Certified Treasure Hunter",
+    "live": "yes"
+   },
+   {
+    "key": "wbigfooted-friend",
+    "title": "Bigfooted Friend",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Rob Robbie daily (Errand; standalone, unconfirmed)",
+  "quests": [
+   {
+    "key": "wrob-robbie-daily",
+    "title": "Rob Robbie daily",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Blackspore Swamp Lukov/Iliya chain (ordering unresolved)",
+  "quests": [
+   {
+    "key": "wrumor-has-it",
+    "title": "Rumor Has it...",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Sarkin Stonehearth / The Dig quest chain (Sunstone Valley)",
+  "quests": [
+   {
+    "key": "wsabotage-for-safety",
+    "title": "Sabotage For Safety",
+    "live": "yes"
+   },
+   {
+    "key": "wit-s-too-quiet",
+    "title": "It's Too Quiet...",
+    "live": "yes"
+   },
+   {
+    "key": "wrescue-in-the-ruins",
+    "title": "Rescue In The Ruins",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Warpwatcher warp tests (Snowhill Warp Tests / Sanctuary Warp Tests mirror pair)",
+  "quests": [
+   {
+    "key": "wsanctuary-warp-tests",
+    "title": "Sanctuary Warp Tests",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Lost Treasures Month (daily treasure-hunt series hosted by Sunstone Jones and Kara Loft in Sanctuary)",
+  "quests": [
+   {
+    "key": "wscrap-collector",
+    "title": "Scrap Collector",
+    "live": "yes"
+   },
+   {
+    "key": "whunting-treasure",
+    "title": "Hunting Treasure",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Mayor Gilly's Seaside quests (order unsettled)",
+  "quests": [
+   {
+    "key": "wseaside-situation",
+    "title": "Seaside Situation",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Warpwatcher brothers warp-spell tests (Force Warp family)",
+  "quests": [
+   {
+    "key": "wsnowhill-warp-tests",
+    "title": "Snowhill Warp Tests",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Festival of Hearts (Version 7.0) Merry Vale quest chain",
+  "quests": [
+   {
+    "key": "wsoftening-the-stone",
+    "title": "Softening the Stone",
+    "live": "yes"
+   },
+   {
+    "key": "wsleeping-pixie",
+    "title": "Sleeping Pixie",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Gorg's Spinnerette errand (Briarwood)",
+  "quests": [
+   {
+    "key": "wspinnerette",
+    "title": "Find Spinnerette",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Heroes Journal: The Seaside Gloam Invasion",
+  "quests": [
+   {
+    "key": "wstemming-the-tide",
+    "title": "Stemming the Tide",
+    "live": "yes"
+   },
+   {
+    "key": "whistory-of-the-dojo",
+    "title": "History of the Dojo",
+    "live": "unsure"
+   },
+   {
+    "key": "wghosts-of-the-past",
+    "title": "Ghosts of the Past",
+    "live": "yes"
+   },
+   {
+    "key": "wnot-the-ghosts-you-re-looking-for",
+    "title": "Not the Ghosts You're Looking For",
+    "live": "yes"
+   },
+   {
+    "key": "wunwanted-guests",
+    "title": "Unwanted Guests",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Blackspore Swamp Iliya/Lukov precursor-city errands (repo NPC table, row 11)",
+  "quests": [
+   {
+    "key": "wtesting-a-theory",
+    "title": "Testing a Theory",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Snow Days seasonal event (Snowhill)",
+  "quests": [
+   {
+    "key": "wthe-gifting-tree",
+    "title": "The Gifting Tree",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Halloween / Pumpkin Prince event (wiki page 'Super Spooktacular'); no client quest-chain link confirmed",
+  "quests": [
+   {
+    "key": "wthe-great-scare",
+    "title": "The Great Scare",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Camp Robbie treasure line (Certified Treasure Hunter branch)",
+  "quests": [
+   {
+    "key": "wthe-great-scavenger-hunt",
+    "title": "The Great Scavenger Hunt",
+    "live": "yes"
+   },
+   {
+    "key": "wcertified-treasure-hunter",
+    "title": "Certified Treasure Hunter",
+    "live": "yes"
+   },
+   {
+    "key": "wbigfooted-friend",
+    "title": "Bigfooted Friend",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Camp Chatty side activities (no chain established)",
+  "quests": [
+   {
+    "key": "wthe-great-treeble-race",
+    "title": "The Great Treeble Race",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Eggert the Mad's alchemy-ingredient series (Blackspore)",
+  "quests": [
+   {
+    "key": "wthe-master-s-components",
+    "title": "The Master's Components",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Sunstone Valley Dorn Geargrinder quest sequence (grouping from the repo's own NPC table, not a client tag)",
+  "quests": [
+   {
+    "key": "wthe-search-for-golmie-greasebeard",
+    "title": "The Search for Golmie Greasebeard",
+    "live": "yes"
+   },
+   {
+    "key": "wfriend-or-foe-the-savage",
+    "title": "Friend or Foe: The Savage",
+    "live": "yes"
+   },
+   {
+    "key": "wfriend-or-foe-the-tradesgoblin",
+    "title": "Friend or Foe: The Tradesgoblin",
+    "live": "yes"
+   },
+   {
+    "key": "wfriend-or-foe-the-monster",
+    "title": "Friend or Foe: The Monster",
+    "live": "yes"
+   },
+   {
+    "key": "wsaving-a-friend",
+    "title": "Saving a Friend",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Spring Eggstravaganza (daily quest series)",
+  "quests": [
+   {
+    "key": "wthe-spring-eggstravaganza",
+    "title": "The Spring Eggstravaganza",
+    "live": "yes"
+   },
+   {
+    "key": "wthe-eggcellent-egg-hunt",
+    "title": "The Eggcellent Egg Hunt",
+    "live": "yes"
+   },
+   {
+    "key": "wthe-eggcitingly-eggcellent-egg-hunt",
+    "title": "The Eggcitingly Eggcellent Egg Hunt",
+    "live": "unsure"
+   },
+   {
+    "key": "wthe-eggxtremely-eggcitingly-eggcellent-egg-hunt",
+    "title": "The Eggxtremely Eggcitingly Eggcellent Egg Hunt",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Hero's Journal chapter, Sergeant Larkspur / Southern Wilds bixie story (order unconfirmed)",
+  "quests": [
+   {
+    "key": "wthe-way-of-the-wilds",
+    "title": "The Way of the Wilds",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Shrouded Gloam invasion: Sunspark's either/or choice between the druid and dwarf sides",
+  "quests": [
+   {
+    "key": "wtrapped-and-alone",
+    "title": "Trapped and Alone",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Super Spooktacular (wiki questline, starts in Sanctuary)",
+  "quests": [
+   {
+    "key": "wtrick-or-treat",
+    "title": "Trick-or-Treat",
+    "live": "unsure"
+   },
+   {
+    "key": "whalloween-fanatic",
+    "title": "Halloween Fanatic",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Heroes Journal: The Seaside Gloam Invasion",
+  "quests": [
+   {
+    "key": "wtroubled-waters",
+    "title": "Troubled Waters",
+    "live": "unsure"
+   },
+   {
+    "key": "wtides-of-change",
+    "title": "Tides of Change",
+    "live": "yes"
+   },
+   {
+    "key": "wknow-your-enemy",
+    "title": "Know your Enemy",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Heroes Journal: The Seaside Gloam Invasion (wiki chapter list; no client prev/next link)",
+  "quests": [
+   {
+    "key": "wtroubling-waters",
+    "title": "Troubled Waters",
+    "live": "unsure"
+   },
+   {
+    "key": "wtides-of-change",
+    "title": "Tides of Change",
+    "live": "yes"
+   },
+   {
+    "key": "wknow-your-enemy",
+    "title": "Know your Enemy",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Southern Wilds series 4 (dev label 'SGRevamp - Wilds South - 4-1 to 4-5'; repo: NPCs - Merry Vale.md:198)",
+  "quests": [
+   {
+    "key": "wunmasking-the-villain",
+    "title": "Unmasking the Villain",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Gorg's Briarwood camp quests (first Gorg cluster after the maze)",
+  "quests": [
+   {
+    "key": "wurgent-missive",
+    "title": "Urgent Missive",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Pony Vale Questline",
+  "quests": [
+   {
+    "key": "wwarm-welcome",
+    "title": "Warm Welcome",
+    "live": "yes"
+   },
+   {
+    "key": "whelping-honeydew",
+    "title": "Helping Honeydew",
+    "live": "yes"
+   },
+   {
+    "key": "wmeeting-the-princess",
+    "title": "Meeting the Princess",
+    "live": "yes"
+   },
+   {
+    "key": "wdistracting-druids",
+    "title": "Distracting Druids",
+    "live": "unsure"
+   },
+   {
+    "key": "wallergy-season-already",
+    "title": "Allergy Season Already?",
+    "live": "yes"
+   },
+   {
+    "key": "wunicorn-s-plight",
+    "title": "Unicorn's Plight",
+    "live": "yes"
+   },
+   {
+    "key": "winvestigating-the-cause",
+    "title": "Investigating the Cause",
+    "live": "yes"
+   },
+   {
+    "key": "wgathering-evidence",
+    "title": "Gathering Evidence",
+    "live": "yes"
+   },
+   {
+    "key": "wsweets-for-sniffles",
+    "title": "Sweets for Sniffles",
+    "live": "yes"
+   },
+   {
+    "key": "wnature-s-cure",
+    "title": "Nature's Cure",
+    "live": "yes"
+   },
+   {
+    "key": "wstopping-the-spread",
+    "title": "Stopping the Spread",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Merry Vale missing-children search (Lugunwump)",
+  "quests": [
+   {
+    "key": "wwhere-is-lugunwump",
+    "title": "Where is Lugunwump?",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Festival of Hearts (Cudip / Merry Vale love-potion chain)",
+  "quests": [
+   {
+    "key": "wwhere-is-the-love",
+    "title": "Where is the Love?",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Themed Community Event Parties (Tiger the Party Animal): standalone event quest",
+  "quests": [
+   {
+    "key": "wwinter-party",
+    "title": "Winter Party",
+    "live": "unsure"
+   }
+  ]
+ }
+]

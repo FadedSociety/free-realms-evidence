@@ -1,0 +1,51 @@
+{
+ "title": "Illusionist Liana",
+ "our_entries": [
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "enemies_unresolved.json"
+  },
+  {
+   "file": "dungeons\\den_of_secrets.json"
+  },
+  {
+   "file": "dungeons\\den_of_secrets.json"
+  }
+ ],
+ "entry_count": 4,
+ "client_name_matches": [
+  "locale:74894 [npc_name | - | Illusionist Liana] 'Illusionist Liana'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:74894 [npc_name | - | Illusionist Liana] 'Illusionist Liana'",
+  "locale:74906 [quest_dialog | Den of Secrets | Illusionist Liana] 'Something dark and sinister is afoot in the Den of Secrets. Many have gone missing and are suspected to be inside! Free them and defeat whoever is responsible f'",
+  "locale:74907 [quest_objective | Den of Secrets | Illusionist Liana] 'Defeat Illusionist Liana!'",
+  "locale:74908 [quest_objective | Den of Secrets | Illusionist Liana] 'Find the mysterious Illusionist Liana and defeat her!'",
+  "locale:74909 [quest_objective | Den of Secrets | Illusionist Liana] 'Destroy the mysterious pillars within the caverns!'"
+ ],
+ "client_cluster": [
+  "locale:74887 [other | Briarwood | - | FLAG placeholder: \"Placeholder\" with developer name] 'Briarwood Placeholder - jcaraker'",
+  "locale:74889 [quest_dialog | Merry Vale | Wizard: Merry Magical Story] \"Morgulg still has some learning to do. I'm sending him to <font color='#D9781A'>Merry Vale</font> to speak with <font color='#D9781A'>Talespinner Yvelle</font>.\"",
+  "locale:74890 [quest_title | Merry Vale | Wizard: Merry Magical Story] 'Wizard: Merry Magical Story'",
+  "locale:74891 [quest_objective | Merry Vale | Wizard: Merry Magical Story] 'Yaren wants you to head to Merry Vale and learn about the Spellstruck Halls from Talespinner Yvelle.'",
+  "locale:74892 [quest_dialog | Merry Vale | Wizard: Merry Magical Story] 'The Spellstruck Halls? Yes, I know of that wizard school.<BR><BR>They say it existed long ago, and that it was full of scrolls with the strongest spells ever ma'",
+  "locale:74894 [npc_name | - | Illusionist Liana] 'Illusionist Liana'",
+  "locale:74895 [item | - | Singing Crystal] 'Singing Crystal'",
+  "locale:74896 [npc_name | - | Den Wisp] 'Den Wisp'",
+  "locale:74899 [quest_objective | Merry Vale | Wizard: Merry Magical Story] 'Speak with Talespinner Yvelle'",
+  "locale:74900 [quest_objective | Merry Vale | Wizard: Merry Magical Story] 'Talespinner Yvelle has plenty of stories to tell in Merry Vale.'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [
+  "video:Sy-W_AHbwcw/00398.jpg (Den of Secrets): npcs: Illusionist Liana dialog_header boss | dialog: Liana calls on magical guardians! Illusionist Liana: Liana vanishes! Her illusions remain! | quest:   Defeat Illusionist Liana! Bonus: Destroy the mysterious pillars within the caverns! (checked, complete)  | landmarks: cavern ",
+  "video:Sy-W_AHbwcw/00376.jpg (Den of Secrets): npcs: Illusionist Liana dialog_header boss | dialog: Illusionist Liana: You'll serve me as a shambler! Illusionist Liana: Shadows! Protect me! | quest:   Defeat Illusionist Liana! Bonus: Destroy the mysterious pillars within the caverns! (checked, complete)  | landmarks: dark cav",
+  "video:Sy-W_AHbwcw/00386.jpg (-): npcs: Illusionist Liana nameplate boss | job_level: Warrior 7 | other_text: Den of Secr Goals (2) Defeat Illusionist Liana! Bonus: Destroy the mysterious pillars within the caverns!",
+  "video:Sy-W_AHbwcw/00396.jpg (Den of Secrets): npcs: Illusionist Liana nameplate boss | dialog: Liana calls on magical guardians! | quest:   Defeat Illusionist Liana! Bonus: Destroy the mysterious pillars within the caverns! (checked, complete)  | landmarks: red magic ring effect | job_level: Warrior 7 | other_text: Den of Se",
+  "video:Sy-W_AHbwcw/00366.jpg (-): npcs: Illusionist Liana dialog_header boss Fairy Cultist dialog_header  | dialog: Illusionist Liana: Someone's here! Get rid of them quickly! Fairy Cultist: Right away, mistress! Sporelings, with me! | job_level: Warrior 7 | other_text: Den of Secr Goals (2) Defeat Illusionist Li"
+ ],
+ "article_facts": [],
+ "quest_answers_naming_it": []
+}

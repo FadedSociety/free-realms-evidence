@@ -1,0 +1,20 @@
+<!-- fleet job=test-audit id=tests-field-battle-roster-rs-L1 status=done turns=6 usd=0.0083 tokens(read,write,in,out)=[89142, 28980, 14, 7506] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/field_battle_roster.rs lines 1-1200 of 1509
+
+Window reviewed: `prototype/osfr-tools/tests/field_battle_roster.rs` lines 1-1200. No `#[ignore]` or silent early-return skips in the window; the fixtures it depends on (`lab/reports/round70-native-.../content`, `lab/references/rust-gateway-reference`, `Models.txt`, `locale-id-to-text.json`) fail loudly via `unwrap`/`expect` if missing. Findings:
+
+- **[medium] tests/field_battle_roster.rs:1103 unavailable_field_battle_prize_is_refused_through_gameplay - the reload step is only checked with `chat_text(&reloaded).contains("battles")`, which does not separate success from failure.**
+  - Why it cannot catch a regression: `gameplay.rs:2894-2895` replies `"Reloaded: {done}."` on success and `"Reload failed: {error}. Nothing changed."` on failure. A failure whose error text, or the `"Nothing changed"`/`battles` wording, contains "battles" passes. If `reload_field_battles` (`encounter/field.rs:436`) silently stopped reloading, the later refusal checks would still pass, because the invalid prize was already loaded at startup via `gateway_from`. The test would then no longer be proving that the reloaded content is what gets refused.
+  - Fix: assert `chat_text(&reloaded).starts_with("Reloaded:")` and that it does not contain "Reload failed", and/or assert that the reloaded engine's battle row 12310 carries the invalid `item_id` 2147483647.
+
+- **[medium] tests/field_battle_roster.rs:619 every_prize_resolves_and_every_enemy_batch_is_available - the name says "every prize" and "every enemy batch", but the prize loop only covers `TASK_ROSTER` (5 of the 11 rows), and the enemy check only covers `NEW_ROSTER` (2 rows).**
+  - Why it cannot catch a regression: the shipped prizes for Thugamug 12340, Sheep Watch 12350, Bixie Hive 12370, Brawling Ring 12400 and Bandit Hideout 12360 are never checked against the runtime catalogue. A content edit that gives one of them an absent `item_id` passes. Likewise, `EnemyEngine::load` is only checked for `expect` success, and the actor definition/model/name checks never run for the other nine battles' enemies.
+  - Fix: iterate `file["battles"]` (all rows) for the prize `has_definition` check, and for the actor definition/model/name check, rather than limiting them to `TASK_ROSTER` and `NEW_ROSTER`. Optionally assert that `EnemyEngine::load` returns a batch count matching the battle enemy batches that are referenced.
+
+- **[low] tests/field_battle_roster.rs:512 five_distinct_field_battles_load_with_the_existing_schema - the name claims five battles, but the body asserts the exact 11-row ordered id list (lines 531-546) and the GUID uniqueness across all rows.**
+  - Why it is a problem: the name does not match what is checked. The exact list is also pinned to row order, so any unrelated content slice that inserts a row (the comment at 522-530 documents this churn) breaks a test whose subject is the schema of five task battles.
+  - Fix: rename to reflect the full-roster check (for example `field_battle_roster_is_the_canonical_set_with_unique_guids`), or split the exact-id check from the five-task-battle schema check, and compare the task-roster subset as a set rather than by position.
+
+- **[low] tests/field_battle_roster.rs:724 open_battle - the 41/114 reader check depends on the absolute byte window `details[47..71]`.**
+  - Why it is a problem: the window is derived from a protocol layout and is correct for the client reader, but it is pinned to a fixed offset of the whole packet, so a harmless leading field added to the screen packet fails the test with an offset error rather than a field error. This churns without catching a different regression.
+  - Fix: locate the fields by their known prefix (for example search for the `title_id` i32 sequence and assert the trailing `[2, 4]` pair), or keep the byte check and document that it pins the 41/114 layout.</result>

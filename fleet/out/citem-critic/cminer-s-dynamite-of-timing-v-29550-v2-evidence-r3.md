@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cminer-s-dynamite-of-timing-v-29550-v2-evidence-r3 status=done turns=4 usd=0.0028 tokens(read,write,in,out)=[25833, 12702, 10, 1897] model=claude-haiku-5-5 -->
+# Miner's Dynamite of Timing V
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The price field reads as a plain coin price (2152). The only basis is repo stores.json item 75617 and vendors.json row 75617, whose price_basis is '(R) stores.json reference price; no captured retail NPC quote.' No wiki page or captured quote gives a price. The answer states this in its detail text and in open, but the price field itself carries no flag.", "fix": "Mark the price as unverified: 'reference 2152 coins (stores.json item 75617, purchase; member 1936; sell 215), not a captured NPC quote; wiki Kallie page gives no price.' Keep confidence below full until a captured quote exists."}]}

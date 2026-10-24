@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=crunner-grape-ring-96148-v1-world-r2 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3879, 9819, 6, 1004] model=claude-haiku-5-5 -->
+# Runner Grape Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind", "issue": "The answer sets kind to 'clothing' while the first pass said 'other'. The client shows slot 8 (ring) and class 66, but no source names a clothing category for it. This is a minor classification choice, not a sourcing error.", "fix": "Keep kind as 'other' or justify 'clothing' from the client slot and class. Neither is a source claim."}, {"field": "retired", "issue": "retired is null and live is 'unsure'. The evidence supports that no source exists, so the status is honestly unknown. Nothing in the pack shows the item was ever obtainable on the 2009-2014 server.", "fix": "No change required. An honest unknown is acceptable here."}]}

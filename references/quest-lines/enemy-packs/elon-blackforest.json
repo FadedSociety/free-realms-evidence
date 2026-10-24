@@ -1,0 +1,43 @@
+{
+ "title": "Lon Blackforest",
+ "our_entries": [
+  {
+   "file": "npcs/blackspore_swamp.json",
+   "npc_id": 9500000038,
+   "zone": "Blackspore Swamp",
+   "enemy_kind": "Werewolf",
+   "location_evidence": [
+    "Blackspore"
+   ]
+  }
+ ],
+ "entry_count": 1,
+ "client_name_matches": [
+  "locale:432270 [npc_name | Blackspore | Lon Blackforest] 'Lon Blackforest'"
+ ],
+ "client_lines_tagged_to_name": [
+  "locale:432270 [npc_name | Blackspore | Lon Blackforest] 'Lon Blackforest'"
+ ],
+ "client_cluster": [
+  "locale:432262 [quest_dialog | Blackspore | Catch a chicken for Lon] 'If you run into someone that wants to bite you, give it something else to bite instead! Find the stray chicken in Blackspore, and give it to Lon Blackforest to '",
+  "locale:432263 [quest_dialog | Blackspore | Catch a chicken for Lon] 'Is that a delicious, juicy, meaty chicken you have there? Oh I could gobble him up right now!'",
+  "locale:432265 [quest_dialog | Blackspore | Catch a chicken for Lon] 'If wolves like chicken, then werewolves should too, right? See what the youngest werewolf thinks of this theory.'",
+  "locale:432266 [quest_title | Blackspore | Catch a chicken for Lon] 'Catch a chicken for Lon'",
+  "locale:432268 [quest_objective | Blackspore | Catch a chicken for Lon] 'Speak to Lon Blackforest'",
+  "locale:432270 [npc_name | Blackspore | Lon Blackforest] 'Lon Blackforest'",
+  "locale:432271 [quest_dialog | Blackspore | Howl of Hunger] 'I wish we had something to eat off of instead of the dirt. We werewolves must try to remain civilized...<BR><BR>I want to eat off proper dishware! Rummage aroun'",
+  "locale:432272 [quest_title | Blackspore | Howl of Hunger] 'Howl of Hunger'",
+  "locale:432273 [quest_dialog | Blackspore | Howl of Hunger] \"Just because they look like animals, doesn't mean they have to live like one!\"",
+  "locale:432274 [quest_dialog | Blackspore | Howl of Hunger] 'Great! Now, no one can accuse us of being savage animals.'",
+  "locale:432276 [quest_objective | Blackspore | Howl of Hunger] \"Go to Ramirez's dig site and see if you can find some bowls.\"",
+  "locale:432277 [quest_objective | Blackspore | Howl of Hunger] 'Dig up bowls from the Artifacts mini-game'"
+ ],
+ "wiki": null,
+ "images": [],
+ "video": [],
+ "article_facts": [],
+ "quest_answers_naming_it": [
+  "talk target in 'Catch a chicken for Lon' (unresolved): Speak to Lon Blackforest",
+  "deliver target in 'Catch a chicken for Lon' (unresolved): Find the stray chicken in Blackspore, and give it to Lon Blackforest to feed on."
+ ]
+}

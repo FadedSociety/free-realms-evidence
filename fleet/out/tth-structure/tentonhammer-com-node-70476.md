@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=tentonhammer-com-node-70476 status=nothing_found turns=1 usd=0.0012 tokens(read,write,in,out)=[0, 7480, 4, 574] model=claude-haiku-5-5 -->
+# SOE FanFaire 2009 Blog: In the Beginning | Ten Ton Hammer
+
+{"article": {"title": "SOE FanFaire 2009 Blog: In the Beginning", "date": "2009-06-26", "author": "Dalmarus", "type": "other"}, "about_free_realms": false, "summary": "This is a personal travel blog about flying to and checking in at SOE FanFaire 2009, with a note that the event marked EverQuest's 10th anniversary. It does not describe Free Realms gameplay, quests, items, events, or mechanics. Free Realms appears only in the page's site-wide tag list, not in the article text.", "facts": [], "quests": [], "uncertain": ["Free Realms is listed only as a tag on this page; the article text never mentions it, so no Free Realms facts were recorded."]}

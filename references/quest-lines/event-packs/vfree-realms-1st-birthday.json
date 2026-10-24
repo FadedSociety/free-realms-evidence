@@ -1,0 +1,45 @@
+{
+ "title": "Free Realms 1st birthday",
+ "names_seen": [
+  "Free Realms 1st birthday",
+  "Free Realms 1st birthday celebration"
+ ],
+ "facts": [
+  {
+   "statement": "SOE Podcast 83, posted April 13, 2010, lists Free Realms' 1st birthday among its topics.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Listen in on Fan Faire news, plans for EverQuest birthday events, and Free Realms 1st birthday.",
+   "article": "http://www.tentonhammer.com:80/node/83296",
+   "date": "2010-04-13"
+  },
+  {
+   "statement": "Free Realms' 1st birthday celebration was set to begin April 29, 2010, with new in-game events and prizes to follow.",
+   "numbers": {
+    "start_day": 29,
+    "start_month": 4,
+    "start_year": 2010
+   },
+   "era": "live",
+   "quote": "is about to kick off its 1st birthday celebration on April 29th . New in-game events and prizes will soon be available",
+   "article": "http://www.tentonhammer.com:80/node/83604",
+   "date": "2010-04-22"
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.tentonhammer.com:80/node/83296",
+   "date": "2010-04-13",
+   "title": "SOE Podcast 83 - EQ Birthday Events",
+   "summary": "This is a Ten Ton Hammer post announcing SOE Podcast 83, a multi-game show covering Fan Faire, EverQuest birthday events and Free Realms' first birthday. The page itself gives no Free Realms details; it only names the topic. The show notes and download links are on the official SOE Podcast site, which is not in this capture."
+  },
+  {
+   "url": "http://www.tentonhammer.com:80/node/83604",
+   "date": "2010-04-22",
+   "title": "Free Realms Celebrates 1yr Anniversary with Events and New Music Video",
+   "summary": "A Ten Ton Hammer news item (posted April 22, 2010) announcing Free Realms' first birthday celebration starting April 29, 2010, with in-game events and prizes to come. It also reports a new music video for the theme song \"It's Your World\", with a behind-the-scenes feature on the Free Realms website and the full video on Aol.com. The article gives no event details, prize lists or mechanics."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

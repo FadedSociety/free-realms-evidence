@@ -1,0 +1,28 @@
+{
+ "title": "Welcome Back daily login gift",
+ "names_seen": [
+  "Welcome Back daily login gift"
+ ],
+ "facts": [
+  {
+   "statement": "Logging in on each of the next seven days gave a free item per day; the article lists the items in order.",
+   "numbers": {
+    "days": 7
+   },
+   "era": "live",
+   "quote": "Meldet euch täglich für die nächsten sieben Tage an",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=2129",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=2129",
+   "date": null,
+   "title": "Free Realms - What is New?",
+   "summary": "A German-language SOE 'Welcome Back' news post (posted about six days before the 2011-05-21 capture, exact date not shown) announcing login compensation after a downtime period. It lists a 45-day free play grant for members in good standing, 20,000 in-game coins for lifetime members, and a seven-day daily login gift series with a lifetime-member bonus lot."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

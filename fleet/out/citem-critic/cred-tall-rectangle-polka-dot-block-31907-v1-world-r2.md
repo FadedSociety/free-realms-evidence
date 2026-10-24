@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cred-tall-rectangle-polka-dot-block-31907-v1-world-r2 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3986, 8585, 6, 979] model=claude-haiku-5-5 -->
+# Red Tall Rectangle Polka Dot Block
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / open", "issue": "The vendor is still unnamed. The row's source_tags (L1, L2, L4, R2, T633, R1) are shared by the whole 36625-36660 block set and are not explained in the answer. They may point to a shop or location, but the answer does not mention them.", "fix": "Keep the vendor as open. Mention that the row carries source_tags L1,L2,L4,R2,T633,R1 (stores.json line 12124), and that these match the other Polka Dot Block rows, so a builder can look them up. No vendor name is supported by the pack."}]}

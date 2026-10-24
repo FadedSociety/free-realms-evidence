@@ -1,0 +1,4 @@
+<!-- fleet job=tth-structure id=tentonhammer-com-node-98574 status=nothing_found turns=1 usd=0.0012 tokens(read,write,in,out)=[0, 7094, 4, 573] model=claude-haiku-5-5 -->
+# SOE Fan Faire Registration Opens, "Early Bird" Pricing Extended | Ten Ton Hammer
+
+{"article": {"title": "SOE Fan Faire Registration Opens, \"Early Bird\" Pricing Extended", "date": "2011-05-20", "author": "Martuk", "type": "news"}, "about_free_realms": false, "summary": "This Ten Ton Hammer official announcement covers SOE Fan Faire registration: All Access Passes at $119.00 with the Early Bird pricing extended through May 31st. Free Realms appears only in the article's list of tags; the body never mentions the game, so it gives a rebuilder no Free Realms facts.", "facts": [], "quests": [], "uncertain": ["Free Realms is listed only as a tag among many SOE and other games; the article text does not describe it, so no Free Realms facts were recorded."]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cspider-strike-hoodie-395815-v1-world-r2 status=done turns=3 usd=0.0025 tokens(read,write,in,out)=[13599, 13762, 8, 1377] model=claude-haiku-5-5 -->
+# Spider Strike Hoodie
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "Sibling 'Strike Hoodie' items exist in the same client locale data: 'Skull Strike Hoodie' (ucdt 1658509668 / 1880370822, ugdt 2238587558) and 'Storm Strike Hoodie' (ucdt 796869583, ugdt 3190915886). The answer does not mention this family. It is not evidence of a shared source, but a live-era check of the family could resolve the Spider Strike source together.", "fix": "Add a note that the Spider, Skull and Storm Strike Hoodies share a naming family in locale data (locale_en_us_data.dat), and check whether any source for one covers the others before wiring. No source for the family is in the pack."}]}

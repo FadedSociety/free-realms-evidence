@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-scavenger-hunt-two-players-rs-L1 status=done turns=8 usd=0.0093 tokens(read,write,in,out)=[133408, 29814, 18, 8501] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/scavenger_hunt_two_players.rs lines 1-723 of 723
+
+Reviewed `scavenger_hunt_two_players.rs` lines 1-723 and the helpers they call (`support/scavenger_hunt.rs` 60-223, `support/npc_quest_chain.rs` 170-200, 480-600). No `#[ignore]`, no early-return skips, and no test whose expected value is recomputed from the code under test. The refusal, replay and save-byte checks are real. Two findings:
+
+- **[medium] prototype/osfr-tools/tests/scavenger_hunt_two_players.rs:686 a_disconnect_mid_hunt_does_not_stop_the_other - the "reconnect" step does not serialize, so the "saved gameplay reloads unchanged" claim is only an in-memory clone.**
+  - Why it cannot catch a regression: `fixture.reload(&a)` (`support/npc_quest_chain.rs:181`) calls `self.game(Some(game.state()))`, which passes the in-memory `GameplayState` straight back in. A change that drops or mis-serializes a field (for example `npc_quests.counts`, `pending_turnin`, or a profile's experience) would still give equal `a.state()` and equal `saved(&a)` bytes at lines 699-701, because both sides come from the same struct. The 702-703 count checks would also pass.
+  - Fix: reconnect through the serialized path, as `reload_via_store` (line 106) or `fixture.reload_serialized(&a)` does, then assert the post-reload `saved(&a)` equals `a_bytes` and `a.state()` equals `a_before`. Either assertion fails if the save envelope loses a field.
+
+- **[low] prototype/osfr-tools/tests/scavenger_hunt_two_players.rs:204 each_character_advances_the_three_stops_independently - the name says three stops, but the body only advances stops 0 and 1.**
+  - Why it cannot catch a regression: A and B are only moved through indices 0 and 1 (lines 212, 220-221, 230). The third stop (index 2, MERIGOLD) is only probed at line 240 and 250-251, where the expected outcome is "no change", so independent advancement of the third stop is never checked in this test. A change where stop 2 advances the wrong character would not fail here. Stop-3 advancement is exercised in the other tests (`walk_stops(..., 3)` at lines 262 and 566), but not with the independence assertions this test's name promises.
+  - Fix: after line 251, have B visit stop 2 and assert `counts(&b) == [1, 1, 1, 0]` and `counts(&a) == [1, 1, 0, 0]`, plus A's state and bytes unchanged, or rename the test to "two stops".</result>

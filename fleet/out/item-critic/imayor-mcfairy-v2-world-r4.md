@@ -1,0 +1,4 @@
+<!-- fleet job=item-critic id=imayor-mcfairy-v2-world-r4 status=done turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 4529, 4, 986] model=claude-haiku-5-5 -->
+# Mayor McFairy
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "kind / sources", "issue": "The record is for an NPC, not an item. The answer correctly lists no sources. The wiki categories (Quest Givers, Enemies, Fairy, Merry Vale) and the Birthday Bash Cakey Clue link are NPC roles, not item acquisition, so none of them can be a source here. The answer is consistent with the evidence pack, which has no coin, Station Cash, IGD, vendor, drop or reward entry for this name.", "fix": "No change to sources. Consider reporting status nothing_found with a note that 'Mayor McFairy' is NPC locale 41231 (npc_name), so the item record should not be created under this name. Cakey Clue (locale 428048) stays a separate item, as the answer already says."}]}

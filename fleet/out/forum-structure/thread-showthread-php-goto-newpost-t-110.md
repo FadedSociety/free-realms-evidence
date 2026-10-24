@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-goto-newpost-t-110 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2876, 4, 464] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": null, "author": null, "type": "other"}, "about_free_realms": false, "summary": "This capture is a vBulletin shell from freerealmsforums.com, showing a 'maximum number of posts you can view' registration error and forum navigation. It contains no thread content, guide, or game facts about Free Realms, so there is nothing for the rebuild to take from it.", "facts": [], "quests": [], "uncertain": ["The page text is only a forum error and navigation shell. The thread the URL points to (t=110) did not load, so its title, author, date and content are unknown."]}

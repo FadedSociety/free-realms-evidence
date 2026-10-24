@@ -1,0 +1,67 @@
+{
+ "title": "Child's Play Winter Charity Drive",
+ "names_seen": [
+  "Child's Play Winter Charity Drive"
+ ],
+ "facts": [
+  {
+   "statement": "Free Realms offered a special in-game penguin pet purchasable with Station Cash as part of a Child's Play charity promotion.",
+   "numbers": {
+    "donation_per_purchase_usd": 10,
+    "donation_cap_usd": 50000
+   },
+   "era": "live",
+   "quote": "For each select in-game item purchased from Dec. 21 through Dec. 31, SOE will donate $10 to the charity, up to $50,000 total.",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1972",
+   "date": null
+  },
+  {
+   "statement": "The charity promotion window ran from Dec. 21 through Dec. 31 (year not stated in the article; the capture is from 2010).",
+   "numbers": {
+    "start_day_dec": 21,
+    "end_day_dec": 31
+   },
+   "era": "live",
+   "quote": "from Dec. 21 through Dec. 31",
+   "article": "http://www.freerealms.com:80/article/detail.action?articleId=1972",
+   "date": null
+  },
+  {
+   "statement": "Free Realms offered a Child's Play Triceratops in the in-game Marketplace as part of SOE's Child's Play charity drive; the client string names the pet Ziggy the Triceratops.",
+   "numbers": {
+    "price_station_cash": 500
+   },
+   "era": "live",
+   "quote": "offering a Child's Play Triceratops in Free Realms for 500 Station Cash each",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=732",
+   "date": null
+  },
+  {
+   "statement": "SOE donated $10 for each Child's Play item bought from the in-game Marketplace with Station Cash, capped at $50,000 total.",
+   "numbers": {
+    "donation_per_purchase_usd": 10,
+    "donation_cap_usd": 50000
+   },
+   "era": "live",
+   "quote": "SOE will donate $10 (up to $50,000 total) each time a player buys one of the Child's Play items",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=732",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com:80/article/detail.action?articleId=1972",
+   "date": null,
+   "title": "Free Realms - What is New? (Child's Play Winter Charity Drive)",
+   "summary": "SOE's news post announces a Child's Play winter charity drive. For a limited window (Dec. 21 through Dec. 31), a penguin pet sold for Station Cash in Free Realms was one of several promotional items across SOE games, with SOE donating $10 per purchase up to $50,000 total. The page is a December 2010 capture, and the exact posting date is not shown."
+  },
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=732",
+   "date": null,
+   "title": "Free Realms - What is New? (Child's Play Winter Charity Drive)",
+   "summary": "SOE's winter 2009 news post announces a Child's Play charity drive in Free Realms: a Child's Play Triceratops sold for 500 Station Cash, with SOE donating $10 per item purchased up to $50,000 total. The drive ran from December 17, 2009 to January 17, 2010, and the post also notes EQ and EQII giftable Child's Play items. The client's pet string names the triceratops Ziggy, so the article's product name may differ from the in-game name."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": []
+}

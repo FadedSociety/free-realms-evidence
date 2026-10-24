@@ -1,0 +1,4 @@
+<!-- fleet job=forum-structure id=thread-showthread-php-p-16480 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2867, 4, 409] model=claude-haiku-5-5 -->
+# Free Realms Forums
+
+{"article": {"title": "Free Realms Forums", "date": "2009-05-16", "author": null, "type": "other"}, "about_free_realms": false, "summary": "The captured page is a vBulletin 'maximum posts exceeded' registration wall with forum navigation and site boilerplate. It contains no thread text, guide, or player report, so it yields no usable facts about how Free Realms played. The only Free Realms mentions are forum section names (for example 'Items', 'Jobs/Classes', 'In-Game Mini Games', 'Pets', 'Membership / Stationcash'), which are not game data.", "facts": [], "quests": [], "uncertain": ["The thread the URL points to (post p=16480) did not render; only the error wall was captured, so the thread's title, author and content are unknown."]}

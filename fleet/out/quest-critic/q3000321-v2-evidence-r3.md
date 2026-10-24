@@ -1,0 +1,4 @@
+<!-- fleet job=quest-critic id=q3000321-v2-evidence-r3 status=done turns=4 usd=0.0025 tokens(read,write,in,out)=[30361, 11214, 10, 1579] model=claude-haiku-5-5 -->
+# The Oldest Building
+
+{"lens": "evidence", "pass": false, "score": 3, "problems": [{"field": "giver.locale_id", "issue": "Given as 93398, but 93398 is Cole's offer dialogue text (\"The Seaspray Inn was the first building ever built in Seaside...\"), not his name. Cole's name string is 93337. The answer cites the dialogue id as the name id.", "fix": "Set giver.locale_id to 93337 (locale:93337 = \"Cole\"). Keep 93398 only as dialog.offer."}, {"field": "evidence", "issue": "The evidence list does not separately source the giver's name id, so the wrong id went unchecked.", "fix": "Add an evidence line: locale:93337 = 'Cole' (NameId for NPC 1748 per legacy FabledRealms.lua:487)."}]}

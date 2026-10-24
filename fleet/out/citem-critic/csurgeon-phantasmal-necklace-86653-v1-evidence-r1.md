@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csurgeon-phantasmal-necklace-86653-v1-evidence-r1 status=done turns=3 usd=0.0017 tokens(read,write,in,out)=[8011, 8183, 8, 1157] model=claude-haiku-5-5 -->
+# Surgeon Phantasmal Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2].source", "issue": "The cited locator is slightly off. The Surgeon Phantasmal Necklace string itself is at anvil en_us_data.dat:28191 (ucdt, id 1064506014), not cited. The cited lines :16873 and :8600 are Physician and Sorcerer Phantasmal Necklace. The claim that the family appears in the anvil data holds, but it is only a name-level hint and does not show a crafting or upgrade role.", "fix": "Cite opening-anvil-placement-v1/locale/en_us_data.dat:28191 for the Surgeon entry, and keep it labelled as a name-only hint. Other copies show the same line at 28184 in FreeRealmsLocaleTools tests data and 28191 in opening-native-lobby."}]}

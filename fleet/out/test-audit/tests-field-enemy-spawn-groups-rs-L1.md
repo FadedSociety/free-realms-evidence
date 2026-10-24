@@ -1,0 +1,12 @@
+<!-- fleet job=test-audit id=tests-field-enemy-spawn-groups-rs-L1 status=done turns=12 usd=0.0111 tokens(read,write,in,out)=[211231, 37007, 26, 8712] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/field_enemy_spawn_groups.rs lines 1-239 of 239
+
+Window: `prototype/osfr-tools/tests/field_enemy_spawn_groups.rs` lines 1-239. Checked against `src/encounter/field.rs` (`load_field_enemies`, `reload_field_enemies`, roam code), `tests/common/field_enemy_fixture.rs`, and `data/content/field_enemies.json`. The fixture exists, so nothing is silently skipped, and there is no `#[ignore]`. The expected group table, the 6.0 m disc (`spawn_area.radius` for GUID 131000102001), the 100 HP and the 45 s respawn all match the content. I found no tautological assertions.
+
+- **[medium] tests/field_enemy_spawn_groups.rs:231 malformed_group_reload_is_atomic - the reload is checked only with `is_err()`, so a refusal for any reason passes.**
+  - Why it cannot catch a regression: `reload_field_enemies` (`field.rs:461`) could refuse every input, for example through the `active()` or `shared_fields` guards or a broken parser. The before/after comparison of teleport targets and behaviour would still hold, so the test passes. The test never shows that the duplicate member in `members: [GUID, GUID]` (line 228) is what caused the refusal. The file also never checks that a valid reload succeeds, so a reload that always errors passes this test.
+  - Fix: assert the specific error, for example `err.to_string().contains("duplicate field spawn group member")`, the message at `field.rs:143`. Add a control in the same test: write the unmodified shipped file, and assert that `reload_field_enemies` returns `Ok`. Compare `field_sim` state as well, not only teleport targets. `tests/field_reload_atomicity.rs:429` already checks the error text this way, so this test should match it.
+
+- **[low] tests/field_enemy_spawn_groups.rs:197-208 group_spawns_roam_kill_and_respawn_on_the_authored_timer - the respawn timer is only bracketed, with a 100 ms slack.**
+  - Why it cannot catch a regression: the test name claims the authored 45 s timer. The test checks nothing at 44_999 ms and at 45_100 ms, so a respawn anywhere in (44_999, 45_100] passes. For example, a respawn at 45_050 ms, or a timer that starts 100 ms late, passes unnoticed.
+  - Fix: tick at exactly `killed_at + 45_000 - 1` (no respawn) and then at `killed_at + 45_000` (respawn). Those two checks pin the authored timer exactly.

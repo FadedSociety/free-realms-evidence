@@ -1,0 +1,10 @@
+<!-- fleet job=test-audit id=tests-piece-072-rs-L1 status=done turns=5 usd=0.0056 tokens(read,write,in,out)=[48322, 21781, 12, 4838] model=claude-haiku-5-5 -->
+# prototype/osfr-tools/tests/piece_072.rs lines 1-421 of 421
+
+Window reviewed: `prototype/osfr-tools/tests/piece_072.rs` lines 1-421, read against `prototype/osfr-tools/src/restoration/piece_072.rs` (registry, decode, encode, gate table). Most tests are sound: the expected values are hand-written literals, the error paths compare exact variants, and the state checks (`outstanding()`, `complete` after a refused scope, `complete_failed`/`clear`) do touch the state they claim. I found one real gap.
+
+- **[medium] tests/piece_072.rs:310 `a_restart_starts_from_an_empty_session_registry` - the name says a restart is exercised, but the body only calls `ClientObjectiveRegistry::new` on a fresh value; the `previous` registry is built, never torn down or reused, and has no effect on `restarted`.**
+  - Why it cannot catch a regression: the registry is a plain owned struct, so a restart cannot leak state into a new instance unless `new()` itself is changed. Any change that keeps a restart path in the caller (for example, a session-manager that reuses or re-inserts the old registry, or that re-registers stale objectives on reconnect) still passes, because this test never goes through that path. The test only shows that `new()` starts empty, which is already covered by the `registry.outstanding()` assertion in other tests.
+  - Fix: either rename it to something like `new_registry_starts_empty` or make it exercise the real restart path. For the latter, have the session/restart code (or a `ClientObjectiveRegistry` reset/hand-over function, if one exists) produce the restarted registry from `previous`, then assert `outstanding()` is empty and that a completion of the old objective returns `UnknownObjective`. That fails if state is carried across restart.
+
+No other findings in this window: no `#[ignore]`, no early-return skips, and no test whose expected value is computed by the code under test. I did not find any over-pinned incidental counts.

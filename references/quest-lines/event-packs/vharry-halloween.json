@@ -1,0 +1,30 @@
+{
+ "title": "Harry Halloween",
+ "names_seen": [
+  "Harry Halloween"
+ ],
+ "facts": [
+  {
+   "statement": "Harry Halloween sends players to find more quests and is the starting point for the trick-or-treat festivities; he is found on the road to Pixiewood.",
+   "numbers": {},
+   "era": "live",
+   "quote": "Habla con Harry Halloween que se encuentra en el camino rumbo a Pixiewood",
+   "article": "http://www.freerealms.com/article/detail.action?articleId=1860",
+   "date": null
+  }
+ ],
+ "article_summaries": [
+  {
+   "url": "http://www.freerealms.com/article/detail.action?articleId=1860",
+   "date": null,
+   "title": "Segundo Año de Super Spooktacular (Free Realms - What is New?)",
+   "summary": "A Spanish-language Free Realms news post announcing the second year of the Super Spooktacular Halloween event. It covers costumes, Pixiewood decorations, the /scare trick-or-treat mechanic, daily quests, world events, the Bone Marsh battle instance, and a Trading Card Game (JCC) Halloween pack offer. The post's date is not shown; it is only given as 'posted 7 months, 2 weeks ago' at the 2011-06-04 capture, so it is roughly late 2010."
+  }
+ ],
+ "wiki_category_members": [],
+ "quest_answers_mentioning_it": [
+  "Bag Snatchers (final, live yes)",
+  "Candy Gram (final, live yes)",
+  "Delicious Goo'd Candy (final, live yes)"
+ ]
+}

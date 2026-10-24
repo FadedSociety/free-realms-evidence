@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpurple-carnation-67106-v3-evidence-r5 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3850, 5185, 6, 977] model=claude-haiku-5-5 -->
+# Purple Carnation
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence (wiki list claim)", "issue": "The claim that the wiki 'List of Collections' Flora section lists [Carnations] and Snowhill [Carnations] was not reproduced in my lookup. My wiki search for 'Carnation' returned only client locale hits, so this source is unconfirmed by me. It does not bear on the acquisition answer.", "fix": "Re-check page:ns0 'List of Collections' before citing it; otherwise leave it as a name-only membership note. Client strings confirmed: locale 67106 'Purple Carnation', 67664 collection description, 67552 'Carnations', 132445 and 132498 membership descriptions, 17579 'Snowhill Carnations'."}]}

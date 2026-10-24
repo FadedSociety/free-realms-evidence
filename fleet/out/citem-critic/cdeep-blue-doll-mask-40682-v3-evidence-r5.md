@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cdeep-blue-doll-mask-40682-v3-evidence-r5 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3952, 9769, 6, 1023] model=claude-haiku-5-5 -->
+# Deep Blue Doll Mask
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "live / retired", "issue": "Minor: the answer leaves retired null and live unsure, which is honest, but the evidence it cites does not establish any obtainability state. The jev 'live: yes' tag is correctly not used. No change needed beyond keeping these as unknowns.", "fix": "Keep retired null and live unsure unless an in-game or vendor source shows current availability. Checked: the wiki Toys (Collections) page lists the Deep Blue Doll Mask only as a collection entry, with no acquisition source."}]}

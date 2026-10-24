@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwizard-s-necklace-of-bark-skin-ii-131255-v4-evidence-r5 status=done turns=4 usd=0.0039 tokens(read,write,in,out)=[30457, 21265, 10, 1917] model=claude-haiku-5-5 -->
+# Wizard's Necklace of Bark Skin II
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].where", "issue": "Zone 'Northern Seaside' is supported by the wiki Merhione page and the Merchants listing (npcs.json Merhione entry: 'found in northern Seaside'), and the repo vendor row (vendors.json:27161-27180, npc 9500000602, npc_content_file seaside.json) matches. The answer flags it as not re-verified, which is honest and does not block a pass.", "fix": "No change required. Optionally cite the wiki Merhione text ('She sells Wizard Job related items', northern Seaside) as the direct zone source."}]}

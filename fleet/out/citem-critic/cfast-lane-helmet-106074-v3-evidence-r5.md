@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfast-lane-helmet-106074-v3-evidence-r5 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3600, 8686, 6, 1123] model=claude-haiku-5-5 -->
+# Fast Lane Helmet
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3].claim", "issue": "The shared-template count is loose. The 270/243/27 row with tags L1, L2, L4, R2, T633, R1 appears on more than 25 items across categories 101 and 105 (e.g. 32749-32752, 32779-32781, 32817, 32851, 32957-32959, 32992-32994, 33027-33029, 33062-33064, 33097-33099, 33132). The conclusion that it is a shared template and does not name the helmet still holds.", "fix": "Say 'about 30 or more items' or cite the row range in repo:prototype/osfr-tools/data/content/stores.json lines 11068-11092. The 270-coin price stays unverified for this item."}]}

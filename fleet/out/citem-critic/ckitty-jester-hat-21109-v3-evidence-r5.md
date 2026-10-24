@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ckitty-jester-hat-21109-v3-evidence-r5 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3753, 9826, 6, 1543] model=claude-haiku-5-5 -->
+# Kitty Jester Hat
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3] / open", "issue": "The claim that IDs 26020-26045 'share the same price shape' is looser than the rows show. In stores.json, 26035 is no_sale:true with sell_price null and different source_tags (L3, L3), and 26038 is priced 20 coins (member 18, sell 2). The uniform tier is 26020-26040 at 270/243/27 apart from those exceptions, and I could not confirm 26041-26045 from the lines I read.", "fix": "Say the tier is 270 coins / 243 member / 27 sell across 26020-26040 with exceptions 26035 (no_sale) and 26038 (20 coins), per repo:prototype/osfr-tools/data/content/stores.json lines 8915-8935. Do not claim 26041-26045 unless checked."}]}

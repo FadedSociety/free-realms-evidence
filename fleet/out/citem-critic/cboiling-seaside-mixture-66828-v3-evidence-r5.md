@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cboiling-seaside-mixture-66828-v3-evidence-r5 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4174, 10755, 6, 1164] model=claude-haiku-5-5 -->
+# Boiling Seaside Mixture
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer's open list omits a lead it should have checked. Client quest_dialog locale 93905 ('Seaside Ninja Remedy': 'Ah, my hands are shaky. Well, let me try out this mixture. *gulp*...') refers to a mixture being handed over, but the line does not name Boiling Seaside Mixture, so it is not a source for item 23215.", "fix": "Record locale:93905 as an unexamined lead, not a source. Check the Seaside Ninja Remedy quest's steps to see which mixture it hands over. Only wire it if the quest text or a wiki page names 'Boiling Seaside Mixture'."}]}

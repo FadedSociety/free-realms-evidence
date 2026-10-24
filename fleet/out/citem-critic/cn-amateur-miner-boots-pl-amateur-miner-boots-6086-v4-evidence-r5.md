@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-amateur-miner-boots-pl-amateur-miner-boots-6086-v4-evidence-r5 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4184, 7463, 6, 871] model=claude-haiku-5-5 -->
+# {n}Amateur Miner Boots{pl="Amateur Miner Boots"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open[2]", "issue": "The answer reads the store source_tags (L1, L2, L4, R2, T633, R1) as proof of 'past store presence'. The tag meanings are not defined in the evidence pack, and the same tags sit on many other rows (e.g. 2235, 2239, 2454), so they do not identify a seller or sale window.", "fix": "State only that the tags appear on stores.json:656 and on other rows, with no defined meaning, as in repo:prototype/osfr-tools/data/content/stores.json:650-666. Do not present them as a sale record."}]}

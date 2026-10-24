@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cicy-rose-17500-v3-evidence-r5 status=no_submit turns=3 usd=0.0024 tokens(read,write,in,out)=[13746, 11228, 8, 1644] model=claude-haiku-5-5 -->
+# Icy Rose
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / sources", "issue": "The wiki harvest table (freerealms-wiki/harvest/lists/tables.json lines 3499-3504) lists 'Snowhill Roses' as a feed in the Rare Snowhill Flowers row (Exotic Snowhill Flower). The answer names only the Flora table as an open lead and does not mention this row. It does not name Icy Rose, so it is not a source for this item, but it is the nearest evidence on how Snowhill roses enter the economy.", "fix": "Add to open: 'wiki harvest table tables.json:3500 lists Snowhill Roses as a feed for Rare Snowhill Flowers; this is a generic rose, not Icy Rose, and does not confirm Icy Rose as a harvest output.'"}]}

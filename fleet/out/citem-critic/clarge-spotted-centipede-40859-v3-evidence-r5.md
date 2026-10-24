@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=clarge-spotted-centipede-40859-v3-evidence-r5 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4503, 6459, 6, 873] model=claude-haiku-5-5 -->
+# Large Spotted Centipede
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].source", "issue": "The catalogue entry carries item_link 'sanctuary', which only marks a reference link. It is not evidence of how a player obtains item 3643. The answer does not cite it as an acquisition source, so this is a note, not an error.", "fix": "Keep the source as collection membership only. Do not treat item_link 'sanctuary' as an acquisition method. Verified: collection_catalogue.json lines 6223-6231 (id 575, index 2, item 3643, name_id 40859); locale:132341 'This item can be added to the Spotted Centipedes Collection'."}]}

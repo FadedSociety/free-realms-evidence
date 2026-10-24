@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=corange-tall-rectangle-block-21690-v3-evidence-r5 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[15036, 11771, 8, 1404] model=claude-haiku-5-5 -->
+# Orange Tall Rectangle Block
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "coin_shop.where", "issue": "The storefront is written as 'Coin Shop', but no source in the pack names category 147 as the Coin Shop. The answer's own open note admits this is inferred from the coin price. The hedge '(storefront unconfirmed)' is present, so this is a labelling weakness, not a false claim.", "fix": "Keep the hedge, or record the source as 'stores.json category 147, storefront name unresolved'. The Coin Shop label rests on video:yJ2KHN9I7EI/00978.jpg, which shows 'Basic Tall Rectangle Block 30 coins' under a Coin Shop heading. That frame is a different variant and cannot confirm this row's storefront."}]}

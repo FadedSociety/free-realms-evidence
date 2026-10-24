@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-elite-pink-fast-blast-gloves-pl-elite-pink-fast-blast-glov-577-v5-world-r6 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4358, 10521, 6, 997] model=claude-haiku-5-5 -->
+# {n}Elite Pink Fast Blast Gloves{pl="Elite Pink Fast Blast Gloves"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Context omission: the Fast Blast glove family has a black variant, locale 25329 'Elite Black Fast Blast Gloves', which the answer's client cluster (locales 572-582) does not mention. It is not a source for locale 577 and does not change the result, but it weakens the claim that the cluster is the whole family.", "fix": "Note locale:25329 'Elite Black Fast Blast Gloves' as a sibling name in the family. Do not use it as a source for 577 unless a record ties the two together."}]}

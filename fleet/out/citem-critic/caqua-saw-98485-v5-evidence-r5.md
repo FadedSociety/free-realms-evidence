@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=caqua-saw-98485-v5-evidence-r5 status=done turns=2 usd=0.0023 tokens(read,write,in,out)=[3886, 13001, 6, 1230] model=claude-haiku-5-5 -->
+# Aqua Saw
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "Spot-checked the store row: stores.json line 12316 has item_id 37924, category 207, purchase 1431, member 1287, sell 143, with the same source_tags as the block. The client coin_store_prices value 1431 and the tooltip Resell Value 143 match. The answer correctly declines to treat the row as a sale source. Its claim that about 100 neighbouring rows share these tags is consistent with the rows I read (for example 37903 to 37929), though I did not count them.", "fix": "No change required. Optionally note that the wiki's Triage line reads 'Heals 2372 damage' and 'Deals 8302 damage', which the answer does not quote, and that the trade-only claim rests on a single wiki sentence."}]}

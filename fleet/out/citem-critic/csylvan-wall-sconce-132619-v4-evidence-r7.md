@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csylvan-wall-sconce-132619-v4-evidence-r7 status=done turns=3 usd=0.0022 tokens(read,write,in,out)=[13500, 10151, 8, 1548] model=claude-haiku-5-5 -->
+# Sylvan Wall Sconce
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The row is correctly tagged as a generator default, but calling it the 'only acquisition-like row' invites reading it as an acquisition source. I checked stores.json line 11878: item_id 36206, category 52, purchase 1000, member 900, sell 100, source tags L1/L2/L4/R2/T633/R1. The values match the pack. The R1 and T633 tags confirm the price is defaulted and the sell value is reconstructed.", "fix": "Keep sources empty. State that the only store row is a Cost-derived default (stores.json:11878, repo notes Research/Coin Shop.md lines 31-34) and not a sale record. The current open[] already says this, so the evidence line should match it."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csekkou-ninja-cowl-133231-v4-evidence-r5 status=done turns=5 usd=0.0029 tokens(read,write,in,out)=[39012, 12226, 12, 1877] model=claude-haiku-5-5 -->
+# Sekkou Ninja Cowl
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[1] prize_wheel", "issue": "Checked the wiki 'Danger Peaks' block: '[Ninja] [Prize] [Wheel]' contents run Battle Item Mystery Pack, Blade of 1000 Storms, Necklace of Vitality II, Power Shard of Regeneration II, then '[Sekkou] [Ninja] Cowl', then '70 Coins', then the 'Warrior Prize Wheel' heading. The Cowl sits inside the Ninja wheel's contents list, so the answer's 'ambiguous' framing is stronger than the text supports. It is still a single unpriced wiki mention with no drop rate, so keeping it as weak/unconfirmed is correct. Fix: state that the wiki lists the Cowl under the Ninja Prize Wheel contents (wiki 'Danger Peaks'), price unknown."}]}

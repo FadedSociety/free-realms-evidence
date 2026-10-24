@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csnowberry-sample-148526-v6-evidence-r7 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[4492, 5493, 6, 1046] model=claude-haiku-5-5 -->
+# Snowberry Sample
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The claim leans on locale:148526, which the client flags as 'placeholder: sample item'. The answer's own open[2] says the flagged name is not used, so listing it as an evidence item is inconsistent. The automatic id check also rejects it as live evidence.", "fix": "Drop evidence[1] or reword it as a note that the name is flagged and unused. The identity rests only on the unflagged item description locale:148545, which I confirmed reads 'A Snowberry plant sample that can be found near trees. Convert this sample into seeds by using the Farm-O-Matic.'"}]}

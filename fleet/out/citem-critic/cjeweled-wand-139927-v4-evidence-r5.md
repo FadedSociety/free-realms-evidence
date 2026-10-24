@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjeweled-wand-139927-v4-evidence-r5 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4059, 7665, 6, 1201] model=claude-haiku-5-5 -->
+# Jeweled Wand
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources / open", "issue": "The 811-coin figure is not a sourced price for this wand. stores.json:13226 (item 48177) sits in a shared category-207 block (48172-48191, all 811/729/81) with generic tags and no vendor. The answer correctly leaves it out of sources and flags it in open. I confirmed the block and the wiki's trade-only wording via lookup.", "fix": "No change needed to sources. Keep the 811 figure only as an unresolved conflict with the wiki's 'can only be acquired through trade' until a stock or vendor mapping shows a vendor row for 48177. The 'Power 3' and 'Level 5' claims rest on the wiki's Category:Power 3 Weapons and Category:Level 5 Weapons, which the answer should cite."}]}

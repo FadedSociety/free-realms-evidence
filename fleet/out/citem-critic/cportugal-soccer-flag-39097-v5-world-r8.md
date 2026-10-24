@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cportugal-soccer-flag-39097-v5-world-r8 status=done turns=3 usd=0.0021 tokens(read,write,in,out)=[13863, 11726, 8, 993] model=claude-haiku-5-5 -->
+# Portugal Soccer Flag
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that no acquisition source is evidenced. I re-read stores.json:4184 (item 16746, category 52, tint 1, purchase 50, member 45, sell null, no_sale true) and the neighbouring rows 16740-16752 share the same template, so the answer's reading holds. A category-wide template with no_sale=true does not make the item a coin_shop source.", "fix": "No change required. Optional tightening: note that the 'Soccer Flag' name cluster (locale 39074-39102) also has no wiki, article or video hits in my lookup, so there is no sibling-based source to borrow either."}]}

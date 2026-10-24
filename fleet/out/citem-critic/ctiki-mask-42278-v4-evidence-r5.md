@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctiki-mask-42278-v4-evidence-r5 status=no_submit turns=2 usd=0.0013 tokens(read,write,in,out)=[4101, 6466, 6, 851] model=claude-haiku-5-5 -->
+# Tiki Mask
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open[0]", "issue": "The stores.json:12711 row (item_id 42278, category 104, 433 coins, no_sale false) is correctly kept out of sources. I confirmed the row exists and nothing else in the repo or lookup names Tiki Mask in a shop, quest, or drop. The answer is right to leave it as a candidate, but the price conflict (433 vs 270) cannot be settled from these files, so no price should be wired.", "fix": "No change to sources. Keep the answer as sources: [] with live: unsure. Resolve the item_id key space (locale vs definition id) before treating stores.json:12711 as a sale. Until then the candidate stays unevidenced."}]}

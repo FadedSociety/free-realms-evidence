@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cwild-winger-jersey-6253-v3-evidence-r5 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[4274, 8229, 6, 1362] model=claude-haiku-5-5 -->
+# Wild Winger Jersey
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "Minor: item 2193's 10-coin row (stores.json line 5873) sits in a block of generic category-103 rows priced 270, so its price is a per-item override and not a block default. The answer treats it correctly, but it does not say why the 10-coin price is trusted over the block. Verified: line 5873 reads purchase 10, member 9, sell 1, no_sale false, category 103, tint 1.", "fix": "No change to the price. Optionally note that 2193 is a per-row override (stores.json line 5873), distinct from the 270 default rows at lines 5870-5876. The 6253 row at line 1794 (270, category 6) is confirmed as a different category and is correctly dropped."}]}

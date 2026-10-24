@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=choney-milk-sundae-recipe-408781-v6-world-r8 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3924, 9884, 6, 1126] model=claude-haiku-5-5 -->
+# Honey Milk Sundae Recipe
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[5]", "issue": "The automatic id check fails: locale:191333005 does not exist, and locale:408986 is a FLAGGED dev_note (internal identifier 'cooking_HoneyMilkSundae'). The entry says they were dropped, but it still cites them in the open field, so the answer carries bad ids.", "fix": "Remove both ids from open[5]. The only valid string is the quest-lines evidence: 403489 'Cooking: Honey Milk Sundae' is unattached and has no reward link (quest-lines/quests.json:51584, 52020, 52311). Locale 408986 is not live evidence."}]}

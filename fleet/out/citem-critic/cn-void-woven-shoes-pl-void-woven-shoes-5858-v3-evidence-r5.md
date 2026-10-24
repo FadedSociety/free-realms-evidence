@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-void-woven-shoes-pl-void-woven-shoes-5858-v3-evidence-r5 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3935, 5952, 6, 1099] model=claude-haiku-5-5 -->
+# {n}Void Woven Shoes{pl="Void Woven Shoes"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].type", "issue": "Labelled 'vendor', but the only evidence is a coin-store row (category 105) in repo stores.json. No vendor NPC, shop or stock row names this item, so 'vendor' overstates what is evidenced. The source is a coin-store price row, not an NPC sale.", "fix": "Relabel as type 'coin_store' (or 'store_row') with where null, keeping the price evidence from stores.json:3424 (item_id 12234, tint_group 2, purchase 957, member 861, sell 95). Do not present it as a vendor sale until an NPC or shop is evidenced."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cminer-s-flair-shard-of-the-gold-rush-132161-v5-evidence-r7 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4250, 5942, 6, 1263] model=claude-haiku-5-5 -->
+# Miner's Flair Shard of the Gold Rush
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The coin-store row is verified at repo stores.json:15503 (item_id 75715, category 124, purchase 1055, member 949, sell 105, no_sale false). The 1055 price and 949 member price (1055 x 0.9 = 949.5, truncated) are correct. The row carries no vendor, so 'Coin store' with no seller is the honest reading. The sibling range 750 to 2152 is also confirmed (75710 to 75717). The answer is accurate as far as it goes.", "fix": "No change required to the coin-store source. Keep the seller as unidentified. The Vaal wiki lead stays an unresolved lead, not a source, as the answer already states."}]}

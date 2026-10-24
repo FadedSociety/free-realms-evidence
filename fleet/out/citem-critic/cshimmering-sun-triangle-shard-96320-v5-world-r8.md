@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cshimmering-sun-triangle-shard-96320-v5-world-r8 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3658, 9478, 6, 1192] model=claude-haiku-5-5 -->
+# Shimmering Sun Triangle Shard
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The answer reads category 121 as a shared 'price-tier membership' without showing it. The store row also carries source_tags [L1,L2,L4,R2,T633,R1], which the answer never mentions. Those tags are identical across all the 866-coin rows, so they cannot tell the Sun shard apart from its neighbours.", "fix": "Keep the claim to what stores.json:8081 shows: item 30914, category 121, purchase 866, member 779, sell 86, no_sale false, source_tags L1,L2,L4,R2,T633,R1. Say the tags are shared with the other 866-coin rows and do not name a vendor. Do not call the category a price tier."}]}

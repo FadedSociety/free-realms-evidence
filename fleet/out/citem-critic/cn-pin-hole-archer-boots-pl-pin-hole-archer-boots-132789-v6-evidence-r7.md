@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-pin-hole-archer-boots-pl-pin-hole-archer-boots-132789-v6-evidence-r7 status=no_submit turns=3 usd=0.0021 tokens(read,write,in,out)=[13788, 11115, 8, 1127] model=claude-haiku-5-5 -->
+# {n}Pin Hole Archer Boots{pl="Pin Hole Archer Boots"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price", "issue": "The 1276-coin figure is a stores.json reference price, not a price the Elinor NPC was seen quoting. The answer's open list says so, but the price field itself reads as a vendor price. Vendors.json marks it '(R) reference price, not captured NPC quote'.", "fix": "Keep the sources[0] price as 'store reference 1276 coins (repo stores.json:15559, item 75781; member 1148)' and label it unverified as an NPC quote. Vendors.json:29705-29745 has the same basis."}]}

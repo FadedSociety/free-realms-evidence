@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-amateur-miner-gloves-pl-amateur-miner-gloves-6106-v3-evidence-r5 status=done turns=2 usd=0.0024 tokens(read,write,in,out)=[4128, 13727, 6, 1338] model=claude-haiku-5-5 -->
+# {n}Amateur Miner Gloves{pl="Amateur Miner Gloves"}
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where", "issue": "The coin-shop source has no NPC or vendor. The answer states this honestly, but the row only shows store category 102, which is shared with many unrelated items (for example item_id 87, 100 and 120 at 9453 coins, and 1363 at 291 coins with tint group 1). Category 102 is not an NPC.", "fix": "Keep 'NPC unresolved (store category 102)'. Do not name a vendor until vendors.json or a stock row maps category 102 to an NPC. Source: repo:prototype/osfr-tools/data/content/stores.json:660 (item_id 2471, category_id 102, tint_group_id 1, purchase 291, member 261, sell 29)."}]}

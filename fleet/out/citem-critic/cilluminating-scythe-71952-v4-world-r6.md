@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cilluminating-scythe-71952-v4-world-r6 status=no_submit turns=3 usd=0.0026 tokens(read,write,in,out)=[13562, 13051, 8, 1613] model=claude-haiku-5-5 -->
+# Illuminating Scythe
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0] / open", "issue": "Minor: the 'other' trade source is correctly marked non-wireable, but the answer's open note says the Blue Text weapon page shows 'no drop, dungeon, or vendor source'. The pack only shows that page's Illuminating group listing and does not show its full text, so that negative claim is not fully verified.", "fix": "Reword to 'the Blue Text weapon page lists Illuminating Scythe in its Illuminating group; no drop or vendor source was seen in the excerpt'. Keep the 1656-coin row (stores.json:13190, item 48134, category 207) as an unplaced price record, as the answer already does."}]}

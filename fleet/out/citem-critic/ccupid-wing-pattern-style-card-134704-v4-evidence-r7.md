@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccupid-wing-pattern-style-card-134704-v4-evidence-r7 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[3631, 11620, 6, 1086] model=claude-haiku-5-5 -->
+# Cupid Wing Pattern Style Card
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].where / sources[0].detail", "issue": "The coin_shop source has no vendor, zone or stock row, so the source is a price row with no seller. The answer says so honestly in open, but the detail should not read as a finished coin-shop acquisition.", "fix": "Keep the price as the evidence (stores.json lines 756-759: item 2849, category 146, purchase 540, member 486, sell null, no_sale true). Mark the vendor as unknown rather than implying a shop listing. Verified: lines 756-759 match the claimed values exactly."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbow-sling-67356-v3-evidence-r5 status=done turns=2 usd=0.0014 tokens(read,write,in,out)=[4331, 5737, 6, 1258] model=claude-haiku-5-5 -->
+# Bow Sling
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The 'rare collection' qualifier is copied from the Archer Magical Bow Essences paragraph (\"Archer Materials <rare collection> in dungeons\"). The Archer Bow Materials paragraph on the same wiki page says only \"clicking on Archer Materials in dungeons, found only while in the Archer job\" and does not mark the node as rare. The source is correct on the acquisition method but overstates the node type.", "fix": "Drop 'rare collection' from the detail. Use: 'Archer Materials node clicked in dungeons while on the Archer job' (wiki 'Archer Magical Bow Essences', Archer Bow Materials paragraph, quest-lines/item-packs.json:23927)."}]}

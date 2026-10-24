@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-valiant-guardian-breeches-pl-valiant-guardian-breeches-135700-v3-evidence-r5 status=done turns=2 usd=0.0013 tokens(read,write,in,out)=[3824, 5861, 6, 995] model=claude-haiku-5-5 -->
+# {n}Valiant Guardian Breeches{pl="Valiant Guardian Breeches"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "client_definition / evidence[0]", "issue": "The answer says '31 definitions (ids 46700-46713 range in the pack)', but the pack lists only 12 definition_ids (46700-46704, 46707-46713). The count of 31 is not reconciled with the id list, so the definition count is unsupported as stated.", "fix": "Report the definition_ids actually present in the pack (12 ids: 46700-46704, 46707-46713) or state that the 31-definition count comes from a different field; the pack's own 'definitions: 31' value is the only source for 31."}]}

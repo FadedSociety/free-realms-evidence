@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=coni-shoulderguard-30525-v6-world-r8 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4392, 7869, 6, 1256] model=claude-haiku-5-5 -->
+# Oni Shoulderguard
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open (coin price)", "issue": "The answer calls coin price 1761 an 'unsourced price tier'. It is sourced: the client definition's coin_store_prices is [1761], and stores.json rows 2709, 3197 and 3218 (item_id 9286, 10893, 10934) carry purchase_price_coins 1761 with no_sale true. The wording should say it is a recorded coin price with no sale, not an unsourced figure.", "fix": "Describe 1761 as the client coin_store_prices value and stores.json purchase_price_coins (category 106, no_sale true, member price 1584), not offered for sale; not a verified vendor or sale source. Cite client definition and stores.json:2709, 3197, 3218."}]}

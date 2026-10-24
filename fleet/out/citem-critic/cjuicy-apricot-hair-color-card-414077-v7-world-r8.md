@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cjuicy-apricot-hair-color-card-414077-v7-world-r8 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4171, 6887, 6, 1095] model=claude-haiku-5-5 -->
+# Juicy Apricot Hair Color Card
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer says store row 35972 is 'no_sale=true' and 'names no item', which is accurate, but it leaves the 180-coin figure partly resting on an inferred id match. The answer handles this honestly by keeping it out of sources, so this is a note, not a failure.", "fix": "No change required. Repo stores.json:7905 confirms item_id 35972, category 142, purchase 180, member 162, sell null, no_sale true, source_tags L1, L2, L4, R2, L3, L3. Client locale:414077 is the only name hit for 'Juicy Apricot' outside the flagged locale:429663 fragment."}]}

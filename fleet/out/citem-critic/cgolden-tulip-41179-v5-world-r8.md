@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgolden-tulip-41179-v5-world-r8 status=done turns=3 usd=0.0015 tokens(read,write,in,out)=[8332, 6909, 8, 1088] model=claude-haiku-5-5 -->
+# Golden Tulip
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[2] / open", "issue": "The stores.json row for 41179 (line 12578) also carries source_tags [\"L1\",\"L2\",\"L4\",\"R2\",\"T633\",\"R1\"], which the answer never mentions. Its schema is not documented in the repo (source_tags elsewhere in the repo is a map of string to string, in fishing, harvest_nodes and collections). The tags could be a source hint, so the answer should say they exist and are unexplained, not leave them out.", "fix": "Cite stores.json:12578 with its source_tags array and state that the meaning of the L/R/T tags is undocumented, so they are not read as a seller or reward source. Keep sources empty and wireable false unless a tag is decoded."}]}

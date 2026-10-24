@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstone-bridge-31504-v8-world-r8 status=done turns=2 usd=0.0023 tokens(read,write,in,out)=[4788, 12051, 6, 1502] model=claude-haiku-5-5 -->
+# Stone Bridge
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0] marketplace corroboration", "issue": "The answer cites only wiki 8625 line 31 and undated list 2242 line 229 for SC 157. Two more wiki pages also list 'Stone Bridge {{SC|157}}' (8623-50087 line 26 and 8615-50082 line 25). They corroborate the same figure, so no new source is added and nothing is wrong, but the evidence is understated.", "fix": "Add freerealms-wiki/wikitext/8623-50087-e07a869f0e80.wiki line 26 and freerealms-wiki/wikitext/8615-50082-d07e4eafbdd8.wiki line 25 as further SC 157 listings (same undated, unsplit figure). Confidence on the SC 157 price is still limited by the lack of dates."}]}

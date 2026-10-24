@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-mountaintop-miner-gloves-pl-mountaintop-miner-gloves-133184-v4-world-r8 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4198, 5129, 6, 994] model=claude-haiku-5-5 -->
+# {n}Mountaintop Miner Gloves{pl="Mountaintop Miner Gloves"}
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[0].detail", "issue": "The wiki Boddington Sells section does list '[Mountaintop] [Miner] [Gloves]' alongside the Long Wall and Mountaintop pieces, so the vendor listing is supported. The '(Miner Job merchant)' descriptor is not confirmed by any text I could retrieve.", "fix": "Keep the vendor source as a listing with no price (price null). Drop the 'Miner Job merchant' descriptor unless a source names it. The wiki Sells list (Boddington, rev 2025-03-14) is the only evidence."}]}

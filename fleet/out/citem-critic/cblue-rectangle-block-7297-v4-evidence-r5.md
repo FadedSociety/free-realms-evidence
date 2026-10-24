@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cblue-rectangle-block-7297-v4-evidence-r5 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3748, 8406, 6, 1296] model=claude-haiku-5-5 -->
+# Blue Rectangle Block
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor omission: the Coin Shop frame (video:Ih74NMrp7F0/02044) also lists 'Yellow [Rectangle] [Block] 300 coins', a 300-coin rectangle block. Tint group 2 row 7462 is also 300 coins, so the answer's reasoning that 7462 may be a different colour is incomplete. It does not show 7462 is Yellow, so the item stays unattributed; the open note should mention the Yellow frame as a competing 300-coin candidate.", "fix": "Add to open: 'Coin Shop frame video:Ih74NMrp7F0/02044 shows Yellow [Rectangle] [Block] at 300 coins; this does not identify 7462 as Yellow or Blue.'"}]}

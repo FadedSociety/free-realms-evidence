@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cfast-forward-cleats-404035-v4-evidence-r7 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[4117, 7038, 6, 1262] model=claude-haiku-5-5 -->
+# Fast Forward Cleats
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence[4]", "issue": "The answer correctly leaves the 375/750 coin_store_prices unattached, but it does not say that the pack's only price fields are on the client definition and no evidenced seller exists. Fine as an honest unknown; a builder should not read 375 or 750 as this item's price.", "fix": "No change needed to the sources. Keep the prices as unresolved: client definition coin_store_prices [375, 750] (pack client_definition), with no stores.json row for definitions 61605-61618 (repo search, no match)."}]}

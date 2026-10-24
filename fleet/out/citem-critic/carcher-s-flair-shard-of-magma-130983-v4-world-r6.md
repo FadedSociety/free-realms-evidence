@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=carcher-s-flair-shard-of-magma-130983-v4-world-r6 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[4055, 5257, 6, 946] model=claude-haiku-5-5 -->
+# Archer's Flair Shard of Magma
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence", "issue": "The answer is honest that no source names Archer's Flair Shard of Magma. I confirmed this: the wiki Coin Shop and Items pages list Archer's flair shards only under other names (Autumn, Ice, Smoldering, Spores), and lookup finds Magma only in client locale entries. No source is wrongly attached, so the answer holds.", "fix": "Optional: cite the wiki Items page '[Flair] Shards' section (Archer's Shard of Autumn/Ice/Smoldering/Spores) as evidence that Archer's flair shards are a sold family, with an explicit note that Magma is absent from that list. Do not attach stores.json row 75239 (unnamed, price shared by six neighbouring rows)."}]}

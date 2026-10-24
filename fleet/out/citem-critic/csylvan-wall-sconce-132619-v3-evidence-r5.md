@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csylvan-wall-sconce-132619-v3-evidence-r5 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[4139, 6833, 6, 1238] model=claude-haiku-5-5 -->
+# Sylvan Wall Sconce
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 3, "problems": [{"field": "sources[0].price", "issue": "The sell-back figure of 100 coins is stated as a plain fact beside the purchase price. The row's sell_price_coins is a reconstruction under the T633 rule, max(1, purchase // 10), not a shipped client or captured value. Notes/Research/Coin Shop.md lines 33-40 say no client source cites a resale value.", "fix": "Keep the 1000-coin purchase and 900-coin member price, both taken from stores.json line 11878, and label sell-back 100 as a derived T633 reconstruction (max(1, Cost // 10)), not evidenced. Also note the 1000 price itself is the unverified Cost-to-coin mapping, which the answer already says in its detail and open fields."}]}

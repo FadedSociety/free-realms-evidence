@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cprismatic-beam-saber-31658-v5-world-r6 status=done turns=6 usd=0.0062 tokens(read,write,in,out)=[97704, 31321, 14, 2643] model=claude-haiku-5-5 -->
+# Prismatic Beam Saber
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[0].price / evidence[1]", "issue": "Minor: the 315 SC figure in the older revision (freerealms-wiki/wikitext/2242-43382-0a935accf24e.wiki line 448) is confirmed as written, and the current wiki (4055-47367 line 7) confirms 349 regular / 314 Members. The answer correctly treats 349/314 as current, but the date of the change is undated, which the answer already states. No fix needed beyond keeping the conflict flagged.", "fix": "No change required. Keep the 349/314 Station Cash Marketplace source (wiki rev 47367 line 7) as the evidenced price, with the 315 line (rev 43382 line 448) recorded as an older conflicting value of unknown date."}]}

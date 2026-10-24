@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbiting-mongoose-cowl-435-v3-evidence-r5 status=no_submit turns=2 usd=0.0018 tokens(read,write,in,out)=[4416, 9262, 6, 1232] model=claude-haiku-5-5 -->
+# Biting Mongoose Cowl
+
+{"lens": "evidence", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "sources[].detail", "issue": "The 'legacy CoinStoreItems category 101' label is repeated in both coin sources, but the pack does not show what category 101 means. I checked the stores.json rows and they carry category_id 101, which matches the label, but nothing I checked confirms that category 101 is the CoinStoreItems table or that it is the cowl's store category.", "fix": "Keep the rows as stated, since they match stores.json lines 406 and 4712 (item 1103 tint 1 at 358/322/35; item 19598 tint 3 at 358/322/35). Either cite the source for the category name or drop the 'CoinStoreItems' gloss and say only 'store category_id 101'."}]}

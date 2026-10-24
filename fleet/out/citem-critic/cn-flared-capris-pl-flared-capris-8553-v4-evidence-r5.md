@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-flared-capris-pl-flared-capris-8553-v4-evidence-r5 status=done turns=6 usd=0.0022 tokens(read,write,in,out)=[31493, 8582, 14, 1605] model=claude-haiku-5-5 -->
+# {n}Flared Capris{pl="Flared Capris"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[3]/open[1]", "issue": "The answer says the stores id space is 'appears to' be the definition id space and asks for confirmation. The repo notes already settle it: notes/Research/Coin Shop.md line 31 says ClientItemDefinitions.json matches all 17,198 CoinStoreItems ids, so stores item_id 8553 is definition 8553, not this item's 12 definition ids (396, 919-923, 2186, 16603-16607). The row should be rejected outright, citing that note, rather than left as an open candidate."}]}

@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csubsurface-miner-kerchief-133203-v4-evidence-r5 status=done turns=3 usd=0.0027 tokens(read,write,in,out)=[15755, 12965, 8, 1898] model=claude-haiku-5-5 -->
+# Subsurface Miner Kerchief
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open / evidence", "issue": "The answer says the 1276-coin figure has no named shop, but the client definition for 76195 itself carries coin_store_prices [1276] (evidence pack client_definition). The answer cites only stores.json and does not mention this client-side coin-store price. It is still not a sourced sale, so leaving it out of sources is defensible, but the evidence list is incomplete.", "fix": "Add to evidence: client definition 76195 lists coin_store_prices [1276]; no shop or NPC is named for it in the pack, so it stays out of sources until a shop is identified. Keep it as an open item, not a coin_shop source."}]}

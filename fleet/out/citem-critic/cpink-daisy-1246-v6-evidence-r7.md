@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cpink-daisy-1246-v6-evidence-r7 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3744, 4768, 6, 1044] model=claude-haiku-5-5 -->
+# Pink Daisy
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open[5]", "issue": "The correction cites locale:2829529013, locale:3706468573 and locale:4178400995 as earlier-draft ids. The automatic check confirms none exist. Naming nonexistent ids in the record is noise and could mislead a builder who searches for them. The claim that they were removed is correct, but the ids should not appear at all.", "fix": "Delete the correction line from open. If it is kept, state only that an earlier draft cited non-existent locale ids, with no ids listed. Nothing in the record depends on them."}]}

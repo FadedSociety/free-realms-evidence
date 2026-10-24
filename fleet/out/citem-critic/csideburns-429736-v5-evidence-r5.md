@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=csideburns-429736-v5-evidence-r5 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3931, 7106, 6, 1065] model=claude-haiku-5-5 -->
+# Sideburns
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The Coin Shop lead (Sideburns Facial Hair Card, 243 coins, video:1xtVveaQ3XI/00124.jpg) is correctly kept out of sources, but the answer's open note could be read as presuming the card unlocks definition 77528. Nothing in the pack links them.", "fix": "Keep the card price as an unlinked lead only. Do not attribute 243 coins to item 77528 until a card-to-definition mapping (card item id in stores.json or a use-item record) is found. I re-checked locale:414705 = 'Sideburns Facial Hair Card' and the video frame text; both match the pack."}]}

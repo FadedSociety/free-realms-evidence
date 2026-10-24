@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=call-star-demo-derby-helmet-28504-v3-evidence-r5 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[3723, 8547, 6, 1269] model=claude-haiku-5-5 -->
+# All-Star Demo Derby Helmet
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer checks the Demo Derby rank-reward idea only by name matching. It does not mention the client's 'Demo Derby Driver: Level 4 / Level 8 / Level 12' rows (locale 34080, 34081, 34082), which are the most direct lead for a rank-tiered reward. They are unchecked, not evidence of a reward, so the answer's unknown status still holds.", "fix": "Add to open: check locale 34080-34082 ('Demo Derby Driver: Level 4/8/12') against the Demo Derby rank reward source; no wiki, article or video source names this helmet, so no source can be listed yet."}]}

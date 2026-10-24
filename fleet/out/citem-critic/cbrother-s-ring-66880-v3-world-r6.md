@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cbrother-s-ring-66880-v3-world-r6 status=done turns=2 usd=0.0010 tokens(read,write,in,out)=[3782, 4471, 6, 771] model=claude-haiku-5-5 -->
+# Brother's Ring
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The answer is honest that no acquisition route is evidenced. My checks agree: the wiki 'List of Collections' page shows a '[Family] [Rings]' entry, and locale 132417 names the 'Family Rings Collection', but no vendor, quest, drop, event or price row names Brother's Ring. The repo collection_catalogue (line 12225) and collections.json (line 9902) only map the item into the collection.", "fix": "No change needed. Keep sources empty, retired null and live 'unsure' until a wiki page, vendor row or quest reward names the ring. Collection membership is category evidence only."}]}

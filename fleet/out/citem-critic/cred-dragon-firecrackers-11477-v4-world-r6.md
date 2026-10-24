@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cred-dragon-firecrackers-11477-v4-world-r6 status=done turns=2 usd=0.0018 tokens(read,write,in,out)=[3920, 9587, 6, 1042] model=claude-haiku-5-5 -->
+# Red Dragon Firecrackers
+
+{"lens": "world", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "The open list includes internal critique bookkeeping ('Critique fixes applied: ...') rather than a substantive unknown. It does not change the answer.", "fix": "Drop the 'Critique fixes applied' entry from open; keep the unknowns (no evidenced acquisition, pack price unknown, retirement unknown, live unsure)."}, {"field": "evidence[2]", "issue": "The claim that the Series 1 Virtual Rewards heading sits on line 16 and the 1L38 entry on line 17 checks out against the wiki file (line 17 holds 'Cards #52 to 101 are in virtual Booster Packs only' followed by the card list). Consistent with the answer. No world-lens conflict found.", "fix": "None needed."}]}

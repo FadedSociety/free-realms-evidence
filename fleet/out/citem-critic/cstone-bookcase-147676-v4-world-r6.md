@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cstone-bookcase-147676-v4-world-r6 status=done turns=3 usd=0.0025 tokens(read,write,in,out)=[15615, 12520, 8, 1556] model=claude-haiku-5-5 -->
+# Stone Bookcase
+
+{"lens": "world", "pass": true, "wireable": true, "score": 4, "problems": [{"field": "open / evidence", "issue": "Minor omission: the evidence pack lists the client definition's coin_store_prices as [50], which matches the unattributed stores.json row 36477 (50 coins, no_sale true). The answer mentions the 50-coin row but never says the client definition itself carries that 50-coin price. This is a conflict to disclose, not a wrong source.", "fix": "Note in open that the client definition 36477 carries coin_store_prices [50] (pack client_definition), matching stores.json:11948, so the coin price is unresolved between SC 22 and 50 coins. Do not list either as a confirmed vendor source."}]}

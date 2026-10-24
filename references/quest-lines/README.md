@@ -51,12 +51,12 @@ survivors.
 
 | File | Unit | Final | Wireable | How it ran | Notes |
 |---|---|---|---|---|---|
-| `schedules.json` | live-or-unsure event answer (488) | 433 | 168 | API, `--domain schedule`, lenses evidence/calendar, $5.57 | schedule rows for the T462 scheduler: season window, slots, original dates, zones, what runs, revival recurrence |
-| `quests.json` (rerun) | the 157 quests that never went final | 831 of 912 (was 755) | | API, `augment_open_quests.py` then rounds 13-20, $4.74 | packs gained the later NPC, dialog, item and event answers |
-| `catalogue.sqlite` | client item name not in `items.json` (11,654 of 12,654 names from 58,835 definitions) | 11,582 Jev-tagged | | Jev, `item_catalogue.py`, about $0.30 | live / kind / source guess / flag; 821 not live, 1,108 flagged |
-| `citems.json` | Jev survivor with any evidence (9,752) | 8,608 | 4,471 | API, `--domain citem`, 4 rounds, $106.42 | sources: vendor 2,725, Coin Shop 1,637, collection 725, prize wheel 443, Marketplace 195, drop 89, promotion 65 |
+| `schedules.json` | live-or-unsure event answer (488) | 458 | 175 | API, `--domain schedule`, lenses evidence/calendar, 8 rounds, about $6 | schedule rows for the T462 scheduler: season window, slots, original dates, zones, what runs, revival recurrence |
+| `quests.json` (rerun) | the 157 quests that never went final | 837 of 912 (was 755) | | API, `augment_open_quests.py` then rounds 13-22, about $5.50 | packs gained the later NPC, dialog, item and event answers |
+| `catalogue.sqlite` | client item name not in `items.json` (11,654 of 12,654 names from 58,835 definitions) | 11,594 Jev-tagged (60 never parse) | | Jev, `item_catalogue.py`, about $0.30 | live / kind / source guess / flag; 821 not live, 1,108 flagged |
+| `citems.json` | Jev survivor with any evidence (9,752) | 9,476 (148 open, 128 unanswered) | 4,834 | API, `--domain citem`, 8 rounds, about $112 | sources: vendor 2,943, Coin Shop 1,821, collection 768, prize wheel 561, Marketplace 260, drop 103 |
 | `citem-nofind.json` | survivor with no evidence beyond its name (419) | | | none | kept with Jev's tag only |
 
 The test sweep (`lab/fleet/pins.py`: Jev screened 7,124 asserts, Haiku confirmed per file, $0.47) found 284 tests
 pinning tunable gameplay numbers; reports in `lab/reports/pin-audit-20261024/`, fix briefs T645-T652.
-Total API spend after these passes: about $286 (ceiling $310).
+Total API spend after these passes and the leftover rounds: about $294 (ceiling $310).

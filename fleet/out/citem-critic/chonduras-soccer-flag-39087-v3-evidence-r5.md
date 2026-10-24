@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=chonduras-soccer-flag-39087-v3-evidence-r5 status=done turns=2 usd=0.0016 tokens(read,write,in,out)=[3927, 8380, 6, 1068] model=claude-haiku-5-5 -->
+# Honduras Soccer Flag
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "item.kind", "issue": "'furniture' is stated as the item kind in the item block, but the answer's own open list says it is a guess from the first-pass tag and the model name. The client definition only gives slot 0 and class 0, which do not confirm furniture.", "fix": "Set kind to unknown (or mark it as a guess) until a client slot/class or category source confirms it. Locale 39087 and definition 16736 are verified in the pack; the coin price 50 matches the client definition's coin_store_prices."}]}

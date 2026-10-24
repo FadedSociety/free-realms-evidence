@@ -1356,6 +1356,26 @@
     "key": "q3050018",
     "title": "Chef: Queensfields",
     "live": "unsure"
+   },
+   {
+    "key": "q3050019",
+    "title": "Chef: Meet the Reputable Bordon Cloo",
+    "live": "unsure"
+   },
+   {
+    "key": "q3050020",
+    "title": "Chef: Reach Level 5",
+    "live": "yes"
+   },
+   {
+    "key": "q3050021",
+    "title": "Chef: Learning to Crave the Flave",
+    "live": "yes"
+   },
+   {
+    "key": "q3050022",
+    "title": "Chef: Roasted Mysteries",
+    "live": "unsure"
    }
   ]
  },
@@ -1366,6 +1386,11 @@
     "key": "q3050009",
     "title": "Chef: Queensfields",
     "live": "unsure"
+   },
+   {
+    "key": "q3050010",
+    "title": "Chef: Crazy Craving",
+    "live": "yes"
    }
   ]
  },
@@ -1421,12 +1446,12 @@
     "key": "q3050018",
     "title": "Chef: Queensfields",
     "live": "unsure"
-   }
-  ]
- },
- {
-  "name": "Chef questline (Main series, band 1: level 1 to 5)",
-  "quests": [
+   },
+   {
+    "key": "q3050019",
+    "title": "Chef: Meet the Reputable Bordon Cloo",
+    "live": "unsure"
+   },
    {
     "key": "q3050020",
     "title": "Chef: Reach Level 5",
@@ -1910,6 +1935,16 @@
   ]
  },
  {
+  "name": "Fisherman (Vick Sapshot campground chain, Sacred Grove Shallows); order not confirmed",
+  "quests": [
+   {
+    "key": "q3070014",
+    "title": "Fisherman: Picky Palettes",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
   "name": "Fisherman job quest line, Cluster C (Vick Sapshot and Callie Kelpcake)",
   "quests": [
    {
@@ -1970,6 +2005,16 @@
    {
     "key": "q3070023",
     "title": "Fisherman: Undercover",
+    "live": "unsure"
+   }
+  ]
+ },
+ {
+  "name": "Fisherman (Briarwood Cluster E: Dooba, Estelle and Darklit Lagoon)",
+  "quests": [
+   {
+    "key": "q3070026",
+    "title": "Fisherman: Dooba's Secret",
     "live": "unsure"
    }
   ]
@@ -2953,34 +2998,9 @@
     "live": "unsure"
    },
    {
-    "key": "q3120021",
-    "title": "Pet Trainer: Amaze Me",
+    "key": "q3120020",
+    "title": "Pet Trainer: Achieve Level 20",
     "live": "unsure"
-   },
-   {
-    "key": "q3120022",
-    "title": "Pet Trainer: Down by the Bay",
-    "live": "yes"
-   },
-   {
-    "key": "q3120023",
-    "title": "Pet Trainer: Shake Your Groove Thing",
-    "live": "unsure"
-   },
-   {
-    "key": "q3120024",
-    "title": "Pet Trainer: Seek the Master",
-    "live": "yes"
-   },
-   {
-    "key": "q3120025",
-    "title": "Pet Trainer: Nearly Departed",
-    "live": "yes"
-   },
-   {
-    "key": "q3120026",
-    "title": "Pet Trainer: Show Off!",
-    "live": "yes"
    }
   ]
  },
@@ -4935,6 +4955,16 @@
    {
     "key": "wthe-master-s-components",
     "title": "The Master's Components",
+    "live": "yes"
+   }
+  ]
+ },
+ {
+  "name": "Merry Vale Shaggy Mysterychaser series (client dev labels 'SGRevamp - Wilds South - 4-1 to 4-5')",
+  "quests": [
+   {
+    "key": "wthe-mystery-cavern",
+    "title": "Confront the Cultists",
     "live": "yes"
    }
   ]

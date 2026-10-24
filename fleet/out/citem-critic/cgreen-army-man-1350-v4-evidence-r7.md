@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cgreen-army-man-1350-v4-evidence-r7 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[3788, 4367, 6, 987] model=claude-haiku-5-5 -->
+# Green Army Man
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "sources[1]", "issue": "The Robgoblin spawn is a set-level spawn for the whole Army Men collection, but it is listed as a source row for Green Army Man. The answer's own open note says it is not confirmed as a drop of this piece. Keeping it as a per-item source row overstates the evidence; it should be recorded as set context, not an acquisition source.", "fix": "Drop the sources[1] row for this item, or mark it as set-level context only. Evidence: refs freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki lines 5-7 (area Southern Wilds, spawn Robgoblin) apply to the set as a whole."}]}

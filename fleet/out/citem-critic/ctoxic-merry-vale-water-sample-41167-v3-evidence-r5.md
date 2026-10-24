@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ctoxic-merry-vale-water-sample-41167-v3-evidence-r5 status=done turns=2 usd=0.0020 tokens(read,write,in,out)=[4234, 11176, 6, 1097] model=claude-haiku-5-5 -->
+# Toxic Merry Vale Water Sample
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1]", "issue": "The answer says the link from definition 3951 to the collection sentence (locale 132380) is 'not shown in the pack'. The pack's client_definition.description for definition 3951 already reads 'This item can be added to the Merry Vale Water Samples Collection', so the attachment is shown, though only as a description string, not as a collection record.", "fix": "State that definition 3951's description field carries locale 132380 text naming the Merry Vale Water Samples Collection (locale 7772). Collection membership is evidenced as a note only; the collection's member list is still unenumerated."}]}

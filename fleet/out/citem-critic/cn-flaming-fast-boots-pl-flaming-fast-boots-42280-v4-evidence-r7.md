@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-flaming-fast-boots-pl-flaming-fast-boots-42280-v4-evidence-r7 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[4088, 9361, 6, 1341] model=claude-haiku-5-5 -->
+# {n}Flaming Fast Boots{pl="Flaming Fast Boots"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[0].source", "issue": "The source string cites locale:150507, which the automatic id check flags as placeholder text ('This is a ... item.'). The claim says it is excluded, but it still sits in the source list of a live-evidence entry. It is not evidence and should not be cited as a source.", "fix": "Cite only locale:42280 (verified in the client: '{n}Flaming Fast Boots{pl=\"Flaming Fast Boots\"}', description 'Hand crafted at ridiculous speeds.'). Drop locale:150507 from the source list, or mark it as rejected placeholder text in a separate note."}]}

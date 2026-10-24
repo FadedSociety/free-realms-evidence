@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=ccallahan-s-mystical-necklace-86712-v5-evidence-r7 status=done turns=2 usd=0.0011 tokens(read,write,in,out)=[4228, 5088, 6, 866] model=claude-haiku-5-5 -->
+# Callahan's Mystical Necklace
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[4].claim", "issue": "The automatic id check flags locale:9442 as a flagged (not_live, DEPRECATED) id cited in an evidence claim. The claim says it was removed from evidence, but it still names the id inside the evidence list, so a builder could read it as support.", "fix": "Drop the locale:9442 mention from the evidence list entirely, or move it to a separate 'excluded' note. Keep only locale:9472 (Mystical Scroll Buff) as naming overlap, which is not acquisition evidence."}]}

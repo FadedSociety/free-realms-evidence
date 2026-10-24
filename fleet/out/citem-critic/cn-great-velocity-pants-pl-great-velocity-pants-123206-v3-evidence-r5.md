@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-great-velocity-pants-pl-great-velocity-pants-123206-v3-evidence-r5 status=done turns=2 usd=0.0012 tokens(read,write,in,out)=[3950, 4866, 6, 1101] model=claude-haiku-5-5 -->
+# {n}Great Velocity Pants{pl="Great Velocity Pants"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "evidence[1].source", "issue": "The automatic id check flags locale:123201 (Great Velocity Shoes) as a FLAGGED dev_note with raw markup. The claim cites it as evidence, even though it is only used to exclude a sibling. A flagged string should not appear as a source in the evidence list.", "fix": "Drop locale:123201 from the source list. Keep only the unflagged siblings (locale:123200 Jersey, locale:123202 Gloves, locale:123203 Helmet, all confirmed by my lookup). If the shoe exclusion is kept, state it as a note, not as evidence. Client-name locale:123206 confirmed as '{n}Great Velocity Pants{pl=...}', unflagged."}]}

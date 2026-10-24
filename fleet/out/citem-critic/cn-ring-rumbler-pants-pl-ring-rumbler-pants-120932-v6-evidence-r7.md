@@ -1,0 +1,4 @@
+<!-- fleet job=citem-critic id=cn-ring-rumbler-pants-pl-ring-rumbler-pants-120932-v6-evidence-r7 status=done turns=2 usd=0.0015 tokens(read,write,in,out)=[3988, 7656, 6, 1039] model=claude-haiku-5-5 -->
+# {n}Ring Rumbler Pants{pl="Ring Rumbler Pants"}
+
+{"lens": "evidence", "pass": true, "wireable": false, "score": 4, "problems": [{"field": "open", "issue": "Minor: the answer states the vendor is unconfirmed but does not say that category 104 is the only category used by the 40933/40938/40943 rows, nor that 40932 (618, category 101) and 40937/40942 (9453, category 101) share the same price tier. The shared-tier point is correct, but the category split is not explained.", "fix": "Add: stores.json:12538 (40932, cat 101, 618) and :12540, :12542 (40937, 40942, cat 101, 9453) show the same prices in a different category, so category alone does not identify the pants' slot or shop. Source: repo stores.json lines 12538-12543."}]}

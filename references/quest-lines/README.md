@@ -60,3 +60,15 @@ survivors.
 The test sweep (`lab/fleet/pins.py`: Jev screened 7,124 asserts, Haiku confirmed per file, $0.47) found 284 tests
 pinning tunable gameplay numbers; reports in `lab/reports/pin-audit-20261024/`, fix briefs T645-T652.
 Total API spend after these passes and the leftover rounds: about $294 (ceiling $310).
+
+## Wiring aids (2026-10-24/25, no API spend)
+
+- `wiring-coverage.json` (`quests/wiring_coverage.py`): what data/content already holds per domain.
+- `wiring/` (`quests/wiring_lists.py`): zone-quest lists (shipped-but-disabled quests the answers call live or unsure),
+  item-source lists by type, `seasons.json`; `wiring/zone-quests-matched/` (`quests/npc_match.py`): quests whose givers
+  and talk/deliver targets already sit in our NPC rows (114 more wireable).
+- `objective-specs.json` (`quests/objective_specs.py`, Jev $1.33 plus local resolvers, `objectives.sqlite`): the 1,260
+  objectives of the 603 final quests with client ids, drafted in the server's objective schema. 185 quests resolve
+  completely; resolved per kind: job_level 45/45, talk_to_npc 322/476, finish_minigame 75/155 (client MiniGameData.txt),
+  gather_resource 58/135 (item ids), defeat 41/108, visit_position 36/156, craft_recipe 15/35, client_reported 0/107
+  (needs decompiled trigger ids). Drafts: verify counts and targets against the client text.

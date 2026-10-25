@@ -1,0 +1,559 @@
+{
+ "zone": "Wugachug",
+ "quests": [
+  {
+   "quest_id": 3040001,
+   "record": "quest-lines/quests.json q3040001",
+   "title": "Pick a Card, any Card",
+   "giver": {
+    "name": "Shifty the Shuffler",
+    "npc_id": "9000000198",
+    "locale_id": 74095
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Shifty has sent you to see Sam Potts in Sanctuary to become a card duelist.",
+     "text_locale_id": 383071,
+     "target": "Sam Potts",
+     "target_locale_id": 74093,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (optional entry)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040019,
+   "record": "quest-lines/quests.json q3040019",
+   "title": "Card Duelist: Misplaced Deck",
+   "giver": {
+    "name": "Shifty the Shuffler",
+    "npc_id": "9000000198",
+    "locale_id": 74095
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Pick up cards along the main path in Wugachug.",
+     "text_locale_id": 104201,
+     "target": "Collect cards along the path",
+     "target_locale_id": 104200,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Oggy",
+     "text_locale_id": 104202,
+     "target": "Oggy",
+     "target_locale_id": 15923,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to the Sasparilla Brewmaster",
+     "text_locale_id": 104206,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Shifty the Shuffler arc)",
+    "previous": [
+     "Card Duelist: Shifty Dealings"
+    ],
+    "next": [
+     "Card Duelist: Squash the Shuffler"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104208,
+     "speaker": "Shifty the Shuffler"
+    },
+    "progress": {
+     "locale_id": 104203,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 104211,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040020,
+   "record": "quest-lines/quests.json q3040020",
+   "title": "Card Duelist: Squash the Shuffler",
+   "giver": {
+    "name": "Sasparilla Brewmaster Wugawump",
+    "npc_id": null,
+    "locale_id": 41237
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Sasparilla Brewmaster Wugawump",
+     "text_locale_id": 104227,
+     "target": "Sasparilla Brewmaster Wugawump",
+     "target_locale_id": 41237,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Challenge Shifty the Shuffler to a match using his Tournament Deck.",
+     "text_locale_id": 104225,
+     "target": "Shifty the Shuffler",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Let the Brewmaster know that you've beaten Shifty the Shuffler!",
+     "text_locale_id": 104228,
+     "target": "Sasparilla Brewmaster Wugawump",
+     "target_locale_id": 41237,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unknown. The offer text says Shifty's cards may be won, but no reward item, coin or XP is sourced.",
+     "source": "locale:104229"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist job line (Wugachug part)",
+    "previous": [
+     "Card Duelist: Misplaced Deck"
+    ],
+    "next": [
+     "Card Duelist: Parcel Recovery"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104229,
+     "speaker": "Sasparilla Brewmaster Wugawump"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104232,
+     "speaker": "Sasparilla Brewmaster Wugawump"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040021,
+   "record": "quest-lines/quests.json q3040021",
+   "title": "Card Duelist: Parcel Recovery",
+   "giver": {
+    "name": "Postchug Runalug",
+    "npc_id": "9000000172",
+    "locale_id": 104244
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Postchug Runalug",
+     "text_locale_id": 104244,
+     "target": "Postchug Runalug",
+     "target_locale_id": 104244,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Postchug Runalug can be found within Wugachug.",
+     "text_locale_id": 104245,
+     "target": "Wugachug",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Jammie Swiftsong",
+     "text_locale_id": 104246,
+     "target": "Jammie Swiftsong",
+     "target_locale_id": 104246,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Jammie Swiftsong can be found in Seaside near the Ocean Treasures Cafe.",
+     "text_locale_id": 104247,
+     "target": "Seaside",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Jammie's Trick Deck",
+     "text_locale_id": 104248,
+     "target": "Jammie Swiftsong",
+     "target_locale_id": 104246,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no reward text found in the client or pack",
+     "source": "repo:notes/Build Guides/Content/Jobs/Card Duelist.md:96 (reward cell 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (Shifty the Shuffler arc)",
+    "previous": [
+     "Card Duelist: Squash the Shuffler"
+    ],
+    "next": [
+     "Card Duelist: Monty Has 'Em All"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 104252,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104255,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3050025,
+   "record": "quest-lines/quests.json q3050025",
+   "title": "Chef: Surprise Me!",
+   "giver": {
+    "name": "Cook Yumtumlot",
+    "npc_id": "9000000061",
+    "locale_id": 41248
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "As a chef, cook Rainleaf Wrapped Dumplings and score 20,000 or higher while cooking at least one.",
+     "text_locale_id": 72245,
+     "target": "Rainleaf Wrapped Dumpling",
+     "target_locale_id": 38660,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Now that you've proven Yumtumlot wrong, speak with her!",
+     "text_locale_id": 72249,
+     "target": "Cook Yumtumlot",
+     "target_locale_id": 41248,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef main series (Cook Yumtumlot / Lucca De'Flor band, levels 10 to 15)",
+    "previous": [
+     "Chef: Chugawhat?"
+    ],
+    "next": [
+     "Chef: The Food Reviewer"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 72240,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 72243,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050026,
+   "record": "quest-lines/quests.json q3050026",
+   "title": "Chef: The Food Reviewer",
+   "giver": {
+    "name": "Cook Yumtumlot",
+    "npc_id": "9000000061",
+    "locale_id": 41248
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Visit Chef Lucca De'Flor in Snowhill. The line is intro dialog, not a quest_objective line, so treat it as unconfirmed.",
+     "text_locale_id": 72536,
+     "target": "Lucca De'Flor",
+     "target_locale_id": 23788,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef main series, band 3 (level 10 to 15)",
+    "previous": [
+     "Chef: Surprise Me!"
+    ],
+    "next": [
+     "Chef: Double Dog Dare"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3080034,
+   "record": "quest-lines/quests.json q3080034",
+   "title": "Kart Driver: Endorsement Deal",
+   "giver": {
+    "name": "Shooblemoot",
+    "npc_id": "9000000463",
+    "locale_id": 394913
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Shooblemoot wants you to endorse Sweetwater Sasparilla as your drink of choice! He has sent you to Wugachug to find Twingnbor, who should have more details on how you are to proceed.",
+     "text_locale_id": 395283,
+     "target": "Twingnbor",
+     "target_locale_id": 41242,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Drink enough Sweetwater Sasparilla to show how much you love your sponsor's product!",
+     "text_locale_id": 395267,
+     "target": "Mug Madness",
+     "target_locale_id": 395266,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the 'Mug Madness' minigame",
+     "text_locale_id": 395435,
+     "target": "Mug Madness",
+     "target_locale_id": 395266,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Sweetwater Sasparilla sponsorship (narrative only; no coins, item or xp found in the pack)",
+     "source": "locale:395281"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver Tier 3 - Thunder Falls Speedway (Sweetwater Sasparilla sponsorship chain)",
+    "previous": [
+     "Kart Driver: Dominating and Thunder Falls"
+    ],
+    "next": [
+     "Kart Driver: Burning Up the Track"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3130020,
+   "record": "quest-lines/quests.json q3130020",
+   "title": "Postman: Jug Clean Up",
+   "giver": {
+    "name": "Postchug Runalug",
+    "npc_id": "9000000172",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Complete the Sasparilla Sprint minigame",
+     "text_locale_id": 130213,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Get those jugs!",
+     "text_locale_id": 130214,
+     "target": "Sweetwater Sasparilla jugs",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Clear the area in Wugachug of Sweetwater Sasparilla jugs.",
+     "text_locale_id": 130212,
+     "target": "Sweetwater Sasparilla jugs",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Postchug Runalug in Wugachug",
+     "text_locale_id": 130217,
+     "target": "Postchug Runalug",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed",
+     "source": "no client or guide source states what this quest pays"
+    }
+   ],
+   "line": {
+    "name": "Postman job line (Band 4 - Wugachug, levels 15 to 20)",
+    "previous": [
+     "Postman: Where's the Sasparilla?"
+    ],
+    "next": [
+     "Postman: Sorting It Out"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 130202,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130205,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3130021,
+   "record": "quest-lines/quests.json q3130021",
+   "title": "Postman: Sorting It Out",
+   "giver": {
+    "name": "Postchug Runalug",
+    "npc_id": "9000000172",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Complete the Wugachug Mail Sorting minigame",
+     "text_locale_id": 130227,
+     "target": "Wugachug Mail Sorting (Postbox)",
+     "target_locale_id": 102036,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Sort at least 120 blue envelopes.",
+     "text_locale_id": 130228,
+     "target": "blue envelopes",
+     "target_locale_id": 130228,
+     "count": 120
+    },
+    {
+     "kind": "talk",
+     "text": "Sort the mail for Postchug Runalug in Wugachug.",
+     "text_locale_id": 130221,
+     "target": "Postchug Runalug",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman job line (Band 4 - Wugachug, levels 15 to 20)",
+    "previous": [
+     "Postman: Jug Clean Up"
+    ],
+    "next": [
+     "Postman: Achieve Level 15"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 130219,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130222,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130022,
+   "record": "quest-lines/quests.json q3130022",
+   "title": "Postman: Achieve Level 15",
+   "giver": {
+    "name": "Postchug Runalug",
+    "npc_id": "9000000172",
+    "locale_id": 41250
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 15 as a postman.",
+     "text_locale_id": 387962,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman job line (Band 4 - Wugachug, guide rows 17-20)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387938,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387940,
+     "speaker": "Postchug Runalug"
+    },
+    "complete": {
+     "locale_id": 387941,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  }
+ ]
+}

@@ -1,0 +1,2931 @@
+{
+ "zone": "Snowhill",
+ "wireable_by_match": [
+  {
+   "quest_id": 3020006,
+   "record": "quest-lines/quests.json q3020006",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Warrior Weapon",
+   "live": "yes",
+   "giver": {
+    "name": "Trixi",
+    "npc_id": "9000000220",
+    "locale_id": 3230
+   },
+   "resolved_giver": {
+    "npc_id": 9000000220,
+    "name": "Trixi",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Forge a Valiant Guardian Cudgel (forge step; ingredients shown at the Forging Anvil)",
+     "text_locale_id": 91134,
+     "target": "Valiant Guardian Cudgel",
+     "target_locale_id": 102171,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Forge a Valiant Guardian Cudgel using the ingredients shown at the Forging Anvil. Chugawug Belt Straps and Wooden Planks can be purchased from Bruno Battlerock. Copper can be made by any Miner.",
+     "text_locale_id": 91135,
+     "target": "Valiant Guardian Cudgel",
+     "target_locale_id": 102171,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring the completed Valiant Guardian Cudgel to Brody Sparfist outside the Singing Crystal Mines",
+     "text_locale_id": 91237,
+     "target": "Brody Sparfist",
+     "target_locale_id": 22436,
+     "count": 1,
+     "resolved_npc": {
+      "npc_id": 9000000033,
+      "name": "Brody Sparfist",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Teaches the Valiant Guardian Cudgel recipe (offer-text inference, not a reward record)",
+     "source": "locale:90790"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 90790,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90793,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: Objectives [0] (91134) and [1] (91135) are the same forge step (91134 is the short name 'Forge A Valiant Guardian Cudgel'; 91135 is its long description with ingredient sources). A builder wiring each",
+    "objectives[0].text_locale_id: The lookup tags locale:91134 as quest_title in one hit, but the answer and evidence pack treat it as an objective. The type is inconsistent across the client text, so the answer's type claim is unveri",
+    "objectives[0].target_locale_id: Target item 'Valiant Guardian Cudgel' has two ids (102171 and 4419897), both type item. The answer picks 102171 without saying why. The guess is reasonable but not justified in the answer.",
+    "previous: The previous quest link is confirmed by the record (blacksmith.json:264-266: id 3020005, title_string_id 90735, giver 9000000206). The answer's open note that the link 'rests on the repo's chain' is o",
+    "giver: The offer text (locale:90790) names Therin as the hirer and gives no speaker; Trixi is the record giver (blacksmith.json:372), which is the basis for the giver claim. That is adequate as a record-base",
+    "rewards: The reward 'Teaches the Valiant Guardian Cudgel recipe' is an inference from the offer text, not a reward record. It is marked as an inference, which is acceptable, but a builder could wire it as a li"
+   ]
+  },
+  {
+   "quest_id": 3020007,
+   "record": "quest-lines/quests.json q3020007",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Bat Fighter",
+   "live": "yes",
+   "giver": {
+    "name": "Brody Sparfist",
+    "npc_id": "9000000033",
+    "locale_id": 22436
+   },
+   "resolved_giver": {
+    "npc_id": 9000000033,
+    "name": "Brody Sparfist",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find and speak with Derp Axemaker, at Dartmoor, southwest of Snowhill.",
+     "text_locale_id": 91305,
+     "target": "Derp Axemaker (Dartmoor)",
+     "target_locale_id": 77270,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000069,
+      "name": "Derp Axemaker",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Derp Axemaker teaches new blacksmith recipes (dialog promise only; no reward record found)",
+     "source": "locale:91267"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 91269,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].target: The target names Derp Axemaker by locale 77270 (verified: 'Derp Axemaker'), but gives no NPC id. The guide's Derp id 3429375594 is a ucdt name hash, not a server npc id, and the answer correctly leave",
+    "dialog / evidence[4]: The speaker of the completion text is left unbound. The guide (Blacksmith.md:92) gives the same line as Derp's reply with a separate id, 3884029517, which the answer does not cite.",
+    "objectives: The progress line 91269 ('Head to Dartmoor to ask for Derp Axemaker's help!') is a separate objective-text entry that the answer lists only as evidence, not as an objective. It is the same step as 913",
+    "objectives[0].text_locale_id: Locale 91305 is tagged with hint 'Derp Axemaker', not 'Bat Fighter'. The answer treats it as this quest's objective without showing that it belongs to 3020007. Its sibling 91302 ('Find the Blacksmith ",
+    "previous: The link 'Warrior Weapon (3020006) next = 3020007' is asserted in chain_notes but was not verified. The answer admits this in its open list. The dossier says 3020006 is built, and record 3020007 lists",
+    "giver / line: Giver Brody (9000000033, locale 22436), zone Snowhill, and the Blacksmith band 1 placement (3020007 then 3020008) are consistent with the repo jobs.json and npcs/snowhill.json entries and with the wik"
+   ]
+  },
+  {
+   "quest_id": 3020008,
+   "record": "quest-lines/quests.json q3020008",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Reach Level 5",
+   "live": "yes",
+   "giver": {
+    "name": "Brody Sparfist",
+    "npc_id": "9000000033",
+    "locale_id": 22436
+   },
+   "resolved_giver": {
+    "npc_id": 9000000033,
+    "name": "Brody Sparfist",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 5 as a blacksmith, then return to Brody Sparfist.",
+     "text_locale_id": 387615,
+     "target": "Blacksmith level 5",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Brody Sparfist",
+     "text_locale_id": 387618,
+     "target": "Brody Sparfist",
+     "target_locale_id": 22436,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000033,
+      "name": "Brody Sparfist",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 387550,
+     "speaker": "Brody Sparfist"
+    },
+    "progress": {
+     "locale_id": 387619,
+     "speaker": "Brody Sparfist"
+    },
+    "complete": {
+     "locale_id": 387553,
+     "speaker": "Brody Sparfist"
+    }
+   },
+   "critic_problems": [
+    "line.previous / line.next: Both chain links rest only on guide row order (Blacksmith.md rows 7 and 9). No record-level prerequisite exists (prerequisite_quest_ids is empty), and the answer already says so. Row 9's title 'Impres",
+    "live: Live status rests on the pack's client listing showing no FLAG on 387551. The answer admits it did not re-read the raw FLAG field. I confirmed the title, objective and return texts exist as stated, bu",
+    "dialog.offer / description: The pack tags 387552 as quest_objective, but the answer calls it a description. This is a labelling difference only; the answer correctly does not use it as an objective.",
+    "line.previous: Previous link 'Blacksmith: Bat Fighter' rests only on guide row order (row 7, 'After 6'). Record 3020008 has no prerequisite_quest_ids, and the row-8 gate is a level requirement, not a quest id. The a",
+    "objectives[0]: Kind 'other' with target null. The level-5 gate is a player-level condition, not a quest objective the builder can wire. Text 387615 checks out ('Reach level 5 as a blacksmith, then return to Brody Sp",
+    "live: Live status rests on absence of FLAG in the pack listing and the guide. The FLAG field was not checked in the raw locale table. Guide row 8 also says 'Client-only; not on the wiki list'. Record enable"
+   ]
+  },
+  {
+   "quest_id": 3150019,
+   "record": "quest-lines/quests.json q3150019",
+   "quest_file": "warrior.json",
+   "title": "Warrior: Asking Old Folks",
+   "live": "unsure",
+   "giver": {
+    "name": "Sir Whittington",
+    "npc_id": "9000000205",
+    "locale_id": 7652
+   },
+   "resolved_giver": {
+    "npc_id": 9000000205,
+    "name": "Sir Whittington",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Silversnow",
+     "text_locale_id": 71485,
+     "target": "Silversnow",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000768,
+      "name": "Silversnow",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Milo",
+     "text_locale_id": 71487,
+     "target": "Milo",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000756,
+      "name": "Milo",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Steele",
+     "text_locale_id": 71489,
+     "target": "Steele",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000208,
+      "name": "Steele",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 71479,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "evidence[8] / objectives[2]: The Steele location line is cited as locale 71490 ('Talk to Steele, who can be found by the Clocktower in Snowhill.'). The client tags 71490 with hint 'Warrior: Steele is Useful', so it belongs to the",
+    "live: Checked: 71479, 71480, 71482, 71485, 71487, 71489, 7652 and 387585 all resolve to the text the answer gives, with no not_live flag in the lookup. The 'unsure' live status is honest and matches the evi",
+    "line.next: Locale 71498 ('Warrior: Steele is Useful') is confirmed as a real title, so the next-link name is real. The order rests on the guide's trainer order (Warrior.md:115), which the answer already flags as",
+    "zone: Zone is set to Snowhill (the locale tag) while the giver Sir Whittington (npc 9000000205) is placed in Sanctuary by the NPC data and the giver dossier. The answer explains the split in its evidence, b",
+    "objectives: Objectives list only the three 'Talk to' titles. The location lines that say where each target is (71486 Silversnow at the northern edge, 71488 Milo on a hilltop, 71490 is actually Steele's line in th",
+    "chain: Next link 3150020 'Warrior: Steele is Useful' is given by Steele (npc 9000000208), not Sir Whittington, which is consistent with the answer. Previous link 3150018 matches the giver dossier and warrior"
+   ]
+  },
+  {
+   "quest_id": 3150020,
+   "record": "quest-lines/quests.json q3150020",
+   "quest_file": "warrior.json",
+   "title": "Warrior: Steele is Useful",
+   "live": "yes",
+   "giver": {
+    "name": "Steele",
+    "npc_id": "9000000208",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000208,
+    "name": "Steele",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Steele, who can be found by the Clocktower in Snowhill.",
+     "text_locale_id": 71490,
+     "target": "Steele",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000208,
+      "name": "Steele",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Collect all the pieces of Fastvi's broken weapon and defeat Chillblaine in Frostfang Caverns (described step, taken from quest_dialog text, not an objective string)",
+     "text_locale_id": 71499,
+     "target": "Chillblaine",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 71497,
+     "speaker": "Steele"
+    },
+    "progress": {
+     "locale_id": 71499,
+     "speaker": "Steele"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1]: The second objective is a described step assembled from quest_dialog 71499 (and 71497), not an objective string. Its target 'Chillblaine' has no NPC id, and the answer's own open list says no string a",
+    "line.next: The answer calls Warrior: Hero in the Making 'probable, not confirmed'. The repo already holds record 3150021 (warrior.json:1131, title locale 71504), and the wiki Warrior page places it directly afte",
+    "giver.locale_id: Steele's name locale id is null. This is an honest unknown, and it does not fail the answer.",
+    "evidence[4]: The claim is cited as 'Previous quest Asking Old Folks (71480)' but the source given is locale:71481, which is the objective text. 71481 does say Silversnow, Milo and Steele, so the content is support",
+    "line.next: The next quest is named as 'Warrior: Hero in the Making (probable, not confirmed)'. The repo does have that quest as record 3150021 (title locale 71504, warrior.json:1131), so the chain note's claim t",
+    "objectives[1]: The Chillblaine step has no target id, and the answer itself marks it as a dialog-derived description rather than a real objective string. The text 71499 is a dialog line, and the answer's kind is 'ot"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3020013,
+   "record": "quest-lines/quests.json q3020013",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Supply Delivery",
+   "live": "yes",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000069,
+    "name": "Derp Axemaker",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Forge Field Support Scalpels (craft two at the anvil)",
+     "text_locale_id": 94374,
+     "target": "Field Support Scalpel",
+     "target_locale_id": 102178,
+     "count": 2,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver the Field Support Scalpels to Supply Master Leo",
+     "text_locale_id": 94376,
+     "target": "Supply Master Leo",
+     "target_locale_id": 73956,
+     "count": 2,
+     "resolved_npc": {
+      "npc_id": 9000000479,
+      "name": "Supply Master Leo",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Locate Supply Master Leo in Southvale, by the path leading to Lavender Coast",
+     "text_locale_id": 94377,
+     "target": "Southvale",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 94366,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 94383,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 94369,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line.next: The chain link to 3020014 'Blacksmith: Do Work!' is correct as a record link (blacksmith.json:778 has prerequisite 3020013). Its giver is contested: the record binds 9000000479 (Supply Master Leo) and",
+    "objectives[2]: The 'go' objective has target 'Southvale' with a null locale id. The text is real (locale:94377, 'Locate Supply Master Leo in Southvale...'), but the target is a place name, not a stable id. The answe",
+    "objectives[1]: The delivery objective uses locale:94376, which I confirmed as 'Deliver the Field Support Scalpels to Supply Master Leo'. The answer leaves out the alternate text 94408 ('Speak to Supply Master Leo', ",
+    "live_reason: The 'live' verdict cites a wiki Blacksmith page listing for this quest, which the answer itself says is unconfirmed. The client text is unflagged, so the verdict still stands on the locale evidence.",
+    "line.next / open[0]: The answer cites repo greenwood_forest.json:22425 as proof that Supply Master Leo is giver 9000000479 for Do Work!. Line 22425 is a description string (Leo 'sends the player to Mili' and is the hand-i",
+    "objectives / rewards: The offer text (94366) says Derp teaches the recipe on delivery, and notes/Build Guides/Content/Jobs/Blacksmith.md:249 ties the Field Support Scalpel recipe to this quest (3079339128, marked unverifie"
+   ],
+   "blocked_by": [
+    "giver 'Derp Axemaker' row 9000000069 not placed"
+   ]
+  },
+  {
+   "quest_id": 3030012,
+   "record": "quest-lines/quests.json q3030012",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Growler Encroachment",
+   "live": "yes",
+   "giver": {
+    "name": "Gerold",
+    "npc_id": "9000000098",
+    "locale_id": 104054
+   },
+   "resolved_giver": {
+    "npc_id": 9000000098,
+    "name": "Gerold",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat a few Frostfang Growlers (intro wording; no count in client)",
+     "text_locale_id": 104149,
+     "target": "Frostfang Growlers",
+     "target_locale_id": 104067,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Gerold, south of Snowhill, and tell him of your success against the Frostfang Growlers!",
+     "text_locale_id": 115625,
+     "target": "Gerold",
+     "target_locale_id": 104054,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000098,
+      "name": "Gerold",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 104149,
+     "speaker": "Gerold"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104152,
+     "speaker": "Gerold"
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The kill objective's text uses 104149, which is the intro/offer wording (tagged quest_objective, but it is the full intro paragraph ending in a question). It is usable as text but is not a clean objec",
+    "evidence (description): The answer labels 104151 as the description. The lookup tags it quest_objective, not quest_description. The string text is correct and unflagged.",
+    "objectives[0] / objectives[1] evidence: 115484 and 115622 are cited as this quest's kill lines, but the lookup gives no quest hint for them, so their membership in 3030012 is unverified. 115625 is confirmed as the Gerold return line.",
+    "line.previous: The previous-quest description says Restless Rumors is given by 'Gerold's brother-side chain at Snowhill', but 104145 places that quest's start in Highroad Junction and the record's giver is in highro",
+    "objectives[0]: The defeat objective's text_locale_id is 104149, which is the intro dialogue paragraph (with HTML and a 'Will you help me' question), not a short objective line. Client objective lines for the kill st",
+    "objectives: The answer gives no kill count, which is correct since the client says only 'a few'. The count is still null, so the builder has to infer a count of one kill step. Nothing in the client supports a num"
+   ],
+   "blocked_by": [
+    "giver 'Gerold' row 9000000098 not placed",
+    "defeat target 'Frostfang Growlers' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3030030,
+   "record": "quest-lines/quests.json q3030030",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Achieve Level 10",
+   "live": "yes",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000143,
+    "name": "Mayor Crystalline",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Reach level 10 as a brawler, then return to Mayor Crystalline.",
+     "text_locale_id": 387381,
+     "target": "Mayor Crystalline",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000143,
+      "name": "Mayor Crystalline",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 387370,
+     "speaker": "Mayor Crystalline"
+    },
+    "progress": {
+     "locale_id": 387372,
+     "speaker": "Mayor Crystalline"
+    },
+    "complete": {
+     "locale_id": 387373,
+     "speaker": "Mayor Crystalline"
+    }
+   },
+   "critic_problems": [
+    "line.previous: Curious Key as the immediate predecessor rests on the repo guide's wiki-order table (Brawler.md M10 'After M9'), not on any client sequence. Checked: the M10 text ('Return the key to Mayor Crystalline",
+    "objectives[0].target_locale_id: Target 'Mayor Crystalline' has no locale id (null). The giver's NPC id 9000000143 is supplied, so a builder can wire it, but the objective has no text-backed target. The guide's id 3925636851 is a has",
+    "objectives[0].kind: The level-10 gate has no field in the answer's schema to express 'character level >= 10', so the single 'talk' objective understates the completion condition. The answer does disclose this in open[].",
+    "giver.locale_id: Null; no name string id was found. Minor, since npc_id is present.",
+    "rewards: Empty with no source. Disclosed as unknown, so acceptable.",
+    "giver.locale_id: giver.locale_id is null. The giver name 'Mayor Crystalline' has no locale id in the answer; the npc_id 9000000143 is the usable key, so this is minor."
+   ],
+   "blocked_by": [
+    "giver 'Mayor Crystalline' row 9000000143 not placed",
+    "talk target 'Mayor Crystalline' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3030031,
+   "record": "quest-lines/quests.json q3030031",
+   "quest_file": "brawler.json",
+   "title": "Contract: Colder Weather",
+   "live": "yes",
+   "giver": {
+    "name": "Fernando Flexsteel",
+    "npc_id": "9000000323",
+    "locale_id": 388481
+   },
+   "resolved_giver": {
+    "npc_id": 9500000785,
+    "name": "Fernando Flexsteel",
+    "file": "npcs/stillwater_crossing.json",
+    "zone": null,
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a brawler, defeat Frosty Yetis, and Ice Trolls that wander the icy slopes Snowhill.",
+     "text_locale_id": 388535,
+     "target": "Frosty Yetis, Ice Trolls",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "live: Liveness rests on a quest_title with no FLAG plus a wiki listing. I confirmed locale 388507 = 'Contract: Colder Weather' and 388535 = 'As a brawler, defeat Frosty Yetis, and Ice Trolls that wander the",
+    "objectives[0].target_locale_id: Target left null although 'Defeat some Frosty Yetis' is locale 388536 and 'Frosty Yetis can be found near Snowhill.' is 388537 (both verified). Frosty Yetis is also named in group strings 417453 and 4",
+    "record gating (min_level): The answer ignores the level gate. The guide places M12 in the 'level 10 to 15' band, and the record has min_level null. The answer does not state a level gate or where it came from.",
+    "giver.zone / giver.location: Locale 388481 is tagged Briarwood in the client, while the Stillwater note and wiki say Stillwater Crossing. The answer flags this but does not resolve it. The zone is set to Snowhill from objective t",
+    "line.next: next is left empty. Brawler.md M13 says 'After M11', so nothing clearly follows M12 in the guide. This is defensible, but the answer does not say that M13 is a parallel branch.",
+    "dialog: dialog.offer, progress and complete are null. The offer text is 388506, but it is tagged to Hello Fernando, so leaving it null is reasonable. The guide's id 105952643 is unverified and was correctly n"
+   ],
+   "blocked_by": [
+    "defeat target 'Frosty Yetis, Ice Trolls' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3030039,
+   "record": "quest-lines/quests.json q3030039",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Reputation Regained",
+   "live": "yes",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": 182
+   },
+   "resolved_giver": {
+    "npc_id": 9000000143,
+    "name": "Mayor Crystalline",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Mayor Crystalline wants you to let Jeni Shortfuse know that Sacred Grove is indebted to you both and that she is now officially free of ice troll duty!",
+     "text_locale_id": 72869,
+     "target": "Jeni Shortfuse",
+     "target_locale_id": 22808,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000498,
+      "name": "Jeni Shortfuse",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 100347,
+     "speaker": "Jeni Shortfuse"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: I confirmed locale 72869 (exact text, hint Brawler: Reputation Regained), 22808 'Jeni Shortfuse', 182 'Mayor Crystalline', and 72868 title. The objective's completion target is inferred from text: 'le",
+    "next: Next quest 'Brawler: Fight for Your Right' is correctly linked by the guide's M21 row (locale 72966 confirmed). Its giver is Rourke Ironfist, and the title is members-only per the wiki. The answer sta",
+    "evidence: Claim 'Wiki Brawler page lists the quest under Mayor Crystalline' and the 'Brawler guide order' claim cite sources I did not re-open in full. The guide row M20 does match the quest, giver and order (r",
+    "evidence[4] / locale:141081: The answer cites locale 141081 as evidence that Mayor Crystalline sends the player to Jeni for this quest. The client lookup tags 141081 with hint 'Brawler: An Honest Mistake' (3030032), not 'Brawler:",
+    "dialog.offer: Locale 72867 is quest-tagged but has no speaker tag. The answer correctly leaves it unconfirmed, but it still lists it as the offer id.",
+    "next: Next is given as 'Brawler: Fight for Your Right' via record 3030040 and title locale 72966. I verified that 72966 is 'Brawler: Fight for Your Right' and that the guide's M21 row follows M20. The recor"
+   ],
+   "blocked_by": [
+    "giver 'Mayor Crystalline' row 9000000143 not placed",
+    "talk target 'Jeni Shortfuse' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3040016,
+   "record": "quest-lines/quests.json q3040016",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Serious Business",
+   "live": "yes",
+   "giver": {
+    "name": "Garrison Gold",
+    "npc_id": "9000000094",
+    "locale_id": 38092
+   },
+   "resolved_giver": {
+    "npc_id": 9000000094,
+    "name": "Garrison Gold",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "See if Perry will give you a pig at the farm just outside of Snowhill.",
+     "text_locale_id": 103945,
+     "target": "Perry",
+     "target_locale_id": 3059,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000422,
+      "name": "Perry",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "Catch Puggles the Pig",
+     "text_locale_id": 103946,
+     "target": "Puggles the Pig",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Do whatever it takes to get a match with Garrison Gold.",
+     "text_locale_id": 103942,
+     "target": "Garrison Gold",
+     "target_locale_id": 38092,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 103954,
+     "speaker": "Garrison Gold"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line.previous: Left empty, but the client text points to a predecessor. Locale 103935 (Bry's objective) sends the player to Snowhill to play Garrison Gold, and that is the 'Card Duelist: Garrisoning Garrison' quest ",
+    "dialog.complete: Null. The end text 103957 is unflagged and reads as a Garrison win line. Its title sits under quest 103950 ('As a Card Duelist; Beat Garrison's Trick Deck'), which is a separate quest title, so the an",
+    "objectives: The Trick Deck step (103951 'Play and beat Garrison's Trick Deck or the pig gets it!' and 103952 'Speak with Garrison') is not mentioned as an objective or as a related follow-up. The answer omits it ",
+    "objectives[1]: Target 'Puggles the Pig' has no client NPC or item id. The answer flags this, and locale 103960 ('Puggles the Pig', quest_title) and 103962 (pig dialog) confirm the name only.",
+    "dialog.complete: Left null although the evidence pack's end_text 103957 (\"So you think you're good just because you got a little lucky?... I let you win!\") is Garrison's post-match line. The answer's reason (it sits u",
+    "line.previous: Empty previous link is a judgement call. Bry's Garrisoning Garrison (103934/103935) sends the player to play Garrison, which may be the job entry prerequisite. The answer discloses this as open, which"
+   ],
+   "blocked_by": [
+    "talk target 'Perry' not placed in our rows",
+    "needs mechanic: minigame (Garrison Gold)"
+   ]
+  },
+  {
+   "quest_id": 3040017,
+   "record": "quest-lines/quests.json q3040017",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Snowhill Showdown",
+   "live": "yes",
+   "giver": {
+    "name": "Garrison Gold",
+    "npc_id": "9000000094",
+    "locale_id": 38092
+   },
+   "resolved_giver": {
+    "npc_id": 9000000094,
+    "name": "Garrison Gold",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Return the Pig to Perry",
+     "text_locale_id": 104164,
+     "target": "Perry (farmstead just outside Snowhill)",
+     "target_locale_id": 104165,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000422,
+      "name": "Perry",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Garrison's Tournament Deck",
+     "text_locale_id": 104166,
+     "target": "Garrison Gold",
+     "target_locale_id": 38092,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Garrison Gold card promo (reward listed in the repo guide's Card Duelist row 16; the hero-card link is unconfirmed)",
+     "source": "repo:notes/Build Guides/Content/Jobs/Card Duelist.md:row 16"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 104172,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104175,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: Perry is given only as a text target with no NPC id. The answer says the Perry name locale id was not looked up. The objective text (104164) and location (104165) are real and match the quest.",
+    "objectives[1]: The guide's row 16 alternate objective 379508280 (Trick Deck) is left out and only disclosed under open. If it is live for this quest, the objective list is incomplete.",
+    "rewards: Reward is a vague 'other' entry with no coin, XP or item values, and the hero-card link is unconfirmed. Nothing stated is wrong, but nothing buildable is given.",
+    "line.previous / line.next: Chain order checks out. The wiki's Garrison Gold list gives Serious Business, Snowhill Showdown, Shifty Dealings. Locale 103955 is 'Card Duelist: Serious Business' and 104191 is 'Card Duelist: Shifty ",
+    "objectives[0].target: Perry is named only by text. Client name lookup gives a generic 'Perry' at locale 3059, but no NPC id was matched to the farmstead Perry, so the deliver target has no stable id. The answer's own open ",
+    "rewards[0]: The reward is recorded as kind 'other' with no value. It rests on the guide's row 16 and an unconfirmed hero-card link from locale 92767, which is the Tournament Deck match text, not a reward table en"
+   ],
+   "blocked_by": [
+    "deliver target 'Perry (farmstead just outside Snowhill)' not placed in our rows",
+    "needs mechanic: minigame (Garrison Gold)"
+   ]
+  },
+  {
+   "quest_id": 3040018,
+   "record": "quest-lines/quests.json q3040018",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Shifty Dealings",
+   "live": "unsure",
+   "giver": {
+    "name": "Garrison Gold",
+    "npc_id": "9000000094",
+    "locale_id": 38092
+   },
+   "resolved_giver": {
+    "npc_id": 9000000094,
+    "name": "Garrison Gold",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Seek out Shifty the Shuffler",
+     "text_locale_id": 104183,
+     "target": "Shifty the Shuffler",
+     "target_locale_id": 74095,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000198,
+      "name": "Shifty the Shuffler",
+      "file": "npcs/wugachug.json",
+      "zone": "Wugachug",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Garrison says Shifty the Shuffler is in Wugachug, which is west of Snowhill.",
+     "text_locale_id": 104184,
+     "target": "Wugachug",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "See Shifty's cards for yourself by heading to Wugachug and playing him a game.",
+     "text_locale_id": 104182,
+     "target": "Wugachug",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Shifty's Trick Deck",
+     "text_locale_id": 104186,
+     "target": "Shifty's Trick Deck",
+     "target_locale_id": 92736,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Shifty the Shuffler",
+     "text_locale_id": 104188,
+     "target": "Shifty the Shuffler",
+     "target_locale_id": 74095,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000198,
+      "name": "Shifty the Shuffler",
+      "file": "npcs/wugachug.json",
+      "zone": "Wugachug",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": 104190,
+    "progress": null,
+    "complete": 104193
+   },
+   "critic_problems": [
+    "objectives: Every id I checked matches its text: 104191 (title), 104183, 104184, 104182, 104186, 104188 and 104192 are Wugachug/Shifty Dealings quest strings. 74095 is Shifty the Shuffler, 92736 is \"Shifty's Tric",
+    "evidence[15] / open: The answer says locale 104180 belongs to Snowhill Showdown per guide row 16 and excludes it from this quest. The client table tags 104180 as quest_objective, zone Snowhill, hint 'Shifty Dealings'. The",
+    "rewards / open: The answer cites locale 92768 (Shuriken Toss) as a duel-win prize line but does not verify it. It is only disclaimed in 'open'. Rewards stay empty, which is acceptable.",
+    "live: live 'unsure' is honestly stated. The wiki page lists the quest without a build date, and the client text carries no FLAG. This is a fair reading and does not need changing."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Shifty's Trick Deck)"
+   ]
+  },
+  {
+   "quest_id": 3040042,
+   "record": "quest-lines/quests.json q3040042",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Snowhill is Melting",
+   "live": "unsure",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": 182
+   },
+   "resolved_giver": {
+    "npc_id": 9000000143,
+    "name": "Mayor Crystalline",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Mayor Crystalline in Snowhill wants you to play a few games of cards.",
+     "text_locale_id": 436539,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 436537,
+     "speaker": "Mayor Crystalline"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 436540,
+     "speaker": "Mayor Crystalline"
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The objective text 436539 is tagged quest_objective and is the same string the pack calls the description. The answer's 'kind: minigame' and 'count: null' are inferred from text only, and win conditio",
+    "line.previous: Empty previous is stated as a chain fact but not evidenced. Locale 2588 ('The Mayor says what? Snowhill is melting!?', Card Duelist: In Search of The Baron) implies the Baron quest's player has not ye",
+    "line.next: Next quest 'Card Duelist: Suspicious Sneak' is supported by locale 436541 and 436543 ('Jonathon Forkpath in Snowhill wants you to play a few games of cards'), and by the wiki's Suspicious Sneak mentio",
+    "live: Live status 'unsure' is honest. Client and wiki presence do not prove the server shipped this quest.",
+    "line.previous: Previous is empty and stated as unknown. The evidence does not rule out an earlier Snowhill card quest, and the 'In Search of The Baron' dialog (locale 2588, 'The Mayor says what? Snowhill is melting!",
+    "line.next: Next is supported by the text. Locale 436541 (Jonathon Forkpath, 'former Defender of Snowhill') and 436544 ('monocle wearing dwarf') follow from locale 436540. Card Duelist: Defenders Duty (3040043, s"
+   ],
+   "blocked_by": [
+    "giver 'Mayor Crystalline' row 9000000143 not placed",
+    "needs mechanic: minigame (Mayor Crystalline)"
+   ]
+  },
+  {
+   "quest_id": 3040046,
+   "record": "quest-lines/quests.json q3040046",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Suspicious Sneak",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000521",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Jonathon Forkpath in Snowhill wants you to play a few games of cards.",
+     "text_locale_id": 436543,
+     "target": "Jonathon Forkpath",
+     "target_locale_id": 92578,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 436541,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 436544,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Giver is null and npc_id 9000000521 is unresolved, as the answer says. The evidence points toward Jonathon Forkpath but the answer does not draw that link. Locale 436541 speaks as 'the Defender of Sno",
+    "line.previous: The Melting link is inferred. Locale 436540 says the speaker 'knows someone else that can help' but does not name Forkpath. Only 436598 names him, and that line is in the Melting quest's cluster. The ",
+    "objectives[0]: Checked and correct. 436543 is the unflagged quest_objective for quest 436542 (tagged Snowhill / Suspicious Sneak). 8412 has the same text with no quest tag, as the answer says. 92578 is 'Jonathon For",
+    "evidence: Checked the cited locales: 436542 title, 436541 and 436544 dialogs, 2165 (Pack 1 and Level 20 wording), 2582 and 436598. All match the answer's descriptions. The repo guide row 45 'No matching string ",
+    "giver: Giver is unresolved: giver.npc_id 9000000521 has no name, zone or locale id, and the offer speaker in 436541 is unnamed. The answer correctly leaves this open, but the quest cannot be placed at an NPC",
+    "line.next: Sneak -> Finder of Secrets is inferred only from dialog theme (436545 mentions the monocled dwarf's cards). Nothing in the client text or the pack names the hand-off, and the Finder record lists no pr"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Jonathon Forkpath)"
+   ]
+  },
+  {
+   "quest_id": 3040047,
+   "record": "quest-lines/quests.json q3040047",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: To Catch a Sneak",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line.previous / line.next: Both are left empty even though the client quest_title block 2569-2573 gives an ordering the answer itself names. The notes row 46 puts this quest after Suspicious Sneak (row 45) in Baron Quest Pack 2",
+    "evidence / line: The answer cites the Snowhill TCG promo text (locale:2165) as showing this quest is not named, but it does not address that 2165 ties the Forkpath and Shadeveil battles to Baron Quest Pack 1. That bea",
+    "objectives: Empty, and no step string is tagged to this title. Checked: locale:2571 (quest_title, Snowhill) and locale:2583 (quest_dialog, Snowhill, tagged Card Duelist: To Catch a Sneak) both exist and match the",
+    "giver: Null, correctly. Record giver_npc_id 9000000522 appears only in card_duelist.json:2288 and npcs_unresolved.json:4464 (unresolved ref), so it is not a confirmed giver. The answer does not present it as",
+    "line: previous and next are empty, which is honest. The id-order candidates (locale:2569 before, locale:2572 after) are listed only under open. The wiki co-mentions In Search of The Baron and A Guide to The",
+    "evidence[5]: The claim that locale:2165 says the Snowhill TCG promo requires Quest Pack 1 and Level 20 Card Duelist was not re-checked in this pass. It is not used to support any field, so it does not affect pass."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3040049,
+   "record": "quest-lines/quests.json q3040049",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: A Guide to The Baron",
+   "live": "unsure",
+   "giver": {
+    "name": "Senari",
+    "npc_id": "9000000195",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000195,
+    "name": "Senari",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The giver NPC id 9000000195 is confirmed in snowhill.json (line 33544) and in the record, but the answer's giver locale_id is null and it does not record the Senari name source. The name 'Senari' is o",
+    "dialog.offer: The answer says locale 2584 is only a hint and records no offer line. The evidence also has locale 436602 (quest_dialog, Snowhill, 'Senari knows the mountains around Snowhill better than anyone... gui",
+    "evidence[1]: The claim that record 3040049 is 'enabled false, empty objectives and rewards' is accurate (card_duelist.json:2379-2419). The id checks also hold: locale 2572 resolves to 'Card Duelist: A Guide to The",
+    "line: previous and next are both empty, but the client cluster points to a sequence. Locale 2583 (To Catch a Sneak, Scarlet Shadeveil) sends the player to find the dwarf near the town hall, and locale 2584 ",
+    "giver: The giver is correctly Senari (npc 9000000195), and snowhill.json lists quests 3040049 and 3040050 under that NPC. The answer's claim that the locale id is unresolved is accurate. No error found here."
+   ],
+   "blocked_by": [
+    "giver 'Senari' row 9000000195 not placed"
+   ]
+  },
+  {
+   "quest_id": 3040050,
+   "record": "quest-lines/quests.json q3040050",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Master Explorer",
+   "live": "unsure",
+   "giver": {
+    "name": "Senari",
+    "npc_id": "9000000195",
+    "locale_id": 4726
+   },
+   "resolved_giver": {
+    "npc_id": 9000000195,
+    "name": "Senari",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Senari in Snowhill wants you to play a few games of cards.",
+     "text_locale_id": 436551,
+     "target": "Senari",
+     "target_locale_id": 4726,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 436549,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 436552,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The objective's id and text check out: locale 436551 is 'Senari in Snowhill wants you to play a few games of cards. ', with no FLAG. Senari's name is 4726. The title 436550 and the offer 436549 and co",
+    "evidence / objectives: The answer never checks locale 8382-8386 ('Beat Senari's First Deck' ... 'Return to Senari') or 8946-8949 (Senari's tournament deck, which rewards a Ree Peatpants hero card). These are real Senari-spe",
+    "line: previous and next are both empty, and the line name says 'position unresolved'. This is honest, but it leaves the record with no place in the chain. The client block order (436548 Finder -> 436549-436",
+    "line: previous and next are left empty, but the client dialog cluster gives a clear text order that the answer does not mention: Snowhill is Melting (436537, Crystalline) -> Suspicious Sneak (436541, Jonath",
+    "wireable: Giver Senari (locale 4726, npc 9000000195) and the objective target are real, but the record has no resolved place in its line and no count, so a builder cannot order it without guessing.",
+    "objectives[0]: Text and target check out: locale 436551 'Senari in Snowhill wants you to play a few games of cards.' has no FLAG and Senari is 4726. Locale 8414 holds the same wording with a trailing space and is a "
+   ],
+   "blocked_by": [
+    "giver 'Senari' row 9000000195 not placed",
+    "needs mechanic: minigame (Senari)"
+   ]
+  },
+  {
+   "quest_id": 3040051,
+   "record": "quest-lines/quests.json q3040051",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Confronting The Baron",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel north, towards the Crystal Barrier, to confront Baron von Darkcheat (inferred from dialog; not a confirmed tracker objective)",
+     "text_locale_id": 2585,
+     "target": "Crystal Barrier",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 2585,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: previous and next are both empty, but the guide's row order (Card Duelist.md rows 49, 50, 51) gives Master Explorer as the row before and Baron von Darkcheat as the row after. The answer's open sectio",
+    "objectives[0]: The objective text comes from locale:2585, which is a quest_dialog line, not a quest_objective. The answer labels it inferred, which is honest, but it cannot be a tracker objective. The real tracker o",
+    "giver: Giver is null, and the guide says 'unknown'. Nothing in the pack names a giver. The NPC notes (NPCs - Snowhill.md:152) tie Baron von Darkcheat to this quest only as antagonist, not as giver.",
+    "objectives[0]: The objective's text_locale_id 2585 is a quest_dialog line (\"...If you have the courage to confront him travel north, towards the Crystal Barrier.\"), not a quest_objective string. The answer labels it",
+    "giver: Null giver is honest; the guide row 50 says 'unknown' and no client or wiki text ties npc 9000000524 to this quest. Nothing to correct, but it blocks wiring.",
+    "line: previous and next are empty. Guide row 49 (Master Explorer) and row 51 (Baron von Darkcheat) bracket this quest by row order only, and row 51 is itself not confirmed as next. Leaving the chain empty i"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3050014,
+   "record": "quest-lines/quests.json q3050014",
+   "quest_file": "chef.json",
+   "title": "Chef: Snowy Treats",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Click on the Harvesting Tools",
+     "text_locale_id": 139230,
+     "target": "Harvesting Tools",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Click on any of the stacks of Harvesting Tools behind Perry to start harvesting.",
+     "text_locale_id": 139231,
+     "target": "Harvesting Tools",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Gather some Snowberry",
+     "text_locale_id": 139232,
+     "target": "Snowberry",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Perry can't seem to harvest the Snowberry she needs, help her by harvesting some!",
+     "text_locale_id": 139233,
+     "target": "Snowberry",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Perry needs your help collecting some Snowberry and Starnut from her farm!",
+     "text_locale_id": 139212,
+     "target": "Starnut",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Perry trades for the harvested ingredients; no coin or item reward is named in client text",
+     "source": "locale:139213"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 139210,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 139213,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives: locale:139229 'Collect some cooking ingredients for Perry.' (quest_objective, unflagged, same title cluster) is cited in the evidence list as a harvest objective but is missing from the objectives arr",
+    "objectives[4]: locale:139212 names both Snowberry and Starnut, but the answer sets target to Starnut only. The text is a description line that doubles as an objective, so the single target is a judgement call presen",
+    "giver: Giver is null; npc 9000000526 is only a weak unresolved match (npcs_unresolved.json:4580), and Chef.md:94 and :364 list the giver as unknown. Not a failure of the honest-unknown kind, but the answer c",
+    "line: Previous link 3050013 is consistent with Chef.md H4 and the Highroad order, and the chain note says Perry's Pastures lists no next. The reverse link is unresolved in both answers, as the answer's open",
+    "objectives: locale:139229 'Collect some cooking ingredients for Perry.' is a quest_objective tagged to Chef: Snowy Treats and is unflagged. The answer omits it from objectives although it is in its own evidence l",
+    "objectives: locale:139204 'Return to Mustang Alli' is also a quest_objective tagged Chef: Snowy Treats. The answer only mentions it in open, not as an objective or as an unresolved item. The line placement and th"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3070037,
+   "record": "quest-lines/quests.json q3070037",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Snowhill Getaway",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000218",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Meet up with Murphy to find your suite in Snowhill!",
+     "text_locale_id": 410178,
+     "target": "Murphy",
+     "target_locale_id": 3063,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000158,
+      "name": "Murphy",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Murphy says your suite is located in Snowhill at 1 Way Back Way.",
+     "text_locale_id": 410182,
+     "target": "1 Way Back Way, Snowhill",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "All-expenses-paid snowy retreat (suite at Snowhill Hot Springs), offered by Murphy",
+     "source": "locale:410173; locale:410175"
+    },
+    {
+     "kind": "other",
+     "value": "Unspecified apology payment; no amount, currency or item named",
+     "source": "locale:410176"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 410173,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410194,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver is null; npc 9000000218 has no name or zone in the pack. The answer honestly lists this as open, so it is not a failure, but it means the quest cannot be wired as it stands.",
+    "live: live: 'yes' is stated more firmly than the evidence supports. The record is enabled:false, and the answer itself says nothing shows it ran in play. The unflagged client text shows the strings exist, n",
+    "objectives[0]: The talk target 'Murphy' (locale 3063) is only a plain name string. No NPC record for Murphy in Snowhill was checked, so the target is not an NPC id. The answer marks this as a candidate, which is fai",
+    "line.previous / line.next: The chain notes say One Spot Left's answer lists Partner Up as next, which conflicts with this answer's line. The guide puts Partner Up after Big J's Crew (row 35), so the conflict sits in the other a",
+    "line.next: The answer calls the Getaway's next links branched, with 'My Hut is Your Hut' as a record successor. The guide does not place My Hut in the Cluster F/G order at all. Guide row 34 is Big J's Crew, 'Aft",
+    "line.previous / chain note: The guide's row 32 'One Spot Left' (After 31) and row 33 'After 32' support One Spot Left as previous. The chain note that One Spot Left lists next 'Partner Up' conflicts with the guide: row 35 Partne"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "talk target 'Murphy' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070041,
+   "record": "quest-lines/quests.json q3070041",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Fish Food",
+   "live": "unsure",
+   "giver": {
+    "name": "Lenore",
+    "npc_id": null,
+    "locale_id": 410212
+   },
+   "resolved_giver": {
+    "npc_id": 9000000131,
+    "name": "Lenore",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some Blue Thornfin from the Frostbitten Banks for Valinda.",
+     "text_locale_id": 410255,
+     "target": "Blue Thornfin",
+     "target_locale_id": 99949,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Take the Blue Thornfin to Valinda at the Penguin Training Institute in Snowhill.",
+     "text_locale_id": 410259,
+     "target": "Valinda",
+     "target_locale_id": 186,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000779,
+      "name": "Valinda",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 410250,
+     "speaker": "Lenore"
+    },
+    "progress": {
+     "locale_id": 410260,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 410253,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Giver is given as the name Lenore with npc_id null. Lenore's name is confirmed (locale:410212 'Lenore'), and 410200 places her cabin near Frostbitten Banks. But no source ties record 3070041 to an NPC",
+    "zone: The Snowhill tag comes from the quest_title cluster grouping, while 410200 says Lenore's cabin is out near Frostbitten Banks. The answer flags this conflict as unresolved, which is correct, but the zo",
+    "line: The line grouping is text-derived only and has no recorded previous or next. The 'Showing Off Your Skills' predecessor is supported only by dialogue (410242, 410248), which the answer itself concedes.",
+    "objectives[0].count: count is null. The client text does not give a number ('some', 'a bunch'), so null is correct. The record has no objectives (fisherman.json:1989-1991 is enabled=false with objectives []).",
+    "giver: Giver is Lenore by text (410212 confirmed as 'Lenore'; 410200 places her at Frostbitten Banks), but no npc_id is tied to record 3070041. Record giver 9000000349 is unresolved, and 9000000131 belongs t",
+    "line.previous: Left empty, which is honest, but the text supports a link: 410252 says Lenore is 'excited with your arrival', and 410242/410243 ('Return to Lenore', Melvin caught his first fish) close Fisherman: Show"
+   ],
+   "blocked_by": [
+    "giver 'Lenore' row 9000000131 not placed"
+   ]
+  },
+  {
+   "quest_id": 3070047,
+   "record": "quest-lines/quests.json q3070047",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: My Hut is Your Hut",
+   "live": "unsure",
+   "giver": {
+    "name": "Murphy",
+    "npc_id": "9000000158",
+    "locale_id": 3063
+   },
+   "resolved_giver": {
+    "npc_id": 9000000158,
+    "name": "Murphy",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 410200,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410202,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line.next: The answer lists 'Fisherman: The \"Big\" One' as next, but the chain note says that quest's answer lists no previous. The two answers disagree on the link. The guide (row 46) says Big One is 'After 43',",
+    "dialog.complete: locale:410203 is labelled 'complete' but the evidence only calls it the 'End text greeting the player' with an untagged speaker. Nothing in the pack shows it is the completion dialog rather than a gre",
+    "giver: Murphy is the giver only by the record's giver_npc_id (9000000158) and the guide's dagger-marked guess. The answer states it as the giver field, while its own open list says the speaker is not proven.",
+    "objectives: Empty objectives are an honest unknown, but the answer cites guide id 2418676270 for this quest. The matching text is locale:410205, which is tagged to Showing Off Your Skills, not My Hut. The answer ",
+    "evidence.locale:410212: Verified: locale 410212 is 'Lenore'. The zone tag of Frostbitten Banks comes from the pack's client_cluster, which lists it as npc_name Frostbitten Banks. The id and name are correct; the zone tag is ",
+    "line.previous: The answer lists only 'Fisherman: Snowhill Getaway' (3070037) as predecessor. The guide's row 43 says 'After 33 and 34 (inferred)', so Joining Big J's Crew (row 34, guide line 134, 'After Snowhill Get"
+   ],
+   "blocked_by": [
+    "giver 'Murphy' row 9000000158 not placed"
+   ]
+  },
+  {
+   "quest_id": 3080044,
+   "record": "quest-lines/quests.json q3080044",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Celebrity Giveaway",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000197",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Complete the 'Celebrity Giveaway' minigame",
+     "text_locale_id": 395809,
+     "target": "Celebrity Giveaway",
+     "target_locale_id": 3830,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Referral step (description, not a record objective): Therin in the Singing Crystal Mines of Snowhill has the details for the ticket giveaway",
+     "text_locale_id": 395333,
+     "target": "Therin",
+     "target_locale_id": 185,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000217,
+      "name": "Therin",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 395331,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: Previous and next links check out. Locale 3598 is 'Kart Driver: Dominating at Tangletrack' (guide row 41), and locale 3511 is 'Kart Driver: SG Tour 400: Wildwood' (guide row 43, the Kade Carmichael qu",
+    "giver: Giver is unresolved. The guide names Shamus Sootbender (inferred) and Therin, and snowhill.json 'Miner: All I Got' conflicts with both. The answer leaves it null, which is honest, but the quest is not",
+    "objectives[1]: Locale 395333 is a quest_objective and 'Therin' (185) is real, but 395333 is a description line, not a record objective; the answer says so. Verified: 185 = 'Therin', 3830 = 'Celebrity Giveaway', 3958",
+    "objectives[1]: The Therin 'talk' objective is attributed to locale 395333, but that line is a quest_objective description, and the answer correctly says it is not a record objective. The 'talk' kind and target 185 a",
+    "line.previous: The evidence row says the previous quest's objective text 395658 is at locale:3598, but 3598 is the previous quest's title ('Kart Driver: Dominating at Tangletrack'). The objective text 395658 ('Win t",
+    "line.next: The next link rests on the title 3511 ('Kart Driver: SG Tour 400: Wildwood') and on guide row 42. The chain note says no other quest answer matches this title, so the link is unverified against the ne"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Celebrity Giveaway)"
+   ]
+  },
+  {
+   "quest_id": 3090017,
+   "record": "quest-lines/quests.json q3090017",
+   "quest_file": "medic.json",
+   "title": "Medic: A Blustery Blunder",
+   "live": "yes",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": 182
+   },
+   "resolved_giver": {
+    "npc_id": 9000000143,
+    "name": "Mayor Crystalline",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "As a medic, find the scattered Medical Records",
+     "text_locale_id": 74034,
+     "target": "Snowhill Medical Records",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring the pages to Mayor Crystalline",
+     "text_locale_id": 74036,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000143,
+      "name": "Mayor Crystalline",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 74025,
+     "speaker": "Mayor Crystalline"
+    },
+    "progress": {
+     "locale_id": 74035,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 74028,
+     "speaker": "Mayor Crystalline"
+    }
+   },
+   "critic_problems": [
+    "live_reason: The answer says no wiki page independently confirms the quest. The wiki search does list 'Medic: A Blustery Blunder - Mayor Crystalline' under the Medic page, so the confidence note understates the su",
+    "dialog.complete: 74028 ('Excellent work, but I need another favor...') is a reasonable turn-in line for this link, since 'another favor' fits the next quest, Into the Bristlewood. However, 75982 ('[Player] was able to",
+    "objectives[0]: The target 'Snowhill Medical Records' has no locale id. The count is null and the 'collect' kind is inferred, not stated. The objective is still wireable because its text 74034 is real and unflagged.",
+    "line: The chain holds. The wiki lists Flu Season, then A Blustery Blunder, then Into the Bristlewood, and the record prerequisites match 3090016 and 3090018. Locale 74036 'Bring the pages to Mayor Crystalli",
+    "dialog.complete: Locale 75982 is typed quest_reward in the client index (hint 'Snowhill medical records', text '[Player] was able to track down all the missing pages of Snowhill's medical records!'). The answer says i",
+    "objectives[0].target: The target 'Snowhill Medical Records' has no locale id; it appears only inside offer text 74025. The answer discloses this, so it is a note rather than a false claim. The objective 74033 ('The mayor d"
+   ],
+   "blocked_by": [
+    "giver 'Mayor Crystalline' row 9000000143 not placed",
+    "deliver target 'Mayor Crystalline' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3090018,
+   "record": "quest-lines/quests.json q3090018",
+   "quest_file": "medic.json",
+   "title": "Medic: Into the Bristlewood",
+   "live": "yes",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000143,
+    "name": "Mayor Crystalline",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Help out the chugawugs in Bristlewood on behalf of Mayor Crystalline.",
+     "text_locale_id": 74069,
+     "target": "Bristlewood",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Find Docaloc",
+     "text_locale_id": 74070,
+     "target": "Docaloc",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000071,
+      "name": "Docaloc",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Docaloc is located in Bristlewood, in Briarwood.",
+     "text_locale_id": 74071,
+     "target": "Docaloc (Bristlewood, Briarwood)",
+     "target_locale_id": 74071,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000071,
+      "name": "Docaloc",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward evidenced in the pack or client strings. Our record has an empty rewards list.",
+     "source": "open"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 74063,
+     "speaker": "Mayor Crystalline"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "dialog.complete: Locale 74066 ('Help from Snowhill? We sure could use some dealing with all the poisonous spiders around here.') is real and unflagged, and the client tags it to 'Medic: Into the Bristlewood'. But the ",
+    "objectives[2].target: The target is set to 'Docaloc (Bristlewood, Briarwood)' and target_locale_id 74071, which is the objective's own sentence, not a target identifier. A builder reading this field could mistake it for a ",
+    "objectives[1].target: Target 'Docaloc' has no id. The answer calls the NPC link 'legacy reference only', but briarwood.json already records NameId 22283 and Npcs.json Id 2739 for him, so the link is partly supported.",
+    "giver.locale_id: Null, and the answer says Mayor Crystalline's name id is not in the pack. This is honest, but a gap.",
+    "objectives: Checked and supported: 74069, 74070 and 74071 exist with the stated text and are tagged Briarwood/Medic: Into the Bristlewood. Title 74064 and offer 74063 match. The Medic.md row 18 and the wiki ('..I",
+    "dialog.complete: Locale 74066 ('Help from Snowhill? ... poisonous spiders') is used as this quest's completion dialog, but the answer itself says it may belong to Docaloc. Nothing in the pack ties it to a return to th"
+   ],
+   "blocked_by": [
+    "giver 'Mayor Crystalline' row 9000000143 not placed"
+   ]
+  },
+  {
+   "quest_id": 3100001,
+   "record": "quest-lines/quests.json q3100001",
+   "quest_file": "miner.json",
+   "title": "Become a Miner",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Therin at Snowhill to become a miner.",
+     "text_locale_id": 139749,
+     "target": "Therin",
+     "target_locale_id": 185,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000217,
+      "name": "Therin",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The answer correctly leaves the giver null, but it does not cite the repo evidence for why 9000000001 is unresolved. npcs_unresolved.json:33 lists ref_id 9000000001, and that is the concrete support f",
+    "line: The answer treats the batch order as unsettled, but it omits the T300 decision recorded in miner.json:154 and notes/Autopilot/T300.md:28-30. That decision says 3100001's giver is unresolved, 3100002 i",
+    "evidence[4]: 'Therin's name string is 185' is cited to locale:185, but the locale lookup for 185 returned no match. The name is supported only by npc_spawns_extra.json, where 185 is a Global.Text key that hashes t",
+    "evidence[3]: The wiki Miner page is cited for 'the job is unlocked by speaking to Therin'. The wiki text returned by lookup says only that ore nodes or forges give an optional 'become a miner' quest. The unlock cl",
+    "line: previous and next are left empty, but the repo's own notes (notes/Autopilot/T300.md, T334.md) treat 3100001 as the job's entry and 3100002 as the live successor (gather Copper Ore, then talk to Therin",
+    "giver: Giver is null, which is honest, but the answer does not say that the record's giver_npc_id 9000000001 is listed in npcs_unresolved.json:33 (ref_id 9000000001). That is the concrete reason the giver ca"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3110008,
+   "record": "quest-lines/quests.json q3110008",
+   "quest_file": "ninja.json",
+   "title": "Contract: Trouble in Snowhill",
+   "live": "yes",
+   "giver": {
+    "name": "Ree Peatpants",
+    "npc_id": "9000000180",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000180,
+    "name": "Ree Peatpants",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Ree Peatpants has asked you to defeat wolves and yetis in Snowhill.",
+     "text_locale_id": 388401,
+     "target": "wolves and yetis in Snowhill",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388399,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 388401,
+     "speaker": "Ree Peatpants"
+    },
+    "complete": {
+     "locale_id": 388402,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The objective is kind 'other' with target and count null. The record (ninja.json:536) has objectives []. The answer presents an objective the record does not hold, and no kill target (wolves, yetis) i",
+    "next: next: [] is stated as the chain's end. It is consistent with the record (sibling contracts 3110014/3110019/3110025 have prerequisites 3110013/3110018/3110024, not 3110008), but the answer gives no sou",
+    "line: The line name 'Ninja repeatable Contracts (Ree Peatpants, Snowhill)' is not a name found in the cited sources; it is the answer's label.",
+    "line.next: Stated as empty. The chain is not closed: Ninja: Nothing to Sneeze At (3110009, B2) also takes 3110007 as prerequisite, so the C3 -> B1/B2 band has siblings. 'Next' being empty is still defensible bec",
+    "line.previous: Given as the display name 'Ninja: Achieve Level 5' rather than an id-based link. The id 3110007 is correct (ninja.json:534) and matches guide row C3, so the link holds, but the name is not verified ag",
+    "objectives[0]: The objective is real: locale 388401 reads 'Ree Peatpants has asked you to defeat wolves and yetis in Snowhill.' and it is the record's description_string_id. But the record's objectives array is empt"
+   ],
+   "blocked_by": [
+    "giver 'Ree Peatpants' row 9000000180 not placed"
+   ]
+  },
+  {
+   "quest_id": 3110011,
+   "record": "quest-lines/quests.json q3110011",
+   "quest_file": "ninja.json",
+   "title": "Ninja: Troubled Waters",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "The Shadow Talon kidnappers have taken their captives to an undisclosed location in Snowhill. Find them and save them!",
+     "text_locale_id": 78870,
+     "target": "Shadow Talon captives, Snowhill (location undisclosed)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Pro Ninja Scythe (level 4 Ninja weapon, no longer obtainable, cannot trade)",
+     "source": "wiki: freerealms-wiki/wikitext/4360-26383-769b1612bf0e.wiki:3 and freerealms-wiki/harvest/lists/weapons.json (acquisition text)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 78868,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78871,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Giver is honestly null, and the answer correctly does not use the guide's 'Wiki list: Chloe' attribution. The wiki record refs/freerealms-wiki/harvest/lists/quests.json:3552-3558 has givers: [] and ap",
+    "dialog.offer: The answer leaves dialog.offer null although the repo record (ninja.json:737) assigns 78868 as intro_text_string_id. The answer's hedge is fair, but it does not mention that the repo already maps 7886",
+    "objectives[0]: The objective is correctly matched to locale 78870 (verified: 'The Shadow Talon kidnappers have taken their captives to an undisclosed location in Snowhill. Find them and save them!'). Its target is a",
+    "evidence: Title id 78869 and the ugdt 2105105533 / ucdt 2309051198 split are verified in the locale data (en_us_data.dat:55473 and :60779). Locale 78869 resolves to 'Ninja: Troubled Waters'. Locale 78870 and 78",
+    "giver: The answer leaves giver null, but the repo's Ninja guide (notes/Build Guides/Content/Jobs/Ninja.md:91 and :211) names Chloe as giver from the wiki job list, and the answer's own line name says 'Chloe ",
+    "dialog.offer: Locale 78868 is confirmed as quest-tagged text ('find Frostpetal in Snowhill'), and its opening 'For now your training is complete' reads like an offer or handoff line. The answer correctly leaves off"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3110012,
+   "record": "quest-lines/quests.json q3110012",
+   "quest_file": "ninja.json",
+   "title": "Ninja: Return to the Mentor",
+   "live": "yes",
+   "giver": {
+    "name": "Frostpetal",
+    "npc_id": "9000000093",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000093,
+    "name": "Frostpetal",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Ty in Lakeshore and inform him of your findings thus far.",
+     "text_locale_id": 78874,
+     "target": "Ty",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000223,
+      "name": "Ty",
+      "file": "npcs/lakeshore.json",
+      "zone": "Lakeshore",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 78872,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].target_locale_id: Target 'Ty' has no locale id and the target NPC id 9000000223 is only from the repo record (ninja.json:752), not from client text. The answer does flag this itself, so it is honest, but the target is ",
+    "giver.locale_id: Null, and the giver rests on the wiki Frostpetal 'Quests' list. I confirmed that list includes 'Quest:Ninja: [Return to the Mentor]' (wiki page Frostpetal), so the giver is supported at wiki level, no",
+    "next: Empty and marked open. Candidate 3110013 (Ninja: Achieve Level 10, giver Ty) is not confirmed as sequential; the wiki Ty list order is not sequence evidence. Acceptable as stated since the answer does",
+    "line: Previous link 3110011 rests only on the repo prerequisite field (ninja.json:745-747). Client text for Troubled Waters (locale 78868-78871) and the wiki Ninja page ordering are consistent with it, so t",
+    "line.next: Next is left empty. Repo record 3110013 ('Ninja: Achieve Level 10', giver 9000000223) has an empty prerequisite list, but the wiki Ty page lists 'Ninja: Achieve Level 10' after 'Return to the Mentor' ",
+    "line.previous: Previous 3110011 rests on the repo prerequisite_quest_ids field only. The wiki Ninja page lists Troubled Waters directly before the Frostpetal entry, which supports the link. The answer's 'Ty' label i"
+   ],
+   "blocked_by": [
+    "giver 'Frostpetal' row 9000000093 not placed"
+   ]
+  },
+  {
+   "quest_id": 3110014,
+   "record": "quest-lines/quests.json q3110014",
+   "quest_file": "ninja.json",
+   "title": "Contract: Sharp Claws and Sharper Swords",
+   "live": "unsure",
+   "giver": {
+    "name": "Ree Peatpants",
+    "npc_id": "9000000439",
+    "locale_id": 388454
+   },
+   "resolved_giver": {
+    "npc_id": 9000000180,
+    "name": "Ree Peatpants",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Cray Marauders and Fleetfoot Ninjas (as asked by Ree Peatpants)",
+     "text_locale_id": 388405,
+     "target": "Cray Marauders",
+     "target_locale_id": 73977,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Fleetfoot Ninjas",
+     "text_locale_id": 388405,
+     "target": "Fleetfoot Ninjas",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388403,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388406,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: The second objective row ('Defeat Fleetfoot Ninjas') reuses locale 388405, which is one sentence naming both targets. No separate client line exists for Fleetfoot Ninjas. The split is the answer's own",
+    "objectives[0].text: The text '(as asked by Ree Peatpants)' is a paraphrase appended to the locale text, not the locale string itself. Minor wording.",
+    "giver: Verified: locale 388454 = 'Ree Peatpants'; wiki Ree Peatpants page lists 'Contract: Sharp Claws and Sharper Swords (repeatable)'; repo ninja.json 863-865 has giver_npc_id 9000000439. Npc id itself is ",
+    "title / dialog ids: Verified: 388404 title, 388403 offer (Chloe's reports, Cray Marauders and ninjas), 388406 completion all match client text with no FLAG. Ids are correct.",
+    "line: Previous 3110013 is supported by ninja.json 866-867 and the wiki Ninja page. Next [] is consistent with the record, which has no successor for 3110014. The 3110015 sibling is supported by ninja.json 9",
+    "previous: Previous link 3110013 'Ninja: Achieve Level 10' is supported: repo ninja.json:866-868 gives 3110014 prerequisite_quest_ids [3110013], and the same gate is on 3110015 (ninja.json:918-920). The answer i"
+   ],
+   "blocked_by": [
+    "giver 'Ree Peatpants' row 9000000180 not placed",
+    "defeat target 'Cray Marauders' not placed in our rows",
+    "defeat target 'Fleetfoot Ninjas' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3110015,
+   "record": "quest-lines/quests.json q3110015",
+   "quest_file": "ninja.json",
+   "title": "Ninja: Shadows in the Snow",
+   "live": "yes",
+   "giver": {
+    "name": "Ty",
+    "npc_id": "9000000223",
+    "locale_id": 78875
+   },
+   "resolved_giver": {
+    "npc_id": 9000000223,
+    "name": "Ty",
+    "file": "npcs/lakeshore.json",
+    "zone": "Lakeshore",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Ty has directed you to defeat Tavil, in the Deep Mines of Snowhill.",
+     "text_locale_id": 78878,
+     "target": "Tavil",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 78875,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78879,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "live / live_reason: The live claim rests on the title and dialog strings having no FLAG and on Ninja.md listing the quest. Ninja.md is a build guide, not evidence that the quest is live. The record itself has enabled: fa",
+    "line / min_level: The answer leaves the level gate open, but the Ninja.md row B6 'Achieve Level 10' is the prerequisite and D2 is listed as 'After B6'. The Band 3 label and the level-10 prerequisite both point to a lev",
+    "evidence[5] (giver): The citation 'NPCs - Lakeshore.md:39' was not checked. The id 9000000223 does appear in the repo's lakeshore.json and jobs.json, and ninja.json uses it as giver_npc_id, so the giver id is supported by",
+    "objectives[0].target: Tavil is named in the text (78876, 78878) and the Ninja.md row, but there is no client NPC id for him. The answer leaves target_locale_id null, which is honest, but it means the objective target canno",
+    "objectives[0].target_locale_id: The answer leaves the target null, but the client has a plain string for the boss name: locale 130708 'Tavil' (also 130704 \"Tavil's Punch\", which is not the target). The answer's open note says no tar",
+    "line.previous / line.next: Checked: Ninja.md row B6 (Achieve Level 10) precedes D2, and D3 (Burst of Speed, locale 78881 / 2959310492) follows. The giver, Ty, is consistent with the NPC data. The chain link holds."
+   ],
+   "blocked_by": [
+    "defeat target 'Tavil' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3130024,
+   "record": "quest-lines/quests.json q3130024",
+   "quest_file": "postman.json",
+   "title": "Postman: What a Mess!",
+   "live": "yes",
+   "giver": {
+    "name": "Loryn",
+    "npc_id": "9000000132",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000132,
+    "name": "Loryn",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Help Loryn clean up the mail mess in Snowhill.",
+     "text_locale_id": 130269,
+     "target": "Loryn",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the What A Mess! minigame",
+     "text_locale_id": 130270,
+     "target": "What A Mess! minigame (client minigame id not resolved)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Give him a status update on the clean up.",
+     "text_locale_id": 130273,
+     "target": "Loryn",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000132,
+      "name": "Loryn",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 130263,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 130271,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 130266,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "live: Stated as \"yes\", but the only support is the wiki listing and an unflagged title. The record is enabled:false and nothing confirms the quest is live in-game. The answer's own live_reason concedes this",
+    "objectives[1].target: The minigame target is unresolved. The guide's 861770663 is an unverified hash, not a locale id, so a builder cannot wire the minigame objective from this answer. The guide also lists 'Complete the Sn",
+    "giver.locale_id / objectives[0,2].target_locale_id: Giver and target locale ids are null. Client npc_name 130267 ('Mother Lode Miner', hint Loryn) is an unresolved conflict, so there is no verified locale id for Loryn.",
+    "previous: The link to Postman: Fair Warning rests on guide row 21 and wiki order, not on a server prerequisite. The chain note says Fair Warning's answer also lists PCA Takedown (130245) as next, so the linear ",
+    "objectives[0]: Objective 0 reuses the description string (130269 is the same text as the description 130265 in the title cluster). It is a restatement of the goal, not a separate step, so it adds no trackable object",
+    "live: The 'live: yes' verdict is stronger than its sources. Title 130264 is unflagged and the wiki lists the quest under Loryn, but the record is enabled:false and nothing confirms it is live in-game. The a"
+   ],
+   "blocked_by": [
+    "giver 'Loryn' row 9000000132 not placed",
+    "needs mechanic: minigame (What A Mess! minigame (client minigame id not resolved))",
+    "talk target 'Loryn' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3130025,
+   "record": "quest-lines/quests.json q3130025",
+   "quest_file": "postman.json",
+   "title": "Postman: A Plea for Help",
+   "live": "yes",
+   "giver": {
+    "name": "Loryn",
+    "npc_id": "9000000132",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000132,
+    "name": "Loryn",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Sort the mail for Loryn in Snowhill.",
+     "text_locale_id": 130287,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 130281,
+     "speaker": "Loryn"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130284,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "evidence / live_reason: The answer says the link is 'not fully confirmed' and that the guide says no string names the title. Client lookup shows locale:130282 is exactly 'Postman: A Plea for Help' (quest_title, Snowhill, Lor",
+    "objectives[0]: The single objective has no target and no count, and the completion step is unknown, so the quest cannot be fully wired. The sorting minigame (locale:130290, 'Complete the Snowhill Mail Sorting miniga",
+    "objectives: Locale 130283 ('Help Loryn get all the mail sorted and clean up this disaster.', quest_objective, hint 'A Plea For Help') is cited as evidence but is not in objectives or open. Confirmed in client.",
+    "line: previous/next links rest on guide row order only ('After What a Mess!' and 'After A Plea for Help' in rows 22-23). The answer correctly marks this as guide order. Nothing in the other chain notes cont",
+    "objectives[0]: The only objective is the hint-tied flavour line 130287 'Sort the mail for Loryn in Snowhill.' with no target and no count. The likely real step, 'Complete the Snowhill Mail Sorting minigame' (locale:",
+    "completion: The completion step is unknown. Loryn's return line 130292/130293 ('Speak with Loryn' / 'Let him know how the mail sorting is going.') is a plausible hand-in for this quest, and the answer leaves it o"
+   ],
+   "blocked_by": [
+    "giver 'Loryn' row 9000000132 not placed"
+   ]
+  },
+  {
+   "quest_id": 3130026,
+   "record": "quest-lines/quests.json q3130026",
+   "quest_file": "postman.json",
+   "title": "Postman: Biting Back",
+   "live": "unsure",
+   "giver": {
+    "name": "Loryn",
+    "npc_id": "9000000132",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000132,
+    "name": "Loryn",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use your Mail-Morph ability to turn into a wolf and then click on the PCA Tricksters when you're close enough.",
+     "text_locale_id": 130747,
+     "target": "PCA Tricksters",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Terrorize the Tricksters",
+     "text_locale_id": 130746,
+     "target": "PCA Tricksters",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Biting Back minigame",
+     "text_locale_id": 130300,
+     "target": "Biting Back minigame",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Bite those PCA postman and get the Snowhill mail through!",
+     "text_locale_id": 130299,
+     "target": "Snowhill mail",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Tell him about your four-legged mail deliveries.",
+     "text_locale_id": 130303,
+     "target": "Loryn",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000132,
+      "name": "Loryn",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no coin, XP or item evidence found",
+     "source": "locale:130297 (completion line only)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 130294,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130297,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "live: Live status is left as 'unsure'. I checked locale:130295 ('Postman: Biting Back') and locale:115988 ('NOT LIVE - Biting Back'); the NOT LIVE line is a separate string and does not flag 130295. The 'un",
+    "objectives[0]: Verified: locale:130747 is the unflagged wolf-form click text. The answer omits that the backstory (locale:130743) also names the Chihuahua form for speed (guide row 23 and Mail-Morph table list Chihu",
+    "objectives[2]: The minigame id 130300 checks out as text, but the guide cites 1116696231 for the same objective, which is a ucdt/ugdt hash, not a locale id. The answer does not mention that conflict.",
+    "giver: Giver locale is null and the NPC link rests on record 9000000132 and the Snowhill guide (NPCs - Snowhill.md:28). Verified in the guide. Acceptable as stated.",
+    "line: Previous/next come from the guide's row 23/24 order and from the repo record (Summit 3130027 at postman.json:1348). The Summit record's previous is empty in the repo, so the chain link is not yet wire",
+    "line.next / record 3130027 (Summit): The chain link is one-sided as stored: Summit (3130027) has prerequisite_quest_ids [] in postman.json:1351, so the Biting Back -> Summit link does not exist in the data. The answer notes this as an op"
+   ],
+   "blocked_by": [
+    "giver 'Loryn' row 9000000132 not placed",
+    "needs mechanic: minigame (Biting Back minigame)",
+    "talk target 'Loryn' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3130027,
+   "record": "quest-lines/quests.json q3130027",
+   "quest_file": "postman.json",
+   "title": "Postman: Summit in Shrouded Glade",
+   "live": "unsure",
+   "giver": {
+    "name": "Loryn",
+    "npc_id": "9000000132",
+    "locale_id": 178
+   },
+   "resolved_giver": {
+    "npc_id": 9000000132,
+    "name": "Loryn",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head to Shrouded Glade for the postmaster meeting.",
+     "text_locale_id": 130310,
+     "target": "Shrouded Glade",
+     "target_locale_id": 1649,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Brin Galeglow in Shrouded Glade",
+     "text_locale_id": 130311,
+     "target": "Brin Galeglow",
+     "target_locale_id": 45410,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000031,
+      "name": "Brin Galeglow",
+      "file": "npcs/shrouded_glade.json",
+      "zone": "Shrouded Glade",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 130304,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "completion / open[1]: The answer says the guide 'does not say' Brin is the hand-in and declines to name one. But notes/Build Guides/Content/NPCs/NPCs - Shrouded Glade.md:180 lists this quest as 'Loryn (Snowhill), hand-in B",
+    "previous / next: previous and next come only from the guide's row order (Postman.md:118 and row 25), not from any client or record prerequisite. The answer does flag this in open[0], so it is disclosed, not a wrong id",
+    "dialog.complete / line.next: The completion dialog 130307 is attached to the Summit without evidence beyond its Shrouded Glade cluster. The guide's row 25 assigns the same text (254935529, marked †) to Beware of Dogs, so the attr",
+    "objectives[0] / objectives[1]: I confirmed the ids and texts: 130310 'Head to Shrouded Glade for the postmaster meeting.', 130311 'Talk to Brin Galeglow in Shrouded Glade', 45410 'Brin Galeglow', 1649 'Shrouded Glade', 130305 title",
+    "giver: The wiki lookup supports Loryn in Snowhill as giver for Summit in Shrouded Glade, and 178 resolves to 'Loryn'. The giver is correct."
+   ],
+   "blocked_by": [
+    "giver 'Loryn' row 9000000132 not placed"
+   ]
+  },
+  {
+   "quest_id": 3140001,
+   "record": "quest-lines/quests.json q3140001",
+   "quest_file": "soccer_star.json",
+   "title": "Become a Soccer Star",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000547",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Manager Landon",
+     "text_locale_id": 412468,
+     "target": "Manager Landon",
+     "target_locale_id": 401744,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000140,
+      "name": "Manager Landon",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Learn how to be a soccer star by finding Manager Landon in Snowhill.",
+     "text_locale_id": 412464,
+     "target": "Snowhill Soccer Field",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The answer says no source maps Manager Landon to an NPC id, but prototype/osfr-tools/data/content/npcs/snowhill.json:23623-23638 has a resolved record for 'Manager Landon' under npc_id 9000000140 (nam",
+    "evidence[4] (locale:442231): 442231 is typed 'ui' in the lookup output, not 'quest_objective'. The claim that it is quest client text is weaker than the answer implies. Locale 442261 ('Speak to Manager Landon in Snowhill', quest_",
+    "objectives[1]: The second objective is kind 'go' with text 412464, which is the quest description rather than a separate objective string. Its target 'Snowhill Soccer Field' has no locale id and rests only on the gu",
+    "giver: giver.npc_id 9000000547 is a deterministic batch ref key, not a resolved NPC id. npcs_unresolved.json:5110 gives name null, kind unknown, and the guide's row 0a says the giver is 'unknown (town referr",
+    "objectives: The job-unlock objective 'Obtain the Soccer Star job' (117811, quest_objective-type, unflagged) is left out of objectives, although the answer itself treats it as the likely live objective. The answer",
+    "line.next: Next is left empty. The guide's row 1 'Soccer Star: Snowy Scrimmage' is a plausible successor, and the answer says so in open[] but does not record it as a candidate. This is acceptable because the li"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3140002,
+   "record": "quest-lines/quests.json q3140002",
+   "quest_file": "soccer_star.json",
+   "title": "Being a Better Soccer Star",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000548",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Learn how to advance your skill as a Soccer Star by speaking with Manager Landon in Snowhill",
+     "text_locale_id": 442246,
+     "target": "Manager Landon",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000140,
+      "name": "Manager Landon",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].target: The objective text (locale:442246) does name Manager Landon, so the target is supported. target_locale_id is correctly left null, since no NPC name-id mapping exists in the batch (npcs_unresolved.json",
+    "evidence[3] (guide row 0b): The guide's row 0b (Soccer Star.md:70) confirms giver 'unknown' and prerequisite 'Job owned (inferred)'. The guide's objective id 887498407 differs from 442246, and the answer correctly flags this as ",
+    "evidence[5] (wiki Template:News): The Members Only claim is supported by the wiki text (Template:News and User blog Weekly Update 01/15/14: 'Soccer Star are once again Members Only jobs'), but the answer gives no page id or date.",
+    "line: previous/next are empty, but the guide's row order (0a Become a Soccer Star, 0c Running Towards Soccer Stardom) is a candidate sequence. The answer says so in open, so this is honest, not a failure.",
+    "giver: No giver is resolved: npc 9000000548 has name null and kind 'unknown' (npcs_unresolved.json:5135-5142). The answer correctly does not treat Manager Landon as giver.",
+    "line: The line name 'Soccer Star job entry titles (Arc 0)' is the answer's own grouping. The client cluster locale:442268-442282 holds the same 'Being a Better <Job>' title pattern for about 15 jobs (Archer"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3140014,
+   "record": "quest-lines/quests.json q3140014",
+   "quest_file": "soccer_star.json",
+   "title": "Soccer Star: Mascot Madness",
+   "live": "yes",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000057",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000053,
+    "name": "Coach \"Golden Leg\" Eddie",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use your \"Mascot Madness\" ability to dress up as your team's mascot, a husky, and deliver some fliers to some fans in Snowhill!",
+     "text_locale_id": 406977,
+     "target": "Snowhill fans",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "As the team mascot, hand out fliers for Coach \"Golden Leg\" Eddie.",
+     "text_locale_id": 402799,
+     "target": "Snowhill fans",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 402601,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410404,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver.locale_id: Left null, but the client has the giver name as npc_name locale 401743 'Coach \"Golden Leg\" Eddie' (no FLAG). The answer says it was 'carried from the previous answer and not re-verified', and the chec",
+    "line.previous / line.next: Both empty. The line placement is therefore unverified. Client text has 'Soccer Star: The Perfect Mascot' (ugdt 245246518, in the locale data files) and 'Soccer Star: Achieve Level 2' (175578003), but",
+    "objectives[1]: The target 'Snowhill fans' is inferred from the objective text and has no locale id. The objective text 402799 checks out as a quest_objective with the npc tag for Coach Eddie.",
+    "objectives (missing): quest_objective 402603 ('Change into the mascot costume and hand out fliers.', no zone tag) is a plausible live step the answer does not mention. It may be a sibling line for the same objective, so it",
+    "dialog.complete / reminder: Reminder 410404 ('You should use your Mascot Madness ability before you try to hand out the fliers!', quest_dialog, untagged) is live text tied to this quest and is not recorded. Completion stays null",
+    "giver.locale_id: Left null, but the giver's name is verifiable in the client. locale:401743 is npc_name 'Coach \"Golden Leg\" Eddie' (untagged, no FLAG). locale:415577 is a second npc_name for the same coach. The answer"
+   ],
+   "blocked_by": [
+    "giver 'Coach \"Golden Leg\" Eddie' row 9000000053 not placed",
+    "deliver target 'Snowhill fans' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3140017,
+   "record": "quest-lines/quests.json q3140017",
+   "quest_file": "soccer_star.json",
+   "title": "Soccer Star: Missing Soccer Balls",
+   "live": "yes",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000057",
+    "locale_id": 2872604531
+   },
+   "resolved_giver": {
+    "npc_id": 9000000053,
+    "name": "Coach \"Golden Leg\" Eddie",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Find the missing soccer balls (client objective: \"While you were off playing the Double Challenge, a bunch of soccer balls vanished... Coach \"Golden Leg\" Eddie wants you to find the missing soccer balls.\")",
+     "text_locale_id": 414960,
+     "target": "soccer balls",
+     "target_locale_id": 414958,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward is recorded in our record or the client strings found; the completion line only says \"thanks for helping me gather them up\".",
+     "source": "locale:414961"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 414958,
+     "speaker": "Coach \"Golden Leg\" Eddie"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 414961,
+     "speaker": "Coach \"Golden Leg\" Eddie"
+    }
+   },
+   "critic_problems": [
+    "objectives[0].count: Count is null, but the guide's row 14 text (client 2060372268, six balls near the soccer field) is not checked. The answer admits this in open items. A builder cannot wire a count from it.",
+    "objectives[0].target_locale_id: target_locale_id 414958 is the offer dialog line (quest_dialog), not an objective target string. The objective text 414960 is correct, but the target reference points at a dialog line.",
+    "dialog.offer / dialog.complete: Verified: locale 414958 (offer, quest_dialog, hint Missing Soccer Balls) and 414961 (complete) exist with no FLAG in the lookup output. The title 414959 and objective 414960 also check out. Giver ucdt",
+    "zone: Snowhill is an inference from the guide row, not a client string. The answer flags it as inferred, which is honest.",
+    "objectives[0]: The objective is typed as a plain collect with target_locale_id 414958, but 414958 is the offer dialog line, not an objective or target string. The answer also leaves the count null. The client does c",
+    "title / alt title: A second unflagged title 'Missing Soccer Balls' (locale:415017) and objective 'Find the missing soccer balls' (locale:415123) exist and are not mentioned. The answer does not say which title belongs t"
+   ],
+   "blocked_by": [
+    "giver 'Coach \"Golden Leg\" Eddie' row 9000000053 not placed"
+   ]
+  },
+  {
+   "quest_id": 3150003,
+   "record": "quest-lines/quests.json q3150003",
+   "quest_file": "warrior.json",
+   "title": "Warrior: Warrior's Rites",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000302",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Morninglory near the Hot Springs Haven",
+     "text_locale_id": 70898,
+     "target": "Morninglory",
+     "target_locale_id": 16826,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000155,
+      "name": "Morninglory",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Yetis in Hot Springs Haven",
+     "text_locale_id": 70900,
+     "target": "Yeti Bouncer",
+     "target_locale_id": 6501,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Amateur Warrior Axe (level 1, since retired); not linked to this quest in the client",
+     "source": "repo:notes/Build Guides/Content/Jobs/Warrior.md:84 (guide only; locale:10278 exists but is untagged to this quest)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 70892,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1].target: The target 'Yeti Bouncer' (locale 6501) is listed as the objective target, but it is an inference from the offer text, not from the objective. I confirmed 6501 exists as a bare name, but the client ta",
+    "giver: The giver is null. Morninglory is only the target and the offer speaker, and the answer says so. The 'Morninglory speaks the offer' claim rests on the guide alone. Nothing in the client tags her as th",
+    "line.next: The next title 'Warrior: One With Your Weapon' has no client locale id. Locale 22579 is a Morninglory hand-off line, but the answer does not show it is tagged to that quest. The claim that 22579 is th",
+    "line.previous: The previous link (Warm-up, 77223) is confirmed as a title. The server chain is broken, though, since W2 (3150002) is disabled. The answer discloses this.",
+    "rewards: The reward comes only from the guide. Locale 10278 exists but is not tagged to this quest.",
+    "giver: Giver is null. The answer leaves the server key 9000000302 unresolved, and the guide's 'Dewey, then Morninglory' is not verified in the client. Locale 91716 (Dewey's hand-off: 'Go see Morninglory... n"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "defeat target 'Yeti Bouncer' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3150021,
+   "record": "quest-lines/quests.json q3150021",
+   "quest_file": "warrior.json",
+   "title": "Warrior: Hero in the Making",
+   "live": "unsure",
+   "giver": {
+    "name": "Fastvi Frostflutter",
+    "npc_id": "9000000085",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000085,
+    "name": "Fastvi Frostflutter",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "It is time to pass on the task of protecting Snowhill, but first my axe must be restored. The pieces of my weapon have lost their power over the years, but we can imbue them with magic again. You will need a red and blue singing crystal. Therin should have them, but they won't be cheap!",
+     "text_locale_id": 71503,
+     "target": "red and blue singing crystal",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 71500,
+     "speaker": "Fastvi Frostflutter"
+    },
+    "progress": {
+     "locale_id": 71503,
+     "speaker": "Fastvi Frostflutter"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line.next: next is left empty. The evidence does not contradict an empty next, but it does not settle it either. Locale 71533 (Rescue and Reclaim) says 'Take your new axe', so the axe restoration precedes Rescue",
+    "line.previous: The link is one-sided. The Steele is Useful answer's chain note lists 'Warrior: Hero in the Making' as its next (probable), but this answer does not reflect that link in the reverse direction. The pre",
+    "objectives[0]: The objective is the progress dialog 71503 with no quest_objective line and no target id. The target 'red and blue singing crystal' is listed as a name only. The wiki's rescue text (627054189) is corr",
+    "line.name: The line name 'Warrior: Fastvi's axe restoration (Snowhill)' is the answer's own label, not a client or wiki title.",
+    "giver: No client line names Fastvi Frostflutter as giver of locale 71504. The attribution rests only on the wiki quest list and the Warrior guide row W21, which the answer cites. It is marked open, so it is ",
+    "line.next: next is left empty. The answer itself says 71533 ('Take your new axe', Rescue and Reclaim) follows the restoration. The Steele answer lists Hero in the Making as probable next, so the chain is not clo"
+   ],
+   "blocked_by": [
+    "giver 'Fastvi Frostflutter' row 9000000085 not placed"
+   ]
+  },
+  {
+   "quest_id": 3150023,
+   "record": "quest-lines/quests.json q3150023",
+   "quest_file": "warrior.json",
+   "title": "Contract: Defending Snowhill",
+   "live": "yes",
+   "giver": {
+    "name": "Caleb Sleepyswing",
+    "npc_id": "9000000267",
+    "locale_id": 388352
+   },
+   "resolved_giver": {
+    "npc_id": 9000000040,
+    "name": "Caleb Sleepyswing",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Caleb needs all able-bodied warriors to help defend the recruit camp in Snowhill from ice trolls, yetis, and snowmen.",
+     "text_locale_id": 388370,
+     "target": "ice trolls, yetis, snowmen (Snowhill)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388368,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388371,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Giver zone is contradictory. The wiki Warrior page lists Caleb Sleepyswing in Northern Wilds, and client locale:387439 says to find him 'just south of the Roadhouse', which is not Snowhill. The answer",
+    "objectives[0]: The objective is description-only (kind 'other', no target, no count). The answer's wording and ids are correct (locale:388370 verified), but a builder has no kill target to wire. The answer flags thi",
+    "line: Chain checks out: locale:387597 'Warrior: Achieve Level 20' is the prerequisite title, and the Fastvi dialog (locale:387596) points to Caleb for work after level 20. The wiki Fastvi entry lists 'Contr",
+    "live_reason / evidence[6]: The wiki snippet for the Warrior page that mentions Caleb Sleepyswing with 'Repeatable Quest' is attached to the 'What Duty Demands' entry ('..What Duty Demands - [Caleb] [Sleepyswing] in Northern Wil",
+    "giver / zone: Giver zone conflict is real: the wiki and NPCs - Wilds.md:41 place Caleb Sleepyswing in Northern Wilds, while the quest title is tagged Snowhill. The answer flags this as open, which is acceptable, bu"
+   ],
+   "blocked_by": [
+    "giver 'Caleb Sleepyswing' row 9000000040 not placed"
+   ]
+  },
+  {
+   "quest_id": 3160018,
+   "record": "quest-lines/quests.json q3160018",
+   "quest_file": "wizard.json",
+   "title": "Contract: Robgoblin Magic",
+   "live": "unsure",
+   "giver": {
+    "name": "Natali",
+    "npc_id": "9000000159",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9500000360,
+    "name": "Natali",
+    "file": "npcs/lakeshore.json",
+    "zone": null,
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Natali wants a wizard to defeat opponents in the Deep Mines and Bat Cave at Snowhill.",
+     "text_locale_id": 388289,
+     "target": "Deep Mines and Bat Cave (Snowhill)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388287,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388290,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: npc_id 9000000159 comes only from the evidence pack's wizard.json. I did not verify it against Natali's ucdt 2516236267 / ugdt 1463908326 (Wizard.md:47, NPCs - Lakeshore.md:42). The answer leaves give",
+    "objectives[0]: The id, text and tag check out: locale 388289 is the quest_objective for 3160018 and names Natali and the Deep Mines and Bat Cave at Snowhill. Its target and count are not given in any source, so the ",
+    "line.next: The answer's next is 'unknown', which is accurate as far as it goes. The Wizard guide (Wizard.md:101-102) puts row 17, 'Wizard: Helping a Friend' (3160019), immediately after row 16 in wiki order. The",
+    "line.next: Stated as 'unknown', which is honest, but the answer's own open note shows 3160017 has two children (3160018 and 3160019 both list prerequisite 3160017 in wizard.json:952-956 and 1004-1009). Nothing i",
+    "objectives[0]: The single objective is kind 'other' with no target id, count or kind. The offer (388287) also asks for wizard staffs from robgoblin wizards and names Elder Deep Bats and Swarming Shriekers. These are",
+    "zone: The Lakeshore placement is repo/wiki only (NPCs - Lakeshore.md:42, Wizard.md:47). The answer already labels this as unconfirmed, so it is accepted. The client hint 'Snowhill' on 388287/388290 and the "
+   ],
+   "blocked_by": [
+    "giver 'Natali' row 9500000360 not placed"
+   ]
+  }
+ ]
+}

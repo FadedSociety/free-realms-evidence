@@ -1,0 +1,628 @@
+{
+ "zone": "Wildwood",
+ "wireable_by_match": [
+  {
+   "quest_id": 3060031,
+   "record": "quest-lines/quests.json q3060031",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: An Incomplete Set",
+   "live": "yes",
+   "giver": {
+    "name": "Jace Wildwheel",
+    "npc_id": "9000000357",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000357,
+    "name": "Jace Wildwheel",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 393397,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 397956,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives: Empty objectives. The answer correctly says the props-recovery step has no hinted quest_objective line, and 394106 belongs to The Odd Audition. Honest open item, not a failure. The answer's 'live: yes",
+    "dialog.complete: 397956 is verified as an unflagged line with hint Sydney Spellmerg ('Thanks a bunch! These few items should do the trick. The director, Sydney Spellmerg, is ready for you now.'). It is a props-collect",
+    "giver: Giver 9000000357 matches the record (record 3060031 line 1205). Name 'Jace Wildwheel' is from the guide marked '(inferred)', and the intro 393397 has no speaker tag tying it to Jace. Name locale_id is",
+    "line: Previous/next come from guide row order (27 Stunt Double, 29 Action!), not prerequisites. The record has empty prerequisites. The answer discloses this. Record 3060032 (403473 Action!) is confirmed in",
+    "objectives: Objectives are empty. The client has a props-recovery story (intro 393397, props-collected 397956), but no objective line is hinted to this quest. The answer says so honestly in `open`, so this is a g",
+    "giver: Jace Wildwheel is inferred, not tagged. Locale 393397 has no speaker tag tying it to Jace, and the guide row 28 says '(inferred)'. The intro's wording ('casting you as our stunt double') fits Jace's S"
+   ]
+  },
+  {
+   "quest_id": 3060044,
+   "record": "quest-lines/quests.json q3060044",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Wildwood Derby 1000",
+   "live": "unsure",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "resolved_giver": {
+    "npc_id": 9000000289,
+    "name": "Crash Davis",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: previous and next are both empty with no source. The record only says it is in the Demo Derby Driver job list (repo jobs.json:672, next to 3060012 and 3060013), and guide row 41 implies a series order",
+    "zone: Zone conflict is left open. The answer gives 'Wilds per repo guide', but wiki:Speedways (checked) puts Wildwood in Sanctuary. The giver dossier also places Crash Davis at Thunder Falls, which the same",
+    "live: Live status is marked unsure, which is honest. The objectives and dialog are empty, and the record is enabled:false. The wiki says Demo Derby is offered at Wildwood, which is supporting evidence only.",
+    "giver: Giver is correct as far as it goes: locale 100234 = 'Crash Davis' (checked), and the NPC id 9000000289 comes from the record. The answer correctly excludes flagged 419307.",
+    "evidence[8]: Cites locale:419307 as a source line. The line is FLAGGED placeholder and the automatic check marks it as not live evidence. The answer does say it is not used, so this is a citation of a flagged line",
+    "giver.zone: The answer gives Wildwood as the zone while the NPC record says 'Wilds' and wiki:Speedways places Wildwood in Sanctuary. The conflict is correctly flagged as unresolved, but the answer's top-level zon"
+   ]
+  },
+  {
+   "quest_id": 3080009,
+   "record": "quest-lines/quests.json q3080009",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Exploder's League Sponsorship",
+   "live": "yes",
+   "giver": {
+    "name": "Blammo",
+    "npc_id": null,
+    "locale_id": 394488
+   },
+   "resolved_giver": {
+    "npc_id": 9500000872,
+    "name": "Blammo",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Blammo at the Wildwood Speedway.",
+     "text_locale_id": 394490,
+     "target": "Blammo",
+     "target_locale_id": 394488,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000872,
+      "name": "Blammo",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Sponsorship by the Robgoblin Exploder's League is the story outcome; no coin, item or XP amount found for this quest",
+     "source": "locale:394486 (completion dialog); the sponsorship-deal news line locale:394590 is not used here, see open"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 394486,
+     "speaker": "Blammo"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "evidence[4] / line text: Locale 394485 is labelled 'Journal/quest description'. The client tags it quest_dialog (speaker Blammo), and the answer's own open list says so. The label is wrong, but the id and text are correct.",
+    "giver.npc_id: giver npc_id is null, so the builder has no server NPC id to wire the giver. The name Blammo is backed by locale 394488 (npc_name), which I confirmed. Blammo's name hashes exist in NPCs - Wilds.md:148",
+    "dialog.offer / giver: Locale 394483 is tagged to Blammo, but its text refers to 'that robgoblin, Blammo over there', so the offer is probably spoken by T.R. Walker Jr. (the guide cites 241877165). The answer's 'provisional",
+    "line.previous: 'You Want To Go Fast?' is an inferred predecessor (guide row 6 says 'After Challenging T.R. (inferred)'). The answer flags it as unconfirmed, which is honest, but it is still listed as previous with n",
+    "zone: The title (394484) is tagged Wildwood Speedway, while completion 394486 is tagged Sacred Grove. The answer takes the zone from the title and says so. That is fine, but the zone is only as good as the ",
+    "line.previous: The previous link 'Kart Driver: You Want To Go Fast?' is inferred only. Guide row 6 marks it 'After Challenging T.R. (inferred)', and locale:394485 names no quest. The client does have that quest (loc"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3060028,
+   "record": "quest-lines/quests.json q3060028",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: An Eye for Talent",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000004",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head down to the Wildwood track and speak with Carter's colleague.",
+     "text_locale_id": 394037,
+     "target": "Carter's colleague at the Wildwood track (unnamed)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives: The answer lists only one objective (locale:394037). The guide's row 25 also gives 'Speak to Carter Coal' (locale:2870586271 per the guide, client text 'Speak to Carter Coal' at locale:395790). The an",
+    "line.previous / line.next: The answer hedges these links as guide-inferred, which is honest. But the chain note shows the neighbouring answers do not reciprocate: 'Demo Derby: Not One, But a Few' lists no previous, and 'Frost R",
+    "title / live: The title is correctly flagged as ambiguous. Both locale:403469 ('Demo Derby: An Eye for Talent') and locale:393314 ('An Eye for Talent') are unflagged quest_title lines in the lookup, so the answer's",
+    "line.previous: The link to 'Demo Derby: Frost Ridge Invitational' (403486) is supported only by the Crash Cup finale text (393370, 'next big challenge... at the Wildwood track') and the guide's row 23 (inferred Cras",
+    "line.next: 'Demo Derby: Not One, But a Few' (403481) is linked only through the guide's inferred prerequisite (row 26: 'After An Eye for Talent (inferred)'). The 403481 title and its text (3912250301, 2207498022",
+    "giver / zone: The offer zone 'Snowhill area' comes only from the guide (row 25) and is not in the scout text 393394, which says 'secluded snowy stretch of land' and 'colleagues at Wildwood'. The Crash Cup finale (3"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3060029,
+   "record": "quest-lines/quests.json q3060029",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Not One, But a Few",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000270",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Prove you're the right one for the mysterious job by knocking out a few karts in the Wildwood arena!",
+     "text_locale_id": 394038,
+     "target": "Wildwood arena karts (derby encounter 287410212, unverified)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: The line.previous and line.next fields are empty, but the evidence names row 25 (An Eye for Talent) as previous and row 27 (Stunt Double) as next. The answer states them only in evidence and open. The",
+    "evidence[2]: The claim that the speech 'names Carter as the sender, so the speaker is Carter's employer' is an inference stated as fact. The text supports only that Carter was sent to find the player.",
+    "objectives[0].text_locale_id: The objective id 394038 is correct and verified (locale 394038 matches the text verbatim). The guide cites 3912250301 for the same text, but that id does not resolve in the locale, so the answer's cho",
+    "line.previous / line.next: Both arrays are empty, but the guide (Demolition Derby Driver.md rows 25 and 27) gives An Eye for Talent (row 25) as the previous quest and Stunt Double (row 27) as the next, and the answer's own evid",
+    "giver: Giver is still unresolved (npc 9000000270 has no name or locale id). The guide's 'likely Jace Wildwheel' is a guess. The arena speech (locale:393395, verified: 'I sent Carter to find me the best, and ",
+    "objectives[0].target: The target 'Wildwood arena karts (derby encounter 287410212)' is unverified: the guide's encounter id is not a locale id and no source confirms it. The kind 'other' is a placeholder. The objective tex"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3060033,
+   "record": "quest-lines/quests.json q3060033",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Hurtin' Crewe Act II",
+   "live": "yes",
+   "giver": {
+    "name": "Sydney Spellmerg",
+    "npc_id": null,
+    "locale_id": 394256
+   },
+   "resolved_giver": {
+    "npc_id": 9000000482,
+    "name": "Sydney Spellmerg",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Help Sydney Spellmerg film the final frames of 'Hurtin' Crewe' by collecting power-ups in Wildwood and going Ultimate!",
+     "text_locale_id": 394042,
+     "target": "power-ups",
+     "target_locale_id": 394110,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 393359,
+     "speaker": "Sydney Spellmerg"
+    },
+    "progress": {
+     "locale_id": 394475,
+     "speaker": "Sydney Spellmerg"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver npc_id is null, and the giver's zone 'Wildwood' is asserted while the only NPC record for Sydney Spellmerg (ref 9000000211, npcs_unresolved.json:1325-1332) says zone Briarwood, place 'Tangletrac",
+    "evidence: Answer omits the derby encounter id 715440651 that the guide's row 30 gives for this quest (Demolition Derby Driver.md:120). It is a relevant wiring clue for the objective (the power-up collection hap",
+    "objectives[0]: Verified: 394042 text matches exactly and is unflagged in the locale table; 394110 'Collect power-ups' and 394475 wording match; 403474 title and 394256 name match; 395022 is a separate Encounter titl",
+    "giver: The answer leaves giver npc_id null and treats record 9000000211 (zone Briarwood, place Tangletrack) as the only Sydney Spellmerg link. The guide's row 30 and NPCs - Wilds.md place him in Wildwood. Th",
+    "objectives[0] / evidence: The answer dismisses 395022 as a separate quest title. The guide's row 30 cites 'derby encounter 715440651', and 395022 is 'Hurtin' Crewe: Act II [Encounter]'. That encounter is probably this quest's ",
+    "line: The previous/next links match guide row order (row 29 Action!, row 31 Pixiewood Premiere), and the locale texts for 403473, 403474 and 403476 are as cited. The line claim holds."
+   ],
+   "blocked_by": [
+    "giver 'Sydney Spellmerg' row 9000000482 not placed"
+   ]
+  },
+  {
+   "quest_id": 3060043,
+   "record": "quest-lines/quests.json q3060043",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Wildwood",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000533",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "title / live: The record's title string 402743 is a place name ('Demo Derby: Wildwood', typed place in the client cluster), so the record's identity as the Wildwood Derby 1000 quest is unproven. The answer correctl",
+    "line: The line 'Crash Cup' rests on one dialog line (394481, quest_dialog) that names Wildwood Derby 1000 as the second event. That supports the event's membership, not a line for this record. The previous ",
+    "objectives / giver: No giver and no objectives. The answer lists these as open, which is honest. I checked the cited client texts: 394130 is quest_objective 'Knock out as many opponents as you can!', and 394132 and 39405",
+    "line: The Crash Cup line is only partly placed. Client text 393370 (quest_dialog, NPC cluster 'Crash Davis') says that after winning the first Crash Cup event you go 'south of Cobblestone Village at the Wil",
+    "title / record link: The record-to-quest link is unproven, as the answer admits. locale:402743 is typed 'place' ('Demo Derby: Wildwood'), and the Derby 1000 title 403485 matches by name only. The record is enabled=false w",
+    "giver: Giver 9000000533 is unresolved. The answer rightly drops Mad Jack and the Demolition Derby Trainer. Crash Davis (393370) is a possible name lead not considered."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3080003,
+   "record": "quest-lines/quests.json q3080003",
+   "quest_file": "kart_driver.json",
+   "title": "Challenge Verve McNichols",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000538",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Verve McNichols at the Wildwood Speedway.",
+     "text_locale_id": 394238,
+     "target": "Verve McNichols",
+     "target_locale_id": 101902,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000956,
+      "name": "Verve McNichols",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Verve McNichols in a kart race at the Wildwood Speedway.",
+     "text_locale_id": 394323,
+     "target": "Verve McNichols",
+     "target_locale_id": 101902,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1]: The race objective (locale:394323, 'Beat Verve McNichols in a kart race at the Wildwood Speedway.') exists, but no source ties it to record 3080003. The answer's own open note admits it could be the T",
+    "objectives[0] / dialog.offer: The answer omits two older Verve client lines that bear on this quest's offer and talk step: locale:101158 ('You should find Verve McNichols! They say he'll take any challenger...') and locale:101159 ",
+    "giver: Giver is null. The answer states this honestly, and npc 9000000538 is confirmed unresolved (npcs.json and npcs_unresolved.json). The quest is not wireable until the NPC behind 9000000538 is found, and",
+    "line.next: 'Kart Driver: Target Acquired' rests on guide row order, marked inferred. The chain note confirms the next quest's answer lists this one as previous, so the link is consistent but not independently so",
+    "line: The answer's ids check out: locale 3738 is 'Challenge Verve McNichols' (unflagged), 394238 and 394323 match the cited text, and 394241 is the record title string. Next link 'Kart Driver: Target Acquir",
+    "giver: Giver remains unknown (npc 9000000538 has no name), so the quest cannot be wired as-is. The answer correctly marks this as open; it is not a false claim."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Verve McNichols)"
+   ]
+  },
+  {
+   "quest_id": 3080004,
+   "record": "quest-lines/quests.json q3080004",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Target Acquired",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Verve McNichols in the \"Target Acquired\" race at Wildwood Speedway.",
+     "text_locale_id": 394327,
+     "target": "Verve McNichols",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver is null. The answer is honest about this (open item), and no client string in the pack or lookups names a giver for 3490/394327. Not a failure, but the quest is not wireable without it.",
+    "objectives[0].kind: 'minigame' is the answer's own classification, not a client type tag; the locale line is typed quest_objective. Minor wording only.",
+    "evidence/next: The note that locale 3739 'Even the Odds' is 'a bomb-minigame title' is an unsourced characterization. Locale 3739 does exist with text 'Even the Odds'; the bomb-minigame link is only suggested by the",
+    "line.previous: Previous link Challenge Verve McNichols is guide-inferred, as the answer says. Locale 394241 'Kart Driver: Challenge Verve McNichols' exists, but no client string states the prerequisite, and the chai",
+    "objectives[0]: Verified ids: 3490 is 'Kart Driver: Target Acquired' (other, unflagged); 394326 'Win the \"Target Acquired\" race' and 394327 'Beat Verve McNichols in the \"Target Acquired\" race at Wildwood Speedway.' a",
+    "giver: Giver is null. Npc 9000000539 has no client name or quest link in the pack. The guide's row 2 says giver unknown. This is an honest open item, not an error, but it blocks wiring."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Verve McNichols)"
+   ]
+  },
+  {
+   "quest_id": 3080008,
+   "record": "quest-lines/quests.json q3080008",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: You Want to Go Fast?",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000540",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Talk to T.R. Walker Jr.",
+     "text_locale_id": 394401,
+     "target": "T.R. Walker Jr.",
+     "target_locale_id": 101905,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000950,
+      "name": "T.R. Walker Jr.",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "use",
+     "text": "Click on the Crystal Collection",
+     "text_locale_id": 394403,
+     "target": "Crystal Collection",
+     "target_locale_id": 394633,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the \"Crystal Hunting\" minigame",
+     "text_locale_id": 394405,
+     "target": "Crystal Hunting minigame",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to T.R. Walker Jr.",
+     "text_locale_id": 394407,
+     "target": "T.R. Walker Jr.",
+     "target_locale_id": 101905,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000950,
+      "name": "T.R. Walker Jr.",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Beat T.R. Walker Jr. in a kart race at the Wildwood Speedway.",
+     "text_locale_id": 394446,
+     "target": "T.R. Walker Jr.",
+     "target_locale_id": 101905,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000950,
+      "name": "T.R. Walker Jr.",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Beat T.R. Walker Jr. in the \"You Want to Go Fast\" race at Wildwood Speedway.",
+     "text_locale_id": 394450,
+     "target": "T.R. Walker Jr.",
+     "target_locale_id": 101905,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000950,
+      "name": "T.R. Walker Jr.",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward text found; rewards unknown, not confirmed empty",
+     "source": "locale:394437 (names no coin, XP or item)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 394413,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394416,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 394436,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Giver is unresolved: npc 9000000540 has no name in the repo (only kart_driver.json:491 and npcs_unresolved.json:4931), and the guide's row 6 lists the giver as 'unknown'. The speaker of 394413 is unta",
+    "line.previous: The previous link 'Kart Driver: Challenging T.R.' (locale 394235 confirmed as that title) rests on guide row order (Tier 1 row 5 -> row 6) and the guide labels row 6's prerequisite 'After Challenging ",
+    "line.next: Next link 'Exploder's League Sponsorship' is consistent with guide row 7 and with T.R. pointing the player to Blammo, but the locale id for the title was not checked. The answer lists it without an id",
+    "objectives[0..5]: Checked ids: 394401 'Talk to T.R. Walker Jr.', 394407 'Return to T.R. Walker Jr.', 394446 race text, and 394633 'Crystal Collection' all match. The answer's two race objectives (394446 and 394450) are",
+    "giver: Giver is left null. npc 9000000540 appears only as giver_npc_id in kart_driver.json:491 and as an unresolved ref in npcs_unresolved.json:4931, with no name. The answer's null is honest, but it means t",
+    "line.previous: The previous-quest link rests on guide row order only. The answer cites locale:394400 ('Linx has asked you to challenge T.R. Walker Jr...') as support, but lookup shows 394400 is tagged as a quest_obj"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Crystal Hunting minigame)"
+   ]
+  },
+  {
+   "quest_id": 3080011,
+   "record": "quest-lines/quests.json q3080011",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Wildwood Endurance Challenge",
+   "live": "yes",
+   "giver": {
+    "name": "Blammo",
+    "npc_id": "9000000251",
+    "locale_id": 394488
+   },
+   "resolved_giver": {
+    "npc_id": 9500000872,
+    "name": "Blammo",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "See Big Paulie before the next race.",
+     "text_locale_id": 394576,
+     "target": "Big Paulie",
+     "target_locale_id": 401323,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000003022,
+      "name": "Big Paulie",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "Win the \"Wildwood Endurance Challenge\" race",
+     "text_locale_id": 394582,
+     "target": "Wildwood Endurance Challenge",
+     "target_locale_id": 3320,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The giver id 9000000251 is a record key, not a resolved NPC. npcs_unresolved.json:1657-1668 lists it as 'Blammo [client 3635150555]' with zone null. The only tie to Blammo is the name string 394488 ('",
+    "line.previous / line.next: The chain note says the Dominating answer lists this quest's title as its previous as 'Kart Racer: Wildwood Endurance Challenge' (locale 3504). This answer uses 394572 as the title and names the Sprin",
+    "live: 'live: yes' rests only on unflagged client text and the guide. The answer admits no wiki or article source confirms it. That is a stated-as-fact judgement with a 0.55 confidence.",
+    "giver: The giver npc_id 9000000251 is the record's unresolved key (npcs_unresolved.json:1668), not a verified NPC id. The answer's JSON presents it as the giver id. Blammo's name is confirmed (locale 394488 ",
+    "line.previous / line.next: Chain links hold up. Guide rows 8, 9 and 10 (Kart Driver.md:63-65) order Sprint, Endurance, Dominating, and the Dominating answer's previous (title 3504 'Kart Racer: Wildwood Endurance Challenge') is ",
+    "objectives[0]: Verified: 394576 is 'See Big Paulie before the next race.' and 401323 is 'Big Paulie'. The target has no current npc id or zone, which the answer already states as open. No problem with the id itself."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Wildwood Endurance Challenge)"
+   ]
+  }
+ ]
+}

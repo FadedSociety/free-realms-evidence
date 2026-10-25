@@ -1,0 +1,847 @@
+{
+ "zone": "Speedways",
+ "quests": [
+  {
+   "quest_id": 3060001,
+   "record": "quest-lines/quests.json q3060001",
+   "title": "Demolition Derby Tutorial",
+   "giver": {
+    "name": "Burt 'Wrecking' Crewe",
+    "npc_id": "9500000731",
+    "locale_id": 100244
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Complete the demolition derby tutorial",
+     "text_locale_id": 139429,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (Demolition Derby Driver job line), entry and tutorial quests. Chain placement is unsettled: the guide and our chain notes disagree.",
+    "previous": [
+     "The Burden of Fame"
+    ],
+    "next": [
+     "Advanced Demolition Derby Tutorial"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 117356,
+     "speaker": "Burt 'Wrecking' Crewe"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080014,
+   "record": "quest-lines/quests.json q3080014",
+   "title": "Kart Driver: A Treacherous Track",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000239",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Sparks Blitzwing in the \"Treacherous Track\" race at Frost Ridge Speedway.",
+     "text_locale_id": 394722,
+     "target": "Sparks Blitzwing",
+     "target_locale_id": 101908,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver (Frost Ridge Speedway tier, Build Guide rows 11-13; guide-inferred order)",
+    "previous": [
+     "Kart Driver: Guest of Honor"
+    ],
+    "next": [
+     "Kart Driver: Stopping the Sabotage"
+    ]
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3080015,
+   "record": "quest-lines/quests.json q3080015",
+   "title": "Kart Driver: Stopping the Sabotage",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": 394646
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to the shady looking pixie that just showed up at the Frost Ridge Speedway and see what he's up to.",
+     "text_locale_id": 394753,
+     "target": "unnamed 'shady looking pixie'",
+     "target_locale_id": 394646,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the \"Stopping the Sabotage\" minigame",
+     "text_locale_id": 394781,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Use the magic potion Sparks gave you to transform into something scary enough to make the Robgoblin Saboteurs run away!",
+     "text_locale_id": 401058,
+     "target": "magic potion",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Scare off the Robgoblin Saboteurs",
+     "text_locale_id": 401057,
+     "target": "Robgoblin Saboteurs",
+     "target_locale_id": 394735,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find all the Robgoblin Saboteurs before time runs out.",
+     "text_locale_id": 402667,
+     "target": "Robgoblin Saboteurs",
+     "target_locale_id": 394735,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver rivals and sponsorship line (Frost Ridge Speedway; rivals Sparks Blitzwing, Linx Redline, Amber Violet; sponsor Petal Oceanmist)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 394646,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 394726,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080016,
+   "record": "quest-lines/quests.json q3080016",
+   "title": "Kart Driver: Redline Returns",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000541",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Linx Redline in the \"Redline Returns\" race at Frost Ridge Speedway.",
+     "text_locale_id": 394811,
+     "target": "Linx Redline",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver job quest line, Tier 2 - Frost Ridge Speedway (guide row 14)",
+    "previous": [
+     "Kart Driver: Stopping the Sabotage (guide inference only; client title locale:394647)"
+    ],
+    "next": [
+     "Kart Driver: Self Promotion (guide row 15, inferred; client title locale:394655)"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080017,
+   "record": "quest-lines/quests.json q3080017",
+   "title": "Kart Driver: Self Promotion",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000542",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Amber Violet at the Frost Ridge Speedway and see if she will agree to race you.",
+     "text_locale_id": 394831,
+     "target": "Amber Violet",
+     "target_locale_id": 101910,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Promote the race between you and Amber Violet so that there is enough hype to justify her racing against you.",
+     "text_locale_id": 399601,
+     "target": "Amber Violet",
+     "target_locale_id": 101910,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver Tier 2 Frost Ridge Speedway line (sponsor Petal Oceanmist; order from the Kart Driver guide, inferred)",
+    "previous": [
+     "Kart Driver: Redline Returns"
+    ],
+    "next": [
+     "Kart Driver: Icy Perfection"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 394654,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394827,
+     "speaker": "Amber Violet"
+    },
+    "complete": {
+     "locale_id": 394657,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080018,
+   "record": "quest-lines/quests.json q3080018",
+   "title": "Kart Driver: Icy Perfection",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000543",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Amber Violet in the \"Icy Perfection\" race at Frost Ridge Speedway.",
+     "text_locale_id": 394893,
+     "target": "Amber Violet",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Win the \"Icy Perfection\" race",
+     "text_locale_id": 394892,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver (Tier 2 - Frost Ridge Speedway: rivals Sparks Blitzwing, Linx Redline, Amber Violet; sponsor Petal Oceanmist)",
+    "previous": [
+     "Kart Driver: Self Promotion"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080019,
+   "record": "quest-lines/quests.json q3080019",
+   "title": "Kart Driver: Seaside Board of Tourism Sponsorship",
+   "giver": {
+    "name": "Petal Oceanmist",
+    "npc_id": null,
+    "locale_id": 394904
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "You need to obtain another sponsor before the racers at Thunder Falls will give you the time of day. It sounds like Petal Oceanmist at Frost Ridge Speedway might be someone to talk to about a potential sponsorship.",
+     "text_locale_id": 394664,
+     "target": "Petal Oceanmist",
+     "target_locale_id": 394904,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver tier 2 (Frost Ridge Speedway) sponsorship chain",
+    "previous": [
+     "Kart Driver: Icy Perfection"
+    ],
+    "next": [
+     "Kart Driver: Frost Ridge Sprint Challenge"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 394665,
+     "speaker": "Petal Oceanmist"
+    },
+    "progress": {
+     "locale_id": 394666,
+     "speaker": "Petal Oceanmist"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080020,
+   "record": "quest-lines/quests.json q3080020",
+   "title": "Kart Driver: Frost Ridge Sprint Challenge",
+   "giver": {
+    "name": "Petal Oceanmist",
+    "npc_id": "9000000426",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Complete a lap in 28 seconds or less at the Frost Ridge Speedway.",
+     "text_locale_id": 394925,
+     "target": "Frost Ridge Speedway",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver sponsorship chain (Seaside Board of Tourism sponsorship, then Frost Ridge challenges)",
+    "previous": [
+     "Kart Driver: Seaside Board of Tourism Sponsorship"
+    ],
+    "next": [
+     "Kart Driver: Frost Ridge Endurance Challenge"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080021,
+   "record": "quest-lines/quests.json q3080021",
+   "title": "Kart Driver: Frost Ridge Endurance Challenge",
+   "giver": {
+    "name": "Petal Oceanmist",
+    "npc_id": "9000000424",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Petal's next challenge requires you to keep up the pace around multiple laps at Frost Ridge Speedway!",
+     "text_locale_id": 394672,
+     "target": "Frost Ridge Speedway",
+     "target_locale_id": 382855,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver: Seaside Board of Tourism Sponsorship line (Frost Ridge tier)",
+    "previous": [
+     "Kart Driver: Frost Ridge Sprint Challenge"
+    ],
+    "next": [
+     "Kart Driver: Dominating at Frost Ridge"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080022,
+   "record": "quest-lines/quests.json q3080022",
+   "title": "Kart Driver: Dominating at Frost Ridge",
+   "giver": {
+    "name": "Petal Oceanmist",
+    "npc_id": "9000000425",
+    "locale_id": 394904
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Win three races at Frost Ridge Speedway.",
+     "text_locale_id": 395116,
+     "target": "Frost Ridge Speedway",
+     "target_locale_id": null,
+     "count": 3
+    },
+    {
+     "kind": "minigame",
+     "text": "Win the \"Dominating at Frost Ridge\" race three times",
+     "text_locale_id": 398603,
+     "target": "Dominating at Frost Ridge",
+     "target_locale_id": 3328,
+     "count": 3
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver (Tier 2 - Frost Ridge Speedway; sponsor Petal Oceanmist)",
+    "previous": [
+     "Kart Driver: Frost Ridge Endurance Challenge"
+    ],
+    "next": [
+     "Kart Driver: The Price of Fame"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080035,
+   "record": "quest-lines/quests.json q3080035",
+   "title": "Kart Driver: Burning Up the Track",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000202",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head to Tangletrack and race Antonio Taurino. Good luck out there!",
+     "text_locale_id": 398674,
+     "target": "Tangletrack Speedway",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Beat Antonio Taurino in the \"Burning Up the Track\" race at Tangletrack Speedway.",
+     "text_locale_id": 395642,
+     "target": "Antonio Taurino",
+     "target_locale_id": 101920,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver job quest line, Tier 4 - Tangletrack Speedway (rivals Antonio Taurino, Linx Redline, Mirana Vega; sponsor Shamus Sootbender)",
+    "previous": [
+     "Kart Driver: Endorsement Deal"
+    ],
+    "next": [
+     "Kart Driver: Burnt Rubber"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395645,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080036,
+   "record": "quest-lines/quests.json q3080036",
+   "title": "Kart Driver: Burnt Rubber",
+   "giver": {
+    "name": "Antonio Taurino",
+    "npc_id": "9000000242",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Crankle at Tangletrack Speedway to see what's wrong with Antonio's kart.",
+     "text_locale_id": 395391,
+     "target": "Crankle",
+     "target_locale_id": 395388,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the \"Burnt Rubber\" minigame",
+     "text_locale_id": 395396,
+     "target": "Burnt Rubber",
+     "target_locale_id": 3805,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Crankle",
+     "text_locale_id": 395398,
+     "target": "Crankle",
+     "target_locale_id": 395388,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver (Tangletrack Speedway series)",
+    "previous": [
+     "Kart Driver: Burning Up the Track"
+    ],
+    "next": [
+     "Kart Driver: The Showdown"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 395292,
+     "speaker": "Antonio Taurino"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080037,
+   "record": "quest-lines/quests.json q3080037",
+   "title": "Kart Driver: The Showdown",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Linx Redline in \"The Showdown\" race at Tangletrack Speedway.",
+     "text_locale_id": 395425,
+     "target": "Linx Redline",
+     "target_locale_id": 394366,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver quest line, Tier 4 - Tangletrack Speedway (guide row 35; order inferred from the guide table)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 395418,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 395413,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080039,
+   "record": "quest-lines/quests.json q3080039",
+   "title": "Kart Driver: The Right Stuff",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000152",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Mirana Vega in \"The Right Stuff\" race at Tangletrack Speedway.",
+     "text_locale_id": 395478,
+     "target": "Mirana Vega",
+     "target_locale_id": 101923,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Win \"The Right Stuff\" race (separate quest_objective line, same hint; the video shows it as the Goal Complete banner)",
+     "text_locale_id": 395477,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no coin, item or XP string found for this quest",
+     "source": "repo:notes/Build Guides/Content/Jobs/Kart Driver.md:107"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver job quest line, Tier 4 - Tangletrack Speedway (guide rows 36-38, row order)",
+    "previous": [
+     "Kart Driver: The Keys to Victory"
+    ],
+    "next": [
+     "Kart Driver: Miner's Guild Sponsorship"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395471,
+     "speaker": "Mirana Vega"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080040,
+   "record": "quest-lines/quests.json q3080040",
+   "title": "Kart Driver: Miner's Guild Sponsorship",
+   "giver": {
+    "name": "Shamus Sootbender",
+    "npc_id": "9000000457",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Shamus Sootbender at Tangletrack Speedway about a possible sponsorship deal.",
+     "text_locale_id": 395488,
+     "target": "Shamus Sootbender",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Win a race at Tangletrack Speedway.",
+     "text_locale_id": 395499,
+     "target": "Tangletrack Speedway",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver (Tier 4 - Tangletrack Speedway)",
+    "previous": [
+     "Kart Driver: The Right Stuff"
+    ],
+    "next": [
+     "Kart Driver: Tangletrack Sprint Challenge"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395309,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080041,
+   "record": "quest-lines/quests.json q3080041",
+   "title": "Kart Driver: Tangletrack Sprint Challenge",
+   "giver": {
+    "name": "Shamus Sootbender",
+    "npc_id": "9000000456",
+    "locale_id": 395481
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Win the \"Tangletrack Sprint Challenge\" race",
+     "text_locale_id": 395503,
+     "target": "Tangletrack Sprint Challenge",
+     "target_locale_id": 395316,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Shamus Sootbender",
+     "text_locale_id": 395489,
+     "target": "Shamus Sootbender",
+     "target_locale_id": 395481,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed",
+     "source": "No reward string found for this quest; locale:395329 belongs to the Endurance Challenge"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver: Tangletrack Speedway ladder (Shamus Sootbender sponsorship)",
+    "previous": [
+     "Kart Driver: Miner's Guild Sponsorship"
+    ],
+    "next": [
+     "Kart Driver: Tangletrack Endurance Challenge"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 395312,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 395315,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 395318,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080042,
+   "record": "quest-lines/quests.json q3080042",
+   "title": "Kart Driver: Tangletrack Endurance Challenge",
+   "giver": {
+    "name": "Shamus Sootbender",
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Click on the racing turnstile at Tangletrack Speedway",
+     "text_locale_id": 395327,
+     "target": "racing turnstile at Tangletrack Speedway",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Win the \"Tangletrack Endurance Challenge\" race (2-lap solo race at Tangletrack Speedway)",
+     "text_locale_id": 395543,
+     "target": "Tangletrack Endurance Challenge race",
+     "target_locale_id": 3423,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver Tangletrack Speedway Miner's Guild sponsor chain (guide rows 38-41)",
+    "previous": [
+     "Kart Driver: Tangletrack Sprint Challenge"
+    ],
+    "next": [
+     "Kart Driver: Dominating at Tangletrack"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 395321,
+     "speaker": "Shamus Sootbender"
+    },
+    "progress": {
+     "locale_id": 395536,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080043,
+   "record": "quest-lines/quests.json q3080043",
+   "title": "Kart Driver: Dominating at Tangletrack",
+   "giver": {
+    "name": "Shamus Sootbender",
+    "npc_id": "9000000458",
+    "locale_id": 395481
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Win the \"Dominating at Tangletrack\" race three times",
+     "text_locale_id": 395658,
+     "target": "Dominating at Tangletrack",
+     "target_locale_id": 3424,
+     "count": 3
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Miner's Guild sponsorship (described in client; no item or coin reward confirmed)",
+     "source": "notes/Build Guides/Content/Jobs/Kart Driver.md:111"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver sponsor challenge chain at Tangletrack Speedway (Shamus Sootbender)",
+    "previous": [
+     "Kart Driver: Tangletrack Endurance Challenge"
+    ],
+    "next": [
+     "Kart Driver: Celebrity Giveaway"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395666,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  }
+ ]
+}

@@ -1,0 +1,546 @@
+{
+ "zone": "Sunstone Valley",
+ "quests": [
+  {
+   "quest_id": 3020033,
+   "record": "quest-lines/quests.json q3020033",
+   "title": "Blacksmith: Grunt Work",
+   "giver": {
+    "name": "Red Stonehammer",
+    "npc_id": "9000000179",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect Copper Ore",
+     "text_locale_id": 439747,
+     "target": "Copper Ore",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect Sunstones from Sunstone Copper Veins.",
+     "text_locale_id": 439750,
+     "target": "Sunstone",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Red Stonehammer",
+     "text_locale_id": 439751,
+     "target": "Red Stonehammer (npc 9000000179)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Sunstone Blacksmith line (Red Stonehammer)",
+    "previous": [],
+    "next": [
+     "Blacksmith: Breaking a Sweat"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 439705,
+     "speaker": "Red Stonehammer"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020034,
+   "record": "quest-lines/quests.json q3020034",
+   "title": "Blacksmith: Breaking a Sweat",
+   "giver": {
+    "name": "Red Stonehammer",
+    "npc_id": "9000000179",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Smelt Copper Bars and Forge the Metal Cactoid Illusion.",
+     "text_locale_id": 439754,
+     "target": "Copper Bars; Metal Cactoid Illusion",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Craft a Sunstone Consumable at the Anvil in Red’s camp.",
+     "text_locale_id": 439711,
+     "target": "Sunstone Anvil",
+     "target_locale_id": 439683,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Sunstone Blacksmith line (Red Stonehammer)",
+    "previous": [
+     "Blacksmith: Grunt Work"
+    ],
+    "next": [
+     "Blacksmith: Crackin’ Skullz"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 439862,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 439712,
+     "speaker": "Red Stonehammer"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020035,
+   "record": "quest-lines/quests.json q3020035",
+   "title": "Blacksmith: Crackin’ Skullz",
+   "giver": {
+    "name": "Red Stonehammer",
+    "npc_id": "9000000179",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect Tin Ore from Sunstone Valley",
+     "text_locale_id": 439765,
+     "target": "Tin Ore",
+     "target_locale_id": 21936,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect Manguana Tribal Necklaces from the Manguana in Sunstone Valley.",
+     "text_locale_id": 439767,
+     "target": "Manguana Tribal Necklace",
+     "target_locale_id": 8459,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect Skullz armor samples from the Skullz Brawlers in the Manguana region of Sunstone Valley.",
+     "text_locale_id": 439769,
+     "target": "Skullz armor samples",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Collect Tin Ore, Manguana Tribal Necklaces and defeat Skullz Brawlers. (combined summary line)",
+     "text_locale_id": 439763,
+     "target": "Skullz Brawler",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Empowered Skullz Armor Samples (item name only; no item id)",
+     "source": "locale:439768 (quest_reward, hint Blacksmith: Crackin' Skullz)"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "no coin amount in any source"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "no XP amount in any source"
+    }
+   ],
+   "line": {
+    "name": "Sunstone Valley Blacksmith line (Red Stonehammer)",
+    "previous": [
+     "Blacksmith: Breaking a Sweat"
+    ],
+    "next": [
+     "Blacksmith: Can We Build It?"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 439713,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020036,
+   "record": "quest-lines/quests.json q3020036",
+   "title": "Blacksmith: Can We Build It?",
+   "giver": {
+    "name": "Red Stonehammer",
+    "npc_id": "9000000179",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Smelt Tin Bars",
+     "text_locale_id": 439774,
+     "target": "Tin Bar",
+     "target_locale_id": 105,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Smelt Tin Bars at the Forge",
+     "text_locale_id": 439775,
+     "target": "Tin Bar",
+     "target_locale_id": 105,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Forge the Motorsmith Boots",
+     "text_locale_id": 439776,
+     "target": "Motorsmith Boots",
+     "target_locale_id": 33870,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Use the anvil to forge the Motorsmith Boots",
+     "text_locale_id": 439777,
+     "target": "Motorsmith Boots",
+     "target_locale_id": 33870,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no coin, XP or item reward text found in any source",
+     "source": "repo:notes/Build Guides/Content/Jobs/Blacksmith.md:155"
+    }
+   ],
+   "line": {
+    "name": "Sunstone Valley Blacksmith line (Red Stonehammer)",
+    "previous": [
+     "Blacksmith: Crackin' Skullz"
+    ],
+    "next": [
+     "Blacksmith: Scrap Surfin'"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 439717,
+     "speaker": "Red Stonehammer"
+    },
+    "progress": {
+     "locale_id": 439868,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 439720,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020037,
+   "record": "quest-lines/quests.json q3020037",
+   "title": "Blacksmith: Scrap Surfin'",
+   "giver": {
+    "name": "Red Stonehammer",
+    "npc_id": "9000000179",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect Iron Ore from Sunstone Valley",
+     "text_locale_id": 439783,
+     "target": "Iron Ore",
+     "target_locale_id": 21939,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect Robgoblin Shiny's from Robgoblins in the Scrap Yard of Sunstone Valley",
+     "text_locale_id": 439785,
+     "target": "Robgoblin Shiny",
+     "target_locale_id": 8460,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect Sunstones from Mining Veins in Sunstone Valley.",
+     "text_locale_id": 439787,
+     "target": "Sunstone",
+     "target_locale_id": 847,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with the Robgoblin Scrapsmith",
+     "text_locale_id": 439788,
+     "target": "Robgoblin Scrapsmith",
+     "target_locale_id": 5102880,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Sunstone Blacksmith line (Red Stonehammer)",
+    "previous": [
+     "Blacksmith: Can We Build It?"
+    ],
+    "next": [
+     "Blacksmith: From Scraps to Iron"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 439725,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020042,
+   "record": "quest-lines/quests.json q3020042",
+   "title": "Blacksmith: Grave Discovery",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000516",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith: Red Stonehammer Sunstone Valley line (Rumble Ridge Blacksmith Questline)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040060,
+   "record": "quest-lines/quests.json q3040060",
+   "title": "Card Duelist: Milo E. Lizardo",
+   "giver": {
+    "name": "Milo E. Lizardo",
+    "npc_id": "9000000408",
+    "locale_id": 442193
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Milo E. Lizardo near the Manguana Oasis in Rumble Ridge.",
+     "text_locale_id": 5100180,
+     "target": "Milo E. Lizardo",
+     "target_locale_id": 442193,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist / TCG Series 5 - The Rumbledome (Part 5)",
+    "previous": [
+     "Card Duelist: The Realmkeepers Are Missing!"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 5100178,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040061,
+   "record": "quest-lines/quests.json q3040061",
+   "title": "Card Duelist: Quizzical Yucca",
+   "giver": {
+    "name": "Quizzical Yucca",
+    "npc_id": "9000000176",
+    "locale_id": 442195
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Quizzical Yucca near the path from Rumble Ridge into Sunstone Valley.",
+     "text_locale_id": 5100188,
+     "target": "Quizzical Yucca",
+     "target_locale_id": 442195,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Quizzical Yucca's Trick Deck",
+     "text_locale_id": 5100243,
+     "target": "Quizzical Yucca's Trick Deck",
+     "target_locale_id": 442169,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Quizzical Yucca's Resource Deck",
+     "text_locale_id": 5100241,
+     "target": "Quizzical Yucca's Resource Deck",
+     "target_locale_id": 442168,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Quizzical Yucca's Creature Deck",
+     "text_locale_id": 5100245,
+     "target": "Quizzical Yucca's Creature Deck",
+     "target_locale_id": 442170,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Quizzical Yucca's Tournament Deck",
+     "text_locale_id": 5100247,
+     "target": "Quizzical Yucca's Tournament Deck",
+     "target_locale_id": 442171,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Quizzical Yucca card (5P12), said to free Wildclaw",
+     "source": "repo:notes/Build Guides/Content/Jobs/Card Duelist.md:174 (wiki-sourced; no numeric item id; unresolved)"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist: TCG Series 5, The Rumbledome captive Realmkeepers branch (guide Part 5, Sunstone Valley)",
+    "previous": [
+     "Card Duelist: The Realmkeepers Are Missing!"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040062,
+   "record": "quest-lines/quests.json q3040062",
+   "title": "Card Duelist: Ironteeth",
+   "giver": {
+    "name": "Ironteeth",
+    "npc_id": "9000000109",
+    "locale_id": 442196
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Ironteeth in front of the Rumbledome.",
+     "text_locale_id": 5100192,
+     "target": "Ironteeth",
+     "target_locale_id": 442196,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Ironteeth's Resource Desk",
+     "text_locale_id": 5100255,
+     "target": "Ironteeth's Resource Deck",
+     "target_locale_id": 442172,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Ironteeth's Trick Deck",
+     "text_locale_id": 5100257,
+     "target": "Ironteeth's Trick Deck",
+     "target_locale_id": 442173,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Ironteeth's Creature Deck",
+     "text_locale_id": 5100259,
+     "target": "Ironteeth's Creature Deck",
+     "target_locale_id": 442174,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Ironteeth's Tournament Deck",
+     "text_locale_id": 5100261,
+     "target": "Ironteeth's Tournament Deck",
+     "target_locale_id": 442175,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Ironteeth hero card (5P16) per the guide; not confirmed in client",
+     "source": "repo:notes/Build Guides/Content/Jobs/Card Duelist.md:175 (unverified)"
+    },
+    {
+     "kind": "other",
+     "value": "Duel prizes: Cool Wheelz Machine, Wrath of the Skullz Machine, Skullz Commander Machine, Ironteeth Hero cards from his decks",
+     "source": "locale:442188, locale:442189, locale:442190, locale:442191"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist TCG Series 5 Rumbledome captive line (Part 5, guide row 61)",
+    "previous": [],
+    "next": [
+     "Card Duelist: Return from the Rumbledome"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 5100190,
+     "speaker": "Ironteeth"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  }
+ ]
+}

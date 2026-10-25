@@ -1,0 +1,550 @@
+{
+ "zone": "Cobblestone Village",
+ "wireable_by_match": [
+  {
+   "quest_id": 3000012,
+   "record": "quest-lines/quests.json q3000012",
+   "quest_file": "adventurer.json",
+   "title": "Pull the Plug",
+   "live": "yes",
+   "giver": {
+    "name": "Bartle",
+    "npc_id": "9000000021",
+    "locale_id": 20942
+   },
+   "resolved_giver": {
+    "npc_id": 9000000021,
+    "name": "Bartle",
+    "file": "npcs/cobblestone_village.json",
+    "zone": "Cobblestone Village",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Destroy the Gloam Artifacts to weaken the blockade.",
+     "text_locale_id": 4420102,
+     "target": "Gloam Artifact",
+     "target_locale_id": 5100327,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 4420097,
+     "speaker": "Bartle"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 4420100,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The objective is taken from 4420102, but the client tags 4420102 under the step label 'Find and Pull the Plug' (4420101). The quest-level objective of this quest is 4420099 ('A gang of Hooligans led b",
+    "objectives[0].target_locale_id: 5100327 is one of three identical 'Gloam Artifact' strings (5100327, 5100328, 5100329), so the target id cannot be bound to this quest. The answer flags this, but it still names one as target, which a",
+    "dialog.progress: 5100380 'Have you found and destroyed all of the Gloam Artifacts?' exists and is unflagged; it is left null with a note. This is acceptable, but the answer could list it as the candidate progress line",
+    "giver: Giver npc 9000000021 and the 'Bartle says' speaker attribution are inferred, not stated by client text (4420097 has no speaker tag). The answer discloses this, so it is a caveat rather than a wrong id",
+    "objectives[0].text_locale_id: The objective is sourced to 4420102, which the client tags under the step label 'Find and Pull the Plug' (4420101). The quest's own objective line, 4420099 ('A gang of Hooligans led by Mac has blockad",
+    "objectives[0].kind: Kind is set to 'other' with a note that the verb is missing. The repo's own Quest Audit (notes/Research/Quest Audit.md, line 41) lists 3000012 under use_interact, and Starting Quest Chains.md describe"
+   ]
+  },
+  {
+   "quest_id": 3000021,
+   "record": "quest-lines/quests.json q3000021",
+   "quest_file": "adventurer.json",
+   "title": "Introduce Yourself",
+   "live": "yes",
+   "giver": {
+    "name": "Samantha",
+    "npc_id": "9000000189",
+    "locale_id": 19685
+   },
+   "resolved_giver": {
+    "npc_id": 9000000189,
+    "name": "Samantha",
+    "file": "npcs/cobblestone_village.json",
+    "zone": "Cobblestone Village",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Introduce yourself to Ricky Danger in Cobblestone Village.",
+     "text_locale_id": 94248,
+     "target": "Ricky Danger",
+     "target_locale_id": 94007,
+     "count": 1,
+     "resolved_npc": {
+      "npc_id": 9500000254,
+      "name": "Ricky Danger",
+      "file": "npcs/cobblestone_village.json",
+      "zone": "Cobblestone Village",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver.npc_id: 9000000189 is a repo content key, not a client-confirmed id. The answer's evidence block admits this, but the giver field states it as a plain npc_id. Client locale only confirms the name 'Samantha' (",
+    "target: Ricky Danger 9500000254 is likewise a repo key. The name 94007 is confirmed by locale (checked: '94007: Ricky Danger'), so the talk target should bind by name.",
+    "dialog.offer: Locale 94627 ('Samantha has asked you to introduce yourself to some of the residents of Cobblestone Village...') is a quest_objective that the answer could not resolve. The evidence pack says a longer",
+    "rewards: rewards is empty, but the evidence pack carries 5 coins (wiki Cobblestone quest index, via NPCs - Cobblestone Village.md) and 20 job XP. The 20 XP is labelled reconstructed with no source. The answer'",
+    "rewards: Answer sets rewards to [] and drops the evidence pack's 5-coin reward and 20 job XP. Its reason (the 5 coins is a Stillwater wiki figure) is weak: the pack cites notes/Build Guides/Content/NPCs/NPCs -",
+    "sibling / title collision: Title locale 94247 is shared by three records in notes/Research/Starting Quest Chains.md: 3000020 (Highroad, giver 9000000177), 3000021 (this quest, Ricky 9500000254) and 3000022 (npc 9500000786). The"
+   ]
+  },
+  {
+   "quest_id": 3010010,
+   "record": "quest-lines/quests.json q3010010",
+   "quest_file": "archer.json",
+   "title": "Contract: All Around Win",
+   "live": "unsure",
+   "giver": {
+    "name": "Eddie Eagle Eyes",
+    "npc_id": "9500000245",
+    "locale_id": 388244
+   },
+   "resolved_giver": {
+    "npc_id": 9500000245,
+    "name": "Eddie Eagle Eyes",
+    "file": "npcs/cobblestone_village.json",
+    "zone": null,
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As an archer, defeat Hooligan Delinquents that wander the wilderness, and some Unruly Bixies in the Bixie Hive. Return to Eddie when done.",
+     "text_locale_id": 388250,
+     "target": "Hooligan Delinquents; Unruly Bixies (Bixie Hive)",
+     "target_locale_id": 388251,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000004154,
+      "name": "Hooligan",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Return to Eddie Eagle Eyes",
+     "text_locale_id": 388253,
+     "target": "Eddie Eagle Eyes",
+     "target_locale_id": 388244,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000245,
+      "name": "Eddie Eagle Eyes",
+      "file": "npcs/cobblestone_village.json",
+      "zone": null,
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388245,
+     "speaker": "Eddie Eagle Eyes"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388248,
+     "speaker": "Eddie Eagle Eyes"
+    }
+   },
+   "critic_problems": [
+    "line.next: next is left empty. Archer.md row 9 (Pondblaster Payback, Hilforn) is also ordered 'After 7', so the guide's order is branched rather than a single chain. Leaving next empty is defensible, but the ans",
+    "zone: Zone rests on the wiki phrase 'just south of Cobblestone Village' and the NPC file placement, neither verified as a zone field. Acceptable as flagged.",
+    "objectives[0]: The defeat objective has count null and no target ids. Locale 388250 and 388251 are confirmed (388251 says only 'Defeat Hooligan Delinquents', so the Unruly Bixies part is only in 388250). Builder mus",
+    "record.enabled: Record is enabled:false and live is 'unsure'. A builder should not enable it from this answer alone; the chain and objectives are otherwise consistent.",
+    "objectives[0]: Target list is attributed to target_locale_id 388251, but 388251 is only 'Defeat Hooligan Delinquents'. The Bixie half ('Unruly Bixies in the Bixie Hive') is only in the combined line 388250, so the t",
+    "live: Sourcing is honest: the wiki Archer page lists it ('Contract: All Around Win - Eddie Eagle Eyes, just south of Cobblestone Village') and the record is enabled:false. 'unsure' is the right status."
+   ]
+  },
+  {
+   "quest_id": 3030008,
+   "record": "quest-lines/quests.json q3030008",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Bad Business",
+   "live": "yes",
+   "giver": {
+    "name": "Jones",
+    "npc_id": "9000000121",
+    "locale_id": 46335
+   },
+   "resolved_giver": {
+    "npc_id": 9000000121,
+    "name": "Jones",
+    "file": "npcs/cobblestone_village.json",
+    "zone": "Cobblestone Village",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find Sabastian Cabet somewhere in Blackspore. The entrance to Blackspore is a large cave directly east of Cobblestone Village.",
+     "text_locale_id": 103355,
+     "target": "Sabastian Cabet",
+     "target_locale_id": 46099,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000446,
+      "name": "Sabastian Cabet",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": 103353,
+    "progress": 103358,
+    "complete": 103356
+   },
+   "critic_problems": [
+    "objectives[0].kind: The objective is typed 'talk' to npc 9000000446, but the retail text (103355, confirmed) is a locate step: find Sabastian somewhere in Blackspore. The answer's own open note says the talk binding is a",
+    "live_reason / evidence[9]: The answer says locale 46339 carries a FLAG not_live tag. The lookup output I got for 46339 shows only its text with no FLAG marker. The explicit NOT LIVE marker I can see is on the header 46338 ('NOT",
+    "rewards: Rewards are empty in the answer, while the evidence pack has a 5-coin reconstructed (R) fallback. Empty is defensible because nothing is recovered. The answer should say that explicitly, which its ope",
+    "objectives[0].kind / target: The client text 103355 is a locate step ('Find Sabastian Cabet somewhere in Blackspore'), and the 'talk' kind with target npc 9000000446 comes only from the server binding (R) in brawler.json. The ans",
+    "evidence[8] wiki claim: Verified: the wiki Brawler page lists '[Bad] [Business]: [Jones] [east] [of] [Cobblestone] [Village]'. Claim holds.",
+    "live_reason: Verified: 103353, 103354, 103355, 103356, 103358 are unflagged quest text; 46339 and 46341 carry FLAG not_live 'part of NOT LIVE quest Bad Business'; 46335 'Jones' is unflagged. The Bad Business 46337"
+   ]
+  },
+  {
+   "quest_id": 3050006,
+   "record": "quest-lines/quests.json q3050006",
+   "quest_file": "chef.json",
+   "title": "Chef: Cobblestone Village Cafe",
+   "live": "unsure",
+   "giver": {
+    "name": "Simone",
+    "npc_id": "9000000467",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000467,
+    "name": "Simone",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": 94274,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives: Objectives are empty, so a builder cannot wire this quest. The answer's own open list says so. The NOT LIVE sibling family (locale 21831 and 21827-21839) is the only source for cook steps, and it is f",
+    "line.name / title: The title 'Chef: Cobblestone Village Cafe' (94275) is confirmed as a locale string, but the wiki trainer series names this quest 'Chef: Crossroads Cafe' (wiki page 1974, lines 39-40). The mapping to 9",
+    "line.next: The next link to 3050007 'Chef: Delivery Derailed' is supported by the wiki order (wiki page 1974 lines 39-40 list Crossroads Cafe, then Delivery Derailed, both Simone in Cobblestone Village) and by c",
+    "giver.zone: The quest tag says Cobblestone Village, the NPC record (sanctuary.json:54214) says Sanctuary, and the wiki places Simone in Cobblestone Village. The answer flags this conflict correctly and does not r",
+    "objectives: Left empty even though the evidence has candidate cook text. Locale 94528 ('Click on the Cooking Table in front of Simone to start cooking up some Spiralmint Steak.') exists and is verified, but no so",
+    "giver / zone: Giver id 9000000467 is confirmed in repo sanctuary.json and job_trainers.json, but the zone conflict is real: the quest tag says Cobblestone Village, the NPC record says Sanctuary. The answer correctl"
+   ]
+  },
+  {
+   "quest_id": 3050007,
+   "record": "quest-lines/quests.json q3050007",
+   "quest_file": "chef.json",
+   "title": "Chef: Delivery Derailed",
+   "live": "yes",
+   "giver": {
+    "name": "Simone",
+    "npc_id": "9000000467",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000467,
+    "name": "Simone",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Search for Jonelle on the road north of Cobblestone Village, leading to Sanctuary.",
+     "text_locale_id": 94292,
+     "target": "Jonelle",
+     "target_locale_id": 77444,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000120,
+      "name": "Jonelle",
+      "file": "npcs/cobblestone_village.json",
+      "zone": "Cobblestone Village",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 94290,
+     "speaker": "Simone"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: The objective uses locale 94292 (tagged Sacred Grove, no FLAG). Locale 100536 'As a chef, search for Jonelle on the road north of Cobblestone Village, leading to Sanctuary.' is a closer match to a Che",
+    "objectives[0].kind / progress: Locale 101041 'Have you found Jonelle yet? She has to be somewhere along the road heading north to Sanctuary' is a progress-style line that the answer does not record. dialog.progress is null although",
+    "giver.zone / line: The record's giver zone is Sanctuary in sanctuary.json, while the wiki and the answer say Cobblestone Village. The answer discloses this conflict, but its live=yes confidence (0.6) does not reflect th",
+    "dialog.offer (94290): Speaker attribution for 94290 is inferred. The answer says so, which is honest, but the text ('I'm waiting for a delivery from Queensfields') fits Simone only by context.",
+    "giver.locale_id: Null, disclosed. Acceptable for a builder because npc_id 9000000467 is verified in sanctuary.json and job_trainers.json.",
+    "zone: The zone conflict is real but left open. The client tags 94290-94293 as Sacred Grove, the sanctuary.json giver record places Simone (9000000467) in Sanctuary, and the wiki Chef page places the quest i"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3000013,
+   "record": "quest-lines/quests.json q3000013",
+   "quest_file": "adventurer.json",
+   "title": "Cobblestone Showdown",
+   "live": "unsure",
+   "giver": {
+    "name": "Bartle",
+    "npc_id": "9000000021",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000021,
+    "name": "Bartle",
+    "file": "npcs/cobblestone_village.json",
+    "zone": "Cobblestone Village",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Mac",
+     "text_locale_id": 5100372,
+     "target": "Mac",
+     "target_locale_id": null,
+     "count": 1,
+     "resolved_npc": {
+      "npc_id": 9500000043,
+      "name": "Mac",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "5 (reconstructed fallback, not verified)",
+     "source": "repo:prototype/osfr-tools/data/content/quests/adventurer.json:978 (reconstructed); notes/Research/Starting Quest Chains.md:19"
+    },
+    {
+     "kind": "other",
+     "value": "Result text: 'The Hooligans leader, Mac, has been defeated and Cobblestone Village has been freed!'",
+     "source": "locale:5100073"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 4420105,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 5100382,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line: Previous/next links check out. The repo records (adventurer.json 3000012 prereq 3000011 at :921; 3000013 prereq 3000012 at :981; 3000014 prereq 3000013 at :1046) and guide rows A12/A13/A14 (Adventurer",
+    "objectives[0].target: Target 'Mac' has no verified NPC id (target_locale_id null, npc id 9500000250 comes only from a later answer). The client also tags 'Mac' in other quests (Highroad Hijinx locale:15236/15241; Two Birds",
+    "dialog.complete / title family: The client's 4420 block splits this step: 4420109 'Show Who's Boss' (Cobblestone Village) carries the same Defeat Mac objectives (4420110/4420111) and the completion line 4420108. The answer correctly",
+    "objectives[0].target: The target is Mac, but no verified NPC id exists. The answer leaves target_locale_id null and calls 9500000250 unconfirmed, so a builder cannot bind the kill target. Mac's location is also disputed (B",
+    "evidence[4] / dialog.progress: The answer calls 5100382 'untagged'. The client tags it as quest_dialog with hint 'Mac', not to Cobblestone Showdown. It is therefore not tied to this quest by the tag rule, which the answer does not ",
+    "dialog / objectives: The answer omits locale:5100081 ('The ultimate showdown with the leader of the hooligans!'), an unflagged quest_objective tagged to Cobblestone Showdown. It is a description-style line, not a separate"
+   ],
+   "blocked_by": [
+    "defeat target 'Mac' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3050008,
+   "record": "quest-lines/quests.json q3050008",
+   "quest_file": "chef.json",
+   "title": "Chef: Package Recovery!",
+   "live": "yes",
+   "giver": {
+    "name": "Jonelle",
+    "npc_id": "9000000120",
+    "locale_id": 77444
+   },
+   "resolved_giver": {
+    "npc_id": 9000000120,
+    "name": "Jonelle",
+    "file": "npcs/cobblestone_village.json",
+    "zone": "Cobblestone Village",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "As a chef, help Jonelle recover her stolen packages from the robgoblins north of Cobblestone Village.",
+     "text_locale_id": 100537,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Click on Jonelle's Mailbag next to Jonelle to start recovering her stolen packages.",
+     "text_locale_id": 100539,
+     "target": "Jonelle's Mailbag",
+     "target_locale_id": 100552,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the Package Recovery! minigame",
+     "text_locale_id": 100540,
+     "target": "Package Recovery! minigame",
+     "target_locale_id": 100540,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 94298,
+     "speaker": "Jonelle"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 94301,
+     "speaker": "Jonelle"
+    }
+   },
+   "critic_problems": [
+    "line.next: The next link is given by title only ('Chef: Queensfields'), and that title is shared with the Stillwater S4 quest (Gavin Greenpetal, previous S3 Harvest Hiccup!). The answer flags this as provisional",
+    "objectives[1..2]: Objective ids and texts check out: 100537, 100539, 100540, 100552 ('Jonelle's Mailbag') and 77444 ('Jonelle') all resolve to the stated text, with no flag on the title/dialog lines (94298-94301 are un",
+    "line.next: The next link 'Chef: Queensfields' is only provisional. Its title id 100543 is shared with the Stillwater S4 quest of the same name, and the chain note records a conflicting previous (Harvest Hiccup).",
+    "objectives[2]: The target is set to the objective text itself ('Package Recovery! minigame', target_locale_id 100540). The string proves the minigame exists but does not name a target object; the target is really th",
+    "dialog: The dialog block omits the description id 94300, which the evidence cites and the repo record stores as description_string_id. The evidence list also cites 100538 without using it."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Package Recovery! minigame)"
+   ]
+  },
+  {
+   "quest_id": 3120003,
+   "record": "quest-lines/quests.json q3120003",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Tutorial: Happiness",
+   "live": "yes",
+   "giver": {
+    "name": "Majorie",
+    "npc_id": null,
+    "locale_id": 78658
+   },
+   "resolved_giver": {
+    "npc_id": 9000000139,
+    "name": "Majorie",
+    "file": "npcs/cobblestone_village.json",
+    "zone": "Cobblestone Village",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Complete the Happiness pet tutorial given by Majorie in Cobblestone Village.",
+     "text_locale_id": 141496,
+     "target": "Majorie",
+     "target_locale_id": 78658,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 141149,
+     "speaker": "Majorie"
+    },
+    "progress": {
+     "locale_id": 141524,
+     "speaker": "Majorie"
+    },
+    "complete": {
+     "locale_id": 141152,
+     "speaker": "Majorie"
+    }
+   },
+   "critic_problems": [
+    "giver: giver.npc_id is null. The record's giver 9000000452 is unresolved, and the candidate 9000000139 (cobblestone_village.json:5579) is only a reconstructed guess. A builder cannot wire the giver from this",
+    "dialog.offer: 141149 is the Happiness intro body text ('Keeping your pet happy is very important...'), not a separate offer prompt. Calling it 'offer' is loose but it is a real, unflagged quest_dialog for this ques",
+    "objectives[0]: The objective is kind 'other' with no target id. The text (141496) and target name (78658 'Majorie') are verified: 141496 is an unflagged quest_objective and reads 'Complete the Happiness pet tutorial",
+    "giver: The giver is named Majorie (locale 78658 confirmed as 'Majorie'), but npc_id is null. The record's giver 9000000452 is unresolved, and the Majorie-to-record mapping rests on the Pet Trainer guide's ro",
+    "objectives[0]: The single objective (locale 141496) is a summary line ('Complete the Happiness pet tutorial given by Majorie...') with kind 'other'. It is not a trackable step. The actual tutorial steps are client-d",
+    "line: The Basics -> Happiness -> Training order is supported only by the wiki Pet Trainer listing and the shared 'Pet Tutorial:' title cluster. Our record has no prerequisite or next links, which the answer"
+   ],
+   "blocked_by": [
+    "giver 'Majorie' row 9000000139 not placed"
+   ]
+  }
+ ]
+}

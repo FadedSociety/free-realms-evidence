@@ -1,0 +1,190 @@
+{
+ "zone": "Durango Zoo",
+ "wireable_by_match": [
+  {
+   "quest_id": 3010022,
+   "record": "quest-lines/quests.json q3010022",
+   "quest_file": "archer.json",
+   "title": "Archer: Animal Investigation",
+   "live": "yes",
+   "giver": {
+    "name": "Bowman Bilter",
+    "npc_id": "9000000029",
+    "locale_id": 77805
+   },
+   "resolved_giver": {
+    "npc_id": 100000002983,
+    "name": "Bowman Bilter",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel to the Durango Zoo and speak with Mr. Miles to see if he has any information about the smugglers.",
+     "text_locale_id": 77828,
+     "target": "Durango Zoo",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Mr. Miles at the Durango Zoo",
+     "text_locale_id": 77842,
+     "target": "Mr. Miles",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000156,
+      "name": "Mr. Miles",
+      "file": "npcs/durango_zoo.json",
+      "zone": "Durango Zoo",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Catch a smuggler in the act at Durango Zoo",
+     "text_locale_id": 77844,
+     "target": "smuggler (unnamed)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 77826,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 77859,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Bowman Bilter is inferred, not read from a quest-giver link. The repo ref 9000000029 is in npcs_unresolved.json:336 with name_string_id null and candidate-style reasoning, and its zone is recorded as ",
+    "line / objectives: The chain and the title check out: prerequisite 3010021 is 'Suspicious Smugglers' and the next quest is 3010023 'Prevention First'. The answer, though, names 'Prevention First' without its record id. ",
+    "objectives[1]: The Mr. Miles target has target_locale_id null. The answer admits its npc_name 100788 was not re-verified.",
+    "giver: The giver link rests on repo:prototype/osfr-tools/data/content/npcs_unresolved.json:336, which maps ref 9000000029 to 'Bowman Bilter' but sets name_string_id to null with reason 'no actor-to-locale na",
+    "line.next: The next quest is given as a name only. Our records say next is 3010023 'Archer: Prevention First' (ucdt 1188062760 / ugdt 2084685443 in the locale table), and the answer does not carry the record id,",
+    "dialog.progress: The answer uses 77859 ('Hopefully if you wander around here, you can find a smuggler in the act...') as the in-progress dialog. This is verified as a quest_dialog with the Animal Investigation hint an"
+   ]
+  },
+  {
+   "quest_id": 3010023,
+   "record": "quest-lines/quests.json q3010023",
+   "quest_file": "archer.json",
+   "title": "Archer: Prevention First",
+   "live": "yes",
+   "giver": {
+    "name": "Mr. Miles",
+    "npc_id": "9000000156",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000156,
+    "name": "Mr. Miles",
+    "file": "npcs/durango_zoo.json",
+    "zone": "Durango Zoo",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Harvest bundles of rainleaf",
+     "text_locale_id": 78410,
+     "target": "rainleaf",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Harvest bundles of punkin",
+     "text_locale_id": 78417,
+     "target": "punkin",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Harvest bundles of sunleaf",
+     "text_locale_id": 78419,
+     "target": "sunleaf",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Mr. Miles at the Durango Zoo",
+     "text_locale_id": 78425,
+     "target": "Mr. Miles",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000156,
+      "name": "Mr. Miles",
+      "file": "npcs/durango_zoo.json",
+      "zone": "Durango Zoo",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Report back to Bowman Bilter near Passwind Pass, just north of Blackspore.",
+     "text_locale_id": 78428,
+     "target": "Bowman Bilter",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000002983,
+      "name": "Bowman Bilter",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 78403,
+     "speaker": "Mr. Miles"
+    },
+    "progress": {
+     "locale_id": 115693,
+     "speaker": "Mr. Miles"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "dialog.complete: The answer says no completion dialog id was found. Locale 90280 ('Nice work! The animals will love this stuff. You should go back to Bowman Bilter now. Take care!') is a live, unflagged line that fits",
+    "dialog.progress / open: Locale 78406 ('Welcome back! Thanks for your help at the zoo... entered Grexan's Camp') is a Durango Zoo quest_dialog. It reads as a return line after the bundle run. The answer leaves it unplaced, so",
+    "evidence[6]: The claim that the wiki lists the quest 'under Bowman Bilter's quests' is not shown by the wiki snippet I retrieved. The snippet shows only the line 'Archer: [Prevention] [First] - from Mr. Miles' wit",
+    "objectives[0..2]: The three harvest objectives (78410, 78417, 78419) are real, unflagged Durango Zoo texts and match the offer text 78403 (rainleaf, punkin, and sunleaf). Counts are null, and the answer correctly says ",
+    "line.previous: The prerequisite 'Archer: Animal Investigation' (3010022) comes from the repo record and the giver dossier. I did not verify it against client text. The answer states it as a fact in the line field.",
+    "line.next: next is stated as empty with no source for the end of the line. The wiki's Bowman Bilter list places 'Archer: Achieve Level 15' next to Prevention First (locale 387334/387337 gate on level 15 and say "
+   ]
+  }
+ ],
+ "still_blocked": []
+}

@@ -1,0 +1,433 @@
+{
+ "zone": "Greenwood Forest",
+ "quests": [
+  {
+   "quest_id": 3010001,
+   "record": "quest-lines/quests.json q3010001",
+   "title": "Being a Better Archer",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000514",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Learn how to advance your skill as an Archer by speaking with Lugabow in Greenwood Forest",
+     "text_locale_id": 442238,
+     "target": "Lugabow",
+     "target_locale_id": 5104,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Job advancement 'Being a Better …' set (one quest per job; Archer's is an optional entry quest per Archer.md)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010004,
+   "record": "quest-lines/quests.json q3010004",
+   "title": "Archer: Test of Agility",
+   "giver": {
+    "name": "Lugabow",
+    "npc_id": "9000000387",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Touch all of the target dummies within the time alloted to pass this test!",
+     "text_locale_id": 22103,
+     "target": "Target Dummy One to Target Dummy Ten",
+     "target_locale_id": 22127,
+     "count": 10
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Completion broadcast: \"Lugabow's Test of Agility\" (reward text; no coin or item amount found)",
+     "source": "locale:115075"
+    }
+   ],
+   "line": {
+    "name": "Archer job unlock (Lugabow, Greenwood Camp)",
+    "previous": [
+     "Path of the Archer"
+    ],
+    "next": [
+     "Archer: Taking Aim"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 22101,
+     "speaker": "Lugabow"
+    },
+    "progress": {
+     "locale_id": 76950,
+     "speaker": "Lugabow"
+    },
+    "complete": {
+     "locale_id": 76807,
+     "speaker": "Lugabow"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010005,
+   "record": "quest-lines/quests.json q3010005",
+   "title": "Archer: Taking Aim",
+   "giver": {
+    "name": "Lugabow",
+    "npc_id": "9000000387",
+    "locale_id": 5104
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Thugawug Fumblers in Greenwood Forest as an archer.",
+     "text_locale_id": 76957,
+     "target": "Thugawug Fumblers",
+     "target_locale_id": 77004,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job unlock line (Lugabow, Greenwood Camp)",
+    "previous": [
+     "Archer: Test of Agility"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 76955,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 76958,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3010007,
+   "record": "quest-lines/quests.json q3010007",
+   "title": "Archer: Pondblaster Target Practice",
+   "giver": {
+    "name": "Hilforn",
+    "npc_id": "9000000106",
+    "locale_id": 22171
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat some Robgoblin Pondblasters as an archer, and then return to Hilforn.",
+     "text_locale_id": 383049,
+     "target": "Robgoblin Pondblasters",
+     "target_locale_id": 103235,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Hilforn",
+     "text_locale_id": 383054,
+     "target": "Hilforn",
+     "target_locale_id": 22171,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none recorded",
+     "source": "no reward text found in the client pack for locale:383045-383057; repo record 3010007 has empty rewards"
+    }
+   ],
+   "line": {
+    "name": "Archer job quest line (Hilforn, northern Greenwood Forest, band 1)",
+    "previous": [
+     "Archer: Oath of Honor"
+    ],
+    "next": [
+     "Archer: Explosive Expedition"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 383044,
+     "speaker": "Hilforn"
+    },
+    "progress": {
+     "locale_id": 93151,
+     "speaker": "Hilforn"
+    },
+    "complete": {
+     "locale_id": 383047,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010008,
+   "record": "quest-lines/quests.json q3010008",
+   "title": "Archer: Explosive Expedition",
+   "giver": {
+    "name": "Hilforn",
+    "npc_id": "9000000106",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Recover dynamite (explosives) from the Robgoblin Pondblasters near the small lake north of Hilforn (six). Drop-vs-defeat mechanic not settled by client text.",
+     "text_locale_id": 77082,
+     "target": "Robgoblin Pondblasters",
+     "target_locale_id": null,
+     "count": 6
+    },
+    {
+     "kind": "collect",
+     "text": "Collect samples from sap collection vats in the forest near Hilforn (six)",
+     "text_locale_id": 93147,
+     "target": "Sap Collection Vat",
+     "target_locale_id": 93155,
+     "count": 6
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Amateur Archer Bow (level 1)",
+     "source": "wiki:Amateur Archer Bow (source list '[Explosive] [Expedition]'); unconfirmed by client text"
+    }
+   ],
+   "line": {
+    "name": "Archer job quest line, Band 1 (levels 1 to 5, Hilforn)",
+    "previous": [
+     "Archer: Pondblaster Target Practice"
+    ],
+    "next": [
+     "Archer: Achieve Level 5"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 93180,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3010009,
+   "record": "quest-lines/quests.json q3010009",
+   "title": "Archer: Achieve Level 5",
+   "giver": {
+    "name": "Hilforn",
+    "npc_id": "9000000106",
+    "locale_id": 22171
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 5 as an Archer, then return to Hilforn.",
+     "text_locale_id": 387306,
+     "target": "Archer level 5",
+     "target_locale_id": 387308,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer training (Hilforn, Band 1 of the Archer line, levels 1 to 5)",
+    "previous": [
+     "Archer: Explosive Expedition"
+    ],
+    "next": [
+     "Contract: All Around Win",
+     "Archer: Pondblaster Payback"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 387301,
+     "speaker": "Hilforn"
+    },
+    "progress": {
+     "locale_id": 387311,
+     "speaker": "Hilforn"
+    },
+    "complete": {
+     "locale_id": 387304,
+     "speaker": "Hilforn"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010011,
+   "record": "quest-lines/quests.json q3010011",
+   "title": "Archer: Pondblaster Payback",
+   "giver": {
+    "name": "Hilforn",
+    "npc_id": "9000000106",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Take out the remaining Robgoblin Pondblasters to the north of Hilforn.",
+     "text_locale_id": 383176,
+     "target": "Robgoblin Pondblasters",
+     "target_locale_id": 95047,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Use your Explosive Arrows on the Robgoblin Pondblasters to the north. That will teach them!",
+     "text_locale_id": 383181,
+     "target": "Explosive Arrows",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line (Hilforn chain, level 5 to 10 band)",
+    "previous": [
+     "Archer: Achieve Level 5"
+    ],
+    "next": [
+     "Archer: Archer Departure"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 383169,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 383171,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 383172,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010012,
+   "record": "quest-lines/quests.json q3010012",
+   "title": "Archer: Archer Departure",
+   "giver": {
+    "name": "Hilforn",
+    "npc_id": "9000000106",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Hilforn wants you to travel to Farnum Farmstead to see if you can find Vicki, another archer recruit.",
+     "text_locale_id": 77598,
+     "target": "Farnum Farmstead",
+     "target_locale_id": 18735,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed",
+     "source": "no reward evidence in client, wiki or Archer.md row 10 (rewards 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Archer (Hilforn band 2, level 5 to 10)",
+    "previous": [
+     "Archer: Pondblaster Payback"
+    ],
+    "next": [
+     "Archer: No Arrows, No Work!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77598,
+     "speaker": "Hilforn"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020019,
+   "record": "quest-lines/quests.json q3020019",
+   "title": "Blacksmith: Reach Level 15",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": 77427
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Your mining career will continue once you have reached level 15 as a Blacksmith. Return to Mili Ironcall at that time.",
+     "text_locale_id": 387560,
+     "target": "Mili Ironcall",
+     "target_locale_id": 77427,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith career line (Mili Ironcall, Southvale band, then Billie JoBob, Silverray)",
+    "previous": [],
+    "next": [
+     "Blacksmith: Silver Appearance"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387558,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 387561,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  }
+ ]
+}

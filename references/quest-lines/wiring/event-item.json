@@ -1,0 +1,3082 @@
+[
+ {
+  "item": "1M Astronaut Suit",
+  "item_locale_id": 3348,
+  "record": "quest-lines/items.json i1m-astronaut-suit",
+  "source": {
+   "type": "event",
+   "detail": "One-time award to the one-millionth registered player, for the 1 Million registered players milestone (May 24, 2009)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: https://freerealms.fandom.com/wiki/1M_Astronaut_Suit ; locale:3348"
+  },
+  "store_row": null
+ },
+ {
+  "item": "1M T-Shirt",
+  "item_locale_id": 3349,
+  "record": "quest-lines/items.json i1m-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "One Million Registered Players milestone celebration (May 2009): SOE rewarded all current players with the limited-edition T-shirt after Free Realms passed 1 million sign-ups",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: https://freerealms.fandom.com/wiki/1M_T-Shirt (text: 'To mark that event, SOE had rewarded all current players with limited edition, in-game T-shirts'; Sources: 'One Million Registered Players! on FreeRealms.com'); locale:3349"
+  },
+  "store_row": null
+ },
+ {
+  "item": "2013 Snow Days Toy Collector Pack",
+  "item_locale_id": 5102982,
+  "record": "quest-lines/items.json i2013-snow-days-toy-collector-pack",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days 2013 seasonal event; bundle introduced in-game December 10, 2013 as part of Snow Days 2013",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/2013_Snow_Days_Toy_Collector_Pack"
+  },
+  "store_row": null
+ },
+ {
+  "item": "8-Bit Heart T-Shirt",
+  "item_locale_id": 5102432,
+  "record": "quest-lines/items.json i8-bit-heart-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "8-Bit Month event item, added in the September 24, 2013 update and removed from the Coin Shop on October 8, 2013 when 8-Bit Month ended",
+   "where": "Coin Shop (8-Bit Month)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/8-Bit_Heart_T-Shirt (page text; Category:8-Bit month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Alien Invader T-Shirt",
+  "item_locale_id": 5102427,
+  "record": "quest-lines/items.json ialien-invader-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "8-Bit Month event item (introduced in the September 17, 2013 update, removed October 8, 2013)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Alien_Invader_T-Shirt"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Alien Mask",
+  "item_locale_id": 2670,
+  "record": "quest-lines/items.json ialien-mask",
+  "source": {
+   "type": "event",
+   "detail": "Sci-Fi Mystery Chest (Mystery Chest Series 2), random loot from opening the chest; the chest is earned from activities and can be opened with a Mystery Key",
+   "where": null,
+   "price": "Mystery Key sold on the Marketplace (key price not stated in evidence)",
+   "currency": null,
+   "source": "wiki: Alien Mask; wiki: Mystery Chest (Sci-Fi section); locale:2663; locale:482; articles: http://www.freerealms.com:80/article/detail.action?articleId=2604"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Alien Pants",
+  "item_locale_id": 2678,
+  "record": "quest-lines/items.json ialien-pants",
+  "source": {
+   "type": "event",
+   "detail": "Sci-Fi Mystery Chest (Mystery Chest Series 2), opened for a random item; Alien Pants are one of its listed loot items",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Alien_Pants ; wiki page Mystery Chest (lists Series 2 Sci-Fi contents including [Alien] [Pants]); http://www.freerealms.com:80/article/detail.action?articleId=2604"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Alien Shirt",
+  "item_locale_id": 2674,
+  "record": "quest-lines/items.json ialien-shirt",
+  "source": {
+   "type": "event",
+   "detail": "Opened from a Sci-Fi Mystery Chest (Mystery Chest Series 2 loot; chest contents include sci-fi / alien wear)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Alien_Shirt (categories: Mystery Chest, Chest); articles/facts.json Sci-Fi Mystery Chest entry, http://www.freerealms.com:80/article/detail.action?articleId=2604"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Amazing Helmet",
+  "item_locale_id": 5103238,
+  "record": "quest-lines/items.json iamazing-helmet",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain themed month-long event; item introduced in-game January 28, 2014",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Amazing_Helmet (page text; category HeroRealms Month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Arctic Cat",
+  "item_locale_id": 5102967,
+  "record": "quest-lines/items.json iarctic-cat",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2013 (annual Snow Days quest event); the wiki does not say which quest or gift box grants it",
+   "where": "Snow Days (Snowhill)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Arctic Cat (rev 50255): 'acquired as a part of the 12 Days of Presents 2013'; wiki page Rides, List of Rides row 'Arctic Cat ... Acquired from the 12 Days of Presents 2013'; wiki page 12 Days of Presents lists the Arctic Cat Ride"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Athletic Shades",
+  "item_locale_id": 5102796,
+  "record": "quest-lines/items.json iathletic-shades",
+  "source": {
+   "type": "event",
+   "detail": "Introduced in-game on 2013-11-19 as part of Lost Treasures Month (Game Update 120)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Athletic_Shades (category: Lost Treasures Month; 'introduced in-game on November 19, 2013 as a part of Lost Treasures Month'); Game Update 120 Available Tuesday 11/19/2013 on Free Realms Forums"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Balloon Animal",
+  "item_locale_id": 4899,
+  "record": "quest-lines/items.json iballoon-animal",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash event (the item was offered during this event)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Balloon_Animal (text: 'available during the Birthday Bash event'; category Birthday Bash)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Balloon Pet Pumper",
+  "item_locale_id": 5663,
+  "record": "quest-lines/items.json iballoon-pet-pumper",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash event",
+   "where": "Birthday Bash event",
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Balloon_Pet_Pumper (page text: \"available during the Birthday Bash event\"; category Birthday Bash)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Balloon Sword",
+  "item_locale_id": 17874,
+  "record": "quest-lines/items.json iballoon-sword",
+  "source": {
+   "type": "event",
+   "detail": "Gifting Piñata version, obtained from the Gifting Piñata during the 2011 Birthday Bash and through trade. The Piñata can no longer be acquired.",
+   "where": "Gifting Piñata (2011 Birthday Bash)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Balloon_Sword (Gifting Piñata Version section). Piñata's own reward record not checked."
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bat",
+  "item_locale_id": null,
+  "record": "quest-lines/items.json ibat",
+  "source": {
+   "type": "event",
+   "detail": "Team Vampire Bundle, an SC Marketplace item bundle sold during the Super Spooktacular. The wiki says the Bat is acquired through it. Bundle contents per locale:432411 list a 'Black Bat Pet', so it is unresolved whether that is this pet.",
+   "where": "SC Marketplace (Super Spooktacular bundle)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Bat (page text: 'The Bat can also be acquired through the Team Vampire Bundle'); wiki Super Spooktacular page lists Team Vampire under that event; locale:432410 (item, Team Vampire Bundle); locale:432411 (quest_reward text: 'a Black Bat Pet')."
+  },
+  "store_row": null
+ },
+ {
+  "item": "Beanie Cap",
+  "item_locale_id": 9260,
+  "record": "quest-lines/items.json ibeanie-cap",
+  "source": {
+   "type": "event",
+   "detail": "Black Friday 2012 login reward: log in on any 2 days between November 23 and 26, 2012",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki Beanie_Cap: 'introduced in-game as a part of Black Friday 2012... acquired by logging in daily for any 2 days within November 23 through 26, 2012'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Big Bunny Suit",
+  "item_locale_id": 5100052,
+  "record": "quest-lines/items.json ibig-bunny-suit",
+  "source": {
+   "type": "event",
+   "detail": "Spring Eggstravaganza: reward for Alyssa Eggelyn's daily quests (wiki says completing all four), and/or the Big Egg opened on March 31, whose only possible reward is the Big Bunny Suit. The two wiki pages describe the mechanism differently; see open.",
+   "where": "Spring Eggstravaganza event (March 28-31)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Big_Bunny_Suit (rev 45357); wiki: Spring Eggstravaganza ('[Big] Egg' section); wiki: Events (large egg opened after finding all 4 eggs)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Birthday Cake Hat",
+  "item_locale_id": 694,
+  "record": "quest-lines/items.json ibirthday-cake-hat",
+  "source": {
+   "type": "event",
+   "detail": "Free login gift to all characters who logged in during the 2012 Birthday Bash (Free Realms 3rd anniversary, logins on 4/28/2012 per article 2578)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com/article/detail.action?articleId=2580; http://www.freerealms.com/article/detail.action?articleId=2578; locale:707; https://freerealms.fandom.com/wiki/Birthday_Cake_Hat"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Black Widow (not an item: race/NPC; closest item is Widow Candy)",
+  "item_locale_id": 118963,
+  "record": "quest-lines/items.json iblack-widow",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular events, activities and quests (acquisition of Widow Candy, the consumable that turns the user into a black widow for 3 minutes)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Widow Candy (Category:Super Spooktacular); locale:417157"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Broomstick",
+  "item_locale_id": 9911,
+  "record": "quest-lines/items.json ibroomstick",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular 2012 (item introduced in-game as part of it)",
+   "where": "Super Spooktacular",
+   "price": null,
+   "currency": null,
+   "source": "wiki Broomstick Trivia: 'The Broomstick was introduced in-game a part of Super Spooktacular 2012.'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bunny Goggles",
+  "item_locale_id": 5100099,
+  "record": "quest-lines/items.json ibunny-goggles",
+  "source": {
+   "type": "event",
+   "detail": "Completion prize for quest 'The Eggcitingly Eggcellent Egg Hunt' (Alyssa Eggelyn, Pixiewood Hills), claimed during Spring Eggstravaganza 2013",
+   "where": "Sanctuary, Pixiewood Hills (quest giver location)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Bunny_Goggles; wiki Quest:The [Eggcitingly] [Eggcellent] [Egg] [Hunt] (requirements, To Start: Alyssa Eggelyn, Pixiewood Hills, Sanctuary); locale:5100014"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Candy Corn Outfit",
+  "item_locale_id": 119189,
+  "record": "quest-lines/items.json icandy-corn-outfit",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular (Halloween seasonal event) window; the outfit was introduced in the Station Cash Marketplace",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Super_Spooktacular (text: '...Outfit introduced in the Station Cash Marketplace.')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Card Champion's Case",
+  "item_locale_id": 386917,
+  "record": "quest-lines/items.json icard-champion-s-case",
+  "source": {
+   "type": "event",
+   "detail": "Awarded for winning a Trading Card Game (TCG) tournament. The win gives a Virtual Reward loot card (card ID 2LP9), which is redeemed through the player's communicator for one Card Champion's Case. Lifetime limit: one per account.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page https://freerealms.fandom.com/wiki/Card_Champion's_Case (loot card section); wiki igd text 'This briefcase is awarded to tournament winners.'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Card Champion's Sack",
+  "item_locale_id": 2998,
+  "record": "quest-lines/items.json icard-champion-s-sack",
+  "source": {
+   "type": "event",
+   "detail": "Win one game in a TCG tournament between April 11-14, 2013 and earn the Card Champion's Sack (Trading Card Game tournament promotion)",
+   "where": "TCG tournaments",
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2912"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Cat Tail",
+  "item_locale_id": 8840,
+  "record": "quest-lines/items.json icat-tail",
+  "source": {
+   "type": "event",
+   "detail": "Halloween outfit release: new Halloween outfit items, including Cat Tail, were added",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2306; http://www.freerealms.com/article/detail.action?articleId=2309"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Chatty Costume",
+  "item_locale_id": 119190,
+  "record": "quest-lines/items.json ichatty-costume",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular Halloween event (costume slot item; the wiki lists it in the Super Spooktacular event item list, above the '2010' heading, so most likely the 2009 event)",
+   "where": "Free Realms, during the Super Spooktacular event",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Chatty Costume (rev 45356); wiki: Super Spooktacular (item list 'Chatty Costume, Pumpkin Paper Bag Mask, Skull Lantern (green), ...')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clocktopus",
+  "item_locale_id": 19040,
+  "record": "quest-lines/items.json iclocktopus",
+  "source": {
+   "type": "event",
+   "detail": "Clockwork Mystery Chest (random reward from opening the chest; members had a special opportunity to get it)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki:Clocktopus (acquired by opening Clockwork Mystery Chests); locale:944; locale:441464; article http://www.freerealms.com:80/article/detail.action?articleId=2721"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Feet",
+  "item_locale_id": 8775,
+  "record": "quest-lines/items.json iclockwork-feet",
+  "source": {
+   "type": "event",
+   "detail": "Clockwork Mystery Chest (Series 3: Clockwork Mystery Chest, promotional event chest; opened with a Mystery Key). Clockwork Feet is one of the clothing rewards inside.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: https://freerealms.fandom.com/wiki/Clockwork_Feet (rev 37867); locale:19048; locale:3862; locale:944; articles http://www.freerealms.com/article/detail.action?articleId=2721"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Hands",
+  "item_locale_id": 8771,
+  "record": "quest-lines/items.json iclockwork-hands",
+  "source": {
+   "type": "event",
+   "detail": "Opening a Clockwork Mystery Chest (Clockwork Mystery Chest, locale:19048; Mystery Chest series 'Clockwork', locale:3862). Hands slot Freestyle Jobs clothing drawn from the chest's reward table.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page Clockwork Hands (rev 37869: 'acquired through opening Clockwork Mystery Chests'); wiki Mystery Chest page (lists [Clockwork] Hands in the Clockwork series); locale:19048, locale:3862, locale:441447"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Head",
+  "item_locale_id": 8769,
+  "record": "quest-lines/items.json iclockwork-head",
+  "source": {
+   "type": "event",
+   "detail": "Clockwork Mystery Chest (Series 3: Clockwork), random reward from opening the chest with a Mystery Key",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki:Clockwork Head (acquired through opening Clockwork Mystery Chests); wiki:Mystery Chest; locale:19048 (chest item name); locale:19049 (\"You'll need a Mystery Key\"); locale:3862 (\"Series 3: Clockwork\"); articles:http://www.freerealms.com/article/detail.action?articleId=2721 (Clockwork Mystery Chest rewards are clockwork gear wearable in-game)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Horse",
+  "item_locale_id": 8779,
+  "record": "quest-lines/items.json iclockwork-horse",
+  "source": {
+   "type": "event",
+   "detail": "Clockwork Mystery Chest (Series 3: Clockwork Mystery Chest), opened for a random reward; the Clockwork Horse is one of its listed rewards",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page Clockwork Horse (\"acquired through opening Clockwork Mystery Chests\"); wiki Mystery Chest page lists \"[Clockwork] Horse\" among the Clockwork chest contents; locale:19048 (item name Clockwork Mystery Chest); locale:944 (chest description: \"loaded with all sorts of clockwork items\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Legs",
+  "item_locale_id": 8777,
+  "record": "quest-lines/items.json iclockwork-legs",
+  "source": {
+   "type": "event",
+   "detail": "Clockwork Mystery Chest (random reward from opening the chest; Freestyle Jobs legs slot). Chest is opened with a Mystery Key.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki:Clockwork_Legs (acquired through opening Clockwork Mystery Chests; category Mystery Chest); wiki:Mystery_Chest (lists Clockwork Legs among Clockwork chest items); locale:19048 (item name Clockwork Mystery Chest); locale:19049 (chest needs a Mystery Key, keys sold on the Marketplace); articles: http://www.freerealms.com/article/detail.action?articleId=2721 (Clockwork Mystery Chest rewards are clockwork gear wearable in-game)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Monkey",
+  "item_locale_id": 19046,
+  "record": "quest-lines/items.json iclockwork-monkey",
+  "source": {
+   "type": "event",
+   "detail": "Opened from a Clockwork Mystery Chest (the Clockwork Monkey Kit is randomly dropped from the chest, then used from the quick item bar to make the pet); also obtainable through player trade",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page Clockwork Monkey (from Clockwork Mystery Chests, or through trade); wiki category Mystery Chest; locale:19048 (item 'Clockwork Mystery Chest'); locale:944 (chest description); locale:441447 (Snowhill Clockworker quest objective: 'Open a Clockwork Mystery Chest')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Torso",
+  "item_locale_id": 8773,
+  "record": "quest-lines/items.json iclockwork-torso",
+  "source": {
+   "type": "event",
+   "detail": "Random reward from opening a Clockwork Mystery Chest (Mystery Chest Series 3: Clockwork); the chest is opened with a Mystery Key",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki:Clockwork Torso (categories Mystery Chest, Freestyle Jobs; text: 'acquired through opening Clockwork Mystery Chests'); locale:19048; locale:3862; locale:19049"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Courageous Gauntlets",
+  "item_locale_id": 5103232,
+  "record": "quest-lines/items.json icourageous-gauntlets",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain month-long event; item introduced in-game January 28, 2014",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Courageous_Gauntlets (page text and category HeroRealms Month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Cupcake",
+  "item_locale_id": 4895,
+  "record": "quest-lines/items.json icupcake",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash (seasonal event); the Cupcake pet pal can only be obtained during it. No specific vendor, quest, or drop is named in the evidence.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Cupcake (rev 48876); https://freerealms.fandom.com/wiki/Pet_Pals (\"Only available during the Birthday Bash.\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Cupid",
+  "item_locale_id": 10823,
+  "record": "quest-lines/items.json icupid",
+  "source": {
+   "type": "event",
+   "detail": "Random prize from the Gifting Basket housing item during the 2011 Festival of Hearts (the basket is a Station Cash Marketplace item from that event; Cupid is one of its random pet pal prizes)",
+   "where": "Housing lot (Gifting Basket, placed in a lot and clicked daily)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Cupid ; https://freerealms.fandom.com/wiki/Gifting_Basket (SC Marketplace, 2011 Festival of Hearts, no longer acquirable); locale:6883"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Dastardly Boots",
+  "item_locale_id": 5103051,
+  "record": "quest-lines/items.json idastardly-boots",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain month-long event. The boots were introduced in-game on 14 January 2014 as part of it.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Dastardly_Boots (Trivia section; category HeroRealms Month); https://freerealms.fandom.com/wiki/HeroRealms_Month (lists Dastardly Boots among the HeroRealms Month gear)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Dastardly Gloves",
+  "item_locale_id": 5103052,
+  "record": "quest-lines/items.json idastardly-gloves",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month (Hero vs. Villain month-long event); the Dastardly Gloves were introduced in-game January 14, 2014 as part of it",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Dastardly_Gloves (rev 45715): 'introduced in-game on January 14, 2014 as a part of HeroRealms Month'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Decorative Bonesaw",
+  "item_locale_id": 5102686,
+  "record": "quest-lines/items.json idecorative-bonesaw",
+  "source": {
+   "type": "event",
+   "detail": "Introduced in-game as part of Lost Treasures Month, released November 5, 2013 (Game Update 118)",
+   "where": "Station Cash Marketplace",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Decorative_Bonesaw; Game Update 118 details (Free Realms forums, cited on the page); image:art_or_promo Losttreasures2.png"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Decorative Hammer",
+  "item_locale_id": 5102694,
+  "record": "quest-lines/items.json idecorative-hammer",
+  "source": {
+   "type": "event",
+   "detail": "Introduced in-game as part of Lost Treasures Month (Game Update 119, Tuesday 11/12/2013); announced by Steve 'Shock' George on 11/8/2013",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Decorative_Hammer (page text and category Lost Treasures Month; image 'LOST TREASURES ... Decorative Hammer!')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Diabolical Armored Greaves",
+  "item_locale_id": 5103249,
+  "record": "quest-lines/items.json idiabolical-armored-greaves",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain themed month-long event; the item was introduced in-game on January 28, 2014 as part of it.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Diabolical_Armored_Greaves (page text; category HeroRealms Month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Diabolical Helmet",
+  "item_locale_id": 5103248,
+  "record": "quest-lines/items.json idiabolical-helmet",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain themed month-long event; item introduced in-game January 28, 2014",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Diabolical_Helmet (wiki text and category HeroRealms Month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Diabolical Sabatons",
+  "item_locale_id": 5103246,
+  "record": "quest-lines/items.json idiabolical-sabatons",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain month-long event; the Sabatons are part of the Courageous / Diabolical / Nefarious armor sets listed on the HeroRealms Month page",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/HeroRealms_Month (lists Diabolical Sabatons in the set); https://freerealms.fandom.com/wiki/Diabolical_Sabatons"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Dragonfire Broomstick",
+  "item_locale_id": 5102679,
+  "record": "quest-lines/items.json idragonfire-broomstick",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular seasonal (Halloween) event, the window in which the broom was sold; introduced in-game October 22nd, 2013",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Dragonfire_Broomstick (categories: Super Spooktacular, Seasonal; trivia: introduced in-game October 22nd, 2013)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ducky Floaty",
+  "item_locale_id": 396026,
+  "record": "quest-lines/items.json iducky-floaty",
+  "source": {
+   "type": "event",
+   "detail": "Seaside Summer Splash celebration, where the item was added to the Marketplace",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "article 137 (http://www.freerealms.com:80/article/detail.action?articleId=137); mentioned in the Seaside Summer Splash answer"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Dumpling",
+  "item_locale_id": 4842,
+  "record": "quest-lines/items.json idumpling",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader, a Facebook application that dispensed Dumpling as one of its prizes",
+   "where": "Facebook application Treasure Trader",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Treasure Trader (prize list includes [Dumpling]; active September 8 to September 28, 2010)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Emo-Tor",
+  "item_locale_id": 134701,
+  "record": "quest-lines/items.json iemo-tor",
+  "source": {
+   "type": "event",
+   "detail": "Festival of Hearts (annual seasonal event, Merry Vale), the window the wiki gives for acquiring Emo-Tor via the TCG loot card",
+   "where": "Merry Vale",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Emo-Tor (lead sentence: 'acquired during the Festival of Hearts through redeeming...'); wiki Category:Festival of Hearts; articles fact:event http://www.freerealms.com:80/article/detail.action?articleId=969 (annual Festival of Hearts in Merry Vale)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Everloving Edge",
+  "item_locale_id": 7347,
+  "record": "quest-lines/items.json ieverloving-edge",
+  "source": {
+   "type": "event",
+   "detail": "Festival of Hearts (annual seasonal event)",
+   "where": "Stone Heart's Hideway encounter",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Everloving_Edge (categories: Festival of Hearts, Seasonal Weapons); another answer: event 'Festival of Hearts' lists Everloving Edge (wiki category Festival of Hearts)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Exclusive Beta Tester's Cap",
+  "item_locale_id": 3018,
+  "record": "quest-lines/items.json iexclusive-beta-tester-s-cap",
+  "source": {
+   "type": "event",
+   "detail": "Free Realms open beta participants (beta-tester reward; no grant mechanism documented in the pack)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Exclusive_Beta_Tester's_Cap (wiki: 'exclusively rewarded to Free Realms Beta testers'); locale:3019 ('only for players who participated in the Free Realms beta!'); http://www.tentonhammer.com:80/node/67397 (Free Realms was in open beta for a little over a week before launch)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Exploding Hammer",
+  "item_locale_id": 31649,
+  "record": "quest-lines/items.json iexploding-hammer",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader Exploding Hammer (Level 16 Brawler, Bash), prize from the Facebook application Free Realms Treasure Trader; no longer obtainable",
+   "where": "Facebook app: Free Realms Treasure Trader (active Sept 8-28, 2010)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Exploding_Hammer (Treasure Trader section: 'previously acquired from the Facebook application, Free Realms Treasure Trader. It can no longer be acquired.'); https://freerealms.fandom.com/wiki/Treasure_Trader (prize list includes Exploding Hammer; application active September 8 to September 28, 2010); refs freerealms-wiki/harvest/lists/weapons.json:36650"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Fan Faire 2011 Bicycle",
+  "item_locale_id": 436136,
+  "record": "quest-lines/items.json ifan-faire-2011-bicycle",
+  "source": {
+   "type": "event",
+   "detail": "Rewarded to SOE Live 2011 (real-world SOE Fan Faire convention, Las Vegas) attendees who registered for a badge using their proper STATION ID, correct email address and primary game. Not an in-game Free Realms event or vendor sale.",
+   "where": "Las Vegas, SOE Live 2011 (real world)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Fan_Faire_2011_Bicycle; locale:436136; locale:436137"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Fearless Armored Cuirass",
+  "item_locale_id": 5103124,
+  "record": "quest-lines/items.json ifearless-armored-cuirass",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain themed month-long event; the cuirass was introduced in-game January 21, 2014 as part of it",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Fearless_Armored_Cuirass (wiki text and category HeroRealms Month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Fiber Optic Wand",
+  "item_locale_id": 407466,
+  "record": "quest-lines/items.json ifiber-optic-wand",
+  "source": {
+   "type": "event",
+   "detail": "Lost Treasures Month (introduced in-game November 1, 2013)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Fiber_Optic_Wand; category Lost Treasures Month"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Figgy Pudding Critter",
+  "item_locale_id": 5102963,
+  "record": "quest-lines/items.json ifiggy-pudding-critter",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2013 (annual Snow Days holiday quest event); the pet was handed out as a reward during the event, a variation of the 2012 Fruit Cake Critter",
+   "where": "Snowhill, Snow Days",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Figgy Pudding Critter (rev 50226); wiki: Pet Pals (table row: 'Acquired from the 12 Days of Presents 2013'); wiki: 12 Days of Presents (2012 list shows Day 2 Fruit Cake Critter as the analogous reward); notes/Build Guides/Content/NPCs/NPCs - Snowhill.md:146 (Trina Turtledove, Present Tracker)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Floral Flair Shard",
+  "item_locale_id": 6959,
+  "record": "quest-lines/items.json ifloral-flair-shard",
+  "source": {
+   "type": "event",
+   "detail": "Facebook application 'Treasure Trader' prize (active September 8-28, 2010; retired)",
+   "where": "Facebook application Free Realms Treasure Trader",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Floral Flair Shard (previously acquired from the Facebook application Free Realms Treasure Trader); wiki:Treasure Trader (prize list includes Floral Flair Shard)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Frankie Spooky Popper",
+  "item_locale_id": 5102550,
+  "record": "quest-lines/items.json ifrankie-spooky-popper",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular seasonal event (Week #3, 10/15/13), when the item was offered in the Coin Shop",
+   "where": "Coin Shop",
+   "price": null,
+   "currency": "coins",
+   "source": "wiki Super Spooktacular (Week #3 - 10/15/13, Coin Shop), as quoted in the pack; wiki Category:Super Spooktacular"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Free Realms Birthday T-Shirt",
+  "item_locale_id": 5721,
+  "record": "quest-lines/items.json ifree-realms-birthday-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash (Free Realms annual anniversary event). The wiki says the shirt is a Freestyle Jobs clothing item acquired during the Birthday Bash event. The specific chest, NPC or quest that gives it is not named.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Free_Realms_Birthday_T-Shirt (rev 45348)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Floral Flair Shard",
+  "item_locale_id": 6959,
+  "record": "quest-lines/items.json ifree-realms-issue-11",
+  "source": {
+   "type": "event",
+   "detail": "Facebook application Free Realms Treasure Trader prize list (application active September 8, 2010 to September 28, 2010). Historical route, no longer available.",
+   "where": "Facebook application Treasure Trader",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Floral Flair Shard (\"previously acquired from the Facebook application Free Realms Treasure Trader\"); wiki:Treasure Trader (prize list includes [Floral] [Flair] [Shard]; application active September 8 - September 28, 2010)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Spelunker's Shard",
+  "item_locale_id": 6957,
+  "record": "quest-lines/items.json ifree-realms-issue-9",
+  "source": {
+   "type": "event",
+   "detail": "Random prize from the Treasure Trader Facebook application (Free Realms Treasure Trader), active September 8 to September 28, 2010. Retired: the application was discontinued and these prizes can no longer be acquired. No coin or Station Cash price.",
+   "where": "Facebook app (Treasure Trader)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Spelunker's_Shard ('also randomly acquired by the Facebook application, Free Realms Treasure'); https://freerealms.fandom.com/wiki/Treasure_Trader (active Sept 8-28, 2010); https://freerealms.fandom.com/wiki/Category:Treasure_Trader_Weapons ('can no longer be acquired'); http://tentonhammer.com/node/89227 (app launched Sept 9, 2010)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Free Realms Letterman Jacket",
+  "item_locale_id": 8878,
+  "record": "quest-lines/items.json ifree-realms-letterman-jacket",
+  "source": {
+   "type": "event",
+   "detail": "Free Realms 20 Million Registered Players celebration: free login giveaway, claimed by every player who logged in and claimed it from Friday October 21, 2011 through Monday October 31, 2011, 11:59 p.m. PDT",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Free_Realms_Letterman_Jacket; http://www.freerealms.com/article/detail.action?articleId=2308"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Fruit Cake Critter",
+  "item_locale_id": 441214,
+  "record": "quest-lines/items.json ifruit-cake-critter",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2012 (Day 2 gift), an annual Snow Days quest event",
+   "where": "Snow Days event",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Fruit_Cake_Critter; wiki: 12 Days of Presents (Day 2: Fruit Cake Critter); wiki: Snow Days (lists Fruit Cake Critter (pet pal)); wiki: Pet Pals (\"Acquired from the 12 Days of Presents 2012\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Futuristic Bicycle",
+  "item_locale_id": 5102860,
+  "record": "quest-lines/items.json ifuturistic-bicycle",
+  "source": {
+   "type": "event",
+   "detail": "House Party: players whose home was toured received a unique code that, when redeemed, grants the membership-exclusive Futuristic Bicycle ride",
+   "where": "player housing (House Party tour)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Community Events (https://freerealms.fandom.com/wiki/Community_Events); wiki: Futuristic Bicycle page"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Futuristic Bicycle",
+  "item_locale_id": 5102860,
+  "record": "quest-lines/items.json ifuturistic-bicycle",
+  "source": {
+   "type": "event",
+   "detail": "SOE employees / winners of the housing contest",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: Rides page (acquired from a SOE employee through winning the housing contest); wiki: Items page lists '[Futuristic] [Bicycle] - SOE Employees'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ghostly Snake",
+  "item_locale_id": 118984,
+  "record": "quest-lines/items.json ighostly-snake",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular (Halloween event) is the availability window for the Coin Shop sale; not a separate acquisition path",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page:ns0 'Pet Pals' ('Only available during the Super Spooktacular'); wiki page:ns0 'Super Spooktacular' (Pets & Pet Pals list includes Ghostly Snake)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Golden Robgoblin Artifact",
+  "item_locale_id": 5102724,
+  "record": "quest-lines/items.json igolden-robgoblin-artifact",
+  "source": {
+   "type": "event",
+   "detail": "Lost Treasures Month event (November 2013), in which the achievement and the artifact were introduced",
+   "where": "Sanctuary (Lost Treasures quest givers Sunstone Jones and Kara Loft)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Lost_Treasures_Month"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Golden Santa Suit",
+  "item_locale_id": 5102838,
+  "record": "quest-lines/items.json igolden-santa-suit",
+  "source": {
+   "type": "event",
+   "detail": "Trading Card Game Series 5 Virtual Reward loot card (ID 5P9), earned by placing 1st-4th in select Trading Card Game tournaments, December 10-23, 2013, as part of Snow Days 2013. Redeeming the card delivers one Golden Santa Suit clothing item through the player's communicator.",
+   "where": "Trading Card Game tournaments",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Golden_Santa_Suit (wiki page text; categories Snow Days, Trading Card Game, Virtual Rewards); image:art_or_promo card text 5P9"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Greaser Biker Backpack",
+  "item_locale_id": 797,
+  "record": "quest-lines/items.json igreaser-biker-backpack",
+  "source": {
+   "type": "event",
+   "detail": "Item drop during the Shrouded Glade Invasion",
+   "where": "Shrouded Glade Invasion",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Greaser_Biker_Backpack (page text: 'It can be acquired as an item drop during the Shrouded Glade Invasion.')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Green Santa Hat",
+  "item_locale_id": 5102843,
+  "record": "quest-lines/items.json igreen-santa-hat",
+  "source": {
+   "type": "event",
+   "detail": "Snowballer achievement: Defend Snowhill from the Abominable Snowman and retrieve your reward (Snow Days 2013)",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Green_Santa_Hat (rev 35763, wiki page text and Category:Snow Days)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Gummy Bear",
+  "item_locale_id": null,
+  "record": "quest-lines/items.json igummy-bear",
+  "source": {
+   "type": "event",
+   "detail": "Festival of Hearts event: the Gummy Bear was offered during Festival of Hearts events",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Gummy_Bear (category Festival of Hearts); other answer: event 'Festival of Hearts' (open)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Hat 'n Monocle",
+  "item_locale_id": 5102628,
+  "record": "quest-lines/items.json ihat-n-monocle",
+  "source": {
+   "type": "event",
+   "detail": "Possible item from opening a Lost Treasure Chest obtained in the Hunting Treasure daily quest (Kara Loft), during Lost Treasures Month (Nov 1 - Dec 10, 2013). The wiki's item page says it is 'acquired through completion of the Hunting Treasure Quest'; the Lost Treasures Month page lists it as a possible chest reward, so treat it as chest loot, not a guaranteed quest reward.",
+   "where": "Sanctuary (Kara Loft, northwest of the Sanctuary Warpstone, quest start); chest found per the Hunting Treasure clue",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/wikitext/11509-48698-9c82c14e67ad.wiki lines 7-15 (Lost Treasures Month, questline section: 'Possible item rewards upon opening a Lost Treasure Chest in Hunting Treasure include: ... Hat 'n Monocle'); https://freerealms.fandom.com/wiki/Hat_'n_Monocle (rev 35040); https://freerealms.fandom.com/wiki/Quest:Hunting_Treasure (rev 46084)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Heart Critter",
+  "item_locale_id": 10822,
+  "record": "quest-lines/items.json iheart-critter",
+  "source": {
+   "type": "event",
+   "detail": "Random prize from the Gifting Basket (housing item) during the 2011 Festival of Hearts. The purchaser clicks the basket once every 24 hours within its 30-day window for a Festival of Hearts themed reward.",
+   "where": "Gifting Basket (housing item), 2011 Festival of Hearts",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Heart_Critter (rev 50239); https://freerealms.fandom.com/wiki/Pet_Pals (Heart Critter row: 'Only available during 2011 Festival of Hearts as a random prize from the Gifting Basket'); https://freerealms.fandom.com/wiki/Gifting_Basket (Rewards section)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Holigoblin Mask",
+  "item_locale_id": 5102960,
+  "record": "quest-lines/items.json iholigoblin-mask",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2013 (annual Snow Days quest event). The wiki says the mask was acquired as part of this event; the specific granting quest/day is unconfirmed.",
+   "where": "Snow Days / 12 Days of Presents",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Holigoblin_Mask (rev 48696); https://freerealms.fandom.com/wiki/12_Days_of_Presents (2013 reward list includes Holigoblin Mask)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Hoodie Plaid Jacket",
+  "item_locale_id": 9262,
+  "record": "quest-lines/items.json ihoodie-plaid-jacket",
+  "source": {
+   "type": "event",
+   "detail": "Black Friday 2012 login reward: log in on any 3 days between November 23 and 26, 2012. Historical only; the event is over and not a live route",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Hoodie_Plaid_Jacket (rev 37283 page text). Uncorroborated: lookup for Black Friday 2012 in wiki, articles and client returned no hits"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Hot Cocoa Mug",
+  "item_locale_id": 5102969,
+  "record": "quest-lines/items.json ihot-cocoa-mug",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2013 (annual Snow Days quest event); the wiki says the item is acquired as part of this event. The specific quest, daily or present that gives it is not named.",
+   "where": "Snowhill (Snow Days event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Hot Cocoa Mug (https://freerealms.fandom.com/wiki/Hot_Cocoa_Mug); wiki: 12 Days of Presents (categories list Hot Cocoa Mug); repo notes: NPCs - Snowhill.md (12 Days quests, Trina Turtledove as the daily-quest host)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Icy Hoverboard",
+  "item_locale_id": 6232,
+  "record": "quest-lines/items.json iicy-hoverboard",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days holiday event, the only window in which it was offered",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Rides ('Icy Hoverboard ... Mechanical ride ... Only available during the Snow Days'); https://freerealms.fandom.com/wiki/Template:News (Snow Days improvements list includes Icy Hoverboard)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Icy Snowflake Glasses",
+  "item_locale_id": 5102965,
+  "record": "quest-lines/items.json iicy-snowflake-glasses",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2013 (annual Snow Days quest event) reward; the item is listed in the 2013 entry of the 12 Days of Presents page",
+   "where": "Snow Days / 12 Days of Presents event",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Icy Snowflake Glasses (rev 36066, 'acquired as a part of the 12 Days of Presents 2013, an annual Snow Days quest event'); wiki: 12 Days of Presents (2013 list includes Icy Snowflake Glasses); repo:freerealms-wiki/wikitext/16689-36066-c50d331649cd.wiki:2"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Insidious Boots",
+  "item_locale_id": 5103083,
+  "record": "quest-lines/items.json iinsidious-boots",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain themed month-long event; the boots were introduced in-game on January 14, 2014 as part of it",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Insidious_Boots (page text; category HeroRealms Month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Insidious Gloves",
+  "item_locale_id": 5103084,
+  "record": "quest-lines/items.json iinsidious-gloves",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain themed month-long event; item introduced in-game January 14, 2014 as part of it",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Insidious_Gloves"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Jackpot Plant",
+  "item_locale_id": 5683,
+  "record": "quest-lines/items.json ijackpot-plant",
+  "source": {
+   "type": "event",
+   "detail": "Day 5 reward of the Welcome Back login gift series",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2127 (article fact: 'Day 5 - Jackpot Plant' in the welcome-back login gift series)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Light Strand Whip",
+  "item_locale_id": 441921,
+  "record": "quest-lines/items.json ilight-strand-whip",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Mystery Chest (opened for a random unlock of this Freestyle Jobs non-combat whip)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Light_Strand_Whip (igd text: \"This whip was unlocked from the Snow Days Mystery Chest.\"; categories: Mystery Chest, Snow Days, Seasonal Weapons)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Lonely Island Lot",
+  "item_locale_id": 8322,
+  "record": "quest-lines/items.json ilonely-island-lot",
+  "source": {
+   "type": "event",
+   "detail": "Extra gift for Lifetime Members in the seven-day login gift series (Welcome Back), on top of the seven daily items",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2127 (summary: seven-day login gift series with an extra Lonely Island Lot for Lifetime Members; fact: 'they can also claim a Lonely Island Lot'); http://www.freerealms.com:80/article/detail.action?articleId=2129 (German, Einsames Inselgrundstück)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Lucky's Clover Shirt",
+  "item_locale_id": 5100529,
+  "record": "quest-lines/items.json ilucky-s-clover-shirt",
+  "source": {
+   "type": "event",
+   "detail": "Saint Patrick's 2013 event (Lucky Chance McXander's seasonal event; the shirt is worn by Lucky the lepregoblin)",
+   "where": "Merry Vale / Briarwood (client zone tag for locale 5100529 is Briarwood)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Lucky's_Clover_Shirt (rev 37997: 'acquired through the 2013 Saint Patrick's event'); wiki category Saint Patrick's (page lists Lucky's Clover Shirt)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Lucky's Green Hat",
+  "item_locale_id": 5100527,
+  "record": "quest-lines/items.json ilucky-s-green-hat",
+  "source": {
+   "type": "event",
+   "detail": "Saint Patrick's 2013 event, Lucky Chance McXander's coin hunt (quest line 'St. Patrick's Day is Here' / 'Lucky's Lost Coin'). Granting step UNCONFIRMED: the hat is lent by Lucky to search Sacred Grove for his golden pots; whether it is kept is not shown.",
+   "where": "Merry Vale (Lucky Chance McXander)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Lucky's_Green_Hat (acquired through the 2013 Saint Patrick's event; Category:Unobtainable); locale:5100470 ('...can only be seen when you are wearing this magical hat... Just tell me when you are ready and I will give you the hat'); repo:notes/Build Guides/Content/Jobs/Adventurer.md:164 (row G1, 'While wearing Lucky's hat search Sacred Grove'); repo:notes/Build Guides/Content/NPCs/NPCs - Merry Vale.md:126 (Lucky lends a hat that reveals gold pots)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Lucky's Green Jacket",
+  "item_locale_id": 5100535,
+  "record": "quest-lines/items.json ilucky-s-green-jacket",
+  "source": {
+   "type": "event",
+   "detail": "2013 Saint Patrick's event (Lucky the lepregoblin / Lucky Chance McXander); the item was handed out through the event's quest line, tagged in the client as the quest reward for \"St. Patrick's Day is Here\"",
+   "where": "Briarwood (client tag; the wiki gives no zone)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Lucky's_Green_Jacket (rev 37996: \"acquired through the 2013 Saint Patrick's event\"; categories Unobtainable, Saint Patrick's); locale:5100535 (quest_reward, hint \"St. Patrick's Day is Here\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Lump of Coal",
+  "item_locale_id": 134443,
+  "record": "quest-lines/items.json ilump-of-coal",
+  "source": {
+   "type": "event",
+   "detail": "Coal Train holiday achievement (Snow Days 2013): complete Snowman Showdown for Everett 20 times; wiki says reward is 50 Lumps of Coal (quantity unverified, see open)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Lump_of_Coal; locale:5102791 ('Complete Snowman Showdown for Everett 20 times.'); locale:5102790 ('Coal Train'); refs/freerealms-wiki/wikitext/3792-48170-a7b0483ad483.wiki:686"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Mega Dance Floor",
+  "item_locale_id": 6544,
+  "record": "quest-lines/items.json imega-dance-floor",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Special Member Reward: the 6-month tier of the Snow Days member reward added the Mega Dance Floor (same bundle, not a separate drop)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com/article/detail.action?articleId=1966&request_locale=en_US ; other answer 'Snow Days Special Member Reward'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Merry Vale Birthday T-Shirt",
+  "item_locale_id": 19958,
+  "record": "quest-lines/items.json imerry-vale-birthday-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "Free Realms Birthday Bash (game anniversary celebration), minigame clothing rewards",
+   "where": "Birthday Bash minigames (Freestyle Jobs clothing)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Merry_Vale_Birthday_T-Shirt (acquired during the Birthday Bash event); wiki page:ns0 Birthday Bash, section Rewards: 'Freestyle [Clothing] obtainable through minigames: ... Merry Vale [Birthday] T-Shirt'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Mystic Mayhem Member Shirt",
+  "item_locale_id": 5102736,
+  "record": "quest-lines/items.json imystic-mayhem-member-shirt",
+  "source": {
+   "type": "event",
+   "detail": "Given to members of the Free Realms guild Mystic Mayhem at the guild's third anniversary party on November 1, 2013 (announced by producer Steve \"Shock\" George); after that date, reportedly presented only to members who had been in the guild for more than one month",
+   "where": "Mystic Mayhem guild (anniversary party)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Mystic_Mayhem_Member_Shirt"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Oversized Ears",
+  "item_locale_id": 8830,
+  "record": "quest-lines/items.json ioversized-ears",
+  "source": {
+   "type": "event",
+   "detail": "Introduced in the Super Spooktacular 2011 Halloween update as one of the new Halloween outfit items (with Cat Ears, Dog Ears, Jack-O-Lantern Mask, etc.)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Oversized_Ears (category Super Spooktacular); https://www.freerealms.com/article/detail.action?articleId=2306"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Phenomenal Spandex Leggings",
+  "item_locale_id": 5103109,
+  "record": "quest-lines/items.json iphenomenal-spandex-leggings",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain themed month-long event; the item was introduced in-game on January 21, 2014 as part of it",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Phenomenal_Spandex_Leggings (categories: HeroRealms Month; text: 'introduced in-game on January 21, 2014 as a part of HeroRealms Month')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pirate Ship",
+  "item_locale_id": 9188,
+  "record": "quest-lines/items.json ipirate-ship",
+  "source": {
+   "type": "event",
+   "detail": "Day 7 reward of the Welcome Back login gift series",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2127 (Day 7 - Pirate Ship); articleId=2129 and articleId=2138 (same Day 7 pirate ship gift, German and French versions)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pixelated Skull T-Shirt",
+  "item_locale_id": 510260,
+  "record": "quest-lines/items.json ipixelated-skull-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "8-Bit Month event release (introduced Sept 10, 2013 update; unobtainable after Oct 8, 2013 when 8-Bit Month ended)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Pixelated_Skull_T-Shirt (wiki page text, category 8-Bit month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Prospector's Scroll",
+  "item_locale_id": 426573,
+  "record": "quest-lines/items.json iprospector-s-scroll",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular 2013 daily reward (one of four daily rewards: Graveyard Flambe, Super Star Booster scroll, Noxious Pork Chops, Prospector's Scroll)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Super Spooktacular' (ns0): 'The rewards for the 4 days were a Graveyard Flambe, a Super Star Booster [scroll], a Noxious Pork Chops, and a Prospector's Scroll.' Event ran Oct 1 to Nov 12, 2013."
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pumpkin Prince (TCG promo Hero card 4P23)",
+  "item_locale_id": null,
+  "record": "quest-lines/items.json ipumpkin-prince",
+  "source": {
+   "type": "event",
+   "detail": "Pumpkin Prince TCG Bundle, released during the October 2012 Super Spooktacular; contains one Pumpkin Prince promo card 4P23, plus two Baron von Darkcheat booster packs and two Heroes booster packs",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "locale:9921 (item name 'Pumpkin Prince Bundle'); locale:9922 (description: 'This seasonal bundle includes two booster packs of Baron von Darkcheat, two booster packs of Heroes, and one Pumpkin Prince promo card!'); wiki page Pumpkin_Prince (card ID 4P23, bundle contents); wiki page Template:News/Archive (Update of October 11, 2012: '[Pumpkin] [Prince] TCG Card', bundle grants a new TCG card)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Reindeer Antlers",
+  "item_locale_id": 134469,
+  "record": "quest-lines/items.json ireindeer-antlers",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days holiday event; item is only offered while the event runs",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Reindeer_Antlers (page text: 'available to everyone for purchase during Snow Days events'; category Snow Days)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Reindeer Outfit",
+  "item_locale_id": 134482,
+  "record": "quest-lines/items.json ireindeer-outfit",
+  "source": {
+   "type": "event",
+   "detail": "Holiday Gifting Tree: one free click every 24 hours during the Snow Days event window, one of several Snow Days rewards",
+   "where": "Snow Days event",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Holiday_Gifting_Tree (Rewards section lists Reindeer Outfit)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Roasted Turkey",
+  "item_locale_id": 5102766,
+  "record": "quest-lines/items.json iroasted-turkey",
+  "source": {
+   "type": "event",
+   "detail": "Thanksgiving / Fall Harvest 2013 holiday item; the Rides category says it was only available during Thanksgiving",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Rides (ride table entry for Roasted Turkey); Template:News (Raw, Roasted and Burnt Turkey mounts now available in the Marketplace)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Robo-Roo",
+  "item_locale_id": 440558,
+  "record": "quest-lines/items.json irobo-roo",
+  "source": {
+   "type": "event",
+   "detail": "Attendee reward for registering a badge at SOE Live 2012 (Las Vegas) with proper STATION ID, correct email and primary game",
+   "where": "SOE Live 2012, Las Vegas",
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Robo-Roo"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Rugged Winterwear Jacket",
+  "item_locale_id": 134496,
+  "record": "quest-lines/items.json irugged-winterwear-jacket",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days seasonal event (Dec 2009); wiki page says the item was available only during Snow Days. Video frames show it in the Crafty Robgoblins snowman minigame prize screen, so it was probably a minigame prize, but the frame is not clear enough to confirm this as a reward.",
+   "where": "Snow Days event; Crafty Robgoblins minigame (Freestyle Jobs)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Rugged_Winterwear_Jacket (category Snow Days; introduced December 2009); video:0F0xaW5jiFQ/00108 and video:0F0xaW5jiFQ/00004 (minigame prize screen listing Rugged Winterwear Jacket among items)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Sandy Beach Lot",
+  "item_locale_id": 8321,
+  "record": "quest-lines/items.json isandy-beach-lot",
+  "source": {
+   "type": "event",
+   "detail": "Welcome Back login gift series, Day 1 reward (free)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2127 ; http://www.freerealms.com:80/article/detail.action?articleId=2129 ; locale:8321"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Santa's Sleigh-mobile",
+  "item_locale_id": 4419434,
+  "record": "quest-lines/items.json isanta-s-sleigh-mobile",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Mystery Chest (random unlock from the Snow Days holiday chest)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Santa's_Sleigh-mobile (rev 50364: 'acquired through opening Snow Days Mystery Chests'; igd: 'unlocked from Snow Days Mystery Chest'; categories Mystery Chest, Snow Days, Seasonal)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "SBS-1000",
+  "item_locale_id": 5102793,
+  "record": "quest-lines/items.json isbs-1000",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days 2013 (Dec 1, 2013 to Jan 14, 2014) content, listed alongside the December 2013 Monthly Member Pack items",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Snow_Days"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Seaside Birthday T-Shirt",
+  "item_locale_id": 19960,
+  "record": "quest-lines/items.json iseaside-birthday-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "Free Realms Birthday Bash (third-anniversary celebration), Freestyle Jobs chest-slot clothing reward",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page Seaside_Birthday_T-Shirt (rev 45767): 'acquired during the Birthday Bash event'; categories Birthday Bash, Freestyle Jobs, Chest, Clothing, Seasonal; article http://www.freerealms.com/article/detail.action?articleId=2580 (Birthday Bash ran through May 24, 2012)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shooshboom Gloves",
+  "item_locale_id": 4419431,
+  "record": "quest-lines/items.json ishooshboom-gloves",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Mystery Chest (seasonal holiday chest; the gloves are one of its unlocks)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Shooshboom_Gloves (rev 37720: 'acquired through opening Snow Days Mystery Chests'; categories Mystery Chest, Snow Days, Seasonal); locale:4419444 ('These gloves were unlocked from the Snow Days Mystery Chest.'); locale:4419664 ('The Snow Days Mystery Chest ... is only available during Snow Days.')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shooshboom Hat",
+  "item_locale_id": 4419432,
+  "record": "quest-lines/items.json ishooshboom-hat",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Mystery Chest (holiday Mystery Chest, Snow Days seasonal event; the hat is one of the chest's reward items)",
+   "where": "Snowhill (Snow Days event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Shooshboom Hat (categories Mystery Chest, Snow Days); wiki:Mystery Chest (lists [Shooshboom] Hat among Snow Days chest rewards); locale:4419443 (\"This hat was unlocked from the Snow Days Mystery Chest.\"); locale:4419476 (Snow Days chest \"filled with the best Shooshbooming Gear\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shooshboom Ice Skates",
+  "item_locale_id": 4419427,
+  "record": "quest-lines/items.json ishooshboom-ice-skates",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Mystery Chest (holiday-limited chest; the item is one of its contents, feet slot)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Shooshboom Ice Skates' (acquired through opening Snow Days Mystery Chests); locale:4419447 ('These ice skates were unlocked from the Snow Days Mystery Chest.'); locale:4419476 ('Only available during Snow Days this Mystery Chest is filled with the best Shooshbooming Gear.')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shooshboom Jacket",
+  "item_locale_id": 4419428,
+  "record": "quest-lines/items.json ishooshboom-jacket",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Mystery Chest (opened during the Snow Days holiday event)",
+   "where": "Snowhill (Snow Days event)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Shooshboom_Jacket (rev 30185: 'can be acquired through opening Snow Days Mystery Chests'); wiki categories Mystery Chest, Snow Days; locale:4419445 ('This Jacket was unlocked from the Snow Days Mystery Chest.'); locale:4419476 ('Only available during Snow Days this Mystery Chest is filled with the best Shooshbooming Gear.')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shooshboom Pants",
+  "item_locale_id": 4419430,
+  "record": "quest-lines/items.json ishooshboom-pants",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Mystery Chest (seasonal Snow Days event chest; the Shooshboom set is unlocked from it)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Shooshboom_Pants (rev 42960: 'can be acquired through opening Snow Days Mystery Chests'; categories Mystery Chest, Snow Days); locale:4419446 ('These pants were unlocked from the Snow Days Mystery Chest.'); wiki page 'Mystery Chest' lists Shooshboom Pants under Snow Days chest contents"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shooshboom Scarf",
+  "item_locale_id": 4419429,
+  "record": "quest-lines/items.json ishooshboom-scarf",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Mystery Chest (seasonal Snow Days event chest; the scarf is one of its unlocks)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Shooshboom_Scarf (rev 38031, IGD: 'This scarf was unlocked from the Snow Days Mystery Chest.'; categories Mystery Chest, Snow Days, Seasonal); locale:4419448 ('This scarf was unlocked from the Snow Days Mystery Chest.'); locale:4419439 (Snow Days Mystery Chest item name)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shrouded Glade Birthday T-Shirt",
+  "item_locale_id": 19961,
+  "record": "quest-lines/items.json ishrouded-glade-birthday-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash (annual April event celebrating Free Realms' launch day, April 29, 2009); the item is a Freestyle Jobs clothing piece acquired during the event",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Shrouded_Glade_Birthday_T-Shirt; wiki category Birthday Bash; https://freerealms.fandom.com/wiki/Birthday_Bash"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snow Days Lot",
+  "item_locale_id": 441205,
+  "record": "quest-lines/items.json isnow-days-lot",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2012 (annual Snow Days quest event); the wiki says the lot was acquired as part of this event, and an other answer cites it as Day 11 of the 2012 event",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Snow_Days_Lot (rev 49525); wiki category '12 Days of Presents'; wiki category 'Snow Days'; locale:441205"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snow Days Unicorn Sweater",
+  "item_locale_id": 441217,
+  "record": "quest-lines/items.json isnow-days-unicorn-sweater",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2012 (Snow Days quest event): awarded from the daily presents; the sweater is the Freestyle Jobs Chest-slot item, first in blossom tint",
+   "where": "Snow Days (Free Realms holiday event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Snow Days Unicorn Sweater (rev 36108); wiki page 12 Days of Presents (2012 day list); wiki blog User blog:Soe amnerys/01-11-13 Update: 12 Days Recap (lists 'Snowdays Unicorn Sweater' in the 2012 present list)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snow Days Unicorn Sweater",
+  "item_locale_id": 441217,
+  "record": "quest-lines/items.json isnow-days-unicorn-sweater",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2013: returned in an electrolime tint",
+   "where": "Snow Days (Free Realms holiday event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Snow Days Unicorn Sweater (2013 electrolime tint; 'later returned in an electrolime tint for the 12 Days of Presents 2013 event')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snowflake Glasses",
+  "item_locale_id": 441216,
+  "record": "quest-lines/items.json isnowflake-glasses",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days (wiki 'Snow Days' page reward list for the 2012 series, which also lists 5,000 Coins and Snow Days Lot)",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Snow Days' (reward list containing [Snowflake] [Glasses])"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snowglobe Helmet",
+  "item_locale_id": 441218,
+  "record": "quest-lines/items.json isnowglobe-helmet",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2012, Snow Days series: awarded as the 'Big Present' listed after Day 4 (Snow Days Gift Box- Fireworks) on the 12 Days of Presents page",
+   "where": "Free Realms 12 Days of Presents event (holiday, Dec 2012)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: 12 Days of Presents; wiki: Snowglobe Helmet (categories 12 Days of Presents, Snow Days, Unobtainable)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snowhill Birthday T-Shirt",
+  "item_locale_id": 19962,
+  "record": "quest-lines/items.json isnowhill-birthday-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash event (Free Realms 3rd-anniversary celebration, 2012); item received via the event's chest/reward mechanic. Specific chest or action not documented.",
+   "where": "Snowhill (Birthday Bash event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Snowhill_Birthday_T-Shirt (\"a Freestyle Jobs clothing item that is acquired during the Birthday Bash event\"; categories Chest, Birthday Bash, Seasonal); articles: http://www.freerealms.com/article/detail.action?articleId=2580 (Birthday Bash ran through May 24, 2012)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snowman Mask",
+  "item_locale_id": 441236,
+  "record": "quest-lines/items.json isnowman",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2012 (annual Snow Days quest event); the wiki lists Snowman Mask in the 12 Days of Presents reward list, exact day not stated in the pack",
+   "where": "Snowhill (Snow Days)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Snowman Mask' (ns0): 'acquired as a part of the 12 Days of Presents 2012, an annual Snow Days quest event'; wiki page '12 Days of Presents' (ns0) reward list"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snowman Mask",
+  "item_locale_id": 441236,
+  "record": "quest-lines/items.json isnowman-mask",
+  "source": {
+   "type": "event",
+   "detail": "12 Days of Presents 2012 (annual Snow Days quest event); the mask was a reward within the event's daily-quest/present rewards",
+   "where": "Snow Days (12 Days of Holidays), December 2012",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Snowman_Mask (wiki page text: 'acquired as a part of the 12 Days of Presents 2012'); wiki category '12 Days of Presents'; wiki page 'Snow Days'; user blog 'Soe amnerys/01-11-13 Update: 12 Days Recap' (lists Snowman Mask among the 12 Days rewards)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snowstorm Suit",
+  "item_locale_id": 5103006,
+  "record": "quest-lines/items.json isnowstorm-suit",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days 2013 holiday event, when the bundle was offered; introduced in-game December 18, 2013",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Snowstorm_Suit (category 'Snow Days'; 'available during Snow Days 2013'; introduced December 18, 2013)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "SOE Live 2013 Parachute",
+  "item_locale_id": 443030,
+  "record": "quest-lines/items.json isoe-live-2013-parachute",
+  "source": {
+   "type": "event",
+   "detail": "Awarded exclusively to SOE Live 2013 attendees who registered for a badge in Las Vegas using their proper STATION ID, correct email address and primary game (SOE Live 2013 attendee perk)",
+   "where": "Las Vegas (SOE Live 2013, off-game registration)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: SOE Live 2013 Parachute (rev 45706); wiki: SOE Live (Attendee perks section)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "SOE Live 2013 T-Shirt",
+  "item_locale_id": 5102104,
+  "record": "quest-lines/items.json isoe-live-2013-t-shirt",
+  "source": {
+   "type": "event",
+   "detail": "Logging on during the SOE Live 2013 login promotion, between July 30th and August 3rd, 2013 (item granted for logging on)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/SOE_Live_2013_T-Shirt; locale:5102104; event 'SOE Live' (other answer in pack, citing the same wiki page)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Spelunker's Shard",
+  "item_locale_id": 6957,
+  "record": "quest-lines/items.json ispelunker-s-shard",
+  "source": {
+   "type": "event",
+   "detail": "Random reward from the Facebook application 'Free Realms Treasure Trader' (discontinued September 28, 2010)",
+   "where": "Facebook application",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Spelunker's Shard (page text); wiki:Treasure Trader (prize list) lists Spelunker's Shard"
+  },
+  "store_row": null
+ },
+ {
+  "item": "St. Bernard",
+  "item_locale_id": 441219,
+  "record": "quest-lines/items.json ist-bernard",
+  "source": {
+   "type": "event",
+   "detail": "Big Present from the 12 Days of Presents 2012 (Snow Days) event, opened on December 25, 2012. The wiki lists it in the 2012 rewards as 'Big Present: St. Bernard Pet' under the Day 8 entry. The specific Big Present tier (4, 8 or 12 daily presents) is not stated.",
+   "where": "Snowhill (Snow Days event, Trina Turtledove)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/12_Days_of_Presents (2012 list: 'Big Present: St. Bernard Pet'); https://freerealms.fandom.com/wiki/St._Bernard (rev 47903: 'acquired as a part of the 12 Days of Presents 2012'); repo-independent wiki pages Pets ('Acquired from the 12 Days of Presents 2012') and Snow Days ('Large Present 2: St. Bernard (dog pet)')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Stone Heart's Pink Bear",
+  "item_locale_id": 5103227,
+  "record": "quest-lines/items.json istone-heart-s-pink-bear",
+  "source": {
+   "type": "event",
+   "detail": "Bowheart achievement (Festival of Hearts): hit Stone Heart with 1000 love arrows; the bear is the achievement reward",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Stone_Heart's_Pink_Bear (rev 43254; text: 'acquired through completing the Bowheart achievement'); wiki category Festival of Hearts"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Storm Breaker (three Ninja weapons share this name: New School, Old School, Treasure Trader)",
+  "item_locale_id": null,
+  "record": "quest-lines/items.json istorm-breaker",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader Storm Breaker, level 16 Ninja weapon, prize from the Treasure Trader Facebook application (active September 8 to 28, 2010)",
+   "where": "Treasure Trader (Facebook application)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Storm_Breaker ('previously acquired from the Facebook application, Free Realms Treasure Trader. It can no longer be acquired'); https://freerealms.fandom.com/wiki/Treasure_Trader (prize list includes Storm Breaker; the same list is in refs freerealms-wiki/harvest/lists/weapons.json:36650)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Stupendous Silver Spandex Chestpiece",
+  "item_locale_id": 5103092,
+  "record": "quest-lines/items.json istupendous-silver-spandex-chestpiece",
+  "source": {
+   "type": "event",
+   "detail": "Trading Card Game Series 5 Virtual Reward: a 'Stupendous Silver Spandex Chestpiece' loot card (card ID 5P11), earned by placing 1st-4th in select Trading Card Game tournaments during HeroRealms Month; redeemed through the player's communicator for one clothing item (Any Job, chest slot)",
+   "where": "Trading Card Game tournaments (HeroRealms Month)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Stupendous_Silver_Spandex_Chestpiece (rev 38516; categories HeroRealms Month, Virtual Rewards, Trading Card Game)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Stupendous Silver Spandex Leggings",
+  "item_locale_id": 5103093,
+  "record": "quest-lines/items.json istupendous-silver-spandex-leggings",
+  "source": {
+   "type": "event",
+   "detail": "Trading Card Game Series 5 Virtual Reward tournament: a loot card of the same name (card ID 5P12), won by ranking 1st-4th on select Trading Card Game tournaments; redeemed through the communicator for one clothing item",
+   "where": "Trading Card Game tournaments (select events, January 31 to March 31, 2014)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Stupendous_Silver_Spandex_Leggings (wiki page text; categories HeroRealms Month, Virtual Rewards)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Sweetheart Saw",
+  "item_locale_id": 7346,
+  "record": "quest-lines/items.json isweetheart-saw",
+  "source": {
+   "type": "event",
+   "detail": "Festival of Hearts (annual holiday event) seasonal weapon",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Sweetheart_Saw (category 'Festival of Hearts', 'Seasonal Weapons')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Teddy Bear Costume",
+  "item_locale_id": 4833,
+  "record": "quest-lines/items.json iteddy-bear-costume",
+  "source": {
+   "type": "event",
+   "detail": "Festival of Hearts event (seasonal availability window for the Marketplace sale)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Teddy_Bear_Costume (page text and Festival of Hearts category)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Temporary Snowflake Parachute",
+  "item_locale_id": 441213,
+  "record": "quest-lines/items.json itemporary-snowflake-parachute",
+  "source": {
+   "type": "event",
+   "detail": "2012 12 Days of Presents quest series, Day 12 reward (the 'Snow Days Lot' day); each player received 100",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Temporary_Snowflake_Parachute (page text: 'Each player had the opportunity to acquire 100 Temporary Snowflake Parachutes through the 2012 12 Days of Presents quest series'); wiki page '12 Days of Presents' ('Day [12]: Temporary Snowflake Parachute'); wiki page 'Snow Days' (lists 'Temporary Snowflake Parachute x100' in the event rewards)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "The Monster Outfit",
+  "item_locale_id": 119193,
+  "record": "quest-lines/items.json ithe-monster-outfit",
+  "source": {
+   "type": "event",
+   "detail": "Available during Super Spooktacular events (seasonal Halloween event). Sold only while the event runs, per the wiki text",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/The_Monster_Outfit"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Torn Skinny Jeans",
+  "item_locale_id": 9264,
+  "record": "quest-lines/items.json itorn-skinny-jeans",
+  "source": {
+   "type": "event",
+   "detail": "Black Friday 2012 login reward: logging in daily on all 4 days, November 23 through 26, 2012",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Torn_Skinny_Jeans (wiki page text: introduced in-game as part of Black Friday 2012, originally acquired by logging in daily for all 4 days Nov 23-26, 2012)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Toy Maker Ears",
+  "item_locale_id": 2660,
+  "record": "quest-lines/items.json itoy-maker-ears",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days (Snowy Days) holiday event, 2011 onward; item introduced in-game Dec 15, 2011 as part of Snow Days 2011",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Toy_Maker_Ears; Game Update Summary - December 15, 2011 on Free Realms Forums (cited on wiki page)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Turkey Outfit",
+  "item_locale_id": 4176,
+  "record": "quest-lines/items.json iturkey-outfit",
+  "source": {
+   "type": "event",
+   "detail": "Turkey Dance event: players wore turkey suits (Turkey Outfit) for the event.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=645"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Turkey Outfit",
+  "item_locale_id": 4176,
+  "record": "quest-lines/items.json iturkey-outfit",
+  "source": {
+   "type": "event",
+   "detail": "Harvest Picnic Party (Fall Harvest / Thanksgiving, November 2009): suggested attire alongside the Turkey Hat.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com/article/detail.action?articleId=2407"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Vampire Outfit",
+  "item_locale_id": 14688,
+  "record": "quest-lines/items.json ivampire-outfit",
+  "source": {
+   "type": "event",
+   "detail": "Vampires vs. Werewolves Dance-off (Super Spooktacular), Team Vampire item. Per the wiki, players dressed in Team Vampire clothing receive items from the Pumpkin Prince. The exact reward mechanic is not verified.",
+   "where": "Bone Bog Cemetery, Blackspore Swamp (Super Spooktacular)",
+   "price": null,
+   "currency": null,
+   "source": "wiki https://freerealms.fandom.com/wiki/Vampires_vs._Werewolves_Dance-off (Items list: Team Vampire / Vampire Outfit; objective text on the same page); wiki Blackspore_Swamp and Super_Spooktacular pages place the dance-off there"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Vile Mask",
+  "item_locale_id": 5103080,
+  "record": "quest-lines/items.json ivile-mask",
+  "source": {
+   "type": "event",
+   "detail": "HeroRealms Month, a Hero vs. Villain themed month-long event; the Vile Mask was introduced in-game on January 14, 2014 as part of it",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Vile_Mask (wiki_page text; category HeroRealms Month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wanted Poster: Ironteeth",
+  "item_locale_id": 442371,
+  "record": "quest-lines/items.json iwanted-poster-ironteeth",
+  "source": {
+   "type": "event",
+   "detail": "Trading Card Game Series 5 Virtual Reward Tournament: Ironteeth Wanted Poster loot card (card ID 5P8), earned by placing 4th-8th in select TCG tournaments, then redeemed for one housing item via communicator. Limit one card per account.",
+   "where": "Trading Card Game tournaments (select events)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Wanted_Poster:_Ironteeth"
+  },
+  "store_row": null
+ },
+ {
+  "item": "White Flaming Skull Wobblehead",
+  "item_locale_id": 5102564,
+  "record": "quest-lines/items.json iwhite-flaming-skull-wobblehead",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular seasonal event (Halloween 2013); item introduced in game 22 Oct 2013 with Game Update 116",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/White_Flaming_Skull_Wobblehead (category Super Spooktacular; page sources list 'Game Update 116 Overview 10/22/2013 on Free Realms Forums'); also quoted in the event answer 'Super Spooktacular'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Widow Candy",
+  "item_locale_id": 417153,
+  "record": "quest-lines/items.json iwidow-candy",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular events, activities and quests (no specific event, quest, enemy or vendor named in the evidence)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Widow_Candy (rev 47560: 'acquired by participating in Super Spooktacular events, activities, and quests'; Category:Super Spooktacular)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Yeti Mask",
+  "item_locale_id": 8838,
+  "record": "quest-lines/items.json iyeti-mask",
+  "source": {
+   "type": "event",
+   "detail": "Introduced during Super Spooktacular 2011 (holiday event category)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Yeti_Mask"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Yule",
+  "item_locale_id": 5057,
+  "record": "quest-lines/items.json iyule",
+  "source": {
+   "type": "event",
+   "detail": "Holiday Gifting Tree reward: clicked once every 24 hours during the 30-day Snow Days event; rewards include Yule (Pet)",
+   "where": "Snow Days event (player home housing item Holiday Gifting Tree)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Holiday_Gifting_Tree (Rewards section: '[[Yule]] ([[Pets|Pet]])')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Zax",
+  "item_locale_id": 420571,
+  "record": "quest-lines/items.json izax",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader Facebook app prize (active Sept 8-28, 2010); Zax listed in the prize list per the other answer's wiki citation, but the readable page output is truncated and I could not confirm the Zax line myself",
+   "where": null,
+   "price": null,
+   "currency": "reward",
+   "source": "wiki page 'Treasure Trader' (prize list, harvest/lists/weapons.json:36650, truncated); events.json:63497 lists Zax among wiki-sourced prize candidates with item page not checked"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Anniversary Firework",
+  "item_locale_id": 14571,
+  "record": "quest-lines/citems.json canniversary-firework-14571",
+  "source": {
+   "type": "event",
+   "detail": "Cakenstein's Treasure (Birthday Bash event, Active Quest label). Caption reads 'You receive 1 Anniversary Firework'. The granting step and the zone are not confirmed, so this is an unconfirmed event or chest reward, not a verified quest reward.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "video:mAyN-7xjr8s/00028.jpg; locale:9049"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Balloon Hat",
+  "item_locale_id": 5689,
+  "record": "quest-lines/citems.json cballoon-hat-5689",
+  "source": {
+   "type": "event",
+   "detail": "Gifting Piñata daily click reward (Birthday Bash 2011). The piñata itself was sold through the Station Cash Marketplace; the hat is one of its listed rewards. No tier or odds are stated.",
+   "where": "Birthday Bash event (housing item)",
+   "price": "Piñata was sold for Station Cash; the hat's own price is not stated",
+   "currency": "station_cash",
+   "source": "wiki Gifting Piñata (freerealms-wiki/wikitext/2444-47745-56fc1e6063a0.wiki line 28 '[[Balloon Hat]]', Rewards section; lines 3 and 9 for the sale and daily-click wording)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Birthday Party Balloons 4-Pack",
+  "item_locale_id": 14423,
+  "record": "quest-lines/citems.json cbirthday-party-balloons-4-pack-14423",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash (April launch-day event) minigame 'Cakenstein Attacks!' win reward; the win screen reads 'You won Birthday Party Balloons 4-Pack'",
+   "where": "Birthday Bash event minigame",
+   "price": null,
+   "currency": null,
+   "source": "video:pJzcZTI1Pgk/00238 (win screen); wiki page 'Birthday Bash' (annual April event featuring party items and Cakenstein)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Branding Iron",
+  "item_locale_id": 16772,
+  "record": "quest-lines/citems.json cbranding-iron-384530",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader, a Facebook application prize (Branding Iron is on its prize list)",
+   "where": "Facebook application, Free Realms [Treasure] [Trader]",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Treasure Trader; refs freerealms-wiki/harvest/lists/weapons.json line 36650 (active September 8 to 28, 2010; prize list includes Branding Iron). Price charged by the app is not stated."
+  },
+  "store_row": null
+ },
+ {
+  "item": "Broken Heart T-Shirt",
+  "item_locale_id": 7240,
+  "record": "quest-lines/citems.json cbroken-heart-t-shirt-7240",
+  "source": {
+   "type": "event",
+   "detail": "Heartbreakers minigame prize screen, which shows the shirt among the prizes. This is a minigame prize board, not a confirmed coin sale. Its exact mechanic (for example a prize-wheel or high-score reward) is not confirmed.",
+   "where": "Heartbreakers minigame (Merry Vale event area; zone not confirmed)",
+   "price": null,
+   "currency": null,
+   "source": "video:EP2-qVs1mR8/00004.jpg (items_seen: Broken Heart T-Shirt; dialog: 'Win the game and you could win one of these prizes!')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Candy Cane",
+  "item_locale_id": 134450,
+  "record": "quest-lines/citems.json ccandy-cane-134450",
+  "source": {
+   "type": "event",
+   "detail": "Crafty Robgoblins minigame prize during the annual Snow Days / Snowhill 12 Days 2013 Day 3 battle (win screen reads 'YOU WIN! Crafty Robgoblins Congratulations! You won Candy Cane')",
+   "where": "Snowhill (Snow Days event)",
+   "price": null,
+   "currency": null,
+   "source": "video:0F0xaW5jiFQ/00116.jpg; locale:441137; locale:441086; wiki page Crafty Robgoblins battle references on 'Battles' and 'Snowman' pages"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Candy Heart Pajama Pants",
+  "item_locale_id": 7243,
+  "record": "quest-lines/citems.json ccandy-heart-pajama-pants-7243",
+  "source": {
+   "type": "event",
+   "detail": "Festival of Hearts basket reward: the pants are one of the possible rewards the basket grants (wiki list: '[Candy] [Heart] [Pajama] [Pants], in all 22 colors'). Grant odds and the once-per-24h click mechanic are as the wiki describes; the odds are not in any source.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: ns0 'Gifting Basket' (reward list, confirmed by lookup)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Card Duelist Shirt",
+  "item_locale_id": 42274,
+  "record": "quest-lines/citems.json ccard-duelist-shirt-42274",
+  "source": {
+   "type": "event",
+   "detail": "Cardie login reward for the Card Duelist event week (Saturday, April 13, 2013)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2912 ; page:ns500 User blog:Soe amnerys/Outfit Your Cardie in Style This Weekend (entry '[Card] [Duelist] [Shirt] (Saturday, April 13)')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Celery",
+  "item_locale_id": 407849,
+  "record": "quest-lines/citems.json ccelery-407849",
+  "source": {
+   "type": "event",
+   "detail": "A Chance of Vegetables promo quest (Cloudy with a Chance of Meatballs movie tie-in): players collect free-falling celery (objective 'Collect 12 celery') and hand veggies to the Food for All representatives. Celery is the collect item for this promo, not a purchase or a drop.",
+   "where": "Sanctuary (quest hint); collecting also set at Seaside, Lakeshore and Farnum's Farm",
+   "price": null,
+   "currency": null,
+   "source": "locale:408675 (quest_objective, hint 'A Chance of Vegetables'); locale:408667 (Food for All, food bank of Sanctuary, 'strange new vegetables raining from the sky'); locale:408672 (Seaside, Lakeshore, Farnum's Farm); locale:408669 ('Cloudy With a Chance of Meatballs ... In theater'); locale:408831 (Raining Veggies follow-up: 'collect more of the free-falling corn and celery'); repo:FreeRealms-Legacy/src/Resources/Npcs.json (cloudy_celery_01.adr spawn NPCs)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Coal",
+  "item_locale_id": 67303,
+  "record": "quest-lines/citems.json ccoal-67303",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days holiday event, where the coal is gathered for the Snowman Showdown quest",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Snow Days'; wiki page 'Achievements' (Coal Carrier / Coal Train counters, locale:5102788, locale:5102791)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Crash Cup",
+  "item_locale_id": 402399,
+  "record": "quest-lines/citems.json ccrash-cup-402399",
+  "source": {
+   "type": "event",
+   "detail": "Crash Cup event series. Winning three special event derbies claims the 'Sacred Grove Crash Cup'. The series starts with Crash Davis at the Wildwood track south of Cobblestone Village, and the second event is the Wildwood Derby 1000 (first to 22 points). The grant item id (60579 or 60597) is not confirmed.",
+   "where": "Wildwood track / special event derbies",
+   "price": null,
+   "currency": null,
+   "source": "locale:393451; locale:393370; locale:394481"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Deathly Love T-Shirt",
+  "item_locale_id": 8992,
+  "record": "quest-lines/citems.json cdeathly-love-t-shirt-8992",
+  "source": {
+   "type": "event",
+   "detail": "Random reward from the Gifting Basket housing item during the 2011 Festival of Hearts; the wiki lists 'Deathly Love T-Shirt, in all 22 colors' among its possible rewards. Per-tint breakdown not verified.",
+   "where": "player housing lot (Gifting Basket)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Gifting_Basket (wiki snippet: '[Deathly Love] T-Shirt, in all 22 colors'; Gifting Basket page: 'previously sold through the Station Cash Marketplace during the 2011 Festival of Hearts event. It can no longer be acquired.')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Dragon Blade",
+  "item_locale_id": 31655,
+  "record": "quest-lines/citems.json cdragon-blade-31655",
+  "source": {
+   "type": "event",
+   "detail": "Day 4 of the welcome-back login gift series, described as the New School Dragon Blade. The client has no exact string match, so it is not bound to a definition id.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2127 (corroborated by articleId=2129 'Moderne Drachenklinge' and articleId=2138 'Lame du dragon nouvelle génération')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Duelist Machine Cap",
+  "item_locale_id": 143004,
+  "record": "quest-lines/citems.json cduelist-machine-cap-143004",
+  "source": {
+   "type": "event",
+   "detail": "Holiday Card Duelist Challenge: defeat Kai the Ninja at a game of cards and receive a Duelist Machine Cap Virtual Reward for your character",
+   "where": "Free Realms holiday event; Kai the Ninja (Card Duelist challenge)",
+   "price": null,
+   "currency": null,
+   "source": "locale:4268 (quest_objective 'Card Duelist Challenge'): offered 'from Wednesday, December 16th through Wednesday, January 13th'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Easy Bake Cauldron",
+  "item_locale_id": 16637,
+  "record": "quest-lines/citems.json ceasy-bake-cauldron-16637",
+  "source": {
+   "type": "event",
+   "detail": "Halloween event: listed as a Halloween activate-able housing item in the official article. The article does not state how it was acquired (sale, prize, or reward), so the acquisition route is unknown.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Eggnog",
+  "item_locale_id": 134452,
+  "record": "quest-lines/citems.json ceggnog-134452",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days quest and battle rewards, part of the 12 Days 2013 event (Day 8: Nog Hog quest asks the player to drink Eggnog)",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "locale:441176 ('Eggnog is available from Snow Days quest and battle rewards'); locale:441309 (Snowhill Snow Days: 'You can get new cups of Eggnog by completing Snow Days quests or battles'); locale:441108 (Day 8: Nog Hog)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Electric Knife",
+  "item_locale_id": 16773,
+  "record": "quest-lines/citems.json celectric-knife-384600",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader Facebook application prize list (active 8 to 28 Sep 2010); a prize, not a purchase",
+   "where": "Facebook application Treasure Trader",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Treasure Trader (prize list)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Elemental Procedure",
+  "item_locale_id": 386325,
+  "record": "quest-lines/citems.json celemental-procedure-386325",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader prize from the Facebook application Free Realms Treasure Trader (Medic, level 16 variant, definition 55361, tint group 3). Listed in the application prize list. Odds and whether it was random are undocumented. No longer obtainable.",
+   "where": "Facebook application, Free Realms Treasure Trader (Sept 8 to Sept 28, 2010)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Treasure Trader (prize list includes Elemental Procedure); wiki:Elemental Procedure (Treasure Trader section)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Fan Faire '09 T-Shirt",
+  "item_locale_id": 392941,
+  "record": "quest-lines/citems.json cfan-faire-09-t-shirt-392941",
+  "source": {
+   "type": "event",
+   "detail": "Awarded by SOE to all participants of Fan Faire 2009 (the real-world SOE convention, Las Vegas, June 25-28 per the Ff2009 poster; now known as SOE Live). Not an in-game quest, drop or vendor item.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page Fan Faire T-Shirt (freerealms-wiki/wikitext/8584-45347-026bfe49226d.wiki, lines 2 and 7); locale:392941; quest-lines/events.json Fan Faire entry"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Garland",
+  "item_locale_id": 6554,
+  "record": "quest-lines/citems.json cgarland-6554",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days small present: 'Snow Days Gift Box - Decorations' (house decor: Holiday Wreath x4, Stockings x4, Snowman x2, Garland x4), one of the randomized small presents in the 12 Days of Holidays present series, opened with a bow",
+   "where": "Snowhill (Snow Days event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Snow Days (https://www.freerealms.com wiki 'Snow Days', revision 48701, section '12 Days of Holidays > Small Presents', refs/freerealms-wiki/wikitext/2502-48701-940c11a846d2.wiki:66); quest-lines/schedule-packs.json:41578 (same Decorations contents)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ghostly Grave Elemental",
+  "item_locale_id": 118943,
+  "record": "quest-lines/citems.json cghostly-grave-elemental-118943",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular (Halloween event). Wiki describes the Grave Elemental (Pet Pal) as available during the Super Spooktacular, exclusively to Membership through the Coin Shop; the wiki price field is blank.",
+   "where": "Super Spooktacular event",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Grave Elemental (Pet Pal)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Gingerbread Cookie",
+  "item_locale_id": 134454,
+  "record": "quest-lines/citems.json cgingerbread-cookie-134454",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days 2013 holiday event: a consumable cookie that players eat (Snow Days Day 4 quest 'Cookie! Nom Nom!' asks the player to eat one). Acquisition route not named; the quest and battle rewards are described only generically",
+   "where": "Snowhill (Snow Days quest NPC context); other zones not named",
+   "price": null,
+   "currency": null,
+   "source": "locale:441301 (\"a lot of cookies that you can get as Snow Days quest or battle rewards\" and lists the Gingerbread Cookie among five Snow Days cookies); locale:441144 (\"Cookies are available as Snow Days quest and battle rewards\"); locale:441151 (objective \"Eat a Gingerbread Cookie\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Gold Pinwheel Firework",
+  "item_locale_id": 395520,
+  "record": "quest-lines/citems.json cgold-pinwheel-firework-395520",
+  "source": {
+   "type": "event",
+   "detail": "Sizzlebottom (Robgoblin firework trader), Seaside Summer Splash: trades 10 Seaside Stickers for a Gold Pinwheel Firework (the same trade also offers a Blue Pinwheel)",
+   "where": "Seaside, near Seaspray Inn",
+   "price": "10 Seaside Stickers",
+   "currency": null,
+   "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:38622 (quest trade citing 3909291392); locale:400744 (\"Trade in Seaside Stickers for a gold pinwheel\"); repo:notes/Build Guides/Content/NPCs/NPCs - Seaside.md:49 and :201"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Gothic Rag Doll Face Paint Card",
+  "item_locale_id": 119229,
+  "record": "quest-lines/citems.json cgothic-rag-doll-face-paint-card-119229",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular, annual October Halloween event; the Pumpkin Prince chest carries this limited event reward",
+   "where": "Open-world / Bone Bog Cemetery per wiki",
+   "price": null,
+   "currency": null,
+   "source": "wiki Super Spooktacular (annual October event); wiki Pumpkin Prince"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Graveyard Flambe",
+  "item_locale_id": 269,
+  "record": "quest-lines/citems.json cgraveyard-flambe-269",
+  "source": {
+   "type": "event",
+   "detail": "SOE Trick or Treat Event, 4-day reward (one of the four daily rewards, with Super Star Booster scroll, Noxious Pork Chops, Prospector's Scroll)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Super Spooktacular', freerealms-wiki/wikitext/3113-48700-6d070a6b2cf5.wiki line 95, under the ===2011=== heading: 'Trick or Treat Event October 28 - 31' (2011, not 2013; the ===2013=== section at line 97-98 does not list this reward)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Green Balloon",
+  "item_locale_id": 5670,
+  "record": "quest-lines/citems.json cgreen-balloon-5670",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash balloon quest: Quills (Sanctuary palace usher) and Plumette (Sanctuary) ask players to trade balloons with other players until they hold a blue, an orange and a green balloon, then return them. The Green Balloon is one of the three balloons used in this trade chain, not a vendor item.",
+   "where": "Sanctuary",
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com/article/detail.action?articleId=1282 ; http://www.freerealms.com/article/detail.action?articleId=1300 ; repo:notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:34 (Quills gives Bundles of Balloons, Birthday Bash daily)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Haunted Headstone",
+  "item_locale_id": 16638,
+  "record": "quest-lines/citems.json chaunted-headstone-16638",
+  "source": {
+   "type": "event",
+   "detail": "Halloween activate-able housing item, listed with Jack-O-Lantern and Easy Bake Cauldron. The article does not say how it was issued or sold.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304 (Halloween Activate-able Items article; fact:housing via lookup articles)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Holiday Wreath",
+  "item_locale_id": 134356,
+  "record": "quest-lines/citems.json choliday-wreath-134356",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days event, 12 Days of Presents: Day 5 'Snow Days Gift Box - Decorations', which contains Holiday Wreath x4 (with Stockings x4, Snowman x2, Garland x4). Gift box contents, not a direct sale.",
+   "where": "Snow Days holiday event",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Snow Days' and wiki page '12 Days of Presents' (Day 5 entry); also user blog 01-11-13 12 Days Recap (ns500)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Skeletal Hoodie (one variant of the generic name 'Hoodie', locale 2493, shared by 67 definitions)",
+  "item_locale_id": 2493,
+  "record": "quest-lines/citems.json choodie-2493",
+  "source": {
+   "type": "event",
+   "detail": "'Skeletal Hoodie Special!' Bundle Sale, 'For a limited time only, save 40% on a Skeletal Hoodie. Priority 25. Bundle Sale.'",
+   "where": null,
+   "price": "40% off; base price and bundle contents unknown",
+   "currency": null,
+   "source": "locale:28288, locale:28289"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Hula Skirt",
+  "item_locale_id": 395956,
+  "record": "quest-lines/citems.json chula-skirt-395956",
+  "source": {
+   "type": "event",
+   "detail": "Seaside Summer Splash celebration, when the Hula Outfit was added to the Marketplace",
+   "where": "Seaside / summer event",
+   "price": null,
+   "currency": null,
+   "source": "article http://www.freerealms.com:80/article/detail.action?articleId=137; wiki category 'Summer'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Molten Bow",
+  "item_locale_id": 386326,
+  "record": "quest-lines/citems.json cmolten-bow-386326",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader Molten Bow (level 16 Treasure Trader weapon). Previously acquired from the Facebook application Free Realms Treasure Trader; no longer obtainable.",
+   "where": "Facebook app: Free Realms Treasure Trader",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Molten Bow (Treasure Trader section); corroborated by the 'Treasure Trader' answer citing wiki:Treasure Trader (prize list)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Starry Moons Face Paint Card",
+  "item_locale_id": 119233,
+  "record": "quest-lines/citems.json cmoons-429689",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular (2010 Halloween event), listed with Troll and Phantom Face Paint Cards, Chatty Costume, Pumpkin Paper Bag Mask, Skull Lantern (green)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Super Spooktacular (2010 section)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Mystery Pot Roast",
+  "item_locale_id": 38652,
+  "record": "quest-lines/citems.json cmystery-pot-roast-38652",
+  "source": {
+   "type": "event",
+   "detail": "Seaside Summer Splash Cook-off Contest (Teaspoon Tarlo / Tarisa), the mystery pot roast theme: win the minigame with a score of 18,000+. Win panel shows one Mystery Pot Roast plus Treasure Ticket and stars/coins.",
+   "where": "Seaside",
+   "price": null,
+   "currency": null,
+   "source": "video:w-9vtebjou4/00074.jpg (quest text 'Score at least 18,000 points'); video:w-9vtebjou4/00100.jpg (reward labels); locale:400113, locale:400449, locale:400900; notes/Build Guides/Content/Jobs/Chef.md:318"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wound Ballistic Medic Boots",
+  "item_locale_id": 133135,
+  "record": "quest-lines/citems.json cn-wound-ballistic-medic-boots-pl-wound-ballistic-medic-boots-133135",
+  "source": {
+   "type": "event",
+   "detail": "Dungeon bonus reward for completing 'Defeat all enemies!' in Briarheart Caverns: a random Medic-set piece (Wound Ballistic set), matching the receiving player's job; body part and color random",
+   "where": "Briarheart Caverns, Briarwood",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Briarheart Caverns, Bonus Rewards section (freerealms-wiki/wikitext/2831-49146-33c508286627.wiki lines 83-88)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Noxious Pork Chops",
+  "item_locale_id": 268,
+  "record": "quest-lines/citems.json cnoxious-pork-chops-268",
+  "source": {
+   "type": "event",
+   "detail": "Trick or Treat event daily reward (one of four daily rewards: Graveyard Flambe, Super Star Booster scroll, Noxious Pork Chops, Prospector's Scroll)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Super Spooktacular' (ns0): 'SOE ran a Trick or Treat Event October 28 - 31. The rewards for the 4 days were ... a Noxious Pork Chops ...' (year not stated on the wiki snippet); repo:quest-lines/items.json:148440 (same event cited for Prospector's Scroll)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Orange Balloon",
+  "item_locale_id": 5668,
+  "record": "quest-lines/citems.json corange-balloon-5668",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash daily balloon trade: Quills (Sanctuary palace usher) gives Bundles of Balloons; players trade balloons with each other until they hold a blue, an orange and a green balloon, then return them to Quills. Red balloons are not required. Companion quest from Plumette: trade with friends for a blue, orange and green balloon and return them to Plumette (balloons for the party).",
+   "where": "Sanctuary (Town Hall, outside the Royal Palace, for Quills)",
+   "price": null,
+   "currency": null,
+   "source": "articles/facts.json 'Balloon trade for Quills' (article-1282, http://www.freerealms.com/article/detail.action?articleId=1282); article http://www.freerealms.com/article/detail.action?articleId=1300 (Plumette); repo: notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:34 (Quills gives Bundles of Balloons, Birthday Bash daily)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ornament Cut-Out Cookie",
+  "item_locale_id": 134447,
+  "record": "quest-lines/citems.json cornament-cut-out-cookie-134447",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days 2013 quest or battle rewards (general line; the cookie is named among the rewardable cookies, not tied to a specific quest step)",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "locale:441301"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ornament Cut-Out Cookie",
+  "item_locale_id": 134447,
+  "record": "quest-lines/citems.json cornament-cut-out-cookie-134447",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days 2013 minigame results screen 'YOU WIN! Crafty Robgoblins' (Day 3 minigame, quest 3052466527); shown in the results list, wheel slot not confirmed",
+   "where": "Snowhill (Snow Days minigame)",
+   "price": null,
+   "currency": null,
+   "source": "video:0F0xaW5jiFQ/00108.jpg; notes/Build Guides/Content/NPCs/NPCs - Snowhill.md:198"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Party Crate",
+  "item_locale_id": 407352,
+  "record": "quest-lines/citems.json cparty-crate-407352",
+  "source": {
+   "type": "event",
+   "detail": "5M player event special virtual reward: one Party Crate (with one Silly String can, three Party Poppers, one Grab Bag)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=316"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Party Popper",
+  "item_locale_id": 407420,
+  "record": "quest-lines/citems.json cparty-popper-407420",
+  "source": {
+   "type": "event",
+   "detail": "5 Million Celebration (5M) event: one of three Party Poppers given as the special virtual rewards (listed with one Party Crate, one Silly String can and one Grab Bag); the fact is tagged '5M Party Wheel virtual rewards'",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "articles/facts.json (topic event, article-316): http://www.freerealms.com:80/article/detail.action?articleId=316 ('5 Million Celebration Event - Limited Time Only', 2009-09-16)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Penguin Cut-out Cookie",
+  "item_locale_id": 4049,
+  "record": "quest-lines/citems.json cpenguin-cut-out-cookie-4049",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days 2013 (12 Days of Presents): the cookie is one of the Snow Days cookies that the Snowhill quest 'Day 4: Cookie! Nom Nom!' has the player eat (step 'Eat a Penguin Cut-Out Cookie'). The quest consumes it; no step in the pack grants it. The grant mechanic (quest reward or battle reward) is not confirmed.",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "locale:441149 (quest_objective 'Eat a Penguin Cut-Out Cookie'); locale:441301 (Snowhill Snow Days dialog: cookies 'that you can get as Snow Days quest or battle rewards', listing the Penguin Cut-Out Cookie); locale:441145 and 441147 (sibling Day 4 eat steps)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pet Party Favor",
+  "item_locale_id": 4549,
+  "record": "quest-lines/citems.json cpet-party-favor-4549",
+  "source": {
+   "type": "event",
+   "detail": "Pet Party Community Events (hosted by Referees/Ambassadors), the event that gives this favor",
+   "where": "various warpstones",
+   "price": null,
+   "currency": null,
+   "source": "wiki Community Events; wiki Tiger the Party Animal; wiki Quest:Party for Pets Requirements"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Phantasm Blue Hair Color Card",
+  "item_locale_id": 5102494,
+  "record": "quest-lines/citems.json cphantasm-blue-hair-color-card-5102494",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular 2013: hair color style cards (Snowstorm, Pumpkin, Ectoplasm, Phantasm Blue, Bubblegum, Grape Frosting) introduced in Week #1, 10/1/2013. Wiki gives no price or acquisition method beyond the introduction.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page Super Spooktacular (Week #1 - 10/1/2013 entry)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pumpkin Paper Bag Mask",
+  "item_locale_id": 119227,
+  "record": "quest-lines/citems.json cpumpkin-paper-bag-mask-119227",
+  "source": {
+   "type": "event",
+   "detail": "Halloween 2010 event (Super Spooktacular); the wiki's 2010 list of event items includes the mask. Acquisition method in the event is not stated on the page.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: Super Spooktacular (2010 list)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Rainbow Coil Cutter",
+  "item_locale_id": 386324,
+  "record": "quest-lines/citems.json crainbow-coil-cutter-386324",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader Rainbow Coil Cutter (definition 55368, tint group 3, Ninja level 16). Prize from the Facebook application Free Realms Treasure Trader.",
+   "where": "Facebook application (Treasure Trader), Sept 8 to Sept 28, 2010",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Rainbow Coil Cutter (Treasure Trader section); wiki:Treasure Trader (application dates and prize list include Rainbow Coil Cutter); repo:stores.json line 13856 (item 55368)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Reindeer",
+  "item_locale_id": 4419433,
+  "record": "quest-lines/citems.json creindeer-436679",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Mystery Chest (seasonal holiday mystery chest; the Reindeer is one of its rewards, alongside the Light Strand Whip and Shooshboom clothing)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: Reindeer (Ride); wiki: Mystery Chest; wiki: Rides; client locale:4419630 (\"Fly around the Realms on your Reindeer. This ride was unlocked from the Snow Days Mystery Chest.\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Robbie Totem",
+  "item_locale_id": 23410,
+  "record": "quest-lines/citems.json crobbie-totem-23410",
+  "source": {
+   "type": "event",
+   "detail": "Bigfoot's Lair minigame prize list (Camp Chatty / Bigfoot's Lair, Level 5 combat job minigame). The frame shows Robbie Totem among the items seen in the prize panel beside Camp Chatty Flair Shard and Camp Chatty Tent. The wiki page's printed prize text does not name Robbie Totem; it lists Chugawug Totem and Troll Totem instead.",
+   "where": "Camp Chatty / Bigfoot's Lair minigame",
+   "price": null,
+   "currency": null,
+   "source": "video:s4q4D_xmPoU/00002.jpg (items_seen includes Robbie Totem); wiki page Bigfoot's Lair (prize list lines for Chugawug Totem and Troll Totem); video:L27vxozHOls/00004.jpg (Bigfoot's Lair prize panel)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Rugged Winterwear Boots",
+  "item_locale_id": 134497,
+  "record": "quest-lines/citems.json crugged-winterwear-boots-134497",
+  "source": {
+   "type": "event",
+   "detail": "Crafty Robgoblins minigame prize display, Snow Days winter event. Boots appear on the 'YOU WIN!' and prize screens with Toasty Winterwear Hat, Thermal Winterwear Jacket and Barber Pole Bow. Whether this is a random roll or a guaranteed prize is not confirmed.",
+   "where": "Snowhill (Snow Days event)",
+   "price": null,
+   "currency": null,
+   "source": "video:0F0xaW5jiFQ/00108.jpg; video:0F0xaW5jiFQ/00004.jpg; wiki page 'Snow Days' (event dates/location)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Seared Stainberry Recipe",
+  "item_locale_id": 1528,
+  "record": "quest-lines/citems.json cseared-stainberry-recipe-1528",
+  "source": {
+   "type": "event",
+   "detail": "Cooking minigame reward: 'Cooking: Mystery Pot Roast' results screen lists 'Seared Stainberry (recipe)' among the rewards (single OCR frame, text partly garbled)",
+   "where": "Cooking minigame (Mystery Pot Roast), NPC Sizzlebottom on screen",
+   "price": null,
+   "currency": null,
+   "source": "video:w-9vtebjou4/00100.jpg"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Seashell Necklace",
+  "item_locale_id": 399775,
+  "record": "quest-lines/citems.json cseashell-necklace-399775",
+  "source": {
+   "type": "event",
+   "detail": "Merry Vale weekly mail contest prize: the Seaside Postman's contest text says the prize 'this week' is a seashell necklace made by Enaine in Seaside; the player sorts the mail entries and picks a winner. The winner (named Myrea in the notes, locale:117181/117177 context) gets the necklace.",
+   "where": "Merry Vale (mail contest)",
+   "price": null,
+   "currency": null,
+   "source": "locale:117168 (Seaside Postman: And the Winner Is...); locale:117186 (winner's reply, see notes/Autopilot/T381.md row 9500000411); repo:notes/Build Guides/Content/NPCs/NPCs - Merry Vale.md:162"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shard Wand",
+  "item_locale_id": 386330,
+  "record": "quest-lines/citems.json cshard-wand-386330",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader Facebook application prize (level 16 Treasure Trader Shard Wand); the app ran 8-28 September 2010 and dispensed Shard Wand among its prizes",
+   "where": "Facebook application: Free Realms Treasure Trader",
+   "price": null,
+   "currency": null,
+   "source": "refs freerealms-wiki/harvest/lists/weapons.json:36650 (Treasure Trader prize list); wiki Shard Wand, Treasure Trader section"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Skull Lantern",
+  "item_locale_id": 119248,
+  "record": "quest-lines/citems.json cskull-lantern-119248",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular (2010 Halloween event) item list names '[Skull] [Lantern] (green)' among its items; the page does not say how it was obtained",
+   "where": "Super Spooktacular event",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Super Spooktacular"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snow Globe Hat",
+  "item_locale_id": 134471,
+  "record": "quest-lines/citems.json csnow-globe-hat-134471",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days holiday event; wiki lists '[Snow] [Globe] [Hat], a Limited Edition item' (the event's limited-edition hat, not tied to any specific wheel or vendor)",
+   "where": "Snow Days event",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Snow Days (https://freerealms.fandom.com/wiki/Snow_Days); wiki Template:News, Game Update 122.1 Overview 12/04/2013, Snow Days section lists '[Snow] [Globe] [Hat]'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snowflake Fireworks",
+  "item_locale_id": 134458,
+  "record": "quest-lines/citems.json csnowflake-fireworks-134458",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Gift Box - Fireworks (Snow Days / 12 Days of Presents holiday event; the box on Day 4 of the calendar). The box contains Winter Party Popper, Snow Flake Firework, Candy Cane Firework and Garland Firework; Snowflake Fireworks is the 'Snow Flake Firework' entry. Client locale 441207 names the box 'Snow Days Gift Box - Fireworks'.",
+   "where": "Snow Days event (Wilds / holiday event content)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Snow Days (Icy Snow Days Flair Shard / Snow Days Gift Box - Fireworks list); wiki: 12 Days of Presents (Day 4: Snow Days Gift Box - Fireworks); wiki user blog 01-11-13 12 Days Recap; locale:441207"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Starry Moons Face Paint Card",
+  "item_locale_id": 119233,
+  "record": "quest-lines/citems.json cstarry-moons-face-paint-card-119233",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular 2010 (Halloween event) item list, which names Starry Moons Face Paint Card alongside Troll and Phantom Face Paint Cards",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Super Spooktacular (2010 section)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Stockings",
+  "item_locale_id": 134357,
+  "record": "quest-lines/citems.json cstockings-134357",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Gift Box - Decorations (Day 5 of the 12 Days of Presents). The box holds house decor: Holiday Wreath x4, Stockings x4, Snowman x2, Garland x4.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: Snow Days; wiki: 12 Days of Presents (Day 5: Snow Days Gift Box - Decorations)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Stone Heart's Harp",
+  "item_locale_id": 8012,
+  "record": "quest-lines/citems.json cstone-heart-s-harp-8012",
+  "source": {
+   "type": "event",
+   "detail": "Heartbreakers minigame prize list (Festival of Hearts, Merry Vale): the harp is shown among the prizes for winning the game",
+   "where": "Merry Vale (Festival of Hearts minigame)",
+   "price": null,
+   "currency": null,
+   "source": "video:EP2-qVs1mR8/00004.jpg"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Storm Breaker",
+  "item_locale_id": 386306,
+  "record": "quest-lines/citems.json cstorm-breaker-386306",
+  "source": {
+   "type": "event",
+   "detail": "Treasure Trader Storm Breaker, definition 55360 (level 16 Ninja). Prize from the Free Realms Treasure Trader Facebook application; no longer obtainable.",
+   "where": "Treasure Trader Facebook application",
+   "price": "reward (no coin or SC price)",
+   "currency": null,
+   "source": "wiki:Storm Breaker (Treasure Trader section: 'previously acquired from the Facebook application, Free Realms Treasure Trader. It can no longer be acquired.'); wiki:Treasure Trader (application active September 8 to September 28, 2010)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Super Star Booster",
+  "item_locale_id": 2440,
+  "record": "quest-lines/citems.json csuper-star-booster-2440",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular 2013 day reward (one of four days' rewards, with a Graveyard Flambe, Noxious Pork Chops and a Prospector's Scroll); exact day and whether per-player not stated",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Super Spooktacular (ns0)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Tangletooth Shark",
+  "item_locale_id": 407895,
+  "record": "quest-lines/citems.json ctangletooth-shark-407895",
+  "source": {
+   "type": "event",
+   "detail": "Caught during the Keep it Clean fishing quest (Reel in Rusty Cans / Plastic Bags) with a 2x Coins Power Hour active; item message 'You receive 1 Tangletooth Shark'",
+   "where": "Fishing (Fisherman 20)",
+   "price": null,
+   "currency": null,
+   "source": "video:0LCKMQz3zMs/00110.jpg"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Team Vampire T-Shirt",
+  "item_locale_id": 14692,
+  "record": "quest-lines/citems.json cteam-vampire-t-shirt-14692",
+  "source": {
+   "type": "event",
+   "detail": "Listed as a reward item of the Vampires vs. Werewolves Dance-off (Super Spooktacular, Pumpkin Prince, Bone Bog Cemetery, Blackspore); wiki lists it in the Team Vampire item list without a per-item reward condition",
+   "where": "Blackspore, near Bone Bog Cemetery",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Vampires vs. Werewolves Dance-off (Items list); articles http://www.freerealms.com:80/article/detail.action?articleId=1862"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Team Werewolf T-Shirt",
+  "item_locale_id": 14694,
+  "record": "quest-lines/citems.json cteam-werewolf-t-shirt-14694",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular Vampires vs. Werewolves Dance-off, Team Werewolf side item list (listed with Team Werewolf Outfit, Werewolf Tail, Wolf pet)",
+   "where": "Blackspore Swamp (Super Spooktacular event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Vampires vs. Werewolves Dance-off (..Items list: [Team Werewolf T-Shirt]); wiki category Super Spooktacular / Seasonal"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Treasure Ticket",
+  "item_locale_id": 2404,
+  "record": "quest-lines/citems.json ctreasure-ticket-2404",
+  "source": {
+   "type": "event",
+   "detail": "July 2-8, 2009 event: receiving Treasure Tickets was doubled (a bonus on the sources above, not a separate item source)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=134 (articles fact:event, confirmed by lookup)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Treeble Cut-Out Mask",
+  "item_locale_id": 119224,
+  "record": "quest-lines/citems.json ctreeble-cut-out-mask-119224",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular Werewolf Dance Practice (boss Jake Blackforest), Archer Prize Wheel reward list, alongside Big Jack-O-Lantern, Skull Pail, Small Jack-O-Lantern, Spider Web Sticker, Spooktacular Balloons",
+   "where": "Blackspore Swamp (Werewolf Dance Practice, seasonal special-spawn battle)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Werewolf Dance Practice (Rewards section); video:4pioItLqlU8/00156.jpg shows the mask in a Head-slot item list with the wiki wording 'Wearing this mask would make Chatty proud.'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Turkleton Treats",
+  "item_locale_id": 134703,
+  "record": "quest-lines/citems.json cturkleton-treats-134703",
+  "source": {
+   "type": "event",
+   "detail": "Festival of Hearts (2011) Gifting Basket daily click reward: the owner of a placed Gifting Basket can click it every 24 hours for a Festival of Hearts themed reward; Turkleton Treats is listed among the possible rewards. Odds per reward are not published, and the page does not say whether it is fixed or random among the list.",
+   "where": "Player housing lot (placed Gifting Basket)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Gifting Basket, wikitext lines 2, 9 and 25 (freerealms-wiki/wikitext/18273-47747-e6214524e05b.wiki)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Vampire Cake Slice",
+  "item_locale_id": 6628,
+  "record": "quest-lines/citems.json cvampire-cake-slice-6628",
+  "source": {
+   "type": "event",
+   "detail": "Vampires vs. Werewolves dance-off (Super Spooktacular), winning-team reward; the reward is one of the two cake slices, depending on which team wins",
+   "where": "Super Spooktacular event",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Super Spooktacular (\"Werewolves Dance-off -- the reward is either a Vampire Cake Slice or a Werewolf Cake Slice, depending on which team wins\"); video:yWuHe_jYyc4/00190.jpg (Madam Zelda quest 'A Dark Future' lists both slices)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Vampire Fangs",
+  "item_locale_id": 7364,
+  "record": "quest-lines/citems.json cvampire-fangs-7364",
+  "source": {
+   "type": "event",
+   "detail": "Vampires vs. Werewolves dance-off: '[Vampire] [Fangs]' is listed among the Team [Vampire] items on the dance-off wiki page. The page does not give a price, and the year is unknown. The item-list entry is single-sourced, so treat it as unverified against client text.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Vampires vs. Werewolves Dance-off' (Items section)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Vanilla Cupcake",
+  "item_locale_id": 14572,
+  "record": "quest-lines/citems.json cvanilla-cupcake-14572",
+  "source": {
+   "type": "event",
+   "detail": "Birthday Bash (Free Realms anniversary event); the Cupcake pet pal is obtainable only during the Birthday Bash. Acquisition method (quest, vendor, or item) is not stated by any source.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Cupcake' (categories Pet Pal, Seasonal, Birthday Bash): 'can only be obtained during the Birthday Bash'; wiki page 'Pet Pals' row 'Cupcake: Only available during the Birthday Bash'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Werewolf Cake Slice",
+  "item_locale_id": 7336,
+  "record": "quest-lines/citems.json cwerewolf-cake-slice-7336",
+  "source": {
+   "type": "event",
+   "detail": "Vampires vs. Werewolves dance-off, Super Spooktacular (Halloween event). Reward is one of two cake slices depending on the winning team: Vampire Cake Slice or Werewolf Cake Slice. Which team yields the Werewolf slice is inferred, not stated by any source.",
+   "where": "Blackspore Swamp (Super Spooktacular dance-off)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Super Spooktacular (\"the reward is either a Vampire [Cake] [Slice] or a [Werewolf] [Cake] [Slice], depending on which team wins\"); locale:7336"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Werewolf Tail",
+  "item_locale_id": 7363,
+  "record": "quest-lines/citems.json cwerewolf-tail-7363",
+  "source": {
+   "type": "event",
+   "detail": "Super Spooktacular costume, listed as a Team Werewolf item in the Vampires vs. Werewolves Dance-off. The wiki and article 1860 confirm the costume and the Vampire Fangs wear restriction only. How players obtained it (dance-off prize, sale or bundle) is not confirmed.",
+   "where": "Super Spooktacular event",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Vampires vs. Werewolves Dance-off (Team [Werewolf] list, Category:Super Spooktacular, Category:Seasonal); http://www.freerealms.com/article/detail.action?articleId=1860; locale:7365"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wild T-Shirt",
+  "item_locale_id": 105622,
+  "record": "quest-lines/citems.json cwild-t-shirt-105622",
+  "source": {
+   "type": "event",
+   "detail": "Reward from Rainchaser's Seaside seashell/starfish tide-pool challenge game (\"You receive 1 Wild T-Shirt\" shown after the Seashell Bucket Press X / Starfish Bucket challenge).",
+   "where": "Seaside",
+   "price": null,
+   "currency": null,
+   "source": "video:AW041GUrkus/00348.jpg; locale:389234 (Rainchaser challenges to collect seashells and starfish); video:AW041GUrkus/00346.jpg (Combo Challenge [Rainchaser])"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Winter Party Popper",
+  "item_locale_id": 134451,
+  "record": "quest-lines/citems.json cwinter-party-popper-134451",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days Gift Box - Fireworks (Day 4 of 12 Days of Presents 2012, the annual Snow Days quest event); the box contains one of Winter Party Popper, Snow Flake Firework, Candy Cane Firework or Garland Firework",
+   "where": "Snow Days (12 Days of Presents 2012 quest event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: 12 Days of Presents; wiki: Snow Days (\"Snow Days Gift Box - Fireworks ([Winter] [Party] [Popper], Snow Flake Firework, Candy Cane Firework and Garland Firework)\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Winter Wonderland Outfit",
+  "item_locale_id": 134490,
+  "record": "quest-lines/citems.json cwinter-wonderland-outfit-134490",
+  "source": {
+   "type": "event",
+   "detail": "Snow Days outfit selection (seasonal event/Catalog offer); the article lists a winter wonderland dress among the Snow Days outfits alongside snowman, toy soldier and gingerbread outfits",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com/article/detail.action?articleId=809 ; http://www.freerealms.com/article/detail.action?articleId=808"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Witch Outfit",
+  "item_locale_id": 119210,
+  "record": "quest-lines/citems.json cwitch-outfit-119210",
+  "source": {
+   "type": "event",
+   "detail": "Listed among Halloween outfit releases in article 2304 (with Mummy, Grim Reaper, Vampire Count, Buff Superhero outfits). The article does not state how it was obtained (event-only, prize wheel, or other), so this is a listing, not a confirmed acquisition method.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Witch Pail",
+  "item_locale_id": 119246,
+  "record": "quest-lines/citems.json cwitch-pail-119246",
+  "source": {
+   "type": "event",
+   "detail": "Possible Super Spooktacular dance-practice battle reward. '[Witch] [Pail]' appears in the reward lists of Werewolf Dance Practice and Vampire Dance Practice, alongside Halloween items. Which wheel block it belongs to is not confirmed.",
+   "where": "Blackspore (wiki category), Super Spooktacular dance practice battles",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Werewolf Dance Practice; wiki page: Vampire Dance Practice"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wugachug Birthday T-Shirt",
+  "item_locale_id": 5723,
+  "record": "quest-lines/citems.json cwugachug-birthday-t-shirt-5723",
+  "source": {
+   "type": "event",
+   "detail": "Free Realms Birthday Bash anniversary event; the wiki says the shirt is acquired during Birthday Bash (Category:Birthday Bash). No price or drop detail.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: Wugachug Birthday T-Shirt (page text line 2 and Category:Birthday Bash)"
+  },
+  "store_row": null
+ }
+]

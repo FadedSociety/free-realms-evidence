@@ -1,0 +1,779 @@
+{
+ "zone": "Speedways",
+ "wireable_by_match": [
+  {
+   "quest_id": 3060001,
+   "record": "quest-lines/quests.json q3060001",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demolition Derby Tutorial",
+   "live": "yes",
+   "giver": {
+    "name": "Burt 'Wrecking' Crewe",
+    "npc_id": "9500000731",
+    "locale_id": 100244
+   },
+   "resolved_giver": {
+    "npc_id": 9500000731,
+    "name": "Burt 'Wrecking' Crewe",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Complete the demolition derby tutorial",
+     "text_locale_id": 139429,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 117356,
+     "speaker": "Burt 'Wrecking' Crewe"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line.previous: The answer lists 'The Burden of Fame' as previous without a fork marker. Starting Quest Chains.md:28 gives Burden's next as Racing Tutorial (3080002), and the answer's own open list admits the conflic",
+    "giver.npc_id: The answer correctly flags that the record carries giver_npc_id 9000000262 (demo_derby_driver.json lines 7 and 1006), which has no client name in our data. The answer's 9500000731 is supported by Star",
+    "objectives[0]: The text and locale id check out: 139429 is 'Complete the demolition derby tutorial'. The guide's 1589733747 and 1710419852 are not locale ids, as the answer says. The objective has no target, so it i",
+    "line.previous: The answer lists 'The Burden of Fame' as the sole previous quest, but Starting Quest Chains.md:28 gives Burden's next as Racing Tutorial (3080002). The answer does disclose the conflict in open[1], ye",
+    "evidence: The answer never cites locale:115521 or locale:104107. These are the strongest client evidence for the Burden -> Burt -> derby link, and the answer rests that link only on the guide and on Starting Qu",
+    "objectives[0]: The objective is untargeted (kind 'other', no NPC). Locale 139429 is confirmed as an unflagged quest_objective, and locale 130346 is its trailing-period variant. The guide's 'Return to Mustang Alli' g"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3080014,
+   "record": "quest-lines/quests.json q3080014",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: A Treacherous Track",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000239",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Sparks Blitzwing in the \"Treacherous Track\" race at Frost Ridge Speedway.",
+     "text_locale_id": 394722,
+     "target": "Sparks Blitzwing",
+     "target_locale_id": 101908,
+     "count": 1,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": 394716
+   },
+   "critic_problems": [
+    "giver: Giver is only an unnamed NPC id (9000000239) with no name, locale id or dossier. The answer correctly says so, but the record cannot be wired to a giver.",
+    "title: Title binding is unresolved. 3512 is Wildwood-tagged and typed 'other', while 3322 is the unflagged quest_title. The flagged twin 101234 and the NOT LIVE family (101232, 101233, 101235, 101236) show t",
+    "objectives[0].kind: 'minigame' is a judgement, not drawn from the client text. Locale 394722 (verified: 'Beat Sparks Blitzwing in the \"Treacherous Track\" race at Frost Ridge Speedway.') and 394721 ('Win the \"Treacherous ",
+    "line: Previous and next links are guide-inferred only. The chain note shows 'Stopping the Sabotage' has no confirmed previous link, so the next link from this quest is also unconfirmed.",
+    "giver: Giver is still unknown (npc 9000000239 has no name, zone or dossier). The answer correctly leaves it open, but this means the quest cannot be wired as it stands.",
+    "line.previous / line.next: Both links come only from the Build Guide's row order (rows 11-13, marked inferred). I checked the client: locale:394647 (Stopping the Sabotage title) and its dialog 394646/394648/394649 name no previ"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Sparks Blitzwing)"
+   ]
+  },
+  {
+   "quest_id": 3080015,
+   "record": "quest-lines/quests.json q3080015",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Stopping the Sabotage",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": 394646
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to the shady looking pixie that just showed up at the Frost Ridge Speedway and see what he's up to.",
+     "text_locale_id": 394753,
+     "target": "unnamed 'shady looking pixie'",
+     "target_locale_id": 394646,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the \"Stopping the Sabotage\" minigame",
+     "text_locale_id": 394781,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Use the magic potion Sparks gave you to transform into something scary enough to make the Robgoblin Saboteurs run away!",
+     "text_locale_id": 401058,
+     "target": "magic potion",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Scare off the Robgoblin Saboteurs",
+     "text_locale_id": 401057,
+     "target": "Robgoblin Saboteurs",
+     "target_locale_id": 394735,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Find all the Robgoblin Saboteurs before time runs out.",
+     "text_locale_id": 402667,
+     "target": "Robgoblin Saboteurs",
+     "target_locale_id": 394735,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 394646,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 394726,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0].target_locale_id: The talk objective's target_locale_id is 394646, which is the offer dialog text, not a name or target string. It is a citation for the offer, not a target id. The target is an unnamed pixie, so the id",
+    "dialog.complete / evidence 394649: The answer calls 394649 ('Argh! Your kart is fine!') a failure-side line. The client record only tags it as quest_dialog under this quest; nothing in the pack says it is failure-only. The claim is an ",
+    "giver: No giver name or NPC id. The offer (394646) and talk objective (394753) name only an unnamed 'shady looking pixie', and the record's 9000000475 is an unresolved key. The answer correctly leaves this o",
+    "line.previous / line.next: Both are left empty, but the guide's Quest line table gives an explicit order for this block: row 12 'Kart Driver: A Treacherous Track' (After Guest of Honor, inferred), row 13 this quest (After A Tre",
+    "giver: Giver is genuinely unresolved (guide says 'giver unknown'; the offer names only 'a shady looking pixie'). This is correctly flagged as open, so it does not fail the answer, but it is what blocks wirin"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "talk target \"unnamed 'shady looking pixie'\" not placed in our rows",
+    "needs mechanic: minigame (Beat the \"Stopping the Sabotage\" minigame)"
+   ]
+  },
+  {
+   "quest_id": 3080016,
+   "record": "quest-lines/quests.json q3080016",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Redline Returns",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000541",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Linx Redline in the \"Redline Returns\" race at Frost Ridge Speedway.",
+     "text_locale_id": 394811,
+     "target": "Linx Redline",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].target_locale_id: The answer says locale:394366 is not confirmed as npc_name. The lookup tool tags it as npc_name ('[client] locale:394366 | npc_name Wildwood Speedway Linx Redline | Linx Redline'), so the target could",
+    "line.previous / line.next: Predecessor 'Stopping the Sabotage' (394647) and successor 'Self Promotion' (394655) titles are verified as real client strings, but the links are guide inferences (guide rows 13 and 15). They are cor",
+    "evidence (guide title cell): The claim that a 'reviewer report' maps guide id 126755862 to this title in a test dat file has no citation in the evidence pack. It is unverifiable as stated.",
+    "giver: Giver npc 9000000541 is verified in prototype/osfr-tools/data/content/npcs_unresolved.json (ref_id) and quests/kart_driver.json (giver_npc_id), with no name, zone or dialog. The answer correctly refus",
+    "objectives[0].target_locale_id: Left null, but the target name has a verified npc_name string. locale:394366 is 'Linx Redline' tagged npc_name (checked via lookup: 'npc_name Wildwood Speedway Linx Redline'). The answer's open note s",
+    "line.previous / line.next: Predecessor and successor are guide inferences with no sequence source. The chain notes show neither title matches another quest answer. Client text gives weak support: locale:394653 ('How did you bea"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Linx Redline)"
+   ]
+  },
+  {
+   "quest_id": 3080017,
+   "record": "quest-lines/quests.json q3080017",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Self Promotion",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000542",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Amber Violet at the Frost Ridge Speedway and see if she will agree to race you.",
+     "text_locale_id": 394831,
+     "target": "Amber Violet",
+     "target_locale_id": 101910,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000868,
+      "name": "Amber Violet",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Promote the race between you and Amber Violet so that there is enough hype to justify her racing against you.",
+     "text_locale_id": 399601,
+     "target": "Amber Violet",
+     "target_locale_id": 101910,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 394654,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394827,
+     "speaker": "Amber Violet"
+    },
+    "complete": {
+     "locale_id": 394657,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: The promote objective (399601) is listed as a live objective, but its client tag reads 'Briarwood Amber Violet', while the talk line 394831 and the offer/description lines are Frost Ridge. The answer ",
+    "objectives[1] (source): The answer says guide row 15 lists the promote text, but the guide only gives hashed id 3432585956. The mapping to 399601 is a text match made by the answer, not something the guide states.",
+    "dialog.progress / evidence 394827: The gate line 394827 exists ('You're going to need to promote the race before I will race you'), but my lookup could not confirm its Frost Ridge / Amber Violet tag. Its use as support for the promote ",
+    "giver: Giver is null. npc 9000000542 appears only in the quest record (kart_driver.json:896) and npcs_unresolved.json:4981, with no name, zone or role. This matches the answer's 'open' note, so it is an hone",
+    "line.previous / next: Previous (Redline Returns) and next (Icy Perfection) agree with guide rows 14 and 16. The chain note that Redline's answer lists Self Promotion as next is consistent with this answer. The order itself",
+    "objectives[1]: The promote objective (locale 399601) is tagged zone Briarwood in the client, while the quest, the gate line 394827 and the talk line 394831 are Frost Ridge. The answer keeps it in this quest on the s"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3080018,
+   "record": "quest-lines/quests.json q3080018",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Icy Perfection",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000543",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Amber Violet in the \"Icy Perfection\" race at Frost Ridge Speedway.",
+     "text_locale_id": 394893,
+     "target": "Amber Violet",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Win the \"Icy Perfection\" race",
+     "text_locale_id": 394892,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line.previous: The previous link 'Kart Driver: Self Promotion' is stated as fact in line.previous, but it rests only on the guide's inferred row 15 (unknown giver, 'inferred' text match). The answer's own open list ",
+    "evidence[7] / objectives narrative: Locale 394660 ('You've scored a race against Amber Violet...') is tagged with hint '-', not with Icy Perfection, so the claim that it is this quest's narrative text is an inference from the guide's ro",
+    "evidence[6] / giver: The NPC 9000000543 is confirmed as the record's giver_npc_id (kart_driver.json:946) and as unresolved (npcs_unresolved.json:5006). The answer's handling is accurate. The Amber Violet NPC claim (NPCs -",
+    "live: Verified: locale 3522 ('Kart Driver: Icy Perfection') and 394892/394893 are unflagged quest_title and quest_objective rows. Locale 101312 is FLAG not_live and belongs to the separate Snowhill quest, a",
+    "line.next: The answer records next as an empty list, which reads as 'this is the last quest'. The sources do not say that. The guide's row 17 (Seaside Board of Tourism Sponsorship, locale 3043997278 / 1191567603",
+    "line.previous: The previous link to 'Kart Driver: Self Promotion' is an inferred order from guide row 15 ('After Redline Returns' chain), not a confirmed prerequisite. The answer's own open list concedes this, but t"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Amber Violet)"
+   ]
+  },
+  {
+   "quest_id": 3080019,
+   "record": "quest-lines/quests.json q3080019",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Seaside Board of Tourism Sponsorship",
+   "live": "yes",
+   "giver": {
+    "name": "Petal Oceanmist",
+    "npc_id": null,
+    "locale_id": 394904
+   },
+   "resolved_giver": {
+    "npc_id": 9500000613,
+    "name": "Petal Oceanmist",
+    "file": "npcs/seaside.json",
+    "zone": null,
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "You need to obtain another sponsor before the racers at Thunder Falls will give you the time of day. It sounds like Petal Oceanmist at Frost Ridge Speedway might be someone to talk to about a potential sponsorship.",
+     "text_locale_id": 394664,
+     "target": "Petal Oceanmist",
+     "target_locale_id": 394904,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000613,
+      "name": "Petal Oceanmist",
+      "file": "npcs/seaside.json",
+      "zone": null,
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 394665,
+     "speaker": "Petal Oceanmist"
+    },
+    "progress": {
+     "locale_id": 394666,
+     "speaker": "Petal Oceanmist"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: The objective uses locale 394664, which is real and tagged quest_objective to this quest, and its text matches. But the guide's row 17 objective is client id 3043997278 with text 'Talk to Petal Oceanm",
+    "giver.npc_id / evidence: The evidence pack's dialog_answer says the Petal NPC answer 'quests_given includes this quest', but the later_answers npc record shows quests_given: [] and only a low-confidence POI match. The answer ",
+    "line.previous: Icy Perfection as predecessor is supported by the Amber Violet race text (394662 'Well, now that you've beaten me... I've heard that Petal Oceanmist...' follows the Amber Violet race), so the link is ",
+    "dialog.offer speaker: Speaker attribution for 394665 is by content only; 394906 ('Petal Oceanmist, of the Seaside Board of Tourism, might be interested in sponsoring [*player*]') supports it. The answer's citation of 39490",
+    "evidence[7] (Icy Perfection link): The claim 'Icy Perfection win line 2898295324 (Amber Violet race)' cites a guide client id, not a locale id. The guide itself marks these numbers as [client] ids, and the answer's own open notes say s",
+    "line.previous: Previous = Icy Perfection is supported by guide row 16 and by the content of 394662 ('now that you've beaten me... I've heard that Petal Oceanmist is looking to sponsor'), which is a post-Amber-race h"
+   ],
+   "blocked_by": [
+    "giver 'Petal Oceanmist' row 9500000613 not placed",
+    "talk target 'Petal Oceanmist' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3080021,
+   "record": "quest-lines/quests.json q3080021",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Frost Ridge Endurance Challenge",
+   "live": "yes",
+   "giver": {
+    "name": "Petal Oceanmist",
+    "npc_id": "9000000424",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9500000613,
+    "name": "Petal Oceanmist",
+    "file": "npcs/seaside.json",
+    "zone": null,
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Petal's next challenge requires you to keep up the pace around multiple laps at Frost Ridge Speedway!",
+     "text_locale_id": 394672,
+     "target": "Frost Ridge Speedway",
+     "target_locale_id": 382855,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver name is left resolved only through the guide and npcs_unresolved.json, which says 'no actor-to-locale name mapping'. The client does carry the name: locale 394904 is 'Petal Oceanmist' and 394911",
+    "zone: Zone is set to Frost Ridge Speedway, but the client hint on 394671 and 394672 is 'Seaside', and 394664 places the sponsorship at Frost Ridge. The answer records the conflict in open[] but the field it",
+    "evidence[4]: The sponsor claim cites 394664 for 'Petal Oceanmist is named as the sponsor at Frost Ridge Speedway'. 394664 only says to talk to her at Frost Ridge about a potential sponsorship. The sponsor wording ",
+    "dialog: Offer and completion are null. The intro and end texts 394670 and 394673 carry the hint 'Kart Driver: The Price of Fame', so leaving them off is correct. The answer's handling is sound, but it is a ga",
+    "dialog: Offer and completion lines are left null, but the evidence pack's texts section assigns intro 394670 and end 394673 to this quest. The client hint on both says 'Kart Driver: The Price of Fame' (394679",
+    "giver: The giver is supported only by the guide's row 19 and by npcs_unresolved.json, where '9000000424' is paired with the guide's hash '2269461147', not with a client NPC id or locale name. The answer has "
+   ],
+   "blocked_by": [
+    "giver 'Petal Oceanmist' row 9500000613 not placed"
+   ]
+  },
+  {
+   "quest_id": 3080022,
+   "record": "quest-lines/quests.json q3080022",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Dominating at Frost Ridge",
+   "live": "yes",
+   "giver": {
+    "name": "Petal Oceanmist",
+    "npc_id": "9000000425",
+    "locale_id": 394904
+   },
+   "resolved_giver": {
+    "npc_id": 9500000613,
+    "name": "Petal Oceanmist",
+    "file": "npcs/seaside.json",
+    "zone": null,
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Win three races at Frost Ridge Speedway.",
+     "text_locale_id": 395116,
+     "target": "Frost Ridge Speedway",
+     "target_locale_id": null,
+     "count": 3,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Win the \"Dominating at Frost Ridge\" race three times",
+     "text_locale_id": 398603,
+     "target": "Dominating at Frost Ridge",
+     "target_locale_id": 3328,
+     "count": 3,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1]: Objective 2 (locale:398603, 'Win the \"Dominating at Frost Ridge\" race three times') restates the same three-win condition as objective 1 (locale:395116, 'Win three races at Frost Ridge Speedway'). Lis",
+    "line.next: The next-quest title 'Kart Driver: The Price of Fame' is only from the guide table; the answer says its id was not checked. Client text confirms it exists as locale:394679 (exact title), and locale:37",
+    "evidence / guide citation: The guide cites locale 4012363759 for 'Win three races at Frost Ridge Speedway.' but that id does not exist in the client table ('no such id'). The answer correctly used 395116 instead, yet does not s",
+    "zone: Zone left as 'Frost Ridge Speedway (unresolved)'. The client's place name is confirmed (locale:382855 'Frost Ridge Speedway'; 394676 and 3439 all use it for this race line), so the unresolved part is ",
+    "objectives[0]: target_locale_id is null, but the target 'Frost Ridge Speedway' has a matching client string, locale:382855 ('Frost Ridge Speedway'). The answer leaves it unfilled without saying why.",
+    "giver.npc_id: The NPC id 9000000425 is not confirmed by any client or wiki text in the answer. It comes only from our own record file (giver_npc_id), and the pack's giver name is null."
+   ],
+   "blocked_by": [
+    "giver 'Petal Oceanmist' row 9500000613 not placed",
+    "needs mechanic: minigame (Frost Ridge Speedway)",
+    "needs mechanic: minigame (Dominating at Frost Ridge)"
+   ]
+  },
+  {
+   "quest_id": 3080035,
+   "record": "quest-lines/quests.json q3080035",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Burning Up the Track",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000202",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head to Tangletrack and race Antonio Taurino. Good luck out there!",
+     "text_locale_id": 398674,
+     "target": "Tangletrack Speedway",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Beat Antonio Taurino in the \"Burning Up the Track\" race at Tangletrack Speedway.",
+     "text_locale_id": 395642,
+     "target": "Antonio Taurino",
+     "target_locale_id": 101920,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000086,
+      "name": "Antonio Taurino",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395645,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The giver is still unresolved: npc_id 9000000202 has no name, and Shooblemoot is only a textual hint. Locale 395570 does say 'Shooblemoot has set up a race at Tangletrack', and the guide's 'Shooblemoo",
+    "line.previous / line.next: Previous and next are given as titles only, with no record ids. The pack has no record ids for Endorsement Deal or Burnt Rubber, so the chain cannot be wired by id.",
+    "objectives[0]: The 'go' objective text (398674, 'Head to Tangletrack and race Antonio Taurino. Good luck out there!') is verified as real client text. The answer does not say it is a non-defeat step or whether it is",
+    "objectives: Verified: locale:395642 is the exact 'Beat Antonio Taurino in the \"Burning Up the Track\" race' text, locale:398674 matches 'Head to Tangletrack and race Antonio Taurino', locale:101920 is 'Antonio Tau",
+    "giver: Giver is left null with npc 9000000202 unresolved. The guide names Shooblemoot as the setter, and locale:394913 = 'Shooblemoot' and locale:395570 ('Shooblemoot has set up a race at Tangletrack') are b",
+    "objectives[0].target_locale_id: The 'go' objective has target null. The target 'Tangletrack Speedway' has no locale id checked here, and the client lookup for 398674 shows its hint is 'Tangletrack Antonio Taurino's Kart', which hint"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3080037,
+   "record": "quest-lines/quests.json q3080037",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: The Showdown",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Linx Redline in \"The Showdown\" race at Tangletrack Speedway.",
+     "text_locale_id": 395425,
+     "target": "Linx Redline",
+     "target_locale_id": 394366,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 395418,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 395413,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line.previous: Left empty. The guide's row 34 (Kart Driver: Burnt Rubber) is the only candidate and is marked inferred. The answer does not say that Burnt Rubber's own record disagrees on its next link, and it gives",
+    "line.next: Left empty. The guide has Keys to Victory (row 36) after, and The Right Stuff (row 37) is the one whose objective and text fit the rivalry. The answer's reasoning that Mirana Vega fits The Right Stuff",
+    "giver: Giver is null. The answer is right not to use the guide's 26867567 as a locale id (locale lookup returns no such id). The offer line 395418 has no speaker, and 395416 ('Go talk to Linx over there') sh",
+    "dialog.progress: The answer leaves it unset, which is honest. Locale 395413 ('Oh, I almost forgot. Linx showed up while you were gone...') is confirmed as an unflagged text line, so it is a fair candidate for progress",
+    "giver: Giver is null. The guide (Kart Driver.md row 35) names Linx Redline as giver, citing client 26867567 ('Linx has challenged you to a one on one race...'). The answer does not mention that this guide li",
+    "line.previous / line.next: Both empty. The guide's table gives Burnt Rubber (row 34) before and The Keys to Victory (row 36) after; the answer marks these as inferred and open, which is honest, but it leaves the line position w"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Linx Redline)"
+   ]
+  },
+  {
+   "quest_id": 3080039,
+   "record": "quest-lines/quests.json q3080039",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: The Right Stuff",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000152",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Mirana Vega in \"The Right Stuff\" race at Tangletrack Speedway.",
+     "text_locale_id": 395478,
+     "target": "Mirana Vega",
+     "target_locale_id": 101923,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Win \"The Right Stuff\" race (separate quest_objective line, same hint; the video shows it as the Goal Complete banner)",
+     "text_locale_id": 395477,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no coin, item or XP string found for this quest",
+     "source": "repo:notes/Build Guides/Content/Jobs/Kart Driver.md:107"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395471,
+     "speaker": "Mirana Vega"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1]: The automatic id check flags only an encoding difference: the client stores the quotes as &quot;. The text otherwise matches locale:395477 ('Win \"The Right Stuff\" race'), and its hint is the same Tang",
+    "giver: The giver is honestly left unbound. The guide's Mirana Vega entry and the NPC note (Mirana Vega, Kart Driver: The Keys to Victory and The Right Stuff) support the name, but no client record links npc ",
+    "dialog.offer: Dropping locale:395304 is defensible because the tool reports its hint as Keys to Victory. Its content (Mirana ranking you third, 'Let's race!') reads like an offer for a race against Mirana, though, ",
+    "line.previous/next: The previous and next links are row-order inferred from the guide. Locale 395302 supports the Keys to Victory -> race order, but nothing in the pack checks the Miner's Guild side. The answer marks thi",
+    "giver: giver.name is null and giver.locale_id is null, although the guide's row 37 names Mirana Vega as giver. The answer's own open note says 'Mirana Vega' comes from the guide and objective text, so the gi",
+    "objectives[1].text: The text is HTML-escaped in the locale (&quot;), and the automatic id check flags the mismatch. The wording is minor, not a wrong id: locale:395477 reads 'Win &quot;The Right Stuff&quot; race'."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Mirana Vega)"
+   ]
+  },
+  {
+   "quest_id": 3080041,
+   "record": "quest-lines/quests.json q3080041",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Tangletrack Sprint Challenge",
+   "live": "yes",
+   "giver": {
+    "name": "Shamus Sootbender",
+    "npc_id": "9000000456",
+    "locale_id": 395481
+   },
+   "resolved_giver": {
+    "npc_id": 9500000210,
+    "name": "Shamus Sootbender",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Win the \"Tangletrack Sprint Challenge\" race",
+     "text_locale_id": 395503,
+     "target": "Tangletrack Sprint Challenge",
+     "target_locale_id": 395316,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Shamus Sootbender",
+     "text_locale_id": 395489,
+     "target": "Shamus Sootbender",
+     "target_locale_id": 395481,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000210,
+      "name": "Shamus Sootbender",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed",
+     "source": "No reward string found for this quest; locale:395329 belongs to the Endurance Challenge"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 395312,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 395315,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 395318,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0].target_locale_id: The race objective's target is given as locale 395316, which is the quest title ('Kart Driver: Tangletrack Sprint Challenge'), not the race name. The race name only appears embedded inside objective t",
+    "objectives[0].kind: Kind 'other' is a judgment; the race type and timer are not in the client text. Acceptable only as flagged.",
+    "dialog: Offer/progress/complete ids are null even though the client has this quest's dialog lines: 395312 (opener, 'Are you any good?'), 395315 ('show me your fastest lap'), 395318 (praise). The answer disclo",
+    "objectives[1]: The 'Talk to Shamus Sootbender' objective (locale 395489) is attributed to this quest, but the guide's row 38 (Miner's Guild Sponsorship) also has a talk objective, with a different id (2745949781, 'T",
+    "line.previous / line.next: The chain links to Miner's Guild Sponsorship and Endurance Challenge rest on guide row order (rows 38 and 40). The client has no explicit prerequisite field, and the record's prerequisite_quest_ids is",
+    "objectives[0].text vs evidence: The description (395317) says 'turn in a fast lap time' while the objective (395503) says 'win the race'. The answer records both but picks 'Win' as the completion condition without a source for a tim"
+   ],
+   "blocked_by": [
+    "giver 'Shamus Sootbender' row 9500000210 not placed",
+    "talk target 'Shamus Sootbender' not placed in our rows"
+   ]
+  }
+ ]
+}

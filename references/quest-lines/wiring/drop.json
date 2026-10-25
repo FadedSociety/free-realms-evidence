@@ -1,0 +1,1990 @@
+[
+ {
+  "item": "Archer of Light Boots",
+  "item_locale_id": 442510,
+  "record": "quest-lines/items.json iarcher-of-light-boots",
+  "source": {
+   "type": "drop",
+   "detail": "Defeating Necronomicus (Gloam Lord of Necromancy). Wiki wording only; the wiki does not say whether this is the Battle Boss in 'Necronomicus Unleashed' (beneath Merry Vale, Encounter 432 Necronomicus' Lair) or the Overworld Enemy Necronomicus. The battle is the more likely source by analogy with the sibling Brawler's Necronomicus Unleashed weapon, but this is unconfirmed.",
+   "where": "Merry Vale caverns (battle version) or unspecified (overworld version)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Archer_of_Light_Boots (rev 31109: 'It is acquired from defeating Necronomicus'); https://freerealms.fandom.com/wiki/Necronomicus (lists Battle Boss NPC and Overworld Enemy NPC); locale:441903 'Defeat Necronomicus'; locale:442596 'Necronomicus Unleashed'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Archer's Feathered Bow of Ragnarok",
+  "item_locale_id": 442917,
+  "record": "quest-lines/items.json iarcher-s-feathered-bow-of-ragnarok",
+  "source": {
+   "type": "drop",
+   "detail": "Overworld Boss Raven: defeat her and open her Treasure Chest",
+   "where": "Highroad Junction (Overworld)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Archer's_Feathered_Bow_of_Ragnarok (rev 47676): 'It is acquired through defeating the Overworld Boss Raven and opening her Treasure Chest.'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Friendly Leafling",
+  "item_locale_id": 442965,
+  "record": "quest-lines/items.json ibitterleaf",
+  "source": {
+   "type": "drop",
+   "detail": "Dropped by defeating the floren enemy Bitterleaf (the pack's subject). The wiki says there is only a 'possibility' of receiving the pet pal, with no drop rate given.",
+   "where": "Combat area east of the Floren Forest, Northern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Bitterleaf (https://freerealms.fandom.com/wiki/Bitterleaf); wiki: Friendly Leafling; wiki: Pet Pals (row 'Friendly Leafling ... Acquired by defeat Bitterleaf')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Brawler of Light Boots",
+  "item_locale_id": 442516,
+  "record": "quest-lines/items.json ibrawler-of-light-boots",
+  "source": {
+   "type": "drop",
+   "detail": "Defeating Necronomicus (encounter not specified by the wiki; the Necronomicus page lists a Battle Boss NPC in the 'Necronomicus Unleashed' battle and an Overworld Enemy NPC)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Brawler_of_Light_Boots (rev 31112: 'acquired from defeating Necronomicus'); https://freerealms.fandom.com/wiki/Necronomicus (Battle Boss NPC and Overworld Enemy NPC sections; lists the Light Boots among its appearances)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Brawler's Feathered Hammer of Ragnarok",
+  "item_locale_id": 442918,
+  "record": "quest-lines/items.json ibrawler-s-feathered-hammer-of-ragnarok",
+  "source": {
+   "type": "drop",
+   "detail": "Defeating the Overworld Boss Raven and opening her Treasure Chest (boss chest reward)",
+   "where": "Highroad Junction (wiki category); Raven's fight is south of Highroad Junction per client notes",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Brawler's_Feathered_Hammer_of_Ragnarok (rev 47675: \"It is acquired through defeating the Overworld Boss Raven and opening her Treasure Chest\"); repo:notes/Build Guides/Content/NPCs/NPCs - Highroad Junction.md:76"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Brawler's Tentacle Hammer of Riptide",
+  "item_locale_id": 442833,
+  "record": "quest-lines/items.json ibrawler-s-tentacle-hammer-of-riptide",
+  "source": {
+   "type": "drop",
+   "detail": "Nekark (Seaside boss): defeat it, then open the Nekark's Treasure Chest it drops (locale:5101726)",
+   "where": "Seaside",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Brawler's_Tentacle_Hammer_of_Riptide (rev 47112); wiki page Nekark (drops the treasure chest)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Buckled Skull Jacket",
+  "item_locale_id": 33990,
+  "record": "quest-lines/items.json ibuckled-skull-jacket",
+  "source": {
+   "type": "drop",
+   "detail": "Dungeon Precursor Ruins, generic 'item drop' (no enemy named on the wiki)",
+   "where": "Precursor Ruins (Sunstone Valley)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Buckled_Skull_Jacket (rev 31246); repo:prototype/osfr-tools/data/content/dungeons/precursor_ruins.json:614"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Buckled Skull Jacket",
+  "item_locale_id": 33990,
+  "record": "quest-lines/items.json ibuckled-skull-jacket",
+  "source": {
+   "type": "drop",
+   "detail": "Sunstone Valley boss chest (boss unnamed; wiki does not say whether Venoxa's chest is one)",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Buckled_Skull_Jacket (rev 31246); repo:prototype/osfr-tools/data/content/dungeons/precursor_ruins.json:630"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Crystal Hammer",
+  "item_locale_id": 11190,
+  "record": "quest-lines/items.json icrystal-hammer",
+  "source": {
+   "type": "drop",
+   "detail": "Loot pickup '1 Crystal Hammer' from wraiths and Lukov during the Consumed by the Past sequence (video-only observation; not a quest reward)",
+   "where": "Blackspore Swamp",
+   "price": null,
+   "currency": null,
+   "source": "repo:notes/Build Guides/Content/NPCs/NPCs - Blackspore Swamp.md:233 (video-based; no second source)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Freewheeler Biker Backpack",
+  "item_locale_id": 799,
+  "record": "quest-lines/items.json ifreewheeler-biker-backpack",
+  "source": {
+   "type": "drop",
+   "detail": "Item drop during the Shrouded Glade Invasion (enemy drop from the invasion event)",
+   "where": "Shrouded Glade Invasion",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Freewheeler_Biker_Backpack (intro: 'It can be acquired as an item drop during the Shrouded Glade Invasion')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Freewheeler Biker Boots",
+  "item_locale_id": 19036,
+  "record": "quest-lines/items.json ifreewheeler-biker-boots",
+  "source": {
+   "type": "drop",
+   "detail": "Enemy drop during the Shrouded Glade Invasion (Gloam invasion event, June 2012)",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Freewheeler_Biker_Boots (\"They can be acquired as an item drop during the Shrouded Glade Invasion\"); event context: https://freerealms.fandom.com/wiki/Shrouded_Gloam"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Freewheeler Biker Gloves",
+  "item_locale_id": 19032,
+  "record": "quest-lines/items.json ifreewheeler-biker-gloves",
+  "source": {
+   "type": "drop",
+   "detail": "Item drop during the Shrouded Glade Invasion. The wiki does not say it comes from a specific enemy, so the drop source is not specified beyond the event.",
+   "where": "Shrouded Glade (the Shrouded Glade Invasion, locale:436)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Freewheeler_Biker_Gloves (lead: 'can be acquired as an item drop during the Shrouded Glade Invasion'); locale:436 'Shrouded Glade Invasion'; locale:2313 'The Invasion of Shrouded Glade'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Freewheeler Biker Goggles",
+  "item_locale_id": 19030,
+  "record": "quest-lines/items.json ifreewheeler-biker-goggles",
+  "source": {
+   "type": "drop",
+   "detail": "Enemy drop during the Shrouded Glade Invasion. The wiki names no enemy and gives no drop rate.",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Freewheeler_Biker_Goggles (lead paragraph); wiki-only, not confirmed by another source"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Freewheeler Biker Jacket",
+  "item_locale_id": 19034,
+  "record": "quest-lines/items.json ifreewheeler-biker-jacket",
+  "source": {
+   "type": "drop",
+   "detail": "Enemy drop during the Shrouded Glade Invasion (no specific enemy named on the wiki page)",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Freewheeler_Biker_Jacket (wiki page text: 'It can be acquired as an item drop during the Shrouded Glade Invasion'); event context: http://www.freerealms.com:80/article/detail.action?articleId=2614 (Gloam invasion of Shrouded Glade, June 2012)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Freewheeler Biker Pants",
+  "item_locale_id": 19038,
+  "record": "quest-lines/items.json ifreewheeler-biker-pants",
+  "source": {
+   "type": "drop",
+   "detail": "Enemy item drop during the Shrouded Glade Invasion",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Freewheeler_Biker_Pants (intro text: 'They can be acquired as an item drop during the Shrouded Glade Invasion')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Friendly Leafling",
+  "item_locale_id": 442965,
+  "record": "quest-lines/items.json ifriendly-leafling",
+  "source": {
+   "type": "drop",
+   "detail": "Bitterleaf (floren enemy); a random chance to receive the pet pal when defeated",
+   "where": "East of Floren Forest (per the Friendly Leafling page); the Floren page lists Bitterleaf under Northern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Friendly_Leafling; https://freerealms.fandom.com/wiki/Bitterleaf (\"there is a possibility to receive the Friendly Leafling pet pal\"); https://freerealms.fandom.com/wiki/Floren"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Glove of the Branch Druid",
+  "item_locale_id": 3833,
+  "record": "quest-lines/items.json iglove-of-the-branch-druid",
+  "source": {
+   "type": "drop",
+   "detail": "Item drop during the Shrouded Glade Invasion (Gloam invasion of Shrouded Glade, 2012 limited-time event)",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Glove_of_the_Branch_Druid (article lead: 'It can be acquired as an item drop during the Shrouded Glade Invasion'); http://www.freerealms.com:80/article/detail.action?articleId=2614 (Gloam invasion of Shrouded Glade, captured June 2012, no end date given)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Greaser Biker Gloves",
+  "item_locale_id": 19022,
+  "record": "quest-lines/items.json igreaser-biker-gloves",
+  "source": {
+   "type": "drop",
+   "detail": "Item drop during the Shrouded Glade Invasion (no specific enemy named)",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Greaser_Biker_Gloves (rev 45678, page intro)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Greaser Biker Pants",
+  "item_locale_id": 19028,
+  "record": "quest-lines/items.json igreaser-biker-pants",
+  "source": {
+   "type": "drop",
+   "detail": "Enemy item drop during the Shrouded Glade Invasion",
+   "where": "Shrouded Glade (Invasion event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Greaser_Biker_Pants (wiki_page text: 'They can be acquired as an item drop during the Shrouded Glade Invasion')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Harley",
+  "item_locale_id": null,
+  "record": "quest-lines/items.json iharley",
+  "source": {
+   "type": "drop",
+   "detail": "Boss NPC located throughout Shrouded Glade during the Shrouded Gloam invasion (rare item drop)",
+   "where": "Shrouded Glade (Shrouded Gloam invasion)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Harley (Shrouded Gloam section: 'Harley can be acquired through defeating the boss NPC located throughout Shrouded Glade during the invasion')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Medic's Flair Shard of Honey",
+  "item_locale_id": 442043,
+  "record": "quest-lines/items.json ihoney",
+  "source": {
+   "type": "drop",
+   "detail": "Roaming enemies in the Wilds (wiki: \"acquired from defeating roaming enemies in the Wilds\"); specific enemy not named",
+   "where": "The Wilds",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Medic's Flair Shard of Honey (https://freerealms.fandom.com/wiki/Medic's_Flair_Shard_of_Honey)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Hood of the Branch Druid",
+  "item_locale_id": 3831,
+  "record": "quest-lines/items.json ihood-of-the-branch-druid",
+  "source": {
+   "type": "drop",
+   "detail": "Enemy drop during the Shrouded Glade Invasion (Gloam invasion event)",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Hood of the Branch Druid': 'It can be acquired as an item drop during the Shrouded Glade Invasion.'; client quest title locale:2313 'The Invasion of Shrouded Glade'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Magical Scimitar",
+  "item_locale_id": 442891,
+  "record": "quest-lines/items.json imagical-scimitar",
+  "source": {
+   "type": "drop",
+   "detail": "Chest of Wonders Mystery Chest (random reward from opening the chest)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Magical Scimitar' (text: 'acquired through opening Chest of Wonders Mystery Chests'); wiki page 'Chest of Wonders' (contents: 'This chest contains a wonderous item inspired by the tales of Scheherazade'); wiki template News 10/2013 ('We are unveiling our newest Mystery Chest - Chest of Wonders! ... weild a magical scimitar')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ninja's Tentacle Sword of Riptide",
+  "item_locale_id": 442835,
+  "record": "quest-lines/items.json ininja-s-tentacle-sword-of-riptide",
+  "source": {
+   "type": "drop",
+   "detail": "Nekark (Seaside boss, battle with Orchid Eventide): defeat Nekark, then open its Treasure Chest",
+   "where": "Seaside",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Ninja's Tentacle Sword of Riptide (\"It is acquired through defeating Nekark and opening its Treasure Chest\"); wiki page: Nekark (battle description); locale:5101119 (npc_name Nekark)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pants of the Branch Druid",
+  "item_locale_id": 3839,
+  "record": "quest-lines/items.json ipants-of-the-branch-druid",
+  "source": {
+   "type": "drop",
+   "detail": "Enemy/item drop during the Shrouded Glade Invasion (Gloam invasion event, June 2012)",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Pants_of_the_Branch_Druid: 'It can be acquired as an item drop during the Shrouded Glade Invasion'; event context: articles http://www.freerealms.com:80/article/detail.action?articleId=2614 (Gloam invasion of Shrouded Glade) and wiki page Shrouded_Gloam"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Reindeer (Ride)",
+  "item_locale_id": null,
+  "record": "quest-lines/items.json ireindeer-ride",
+  "source": {
+   "type": "drop",
+   "detail": "Random unlock from the Snow Days Mystery Chest (chest contents: Light Strand Whip, Reindeer (Ride), Shooshboom clothing/gloves/hat/ice pieces; the Reindeer is one of its possible rides, no drop chance given)",
+   "where": "Snow Days Mystery Chest (Snow Days holiday event)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Reindeer_(Ride) ; https://freerealms.fandom.com/wiki/Mystery_Chest (Snow Days Mystery Chest section, 'Only available during Snow Days'); https://freerealms.fandom.com/wiki/Rides ('Only available during the Snow Days from the Snow Days Mystery Chest'); locale:4419630 ('Fly around the Realms on your Reindeer. This ride was unlocked from the Snow Days Mystery Chest.')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shoulder Pads of the Branch Druid",
+  "item_locale_id": 2172,
+  "record": "quest-lines/items.json ishoulder-pads-of-the-branch-druid",
+  "source": {
+   "type": "drop",
+   "detail": "Enemy drop during the Shrouded Glade Invasion",
+   "where": "Shrouded Glade Invasion",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Shoulder_Pads_of_the_Branch_Druid (intro text: 'They can be acquired as an item drop during the Shrouded Glade Invasion.')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Strapped Long-sleeve Shirt",
+  "item_locale_id": 33984,
+  "record": "quest-lines/items.json istrapped-long-sleeve-shirt",
+  "source": {
+   "type": "drop",
+   "detail": "Manguana enemies (enemy drop, Freestyle Jobs clothing)",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Strapped_Long-sleeve_Shirt (wiki page text: 'can be acquired through defeating Manguana Enemies in Sunstone Valley'); locale:33984"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Strapped Long-sleeve Shirt",
+  "item_locale_id": 33984,
+  "record": "quest-lines/items.json istrapped-long-sleeve-shirt",
+  "source": {
+   "type": "drop",
+   "detail": "Dungeon drop (Sandscale Oasis dungeon)",
+   "where": "Sandscale Oasis (dungeon)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Strapped_Long-sleeve_Shirt (wiki page text: 'or through the Dungeon Sandscale Oasis')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Strapped Short-sleeve Shirt",
+  "item_locale_id": 33978,
+  "record": "quest-lines/items.json istrapped-short-sleeve-shirt",
+  "source": {
+   "type": "drop",
+   "detail": "Manguana enemies (Sandscale-type Manguana NPCs) in Sunstone Valley",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Strapped_Short-sleeve_Shirt (page text: 'acquired through defeating Manguana Enemies in Sunstone Valley')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Strapped Short-sleeve Shirt",
+  "item_locale_id": 33978,
+  "record": "quest-lines/items.json istrapped-short-sleeve-shirt",
+  "source": {
+   "type": "drop",
+   "detail": "Dungeon enemies in Sandscale Oasis",
+   "where": "Sandscale Oasis (Sunstone Valley)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Strapped_Short-sleeve_Shirt (page text: 'through the Dungeon Sandscale Oasis')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Tattered Long-sleeve Shirt",
+  "item_locale_id": 33980,
+  "record": "quest-lines/items.json itattered-long-sleeve-shirt",
+  "source": {
+   "type": "drop",
+   "detail": "Manguana enemies (enemy drop)",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Tattered_Long-sleeve_Shirt (rev 27110): 'can be acquired through defeating Manguana Enemies in Sunstone Valley'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Tattered Long-sleeve Shirt",
+  "item_locale_id": 33980,
+  "record": "quest-lines/items.json itattered-long-sleeve-shirt",
+  "source": {
+   "type": "drop",
+   "detail": "Dungeon Sandscale Oasis (dungeon drop)",
+   "where": "Sandscale Oasis dungeon",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Tattered_Long-sleeve_Shirt (rev 27110): 'or through the Dungeon Sandscale Oasis'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Tunic of the Branch Druid",
+  "item_locale_id": 3835,
+  "record": "quest-lines/items.json itunic-of-the-branch-druid",
+  "source": {
+   "type": "drop",
+   "detail": "Item drop during the Shrouded Glade Invasion. Enemy and drop rate are not named by any source.",
+   "where": "Shrouded Glade (invasion event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Tunic of the Branch Druid' ('It can be acquired as an item drop during the Shrouded Glade Invasion'); locale:2313 (The Invasion of Shrouded Glade) as event context"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Warrior's Tentacle Axe of Riptide",
+  "item_locale_id": 442836,
+  "record": "quest-lines/items.json iwarrior-s-tentacle-axe-of-riptide",
+  "source": {
+   "type": "drop",
+   "detail": "Nekark (kraken boss, Seaside Heroes Journal finale): defeat Nekark, then open its Treasure Chest",
+   "where": "Seaside (western waters off the main beachfront; boss fight alongside Orchid Eventide)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Warrior's_Tentacle_Axe_of_Riptide (\"It is acquired through defeating Nekark and opening its Treasure Chest\"); wiki page Nekark (battle description); locale:5101119 (npc_name Nekark); repo:prototype/osfr-tools/data/content/npcs/seaside.json:32414 (Nekark fight in Unwanted Guests / Defeat the Kraken chain)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wild Eagle",
+  "item_locale_id": 442075,
+  "record": "quest-lines/items.json iwild-eagle",
+  "source": {
+   "type": "drop",
+   "detail": "Enemy drop: acquired by defeating bixies, ninjawugs, hooligans, and necromancers in combat areas",
+   "where": "combat areas (no specific zone given)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Wild_Eagle; Pet Pals list page (wiki: 'Pet Pals', same acquisition text for Wild Eagle and Wild Hawk)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wild Hawk",
+  "item_locale_id": 442076,
+  "record": "quest-lines/items.json iwild-hawk",
+  "source": {
+   "type": "drop",
+   "detail": "Acquired by defeating bixies, ninjawugs, hooligans, and necromancers in combat areas (Pet Pal acquisition, per the wiki)",
+   "where": "combat areas",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Wild_Hawk"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wizard of Light Boots",
+  "item_locale_id": 442540,
+  "record": "quest-lines/items.json iwizard-of-light-boots",
+  "source": {
+   "type": "drop",
+   "detail": "Defeating the boss Necronomicus (Gloam Lord of Necromancy). The wiki gives only 'acquired by defeating Necronomicus'; no drop rate or per-kill rule is stated. Necronomicus is listed on the wiki as a Battle Boss and Overworld Enemy NPC.",
+   "where": "Necronomicus encounter; client text places him beneath Merry Vale (secret passage behind the mushrooms near the Den of Secrets, recommended for a full group of level 20 players) as the challenge version, and as the Awakened version in Necronomicus Unleashed",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Wizard_of_Light_Boots (\"It is acquired by defeating Necronomicus\"); https://freerealms.fandom.com/wiki/Necronomicus (lists Wizard of Light Boots in its Wizard set items); locale:442598; locale:442600"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Zipped Leather Jacket",
+  "item_locale_id": 33986,
+  "record": "quest-lines/items.json izipped-leather-jacket",
+  "source": {
+   "type": "drop",
+   "detail": "Skullz Dwarven enemies (enemy drop, Freestyle Jobs clothing; members only)",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Zipped_Leather_Jacket"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Advanced Golden Spring",
+  "item_locale_id": 67069,
+  "record": "quest-lines/citems.json cadvanced-golden-spring-67069",
+  "source": {
+   "type": "drop",
+   "detail": "Treasure chests located and dug up by pets; the wiki says the Springs collections (Bouncy, Golden, Oiled, and Tightly Coiled Metal Springs) can only be completed by opening treasure. Set-level route, not an item-specific chest table or drop rate",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: page:ns0 Pets"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Alien Shoes",
+  "item_locale_id": 2676,
+  "record": "quest-lines/citems.json calien-shoes-2676",
+  "source": {
+   "type": "drop",
+   "detail": "Sci-Fi Mystery Chest (random contents; series number not confirmed)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Mystery Chest (contents list includes '[Alien] [Shoes]'; re-checked via lookup this session)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Archer Story pg. 1",
+  "item_locale_id": 67344,
+  "record": "quest-lines/citems.json carcher-story-pg-1-67344",
+  "source": {
+   "type": "drop",
+   "detail": "Gathered by clicking 'Archer Materials' nodes in dungeons, only while on the Archer job (the wiki says the Archer Stories pages are acquired this way; it names no specific dungeon or node)",
+   "where": "dungeons (unnamed)",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/wikitext/4713-30373-1ee2a3ebb1f7.wiki lines 18-22 (Archer Stories section: 'These items are acquired by clicking on Archer Materials in dungeons, found only while in the Archer job')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bamboo Doll Legs",
+  "item_locale_id": 40694,
+  "record": "quest-lines/citems.json cbamboo-doll-legs-40694",
+  "source": {
+   "type": "drop",
+   "detail": "Robgoblin (enemy spawn for the Bamboo Ninja Doll collection; the wiki lists the Robgoblin as the collection's spawn, with no per-piece drop rate given)",
+   "where": "Central Wilds",
+   "price": null,
+   "currency": null,
+   "source": "refs: freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki (section 'Bamboo Ninja Doll': spawn= Robgoblin, area= Central Wilds, lists 'Bamboo Doll Legs' as a member)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Barnburner Brawler Jacket",
+  "item_locale_id": 132891,
+  "record": "quest-lines/citems.json cbarnburner-brawler-jacket-132891",
+  "source": {
+   "type": "drop",
+   "detail": "Skullz enemies/reward in the Bandit Hideout area (Zandro Rageracer's Skullz faction, Brawler job level 20); the video shows 'You receive 1 Skullz Biker Badge' followed by 'You receive 1 Barnburner Brawler Jacket' in the same clip, so the source is not pinned",
+   "where": "Bandit Hideout / Wilds (Skullz area)",
+   "price": null,
+   "currency": null,
+   "source": "video:IFnl12lu5JM/00158.jpg (items_seen and on-screen receive text); wiki page Bandit Hideout!"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Batty Scythe",
+  "item_locale_id": 139973,
+  "record": "quest-lines/citems.json cbatty-scythe-139973",
+  "source": {
+   "type": "drop",
+   "detail": "Unspecified dungeon enemies. The wiki says Blue Text weapons were acquired in dungeons where they were dropped, but names no dungeon, enemy or event for this item.",
+   "where": "dungeons (unspecified)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Blue Text weapon (\"acquired in dungeons where they were dropped\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Big Blue Doll Arms",
+  "item_locale_id": 40677,
+  "record": "quest-lines/citems.json cbig-blue-doll-arms-40677",
+  "source": {
+   "type": "drop",
+   "detail": "Robgoblin enemies, the spawn for the Big Blue Sky Ninja Doll collection (the collection's pieces, including this Arms piece, drop from them)",
+   "where": "Northern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki (wiki 'Toys (Collections)', section Big Blue Sky Ninja Doll: spawn=Robgoblin, area=Northern Wilds, quality=Common; the same list is in freerealms-wiki/harvest/lists/catalog.json:1625-1630)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Big Blue Doll Weapons",
+  "item_locale_id": 40680,
+  "record": "quest-lines/citems.json cbig-blue-doll-weapons-40680",
+  "source": {
+   "type": "drop",
+   "detail": "Robgoblin (enemy spawn for the Big Blue Sky Ninja Doll collection set; piece is added to the set; per-piece drop rate unknown)",
+   "where": "Northern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki (Toys (Collections), rev 31048, section 'Big Blue Sky Ninja Doll': CollectInfobox spawn=Robgoblin, area=Northern Wilds; lists 'Big Blue Doll Weapons' as a set member); freerealms-wiki/harvest/lists/infobox_CollectInfobox.json:2188"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Blazing Hammer",
+  "item_locale_id": 71961,
+  "record": "quest-lines/citems.json cblazing-hammer-71961",
+  "source": {
+   "type": "drop",
+   "detail": "Members-only dungeon boss random drop: Blue Text weapons were dropped at random by certain unnamed \"boss\" enemies in dungeons. The specific boss is not named in the evidence.",
+   "where": "dungeons (unnamed)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Category:Blue Text Weapons ('members only weapons that were acquired in dungeons where they were dropped at random by certain \"boss\" enemies'); wiki: Blue Text weapon"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Blue Doll",
+  "item_locale_id": 1344,
+  "record": "quest-lines/citems.json cblue-doll-1344",
+  "source": {
+   "type": "drop",
+   "detail": "Robgoblin enemies (collection spawn type; Gold Doll is cascaded from Army Men)",
+   "where": "Northern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "repo:prototype/osfr-tools/data/content/collections.json (collection key wiki:4:110, 'Dolls', spawn_type Robgoblin, area Northern Wilds, quality Common, source wiki page 'Toys (Collections)' https://freerealms.fandom.com/wiki/Toys_(Collections))"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bow Comfort Grip",
+  "item_locale_id": 67357,
+  "record": "quest-lines/citems.json cbow-comfort-grip-67357",
+  "source": {
+   "type": "drop",
+   "detail": "Random material from the 'Archer Materials' node in dungeons while on the Archer job (secondhand: wiki claim as recorded in the notes; no per-item rate or named dungeon verified)",
+   "where": "dungeons (Archer job); exact dungeon unverified",
+   "price": null,
+   "currency": null,
+   "source": "notes/Build Guides/Content/Jobs/Archer.md line 171 (cites the wiki: materials come from clicking 'Archer Materials' in dungeons while on the Archer job); wiki image:collection 'Archer Bow Materials' lists the item as one of its 8 entries but does not name the node; repo:prototype/osfr-tools/data/content/collections.json line 2501"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bow Stabilizer",
+  "item_locale_id": 67354,
+  "record": "quest-lines/citems.json cbow-stabilizer-67354",
+  "source": {
+   "type": "drop",
+   "detail": "Random pickup from the 'Archer Materials' rare collection node in dungeons (the Archer Bow Materials items other than Lightweight Wood are all gathered this way)",
+   "where": "dungeons, Archer job only",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Archer Magical Bow Essences' (wikitext, section 'Archer Bow Materials': 'All of these items except for the Lightweight Wood are acquired by clicking on Archer Materials in dungeons, found only while in the Archer job'); locale:76715 'Archer Materials'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Brawler Story pg. 1",
+  "item_locale_id": 67416,
+  "record": "quest-lines/citems.json cbrawler-story-pg-1-67416",
+  "source": {
+   "type": "drop",
+   "detail": "Obtained by clicking Brawler Materials found in dungeons; only while in the Brawler job (dungeon material pickup, not a named enemy or quest)",
+   "where": "dungeons",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Brawler Magical Hammer Essences (text: 'These items are acquired by clicking on Brawler Materials in dungeons, found only while in the Brawler job'; the snippet returned names Story pg. 3-8 explicitly, pg. 1 is in the same list as the item set, so the wording applies to the set)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Brawler Story pg. 6",
+  "item_locale_id": 67421,
+  "record": "quest-lines/citems.json cbrawler-story-pg-6-67421",
+  "source": {
+   "type": "drop",
+   "detail": "Clicked from the 'Brawler Materials' spawn (job material) in dungeons, only while the character is in the Brawler job. The wiki does not name the dungeon or the per-click chance.",
+   "where": "dungeons (Brawler job only)",
+   "price": null,
+   "currency": null,
+   "source": "refs: freerealms-wiki/wikitext/4727-10881-30cb17a1416d.wiki (Brawler Stories section, line 22); refs: freerealms-wiki/wikitext/2190-27853-ba6c0a72b278.wiki lines 120-136 (CollectInfobox 'Brawler Stories', spawn 'Job Material', lists pg. 6 as a member)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Brawler Story pg. 8",
+  "item_locale_id": 67423,
+  "record": "quest-lines/citems.json cbrawler-story-pg-8-67423",
+  "source": {
+   "type": "drop",
+   "detail": "Job Material collection spawn: picked up from combat areas and dungeons while the player is actively using the Brawler job (Brawler Stories collection, Cascading type, Common quality)",
+   "where": "combat areas and dungeons (Brawler job active)",
+   "price": null,
+   "currency": null,
+   "source": "refs: freerealms-wiki/wikitext/2190-27853-ba6c0a72b278.wiki lines 118-137 (Brawler Stories infobox: spawn=Job Material, reward=Hammer Head); refs: freerealms-wiki/wikitext/2145-20376-d0e62216cc0b.wiki lines 17-21 (Combat Job Materials appear only within combat areas and dungeons when using a combat job); wiki page 'Brawler Magical Hammer Essences' (materials 'clicked on ... in dungeons, found only while in the Brawler job')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bright Sun Doll Mask",
+  "item_locale_id": 40698,
+  "record": "quest-lines/citems.json cbright-sun-doll-mask-40698",
+  "source": {
+   "type": "drop",
+   "detail": "Collection-set piece from the Bright Yellow Sun Ninja Doll collection; the wiki lists the collection's spawn as a Robgoblin (enemy) in the Northern Wilds, quality Common. Only the collection's entries are sourced this way, so this mask comes from that enemy drop rather than from a vendor.",
+   "where": "Northern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "repo:prototype/osfr-tools/data/content/collections.json:6515-6600 (wiki:4:106, source page 'Toys (Collections)', https://freerealms.fandom.com/wiki/Toys_(Collections)); repo:prototype/osfr-tools/data/content/collection_catalogue.json:4122-4137 (collection id 62, entry 414 = item_definition_id 3482, name_id 40698)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bright Sun Doll Pants",
+  "item_locale_id": 40703,
+  "record": "quest-lines/citems.json cbright-sun-doll-pants-40703",
+  "source": {
+   "type": "drop",
+   "detail": "Robgoblin enemies (collection piece for the Bright Yellow Sun Ninja Doll set; the wiki lists the set's spawn as Robgoblin, with the set's reward being the Blue Ninja Outfit Doll plus 21 gold coins on completion)",
+   "where": "Northern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki lines 81-99 (wiki page 'Toys (Collections)', rev 31048, section 'Bright Yellow Sun Ninja Doll', CollectInfobox spawn=Robgoblin, area=Northern Wilds); also harvest/lists/infobox_CollectInfobox.json entry 'Bright Yellow Sun Ninja Doll'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bubbleburst Battle Axe",
+  "item_locale_id": 46857,
+  "record": "quest-lines/citems.json cbubbleburst-battle-axe-46857",
+  "source": {
+   "type": "drop",
+   "detail": "Random drop from unnamed 'boss' enemies in dungeons (Blue Text weapon class; the specific boss and dungeon for this axe are not evidenced)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki: Category:Blue Text Weapons (\"acquired in dungeons where they were dropped at random by certain 'boss' enemies\"); wiki: Blue Text weapon"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bull's-Eye Archer Hat",
+  "item_locale_id": 132797,
+  "record": "quest-lines/citems.json cbull-s-eye-archer-hat-132797",
+  "source": {
+   "type": "drop",
+   "detail": "Random prize for completing the bonus goal in any difficulty 5 dungeon",
+   "where": "Difficulty 5 dungeons (any)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Bull's-Eye Archer Hat'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bull's-Eye Archer Quiver",
+  "item_locale_id": 132799,
+  "record": "quest-lines/citems.json cbull-s-eye-archer-quiver-132799",
+  "source": {
+   "type": "drop",
+   "detail": "Random prize for completing the bonus goal in any difficulty 5 dungeon",
+   "where": "any difficulty 5 dungeon",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Bull's-Eye Archer Quiver (lookup ns0 hit)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bull's-Eye Archer Tunic",
+  "item_locale_id": 132794,
+  "record": "quest-lines/citems.json cbull-s-eye-archer-tunic-132794",
+  "source": {
+   "type": "drop",
+   "detail": "Random prize from completing the bonus goal in any difficulty 5 dungeon (reward, not an enemy drop)",
+   "where": "any difficulty 5 dungeon",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Bull's-Eye Archer Tunic"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clean Nettleseed Water Sample",
+  "item_locale_id": 41128,
+  "record": "quest-lines/citems.json cclean-nettleseed-water-sample-41128",
+  "source": {
+   "type": "drop",
+   "detail": "Gathered from a 'Sparkling Water' node (node pool nettleseed-sparkling-water, NodeType sparkling-water, max 3 active, 60 s respawn). Drop table lists ItemDefinitionId 3912 at weight 100, equal to the other sample grades 3911, 3913-3916.",
+   "where": "Nettleseed (ZoneDefinitionId 1 per the node pool; zone name unconfirmed)",
+   "price": null,
+   "currency": null,
+   "source": "repo:Sanctuary-main-20261019/src/Resources/CollectionNodePools.json lines 7874-7909; locale:76565 'Sparkling Water'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clock Spring",
+  "item_locale_id": 67043,
+  "record": "quest-lines/citems.json cclock-spring-67043",
+  "source": {
+   "type": "drop",
+   "detail": "Treasure chests dug up by pets (Pets wiki page: the Springs collections can only be completed by opening treasure chests). Clock Spring is one entry of the Tightly Coiled Metal Springs collection (collection id 178, name locale 67544), which is a set of 11 springs.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Pets; repo:prototype/osfr-tools/data/content/collection_catalogue.json:14172 (item_definition_id 23430, name_id 67043, collection id 178 entries from line 14138)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Coal",
+  "item_locale_id": 67303,
+  "record": "quest-lines/citems.json ccoal-67303",
+  "source": {
+   "type": "drop",
+   "detail": "Snowmen defeated during the Snow Days holiday event (snowmen pelted with snowballs; each yields 1-2 Coal)",
+   "where": "Snowhill, around the Gifting Tree",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Snow Days'; article facts http://www.freerealms.com:80/article/detail.action?articleId=2808 and articleId=1950; video 2fhn8kePbKQ/01002.jpg"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Copper Ore",
+  "item_locale_id": 21917,
+  "record": "quest-lines/citems.json ccopper-ore-21917",
+  "source": {
+   "type": "drop",
+   "detail": "Gathered by mining Copper Veins (copper nodes) as a Miner gathering resource; the starter quest 'So, You Want To Be A Miner?' has the player find a copper node near Therin and mine one copper ore",
+   "where": "Singing Crystal Mines, Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "locale:76109 'Mine Copper Ore from the Copper Veins'; locale:23220 'Find a copper node near Therin and mine one copper ore!'; locale:76780 'copper mining tools in the Singing Crystal Mines'; wiki page 'Singing Crystal Mines' ('located in Snowhill'); wiki page 'Snowhill' Points of Interest lists Singing Crystal Mines"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Copper Ore",
+  "item_locale_id": 21917,
+  "record": "quest-lines/citems.json ccopper-ore-21917",
+  "source": {
+   "type": "drop",
+   "detail": "Gathered from Sunstone Copper Veins around the valley (dialog line naming Copper Ore; quest live status unconfirmed)",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "locale:439860 'Go collect Copper Ore and Sunstones from Sunstone Copper Veins around the valley.'; locale:439750 'Collect Sunstones from Sunstone Copper Veins.' (provisional: no wiki or live-status check)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Coyote Juice Bottle",
+  "item_locale_id": 33952,
+  "record": "quest-lines/citems.json ccoyote-juice-bottle-33952",
+  "source": {
+   "type": "drop",
+   "detail": "Skullz Roughrider (enemy; wiki drop list: 'once defeated, there is a chance to receive', drop chance unrated)",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Skullz Roughrider (drop list, freerealms-wiki/wikitext/7248-45434-624affb48648.wiki:17); notes/Research/Pieces/057 Loot and enemy rewards.md:71 (Coyote Juice Bottle -> 33952 -> item 38822); quest-lines/items.json:170063"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Disciple Wizard Skirt",
+  "item_locale_id": 133448,
+  "record": "quest-lines/citems.json cdisciple-wizard-skirt-133448",
+  "source": {
+   "type": "drop",
+   "detail": "Listed among rewards/loot on the Mugwort's Hollow dungeon page as '[Disciple] [Wizard] Slacks / [Disciple] [Wizard] [Skirt]'. The mechanism (chest, completion reward, or drop) is not stated.",
+   "where": "Mugwort's Hollow (Wilds dungeon, Combat Mini-game, Difficulty 4)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Mugwort's Hollow"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Dusty Bones Potion",
+  "item_locale_id": 33962,
+  "record": "quest-lines/citems.json cdusty-bones-potion-33962",
+  "source": {
+   "type": "drop",
+   "detail": "Skullz Roughrider (dwarf enemy, Skullz faction); listed under 'Drops' with Coins, Skullz Biker Badge, Buckle-strapped Shirt and Coyote Juice Bottle, 'once defeated, there is a chance to receive'. No drop rate given.",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Skullz Roughrider' rev 45434 (freerealms-wiki/wikitext/7248-45434-624affb48648.wiki:18); repo:notes/Research/Pieces/057 Loot and enemy rewards.md:71 (joins 33962 to item 38827)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Extra Large Blue Thornfin",
+  "item_locale_id": 407614,
+  "record": "quest-lines/citems.json cextra-large-blue-thornfin-407614",
+  "source": {
+   "type": "drop",
+   "detail": "Fishing catch: Blue Thornfin (species), extra-large size tier (definition 68016). Species-level catch at the spot; the XL size comes from the repo fishing table roll, not a wiki-confirmed size.",
+   "where": "Frostbitten Banks (Snowhill area)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Frostbitten Banks' (Types of Fish lists Blue Thornfin; collection 'Extra Large Catch of the Day' listed under Collections); locale:410545; repo:prototype/osfr-tools/data/content/fishing_spots.json:416-420 (blue_thornfin -> 0, 68014, 68015, 68016)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Extra Large Flutterfish",
+  "item_locale_id": 407642,
+  "record": "quest-lines/citems.json cextra-large-flutterfish-407642",
+  "source": {
+   "type": "drop",
+   "detail": "Caught by fishing (reel-in catch) from the Flutterfish species, which is in the level-1 pool at Sacred Grove Shallows and Rainbow Lake. Per-size catch rate unknown; the XL size is a client size for Flutterfish, but the XL-specific catch is not separately confirmed.",
+   "where": "Sacred Grove Shallows (Stillwater Crossing boat) and Rainbow Lake (Lakeshore boat)",
+   "price": null,
+   "currency": null,
+   "source": "repo:notes/Build Guides/Content/Jobs/Fisherman.md:188-189 (spot fish lists, Flutterfish gate 1); repo:notes/Build Guides/Content/Jobs/Fisherman.md:221 (Flutterfish sizes in client: S M L XL, client 230034789); repo:prototype/osfr-tools/data/content/fishing_spots.json:206-211 (item ids 68041-68044, XL = 68044)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Flabbergast Sphere",
+  "item_locale_id": 36523,
+  "record": "quest-lines/citems.json cflabbergast-sphere-36523",
+  "source": {
+   "type": "drop",
+   "detail": "Nekark, Kraken boss, final fight of the Heroes Journal chapter after 'Unwanted Guests' / 'Defeat the Kraken'; boss chest drops 3 Flabbergast Spheres (repo note, no drop rate, no wiki or article confirmation)",
+   "where": "Western Seaside waters (Seaside)",
+   "price": null,
+   "currency": null,
+   "source": "repo:notes/Build Guides/Content/NPCs/NPCs - Seaside.md line 156"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Gift Package",
+  "item_locale_id": 40978,
+  "record": "quest-lines/citems.json cgift-package-40978",
+  "source": {
+   "type": "drop",
+   "detail": "Job Material spawn for the Postman job: a collectible piece picked up while the Postman job is active (the wiki's collection infobox lists the spawn type as 'Job Material'). Piece of the Postman Packages and Envelopes collection (Cascading); completing the collection rewards a Sanctuary Postcard, which feeds the Postman Postcards collection.",
+   "where": "Job Material spawn areas for Postman (towns and areas where the Postman job is used; no specific zone given by the sources)",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki List of Collections / 'Job Specific (Collections)' page, section 'Postman Packages and Envelopes' (wikitext revision 27853, page 2190: CollectInfobox spawn=Job Material, reward=Sanctuary Postcard); wiki page 'Job Materials' spawn rules (wikitext 2145-20376: Job Materials appear in job-related areas only while the player is actively using that job)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Gold Ore Nugget",
+  "item_locale_id": 67250,
+  "record": "quest-lines/citems.json cgold-ore-nugget-67250",
+  "source": {
+   "type": "drop",
+   "detail": "Miner job material spawn from mining nodes (gold ore), dropped only while the player uses the Miner job; the item is one of the 8 entries of the Miner's Gold Ore cascading collection. Which node or enemy gives this specific nugget is not documented.",
+   "where": "Mines (Miner job material spawns)",
+   "price": null,
+   "currency": null,
+   "source": "repo:notes/Build Guides/Content/Jobs/Miner.md:235 (wiki-based: job material spawns in mines while using Miner); repo:prototype/osfr-tools/data/content/collections.json:3838 (entry 'Gold Ore Nugget' in collection 'Miner's Gold Ore', client_id 1073741877, wiki:2:53)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Gothic Rag Doll Face Paint Card",
+  "item_locale_id": 119229,
+  "record": "quest-lines/citems.json cgothic-rag-doll-face-paint-card-119229",
+  "source": {
+   "type": "drop",
+   "detail": "Pumpkin Prince's Treasure chest, received when the Pumpkin Prince is defeated (a win by the Prince drops nothing). Drop rate and guarantee unknown.",
+   "where": "Open-world Pumpkin Prince fight; wiki places the Prince in Bone Bog Cemetery, but no source confirms this card drops there",
+   "price": null,
+   "currency": null,
+   "source": "video:nmT76ti9kyo/00264.jpg (chest prompt 'Pumpkin Prince's Treasure' reads 'You receive 1 Gothic Rag Doll Face Paint Card' plus 18 Ectoplasmic Goo); wiki Pumpkin Prince (defeat drops a treasure chest with a limited Super Spooktacular reward)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Green Doll",
+  "item_locale_id": 1343,
+  "record": "quest-lines/citems.json cgreen-doll-1343",
+  "source": {
+   "type": "drop",
+   "detail": "Robgoblin (collectible spawn for the Dolls collection; the wiki lists the Robgoblin as the spawn for the set, not a single named enemy)",
+   "where": "Northern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Toys (Collections)', section 'Dolls' (CollectInfobox: spawn=Robgoblin, area=Northern Wilds; copy in refs freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki lines 161-178)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Hammer Mold",
+  "item_locale_id": 67427,
+  "record": "quest-lines/citems.json chammer-mold-67427",
+  "source": {
+   "type": "drop",
+   "detail": "Plain 'Brawler Materials' node clicked in dungeons (job material pickup); one of the four pieces of the Brawler Hammer Materials collection (Hammer Handle, Hammer Ergonomic Grip, Hammer Mold; Hammer Head comes from Brawler Stories instead)",
+   "where": "dungeons (Brawler job only)",
+   "price": null,
+   "currency": null,
+   "source": "refs:freerealms-wiki/wikitext/4727-10881-30cb17a1416d.wiki line 15 (wiki page Brawler Hammer Materials: 'All of these items except for the Hammer Head are acquired by clicking on Brawler Materials in dungeons, found only while in the Brawler job')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Heroic Champion Axe",
+  "item_locale_id": 99105,
+  "record": "quest-lines/citems.json cheroic-champion-axe-99105",
+  "source": {
+   "type": "drop",
+   "detail": "Dungeon drop, retired 14 December 2009 as a Green Text weapon drop. Specific enemies and dungeons are not recorded.",
+   "where": "dungeons",
+   "price": null,
+   "currency": null,
+   "source": "wiki Category:Green Text Weapons (\"On December 14, 2009, Green Text weapons were retired as dungeon drops\"); wiki page Heroic Champion Axe (Category:Green Text Weapons, Category:Retired Weapons)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Illuminating Bow",
+  "item_locale_id": 71968,
+  "record": "quest-lines/citems.json cilluminating-bow-71968",
+  "source": {
+   "type": "drop",
+   "detail": "Dropped at random by certain 'boss' enemies in dungeons. Class-level statement for the Blue Text weapon group; the specific boss is not identified and the bow is not named on the drop statement itself",
+   "where": "dungeons (unidentified)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Category:Blue Text Weapons (text: 'acquired in dungeons where they were dropped at random by certain \"boss\" enemies'); wiki: Blue Text weapon (summary, same wording)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Jet Gems",
+  "item_locale_id": 67269,
+  "record": "quest-lines/citems.json cjet-gems-67269",
+  "source": {
+   "type": "drop",
+   "detail": "Miner job material spawn: mined from Miner job nodes in mines while the player has the Miner job active; one of the eight 'Cascading' gems that count toward the Miner's Fancy Gems collection (the collection's reward is Peculiar Gem)",
+   "where": "Mines (Miner job material spawns)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Job Specific (Collections); repo:prototype/osfr-tools/data/content/collections.json (key wiki:2:52, entry 'Jet Gems'); notes/Build Guides/Content/Jobs/Miner.md:235"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Man Eating Plant Flowers",
+  "item_locale_id": 417076,
+  "record": "quest-lines/citems.json cman-eating-plant-flowers-417076",
+  "source": {
+   "type": "drop",
+   "detail": "Man Eating Plant (enemy); the flower drops when you knock one out",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "locale:417077"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Manguana Sunstone Recipe",
+  "item_locale_id": 26646,
+  "record": "quest-lines/citems.json cmanguana-sunstone-recipe-26646",
+  "source": {
+   "type": "drop",
+   "detail": "Random reward drop from Manguana enemies (the wiki's Manguana Statue page says the crafting recipe is a random reward drop; no single enemy named on that page)",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Manguana Statue (\"The crafting recipe is a random reward drop that can be acquired through defeating manguana enemies in Sunstone Valley\"); repo:prototype/osfr-tools/data/content/recipes_unresolved.json:2218-2277 (blacksmith.manguana_statue, candidate_recipe_item_definition_id 23882, Comment 'Manguana Sunstone Recipe')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Manguana Tribal Necklace",
+  "item_locale_id": 8459,
+  "record": "quest-lines/citems.json cmanguana-tribal-necklace-8459",
+  "source": {
+   "type": "drop",
+   "detail": "Sandscale Scavenger (chance on defeat; listed in the wiki's Drops list, alongside Coins, Blast Spheres, Flabbergast Spheres, Cloth Wraps)",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Sandscale Scavenger (cached wiki page, Drops section names Manguana Tribal Necklace; also locale:2200625134 'Manguana Tribal Necklace' ugdt line and locale:2200018944 'Sandscale Scavenger' in the same block)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Manguana Tribal Necklace",
+  "item_locale_id": 8459,
+  "record": "quest-lines/citems.json cmanguana-tribal-necklace-8459",
+  "source": {
+   "type": "drop",
+   "detail": "Sandscale Magus (chance on defeat; Drops list shows [Manguana] [Tribal] [Necklace])",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Sandscale Magus"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Manguana Tribal Necklace",
+  "item_locale_id": 8459,
+  "record": "quest-lines/citems.json cmanguana-tribal-necklace-8459",
+  "source": {
+   "type": "drop",
+   "detail": "Sandspear, boss (chance on defeat; Drops list shows [Manguana] [Tribal] [Necklace])",
+   "where": "Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Sandspear"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Medic Story pg. 2",
+  "item_locale_id": 67209,
+  "record": "quest-lines/citems.json cmedic-story-pg-2-67209",
+  "source": {
+   "type": "drop",
+   "detail": "Clicked from 'Medic Materials' rare-collection nodes in dungeons; only while in the Medic job. Dungeon-click route per the wiki's Medic Stories page; per-node and drop rate not documented",
+   "where": "dungeons (Medic job only)",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/wikitext/4789-10647-a46f77cb4bee.wiki line 22 ('These items are acquired by clicking on Medic Materials in dungeons, found only while in the Medic job'); wiki 'Medic Magical Essences' uses the same wording; video:qCG_K2piQgE/00092 (frame shows 'Medic Materials Rare Collection' in a dungeon)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Medic Story pg. 3",
+  "item_locale_id": 67210,
+  "record": "quest-lines/citems.json cmedic-story-pg-3-67210",
+  "source": {
+   "type": "drop",
+   "detail": "Clicked from [Medic] Materials rare collection crates in dungeons while in the Medic job (Medic Stories collection, pages 1-8)",
+   "where": "dungeons, Medic job only",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Medic Magical Essences (https://freerealms.fandom.com/wiki/Medic_Magical_Essences), text: '[Medic Story] pg. 3 ... pg. 8. These items are acquired by clicking on Medic Materials in dungeons, found only while in the Medic job.'; wiki: Job Specific (Collections); repo:prototype/osfr-tools/data/content/collections.json lines 3564-3613; repo:prototype/osfr-tools/data/content/dungeons/robgoblin_treasure_trove.json line 655 (Medic Materials crate in dungeon, video qCG_K2piQgE/00092)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Medic Story pg. 7",
+  "item_locale_id": 67214,
+  "record": "quest-lines/citems.json cmedic-story-pg-7-67214",
+  "source": {
+   "type": "drop",
+   "detail": "Medic Materials, clicked in dungeons (wiki says these Medic Story pages are acquired this way; the page lists pg. 7 in that sentence). Not an enemy drop; the wiki is the only source.",
+   "where": "dungeons (Medic job only)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page:ns0 'Medic Magical Essences' (sentence: '[Medic] Story pg. 1 ... pg. 8. These items are acquired by clicking on Medic Materials in dungeons, found only while in the Medic job')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Medic Story pg. 8",
+  "item_locale_id": 67215,
+  "record": "quest-lines/citems.json cmedic-story-pg-8-67215",
+  "source": {
+   "type": "drop",
+   "detail": "Clicked from 'Medic Materials' crates (rare collection) found in dungeons, only while in the Medic job; one of the Medic Stories collection pages (pg. 1-8)",
+   "where": "dungeons (e.g. Robgoblin Treasure Trove shows Medic Materials crates in video)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Medic Magical Essences' (acquisition text); wiki page 'Job Specific (Collections)'; video:qCG_K2piQgE/00092; locale:67215; repo:notes/Build Guides/Content/Jobs/Medic.md:166"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Medium Changed Salmon",
+  "item_locale_id": 407693,
+  "record": "quest-lines/citems.json cmedium-changed-salmon-407693",
+  "source": {
+   "type": "drop",
+   "detail": "Caught by fishing (reeled in from the water). Fish species Changed Salmon is catchable; the Medium size is one of its size variants (the Large is 407694).",
+   "where": "Brambleback's Bayou (fishing hole)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Brambleback's Bayou (\"Types of Fish\" list includes [Changed] [Salmon]); locale:410549 (\"...changed salmon... can all be found at Brambleback's Bayou.\"); locale:410477 (\"Changed salmon can be found at Brambleback's Bayou.\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Medium Slugmud Skipper",
+  "item_locale_id": 407648,
+  "record": "quest-lines/citems.json cmedium-slugmud-skipper-407648",
+  "source": {
+   "type": "drop",
+   "detail": "Fishing catch (fish inventory item, Medium size grade of Slugmud Skipper), caught by reeling in at the fishing spot; no enemy or vendor involved",
+   "where": "Sacred Grove Shallows (Stillwater Crossing area)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Sacred_Grove_Shallows (wiki page 'Sacred Grove Shallows', lists Slugmud Skipper catchable at level 1); client locale:407648 and locale:407646 (Small Slugmud Skipper) show the size-grade naming; repo notes/Build Guides/Gameplay/Fishing.md line 24 (fish come in plain, Small, Medium, Large, Extra Large grades)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Medium Thorny Trout",
+  "item_locale_id": 407689,
+  "record": "quest-lines/citems.json cmedium-thorny-trout-407689",
+  "source": {
+   "type": "drop",
+   "detail": "Caught by fishing as the Medium size grade of Thorny Trout (base fish locale:99934). Not an enemy drop. Size grade is determined by the catch; the Medium grade's share is an unverified repo draft weight, not a wiki or in-game rate.",
+   "where": "Darklit Lagoon",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Darklit Lagoon (\"[Thorny] [Trout] - Catchable at level 5\"); repo:prototype/osfr-tools/data/content/fishing.json lines 823-840 (key thorny_trout, minimum_level 5, type_id 1021; size_weights 42/34/19/5 is an unverified draft value); repo:prototype/osfr-tools/data/content/fishing_spots.json line 328"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Mother's Ring",
+  "item_locale_id": 66883,
+  "record": "quest-lines/citems.json cmother-s-ring-66883",
+  "source": {
+   "type": "drop",
+   "detail": "Collection node drop pool 'stillwater-robgoblin-junk' (NodeType robgoblin-junk, Weight 100 entry for ItemDefinitionId 23270). Sanctuary emulator data only; no wiki or live confirmation",
+   "where": "Stillwater (ZoneDefinitionId 1)",
+   "price": null,
+   "currency": null,
+   "source": "refs:Sanctuary-main-20261019/src/Resources/CollectionNodePools.json:1350 (Key at line 875; next Key 'stillwater-robgoblin-junk-rare' at line 1868)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bare-Knuckle Brawler Boots",
+  "item_locale_id": 132904,
+  "record": "quest-lines/citems.json cn-bare-knuckle-brawler-boots-pl-bare-knuckle-brawler-boots-132904",
+  "source": {
+   "type": "drop",
+   "detail": "Video frame shows 'You receive 1 Bare-Knuckle [Brawler] [Boots]' alongside Skullz Biker Badge, coins and Cactus Firework; the trigger (enemy, chest or event) is not identified",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "video:IFnl12lu5JM/00236 and video:IFnl12lu5JM/00234"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bull's-Eye Archer Boots",
+  "item_locale_id": 132795,
+  "record": "quest-lines/citems.json cn-bull-s-eye-archer-boots-pl-bull-s-eye-archer-boots-132795",
+  "source": {
+   "type": "drop",
+   "detail": "Random prize for completing the bonus goal in any difficulty 5 dungeon",
+   "where": "any difficulty 5 dungeon",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/wikitext/16559-39725-56d9c3af04c5.wiki line 2 (Boots article)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bull's-Eye Archer Wristguards",
+  "item_locale_id": 132796,
+  "record": "quest-lines/citems.json cn-bull-s-eye-archer-wristguards-pl-bull-s-eye-archer-wristgu-132796",
+  "source": {
+   "type": "drop",
+   "detail": "Random prize for completing the bonus goal in any difficulty 5 dungeon run (bonus clothing set), per the wiki's item page",
+   "where": "dungeons, difficulty 5",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Bull's-Eye Archer Wristguards"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Power Punch Brawler Gloves",
+  "item_locale_id": 132911,
+  "record": "quest-lines/citems.json cn-power-punch-brawler-gloves-pl-power-punch-brawler-gloves-132911",
+  "source": {
+   "type": "drop",
+   "detail": "Trail of Betrayal bonus goal 'Find all of the troll marching orders!' grants a random Power Punch Brawler-set piece (gloves are one of the set's body parts) to all players in the instance, matched to the player's job",
+   "where": "Trail of Betrayal (Briarwood)",
+   "price": null,
+   "currency": null,
+   "source": "wiki Trail of Betrayal, Bonus Rewards section (lines 94-102)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Rubber Match Brawler Pants",
+  "item_locale_id": 132889,
+  "record": "quest-lines/citems.json cn-rubber-match-brawler-pants-pl-rubber-match-brawler-pants-132889",
+  "source": {
+   "type": "drop",
+   "detail": "Dungeon bonus-goal clothing: completing the bonus goal gives each player one random-colour, random-slot piece from the Brawler Rubber Match set",
+   "where": "Floren Forest (dungeon); the same Brawler set is also a bonus-goal reward in Bone Bog Cemetery, Deep Mines, Forgotten Caves, Howling Hills, Misty Mountain and The Snarling Hedges-type dungeon pages",
+   "price": null,
+   "currency": null,
+   "source": "wiki pages 'Floren Forest' (bonus-goal clothing row, repo:notes/Build Guides/Content/Dungeons/Floren Forest.md:57, 75) and the matching dungeon pages"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Sekkou Ninja Armwraps",
+  "item_locale_id": 133230,
+  "record": "quest-lines/citems.json cn-sekkou-ninja-armwraps-pl-sekkou-ninja-armwraps-133230",
+  "source": {
+   "type": "drop",
+   "detail": "Ninja dungeon bonus-goal clothing (Sekkou set is one of the Difficulty 2 bonus sets; the Bat Cave's Ninja row lists Sekkou Ninja Armwraps)",
+   "where": "The Bat Cave (Difficulty 2 dungeon, Wilds)",
+   "price": null,
+   "currency": null,
+   "source": "repo:notes/Build Guides/Content/Dungeons/The Bat Cave.md:72 (cites wiki); also wiki dungeon pages Danger Peaks, Den of Secrets, Sweetwater Climb list Sekkou pieces as Ninja bonus gear; wiki Ninja page (Sekkou = level 6 set)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ninja's Ring of Regeneration IV",
+  "item_locale_id": 131122,
+  "record": "quest-lines/citems.json cninja-s-ring-of-regeneration-iv-131122",
+  "source": {
+   "type": "drop",
+   "detail": "Moldy Shamblers dungeon, Ninja-class reward list (the 'Prize Wheel' section of the wiki page lists it alongside Battle Item Mystery Pack and the Ninja Power Shard of Regeneration IV)",
+   "where": "Moldy Shamblers (dungeon)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Moldy Shamblers!'; repo:prototype/osfr-tools/data/content/dungeons/moldy_shamblers.json:1442"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ninja's Ring of Regeneration IV",
+  "item_locale_id": 131122,
+  "record": "quest-lines/citems.json cninja-s-ring-of-regeneration-iv-131122",
+  "source": {
+   "type": "drop",
+   "detail": "Vale of the Ancients dungeon, Ninja class reward list (same wiki 'Prize Wheel' section format)",
+   "where": "Vale of the Ancients (dungeon)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Vale of the Ancients'; repo:notes/Build Guides/Content/Dungeons/Vale of the Ancients.md:72"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ninja's Ring of Regeneration IV",
+  "item_locale_id": 131122,
+  "record": "quest-lines/citems.json cninja-s-ring-of-regeneration-iv-131122",
+  "source": {
+   "type": "drop",
+   "detail": "Croaking Vale and Mugwort's Hollow dungeon reward lists (Ninja Ring of Regeneration IV appears in both wiki 'Prize Wheel' sections)",
+   "where": "Croaking Vale; Mugwort's Hollow",
+   "price": null,
+   "currency": null,
+   "source": "wiki pages 'Croaking Vale', 'Mugwort's Hollow'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ninja Story pg. 3",
+  "item_locale_id": 67186,
+  "record": "quest-lines/citems.json cninja-story-pg-3-67186",
+  "source": {
+   "type": "drop",
+   "detail": "Clicking a 'Ninja Materials' object (rare collection node) in dungeons; only while in the Ninja job. The wiki names pg. 3 explicitly in the Ninja Stories collection entry. No drop rate given.",
+   "where": "Dungeons (Ninja job only)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Ninja Stories (freerealms-wiki/wikitext/4797-10663-3a4e6eaa8b24.wiki line 22)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ninja Story pg. 8",
+  "item_locale_id": 67191,
+  "record": "quest-lines/citems.json cninja-story-pg-8-67191",
+  "source": {
+   "type": "drop",
+   "detail": "Gathered by clicking 'Ninja Materials' nodes in dungeons; found only while in the Ninja job (one of the eight Ninja Stories pages, pg. 1-8)",
+   "where": "dungeons (Ninja job only; specific dungeon not named in sources)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Ninja Stories' (refs: freerealms-wiki/wikitext/4797-10663-3a4e6eaa8b24.wiki line 22): 'These items are acquired by clicking on Ninja Materials in dungeons, found only while in the Ninja job.'; same wording in 'Ninja Sword Materials' line 15"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pin Hole Archer Hoodie",
+  "item_locale_id": 132788,
+  "record": "quest-lines/citems.json cpin-hole-archer-hoodie-132788",
+  "source": {
+   "type": "drop",
+   "detail": "Cray Caves dungeon reward, Archer job row (the wiki says dungeon armor is random and matches the receiving player's current job; the exact enemy/chest/roll is not confirmed)",
+   "where": "Cray Caves (dungeon)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Cray Caves (armor-is-random, job-matched text, lists Pin Hole Archer); repo:notes/Build Guides/Content/Dungeons/Cray Caves.md:75"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pin Hole Archer Hoodie",
+  "item_locale_id": 132788,
+  "record": "quest-lines/citems.json cpin-hole-archer-hoodie-132788",
+  "source": {
+   "type": "drop",
+   "detail": "Forest Troll Fort dungeon reward, same job-matched armor mechanic (Archer row lists Pin Hole)",
+   "where": "Forest Troll Fort (dungeon)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Forest Troll Fort (armor-is-random, job-matched text, lists Pin Hole Archer)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Polished Fateful Necklace",
+  "item_locale_id": 89322,
+  "record": "quest-lines/citems.json cpolished-fateful-necklace-89322",
+  "source": {
+   "type": "drop",
+   "detail": "Pickup from wraiths during the quest Consumed by the Past (Iliya's quest; extra goal 'Defeat all wraiths'). Lukov is not evidenced as a source of this item.",
+   "where": "Blackspore Swamp, sunken graveyard (dark marsh field / rocky mountains landmarks in frame 00026)",
+   "price": null,
+   "currency": null,
+   "source": "video:8F4ZomE2kxI/00026.jpg ('You receive 1 Polished Fateful Necklace', 'You receive 8 coins', goal 'Defeat all wraiths'); video:8F4ZomE2kxI/00028.jpg (quest log shows the same pickup line); repo:notes/Build Guides/Content/NPCs/NPCs - Blackspore Swamp.md:205 and :233"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Purple Mushroom",
+  "item_locale_id": 17056,
+  "record": "quest-lines/citems.json cpurple-mushroom-17056",
+  "source": {
+   "type": "drop",
+   "detail": "Harvested from a Rare Mushrooms collection node (Legacy reference node type, model 674); its drop table lists item 11081 (Purple Mushroom) at weight 100, alongside 11085. Legacy reference data, unverified (policy R), not confirmed against a native packet or live client.",
+   "where": "zone 1 per harvest-node data (Briarwood by collection theme; zone-to-name mapping not verified)",
+   "price": null,
+   "currency": null,
+   "source": "repo:prototype/osfr-tools/data/content/harvest_nodes.json:86-112 (rare-mushrooms drop_table); repo:notes/Research/Harvest Nodes.md:21 and :25-27"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Royal Doll Crown",
+  "item_locale_id": 40746,
+  "record": "quest-lines/citems.json croyal-doll-crown-40746",
+  "source": {
+   "type": "drop",
+   "detail": "Robgoblin enemies, as a piece of the Royal Doll collection (the collection's 'spawn' is Robgoblin; the crown is one of its 8 pieces)",
+   "where": "Central Wilds",
+   "price": null,
+   "currency": null,
+   "source": "refs: freerealms-wiki/wikitext/2240-31048-5215c30f452f.wiki lines 415-433 (=== Royal Doll === CollectInfobox: spawn=Robgoblin, area=Central Wilds, reward=Queen Royal Doll + 21 Gold Coins; lists Royal Doll Crown)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Sabertooth Cat Skull",
+  "item_locale_id": 41040,
+  "record": "quest-lines/citems.json csabertooth-cat-skull-41040",
+  "source": {
+   "type": "drop",
+   "detail": "Found from overgrown monster cats (enemy drop per the wiki collection description; the specific enemy is not named)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "lookup wiki page:ns0 | Collections: [Sabertooth] [Fossils] 'Find these rare fossils from overgrown monster cats that must have chased some really big mice!'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Saved by the Bell Brawler Shirt",
+  "item_locale_id": 132861,
+  "record": "quest-lines/citems.json csaved-by-the-bell-brawler-shirt-132861",
+  "source": {
+   "type": "drop",
+   "detail": "Reward from defeating the boss Muggenstomp (Defeat Muggenstomp! quest, Brawler level 9). Video frame shows 'You receive 1 Saved by the Bell Brawler Shirt' after the boss and bonus goals completed. A 'Sci-Fi Mystery Chest' also appears in the same frame set, so the shirt may come from a chest drop as well. Not confirmed which.",
+   "where": "Bandit Hideout (Greenwood Forest)",
+   "price": null,
+   "currency": null,
+   "source": "video:9gfkEIFMV4s/00238.jpg; video:9gfkEIFMV4s/00236.jpg; wiki page Muggenstomp; wiki page Bandit Hideout!"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Seeker's Hat",
+  "item_locale_id": 2630,
+  "record": "quest-lines/citems.json cseeker-s-hat-2630",
+  "source": {
+   "type": "drop",
+   "detail": "Rare Exploration coin spawn (collection reward; the collection's own name is unrecovered). Reward block lists Seeker's Hat and Seeker's Backpack together.",
+   "where": "world, Rare Exploration coin spawns (area not recorded, area: null)",
+   "price": null,
+   "currency": null,
+   "source": "repo:prototype/osfr-tools/data/content/collections.json:1771-1785 (wiki_type Exploration, quality Rare, spawn_type Coin, reward.wiki_lines); wiki page Exploration (Collections) https://freerealms.fandom.com/wiki/Exploration_(Collections) (named as the provenance in collections.json:1786-1790, not read directly); video:Y_ANZvYraKI/00018.jpg (\"You receive 1 Seeker's Hat\" on a Rare Exploration Coin prompt, Adventurer 15)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shamrock Ring",
+  "item_locale_id": 66927,
+  "record": "quest-lines/citems.json cshamrock-ring-66927",
+  "source": {
+   "type": "drop",
+   "detail": "Gathering-node drop table, pool 'stillwater-robgoblin-junk-rare' (NodeType 'rare-robgoblin-junk', weight 100, one of several equal-weight entries); enemy/node drop, not a vendor or quest item",
+   "where": "ZoneDefinitionId 1 (Stillwater per the pack; zone-name mapping not verified in the cited source)",
+   "price": null,
+   "currency": null,
+   "source": "refs:Sanctuary-main-20261019/src/Resources/CollectionNodePools.json:1868 (pool key and ZoneDefinitionId 1 at 1868-1869), entry ItemDefinitionId 23314 at line 2063 (inside the pool, which ends before the next key at 2205)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shock Rod Essence of Earth",
+  "item_locale_id": 67227,
+  "record": "quest-lines/citems.json cshock-rod-essence-of-earth-67227",
+  "source": {
+   "type": "drop",
+   "detail": "Medic Materials rare-collection crate clicked in dungeons (Medic job only); one of the Shock Rod Essences of Earth, Fire and Wind come from these crates, and the Earth essence is one of four entries in the Medic Magical Essences collection",
+   "where": "dungeons (e.g. Robgoblin Treasure Trove)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Medic Magical Essences (https://freerealms.fandom.com/wiki/Medic_Magical_Essences), 'Shockrod Essences of Earth, Fire, and Wind are acquired by clicking on Medic Materials <rare collection> in dungeons, found only while in the Medic job'; repo:prototype/osfr-tools/data/content/collections.json:3418-3474 (Medic Magical Essences, 4 entries incl. Shock Rod of Earth); video:qCG_K2piQgE/00094 (Shock Rod Essence of Wind from Medic Materials crate, Robgoblin Treasure Trove)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shock Rod Essence of Fire",
+  "item_locale_id": 67224,
+  "record": "quest-lines/citems.json cshock-rod-essence-of-fire-67224",
+  "source": {
+   "type": "drop",
+   "detail": "Medic Materials rare collection crate, opened by clicking it in dungeons; only obtainable while in the Medic job (Medic Shock Rod Materials collection crate). Wiki says the Earth, Fire and Wind essences come from this crate; the Robgoblin video shows it for Wind only.",
+   "where": "Dungeons (Robgoblin Treasure Trove shows the Medic Shock Rod Materials crate)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Medic Magical Essences' (lookup: \"[Shockrod] [Essences] of Earth, Fire, and Wind are [acquired] by [clicking] on [Medic] [Materials] <rare collection> in dungeons, found only while in the [Medic] job\"); repo:prototype/osfr-tools/data/content/dungeons/robgoblin_treasure_trove.json:655 (Wind only)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shock Rod Essence of Wind",
+  "item_locale_id": 67225,
+  "record": "quest-lines/citems.json cshock-rod-essence-of-wind-67225",
+  "source": {
+   "type": "drop",
+   "detail": "Medic Materials rare collection chest, clicked in dungeons; Medic job only. Yields one Shock Rod Essence of Wind per chest. Chance per chest not stated.",
+   "where": "Dungeons (Medic job only). Seen in Robgoblin Treasure Trove at Medic 10 (video frame only; the wiki does not name the dungeon).",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Medic Magical Essences' (freerealms-wiki/wikitext/4789-10647-a46f77cb4bee.wiki line 8: 'Shockrod Essences of Earth, Fire, and Wind are acquired by clicking on Medic Materials <rare collection> in dungeons, found only while in the Medic job'); video:qCG_K2piQgE/00094.jpg (receive message 'You receive 1 Shock Rod Essence of Wind' under 'Medic Shock Rod Materials / Medic Materials Rare Collection' header)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Silver Cheerleading Trophy",
+  "item_locale_id": 66958,
+  "record": "quest-lines/citems.json csilver-cheerleading-trophy-66958",
+  "source": {
+   "type": "drop",
+   "detail": "Robgoblin junk piles: Silver Cheerleading Trophy is a 'Robgoblin Junk' collection item (Silver Trophies collection, wiki 'Various Robgoblin Junk > Common' list). Players rummage through Robgoblin junk piles to find these collection treasures. The exact pile or enemy mapping for this tier is not confirmed.",
+   "where": "Robgoblin junk piles (Robgoblin Junk category; zone not named in sources)",
+   "price": null,
+   "currency": null,
+   "source": "articles: http://www.freerealms.com:80/collections.vm (fact: 'rummage through Robgoblin junk piles'); wiki: List of Collections (https://freerealms.fandom.com/wiki/List_of_Collections, rev 27852) lists 'Silver Trophies' under Various Robgoblin Junk, Common; repo:prototype/osfr-tools/data/content/collections.json (key wiki:6:186, name 'Silver Trophies', category 6 = Robgoblin Junk)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Small Checkered Snail",
+  "item_locale_id": 40882,
+  "record": "quest-lines/citems.json csmall-checkered-snail-40882",
+  "source": {
+   "type": "drop",
+   "detail": "Unconfirmed acquisition method for the individual snail (world pickup, enemy drop or other). The pack has no wiki page, video or article that names how the player obtains it.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": null
+  },
+  "store_row": null
+ },
+ {
+  "item": "Small Golden Spring",
+  "item_locale_id": 67065,
+  "record": "quest-lines/citems.json csmall-golden-spring-67065",
+  "source": {
+   "type": "drop",
+   "detail": "Springs pieces obtained by opening treasure chests dug up by pets; the wiki's Pets page groups Golden Metal Springs with the other Springs collections",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page Pets (Springs collections section)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Small Lady Tetra",
+  "item_locale_id": 407659,
+  "record": "quest-lines/citems.json csmall-lady-tetra-407659",
+  "source": {
+   "type": "drop",
+   "detail": "Fishing catch: Lady Tetra, small size class (fish item). Catchable from level 17 per the wiki; the level gate is wiki-sourced, not client-confirmed. Nightcrawlers lure gives a 10% better chance of catching it.",
+   "where": "Rainbow Lake (fishing spot)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Rainbow Lake (\"[Lady] [Tetra] - Catchable at level 17\"); locale:410548 (Rainbow Lake text naming lady tetra); locale:409558 and locale:412931 (Nightcrawlers lure text naming Plattypus, Lady Tetra and Roach Loach); repo:notes/Build Guides/Gameplay/Fishing.md line 131; repo:notes/Build Guides/Content/Jobs/Fisherman.md lines 189 and 228; repo:prototype/osfr-tools/data/content/fishing.json line 984"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snowman Coal",
+  "item_locale_id": 421075,
+  "record": "quest-lines/citems.json csnowman-coal-421075",
+  "source": {
+   "type": "drop",
+   "detail": "Toppled snowmen (Snow Days 'Snowman Showdown' invaders): defeating one yields 1-2 Snowman Coal, which are turned in to Everett for the repeatable Snowman Showdown quest",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Snow Days' (\"Occasionally, you will receive 1-2 Snowman Coal when you defeat one. The Snowman Coal is used for the repeatable quest Snowman Showdown.\"); locale:420591 and locale:420593 (Toppled Snowman dialog); locale:421076 (item description); video:2fhn8kePbKQ/00546.jpg (\"You receive 2 Snowman Coals\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Soggy Socks",
+  "item_locale_id": 99955,
+  "record": "quest-lines/citems.json csoggy-socks-99955",
+  "source": {
+   "type": "drop",
+   "detail": "Fishing junk catch, listed in the 'Fishing Junk' group (1387835333) with Plastic Bag, Rusty Can and Old Boot. No fishing area, weight or rate is given.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "repo:notes/Build Guides/Content/Jobs/Fisherman.md:244 (Soggy Socks 3003591811)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Storm Charmed Wand",
+  "item_locale_id": 19526,
+  "record": "quest-lines/citems.json cstorm-charmed-wand-19526",
+  "source": {
+   "type": "drop",
+   "detail": "Historical, category-wide: Green Text weapons were dungeon boss drops until retired on December 14, 2009. This wand's specific boss is not named in any source.",
+   "where": "dungeons (retired)",
+   "price": null,
+   "currency": null,
+   "source": "wiki Category:Green Text Weapons ('On December 14, 2009, Green Text weapons were retired as dungeon drops')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Suspension Springs",
+  "item_locale_id": 67056,
+  "record": "quest-lines/citems.json csuspension-springs-67056",
+  "source": {
+   "type": "drop",
+   "detail": "Treasure chests dug up by pets (the Springs collections can only be completed by opening treasure chests, per the wiki Pets page; this item is one of the Oiled Metal Springs collection's pieces)",
+   "where": "Pets treasure-chest digging (zone not given by source)",
+   "price": null,
+   "currency": null,
+   "source": "page:ns0 Pets (wiki); collection_catalogue.json collection id 180 entry index 1 (item_definition_id 23443)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Sword Collar",
+  "item_locale_id": 67195,
+  "record": "quest-lines/citems.json csword-collar-67195",
+  "source": {
+   "type": "drop",
+   "detail": "Clicked from the 'Ninja Materials' node (rare-collection-style clickable) in dungeons; available only to characters in the Ninja job. Specific dungeon(s) and drop rate not recorded in the source.",
+   "where": "Dungeons (unspecified)",
+   "price": null,
+   "currency": null,
+   "source": "refs: freerealms-wiki/wikitext/4797-10663-3a4e6eaa8b24.wiki (Ninja Sword Materials section, line 15); wiki page 'Job Specific (Collections)' and 'Ninja Magical Sword Essences' (lookup)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Sword Guard",
+  "item_locale_id": 67196,
+  "record": "quest-lines/citems.json csword-guard-67196",
+  "source": {
+   "type": "drop",
+   "detail": "Clicked 'Ninja Materials' gathered node in dungeons (Ninja job only). Sword Guard is one of the 7 non-Handle components of the Ninja Sword Materials collection, all obtained this way per the wiki. Specific dungeon(s) and rate not stated.",
+   "where": "dungeons (Ninja job only)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Ninja Magical Sword Essences', Ninja Sword Materials section (freerealms-wiki/wikitext/4797-10663-3a4e6eaa8b24.wiki line 15); repo:prototype/osfr-tools/data/content/collection_catalogue.json:16033-16037 (name_id 67196, item_definition_id 23583)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Thick Pocket Book",
+  "item_locale_id": 1990,
+  "record": "quest-lines/citems.json cthick-pocket-book-1990",
+  "source": {
+   "type": "drop",
+   "detail": "Dropped by an unnamed 'powerful opponent' (the item's own description: 'Looks like a powerful opponent dropped some of his belongings.'). The enemy is not named in any source.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "locale:1990; image:item_tooltip 'Thick Pocket Book' (wiki File:Thick Pocket Book.png)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Toxic Crush",
+  "item_locale_id": 98071,
+  "record": "quest-lines/citems.json ctoxic-crush-98071",
+  "source": {
+   "type": "drop",
+   "detail": "Category-level only: Blue Text weapons were dropped at random by certain 'boss' enemies in dungeons. No specific boss, enemy or dungeon is named for Toxic Crush itself.",
+   "where": "dungeons (category-level)",
+   "price": null,
+   "currency": null,
+   "source": "wiki Category:Blue Text Weapons (lookup excerpt: 'dropped at random by certain \"boss\" enemies'); wiki page 'Blue Text weapon' lists [Toxic] [Crush] in the Toxic family"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Toy Small Floor",
+  "item_locale_id": 148416,
+  "record": "quest-lines/citems.json ctoy-small-floor-148416",
+  "source": {
+   "type": "drop",
+   "detail": "Treasure Chest dropped by Nekark (Kraken world boss in the western Seaside waters, part of the Seaside Gloam invasion battle with Orchid Eventide); chest 'Housing' list includes 1 Toy Small Floor. No per-kill rate given.",
+   "where": "Seaside (western waters)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Nekark' (freerealms-wiki/wikitext/9594-50128-1375060c07c6.wiki lines 8, 12, 45); Orchid Eventide battle corroborated by wiki page 'Nekark' battle section and wiki page 'Heroes Journal: The Seaside Gloam Invasion' (lookup)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Toy Wood-Frame Circle Window",
+  "item_locale_id": 30897,
+  "record": "quest-lines/citems.json ctoy-wood-frame-circle-window-30897",
+  "source": {
+   "type": "drop",
+   "detail": "Nekark's treasure chest (Seaside boss), Housing section: 1 Toy Wood-Frame Circle Window",
+   "where": "Seaside (western waters)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Nekark (freerealms-wiki/wikitext/9594-50128-1375060c07c6.wiki, lines 14 and 50)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Toy Wood-Frame Square Window",
+  "item_locale_id": 30877,
+  "record": "quest-lines/citems.json ctoy-wood-frame-square-window-30877",
+  "source": {
+   "type": "drop",
+   "detail": "Nekark (Kraken boss) treasure chest, Housing drops: 1 Toy Wood-Frame Square Window",
+   "where": "Seaside (western waters)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Nekark (refs freerealms-wiki/wikitext/9594-50128-1375060c07c6.wiki lines 8-12, 42-53; lookup wiki page:ns0 Nekark)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Trauma Care Medic Shirt",
+  "item_locale_id": 133110,
+  "record": "quest-lines/citems.json ctrauma-care-medic-shirt-133110",
+  "source": {
+   "type": "drop",
+   "detail": "Forgotten Caves Medic bonus reward row (set-level; per-item drop of the Shirt not confirmed)",
+   "where": "Forgotten Caves",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Forgotten Caves' (Medic row lists [Trauma] [Care] [Medic] [Shirt] alongside Battle Item Mystery Pack and Medic bonesaw/shard/ring); repo:notes/Build Guides/Content/Dungeons/Forgotten Caves.md:77 (tagged [wiki] [client names]). Low confidence, non-wireable."
+  },
+  "store_row": null
+ },
+ {
+  "item": "Uncle's Ring",
+  "item_locale_id": 66887,
+  "record": "quest-lines/citems.json cuncle-s-ring-66887",
+  "source": {
+   "type": "drop",
+   "detail": "Robgoblin Junk (junk pile); the wiki lists 'Family Rings' under 'Various Robgoblin Junk', Common tier, so the ring is one of the junk-pile finds. Per-pile drop rate not evidenced.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/wikitext/2038-27852-f0e36d086ea8.wiki lines 200-210 (wiki page 'List of Collections', revision 27852): '== Various Robgoblin Junk ==' / '=== Common ===' / '* Family Rings'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Urgent Care Medic Cap",
+  "item_locale_id": 133095,
+  "record": "quest-lines/citems.json curgent-care-medic-cap-133095",
+  "source": {
+   "type": "drop",
+   "detail": "Fleetfoot Ninja dungeon, Medic reward row (listed alongside Battle Item Mystery Pack and Medic's Scalpel/Power Shard/Ring); reward mechanism (chest vs. wheel) not stated",
+   "where": "Fleetfoot Ninja dungeon (Wilds)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Fleetfoot Ninja! (lists '[Urgent] [Care] [Medic] [Cap]' under Medic rewards); notes/Build Guides/Content/Dungeons/Fleetfoot Ninja.md:64"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Venom's Bite",
+  "item_locale_id": 71950,
+  "record": "quest-lines/citems.json cvenom-s-bite-71950",
+  "source": {
+   "type": "drop",
+   "detail": "Pre-retirement Blue Text weapon rule: members-only dungeon 'boss' enemy random drop. Specific boss, dungeon and drop rate for Venom's Bite not named in any source (category-level only).",
+   "where": "Dungeons (unnamed)",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/harvest/lists/weapons.json:6432 (Category:Blue Text Weapons / Blue Text weapon text: 'acquired in dungeons where they were dropped at random by certain \"boss\" enemies'); Venom's Bite listed in Blue Text row at freerealms-wiki/harvest/lists/tables.json:2181 and freerealms-wiki/wikitext/3831-21850-8a08ba4573a2.wiki:68"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Venom's Spur",
+  "item_locale_id": 71970,
+  "record": "quest-lines/citems.json cvenom-s-spur-71970",
+  "source": {
+   "type": "drop",
+   "detail": "Historical only: unnamed 'boss' enemies in dungeons dropped Blue Text weapons at random before their retirement on 14 Dec 2009. The wiki does not name the boss or dungeon for Venom's Spur.",
+   "where": "dungeons (unspecified)",
+   "price": null,
+   "currency": null,
+   "source": "wiki Blue Text weapon / Category:Blue Text Weapons: \"acquired in dungeons where they were dropped at random by certain boss enemies\"; refs: freerealms-wiki/wikitext/3831-21850-8a08ba4573a2.wiki:2"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wizard Story pg. 1",
+  "item_locale_id": 67464,
+  "record": "quest-lines/citems.json cwizard-story-pg-1-67464",
+  "source": {
+   "type": "drop",
+   "detail": "Picked up by clicking 'Wizard Materials' objects in dungeons, only while in the Wizard job (wiki: 'These items are acquired by clicking on Wizard Materials in dungeons, found only while in the Wizard job'). Specific dungeon and drop rate not stated on the wiki.",
+   "where": "dungeons (unspecified)",
+   "price": null,
+   "currency": null,
+   "source": "wiki Job Specific (Collections), section 'Wizard Stories' (https://freerealms.fandom.com/wiki/Job_Specific_(Collections)); cached copy refs freerealms-wiki/wikitext/4897-10869-58acd515ede3.wiki:22; also wiki 'Wizard Magical Wand Essences' and 'List of Collections' list the Wizard Stories set"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wizard Story pg. 5",
+  "item_locale_id": 67468,
+  "record": "quest-lines/citems.json cwizard-story-pg-5-67468",
+  "source": {
+   "type": "drop",
+   "detail": "Clicked from Wizard Materials in dungeons (Wizard job only); one of eight story pages (pg. 1-8) that complete the Wizard Stories collection. Specific dungeons and drop rates not listed on the wiki.",
+   "where": "Dungeons (Wizard job only)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Wizard Magical Wand Essences' (\"These items are acquired by clicking on [Wizard] Materials in dungeons, found only while in the Wizard job\"); wiki page 'Job Specific (Collections)' (lists [Wizard] Story pg. 5); repo:prototype/osfr-tools/data/content/collections.json:4926 (Wizard Stories entry 5 of 8, wiki source)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wizard Story pg. 6",
+  "item_locale_id": 67469,
+  "record": "quest-lines/citems.json cwizard-story-pg-6-67469",
+  "source": {
+   "type": "drop",
+   "detail": "Clickable collection piece (Wizard Story pg. 6) gathered in the world/dungeons, the same way the wiki describes other job collection pieces ('acquired by clicking on ... in dungeons'); exact spawn points not confirmed",
+   "where": "dungeons / world (exact zone unknown)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Wizard Magical Wand Essences (text: 'These items are acquired by clicking on...' the Wizard Story pg. 1-8 list, truncated in our copy); analogous wiki pattern on Warrior Magical Axe Essences ('acquired by clicking on Warrior Materials <rare collection> in dungeons'); repo:prototype/osfr-tools/data/content/collections.json line 4895-4975 (entry 'Wizard Stories', entry 'Wizard Story pg. 6', source tag wiki)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wood Carving Tool",
+  "item_locale_id": 67358,
+  "record": "quest-lines/citems.json cwood-carving-tool-67358",
+  "source": {
+   "type": "drop",
+   "detail": "Clicked from 'Archer Materials' node/chest in dungeons, only while in the Archer job (rare-variant wording on the wiki image set); the Archer Bow Materials collection item",
+   "where": "dungeons (specific dungeon not named by the wiki; Briarheart Caverns is the ruthenium dungeon of the Building a Better Bow quest, not confirmed as the source)",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki collection page 'Archer Magical Bow Essences' (wikitext 4713-30373-1ee2a3ebb1f7.wiki, lines 11-15: 'All of these items except for the Lightweight Wood are acquired by clicking on Archer Materials in dungeons, found only while in the Archer job'); refs quest-lines/item-packs.json line 1783 (client item list of Archer Bow Materials)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Yellow Mushroom",
+  "item_locale_id": 17058,
+  "record": "quest-lines/citems.json cyellow-mushroom-17058",
+  "source": {
+   "type": "drop",
+   "detail": "Harvested from a 'Mushrooms' harvest node type (key 'mushrooms', model 249, interact range 12). Its drop_table lists item_definition_id 11083 at weight 100. Legacy reference data only; no client or runtime verification of the node's spawns.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "repo:prototype/osfr-tools/data/content/harvest_nodes.json:15-41 (legacy reference; source_tags 'legacy+client_item_definitions_verified' on the item id, 'legacy_reference_policy_R' on the weight; provenance line 10 says spawns and pool rules are unverified)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Yeti Hair",
+  "item_locale_id": 67478,
+  "record": "quest-lines/citems.json cyeti-hair-67478",
+  "source": {
+   "type": "drop",
+   "detail": "Clicked from 'Wizard Materials' nodes in dungeons while in the Wizard job (collection entry for the Wizard Wand Materials collection; the wiki says all entries except Carved Wood are gathered this way)",
+   "where": "dungeons (Wizard job)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Wizard Magical Wand Essences' (https://freerealms.fandom.com/wiki/Wizard_Magical_Wand_Essences); wiki page 'Job Specific (Collections)' (https://freerealms.fandom.com/wiki/Job_Specific_(Collections)); repo:prototype/osfr-tools/data/content/collections.json:5023 (entry 'Yeti Hair' in 'Wizard Wand Materials', wiki:2:68)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Yeti yarn",
+  "item_locale_id": 2219,
+  "record": "quest-lines/citems.json cyeti-yarn-2219",
+  "source": {
+   "type": "drop",
+   "detail": "Yeti (enemy; the specific yeti is unresolved, the description says it is found in a yeti's hand after you fight one)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "locale:2224"
+  },
+  "store_row": null
+ }
+]

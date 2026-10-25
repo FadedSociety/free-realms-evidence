@@ -1,0 +1,822 @@
+{
+ "zone": "Farnum Farmstead",
+ "quests": [
+  {
+   "quest_id": 3000004,
+   "record": "quest-lines/quests.json q3000004",
+   "title": "The Last Best Hope",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000068",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Defend Darkthorne from the Gloam",
+     "text_locale_id": 4419610,
+     "target": "Gloam (three defenders, not defined in field_enemies)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Pappy Farnum",
+     "text_locale_id": 4419612,
+     "target": "Pappy Farnum",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Look at the first globe",
+     "text_locale_id": 4419568,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Look at the second globe",
+     "text_locale_id": 4419570,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Look at the third globe",
+     "text_locale_id": 4419572,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Move past the first barrier",
+     "text_locale_id": 4419576,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Move past the second barrier",
+     "text_locale_id": 4419578,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Move past the third barrier",
+     "text_locale_id": 4419580,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "3",
+     "source": "notes/Research/Starting Quest Chains.md:10 (row 3000004, '3 coins; items []')"
+    }
+   ],
+   "line": {
+    "name": "Starting / Adventurer Part A opening arc",
+    "previous": [
+     "Hero's Journal"
+    ],
+    "next": [
+     "Saving Farnum's Farm"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 4419565,
+     "speaker": "Pappy Farnum"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000008,
+   "record": "quest-lines/quests.json q3000008",
+   "title": "Your First Weapon",
+   "giver": {
+    "name": "Cleetus Farnum",
+    "npc_id": "9000000050",
+    "locale_id": 46925
+   },
+   "objectives": [
+    {
+     "kind": "craft_recipe",
+     "text": "Forge a Spunky Scrapper Hammer",
+     "text_locale_id": 4420071,
+     "target": "Spunky Scrapper Hammer",
+     "target_locale_id": 102173,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Cleetus Farnum",
+     "text_locale_id": null,
+     "target": "Cleetus Farnum",
+     "target_locale_id": 46925,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "16",
+     "source": "wiki:Quest:Your First Weapon (quest2 coin amount 16); record adventurer.json:668. No client reward string found."
+    },
+    {
+     "kind": "other",
+     "value": "Starting materials (10 Copper Bars, 5 Turquoise, 5 Wooden Planks, 5 Thorny Fasteners) per wiki Steps: unverified, not listed as rewards",
+     "source": "wiki:Quest:Your First Weapon Steps"
+    }
+   ],
+   "line": {
+    "name": "Farnum's Farm quest series (wiki questprog 'quest series': Farnum's Farm)",
+    "previous": [
+     "Gear Up!"
+    ],
+    "next": [
+     "Fighting the Pack"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 4420065,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 4420068,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3000010,
+   "record": "quest-lines/quests.json q3000010",
+   "title": "One More Gloam",
+   "giver": {
+    "name": "Pappy Farnum",
+    "npc_id": "9000000165",
+    "locale_id": 4420081
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Before you leave to find the Queen, Pappy Farnum asked for your help defeating one last Gloam Creature roaming nearby.",
+     "text_locale_id": 4420083,
+     "target": "Gloam Creature",
+     "target_locale_id": 5101961,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Adventurer opening arc (Part A, Farnum Farmstead / Cobblestone Village)",
+    "previous": [
+     "Fighting the Pack"
+    ],
+    "next": [
+     "Where's the Help?"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 4420081,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 4420084,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000011,
+   "record": "quest-lines/quests.json q3000011",
+   "title": "Where's the Help?",
+   "giver": {
+    "name": "Pappy Farnum",
+    "npc_id": "9000000165",
+    "locale_id": 19091
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Bartle",
+     "text_locale_id": 4420095,
+     "target": "Bartle",
+     "target_locale_id": 20942,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No quest-specific reward recovered. The record's 5-coin value is a reconstructed fallback, not evidence, so a builder should treat the payout as unknown.",
+     "source": "prototype/osfr-tools/data/content/quests/adventurer.json (W110 note)"
+    },
+    {
+     "kind": "coins",
+     "value": "20 coins and 50 Brawler XP are paid for the Bartle turn-ins, but the note covers Where's the Help? and Pull the Plug together, so the split is unknown",
+     "source": "notes/Tasks.md:104"
+    }
+   ],
+   "line": {
+    "name": "Adventurer opening arc (Part A)",
+    "previous": [
+     "One More Gloam"
+    ],
+    "next": [
+     "Pull the Plug"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 4420089,
+     "speaker": "Pappy Farnum"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 4420092,
+     "speaker": "Bartle"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000015,
+   "record": "quest-lines/quests.json q3000015",
+   "title": "Second Helping of Strongarm Stew",
+   "giver": {
+    "name": "Mae Farnum",
+    "npc_id": "9000000396",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "craft_recipe",
+     "text": "Cook a 2nd helping of Strongarm Stew for Mae Farnum",
+     "text_locale_id": 5100480,
+     "target": "Strong Arm Stew (recipe 70, chef cooking station)",
+     "target_locale_id": null,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Mae Farnum (objective text not located in client; the guide cites 2322769929 / 4252691960 only for Farming 101)",
+     "text_locale_id": null,
+     "target": "Mae Farnum",
+     "target_locale_id": null,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Farnum Farmstead chef quests (Mae Farnum)",
+    "previous": [
+     "Farming 101"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 5100478,
+     "speaker": "Mae Farnum"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 5100481,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000017,
+   "record": "quest-lines/quests.json q3000017",
+   "title": "Forging for Reinforcements",
+   "giver": {
+    "name": "Cleetus Farnum",
+    "npc_id": "9000000050",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Smelt Copper Bars (Smelting, recipe 2002, at the smelter; 5 Copper Ore and 3 Coal in, 10 Copper Bars out, objective capped at 5)",
+     "text_locale_id": null,
+     "target": "Copper Bar",
+     "target_locale_id": null,
+     "count": 5
+    },
+    {
+     "kind": "minigame",
+     "text": "Forge another Spunky Scrapper Hammer for Cleetus Farnum.",
+     "text_locale_id": 5100488,
+     "target": "Spunky Scrapper Hammer",
+     "target_locale_id": 5100504,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Cleetus",
+     "text_locale_id": 5100506,
+     "target": "Cleetus Farnum",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "10",
+     "source": "repo:notes/Reviews/Remaining Opening Preflight.md:20 (turn-in +10 coins; each reward also grants 25 XP, line 24)"
+    }
+   ],
+   "line": {
+    "name": "Opening story arc (Farnum Farmstead stage 15, between Cleetus' Copper Collection and Visiting the Job Center)",
+    "previous": [
+     "Cleetus' Copper Collection"
+    ],
+    "next": [
+     "Visiting the Job Center"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 5100486,
+     "speaker": "Cleetus Farnum"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 5100489,
+     "speaker": "Cleetus Farnum"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3000018,
+   "record": "quest-lines/quests.json q3000018",
+   "title": "Peep's Missing Bowl",
+   "giver": {
+    "name": "Uncle Irving",
+    "npc_id": "9000000225",
+    "locale_id": 37699
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Search the Farmstead for Peep's Dog Bowl.",
+     "text_locale_id": 37703,
+     "target": "Peep's Dog Bowl",
+     "target_locale_id": 37707,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Uncle Irving",
+     "text_locale_id": 37710,
+     "target": "Uncle Irving",
+     "target_locale_id": 37699,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "1 Shimmering Air Triangle Shard (definition_id unbound)",
+     "source": "locale:96329; video:3JXpHghLOTs/00014; notes/Build Guides/Content/Jobs/Adventurer.md:92"
+    },
+    {
+     "kind": "other",
+     "value": "unspecified 'something for your trouble' (no amount in client text)",
+     "source": "locale:37712"
+    }
+   ],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 37701,
+     "speaker": "Uncle Irving"
+    },
+    "progress": {
+     "locale_id": 37713,
+     "speaker": "Uncle Irving"
+    },
+    "complete": {
+     "locale_id": 37712,
+     "speaker": "Uncle Irving"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000019,
+   "record": "quest-lines/quests.json q3000019",
+   "title": "Portal Remnants",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000509",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Gloamlings",
+     "text_locale_id": 5101948,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No evidenced reward; the record's 5-coin value is a reconstructed fallback and should not be wired as live",
+     "source": "repo:prototype/osfr-tools/data/content/quests/adventurer.json:1536"
+    }
+   ],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 5101949,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010013,
+   "record": "quest-lines/quests.json q3010013",
+   "title": "Archer: No Arrows, No Work!",
+   "giver": {
+    "name": "Vicki",
+    "npc_id": "9000000230",
+    "locale_id": 77630
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head into Sheep Watch to retrieve Vicki's arrows.",
+     "text_locale_id": 93257,
+     "target": "Sheep Watch",
+     "target_locale_id": 30404,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "[*Player*] braved Sheep Watch and retrieved some loose arrows.",
+     "text_locale_id": 77656,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward data found in any source. 77655 is tagged quest_reward but gives no coins, item or xp.",
+     "source": "locale:77655"
+    }
+   ],
+   "line": {
+    "name": "Archer (Band 2, level 5 to 10, Vicki arc)",
+    "previous": [
+     "Archer: Archer Departure"
+    ],
+    "next": [
+     "Archer: No Bow, No Work!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77652,
+     "speaker": "Vicki"
+    },
+    "progress": {
+     "locale_id": 77654,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 77655,
+     "speaker": "Vicki"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010014,
+   "record": "quest-lines/quests.json q3010014",
+   "title": "Archer: No Bow, No Work!",
+   "giver": {
+    "name": "Vicki",
+    "npc_id": "9000000230",
+    "locale_id": 77630
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As an archer, enter Highroad Hijinx and get back Vicki's bow.",
+     "text_locale_id": 115487,
+     "target": "Highroad Hijinx",
+     "target_locale_id": 5710,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "While you're in there, defeat a few Hooligan Archers!",
+     "text_locale_id": 115487,
+     "target": "Hooligan Archer",
+     "target_locale_id": 15362,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "[*Player*] took down a few hooligans and recovered Vicki's bow.",
+     "text_locale_id": 77663,
+     "target": "Vicki's bow",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward named in the pack; end text 77662 names no coins, XP or item.",
+     "source": "locale:77662"
+    }
+   ],
+   "line": {
+    "name": "Archer job quest line (Band 2, level 5 to 10)",
+    "previous": [
+     "Archer: No Arrows, No Work!"
+    ],
+    "next": [
+     "Archer: I Quit!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77659,
+     "speaker": "Vicki"
+    },
+    "progress": {
+     "locale_id": 77661,
+     "speaker": "Vicki"
+    },
+    "complete": {
+     "locale_id": 77662,
+     "speaker": "Vicki"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040028,
+   "record": "quest-lines/quests.json q3040028",
+   "title": "Card Duelist: Best of the Best!",
+   "giver": {
+    "name": "Maple Sugarleaf",
+    "npc_id": "9000000141",
+    "locale_id": 74103
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Maple's Tournament Deck",
+     "text_locale_id": 104336,
+     "target": "Maple's Tournament Deck",
+     "target_locale_id": 92751,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Maple Sugarleaf",
+     "text_locale_id": 104338,
+     "target": "Maple Sugarleaf",
+     "target_locale_id": 74103,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Maple Sugarleaf and speak with her.",
+     "text_locale_id": 20716,
+     "target": "Maple Sugarleaf",
+     "target_locale_id": 74103,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Let Poe Tatters know that the Cardie Crew is back in action!",
+     "text_locale_id": 104341,
+     "target": "Poe Tatters",
+     "target_locale_id": 38111,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Joins the Cardie Crew as Master Card Duelist (membership title; no coin or XP text found)",
+     "source": "locale:104347; locale:104348"
+    },
+    {
+     "kind": "item",
+     "value": "Maple Sugarleaf hero card 1P33 (not client-confirmed)",
+     "source": "wiki Trading Card Game; notes/Build Guides/Content/Jobs/Card Duelist.md:113"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (Part 1f - Merry Vale and Farnum Farmstead)",
+    "previous": [
+     "Card Duelist: Playing a Prodigy"
+    ],
+    "next": [
+     "Card Duelist: A Card Dueling Rumor"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104344,
+     "speaker": "Maple Sugarleaf"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104347,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3050005,
+   "record": "quest-lines/quests.json q3050005",
+   "title": "Farming 101",
+   "giver": {
+    "name": "Mae Farnum",
+    "npc_id": "9000000396",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Mae Farnum",
+     "text_locale_id": null,
+     "target": "Mae Farnum",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect a Bundle of Rainleaf",
+     "text_locale_id": null,
+     "target": "Bundle of Rainleaf",
+     "target_locale_id": 23294,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect a Bundle of Gummy Fruit",
+     "text_locale_id": null,
+     "target": "Bundle of Gummyfruit",
+     "target_locale_id": 23285,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Mae Farnum",
+     "text_locale_id": null,
+     "target": "Mae Farnum",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Make Strong Arm Stew",
+     "text_locale_id": null,
+     "target": "Strong Arm Stew",
+     "target_locale_id": 1232,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "5 coins (reconstructed (R) value, not a confirmed payout)",
+     "source": "notes/Research/Starting Quest Chains.md:12"
+    },
+    {
+     "kind": "other",
+     "value": "Video hands the four Strong Arm Stew ingredients: Bat Meat x4, Gummyfruit x4, Rainleaf x4, Spice x4 (not confirmed as a payout)",
+     "source": "notes/Build Guides/Content/Jobs/Chef.md:212"
+    }
+   ],
+   "line": {
+    "name": "Farnum's Farmstead opening chain (W110 table, row 3000006 'Farming 101')",
+    "previous": [
+     "Saving Farnum's Farm"
+    ],
+    "next": [
+     "Gear Up!",
+     "Second Helping of Strongarm Stew"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140013,
+   "record": "quest-lines/quests.json q3140013",
+   "title": "Punked",
+   "giver": {
+    "name": "Henry",
+    "npc_id": null,
+    "locale_id": 19093
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Play a prank on the leader of the hooligans in Highroad Hijinx.",
+     "text_locale_id": 19111,
+     "target": "Highroad Hijinx",
+     "target_locale_id": 5710,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Go into the hooligan camp in Highroad Hijinx and sneak up on their leader, Cal's tent and turn on his radio.",
+     "text_locale_id": 19123,
+     "target": "Cal's tent",
+     "target_locale_id": 18043,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Nab some soccer balls from the hooligans at Highroad Hijinx.",
+     "text_locale_id": 19114,
+     "target": "soccer balls",
+     "target_locale_id": 5630,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 19119,
+     "speaker": "Henry"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  }
+ ]
+}

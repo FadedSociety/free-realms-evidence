@@ -1,0 +1,512 @@
+{
+ "zone": "Highroad Junction",
+ "quests": [
+  {
+   "quest_id": 3030010,
+   "record": "quest-lines/quests.json q3030010",
+   "title": "Brawler: Hewey's Escape!",
+   "giver": {
+    "name": "Assistant Archy",
+    "npc_id": null,
+    "locale_id": 116666
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Assistant Archy",
+     "text_locale_id": 399606,
+     "target": "Assistant Archy",
+     "target_locale_id": 116666,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Click on the gate to Hewey's Escape that's east of Harold to start the battle!",
+     "text_locale_id": 115551,
+     "target": "Hewey's Escape gate",
+     "target_locale_id": 115550,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Knock out Hewey the Bear!",
+     "text_locale_id": 101560,
+     "target": "Hewey the Bear",
+     "target_locale_id": 5734,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Win Combat Encounter Hewey's Escape",
+     "text_locale_id": 119146,
+     "target": "Hewey's Escape",
+     "target_locale_id": 102010,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Now that Hewey is all worn out, meet Harold back at his wagon in Highroad Junction to collect your reward.",
+     "text_locale_id": 115562,
+     "target": "Harold",
+     "target_locale_id": 103736,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler trainer series, Highroad Junction starting line (Archy / Harold)",
+    "previous": [],
+    "next": [
+     "Brawler: Restless Rumors"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3030011,
+   "record": "quest-lines/quests.json q3030011",
+   "title": "Brawler: Restless Rumors",
+   "giver": {
+    "name": "Harold",
+    "npc_id": "9000000102",
+    "locale_id": 104145
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Harold's twin brother Gerold is having some trouble with wolves south of Snowhill. Find him and see what you can do to help!",
+     "text_locale_id": 104147,
+     "target": "Gerold",
+     "target_locale_id": 104054,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler line (Highroad Junction / Snowhill starting line, guide rows H2-H5)",
+    "previous": [
+     "Brawler: Hewey's Escape!"
+    ],
+    "next": [
+     "Brawler: Growler Encroachment"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104145,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050011,
+   "record": "quest-lines/quests.json q3050011",
+   "title": "Chef: Ranger Requisition",
+   "giver": {
+    "name": "Auguste Frydaze",
+    "npc_id": "9000000019",
+    "locale_id": 103724
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Ranger Ricardo at the Ranger Station in Highroad Junction, near the road leading to Snowhill.",
+     "text_locale_id": 104135,
+     "target": "Ranger Ricardo",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef trainer series 2: Highroad Junction (Auguste Frydaze), Chef.md row H2",
+    "previous": [
+     "Chef: Highroad Cooking"
+    ],
+    "next": [
+     "Chef: Fireworks Frenzy!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104133,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 115344,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3050012,
+   "record": "quest-lines/quests.json q3050012",
+   "title": "Chef: Fireworks Frenzy!",
+   "giver": {
+    "name": "Ranger Ricardo",
+    "npc_id": "9000000178",
+    "locale_id": 103808
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Ranger Ricardo asks the player to help find the fireworks before the ingredients go to Auguste (offer dialog).",
+     "text_locale_id": 104137,
+     "target": "Ranger Ricardo",
+     "target_locale_id": 103808,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Click on the Crate of Fireworks next to Ranger Ricardo to start collecting the piles of fireworks. Alternate wording: 'Interact with the Crate of Fireworks next to Ranger Ricardo...' (431154); both wordings exist in the client.",
+     "text_locale_id": 115584,
+     "target": "Crate of Fireworks",
+     "target_locale_id": 115748,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect all five Piles of Fireworks before time runs out!",
+     "text_locale_id": 115751,
+     "target": "Pile of Fireworks",
+     "target_locale_id": 115749,
+     "count": 5
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the Fireworks Frenzy! minigame",
+     "text_locale_id": 115589,
+     "target": "Fireworks Frenzy! minigame",
+     "target_locale_id": 115589,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return the picked-up fireworks to Ranger Ricardo (end dialog: 'You did it! You found the fireworks!').",
+     "text_locale_id": 140023,
+     "target": "Ranger Ricardo",
+     "target_locale_id": 103808,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef trainer series 2: Highroad Junction (Auguste Frydaze), per notes/Build Guides/Content/Jobs/Chef.md row H3",
+    "previous": [
+     "Chef: Ranger Requisition"
+    ],
+    "next": [
+     "Chef: Perry's Pastures"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104137,
+     "speaker": "Ranger Ricardo"
+    },
+    "progress": {
+     "locale_id": 115776,
+     "speaker": "Ranger Ricardo"
+    },
+    "complete": {
+     "locale_id": 104140,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050013,
+   "record": "quest-lines/quests.json q3050013",
+   "title": "Chef: Perry's Pastures",
+   "giver": {
+    "name": "Auguste Frydaze",
+    "npc_id": "9000000019",
+    "locale_id": 103724
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Perry at Perry's Pastures, north of Highroad Junction, and learn about harvesting.",
+     "text_locale_id": 104143,
+     "target": "Perry's Pastures",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef, Highroad Junction trainer series (Auguste Frydaze), Chef.md row H4",
+    "previous": [
+     "Chef: Fireworks Frenzy!"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 104141,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 104144,
+     "speaker": "Perry"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3120017,
+   "record": "quest-lines/quests.json q3120017",
+   "title": "Pet Trainer: Can You Give Me a Hand... stand?",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": null,
+    "locale_id": 78665
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your pet to do the trick \"Handstand\".",
+     "text_locale_id": 90064,
+     "target": "Handstand",
+     "target_locale_id": 7210,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer (main series, band 3, level 15 to 20)",
+    "previous": [
+     "Pet Trainer: All Aboard to Highroad Junction"
+    ],
+    "next": [
+     "Pet Trainer: Spinning Tails"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90061,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 90995,
+     "speaker": "Verill Shiverwings"
+    },
+    "complete": {
+     "locale_id": 90065,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3120018,
+   "record": "quest-lines/quests.json q3120018",
+   "title": "Pet Trainer: Spinning Tails",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": "9000000228",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your cat to do the trick \"Spin\".",
+     "text_locale_id": 90068,
+     "target": "cat (trick game, trick \"Spin\")",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer (main series, band 3: level 15 to 20)",
+    "previous": [
+     "Pet Trainer: Can You Give Me a Hand... stand?"
+    ],
+    "next": [
+     "Pet Trainer: Skills for Stars"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90066,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 91001,
+     "speaker": "Verill Shiverwings"
+    },
+    "complete": {
+     "locale_id": 90069,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120019,
+   "record": "quest-lines/quests.json q3120019",
+   "title": "Pet Trainer: Skills for Stars",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": "9000000228",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Have your pet max out the pet trick \"Handstand\".",
+     "text_locale_id": 90076,
+     "target": "Handstand (pet trick)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer main series, band 3 (level 15 to 20, Verill Shiverwings, Highroad Junction)",
+    "previous": [
+     "Pet Trainer: Spinning Tails"
+    ],
+    "next": [
+     "Pet Trainer: Achieve Level 20",
+     "Pet Trainer: Amaze Me"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 90074,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 91006,
+     "speaker": "Verill Shiverwings"
+    },
+    "complete": {
+     "locale_id": 90077,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3120020,
+   "record": "quest-lines/quests.json q3120020",
+   "title": "Pet Trainer: Achieve Level 20",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": "9000000228",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer main series, band 3 (level 15 to 20), unconfirmed",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3120021,
+   "record": "quest-lines/quests.json q3120021",
+   "title": "Pet Trainer: Amaze Me",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": "9000000228",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Get an \"Amazing!\" score on a pet trick (alternate wording: 'for Verill in Highroad Junction', locale 103053).",
+     "text_locale_id": 90089,
+     "target": "pet trick game (no target id in client)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer main series, Verill band (level 15 to 20)",
+    "previous": [
+     "Pet Trainer: Skills for Stars"
+    ],
+    "next": [
+     "Pet Trainer: Down by the Bay"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 90087,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90090,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120022,
+   "record": "quest-lines/quests.json q3120022",
+   "title": "Pet Trainer: Down by the Bay",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": "9000000228",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find Moanna the Pet Trainer in Seaside.",
+     "text_locale_id": 90093,
+     "target": "Moanna (Pet Trainer, Seaside), npc 9000000153",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer (Main series, band 3, row 18)",
+    "previous": [
+     "Pet Trainer: Amaze Me"
+    ],
+    "next": [
+     "Pet Trainer: Shake Your Groove Thing"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90091,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  }
+ ]
+}

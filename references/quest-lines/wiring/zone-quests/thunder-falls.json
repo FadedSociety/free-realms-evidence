@@ -1,0 +1,857 @@
+{
+ "zone": "Thunder Falls",
+ "quests": [
+  {
+   "quest_id": 3060006,
+   "record": "quest-lines/quests.json q3060006",
+   "title": "Demo Derby: Taking the Wheel",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demolition Derby Driver, Series 1 (Thunder Falls and Crash Davis); position from guide row order only",
+    "previous": [
+     "Demo Derby: License to Drive"
+    ],
+    "next": [
+     "Demo Derby: Routine Maintenance"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060008,
+   "record": "quest-lines/quests.json q3060008",
+   "title": "Demo Derby: Break 'er In",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000529",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Break in the new kart by knocking out a few cars while competing in a Thunder Falls demolition derby.",
+     "text_locale_id": 394459,
+     "target": "Thunder Falls demolition derby",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby Driver (Demolition Derby Driver) questline, Thunder Falls series (guide Series 1, row 5). Series membership is a guide reading, not a decoded chain.",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060009,
+   "record": "quest-lines/quests.json q3060009",
+   "title": "Demo Derby: Dealing Damage",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Dish out a lot of damage while competing in a Thunder Falls Demolition Derby. (description text, not a confirmed tracked step)",
+     "text_locale_id": 394024,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Help Crash Davis even out his winning odds by dealing a lot of damage to everyone else. (description text, not a confirmed tracked step)",
+     "text_locale_id": 394464,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby Driver series 1: Thunder Falls and Crash Davis (guide row 6), order inferred",
+    "previous": [
+     "Demo Derby: Break 'er In"
+    ],
+    "next": [
+     "Demo Derby: Spare Parts"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060011,
+   "record": "quest-lines/quests.json q3060011",
+   "title": "Demo Derby: So Long, Betty!",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000065",
+    "locale_id": 100234
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Pay a visit to Crash's sponsor in Lakeshore to help secure funding for a new car.",
+     "text_locale_id": 394022,
+     "target": "Merri De'Flor",
+     "target_locale_id": 19671,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Funds secured for Crash Davis to build a new derby car (text only; no coin or item amount in client)",
+     "source": "locale:402847"
+    }
+   ],
+   "line": {
+    "name": "Demolition Derby Driver, Series 1: Thunder Falls and Crash Davis (training, karts, Crash for Coin)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393379,
+     "speaker": "Old Betty"
+    },
+    "progress": {
+     "locale_id": 394288,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060012,
+   "record": "quest-lines/quests.json q3060012",
+   "title": "Demo Derby: Thunder Falls Crash for Coin",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Compete in the Thunder Falls Crash for coins!",
+     "text_locale_id": 394052,
+     "target": "Thunder Falls Crash for Coin derby",
+     "target_locale_id": 393329,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby Driver, Series 1 (Thunder Falls and Crash Davis), guide row 9; guide order only, not a confirmed quest chain",
+    "previous": [
+     "Demo Derby: So Long, Betty!"
+    ],
+    "next": [
+     "Demo Derby: Tucker's Troubles"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393409,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394318,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060013,
+   "record": "quest-lines/quests.json q3060013",
+   "title": "Demo Derby: Tucker's Troubles",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "See what the hold up is with Tucker Thunderjolt outside of Thunder Falls.",
+     "text_locale_id": 394016,
+     "target": "Tucker Thunderjolt",
+     "target_locale_id": 19365,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Completion text only; no coin, xp or item amount found",
+     "source": "locale:402845"
+    }
+   ],
+   "line": {
+    "name": "Demo Derby Driver, Series 2: Tucker Thunderjolt, Samuel and Nash (Thunder Falls)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 402845,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060014,
+   "record": "quest-lines/quests.json q3060014",
+   "title": "Demo Derby: Curious Crash",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Investigate the crash site outside of Thunder Falls and recover any evidence.",
+     "text_locale_id": 394025,
+     "target": "crash site outside Thunder Falls",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (Demolition Derby Driver job), Series 2 Thunder Falls: guide-inferred, not verified",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393342,
+     "speaker": "Crash Davis"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060015,
+   "record": "quest-lines/quests.json q3060015",
+   "title": "Demo Derby: Arena Revenge",
+   "giver": {
+    "name": "Tucker Thunderjolt",
+    "npc_id": "9000000495",
+    "locale_id": 19365
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Nash Wright",
+     "text_locale_id": 394077,
+     "target": "Nash Wright",
+     "target_locale_id": 394250,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Knock out Nash Wright",
+     "text_locale_id": 395064,
+     "target": "Nash Wright",
+     "target_locale_id": 394250,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Knock out Samuel L. Bunker",
+     "text_locale_id": 401630,
+     "target": "Samuel L. Bunker",
+     "target_locale_id": 394511,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Teach Nash and his crew a lesson by knocking out every one of their cars.",
+     "text_locale_id": 394465,
+     "target": "Nash and his crew",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unknown. The guide says 'I promised you a nice reward' (guide hash 3247307922) leads to Seeking a Sponsor. That is a sponsor lead, not an item or coin amount.",
+     "source": "notes/Build Guides/Content/Jobs/Demolition Derby Driver.md:88"
+    }
+   ],
+   "line": {
+    "name": "Demolition Derby, Series 2 (Tucker Thunderjolt, Samuel and Nash); guide row order only",
+    "previous": [
+     "Demo Derby: Curious Crash"
+    ],
+    "next": [
+     "Demo Derby: Seeking a Sponsor"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 400137,
+     "speaker": "Nash Wright"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3060016,
+   "record": "quest-lines/quests.json q3060016",
+   "title": "Demo Derby: Seeking a Sponsor",
+   "giver": {
+    "name": "Tucker Thunderjolt",
+    "npc_id": "9000000495",
+    "locale_id": 19365
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Prove yourself to Kanan by scoring points during a Thunder Falls derby.",
+     "text_locale_id": 394466,
+     "target": "Thunder Falls derby",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Speak to Kanan at Stillwater Crossing",
+     "text_locale_id": 394080,
+     "target": "Kanan",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Sponsorship from Kanan (Paws 'n Claws crashing crew); no coin or item amount found",
+     "source": "repo:notes/Build Guides/Content/NPCs/NPCs - Stillwater Crossing.md:158"
+    }
+   ],
+   "line": {
+    "name": "Demolition Derby Driver: Series 2 (Tucker Thunderjolt, Samuel and Nash)",
+    "previous": [
+     "Demo Derby: Arena Revenge"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 393344,
+     "speaker": "Tucker Thunderjolt"
+    },
+    "progress": {
+     "locale_id": 394293,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060042,
+   "record": "quest-lines/quests.json q3060042",
+   "title": "Demo Derby: A Hero's Homecoming",
+   "giver": {
+    "name": "Jackson Spinner",
+    "npc_id": "9000000111",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby series (Tangletrack clean-up, Series 5; Demolition Derby Driver guide row 39)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080024,
+   "record": "quest-lines/quests.json q3080024",
+   "title": "Kart Driver: Age Before Beauty",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000427",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Please hurry and talk to Ace O'Mally at the Thunder Falls Speedway.",
+     "text_locale_id": 395131,
+     "target": "Thunder Falls Speedway",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Ace O'Mally",
+     "text_locale_id": 395143,
+     "target": "Ace O'Mally",
+     "target_locale_id": 101907,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Ace O'Mally in the \"Age Before Beauty\" race at Thunder Falls Speedway.",
+     "text_locale_id": 395162,
+     "target": "Ace O'Mally",
+     "target_locale_id": 101907,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver (Tier 3 - Thunder Falls Speedway; rivals Ace O'Mally, Linx Redline, Chase Wheeler; sponsor Shooblemoot per guide header)",
+    "previous": [
+     "Kart Driver: The Price of Fame"
+    ],
+    "next": [
+     "Kart Driver: A Helping Hand"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395129,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080026,
+   "record": "quest-lines/quests.json q3080026",
+   "title": "Kart Driver: Settling the Score",
+   "giver": {
+    "name": "Linx Redline",
+    "npc_id": "9000000381",
+    "locale_id": 394366
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Beat Linx Redline in the \"Settling the Score\" race at Thunder Falls Speedway.",
+     "text_locale_id": 395225,
+     "target": "Linx Redline",
+     "target_locale_id": 394366,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No coin or item reward found. Story outcome only: Linx keeps Chase Wheeler's parts after the race (395216), though reveal 394697 says he returns them if the player wins. The two conflict.",
+     "source": "locale:395216; locale:394697"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver job line, tier 3 - Thunder Falls Speedway",
+    "previous": [
+     "Kart Driver: A Helping Hand"
+    ],
+    "next": [
+     "Kart Driver: Making Amends"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395214,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 395216,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080027,
+   "record": "quest-lines/quests.json q3080027",
+   "title": "Kart Driver: Making Amends",
+   "giver": {
+    "name": "Chase Wheeler",
+    "npc_id": "9000000271",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Get Chase Wheeler's parts back from Linx Redline near Thunder Falls Speedway.",
+     "text_locale_id": 395233,
+     "target": "Linx Redline's kart",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Linx Redline went to a lot of trouble hiding his kart out here, but you found it! Now you just need to get Chase Wheeler's parts back before his pit crew notices.",
+     "text_locale_id": 395752,
+     "target": "Linx Redline's kart",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Take Chase Wheeler's parts all the way back to his kart, but make sure to avoid Linx's pit crew!",
+     "text_locale_id": 395756,
+     "target": "Chase Wheeler's parts",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return Chase Wheeler's parts to his kart",
+     "text_locale_id": 395755,
+     "target": "Chase Wheeler's Kart",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Don't lose any parts to Linx's pit crew",
+     "text_locale_id": 398267,
+     "target": "Linx's pit crew",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none seen in client text",
+     "source": "repo:notes/Build Guides/Content/Jobs/Kart Driver.md:90 (rewards unknown); locale:394704 gives only dialog"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver, Tier 3 - Thunder Falls Speedway (rivals Ace O'Mally, Linx Redline, Chase Wheeler; sponsor Shooblemoot)",
+    "previous": [
+     "Kart Driver: Settling the Score"
+    ],
+    "next": [
+     "Kart Driver: High Speed Chase"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 394701,
+     "speaker": "Chase Wheeler"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 394704,
+     "speaker": "Chase Wheeler"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080028,
+   "record": "quest-lines/quests.json q3080028",
+   "title": "Kart Driver: High Speed Chase",
+   "giver": {
+    "name": "Chase Wheeler",
+    "npc_id": "9000000271",
+    "locale_id": 395167
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Chase Wheeler in the \"High Speed Chase\" race at Thunder Falls Speedway.",
+     "text_locale_id": 395247,
+     "target": "Chase Wheeler",
+     "target_locale_id": 395167,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver quest series (Thunder Falls Speedway tier)",
+    "previous": [
+     "Kart Driver: Making Amends"
+    ],
+    "next": [
+     "Kart Driver: Sweetwater Sasparilla Sponsorship"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080029,
+   "record": "quest-lines/quests.json q3080029",
+   "title": "Kart Driver: Sweetwater Sasparilla Sponsorship",
+   "giver": {
+    "name": "Chase Wheeler",
+    "npc_id": "9000000273",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "It's time to land a new sponsor! Chase has informed you that Shooblemoot at Thunder Falls represents a pretty famous brand: the one and only Sweetwater Sasparilla! He might be in a position to sponsor a driver.",
+     "text_locale_id": 394711,
+     "target": "Shooblemoot",
+     "target_locale_id": 394913,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "You need to prove without a doubt that you're the best racer at Thunder Falls before Shooblemoot will commit to the sponsorship. A few more first place victories should do the trick.",
+     "text_locale_id": 395264,
+     "target": "Thunder Falls Speedway races (first-place finishes)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver series (Chase Wheeler, Thunder Falls Speedway)",
+    "previous": [
+     "Kart Driver: High Speed Chase"
+    ],
+    "next": [
+     "Kart Driver: Thunder Falls Sprint Challenge"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3080030,
+   "record": "quest-lines/quests.json q3080030",
+   "title": "Kart Driver: Thunder Falls Sprint Challenge",
+   "giver": {
+    "name": "Shooblemoot",
+    "npc_id": "9000000461",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Win the \"Thunder Falls Sprint Challenge\" race",
+     "text_locale_id": 394849,
+     "target": "Thunder Falls Sprint Challenge",
+     "target_locale_id": 3339,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver sponsorship line (Thunder Falls Speedway, sponsor Shooblemoot / Sweetwater Sasparilla)",
+    "previous": [
+     "Kart Driver: Sweetwater Sasparilla Sponsorship"
+    ],
+    "next": [
+     "Kart Driver: Thunder Falls Endurance Challenge"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 394739,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 394742,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080031,
+   "record": "quest-lines/quests.json q3080031",
+   "title": "Kart Driver: Thunder Falls Endurance Challenge",
+   "giver": {
+    "name": "Shooblemoot",
+    "npc_id": null,
+    "locale_id": 394913
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver quest line, Tier 3 - Thunder Falls Speedway (sponsor Shooblemoot, Sweetwater Sasparilla)",
+    "previous": [
+     "Kart Driver: Thunder Falls Sprint Challenge"
+    ],
+    "next": [
+     "Kart Driver: Dominating at Thunder Falls"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395155,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080033,
+   "record": "quest-lines/quests.json q3080033",
+   "title": "Kart Driver: Dominating and Thunder Falls",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000544",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Win three races at Thunder Falls Speedway.",
+     "text_locale_id": 395272,
+     "target": null,
+     "target_locale_id": null,
+     "count": 3
+    },
+    {
+     "kind": "minigame",
+     "text": "Win the \"Dominating at Thunder Falls\" race three times",
+     "text_locale_id": 395275,
+     "target": null,
+     "target_locale_id": null,
+     "count": 3
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver sponsorship line, Thunder Falls (Shooblemoot sponsorship); guide order only, not a verified prerequisite",
+    "previous": [
+     "Kart Driver: Dominating at Thunder Falls"
+    ],
+    "next": [
+     "Kart Driver: Endorsement Deal"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080047,
+   "record": "quest-lines/quests.json q3080047",
+   "title": "Kart Driver: SG Tour 400: Thunder Falls",
+   "giver": {
+    "name": "Kade Carmichael (inferred; actor-to-name mapping unresolved)",
+    "npc_id": "9000000371",
+    "locale_id": 101924
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Beat Kade Carmichael in a race at Thunder Falls Speedway.",
+     "text_locale_id": 398088,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Kade outside Thunder Falls",
+     "text_locale_id": 398093,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "SG Tour 400 (Kade Carmichael's four-leg Kart Driver series: Wildwood, Frost Ridge, Thunder Falls, Tangletrack)",
+    "previous": [
+     "Kart Driver: SG Tour 400: Frost Ridge"
+    ],
+    "next": [
+     "Kart Driver: SG Tour 400: Tangletrack"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395347,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  }
+ ]
+}

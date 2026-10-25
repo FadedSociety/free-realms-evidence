@@ -1,0 +1,1585 @@
+{
+ "zone": "Wilds",
+ "quests": [
+  {
+   "quest_id": 3000027,
+   "record": "quest-lines/quests.json q3000027",
+   "title": "Sharing Your Talents",
+   "giver": {
+    "name": "Starshine",
+    "npc_id": "9000000477",
+    "locale_id": 18719
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Head to the Royal Palace in Sanctuary and see if you can help more people like me! (progress dialog; no quest_objective string exists for this quest)",
+     "text_locale_id": 391055,
+     "target": "Queen Valerian, Royal Palace (Sanctuary)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Adventurer Chapter 1 entry quests (Part D). Any one of the four entry quests (Local Hero, Sal's Suggestion, Farnum's Free Advice, Sharing Your Talents) leads to Take a Number. This is a wiki-sourced alternative group, not a record prerequisite.",
+    "previous": [],
+    "next": [
+     "Take a Number"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 391043,
+     "speaker": "Starshine"
+    },
+    "progress": {
+     "locale_id": 391055,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010034,
+   "record": "quest-lines/quests.json q3010034",
+   "title": "Archer: Attack From Above",
+   "giver": {
+    "name": "Bowman Bilter",
+    "npc_id": "9000000029",
+    "locale_id": 77805
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Troll Seesharps in the Forest Troll Fort as an archer and return to Bowman Bilter when done.",
+     "text_locale_id": 116762,
+     "target": "Troll Seesharp",
+     "target_locale_id": 15852,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer (Master Archer finale, Band 5, level 20)",
+    "previous": [
+     "Archer: Can You Hit a Bullseye?"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3030028,
+   "record": "quest-lines/quests.json q3030028",
+   "title": "Brawler: One Man's Junk...",
+   "giver": {
+    "name": "Nurble",
+    "npc_id": "9000000415",
+    "locale_id": 20518
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a brawler, collect the stolen goods from the Robgoblin Troublemakers that lair to the north of the Robgoblin Camp and return to Nurble when done.",
+     "text_locale_id": 141019,
+     "target": "Robgoblin Camp (north lair)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Robgoblin Troublemakers",
+     "text_locale_id": 141023,
+     "target": "Robgoblin Troublemakers",
+     "target_locale_id": 103598,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Nurble",
+     "text_locale_id": 141021,
+     "target": "Nurble",
+     "target_locale_id": 20518,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Payment for Andrew's IOU (amount not stated in source; the end text only says 'you have your payment')",
+     "source": "locale:141012"
+    }
+   ],
+   "line": {
+    "name": "Brawler job quest line (main series, band 2, row M9)",
+    "previous": [
+     "Brawler: IOU!"
+    ],
+    "next": [
+     "Brawler: Curious Key"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 141009,
+     "speaker": "Nurble"
+    },
+    "progress": {
+     "locale_id": 141031,
+     "speaker": "Nurble"
+    },
+    "complete": {
+     "locale_id": 141012,
+     "speaker": "Nurble"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030029,
+   "record": "quest-lines/quests.json q3030029",
+   "title": "Brawler: Curious Key",
+   "giver": {
+    "name": "Nurble",
+    "npc_id": "9000000415",
+    "locale_id": 20518
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Return the key to Mayor Crystalline in Snowhill.",
+     "text_locale_id": 141072,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Narrative reward text only (honesty rewarded); no coins, XP or item amount in the pack",
+     "source": "locale:141070"
+    }
+   ],
+   "line": {
+    "name": "Brawler main series (Nurble, Robgoblin Camp, then Snowhill)",
+    "previous": [
+     "Brawler: One Man's Junk..."
+    ],
+    "next": [
+     "Brawler: Achieve Level 10"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 141064,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 141067,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040025,
+   "record": "quest-lines/quests.json q3040025",
+   "title": "Card Duelist: Proof is in the Cards",
+   "giver": {
+    "name": "Ari the Fish",
+    "npc_id": "9500000869",
+    "locale_id": 74099
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Ari",
+     "text_locale_id": 104301,
+     "target": "Ari the Fish",
+     "target_locale_id": 74099,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Ari's Tournament Deck",
+     "text_locale_id": 104297,
+     "target": "Ari's Tournament Deck",
+     "target_locale_id": 92747,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist",
+    "previous": [
+     "Card Duelist: Finding the Fish"
+    ],
+    "next": [
+     "Card Duelist: Herme the Hermit"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 115443,
+     "speaker": "Ari the Fish"
+    },
+    "progress": {
+     "locale_id": 104298,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 115446,
+     "speaker": "Ari the Fish"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040027,
+   "record": "quest-lines/quests.json q3040027",
+   "title": "Card Duelist: Playing a Prodigy",
+   "giver": {
+    "name": "Herme Fickleleaf",
+    "npc_id": "9000000347",
+    "locale_id": 115490
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Seek out Maple Sugarleaf at Farnum Farmstead and see if she'll play you a match.",
+     "text_locale_id": 104329,
+     "target": "Maple Sugarleaf",
+     "target_locale_id": 74103,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Maple",
+     "text_locale_id": 104325,
+     "target": "Maple Sugarleaf",
+     "target_locale_id": 74103,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Maple's Trick Deck",
+     "text_locale_id": 104323,
+     "target": "Maple's Trick Deck",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced",
+     "source": "no reward string for title 104328 in the client; record rewards are empty"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (job quest line), Part 1f: Merry Vale and Farnum Farmstead",
+    "previous": [
+     "Card Duelist: Herme the Hermit"
+    ],
+    "next": [
+     "Card Duelist: Best of the Best!"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 104327,
+     "speaker": "Herme Fickleleaf"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104330,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050031,
+   "record": "quest-lines/quests.json q3050031",
+   "title": "Chef: Reach Level 20",
+   "giver": {
+    "name": "Glerga",
+    "npc_id": "9000000332",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Your cooking career will continue once you have reached level 20 as a Chef. Return to Glerga at that time.",
+     "text_locale_id": 387264,
+     "target": "Chef level 20, then return to Glerga",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef job quest line, band 4 (level 15 to 20): Glerga, then Bordon Cloo",
+    "previous": [
+     "Chef: Family Style!"
+    ],
+    "next": [
+     "Chef: Cloo's Cooking Academy"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387262,
+     "speaker": "Glerga"
+    },
+    "complete": {
+     "locale_id": 387265,
+     "speaker": "Glerga"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3060010,
+   "record": "quest-lines/quests.json q3060010",
+   "title": "Demo Derby: Spare Parts",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Convince Willow Slamdash outside of Thunder Falls to fork over her spare parts. Willow's gating dialog says she only gives them up if she is knocked out during a derby, so the completion step is probably derby-gated.",
+     "text_locale_id": 394023,
+     "target": "Willow Slamdash",
+     "target_locale_id": 19366,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Knock out Willow Slamdash 2 times",
+     "text_locale_id": 395062,
+     "target": "Willow Slamdash",
+     "target_locale_id": 19366,
+     "count": 2
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demolition Derby Driver guide, Series 1 (order inferred, unverified)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393380,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394463,
+     "speaker": "Willow Slamdash"
+    },
+    "complete": {
+     "locale_id": 395709,
+     "speaker": "Willow Slamdash"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060021,
+   "record": "quest-lines/quests.json q3060021",
+   "title": "Demo Derby: Wear and Tear",
+   "giver": {
+    "name": "J. P. Screecher",
+    "npc_id": "9000000354",
+    "locale_id": 19351
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "J. P. Screecher is worried about the condition of your car. He's asked you to try and complete a derby without getting knocked out.",
+     "text_locale_id": 393349,
+     "target": "Frost Ridge derby",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby series (Paws 'n Claws, Frost Ridge arena; repo guide row 18)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060022,
+   "record": "quest-lines/quests.json q3060022",
+   "title": "Demo Derby: Getting Scrappy",
+   "giver": {
+    "name": "J. P. Screecher",
+    "npc_id": "9000000354",
+    "locale_id": 19351
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Make your way into The Tank's camp outside of Frost Ridge and retrieve some scrap metal.",
+     "text_locale_id": 394030,
+     "target": "The Tank's camp outside Frost Ridge",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3060026,
+   "record": "quest-lines/quests.json q3060026",
+   "title": "Demo Derby: Frost Ridge Invitational",
+   "giver": {
+    "name": "Burt 'Wrecking' Crewe",
+    "npc_id": "9500000731",
+    "locale_id": 100244
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Compete in the Frost Ridge Invitational",
+     "text_locale_id": 394134,
+     "target": "Frost Ridge Invitational",
+     "target_locale_id": 393331,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward amount or item found for this quest",
+     "source": "open: no source"
+    }
+   ],
+   "line": {
+    "name": "Demolition Derby quest line (Series 3: Paws 'n Claws and the Frost Ridge arena, guide row 23); position in the line unconfirmed",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 401460,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 393411,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060032,
+   "record": "quest-lines/quests.json q3060032",
+   "title": "Demo Derby: Action!",
+   "giver": {
+    "name": "Sydney Spellmerg",
+    "npc_id": "9000000482",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Deal a lot of damage and get a high score in the arena so that Sydney Spellmerg can film his scene.",
+     "text_locale_id": 394474,
+     "target": "derby encounter 264416407 (guide row 29; not mapped to a server target)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby film-set series (Series 4: The film set at Wildwood)",
+    "previous": [
+     "Demo Derby: An Incomplete Set"
+    ],
+    "next": [
+     "Demo Derby: Hurtin' Crewe Act II"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393358,
+     "speaker": "Sydney Spellmerg"
+    },
+    "progress": {
+     "locale_id": 394307,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060036,
+   "record": "quest-lines/quests.json q3060036",
+   "title": "Demo Derby: Encore!",
+   "giver": {
+    "name": "Sydney Spellmerg",
+    "npc_id": "9000000482",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby film series (Series 4, guide-based, unconfirmed)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090010,
+   "record": "quest-lines/quests.json q3090010",
+   "title": "Medic: Medic on a Mission",
+   "giver": {
+    "name": "Terrence",
+    "npc_id": "9000000488",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Terrence is stressed about the medical supplies stolen from his inn and sends you to Sweetwater Climb to take them back!",
+     "text_locale_id": 73494,
+     "target": "Sweetwater Climb",
+     "target_locale_id": 71769,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Return to Terrence (video goal order only; no client text bound to this quest)",
+     "text_locale_id": null,
+     "target": "Terrence",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No coin, XP or item reward confirmed in client text.",
+     "source": "locale:73495"
+    }
+   ],
+   "line": {
+    "name": "Medic job line, Band 2 (level 5 to 10: supplies, Terrence and Clover)",
+    "previous": [
+     "Medic: Supply Recovery"
+    ],
+    "next": [
+     "Medic: Tummies in Turmoil"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 73492,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 73495,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3110002,
+   "record": "quest-lines/quests.json q3110002",
+   "title": "Ninja: Stolen Away",
+   "giver": {
+    "name": "Grosh",
+    "npc_id": "9000000335",
+    "locale_id": 20955
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat the Troll Summoner",
+     "text_locale_id": 115023,
+     "target": "Troll Summoner",
+     "target_locale_id": 15623,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward confirmed. The 25 Ninja job XP in our record is an unsourced reconstruction and was dropped.",
+     "source": "none"
+    }
+   ],
+   "line": {
+    "name": "Ninja (job quest line)",
+    "previous": [
+     "Ninja: The Ninja Path"
+    ],
+    "next": [
+     "Ninja: Super Star",
+     "Ninja: Silence is Golden... and Deadly"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 78924,
+     "speaker": "Grosh"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140006,
+   "record": "quest-lines/quests.json q3140006",
+   "title": "Soccer Star: The Perfect Mascot",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000281",
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Coach \"Golden Leg\" Eddie wants you to pick out a team mascot.",
+     "text_locale_id": 414964,
+     "target": "animal park (text hint only, no place id)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Pick out an energetic and friendly mascot",
+     "text_locale_id": 414965,
+     "target": "mascot",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Register your new mascot with Manger Landon over by the soccer field.",
+     "text_locale_id": 415056,
+     "target": "Manager Landon",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star (Arc 1 - Joining the Sidekicks)",
+    "previous": [
+     "Soccer Star: Meeting The Team"
+    ],
+    "next": [
+     "Soccer Star: Achieve Level 2"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 414932,
+     "speaker": "Coach \"Golden Leg\" Eddie"
+    },
+    "progress": {
+     "locale_id": 416408,
+     "speaker": "Manager Landon"
+    },
+    "complete": {
+     "locale_id": 416406,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140007,
+   "record": "quest-lines/quests.json q3140007",
+   "title": "Soccer Star: Achieve Level 2",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000058",
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Compete in some soccer games until you reach at least level 2, then return to Coach \"Golden Leg\" Eddie.",
+     "text_locale_id": 409616,
+     "target": "Coach \"Golden Leg\" Eddie",
+     "target_locale_id": 401743,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Coach Eddie wants you to reach level 2",
+     "text_locale_id": 409619,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star job progression (Arc 1 - Joining the Sidekicks, Snowhill and the Northern Wilds, guide row 4)",
+    "previous": [
+     "Soccer Star: The Perfect Mascot"
+    ],
+    "next": [
+     "Soccer Star: Slowing The Snowspurs"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 409606,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140010,
+   "record": "quest-lines/quests.json q3140010",
+   "title": "Soccer Star: Power Game",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": null,
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Coach \"Golden Leg\" Eddie wants you to beat the Goalbusters in a Power Game.",
+     "text_locale_id": 414968,
+     "target": "Soccer Encounter : Power Game",
+     "target_locale_id": 414971,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Steal the ball 5 times",
+     "text_locale_id": 414973,
+     "target": "Goalbusters",
+     "target_locale_id": null,
+     "count": 5
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star story line (Arc 1 - Joining the Sidekicks), guide row 7",
+    "previous": [
+     "Soccer Star: Goal Stopper"
+    ],
+    "next": [
+     "Soccer Star: Achieve Level 5"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 414934,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140011,
+   "record": "quest-lines/quests.json q3140011",
+   "title": "Soccer Star: Achieve Level 5",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000058",
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Coach Eddie wants you to play a few more games to reach level 5.",
+     "text_locale_id": 409662,
+     "target": "Coach \"Golden Leg\" Eddie",
+     "target_locale_id": 401743,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none found",
+     "source": "notes/Build Guides/Content/Jobs/Soccer Star.md:89 (reward column 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Soccer Star Arc 2 (guide order; record links absent)",
+    "previous": [
+     "Soccer Star: Power Game"
+    ],
+    "next": [
+     "Soccer Star: Briarwood's Fancy Feet"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409660,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 409663,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140016,
+   "record": "quest-lines/quests.json q3140016",
+   "title": "Soccer Star: Cheetahs Double Challenge",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000281",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Coach \"Golden Leg\" Eddie wants you to beat the Cheetahs in a Double Challenge, run them down two times",
+     "text_locale_id": 414956,
+     "target": "Cheetahs",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star, Arc 2 - The season: Briarwood, mascot, Cheetahs, Mud Hoppers (guide row 13)",
+    "previous": [],
+    "next": [
+     "Soccer Star: Missing Soccer Balls"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 414954,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 414957,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140022,
+   "record": "quest-lines/quests.json q3140022",
+   "title": "Soccer Star: Returning The Trophy",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000055",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Coach \"Golden Leg\" Eddie wants you to retrieve the stolen trophy and return it to Manager Landon.",
+     "text_locale_id": 402791,
+     "target": "Coach \"Golden Leg\" Eddie",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Go to the Cheetahs' camp",
+     "text_locale_id": 402999,
+     "target": "Cheetahs' camp south of Merry Vale",
+     "target_locale_id": 402593,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Distract the Robgoblins with your \"Something Shiny\" ability so you can retrieve the tournament trophy!",
+     "text_locale_id": 406615,
+     "target": "Robgoblin Troublemaker (stunned)",
+     "target_locale_id": 399372,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver the trophy to Manager Landon",
+     "text_locale_id": 402946,
+     "target": "Manager Landon",
+     "target_locale_id": 401744,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "repo:notes/Build Guides/Content/Jobs/Soccer Star.md:105 (rewards 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Soccer Star (Sidekicks questline), Arc 3 - The trophy and the finals, guide row 19",
+    "previous": [
+     "Soccer Star: Trophy Detective"
+    ],
+    "next": [
+     "Soccer Star: Achieve Level 13"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 402596,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140023,
+   "record": "quest-lines/quests.json q3140023",
+   "title": "Soccer Star: Achieve Level 13",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000058",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Compete in some soccer games until you reach at least level 13, then return to Coach \"Golden Leg\" Eddie.",
+     "text_locale_id": 409800,
+     "target": "Coach \"Golden Leg\" Eddie (npc 9000000058); gate: player level 13",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text or quest-complete frame located for this quest",
+     "source": "repo:notes/Build Guides/Content/Jobs/Soccer Star.md:106"
+    }
+   ],
+   "line": {
+    "name": "Soccer Star 'Achieve Level N' series (level-gated quests). Guide places it in Arc 3 'The trophy and the finals' as row 20, which is a reading and not a decoded order.",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140026,
+   "record": "quest-lines/quests.json q3140026",
+   "title": "Soccer Star: Achieve Level 15",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": null,
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Compete in some soccer games until you reach at least level 15, then return to Coach \"Golden Leg\" Eddie.",
+     "text_locale_id": 409810,
+     "target": "Coach \"Golden Leg\" Eddie",
+     "target_locale_id": 401743,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Coach Eddie wants you to play a few more games to reach level 15.",
+     "text_locale_id": 409678,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star quest line (Coach Eddie's level ladder: Achieve Level 2, 5, 8, 10, 13, 15, 19)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 409679,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140028,
+   "record": "quest-lines/quests.json q3140028",
+   "title": "Soccer Star: Robgoblin Troublemakers",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000281",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the taunt emote on Lika",
+     "text_locale_id": 402826,
+     "target": "Lika",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Use the taunt emote on Kronk",
+     "text_locale_id": 403034,
+     "target": "Kronk",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Use the taunt emote on Grick",
+     "text_locale_id": 403036,
+     "target": "Grick",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star job questline, Arc 3 - The trophy and the finals (guide row 25)",
+    "previous": [
+     "Soccer Star: Ants In The Pants"
+    ],
+    "next": [
+     "Soccer Star: Achieve Level 19"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140029,
+   "record": "quest-lines/quests.json q3140029",
+   "title": "Soccer Star: Achieve Level 19",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000058",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Compete in some soccer games until you reach at least level 19, then return to Coach \"Golden Leg\" Eddie.",
+     "text_locale_id": 409816,
+     "target": "player level 19",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star quest line (Coach Eddie level gates interleaved with story quests)",
+    "previous": [
+     "Soccer Star: Robgoblin Troublemakers"
+    ],
+    "next": [
+     "Soccer Star: Tournament Champion"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150010,
+   "record": "quest-lines/quests.json q3150010",
+   "title": "Warrior: Achieve Level 10",
+   "giver": {
+    "name": "Aster",
+    "npc_id": "9000000243",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 10 as a warrior, then return to Aster.",
+     "text_locale_id": 387497,
+     "target": "Aster",
+     "target_locale_id": null,
+     "count": 10
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior job-level chain (Aster, Wilds)",
+    "previous": [],
+    "next": [
+     "Warrior: Knocking Some Sense In"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387488,
+     "speaker": "Aster"
+    },
+    "progress": {
+     "locale_id": 387490,
+     "speaker": "Aster"
+    },
+    "complete": {
+     "locale_id": 387491,
+     "speaker": "Aster"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150011,
+   "record": "quest-lines/quests.json q3150011",
+   "title": "Contract: Thinning Their Numbers",
+   "giver": {
+    "name": "Caleb Sleepyswing",
+    "npc_id": null,
+    "locale_id": 388352
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Handle the fairy cultists and robgoblin fishmongers nearby; the pixies of the Pixie Nursery are being threatened. No count given.",
+     "text_locale_id": 388362,
+     "target": "Robgoblins and fairy cultists near the Pixie Nursery",
+     "target_locale_id": 388360,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior Band 3 repeatable contracts (Caleb Sleepyswing, Doctor Gordon, General Glowlight)",
+    "previous": [
+     "Warrior: Achieve Level 10"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 388360,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 388363,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160006,
+   "record": "quest-lines/quests.json q3160006",
+   "title": "Wizard: Lightning Bolt!",
+   "giver": {
+    "name": "Fizzlesticks",
+    "npc_id": "9000000324",
+    "locale_id": 20517
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a wizard, defeat a Robgoblin Initiate band in the wilds near the Robgoblin Camp!",
+     "text_locale_id": 103218,
+     "target": "Robgoblin Initiate",
+     "target_locale_id": 39582,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fizzlesticks wizard line (Robgoblin Camp)",
+    "previous": [
+     "Sticky Spell Book"
+    ],
+    "next": [
+     "Wizard: The First Rule of Being a Wizard..."
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 74826,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 103216,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160007,
+   "record": "quest-lines/quests.json q3160007",
+   "title": "Wizard: The First Rule of Being a Wizard...",
+   "giver": {
+    "name": "Fizzlesticks",
+    "npc_id": "9000000324",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Fizzlesticks always keeps a few grenades around just in case he's too weak to cast a spell, but some Robgoblin Pondblasters stole his stash! He wants you to go get the grenades back.",
+     "text_locale_id": 74821,
+     "target": "Robgoblin Pondblasters (grenades)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Amateur Wizard Wand (level 1 wizard weapon, no longer obtainable)",
+     "source": "wiki page 'Amateur Wizard Wand'; repo:notes/Build Guides/Content/Jobs/Wizard.md:80"
+    },
+    {
+     "kind": "other",
+     "value": "Finder's fee: Fizzlesticks keeps the bigger cut of the recovered grenades (no coin or XP amount found)",
+     "source": "locale:74822"
+    }
+   ],
+   "line": {
+    "name": "Fizzlesticks Wizard quest line (job unlock, levels 1 to 5)",
+    "previous": [
+     "Wizard: Lightning Bolt!"
+    ],
+    "next": [
+     "Wizard: Market Wizards"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3160008,
+   "record": "quest-lines/quests.json q3160008",
+   "title": "Wizard: Market Wizards",
+   "giver": {
+    "name": "Fizzlesticks",
+    "npc_id": "9000000324",
+    "locale_id": 20517
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Help restock Fizzlesticks' potion shop by harvesting ingredients.",
+     "text_locale_id": 74840,
+     "target": "Bundle of Sunleaf",
+     "target_locale_id": 23290,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Help restock Fizzlesticks' potion shop by harvesting ingredients.",
+     "text_locale_id": 74840,
+     "target": "Bundle of Rainleaf",
+     "target_locale_id": 23294,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Help restock Fizzlesticks' potion shop by harvesting ingredients.",
+     "text_locale_id": 74840,
+     "target": "Bundle of Punkin",
+     "target_locale_id": 23292,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Fizzlesticks with the ingredients (inferred; no client objective string).",
+     "text_locale_id": null,
+     "target": "Fizzlesticks",
+     "target_locale_id": 20517,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no quest_reward line is tagged to this quest",
+     "source": "locale:74841 (completion text only)"
+    }
+   ],
+   "line": {
+    "name": "Fizzlesticks wizard trainer line (Robgoblin Camp)",
+    "previous": [
+     "Wizard: The First Rule of Being a Wizard..."
+    ],
+    "next": [
+     "Wizard: Student Profits"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74838,
+     "speaker": "Fizzlesticks"
+    },
+    "progress": {
+     "locale_id": 103394,
+     "speaker": "Fizzlesticks"
+    },
+    "complete": {
+     "locale_id": 74841,
+     "speaker": "Fizzlesticks"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160009,
+   "record": "quest-lines/quests.json q3160009",
+   "title": "Wizard: Student Profits",
+   "giver": {
+    "name": "Fizzlesticks",
+    "npc_id": "9000000324",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Fizzlesticks is interested in how Yaren's student is doing. Go to Snowhill and talk to him.",
+     "text_locale_id": 74854,
+     "target": "Snowhill",
+     "target_locale_id": 3961,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard quest line (Fizzlesticks, Robgoblin Camp: job unlock and levels 1 to 5)",
+    "previous": [
+     "Wizard: Market Wizards"
+    ],
+    "next": [
+     "Wizard: Reach Level 5"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74852,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160010,
+   "record": "quest-lines/quests.json q3160010",
+   "title": "Wizard: Reach Level 5",
+   "giver": {
+    "name": "Fizzlesticks",
+    "npc_id": "9000000324",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Meet Natali",
+     "text_locale_id": 387678,
+     "target": "Natali",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Reach level 5 as a wizard",
+     "text_locale_id": 387680,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Reach level 5 as a wizard, then return to Fizzlesticks.",
+     "text_locale_id": 387677,
+     "target": "Fizzlesticks",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced",
+     "source": "no reward text found in client or guide row 8 (notes/Build Guides/Content/Jobs/Wizard.md:83)"
+    }
+   ],
+   "line": {
+    "name": "Wizard job line (Fizzlesticks, Robgoblin Camp), Band 1: level 1 to 5",
+    "previous": [
+     "Wizard: Student Profits"
+    ],
+    "next": [
+     "Contract: Troll Magic",
+     "Wizard: An Icy Mistake"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3160012,
+   "record": "quest-lines/quests.json q3160012",
+   "title": "Wizard: An Icy Mistake",
+   "giver": {
+    "name": "Fizzlesticks",
+    "npc_id": "9000000324",
+    "locale_id": 20517
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Free Yaren from his icy prison in Hot Springs Haven!",
+     "text_locale_id": 74864,
+     "target": "Hot Springs Haven",
+     "target_locale_id": 3269,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Use the Flame Orb to melt the ice freezing Yaren (handed over by Fizzlesticks)",
+     "text_locale_id": 74858,
+     "target": "Flame Orb",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Morgulg in Snowhill",
+     "text_locale_id": 74865,
+     "target": "Morgulg",
+     "target_locale_id": 37306,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard job line (Fizzlesticks, Yaren, Yvelle), Band 2 level 5 to 10",
+    "previous": [
+     "Wizard: Reach Level 5"
+    ],
+    "next": [
+     "Wizard: Merry Magical Story"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 74855,
+     "speaker": "Fizzlesticks"
+    },
+    "progress": {
+     "locale_id": 74858,
+     "speaker": "Fizzlesticks"
+    },
+    "complete": {
+     "locale_id": 74861,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  }
+ ]
+}

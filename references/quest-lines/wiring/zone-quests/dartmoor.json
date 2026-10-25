@@ -1,0 +1,464 @@
+{
+ "zone": "Dartmoor",
+ "quests": [
+  {
+   "quest_id": 3020010,
+   "record": "quest-lines/quests.json q3020010",
+   "title": "Blacksmith: Dull Challenge",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Forge Rowdy Rumbler Hammers (craft them at the nearest Anvil as a Blacksmith)",
+     "text_locale_id": 91687,
+     "target": "Rowdy Rumbler Hammer",
+     "target_locale_id": 102179,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Hand the Rowdy Rumbler Hammers to Derp Axemaker",
+     "text_locale_id": 91689,
+     "target": "Derp Axemaker",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Derp Axemaker Blacksmith chain (Blacksmith quest line, Band 2)",
+    "previous": [
+     "Blacksmith: Impressing the Axemaker"
+    ],
+    "next": [
+     "Blacksmith: Hammer Quality"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 91670,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387866,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 91673,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020011,
+   "record": "quest-lines/quests.json q3020011",
+   "title": "Blacksmith: Hammer Quality",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find the Practice Dummy in Dartmoor to begin testing your new hammers.",
+     "text_locale_id": 430785,
+     "target": "Practice Dummy",
+     "target_locale_id": 36173,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Interact with the Practice Dummy",
+     "text_locale_id": 430786,
+     "target": "Practice Dummy",
+     "target_locale_id": 36173,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Hammer Quality minigame",
+     "text_locale_id": 430787,
+     "target": "Practice Dummy",
+     "target_locale_id": 36173,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith line, Band 2: Derp Axemaker (level 5 to 10)",
+    "previous": [
+     "Blacksmith: Dull Challenge"
+    ],
+    "next": [
+     "Blacksmith: Reach Level 10"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 93812,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 93815,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3100007,
+   "record": "quest-lines/quests.json q3100007",
+   "title": "Miner: Dartmoor Mining Camp",
+   "giver": {
+    "name": "Sorin",
+    "npc_id": "9000000472",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Mine Turqoise around snowhill. Rare Copper Veins will get you ore faster!",
+     "text_locale_id": 141007,
+     "target": "Turquoise",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Mine Five Malachite from Copper nodes in the wilderness",
+     "text_locale_id": 101268,
+     "target": "Malachite",
+     "target_locale_id": 101267,
+     "count": 5
+    },
+    {
+     "kind": "deliver",
+     "text": "Visit Shimmer in Dartmoor and deliver the turquoise and the malachite that you mined.",
+     "text_locale_id": 76986,
+     "target": "Shimmer Shinyaxe",
+     "target_locale_id": 76995,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner quest line (Band 1: Singing Crystal Mines, levels 1 to 5)",
+    "previous": [
+     "Miner: Reach Level 5"
+    ],
+    "next": [
+     "Miner: Simple Surveying"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 76970,
+     "speaker": "Sorin"
+    },
+    "progress": {
+     "locale_id": 141194,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 76973,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100008,
+   "record": "quest-lines/quests.json q3100008",
+   "title": "Miner: Simple Surveying",
+   "giver": {
+    "name": "Shimmer Shinyaxe",
+    "npc_id": "9000000201",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Mine some tin ore for Shimmer Shinyaxe at Dartmoor.",
+     "text_locale_id": 77067,
+     "target": "tin ore",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Hand in the tin ore you collected for Shimmer Shinyaxe.",
+     "text_locale_id": 77099,
+     "target": "Shimmer Shinyaxe",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Rewards promised for tin ore mined; amount and item not found",
+     "source": "locale:77042"
+    }
+   ],
+   "line": {
+    "name": "Miner (Shimmer Shinyaxe chain, Snowhill / Dartmoor)",
+    "previous": [
+     "Miner: Dartmoor Mining Camp"
+    ],
+    "next": [
+     "Miner: Suspicious Eyes"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 77042,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77045,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3100009,
+   "record": "quest-lines/quests.json q3100009",
+   "title": "Miner: Suspicious Eyes",
+   "giver": {
+    "name": "Shimmer Shinyaxe",
+    "npc_id": "9000000201",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Hunter Surelytree",
+     "text_locale_id": 77183,
+     "target": "Hunter Surelytree",
+     "target_locale_id": 77211,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Find out what Surelytree is doing here at Dartmoor.",
+     "text_locale_id": 77184,
+     "target": "Hunter Surelytree",
+     "target_locale_id": 77211,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Head out and mine some topaz for Surelytree. Topaz can be found on tin veins.",
+     "text_locale_id": 77186,
+     "target": "topaz",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give Hunter Surelytree the garnet",
+     "text_locale_id": 77189,
+     "target": "garnet",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Collect a reward from Surelytree.",
+     "text_locale_id": 77194,
+     "target": "Hunter Surelytree",
+     "target_locale_id": 77211,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text found in the client for this quest",
+     "source": "notes/Build Guides/Content/Jobs/Miner.md row 8"
+    }
+   ],
+   "line": {
+    "name": "Miner (Dartmoor Quarry band, level 5 to 10)",
+    "previous": [
+     "Miner: Simple Surveying"
+    ],
+    "next": [
+     "Miner: Bigger Challenges"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77165,
+     "speaker": "Shimmer Shinyaxe"
+    },
+    "progress": {
+     "locale_id": 77216,
+     "speaker": "Hunter Surelytree"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100010,
+   "record": "quest-lines/quests.json q3100010",
+   "title": "Miner: Bigger Challenges",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": 77270
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Derp Axemaker",
+     "text_locale_id": 77257,
+     "target": "Derp Axemaker",
+     "target_locale_id": 77270,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Mine more tin ore than Derp Axemaker at Dartmoor",
+     "text_locale_id": 77259,
+     "target": "Tin Mining",
+     "target_locale_id": 74881,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Derp Axemaker",
+     "text_locale_id": 77261,
+     "target": "Derp Axemaker",
+     "target_locale_id": 77270,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner (Derp Axemaker band, level 5-10, Dartmoor)",
+    "previous": [
+     "Miner: Suspicious Eyes"
+    ],
+    "next": [
+     "Miner: The Perfect Pour"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77271,
+     "speaker": "Derp Axemaker"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77251,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100011,
+   "record": "quest-lines/quests.json q3100011",
+   "title": "Miner: The Perfect Pour",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Perfectly create five tin bars at the smelting furnace in a single session without spilling any ore.",
+     "text_locale_id": 77322,
+     "target": "Tin Bar",
+     "target_locale_id": null,
+     "count": 5
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Derp Axemaker Miner trainer line (level 10 gate)",
+    "previous": [
+     "Miner: Bigger Challenges"
+    ],
+    "next": [
+     "Miner: Reach Level 10"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77320,
+     "speaker": "Derp Axemaker"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77323,
+     "speaker": "Derp Axemaker"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3100012,
+   "record": "quest-lines/quests.json q3100012",
+   "title": "Miner: Reach Level 10",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Reach Level 10 as a Miner, then return to Derp Axemaker.",
+     "text_locale_id": 387507,
+     "target": "Derp Axemaker",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner career (Derp Axemaker band, Miner levels 5 to 20)",
+    "previous": [],
+    "next": [
+     "Miner: Finding Southvale"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387452,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387512,
+     "speaker": "Derp Axemaker"
+    },
+    "complete": {
+     "locale_id": 387455,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  }
+ ]
+}

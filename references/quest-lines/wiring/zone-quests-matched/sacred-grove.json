@@ -1,0 +1,870 @@
+{
+ "zone": "Sacred Grove",
+ "wireable_by_match": [],
+ "still_blocked": [
+  {
+   "quest_id": 3000042,
+   "record": "quest-lines/quests.json q3000042",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: Pampered Pets",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000512",
+    "locale_id": 91463
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Pick up gifts for Darkthorne's pets from vendors around Sacred Grove.",
+     "text_locale_id": 91468,
+     "target": "vendors around Sacred Grove (names not given in text)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up a gift from Florina in Sanctuary",
+     "text_locale_id": 91469,
+     "target": "Florina",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up a gift from Jennifer in Cobblestone Village",
+     "text_locale_id": 91471,
+     "target": "Jennifer",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up a gift from Bowawow at Highroad Junction",
+     "text_locale_id": 91473,
+     "target": "Bowawow",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up a gift from Twiggi Truespirit in Shrouded Glade",
+     "text_locale_id": 91475,
+     "target": "Twiggi Truespirit",
+     "target_locale_id": 90241,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Player's name signed on the gift card for Darkthorne; no item or coin reward in any source",
+     "source": "locale:91466"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 91463,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 91466,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "zone: The answer carries three conflicting placements (client tag Sacred Grove; Adventurer.md:137 Nettleseed; NPCs - Briarwood.md:307-308 Briarwood) and settles none. The Briarwood placement is the weakest:",
+    "giver: Giver npc 9000000512 is unresolved; npcs_unresolved.json:4194-4200 gives name null and zone null with the reason 'the guide does not identify one NPC name'. The answer correctly leaves it open, but th",
+    "line: Previous (3000041 'It's Business Time') and next (3000043 'Report to Captain Chugug') are taken from Adventurer.md rows E13 and E15 as the answer states, and the record prerequisite 3000041 matches. T",
+    "objectives[0]: The vendor pickup (91468) has no vendor names and no count. The answer flags this as open, which is correct.",
+    "giver: Giver is unresolved (npc 9000000512 has no name in the client or repo; offer 91463 has no speaker tag). The answer correctly leaves name null, so it is honest but the quest cannot be wired to a giver.",
+    "line: Previous/next rest on guide rows E13-E15 only (Adventurer.md:136-138), which the answer labels as guide-sourced. Zone conflicts between Adventurer.md:137 (Nettleseed) and NPCs - Briarwood.md:307-308 ("
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3000055,
+   "record": "quest-lines/quests.json q3000055",
+   "quest_file": "adventurer.json",
+   "title": "Lucky's Lost Coin",
+   "live": "unsure",
+   "giver": {
+    "name": "Lucky Chance McXander",
+    "npc_id": "9000000134",
+    "locale_id": 5100463
+   },
+   "resolved_giver": {
+    "npc_id": 9000000134,
+    "name": "Lucky Chance McXander",
+    "file": "npcs/merry_vale.json",
+    "zone": "Merry Vale",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Accept Lucky's offer; he gives you the lucky hat when you are ready (dialog only, no quest_objective string in client)",
+     "text_locale_id": 5100470,
+     "target": "Lucky Chance McXander",
+     "target_locale_id": 5100463,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000134,
+      "name": "Lucky Chance McXander",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "use",
+     "text": "While wearing Lucky's hat search Sacred Grove for one of his golden pots.",
+     "text_locale_id": 5100428,
+     "target": "Lucky's golden pot (Sacred Grove)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Lucky Chance McXander and report the wrong coin; he sends you off to try the other pot (completion dialog, no quest_objective string in client)",
+     "text_locale_id": 5100414,
+     "target": "Lucky Chance McXander",
+     "target_locale_id": 5100463,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000134,
+      "name": "Lucky Chance McXander",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unspecified reward ('Here is a reward for your efforts'); no coin amount or item named in client",
+     "source": "locale:5100414"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 5100461,
+     "speaker": "Lucky Chance McXander"
+    },
+    "progress": {
+     "locale_id": 5100413,
+     "speaker": "Lucky Chance McXander"
+    },
+    "complete": {
+     "locale_id": 5100414,
+     "speaker": "Lucky Chance McXander"
+    }
+   },
+   "critic_problems": [
+    "live_reason: The cited wiki date does not match what I found. The wiki's Saint Patrick's event image text reads 'from March 15 - March 31', not 'held everyday from March 14th, 2013' as the answer states. The date ",
+    "objectives[0] / evidence: The accept-step dialog 5100470 checks out: it says the coin is in a golden pot around Sacred Grove, the pots are hidden by magic, and Lucky gives the hat when you are ready. The objective is dialog-so",
+    "rewards: The hat the player wears is named in the wiki as 'Lucky's Green Hat', and the client has a matching item description at locale 5100528 ('A lucky hat that allows you to see magical pots of gold.'). The",
+    "line / next: The chain is consistent with the client. Day-2 and day-3 intros (5100415, 5100419) and the Another Day Another Coin title (5100416) support the next-record link, and previous is empty. The unresolved ",
+    "objectives[0]: The accept step cites locale 5100470 as its text. That line is Lucky's offer dialog ('My lucky coin can be found... Just tell me when you are ready and I will give you the hat'), not an objective stri",
+    "live_reason: The wiki supports 'an event held everyday from March 14th, 2013', but the same wiki's Events and Saint Patrick's pages also give 'from March 15 - March 31' (the sliderlucky image text). The answer omi"
+   ],
+   "blocked_by": [
+    "giver 'Lucky Chance McXander' row 9000000134 not placed",
+    "talk target 'Lucky Chance McXander' not placed in our rows",
+    "talk target 'Lucky Chance McXander' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000056,
+   "record": "quest-lines/quests.json q3000056",
+   "quest_file": "adventurer.json",
+   "title": "Another Day Another Coin",
+   "live": "yes",
+   "giver": {
+    "name": "Lucky Chance McXander",
+    "npc_id": "9000000134",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000134,
+    "name": "Lucky Chance McXander",
+    "file": "npcs/merry_vale.json",
+    "zone": "Merry Vale",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Find Lucky's gold pot",
+     "text_locale_id": 5100435,
+     "target": "Lucky's gold pot (Sacred Grove)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Lucky needs your help to find his lucky coin. While wearing his lucky hat search Sacred Grove for one of his golden pots.",
+     "text_locale_id": 5100417,
+     "target": "Lucky's lucky hat",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed reward; the end text says 'Here is the reward I promised' but gives no item or amount in the text",
+     "source": "locale:5100418"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 5100418,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver.locale_id: Answer sets giver locale_id to null and says it was not in the pack. The client has the NPC name: locale:5100463 [npc_name] 'Lucky Chance McXander'. Its quest dialog (5100461, 5100462, 5100468, 510047",
+    "giver.zone / zone: The NPC data in the evidence pack puts the giver in Merry Vale (wiki: Merry Vale, around Saint Patrick's). The answer uses Sacred Grove, which matches the quest text tags (5100416 and its cluster). Th",
+    "objectives[1]: The second objective is the description text 5100417 used as an objective. Its target 'Lucky's lucky hat' has no locale id or item id, and the answer does not say it is unverified in the same way as t",
+    "live: Live status 'yes' rests on the absence of a FLAG and the wiki listing. The client text 5100416 and 5100417 carry no FLAG, and I confirmed 5100416 and 5100435 exist as live strings. That supports it, b",
+    "giver: giver.locale_id is null, but the NPC name is in the client table: locale 5100463 'Lucky Chance McXander' (npc_name). The answer says the locale id was not found.",
+    "zone: The answer gives zone 'Sacred Grove' with no note on the giver's location. The giver's NPC data (prototype/osfr-tools/data/content/npcs/merry_vale.json, npc 9000000134) and the wiki put him in Merry V"
+   ],
+   "blocked_by": [
+    "giver 'Lucky Chance McXander' row 9000000134 not placed"
+   ]
+  },
+  {
+   "quest_id": 3000057,
+   "record": "quest-lines/quests.json q3000057",
+   "quest_file": "adventurer.json",
+   "title": "To Coin a Phrase",
+   "live": "yes",
+   "giver": {
+    "name": "Lucky Chance McXander",
+    "npc_id": "9000000134",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000134,
+    "name": "Lucky Chance McXander",
+    "file": "npcs/merry_vale.json",
+    "zone": "Merry Vale",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Lucky needs your help to find his lucky coin. While wearing his lucky hat search Sacred Grove for one of his golden pots.",
+     "text_locale_id": 5100421,
+     "target": "Lucky's golden pot in Sacred Grove",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed reward; end text says 'here is your reward' but no item or coin amount is given in the pack",
+     "source": "locale:5100422"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 5100419,
+     "speaker": "Lucky Chance McXander"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 5100422,
+     "speaker": "Lucky Chance McXander"
+    }
+   },
+   "critic_problems": [
+    "giver.locale_id: Left null, but the client has the giver's name string: locale:5100463 is npc_name 'Lucky Chance McXander' (tagged Sacred Grove). The pack did not surface it and the answer says it was not found.",
+    "line.name: The Part G line name ('Lucky's seasonal coin hunt (Merry Vale, Saint Patrick's)') and the row G3 cite come from the Adventurer.md guide, which I did not open. Not verified here.",
+    "giver.zone / zone: Answer says zone Sacred Grove for the quest and Merry Vale for the NPC data. Both are consistent with the client text (quest strings tagged Sacred Grove) and the wiki (Merry Vale), so this is fine, bu",
+    "objectives[0].kind: kind 'go' is not supported by any cited source; the client text only gives a search instruction.",
+    "rewards: Reward left unnamed. Verified text 5100422 only says 'here is your reward', so the gap is honestly stated.",
+    "objectives[0]: The objective text 5100421 is the same generic 'Lucky needs your help...' line that 5100413, 5100417 and 5100425 carry for the other three Lucky quests, so it does not distinguish this quest. The guid"
+   ],
+   "blocked_by": [
+    "giver 'Lucky Chance McXander' row 9000000134 not placed"
+   ]
+  },
+  {
+   "quest_id": 3000058,
+   "record": "quest-lines/quests.json q3000058",
+   "quest_file": "adventurer.json",
+   "title": "Lucky's Last Chance",
+   "live": "unsure",
+   "giver": {
+    "name": "Lucky Chance McXander",
+    "npc_id": "9000000134",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000134,
+    "name": "Lucky Chance McXander",
+    "file": "npcs/merry_vale.json",
+    "zone": "Merry Vale",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "While wearing Lucky's hat search Sacred Grove for one of his golden pots.",
+     "text_locale_id": 5100425,
+     "target": "Lucky's golden pot (Sacred Grove; no client object id found)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 5100423,
+     "speaker": "Lucky Chance McXander"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 5100426,
+     "speaker": "Lucky Chance McXander"
+    }
+   },
+   "critic_problems": [
+    "dialog.complete: 5100426 is chosen by elimination and text fit. The locale hint tags it \"Lucky's Lost Coin\", not this quest. The answer does say so under open, but the answer's evidence line still presents it as the e",
+    "objectives[0]: The objective text 5100425 is shared word-for-word with 5100413, 5100417 and 5100421 (the other three quests in the series). The answer does not say the text is not unique to this quest. It also gives",
+    "rewards: The answer leaves rewards empty. The evidence pack and the repo record both carry coins: 1, from guide row G4 (video myQyxfTSRpM/00012). The answer treats it as an open item rather than reporting it a",
+    "giver.locale_id: Null, and the answer says it is unverified. That is honest, but the giver's identity rests on the repo record and the wiki list, not on a client locale string.",
+    "line.previous: 'To Coin a Phrase' as previous is inferred from day-numbering text (5100419 'third day', 5100422 'one more place'). The answer marks it as inferred. The wiki gives no quest order.",
+    "objectives[0]: The 'use' objective's target is only the text 'golden pot'. No client object id or count is given, so a builder cannot wire the search step. The answer says this itself."
+   ],
+   "blocked_by": [
+    "giver 'Lucky Chance McXander' row 9000000134 not placed"
+   ]
+  },
+  {
+   "quest_id": 3010033,
+   "record": "quest-lines/quests.json q3010033",
+   "quest_file": "archer.json",
+   "title": "Archer: Can You Hit a Bullseye?",
+   "live": "yes",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Bullseye wants you to defeat him in one on one combat to prove that you are capable of being the new protector of the Sacred Glade.",
+     "text_locale_id": 78486,
+     "target": "Bullseye",
+     "target_locale_id": null,
+     "count": 1,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Bullseye's epic bow (item not named in the pack)",
+     "source": "locale:78488"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 78484,
+     "speaker": "Bullseye"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78496,
+     "speaker": "Bullseye"
+    }
+   },
+   "critic_problems": [
+    "giver / zone: The NPC data for giver 9000000037 (npcs_unresolved.json:365-372) places Bullseye in zone 'Blackspore Swamp' ('Just outside the western cave entrance to Blackspore Swamp'). The answer sets zone to 'Sac",
+    "evidence[7] / rewards: The claim 'the Archer page lists Bullseye's quests including Archer: New Challenges' is not verified in the pack; the only wiki hit for Bullseye's rewards is Bullseye's Blasting Bow, which the wiki ti",
+    "line.previous: The answer's open note says Archer: New Challenges (locale:78460, Briarwood, objective 78461 about Bullseye) may sit between Building a Better Bow and this finale. The answer keeps only the record lin",
+    "dialog.progress / objectives: Verified: 78484 (offer), 78485 (title), 78486 (objective), 78488 (reward), 78496 (completion, which names Attack From Above follow-up) all exist with the stated text and no not_live flag in the pack. ",
+    "rewards: The reward is recorded only as the client's description, with no item name. The locale text (78488) names no item. The Archer notes (row 31) say the reward is 'unknown', but the same notes (row 30) an",
+    "giver / zone: The giver is placed in Sacred Grove (from the zone tag on 78487), but the NPC notes put Bullseye 'just outside the western cave entrance to Blackspore Swamp' (Blackspore Swamp NPC notes, row for Bulls"
+   ],
+   "blocked_by": [
+    "giver 'Bullseye' not in our NPC rows",
+    "defeat target 'Bullseye' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070006,
+   "record": "quest-lines/quests.json q3070006",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: So A-Luring",
+   "live": "unsure",
+   "giver": {
+    "name": "Muggup",
+    "npc_id": "9000000157",
+    "locale_id": 408583
+   },
+   "resolved_giver": {
+    "npc_id": 9000000157,
+    "name": "Muggup",
+    "file": "npcs/stillwater_crossing.json",
+    "zone": "Stillwater Crossing",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Buy a lure from Guppie",
+     "text_locale_id": 408632,
+     "target": "Guppie",
+     "target_locale_id": 409079,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Catch a big flutterfish",
+     "text_locale_id": 408634,
+     "target": "Flutterfish",
+     "target_locale_id": 23278,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Take the flutterfish back to Muggup at Sacred Grove Shallows.",
+     "text_locale_id": 408637,
+     "target": "Muggup",
+     "target_locale_id": 408583,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000157,
+      "name": "Muggup",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 408623,
+     "speaker": "Muggup"
+    },
+    "progress": {
+     "locale_id": 408645,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 408626,
+     "speaker": "Muggup"
+    }
+   },
+   "critic_problems": [
+    "zone: The answer sets zone to Sacred Grove Shallows, but the NPC record (repo: data/content/npcs/stillwater_crossing.json:8739-8775) lists Muggup under Stillwater Crossing, with Sacred Grove Shallows and 's",
+    "line.next: next is empty. The guide's row 3 ('Fisherman: Find Your Own Spot!', record 3070007, locale 409213 verified) is only a guide-order neighbour: its prerequisite_quest_ids is [] and its giver is 900000053",
+    "live: live is 'unsure' while the record is enabled:false and there is no shipped-quest evidence. The locale ids themselves are live (no FLAG on 408623/408624/408625/408626/408632/408634/408637).",
+    "objectives[0]: Buy objective kind 'other' with target Guppie (409079, verified as a bare name string 'Guppie'). Guppie is an NPC named in the client text, so a builder gets no usable target type. The answer admits t",
+    "objectives[1]: Catch objective text 408634 'Catch a big flutterfish' verified; target 23278 'Flutterfish' verified as a name string. No count is given; the weight line 408635 ('at least x pounds') has a placeholder ",
+    "rewards: Rewards are empty with no evidence either way."
+   ],
+   "blocked_by": [
+    "giver 'Muggup' row 9000000157 not placed"
+   ]
+  },
+  {
+   "quest_id": 3070008,
+   "record": "quest-lines/quests.json q3070008",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Stronger Equipment",
+   "live": "yes",
+   "giver": {
+    "name": "Anna Mudskipper",
+    "npc_id": "9000000010",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000010,
+    "name": "Anna Mudskipper",
+    "file": "npcs/stillwater_crossing.json",
+    "zone": "Stillwater Crossing",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Muggup and retrieve Anna's fishing supplies.",
+     "text_locale_id": 408688,
+     "target": "Muggup",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000157,
+      "name": "Muggup",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "Find the fishing pole",
+     "text_locale_id": 408691,
+     "target": "fishing pole",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Find the tackle box",
+     "text_locale_id": 408693,
+     "target": "tackle box",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Find the bait",
+     "text_locale_id": 408695,
+     "target": "bait",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the fishing equipment back to Anna Mudskipper.",
+     "text_locale_id": 408698,
+     "target": "Anna Mudskipper",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000010,
+      "name": "Anna Mudskipper",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed reward: 'Here's a little something for your trouble.' No item or coin amount is named in the client text.",
+     "source": "locale:408686"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 408683,
+     "speaker": "Anna Mudskipper"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 408686,
+     "speaker": "Anna Mudskipper"
+    }
+   },
+   "critic_problems": [
+    "giver.locale_id: Null, and the giver name 'Anna Mudskipper' is inferred from the text. The NPC name comes from the giver dossier (npc 9000000010), not from a client locale line tied to this quest.",
+    "objectives: The answer lists 5 objectives, but the evidence has no target ids, so the targets are unconfirmed. Checked: 408688, 408691, 408693, 408695 and 408698 exist as unflagged quest_objective text, and 40868",
+    "line.previous / line.next: Both are empty, with no source. The answer says so in its open notes, so this is not a false claim, but the line placement is unconfirmed.",
+    "line: previous and next are both empty, so the quest is not placed in its Cluster A chain. The build guide (Fisherman.md:61-68) orders the cluster as row 1 Scouting a Spot, row 2 So A-Luring, row 3 Find You",
+    "giver: The build guide marks the giver 'Anna Mudskipper †' (Fisherman.md:66), i.e. uncertain. The answer states it as fact with locale_id null. The intro (408683) names Muggup and 'Anna's' only in the body, ",
+    "zone: Zone is given as Sacred Grove Shallows, but the giver's NPC dossier places Anna in Stillwater Crossing. The answer does not explain that the quest zone and giver zone differ."
+   ],
+   "blocked_by": [
+    "giver 'Anna Mudskipper' row 9000000010 not placed",
+    "talk target 'Muggup' not placed in our rows",
+    "deliver target 'Anna Mudskipper' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070009,
+   "record": "quest-lines/quests.json q3070009",
+   "quest_file": "fisherman.json",
+   "title": "Itty Bitty Bait",
+   "live": "unsure",
+   "giver": {
+    "name": "Jonah Relicreel",
+    "npc_id": "9000000117",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000117,
+    "name": "Jonah Relicreel",
+    "file": "npcs/stillwater_crossing.json",
+    "zone": "Stillwater Crossing",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unspecified; the end text says only \"Great catch! Here's a little something for your help.\"",
+     "source": "locale:409691"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 409688,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 409691,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "zone: Zone is left open with three candidates. The wiki Fisherman page does say 'Itty Bitty Bait: Jonah Relicreel in Rainbow Lake' (confirmed by lookup). The build guide's own note (Fisherman.md:326) says t",
+    "objectives: Objectives are empty. The answer correctly declines to assign 409822/409824/409826 to this quest because they sit under the 'Reel in Slugmud Skippers' group (409823). Still, the chain text in 409696 (",
+    "line.previous: Previous is 'none'. This matches the build record (prerequisite_quest_ids empty) and nothing in the client contradicts it, so it holds, but it is an inferred chain start, which the answer already says",
+    "objectives: Checked: locale 409822 'Catch some small slugmud skippers in Sacred Grove Shallows.', 409824 'Catch some slugmud skippers from the waters in Sacred Grove Shallows.', and 409826 'Take the slugmud skipp",
+    "evidence[5] / open[0]: The claim that the 'Reel in Slugmud Skippers' group is 'a separate quest group' is an inference from the zone tag, not a stated fact in the client. Stated as fact.",
+    "zone: Zone conflict left open. Wiki Fisherman page confirmed: 'Itty Bitty Bait: Jonah Relicreel in Rainbow Lake'. Locale 409822/409823 confirms Sacred Grove Shallows for the slugmud group. Answer's three-wa"
+   ],
+   "blocked_by": [
+    "giver 'Jonah Relicreel' row 9000000117 not placed"
+   ]
+  },
+  {
+   "quest_id": 3070016,
+   "record": "quest-lines/quests.json q3070016",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: What Is It?!",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000501",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Vick isn't sure what you reeled in, but he thinks that Reed Stillwater might have a clue.",
+     "text_locale_id": 409096,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000181,
+      "name": "Reed Stillwater",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 409094,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].kind: The 'go' kind is the answer's own judgment, and it is labelled as such in open. The text at 409096 supports a hand-off or visit to Reed, not a verified delivery. This is honest, not a failure.",
+    "giver: Giver is correctly left null. The repo's npcs_unresolved.json:3954 names the record's NPC 'Vick Sapshot / Reed †' with no resolution, which matches the guide's dagger note. The answer does not cite th",
+    "line.next: Empty next link is honest. 418999 'Fisherman: Good Enough to Eat!' exists and is unflagged in the client, but no data links it, so it stays in open.",
+    "giver: Giver is still null with npc 9000000501 unresolved. Reed Stillwater (388950) and Vick Sapshot (409092) are both plausible, but neither is tied to the record. A builder cannot place the offer NPC from ",
+    "line.next: next is empty, which is honest about the record data (3070017 has an empty prerequisite list). But the answer omits in-client support that the evidence pack's own neighbour text provides: 419000 ('Ree",
+    "line.previous: Previous link 'Fisherman: Beware of Sharks!' (3070015) is supported: fisherman.json:811-815 shows prerequisite 3070015 on record 3070016, and locale 409076 is an unflagged quest_title. Checked and cor"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3070017,
+   "record": "quest-lines/quests.json q3070017",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Good Enough to Eat!",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000182",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Deliver the butter flyfish to Vick Sapshot at the campground in Sacred Grove Shallows (client wording; kind inferred from text)",
+     "text_locale_id": 419003,
+     "target": "Vick Sapshot",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000229,
+      "name": "Vick Sapshot",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 418998,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 419006,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].target_locale_id: Left null as 'not verified', but locale 409092 resolves to exactly 'Vick Sapshot' in the client table, so the target id was checkable and the answer under-reports its own evidence.",
+    "evidence[7]: The claim that the guide's title id cell 1446607819 / 319747346 is 'name-hash style, not the locale id' is the answer's own gloss. The guide (Fisherman.md:89, and NPCs - Stillwater Crossing.md:142) on",
+    "giver: Giver correctly left unresolved. Repo data (stillwater_crossing.json:10242, :12518) describes Vick Sapshot as the one who 'receives the fish' in this quest, and the guide lists Reed/Merri only as cand",
+    "line: previous and next are left empty, but the guide's Cluster C order is a chain in row order: 10 Picky Palettes, 11 Beware of Sharks!, 12 What Is It?!, 13 Good Enough to Eat! (this quest), 14 Fresh Fish ",
+    "objectives[0].target_locale_id: Left null as 'not verified', but the client has the Vick Sapshot npc_name line in the pack's lookup.",
+    "giver: Giver is unresolved, which is honest, but the line placement depends on it. Guide row 13 lists Reed Stillwater / Merri De'Flor (†), and the client dialog 419000 names Reed as the asker. Vick Sapshot i"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "deliver target 'Vick Sapshot' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070042,
+   "record": "quest-lines/quests.json q3070042",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Fishing Frenzy",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in a large Finless Fish",
+     "text_locale_id": 410114,
+     "target": "Finless Fish",
+     "target_locale_id": 99919,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in a large Calico Catfish",
+     "text_locale_id": 410117,
+     "target": "Calico Catfish",
+     "target_locale_id": 6171,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in a medium Toothy Tetra",
+     "text_locale_id": 410119,
+     "target": "Toothy Tetra",
+     "target_locale_id": 99923,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 410108,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410123,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 410111,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "zone: The answer does not mention locale:410548, a shipped npc_dialog line that lists 'finless fish, calico catfish, toothy tetra' as found at Rainbow Lake. This sits against the Sacred Grove Shallows zone ",
+    "previous / line: The line is left empty and the chain is not checked. The answer's own open note names the Tickled Trout entry quest (410042-410045, 410072-410074) as the likely lead-in, and its text says the tourname",
+    "giver: The giver is null while the record still carries giver_npc_id 9000000492 (Trina Turtledove, 12 Days). The answer is right that Trina is not supported, but a builder would need to clear that field befo",
+    "evidence: Claim 'Dwight Limburger is the NPC name' cites locale:410046, which I did not confirm; the Dwight lines I confirmed are 410044 and 410045, which name him as the Tickled Trout return NPC.",
+    "objectives[1..2] target ids: The answer flags 99919, 6171 and 99923 as unverified. I confirmed all three: 99919 'Finless Fish', 6171 'Calico Catfish', 99923 'Toothy Tetra'. Their names match the objectives.",
+    "giver: Giver correctly left null. The record's giver_npc_id 9000000492 (Trina Turtledove, 12 Days) is unsupported for this quest, as the answer says. No client line names an offerer, so no giver can be state"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  }
+ ]
+}

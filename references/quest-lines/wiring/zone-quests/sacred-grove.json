@@ -1,0 +1,1008 @@
+{
+ "zone": "Sacred Grove",
+ "quests": [
+  {
+   "quest_id": 3000042,
+   "record": "quest-lines/quests.json q3000042",
+   "title": "Chapter 1: Pampered Pets",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000512",
+    "locale_id": 91463
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Pick up gifts for Darkthorne's pets from vendors around Sacred Grove.",
+     "text_locale_id": 91468,
+     "target": "vendors around Sacred Grove (names not given in text)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up a gift from Florina in Sanctuary",
+     "text_locale_id": 91469,
+     "target": "Florina",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up a gift from Jennifer in Cobblestone Village",
+     "text_locale_id": 91471,
+     "target": "Jennifer",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up a gift from Bowawow at Highroad Junction",
+     "text_locale_id": 91473,
+     "target": "Bowawow",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up a gift from Twiggi Truespirit in Shrouded Glade",
+     "text_locale_id": 91475,
+     "target": "Twiggi Truespirit",
+     "target_locale_id": 90241,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Player's name signed on the gift card for Darkthorne; no item or coin reward in any source",
+     "source": "locale:91466"
+    }
+   ],
+   "line": {
+    "name": "Chapter 1 (Adventurer Part E, rows E13-E15); guide-sourced order only",
+    "previous": [
+     "Chapter 1: It's Business Time"
+    ],
+    "next": [
+     "Chapter 1: Report to Captain Chugug"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 91463,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 91466,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000055,
+   "record": "quest-lines/quests.json q3000055",
+   "title": "Lucky's Lost Coin",
+   "giver": {
+    "name": "Lucky Chance McXander",
+    "npc_id": "9000000134",
+    "locale_id": 5100463
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Accept Lucky's offer; he gives you the lucky hat when you are ready (dialog only, no quest_objective string in client)",
+     "text_locale_id": 5100470,
+     "target": "Lucky Chance McXander",
+     "target_locale_id": 5100463,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "While wearing Lucky's hat search Sacred Grove for one of his golden pots.",
+     "text_locale_id": 5100428,
+     "target": "Lucky's golden pot (Sacred Grove)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Lucky Chance McXander and report the wrong coin; he sends you off to try the other pot (completion dialog, no quest_objective string in client)",
+     "text_locale_id": 5100414,
+     "target": "Lucky Chance McXander",
+     "target_locale_id": 5100463,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unspecified reward ('Here is a reward for your efforts'); no coin amount or item named in client",
+     "source": "locale:5100414"
+    }
+   ],
+   "line": {
+    "name": "Lucky Chance McXander St. Patrick's coin hunt (Adventurer part G)",
+    "previous": [],
+    "next": [
+     "Another Day Another Coin"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 5100461,
+     "speaker": "Lucky Chance McXander"
+    },
+    "progress": {
+     "locale_id": 5100413,
+     "speaker": "Lucky Chance McXander"
+    },
+    "complete": {
+     "locale_id": 5100414,
+     "speaker": "Lucky Chance McXander"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000056,
+   "record": "quest-lines/quests.json q3000056",
+   "title": "Another Day Another Coin",
+   "giver": {
+    "name": "Lucky Chance McXander",
+    "npc_id": "9000000134",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Find Lucky's gold pot",
+     "text_locale_id": 5100435,
+     "target": "Lucky's gold pot (Sacred Grove)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Lucky needs your help to find his lucky coin. While wearing his lucky hat search Sacred Grove for one of his golden pots.",
+     "text_locale_id": 5100417,
+     "target": "Lucky's lucky hat",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed reward; the end text says 'Here is the reward I promised' but gives no item or amount in the text",
+     "source": "locale:5100418"
+    }
+   ],
+   "line": {
+    "name": "Lucky's Lost Coin daily hunt (Lucky Chance McXander, Sacred Grove)",
+    "previous": [
+     "Lucky's Lost Coin"
+    ],
+    "next": [
+     "To Coin a Phrase"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 5100418,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000057,
+   "record": "quest-lines/quests.json q3000057",
+   "title": "To Coin a Phrase",
+   "giver": {
+    "name": "Lucky Chance McXander",
+    "npc_id": "9000000134",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Lucky needs your help to find his lucky coin. While wearing his lucky hat search Sacred Grove for one of his golden pots.",
+     "text_locale_id": 5100421,
+     "target": "Lucky's golden pot in Sacred Grove",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed reward; end text says 'here is your reward' but no item or coin amount is given in the pack",
+     "source": "locale:5100422"
+    }
+   ],
+   "line": {
+    "name": "Adventurer, Part G: Lucky's seasonal coin hunt (Merry Vale, Saint Patrick's)",
+    "previous": [
+     "Another Day Another Coin"
+    ],
+    "next": [
+     "Lucky's Last Chance"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 5100419,
+     "speaker": "Lucky Chance McXander"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 5100422,
+     "speaker": "Lucky Chance McXander"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000058,
+   "record": "quest-lines/quests.json q3000058",
+   "title": "Lucky's Last Chance",
+   "giver": {
+    "name": "Lucky Chance McXander",
+    "npc_id": "9000000134",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "While wearing Lucky's hat search Sacred Grove for one of his golden pots.",
+     "text_locale_id": 5100425,
+     "target": "Lucky's golden pot (Sacred Grove; no client object id found)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Lucky's Lost Coin series (Lucky Chance McXander; Saint Patrick's pot-of-gold hunt)",
+    "previous": [
+     "To Coin a Phrase"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 5100423,
+     "speaker": "Lucky Chance McXander"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 5100426,
+     "speaker": "Lucky Chance McXander"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010032,
+   "record": "quest-lines/quests.json q3010032",
+   "title": "Archer: Building a Better Bow",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": 18152
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect clusters of Ruthenium from Briarheart Caverns (ruthenium clusters/crystals)",
+     "text_locale_id": 130873,
+     "target": "Ruthenium Cluster",
+     "target_locale_id": 103450,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Buy a bow string (Unbreakable Bow String) from the seller; seller unresolved",
+     "text_locale_id": 115370,
+     "target": "Unbreakable Bow String",
+     "target_locale_id": 384082,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Bullseye so he can string the bow and give it to you",
+     "text_locale_id": 78470,
+     "target": "Bullseye",
+     "target_locale_id": 18152,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Bullseye's Blasting Bow",
+     "source": "locale:384118 (item name); wiki page Bullseye's Blasting Bow (acquired by completing this quest)"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "not found in client or wiki"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "not found in client or wiki"
+    }
+   ],
+   "line": {
+    "name": "Archer job quest line (level 20 Bullseye finale)",
+    "previous": [
+     "Archer: Achieve Level 20"
+    ],
+    "next": [
+     "Archer: Can You Hit a Bullseye?"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3010033,
+   "record": "quest-lines/quests.json q3010033",
+   "title": "Archer: Can You Hit a Bullseye?",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Bullseye wants you to defeat him in one on one combat to prove that you are capable of being the new protector of the Sacred Glade.",
+     "text_locale_id": 78486,
+     "target": "Bullseye",
+     "target_locale_id": null,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Bullseye's epic bow (item not named in the pack)",
+     "source": "locale:78488"
+    }
+   ],
+   "line": {
+    "name": "Archer job questline (Band 5, level 20 Bullseye finale)",
+    "previous": [
+     "Archer: Building a Better Bow"
+    ],
+    "next": [
+     "Archer: Attack From Above"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78484,
+     "speaker": "Bullseye"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78496,
+     "speaker": "Bullseye"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070006,
+   "record": "quest-lines/quests.json q3070006",
+   "title": "Fisherman: So A-Luring",
+   "giver": {
+    "name": "Muggup",
+    "npc_id": "9000000157",
+    "locale_id": 408583
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Buy a lure from Guppie",
+     "text_locale_id": 408632,
+     "target": "Guppie",
+     "target_locale_id": 409079,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Catch a big flutterfish",
+     "text_locale_id": 408634,
+     "target": "Flutterfish",
+     "target_locale_id": 23278,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Take the flutterfish back to Muggup at Sacred Grove Shallows.",
+     "text_locale_id": 408637,
+     "target": "Muggup",
+     "target_locale_id": 408583,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Cluster A - Sacred Grove Shallows beginners (Fisherman job line)",
+    "previous": [
+     "Fisherman: Scouting a Spot"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 408623,
+     "speaker": "Muggup"
+    },
+    "progress": {
+     "locale_id": 408645,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 408626,
+     "speaker": "Muggup"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070008,
+   "record": "quest-lines/quests.json q3070008",
+   "title": "Fisherman: Stronger Equipment",
+   "giver": {
+    "name": "Anna Mudskipper",
+    "npc_id": "9000000010",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Muggup and retrieve Anna's fishing supplies.",
+     "text_locale_id": 408688,
+     "target": "Muggup",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Find the fishing pole",
+     "text_locale_id": 408691,
+     "target": "fishing pole",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Find the tackle box",
+     "text_locale_id": 408693,
+     "target": "tackle box",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Find the bait",
+     "text_locale_id": 408695,
+     "target": "bait",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the fishing equipment back to Anna Mudskipper.",
+     "text_locale_id": 408698,
+     "target": "Anna Mudskipper",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed reward: 'Here's a little something for your trouble.' No item or coin amount is named in the client text.",
+     "source": "locale:408686"
+    }
+   ],
+   "line": {
+    "name": "Fisherman beginner quests, Sacred Grove Shallows (Anna Mudskipper, Muggup, Guppie)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 408683,
+     "speaker": "Anna Mudskipper"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 408686,
+     "speaker": "Anna Mudskipper"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070009,
+   "record": "quest-lines/quests.json q3070009",
+   "title": "Itty Bitty Bait",
+   "giver": {
+    "name": "Jonah Relicreel",
+    "npc_id": "9000000117",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unspecified; the end text says only \"Great catch! Here's a little something for your help.\"",
+     "source": "locale:409691"
+    }
+   ],
+   "line": {
+    "name": "Jonah Relicreel bait chain (Fisherman job, Cluster B)",
+    "previous": [],
+    "next": [
+     "Much Bigger Bait"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409688,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 409691,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070012,
+   "record": "quest-lines/quests.json q3070012",
+   "title": "Better Bacon Bait",
+   "giver": {
+    "name": "Jonah Relicreel",
+    "npc_id": "9000000117",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Catch some large baconfish to help Jonah make better bait.",
+     "text_locale_id": 409912,
+     "target": "Large Baconfish",
+     "target_locale_id": 407669,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in large Baconfish",
+     "text_locale_id": 409913,
+     "target": "Large Baconfish",
+     "target_locale_id": 407669,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the big baconfish back to Jonah Relicreel at Sacred Grove Shallows.",
+     "text_locale_id": 409918,
+     "target": "Jonah Relicreel",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Jonah Relicreel bait chain (Itty Bitty Bait 3070009, Fisherman: Bigger is Better 3070011, Better Bacon Bait 3070012; Bacon Bait 3070013 is a sibling branch)",
+    "previous": [
+     "Fisherman: Bigger is Better"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409704,
+     "speaker": "Jonah Relicreel"
+    },
+    "progress": {
+     "locale_id": 409918,
+     "speaker": "Jonah Relicreel"
+    },
+    "complete": {
+     "locale_id": 409707,
+     "speaker": "Jonah Relicreel"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070014,
+   "record": "quest-lines/quests.json q3070014",
+   "title": "Fisherman: Picky Palettes",
+   "giver": {
+    "name": "Vick Sapshot",
+    "npc_id": "9000000229",
+    "locale_id": 409092
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some cheery salmon in Sacred Grove Shallows for Vick to feed to his campers.",
+     "text_locale_id": 419014,
+     "target": "Cheery Salmon",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Payment at 'the going rate' (amount and item not named)",
+     "source": "locale:419009"
+    }
+   ],
+   "line": {
+    "name": "Fisherman (Vick Sapshot campground chain, Sacred Grove Shallows); order not confirmed",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 419009,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 419012,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070015,
+   "record": "quest-lines/quests.json q3070015",
+   "title": "Fisherman: Beware of Sharks!",
+   "giver": {
+    "name": "Vick Sapshot",
+    "npc_id": "9000000229",
+    "locale_id": 409092
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Reel in the shark that's terrorizing campers in the Sacred Grove Shallows.",
+     "text_locale_id": 409087,
+     "target": "shark",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the shark to Vick Sapshot.",
+     "text_locale_id": 409091,
+     "target": "Vick Sapshot",
+     "target_locale_id": 409092,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman job quest line, Cluster C (Vick Sapshot and Callie Kelpcake)",
+    "previous": [],
+    "next": [
+     "Fisherman: What Is It?!"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 409093,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 409078,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070016,
+   "record": "quest-lines/quests.json q3070016",
+   "title": "Fisherman: What Is It?!",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000501",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Vick isn't sure what you reeled in, but he thinks that Reed Stillwater might have a clue.",
+     "text_locale_id": 409096,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman job quest line (Cluster C, Vick Sapshot / Reed Stillwater)",
+    "previous": [
+     "Fisherman: Beware of Sharks!"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409094,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070017,
+   "record": "quest-lines/quests.json q3070017",
+   "title": "Fisherman: Good Enough to Eat!",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000182",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Deliver the butter flyfish to Vick Sapshot at the campground in Sacred Grove Shallows (client wording; kind inferred from text)",
+     "text_locale_id": 419003,
+     "target": "Vick Sapshot",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman job line, Cluster C (Vick Sapshot / Callie Kelpcake, Sacred Grove Shallows); placement is the guide's row order only",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 418998,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 419006,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070040,
+   "record": "quest-lines/quests.json q3070040",
+   "title": "Fisherman: Plenty of Fish",
+   "giver": {
+    "name": "Anna Mudskipper",
+    "npc_id": "9000000010",
+    "locale_id": 408557
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reel in some local fish in the Sacred Grove Shallows.",
+     "text_locale_id": 409044,
+     "target": "Reel in some local fish",
+     "target_locale_id": 409045,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in a slugmud skipper from the Sacred Grove Shallows.",
+     "text_locale_id": 409048,
+     "target": "Reel in a slugmud skipper",
+     "target_locale_id": 409047,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in a chipsen fish from the Sacred Grove Shallows.",
+     "text_locale_id": 409050,
+     "target": "Reel in a chipsen fish",
+     "target_locale_id": 409049,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in a cheery salmon from the Sacred Grove Shallows.",
+     "text_locale_id": 409052,
+     "target": "Catch a cheery salmon",
+     "target_locale_id": 409051,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take your catches back to Anna Mudskipper in Sacred Grove Shallows.",
+     "text_locale_id": 409054,
+     "target": "Anna Mudskipper",
+     "target_locale_id": 408557,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman (Sacred Grove Shallows version; the Big J's crew / Wintery Basin chain from Fisherman.md is not confirmed as the same quest)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 409039,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409055,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 409042,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070042,
+   "record": "quest-lines/quests.json q3070042",
+   "title": "Fisherman: Fishing Frenzy",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in a large Finless Fish",
+     "text_locale_id": 410114,
+     "target": "Finless Fish",
+     "target_locale_id": 99919,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in a large Calico Catfish",
+     "text_locale_id": 410117,
+     "target": "Calico Catfish",
+     "target_locale_id": 6171,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in a medium Toothy Tetra",
+     "text_locale_id": 410119,
+     "target": "Toothy Tetra",
+     "target_locale_id": 99923,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Sacred Grove Shallows fishing tournament (Fishing Frenzy)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 410108,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410123,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 410111,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070050,
+   "record": "quest-lines/quests.json q3070050",
+   "title": "Fisherman: The \"Big\" One",
+   "giver": {
+    "name": "Anna Mudskipper",
+    "npc_id": null,
+    "locale_id": 408557
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Help Anna Mudskipper by reeling in a large butter flyfish.",
+     "text_locale_id": 409064,
+     "target": "butter flyfish",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the butter flyfish to Anna Mudskipper.",
+     "text_locale_id": 409066,
+     "target": "Anna Mudskipper",
+     "target_locale_id": 408557,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the enormous butter flyfish to Reed Stillwater at the fishing job center.",
+     "text_locale_id": 409068,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman job quest line (repo jobs.json sequence; Anna's Sacred Grove beginner group per Fisherman.md Cluster A)",
+    "previous": [
+     "Fisherman: My Hut is Your Hut"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409057,
+     "speaker": "Anna Mudskipper"
+    },
+    "progress": {
+     "locale_id": 409069,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 409060,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  }
+ ]
+}

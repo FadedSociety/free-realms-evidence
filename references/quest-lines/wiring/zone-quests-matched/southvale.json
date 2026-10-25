@@ -1,0 +1,658 @@
+{
+ "zone": "Southvale",
+ "wireable_by_match": [
+  {
+   "quest_id": 3020014,
+   "record": "quest-lines/quests.json q3020014",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Do Work!",
+   "live": "yes",
+   "giver": {
+    "name": "Supply Master Leo",
+    "npc_id": "9000000479",
+    "locale_id": 73956
+   },
+   "resolved_giver": {
+    "npc_id": 9000000479,
+    "name": "Supply Master Leo",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Mili Ironcall, the camp's director.",
+     "text_locale_id": 94419,
+     "target": "Mili Ironcall (npc 9000000405)",
+     "target_locale_id": 77427,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000405,
+      "name": "Mili Ironcall",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 94417,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "zone: The answer sets zone to Southvale from the client dialog tags, but the giver record it cites (Leo, npc 9000000479, greenwood_forest.json:22342) is in Greenwood Forest. The answer flags this as unrecon",
+    "giver.locale_id / source citations: Checked and correct: locale 94418 = 'Blacksmith: Do Work!', 77427 = 'Mili Ironcall', 73956 = 'Supply Master Leo'. The wiki Blacksmith page lists '[Blacksmith]: [Do] [Work]!' under Supply Master [Leo],",
+    "dialog.offer: Offer line 94417 is spoken by Mili (quest_dialog tagged Mili Ironcall) while the giver is Leo. The answer discloses this, and it does not affect the title, objective or ids.",
+    "zone: The answer sets zone to Southvale, but the giver's NPC record (greenwood_forest.json:22342) places Supply Master Leo in Greenwood Forest. The answer itself marks this as unreconciled. The client's que",
+    "giver: Leo is the record's giver, but the offer line 94417 is spoken by Mili and the end line 94420 is Mili's. The answer's claim that Leo's 'hand-off' sends the player is an inference, not shown in the clie",
+    "live_reason: The wiki corroboration is real: the wiki Blacksmith page lists 'Blacksmith: [Do Work]!' under Supply Master Leo. The answer's claim is supported. The title id 94418 and objective 94419 are unflagged i"
+   ]
+  },
+  {
+   "quest_id": 3020015,
+   "record": "quest-lines/quests.json q3020015",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Bolstering the Bows",
+   "live": "yes",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": 94417
+   },
+   "resolved_giver": {
+    "npc_id": 9000000405,
+    "name": "Mili Ironcall",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "As a Blacksmith, forge Focus Fire Bows for Mili Ironcall in Southvale.",
+     "text_locale_id": 94440,
+     "target": "Focus Fire Bows",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Craft Focus Fire Bows for Mili Ironcall",
+     "text_locale_id": 94442,
+     "target": "Focus Fire Bows",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the Bows to Mili Ironcall",
+     "text_locale_id": 94443,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000405,
+      "name": "Mili Ironcall",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Mili Ironcall and give her the Bows you crafted",
+     "text_locale_id": 94444,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000405,
+      "name": "Mili Ironcall",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Not evidenced in the pack (Lugabow pays only after a perfect order, per 94431; amount unknown)",
+     "source": "locale:94431"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 94431,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": {
+     "locale_id": 94450,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 94434,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: The evidence line labels locale 94417 as the 'NPC name line'. In the client it is a quest_dialog line (\"If Derp sent you... Mili Ironcall is always looking for help at the forge\"), not a name string. ",
+    "giver.zone / line: The answer gives zone 'Southvale'. The pack's NPC record places Mili Ironcall in 'Greenwood Forest'. The quest text is Southvale (94431/94434 carry the Southvale tag), so the quest zone can be Southva",
+    "objectives[1] / target_locale_id: The answer says the client has no locale id for the Focus Fire Bows item. Locale 102182 is 'Focus Fire Bow' (singular), which is the item name the repo table uses. The answer's open note misses this.",
+    "objectives: Locale 94456 'Speak to Mili' is a live unflagged objective that the answer leaves out. It is probably the talk step for the final hand-in.",
+    "rewards: Rewards are empty and no source is given. The answer correctly says none is evidenced, so this is an acknowledged gap, not a false claim.",
+    "line.next: The next link 'Blacksmith: Chivalrous Carlos' is supported only by the wiki order and the repo table, not a client prerequisite. The chain note from another quest also says this title matches no answe"
+   ]
+  },
+  {
+   "quest_id": 3020017,
+   "record": "quest-lines/quests.json q3020017",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Local Bonesaw Shortage",
+   "live": "yes",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000405,
+    "name": "Mili Ironcall",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Mili",
+     "text_locale_id": 94521,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000405,
+      "name": "Mili Ironcall",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "As a Blacksmith, craft Anguish Aid Bonesaws for Mili Ironcall in Southvale.",
+     "text_locale_id": 94514,
+     "target": "Anguish Aid Bonesaw",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the Bonesaws to Mili Ironcall",
+     "text_locale_id": 94517,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000405,
+      "name": "Mili Ironcall",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 94507,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": {
+     "locale_id": 94523,
+     "speaker": "Mili Ironcall"
+    },
+    "complete": {
+     "locale_id": 94510,
+     "speaker": "Mili Ironcall"
+    }
+   },
+   "critic_problems": [
+    "live_reason: The answer says the wiki and articles returned nothing for this quest. The wiki does list it: the Blacksmith page in the wiki index includes 'Local Bonesaw Shortage' (the page:ns0 Blacksmith hit). The",
+    "giver.zone / line: The answer's giver claim says Mili is 'quest-giver and trainer in Greenwood Forest', taken from the NPC file. The guide places the Southvale Outpost in Southvale, and the quest's client zone is Southv",
+    "objectives[1] / open: The Anguish Aid Bonesaw item is cited as 'unresolved', but the guide gives its item hash (ucdt 2702023449 / ugdt 4251311164) at Blacksmith.md:253. That is enough for a builder to look up the item, eve",
+    "line.previous: The chain note says 'Blacksmith: Chivalrous Carlos' matches no quest answer. It does exist as record 3020016 (title locale 94461) in blacksmith.json:895-947, with prerequisite chain 3020015 → 3020016 ",
+    "line.previous: The chain note says 'Blacksmith: Chivalrous Carlos' matches no quest answer. It does match a real quest: record 3020016, title_string_id 94461 (client locale 'Blacksmith: Chivalrous Carlos'), giver 90",
+    "live_reason: The answer says the wiki returned nothing for this quest. The wiki's Mili Ironcall section lists '[Blacksmith]: [Local] [Bonesaw] [Shortage]', so the live status has wiki support, and the answer's ope"
+   ]
+  },
+  {
+   "quest_id": 3100014,
+   "record": "quest-lines/quests.json q3100014",
+   "quest_file": "miner.json",
+   "title": "Miner: Gems For Good Luck",
+   "live": "yes",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": 77427
+   },
+   "resolved_giver": {
+    "npc_id": 9000000405,
+    "name": "Mili Ironcall",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Mine tourmaline gems from the iron nodes at Southvale Outpost.",
+     "text_locale_id": 77443,
+     "target": "tourmaline gems",
+     "target_locale_id": null,
+     "count": 20,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Let MIli look through your gems so she can pick one that looks lucky.",
+     "text_locale_id": 77447,
+     "target": "Mili Ironcall",
+     "target_locale_id": 77427,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000405,
+      "name": "Mili Ironcall",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 77428,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77431,
+     "speaker": "Mili Ironcall"
+    }
+   },
+   "critic_problems": [
+    "live: The 'live: yes' verdict leans on locale:92115, which the answer calls a 'player-facing line about finding a lucky tourmaline'. In the client it is tagged type 'other' (not quest_dialog), reads as a br",
+    "objectives[0].count: The count of 20 is not attached to the objective line. Locale 77443 ('Mine tourmaline gems from the iron nodes at Southvale Outpost.') has no number. The number comes from the description locale:77430",
+    "objectives: Not checked by the answer: locale:77496 ('As a miner, mine some iron ore and tourmaline for Mili Ironcall at the Southvale Outpost.') exists in the client, and it may be a quest-log/dialog line for th",
+    "giver.zone: The pack lists Mili's zone as Greenwood Forest (the NPC record), while the answer says Southvale. The Southvale value matches the quest text (77415, 77424: Southvale Outpost), so it is defensible, but",
+    "live: The live=yes call rests on the absence of FLAGs and on locale:92115. That line is type 'other' with no quest hint, so it does not show the quest shipped. Nothing in the pack confirms it is live. The a",
+    "line: The previous link (Finding Southvale, 3100013) is a record prerequisite in the evidence pack (prerequisite_quest_ids [3100013]), not a client prerequisite. The answer correctly says so in 'open'. The "
+   ]
+  },
+  {
+   "quest_id": 3100015,
+   "record": "quest-lines/quests.json q3100015",
+   "quest_file": "miner.json",
+   "title": "Miner: Marriage Proposal",
+   "live": "yes",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000405,
+    "name": "Mili Ironcall",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a miner, mine some iron ore and tourmaline for Mili Ironcall at the Southvale Outpost.",
+     "text_locale_id": 77496,
+     "target": "Southvale Outpost",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Mine iron ore",
+     "text_locale_id": 77497,
+     "target": "Iron ore",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Mine tourmaline for the engagement ring from iron deposits.",
+     "text_locale_id": 77500,
+     "target": "Tourmaline",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Bonus: Collect 2 Malachite!",
+     "text_locale_id": 77510,
+     "target": "Malachite",
+     "target_locale_id": null,
+     "count": 2,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Hand Mili the iron ore and tourmaline you collected for the engagement ring.",
+     "text_locale_id": 77502,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000405,
+      "name": "Mili Ironcall",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Reward collected from Mili (\"Collect a reward from Mili!\")",
+     "source": "locale:77509"
+    },
+    {
+     "kind": "coins",
+     "value": "Additional coins for the bonus gems",
+     "source": "locale:77511"
+    },
+    {
+     "kind": "other",
+     "value": "A collectable for the bonus gems",
+     "source": "locale:77511"
+    },
+    {
+     "kind": "item",
+     "value": "An item for the bonus gems",
+     "source": "locale:77511"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 77480,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": {
+     "locale_id": 77505,
+     "speaker": "Mili Ironcall"
+    },
+    "complete": {
+     "locale_id": 77483,
+     "speaker": "Mili Ironcall"
+    }
+   },
+   "critic_problems": [
+    "objectives[3]: The 'Bonus: Collect 2 Malachite!' objective (locale 77510, which exists and is unflagged) is not in Miner.md's row 14 text list, which names only the iron, tourmaline, return and two dialog lines. The",
+    "objectives[1]/objectives[2] counts: Miner.md row 14 cites the friend's version (2735026492, also 1269248054 and 1374401873) with explicit amounts: a chunk of iron ore, four tourmalines from an iron node, and a single garnet from a tin n",
+    "giver.zone / zone: The NPC record greenwood_forest.json and the giver dossier place Mili Ironcall in Greenwood Forest, while the answer sets zone to Southvale. The answer does flag this in 'open', but the top-level zone",
+    "giver.locale_id: Null. Acceptable as flagged, but the name is an unverified hash (ucdt 3125257909), so the giver cannot be resolved to a locale id here.",
+    "objectives[1]/objectives[2]: Counts for iron ore and tourmaline are left null, and the answer says the counts are 'not in the client text'. Unflagged locale:77448 reads 'Have you mined twenty fresh tourmaline gems for me to look ",
+    "zone / giver: The answer sets zone to Southvale, but the NPC record for Mili Ironcall (9000000405) is Greenwood Forest. The conflict is listed under open items, not resolved. Giver locale_id is null. A builder can "
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3100013,
+   "record": "quest-lines/quests.json q3100013",
+   "quest_file": "miner.json",
+   "title": "Miner: Finding Southvale",
+   "live": "yes",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000069,
+    "name": "Derp Axemaker",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel to the Southvale Outpost and speak with Mili Ironcall, the camp's foreman.",
+     "text_locale_id": 77424,
+     "target": "Mili Ironcall",
+     "target_locale_id": 77427,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000405,
+      "name": "Mili Ironcall",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 77415,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 77422,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "live_reason: The answer says no wiki confirmation was found. The wiki's Miner page lists '[Finding] [Southvale]' under Derp Axemaker, between 'Miner: Reach Level 10' and the Mili Ironcall entries. That confirms th",
+    "objectives[0] / dialog.complete: The 'Find Mili' objective and the title/intro ids check out: 77416 is 'Miner: Finding Southvale', 77424 is the travel-and-speak objective, 77427 is the NPC name, and 77415 and 77417 are the offer dial",
+    "line.previous / line.next: The previous quest 'Miner: Reach Level 10' (387453) and the next 'Miner: Gems For Good Luck' (77429) are correct. The wiki lists Gems For Good Luck under Mili Ironcall, which matches a Southvale hando",
+    "live: The answer marks live as 'yes', but the only support is the absence of a not_live flag on the client strings. The record is enabled: false, and no wiki or article source confirms the quest is live. Th",
+    "objectives[0]: The single 'go' objective is right on the text, but the hand-in to Mili is not recorded as a separate step. The Greenwood Forest NPC note (prototype/osfr-tools/data/content/npcs/greenwood_forest.json:"
+   ],
+   "blocked_by": [
+    "giver 'Derp Axemaker' row 9000000069 not placed"
+   ]
+  },
+  {
+   "quest_id": 3100017,
+   "record": "quest-lines/quests.json q3100017",
+   "quest_file": "miner.json",
+   "title": "Miner: Grumpore's Challenge",
+   "live": "yes",
+   "giver": {
+    "name": "Grumpore",
+    "npc_id": "9000000337",
+    "locale_id": 77570
+   },
+   "resolved_giver": {
+    "npc_id": 9000000337,
+    "name": "Grumpore",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Grumpore",
+     "text_locale_id": 77524,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000337,
+      "name": "Grumpore",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Grumpore's record for Iron ore collection. Rare nodes will give you more ore!",
+     "text_locale_id": 77527,
+     "target": "Iron mining game",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the mining game and return to Grumpore in under eight minutes!",
+     "text_locale_id": 77533,
+     "target": "Iron mining game",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Grumpore",
+     "text_locale_id": 77530,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000337,
+      "name": "Grumpore",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Gloat about your success to Grumpore!",
+     "text_locale_id": 77531,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000337,
+      "name": "Grumpore",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Elite: Eliminate 5 blocker tiles! (optional/bonus, per the 'Elite:' prefix)",
+     "text_locale_id": 77528,
+     "target": "blocker tiles",
+     "target_locale_id": null,
+     "count": 5,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Bonus: Use 6 Dynamite ability tiles! (optional/bonus, per the 'Bonus:' prefix)",
+     "text_locale_id": 77520,
+     "target": "Dynamite ability tiles",
+     "target_locale_id": null,
+     "count": 6,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Bonus: Collect 2 Topaz! (optional/bonus, per the 'Bonus:' prefix)",
+     "text_locale_id": 77560,
+     "target": "Topaz",
+     "target_locale_id": null,
+     "count": 2,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 77548,
+     "speaker": "Grumpore"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77551,
+     "speaker": "Grumpore"
+    }
+   },
+   "critic_problems": [
+    "objectives: locale 77532 'Do All This In Under Eight Minutes!' is a quest_objective tagged to this quest and is not in the answer. It may be the overall time limit, so the builder should decide whether it is a se",
+    "objectives[1]: The target 'Iron mining game' has no game or minigame id. The builder cannot wire it from the answer as written.",
+    "evidence: The citation for '[player] has beaten Grumpore's high score in Iron mining!' (locale:92117) was not re-checked in this pass. It is not used as an objective, so it does not affect the wiring.",
+    "giver / zone: Zone is given as Southvale. The NPC record lists Greenwood Forest, and the answer notes that this is the parent area. This is consistent, but it should be stated as a choice of label.",
+    "quest.live_reason / evidence[0]: Says the title 77549 is 'untagged client text', but the pack and lookup show it as a quest_title tagged to Southvale / Miner: Grumpore's Challenge. The non-FLAG status is what matters; the 'untagged' ",
+    "objectives[1], objectives[2]: Minigame target 'Iron mining game' has no locale id or game id; the answer admits this. Acceptable as text-only, but a builder cannot wire it from this alone."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Iron mining game)",
+    "needs mechanic: minigame (Iron mining game)"
+   ]
+  }
+ ]
+}

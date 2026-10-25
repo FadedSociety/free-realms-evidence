@@ -1,0 +1,3549 @@
+{
+ "zone": "Snowhill",
+ "quests": [
+  {
+   "quest_id": 3020002,
+   "record": "quest-lines/quests.json q3020002",
+   "title": "Basics of Blacksmithing",
+   "giver": {
+    "name": "Smitty",
+    "npc_id": "9000000206",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Smitty wants you to obtain Copper Bars. You can smelt them yourself, or buy them from another Miner.",
+     "text_locale_id": 78480,
+     "target": "Copper Bars",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith job quest line (Snowhill entry, Band 0 row 2)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78478,
+     "speaker": "Smitty"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78481,
+     "speaker": "Smitty"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020006,
+   "record": "quest-lines/quests.json q3020006",
+   "title": "Blacksmith: Warrior Weapon",
+   "giver": {
+    "name": "Trixi",
+    "npc_id": "9000000220",
+    "locale_id": 3230
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Forge a Valiant Guardian Cudgel (forge step; ingredients shown at the Forging Anvil)",
+     "text_locale_id": 91134,
+     "target": "Valiant Guardian Cudgel",
+     "target_locale_id": 102171,
+     "count": 1
+    },
+    {
+     "kind": "other",
+     "text": "Forge a Valiant Guardian Cudgel using the ingredients shown at the Forging Anvil. Chugawug Belt Straps and Wooden Planks can be purchased from Bruno Battlerock. Copper can be made by any Miner.",
+     "text_locale_id": 91135,
+     "target": "Valiant Guardian Cudgel",
+     "target_locale_id": 102171,
+     "count": 1
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring the completed Valiant Guardian Cudgel to Brody Sparfist outside the Singing Crystal Mines",
+     "text_locale_id": 91237,
+     "target": "Brody Sparfist",
+     "target_locale_id": 22436,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Teaches the Valiant Guardian Cudgel recipe (offer-text inference, not a reward record)",
+     "source": "locale:90790"
+    }
+   ],
+   "line": {
+    "name": "Blacksmith (Singing Crystal Mines band, Trixi and Brody Sparfist)",
+    "previous": [
+     "Blacksmith: Curious Cancelation"
+    ],
+    "next": [
+     "Blacksmith: Bat Fighter"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90790,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90793,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020007,
+   "record": "quest-lines/quests.json q3020007",
+   "title": "Blacksmith: Bat Fighter",
+   "giver": {
+    "name": "Brody Sparfist",
+    "npc_id": "9000000033",
+    "locale_id": 22436
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find and speak with Derp Axemaker, at Dartmoor, southwest of Snowhill.",
+     "text_locale_id": 91305,
+     "target": "Derp Axemaker (Dartmoor)",
+     "target_locale_id": 77270,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Derp Axemaker teaches new blacksmith recipes (dialog promise only; no reward record found)",
+     "source": "locale:91267"
+    }
+   ],
+   "line": {
+    "name": "Blacksmith quest line, Band 1 (Trixi and Brody Sparfist, Singing Crystal Mines, to level 5)",
+    "previous": [
+     "Blacksmith: Warrior Weapon"
+    ],
+    "next": [
+     "Blacksmith: Reach Level 5"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 91269,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020008,
+   "record": "quest-lines/quests.json q3020008",
+   "title": "Blacksmith: Reach Level 5",
+   "giver": {
+    "name": "Brody Sparfist",
+    "npc_id": "9000000033",
+    "locale_id": 22436
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 5 as a blacksmith, then return to Brody Sparfist.",
+     "text_locale_id": 387615,
+     "target": "Blacksmith level 5",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Brody Sparfist",
+     "text_locale_id": 387618,
+     "target": "Brody Sparfist",
+     "target_locale_id": 22436,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith job quest line (Band 1: Trixi and Brody Sparfist, Singing Crystal Mines)",
+    "previous": [
+     "Blacksmith: Bat Fighter"
+    ],
+    "next": [
+     "Blacksmith: Impressing the Axemaker"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387550,
+     "speaker": "Brody Sparfist"
+    },
+    "progress": {
+     "locale_id": 387619,
+     "speaker": "Brody Sparfist"
+    },
+    "complete": {
+     "locale_id": 387553,
+     "speaker": "Brody Sparfist"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020009,
+   "record": "quest-lines/quests.json q3020009",
+   "title": "Blacksmith: Impressing the Axemaker",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Find Derp Axemaker's recipe pages",
+     "text_locale_id": 91393,
+     "target": "recipe pages",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith line, Band 2: Derp Axemaker (Dartmoor, level 5 to 10)",
+    "previous": [
+     "Blacksmith: Reach Level 5"
+    ],
+    "next": [
+     "Blacksmith: Dull Challenge"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3020012,
+   "record": "quest-lines/quests.json q3020012",
+   "title": "Blacksmith: Reach Level 10",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": 77270
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 10 as a blacksmith and return to Derp Axemaker.",
+     "text_locale_id": 387625,
+     "target": "Derp Axemaker",
+     "target_locale_id": 77270,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith line, Derp Axemaker band (levels 5 to 10)",
+    "previous": [
+     "Blacksmith: Hammer Quality"
+    ],
+    "next": [
+     "Blacksmith: Supply Delivery"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387554,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 387557,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020013,
+   "record": "quest-lines/quests.json q3020013",
+   "title": "Blacksmith: Supply Delivery",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Forge Field Support Scalpels (craft two at the anvil)",
+     "text_locale_id": 94374,
+     "target": "Field Support Scalpel",
+     "target_locale_id": 102178,
+     "count": 2
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver the Field Support Scalpels to Supply Master Leo",
+     "text_locale_id": 94376,
+     "target": "Supply Master Leo",
+     "target_locale_id": 73956,
+     "count": 2
+    },
+    {
+     "kind": "go",
+     "text": "Locate Supply Master Leo in Southvale, by the path leading to Lavender Coast",
+     "text_locale_id": 94377,
+     "target": "Southvale",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith, Derp Axemaker band (level 5 to 10)",
+    "previous": [
+     "Blacksmith: Reach Level 10"
+    ],
+    "next": [
+     "Blacksmith: Do Work!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 94366,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 94383,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 94369,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030012,
+   "record": "quest-lines/quests.json q3030012",
+   "title": "Brawler: Growler Encroachment",
+   "giver": {
+    "name": "Gerold",
+    "npc_id": "9000000098",
+    "locale_id": 104054
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat a few Frostfang Growlers (intro wording; no count in client)",
+     "text_locale_id": 104149,
+     "target": "Frostfang Growlers",
+     "target_locale_id": 104067,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Gerold, south of Snowhill, and tell him of your success against the Frostfang Growlers!",
+     "text_locale_id": 115625,
+     "target": "Gerold",
+     "target_locale_id": 104054,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler (job quest line; Snowhill / Highroad Junction starting line)",
+    "previous": [
+     "Brawler: Restless Rumors"
+    ],
+    "next": [
+     "Brawler: The Growler Report"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104149,
+     "speaker": "Gerold"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104152,
+     "speaker": "Gerold"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030013,
+   "record": "quest-lines/quests.json q3030013",
+   "title": "Brawler: The Growler Report",
+   "giver": {
+    "name": "Gerold",
+    "npc_id": "9000000098",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Gerold has asked you to deliver his report on the Growler situation to Assistant Mayor Tevin in Snowhill.",
+     "text_locale_id": 104155,
+     "target": "Assistant Mayor Tevin (Snowhill town hall)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler (Gerold / Snowhill Growler chain)",
+    "previous": [
+     "Brawler: Growler Encroachment"
+    ],
+    "next": [
+     "Brawler: Way of the Brawler"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 104153,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 115354,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 104156,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030014,
+   "record": "quest-lines/quests.json q3030014",
+   "title": "Brawler: Way of the Brawler",
+   "giver": {
+    "name": "Tevin",
+    "npc_id": "9000000215",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Vaelen Warpwatcher",
+     "text_locale_id": 130796,
+     "target": "Vaelen Warpwatcher",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "As a brawler, find Petra in the swamps of Blackspore.",
+     "text_locale_id": 130795,
+     "target": "Petra (Blackspore swamps)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Petra",
+     "text_locale_id": 130798,
+     "target": "Petra",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown (not evidenced)",
+     "source": "repo:notes/Build Guides/Content/Jobs/Brawler.md:105 (Rewards: unknown)"
+    }
+   ],
+   "line": {
+    "name": "Brawler job line, Highroad Junction starting line (H-series)",
+    "previous": [
+     "Brawler: The Growler Report"
+    ],
+    "next": [
+     "Brawler: Prey on the Cray"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 130790,
+     "speaker": "Tevin"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030030,
+   "record": "quest-lines/quests.json q3030030",
+   "title": "Brawler: Achieve Level 10",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Reach level 10 as a brawler, then return to Mayor Crystalline.",
+     "text_locale_id": 387381,
+     "target": "Mayor Crystalline",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler main series (level-gated trainers: Petra 5, Mayor Crystalline 10, Jeni Shortfuse 15, Rourke Ironfist 20)",
+    "previous": [
+     "Brawler: Curious Key"
+    ],
+    "next": [
+     "Contract: Colder Weather",
+     "Brawler: An Honest Mistake"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387370,
+     "speaker": "Mayor Crystalline"
+    },
+    "progress": {
+     "locale_id": 387372,
+     "speaker": "Mayor Crystalline"
+    },
+    "complete": {
+     "locale_id": 387373,
+     "speaker": "Mayor Crystalline"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030031,
+   "record": "quest-lines/quests.json q3030031",
+   "title": "Contract: Colder Weather",
+   "giver": {
+    "name": "Fernando Flexsteel",
+    "npc_id": "9000000323",
+    "locale_id": 388481
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a brawler, defeat Frosty Yetis, and Ice Trolls that wander the icy slopes Snowhill.",
+     "text_locale_id": 388535,
+     "target": "Frosty Yetis, Ice Trolls",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler contract quests (repeatable Fernando Flexsteel bounties); Brawler guide Main series band 3, row M12",
+    "previous": [
+     "Brawler: Achieve Level 10"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030032,
+   "record": "quest-lines/quests.json q3030032",
+   "title": "Brawler: An Honest Mistake",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Help the troubled Brawler, Jeni Shortfuse, who's on Ice Troll duty outside of Howling HIlls.",
+     "text_locale_id": 141085,
+     "target": "Howling Hills",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Jeni Shortfuse",
+     "text_locale_id": 141086,
+     "target": "Jeni Shortfuse",
+     "target_locale_id": 22808,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Ice Trolls in the Howling Hills",
+     "text_locale_id": 141088,
+     "target": "Ice Troll",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Jeni Shortfuse",
+     "text_locale_id": 141090,
+     "target": "Jeni Shortfuse",
+     "target_locale_id": 22808,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced",
+     "source": "record 3030032 has empty rewards; locale:141070 is the reward text for Brawler: Curious Key, not this quest"
+    }
+   ],
+   "line": {
+    "name": "Brawler main series, band 3 (level 10 to 15)",
+    "previous": [
+     "Brawler: Achieve Level 10"
+    ],
+    "next": [
+     "Brawler: Fraudulent Brawler"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3030033,
+   "record": "quest-lines/quests.json q3030033",
+   "title": "Brawler: Fraudulent Brawler",
+   "giver": {
+    "name": "Jeni Shortfuse",
+    "npc_id": "9000000115",
+    "locale_id": 22808
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Pummel some Ice Trolls in the Howling Hills and then return to me.",
+     "text_locale_id": 141129,
+     "target": "Ice Trolls",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Sampson Idlefist and gain his trust.",
+     "text_locale_id": 72751,
+     "target": "Sampson Idlefist",
+     "target_locale_id": 22804,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Sampson Idlefist",
+     "text_locale_id": 72753,
+     "target": "Sampson Idlefist",
+     "target_locale_id": 22804,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler job quest line, main series band 3 (level 10 to 15), guide row M14",
+    "previous": [
+     "Brawler: An Honest Mistake"
+    ],
+    "next": [
+     "Brawler: I Want My Money!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 72745,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 72757,
+     "speaker": "Jeni Shortfuse"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030037,
+   "record": "quest-lines/quests.json q3030037",
+   "title": "Brawler: Providing Proof",
+   "giver": {
+    "name": "Jeni Shortfuse",
+    "npc_id": "9000000363",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Play the recording for Mayor Crystalline in Snowhill.",
+     "text_locale_id": 72802,
+     "target": "Mayor Crystalline",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none found",
+     "source": "no reward text in client, wiki or repo"
+    }
+   ],
+   "line": {
+    "name": "Brawler main series, band 4 (Brawler build guide M18)",
+    "previous": [
+     "Brawler: Achieve Level 15"
+    ],
+    "next": [
+     "Brawler: Confronting the Crook"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 72800,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 72803,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030039,
+   "record": "quest-lines/quests.json q3030039",
+   "title": "Brawler: Reputation Regained",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": 182
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Mayor Crystalline wants you to let Jeni Shortfuse know that Sacred Grove is indebted to you both and that she is now officially free of ice troll duty!",
+     "text_locale_id": 72869,
+     "target": "Jeni Shortfuse",
+     "target_locale_id": 22808,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler main series (Jeni Shortfuse / Sampson Idlefist storyline), band 4, row M20",
+    "previous": [
+     "Brawler: Confronting the Crook"
+    ],
+    "next": [
+     "Brawler: Fight for Your Right"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 100347,
+     "speaker": "Jeni Shortfuse"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040016,
+   "record": "quest-lines/quests.json q3040016",
+   "title": "Card Duelist: Serious Business",
+   "giver": {
+    "name": "Garrison Gold",
+    "npc_id": "9000000094",
+    "locale_id": 38092
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "See if Perry will give you a pig at the farm just outside of Snowhill.",
+     "text_locale_id": 103945,
+     "target": "Perry",
+     "target_locale_id": 3059,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Catch Puggles the Pig",
+     "text_locale_id": 103946,
+     "target": "Puggles the Pig",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Do whatever it takes to get a match with Garrison Gold.",
+     "text_locale_id": 103942,
+     "target": "Garrison Gold",
+     "target_locale_id": 38092,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Garrison Gold chain, Snowhill)",
+    "previous": [],
+    "next": [
+     "Card Duelist: Snowhill Showdown"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103954,
+     "speaker": "Garrison Gold"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040017,
+   "record": "quest-lines/quests.json q3040017",
+   "title": "Card Duelist: Snowhill Showdown",
+   "giver": {
+    "name": "Garrison Gold",
+    "npc_id": "9000000094",
+    "locale_id": 38092
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Return the Pig to Perry",
+     "text_locale_id": 104164,
+     "target": "Perry (farmstead just outside Snowhill)",
+     "target_locale_id": 104165,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Garrison's Tournament Deck",
+     "text_locale_id": 104166,
+     "target": "Garrison Gold",
+     "target_locale_id": 38092,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Garrison Gold card promo (reward listed in the repo guide's Card Duelist row 16; the hero-card link is unconfirmed)",
+     "source": "repo:notes/Build Guides/Content/Jobs/Card Duelist.md:row 16"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist quest line (Garrison Gold, Snowhill)",
+    "previous": [
+     "Card Duelist: Serious Business"
+    ],
+    "next": [
+     "Card Duelist: Shifty Dealings"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104172,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104175,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040018,
+   "record": "quest-lines/quests.json q3040018",
+   "title": "Card Duelist: Shifty Dealings",
+   "giver": {
+    "name": "Garrison Gold",
+    "npc_id": "9000000094",
+    "locale_id": 38092
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Seek out Shifty the Shuffler",
+     "text_locale_id": 104183,
+     "target": "Shifty the Shuffler",
+     "target_locale_id": 74095,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Garrison says Shifty the Shuffler is in Wugachug, which is west of Snowhill.",
+     "text_locale_id": 104184,
+     "target": "Wugachug",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "See Shifty's cards for yourself by heading to Wugachug and playing him a game.",
+     "text_locale_id": 104182,
+     "target": "Wugachug",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Shifty's Trick Deck",
+     "text_locale_id": 104186,
+     "target": "Shifty's Trick Deck",
+     "target_locale_id": 92736,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Shifty the Shuffler",
+     "text_locale_id": 104188,
+     "target": "Shifty the Shuffler",
+     "target_locale_id": 74095,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist quest line (Garrison Gold, Snowhill; Shifty the Shuffler, Wugachug)",
+    "previous": [
+     "Card Duelist: Snowhill Showdown"
+    ],
+    "next": [
+     "Card Duelist: Misplaced Deck"
+    ]
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3040042,
+   "record": "quest-lines/quests.json q3040042",
+   "title": "Card Duelist: Snowhill is Melting",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": 182
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Mayor Crystalline in Snowhill wants you to play a few games of cards.",
+     "text_locale_id": 436539,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Trading Card Game Series 3, Snowhill arc)",
+    "previous": [],
+    "next": [
+     "Card Duelist: Suspicious Sneak"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 436537,
+     "speaker": "Mayor Crystalline"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 436540,
+     "speaker": "Mayor Crystalline"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040043,
+   "record": "quest-lines/quests.json q3040043",
+   "title": "Card Duelist: Defenders Duty",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Jonathon Forkpath has long been a staunch defender of Snowhill... You can usually find him walking around the center of town. (quest hint, not an objective string)",
+     "text_locale_id": 2582,
+     "target": "Jonathon Forkpath",
+     "target_locale_id": 92578,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist, Snowhill and the Baron von Darkcheat quest packs (TCG Series 3)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 2582,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040045,
+   "record": "quest-lines/quests.json q3040045",
+   "title": "Card Duelist: In Search of The Baron",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": 182
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Look for Mayor Crystalline in Snowhill.",
+     "text_locale_id": 2575,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist: Snowhill / Baron von Darkcheat TCG quest packs (Series 3), grouping from the guide",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 2581,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040046,
+   "record": "quest-lines/quests.json q3040046",
+   "title": "Card Duelist: Suspicious Sneak",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000521",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Jonathon Forkpath in Snowhill wants you to play a few games of cards.",
+     "text_locale_id": 436543,
+     "target": "Jonathon Forkpath",
+     "target_locale_id": 92578,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist Snowhill / Baron von Darkcheat chain (order inferred from dialog and the Card Duelist.md guide, Part 3 rows 41, 45, 47; no prerequisite confirms it)",
+    "previous": [
+     "Card Duelist: Snowhill is Melting"
+    ],
+    "next": [
+     "Card Duelist: Finder of Secrets"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 436541,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 436544,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040047,
+   "record": "quest-lines/quests.json q3040047",
+   "title": "Card Duelist: To Catch a Sneak",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist: Baron von Darkcheat storyline (Snowhill), inferred",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040049,
+   "record": "quest-lines/quests.json q3040049",
+   "title": "Card Duelist: A Guide to The Baron",
+   "giver": {
+    "name": "Senari",
+    "npc_id": "9000000195",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist, Baron von Darkcheat storyline (Snowhill; TCG Baron quest packs)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040050,
+   "record": "quest-lines/quests.json q3040050",
+   "title": "Card Duelist: Master Explorer",
+   "giver": {
+    "name": "Senari",
+    "npc_id": "9000000195",
+    "locale_id": 4726
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Senari in Snowhill wants you to play a few games of cards.",
+     "text_locale_id": 436551,
+     "target": "Senari",
+     "target_locale_id": 4726,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Snowhill Card Duelist chain (TCG Series 3, Baron von Darkcheat packs); exact position unresolved",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 436549,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 436552,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040051,
+   "record": "quest-lines/quests.json q3040051",
+   "title": "Card Duelist: Confronting The Baron",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel north, towards the Crystal Barrier, to confront Baron von Darkcheat (inferred from dialog; not a confirmed tracker objective)",
+     "text_locale_id": 2585,
+     "target": "Crystal Barrier",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist, Part 3: Snowhill and the Baron von Darkcheat quest packs (TCG Series 3)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 2585,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050014,
+   "record": "quest-lines/quests.json q3050014",
+   "title": "Chef: Snowy Treats",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Click on the Harvesting Tools",
+     "text_locale_id": 139230,
+     "target": "Harvesting Tools",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Click on any of the stacks of Harvesting Tools behind Perry to start harvesting.",
+     "text_locale_id": 139231,
+     "target": "Harvesting Tools",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Gather some Snowberry",
+     "text_locale_id": 139232,
+     "target": "Snowberry",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Perry can't seem to harvest the Snowberry she needs, help her by harvesting some!",
+     "text_locale_id": 139233,
+     "target": "Snowberry",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Perry needs your help collecting some Snowberry and Starnut from her farm!",
+     "text_locale_id": 139212,
+     "target": "Starnut",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Perry trades for the harvested ingredients; no coin or item reward is named in client text",
+     "source": "locale:139213"
+    }
+   ],
+   "line": {
+    "name": "Chef job trainer series, Highroad Junction (Auguste Frydaze) per wiki Chef page",
+    "previous": [
+     "Chef: Perry's Pastures"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 139210,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 139213,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050027,
+   "record": "quest-lines/quests.json q3050027",
+   "title": "Chef: Double Dog Dare",
+   "giver": {
+    "name": "Lucca De'Flor",
+    "npc_id": "9000000133",
+    "locale_id": 23788
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Better ingredients make better eats! At least once while making Fried Starnut Stick, smash a fruit perfectly!",
+     "text_locale_id": 72564,
+     "target": "Fried Starnut Stick",
+     "target_locale_id": 38657,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef main series (Cook Yumtumlot, Wugachug; Lucca De'Flor, Snowhill)",
+    "previous": [
+     "Chef: The Food Reviewer"
+    ],
+    "next": [
+     "Chef: Reach Level 15"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 25003,
+     "speaker": "Cook Yumtumlot"
+    },
+    "progress": {
+     "locale_id": 72562,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070018,
+   "record": "quest-lines/quests.json q3070018",
+   "title": "Fisherman: Fresh Fish Special",
+   "giver": {
+    "name": "Lucca De'Flor",
+    "npc_id": "9000000133",
+    "locale_id": 23788
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in Frostgill Smelt",
+     "text_locale_id": 410339,
+     "target": "Frostgill Smelt",
+     "target_locale_id": 23274,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Harvest some Spiralmint",
+     "text_locale_id": 410343,
+     "target": "Spiralmint",
+     "target_locale_id": 5398,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return the ingredients to Lucca De'Flor in Snowhill.",
+     "text_locale_id": 410347,
+     "target": "Lucca De'Flor",
+     "target_locale_id": 23788,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 410334,
+     "speaker": "Lucca De'Flor"
+    },
+    "progress": {
+     "locale_id": 410387,
+     "speaker": "Lucca De'Flor"
+    },
+    "complete": {
+     "locale_id": 410335,
+     "speaker": "Lucca De'Flor"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070037,
+   "record": "quest-lines/quests.json q3070037",
+   "title": "Fisherman: Snowhill Getaway",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000218",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Meet up with Murphy to find your suite in Snowhill!",
+     "text_locale_id": 410178,
+     "target": "Murphy",
+     "target_locale_id": 3063,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Murphy says your suite is located in Snowhill at 1 Way Back Way.",
+     "text_locale_id": 410182,
+     "target": "1 Way Back Way, Snowhill",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "All-expenses-paid snowy retreat (suite at Snowhill Hot Springs), offered by Murphy",
+     "source": "locale:410173; locale:410175"
+    },
+    {
+     "kind": "other",
+     "value": "Unspecified apology payment; no amount, currency or item named",
+     "source": "locale:410176"
+    }
+   ],
+   "line": {
+    "name": "Fisherman (guide Cluster F, row 33)",
+    "previous": [
+     "Fisherman: One Spot Left"
+    ],
+    "next": [
+     "Fisherman: Joining Big J's Crew",
+     "Fisherman: My Hut is Your Hut"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 410173,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410194,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070041,
+   "record": "quest-lines/quests.json q3070041",
+   "title": "Fisherman: Fish Food",
+   "giver": {
+    "name": "Lenore",
+    "npc_id": null,
+    "locale_id": 410212
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some Blue Thornfin from the Frostbitten Banks for Valinda.",
+     "text_locale_id": 410255,
+     "target": "Blue Thornfin",
+     "target_locale_id": 99949,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Take the Blue Thornfin to Valinda at the Penguin Training Institute in Snowhill.",
+     "text_locale_id": 410259,
+     "target": "Valinda",
+     "target_locale_id": 186,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman (Big J's crew / Snowhill-Frostbitten Banks cluster); text-derived grouping, not a recorded line",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 410250,
+     "speaker": "Lenore"
+    },
+    "progress": {
+     "locale_id": 410260,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 410253,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070047,
+   "record": "quest-lines/quests.json q3070047",
+   "title": "Fisherman: My Hut is Your Hut",
+   "giver": {
+    "name": "Murphy",
+    "npc_id": "9000000158",
+    "locale_id": 3063
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman quest line, Cluster H: Lenore's family at Frostbitten Banks (Snowhill)",
+    "previous": [
+     "Fisherman: Snowhill Getaway"
+    ],
+    "next": [
+     "Fisherman: Feed the Penguins",
+     "Fisherman: Showing Off Your Skills",
+     "Fisherman: The \"Big\" One"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 410200,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410202,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080044,
+   "record": "quest-lines/quests.json q3080044",
+   "title": "Kart Driver: Celebrity Giveaway",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000197",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Complete the 'Celebrity Giveaway' minigame",
+     "text_locale_id": 395809,
+     "target": "Celebrity Giveaway",
+     "target_locale_id": 3830,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Referral step (description, not a record objective): Therin in the Singing Crystal Mines of Snowhill has the details for the ticket giveaway",
+     "text_locale_id": 395333,
+     "target": "Therin",
+     "target_locale_id": 185,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver line (Tangletrack Speedway tier 4, per Kart Driver guide row 42)",
+    "previous": [
+     "Kart Driver: Dominating at Tangletrack"
+    ],
+    "next": [
+     "Kart Driver: SG Tour 400: Wildwood"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 395331,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090016,
+   "record": "quest-lines/quests.json q3090016",
+   "title": "Medic: Flu Season",
+   "giver": {
+    "name": "Doctor Gordon",
+    "npc_id": "9000000073",
+    "locale_id": 7610
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Nurse Naia (the vaccine errand is named in the offer dialog; no separate objective line found for this quest)",
+     "text_locale_id": null,
+     "target": "Nurse Naia",
+     "target_locale_id": 7611,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Go to Snowhill and get a list of all the people who need flu medicine from Mayor Crystalline.",
+     "text_locale_id": 73832,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "As a medic, speak with Mayor Crystalline",
+     "text_locale_id": 73833,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "The mayor is located in Snowhill, to the North.",
+     "text_locale_id": 73834,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "As a medic, administer the Flu Medicine before time runs out!",
+     "text_locale_id": 73838,
+     "target": "Flu Medicine",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Mayor Crystalline",
+     "text_locale_id": 73840,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line, Band 3 (level 10 to 15, Snowhill and Briarwood)",
+    "previous": [
+     "Medic: A Strong Supplement"
+    ],
+    "next": [
+     "Medic: A Blustery Blunder"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 73827,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 73835,
+     "speaker": "Mayor Crystalline"
+    },
+    "complete": {
+     "locale_id": 73830,
+     "speaker": "Mayor Crystalline"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3090017,
+   "record": "quest-lines/quests.json q3090017",
+   "title": "Medic: A Blustery Blunder",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": 182
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "As a medic, find the scattered Medical Records",
+     "text_locale_id": 74034,
+     "target": "Snowhill Medical Records",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring the pages to Mayor Crystalline",
+     "text_locale_id": 74036,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic quest line, Band 3 (level 10 to 15, Snowhill and Briarwood)",
+    "previous": [
+     "Medic: Flu Season"
+    ],
+    "next": [
+     "Medic: Into the Bristlewood"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74025,
+     "speaker": "Mayor Crystalline"
+    },
+    "progress": {
+     "locale_id": 74035,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 74028,
+     "speaker": "Mayor Crystalline"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090018,
+   "record": "quest-lines/quests.json q3090018",
+   "title": "Medic: Into the Bristlewood",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Help out the chugawugs in Bristlewood on behalf of Mayor Crystalline.",
+     "text_locale_id": 74069,
+     "target": "Bristlewood",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Find Docaloc",
+     "text_locale_id": 74070,
+     "target": "Docaloc",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Docaloc is located in Bristlewood, in Briarwood.",
+     "text_locale_id": 74071,
+     "target": "Docaloc (Bristlewood, Briarwood)",
+     "target_locale_id": 74071,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward evidenced in the pack or client strings. Our record has an empty rewards list.",
+     "source": "open"
+    }
+   ],
+   "line": {
+    "name": "Medic job quest line (Band 3, levels 10 to 15)",
+    "previous": [
+     "Medic: A Blustery Blunder"
+    ],
+    "next": [
+     "Medic: Virtuous Venom"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74063,
+     "speaker": "Mayor Crystalline"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100001,
+   "record": "quest-lines/quests.json q3100001",
+   "title": "Become a Miner",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Therin at Snowhill to become a miner.",
+     "text_locale_id": 139749,
+     "target": "Therin",
+     "target_locale_id": 185,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner job quest line (Miner.md Band 0, row 0a, optional entry)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100005,
+   "record": "quest-lines/quests.json q3100005",
+   "title": "Miner: Gem Appraisal",
+   "giver": {
+    "name": "Trixi",
+    "npc_id": "9000000220",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Sorin",
+     "text_locale_id": 76775,
+     "target": "Sorin",
+     "target_locale_id": 5456,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Mine turquoise, using any copper mining tool in the Singing Crystal Mines",
+     "text_locale_id": 76779,
+     "target": "Turquoise",
+     "target_locale_id": 21945,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Sorin with your Turquoise.",
+     "text_locale_id": 76782,
+     "target": "Sorin",
+     "target_locale_id": 5456,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner job line, Band 1: Singing Crystal Mines (levels 1 to 5)",
+    "previous": [
+     "Miner: Rush Order"
+    ],
+    "next": [
+     "Miner: Reach Level 5"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 76769,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 76777,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 76772,
+     "speaker": "Sorin"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3100006,
+   "record": "quest-lines/quests.json q3100006",
+   "title": "Miner: Reach Level 5",
+   "giver": {
+    "name": "Sorin",
+    "npc_id": "9000000472",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 5 as a Miner (level gate; no level field in our record format, builder must add it)",
+     "text_locale_id": null,
+     "target": "Miner level 5",
+     "target_locale_id": 387445,
+     "count": 5
+    },
+    {
+     "kind": "talk",
+     "text": "Reach Level 5 as a Miner, then return to Sorin.",
+     "text_locale_id": 387493,
+     "target": "Sorin",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner career, Band 1: Singing Crystal Mines (levels 1 to 5)",
+    "previous": [],
+    "next": [
+     "Miner: Dartmoor Mining Camp"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387444,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387505,
+     "speaker": "Sorin"
+    },
+    "complete": {
+     "locale_id": 387447,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3100029,
+   "record": "quest-lines/quests.json q3100029",
+   "title": "Miner: Part of the Guild",
+   "giver": {
+    "name": "Snorg",
+    "npc_id": "9000000470",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Snorg has deemed you fit for the Mining Guild. Return to Therin in the Singing Crystal Mines.",
+     "text_locale_id": 78338,
+     "target": "Therin (NPC 9000000217, Snowhill)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner (Mining Guild quest line)",
+    "previous": [
+     "Miner: Rare Rock Collection"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78336,
+     "speaker": "Snorg"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3110003,
+   "record": "quest-lines/quests.json q3110003",
+   "title": "Ninja: Super Star",
+   "giver": {
+    "name": "Ty",
+    "npc_id": "9000000223",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat your foes at the Hot Springs Haven in Snowhill.",
+     "text_locale_id": 78846,
+     "target": "Hot Springs Haven",
+     "target_locale_id": 3269,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja (Ty entry line, Lakeshore), row E3",
+    "previous": [
+     "Ninja: Stolen Away"
+    ],
+    "next": [
+     "Ninja: Silence is Golden... and Deadly"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 78844,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78847,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3110008,
+   "record": "quest-lines/quests.json q3110008",
+   "title": "Contract: Trouble in Snowhill",
+   "giver": {
+    "name": "Ree Peatpants",
+    "npc_id": "9000000180",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Ree Peatpants has asked you to defeat wolves and yetis in Snowhill.",
+     "text_locale_id": 388401,
+     "target": "wolves and yetis in Snowhill",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja repeatable Contracts (Ree Peatpants, Snowhill)",
+    "previous": [
+     "Ninja: Achieve Level 5"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 388399,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 388401,
+     "speaker": "Ree Peatpants"
+    },
+    "complete": {
+     "locale_id": 388402,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110011,
+   "record": "quest-lines/quests.json q3110011",
+   "title": "Ninja: Troubled Waters",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "The Shadow Talon kidnappers have taken their captives to an undisclosed location in Snowhill. Find them and save them!",
+     "text_locale_id": 78870,
+     "target": "Shadow Talon captives, Snowhill (location undisclosed)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Pro Ninja Scythe (level 4 Ninja weapon, no longer obtainable, cannot trade)",
+     "source": "wiki: freerealms-wiki/wikitext/4360-26383-769b1612bf0e.wiki:3 and freerealms-wiki/harvest/lists/weapons.json (acquisition text)"
+    }
+   ],
+   "line": {
+    "name": "Ninja job quest line, Band 2 (level 5 to 10, Chloe then Snowhill)",
+    "previous": [
+     "Ninja: That's the Spirit"
+    ],
+    "next": [
+     "Ninja: Return to the Mentor"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 78868,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78871,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110012,
+   "record": "quest-lines/quests.json q3110012",
+   "title": "Ninja: Return to the Mentor",
+   "giver": {
+    "name": "Frostpetal",
+    "npc_id": "9000000093",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Ty in Lakeshore and inform him of your findings thus far.",
+     "text_locale_id": 78874,
+     "target": "Ty",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job quest line (Flying Dragon ninja training; Ty is the trainer)",
+    "previous": [
+     "Ninja: Troubled Waters"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78872,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110014,
+   "record": "quest-lines/quests.json q3110014",
+   "title": "Contract: Sharp Claws and Sharper Swords",
+   "giver": {
+    "name": "Ree Peatpants",
+    "npc_id": "9000000439",
+    "locale_id": 388454
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Cray Marauders and Fleetfoot Ninjas (as asked by Ree Peatpants)",
+     "text_locale_id": 388405,
+     "target": "Cray Marauders",
+     "target_locale_id": 73977,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Fleetfoot Ninjas",
+     "text_locale_id": 388405,
+     "target": "Fleetfoot Ninjas",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job quest line, Band 3 (level 10 to 15), Ree Peatpants contracts",
+    "previous": [
+     "Ninja: Achieve Level 10"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388403,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388406,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110015,
+   "record": "quest-lines/quests.json q3110015",
+   "title": "Ninja: Shadows in the Snow",
+   "giver": {
+    "name": "Ty",
+    "npc_id": "9000000223",
+    "locale_id": 78875
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Ty has directed you to defeat Tavil, in the Deep Mines of Snowhill.",
+     "text_locale_id": 78878,
+     "target": "Tavil",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja line (Ty, Band 3: level 10 to 15)",
+    "previous": [
+     "Ninja: Achieve Level 10"
+    ],
+    "next": [
+     "Ninja: Burst of Speed"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78875,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78879,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110020,
+   "record": "quest-lines/quests.json q3110020",
+   "title": "Ninja: Missive for Michi",
+   "giver": {
+    "name": "Sakka",
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Deliver Sakka's note to Michi in Snowhill.",
+     "text_locale_id": 101521,
+     "target": "Michi",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job quest line, Band 4 (level 15 to 20)",
+    "previous": [
+     "Ninja: Achieve Level 15"
+    ],
+    "next": [
+     "Ninja: Real Ultimate Power"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90222,
+     "speaker": "Sakka"
+    },
+    "progress": {
+     "locale_id": 139582,
+     "speaker": "Sakka"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3110022,
+   "record": "quest-lines/quests.json q3110022",
+   "title": "Ninja: The Masterless Ninja",
+   "giver": {
+    "name": "Michi",
+    "npc_id": "9000000151",
+    "locale_id": 21098
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Michi has asked you to help Annabelle in Snowhill with her problem.",
+     "text_locale_id": 78902,
+     "target": "Annabelle",
+     "target_locale_id": 21849,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja (Flying Dragon ninja class quest line, Michi/Snowhill band)",
+    "previous": [
+     "Ninja: Real Ultimate Power"
+    ],
+    "next": [
+     "Ninja: Ice Troll Rampage"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 78900,
+     "speaker": "Michi"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3110023,
+   "record": "quest-lines/quests.json q3110023",
+   "title": "Ninja: Ice Troll Rampage",
+   "giver": {
+    "name": "Michi",
+    "npc_id": "9000000151",
+    "locale_id": 21098
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head into the Howling Hills to retrieve the stolen medicine.",
+     "text_locale_id": 78906,
+     "target": "Howling Hills",
+     "target_locale_id": 6488,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Michi's Ninja quests (Snowhill, level 15 to 20)",
+    "previous": [
+     "Ninja: The Masterless Ninja"
+    ],
+    "next": [
+     "Ninja: Achieve Level 20"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78904,
+     "speaker": "Michi"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78907,
+     "speaker": "Michi"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3110024,
+   "record": "quest-lines/quests.json q3110024",
+   "title": "Ninja: Achieve Level 20",
+   "giver": {
+    "name": "Michi",
+    "npc_id": "9000000151",
+    "locale_id": 21098
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Achieve level 20, then return to Michi.",
+     "text_locale_id": 387235,
+     "target": "Ninja job level 20 (player level condition, no named NPC, item or place)",
+     "target_locale_id": null,
+     "count": 20
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Michi for further instructions and training.",
+     "text_locale_id": 387239,
+     "target": "Michi",
+     "target_locale_id": 21098,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none found",
+     "source": "No reward line in client, wiki or articles; repo guide Ninja.md row F6 rewards 'unknown'"
+    }
+   ],
+   "line": {
+    "name": "Ninja job advancement line (level gates 5, 10, 15, 20 from Chloe, Ty, Sakka, Michi)",
+    "previous": [
+     "Ninja: Ice Troll Rampage"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 387215,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3130024,
+   "record": "quest-lines/quests.json q3130024",
+   "title": "Postman: What a Mess!",
+   "giver": {
+    "name": "Loryn",
+    "npc_id": "9000000132",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Help Loryn clean up the mail mess in Snowhill.",
+     "text_locale_id": 130269,
+     "target": "Loryn",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the What A Mess! minigame",
+     "text_locale_id": 130270,
+     "target": "What A Mess! minigame (client minigame id not resolved)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Give him a status update on the clean up.",
+     "text_locale_id": 130273,
+     "target": "Loryn",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman job quest line, Band 5 - Snowhill (Loryn)",
+    "previous": [
+     "Postman: Fair Warning"
+    ],
+    "next": [
+     "Postman: A Plea for Help"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 130263,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 130271,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 130266,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130025,
+   "record": "quest-lines/quests.json q3130025",
+   "title": "Postman: A Plea for Help",
+   "giver": {
+    "name": "Loryn",
+    "npc_id": "9000000132",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Sort the mail for Loryn in Snowhill.",
+     "text_locale_id": 130287,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman (Loryn, Snowhill)",
+    "previous": [
+     "Postman: What a Mess!"
+    ],
+    "next": [
+     "Postman: Biting Back"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 130281,
+     "speaker": "Loryn"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130284,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130026,
+   "record": "quest-lines/quests.json q3130026",
+   "title": "Postman: Biting Back",
+   "giver": {
+    "name": "Loryn",
+    "npc_id": "9000000132",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use your Mail-Morph ability to turn into a wolf and then click on the PCA Tricksters when you're close enough.",
+     "text_locale_id": 130747,
+     "target": "PCA Tricksters",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Terrorize the Tricksters",
+     "text_locale_id": 130746,
+     "target": "PCA Tricksters",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Biting Back minigame",
+     "text_locale_id": 130300,
+     "target": "Biting Back minigame",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Bite those PCA postman and get the Snowhill mail through!",
+     "text_locale_id": 130299,
+     "target": "Snowhill mail",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Tell him about your four-legged mail deliveries.",
+     "text_locale_id": 130303,
+     "target": "Loryn",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no coin, XP or item evidence found",
+     "source": "locale:130297 (completion line only)"
+    }
+   ],
+   "line": {
+    "name": "Postman job quest line (Loryn, Snowhill)",
+    "previous": [
+     "Postman: A Plea for Help"
+    ],
+    "next": [
+     "Postman: Summit in Shrouded Glade"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 130294,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130297,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130027,
+   "record": "quest-lines/quests.json q3130027",
+   "title": "Postman: Summit in Shrouded Glade",
+   "giver": {
+    "name": "Loryn",
+    "npc_id": "9000000132",
+    "locale_id": 178
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head to Shrouded Glade for the postmaster meeting.",
+     "text_locale_id": 130310,
+     "target": "Shrouded Glade",
+     "target_locale_id": 1649,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Brin Galeglow in Shrouded Glade",
+     "text_locale_id": 130311,
+     "target": "Brin Galeglow",
+     "target_locale_id": 45410,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman (Loryn's Snowhill postman quest chain; Band 5 in notes/Build Guides/Content/Jobs/Postman.md)",
+    "previous": [
+     "Postman: Biting Back"
+    ],
+    "next": [
+     "Postman: Beware of Dogs"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 130304,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140001,
+   "record": "quest-lines/quests.json q3140001",
+   "title": "Become a Soccer Star",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000547",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Manager Landon",
+     "text_locale_id": 412468,
+     "target": "Manager Landon",
+     "target_locale_id": 401744,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Learn how to be a soccer star by finding Manager Landon in Snowhill.",
+     "text_locale_id": 412464,
+     "target": "Snowhill Soccer Field",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star job entry (Arc 0, Joining the job), guide row 0a",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140002,
+   "record": "quest-lines/quests.json q3140002",
+   "title": "Being a Better Soccer Star",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000548",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Learn how to advance your skill as a Soccer Star by speaking with Manager Landon in Snowhill",
+     "text_locale_id": 442246,
+     "target": "Manager Landon",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star job entry titles (Arc 0 - Joining the job, guide row 0b)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140005,
+   "record": "quest-lines/quests.json q3140005",
+   "title": "Soccer Star: Meeting The Team",
+   "giver": {
+    "name": "Manager Landon",
+    "npc_id": "9000000140",
+    "locale_id": 401744
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Deliver jersey to Bigs McKicker",
+     "text_locale_id": 402680,
+     "target": "Bigs McKicker",
+     "target_locale_id": 401721,
+     "count": 1
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver jersey to Bobo Flamefoot",
+     "text_locale_id": 402682,
+     "target": "Bobo Flamefoot",
+     "target_locale_id": 401726,
+     "count": 1
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver jersey to Goalster Deedee",
+     "text_locale_id": 402684,
+     "target": "Goalster Deedee",
+     "target_locale_id": 401728,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star (Arc 1 - Joining the Sidekicks)",
+    "previous": [
+     "Soccer Star: Snowy Scrimmage"
+    ],
+    "next": [
+     "Soccer Star: The Perfect Mascot"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 402573,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 402681,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 402576,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140008,
+   "record": "quest-lines/quests.json q3140008",
+   "title": "Soccer Star: Slowing The Snowspurs",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000057",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Coach Eddie wants you to beat the Snowhill Snowspurs again. This time, it's not a practice round. Watch out for \"Iron Foot\" Ronnie. He'll be out to get you!",
+     "text_locale_id": 402607,
+     "target": "Snowhill Snowspurs",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "The Snowhill Snowspurs took it easy on us last time... remember? The scrimmage? Now, it's the real deal and they want revenge! \"Iron Foot\" Ronnie is a tough cookie and he'll knock you down any chance he can get. You'll need to avoid his slide tackles and knock downs.",
+     "text_locale_id": 402605,
+     "target": "\"Iron Foot\" Ronnie",
+     "target_locale_id": 401707,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star (Arc 1 - Joining the Sidekicks, Snowhill and the Northern Wilds)",
+    "previous": [
+     "Soccer Star: Achieve Level 2"
+    ],
+    "next": [
+     "Soccer Star: Goal Stopper"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 402608,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140014,
+   "record": "quest-lines/quests.json q3140014",
+   "title": "Soccer Star: Mascot Madness",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000057",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use your \"Mascot Madness\" ability to dress up as your team's mascot, a husky, and deliver some fliers to some fans in Snowhill!",
+     "text_locale_id": 406977,
+     "target": "Snowhill fans",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "As the team mascot, hand out fliers for Coach \"Golden Leg\" Eddie.",
+     "text_locale_id": 402799,
+     "target": "Snowhill fans",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star (Arc 2 - The season: Briarwood, mascot, Cheetahs, Mud Hoppers)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 402601,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410404,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140017,
+   "record": "quest-lines/quests.json q3140017",
+   "title": "Soccer Star: Missing Soccer Balls",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000057",
+    "locale_id": 2872604531
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Find the missing soccer balls (client objective: \"While you were off playing the Double Challenge, a bunch of soccer balls vanished... Coach \"Golden Leg\" Eddie wants you to find the missing soccer balls.\")",
+     "text_locale_id": 414960,
+     "target": "soccer balls",
+     "target_locale_id": 414958,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward is recorded in our record or the client strings found; the completion line only says \"thanks for helping me gather them up\".",
+     "source": "locale:414961"
+    }
+   ],
+   "line": {
+    "name": "Soccer Star (Arc 2 - The season: Briarwood, mascot, Cheetahs, Mud Hoppers)",
+    "previous": [
+     "Soccer Star: Cheetahs Double Challenge"
+    ],
+    "next": [
+     "Soccer Star: Mud Hopping"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 414958,
+     "speaker": "Coach \"Golden Leg\" Eddie"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 414961,
+     "speaker": "Coach \"Golden Leg\" Eddie"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150002,
+   "record": "quest-lines/quests.json q3150002",
+   "title": "Warrior: Warrior Warm-up",
+   "giver": {
+    "name": "Drill Sergeant Dewey",
+    "npc_id": "9000000076",
+    "locale_id": 22435
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a Warrior, defeat the Frostfang Snarlers wandering the mountains south-east of Snowhill. (PROVISIONAL: not linked to this quest by the client)",
+     "text_locale_id": 100580,
+     "target": "Frostfang Snarler",
+     "target_locale_id": 78096,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none found in the record or client text checked; the guide says Rewards unknown",
+     "source": "notes/Build Guides/Content/Jobs/Warrior.md:83"
+    }
+   ],
+   "line": {
+    "name": "Warrior job line, Band 1 (level 1 to 5) per Warrior.md:78-86",
+    "previous": [
+     "Becoming a Warrior"
+    ],
+    "next": [
+     "Warrior: Warrior's Rites"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 77222,
+     "speaker": "Drill Sergeant Dewey"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77225,
+     "speaker": "Drill Sergeant Dewey"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3150003,
+   "record": "quest-lines/quests.json q3150003",
+   "title": "Warrior: Warrior's Rites",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000302",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Morninglory near the Hot Springs Haven",
+     "text_locale_id": 70898,
+     "target": "Morninglory",
+     "target_locale_id": 16826,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Yetis in Hot Springs Haven",
+     "text_locale_id": 70900,
+     "target": "Yeti Bouncer",
+     "target_locale_id": 6501,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Amateur Warrior Axe (level 1, since retired); not linked to this quest in the client",
+     "source": "repo:notes/Build Guides/Content/Jobs/Warrior.md:84 (guide only; locale:10278 exists but is untagged to this quest)"
+    }
+   ],
+   "line": {
+    "name": "Warrior job line, Band 1 (level 1 to 5), row W3",
+    "previous": [
+     "Warrior: Warrior Warm-up"
+    ],
+    "next": [
+     "Warrior: One With Your Weapon"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 70892,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150007,
+   "record": "quest-lines/quests.json q3150007",
+   "title": "Warrior: You Deserve Better",
+   "giver": {
+    "name": "Steele",
+    "npc_id": "9000000208",
+    "locale_id": 47830
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Terrence at The Roadhouse and see about retrieving a weapon from the weapon crates stored there.",
+     "text_locale_id": 70996,
+     "target": "Terrence (The Roadhouse)",
+     "target_locale_id": 71252,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Tumbolina",
+     "text_locale_id": 71001,
+     "target": "Tumbolina (Merry Vale)",
+     "target_locale_id": 70891,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed substitute reward from Tumbolina; the client text says she has lost the weapons and gives something 'instead' with no item id",
+     "source": "locale:71005; locale:70997"
+    }
+   ],
+   "line": {
+    "name": "Warrior job quest line, band 2 (level 5 to 10)",
+    "previous": [
+     "Warrior: Achieve Level 5"
+    ],
+    "next": [
+     "Warrior: Distracted"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 70994,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 71003,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 70997,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3150019,
+   "record": "quest-lines/quests.json q3150019",
+   "title": "Warrior: Asking Old Folks",
+   "giver": {
+    "name": "Sir Whittington",
+    "npc_id": "9000000205",
+    "locale_id": 7652
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Silversnow",
+     "text_locale_id": 71485,
+     "target": "Silversnow",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Milo",
+     "text_locale_id": 71487,
+     "target": "Milo",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Steele",
+     "text_locale_id": 71489,
+     "target": "Steele",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior job quest line (Fastvi arc, level 15 to 20 band)",
+    "previous": [
+     "Warrior: Legend of Fastvi Frostflutter"
+    ],
+    "next": [
+     "Warrior: Steele is Useful"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 71479,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150020,
+   "record": "quest-lines/quests.json q3150020",
+   "title": "Warrior: Steele is Useful",
+   "giver": {
+    "name": "Steele",
+    "npc_id": "9000000208",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Steele, who can be found by the Clocktower in Snowhill.",
+     "text_locale_id": 71490,
+     "target": "Steele",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Collect all the pieces of Fastvi's broken weapon and defeat Chillblaine in Frostfang Caverns (described step, taken from quest_dialog text, not an objective string)",
+     "text_locale_id": 71499,
+     "target": "Chillblaine",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior (Snowhill: Sir Whittington / Fastvi arc)",
+    "previous": [
+     "Warrior: Asking Old Folks"
+    ],
+    "next": [
+     "Warrior: Hero in the Making (probable, not confirmed)"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 71497,
+     "speaker": "Steele"
+    },
+    "progress": {
+     "locale_id": 71499,
+     "speaker": "Steele"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150021,
+   "record": "quest-lines/quests.json q3150021",
+   "title": "Warrior: Hero in the Making",
+   "giver": {
+    "name": "Fastvi Frostflutter",
+    "npc_id": "9000000085",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "It is time to pass on the task of protecting Snowhill, but first my axe must be restored. The pieces of my weapon have lost their power over the years, but we can imbue them with magic again. You will need a red and blue singing crystal. Therin should have them, but they won't be cheap!",
+     "text_locale_id": 71503,
+     "target": "red and blue singing crystal",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior: Fastvi's axe restoration (Snowhill)",
+    "previous": [
+     "Warrior: Steele is Useful"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 71500,
+     "speaker": "Fastvi Frostflutter"
+    },
+    "progress": {
+     "locale_id": 71503,
+     "speaker": "Fastvi Frostflutter"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150022,
+   "record": "quest-lines/quests.json q3150022",
+   "title": "Warrior: Achieve Level 20",
+   "giver": {
+    "name": "Fastvi Frostflutter",
+    "npc_id": "9000000085",
+    "locale_id": 45439
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Reach level 20 as a warrior, then return to Fastvi Frostflutter in Snowhill.",
+     "text_locale_id": 387601,
+     "target": "Fastvi Frostflutter",
+     "target_locale_id": 45439,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text found in client or guide",
+     "source": "repo:notes/Build Guides/Content/Jobs/Warrior.md:123"
+    }
+   ],
+   "line": {
+    "name": "Warrior class quest line, Fastvi band (level 20 step)",
+    "previous": [
+     "Warrior: Hero in the Making"
+    ],
+    "next": [
+     "Warrior: A Magical Boost"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387598,
+     "speaker": "Fastvi Frostflutter"
+    },
+    "complete": {
+     "locale_id": 387599,
+     "speaker": "Fastvi Frostflutter"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3150023,
+   "record": "quest-lines/quests.json q3150023",
+   "title": "Contract: Defending Snowhill",
+   "giver": {
+    "name": "Caleb Sleepyswing",
+    "npc_id": "9000000267",
+    "locale_id": 388352
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Caleb needs all able-bodied warriors to help defend the recruit camp in Snowhill from ice trolls, yetis, and snowmen.",
+     "text_locale_id": 388370,
+     "target": "ice trolls, yetis, snowmen (Snowhill)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior job contract quests (Caleb Sleepyswing, repeatable), level 20 band",
+    "previous": [
+     "Warrior: Achieve Level 20"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 388368,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388371,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150024,
+   "record": "quest-lines/quests.json q3150024",
+   "title": "Warrior: A Magical Boost",
+   "giver": {
+    "name": "Fastvi Frostflutter",
+    "npc_id": "9000000085",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Obtain a spirit container from the Haunted Mines in Blackspore",
+     "text_locale_id": 94104,
+     "target": "spirit container (Haunted Mines)",
+     "target_locale_id": 95007,
+     "count": 1
+    },
+    {
+     "kind": "collect",
+     "text": "Collect magic sigils from Forest Troll Ritualists in the Forest Troll Fort near Forest Troll Village",
+     "text_locale_id": 94106,
+     "target": "magic sigils (Forest Troll Ritualists, Forest Troll Fort)",
+     "target_locale_id": null,
+     "count": 2
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed for this title; 71524 is the reward line of Warrior: A Skilled Smith, not this quest",
+     "source": "locale:71524"
+    }
+   ],
+   "line": {
+    "name": "Warrior job quest line (restoring Fastvi's weapon)",
+    "previous": [
+     "Warrior: Achieve Level 20"
+    ],
+    "next": [
+     "Warrior: A Skilled Smith"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 94110,
+     "speaker": "Fastvi Frostflutter"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160015,
+   "record": "quest-lines/quests.json q3160015",
+   "title": "Wizard: Lost Student",
+   "giver": {
+    "name": "Yaren Sunstare",
+    "npc_id": "9000000234",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Look for Morgulg near the Snowhill Warpstone",
+     "text_locale_id": 74924,
+     "target": "Snowhill Warpstone",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "As a wizard, find Morgulg's wand in Floren Forest",
+     "text_locale_id": 103845,
+     "target": "Floren Forest",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return the wand to Morgulg in Snowhill",
+     "text_locale_id": 103847,
+     "target": "Morgulg",
+     "target_locale_id": 37306,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take that scroll to Flitter in Sanctuary. She is the best postman around and will make sure it gets to Morgulg.",
+     "text_locale_id": 74926,
+     "target": "Flitter",
+     "target_locale_id": 7595,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Pro Wizard Wand (level 4, now unobtainable)",
+     "source": "repo:notes/Build Guides/Content/Jobs/Wizard.md:93 (wiki only; no client reward record)"
+    },
+    {
+     "kind": "other",
+     "value": "Quest reward line 'Morgulg's lost wand' (story reward text, no item or coin amount)",
+     "source": "locale:116230"
+    }
+   ],
+   "line": {
+    "name": "Wizard job quest line, Band 2 (level 5 to 10)",
+    "previous": [
+     "Wizard: Feeding the Storyteller"
+    ],
+    "next": [
+     "Wizard: Osgood as it Gets"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74917,
+     "speaker": "Yaren Sunstare"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160018,
+   "record": "quest-lines/quests.json q3160018",
+   "title": "Contract: Robgoblin Magic",
+   "giver": {
+    "name": "Natali",
+    "npc_id": "9000000159",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Natali wants a wizard to defeat opponents in the Deep Mines and Bat Cave at Snowhill.",
+     "text_locale_id": 388289,
+     "target": "Deep Mines and Bat Cave (Snowhill)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Natali repeatable Contract quests (Contract: ... Magic), wizard job band 3",
+    "previous": [
+     "Wizard: Reach Level 10"
+    ],
+    "next": [
+     "unknown: no confirmed successor for 3160018"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388287,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388290,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  }
+ ]
+}

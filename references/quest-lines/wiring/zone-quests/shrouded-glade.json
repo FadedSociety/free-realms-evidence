@@ -1,0 +1,414 @@
+{
+ "zone": "Shrouded Glade",
+ "quests": [
+  {
+   "quest_id": 3120011,
+   "record": "quest-lines/quests.json q3120011",
+   "title": "Pet Trainer: Peek-A-Who?",
+   "giver": {
+    "name": "Vidor Stormshroud",
+    "npc_id": "9000000231",
+    "locale_id": 78662
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Use the trick game to train your dog to do the trick \"Peek-a-Boo\".",
+     "text_locale_id": 90044,
+     "target": "Peek-a-Boo trick (dog, trick game)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Teach dog \"Peek-a-Boo\": make sure the trick is equipped under your pet's play menu, then click the paw icon next to your pet and start the trick game.",
+     "text_locale_id": 90554,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Vidor Stormshroud in Shrouded Glade.",
+     "text_locale_id": 90555,
+     "target": "Vidor Stormshroud",
+     "target_locale_id": 78662,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer trick series (Vidor Stormshroud, Shrouded Glade)",
+    "previous": [
+     "Pet Trainer: Mosey On Up"
+    ],
+    "next": [
+     "Pet Trainer: A Rolling Good Time"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90041,
+     "speaker": "Vidor Stormshroud"
+    },
+    "progress": {
+     "locale_id": 115637,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 90045,
+     "speaker": "Vidor Stormshroud"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120012,
+   "record": "quest-lines/quests.json q3120012",
+   "title": "Pet Trainer: A Rolling Good Time",
+   "giver": {
+    "name": "Vidor Stormshroud",
+    "npc_id": "9000000231",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your dog to do the trick \"Roll Over\".",
+     "text_locale_id": 90048,
+     "target": "Roll Over",
+     "target_locale_id": 61,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer main series, band 2: level 10 to 15",
+    "previous": [
+     "Pet Trainer: Peek-A-Who?"
+    ],
+    "next": [
+     "Pet Trainer: Go with the Punches"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90046,
+     "speaker": "Vidor Stormshroud"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90049,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120013,
+   "record": "quest-lines/quests.json q3120013",
+   "title": "Pet Trainer: Go with the Punches",
+   "giver": {
+    "name": "Vidor Stormshroud",
+    "npc_id": "9000000231",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your cat to do the trick \"Box\".",
+     "text_locale_id": 90052,
+     "target": "cat (trick game, trick 'Box')",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer (Roscoe/Vidor trick series, level 10-15 band)",
+    "previous": [
+     "Pet Trainer: A Rolling Good Time"
+    ],
+    "next": [
+     "Pet Trainer: Making a Champ"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90050,
+     "speaker": "Vidor Stormshroud"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90053,
+     "speaker": "Vidor Stormshroud"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120014,
+   "record": "quest-lines/quests.json q3120014",
+   "title": "Pet Trainer: Making a Champ",
+   "giver": {
+    "name": "Vidor Stormshroud",
+    "npc_id": "9000000231",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Train Scrump's cat Tuffy to become really good at \"Box\".",
+     "text_locale_id": 90056,
+     "target": "Tuffy (Scrump's cat)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer (Vidor Stormshroud, level 10 to 15 band)",
+    "previous": [
+     "Pet Trainer: Go with the Punches"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90054,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90057,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3120015,
+   "record": "quest-lines/quests.json q3120015",
+   "title": "Pet Trainer: Achieve Level 15",
+   "giver": {
+    "name": "Vidor Stormshroud",
+    "npc_id": "9000000231",
+    "locale_id": 78662
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer main series, band 2 (build-guide row G15; wiki order, not client-verified)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130028,
+   "record": "quest-lines/quests.json q3130028",
+   "title": "Postman: Beware of Dogs",
+   "giver": {
+    "name": "Brin Galeglow",
+    "npc_id": "9000000031",
+    "locale_id": 45410
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Collect the mail from Shrouded Glade.",
+     "text_locale_id": 130315,
+     "target": "Shrouded Glade mail",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Collect the mail in Shrouded Glade, but watch out for those pesky pooches.",
+     "text_locale_id": 130318,
+     "target": "Shrouded Glade pooches (avoid dogs)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Beware of Dogs minigame",
+     "text_locale_id": 130319,
+     "target": "Beware of Dogs minigame",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "no reward string verified for this quest; 130333 'stars and coin' is generic and unattached"
+    }
+   ],
+   "line": {
+    "name": "Postman job quest line (Band 6, Shrouded Glade and the PCA Camp)",
+    "previous": [
+     "Postman: Summit in Shrouded Glade"
+    ],
+    "next": [
+     "Postman: Mile High Mail"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 130313,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130316,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3130029,
+   "record": "quest-lines/quests.json q3130029",
+   "title": "Postman: Mile High Mail",
+   "giver": {
+    "name": "Brin Galeglow",
+    "npc_id": "9000000031",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Complete the Shrouded Glade Mail Sorting minigame",
+     "text_locale_id": 130390,
+     "target": "Shrouded Glade Mail Sorting",
+     "target_locale_id": 102038,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Sort the ever growing stack of mail in Shrouded Glade.",
+     "text_locale_id": 130389,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman (job quest line, Band 6 - Shrouded Glade and the PCA Camp)",
+    "previous": [
+     "Postman: Beware of Dogs"
+    ],
+    "next": [
+     "Postman: Always On Time"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 130369,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130372,
+     "speaker": "Brin Galeglow"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130030,
+   "record": "quest-lines/quests.json q3130030",
+   "title": "Postman: Always On Time",
+   "giver": {
+    "name": "Brin Galeglow",
+    "npc_id": "9000000031",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Deliver the mail for Shrouded Glade.",
+     "text_locale_id": 130398,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman quest line (Band 6, Shrouded Glade and the PCA Camp)",
+    "previous": [
+     "Postman: Mile High Mail"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 130396,
+     "speaker": "Brin Galeglow"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130399,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130031,
+   "record": "quest-lines/quests.json q3130031",
+   "title": "Postman: Achieve Level 20",
+   "giver": {
+    "name": "Brin Galeglow",
+    "npc_id": "9000000031",
+    "locale_id": 45410
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 20 as a postman.",
+     "text_locale_id": 387969,
+     "target": null,
+     "target_locale_id": null,
+     "count": 20
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman job quest line (Band 6, Shrouded Glade)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387944,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 387945,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  }
+ ]
+}

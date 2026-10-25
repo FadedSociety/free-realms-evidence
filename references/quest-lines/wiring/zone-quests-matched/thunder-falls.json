@@ -1,0 +1,902 @@
+{
+ "zone": "Thunder Falls",
+ "wireable_by_match": [
+  {
+   "quest_id": 3060006,
+   "record": "quest-lines/quests.json q3060006",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Taking the Wheel",
+   "live": "unsure",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "resolved_giver": {
+    "npc_id": 9000000289,
+    "name": "Crash Davis",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: previous/next are taken from guide Series 1 row order (rows 2 and 4). The guide itself marks License to Drive's placement and the Taking the Wheel prerequisite as inferred (rows 2-3 'After ... (inferr",
+    "giver: Giver is stated as Crash Davis (npc 9000000289, locale 100234). Locale 100234 checks out as 'Crash Davis'. The server record does carry giver_npc_id 9000000289. But the guide marks the giver as 'Crash",
+    "zone: Zone 'Thunder Falls' conflicts with the NPC file, which places 9000000289 in the Wilds regional file. The answer flags this in open, which is honest. The minigame note (notes/Research/Minigame Entry P",
+    "objectives: Objectives are empty, but the guide's row 3 names three real client strings for this quest (4286549381 'Pass your behind the wheel test...', 3834076018 'It's time to take your kart for a test drive...",
+    "live: Live status 'unsure' is correct. Record enabled:false, objectives [], rewards []; the near-duplicate title 419235 'Demo Derby: Taking The Wheel ' is confirmed in client text, so the name variant is un",
+    "giver: The giver link (Crash Davis, 9000000289, locale 100234) is stated as the giver without the guide's '(inferred)' tag in the top-level field. The guide row 3 and the NPC dossier both mark it inferred. T"
+   ]
+  },
+  {
+   "quest_id": 3060009,
+   "record": "quest-lines/quests.json q3060009",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Dealing Damage",
+   "live": "unsure",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000289,
+    "name": "Crash Davis",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Dish out a lot of damage while competing in a Thunder Falls Demolition Derby. (description text, not a confirmed tracked step)",
+     "text_locale_id": 394024,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Help Crash Davis even out his winning odds by dealing a lot of damage to everyone else. (description text, not a confirmed tracked step)",
+     "text_locale_id": 394464,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[2] / missing description: The guide's row 6 (Demolition Derby Driver.md:75) lists a third client description, 'Crash's new kart is in pretty bad shape...' (locale 1956640464), which gives the reason for the damage objective. T",
+    "line.previous / line.next: The links Break 'er In -> Dealing Damage -> Spare Parts come only from the guide's inferred order (guide row 5-7, Demolition Derby Driver.md:74-76). Nothing in client text confirms it. The chain notes",
+    "objectives[0..1]: Both objectives are description text with no target, count or tracked step. The encounter 2350813286 is guide-only and unverified. A builder cannot wire these as they stand.",
+    "objectives[0], objectives[1]: Both description ids check out as live unflagged text (394024 'Dish out a lot of damage while competing in a Thunder Falls Demolition Derby.' and 394464 'Help Crash Davis even out his winning odds...'",
+    "line: Previous/next (Break 'er In -> Dealing Damage -> Spare Parts) is guide-inferred. The chain notes say the Spare Parts answer lists no previous and the Break 'er In answer lists no next, so the neighbou",
+    "giver.locale_id: Left null, which is correct: 419307 is a flagged placeholder and is not used. Giver NPC 9000000289 Crash Davis is supported by the record and the guide."
+   ]
+  },
+  {
+   "quest_id": 3060011,
+   "record": "quest-lines/quests.json q3060011",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: So Long, Betty!",
+   "live": "unsure",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000065",
+    "locale_id": 100234
+   },
+   "resolved_giver": {
+    "npc_id": 9000000289,
+    "name": "Crash Davis",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Pay a visit to Crash's sponsor in Lakeshore to help secure funding for a new car.",
+     "text_locale_id": 394022,
+     "target": "Merri De'Flor",
+     "target_locale_id": 19671,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000146,
+      "name": "Merri De'Flor",
+      "file": "npcs/lakeshore.json",
+      "zone": "Lakeshore",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Funds secured for Crash Davis to build a new derby car (text only; no coin or item amount in client)",
+     "source": "locale:402847"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 393379,
+     "speaker": "Old Betty"
+    },
+    "progress": {
+     "locale_id": 394288,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "zone: The answer records Thunder Falls for the giver and Lakeshore for the objective, and leaves the NPC-file conflict (npcs_unresolved.json:679 says Lakeshore) unreconciled. Checked: locale:394057 'Speak t",
+    "title / live: A second client title exists for the same name: locale:393299 'So Long, Betty!' (quest_title, no FLAG shown). The answer does not mention it. The 403454 title ('Demo Derby: So Long, Betty!') is the on",
+    "giver.npc_id: npc_id 9000000065 appears only in the record file (demo_derby_driver.json:413) and npcs_unresolved.json:674; the answer does not show it resolving to Crash Davis, and the evidence pack's giver name is",
+    "dialog.offer / evidence: Verified text: locale:393379 says 'let Merri De'Flor in Lakeshore know' and locale:394288 has Merri as Crash's sponsor. Both match the answer. Locale:402847 is confirmed as news/completion text, and t",
+    "line.previous / line.next: Both left empty, but the record file sits in a numbered run: 3060010 (title 403455 'Demo Derby: Spare Parts') precedes 3060011 and 3060012 follows it in demo_derby_driver.json (lines 372, 411, 450). T",
+    "giver / zone: The zone conflict is real and unresolved, but the client supports the answer's choice: locale:394057 'Speak to Crash Davis at Thunder Falls' is the start line. The objective locale 394022 (Lakeshore) "
+   ]
+  },
+  {
+   "quest_id": 3060013,
+   "record": "quest-lines/quests.json q3060013",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Tucker's Troubles",
+   "live": "unsure",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "resolved_giver": {
+    "npc_id": 9000000289,
+    "name": "Crash Davis",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "See what the hold up is with Tucker Thunderjolt outside of Thunder Falls.",
+     "text_locale_id": 394016,
+     "target": "Tucker Thunderjolt",
+     "target_locale_id": 19365,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000495,
+      "name": "Tucker Thunderjolt",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Completion text only; no coin, xp or item amount found",
+     "source": "locale:402845"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 402845,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives: Locale ids check out: 394016 is the talk text, hint-tagged 'Thunder Falls Tucker Thunderjolt' (lookup confirms), target 19365 'Tucker Thunderjolt' is an npc_name, 402845 is the completion text tagged ",
+    "giver: Giver id 9000000289 and name 'Crash Davis' (100234, clean, no flag) are supported. The NPC's recorded zone is Wilds, which conflicts with the quest's Thunder Falls setting. The answer says so under op",
+    "dialog.complete: 402845 is typed quest_reward in the client table, not a dialog line. The answer calls it the completion dialog. Minor wording, but the type should be stated.",
+    "line.previous / line.next: Empty previous and next is honest: 393370 contradicts Crash for Coin as the predecessor, and no client link to Curious Crash was found. The line name rests on the guide alone.",
+    "line.previous: Left empty, and the reason given is weak. The answer says locale 393370 (Crash for Coin's completion next-step, pointing to the Wildwood track) contradicts Crash for Coin as the previous quest. It doe",
+    "line.next: Left empty although the guide gives the next row. Row 11 is 'Demo Derby: Curious Crash' (title locale 403457, verified in the client cluster), given by Tucker Thunderjolt after Tucker's Troubles. The "
+   ]
+  },
+  {
+   "quest_id": 3060016,
+   "record": "quest-lines/quests.json q3060016",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Seeking a Sponsor",
+   "live": "yes",
+   "giver": {
+    "name": "Tucker Thunderjolt",
+    "npc_id": "9000000495",
+    "locale_id": 19365
+   },
+   "resolved_giver": {
+    "npc_id": 9000000495,
+    "name": "Tucker Thunderjolt",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Prove yourself to Kanan by scoring points during a Thunder Falls derby.",
+     "text_locale_id": 394466,
+     "target": "Thunder Falls derby",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Speak to Kanan at Stillwater Crossing",
+     "text_locale_id": 394080,
+     "target": "Kanan",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000124,
+      "name": "Kanan",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Sponsorship from Kanan (Paws 'n Claws crashing crew); no coin or item amount found",
+     "source": "repo:notes/Build Guides/Content/NPCs/NPCs - Stillwater Crossing.md:158"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 393344,
+     "speaker": "Tucker Thunderjolt"
+    },
+    "progress": {
+     "locale_id": 394293,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line: The previous link 'Demo Derby: Arena Revenge' rests only on guide row order (row 12 to row 13). The answer's own open list admits there is no explicit link in the records.",
+    "live: 'live: yes' is stated as a finding, but the only evidence is that the title id exists in an unflagged batch and appears in the guide. Nothing in the pack proves the quest is live. The answer's own con",
+    "objectives[0]: The answer's text_locale_id 394466 is right. I confirmed through lookup that it is tagged quest_objective, so the answer's 'type not confirmed' note is out of date. Its kind 'other' is a reasonable la",
+    "dialog.offer: The offer string 393344 is checked and its text matches. Its client type (quest_dialog) was not confirmed in the answer, and I did not confirm it either.",
+    "rewards[0]: The reward is a relationship (sponsorship from Kanan) with no coin or item amount. The answer says so, and the guide row 13 'A sponsor (Paws 'n Claws)' supports it, but the value field is free text.",
+    "giver: The giver is kept as Tucker Thunderjolt (9000000495) from the record and guide, but the evidence pack says wilds.json quest_ids_given omits 3060016. The answer flags this, yet the giver stays only mod"
+   ]
+  },
+  {
+   "quest_id": 3060042,
+   "record": "quest-lines/quests.json q3060042",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: A Hero's Homecoming",
+   "live": "unsure",
+   "giver": {
+    "name": "Jackson Spinner",
+    "npc_id": "9000000111",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000111,
+    "name": "Jackson Spinner",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The giver block states Jackson Spinner (npc 9000000111) without the 'inferred' qualifier. The only source tying him to this quest is the guide's 'Jackson Spinner (inferred)' marker and the record's gi",
+    "evidence[2]: Locale 393408 is tagged quest_dialog with zone/hint 'Bristlewood Thunder Falls', not a Thunder Falls line. The answer calls it 'Jackson-era dialog' with speaker unconfirmed. That is a guess, though it",
+    "line: Verified: 403483 title text is exact and unflagged; 393368 text is exact and quest_dialog; 393408 text matches. No next quest is identified, and the Booby Trapped predecessor (403480) is only a candid",
+    "line.previous: Left empty even though the guide places this quest at row 39 directly after row 38, Demo Derby: Booby Trapped! (locale 403480, record 3060041), with the same giver. Row 38 is 'After Tangletrack Trio' ",
+    "line.next: Empty, with no next candidate. Nothing in the guide or shells names a successor, so this is an honest unknown rather than an error.",
+    "giver: Jackson Spinner (npc 9000000111) is marked inferred in the guide, and his quests_given_text omits this quest. The giver is unconfirmed, as the answer says."
+   ]
+  },
+  {
+   "quest_id": 3080027,
+   "record": "quest-lines/quests.json q3080027",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Making Amends",
+   "live": "unsure",
+   "giver": {
+    "name": "Chase Wheeler",
+    "npc_id": "9000000271",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000273,
+    "name": "Chase Wheeler",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Get Chase Wheeler's parts back from Linx Redline near Thunder Falls Speedway.",
+     "text_locale_id": 395233,
+     "target": "Linx Redline's kart",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000164,
+      "name": "Linx Redline",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Linx Redline went to a lot of trouble hiding his kart out here, but you found it! Now you just need to get Chase Wheeler's parts back before his pit crew notices.",
+     "text_locale_id": 395752,
+     "target": "Linx Redline's kart",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000164,
+      "name": "Linx Redline",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "Take Chase Wheeler's parts all the way back to his kart, but make sure to avoid Linx's pit crew!",
+     "text_locale_id": 395756,
+     "target": "Chase Wheeler's parts",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return Chase Wheeler's parts to his kart",
+     "text_locale_id": 395755,
+     "target": "Chase Wheeler's Kart",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000273,
+      "name": "Chase Wheeler",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Don't lose any parts to Linx's pit crew",
+     "text_locale_id": 398267,
+     "target": "Linx's pit crew",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none seen in client text",
+     "source": "repo:notes/Build Guides/Content/Jobs/Kart Driver.md:90 (rewards unknown); locale:394704 gives only dialog"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 394701,
+     "speaker": "Chase Wheeler"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 394704,
+     "speaker": "Chase Wheeler"
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: Text 395233 ('Get Chase Wheeler's parts back from Linx Redline near Thunder Falls Speedway.') resolves, and its wording matches this quest's stage. The answer itself says its quest hint is unverified,",
+    "evidence[9] / line.previous: The answer says 394699 is the Settling the Score race step and not a Making Amends objective. The client table tags 394699 with hint 'Kart Driver: Making Amends' (quest_objective, Thunder Falls). The ",
+    "objectives[1] and objectives[3]: The verified ids 395752, 395755 and 398267 all resolve to matching text. The guide's ids 3635590744, 2551228779, 4213683432 and 3993363948 do not match the locale table, so the answer's replacement id",
+    "giver.locale_id: Null, and the answer says so. The giver is taken from the record and the guide, not an NPC table. This is honest but unverified.",
+    "line.previous: Previous link 'Settling the Score' rests on guide row 24 order, not a verified prerequisite. The evidence pack tags 394697 (the 'I made it all up' reveal) and 394699 (settle the score with Linx) with ",
+    "giver.locale_id: Giver locale id is null and the name is attributed from the guide and wiki only. The offer and completion dialog ids are attributed to Chase by content, not by NPC dialog table."
+   ]
+  },
+  {
+   "quest_id": 3080031,
+   "record": "quest-lines/quests.json q3080031",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Thunder Falls Endurance Challenge",
+   "live": "unsure",
+   "giver": {
+    "name": "Shooblemoot",
+    "npc_id": null,
+    "locale_id": 394913
+   },
+   "resolved_giver": {
+    "npc_id": 9500000943,
+    "name": "Shooblemoot",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395155,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives: Empty objectives, but the client has an unflagged quest_objective locale:395194 'Beat the \"Thunder Falls Endurance Challenge\" race' (the 'Frost Ridge'/'Tangletrack'/'Wildwood' siblings follow the same",
+    "giver.npc_id: Left null, yet the record's giver 9000000464 is present in repo npcs_unresolved.json (ref_id 9000000464), and the answer does not cite it. The answer also states the giver name without a confirmed NPC",
+    "dialog.offer: 395145 is labelled offer by inference only. The lookup tags it to this quest as quest_dialog, so the tag supports the claim, but the offer role is still unconfirmed. The answer already says this.",
+    "line.next: The chain note says the Dominating answer lists previous as 'Kart Racer: Thunder Falls Endurance Challenge' (locale:3542, a race name). That contradicts the guide's row order (Endurance row 29 then Do",
+    "giver: The answer leaves giver npc_id null, but the record carries 9000000464 and the answer's own evidence names two conflicting ids (9000000464 on record 3080031, 9500000943 in the previous answer). Shoobl",
+    "line.next: The next link 'Kart Driver: Dominating at Thunder Falls' is correct as a title: locale 3579 returns exactly that text, and the guide lists it as row 30 after Endurance at row 29. The guide also has a "
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3060008,
+   "record": "quest-lines/quests.json q3060008",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Break 'er In",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000529",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Break in the new kart by knocking out a few cars while competing in a Thunder Falls demolition derby.",
+     "text_locale_id": 394459,
+     "target": "Thunder Falls demolition derby",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "live_reason: Says the guide lists the title as an 'inferred title'. Guide row 5 (Demolition Derby Driver.md:74) marks the match as 'direct (string says \"Break in\")', not inferred. The guide does mark the giver and",
+    "evidence[1]: Claims the guide's objective id 1578344725 does not resolve. I could not resolve it either, so the claim holds, but the answer does not mention the guide's second objective string 3075310790 ('Knock o",
+    "line.previous / line.next: Lists are empty while the guide gives row 4 (Routine Maintenance) and row 6 (Dealing Damage) as neighbours. The answer documents this as a guide-order reading in evidence and open, so it is honest, bu",
+    "line.previous / line.next: Both are empty, but the guide does give order for this row. Row 4 is Routine Maintenance (locale 403452) and row 6 is Dealing Damage (403456). The answer never names them, so the chain position is los",
+    "objectives[0].text_locale_id: Minor: the answer's evidence says the objective is 'linked by wording only'. I checked locale:394459 and it resolves to the exact objective text, tagged quest_objective with hint 'Thunder Falls Break ",
+    "quest.title / title_locale_id: Verified: locale:403449 is 'Demo Derby: Break 'er In' (quest_title, no FLAG). The title is correct. The guide's title cell ids (67778496 ucdt, 2552025369 ugdt) are not mentioned in the answer."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Thunder Falls demolition derby)"
+   ]
+  },
+  {
+   "quest_id": 3060012,
+   "record": "quest-lines/quests.json q3060012",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Thunder Falls Crash for Coin",
+   "live": "unsure",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "resolved_giver": {
+    "npc_id": 9000000289,
+    "name": "Crash Davis",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Compete in the Thunder Falls Crash for coins!",
+     "text_locale_id": 394052,
+     "target": "Thunder Falls Crash for Coin derby",
+     "target_locale_id": 393329,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 393409,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394318,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: The objective text 394052 'Compete in the Thunder Falls Crash for coins!' is confirmed in the client but tagged quest_title, not quest_objective, so its use as this quest's objective line is an infere",
+    "dialog.progress: The answer says 394318 could not be re-verified. It does resolve: 'You'd better get in the arena before the Crash for Coins derby starts!'. Its speaker is still unnamed.",
+    "giver: Crash Davis (9000000289) rests only on the guide and repo record. No client quest-giver link was found. Client 393336 ('Crash Davis has informed you that you'll need to pass a test') is a different qu",
+    "line: The previous neighbour (3060011) lists giver 9000000065 in the repo, not Crash Davis, and the next neighbour's record does not link back. The chain is guide order only.",
+    "zone: Client text (393329, 393449, 394052) and the answer place the derby at Thunder Falls. Repo NPC notes (NPCs - Wilds.md:178) put Crash Davis in Wilds, and NPCs - Wilds.md:324 says the Thunder Falls owne",
+    "line: The previous/next links are guide row order only, as the answer says. The guide's own row 10 (Tucker's Troubles) says 'Early in this series' and gives no strict ordering after row 9, so 'next' is infe"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Thunder Falls Crash for Coin derby)"
+   ]
+  },
+  {
+   "quest_id": 3060014,
+   "record": "quest-lines/quests.json q3060014",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Curious Crash",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Investigate the crash site outside of Thunder Falls and recover any evidence.",
+     "text_locale_id": 394025,
+     "target": "crash site outside Thunder Falls",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 393342,
+     "speaker": "Crash Davis"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line.next: The answer leaves next empty and says 'Demo Derby: Arena Revenge' is 'not verified'. The guide's row 12 (Demolition Derby Driver.md:88) lists Arena Revenge as 'After Curious Crash (inferred)', and the",
+    "line.previous: Previous link to Tucker's Troubles is removed, but the guide's row 11 ('After Tucker's Troubles (inferred)') and row 10 both support it. Removing it makes the line look unlinked when the only problem ",
+    "giver: The giver is null in the answer, but the Wilds NPC data (wilds.json 43603-43687) and the record carry 9000000495 (Tucker Thunderjolt), and the guide row 11 gives Tucker as inferred. Setting giver to n",
+    "objectives[0].text_locale_id: The guide cites 454988205 for this objective, which is not a client id. The answer's 394025 is the correct client id: its text matches exactly (locale lookup confirms 'Investigate the crash site outsi",
+    "giver: Giver is null and the record's 9000000495 rests only on the guide's inferred row 11. The answer correctly leaves it open. Crash Davis is a competing candidate: locale:393342 (quest_objective, hint Cra",
+    "objectives[0].text_locale_id: Verified: locale 394025 matches the objective text exactly. The guide's cited id 454988205 does not resolve to it, and the answer discloses that. Nothing wrong here."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3080024,
+   "record": "quest-lines/quests.json q3080024",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Age Before Beauty",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000427",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Please hurry and talk to Ace O'Mally at the Thunder Falls Speedway.",
+     "text_locale_id": 395131,
+     "target": "Thunder Falls Speedway",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Ace O'Mally",
+     "text_locale_id": 395143,
+     "target": "Ace O'Mally",
+     "target_locale_id": 101907,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000867,
+      "name": "Ace O'Mally",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Ace O'Mally in the \"Age Before Beauty\" race at Thunder Falls Speedway.",
+     "text_locale_id": 395162,
+     "target": "Ace O'Mally",
+     "target_locale_id": 101907,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395129,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "live_reason / evidence: The answer omits that the Ace O'Mally dialogue lines for this same quest family are also flagged not_live: locale:101228 ('part of NOT LIVE quest') and locale:101225 ('neighbouring quest title marked ",
+    "line.previous: The chain note says 'Kart Driver: The Price of Fame' lists next as nothing, which contradicts this answer's next-link to the same quest from the other side. The answer's previous/next come only from g",
+    "giver: Giver is null. The verified text supports Petal Oceanmist as the race setter: locale:395129 says 'Petal set up a race between you and ... Ace O'Mally', and locale:394904 names Petal Oceanmist. This is",
+    "line.previous: Previous 'Kart Driver: The Price of Fame' matches guide row 21 (locale:3820831760 / 2023117556). The guide says Price of Fame hands the player on to Thunder Falls, so this link is supported. The other",
+    "giver: Giver left null, which is honest, but the lines context is incomplete: locale:395129 is a progress line ('Petal set up a race...') and names Petal, not an offer giver. The guide's giver 'Petal Oceanmi",
+    "line.next: Next 'Kart Driver: A Helping Hand' (guide row 23, locale:1447593412 title) is guide-order only, marked inferred. Consistent with the guide and with the Age Before Beauty objectives (Ace O'Mally race e"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Ace O'Mally)"
+   ]
+  },
+  {
+   "quest_id": 3080028,
+   "record": "quest-lines/quests.json q3080028",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: High Speed Chase",
+   "live": "yes",
+   "giver": {
+    "name": "Chase Wheeler",
+    "npc_id": "9000000271",
+    "locale_id": 395167
+   },
+   "resolved_giver": {
+    "npc_id": 9000000273,
+    "name": "Chase Wheeler",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Chase Wheeler in the \"High Speed Chase\" race at Thunder Falls Speedway.",
+     "text_locale_id": 395247,
+     "target": "Chase Wheeler",
+     "target_locale_id": 395167,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "dialog: offer/progress/complete are all null. locale:394707 ('Chase Wheeler is the next opponent you'll have to face at Thunder Falls...') is confirmed to exist as Chase Wheeler speech and fits the pre-race l",
+    "objectives[0]: The verb 'Beat' is supported by locale:395247 ('Beat Chase Wheeler in the \"High Speed Chase\" race at Thunder Falls Speedway.'), which is unflagged. But locale:400946/400947 ('Place Higher than Chase W",
+    "record description / end text: The answer correctly says record description locale:3533 ('Kart Racer: Thunder Falls Sprint Challenge') and end text locale:3534 ('Wanna fly a kite?') belong to other quests. It does not correct them.",
+    "rewards: Rewards are empty and marked unknown. This is honest, but the answer gives no source for the reward state.",
+    "record description / end text (locale 3533 / 3534): The answer correctly notes that 3533 ('Kart Racer: Thunder Falls Sprint Challenge') and 3534 ('Wanna fly a kite?') are not this quest's text, but it leaves the record pointing at them and gives no rep",
+    "dialog.offer / dialog.progress: Left null, but the guide row 91 gives a concrete candidate that the answer does not mention: locale 802383152 'Chase Wheeler is the next opponent you'll have to face at Thunder Falls.' The answer inst"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Chase Wheeler)"
+   ]
+  },
+  {
+   "quest_id": 3080033,
+   "record": "quest-lines/quests.json q3080033",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Dominating and Thunder Falls",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000544",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Win three races at Thunder Falls Speedway.",
+     "text_locale_id": 395272,
+     "target": null,
+     "target_locale_id": null,
+     "count": 3,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Win the \"Dominating at Thunder Falls\" race three times",
+     "text_locale_id": 395275,
+     "target": null,
+     "target_locale_id": null,
+     "count": 3,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver npc 9000000544 is unnamed in every source. The only hits are kart_driver.json:1620 (giver_npc_id) and npcs_unresolved.json:5031. The answer correctly leaves it null.",
+    "line: The previous/next links come only from guide row order (rows 30 and 32). The sibling answer for row 30 lists next as nothing, which conflicts with this answer's next link. The answer flags this as uns",
+    "evidence (dialog): The guide's row 30 progress line (client 2656536534) reads 'You need to prove without a doubt that you're the best racer at Thunder Falls...', which matches locale 395264 word for word. The answer say",
+    "line.next: The answer's next link (Endorsement Deal) is consistent with guide rows 31 and 32, and it correctly flags the conflict. But the sibling row-30 answer lists next as Endorsement Deal and omits this ques",
+    "objectives[0]: Objective 395272 text ('Win three races at Thunder Falls Speedway.') is identical to the row-30 objective the guide cites as 3441739777. The guide's id does not resolve, but the text matches 395272 ex",
+    "giver: Giver is null (npc 9000000544 unnamed in every source). Not a fail by the open-items rule, but it blocks wiring. Shooblemoot is the line sponsor and the likely giver for row 30 and its neighbours, but"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Win three races at Thunder Falls Speedway.)",
+    "needs mechanic: minigame (Win the \"Dominating at Thunder Falls\" race three times)"
+   ]
+  },
+  {
+   "quest_id": 3080047,
+   "record": "quest-lines/quests.json q3080047",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: SG Tour 400: Thunder Falls",
+   "live": "unsure",
+   "giver": {
+    "name": "Kade Carmichael (inferred; actor-to-name mapping unresolved)",
+    "npc_id": "9000000371",
+    "locale_id": 101924
+   },
+   "resolved_giver": {
+    "npc_id": 9500000153,
+    "name": "Kade Carmichael",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Beat Kade Carmichael in a race at Thunder Falls Speedway.",
+     "text_locale_id": 398088,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000153,
+      "name": "Kade Carmichael",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Kade outside Thunder Falls",
+     "text_locale_id": 398093,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000153,
+      "name": "Kade Carmichael",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 395347,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The giver name 'Kade Carmichael' (locale 101924) is a text match. npcs_unresolved.json:2747-2755 lists ref 9000000371 as 'Kade Carmichael (inferred)' with name_string_id null and the reason 'no actor-",
+    "line.previous: The previous quest 'Kart Driver: SG Tour 400: Frost Ridge' (record 3080046, title_string_id 395343) was not verified against locale. The chain link rests on the guide's row order alone.",
+    "objectives[1].kind: Kind 'talk' for 398093 is inferred, not stated in the client. The text 'Return to Kade outside Thunder Falls' is verified (locale 398093), but the kind is a guess.",
+    "zone: The answer hedges the 'Lakeshore' label, which is correct to hedge. Zone 'Thunder Falls' is in fact supported by the client quest_title tag for 3580 (zone 'Thunder Falls') and the locale 3606 'Thunder",
+    "dialog.offer: Offer dialog is null although a candidate lead-in exists in the client. 395347 ('The next race is at Thunder Falls Speedway... two chances...') is unflagged quest_dialog text with the SG Tour 400 Thun",
+    "line.previous: The previous link to Frost Ridge (3080046) is supported by the guide's row 44 and the shared giver, and the lead-in text 395349 ('After winning the race at Frost Ridge...') fits. But the guide's own r"
+   ],
+   "blocked_by": [
+    "giver 'Kade Carmichael (inferred; actor-to-name mapping unresolved)' row 9500000153 not placed",
+    "defeat target 'Kade Carmichael' not placed in our rows",
+    "talk target 'Kade Carmichael' not placed in our rows"
+   ]
+  }
+ ]
+}

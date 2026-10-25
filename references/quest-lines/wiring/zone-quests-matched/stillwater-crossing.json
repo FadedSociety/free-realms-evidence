@@ -1,0 +1,493 @@
+{
+ "zone": "Stillwater Crossing",
+ "wireable_by_match": [
+  {
+   "quest_id": 3050016,
+   "record": "quest-lines/quests.json q3050016",
+   "quest_file": "chef.json",
+   "title": "Chef: Gavin Gone Missing",
+   "live": "yes",
+   "giver": {
+    "name": "Helena",
+    "npc_id": "9000000103",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000103,
+    "name": "Helena",
+    "file": "npcs/stillwater_crossing.json",
+    "zone": "Stillwater Crossing",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Gavin Greenpetal on the road heading south out of Stillwater Crossing.",
+     "text_locale_id": 116494,
+     "target": "Gavin Greenpetal",
+     "target_locale_id": 116522,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000096,
+      "name": "Gavin Greenpetal",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 116492,
+     "speaker": "Helena"
+    },
+    "progress": {
+     "locale_id": 116801,
+     "speaker": "Helena"
+    },
+    "complete": {
+     "locale_id": 116495,
+     "speaker": "Gavin Greenpetal"
+    }
+   },
+   "critic_problems": [
+    "dialog.progress: Left null as 'not identified', but locale:116801 is an unflagged in-progress line that fits this quest: 'Did you find my assistant, Gavin Greenpetal yet? He's got to be somewhere along the road headin",
+    "objectives[0]: Objective text and target are verified (116494 is an unflagged quest_objective; 116522 'Gavin Greenpetal' is an NPC name). The alternate objective 116653 ('As a chef, find Gavin Greenpetal somewhere a",
+    "giver.locale_id: Null is honest; the pack does not contain Helena's name string. Not a wrong claim.",
+    "line.next: Next quest 'Chef: Harvest Hiccup!' (3050017, title 116497) is confirmed by chef.json and the wiki (Harvest Hiccup listed with Gavin Greenpetal). The chef.json giver for 3050017 is npc 9000000096, not ",
+    "objectives[0].text: The objective text is a paraphrase ('Find Gavin Greenpetal on the road heading south out of Stillwater Crossing.') but is attributed to text_locale_id 116494, whose verbatim text is \"Helena's assistan",
+    "dialog.progress: Left null, but the client has an in-progress line for this search: locale:116801 (quest_dialog, Stillwater, speaker Gavin Greenpetal): \"Did you find my assistant, Gavin Greenpetal yet? He's got to be "
+   ]
+  },
+  {
+   "quest_id": 3050017,
+   "record": "quest-lines/quests.json q3050017",
+   "quest_file": "chef.json",
+   "title": "Chef: Harvest Hiccup!",
+   "live": "yes",
+   "giver": {
+    "name": "Gavin Greenpetal",
+    "npc_id": "9000000096",
+    "locale_id": 116522
+   },
+   "resolved_giver": {
+    "npc_id": 9000000096,
+    "name": "Gavin Greenpetal",
+    "file": "npcs/stillwater_crossing.json",
+    "zone": "Stillwater Crossing",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Click on the Basket of Ingredients next to Gavin to start collecting his scattered ingredients.",
+     "text_locale_id": 116948,
+     "target": "Basket of Ingredients",
+     "target_locale_id": 116871,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Robgoblin fishers have thrown Gavin's ingredients all over the nearby area! Collect all five Bundles of Ingredients before the time runs out!",
+     "text_locale_id": 116983,
+     "target": "Bundles of Ingredients",
+     "target_locale_id": 116971,
+     "count": 5,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the ingredients back to Gavin Greenpetal so that he can finally return to Stillwater Crossing.",
+     "text_locale_id": 139403,
+     "target": "Gavin Greenpetal",
+     "target_locale_id": 116522,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000096,
+      "name": "Gavin Greenpetal",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward source found",
+     "source": "notes/Build Guides/Content/Jobs/Chef.md:103 (reward cell 'unknown')"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 116950,
+     "speaker": "Gavin Greenpetal"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 116499,
+     "speaker": "Gavin Greenpetal"
+    }
+   },
+   "critic_problems": [
+    "line.next: The Queensfields link rests on 116502, which the answer cites as 'its intro'. In the client, 116502 is a quest_objective under the Honey hint that says 'Now that you've saved Gavin Greenpetal's harves",
+    "objectives[0]: The basket step is typed 'use', but locale 116949 calls it 'Beat the Harvest Hiccup! minigame'. The answer flags this as open, which is correct. The text ids are real: 116948 is unflagged, and 431179 ",
+    "objectives[1]: Verified: 116983 is the 'Gavin's ingredients' quest_dialog and 116971 is the 'Bundle of Ingredients' quest_objective with the text 'Collect five Bundles of Ingredients'. The count of 5 is correct. No ",
+    "live_reason: Liveness is inferred from unflagged client text and the wiki listing, with no dated source. The answer states this with moderate confidence, which is fair.",
+    "next: The answer dismisses locale 100544 (Chef: Queensfields description, 'Now that you've saved Jonelle's packages...') as wording from another quest. That is correct, but the answer omits the reason: 'Che",
+    "objectives[0]: The basket step is modelled as kind 'use', but the client calls it a minigame ('Beat the Harvest Hiccup! minigame', locale 116949, unflagged). The entry mechanism is not identified. Text ids and targe"
+   ]
+  },
+  {
+   "quest_id": 3060018,
+   "record": "quest-lines/quests.json q3060018",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Defeating Diggs",
+   "live": "unsure",
+   "giver": {
+    "name": "Kanan",
+    "npc_id": "9000000124",
+    "locale_id": 116843
+   },
+   "resolved_giver": {
+    "npc_id": 9000000124,
+    "name": "Kanan",
+    "file": "npcs/stillwater_crossing.json",
+    "zone": "Stillwater Crossing",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The giver Kanan (9000000124) is only inferred. The guide row 15 says 'Kanan (inferred)', and the NPC record's quests_given_text is itself unreliable (it wrongly lists Seeking a Sponsor as Kanan-given)",
+    "evidence: The answer omits locale:395014 'Defeating Diggs [Encounter]' (quest_title, unflagged), which shares the bare title and is the encounter-side name. It bears on the liveness question and on whether 'Def",
+    "objectives: Objectives are empty. The client lines 394084, 394085, 395066 and 394467 all verify as text and hint to other quests (Frost Ridge Invitational, Wildwood Demo Derby Base, Paws 'n Claws), as the answer ",
+    "line.previous / line.next: Both are left empty. The guide (notes/Build Guides/Content/Jobs/Demolition Derby Driver.md rows 14-16) gives an inferred order: row 14 A Lukewarm Welcome (3060017) comes before, and row 16 Turf Tussle",
+    "giver: Kanan is an inferred giver from guide row 15 ('Kanan (inferred)') and an NPC record whose quests_given_text is shown to be wrong for Seeking a Sponsor. Not wireable on this basis.",
+    "objectives: Empty. Verified the hints: 394085 and 394084 are hinted to Frost Ridge Invitational (403486), 394467 to Paws 'n Claws, 395066 to Wildwood Demo Derby Base, and 394295 is FLAG fragment. None hints to 40"
+   ]
+  },
+  {
+   "quest_id": 3070002,
+   "record": "quest-lines/quests.json q3070002",
+   "quest_file": "fisherman.json",
+   "title": "Being a Better Fisherman",
+   "live": "unsure",
+   "giver": {
+    "name": "Message Board",
+    "npc_id": "9000000149",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 100000002348,
+    "name": "Message Board",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Learn how to advance your skill as a Fisherman by speaking with Reed Stillwater in Stillwater Crossing",
+     "text_locale_id": 442249,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000181,
+      "name": "Reed Stillwater",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "repo:notes/Build Guides/Content/Jobs/Fisherman.md:55 (rewards cell 'unknown')"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line.next: next is [] and the line is said to end here. T244.md:5-11 and :43-47 show the enabled Fisherman entry chain is 3070003 'Learn to Fish!' (no prerequisite) followed by 3070004 'Testing the Waters' (prer",
+    "giver: Giver is a non_npc 'Message Board' with null locale id. npcs_unresolved.json:958 gives zone Stillwater Crossing, while Fisherman.md:33 and :55 say Sanctuary. The answer flags this, which is honest, bu",
+    "evidence[9] / open: The guide's E2 row cites objective id 334285285, which is not a real locale id ('no such id'). The answer correctly uses 442249 instead, but does not say the guide's id is bad.",
+    "line.next: next is an empty list, stated as the line's end. The guide's Entry table (Fisherman.md:55-56) orders E2 'Being a Better Fisherman' before E3 'Learn to Fish!' (3070003), and the answer itself says the ",
+    "giver: Giver 9000000149 'Message Board' is a kind non_npc ref with zone Stillwater Crossing (npcs_unresolved.json:953-960), while the guide and wiki say Sanctuary (Fisherman.md:55). The answer flags the conf",
+    "objectives[0].target_npc_id: Target 'Reed Stillwater' locale 388950 is verified (locale:388950 = 'Reed Stillwater'), and objective text locale 442249 and title locale 442279 are verified and unflagged. Reed's spawn id 9000000181 "
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3030015,
+   "record": "quest-lines/quests.json q3030015",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Graveyard Grumble",
+   "live": "unsure",
+   "giver": {
+    "name": "Caitlyn Gravefog",
+    "npc_id": "9000000038",
+    "locale_id": 116520
+   },
+   "resolved_giver": {
+    "npc_id": 9000000038,
+    "name": "Caitlyn Gravefog",
+    "file": "npcs/stillwater_crossing.json",
+    "zone": "Stillwater Crossing",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Have you talked to Caitlyn Gravefog about her wraith problem? Remember, she's to the north.",
+     "text_locale_id": 116795,
+     "target": "Caitlyn Gravefog",
+     "target_locale_id": 116520,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000038,
+      "name": "Caitlyn Gravefog",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Click on the gate to the Cursed Graveyard",
+     "text_locale_id": 116930,
+     "target": "Cursed Graveyard!",
+     "target_locale_id": 115822,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat the graveyard wraith!",
+     "text_locale_id": 115968,
+     "target": "Graveyard Wraith",
+     "target_locale_id": 115827,
+     "count": 1,
+     "resolved_npc": {
+      "npc_id": 9500000789,
+      "name": "Graveyard Wraith",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "You've defeated the wraith! Head back to Caitlyn and let her know it's safe to enter the graveyard again.",
+     "text_locale_id": 116935,
+     "target": "Caitlyn Gravefog",
+     "target_locale_id": 116520,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000038,
+      "name": "Caitlyn Gravefog",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unlocks the Brawler job (no coin, item or XP amount found)",
+     "source": "locale:140317 ('Let me teach you the brawler job so you can get started.'); repo:notes/Build Guides/Content/Jobs/Brawler.md:111"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 116484,
+     "speaker": "Caitlyn Gravefog"
+    },
+    "progress": {
+     "locale_id": 116488,
+     "speaker": "Caitlyn Gravefog"
+    },
+    "complete": {
+     "locale_id": 116487,
+     "speaker": "Caitlyn Gravefog"
+    }
+   },
+   "critic_problems": [
+    "previous: Previous is left empty, but 'Brawler: Grave Danger' (140311, client title; 140321 'Find Caitlyn Gravefog in Stillwater Crossing.') is a Caitlyn-related title that the answer itself flags as possibly a",
+    "rewards: The job unlock is attributed to locale 140317 ('Let me teach you the brawler job'), but that line is Caitlyn's offer dialog and the answer cannot confirm it belongs to this record rather than Grave Da",
+    "objectives[0..3]: Checked ids: 116520 Caitlyn Gravefog, 116795 (quest_dialog reminder, not quest_objective), 116930 'Click on the gate to the Cursed Graveyard', 115968 'Defeat the graveyard wraith!', 115822 'Cursed Gra",
+    "objectives[1]: The gate objective uses 116930 ('Click on the gate to the Cursed Graveyard'), but the client also has 431174/431175 ('Interact with the gate...'). The answer leaves the choice open. 116930 is a real, ",
+    "objectives[3]: The return step uses 116935 ('You've defeated the wraith! Head back to Caitlyn...'). The evidence pack also lists 116934 'Return to Caitlyn' (the short objective text) and 116933, and the answer does ",
+    "dialog / rewards: The job unlock is supported by 140317 and also by 116793 ('Let me teach you the brawler job first'), which the answer does not cite. Both are real client lines. The answer's reading is right, but it i"
+   ],
+   "blocked_by": [
+    "defeat target 'Graveyard Wraith' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3030017,
+   "record": "quest-lines/quests.json q3030017",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Stolen Merchandise",
+   "live": "unsure",
+   "giver": {
+    "name": "Seth McGrobie",
+    "npc_id": "9000000196",
+    "locale_id": 116525
+   },
+   "resolved_giver": {
+    "npc_id": 9000000196,
+    "name": "Seth McGrobie",
+    "file": "npcs/stillwater_crossing.json",
+    "zone": "Stillwater Crossing",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a brawler, defeat Robgoblin Pondblasters to the east of Seth McGrobie's camp, outside of Stillwater Crossing.",
+     "text_locale_id": 116663,
+     "target": "Robgoblin Pondblasters",
+     "target_locale_id": 95047,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Knock out a few Robgoblin Pondblasters to the east and bring Seth back the rest of his merchandise (dialog wording; no separate client objective string names a delivery step).",
+     "text_locale_id": 116811,
+     "target": "Seth McGrobie",
+     "target_locale_id": 116525,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000196,
+      "name": "Seth McGrobie",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": 116510,
+    "progress": 116508,
+    "complete": 116511
+   },
+   "critic_problems": [
+    "live / live_reason: The answer says no wiki source is attached and nothing confirms the quest shipped. The wiki Brawler page does list 'Brawler: Stolen Merchandise: Seth McGrobie in Stillwater Crossing' in its Main Serie",
+    "dialog.offer / dialog.complete (116510, 116511): The lookup tags 116510 and 116511 with hint 'Brawler: Rightful Owner', which conflicts with their use as Stolen Merchandise dialog. The text content (Seth's merchandise, the refund) does fit Stolen Me",
+    "objectives[1]: The 'deliver' objective uses dialog 116811 (Seth speaking: 'bring me back the rest of my stuff'). No client quest_objective string names a delivery step, so this objective is inferred. The answer flag",
+    "objectives[0]: Verified: locale 116663 reads 'As a brawler, defeat Robgoblin Pondblasters to the east of Seth McGrobie's camp, outside of Stillwater Crossing.' Target 95047 is the quest_title 'Robgoblin Pondblasters",
+    "giver / dialog.progress: Verified: giver 116525 = 'Seth McGrobie', and 116508 is the intro text (the lookup tags it quest_objective, the answer correctly calls that unreliable). The NPC data (9000000196, Stillwater Crossing) ",
+    "objectives[1]: The deliver step is inferred. Its text_locale_id 116811 is a quest_dialog line from Seth, not an objective string. The closest objective-style client line is 116960 ('Those robgoblins won't give up th"
+   ],
+   "blocked_by": [
+    "defeat target 'Robgoblin Pondblasters' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070001,
+   "record": "quest-lines/quests.json q3070001",
+   "quest_file": "fisherman.json",
+   "title": "Become a Fisherman",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Learn how to be a fisherman by finding Reed Stillwater.",
+     "text_locale_id": 412491,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000181,
+      "name": "Reed Stillwater",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Fisherman job unlock; no coin or item reward confirmed",
+     "source": "wiki page: Fisherman"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: The talk objective is built from client text 412491 (tagged quest_objective, verified: 'Learn how to be a fisherman by finding Reed Stillwater.'), and target 388950 'Reed Stillwater' is verified. But ",
+    "giver: Null giver is honest but the record says giver_npc_id 9000000148 (fisherman.json:7, verified) while job_trainers.json:19-23 (verified) ties the title label 412490 to Reed Stillwater 9000000181. The wi",
+    "line.next: Next links are consistent with fisherman.json: 3070002 has prerequisite 3070001 (lines 56-57) and title 442279 'Being a Better Fisherman' (verified). 3070003 has title 417055 'Learn to Fish!' (verifie",
+    "live: Locale 412490 is unflagged and verified as 'Become a Fisherman'. The record is enabled:false and the batch key 3070001 has no server activation source, so 'unsure' is the right status. Locale 442234 (",
+    "giver: Giver is left null, but the record fisherman.json:7 says giver_npc_id 9000000148 and job_trainers.json:22 ties label 412490 to Reed Stillwater (9000000181). The answer's own open item already flags th",
+    "line.next[1]: 'Learn to Fish!' (3070003) is listed as a next quest of 3070001, but fisherman.json:98-104 gives 3070003 prerequisite_quest_ids [] and no link to 3070001. The only source for the order is the array se"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  }
+ ]
+}

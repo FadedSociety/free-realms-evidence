@@ -1,0 +1,3063 @@
+{
+ "zone": "Sanctuary",
+ "wireable_by_match": [
+  {
+   "quest_id": 3000031,
+   "record": "quest-lines/quests.json q3000031",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: Good Help is Hard to Find",
+   "live": "yes",
+   "giver": {
+    "name": "Geoffrey",
+    "npc_id": "9000000330",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000330,
+    "name": "Geoffrey",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with General Glowlight",
+     "text_locale_id": 90690,
+     "target": "General Glowlight",
+     "target_locale_id": 7670,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000097,
+      "name": "General Glowlight",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Find Guard Glibbin",
+     "text_locale_id": 90692,
+     "target": "Guard Glibbin (target id unresolved: no npc id or spawn found)",
+     "target_locale_id": 91091,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Guard Forbi",
+     "text_locale_id": 90694,
+     "target": "Guard Forbi (target id unresolved: no npc id or spawn found)",
+     "target_locale_id": 91093,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Guard Nibbs",
+     "text_locale_id": 90696,
+     "target": "Guard Nibbs (target id unresolved: no npc id or spawn found)",
+     "target_locale_id": 91101,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Guard Verbi",
+     "text_locale_id": 90698,
+     "target": "Guard Verbi (target id unresolved: no npc id or spawn found)",
+     "target_locale_id": 91094,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000491,
+      "name": "Guard Verbi",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90683,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90686,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1..4]: The four Find Guard objectives have real client names (91091 Guard Glibbin confirmed, 91093, 91094, 91101 cited) but no npc ids or spawns. The answer flags this honestly in open, so it is not a false ",
+    "giver: Geoffrey (9000000330) is taken from the repo record and the wiki Geoffrey page. The client lines 90683, 90686 and 90687 do not name him, so the giver is not client-proven. The answer already says so i",
+    "line.next: Next link Thugamug's Thievery (3000032) is retail order from the wiki and guide, but the server record has prerequisite 3000029, so the server chain skips 3000031. The answer discloses this in open. I",
+    "zone: Wiki Sacred Grove page lists 'Good Help is Hard to Find: Royal Palace', conflicting with the Sanctuary tag on every client line. The answer discloses this and keeps Sanctuary, which the client support",
+    "objectives[1..4]: The four Find Guard objectives (Glibbin, Forbi, Nibbs, Verbi) have locale-backed names but no npc ids or spawn targets, so the target is unresolved. The answer admits this in its text, but it means th",
+    "line.next: Next is given as Thugamug's Thievery (3000032) from wiki/guide order. The server record for 3000032 still has prerequisite 3000029, so the server chain and the retail line disagree. The answer flags t"
+   ]
+  },
+  {
+   "quest_id": 3000046,
+   "record": "quest-lines/quests.json q3000046",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: Failure is Not an Option",
+   "live": "yes",
+   "giver": {
+    "name": "Geoffrey",
+    "npc_id": "9000000330",
+    "locale_id": 70318
+   },
+   "resolved_giver": {
+    "npc_id": 9000000330,
+    "name": "Geoffrey",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Get the contents of the box back for Geoffrey.",
+     "text_locale_id": 90927,
+     "target": "The Small Wooden Box",
+     "target_locale_id": 90865,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Speak to Captain Chugug in Briarheart",
+     "text_locale_id": 90928,
+     "target": "Captain Chugug",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000268,
+      "name": "Captain Chugug",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Enter Briarheart Palace and speak with Darkthorne",
+     "text_locale_id": 90930,
+     "target": "Darkthorne",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000067,
+      "name": "Darkthorne",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text or reward data found for this quest",
+     "source": "open"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 90921,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: The first objective ('Get the contents of the box back for Geoffrey', locale 90927) is a generic 'other' kind with target 'The Small Wooden Box' (90865). I checked both strings and they are unflagged ",
+    "objectives[1], objectives[2] target_locale_id: Target ids are null for 'Captain Chugug' and 'Darkthorne'. The answer's claim that these have no locale ids of their own is not checked. The names appear inside the objective strings 90928 and 90930, ",
+    "giver.npc_id / line.previous: The giver id 9000000330 and the prerequisite 3000045 are confirmed in adventurer.json (3424-3428). The title 'Chapter 1: Bearer of Bad News' (90913) is confirmed. However, chain_notes are empty, so th",
+    "rewards: Rewards are marked unknown. This is honest, and no reward text was found for this quest.",
+    "dialog.complete / end speaker: Locale 90924 is tagged 'Queen Valerian' but the text reads as Geoffrey speaking. The answer flags this as unresolved, which is correct, so no change is needed for this lens.",
+    "objectives[1] and objectives[2]: The Captain Chugug and Darkthorne objective targets have no locale ids (target_locale_id null). The target names are only inferred from the objective text (90928, 90930), so a builder cannot bind them"
+   ]
+  },
+  {
+   "quest_id": 3040003,
+   "record": "quest-lines/quests.json q3040003",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Sam I Am",
+   "live": "unsure",
+   "giver": {
+    "name": "Poe Tatters (wiki-sourced, unverified)",
+    "npc_id": "9000000170",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000170,
+    "name": "Poe Tatters",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Sam Potts",
+     "text_locale_id": 103515,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000187,
+      "name": "Sam Potts",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Find Sam Potts to continue your card duelist training. She's somewhere in Sanctuary.",
+     "text_locale_id": 103512,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000187,
+      "name": "Sam Potts",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Sam is easily distracted, and last seen at a birthday party in Sanctuary.",
+     "text_locale_id": 103516,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000187,
+      "name": "Sam Potts",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 103499,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Poe Tatters (9000000170) is only supported by the guide and the wiki's grouping. The wiki Card Duelist page does list 'Card Duelist: Sam I Am' under the Poe Tatters heading, so the grouping is consist",
+    "line.next: Left empty. The guide's Part 1a row 3 puts Practice Makes Perfect next, while the wiki's Sam Potts group lists 52 Card Pick-Up first. The answer records the conflict honestly, so this is an open item,",
+    "objectives: The guide's row 2 gives other objective ids for this quest (248632835 'Speak to Sam Potts', 172270681, 212322392). These are ucdt/ugdt hashes, not locale ids, so the answer is right to omit them. It d",
+    "giver: Poe Tatters (9000000170) is stated as giver. The only support is the guide row 2 (citing the wiki) and the Sanctuary NPC note, which both derive from the wiki's grouping. No client line names Poe as o",
+    "evidence[4] / description: Locale 103501 is tagged quest_objective, not a description. The answer calls it 'Description' and omits it from objectives, although the answer's own pack lists it as a quest_objective line.",
+    "dialog: Locale 103522 ('Let me teach you how to become a Card Duelist!', quest_dialog tagged to this quest) is left out of the dialog block. The answer only mentions it in later_answers."
+   ]
+  },
+  {
+   "quest_id": 3040005,
+   "record": "quest-lines/quests.json q3040005",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: 52 Card Pick-Up",
+   "live": "unsure",
+   "giver": {
+    "name": "Sam Potts",
+    "npc_id": "9000000187",
+    "locale_id": 74093
+   },
+   "resolved_giver": {
+    "npc_id": 9000000187,
+    "name": "Sam Potts",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Pick up the cards nearby for Sam Potts.",
+     "text_locale_id": 103200,
+     "target": "Scattered Duelist Cards (item id unresolved)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up Sam's cards",
+     "text_locale_id": 103201,
+     "target": "Sam's cards",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "[*player*] made a mad dash around Sacred Grove, picking up Sam Potts' scattered deck of cards.",
+     "text_locale_id": 103214,
+     "target": "Sam Potts' scattered deck of cards",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Sam Potts near the tournament board in Sanctuary.",
+     "text_locale_id": 103206,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000187,
+      "name": "Sam Potts",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Sam Potts",
+     "text_locale_id": 103205,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000187,
+      "name": "Sam Potts",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 103207,
+     "speaker": "Sam Potts"
+    },
+    "progress": {
+     "locale_id": 103224,
+     "speaker": "Sam Potts"
+    },
+    "complete": {
+     "locale_id": 103210,
+     "speaker": "Sam Potts"
+    }
+   },
+   "critic_problems": [
+    "objectives[0] and objectives[1] target: The collect targets are left as unresolved labels ('Scattered Duelist Cards (item id unresolved)', 'Sam's cards'). The answer is honest about this, and 103219 is correctly not used as an item id. The ",
+    "line: previous and next are empty. The evidence leaves the order open (wiki Card Duelist puts Sam I Am first; guide row 4 puts Practice Makes Perfect first). The answer states this in open, so it is not a f",
+    "giver: Verified: locale 74093 is 'Sam Potts' (npc_name, Sanctuary). The giver is correct, and the 'not re-verified' open item can now be closed.",
+    "line: previous and next are both empty. The answer is honest about this, but the chain order is not settled. The guide's Part 1a table (row 3 Practice Makes Perfect, row 4 52 Card Pick-Up) and the wiki Card",
+    "objectives[1].target: The answer says the item id is unresolved and does not mention the client name for the collected item. Locale 103219 'Scattered Duelist Cards' exists as the item's display name (typed quest_title, so ",
+    "objectives[0] and objectives[1]: The answer lists both 103200 ('Pick up the cards nearby for Sam Potts.') and 103201 ('Pick up Sam's cards') as separate collect objectives. Both are quest_objective strings tagged to 52 Card Pick-Up, "
+   ]
+  },
+  {
+   "quest_id": 3040006,
+   "record": "quest-lines/quests.json q3040006",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: So Over Archery",
+   "live": "yes",
+   "giver": {
+    "name": "Sam Potts",
+    "npc_id": "9000000187",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000187,
+    "name": "Sam Potts",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Seek out Quills and see if beating Sam at a card game does the trick.",
+     "text_locale_id": 103527,
+     "target": "Quills",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000520,
+      "name": "Quills",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Quills can be found at the Town Hall in Sanctuary.",
+     "text_locale_id": 103529,
+     "target": "Town Hall, Sanctuary",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "As a Card Duelist; Beat Sam's Tournament Deck",
+     "text_locale_id": 103530,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Maybe beating Sam at cards will bring her back to archery.",
+     "text_locale_id": 103531,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Sam Potts",
+     "text_locale_id": 103532,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000187,
+      "name": "Sam Potts",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 103534,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 103537,
+     "speaker": "Sam Potts"
+    }
+   },
+   "critic_problems": [
+    "objectives: locale:103536 is typed quest_objective in the client ('Sam Potts has asked you to go tell Quills she is no longer interested in doing archer's work.'), but the answer cites it only as the description ",
+    "evidence[dialog/description]: The claim 'Description ... locale:103536' is a labelling error: 103536 is an objective line, not a description string. The answer's source fields for description should not cite it as a description_st",
+    "line.previous: The answer's previous link (3040005, 52 Card Pick-Up) matches the guide's row order (row 4 before row 5), and the answer correctly flags that the other side of the link is wrong. The chain is still br",
+    "objectives[2]: The 'Beat Sam's Tournament Deck' objective (103530) has target null, though the guide's Sam Potts deck items (103541-103543) are unconfirmed. Kind 'other' is inferred from text, not sourced.",
+    "live: live 'yes' rests on unflagged client text and the wiki listing, while the record is enabled:false. The client text is real (verified: 103527, 103530, 103531, 103534, 103535 all resolve, unflagged, wit",
+    "objectives: Objective order is inferred from locale-id order, not from any sourced sequence. The answer admits this. The likely order (Quills, then beat the deck, then speak to Sam) is plausible, but a builder ca"
+   ]
+  },
+  {
+   "quest_id": 3040009,
+   "record": "quest-lines/quests.json q3040009",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Half a Deck",
+   "live": "yes",
+   "giver": {
+    "name": "Poe Tatters",
+    "npc_id": "9000000170",
+    "locale_id": 103648
+   },
+   "resolved_giver": {
+    "npc_id": 9000000170,
+    "name": "Poe Tatters",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Beat Poe Tatters' Trick Deck to win one of his cards!",
+     "text_locale_id": 103650,
+     "target": "Poe Tatters (Trick Deck)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000170,
+      "name": "Poe Tatters",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "one card from Poe Tatters' Trick Deck (win reward)",
+     "source": "locale:103650"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 103648,
+     "speaker": "Poe Tatters"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "live: The 'live: yes' verdict rests on a single client ui string (103653) that is tagged with the quest title as a hint. A ui line naming a match is suggestive, not proof the quest shipped, and the record i",
+    "rewards[0]: The reward kind 'item' with value 'one card from Poe Tatters' Trick Deck' is inferred from the objective wording ('to win one of his cards'), not from a reward field. The guide lists the reward as 'Po",
+    "objectives[0].text_locale_id: Verified correct: locale 103650 is exactly the objective text. The guide's ids 2453508008/1983213691/1400707861/1695456271 are not 103xxx ids and were correctly not used as the primary id.",
+    "rewards[0]: The reward 'one card from Poe Tatters' Trick Deck' is cited to locale 103650, which is only the objective text. The reward detail is a different win-text string, locale 92756 ('...and a Sunder Forge B",
+    "live / live_reason: 'live: yes' rests only on the title and UI strings not being FLAGged, and the record is disabled. Locale 103749 ('emerged victorious after battling Poe Tatters ... reform the Cardie Crew') is a simila",
+    "objectives[0]: Objective text and ids check out: 103650 reads 'Beat Poe Tatters' Trick Deck to win one of his cards!'. The guide's Creature Deck and Resource Deck variants (1400707861, 1695456271) have matching batt"
+   ]
+  },
+  {
+   "quest_id": 3040010,
+   "record": "quest-lines/quests.json q3040010",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Poe's Planted Cards",
+   "live": "yes",
+   "giver": {
+    "name": "Poe Tatters",
+    "npc_id": "9000000170",
+    "locale_id": 38111
+   },
+   "resolved_giver": {
+    "npc_id": 9000000170,
+    "name": "Poe Tatters",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Poe's cards, hidden in one of the yellow potted plants around Sanctuary.",
+     "text_locale_id": 103706,
+     "target": "yellow potted plants (Sanctuary)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Search the yellow potted plants in Sanctuary to find Poe's hidden cards.",
+     "text_locale_id": 103669,
+     "target": "yellow potted plant",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return the cards to Poe Tatters",
+     "text_locale_id": 103670,
+     "target": "Poe Tatters",
+     "target_locale_id": 38111,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000170,
+      "name": "Poe Tatters",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 103704,
+     "speaker": "Poe Tatters"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 103707,
+     "speaker": "Poe Tatters"
+    }
+   },
+   "critic_problems": [
+    "objectives[0] and objectives[1]: Two 'search/go' objectives are near-duplicates (103706 is the quest description/objective text, and 103669 is the search objective). Both are real quest_objective strings tagged to this quest, so the ",
+    "dialog.progress: Left null, but locale:103732 ('Did you find my hidden cards yet? I know I stashed them in one of the yellow planters along this street somewhere...', quest_dialog, Sanctuary) is an unflagged progress ",
+    "objectives[1] and objectives[2]: Locale ids 103669 ('Search the yellow potted plants in Sanctuary to find Poe's hidden cards.') and 103670 ('Return the cards to Poe Tatters') are verified as real strings, but they are tagged to the b",
+    "dialog.progress / previous / next: Chain links come from the wiki order and the guide, not from a server prerequisite (the record has none). dialog.progress is null. Both are disclosed in the open list, so they are honest gaps rather t",
+    "live_reason: Liveness rests on unflagged locale lines 103704 to 103708. I confirmed the texts exist (103705 title, 103706 objective, 103707 end, 103708 UI line, 38111 'Poe Tatters'), but I did not check the FLAG f"
+   ]
+  },
+  {
+   "quest_id": 3050020,
+   "record": "quest-lines/quests.json q3050020",
+   "quest_file": "chef.json",
+   "title": "Chef: Reach Level 5",
+   "live": "yes",
+   "giver": {
+    "name": "Bordon Cloo",
+    "npc_id": "9000000028",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000028,
+    "name": "Bordon Cloo",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 5 as a Chef (gate; no separate task)",
+     "text_locale_id": 387248,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Bordon Cloo once you have reached level 5 as a Chef",
+     "text_locale_id": 387248,
+     "target": "Bordon Cloo",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000028,
+      "name": "Bordon Cloo",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387246,
+     "speaker": "Bordon Cloo"
+    },
+    "complete": {
+     "locale_id": 387249,
+     "speaker": "Bordon Cloo"
+    }
+   },
+   "critic_problems": [
+    "line.previous: The answer leaves previous empty. The wiki Chef page lists \"Meet the Reputable Bordon Cloo - Honey\" as the step before Reach Level 5, and the guide names Honey as the band 1 source. The answer disclos",
+    "objectives[1].target_locale_id: The talk objective reuses locale 387248, which is the description text, not a separate objective string. The target NPC name has no locale id. This is acceptable but should be marked as the descriptio",
+    "live: The live verdict rests on the title and dialog strings having no FLAG plus a wiki name match. The parallel 'Chef: Level 5' set (387267-387271) is still unresolved as a duplicate or alternate version, ",
+    "line.previous: The line is recorded with no previous quest, but the chain's start is unverified. The answer itself says the guide names Honey as the band 1 source with no matching quest found. The line start is ther",
+    "evidence / open: A third Chef level-5 string, locale 117821 'Achieve Level 5 as a Chef', turned up in a lookup and is not mentioned. The answer only discusses the 387267–387271 'Chef: Level 5' set.",
+    "objectives[0]: The gate objective uses locale 387248, which is the quest's description string ('Your cooking career will continue…'), not a separate objective line. It is an acceptable reference but should be labell"
+   ]
+  },
+  {
+   "quest_id": 3050021,
+   "record": "quest-lines/quests.json q3050021",
+   "quest_file": "chef.json",
+   "title": "Chef: Learning to Crave the Flave",
+   "live": "yes",
+   "giver": {
+    "name": "Bordon Cloo",
+    "npc_id": "9000000028",
+    "locale_id": 15300
+   },
+   "resolved_giver": {
+    "npc_id": 9000000028,
+    "name": "Bordon Cloo",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Bring your sweets and stew to Bordon Cloo for review!",
+     "text_locale_id": 140414,
+     "target": "Bordon Cloo",
+     "target_locale_id": 15300,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000028,
+      "name": "Bordon Cloo",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "Whip up some Gummyfruit Topped Sundae for Bordon Cloo.",
+     "text_locale_id": 140400,
+     "target": "Gummyfruit Topped Sundae",
+     "target_locale_id": 38655,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Whip up a Starnut Sundae for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140402,
+     "target": "Starnut Sundae",
+     "target_locale_id": 38658,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Cook up some Royal Stew du Jour for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140406,
+     "target": "Royal Stew Du Jour",
+     "target_locale_id": null,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Make some Seared Stainberry for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140408,
+     "target": "Seared Stainberry",
+     "target_locale_id": 38663,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Whip up a Mooonbean Sundae Sweettreat for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140410,
+     "target": "Moonbean Sundae Sweettreat",
+     "target_locale_id": null,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Whip up a Moonbean Mousse for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140412,
+     "target": "Moonbean Mousse",
+     "target_locale_id": null,
+     "count": 1,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 384674,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[3], objectives[5], objectives[6]: target_locale_id is null for Royal Stew Du Jour, Moonbean Sundae Sweettreat and Moonbean Mousse, though the client has item names for them. The answer says these were 'not confirmed', but the lookup f",
+    "previous: The wiki Chef page names the prior quest 'Chef: Achieve Level 5' (Bordon Cloo), while the answer says 'Chef: Reach Level 5'. The repo record 3050020 supports the answer's title, so this is a naming mi",
+    "live_reason: The phrase 'The previous critique's bad ids were removed' is an unsupported process claim and adds nothing to the evidence.",
+    "objectives[2] (Royal Stew Du Jour), objectives[5] (Moonbean Sundae Sweettreat), objectives[6] (Moonbean Mousse): target_locale_id left null, but the item-name ids exist in the client: Royal Stew Du Jour = 38662, Moonbean Sundae Sweettreat = 38668, Moonbean Mousse = 38671. The answer's own open list says these we",
+    "line.next: The next-quest giver 9000000044 was flagged as unverified. It is verified: repo prototype/osfr-tools/data/content/npcs/merry_vale.json:3574 and notes/Autopilot/T316.md:97 list 9000000044 as Chef Jarvi",
+    "objectives[0]: Objective 140414 is a narrative talk step and its completion condition is assumed, not checked against server logic. The chain and the six-dish requirement do agree with the reminder text 384674 (whic"
+   ]
+  },
+  {
+   "quest_id": 3050033,
+   "record": "quest-lines/quests.json q3050033",
+   "quest_file": "chef.json",
+   "title": "Chef: Cooking with Cloo",
+   "live": "yes",
+   "giver": {
+    "name": "Bordon Cloo",
+    "npc_id": "9000000028",
+    "locale_id": 15300
+   },
+   "resolved_giver": {
+    "npc_id": 9000000028,
+    "name": "Bordon Cloo",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Bordon Cloo wants you to prove that you've mastered the art of flavor. Cook up the recipes you've naturally come up with.",
+     "text_locale_id": 73252,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: next is empty on the strength of the guide's 'Last quest in the wiki list' note (Chef.md:139). The answer itself says this is unconfirmed. The live, unflagged Cloo-linked quests 73255 'Boring Burnetta",
+    "objectives[0]: The text-only objective is correctly sourced. Locale 73252 is unflagged and its text matches the pack exactly. The 24559 dish list is correctly identified as NOT LIVE in the pack, and I confirmed the ",
+    "previous: Ids I checked hold: 73251 'Chef: Cooking with Cloo', 24555 'NOT LIVE - Cooking with Cloo', 15300 'Bordon Cloo', 73272 'Chef: Cloo's Cooking Academy', 73252 objective text. The answer's note that 30500",
+    "line.next: The JSON sets next to [] as if confirmed, but the answer's own open note says the end of the line is unconfirmed. The only support is Chef.md:139 ('Last quest in the wiki list'), and that row is a wik",
+    "objectives[0]: The objective is text-only with no target or count. This is honest about the live text (73252 is unflagged and names no dish). Chef.md:139 lists the same line as 443277072, so the text is corroborated"
+   ]
+  },
+  {
+   "quest_id": 3090002,
+   "record": "quest-lines/quests.json q3090002",
+   "quest_file": "medic.json",
+   "title": "Medic: Operation: Revival",
+   "live": "yes",
+   "giver": {
+    "name": "Nurse Naia",
+    "npc_id": "9000000161",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000161,
+    "name": "Nurse Naia",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Go inside the Bixie Hive and revive the wounded bixies (twelve per locale:15586).",
+     "text_locale_id": 15586,
+     "target": "injured bixies (Bixie Hive, Queensfields)",
+     "target_locale_id": 103331,
+     "count": 12,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].kind: The objective kind 'use' is not stated by any cited source. Locale 15586 and 103331 are plain objective text ('go inside... and revive'), and the record has no objective type field.",
+    "objectives[0] ownership: Locale 15586 is tagged quest_objective with owner 'Bixie Hive', not a quest id. A competing unowned line, locale:36415 ('revive all the knocked out bixies'), has the same shape. The answer does not me",
+    "line.next: next is empty, but the guide and dossier say House Call (3090003) follows. medic.json:77 shows 3090003 now requires 3090001 and skips 3090002, so 3090002 is orphaned in the record. The answer flags th",
+    "dialog.offer: Offer is null. locale:24852 ('Here's your chance to learn about First Aid... revive the injured bixies right away!') is tagged quest_dialog to Bixie Hive and matches the guide's quoted intro, so it is",
+    "line.next: next is empty, but the wiki Medic page lists Operation: Revival before Medic: House Call under Nurse Naia, and the guide's chain runs 3090002 -> 3090003. The record now makes 3090003 require 3090001 (",
+    "objectives[0].text_locale_id: locale:15586 and 103331 are both unflagged quest_objective lines, and the text matches. But neither is tied to quest 10164 by any source. The answer states the objective as this quest's without that l"
+   ]
+  },
+  {
+   "quest_id": 3090025,
+   "record": "quest-lines/quests.json q3090025",
+   "quest_file": "medic.json",
+   "title": "Medic: Shocking Developments",
+   "live": "yes",
+   "giver": {
+    "name": "Clover",
+    "npc_id": "9000000052",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000052,
+    "name": "Clover",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head into Darvon's Descent and find the missing shock paddles!",
+     "text_locale_id": 74773,
+     "target": "Darvon's Descent",
+     "target_locale_id": 7697,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000468,
+      "name": "Darvon",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "As a medic, collect boxes of stolen shock paddles",
+     "text_locale_id": 74774,
+     "target": "shock paddles",
+     "target_locale_id": 3800,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward is recorded in the client text, the repo record or the wiki for this quest.",
+     "source": "locale:74770; repo record 3090025 (rewards empty)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 74767,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 74775,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 74770,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: giver.locale_id is null. The NPC name id is not confirmed in the client. The repo's NPC notes give the name as 3959030047.",
+    "rewards: The reward is recorded as kind 'other' with a 'No reward is recorded' value. That is an absence claim, not a reward. It cites locale:74770, which is end dialog only and does not state a reward either ",
+    "line.previous: Previous quest 'Medic: The Missing Patrol' (3090024) comes only from our repo record and the Medic guide row order. The client text of the prior quest does not name Shocking Developments as its follow",
+    "line.next: Next quest 'Medic: Omitted Admission' (74783) is verified as a title, but its giver is disputed in the dossier (Gordon vs Clover). The answer's 'next' entry does not carry that caveat.",
+    "dialog.progress: Locale 74775 is a hint line ('The changelings took them to Darvon's Descent'), used as progress dialog. That is a reasonable mapping but not a confirmed progress-slot binding.",
+    "giver: giver.locale_id is null. The Clover name locale is recorded in the repo as 3959030047 (notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:43), so the giver is not fully resolved."
+   ]
+  },
+  {
+   "quest_id": 3150013,
+   "record": "quest-lines/quests.json q3150013",
+   "quest_file": "warrior.json",
+   "title": "Warrior: Take Care of That Ankle",
+   "live": "yes",
+   "giver": {
+    "name": "Aster",
+    "npc_id": "9000000243",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000243,
+    "name": "Aster",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Doctor Gordon in Sanctuary",
+     "text_locale_id": 72620,
+     "target": "Doctor Gordon",
+     "target_locale_id": 7610,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000073,
+      "name": "Doctor Gordon",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 72610,
+     "speaker": "Aster"
+    },
+    "progress": {
+     "locale_id": 71339,
+     "speaker": "Doctor Gordon"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "dialog.complete / objectives: Verified ids: 72611 (quest_title, Sanctuary, unflagged), 72610, 72612, 72613 (quest_dialog, Sanctuary), 72620 ('Talk to Doctor Gordon in Sanctuary'), 71337, 71339 (text matches exactly), 7610 ('Doctor",
+    "wiki: The answer says the wiki Doctor Gordon section does not list Take Care of That Ankle. The lookup result for the Doctor Gordon page does begin with '[Take] [Care] [of] [That] [Ankle]', so the claim is ",
+    "giver: Aster's locale id is null and the name source is the NPC guide hash (ucdt 2726842615), which is not a locale id. The answer states this openly, so it is not a false claim, but the giver name is not lo",
+    "objectives[]: Only one objective (talk to Doctor Gordon, 72620). The quest's completion step is not established. Aster's line 72613 is her post-treatment remark, which suggests a return to Aster, but no client obje",
+    "dialog.progress / line: 71339 is Gordon's quest_dialog line, not an objective. The answer uses it as dialog.progress, which is acceptable, but the wording 'Aster's ankle' in the evidence should not be read as a step.",
+    "line.next / line.previous: Verified: 71265 'Warrior: Knocking Some Sense In' and 77244 'Warrior: General Concerns' are real titles. The chain W12 -> W13 -> W14 matches Warrior.md rows 103-105. Ids 72611, 72620, 72610, 72612, 72"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3000026,
+   "record": "quest-lines/quests.json q3000026",
+   "quest_file": "adventurer.json",
+   "title": "Farnum's Free Advice",
+   "live": "unsure",
+   "giver": {
+    "name": "Henry (probable, not bound)",
+    "npc_id": null,
+    "locale_id": 19093
+   },
+   "resolved_giver": {
+    "npc_id": 9000000104,
+    "name": "Henry",
+    "file": "npcs/farnum_farmstead.json",
+    "zone": "Farnum Farmstead",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Seek out Queen Valerian at the Royal Palace in Sanctuary.",
+     "text_locale_id": 391034,
+     "target": "Queen Valerian (NPC 9500000519; does not spawn, not wireable)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000519,
+      "name": "Queen Valerian",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 391029,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The giver is not bound. The answer gives 'Henry (probable, not bound)' with npc_id null. Locale 19093 is only the bare word 'Henry', so it does not identify a giver. The Adventurer guide's D3 row (Adv",
+    "objectives[0].target: The target Queen Valerian (9500000519) does not spawn, so the objective is not wireable. The answer says this correctly, but its name id 2085012813 is unverified, as the answer itself admits.",
+    "next: The answer cites locale 140648 with hint 'The Rose that Knows' to show tagging is inconsistent. I confirmed 140648 reads 'Take a Number' and is a title-type line. I did not confirm its hint field, so ",
+    "giver: The giver is still unbound. The answer's 'Henry (probable)' rests on locale 19093 ('Henry') and the wiki's 'Henry Farnum at Farnum's Farm'. The wiki places him at Farnum's Farm, which the answer does ",
+    "next: next is left empty. The answer's reason, that locale 140648's hint says 'The Rose that Knows', is not borne out: locale 140648 resolves to 'Take a Number' and the wiki and Adventurer.md:116 name Take ",
+    "line: The four Sacred Grove entry quests are presented as an unordered set with empty previous. This is honest, since no source gives an order, and the wiki says only one needs completing. The answer correc"
+   ],
+   "blocked_by": [
+    "talk target 'Queen Valerian (NPC 9500000519; does not spawn, not wireable)' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000028,
+   "record": "quest-lines/quests.json q3000028",
+   "quest_file": "adventurer.json",
+   "title": "Take a Number",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "See if Pux Frillwillow in Sanctuary's inner circle will let you have his appointment slip.",
+     "text_locale_id": 140659,
+     "target": "Pux Frillwillow",
+     "target_locale_id": 140665,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000517,
+      "name": "Pux Frillwillow",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 140647,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 395254,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line.previous: The 'only one need be completed' any-of-four wording is attributed to Adventurer.md:108 and the Sacred Grove wiki. The only text I found is NPCs - Sanctuary.md:190, which says the palace is reached fr",
+    "line.next: 'Chapter 1: The Missing Sisters' is verified as locale 90622 (title) and 90628 (objective 'Find the two missing sisters'). The claim that Take a Number leads to it rests on Adventurer.md:124, which I ",
+    "giver: Left null, which is honest. The record's giver 9000000175 is unresolved, and no source names a giver. The offer line 140647 is tagged The Rose that Knows, so it cannot be bound to this quest.",
+    "objectives[1]: Verified: 140659 text is exact, target 140665 'Pux Frillwillow' is an npc_name tagged Sanctuary. The npc_id 9500000517 is reconstructed, as the answer says.",
+    "live: Title 140648 is verified as 'Take a Number'. The only completion evidence is the video OCR for South Sacred Grove, which is a grove context. Downgrading to unsure is correct.",
+    "line.previous: The four 'previous' entry quests are linked only by the wiki's 'only one need be completed' note (quoted in repo Adventurer.md:108). None of their own answers lists Take a Number as next (chain notes:"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "talk target 'Pux Frillwillow' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000035,
+   "record": "quest-lines/quests.json q3000035",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: The Forgotten Princess",
+   "live": "yes",
+   "giver": {
+    "name": "Geoffrey",
+    "npc_id": "9000000330",
+    "locale_id": 70318
+   },
+   "resolved_giver": {
+    "npc_id": 9000000330,
+    "name": "Geoffrey",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Why is there little to no mention of Darkthorne in the annals of history? Perhaps a learned resident of Sanctuary knows more.",
+     "text_locale_id": 90794,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Ask residents of Sanctuary about Darkthorne.",
+     "text_locale_id": 90797,
+     "target": "residents of Sanctuary",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Ask about Darkthorne",
+     "text_locale_id": 90807,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "no reward amount found in client or wiki; repo:notes/Build Guides/Content/Jobs/Adventurer.md row E7 gives none"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 90786,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "live: The 'live: yes' verdict rests on the absence of FLAGs and an unverified wiki listing. The guide marks E7's dialog and objective sources as inferred (†). Nothing I checked confirms the quest is live or",
+    "evidence: The claim that the 'Sacred Grove' wiki page places the quest in the Royal Palace chain was not checked. My wiki lookup for Geoffrey returned only the Queen's Last Hope boss and assassination text, wit",
+    "objectives[1], objectives[2]: The talk objectives have null targets. The reply strings 90798, 90803 and 90805 are real quest_dialog lines, so the targets Nomi, General Glowlight and Quills are supported, but the answer leaves them",
+    "dialog.offer: Offer is null. Locale 90786 ('It doesn't add up... check around Sanctuary') is a plausible offer line, and the answer says it is not confirmed as Geoffrey's.",
+    "giver.npc_id: The npc_id 9000000330 is taken from the pack and the guide. I did not confirm it against the client NPC data, and the wiki NPC table gives a different name id (509620257) for Geoffrey.",
+    "objectives[1] and objectives[2]: The talk objectives have no target. The answer leaves Nomi, General Glowlight and Quills unwired, but the locale replies 90798, 90803 and 90805 ('Nomi didn't know anything', 'General Glowlight didn't "
+   ],
+   "blocked_by": [
+    "talk target 'residents of Sanctuary' not placed in our rows",
+    "talk target None not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000039,
+   "record": "quest-lines/quests.json q3000039",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: The Small Wooden Box",
+   "live": "yes",
+   "giver": {
+    "name": "Vittorio",
+    "npc_id": "9000000232",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000232,
+    "name": "Vittorio",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find the fort guard who has possession of the wooden box.",
+     "text_locale_id": 90862,
+     "target": "Lieutenant Snibug",
+     "target_locale_id": 17913,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000163,
+      "name": "Lieutenant Snibug",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Find Lieutenant Snibug",
+     "text_locale_id": 90869,
+     "target": "Lieutenant Snibug",
+     "target_locale_id": 17913,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000163,
+      "name": "Lieutenant Snibug",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90860,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 390624,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "zone: Zone is set to Nettleseed, but the client tags 90861-90869 as Briarwood, locale:90866 says 'Find the Briarwood fort guard', and locale:390624 says Snibug was 'in Briarwood'. Only the wiki (The Central",
+    "objectives[1]: The target NPC id for Lieutenant Snibug is not given (only the string id 17913 is). A builder cannot wire a 'talk' objective to a target without the NPC id, and the answer does not check whether the N",
+    "objectives[0]: Two objectives point at the same NPC with kinds 'go' and 'talk'. The 'go' text (90862) is a description of the same step, so it may duplicate the 'talk' objective. The chain notes are empty, so this c",
+    "line: Previous (3000038 Armor Shipment) and next (3000040 Fungus) agree with the build's adventurer.json prerequisites (3000039 requires 3000038; 3000040 requires 3000039) and with locale:90882, which says ",
+    "zone: The quest's own client tags for 90861-90869 are Briarwood, and the NPC record for Lieutenant Snibug (npcs/briarwood.json:39012-39024, npc_id 9500000163) lists zone 'Briarwood', zone_id 2. The answer s",
+    "objectives[1].target: The Snibug NPC id 9500000163 (npcs/briarwood.json:39009) is available in the repo but is not given, so a builder cannot link the talk objective to the NPC record."
+   ],
+   "blocked_by": [
+    "giver 'Vittorio' row 9000000232 not placed"
+   ]
+  },
+  {
+   "quest_id": 3000050,
+   "record": "quest-lines/quests.json q3000050",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: The Queen's Last Hope",
+   "live": "yes",
+   "giver": {
+    "name": "Darkthorne",
+    "npc_id": "9000000067",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000067,
+    "name": "Darkthorne",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Take Darkthorne's antidote to her sister in the Royal Palace.",
+     "text_locale_id": 90975,
+     "target": "Queen Valerian",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000519,
+      "name": "Queen Valerian",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Hurry back to the Royal Palace",
+     "text_locale_id": 90976,
+     "target": "Royal Palace",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Geoffrey",
+     "text_locale_id": 90978,
+     "target": "Geoffrey",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000330,
+      "name": "Geoffrey",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Geoffrey to protect the Queen",
+     "text_locale_id": 90980,
+     "target": "Geoffrey",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000330,
+      "name": "Geoffrey",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "use",
+     "text": "Administer the antidote to Queen Valerian",
+     "text_locale_id": 90982,
+     "target": "Queen Valerian",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Queen Valerian",
+     "text_locale_id": 90984,
+     "target": "Queen Valerian",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000519,
+      "name": "Queen Valerian",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Honorary membership of the royal guard of Sanctuary, and a special tabard",
+     "source": "locale:90972"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "open: no reward amount in client text or repo"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 90969,
+     "speaker": "Darkthorne"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90972,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[3]: The Geoffrey defeat objective (locale 90980) is attributed to this quest from line order alone. The client also holds Geoffrey-fight lines 130716 ('Defeat them so you can safely administer the antidot",
+    "next: next is empty and the wiki/chain claim is unverified. The answer correctly says 3000051 is not a confirmed successor, but the chain link is left open rather than resolved.",
+    "live: The 'no not_live or placeholder FLAG' claim is not visible in the locale output I could check; the locale tool shows text only. The live verdict rests on that unverified flag check.",
+    "live: Marked live 'yes' on the strength of missing FLAGs alone. The record is enabled:false, and the guide's E22 video shows the Campaigns entry locked behind SC 500. Liveness is not established by the text",
+    "objectives: The objective list omits the guide's alternate give-antidote lines (3528022567 'Give Queen Valerian the Antidote', 802448179 'at the top of the throne'). The answer's 'use' objective (90982) is one of",
+    "line.next: Next is empty. The guide labels this E22 as the last of the 22-quest Chapter 1 campaign, so an empty next is consistent. The answer does not say this, though, and it does not cite the row as the reaso"
+   ],
+   "blocked_by": [
+    "giver 'Darkthorne' row 9000000067 not placed",
+    "deliver target 'Queen Valerian' not placed in our rows",
+    "talk target 'Queen Valerian' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000051,
+   "record": "quest-lines/quests.json q3000051",
+   "quest_file": "adventurer.json",
+   "title": "Belated Bonny",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000445",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Bonny near the water around Sanctuary.",
+     "text_locale_id": 391221,
+     "target": "Bonny",
+     "target_locale_id": 391234,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Frolic Steadywings in the Royal Palace",
+     "text_locale_id": 391226,
+     "target": "Frolic Steadywings",
+     "target_locale_id": 103914,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 391182,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 391225,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 391185,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0].kind: The answer labels locale:391221 as the 'go' objective, but its client type was never confirmed (the answer says so itself). The text itself, 'Find Bonny near the water around Sanctuary.', is confirmed",
+    "objectives[1]: The return objective is confirmed: locale:391226 reads 'Return to Frolic Steadywings in the Royal Palace', and 103914 is 'Frolic Steadywings'. The answer's claim that 391226 is tagged quest_objective ",
+    "giver: The giver is unresolved (npc 9000000445 has no name in npcs_unresolved.json), and the offer text (391182) names no speaker. The answer's null name and zone reasoning is honest, but the 'Sanctuary' zon",
+    "dialog.progress: locale:391225 ('Picking Ammie Lilies can be distracting. Bonny needs a reminder...') is real and unflagged, but its type is unconfirmed. Leaving progress null is the safe choice.",
+    "evidence (missing alt text): The answer does not mention locale:393175 ('Please find my granddaughter, Bonny! She was supposed to be collecting flowers just outside of Sanctuary near the water...'), an unflagged second offer-styl",
+    "line: Line is named 'Adventurer side quests, Part F' with previous and next both empty. Adventurer.md only says Part F rows sit inside the Chapter 1 sequence, and the wiki lists them as non-essential. No ch"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "deliver target 'Frolic Steadywings' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3040002,
+   "record": "quest-lines/quests.json q3040002",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Enter the Champion",
+   "live": "yes",
+   "giver": {
+    "name": "Poe Tatters (unverified; build guide and record only)",
+    "npc_id": "9000000170",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000170,
+    "name": "Poe Tatters",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat the Card Duelist Practice Deck.",
+     "text_locale_id": 103272,
+     "target": "Sam Potts (training deck)",
+     "target_locale_id": 74093,
+     "count": 1,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 103262,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 103265,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Poe Tatters (9000000170) is taken from the record and build guide only. No client or wiki source names the speaker of 103262 or the giver. The answer correctly flags this, but it means the giver is un",
+    "line.next: 'Card Duelist: Sam I Am' as next is supported only by wiki order (top block lists Enter the Champion then Sam I Am) and by locale 103501, which sits in the 103500 block and reads as a follow-on hint. ",
+    "line.previous: Previous is empty, which is honest, but the answer does not address the Sam Potts 'Practice Makes Perfect' cluster (103240 to 103253, with 'Speak with Sam' and 'Beat Sam's Trick Deck'). It sits in the",
+    "objectives[0].target: Target 74093 (Sam Potts) is inferred from 103264's description, which names Sam Potts' Training Deck. The objective text 103272 itself names no NPC. Acceptable, but it is a combination, not a direct o",
+    "giver: Giver Poe Tatters (9000000170) rests only on the build guide and a reconstructed npc id; no client or wiki line names the speaker of offer 103262 or complete 103265. The answer labels this as unverifi",
+    "line.next: Next link 'Card Duelist: Sam I Am' rests on wiki ordering and locale 103501, which says only 'find Sam Potts to teach you more' after practice. It does not name the Sam I Am quest or its record."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Sam Potts (training deck))"
+   ]
+  },
+  {
+   "quest_id": 3040011,
+   "record": "quest-lines/quests.json q3040011",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Poe's Best Deck",
+   "live": "yes",
+   "giver": {
+    "name": "Poe Tatters",
+    "npc_id": "9000000170",
+    "locale_id": 38111
+   },
+   "resolved_giver": {
+    "npc_id": 9000000170,
+    "name": "Poe Tatters",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Play and defeat Poe's Tournament Deck.",
+     "text_locale_id": 103738,
+     "target": "Poe's Tournament Deck",
+     "target_locale_id": 92727,
+     "count": 1,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 103743,
+     "speaker": "Poe Tatters"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 103746,
+     "speaker": "Poe Tatters"
+    }
+   },
+   "critic_problems": [
+    "line.previous / line.next: Chain links rest only on the guide's row order (Card Duelist.md rows 9 to 11: 'After Poe's Planted Cards (wiki order)' and row 11 'After Poe's Best Deck (wiki order)'). The answer flags this itself. T",
+    "objectives[0]: Checked: locale 103738 'Play and defeat Poe's Tournament Deck.' and target 92727 'Poe's Tournament Deck' match the client. The guide's row 10 cites different objective ids (1033550439, 1251331101) for",
+    "rewards: Empty, and the answer says so honestly. Locale 92759 describes the Poe hero card as the match prize, which is a duel reward and not a quest reward field. Correctly left unset.",
+    "evidence[8]: The repo citation 'sanctuary.json:42967' does not show Poe's NPC entry. Grep finds 9000000170 at sanctuary.json:42613 and :42616. The claim itself (Poe is a Sanctuary quest giver) is consistent with t",
+    "evidence[9] / line.previous: The Ten Ton Hammer citation is real. The articles search returns node/69806 with 'Tatters Sanctuary ... Beat [Poe] Tatters in a [practice] [duel] ... Recruit students for [Bry] in [Lakeshore]'. It is ",
+    "objectives[0]: Verified. 103738 is 'Play and defeat Poe's Tournament Deck.' and 92727 is \"Poe's Tournament Deck\". Both are unflagged in the client table. The duel target is a real client name."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Poe's Tournament Deck)"
+   ]
+  },
+  {
+   "quest_id": 3050019,
+   "record": "quest-lines/quests.json q3050019",
+   "quest_file": "chef.json",
+   "title": "Chef: Meet the Reputable Bordon Cloo",
+   "live": "unsure",
+   "giver": {
+    "name": "Honey",
+    "npc_id": "9000000107",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000107,
+    "name": "Honey",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Vaelen near the Snowhill warpstone, northeast of Perry. With the help of a fellow researcher, he's managed to develop a spell that can teleport anyone to any warpstone in the world!",
+     "text_locale_id": 139285,
+     "target": "Vaelen Warpwatcher",
+     "target_locale_id": 130731,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000778,
+      "name": "Vaelen Warpwatcher",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "Deliver Bumbleberry, Gummyfruit, and Spiralmint to Bordon Cloo, the famous royal chef of Sanctuary! Vaelen Warpwatcher can help you get there quickly!",
+     "text_locale_id": 139272,
+     "target": "Bumbleberry, Gummyfruit, Spiralmint",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver the ingredients to Bordon Cloo in Sanctuary.",
+     "text_locale_id": 139281,
+     "target": "Bordon Cloo",
+     "target_locale_id": 15300,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000028,
+      "name": "Bordon Cloo",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 139270,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 139273,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line.previous: Previous is left empty, but the evidence points to a candidate. Honey's Chef: Crazy Craving (locale 71056, record 3050010) asks for the same ingredients (71055, 71057). The answer admits it is unconfi",
+    "line.next: Next 'Chef: Reach Level 5' is text-supported (locale 387247 title; 387267 'Reach Level 5 as a Chef, then return to Bordon Cloo'), so the link itself holds. But it is not reciprocal: record 3050020 has",
+    "giver: Giver Honey (9000000107) is wiki-only and the client never names her for 139270 or 139273. The wiki Chef page does list 'Meet the Reputable Bordon Cloo - Honey in south of Sanctuary', so the giver is ",
+    "objectives[1]: The collect step (139272) is tagged quest_objective but reads as a description with no count and no target id; the target string is a list of three ingredient names, not a resolved item id. It is stil",
+    "objectives[0]: Vaelen location conflicts: 139285 says 'northeast of Perry' while 130797 says 'south of Tevin'. The answer picks 139285 with a reason, which is reasonable, but the Snowhill name-id conflict stays open",
+    "line.next: The next link 'Chef: Reach Level 5' (387247) checks out: locale 387247 is quest_title 'Chef: Reach Level 5', and the Chef objective 387267 ('Reach Level 5 as a Chef, then return to Bordon Cloo') ties "
+   ],
+   "blocked_by": [
+    "giver 'Honey' row 9000000107 not placed"
+   ]
+  },
+  {
+   "quest_id": 3070026,
+   "record": "quest-lines/quests.json q3070026",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Dooba's Secret",
+   "live": "unsure",
+   "giver": {
+    "name": "Karl Kippersun (inferred, not bound to npc 9000000127)",
+    "npc_id": "9000000127",
+    "locale_id": 409224
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Visit Dooba in Nettleseed and see if he'll let you have some of his bait.",
+     "text_locale_id": 409232,
+     "target": "Dooba (npc 9000000308)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000308,
+      "name": "Dooba",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 409225,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver npc 9000000127 is bound only in fisherman.json (giver_npc_id) and npcs_unresolved.json ref 9000000127 (name 'Karl Kippersun † points the player to Dooba'). No client line binds Karl (locale 4092",
+    "objectives: Locale 409237 'Return to Dooba' and 409238 'Take the Nettletrout you caught to Dooba.' are tagged to this quest's hint in the client, and the answer excludes them on the strength of a guide row assign",
+    "line: previous: [] is stated in the answer's structure as empty while the open note says 'not confirmed'. The guide cell for row 22 is 'unknown', so the chain link is unverified in either direction.",
+    "live: The title 409226 is confirmed as unflagged quest_title tagged Nettleseed, and the other text ids (409225, 409227, 409230, 409232) match the client text exactly. Live status remains unknown because the",
+    "previous: The answer records previous as an empty array. The guide's numbering puts this quest right after row 21 'Fisherman: Say Cheese!' (Fisherman.md:104-110). The answer's own open note admits the predecess",
+    "line: The Live Bait link rests on the guide's dagger-marked row 23 ('After 22 †', Fisherman.md:111). It is an inference, not a client-confirmed prerequisite. The answer states it as the next link without th"
+   ],
+   "blocked_by": [
+    "giver 'Karl Kippersun (inferred, not bound to npc 9000000127)' not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3090007,
+   "record": "quest-lines/quests.json q3090007",
+   "quest_file": "medic.json",
+   "title": "Contract: Local Problems",
+   "live": "unsure",
+   "giver": {
+    "name": "Beth Callahan",
+    "npc_id": "9000000023",
+    "locale_id": 388395
+   },
+   "resolved_giver": {
+    "npc_id": 9000000023,
+    "name": "Beth Callahan",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a Medic, defeat bixies near Queensfield and Robgoblin Pondblasters near Stillwater Crossing!",
+     "text_locale_id": 388276,
+     "target": "Bixie Warriors; Robgoblin Pondblasters",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Bixie Warriors",
+     "text_locale_id": 388277,
+     "target": "Bixie Warriors",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "These bixies wander the area around Queensfields",
+     "text_locale_id": 388278,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388659,
+     "speaker": "Beth Callahan"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388662,
+     "speaker": "Beth Callahan"
+    }
+   },
+   "critic_problems": [
+    "dialog.offer / dialog.complete speaker: The answer attributes the offer (388659) and completion (388662) lines to Beth Callahan. Neither line names a speaker, and the answer's own open[0] says the attribution is inferred. The evidence block",
+    "zone: The zone field gives Queensfields as the answer, but the giver record in the evidence pack says Sanctuary. The answer flags this as unresolved, which is honest, but the headline zone is still stated a",
+    "objectives[1] / evidence 388277: 388277 ('Defeat Bixie Warriors') is confirmed as a locale line, but the answer's own open list says the text is shared with another quest (101597). Pairing it to this contract rests on block adjacency",
+    "objectives[0] target: The Robgoblin Pondblasters target has no locale id or mob/NPC id, so one of the two named targets cannot be wired.",
+    "line.previous / line.next: Both are empty. The answer's reasons are sound: 3090006 is a batch-key prerequisite and medic.json:579 makes 3090008 require 3090006, not 3090007. The wiki Medic list does place this contract in a seq",
+    "line.previous: Left empty, yet the answer itself cites 3090006 'Medic: Achieve Level 5' as the prerequisite in medic.json:533-535 and the wiki Medic page lists 'Achieve Level 5' immediately before the Local Problems"
+   ],
+   "blocked_by": [
+    "giver 'Beth Callahan' row 9000000023 not placed",
+    "defeat target 'Bixie Warriors; Robgoblin Pondblasters' not placed in our rows",
+    "defeat target 'Bixie Warriors' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3090022,
+   "record": "quest-lines/quests.json q3090022",
+   "quest_file": "medic.json",
+   "title": "Contract: Forgotten Favor",
+   "live": "yes",
+   "giver": {
+    "name": "Beth Callahan",
+    "npc_id": "9000000023",
+    "locale_id": 199591402
+   },
+   "resolved_giver": {
+    "npc_id": 9000000023,
+    "name": "Beth Callahan",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a Medic, defeat the changelings in the Forgotten Caves!",
+     "text_locale_id": 388325,
+     "target": "changelings (Forgotten Caves)",
+     "target_locale_id": 5703,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388672,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388675,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "live: Marked 'yes' while the answer's own confidence is 0.55 and its open items say the title-to-objective pairing is inferred from block adjacency. The evidence pack's giver dossier says the same. 'Live: y",
+    "evidence[offer]: The answer cites a Forgotten Caves wiki page for 'Archmage Petulia' as an escort bonus, started from Memorial Caverns. My lookup found no such wiki page. The client's spelling is 'Petunia' (locale 388",
+    "objectives[0]: The text (388325) and its 'Medic Bounty 3' tag (internal name 388324) check out. The objective is correct as text, but the count is null and the answer omits the other client lines in the same block: ",
+    "line.previous: 'Medic: Achieve Level 15' as previous rests on guide row 21 to row 22 ordering only. The other answer's chain note says Achieve Level 15 lists 'Medic: Shock Paddles and You' as next, which skips row 2",
+    "objectives[0]: The objective 388325 is confirmed as an unflagged quest_objective tagged 'Medic Bounty 3', but that tag only ties it to the Bounty 3 block. Nothing ties Bounty 3 to Forgotten Favor except block order.",
+    "line.next: next is empty. The guide's row 23 'Medic: Shock Paddles and You' is also 'After 21', so the chain after this quest is unresolved rather than absent. The answer explains the gap, but the chain is still"
+   ],
+   "blocked_by": [
+    "giver 'Beth Callahan' row 9000000023 not placed",
+    "defeat target 'changelings (Forgotten Caves)' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3120006,
+   "record": "quest-lines/quests.json q3120006",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: To Sanctuary!",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000368",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Roscoe the Pet Trainer in Sanctuary.",
+     "text_locale_id": 90028,
+     "target": "Roscoe",
+     "target_locale_id": 78660,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000184,
+      "name": "Roscoe",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": 90026,
+    "progress": null,
+    "complete": 90029
+   },
+   "critic_problems": [
+    "giver: The giver is still unresolved. Npc id 9000000368 appears only at npcs_unresolved.json:2709 and in the quest records, and no client string names it. The answer is honest about this, but a builder canno",
+    "objectives[0]: Confirmed: locale 90028 reads 'Find Roscoe the Pet Trainer in Sanctuary.', and 78660 is 'Roscoe'. The 'go' kind and the trigger are inferred, which the answer already lists as open.",
+    "line: The previous/next links rest on the wiki list order, which I checked: the Pet Trainer page lists Speak Up, then '[Pet] [Trainer]: [To] [Sanctuary]', then the Main Series entry 'Sit Up and Take Notice:",
+    "giver: The giver is an unresolved id (9000000368) with no name, zone or location. The answer's zone 'Sanctuary' is the destination zone from the client tag. The repo guide's row 5 says the quest is given in ",
+    "line: Previous/next links check out against the wiki order (Speak Up, To Sanctuary, Sit Up and Take Notice) and guide rows 4-6. The answer omits that locale 90029 names Majorie, Mercy or Zachery as possible",
+    "objectives[0]: Grounded: locale 90028 'Find Roscoe the Pet Trainer in Sanctuary.' and 78660 'Roscoe' both verified. The 'go' kind is an inference the answer already flags."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3120007,
+   "record": "quest-lines/quests.json q3120007",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: Sit Up and Take Notice",
+   "live": "yes",
+   "giver": {
+    "name": "Roscoe",
+    "npc_id": "9000000184",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000184,
+    "name": "Roscoe",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your dog to do the trick \"Sit Up\".",
+     "text_locale_id": 90032,
+     "target": "dog (pet)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90030,
+     "speaker": "Roscoe"
+    },
+    "progress": {
+     "locale_id": 115593,
+     "speaker": "Roscoe"
+    },
+    "complete": {
+     "locale_id": 90033,
+     "speaker": "Roscoe"
+    }
+   },
+   "critic_problems": [
+    "line: Previous and next are taken from wiki ordering and the repo guide, not from any record field. Our record has empty prerequisite_quest_ids and no next link, so the chain is supported by the wiki but no",
+    "objectives[0]: The target 'dog (pet)' has no locale id and no stable target id. Locale 90032 and the level gate (Sit Up unlocks at Pet Trainer Level 5, repo guide line 29) are checked, but the level gate is not a fi",
+    "live_reason: Calling the quest live because its strings carry no FLAG is weaker than it reads, since the record is enabled:false and the wiki list is the only source for live status.",
+    "line: The record has min_level null, but the answer's own evidence (repo guide, 'Sit Up 5' in Pet Trainer.md line 29) gives a level-5 unlock. The answer flags this as open, but the level gate is still missi",
+    "giver: The giver npc_id 9000000184 is sourced only from the repo giver dossier. I did not verify it in the client or wiki. Name 'Roscoe' and the Sanctuary zone are confirmed by the guide (line 42) and locale",
+    "line.previous: The chain is Speak Up! to To Sanctuary! to Sit Up. To Sanctuary! (90027, 'Find Roscoe in Sanctuary') is the direct predecessor, so the previous link holds. The answer already acknowledges Speak Up! is"
+   ],
+   "blocked_by": [
+    "giver 'Roscoe' row 9000000184 not placed"
+   ]
+  },
+  {
+   "quest_id": 3120008,
+   "record": "quest-lines/quests.json q3120008",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: Jump High!",
+   "live": "yes",
+   "giver": {
+    "name": "Roscoe",
+    "npc_id": "9000000184",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000184,
+    "name": "Roscoe",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your cat to do the trick \"Jump\".",
+     "text_locale_id": 90036,
+     "target": "Trick game (cat, trick \"Jump\")",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90034,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90037,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line.next: The next entry 'Pet Trainer: Achieve Level 10 (record 3120009)' has no client title (the guide itself says so, and the chain note confirms no quest answer matches it). It is a wiki-only gate, not a ve",
+    "dialog.offer / evidence[1]: The offer text 90034 is attributed to Jump High! by the client's own hint field (quest_dialog under title 90035), which I confirmed. The answer's claim that the Rex lines might belong to Rousing Rex i",
+    "objectives[0].target: Target 'trick game (cat, trick Jump)' is text-derived with no target id; acceptable since the objective text 90036 is verified verbatim, but the cat target is not a named NPC or item.",
+    "line.next: The next entry 'Pet Trainer: Achieve Level 10' is a wiki-only gate with no client title. The answer lists it beside Mosey On Up as if both were direct successors, and the chain note shows no other ans",
+    "line.previous: Previous is correct per row 6/7 (Sit Up and Take Notice, locale 90031, follows To Sanctuary!, locale 90027). The answer's own open note admits the order is wiki-derived, not a server prerequisite, whi",
+    "dialog.offer: Locale 90034 is tagged quest_dialog under 'Pet Trainer: Jump High!' with no FLAG, so the id is supported. The Rex/adoption wording may overlap Rousing Rex (guide row 25), as the answer says. The attri"
+   ],
+   "blocked_by": [
+    "giver 'Roscoe' row 9000000184 not placed"
+   ]
+  },
+  {
+   "quest_id": 3120010,
+   "record": "quest-lines/quests.json q3120010",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: Mosey On Up",
+   "live": "yes",
+   "giver": {
+    "name": "Roscoe",
+    "npc_id": "9000000184",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000184,
+    "name": "Roscoe",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find Vidor Stormshroud the Pet Trainer in Shrouded Glade.",
+     "text_locale_id": 90040,
+     "target": "Vidor Stormshroud",
+     "target_locale_id": 78662,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000231,
+      "name": "Vidor Stormshroud",
+      "file": "npcs/shrouded_glade.json",
+      "zone": "Shrouded Glade",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90038,
+     "speaker": "Roscoe"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "previous: 'Pet Trainer: Achieve Level 10' has no client title, so the previous link rests only on the wiki order and the guide. The answer already flags this, and the chain note's 'matches no quest answer' is c",
+    "evidence: The answer cites repo 'notes/Research/Quest Audit.md:79' for the claim that Quest Audit flags giver absent or non-spawning. I did not open that file, so this citation is unverified.",
+    "line: The 'previous' link to 'Pet Trainer: Achieve Level 10' is weak. The wiki lists it in the Main Series, but the client has no title for it (only a bare 'Achieve Level 10 as a Pet Trainer' objective), an",
+    "live / record.enabled: The answer says 'live: yes' but the record is enabled:false because giver Roscoe 9000000184 does not spawn (W110 note). The client text (90038, 90039, 90040 are unflagged) and the wiki support that th",
+    "objectives[0]: The target name id 78662 for Vidor Stormshroud was not confirmed in my lookup. The client text 90040 and the NPC notes ('Vidor Stormshroud', ucdt 2201455295) do support the name and the target npc_id ",
+    "dialog.complete / end text: The answer correctly flags that end_text 90041 belongs to Peek-A-Who? and that no completion text for Mosey On Up is recovered. The ordering and zone checks are otherwise consistent: Roscoe in Sanctua"
+   ],
+   "blocked_by": [
+    "giver 'Roscoe' row 9000000184 not placed"
+   ]
+  },
+  {
+   "quest_id": 3120026,
+   "record": "quest-lines/quests.json q3120026",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: Show Off!",
+   "live": "yes",
+   "giver": {
+    "name": "Kirill Moonrunner",
+    "npc_id": "9000000130",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000130,
+    "name": "Kirill Moonrunner",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Have your pet perform the following tricks: \"Speak\", \"Handstand\", \"Play Dead\", and \"Dance\".",
+     "text_locale_id": 90111,
+     "target": "Pet tricks: Speak, Handstand, Play Dead, Dance",
+     "target_locale_id": null,
+     "count": 4,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90109,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 90111,
+     "speaker": "Kirill Moonrunner"
+    },
+    "complete": {
+     "locale_id": 90112,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver.locale_id: Left null. The dossier cites name string 3270857380, which does not match the client NPC name for Kirill Moonrunner. The locale lookup returns npc_name 78667 'Kirill Moonrunner' (lookup, client). The ",
+    "dialog.offer: Offer is mapped to 90109, which is the 'you have learned all the tricks... new challenge' line. That reads as a hand-off line, not a clear offer. The answer discloses this as a mapping choice, so it i",
+    "objectives[0]: Kind 'other' with target 'Pet tricks...' and count 4 is a reading, not a client target. The NOT LIVE catalogue row (mini-game 554: Speak, Handstand, Play Dead, Dance) supports the tricks but is flagge",
+    "record.enabled: The evidence pack shows enabled false for record 3120026, and the answer lists it as evidence without saying what that implies for the live claim. The 'live: yes' rests only on the unflagged strings a",
+    "zone: The answer uses Sanctuary; 90112 is tagged 'Sacred Grove'. The NPC data and wiki place Kirill in Sanctuary (North Sanctuary house), so Sanctuary is correct for the giver. The Sacred Grove tag is a tex",
+    "giver: giver.locale_id is null and the dossier's name string 3270857380 was not checked. The name is supported by the wiki (Pet Trainer page: Show Off! with Kirill Moonrunner in Sanctuary) and by locale 9010"
+   ],
+   "blocked_by": [
+    "giver 'Kirill Moonrunner' row 9000000130 not placed"
+   ]
+  },
+  {
+   "quest_id": 3130001,
+   "record": "quest-lines/quests.json q3130001",
+   "quest_file": "postman.json",
+   "title": "Become a Postman",
+   "live": "yes",
+   "giver": {
+    "name": "Felipe",
+    "npc_id": "9000000086",
+    "locale_id": 412446
+   },
+   "resolved_giver": {
+    "npc_id": 9000000086,
+    "name": "Felipe",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Felipe",
+     "text_locale_id": 412451,
+     "target": "Felipe",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000086,
+      "name": "Felipe",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Postman job unlock; no coin or item reward recorded",
+     "source": "repo:notes/Build Guides/Content/Jobs/Postman.md (row E1, rewards not documented)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The Pixiewood variant (locale:119072, 'Speak with Felipe at Pixiewood to learn how to become a Postman') is left unresolved. The answer keeps the Sanctuary giver, which the guide and the client text s",
+    "line: The Sanctuary entry leaves out the Flitter pointer. Client text 46247 ('Flitter can teach you how to become a postman.') and 73595 (Flitter's npc_dialog) are both live, unflagged lines, and the guide ",
+    "evidence: The guide title id 1000315976 for 'Can You Deliver?' is still unreconciled. The answer's own claim that locale:93381 matches is consistent with the dossier, but it does not explain the guide's differe",
+    "objectives[0]: The objective is correct: 'Speak to Felipe' is locale:412451, a quest_objective with no flag. Felipe's giver id 9000000086 comes from the record. Target locale is null, which is acceptable for a talk ",
+    "giver: The answer never mentions the client lines that name Flitter as the postman teacher: locale:46247 'Flitter can teach you how to become a postman.', locale:46248 'You should talk to Flitter in Sanctuar",
+    "rewards[0]: The reward 'Postman job unlock' is attributed to Postman.md row E1, but the pack's own record source says rewards are left empty and not documented. The attribution is not supported by the cited row."
+   ],
+   "blocked_by": [
+    "giver 'Felipe' row 9000000086 not placed",
+    "talk target 'Felipe' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3130004,
+   "record": "quest-lines/quests.json q3130004",
+   "quest_file": "postman.json",
+   "title": "Postman: Mail Marksman",
+   "live": "yes",
+   "giver": {
+    "name": "Felipe",
+    "npc_id": "9000000086",
+    "locale_id": 21276
+   },
+   "resolved_giver": {
+    "npc_id": 9000000086,
+    "name": "Felipe",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Deliver the mail in Sanctuary using your mail toss ability.",
+     "text_locale_id": 103921,
+     "target": "Mail Toss",
+     "target_locale_id": 103920,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Mail Marksman minigame",
+     "text_locale_id": 103922,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Let him know you've got a strong delivery!",
+     "text_locale_id": 103925,
+     "target": "Felipe",
+     "target_locale_id": 21276,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000086,
+      "name": "Felipe",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Mail Toss ability (Mail Throw)",
+     "source": "wiki page Postman: 'Mail Marksman: Felipe in Sanctuary (learn Mail Throw ability)'; locale:103920"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "no source found"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "no source found"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 103916,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 103923,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 103919,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line.previous: The previous link 'Can You Deliver?' (3130003) rests on guide row order (Postman.md:67 says E3 is 'After E1', Postman.md:75 says row 1 is 'After Can You Deliver?'). The answer already says this is not",
+    "objectives[1]: The minigame objective has no target id. Locale 103922 ('Complete the Mail Marksman minigame') is tagged to this title in the client lookup, so the text is supported, but the builder has no target. Th",
+    "rewards: Coins and XP are unknown with no source. The answer says so, which is acceptable for a build brief.",
+    "line.previous: The 'Can You Deliver?' prerequisite rests on guide row order (Postman.md:75 says 'After Can You Deliver?') and the wiki list, not on a client prerequisite. The answer discloses this, but the builder m",
+    "objectives[1]: The minigame objective has no target id, and the guide's 1140365964 id is not used. That is acceptable because 103922 is the verified objective text.",
+    "rewards: Coins and XP are recorded as unknown with no source. This is honest but leaves the reward block incomplete."
+   ],
+   "blocked_by": [
+    "giver 'Felipe' row 9000000086 not placed",
+    "needs mechanic: minigame (Complete the Mail Marksman minigame)",
+    "talk target 'Felipe' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3130007,
+   "record": "quest-lines/quests.json q3130007",
+   "quest_file": "postman.json",
+   "title": "Postman: Sort of a Mess",
+   "live": "yes",
+   "giver": {
+    "name": "Flitter",
+    "npc_id": "9000000091",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000091,
+    "name": "Flitter",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Help Flitter clean up the mail clutter by completing the Sanctuary Mail Sorting minigame.",
+     "text_locale_id": 141814,
+     "target": "Sanctuary Mail Sorting",
+     "target_locale_id": 102030,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Sanctuary Mail Sorting minigame",
+     "text_locale_id": 141815,
+     "target": "Sanctuary Mail Sorting",
+     "target_locale_id": 102030,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Flitter",
+     "text_locale_id": 141817,
+     "target": "Flitter",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000091,
+      "name": "Flitter",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 141808,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 141811,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: Objective 141814 is a full sentence restating the minigame step (kind 'other') and duplicates objectives[1] (141815, the same 'Sanctuary Mail Sorting' minigame). Both ids are real quest_objective line",
+    "line.previous / line.next: Previous and next titles rest only on the repo guide's row order. Client and wiki do not confirm an order; the answer's own 'open' note says so. This is an unsourced-by-client claim in the answer's li",
+    "dialog.progress: Left null, which is correct. Locale 5100783 ('I'm glad you came back... Sanctuary Mail Sorting') is hinted to 'Sanctuary Sort of Urgent', a different quest, so it must not be used as this quest's prog",
+    "dialog.progress: Answer says no progress dialog id was found. The client has locale 5100783 (\"I'm glad you came back, [*player*]! ... Please help me with the Sanctuary Mail Sorting...\"), which reads as Flitter's retur",
+    "objectives[0]: Objectives[0] and objectives[1] both point at the same minigame (102030) with near-identical text, so the quest shows the same step twice. The Postman guide row 4 (lines 78) lists the objective as 408",
+    "giver.locale_id: Null. The evidence does not verify Flitter's name string; the dossier cites 7595 but it was not checked."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Sanctuary Mail Sorting)"
+   ]
+  },
+  {
+   "quest_id": 3130009,
+   "record": "quest-lines/quests.json q3130009",
+   "quest_file": "postman.json",
+   "title": "Postman: Special Delivery",
+   "live": "yes",
+   "giver": {
+    "name": "Felipe",
+    "npc_id": "9000000086",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000086,
+    "name": "Felipe",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Complete the It's A Dancing Telegram! minigame",
+     "text_locale_id": 115054,
+     "target": "It's a Dancing Telegram!",
+     "target_locale_id": 139404,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Use your Bust-A-Move ability to deliver dancing telegrams.",
+     "text_locale_id": 115055,
+     "target": "Bust-A-Move ability (tooltip 388462 reads 'To be used with Postal Bust a Move ability to keep Postman immobile.')",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Deliver a dancing telegram around Sanctuary, then return to Felipe.",
+     "text_locale_id": 115048,
+     "target": "Felipe, Sanctuary",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000086,
+      "name": "Felipe",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver dancing telegrams.",
+     "text_locale_id": 115053,
+     "target": "dancing telegrams",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 115046,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 115048,
+     "speaker": "Felipe"
+    },
+    "complete": {
+     "locale_id": 115049,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line.next / chain link: The chain note says the 'Postman: Achieve Level 5' answer lists previous as nothing, so the link Special Delivery -> Achieve Level 5 is one-sided. This answer's next is correct: the repo guide (Postma",
+    "objectives[1]: The Bust-A-Move objective has no target and the tooltip 388462 is a description. The 'Postal Bust a Move' ability name is not confirmed as a client name. Locale 139703 was not checked as the name cand",
+    "evidence[Hot Dog Suit]: Locale 139389 is cited for the Hot Dog Suit quest naming but was not verified in this pass. The guide cites 1144510972 for that dev note, and the answer says that id does not match the locale.",
+    "live: The live verdict rests on unflagged client text, and the wiki page lists 'Postman: [Special] [Delivery]: Felipe in Sanctuary'. The answer says no per-quest wiki entry was confirmed, but the wiki Postm",
+    "rewards: Rewards are empty and disclosed as open. A builder can still wire the quest without them, but it is incomplete.",
+    "giver: Felipe as giver is now supported by the wiki list (\"[Postman]: [Special] [Delivery]: [Felipe] in Sanctuary\"), and 9000000086 is Felipe in the repo. The offer text 115046 is Flitter-voiced (\"I get to p"
+   ],
+   "blocked_by": [
+    "giver 'Felipe' row 9000000086 not placed",
+    "needs mechanic: minigame (It's a Dancing Telegram!)",
+    "deliver target 'dancing telegrams' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3140024,
+   "record": "quest-lines/quests.json q3140024",
+   "quest_file": "soccer_star.json",
+   "title": "Soccer Star: Making The Finals",
+   "live": "yes",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000056",
+    "locale_id": 401743
+   },
+   "resolved_giver": {
+    "npc_id": 100000004282,
+    "name": "Coach &quot;Golden Leg&quot; Eddie",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat the Twinkletoes",
+     "text_locale_id": 402995,
+     "target": "Twinkletoes",
+     "target_locale_id": 411071,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete dodge maneuvers 10 times",
+     "text_locale_id": 406621,
+     "target": "Twinkletoes match",
+     "target_locale_id": null,
+     "count": 10,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Knock down Francesca \"The Invincible\" 15 times",
+     "text_locale_id": 406623,
+     "target": "Francesca \"The Invincible\"",
+     "target_locale_id": 401714,
+     "count": 15,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": 402809,
+    "progress": 402609,
+    "complete": null
+   },
+   "critic_problems": [
+    "live: Stated as live 'yes' with confidence 0.6, but the evidence pack has enabled:false and no wiki or article confirms shipping. The answer admits this. Client text is unflagged, so the quest is plausibly ",
+    "objectives[1].target: Target 'Twinkletoes match' has no locale id and is the answer's own wording. It is not a client string.",
+    "giver.zone / zone: The answer gives zone as Sanctuary from npcs_unresolved place 'Sanctuary Twinkletoes (field unknown)'. That place describes the match, not the giver. Eddie's home is the North Wilds (locale:406653), s",
+    "line.previous / line.next: The link is one-sided. Twinkle Toes (3140025) has empty previous in our records, and the Level 13 neighbour conflicts with another answer (Level 15). The answer flags this as open. It is not a confirm",
+    "zone: Zone is set to Sanctuary, which is only the match location (guide row 21: 'Sanctuary Twinkletoes (field unknown)'). The giver Coach Eddie is in the North Wilds (locale 406653 and guide NPC section), a",
+    "objectives[1]: The dodge objective (locale:406621, quest_objective, verified) is not in the guide's row 21, which lists only 'Beat the Twinkletoes' and 'Knock down Francesca 15 times'. The answer's addition is suppo"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Twinkletoes)",
+    "needs mechanic: minigame (Twinkletoes match)",
+    "defeat target 'Francesca \"The Invincible\"' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3140025,
+   "record": "quest-lines/quests.json q3140025",
+   "quest_file": "soccer_star.json",
+   "title": "Soccer Star: Twinkle Toes",
+   "live": "yes",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000056",
+    "locale_id": 401743
+   },
+   "resolved_giver": {
+    "npc_id": 100000004282,
+    "name": "Coach &quot;Golden Leg&quot; Eddie",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Scrimmage against the Sanctuary Twinkletoes: beat them in a friendly game of soccer",
+     "text_locale_id": 414952,
+     "target": "Twinkletoes (Sanctuary soccer team)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "None named in the client text",
+     "source": "locale:414953"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 414950,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 414953,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line: The previous link is empty, but the client text supports a predecessor. Making The Finals (record 3140024, guide row 21) is the quest that secures 'the finals', and this quest's offer (locale:414950) ",
+    "line.next: The next link is empty. Ants In The Pants (guide row 24) follows 'Wahoo! We're in the finals!' (locale 481641531), which the guide places after the finals are secured. That is a plausible successor bu",
+    "zone: The zone 'Sanctuary' rests on the place string 'Sanctuary Twinkletoes (field unknown)' in npcs_unresolved.json:489, which is a team name, not a field or NPC location. The answer's own open list says t",
+    "giver.npc_id: npc_id 9000000056 is a reconstructed key (npcs_unresolved.json:482). The name 'Coach \"Golden Leg\" Eddie' resolves (locale:401743), but the key-to-name link is unconfirmed, as the answer itself says.",
+    "objectives[0]: The objective is correct: locale:414952 matches the text and the Twinkletoes team is confirmed by locale:402809 and 414998. The target id 196173133 is only from the guide, so target_locale_id null is ",
+    "dialog.progress: Progress is null, but the guide cites progress strings 1080037133 ('Did you beat the Twinkle Toes?') and 3127585007 ('Twinkle Toes here we go!'). Locale 415180 ('Did you beat the Twinkle Toes?') and 4"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Twinkletoes (Sanctuary soccer team))"
+   ]
+  },
+  {
+   "quest_id": 3150018,
+   "record": "quest-lines/quests.json q3150018",
+   "quest_file": "warrior.json",
+   "title": "Warrior: Legend of Fastvi Frostflutter",
+   "live": "yes",
+   "giver": {
+    "name": "Sir Whittington",
+    "npc_id": "9000000205",
+    "locale_id": 7652
+   },
+   "resolved_giver": {
+    "npc_id": 9000000205,
+    "name": "Sir Whittington",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Use the game table near Sir Whittington and beat the \"Weed Killing!\" tower defense minigame.",
+     "text_locale_id": 100757,
+     "target": "Weed Killing! (Tower Defense table, Sanctuary)",
+     "target_locale_id": 15135,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "All-Star Warrior Axe",
+     "source": "wiki page ns0 'All-Star Warrior Axe' (states it was previously acquired by completion of Warrior: Legend of Fastvi Frostflutter; Level 12 Warrior item)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 71435,
+     "speaker": "Sir Whittington"
+    },
+    "progress": {
+     "locale_id": 71437,
+     "speaker": "Sir Whittington"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: Ids check out: 100757 is 'Use the game table near Sir Whittington and beat the \"Weed Killing!\" tower defense minigame.' (hint 'Sanctuary Weed Killing'), 15135 is 'Weed Killing!', 71443 and 15136 match",
+    "objectives / open: 391334 ('Complete 'Weed Killing!'') is tagged to the Briarwood Tangled Barricade hint, i.e. a different quest's objective. The answer lists it as a completion-side line for this quest; that link is no",
+    "rewards[0]: The All-Star Warrior Axe reward rests only on wiki item-page wording ('previously acquired by completion of the quest Warrior: Legend of Fastvi Frostflutter'). That supports a link but not a reward sl",
+    "dialog.complete / dialog.progress: Both are null, so the quest cannot be wired to a return line. The answer correctly flags this, but a builder cannot use it as-is for completion.",
+    "line: Previous (3150016) and next (3150019) match the wiki Warrior page order (Achieve Level 15 -> Legend of Fastvi Frostflutter -> Asking Old Folks) and the giver's quest list, so the chain position holds.",
+    "objectives[0]: The single minigame objective (locale 100757, 'Use the game table near Sir Whittington and beat the \"Weed Killing!\" tower defense minigame.') checks out and is tagged Sanctuary Weed Killing. The answe"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Weed Killing! (Tower Defense table, Sanctuary))"
+   ]
+  },
+  {
+   "quest_id": 3160016,
+   "record": "quest-lines/quests.json q3160016",
+   "quest_file": "wizard.json",
+   "title": "Wizard: Osgood as it Gets",
+   "live": "unsure",
+   "giver": {
+    "name": "Yaren Sunstare",
+    "npc_id": "9000000234",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000234,
+    "name": "Yaren Sunstare",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Osgood",
+     "text_locale_id": 74949,
+     "target": "Osgood",
+     "target_locale_id": 45555,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000164,
+      "name": "Osgood",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed; no reward string found for this quest",
+     "source": "open"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 74937,
+     "speaker": "Yaren Sunstare"
+    },
+    "progress": {
+     "locale_id": 74940,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver.locale_id: Left null although the giver's name string is in the client: locale 70083 is exactly 'Yaren Sunstare' (the answer said it was unverified). The answer's own claim that the name id is unconfirmed is the",
+    "dialog.progress: 74940 'You say Yaren sent you?' is labelled progress by inference from its wording only. It is a player line, not a confirmed NPC progress or completion string. The answer discloses this in open[], so",
+    "objectives[0]: Verified: 74949 'Speak with Osgood' is quest_objective, Sanctuary, under this quest title; target 45555 'Osgood' exists as an exact bare-name locale string. The objective is supported by the text.",
+    "line.next: 'Wizard: Reach Level 10' as next is sourced to the guide row 15 and the wiki Osgood page, and the level-10 gate is supported by client strings 387664/387685. Its previous conflicts with another answer",
+    "rewards: Reward is empty and marked unknown. This is disclosed, not invented, so it is a gap rather than a failure.",
+    "objectives[0]: The single talk objective 'Speak with Osgood' (74949) is real, unflagged, and tagged to this quest (Sanctuary, Wizard: Osgood as it Gets). But 104033 'Speak with Osgood in Sanctuary.' is also in the c"
+   ],
+   "blocked_by": [
+    "talk target 'Osgood' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3160017,
+   "record": "quest-lines/quests.json q3160017",
+   "quest_file": "wizard.json",
+   "title": "Wizard: Reach Level 10",
+   "live": "yes",
+   "giver": {
+    "name": "Osgood",
+    "npc_id": "9000000164",
+    "locale_id": 45555
+   },
+   "resolved_giver": {
+    "npc_id": 9000000164,
+    "name": "Osgood",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 10 as a wizard, then return to Osgood.",
+     "text_locale_id": 387685,
+     "target": "Osgood",
+     "target_locale_id": 45555,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Reach level 10 as a wizard",
+     "text_locale_id": 387688,
+     "target": "Wizard level 10",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced",
+     "source": "no reward text in the client pack or repo; record rewards are empty"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 387662,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387664,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 387665,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1].target: The target 'Wizard level 10' is a descriptive label the answer made up; no locale id backs it (target_locale_id is null). The objective text itself (387688 'Reach level 10 as a wizard') is correctly s",
+    "line.previous: Verified: 74938 is 'Wizard: Osgood as it Gets' and wizard.json:850-855 gives 3160016 with prerequisite 3160015. But the record for 3160017 has prerequisite_quest_ids [], so the link 3160016 -> 3160017",
+    "giver.npc_id: Name 'Osgood' (45555) verified. The npc_id 9000000164 is only from the pack and repo, not the client table; the answer already flags this as open, which is fair.",
+    "objectives[0].count / gate: Level 10 is a gate, not a kill or collect count, so count null is correct. The gate is in the offer text (387662 'Come back to me at level 10'), which the answer cites.",
+    "line.previous: The previous link 'Wizard: Osgood as it Gets' (3160016, locale 74938, giver Yaren 9000000234) is supported by guide row 14 directly before row 15 and by wizard.json lines 850-855. But the guide's prer",
+    "line.next: Next lists 'Contract: Robgoblin Magic' first, but that row is repeatable per the wiki (Wizard.md line 101) and its giver is Natali in Lakeshore, not Sanctuary. Listing it as the sequential successor i"
+   ],
+   "blocked_by": [
+    "giver 'Osgood' row 9000000164 not placed"
+   ]
+  },
+  {
+   "quest_id": 3160019,
+   "record": "quest-lines/quests.json q3160019",
+   "quest_file": "wizard.json",
+   "title": "Wizard: Helping a Friend",
+   "live": "unsure",
+   "giver": {
+    "name": "Osgood",
+    "npc_id": "9000000164",
+    "locale_id": 45555
+   },
+   "resolved_giver": {
+    "npc_id": 9000000164,
+    "name": "Osgood",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Sandbur in Sanctuary's Inner Circle.",
+     "text_locale_id": 37312,
+     "target": "Sandbur",
+     "target_locale_id": 10090,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000190,
+      "name": "Sandbur",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 37310,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "evidence[9] (wiki Wizard heading): The wiki snippet shows '..[Helping] [a] [Friend]' directly before the '[Sandbur]' heading, but the Osgood heading and the exact placement are not visible in the returned text. The claim that it sits u",
+    "objectives[0]: The objective omits the talk target npc_id 9000000190 that the record carries (wizard.json:1014). The answer says the target is unresolved in open notes, but the objective entry itself does not show t",
+    "line.band: 'Band 3 (levels 10 to 15)' and the guide row 17 come from notes/Build Guides/Content/Jobs/Wizard.md, which I did not open. This is unverified here.",
+    "dialog: The answer lists dialog.offer 37310, but the record has no dialog slots. The 37310 text is only the intro_text_string_id in the evidence pack. The answer does not say where that link comes from.",
+    "objectives / completion: The answer does not say where the quest ends. Locale 37312 says only 'Speak with Sandbur', and the record has no complete dialog or turn-in target. The next quest is given by Sandbur (wizard.json:1073",
+    "line: The wiki claim that the quest sits under the [Osgood] heading is not checked in the evidence pack; the wiki field has no sections. The 'Band 3' label is also not checked against the guide row."
+   ],
+   "blocked_by": [
+    "giver 'Osgood' row 9000000164 not placed",
+    "talk target 'Sandbur' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3160026,
+   "record": "quest-lines/quests.json q3160026",
+   "quest_file": "wizard.json",
+   "title": "Wizard: Missing Student Sven",
+   "live": "yes",
+   "giver": {
+    "name": "Osgood",
+    "npc_id": "9000000164",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000164,
+    "name": "Osgood",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Karin Spellweaver in Sanctuary",
+     "text_locale_id": 24460,
+     "target": "Karin Spellweaver",
+     "target_locale_id": 22279,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000126,
+      "name": "Karin Spellweaver",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Ask Karin about Sven.",
+     "text_locale_id": 24461,
+     "target": "Karin Spellweaver",
+     "target_locale_id": 22279,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000126,
+      "name": "Karin Spellweaver",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Search for Sven at the Tangletrack Speedway",
+     "text_locale_id": 24561,
+     "target": "Sven (Briarwood Kart Racetrack / Tangletrack Speedway)",
+     "target_locale_id": 22278,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "no reward evidence found in the pack or client"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 22310,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 24460,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: giver.locale_id is null. The answer says 'Osgood' matches locale 45555 by text but did not confirm it is the NPC-name record. The name hash 2145856305 is also unconfirmed. Not a wrong id, but the give",
+    "objectives[2]: The target 'Sven (Briarwood Kart Racetrack / Tangletrack Speedway)' is a compound label, not a single client target. Locale 24561 ('Search for Sven at the Tangletrack Speedway') and 24562 ('Look for S",
+    "evidence (wiki): The wiki claim 'Wiki Wizard page lists Wizard: Missing Student Sven under Osgood' is only weakly supported. The Osgood page snippet shows '[Missing] [Student] [Sven]' with no explicit quest-link line,",
+    "rewards: Rewards are unknown and marked 'other/unknown'. This is honestly stated, not a fabrication, but the record cannot be fully wired without it.",
+    "objectives[2]: The search step's target is written as a mixed label 'Sven (Briarwood Kart Racetrack / Tangletrack Speedway)'. Client text has two variants: 24561 'Search for Sven at the Tangletrack Speedway' and 245",
+    "line: The link from the previous quest (Reach Level 15, 3160024) to this one rests on the inferred completion dialog 387669 ('Great, you're back!... There's just one problem...'), which the answer itself fl"
+   ],
+   "blocked_by": [
+    "giver 'Osgood' row 9000000164 not placed"
+   ]
+  }
+ ]
+}

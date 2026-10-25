@@ -1,0 +1,2579 @@
+{
+ "zone": "Briarwood",
+ "wireable_by_match": [
+  {
+   "quest_id": 3000043,
+   "record": "quest-lines/quests.json q3000043",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: Report to Captain Chugug",
+   "live": "yes",
+   "giver": {
+    "name": "Captain Chugug",
+    "npc_id": "9000000268",
+    "locale_id": 17794
+   },
+   "resolved_giver": {
+    "npc_id": 9000000268,
+    "name": "Captain Chugug",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Captain Chugug in Briarheart, beyond Tanglewood Fort.",
+     "text_locale_id": 90909,
+     "target": "Captain Chugug",
+     "target_locale_id": 17794,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000268,
+      "name": "Captain Chugug",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 90906,
+     "speaker": "Captain Chugug"
+    }
+   },
+   "critic_problems": [
+    "giver: The answer's giver block resolves to Captain Chugug, NPC 9000000268 (name_string_id 17794). The record it sits beside still carries giver_npc_id 9000000513, which appears only in npcs_unresolved.json:",
+    "evidence[8]: The citation 'adventurer.json:3266' is given for the previous/next links, but line 3266 is giver_npc_id. The prerequisite (3000042) is at lines 3267-3269. The next link (3000044) is not shown at that ",
+    "live: The 'live' verdict rests on client text with no FLAG and on wiki Appearances. Both check out: locale:90904, 90909 and 90910 are untagged, and the wiki lists this quest under Captain Chugug. Confidence",
+    "objectives[0]: The objective text (90909) and target (17794) check out against the client. The wiki's Sacred Grove order places this step at Nettleseed, which conflicts with the client's Briarheart location. The ans",
+    "giver: The giver is stated as 9000000268 with no hedge, but the record points to 9000000513. That ref sits in npcs_unresolved.json as an unknown NPC placed at 'Nettleseed' (wiki Sacred Grove also says Nettle",
+    "line: The chain links check out: 3000042 precedes and 3000044 follows (adventurer.json:3268, 3324). The title, 90909 and 90910 text were verified in client locale. The Nettleseed-versus-Briarheart conflict "
+   ]
+  },
+  {
+   "quest_id": 3000044,
+   "record": "quest-lines/quests.json q3000044",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: The Empty Box",
+   "live": "yes",
+   "giver": {
+    "name": "Captain Chugug",
+    "npc_id": "9000000268",
+    "locale_id": 17794
+   },
+   "resolved_giver": {
+    "npc_id": 9000000268,
+    "name": "Captain Chugug",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 93897,
+     "speaker": "Captain Chugug"
+    }
+   },
+   "critic_problems": [
+    "objectives: Objectives are empty and no quest_objective line is tagged to 93895. The answer says so honestly, but the quest cannot be wired without a completion trigger. Locale 90914 ('Break the bad news to Geoff",
+    "dialog.offer / line.previous evidence: Evidence item 5 cites locale 90906 as the hand-over dialogue of the Report quest (E15). I confirmed that 90906 contains 'I have brought the wooden box for you, but there's a catch...', and the guide p",
+    "dialog.progress: The answer lists 93894 ('contents of that box ... too dangerous to return') as the progress dialogue. The locale tool shows 93894 is tagged to this quest, but its text is the intro line, not a progres",
+    "giver / zone: The NPC name and id check out: locale 17794 is 'Captain Chugug'. The zone conflict (Briarwood versus Briarheart) is flagged honestly in open. The answer cites the wiki Captain Chugug page for the appe",
+    "line.next: The title 'Chapter 1: Bearer of Bad News' is confirmed as locale 90913 (quest_title). The answer's record-id link is correctly rejected. The guide's E17 row lists the same title with no locale id, and",
+    "dialog.progress: Answer sets dialog.progress to 93894, but 93894 is the intro text (the pack's intro_text_string_id), not a progress line. No progress line is tagged to 93895 in the pack."
+   ]
+  },
+  {
+   "quest_id": 3030024,
+   "record": "quest-lines/quests.json q3030024",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Finding a Buyer",
+   "live": "yes",
+   "giver": {
+    "name": "Petra",
+    "npc_id": "9000000428",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000428,
+    "name": "Petra",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Petra has asked you to find a buyer in Briarwood for the silver dust you obtained.",
+     "text_locale_id": 72508,
+     "target": "Briarwood treasure hunter (buyer)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Look for a treasure hunter in Briarwood that may be willing to buy that silver dust you looted.",
+     "text_locale_id": 72522,
+     "target": "Andrew (npc 9000000009)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000009,
+      "name": "Andrew",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 72506,
+     "speaker": "Petra"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1]: Target 'Andrew (npc 9000000009)' is not stated by the objective text (72522 says only 'Look for a treasure hunter in Briarwood'). The Andrew turn-in is inferred from the NPC guide note and from 72532 ",
+    "objectives[1].target_locale_id: Left null although Andrew's name is resolvable. briarwood.json:1953 gives NameId 17291 = 'Andrew'. The answer declines to use it.",
+    "line: Chain: previous Splendid Silver (3030023) and next Missing Wallet (locale 95079 'Brawler: Missing Wallet', verified) agree with Brawler.md M4/M6. The unresolved competing branch (client 100068/100073,",
+    "dialog.complete / dialog.progress: Null with no evidence of a completion line. 72509 ('Trying to sell some silver dust eh? Hmm...') is an opening remark, not a completion. Builders will need some completion dialog to wire the turn-in.",
+    "objectives[1].target: The target 'Andrew (npc 9000000009)' is inferred, not stated by client text. 72522 does not name Andrew. The npc id comes from briarwood.json:1668, which is marked id_kind 'reconstructed_from_job_refe",
+    "giver.locale_id: Null, and the answer correctly says so. Petra's name id 565519828 is cited in the repo notes but is not verified in client text."
+   ]
+  },
+  {
+   "quest_id": 3070019,
+   "record": "quest-lines/quests.json q3070019",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Hungry Chugs",
+   "live": "unsure",
+   "giver": {
+    "name": "Gunther",
+    "npc_id": null,
+    "locale_id": 409300
+   },
+   "resolved_giver": {
+    "npc_id": 9000000339,
+    "name": "Gunther",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some large Fanged Grouper",
+     "text_locale_id": 409375,
+     "target": "Large Fanged Grouper",
+     "target_locale_id": 407691,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the large fish back to Gunther.",
+     "text_locale_id": 409379,
+     "target": "Gunther",
+     "target_locale_id": 409300,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000339,
+      "name": "Gunther",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "Find the spices (search outside Brambleback's Bayou in Briarwood)",
+     "text_locale_id": 409380,
+     "target": "Bag of Spices",
+     "target_locale_id": 409384,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the spice bags back to Gunther in Brambleback's Bayou.",
+     "text_locale_id": 409383,
+     "target": "Gunther",
+     "target_locale_id": 409300,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000339,
+      "name": "Gunther",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 409369,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409389,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 409372,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line: Evidence cites the guide row (repo Fisherman.md:98) as giving the 'title/offer ids'. That row lists 31742645 / 1875532559, not 409370 or 409369. The client ids in the answer are right, but the attribu",
+    "objectives[2]: The text_locale_id 409380 is 'Find the spices' only. The parenthetical '(search outside Brambleback's Bayou in Briarwood)' comes from 409381 or 409391, which the answer does not cite on this objective",
+    "giver.npc_id: npc_id is null here, while the evidence pack gives 9000000100. The answer's open section says this is a record id that does not match a client NPC. That is acceptable, but it is not stated in the give",
+    "objectives[0]: The text id 409375 and the target id 407691 both check out in the client, and 409375 matches the answer. Unflagged text, so no problem.",
+    "line.previous: Left empty without stating the one prerequisite the guide gives for row 15: 'Entry to the Bayou via Reed' (Fisherman.md:98). Reed's crate/route line (client 'Can you take this crate to Brambleback's B",
+    "line.next: Empty next is honest, but the answer should say the guide's row order (15 then 16 Fishy Fungus, 17 Ink Cod Ink) is not a confirmed chain. The client offer text 409369 ('Ernest and his friends have tha"
+   ]
+  },
+  {
+   "quest_id": 3090019,
+   "record": "quest-lines/quests.json q3090019",
+   "quest_file": "medic.json",
+   "title": "Medic: Virtuous Venom",
+   "live": "yes",
+   "giver": {
+    "name": "Docaloc",
+    "npc_id": "9000000071",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000071,
+    "name": "Docaloc",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head to Arachnia's Lair in Briarwood and collect samples of spider venom.",
+     "text_locale_id": 74077,
+     "target": "Arachnia's Lair",
+     "target_locale_id": 2273,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a medic, collect samples of venom",
+     "text_locale_id": 74078,
+     "target": "spider venom",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 74072,
+     "speaker": "Docaloc"
+    },
+    "progress": {
+     "locale_id": 74079,
+     "speaker": "Docaloc"
+    },
+    "complete": {
+     "locale_id": 74075,
+     "speaker": "Docaloc"
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: The 'collect samples of venom' objective (74078) and the 'spider venom' target are sourced only to the objective text. target_locale_id is null without a search for a 'spider venom' locale string; thi",
+    "objectives[0]: The answer cites locale:74074 as the objective, but 74074 is the description/journal line. The objective wording 'Head to Arachnia's Lair... collect samples of spider venom' is 74077, which the answer",
+    "giver.locale_id: Null, and marked open. The wiki Medic page confirms Virtuous Venom is under Docaloc, and npc 9000000071 is Docaloc in briarwood.json, so the giver itself is supported.",
+    "line: Verified: 74073 is quest_title with Briarwood hint and no FLAG; 74072, 74074, 74075, 74077, 74078, 74079 are tagged to the same hint; 2273 = Arachnia's Lair; 22302 is Docaloc's wolf-saliva hint (a dif",
+    "evidence: The answer cites locale:22302 for the wolf-saliva hint 'Vale of the Ancients Infected Wounds'. The client text I found for that hint is locale 22304 ('Collect Corrupted Wolf saliva from the Vale of th",
+    "objectives[1]: The 'collect' objective text is verified (74078 'As a medic, collect samples of venom'), but the target 'spider venom' has no locale id and no count. The answer marks both as open, which is honest, so"
+   ]
+  },
+  {
+   "quest_id": 3090020,
+   "record": "quest-lines/quests.json q3090020",
+   "quest_file": "medic.json",
+   "title": "Medic: Dewpetal Tea",
+   "live": "yes",
+   "giver": {
+    "name": "Docaloc",
+    "npc_id": "9000000071",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000071,
+    "name": "Docaloc",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect Dewpetal leaves from Bristlewood Glade.",
+     "text_locale_id": 74717,
+     "target": "Dewpetal Leaves",
+     "target_locale_id": 130638,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring Docaloc in Bristlewood the leaves of the Dewpetal.",
+     "text_locale_id": 74721,
+     "target": "Docaloc",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000071,
+      "name": "Docaloc",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Pro Medic Saw (level 8 weapon)",
+     "source": "notes/Build Guides/Content/Jobs/Medic.md:102 (wiki-sourced, not confirmed in client text)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 74712,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 103414,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 74715,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "dialog.complete: Locale 75979 is tagged quest_reward in the client table, not quest_dialog, and its hint is 'Bristlewood Glade Dewpetal Tea'. The answer presents it as the completion dialog without noting the tag.",
+    "dialog.progress: 103414 is a content-matched guess. Its client hint is 'Dewpetal tea', not this quest's title, and nothing ties it to this quest's progress state.",
+    "rewards[0]: 'Pro Medic Saw' comes only from a wiki-sourced guide and appears in no client text. It is written as a structured reward with kind 'other'. The answer's own open-items list admits this.",
+    "line.next: 'Medic: Achieve Level 15' is linked from guide row order only. Record 3090021 has empty prerequisites, and the answer's open list says so.",
+    "objectives[1]: The deliver objective has no locale id for its target 'Docaloc'. The text id 74721 checks out (it reads 'Bring Docaloc in Bristlewood the leaves of the Dewpetal.'), and the target is the giver's name.",
+    "objectives[0]: The collect count is null, and no client line gives a number. Locale 74715 ('9 dewpetal plants?') is a joke-style reply, not a count, and the answer correctly does not use it as one."
+   ]
+  },
+  {
+   "quest_id": 3090023,
+   "record": "quest-lines/quests.json q3090023",
+   "quest_file": "medic.json",
+   "title": "Medic: Shock Paddles and You",
+   "live": "yes",
+   "giver": {
+    "name": "Docaloc",
+    "npc_id": "9000000071",
+    "locale_id": 22283
+   },
+   "resolved_giver": {
+    "npc_id": 9000000071,
+    "name": "Docaloc",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "As a medic, speak to Docaloc and learn about Shock Paddles",
+     "text_locale_id": 95177,
+     "target": "Docaloc",
+     "target_locale_id": 22283,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000071,
+      "name": "Docaloc",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Follow Docaloc's instructions on how to use Shock Paddles.",
+     "text_locale_id": 93159,
+     "target": "Shock Paddles",
+     "target_locale_id": 3800,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 93131,
+     "speaker": "Docaloc"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives: Both objective ids are real and Docaloc-hinted (95177, 93159 checked). The choice between them and the alternates is a guess. 93160 ('Learn about Shock Paddles from Docaloc') is equally Docaloc-hinted",
+    "objectives[1]: Labelled kind 'other' with target 'Shock Paddles' (item 3800). That target is an item name, not a quest target. The step is a follow-the-instructions line with no real target, so the kind and target a",
+    "objectives (missing): Locale 93162 'Use your Shock Paddles on the soldiers!' is hinted to Shock Paddles, which is the same item the quest teaches. It may be the actual paddle-use step, but the answer excludes it without a ",
+    "line: The chain is consistent. Previous 3090021 (Achieve Level 15) matches the record's prerequisite_quest_ids and the guide row 21. Next 3090024 (The Missing Patrol) matches guide row 24 and the wiki's Doc",
+    "evidence: Title 93132, intro 93131 and journal 93133 are clean (no not_live flag in the lookup). Locale 93134 is not used as completion, which is correct, since it is hinted to Intense Heat (93135).",
+    "objectives[0]: The talk step uses locale 95177 ('As a medic, speak to Docaloc and learn about Shock Paddles'), but 93160 ('Learn about Shock Paddles from Docaloc') is equally Docaloc-hinted and nothing in the client"
+   ]
+  },
+  {
+   "quest_id": 3090032,
+   "record": "quest-lines/quests.json q3090032",
+   "quest_file": "medic.json",
+   "title": "Medic: Just What the Doctor Ordered",
+   "live": "yes",
+   "giver": {
+    "name": "Doctor Callahan",
+    "npc_id": "9000000072",
+    "locale_id": 74790
+   },
+   "resolved_giver": {
+    "npc_id": 9000000072,
+    "name": "Doctor Callahan",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Private Gailug in Briarwood.",
+     "text_locale_id": 76176,
+     "target": "Private Gailug",
+     "target_locale_id": 45653,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000195,
+      "name": "Private Gailug",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, heal the wounded chugawugs",
+     "text_locale_id": 76179,
+     "target": "wounded chugawugs",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a medic, recover the Stolen Weapons",
+     "text_locale_id": 76181,
+     "target": "weapon crates (the Stolen Weapons)",
+     "target_locale_id": 76193,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 76150,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 76153,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line: The previous/next links (A Frosty Remedy, then Paying Your Student Debts) rest on the Medic guide's row order and the repo record prerequisite. No client or wiki text I checked states the hand-off. Th",
+    "objectives[2]: Target 'weapon crates (the Stolen Weapons)' is taken from the briefing text in 76193, not from a standalone name. That is a reasonable textual basis, and the answer says so, but a builder should not t",
+    "zone: Zone is Briarwood from the quest-text tag, while the giver is in Seaside and the Trail of Betrayal is a Nettleseed dungeon in Briarwood (Medic.md:189). The answer already flags this. The objectives th",
+    "objectives[2].target_locale_id: 76193 is the long in-progress briefing paragraph, not a target name. It does say 'collect the weapon crates the trolls stole', so it is a real textual basis, but a builder cannot use it as a target-na",
+    "live_reason: Liveness is asserted as 'yes' from unflagged quest_title/quest_dialog/quest_objective text. The client text checks out, but the answer's own open notes say it is unverified in-game and the record is e"
+   ]
+  },
+  {
+   "quest_id": 3100024,
+   "record": "quest-lines/quests.json q3100024",
+   "quest_file": "miner.json",
+   "title": "Miner: Growing Up So Quickly",
+   "live": "yes",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000203,
+    "name": "Silverray",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Visit Pinkelug at the Mother Lode quarry in Briarwood.",
+     "text_locale_id": 78177,
+     "target": "Mother Lode quarry, Briarwood",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Pinkelug",
+     "text_locale_id": 78178,
+     "target": "Pinkelug",
+     "target_locale_id": 23210,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000169,
+      "name": "Pinkelug",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "no reward text in the locale file or the wiki for this quest"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 78172,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 78174,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "evidence / giver: The answer says the wiki Miner page 'lists Growing Up So Quickly under Silverray'. The wiki snippet only shows the title in a members-only list with Pinkelug's quests. It does not attach a giver. Mine",
+    "evidence / objectives[1]: The evidence line says 'Pinkelug's client name is locale 3382972011'. 3382972011 is a ucdt NPC id from NPCs - Briarwood.md, not a locale string id. The locale id that matters, 23210, does check out as",
+    "record_sources: The record's own source notes give the title as 'client title locale id 710045233', which conflicts with the answer's title_locale_id 78173. The answer does not mention the conflict.",
+    "live / confidence: 'Live' is inferred only from the absence of a FLAG, and the answer says so. The Miner guide also marks this quest as members-only and as having no clear client match, so 'live: yes' is stronger than t",
+    "objectives[0]: Target 'Mother Lode quarry, Briarwood' has target_locale_id null, though the place name is inside locale 78177. Nothing is wrong with the text. The id is just not filled in.",
+    "live: The answer says live: yes on the basis of a missing flag. The guide's own row 23 (Miner.md:138) marks this quest as 'No clear match' and offers the rubies errand (3522270716, 1793830528, 1850895814) a"
+   ]
+  },
+  {
+   "quest_id": 3100025,
+   "record": "quest-lines/quests.json q3100025",
+   "quest_file": "miner.json",
+   "title": "Miner: Biggest is Best",
+   "live": "yes",
+   "giver": {
+    "name": "Pinkelug",
+    "npc_id": "9000000169",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000169,
+    "name": "Pinkelug",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Out mine Pinkelug's gold ore collection record.",
+     "text_locale_id": 23657,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pinkelug has challenged you to beat her mining record in Gold mining. Mine 40 gold ore at the Mother Lode quarry.",
+     "text_locale_id": 23659,
+     "target": "Gold Ore",
+     "target_locale_id": null,
+     "count": 40,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Completion text 'Return to Pinkelug for your reward.' and the announcement '[Player] has dominated Pinkelug's mining efficiency challenge!'. No reward item or coin amount found.",
+     "source": "notes/Build Guides/Content/Jobs/Miner.md:144 (these are ucdt hashes 2449240182 and 1147508081 in that row, not locale ids)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: The 'level 20 band' label is not supported by any source in the pack. Miner.md:48 gates Silverray's Growing Up So Quickly at level 20, but nothing I checked gives a level for Biggest is Best.",
+    "line.next: 'Miner: Speed Smelting' is presented as a live next quest name. The record 3100026 has title_string_id null, and the client holds only NOT LIVE strings. The name comes from the wiki list only (Miner.m",
+    "evidence / live_reason: Citations to 'wiki Miner page' and the wiki listing are not in the evidence pack (wiki: null). I could not verify them from the pack, and the answer's Pinkelug and members-only claims rest on them.",
+    "objectives[0]: Objective 23657 is a description-style line ('Out mine Pinkelug's gold ore collection record') with no count or target. It is correct as an 'other' objective, but its meaning is unclear.",
+    "giver.locale_id: Null, and the previous answer's 23210 is unverified. Acceptable as null, but a builder needs an NPC name source.",
+    "objectives[1]: Objective text 23659 says 'Mine 40 gold ore at the Mother Lode quarry', which supports count 40 and target Gold Ore. The target_locale_id is null, which is acceptable because the target is named in te"
+   ]
+  },
+  {
+   "quest_id": 3100027,
+   "record": "quest-lines/quests.json q3100027",
+   "quest_file": "miner.json",
+   "title": "Miner: Mother Lode Lift",
+   "live": "yes",
+   "giver": {
+    "name": "Pinkelug",
+    "npc_id": "9000000169",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000169,
+    "name": "Pinkelug",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "As a miner, mine moonstone for Snorg at the Mother Lode quarry in Briarwood.",
+     "text_locale_id": 78302,
+     "target": "Moonstone",
+     "target_locale_id": null,
+     "count": 15,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the moonstone to Snorg",
+     "text_locale_id": 78305,
+     "target": "Snorg",
+     "target_locale_id": 16814,
+     "count": 15,
+     "resolved_npc": {
+      "npc_id": 9000000470,
+      "name": "Snorg",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 78195,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 78306,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 78198,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Giver Pinkelug (9000000169) rests on the record and the wiki-derived Miner.md row 26 and NPC table. The offer text 78195 is third-person about Pinkelug ('Pinkelug and I'), so its speaker is not Pinkel",
+    "line.previous: Predecessor 3100026 'Miner: Speed Smelting' has no live client title (title_string_id null; Miner.md row 25 says only NOT LIVE strings exist). The prerequisite link is therefore to a quest a player ca",
+    "objectives[0]: Text 78302 verified ('As a miner, mine moonstone for Snorg at the Mother Lode quarry in Briarwood.'). Count 15 comes from 78197 ('bring fifteen freshly mined Moonstone'), which is correct. Target 'Moo",
+    "line.next: Next quest 3100028 Rare Rock Collection is supported: 78317 ('locate and mine many rare gems for Snorg') is live text, and 3100028 gives 9000000470 (Snorg), confirmed in briarwood.json:62196 and T317.",
+    "giver: Giver Pinkelug (9000000169) rests only on the record and Miner.md row 26. The offer text 78195 says \"Pinkelug and I have put in a good word for you\", so the speaker is not Pinkelug. The answer says th",
+    "objectives[0].target_locale_id: target 'Moonstone' is given null, but the client has locale 21954 'Moonstone'. The answer's claim that the target has no locale id is incomplete."
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3000001,
+   "record": "quest-lines/quests.json q3000001",
+   "quest_file": "adventurer.json",
+   "title": "Basic Combat Tutorial",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000226",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Save the chugawug guards",
+     "text_locale_id": 4419584,
+     "target": "Chugawug guards",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat gloam minions",
+     "text_locale_id": 4419586,
+     "target": "Gloam minions (Gloamlings)",
+     "target_locale_id": null,
+     "count": 4,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced (guide lists payout as Unknown; no coin line on the completion banner)",
+     "source": "repo:notes/Build Guides/Content/Jobs/Adventurer.md:66"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver 9000000226 is unresolved. It appears only in npcs_unresolved.json (name 'Unnamed tutorial guide', lines 1400 and 3900) and in the quest record. Research notes say there is no regional tutorial g",
+    "live: The answer marks live 'yes' from a video-guide play record, while its own record is enabled:false and the giver is unknown. 'Live' here means only that the guide shows the quest played, not that the c",
+    "objectives[0]: Objective text id 4419584 is exact ('Save the chugawug guards'), but the client tags it quest_title with hint Chugawug. The guide's own ids (3795999689) differ. The answer says this in open, but its o",
+    "objectives[1]: Count 4 comes from the guide's tracker reading 0/4, while the on-screen reading was 2/4. The answer keeps 4 and flags the conflict, which is fair, but the target 'Gloam minions (Gloamlings)' has no cl",
+    "previous: previous: [] is stated as the answer, but the guide says A1 is preceded by a micro-tutorial string note ('Opening tutorial strings') that the answer did not check. The empty list is an unverified clai",
+    "next: Next link 'Advanced Combat Tutorial' (4419555, record 3000002, guide row A2) checks out: the title id matches locale and the guide row A2 lists it after A1. This link holds."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "defeat target 'Gloam minions (Gloamlings)' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000002,
+   "record": "quest-lines/quests.json q3000002",
+   "quest_file": "adventurer.json",
+   "title": "Advanced Combat Tutorial",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "evidence[4] (giver citation): The claim that giver 9000000226 has no regional tutorial giver cites Starting Quest Chains.md:8. That row says 'No regional tutorial giver' but never gives the id. The id appears on row 7 and in adven",
+    "evidence[3] / open (kill target and count): The 'count 4' from Adventurer.md:67 and the 'Tough Gloamling (441462)' text match were not verified here. The answer does mark them as a guide reading and a text match, not server fields, so no wiring",
+    "giver: The pack's record carries giver_npc_id 9000000226, and the answer nulls it. The chain note supports the null, but the answer still states the record value as 'shared with Basic Combat Tutorial' withou",
+    "live / zone: Zone 'Briarwood Caverns' comes only from the repo guide and is not in client text; live status stays unsure. The answer discloses both, so this is a caveat rather than an error.",
+    "giver: Giver is null, while 9000000226 is the same giver as 3000001 (Basic Combat Tutorial). The answer's reason (chain table row 3000002 says 'No regional tutorial giver') matches Starting Quest Chains.md:7",
+    "line: previous/next verified: 3000001 'Basic Combat Tutorial' (4419551), 3000003 \"Hero's Journal\" (4419559) match Starting Quest Chains.md rows 7-9. Objective strings 4419592 ('Use ultimate on tough gloam m"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3000036,
+   "record": "quest-lines/quests.json q3000036",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: Find The Caravan!",
+   "live": "yes",
+   "giver": {
+    "name": "Geoffrey",
+    "npc_id": "9000000330",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000330,
+    "name": "Geoffrey",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Locate the merchant caravan that left for Briarwood.",
+     "text_locale_id": 90823,
+     "target": "merchant caravan",
+     "target_locale_id": 90824,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Vittorio",
+     "text_locale_id": 90830,
+     "target": "Vittorio",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000232,
+      "name": "Vittorio",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90813,
+     "speaker": "Geoffrey"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].target: The target is given as 'merchant caravan' with target_locale_id 90824, but 90824 is the objective sentence 'Find the merchant caravan', not a target name. The caravan is not a named NPC in the evidenc",
+    "objectives[1].target: Vittorio has no NPC id and no locale id. The wiki places him on the Briarwood warpstone path, but the answer's own open list says the id 9000000232 was not checked.",
+    "complete / end: The only completion-side text is 90816, the 'arrived too late' failure line. The answer correctly says so, but the success path is still unknown, so the chain's next hook (3000037) has no verified tri",
+    "zone / offer location: The zone is 'Briarwood' from the client tag, but the offer location 'Royal Palace' comes only from guide row E8 and is not confirmed in the client. The answer does flag this, but the top-level fields ",
+    "live_reason: The 'live' claim rests on client text being untagged as not_live. That checks the strings only, not that the quest is wired in the live build. The 'shipment status' sentence in live_reason is vague.",
+    "objectives[1]: The Vittorio talk objective has no npc_id, although Vittorio is a named NPC in npcs/briarwood.json (name 'Vittorio' near line 68916). The answer left the target text-only and said it was unverified. T"
+   ],
+   "blocked_by": [
+    "talk target 'Vittorio' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000037,
+   "record": "quest-lines/quests.json q3000037",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: The Weapon Shipment",
+   "live": "yes",
+   "giver": {
+    "name": "Vittorio",
+    "npc_id": "9000000232",
+    "locale_id": 10296
+   },
+   "resolved_giver": {
+    "npc_id": 9000000232,
+    "name": "Vittorio",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Venture into Briarwood to find the stolen weapon shipment.",
+     "text_locale_id": 90836,
+     "target": "Briarwood",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Retrieve the weapon shipment from Sergeant Cargug in Briarwood.",
+     "text_locale_id": 90840,
+     "target": "Sergeant Cargug",
+     "target_locale_id": 10297,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000209,
+      "name": "Sergeant Cargug",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring Cargug's message and gift to Mumpalot in Wugachug",
+     "text_locale_id": 90843,
+     "target": "Mumpalot",
+     "target_locale_id": 41274,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000988,
+      "name": "Mumpalot",
+      "file": "npcs/wugachug.json",
+      "zone": null,
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Sergeant Cargug in Briarwood",
+     "text_locale_id": 90845,
+     "target": "Sergeant Cargug",
+     "target_locale_id": 10297,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000209,
+      "name": "Sergeant Cargug",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Vittorio at the broken down caravan in Briarwood",
+     "text_locale_id": 90847,
+     "target": "Vittorio",
+     "target_locale_id": 10296,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000232,
+      "name": "Vittorio",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "a portion of the missing weapon shipment (quantity and item id not given)",
+     "source": "locale:90838"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 90834,
+     "speaker": "Vittorio"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90837,
+     "speaker": "Vittorio"
+    }
+   },
+   "critic_problems": [
+    "objectives[1-4] targets: Targets Sergeant Cargug and Mumpalot have locale ids (10297, 41274), but no NPC ids. A builder cannot wire the talk/deliver objectives to a spawn without them. The answer admits this in its open list.",
+    "zone / objectives[2]: The zone is listed as Briarwood only. Objective 3 sends the player to Wugachug, which is a different zone (locale 90843 confirmed). The answer notes this in open but the record field does not show it.",
+    "objectives[0]: The go objective has target Briarwood with target_locale_id null. The zone name is not a client NPC, so this is acceptable, but the answer does not cite a zone id.",
+    "live: Live status rests on the absence of FLAG on the text lines. Lookups of 90834-90847 show no FLAG tags, so this holds, but the answer's own evidence does not show a FLAG check.",
+    "live: Live status is asserted from an unflagged title plus a wiki paraphrase. The answer admits it did not check FLAG fields on the quest's lines. I confirmed the lines appear in the client lookup with no F",
+    "objectives[2]: Mumpalot is an NPC in Wugachug, not Briarwood, but the quest zone is Briarwood. The NPC id for Mumpalot is not resolved, and the answer lists it only by name (locale 41274 confirmed as 'Mumpalot')."
+   ],
+   "blocked_by": [
+    "giver 'Vittorio' row 9000000232 not placed",
+    "talk target 'Vittorio' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000038,
+   "record": "quest-lines/quests.json q3000038",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: The Armor Shipment",
+   "live": "yes",
+   "giver": {
+    "name": "Vittorio",
+    "npc_id": "9000000232",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000232,
+    "name": "Vittorio",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find Quartermaster Bargangle",
+     "text_locale_id": 90856,
+     "target": "Quartermaster Bargangle",
+     "target_locale_id": 73506,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000201,
+      "name": "Quartermaster Bargangle",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "use",
+     "text": "Complete the armor testing for Quartermaster Bargangle",
+     "text_locale_id": 90867,
+     "target": "Quartermaster Bargangle",
+     "target_locale_id": 73506,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Retrieve the armor shipment from Quartermaster Bargangle in Briarwood.",
+     "text_locale_id": 90855,
+     "target": "armor shipment",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90849,
+     "speaker": "Randall"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1..2] kind and order: The kinds 'use' and 'collect', and the ordering talk → use → collect, are not in any source. The client strings (90856, 90867, 90855) give the text but not the step type or sequence. The 'use' label i",
+    "objectives (unresolved candidate): Adventurer.md row E10 cites 'Find Quartermaster Bargangle in Briarwood and find a way to get our armor shipment back!' (client 390534, ucdt 4045210327) as this quest's objective. The answer lists it u",
+    "giver.locale_id: Null is honest here, but the answer's stated '10296' claim is absent from its evidence and cannot be tied to this quest. Vittorio's npc_id 9000000232 is confirmed at briarwood.json:68911.",
+    "chain (line.previous / next): Verified: adventurer.json:2996 gives prerequisite 3000037 for 3000038, and :3048 gives 3000038 for 3000039. Previous and next are correct.",
+    "placement (zone): Verified: briarwood.json:55568 has 'Quartermaster Bargangle' with name_string_id 73506, and the locale table agrees. The NPC's own npc_id is 9500000201, which the answer does not cite. The wiki's Bris",
+    "objectives[1]: The 'use' objective text 90867 ('Complete the armor testing for Quartermaster Bargangle') is verified in the client and carries no FLAG. The answer's note that 90858 'Test the armor' is an equally pla"
+   ],
+   "blocked_by": [
+    "giver 'Vittorio' row 9000000232 not placed"
+   ]
+  },
+  {
+   "quest_id": 3000041,
+   "record": "quest-lines/quests.json q3000041",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: It's Business Time",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000511",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat the floren inside of Bristlewood Glade.",
+     "text_locale_id": 90896,
+     "target": "Grumpy Amaranthus",
+     "target_locale_id": 72007,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000084,
+      "name": "Amaranthus",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "You've done it!  Return to Troy Thistlewing!",
+     "text_locale_id": 90901,
+     "target": "Troy Thistlewing",
+     "target_locale_id": 385450,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000003790,
+      "name": "Troy Thistlewing",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90886,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90889,
+     "speaker": "Troy Thistlewing"
+    }
+   },
+   "critic_problems": [
+    "giver: Giver is unresolved (npc 9000000511 has name null in npcs_unresolved.json:4165, and no client line names it). The answer correctly leaves it null and does not guess Darkthorne as giver. Not a fail, bu",
+    "zone: Client tags (90887, 90895, 90896) say Briarwood, but the Adventurer guide row E13 and wiki Sacred Grove page say Nettleseed. The answer records this as an open conflict, which is honest.",
+    "live_reason: Says the wiki Darkthorne page 'lists the quest in the Chapter 1 chain'. The evidence pack only shows Darkthorne as a mention, not an ordered list. The answer's evidence row correctly says 'mention', s",
+    "giver: Giver is unresolved: npc_id 9000000511 has no name and no client line ties it to offer 90886. The answer already marks this open, and I confirmed it.",
+    "zone: The zone conflict is real and unresolved. The client tags all of this quest's text Briarwood, but the Adventurer guide row E13 (notes/Build Guides/Content/Jobs/Adventurer.md:136) says Nettleseed, and ",
+    "objectives[0].target: The target 'Grumpy Amaranthus' (72007) is not named in the objective text. Objective 90896 says only 'the floren inside of Bristlewood Glade', and 90886 says 'an old floren'. The name link comes from "
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "defeat target 'Grumpy Amaranthus' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000045,
+   "record": "quest-lines/quests.json q3000045",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: Bearer of Bad News",
+   "live": "yes",
+   "giver": {
+    "name": "Vittorio",
+    "npc_id": "9000000232",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000232,
+    "name": "Vittorio",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Break the bad news to Geoffrey in Sanctuary.",
+     "text_locale_id": 90914,
+     "target": "Geoffrey",
+     "target_locale_id": 70318,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000330,
+      "name": "Geoffrey",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90912,
+     "speaker": "Vittorio"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90915,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives: Only one objective is listed. Locale 90918 ('Return to Geoffrey in the Royal Palace and break the news.') sits in the same Sanctuary cluster and reads as a follow-up to this quest's 'break the news' s",
+    "giver: The giver name is correct (Vittorio, 9000000232 in the repo record), but the answer has no client locale id for Vittorio. The line is also a minor inconsistency: the intro 90912 is tagged Briarwood, b",
+    "dialog.complete: 90915 is the end-side line about the Queen, and its speaker is unconfirmed. The answer correctly leaves complete null. That is acceptable.",
+    "objectives: Checked the title and objective ids: locale 90913 'Chapter 1: Bearer of Bad News', 90914 'Break the bad news to Geoffrey in Sanctuary.', 90912 intro, 90915 end-side text, 93895 'Chapter 1: The Empty B",
+    "giver.locale_id: Vittorio's client NPC name string is not found, so the answer leaves it null. That is honest, but the claim that the giver is Vittorio rests only on the repo record and the wiki."
+   ],
+   "blocked_by": [
+    "giver 'Vittorio' row 9000000232 not placed"
+   ]
+  },
+  {
+   "quest_id": 3010025,
+   "record": "quest-lines/quests.json q3010025",
+   "quest_file": "archer.json",
+   "title": "Contract: No Boundaries on Bounties",
+   "live": "unsure",
+   "giver": {
+    "name": "Eddie Eagle Eyes",
+    "npc_id": null,
+    "locale_id": 388244
+   },
+   "resolved_giver": {
+    "npc_id": 9500000245,
+    "name": "Eddie Eagle Eyes",
+    "file": "npcs/cobblestone_village.json",
+    "zone": null,
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Vicious Vinewolves",
+     "text_locale_id": 388342,
+     "target": "Vicious Vinewolves (fighting alongside Maze Mulchers in Thistlerow)",
+     "target_locale_id": 388343,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Maze Vipers",
+     "text_locale_id": 388338,
+     "target": "Maze Vipers (in The Snarling Hedges)",
+     "target_locale_id": 388339,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Hedge Guardians",
+     "text_locale_id": 388340,
+     "target": "Hedge Guardians (in The Snarling Hedges)",
+     "target_locale_id": 388341,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388330,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388333,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Giver npc_id is null. The record's giver ref 9000000314 is unresolved (npcs_unresolved.json:2363) and is shared with other Archer quests (3010018, 3010031). The 9500000245 mapping is a name-based infe",
+    "line.next: next is empty and marked unknown. The repo does not contradict the guide order, but the successor claim ('Archer: Cutting Out the Buyers') rests only on guide row order. Quest 3010026 ('Archer: Cuttin",
+    "line.previous: Checked: 3010024 is 'Archer: Achieve Level 15' (title locale:387333, archer.json:1260), matching the answer's previous link. The Band 3 to Band 4 placement holds on the guide evidence.",
+    "objectives: Checked the kill targets against the cluster: 388342/388343 (Vinewolves, Thistlerow), 388338/388339 (Maze Vipers), 388340/388341 (Hedge Guardians) all match the evidence pack and the description at 38",
+    "giver: Giver npc_id is null and the best candidate 9500000245 is a name-based inference. I checked cobblestone_village.json:2073, which does say the join is by normalized locale name and Legacy NameId 388244",
+    "dialog.offer: Calling locale:388330 the offer dialog is an inference from its hint tag, not a stated fact. Its text is truncated in the answer and does not itself say 'offer'. The hint tag 'Contract: No Boundaries "
+   ],
+   "blocked_by": [
+    "defeat target 'Vicious Vinewolves (fighting alongside Maze Mulchers in Thistlerow)' not placed in our rows",
+    "defeat target 'Maze Vipers (in The Snarling Hedges)' not placed in our rows",
+    "defeat target 'Hedge Guardians (in The Snarling Hedges)' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3010026,
+   "record": "quest-lines/quests.json q3010026",
+   "quest_file": "archer.json",
+   "title": "Archer: Cutting Out the Buyers",
+   "live": "yes",
+   "giver": {
+    "name": "Bowman Bilter",
+    "npc_id": "9000000029",
+    "locale_id": 77805
+   },
+   "resolved_giver": {
+    "npc_id": 100000002983,
+    "name": "Bowman Bilter",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Bowman Bilter wants you to take out a few Troll Spider Trainers in hopes of disrupting their buying of illegal animals.",
+     "text_locale_id": 78437,
+     "target": "Troll Spider Trainer",
+     "target_locale_id": 5135,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "All-Star Archer Bow (level 12 Archer weapon, now unobtainable)",
+     "source": "wiki:All-Star Archer Bow (cited via repo:notes/Build Guides/Content/Jobs/Archer.md:119)"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "no client or wiki evidence found"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "no client or wiki evidence found"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 78435,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver.npc_id: 9000000029 is a batch ref_id with no keyed NPC spawn record. It sits in npcs_unresolved.json (line 336, name Bowman Bilter, zone listed as Sanctuary, name_string_id null). The answer presents it as a ",
+    "turn_in / Orson: The answer names Orson as the turn-in contact in prose only. Its npc_id is left null, although the Orson name ucdt 354235244 is in briarwood.json:49791 and in NPCs - Briarwood.md:66. The answer's open",
+    "dialog.complete: Null is honest, but the answer's own evidence cites locale 78438 as a greeting. Checked: 78438 is 'Hello, it is nice to meet you...', so the null stands. No turn-in line exists in the pack, which is a",
+    "giver / turn-in: Orson, the turn-in contact, has no npc_id or turn-in field. The only Orson identifier in the repo is ucdt 354235244 (NPCs - Briarwood.md:66, Archer.md:54), a name hash rather than a server npc_id. The",
+    "dialog.complete: Null is correct. The answer's own note that 78438 is a greeting, not a turn-in, is confirmed: 78438 reads 'Hello, it is nice to meet you...'.",
+    "rewards: The All-Star Archer Bow is wiki-only (Archer.md row 24). Coins and XP are unknown. Treat as unverified."
+   ],
+   "blocked_by": [
+    "defeat target 'Troll Spider Trainer' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3010027,
+   "record": "quest-lines/quests.json q3010027",
+   "quest_file": "archer.json",
+   "title": "Archer: Finding Vicki",
+   "live": "yes",
+   "giver": {
+    "name": "Orson",
+    "npc_id": "9000000163",
+    "locale_id": 100866
+   },
+   "resolved_giver": {
+    "npc_id": 9000000163,
+    "name": "Orson",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Search around Briarwood to see if Vicki is here to collect more toads to smuggle.",
+     "text_locale_id": 78444,
+     "target": "Vicki",
+     "target_locale_id": 77630,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000229,
+      "name": "Vicki",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "You must find Vicki! Reports indicate that she was last seen near the border to Nettleseed.",
+     "text_locale_id": 78452,
+     "target": "Nettleseed border",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Orson if you find her. (no dedicated locale line; wording taken from the description string 78444)",
+     "text_locale_id": null,
+     "target": "Orson",
+     "target_locale_id": 100866,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000163,
+      "name": "Orson",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 78442,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 78444,
+     "speaker": "Orson"
+    },
+    "complete": {
+     "locale_id": 78446,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line: A near-duplicate Vicki text cluster exists and was not resolved: locale 100885 'Vicki's Accomplice' (quest_title), 100889 (Briarwood, 'Scout Briarwood and see if Vicki is here to smuggle more toads.')",
+    "objectives[0] and objectives[1]: Checked: 78444 and 78452 are real quest_objective lines tagged Briarwood/Archer: Finding Vicki, and 77630 is npc_name 'Vicki'. Objective text matches. 'Nettleseed border' has no locale id, which is ac",
+    "giver: Orson locale 100866 linked to npc 9000000163 is unverified (the dossier cites name string 354235244). Stated as open in the answer, so not a false claim, but the link is not established.",
+    "dialog / rewards: Dialog ids 78442 (offer) and 78446 (complete) check out as Finding Vicki dialog lines. Rewards are empty with no source; this is stated as open. The record's end_text 78445 is correctly rejected becau",
+    "giver: The name locale 100866 is an exact match for 'Orson' (confirmed). The link from npc 9000000163 to that id is still unproven, and the giver dossier gives a different name string, 354235244. The answer ",
+    "objectives[2]: The talk objective has no locale line of its own and borrows wording from 78444 (a description string). This is disclosed, but a builder cannot wire it to a text id."
+   ],
+   "blocked_by": [
+    "giver 'Orson' row 9000000163 not placed",
+    "talk target 'Orson' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3010031,
+   "record": "quest-lines/quests.json q3010031",
+   "quest_file": "archer.json",
+   "title": "Contract: That'll Teach 'Em",
+   "live": "unsure",
+   "giver": {
+    "name": "Eddie Eagle Eyes",
+    "npc_id": null,
+    "locale_id": 388244
+   },
+   "resolved_giver": {
+    "npc_id": 9500000245,
+    "name": "Eddie Eagle Eyes",
+    "file": "npcs/cobblestone_village.json",
+    "zone": null,
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Smugglers",
+     "text_locale_id": 388488,
+     "target": "Smugglers",
+     "target_locale_id": 388488,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Smugglers can be found wandering throughout the northern section of Briarwood.",
+     "text_locale_id": 388489,
+     "target": "northern Briarwood",
+     "target_locale_id": 388489,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Trappers",
+     "text_locale_id": 388490,
+     "target": "Trappers",
+     "target_locale_id": 388490,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Trappers can be found in the Croaking Vale.",
+     "text_locale_id": 388491,
+     "target": "Croaking Vale",
+     "target_locale_id": 388491,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388482,
+     "speaker": "Eddie Eagle Eyes"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388485,
+     "speaker": "Eddie Eagle Eyes"
+    }
+   },
+   "critic_problems": [
+    "line.previous: The answer marks the link to 3010030 'Archer: Achieve Level 20' as unconfirmed and says no hand-off line resolved. Locale 387344 does resolve and is the hand-off: 'Eddie Eagle Eyes could probably use ",
+    "line.next: next is empty. The evidence has no successor for 3010031 and the answer says so, which is honest. The guide's row 30 'Building a Better Bow' is only 'After 28', so it is not a sourced successor.",
+    "objectives[1] / zone: The zone set to Briarwood with Smugglers in 'northern Briarwood' (388489) conflicts with 388487 ('in Nettleseed') and 388491 (Croaking Vale). The answer flags this as open, which is fair, but the zone",
+    "giver.npc_id: giver npc_id is null, and the pack's 9000000314 is an unverified batch key. Name 'Eddie Eagle Eyes' is confirmed by locale:388244 and 388247 (archer bounty-hunter text). Those lines are real and not f",
+    "giver: Giver name is supported: locale 388244 is quest_title 'Eddie Eagle Eyes' and 388247 is a quest_dialog for Eddie. But 388247 only describes him as a bounty hunter seeking archers; it does not by itself",
+    "evidence[Croaking Vale wiki claim]: The claim that Croaking Vale is a difficulty 4 dungeon entered from the Nettleseed barrier cites a wiki page that I did not verify in this pass. It is used to resolve the zone conflict, so it should b"
+   ],
+   "blocked_by": [
+    "defeat target 'Smugglers' not placed in our rows",
+    "defeat target 'Trappers' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3030026,
+   "record": "quest-lines/quests.json q3030026",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Missing Money",
+   "live": "yes",
+   "giver": {
+    "name": "Andrew",
+    "npc_id": "9000000009",
+    "locale_id": 17291
+   },
+   "resolved_giver": {
+    "npc_id": 9000000009,
+    "name": "Andrew",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a brawler, find Andrew's money in Arachnia's Lair, at the edge of Briarwood Forest.",
+     "text_locale_id": 95158,
+     "target": "Arachnia's Lair",
+     "target_locale_id": 2273,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat the Troll Spider Trainers",
+     "text_locale_id": 95162,
+     "target": "Troll Spider Trainer",
+     "target_locale_id": 5135,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unknown: no payout found in client text, wiki, or repo",
+     "source": "open"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 95159,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1]: The 'defeat' objective rests only on locale 95162, which is tagged to this quest in the client. Its target, Troll Spider Trainer (locale 5135), is an npc_name with no NPC id or spawn link, and the ans",
+    "rewards: Rewards are stated as unknown, which is honest, but nothing in the pack gives a payout.",
+    "giver.locale_id: 17291 checks out as 'Andrew' in the locale table. The answer's NPC-notes citation (NPCs - Briarwood.md:48) gives Andrew's ucdt 939600218, not the locale id, so the two ids are not linked in the source",
+    "dialog.complete: Left null, but the evidence pack gives the end text as locale 95159 (tagged Briarwood, Brawler: Missing Money). The answer itself cites 95159 as end text, so the field is incomplete.",
+    "objectives[1]: The 'Defeat the Troll Spider Trainers' objective (95162) is confirmed as a quest_objective tagged Briarwood / Brawler: Missing Money. However, the same monster is used by Archer: Cutting Out the Buyer",
+    "rewards: The reward is recorded as kind 'other' with the value 'Unknown'. That is not a usable reward, although the answer honestly says no payout exists in the sources."
+   ],
+   "blocked_by": [
+    "defeat target 'Troll Spider Trainer' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3040029,
+   "record": "quest-lines/quests.json q3040029",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: A Card Dueling Rumor",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000518",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Poe Tatters wants you to seek out Dominic in Briarwood",
+     "text_locale_id": 407034,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Dominic",
+     "text_locale_id": 407035,
+     "target": "Dominic",
+     "target_locale_id": 407094,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000074,
+      "name": "Dominic",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Brawny Dominic can be found at a dig site in Briarwood.",
+     "text_locale_id": 407036,
+     "target": "Dominic",
+     "target_locale_id": 407094,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 407007,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 407065,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[2]: 407036 ('Brawny Dominic can be found at a dig site in Briarwood.') is tagged in the client to the sub-hint 'Find Dominic', not to this quest's title 'A Card Dueling Rumor'. The answer does not mention",
+    "dialog.progress: The answer's evidence says 407065 is 'matched by text' and not in the cluster. The client tag is quest_dialog, Briarwood, hint 'A Card Dueling Rumor', so it does belong to this quest. The stated uncer",
+    "quest.title: The answer omits that the client also has a second quest_title for the same story, locale:407033 'A Card Dueling Rumor' (Briarwood). The title in the answer (407008) is still correct.",
+    "giver: Giver is unresolved (npc_id 9000000518, no name). The answer correctly does not claim Poe or Dominic. Because of this, the quest cannot be wired as it stands.",
+    "giver: Giver is still unknown. npc_id 9000000518 has no name in any source. The answer correctly declines to name Poe Tatters, since 407009 only narrates that Poe heard the rumor. The record's giver is there",
+    "line: Previous and next are empty, which is honest. The repo guide row 28 (Part 2 grouping) says 'After the Poe line (inferred)', so the answer's withdrawal is consistent with its source. The answer could h"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "talk target None not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3040031,
+   "record": "quest-lines/quests.json q3040031",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Break Time",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Play a few games of cards with Esther in Briarwood while you wait for Dominic to return.",
+     "text_locale_id": 413776,
+     "target": "Esther",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver is null. The record's Dominic (9000000074) is doubtful because objective 413776 says Dominic is away, but the answer offers no confirmed alternative. The guide (Card Duelist.md row 30) also says",
+    "line.previous: previous is empty. The evidence supports a plausible link that the answer did not record: Alleged Thievery (413771-413774) ends with Dominic going off to investigate the wallet ('Dominic will take car",
+    "line.next: next is empty. Guide row 31 (Quick Game of Cards, Esther) is the stated successor, and the answer names it only as an open candidate.",
+    "dialog: No dialog is bound. The answer correctly declines to bind 413777/413778 without a speaker, so this is not a failure.",
+    "giver: Giver is null, which is honest, but the answer does not mention that the built record 3040031 carries giver_npc_id 9000000074 (Dominic) and that this is the value under dispute. A reader of the answer",
+    "objectives[0].target_locale_id: target_locale_id is null although the target name 'Esther' has a name locale 407093 that the pack's own notes cite. The answer marks it unverified, which is acceptable, but the id exists in the eviden"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "needs mechanic: minigame (Esther)"
+   ]
+  },
+  {
+   "quest_id": 3040036,
+   "record": "quest-lines/quests.json q3040036",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Alleged Thievery",
+   "live": "yes",
+   "giver": {
+    "name": "Sir Wellington (inferred from text, not confirmed)",
+    "npc_id": null,
+    "locale_id": 17867
+   },
+   "resolved_giver": {
+    "npc_id": 9500000211,
+    "name": "Sir Wellington",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Sir Wellington in Briarwood wants to play another game of cards with you. Then, he should really get back to work!",
+     "text_locale_id": 413772,
+     "target": "Sir Wellington",
+     "target_locale_id": 17867,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 413770,
+     "speaker": "Sir Wellington"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line.next: Break Time as next is supported by the text hand-off: 413773 says 'talk to Esther', and 413776 (Break Time objective) is 'Play a few games of cards with Esther in Briarwood while you wait for Dominic ",
+    "line.previous: Game Face -> Alleged Thievery is well supported: 413769 ends 'I've been a little too distracted lately...' and 413770 opens 'Why so distracted?'. Verified; no problem.",
+    "giver: Giver is unresolved (npc_id null, Wellington inferred from first-person text). The record's giver_npc_id 9000000084 is catalogued as Esther/Dominic, which conflicts with Wellington. Not wireable until",
+    "objectives[0]: Objective text 413772 and target Sir Wellington check out against the locale. Count null is correct since no count is in the text. Verified.",
+    "giver: The record's giver_npc_id 9000000084 is catalogued in npcs_unresolved.json (lines 732-745) as 'Esther / Dominic (inferred)', with no name-string mapping. The answer discloses this conflict and sets np",
+    "dialog.progress: Left null. locale:413774 ('Wellington sure makes friends fast... Dominic will take care of you') is a quest_dialog in this quest's cluster and is probably a progress or hand-off line. The answer menti"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Sir Wellington)"
+   ]
+  },
+  {
+   "quest_id": 3040040,
+   "record": "quest-lines/quests.json q3040040",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Cardie Partay",
+   "live": "yes",
+   "giver": {
+    "name": "Sir Wellington (inferred)",
+    "npc_id": null,
+    "locale_id": 17867
+   },
+   "resolved_giver": {
+    "npc_id": 9500000211,
+    "name": "Sir Wellington",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Sir Wellington wants you to participate in his cardie partay by playing a game of cards with him.",
+     "text_locale_id": 413812,
+     "target": "Sir Wellington",
+     "target_locale_id": 17867,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text found in the pack",
+     "source": "open"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 413810,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver 'Sir Wellington' is an inference. Offer 413810 carries no speaker tag and calls the speaker only 'this old man'. The link to Sir Wellington rests on 413812 ('his cardie partay') and the Briarwoo",
+    "line.previous: Previous 'Final Dig' is supported by dialog (413809 'But first, a celebration!' leads into 413810). The repo guide orders Cardie Partay (row 39) before Final Dig (row 40), and the answer notes this co",
+    "line.next: Next is empty. The end text 413813 ('I must think of a way to get that artifact back') implies a follow-up, which the answer records as open. That is acceptable as an honest unknown.",
+    "objectives[0].kind: 'minigame' is a builder label, not client text. The text gives no count, which the answer correctly records as null.",
+    "rewards: Rewards are unknown. The answer correctly records this as open and does not invent any.",
+    "giver: The offer 413810 is spoken by an unnamed 'old man' with no speaker tag. Sir Wellington is only inferred from 413812 (host wording) and the Briarwood objectives 413818/413819. The record giver 90000005"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Sir Wellington)"
+   ]
+  },
+  {
+   "quest_id": 3040041,
+   "record": "quest-lines/quests.json q3040041",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Final Dig",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Edwin Goldstory in Briarwood wants you to dig up the final artifact at Sir Wellington's dig site.",
+     "text_locale_id": 413808,
+     "target": "Sir Wellington's dig site",
+     "target_locale_id": 20530,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000002732,
+      "name": "Wellington's Dig Site",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 413809,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0].target: Locale 20530 reads \"Wellington's Dig Site\" (no \"Sir\"). The answer's target string 'Sir Wellington's dig site' is a paraphrase, and the cited id is correct for the place name.",
+    "dialog.progress: The answer sets progress to null and omits locale 413806 (the 'Looky that! ... Will ya try diggin' here?' dialog). The evidence pack lists 413806 as intro_text for this quest, and the client hint ties",
+    "zone: The answer's zone reasoning is sound: 413808 is tagged Briarwood (verified). The claim that Blackspore is the record's giver zone is correct for NPC 9000000224 but does not bear on the quest's zone.",
+    "giver: Giver remains unresolved, correctly flagged. Verified: 413808 says Edwin Goldstory in Briarwood; 413827 (Tyrone, Blackspore) and 413828 (Edwin, Briarwood) are both untagged 'dig up some artifacts' var",
+    "giver: Giver left null. The record (3040041) says Tyrone Shadowshard, 9000000224, Blackspore. The only Final Dig-tagged objective (413808) says Edwin Goldstory in Briarwood. Locale 413827 (Tyrone, Blackspore",
+    "line.previous: Previous 'Card Duelist: Access Granted' (413803) exists in the client, but the chain notes say no other quest answer matches it, so the link is one-sided and unconfirmed. The answer also names Four Ro"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3060040,
+   "record": "quest-lines/quests.json q3060040",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Tangletrack Trio",
+   "live": "unsure",
+   "giver": {
+    "name": "Jackson Spinner",
+    "npc_id": "9000000111",
+    "locale_id": 394258
+   },
+   "resolved_giver": {
+    "npc_id": 9000000111,
+    "name": "Jackson Spinner",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Derby encounter against the Tangletrack Trio (encounter name only; count and encounter id unconfirmed)",
+     "text_locale_id": null,
+     "target": "Tangletrack Trio [Encounter]",
+     "target_locale_id": 395026,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Candidate objective text, quoted by the guide for row 37: 'The troublemakers are back at Tangletrack! Jackson Spinner spied what looked like a large group of pirates heading into the arena. He's asked you to follow them and find out what is going on!' Tied to this quest only by the guide; not confirmed.",
+     "text_locale_id": 393366,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 393366,
+     "speaker": "Jackson Spinner"
+    },
+    "progress": {
+     "locale_id": 394478,
+     "speaker": "Jackson Spinner"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1]: Locale 393366 is tagged quest_dialog in the client (lookup: 'quest_dialog Tangletrack Jackson Spinner'), not quest_objective. The answer files it as an 'other' objective. Its text does match the guide",
+    "line.previous: The previous link 'Demo Derby: Tangletrack' (locale 402745) exists and is real, but the order comes only from guide row order. The answer's own open list admits Copy Cat (locale 403478, Sydney Spellme",
+    "objectives[0]: The encounter name 'Tangletrack Trio [Encounter]' (locale 395026) is verified as quest_title, but it is not an objective string. The answer does say so, but the objective kind 'minigame' and the count",
+    "line.previous: Stated as a link in the line fields, but it rests only on guide row order (row 36 vs 37). The guide's row 35 'Demo Derby: Copy Cat' (locale 403478) is an equally plausible predecessor, and the answer ",
+    "zone: The client lines 393403 and 394046 say Bristlewood, and they are unflagged live text. The answer marks this as unresolved, which is honest, but it still gives Briarwood as the zone without a source th",
+    "objectives[1]: Locale 393366 exists and reads as the answer quotes it. The only tie to this quest is the guide's row 37 note. It reads like an intro or offer line, not an objective, and is listed under objectives wi"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Tangletrack Trio [Encounter])"
+   ]
+  },
+  {
+   "quest_id": 3060041,
+   "record": "quest-lines/quests.json q3060041",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Booby Trapped!",
+   "live": "unsure",
+   "giver": {
+    "name": "Jackson Spinner",
+    "npc_id": "9000000111",
+    "locale_id": 394258
+   },
+   "resolved_giver": {
+    "npc_id": 9000000111,
+    "name": "Jackson Spinner",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "You may have run some of the troublemakers out of the arena, but now it looks like they've taken to booby trapping some of the vehicles outside of the track! Jackson Spinner hopes that you'll be willing to inspect the cars for safety.",
+     "text_locale_id": 393365,
+     "target": "Vehicles outside the Tangletrack track",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Disarm the booby traps from the karts near Tangletrack Speedway before time runs out!",
+     "text_locale_id": 398275,
+     "target": "Tangletrack Speedway Booby Trapped Kart",
+     "target_locale_id": 398278,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Jackson Spinner",
+     "text_locale_id": null,
+     "target": "Jackson Spinner",
+     "target_locale_id": 394258,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000111,
+      "name": "Jackson Spinner",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 393365,
+     "speaker": "Jackson Spinner"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: Locale 393365 is typed quest_dialog (hint 'Tangletrack Jackson Spinner'), not quest_objective. The answer uses it as the 'go' objective text. The words match exactly, so the id is real, but the answer",
+    "dialog.complete / objectives[2]: The answer says 'Return to Jackson Spinner' has no tool locale id. Lookup finds locale:394121 with text 'Return to Jackson Spinner', but its hint is 'Tangletrack Clean up Tangletrack', which suggests ",
+    "zone: The answer keeps Briarwood, while the Copy Cat row in the guide says Tangletrack is in Bristlewood and the answer cites locale 393403 for that. I did not verify 393403 myself, so the zone conflict is ",
+    "line.next: next is empty and the answer says the Hero's Homecoming link is inferred only. That is honest, but the chain link is unverified and the guide's 'After the Tangletrack clean-up' note is the only suppor",
+    "dialog.complete: The answer says no tool locale id exists for 'Return to Jackson Spinner' and sets dialog.complete to null. The locale table has it: 394121 'Return to Jackson Spinner'. It is not tied to this quest by ",
+    "line.next: The guide row 39 places 'Demo Derby: A Hero's Homecoming' (3060042) after the Tangletrack clean-up, which this quest closes. Leaving next empty is defensible given the inference, but the answer's own "
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Tangletrack Speedway Booby Trapped Kart)"
+   ]
+  },
+  {
+   "quest_id": 3070007,
+   "record": "quest-lines/quests.json q3070007",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Find Your Own Spot!",
+   "live": "unsure",
+   "giver": {
+    "name": "Ernest McScuttle",
+    "npc_id": null,
+    "locale_id": 409211
+   },
+   "resolved_giver": {
+    "npc_id": 9000000319,
+    "name": "Ernest McScuttle",
+    "file": "npcs/lakeshore.json",
+    "zone": "Lakeshore",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Catch a bigger creeping cod than Ernest in Darklit Lagoon (contest for the biggest creeping cod)",
+     "text_locale_id": 419160,
+     "target": "Creeping Cod",
+     "target_locale_id": 99930,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Catch three bitter beta in Darklit Lagoon before Ernest does!",
+     "text_locale_id": 409217,
+     "target": "Bitter Beta",
+     "target_locale_id": null,
+     "count": 3,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Show the fish to Ernest",
+     "text_locale_id": 409220,
+     "target": "Ernest McScuttle",
+     "target_locale_id": 409211,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000319,
+      "name": "Ernest McScuttle",
+      "file": "npcs/lakeshore.json",
+      "zone": "Lakeshore",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 409212,
+     "speaker": "Ernest McScuttle"
+    },
+    "progress": {
+     "locale_id": 409222,
+     "speaker": "Ernest McScuttle"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1]: Target 'Bitter Beta' has target_locale_id null, and the evidence cites 409452 as proof that bitter beta is a Brambleback's Bayou fish. 409452 is a Bayou-side quest offer that mentions Bitter Beta; it ",
+    "objectives[0] / objectives[1]: The objectives mix two fish. 419160 and 419162 (creeping cod) and 409214 (description) disagree with 409217/409219 (bitter beta). The answer is right to flag this, but the objectives array still prese",
+    "giver: Locale 409211 (npc_name 'Ernest McScuttle', zone Darklit Lagoon) is verified. The record's giver_npc_id 9000000536 is unverified, so the giver is not wired to any NPC id.",
+    "line: The answer leaves line placement empty, but the repo's own Fisherman.md (Cluster A, row 3, line 65) places this quest in Sacred Grove Shallows, with Darklit Lagoon only as an alternative, and marks th",
+    "objectives[0] and objectives[1]: The two objectives come from different text versions that the answer itself calls conflicting. Objective 0 (419160, creeping cod race) comes from the 4191xx block, which mentions Ernest's biggest cree",
+    "giver: The giver is correctly tied to locale 409211 (npc_name 'Ernest McScuttle', zone Darklit Lagoon) and npc_id is correctly left null. The answer's open note on record giver 9000000536 is honest. Repo Lak"
+   ],
+   "blocked_by": [
+    "giver 'Ernest McScuttle' row 9000000319 not placed",
+    "deliver target 'Ernest McScuttle' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070011,
+   "record": "quest-lines/quests.json q3070011",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Bigger is Better",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Catch a bigger creeping cod than Ernest in Darklit Lagoon.",
+     "text_locale_id": 419160,
+     "target": "Darklit Lagoon",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Catch a large creeping cod",
+     "text_locale_id": 419161,
+     "target": "Large Creeping Cod",
+     "target_locale_id": 407681,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Show the fish to Karl",
+     "text_locale_id": 419163,
+     "target": "Karl Kippersun",
+     "target_locale_id": 409224,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed consolation item (the rival says 'I won't let you go away empty handed'); no item id or coin amount found",
+     "source": "locale:419158"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 419155,
+     "speaker": "Ernest McScuttle"
+    },
+    "progress": {
+     "locale_id": 419165,
+     "speaker": "Ernest McScuttle"
+    },
+    "complete": {
+     "locale_id": 419158,
+     "speaker": "Karl Kippersun"
+    }
+   },
+   "critic_problems": [
+    "giver: Giver is null, but the repo gives Jonah Relicreel (9000000117) as giver in stillwater_crossing.json (quest list at ~line 6809) and in the Fisherman guide row 7. The client text names only Ernest McScu",
+    "line: The answer's previous/next are empty, while the repo chain says previous 3070009 and next 3070012/3070013. The answer correctly says this chain is repo-only and unverified, and I found no client text ",
+    "objectives[0]: target_locale_id is null for 'Darklit Lagoon'. Locale 410550 names Darklit Lagoon as a fishing zone, so the zone is at least text-supported, but the id was not recorded.",
+    "giver: Answer nulls the giver although the evidence pack's record has giver_npc_id 9000000117 (Jonah Relicreel, Stillwater Crossing, quest_giver role, quests_given list includes 3070011). The answer's doubt ",
+    "line: previous is left empty although the record's prerequisite_quest_ids is [3070009] and the giver dossier lists 3070009 as Itty Bitty Bait. next (3070012, 3070013) is also omitted. Both are repo-stated a",
+    "objectives[0]: target_locale_id null for Darklit Lagoon. The client has no separate id for it in this answer; the zone is named inside text 419160 itself, so this is acceptable but should say the target is embedded "
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "deliver target 'Karl Kippersun' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070021,
+   "record": "quest-lines/quests.json q3070021",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Ink Cod Ink",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000100",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some large Ink Cods so that you can use their stinky ink to get rid of the fungus in Brambleback's Bayou.",
+     "text_locale_id": 409331,
+     "target": "Large Ink Cod",
+     "target_locale_id": 407673,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the large ink cod to Reed Stillwater at the fishing job center.",
+     "text_locale_id": 409335,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000181,
+      "name": "Reed Stillwater",
+      "file": "npcs/stillwater_crossing.json",
+      "zone": "Stillwater Crossing",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "use",
+     "text": "Pour the ink into Brambleback's Bayou",
+     "text_locale_id": 409336,
+     "target": "Brambleback's Bayou",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward data in the client text, record, or guide",
+     "source": "none found"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 409325,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409342,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 409328,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: The giver stays unresolved: name and locale_id are null, and npc_id 9000000100 comes only from our own record. No client text names NPC 9000000100. The offer text 409325 and description 409327 are Ree",
+    "line: The next link (Restocking the Stream, 3070022) and the Gunther-to-Restocking step come from guide row 18 and the record prerequisite only. No client text in the pack confirms them.",
+    "live_reason: The claim that the quest is live rests on unflagged locale lines and a wiki catch-fish entry. Those support existence, not live status, and the record's enabled:false is left unexplained.",
+    "giver: Giver is unresolved. The record and guide say Gunther (9000000100), but the offer and description text (409325, 409327) is voiced by Reed Stillwater, and 409342 is also Reed-voiced. The answer already",
+    "zone: The zone cites locale:409300, which is the NPC name 'Gunther', not a zone name. Only 409336 (pour into Brambleback's Bayou) actually names the place.",
+    "rewards: Rewards are listed as kind 'other' with value 'unknown'. This is correctly unknown, not invented, but it is not a usable reward structure for a builder."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3070029,
+   "record": "quest-lines/quests.json q3070029",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: A Gift For Estelle",
+   "live": "unsure",
+   "giver": {
+    "name": "Dooba",
+    "npc_id": "9000000308",
+    "locale_id": 37569
+   },
+   "resolved_giver": {
+    "npc_id": 9000000308,
+    "name": "Dooba",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head to Darklit Lagoon and speak with Estelle LaFrell.",
+     "text_locale_id": 409272,
+     "target": "Estelle LaFrell",
+     "target_locale_id": 409262,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000126,
+      "name": "Estelle LaFrell",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Take Dooba's gift to Estelle LaFrell at Darklit Lagoon.",
+     "text_locale_id": 409274,
+     "target": "Estelle LaFrell",
+     "target_locale_id": 409262,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000126,
+      "name": "Estelle LaFrell",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed 'little something for your effort'; no coin or item amount in client text",
+     "source": "locale:409270"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": 409267,
+    "progress": 409287,
+    "complete": 409270
+   },
+   "critic_problems": [
+    "giver.locale_id: Locale 37569 ('Dooba') is tagged FLAG 'fragment: single word with no quest meaning' in the client table. The answer cites it as the giver's name without noting the flag. The name is still correct: the",
+    "objectives: Locale 409273 'Deliver a gift to Estelle' (quest_objective, Darklit Lagoon, same quest, not flagged) is a second live objective string that the answer omits. The answer uses 409274 for the deliver ste",
+    "giver zone / line: The answer already flags the Briarwood vs Nettleseed conflict (409243 places Dooba in Nettleseed; the NPC note says Nettleseed fishing hole). That is correctly left open, and the chain link to 3070028",
+    "line.next: next is left empty, but the Fisherman guide (Fisherman.md, Cluster E table) lists 'Fisherman: Bluerose's Best Bait' at row 26 directly after this quest. The answer's own open note says the successor l",
+    "objectives[1]: The client has a second live objective line for the same step, 'Deliver a gift to Estelle' (locale 409273, quest_objective, Darklit Lagoon, no FLAG). The answer uses only 409274 and does not mention 4",
+    "zone / giver: The giver's zone conflict is flagged as open. Dooba is listed as Briarwood in the NPC data and locale 409269, while locale 409243 puts Dooba in Nettleseed. The Darklit Lagoon zone for the quest is cor"
+   ],
+   "blocked_by": [
+    "deliver target 'Estelle LaFrell' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3080048,
+   "record": "quest-lines/quests.json q3080048",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: SG Tour 400: Tangletrack",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000371",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Beat Kade Carmichael in a race at Tangletrack Speedway.",
+     "text_locale_id": 398215,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000153,
+      "name": "Kade Carmichael",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Kade outside of Tangletrack",
+     "text_locale_id": 398220,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000153,
+      "name": "Kade Carmichael",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Lightning Cup (Kart Driver weapon, level 1)",
+     "source": "wiki page Lightning Cup"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 398223,
+     "speaker": "Kade Carmichael"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver is null with npc_id 9000000371 only inferred from sibling records. No client NPC name is tied to it, so the giver cannot be confirmed from the evidence. The answer discloses this, but the record",
+    "line.previous: The previous link 'Kart Driver: SG Tour 400: Thunder Falls' is stated as fact in the previous array, but the open notes admit it is inferred from leg order. Our records have no prerequisite data (prer",
+    "evidence: Client locale 3432 has the same title text 'SG Tour 400: Tangletrack' as a quest_title (no zone tag). The answer does not mention it, so a builder could confuse the two strings.",
+    "rewards: The reward Lightning Cup comes only from the wiki. Locale 20070 says 'Win 5 races' and 101489 says 'three races', so the count conflicts. The answer records this in open, but the reward field states i",
+    "dialog: Offer, progress and complete dialog ids are all null. The answer correctly flags this. 395353 and 395355 are context lines and must not be used as dialog ids.",
+    "rewards: The Lightning Cup reward rests only on a wiki citation I could not re-check (lookup returned nothing for wiki on this query). The client lines point the same way: 101493 says the player wins the Light"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "defeat target 'Kade Carmichael' not placed in our rows",
+    "talk target 'Kade Carmichael' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3160027,
+   "record": "quest-lines/quests.json q3160027",
+   "quest_file": "wizard.json",
+   "title": "Wizard: Sven's Job Offer",
+   "live": "yes",
+   "giver": {
+    "name": "Sven",
+    "npc_id": "9000000209",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000209,
+    "name": "Sven",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a wizard, enter the Briar Patch in Briarwood and retrieve a summoning crystal from Azure.",
+     "text_locale_id": 22324,
+     "target": "Briar Patch",
+     "target_locale_id": 5078,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Retrieve the crystal from Azure's staff",
+     "text_locale_id": 22325,
+     "target": "Azure",
+     "target_locale_id": 6455,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Sven outside of the Briar Patch",
+     "text_locale_id": 22327,
+     "target": "Sven",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000209,
+      "name": "Sven",
+      "file": "npcs/briarwood.json",
+      "zone": "Briarwood",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 24976,
+     "speaker": "Sven"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 24563,
+     "speaker": "Sven"
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: Objective 22325 is classed as kind 'other' with target Azure. The text itself does not say defeat, so the kind is a guess. The answer's own note says the boss role comes from the guide, which is true,",
+    "giver: The giver name 'Sven' has locale_id null and no client string was checked. The NPC identity rests on npc_id 9000000209 in briarwood.json:64648, which is verified, so this is a gap, not an error.",
+    "live: The 'live: yes' verdict rests on unflagged client text. The record itself has enabled:false and empty objectives, so 'live' overstates what is wired. The text ids check out (22321 title, 22324 and 223",
+    "objectives[1]: Objective 22325 is typed 'other' with no defeat step. The Briar Patch boss is Azure, and the client has live defeat wording for him (locale 419113 'Defeat Azure', 419112 'Enter the Briar Patch and def",
+    "objectives[2] / next: The chain link to 'Wizard: A Twig From Treeleaf' rests on guide row 26 and record 3160028, not on client text. The answer says so openly, so it is not a fabrication, but the link is unverified by the ",
+    "dialog.complete / giver.locale_id: Complete and progress dialog ids and Sven's name locale id are null. The guide gives Sven name strings (ucdt 148376472 'Sven Fardreamer', per Wizard.md line 55), which the answer does not use."
+   ],
+   "blocked_by": [
+    "giver 'Sven' row 9000000209 not placed"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "zone": "Sunstone Valley",
+ "wireable_by_match": [
+  {
+   "quest_id": 3020033,
+   "record": "quest-lines/quests.json q3020033",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Grunt Work",
+   "live": "yes",
+   "giver": {
+    "name": "Red Stonehammer",
+    "npc_id": "9000000179",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000179,
+    "name": "Red Stonehammer",
+    "file": "npcs/sunstone_valley.json",
+    "zone": "Sunstone Valley",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect Copper Ore",
+     "text_locale_id": 439747,
+     "target": "Copper Ore",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect Sunstones from Sunstone Copper Veins.",
+     "text_locale_id": 439750,
+     "target": "Sunstone",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Red Stonehammer",
+     "text_locale_id": 439751,
+     "target": "Red Stonehammer (npc 9000000179)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000179,
+      "name": "Red Stonehammer",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 439705,
+     "speaker": "Red Stonehammer"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: The step 'Collect Copper Ore' (439747) checks out: the locale text is 'Collect Copper Ore' and the client tags it to 'Rumble Ridge Blacksmith: Grunt Work'. The answer's evidence list also cites 439749",
+    "objectives[1].zone: The client tags 439750 to the zone 'Rumble Ridge', but the answer's step is placed in Sunstone Valley. The answer records this conflict in open, so it is disclosed, not hidden. The step text itself ma",
+    "live_reason: The live claim cites wiki pages (Red Stonehammer, Sunstone Valley) that I did not re-check here. The quest_title 439706 is confirmed in the client as 'Blacksmith: Grunt Work'. The quest_dialog strings",
+    "next: The next link 'Blacksmith: Breaking a Sweat' (439710, record 3020034) is confirmed in the client text cluster and in blacksmith.json at line 1735. The chain is consistent with the pack.",
+    "objectives[0]: Target is null and count is null. The text is real (locale 439747 'Collect Copper Ore' confirmed), but a builder cannot wire the collect step to an item id without a resolved Copper Ore item id.",
+    "objectives[1]: Target 'Sunstone' is unresolved. Locale 848 confirms the Sunstone item description ('A precious resource mined from Sunstone Valley'), so the item is real, but its item id is not recorded."
+   ]
+  },
+  {
+   "quest_id": 3020036,
+   "record": "quest-lines/quests.json q3020036",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Can We Build It?",
+   "live": "yes",
+   "giver": {
+    "name": "Red Stonehammer",
+    "npc_id": "9000000179",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000179,
+    "name": "Red Stonehammer",
+    "file": "npcs/sunstone_valley.json",
+    "zone": "Sunstone Valley",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Smelt Tin Bars",
+     "text_locale_id": 439774,
+     "target": "Tin Bar",
+     "target_locale_id": 105,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Smelt Tin Bars at the Forge",
+     "text_locale_id": 439775,
+     "target": "Tin Bar",
+     "target_locale_id": 105,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Forge the Motorsmith Boots",
+     "text_locale_id": 439776,
+     "target": "Motorsmith Boots",
+     "target_locale_id": 33870,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Use the anvil to forge the Motorsmith Boots",
+     "text_locale_id": 439777,
+     "target": "Motorsmith Boots",
+     "target_locale_id": 33870,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no coin, XP or item reward text found in any source",
+     "source": "repo:notes/Build Guides/Content/Jobs/Blacksmith.md:155"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 439717,
+     "speaker": "Red Stonehammer"
+    },
+    "progress": {
+     "locale_id": 439868,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 439720,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "live_reason / dialog.progress: The answer says dialog 439868 is tagged to this quest. The client tags 439868 to hint 'Sunstone Valley Motorsmith Boots', not to 'Blacksmith: Can We Build It?'. Its text does match the Smelt and Forge",
+    "rewards: No reward is given. The answer states this openly, but the record is not fully wireable as it stands.",
+    "objectives[0..1]: Verified: 439774 'Smelt Tin Bars' and 439775 'Smelt Tin Bars at the Forge' are tagged Can We Build It?. Tin Bar is locale 105. Counts are unknown.",
+    "objectives[2..3]: Verified: 439776 and 439777 are tagged Can We Build It?. Motorsmith Boots is locale 33870. Recipe 26645 is a separate item and is not checked.",
+    "line.next / line.previous: Verified against the guide's Band 7 table: row 35 Crackin' Skullz, row 36 Can We Build It?, row 37 Scrap Surfin'. The wiki places this at level 4. 439721 reads as a hand-off to the Robgoblin Scrap Mas",
+    "giver: Red Stonehammer, zone Sunstone Valley, and NPC 9000000179 match the giver data. The guide's ucdt differs from this npc id, which the answer already flags."
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3020042,
+   "record": "quest-lines/quests.json q3020042",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Grave Discovery",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000516",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: previous and next are left empty, but the client text places this quest after Blacksmith: From Scraps to Iron. locale:439729 (tagged From Scraps to Iron) says 'search the Drake Boneyard to check for a",
+    "objectives: The answer omits locale:440024 ('Get your patoot out to the Drake Boneyard; gather some supplies, and see if you can find any sign of Jarvus or the Skullz'). It is a Drake Boneyard search line in the ",
+    "objectives: Verified: locale 439730 is 'Blacksmith: Grave Discovery' (unflagged quest_title, Sunstone Valley), and locale 440001 is 'Blacksmithing: Grave Discovery'. Locale 440002 ('Search for clues of the Skullz",
+    "line: Previous/next left empty and the line name 'Rumble Ridge Blacksmith Questline' is not sourced beyond the wiki band list. Placement is correctly marked unknown, so this is an open item, not a false cla",
+    "giver: npc 9000000516 has no name or zone in the repo (only the blacksmith.json record and npcs_unresolved.json), so the giver stays unassigned. This is correctly stated as unknown."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3040061,
+   "record": "quest-lines/quests.json q3040061",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Quizzical Yucca",
+   "live": "unsure",
+   "giver": {
+    "name": "Quizzical Yucca",
+    "npc_id": "9000000176",
+    "locale_id": 442195
+   },
+   "resolved_giver": {
+    "npc_id": 9000000176,
+    "name": "Quizzical Yucca",
+    "file": "npcs/sunstone_valley.json",
+    "zone": "Sunstone Valley",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Quizzical Yucca near the path from Rumble Ridge into Sunstone Valley.",
+     "text_locale_id": 5100188,
+     "target": "Quizzical Yucca",
+     "target_locale_id": 442195,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000176,
+      "name": "Quizzical Yucca",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Quizzical Yucca's Trick Deck",
+     "text_locale_id": 5100243,
+     "target": "Quizzical Yucca's Trick Deck",
+     "target_locale_id": 442169,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000176,
+      "name": "Quizzical Yucca",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Quizzical Yucca's Resource Deck",
+     "text_locale_id": 5100241,
+     "target": "Quizzical Yucca's Resource Deck",
+     "target_locale_id": 442168,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000176,
+      "name": "Quizzical Yucca",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Quizzical Yucca's Creature Deck",
+     "text_locale_id": 5100245,
+     "target": "Quizzical Yucca's Creature Deck",
+     "target_locale_id": 442170,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000176,
+      "name": "Quizzical Yucca",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Quizzical Yucca's Tournament Deck",
+     "text_locale_id": 5100247,
+     "target": "Quizzical Yucca's Tournament Deck",
+     "target_locale_id": 442171,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000176,
+      "name": "Quizzical Yucca",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Quizzical Yucca card (5P12), said to free Wildclaw",
+     "source": "repo:notes/Build Guides/Content/Jobs/Card Duelist.md:174 (wiki-sourced; no numeric item id; unresolved)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: The previous link 'Card Duelist: The Realmkeepers Are Missing!' (5100175) is supported by the guide (Card Duelist.md row 60 prerequisite 'After The Realmkeepers Are Missing!'), and the locale text che",
+    "line.next: Empty next is defensible: Return from the Rumbledome (guide row 62, locale 125173215) needs all four captives, so it is a convergence point. The answer already says so.",
+    "objectives: Objective membership is not settled. Locale 5100187 and 5100188 are tagged Rumble Ridge, and 5100239/5100241/5100243/5100245/5100247 are tagged to other quests in the answer's lookup. I confirmed the ",
+    "objectives[1..4]: The four deck-defeat objectives (5100243, 5100241, 5100245, 5100247) are presented as this quest's objectives. My lookup confirms the ids and texts exist, but tags them to 'Shady Shores' (5100243, 510",
+    "objectives[0]: The 'Talk to Quizzical Yucca' objective uses text_locale_id 5100188. That id is the long 'near the path from Rumble Ridge into Sunstone Valley' string, which the answer also uses as the description. T",
+    "live: The title 5100187 is tagged Rumble Ridge, and the offer and description are tagged Sunstone Valley and Rumble Ridge. The answer's 'unsure' is a fair reading. Nothing in the evidence shows the quest sh"
+   ],
+   "blocked_by": [
+    "giver 'Quizzical Yucca' row 9000000176 not placed",
+    "talk target 'Quizzical Yucca' not placed in our rows",
+    "defeat target \"Quizzical Yucca's Trick Deck\" not placed in our rows",
+    "defeat target \"Quizzical Yucca's Resource Deck\" not placed in our rows",
+    "defeat target \"Quizzical Yucca's Creature Deck\" not placed in our rows",
+    "defeat target \"Quizzical Yucca's Tournament Deck\" not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3040062,
+   "record": "quest-lines/quests.json q3040062",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Ironteeth",
+   "live": "yes",
+   "giver": {
+    "name": "Ironteeth",
+    "npc_id": "9000000109",
+    "locale_id": 442196
+   },
+   "resolved_giver": {
+    "npc_id": 9000000109,
+    "name": "Ironteeth",
+    "file": "npcs/sunstone_valley.json",
+    "zone": "Sunstone Valley",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Ironteeth in front of the Rumbledome.",
+     "text_locale_id": 5100192,
+     "target": "Ironteeth",
+     "target_locale_id": 442196,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000109,
+      "name": "Ironteeth",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Ironteeth's Resource Desk",
+     "text_locale_id": 5100255,
+     "target": "Ironteeth's Resource Deck",
+     "target_locale_id": 442172,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000109,
+      "name": "Ironteeth",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Ironteeth's Trick Deck",
+     "text_locale_id": 5100257,
+     "target": "Ironteeth's Trick Deck",
+     "target_locale_id": 442173,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000109,
+      "name": "Ironteeth",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Ironteeth's Creature Deck",
+     "text_locale_id": 5100259,
+     "target": "Ironteeth's Creature Deck",
+     "target_locale_id": 442174,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000109,
+      "name": "Ironteeth",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Ironteeth's Tournament Deck",
+     "text_locale_id": 5100261,
+     "target": "Ironteeth's Tournament Deck",
+     "target_locale_id": 442175,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000109,
+      "name": "Ironteeth",
+      "file": "npcs/sunstone_valley.json",
+      "zone": "Sunstone Valley",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Ironteeth hero card (5P16) per the guide; not confirmed in client",
+     "source": "repo:notes/Build Guides/Content/Jobs/Card Duelist.md:175 (unverified)"
+    },
+    {
+     "kind": "other",
+     "value": "Duel prizes: Cool Wheelz Machine, Wrath of the Skullz Machine, Skullz Commander Machine, Ironteeth Hero cards from his decks",
+     "source": "locale:442188, locale:442189, locale:442190, locale:442191"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 5100190,
+     "speaker": "Ironteeth"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[1..3] (deck-defeat steps): The four 'Defeat Ironteeth's ... Deck' objectives (5100255, 5100257, 5100259, 5100261) are tagged 'Shady Shores Ironteeth' in the client, not 'Card Duelist: Ironteeth' (5100191/5100192 are tagged 'Rum",
+    "line.next: 'Card Duelist: Return from the Rumbledome' is guide-only, and the client has no title for it. The client cluster around 5100302/5100308 tags the post-rescue lines to 'Shady Shores' hints, so the next ",
+    "zone: Zone is set to Sunstone Valley, but the quest's own text (5100191, 5100192, 5100190) is tagged Rumble Ridge. The Sunstone placement comes from the NPC notes, not the client.",
+    "dialog.complete: Completion is null. That is honest, but the verified 5100306 line ('Now that your friend is free, you should return to Rumble King Don') is confirmed tagged 'Shady Shores Junkmaker Jort', so it is not",
+    "objectives[1-4]: The four deck-defeat objectives (5100255, 5100257, 5100259, 5100261) are tagged 'Shady Shores Ironteeth' in the client, not to this record's title hint. The answer lists them as this quest's objective",
+    "line.next: The open list says 'Card Duelist: Return from the Rumbledome' is not confirmed in client text by title. The client does have it: locale:5100630 quest_title 'Card Duelist: Return from the Rumbledome', "
+   ],
+   "blocked_by": [
+    "giver 'Ironteeth' row 9000000109 not placed",
+    "talk target 'Ironteeth' not placed in our rows",
+    "defeat target \"Ironteeth's Resource Deck\" not placed in our rows",
+    "defeat target \"Ironteeth's Trick Deck\" not placed in our rows",
+    "defeat target \"Ironteeth's Creature Deck\" not placed in our rows",
+    "defeat target \"Ironteeth's Tournament Deck\" not placed in our rows"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,697 @@
+{
+ "zone": "Merry Vale",
+ "quests": [
+  {
+   "quest_id": 3040026,
+   "record": "quest-lines/quests.json q3040026",
+   "title": "Card Duelist: Herme the Hermit",
+   "giver": {
+    "name": "Ari the Fish",
+    "npc_id": "9500000869",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Herme the Hermit and see if he knows Maple Sugarleaf's whereabouts.",
+     "text_locale_id": 104304,
+     "target": "Herme the Hermit",
+     "target_locale_id": 104303,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Seek out Herme Fickleleaf at The Roadhouse north of Merry Vale",
+     "text_locale_id": 104305,
+     "target": "Herme Fickleleaf",
+     "target_locale_id": 115490,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Defeat Herme Fickleleaf",
+     "text_locale_id": 104307,
+     "target": "Herme Fickleleaf",
+     "target_locale_id": 115490,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Herme",
+     "text_locale_id": 104309,
+     "target": "Herme the Hermit",
+     "target_locale_id": 104303,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unknown. No reward is confirmed for this quest.",
+     "source": "notes/Build Guides/Content/Jobs/Card Duelist.md:111 (lists reward as unknown)"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist job quest line (guide Part 1f, Merry Vale and Farnum Farmstead)",
+    "previous": [
+     "Card Duelist: Proof is in the Cards"
+    ],
+    "next": [
+     "Card Duelist: Playing a Prodigy"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104315,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 104306,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050022,
+   "record": "quest-lines/quests.json q3050022",
+   "title": "Chef: Roasted Mysteries",
+   "giver": {
+    "name": "Chef Jarvie",
+    "npc_id": "9000000044",
+    "locale_id": 41263
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Harvest some ingredients from Queensfields and Farnum's Farmstead, then take them to Chef Jarvie in Merry Vale.",
+     "text_locale_id": 24035,
+     "target": "Stainberry, Gummyfruit",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a chef, cook up some Mystery Pot Roasts for Chef Jarvie in Merry Vale",
+     "text_locale_id": 71805,
+     "target": "Mystery Pot Roast",
+     "target_locale_id": 38652,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the Mystery Pot Roasts to Chef Jarvie",
+     "text_locale_id": 71834,
+     "target": "Chef Jarvie",
+     "target_locale_id": 41263,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced",
+     "source": "repo:notes/Build Guides/Content/Jobs/Chef.md:118 (reward 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Chef cooking job, main series band 2 (level 5 to 10)",
+    "previous": [
+     "Chef: Learning to Crave the Flave"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 71783,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 71835,
+     "speaker": "Chef Jarvie"
+    },
+    "complete": {
+     "locale_id": 71786,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3050023,
+   "record": "quest-lines/quests.json q3050023",
+   "title": "Chef: Reach Level 10",
+   "giver": {
+    "name": "Chef Jarvie",
+    "npc_id": "9000000044",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach Level 10 as a Chef, then return to Chef Jarvie.",
+     "text_locale_id": 387273,
+     "target": "Chef level 10 (return to Chef Jarvie)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef job-trainer series (Chef Jarvie, Merry Vale, level 5 to 10 band)",
+    "previous": [],
+    "next": [
+     "Chef: Chugawhat?"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387254,
+     "speaker": "Chef Jarvie"
+    },
+    "progress": {
+     "locale_id": 387256,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 387257,
+     "speaker": "Chef Jarvie"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050024,
+   "record": "quest-lines/quests.json q3050024",
+   "title": "Chef: Chugawhat?",
+   "giver": {
+    "name": "Chef Jarvie",
+    "npc_id": "9000000044",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel to Wugachug and learn more about cooking from Cook Yumtumlot,",
+     "text_locale_id": 72107,
+     "target": "Wugachug",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef job quest line (Chef Jarvie, Merry Vale, then Cook Yumtumlot, Wugachug)",
+    "previous": [
+     "Chef: Reach Level 10"
+    ],
+    "next": [
+     "Chef: Surprise Me!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 72105,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 72108,
+     "speaker": "Cook Yumtumlot"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130012,
+   "record": "quest-lines/quests.json q3130012",
+   "title": "Postman: Missing Mail",
+   "giver": {
+    "name": "Postmaster Vixie",
+    "npc_id": "9000000174",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect the packages scattered around Merry Vale.",
+     "text_locale_id": 117067,
+     "target": "packages scattered around Merry Vale",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Merry Vale Package Pickup minigame",
+     "text_locale_id": 117068,
+     "target": "Merry Vale Package Pickup",
+     "target_locale_id": 100711,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return the missing mail and packages to Vixie.",
+     "text_locale_id": 71837,
+     "target": "Postmaster Vixie",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no reward text found",
+     "source": "repo:notes/Build Guides/Content/Jobs/Postman.md:88 (rewards 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Postman job quest line (Band 2, Merry Vale, levels 5 to 10)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 117035,
+     "speaker": "Postmaster Vixie"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 117038,
+     "speaker": "Postmaster Vixie"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130013,
+   "record": "quest-lines/quests.json q3130013",
+   "title": "Postman: Mail Mix-Up",
+   "giver": {
+    "name": "Postmaster Vixie",
+    "npc_id": "9000000174",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Deliver the mail to the intended owner in Merry Vale before time runs out.",
+     "text_locale_id": 117080,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Deliver the Mail in Merry Vale minigame",
+     "text_locale_id": 117081,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman (Postmaster Vixie, Merry Vale, band 2)",
+    "previous": [
+     "Postman: Missing Mail"
+    ],
+    "next": [
+     "Postman: And the Winner Is..."
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 117074,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 117077,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130014,
+   "record": "quest-lines/quests.json q3130014",
+   "title": "Postman: And the Winner Is...",
+   "giver": {
+    "name": "Postmaster Vixie",
+    "npc_id": "9000000174",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Help Postmaster Vixie pick a winner!",
+     "text_locale_id": 117170,
+     "target": "Postmaster Vixie",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Pick a winner for the contest in Merry Vale.",
+     "text_locale_id": 117174,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Pick a winning entry from the box",
+     "text_locale_id": 117175,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Merry Vale Mail Sorting minigame",
+     "text_locale_id": 141819,
+     "target": "Merry Vale Mail Sorting",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Myrea in Merry Vale",
+     "text_locale_id": 117177,
+     "target": "Myrea",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Enaine in Seaside",
+     "text_locale_id": 117179,
+     "target": "Enaine",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Postmaster Vixie once you've finished sorting the mail.",
+     "text_locale_id": 74031,
+     "target": "Postmaster Vixie",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman (Band 2, Merry Vale, levels 5 to 10)",
+    "previous": [
+     "Postman: Mail Mix-Up"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 117168,
+     "speaker": "Postmaster Vixie"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3130015,
+   "record": "quest-lines/quests.json q3130015",
+   "title": "Postman: Beautiful Bouquet",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000545",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Rosalie",
+     "text_locale_id": 117022,
+     "target": "Rosalie",
+     "target_locale_id": 117030,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Postmaster Vixie in Merry Vale",
+     "text_locale_id": 117024,
+     "target": "Postmaster Vixie",
+     "target_locale_id": 47500,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver flowers to Rosalie in Merry Vale.",
+     "text_locale_id": 117018,
+     "target": "Rosalie",
+     "target_locale_id": 117030,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman / Postmaster Vixie job line (Merry Vale), position unverified",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 117016,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150008,
+   "record": "quest-lines/quests.json q3150008",
+   "title": "Warrior: Distracted",
+   "giver": {
+    "name": "Tumbolina",
+    "npc_id": "9000000222",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Tumbolina thinks she can fix the weapons if you get her tools back from Braldan Stoneaxe in Merry Vale.",
+     "text_locale_id": 71037,
+     "target": "Braldan Stoneaxe",
+     "target_locale_id": 40550,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Braldan Stoneaxe",
+     "text_locale_id": 71047,
+     "target": "Braldan Stoneaxe",
+     "target_locale_id": 40550,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Tumbolina with her tools.",
+     "text_locale_id": 71050,
+     "target": "Tumbolina",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward data in client, wiki or repo",
+     "source": "repo:prototype/osfr-tools/data/content/quests/warrior.json:470-519 (rewards empty)"
+    }
+   ],
+   "line": {
+    "name": "Warrior quest line, band 2 (level 5 to 10: Steele, Tumbolina, Roadhouse), guide row W8",
+    "previous": [
+     "Warrior: You Deserve Better"
+    ],
+    "next": [
+     "Warrior: Too Distracted to Work"
+    ]
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3150012,
+   "record": "quest-lines/quests.json q3150012",
+   "title": "Warrior: Knocking Some Sense In",
+   "giver": {
+    "name": "Aster",
+    "npc_id": "9000000243",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat some of the thugawugs, so Aster can get through. She's promised to deliver the shipment of weapons to Snowhill if you help her.",
+     "text_locale_id": 71266,
+     "target": "Thugawug Sneak and Thugawug Bumbler",
+     "target_locale_id": 75449,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior job quest line, Band 3 (level 10 to 15), Tumbolina weapons-delivery chain",
+    "previous": [
+     "Warrior: Achieve Level 10"
+    ],
+    "next": [
+     "Warrior: Take Care of That Ankle"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 71264,
+     "speaker": "Aster"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160013,
+   "record": "quest-lines/quests.json q3160013",
+   "title": "Wizard: Merry Magical Story",
+   "giver": {
+    "name": "Yaren Sunstare",
+    "npc_id": "9000000234",
+    "locale_id": 70083
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Ask about the Spellstruck Halls",
+     "text_locale_id": 103761,
+     "target": "Talespinner Yvelle (inferred, not stated in 103761)",
+     "target_locale_id": 70613,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Head to Merry Vale and speak with Talespinner Yvelle.",
+     "text_locale_id": 384160,
+     "target": "Merry Vale",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Talespinner Yvelle",
+     "text_locale_id": 74899,
+     "target": "Talespinner Yvelle",
+     "target_locale_id": 70613,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Let Yaren Sunstare know what you've learned about Spellstruck Halls.",
+     "text_locale_id": 141725,
+     "target": "Yaren Sunstare",
+     "target_locale_id": 70083,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard class quest line, Band 2 (level 5 to 10: Natali, Fizzlesticks, Yaren, Yvelle)",
+    "previous": [
+     "Wizard: An Icy Mistake"
+    ],
+    "next": [
+     "Wizard: Feeding the Storyteller"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74889,
+     "speaker": "Yaren Sunstare"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 74892,
+     "speaker": "Talespinner Yvelle"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160014,
+   "record": "quest-lines/quests.json q3160014",
+   "title": "Wizard: Feeding the Storyteller",
+   "giver": {
+    "name": "Talespinner Yvelle",
+    "npc_id": "9500000427",
+    "locale_id": 70613
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Chef Jarvie",
+     "text_locale_id": 141680,
+     "target": "Chef Jarvie",
+     "target_locale_id": 41263,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Get some mushroom soup from Chef Jarvie in Merry Vale.",
+     "text_locale_id": 141679,
+     "target": "mushroom soup",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard job quest line (Band 2, level 5 to 10)",
+    "previous": [
+     "Wizard: Merry Magical Story"
+    ],
+    "next": [
+     "Wizard: Lost Student"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 141684,
+     "speaker": "Talespinner Yvelle"
+    },
+    "progress": {
+     "locale_id": 116612,
+     "speaker": "Chef Jarvie"
+    },
+    "complete": {
+     "locale_id": 141687,
+     "speaker": "Talespinner Yvelle"
+    }
+   },
+   "wireable": true
+  }
+ ]
+}

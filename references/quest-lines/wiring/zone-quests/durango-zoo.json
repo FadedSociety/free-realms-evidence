@@ -1,0 +1,137 @@
+{
+ "zone": "Durango Zoo",
+ "quests": [
+  {
+   "quest_id": 3010022,
+   "record": "quest-lines/quests.json q3010022",
+   "title": "Archer: Animal Investigation",
+   "giver": {
+    "name": "Bowman Bilter",
+    "npc_id": "9000000029",
+    "locale_id": 77805
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel to the Durango Zoo and speak with Mr. Miles to see if he has any information about the smugglers.",
+     "text_locale_id": 77828,
+     "target": "Durango Zoo",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Mr. Miles at the Durango Zoo",
+     "text_locale_id": 77842,
+     "target": "Mr. Miles",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Catch a smuggler in the act at Durango Zoo",
+     "text_locale_id": 77844,
+     "target": "smuggler (unnamed)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line (Band 3, level 10 to 15)",
+    "previous": [
+     "Archer: Suspicious Smugglers"
+    ],
+    "next": [
+     "Archer: Prevention First"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77826,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 77859,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010023,
+   "record": "quest-lines/quests.json q3010023",
+   "title": "Archer: Prevention First",
+   "giver": {
+    "name": "Mr. Miles",
+    "npc_id": "9000000156",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Harvest bundles of rainleaf",
+     "text_locale_id": 78410,
+     "target": "rainleaf",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Harvest bundles of punkin",
+     "text_locale_id": 78417,
+     "target": "punkin",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Harvest bundles of sunleaf",
+     "text_locale_id": 78419,
+     "target": "sunleaf",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Mr. Miles at the Durango Zoo",
+     "text_locale_id": 78425,
+     "target": "Mr. Miles",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Report back to Bowman Bilter near Passwind Pass, just north of Blackspore.",
+     "text_locale_id": 78428,
+     "target": "Bowman Bilter",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line (Band 3, level 10 to 15)",
+    "previous": [
+     "Archer: Animal Investigation"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78403,
+     "speaker": "Mr. Miles"
+    },
+    "progress": {
+     "locale_id": 115693,
+     "speaker": "Mr. Miles"
+    },
+    "complete": null
+   },
+   "wireable": false
+  }
+ ]
+}

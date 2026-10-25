@@ -1,0 +1,2432 @@
+{
+ "zone": "unknown",
+ "quests": [
+  {
+   "quest_id": 3000023,
+   "record": "quest-lines/quests.json q3000023",
+   "title": "Wilbur's Trouble",
+   "giver": {
+    "name": "Michael Tallstrider",
+    "npc_id": null,
+    "locale_id": 1921
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Michael Tallstrider",
+     "text_locale_id": 45863,
+     "target": "Michael Tallstrider",
+     "target_locale_id": 1921,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Chase away the robgoblins",
+     "text_locale_id": 45859,
+     "target": "Robgoblins (generic; no client NPC id bound)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Make sure Wilbur is okay",
+     "text_locale_id": 45861,
+     "target": "Wilbur",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take Wilbur back to Farmer Chug (description: Save Wilbur from the robgoblins then return him safely to Farmer Chug.)",
+     "text_locale_id": 45852,
+     "target": "Farmer Chug",
+     "target_locale_id": 359,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Michael after you've saved Wilbur from the robgoblins.",
+     "text_locale_id": 45864,
+     "target": "Michael Tallstrider",
+     "target_locale_id": 1921,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Job of Adventurer unlocked",
+     "source": "locale:47526"
+    }
+   ],
+   "line": {
+    "name": "Sacred Glade tutorial (Adventurer job unlock); no line record in our data",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 45850,
+     "speaker": "Michael Tallstrider"
+    },
+    "progress": {
+     "locale_id": 45867,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 47526,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010002,
+   "record": "quest-lines/quests.json q3010002",
+   "title": "Aiming For Archery",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000515",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010018,
+   "record": "quest-lines/quests.json q3010018",
+   "title": "Contract: Bowman for Hire",
+   "giver": {
+    "name": "Eddie Eagle Eyes",
+    "npc_id": "9000000314",
+    "locale_id": 388247
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As an archer, defeat Thugawug Sneaks that wander the wilderness, and some Shadow Talon Apprentices in Danger Peaks. Return to Eddie when done.",
+     "text_locale_id": 388262,
+     "target": "Thugawug Sneak; Shadow Talon Apprentice (split from the text, not confirmed NPC name ids)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Shadow Talon Apprentices",
+     "text_locale_id": 388263,
+     "target": "Shadow Talon Apprentice",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Unruly Warriors",
+     "text_locale_id": 388267,
+     "target": "Unruly Warriors",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Unruly Mages",
+     "text_locale_id": 388269,
+     "target": "Unruly Mages",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Eddie Eagle Eyes",
+     "text_locale_id": 388253,
+     "target": "Eddie Eagle Eyes",
+     "target_locale_id": 388244,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line, band 3 (level 10 to 15), Eddie Eagle Eyes contracts",
+    "previous": [
+     "Archer: Achieve Level 10"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388257,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388260,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020028,
+   "record": "quest-lines/quests.json q3020028",
+   "title": "Blacksmith: No Sticks and Plenty of Stones",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000006",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith: Anata Caliburn band (Band 5, guide row 28)",
+    "previous": [
+     "Blacksmith: Tools of the Trade"
+    ],
+    "next": [
+     "Blacksmith: Gemstone Roundup"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020029,
+   "record": "quest-lines/quests.json q3020029",
+   "title": "Blacksmith: Gemstone Roundup",
+   "giver": {
+    "name": "Anata Caliburn",
+    "npc_id": "9000000006",
+    "locale_id": 100175
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Locate 20 Moonstones and give them to Anata Caliburn.",
+     "text_locale_id": 101530,
+     "target": "Moonstone",
+     "target_locale_id": 21954,
+     "count": 20
+    },
+    {
+     "kind": "collect",
+     "text": "Locate Fire Agates and give them to Anata Caliburn.",
+     "text_locale_id": 101532,
+     "target": "Fire Agate",
+     "target_locale_id": 21955,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give Anata 20 Moonstones",
+     "text_locale_id": 101529,
+     "target": "Anata Caliburn",
+     "target_locale_id": 100175,
+     "count": 20
+    },
+    {
+     "kind": "deliver",
+     "text": "Give Anata 20 Fire Agates",
+     "text_locale_id": 101531,
+     "target": "Anata Caliburn",
+     "target_locale_id": 100175,
+     "count": 20
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith: Anata Caliburn band (Legendary Summersaber storyline)",
+    "previous": [
+     "Blacksmith: No Sticks and Plenty of Stones"
+    ],
+    "next": [
+     "Blacksmith: Legendary Summersaber"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 101535,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020030,
+   "record": "quest-lines/quests.json q3020030",
+   "title": "Blacksmith: Legendary Summersaber",
+   "giver": {
+    "name": "Anata Caliburn",
+    "npc_id": "9000000006",
+    "locale_id": 100175
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "As a Blacksmith, find an anvil and forge the legendary blade, Summersaber. Then show your work to Anata.",
+     "text_locale_id": 101604,
+     "target": "anvil (crafting station)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Craft the Summersaber and return to Anata Caliburn.",
+     "text_locale_id": 95113,
+     "target": "Legendary Summersaber",
+     "target_locale_id": 101603,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Sturdy Summersaber recipe (Level 16 Ninja weapon; cannot trade)",
+     "source": "wiki page Blacksmith / repo:notes/Build Guides/Content/Jobs/Blacksmith.md:137 (no client locale confirmed)"
+    }
+   ],
+   "line": {
+    "name": "Blacksmith job quest line, Anata Caliburn group (guide rows 26-31)",
+    "previous": [
+     "Blacksmith: Gemstone Roundup"
+    ],
+    "next": [
+     "Blacksmith: The Royal Smithy"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030001,
+   "record": "quest-lines/quests.json q3030001",
+   "title": "Brawling 101",
+   "giver": {
+    "name": "Ashley Lightwings",
+    "npc_id": "9000000014",
+    "locale_id": 42111
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find Flanders at the practice yard to the south west so that you can learn how to be a Brawler.",
+     "text_locale_id": 42150,
+     "target": "Flanders",
+     "target_locale_id": 42164,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Flanders",
+     "text_locale_id": 42151,
+     "target": "Flanders",
+     "target_locale_id": 42164,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find and speak with Flanders. He should be near the practice yard to the south west of Ashley Lightwings.",
+     "text_locale_id": 42152,
+     "target": "Sacred Glade practice yard (south west of Ashley Lightwings)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no reward text found for this quest",
+     "source": "repo:notes/Build Guides/Content/Jobs/Brawler.md:80"
+    }
+   ],
+   "line": {
+    "name": "Brawler entry quests (Sacred Glade tutorial, optional, outside the three starting lines)",
+    "previous": [],
+    "next": [
+     "The \"Hands On\" Method"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 42129,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030002,
+   "record": "quest-lines/quests.json q3030002",
+   "title": "The \"Hands On\" Method",
+   "giver": {
+    "name": "Flanders",
+    "npc_id": "9000000090",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Flanders after changing into a Brawler",
+     "text_locale_id": 45318,
+     "target": "Flanders",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Enter the Picnic Yard",
+     "text_locale_id": 45316,
+     "target": "Picnic Yard",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Click the gate near Ashley to start the fight",
+     "text_locale_id": 45320,
+     "target": "gate near Ashley",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat a few of the robgoblins ruining Ashley's party to get the whole bunch to leave.",
+     "text_locale_id": 45321,
+     "target": "Robgoblin Partycrasher",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Ashley to be teleported out of the Picnic Yard",
+     "text_locale_id": 45322,
+     "target": "Ashley Lightwings",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Brawler gear (basic brawler equipment, items unnamed)",
+     "source": "locale:45306"
+    }
+   ],
+   "line": {
+    "name": "Brawler entry quests (optional, outside the three starting lines), Sacred Glade tutorial",
+    "previous": [
+     "Brawling 101"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 45306,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 45319,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 45322,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030003,
+   "record": "quest-lines/quests.json q3030003",
+   "title": "Art of Brawling",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000517",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Find Carlos Brazenfist in Cobblestone Village (one of three alternative trainers)",
+     "text_locale_id": 139691,
+     "target": "Carlos Brazenfist",
+     "target_locale_id": 20671,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Find Harold at Highroad Junction (one of three alternative trainers)",
+     "text_locale_id": 139694,
+     "target": "Harold",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Find Caitlyn Gravefog at Stillwater Crossing (one of three alternative trainers)",
+     "text_locale_id": 139697,
+     "target": "Caitlyn Gravefog",
+     "target_locale_id": 116520,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler class quests, optional 'Quests' entry (wiki Brawler page)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030022,
+   "record": "quest-lines/quests.json q3030022",
+   "title": "Contract: Hello Fernando",
+   "giver": {
+    "name": "Fernando Flexsteel",
+    "npc_id": "9500000785",
+    "locale_id": 388481
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "This bounty has you going to Snowhill to defeat some nasty ice creatures. Get some warm brawler gear on and prepare for adventure! (candidate only: quest_dialog, not a quest_objective)",
+     "text_locale_id": 388506,
+     "target": "ice creatures in Snowhill",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler main series, band 1 (Petra-sent, Fernando Flexsteel contracts)",
+    "previous": [
+     "Brawler: Achieve Level 5"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 388502,
+     "speaker": "Fernando Flexsteel"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388505,
+     "speaker": "Fernando Flexsteel"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030035,
+   "record": "quest-lines/quests.json q3030035",
+   "title": "Brawler: Achieve Level 15",
+   "giver": {
+    "name": "Jeni Shortfuse",
+    "npc_id": "9000000363",
+    "locale_id": 22808
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 15 as a brawler, then return to Jeni Shortfuse.",
+     "text_locale_id": 387398,
+     "target": "Jeni Shortfuse",
+     "target_locale_id": 22808,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler main series, band 3 (level 10 to 15), wiki order M16",
+    "previous": [
+     "Brawler: I Want My Money!"
+    ],
+    "next": [
+     "Brawler: Providing Proof"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387374,
+     "speaker": "Jeni Shortfuse"
+    },
+    "progress": {
+     "locale_id": 387376,
+     "speaker": "Jeni Shortfuse"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030036,
+   "record": "quest-lines/quests.json q3030036",
+   "title": "Contract: Local Bounty",
+   "giver": {
+    "name": "Fernando Flexsteel",
+    "npc_id": "9000000323",
+    "locale_id": 388481
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Brawler main series, band 4 (guide row M17; repeatable Fernando bounties)",
+    "previous": [
+     "Brawler: Achieve Level 15"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 388513,
+     "speaker": "Fernando Flexsteel"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050001,
+   "record": "quest-lines/quests.json q3050001",
+   "title": "Chef Express",
+   "giver": {
+    "name": "Ashley Lightwings",
+    "npc_id": "9000000014",
+    "locale_id": 42111
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find and speak with Cookie. She should be near the chuck wagon to the southeast of Ashley Lightwings.",
+     "text_locale_id": 42148,
+     "target": "Cookie",
+     "target_locale_id": 42163,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef job tutorial (Sacred Glade entry quests, outside the three trainer series)",
+    "previous": [],
+    "next": [
+     "Stewing to Success"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 42124,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050002,
+   "record": "quest-lines/quests.json q3050002",
+   "title": "Stewing to Success",
+   "giver": {
+    "name": "Cookie",
+    "npc_id": null,
+    "locale_id": 42163
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Click on the Hay Pile next to Cookie's wagon to start harvesting!",
+     "text_locale_id": 42180,
+     "target": "Hay Pile",
+     "target_locale_id": 42179,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "You need to harvest bundles of Rainleaf and Gummyfruit before Cookie can make a batch of Strong Arm Stew.",
+     "text_locale_id": 42200,
+     "target": "Bundle of Rainleaf",
+     "target_locale_id": 23294,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "You need to harvest bundles of Rainleaf and Gummyfruit before Cookie can make a batch of Strong Arm Stew.",
+     "text_locale_id": 42200,
+     "target": "Bundle of Gummyfruit",
+     "target_locale_id": 23285,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef tutorial quests (Sacred Glade, Cookie)",
+    "previous": [
+     "Chef Express"
+    ],
+    "next": [
+     "Party Payback"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 42172,
+     "speaker": "Cookie"
+    },
+    "progress": {
+     "locale_id": 42182,
+     "speaker": "Cookie"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050029,
+   "record": "quest-lines/quests.json q3050029",
+   "title": "Chef: Glerga",
+   "giver": {
+    "name": "Lucca De'Flor",
+    "npc_id": null,
+    "locale_id": 23788
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Visit Glerga at the Robgoblin Camp",
+     "text_locale_id": 72705,
+     "target": "Glerga",
+     "target_locale_id": 15854,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "repo:notes/Build Guides/Content/Jobs/Chef.md:135 (reward listed as unknown); no reward text for this quest found in the client"
+    }
+   ],
+   "line": {
+    "name": "Chef job quest line, main series band 4 (level 15 to 20), row M11",
+    "previous": [
+     "Chef: Reach Level 15"
+    ],
+    "next": [
+     "Chef: Family Style!"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 72676,
+     "speaker": "Lucca De'Flor"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060002,
+   "record": "quest-lines/quests.json q3060002",
+   "title": "Advanced Demolition Derby Tutorial",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000527",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Complete the advanced demolition derby tutorial.",
+     "text_locale_id": 130348,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demolition Derby job entry and tutorial quests (guide T1 to T2)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060003,
+   "record": "quest-lines/quests.json q3060003",
+   "title": "Razzle's Racket",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000528",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060007,
+   "record": "quest-lines/quests.json q3060007",
+   "title": "Demo Derby: Routine Maintenance",
+   "giver": {
+    "name": "Duncan Slickshoes",
+    "npc_id": "9000000313",
+    "locale_id": 401319
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Duncan Slickshoes and follow his advice to keep your kart in good shape.",
+     "text_locale_id": 394020,
+     "target": "Duncan Slickshoes",
+     "target_locale_id": 401319,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby: Series 1, Thunder Falls and Crash Davis (training, karts, Crash for Coin), per Demolition Derby Driver guide row 4",
+    "previous": [
+     "Demo Derby: Taking the Wheel"
+    ],
+    "next": [
+     "Demo Derby: Break 'er In"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 394286,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060017,
+   "record": "quest-lines/quests.json q3060017",
+   "title": "Demo Derby: A Lukewarm Welcome",
+   "giver": {
+    "name": "Kanan",
+    "npc_id": "9000000124",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby series 3 (Paws 'n Claws and Frost Ridge arena), guide-inferred from Demolition Derby Driver.md row 14",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060019,
+   "record": "quest-lines/quests.json q3060019",
+   "title": "Demo Derby: Turf Tussle",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000530",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (Series 3: Paws 'n Claws and the Frost Ridge arena), guide row 16; order unconfirmed",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060023,
+   "record": "quest-lines/quests.json q3060023",
+   "title": "Demo Derby: Taking on the Tank",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000356",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Claudio DeMarco and his trouble-causing minions in a Frost Ridge demo derby!",
+     "text_locale_id": 394034,
+     "target": "Claudio DeMarco and minions",
+     "target_locale_id": 394520,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Knock out Claudio 'The Tank' DeMarco",
+     "text_locale_id": 400904,
+     "target": "Claudio DeMarco",
+     "target_locale_id": 394520,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Take first place against Claudio's minions in Frost Ridge without getting knocked out.",
+     "text_locale_id": 394032,
+     "target": "Claudio's Minion",
+     "target_locale_id": 394519,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demolition Derby Driver job, Series 3: Paws 'n Claws and the Frost Ridge arena (guide row 20, order only)",
+    "previous": [
+     "Demo Derby: Getting Scrappy"
+    ],
+    "next": [
+     "Demo Derby: Think of the Kittens"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393391,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394300,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060025,
+   "record": "quest-lines/quests.json q3060025",
+   "title": "Demo Derby: Paws 'n Claws Smash-a-thon",
+   "giver": {
+    "name": "Kanan",
+    "npc_id": null,
+    "locale_id": 116843
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Come out the big winner during the Paws 'n Claws Smash-a-thon derby in Frost Ridge!",
+     "text_locale_id": 394036,
+     "target": "Paws 'n Claws Smash-a-thon [Encounter]",
+     "target_locale_id": 395018,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Place in the top 3 of the Smash-a-thon.",
+     "text_locale_id": 401606,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby quest line (Demolition Derby Driver guide, Series 3, row 22); order-based, not server-verified",
+    "previous": [
+     "Demo Derby: Think of the Kittens"
+    ],
+    "next": [
+     "Demo Derby: Frost Ridge Invitational"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060034,
+   "record": "quest-lines/quests.json q3060034",
+   "title": "Demo Derby: Pixiewood Premiere",
+   "giver": {
+    "name": "Sydney Spellmerg / Jace Wildwheel (unresolved)",
+    "npc_id": "9000000486",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Attend the 'Hurtin' Crewe' premiere in Pixiewood!",
+     "text_locale_id": 394044,
+     "target": "Pixiewood",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (Series 4: The film set at Wildwood), guide order only",
+    "previous": [
+     "Demo Derby: Hurtin' Crewe Act II"
+    ],
+    "next": [
+     "Demo Derby: Sir Horace the Horrible"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393401,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060037,
+   "record": "quest-lines/quests.json q3060037",
+   "title": "Demo Derby: The Odd Audition",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000532",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby series (Series 4: The film set at Wildwood, per repo guide row 34)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060038,
+   "record": "quest-lines/quests.json q3060038",
+   "title": "Demo Derby: Copy Cat",
+   "giver": {
+    "name": "Sydney Spellmerg",
+    "npc_id": "9000000211",
+    "locale_id": 394256
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Make the trek to Tangletrack in Bristlewood and investigate the rumors.",
+     "text_locale_id": 394046,
+     "target": "Tangletrack",
+     "target_locale_id": 384347,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (Demolition Derby Driver job), Series 5: Tangletrack arena",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393363,
+     "speaker": "Sydney Spellmerg"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3060045,
+   "record": "quest-lines/quests.json q3060045",
+   "title": "Demo Derby: Down and Dirty Derby",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000534",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (guide heading 'Series 6: Wildwood arena events and other derbies', row 42; guide order only, not a verified client chain)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060046,
+   "record": "quest-lines/quests.json q3060046",
+   "title": "Demo Derby: Only the Strong",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000535",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070020,
+   "record": "quest-lines/quests.json q3070020",
+   "title": "Fisherman: Fishy Fungus",
+   "giver": {
+    "name": "Gunther",
+    "npc_id": "9000000100",
+    "locale_id": 409300
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some fungus",
+     "text_locale_id": 409307,
+     "target": "clumps of funky fungus from the Bayou's waters",
+     "target_locale_id": 409308,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the fungus to Reed Stillwater to see if he can help identify the plant growth.",
+     "text_locale_id": 409312,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the funky fungus clumps to Gunther at Brambleback's Bayou.",
+     "text_locale_id": 409310,
+     "target": "Gunther",
+     "target_locale_id": 409300,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none found in evidence pack",
+     "source": "none"
+    }
+   ],
+   "line": {
+    "name": "Fisherman job quest line (Gunther / Brambleback's Bayou cluster, guide rows 15-21)",
+    "previous": [],
+    "next": [
+     "Fisherman: Ink Cod Ink"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409301,
+     "speaker": "Gunther"
+    },
+    "progress": {
+     "locale_id": 409313,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070023,
+   "record": "quest-lines/quests.json q3070023",
+   "title": "Fisherman: Undercover",
+   "giver": {
+    "name": "Gunther",
+    "npc_id": "9000000339",
+    "locale_id": 409300
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some Bitter Beta so that Gunther can make you a disguise from their scales.",
+     "text_locale_id": 409465,
+     "target": "Bitter Beta",
+     "target_locale_id": 409466,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Listen for information",
+     "text_locale_id": 409470,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "While under the illusion, sneak up on the other fishermen in Brambleback Bayou and find out what they are up to.",
+     "text_locale_id": 409471,
+     "target": "other fishermen in Brambleback Bayou",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the Bitter Betas back to Gunther.",
+     "text_locale_id": 409469,
+     "target": "Gunther",
+     "target_locale_id": 409300,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Gunther and let him know what you've found out.",
+     "text_locale_id": 409473,
+     "target": "Gunther",
+     "target_locale_id": 409300,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman quest line, Briarwood / Brambleback's Bayou cluster (Gunther); order from the guide table only",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409454,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409523,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 409455,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070039,
+   "record": "quest-lines/quests.json q3070039",
+   "title": "Fisherman: Partner Up",
+   "giver": {
+    "name": "Ernest McScuttle",
+    "npc_id": "9000000319",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Ernest has instructed you to partner up with Hilbert in the Wintery Basin.",
+     "text_locale_id": 412148,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Hilbert",
+     "text_locale_id": 412149,
+     "target": "Hilbert",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Hilbert can be found in the Wintery Basin.",
+     "text_locale_id": 412150,
+     "target": "Wintery Basin",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman: Big J's crew (Wintery Basin / Snowhill fishing line)",
+    "previous": [
+     "Fisherman: Joining Big J's Crew"
+    ],
+    "next": [
+     "Fisherman: Plenty of Fish"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 412143,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070043,
+   "record": "quest-lines/quests.json q3070043",
+   "title": "Fisherman: To the Rescue!",
+   "giver": {
+    "name": "Helena",
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reel in the icy beast",
+     "text_locale_id": 412267,
+     "target": "Ferocious Fangler",
+     "target_locale_id": 99970,
+     "count": 1
+    },
+    {
+     "kind": "other",
+     "text": "Cast your line in the water until you catch the icy beast that swallowed Ernest!",
+     "text_locale_id": 412268,
+     "target": "Ferocious Fangler",
+     "target_locale_id": 99970,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Ernest",
+     "text_locale_id": 412271,
+     "target": "Ernest McScuttle",
+     "target_locale_id": 409211,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Ernest's thanks and the other half of the treasure map (contents revealed in dialog; no item id checked)",
+     "source": "locale:412264"
+    }
+   ],
+   "line": {
+    "name": "Fisherman quest line, Cluster G (Big J's crew, Wintery Basin, Snowhill); Ernest rescue arc",
+    "previous": [],
+    "next": [
+     "Fisherman: Reel Riches"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 412261,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 412274,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 412264,
+     "speaker": "Ernest McScuttle"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070045,
+   "record": "quest-lines/quests.json q3070045",
+   "title": "Fisherman: Sunken Treasure",
+   "giver": {
+    "name": "Helena (Wintery Basin fishing contact, unresolved)",
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Helena in the Wintery Basin to learn more about the sunken treasure.",
+     "text_locale_id": 412199,
+     "target": "Helena",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Helena in the Wintery Basin and let her know you've reeled in the sunken treasure!",
+     "text_locale_id": 412209,
+     "target": "Helena",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman (Big J's crew, Wintery Basin) line",
+    "previous": [
+     "Fisherman: Reel Riches"
+    ],
+    "next": [
+     "Fisherman: Buried Treasure"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 412194,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070046,
+   "record": "quest-lines/quests.json q3070046",
+   "title": "Fisherman: Buried Treasure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000320",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find the treasure chest",
+     "text_locale_id": 412295,
+     "target": "treasure chest",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Remember what Ernest said and see if you can find the treasure!",
+     "text_locale_id": 412296,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Ernest in the Wintery Basin so he can open the treasure chest for you.",
+     "text_locale_id": 412298,
+     "target": "Ernest McScuttle",
+     "target_locale_id": 409211,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unspecified chest contents ('You can have this stuff for saving me'); no item named in client text",
+     "source": "locale:412292"
+    }
+   ],
+   "line": {
+    "name": "Fisherman (Big J's crew, Cluster G, Wintery Basin / Snowhill)",
+    "previous": [
+     "Fisherman: Sunken Treasure"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 412292,
+     "speaker": "Ernest McScuttle"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070049,
+   "record": "quest-lines/quests.json q3070049",
+   "title": "Fisherman: Showing Off Your Skills",
+   "giver": {
+    "name": "Melvin",
+    "npc_id": "9000000401",
+    "locale_id": 410213
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Chip Numbwing",
+     "text_locale_id": 410206,
+     "target": "Chip Numbwing",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Lenore",
+     "text_locale_id": 410208,
+     "target": "Lenore",
+     "target_locale_id": 410212,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Melvin",
+     "text_locale_id": 410210,
+     "target": "Melvin",
+     "target_locale_id": 410213,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Show Melvin a thing or two about fishing at the Frostbitten Banks.",
+     "text_locale_id": 410233,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Get some perfect casts",
+     "text_locale_id": 410234,
+     "target": "Fishing Perfect Cast Skill",
+     "target_locale_id": 407570,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Catch an extra large Goofy Grouper",
+     "text_locale_id": 410236,
+     "target": "Extra Large Goofy Grouper",
+     "target_locale_id": 407630,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Catch a platypus",
+     "text_locale_id": 410238,
+     "target": "platypus",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Lenore",
+     "text_locale_id": 410242,
+     "target": "Lenore",
+     "target_locale_id": 410212,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman quests of Lenore's family, Frostbitten Banks (Snowhill), guide Cluster H",
+    "previous": [
+     "Fisherman: My Hut is Your Hut"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 410228,
+     "speaker": "Melvin"
+    },
+    "progress": {
+     "locale_id": 410221,
+     "speaker": "Lenore"
+    },
+    "complete": {
+     "locale_id": 410231,
+     "speaker": "Lenore"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080046,
+   "record": "quest-lines/quests.json q3080046",
+   "title": "Kart Driver: SG Tour 400: Frost Ridge",
+   "giver": {
+    "name": "Kade Carmichael",
+    "npc_id": null,
+    "locale_id": 101924
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Kade Carmichael in a race at Frost Ridge Speedway.",
+     "text_locale_id": 398074,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "SG Tour 400 (Kart Driver series; champion Kade Carmichael; prize the Lightning Cup)",
+    "previous": [
+     "Kart Driver: SG Tour 400: Wildwood"
+    ],
+    "next": [
+     "Kart Driver: SG Tour 400: Thunder Falls"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 395342,
+     "speaker": "Kade Carmichael"
+    },
+    "progress": {
+     "locale_id": 398077,
+     "speaker": "Kade Carmichael"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080049,
+   "record": "quest-lines/quests.json q3080049",
+   "title": "Kart Driver: Sacred Grove Gup: Frost Ridge",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "SG Tour 400 (probable duplicate; not placed in the chain)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090024,
+   "record": "quest-lines/quests.json q3090024",
+   "title": "Medic: The Missing Patrol",
+   "giver": {
+    "name": "Docaloc",
+    "npc_id": "9000000071",
+    "locale_id": 22283
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Look for the missing patrol in the Vale of the Ancients.",
+     "text_locale_id": 74729,
+     "target": "Vale of the Ancients",
+     "target_locale_id": 18143,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, rescue Private Wurble!",
+     "text_locale_id": 74730,
+     "target": "Private Wurble",
+     "target_locale_id": 130646,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, rescue Private Derp!",
+     "text_locale_id": 74732,
+     "target": "Private Derp",
+     "target_locale_id": 130648,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, rescue Private Zurpee!",
+     "text_locale_id": 74734,
+     "target": "Private Zurpee",
+     "target_locale_id": 130667,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, rescue Private Tubtom!",
+     "text_locale_id": 74736,
+     "target": "Private Tubtom",
+     "target_locale_id": 130650,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, rescue Private Goloboo!",
+     "text_locale_id": 74740,
+     "target": "Private Goloboo",
+     "target_locale_id": 130651,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, rescue Private Moblop!",
+     "text_locale_id": 74742,
+     "target": "Private Moblop",
+     "target_locale_id": 130653,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, rescue Private Flubtum!",
+     "text_locale_id": 74744,
+     "target": "Private Flubtum",
+     "target_locale_id": 130655,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line (Band 4, level 15 to 20)",
+    "previous": [
+     "Medic: Shock Paddles and You"
+    ],
+    "next": [
+     "Medic: Shocking Developments"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74724,
+     "speaker": "Docaloc"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100021,
+   "record": "quest-lines/quests.json q3100021",
+   "title": "Miner: Minor Mix-Up",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": 77706
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Ramberry at Quagmire Quarry to learn more about the problem.",
+     "text_locale_id": 77751,
+     "target": "Ramberry",
+     "target_locale_id": 77757,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Find out from Ramberry what his letter of complaint was about.",
+     "text_locale_id": 77753,
+     "target": "Ramberry",
+     "target_locale_id": 77757,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Silverray at Quagmire Quarry",
+     "text_locale_id": 77754,
+     "target": "Silverray",
+     "target_locale_id": 77706,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner quest line (Silverray, Blackspore Swamp)",
+    "previous": [
+     "Miner: See For Yourself"
+    ],
+    "next": [
+     "Miner: Smelting Secrets"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77746,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 77759,
+     "speaker": "Ramberry"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110017,
+   "record": "quest-lines/quests.json q3110017",
+   "title": "Ninja: Idol Conversation",
+   "giver": {
+    "name": "Sakka",
+    "npc_id": "9000000447",
+    "locale_id": 21964
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Sakka in the Pixie Nursery has asked you to investigate the idol in the Floren Forest as a Ninja.",
+     "text_locale_id": 78890,
+     "target": "stone idol in the Floren Forest",
+     "target_locale_id": 91111,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job questline, Band 3 (levels 10 to 15): Ty, then Sakka",
+    "previous": [
+     "Ninja: Burst of Speed",
+     "Ninja: Walking the Path"
+    ],
+    "next": [
+     "Ninja: Achieve Level 15"
+    ]
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3110018,
+   "record": "quest-lines/quests.json q3110018",
+   "title": "Ninja: Achieve Level 15",
+   "giver": {
+    "name": "Sakka",
+    "npc_id": "9000000447",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Achieve level 15, then return to Sakka.",
+     "text_locale_id": 387229,
+     "target": "Sakka",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Go out into the world and achieve Ninja level 15.",
+     "text_locale_id": 387231,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Sakka for further instructions and training.",
+     "text_locale_id": 387233,
+     "target": "Sakka",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job quest line (Band 3, level 10 to 15, Ty then Sakka)",
+    "previous": [
+     "Ninja: Idol Conversation"
+    ],
+    "next": [
+     "Contract: Fending off the Floren"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 387211,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110019,
+   "record": "quest-lines/quests.json q3110019",
+   "title": "Contract: Fending off the Floren",
+   "giver": {
+    "name": "Ree Peatpants",
+    "npc_id": "9000000439",
+    "locale_id": 388409
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Ree Peatpants has asked you to defeat the snakes and floren causing trouble near the Pixie Nursery.",
+     "text_locale_id": 388409,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja Sakka contract line (Band 4, level 15 to 20)",
+    "previous": [
+     "Ninja: Achieve Level 15"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388407,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388410,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110021,
+   "record": "quest-lines/quests.json q3110021",
+   "title": "Ninja: Real Ultimate Power",
+   "giver": {
+    "name": "Michi",
+    "npc_id": "9000000151",
+    "locale_id": 21098
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Michi in Snowhill has her suspicions about what is going on, but needs you to use your Ninja skills to get a copy of \"Ancient Evils: A User-Friendly Guide to Evil Artifacts\" from a crazy hermit in the Misty Mountains so she can confirm them.",
+     "text_locale_id": 78894,
+     "target": "crazy hermit, Misty Mountains",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Retrieve 'Ancient Evils: A User-Friendly Guide to Evil Artifacts' from the crazy hermit.",
+     "text_locale_id": 91333,
+     "target": "Ancient Evils: A User-Friendly Guide to Evil Artifacts",
+     "target_locale_id": 139328,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Return the book to Michi in Snowhill (no separate objective string found; the completion dialog is locale 78895).",
+     "text_locale_id": null,
+     "target": "Michi",
+     "target_locale_id": 21098,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job questline (Band 4, level 15 to 20: Sakka, then Michi)",
+    "previous": [
+     "Ninja: Missive for Michi"
+    ],
+    "next": [
+     "Ninja: The Masterless Ninja"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78892,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78895,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120004,
+   "record": "quest-lines/quests.json q3120004",
+   "title": "Pet Tutorial: Training",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000452",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Follow the on-screen instructions to complete the Training pet tutorial.",
+     "text_locale_id": 141526,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Tutorial (Pet Trainer job unlock; three per-trainer variants)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 141153,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 141156,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120005,
+   "record": "quest-lines/quests.json q3120005",
+   "title": "Pet Trainer: Speak Up!",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000368",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Use the trick game to train your pet to do the trick \"Speak\".",
+     "text_locale_id": 90020,
+     "target": "Speak",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer common trainer series (after the pet tutorials, before Pet Trainer: To Sanctuary!)",
+    "previous": [
+     "Pet Tutorial: Training"
+    ],
+    "next": [
+     "Pet Trainer: To Sanctuary!"
+    ]
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3140003,
+   "record": "quest-lines/quests.json q3140003",
+   "title": "Running Towards Soccer Stardom",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star job, Arc 0 entry titles (0a, 0b, 0c); order unknown, unplaced",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140009,
+   "record": "quest-lines/quests.json q3140009",
+   "title": "Soccer Star: Goal Stopper",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000281",
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Beat the Goalbusters",
+     "text_locale_id": 402842,
+     "target": "Goalbusters",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Don't let the Goalbusters score 5 goals",
+     "text_locale_id": 402851,
+     "target": "Goalbusters",
+     "target_locale_id": null,
+     "count": 5
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star (Sidekicks soccer career), Arc 1 - Joining the Sidekicks",
+    "previous": [
+     "Soccer Star: Slowing The Snowspurs"
+    ],
+    "next": [
+     "Soccer Star: Power Game"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 402587,
+     "speaker": "Coach \"Golden Leg\" Eddie"
+    },
+    "progress": {
+     "locale_id": 406381,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 402588,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140021,
+   "record": "quest-lines/quests.json q3140021",
+   "title": "Soccer Star: Trophy Detective",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": null,
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "While the rematch was taking place, Coach \"Golden Leg\" Eddie heard the trophy had gone missing! Someone must've stolen it, but who? Help look around the area for clues.",
+     "text_locale_id": 414944,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star story line (Arc 3 - The trophy and the finals), guide row order",
+    "previous": [
+     "Soccer Star: Black Widows' Rematch"
+    ],
+    "next": [
+     "Soccer Star: Returning The Trophy"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 414942,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 414945,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140027,
+   "record": "quest-lines/quests.json q3140027",
+   "title": "Soccer Star: Ants In The Pants",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000281",
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Find something to distract the Cheetahs",
+     "text_locale_id": 402792,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Pour ants on Lika",
+     "text_locale_id": 403001,
+     "target": "Lika",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Pour ants on Kronk",
+     "text_locale_id": 407369,
+     "target": "Kronk",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Pour ants on Grick",
+     "text_locale_id": 407371,
+     "target": "Grick",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star (Premier Soccer Cup line, Arc 3 - The trophy and the finals)",
+    "previous": [],
+    "next": [
+     "Soccer Star: Robgoblin Troublemakers"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 402613,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3140030,
+   "record": "quest-lines/quests.json q3140030",
+   "title": "Soccer Star: Tournament Champion",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000281",
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Beat the Cheetahs in the final game of the season (inferred soccer-match objective; the client gives no typed objective for this quest)",
+     "text_locale_id": 402818,
+     "target": "Cheetahs",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Trophy shown in the final dialog (no grant confirmed); coin and XP unknown",
+     "source": "locale:402620"
+    }
+   ],
+   "line": {
+    "name": "Soccer Star (Sidekicks team story, Arc 3 - The trophy and the finals)",
+    "previous": [
+     "Soccer Star: Achieve Level 19"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 402617,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 402620,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150006,
+   "record": "quest-lines/quests.json q3150006",
+   "title": "Contract: Ready Your Weapon!",
+   "giver": {
+    "name": "Caleb Sleepyswing",
+    "npc_id": "9000000040",
+    "locale_id": 388352
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "There's a bunch of troublemakers on the loose and Caleb needs you to teach them a lesson.",
+     "text_locale_id": 388358,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior job quests (Band 2, level 5 to 10, repeatable Caleb contracts)",
+    "previous": [
+     "Warrior: Achieve Level 5"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388356,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388359,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150017,
+   "record": "quest-lines/quests.json q3150017",
+   "title": "Contract: What Duty Demands",
+   "giver": {
+    "name": "Caleb Sleepyswing",
+    "npc_id": null,
+    "locale_id": 388352
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Caleb has asked that you fulfill your duty as a warrior, and protect travelers from bandits who are blocking the road leading up to Merry Vale.",
+     "text_locale_id": 388366,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior contract line (Band 4, level 15 to 20; Caleb Sleepyswing repeatables)",
+    "previous": [
+     "Warrior: Achieve Level 15"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388364,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388367,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  }
+ ]
+}

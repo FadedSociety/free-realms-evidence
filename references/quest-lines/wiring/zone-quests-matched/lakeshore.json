@@ -1,0 +1,907 @@
+{
+ "zone": "Lakeshore",
+ "wireable_by_match": [
+  {
+   "quest_id": 3160001,
+   "record": "quest-lines/quests.json q3160001",
+   "quest_file": "wizard.json",
+   "title": "Being a Better Wizard",
+   "live": "yes",
+   "giver": {
+    "name": "Fizzlesticks",
+    "npc_id": "9000000550",
+    "locale_id": 20517
+   },
+   "resolved_giver": {
+    "npc_id": 9000000324,
+    "name": "Fizzlesticks",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Fizzlesticks near Lakeshore",
+     "text_locale_id": 442263,
+     "target": "Fizzlesticks",
+     "target_locale_id": 20517,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000324,
+      "name": "Fizzlesticks",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The giver object lists name 'Fizzlesticks' with locale_id 20517 beside npc_id 9000000550. Nothing in the repo ties 9000000550 to that name. npcs_unresolved.json:5185 holds it as a bare ref_id, and the",
+    "line.next / line.previous: The evidence says the entry quest sits 'before the line' only by guide placement (Wizard.md:65, 'optional, before the line'). The answer's next link to 'Wizard: How to be a Wizard' is candidate-only. ",
+    "evidence[4] / wiki:Wizard: The answer cites wiki:Wizard for 'his quests start the line'. The wiki text, as the lookup shows it, says the job is 'unlocked by talking to Fizzlesticks ... and completing his quests'. It does not sa",
+    "live: 'live: yes' rests on unflagged client text plus a secondhand video report (Wizard.md:30). The record is enabled:false, and there is no offer, progress or completion evidence. The answer discloses this",
+    "giver: Giver is still the unresolved record value 9000000550. The Fizzlesticks name match (9000000324) is only a candidate. A builder cannot wire the giver from this answer.",
+    "line.next: The next candidate 'Wizard: How to be a Wizard' is a real client quest_title (locale:20859), and the Wizard guide places it as Band 1 row 1, 'Start of line'. The answer labels it unconfirmed, which is"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3030040,
+   "record": "quest-lines/quests.json q3030040",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Fight for Your Right",
+   "live": "yes",
+   "giver": {
+    "name": "Rourke Ironfist",
+    "npc_id": "9000000185",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000185,
+    "name": "Rourke Ironfist",
+    "file": "npcs/lakeshore.json",
+    "zone": "Lakeshore",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Now that you know the rules of Brawler Club, you will need to prove you can fight before Rourke will let you join. Defeat Troll Roughguards in the Forest Troll fort.",
+     "text_locale_id": 72967,
+     "target": "Troll Roughguards",
+     "target_locale_id": null,
+     "count": 5,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "repo:notes/Build Guides/Content/Jobs/Brawler.md:160 (reward column 'unknown')"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 72965,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 72967,
+     "speaker": "Rourke Ironfist"
+    },
+    "complete": {
+     "locale_id": 72968,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0].target_locale_id: Kill target 'Troll Roughguards' has no NPC name id. The answer's null is honest, but a kill objective needs a target id to wire. Checked: locale 95017, 388561, 388560 and 117190 are objective strings,",
+    "dialog.progress: Left null, but locale 100370 ('Head into the Forest Troll Fort and defeat some Troll Roughguards and then maybe I will let you join my Brawler Club.', hint 'Lakeshore Rourke') reads as Rourke's in-pro",
+    "dialog.offer / complete: Locale 72965 (offer) and 72968 (turn-in) are quest_dialog lines with hint 'Lakeshore Brawler: Fight for Your Right' and 72968 has hint 'Brawler: Fight for Your Right'. Both exist and read correctly (c",
+    "line.next: The next link to 'Brawler: Achieve Level 20' (locale 387407, verified as the title) rests on guide row order. The record 3030041 is a skeleton with no prerequisite set, so the link is not verified in ",
+    "live_reason: Liveness rests on the wiki's members-only note and the quest_title tag, both checked. The title 72966 is untagged with FLAG, so this is not a flagged line treated as live. The answer's reasoning is so",
+    "dialog.offer / dialog.complete: Locale ids 72965 and 72968 are real and tagged quest_dialog to 'Brawler: Fight for Your Right' (72968 confirmed: quest_dialog, hint 'Brawler: Fight for Your Right'). Neither line names a speaker, and "
+   ],
+   "blocked_by": [
+    "giver 'Rourke Ironfist' row 9000000185 not placed",
+    "defeat target 'Troll Roughguards' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3030041,
+   "record": "quest-lines/quests.json q3030041",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Achieve Level 20",
+   "live": "yes",
+   "giver": {
+    "name": "Rourke Ironfist",
+    "npc_id": "9000000185",
+    "locale_id": 22805
+   },
+   "resolved_giver": {
+    "npc_id": 9000000185,
+    "name": "Rourke Ironfist",
+    "file": "npcs/lakeshore.json",
+    "zone": "Lakeshore",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Reach level 20 as a brawler, then return to Rourke Ironfist.",
+     "text_locale_id": 387413,
+     "target": "Rourke Ironfist",
+     "target_locale_id": 22805,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000185,
+      "name": "Rourke Ironfist",
+      "file": "npcs/lakeshore.json",
+      "zone": "Lakeshore",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Reach Level 20 as a Brawler (goal/journal string)",
+     "text_locale_id": 117885,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387408,
+     "speaker": "Rourke Ironfist"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "quest.title: Locale 387407 resolves to exactly 'Brawler: Achieve Level 20', but the client lookup tags it quest_objective with hint 'Brawler Training', not as a quest title. The answer notices this but still treat",
+    "objectives[1]: The second objective ('Reach Level 20 as a Brawler', locale 117885, kind 'other') duplicates the goal text of objectives[0]. It is a journal/goal string, not a separate step, so the quest has a single",
+    "record.id / quest id: Record id 3030041 is only a guide batch key and is unverified against any server quest id. The answer says so, but a builder cannot confirm the id is the server key.",
+    "dialog.offer / complete: Offer and complete dialog are null and the progress id 387408 has no confirmed speaker. Verified text: 'Your brawling training will continue once you have reached level 20 as a brawler. Return to Rour",
+    "line.previous: The previous link 'Brawler: Fight for Your Right' comes from wiki order only; record prerequisites are empty. The giver list confirms the three quests share Rourke, which supports the order but does n",
+    "quest.record_id: The answer calls 3030041 a 'guide batch key, not a confirmed server id'. The evidence pack does not support that. brawler.json holds 3030041 as a quest record with giver 9000000185, and lakeshore.json"
+   ],
+   "blocked_by": [
+    "giver 'Rourke Ironfist' row 9000000185 not placed",
+    "talk target 'Rourke Ironfist' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070030,
+   "record": "quest-lines/quests.json q3070030",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Bluerose's Best Bait",
+   "live": "yes",
+   "giver": {
+    "name": "Merri De'Flor",
+    "npc_id": "9000000146",
+    "locale_id": 19671
+   },
+   "resolved_giver": {
+    "npc_id": 9000000146,
+    "name": "Merri De'Flor",
+    "file": "npcs/lakeshore.json",
+    "zone": "Lakeshore",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Bluerose in Lakeshore and see if she'd be willing to part with some of her special bait.",
+     "text_locale_id": 409752,
+     "target": "Bluerose",
+     "target_locale_id": 19676,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000027,
+      "name": "Bluerose",
+      "file": "npcs/lakeshore.json",
+      "zone": "Lakeshore",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "Get some bait from Bluerose in Lakeshore before you head out to Rainbow Lake.",
+     "text_locale_id": 409750,
+     "target": "Bluerose's bait (item id unresolved)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the bait back to Merri De'Flor.",
+     "text_locale_id": 409756,
+     "target": "Merri De'Flor",
+     "target_locale_id": 19671,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000146,
+      "name": "Merri De'Flor",
+      "file": "npcs/lakeshore.json",
+      "zone": "Lakeshore",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 409745,
+     "speaker": "Merri De'Flor"
+    },
+    "progress": {
+     "locale_id": 409747,
+     "speaker": "Merri De'Flor"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line.previous: The previous link 'Worms' is only a title. The answer says so in 'open', so it is honest, but the evidence it cites is thinner than the client text. Unflagged quest_objective 38800 ('Bluerose is runni",
+    "objectives[0]: The talk-to-Bluerose step is also the Worms gate. 409754 ('Talk to Bluerose and obtain the quest, Worms') is a quest_objective of this quest, but the answer calls 409753/409754 gate lines and not obje",
+    "objectives[1]: The collect target 'Bluerose's bait' has no item id in any client text. The answer's open list covers this, and it leaves the objective unwireable.",
+    "next: Fisherman: Fish Fry is confirmed by locale 409892 (unflagged) and by the Merri giver list. The 3070031 record id is only from our giver list. The answer's note that 20036 is a different contest is cor",
+    "objectives[1]: The collect objective (409750) has no item target. The answer correctly says the bait item id is unresolved, but the objective's real target is the Bluerose NPC, so 'collect' is only loosely right.",
+    "previous: The 'Worms' link is supported only by title text. The client does confirm it: 409754 reads 'Talk to Bluerose and obtain the quest, \"Worms\"', 92615 is 'Worms', and the Worms quest text (ugdt 455926349 "
+   ],
+   "blocked_by": [
+    "giver \"Merri De'Flor\" row 9000000146 not placed",
+    "talk target 'Bluerose' not placed in our rows",
+    "deliver target \"Merri De'Flor\" not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070031,
+   "record": "quest-lines/quests.json q3070031",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Fish Fry",
+   "live": "yes",
+   "giver": {
+    "name": "Merri De'Flor",
+    "npc_id": "9000000146",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000146,
+    "name": "Merri De'Flor",
+    "file": "npcs/lakeshore.json",
+    "zone": "Lakeshore",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Selvi Slowreel",
+     "text_locale_id": 409902,
+     "target": "Selvi Slowreel",
+     "target_locale_id": 409902,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000194,
+      "name": "Selvi Slowreel",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in some Peachy Perch from Rainbow Lake for Merri De'Flor",
+     "text_locale_id": 409901,
+     "target": "Peachy Perch",
+     "target_locale_id": 409904,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver the Peacy Perch to Merri De'Flor in Lakeshore.",
+     "text_locale_id": 409907,
+     "target": "Merri De'Flor",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000146,
+      "name": "Merri De'Flor",
+      "file": "npcs/lakeshore.json",
+      "zone": "Lakeshore",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced",
+     "source": "no reward string found in the client cluster or our records"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 409891,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409915,
+     "speaker": "Merri De'Flor"
+    },
+    "complete": {
+     "locale_id": 409894,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The talk objective is correct (409902 'Talk to Selvi Slowreel', Lakeshore). Selvi's 409908 offer ('Are you ready to head out?') implies a separate travel-to-Rainbow-Lake step that the answer drops. Th",
+    "objectives[1]: Collect objective is correctly keyed to 409901 (locale text confirmed) with target 409904 'Reel in some Peachy Perch' (confirmed). Count is null, and no count appears in the text. Acceptable as stated",
+    "objectives[2]: Deliver text 409907 ('Deliver the Peacy Perch to Merri De'Flor in Lakeshore.') is confirmed. target_locale_id is null even though the target is Merri, who has a name string in the client. Minor.",
+    "evidence: The claim that 409923 'follows the fish-fry storyline' is loosely worded. 409923 is a quest_dialog on the 'Fisherman: VIP Fish' quest, a separate quest with its own title, not a step of Fish Fry. It s",
+    "giver: npc_id 9000000146 and name Merri De'Flor are confirmed by the pack, and the guide lists Fish Fry under Merri. locale_id null is honest.",
+    "line: Chain Bluerose's Best Bait (row 26) -> Fish Fry (27) -> Fish Market (28) matches the guide's ordering notes and the 409974 'left over Peachy Perch' line. Our records give no prerequisite or next link,"
+   ],
+   "blocked_by": [
+    "giver \"Merri De'Flor\" row 9000000146 not placed",
+    "deliver target \"Merri De'Flor\" not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3070032,
+   "record": "quest-lines/quests.json q3070032",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: Fish Market",
+   "live": "yes",
+   "giver": {
+    "name": "Merri De'Flor",
+    "npc_id": "9000000146",
+    "locale_id": 19671
+   },
+   "resolved_giver": {
+    "npc_id": 9000000146,
+    "name": "Merri De'Flor",
+    "file": "npcs/lakeshore.json",
+    "zone": "Lakeshore",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Merri has a bunch of left over fish and doesn't want it to go to waste. See if anyone around Lakeshore is willing to buy it.",
+     "text_locale_id": 409976,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 409974,
+     "speaker": "Merri De'Flor"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 409977,
+     "speaker": "Merri De'Flor"
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The only objective (locale 409976) is a generic 'see if anyone around Lakeshore will buy it' line with no target NPC, item or count. I checked the client: 409976 is hinted Fisherman: Fish Market, and ",
+    "line.previous / line.next: Checked. Record 3070032 lists prerequisite 3070031 (Fish Fry), and 3070034 (McScuttle Family Farm) lists 3070032. The guide's rows 27, 28 and 30 agree. The client hints agree too: 409997 is hinted McS",
+    "dialog.complete: 409977 is used as completion dialog by inference only. The answer labels this, so it is not a false claim, but the wiring rests on it.",
+    "objectives[0]: The objective is a generic 'see if anyone around Lakeshore wants to buy' line with no target NPC, item or count. The answer states this honestly in open[], so it is not a failure, but the quest cannot",
+    "dialog.complete: 409977 is used as completion dialog by inference only. The answer labels this as inferred, which is acceptable, but the field itself reads as fact."
+   ],
+   "blocked_by": [
+    "giver \"Merri De'Flor\" row 9000000146 not placed"
+   ]
+  },
+  {
+   "quest_id": 3070034,
+   "record": "quest-lines/quests.json q3070034",
+   "quest_file": "fisherman.json",
+   "title": "Fisherman: McScuttle Family Farm",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000403",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "It's time to put a stop to Ernest's badmouthing. Head to the McScuttle family farm at Rainbow Lake to find out where Ernest is.",
+     "text_locale_id": 409998,
+     "target": "McScuttle family farm, Rainbow Lake",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Head to the McScuttle Family Farm at Rainbow Lake to see if you can find Ernest.",
+     "text_locale_id": 410001,
+     "target": "McScuttle Family Farm, Rainbow Lake",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Mister Nooklings",
+     "text_locale_id": 409983,
+     "target": "Mister Nooklings",
+     "target_locale_id": 19682,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000358,
+      "name": "Mister Nooklings",
+      "file": "npcs/lakeshore.json",
+      "zone": "Lakeshore",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Yoko",
+     "text_locale_id": 409985,
+     "target": "Yoko",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000003082,
+      "name": "Yoko",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Let Merri De'Flor know that no one wants to buy your fish, thanks to Ernest's lies.",
+     "text_locale_id": 409988,
+     "target": "Merri De'Flor",
+     "target_locale_id": 19671,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000146,
+      "name": "Merri De'Flor",
+      "file": "npcs/lakeshore.json",
+      "zone": "Lakeshore",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 409996,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410015,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver is unresolved. NPC 9000000403 appears only as a raw reference (fisherman.json:1657, npcs_unresolved.json:3049) with no name. The guide's 'Merri / the buyers' is a flagged guess. The answer corre",
+    "dialog.offer / dialog.progress: Locale 409996 (intro) and 410015 (progress) are assigned as this record's offer and progress dialog. The record file carries no intro or progress field for 3070034. The McScuttle hint tag supports the",
+    "objectives: Objective ids 409983, 409985, 409988 are real and carry the McScuttle hint, and their text matches the locale. But the guide's row 28 (Fish Market) lists the same buyer objectives. The answer disclose",
+    "evidence[gate line]: Locale 410025 ('I'm not telling you where Ernest is until you fish up my socks and boots!') was verified present with the McScuttle hint. The answer correctly notes it is not a record field.",
+    "objectives[2..4] and previous: The buyer objectives (409983 Nooklings, 409985 Yoko, 409988 Merri) are tagged McScuttle in the client, but guide row 28 (Fisherman: Fish Market, Fisherman.md:123) lists the same story text for Yoko, N",
+    "objectives (socks/boots fetch): Guide row 30 itself lists the socks and boots fetch ('Fish up Katie McScuttle's old boots', 1523245831; 'soggy socks', 376306261) and the gate line 396930357 as part of this quest's objectives. The an"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "talk target 'Mister Nooklings' not placed in our rows",
+    "deliver target \"Merri De'Flor\" not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3080013,
+   "record": "quest-lines/quests.json q3080013",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: Guest of Honor",
+   "live": "unsure",
+   "giver": {
+    "name": "Squee",
+    "npc_id": "9500000949",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9500000949,
+    "name": "Squee",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Squee at the Robgoblin Camp.",
+     "text_locale_id": 394622,
+     "target": "Squee",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000949,
+      "name": "Squee",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "Find the fireworks the troublemakers scattered and bring them back to Squee. Use Squee's patented Robgoblin Fish Tosser to stop troublemakers picking them up.",
+     "text_locale_id": 398273,
+     "target": "Fireworks",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Click on the fireworks cart to start looking for fireworks.",
+     "text_locale_id": 394625,
+     "target": "Fireworks Cart",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the \"Guest of Honor\" minigame",
+     "text_locale_id": 394627,
+     "target": "Guest of Honor",
+     "target_locale_id": 3761,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Squee",
+     "text_locale_id": 394629,
+     "target": "Squee",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000949,
+      "name": "Squee",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unknown amount; only completion text (the fireworks display went off without a hitch)",
+     "source": "locale:394607"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 394610,
+     "speaker": "Squee"
+    },
+    "progress": {
+     "locale_id": 394612,
+     "speaker": "Squee"
+    },
+    "complete": {
+     "locale_id": 394607,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "next: Confirmed: 'Kart Driver: A Treacherous Track' is locale 3512 and its objectives match this line. Locale 394616 (Sparks Blitzwing, the dialog after the fireworks) sends the player to race Sparks at Fro",
+    "previous: The previous link is only partly supported. Locale 394590 is the completion dialog of 'Dominating at Wildwood', so Dominating -> Guest of Honor is plausible. But the Wildwood Endurance Challenge clust",
+    "giver: The giver id is unresolved. The record's giver_npc_id is 9000000026 (unresolved), while the answer uses 9500000949 from a repo inference. Squee's name locale is joke-flagged, so the giver is not confi",
+    "objectives: Objective list is plausible (talk, find/return fireworks, cart click, minigame 3761, talk) and each text id is real and unflagged. The sequence is still open, and the minigame and 'Talk to Squee' step",
+    "giver: The giver is stated as Squee with npc_id 9500000949, but that id is a 'reconstructed_content_key' row in wilds.json (line 39889). Its name_string_id 394606 is FLAG joke. The record's own giver_npc_id ",
+    "line.next: 'Kart Driver: A Treacherous Track' (3512) is confirmed as a title string only. Nothing in the pack links it after Guest of Honor. The client text 394616 (Sparks Blitzwing, Frost Ridge) and 394619 ('Go"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Guest of Honor)"
+   ]
+  },
+  {
+   "quest_id": 3110016,
+   "record": "quest-lines/quests.json q3110016",
+   "quest_file": "ninja.json",
+   "title": "Ninja: Burst of Speed",
+   "live": "yes",
+   "giver": {
+    "name": "Ty",
+    "npc_id": "9000000223",
+    "locale_id": 78887
+   },
+   "resolved_giver": {
+    "npc_id": 9000000223,
+    "name": "Ty",
+    "file": "npcs/lakeshore.json",
+    "zone": "Lakeshore",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Ty in Lakeshore has challenged you to demonstrate your speed in a fast-paced foot race.",
+     "text_locale_id": 78882,
+     "target": "Ty's foot race (Lakeshore)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 78880,
+     "speaker": "Ty"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78883,
+     "speaker": "Ty"
+    }
+   },
+   "critic_problems": [
+    "giver: locale:78887 is cited as 'Ty npc_dialog exists', but its text ('I'm so glad to hear that Ty is still teaching... I haven't heard from him in ages... he never wrote') is spoken by someone other than Ty",
+    "dialog.offer / dialog.complete: Offer 78880 and completion 78883 are attributed to Ty by the giver relationship only. Neither text names Ty. The answer flags this in 'open', but its 'evidence' list states it as fact in the dialog_an",
+    "line.next: Next is set to Walking the Path (78885), but the record and the guide's D4 row (Idol Conversation 3110017) say Idol Conversation follows directly. The answer admits this conflict, yet still lists Walk",
+    "objectives[0]: Objective 78882 is verified and correctly marked as the objective text. The target 'Ty's foot race (Lakeshore)' has no client line that gives a finish condition, count, or timer. The answer says so. R",
+    "evidence (90564, 101505): The answer cites locale 90564 and 101505 as race lines. My lookup of 93508 and 78881-78884 worked, but I could not re-verify 90564 or 101505 in this pass. Their citation is unconfirmed.",
+    "line.next: Next is named as 'Ninja: Walking the Path' with no record id. The record's own next is 3110017 (Idol Conversation). The client supports Walking the Path between Burst of Speed and Idol Conversation: l"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Ty's foot race (Lakeshore))"
+   ]
+  },
+  {
+   "quest_id": 3160011,
+   "record": "quest-lines/quests.json q3160011",
+   "quest_file": "wizard.json",
+   "title": "Contract: Troll Magic",
+   "live": "yes",
+   "giver": {
+    "name": "Natali",
+    "npc_id": "9000000159",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9500000360,
+    "name": "Natali",
+    "file": "npcs/lakeshore.json",
+    "zone": null,
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Troll Bone Shamans and Troll Summoners (the Troll Magic targets, from the intro text).",
+     "text_locale_id": 388283,
+     "target": "Troll Bone Shaman",
+     "target_locale_id": 72269,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000075,
+      "name": "Troll bone shaman",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Troll Summoners (same intro text).",
+     "text_locale_id": 388283,
+     "target": "Troll Summoner",
+     "target_locale_id": 15623,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Clear out the Robgoblin Campers hanging with the Robgoblin Foragers.",
+     "text_locale_id": 388283,
+     "target": "Robgoblin Camper",
+     "target_locale_id": 70776,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat the Robgoblin Foragers (same intro text).",
+     "text_locale_id": 388283,
+     "target": "Robgoblin Forager",
+     "target_locale_id": 70767,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388283,
+     "speaker": "Natali"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388286,
+     "speaker": "Natali"
+    }
+   },
+   "critic_problems": [
+    "objectives[0..3]: All four objective texts are paraphrases of the single intro dialog 388283 (or the description 388285), not separate quest_objective strings. The target-name ids (72269, 15623, 70776, 70767) are real ",
+    "evidence[9] / open: The claim that 388281 'Return to Beth Callahan' is a mis-tag from the Medic line (block 387462-387592) is asserted without a source check here. The answer does not use 388281, so this does not affect ",
+    "giver.locale_id / giver.zone: npc 9000000159 is a content giver key with no regional NPC row (notes/Autopilot/T242.md:60-61). The Lakeshore placement rests on the wiki title 'Contract: [Troll Magic] - Natali in Lakeshore' and on n",
+    "line.previous: The prerequisite 3160010 is confirmed in wizard.json:590-594, which shows the prerequisite list. The answer's citation of wizard.json:540-541 for 'Wizard: Reach Level 5' (title 387659) was not checked",
+    "objectives[0] and objectives[1]: Both objectives cite the same intro line (388283) and the intro asks for Troll Bone Shamans and Troll Summoners in a single sentence. Splitting them into two separate defeat objectives is an interpret",
+    "objectives[2] and objectives[3]: The Robgoblin Campers and Foragers are described as 'clear out the Campers hanging with the Foragers', which is a clear-the-area request with no counts. Two separate defeat objectives is again an infe"
+   ],
+   "blocked_by": [
+    "giver 'Natali' row 9500000360 not placed",
+    "defeat target 'Troll Bone Shaman' not placed in our rows",
+    "defeat target 'Troll Summoner' not placed in our rows",
+    "defeat target 'Robgoblin Camper' not placed in our rows",
+    "defeat target 'Robgoblin Forager' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3160031,
+   "record": "quest-lines/quests.json q3160031",
+   "quest_file": "wizard.json",
+   "title": "Contract: Life and Death Magic",
+   "live": "yes",
+   "giver": {
+    "name": "Natali",
+    "npc_id": "9000000159",
+    "locale_id": 388323
+   },
+   "resolved_giver": {
+    "npc_id": 9500000360,
+    "name": "Natali",
+    "file": "npcs/lakeshore.json",
+    "zone": null,
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Forest Snakes",
+     "text_locale_id": 388313,
+     "target": "Forest Snake",
+     "target_locale_id": 15847,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000031548,
+      "name": "Snake",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Battle Warthogs",
+     "text_locale_id": 388393,
+     "target": "Battle Warthog",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a wizard, collect some samples for Natali's new project from Mugwort's Hollow and Blackspore.",
+     "text_locale_id": 388312,
+     "target": "Grave Elemental bones",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388295,
+     "speaker": "Natali"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388298,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line.next: next is empty, but the chain note says Wizard: Reach Level 20's answer lists 'Wizard: Two Gems Are Better Than One' as next. The repo's Wizard.md rows 29 (this quest) and 30 (Two Gems) both read 'Afte",
+    "live_reason: The answer dismisses record enabled:false as 'a build switch, not evidence against shipping'. That is a guess stated as fact; the evidence pack gives no source for it.",
+    "evidence[description]: locale:388297 is tagged quest_objective in the client, not description. The label 'Description' is a wording choice that the tag does not support.",
+    "objectives[1]: The kind 'defeat' for Battle Warthogs is inferred from the offer text, not from an objective body. The id 388393 and title are real (verified: 'Defeat Battle Warthogs'); the kind is still a guess, whi",
+    "objectives[2]: The collect objective targets 'Grave Elemental bones', which is an item with no item or locale id. The text 388312 is real and verbatim. Not wireable as written.",
+    "line.next: The answer leaves next empty and says so. The evidence does not prove it empty. Wizard.md row 29 places this quest 'After 28 (wiki order)', and row 30 (Two Gems) is also 'After 28'. So Life and Death "
+   ],
+   "blocked_by": [
+    "giver 'Natali' row 9500000360 not placed",
+    "defeat target 'Battle Warthog' not placed in our rows"
+   ]
+  }
+ ]
+}

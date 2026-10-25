@@ -1,0 +1,3144 @@
+{
+ "zone": "Briarwood",
+ "quests": [
+  {
+   "quest_id": 3000001,
+   "record": "quest-lines/quests.json q3000001",
+   "title": "Basic Combat Tutorial",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000226",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Save the chugawug guards",
+     "text_locale_id": 4419584,
+     "target": "Chugawug guards",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat gloam minions",
+     "text_locale_id": 4419586,
+     "target": "Gloam minions (Gloamlings)",
+     "target_locale_id": null,
+     "count": 4
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced (guide lists payout as Unknown; no coin line on the completion banner)",
+     "source": "repo:notes/Build Guides/Content/Jobs/Adventurer.md:66"
+    }
+   ],
+   "line": {
+    "name": "Starting-area opening arc, Part A (repo:notes/Build Guides/Content/Jobs/Adventurer.md:60-66)",
+    "previous": [],
+    "next": [
+     "Advanced Combat Tutorial"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000002,
+   "record": "quest-lines/quests.json q3000002",
+   "title": "Advanced Combat Tutorial",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Starting-area opening tutorial sequence (repo chain table rows 3000001-3000003)",
+    "previous": [
+     "Basic Combat Tutorial"
+    ],
+    "next": [
+     "Hero's Journal"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000003,
+   "record": "quest-lines/quests.json q3000003",
+   "title": "Hero's Journal",
+   "giver": {
+    "name": "Darkthorne",
+    "npc_id": "9000000067",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Enter Briarwood Caverns",
+     "text_locale_id": 5100520,
+     "target": "Briarwood Caverns",
+     "target_locale_id": 442216,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Find the Hero's Journal",
+     "text_locale_id": 4419598,
+     "target": "Hero's Journal",
+     "target_locale_id": 4419559,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Interact with the Hero's Journal",
+     "text_locale_id": 4419602,
+     "target": "Hero's Journal",
+     "target_locale_id": 4419559,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Close the Hero's Journal",
+     "text_locale_id": 4419604,
+     "target": "Hero's Journal",
+     "target_locale_id": 4419559,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Hero's Journal (item name string 4419617)",
+     "source": "repo:notes/Build Guides/Content/Jobs/Adventurer.md:68 (A3: 'The player receives the Hero's Journal book'); locale:4419617"
+    },
+    {
+     "kind": "other",
+     "value": "Reward text: 'You are now the bearer of the legendary Hero's Journal. Use this throughout your adventures to record your actions and deeds.'",
+     "source": "locale:4419562"
+    },
+    {
+     "kind": "coins",
+     "value": "none evidenced; the record's 5 coins are a reconstructed fallback and are excluded",
+     "source": "repo:notes/Build Guides/Content/Jobs/Adventurer.md:68 (reward cell 'Unknown')"
+    }
+   ],
+   "line": {
+    "name": "Hero Rises opening tutorial (Briarwood Caverns, Farnum Farmstead, Cobblestone Village, Royal Palace)",
+    "previous": [
+     "Advanced Combat Tutorial"
+    ],
+    "next": [
+     "The Last Best Hope"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 4419558,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 4419561,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3000036,
+   "record": "quest-lines/quests.json q3000036",
+   "title": "Chapter 1: Find The Caravan!",
+   "giver": {
+    "name": "Geoffrey",
+    "npc_id": "9000000330",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Locate the merchant caravan that left for Briarwood.",
+     "text_locale_id": 90823,
+     "target": "merchant caravan",
+     "target_locale_id": 90824,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Vittorio",
+     "text_locale_id": 90830,
+     "target": "Vittorio",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chapter 1 (Adventurer storyline, Part E)",
+    "previous": [
+     "Chapter 1: The Forgotten Princess"
+    ],
+    "next": [
+     "Chapter 1: The Weapon Shipment"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90813,
+     "speaker": "Geoffrey"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000037,
+   "record": "quest-lines/quests.json q3000037",
+   "title": "Chapter 1: The Weapon Shipment",
+   "giver": {
+    "name": "Vittorio",
+    "npc_id": "9000000232",
+    "locale_id": 10296
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Venture into Briarwood to find the stolen weapon shipment.",
+     "text_locale_id": 90836,
+     "target": "Briarwood",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Retrieve the weapon shipment from Sergeant Cargug in Briarwood.",
+     "text_locale_id": 90840,
+     "target": "Sergeant Cargug",
+     "target_locale_id": 10297,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring Cargug's message and gift to Mumpalot in Wugachug",
+     "text_locale_id": 90843,
+     "target": "Mumpalot",
+     "target_locale_id": 41274,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Sergeant Cargug in Briarwood",
+     "text_locale_id": 90845,
+     "target": "Sergeant Cargug",
+     "target_locale_id": 10297,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Vittorio at the broken down caravan in Briarwood",
+     "text_locale_id": 90847,
+     "target": "Vittorio",
+     "target_locale_id": 10296,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "a portion of the missing weapon shipment (quantity and item id not given)",
+     "source": "locale:90838"
+    }
+   ],
+   "line": {
+    "name": "Chapter 1 (Briarwood storyline: Find The Caravan!, The Weapon Shipment, The Armor Shipment, The Small Wooden Box, Bearer of Bad News)",
+    "previous": [
+     "Chapter 1: Find The Caravan!"
+    ],
+    "next": [
+     "Chapter 1: The Armor Shipment"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90834,
+     "speaker": "Vittorio"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90837,
+     "speaker": "Vittorio"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000038,
+   "record": "quest-lines/quests.json q3000038",
+   "title": "Chapter 1: The Armor Shipment",
+   "giver": {
+    "name": "Vittorio",
+    "npc_id": "9000000232",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find Quartermaster Bargangle",
+     "text_locale_id": 90856,
+     "target": "Quartermaster Bargangle",
+     "target_locale_id": 73506,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Complete the armor testing for Quartermaster Bargangle",
+     "text_locale_id": 90867,
+     "target": "Quartermaster Bargangle",
+     "target_locale_id": 73506,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Retrieve the armor shipment from Quartermaster Bargangle in Briarwood.",
+     "text_locale_id": 90855,
+     "target": "armor shipment",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chapter 1 (Briarwood main storyline, Vittorio's chapter 1 quests)",
+    "previous": [
+     "Chapter 1: The Weapon Shipment"
+    ],
+    "next": [
+     "Chapter 1: The Small Wooden Box"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90849,
+     "speaker": "Randall"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000040,
+   "record": "quest-lines/quests.json q3000040",
+   "title": "Chapter 1: There's Fungus Among Us!",
+   "giver": {
+    "name": "Lieutenant Snibug",
+    "npc_id": "9500000163",
+    "locale_id": 17913
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Fungus Golems in the Mushroom Cavern.",
+     "text_locale_id": 90877,
+     "target": "Fungus Golem",
+     "target_locale_id": 4477,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Lieutenant Snibug at the Tanglewood Fort",
+     "text_locale_id": 90882,
+     "target": "Lieutenant Snibug",
+     "target_locale_id": 17913,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chapter 1 (Briarwood opening chain: Vittorio, Dimitri, the wooden box)",
+    "previous": [
+     "Chapter 1: The Small Wooden Box"
+    ],
+    "next": [
+     "Chapter 1: It's Business Time"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 90871,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 90882,
+     "speaker": "Lieutenant Snibug"
+    },
+    "complete": {
+     "locale_id": 90874,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3000041,
+   "record": "quest-lines/quests.json q3000041",
+   "title": "Chapter 1: It's Business Time",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000511",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat the floren inside of Bristlewood Glade.",
+     "text_locale_id": 90896,
+     "target": "Grumpy Amaranthus",
+     "target_locale_id": 72007,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "You've done it!  Return to Troy Thistlewing!",
+     "text_locale_id": 90901,
+     "target": "Troy Thistlewing",
+     "target_locale_id": 385450,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Adventurer Part E, Chapter 1 (Briarwood chain)",
+    "previous": [
+     "Chapter 1: There's Fungus Among Us!"
+    ],
+    "next": [
+     "Chapter 1: Pampered Pets"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90886,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90889,
+     "speaker": "Troy Thistlewing"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000043,
+   "record": "quest-lines/quests.json q3000043",
+   "title": "Chapter 1: Report to Captain Chugug",
+   "giver": {
+    "name": "Captain Chugug",
+    "npc_id": "9000000268",
+    "locale_id": 17794
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Captain Chugug in Briarheart, beyond Tanglewood Fort.",
+     "text_locale_id": 90909,
+     "target": "Captain Chugug",
+     "target_locale_id": 17794,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Sacred Grove / Chapter 1 storyline (Darkthorne and the wooden box)",
+    "previous": [
+     "Chapter 1: Pampered Pets"
+    ],
+    "next": [
+     "Chapter 1: The Empty Box"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 90906,
+     "speaker": "Captain Chugug"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000044,
+   "record": "quest-lines/quests.json q3000044",
+   "title": "Chapter 1: The Empty Box",
+   "giver": {
+    "name": "Captain Chugug",
+    "npc_id": "9000000268",
+    "locale_id": 17794
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Chapter 1 (Adventurer quest line, Part E, guide rows E15-E19)",
+    "previous": [
+     "Chapter 1: Report to Captain Chugug"
+    ],
+    "next": [
+     "Chapter 1: Bearer of Bad News"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 93897,
+     "speaker": "Captain Chugug"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000045,
+   "record": "quest-lines/quests.json q3000045",
+   "title": "Chapter 1: Bearer of Bad News",
+   "giver": {
+    "name": "Vittorio",
+    "npc_id": "9000000232",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Break the bad news to Geoffrey in Sanctuary.",
+     "text_locale_id": 90914,
+     "target": "Geoffrey",
+     "target_locale_id": 70318,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chapter 1 (Geoffrey / Darkthorne arc)",
+    "previous": [
+     "Chapter 1: The Empty Box"
+    ],
+    "next": [
+     "Chapter 1: Failure is Not an Option"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90912,
+     "speaker": "Vittorio"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90915,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000047,
+   "record": "quest-lines/quests.json q3000047",
+   "title": "Chapter 1: One Last Favor",
+   "giver": {
+    "name": "Darkthorne",
+    "npc_id": "9000000067",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Enter Briarheart Palace and speak with Darkthorne",
+     "text_locale_id": 90930,
+     "target": "Darkthorne",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Ask Milford, Eggert's assistant, where Eggert can be found",
+     "text_locale_id": 90941,
+     "target": "Milford",
+     "target_locale_id": 45293,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Find Eggert the Mad",
+     "text_locale_id": 90939,
+     "target": "Eggert the Mad",
+     "target_locale_id": 45298,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take Darkthorne's plant to Eggert the Mad in the Mire's Edge outpost in Blackspore.",
+     "text_locale_id": 90938,
+     "target": "Eggert the Mad",
+     "target_locale_id": 45298,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Adventurer job Part E, Chapter 1 (Darkthorne's chain)",
+    "previous": [
+     "Chapter 1: Failure is Not an Option"
+    ],
+    "next": [
+     "Chapter 1: Haunted by the Past"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90932,
+     "speaker": "Darkthorne"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3010021,
+   "record": "quest-lines/quests.json q3010021",
+   "title": "Archer: Suspicious Smugglers",
+   "giver": {
+    "name": "Bowman Bilter",
+    "npc_id": "9000000029",
+    "locale_id": 77805
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Bowman Bilter has seen some suspicious beings loading up crates and transporting animals in cages to the mountains in the east. He would like for you to see what they are up to.",
+     "text_locale_id": 77823,
+     "target": "Briarwood",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Investigate Briarwood to see if you can find out what the smugglers are doing. Return to Bowman Bilter just outside of Passwind Pass, north of Blackspore when you have more information.",
+     "text_locale_id": 115635,
+     "target": "Bowman Bilter",
+     "target_locale_id": 77805,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line (Band 3, level 10 to 15)",
+    "previous": [
+     "Archer: A Piercing Attack"
+    ],
+    "next": [
+     "Archer: Animal Investigation"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 77821,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77824,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3010025,
+   "record": "quest-lines/quests.json q3010025",
+   "title": "Contract: No Boundaries on Bounties",
+   "giver": {
+    "name": "Eddie Eagle Eyes",
+    "npc_id": null,
+    "locale_id": 388244
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Vicious Vinewolves",
+     "text_locale_id": 388342,
+     "target": "Vicious Vinewolves (fighting alongside Maze Mulchers in Thistlerow)",
+     "target_locale_id": 388343,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Maze Vipers",
+     "text_locale_id": 388338,
+     "target": "Maze Vipers (in The Snarling Hedges)",
+     "target_locale_id": 388339,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Hedge Guardians",
+     "text_locale_id": 388340,
+     "target": "Hedge Guardians (in The Snarling Hedges)",
+     "target_locale_id": 388341,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer Band 4 contracts (level 15 to 20; Eddie Eagle Eyes, Bowman Bilter, Orson)",
+    "previous": [
+     "Archer: Achieve Level 15"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388330,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388333,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010026,
+   "record": "quest-lines/quests.json q3010026",
+   "title": "Archer: Cutting Out the Buyers",
+   "giver": {
+    "name": "Bowman Bilter",
+    "npc_id": "9000000029",
+    "locale_id": 77805
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Bowman Bilter wants you to take out a few Troll Spider Trainers in hopes of disrupting their buying of illegal animals.",
+     "text_locale_id": 78437,
+     "target": "Troll Spider Trainer",
+     "target_locale_id": 5135,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "All-Star Archer Bow (level 12 Archer weapon, now unobtainable)",
+     "source": "wiki:All-Star Archer Bow (cited via repo:notes/Build Guides/Content/Jobs/Archer.md:119)"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "no client or wiki evidence found"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "no client or wiki evidence found"
+    }
+   ],
+   "line": {
+    "name": "Archer job quest line (Band 4, level 15 to 20)",
+    "previous": [
+     "Archer: Achieve Level 15"
+    ],
+    "next": [
+     "Archer: Finding Vicki"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78435,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010027,
+   "record": "quest-lines/quests.json q3010027",
+   "title": "Archer: Finding Vicki",
+   "giver": {
+    "name": "Orson",
+    "npc_id": "9000000163",
+    "locale_id": 100866
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Search around Briarwood to see if Vicki is here to collect more toads to smuggle.",
+     "text_locale_id": 78444,
+     "target": "Vicki",
+     "target_locale_id": 77630,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "You must find Vicki! Reports indicate that she was last seen near the border to Nettleseed.",
+     "text_locale_id": 78452,
+     "target": "Nettleseed border",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Orson if you find her. (no dedicated locale line; wording taken from the description string 78444)",
+     "text_locale_id": null,
+     "target": "Orson",
+     "target_locale_id": 100866,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest series (Band 4, level 15 to 20)",
+    "previous": [
+     "Archer: Cutting Out the Buyers"
+    ],
+    "next": [
+     "Archer: Remain Vigilant"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78442,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 78444,
+     "speaker": "Orson"
+    },
+    "complete": {
+     "locale_id": 78446,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010028,
+   "record": "quest-lines/quests.json q3010028",
+   "title": "Archer: Remain Vigilant",
+   "giver": {
+    "name": "Orson",
+    "npc_id": "9000000163",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Orson would like for you to travel to the Croaking Vale in Briarwood and defeat the bosses of the smuggling operation.",
+     "text_locale_id": 78449,
+     "target": "Smuggler Han and Smuggler Hannah (inferred from zone-level Croaking Vale boss lines; not tied to this quest by client cluster)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line, Band 4 (level 15 to 20), Orson's Briarwood chain",
+    "previous": [
+     "Archer: Finding Vicki"
+    ],
+    "next": [
+     "Archer: New Challenges"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 78447,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 78450,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3010029,
+   "record": "quest-lines/quests.json q3010029",
+   "title": "Archer: New Challenges",
+   "giver": {
+    "name": "Orson",
+    "npc_id": "9000000163",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Master Archer Bullseye has asked to speak with you personally about your encounter with the animal smugglers.",
+     "text_locale_id": 78461,
+     "target": "Master Archer Bullseye",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line (Band 4, Archer.md row 27)",
+    "previous": [
+     "Archer: Remain Vigilant"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78459,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78462,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3010031,
+   "record": "quest-lines/quests.json q3010031",
+   "title": "Contract: That'll Teach 'Em",
+   "giver": {
+    "name": "Eddie Eagle Eyes",
+    "npc_id": null,
+    "locale_id": 388244
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Smugglers",
+     "text_locale_id": 388488,
+     "target": "Smugglers",
+     "target_locale_id": 388488,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Smugglers can be found wandering throughout the northern section of Briarwood.",
+     "text_locale_id": 388489,
+     "target": "northern Briarwood",
+     "target_locale_id": 388489,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Trappers",
+     "text_locale_id": 388490,
+     "target": "Trappers",
+     "target_locale_id": 388490,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Trappers can be found in the Croaking Vale.",
+     "text_locale_id": 388491,
+     "target": "Croaking Vale",
+     "target_locale_id": 388491,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line (level 20 Bullseye finale band)",
+    "previous": [
+     "Archer: Achieve Level 20 (unconfirmed link, see open)"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388482,
+     "speaker": "Eddie Eagle Eyes"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388485,
+     "speaker": "Eddie Eagle Eyes"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030024,
+   "record": "quest-lines/quests.json q3030024",
+   "title": "Brawler: Finding a Buyer",
+   "giver": {
+    "name": "Petra",
+    "npc_id": "9000000428",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Petra has asked you to find a buyer in Briarwood for the silver dust you obtained.",
+     "text_locale_id": 72508,
+     "target": "Briarwood treasure hunter (buyer)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Look for a treasure hunter in Briarwood that may be willing to buy that silver dust you looted.",
+     "text_locale_id": 72522,
+     "target": "Andrew (npc 9000000009)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler job quest line (Main series, band 2: level 5 to 10)",
+    "previous": [
+     "Brawler: Splendid Silver!"
+    ],
+    "next": [
+     "Brawler: Missing Wallet"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 72506,
+     "speaker": "Petra"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030025,
+   "record": "quest-lines/quests.json q3030025",
+   "title": "Brawler: Missing Wallet",
+   "giver": {
+    "name": "Andrew",
+    "npc_id": "9000000009",
+    "locale_id": 17291
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Find Andrew's wallet amongst the Bristlewood Arachnids.",
+     "text_locale_id": 95084,
+     "target": "Bristlewood Arachnids",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Andrew is close to the Briarwood warpstone before the maze.",
+     "text_locale_id": 95086,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Andrew in Briarwood",
+     "text_locale_id": 95085,
+     "target": "Andrew",
+     "target_locale_id": 17291,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler job quest line (Main series, band 2)",
+    "previous": [
+     "Brawler: Finding a Buyer"
+    ],
+    "next": [
+     "Brawler: Missing Money"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 95087,
+     "speaker": "Andrew"
+    },
+    "progress": {
+     "locale_id": 95084,
+     "speaker": "Andrew"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030026,
+   "record": "quest-lines/quests.json q3030026",
+   "title": "Brawler: Missing Money",
+   "giver": {
+    "name": "Andrew",
+    "npc_id": "9000000009",
+    "locale_id": 17291
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a brawler, find Andrew's money in Arachnia's Lair, at the edge of Briarwood Forest.",
+     "text_locale_id": 95158,
+     "target": "Arachnia's Lair",
+     "target_locale_id": 2273,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat the Troll Spider Trainers",
+     "text_locale_id": 95162,
+     "target": "Troll Spider Trainer",
+     "target_locale_id": 5135,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unknown: no payout found in client text, wiki, or repo",
+     "source": "open"
+    }
+   ],
+   "line": {
+    "name": "Brawler job quest line, band 2 (main series, level 5 to 10)",
+    "previous": [
+     "Brawler: Missing Wallet"
+    ],
+    "next": [
+     "Brawler: IOU!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 95159,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030027,
+   "record": "quest-lines/quests.json q3030027",
+   "title": "Brawler: IOU!",
+   "giver": {
+    "name": "Andrew",
+    "npc_id": "9000000009",
+    "locale_id": 17291
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Nurble at the Robgoblin Camp.",
+     "text_locale_id": 141002,
+     "target": "Nurble (junkmaster, Robgoblin Camp)",
+     "target_locale_id": 20518,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler job quest line (main series, band 2, levels 5-10)",
+    "previous": [
+     "Brawler: Missing Money"
+    ],
+    "next": [
+     "Brawler: One Man's Junk..."
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 140994,
+     "speaker": "Andrew"
+    },
+    "progress": {
+     "locale_id": 141005,
+     "speaker": "Andrew"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040029,
+   "record": "quest-lines/quests.json q3040029",
+   "title": "Card Duelist: A Card Dueling Rumor",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000518",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Poe Tatters wants you to seek out Dominic in Briarwood",
+     "text_locale_id": 407034,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Dominic",
+     "text_locale_id": 407035,
+     "target": "Dominic",
+     "target_locale_id": 407094,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Brawny Dominic can be found at a dig site in Briarwood.",
+     "text_locale_id": 407036,
+     "target": "Dominic",
+     "target_locale_id": 407094,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "repo Part 2 grouping (inferred; no client text names this series)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 407007,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 407065,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040031,
+   "record": "quest-lines/quests.json q3040031",
+   "title": "Card Duelist: Break Time",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Play a few games of cards with Esther in Briarwood while you wait for Dominic to return.",
+     "text_locale_id": 413776,
+     "target": "Esther",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Shattered Past, TCG Series 2), Briarwood block",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040033,
+   "record": "quest-lines/quests.json q3040033",
+   "title": "Card Duelist: Esther's Special Card",
+   "giver": {
+    "name": "Esther",
+    "npc_id": "9000000082",
+    "locale_id": 407093
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Play and beat 'Esther's Challenge Deck'",
+     "text_locale_id": 407053,
+     "target": "Esther's Challenge Deck (TCG deck name; no server deck id known)",
+     "target_locale_id": 407124,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Esther's \"Mustang Alli\" creature card (TCG card, no server item id)",
+     "source": "locale:407027; locale:407120"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (Briarwood Esther/Dominic card arc, TCG Series 2)",
+    "previous": [
+     "Card Duelist: Esther, the Brains"
+    ],
+    "next": [
+     "Card Duelist: Confronting Ambrose"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 407023,
+     "speaker": "Esther"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 407026,
+     "speaker": "Esther"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040036,
+   "record": "quest-lines/quests.json q3040036",
+   "title": "Card Duelist: Alleged Thievery",
+   "giver": {
+    "name": "Sir Wellington (inferred from text, not confirmed)",
+    "npc_id": null,
+    "locale_id": 17867
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Sir Wellington in Briarwood wants to play another game of cards with you. Then, he should really get back to work!",
+     "text_locale_id": 413772,
+     "target": "Sir Wellington",
+     "target_locale_id": 17867,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist: Shattered Past (TCG Series 2), Briarwood and Greenwood dig site",
+    "previous": [
+     "Card Duelist: Wellington's Game Face"
+    ],
+    "next": [
+     "Card Duelist: Break Time"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 413770,
+     "speaker": "Sir Wellington"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040039,
+   "record": "quest-lines/quests.json q3040039",
+   "title": "Card Duelist: Wellington's Game Face",
+   "giver": {
+    "name": "Sir Wellington",
+    "npc_id": null,
+    "locale_id": 17867
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Sir Wellington in Briarwood wants you to play a few games of cards with him. He's been stressed lately, and could use a little distraction.",
+     "text_locale_id": 413768,
+     "target": "Sir Wellington",
+     "target_locale_id": 17867,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist: Shattered Past series (TCG Series 2), per the build guide Part 2 and article 2734. The client text block 413766-413797 mixes several zones and quests, so it is not a confirmed chain.",
+    "previous": [],
+    "next": [
+     "Card Duelist: Alleged Thievery"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 413766,
+     "speaker": "Sir Wellington"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 413769,
+     "speaker": "Sir Wellington"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040040,
+   "record": "quest-lines/quests.json q3040040",
+   "title": "Card Duelist: Cardie Partay",
+   "giver": {
+    "name": "Sir Wellington (inferred)",
+    "npc_id": null,
+    "locale_id": 17867
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Sir Wellington wants you to participate in his cardie partay by playing a game of cards with him.",
+     "text_locale_id": 413812,
+     "target": "Sir Wellington",
+     "target_locale_id": 17867,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text found in the pack",
+     "source": "open"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist: Shattered Past (TCG Series 2, Part 2)",
+    "previous": [
+     "Card Duelist: Final Dig"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 413810,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040041,
+   "record": "quest-lines/quests.json q3040041",
+   "title": "Card Duelist: Final Dig",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Edwin Goldstory in Briarwood wants you to dig up the final artifact at Sir Wellington's dig site.",
+     "text_locale_id": 413808,
+     "target": "Sir Wellington's dig site",
+     "target_locale_id": 20530,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist, Access Granted to Final Dig chain (text-ordered, not record-confirmed)",
+    "previous": [
+     "Card Duelist: Access Granted"
+    ],
+    "next": [
+     "Card Duelist: Cardie Partay"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 413809,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060040,
+   "record": "quest-lines/quests.json q3060040",
+   "title": "Demo Derby: Tangletrack Trio",
+   "giver": {
+    "name": "Jackson Spinner",
+    "npc_id": "9000000111",
+    "locale_id": 394258
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Derby encounter against the Tangletrack Trio (encounter name only; count and encounter id unconfirmed)",
+     "text_locale_id": null,
+     "target": "Tangletrack Trio [Encounter]",
+     "target_locale_id": 395026,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Candidate objective text, quoted by the guide for row 37: 'The troublemakers are back at Tangletrack! Jackson Spinner spied what looked like a large group of pirates heading into the arena. He's asked you to follow them and find out what is going on!' Tied to this quest only by the guide; not confirmed.",
+     "text_locale_id": 393366,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby Series 5, Tangletrack arena (guide grouping, inferred; pirate storyline of Jackson Spinner)",
+    "previous": [
+     "Demo Derby: Tangletrack"
+    ],
+    "next": [
+     "Demo Derby: Booby Trapped!"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393366,
+     "speaker": "Jackson Spinner"
+    },
+    "progress": {
+     "locale_id": 394478,
+     "speaker": "Jackson Spinner"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060041,
+   "record": "quest-lines/quests.json q3060041",
+   "title": "Demo Derby: Booby Trapped!",
+   "giver": {
+    "name": "Jackson Spinner",
+    "npc_id": "9000000111",
+    "locale_id": 394258
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "You may have run some of the troublemakers out of the arena, but now it looks like they've taken to booby trapping some of the vehicles outside of the track! Jackson Spinner hopes that you'll be willing to inspect the cars for safety.",
+     "text_locale_id": 393365,
+     "target": "Vehicles outside the Tangletrack track",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Disarm the booby traps from the karts near Tangletrack Speedway before time runs out!",
+     "text_locale_id": 398275,
+     "target": "Tangletrack Speedway Booby Trapped Kart",
+     "target_locale_id": 398278,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Jackson Spinner",
+     "text_locale_id": null,
+     "target": "Jackson Spinner",
+     "target_locale_id": 394258,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby series 5: Tangletrack arena (pirates and movie copycats)",
+    "previous": [
+     "Demo Derby: Tangletrack Trio"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393365,
+     "speaker": "Jackson Spinner"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070007,
+   "record": "quest-lines/quests.json q3070007",
+   "title": "Fisherman: Find Your Own Spot!",
+   "giver": {
+    "name": "Ernest McScuttle",
+    "npc_id": null,
+    "locale_id": 409211
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Catch a bigger creeping cod than Ernest in Darklit Lagoon (contest for the biggest creeping cod)",
+     "text_locale_id": 419160,
+     "target": "Creeping Cod",
+     "target_locale_id": 99930,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Catch three bitter beta in Darklit Lagoon before Ernest does!",
+     "text_locale_id": 409217,
+     "target": "Bitter Beta",
+     "target_locale_id": null,
+     "count": 3
+    },
+    {
+     "kind": "deliver",
+     "text": "Show the fish to Ernest",
+     "text_locale_id": 409220,
+     "target": "Ernest McScuttle",
+     "target_locale_id": 409211,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409212,
+     "speaker": "Ernest McScuttle"
+    },
+    "progress": {
+     "locale_id": 409222,
+     "speaker": "Ernest McScuttle"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070011,
+   "record": "quest-lines/quests.json q3070011",
+   "title": "Fisherman: Bigger is Better",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Catch a bigger creeping cod than Ernest in Darklit Lagoon.",
+     "text_locale_id": 419160,
+     "target": "Darklit Lagoon",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Catch a large creeping cod",
+     "text_locale_id": 419161,
+     "target": "Large Creeping Cod",
+     "target_locale_id": 407681,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Show the fish to Karl",
+     "text_locale_id": 419163,
+     "target": "Karl Kippersun",
+     "target_locale_id": 409224,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed consolation item (the rival says 'I won't let you go away empty handed'); no item id or coin amount found",
+     "source": "locale:419158"
+    }
+   ],
+   "line": {
+    "name": "Unresolved. Client text places this in the Ernest McScuttle / Karl Kippersun creeping-cod contest at Darklit Lagoon. The repo places record 3070011 in Jonah Relicreel's bait chain at Sacred Grove Shallows, and the guide itself says the title-to-row match is not proven.",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 419155,
+     "speaker": "Ernest McScuttle"
+    },
+    "progress": {
+     "locale_id": 419165,
+     "speaker": "Ernest McScuttle"
+    },
+    "complete": {
+     "locale_id": 419158,
+     "speaker": "Karl Kippersun"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070019,
+   "record": "quest-lines/quests.json q3070019",
+   "title": "Fisherman: Hungry Chugs",
+   "giver": {
+    "name": "Gunther",
+    "npc_id": null,
+    "locale_id": 409300
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some large Fanged Grouper",
+     "text_locale_id": 409375,
+     "target": "Large Fanged Grouper",
+     "target_locale_id": 407691,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the large fish back to Gunther.",
+     "text_locale_id": 409379,
+     "target": "Gunther",
+     "target_locale_id": 409300,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Find the spices (search outside Brambleback's Bayou in Briarwood)",
+     "text_locale_id": 409380,
+     "target": "Bag of Spices",
+     "target_locale_id": 409384,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the spice bags back to Gunther in Brambleback's Bayou.",
+     "text_locale_id": 409383,
+     "target": "Gunther",
+     "target_locale_id": 409300,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman questline, Cluster D (Gunther at Brambleback's Bayou)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409369,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409389,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 409372,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070021,
+   "record": "quest-lines/quests.json q3070021",
+   "title": "Fisherman: Ink Cod Ink",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000100",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some large Ink Cods so that you can use their stinky ink to get rid of the fungus in Brambleback's Bayou.",
+     "text_locale_id": 409331,
+     "target": "Large Ink Cod",
+     "target_locale_id": 407673,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the large ink cod to Reed Stillwater at the fishing job center.",
+     "text_locale_id": 409335,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Pour the ink into Brambleback's Bayou",
+     "text_locale_id": 409336,
+     "target": "Brambleback's Bayou",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward data in the client text, record, or guide",
+     "source": "none found"
+    }
+   ],
+   "line": {
+    "name": "Fisherman job quest line, Brambleback's Bayou cluster",
+    "previous": [
+     "Fisherman: Fishy Fungus"
+    ],
+    "next": [
+     "Fisherman: Restocking the Stream"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 409325,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409342,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 409328,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070022,
+   "record": "quest-lines/quests.json q3070022",
+   "title": "Fisherman: Restocking the Stream",
+   "giver": {
+    "name": "Gunther",
+    "npc_id": "9000000339",
+    "locale_id": 409300
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Reel in some small fish from the Darklit Lagoon.",
+     "text_locale_id": 409362,
+     "target": "small fish",
+     "target_locale_id": 409363,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the small fish back to Gunther at Brambleback's Bayou.",
+     "text_locale_id": 409366,
+     "target": "Gunther",
+     "target_locale_id": 409300,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman (Gunther's fishing quests, Briarwood / Brambleback's Bayou)",
+    "previous": [
+     "Fisherman: Ink Cod Ink"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 409357,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409367,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 409360,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070024,
+   "record": "quest-lines/quests.json q3070024",
+   "title": "Fisherman: Reel Riches",
+   "giver": {
+    "name": "Gunther",
+    "npc_id": "9000000339",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Gunther wants you to try and catch a Golden Scaled Nettler in Brambleback's Bayou.",
+     "text_locale_id": 409521,
+     "target": "Brambleback's Bayou",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in a Golden Scaled Nettler",
+     "text_locale_id": 409597,
+     "target": "Golden Scaled Nettler",
+     "target_locale_id": 99971,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman (Gunther's Briarwood chain, Fisherman.md cluster D)",
+    "previous": [
+     "Fisherman: Undercover"
+    ],
+    "next": [
+     "Fisherman: Say Cheese!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 409519,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409601,
+     "speaker": "Gunther"
+    },
+    "complete": {
+     "locale_id": 409522,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070025,
+   "record": "quest-lines/quests.json q3070025",
+   "title": "Fisherman: Say Cheese!",
+   "giver": {
+    "name": "Gunther",
+    "npc_id": "9000000339",
+    "locale_id": 409300
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Take your catch to Feldman in Sanctuary so he can take a picture with you and your Golden Scaled Nettler!",
+     "text_locale_id": 409726,
+     "target": "Feldman",
+     "target_locale_id": 390781,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman quest line (Gunther, Brambleback's Bayou, Briarwood); guide Cluster D row 21",
+    "previous": [
+     "Fisherman: VIP Fish"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409719,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409735,
+     "speaker": "Feldman"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070028,
+   "record": "quest-lines/quests.json q3070028",
+   "title": "Fisherman: Taking the Bait",
+   "giver": {
+    "name": "Dooba",
+    "npc_id": "9000000308",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head to Darklit Lagoon and reel in a large purplenosed shark.",
+     "text_locale_id": 409252,
+     "target": "Darklit Lagoon",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in a large purplenosed shark",
+     "text_locale_id": 409251,
+     "target": "purplenosed shark",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Estelle LaFrell",
+     "text_locale_id": 409253,
+     "target": "Estelle LaFrell",
+     "target_locale_id": 409262,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Dooba in Briarwood",
+     "text_locale_id": 409255,
+     "target": "Dooba",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Let Dooba know that his bait is rather stinky!",
+     "text_locale_id": 409256,
+     "target": "Dooba",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman quest line (Dooba / Estelle LaFrell, Briarwood and Darklit Lagoon)",
+    "previous": [
+     "Fisherman: Live Bait! (unconfirmed: record prerequisite 3070027, guide row 24 marked as a guess)"
+    ],
+    "next": [
+     "Fisherman: A Gift For Estelle"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409245,
+     "speaker": "Dooba"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 409248,
+     "speaker": "Dooba"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070029,
+   "record": "quest-lines/quests.json q3070029",
+   "title": "Fisherman: A Gift For Estelle",
+   "giver": {
+    "name": "Dooba",
+    "npc_id": "9000000308",
+    "locale_id": 37569
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head to Darklit Lagoon and speak with Estelle LaFrell.",
+     "text_locale_id": 409272,
+     "target": "Estelle LaFrell",
+     "target_locale_id": 409262,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take Dooba's gift to Estelle LaFrell at Darklit Lagoon.",
+     "text_locale_id": 409274,
+     "target": "Estelle LaFrell",
+     "target_locale_id": 409262,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unnamed 'little something for your effort'; no coin or item amount in client text",
+     "source": "locale:409270"
+    }
+   ],
+   "line": {
+    "name": "Fisherman: Dooba's stink-bait chain (Cluster E, Briarwood / Nettleseed / Darklit Lagoon)",
+    "previous": [
+     "Fisherman: Taking the Bait"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3080038,
+   "record": "quest-lines/quests.json q3080038",
+   "title": "Kart Driver: The Keys to Victory",
+   "giver": {
+    "name": "Mirana Vega",
+    "npc_id": "9000000409",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Mirana Vega",
+     "text_locale_id": 395451,
+     "target": "Mirana Vega",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Click on the Keys",
+     "text_locale_id": 395453,
+     "target": "the Keys",
+     "target_locale_id": 395453,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Help Mirana Vega find her lost keys near Tangletrack Speedway.",
+     "text_locale_id": 395450,
+     "target": "Mirana's lost keys",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Find Mirana's lost keys before time runs out!",
+     "text_locale_id": 395269,
+     "target": "Mirana's lost keys (timer)",
+     "target_locale_id": 395269,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Mirana",
+     "text_locale_id": 395457,
+     "target": "Mirana Vega",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat \"The Keys to Victory\" minigame",
+     "text_locale_id": 395455,
+     "target": "The Keys to Victory minigame",
+     "target_locale_id": 395455,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver Tier 4 - Tangletrack Speedway (Lightning Cup ladder)",
+    "previous": [
+     "Kart Driver: The Showdown"
+    ],
+    "next": [
+     "Kart Driver: The Right Stuff"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 395443,
+     "speaker": "Mirana Vega"
+    },
+    "progress": {
+     "locale_id": 395447,
+     "speaker": "Mirana Vega"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080048,
+   "record": "quest-lines/quests.json q3080048",
+   "title": "Kart Driver: SG Tour 400: Tangletrack",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000371",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Beat Kade Carmichael in a race at Tangletrack Speedway.",
+     "text_locale_id": 398215,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Kade outside of Tangletrack",
+     "text_locale_id": 398220,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Lightning Cup (Kart Driver weapon, level 1)",
+     "source": "wiki page Lightning Cup"
+    }
+   ],
+   "line": {
+    "name": "SG Tour 400 (Lightning Cup championship series; race target Kade Carmichael)",
+    "previous": [
+     "Kart Driver: SG Tour 400: Thunder Falls"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 398223,
+     "speaker": "Kade Carmichael"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090019,
+   "record": "quest-lines/quests.json q3090019",
+   "title": "Medic: Virtuous Venom",
+   "giver": {
+    "name": "Docaloc",
+    "npc_id": "9000000071",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head to Arachnia's Lair in Briarwood and collect samples of spider venom.",
+     "text_locale_id": 74077,
+     "target": "Arachnia's Lair",
+     "target_locale_id": 2273,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a medic, collect samples of venom",
+     "text_locale_id": 74078,
+     "target": "spider venom",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line (Band 3: level 10 to 15, Snowhill and Briarwood)",
+    "previous": [
+     "Medic: Into the Bristlewood"
+    ],
+    "next": [
+     "Medic: Dewpetal Tea"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74072,
+     "speaker": "Docaloc"
+    },
+    "progress": {
+     "locale_id": 74079,
+     "speaker": "Docaloc"
+    },
+    "complete": {
+     "locale_id": 74075,
+     "speaker": "Docaloc"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090020,
+   "record": "quest-lines/quests.json q3090020",
+   "title": "Medic: Dewpetal Tea",
+   "giver": {
+    "name": "Docaloc",
+    "npc_id": "9000000071",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect Dewpetal leaves from Bristlewood Glade.",
+     "text_locale_id": 74717,
+     "target": "Dewpetal Leaves",
+     "target_locale_id": 130638,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring Docaloc in Bristlewood the leaves of the Dewpetal.",
+     "text_locale_id": 74721,
+     "target": "Docaloc",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Pro Medic Saw (level 8 weapon)",
+     "source": "notes/Build Guides/Content/Jobs/Medic.md:102 (wiki-sourced, not confirmed in client text)"
+    }
+   ],
+   "line": {
+    "name": "Medic job quest line (Briarwood, level 10 to 15 band)",
+    "previous": [
+     "Medic: Virtuous Venom"
+    ],
+    "next": [
+     "Medic: Achieve Level 15"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74712,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 103414,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 74715,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090021,
+   "record": "quest-lines/quests.json q3090021",
+   "title": "Medic: Achieve Level 15",
+   "giver": {
+    "name": "Docaloc",
+    "npc_id": "9000000071",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 15 as a medic and return to Docaloc.",
+     "text_locale_id": 387571,
+     "target": "Docaloc",
+     "target_locale_id": null,
+     "count": 15
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line (Docaloc band, levels 10 to 15)",
+    "previous": [
+     "Medic: Dewpetal Tea"
+    ],
+    "next": [
+     "Medic: Shock Paddles and You",
+     "Contract: Forgotten Favor"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387566,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3090023,
+   "record": "quest-lines/quests.json q3090023",
+   "title": "Medic: Shock Paddles and You",
+   "giver": {
+    "name": "Docaloc",
+    "npc_id": "9000000071",
+    "locale_id": 22283
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "As a medic, speak to Docaloc and learn about Shock Paddles",
+     "text_locale_id": 95177,
+     "target": "Docaloc",
+     "target_locale_id": 22283,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Follow Docaloc's instructions on how to use Shock Paddles.",
+     "text_locale_id": 93159,
+     "target": "Shock Paddles",
+     "target_locale_id": 3800,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line (Docaloc, Briarwood; level 15 band)",
+    "previous": [
+     "Medic: Achieve Level 15"
+    ],
+    "next": [
+     "Medic: The Missing Patrol"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 93131,
+     "speaker": "Docaloc"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090032,
+   "record": "quest-lines/quests.json q3090032",
+   "title": "Medic: Just What the Doctor Ordered",
+   "giver": {
+    "name": "Doctor Callahan",
+    "npc_id": "9000000072",
+    "locale_id": 74790
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Private Gailug in Briarwood.",
+     "text_locale_id": 76176,
+     "target": "Private Gailug",
+     "target_locale_id": 45653,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, heal the wounded chugawugs",
+     "text_locale_id": 76179,
+     "target": "wounded chugawugs",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a medic, recover the Stolen Weapons",
+     "text_locale_id": 76181,
+     "target": "weapon crates (the Stolen Weapons)",
+     "target_locale_id": 76193,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line (Seaside School of Combat Medicine, Doctor Callahan chain after level 20)",
+    "previous": [
+     "Medic: A Frosty Remedy"
+    ],
+    "next": [
+     "Medic: Paying Your Student Debts"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 76150,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 76153,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100024,
+   "record": "quest-lines/quests.json q3100024",
+   "title": "Miner: Growing Up So Quickly",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Visit Pinkelug at the Mother Lode quarry in Briarwood.",
+     "text_locale_id": 78177,
+     "target": "Mother Lode quarry, Briarwood",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Pinkelug",
+     "text_locale_id": 78178,
+     "target": "Pinkelug",
+     "target_locale_id": 23210,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "no reward text in the locale file or the wiki for this quest"
+    }
+   ],
+   "line": {
+    "name": "Miner quest line (Silverray, Quagmire Quarry; level-20 band)",
+    "previous": [
+     "Miner: Reach Level 20"
+    ],
+    "next": [
+     "Miner: Biggest is Best"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78172,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 78174,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100025,
+   "record": "quest-lines/quests.json q3100025",
+   "title": "Miner: Biggest is Best",
+   "giver": {
+    "name": "Pinkelug",
+    "npc_id": "9000000169",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Out mine Pinkelug's gold ore collection record.",
+     "text_locale_id": 23657,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pinkelug has challenged you to beat her mining record in Gold mining. Mine 40 gold ore at the Mother Lode quarry.",
+     "text_locale_id": 23659,
+     "target": "Gold Ore",
+     "target_locale_id": null,
+     "count": 40
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Completion text 'Return to Pinkelug for your reward.' and the announcement '[Player] has dominated Pinkelug's mining efficiency challenge!'. No reward item or coin amount found.",
+     "source": "notes/Build Guides/Content/Jobs/Miner.md:144 (these are ucdt hashes 2449240182 and 1147508081 in that row, not locale ids)"
+    }
+   ],
+   "line": {
+    "name": "Miner (Pinkelug chain, level 20 band)",
+    "previous": [
+     "Miner: Growing Up So Quickly"
+    ],
+    "next": [
+     "Miner: Speed Smelting",
+     "Miner: Mother Lode Lift"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100027,
+   "record": "quest-lines/quests.json q3100027",
+   "title": "Miner: Mother Lode Lift",
+   "giver": {
+    "name": "Pinkelug",
+    "npc_id": "9000000169",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "As a miner, mine moonstone for Snorg at the Mother Lode quarry in Briarwood.",
+     "text_locale_id": 78302,
+     "target": "Moonstone",
+     "target_locale_id": null,
+     "count": 15
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the moonstone to Snorg",
+     "text_locale_id": 78305,
+     "target": "Snorg",
+     "target_locale_id": 16814,
+     "count": 15
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner job quest line (Mother Lode Quarry, Briarwood)",
+    "previous": [
+     "Miner: Speed Smelting"
+    ],
+    "next": [
+     "Miner: Rare Rock Collection"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78195,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 78306,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 78198,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100028,
+   "record": "quest-lines/quests.json q3100028",
+   "title": "Miner: Rare Rock Collection",
+   "giver": {
+    "name": "Snorg",
+    "npc_id": "9000000470",
+    "locale_id": 16814
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a miner, locate and mine many rare gems for Snorg at the Mother Lode quarry.",
+     "text_locale_id": 78317,
+     "target": "Mother Lode quarry",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Locate and mine some Turquoise.",
+     "text_locale_id": 78319,
+     "target": "Turquoise",
+     "target_locale_id": 21945,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Locate and mine some fire agates.",
+     "text_locale_id": 78321,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Locate and mine some topaz.",
+     "text_locale_id": 78323,
+     "target": "Topaz",
+     "target_locale_id": 21948,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Locate and mine some onyx.",
+     "text_locale_id": 78325,
+     "target": "Onyx",
+     "target_locale_id": 21952,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Locate and mine some moonstone.",
+     "text_locale_id": 78327,
+     "target": "Moonstone",
+     "target_locale_id": 21954,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the gems to Snorg",
+     "text_locale_id": 78328,
+     "target": "Snorg",
+     "target_locale_id": 16814,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward contents named in client text",
+     "source": "locale:78334 ('Collect your reward from Snorg')"
+    }
+   ],
+   "line": {
+    "name": "Miner (Mining Guild series, Snorg/Briarwood chain)",
+    "previous": [
+     "Miner: Mother Lode Lift"
+    ],
+    "next": [
+     "Miner: Part of the Guild"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78314,
+     "speaker": "Snorg"
+    },
+    "progress": {
+     "locale_id": 78330,
+     "speaker": "Snorg"
+    },
+    "complete": {
+     "locale_id": 78315,
+     "speaker": "Snorg"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140012,
+   "record": "quest-lines/quests.json q3140012",
+   "title": "Soccer Star: Briarwood's Fancy Feet",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000054",
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Coach Eddie thinks you're ready to take on the Briarwood Black Widows. Watch out for Fabio \"Fancy Feet!\"",
+     "text_locale_id": 402591,
+     "target": "Coach \"Golden Leg\" Eddie",
+     "target_locale_id": 401743,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Tackle Fabio \"Fancy Feet\" 15 times",
+     "text_locale_id": 406382,
+     "target": "Fabio \"Fancy Feet\"",
+     "target_locale_id": 401691,
+     "count": 15
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the Black Widows",
+     "text_locale_id": 402931,
+     "target": "Briarwood Black Widows (team name in match text 402589; no NPC or target id)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star quest line, Arc 2 - The season (guide row 9)",
+    "previous": [
+     "Soccer Star: Achieve Level 5"
+    ],
+    "next": [
+     "Soccer Star: Sidekicks Steal"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 402591,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 406409,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 414937,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160027,
+   "record": "quest-lines/quests.json q3160027",
+   "title": "Wizard: Sven's Job Offer",
+   "giver": {
+    "name": "Sven",
+    "npc_id": "9000000209",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a wizard, enter the Briar Patch in Briarwood and retrieve a summoning crystal from Azure.",
+     "text_locale_id": 22324,
+     "target": "Briar Patch",
+     "target_locale_id": 5078,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Retrieve the crystal from Azure's staff",
+     "text_locale_id": 22325,
+     "target": "Azure",
+     "target_locale_id": 6455,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Sven outside of the Briar Patch",
+     "text_locale_id": 22327,
+     "target": "Sven",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard job quest line (Sven / Osgood, Briarwood band, levels 15-20)",
+    "previous": [
+     "Wizard: Missing Student Sven"
+    ],
+    "next": [
+     "Wizard: A Twig From Treeleaf"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 24976,
+     "speaker": "Sven"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 24563,
+     "speaker": "Sven"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160028,
+   "record": "quest-lines/quests.json q3160028",
+   "title": "Wizard: A Twig From Treeleaf",
+   "giver": {
+    "name": "Sven",
+    "npc_id": "9000000209",
+    "locale_id": 22278
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a wizard, enter Treeleaf's Retreat in Briarwood and take a twig from Treeleaf.",
+     "text_locale_id": 115828,
+     "target": "Treeleaf's Retreat",
+     "target_locale_id": 5133,
+     "count": 1
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Treeleaf Hedge",
+     "text_locale_id": 22357,
+     "target": "Treeleaf Hedge",
+     "target_locale_id": 5739,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No per-quest reward evidenced; coins and XP unknown.",
+     "source": "notes/Build Guides/Content/Jobs/Wizard.md:116"
+    }
+   ],
+   "line": {
+    "name": "Wizard job quest line (Sven, Briarwood, levels 15 to 20)",
+    "previous": [
+     "Wizard: Sven's Job Offer"
+    ],
+    "next": [
+     "Wizard: One Thing to Bind Them"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160029,
+   "record": "quest-lines/quests.json q3160029",
+   "title": "Wizard: One Thing to Bind Them",
+   "giver": {
+    "name": "Sven",
+    "npc_id": "9000000209",
+    "locale_id": 22278
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "As a wizard, get some spider web from Arachnia in Arachnia's Lair.",
+     "text_locale_id": 115840,
+     "target": "Arachnia's Lair (spider web)",
+     "target_locale_id": 2273,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Queen Arachnia",
+     "text_locale_id": 76322,
+     "target": "Queen Arachnia",
+     "target_locale_id": 3592,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Take the web back to Sven outside the Brair Patch in Briarwood.",
+     "text_locale_id": 115842,
+     "target": "Sven",
+     "target_locale_id": 22278,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No coin, XP or item reward is evidenced for this quest.",
+     "source": "repo:notes/Build Guides/Content/Jobs/Wizard.md:117 (rewards 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Wizard job quest line (Sven, Briarwood)",
+    "previous": [
+     "Wizard: A Twig From Treeleaf"
+    ],
+    "next": [
+     "Wizard: Reach Level 20"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 76313,
+     "speaker": "Sven"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 76316,
+     "speaker": "Sven"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160030,
+   "record": "quest-lines/quests.json q3160030",
+   "title": "Wizard: Reach Level 20",
+   "giver": {
+    "name": "Sven",
+    "npc_id": "9000000209",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 20 as a wizard, then return to Sven.",
+     "text_locale_id": 387699,
+     "target": "Sven",
+     "target_locale_id": null,
+     "count": 20
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard job quest line (Sven, Briarwood)",
+    "previous": [
+     "Wizard: One Thing to Bind Them"
+    ],
+    "next": [
+     "Wizard: Two Gems Are Better Than One"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387670,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387672,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160032,
+   "record": "quest-lines/quests.json q3160032",
+   "title": "Wizard: Two Gems Are Better Than One",
+   "giver": {
+    "name": "Sven",
+    "npc_id": "9000000209",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Go to Blackspore and get a crystal from Foreman Ironfist in the Haunted Mines.",
+     "text_locale_id": 116240,
+     "target": "Haunted Mines (Blackspore Swamp)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Foreman Ironfist",
+     "text_locale_id": 76349,
+     "target": "Foreman Ironfist",
+     "target_locale_id": 71199,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Sven's location near the Briar Patch in Briarwood.",
+     "text_locale_id": 76351,
+     "target": "Sven (Briar Patch, Briarwood)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward evidenced in the client, wiki or guide",
+     "source": "open: no reward locale found for this quest"
+    }
+   ],
+   "line": {
+    "name": "Wizard job quest line (Sven, Briarwood)",
+    "previous": [
+     "Wizard: Reach Level 20"
+    ],
+    "next": [
+     "Wizard: Rescue Mission"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 76330,
+     "speaker": "Sven"
+    },
+    "progress": {
+     "locale_id": 76333,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  }
+ ]
+}

@@ -1,0 +1,548 @@
+{
+ "zone": "Merry Vale",
+ "wireable_by_match": [
+  {
+   "quest_id": 3050023,
+   "record": "quest-lines/quests.json q3050023",
+   "quest_file": "chef.json",
+   "title": "Chef: Reach Level 10",
+   "live": "yes",
+   "giver": {
+    "name": "Chef Jarvie",
+    "npc_id": "9000000044",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000044,
+    "name": "Chef Jarvie",
+    "file": "npcs/merry_vale.json",
+    "zone": "Merry Vale",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach Level 10 as a Chef, then return to Chef Jarvie.",
+     "text_locale_id": 387273,
+     "target": "Chef level 10 (return to Chef Jarvie)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 387254,
+     "speaker": "Chef Jarvie"
+    },
+    "progress": {
+     "locale_id": 387256,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 387257,
+     "speaker": "Chef Jarvie"
+    }
+   },
+   "critic_problems": [
+    "line.previous: Previous is left empty, but Chef.md places 'Chef: Roasted Mysteries' (3050022) at M4, directly before this M5 gate. The answer flags this as open rather than asserting it, so it is an omission and not",
+    "evidence[5] / live_reason: The 'live' claim leans on piece_040 as proof of liveness. That file is a repo level-gate binding, not a live-server check. The text checks themselves are sound.",
+    "objectives[0]: The single 'other' objective is acceptable. The quest_objective string 387273 is confirmed, and the gate text matches piece_040 exactly.",
+    "line.previous: Left empty. The answer says the record has no prerequisite, which is true (chef.json:1228 has prerequisite_quest_ids []). But Chef.md's M5 row is a level-10 gate with no 'After M4' note, so the line p",
+    "dialog / title (387255 vs 387274-387277): A parallel client set exists: title 387274 'Chef: Level 10' with objectives 387275, 387276 ('Return to Chef Jarvie') and 387277. The answer confirms 387274 and 387276 exist and picks 387255 from piece",
+    "objectives[0]: One 'other' objective covers both the level gate and the return to Chef Jarvie. This matches the single gate string 387273 ('Reach Level 10 as a Chef, then return to Chef Jarvie.'). The answer does no"
+   ]
+  },
+  {
+   "quest_id": 3050024,
+   "record": "quest-lines/quests.json q3050024",
+   "quest_file": "chef.json",
+   "title": "Chef: Chugawhat?",
+   "live": "yes",
+   "giver": {
+    "name": "Chef Jarvie",
+    "npc_id": "9000000044",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000044,
+    "name": "Chef Jarvie",
+    "file": "npcs/merry_vale.json",
+    "zone": "Merry Vale",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel to Wugachug and learn more about cooking from Cook Yumtumlot,",
+     "text_locale_id": 72107,
+     "target": "Wugachug",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 72105,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 72108,
+     "speaker": "Cook Yumtumlot"
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: Verified: locale 72107 is exactly 'Travel to Wugachug and learn more about cooking from Cook Yumtumlot,' (trailing comma as shipped). Locale 72105 and 72108 match the answer's quotes. Title 72106 'Che",
+    "live / title: Title locale 72106 is tagged npc_dialog, not quest_title. The 'live' verdict rests on that line plus the wiki Chef listing ('Chef: [Chugawhat]? - Jarvie in Merry Vale'), which the answer states honest",
+    "objectives[0]: Objective text 72107 verified as quest_objective, Wugachug, Cook Yumtumlot, with the trailing comma present in the shipped line. The target is left null, which is acceptable, but the answer does not r",
+    "giver.locale_id / objectives[0].target_locale_id: Both are null. Acceptable as stated gaps, but the builder cannot resolve the Wugachug target from the answer alone."
+   ]
+  },
+  {
+   "quest_id": 3150008,
+   "record": "quest-lines/quests.json q3150008",
+   "quest_file": "warrior.json",
+   "title": "Warrior: Distracted",
+   "live": "unsure",
+   "giver": {
+    "name": "Tumbolina",
+    "npc_id": "9000000222",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000222,
+    "name": "Tumbolina",
+    "file": "npcs/merry_vale.json",
+    "zone": "Merry Vale",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Tumbolina thinks she can fix the weapons if you get her tools back from Braldan Stoneaxe in Merry Vale.",
+     "text_locale_id": 71037,
+     "target": "Braldan Stoneaxe",
+     "target_locale_id": 40550,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000030,
+      "name": "Braldan Stoneaxe",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Braldan Stoneaxe",
+     "text_locale_id": 71047,
+     "target": "Braldan Stoneaxe",
+     "target_locale_id": 40550,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000030,
+      "name": "Braldan Stoneaxe",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Tumbolina with her tools.",
+     "text_locale_id": 71050,
+     "target": "Tumbolina",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000222,
+      "name": "Tumbolina",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward data in client, wiki or repo",
+     "source": "repo:prototype/osfr-tools/data/content/quests/warrior.json:470-519 (rewards empty)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": 71035,
+    "progress": null,
+    "complete": 71038
+   },
+   "critic_problems": [
+    "giver.locale_id: Answer leaves giver.locale_id null and says Tumbolina's name string was not found. The client has it: locale 70891 = 'Tumbolina' (exact match).",
+    "live / live_reason: Title 71036 is ui-tagged with a class-label FLAG, so no quest_title binds record 3150008. The answer correctly marks live as unsure, but the wiki Warrior page does list '[Warrior]: [Distracted]' under",
+    "objectives[0]: The 'go' objective uses 71037, which is the quest description (the answer's own evidence calls it the description), tagged quest_objective. It is plausible as an objective but is the same sentence as ",
+    "objectives[2]: 71050 'Return to Tumbolina with her tools.' is untagged and matched by wording only; 71049 'Return to Tumbolina' is the other candidate. The answer discloses this.",
+    "dialog.progress: Null. Braldan's 71063 is a Braldan-tagged line; the answer's claim that it is Tumbolina's words is contradicted by T316.md (Braldan's greeting is 71067, and 71063 is tagged to Braldan Stoneaxe in the ",
+    "live: Title 71036 is ui-tagged with a class-label FLAG, not quest_title. The answer correctly reports live as unsure. The wiki Warrior page does list '[Warrior]: [Distracted]' under Tumbolina, but that is n"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3040026,
+   "record": "quest-lines/quests.json q3040026",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Herme the Hermit",
+   "live": "yes",
+   "giver": {
+    "name": "Ari the Fish",
+    "npc_id": "9500000869",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9500000869,
+    "name": "Ari the Fish",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Herme the Hermit and see if he knows Maple Sugarleaf's whereabouts.",
+     "text_locale_id": 104304,
+     "target": "Herme the Hermit",
+     "target_locale_id": 104303,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Seek out Herme Fickleleaf at The Roadhouse north of Merry Vale",
+     "text_locale_id": 104305,
+     "target": "Herme Fickleleaf",
+     "target_locale_id": 115490,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000347,
+      "name": "Herme Fickleleaf",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Defeat Herme Fickleleaf",
+     "text_locale_id": 104307,
+     "target": "Herme Fickleleaf",
+     "target_locale_id": 115490,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Herme",
+     "text_locale_id": 104309,
+     "target": "Herme the Hermit",
+     "target_locale_id": 104303,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unknown. No reward is confirmed for this quest.",
+     "source": "notes/Build Guides/Content/Jobs/Card Duelist.md:111 (lists reward as unknown)"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 104315,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 104306,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "live_reason: Checked: locale 104314 (title), 104315 (offer), 104303, 104304, 104305, 104307, 104309 and 115490 all resolve to the text the answer quotes and none is FLAGGED in the lookup output. The title is also ",
+    "objectives[1].target: Target 'Herme Fickleleaf' (115490) and 'Herme the Hermit' (103303) are two client names for one NPC. The answer discloses this as a name-based link, which is honest, but a builder must not treat them ",
+    "rewards: Reward 'Unknown' cites Card Duelist.md:111 for an unknown reward. That is an absence claim rather than a sourced fact. The guide line I was able to check only records the quest row, not a reward.",
+    "giver.zone: The quest is in Merry Vale but the giver NPC record (npcs/wilds.json:699) is Wilds. The answer notes this, and it is consistent with the wiki's Ari section and the dossier.",
+    "line.next: The next quest 'Card Duelist: Playing a Prodigy' (locale 104328) is supported by the guide row 26 and the client text. Its giver conflicts across sources (wiki Herme Fickleleaf vs Riley/Farnum), which",
+    "line.next: Next quest 'Card Duelist: Playing a Prodigy' (title 104328) is confirmed in locale, but its giver conflicts across sources: the guide (row 26) and wiki say Herme Fickleleaf, the NPC notes say Riley at"
+   ],
+   "blocked_by": [
+    "talk target 'Herme the Hermit' not placed in our rows",
+    "needs mechanic: minigame (Herme Fickleleaf)",
+    "talk target 'Herme the Hermit' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3130012,
+   "record": "quest-lines/quests.json q3130012",
+   "quest_file": "postman.json",
+   "title": "Postman: Missing Mail",
+   "live": "yes",
+   "giver": {
+    "name": "Postmaster Vixie",
+    "npc_id": "9000000174",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000174,
+    "name": "Postmaster Vixie",
+    "file": "npcs/merry_vale.json",
+    "zone": "Merry Vale",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect the packages scattered around Merry Vale.",
+     "text_locale_id": 117067,
+     "target": "packages scattered around Merry Vale",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Merry Vale Package Pickup minigame",
+     "text_locale_id": 117068,
+     "target": "Merry Vale Package Pickup",
+     "target_locale_id": 100711,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return the missing mail and packages to Vixie.",
+     "text_locale_id": 71837,
+     "target": "Postmaster Vixie",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000174,
+      "name": "Postmaster Vixie",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no reward text found",
+     "source": "repo:notes/Build Guides/Content/Jobs/Postman.md:88 (rewards 'unknown')"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 117035,
+     "speaker": "Postmaster Vixie"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 117038,
+     "speaker": "Postmaster Vixie"
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The open note says the repo's alternate collect text 1053994515 ('Click on the Packages in Merry Vale to collect them for Postmaster Vixie.') is 'not client-backed here'. It is client-backed: locale 1",
+    "line.next: next is left empty, but the pack's same_giver_quests and the repo batch both place 3130013 'Postman: Mail Mix-Up' directly after this record in the Band 2 order. The answer says links are unconfirmed,",
+    "dialog.offer: 117035 is typed quest_objective in the client but is used as the offer intro. That is an inference; the answer states it as the offer line without saying the type mismatch.",
+    "objectives[2]: 71837 is confirmed as a locale string ('Return the missing mail and packages to Vixie.'), but its status as a separate step is unresolved. The answer's open note flags this, which is fine. The repo's ",
+    "line: previous and next are both empty. The repo guide places this quest after Bixie Buds (Postman.md row 8 and 'After Bixie Buds (wiki order)' at row 9) and before Mail Mix-Up (row 10, 'After Missing Mail'",
+    "objectives[0] and objectives[1]: I confirmed 117067 ('Collect the packages scattered around Merry Vale.'), 117068 ('Complete the Merry Vale Package Pickup minigame') and 100711 ('Merry Vale Package Pickup') in the locale table. The a"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Merry Vale Package Pickup)"
+   ]
+  },
+  {
+   "quest_id": 3130013,
+   "record": "quest-lines/quests.json q3130013",
+   "quest_file": "postman.json",
+   "title": "Postman: Mail Mix-Up",
+   "live": "yes",
+   "giver": {
+    "name": "Postmaster Vixie",
+    "npc_id": "9000000174",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000174,
+    "name": "Postmaster Vixie",
+    "file": "npcs/merry_vale.json",
+    "zone": "Merry Vale",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Deliver the mail to the intended owner in Merry Vale before time runs out.",
+     "text_locale_id": 117080,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Deliver the Mail in Merry Vale minigame",
+     "text_locale_id": 117081,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 117074,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 117077,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line.previous: The answer names Postman: Missing Mail (3130012) as previous, but the chain note says Missing Mail's answer has no next link. The link is one-way. The answer's open section admits this, but the line i",
+    "objectives[0] and objectives[1]: Locales 117080 and 117081 are tagged to the short title 117079 'Mail Mix-Up' (quest_title, Merry Vale), not to 117075. The answer does disclose this as an inference, but the objectives are presented a",
+    "objectives[1].target: The minigame has no bound target. Locale 100908 is generic, and the guide's hash 2238550911 is unconfirmed (Postman.md:89, dagger marked unverified).",
+    "giver.locale_id: Giver name locale id is null. The guide cites ugdt 3113147825 (Postman.md:35) and NPCs - Merry Vale.md:43, which were not confirmed in the client here.",
+    "live: Stated as \"yes\" while the record is enabled:false and the answer says it is 'not verified in play'. The title, offer, description and completion strings are real and unflagged (checked: 117075 'Postma",
+    "evidence (wiki Postman): The wiki snippet I can see reads '[Postman]: [Mail Mix]..' (truncated), not the full '[Mail Mix-Up]: Postmaster Vixie in Merry Vale' the answer quotes. The full line was not confirmed, so the wiki cla"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Complete the Deliver the Mail in Merry Vale minigame)"
+   ]
+  },
+  {
+   "quest_id": 3130015,
+   "record": "quest-lines/quests.json q3130015",
+   "quest_file": "postman.json",
+   "title": "Postman: Beautiful Bouquet",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000545",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Rosalie",
+     "text_locale_id": 117022,
+     "target": "Rosalie",
+     "target_locale_id": 117030,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000421,
+      "name": "Rosalie",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Find Postmaster Vixie in Merry Vale",
+     "text_locale_id": 117024,
+     "target": "Postmaster Vixie",
+     "target_locale_id": 47500,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000174,
+      "name": "Postmaster Vixie",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver flowers to Rosalie in Merry Vale.",
+     "text_locale_id": 117018,
+     "target": "Rosalie",
+     "target_locale_id": 117030,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000421,
+      "name": "Rosalie",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 117016,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "line: previous and next are both empty, but the build guide does place this quest in sequence. Postman.md row 12 sits directly after row 11 'Postman: And the Winner Is...' (Band 2, Merry Vale). The answer n",
+    "line: The guide marks row 12 as a probable seasonal (Festival of Hearts) or later addition, and the † marker means its text match is not fully confirmed. The answer omits this, so a builder would treat the ",
+    "objectives: Locale 117025 'All mail must go through her first.' is an unflagged quest_dialog on this title (Merry Vale, 'Postman: Beautiful Bouquet'). The answer never mentions it, though it bears directly on the",
+    "objectives[1]: The target 'Postmaster Vixie' is given locale id 47500, which I did not confirm. The objective text 117024 is confirmed, and 'Talk to Rosalie' (117022) and 'Deliver flowers to Rosalie' (117018) are co",
+    "giver: The answer correctly leaves the giver unwired, but it does not connect that to the guide's 'Giver: unknown' cell for row 12. The Postmaster Vixie record (merry_vale.json:24151, 9000000174) is the Post",
+    "line: previous and next are both empty, and the answer does not mention the one ordering hint in the guide. In Postman.md, Band 2 rows 9-11 are Missing Mail, Mail Mix-Up, And the Winner Is..., and row 12 is"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  }
+ ]
+}

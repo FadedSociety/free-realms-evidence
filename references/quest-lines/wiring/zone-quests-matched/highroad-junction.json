@@ -1,0 +1,392 @@
+{
+ "zone": "Highroad Junction",
+ "wireable_by_match": [
+  {
+   "quest_id": 3030011,
+   "record": "quest-lines/quests.json q3030011",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Restless Rumors",
+   "live": "yes",
+   "giver": {
+    "name": "Harold",
+    "npc_id": "9000000102",
+    "locale_id": 104145
+   },
+   "resolved_giver": {
+    "npc_id": 9000000102,
+    "name": "Harold",
+    "file": "npcs/highroad_junction.json",
+    "zone": "Highroad Junction",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Harold's twin brother Gerold is having some trouble with wolves south of Snowhill. Find him and see what you can do to help!",
+     "text_locale_id": 104147,
+     "target": "Gerold",
+     "target_locale_id": 104054,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000098,
+      "name": "Gerold",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 104145,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "dialog.offer: Offer is mapped to 104145, which is Harold's pointer ('take the north road toward Snowhill'). The Gerold speech 104148 ('Hi there stranger! ... I could really use some help dealing with the local wolf",
+    "objectives[0]: Target text checks out (104147 mentions Harold's twin Gerold and wolves south of Snowhill; target name Gerold = locale 104054, confirmed). The guide's H2 row also cites a second objective wording, 'As",
+    "giver.npc_id / evidence: Gerold's npc_id 9000000098 is marked id_kind 'reconstructed_from_job_reference' in snowhill.json:18320, so it is not a confirmed server id. The answer does flag this in open, but it is listed as an ev",
+    "dialog: dialog.offer is set to 104145 (Harold's pointer), but the answer's own open note says 104148 (Gerold's speech, 'Hi there stranger!... local wolf population') may be the real offer. Neither phase is co",
+    "evidence[4] / target Gerold: Gerold's npc_id 9000000098 is marked id_kind 'reconstructed_from_job_reference' in snowhill.json:18320-18321. The answer does disclose this, but evidence lists it as a claim with no caveat in the evid",
+    "record prerequisite: The evidence pack's record lists prerequisite_quest_ids [3030010] (Hewey's Escape), but the answer's previous field only names it in the line sense and does not record the prerequisite explicitly."
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3050012,
+   "record": "quest-lines/quests.json q3050012",
+   "quest_file": "chef.json",
+   "title": "Chef: Fireworks Frenzy!",
+   "live": "yes",
+   "giver": {
+    "name": "Ranger Ricardo",
+    "npc_id": "9000000178",
+    "locale_id": 103808
+   },
+   "resolved_giver": {
+    "npc_id": 9000000178,
+    "name": "Ranger Ricardo",
+    "file": "npcs/highroad_junction.json",
+    "zone": "Highroad Junction",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Ranger Ricardo asks the player to help find the fireworks before the ingredients go to Auguste (offer dialog).",
+     "text_locale_id": 104137,
+     "target": "Ranger Ricardo",
+     "target_locale_id": 103808,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000178,
+      "name": "Ranger Ricardo",
+      "file": "npcs/highroad_junction.json",
+      "zone": "Highroad Junction",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "use",
+     "text": "Click on the Crate of Fireworks next to Ranger Ricardo to start collecting the piles of fireworks. Alternate wording: 'Interact with the Crate of Fireworks next to Ranger Ricardo...' (431154); both wordings exist in the client.",
+     "text_locale_id": 115584,
+     "target": "Crate of Fireworks",
+     "target_locale_id": 115748,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect all five Piles of Fireworks before time runs out!",
+     "text_locale_id": 115751,
+     "target": "Pile of Fireworks",
+     "target_locale_id": 115749,
+     "count": 5,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the Fireworks Frenzy! minigame",
+     "text_locale_id": 115589,
+     "target": "Fireworks Frenzy! minigame",
+     "target_locale_id": 115589,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return the picked-up fireworks to Ranger Ricardo (end dialog: 'You did it! You found the fireworks!').",
+     "text_locale_id": 140023,
+     "target": "Ranger Ricardo",
+     "target_locale_id": 103808,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000178,
+      "name": "Ranger Ricardo",
+      "file": "npcs/highroad_junction.json",
+      "zone": "Highroad Junction",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 104137,
+     "speaker": "Ranger Ricardo"
+    },
+    "progress": {
+     "locale_id": 115776,
+     "speaker": "Ranger Ricardo"
+    },
+    "complete": {
+     "locale_id": 104140,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: Objective 'talk' uses 104137, which is the offer dialog text (quest_dialog), not an objective line. Client has a real objective for this step: 115578 'Talk to Ranger Ricardo' (quest_objective, NPC Ric",
+    "objectives[4]: The return objective uses 140023 ('take them back to Ranger Ricardo!'), which is correct as text, but the evidence row attributes 'Return to Ranger Ricardo' to 140022. 140022 is the real 'Return to Ra",
+    "objectives[3]: The minigame objective's target_locale_id equals its text id 115589, so the target is not a separate name; 115589 is only the objective string 'Beat the Fireworks Frenzy! minigame'. No separate miniga",
+    "objectives[2]: Client text supports both one goal (115751 'Collect all five Piles of Fireworks', 115750 'Collect five Piles...') and five ordered goals (115752, 115754, 115756, 115758, 115760 'Collect the first/seco",
+    "line: Line placement checks out: prerequisite 3050011 (Ranger Requisition, 104134) and next 3050013 (Perry's Pastures, 104142) match chef.json and the wiki Chef order (Ranger Requisition, Fireworks Frenzy!,",
+    "objectives[2]: The collect objective uses 115751 ('Collect all five Piles of Fireworks before time runs out!') with count 5. The client also has 115750 ('Collect five Piles of Fireworks') and five per-pile goals (11"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Fireworks Frenzy! minigame)"
+   ]
+  },
+  {
+   "quest_id": 3120018,
+   "record": "quest-lines/quests.json q3120018",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: Spinning Tails",
+   "live": "yes",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": "9000000228",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000228,
+    "name": "Verill Shiverwings",
+    "file": "npcs/highroad_junction.json",
+    "zone": "Highroad Junction",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your cat to do the trick \"Spin\".",
+     "text_locale_id": 90068,
+     "target": "cat (trick game, trick \"Spin\")",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90066,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 91001,
+     "speaker": "Verill Shiverwings"
+    },
+    "complete": {
+     "locale_id": 90069,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: The giver's name has no locale id, and the answer does not say where the name came from. The NPC notes give Verill's name as a ucdt/ugdt pair (3031785891 / 4082796561), not a locale id, so null is def",
+    "evidence[0..2]: The ids and text check out against the client. Lookup confirms locale 90067 (title), 90068 (objective, 'Use the trick game to train your cat to do the trick \"Spin\".'), 90066 (offer, which names Vidor'",
+    "line.previous / line.next: The order is supported by the job guide rows 115 to 117 and the wiki listing of Verill's quests. The wiki lookup lists Spinning Tails between the two, but it does not state an explicit ordering. The a",
+    "record status: The record is enabled:false. The dossier also notes that a prior W110 pass disabled sibling quests because their giver or talk target was unspawned. The answer marks live 'yes' but does not warn the b",
+    "objectives[0]: The target is described (cat, trick game, trick 'Spin') with no id. Client text 90068 supports the wording. The 'Spin unlocks at level 15' claim cites job guide row 116 (2765289905), which was not che",
+    "giver: locale_id is null. The NPC name is still not tied to a locale id, so the giver is only identified by npc_id and wiki text. This is a gap, not a wrong link: the wiki lists Spinning Tails under Verill S"
+   ],
+   "blocked_by": [
+    "giver 'Verill Shiverwings' row 9000000228 not placed"
+   ]
+  },
+  {
+   "quest_id": 3120020,
+   "record": "quest-lines/quests.json q3120020",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: Achieve Level 20",
+   "live": "unsure",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": "9000000228",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000228,
+    "name": "Verill Shiverwings",
+    "file": "npcs/highroad_junction.json",
+    "zone": "Highroad Junction",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "live / evidence[0]: Verified: locale 117897 is 'Achieve Level 20 as a Pet Trainer' tagged quest_title with no FLAG, and the sibling family (117886, 117889, 117890, 117892, 117898, 117900) is confirmed. The answer's hedge",
+    "evidence[4] (387345 / 387597): Not re-verified in this pass; the claim that other classes have the same 'Achieve Level 20' pattern rests on the answer's own citation. The pattern does exist for Archer (5100368 mentions achieving le",
+    "line: The Verill line position rests only on wiki list order (Skills for Stars, then Achieve Level 20, then Amaze Me). The job guide row G20 (Pet Trainer.md:118) agrees with that order but gives no prerequi",
+    "line: The evidence pack's Amaze Me record (3120021) lists Skills for Stars (3120019) as previous, which skips the G20 gate that the guide places between them. The answer flags this contradiction correctly. ",
+    "live: Client title 117897 'Achieve Level 20 as a Pet Trainer' is confirmed with no FLAG, and its per-class siblings (117886 Card Duelist, 117889 Druid, 117890 Engineer, 117892 Herbalist, 117898 Photographer"
+   ],
+   "blocked_by": [
+    "giver 'Verill Shiverwings' row 9000000228 not placed"
+   ]
+  },
+  {
+   "quest_id": 3120021,
+   "record": "quest-lines/quests.json q3120021",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: Amaze Me",
+   "live": "unsure",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": "9000000228",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000228,
+    "name": "Verill Shiverwings",
+    "file": "npcs/highroad_junction.json",
+    "zone": "Highroad Junction",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Get an \"Amazing!\" score on a pet trick (alternate wording: 'for Verill in Highroad Junction', locale 103053).",
+     "text_locale_id": 90089,
+     "target": "pet trick game (no target id in client)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90087,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90090,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line: The previous link lists only 'Pet Trainer: Skills for Stars' and skips the 'Pet Trainer: Achieve Level 20' step (3120020). The wiki lists that step between Skills for Stars and Amaze Me, and the job g",
+    "live_reason: The reason says 'the earlier pack notes the job was removed in 2009'. The evidence pack does not contain that claim. It is in the job guide (Pet Trainer.md line 30), citing the wiki's 14 December 2009",
+    "objectives[0]: The objective text is correct, but the answer does not mention the guide's candidate string ids for this objective (878070612 and 4122256900). It also presents 90089 as primary and 103053 as the alter",
+    "objectives[0]: The objective uses text_locale_id 90089 ('Get an \"Amazing!\" score on a pet trick.'). I checked it: it is real. But the Verill-specific line 103053 ('Get an \"Amazing!\" score on a pet trick for Verill i",
+    "line.previous: previous lists only 'Pet Trainer: Skills for Stars'. The wiki order and the job guide's G20 row put 'Pet Trainer: Achieve Level 20' before Amaze Me, and the guide says Verill's band blocks until level",
+    "live: Client presence is confirmed (90088, 90089, 90090 unflagged and checked), and the wiki lists the quest under Verill. 'unsure' is a fair label, though the pack gives no source showing it shipped."
+   ],
+   "blocked_by": [
+    "giver 'Verill Shiverwings' row 9000000228 not placed"
+   ]
+  },
+  {
+   "quest_id": 3120022,
+   "record": "quest-lines/quests.json q3120022",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: Down by the Bay",
+   "live": "yes",
+   "giver": {
+    "name": "Verill Shiverwings",
+    "npc_id": "9000000228",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000228,
+    "name": "Verill Shiverwings",
+    "file": "npcs/highroad_junction.json",
+    "zone": "Highroad Junction",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find Moanna the Pet Trainer in Seaside.",
+     "text_locale_id": 90093,
+     "target": "Moanna (Pet Trainer, Seaside), npc 9000000153",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000153,
+      "name": "Moanna",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90091,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Verill Shiverwings as giver is supported only by the wiki (Pet Trainer page lists 'Down by the Bay' under Verill) and the record's giver_npc_id. The client strings tie the quest to Moanna and Seaside,",
+    "objectives[0].kind: The answer uses kind 'talk', but the record uses 'talk_to_npc'. This is a naming mismatch, not a wrong fact.",
+    "chain.next: 'Shake Your Groove Thing' as next and row 19 come from the job guide, which I did not open. The wiki does show that Shake Your Groove Thing is Moanna in Seaside, so the link is plausible but unverifie",
+    "giver: Giver Verill (9000000228) is supported only by the wiki listing and the repo record. The job guide itself marks the Down by the Bay giver and meaning as inferred (Pet Trainer.md line 292: 'The giver a",
+    "line: The chain placement holds up. Job guide row 17 is Amaze Me (Verill), row 18 is Down by the Bay (Verill, then Seaside), and row 19 is Shake Your Groove Thing (Moanna, Seaside). The wiki lists Down by t",
+    "objectives[0]: Verified: locale 90093 is 'Find Moanna the Pet Trainer in Seaside.' (hint Moanna, zone Seaside), and npc 9000000153 is Moanna in seaside.json:28806. The target_locale_id null is acceptable because the"
+   ],
+   "blocked_by": [
+    "giver 'Verill Shiverwings' row 9000000228 not placed",
+    "talk target 'Moanna (Pet Trainer, Seaside), npc 9000000153' not placed in our rows"
+   ]
+  }
+ ]
+}

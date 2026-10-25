@@ -1,0 +1,4065 @@
+{
+ "12 Days of Presents": [
+  {
+   "event": "12 Days of Presents",
+   "record": "quest-lines/schedules.json sv12-days-of-holidays",
+   "season": {
+    "name": "12 Days of Presents",
+    "start_month": 12,
+    "start_day": 13,
+    "end_month": 12,
+    "end_day": 24,
+    "source": "articles 2813 and 2827 (Dec 13 to Dec 24 daily challenge window, per the event answer); locale:441963 ('Log in every day from the 13th through the 24th'). Presents open on Dec 25 (locale:441963), which is outside this window. (R) The window does not include Dec 25 because the sources give the challenge window as 13th to 24th; if the revival must allow presents to open on the 25th, extend end_day to 25 and note it as (R)."
+   },
+   "zones": [
+    "Snowhill"
+   ],
+   "runs": {
+    "npcs": [
+     "Trina Turtledove"
+    ],
+    "props_or_areas": [
+     "Snowhill Snow Days decorations (Snow Days Lot, wiki)"
+    ],
+    "quests": [
+     "12 Days Introduction (locale:441439)",
+     "12 Days Present - Day 1 through Day 12 (locale:441513-441524, 2012)",
+     "12 Days Bow - Day 1 through Day 12 (locale:441525-441536, 2012)",
+     "Big Present 1, 2, 3 (locale:441947-441949; 4, 8 and 12 daily presents)",
+     "Snowhill Presents, Presents, Presents! (locale:441963)",
+     "2013 daily challenges 'Day 1: Penguin Defense' through 'Day 12: Abominable Invasion' (locale:441125, 441131-441199)"
+    ],
+    "activities": [
+     "Daily holiday challenge in Snowhill, one per day from Dec 13 to Dec 24",
+     "Present Tracker with Trina Turtledove",
+     "Daily presents and bows collection",
+     "Opening presents by logging in on Dec 25"
+    ],
+    "rewards": [
+     "Daily presents and bows (one bow per day's present, articles 2813, 2827)",
+     "Bonus Big Present for every 4 daily presents opened (articles 2813, 2827; wiki '12 Days of Presents')",
+     "15 presents total and 12 bows for completing all 12 challenges (articles 2813, 2827; wiki)",
+     "Snowflake Glasses (2012 Day 7, wiki)",
+     "Snow Days Lot (wiki, 2012 series)",
+     "Snow Days Builders Pack (2012 and 2013 wiki lists)",
+     "Snow Days Gift Box - Cookies and Snow Days Gift Box - Decorations (2012 first appearance; re-listed 2013, wiki)",
+     "Snow Days Unicorn Sweater (2012 first appearance; re-listed 2013, wiki)",
+     "2013 wiki list: Figgy Pudding Critter, Holigoblin Mask, Icy Snowflake Glasses"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2012,
+     "start": "2012-12-13",
+     "end": "2012-12-24",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2813 (Dec 13 12:01 am PST to Dec 24 11:59 pm PST); articleId=2827 (Day 12 final-day post)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-13",
+     "end": "2013-12-24",
+     "source": "(R) Not dated by a 2013 article. Rests on wiki '12 Days of Presents' annual wording ('from December 13th through the 24th') and the undated client quest dialog locale:441963, plus the 2013 client titles at locale:441125 and locale:441199."
+    }
+   ]
+  },
+  {
+   "event": "12 Days of Presents",
+   "record": "quest-lines/schedules.json sv12-days-of-presents",
+   "season": {
+    "name": "12 Days of Presents",
+    "start_month": 12,
+    "start_day": 13,
+    "end_month": 12,
+    "end_day": 25,
+    "source": "Dec 13 to Dec 24 daily challenges per http://www.freerealms.com:80/article/detail.action?articleId=2827 and articleId=2813 (summary-level); presents opened Dec 25 per the same articles and locale:441963. (R) Window extended to Dec 25 to cover the present-opening day; no season row exists for it. Missed bows purchasable until Jan 3 (locale:441965) is NOT in the window because the year is not printed and it is a post-event grace period."
+   },
+   "zones": [
+    "Snowhill"
+   ],
+   "runs": {
+    "npcs": [
+     "Trina Turtledove"
+    ],
+    "props_or_areas": [
+     "Snowhill Present Tracker (locale:441963)"
+    ],
+    "quests": [
+     "12 Days of Presents (locale:441931)",
+     "Snowhill 12 Days of Presents (locale:441964)"
+    ],
+    "activities": [
+     "Log in each day Dec 13-24 and complete that day's challenge on its first day (article 2813, 2827)",
+     "Use Present Tracker to find presents and collect bows (locale:441963)",
+     "Talk to Trina to track progress and Big Presents (locale:441963, 441965)",
+     "Open presents on Dec 25 (articles 2813, 2827; locale:441963)"
+    ],
+    "rewards": [
+     "Present with bow per challenge completed on its first day (article 2813; locale:441441)",
+     "Big Presents 1-3 for completing 4, 8, or 12 daily presents, opened Dec 25 (locale:441946; titles locale:441947-441949; wiki)",
+     "2012 items: Icy Snow Days Flair Shard, Fruit Cake Critter, Snow Days Builder Pack, Snow Days Unicorn Sweater, Snowflake Glasses, Snowman Mask, Snow Days Lot, Temporary Snowflake Parachute, Snowglobe Helmet, St. Bernard Pet, Polar Bear Ride (wiki '12 Days of Presents')",
+     "2013 items: Figgy Pudding Critter, Holigoblin Mask, Icy Snowflake Glasses, Snow Days Builders Pack, Snow Days Unicorn Sweater, toys (Blast Rover, Cyber Cycle, Fire Hawk, Hero Copter, Hover Ring), Big Presents S.M.A.C.M. toy, Hot Cocoa Mug, Arctic Cat Ride (wiki '12 Days of Presents')"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2012,
+     "start": "2012-12-13",
+     "end": "2012-12-25",
+     "source": "articleId=2813 (posted 2012-12-13 inferred from relative timestamp); articleId=2827 ('Every day from December 13th through the 24th'); presents opened Dec 25 per both articles"
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-13",
+     "end": "2013-12-25",
+     "source": "(R) wiki '12 Days of Presents' 2013 list and image 12days2013.png ('Open Them All on December 25th'); exact days not in an article; dates inferred from the annual Dec 13-24 pattern"
+    }
+   ]
+  }
+ ],
+ "Thanksgiving Turkey Dance": [
+  {
+   "event": "Turkey Dance",
+   "record": "quest-lines/schedules.json svbaile-de-pavos-turkey-dance",
+   "season": {
+    "name": "Thanksgiving Turkey Dance",
+    "start_month": 11,
+    "start_day": 22,
+    "end_month": 11,
+    "end_day": 29,
+    "source": "(R) Window reconstructed, not sourced. US Thanksgiving is the 4th Thursday of November (22 to 28 Nov). The window runs from 22 Nov to 29 Nov so it covers the Thursday and the Friday after it in every year: the Friday after falls on 23 to 29 Nov. The end was widened from 28 to 29 Nov because when Thanksgiving is Thu 28 Nov the Friday is 29 Nov. The Friday-after rule comes from article 645 (http://www.freerealms.com:80/article/detail.action?articleId=645), whose year is not in the pack. The 2010 run (Thu 25 and Fri 26 Nov) is inside the window. No existing season matches; Halloween is a different event."
+   },
+   "zones": [
+    "Sanctuary",
+    "Pixiewood Hills"
+   ],
+   "runs": {
+    "npcs": [],
+    "props_or_areas": [
+     "Pixiewood shopping district, just north of the Sanctuary teleport stone"
+    ],
+    "quests": [],
+    "activities": [
+     "Community dance party at Pixiewood",
+     "Players wear turkey outfits and hats from the Marketplace",
+     "Bring a boombox (article 645 only)"
+    ],
+    "rewards": []
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-11-25",
+     "end": "2010-11-26",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1930 (Thu 25 Nov 15:00 Pacific; Fri 26 Nov 09:00 Pacific for UK and Europe; Server 1); http://www.freerealms.com:80/article/detail.action?articleId=1918 (Thanksgiving week 2010, Thu Nov 25 and Fri Nov 26, Server 1)"
+    }
+   ]
+  }
+ ],
+ "12 Days of Holidays": [
+  {
+   "event": "12 Days of Holidays (Free Realms, 2012 edition)",
+   "record": "quest-lines/schedules.json svbig-present",
+   "season": {
+    "name": "12 Days of Holidays",
+    "start_month": 12,
+    "start_day": 13,
+    "end_month": 12,
+    "end_day": 25,
+    "source": "http://www.freerealms.com:80/article/detail.action?articleId=2813 (fact:event: ran Dec 13 2012 12:01 am PST through Dec 24 2012 11:59 pm PST); end extended to Dec 25 (R) because presents open on Dec 25 per locale:441441 and wiki page 'Snow Days' (presents opened on December 25th, 2012). Reason: the window must cover the present-opening step. The 2011 SOE cross-game promotion also ran Dec 13-25 (articles 2442/2441/2433/2457 per pack, not re-verified here), but that is a different event."
+   },
+   "zones": [
+    "Snowhill"
+   ],
+   "runs": {
+    "npcs": [
+     "Trina Turtledove (locale:441046, 441963, 441965; client-sourced, not named in article 2813)"
+    ],
+    "props_or_areas": [
+     "Snowhill Gifting Tree area (locale:441099, 441123)",
+     "Frost Ridge Speedway (locale:441103, 441119)",
+     "Snowhill Soccer (locale:441111)"
+    ],
+    "quests": [
+     "12 Days Present - Day 1..12 (locale:441513-441524; year not tied by a dated source, confirm before wiring)",
+     "12 Days Bow - Day 1 (locale:441525; same caveat)",
+     "Big Present 1-3 (locale:441947-441949)"
+    ],
+    "activities": [
+     "Daily holiday challenge at Snowhill, one new challenge per day Dec 13-24; completing it on its first day gives a present with a bow (article 2813; locale:441441)",
+     "Present Tracker (locale:441440)",
+     "Open presents with Trina on Dec 25 (locale:441965, 441927)"
+    ],
+    "rewards": [
+     "A present with a bow per daily challenge completed on its first day (locale:441441)",
+     "Big Present for every 4 daily presents: tiers at 4, 8 and 12 (locale:441944-441946)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2012,
+     "start": "2012-12-13",
+     "end": "2012-12-25",
+     "source": "article 2813 (Dec 13-24 challenges, 12:01 am to 11:59 pm PST); locale:441441 and wiki 'Snow Days' (presents opened Dec 25, 2012)"
+    }
+   ]
+  },
+  {
+   "event": "SOE 12 Days of Holidays",
+   "record": "quest-lines/schedules.json svsoe-12-days-of-holidays-promotion",
+   "season": {
+    "name": "12 Days of Holidays",
+    "start_month": 12,
+    "start_day": 13,
+    "end_month": 12,
+    "end_day": 24,
+    "source": "articleId=2813 summary (verified this pass: Dec 13 to Dec 24, 2012, Free Realms holiday challenge at Snowhill) and articleId=2827 summary (verified: one daily challenge per day, Dec 13-24). Only the 2012 run is dated. Recurrence to later years is (R): the wiki's 'annual event, Dec 13-24' wording was not re-checked in this pass. Dec 25 present opening is not in this window (open)."
+   },
+   "zones": [
+    "Snowhill"
+   ],
+   "runs": {
+    "npcs": [],
+    "props_or_areas": [
+     "Snowhill holiday challenge area (articleId=2813 summary)"
+    ],
+    "quests": [
+     "12 Days 2013 - Day 1: Penguin Defense (locale:441125)",
+     "12 Days 2013 - Day 2: Snowball Fight (locale:441131)",
+     "12 Days 2013 - Day 3: Crafty Robgoblins (locale:441137)",
+     "12 Days 2013 - Day 4: Cookie! Nom Nom! (locale:441143)",
+     "12 Days 2013 - Day 5: Wintery Fishing (locale:441157)",
+     "12 Days 2013 - Day 6: Defend the Gifting Tree (locale:441163)",
+     "12 Days 2013 - Day 7: Snowhill Racing (locale:441169)",
+     "12 Days 2013 - Day 8: Nog Hog (locale:441175)",
+     "12 Days 2013 - Day 9: Snow Days Soccer (locale:441181)",
+     "12 Days 2013 - Day 10: Battle for Snowhill (locale:441187)",
+     "12 Days 2013 - Day 11: Snowhill Demo Derby (locale:441193)",
+     "12 Days 2013 - Day 12: Abominable Invasion (locale:441199)"
+    ],
+    "activities": [
+     "Daily holiday challenge at Snowhill, one per day Dec 13-24 (articleId=2813, 2827)",
+     "12 Days Introduction (locale:441439)"
+    ],
+    "rewards": [
+     "12 Days Present - Day 1 to Day 12 (locale:441513-441524), one per daily challenge (articleId=2813 summary)",
+     "12 Days Bow - Day 1 onward (locale:441525-441526)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2012,
+     "start": "2012-12-13",
+     "end": "2012-12-24",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2813 (Dec 13 00:01 PST to Dec 24 23:59 PST); articleId=2827 (Day 12 post)"
+    }
+   ]
+  }
+ ],
+ "Birthday Bash": [
+  {
+   "event": "Birthday Bash",
+   "record": "quest-lines/schedules.json svbirthday-content",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 15,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Window widened to cover the typical run. Start 4/15: the pre-launch preview says decorations appear from mid-April (http://www.tentonhammer.com:80/node/83041); the 2011 party post (articleId=2106) was captured 2011-04-30 and says it was posted 1 week, 1 day earlier, so its run start is approximately April 22 (inferred, not exact); article 2093 says a webcast started a little before the April 28 anniversary as the kickoff. End 5/24: article 2580 says the 2012 Bash ran through May 24, 2012, which also covers the 2011 end (May 18, article 2106) and the 2010 end (May 10, article 1268). Not a season already defined; Halloween is a different event."
+   },
+   "zones": [
+    "Sanctuary"
+   ],
+   "runs": {
+    "npcs": [
+     "Camellia",
+     "Queen Valerian",
+     "Chef Jarvie",
+     "Glerga",
+     "Mayor McFairy"
+    ],
+    "props_or_areas": [
+     "Birthday Bash party decorations (2010 and 2011 party areas; 2010 zones not named in sources)",
+     "Birthday Bash 2013 area in Sanctuary (article 2924)"
+    ],
+    "quests": [
+     "Birthday Bash!",
+     "Cakenstein Attacks!",
+     "Undelivered Confections",
+     "Mysteriously Cakey Remains",
+     "Cakey Clue",
+     "To Bake a Pretty Cake",
+     "Birthday Cake Bake-off",
+     "A Piece of Cake"
+    ],
+    "activities": [
+     "Sanctuary birthday cake bake-off (Camellia, Queen Valerian)",
+     "Daily party-prep quests",
+     "Cakenstein boss fight with cakelings"
+    ],
+    "rewards": [
+     "Birthday Bash Wall Sconce (locale:666)",
+     "Birthday Bash Furniture Bundle (locale:691; price not re-verified)",
+     "Birthday Bash Bed, Chair, Sofa, Dining Table (locale:436980-436983)",
+     "Birthday Bash Floor Lamp",
+     "Birthday Piñata pet (3rd birthday, article 2580; Station Cash sale not verified, price null)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": null,
+     "end": "2010-05-10",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1267 (anniversary April 29; party ran from the announcement, announcement date not sourced); http://www.freerealms.com:80/article/detail.action?articleId=1268 (ended May 10)"
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": "2011-05-18",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2106 (party ran from the post date, approximately April 22 inferred from capture, until May 18); http://www.freerealms.com/article/detail.action?articleId=2093 (2nd birthday April 28, webcast kickoff a little earlier)"
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-05-24",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2580 (ran through May 24, 2012). No run-start source found."
+    },
+    {
+     "year": 2013,
+     "start": null,
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2924 (4th birthday April 29, 2013; Birthday Bash area in Sanctuary). Anniversary date only; no run start or end sourced."
+    }
+   ]
+  },
+  {
+   "event": "Birthday Bash",
+   "record": "quest-lines/schedules.json svbirthday-party-areas",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 18,
+    "source": "(R) Window widened to cover the typical run. Start 4/28 is the earliest observed day: the 2011 anniversary was April 28 (articles 2099 and 2107 summaries), and players who logged in 4/28/2012 got the Birthday Cake Hat (article 2578). The 2010 anniversary was April 29 (article 1267 fact:event). End 5/18 is the 2011 end date (article 2099 fact:event, 'runs from the post date until May 18'). The 2010 run ended May 10 (article 1261) and the 2012 and 2013 end dates are unknown. Ending on 5/18 covers all dated years."
+   },
+   "zones": [
+    "Sanctuary",
+    "Happy Valley",
+    "Pixiewood Hills",
+    "Blackspore Swamp",
+    "Sacred Grove",
+    "Queensfields"
+   ],
+   "runs": {
+    "npcs": [
+     "Camellia (Sanctuary, party quest hub; article 1293, article 2107 summary)",
+     "Flitter (Sanctuary, Birthday Invitation; wiki Birthday Bash)",
+     "Quills (Sanctuary, Bundles of Balloons; locale:428077)",
+     "Commander Kiggle (Sanctuary, Downing Cakenstein; locale:428098)",
+     "General Glowlight (Cakey Madness; locale:428094)",
+     "Helga Humbleloaf (Pixiewood Hills, Feeding the Crowd; wiki only)",
+     "Sal Monella (Blackspore Swamp, Mystery Meat Mystery; wiki Sal Monella)",
+     "Cakenstein (boss, Sacred Grove disruption in 2012; wiki Cakenstein)"
+    ],
+    "props_or_areas": [
+     "Birthday party areas in eight zones (article 1261, 2011 and 2012 articles)",
+     "Birthday Party Crate (locale:5664, locale:5666)",
+     "Birthday Bash Furniture Bundle, 1350 Station Cash (locale:691, locale:692)",
+     "Birthday Bash Dining Table, Bed, Chair, Sofa (locale:436980-436983)"
+    ],
+    "quests": [
+     "Birthday Invitation (Flitter; wiki title only)",
+     "Bundles of Balloons (Quills; locale:428077)",
+     "Cakey Madness (Glowlight; wiki)",
+     "Downing Cakenstein (Kiggle; wiki)",
+     "Feeding the Crowd (Helga Humbleloaf; wiki title only)",
+     "Blackspore Mystery Meat Mystery (Sal Monella; locale:428709, exact title unresolved)",
+     "Birthday Cake Bake-off (Camellia; wiki title only)"
+    ],
+    "activities": [
+     "Cakenstein Attacks! (locale:4918)",
+     "Cakelings (locale:4732)",
+     "Cake-Eating Cakelings minigame (video:0feIhpgdWOc/00006.jpg)",
+     "Party Piñata pet and birthday furniture in Marketplace (currency not stated)"
+    ],
+    "rewards": [
+     "Birthday Cake Hat (free login reward, 2012; article 2578, wiki)",
+     "Birthday T-shirts for zones: Blackspore Swamp, Briarwood, Free Realms, Merry Vale, Sanctuary, Seaside, Shrouded Glade, Snowhill, Wugachug (wiki Birthday Bash; Seaside page not fetched)",
+     "Birthday Crates (wiki Birthday Crates; currency not stated)",
+     "Birthday Invitation item (locale:4951)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-04-29",
+     "end": "2010-05-10",
+     "source": "Start is the anniversary date (article 1267 fact:event: first anniversary fell on April 29, 2010, party held from announcement). End is May 10 (article 1261 fact:event). Party start day is not separately dated."
+    },
+    {
+     "year": 2011,
+     "start": "2011-04-28",
+     "end": "2011-05-18",
+     "source": "article 2099 fact:event and summary (second birthday party from post date until May 18; anniversary April 28). Article 2107 summary says the same May 18 end."
+    },
+    {
+     "year": 2012,
+     "start": "2012-04-28",
+     "end": null,
+     "source": "article 2578 (players logging in on 4/28/2012 got the Birthday Cake Hat; Station Cash tripled that day). End date not sourced. Wiki Birthday Cake Hat says the hat was available until the Bash ended."
+    },
+    {
+     "year": 2013,
+     "start": "2013-04-29",
+     "end": null,
+     "source": "article 2924 summary only (4th birthday announced for April 29, with a Birthday Bash area in Sanctuary). Not a dated fetch."
+    }
+   ]
+  },
+  {
+   "event": "Birthday Bash (Free Realms anniversary party)",
+   "record": "quest-lines/schedules.json svbirthday-party-for-free-realms",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Window covers every dated run in the pack: 2010 to May 10 (article 1267), 2011 to May 18 (articles 2107, 2099), 2012 to May 24 (article 2580, confirmed by lookup). 2013 is unverified and not used to set the window. Reason: the runs fall in late April to late May and end dates differ by year, so the widest span is used. The Apr 28 start is the anniversary-day estimate, not a posting day: no article gives the posting day in any year (1261 and 1268 give no date). Does not overlap Halloween (Sep 20 to Nov 11). No existing season name fits, so a new name is used."
+   },
+   "zones": [
+    "Joyful Vale",
+    "Criqueville",
+    "Snow Hill",
+    "Misty Glade",
+    "Wugachug",
+    "Blackspore",
+    "Heather Moor",
+    "Sanctuary"
+   ],
+   "runs": {
+    "npcs": [
+     "Camellia (royal party planner, pixie, Sanctuary; wiki page Camellia, year unknown)",
+     "Queen Valerian (2012, from pack, not re-run)"
+    ],
+    "props_or_areas": [
+     "Birthday Bash area in Sanctuary (article 2924, unverified 2013)",
+     "Eight party zones in 2010 only (article 1267): Joyful Vale, Criqueville, Snow Hill, Misty Glade, Wugachug, Blackspore, Heather Moor, Sanctuary. 2011-2013 zones are unknown."
+    ],
+    "quests": [
+     "Birthday Cake Bake-off (wiki Camellia)",
+     "A Piece of Cake (wiki)",
+     "Undelivered Confections (wiki Camellia)",
+     "Birthday Party! Yay! (locale 139313)"
+    ],
+    "activities": [
+     "Cakenstein Attacks! minigame (video pJzcZTI1Pgk/00238)",
+     "Ambassador Hide and Seek (2010, article 1308 summary; locale 6540 has no year)"
+    ],
+    "rewards": [
+     "Birthday Party Balloons 4-Pack (Cakenstein minigame win, video pJzcZTI1Pgk/00238)",
+     "Birthday Bash balloon weapons: Balloon Hammer, Balloon Wand, Balloon Bow, Balloon Axe, Level 16 (wiki; quest presents per article 2106, not re-run; also sold, no price)",
+     "Birthday Crate / Birthday Party Crate (article 1261; locale 5664), sold in Marketplace; placing one starts the party. No price in any source.",
+     "Per-area Birthday Bash T-shirts (wiki; acquisition not dated)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": null,
+     "end": "2010-05-10",
+     "source": "Start unknown: articles 1261 and 1268 say the party ran from the posting day, which no article dates. Anniversary is April 29, 2010 (article 1267). End May 10, 2010 (articles 1261, 1267). Hourly parties in different regions on April 29 (article 1308 summary; the 9am-5pm PDT hours are not confirmed and are dropped). TenTonHammer 83041 gives April 28 for the anniversary, a conflict left open. Pre-launch decorations (83041) are a plan and are not counted as live."
+    },
+    {
+     "year": 2011,
+     "start": "2011-04-28",
+     "end": "2011-05-18",
+     "source": "(R) Start is the anniversary day (April 28, 2011, article 2107 and 2099); the posting day is not in the source. Article 2099 says the party ran from the post date until May 18. Webcast Thursday 4pm US Pacific from article 2094; its date conflicts (2093 says April 2, 2098 says April 21) and is left open."
+    },
+    {
+     "year": 2012,
+     "start": "2012-04-28",
+     "end": "2012-05-24",
+     "source": "(R) Start is the anniversary day (April 28, 2012, article 2580); the posting day is not given. End May 24, 2012 confirmed by lookup of article 2580."
+    },
+    {
+     "year": 2013,
+     "start": "2013-04-29",
+     "end": null,
+     "source": "UNVERIFIED: article 2924 (4th birthday April 29, 2013, Ambassadors dancing at the Birthday Bash area in Sanctuary) did not return in a later lookup. Single-sourced; no end date. Not used to set the season window."
+    }
+   ]
+  },
+  {
+   "event": "Free Realms Birthday Bash (anniversary celebration)",
+   "record": "quest-lines/schedules.json svcake-fights",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Window covers the dated runs in the pack. Anniversary anchor is April 29 (articleId=1267: anniversary 'fell on April 29, 2010'; wiki:Birthday Bash). April 28 is the 2011 and 2012 party-start date used by the pack (articleId=2107 says anniversary April 28; 2012 Station Cash tripled 4/28/2012, articleId=2578). End May 24 is verified for 2012 (articleId=2580 'ran through May 24, 2012'). Widened because no single year covers the whole span, and because the wiki's 'throughout April' wording conflicts with the May end dates. Reason for Apr 28 start: it sits one day before the anniversary so it covers both the Apr 28 and Apr 29 anchors."
+   },
+   "zones": [
+    "Sanctuary",
+    "Sacred Grove"
+   ],
+   "runs": {
+    "npcs": [
+     "Camellia (Sanctuary; articleId=1267, 2107)",
+     "Queen Valerian (Sanctuary cake bake-off; articleId=2580)",
+     "Cakenstein (boss; locale:9043)",
+     "Cakelings (wiki:Cakeling)",
+     "Chef Jarvie (locale:428045)",
+     "Glerga (locale:428065)",
+     "General Glowlight (locale:428094)"
+    ],
+    "props_or_areas": [
+     "Birthday Bash area in Sanctuary (articleId=2924)",
+     "Sacred Grove cake competition (locale:707)"
+    ],
+    "quests": [
+     "Cakenstein Attacks!",
+     "Defeat Cakenstein!",
+     "Cakenstein's Last Stand (locale:428064)"
+    ],
+    "activities": [
+     "Fight Cakenstein and cakelings in Sacred Grove and around Sanctuary (articleId=2580)",
+     "Daily party-prep quests (articleId=2580, 2107)",
+     "Cake bake-off competition (locale:707)",
+     "Log in during the Bash for a free Birthday Cake hat (articleId=2580)"
+    ],
+    "rewards": [
+     "Balloon Bow, Hammer, Saw, Sword, Axe, Wand (locale:6792-6797)",
+     "Birthday Cake Hat (articleId=2580)",
+     "Boss Birthday Cake for collecting area cakes (locale:14419; count not reconciled)",
+     "Birthday Party Crate and Birthday T-shirts (locale:5664, 5721-5723)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": null,
+     "end": "2010-05-10",
+     "source": "articleId=1267 (verified): anniversary fell on April 29, 2010; party ran 'from the announcement until May 10, 2010'. Start is the announcement date, which is not in evidence; April 29 is the anniversary, not the party start."
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": "2011-05-18",
+     "source": "articleId=2099, 2107 (per pack; end not re-verified here). Anniversary April 28 per articleId=2107; party start is the posting date, which is not in evidence."
+    },
+    {
+     "year": 2012,
+     "start": "2012-04-28",
+     "end": "2012-05-24",
+     "source": "articleId=2580 (verified: 'ran through May 24, 2012'); articleId=2578 (Station Cash tripled on 4/28/2012)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-04-29",
+     "end": null,
+     "source": "articleId=2924 (title 'Happy 4th Birthday, Free Realms!'). End not in evidence; the May 24 window end is carried from 2012 and not confirmed for 2013."
+    }
+   ]
+  },
+  {
+   "event": "Free Realms Birthday Bash (anniversary celebration)",
+   "record": "quest-lines/schedules.json svfree-realms-4th-birthday",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Reconstructed window. End May 24 confirmed: articles fact/summary for articleId=2580 ('third-anniversary Birthday Bash ... ran through May 24, 2012'). Start April 28 rests on the anniversary dates (April 29 in 2010 per articleId=1267/1308; April 28 in 2011 per articleId=2107) and on a claimed 4/28/2012 start (articleId=2578), which I could not retrieve this pass. No season name exists in seasons_already_defined; Halloween (Sep 20 to Nov 11) does not overlap."
+   },
+   "zones": [
+    "Sanctuary (Camellia; cake bake-off; Birthday Bash area; locale:707; articleId=2580, 2924)",
+    "Sacred Grove (chefs and Cakenstein; locale:707; articleId=2580)",
+    "Snowhill (locale:6420, single source)"
+   ],
+   "runs": {
+    "npcs": [
+     "Queen Valerian (articleId=2580, 2012 bake-off)",
+     "Camellia (locale:707; articleId=2107 names her Camilla)",
+     "Cakenstein (locale:707, 4918, 4949; articleId=2580)",
+     "Ambassadors (articleId=2924, 2013)",
+     "Glerga, Sal Monella, Bordon Cloo, Quills (bash-related dialog, year unknown; not placed in any occurrence)"
+    ],
+    "props_or_areas": [
+     "Birthday Bash area in Sanctuary (articleId=2580, 2924)",
+     "Birthday Bash furniture (locale:436980-436983, 437014; 691-692)",
+     "Birthday Bash Wall Sconce (locale:666)"
+    ],
+    "quests": [
+     "Daily party-prep quests (articleId=2580; 2011 per articleId=2107)",
+     "'Birthday Bash!' (locale:29341) and 'Cakenstein Attacks!' (locale:4917): quest type unconfirmed"
+    ],
+    "activities": [
+     "Cake bake-off led by Queen Valerian (2012, articleId=2580)",
+     "Fight Cakenstein and cakelings (locale:707; articleId=2580)",
+     "Visit party locations across towns (articleId=2099; locale:6420)",
+     "Invite a friend to the Birthday Bash (locale:4952)",
+     "Dance with the Ambassadors (2013, articleId=2924)"
+    ],
+    "rewards": [
+     "Birthday Cake Hat (locale:694; articleId=2580)",
+     "Birthday Bash balloon weapons from Cakenstein prize wheel (wiki Balloon Bow; locale:6792-6797 names)",
+     "Eight-cake collection reward (2011, articleId=2099)",
+     "Birthday Bash Furniture Bundle, 1350 Station Cash (locale:691-692; sale year not stated)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-04-29",
+     "end": "2010-05-10",
+     "source": "Start (R): anniversary April 29, 2010 (articleId=1267, 1308 eight regional parties that day); party start not stated. End: articleId=1330, 1268 (launch-day kickoff until May 10)."
+    },
+    {
+     "year": 2011,
+     "start": "2011-04-28",
+     "end": "2011-05-18",
+     "source": "Start: anniversary date April 28, 2011 (articleId=2107, 2093 per earlier pass). End May 18 is UNVERIFIED: the article summaries in the index did not return for articleId=2099/2107 this pass."
+    },
+    {
+     "year": 2012,
+     "start": "2012-04-28",
+     "end": "2012-05-24",
+     "source": "End: articleId=2580 (verified this pass: ran through May 24, 2012; tentonhammer 3rd birthday article). Start 04-28 is per the critique's citation of articleId=2578 (login reward 4/28/2012), which I could not retrieve; treat as unverified."
+    },
+    {
+     "year": 2013,
+     "start": "2013-04-29",
+     "end": null,
+     "source": "articleId=2924 dated 2013-04-29 (dance with Ambassadors in Sanctuary Birthday Bash area), per earlier pass; not re-verified this pass. No end date given."
+    }
+   ]
+  },
+  {
+   "event": "Free Realms Birthday Bash",
+   "record": "quest-lines/schedules.json svfree-realms-birthday",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Anchored on the game's launch anniversary, April 28 (articleId=2093, 2106, 2094 for 2011), with the 2010 anniversary on April 29 (articleId=1267, 1308) and 2013 on April 29 (prior pack, articleId=2924). End May 24 = latest sourced run end (2012, articleId=2580). Reason for widening: sourced ends are May 10 (2010, articleId=1261, 1267), May 18 (2011, articleId=2106, 2099), May 24 (2012). The wiki's 'throughout April' (wiki:Events) conflicts with these May ends and is not used. Window not a clean April window; start is an anniversary anchor, not a sourced party start for every year."
+   },
+   "zones": [
+    "Sanctuary",
+    "Happy Valley",
+    "Sacred Grove"
+   ],
+   "runs": {
+    "npcs": [
+     "Camellia",
+     "Queen Valerian",
+     "Chef Jarvie",
+     "Sal Monella",
+     "Bordon Cloo",
+     "Glerga",
+     "Quills"
+    ],
+    "props_or_areas": [
+     "Birthday Bash area in Sanctuary (2013, articleId=2924)",
+     "Birthday party areas across zones (2010, articleId=1261)"
+    ],
+    "quests": [
+     "Free Realms Turns Three! (2012; starts by speaking to Camellia in Sanctuary, locale:706, 707)"
+    ],
+    "activities": [
+     "2010: birthday party areas and quests from Sanctuary NPCs (articleId=1261)",
+     "2011: birthday quests, party items, and the boss Kuchenstein with his cakelings (articleId=2099, German post)",
+     "2012: cake bake-off led by Queen Valerian; stop Cakenstein and the cakelings (locale:707)",
+     "2013: Ambassadors at the Birthday Bash area in Sanctuary (articleId=2924)"
+    ],
+    "rewards": [
+     "Birthday Cake Hat, free for logging in during the 2012 Bash (articleId=2580) and on 2012-04-28 (articleId=2578)",
+     "Birthday Bash furniture, Station Cash: Furniture Bundle 1350 Station Cash (locale:692); Bed, Chair, Sofa, Dining Table, Wall Sconce, Floor Lamp (Marketplace update April 24, 2012, wiki:Template:News/Archive)",
+     "Piñata Pony pet, Station Cash (year and price unsourced)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-04-29",
+     "end": "2010-05-10",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1267 (anniversary fell on April 29, party from announcement until May 10); http://www.freerealms.com/article/detail.action?articleId=1261 (ran from posting day until May 10th); http://www.freerealms.com:80/article/detail.action?articleId=1308 (All Day Birthday Party April 29, 2010). Conflict: node/83041 says April 28 (not used)."
+    },
+    {
+     "year": 2011,
+     "start": "2011-04-28",
+     "end": "2011-05-18",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2093 and 2106 (anniversary April 28); http://www.freerealms.com:80/article/detail.action?articleId=2106 (second birthday event ran from start of post until May 18); articleId=2099 (German post, April 28 anniversary, runs to May 18). Start is the anniversary date; the post's own start date is not sourced."
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-05-24",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2580 (Bash through May 24). Start not sourced. Separate one-day login event 2012-04-28: articleId=2578 (not the Bash window)."
+    },
+    {
+     "year": 2013,
+     "start": "2013-04-29",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2924 (start per prior pack, not re-read); end unsourced"
+    }
+   ]
+  },
+  {
+   "event": "Free Realms Birthday Bash (anniversary party)",
+   "record": "quest-lines/schedules.json svfree-realms-first-anniversary-party",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 29,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) start Apr 29 = anniversary day per wiki Category:Birthday Bash Weapons ('active ... around Free Realms's anniversary, which occurs on April 29'); end May 24 = last day of 2012 run per http://www.freerealms.com/article/detail.action?articleId=2580 and locale:695. Window widened to cover the 2010 run (ended May 10, article 1267). Reason: start days are not printed for 2010 or 2012, so the window is reconstructed from the anniversary date and the observed end dates. Not confirmed for 2011."
+   },
+   "zones": [
+    "Sanctuary"
+   ],
+   "runs": {
+    "npcs": [
+     "Camellia",
+     "Queen Valerian",
+     "Glerga",
+     "Cakenstein"
+    ],
+    "props_or_areas": [
+     "Birthday Bash party areas (2010 zone count not sourced; not listed)"
+    ],
+    "quests": [],
+    "activities": [
+     "Cake bake-off storyline in Sanctuary with daily party-prep quests (article 2580; locale:707)",
+     "Cakenstein Attacks! encounter (locale:4917-4918, year not sourced)"
+    ],
+    "rewards": [
+     "Birthday Cake Hat (locale:707, login reward in 2012)",
+     "Balloon Bow and balloon weapons from Cakenstein Attacks! (wiki Balloon Bow; locale:6792-6797, year not sourced)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-04-29",
+     "end": "2010-05-10",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1267 (anniversary April 29; party in game until May 10; start of party not printed, so start is the anniversary date (R))"
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-05-24",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2580 (ran through May 24, 2012); locale:695"
+    }
+   ]
+  },
+  {
+   "event": "Free Realms Birthday Bash (anniversary celebration)",
+   "record": "quest-lines/schedules.json svfree-realms-second-anniversary",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Window reconstructed from the run dates in the pack: start April 28 (launch anniversary; 2011 post dated April 28, articleId=2093; 2010 started April 29, articleId=1267), end May 24 (2012 run confirmed: http://www.freerealms.com/article/detail.action?articleId=2580 'ran through May 24, 2012', re-checked in articles index). Covers 2010 (to May 10), 2011 (to May 18) and 2012 (to May 24). The start of 2012 is not sourced in the pack."
+   },
+   "zones": [
+    "Sanctuary",
+    "Sacred Grove (2012, locale:707)",
+    "Queensfields (2010-era Cakenstein battle, locale:428092)",
+    "Merry Vale, Seaside, Snowhill, Shrouded Glade, Wugachug, Blackspore, Briarwood (2011, articleId=2107)"
+   ],
+   "runs": {
+    "npcs": [
+     "Camellia",
+     "Queen Valerian",
+     "Chef Jarvie",
+     "Glerga",
+     "Sal Monella",
+     "Bordon Cloo",
+     "General Glowlight",
+     "Quills",
+     "Mayor McFairy",
+     "Cakenstein (Gatostein 2010 / Kuchenstein 2011 / Cakenstein 2012)",
+     "Bambi",
+     "Tinker Bell",
+     "Domo"
+    ],
+    "props_or_areas": [
+     "Birthday Bash furniture (names only: locale:436980-436983, 437014, 666, 691)",
+     "Birthday Bash wiki category (no client area id sourced)"
+    ],
+    "quests": [
+     "Birthday Bash! (locale:29341)",
+     "Cakenstein Attacks! (locale:4917)"
+    ],
+    "activities": [
+     "Cake bake-off with Camellia and the Sacred Grove chefs (locale:707)",
+     "Defeat Cakenstein and cakelings with fireworks (locale:4918, 4949, 428063, 428096)",
+     "Investigate cakeling remains for Chef Jarvie (locale:428045)",
+     "Find mystery meat for Sal Monella (locale:428708, 428710)",
+     "Trade for balloon bundles for Quills (locale:428078)",
+     "Meet guests Bambi, Tinker Bell and Domo (articleId=2122, 2124)",
+     "Daily party-prep quests (articleId=2580)"
+    ],
+    "rewards": [
+     "Birthday Cake hat (free login reward during the Bash, articleId=2580)",
+     "Party Pinata pets (four, articleId=2580)",
+     "Balloon weapons from Cakenstein Attacks! (locale:6792-6797; price/currency not sourced)",
+     "Eight-cake collection reward (2011, articleId=2099)",
+     "Cakenstein's Treasure (locale:9049)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-04-29",
+     "end": "2010-05-10",
+     "source": "articleId=1267; articleId=1308; articleId=1330"
+    },
+    {
+     "year": 2011,
+     "start": "2011-04-28",
+     "end": "2011-05-18",
+     "source": "articleId=2093; articleId=2099; articleId=2107"
+    },
+    {
+     "year": 2012,
+     "start": "2012-04-28",
+     "end": "2012-05-24",
+     "source": "end: articleId=2580 (confirmed); start (R): assumed from the April 28 anniversary, not stated in the pack"
+    },
+    {
+     "year": 2013,
+     "start": "2013-04-29",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2924 (single brief post, no end date; not a confirmed full run)"
+    }
+   ]
+  },
+  {
+   "event": "Birthday Bash",
+   "record": "quest-lines/schedules.json svg-tostein",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 1,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Start 04-01: wiki Birthday Bash (ns0) says the event is 'an annual event held throughout the month of April in celebration of launch day for Free Realms on April 29th, 2009'. The start is the April run from the wiki, not a printed post date. End 05-24: articleId=2580 (http://www.freerealms.com/article/detail.action?articleId=2580) says the third-anniversary Birthday Bash 'ran through May 24, 2012' (verified by lookup). The 2010 end (May 10, articleId=1261) and 2011 end (May 18, articleId=2099) fall inside April 1 to May 24. Halloween (Sep 20 to Nov 11) is a different season, so no reuse."
+   },
+   "zones": [
+    "Sanctuary",
+    "Sacred Grove"
+   ],
+   "runs": {
+    "npcs": [
+     "Cakenstein (Gâtostein in French articles; wiki Cakenstein, articleId=2580)",
+     "Cakeling (wiki Cakeling: appears throughout Sacred Grove during the Birthday Bash)",
+     "Queen Valerian (articleId=2580: Sanctuary cake bake-off)"
+    ],
+    "props_or_areas": [
+     "Sacred Grove Cakenstein disruption (articleId=2580, 2012)",
+     "Sanctuary cake bake-off and party prep (articleId=2580, 2012)",
+     "Birthday party areas in eight zones (articleId=1261, 2010)"
+    ],
+    "quests": [
+     "Cakenstein Attacks! (locale:4917; objectives locale:4918, 4947, 4948, 4949)"
+    ],
+    "activities": [
+     "Daily party-prep quests in Sanctuary (articleId=2580, 2012)",
+     "Defeat Cakenstein (locale:4948); seven fireworks defeats (articleId=1293, undated)"
+    ],
+    "rewards": [
+     "Balloon Hammer, Balloon Bow, Balloon Axe, Balloon Sword, Balloon Saw, Balloon Wand from the Cakenstein Attacks! prize wheel (wiki; no year)",
+     "Cupcake Hat (wiki; no year, no price)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": null,
+     "end": "2010-05-10",
+     "source": "articleId=1261 (http://www.freerealms.com/article/detail.action?articleId=1261): first-anniversary Birthday Party event 'ran from the posting day until May 10th'. Posting day not printed (R). The 2010 boss link pack cited (1267) was not verified."
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": "2011-05-18",
+     "source": "articleId=2099 (http://www.freerealms.com:80/article/detail.action?articleId=2099): second birthday party 'ran from the post date until May 18'. Post date not printed, so the start is left null, not the April 28 anniversary."
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-05-24",
+     "source": "articleId=2580 (http://www.freerealms.com/article/detail.action?articleId=2580): third-anniversary Birthday Bash 'ran through May 24, 2012'. Start not printed; the wiki ties the event to April 29 launch day (R)."
+    }
+   ]
+  },
+  {
+   "event": "Free Realms Birthday Bash (Free Realms anniversary celebration)",
+   "record": "quest-lines/schedules.json svg-tostein-cakenstein-boss",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 21,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Yearly window reconstructed to cover the observed runs. Anchor: the game's launch anniversary is April 29 (wiki ns0 Events: 'throughout the month of April ... launch day ... April 29th, 2009'; articles facts.json:8224 gives April 29, 2010 as the first anniversary). Observed ends: May 10, 2010 (articles 1267 French, 1268 German); May 18, 2011 (article 2106 summary, quest-lines/events.json:715); May 24, 2012 (article 2580, facts.json:23993). Start April 21 is the earliest start inferred for 2011 (party 'about April 21-22, 2011', quest-lines/events.json:689, inferred, not stated); the 2012 start is unknown. The April 1-30 window in the previous answer cut off every observed run end, so it was rejected. No overlap with Halloween (Sep 20 to Nov 11)."
+   },
+   "zones": [
+    "Sanctuary",
+    "Sacred Grove"
+   ],
+   "runs": {
+    "npcs": [
+     "Camellia",
+     "Queen Valerian"
+    ],
+    "props_or_areas": [
+     "Sanctuary Birthday Bash area and cake-competition area near the great tree (locale:707; article 2924 for 2013 area)",
+     "Sacred Grove: Cakenstein loose and the celebration across Sacred Grove (article 2580, facts.json:42417 and the Cakenstein fact)"
+    ],
+    "quests": [
+     "Cakenstein Attacks! (locale:4917)",
+     "Daily party-prep quests (article 2580)"
+    ],
+    "activities": [
+     "Help Camellia's cake competition near the great tree in Sanctuary (locale:707)",
+     "Stop Cakenstein and the cakelings (locale:707)",
+     "Defeat Cakenstein! (locale:4948)"
+    ],
+    "rewards": [
+     "Birthday Cake Hat, free to characters who logged in during Birthday Bash 2012 (locale:707; wiki ns0 Birthday Cake Hat)",
+     "Balloon Bow, obtained through the Cakenstein Attacks! encounter, then purchasable (locale:6792)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-04-29",
+     "end": "2010-05-10",
+     "source": "Article 1267 (French): first anniversary fell April 29, 2010; party from announcement until May 10, 2010. Article 1268 (German): party starts on the posting day, ends May 10. Article 1308: eight hourly regional parties on April 29, 2010 (day and hours). Start is April 29 per 1308; posting-day start not dated."
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": "2011-05-18",
+     "source": "Article 2106 summary and quote (quest-lines/events.json:715): party ran until May 18, 2011; game's 2nd birthday April 28 (article 2107). Start approx. April 21-22, 2011 is inferred, not stated. Full article text not re-read."
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-05-24",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2580 (articles summary and fact: 'ran through May 24, 2012'); locale:707 ('during Birthday Bash 2012')."
+    }
+   ]
+  },
+  {
+   "event": "Birthday Bash (Free Realms anniversary celebration)",
+   "record": "quest-lines/schedules.json svinvitation-delivery-contest",
+   "season": {
+    "name": "Birthday Bash",
+    "start_month": 4,
+    "start_day": 29,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) End date May 24 is sourced for the 2012 Bash (http://www.freerealms.com/article/detail.action?articleId=2580; locale:695). Start date April 29 is the sourced anniversary date for 2013 (http://www.freerealms.com:80/article/detail.action?articleId=2924) and the wiki says the content is active 'around Free Realms's anniversary, which occurs on April 29' (wiki Category:Birthday Bash Weapons). No source gives a start date for the Bash itself; the window is reconstructed from anniversary to 2012 end. Conflicts with the wiki's 'throughout April' wording, unresolved."
+   },
+   "zones": [
+    "Sanctuary",
+    "Sacred Grove",
+    "Queensfields"
+   ],
+   "runs": {
+    "npcs": [
+     "Flitter",
+     "Camellia",
+     "Queen Valerian",
+     "Quills",
+     "Helga",
+     "Cakenstein"
+    ],
+    "props_or_areas": [
+     "Birthday Bash area in Sanctuary (article 2924)",
+     "Cakenstein disruption across Sacred Grove (article 2580)"
+    ],
+    "quests": [
+     "Sanctuary Birthday Invitation (objective text, locale:428074; exact title unconfirmed)",
+     "Daily party-prep quests for the cake bake-off (article 2580)"
+    ],
+    "activities": [
+     "Daily birthday invitations from Flitter, once per day (wiki Birthday Bash; locale:4952)",
+     "Invitation contest vs Flitter for a special prize (article 1282)",
+     "Cake bake-off help for chefs, daily (locale:707; article 2580)",
+     "Balloon trading with Quills (article 1282)",
+     "Cakenstein boss fights in Sanctuary and Queensfields, 2010 (article 1282 summary)",
+     "Cakenstein minigame in Sacred Grove, 2012 (article 2580)",
+     "Dancing and socializing at the Bash area in Sanctuary, 2013 (article 2924)"
+    ],
+    "rewards": [
+     "Birthday Cake hat, free login during the 2012 Bash (article 2580)",
+     "Sanctuary/Briarwood/Snowhill/Wugachug/Merry Vale/Shrouded Glade/Blackspore Swamp Birthday T-Shirts (wiki, acquired during the Bash)",
+     "Birthday Bash weapons: Balloon Hammer/Wand/Bow/Axe (wiki, 2011 Bash)",
+     "Flitter's invitation-contest prize (unnamed in any source)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": null,
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1282 (1st-birthday framing, undated)"
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": null,
+     "source": "wiki Gifting Piñata; wiki Balloon Bow ('available during 2011 Birthday Bash'); no dates"
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-05-24",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2580; locale:695 (3rd anniversary; start not stated)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-04-29",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2924 (4th birthday on April 29; end not stated)"
+    }
+   ]
+  }
+ ],
+ "Anniversary Birthday Party": [
+  {
+   "event": "Free Realms Anniversary Birthday Party",
+   "record": "quest-lines/schedules.json svbirthday-party-decorations",
+   "season": {
+    "name": "Anniversary Birthday Party",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Window widened to cover the typical run: anniversary April 28-29 (articleId 2099 says April 28 for 2011; articleId 1267 says April 29, 2010), ends May 10 (2010, articleIds 1261/1267), May 18 (2011, articleId 2099/2107), May 24 (2012, articleId 2580 summary). The end date May 24 covers all three sourced ends. Reason: the 2012 start date is unsourced; the 2010 and 2011 starts are the posting day, which falls near the anniversary."
+   },
+   "zones": [],
+   "runs": {
+    "npcs": [
+     "Camellia (Sanctuary, birthday quests; articleIds 1267, 2107)",
+     "Cakenstein (cake monster; articleIds 1268, 2580; locale:707)",
+     "Kuchenstein (2011 cakeling boss, German name; articleId 2099)",
+     "Queen Valerian (2012 cake bake-off storyline in Sanctuary; articleId 2580)"
+    ],
+    "props_or_areas": [
+     "Party areas across the game's zones (eight zones in 2010, articleIds 1261/1267); zone names not assigned to a year"
+    ],
+    "quests": [],
+    "activities": [
+     "Start birthday party quests from Camellia in Sanctuary (articleIds 1267, 2107)",
+     "Visit party areas (articleIds 1261, 1267, 2099)",
+     "Stop Cakenstein and the cakelings from eating the cake (articleIds 1268, 2099, 2580)",
+     "2012 cake bake-off and daily party-prep quests (articleId 2580)",
+     "Buy party items on the Marketplace (articleId 1261)"
+    ],
+    "rewards": []
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-04-29",
+     "end": "2010-05-10",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1267 (anniversary April 29; party from announcement until May 10); articleId 1261 (ran from posting day until May 10). Start is the anniversary, not the announcement date (R)."
+    },
+    {
+     "year": 2011,
+     "start": "2011-04-28",
+     "end": "2011-05-18",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2099 (anniversary April 28; post date until May 18); articleId 2107. Start is the anniversary, not the posting date (R)."
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-05-24",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2580 (ran through May 24, 2012). Start unsourced."
+    }
+   ]
+  }
+ ],
+ "Child's Play Charity Drive": [
+  {
+   "event": "SOE Child's Play Charity Drive",
+   "record": "quest-lines/schedules.json svchild-s-play-charity-drive",
+   "season": {
+    "name": "Child's Play Charity Drive",
+    "start_month": 12,
+    "start_day": 6,
+    "end_month": 12,
+    "end_day": 31,
+    "source": "(R) Yearly window Dec 6 to Dec 31, chosen to cover the 2011 run (wiki Snowflake: December 6 to December 31, 2011), the 2010 run (Dec 21 to Dec 31, article 1972 summary: 'from Dec. 21 through Dec. 31'), and the December part of the 2009 run (wiki Ziggy: December 17, 2009 to January 17, 2010). Reason for (R): the 2009 run's January 1 to 17 tail is supported only by that one year, so it is kept as a one-off in original_dates and not added to the yearly window. The earlier Dec 6 to Jan 17 union was rejected because it adds 17 January days that only one run uses."
+   },
+   "zones": [],
+   "runs": {
+    "npcs": [],
+    "props_or_areas": [
+     "SC Marketplace (Station Cash pet sales)"
+    ],
+    "quests": [],
+    "activities": [
+     "Buy Child's Play items in the Station Cash marketplace; SOE donates $10 per item up to $50,000 (locale:2659, locale:6858, locale:9299, locale:156893)"
+    ],
+    "rewards": [
+     "Ziggy the Triceratops (2009; wiki Ziggy; locale:156893; price not stated)",
+     "Tack the Penguin (2010; locale:6858; article 1972; price not stated)",
+     "Snowflake the Unicorn (2011; wiki Snowflake; locale:2659; 500 Station Cash per Snowflake.jpg image text only)",
+     "Teddy Bear Parachute (locale:9299; year and price unknown)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-17",
+     "end": "2010-01-17",
+     "source": "wiki Ziggy ('formerly sold through the SC Marketplace at the price of from December 17, 2009 to January 17, 2010'); articles 732 summary ('The drive ran from December 17, 2009 to January 17, 2010'); locale:426479"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-21",
+     "end": "2010-12-31",
+     "source": "articles 1972 summary ('For each select in-game item purchased from Dec. 21 through Dec. 31, SOE will donate $10'); articles 1981 and 1980 per prior pass; locale:6858"
+    },
+    {
+     "year": 2011,
+     "start": "2011-12-06",
+     "end": "2011-12-31",
+     "source": "wiki Snowflake ('from December 6 to December 31, 2011'); wiki Pets ('sales benefited Child's Play in 2011'); wiki image Snowflake.jpg ('Available now through December 31st')"
+    }
+   ]
+  },
+  {
+   "event": "Child's Play Charity Drive",
+   "record": "quest-lines/schedules.json svsoe-child-s-play-charity-drive",
+   "season": {
+    "name": "Child's Play Charity Drive",
+    "start_month": 12,
+    "start_day": 6,
+    "end_month": 1,
+    "end_day": 17,
+    "source": "(R) Window widened to cover all three evidenced runs. 2011: wiki Snowflake, December 6 to December 31, 2011 (confirmed by the critique pass). 2010: December 21 to 31 from article 1972 (capture-year summary, see open). 2009: wiki Ziggy, 'from December 17, 2009 to January 17, 2010', and article 732 summary. The window must wrap the year end because of 2009. The yearly repeat of this window is a judgement from three years of evidence."
+   },
+   "zones": [],
+   "runs": {
+    "npcs": [
+     "Ziggy (client npc_name locale:426321; dialog locale:426322)",
+     "Tack (npc_dialog locale:6857)"
+    ],
+    "props_or_areas": [],
+    "quests": [],
+    "activities": [
+     "Station Cash purchase of a featured pet; SOE donates $10 per purchase, capped at $50,000 (locale:426479, locale:6858, locale:9299, article 732)"
+    ],
+    "rewards": [
+     "Ziggy the Triceratops pet (2009; 500 Station Cash per article 732 summary)",
+     "Tack the Penguin pet (2010; price not stated in any source)",
+     "Snowflake the Unicorn (2011; 500 from promo image text only, flagged)",
+     "Teddy Bear Parachute (year, price and window unknown; tied only by locale:9299)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-17",
+     "end": "2010-01-17",
+     "source": "wiki page Ziggy ('from December 17, 2009 to January 17, 2010'); http://www.freerealms.com/article/detail.action?articleId=732 (summary)"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-21",
+     "end": "2010-12-31",
+     "source": "(R) http://www.freerealms.com/article/detail.action?articleId=1972 (summary, capture-year only, no year in text). Wiki Tacky Sweater Penguin confirms a December 2010 window but not the day range. Article 1981 names the 2010 drive with no date. Day range unverified."
+    },
+    {
+     "year": 2011,
+     "start": "2011-12-06",
+     "end": "2011-12-31",
+     "source": "wiki page Snowflake ('December 6 to December 31, 2011'; SC Marketplace item benefiting Child's Play)"
+    }
+   ]
+  }
+ ],
+ "Festival of Hearts": [
+  {
+   "event": "Festival of Hearts",
+   "record": "quest-lines/schedules.json svfestival-of-hearts",
+   "season": {
+    "name": "Festival of Hearts",
+    "start_month": 2,
+    "start_day": 1,
+    "end_month": 3,
+    "end_day": 31,
+    "source": "(R) Months from wiki page Festival of Hearts (\"an annual Valentine's Day-themed event held from February through March in Merry Vale\") and wiki Events page (\"annual ... held from February through March\"). Day boundaries 1 Feb and 31 Mar are my reconstruction from those months; no article gives an end date. Only dated run is 2010-02-12 (articleId=967). No existing season matches; Halloween is a different event, so a new name is used."
+   },
+   "zones": [
+    "Merry Vale"
+   ],
+   "runs": {
+    "npcs": [
+     "Cudip (wiki Cudip: north-east of Merry Vale warpstone during the festival; article 1053)",
+     "Stone Heart (festival boss; wiki Stone Heart)",
+     "Heart Breakers (enemy NPCs; wiki Heart Breakers)",
+     "Rylan and Arianna (festival characters; article 2499)"
+    ],
+    "props_or_areas": [
+     "Merry Vale Warpstone access: speak to residents with the Festival of Hearts logo (articles 969, 2016, 2500)",
+     "Heart flower in Merry Vale (wiki Festival of Hearts)"
+    ],
+    "quests": [
+     "Where is the Love?",
+     "Softening the Stone",
+     "Sleeping Pixie",
+     "A Bundle of Love",
+     "Potion Testing: Version 6.0",
+     "Petal Picker (repeatable; wiki Cudip)"
+    ],
+    "activities": [
+     "Daily quests and Members Only quests (articles 967, 969, 2016, 2500, 2501)",
+     "Daily prize wheel (article 969; contents unsourced)",
+     "Give magic petals from heart flowers to Cudip (article 1053)",
+     "Soften Stone Heart with love potion and love arrows (wiki Stone Heart; video:Gk3v5EcwUBc/00014.jpg, 00016.jpg)"
+    ],
+    "rewards": [
+     "Festival of Hearts TCG Bundle, Station Cash, offer ended with festival (article 1009)",
+     "Dove pet pal from Sleeping Pixie, Members Only (wiki Dove)",
+     "Gifting Basket contents Cupid, Heart Critter, Lovasus, Snowheart, She-Rex (wiki; run unknown)",
+     "Holiday outfits and weapons in wiki category Festival of Hearts (run unknown; prices unknown)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-02-12",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 (dated 2010-02-12, live in Merry Vale). End not stated. TTH node/80708 (2010-02-08) is a pre-launch preview and is not counted as a live run."
+    }
+   ]
+  },
+  {
+   "event": "Festival of Hearts",
+   "record": "quest-lines/schedules.json svfestival-of-hearts-festival-de-corazones",
+   "season": {
+    "name": "Festival of Hearts",
+    "start_month": 2,
+    "start_day": 1,
+    "end_month": 3,
+    "end_day": 31,
+    "source": "wiki: Festival of Hearts and Events pages say the event is an annual Valentine's Day-themed event 'held from February through March' in Merry Vale (no exact days given). (R) Window widened to Feb 1 to Mar 31 to cover the dated runs (2010-02-12 article 967; 2012-02-07 wiki Template:News/Archive). Not in seasons_already_defined, so new name used."
+   },
+   "zones": [
+    "Merry Vale"
+   ],
+   "runs": {
+    "npcs": [
+     "Cudip (locale:1418, 432861)",
+     "Stone Heart (article 2016; wiki)",
+     "Heart Breakers (locale:427262)",
+     "Jecca (locale:427178)",
+     "Postmaster Vixie (locale:427172)",
+     "Dubawug (locale:427242)",
+     "Rylan and Arianna (legend, articles 969, 2016)"
+    ],
+    "props_or_areas": [
+     "Heart Flower in Merry Vale (wiki; locale:426989)",
+     "Stone Heart's Hideaway (locale:427468)"
+    ],
+    "quests": [
+     "A Tale of Two Hearts (locale:427149)",
+     "Softening the Stone (wiki; locale:427157 unverified)",
+     "Daily and members-only Festival quests (articles 2500, 2501)"
+    ],
+    "activities": [
+     "Community semi-formal dance (articles 957, 960; locale:31033, 31034)",
+     "Daily Festival prize wheel (article 967; locale:400038, 431950)",
+     "Pick petals from the heart flower daily (locale:426989)",
+     "Chocolate truffle boxes for Cudip (locale:427164)",
+     "Love potion use against Heart Breakers during Stone Heart's Rampage (locale:427176; video:p5sDafXSQtQ/00086.jpg)",
+     "100 repeatable Festival quests achievement (locale:5103220)"
+    ],
+    "rewards": [
+     "Daily prize wheel prizes (article 967)",
+     "Hearts Outfit and other Holiday Marketplace items (article 967; wiki, station cash)",
+     "Dove pet pal, members only (wiki)",
+     "Stone Heart's Pink Bear (wiki)",
+     "Festival of Hearts TCG Bundle (article 1009; locale:4875)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-02-12",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 ; articleId=957 and 960 (community semi-formal dance, Friday 12 February 2010)"
+    },
+    {
+     "year": 2012,
+     "start": "2012-02-07",
+     "end": null,
+     "source": "wiki: Template:News/Archive, 'Update of February 7, 2012 - Festival of Hearts: Merry Vale is celebrating the Festival of Hearts' (update date; event start not separately given)"
+    }
+   ]
+  },
+  {
+   "event": "Festival of Hearts",
+   "record": "quest-lines/schedules.json svfestival-of-hearts-prize-wheel",
+   "season": {
+    "name": "Festival of Hearts",
+    "start_month": 2,
+    "start_day": 1,
+    "end_month": 3,
+    "end_day": 31,
+    "source": "(R) Month-level only: wiki:Events and wiki:Festival of Hearts say 'an annual Valentine's Day themed event held from February through March in Merry Vale'; no dated end day is sourced anywhere. Start Feb 1 covers the dated starts Feb 7, 2012 (wiki:Template:News/Archive, 'Update of February 7, 2012', section 'Festival of Hearts') and Feb 12, 2010 (article 967), and the unverified Feb 8, 2010 preview (tentonhammer node 80708, not re-checked). Season name differs from Halloween, so no existing season is reused."
+   },
+   "zones": [
+    "Merry Vale"
+   ],
+   "runs": {
+    "npcs": [
+     "Cudip (locale:1418, 432861)",
+     "Stone Heart (festival boss; wiki:Heart Breakers)",
+     "Heart Breakers (wiki:Heart Breakers)",
+     "Rylan and Arianna (articles 969, 2016)",
+     "Postmaster Vixie (locale:427172)",
+     "Jecca (locale:427178)",
+     "Dubawug (locale:427242)",
+     "Nafisah Tung and Chris Fritchoff (webcast hosts; article 2522)"
+    ],
+    "props_or_areas": [
+     "Festival of Hearts heart flower (locale:426989)",
+     "Merry Vale festival decorations (wiki:Festival of Hearts)"
+    ],
+    "quests": [
+     "Where is the Love? (locale:427145)",
+     "Potent Love Potion (locale:427153)",
+     "Softening the Stone (locale:427157)",
+     "Sleeping Pixie (locale:427161)"
+    ],
+    "activities": [
+     "Daily Festival of Hearts prize wheel (article 967; locale:400038)",
+     "Coin Wheel coins for 30+ minutes logged in per day (article 967)",
+     "Stop Heart Breakers during Stone Heart's Rampage (locale:427176, 427262)",
+     "Festival quests from Cudip (locale:1418)",
+     "Community semi-formal dance, 12 Feb 2010 (articles 957, 960; locale:2778)"
+    ],
+    "rewards": [
+     "Daily prize wheel prizes (article 967; locale:400038)",
+     "TCG bundle: two Premiere and two Shattered Past boosters, Emo Raptor loot card, promo cards (locale:4875; sold until the Festival ended, article 1009)",
+     "Dove and Cupid pet pals (wiki only, unconfirmed)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-02-12",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 (live from Feb 12, 2010); end not sourced. UNRECONCILED: the wiki News/Archive carries similar Merry Vale text dated Feb 7, 2012, so the 2010 date should be treated as moderately confident. Article 957/960 dance on Fri 12 Feb 2010 supports the month."
+    },
+    {
+     "year": 2012,
+     "start": "2012-02-07",
+     "end": null,
+     "source": "wiki:Template:News/Archive, section 'Update of February 7, 2012' headed 'Festival of Hearts' ('Merry Vale is celebrating the Festival of Hearts'). End not sourced. A Feb 9, 2012 bug-fix note is cited by the critique but was not re-verified here."
+    }
+   ]
+  },
+  {
+   "event": "Festival of Hearts",
+   "record": "quest-lines/schedules.json svfestival-of-hearts-tcg-bundle",
+   "season": {
+    "name": "Festival of Hearts",
+    "start_month": 2,
+    "start_day": 1,
+    "end_month": 3,
+    "end_day": 31,
+    "source": "(R) wiki Festival of Hearts: 'an annual Valentine's Day-themed event held from February through March in Merry Vale'; also wiki Events and wiki Merry Vale ('During February'). No exact start or end day is stated anywhere; Feb 1 to Mar 31 is the widest reading of the wiki's month range. Dated 2010-02-12 and 2012-02-07 both fall inside it."
+   },
+   "zones": [
+    "Merry Vale"
+   ],
+   "runs": {
+    "npcs": [
+     "Cudip",
+     "Stone Heart",
+     "Jecca",
+     "Heart Breakers",
+     "Postmaster Vixie",
+     "Dubawug"
+    ],
+    "props_or_areas": [
+     "Merry Vale heart flower"
+    ],
+    "quests": [],
+    "activities": [
+     "Pick a petal from the heart flower every day (locale:426989)",
+     "Spin the Festival of Hearts wheel every day (locale:400038)",
+     "Help Cudip uncover the heart flower mystery (locale:432861, locale:1418)",
+     "Stop Stone Heart's Heart Breakers with a love potion (locale:427176, locale:427178, locale:427262)",
+     "Complete 100 Festival of Hearts repeatable quests (locale:5103220)"
+    ],
+    "rewards": [
+     "Festival of Hearts wheel bonus prizes (locale:400038)",
+     "Holiday outfit items on the Marketplace (article 967)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-02-12",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 (February 12, 2010 update; event live in Merry Vale)"
+    },
+    {
+     "year": 2012,
+     "start": "2012-02-07",
+     "end": null,
+     "source": "wiki Template:News/Archive: 'Update of February 7, 2012 - Festival of Hearts: Merry Vale is celebrating the Festival of Hearts'"
+    }
+   ]
+  },
+  {
+   "event": "Festival of Hearts",
+   "record": "quest-lines/schedules.json svheart-festival",
+   "season": {
+    "name": "Festival of Hearts",
+    "start_month": 2,
+    "start_day": 1,
+    "end_month": 3,
+    "end_day": 31,
+    "source": "(R) Window reconstructed. Wiki 'Festival of Hearts' and wiki 'Events' (re-checked this pass) both say it is an annual Valentine's Day-themed event 'held from February through March in Merry Vale'. Neither gives exact days. Dated starts fall inside: 2010-02-12 (http://www.freerealms.com:80/article/detail.action?articleId=967) and 2014-02-04 (wiki Game Update 128). Day 1 of February and day 31 of March are the month bounds, chosen to cover the typical run. No source gives an exact end date. Not in seasons_already_defined (only Halloween), so this is a new season row."
+   },
+   "zones": [
+    "Merry Vale"
+   ],
+   "runs": {
+    "npcs": [
+     "Cudip",
+     "Arianna",
+     "Rylan",
+     "Talespinner Yvelle"
+    ],
+    "props_or_areas": [
+     "Festival of Hearts heart flower (Merry Vale)",
+     "Stone Heart's Hideaway",
+     "Stone Heart and Heart Breakers (enemies)"
+    ],
+    "quests": [
+     "Where is the Love?",
+     "Softening the Stone",
+     "Sleeping Pixie",
+     "Potent Love Potion",
+     "A Bundle of Love",
+     "Petal Picker (repeatable once a day)",
+     "Ooey, Gooey Love",
+     "Potion Testing: Version 6.0",
+     "Potion Testing: Version 7.0"
+    ],
+    "activities": [
+     "Daily quests",
+     "Subscriber/members-only quests",
+     "Picking petals from the heart flower each day (locale:426989)",
+     "Mending hearts with love potions against Stone Heart and Heart Breakers (locale:427176, 427178)",
+     "Spinning the Festival of Hearts Daily Wheel (wiki)",
+     "Gifting Basket (2011, wiki)"
+    ],
+    "rewards": [
+     "Festival of Hearts Daily Wheel items",
+     "Sweetheart Saw (Stone Heart's Hideaway prize wheel, wiki)",
+     "Stone Heart's Pink Bear (Bowheart achievement, wiki)",
+     "Heart Critter (Gifting Basket prize, 2011, wiki)",
+     "Dove pet pal (Sleeping Pixie quest, Members Only, wiki)",
+     "Festival of Hearts Semi-Formal outfit (locale:31033; article 960)",
+     "Lovelectric Boombox, Stone Heart's Bear Costume (Station Cash Marketplace during event, wiki)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-02-12",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 (launch in Merry Vale); article 957 (first community semi-formal dance, Friday Feb 12, 2010, Server 1). Tentonhammer's week-of-Feb-8 kickoff is a press note, not used."
+    },
+    {
+     "year": 2014,
+     "start": "2014-02-04",
+     "end": null,
+     "source": "wiki: Festival of Hearts (2014 section); wiki: Template:News Game Update 128 Overview 02/04/2014"
+    }
+   ]
+  },
+  {
+   "event": "Festival of Hearts",
+   "record": "quest-lines/schedules.json svheart-festival-festival-des-c-urs",
+   "season": {
+    "name": "Festival of Hearts",
+    "start_month": 2,
+    "start_day": 1,
+    "end_month": 3,
+    "end_day": 31,
+    "source": "(R) wiki: Festival of Hearts and wiki: Events both say 'an annual Valentine's Day themed event held from February through March in Merry Vale' (no day given). Window is the whole of Feb and Mar; the 2010 start (Feb 12) and 2012 start (Feb 7) fall inside it. The March end is wiki-only and unverified against an article; the exact end day is a reconstruction."
+   },
+   "zones": [
+    "Merry Vale"
+   ],
+   "runs": {
+    "npcs": [
+     "Cudip (locale 1418, 432861)",
+     "Stone Heart (locale 427176)",
+     "Jecca (locale 427178)",
+     "Postmaster Vixie (locale 427172)",
+     "Dubawug (locale 427242)"
+    ],
+    "props_or_areas": [
+     "Heart Flower (locale 426989)"
+    ],
+    "quests": [
+     "Petal Picker (wiki: Festival of Hearts questline; exact title not checked against quest table)",
+     "A Bundle of Love (wiki; not checked against quest table)"
+    ],
+    "activities": [
+     "Pick a petal from the heart flower daily (locale 426989)",
+     "Daily Festival of Hearts wheel (locale 400038)",
+     "Festival repeatable quests; 100 earns Errand Lover (locale 5103220, 5103221)",
+     "Stop Stone Heart's heartbreakers with a love potion (locale 427176, 427178)"
+    ],
+    "rewards": [
+     "Festival of Hearts Wheel bonus prizes (locale 400038, 400039)",
+     "Festival of Hearts TCG Bundle (locale 4875; limited to the festival run per calendar fact article 1009)",
+     "Errand Lover achievement (locale 5103221)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-02-12",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 (February 12, 2010 update, Merry Vale; article 969 'The annual Festival of Hearts has begun in Merry Vale')"
+    },
+    {
+     "year": 2012,
+     "start": "2012-02-07",
+     "end": null,
+     "source": "wiki: Template:News/Archive, 'Update of February 7, 2012' ('Merry Vale is celebrating the Festival of Hearts!'); end not stated"
+    }
+   ]
+  },
+  {
+   "event": "Festival of Hearts",
+   "record": "quest-lines/schedules.json svmerry-vale",
+   "season": {
+    "name": "Festival of Hearts",
+    "start_month": 2,
+    "start_day": 1,
+    "end_month": 3,
+    "end_day": 31,
+    "source": "(R) Start Feb 1: wiki:Festival of Hearts says 'an annual Valentine's Day-themed event held from February through March in Merry Vale'; dated starts are Feb 12 2010 (article 967, verified this pass: 'starting with the February 12, 2010 update') and Feb 7 2012 (wiki:Template:News/Archive, locale:432861). End Mar 31: (R) reconstruction from 'through March' with no day given; no dated end-of-festival source found. Not the Halloween season, so it has its own name. Admin must confirm the end day and the post-2012 run before enabling."
+   },
+   "zones": [
+    "Merry Vale",
+    "Stone Heart's Hideaway (locale:426971)"
+   ],
+   "runs": {
+    "npcs": [
+     "Cudip (locale:1418)",
+     "Stone Heart",
+     "Heart Breakers (wiki:Heart Breakers)",
+     "Jecca (locale:427178)",
+     "Postmaster Vixie (locale:427172)",
+     "Rylan and Arianna (lore, wiki:Festival of Hearts)"
+    ],
+    "props_or_areas": [
+     "Heart Flower (locale:426989)",
+     "Merry Vale festival area",
+     "Festival of Hearts SC Marketplace items during the festival"
+    ],
+    "quests": [
+     "A Bundle of Love (locale:427041; wiki:Festival of Hearts)",
+     "Stone Heart's Rampage / stop the heartbreakers (locale:427176, 427178)",
+     "Dubawug's Sweetheart (locale:427242 mentions the festival; live status unsure)",
+     "Repeatable Festival of Hearts quests (locale:5103220)"
+    ],
+    "activities": [
+     "Daily Festival of Hearts prize wheel (locale:400038, 431950)",
+     "Pick a petal from the Heart Flower daily (locale:426989)",
+     "Fight Heart Breakers (locale:427262, 427176)",
+     "Fill sweetheart chocolate boxes (locale:427164)",
+     "Earn love arrows / Bowheart achievement (wiki:Achievements)"
+    ],
+    "rewards": [
+     "Sweetheart Saw (wiki:Sweetheart Saw, prize wheel)",
+     "Stone Heart's Pink Bear (Bowheart achievement, wiki:Achievements)",
+     "Dove pet pal (wiki:Dove, not client-verified)",
+     "Heart Critter pet pal (2011 only, wiki:Heart Critter)",
+     "Stone Hearted Furniture Bundle (825 SC, locale:3575)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-02-12",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 (verified: 'starting with the February 12, 2010 update'). Conflict: TenTon node/80708 gives 'week of February 8, 2010'; not resolved, 12 Feb used as the dated in-game update. End unknown."
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": null,
+     "source": "wiki:Heart Critter ('Gifting Basket was available during 2011 Festival of Hearts'); wiki:Cupid. Year only, no date. Listed so the yearly pattern is visible."
+    },
+    {
+     "year": 2012,
+     "start": "2012-02-07",
+     "end": null,
+     "source": "wiki:Template:News/Archive ('Update of February 7, 2012 - Festival of Hearts'); locale:432861 ('Merry Vale is celebrating the Festival of Hearts!'). Not re-read in this pass. End unknown."
+    }
+   ]
+  },
+  {
+   "event": "Festival of Hearts",
+   "record": "quest-lines/schedules.json svsoe-webcast-festival-of-hearts-recap",
+   "season": {
+    "name": "Festival of Hearts",
+    "start_month": 2,
+    "start_day": 1,
+    "end_month": 3,
+    "end_day": 31,
+    "source": "(R) Wiki 'Events' and 'Festival of Hearts' pages: 'an annual Valentine's Day themed event held from February through March in Merry Vale'. Dated starts are Feb 12, 2010 (articleId=967) and Feb 7, 2012 (wiki Template:News/Archive 'Update of February 7, 2012'), so the window opens in February. No article gives an end date, so the March 31 end is a widening to whole months. No existing season key matches 'festival-of-hearts'; the only defined season is Halloween."
+   },
+   "zones": [
+    "Merry Vale"
+   ],
+   "runs": {
+    "npcs": [
+     "Cudip",
+     "Stone Heart",
+     "Heart Breakers",
+     "Jecca",
+     "Postmaster Vixie",
+     "Dubawug"
+    ],
+    "props_or_areas": [
+     "Heart Flower (Merry Vale)"
+    ],
+    "quests": [
+     "Where is the Love?",
+     "Softening the Stone",
+     "Stone Heart's Hideaway"
+    ],
+    "activities": [
+     "Pick a petal from the heart flower each day (locale:426989)",
+     "Spin the daily Festival of Hearts prize wheel (locale:400038; article 967)",
+     "Cudip festival questline (locale:1418; locale:432861)",
+     "Defeat Heart Breakers and Stone Heart (locale:427156; locale:427158; locale:427176; locale:427178)",
+     "Repeatable Festival of Hearts quests; 100 earn Errand Lover (locale:5103220)"
+    ],
+    "rewards": [
+     "Daily prize wheel bonus prizes (article 967; locale:400038)",
+     "Errand Lover achievement (locale:5103220)",
+     "Festival of Hearts TCG Bundle, available only until the festival ended (articleId=1009; locale:4874; locale:4875)",
+     "Festival holiday items on SC Marketplace and Coin Shop (wiki; prices not sourced)",
+     "Dove pet pal from Sleeping Pixie (wiki only)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-02-12",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 ('live in Merry Vale starting with the February 12, 2010 update'); end not given"
+    },
+    {
+     "year": 2012,
+     "start": "2012-02-07",
+     "end": null,
+     "source": "wiki page Template:News/Archive, 'Update of February 7, 2012', section 'Festival of Hearts: Merry Vale is celebrating the Festival of Hearts'. The Feb 9, 2012 webcast (articleId=2522) is a recap and does not set the run boundary."
+    }
+   ]
+  },
+  {
+   "event": "Festival of Hearts",
+   "record": "quest-lines/schedules.json svstone-heart",
+   "season": {
+    "name": "Festival of Hearts",
+    "start_month": 2,
+    "start_day": 1,
+    "end_month": 3,
+    "end_day": 31,
+    "source": "(R) Window is the wiki month range only: wiki page 'Events' / 'Festival of Hearts' says 'an annual Valentine's Day themed event held from February through March in Merry Vale'. No article or wiki page gives a day-level start or end. Feb 1 to Mar 31 is chosen so that every known start (Feb 12, 2010 article 967; Feb 7, 2012 wiki news) falls inside it. Not in seasons_already_defined except Halloween, so a new name is used. Reason for Mar 31 rather than a shorter run: the wiki gives March as the end month and no source gives a day."
+   },
+   "zones": [
+    "Merry Vale (articles 967, 969, 2016, 2500, 2501; wiki Festival of Hearts; video frames 'Heartbreakers are trying to ruin the Festival Of Hearts in Merry Vale' p5sDafXSQtQ/00086, jAKl4y_BzH4/00010)",
+    "UNRESOLVED, not included: Joyful Valley (article 2026, French) and Vegalegre (articles 2018/2019, Spanish)"
+   ],
+   "runs": {
+    "npcs": [
+     "Stone Heart (villain; articles 2016, 2500; wiki Stone Heart)",
+     "Heartbreakers / Heart Breakers (articles 2500; wiki Heart Breakers)",
+     "Cudip (article 967; locale:1418)"
+    ],
+    "props_or_areas": [
+     "Heart Flower (locale:426989)",
+     "Festival of Hearts Wheel (locale:400039)"
+    ],
+    "quests": [
+     "Softening the Stone (unverified against locale; quest answer only)",
+     "Stone Heart's Hideaway (live 'unsure')"
+    ],
+    "activities": [
+     "Daily Festival of Hearts prize wheel (articles 967, 969)",
+     "Daily and members-only quests (articles 2500, 2501)",
+     "Buy festival items in the Station Cash Marketplace and Coin Shop (article 2501; wiki item pages)"
+    ],
+    "rewards": [
+     "Festival of Hearts TCG Bundle (article 1009; locale:4874; Station Cash; year undated)",
+     "Stone Heart's Gummy Bear, Bear Costume, She-Rex, Lovelectric Boombox, Snowheart, King of Hearts Costume, King of Broken Hearts Costume, Love Struck Piano, Stone Hearted Piano (wiki, Station Cash Marketplace; prices unknown)",
+     "Lovely T-Shirt (wiki, Coin Shop, members only)",
+     "Cupid / Heart Critter / Stone Heart's Pink Bear (wiki only, unverified against articles)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-02-12",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=967 (live from the Feb 12, 2010 update; end not stated)"
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": null,
+     "source": "wiki page Cupid ('available during 2011 Festival of Hearts'); year only, no month or article confirmation"
+    },
+    {
+     "year": 2012,
+     "start": "2012-02-07",
+     "end": null,
+     "source": "wiki Template:News/Archive, section 'Update of February 7, 2012 - Festival of Hearts' ('Merry Vale is celebrating the Festival of Hearts!'); wiki-only. The Feb 9, 2012 update (Marketplace holiday items, event bug fixes) falls inside this run."
+    }
+   ]
+  }
+ ],
+ "Halloween": [
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svfirst-super-spooktacular",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 12,
+    "source": "(R) Widened from the existing Halloween row (9/20-11/11, reference Sanctuary 10f129e src/Resources/Zones/FabledRealms.json:28-51; those dates were never sourced to an article). Reason: the two dated runs are verified: articleId=2949 (2013, Fourth Annual, October 1 to November 12, 2013; re-checked via lookup) and articleId=476 (2009, First Annual, October 14 to November 11, free to registered players; re-checked via lookup, also tentonhammer node/75739). Oct 1 to Nov 12 covers both. The 2010 window is not used to set this. This replaces an existing row, so Bryce must approve before the change."
+   },
+   "zones": [
+    "Sanctuary",
+    "Pixiewood",
+    "Snowhill",
+    "Stillwater Crossing",
+    "Bristlewood"
+   ],
+   "runs": {
+    "npcs": [
+     "Ghost Hunters (articleId=476; wiki: Ghost Hunters)",
+     "Halloween Harry (wiki only, unverified)",
+     "Madam Zelda (wiki only, unverified)"
+    ],
+    "props_or_areas": [
+     "Sanctuary Halloween decorations (locale:432174)",
+     "Dress Up! costume shop in Sanctuary (locale:5102473)",
+     "Pixiewood decorations (articleId=476)"
+    ],
+    "quests": [
+     "Trick-or-Treat (locale:415050)",
+     "Bag Snatchers (locale:415303)",
+     "Candy Gram (locale:415311)",
+     "A Formal Report (locale:415315)",
+     "The Great Scare (locale:416778, locale:416779; wiki)"
+    ],
+    "activities": [
+     "Helping Ghost Hunters scare off Pumpkin Prince ghosts (articleId=476: Snowhill, Stillwater Crossing, Bristlewood; zone set from 476 only, conflicts with articleId=1861 and locale:416779 Sacred Grove, unreconciled)",
+     "Trick-or-treating (articleId=476 names it; cadence not sourced)"
+    ],
+    "rewards": [
+     "TCG quest packs and daily prize wheel (2009, articleId=476)",
+     "Halloween costumes (articleId=476 lists costumes; item-level detail unverified)",
+     "UNVERIFIED: candy/treats from trick-or-treating (not tied to a dated run; left as open)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=476 (verified via lookup); tentonhammer node/75739"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949 (verified via lookup)"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svghost-hunters",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 12,
+    "source": "(R) Window widened to cover both dated runs: 2013 Oct 1 - Nov 12 (http://www.freerealms.com:80/article/detail.action?articleId=2949) and 2009 Oct 14 - Nov 11 (http://www.tentonhammer.com:80/node/75739; http://www.freerealms.com:80/article/detail.action?articleId=476). Same event as the existing Halloween season, so the name is reused. The existing row (Sep 20 - Nov 11) is marked (R) in the pack and is not evidenced by the wiki, which only says October; this proposed window replaces it only if Bryce accepts the Oct 1 start from the 2013 article. 2010 has no exact days in the pack."
+   },
+   "zones": [
+    "Snowhill",
+    "Stillwater Crossing",
+    "Bristlewood",
+    "Sacred Grove",
+    "Sanctuary",
+    "Pixiewood",
+    "Bone Bog Cemetery"
+   ],
+   "runs": {
+    "npcs": [
+     "Ghost Hunter",
+     "Halloween Harry",
+     "Pumpkin Prince",
+     "Lucinda",
+     "Madam Zelda"
+    ],
+    "props_or_areas": [
+     "Pixiewood Halloween decorations (locale:416777 area; FabledRealmsAreas.xml:3156-3195)",
+     "Bone Bog Cemetery Vampires vs. Werewolves dance-off",
+     "Pumpkin Prince world-event boss (Bone Bog Cemetery members battle instance)",
+     "Halloween Harry quick-click transport on Atlas during the event (wiki Super Spooktacular)"
+    ],
+    "quests": [
+     "The Great Scare (locale:416789, 416790, 416779)",
+     "Trick-or-Treat from Halloween Harry (wiki, repeatable daily)",
+     "Ectoplasmic Goo from Ghost Hunter (wiki, once per character)"
+    ],
+    "activities": [
+     "Ghost Hunter world event in Snowhill, Stillwater Crossing and Bristlewood scaring off Pumpkin Prince ghosts (articles 476, 1857)",
+     "Vampires vs. Werewolves dance-off (wiki)",
+     "Trick-or-treating with Halloween Harry in Sanctuary",
+     "Daily prize wheel (article 476)",
+     "Community events on Thursday afternoons and Friday mornings (article 1845, 2010)"
+    ],
+    "rewards": [
+     "Costumes (article 476)",
+     "Pumpkin Prince defeat prize (wiki Ghost Hunters)",
+     "Team Vampire / Team Werewolf items: Vampire Fangs (locale:7366), Werewolf Tail (locale:7365)",
+     "Pumpkin Prince's Treasure (video:nmT76ti9kyo/00312.jpg; reward link unconfirmed)",
+     "Super Spooktacular Parachute, 899 station_cash (video:1TNyzyI62nc/00122.jpg)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.tentonhammer.com:80/node/75739 (scheduled); http://www.freerealms.com:80/article/detail.action?articleId=476 (First Annual, dated 2009-10-16)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949 (Fourth Annual)"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svhalloween",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "Name reused from seasons_already_defined. The existing repo row (Sanctuary 10f129e FabledRealms.json:28-51) is 9/20-11/11 and is not contradicted, but no source supports a September start. Window widened to cover the verified runs: 2011 Oct 13 to Nov 23 (http://www.freerealms.com:80/article/detail.action?articleId=2304) and 2013 Oct 1 to Nov 12 (http://www.freerealms.com:80/article/detail.action?articleId=2949). The Oct 1 start is also supported by the 2010 October month (articleId=1845) and the 2009 Oct 14 start (articleId=476). The 2010 bounds are (R). Changing the repo row is a decision for Bryce."
+   },
+   "zones": [
+    "Sanctuary",
+    "Pixiewood"
+   ],
+   "runs": {
+    "npcs": [
+     "Halloween Harry (locale:415047)"
+    ],
+    "props_or_areas": [
+     "Halloween Pixiewood seasonal client area (FabledRealmsAreas.xml:3156-3195, name match)",
+     "Super Spooktacular decorations (locale:91963)",
+     "Blackspore Ghostly Pet Party 2010 (articleId=1845, 1849)"
+    ],
+    "quests": [
+     "Candy Gram (locale:415311)",
+     "Halloween Fanatic (locale:416806)"
+    ],
+    "activities": [
+     "Trick-or-treat / scare NPCs for candy (locale:415049)",
+     "Community events Thursday afternoon and Friday morning, October 2010 (articleId=1845)"
+    ],
+    "rewards": [
+     "Super Spooktacular 2009 Member Pack (locale:156839; locale:156830 'Only available during the Super Spooktacular 2009')",
+     "Super Spooktacular Parachute (locale:5102560; 899 Station Cash per store frame)",
+     "Chatty Costume (wiki category Super Spooktacular, unpriced)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=476 (SOE official news, 'First Annual Super Spooktacular', running October 14 through November 11). Secondary: http://www.tentonhammer.com:80/node/75739 (pre-launch 'scheduled to run'). The live run is not confirmed (node/75724 body not captured). Schedule-level evidence only."
+    },
+    {
+     "year": 2010,
+     "start": "2010-10-01",
+     "end": "2010-10-31",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1845 says October 2010 was Super Spooktacular month, with community events every Thursday afternoon and Friday morning. The article gives the month only, so the day bounds Oct 1-31 are (R) (reason: month only per articleId=1845)."
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304 (titled Halloween Spooktacular)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949 (Fourth Annual Super Spooktacular). Conflict: the wiki video page (File:Free Realms Spooktacular Update) says November 15. Nov 12 is used."
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svhalloween-harry",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "(R) Widened from the existing Halloween season (Sep 20 to Nov 11, reference Sanctuary 10f129e). The evidence gives Oct 13 to Nov 23, 2011 (http://www.freerealms.com:80/article/detail.action?articleId=2304, verified by lookup) and Oct 1 to Nov 12, 2013 (http://www.freerealms.com:80/article/detail.action?articleId=2949). Oct 1 to Nov 23 covers both. Reason for widening: the 2011 run ends Nov 23, past the existing Nov 11 end, and the 2011 and 2013 starts are not all the same. The 2010 and 2012 runs are October-only in the evidence. The start of Oct 1 is the earliest documented start (2013). The Sep 20 start in the existing season has no evidence behind it."
+   },
+   "zones": [
+    "Sanctuary",
+    "Pixiewood",
+    "Blackspore Swamp"
+   ],
+   "runs": {
+    "npcs": [
+     "Halloween Harry (locale:415047)",
+     "Lucinda (Blackspore Swamp, wiki)",
+     "Lord William IV (Blackspore Swamp, wiki)",
+     "Greyli Dustywings (Queensfields, wiki)",
+     "Tabitha (Pixiewood Hills, wiki)",
+     "Hector (Pixiewood Hills, wiki)",
+     "Ghost Hunter (Pixiewood Hills, wiki)",
+     "Ruby (Pixiewood Hills, wiki)"
+    ],
+    "props_or_areas": [
+     "Halloween Pixiewood seasonal area (client FabledRealmsAreas.xml:3156-3195)",
+     "Halloween Harry quick-click Atlas transport icon during the event (wiki)",
+     "Pumpkin Prince boss (wiki)"
+    ],
+    "quests": [
+     "Trick-or-Treat (wiki; locale:415050)",
+     "Trick or Treat in Sanctuary (locale:14563)",
+     "Bag Snatchers",
+     "Candy Gram",
+     "A Formal Report",
+     "A Trip to the Swamp",
+     "Spectral Spectacles",
+     "A Ghostly Discovery",
+     "Guardians of the Tomb",
+     "Sealed with a Signet",
+     "The Pumpkin Prince",
+     "Spooky Hide 'n Seek",
+     "Ghostly Games",
+     "Halloween Fanatic",
+     "The Great Scare",
+     "Ectoplasmic Goo",
+     "Delicious Goo'd Candy",
+     "How Rude!",
+     "Going Batty",
+     "Toadal Trouble",
+     "Mum's the Word",
+     "Bark at the Moon",
+     "Return to Halloween Harry in Sanctuary (locale:415943)"
+    ],
+    "activities": [
+     "Trick-or-Treat in Sanctuary",
+     "Collect treats with /scare in Pixiewood and return daily (article 1854)",
+     "Stop the Pumpkin Prince",
+     "Ghost hunting",
+     "Dance-off in Blackspore Swamp (locale:436401)"
+    ],
+    "rewards": []
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-10-01",
+     "end": "2010-10-31",
+     "source": "(R) Month only: October 2010 was Super Spooktacular month (http://www.freerealms.com/article/detail.action?articleId=1845). The exact days are not in the evidence; the range is the month."
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304 (verified by lookup)"
+    },
+    {
+     "year": 2012,
+     "start": "2012-10-01",
+     "end": "2012-10-31",
+     "source": "(R) Month only: wiki ns10 Template:News/Archive, Update of October 11, 2012, and wiki ns0 Pumpkin Prince (October 2012 Super Spooktacular). No days are given."
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949; wiki ns0 Super Spooktacular (Week #4 - 10/22/13)"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular (Halloween Spooktacular)",
+   "record": "quest-lines/schedules.json svhalloween-spooktacular",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "(R) Window widened to cover every dated run: 2009 Oct 14-Nov 11 (http://www.tentonhammer.com:80/node/75739), 2011 Oct 13-Nov 23 (http://www.freerealms.com:80/article/detail.action?articleId=2304, confirmed by article search), 2013 Oct 1-Nov 12 (articleId=2949, per the pack, not re-read). Reuses the existing season name 'Halloween'. This replaces the existing row's reconstructed Sep 20-Nov 11 window, which would cut off the 2011 run after Nov 11; the existing row has no article evidence (repo Sanctuary FabledRealms.json:28-51)."
+   },
+   "zones": [
+    "Sanctuary (Halloween Harry candy cart; Dress Up! costume shop)",
+    "Pixiewood (2010 daily quests, per article 1854 summary)",
+    "Bone Bog Cemetery / Bone Marsh (2010 dance-off and members battle, per articles 1854/1867 summaries)"
+   ],
+   "runs": {
+    "npcs": [
+     "Halloween Harry (locale:415047; locale:432174)",
+     "Madame Zelda (2010 article 1867 summary only; unverified)"
+    ],
+    "props_or_areas": [
+     "Sanctuary Halloween decorations and trick-or-treat",
+     "Dress Up! costume shop in Sanctuary (locale:5102473)"
+    ],
+    "quests": [],
+    "activities": [
+     "Community Spooktacular Party and Parade in Sanctuary (locale:436168, 436169: 'SERVER 1')",
+     "Vampires vs. Werewolves Dance-Off (2011, articleId=2304)"
+    ],
+    "rewards": [
+     "Halloween housing items and outfits (articleId=2304, 2306)",
+     "Halloween Coin Shop items returned (articleId=2306, 2309; 2011)",
+     "Super Spooktacular Parachute, Toxic Barrel (wiki, 2013 Station Cash)",
+     "Frankie Spooky Popper, Ghostly Spooky Popper (wiki, 2013 coin shop)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.tentonhammer.com:80/node/75739"
+    },
+    {
+     "year": 2010,
+     "start": "2010-10-01",
+     "end": "2010-10-31",
+     "source": "(R) http://www.freerealms.com:80/article/detail.action?articleId=1845 gives 'October is Super Spooktacular month' only; October is the month, the day range is not evidenced"
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304 (also search summary 'ran from October 13, 2011 to November 23, 2011')"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949 (per event answer; not re-read)"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svhalloween-super-spooktacular",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 12,
+    "source": "(R) Reuses existing season name 'Halloween' from seasons_already_defined. Start Oct 1 and end Nov 12 are the only exact run dates confirmed in article 2949 (verified again this pass: 'starting October 1 and running through November 12, 2013'). Other editions are consistent with this window: 2009 scheduled Oct 14 - Nov 11 (article 476; tentonhammer node 75739, scheduled, not confirmed live) falls inside. 2010 and 2012 are October-month editions (articles 1845; wiki Template:News/Archive). 2011 (Oct 13 - Nov 23, article 2304) could NOT be re-verified: lookup returned no matches this pass, so its Nov 23 end is not used. Sep 20 start from the repo row is dropped because no dated run starts in September. Replaces the reconstructed repo row Sep 20 - Nov 11 (reference Sanctuary 10f129e src/Resources/Zones/FabledRealms.json:28-51), which was itself (R)."
+   },
+   "zones": [
+    "Sanctuary",
+    "Pixiewood",
+    "Snowhill",
+    "Stillwater Crossing",
+    "Blackspore",
+    "Bone Bog Cemetery"
+   ],
+   "runs": {
+    "npcs": [
+     "Halloween Harry",
+     "Pumpkin Prince",
+     "Ghost Hunters"
+    ],
+    "props_or_areas": [
+     "Halloween seasonal client areas: Halloween_Pixiewood_1-10, Briarwood, Snowhill, StillWater (client FabledRealmsAreas.xml:3156-3195)",
+     "Halloween Harry atlas quick-travel icon during event (wiki Super Spooktacular)",
+     "Vampires vs. Werewolves dance-off near Bone Bog Cemetery (2011, article 2304, unverified)"
+    ],
+    "quests": [
+     "Trick-or-Treat",
+     "Bag Snatchers",
+     "Candy Gram",
+     "A Formal Report",
+     "Halloween Fanatic",
+     "Delicious Goo'd Candy"
+    ],
+    "activities": [
+     "Trick-or-Treat with Halloween Harry",
+     "Stop the Pumpkin Prince with the Ghost Hunters",
+     "Ghostly Pet Party, Blackspore, Oct 7-8 2010 (articles 1845, 1849)"
+    ],
+    "rewards": [
+     "Chatty Suit (Halloween Fanatic reward; wiki Chatty Suit)",
+     "Super Spooktacular Parachute (locale:5102560; price unverified, null)",
+     "Halloween Flooring, Halloween Wallpaper, Spooky Speedster (wiki)",
+     "Super Spooky Flair Shard, Haunted Flair Shard, Necrowart Wrist Wraps, Candy Corn Outfit (SC shop; prices not in evidence)",
+     "Ghostly Raven, Ghostly Toad, Ghostly Snake, Grave Elemental, Baby Black Widow, Mini Necrowart Zombie (Pet Pals, wiki)",
+     "Pumpkin Prince TCG Hero card (2012 bundle, wiki)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=476; http://www.tentonhammer.com:80/node/75739 (scheduled wording, not confirmed live; Oct 19 post node 75724 not captured)"
+    },
+    {
+     "year": 2010,
+     "start": "2010-10-01",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1845 ('October is Super Spooktacular month'; Ghostly Pet Party Oct 7-8 per article 1849). (R) Start is month start; no run end stated."
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304 (as recorded in prior pack; NOT re-verified: lookup found no match). Unconfirmed; end Nov 23 is outside the season window below."
+    },
+    {
+     "year": 2012,
+     "start": "2012-10-01",
+     "end": null,
+     "source": "wiki Template:News/Archive (Update of October 11, 2012). (R) October only; run dates unknown."
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949 (verified: Fourth Annual, 'starting October 1 and running through November 12, 2013')"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svharry-halloween",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 13,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "(R) Reconstructed window covering the dated runs. 2011 live window Oct 13 to Nov 23, 2011: http://www.freerealms.com:80/article/detail.action?articleId=2304 (verified by lookup, quote: 'will be here from October 13, 2011 to November 23, 2011'). 2009 scheduled run Oct 14 to Nov 11, 2009 falls inside: http://www.tentonhammer.com:80/node/75739 and http://www.freerealms.com:80/article/detail.action?articleId=476 (both verified by lookup). The 2010 run is undated (articles 1860, 1861), so it is assumed inside this window, not sourced. Reuses the existing season name 'Halloween'; this replaces the existing 9/20 to 11/11 row, whose start has no source. reconstructed: true."
+   },
+   "zones": [
+    "Pixiewood Hills",
+    "Sanctuary (2011 Harry location per client and wiki; the 2010 article 1860 puts Harry on the road to Pixiewood)"
+   ],
+   "runs": {
+    "npcs": [
+     "Halloween Harry",
+     "Ruby",
+     "Vladamir",
+     "Guard Hardin"
+    ],
+    "props_or_areas": [
+     "Halloween seasonal client areas (Pixiewood, Briarwood, Snowhill, StillWater; client FabledRealmsAreas.xml:3156-3195)",
+     "Fog Machine (house item; store price 8999 coins, undated)",
+     "Super Spooktacular decoration (house item, locale:91963)"
+    ],
+    "quests": [
+     "Bag Snatchers (locale:415303)",
+     "Candy Gram (locale:415311)",
+     "Delicious Goo'd Candy (locale:416791)",
+     "Return to Halloween Harry in Sanctuary (locale:415943)",
+     "A Trip to the Swamp (locale:415319; event tie is wiki-only, the client dialog has no Halloween wording)"
+    ],
+    "activities": [
+     "Trick-or-Treat with Halloween Harry (/scare treats, once per day per wiki)",
+     "Daily Halloween quests from Ruby, Vladamir and Halloween Harry (article 1857)",
+     "Pumpkin Prince fights (article 1857)"
+    ],
+    "rewards": []
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.tentonhammer.com:80/node/75739 (scheduled dates, pre-launch announcement); http://www.freerealms.com:80/article/detail.action?articleId=476 (second source, 'scheduled to run October 14 through November 11')"
+    },
+    {
+     "year": 2010,
+     "start": null,
+     "end": null,
+     "source": "Second annual run, undated. Articles 1860 and 1861 say 'second year' / 'second annual' with no days. Article 1845 says October 2010 was Super Spooktacular month. Not used to set dates."
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304 (verified by lookup)"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svpixiewood-decorations",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "(R) Widened from the existing Halloween row (Sep 20-Nov 11, Sanctuary repo FabledRealms.json:28-51, itself marked R). Reason: dated runs are 2009 Oct 14-Nov 11 (http://www.freerealms.com:80/article/detail.action?articleId=476), 2010 'October' (articleId=1845), 2011 Oct 13-Nov 23 (articleId=2304), 2013 Oct 1-Nov 12 (articleId=2949). Oct 1-Nov 23 covers every dated run; the existing Sep 20 start and Nov 11 end cut off 2011 and the Oct 1 2013 start is earlier than 2009/2011. Season name reused from the existing row."
+   },
+   "zones": [
+    "Sanctuary",
+    "Blackspore",
+    "Pixiewood"
+   ],
+   "runs": {
+    "npcs": [
+     "Madame Zelda (wiki Super Spooktacular quest line; spelling varies)",
+     "Pumpkin Prince (wiki; promo Superspook.png)",
+     "Werewolf Slam Dancer (enemy, wiki)"
+    ],
+    "props_or_areas": [
+     "Pixiewood Halloween decorations (article 476; article 1861 undated)",
+     "Halloween Harry transport icon on Atlas during the event (wiki)",
+     "Halloween Flooring / Halloween Wallpaper / Pumpkin Patch Flooring (wiki, undated)"
+    ],
+    "quests": [],
+    "activities": [
+     "Vampires vs. Werewolves Dance-Off (articleId=2304)",
+     "Trick-or-Treat daily quests, Sanctuary party (articleId=1864)",
+     "Ghostly Pet Party, Blackspore, Oct 7-8 2010 (articleId=1845)",
+     "Community spooky events Thursday afternoons and Friday mornings, Oct 2010 (articleId=1845)"
+    ],
+    "rewards": [
+     "Vampire and Werewolf costume pieces for dance-off winners (articleId=1862)",
+     "Super Spooktacular house decoration (locale:91963)",
+     "Super Spooktacular Parachute (wiki; acquired via 2013 Station Cash Marketplace; price not confirmed)",
+     "Ghostly Raven pet pal, Candy Corn pet pal, Broomstick (wiki, undated)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=476; http://www.tentonhammer.com:80/node/75739 (scheduled)"
+    },
+    {
+     "year": 2010,
+     "start": "2010-10-01",
+     "end": "2010-10-31",
+     "source": "(R) http://www.freerealms.com:80/article/detail.action?articleId=1845 gives only 'October 2010 was Super Spooktacular month'; window is the month. Dated pet party Oct 7-8 2010 in same article."
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svschedule",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "Union of sourced runs: start Oct 1 from 2013 (http://www.freerealms.com:80/article/detail.action?articleId=2949, Oct 1 - Nov 12, 2013); end Nov 23 from 2011 (http://www.freerealms.com/article/detail.action?articleId=2304, 'The Spooktacular will be here from October 13, 2011 to November 23, 2011', confirmed in refs articles/facts.json:16030). 2009 (articleId=476, Oct 14 - Nov 11) falls inside. Replaces the existing Halloween row (Sep 20 - Nov 11), whose Sep 20 start has no event source; overwrite needs reviewer confirmation."
+   },
+   "zones": [
+    "Pixiewood Hills (Halloween decorations, article 476; Trick-or-Treat quests, wiki)",
+    "Sanctuary (Trick or Treat party, article 1864)",
+    "Blackspore Swamp (wiki quest list; Ghost Pet Party area per articles 1845/1850, conflict unresolved)",
+    "Bone Bog Cemetery / Bone Marsh (Vampires vs Werewolves Dance-Off, article 2304; name conflict unresolved)",
+    "Snowhill, Stillwater Crossing, Bristlewood (Ghost Hunters world event, article 2304)"
+   ],
+   "runs": {
+    "npcs": [
+     "Halloween Harry (article 1864; wiki)",
+     "Pumpkin Prince (wiki Events; Pumpkin King in article 1866 unverified)",
+     "Lucinda (wiki quest list)",
+     "Ghost Hunter (wiki quest list; article 2304)",
+     "Madam Zelda (wiki Werewolf Slam Dancer)",
+     "Werewolf Slam Dancer (wiki)"
+    ],
+    "props_or_areas": [
+     "Halloween seasonal client areas (Pixiewood, Briarwood, Snowhill, StillWater; client FabledRealmsAreas.xml:3156-3195)",
+     "Pumpkin Patch Flooring (wiki)",
+     "Vampires vs Werewolves Dance-Off (article 2304)"
+    ],
+    "quests": [
+     "Trick-or-Treat from Halloween Harry (repeatable once per day, wiki)",
+     "The Pumpkin Prince from Lucinda (wiki)",
+     "Halloween Fanatic from Halloween Harry (wiki)",
+     "Ectoplasmic Goo from Ghost Hunter (once per character, wiki)"
+    ],
+    "activities": [
+     "Trick or Treat",
+     "Stopping the Pumpkin Prince",
+     "Ghost hunting",
+     "Werewolf Dance Practice battle",
+     "Vampires vs Werewolves Dance-Off (article 2304)"
+    ],
+    "rewards": [
+     "Widow Candy (wiki Widow Candy)",
+     "Super Spooktacular Parachute (Station Cash, video:1TNyzyI62nc/00122.jpg shows 899 station_cash)",
+     "Necrowart Wrist Wraps (Station Cash Marketplace, price blank)",
+     "Chatty Costume (costume slot, wiki)",
+     "Candy Corn (Coin Shop pet pal, Members, wiki)",
+     "Team Werewolf / Team Vampire outfits (article 2304, Marketplace)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=476 ; http://www.tentonhammer.com:80/node/75739"
+    },
+    {
+     "year": 2010,
+     "start": "2010-10-01",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1845 (October 2010 month; end not captured) (R) month start"
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2304 (sourced, confirmed in refs articles/articles.json:18203-18214 and facts.json:16030)"
+    },
+    {
+     "year": 2012,
+     "start": "2012-10-01",
+     "end": null,
+     "source": "wiki Template:News/Archive (Update of October 11, 2012); wiki Pumpkin Prince (In October during the Super Spooktacular) (R) month start only"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svsoe-trick-or-treat",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "(R) Window covers every dated full run in evidence: 2011 Oct 13 to Nov 23 (http://www.freerealms.com:80/article/detail.action?articleId=2304, confirmed in articles index), 2013 Oct 1 to Nov 12 (articleId=2949, from pack), 2009 Oct 14 to Nov 11 (pre-event schedule, tentonhammer node/75739, run unconfirmed). Reuses the existing 'Halloween' season name. Conflicts with the existing row Sep 20 to Nov 11 (R); the change also touches the shared Halloween client area set (Halloween_Pixiewood_1-10, Briarwood, Snowhill, StillWater) so staff must confirm before applying."
+   },
+   "zones": [
+    "Pixiewood",
+    "Sanctuary",
+    "Snowhill",
+    "Stillwater Crossing",
+    "Bristlewood",
+    "Thornwood",
+    "Bog Shore Lot (2011 Halloween housing lot)"
+   ],
+   "runs": {
+    "npcs": [
+     "Halloween Harry",
+     "Madam Zelda",
+     "Ghost Hunters"
+    ],
+    "props_or_areas": [
+     "Halloween client areas (Halloween_Pixiewood_1-10, Briarwood, Snowhill, StillWater; FabledRealmsAreas.xml:3156-3195)",
+     "Bog Shore Lot (2011)"
+    ],
+    "quests": [],
+    "activities": [
+     "Trick-or-Treat with Halloween Harry and shop owners",
+     "Ghost hunting against Pumpkin Prince ghosts",
+     "Pumpkin Prince boss fight",
+     "Vampires vs Werewolves Dance-Off (articleId=2304)",
+     "Buy event items and housing with Station Cash or coins"
+    ],
+    "rewards": [
+     "Trick-or-Treat candy",
+     "Pumpkin Prince items",
+     "Pumpkin Prince TCG bundle (Oct 2012, wiki)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.tentonhammer.com:80/node/75739 (pre-event schedule; run not confirmed)"
+    },
+    {
+     "year": 2010,
+     "start": null,
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1845 (October 2010 was Super Spooktacular month; run start/end not in evidence). Dated party sessions only: Thu 2010-10-21 15:00 Pacific (US/LatAm) and Fri 2010-10-22 09:00 Pacific (UK/EU), Server 1, http://www.freerealms.com/article/detail.action?articleId=1870 and articleId=1864 (verified in articles index)"
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304"
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": null,
+     "source": "wiki 'Pumpkin Prince' and wiki 'Events' (October 2012; no dated window in evidence)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svspooktacular",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 12,
+    "source": "(R) Reuses the existing seasons_already_defined name Halloween (same event). Window is reconstructed to cover the two exact, re-verified ranges: 2009 Oct 14 - Nov 11 (articleId=476; tentonhammer node/75739) and 2013 Oct 1 - Nov 12 (articleId=2949). 2010 and 2012 are month-only (October), so Oct 1 start is a (R) choice. 2011 (Oct 13 - Nov 23, articleId=2304) could NOT be re-verified (lookup returned no matches again), so the window does not cover 2011 past Nov 12 and is not widened on unsourced evidence. The existing Sep 20 - Nov 11 row had no source and is replaced."
+   },
+   "zones": [
+    "Sanctuary",
+    "Pixiewood",
+    "Snowy Hill",
+    "Stillwater Crossing",
+    "Bristlewood",
+    "Thornwood Pass",
+    "Mansagua Pass",
+    "Florestaespina",
+    "Blackspore Swamp",
+    "Bone Bog Cemetery"
+   ],
+   "runs": {
+    "npcs": [
+     "Halloween Harry",
+     "Madam Zelda",
+     "Pumpkin Prince",
+     "Drake Sullenfangs",
+     "Ed Sullenfangs",
+     "Jake Blackforest"
+    ],
+    "props_or_areas": [
+     "Dress Up! costume shop (Sanctuary)",
+     "Vampires vs. Werewolves dance-off (outside Bone Bog Cemetery, Blackspore Swamp)",
+     "Spooktacular Party and Parade"
+    ],
+    "quests": [
+     "Trick-or-Treat",
+     "Bag Snatchers",
+     "Candy Gram",
+     "A Formal Report",
+     "Halloween Fanatic",
+     "Delicious Goo'd Candy",
+     "Return to Halloween Harry in Sanctuary",
+     "Choose Vampires or Werewolves Dance for the Pumpkin King (article wording; client title unconfirmed)",
+     "Being Prepared (Team Vampire / Team Werewolf)",
+     "Daily Halloween quests (login-based)"
+    ],
+    "activities": [
+     "Vampires vs. Werewolves dance-off",
+     "Trick-or-treat candy collection in Pixiewood with /scare",
+     "Spooktacular Balloons"
+    ],
+    "rewards": [
+     "Special cake (dance-off win)",
+     "Candy Corn pet pal (Members, Coin Shop)",
+     "Candy Corn Outfit (All Jobs, SC Marketplace)",
+     "Broomstick ride (SC Marketplace, 495 SC)",
+     "Eyeball ride, Dragonfire Broomstick, Flaming Skull Wobblehead, Headless Horseman Outfit (2013 SC Marketplace, week 4)",
+     "Super Spooky / Haunted / Creepy Crawly Flair Shards (150 SC each)",
+     "Fog Machine (8999 coins)",
+     "Werewolf Tail / Vampire Fangs (cannot be worn together)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=476; http://www.tentonhammer.com:80/node/75739 (re-verified this pass)"
+    },
+    {
+     "year": 2010,
+     "start": "2010-10-01",
+     "end": null,
+     "source": "(R) month only: October 2010 per articleId=1845; day 1 is a placeholder, exact days not in sources"
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": null,
+     "source": "articleId=2304 per earlier pass (Oct 13 - Nov 23); NOT re-verified this pass. End left null; season window does not cover to Nov 23 on current evidence."
+    },
+    {
+     "year": 2012,
+     "start": "2012-10-01",
+     "end": null,
+     "source": "(R) month only: October 2012 per wiki Pumpkin Prince and Candy Corn; day 1 is a placeholder"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949 (re-verified this pass)"
+    }
+   ]
+  },
+  {
+   "event": "Halloween Spooktacular (Super Fantomastique / Super Spooktacular)",
+   "record": "quest-lines/schedules.json svsuper-fantomastique-halloween",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "(R) Widened to cover both dated runs: 2011 Oct 13 - Nov 23 (freerealms article 2304, as cited in the event pack; not re-fetched here) and 2013 Oct 1 - Nov 12 (wiki page Super Spooktacular: 'Super Spooktacular 2013 runs from October 1, 2013 through November 12, 2013'). Window reuses the existing season name 'Halloween' but replaces its (R) window Sep 20 - Nov 11, which starts too late for 2011 and ends too early for 2011. No 2012 date is confirmed; the window is a union of the two known runs."
+   },
+   "zones": [
+    "Sanctuary",
+    "Pixiewood",
+    "Bone Bog Cemetery",
+    "Snowy Hill",
+    "Mansagua Pass",
+    "Thornwood"
+   ],
+   "runs": {
+    "npcs": [
+     "Halloween Harry (locale:415047)",
+     "The Pumpkin Prince (locale:414863)"
+    ],
+    "props_or_areas": [
+     "Halloween housing decorations in Pixiewood",
+     "Halloween Flooring and Wallpaper (wiki category Super Spooktacular)",
+     "Pumpkin Patch Flooring/Wallpaper, Spooky Chair, Spooky Coffee Table, Spooky Coffin Couch, Spooky Chatty Painting, Spooky Coffin Clock (article 2309, undated)"
+    ],
+    "quests": [
+     "Trick or Treat in Sanctuary (locale:14563; article 1864)"
+    ],
+    "activities": [
+     "Trick or Treat with Halloween Harry (daily quests, article 1857/1864)",
+     "Community Trick or Treat party in Sanctuary with costumes (article 1864)",
+     "Pumpkin Prince and Vampire vs. Werewolf world events (article 1857)",
+     "Ghostbusters vs Pumpkin Prince in Snowy Hill, Mansagua Pass, Thornwood (article 1860, undated)",
+     "Bone Bog Cemetery member combat instance (article 1857)",
+     "Halloween Trading Card Game quest packs (article 1857)",
+     "Battle Three of Three (2013, wiki)"
+    ],
+    "rewards": [
+     "Candy from shop owners and Halloween Harry (article 1864)",
+     "Halloween TCG quest packs (article 1857)",
+     "Pumpkin Carver after defeating the Pumpkin Prince's enemies (wiki, 2013 update; unverified here)",
+     "Super Spooktacular Parachute, 899 station cash (video:1TNyzyI62nc/00122; wiki 2013)",
+     "Undead Nightmare, Toxic Barrel (station cash, wiki 2013)",
+     "Frankie Spooky Popper, Ghostly Spooky Popper (coins, wiki 2013)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304 (via event pack)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "wiki page Super Spooktacular (2013 run); event weeks #3 10/15/13 and #4 10/22/13 on the same page"
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svsuper-spooktacular",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 12,
+    "source": "(R) Reuses the existing season name 'Halloween' (already defined as Sep 20 - Nov 11 in Sanctuary 10f129e src/Resources/Zones/FabledRealms.json:28-51, a guess per its own source). Window Oct 1 - Nov 12 is reconstructed: the full dated runs are 2009 (Oct 14 - Nov 11, http://www.freerealms.com:80/article/detail.action?articleId=476; http://www.tentonhammer.com:80/node/75739) and 2013 (Oct 1 - Nov 12, http://www.freerealms.com:80/article/detail.action?articleId=2949). Both fall inside the window. 2010 and 2011 give only the month (October), so they do not change the window; the 2013 Nov 12 end is the article summary, and the wiki's Nov 15 is not used. The existing Sep 20 start has no dated source and should be replaced."
+   },
+   "zones": [
+    "Sanctuary",
+    "Pixiewood Hills",
+    "Blackspore Swamp (DISPUTED: articleId=1845 says Blackspore, articleId=1850 says Sporeshade)"
+   ],
+   "runs": {
+    "npcs": [],
+    "props_or_areas": [
+     "Halloween_Pixiewood_1-10, Briarwood, Snowhill, StillWater seasonal client areas (client FabledRealmsAreas.xml:3156-3195)",
+     "Pixiewood decorations and costumes (articleId=476, 1854)",
+     "Fog Machine Spooktacular house item (locale:5102512)"
+    ],
+    "quests": [],
+    "activities": [
+     "Trick-or-treat with /scare for candy (articleId=1854, 1861)",
+     "Ghostly Pet Party, Oct 7-8 2010 (articleId=1845)",
+     "Trick or Treat party in Sanctuary, 2nd Annual and anniversary party (articleId=1864, 1870)"
+    ],
+    "rewards": []
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=476 (First Annual, free to registered players); http://www.tentonhammer.com:80/node/75739 ('scheduled to run October 14th through November 11th')"
+    },
+    {
+     "year": 2010,
+     "start": null,
+     "end": null,
+     "source": "Month only: 'October 2010 was Super Spooktacular month' (http://www.freerealms.com:80/article/detail.action?articleId=1845). Community events Thu 7 and Fri 8 Oct 2010 and Ghostly Pet Party (articleId=1845, 1849). Start day and end date not sourced; no day is invented."
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": null,
+     "source": "Month only: event running in October 2011 per SOE webcast coverage Thursday 2011-10-06 (http://www.freerealms.com/article/detail.action?articleId=2301; articleId=2291). Dates not stated."
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949 (Fourth Annual). Wiki video note gives Nov 15; article summary used."
+    }
+   ]
+  },
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svvampire-vs-werewolf-dance-battle",
+   "season": {
+    "name": "Halloween",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "(R) Widened to cover every dated run found: 2013 Oct 1 to Nov 12 (articleId=2949, per the evidence pack, not re-read by me) and 2011 Oct 13 to Nov 23 (verified: http://www.freerealms.com:80/article/detail.action?articleId=2304, 'The Halloween Spooktacular event ran from October 13, 2011 to November 23, 2011'). 2009 Oct 14 to Nov 11 (verified: http://www.tentonhammer.com:80/node/75739 'scheduled to run from October 14 through November 11, 2009'). Reason for the reuse of the name 'Halloween': it is the same event as the existing season row. Existing row Sep 20 to Nov 11 is (R) and only starts earlier than any dated run; this replacement window is a judgment call and needs staff sign-off."
+   },
+   "zones": [
+    "Blackspore Swamp",
+    "Bone Bog Cemetery",
+    "Pixiewood Hills",
+    "Sanctuary"
+   ],
+   "runs": {
+    "npcs": [
+     "Madam Zelda",
+     "Pumpkin Prince",
+     "Halloween Harry",
+     "Greyli Dustywings",
+     "Lucinda",
+     "Lord William IV",
+     "Tabitha",
+     "Hector",
+     "Ghost Hunter",
+     "Ruby",
+     "Vladimir",
+     "Cadie",
+     "Crofti",
+     "Ikee"
+    ],
+    "props_or_areas": [
+     "Halloween Pixiewood (client FabledRealmsAreas.xml:3156-3195, per existing season row)",
+     "Halloween Harry quick-click Atlas icon during event (wiki)",
+     "Dress Up! costume shop in Sanctuary during the Super Spooktacular (locale:5102473)"
+    ],
+    "quests": [
+     "Trick-or-Treat from Halloween Harry (wiki, repeatable daily)",
+     "Bag Snatchers from Halloween Harry (wiki)",
+     "Candy Gram from Halloween Harry (wiki)",
+     "A Formal Report from Halloween Harry (wiki)",
+     "A Trip to the Swamp from Greyli Dustywings (wiki)",
+     "Spectral Spectacles from Greyli Dustywings (wiki)",
+     "A Ghostly Discovery from Lucinda (wiki)",
+     "Guardians of the Tomb from Lord William IV (wiki)",
+     "Sealed with a Signet from Lord William IV (wiki)",
+     "The Pumpkin Prince from Lucinda (wiki)",
+     "Spooky Hide 'n Seek from Tabitha (wiki)",
+     "Ghostly Games from Hector (wiki)",
+     "Halloween Fanatic from Halloween Harry (wiki)",
+     "The Great Scare from Ghost Hunter (wiki)",
+     "Ectoplasmic Goo from Ghost Hunter (wiki, once per character)",
+     "Delicious Goo'd Candy from Halloween Harry (wiki)"
+    ],
+    "activities": [
+     "Vampires vs Werewolves dance-off, Bone Bog Cemetery, started by Madam Zelda, judged by the Pumpkin Prince (articleId=1854, 1860, 1861, 1862; 2010 edition only confirmed)",
+     "Trick-or-treat and daily quests (articleId=1860, 1861)"
+    ],
+    "rewards": [
+     "Werewolf Tail (locale:7365)",
+     "Vampire Fangs (locale:7366)",
+     "Pumpkin prize for dance-off winners (articleId=1862; contents unverified)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.tentonhammer.com:80/node/75739 (pre-event schedule); live run supported only by recap node/75724, not re-read"
+    },
+    {
+     "year": 2010,
+     "start": null,
+     "end": null,
+     "source": "articleId=1845 'October is Super Spooktacular month' (month only, no run days)"
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304"
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": null,
+     "source": "wiki Template:News/Archive 'Update of October 11, 2012'; exact dates unconfirmed"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949 (not re-read by me)"
+    }
+   ]
+  }
+ ],
+ "Snow Days": [
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svfishing-holiday-and-daily",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 9,
+    "end_month": 1,
+    "end_day": 3,
+    "source": "Sourced run: articles 705 and 718 (Dec 18, 2009 to Jan 3, 2010, every day). Start Dec 9 is a (R) reconstruction: article 1953 (Thu Dec 9, 2010, Wintery Basin, Server 1) calls itself 'the first Snow Days party of the season', so the season was live by Dec 9, 2010. That shows the season was live by that date, not that it opened that day. End Jan 3 is sourced only for 2009-10 and assumed for later years (R). Wiki 'Snow Days' says December through January. Window wraps the year (Dec to Jan); scheduler support for wrap not confirmed."
+   },
+   "zones": [
+    "Snowhill",
+    "Wintery Basin (fishing area above Snowhill, Server 1)"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy (Gifting Tree presents, article 828)",
+     "Mayor of Snow Hill and Snowhill residents (daily quests, article 828)",
+     "Robgoblins (Snow Days clothing, articles 1950, 2429, 2808)",
+     "Abominable Snowman (article 2815)"
+    ],
+    "props_or_areas": [
+     "Snowhill decorations",
+     "Gifting Tree (Snowhill, article 2429)",
+     "Wintery Basin fishing area (articles 1953, 1958; locale 15043)"
+    ],
+    "quests": [
+     "Seasonal: Snow Days (locale:4419465)",
+     "Snow Days (locale:5102485)"
+    ],
+    "activities": [
+     "Daily present from Candi Ivy under the Gifting Tree (article 828)",
+     "Snow Days prize wheel (article 828; locale 426649)",
+     "Fight Robgoblins for Snow Days clothing (articles 1950, 2429, 2808)",
+     "Community parties at Wintery Basin (articles 1953, 1958, 1959)",
+     "In-game community events and TCG/JCC tournaments daily, Dec 18, 2009 to Jan 3, 2010 (articles 705, 718)"
+    ],
+    "rewards": [
+     "Gifting Tree present each day (article 828)",
+     "Snow Days prize wheel prizes (article 828)",
+     "Snow Days clothing from Robgoblins and presents (article 2429)",
+     "Member reward pack from Dec 15, 2010 (articles 1966, 1967; contents not in evidence)",
+     "Snow Days housing items (wiki, secondary; locales 441205-441217)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=705 ; http://www.freerealms.com/article/detail.action?articleId=718"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-09",
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1953 (community party date, first Snow Days party of the season, Wintery Basin, Server 1; not a confirmed season start; end not in evidence); 1958, 1959 (same party); member rewards from Wed Dec 15, 2010 per 1966, 1967"
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2428 (live when the community webcast aired; exact dates not in evidence)"
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svfree-realms-holiday",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 8,
+    "end_month": 1,
+    "end_day": 3,
+    "source": "(R) Core window is articleIds 705, 709, 718 (re-checked by lookup): daily activities Dec 18, 2009 through Jan 3, 2010. Widened start to Dec 8 because the earliest dated start in evidence is the Dec 8, 2011 webcast (articleId 2428), and the 2010 party (articleId 1953) ran Dec 9-10, 2010. Dec 8 through Jan 3 covers every dated run (2009 Dec 18; 2010 Dec 9-17; 2011 Dec 8; 2012 Dec 25; 2013 Dec 18). Later-year end dates are not in evidence, so Jan 3 is carried over from 2009 (R). The wiki 'Snow Days' page says only 'December throughout January', which does not fix Jan 3. The Template:News/Archive '[Snow Days] has ended' line appears above the 'Update of January 12, 2012' header, so it cannot be dated to a specific day from the text. It is not used as evidence for the end date."
+   },
+   "zones": [
+    "Snowhill",
+    "Wintery Basin (Cuenca Invernal) fishing area (2010 party site)"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy (Gifting Tree daily present; quest giver)",
+     "Everett (Snowman Showdown, wiki)",
+     "Abominable Snowman (boss, articleId 2815)",
+     "Robgoblins (steal presents, drop Snow Days clothing, articleIds 1950, 2429, 2808)",
+     "Mayor of Snowhill (articleId 828)"
+    ],
+    "props_or_areas": [
+     "Gifting Tree",
+     "Snowhill holiday decorations",
+     "Wintery Basin fishing area (2010)"
+    ],
+    "quests": [],
+    "activities": [
+     "Daily Gifting Tree present from Candi Ivy (articleId 828)",
+     "Snow Days prize wheel (articleId 828)",
+     "Robgoblin fights for Snow Days clothing (articleIds 2429, 2808)",
+     "Abominable Snowman minigame (articleId 2815; wiki)",
+     "TCG/JCC tournaments and daily community events (2009, articleIds 705, 709, 718)",
+     "Wintery Basin community party (2010, articleId 1953)",
+     "12 Days of Presents (2012, wiki)"
+    ],
+    "rewards": [
+     "Gifting Tree presents",
+     "Snow Days prize wheel prizes",
+     "Snow Days outfits (articleIds 828, 1957, 2429)",
+     "Toy Maker Ears (2011, wiki)",
+     "Bow Wrapped Suit / Jacket / Pants, Lacy Gift Dress, Snowflake Crystal Dress (2013, wiki)",
+     "12 Days of Presents 2012 items (wiki)",
+     "2013 Snow Days Toy Collector Pack (wiki; Station Cash; price not in evidence)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "articleId 705 (lookup-confirmed); 709 and 718 (Spanish copies, same dates)"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-09",
+     "end": "2010-12-10",
+     "source": "articleId 1953 (lookup-confirmed): 'Thursday December 9th, 2010 3pm Pacific Time' (US/LatAm) and 'Friday December 10th, 2010 9:00am Pacific' (UK/EU), Server 1, Wintery Basin fishing area. Year is stated in the text, so it is not inferred. Also articleId 1959 calls it the first party of the Snow Days season"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-15",
+     "end": "2010-12-17",
+     "source": "articleId 1967: member reward pack at noon Dec 15, delivery from Dec 16 over 2-3 days. Year NOT in the article text; 2010 is inferred from the 2010 party (articleId 1953) and is unverified (R)"
+    },
+    {
+     "year": 2011,
+     "start": "2011-12-08",
+     "end": null,
+     "source": "articleId 2428: 'Snow Days is HERE!' at the Dec 8, 2011 webcast. Toy Maker Ears introduced in-game Dec 15, 2011 (wiki 'Toy Maker Ears'). The start is the webcast date, not a confirmed opening day"
+    },
+    {
+     "year": 2012,
+     "start": "2012-12-25",
+     "end": null,
+     "source": "wiki 'Snow Days Lot', 'Snow Days Builders Pack', '12 Days of Presents' (presents from Dec 25, 2012). Not checked against an article"
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-18",
+     "end": null,
+     "source": "wiki 'Bow Wrapped Suit', 'Lacy Gift Dress', 'Snowflake Crystal Dress' (introduced Dec 18, 2013)"
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svgift-tree",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 9,
+    "end_month": 1,
+    "end_day": 3,
+    "source": "(R) Reconstructed window. Start Dec 9 is the first dated 2010 Snow Days event (Americas session Thu Dec 9 2010 15:00 Pacific, Server 1; article 1959, confirmed in the articles index). That is an event date, not a stated season opening, so the start is an inference. End Jan 3 is the last day of the only dated full run, Dec 18 2009 to Jan 3 2010 (articles 705, 718). The 2010 season end and the 2011 to 2013 windows are not dated in articles. Wiki 'Snow Days' says the event runs 'during the months of December throughout January'. The window is assumed to repeat yearly. No existing season is reused (only Halloween is defined)."
+   },
+   "zones": [
+    "Snowhill",
+    "Cuenca Invernal (Wintery Basin) - 2010 party venue"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy (quest giver; articles 828, 1950, 2808, 2429; wiki 'Candi Ivy')",
+     "Alana Yedra (daily Gifting Tree quest; article 1956)",
+     "Zena Lierre (daily Gifting Tree quests; article 1955)",
+     "Silversnow (locale:423004)",
+     "Everett (Snowman Showdown; article 2808; wiki 'Snow Days')",
+     "Abominable Snowman (boss; articles 2815, 2808)"
+    ],
+    "props_or_areas": [
+     "The Gifting Tree (landmark pine; locale:419835; tree location Sacred Grove per articles 1955, 2429, 2808 and wiki 'The Gifting Tree'; Snowhill per articles 1950, 2808)",
+     "Snowhill seasonal area",
+     "Cuenca Invernal party venue (2010)"
+    ],
+    "quests": [
+     "The Gifting Tree (locale:419835; daily)",
+     "Guarding the Gifting Tree (locale:420280)",
+     "Guard the Gifting Tree (locale:420481)",
+     "Present Problems (wiki 'Snow Days'; client title not found)",
+     "Holiday Cheer (wiki 'Snow Days'; client title not found)",
+     "Silversnow's Sapling (wiki 'Snow Days'; client title not found)",
+     "The Perfect Disguise (wiki 'Snow Days'; client title not found)"
+    ],
+    "activities": [
+     "Daily present from under the Gifting Tree via Candi Ivy, Alana Yedra or Zena Lierre (articles 828, 1950, 1955, 1956)",
+     "Open sparkling presents beneath the Gifting Tree (locale:419845, 431575)",
+     "Spin the Snow Days prize wheel (article 828)",
+     "Pelt Snowmen and Robgoblins defending the Gifting Tree with snowballs (articles 828, 2808)",
+     "Fight Robgoblins for special Snow Days clothing (articles 1950, 2429, 2808)",
+     "Attend the Snow Days community party at Cuenca Invernal (articles 1953, 1959)",
+     "Buy Snow Days outfits from the Marketplace while available (articles 828, 2429)"
+    ],
+    "rewards": [
+     "Daily present from the Gifting Tree",
+     "Snow Days prize wheel spin (article 828)",
+     "Snow Days clothing from Robgoblins and presents (articles 1950, 2429, 2808)",
+     "Subarctic Winterwear Boots from Guarding the Gifting Tree (wiki 'Subarctic Winterwear Boots')",
+     "Snow Days Toys housing miniatures (wiki 'Snow Days Toys')",
+     "Achievements 'Tis the Season, Holiday Detective, O, Gifting Tree... (wiki 'Achievements'; locale:5102779)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=705 ; http://www.freerealms.com/article/detail.action?articleId=718 (community events and TCG/JCC tournaments every day)"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-09",
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1959 (Americas session Thu Dec 9 2010 15:00 Pacific; UK/Europe session Fri Dec 10 2010 09:00 Pacific / 16:00 GMT; Server 1; Cuenca Invernal, described as the first party of the season); articleId=1953 and 1958 (same party announcement). Season end not stated."
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svholiday-celebrations",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 1,
+    "end_month": 1,
+    "end_day": 14,
+    "source": "(R) Covers the two exact full runs: 2009-10 Dec 18 to Jan 3 (http://www.freerealms.com:80/article/detail.action?articleId=705; also articleId=718) and 2013 Dec 1 2013 to Jan 14 2014 (wiki page 'Snow Days', 2013 section; wiki-only). Reason for widening past the 2009-10 window: the 2013 run starts Dec 1 and ends Jan 14, and a single Dec 18 to Jan 3 window would cut off the later runs. No source gives a 2010 or 2011 season start, so this window is a reconstruction for the typical run, not a verified yearly rule. Not an alias of the existing Halloween season."
+   },
+   "zones": [
+    "Snowhill",
+    "Wintery Basin fishing area (Cuenca Invernal, above Snowhill)"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy",
+     "Abominable Snowman",
+     "Everett (Snowman Showdown, wiki)",
+     "Mayor Crystalline (wiki quest list only; not in articles)",
+     "Preston Daly (wiki quest list only)",
+     "Downey (wiki quest list only)",
+     "Annabelle (wiki quest list only)"
+    ],
+    "props_or_areas": [
+     "Gifting Tree",
+     "Snowhill Snow Days decorations (article 2429)",
+     "Wintery Basin fishing area party site (article 1953/1959)"
+    ],
+    "quests": [
+     "Snow Days Are Here Again! (quest title, source not traced)",
+     "Seasonal: Snow Days (locale:4419465)",
+     "The Gifting Tree (wiki, repeatable once per day)",
+     "Guarding the Gifting Tree (wiki)",
+     "Robgoblin Robbery Ring (wiki)",
+     "Snowman Showdown (wiki, Everett)"
+    ],
+    "activities": [
+     "Daily Gifting Tree present from Candi Ivy (article 828)",
+     "Snow Days prize wheel (article 828; locale:426650)",
+     "Defend the Gifting Tree from the Abominable Snowman and snowmen with snowballs (article 1950; wiki)",
+     "Fight Robgoblins for Snow Days clothing (articles 2429, 2808)",
+     "Wintery Basin Snow Days community party (articles 1953, 1959)",
+     "Daily community events and TCG tournaments (article 705)"
+    ],
+    "rewards": [
+     "Snow Days clothing and outfits (article 828, 2808; sold for a limited time, return 'if at all')",
+     "Gifting Tree presents",
+     "Snow Days prize wheel prizes",
+     "Snow Days Lot (locale:441205, wiki)",
+     "Snow Days Builders Pack (locale:441209, wiki)",
+     "Snow Days Unicorn Sweater (locale:441217, wiki)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=705 (SOE news: daily community events and TCG tournaments); articleId=718 confirms the same dates"
+    },
+    {
+     "year": 2010,
+     "start": null,
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1953 (Wintery Basin Snow Days party Dec 9 2010 US/LatAm, Dec 10 UK/EU, Server 1); articleId=1959 describes it as the first party of the season at Cuenca Invernal. Season start and end not given. Party date only, not a season date."
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2428 says 'Snow Days is HERE' but gives no month or day. Run confirmed, dates unknown."
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-01-12",
+     "source": "wiki News archive: '[Snow Days] has ended' near the Jan 12 2012 update (wiki-only). Start not sourced; the wiki Snow Days Lot, Unicorn Sweater and 12 Days of Presents items are wiki-only."
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-01",
+     "end": "2014-01-14",
+     "source": "wiki page 'Snow Days' (2013 section: 'runs from December 1, 2013 through January 14, 2014'); wiki-only; client/wiki update 122.1 (12/04/2013) lists Snow Days items"
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svjcc",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 1,
+    "end_month": 1,
+    "end_day": 14,
+    "source": "(R) Window taken from Wiki: Snow Days (2013 section), Dec 1, 2013 to Jan 14, 2014, which the wiki page gives but no dated article confirmed in this pass. Chosen to cover the typical Dec-into-Jan run. Confirmed run inside it: articles 705, 709, 718 (Dec 18, 2009 to Jan 3, 2010). Wiki news archive shows 'Snow Days has ended' followed by a Jan 5 and Jan 12, 2012 update, which fits a January end. Halloween row in seasons_already_defined is a different event, so no name reuse."
+   },
+   "zones": [
+    "Snowhill",
+    "Wintery Basin (fishing area; locale:15043 'Community Event: Wintery Basin Snow Days Party')"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy (Gifting Tree presents, quests)",
+     "Mayor Crystalline (Holiday Recital repeatable)",
+     "Everett (Snowman Showdown repeatable)",
+     "Calvin Coldcastle (Snowball Fights, locale:441081)",
+     "Trina Turtledove (cookies, locale:441091)",
+     "Abominable Snowman (boss; article 2815, wiki)"
+    ],
+    "props_or_areas": [
+     "Gifting Tree (Snowhill)",
+     "Snowhill decorations",
+     "Wintery Basin fishing area"
+    ],
+    "quests": [
+     "Snow Days (quest_title, locale:5102485)",
+     "Seasonal: Snow Days (locale:4419465)",
+     "The Gifting Tree, Present Problems, Holiday Cheer, Guarding the Gifting Tree, Robgoblin Robbery Ring, Snowmen Disassembly, An Unexpected Gift (wiki)",
+     "12 Days of Presents (2012 series, wiki; treat as sub-run)"
+    ],
+    "activities": [
+     "Daily Gifting Tree present from Candi Ivy (article 828)",
+     "Snow Days prize wheel (locale:426650)",
+     "Snowball fights (locale:441081)",
+     "Robgoblin fights for Snow Days clothing (articles 2429, 1950)",
+     "JCC tournaments through the day (articles 709, 718, 771)",
+     "Community parties: House Party, Dance Party (locale:436455-436460)"
+    ],
+    "rewards": [
+     "Snow Days Present (locale:1729)",
+     "Snow Days outfits (articles 828, 1956, 1957)",
+     "Snow Days Lot (locale:441205)",
+     "Snow Days Builders Pack (locale:441209)",
+     "Snow Days Toys",
+     "Icy Snow Days Flair Shard",
+     "Snow Days Unicorn Sweater",
+     "Snowglobe Helmet / Snowflake Glasses (2012 series)",
+     "Snow Globe (SC Marketplace)",
+     "Snow Hog (Coin Shop)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=705 ; http://www.freerealms.com/article/detail.action?articleId=709 ; articles 718 (same range)"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-09",
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1959 (season party Thu 9 Dec 2010, 15:00 Pacific, Server 1; end date not in evidence)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-01",
+     "end": "2014-01-14",
+     "source": "Wiki: Snow Days (2013 section); not confirmed by a dated article"
+    }
+   ]
+  },
+  {
+   "event": "Snow Days (Días de Nieve)",
+   "record": "quest-lines/schedules.json svjcc-tournaments-snow-days",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 18,
+    "end_month": 1,
+    "end_day": 3,
+    "source": "http://www.freerealms.com/article/detail.action?articleId=718 (confirmed in this pass: Snow Days ran every day Dec 18, 2009 to Jan 3, 2010); also articleId=709 and articleId=705 give the same 2009 dates. (R) Only the 2009 run has exact dates. The 2011 run is supported only as 'December 2011' (articleId=2428), so the window is built from 2009 and is not confirmed for other years. The window wraps the year end (Dec into Jan)."
+   },
+   "zones": [
+    "Snow Hill (Snowhill)",
+    "Winter Basin / Cuenca Invernal fishing area (season party, articleIds 1958, 1959; locale:15043, locale:15044)"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy (articleId 828)",
+     "Calvin Coldcastle (locale:441081, snowball fights in Snowhill)",
+     "Trina Turtledove (locale:441091, cookies)"
+    ],
+    "props_or_areas": [
+     "Gifting Tree (articleId 828; locale:433669)",
+     "Snow Hill seasonal client area (articleId 1957)"
+    ],
+    "quests": [],
+    "activities": [
+     "Trading card game (JCC) tournaments through the day (articleId 718, 2009)",
+     "Daily community events (articleId 705/718; the 15:00 Pacific time is not verified and is omitted)",
+     "Daily prize wheel spin (locale:426649, locale:426650)",
+     "Daily Snow Hill quests and Candi Ivy present from the Gifting Tree (articleId 828)",
+     "Snowball fights with Calvin Coldcastle (locale:441081)",
+     "Snow Days season party at Winter Basin (locale:15043, locale:15044)",
+     "Community house tours and dance party (locale:436456, locale:436458)"
+    ],
+    "rewards": [
+     "Snow Days Present (locale:1729; articleId 828)",
+     "Snow Days Wheel prizes (locale:426649, locale:426650)",
+     "Snow Days outfits (articleIds 808, 1957, 2429; limited time)",
+     "Snow Days cookies and eggnog from quest and battle rewards (locale:441144, locale:441176)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "articleId=718 and articleId=709 (Spanish news posts, daily run stated); articleId=705 also lists the same dates"
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": null,
+     "source": "articleId=2428 places Snow Days 2011 in December 2011 (webcast). No start or end day is stated, so no fixed days are scheduled for 2011."
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svsnow-days",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 1,
+    "end_month": 1,
+    "end_day": 14,
+    "source": "(R) Union of the two dated runs: wiki page 'Snow Days' section 2013 ('Snow Days [2013] runs from December 1, 2013 through January 14, 2014') and the 2009-10 run (Dec 18, 2009 to Jan 3, 2010; articleId=705, 709, 718). Jan 14 is the latest dated end, so the window covers both runs. The wiki intro's 'December throughout January' supports a winter window but gives no exact end, so the window is not widened to Jan 31. Reason for (R): no single source gives a whole-season window. Halloween (Sep 20 to Nov 11) does not overlap. No winter season was defined before, so this season is new."
+   },
+   "zones": [
+    "Snowhill (town centre, Gifting Tree)",
+    "Wintery Basin (2010 community party area, articleId=1953)"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy (daily Gifting Tree present, articleId=828)",
+     "Abominable Snowman (attacks the Gifting Tree, articleId=2815)",
+     "Calvin Coldcastle (snowball fights, locale:441081)"
+    ],
+    "props_or_areas": [
+     "Snowhill decorated with the Gifting Tree in the town centre (articleId=1950)"
+    ],
+    "quests": [
+     "The Gifting Tree (repeatable once per day; articleId=828, 2808; locale:419835)"
+    ],
+    "activities": [
+     "Daily in-game community events at 3pm Pacific, a different event each day, including snowball battles and jump-platform games (articleId=705, 770, 771)",
+     "Talk to Candi Ivy each day for a present (articleId=828)",
+     "Spin the Snow Days prize wheel (articleId=828)",
+     "Repel Abominable Snowman attacks on the Gifting Tree with snowballs (articleId=2815)",
+     "Robgoblin fights for Snow Days clothing (articleId=2429, 2808)"
+    ],
+    "rewards": [
+     "Snow Days present from under the Gifting Tree, daily (articleId=828)",
+     "Snow Days prize wheel bonus prizes (articleId=828; locale:426650)",
+     "Limited-time Snow Days outfits (articleId=828, 809)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=705 (English, daily community events); also articleId=709 (Spanish) and 718 (Spanish, JCC tournaments)"
+    },
+    {
+     "year": 2010,
+     "start": null,
+     "end": null,
+     "source": "Main 2010 run dates are unsourced. Sub-occurrence only: Wintery Basin community party, US/LatAm session Thu 9 Dec 2010 3pm Pacific and UK/Europe session Fri 10 Dec 2010 9:00am Pacific (articleId=1953, year and weekdays stated in text). Member reward pack began 15 Dec 2010 21:00 CET (articleId=1966, 1967); this is a membership pack, not an event start, so it is not used as the event start."
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-01",
+     "end": "2014-01-14",
+     "source": "wiki page 'Snow Days' (ns0), section 2013"
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svsnow-days-d-as-de-nieve",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 1,
+    "end_month": 1,
+    "end_day": 14,
+    "source": "(R) Widened to cover both explicit windows: 2009-10 run Dec 18 2009 to Jan 3 2010 (freerealms.com articleId=718; articles 705, 709) and 2013-14 run Dec 1 2013 to Jan 14 2014 (wiki 'Snow Days' page, section 2013: 'Snow Days 2013 runs from December 1, 2013 through January 14, 2014'). Wiki also says the event is 'during the months of December throughout January'. No season of this name exists; Halloween is not reused. Window wraps the year end and the scheduler must support that. The 2010 and 2011 runs have no dates, so this window is an envelope, not a confirmed run for those years."
+   },
+   "zones": [
+    "Snowhill (Colina Nevada)",
+    "Cuenca Invernal (Wintery Basin) frozen-lake party site (2010 party sessions, articleId=1959)"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy",
+     "Zena Lierre (articleId=1955, Gifting Tree daily quests)",
+     "Alana Yedra (articleId=1956, daily gift quest)"
+    ],
+    "props_or_areas": [
+     "Gifting Tree (Snowhill)",
+     "Abominable Snowman invasion spawns in Snowhill (wiki says every 15 minutes; not used as a slot, no clock source)"
+    ],
+    "quests": [
+     "The Gifting Tree (Candi Ivy, repeatable daily; wiki)",
+     "Snowman Showdown (Everett, wiki)",
+     "Party Animal (Preston Daly, wiki; not confirmed as the Winter Party quest)"
+    ],
+    "activities": [
+     "Daily community events and JCC tournaments (2009-10, articleId=718)",
+     "Snowman invasion / Gifting Tree defense (wiki)",
+     "Fight Robgoblins for Snow Days clothing (articleId=2429)",
+     "Spin the Snow Days prize wheel (articleId=828)"
+    ],
+    "rewards": [
+     "Snow Days clothing from Robgoblins (articleId=2429)",
+     "Daily present from the Gifting Tree (articleId=828)",
+     "Snow Days outfits and housing, Station Cash, limited time (articleId=808; no prices)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=718 (also 705, 709): daily, with community events at 15:00 Pacific and JCC tournaments"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-09",
+     "end": "2010-12-10",
+     "source": "Two Winter Basin Snow Days party sessions: Americas Thu 9 Dec 2010 15:00 Pacific, Server 1 (articleId=1958; 1959); UK and Europe Fri 10 Dec 2010 9:00 Pacific / 4:00pm GMT (articles/facts.json:12086). Party dates only; full 2010 run dates are not stated in any source."
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-01",
+     "end": "2014-01-14",
+     "source": "wiki 'Snow Days' page, section 2013 (wiki only, no dated article seen): 'Snow Days 2013 runs from December 1, 2013 through January 14, 2014'. Week #1 12/3/2013, Week #2 12/10/2013, Week #3 12/18/2013 content noted on the same page."
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svsnow-days-member-rewards",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 8,
+    "end_month": 1,
+    "end_day": 3,
+    "source": "(R) Window spans every dated run point. End 3 Jan from the 2009-10 run (http://www.freerealms.com:80/article/detail.action?articleId=705; also 709, 718: daily community events and JCC tournaments 18 Dec 2009 to 3 Jan 2010). Start 8 Dec is the 2011 community webcast date (http://www.freerealms.com/article/detail.action?articleId=2428: webcast held 8 Dec 2011 on Snow Days 2011, Snow Days live after it). This is NOT a sourced season opening: no source gives a season start for any year, so the window start is a reconstruction covering the earliest dated point. Name matches client quest title locale:5102485. Not the Halloween season."
+   },
+   "zones": [
+    "Snowhill",
+    "Wintery Basin (2010 community party, fishing area)"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy",
+     "Trina Turtledove (wiki, 12 Days of Presents art)",
+     "the Mayor (unnamed in sources; wiki names Mayor Crystalline)"
+    ],
+    "props_or_areas": [
+     "The Gifting Tree (Snowhill)",
+     "Snowhill seasonal area"
+    ],
+    "quests": [
+     "Snow Days (locale:5102485)",
+     "The Gifting Tree (repeatable once per day, Candi Ivy; wiki)",
+     "12 Days of Presents (2012, wiki; sub-event)"
+    ],
+    "activities": [
+     "Daily Snow Days quests for the Mayor and Snow Hill residents (articleId=828)",
+     "Talk to Candi Ivy daily for a Gifting Tree present (articleId=828)",
+     "Spin the Snow Days prize wheel (articleId=828; locale:426650, place type unconfirmed)",
+     "Fight Robgoblins for special Snow Days clothing (articleId=2429)",
+     "Daily community events and JCC tournaments, 2009-10 (articleId=705, 709, 718)",
+     "Wintery Basin fishing community party, 9-10 Dec 2010 (articleId=1953)"
+    ],
+    "rewards": [
+     "Snow Days member reward pack, 2010 (articleId=1966)",
+     "Special Snow Days clothing from Robgoblin fights (articleId=2429)",
+     "Daily Gifting Tree present (articleId=828)",
+     "Prize wheel prizes (articleId=828)",
+     "12 Days of Presents 2012 (wiki): Snow Days Lot, Snow Days Unicorn Sweater, Snow Days Builders Pack, Icy Snow Days Flair Shard"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=705 (also 709, 718)"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-09",
+     "end": "2010-12-10",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1953 (community party session in Wintery Basin fishing area, Server 1; Americas Thu 9 Dec 3pm Pacific; UK/Europe Fri 10 Dec 9am Pacific; session times also in 1958). Party session, not a season end. Member reward sent noon Pacific 15 Dec 2010 per articleId=1966, delivered over 2-3 days."
+    },
+    {
+     "year": 2011,
+     "start": "2011-12-08",
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2428 (webcast on Snow Days 2011 held 8 Dec 2011; Snow Days live after it). Season end not sourced."
+    },
+    {
+     "year": 2012,
+     "start": "2012-12-13",
+     "end": "2012-12-25",
+     "source": "wiki: 12 Days of Presents (year only, no article date). Sub-event of SOE's 12 Days of Holidays; linked to Snow Days by the wiki only, not merged."
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svsnowy-days-jours-enneig-s",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 8,
+    "end_month": 1,
+    "end_day": 3,
+    "source": "(R) Window widened to cover every dated run: articles.json:11226 and articles.json:17540 (Snow Days Events and Activities, SOE news): daily community events and TCG tournaments Dec 18, 2009 through Jan 3, 2010; articles.json:14110 (Dec 9-10, 2010 party); freerealms article 2428 (2011 webcast Dec 8, 2011); wiki Snow Days page ('December throughout January'); wiki Snow Days (Week #2 - 12/10/2013). Start Dec 8 reflects the earliest dated start (2011 webcast); end Jan 3 reflects the 2009-10 run end and article 892 ('over until next year', Jan 26, 2010 patch). Not the same as Halloween, so no name reuse needed beyond 'Snow Days'."
+   },
+   "zones": [
+    "Snowhill",
+    "Wintery Basin"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy (wiki Snow Days page: gives the Snow Days quests)",
+     "Trina Turtledove (locale:441091, Snowhill, cookies)",
+     "Everett (wiki Snow Days page: Snowman Showdown, coal request)",
+     "Calvin Coldcastle (locale:441081, Snowball Fights in Snowhill)"
+    ],
+    "props_or_areas": [
+     "Gifting Tree (Snowhill town center)",
+     "Wintery Basin fishing area (party, Server 1)",
+     "Snow Days wheel (locale:426649)"
+    ],
+    "quests": [
+     "The Gifting Tree (repeatable daily, wiki)",
+     "Guarding the Gifting Tree",
+     "Snowmen Disassembly",
+     "Silversnow's Sapling",
+     "Snowman Showdown (wiki)",
+     "Robgoblin Robbery Ring (wiki)"
+    ],
+    "activities": [
+     "Abominable Snowman attacks on the Gifting Tree, defended with snowballs (locale:433669)",
+     "Snow Days wheel, spin once a day (locale:426649)",
+     "Wintery Basin Snow Days party, Dec 2010 (locale:15043, 15048)",
+     "Community Snow Days House Party / Dance Party (locale:436455-436460, undated)",
+     "Snowball fights (locale:441081)",
+     "Robgoblin fights for Snow Days clothing (articles 2429, 2808)"
+    ],
+    "rewards": [
+     "Subarctic Winterwear Jacket, Gloves, Boots (wiki quest rewards)",
+     "Snow Days Present (locale:1729)",
+     "Snow Days cookies and eggnog (locale:441144, 441176)",
+     "Snow Days outfits (Catalog/Marketplace, limited time; currency unverified)",
+     "2013 Snow Days Toy Collector Pack with Snow Days Toy [2013 Edition] (Bruce) (wiki, Station Cash)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "articles.json:11226 and articles.json:17540 (daily Snow Days community events, 15:00 Pacific per the Spanish post); previously missing from the pack"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-09",
+     "end": "2010-12-10",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1953 ; articleId=1959 (Wintery Basin party, Server 1)"
+    },
+    {
+     "year": 2011,
+     "start": "2011-12-08",
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2428 (webcast Dec 8, 2011; Snow Days is HERE)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-10",
+     "end": null,
+     "source": "wiki:2013 Snow Days Toy Collector Pack; wiki:Template:News (Game Update 123) (wiki-only)"
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svtcg-tournaments",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 1,
+    "end_month": 1,
+    "end_day": 14,
+    "source": "(R) Window widened to the 2013 run: wiki 'Snow Days' page, '2013 runs from December 1, 2013 through January 14, 2014'. Corroborated only in part by locale:15043 'Wintery Basin Snow Days Party' and the wiki Game Update 122.1 overview dated 12/04/2013 listing Snow Days items. The 2009-10 run (Dec 18 to Jan 3) is inside this window. The 2011 end date and the 2012 dates are unsourced. Reason for (R): the wiki says the event runs 'December throughout January' and no source gives a per-year end date beyond 2013-14."
+   },
+   "zones": [
+    "Snowhill",
+    "Wintery Basin (locale:15043 'Wintery Basin Snow Days Party')"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy",
+     "Gifting Tree (gives presents to Snowhill residents; wiki Events)",
+     "Calvin Coldcastle (locale:441081, Snowball Fights)",
+     "Trina Turtledove (locale:441091, cookies)"
+    ],
+    "props_or_areas": [
+     "Snowhill Gifting Tree",
+     "Snow Days Lot (locale:441205)",
+     "Snowhill snowmen invaders (locale:433669)"
+    ],
+    "quests": [
+     "Present Problems",
+     "Holiday Cheer",
+     "Guarding the Gifting Tree",
+     "The Great Robgoblin Robbery Ring (locale:420288; 'Robgoblin Robbery Ring' locale:420602 unresolved)"
+    ],
+    "activities": [
+     "Snow Days community events and TCG/JCC tournaments (articleId 705; TCG is an activity inside Snow Days, not its own event)",
+     "Snow Days wheel, spun daily (locale:426650, 426649)",
+     "Robgoblin fights for Snow Days clothing (articleId 1950, 2429)",
+     "Snowball fights (locale:441081)",
+     "Snow Days house and dance parties (locale:436455-436458)"
+    ],
+    "rewards": [
+     "Snow Days Present (locale:1729)",
+     "Special Snow Days clothing from Robgoblins (articleId 1950, 2429)",
+     "Snow Days cookies and eggnog from quest/battle rewards (locale:441144, 441176)",
+     "Subarctic Winterwear Jacket and Hat (wiki; year not stated)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=705"
+    },
+    {
+     "year": 2011,
+     "start": "2011-12-01",
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2428 (live in December 2011, webcast Dec 8; start date is (R) inferred from the December pattern, end not sourced)"
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-01",
+     "end": "2014-01-14",
+     "source": "wiki: Snow Days ('2013 runs from December 1, 2013 through January 14, 2014'; wiki-only)"
+    }
+   ]
+  },
+  {
+   "event": "Snow Days",
+   "record": "quest-lines/schedules.json svtrading-card-game-tournaments",
+   "season": {
+    "name": "Snow Days",
+    "start_month": 12,
+    "start_day": 1,
+    "end_month": 1,
+    "end_day": 14,
+    "source": "(R) Window reconstructed from wiki: Snow Days (2013 section) Dec 1, 2013 through Jan 14, 2014, and wiki Snow Days ('annual ... during the months of December throughout January'). Sourced run 2009-10 (articleId=709, 718: Dec 18, 2009 to Jan 3, 2010) falls inside it. Only one exact multi-year range is sourced, so the window is an approximation; no article gives the 2010-2012 end dates. Not the same as the existing Halloween season."
+   },
+   "zones": [
+    "Snowhill",
+    "Wintery Basin / Cuenca Invernal (frozen-lake fishing area; in-game name unresolved between articles 1953 and 1959)"
+   ],
+   "runs": {
+    "npcs": [
+     "Candi Ivy (articleId=828: daily present from under the Gifting Tree; quest giver)"
+    ],
+    "props_or_areas": [
+     "The Gifting Tree (Snowhill)",
+     "Snow Days Wheel (locale:426650; place)",
+     "Snowhill seasonal area"
+    ],
+    "quests": [
+     "Snow Days (locale:5102485)",
+     "12 Days of Presents (locale:441931, locale:441964); one challenge a day Dec 13-24 (articles 2827, 2813)",
+     "The Gifting Tree from Candi Ivy (repeatable once per day, wiki)",
+     "Snowman Showdown from Everett (wiki)"
+    ],
+    "activities": [
+     "Daily community events in Snowhill, one per day at 15:00 Pacific (articles 709, 771)",
+     "Trading card game (JCC) tournaments all day (articles 718, 709, 771, 770); one activity inside Snow Days",
+     "Community party at Wintery Basin fishing area (2010, article 1953)",
+     "Community webcast (2011, article 2428)",
+     "Fighting Robgoblins for Snow Days clothing (articles 2429, 2808)",
+     "Snowmen Invaders: Abominable Snowman spawns in Snowhill every 15 minutes (wiki: Snow Days); not set as a slot because duration is unsourced",
+     "Buying Snow Days items from the Station Cash Marketplace (wiki)"
+    ],
+    "rewards": [
+     "Present from under the Gifting Tree (Candi Ivy, articleId=828)",
+     "Snow Days prize wheel (articleId=828; prize list unsourced)",
+     "12 Days of Presents daily present with bow (articles 2827, 2813)",
+     "Snow Days Unicorn Sweater, Icy Snow Days Flair Shard, Snow Days Lot (wiki: 12 Days of Presents 2012)",
+     "Snow Days Toys (wiki)",
+     "Snow Days Present (locale:1729)",
+     "Station Cash items: Toy Maker Ears, Snow Globe, 2013 Snow Days Toy Collector Pack (wiki; prices not sourced)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-12-18",
+     "end": "2010-01-03",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=709 ; http://www.freerealms.com/article/detail.action?articleId=718 (explicit date range)"
+    },
+    {
+     "year": 2010,
+     "start": "2010-12-09",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1953 (Thursday Dec 9, 2010, 3pm Pacific; first party of the season, not season start; end not sourced)"
+    },
+    {
+     "year": 2011,
+     "start": "2011-12-08",
+     "end": null,
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2428 ('Snow Days is HERE'); Dec 8 date is from article summary only"
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": null,
+     "source": "wiki: Snow Days (2012 section); exact dates not sourced; 12 Days of Presents 2012 ran during it"
+    },
+    {
+     "year": 2013,
+     "start": "2013-12-01",
+     "end": "2014-01-14",
+     "source": "wiki: Snow Days (2013 section)"
+    }
+   ]
+  }
+ ],
+ "Free Realms Birthday": [
+  {
+   "event": "Free Realms 1st Birthday (1st anniversary party)",
+   "record": "quest-lines/schedules.json svfree-realms-1st-birthday",
+   "season": {
+    "name": "Free Realms Birthday",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Union window covering the yearly birthday runs: 2010 Apr 29 to May 10 (freerealms.com articleId=1268 and 1267); 2011 anniversary Apr 28, running to May 18 (freerealms.com articleId=2099, German 2nd-anniversary post; the earlier pass cited 2106 and a 2011-04-21 post date, which I could not confirm in the pack, so I did not use it); 2012 Apr 28 to May 24 (articleId=2578 and 2580; tentonhammer free-realms-celebrates-its-3rd-birthday-with-new-events). Reason for (R): the window is the union of the three years, not a single fixed run. Halloween keeps its own season."
+   },
+   "zones": [
+    "Sanctuary (named in sources)",
+    "Seven other party regions (not named in any source; article 1308 gives count only)"
+   ],
+   "runs": {
+    "npcs": [
+     "Camellia (birthday quests, Sanctuary; articleId=1267)",
+     "Chef Jarvie (articleId=1293; year not stated, 2010 tie rests on the 1st-anniversary title)",
+     "Glerga (cake ingredients; articleId=1293; same caveat)",
+     "Gatostein / Cakenstein (cake boss and cakelings; articleId=1293, 1268)"
+    ],
+    "props_or_areas": [
+     "Eight party areas, one per region (articleId=1308); only Sanctuary is named",
+     "In-game decorations from mid-April 2010 (tentonhammer node 83041, pre-launch statement)"
+    ],
+    "quests": [],
+    "activities": [
+     "Help Camellia and Chef Jarvie with birthday quests (articleId=1267, 1293)",
+     "Gather ingredients for Glerga's cake (articleId=1293)",
+     "Fight Gatostein (Cakenstein) and its cakelings (articleId=1293, 1268)"
+    ],
+    "rewards": []
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-04-29",
+     "end": "2010-05-10",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1268 (German: birthday April 29, party until May 10); http://www.freerealms.com/article/detail.action?articleId=1267 (French: anniversary April 29, party until May 10). Conflict: tentonhammer node 83041 (pre-launch) says April 28; not used."
+    },
+    {
+     "year": 2011,
+     "start": "2011-04-28",
+     "end": "2011-05-18",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2099 (German 2nd-anniversary party: anniversary April 28, running from post date until May 18). Start is the anniversary date; the post date itself is not confirmed."
+    }
+   ]
+  }
+ ],
+ "Birthday Party": [
+  {
+   "event": "Free Realms Birthday Party (anniversary party, late April to May)",
+   "record": "quest-lines/schedules.json svfree-realms-birthday-party-second-anniversary",
+   "season": {
+    "name": "Birthday Party",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Widened to cover every observed run: 2010 April 29 to May 10 (articles 1267, 1268); 2011 anniversary April 28 to May 18 (article 2099, post date null, year inferred from 'second anniversary'); 2012 ended May 24 (article 2580). Start April 28 is the earliest sourced anniversary date. 2012 start is not sourced. Not a seasonal name already in seasons_already_defined (only Halloween exists)."
+   },
+   "zones": [
+    "Sacred Grove (locale:707: the birthday cake competition is among Sacred Grove's chefs; Cakenstein rampage)",
+    "Sanctuary (article 2580 summary: cake bake-off storyline led by Queen Valerian; article 1267: birthday quests from Camellia in Sanctuary)"
+   ],
+   "runs": {
+    "npcs": [
+     "Cakenstein (locale:707, 4949; article 2580)",
+     "Queen Valerian (article 2580 summary)",
+     "Camellia (article 1267 summary, 2010 birthday quests in Sanctuary)",
+     "Cakelings (locale:4732)"
+    ],
+    "props_or_areas": [
+     "Party areas across eight zones (article 1267 summary, 2010)"
+    ],
+    "quests": [
+     "Cakenstein Attacks! (locale:4917, 4918)",
+     "Daily party-prep quests in Sanctuary (article 2580, 2012)"
+    ],
+    "activities": [
+     "Defeat the cakelings before they get stronger (locale:4732)",
+     "Defeat Cakenstein before he eats the birthday cake (locale:4949)"
+    ],
+    "rewards": [
+     "Balloon Bow, Balloon Hammer, Balloon Saw, Balloon Sword, Balloon Axe, Balloon Wand: each buy requires owning the item from the Cakenstein Attacks! combat encounter (locale:6792-6797). Edition year not sourced."
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-04-29",
+     "end": "2010-05-10",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1267 (fact: first anniversary April 29, 2010; party from announcement until May 10, 2010); articleId=1268 (German summary, runs until May 10, 2010)"
+    },
+    {
+     "year": 2011,
+     "start": "2011-04-28",
+     "end": "2011-05-18",
+     "source": "(R) http://www.freerealms.com:80/article/detail.action?articleId=2099 (German, 'second anniversary', anniversary April 28, running until May 18). Post date is null in the pack, so the year 2011 is inferred from 'second anniversary' of the April 29, 2009 launch."
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-05-24",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2580 (third-anniversary Birthday Bash, ran through May 24, 2012). Start not sourced."
+    }
+   ]
+  }
+ ],
+ "Anniversary Party": [
+  {
+   "event": "Free Realms anniversary party (yearly, late April into May; named Birthday Bash in 2012)",
+   "record": "quest-lines/schedules.json svfree-realms-first-anniversary",
+   "season": {
+    "name": "Anniversary Party",
+    "start_month": 4,
+    "start_day": 28,
+    "end_month": 5,
+    "end_day": 24,
+    "source": "(R) Window start April 28 is the 2011 anniversary date (http://www.freerealms.com:80/article/detail.action?articleId=2099, re-checked by lookup: second anniversary April 28, party from post date until May 18). No party start is sourced for any year: 2010 party ran from the posting day (article 1267, first anniversary April 29), 2011 from the post date, 2012 unsourced. End May 24 is the 2012 end (article 2580; locale:695). Reconstructed window; wire only with the (R) flag. Does not overlap Halloween (Sep 20 to Nov 11)."
+   },
+   "zones": [
+    "Sanctuary (2012 cake bake-off, Queen Valerian, article 2580)",
+    "Sacred Grove (2012 Cakelings, wiki Cakeling page)",
+    "Party areas across regions (2010 article 1261; 2011 article 2099)"
+   ],
+   "runs": {
+    "npcs": [
+     "Queen Valerian (2012, article 2580)",
+     "Camellia (2012 party planner, wiki Camellia page; locale:707)",
+     "Kuchenstein / Cakenstein (boss; 2011 per article 2099, 2012 per article 2580; naming conflict open)",
+     "Cakeling (enemy minions, wiki Cakeling page)"
+    ],
+    "props_or_areas": [
+     "Party areas (2010, 2011)",
+     "Sanctuary cake bake-off area (2012)"
+    ],
+    "quests": [
+     "Free Realms Turns Three! (locale:706, title only)",
+     "Birthday cake bake-off and party-prep quests (2012, article 2580; titles from wiki only, unconfirmed)"
+    ],
+    "activities": [
+     "2010: all-day party with regional parties (article 1308)",
+     "2011: visit party areas; fight Kuchenstein with cakelings (article 2099)",
+     "2012: daily party-prep quests for the Sanctuary cake bake-off; defeat Cakenstein and cakelings (article 2580)"
+    ],
+    "rewards": [
+     "Birthday Cake Hat, free to characters who logged in during Birthday Bash 2012 (article 2580; locale:694)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": null,
+     "end": "2010-05-10",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=1261 (end May 10); http://www.freerealms.com:80/article/detail.action?articleId=1267 (first anniversary April 29, party from announcement). Start is the posting day, not sourced. Article 83041's April 28 was a pre-launch plan."
+    },
+    {
+     "year": 2011,
+     "start": null,
+     "end": "2011-05-18",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2099 (re-checked: anniversary April 28, party from post date until May 18; Kuchenstein with cakelings); article 2106 (captured 2011-04-30). Party start is the post date, not sourced."
+    },
+    {
+     "year": 2012,
+     "start": null,
+     "end": "2012-05-24",
+     "source": "http://www.freerealms.com/article/detail.action?articleId=2580; locale:695 (Birthday Bash, third anniversary, through May 24, 2012). Start not sourced."
+    }
+   ]
+  }
+ ],
+ "Summer Camp": [
+  {
+   "event": "Summer Camp (2010 community event season)",
+   "record": "quest-lines/schedules.json svmerri-s-marinated-mystery-meat",
+   "season": {
+    "name": "Summer Camp",
+    "start_month": 6,
+    "start_day": 4,
+    "end_month": 9,
+    "end_day": 3,
+    "source": "(R) Start: articles 1498 (official June 4, 2010 update notes centred on Summer Camp) and French article 1502 (dated 04/06/2010). End: article 1780 (Pet Parade on Server 1, Sept 2 and 3, 2010, described as the last Summer Camp event), so the window closes Sept 3. The window is reconstructed from the season start and last event, not a published end date. The 13-week run in tentonhammer 85170 agrees roughly with June to early September."
+   },
+   "zones": [
+    "Greenwood Forest (Chatty's camp, reached by the new Greenwood Forest warpstone)",
+    "Lakeside camp of Robbie the Robgoblin (across the lake)",
+    "Crossroads to Sanctuary warpstone (Pet Parade route)"
+   ],
+   "runs": {
+    "npcs": [
+     "Chatty (camp host)",
+     "Robbie the Robgoblin (rival camp)"
+    ],
+    "props_or_areas": [
+     "Summer Camp area near Greenwood Forest warpstone"
+    ],
+    "quests": [
+     "Chatty's Summer Camp Party (locale 7037)",
+     "Robbie's Summer Camp Party (locale 7039)",
+     "Summer Camp Jojo's Mojo / Dojo chain (locale 441714, 441718; not dated)"
+    ],
+    "activities": [
+     "Arts and Crafts Week crafting",
+     "Dancing to boombox music",
+     "Block sculptures at houses",
+     "Pirate's Plunder Party (Pirate Week, undated)",
+     "Finding treasure for Robbie",
+     "Pet Parade (final event, Sept 2-3, 2010)"
+    ],
+    "rewards": []
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-06-04",
+     "end": "2010-09-03",
+     "source": "articles 1498 and 1502 (start, June 4, 2010); articles 1780 (last event Pet Parade, Sept 2-3, 2010); tentonhammer node 85170 (13 weeks)"
+    }
+   ]
+  },
+  {
+   "event": "Summer Camp",
+   "record": "quest-lines/schedules.json svsummer-camp",
+   "season": {
+    "name": "Summer Camp",
+    "start_month": 6,
+    "start_day": 7,
+    "end_month": 9,
+    "end_day": 6,
+    "source": "(R) start: tentonhammer.com/node/86237 (virtual Summer Camp released June 7, 2010). end: Labor Day 2010 = Mon Sept 6, computed by calendar arithmetic from article 1510 (\"weekly themed events through Labor Day\", undated); cross-check: node/85170 says 13 weeks beginning week of June 8, which also lands near Sept 6. No source states the end date in text. Reconstructed window; the year of article 1510 is inferred from 2010 posts."
+   },
+   "zones": [
+    "Greenwood Forest (Chatty's camp and Robbie's camp near the Greenwood Forest Warpstone)"
+   ],
+   "runs": {
+    "npcs": [
+     "Chatty",
+     "Robbie the Robgoblin"
+    ],
+    "props_or_areas": [
+     "Chatty's summer camp, Greenwood Forest (reached by newly activated Warpstone) – articleId=1510",
+     "Robbie's camp / Robbie Tent across the lake – articleId=1498, locale:31513",
+     "Summer Camp place record – locale:442124 (location, not the event itself)"
+    ],
+    "quests": [
+     "Chatty's Summer Camp Party (locale:7037)",
+     "Robbie's Summer Camp Party (locale:7039)"
+    ],
+    "activities": [
+     "Weekly themed Community Team events (Fashion, Sports, Arts and Crafts, Crafting, Pirates, Lakeshore Fun, Treasure Hunting, then Pet Parade as last event) – articleIds 1593-1780 (undated)",
+     "Robbie's treasure hunt at his tent – articleId=1637 (July 15 2010)",
+     "Printable weekly Summer Camp Activity Calendar – articleId=1661"
+    ],
+    "rewards": [
+     "Marshmallow animals, inflatable Chatty/Robby decorations, Spooky Campfire (temporary ghost pet), marshmallow campfire Talent Fragments – articleId=1502",
+     "Summer Camp quests, loot and clothing, Marketplace/Coin Shop items, housing decorations – articleId=1498"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-06-07",
+     "end": "2010-09-06",
+     "source": "start: http://tentonhammer.com/node/86237; end (R): Labor Day 2010 per articleId=1510 'through Labor Day', computed date, not stated in source"
+    }
+   ]
+  }
+ ],
+ "Super Spooktacular": [
+  {
+   "event": "Super Spooktacular",
+   "record": "quest-lines/schedules.json svpumpkin-prince-world",
+   "season": {
+    "name": "Super Spooktacular",
+    "start_month": 10,
+    "start_day": 1,
+    "end_month": 11,
+    "end_day": 23,
+    "source": "(R) Window covers every dated run: starts 2013-10-01 (articleId=2949) to 2009-10-14 (articleId=476, tentonhammer node/75739); ends 2009-11-11 (476), 2013-11-12 (2949), 2011-11-23 (articleId=2304, re-confirmed by lookup this pass: 'running October 13 to November 23, 2011'). Latest dated end is 2011-11-23. 2010 and 2012 have only 'October' evidence and fall inside the window. Uses a new season name, not the existing 'Halloween' row (Sanctuary FabledRealms.json:28-51, 9/20-11/11), so the client-area swaps tied to that row are not changed."
+   },
+   "zones": [
+    "Snowhill",
+    "Stillwater Crossing",
+    "Bristlewood",
+    "Bone Bog Cemetery"
+   ],
+   "runs": {
+    "npcs": [
+     "Pumpkin Prince",
+     "Ghost Hunter"
+    ],
+    "props_or_areas": [
+     "Pumpkin Prince World Event (sub-event, articleId=2304)",
+     "Super Spooktacular decoration (house item, locale:91963)"
+    ],
+    "quests": [],
+    "activities": [
+     "Talk to the Ghost Hunters in Snowhill, Stillwater Crossing and Bristlewood to scare off the Pumpkin Prince's ghosts and ghouls (articleId=2304 quoted text)",
+     "Vampires vs. Werewolves Dance-Off (articleId=2304 summary lists it; the 1862 details remain unread)",
+     "Vampire and Werewolf Dance Practice (wiki: Super Spooktacular)"
+    ],
+    "rewards": [
+     "Spooktacular Balloons (locale:91946)",
+     "Vampire Fangs and Werewolf Tail (articleId=1860; locale:7365, locale:7366; prices unknown)"
+    ]
+   },
+   "original_dates": [
+    {
+     "year": 2009,
+     "start": "2009-10-14",
+     "end": "2009-11-11",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=476 (summary); http://www.tentonhammer.com:80/node/75739"
+    },
+    {
+     "year": 2010,
+     "start": "2010-10-01",
+     "end": null,
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1845 (October 2010 only; start is a (R) month-start placeholder, end not captured)"
+    },
+    {
+     "year": 2011,
+     "start": "2011-10-13",
+     "end": "2011-11-23",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2304 (summary, re-confirmed by lookup)"
+    },
+    {
+     "year": 2012,
+     "start": "2012-10-01",
+     "end": null,
+     "source": "wiki: Pumpkin Prince ('In October 2012 during the Super Spooktacular'); (R) month-start placeholder, no end source"
+    },
+    {
+     "year": 2013,
+     "start": "2013-10-01",
+     "end": "2013-11-12",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=2949"
+    }
+   ]
+  }
+ ],
+ "Turkey Dance": [
+  {
+   "event": "Turkey Dance",
+   "record": "quest-lines/schedules.json svturkey-dance",
+   "season": {
+    "name": "Turkey Dance",
+    "start_month": 11,
+    "start_day": 22,
+    "end_month": 11,
+    "end_day": 29,
+    "source": "(R) Window reconstructed from articles 645 and 1918: the event ran on the Thanksgiving Thursday (2010: Nov 25) and the Friday after US Thanksgiving (2010: Nov 26). US Thanksgiving is always a Thursday from Nov 22 to Nov 28, so Nov 22 to Nov 29 covers the Thursday and the following Friday in every year. Not evidenced for any year except 2010. Wiki Community Events: 'for Thanksgiving and the succeeding day'. Not the same as the Halloween season row, so no name reuse."
+   },
+   "zones": [
+    "Sanctuary, Pixiewood shopping district/Pixiewood Hills, just north of the Sanctuary warpstone (article 1918; article 645); wiki Community Events: 'located in Sanctuary at the Pixiewood Hills shopping district'"
+   ],
+   "runs": {
+    "npcs": [],
+    "props_or_areas": [
+     "Pixiewood shopping district (Sanctuary) dance gathering"
+    ],
+    "quests": [],
+    "activities": [
+     "Turkey Dance Party gathering at Pixiewood (article 1918; article 1931)",
+     "Players wear turkey suits and turkey hats from the Marketplace (article 645; article 1918)"
+    ],
+    "rewards": []
+   },
+   "original_dates": [
+    {
+     "year": 2010,
+     "start": "2010-11-25",
+     "end": "2010-11-26",
+     "source": "http://www.freerealms.com:80/article/detail.action?articleId=1918 (Thu Nov 25 3pm Pacific US/LatAm; Fri Nov 26 9:00am Pacific UK/Europe, Server 1); http://www.freerealms.com/article/detail.action?articleId=1931 (same schedule, Spanish); http://www.freerealms.com:80/article/detail.action?articleId=645 (Friday after US Thanksgiving)"
+    }
+   ]
+  }
+ ]
+}

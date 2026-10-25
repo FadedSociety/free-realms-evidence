@@ -1,0 +1,2205 @@
+{
+ "zone": "Blackspore",
+ "quests": [
+  {
+   "quest_id": 3000025,
+   "record": "quest-lines/quests.json q3000025",
+   "title": "Sal's Suggestion",
+   "giver": {
+    "name": "Sal Monella",
+    "npc_id": "9000000450",
+    "locale_id": 45300
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Offer your services to Queen Valerian at the Royal Palace in Sanctuary.",
+     "text_locale_id": 390296,
+     "target": "Queen Valerian",
+     "target_locale_id": 130547,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chapter 1 entry quests (Adventurer), Part D of Adventurer.md; alternative entry quests, not a linear chain",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 390254,
+     "speaker": "Sal Monella"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000048,
+   "record": "quest-lines/quests.json q3000048",
+   "title": "Chapter 1: Haunted by the Past",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Search for Eggert the Mad in the graveyard in southern Blackspore.",
+     "text_locale_id": 90949,
+     "target": "Blackspore graveyard (southern Blackspore)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Save Eggert from the grave elemental",
+     "text_locale_id": 90952,
+     "target": "Grave Elemental; Lesser Grave Elemental",
+     "target_locale_id": 115851,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "hidden objective for defeating all grave elementals",
+     "text_locale_id": 115791,
+     "target": "Grave Elementals (all)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Eggert",
+     "text_locale_id": 90954,
+     "target": "Eggert the Mad",
+     "target_locale_id": 45298,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chapter 1 storyline (Bearer of Bad News, Failure is Not an Option, One Last Favor, Haunted by the Past, The Alchemy of Betrayal, The Queen's Last Hope)",
+    "previous": [
+     "Chapter 1: One Last Favor"
+    ],
+    "next": [
+     "Chapter 1: The Alchemy of Betrayal"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 90943,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 115786,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 90946,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000049,
+   "record": "quest-lines/quests.json q3000049",
+   "title": "Chapter 1: The Alchemy of Betrayal",
+   "giver": {
+    "name": "Eggert the Mad",
+    "npc_id": "9000000315",
+    "locale_id": 45298
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Vittorio, Randall, and Dimitri and take back the plant they stole from you.",
+     "text_locale_id": 90958,
+     "target": "Vittorio, Randall, Dimitri",
+     "target_locale_id": 90963,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat the mercenaries before they escape the Blackspore graveyard.",
+     "text_locale_id": 90962,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Eggert the Mad",
+     "text_locale_id": 90965,
+     "target": "Eggert the Mad",
+     "target_locale_id": 45298,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Darkthorne in Briarheart Palace",
+     "text_locale_id": 90967,
+     "target": "Darkthorne, Briarheart Palace",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chapter 1 (Adventurer E-series, E19 to E22); this quest is E21",
+    "previous": [
+     "Chapter 1: Haunted by the Past"
+    ],
+    "next": [
+     "Chapter 1: The Queen's Last Hope"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 90956,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3000054,
+   "record": "quest-lines/quests.json q3000054",
+   "title": "Royally Thirsty Mushrooms",
+   "giver": {
+    "name": "Guard Reli",
+    "npc_id": null,
+    "locale_id": 116888
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Guard Reli",
+     "text_locale_id": 390045,
+     "target": "Guard Reli",
+     "target_locale_id": 116888,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Click the pail of water next to Guard Reli",
+     "text_locale_id": 389992,
+     "target": "pail of water",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "After clicking the pail of water, complete the Royally Thirsty Mushrooms minigame!",
+     "text_locale_id": 389995,
+     "target": "Royally Thirsty Mushrooms minigame",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Water the potted mushrooms around Briarheart before time runs out!",
+     "text_locale_id": 389987,
+     "target": "potted mushrooms",
+     "target_locale_id": 389988,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": null,
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 389989,
+     "speaker": "Guard Reli"
+    },
+    "progress": {
+     "locale_id": 389993,
+     "speaker": "Guard Reli"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3010016,
+   "record": "quest-lines/quests.json q3010016",
+   "title": "Archer: Archer Test",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": 18152
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Bullseye has asked you to defeat some cray in the Cracked Claw Caverns and bring back proof of your archer skills.",
+     "text_locale_id": 77710,
+     "target": "cray in Cracked Claw Caverns",
+     "target_locale_id": 30402,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer (Bullseye's training, Band 2: level 5 to 10)",
+    "previous": [
+     "Archer: I Quit!"
+    ],
+    "next": [
+     "Archer: Achieve Level 10"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77708,
+     "speaker": "Bullseye"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77711,
+     "speaker": "Bullseye"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010017,
+   "record": "quest-lines/quests.json q3010017",
+   "title": "Archer: Achieve Level 10",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Level up to level 10 as an Archer.",
+     "text_locale_id": 387320,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Reach level 10 as an archer, then return to Bullseye.",
+     "text_locale_id": 387318,
+     "target": "Bullseye",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job line (Band 2, levels 5 to 10: Eddie, Hilforn, Vicki, Bullseye)",
+    "previous": [
+     "Archer: Archer Test"
+    ],
+    "next": [
+     "Contract: Bowman for Hire",
+     "Archer: Paralyzing Poison"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387323,
+     "speaker": "Bullseye"
+    },
+    "complete": {
+     "locale_id": 387316,
+     "speaker": "Bullseye"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010019,
+   "record": "quest-lines/quests.json q3010019",
+   "title": "Archer: Paralyzing Poison",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect pink azaleas (grow at the base of trees in Blackspore) and bring the nectar to Bullseye",
+     "text_locale_id": 77740,
+     "target": "Pink Azalea",
+     "target_locale_id": 77719,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed; no reward text found in the pack",
+     "source": "open"
+    }
+   ],
+   "line": {
+    "name": "Archer job quest line (Bullseye, Blackspore; level 10-15 band)",
+    "previous": [
+     "Archer: Achieve Level 10"
+    ],
+    "next": [
+     "Archer: A Piercing Attack"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77733,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77736,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3010020,
+   "record": "quest-lines/quests.json q3010020",
+   "title": "Archer: A Piercing Attack",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": 18152
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Take out the Cray Marauders",
+     "text_locale_id": 77813,
+     "target": "Cray Marauder",
+     "target_locale_id": 76573,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Bowman Bilter",
+     "text_locale_id": 77815,
+     "target": "Bowman Bilter",
+     "target_locale_id": 77805,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line, Band 3 (levels 10 to 15)",
+    "previous": [
+     "Archer: Paralyzing Poison"
+    ],
+    "next": [
+     "Archer: Suspicious Smugglers"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77806,
+     "speaker": "Bullseye"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3010030,
+   "record": "quest-lines/quests.json q3010030",
+   "title": "Archer: Level 20",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": 18152
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Level up to level 20 as an Archer.",
+     "text_locale_id": 387351,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Reach level 20 as an archer, then return to Bullseye.",
+     "text_locale_id": 387349,
+     "target": "Bullseye",
+     "target_locale_id": 18152,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line (Bullseye trainer, level 15 to 20 band)",
+    "previous": [
+     "Archer: New Challenges"
+    ],
+    "next": [
+     "Contract: That'll Teach 'Em",
+     "Archer: Building a Better Bow"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387347,
+     "speaker": "Bullseye"
+    },
+    "progress": {
+     "locale_id": 387346,
+     "speaker": "Bullseye"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020018,
+   "record": "quest-lines/quests.json q3020018",
+   "title": "Blacksmith: Breaking Bank",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Craft and deliver a Rowdy Rumbler Hammer to Billie JoBob outside Blackspore.",
+     "text_locale_id": 94578,
+     "target": "Billie JoBob",
+     "target_locale_id": null,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith job quest line (Mili Ironcall / Southvale band to Blackspore band)",
+    "previous": [
+     "Blacksmith: Local Bonesaw Shortage"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 94576,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 94579,
+     "speaker": "Billie JoBob"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020020,
+   "record": "quest-lines/quests.json q3020020",
+   "title": "Blacksmith: Silver Appearance",
+   "giver": {
+    "name": "Billie JoBob",
+    "npc_id": "9000000025",
+    "locale_id": 94635
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Billie",
+     "text_locale_id": 95066,
+     "target": "Billie JoBob",
+     "target_locale_id": 94635,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Find Billie JoBob outside the passage to Blackspore and give him the Glistening Scythes you forged",
+     "text_locale_id": 95171,
+     "target": "Billie JoBob",
+     "target_locale_id": 94635,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Billie has recommended that you head through the path to Blackspore just behind him. Once through the cave, find Quagmire Quarry to the South and speak with Silverray.",
+     "text_locale_id": 95184,
+     "target": "Silverray (Quagmire Quarry)",
+     "target_locale_id": 77706,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Billie's racecar purchase is mentioned in the thanks text; no reward item or coin amount is confirmed.",
+     "source": "locale:95185"
+    }
+   ],
+   "line": {
+    "name": "Blacksmith job line, Band 4: Billie JoBob and Silverray (Blackspore, level 15 to 20)",
+    "previous": [
+     "Blacksmith: Reach Level 15"
+    ],
+    "next": [
+     "Blacksmith: Wand Replacement"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 95172,
+     "speaker": "Billie JoBob"
+    },
+    "complete": {
+     "locale_id": 95185,
+     "speaker": "Billie JoBob"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020021,
+   "record": "quest-lines/quests.json q3020021",
+   "title": "Blacksmith: Wand Replacement",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": 77706
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Silverray at Quagmire Quarry to see if he has a special task for you.",
+     "text_locale_id": 95104,
+     "target": "Silverray",
+     "target_locale_id": 77706,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Forge A Tempest Woven Wand",
+     "text_locale_id": 100015,
+     "target": "Tempest Woven Wand",
+     "target_locale_id": 19536,
+     "count": 1
+    },
+    {
+     "kind": "other",
+     "text": "Give the Wand to Silverray",
+     "text_locale_id": 100017,
+     "target": "Silverray",
+     "target_locale_id": 77706,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Silverray",
+     "text_locale_id": 100019,
+     "target": "Silverray",
+     "target_locale_id": 77706,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith job quest line, Band 4 (Billie JoBob and Silverray, Blackspore, level 15-20)",
+    "previous": [
+     "Blacksmith: Silver Appearance"
+    ],
+    "next": [
+     "Blacksmith: Scythes of Stalking"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 100016,
+     "speaker": "Silverray"
+    },
+    "progress": {
+     "locale_id": 100018,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020022,
+   "record": "quest-lines/quests.json q3020022",
+   "title": "Blacksmith: Teacher's Aid",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Forge Tempest Woven Wands",
+     "text_locale_id": 100111,
+     "target": "Tempest Woven Wand",
+     "target_locale_id": 19536,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith Band 4 (Blackspore, level 15 to 20), guide order; repeatable batch branch. Not a confirmed prerequisite chain.",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020023,
+   "record": "quest-lines/quests.json q3020023",
+   "title": "Blacksmith: Scythes of Stalking",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": 77706
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Craft Stalking Panther Scythes for Silverray.",
+     "text_locale_id": 95107,
+     "target": "Stalking Panther Scythe",
+     "target_locale_id": 102192,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith quest line, Band 4: Billie JoBob and Silverray (Blackspore, levels 15 to 20)",
+    "previous": [
+     "Blacksmith: Wand Replacement"
+    ],
+    "next": [
+     "Blacksmith: Reach Level 20"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020024,
+   "record": "quest-lines/quests.json q3020024",
+   "title": "Blacksmith: Reach Level 20",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach Level 20 as a Blacksmith, then return to Silverray.",
+     "text_locale_id": 387564,
+     "target": "Silverray",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith quest line (Silverray, Quagmire Quarry, Blackspore Swamp, levels 15 to 20)",
+    "previous": [
+     "Blacksmith: Scythes of Stalking"
+    ],
+    "next": [
+     "Blacksmith: Forging Rumors"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387562,
+     "speaker": "Silverray"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 387565,
+     "speaker": "Silverray"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020025,
+   "record": "quest-lines/quests.json q3020025",
+   "title": "Blacksmith: Forging Rumors",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith line, Silverray chain (Blacksmith.md Band 4, row 25; Band 5 Anata Caliburn line follows)",
+    "previous": [
+     "Blacksmith: Reach Level 20"
+    ],
+    "next": [
+     "Blacksmith: Lady of the Lake"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020026,
+   "record": "quest-lines/quests.json q3020026",
+   "title": "Blacksmith: Lady of the Lake",
+   "giver": {
+    "name": "Anata Caliburn",
+    "npc_id": "9000000006",
+    "locale_id": 100175
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Locate the lost sword, Summersaber, at its final dwelling place somewhere in Blackspore.",
+     "text_locale_id": 100282,
+     "target": "Blackspore",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Find the Summersaber",
+     "text_locale_id": 100284,
+     "target": "Summersaber",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "If it still exists, find the Summersaber somewhere in Blackspore.",
+     "text_locale_id": 100285,
+     "target": "Summersaber",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Anata Caliburn",
+     "text_locale_id": 100288,
+     "target": "Anata Caliburn",
+     "target_locale_id": 100175,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Anata Caliburn, north of Blackspore.",
+     "text_locale_id": 100289,
+     "target": "Anata Caliburn",
+     "target_locale_id": 100175,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Anata",
+     "text_locale_id": 100295,
+     "target": "Anata Caliburn",
+     "target_locale_id": 100175,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith job quest line (Anata Caliburn chain)",
+    "previous": [
+     "Blacksmith: Forging Rumors"
+    ],
+    "next": [
+     "Blacksmith: Tools of the Trade"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 100292,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020027,
+   "record": "quest-lines/quests.json q3020027",
+   "title": "Blacksmith: Tools of the Trade",
+   "giver": {
+    "name": "Anata Caliburn",
+    "npc_id": "9000000006",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel to Sanctuary and locate Nirvi, at the Royal Smithy.",
+     "text_locale_id": 101102,
+     "target": "Nirvi",
+     "target_locale_id": 10076,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Visit Nirvi at the Royal Smithy in Sanctuary and ask her for tools. Then return to Anata Caliburn.",
+     "text_locale_id": 101099,
+     "target": "Nirvi",
+     "target_locale_id": 10076,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring the tools back to Anata Caliburn north of Blackspore at the Awespring Tributary.",
+     "text_locale_id": 101239,
+     "target": "Anata Caliburn",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text found; the guide marks rewards unknown",
+     "source": "notes/Build Guides/Content/Jobs/Blacksmith.md:131-134"
+    }
+   ],
+   "line": {
+    "name": "Blacksmith: Anata Caliburn / Summersaber chain (guide band 5)",
+    "previous": [
+     "Blacksmith: Lady of the Lake"
+    ],
+    "next": [
+     "Blacksmith: No Sticks and Plenty of Stones"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 101215,
+     "speaker": "Nirvi"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030019,
+   "record": "quest-lines/quests.json q3030019",
+   "title": "Brawler: Cemetery Security",
+   "giver": {
+    "name": "Virgil Veilmont",
+    "npc_id": "9000000505",
+    "locale_id": 45304
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Virgil Veilmont wants you to deliver a job offer to Petra, a veteran brawler who resides in Blackspore.",
+     "text_locale_id": 130862,
+     "target": "Petra",
+     "target_locale_id": 72450,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Petra is north of Mire's Edge in Blackspore. Find her and deliver Virgil's job offer.",
+     "text_locale_id": 130886,
+     "target": "Petra",
+     "target_locale_id": 72450,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler line, Stillwater Crossing start (row S5, after Brawler: Rightful Owner)",
+    "previous": [
+     "Brawler: Rightful Owner"
+    ],
+    "next": [
+     "Brawler: Prey on the Cray"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 130860,
+     "speaker": "Virgil Veilmont"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030020,
+   "record": "quest-lines/quests.json q3030020",
+   "title": "Brawler: Prey on the Cray",
+   "giver": {
+    "name": "Petra",
+    "npc_id": "9000000428",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "As a brawler, retrieve radiant gems from inside the Cracked Claw Caverns of Blackspore.",
+     "text_locale_id": 100505,
+     "target": "radiant gems",
+     "target_locale_id": 94644,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler job line, main series band 1 (level 1 to 5, Petra, Blackspore)",
+    "previous": [
+     "Brawler: Cemetery Security"
+    ],
+    "next": [
+     "Brawler: Achieve Level 5"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 72487,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 72491,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 72488,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030021,
+   "record": "quest-lines/quests.json q3030021",
+   "title": "Brawler: Achieve Level 5",
+   "giver": {
+    "name": "Petra",
+    "npc_id": "9000000428",
+    "locale_id": 72450
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 5 as a brawler, then return to Petra.",
+     "text_locale_id": 387363,
+     "target": "Brawler level 5 (level gate, no NPC or item target)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Petra",
+     "text_locale_id": 387366,
+     "target": "Petra",
+     "target_locale_id": 72450,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no reward data in the client text or pack",
+     "source": "notes/Build Guides/Content/Jobs/Brawler.md:124"
+    }
+   ],
+   "line": {
+    "name": "Brawler job quest line, main series band 1 (level 1 to 5, Petra, Blackspore); ordering is from the Brawler guide, not stored prerequisites",
+    "previous": [
+     "Brawler: Prey on the Cray"
+    ],
+    "next": [
+     "Brawler: Splendid Silver!",
+     "Contract: Hello Fernando"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387358,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387360,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 387361,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030023,
+   "record": "quest-lines/quests.json q3030023",
+   "title": "Brawler: Splendid Silver!",
+   "giver": {
+    "name": "Petra",
+    "npc_id": "9000000428",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect silver dust from tormented spirits that wander around Blackspore, for Petra. The offer text says to defeat the spirits and bring back pouches of silver dust.",
+     "text_locale_id": 72497,
+     "target": "Tormented Spirit",
+     "target_locale_id": 76190,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Return the silver dust to Petra (inferred from completion dialog; no objective line names a return)",
+     "text_locale_id": 72498,
+     "target": "Petra",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler job quest line (Petra, Blackspore band, level 5 to 10)",
+    "previous": [
+     "Brawler: Achieve Level 5"
+    ],
+    "next": [
+     "Brawler: Finding a Buyer"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 72495,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 94649,
+     "speaker": "Petra"
+    },
+    "complete": {
+     "locale_id": 72498,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040038,
+   "record": "quest-lines/quests.json q3040038",
+   "title": "Card Duelist: Scattered Artifacts",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Edwin Goldstory wants you to speak to Ramirez and Tyrone Shadowshard to see if they know the location of the missing artifacts.",
+     "text_locale_id": 413796,
+     "target": "Ramirez and Tyrone Shadowshard",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Speak to Ramirez and Tyrone Shadowshard in Blackspore.",
+     "text_locale_id": 413825,
+     "target": "Blackspore",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Tyrone's promise to let you dig at his site and keep what you find, after you beat his Four Round Challenge. No item id or coin amount in the client.",
+     "source": "locale:413802"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (Shattered Past, Briarwood and Blackspore chain)",
+    "previous": [
+     "Card Duelist: Something Precious"
+    ],
+    "next": [
+     "Card Duelist: Four Round Challenge"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040044,
+   "record": "quest-lines/quests.json q3040044",
+   "title": "Card Duelist: Dark Deal",
+   "giver": {
+    "name": "Tyrone Shadowshard",
+    "npc_id": null,
+    "locale_id": 413856
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Tyrone's First Deck",
+     "text_locale_id": 436483,
+     "target": "Tyrone Shadowshard",
+     "target_locale_id": 413856,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist: Tyrone Shadowshard / Baron von Darkcheat storyline (text-inferred; position unconfirmed)",
+    "previous": [],
+    "next": [
+     "Card Duelist: In Search of The Baron"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 436477,
+     "speaker": "Tyrone Shadowshard"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 436480,
+     "speaker": "Tyrone Shadowshard"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040053,
+   "record": "quest-lines/quests.json q3040053",
+   "title": "Card Duelist: Zelda's Warning",
+   "giver": {
+    "name": "Madam Zelda",
+    "npc_id": "9000000136",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Madam Zelda wants you to meet her in Blackspore.",
+     "text_locale_id": 439701,
+     "target": "Madam Zelda",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Madam Zelda has warned you that the future of Sacred Grove is in great danger. Meet her in Blackspore to learn more.",
+     "text_locale_id": 439672,
+     "target": "Blackspore",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none found",
+     "source": "wiki/guide reward column reads 'unknown' (repo:notes/Build Guides/Content/Jobs/Card Duelist.md:159)"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist, Part 4 - Realmkeepers and Madam Zelda (TCG Series 4)",
+    "previous": [
+     "Card Duelist: Baron von Darkcheat"
+    ],
+    "next": [
+     "Card Duelist: Heart of Darkness"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 439670,
+     "speaker": "Madam Zelda"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040054,
+   "record": "quest-lines/quests.json q3040054",
+   "title": "Card Duelist: Heart of Darkness",
+   "giver": {
+    "name": "Madam Zelda",
+    "npc_id": "9000000136",
+    "locale_id": 439704
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Clancy Blackheart in Bristlewood",
+     "text_locale_id": 26461,
+     "target": "Clancy Blackheart",
+     "target_locale_id": 439486,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Battle Clancy Blackheart and his Resource Deck. Be the first to score 12 points to win the match and the Snarling Hedges Nature resource card!",
+     "text_locale_id": 26464,
+     "target": "Clancy Blackheart",
+     "target_locale_id": 439486,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Battle Clancy Blackheart and his Trick Deck. Be the first to score 12 points to win the match and the Icy Arrow Nature trick card!",
+     "text_locale_id": 26466,
+     "target": "Clancy Blackheart",
+     "target_locale_id": 439486,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Battle Clancy Blackheart and his Creature Deck. Be the first to score 12 points to win the match and the Nettleseed Pest Nature creature card!",
+     "text_locale_id": 26468,
+     "target": "Clancy Blackheart",
+     "target_locale_id": 439486,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Battle Clancy Blackheart and his Tournament Deck. Be the first to score 12 points to win the match and the Clancy Blackheart hero card!",
+     "text_locale_id": 26470,
+     "target": "Clancy Blackheart",
+     "target_locale_id": 439486,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Madam Zelda in Blackspore and tell her what you found out from Clancy Blackheart.",
+     "text_locale_id": 26474,
+     "target": "Madam Zelda",
+     "target_locale_id": 432157,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Clancy Blackheart hero card (from his Tournament Deck battle, text only; not verified as a server reward)",
+     "source": "locale:26470; locale:13350"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (TCG Series 4, Part 4 - Realmkeepers and Madam Zelda), repo guide row order only",
+    "previous": [
+     "Card Duelist: Zelda's Warning"
+    ],
+    "next": [
+     "Card Duelist: Slow and Steady"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 7949,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 439415,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 7950,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040055,
+   "record": "quest-lines/quests.json q3040055",
+   "title": "Card Duelist: Slow and Steady",
+   "giver": {
+    "name": "Madam Zelda",
+    "npc_id": "9000000136",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Freddy Slowhands in Merry Vale",
+     "text_locale_id": 26475,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Confront Freddy Slowhands",
+     "text_locale_id": 26485,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Freddy’s Resource Deck",
+     "text_locale_id": 26477,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Freddy’s Trick Deck",
+     "text_locale_id": 26479,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Freddy’s Creature Deck",
+     "text_locale_id": 26481,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Freddy’s Tournament Deck",
+     "text_locale_id": 26483,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Madam Zelda in Blackspore and tell her what you found out from Freddy Slowhands.",
+     "text_locale_id": 26488,
+     "target": "Madam Zelda",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Robgoblin Mobile Home Chaos resource card (battle prize for the Resource Deck win)",
+     "source": "locale:26478"
+    },
+    {
+     "kind": "item",
+     "value": "Roundhouse Kick Chaos trick card (battle prize for the Trick Deck win)",
+     "source": "locale:26480"
+    },
+    {
+     "kind": "item",
+     "value": "Armored Robgoblin Chaos creature card (battle prize for the Creature Deck win)",
+     "source": "locale:26482"
+    },
+    {
+     "kind": "item",
+     "value": "Freddy Slowhands hero card (battle prize for the Tournament Deck win)",
+     "source": "locale:26484"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist TCG quest line (Part 4, Realmkeepers and Madam Zelda, Series 4); previous/next are guide row order, not a stored sequence",
+    "previous": [
+     "Card Duelist: Heart of Darkness"
+    ],
+    "next": [
+     "Card Duelist: Stinky Feet"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 7952,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 26488,
+     "speaker": "Madam Zelda"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040056,
+   "record": "quest-lines/quests.json q3040056",
+   "title": "Card Duelist: Stinky Feet",
+   "giver": {
+    "name": "Madam Zelda",
+    "npc_id": "9000000136",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "I've heard of this Bud Grimyfoot. He's in Wugachug. I wonder if the Baron is there too! Go there and make Bud talk.",
+     "text_locale_id": 7957,
+     "target": "Bud Grimyfoot (Wugachug)",
+     "target_locale_id": 439488,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Battle Bud Grimyfoot and his four decks (Resource, Trick, Creature, Tournament); be first to 12 points in each round to win that round's card.",
+     "text_locale_id": 26492,
+     "target": "Bud Grimyfoot",
+     "target_locale_id": 439488,
+     "count": 4
+    },
+    {
+     "kind": "talk",
+     "text": "Confront Bud Grimyfoot",
+     "text_locale_id": 26499,
+     "target": "Bud Grimyfoot",
+     "target_locale_id": 439488,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Madam Zelda in Blackspore and tell her what you found out from Bud Grimyfoot.",
+     "text_locale_id": 26502,
+     "target": "Madam Zelda",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Bone Bog Cemetery Order Resource card (round 1 from Bud's Resource deck)",
+     "source": "locale:26492"
+    },
+    {
+     "kind": "item",
+     "value": "Dragon Talon Order Trick card (round 2)",
+     "source": "locale:26494"
+    },
+    {
+     "kind": "item",
+     "value": "Truant Druid Order Creature card (round 3)",
+     "source": "locale:26496"
+    },
+    {
+     "kind": "item",
+     "value": "Bud Grimyfoot Hero card (round 4, Tournament deck)",
+     "source": "locale:26498"
+    },
+    {
+     "kind": "other",
+     "value": "Quest coins/xp not found in the pack",
+     "source": "none"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (TCG Series 4, Part 4 - Realmkeepers and Madam Zelda)",
+    "previous": [
+     "Card Duelist: Slow and Steady"
+    ],
+    "next": [
+     "Card Duelist: Meet the Boss"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 26502,
+     "speaker": "Madam Zelda"
+    },
+    "complete": {
+     "locale_id": 7958,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040057,
+   "record": "quest-lines/quests.json q3040057",
+   "title": "Card Duelist: Meet the Boss",
+   "giver": {
+    "name": "Madam Zelda",
+    "npc_id": "9000000136",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "The Realmkeepers need more time! Go to Seaside and play Baron von Darkcheat for a few games. Keep him distracted while the Realmkeepers get into position.",
+     "text_locale_id": 7961,
+     "target": "Baron von Darkcheat",
+     "target_locale_id": 294,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Hoverboard (unnamed in the quest text; the item is probably Gloamstone Hoverboard, locale:387, which is an inferred match)",
+     "source": "locale:7962 ('Say hello to your new hoverboard!')"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist: TCG Series 4 (Realmkeepers and Madam Zelda)",
+    "previous": [
+     "Card Duelist: Stinky Feet"
+    ],
+    "next": [
+     "Card Duelist: The Realmkeepers Are Missing!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 7961,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 7962,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040063,
+   "record": "quest-lines/quests.json q3040063",
+   "title": "Card Duelist: Return from the Rumbledome",
+   "giver": {
+    "name": "Madam Zelda",
+    "npc_id": "9000000136",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Return to Madam Zelda and the Realmkeepers in Blackspore Swamp.",
+     "text_locale_id": 5100631,
+     "target": "Madam Zelda",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "A heavy package from Sunstone Valley (contents not in client text)",
+     "source": "locale:5100632"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist, Part 5 - The Rumbledome (TCG Series 5, Sunstone Valley)",
+    "previous": [
+     "Card Duelist: Ironteeth"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 5100629,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 5100631,
+     "speaker": "Madam Zelda"
+    },
+    "complete": {
+     "locale_id": 5100632,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3100020,
+   "record": "quest-lines/quests.json q3100020",
+   "title": "Miner: See For Yourself",
+   "giver": {
+    "name": "Grumpore",
+    "npc_id": "9000000337",
+    "locale_id": 77570
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Visit Silverray at Quagmire Quarry in Blackspore.",
+     "text_locale_id": 77624,
+     "target": "Silverray",
+     "target_locale_id": 77706,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner line (Grumpore quests 3100017-3100020, then Silverray's quarry band)",
+    "previous": [
+     "Miner: Reach Level 15"
+    ],
+    "next": [
+     "Miner: Minor Mix-Up"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77622,
+     "speaker": "Grumpore"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100022,
+   "record": "quest-lines/quests.json q3100022",
+   "title": "Miner: Smelting Secrets",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": 77706
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Smelt silver bars",
+     "text_locale_id": 77974,
+     "target": "Silver Bar",
+     "target_locale_id": 107,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the silver bars to Ramberry.",
+     "text_locale_id": 77977,
+     "target": "Ramberry",
+     "target_locale_id": 77757,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none sourced",
+     "source": "no reward text in client or wiki for this quest"
+    }
+   ],
+   "line": {
+    "name": "Miner quest line, Band 4: Quagmire Quarry (level 15 to 20)",
+    "previous": [
+     "Miner: Minor Mix-Up"
+    ],
+    "next": [
+     "Miner: Reach Level 20"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 77979,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 77766,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3100023,
+   "record": "quest-lines/quests.json q3100023",
+   "title": "Miner: Reach Level 20",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": 77706
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach Level 20 as a Miner, then return to Silverray.",
+     "text_locale_id": 387526,
+     "target": "Silverray",
+     "target_locale_id": 77706,
+     "count": 20
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner: Silverray quarry line (Miner.md rows 20-23, Quagmire Quarry band, level 15 to 20)",
+    "previous": [
+     "Miner: Smelting Secrets"
+    ],
+    "next": [
+     "Miner: Growing Up So Quickly"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387468,
+     "speaker": "Silverray"
+    },
+    "complete": {
+     "locale_id": 387469,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3110005,
+   "record": "quest-lines/quests.json q3110005",
+   "title": "Ninja: Strike from the Shadows",
+   "giver": {
+    "name": "Chloe",
+    "npc_id": "9000000047",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As part of your ninja training, Chloe has asked you to defeat the denizens of the Cracked Claw Caverns of Blackspore.",
+     "text_locale_id": 78854,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job quest line (Chloe / Ty, Blackspore stealth training)",
+    "previous": [
+     "Ninja: Silence is Golden... and Deadly"
+    ],
+    "next": [
+     "Ninja: Handle with Care"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 78855,
+     "speaker": "Chloe"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110006,
+   "record": "quest-lines/quests.json q3110006",
+   "title": "Ninja: Handle with Care",
+   "giver": {
+    "name": "Chloe",
+    "npc_id": "9000000047",
+    "locale_id": 45302
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find the bags that Chloe has hidden around Mire's Edge. Handle them with care, and don't look inside!",
+     "text_locale_id": 90455,
+     "target": "Mire's Edge",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect Chloe's bags",
+     "text_locale_id": 91928,
+     "target": "Chloe's Bag",
+     "target_locale_id": 91902,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring the bags back to Chloe.",
+     "text_locale_id": 91937,
+     "target": "Chloe",
+     "target_locale_id": 45302,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text found for this quest",
+     "source": "locale:78859 (no reward line in client); repo:prototype/osfr-tools/data/content/quests/ninja.json:430-431 (rewards empty)"
+    }
+   ],
+   "line": {
+    "name": "Ninja training line (Chloe, Blackspore Swamp)",
+    "previous": [
+     "Ninja: Strike from the Shadows"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78856,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 78858,
+     "speaker": "Chloe"
+    },
+    "complete": {
+     "locale_id": 78859,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3110007,
+   "record": "quest-lines/quests.json q3110007",
+   "title": "Ninja: Achieve Level 5",
+   "giver": {
+    "name": "Chloe",
+    "npc_id": "9000000047",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Achieve level 5, then return to Chloe.",
+     "text_locale_id": 387217,
+     "target": "Ninja level 5 (level gate, no client target id)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja training: Chloe, Blackspore band 1 (level 1 to 5)",
+    "previous": [],
+    "next": [
+     "Ninja: Nothing to Sneeze At",
+     "Contract: Trouble in Snowhill"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387217,
+     "speaker": "Chloe"
+    },
+    "complete": {
+     "locale_id": 387203,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110009,
+   "record": "quest-lines/quests.json q3110009",
+   "title": "Ninja: Nothing to Sneeze At",
+   "giver": {
+    "name": "Chloe",
+    "npc_id": "9000000047",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Chloe in Blackspore has asked you to collect pollen from the bixies in the Bixie Hive in the Queensfields.",
+     "text_locale_id": 78862,
+     "target": "Bixie Hive",
+     "target_locale_id": 5702,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect pollen from the bixie inhabitants of Bixie Hive.",
+     "text_locale_id": 90459,
+     "target": "bixie pollen (harvested pollen)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja training (Chloe, Blackspore; band 2, level 5 to 10)",
+    "previous": [
+     "Ninja: Achieve Level 5"
+    ],
+    "next": [
+     "Ninja: That's the Spirit"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78860,
+     "speaker": "Chloe"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78863,
+     "speaker": "Chloe"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110010,
+   "record": "quest-lines/quests.json q3110010",
+   "title": "Ninja: That's the Spirit",
+   "giver": {
+    "name": "Chloe",
+    "npc_id": "9000000047",
+    "locale_id": 45302
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Chloe has directed you to hone your skills on the tormented spirits wandering Blackspore.",
+     "text_locale_id": 78866,
+     "target": "tormented spirits",
+     "target_locale_id": 78864,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job questline, Band 2 (level 5 to 10), Chloe then Snowhill",
+    "previous": [
+     "Ninja: Nothing to Sneeze At"
+    ],
+    "next": [
+     "Ninja: Troubled Waters"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78864,
+     "speaker": "Chloe"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78867,
+     "speaker": "Chloe"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160021,
+   "record": "quest-lines/quests.json q3160021",
+   "title": "Wizard: Crystal Clear Delivery",
+   "giver": {
+    "name": "Sandbur",
+    "npc_id": "9000000190",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Take the transfiguring crystals to Iliya in Blackspore.",
+     "text_locale_id": 74973,
+     "target": "Iliya (npc 9000000108)",
+     "target_locale_id": 45777,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard job quest line (Band 3, levels 10 to 15)",
+    "previous": [
+     "Wizard: Searching for the Past"
+    ],
+    "next": [
+     "Wizard: Things Left Unfinished"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74971,
+     "speaker": "Sandbur"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160022,
+   "record": "quest-lines/quests.json q3160022",
+   "title": "Wizard: Things Left Unfinished",
+   "giver": {
+    "name": "Iliya",
+    "npc_id": "9000000108",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Iliya",
+     "text_locale_id": 74979,
+     "target": "Iliya",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a wizard, retrieve opal gems from wandering tormented spirits in Blackspore Swamp.",
+     "text_locale_id": 74988,
+     "target": "Tormented Spirit",
+     "target_locale_id": 76190,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard quest line (Band 3, levels 10-15: Osgood, Sandbur, Iliya, Sanctuary, Blackspore)",
+    "previous": [
+     "Wizard: Crystal Clear Delivery"
+    ],
+    "next": [
+     "Wizard: Filling in the Gaps"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74983,
+     "speaker": "Iliya"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 74986,
+     "speaker": "Iliya"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160023,
+   "record": "quest-lines/quests.json q3160023",
+   "title": "Wizard: Filling in the Gaps",
+   "giver": {
+    "name": "Iliya",
+    "npc_id": "9000000108",
+    "locale_id": 45777
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Take the opal gems to Sandbur in Sanctuary.",
+     "text_locale_id": 74997,
+     "target": "Sandbur",
+     "target_locale_id": 10090,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard job quest line, Band 3 (level 10 to 15): Iliya / Sandbur chain",
+    "previous": [
+     "Wizard: Things Left Unfinished"
+    ],
+    "next": [
+     "Wizard: Reach Level 15"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74995,
+     "speaker": "Iliya"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 74998,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  }
+ ]
+}

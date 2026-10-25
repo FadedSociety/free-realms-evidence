@@ -1,0 +1,1696 @@
+[
+ {
+  "item": "Archer's Awakened Bow of Forbidden Magic",
+  "item_locale_id": 442436,
+  "record": "quest-lines/items.json iarcher-s-awakened-bow-of-forbidden-magic",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Random award on completing the quest \"Necronomicus Unleashed\" (the Awakened version of Necronomicus, boss of the battle of the same name)",
+   "where": "Merry Vale (battle entrance: secret passage behind the mushrooms near the Den of Secrets); quest offered from the Fighter's Guild Message Board in Sanctuary",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Archer's_Awakened_Bow_of_Forbidden_Magic (\"randomly acquired by completion of the quest 'Necronomicus Unleashed'\"); locale:442600 (\"Defeat the Awakened version of Necronomicus beneath Merry Vale in Necronomicus Unleashed!\"); locale:442598 (Merry Vale secret passage entrance); locale:442596 (quest title); https://freerealms.fandom.com/wiki/Necronomicus (Battle Boss NPC, battle unlocked by the Fighter's Guild Message Board quest)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Brawler's Awakened Hammer of Forbidden Magic",
+  "item_locale_id": 442437,
+  "record": "quest-lines/items.json ibrawler-s-awakened-hammer-of-forbidden-magic",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Random reward for completing the quest \"Necronomicus Unleashed\" (defeat the Awakened Necronomicus boss). The reward is one of the Awakened Forbidden Magic class weapons, picked at random; this hammer is the Brawler's version.",
+   "where": "Merry Vale: secret passage behind the mushrooms near the Den of Secrets, leading to the Necronomicus battle beneath Merry Vale. Quest is started from the Fighter's Guild message board in Sanctuary (wiki).",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Brawler's_Awakened_Hammer_of_Forbidden_Magic (wiki page text: \"It is randomly acquired by completion of the quest 'Necronomicus Unleashed.'\"); wiki page ns0 'Necronomicus' (battle via Fighter's Guild board in Sanctuary); locale:442596 (quest title), locale:442598 (secret passage behind the mushrooms near the Den of Secrets)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bullseye's Blasting Bow",
+  "item_locale_id": 384118,
+  "record": "quest-lines/items.json ibullseye-s-blasting-bow",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Archer: Building a Better Bow (final quest of the Archer line, given by Bullseye; the bow is the quest's reward)",
+   "where": "Archer quest line, level 20 finale",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Bullseye's_Blasting_Bow (\"acquired by completion of the quest Archer: Building a Better Bow\"); locale:384118; quoted from other answer: quest 'Archer: Building a Better Bow' (final)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Cactoid",
+  "item_locale_id": 5102902,
+  "record": "quest-lines/items.json icactoid",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Rescue in the Ruins, from Sarkin Stonehearth (completes the Precursor Ruins dungeon run: rescue Assistant Bogse; needs It's Too Quiet... first)",
+   "where": "The Dig, Sunstone Valley",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Cactoid (wiki page text: acquired through completion of the Rescue in the Ruins quest held by Sarkin Stonehearth); repo:prototype/osfr-tools/data/content/dungeons/precursor_ruins.json:652; repo:notes/Build Guides/Content/NPCs/NPCs - Sunstone Valley.md:235; locale:33880 / 5102902 (name)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Chatty Suit",
+  "item_locale_id": 42249,
+  "record": "quest-lines/items.json ichatty-suit",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Halloween Fanatic (Super Spooktacular questline), offered by Halloween Harry in Sanctuary (Pixiewood Hills); requires the Trick-or-Treat quest done three times first. The costume is collected from Cadie, who made it for Harry (client objective 'Talk to Cadie').",
+   "where": "Sanctuary (Pixiewood Hills)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Super_Spooktacular (questline: '[Halloween Fanatic] from Halloween Harry (must complete the Trick-or-Treat quest three times first)'); wiki: https://freerealms.fandom.com/wiki/Halloween_Harry; wiki: https://freerealms.fandom.com/wiki/Chatty_Suit; locale:416807 (Halloween Fanatic), locale:416805 ('Talk to Cadie'), locale:416806 and locale:416808 (Cadie's costume for Halloween Harry, now yours)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Conehat",
+  "item_locale_id": 5102626,
+  "record": "quest-lines/items.json iconehat",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Hunting Treasure quest (treasure-hunt host Kara Loft, Sanctuary); the wiki says the Conehat is acquired by completing this quest",
+   "where": "Sanctuary (quest giver Kara Loft, northwest of the Sanctuary warpstone)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Conehat (rev 35039); repo:notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:146"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Decorative Bone Wand",
+  "item_locale_id": 5102620,
+  "record": "quest-lines/items.json idecorative-bone-wand",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Hunting Treasure quest (Lost Treasure Chest hunt, given by Kara Loft; quest title locale:5102587)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Decorative_Bone_Wand (\"acquired through completion of the Hunting Treasure Quest\"); locale:5102587 [quest_title | Hunting Treasure]; wiki page Kara Loft lists Quests: Hunting Treasure"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Decorative Smithy Hammer",
+  "item_locale_id": 5102618,
+  "record": "quest-lines/items.json idecorative-smithy-hammer",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Hunting Treasure quest (Kara Loft, Lost Treasures Month daily quest series)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Decorative_Smithy_Hammer (rev 46972); locale:5102587 (quest title 'Hunting Treasure'); locale:5102729 (Hunting Treasure journal text, referencing Kara Loft)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Dove",
+  "item_locale_id": 18553,
+  "record": "quest-lines/items.json idove",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Sleeping Pixie quest (given by Cudip), Festival of Hearts questline; the Dove pet pal is granted on completion",
+   "where": "Merry Vale",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Dove (rev 50216); wiki page Festival of Hearts lists Sleeping Pixie given by Cudip; repo:prototype/osfr-tools/data/content/npcs/merry_vale.json:1325 and :1342 (Sleeping Pixie quest, Cudip, east of the rainbow)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Fiber Optic Wand",
+  "item_locale_id": 407466,
+  "record": "quest-lines/items.json ifiber-optic-wand",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Hunting Treasure quest (Lost Treasures Month treasure-hunt quest hosted by Kara Loft; wiki says the wand is acquired through completing it). Reward rate and repeatability unknown.",
+   "where": "Sanctuary (Kara Loft, northwest of the Sanctuary warpstone); the Merry Vale clue step is part of the quest, not a separate acquisition point",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Fiber_Optic_Wand (rev 43960); locale:5102587 (Hunting Treasure); repo:notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:146"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Giant Penguin Meal",
+  "item_locale_id": 5102708,
+  "record": "quest-lines/items.json igiant-penguin-meal",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Hunting Treasure quest (Lost Treasures Month treasure hunt, giver Kara Loft). Wiki says the meal is acquired through completing this quest. Whether it is a fixed reward or a chest drop is unverified in client data.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Giant_Penguin_Meal (rev 35103: 'acquired through completion of the Hunting Treasure Quest'); locale:5102587 [Hunting Treasure]; locale:5102585 [Kara Loft]"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Jack the Rabbit",
+  "item_locale_id": 5100050,
+  "record": "quest-lines/items.json ijack-the-rabbit",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completion prize for The Eggcellent Egg Hunt quest (Spring Eggstravaganza, introduced March 29th, 2013), claimed during the event",
+   "where": "Sanctuary, Pixiewood Hills (quest giver Alyssa Eggelyn)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Jack_the_Rabbit (rev 50207); wiki Quest:The Eggcellent Egg Hunt (Requirements/To Start: Alyssa Eggelyn, Pixiewood Hills, Sanctuary); wiki Spring Eggstravaganza; locale:5100012 (quest title 'The Eggcellent Egg Hunt'); repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:441-453 (Alyssa Eggelyn, Spring Eggstravaganza host)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Unidentified: pack names NPC Lucca De'Flor (locale 23788), not an item; item leads are Sweet Bread and Snowberry Souffle",
+  "item_locale_id": 23788,
+  "record": "quest-lines/items.json ilucca-de-flor",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Bryan and Cecelia picnic quest: sweet bread is a fetch item (quest 37069/37071); Lucca offers a free loaf ('Here, take a loaf and see for yourself!')",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "locale:37069; locale:37071; locale:37079; locale:39880"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Lucky's Clover Shirt",
+  "item_locale_id": 5100529,
+  "record": "quest-lines/items.json ilucky-s-clover-shirt",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Reward for the quest 'St. Patrick's Day is Here' (client hint for locale 5100529; the string is tagged quest_reward). Quest-to-reward link is only inferred from the client tag; the quest itself is not confirmed in repo data.",
+   "where": "Briarwood",
+   "price": null,
+   "currency": null,
+   "source": "locale:5100529 (type quest_reward, hint 'St. Patrick's Day is Here', zone Briarwood)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Merry Vale Bouquet",
+  "item_locale_id": 5102624,
+  "record": "quest-lines/items.json imerry-vale-bouquet",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Hunting Treasure quest (given by Kara Loft; repeatable daily; requires Scrap Collector first; part of Lost Treasures Month). Reward is the weapon-slot Freestyle Jobs item.",
+   "where": "Sanctuary (Kara Loft, northwest of the Sanctuary Warpstone); clue locations across Free Realms",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Merry_Vale_Bouquet (rev 35255); wiki Quest:Hunting Treasure (quest-pages.json line 259 in refs, Category:Lost Treasures Month)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Mini Holiday Tree",
+  "item_locale_id": 5102844,
+  "record": "quest-lines/items.json imini-holiday-tree",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest 'An Unexpected Gift' (members only), given by Candi Ivy; the quest's final reward is the Mini Holiday Tree (granted alongside a Tacky Reindeer Sweater) and it unlocks the holiday achievement 'O, Gifting Tree...'",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Mini_Holiday_Tree (rev 43295); video:2fhn8kePbKQ/00504.jpg (chat log: 'You receive 1 Tacky Reindeer Sweater', 'You receive 1 Mini Holiday Tree', 'O, Gifting Tree...' trophy); locale:420297, locale:420298, locale:420295 (quest text); https://freerealms.fandom.com/wiki/Snow_Days (lists 'An Unexpected Gift from Candi Ivy')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Mini-Manguana",
+  "item_locale_id": 33882,
+  "record": "quest-lines/items.json imini-manguana",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Friend or Foe: The Savage (client locale 438884), Sunstone Valley quest chain (Dorn, Headmaster Merk, Peace-guana Joe)",
+   "where": "Sunstone Valley (Rumble Ridge; Sandscale territory)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Mini-Manguana (\"can be obtained through completing the Friend or Foe:The Savage quest\"); quest title locale:438884; repo:prototype/osfr-tools/data/content/npcs/shrouded_glade.json:20716 (quest listed on Sunstone page)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Mustang Alli (creature card)",
+  "item_locale_id": null,
+  "record": "quest-lines/items.json imustang-alli",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Win the 12-point match against Esther's Challenge Deck (quest 'Card Duelist: Esther's Special Card'); the win grants a Mustang Alli creature card from Esther's deck",
+   "where": "Briarwood",
+   "price": null,
+   "currency": null,
+   "source": "locale:407120; locale:407027; locale:407024; locale:407052; locale:407025"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ninja's Awakened Sword of Forbidden Magic",
+  "item_locale_id": 442439,
+  "record": "quest-lines/items.json ininja-s-awakened-sword-of-forbidden-magic",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Random weapon reward on completing the quest \"Necronomicus Unleashed\" (the level 20 Awakened set; the other five class versions, Archer/Brawler/Medic/Warrior/Wizard, share the same reward pool)",
+   "where": "Merry Vale, beneath the town (secret passage behind the mushrooms near the Den of Secrets); quest offered on the Fighter's Guild message board in Sanctuary",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Ninja's Awakened Sword of Forbidden Magic (\"randomly acquired by completion of the quest 'Necronomicus Unleashed'\"); locale:442596 (quest title), locale:442598 (recommended for level 20 full group), locale:442600; wiki page:ns0 Necronomicus (battle unlocked by the quest from the Fighter's Guild board); repo:notes/Build Guides/Content/NPCs/NPCs - Merry Vale.md:199"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Polar Bear",
+  "item_locale_id": 441220,
+  "record": "quest-lines/items.json ipolar-bear",
+  "source": {
+   "type": "quest_reward",
+   "detail": "12 Days of Presents (Snow Days 2012) daily quests; the Polar Bear ride is the Large Present 3 gift from the present-opening reward set (wiki Snow Days lists the tested order: Large Present 1 Snow Globe Helmet, Large Present 2 St. Bernard, Large Present 3 Polar Bear). The 2013 recap blog places the Polar Bear Ride as the Big Present on Day 12.",
+   "where": "Snowhill (Trina Turtledove, Present Tracker, opens the presents on December 25)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Polar_Bear ; https://freerealms.fandom.com/wiki/Snow_Days ; wiki User blog:Soe amnerys/01-11-13 Update: 12 Days Recap (Day 12: Big Present: Polar Bear Ride); repo:notes/Build Guides/Content/NPCs/NPCs - Snowhill.md:146,198"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Proof of Training - Part 1 of 5",
+  "item_locale_id": 441973,
+  "record": "quest-lines/items.json iproof-of-training-part-1-of-5",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Glide Training: Getting Started quest, given by Troy Ridewrangler (ride trainer, Seaside). Step 1 of the 5-step Glide Training series; the ticket is granted on completion of this quest.",
+   "where": "Seaside",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Proof_of_Training_-_Part_1_of_5 (rev 27790); locale:441973; repo:prototype/osfr-tools/data/content/npcs/seaside.json (Troy Ridewrangler, Glide Training: Getting Started, title 487749906)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Proof of Training - Part 2 of 5",
+  "item_locale_id": 441974,
+  "record": "quest-lines/items.json iproof-of-training-part-2-of-5",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Glide Training: Basic Training quest, given by Troy Ridewrangler (step 2 of the 5-step Glide Training course); the ticket is a temporary progress token, not a keepable reward",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Proof_of_Training_-_Part_2_of_5 (rev 27791); locale:441978 (client text: 'Proof of completing step 2 of Troy Ridewrangler's glide training. This is collected by Troy after completing all 5 steps.')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Proof of Training - Part 3 of 5",
+  "item_locale_id": 441975,
+  "record": "quest-lines/items.json iproof-of-training-part-3-of-5",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Glide Training: Confidence Is Key quest, given by Troy Ridewrangler (ticket granted on quest completion, removed when Glide Training completes)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Proof_of_Training_-_Part_3_of_5"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Proof of Training - Part 4 of 5",
+  "item_locale_id": 441976,
+  "record": "quest-lines/items.json iproof-of-training-part-4-of-5",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Glide Training: I'm Advanced! (quest given by Troy Ridewrangler). The ticket is granted on completion and removed again when the Glide Training series is completed.",
+   "where": "Lakeshore (quest location per client locale:4419692)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Proof_of_Training_-_Part_4_of_5 (wiki rev 27920); locale:4419692; wiki page Quest:Glide Training: I'm Advanced!"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Reflex Hammer",
+  "item_locale_id": 10612,
+  "record": "quest-lines/items.json ireflex-hammer",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Sunflower, 'Bixies Gone Bad' (locale 15335), Bixie Hive instance; listed as a reward alongside Short Bow and Feisty Fighter Pants, plus 'Final reward from Sunflower (unspecified)'",
+   "where": "Southwest of Sanctuary; instance (Bixie Hive)",
+   "price": null,
+   "currency": null,
+   "source": "refs articles/quests.json lines 1459-1477 (Bixies Gone Bad rewards list includes 'Reflex Hammer'); http://www.tentonhammer.com:80/node/67379 (one guide run: Ralsu received a Reflex Hammer, Short Bow and Feisty Fighter Pants)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Rise of the Skullz",
+  "item_locale_id": 1835,
+  "record": "quest-lines/items.json irise-of-the-skullz",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Aiding our Allies (quest begins with Arch Druid Camellia in Shrouded Glade and continues with Headmaster Merk / Freewheelers in Rumble Ridge). Wiki-only claim; reward not confirmed in server data.",
+   "where": "Sunstone Valley (Rumble Ridge); quest begins in Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Rise_of_the_Skullz (\"This item is a consumable rewarded through completing the Aiding our Allies quest.\"). Contested: community records Sanctuary Quests.json:773 and Lxzxrus Quests.json:1006 both show RewardItems empty (as cited in the critique and quest record 3080; not independently re-read here)."
+  },
+  "store_row": null
+ },
+ {
+  "item": "Santa Hat",
+  "item_locale_id": 134470,
+  "record": "quest-lines/items.json isanta-hat",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Party Animal Quest, given by Preston Daly (Snow Days event quest; the Santa Hat is the reward for completing it)",
+   "where": "Snow Days, near the Sanctuary Warpstone",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Santa_Hat (wiki page text: 'acquired through completion of the Party Animal Quest available throughout Snow Days from Preston Daly, located near the Sanctuary Warpstone')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Skullz Commander",
+  "item_locale_id": 440436,
+  "record": "quest-lines/items.json iskullz-commander",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Card duel against Ironteeth (Skullz gladiator, Sunstone Valley): winning the match (first to 12 points) awards a Skullz Commander Machine card from his deck",
+   "where": "Sunstone Valley, in front of the Rumbledome (Ironteeth's location per repo notes)",
+   "price": null,
+   "currency": null,
+   "source": "locale:442190"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Snowflake Glasses",
+  "item_locale_id": 441216,
+  "record": "quest-lines/items.json isnowflake-glasses",
+  "source": {
+   "type": "quest_reward",
+   "detail": "12 Days of Presents 2012 (Snow Days series), Day 7 present; the item is the Day 7 reward",
+   "where": "Snowhill (12 Days of Presents / Snow Days quest series)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page '12 Days of Presents' (Day 7: Snowflake Glasses); wiki page 'Snowflake Glasses' ('acquired as a part of the 12 Days of Presents 2012 Snow Days quest series'); wiki user blog 'User blog:Soe amnerys/01-11-13 Update: 12 Days Recap' (Day 7: Snowflake Glasses)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Sparky",
+  "item_locale_id": 17468,
+  "record": "quest-lines/items.json isparky",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Heroes TCG Questline (TCG Set 4), which grants the Sparky mechanical hoverboard ride",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Sparky (rev 50373: 'acquired through completing the Heroes TCG Questline (TCG Set 4)'); wiki Rides category listing: 'Acquired by completing Heroes TCG Questline'"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Spoiled Cat Collar",
+  "item_locale_id": 5102632,
+  "record": "quest-lines/items.json ispoiled-cat-collar",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completion of the Hunting Treasure quest (given by Kara Loft, Sanctuary; quest client text locale:5102587)",
+   "where": "Sanctuary (quest giver Kara Loft, northwest of the Sanctuary warpstone); the treasure clues are in Merry Vale",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Spoiled_Cat_Collar; wiki Quest:Hunting Treasure (via Conehat and Spoiled Cat Crown wiki pages, same wording); repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:34336 and notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:146 (Kara Loft runs Hunting Treasure)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Spoiled Cat Crown",
+  "item_locale_id": 5102634,
+  "record": "quest-lines/items.json ispoiled-cat-crown",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Hunting Treasure quest (Kara Loft, Sanctuary): the crown is a possible item from opening a Lost Treasure Chest earned in Hunting Treasure. Random chest table, not a confirmed guaranteed reward.",
+   "where": "Sanctuary (quest giver Kara Loft, npc 9500000501)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Lost Treasures Month ('Possible item rewards upon opening a Lost Treasure Chest in Hunting Treasure include: ... Spoiled Cat Crown'); wiki page https://freerealms.fandom.com/wiki/Spoiled_Cat_Crown ('acquired through completion of the Hunting Treasure Quest'); wiki Template:News Game Update 118 (11/05/2013) ('Hunting Treasure quest to either complete it, or return to Kara Loft to acquire it')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Spring Eggstravaganza Basket",
+  "item_locale_id": 5100051,
+  "record": "quest-lines/items.json ispring-eggstravaganza-basket",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completing The Eggxtremely Eggcitingly Eggcellent Egg Hunt (quest, introduced March 31st, 2013 during Spring Eggstravaganza), then claiming the quest completion prize before Spring Eggstravaganza 2013 ended",
+   "where": "Sanctuary (quest starts with Alyssa Eggelyn in Pixiewood Hills)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Spring_Eggstravaganza_Basket; wiki page Quest:The Eggxtremely Eggcitingly Eggcellent Egg Hunt (To Start: Alyssa Eggelyn, Pixiewood Hills, Sanctuary); wiki page Spring Eggstravaganza (lists Spring Eggstravaganza Basket among rewards)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Subarctic Winterwear Boots",
+  "item_locale_id": 134502,
+  "record": "quest-lines/items.json isubarctic-winterwear-boots",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Snow Days quest 'Guarding the Gifting Tree' (given by Candi Ivy, Snowhill; client quest title locale:420280)",
+   "where": "Snowhill (Snow Days event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Subarctic Winterwear Boots' (rev 30267); wiki page 'Candi Ivy'; wiki page 'Snow Days'; locale:420280"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Subarctic Winterwear Gloves",
+  "item_locale_id": 4427,
+  "record": "quest-lines/items.json isubarctic-winterwear-gloves",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completing the Snow Days quest \"Silversnow's Sapling\" (quest giver Candi Ivy, Snowhill)",
+   "where": "Snowhill (Snow Days event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Subarctic_Winterwear_Gloves (rev 30263); repo:notes/Build Guides/Content/NPCs/NPCs - Snowhill.md:188 (quest-giver Candi Ivy, client and wiki evidence); repo:prototype/osfr-tools/data/content/npcs/snowhill.json:6546 (quest listed under Snowhill)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Subarctic Winterwear Hat",
+  "item_locale_id": 134504,
+  "record": "quest-lines/items.json isubarctic-winterwear-hat",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completion of the Membership-exclusive Snow Days quest 'Robgoblin Robbery Ring' (the other answer names it 'The Great Robgoblin Robbery Ring'; exact title unresolved)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Subarctic_Winterwear_Hat (rev 30274); locale:134504; other answer: quest 'The Great Robgoblin Robbery Ring' and event 'Snow Days' citing the same wiki page"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Subarctic Winterwear Jacket",
+  "item_locale_id": 134501,
+  "record": "quest-lines/items.json isubarctic-winterwear-jacket",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Snow Days quest 'Snowmen Disassembly' (Membership-exclusive), given by Candi Ivy in Snowhill",
+   "where": "Snowhill (Snow Days event)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Subarctic_Winterwear_Jacket; wiki:Snow Days (lists [Snowmen] [Disassembly] from Candi Ivy); locale:420292 (quest title 'Snowhill Snowmen Disassembly'); repo:notes/Build Guides/Content/NPCs/NPCs - Snowhill.md:192"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Subarctic Winterwear Pants",
+  "item_locale_id": 134505,
+  "record": "quest-lines/items.json isubarctic-winterwear-pants",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Reward from the Snow Days quest 'The Perfect Disguise' (quest giver Candi Ivy per the repo's Snowhill NPC notes; the quest's client text is locale:420284, quest id 64 in the activity coverage file)",
+   "where": "Snowhill (Snow Days event area)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Subarctic_Winterwear_Pants (rev 30269); locale:420284; repo:notes/Research/original-activity-coverage.json:2361; repo:notes/Build Guides/Content/NPCs/NPCs - Snowhill.md:190"
+  },
+  "store_row": null
+ },
+ {
+  "item": "The Invasion of Shrouded Glade",
+  "item_locale_id": 2313,
+  "record": "quest-lines/items.json ithe-invasion-of-shrouded-glade",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Defending the Glade (limited-time quest; client quest title locale:438461). Quest starts with Captain Sunspark in Shrouded Glade (locale:438469, locale:438460). Player picks the Druids or the Dwarves (locale:438464).",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/The_Invasion_of_Shrouded_Glade (rev 50030: \"rewarded through completing the limited time Defending the Glade quest\"); wiki page Shrouded Gloam (\"Going to Shrouded Glade to speaking Captain Sunspark. You will have to choose between helping the Druids or the Dwarves\"); locale:438461, locale:438469"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Training Saddle of Gliding",
+  "item_locale_id": 1797,
+  "record": "quest-lines/items.json itraining-saddle-of-gliding",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Troy Ridewrangler's Glide Training: completing all 5 steps gives the first Training Saddle of Gliding and a Glide Training Certification",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Training_Saddle_of_Gliding"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Training Saddle of Gliding",
+  "item_locale_id": 1797,
+  "record": "quest-lines/items.json itroy-ridewrangler",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Glide Training quest series (5 quests, each only doable one day after the previous) from Troy Ridewrangler; completing the series grants a complimentary Training Saddle of Gliding",
+   "where": "Seaside, near the Seaside Warpstone",
+   "price": null,
+   "currency": null,
+   "source": "wiki: https://freerealms.fandom.com/wiki/Troy_Ridewrangler; wiki: https://freerealms.fandom.com/wiki/Glide_Training; wiki Quest:Glide Training: Basic Training and Quest:Glide Training: I'm Advanced! (\"transferred to the Training Saddle\"); wiki: https://freerealms.fandom.com/wiki/Training_Saddle_of_Gliding (\"acquired through completing all 5 steps\"); freerealms-wiki/harvest/lists/quests.json:2405 (first reward: Training Saddle of Gliding)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Ultimate Bacon-Maker",
+  "item_locale_id": 5102622,
+  "record": "quest-lines/items.json iultimate-bacon-maker",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Hunting Treasure Quest (treasure-hunt host Kara Loft, Sanctuary; introduced 1 November 2013 as part of Lost Treasures Month)",
+   "where": "Sanctuary (quest host Kara Loft, northwest of the Sanctuary warpstone)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Ultimate_Bacon-Maker (wiki text: 'acquired through completion of the Hunting Treasure Quest'); https://freerealms.fandom.com/wiki/Lost_Treasures_Month (lists Ultimate Bacon-Maker alongside the other Hunting Treasure rewards); repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:34336 (Hunting Treasure, client 969066515)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Warrior's Awakened Axe of Forbidden Magic",
+  "item_locale_id": 442440,
+  "record": "quest-lines/items.json iwarrior-s-awakened-axe-of-forbidden-magic",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completing the quest \"Necronomicus Unleashed\" (random weapon reward; the Awakened weapon set, one per job, e.g. Archer's Awakened Bow, Medic's Awakened Bonesaw)",
+   "where": "Merry Vale (Necronomicus Unleashed battle, secret passage beside the Den of Secrets); quest offered from the Fighter's Guild Message Board in Sanctuary",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/Warrior's_Awakened_Axe_of_Forbidden_Magic (\"randomly acquired by completion of the quest 'Necronomicus Unleashed'\"); repo: notes/Build Guides/Content/Dungeons/Necronomicus Unleashed.md (quest row, wiki: battle unlocked by the Sanctuary Fighter's Guild board quest); locale:442596 (quest title \"Necronomicus Unleashed\")"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wizard's Awakened Wand of Forbidden Magic",
+  "item_locale_id": 442441,
+  "record": "quest-lines/items.json iwizard-s-awakened-wand-of-forbidden-magic",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Random reward on completing the quest \"Necronomicus Unleashed\" (locale:442596). The quest is started from the Fighter's Guild Message Board in Sanctuary, after the Southern Wilds story. The wiki says the wand is 'randomly acquired by completion of the quest'. No source says which fight version (first or Awakened) grants it, or the drop chance.",
+   "where": "Quest start: Fighter's Guild Message Board, Sanctuary. Battle location: beneath Merry Vale, via the secret passage behind the mushrooms near the Den of Secrets (locale:442598).",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Wizard's Awakened Wand of Forbidden Magic (\"randomly acquired by completion of the quest 'Necronomicus Unleashed'\"); wiki page Necronomicus (battle unlocked by the quest from the Fighter's Guild Message Board in Sanctuary); locale:442596; locale:442598; locale:442600; repo:notes/Build Guides/Content/NPCs/NPCs - Merry Vale.md:199"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Adherent Wizard Long Cloak",
+  "item_locale_id": 133434,
+  "record": "quest-lines/citems.json cadherent-wizard-long-cloak-133434",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Treeleaf's Retreat (quest); the cloak appears in a wiki reward-style run with 202 Coins, [Wizard] Prize Wheel and Battle Item Mystery Pack. Which block it belongs to is not confirmed",
+   "where": "Treeleaf's Retreat (quest)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Treeleaf's Retreat (https://freerealms.fandom.com/wiki/Treeleaf's_Retreat), search snippet via lookup; full page not opened"
+  },
+  "store_row": null
+ },
+ {
+  "item": "All-Star Brawler Hammer",
+  "item_locale_id": 11201,
+  "record": "quest-lines/citems.json call-star-brawler-hammer-11201",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Brawler: [Confronting the Crook] (quest giver Mayor Crystalline, Snowhill; Sanctuary and Snowhill steps). Reward is wiki-stated only; no reward table checked.",
+   "where": "Snowhill / Sanctuary",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'All-Star Brawler Hammer' (\"previously acquired by completion of the quest Brawler: [Confronting the Crook]\"); wiki page 'Brawler' lists the quest under Mayor Crystalline in Snowhill; client quest title locale:39827, steps locale:39835 and locale:39833"
+  },
+  "store_row": null
+ },
+ {
+  "item": "All-Star Medic Shockrod",
+  "item_locale_id": 13747,
+  "record": "quest-lines/citems.json call-star-medic-shockrod-13747",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Medic: The Missing Patrol (Medic line quest 24, giver Docaloc; rescue objectives in the Vale of the Ancients). Wiki-only; no client reward table checked.",
+   "where": "Vale of the Ancients (Medic job)",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/All-Star_Medic_Shockrod; repo:notes/Build Guides/Content/Jobs/Medic.md:111 (this notes row cites the wiki, so it is not independent confirmation)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "All-Star Ninja Blade",
+  "item_locale_id": 10960,
+  "record": "quest-lines/citems.json call-star-ninja-blade-10960",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Ninja: The Masterless Ninja (Ninja class quest; the wiki says the blade was obtained by completing it). Reward NPC not named in any source.",
+   "where": "Snowhill per quest text (locale:78900, locale:78902); reward NPC unconfirmed",
+   "price": null,
+   "currency": null,
+   "source": "wiki page All-Star Ninja Blade; locale:78901 (quest title 'Ninja: The Masterless Ninja')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "All-Star Warrior Axe",
+  "item_locale_id": 10358,
+  "record": "quest-lines/citems.json call-star-warrior-axe-10358",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Warrior: Legend of Fastvi Frostflutter (quest given by Sir Whittington; wiki says the axe was previously acquired by completing it; no reward mechanics given)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/All-Star_Warrior_Axe; repo:notes/Build Guides/Content/Jobs/Warrior.md:114 (W18 quest entry); repo:notes/Build Guides/Content/Jobs/Warrior.md:173"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Amateur Archer Bow",
+  "item_locale_id": 13645,
+  "record": "quest-lines/citems.json camateur-archer-bow-13645",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Archer: Explosive Expedition (Hilforn, northern Greenwood Forest, level 1 to 5 band). Wiki says the bow was previously acquired by completing this quest. Disputed, see open.",
+   "where": "Greenwood Forest",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Amateur Archer Bow' (https://wiki.freerealms.com/Amateur_Archer_Bow); locale:77081 (quest title)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Amateur Brawler Hammer",
+  "item_locale_id": 11277,
+  "record": "quest-lines/citems.json camateur-brawler-hammer-11277",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completion of the quest Brawler: Prey on the Cray (quest title locale:72486, given by Petra in Blackspore per wiki 'Brawler'; objective locale:72485 is to bring back radiant gems from the swamp cray in Cracked Claw Caverns. The gems are the objective, not the reward.)",
+   "where": "Blackspore / Cracked Claw Caverns",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Amateur Brawler Hammer' (\"previously acquired by completion of the quest Brawler: Prey on the Cray\"); wiki page 'Brawler' (Main Series: Brawler: Prey on the Cray: Petra in Blackspore); locale:72486, locale:72485"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Amateur Wizard Wand",
+  "item_locale_id": 19013,
+  "record": "quest-lines/citems.json camateur-wizard-wand-19013",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Wizard: The First Rule of Being a Wizard (quest given by Fizzlesticks). Wiki-only link; the repo quest row does not confirm the reward.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "Wiki page 'Amateur Wizard Wand' (https://freerealms.wiki/wiki/Amateur_Wizard_Wand): 'It was previously acquired by completion of the quest Wizard: The First Rule of Being a Wizard.'; repo:prototype/osfr-tools/data/content/quests/wizard.json:3160007 has rewards: [] (does not confirm)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Aquarium",
+  "item_locale_id": 132512,
+  "record": "quest-lines/citems.json caquarium-132512",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Rob Robbie Daily, Day-7 chest (7th Day Chest Items list names '1 Aquarium'). Day 7 gives a random Station Cash item or housing item from the chest; the list is a set of possibilities, so a given chest may or may not give it.",
+   "where": "Robbie's Tent, Camp Robbie",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Quest:Rob Robbie Daily (7th Day Chest Items, Reward sections); freerealms-wiki/wikitext/7326-23902-e7ea599f40c4.wiki lines 16-23"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Automatic Head Size Augmenter",
+  "item_locale_id": 132521,
+  "record": "quest-lines/citems.json cautomatic-head-size-augmenter-132521",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Rob Robbie Daily, Day 7 chest (opened after 7 consecutive days). The chest is a random housing pool; the augmenter is one of its listed items with count 1. Chance per chest is not stated.",
+   "where": "Camp Robbie, Robbie's Tent",
+   "price": null,
+   "currency": null,
+   "source": "Quest:Rob Robbie Daily wiki page, '7th Day Chest Items' list line 24 and Reward section line 19 (freerealms-wiki/wikitext/7326-23902-e7ea599f40c4.wiki)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Balloon Bunny Ears",
+  "item_locale_id": 5688,
+  "record": "quest-lines/citems.json cballoon-bunny-ears-5688",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Cakey Clues (Birthday Bash event quest; wiki item list says the item is acquired by completing it)",
+   "where": "Birthday Bash event (2011 version)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Birthday Bash' (item list: \"[Balloon] [Bunny] [Ears] (Acquired by completing [Cakey] [Clues])\"; list headed 'available during the 2011 version of this event')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bat Meat",
+  "item_locale_id": 18597,
+  "record": "quest-lines/citems.json cbat-meat-18597",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Farming 101 (Mae Farnum): the Make Strong Arm Stew step grants 4 Bat Meats, alongside Gummyfruit, Rainleaf and Spice",
+   "where": "Farnum Farmstead / Cooking Table",
+   "price": null,
+   "currency": null,
+   "source": "video:3caQP-As968/00638 (quest frame 'You receive 4 Bat Meats'); video:3caQP-As968/00654"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bobtailed Archer Hoodie",
+  "item_locale_id": 132770,
+  "record": "quest-lines/citems.json cbobtailed-archer-hoodie-132770",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Necronomicus Unleashed (battle boss quest, Archer level 20); the video shows the hoodie received with a Skullz Biker Badge on completion",
+   "where": "Merry Vale, beneath the Den of Secrets (secret passage behind the mushrooms)",
+   "price": null,
+   "currency": null,
+   "source": "video:G2tF5uF5cBE/01200.jpg; video:G2tF5uF5cBE/01202.jpg; locale:442598; wiki page:ns0 Necronomicus (battle 'Necronomicus Unleashed', quest from Fighter's Guild Message Board in Sanctuary)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bold Light Spiral Wallpaper",
+  "item_locale_id": 26437,
+  "record": "quest-lines/citems.json cbold-light-spiral-wallpaper-26437",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Bold Customizations, housing tutorial quest given by Melanie Lane (Wilds Condo wall decoration step; Melanie Lane gives the wallpaper, then the player uses it in Decorate Mode and exits it to complete the quest)",
+   "where": "Awesome Beach (Wilds Condo tutorial)",
+   "price": null,
+   "currency": null,
+   "source": "video:yJ2KHN9I7EI/01022.jpg (Melanie Lane dialog: \"Here, take this Bold Light Spiral Wallpaper!\"); video:yJ2KHN9I7EI/01050.jpg (quest step Use Bold Light Spiral Wallpaper, Exit Decorate Mode); locale:436714 (quest_objective 'Bold Customizations': 'Melanie Lane has given you Bold Light Spiral Wallpaper to customize the walls of your Wilds Condo.'); locale:436778 (UI tip for using it in Wilds Condo); notes/Build Guides/Gameplay/Housing.md:228"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Bug Repellent",
+  "item_locale_id": 434527,
+  "record": "quest-lines/citems.json cbug-repellent-434527",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Bug swarm quest: the quest NPC hands the player Bug Repellent along with the Bug Sprayer ('take this here Bug Repellent too'). Quest name not found in client text; dialog hint is 'Bug Sprayer'. A handout, not a confirmed reward row.",
+   "where": "Wilds (farm crop-bug swarm)",
+   "price": null,
+   "currency": null,
+   "source": "locale:134960"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Callahan's Cutter",
+  "item_locale_id": 384116,
+  "record": "quest-lines/citems.json ccallahan-s-cutter-384116",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Medic: Paying Your Student Debts (quest-ending step, Doctor Callahan). Disputed: wiki-only link, no reward entry in repo quest data, and the build note says the wiki may be conflating this weapon with the unfilled 'Medic Epic Weapon' placeholder (815669441).",
+   "where": "Seaside (Seaside School of Combat Medicine)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page \"Callahan's Cutter\" (\"acquired by completion of the quest Medic: Paying Your Student Debts\"); repo:notes/Build Guides/Content/Jobs/Medic.md line 127 (quest row, lists the Callahan's Cutter wiki reward) and line 207 (placeholder conflation caveat); repo:weapons.json line 10277 (wiki/client entry)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Camp Chatty Hat",
+  "item_locale_id": 16979,
+  "record": "quest-lines/citems.json ccamp-chatty-hat-16979",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Confronting Bigfoot (quest title locale 429074), reward on completion; Chatty's turn-in 'Return to Chatty' per greenwood_forest.json",
+   "where": "Camp Chatty, Greenwood Forest (Southern Wilds); quest runs into Bigfoot's Lair",
+   "price": null,
+   "currency": null,
+   "source": "video:L27vxozHOls/00326 (\"Quest Completed! Confronting Bigfoot ... You receive 1 Camp Chatty Hat\"); locale:429074; repo:prototype/osfr-tools/data/content/npcs/greenwood_forest.json line 5149 (turn-in 'Return to Chatty', video L27vxozHOls/00280)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Chiller Boombox",
+  "item_locale_id": 16636,
+  "record": "quest-lines/citems.json cchiller-boombox-16636",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Dani, Pixiewood: win a TCG game against Dani to receive the Chiller Boombox. Requires the purchased Quest Pack. Each pack unlocks one of two special TCG quests (this boombox or the Jack-O-Lantern costume), so the boombox is not a free quest reward.",
+   "where": "Pixiewood",
+   "price": null,
+   "currency": null,
+   "source": "locale:115 ('Challenge Dani in Pixiewood in a TCG game to win her cool Chiller Boombox!'); articleId=2304; articleId=1854 (http://www.freerealms.com:80/article/detail.action?articleId=1854: a TCG Quest Pack unlocks one of two quests, rewarding either the glow-in-the-dark Jack O' Lantern costume or the Chiller Boombox)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Cowboy Backpack",
+  "item_locale_id": 18301,
+  "record": "quest-lines/citems.json cclockwork-cowboy-backpack-18301",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Reward for completing the Commander Kluggenkrush campaign (defeat Commander Kluggenkrush). Requires having purchased and completed \"Campaign 5: Hot Springs Haven\" first. Exact reward quest ID not identified.",
+   "where": "Tanglewood Fort (Briarwood); the wiki Tanglewood Fort page lists Commander [Kluggenkrush] among its bosses",
+   "price": null,
+   "currency": null,
+   "source": "locale:39526 (\"Earn the Clockwork Cowboy Backpack when you complete this campaign. Make sure you have already purchased and completed 'Campaign 5: Hot Springs Haven'\"); locale:91709 ('Defeat Commander Kluggenkrush!'); wiki page \"Tanglewood Fort\" (Bosses list)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Cowboy Bowler",
+  "item_locale_id": 18300,
+  "record": "quest-lines/citems.json cclockwork-cowboy-bowler-18300",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Earned by completing Campaign 4: Lakeshore Shenanigans (the Unga Frostclaw Hot Springs campaign objective text); requires having purchased and completed that campaign",
+   "where": "Hot Springs (Campaign 4 chain)",
+   "price": null,
+   "currency": null,
+   "source": "locale:39525; wiki page '[Campaign] 4: Lakeshore Shenanigans' (listed in lookup wiki results, not fetched)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Cowboy Getup",
+  "item_locale_id": 18297,
+  "record": "quest-lines/citems.json cclockwork-cowboy-getup-18297",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Reward for completing a Sanctuary campaign about a plot against the queen, after 'Campaign 6: Tanglewood Fort' is purchased and completed. The campaign number is not named in the text; the 'Campaign 7: Queen's Last Hope' link in the earlier answer is unconfirmed and dropped.",
+   "where": "Sanctuary",
+   "price": null,
+   "currency": null,
+   "source": "locale:39527 (quest_objective: 'Earn the Clockwork Cowboy Getup when you complete this campaign... already purchased and completed “Campaign 6: Tanglewood Fort”')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Clockwork Cowboy Gloves",
+  "item_locale_id": 18299,
+  "record": "quest-lines/citems.json cclockwork-cowboy-gloves-18299",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Reward for completing 'Campaign 3: Change of Heart' (the campaign ends with Queen Verda; requires having already purchased and completed Campaign 3)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "locale:39524"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Copper Bar",
+  "item_locale_id": 104,
+  "record": "quest-lines/citems.json ccopper-bar-104",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest \"Your First Weapon\" (Cleetus Farnum), acceptance grant of 10 Copper Bars (with 5 Turquoise, 5 Wooden Planks, 5 Thorny Fasteners)",
+   "where": "Farnum's Farm, Southern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "wiki Quest:Your First Weapon rev 27815 (reward section not re-read in this pass; grant figure also in repo:scripts/prepare-forging-campaign.py:73 and repo:prototype/osfr-tools/data/content/npcs/farnum_farmstead.json:1221)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Crash Cup",
+  "item_locale_id": 402399,
+  "record": "quest-lines/citems.json ccrash-cup-402399",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Demolition Derby Driver questline completion, per the wiki only. The wiki cites a 2010 fan blog and names no quest or NPC. Not verified against quest data.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Crash Cup' (citing http://thefriendlynecromancer.blogspot.com/2010/09/incognito.html)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Faintly Glowing Blue Flair Shard",
+  "item_locale_id": 386226,
+  "record": "quest-lines/citems.json cfaintly-glowing-blue-flair-shard-386226",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completion of the quest \"You Can't Steal What's Already Yours\" (reward item not named in client quest text; quest giver unconfirmed)",
+   "where": "Robgoblin camp near the Snowhill Warpstone (objective location only, not confirmed as giver location)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page \"Faintly Glowing Blue Flair Shard\" (acquired by completing the quest); quest title locale:77573; objectives locale:77574, 77580, 77581, 77582; completion dialog locale:77575 (\"Take this for your troubles\", names no item)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Faintly Glowing Green Flair Shard",
+  "item_locale_id": 386227,
+  "record": "quest-lines/citems.json cfaintly-glowing-green-flair-shard-386227",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest: Please Save My Pig (Forest Troll Village; rescue Trogger's pig Porky from the Forest Troll Fort)",
+   "where": "Forest Troll Village / Forest Troll Fort",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Faintly Glowing Green Flair Shard' (\"It is acquired by completion of the quest Quest:Please Save My Pig\"); locale:20978 (quest title), locale:20979 (objective)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Faintly Glowing Orange Flair Shard",
+  "item_locale_id": 386228,
+  "record": "quest-lines/citems.json cfaintly-glowing-orange-flair-shard-386228",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest: Stay with the Group! (completion grants the shard); quest giver not named by any unflagged source",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Faintly Glowing Orange Flair Shard (\"It is acquired by completion of the quest Quest:Stay with the Group!\"); quest title locale:21749"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Faintly Glowing Pink Flair Shard",
+  "item_locale_id": 386229,
+  "record": "quest-lines/citems.json cfaintly-glowing-pink-flair-shard-386229",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest \"I'm Chopping Mad\" (completion grants the shard; reward row in quest data not checked)",
+   "where": "Tanglewood (quest area)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Faintly Glowing Pink Flair Shard (\"It is acquired by completion of the quest Quest:I'm Chopping Mad\"); locale:45066 (quest title)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Faintly Glowing Purple Flair Shard",
+  "item_locale_id": 386230,
+  "record": "quest-lines/citems.json cfaintly-glowing-purple-flair-shard-386230",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Science Experiment (wiki-only; the wiki says the shard is acquired by completing this quest; the quest reward is not confirmed by repo quest data)",
+   "where": "Mugwort's Hollow",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Faintly Glowing Purple Flair Shard' (acquisition text); quest title locale:90474 'Science Experiment'; turn-in line locale:90476 [quest_dialog | Mugwort's Hollow | Science Experiment]"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Faintly Glowing Red Flair Shard",
+  "item_locale_id": 386231,
+  "record": "quest-lines/citems.json cfaintly-glowing-red-flair-shard-386231",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest \"Hidden in Mugwort's Hollow\" (Shrouded Glade quest line). Quest objective: retrieve power stones from Mugwort's Hollow for Ceard Bauchlog. Turn-in NPC not confirmed.",
+   "where": "Shrouded Glade / Mugwort's Hollow (west of Shrouded Glade)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page \"Faintly Glowing Red Flair Shard\" (acquired by completing the quest); locale:90572 (quest title); locale:90576 (objective naming Ceard Bauchlog); locale:90568 (Mugwort's Hollow, west of Shrouded Glade); locale:5704 (Mugwort's Hollow)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Gloamstone Hoverboard",
+  "item_locale_id": 387,
+  "record": "quest-lines/citems.json cgloamstone-hoverboard-387",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Granted on completing the Card Duelist: Baron von Darkcheat TCG questline; the reward string (client 520919097, 'Gloamstone hoverboard') is held by the final step, Card Duelist: Meet the Boss (quest row 56). The completion image is filed under Card Duelist: Baron von Darkcheat (row 51), so the grant quest name is not fully settled.",
+   "where": "Blackspore Swamp, then Seaside (per Meet the Boss row, repo notes); Snowhill per the Baron row 51 (conflict, unresolved)",
+   "price": null,
+   "currency": null,
+   "source": "repo:notes/Build Guides/Content/Jobs/Card Duelist.md:163 (client 520919097); repo:notes/Build Guides/Content/Jobs/Card Duelist.md:151; wiki: Baron von Darkcheat (character) ('the Gloamstone becomes an obtainable hoverboard for players who complete the questline'); wiki: Rides ('Only available by completing Baron Von Darkcheat TCG Questline'); wiki image: Gloamstone Hoverboard Obtained.png"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Gummyfruit Sample",
+  "item_locale_id": 148528,
+  "record": "quest-lines/citems.json cgummyfruit-sample-148528",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Farming 101 (Mae Farnum): 'Goal Complete' reward line shows 3 Gummyfruit Samples alongside the Bundle of Gummyfruit; treat as a tutorial quest reward, not confirmed as the only source",
+   "where": "Farnum's Farm",
+   "price": null,
+   "currency": null,
+   "source": "video:3caQP-As968/00620.jpg (reward text 'You receive 3 Gummyfruit Samples'); repo:notes/Build Guides/Content/Jobs/Chef.md (E5 Farming 101)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Hardwood Celestial Necklace",
+  "item_locale_id": 69674,
+  "record": "quest-lines/citems.json chardwood-celestial-necklace-69674",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Cook-off Catastrophe (quest title 2620912414, given by Teaspoon Tarisa): the reward line 'You receive 1 Hardwood Celestial Necklace' appears during the fight where the player must knock out the Prince of Low Tide. Quest-run video shows it as a separate reward from the 5 coins and 3 Unmoving Orbs.",
+   "where": "Seaside (Prince of Low Tide fight, green misty grove with blue pond)",
+   "price": null,
+   "currency": null,
+   "source": "video:506rO_mhaSs/00102; video:506rO_mhaSs/00152; repo:notes/Build Guides/Content/Dungeons/Prince of Low Tide.md line 57; repo:notes/Build Guides/Content/Jobs/Chef.md line 184"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Heart T-Shirt",
+  "item_locale_id": 105519,
+  "record": "quest-lines/citems.json cheart-t-shirt-105519",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest 'Intentions Misunderstood' (locale:389265), given by Wernald; the player finds the kids Wernald scared off his lawn and explains his intentions (locale:389266, locale:389312, locale:389264)",
+   "where": "Seaside",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Heart T-Shirt' (https://freerealms.wiki/wiki/Heart_T-Shirt); locale:389265; locale:389266"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Holiday Party Mystery Gift",
+  "item_locale_id": 4633,
+  "record": "quest-lines/citems.json choliday-party-mystery-gift-4633",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest:Winter Party, given by Tiger the Party Animal (repeatable). The wiki Quest2 'first reward' field names Holiday Party Mystery Gift; the page's image is Holiday_party_mystery_gift.jpg. Reward is given for wearing a winter holiday outfit and speaking to Tiger during a Winter Party community event.",
+   "where": "Winter Party community event (2010 Winter Community Parties)",
+   "price": null,
+   "currency": null,
+   "source": "wiki:Quest:Winter Party (rev 35916, Quest2 first reward field); freerealms-wiki/wikitext/12098-35916-ddc1bdf97d31.wiki; wiki:Snow Days (Winter Community Parties held in 2010, Tiger gave out Winter Party)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Jack-In-The-Box",
+  "item_locale_id": 132566,
+  "record": "quest-lines/citems.json cjack-in-the-box-132566",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Rob Robbie Daily, Day 7 chest (after 7 consecutive days). The 7th Day Chest Items list includes '1 Jack-In-The-Box'. It is one random result from a pool of housing and Station Cash items, with no chance given.",
+   "where": "Camp Robbie, Robbie's Tent",
+   "price": null,
+   "currency": null,
+   "source": "Quest:Rob Robbie Daily wiki page, wikitext revision 23902 lines 19 and 21-32 (freerealms-wiki/wikitext/7326-23902-e7ea599f40c4.wiki)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Jack-O-Lantern Outfit",
+  "item_locale_id": 119203,
+  "record": "quest-lines/citems.json cjack-o-lantern-outfit-119203",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Special TCG Halloween quest (Rose in Pixiewood Hills, won in a TCG game), unlocked by buying a TCG Quest Pack; the other quest reward from the same pack is the Chiller Boombox",
+   "where": "Super Spooktacular (Halloween event), Pixiewood Hills",
+   "price": null,
+   "currency": null,
+   "source": "http://www.freerealms.com:80/article/detail.action?articleId=476; http://www.freerealms.com:80/article/detail.action?articleId=1854; http://www.freerealms.com:80/article/detail.action?articleId=2304 (Rose quest: 'win her jack-o-lantern costume'); wiki page Jack-O-Lantern Outfit; wiki page Super Spooktacular"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Juice Blender",
+  "item_locale_id": 132522,
+  "record": "quest-lines/citems.json cjuice-blender-132522",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Rob Robbie Daily (Errand, repeatable once per day) at Robbie's Tent, Camp Robbie. Juice Blender is listed once in the junkpile reward item list (alongside Gumball Machine, Jack-In-The-Box, Jukebox, Fluffy Cloud, Launch Pads, Fall-away Blocks).",
+   "where": "Camp Robbie (Robbie's Tent)",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Quest:Rob Robbie Daily (ns112), item list; drop weight/chance not stated on the page"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Key to the City",
+  "item_locale_id": 67177,
+  "record": "quest-lines/citems.json ckey-to-the-city-67177",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Snowhill quest 'Key to the City', reward from Mayor Crystalline (reward dialog: 'I'd like to reward you the Key to the City')",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "locale:93195; locale:93197; wiki page 'Mayor Crystalline' (lists Quest:[Key] to the City)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Lightning Cup",
+  "item_locale_id": 20065,
+  "record": "quest-lines/citems.json clightning-cup-20065",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Kart Driver quest 'Kart Driver: SG Tour 400: Tangletrack' (row 46 of the SG Tour 400 series; final race vs Kade Carmichael). Reward NPC is inferred (Kade Carmichael) and unconfirmed. Requires Level 1 Kart Driver.",
+   "where": "Tangletrack Speedway, Briarwood",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Lightning Cup' (acquired by completion of 'Kart Driver: SG Tour 400: Tangletrack'); wiki file 'File:Lightning cup.jpg' ('Questline end weapon of the kart driver'); repo:prototype/osfr-tools/data/content/quests/kart_driver.json:2326; repo:notes/Build Guides/Content/Jobs/Kart Driver.md:116,123; locale:101493; repo:notes/Build Guides/Content/NPCs/NPCs - Briarwood.md:138"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Luau Party Favor",
+  "item_locale_id": 4548,
+  "record": "quest-lines/citems.json cluau-party-favor-4548",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Tiger the Party Animal's quest 'A Luau' (first reward; quest needs a luau outfit equipped and a talk with Tiger during a Luau Community Event); wiki-sourced only, no server reward table yet",
+   "where": "Seaside",
+   "price": null,
+   "currency": null,
+   "source": "freerealms-wiki/wikitext/10694-31362-cd5d5558d210.wiki line 2 (Quest:A Luau infobox 'first reward = Luau Party Favor'); freerealms-wiki/harvest/lists/quests.json:118; wiki page ns112 Quest:A Luau; locale:422864; locale:422866"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Medium Launch Pad",
+  "item_locale_id": 6179,
+  "record": "quest-lines/citems.json cmedium-launch-pad-6179",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Rob Robbie Daily: 'Take something from Robbie's abandoned junkpile?' (Errand, repeatable once per day). The reward list includes '1 [Medium] [Launch] [Pad]' alongside about a dozen other housing items; drop odds and whether it is a single pick are not stated.",
+   "where": "Robbie's Tent, Camp Robbie",
+   "price": null,
+   "currency": null,
+   "source": "wiki Quest:Rob Robbie Daily (ns112) reward list and location section"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Milk Carton",
+  "item_locale_id": 154090,
+  "record": "quest-lines/citems.json cmilk-carton-154090",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Milk Rocks (quest id 594), NPC Perry, wiki-only and unconfirmed: the wiki says the carton was originally acquired by completing this quest. Client text 403234 describes the carton as the contest prize Perry wants to win, not a confirmed player reward. The repo has no reward row for quest 594. Quest is retired per the wiki (date unknown).",
+   "where": "Sanctuary (south of Snowhill)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Milk Carton'; locale:403234; repo notes/Research/original-activity-coverage.json (quest 594, missing-implementation)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Molten Dragon Blade",
+  "item_locale_id": 384117,
+  "record": "quest-lines/citems.json cmolten-dragon-blade-384117",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Ninja: Restoring Honor (quest completion; wiki-only link, not confirmed in client text)",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "Wiki page 'Molten Dragon Blade' (\"acquired by completion of the quest Ninja: Restoring Honor\"); repo:notes/Build Guides/Content/Jobs/Ninja.md:141 marks the link as Unproven"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Amateur Demo Derby Pants",
+  "item_locale_id": 69389,
+  "record": "quest-lines/citems.json cn-amateur-demo-derby-pants-pl-amateur-demo-derby-pants-69389",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Not a quest reward in the evidence. Demo Derby Driver job gear: the item is the rank-4 representative of the Demo Derby Driver gear table (rank gate MinProfileRank 4, 5 catalogue rows at that rank). This gates purchase by job rank; it does not name a vendor or a grant.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "repo:prototype/osfr-tools/src/restoration/piece_041.rs:160 (rank_unlock(4, 622, 69389, \"Amateur Demo Derby Pants\", 5)); repo:prototype/osfr-tools/src/restoration/piece_041.rs:1-22 (job gear class 22, ranks gate catalogue rows)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Board Shorts",
+  "item_locale_id": 106634,
+  "record": "quest-lines/citems.json cn-board-shorts-pl-board-shorts-106634",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Scaredy Pants (members-only follow-up quest to Horrible Hiccups, given by Cutes Dozen; wiki rewards 10 coins and Board Shorts)",
+   "where": "Seaside, Luxurious Oceanfront Homes",
+   "price": null,
+   "currency": null,
+   "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:10635; wiki Quest:Scaredy Pants; repo notes/Build Guides/Content/NPCs/NPCs - Seaside.md:81"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Feisty Fighter Pants",
+  "item_locale_id": 44440,
+  "record": "quest-lines/citems.json cn-feisty-fighter-pants-pl-feisty-fighter-pants-44440",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Bixies Gone Bad (locale 15335), given by Sunflower; final reward from the Bixie Hive instance run (the Feisty Fighter Pants are listed among the rewards alongside Reflex Hammer and Short Bow)",
+   "where": "Southwest of Sanctuary; instance (Bixie Hive)",
+   "price": null,
+   "currency": null,
+   "source": "refs articles/quests.json lines 1459-1478 (Bixies Gone Bad rewards list includes 'Feisty Fighter Pants'); http://www.tentonhammer.com:80/node/67379 (guide run: Ralsu received a Reflex Hammer, Short Bow and Feisty Fighter Pants)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Heroic Champion Breeches",
+  "item_locale_id": 136890,
+  "record": "quest-lines/citems.json cn-heroic-champion-breeches-pl-heroic-champion-breeches-136890",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Bixie Queen (NPC) reward; quest name not identified in the evidence. Video frame shows 'You receive 1 Heroic Champion Breeches' and 'You receive 15 coins' in the Bixie Hive",
+   "where": "Bixie Hive",
+   "price": null,
+   "currency": null,
+   "source": "video:G_ae2dL1V2c/00114.jpg"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Heroic Champion Pauldrons",
+  "item_locale_id": 136995,
+  "record": "quest-lines/citems.json cn-heroic-champion-pauldrons-pl-heroic-champion-pauldrons-136995",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Reward for completing the Brawler (level 7) objective 'Defeat Brugo!' (locale 130377; the duel with Brugo, see video:bLxqx_aCizY/00112 for the 'Brugo's Fishing Spot' quest). Reward line: 1 Heroic Champion Pauldrons, 12 stars, 54 coins. Quest title not confirmed: locale 130377 is tagged to 'Alchemy of Betrayal' (130376) in client text, but the frame does not show a title and several quests share that name.",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "video:bLxqx_aCizY/00170.jpg; locale:130377; video:bLxqx_aCizY/00112.jpg"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Orange-Strapped Flip-Flops",
+  "item_locale_id": 105799,
+  "record": "quest-lines/citems.json corange-strapped-flip-flops-105799",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest 'Horrible Hiccups' (start: Slinky, Luxurious Oceanfront Homes), the quest's first reward slot; requires an active Membership",
+   "where": "Seaside",
+   "price": null,
+   "currency": null,
+   "source": "wiki Quest:Horrible Hiccups (template field 'first reward: Orange-Strapped Flip-Flops'; revision 28768; refs freerealms-wiki/quest-pages.json line 231, as reported in the evidence pack; https://freerealms.fandom.com/wiki/Quest:Horrible_Hiccups)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pathfinder's Hat",
+  "item_locale_id": 2638,
+  "record": "quest-lines/citems.json cpathfinder-s-hat-2638",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Run off the Robgoblins (quest from Shana; defeat Robgoblin Boomers near the Durango Zoo, Wilds)",
+   "where": "The Wilds",
+   "price": null,
+   "currency": null,
+   "source": "video:45PgwOt0gMI/00024.jpg (reward line 'You receive 1 [Pathfinder]'s Hat' with the quest text)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Penguin Badge",
+  "item_locale_id": 3258,
+  "record": "quest-lines/citems.json cpenguin-badge-3258",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Penguin Hatchery penguin hunt: catch the five escaped penguins (Penga, Pengi, Penge, Pengy, Pengu) and return to the Penguin Hatchery keeper, who awards the badge ('You found them all! ... I hereby award you with this Penguin Badge'). Keeper is unnamed in the client; 'Valinda' is linked only by hint and not confirmed.",
+   "where": "Snowhill (Penguin Hatchery, locale:4808)",
+   "price": null,
+   "currency": null,
+   "source": "locale:3109 (quest_reward, hint Penguin Hatchery); locale:3105 (quest objective); locale:3108 and 3111 (quest dialog); locale:4808 (place Snowhill Penguin Hatchery)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pet Party Favor",
+  "item_locale_id": 4549,
+  "record": "quest-lines/citems.json cpet-party-favor-4549",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Tiger the Party Animal, quest 'Party for Pets' (repeatable), first reward. Tiger spawns only during Pet Party Community Events; the quest asks the player to bring a pet to the party.",
+   "where": "Pet Party Community Event (zone varies; Referees host several per month)",
+   "price": null,
+   "currency": null,
+   "source": "wiki Quest:Party for Pets (ns112) infobox 'first reward = Pet Party Favor' (freerealms-wiki/wikitext/10674-31275-84d721e440f1.wiki line 2); wiki Quest:Party for Pets Requirements; locale:422870 (quest_objective: 'He'll give you a party favor, if you bring a pet'); locale:422868 ('I'll give you a party favor too!')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pro Archer Bow",
+  "item_locale_id": 13551,
+  "record": "quest-lines/citems.json cpro-archer-bow-13551",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completion of the quest Archer: A Stunning Effect",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Pro Archer Bow' (text: 'It was previously acquired by completion of the quest Archer: A Stunning Effect'); lookup of wiki 'Archer' page lists 'Archer: A Stunning Effect' in the Archer quest chain"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pro Brawler Hammer",
+  "item_locale_id": 11228,
+  "record": "quest-lines/citems.json cpro-brawler-hammer-11228",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Brawler: One Man's Junk... (title locale 141010, quest 3030028, giver Nurble, NPC 9000000415); the wiki says the hammer was previously acquired by completing this quest. Reward is wiki-only: brawler.json:1631-1632 has empty objectives and rewards",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "Wiki page 'Pro Brawler Hammer' (ns0): 'previously acquired by completion of the quest Brawler: One Man's Junk...'; repo:prototype/osfr-tools/data/content/quests/brawler.json:1624-1632"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pro Medic Saw",
+  "item_locale_id": 13809,
+  "record": "quest-lines/citems.json cpro-medic-saw-13809",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completion of the quest Medic: Dewpetal Tea (locale:74713); wiki-only claim, the wiki page is the only source that names the saw as the reward",
+   "where": null,
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Pro Medic Saw"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Pro Ninja Scythe",
+  "item_locale_id": 10310,
+  "record": "quest-lines/citems.json cpro-ninja-scythe-10310",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Ninja: Troubled Waters (client quest title locale:78869; Snowhill quest, giver Chloe/Frostpetal per wiki)",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "wiki page 'Pro Ninja Scythe' (\"previously acquired by completion of the quest Ninja: Troubled Waters\"); locale:78869"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Robgoblin T-Shirt",
+  "item_locale_id": 2503,
+  "record": "quest-lines/citems.json crobgoblin-t-shirt-2503",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Shift Swap (Seaside quest, given by Kendall; minigame 'Beat the Shift Swap minigame'). Wiki says the shirt is acquired on completion of this quest. The quest reward itself is not confirmed in repo data (no quest file match for 'Shift Swap').",
+   "where": "Seaside",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Robgoblin T-Shirt; locale:389253, locale:389254, locale:389252, locale:390963"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Royal Guard Tabard",
+  "item_locale_id": 142547,
+  "record": "quest-lines/citems.json croyal-guard-tabard-142547",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Chapter 1: The Queen's Last Hope (Adventurer E22, boss Geoffrey, antidote for Queen Valerian)",
+   "where": "Briarheart Palace per Adventurer note E22 row (wiki-derived); the E22 quotes place the antidote delivery in the Royal Palace, so the exact zone is unresolved",
+   "price": null,
+   "currency": null,
+   "source": "wiki page \"Royal Guard Tabard\" (\"acquired by completion of the quest 'Chapter 1: The Queen's Last Hope'\"); wiki file captions File:Royal guard tabard.jpg and File:Royal guard tabard worn.png (\"Unlocked by finishing [royal] questline\"); notes/Build Guides/Content/Jobs/Adventurer.md:145 and :243"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Shimmering Air Triangle Shard",
+  "item_locale_id": 96329,
+  "record": "quest-lines/citems.json cshimmering-air-triangle-shard-96329",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Peep's Missing Bowl (Adventurer B4), given by Uncle Irving at Farnum Farmstead; reward of 1 Shimmering Air Triangle Shard",
+   "where": "Farnum Farmstead",
+   "price": null,
+   "currency": null,
+   "source": "notes/Build Guides/Content/Jobs/Adventurer.md:92 (quote from video 3JXpHghLOTs/00014: Uncle Irving \"You found it! I'm sure we'll have a very thankful sheep dog.\"); video:3JXpHghLOTs/00014"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Skullz Chopper",
+  "item_locale_id": 442318,
+  "record": "quest-lines/citems.json cskullz-chopper-442318",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Completion of the Rumbledome TCG Questline (reward at the questline's conclusion; the video frame shows the reward message 'You receive 1 Skullz Chopper' with the Rumbledome trophy and Madam Zelda's nameplate)",
+   "where": "Sunstone Valley (Rumbledome TCG)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page: Rides (ns0) 'Skullz Chopper: Mechanical ride, Acquired by finishing the Rumbledome TCG Questline'; wiki blog 'User blog:Soe amnerys/ First Look: TCG Set 5 Rumbledome Loot' (questline reward is the [Skullz] Choppa at its conclusion); video:2nq801iM8kU/00202 frame"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Slick Tires",
+  "item_locale_id": 114884,
+  "record": "quest-lines/citems.json cslick-tires-114884",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Kart Driver: A Helping Hand (Linx Redline / Chase Wheeler's kart, Thunder Falls Speedway tier 3, quest row 23). Player returns Linx's stolen parts; the NPC lets you keep the slick tires.",
+   "where": "Thunder Falls Speedway (Lakeshore)",
+   "price": null,
+   "currency": null,
+   "source": "locale:394694 (quest_dialog: \"You got my parts! ... Oh, you can keep these slick tires.\"); repo:prototype/osfr-tools/data/content/quests/kart_driver.json:1288; notes/Build Guides/Content/Jobs/Kart Driver.md row 23"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Slugmud Surprise Recipe",
+  "item_locale_id": 1518,
+  "record": "quest-lines/citems.json cslugmud-surprise-recipe-1518",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Glerga's Slugmud Surprise cooking quest line (Robgoblin delicacy): NPC hands over the recipe after the secret-ingredient dialog ('You now have the recipe for Slugmud Surprise')",
+   "where": "Snowhill / Robgoblin Camp area",
+   "price": null,
+   "currency": null,
+   "source": "locale:24245; locale:24892"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Slugmud Surprise Recipe",
+  "item_locale_id": 1518,
+  "record": "quest-lines/citems.json cslugmud-surprise-recipe-1518",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Fizzlesticks: refused-payment turn-in gives you the recipe ('Take this recipe. It may help you someday.')",
+   "where": "Lakeshore area (repo lakeshore.json:11922)",
+   "price": null,
+   "currency": null,
+   "source": "locale:9904; repo:prototype/osfr-tools/data/content/npcs/lakeshore.json:11922"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Sparkling Banana",
+  "item_locale_id": 96662,
+  "record": "quest-lines/citems.json csparkling-banana-96662",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Cella Cedarnook's quest 'Something to Snack On' (quest id 1625, title locale 389648), reward bundle entry of 5 x item definition 31256 (Sparkling Banana)",
+   "where": "Shrouded Glade",
+   "price": null,
+   "currency": null,
+   "source": "refs:rust-opening/quest-inventory.json:745-757 (RewardBundleEntries Unknown2=96662, Unknown4=31256, Unknown3=5); refs:notes/Research/original-quest-coverage.json:566-572 (reward_refs item_definition 31256, quantity 5); client locale:389649 (quest text)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Spectral Spectacles",
+  "item_locale_id": 119241,
+  "record": "quest-lines/citems.json cspectral-spectacles-119241",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Greyli Dustywings, 'A Trip to the Swamp' (Super Spooktacular). Wiki-reported only and unconfirmed. Client text casts the spectacles as a quest prop Greyli wants recovered from Ethan and returned, not as a reward. Treat as a candidate until a reward or quest-complete line confirms it.",
+   "where": "Blackspore (recovery from Ethan, locale:415320); return to Greyli just outside Sanctuary (locale:415991). Wiki places the quest giver in Queensfields, which the client text does not confirm.",
+   "price": null,
+   "currency": null,
+   "source": "wiki: Super Spooktacular (lists 'A Trip to the Swamp from [Greyli] [Dustywings] in Queensfields' and '[Spectral] [Spectacles] from [Greyli] [Dustywings]'); locale:415320; locale:415991; locale:416126"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Spice",
+  "item_locale_id": 23310,
+  "record": "quest-lines/citems.json cspice-23310",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Farming 101 (Mae Farnum): quest reward of 4 Spices, given alongside 4 Bat Meats, 4 Bundles of Gummyfruit and 4 Bundles of Rainleaf for the Strong Arm Stew step",
+   "where": "Farnum Farmstead / Sanctuary area (Mae Farnum nameplate Merchant)",
+   "price": null,
+   "currency": null,
+   "source": "video:3caQP-As968/00638.jpg (quest lines 'You receive 4 Spices')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Standard Candy Cart",
+  "item_locale_id": 132525,
+  "record": "quest-lines/citems.json cstandard-candy-cart-132525",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest 'Rob Robbie Daily' (Camp Robbie, Robbie's Tent), Day 7 of 7 consecutive days, buried chest reward '1 Standard Candy Cart' under '7th Day Chest Items'",
+   "where": "Camp Robbie, Robbie's Tent",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Quest:Rob Robbie Daily (revid 23902), wikitext line 40 (freerealms-wiki/wikitext/7326-23902-e7ea599f40c4.wiki:40)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Strong Arm Stew",
+  "item_locale_id": 1232,
+  "record": "quest-lines/citems.json cstrong-arm-stew-1232",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Tutorial quest 'Farming 101' (Mae Farnum) hands out the four ingredients and has the player make the stew; it is not a reward of the stew itself",
+   "where": "Farnum's Farm, Cooking Table",
+   "price": null,
+   "currency": null,
+   "source": "video:3caQP-As968/00644 (Farming 101 goal 'Make Strong Arm Stew'); repo:notes/Build Guides/Content/Jobs/Chef.md:72. Not counted as a source of the item; listed for context only."
+  },
+  "store_row": null
+ },
+ {
+  "item": "Suspension Bridge",
+  "item_locale_id": 29553,
+  "record": "quest-lines/citems.json csuspension-bridge-29553",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest: Rob Robbie Daily, Day 7 chest (7 consecutive days): a random Station Cash/housing item from the 7th Day Chest list, which includes 1 Suspension Bridge",
+   "where": "Camp Robbie, Robbie's Tent (Robgoblin Junkpile chest)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Quest:Rob Robbie Daily (ns112), Reward and '7th Day Chest Items' sections; freerealms-wiki/wikitext/7326-23902-e7ea599f40c4.wiki lines 14, 19, 46"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Tacky Reindeer Sweater",
+  "item_locale_id": 134461,
+  "record": "quest-lines/citems.json ctacky-reindeer-sweater-134461",
+  "source": {
+   "type": "quest_reward",
+   "detail": "\"An Unexpected Gift\" (Candi Ivy, Snowman Showdown area): returned to Candi Ivy after a Gifting Tree gift; the reward line reads 'You receive 1 [Tacky] [Reindeer] [Sweater]' alongside a Mini Holiday Tree",
+   "where": "Snowhill",
+   "price": null,
+   "currency": null,
+   "source": "video:2fhn8kePbKQ/00504.jpg"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Team Werewolf T-Shirt",
+  "item_locale_id": 14694,
+  "record": "quest-lines/citems.json cteam-werewolf-t-shirt-14694",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Team Werewolf bundle, a bundle that comes with a Black Werewolf Outfit, a Black Wolf Pet, an exclusive Werewolf Tail and a Team Werewolf T-Shirt. Whether the bundle is a quest reward or a purchase is not confirmed.",
+   "where": "Blackspore Swamp",
+   "price": null,
+   "currency": null,
+   "source": "locale:432415 (tagged quest_reward)"
+  },
+  "store_row": null
+ },
+ {
+  "item": "The Rumbler",
+  "item_locale_id": 384120,
+  "record": "quest-lines/citems.json cthe-rumbler-384120",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Brawler: Paying your Dues (client title locale 76265; wiki: 'acquired by completion of the quest Brawler: Paying Your Dues'). Repo notes (Brawler.md:163, step M24) say the quest is given by Rourke Ironfist, members only (wiki-sourced), requires a donation to Brawler Club and player-gathered materials, and list The Rumbler as the only known quest item reward (Brawler.md:252). Coins/XP for the quest are unknown.",
+   "where": "Unverified. Wiki and notes say Lakeshore (Rourke Ironfist). Client does not confirm the giver or zone.",
+   "price": null,
+   "currency": null,
+   "source": "https://freerealms.fandom.com/wiki/The_Rumbler; locale:76265; repo:notes/Build Guides/Content/Jobs/Brawler.md:163 and :252"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Urgent Care Medic Cap",
+  "item_locale_id": 133095,
+  "record": "quest-lines/citems.json curgent-care-medic-cap-133095",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Robgoblin Treasure Trove, Bonus goal 'Find Wizard Hildegarde's Spellbook!' (gives a random piece of the Antibiotic or Urgent Care set; this cap is one possible slot, not confirmed for the cap specifically)",
+   "where": "Robgoblin Treasure Trove dungeon (Wilds)",
+   "price": null,
+   "currency": null,
+   "source": "wiki page Robgoblin Treasure Trove (per notes/Build Guides/Content/Jobs/Medic.md:181); video qCG_K2piQgE/00014"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wacky Waving Arm Flailing Robbie",
+  "item_locale_id": 31518,
+  "record": "quest-lines/citems.json cwacky-waving-arm-flailing-robbie-31518",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Rob Robbie Daily, 7th Day Chest Items list (the buried chest that opens after 7 consecutive days of the daily). The list names '1 Wacky Waving Arm Flailing Robbie'. The per-chest chance is not stated. It is not a Robgoblin junkpile reward and is not tied to Day 1-6 junkpile tiers.",
+   "where": "Camp Robbie (Robbie's Tent)",
+   "price": null,
+   "currency": null,
+   "source": "wiki Quest:Rob Robbie Daily (page ns112, revision 23902, 2013-06-02; freerealms-wiki/quest-pages.json); quest-lines/packs.json line 92273 ('7th Day Chest Items')"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wand of Spectral Fire",
+  "item_locale_id": 382830,
+  "record": "quest-lines/citems.json cwand-of-spectral-fire-382830",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Wizard: Parts and Labor (Osgood, Sanctuary). The player brings the wand parts and an Orb of Spectral Fire to Osgood, who builds the wand; the reward text says the player 'wields The Wand of Spectral Fire'.",
+   "where": "Sanctuary",
+   "price": null,
+   "currency": null,
+   "source": "https://wiki.freerealms.wiki/wiki/Wand_of_Spectral_Fire (\"acquired by completion of the quest Wizard: Parts and Labor\"); locale:382830; locale:116363 (quest_reward text); locale:116591 (Orb dialog); repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:41660 and :41718"
+  },
+  "store_row": null
+ },
+ {
+  "item": "Wooden Plank",
+  "item_locale_id": 931,
+  "record": "quest-lines/citems.json cwooden-plank-931",
+  "source": {
+   "type": "quest_reward",
+   "detail": "Quest 'Your First Weapon' (Cleetus Farnum, Farnum's Farm): acceptance grants 5 Wooden Planks",
+   "where": "Farnum's Farm, Southern Wilds",
+   "price": null,
+   "currency": null,
+   "source": "wiki Quest:Your First Weapon revision 27815, as quoted in repo:notes/Research/Original Forging.md line 15; repo:notes/Build Guides/Content/Jobs/Blacksmith.md line 66. Wiki-quote only; no client string or live capture confirms the grant"
+  },
+  "store_row": null
+ }
+]

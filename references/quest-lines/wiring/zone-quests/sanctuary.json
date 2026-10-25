@@ -1,0 +1,3659 @@
+{
+ "zone": "Sanctuary",
+ "quests": [
+  {
+   "quest_id": 3000026,
+   "record": "quest-lines/quests.json q3000026",
+   "title": "Farnum's Free Advice",
+   "giver": {
+    "name": "Henry (probable, not bound)",
+    "npc_id": null,
+    "locale_id": 19093
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Seek out Queen Valerian at the Royal Palace in Sanctuary.",
+     "text_locale_id": 391034,
+     "target": "Queen Valerian (NPC 9500000519; does not spawn, not wireable)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Sacred Grove Chapter 1 entry quests (Adventurer entry into Queen Valerian; one of four entry quests, only one needed; sibling titles per Adventurer.md:112-115: Local Hero, Sal's Suggestion, Sharing Your Talents)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 391029,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000028,
+   "record": "quest-lines/quests.json q3000028",
+   "title": "Take a Number",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "See if Pux Frillwillow in Sanctuary's inner circle will let you have his appointment slip.",
+     "text_locale_id": 140659,
+     "target": "Pux Frillwillow",
+     "target_locale_id": 140665,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Adventurer job quest line, Part D (Chapter 1 entry quests)",
+    "previous": [
+     "Local Hero",
+     "Sal's Suggestion",
+     "Farnum's Free Advice",
+     "Sharing Your Talents"
+    ],
+    "next": [
+     "Chapter 1: The Missing Sisters"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 140647,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 395254,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000030,
+   "record": "quest-lines/quests.json q3000030",
+   "title": "Chapter 1: Helping the Healers",
+   "giver": {
+    "name": "Geoffrey",
+    "npc_id": "9000000330",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Gather Ammi Lilies from the countryside around Sanctuary.",
+     "text_locale_id": 90669,
+     "target": "Ammi Lily",
+     "target_locale_id": 91053,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the lilies to Doctor Gordon in Sanctuary's inner circle",
+     "text_locale_id": 90672,
+     "target": "Doctor Gordon",
+     "target_locale_id": 7610,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Completion text only; no coin, XP or item amount found in client text",
+     "source": "locale:90661"
+    }
+   ],
+   "line": {
+    "name": "Chapter 1 (Adventurer quest line, Part E)",
+    "previous": [
+     "Chapter 1: The Missing Sisters"
+    ],
+    "next": [
+     "Chapter 1: Good Help is Hard to Find"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90658,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 90663,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 90661,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3000031,
+   "record": "quest-lines/quests.json q3000031",
+   "title": "Chapter 1: Good Help is Hard to Find",
+   "giver": {
+    "name": "Geoffrey",
+    "npc_id": "9000000330",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with General Glowlight",
+     "text_locale_id": 90690,
+     "target": "General Glowlight",
+     "target_locale_id": 7670,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Guard Glibbin",
+     "text_locale_id": 90692,
+     "target": "Guard Glibbin (target id unresolved: no npc id or spawn found)",
+     "target_locale_id": 91091,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Guard Forbi",
+     "text_locale_id": 90694,
+     "target": "Guard Forbi (target id unresolved: no npc id or spawn found)",
+     "target_locale_id": 91093,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Guard Nibbs",
+     "text_locale_id": 90696,
+     "target": "Guard Nibbs (target id unresolved: no npc id or spawn found)",
+     "target_locale_id": 91101,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Guard Verbi",
+     "text_locale_id": 90698,
+     "target": "Guard Verbi (target id unresolved: no npc id or spawn found)",
+     "target_locale_id": 91094,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chapter 1 (Royal Advisor Geoffrey chain, Adventurer Part E)",
+    "previous": [
+     "Chapter 1: Helping the Healers"
+    ],
+    "next": [
+     "Chapter 1: Thugamug's Thievery"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90683,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90686,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000035,
+   "record": "quest-lines/quests.json q3000035",
+   "title": "Chapter 1: The Forgotten Princess",
+   "giver": {
+    "name": "Geoffrey",
+    "npc_id": "9000000330",
+    "locale_id": 70318
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Why is there little to no mention of Darkthorne in the annals of history? Perhaps a learned resident of Sanctuary knows more.",
+     "text_locale_id": 90794,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Ask residents of Sanctuary about Darkthorne.",
+     "text_locale_id": 90797,
+     "target": "residents of Sanctuary",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Ask about Darkthorne",
+     "text_locale_id": 90807,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "no reward amount found in client or wiki; repo:notes/Build Guides/Content/Jobs/Adventurer.md row E7 gives none"
+    }
+   ],
+   "line": {
+    "name": "Adventurer Chapter 1 (Royal Palace campaign)",
+    "previous": [
+     "Chapter 1: Shrouded History"
+    ],
+    "next": [
+     "Chapter 1: Find The Caravan!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 90786,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000039,
+   "record": "quest-lines/quests.json q3000039",
+   "title": "Chapter 1: The Small Wooden Box",
+   "giver": {
+    "name": "Vittorio",
+    "npc_id": "9000000232",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find the fort guard who has possession of the wooden box.",
+     "text_locale_id": 90862,
+     "target": "Lieutenant Snibug",
+     "target_locale_id": 17913,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Find Lieutenant Snibug",
+     "text_locale_id": 90869,
+     "target": "Lieutenant Snibug",
+     "target_locale_id": 17913,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Adventurer Job, Part E: Chapter 1 quest line",
+    "previous": [
+     "Chapter 1: The Armor Shipment"
+    ],
+    "next": [
+     "Chapter 1: There's Fungus Among Us!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90860,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 390624,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000046,
+   "record": "quest-lines/quests.json q3000046",
+   "title": "Chapter 1: Failure is Not an Option",
+   "giver": {
+    "name": "Geoffrey",
+    "npc_id": "9000000330",
+    "locale_id": 70318
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Get the contents of the box back for Geoffrey.",
+     "text_locale_id": 90927,
+     "target": "The Small Wooden Box",
+     "target_locale_id": 90865,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Speak to Captain Chugug in Briarheart",
+     "text_locale_id": 90928,
+     "target": "Captain Chugug",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Enter Briarheart Palace and speak with Darkthorne",
+     "text_locale_id": 90930,
+     "target": "Darkthorne",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text or reward data found for this quest",
+     "source": "open"
+    }
+   ],
+   "line": {
+    "name": "Chapter 1 (Adventurer quest line, Geoffrey's chain)",
+    "previous": [
+     "Chapter 1: Bearer of Bad News"
+    ],
+    "next": [
+     "Chapter 1: One Last Favor"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90921,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000050,
+   "record": "quest-lines/quests.json q3000050",
+   "title": "Chapter 1: The Queen's Last Hope",
+   "giver": {
+    "name": "Darkthorne",
+    "npc_id": "9000000067",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Take Darkthorne's antidote to her sister in the Royal Palace.",
+     "text_locale_id": 90975,
+     "target": "Queen Valerian",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Hurry back to the Royal Palace",
+     "text_locale_id": 90976,
+     "target": "Royal Palace",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Geoffrey",
+     "text_locale_id": 90978,
+     "target": "Geoffrey",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Geoffrey to protect the Queen",
+     "text_locale_id": 90980,
+     "target": "Geoffrey",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Administer the antidote to Queen Valerian",
+     "text_locale_id": 90982,
+     "target": "Queen Valerian",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Queen Valerian",
+     "text_locale_id": 90984,
+     "target": "Queen Valerian",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Honorary membership of the royal guard of Sanctuary, and a special tabard",
+     "source": "locale:90972"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "open: no reward amount in client text or repo"
+    }
+   ],
+   "line": {
+    "name": "Chapter 1 (Adventurer, Darkthorne batch)",
+    "previous": [
+     "Chapter 1: The Alchemy of Betrayal"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90969,
+     "speaker": "Darkthorne"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90972,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000051,
+   "record": "quest-lines/quests.json q3000051",
+   "title": "Belated Bonny",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000445",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Bonny near the water around Sanctuary.",
+     "text_locale_id": 391221,
+     "target": "Bonny",
+     "target_locale_id": 391234,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Frolic Steadywings in the Royal Palace",
+     "text_locale_id": 391226,
+     "target": "Frolic Steadywings",
+     "target_locale_id": 103914,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Adventurer side quests, Part F (non-essential), per Adventurer.md row F1",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 391182,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 391225,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 391185,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020031,
+   "record": "quest-lines/quests.json q3020031",
+   "title": "Blacksmith: The Royal Smithy",
+   "giver": {
+    "name": "Anata Caliburn",
+    "npc_id": "9000000007",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Steelbloom at the smithy in Sanctuary and speak to him.",
+     "text_locale_id": 101646,
+     "target": "Steelbloom",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no reward text found for this quest",
+     "source": "notes/Build Guides/Content/Jobs/Blacksmith.md:138"
+    }
+   ],
+   "line": {
+    "name": "Blacksmith job quest line (guide band 5: Anata Caliburn, rows 26-31)",
+    "previous": [
+     "Blacksmith: Legendary Summersaber"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030034,
+   "record": "quest-lines/quests.json q3030034",
+   "title": "Brawler: I Want My Money!",
+   "giver": {
+    "name": "Sampson Idlefist",
+    "npc_id": "9000000453",
+    "locale_id": 22804
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Steal Jeni Shortfuse's hammer.",
+     "text_locale_id": 39716,
+     "target": "Jeni Shortfuse's hammer",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return the hammer to Sampson (inferred from offer dialog: 'steal her hammer and return it to me')",
+     "text_locale_id": null,
+     "target": "Sampson Idlefist",
+     "target_locale_id": 22804,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler job quest line, main series band 3 (level 10 to 15)",
+    "previous": [
+     "Brawler: Fraudulent Brawler"
+    ],
+    "next": [
+     "Brawler: Achieve Level 15"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 39710,
+     "speaker": "Sampson Idlefist"
+    },
+    "progress": {
+     "locale_id": 39718,
+     "speaker": "Sampson Idlefist"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030038,
+   "record": "quest-lines/quests.json q3030038",
+   "title": "Brawler: Confronting the Crook",
+   "giver": {
+    "name": "Mayor Crystalline",
+    "npc_id": "9000000143",
+    "locale_id": 182
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Sampson Idlefist and expose him for the fraud he really is.",
+     "text_locale_id": 39833,
+     "target": "Sampson Idlefist",
+     "target_locale_id": 22804,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Sampson Idlefist in battle!",
+     "text_locale_id": 100320,
+     "target": "Sampson Idlefist",
+     "target_locale_id": 22804,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Mayor Crystalline in Snowhill",
+     "text_locale_id": 100324,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler main series, band 4 (guide row M19)",
+    "previous": [
+     "Brawler: Providing Proof"
+    ],
+    "next": [
+     "Brawler: Reputation Regained"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 39826,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 39837,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040002,
+   "record": "quest-lines/quests.json q3040002",
+   "title": "Card Duelist: Enter the Champion",
+   "giver": {
+    "name": "Poe Tatters (unverified; build guide and record only)",
+    "npc_id": "9000000170",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat the Card Duelist Practice Deck.",
+     "text_locale_id": 103272,
+     "target": "Sam Potts (training deck)",
+     "target_locale_id": 74093,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Sanctuary line, Sam Potts / Poe Tatters)",
+    "previous": [],
+    "next": [
+     "Card Duelist: Sam I Am"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103262,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 103265,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040003,
+   "record": "quest-lines/quests.json q3040003",
+   "title": "Card Duelist: Sam I Am",
+   "giver": {
+    "name": "Poe Tatters (wiki-sourced, unverified)",
+    "npc_id": "9000000170",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Sam Potts",
+     "text_locale_id": 103515,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Sam Potts to continue your card duelist training. She's somewhere in Sanctuary.",
+     "text_locale_id": 103512,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Sam is easily distracted, and last seen at a birthday party in Sanctuary.",
+     "text_locale_id": 103516,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist job quest line (Sanctuary part 1a)",
+    "previous": [
+     "Card Duelist: Enter the Champion"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 103499,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040004,
+   "record": "quest-lines/quests.json q3040004",
+   "title": "Practice Makes Perfect",
+   "giver": {
+    "name": "Sam Potts",
+    "npc_id": "9000000187",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Sam",
+     "text_locale_id": 103244,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Play and beat Sam's Trick Deck.",
+     "text_locale_id": 103248,
+     "target": "Sam's Trick Deck",
+     "target_locale_id": 92720,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "An unnamed card that is meant to improve the player's game (identity, coins and XP not found)",
+     "source": "locale:103249"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (Sam Potts, Sanctuary)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 103246,
+     "speaker": "Sam Potts"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 103249,
+     "speaker": "Sam Potts"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040005,
+   "record": "quest-lines/quests.json q3040005",
+   "title": "Card Duelist: 52 Card Pick-Up",
+   "giver": {
+    "name": "Sam Potts",
+    "npc_id": "9000000187",
+    "locale_id": 74093
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Pick up the cards nearby for Sam Potts.",
+     "text_locale_id": 103200,
+     "target": "Scattered Duelist Cards (item id unresolved)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Pick up Sam's cards",
+     "text_locale_id": 103201,
+     "target": "Sam's cards",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "[*player*] made a mad dash around Sacred Grove, picking up Sam Potts' scattered deck of cards.",
+     "text_locale_id": 103214,
+     "target": "Sam Potts' scattered deck of cards",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Sam Potts near the tournament board in Sanctuary.",
+     "text_locale_id": 103206,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Sam Potts",
+     "text_locale_id": 103205,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Sanctuary trainer line, giver Sam Potts)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 103207,
+     "speaker": "Sam Potts"
+    },
+    "progress": {
+     "locale_id": 103224,
+     "speaker": "Sam Potts"
+    },
+    "complete": {
+     "locale_id": 103210,
+     "speaker": "Sam Potts"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040006,
+   "record": "quest-lines/quests.json q3040006",
+   "title": "Card Duelist: So Over Archery",
+   "giver": {
+    "name": "Sam Potts",
+    "npc_id": "9000000187",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Seek out Quills and see if beating Sam at a card game does the trick.",
+     "text_locale_id": 103527,
+     "target": "Quills",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Quills can be found at the Town Hall in Sanctuary.",
+     "text_locale_id": 103529,
+     "target": "Town Hall, Sanctuary",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a Card Duelist; Beat Sam's Tournament Deck",
+     "text_locale_id": 103530,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Maybe beating Sam at cards will bring her back to archery.",
+     "text_locale_id": 103531,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Sam Potts",
+     "text_locale_id": 103532,
+     "target": "Sam Potts",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Sam Potts, Sanctuary chain)",
+    "previous": [
+     "Card Duelist: 52 Card Pick-Up"
+    ],
+    "next": [
+     "Card Duelist: Cardie 4 Life"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103534,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 103537,
+     "speaker": "Sam Potts"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040007,
+   "record": "quest-lines/quests.json q3040007",
+   "title": "Card Duelist: Cardie 4 Life",
+   "giver": {
+    "name": "Sam Potts",
+    "npc_id": "9000000187",
+    "locale_id": 74093
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Check the bulletin board next to Sam Potts to see who she was supposed to play in the tournament.",
+     "text_locale_id": 103548,
+     "target": "Bulletin Board",
+     "target_locale_id": 103559,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Challenge Jili at Jacque's Cafe",
+     "text_locale_id": 103549,
+     "target": "Jili",
+     "target_locale_id": 7607,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Battle Card Duelist Jili while she uses her best deck. Be the first to score 12 points to win the match.",
+     "text_locale_id": 92819,
+     "target": "Jili",
+     "target_locale_id": 7607,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Jili should be located up the eastern road in Sanctuary at Jacque's Cafe.",
+     "text_locale_id": 103550,
+     "target": "Jacque's Cafe",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Jili",
+     "text_locale_id": 103551,
+     "target": "Jili",
+     "target_locale_id": 7607,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Sam Potts near the tournament board in Sanctuary.",
+     "text_locale_id": 103206,
+     "target": "Sam Potts",
+     "target_locale_id": 74093,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Poe Tatters",
+     "text_locale_id": 103553,
+     "target": "Poe Tatters",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Meet up with Poe Tatters at the cafe just down the road from Jili.",
+     "text_locale_id": 103554,
+     "target": "Poe Tatters",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none identified",
+     "source": "No reward string in the client cluster or guide; repo record rewards is empty"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (Part 1a, Sanctuary: Poe Tatters and Sam Potts)",
+    "previous": [
+     "Card Duelist: So Over Archery"
+    ],
+    "next": [
+     "Card Duelist: History of the Crew"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103555,
+     "speaker": "Sam Potts"
+    },
+    "progress": {
+     "locale_id": 103562,
+     "speaker": "Sam Potts"
+    },
+    "complete": {
+     "locale_id": 103558,
+     "speaker": "Sam Potts"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040008,
+   "record": "quest-lines/quests.json q3040008",
+   "title": "Card Duelist: History of the Crew",
+   "giver": {
+    "name": "Poe Tatters",
+    "npc_id": "9000000170",
+    "locale_id": 38111
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Talk to people around Sanctuary and learn the story of the Cardie Crew.",
+     "text_locale_id": 103567,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Posey",
+     "text_locale_id": 103569,
+     "target": "Posey",
+     "target_locale_id": 10089,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Buzz",
+     "text_locale_id": 103571,
+     "target": "Buzz",
+     "target_locale_id": 7602,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Guard Banee",
+     "text_locale_id": 103575,
+     "target": "Guard Banee",
+     "target_locale_id": 10079,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Poe",
+     "text_locale_id": 103577,
+     "target": "Poe Tatters",
+     "target_locale_id": 38111,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Sanctuary, Poe Tatters / Sam Potts, Part 1a)",
+    "previous": [
+     "Card Duelist: Cardie 4 Life"
+    ],
+    "next": [
+     "Card Duelist: Half a Deck"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 103579,
+     "speaker": "Poe Tatters"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040009,
+   "record": "quest-lines/quests.json q3040009",
+   "title": "Card Duelist: Half a Deck",
+   "giver": {
+    "name": "Poe Tatters",
+    "npc_id": "9000000170",
+    "locale_id": 103648
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Beat Poe Tatters' Trick Deck to win one of his cards!",
+     "text_locale_id": 103650,
+     "target": "Poe Tatters (Trick Deck)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "one card from Poe Tatters' Trick Deck (win reward)",
+     "source": "locale:103650"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist quest line (Poe Tatters, Sanctuary, Part 1a)",
+    "previous": [
+     "Card Duelist: History of the Crew"
+    ],
+    "next": [
+     "Card Duelist: Poe's Planted Cards"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103648,
+     "speaker": "Poe Tatters"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040010,
+   "record": "quest-lines/quests.json q3040010",
+   "title": "Card Duelist: Poe's Planted Cards",
+   "giver": {
+    "name": "Poe Tatters",
+    "npc_id": "9000000170",
+    "locale_id": 38111
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Poe's cards, hidden in one of the yellow potted plants around Sanctuary.",
+     "text_locale_id": 103706,
+     "target": "yellow potted plants (Sanctuary)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Search the yellow potted plants in Sanctuary to find Poe's hidden cards.",
+     "text_locale_id": 103669,
+     "target": "yellow potted plant",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return the cards to Poe Tatters",
+     "text_locale_id": 103670,
+     "target": "Poe Tatters",
+     "target_locale_id": 38111,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Poe Tatters, Sanctuary part 1a)",
+    "previous": [
+     "Card Duelist: Half a Deck"
+    ],
+    "next": [
+     "Card Duelist: Poe's Best Deck"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103704,
+     "speaker": "Poe Tatters"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 103707,
+     "speaker": "Poe Tatters"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040011,
+   "record": "quest-lines/quests.json q3040011",
+   "title": "Card Duelist: Poe's Best Deck",
+   "giver": {
+    "name": "Poe Tatters",
+    "npc_id": "9000000170",
+    "locale_id": 38111
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Play and defeat Poe's Tournament Deck.",
+     "text_locale_id": 103738,
+     "target": "Poe's Tournament Deck",
+     "target_locale_id": 92727,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Poe Tatters, Sanctuary job quest line)",
+    "previous": [
+     "Card Duelist: Poe's Planted Cards"
+    ],
+    "next": [
+     "Card Duelist: An Old Friend"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103743,
+     "speaker": "Poe Tatters"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 103746,
+     "speaker": "Poe Tatters"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050010,
+   "record": "quest-lines/quests.json q3050010",
+   "title": "Chef: Crazy Craving",
+   "giver": {
+    "name": "Honey",
+    "npc_id": "9000000107",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Honey needs you to collect some Bumbleberry and Gummyfruit from the Queensfields Farm!",
+     "text_locale_id": 71057,
+     "target": "Bumbleberry and Gummyfruit",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef trainer series 1: Cobblestone Village (Simone)",
+    "previous": [
+     "Chef: Queensfields"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 71055,
+     "speaker": "Honey"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 71058,
+     "speaker": "Honey"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3050018,
+   "record": "quest-lines/quests.json q3050018",
+   "title": "Chef: Queensfields",
+   "giver": {
+    "name": "Gavin Greenpetal",
+    "npc_id": "9000000096",
+    "locale_id": 116522
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a chef, find Honey at the Queensfields, southwest of Stillwater Crossing.",
+     "text_locale_id": 116659,
+     "target": "Honey",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef trainer series 3: Stillwater Crossing (Helena line), row S4",
+    "previous": [
+     "Chef: Harvest Hiccup!"
+    ],
+    "next": [
+     "Chef: Meet the Reputable Bordon Cloo"
+    ]
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3050019,
+   "record": "quest-lines/quests.json q3050019",
+   "title": "Chef: Meet the Reputable Bordon Cloo",
+   "giver": {
+    "name": "Honey",
+    "npc_id": "9000000107",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Vaelen near the Snowhill warpstone, northeast of Perry. With the help of a fellow researcher, he's managed to develop a spell that can teleport anyone to any warpstone in the world!",
+     "text_locale_id": 139285,
+     "target": "Vaelen Warpwatcher",
+     "target_locale_id": 130731,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Deliver Bumbleberry, Gummyfruit, and Spiralmint to Bordon Cloo, the famous royal chef of Sanctuary! Vaelen Warpwatcher can help you get there quickly!",
+     "text_locale_id": 139272,
+     "target": "Bumbleberry, Gummyfruit, Spiralmint",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver the ingredients to Bordon Cloo in Sanctuary.",
+     "text_locale_id": 139281,
+     "target": "Bordon Cloo",
+     "target_locale_id": 15300,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef main series, band 1 (level 1 to 5)",
+    "previous": [],
+    "next": [
+     "Chef: Reach Level 5"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 139270,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 139273,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050020,
+   "record": "quest-lines/quests.json q3050020",
+   "title": "Chef: Reach Level 5",
+   "giver": {
+    "name": "Bordon Cloo",
+    "npc_id": "9000000028",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 5 as a Chef (gate; no separate task)",
+     "text_locale_id": 387248,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Bordon Cloo once you have reached level 5 as a Chef",
+     "text_locale_id": 387248,
+     "target": "Bordon Cloo",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef questline (Main series, band 1: level 1 to 5)",
+    "previous": [],
+    "next": [
+     "Chef: Learning to Crave the Flave"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387246,
+     "speaker": "Bordon Cloo"
+    },
+    "complete": {
+     "locale_id": 387249,
+     "speaker": "Bordon Cloo"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050021,
+   "record": "quest-lines/quests.json q3050021",
+   "title": "Chef: Learning to Crave the Flave",
+   "giver": {
+    "name": "Bordon Cloo",
+    "npc_id": "9000000028",
+    "locale_id": 15300
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Bring your sweets and stew to Bordon Cloo for review!",
+     "text_locale_id": 140414,
+     "target": "Bordon Cloo",
+     "target_locale_id": 15300,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Whip up some Gummyfruit Topped Sundae for Bordon Cloo.",
+     "text_locale_id": 140400,
+     "target": "Gummyfruit Topped Sundae",
+     "target_locale_id": 38655,
+     "count": 1
+    },
+    {
+     "kind": "collect",
+     "text": "Whip up a Starnut Sundae for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140402,
+     "target": "Starnut Sundae",
+     "target_locale_id": 38658,
+     "count": 1
+    },
+    {
+     "kind": "collect",
+     "text": "Cook up some Royal Stew du Jour for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140406,
+     "target": "Royal Stew Du Jour",
+     "target_locale_id": null,
+     "count": 1
+    },
+    {
+     "kind": "collect",
+     "text": "Make some Seared Stainberry for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140408,
+     "target": "Seared Stainberry",
+     "target_locale_id": 38663,
+     "count": 1
+    },
+    {
+     "kind": "collect",
+     "text": "Whip up a Mooonbean Sundae Sweettreat for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140410,
+     "target": "Moonbean Sundae Sweettreat",
+     "target_locale_id": null,
+     "count": 1
+    },
+    {
+     "kind": "collect",
+     "text": "Whip up a Moonbean Mousse for Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140412,
+     "target": "Moonbean Mousse",
+     "target_locale_id": null,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef main series, band 1 (Honey / Bordon Cloo, level 1 to 5), row M3",
+    "previous": [
+     "Chef: Reach Level 5"
+    ],
+    "next": [
+     "Chef: Roasted Mysteries"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 384674,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050032,
+   "record": "quest-lines/quests.json q3050032",
+   "title": "Chef: Cloo's Cooking Academy",
+   "giver": {
+    "name": "Bordon Cloo",
+    "npc_id": "9000000028",
+    "locale_id": 15300
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Glerga hands over the Briarmelon Surprise recipe and says that cooking one for Bordon Cloo will get you into his academy.",
+     "text_locale_id": 73250,
+     "target": "Glerga",
+     "target_locale_id": 15854,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Cook Briarmelon Surprise",
+     "text_locale_id": 140343,
+     "target": "Briarmelon Surprise",
+     "target_locale_id": 38670,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "What are you waiting for? Whip up some Briarmelon Surprise and take it to Bordon Cloo in Sanctuary.",
+     "text_locale_id": 140376,
+     "target": "Bordon Cloo",
+     "target_locale_id": 15300,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef main series, band 4 (level 15 to 20), M14",
+    "previous": [
+     "Chef: Reach Level 20"
+    ],
+    "next": [
+     "Chef: Cooking with Cloo"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 73281,
+     "speaker": "Bordon Cloo"
+    },
+    "progress": {
+     "locale_id": 140376,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 140338,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3050033,
+   "record": "quest-lines/quests.json q3050033",
+   "title": "Chef: Cooking with Cloo",
+   "giver": {
+    "name": "Bordon Cloo",
+    "npc_id": "9000000028",
+    "locale_id": 15300
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Bordon Cloo wants you to prove that you've mastered the art of flavor. Cook up the recipes you've naturally come up with.",
+     "text_locale_id": 73252,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef job questline, Main series band 4 (level 15 to 20), Glerga then Bordon Cloo (Chef.md row M15)",
+    "previous": [
+     "Chef: Cloo's Cooking Academy"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070026,
+   "record": "quest-lines/quests.json q3070026",
+   "title": "Fisherman: Dooba's Secret",
+   "giver": {
+    "name": "Karl Kippersun (inferred, not bound to npc 9000000127)",
+    "npc_id": "9000000127",
+    "locale_id": 409224
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Visit Dooba in Nettleseed and see if he'll let you have some of his bait.",
+     "text_locale_id": 409232,
+     "target": "Dooba (npc 9000000308)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman (Briarwood Cluster E: Dooba, Estelle and Darklit Lagoon)",
+    "previous": [],
+    "next": [
+     "Fisherman: Live Bait!"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409225,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090002,
+   "record": "quest-lines/quests.json q3090002",
+   "title": "Medic: Operation: Revival",
+   "giver": {
+    "name": "Nurse Naia",
+    "npc_id": "9000000161",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Go inside the Bixie Hive and revive the wounded bixies (twelve per locale:15586).",
+     "text_locale_id": 15586,
+     "target": "injured bixies (Bixie Hive, Queensfields)",
+     "target_locale_id": 103331,
+     "count": 12
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line (Nurse Naia, Sanctuary)",
+    "previous": [
+     "So You Want to be a Medic?"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090007,
+   "record": "quest-lines/quests.json q3090007",
+   "title": "Contract: Local Problems",
+   "giver": {
+    "name": "Beth Callahan",
+    "npc_id": "9000000023",
+    "locale_id": 388395
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a Medic, defeat bixies near Queensfield and Robgoblin Pondblasters near Stillwater Crossing!",
+     "text_locale_id": 388276,
+     "target": "Bixie Warriors; Robgoblin Pondblasters",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Bixie Warriors",
+     "text_locale_id": 388277,
+     "target": "Bixie Warriors",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "These bixies wander the area around Queensfields",
+     "text_locale_id": 388278,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic repeatable contracts (Beth Callahan)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388659,
+     "speaker": "Beth Callahan"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388662,
+     "speaker": "Beth Callahan"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090008,
+   "record": "quest-lines/quests.json q3090008",
+   "title": "Medic: Surgical Precision",
+   "giver": {
+    "name": "Doctor Gordon",
+    "npc_id": "9000000073",
+    "locale_id": 7610
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat the wandering Bixie Warriors found west of Queensfields.",
+     "text_locale_id": 76749,
+     "target": "Bixie Warriors",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Hit Clover with Target Vitals",
+     "text_locale_id": 76753,
+     "target": "Clover",
+     "target_locale_id": 7612,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Use First Aid on Clover",
+     "text_locale_id": 76755,
+     "target": "Clover",
+     "target_locale_id": 7612,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Use Vitamins",
+     "text_locale_id": 76757,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Knock Clover out!",
+     "text_locale_id": 76759,
+     "target": "Clover",
+     "target_locale_id": 7612,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Nurse Naia",
+     "text_locale_id": 76761,
+     "target": "Nurse Naia",
+     "target_locale_id": 7611,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic (Doctor Gordon's medic chain, Band 2: level 5 to 10)",
+    "previous": [
+     "Medic: Achieve Level 5"
+    ],
+    "next": [
+     "Medic: Supply Recovery"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 76750,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3090009,
+   "record": "quest-lines/quests.json q3090009",
+   "title": "Medic: Supply Recovery",
+   "giver": {
+    "name": "Nurse Naia",
+    "npc_id": "9000000161",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Terrence at The Roadhouse, north of Merry Vale.",
+     "text_locale_id": 73365,
+     "target": "Terrence (The Roadhouse)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a medic, get the Medical Supplies from the hooligans!",
+     "text_locale_id": 73371,
+     "target": "Medical Supplies held by the hooligans in the cellar (locale:73368)",
+     "target_locale_id": 130636,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line (Band 2, level 5 to 10)",
+    "previous": [
+     "Medic: Surgical Precision"
+    ],
+    "next": [
+     "Medic: Medic on a Mission"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 73362,
+     "speaker": "Nurse Naia"
+    },
+    "progress": {
+     "locale_id": 73368,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3090011,
+   "record": "quest-lines/quests.json q3090011",
+   "title": "Medic: Tummies in Turmoil",
+   "giver": {
+    "name": "Nurse Naia",
+    "npc_id": "9000000161",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Clover (patient list, from intro dialog)",
+     "text_locale_id": 73751,
+     "target": "Clover",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Cure the sour tummies in Sanctuary before the time runs out!",
+     "text_locale_id": 73764,
+     "target": "sour tummies (Sanctuary)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Administer medicine to the sick residents of Sanctuary!",
+     "text_locale_id": 115724,
+     "target": "sick residents of Sanctuary",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver the medicine to the following residents of Sanctuary: Nomi, Flitter, Fizzi, Bilbio, and Sir Whittington.",
+     "text_locale_id": 387405,
+     "target": "Nomi, Flitter, Fizzi, Bilbio, Sir Whittington",
+     "target_locale_id": null,
+     "count": 5
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line (levels 5 to 10)",
+    "previous": [
+     "Medic: Medic on a Mission"
+    ],
+    "next": [
+     "Medic: Clover's Crisis"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 73751,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 73754,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3090013,
+   "record": "quest-lines/quests.json q3090013",
+   "title": "Medic: Achieve Level 10",
+   "giver": {
+    "name": "Clover",
+    "npc_id": "9000000052",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Reach level 10 as a medic, and return to Clover.",
+     "text_locale_id": 387544,
+     "target": "Clover",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Reach Level 10 as a medic!",
+     "text_locale_id": 387545,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no reward data in the client text, the wiki or the guide",
+     "source": "repo:notes/Build Guides/Content/Jobs/Medic.md:90"
+    }
+   ],
+   "line": {
+    "name": "Medic quest line (Clover, Sanctuary; level 5 to 10 band; Medic.md row 13)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3090022,
+   "record": "quest-lines/quests.json q3090022",
+   "title": "Contract: Forgotten Favor",
+   "giver": {
+    "name": "Beth Callahan",
+    "npc_id": "9000000023",
+    "locale_id": 199591402
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a Medic, defeat the changelings in the Forgotten Caves!",
+     "text_locale_id": 388325,
+     "target": "changelings (Forgotten Caves)",
+     "target_locale_id": 5703,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Medic job quest line (repeatable Beth Callahan contracts)",
+    "previous": [
+     "Medic: Achieve Level 15"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 388672,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388675,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3090025,
+   "record": "quest-lines/quests.json q3090025",
+   "title": "Medic: Shocking Developments",
+   "giver": {
+    "name": "Clover",
+    "npc_id": "9000000052",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head into Darvon's Descent and find the missing shock paddles!",
+     "text_locale_id": 74773,
+     "target": "Darvon's Descent",
+     "target_locale_id": 7697,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a medic, collect boxes of stolen shock paddles",
+     "text_locale_id": 74774,
+     "target": "shock paddles",
+     "target_locale_id": 3800,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward is recorded in the client text, the repo record or the wiki for this quest.",
+     "source": "locale:74770; repo record 3090025 (rewards empty)"
+    }
+   ],
+   "line": {
+    "name": "Medic job quest line (Band 4, level 15 to 20)",
+    "previous": [
+     "Medic: The Missing Patrol"
+    ],
+    "next": [
+     "Medic: Omitted Admission"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 74767,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 74775,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 74770,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120006,
+   "record": "quest-lines/quests.json q3120006",
+   "title": "Pet Trainer: To Sanctuary!",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000368",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Roscoe the Pet Trainer in Sanctuary.",
+     "text_locale_id": 90028,
+     "target": "Roscoe",
+     "target_locale_id": 78660,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer common trainer series (junior trainer handoff into Roscoe's Sanctuary main series)",
+    "previous": [
+     "Pet Trainer: Speak Up!"
+    ],
+    "next": [
+     "Pet Trainer: Sit Up and Take Notice"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3120007,
+   "record": "quest-lines/quests.json q3120007",
+   "title": "Pet Trainer: Sit Up and Take Notice",
+   "giver": {
+    "name": "Roscoe",
+    "npc_id": "9000000184",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your dog to do the trick \"Sit Up\".",
+     "text_locale_id": 90032,
+     "target": "dog (pet)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer main series (level 1 to 10, Roscoe in Sanctuary)",
+    "previous": [
+     "Pet Trainer: To Sanctuary!"
+    ],
+    "next": [
+     "Pet Trainer: Jump High!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90030,
+     "speaker": "Roscoe"
+    },
+    "progress": {
+     "locale_id": 115593,
+     "speaker": "Roscoe"
+    },
+    "complete": {
+     "locale_id": 90033,
+     "speaker": "Roscoe"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120008,
+   "record": "quest-lines/quests.json q3120008",
+   "title": "Pet Trainer: Jump High!",
+   "giver": {
+    "name": "Roscoe",
+    "npc_id": "9000000184",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your cat to do the trick \"Jump\".",
+     "text_locale_id": 90036,
+     "target": "Trick game (cat, trick \"Jump\")",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer main series, band 1 (Roscoe, Sanctuary, level 1 to 10)",
+    "previous": [
+     "Pet Trainer: Sit Up and Take Notice"
+    ],
+    "next": [
+     "Pet Trainer: Achieve Level 10 (record 3120009, wiki-order gate, no client title)",
+     "Pet Trainer: Mosey On Up"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90034,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90037,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120010,
+   "record": "quest-lines/quests.json q3120010",
+   "title": "Pet Trainer: Mosey On Up",
+   "giver": {
+    "name": "Roscoe",
+    "npc_id": "9000000184",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find Vidor Stormshroud the Pet Trainer in Shrouded Glade.",
+     "text_locale_id": 90040,
+     "target": "Vidor Stormshroud",
+     "target_locale_id": 78662,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer main series (Roscoe, Sanctuary, level 1 to 10 band)",
+    "previous": [
+     "Pet Trainer: Achieve Level 10",
+     "Pet Trainer: Jump High!"
+    ],
+    "next": [
+     "Pet Trainer: Peek-A-Who?"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90038,
+     "speaker": "Roscoe"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3120025,
+   "record": "quest-lines/quests.json q3120025",
+   "title": "Pet Trainer: Nearly Departed",
+   "giver": {
+    "name": "Kirill Moonrunner",
+    "npc_id": "9000000130",
+    "locale_id": 78667
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your pet to do the trick \"Play Dead\".",
+     "text_locale_id": 90107,
+     "target": "Play Dead",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer (trick-training chain, Main series band 4, Moanna / Kirill Moonrunner)",
+    "previous": [
+     "Pet Trainer: Seek the Master"
+    ],
+    "next": [
+     "Pet Trainer: Show Off!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 90108,
+     "speaker": "Kirill Moonrunner"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3120026,
+   "record": "quest-lines/quests.json q3120026",
+   "title": "Pet Trainer: Show Off!",
+   "giver": {
+    "name": "Kirill Moonrunner",
+    "npc_id": "9000000130",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Have your pet perform the following tricks: \"Speak\", \"Handstand\", \"Play Dead\", and \"Dance\".",
+     "text_locale_id": 90111,
+     "target": "Pet tricks: Speak, Handstand, Play Dead, Dance",
+     "target_locale_id": null,
+     "count": 4
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Trainer",
+    "previous": [
+     "Pet Trainer: Nearly Departed"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 90109,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 90111,
+     "speaker": "Kirill Moonrunner"
+    },
+    "complete": {
+     "locale_id": 90112,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130001,
+   "record": "quest-lines/quests.json q3130001",
+   "title": "Become a Postman",
+   "giver": {
+    "name": "Felipe",
+    "npc_id": "9000000086",
+    "locale_id": 412446
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Felipe",
+     "text_locale_id": 412451,
+     "target": "Felipe",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Postman job unlock; no coin or item reward recorded",
+     "source": "repo:notes/Build Guides/Content/Jobs/Postman.md (row E1, rewards not documented)"
+    }
+   ],
+   "line": {
+    "name": "Postman job quest line (Sanctuary entry)",
+    "previous": [],
+    "next": [
+     "Can You Deliver?"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130003,
+   "record": "quest-lines/quests.json q3130003",
+   "title": "Can You Deliver?",
+   "giver": {
+    "name": "Felipe",
+    "npc_id": "9000000086",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Complete the Can You Deliver? minigame",
+     "text_locale_id": 103839,
+     "target": "Can You Deliver? minigame",
+     "target_locale_id": 93381,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Click the mailboxes to deliver the mail.",
+     "text_locale_id": 103840,
+     "target": "mailboxes",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Postman job access (news line only; no coin or item payout verified)",
+     "source": "locale:103831"
+    }
+   ],
+   "line": {
+    "name": "Postman job quest line (Sanctuary entry quests)",
+    "previous": [
+     "Become a Postman"
+    ],
+    "next": [
+     "Postman: Mail Marksman"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 93382,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3130004,
+   "record": "quest-lines/quests.json q3130004",
+   "title": "Postman: Mail Marksman",
+   "giver": {
+    "name": "Felipe",
+    "npc_id": "9000000086",
+    "locale_id": 21276
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Deliver the mail in Sanctuary using your mail toss ability.",
+     "text_locale_id": 103921,
+     "target": "Mail Toss",
+     "target_locale_id": 103920,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Mail Marksman minigame",
+     "text_locale_id": 103922,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Let him know you've got a strong delivery!",
+     "text_locale_id": 103925,
+     "target": "Felipe",
+     "target_locale_id": 21276,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Mail Toss ability (Mail Throw)",
+     "source": "wiki page Postman: 'Mail Marksman: Felipe in Sanctuary (learn Mail Throw ability)'; locale:103920"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "no source found"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "no source found"
+    }
+   ],
+   "line": {
+    "name": "Postman job quest line (Sanctuary band, Felipe and Flitter; levels 1 to 5)",
+    "previous": [
+     "Can You Deliver?"
+    ],
+    "next": [
+     "Postman: Beware of Ankle Biters"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103916,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 103923,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 103919,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130005,
+   "record": "quest-lines/quests.json q3130005",
+   "title": "Postman: Beware of Ankle Biters",
+   "giver": {
+    "name": "Felipe",
+    "npc_id": "9000000086",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Keep an eye out for those ankle biting dogs! (progress line, not an objective; listed for the order)",
+     "text_locale_id": 104236,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Ditch the Doggies minigame",
+     "text_locale_id": 104235,
+     "target": "Ditch the Doggies",
+     "target_locale_id": 93759,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Deliver the mail in Sanctuary, avoid the dogs along the way and then return to Felipe.",
+     "text_locale_id": 104234,
+     "target": "Sanctuary",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Felipe in Sanctuary",
+     "text_locale_id": 104237,
+     "target": "Felipe",
+     "target_locale_id": 21276,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Inform him of your progress on the mail route.",
+     "text_locale_id": 104238,
+     "target": "Felipe",
+     "target_locale_id": 21276,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Click on even more Dropped Mail bundles to pick them up.",
+     "text_locale_id": 104214,
+     "target": "Dropped Mail",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Teaches the Bone Toss ability (dog distraction); no server ability id confirmed",
+     "source": "wiki Postman (Beware of Ankle Biters: learn Bone Toss ability); repo:notes/Build Guides/Content/Jobs/Postman.md:76"
+    }
+   ],
+   "line": {
+    "name": "Postman quest line, Sanctuary band (Felipe and Flitter), levels 1 to 5",
+    "previous": [
+     "Postman: Mail Marksman"
+    ],
+    "next": [
+     "Postman: It's a Postal Disaster!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 104216,
+     "speaker": "Felipe"
+    },
+    "progress": {
+     "locale_id": 104236,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3130006,
+   "record": "quest-lines/quests.json q3130006",
+   "title": "Postman: It's a Postal Disaster!",
+   "giver": {
+    "name": "Flitter",
+    "npc_id": "9000000091",
+    "locale_id": 7595
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Interact with the Dropped Mail in the inner circle of sanctuary to pick it up for Flitter.",
+     "text_locale_id": 431105,
+     "target": "Dropped Mail",
+     "target_locale_id": 21419,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Scattered Mail minigame",
+     "text_locale_id": 104378,
+     "target": "Scattered Mail",
+     "target_locale_id": 21424,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Don't let any loose letters slip away!",
+     "text_locale_id": 104379,
+     "target": "Scattered Mail",
+     "target_locale_id": 21424,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Flitter at the Sanctuary Post Office",
+     "text_locale_id": 104383,
+     "target": "Flitter",
+     "target_locale_id": 7595,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "She needs the mail you've collected.",
+     "text_locale_id": 104384,
+     "target": "Flitter",
+     "target_locale_id": 7595,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman quest line, Band 1 - Sanctuary (Felipe and Flitter), row 3 (guide order only)",
+    "previous": [
+     "Postman: Beware of Ankle Biters"
+    ],
+    "next": [
+     "Postman: Sort of a Mess"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 104358,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 139818,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 104361,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3130007,
+   "record": "quest-lines/quests.json q3130007",
+   "title": "Postman: Sort of a Mess",
+   "giver": {
+    "name": "Flitter",
+    "npc_id": "9000000091",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Help Flitter clean up the mail clutter by completing the Sanctuary Mail Sorting minigame.",
+     "text_locale_id": 141814,
+     "target": "Sanctuary Mail Sorting",
+     "target_locale_id": 102030,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete the Sanctuary Mail Sorting minigame",
+     "text_locale_id": 141815,
+     "target": "Sanctuary Mail Sorting",
+     "target_locale_id": 102030,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Flitter",
+     "text_locale_id": 141817,
+     "target": "Flitter",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman (Felipe and Flitter, Sanctuary band, levels 1 to 5)",
+    "previous": [
+     "Postman: It's a Postal Disaster!"
+    ],
+    "next": [
+     "Postman: Running the Route"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 141808,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 141811,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130009,
+   "record": "quest-lines/quests.json q3130009",
+   "title": "Postman: Special Delivery",
+   "giver": {
+    "name": "Felipe",
+    "npc_id": "9000000086",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Complete the It's A Dancing Telegram! minigame",
+     "text_locale_id": 115054,
+     "target": "It's a Dancing Telegram!",
+     "target_locale_id": 139404,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Use your Bust-A-Move ability to deliver dancing telegrams.",
+     "text_locale_id": 115055,
+     "target": "Bust-A-Move ability (tooltip 388462 reads 'To be used with Postal Bust a Move ability to keep Postman immobile.')",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Deliver a dancing telegram around Sanctuary, then return to Felipe.",
+     "text_locale_id": 115048,
+     "target": "Felipe, Sanctuary",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver dancing telegrams.",
+     "text_locale_id": 115053,
+     "target": "dancing telegrams",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman quest line (Sanctuary band: Felipe and Flitter)",
+    "previous": [
+     "Postman: Running the Route"
+    ],
+    "next": [
+     "Postman: Achieve Level 5"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 115046,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 115048,
+     "speaker": "Felipe"
+    },
+    "complete": {
+     "locale_id": 115049,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3130010,
+   "record": "quest-lines/quests.json q3130010",
+   "title": "Postman: Achieve Level 5",
+   "giver": {
+    "name": "Felipe",
+    "npc_id": "9000000086",
+    "locale_id": 21276
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Achieve level 5 as a postman (level gate; then return to Felipe)",
+     "text_locale_id": null,
+     "target": "Felipe",
+     "target_locale_id": 21276,
+     "count": 5
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Postman job line (Felipe and Flitter, Sanctuary band 1)",
+    "previous": [
+     "Postman: Special Delivery"
+    ],
+    "next": [
+     "Postman: Bixie Buds"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387932,
+     "speaker": "Felipe"
+    },
+    "complete": {
+     "locale_id": 387933,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3140024,
+   "record": "quest-lines/quests.json q3140024",
+   "title": "Soccer Star: Making The Finals",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000056",
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat the Twinkletoes",
+     "text_locale_id": 402995,
+     "target": "Twinkletoes",
+     "target_locale_id": 411071,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Complete dodge maneuvers 10 times",
+     "text_locale_id": 406621,
+     "target": "Twinkletoes match",
+     "target_locale_id": null,
+     "count": 10
+    },
+    {
+     "kind": "defeat",
+     "text": "Knock down Francesca \"The Invincible\" 15 times",
+     "text_locale_id": 406623,
+     "target": "Francesca \"The Invincible\"",
+     "target_locale_id": 401714,
+     "count": 15
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Soccer Star (Arc 3 - The trophy and the finals), per the guide's row order",
+    "previous": [
+     "Soccer Star: Achieve Level 13"
+    ],
+    "next": [
+     "Soccer Star: Twinkle Toes"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3140025,
+   "record": "quest-lines/quests.json q3140025",
+   "title": "Soccer Star: Twinkle Toes",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000056",
+    "locale_id": 401743
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Scrimmage against the Sanctuary Twinkletoes: beat them in a friendly game of soccer",
+     "text_locale_id": 414952,
+     "target": "Twinkletoes (Sanctuary soccer team)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "None named in the client text",
+     "source": "locale:414953"
+    }
+   ],
+   "line": {
+    "name": "Soccer Star (Sidekicks questline, Arc 3 - The trophy and the finals)",
+    "previous": [],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 414950,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 414953,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150013,
+   "record": "quest-lines/quests.json q3150013",
+   "title": "Warrior: Take Care of That Ankle",
+   "giver": {
+    "name": "Aster",
+    "npc_id": "9000000243",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Doctor Gordon in Sanctuary",
+     "text_locale_id": 72620,
+     "target": "Doctor Gordon",
+     "target_locale_id": 7610,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior job quest line (Band 3, levels 10 to 15)",
+    "previous": [
+     "Warrior: Knocking Some Sense In"
+    ],
+    "next": [
+     "Warrior: General Concerns"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 72610,
+     "speaker": "Aster"
+    },
+    "progress": {
+     "locale_id": 71339,
+     "speaker": "Doctor Gordon"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3150014,
+   "record": "quest-lines/quests.json q3150014",
+   "title": "Warrior: General Concerns",
+   "giver": {
+    "name": "Doctor Gordon",
+    "npc_id": "9000000073",
+    "locale_id": 7610
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Help General Glowlight resolve the changeling problem in the Forgotten Caves below Sanctuary.",
+     "text_locale_id": 71355,
+     "target": "Forgotten Caves",
+     "target_locale_id": 5703,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior quest line (Warrior.md band 3, row W14)",
+    "previous": [
+     "Warrior: Take Care of That Ankle"
+    ],
+    "next": [
+     "Warrior: Finding Facts About Fastvi"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3150015,
+   "record": "quest-lines/quests.json q3150015",
+   "title": "Warrior: Finding Facts About Fastvi",
+   "giver": {
+    "name": "General Glowlight",
+    "npc_id": "9000000097",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Retrieve the book from the highest peak of Misty Mountain.",
+     "text_locale_id": 45369,
+     "target": "Misty Mountain",
+     "target_locale_id": 71773,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior job quest line (Band 3, level 10 to 15)",
+    "previous": [
+     "Warrior: General Concerns"
+    ],
+    "next": [
+     "Warrior: Achieve Level 15"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3150016,
+   "record": "quest-lines/quests.json q3150016",
+   "title": "Warrior: Achieve Level 15",
+   "giver": {
+    "name": "Sir Whittington",
+    "npc_id": "9000000205",
+    "locale_id": 7652
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 15 as a warrior, then return to Sir Whittington.",
+     "text_locale_id": 387585,
+     "target": "Sir Whittington",
+     "target_locale_id": 7652,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Level up to 15 as a warrior.",
+     "text_locale_id": 387587,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Warrior job quest line (Band 4: level 15 to 20)",
+    "previous": [
+     "Warrior: Finding Facts About Fastvi"
+    ],
+    "next": [
+     "Warrior: Legend of Fastvi Frostflutter",
+     "Contract: What Duty Demands"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387582,
+     "speaker": "Sir Whittington"
+    },
+    "complete": {
+     "locale_id": 387583,
+     "speaker": "Sir Whittington"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3150018,
+   "record": "quest-lines/quests.json q3150018",
+   "title": "Warrior: Legend of Fastvi Frostflutter",
+   "giver": {
+    "name": "Sir Whittington",
+    "npc_id": "9000000205",
+    "locale_id": 7652
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Use the game table near Sir Whittington and beat the \"Weed Killing!\" tower defense minigame.",
+     "text_locale_id": 100757,
+     "target": "Weed Killing! (Tower Defense table, Sanctuary)",
+     "target_locale_id": 15135,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "All-Star Warrior Axe",
+     "source": "wiki page ns0 'All-Star Warrior Axe' (states it was previously acquired by completion of Warrior: Legend of Fastvi Frostflutter; Level 12 Warrior item)"
+    }
+   ],
+   "line": {
+    "name": "Warrior job quest line (Sir Whittington, Sanctuary; level 15 band)",
+    "previous": [
+     "Warrior: Achieve Level 15"
+    ],
+    "next": [
+     "Warrior: Asking Old Folks"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 71435,
+     "speaker": "Sir Whittington"
+    },
+    "progress": {
+     "locale_id": 71437,
+     "speaker": "Sir Whittington"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160016,
+   "record": "quest-lines/quests.json q3160016",
+   "title": "Wizard: Osgood as it Gets",
+   "giver": {
+    "name": "Yaren Sunstare",
+    "npc_id": "9000000234",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Osgood",
+     "text_locale_id": 74949,
+     "target": "Osgood",
+     "target_locale_id": 45555,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed; no reward string found for this quest",
+     "source": "open"
+    }
+   ],
+   "line": {
+    "name": "Wizard class quest line (Band 2, level 5 to 10)",
+    "previous": [
+     "Wizard: Lost Student"
+    ],
+    "next": [
+     "Wizard: Reach Level 10"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 74937,
+     "speaker": "Yaren Sunstare"
+    },
+    "progress": {
+     "locale_id": 74940,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160017,
+   "record": "quest-lines/quests.json q3160017",
+   "title": "Wizard: Reach Level 10",
+   "giver": {
+    "name": "Osgood",
+    "npc_id": "9000000164",
+    "locale_id": 45555
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 10 as a wizard, then return to Osgood.",
+     "text_locale_id": 387685,
+     "target": "Osgood",
+     "target_locale_id": 45555,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Reach level 10 as a wizard",
+     "text_locale_id": 387688,
+     "target": "Wizard level 10",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced",
+     "source": "no reward text in the client pack or repo; record rewards are empty"
+    }
+   ],
+   "line": {
+    "name": "Wizard job quest line (Band 3, level 10 to 15)",
+    "previous": [
+     "Wizard: Osgood as it Gets"
+    ],
+    "next": [
+     "Contract: Robgoblin Magic",
+     "Wizard: Helping a Friend"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 387662,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387664,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 387665,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160019,
+   "record": "quest-lines/quests.json q3160019",
+   "title": "Wizard: Helping a Friend",
+   "giver": {
+    "name": "Osgood",
+    "npc_id": "9000000164",
+    "locale_id": 45555
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Sandbur in Sanctuary's Inner Circle.",
+     "text_locale_id": 37312,
+     "target": "Sandbur",
+     "target_locale_id": 10090,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard quest line, Band 3 (levels 10 to 15): Osgood, Sandbur, Iliya, Sanctuary and Blackspore",
+    "previous": [
+     "Wizard: Reach Level 10"
+    ],
+    "next": [
+     "Wizard: Searching for the Past"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 37310,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160020,
+   "record": "quest-lines/quests.json q3160020",
+   "title": "Wizard: Searching for the Past",
+   "giver": {
+    "name": "Sandbur",
+    "npc_id": "9000000190",
+    "locale_id": 10090
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Help Sandbur with his research by collecting Transfiguring Crystals from the Changeling Arcanus in the Forgotten Caves.",
+     "text_locale_id": 22365,
+     "target": "Transfiguring Crystals",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard job quest line, Band 3 (level 10 to 15)",
+    "previous": [
+     "Wizard: Helping a Friend"
+    ],
+    "next": [
+     "Wizard: Crystal Clear Delivery"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160024,
+   "record": "quest-lines/quests.json q3160024",
+   "title": "Wizard: Reach Level 15",
+   "giver": {
+    "name": "Osgood",
+    "npc_id": "9000000164",
+    "locale_id": 45555
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Level up to 15 as a wizard.",
+     "text_locale_id": 387693,
+     "target": "character level 15 as a wizard",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Reach level 15 as a wizard, then return to Osgood.",
+     "text_locale_id": 387691,
+     "target": "Osgood",
+     "target_locale_id": 45555,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward evidence in the pack",
+     "source": "repo:notes/Build Guides/Content/Jobs/Wizard.md:112"
+    }
+   ],
+   "line": {
+    "name": "Wizard job quest line (Osgood, Sanctuary; level-gated band 4)",
+    "previous": [],
+    "next": [
+     "Wizard: Missing Student Sven",
+     "Contract: Secret Magic"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387666,
+     "speaker": "Osgood"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160026,
+   "record": "quest-lines/quests.json q3160026",
+   "title": "Wizard: Missing Student Sven",
+   "giver": {
+    "name": "Osgood",
+    "npc_id": "9000000164",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Karin Spellweaver in Sanctuary",
+     "text_locale_id": 24460,
+     "target": "Karin Spellweaver",
+     "target_locale_id": 22279,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Ask Karin about Sven.",
+     "text_locale_id": 24461,
+     "target": "Karin Spellweaver",
+     "target_locale_id": 22279,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Search for Sven at the Tangletrack Speedway",
+     "text_locale_id": 24561,
+     "target": "Sven (Briarwood Kart Racetrack / Tangletrack Speedway)",
+     "target_locale_id": 22278,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "no reward evidence found in the pack or client"
+    }
+   ],
+   "line": {
+    "name": "Wizard quest line (Osgood, Sven, Briarwood), guide row 24",
+    "previous": [
+     "Wizard: Reach Level 15"
+    ],
+    "next": [
+     "Wizard: Sven's Job Offer"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 22310,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 24460,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160033,
+   "record": "quest-lines/quests.json q3160033",
+   "title": "Wizard: Rescue Mission",
+   "giver": {
+    "name": "Karin Spellweaver",
+    "npc_id": "9000000126",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Go to Briarwood and rescue Sven in the Briarheart Caverns.",
+     "text_locale_id": 76440,
+     "target": "Briarheart Caverns",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Wand-making parts (a full set, to be taken to Osgood for Parts and Labor). Given as a hand-off in the client dialog, not a reward table entry.",
+     "source": "locale:116354"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "no coin amount recovered"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "no xp amount recovered"
+    }
+   ],
+   "line": {
+    "name": "Wizard job quest line, band 5 (level 20 wand finale)",
+    "previous": [
+     "Wizard: Two Gems Are Better Than One"
+    ],
+    "next": [
+     "Wizard: Parts and Labor"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 76438,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 116354,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160034,
+   "record": "quest-lines/quests.json q3160034",
+   "title": "Wizard: Parts and Labor",
+   "giver": {
+    "name": "Osgood",
+    "npc_id": "9000000164",
+    "locale_id": 45555
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Take the wand parts to Osgood in Sanctuary.",
+     "text_locale_id": 103657,
+     "target": "Osgood",
+     "target_locale_id": 45555,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk Lavarius Sparksizzle",
+     "text_locale_id": 415785,
+     "target": "Lavarius Sparksizzle",
+     "target_locale_id": 79014,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give Osgood an Orb of Spectral Fire",
+     "text_locale_id": 116375,
+     "target": "Osgood",
+     "target_locale_id": 45555,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Wand of Spectral Fire (item name locale 382830). The guide's planning note links it to this quest, but no client line binds it.",
+     "source": "repo:notes/Build Guides/Content/Jobs/Wizard.md:127"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "no evidence found"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "no evidence found"
+    }
+   ],
+   "line": {
+    "name": "Wizard quest line, Band 5 (level 20 wand finale)",
+    "previous": [
+     "Wizard: Rescue Mission"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 116591,
+     "speaker": "Osgood"
+    },
+    "complete": {
+     "locale_id": 103658,
+     "speaker": "Osgood"
+    }
+   },
+   "wireable": true
+  }
+ ]
+}

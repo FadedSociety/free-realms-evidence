@@ -1,0 +1,632 @@
+{
+ "zone": "Cobblestone Village",
+ "quests": [
+  {
+   "quest_id": 3000012,
+   "record": "quest-lines/quests.json q3000012",
+   "title": "Pull the Plug",
+   "giver": {
+    "name": "Bartle",
+    "npc_id": "9000000021",
+    "locale_id": 20942
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Destroy the Gloam Artifacts to weaken the blockade.",
+     "text_locale_id": 4420102,
+     "target": "Gloam Artifact",
+     "target_locale_id": 5100327,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Farnum Farmstead / Cobblestone Village opening arc (Adventurer, Part A)",
+    "previous": [
+     "Where's the Help?"
+    ],
+    "next": [
+     "Cobblestone Showdown"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 4420097,
+     "speaker": "Bartle"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 4420100,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000013,
+   "record": "quest-lines/quests.json q3000013",
+   "title": "Cobblestone Showdown",
+   "giver": {
+    "name": "Bartle",
+    "npc_id": "9000000021",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Mac",
+     "text_locale_id": 5100372,
+     "target": "Mac",
+     "target_locale_id": null,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "5 (reconstructed fallback, not verified)",
+     "source": "repo:prototype/osfr-tools/data/content/quests/adventurer.json:978 (reconstructed); notes/Research/Starting Quest Chains.md:19"
+    },
+    {
+     "kind": "other",
+     "value": "Result text: 'The Hooligans leader, Mac, has been defeated and Cobblestone Village has been freed!'",
+     "source": "locale:5100073"
+    }
+   ],
+   "line": {
+    "name": "Adventurer Part A opening arc (Briarwood Caverns, Farnum Farmstead, Cobblestone Village, Royal Palace)",
+    "previous": [
+     "Pull the Plug"
+    ],
+    "next": [
+     "Off to the Queen"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 4420105,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 5100382,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000014,
+   "record": "quest-lines/quests.json q3000014",
+   "title": "Off to the Queen",
+   "giver": {
+    "name": "Bartle",
+    "npc_id": "9000000021",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Enter the Royal Palace",
+     "text_locale_id": 4420119,
+     "target": "Royal Palace, Sanctuary",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Give Darkthorne's message to Queen Valerian.",
+     "text_locale_id": 4420118,
+     "target": "Queen Valerian (npc 9500000519)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "5 (reconstructed fallback, the value currently wired in the record)",
+     "source": "repo:prototype/osfr-tools/data/content/quests/adventurer.json:1065-1076"
+    }
+   ],
+   "line": {
+    "name": "Adventurer Part A opening arc (Briarwood Caverns, Farnum Farmstead, Cobblestone Village, Royal Palace), row A14",
+    "previous": [
+     "Cobblestone Showdown"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 4420113,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 4420116,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3000021,
+   "record": "quest-lines/quests.json q3000021",
+   "title": "Introduce Yourself",
+   "giver": {
+    "name": "Samantha",
+    "npc_id": "9000000189",
+    "locale_id": 19685
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Introduce yourself to Ricky Danger in Cobblestone Village.",
+     "text_locale_id": 94248,
+     "target": "Ricky Danger",
+     "target_locale_id": 94007,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Cobblestone Village starter quests (Ricky Danger kart referral chain)",
+    "previous": [],
+    "next": [
+     "Call the Crew!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3000059,
+   "record": "quest-lines/quests.json q3000059",
+   "title": "Call the Crew!",
+   "giver": {
+    "name": "Ricky Danger",
+    "npc_id": "9500000254",
+    "locale_id": 94007
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Convince Shakey at the Wildwood Speedway to send the rest of Ricky's pit crew.",
+     "text_locale_id": 100080,
+     "target": "Shakey (npc 9500000941)",
+     "target_locale_id": 20087,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Let Ricky know that Shakey and his pit crew are on the way to help him out.",
+     "text_locale_id": 384143,
+     "target": "Ricky Danger (npc 9500000254)",
+     "target_locale_id": 94007,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "'Here's something for your trouble.' (no amount in client)",
+     "source": "locale:94261"
+    },
+    {
+     "kind": "coins",
+     "value": "5 (reconstructed fallback)",
+     "source": "repo:prototype/osfr-tools/data/content/quests/adventurer.json:4160-4177 (record 3000059, R); notes/Research/Starting Quest Chains.md:30"
+    },
+    {
+     "kind": "xp",
+     "value": "30 job XP, profile 1 (reconstructed fallback)",
+     "source": "repo:prototype/osfr-tools/data/content/quests/adventurer.json:4174 (R, T202); notes/Autopilot/T202.md:7"
+    }
+   ],
+   "line": {
+    "name": "Cobblestone Village quest series (Ricky Danger / Samantha)",
+    "previous": [
+     "Introduce Yourself"
+    ],
+    "next": [
+     "Back for More"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 94254,
+     "speaker": "Ricky Danger"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 94261,
+     "speaker": "Ricky Danger"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3000060,
+   "record": "quest-lines/quests.json q3000060",
+   "title": "Back for More",
+   "giver": {
+    "name": "Ricky Danger",
+    "npc_id": "9500000254",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find out what Samantha in Cobblestone Village wanted to talk to you about.",
+     "text_locale_id": 94264,
+     "target": "Samantha",
+     "target_locale_id": 19685,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Cobblestone Village starter follow-ups (Samantha hand-off)",
+    "previous": [
+     "Call the Crew!"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 94262,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3010010,
+   "record": "quest-lines/quests.json q3010010",
+   "title": "Contract: All Around Win",
+   "giver": {
+    "name": "Eddie Eagle Eyes",
+    "npc_id": "9500000245",
+    "locale_id": 388244
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As an archer, defeat Hooligan Delinquents that wander the wilderness, and some Unruly Bixies in the Bixie Hive. Return to Eddie when done.",
+     "text_locale_id": 388250,
+     "target": "Hooligan Delinquents; Unruly Bixies (Bixie Hive)",
+     "target_locale_id": 388251,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Eddie Eagle Eyes",
+     "text_locale_id": 388253,
+     "target": "Eddie Eagle Eyes",
+     "target_locale_id": 388244,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Archer job quest line, Band 2 (level 5 to 10): Eddie, Hilforn, Vicki, Bullseye (repeatable Eddie contracts)",
+    "previous": [
+     "Archer: Achieve Level 5"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 388245,
+     "speaker": "Eddie Eagle Eyes"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388248,
+     "speaker": "Eddie Eagle Eyes"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030007,
+   "record": "quest-lines/quests.json q3030007",
+   "title": "Brawler: Delinquent Dilemma",
+   "giver": {
+    "name": "Jones",
+    "npc_id": "9000000121",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat the Hooligan Delinquents south of Jones to recover the artifacts they stole from him.",
+     "text_locale_id": 94304,
+     "target": "Hooligan Delinquents",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler starting line (Carlos Brazenfist, Cobblestone Village), per notes/Build Guides/Content/Jobs/Brawler.md row C4",
+    "previous": [
+     "Brawler: Building your Rep"
+    ],
+    "next": [
+     "Brawler: Bad Business"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 94302,
+     "speaker": "Jones"
+    },
+    "progress": {
+     "locale_id": 101028,
+     "speaker": "Jones"
+    },
+    "complete": {
+     "locale_id": 94305,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030008,
+   "record": "quest-lines/quests.json q3030008",
+   "title": "Brawler: Bad Business",
+   "giver": {
+    "name": "Jones",
+    "npc_id": "9000000121",
+    "locale_id": 46335
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Find Sabastian Cabet somewhere in Blackspore. The entrance to Blackspore is a large cave directly east of Cobblestone Village.",
+     "text_locale_id": 103355,
+     "target": "Sabastian Cabet",
+     "target_locale_id": 46099,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler (Starting line 1, Cobblestone Village; Carlos Brazenfist line)",
+    "previous": [
+     "Brawler: Delinquent Dilemma"
+    ],
+    "next": [
+     "Brawler: Given to Guard"
+    ]
+   },
+   "live": "yes",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3050006,
+   "record": "quest-lines/quests.json q3050006",
+   "title": "Chef: Cobblestone Village Cafe",
+   "giver": {
+    "name": "Simone",
+    "npc_id": "9000000467",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Chef job trainer series (Simone, Cobblestone Village)",
+    "previous": [],
+    "next": [
+     "Chef: Delivery Derailed"
+    ]
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3050007,
+   "record": "quest-lines/quests.json q3050007",
+   "title": "Chef: Delivery Derailed",
+   "giver": {
+    "name": "Simone",
+    "npc_id": "9000000467",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Search for Jonelle on the road north of Cobblestone Village, leading to Sanctuary.",
+     "text_locale_id": 94292,
+     "target": "Jonelle",
+     "target_locale_id": 77444,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef job line (Simone, Cobblestone Village trainer series)",
+    "previous": [
+     "Chef: Cobblestone Village Cafe"
+    ],
+    "next": [
+     "Chef: Package Recovery!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 94290,
+     "speaker": "Simone"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050008,
+   "record": "quest-lines/quests.json q3050008",
+   "title": "Chef: Package Recovery!",
+   "giver": {
+    "name": "Jonelle",
+    "npc_id": "9000000120",
+    "locale_id": 77444
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "As a chef, help Jonelle recover her stolen packages from the robgoblins north of Cobblestone Village.",
+     "text_locale_id": 100537,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Click on Jonelle's Mailbag next to Jonelle to start recovering her stolen packages.",
+     "text_locale_id": 100539,
+     "target": "Jonelle's Mailbag",
+     "target_locale_id": 100552,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the Package Recovery! minigame",
+     "text_locale_id": 100540,
+     "target": "Package Recovery! minigame",
+     "target_locale_id": 100540,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef trainer series 1: Cobblestone Village (Simone)",
+    "previous": [
+     "Chef: Delivery Derailed"
+    ],
+    "next": [
+     "Chef: Queensfields"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 94298,
+     "speaker": "Jonelle"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 94301,
+     "speaker": "Jonelle"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050009,
+   "record": "quest-lines/quests.json q3050009",
+   "title": "Chef: Queensfields",
+   "giver": {
+    "name": "Jonelle",
+    "npc_id": "9000000120",
+    "locale_id": 77444
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Honey at the Queensfields Farm, south of Sanctuary, and learn about harvesting.",
+     "text_locale_id": 100549,
+     "target": "Honey",
+     "target_locale_id": 7666,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef trainer series 1: Cobblestone Village (Simone)",
+    "previous": [
+     "Chef: Package Recovery!"
+    ],
+    "next": [
+     "Chef: Crazy Craving"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 100545,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3120003,
+   "record": "quest-lines/quests.json q3120003",
+   "title": "Pet Tutorial: Happiness",
+   "giver": {
+    "name": "Majorie",
+    "npc_id": null,
+    "locale_id": 78658
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Complete the Happiness pet tutorial given by Majorie in Cobblestone Village.",
+     "text_locale_id": 141496,
+     "target": "Majorie",
+     "target_locale_id": 78658,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Pet Tutorial series (Basics, Happiness, Training), Majorie variant",
+    "previous": [
+     "Pet Tutorial: Basics"
+    ],
+    "next": [
+     "Pet Tutorial: Training"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 141149,
+     "speaker": "Majorie"
+    },
+    "progress": {
+     "locale_id": 141524,
+     "speaker": "Majorie"
+    },
+    "complete": {
+     "locale_id": 141152,
+     "speaker": "Majorie"
+    }
+   },
+   "wireable": false
+  }
+ ]
+}

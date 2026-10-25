@@ -1,0 +1,1146 @@
+{
+ "zone": "Wilds",
+ "wireable_by_match": [
+  {
+   "quest_id": 3000027,
+   "record": "quest-lines/quests.json q3000027",
+   "quest_file": "adventurer.json",
+   "title": "Sharing Your Talents",
+   "live": "yes",
+   "giver": {
+    "name": "Starshine",
+    "npc_id": "9000000477",
+    "locale_id": 18719
+   },
+   "resolved_giver": {
+    "npc_id": 9000000477,
+    "name": "Starshine",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Head to the Royal Palace in Sanctuary and see if you can help more people like me! (progress dialog; no quest_objective string exists for this quest)",
+     "text_locale_id": 391055,
+     "target": "Queen Valerian, Royal Palace (Sanctuary)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 391043,
+     "speaker": "Starshine"
+    },
+    "progress": {
+     "locale_id": 391055,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "evidence[9] / Queen Valerian npc_name ids: The answer cites locale 438457 (and 5100363, 5102927) as Queen Valerian npc_name strings. I could not confirm 438457 or 5100363 in the client. Only 130547 ('Queen Valerian') checks out. The other ids ",
+    "objectives[0] / dialog.complete: The answer says the completion is null and that no completion string exists. Locale 140654 ('[*Player*] has offered their services to Queen Valerian of Sanctuary!') is an unflagged line that reads as ",
+    "line.name: The four-way entry group is stated as the quest's line, and the 'Only one of the quests need be completed' rule is attributed to the wiki. The wiki Sacred Grove page text I could see lists Sharing You",
+    "giver.npc_id: The giver id 9000000477 is repo-reconstructed. The answer flags this in its open list, which is honest. The client confirms only the name 'Starshine' (18719) and the location line 414478 ('Starshine i",
+    "objectives[0]: The objective is 'other' with no target id, while the record carries talk_to_npc npc 9500000519. The answer flags the gap, which is acceptable, but the target is left unresolved. Locale 130547 gives t",
+    "objectives[0]: The objective is kind 'other' with no target id, and the answer correctly says the record's talk_to_npc target 9500000519 is unsupported. The quoted progress text is accurate: locale 391055 reads 'Go "
+   ]
+  },
+  {
+   "quest_id": 3060010,
+   "record": "quest-lines/quests.json q3060010",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Spare Parts",
+   "live": "unsure",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "resolved_giver": {
+    "npc_id": 9000000289,
+    "name": "Crash Davis",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Convince Willow Slamdash outside of Thunder Falls to fork over her spare parts. Willow's gating dialog says she only gives them up if she is knocked out during a derby, so the completion step is probably derby-gated.",
+     "text_locale_id": 394023,
+     "target": "Willow Slamdash",
+     "target_locale_id": 19366,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Knock out Willow Slamdash 2 times",
+     "text_locale_id": 395062,
+     "target": "Willow Slamdash",
+     "target_locale_id": 19366,
+     "count": 2,
+     "resolved_npc": {
+      "npc_id": 9500000961,
+      "name": "Willow Slamdash",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 393380,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394463,
+     "speaker": "Willow Slamdash"
+    },
+    "complete": {
+     "locale_id": 395709,
+     "speaker": "Willow Slamdash"
+    }
+   },
+   "critic_problems": [
+    "line: previous and next are empty, and the Dealing Damage -> Spare Parts -> So Long, Betty! order is only the guide's inference (guide row 7, 'After Dealing Damage (inferred)'). No source in the pack confir",
+    "objectives[1]: The answer says the 'Wildwood Demo Derby Base' location comes from 395062's category. I could not confirm that hint. The locale text itself, 'Knock out Willow Slamdash 2 times', is verified (395062). ",
+    "objectives[0]: Kind 'other' is a guess. Locale 394023 ('Convince ... outside of Thunder Falls') and 394463 (knock-out during a derby) both support the same derby-gated handover, so the answer's uncertainty is reason",
+    "objectives[1]: The answer says 395062 is tagged to 'Wildwood Demo Derby Base' and uses that as a location. The locale text for 395062 is only 'Knock out Willow Slamdash 2 times'; the lookup output shows no location ",
+    "objectives[0].kind: Kind 'other' is a placeholder, not a settled value. The client text 394023 says 'Convince ... to fork over her spare parts', and 394463 says the handover needs a knock-out during a derby. The answer's",
+    "line: previous and next are empty and the order is an inference from the guide's row 7. The answer correctly says it is not wired. A builder cannot place the quest in its chain from this record."
+   ]
+  },
+  {
+   "quest_id": 3060021,
+   "record": "quest-lines/quests.json q3060021",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Wear and Tear",
+   "live": "yes",
+   "giver": {
+    "name": "J. P. Screecher",
+    "npc_id": "9000000354",
+    "locale_id": 19351
+   },
+   "resolved_giver": {
+    "npc_id": 9000000354,
+    "name": "J. P. Screecher",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "J. P. Screecher is worried about the condition of your car. He's asked you to try and complete a derby without getting knocked out.",
+     "text_locale_id": 393349,
+     "target": "Frost Ridge derby",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].target: Target 'Frost Ridge derby' is a paraphrase with no locale id. The client has '395009: Wear and Tear [Encounter]', which the answer never mentions, and the answer says the encounter id is guide-only. T",
+    "objectives[0].count: Count is null. The objective text ('without getting knocked out') implies a failure condition (zero knockouts), not a counted goal, so leaving count null is defensible but the answer does not say what",
+    "line: Previous and next are empty and the order is unverified. The answer says so honestly, which is acceptable under the evidence lens.",
+    "objectives[0].count: Count left null, but the client has an unused candidate the answer did not weigh. locale:410566 (quest_objective, hint '-' i.e. untagged to any quest) reads 'Make it to the end of the derby without ge",
+    "line.previous / line.next: Left empty with no statement that the guide's order is inferred (Turf Tussle before, Getting Scrappy after). The chain is therefore unlinked even though the guide's row 18 gives a probable previous. T"
+   ]
+  },
+  {
+   "quest_id": 3060026,
+   "record": "quest-lines/quests.json q3060026",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Frost Ridge Invitational",
+   "live": "unsure",
+   "giver": {
+    "name": "Burt 'Wrecking' Crewe",
+    "npc_id": "9500000731",
+    "locale_id": 100244
+   },
+   "resolved_giver": {
+    "npc_id": 9500000731,
+    "name": "Burt 'Wrecking' Crewe",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Compete in the Frost Ridge Invitational",
+     "text_locale_id": 394134,
+     "target": "Frost Ridge Invitational",
+     "target_locale_id": 393331,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward amount or item found for this quest",
+     "source": "open: no source"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 401460,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 393411,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line: The answer leaves out the Crash Cup link that its own source gives. Guide row 23 (Demolition Derby Driver.md:106) says this quest 'Completes the three-event Crash Cup (2353093926)' and marks it as Cra",
+    "line.previous / line.next: Empty arrays read as 'no neighbours'. The answer's own open note says they are unknown. The record's empty prerequisite_quest_ids only means the record has none, not that none exist.",
+    "giver: The giver is Burt (9500000731), which the guide, snowhill.json:5472 and locale 100244 support as an NPC at Frost Ridge. But the answer does not say that the record's giver_npc_id 9000000262 also appea",
+    "live: The text marks live as 'unsure', but the pack's 393411 and 401460/401467 lines show the event's pre-start and in-event dialogue exists. Those lines are unassigned, so the answer is right not to treat ",
+    "objectives[0]: The objective id 394134 ('Compete in the Frost Ridge Invitational') is real and matches the locale text, but it is tied to this quest only by the guide (row 23). The shared 'Frost Ridge Invitational' ",
+    "objectives[0].target: The target 'Frost Ridge Invitational' (393331) is a quest_title string (the event name), not a place, NPC or item target. Using it as the objective target is a category error."
+   ]
+  },
+  {
+   "quest_id": 3140007,
+   "record": "quest-lines/quests.json q3140007",
+   "quest_file": "soccer_star.json",
+   "title": "Soccer Star: Achieve Level 2",
+   "live": "yes",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000058",
+    "locale_id": 401743
+   },
+   "resolved_giver": {
+    "npc_id": 100000004282,
+    "name": "Coach &quot;Golden Leg&quot; Eddie",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Compete in some soccer games until you reach at least level 2, then return to Coach \"Golden Leg\" Eddie.",
+     "text_locale_id": 409616,
+     "target": "Coach \"Golden Leg\" Eddie",
+     "target_locale_id": 401743,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Coach Eddie wants you to reach level 2",
+     "text_locale_id": 409619,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 409606,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "next: The next quest is named only by title and client locale (407414, verified as 'Soccer Star: Slowing The Snowspurs'). No record id is given, so a builder cannot wire the chain link by id. The guide row ",
+    "objectives[1].target: The answer's evidence says 409619 is 'tagged to Coach Eddie', but the objective sets target to null. The locale text ('Coach Eddie wants you to reach level 2') names Eddie only in the text, not as a t",
+    "dialog.offer: The pack labels 409603 as intro_text, and the answer calls it a gate message. The answer leaves offer null and says no true offer line exists. That is acceptable, but 409605 (the description, verified",
+    "line.previous / next: The guide's row 3 to row 4 and row 4 to row 5 sequence is inferred from dialog, not confirmed. The answer says the guide's row 5 link is 'marked inferred on sequence', but the guide marks only row 5's",
+    "evidence (bare title): The claim that the bare title 'Slowing The Snowspurs' is locale 402606 was not verified in this check. Locale 407414 is confirmed as 'Soccer Star: Slowing The Snowspurs'. The guide gives only ucdt/ugd"
+   ]
+  },
+  {
+   "quest_id": 3150010,
+   "record": "quest-lines/quests.json q3150010",
+   "quest_file": "warrior.json",
+   "title": "Warrior: Achieve Level 10",
+   "live": "yes",
+   "giver": {
+    "name": "Aster",
+    "npc_id": "9000000243",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000243,
+    "name": "Aster",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 10 as a warrior, then return to Aster.",
+     "text_locale_id": 387497,
+     "target": "Aster",
+     "target_locale_id": null,
+     "count": 10,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 387488,
+     "speaker": "Aster"
+    },
+    "progress": {
+     "locale_id": 387490,
+     "speaker": "Aster"
+    },
+    "complete": {
+     "locale_id": 387491,
+     "speaker": "Aster"
+    }
+   },
+   "critic_problems": [
+    "quest.title_locale_id: Locale 387489 is typed quest_objective in the client lookup, not quest_title. The answer's wording ('title locale') does not say this. The text 'Warrior: Achieve Level 10' itself is confirmed for Aste",
+    "objectives[0]: Verified: 387497 'Reach level 10 as a warrior, then return to Aster.' and 387499 'Level up to 10 as a warrior.' are Aster quest_objective lines in the client cluster. The count 10 comes from text. Kin",
+    "line.next: The next link to 3150012 'Warrior: Knocking Some Sense In' rests only on the skeleton record's prerequisite field and the dossier. Its title (locale 71265) and intro (71264) were not re-verified, and ",
+    "giver.locale_id: Giver name locale id is null. It is not needed for wiring, but the NPC name 'Aster' is confirmed by the quest_objective and dialog lines in the client cluster.",
+    "live: Live=yes rests on unflagged client text and the wiki Warrior page, both verified here. The record itself has enabled:false, which the answer lists as evidence but does not reconcile with live=yes. Tha",
+    "line.previous: Left empty while the wiki Warrior page lists an '[Achieve] [Level] 5' entry just before this quest. The answer flags this as open, but the gap is unresolved. The client text for 'Achieve Level 5' foun"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3010034,
+   "record": "quest-lines/quests.json q3010034",
+   "quest_file": "archer.json",
+   "title": "Archer: Attack From Above",
+   "live": "yes",
+   "giver": {
+    "name": "Bowman Bilter",
+    "npc_id": "9000000029",
+    "locale_id": 77805
+   },
+   "resolved_giver": {
+    "npc_id": 100000002983,
+    "name": "Bowman Bilter",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Troll Seesharps in the Forest Troll Fort as an archer and return to Bowman Bilter when done.",
+     "text_locale_id": 116762,
+     "target": "Troll Seesharp",
+     "target_locale_id": 15852,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": 78493,
+    "progress": null,
+    "complete": 78496
+   },
+   "critic_problems": [
+    "giver: The offer (78493) and closing (78496) text are spoken by Bullseye ('return to me'), while 78495 and 116762 say 'return to Bowman Bilter'. Bilter as giver rests only on record giver_npc_id 9000000029, ",
+    "objectives[0].text_locale_id: Three near-identical client strings exist: 95025 ('Defeat Troll Seesharps in the Forest Troll Fort'), 101242 ('...and then return to me'), and 116762 ('...as an archer and return to Bowman Bilter when",
+    "live_reason: The live verdict relies on text presence. The lookup shows no FLAG on 78493/78495, which supports it. Repeatability is unverified and the closing line is only a hint.",
+    "objectives[0].text_locale_id: 116762 is a real client string (quest_objective, zone Forest Troll Fort, Bowman Bilter) with the exact text the repo guide ties to this quest (guide hash 1876281236). But the answer's mapping is by co",
+    "dialog.complete / giver: The closing text 78496 is tagged speaker Bullseye (Sacred Grove), and the offer 78493 says 'return to me'. The answer lists Bowman Bilter as giver and 78496 as the completion dialog without resolving ",
+    "live / repeatable: Repeatability is only hinted by 78496 ('if you ever want to take them on again'); the answer correctly does not claim it. The live claim is supported: 78494, 78495, 78493, 78496, 116762 all resolve in"
+   ],
+   "blocked_by": [
+    "defeat target 'Troll Seesharp' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3030028,
+   "record": "quest-lines/quests.json q3030028",
+   "quest_file": "brawler.json",
+   "title": "Brawler: One Man's Junk...",
+   "live": "unsure",
+   "giver": {
+    "name": "Nurble",
+    "npc_id": "9000000415",
+    "locale_id": 20518
+   },
+   "resolved_giver": {
+    "npc_id": 9000000415,
+    "name": "Nurble",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a brawler, collect the stolen goods from the Robgoblin Troublemakers that lair to the north of the Robgoblin Camp and return to Nurble when done.",
+     "text_locale_id": 141019,
+     "target": "Robgoblin Camp (north lair)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Robgoblin Troublemakers",
+     "text_locale_id": 141023,
+     "target": "Robgoblin Troublemakers",
+     "target_locale_id": 103598,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Nurble",
+     "text_locale_id": 141021,
+     "target": "Nurble",
+     "target_locale_id": 20518,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000415,
+      "name": "Nurble",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Payment for Andrew's IOU (amount not stated in source; the end text only says 'you have your payment')",
+     "source": "locale:141012"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 141009,
+     "speaker": "Nurble"
+    },
+    "progress": {
+     "locale_id": 141031,
+     "speaker": "Nurble"
+    },
+    "complete": {
+     "locale_id": 141012,
+     "speaker": "Nurble"
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The first objective is labelled kind 'go' but its text (141019) is a collect-and-return instruction. The answer never records a separate collect step, so a builder would have no stated item count or '",
+    "rewards[0]: Honestly flagged as unknown amount. Verified: locale 141012 says only 'As promised, you have your payment!'. No defect, but the reward remains unbuildable from the evidence.",
+    "live: Verified that 141009 to 141031 are unflagged in the client cluster and that the record is enabled:false. The 'unsure' verdict is reasonable.",
+    "rewards: Reward is recorded only as kind 'other' with no amount or item. The end text (141012) says 'you have your payment' and gives no value. I found no source for the amount in the client text or the repo n",
+    "objectives[0]: The 'go' objective has target null and count null. The text (141019) names the Robgoblin Troublemakers' north lair with no coordinates or named place, so the target is not resolvable from the text. Th",
+    "line: Chain links check out. Previous 3030027 'Brawler: IOU!' (prereq of 3030028) and next 3030029 'Brawler: Curious Key' (prereq of 3030029) both match brawler.json and Brawler.md row M9, which sits after "
+   ],
+   "blocked_by": [
+    "defeat target 'Robgoblin Troublemakers' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3030029,
+   "record": "quest-lines/quests.json q3030029",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Curious Key",
+   "live": "yes",
+   "giver": {
+    "name": "Nurble",
+    "npc_id": "9000000415",
+    "locale_id": 20518
+   },
+   "resolved_giver": {
+    "npc_id": 9000000415,
+    "name": "Nurble",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Return the key to Mayor Crystalline in Snowhill.",
+     "text_locale_id": 141072,
+     "target": "Mayor Crystalline",
+     "target_locale_id": 182,
+     "count": 1,
+     "resolved_npc": {
+      "npc_id": 9000000143,
+      "name": "Mayor Crystalline",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Narrative reward text only (honesty rewarded); no coins, XP or item amount in the pack",
+     "source": "locale:141070"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 141064,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 141067,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "dialog: The answer labels 141066 as the 'offer' dialog, but the client types 141066 as quest_objective (the description text). The record schema has no offer/progress/complete fields; the built record uses in",
+    "evidence[9] / npc location: The claim 'Mayor Crystalline is ... near the town hall' is cited to locale:182, but locale 182 is only the name 'Mayor Crystalline'. The location comes from NPCs - Snowhill.md:25 and the client locati",
+    "objectives[0]: Verified: text 141072 is 'Return the key to Mayor Crystalline in Snowhill.' (quest_objective, Snowhill, Brawler: Curious Key) and the target name is locale 182. The count of 1 is not in any text and i",
+    "chain.next: The next link 'Brawler: Achieve Level 10' comes from the guide's row order (M11), not from a server link. The repo's 3030030 record exists with title 387371 and the guide's ucdt 4284196844, so the id ",
+    "dialog: The progress dialog is set to 141064, which is the intro text (the key says 'Return to Mayor Crystalline if found'). The offer slot is set to 141066, the description. The evidence pack maps 141064 to ",
+    "giver: Giver checks out: Nurble, npc 9000000415, Wilds/Robgoblin Camp, matches NPCs - Wilds.md:91 and the wiki list. Locale 141072 and 141070 and 141066 and 141064 and 141067 are real, unflagged strings, and"
+   ],
+   "blocked_by": [
+    "deliver target 'Mayor Crystalline' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3040027,
+   "record": "quest-lines/quests.json q3040027",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Playing a Prodigy",
+   "live": "unsure",
+   "giver": {
+    "name": "Herme Fickleleaf",
+    "npc_id": "9000000347",
+    "locale_id": 115490
+   },
+   "resolved_giver": {
+    "npc_id": 9000000347,
+    "name": "Herme Fickleleaf",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Seek out Maple Sugarleaf at Farnum Farmstead and see if she'll play you a match.",
+     "text_locale_id": 104329,
+     "target": "Maple Sugarleaf",
+     "target_locale_id": 74103,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000141,
+      "name": "Maple Sugarleaf",
+      "file": "npcs/farnum_farmstead.json",
+      "zone": "Farnum Farmstead",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Maple",
+     "text_locale_id": 104325,
+     "target": "Maple Sugarleaf",
+     "target_locale_id": 74103,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000141,
+      "name": "Maple Sugarleaf",
+      "file": "npcs/farnum_farmstead.json",
+      "zone": "Farnum Farmstead",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Maple's Trick Deck",
+     "text_locale_id": 104323,
+     "target": "Maple's Trick Deck",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced",
+     "source": "no reward string for title 104328 in the client; record rewards are empty"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 104327,
+     "speaker": "Herme Fickleleaf"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104330,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: The giver Herme Fickleleaf (npc 9000000347, name 115490) is confirmed as a name string. Nothing in the client ties offer text 104327 to him. The attribution rests on the guide's row 26 (Build Guides/C",
+    "dialog.complete: 104330 ('Impressive. You're certainly not new to this.') as the end line and 104332 (completion summary) are a best reading. The client does not label either as the completion dialog. The answer hedge",
+    "line: The answer does not mention that the client has a second Maple 'Playing a Prodigy' pair (locale 104319 title, 104320 objective 'Find Maple Sugarleaf at Farnum Farmstead and play her a game of cards').",
+    "dialog: dialog.offer = 104327, complete = 104330 and the 104332 completion summary are labelled as offer/complete, but the client does not tag them that way. 104330 ('Impressive. You're certainly not new to t",
+    "giver: The speaker of 104327 is not named in the client. Attributing the offer to Herme Fickleleaf is inference. The 104313 line (Herme's 'cafe north of Merry Vale' battle with Maple) makes it plausible, but",
+    "line: The Riley-vs-Maple split rests on proximity. 101774 ('Player's Club: Riley's Challenge') and 101887 do name Riley, but nothing in the client directly ties 101900/101901/101922/101775 to that quest's t"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Maple's Trick Deck)"
+   ]
+  },
+  {
+   "quest_id": 3060032,
+   "record": "quest-lines/quests.json q3060032",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Action!",
+   "live": "unsure",
+   "giver": {
+    "name": "Sydney Spellmerg",
+    "npc_id": "9000000482",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000482,
+    "name": "Sydney Spellmerg",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Deal a lot of damage and get a high score in the arena so that Sydney Spellmerg can film his scene.",
+     "text_locale_id": 394474,
+     "target": "derby encounter 264416407 (guide row 29; not mapped to a server target)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 393358,
+     "speaker": "Sydney Spellmerg"
+    },
+    "progress": {
+     "locale_id": 394307,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "giver.locale_id: Left null, but the name string resolves in the client. Locale 394256 is exactly 'Sydney Spellmerg' (the answer's own open item says it could not be re-checked). The id is real and unflagged.",
+    "live: 'unsure' is a fair call. Title 403473 = 'Demo Derby: Action!', offer 393358, progress 394307 ('We're rolling! You need to be in the arena dealing some damage!') and objective 394474 all check out as u",
+    "objectives[0]: Text id 394474 matches the objective string exactly. Kind 'other' and the null target are honestly flagged as unmapped, so this is not an unsupported claim. The guide row 29 cites encounter 264416407,",
+    "line.previous / line.next: Both links rest on single guide rows (28 and 30) that match the guide text. 'An Incomplete Set' (403472) and 'Hurtin' Crewe Act II' (403474) are real titles. The answer discloses that the next link's ",
+    "objectives[0]: Objective is kind 'other' with no server target. Text 394474 checks out verbatim ('Deal a lot of damage and get a high score in the arena so that Sydney Spellmerg can film his scene.'), and the guide'",
+    "line.next[0]: Next link 'Hurtin' Crewe Act II' rests only on guide row 30. Its built record (3060033) names giver 9000000211, which the answer itself flags as conflicting. The link is therefore not safe to wire as-"
+   ],
+   "blocked_by": [
+    "giver 'Sydney Spellmerg' row 9000000482 not placed"
+   ]
+  },
+  {
+   "quest_id": 3060036,
+   "record": "quest-lines/quests.json q3060036",
+   "quest_file": "demo_derby_driver.json",
+   "title": "Demo Derby: Encore!",
+   "live": "unsure",
+   "giver": {
+    "name": "Sydney Spellmerg",
+    "npc_id": "9000000482",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000482,
+    "name": "Sydney Spellmerg",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver 9000000482 (Sydney Spellmerg) is guide-inferred. No client string names the quest or the giver, and the answer says so. The dossier also notes that sibling records use 9000000211 and 9000000486,",
+    "evidence: Checked and correct: locale 403477 = 'Demo Derby: Encore!' (unflagged quest_title); 393322 = 'Encore!'; 395023 = 'Encore! [Encounter]'. The guide row 33 (line 123) matches the answer's description: no",
+    "line: Previous and next are both empty. That matches the answer's own open note: the Sir Horace link is guide order only, and the Odd Audition series membership is unknown. Nothing in the other chain notes ",
+    "objectives: Objectives are empty and no objective string is live-confirmed. The answer does not treat 394476 or the guide candidates as live, which is correct.",
+    "line: The answer drops the previous link to Sir Horace (3060035). That is defensible because the guide row 33 only says 'after Sir Horace (inferred)'. The batch file jobs.json:663-664 does list 3060035 dire",
+    "line.next: Next is recorded as empty. Row 34 (The Odd Audition, locale:403470) sits between Encore and Copy Cat in the guide's order, and Copy Cat (row 35, locale:403478) is 'after the film series (inferred)'. T"
+   ],
+   "blocked_by": [
+    "giver 'Sydney Spellmerg' row 9000000482 not placed"
+   ]
+  },
+  {
+   "quest_id": 3110002,
+   "record": "quest-lines/quests.json q3110002",
+   "quest_file": "ninja.json",
+   "title": "Ninja: Stolen Away",
+   "live": "unsure",
+   "giver": {
+    "name": "Grosh",
+    "npc_id": "9000000335",
+    "locale_id": 20955
+   },
+   "resolved_giver": {
+    "npc_id": 9000000335,
+    "name": "Grosh",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat the Troll Summoner",
+     "text_locale_id": 115023,
+     "target": "Troll Summoner",
+     "target_locale_id": 15623,
+     "count": 1,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward confirmed. The 25 Ninja job XP in our record is an unsourced reconstruction and was dropped.",
+     "source": "none"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 78924,
+     "speaker": "Grosh"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: The answer drops the reconstructed kill model id 930096 (Troll Summoner, field_battles battle 96) that the evidence pack and ninja.json carry. The answer is right to keep it out of live wiring, but a ",
+    "objectives: Ninja.md Entry line E2 lists a pre-kill step, 'Talk to Grosh in the Forest Troll Village' (locale 301874676), and an intro step 'Head to the Forest Troll Village and investigate the pixie kidnappings'",
+    "live: Verified: locale 78925 'Ninja: Stolen Away', 115023 'Defeat the Troll Summoner', 115024, 15623 'Troll Summoner', 78926 and 20955 context are real and unflagged in the locale lookup. The 'unsure' verdi",
+    "line: The next-quest claim conflicts with the chain note. This answer lists 'Ninja: Silence is Golden... and Deadly' as next after Stolen Away, but that quest's answer lists 'Ninja: Super Star' as its previ",
+    "dialog / intro: Locale 78924 is typed quest_objective in the client, not an offer or intro dialog. The answer's evidence calls it 'Intro', which mislabels its type. The text itself is still a real unflagged client li",
+    "giver: The giver rests on the wiki list layout, which places a '[Grosh] [Stolen Away]' group between Ty's entries. That layout shows grouping, not an explicit giver tag. The stronger support is the quests_gi"
+   ],
+   "blocked_by": [
+    "defeat target 'Troll Summoner' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3140016,
+   "record": "quest-lines/quests.json q3140016",
+   "quest_file": "soccer_star.json",
+   "title": "Soccer Star: Cheetahs Double Challenge",
+   "live": "unsure",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000281",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000053,
+    "name": "Coach \"Golden Leg\" Eddie",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Coach \"Golden Leg\" Eddie wants you to beat the Cheetahs in a Double Challenge, run them down two times",
+     "text_locale_id": 414956,
+     "target": "Cheetahs",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 414954,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 414957,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The objective is kind 'other' with target 'Cheetahs' and no target id. Locale 414956 does say 'run them down two times', but the Cheetahs are not named as a match target anywhere. The count of 2 is ta",
+    "giver: The giver id 9000000281 is supported only by the unresolved-NPC file and the record. The answer cites npcs_unresolved.json:2081, but the Cheetahs key appears at line 2095, so the cited line is off. Th",
+    "line.previous: Previous is empty and the guide's placement is 'inferred'. That is honest, but the chain link is unverified, so a builder cannot place the quest in its line.",
+    "live: The live status is 'unsure' and the record is enabled=false with no objectives or rewards. The answer is accurate on this, but it states the title, offer, objective and completion ids as live. The cli",
+    "line.previous: Previous is left empty, but the guide's row 13 places this quest after the Goalbusters and Black Widows opening games (marked inferred). The answer lists Power Game (locale:414935) and Black Widows' R",
+    "objectives[0]: Verified: locale:414956 and 414955 and 414954 and 414957 and 414960 and 414959 are real, unflagged, and match the answer's text. The objective is kind 'other' with target 'Cheetahs' and null locale id"
+   ],
+   "blocked_by": [
+    "giver 'Coach \"Golden Leg\" Eddie' row 9000000053 not placed"
+   ]
+  },
+  {
+   "quest_id": 3140022,
+   "record": "quest-lines/quests.json q3140022",
+   "quest_file": "soccer_star.json",
+   "title": "Soccer Star: Returning The Trophy",
+   "live": "yes",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000055",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000053,
+    "name": "Coach \"Golden Leg\" Eddie",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Coach \"Golden Leg\" Eddie wants you to retrieve the stolen trophy and return it to Manager Landon.",
+     "text_locale_id": 402791,
+     "target": "Coach \"Golden Leg\" Eddie",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000053,
+      "name": "Coach \"Golden Leg\" Eddie",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Go to the Cheetahs' camp",
+     "text_locale_id": 402999,
+     "target": "Cheetahs' camp south of Merry Vale",
+     "target_locale_id": 402593,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Distract the Robgoblins with your \"Something Shiny\" ability so you can retrieve the tournament trophy!",
+     "text_locale_id": 406615,
+     "target": "Robgoblin Troublemaker (stunned)",
+     "target_locale_id": 399372,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver the trophy to Manager Landon",
+     "text_locale_id": 402946,
+     "target": "Manager Landon",
+     "target_locale_id": 401744,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000140,
+      "name": "Manager Landon",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "repo:notes/Build Guides/Content/Jobs/Soccer Star.md:105 (rewards 'unknown')"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 402596,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: target_locale_id 402593 is the opening dialog paragraph ('The tournament trophy's been stolen!... south of Merry Vale'), not a place name. The target field should be a short place label; the text is u",
+    "giver: npc_id 9000000055 has no NPC record tying it to 'Coach \"Golden Leg\" Eddie'. The name rests only on the guide and the offer text (402791 names Eddie as speaker, but does not give an NPC id). The answer",
+    "line.previous / line.next: Both links come from the guide's row order and the 'After Trophy Detective' inference, not from stored prerequisites (the evidence pack has prerequisite_quest_ids: []). The next link to 'Achieve Level",
+    "dialog.complete / dialog.progress: Both are null, so a builder has no completion or reminder line. The guide's row 19 has reminder lines (802213705 'The tournament trophy must be taken back to Manager Landon...', 3026614299) that the a",
+    "objectives[2]: The text 406615 and target 399372 check out as live, unflagged lines. The objective is the stunned-Robgoblin interaction, and the guide lists it under 'Click on / Interact with' (3553743727, 373925694",
+    "giver: giver.locale_id is null, but the name is in the client: locale:401743 is 'Coach \"Golden Leg\" Eddie' (npc_name). The npc_id 9000000055 is taken from our soccer_star.json record and is not tied to any N"
+   ],
+   "blocked_by": [
+    "giver 'Coach \"Golden Leg\" Eddie' row 9000000053 not placed",
+    "talk target 'Coach \"Golden Leg\" Eddie' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3140028,
+   "record": "quest-lines/quests.json q3140028",
+   "quest_file": "soccer_star.json",
+   "title": "Soccer Star: Robgoblin Troublemakers",
+   "live": "unsure",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000281",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000053,
+    "name": "Coach \"Golden Leg\" Eddie",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the taunt emote on Lika",
+     "text_locale_id": 402826,
+     "target": "Lika",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Use the taunt emote on Kronk",
+     "text_locale_id": 403034,
+     "target": "Kronk",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Use the taunt emote on Grick",
+     "text_locale_id": 403036,
+     "target": "Grick",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Record giver 9000000281 is an unresolved ref (npcs_unresolved.json:2081), and the resolved Coach \"Golden Leg\" Eddie is 9000000053 (wilds.json:9835). The answer correctly says the link is unproven, but",
+    "objectives[0..2]: The taunt lines 402826/403034/403036 check out as exact client text (verified). But they are included on guide-only tie, while the scold line 402827 ('Scold the robgoblin troublemakers.', verified tex",
+    "line: Previous 'Ants In The Pants' (row 24, locale 407416 verified) and next 'Achieve Level 19' (row 26, locale 409681 verified) agree with the guide order (row 23 Achieve Level 15, row 24 Ants, row 25 this",
+    "dialog: Dialog offer/progress/complete are null. The guide cites dialog lines (473659615 'Intimidate them...', 3327375023 'Use your taunt emote...', 2381661277 scold offer) but these are hashes, not verified ",
+    "giver: The record's giver 9000000281 is an unresolved 'Coach Eddie' ref, and the answer's named candidate 9000000053 is only a name match. The guide's row 25 gives Coach Eddie by hash 2381661277, not a resol",
+    "line: Previous and next links check out against the guide order. Row 24 is 'Ants In The Pants' (locale 407416, confirmed), row 25 is this quest, and row 26 is 'Achieve Level 19' (locale 409681, confirmed as"
+   ],
+   "blocked_by": [
+    "giver 'Coach \"Golden Leg\" Eddie' row 9000000053 not placed"
+   ]
+  },
+  {
+   "quest_id": 3140029,
+   "record": "quest-lines/quests.json q3140029",
+   "quest_file": "soccer_star.json",
+   "title": "Soccer Star: Achieve Level 19",
+   "live": "unsure",
+   "giver": {
+    "name": "Coach \"Golden Leg\" Eddie",
+    "npc_id": "9000000058",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000053,
+    "name": "Coach \"Golden Leg\" Eddie",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Compete in some soccer games until you reach at least level 19, then return to Coach \"Golden Leg\" Eddie.",
+     "text_locale_id": 409816,
+     "target": "player level 19",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver is named Coach \"Golden Leg\" Eddie, but the record's giver_npc_id 9000000058 is still unresolved and the answer does not tie it to any NPC entry. The giver locale id is null. The line-level place",
+    "line.previous: The answer lists only Robgoblin Troublemakers. The guide's Arc 3 table is 23 Achieve Level 15, 24 Ants In The Pants, 25 Robgoblin Troublemakers, 26 Achieve Level 19, 27 Tournament Champion. The row or",
+    "giver.locale_id: Left null, but the giver name locale id is confirmed in the client: 401743 = 'Coach \"Golden Leg\" Eddie' (unflagged). The answer said it was not re-checked.",
+    "line.previous: The evidence ties locale 409680 (the level-19 pointer, 'Just make it to level 19...') to the Level 15 title, and the level-gate objectives 409810 (Level 15) and 409816 (Level 19) are the same chain. T",
+    "giver.npc_id: Record giver 9000000058 is confirmed only as unresolved (npcs_unresolved.json:552 and seven sibling records). Nothing in the repo ties it to Eddie; 9000000053 is the only Eddie entry (wilds.json:9835,"
+   ],
+   "blocked_by": [
+    "giver 'Coach \"Golden Leg\" Eddie' row 9000000053 not placed"
+   ]
+  },
+  {
+   "quest_id": 3150011,
+   "record": "quest-lines/quests.json q3150011",
+   "quest_file": "warrior.json",
+   "title": "Contract: Thinning Their Numbers",
+   "live": "yes",
+   "giver": {
+    "name": "Caleb Sleepyswing",
+    "npc_id": null,
+    "locale_id": 388352
+   },
+   "resolved_giver": {
+    "npc_id": 9000000040,
+    "name": "Caleb Sleepyswing",
+    "file": "npcs/wilds.json",
+    "zone": "Wilds",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Handle the fairy cultists and robgoblin fishmongers nearby; the pixies of the Pixie Nursery are being threatened. No count given.",
+     "text_locale_id": 388362,
+     "target": "Robgoblins and fairy cultists near the Pixie Nursery",
+     "target_locale_id": 388360,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388360,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 388363,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line.next: next is empty, but the chain note says 'Warrior: Achieve Level 10' (3150010) lists 'Warrior: Knocking Some Sense In' (3150012) as next, and warrior.json has 3150012 with the same prerequisite. The ans",
+    "zone: Zone conflict is correctly left open. The wiki Warrior page says 'Caleb Sleepyswing in Northern Wilds', and locale:388361 is hinted 'Pixie Nursery'. Both are real sources, so the conflict stays open.",
+    "giver.npc_id: Giver id left null. The unresolved key 9000000267 (npcs_unresolved.json:1907) is used by warrior.json:626 and the resolved Caleb Sleepyswing is 9000000040 (npcs/wilds.json:7987). The answer discloses ",
+    "live: Liveness rests on the wiki listing plus unflagged client text. Lookup confirms locale:388361 (quest_title) and 388360/388362 carry no FLAG, so the evidence supports moderate liveness.",
+    "objectives[0]: Targets are client text only ('robgoblins and fairy cultists', 'fishmongers') with no bound NPC ids; count null. Stated honestly in open. The kind 'other' is a reasonable choice.",
+    "giver: Giver is left with npc_id null while the repo holds two keys: 9000000267 (unresolved, used by warrior.json:626) and 9000000040 (resolved Caleb Sleepyswing in wilds.json:7987, used by warrior.json:368)"
+   ],
+   "blocked_by": [
+    "giver 'Caleb Sleepyswing' row 9000000040 not placed"
+   ]
+  }
+ ]
+}

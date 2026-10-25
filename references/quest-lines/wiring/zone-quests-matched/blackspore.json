@@ -1,0 +1,1804 @@
+{
+ "zone": "Blackspore",
+ "wireable_by_match": [
+  {
+   "quest_id": 3020020,
+   "record": "quest-lines/quests.json q3020020",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Silver Appearance",
+   "live": "yes",
+   "giver": {
+    "name": "Billie JoBob",
+    "npc_id": "9000000025",
+    "locale_id": 94635
+   },
+   "resolved_giver": {
+    "npc_id": 100000004152,
+    "name": "Billie JoBob",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Billie",
+     "text_locale_id": 95066,
+     "target": "Billie JoBob",
+     "target_locale_id": 94635,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000004152,
+      "name": "Billie JoBob",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Find Billie JoBob outside the passage to Blackspore and give him the Glistening Scythes you forged",
+     "text_locale_id": 95171,
+     "target": "Billie JoBob",
+     "target_locale_id": 94635,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000004152,
+      "name": "Billie JoBob",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Billie has recommended that you head through the path to Blackspore just behind him. Once through the cave, find Quagmire Quarry to the South and speak with Silverray.",
+     "text_locale_id": 95184,
+     "target": "Silverray (Quagmire Quarry)",
+     "target_locale_id": 77706,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000203,
+      "name": "Silverray",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Billie's racecar purchase is mentioned in the thanks text; no reward item or coin amount is confirmed.",
+     "source": "locale:95185"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 95172,
+     "speaker": "Billie JoBob"
+    },
+    "complete": {
+     "locale_id": 95185,
+     "speaker": "Billie JoBob"
+    }
+   },
+   "critic_problems": [
+    "dialog.progress: Locale 95172 ('What can I do for you? Oh, are you here to deliver the Glistening Scythes I asked Mili for?') reads as Billie's greeting when the player arrives with the scythes, not a confirmed progre",
+    "evidence[9] / objectives[1]: The answer says Blacksmith.md row 20 asks for a Rowdy Rumbler Hammer. I did not verify that row. The client confirms the hammer belongs to the Breaking Bank quest (94599/94577 titles, 94600/94578 obje",
+    "giver: The giver npc_id 9000000025 comes from npcs_unresolved.json, not a confirmed spawn. The name 94635 'Billie JoBob' is confirmed as an npc_name line, so the name is supported and the id is not.",
+    "line.previous: The chain note says the Reach Level 15 answer lists Breaking Bank as next. The evidence pack places Breaking Bank at row 18, Reach Level 15 at row 19 and Silver Appearance at row 20 of the Band 4 tabl",
+    "objectives[2]: target_locale_id 77706 is the bare name 'Silverray'. The '(Quagmire Quarry)' qualifier is a place from 95104/95169, not from 77706. The target is valid but the label mixes two sources.",
+    "objectives[1] / open[0]: The answer keeps the Glistening Scythes vs Rowdy Rumbler Hammer conflict as unresolved and treats the hammer lines as possibly belonging to another Billie quest. The lookup settles it. Locale 94576, 9"
+   ]
+  },
+  {
+   "quest_id": 3020025,
+   "record": "quest-lines/quests.json q3020025",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Forging Rumors",
+   "live": "unsure",
+   "giver": {
+    "name": "Silverray",
+    "npc_id": "9000000203",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000203,
+    "name": "Silverray",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "live / record identity: The answer's central identity link is unresolved. Title 95097 is tagged to bat-themed dialog (95116-95121, 95123 all show quest 'Blacksmith: Forging Rumors'), while the Anata rumor texts (100160, 1001",
+    "objectives: Empty objectives are an honest unknown, not an error. Candidate texts 100161, 100165 and 100166 are verified as client objective text with the 'Forging Rumors' hint, but their order, kind and target a",
+    "line.next: The next link 'Blacksmith: Lady of the Lake' (95098 title, record 3020026) is consistent with the record order. Its giver is Anata Caliburn per guide row 26, but the record's own giver is 9000000006 a",
+    "dialog: Dialog ids are correctly withheld. The offer candidate 95143 exists and reads as the Anata rumor story, but it is not tied to this record in any source.",
+    "title / identity: Verified: locale:95097 = 'Blacksmith: Forging Rumors' and locale:100160 = 'Forging Rumors' both exist. The Anata rumor texts (95143, 100161, 100165, 100166) are real and match the guide's row 25 wordi",
+    "next: Next link 'Blacksmith: Lady of the Lake' (3020026) is consistent with record order and guide row 26, but the record's own giver is 9000000006, not Anata Caliburn (guide row 26). The handoff from Silve"
+   ]
+  },
+  {
+   "quest_id": 3020026,
+   "record": "quest-lines/quests.json q3020026",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Lady of the Lake",
+   "live": "unsure",
+   "giver": {
+    "name": "Anata Caliburn",
+    "npc_id": "9000000006",
+    "locale_id": 100175
+   },
+   "resolved_giver": {
+    "npc_id": 100000002969,
+    "name": "Anata Caliburn",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Locate the lost sword, Summersaber, at its final dwelling place somewhere in Blackspore.",
+     "text_locale_id": 100282,
+     "target": "Blackspore",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Find the Summersaber",
+     "text_locale_id": 100284,
+     "target": "Summersaber",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "If it still exists, find the Summersaber somewhere in Blackspore.",
+     "text_locale_id": 100285,
+     "target": "Summersaber",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Anata Caliburn",
+     "text_locale_id": 100288,
+     "target": "Anata Caliburn",
+     "target_locale_id": 100175,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000002969,
+      "name": "Anata Caliburn",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Anata Caliburn, north of Blackspore.",
+     "text_locale_id": 100289,
+     "target": "Anata Caliburn",
+     "target_locale_id": 100175,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000002969,
+      "name": "Anata Caliburn",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Anata",
+     "text_locale_id": 100295,
+     "target": "Anata Caliburn",
+     "target_locale_id": 100175,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000002969,
+      "name": "Anata Caliburn",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 100292,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "min_level / line gate: The answer drops the level gate entirely. The Blacksmith note (notes/Build Guides/Content/Jobs/Blacksmith.md row 26) says 'After 25', while npcs_unresolved.json and the answer's own open items say 'af",
+    "objectives: The objective set is taken from the 1002xx hint 'Blackspore Lady of the Lake' (100282, 100284, 100285, 100288, 100289, 100295), and I confirmed those ids and texts. However, the note's row 26 maps Lad",
+    "objectives / targets: The 'lost sword' target is left as the bare name 'Summersaber' with no item id. The client has a 'lost blade' item (note: item 3246560498, 'The lost blade of Brenden Caliburn...') that is the likely c",
+    "dialog.offer / dialog.complete: Offer and completion dialogs are null. This is disclosed in open[], so it is honest, but it leaves the quest unwireable as a full state machine.",
+    "dialog: Offer and complete dialog ids are null. Only progress 100292 is attached, and it is a real unflagged quest_dialog line ('It's probably impossible... but did you find the Summersaber?', hint Blackspore",
+    "giver.zone / line: The answer puts the quest in Blackspore, but the NPC record (npcs_unresolved.json ref 9000000006) says zone Stillwater Crossing. The answer flags this as unverified, which is acceptable, but the zone "
+   ]
+  },
+  {
+   "quest_id": 3020027,
+   "record": "quest-lines/quests.json q3020027",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Tools of the Trade",
+   "live": "yes",
+   "giver": {
+    "name": "Anata Caliburn",
+    "npc_id": "9000000006",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 100000002969,
+    "name": "Anata Caliburn",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel to Sanctuary and locate Nirvi, at the Royal Smithy.",
+     "text_locale_id": 101102,
+     "target": "Nirvi",
+     "target_locale_id": 10076,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000160,
+      "name": "Nirvi",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Visit Nirvi at the Royal Smithy in Sanctuary and ask her for tools. Then return to Anata Caliburn.",
+     "text_locale_id": 101099,
+     "target": "Nirvi",
+     "target_locale_id": 10076,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000160,
+      "name": "Nirvi",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Bring the tools back to Anata Caliburn north of Blackspore at the Awespring Tributary.",
+     "text_locale_id": 101239,
+     "target": "Anata Caliburn",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000002969,
+      "name": "Anata Caliburn",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text found; the guide marks rewards unknown",
+     "source": "notes/Build Guides/Content/Jobs/Blacksmith.md:131-134"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 101215,
+     "speaker": "Nirvi"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "live: The live verdict rests on the absence of a not_live flag on the text. The answer's own live_reason concedes that enabled:false is the repo's switch and that the line order is guide-sourced. Unflagged ",
+    "objectives[1]: The pack and answer omit locale:101101 ('Speak with Nirvi', quest_objective, tagged Sanctuary / Tools of the Trade, unflagged). It is the concrete talk step for the Nirvi visit, and 101099 is a longer",
+    "giver.locale_id: Null, and the NPC id 9000000006 is not tied to any client string. This is disclosed, which is honest, but the giver name is inferred from quest text, not from an NPC record.",
+    "zone: The answer says Blackspore, while the wiki places Anata in Stillwater Crossing. The conflict is disclosed but not resolved. The client strings 101239 and 100161 do support 'north of Blackspore at the ",
+    "title collision: locale:33800 is also 'Tools of the Trade' (a different quest's title). The answer's title lookup does not mention the duplicate.",
+    "giver: Giver npc 9000000006 is only in the unresolved NPC file (npcs_unresolved.json:148) and jobs.json; no client NPC name or zone is tied to it. locale_id is null, and the zone 'north of Blackspore' rests "
+   ]
+  },
+  {
+   "quest_id": 3030020,
+   "record": "quest-lines/quests.json q3030020",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Prey on the Cray",
+   "live": "yes",
+   "giver": {
+    "name": "Petra",
+    "npc_id": "9000000428",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000428,
+    "name": "Petra",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "As a brawler, retrieve radiant gems from inside the Cracked Claw Caverns of Blackspore.",
+     "text_locale_id": 100505,
+     "target": "radiant gems",
+     "target_locale_id": 94644,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 72487,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 72491,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 72488,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "live_reason: States that no wiki page confirms the quest shipped. The wiki does: the 'Amateur Brawler Hammer' page says it 'was previously acquired by completion of [the] quest [Brawler]: [Prey] [on] [the] [Cray]'",
+    "rewards: Rewards are left empty and recorded as unknown, but the wiki evidence names a reward: the Amateur Brawler Hammer (level 1 Brawler weapon, no longer obtainable), acquired by completing this quest.",
+    "line.previous: Previous link to 'Brawler: Cemetery Security' rests only on the guide's entry wording (S5 'entry'). The wiki lists Cemetery Security as a Virgil Veilmont side quest, not a clear prerequisite of Prey o",
+    "giver.locale_id: Null, acceptable as stated, but the giver name is verified by the wiki ('Petra in Blackspore').",
+    "line.previous: The guide's entry rule (Brawler.md:119) is 'Entry from any of C6, H5 or S5', so the previous list is incomplete. C6 and H5 are dropped without being identified. The answer also cites S5 as the sole pr",
+    "objectives[0]: I checked the locale ids directly and they are real and unflagged: 100505 is 'As a brawler, retrieve radiant gems from inside the Cracked Claw Caverns of Blackspore.', 94644 is 'Collect radiant gems',"
+   ]
+  },
+  {
+   "quest_id": 3030023,
+   "record": "quest-lines/quests.json q3030023",
+   "quest_file": "brawler.json",
+   "title": "Brawler: Splendid Silver!",
+   "live": "yes",
+   "giver": {
+    "name": "Petra",
+    "npc_id": "9000000428",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000428,
+    "name": "Petra",
+    "file": "npc_spawns_extra.json",
+    "zone": null,
+    "placed": true,
+    "placement": "extra_spawn",
+    "confidence": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect silver dust from tormented spirits that wander around Blackspore, for Petra. The offer text says to defeat the spirits and bring back pouches of silver dust.",
+     "text_locale_id": 72497,
+     "target": "Tormented Spirit",
+     "target_locale_id": 76190,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "Return the silver dust to Petra (inferred from completion dialog; no objective line names a return)",
+     "text_locale_id": 72498,
+     "target": "Petra",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 72495,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 94649,
+     "speaker": "Petra"
+    },
+    "complete": {
+     "locale_id": 72498,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: The return-to-Petra objective is inferred and has no locale id. It is only weakly supported. Locale 72495 (offer) does say 'bring back some of their pouches of silver dust', so the turn-in is supporte",
+    "objectives[0]: The offer text (72495) tells the player to 'defeat' the tormented spirits; the answer folds this into the collect step. The count is null. Both are honest, but a builder needs to know the kill-then-co",
+    "chain: Checked: previous 3030021 'Brawler: Achieve Level 5' and next 3030024 'Brawler: Finding a Buyer' (title 72507, buyer objective 72508/72522 in Briarwood) match brawler.json lines 1331 and 1383. Giver P",
+    "live / evidence: The claim that the wiki Brawler index lists 'Brawler: Splendid Silver!' given by Petra in Blackspore was not verified. The answer itself says the wiki page was not reached. Nothing in the evidence pac",
+    "objectives[0]: The collect objective is supported: locale 72497 reads 'Petra would like for you to collect some silver dust from tormented spirits that wander around Blackspore.' and target 76190 resolves to 'Tormen",
+    "objectives[1]: The return-to-Petra objective is speculative. It has kind 'other' and no client objective line names it. The answer correctly flags it as inferred from completion line 72498, but a builder would have "
+   ]
+  },
+  {
+   "quest_id": 3100020,
+   "record": "quest-lines/quests.json q3100020",
+   "quest_file": "miner.json",
+   "title": "Miner: See For Yourself",
+   "live": "yes",
+   "giver": {
+    "name": "Grumpore",
+    "npc_id": "9000000337",
+    "locale_id": 77570
+   },
+   "resolved_giver": {
+    "npc_id": 9000000337,
+    "name": "Grumpore",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Visit Silverray at Quagmire Quarry in Blackspore.",
+     "text_locale_id": 77624,
+     "target": "Silverray",
+     "target_locale_id": 77706,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000203,
+      "name": "Silverray",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 77622,
+     "speaker": "Grumpore"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The zone is stated inconsistently. The answer says the giver is in Greenwood Forest, citing the giver dossier, but also cites a repo note placing Grumpore at Southvale Quarry. The wiki Miner page also",
+    "dialog.complete: Locale 77625 is tagged npc_dialog for Grumpore, but its text ('Grumpore and I go way back') is said by Silverray. The answer flags this, but still assigns it as the completion dialog without a verifie",
+    "line.previous: The prerequisite title 'Miner: Reach Level 15' has an unresolved locale id (387459 in the dossier). The answer's previous link relies on record prerequisite 3100019 and guide row 18, which is fine, bu",
+    "giver: The zone wording is muddled. The answer says the giver is 'in Greenwood Forest per the repo NPC note', but the repo NPC notes place Grumpore at Southvale Quarry: Blackspore Swamp notes line 167 says '",
+    "open[4]: The answer says previous title locale 387459 'did not resolve in the locale table, so that id is unverified'. It does resolve: locale 387459 = 'Miner: Reach Level 15', which matches guide row 18 and t",
+    "evidence: 'Grumpore's given-quest list includes See For Yourself': Cited to locale:77570, which is only the bare name 'Grumpore'. It does not show a quest list. The actual support is the giver dossier and the repo NPC notes (NPCs - Blackspore Swamp.md:167, Greenwood "
+   ]
+  },
+  {
+   "quest_id": 3110007,
+   "record": "quest-lines/quests.json q3110007",
+   "quest_file": "ninja.json",
+   "title": "Ninja: Achieve Level 5",
+   "live": "yes",
+   "giver": {
+    "name": "Chloe",
+    "npc_id": "9000000047",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000047,
+    "name": "Chloe",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Achieve level 5, then return to Chloe.",
+     "text_locale_id": 387217,
+     "target": "Ninja level 5 (level gate, no client target id)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387217,
+     "speaker": "Chloe"
+    },
+    "complete": {
+     "locale_id": 387203,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line.previous: Previous is left empty, but the wiki Chloe list puts 'Ninja: Handle With Care' directly before 'Ninja: [Achieve] [Level] [5]', and guide row C2 is 'After C1'. The answer's reason (gates are level-enfo",
+    "evidence[387200]: The claim that 387200 is 'Chloe's not-yet-eligible line' is an inference from the wording ('Come back when you are more experienced'). The locale row is unflagged but its role is not stated by the cli",
+    "objectives[0]: Verified: 387217 'Achieve level 5, then return to Chloe.' is unflagged and matches exactly. Title 387201 'Ninja: Achieve Level 5' and completion 387203 'Your skills have improved greatly.  Have you be",
+    "giver.locale_id: Null is honest; the giver name 'Chloe' is supported by the wiki Chloe list and the guide row C3. The npc_id 9000000047 was not re-checked here.",
+    "line.previous: Left empty. The wiki's Chloe list runs Strike from the Shadows, Handle With Care, Achieve Level 5, Trouble in Snowhill, Nothing to Sneeze At, That's the Spirit, so Handle with Care sits directly befor",
+    "evidence: The guide's C3 cites its objective as title-hash id 3615595168 and goal 1944226981. The answer uses locale 387217 and 387219 instead. I checked 387201 ('Ninja: Achieve Level 5') and 387217 ('Achieve l"
+   ]
+  },
+  {
+   "quest_id": 3110009,
+   "record": "quest-lines/quests.json q3110009",
+   "quest_file": "ninja.json",
+   "title": "Ninja: Nothing to Sneeze At",
+   "live": "yes",
+   "giver": {
+    "name": "Chloe",
+    "npc_id": "9000000047",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000047,
+    "name": "Chloe",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Chloe in Blackspore has asked you to collect pollen from the bixies in the Bixie Hive in the Queensfields.",
+     "text_locale_id": 78862,
+     "target": "Bixie Hive",
+     "target_locale_id": 5702,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Collect pollen from the bixie inhabitants of Bixie Hive.",
+     "text_locale_id": 90459,
+     "target": "bixie pollen (harvested pollen)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 78860,
+     "speaker": "Chloe"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78863,
+     "speaker": "Chloe"
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: Locale 90459 ('Collect pollen from the bixie inhabitants of Bixie Hive.') exists and is unflagged, but nothing in the pack ties it to this quest. It reads like a generic bixie-pollen objective that co",
+    "live / live_reason: The live verdict rests on unflagged client text. The claim that enabled:false is 'a build switch, not evidence the quest is off' is stated without a source. The answer also admits confidence 0.65 with",
+    "giver.locale_id / line.previous: Verified: title 78861, offer 78860, objective 78862 and completion 78863 are real and match the stated texts. The Chloe quest list in the NPC note (line 46) and the prerequisite 3110007 (Achieve Level",
+    "objectives[0]: Locale 78862 is confirmed as a quest_objective tagged Queensfields, and 5702 'Bixie Hive' is confirmed as a place. But 78862 reads like the quest's description or intro line, and the 'go' kind with ta",
+    "evidence[6] / objectives: Claim 101346 ('Collect pollen from the bixies in the Bixie Hive as a Ninja...') was never checked against the client, and my locale-ID lookup returned no match. It is cited as an unflagged objective i",
+    "dialog.progress: The progress dialog is null with no identified line. The evidence shows no tagged progress line for this quest, so null is honest, but the answer's claim that 78860 is 'Chloe's hand-in speech in the g"
+   ]
+  },
+  {
+   "quest_id": 3110010,
+   "record": "quest-lines/quests.json q3110010",
+   "quest_file": "ninja.json",
+   "title": "Ninja: That's the Spirit",
+   "live": "yes",
+   "giver": {
+    "name": "Chloe",
+    "npc_id": "9000000047",
+    "locale_id": 45302
+   },
+   "resolved_giver": {
+    "npc_id": 9000000047,
+    "name": "Chloe",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Chloe has directed you to hone your skills on the tormented spirits wandering Blackspore.",
+     "text_locale_id": 78866,
+     "target": "tormented spirits",
+     "target_locale_id": 78864,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 78864,
+     "speaker": "Chloe"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78867,
+     "speaker": "Chloe"
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The objective is a non-kill 'other' entry whose target is the intro-dialog string 78864 rather than a target entity. The client text ('hone your skills on the tormented spirits wandering Blackspore') ",
+    "live: The live call rests only on the absence of FLAG tags in the client text. The wiki and articles give no direct confirmation. The articles do mention Tormented Spirits in Blackspore (facts.json line 417",
+    "objectives[0]: The objective is kind 'other' with count null and target 'tormented spirits'. The quoted text (78866) says only 'hone your skills on the tormented spirits'; no kill verb or count is in the quest's own",
+    "live_reason: Liveness rests on the absence of a FLAG on 78864-78867. I confirmed 78865, 78866, 78867 and 45302 text and 78868 (Snowhill, Frostpetal) directly; I did not independently confirm the FLAG fields of 788"
+   ]
+  },
+  {
+   "quest_id": 3160022,
+   "record": "quest-lines/quests.json q3160022",
+   "quest_file": "wizard.json",
+   "title": "Wizard: Things Left Unfinished",
+   "live": "yes",
+   "giver": {
+    "name": "Iliya",
+    "npc_id": "9000000108",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000108,
+    "name": "Iliya",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Iliya",
+     "text_locale_id": 74979,
+     "target": "Iliya",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000108,
+      "name": "Iliya",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "As a wizard, retrieve opal gems from wandering tormented spirits in Blackspore Swamp.",
+     "text_locale_id": 74988,
+     "target": "Tormented Spirit",
+     "target_locale_id": 76190,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 74983,
+     "speaker": "Iliya"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 74986,
+     "speaker": "Iliya"
+    }
+   },
+   "critic_problems": [
+    "evidence[4] / text: locale:74985 is described as a 'Description line', but the client tags it quest_objective (lookup confirms). The id is real and the text matches, so only the label is wrong.",
+    "objectives[1].target_locale_id / evidence[3]: The answer says locale:76190 is tagged npc_name. The locale lookup returns only the text 'Tormented Spirit', and the tag was not checked. The NPC note gives the name hash 1546659449, not a locale id.",
+    "live_reason: It says 'Wizard.md row 20 agrees'. Row 20 marks its quotes with † (client and wiki, not confirmed in game), so it does not independently confirm liveness. The client tags do support the id claims: 749",
+    "objectives[0]: 'Find Iliya' (74979) is confirmed as a real unflagged quest_objective for this quest. Its place as a step is not supported by the guide's row 20, which the answer admits. Keeping it is defensible but ",
+    "objectives[0]: 'Find Iliya' (locale 74979, verified as quest_objective text 'Find Iliya') is a real client string, but the quest is given by Iliya herself and Wizard.md row 20 ('After 19', handed in to Iliya) lists ",
+    "objectives[1]: The collect objective targets 'Tormented Spirit' (NPC name 76190, verified) but the thing collected is opal gems, which has no item id or locale in the answer. Kind 'collect' against an NPC target is "
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3000025,
+   "record": "quest-lines/quests.json q3000025",
+   "quest_file": "adventurer.json",
+   "title": "Sal's Suggestion",
+   "live": "yes",
+   "giver": {
+    "name": "Sal Monella",
+    "npc_id": "9000000450",
+    "locale_id": 45300
+   },
+   "resolved_giver": {
+    "npc_id": 9000000450,
+    "name": "Sal Monella",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Offer your services to Queen Valerian at the Royal Palace in Sanctuary.",
+     "text_locale_id": 390296,
+     "target": "Queen Valerian",
+     "target_locale_id": 130547,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000519,
+      "name": "Queen Valerian",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 390254,
+     "speaker": "Sal Monella"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: The attachment of locale 390296 to this quest is inferred by position, not tagged. The answer discloses this, so it is not a hidden guess, but the live_reason still reads as if the text were confirmed",
+    "objectives[0].npc_id: The record's talk target 9500000519 is not in the answer's objective fields, and its non-spawning flag means the objective is not wireable as stated. The answer lists this under open, which is the hon",
+    "evidence[5]: Claim about the guide line at Adventurer.md:113 is handled correctly as unverified. Checked locale 391029: it is the 'only thing in life ... free is a little advice' line, which points to Farnum's (39",
+    "line: Previous/next empty is consistent with Adventurer.md:108 (the four Part D entry quests are alternatives, 'Only one of the quests need be completed'), and the wiki Central Storyline says Sal Monella or",
+    "giver: Giver Sal Monella 9000000450 is correctly tied to Blackspore Swamp by the wiki and the dossier, but the answer's own open item says adventurer.json marks it non-spawning, so the giver is not confirmed",
+    "objectives[0]: Locale 390296 and title 390255 check out as unflagged text, and Queen Valerian 130547 is the target. The target NPC 9500000519 is non-spawning in adventurer.json:1113 while sanctuary.json:45965 holds "
+   ],
+   "blocked_by": [
+    "giver 'Sal Monella' row 9000000450 not placed",
+    "talk target 'Queen Valerian' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000048,
+   "record": "quest-lines/quests.json q3000048",
+   "quest_file": "adventurer.json",
+   "title": "Chapter 1: Haunted by the Past",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Search for Eggert the Mad in the graveyard in southern Blackspore.",
+     "text_locale_id": 90949,
+     "target": "Blackspore graveyard (southern Blackspore)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Save Eggert from the grave elemental",
+     "text_locale_id": 90952,
+     "target": "Grave Elemental; Lesser Grave Elemental",
+     "target_locale_id": 115851,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000031,
+      "name": "Grave Elemental",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "hidden objective for defeating all grave elementals",
+     "text_locale_id": 115791,
+     "target": "Grave Elementals (all)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak with Eggert",
+     "text_locale_id": 90954,
+     "target": "Eggert the Mad",
+     "target_locale_id": 45298,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000315,
+      "name": "Eggert the Mad",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90943,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 115786,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 90946,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1] / evidence: Locale 115788 is tagged quest_objective ('Before you can speak to Eggert the Mad, you will need to save him from the Grave Elementals.'), but the answer cites it only as a dialog line and does not lis",
+    "objectives[2]: The 115791 target 'Grave Elemental names 115850/115851' is inferred. I confirmed 115851 = 'Grave Elemental' and 115791 = 'hidden objective for defeating all grave elementals', but the link between the",
+    "line.next: The Alchemy of Betrayal link rests on the NPC record's quests_given list (quest_ids_given: [3000049] on Eggert's record). That is a real source, and the client text 90956/90957 matches the title, but ",
+    "giver: Giver is honestly null. Record giver_npc_id 9000000316 is an unresolved ref (npcs_unresolved.json:2411), confirmed by search. Eggert (9000000315, name 45298 verified) does not list 3000048 as given. N",
+    "giver: Giver is null. The answer is honest about this. The repo shows 3000048 pointing at unresolved ref 9000000316 (npcs_unresolved.json:2411), and the Eggert NPC block (blackspore_swamp.json:9877, 9926) li",
+    "line: Checked the links. Previous 3000047 matches adventurer.json:3532 as the prerequisite. Next 3000049 has prerequisite 3000048 at adventurer.json:3588, and its giver block is at blackspore_swamp.json:992"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "defeat target 'Grave Elemental; Lesser Grave Elemental' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3010016,
+   "record": "quest-lines/quests.json q3010016",
+   "quest_file": "archer.json",
+   "title": "Archer: Archer Test",
+   "live": "yes",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": 18152
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Bullseye has asked you to defeat some cray in the Cracked Claw Caverns and bring back proof of your archer skills.",
+     "text_locale_id": 77710,
+     "target": "cray in Cracked Claw Caverns",
+     "target_locale_id": 30402,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000013,
+      "name": "Cracked Claw",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 77708,
+     "speaker": "Bullseye"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77711,
+     "speaker": "Bullseye"
+    }
+   },
+   "critic_problems": [
+    "giver: The giver name 'Bullseye' is tied to locale 18152 as if confirmed. The repo's npcs_unresolved.json entry for ref 9000000037 (name 'Bullseye') sets name_string_id to null with reason 'no actor-to-local",
+    "objectives[0]: Verified: locale 77710 is the defeat objective text, and 30402 is 'Cracked Claw Caverns'. Locale 115612 reads 'Defeat some cray in the Cracked Claw Caverns of Blackspore as an archer to prove yourself",
+    "line: Previous link 'Archer: I Quit!' (3010015) rests on the repo prerequisite and the wiki grouping under Vicki, which fits the intro text 77708 ('I had a hunch Vicki would give up'). Next link 'Archer: Ac",
+    "line / evidence claim 8: The answer says Archer Test is 'gated at level 10'. The guide row 14 (Archer.md:99) lists its prerequisite as 'After 13' with no level. The level 10 gate belongs to row 15, Archer: Achieve Level 10 (A",
+    "dialog.offer: Locale 77708 is tagged quest_objective, not quest_dialog. It is the intro text, so listing it as dialog.offer is acceptable but the type label is off.",
+    "live / evidence: The claim that the wiki Archer page lists Bullseye's Archer Test is not backed by the evidence pack, which has wiki: null. The repo guide does list it (row 14, [client][wiki] sources), so it is partly"
+   ],
+   "blocked_by": [
+    "giver 'Bullseye' not in our NPC rows",
+    "defeat target 'cray in Cracked Claw Caverns' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3010017,
+   "record": "quest-lines/quests.json q3010017",
+   "quest_file": "archer.json",
+   "title": "Archer: Achieve Level 10",
+   "live": "yes",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Level up to level 10 as an Archer.",
+     "text_locale_id": 387320,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Reach level 10 as an archer, then return to Bullseye.",
+     "text_locale_id": 387318,
+     "target": "Bullseye",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387323,
+     "speaker": "Bullseye"
+    },
+    "complete": {
+     "locale_id": 387316,
+     "speaker": "Bullseye"
+    }
+   },
+   "critic_problems": [
+    "previous: Archer: Archer Test (3010016) as direct predecessor rests on the guide's row order (rows 14 and 15) and the wiki's Bullseye list order. Archer Test's own next link was not checked, so the link is unve",
+    "giver.locale_id: Null. The answer is right that no locale id was found, but the guide gives the Bullseye name ucdt 695071671 (Blackspore and Briarwood NPC tables), which the answer does not carry.",
+    "dialog.offer: Set to null, and the record's intro_text 387313 is dropped from the answer. The client text checks out (387313 says 'Come back to me when you reach level 10 as an archer'), so the line is real, though",
+    "rewards: Empty, with the answer stating none was found. That is honest, but it leaves the record incomplete.",
+    "line.previous: Previous is set to Archer: Archer Test (3010016) from the guide's row order (Archer.md rows 14 to 15). The record's own prerequisite list is empty and the answer never confirms that Archer Test lists ",
+    "dialog.offer: Record intro_text 387313 is set in our data but the answer nulls the offer. The 387313 text is the hand-off to Eddie, which the guide ties to row 15 (Archer.md:100). Nulling it drops the only dialog l"
+   ],
+   "blocked_by": [
+    "giver 'Bullseye' not in our NPC rows",
+    "talk target 'Bullseye' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3010019,
+   "record": "quest-lines/quests.json q3010019",
+   "quest_file": "archer.json",
+   "title": "Archer: Paralyzing Poison",
+   "live": "yes",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect pink azaleas (grow at the base of trees in Blackspore) and bring the nectar to Bullseye",
+     "text_locale_id": 77740,
+     "target": "Pink Azalea",
+     "target_locale_id": 77719,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed; no reward text found in the pack",
+     "source": "open"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 77733,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77736,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "live: The live verdict rests only on the absence of a FLAG on 77734/77733/77735/77736/77740. Client text has no flag on them, and the wiki Archer page does list '[Archer]: [Paralyzing] [Poison]' under Bulls",
+    "evidence[2]: The claim 'Objective: collect pink azaleas in Blackspore at the base of trees' cites locale:77735, but 77735 is the description/quest_objective-type text, and the actual short objective is 77740 'Coll",
+    "objectives[0].count / target: The count is left null and the answer does not mention other pink-azalea strings in the client: 115617 'Collect some poisonous pink azaleas from Blackspore Swamp.' and 432229 'Find Pink Azalea' (from ",
+    "line.next: The next link 'A Piercing Attack' comes from the repo record (3010020, title_string_id 77807), which the answer does not verify against locale 77807. The wiki order lists 'A Stunning Effect' after Par",
+    "giver: Giver name 'Bullseye' and npc_id 9000000037 are supported by the repo's npcs_unresolved.json and archer.json records, and by the wiki's Bullseye location. Locale id null is honestly stated. Acceptable",
+    "line.next: The next link 'A Piercing Attack' (3010020, title 77807) is taken from the repo record. The wiki Archer page lists 'A Stunning Effect' directly after Paralyzing Poison, and the Pro Archer Bow page tie"
+   ],
+   "blocked_by": [
+    "giver 'Bullseye' not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3010030,
+   "record": "quest-lines/quests.json q3010030",
+   "quest_file": "archer.json",
+   "title": "Archer: Level 20",
+   "live": "yes",
+   "giver": {
+    "name": "Bullseye",
+    "npc_id": "9000000037",
+    "locale_id": 18152
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Level up to level 20 as an Archer.",
+     "text_locale_id": 387351,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Reach level 20 as an archer, then return to Bullseye.",
+     "text_locale_id": 387349,
+     "target": "Bullseye",
+     "target_locale_id": 18152,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 387347,
+     "speaker": "Bullseye"
+    },
+    "progress": {
+     "locale_id": 387346,
+     "speaker": "Bullseye"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "line.previous: The answer calls 3010029 'Archer: New Challenges' the repo's direct predecessor. The repo does not say that. Record 3010030 has prerequisite_quest_ids [] (archer.json:1566). The only prerequisite link",
+    "giver: The answer ties NPC 9000000037 to the name 'Bullseye' through locale:18152. That locale line is a name string only. The pack has giver.name null and no NPC record for 9000000037. The NPC-to-name link ",
+    "evidence[7]: The claim 'same-giver quests 3010016 to 3010033' cites archer.json:1562-1566. Those lines show only record 3010030 and its empty prerequisites. The range is not supported by that span. The pack's same",
+    "title / evidence[0,1]: Verified: locale 387352 = 'Archer: Level 20' (quest_title, no FLAG). Locale 387345 = 'Archer: Achieve Level 20' (objective label). The title correction holds. The wiki Archer page lists 'Archer: Achie",
+    "objectives[1]: Verified: locale 387349 = 'Reach level 20 as an archer, then return to Bullseye.' (quest_objective, no FLAG). Locale 387351 = 'Level up to level 20 as an Archer.' Both are live text. Count null is cor",
+    "dialog.complete / next[0]: The answer flags that 3010031's giver is unresolved (repo 9000000314 vs. wiki Eddie Eagle Eyes). The client title 388483 is confirmed as 'Contract: That'll Teach 'Em'. The Briarwood/Nettleseed tie is "
+   ],
+   "blocked_by": [
+    "giver 'Bullseye' not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3040038,
+   "record": "quest-lines/quests.json q3040038",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Scattered Artifacts",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Edwin Goldstory wants you to speak to Ramirez and Tyrone Shadowshard to see if they know the location of the missing artifacts.",
+     "text_locale_id": 413796,
+     "target": "Ramirez and Tyrone Shadowshard",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000224,
+      "name": "Tyrone Shadowshard",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Speak to Ramirez and Tyrone Shadowshard in Blackspore.",
+     "text_locale_id": 413825,
+     "target": "Blackspore",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Tyrone's promise to let you dig at his site and keep what you find, after you beat his Four Round Challenge. No item id or coin amount in the client.",
+     "source": "locale:413802"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "rewards[0]: The reward line cites locale:413802, but that string is the Four Round Challenge completion dialog (\"Well, I can't deny you access, since you beat me... Keep what you find\"). The Scattered Artifacts g",
+    "giver: The giver is null, and that is honest. The record's 9000000005 (Ambrose Worcester) rests on the giver dossier's wiki-wording inference, not client text. The answer's own open note says so. The client ",
+    "line.next: The next link, Four Round Challenge, is only a title and dialog set (413799/413800/413801/413802, Tyrone's challenge). The chain notes report that no quest answer matches it. The answer flags this as ",
+    "giver: Giver is left null, and the record's 9000000005 (Ambrose Worcester) is only a dossier inference. The client text points to Edwin Goldstory, who appears as the speaker in the Scattered Artifacts object",
+    "line.next: Four Round Challenge is named as next, but 413799 has no zone or hint tag. Nothing in the pack shows it as a separate quest record. Tyrone's gate (413797/413798) makes it a sub-challenge that may be a",
+    "line.previous: Previous 'Card Duelist: Something Precious' (3040037) is supported by the hand-off text 413794 and the shared-giver dossier. The answer does not cite 413791 or 3040037 by id, so the link is only partl"
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3040044,
+   "record": "quest-lines/quests.json q3040044",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Dark Deal",
+   "live": "unsure",
+   "giver": {
+    "name": "Tyrone Shadowshard",
+    "npc_id": null,
+    "locale_id": 413856
+   },
+   "resolved_giver": {
+    "npc_id": 9000000224,
+    "name": "Tyrone Shadowshard",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Tyrone's First Deck",
+     "text_locale_id": 436483,
+     "target": "Tyrone Shadowshard",
+     "target_locale_id": 413856,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 436477,
+     "speaker": "Tyrone Shadowshard"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 436480,
+     "speaker": "Tyrone Shadowshard"
+    }
+   },
+   "critic_problems": [
+    "giver: The answer gives Tyrone (name id 413856, verified) with npc_id null, while the repo record 3040044 (card_duelist.json:2141) still carries giver_npc_id 9000000520. The answer does not say which NPC id ",
+    "line.previous: The answer leaves previous empty, but the client has a directly relevant predecessor it does not cite: locale 2568 'Tracking down Tyrone' (Snowhill-tagged quest_title), with objective 2574 'Look for T",
+    "objectives[0]: Objective text 436483 'Beat Tyrone's First Deck' is verified, and it is tagged Blackspore. But the guide assigns the First Deck target id 76839219 to Final Dig (row 40), and the answer's count and tar",
+    "giver: The giver is unresolved. Record 3040044 points to 9000000520, which the guide and unresolved NPC file tie to Crystalline's Snowhill 'Dark Deal' (npcs_unresolved.json:4410-4430, guide row 43). The clie",
+    "previous: previous is empty, but the line evidence points to a predecessor. Guide row 44 ('In Search of The Baron') says its unlock is 'After the Tyrone fight (client 1706159839)'. That makes the Tyrone match a",
+    "objectives[0]: The objective is correctly text-matched to 436483 ('Beat Tyrone's First Deck'), but the guide's objective row for Final Dig (76839219) and the Crystalline deck objectives (rows 43) show a deck series."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Tyrone Shadowshard)"
+   ]
+  },
+  {
+   "quest_id": 3040055,
+   "record": "quest-lines/quests.json q3040055",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Slow and Steady",
+   "live": "yes",
+   "giver": {
+    "name": "Madam Zelda",
+    "npc_id": "9000000136",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000136,
+    "name": "Madam Zelda",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Freddy Slowhands in Merry Vale",
+     "text_locale_id": 26475,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000387,
+      "name": "Freddy Slowhands",
+      "file": "npcs/merry_vale.json",
+      "zone": "Merry Vale",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Confront Freddy Slowhands",
+     "text_locale_id": 26485,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Freddy’s Resource Deck",
+     "text_locale_id": 26477,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Freddy’s Trick Deck",
+     "text_locale_id": 26479,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Freddy’s Creature Deck",
+     "text_locale_id": 26481,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Freddy’s Tournament Deck",
+     "text_locale_id": 26483,
+     "target": "Freddy Slowhands",
+     "target_locale_id": 439487,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Madam Zelda in Blackspore and tell her what you found out from Freddy Slowhands.",
+     "text_locale_id": 26488,
+     "target": "Madam Zelda",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000136,
+      "name": "Madam Zelda",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Robgoblin Mobile Home Chaos resource card (battle prize for the Resource Deck win)",
+     "source": "locale:26478"
+    },
+    {
+     "kind": "item",
+     "value": "Roundhouse Kick Chaos trick card (battle prize for the Trick Deck win)",
+     "source": "locale:26480"
+    },
+    {
+     "kind": "item",
+     "value": "Armored Robgoblin Chaos creature card (battle prize for the Creature Deck win)",
+     "source": "locale:26482"
+    },
+    {
+     "kind": "item",
+     "value": "Freddy Slowhands hero card (battle prize for the Tournament Deck win)",
+     "source": "locale:26484"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 7952,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 26488,
+     "speaker": "Madam Zelda"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "live_reason: The Ten Ton Hammer article claim (\"Heroes launched with a quest called Slow and Steady\") could not be confirmed. Two articles-index searches for \"Slow and Steady\" with trading card and Freddy terms re",
+    "objectives[6]: The return objective's target 'Madam Zelda' has no locale id. The answer discloses this, and the giver's npc id 9000000136 is taken from the repo rather than from client text. Acceptable as stated, bu",
+    "objectives[0]: The 'Find Freddy Slowhands in Merry Vale' step uses 26475, which is a valid title-cluster string. The client also has 26476 ('Madam Zelda wants you to locate Freddy Slowhands in Merry Vale and find ou",
+    "line: Chain placement checks out. The guide's row 53 (Heart of Darkness) precedes row 54 and row 55 (Stinky Feet) follows. The answer correctly labels these as guide row order, not a stored sequence, so it ",
+    "giver: Giver Madam Zelda, npc 9000000136, Blackspore Swamp matches the giver dossier and the same-giver list. The locale id is null, which is honestly flagged."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Freddy Slowhands)",
+    "needs mechanic: minigame (Freddy Slowhands)",
+    "needs mechanic: minigame (Freddy Slowhands)",
+    "needs mechanic: minigame (Freddy Slowhands)"
+   ]
+  },
+  {
+   "quest_id": 3040056,
+   "record": "quest-lines/quests.json q3040056",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Stinky Feet",
+   "live": "yes",
+   "giver": {
+    "name": "Madam Zelda",
+    "npc_id": "9000000136",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000136,
+    "name": "Madam Zelda",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "I've heard of this Bud Grimyfoot. He's in Wugachug. I wonder if the Baron is there too! Go there and make Bud talk.",
+     "text_locale_id": 7957,
+     "target": "Bud Grimyfoot (Wugachug)",
+     "target_locale_id": 439488,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000969,
+      "name": "Bud Grimyfoot",
+      "file": "npcs/wugachug.json",
+      "zone": "Wugachug",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "Battle Bud Grimyfoot and his four decks (Resource, Trick, Creature, Tournament); be first to 12 points in each round to win that round's card.",
+     "text_locale_id": 26492,
+     "target": "Bud Grimyfoot",
+     "target_locale_id": 439488,
+     "count": 4,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Confront Bud Grimyfoot",
+     "text_locale_id": 26499,
+     "target": "Bud Grimyfoot",
+     "target_locale_id": 439488,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000969,
+      "name": "Bud Grimyfoot",
+      "file": "npcs/wugachug.json",
+      "zone": "Wugachug",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Madam Zelda in Blackspore and tell her what you found out from Bud Grimyfoot.",
+     "text_locale_id": 26502,
+     "target": "Madam Zelda",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000136,
+      "name": "Madam Zelda",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Bone Bog Cemetery Order Resource card (round 1 from Bud's Resource deck)",
+     "source": "locale:26492"
+    },
+    {
+     "kind": "item",
+     "value": "Dragon Talon Order Trick card (round 2)",
+     "source": "locale:26494"
+    },
+    {
+     "kind": "item",
+     "value": "Truant Druid Order Creature card (round 3)",
+     "source": "locale:26496"
+    },
+    {
+     "kind": "item",
+     "value": "Bud Grimyfoot Hero card (round 4, Tournament deck)",
+     "source": "locale:26498"
+    },
+    {
+     "kind": "other",
+     "value": "Quest coins/xp not found in the pack",
+     "source": "none"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 26502,
+     "speaker": "Madam Zelda"
+    },
+    "complete": {
+     "locale_id": 7958,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: The battle step cites 26492-26498, which are the Wugachug-era Bud set. The 13364-13374 'Grimyfoot's ... Round' set has identical rewards and is not mentioned in the objective. The answer flags this as",
+    "objectives[0].target / zone: The answer says Bud is in Wugachug, which the 26489 cluster supports. But the Bud NPC name locale 439488 is tagged zone 'Sacred Grove', not Wugachug. The NPC data and the zone tag disagree, and the an",
+    "live / evidence[12]: The live verdict relies on the Tentonhammer 2012-08-25 article naming 'Stinky Feet' as a launch TCG quest. My lookup could not surface that article text, so I could not verify it. The wiki quest-list ",
+    "repo fix (open): The repo record still holds end_text_string_id 7957, a go-objective line, instead of completion 7958. The answer flags this but does not fix it, so the record stays wrong until someone edits it.",
+    "objectives[1]: The minigame objective is one step with count 4 but uses only locale 26492 (round 1, Resource deck) as its text. The four round texts exist separately: 26492, 26494, 26496 and 26498. A builder cannot ",
+    "objectives[0]: The first step is the 'go' line 7957, and the 'Find Bud Grimyfoot' pair 26489/26490 is left out. 26489 is the step title for the locate phase in the 26489 cluster, and the answer does not mention it."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Bud Grimyfoot)",
+    "talk target 'Bud Grimyfoot' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3040057,
+   "record": "quest-lines/quests.json q3040057",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Meet the Boss",
+   "live": "yes",
+   "giver": {
+    "name": "Madam Zelda",
+    "npc_id": "9000000136",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000136,
+    "name": "Madam Zelda",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "The Realmkeepers need more time! Go to Seaside and play Baron von Darkcheat for a few games. Keep him distracted while the Realmkeepers get into position.",
+     "text_locale_id": 7961,
+     "target": "Baron von Darkcheat",
+     "target_locale_id": 294,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "Hoverboard (unnamed in the quest text; the item is probably Gloamstone Hoverboard, locale:387, which is an inferred match)",
+     "source": "locale:7962 ('Say hello to your new hoverboard!')"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 7961,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 7962,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "rewards[0]: The reward item is not named in any source. Locale 7962 only says 'Say hello to your new hoverboard!' after 'Luckily Magetech has you covered'. Locale 387 'Gloamstone Hoverboard' is a guess, and the a",
+    "objectives[0]: Checked: locale 7961 (unflagged, zone Seaside) and 294 'Baron von Darkcheat' both exist and match. The objective is a card-game duel with no count in the text, so count null is right. Locale 7960 is t",
+    "line.next: Next link 'The Realmkeepers Are Missing!' (3040058) follows the guide's row order (57) and Madam Zelda's quest list. It is in Part 5 (Rumbledome) of the guide, so the link crosses a section boundary. ",
+    "objectives[0].kind: The kind 'minigame' is not stated in any cited text. Locale 7961 only says to go to Seaside and play Baron von Darkcheat for a few games.",
+    "objectives[0].text: The objective omits the completion condition from the same line. Beating the Baron at cards is what completes the step, and the answer does not record it.",
+    "dialog.offer / giver.locale_id: The offer is null, and the giver name has no locale id. The description line locale:7960 ('Madam Zelda in Blackspore needs you to distract...') is available and could serve as the offer or description"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Baron von Darkcheat)"
+   ]
+  },
+  {
+   "quest_id": 3110005,
+   "record": "quest-lines/quests.json q3110005",
+   "quest_file": "ninja.json",
+   "title": "Ninja: Strike from the Shadows",
+   "live": "unsure",
+   "giver": {
+    "name": "Chloe",
+    "npc_id": "9000000047",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000047,
+    "name": "Chloe",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As part of your ninja training, Chloe has asked you to defeat the denizens of the Cracked Claw Caverns of Blackspore.",
+     "text_locale_id": 78854,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 78855,
+     "speaker": "Chloe"
+    }
+   },
+   "critic_problems": [
+    "line: The answer calls the chain place 'unresolved' and says 78852's 'Before you return to Lakeshore' conflicts with a Blackspore-only chain. The guide's own quest-line table places this quest in the same c",
+    "objectives[1]: The answer drops the completion step 'Return to Chloe in Blackspore' that the guide attaches to C1 from video (Ninja.md:80: 'New Goal: Return to Chloe in Blackspore' after the cave fight, and Cracked ",
+    "objectives[0]: The defeat objective has target null and count null. The place is given in the text (Cracked Claw Caverns of Blackspore), so the target can be at least a zone/location target even though the mob and c",
+    "live_reason: The answer calls the source 'a Ninja wiki page' (notes/Build Guides/Content/Jobs/Ninja.md:213). That is a build guide, not a wiki page. Minor, but it overstates the source type.",
+    "objectives[0]: The defeat objective is stored as text only, with target and count null. The answer labels its kind 'defeat', but the source (locale 78854) gives no count or named target. That is honest, but it is no",
+    "giver.locale_id: Null, and the answer says it is unverified. This is an honest unknown, not a failure."
+   ],
+   "blocked_by": [
+    "defeat target None not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3160021,
+   "record": "quest-lines/quests.json q3160021",
+   "quest_file": "wizard.json",
+   "title": "Wizard: Crystal Clear Delivery",
+   "live": "yes",
+   "giver": {
+    "name": "Sandbur",
+    "npc_id": "9000000190",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000190,
+    "name": "Sandbur",
+    "file": "npcs/sanctuary.json",
+    "zone": "Sanctuary",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Take the transfiguring crystals to Iliya in Blackspore.",
+     "text_locale_id": 74973,
+     "target": "Iliya (npc 9000000108)",
+     "target_locale_id": 45777,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000108,
+      "name": "Iliya",
+      "file": "npcs/blackspore_swamp.json",
+      "zone": "Blackspore Swamp",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 74971,
+     "speaker": "Sandbur"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0].target: The target NPC id 9000000108 for Iliya is marked id_kind 'reconstructed_from_job_reference' in blackspore_swamp.json:15699-15702, with reference_ids [9000000108, 9000000353]. The answer presents it as",
+    "zone: The answer gives zone Blackspore, but the evidence pack's giver zone for Sandbur is Sanctuary (sanctuary.json:52514). The zone is the quest's text zone (locale tag Blackspore), which is defensible, bu",
+    "open: Verified and correct: 74972 'Wizard: Crystal Clear Delivery', 74973 objective, 74971 offer text, 45777 'Iliya', and wiki Sandbur/Iliya/Wizard pages list the quest. 74974 is Iliya's reply to Sandbur's ",
+    "zone: The answer sets zone to Blackspore, but the giver record (npc 9000000190, Sandbur) has zone Sanctuary in the evidence pack and the guide places him in Sanctuary's Inner Circle. The Blackspore value co",
+    "objectives[0]: Verified: locale 74973 = 'Take the transfiguring crystals to Iliya in Blackspore.'; target 45777 = 'Iliya'; title 74972 = 'Wizard: Crystal Clear Delivery'. The count null is acceptable since the text ",
+    "line: Chain verified: previous 3160020 Searching for the Past (Sandbur), next 3160022 Things Left Unfinished (Iliya, locale 74984 and 74979 'Find Iliya'). Wiki Sandbur page lists Crystal Clear Delivery. The"
+   ],
+   "blocked_by": [
+    "giver 'Sandbur' row 9000000190 not placed"
+   ]
+  },
+  {
+   "quest_id": 3160023,
+   "record": "quest-lines/quests.json q3160023",
+   "quest_file": "wizard.json",
+   "title": "Wizard: Filling in the Gaps",
+   "live": "yes",
+   "giver": {
+    "name": "Iliya",
+    "npc_id": "9000000108",
+    "locale_id": 45777
+   },
+   "resolved_giver": {
+    "npc_id": 9000000108,
+    "name": "Iliya",
+    "file": "npcs/blackspore_swamp.json",
+    "zone": "Blackspore Swamp",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "deliver",
+     "text": "Take the opal gems to Sandbur in Sanctuary.",
+     "text_locale_id": 74997,
+     "target": "Sandbur",
+     "target_locale_id": 10090,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000190,
+      "name": "Sandbur",
+      "file": "npcs/sanctuary.json",
+      "zone": "Sanctuary",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 74995,
+     "speaker": "Iliya"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 74998,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "dialog.complete: Complete id 74998 is attributed to no speaker. A Sanctuary quest_dialog tagged to this quest, locale 74975 ('Sandbur has received a powerful gift from [*Player*].'), is not considered. It reads like S",
+    "objectives: Only the deliver step is listed. 'Return to Sandbur' (75008) and 'Speak with Sandbur' (75014) are unflagged objective strings for this quest and may be a talk/return step. The answer drops them withou",
+    "rewards: The wand is implied by 74998 but rewards is empty. The answer correctly flags this, but a builder gets no reward candidate.",
+    "objectives: Only the deliver step (74997) is listed. The client also has 'Return to Sandbur' (75008) and 'Speak with Sandbur' (75014), both quest_objective tagged Sanctuary Wizard: Filling in the Gaps and unflagg",
+    "line.next: 'Wizard: Reach Level 15' is based only on guide row order. The wiki lists Osgood with that quest, but nothing in the evidence shows it as this quest's successor or a level-15 gate. The answer's 'Osgoo",
+    "dialog.complete: 74998 is tagged quest_dialog in Sanctuary, and the answer correctly marks its speaker as unconfirmed. The guide has no speaker, so the complete id is only a best match."
+   ],
+   "blocked_by": [
+    "deliver target 'Sandbur' not placed in our rows"
+   ]
+  }
+ ]
+}

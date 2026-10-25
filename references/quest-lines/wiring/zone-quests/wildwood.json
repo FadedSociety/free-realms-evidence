@@ -1,0 +1,884 @@
+{
+ "zone": "Wildwood",
+ "quests": [
+  {
+   "quest_id": 3060028,
+   "record": "quest-lines/quests.json q3060028",
+   "title": "Demo Derby: An Eye for Talent",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000004",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head down to the Wildwood track and speak with Carter's colleague.",
+     "text_locale_id": 394037,
+     "target": "Carter's colleague at the Wildwood track (unnamed)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demolition Derby Driver / Demo Derby Series 4 'The film set at Wildwood' (guide order, unconfirmed)",
+    "previous": [
+     "Demo Derby: Frost Ridge Invitational"
+    ],
+    "next": [
+     "Demo Derby: Not One, But a Few"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060029,
+   "record": "quest-lines/quests.json q3060029",
+   "title": "Demo Derby: Not One, But a Few",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000270",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Prove you're the right one for the mysterious job by knocking out a few karts in the Wildwood arena!",
+     "text_locale_id": 394038,
+     "target": "Wildwood arena karts (derby encounter 287410212, unverified)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (Demolition Derby Driver job), Series 4: The film set at Wildwood (guide row order only)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060030,
+   "record": "quest-lines/quests.json q3060030",
+   "title": "Demo Derby: Stunt Double",
+   "giver": {
+    "name": "Jace Wildwheel",
+    "npc_id": "9000000357",
+    "locale_id": 394255
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Jace Whildwheel wants to see what you can do in the arena. Knock out a bunch of cars for him.",
+     "text_locale_id": 394472,
+     "target": "derby cars in the Wildwood arena (encounter 2599397263, from guide row 27)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Turn-in / return step to Jace Wildwheel: UNCONFIRMED. Candidate strings 394101 'Speak to Jace Wildwheel' and 394103 'Return to Jace Wildwheel' exist but their hint tags point to other quests (Frost Ridge Invitational; Wildwood Win the Odd Audition), so they are not included as this quest's steps.",
+     "text_locale_id": null,
+     "target": "Jace Wildwheel",
+     "target_locale_id": 394255,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby film-set series (guide Demolition Derby Driver.md, Series 4: The film set at Wildwood, rows 26-28); order is guide-sourced, not server-confirmed",
+    "previous": [],
+    "next": [
+     "Demo Derby: An Incomplete Set"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 394473,
+     "speaker": "Jace Wildwheel"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3060031,
+   "record": "quest-lines/quests.json q3060031",
+   "title": "Demo Derby: An Incomplete Set",
+   "giver": {
+    "name": "Jace Wildwheel",
+    "npc_id": "9000000357",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demolition Derby Driver job, Series 4: The film set at Wildwood (guide row 28)",
+    "previous": [
+     "Demo Derby: Stunt Double"
+    ],
+    "next": [
+     "Demo Derby: Action!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 393397,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 397956,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060033,
+   "record": "quest-lines/quests.json q3060033",
+   "title": "Demo Derby: Hurtin' Crewe Act II",
+   "giver": {
+    "name": "Sydney Spellmerg",
+    "npc_id": null,
+    "locale_id": 394256
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Help Sydney Spellmerg film the final frames of 'Hurtin' Crewe' by collecting power-ups in Wildwood and going Ultimate!",
+     "text_locale_id": 394042,
+     "target": "power-ups",
+     "target_locale_id": 394110,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demolition Derby Driver, Series 4: The film set at Wildwood (Sir Horace, Sydney Spellmerg, Jace Wildwheel)",
+    "previous": [
+     "Demo Derby: Action!"
+    ],
+    "next": [
+     "Demo Derby: Pixiewood Premiere"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 393359,
+     "speaker": "Sydney Spellmerg"
+    },
+    "progress": {
+     "locale_id": 394475,
+     "speaker": "Sydney Spellmerg"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060035,
+   "record": "quest-lines/quests.json q3060035",
+   "title": "Demo Derby: Sir Horace the Horrible",
+   "giver": {
+    "name": "Sydney Spellmerg",
+    "npc_id": "9000000482",
+    "locale_id": 394256
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head into the Wildwood arena and remove Sir Horace!",
+     "text_locale_id": 394045,
+     "target": "Sir Horace",
+     "target_locale_id": 394257,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Knock out Sir Horace 3 times",
+     "text_locale_id": 395075,
+     "target": "Sir Horace",
+     "target_locale_id": 394257,
+     "count": 3
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demolition Derby Driver: Series 4, The film set at Wildwood (guide row 32)",
+    "previous": [
+     "Demo Derby: Pixiewood Premiere"
+    ],
+    "next": [
+     "Demo Derby: Encore!"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 393362,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 398208,
+     "speaker": "Sydney Spellmerg"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3060043,
+   "record": "quest-lines/quests.json q3060043",
+   "title": "Demo Derby: Wildwood",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000533",
+    "locale_id": null
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Crash Cup (client text names Wildwood Derby 1000 as its second event; event 1 and event 3 unidentified)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060044,
+   "record": "quest-lines/quests.json q3060044",
+   "title": "Demo Derby: Wildwood Derby 1000",
+   "giver": {
+    "name": "Crash Davis",
+    "npc_id": "9000000289",
+    "locale_id": 100234
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (Demo Derby Driver job) series; position unverified",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080003,
+   "record": "quest-lines/quests.json q3080003",
+   "title": "Challenge Verve McNichols",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000538",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Verve McNichols at the Wildwood Speedway.",
+     "text_locale_id": 394238,
+     "target": "Verve McNichols",
+     "target_locale_id": 101902,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Verve McNichols in a kart race at the Wildwood Speedway.",
+     "text_locale_id": 394323,
+     "target": "Verve McNichols",
+     "target_locale_id": 101902,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver tier 1 (Wildwood Speedway)",
+    "previous": [],
+    "next": [
+     "Kart Driver: Target Acquired"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080004,
+   "record": "quest-lines/quests.json q3080004",
+   "title": "Kart Driver: Target Acquired",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Verve McNichols in the \"Target Acquired\" race at Wildwood Speedway.",
+     "text_locale_id": 394327,
+     "target": "Verve McNichols",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver tier 1 - Wildwood Speedway (rivals Verve McNichols, Linx Redline, T.R. Walker Jr.; sponsor Blammo)",
+    "previous": [
+     "Kart Driver: Challenge Verve McNichols"
+    ],
+    "next": [
+     "Kart Driver: Even the Odds"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080005,
+   "record": "quest-lines/quests.json q3080005",
+   "title": "Kart Driver: Even the Odds",
+   "giver": {
+    "name": "Verve McNichols",
+    "npc_id": "9500000956",
+    "locale_id": 101902
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Scare off Linx's pit crew with their own bombs",
+     "text_locale_id": 394229,
+     "target": "Linx Redline's pit crew (not resolved to an id)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Click on the toolbox",
+     "text_locale_id": 394372,
+     "target": "toolbox (not resolved to an id)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the \"Even the Odds\" minigame at the Wildwood Speedway.",
+     "text_locale_id": 394371,
+     "target": "\"Even the Odds\" minigame (not resolved to an id)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Reward text only: '[*player*] had to be sneaky to even the odds against the cheating Linx Redline!' No amounts or item ids.",
+     "source": "locale:394369"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver Wildwood Speedway rival line (Verve McNichols, Linx Redline, T.R. Walker Jr.; sponsor Blammo)",
+    "previous": [
+     "Kart Driver: Target Acquired"
+    ],
+    "next": [
+     "Kart Driver: Ready to Redline"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 394346,
+     "speaker": "Verve McNichols"
+    },
+    "progress": {
+     "locale_id": 394376,
+     "speaker": "Verve McNichols"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080006,
+   "record": "quest-lines/quests.json q3080006",
+   "title": "Kart Driver: Ready to Redline",
+   "giver": {
+    "name": "Linx Redline",
+    "npc_id": null,
+    "locale_id": 394366
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Linx Redline",
+     "text_locale_id": 394393,
+     "target": "Linx Redline",
+     "target_locale_id": 394366,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Linx Redline in the \"Ready to Redline\" race at Wildwood Speedway.",
+     "text_locale_id": 394392,
+     "target": "Linx Redline",
+     "target_locale_id": 394366,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Win the \"Ready to Redline\" race",
+     "text_locale_id": 394391,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver (Tier 1 - Wildwood Speedway), per notes/Build Guides/Content/Jobs/Kart Driver.md",
+    "previous": [
+     "Kart Driver: Even the Odds"
+    ],
+    "next": [
+     "Kart Driver: Challenging T.R."
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 294372,
+     "speaker": "Linx Redline"
+    },
+    "progress": {
+     "locale_id": 394380,
+     "speaker": "Linx Redline"
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080007,
+   "record": "quest-lines/quests.json q3080007",
+   "title": "Kart Driver: Challenging T.R.",
+   "giver": {
+    "name": "Linx Redline",
+    "npc_id": "9000000379",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Challenge T.R. Walker Jr to a race.",
+     "text_locale_id": 101185,
+     "target": "T.R. Walker Jr.",
+     "target_locale_id": 101905,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver tier 1 - Wildwood Speedway (guide order, inferred)",
+    "previous": [
+     "Kart Driver: Ready to Redline"
+    ],
+    "next": [
+     "Kart Driver: You Want To Go Fast?"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 101178,
+     "speaker": "Linx Redline"
+    },
+    "progress": {
+     "locale_id": 101170,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080008,
+   "record": "quest-lines/quests.json q3080008",
+   "title": "Kart Driver: You Want to Go Fast?",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000540",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Talk to T.R. Walker Jr.",
+     "text_locale_id": 394401,
+     "target": "T.R. Walker Jr.",
+     "target_locale_id": 101905,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Click on the Crystal Collection",
+     "text_locale_id": 394403,
+     "target": "Crystal Collection",
+     "target_locale_id": 394633,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the \"Crystal Hunting\" minigame",
+     "text_locale_id": 394405,
+     "target": "Crystal Hunting minigame",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to T.R. Walker Jr.",
+     "text_locale_id": 394407,
+     "target": "T.R. Walker Jr.",
+     "target_locale_id": 101905,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Beat T.R. Walker Jr. in a kart race at the Wildwood Speedway.",
+     "text_locale_id": 394446,
+     "target": "T.R. Walker Jr.",
+     "target_locale_id": 101905,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Beat T.R. Walker Jr. in the \"You Want to Go Fast\" race at Wildwood Speedway.",
+     "text_locale_id": 394450,
+     "target": "T.R. Walker Jr.",
+     "target_locale_id": 101905,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward text found; rewards unknown, not confirmed empty",
+     "source": "locale:394437 (names no coin, XP or item)"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver, Tier 1 - Wildwood Speedway (guide row order, not server prerequisites)",
+    "previous": [
+     "Kart Driver: Challenging T.R."
+    ],
+    "next": [
+     "Kart Driver: Exploder's League Sponsorship"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 394413,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394416,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 394436,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080009,
+   "record": "quest-lines/quests.json q3080009",
+   "title": "Kart Driver: Exploder's League Sponsorship",
+   "giver": {
+    "name": "Blammo",
+    "npc_id": null,
+    "locale_id": 394488
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Blammo at the Wildwood Speedway.",
+     "text_locale_id": 394490,
+     "target": "Blammo",
+     "target_locale_id": 394488,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Sponsorship by the Robgoblin Exploder's League is the story outcome; no coin, item or XP amount found for this quest",
+     "source": "locale:394486 (completion dialog); the sponsorship-deal news line locale:394590 is not used here, see open"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver (Robgoblin Exploder's League sponsor chain, Tier 1 Wildwood Speedway)",
+    "previous": [
+     "Kart Driver: You Want To Go Fast?"
+    ],
+    "next": [
+     "Kart Driver: Wildwood Sprint Challenge"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 394486,
+     "speaker": "Blammo"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080010,
+   "record": "quest-lines/quests.json q3080010",
+   "title": "Kart Driver: Wildwood Sprint Challenge",
+   "giver": {
+    "name": "Blammo",
+    "npc_id": "9500000872",
+    "locale_id": 394488
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Complete a lap in under 60 seconds at the Wildwood Speedway.",
+     "text_locale_id": 394507,
+     "target": "Wildwood Speedway",
+     "target_locale_id": 18206,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Win the \"Wildwood Sprint Challenge\" race",
+     "text_locale_id": 394506,
+     "target": "Kart Racer: Wildwood Sprint Challenge",
+     "target_locale_id": 3497,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver (Tier 1 - Wildwood Speedway; sponsor Blammo)",
+    "previous": [
+     "Kart Driver: Exploder's League Sponsorship"
+    ],
+    "next": [
+     "Kart Driver: Wildwood Endurance Challenge"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 394495,
+     "speaker": "Blammo"
+    },
+    "progress": {
+     "locale_id": 394500,
+     "speaker": "Blammo"
+    },
+    "complete": {
+     "locale_id": 394499,
+     "speaker": "Blammo"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080011,
+   "record": "quest-lines/quests.json q3080011",
+   "title": "Kart Driver: Wildwood Endurance Challenge",
+   "giver": {
+    "name": "Blammo",
+    "npc_id": "9000000251",
+    "locale_id": 394488
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "See Big Paulie before the next race.",
+     "text_locale_id": 394576,
+     "target": "Big Paulie",
+     "target_locale_id": 401323,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Win the \"Wildwood Endurance Challenge\" race",
+     "text_locale_id": 394582,
+     "target": "Wildwood Endurance Challenge",
+     "target_locale_id": 3320,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Kart Driver Wildwood Speedway tier (sponsor Blammo, Robgoblin Exploder's League)",
+    "previous": [
+     "Kart Driver: Wildwood Sprint Challenge"
+    ],
+    "next": [
+     "Kart Driver: Dominating at Wildwood"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080012,
+   "record": "quest-lines/quests.json q3080012",
+   "title": "Kart Driver: Dominating at Wildwood",
+   "giver": {
+    "name": "Blammo",
+    "npc_id": "3011",
+    "locale_id": 394488
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Win three races at the Wildwood Speedway.",
+     "text_locale_id": 394594,
+     "target": "Wildwood Speedway",
+     "target_locale_id": 18206,
+     "count": 3
+    },
+    {
+     "kind": "other",
+     "text": "Win the \"Dominating at Wildwood\" race three times",
+     "text_locale_id": 394597,
+     "target": "Dominating at Wildwood",
+     "target_locale_id": 3321,
+     "count": 3
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Exploder's League sponsorship (news line only; no coin or XP amount found)",
+     "source": "locale:394590"
+    }
+   ],
+   "line": {
+    "name": "Blammo's Exploder's League sponsorship chain (Wildwood Speedway, Tier 1)",
+    "previous": [
+     "Kart Driver: Wildwood Endurance Challenge"
+    ],
+    "next": [
+     "Kart Driver: Guest of Honor"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 394586,
+     "speaker": "Blammo"
+    },
+    "progress": {
+     "locale_id": 394591,
+     "speaker": "Blammo"
+    },
+    "complete": {
+     "locale_id": 394589,
+     "speaker": "Blammo"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3080045,
+   "record": "quest-lines/quests.json q3080045",
+   "title": "SG Tour 400: Wildwood",
+   "giver": {
+    "name": "Kade Carmichael",
+    "npc_id": "9000000123",
+    "locale_id": 101924
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Beat Kade Carmichael in a race at Wildwood Speedway.",
+     "text_locale_id": 397998,
+     "target": "Kade Carmichael",
+     "target_locale_id": 101924,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "SG Tour 400 (Lightning Cup series, reigning champion Kade Carmichael)",
+    "previous": [
+     "Kart Driver: Celebrity Giveaway"
+    ],
+    "next": [
+     "Kart Driver: SG Tour 400: Frost Ridge"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 395337,
+     "speaker": "Kade Carmichael"
+    },
+    "progress": {
+     "locale_id": 398007,
+     "speaker": "Kade Carmichael"
+    },
+    "complete": null
+   },
+   "wireable": true
+  }
+ ]
+}

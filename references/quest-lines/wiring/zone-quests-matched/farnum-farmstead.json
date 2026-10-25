@@ -1,0 +1,695 @@
+{
+ "zone": "Farnum Farmstead",
+ "wireable_by_match": [
+  {
+   "quest_id": 3000011,
+   "record": "quest-lines/quests.json q3000011",
+   "quest_file": "adventurer.json",
+   "title": "Where's the Help?",
+   "live": "yes",
+   "giver": {
+    "name": "Pappy Farnum",
+    "npc_id": "9000000165",
+    "locale_id": 19091
+   },
+   "resolved_giver": {
+    "npc_id": 9000000165,
+    "name": "Pappy Farnum",
+    "file": "npcs/farnum_farmstead.json",
+    "zone": "Farnum Farmstead",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Bartle",
+     "text_locale_id": 4420095,
+     "target": "Bartle",
+     "target_locale_id": 20942,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000021,
+      "name": "Bartle",
+      "file": "npcs/cobblestone_village.json",
+      "zone": "Cobblestone Village",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No quest-specific reward recovered. The record's 5-coin value is a reconstructed fallback, not evidence, so a builder should treat the payout as unknown.",
+     "source": "prototype/osfr-tools/data/content/quests/adventurer.json (W110 note)"
+    },
+    {
+     "kind": "coins",
+     "value": "20 coins and 50 Brawler XP are paid for the Bartle turn-ins, but the note covers Where's the Help? and Pull the Plug together, so the split is unknown",
+     "source": "notes/Tasks.md:104"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 4420089,
+     "speaker": "Pappy Farnum"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 4420092,
+     "speaker": "Bartle"
+    }
+   },
+   "critic_problems": [
+    "line: The answer says 'the next Pappy interaction accepts Pull the Plug', citing notes/Reviews/Native Bartle and Artifacts 193318.md:3. That review says only that 'the next real interaction accepted Pull th",
+    "objectives: Client locale 4420094 'Find out what happened to Cobblestone Village.' is a second quest_objective string in the same quest cluster. The answer leaves it out and says no source ties it to a slot. That",
+    "line.next: The answer says 'the next Pappy interaction accepts Pull the Plug' and cites the Native Bartle note. The repo record for 3000012 (adventurer.json:920) has giver_npc_id 9000000021, which is Bartle, not",
+    "objectives: Locale 4420094 'Find out what happened to Cobblestone Village.' is a quest_objective tagged to this quest and is left out. The answer's open list says no source ties it to a slot. The single talk obje",
+    "rewards: The record carries coins 5 (reconstructed). The answer lists the reward as 'other' with no coin value, so a builder would wire no payout. The 20 coins and 50 Brawler XP are shared with Pull the Plug p",
+    "dialog.offer: The offer speaker is attributed to Pappy by inference, not by a client tag. The answer flags this itself, so it is not a defect."
+   ]
+  },
+  {
+   "quest_id": 3000015,
+   "record": "quest-lines/quests.json q3000015",
+   "quest_file": "adventurer.json",
+   "title": "Second Helping of Strongarm Stew",
+   "live": "yes",
+   "giver": {
+    "name": "Mae Farnum",
+    "npc_id": "9000000396",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000396,
+    "name": "Mae Farnum",
+    "file": "npcs/farnum_farmstead.json",
+    "zone": "Farnum Farmstead",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "craft_recipe",
+     "text": "Cook a 2nd helping of Strongarm Stew for Mae Farnum",
+     "text_locale_id": 5100480,
+     "target": "Strong Arm Stew (recipe 70, chef cooking station)",
+     "target_locale_id": null,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Mae Farnum (objective text not located in client; the guide cites 2322769929 / 4252691960 only for Farming 101)",
+     "text_locale_id": null,
+     "target": "Mae Farnum",
+     "target_locale_id": null,
+     "count": 1,
+     "resolved_npc": {
+      "npc_id": 9000000396,
+      "name": "Mae Farnum",
+      "file": "npcs/farnum_farmstead.json",
+      "zone": "Farnum Farmstead",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 5100478,
+     "speaker": "Mae Farnum"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 5100481,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: The talk objective is left without text, but the client has unflagged quest_objective strings 'Return to Mae Farnum' at locale:5100037 (hint 'Mae Farnum') and locale:5100041 (hint 'Farnum Farmstead').",
+    "objectives[0].target: The claim 'Strong Arm Stew (recipe 70, chef cooking station)' cites recipes.json:3256-3258. Those lines show only name 'Strong Arm Stew' and recipe_id 70 (key chef.strong_arm_stew.sample). The 'chef j",
+    "live / enabled: The record has enabled: false, and the answer does not mention it. Its 'live: yes' only means the client strings are unflagged. A builder could wire it as active.",
+    "rewards: The record's 5-coin reward is dropped. The answer only explains it in 'open', and the evidence pack marks it as reconstructed.",
+    "line.next / chain: This answer's 'previous: Farming 101' is correct per record 3000015 prerequisite [3000006] (Starting Quest Chains.md:21). The Farming 101 answer's next list is incomplete: it shows only Gear Up! and o",
+    "line: Chain links are incomplete. The record's prerequisite is 3000006 (Farming 101), but the answer says nothing about Farming 101's other successor. Gear Up! (3000007, Starting Quest Chains.md:13) also ha"
+   ]
+  },
+  {
+   "quest_id": 3000018,
+   "record": "quest-lines/quests.json q3000018",
+   "quest_file": "adventurer.json",
+   "title": "Peep's Missing Bowl",
+   "live": "yes",
+   "giver": {
+    "name": "Uncle Irving",
+    "npc_id": "9000000225",
+    "locale_id": 37699
+   },
+   "resolved_giver": {
+    "npc_id": 9000000225,
+    "name": "Uncle Irving",
+    "file": "npcs/farnum_farmstead.json",
+    "zone": "Farnum Farmstead",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Search the Farmstead for Peep's Dog Bowl.",
+     "text_locale_id": 37703,
+     "target": "Peep's Dog Bowl",
+     "target_locale_id": 37707,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Uncle Irving",
+     "text_locale_id": 37710,
+     "target": "Uncle Irving",
+     "target_locale_id": 37699,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000225,
+      "name": "Uncle Irving",
+      "file": "npcs/farnum_farmstead.json",
+      "zone": "Farnum Farmstead",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "1 Shimmering Air Triangle Shard (definition_id unbound)",
+     "source": "locale:96329; video:3JXpHghLOTs/00014; notes/Build Guides/Content/Jobs/Adventurer.md:92"
+    },
+    {
+     "kind": "other",
+     "value": "unspecified 'something for your trouble' (no amount in client text)",
+     "source": "locale:37712"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 37701,
+     "speaker": "Uncle Irving"
+    },
+    "progress": {
+     "locale_id": 37713,
+     "speaker": "Uncle Irving"
+    },
+    "complete": {
+     "locale_id": 37712,
+     "speaker": "Uncle Irving"
+    }
+   },
+   "critic_problems": [
+    "giver: The evidence pack's offer claim says locale 37701 is offer text 'given by Uncle Irving', but the client does not name the speaker. The answer's own open list says so, so the evidence claim overstates ",
+    "rewards[0].items: The answer keeps the shard as 'definition_id unbound', which is honest. But the repo record still binds 30923 (adventurer.json:1413) under a reconstructed name-match, and that binding is not evidenced",
+    "live: 'live: yes' rests on one guide row (Adventurer.md:92) citing a video that I did not open, while the repo's DISABLED note at adventurer.json:1471 treats the quest as not runnable. The 'gap in our data'",
+    "line: Previous and next are empty, and the chain notes are empty too, so the line placement is unresolved. Starting Quest Chains.md:24 has no link either. The answer is honest about this.",
+    "line: The answer leaves line.name, previous and next empty and cites only the Adventurer guide's 'order unknown' note. notes/Research/Starting Quest Chains.md:24 records 3000018 with prerequisites [] (no pr",
+    "objectives[0]: The search objective's target 'Peep's Dog Bowl' (37707) has no catalogue item or world pickup in the repo, so the objective has no real target. The answer does say this, but it means the quest cannot "
+   ]
+  },
+  {
+   "quest_id": 3140013,
+   "record": "quest-lines/quests.json q3140013",
+   "quest_file": "soccer_star.json",
+   "title": "Punked",
+   "live": "unsure",
+   "giver": {
+    "name": "Henry",
+    "npc_id": null,
+    "locale_id": 19093
+   },
+   "resolved_giver": {
+    "npc_id": 9000000104,
+    "name": "Henry",
+    "file": "npcs/farnum_farmstead.json",
+    "zone": "Farnum Farmstead",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Play a prank on the leader of the hooligans in Highroad Hijinx.",
+     "text_locale_id": 19111,
+     "target": "Highroad Hijinx",
+     "target_locale_id": 5710,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Go into the hooligan camp in Highroad Hijinx and sneak up on their leader, Cal's tent and turn on his radio.",
+     "text_locale_id": 19123,
+     "target": "Cal's tent",
+     "target_locale_id": 18043,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Nab some soccer balls from the hooligans at Highroad Hijinx.",
+     "text_locale_id": 19114,
+     "target": "soccer balls",
+     "target_locale_id": 5630,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 19119,
+     "speaker": "Henry"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver is 'Henry' (locale 19093) with npc_id null. No Punked-specific line names Henry as speaker: 19117, 19119 and 24928 are unattributed farm-owner dialog. Henry is linked only through 38546, which i",
+    "dialog.complete: 37669 ('Hopefully the hooligans won't be kicking their soccer balls around our farm now. Thank you for taking care of this.') is verified as real client text, but nothing ties it to Punked. The answer",
+    "line: previous and next are empty. This is an honest unknown, not a contradiction. The answer's split of 3140013 into Blackspore is supported: 402597 and 402599 are the Mud Hoppers/Waldo Sidewinder league-g",
+    "line: Previous and next are both empty and the answer does not mention the sibling hooligan quests that share Farnum Farmstead and Highroad Hijinx. Locale 19131 ('Maple Sugarleaf in Farnum Farmstead wants y",
+    "giver: giver.npc_id is null. The name 'Henry' (19093) is real, but no speaker is tied to the offer line 19119 or the greeting 19117/24928 in the client, so the giver is not wireable as stated. The evidence f",
+    "dialog.offer: The offer is 19119, but the same errand also has 38545 and 38546 and 104096 with near-identical wording ('play a little trick ... nab/steal their soccer balls'). The answer flags this in open, but the"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3000004,
+   "record": "quest-lines/quests.json q3000004",
+   "quest_file": "adventurer.json",
+   "title": "The Last Best Hope",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000068",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Defend Darkthorne from the Gloam",
+     "text_locale_id": 4419610,
+     "target": "Gloam (three defenders, not defined in field_enemies)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Pappy Farnum",
+     "text_locale_id": 4419612,
+     "target": "Pappy Farnum",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000165,
+      "name": "Pappy Farnum",
+      "file": "npcs/farnum_farmstead.json",
+      "zone": "Farnum Farmstead",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Look at the first globe",
+     "text_locale_id": 4419568,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Look at the second globe",
+     "text_locale_id": 4419570,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Look at the third globe",
+     "text_locale_id": 4419572,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Move past the first barrier",
+     "text_locale_id": 4419576,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Move past the second barrier",
+     "text_locale_id": 4419578,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Move past the third barrier",
+     "text_locale_id": 4419580,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "3",
+     "source": "notes/Research/Starting Quest Chains.md:10 (row 3000004, '3 coins; items []')"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 4419565,
+     "speaker": "Pappy Farnum"
+    }
+   },
+   "critic_problems": [
+    "reward: The answer keeps 3 coins from the chain table and mentions only a 25-coin conflict from an opening script. It omits MODLOG.md:229, which records a native campaign run granting 50 coins for the Gloam f",
+    "objectives[0]: The defend step's count '0/3' and the 'three defenders' target come from the guide (Adventurer.md:69, cites locale 2836239593), not from the client. The answer says count is null and cites no source f",
+    "live: 'live: unsure' with 'Nothing in the pack shows it ran on the original server' is accurate for the pack, but the repo's MODLOG.md:238 says a native campaign run completes The Last Best Hope and accepts",
+    "objectives[1]: The 'Talk to Pappy Farnum' step (4419612) is presented as this quest's objective, but the client tags 4419612 to a different hint and the only link is the repo script. The answer does flag this in its",
+    "objectives[0] target: The Gloam defender target is undefined (no field_enemies entry, no count). The answer's target label 'Gloam (three defenders...)' is fine as an open item, but the count of three comes only from the ch",
+    "line.next: Checked and consistent: chain table rows 9-11 give 3000003 Hero's Journal (4419559) before and 3000005 Saving Farnum's Farm (4420042) after, with 3000004 prerequisite [3000003]. Previous/next hold."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3000010,
+   "record": "quest-lines/quests.json q3000010",
+   "quest_file": "adventurer.json",
+   "title": "One More Gloam",
+   "live": "yes",
+   "giver": {
+    "name": "Pappy Farnum",
+    "npc_id": "9000000165",
+    "locale_id": 4420081
+   },
+   "resolved_giver": {
+    "npc_id": 9000000165,
+    "name": "Pappy Farnum",
+    "file": "npcs/farnum_farmstead.json",
+    "zone": "Farnum Farmstead",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Before you leave to find the Queen, Pappy Farnum asked for your help defeating one last Gloam Creature roaming nearby.",
+     "text_locale_id": 4420083,
+     "target": "Gloam Creature",
+     "target_locale_id": 5101961,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 4420081,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 4420084,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "dialog.progress / objectives[0]: Checked the locale ids: 4420081, 4420082, 4420083 and 4420084 all resolve to the claimed unflagged quest_dialog/quest_title/quest_objective text, and 5101961 is 'Gloam Creature'. Nothing in the answer",
+    "live / line: The record is stored with enabled:false and its predecessor 3000009 carries a playtest note that it drops the 3000008 prerequisite. The answer's 'live: yes' rests only on client text being unflagged. ",
+    "objectives[0]: The defeat target is only a name ('Gloam Creature', locale 5101961). No NPC id or location is given, and the answer does not cover the closest competing text. Locale 5100272 (Shady Shores, tagged to P",
+    "rewards: The record carries a 5-coin reconstructed payout (W110), while the answer says rewards is empty. The answer says 'nothing is evidenced' but never reports the stored reconstructed coin reward, so a bui",
+    "live: The live status rests on the client text being unflagged. Nothing in the pack or my lookups shows the quest reachable in live play, and the record is enabled:false. The answer does not mention enabled"
+   ],
+   "blocked_by": [
+    "defeat target 'Gloam Creature' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3000019,
+   "record": "quest-lines/quests.json q3000019",
+   "quest_file": "adventurer.json",
+   "title": "Portal Remnants",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000509",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Gloamlings",
+     "text_locale_id": 5101948,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No evidenced reward; the record's 5-coin value is a reconstructed fallback and should not be wired as live",
+     "source": "repo:prototype/osfr-tools/data/content/quests/adventurer.json:1536"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 5101949,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: Verified: locale 5101948 'Defeat Gloamlings' and 5101947 description are tagged quest_objective to Farnum Farmstead / Portal Remnants; 5101946 quest_title and 5101949 completion dialog also check out.",
+    "giver: Giver 9000000509 is confirmed unresolved: repo npcs_unresolved.json:4106 has name null and kind 'unknown', and adventurer.json:1481 is the only other reference. No offer dialog is tagged to this quest",
+    "line: previous/next are empty and no chain notes exist to contradict this. The answer correctly declines to infer a line.",
+    "giver: Giver 9000000509 is unnamed and has no quests_given or zone in any source. The answer correctly leaves it null, but the quest cannot be wired to a giver. Checked: the only repo hits for 9000000509 are",
+    "line: previous and next are empty and no line is inferred. This is honest, but the placement rests only on the Adventurer guide row B5 (notes/Build Guides/Content/Jobs/Adventurer.md:93) and the Starting Que",
+    "evidence[4]: The claim that 5101541 'Defeat Gloamlings' is tagged to a different quest was not re-verified here. It is a side note and does not change the answer's objective."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "defeat target None not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3010013,
+   "record": "quest-lines/quests.json q3010013",
+   "quest_file": "archer.json",
+   "title": "Archer: No Arrows, No Work!",
+   "live": "yes",
+   "giver": {
+    "name": "Vicki",
+    "npc_id": "9000000230",
+    "locale_id": 77630
+   },
+   "resolved_giver": {
+    "npc_id": 9500000229,
+    "name": "Vicki",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Head into Sheep Watch to retrieve Vicki's arrows.",
+     "text_locale_id": 93257,
+     "target": "Sheep Watch",
+     "target_locale_id": 30404,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "[*Player*] braved Sheep Watch and retrieved some loose arrows.",
+     "text_locale_id": 77656,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward data found in any source. 77655 is tagged quest_reward but gives no coins, item or xp.",
+     "source": "locale:77655"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 77652,
+     "speaker": "Vicki"
+    },
+    "progress": {
+     "locale_id": 77654,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 77655,
+     "speaker": "Vicki"
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The go objective is correctly keyed to 93257 and target 30404, but the answer says the sheep pen = Sheep Watch is only an inference. Locale 115464 ('As an archer, collect Vicki's lost arrows from insi",
+    "live_reason: The 'live: yes' verdict rests on the unflagged title and the wiki heading. The wiki evidence is only a heading fragment, and the record is enabled:false with no objectives or rewards. 'Live' is theref",
+    "previous: The previous link 3010012 'Archer: Archer Departure' checks out: locale:77598 says Hilforn sends the player to find Vicki. The answer flags the giver conflict, which is correct, and the chain holds.",
+    "next: The next link 3010014 'Archer: No Bow, No Work!' matches locale:77660 and the record set. The answer's 'end text points to bow quest' claim is supported by 77655 ('get my bow back').",
+    "objectives[0]: Locale 93257 ('Head into Sheep Watch to retrieve Vicki's arrows.') is real and tagged quest_objective, but its hint is 'Sheep Watch Vicki', not this quest's title. Neighbouring 93278 'Retrieve Vicki's",
+    "objectives: The answer says no deliver step exists in client text. Locale 93286 ('Return to Vicki in Farnum Farmstead') is a Vicki return objective that the answer does not mention. It may belong to the bow quest"
+   ],
+   "blocked_by": [
+    "giver 'Vicki' row 9500000229 not placed"
+   ]
+  },
+  {
+   "quest_id": 3010014,
+   "record": "quest-lines/quests.json q3010014",
+   "quest_file": "archer.json",
+   "title": "Archer: No Bow, No Work!",
+   "live": "yes",
+   "giver": {
+    "name": "Vicki",
+    "npc_id": "9000000230",
+    "locale_id": 77630
+   },
+   "resolved_giver": {
+    "npc_id": 9500000229,
+    "name": "Vicki",
+    "file": "npcs/briarwood.json",
+    "zone": "Briarwood",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As an archer, enter Highroad Hijinx and get back Vicki's bow.",
+     "text_locale_id": 115487,
+     "target": "Highroad Hijinx",
+     "target_locale_id": 5710,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "While you're in there, defeat a few Hooligan Archers!",
+     "text_locale_id": 115487,
+     "target": "Hooligan Archer",
+     "target_locale_id": 15362,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 100000004157,
+      "name": "Hooligan Archer",
+      "file": "npc_spawns_extra.json",
+      "zone": null,
+      "placed": true,
+      "placement": "extra_spawn",
+      "confidence": null
+     }
+    },
+    {
+     "kind": "collect",
+     "text": "[*Player*] took down a few hooligans and recovered Vicki's bow.",
+     "text_locale_id": 77663,
+     "target": "Vicki's bow",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward named in the pack; end text 77662 names no coins, XP or item.",
+     "source": "locale:77662"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 77659,
+     "speaker": "Vicki"
+    },
+    "progress": {
+     "locale_id": 77661,
+     "speaker": "Vicki"
+    },
+    "complete": {
+     "locale_id": 77662,
+     "speaker": "Vicki"
+    }
+   },
+   "critic_problems": [
+    "objectives[1]: The defeat step is split out of the single combined line 115487 and its target 15362 'Hooligan Archer' is inferred, not tagged to this quest. Lookup confirms 115487 is tagged 'Highroad Junction Highro",
+    "objectives[2]: kind 'collect' with no target id for Vicki's bow. Locale 77663 is a completion line ('[*Player*] took down a few hooligans and recovered Vicki's bow.'), not a pickup objective, so a collect with no ta",
+    "line: Chain checked and holds: 3010013 -> 3010014 -> 3010015 in archer.json (prerequisite 3010013 on 3010014, 3010014 on 3010015), and locale 77667 'Archer: I Quit!' is the next title. Giver Vicki (90000002",
+    "rewards: Stated as none found, which matches the pack. Not a defect.",
+    "objectives[1]: Target 15362 'Hooligan Archer' is confirmed as an npc_name string, but the link to this quest is inferred from matching wording. Lookup shows 115487 (the objective text) names 'Hooligan Archers' in th",
+    "objectives[0]: The 'go' objective cites 115487 for a combined line; the locale tag on 115487 is 'quest_objective Highroad Junction Highroad Hijinx', so the zone tag is Highroad Junction, not Highroad Hijinx. The ans"
+   ],
+   "blocked_by": [
+    "giver 'Vicki' row 9500000229 not placed"
+   ]
+  }
+ ]
+}

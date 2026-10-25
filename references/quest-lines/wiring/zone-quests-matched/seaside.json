@@ -1,0 +1,1056 @@
+{
+ "zone": "Seaside",
+ "wireable_by_match": [
+  {
+   "quest_id": 3000320,
+   "record": "quest-lines/quests.json q3000320",
+   "quest_file": "zone_seaside.json",
+   "title": "Welcome to Seaside",
+   "live": "unsure",
+   "giver": {
+    "name": "Spritzy (candidate; offer binding unconfirmed)",
+    "npc_id": "9500000629",
+    "locale_id": 21292
+   },
+   "resolved_giver": {
+    "npc_id": 9500000629,
+    "name": "Spritzy",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Take a look at the view",
+     "text_locale_id": 93294,
+     "target": "Overlook near the gazebo in Seaside",
+     "target_locale_id": 70450,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Spritzy",
+     "text_locale_id": 93310,
+     "target": "Spritzy",
+     "target_locale_id": 21292,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000629,
+      "name": "Spritzy",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Cole in Seaside",
+     "text_locale_id": 101743,
+     "target": "Cole",
+     "target_locale_id": 93337,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000567,
+      "name": "Cole",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "30 (fork value, unverified)",
+     "source": "Lxzxrus-Free-Realms-Server@37ef175 src/Resources/Quests.json QuestId=3020 RewardCoins"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 93282,
+     "speaker": "Spritzy"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver Spritzy (9500000629) is a candidate only. Client greeting 93282 names the gazebo, not Spritzy, and no client or wiki source binds the offer to her. The answer already flags this honestly, so it ",
+    "objectives[0].target: Visit coordinates [-690.38, 2.3, -1060.25] r15 are fork-only hand-placed values, with no client or wiki support. Target name 'Overlook near the gazebo in Seaside' (70450) is verified in the client.",
+    "rewards: Coins 30 comes only from the fork's RewardCoins, which the fork calls a placeholder. It is correctly labelled unverified.",
+    "dialog.complete: Evidence cites 93335 as the end text; I did not re-check that id, but the answer correctly leaves dialog.complete null.",
+    "line: The answer lists previous as [] while its open list says the previous quest is 'unknown, not confirmed empty'. The field states an empty predecessor as fact, and nothing in the evidence or chain notes",
+    "giver: The giver is Spritzy only by inference. The greeting 93282 names the gazebo, not Spritzy, and no source binds the offer to npc 9500000629. The answer correctly marks it a candidate, but that leaves th"
+   ]
+  },
+  {
+   "quest_id": 3000322,
+   "record": "quest-lines/quests.json q3000322",
+   "quest_file": "zone_seaside.json",
+   "title": "Touring Seaside",
+   "live": "yes",
+   "giver": {
+    "name": "Cole",
+    "npc_id": "9500000567",
+    "locale_id": 93337
+   },
+   "resolved_giver": {
+    "npc_id": 9500000567,
+    "name": "Cole",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find the Fortune Teller, \"The Great Koodini\"",
+     "text_locale_id": 93425,
+     "target": "The Great Koodini (position -379.92, -6.58, -1168.87, radius 10; fork-placed)",
+     "target_locale_id": 21311,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000634,
+      "name": "The Great Koodini",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Find The Boardwalk",
+     "text_locale_id": 93427,
+     "target": "Boardwalk (position -426.24, -18.72, -1223.69, radius 20; fork-placed)",
+     "target_locale_id": 116988,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Diggy, the owner of Ocean Treasures Cafe",
+     "text_locale_id": 93429,
+     "target": "Diggy (repo npc 9000000070, fork-bound)",
+     "target_locale_id": 21302,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000070,
+      "name": "Diggy",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Cole",
+     "text_locale_id": 93407,
+     "target": "Cole (repo npc 9500000567)",
+     "target_locale_id": 93337,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000567,
+      "name": "Cole",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "30",
+     "source": "Lxzxrus-Free-Realms-Server src/Resources/Quests.json QuestId 3022 RewardCoins 30 (community data, unverified against client)"
+    },
+    {
+     "kind": "other",
+     "value": "Fork RewardExperience 80 (Quests.json QuestId 3022, line 288). Not wired; unverified, listed for reference only.",
+     "source": "Lxzxrus-Free-Realms-Server src/Resources/Quests.json:288"
+    },
+    {
+     "kind": "item",
+     "value": "none",
+     "source": "Lxzxrus-Free-Realms-Server src/Resources/Quests.json QuestId 3022 RewardItems []"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 93419,
+     "speaker": "Cole"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "live_reason: Calling the quest 'live: yes' rests on the client strings being unflagged and tagged to this quest. The ids check out, but the goal logic, coordinates, NPC bindings and coins are fork-sourced, which t",
+    "objectives[0].target_locale_id: Koodini locale 21311 was flagged as unverified in the answer's open list. I checked it: 21311 is 'The Great Koodini'. Still, the answer should cite it as verified rather than carried over.",
+    "objectives[3]: Goal 4 uses NameId 93407 ('Return to Cole', confirmed). The fork's DialogueId 93422 is the end text, confirmed, and matches dialog.complete. Npc 9500000567 is present in npcs/seaside.json at line 9341",
+    "rewards: Coins 30 comes only from the fork's RewardCoins and is unverified. The answer correctly marks this, and job XP is correctly omitted. RewardExperience 80 from the fork is listed only for reference.",
+    "live: Marked live \"yes\" while the goal logic, coordinates, radii, Diggy's NPC binding and the 30-coin reward come only from the Lxzxrus fork and are admitted unverified. The client text (93420, 93425, 93427",
+    "evidence: The answer misses the strongest client corroboration of the tour structure. locale:103037 (\"Have you taken the tour of Seaside? Make sure to visit all 3 places I mentioned. The Fortune Teller's Tent, "
+   ]
+  },
+  {
+   "quest_id": 3000360,
+   "record": "quest-lines/quests.json q3000360",
+   "quest_file": "zone_seaside.json",
+   "title": "Feminine Touch",
+   "live": "yes",
+   "giver": {
+    "name": "Yancy Gilbert",
+    "npc_id": "9500000645",
+    "locale_id": 45562
+   },
+   "resolved_giver": {
+    "npc_id": 9500000645,
+    "name": "Yancy Gilbert",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Ask Tazinna about her favorite food",
+     "text_locale_id": 101402,
+     "target": "Tazinna",
+     "target_locale_id": 45815,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000633,
+      "name": "Tazinna",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Ask Emuzz about her most valuable possession",
+     "text_locale_id": 101404,
+     "target": "Emuzz",
+     "target_locale_id": 45586,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000580,
+      "name": "Emuzz",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Yancy",
+     "text_locale_id": 101406,
+     "target": "Yancy Gilbert",
+     "target_locale_id": 45562,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000645,
+      "name": "Yancy Gilbert",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 101408,
+     "speaker": "Yancy Gilbert"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 101411,
+     "speaker": "Yancy Gilbert"
+    }
+   },
+   "critic_problems": [
+    "objectives[0] / objectives[1]: Objectives give target names and NameIds but omit the NPC spawn/definition ids the evidence pack ties them to: Tazinna npc 9500000633 (definition 1777) and Emuzz npc 9500000580 (definition 1758). A bu",
+    "giver / repo cross-check: Repo notes disagree on the title hash for Feminine Touch: NPCs - Seaside.md:106 and seaside.json:48027 give title 3470628220, while the quest table at NPCs - Seaside.md:267 gives title 2167208064. The",
+    "dialog.progress: Answer leaves dialog.progress null, though the client text has NPC replies 101413 ('Yum! Ok thanks!') and 101416 (Emuzz's real answer) that belong to the flow. Not a wrong id, just incomplete.",
+    "line: Previous and next are left empty and the answer admits they are unconfirmed. The chain cannot be checked from the pack, since the chain notes are empty and the evidence pack's same_giver_quests and ou",
+    "objectives[1]: The repo notes (NPCs - Seaside.md:104, seaside.json:16156) give the same Emuzz objective text 'Ask Emuzz about her most valuable possession' a separate hash id 2778161287. The answer says this is an o",
+    "objectives[0]: The Tazinna objective is tied to the repo's hash 1145341156 in seaside.json:42265 and NPCs - Seaside.md:105, which the answer does not mention. The answer does not reconcile this hash with locale 1014"
+   ]
+  },
+  {
+   "quest_id": 3040023,
+   "record": "quest-lines/quests.json q3040023",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Just One More!",
+   "live": "yes",
+   "giver": {
+    "name": "Jammie Swiftsong",
+    "npc_id": "9000000112",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000112,
+    "name": "Jammie Swiftsong",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Play and Beat Jammie's Tournament Deck.",
+     "text_locale_id": 115410,
+     "target": null,
+     "target_locale_id": null,
+     "count": 1,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 115416,
+     "speaker": "Jammie Swiftsong"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 115419,
+     "speaker": "Jammie Swiftsong"
+    }
+   },
+   "critic_problems": [
+    "live: 'live: yes' rests only on the absence of a FLAG on the client strings. The record has enabled:false, and no shipped-content or build source is cited. The answer does admit moderate confidence, but the",
+    "dialog.progress: 115436 is wired as the progress dialog, but the text ('If you're here to play cards, you're out of luck... wait, you found my cards?') does not name a speaker. The answer presumes Jammie and assigns t",
+    "objectives[0]: Verified: 115410 'Play and Beat Jammie's Tournament Deck.' exists with the exact text and no flag. The kind 'other' and null target are honest, since the client gives no target id.",
+    "title / offer / description / completion: Verified against the locale tool: 115417 title, 115416 offer, 115418 objective text, 115419 completion and 115412 intro all match the quoted text and carry no flag. 115411 alternate wording also match",
+    "giver.locale_id: Correctly left null. The name hash 3142184010 appears only in the NPC notes and is not a verified locale id. The giver NPC id 9000000112 comes from the repo data, which I did not re-verify beyond the ",
+    "objectives[0]: Objective is kind 'other' with target null. The text 'Play and Beat Jammie's Tournament Deck' (locale 115410, confirmed live, no flag) names the opponent Jammie, who is the giver, so a builder cannot "
+   ]
+  },
+  {
+   "quest_id": 3090029,
+   "record": "quest-lines/quests.json q3090029",
+   "quest_file": "medic.json",
+   "title": "Medic: No Pain, No Gain",
+   "live": "yes",
+   "giver": {
+    "name": "Doctor Callahan",
+    "npc_id": "9000000072",
+    "locale_id": 74790
+   },
+   "resolved_giver": {
+    "npc_id": 9000000072,
+    "name": "Doctor Callahan",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Prove you're in top shape by running around Seaside.",
+     "text_locale_id": 74803,
+     "target": "Seaside",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, complete the run before time expires!",
+     "text_locale_id": 74804,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "No reward confirmed. The guide lists a possible boots reward only for the next quest, Medic: Risky Research, not this one.",
+     "source": "notes/Build Guides/Content/Jobs/Medic.md:123"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": 74798,
+    "progress": null,
+    "complete": 74801
+   },
+   "critic_problems": [
+    "objectives[1]: The timed-run objective (74804, 'As a medic, complete the run before time expires!') is real and unflagged, but the answer types it as kind 'other' with no target. The client has no time limit or comp",
+    "objectives[0].target: Target 'Seaside' has no locale id. It is a zone name, not a target NPC or item, which is fine, but the answer should say the target is a zone-wide run, not a named place.",
+    "line: Previous and next links (3090027, 3090030) come from the record's prerequisite and the guide's row order. The guide says order is not proven and no client gate text was found. Callahan's quest list in",
+    "line: The previous and next links (Achieve Level 20 before, Risky Research after) rest on the wiki's page order. The guide's row 29 says the order is 'not proven', and the answer's own open list says so. Th",
+    "line: The guide names a possible opener, locale line 255575734 ('You might be level 20, but lets see if you have what it takes...'), which could be the real gate into this stretch. The answer drops it after",
+    "objectives[0]: kind 'go' with target 'Seaside' is an interpretation of 'running around Seaside'. The text supports a run in Seaside, but not a travel-to-place objective with a named target. Target_locale_id is null,"
+   ]
+  },
+  {
+   "quest_id": 3090031,
+   "record": "quest-lines/quests.json q3090031",
+   "quest_file": "medic.json",
+   "title": "Medic: A Frosty Remedy",
+   "live": "yes",
+   "giver": {
+    "name": "Doctor Callahan",
+    "npc_id": "9000000072",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000072,
+    "name": "Doctor Callahan",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Doctor Callahan in Seaside to take the quest (offer text)",
+     "text_locale_id": 76046,
+     "target": "Doctor Callahan",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000072,
+      "name": "Doctor Callahan",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Go to Snowy Canyon and collect some ice lotus to help some sick residents of Seaside.",
+     "text_locale_id": 76048,
+     "target": "Snowy Canyon (Snowhill)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a medic, collect samples of Ice Lotus",
+     "text_locale_id": 76128,
+     "target": "Ice Lotus",
+     "target_locale_id": 76127,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Doctor Callahan with the ice lotus (completion text)",
+     "text_locale_id": 76049,
+     "target": "Doctor Callahan",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000072,
+      "name": "Doctor Callahan",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "A hat (unnamed, unverified)",
+     "source": "notes/Build Guides/Content/Jobs/Medic.md:125 (guide only, marked unverified; no locale text found)"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "no client or wiki amount found"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "no client or wiki amount found"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 76046,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 76048,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 76049,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[2]: The collect objective's target_locale_id is 76127, which is the full instruction sentence ('Collect Ice Lotus from the hills of Snowy Canyon, in Snowhill.'), not a target name. Using it as a target na",
+    "objectives[0]: The offer text 76046 is the quest_dialog body, not an objective line. Its 'Speak to Doctor Callahan' wording is not in the client text, so the objective text is paraphrased rather than sourced.",
+    "rewards[0]: The hat reward comes only from a guide line marked unverified, with no client or wiki support. Listing it as a reward risks a builder wiring a nonexistent item.",
+    "line: The Band 5 placement, the 'previous/next' order and the level-20 gate come from the guide's wiki-order note, not from client data. The answer admits this, and the prerequisite 3090030 supports it, but",
+    "rewards: The unverified hat from the Medic guide (Medic.md:125) is listed as a reward. The client has no hat text for this quest; locale 76049 only says 'take this' and names nothing. Carrying an unverified re",
+    "objectives[2]: target_locale_id 76127 is the objective sentence 'Collect Ice Lotus from the hills of Snowy Canyon, in Snowhill.', not a target name. The target 'Ice Lotus' is only a name in the text of 76128 ('As a "
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3040024,
+   "record": "quest-lines/quests.json q3040024",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Finding the Fish",
+   "live": "yes",
+   "giver": {
+    "name": "Jammie Swiftsong",
+    "npc_id": "9000000112",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000112,
+    "name": "Jammie Swiftsong",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Jammie says Ari the Fish has a camp south of Merry Vale.",
+     "text_locale_id": 104278,
+     "target": null,
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "go",
+     "text": "Find Ari the Fish at a camp in the wilds and return her cards.",
+     "text_locale_id": 104276,
+     "target": "Ari the Fish's camp, south of Merry Vale",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000869,
+      "name": "Ari the Fish",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "As a Card Duelist; Beat Ari's Trick Deck",
+     "text_locale_id": 104279,
+     "target": "Ari's Trick Deck",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Ari the FIsh",
+     "text_locale_id": 104281,
+     "target": "Ari the Fish",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000869,
+      "name": "Ari the Fish",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "deliver",
+     "text": "Return the cards to Ari the Fish",
+     "text_locale_id": 104277,
+     "target": "Ari the Fish",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000869,
+      "name": "Ari the Fish",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 104283,
+     "speaker": "Jammie Swiftsong"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104286,
+     "speaker": "Ari the Fish"
+    }
+   },
+   "critic_problems": [
+    "objectives[1].target: The target \"Ari the Fish's camp, south of Merry Vale\" is the answer's own paraphrase. No cited locale line names that place as a target. Locale 104276 says only \"Find Ari the Fish at a camp in the wil",
+    "evidence[3] / description: Locale 104285 is typed quest_objective in the client, not a description. The answer cites it as the description. It is still a live, unflagged line.",
+    "zone: The answer gives Seaside as the zone while locale 104284, the title, is tagged Merry Vale. It says this is ambiguous but still chooses Seaside without a source for the quest's zone field.",
+    "dialog.progress: Left null. Candidates 104280 (\"Ari can't resist playing one game!\", quest_dialog, unflagged) exist, and the answer already flags this as open.",
+    "giver.locale_id: Null. The giver NPC name is confirmed in seaside.json and the giver dossier, but no locale id is supplied.",
+    "dialog.progress: Progress dialog left null although the client has a candidate quest_dialog line tagged to this quest (locale:104280 'Ari can't resist playing one game!', and 104291 'Good work! And so few bite marks!'"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Ari's Trick Deck)"
+   ]
+  },
+  {
+   "quest_id": 3080023,
+   "record": "quest-lines/quests.json q3080023",
+   "quest_file": "kart_driver.json",
+   "title": "Kart Driver: The Price of Fame",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "As part of your sponsorship deal with the Seaside Board of Tourism, you have an autograph signing to attend in Seaside. Find Roxy to get the event started.",
+     "text_locale_id": 394680,
+     "target": "Roxy (in Seaside)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Seaside Board of Tourism sponsorship (narrative only; no coin or item amount found)",
+     "source": "locale:394688"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 394677,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Giver left null even though the build guide names Petal Oceanmist as the inferred giver (row 21, 'Petal Oceanmist (inferred)'), and the Age Before Beauty row (22) says Petal Oceanmist sets up the next",
+    "line: Line placement checks out: guide row 20 is Kart Driver: Dominating at Frost Ridge (locale 3525 'Kart Driver: Dominating at Frost Ridge') and row 22 is Kart Driver: Age Before Beauty (locale 3527). Bot",
+    "objectives[0]: Objective text 394680 is the right client line for the Roxy talk objective, but the guide's id 4035036837 for the same text is unreconciled; the answer discloses this. Roxy as target is supported by 3",
+    "giver: Giver left null. The guide (Kart Driver.md row 21) names Petal Oceanmist as giver, marked inferred; the answer correctly declines to bind her, so this is an honest unknown, not an error. Petal's name ",
+    "dialog.complete: Top-level dialog says complete is null, while dialog_answer lists 394677 ('You've got yourself a new sponsor, [*player*]!') as complete by content fit. The two sections disagree, though the answer fla",
+    "objectives[0].target: Target 'Roxy' has no verified server id; npc_id 9500000620 is a reconstructed key in seaside.json, and the NPC notes give a different id (2228833807, a name hash). The answer discloses this in open."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows",
+    "talk target 'Roxy (in Seaside)' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3090026,
+   "record": "quest-lines/quests.json q3090026",
+   "quest_file": "medic.json",
+   "title": "Medic: Omitted Admission",
+   "live": "yes",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000280",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Take a letter of recommendation to Dr. Callahan in Seaside.",
+     "text_locale_id": 74787,
+     "target": "Doctor Callahan",
+     "target_locale_id": 74790,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000072,
+      "name": "Doctor Callahan",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Doctor Callahan",
+     "text_locale_id": 74788,
+     "target": "Doctor Callahan",
+     "target_locale_id": 74790,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000072,
+      "name": "Doctor Callahan",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 74782,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 74785,
+     "speaker": "Doctor Callahan"
+    }
+   },
+   "critic_problems": [
+    "giver: Giver is left null, which is honest, but the pack's own sources conflict. npcs_unresolved.json:2051-2052 labels ref 9000000280 'Clover (wiki). The client text reads as Gordon', and the Medic guide (ro",
+    "objectives[0]: The 'go' objective (74787) is an inferred kind. The answer says so, but it is a guess about the server objective type, and the target id 74790 is only a name string, not a server NPC id.",
+    "line: Previous and next links check out: medic.json prerequisite 3090025 is Shocking Developments, and Medic.md row 27 and the wiki Medic page both place Achieve Level 20 (Callahan) next. The 'Band 4' label",
+    "evidence: Locale ids 74783, 74782, 74788 and 74790 confirmed live text in the client. Locale 74785 and 74787 are present in the evidence pack (tagged Seaside, unflagged) and were not contradicted. The Seaside t",
+    "giver: The giver is left null, and the evidence conflicts. The offer text (74782) says Doctor Gordon sends the letter, and the wiki Medic page credits Clover. The id 9000000280 is labelled 'Clover (wiki). Th",
+    "line.next: The next link 'Medic: Achieve Level 20' rests only on the wiki Medic list order. The wiki Doctor Callahan appearances list also shows 'Medic: No Pain, No Gain' (locale 74799, tagged Seaside) directly "
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3090030,
+   "record": "quest-lines/quests.json q3090030",
+   "quest_file": "medic.json",
+   "title": "Medic: Risky Research",
+   "live": "yes",
+   "giver": {
+    "name": "Doctor Callahan",
+    "npc_id": "9000000072",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000072,
+    "name": "Doctor Callahan",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "As a medic, meet with Acade Vulgari",
+     "text_locale_id": 74844,
+     "target": "Acade Vulgari",
+     "target_locale_id": 74851,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000546,
+      "name": "Acade Vulgari",
+      "file": "npcs/seaside.json",
+      "zone": "Seaside",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "go",
+     "text": "Escort Acade Vulgari through the Cray Caves.",
+     "text_locale_id": 74843,
+     "target": "Cray Caves",
+     "target_locale_id": 30432,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "other",
+     "text": "As a medic, guide and protect Acade while he collects Cray eggs for his research",
+     "text_locale_id": 74849,
+     "target": "Acade Vulgari",
+     "target_locale_id": 74851,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "item",
+     "value": "A pair of school boots (unnamed in client; 'Take these boots, compliments of the school.')",
+     "source": "locale:74837"
+    },
+    {
+     "kind": "coins",
+     "value": "unknown",
+     "source": "no client or wiki amount found"
+    },
+    {
+     "kind": "xp",
+     "value": "unknown",
+     "source": "no client or wiki amount found"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 74834,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 74837,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "evidence[2]: The citation 'Objective Escort ... and meet objective' is pinned to locale:74843 for both objectives. 74843 is only 'Escort Acade Vulgari through the Cray Caves.' The meet text 'As a medic, meet with ",
+    "giver.locale_id: giver.locale_id is null. The NPC name is not verified as a locale string here. The guide gives name id 839146786 for Doctor Callahan, which was not checked in this pass.",
+    "objectives[1]: The kind is 'go' with the target Cray Caves (30432, confirmed as 'Cray Caves'). The escort is a protect/escort action, and the target is a location, so 'go' is a reasonable choice. The open question a",
+    "dialog/description: The description line locale:74836 ('Escort Acade through the Cray Caves while he collects specimens for his lab.', quest_objective, no FLAG) is listed in the record texts but is not used in the answer",
+    "objectives[1]: The escort objective is correct (locale 74843 'Escort Acade Vulgari through the Cray Caves.', target 30432 'Cray Caves' verified), but the answer does not say whether the escort is a combat dungeon ru",
+    "giver.locale_id: Left null. The guide's name id 839146786 is not a locale id (locale lookup returns 'no such id'), so null is correct, but the answer should say the giver is matched by npc_id 9000000072 and name only."
+   ],
+   "blocked_by": [
+    "talk target 'Acade Vulgari' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3110025,
+   "record": "quest-lines/quests.json q3110025",
+   "quest_file": "ninja.json",
+   "title": "Contract: Spirits and Spider Trainers",
+   "live": "yes",
+   "giver": {
+    "name": "Ree Peatpants",
+    "npc_id": "9000000439",
+    "locale_id": 388454
+   },
+   "resolved_giver": {
+    "npc_id": 9000000180,
+    "name": "Ree Peatpants",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Stealthy Despoilers in Seaside.",
+     "text_locale_id": 388449,
+     "target": "Stealthy Despoilers",
+     "target_locale_id": 74637,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Spider Trainers in Grexan's Camp.",
+     "text_locale_id": 388843,
+     "target": "Troll Spider Trainer",
+     "target_locale_id": 5135,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Troll Naturalists in Grexan's Camp.",
+     "text_locale_id": 388840,
+     "target": "Troll Naturalist",
+     "target_locale_id": 5234,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 388411,
+     "speaker": "Ree Peatpants"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388414,
+     "speaker": "Ree Peatpants"
+    }
+   },
+   "critic_problems": [
+    "giver: npc_id 9000000439 is only in npcs_unresolved.json (ref_id 9000000439) and ninja.json; no resolved NPC record ties it to Ree Peatpants. The answer discloses this, but the giver mapping rests on the Nin",
+    "evidence: The wiki claim cites 'wiki page: Ree Peatpants' as listing this contract, but the wiki pack's quests_given_text is null and the answer itself says the page does not list the contract. The citation is ",
+    "evidence: Live claim cites 388448, 388839 and 388842 as end/intro lines without checking them; the FLAG status of these lines was not verified by the locale tool output (which does not show FLAG tags).",
+    "line: Chain placement is supported only by the Ninja guide row G1 ('after F6') and prerequisite 3110024 = 'Ninja: Achieve Level 20' (ninja.json:1377, title 388412 chain). 'next' is empty with no source chec",
+    "line.next: Empty 'next' is asserted without a source. The Ninja guide's G1 row says only 'Wiki order: after F6' and does not say G1 is the last row of the line; I found no row after G1 checked in the guide, but ",
+    "giver: npc_id 9000000439 is listed as unresolved, and the wiki Ree Peatpants page does not list this contract (the answer admits this). Name-to-id mapping rests on the same-giver records in ninja.json (31100"
+   ],
+   "blocked_by": [
+    "giver 'Ree Peatpants' row 9000000180 not placed",
+    "defeat target 'Stealthy Despoilers' not placed in our rows",
+    "defeat target 'Troll Spider Trainer' not placed in our rows",
+    "defeat target 'Troll Naturalist' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3120023,
+   "record": "quest-lines/quests.json q3120023",
+   "quest_file": "pet_trainer.json",
+   "title": "Pet Trainer: Shake Your Groove Thing",
+   "live": "unsure",
+   "giver": {
+    "name": "Moanna",
+    "npc_id": "9000000153",
+    "locale_id": 90091
+   },
+   "resolved_giver": {
+    "npc_id": 9000000153,
+    "name": "Moanna",
+    "file": "npcs/seaside.json",
+    "zone": "Seaside",
+    "placed": false,
+    "placement": "unanchored",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Use the trick game to train your pet to do the trick \"Dance\".",
+     "text_locale_id": 90099,
+     "target": "Dance (pet trick)",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 90097,
+     "speaker": "Moanna"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 90100,
+     "speaker": "Moanna"
+    }
+   },
+   "critic_problems": [
+    "giver: The answer cites locale 90091 as proof that Moanna is this quest's Seaside giver. 90091 is the referral text on Pet Trainer: Down by the Bay (3120022, Verill's quest) that sends the player to Moanna. ",
+    "line: The line placement holds: the guide's band 4 has Down by the Bay (row 18), then Shake Your Groove Thing (row 19), then Seek the Master (row 20). The answer's previous link to Down by the Bay is guide-",
+    "objectives[0]: The objective is built from the description text 90099, which is supported. The kind 'use' and the null target id are guesses about the schema, not evidenced. The guide also gives the level-20 gate ('",
+    "live: Live status is left as 'unsure'. The wiki lookup shows the Pet Trainer page carrying 'Category:No longer in-game', and the answer could not confirm which entries that category covers. The client text ",
+    "evidence[4] / giver: Locale 90091 is verified as naming Moanna and 'find her in Seaside', but the pack's client_cluster and giver dossier show it is the referral text of Pet Trainer: Down by the Bay (quest 3120022, giver ",
+    "line.previous: Down by the Bay is listed as the previous quest, but the record has no prerequisite and that quest is built under Verill. The answer admits the hand-off is inferred, yet it still lists the link in the"
+   ],
+   "blocked_by": [
+    "giver 'Moanna' row 9000000153 not placed"
+   ]
+  },
+  {
+   "quest_id": 3130019,
+   "record": "quest-lines/quests.json q3130019",
+   "quest_file": "postman.json",
+   "title": "Postman: Where's the Sasparilla?",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find what happened to the Sweetwater Sasparilla.",
+     "text_locale_id": 130194,
+     "target": "Wugachug",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 130192,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: Giver is null. The guide's row 16 names Enaine, but the client speaker in the sibling Postman lines is Enve LeStamp, and the record's npc_id 9000000079 is flagged as a mis-binding in the giver dossier",
+    "line.previous: Invitation Only (row 15) is the guide's direct predecessor, which the guide's row order supports. The video banner evidence cited in the guide (vcRIx8EficY/00000) puts Achieve Level 10 (row 14) just b",
+    "objectives[0]: The objective is confirmed as a real client quest_objective (locale 130194, 'Find what happened to the Sweetwater Sasparilla.', zone Wugachug, title 130193). However, the guide's own objective list fo",
+    "objectives[0].target: Target 'Wugachug' is stated as the objective's target, but objective locale 130194 ('Find what happened to the Sweetwater Sasparilla.') names no place. Wugachug comes from the offer text 130192 ('head",
+    "giver: Giver is null. The evidence pack's npc 9000000079 (Enaine) is flagged as a mis-binding by the giver dossier, and the answer correctly leaves it open. Not a false claim, but it makes the quest unwireab",
+    "evidence[8]: Claim that the guide's dagger-marked title confirmation is a 'video map legend' is not supported by anything in the evidence pack shown; the pack only shows the guide's row 16 and its † markers."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  }
+ ]
+}

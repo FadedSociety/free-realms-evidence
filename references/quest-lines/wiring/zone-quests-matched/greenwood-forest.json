@@ -1,0 +1,442 @@
+{
+ "zone": "Greenwood Forest",
+ "wireable_by_match": [
+  {
+   "quest_id": 3010009,
+   "record": "quest-lines/quests.json q3010009",
+   "quest_file": "archer.json",
+   "title": "Archer: Achieve Level 5",
+   "live": "unsure",
+   "giver": {
+    "name": "Hilforn",
+    "npc_id": "9000000106",
+    "locale_id": 22171
+   },
+   "resolved_giver": {
+    "npc_id": 9000000106,
+    "name": "Hilforn",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach level 5 as an Archer, then return to Hilforn.",
+     "text_locale_id": 387306,
+     "target": "Archer level 5",
+     "target_locale_id": 387308,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 387301,
+     "speaker": "Hilforn"
+    },
+    "progress": {
+     "locale_id": 387311,
+     "speaker": "Hilforn"
+    },
+    "complete": {
+     "locale_id": 387304,
+     "speaker": "Hilforn"
+    }
+   },
+   "critic_problems": [
+    "objectives: The intro text (387301, which the answer cites) sends the player to Eddie Eagle Eyes before returning to Hilforn at level 5. The answer has one objective (level 5, return to Hilforn) and no Eddie step",
+    "line.previous / line.next: These are guide row order, not server prerequisites. The record has no prerequisite_quest_ids, and the answer already says so. 'next' lists Contract: All Around Win, which is given by Eddie, not Hilfo",
+    "live: Honest 'unsure'. Verified that 387302 (title), 387306 (objective), and 22171 ('Hilforn') match the claimed text. No FLAG was seen on those lines, but no source confirms the quest shipped.",
+    "objectives[0].kind: Locale ids and texts check out: 387302 'Archer: Achieve Level 5', 387306 'Reach level 5 as an Archer, then return to Hilforn.', 387308 'Level up to level 5 as an Archer.', 387311 level-gate dialog, 38",
+    "live: Stated as 'unsure' with no FLAG on the strings. That is an honest status, and I found no FLAG on any cited id in my lookups. Wiki support was not re-verified, which the answer already discloses."
+   ]
+  },
+  {
+   "quest_id": 3010012,
+   "record": "quest-lines/quests.json q3010012",
+   "quest_file": "archer.json",
+   "title": "Archer: Archer Departure",
+   "live": "yes",
+   "giver": {
+    "name": "Hilforn",
+    "npc_id": "9000000106",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000106,
+    "name": "Hilforn",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Hilforn wants you to travel to Farnum Farmstead to see if you can find Vicki, another archer recruit.",
+     "text_locale_id": 77598,
+     "target": "Farnum Farmstead",
+     "target_locale_id": 18735,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none confirmed",
+     "source": "no reward evidence in client, wiki or Archer.md row 10 (rewards 'unknown')"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 77598,
+     "speaker": "Hilforn"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: Verified: locale 77598 is exactly 'Hilforn wants you to travel to Farnum Farmstead to see if you can find Vicki, another archer recruit.' and locale 18735 is 'Farnum Farmstead'. The title 77597 'Arche",
+    "giver.locale_id: Null is honest, but the Hilforn name is present in client text (e.g. locale 22171 'Hilforn', 77071 'Speak with Hilforn in Greenwood Forest'). The null is not a defect, but it was not searched thorough",
+    "rewards[0]: Kind 'other' with value 'none confirmed' is not a reward entry. A builder could misread it as a real reward row.",
+    "live: live 'yes' rests on the client hint tags plus a best-fit objective and no dialog. Confidence 0.55 is honest, but 'yes' overstates it for a builder who needs a wired quest.",
+    "next: Next quest title locale id is unverified in the answer, but the client has it: locale:77653 'Archer: No Arrows, No Work!' tagged quest_title with hint Archer: No Arrows, No Work!. Chain link 3010012 -",
+    "dialog.complete: The answer says no dialog id is confirmed, but locale:77599 'That looks perfect!' is tagged to Archer: Archer Departure. It carries a FLAG fragment (reply option), so it is not a usable line on its ow"
+   ]
+  },
+  {
+   "quest_id": 3020019,
+   "record": "quest-lines/quests.json q3020019",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Reach Level 15",
+   "live": "yes",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": 77427
+   },
+   "resolved_giver": {
+    "npc_id": 9000000405,
+    "name": "Mili Ironcall",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Your mining career will continue once you have reached level 15 as a Blacksmith. Return to Mili Ironcall at that time.",
+     "text_locale_id": 387560,
+     "target": "Mili Ironcall",
+     "target_locale_id": 77427,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000405,
+      "name": "Mili Ironcall",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 387558,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 387561,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line.previous: Left empty. The client text gives a level-gated chain: 387557 (Reach Level 10, Derp Axemaker) says 'Fantastic, I think I can trust you with this next task', and 387558 says 'you're not quite at the sk",
+    "evidence[5]: The claim that the wiki 'Mili Ironcall' page lists Bolstering the Bows, Chivalrous Carlos, Local Bonesaw Shortage and Breaking Bank was not confirmed. The wiki search only showed Mili as a Blacksmith ",
+    "objectives[0]: The objective and dialog ids check out: 387560 is the objective text, 387558 the offer, 387561 the end, 387559 the title, and 77427 is npc_name 'Mili Ironcall'. The target is correct. The count is nul",
+    "live: Live status rests on the unflagged client strings only. The answer says so. Confidence 0.6 is an honest figure.",
+    "line.previous: Previous is left empty, but the evidence points to a predecessor. Breaking Bank (3020018) is the same giver (Mili Ironcall) and sits immediately before this quest in the guide's row order. The level-1",
+    "giver / zone: Checked: locale 77427 is the npc_name 'Mili Ironcall', and the wiki Blacksmith trainer list places Mili Ironcall in Southvale Quarry. Greenwood Forest as the zone comes from the NPC dossier, not the w"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3010001,
+   "record": "quest-lines/quests.json q3010001",
+   "quest_file": "archer.json",
+   "title": "Being a Better Archer",
+   "live": "unsure",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000514",
+    "locale_id": null
+   },
+   "resolved_giver": null,
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Learn how to advance your skill as an Archer by speaking with Lugabow in Greenwood Forest",
+     "text_locale_id": 442238,
+     "target": "Lugabow",
+     "target_locale_id": 5104,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000387,
+      "name": "Lugabow",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "giver: The giver is still unresolved. npc_id 9000000514 has name null and no locale mapping in npcs_unresolved.json:4252-4268, and the Archer guide only lists the entry quest as optional with no giver. Lugab",
+    "record: The record has enabled: false and the answer does not explain what that means for wiring. Live status is correctly marked unsure.",
+    "objectives[0]: The talk objective's target is Lugabow (locale 5104), which checks out. Its text 442238 checks out too. The objective is a plausible fit for the sibling set, but it is an inferred objective, not one t",
+    "objectives[0]: The objective text (442238) and its target name (Lugabow, 5104) check out in the client, and 442238 is unflagged. But the link from this title to that objective is a wording/pattern match, not a data ",
+    "giver: Giver is correctly left null. The npc_id 9000000514 is confirmed unresolved (npcs_unresolved.json:4252, name null). Lugabow as giver is only an inference from the objective text, and the answer labels",
+    "zone: 'Greenwood Forest' is taken from the objective string, while Archer.md places Lugabow at the Greenwood Camp. The answer already flags this as unverified, which is acceptable."
+   ],
+   "blocked_by": [
+    "giver None not in our NPC rows"
+   ]
+  },
+  {
+   "quest_id": 3010004,
+   "record": "quest-lines/quests.json q3010004",
+   "quest_file": "archer.json",
+   "title": "Archer: Test of Agility",
+   "live": "yes",
+   "giver": {
+    "name": "Lugabow",
+    "npc_id": "9000000387",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000387,
+    "name": "Lugabow",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Touch all of the target dummies within the time alloted to pass this test!",
+     "text_locale_id": 22103,
+     "target": "Target Dummy One to Target Dummy Ten",
+     "target_locale_id": 22127,
+     "count": 10,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Completion broadcast: \"Lugabow's Test of Agility\" (reward text; no coin or item amount found)",
+     "source": "locale:115075"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 22101,
+     "speaker": "Lugabow"
+    },
+    "progress": {
+     "locale_id": 76950,
+     "speaker": "Lugabow"
+    },
+    "complete": {
+     "locale_id": 76807,
+     "speaker": "Lugabow"
+    }
+   },
+   "critic_problems": [
+    "objectives[0].target_locale_id: Gives 22127 alone as the target, but the ten dummy NPCs are 22127 (Target Dummy One) through 22136 (Target Dummy Ten). The range is only stated in the prose 'Target Dummy One to Target Dummy Ten', so ",
+    "objectives: Collapses the per-dummy steps into one minigame objective. The unflagged client lines 22105, 22107, 22109, 22113, 22115, 22117, 22119, 22121, 22125 are sequential 'Touch the Nth target' objectives. Th",
+    "live: 'live: yes' is supported by unflagged client text (22102, 22103, 22101, 76947 'Beat the Test of Agility minigame', 115075 completion broadcast). But the repo's own note at archer.json:370 says the Tes",
+    "giver.locale_id: Null, which is honestly flagged as not found. Not a fault, but the giver is only linked by npc_id 9000000387, which was not re-verified here.",
+    "line.previous / next: Checked against archer.json: 3010005 (Taking Aim) has prerequisite 3010004, and 3010004 has prerequisite 3010003. The chain matches. The Archer.md:77-78 citation was not re-read.",
+    "rewards: The only reward is locale 115075, a completion broadcast ('has successfully completed Lugabow's Test of Agility'). It is a broadcast string, not a reward. The answer correctly records no amount, but '"
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Target Dummy One to Target Dummy Ten)"
+   ]
+  },
+  {
+   "quest_id": 3010007,
+   "record": "quest-lines/quests.json q3010007",
+   "quest_file": "archer.json",
+   "title": "Archer: Pondblaster Target Practice",
+   "live": "yes",
+   "giver": {
+    "name": "Hilforn",
+    "npc_id": "9000000106",
+    "locale_id": 22171
+   },
+   "resolved_giver": {
+    "npc_id": 9000000106,
+    "name": "Hilforn",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat some Robgoblin Pondblasters as an archer, and then return to Hilforn.",
+     "text_locale_id": 383049,
+     "target": "Robgoblin Pondblasters",
+     "target_locale_id": 103235,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Hilforn",
+     "text_locale_id": 383054,
+     "target": "Hilforn",
+     "target_locale_id": 22171,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000106,
+      "name": "Hilforn",
+      "file": "npcs/greenwood_forest.json",
+      "zone": "Greenwood Forest",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none recorded",
+     "source": "no reward text found in the client pack for locale:383045-383057; repo record 3010007 has empty rewards"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 383044,
+     "speaker": "Hilforn"
+    },
+    "progress": {
+     "locale_id": 93151,
+     "speaker": "Hilforn"
+    },
+    "complete": {
+     "locale_id": 383047,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "live: Minor overstatement: 'live: yes' rests only on unflagged client text and a wiki list entry, not a live-server record. The answer's live_reason already says this, so it is a wording point only.",
+    "dialog.progress: Left null. 383057 is a hint line that reads like a progress/nudge line, but it is not mapped to a state. The answer correctly declines to assert it.",
+    "line: The answer never states that the quest is gated to the Archer job. Locale 383049 says 'as an archer', and the previous record 3010006 carries job 35, but record 3010007 has job null. The answer does n",
+    "objectives[0].target_locale_id: 103235 ('Defeat Robgoblin Pondblasters') is an objective-label string, not a target NPC name. It is correct as a label, but the answer gives no NPC/mob id for the Pondblaster target, so a builder cann"
+   ],
+   "blocked_by": [
+    "defeat target 'Robgoblin Pondblasters' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3010011,
+   "record": "quest-lines/quests.json q3010011",
+   "quest_file": "archer.json",
+   "title": "Archer: Pondblaster Payback",
+   "live": "yes",
+   "giver": {
+    "name": "Hilforn",
+    "npc_id": "9000000106",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000106,
+    "name": "Hilforn",
+    "file": "npcs/greenwood_forest.json",
+    "zone": "Greenwood Forest",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Take out the remaining Robgoblin Pondblasters to the north of Hilforn.",
+     "text_locale_id": 383176,
+     "target": "Robgoblin Pondblasters",
+     "target_locale_id": 95047,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "use",
+     "text": "Use your Explosive Arrows on the Robgoblin Pondblasters to the north. That will teach them!",
+     "text_locale_id": 383181,
+     "target": "Explosive Arrows",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 383169,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 383171,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 383172,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[1].target_locale_id: Left null although the client has a matching item name. locale:4830 is 'Explosive Arrow' (singular); the objective text (383181) says 'Explosive Arrows'. The answer's own open note said it had not ver",
+    "objectives[1].kind: The 'use' objective (383181) reads as the same Robgoblin Pondblaster kill task phrased with explosive arrows, not a separate step. Listing it as a second objective is an unverified structural claim.",
+    "line.previous / line.next: Order is supported: our record links 3010009 -> 3010011 (archer.json:605) and 3010011 -> 3010012 (archer.json:657), and the wiki Hilforn list reads Achieve Level 5, [Pondblaster] [Payback], [Archer] D",
+    "giver: Hilforn/9000000106/Greenwood Forest is consistent with the NPC quest list and the wiki's Hilforn section. locale_id null is acceptable since NPC names are not quest text.",
+    "objectives[1].target: 'Explosive Arrows' is given with target_locale_id null. The nearest client string is locale:4830 'Explosive Arrow' (singular, skill-style text). The answer marks this as unverified, and it is not a co",
+    "objectives[0].count: Count is null, which is correct because no count appears in 383176 or 95047. The answer's stated source for the target name, locale:95047 'Robgoblin Pondblasters', checks out."
+   ],
+   "blocked_by": [
+    "defeat target 'Robgoblin Pondblasters' not placed in our rows"
+   ]
+  }
+ ]
+}

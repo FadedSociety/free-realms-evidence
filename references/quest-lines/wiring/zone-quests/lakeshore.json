@@ -1,0 +1,955 @@
+{
+ "zone": "Lakeshore",
+ "quests": [
+  {
+   "quest_id": 3030040,
+   "record": "quest-lines/quests.json q3030040",
+   "title": "Brawler: Fight for Your Right",
+   "giver": {
+    "name": "Rourke Ironfist",
+    "npc_id": "9000000185",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Now that you know the rules of Brawler Club, you will need to prove you can fight before Rourke will let you join. Defeat Troll Roughguards in the Forest Troll fort.",
+     "text_locale_id": 72967,
+     "target": "Troll Roughguards",
+     "target_locale_id": null,
+     "count": 5
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "repo:notes/Build Guides/Content/Jobs/Brawler.md:160 (reward column 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Brawler main series (Sampson showdown and Brawler Club), band 4",
+    "previous": [
+     "Brawler: Reputation Regained"
+    ],
+    "next": [
+     "Brawler: Achieve Level 20"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 72965,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 72967,
+     "speaker": "Rourke Ironfist"
+    },
+    "complete": {
+     "locale_id": 72968,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030041,
+   "record": "quest-lines/quests.json q3030041",
+   "title": "Brawler: Achieve Level 20",
+   "giver": {
+    "name": "Rourke Ironfist",
+    "npc_id": "9000000185",
+    "locale_id": 22805
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Reach level 20 as a brawler, then return to Rourke Ironfist.",
+     "text_locale_id": 387413,
+     "target": "Rourke Ironfist",
+     "target_locale_id": 22805,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Reach Level 20 as a Brawler (goal/journal string)",
+     "text_locale_id": 117885,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler main series (wiki Brawler quest list, band 4)",
+    "previous": [
+     "Brawler: Fight for Your Right"
+    ],
+    "next": [
+     "Brawler: Paying your Dues"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387408,
+     "speaker": "Rourke Ironfist"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3040012,
+   "record": "quest-lines/quests.json q3040012",
+   "title": "Card Duelist: An Old Friend",
+   "giver": {
+    "name": "Poe Tatters",
+    "npc_id": "9000000170",
+    "locale_id": 38111
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Introduce yourself to Bry",
+     "text_locale_id": 103766,
+     "target": "Bry",
+     "target_locale_id": 38107,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Big Mike (gather step; may be one of three recruit talks)",
+     "text_locale_id": 103785,
+     "target": "Big Mike",
+     "target_locale_id": 103818,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Nick Nick (gather step; may be one of three recruit talks)",
+     "text_locale_id": 103788,
+     "target": "Nick Nick",
+     "target_locale_id": 103819,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Sharon (gather step; may be one of three recruit talks)",
+     "text_locale_id": 103790,
+     "target": "Sharon",
+     "target_locale_id": 103820,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Bry in Lakeshore and let her know you have delivered the invitations.",
+     "text_locale_id": 103795,
+     "target": "Bry",
+     "target_locale_id": 38107,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Poe Tatters quest line, Part 1a)",
+    "previous": [
+     "Card Duelist: Poe's Best Deck"
+    ],
+    "next": [
+     "Card Duelist: Battle Bry"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103801,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 103816,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 103804,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040014,
+   "record": "quest-lines/quests.json q3040014",
+   "title": "Card Duelist: Cardie Party",
+   "giver": {
+    "name": "Bry",
+    "npc_id": "9000000035",
+    "locale_id": 38107
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Help Bry prepare for the cardie party.",
+     "text_locale_id": 103869,
+     "target": "Bry",
+     "target_locale_id": 38107,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Visit Glerga at the Robgoblin Camp",
+     "text_locale_id": 72705,
+     "target": "Glerga",
+     "target_locale_id": 15854,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "See if Glerga would be willing to donate any of her famous Cheesy Poofs to the cardie party cause.",
+     "text_locale_id": 103871,
+     "target": "Glerga",
+     "target_locale_id": 15854,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Visit Perci in Shrouded Glade",
+     "text_locale_id": 103873,
+     "target": "Perci Perriweather",
+     "target_locale_id": 90244,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Visit Perci in Shrouded Glade and see if he'd be willing to part with some Misty Mountain Fizz.",
+     "text_locale_id": 103874,
+     "target": "Perci Perriweather",
+     "target_locale_id": 90244,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Return to Bry in Lakeshore",
+     "text_locale_id": 103875,
+     "target": "Bry",
+     "target_locale_id": 38107,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Card Duelist (Bry's Cardie Crew rebuild), wiki/guide order",
+    "previous": [
+     "Card Duelist: Battle Bry"
+    ],
+    "next": [
+     "Card Duelist: Garrisoning Garrison"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 103882,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3040015,
+   "record": "quest-lines/quests.json q3040015",
+   "title": "Card Duelist: Garrisoning Garrison",
+   "giver": {
+    "name": "Bry",
+    "npc_id": "9000000035",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Seek out Garrison Gold in Snowhill.",
+     "text_locale_id": 103930,
+     "target": "Garrison Gold",
+     "target_locale_id": 38092,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Bry wants you to head to Snowhill and play a match against that pigheaded Garrison Gold.",
+     "text_locale_id": 103935,
+     "target": "Garrison Gold",
+     "target_locale_id": 38092,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no reward string is tagged to 103934-103936",
+     "source": "repo:notes/Build Guides/Content/Jobs/Card Duelist.md:80"
+    }
+   ],
+   "line": {
+    "name": "Card Duelist (Bry / Garrison Gold chain, Part 1b of the Card Duelist guide)",
+    "previous": [
+     "Card Duelist: Cardie Party"
+    ],
+    "next": [
+     "Card Duelist: Serious Business"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 103933,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070030,
+   "record": "quest-lines/quests.json q3070030",
+   "title": "Fisherman: Bluerose's Best Bait",
+   "giver": {
+    "name": "Merri De'Flor",
+    "npc_id": "9000000146",
+    "locale_id": 19671
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Bluerose in Lakeshore and see if she'd be willing to part with some of her special bait.",
+     "text_locale_id": 409752,
+     "target": "Bluerose",
+     "target_locale_id": 19676,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Get some bait from Bluerose in Lakeshore before you head out to Rainbow Lake.",
+     "text_locale_id": 409750,
+     "target": "Bluerose's bait (item id unresolved)",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the bait back to Merri De'Flor.",
+     "text_locale_id": 409756,
+     "target": "Merri De'Flor",
+     "target_locale_id": 19671,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman (Merri De'Flor's Lakeshore chain, Cluster F)",
+    "previous": [
+     "Worms"
+    ],
+    "next": [
+     "Fisherman: Fish Fry"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 409745,
+     "speaker": "Merri De'Flor"
+    },
+    "progress": {
+     "locale_id": 409747,
+     "speaker": "Merri De'Flor"
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070031,
+   "record": "quest-lines/quests.json q3070031",
+   "title": "Fisherman: Fish Fry",
+   "giver": {
+    "name": "Merri De'Flor",
+    "npc_id": "9000000146",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Selvi Slowreel",
+     "text_locale_id": 409902,
+     "target": "Selvi Slowreel",
+     "target_locale_id": 409902,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Reel in some Peachy Perch from Rainbow Lake for Merri De'Flor",
+     "text_locale_id": 409901,
+     "target": "Peachy Perch",
+     "target_locale_id": 409904,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Deliver the Peacy Perch to Merri De'Flor in Lakeshore.",
+     "text_locale_id": 409907,
+     "target": "Merri De'Flor",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none evidenced",
+     "source": "no reward string found in the client cluster or our records"
+    }
+   ],
+   "line": {
+    "name": "Fisherman quest line, Cluster F (Merri De'Flor, Lakeshore / Rainbow Lake)",
+    "previous": [
+     "Fisherman: Bluerose's Best Bait"
+    ],
+    "next": [
+     "Fisherman: Fish Market"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 409891,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 409915,
+     "speaker": "Merri De'Flor"
+    },
+    "complete": {
+     "locale_id": 409894,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070032,
+   "record": "quest-lines/quests.json q3070032",
+   "title": "Fisherman: Fish Market",
+   "giver": {
+    "name": "Merri De'Flor",
+    "npc_id": "9000000146",
+    "locale_id": 19671
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Merri has a bunch of left over fish and doesn't want it to go to waste. See if anyone around Lakeshore is willing to buy it.",
+     "text_locale_id": 409976,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman (Merri De'Flor chain, Lakeshore)",
+    "previous": [
+     "Fisherman: Fish Fry"
+    ],
+    "next": [
+     "Fisherman: McScuttle Family Farm"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 409974,
+     "speaker": "Merri De'Flor"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 409977,
+     "speaker": "Merri De'Flor"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070034,
+   "record": "quest-lines/quests.json q3070034",
+   "title": "Fisherman: McScuttle Family Farm",
+   "giver": {
+    "name": null,
+    "npc_id": "9000000403",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "It's time to put a stop to Ernest's badmouthing. Head to the McScuttle family farm at Rainbow Lake to find out where Ernest is.",
+     "text_locale_id": 409998,
+     "target": "McScuttle family farm, Rainbow Lake",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Head to the McScuttle Family Farm at Rainbow Lake to see if you can find Ernest.",
+     "text_locale_id": 410001,
+     "target": "McScuttle Family Farm, Rainbow Lake",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Mister Nooklings",
+     "text_locale_id": 409983,
+     "target": "Mister Nooklings",
+     "target_locale_id": 19682,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Yoko",
+     "text_locale_id": 409985,
+     "target": "Yoko",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Let Merri De'Flor know that no one wants to buy your fish, thanks to Ernest's lies.",
+     "text_locale_id": 409988,
+     "target": "Merri De'Flor",
+     "target_locale_id": 19671,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Fisherman job quest line, Cluster F (repo:notes/Build Guides/Content/Jobs/Fisherman.md rows 26-33)",
+    "previous": [
+     "Fisherman: Fish Market"
+    ],
+    "next": [
+     "Fisherman: Setting Ernest Straight"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 409996,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 410015,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3080013,
+   "record": "quest-lines/quests.json q3080013",
+   "title": "Kart Driver: Guest of Honor",
+   "giver": {
+    "name": "Squee",
+    "npc_id": "9500000949",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Talk to Squee at the Robgoblin Camp.",
+     "text_locale_id": 394622,
+     "target": "Squee",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Find the fireworks the troublemakers scattered and bring them back to Squee. Use Squee's patented Robgoblin Fish Tosser to stop troublemakers picking them up.",
+     "text_locale_id": 398273,
+     "target": "Fireworks",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Click on the fireworks cart to start looking for fireworks.",
+     "text_locale_id": 394625,
+     "target": "Fireworks Cart",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the \"Guest of Honor\" minigame",
+     "text_locale_id": 394627,
+     "target": "Guest of Honor",
+     "target_locale_id": 3761,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Squee",
+     "text_locale_id": 394629,
+     "target": "Squee",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unknown amount; only completion text (the fireworks display went off without a hitch)",
+     "source": "locale:394607"
+    }
+   ],
+   "line": {
+    "name": "Kart Driver, Tier 1 Wildwood Speedway line (sponsor Blammo)",
+    "previous": [
+     "Kart Driver: Dominating at Wildwood"
+    ],
+    "next": [
+     "Kart Driver: A Treacherous Track"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 394610,
+     "speaker": "Squee"
+    },
+    "progress": {
+     "locale_id": 394612,
+     "speaker": "Squee"
+    },
+    "complete": {
+     "locale_id": 394607,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3110013,
+   "record": "quest-lines/quests.json q3110013",
+   "title": "Ninja: Achieve Level 10",
+   "giver": {
+    "name": "Ty",
+    "npc_id": "9000000223",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Achieve level 10.",
+     "text_locale_id": 387206,
+     "target": null,
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Go out into the world and achieve Ninja level 10.",
+     "text_locale_id": 387225,
+     "target": "Ninja level 10",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Achieve level 10, then return to Ty.",
+     "text_locale_id": 387223,
+     "target": "Ty",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job quest line, level-10 gate with Ty (Band 2 in Ninja.md)",
+    "previous": [],
+    "next": [
+     "Ninja: Shadows in the Snow"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": {
+     "locale_id": 387207,
+     "speaker": "Ty"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3110016,
+   "record": "quest-lines/quests.json q3110016",
+   "title": "Ninja: Burst of Speed",
+   "giver": {
+    "name": "Ty",
+    "npc_id": "9000000223",
+    "locale_id": 78887
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Ty in Lakeshore has challenged you to demonstrate your speed in a fast-paced foot race.",
+     "text_locale_id": 78882,
+     "target": "Ty's foot race (Lakeshore)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Ninja job questline (Ty, then Sakka), Band 3",
+    "previous": [
+     "Ninja: Shadows in the Snow"
+    ],
+    "next": [
+     "Ninja: Walking the Path"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 78880,
+     "speaker": "Ty"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 78883,
+     "speaker": "Ty"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160001,
+   "record": "quest-lines/quests.json q3160001",
+   "title": "Being a Better Wizard",
+   "giver": {
+    "name": "Fizzlesticks",
+    "npc_id": "9000000550",
+    "locale_id": 20517
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Fizzlesticks near Lakeshore",
+     "text_locale_id": 442263,
+     "target": "Fizzlesticks",
+     "target_locale_id": 20517,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard job-advancement entry quest, placed before the Wizard line by the guide only (unverified)",
+    "previous": [],
+    "next": [
+     "Wizard: How to be a Wizard (candidate only, placement by guide, not confirmed)"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160011,
+   "record": "quest-lines/quests.json q3160011",
+   "title": "Contract: Troll Magic",
+   "giver": {
+    "name": "Natali",
+    "npc_id": "9000000159",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Troll Bone Shamans and Troll Summoners (the Troll Magic targets, from the intro text).",
+     "text_locale_id": 388283,
+     "target": "Troll Bone Shaman",
+     "target_locale_id": 72269,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Troll Summoners (same intro text).",
+     "text_locale_id": 388283,
+     "target": "Troll Summoner",
+     "target_locale_id": 15623,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Clear out the Robgoblin Campers hanging with the Robgoblin Foragers.",
+     "text_locale_id": 388283,
+     "target": "Robgoblin Camper",
+     "target_locale_id": 70776,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat the Robgoblin Foragers (same intro text).",
+     "text_locale_id": 388283,
+     "target": "Robgoblin Forager",
+     "target_locale_id": 70767,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard class contracts (Natali, repeatable)",
+    "previous": [
+     "Wizard: Reach Level 5"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 388283,
+     "speaker": "Natali"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388286,
+     "speaker": "Natali"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3160025,
+   "record": "quest-lines/quests.json q3160025",
+   "title": "Contract: Secret Magic",
+   "giver": {
+    "name": "Natali",
+    "npc_id": "9000000159",
+    "locale_id": 388323
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Collect some Poisondart Polliwog poison from the toads at Blackspore Swamp.",
+     "text_locale_id": 388291,
+     "target": "Poisondart Polliwog poison",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Bring ice shards from the Elemental Guardians on Misty Mountain (travel via Shrouded Glade).",
+     "text_locale_id": 388291,
+     "target": "ice shards from the Elemental Guardians",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Payment from Natali; amount not stated",
+     "source": "locale:388294"
+    }
+   ],
+   "line": {
+    "name": "Natali's Wizard contracts (repeatable)",
+    "previous": [
+     "Wizard: Reach Level 15"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 388291,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388294,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3160031,
+   "record": "quest-lines/quests.json q3160031",
+   "title": "Contract: Life and Death Magic",
+   "giver": {
+    "name": "Natali",
+    "npc_id": "9000000159",
+    "locale_id": 388323
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "Defeat Forest Snakes",
+     "text_locale_id": 388313,
+     "target": "Forest Snake",
+     "target_locale_id": 15847,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat Battle Warthogs",
+     "text_locale_id": 388393,
+     "target": "Battle Warthog",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "As a wizard, collect some samples for Natali's new project from Mugwort's Hollow and Blackspore.",
+     "text_locale_id": 388312,
+     "target": "Grave Elemental bones",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Wizard repeatable Contracts (Natali)",
+    "previous": [
+     "Wizard: Reach Level 20"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 388295,
+     "speaker": "Natali"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 388298,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  }
+ ]
+}

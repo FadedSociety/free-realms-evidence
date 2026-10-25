@@ -1,0 +1,444 @@
+{
+ "zone": "Dartmoor",
+ "wireable_by_match": [],
+ "still_blocked": [
+  {
+   "quest_id": 3020010,
+   "record": "quest-lines/quests.json q3020010",
+   "quest_file": "blacksmith.json",
+   "title": "Blacksmith: Dull Challenge",
+   "live": "yes",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000069,
+    "name": "Derp Axemaker",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Forge Rowdy Rumbler Hammers (craft them at the nearest Anvil as a Blacksmith)",
+     "text_locale_id": 91687,
+     "target": "Rowdy Rumbler Hammer",
+     "target_locale_id": 102179,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Hand the Rowdy Rumbler Hammers to Derp Axemaker",
+     "text_locale_id": 91689,
+     "target": "Derp Axemaker",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000069,
+      "name": "Derp Axemaker",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 91670,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387866,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 91673,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver.locale_id: Left null, but locale:77270 is an npc_name line 'Dartmoor Derp Axemaker' whose text is 'Derp Axemaker'. The answer already sees this and hedges. It is a usable candidate for the giver name, not a cont",
+    "objectives[1]: Deliver objective has target_locale_id null, though the target is the same NPC as the giver. Locale:91689 and 91688 ('Give the Rowdy Rumbler Hammers to Derp') are both live objective texts. The answer",
+    "evidence[0..8]: Checked and supported: title 91671 (not FLAGged), offer 91670, completion 91673, objectives 91684 and 91687 (both say Dartmoor), 91689, and the wiki Blacksmith page listing 'Blacksmith: [Dull] [Challe",
+    "giver: Giver locale_id is null and the giver zone is Snowhill in NPC data while the answer uses Dartmoor. The answer already flags this. Client text 91684 and 91687 both say 'in Dartmoor', so Dartmoor for th",
+    "objectives[0]: The craft step is correct: locale 91687 ('Look up the necessary materials at the nearest Anvil and craft Rowdy Rumbler Hammers for Derp Axemaker in Dartmoor.') and target item locale 102179 ('Rowdy Ru",
+    "objectives[1]: Deliver step is correct: locale 91689 'Hand the Rowdy Rumbler Hammers to Derp Axemaker.' checks out. Target has no locale id, which is acceptable as the NPC name is not confirmed."
+   ],
+   "blocked_by": [
+    "giver 'Derp Axemaker' row 9000000069 not placed",
+    "deliver target 'Derp Axemaker' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3100007,
+   "record": "quest-lines/quests.json q3100007",
+   "quest_file": "miner.json",
+   "title": "Miner: Dartmoor Mining Camp",
+   "live": "yes",
+   "giver": {
+    "name": "Sorin",
+    "npc_id": "9000000472",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000472,
+    "name": "Sorin",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Mine Turqoise around snowhill. Rare Copper Veins will get you ore faster!",
+     "text_locale_id": 141007,
+     "target": "Turquoise",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Mine Five Malachite from Copper nodes in the wilderness",
+     "text_locale_id": 101268,
+     "target": "Malachite",
+     "target_locale_id": 101267,
+     "count": 5,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Visit Shimmer in Dartmoor and deliver the turquoise and the malachite that you mined.",
+     "text_locale_id": 76986,
+     "target": "Shimmer Shinyaxe",
+     "target_locale_id": 76995,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000201,
+      "name": "Shimmer Shinyaxe",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 76970,
+     "speaker": "Sorin"
+    },
+    "progress": {
+     "locale_id": 141194,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 76973,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[0]: The target_locale_id is null even though 'Turquoise' is named in 141007 and the quest's own intro and description (76970, 76972) use the same word. The count is also null, and the guide's 0/25 counter",
+    "giver.locale_id: Sorin's name locale id is null. The name is still supported by the record and the NPC data (npc 9000000472, zone Snowhill, quest_giver role), so this is a gap rather than an error.",
+    "line: Chain check passes. Previous is 3100006 'Miner: Reach Level 5' (Miner.md:105, record prerequisite 3100006). Next is 'Miner: Simple Surveying' (Miner.md:112, Shimmer, 'After 6'). The guide's row order ",
+    "live: Verified: 76971, 76970, 76972, 76973, 141007, 101268, 101267, 76986, 141194 all resolve to the expected text with no FLAG in lookup. 141194 is treated as a progress reminder, and the answer already ma",
+    "objectives[0]: target is 'Turquoise' with target_locale_id null, but the client has the name as locale 21945 ('Turquoise'). The objective text 141007 checks out (the 'Turqoise' typo is in the live string), and the c",
+    "objectives[1]: target_locale_id 101267 is the short label 'Mine Five Malachite', which is an objective string, not a target name. The target is the gem name 'Malachite'."
+   ],
+   "blocked_by": [
+    "giver 'Sorin' row 9000000472 not placed",
+    "deliver target 'Shimmer Shinyaxe' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3100009,
+   "record": "quest-lines/quests.json q3100009",
+   "quest_file": "miner.json",
+   "title": "Miner: Suspicious Eyes",
+   "live": "yes",
+   "giver": {
+    "name": "Shimmer Shinyaxe",
+    "npc_id": "9000000201",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000201,
+    "name": "Shimmer Shinyaxe",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "low"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Hunter Surelytree",
+     "text_locale_id": 77183,
+     "target": "Hunter Surelytree",
+     "target_locale_id": 77211,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000910,
+      "name": "Hunter Surelytree",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "other",
+     "text": "Find out what Surelytree is doing here at Dartmoor.",
+     "text_locale_id": 77184,
+     "target": "Hunter Surelytree",
+     "target_locale_id": 77211,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "collect",
+     "text": "Head out and mine some topaz for Surelytree. Topaz can be found on tin veins.",
+     "text_locale_id": 77186,
+     "target": "topaz",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give Hunter Surelytree the garnet",
+     "text_locale_id": 77189,
+     "target": "garnet",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Collect a reward from Surelytree.",
+     "text_locale_id": 77194,
+     "target": "Hunter Surelytree",
+     "target_locale_id": 77211,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9500000910,
+      "name": "Hunter Surelytree",
+      "file": "npcs/wilds.json",
+      "zone": "Wilds",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward text found in the client for this quest",
+     "source": "notes/Build Guides/Content/Jobs/Miner.md row 8"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 77165,
+     "speaker": "Shimmer Shinyaxe"
+    },
+    "progress": {
+     "locale_id": 77216,
+     "speaker": "Hunter Surelytree"
+    },
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[2] and objectives[3]: The collect and deliver targets are plain-text names with null locale ids. The client does have matching names: 'Topaz' is locale 21948 and 'Garnet' is locale 5059. The answer's null ids are not wrong",
+    "objectives: The text says garnet is sometimes found on tin veins (77195). The objectives list has a deliver step for the garnet (77189) but no collect step for it. The answer does not say the garnet is gathered, ",
+    "dialog.progress: 77195 is tagged to hint 'topaz', not this quest, and its text was truncated in the lookup. The answer flags this itself. Its content matches this quest (it asks for topaz and mentions garnet), so it i",
+    "dialog.complete: 92111 is type 'other', not a dialog line. The record's end text is 77168 ('Wow, those are so pretty!'), which the answer cites only as evidence. The completion field therefore points to a non-dialog s",
+    "giver: Zone is given as Dartmoor, but the NPC data (evidence pack giver.zone) lists Shimmer Shinyaxe under Snowhill, with Dartmoor as the location. Minor, but the zone field should match the NPC record.",
+    "objectives[3]: 'Give Hunter Surelytree the garnet' (77189/77190) has no collect step for the garnet. Locale 77195 says garnet is sometimes found on tin veins, so the player must mine it, but the answer lists no garn"
+   ],
+   "blocked_by": [
+    "giver 'Shimmer Shinyaxe' row 9000000201 not placed",
+    "deliver target 'garnet' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3100010,
+   "record": "quest-lines/quests.json q3100010",
+   "quest_file": "miner.json",
+   "title": "Miner: Bigger Challenges",
+   "live": "yes",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": 77270
+   },
+   "resolved_giver": {
+    "npc_id": 9000000069,
+    "name": "Derp Axemaker",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Derp Axemaker",
+     "text_locale_id": 77257,
+     "target": "Derp Axemaker",
+     "target_locale_id": 77270,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000069,
+      "name": "Derp Axemaker",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "Mine more tin ore than Derp Axemaker at Dartmoor",
+     "text_locale_id": 77259,
+     "target": "Tin Mining",
+     "target_locale_id": 74881,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Derp Axemaker",
+     "text_locale_id": 77261,
+     "target": "Derp Axemaker",
+     "target_locale_id": 77270,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000069,
+      "name": "Derp Axemaker",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 77271,
+     "speaker": "Derp Axemaker"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77251,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver.zone / quest zone: The record's giver zone is Snowhill, while the quest text (77248-77262) is tagged Dartmoor and the answer uses Dartmoor. The wiki Miner page places Derp in the Dartmoor Quarry. The answer notes this b",
+    "open[3] / line.previous: Prerequisite 'Miner: Suspicious Eyes' (3100009) is still not confirmed by its own locale title. The answer correctly flags this, so it is a gap, not a false claim.",
+    "zone: The record's giver zone is Snowhill (npcs/snowhill.json and giver dossier), while the answer sets quest zone to Dartmoor from the client tag. The quest text is tagged Dartmoor (locale 77248-77262), so",
+    "live_reason: The live_reason cites locale:92112 as a 'Derp Axemaker's high score' completion line, which I did not find in the lookup; the Derp-vs-tin challenge is better supported by locale:141239 ('Hah! You have",
+    "objectives[1]: The minigame objective is correct in id (77259 'Mine more tin ore than Derp Axemaker at Dartmoor', target 74881 'Tin Mining' verified). The count is null, which is honest, but the builder has no targe"
+   ],
+   "blocked_by": [
+    "giver 'Derp Axemaker' row 9000000069 not placed",
+    "talk target 'Derp Axemaker' not placed in our rows",
+    "needs mechanic: minigame (Tin Mining)",
+    "talk target 'Derp Axemaker' not placed in our rows"
+   ]
+  },
+  {
+   "quest_id": 3100012,
+   "record": "quest-lines/quests.json q3100012",
+   "quest_file": "miner.json",
+   "title": "Miner: Reach Level 10",
+   "live": "yes",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000069,
+    "name": "Derp Axemaker",
+    "file": "npcs/snowhill.json",
+    "zone": "Snowhill",
+    "placed": false,
+    "placement": "poi_anchor",
+    "confidence": "medium"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Reach Level 10 as a Miner, then return to Derp Axemaker.",
+     "text_locale_id": 387507,
+     "target": "Derp Axemaker",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000069,
+      "name": "Derp Axemaker",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "poi_anchor",
+      "confidence": "medium"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 387452,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 387512,
+     "speaker": "Derp Axemaker"
+    },
+    "complete": {
+     "locale_id": 387455,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "line.previous: Left empty. The guide's row 10 (Miner: The Perfect Pour, 3100011) is the row directly before this quest, and the dossier shows 3100013 (Finding Southvale) chains from 3100012. The guide's row 11 'Afte",
+    "giver: The zone is given as 'Dartmoor (Snowhill zone)' while the giver dossier lists zone Snowhill. The guide (Miner.md:45) says Dartmoor, so this is a minor inconsistency, not an error.",
+    "evidence: The wiki claim ('wiki Miner page lists ... under Derp Axemaker') could not be confirmed in the pack, which has wiki: null. The live status rests on the client text and the guide.",
+    "line.previous: Left empty with no source. The guide's row 11 After column gives only a level gate, so no quest prerequisite is evidenced. But the answer's own open note says row 10 (Miner: The Perfect Pour, 3100011)",
+    "objectives[0].text_locale_id: Checked: locale:387507 is an unflagged quest_objective with the text 'Reach Level 10 as a Miner, then return to Derp Axemaker.' The guide cites the same text as id 1220069877, so the answer picked a d",
+    "evidence[0..3]: Checked: 387453 'Miner: Reach Level 10', 387452 offer text, 387454 progress text and 387455 end text all match the answer. The title, offer, progress and completion claims are supported."
+   ],
+   "blocked_by": [
+    "giver 'Derp Axemaker' row 9000000069 not placed",
+    "talk target 'Derp Axemaker' not placed in our rows"
+   ]
+  }
+ ]
+}

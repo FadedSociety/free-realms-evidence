@@ -1,0 +1,311 @@
+{
+ "zone": "Wugachug",
+ "wireable_by_match": [
+  {
+   "quest_id": 3050025,
+   "record": "quest-lines/quests.json q3050025",
+   "quest_file": "chef.json",
+   "title": "Chef: Surprise Me!",
+   "live": "yes",
+   "giver": {
+    "name": "Cook Yumtumlot",
+    "npc_id": "9000000061",
+    "locale_id": 41248
+   },
+   "resolved_giver": {
+    "npc_id": 9000000061,
+    "name": "Cook Yumtumlot",
+    "file": "npcs/wugachug.json",
+    "zone": "Wugachug",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "As a chef, cook Rainleaf Wrapped Dumplings and score 20,000 or higher while cooking at least one.",
+     "text_locale_id": 72245,
+     "target": "Rainleaf Wrapped Dumpling",
+     "target_locale_id": 38660,
+     "count": 1,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Now that you've proven Yumtumlot wrong, speak with her!",
+     "text_locale_id": 72249,
+     "target": "Cook Yumtumlot",
+     "target_locale_id": 41248,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000061,
+      "name": "Cook Yumtumlot",
+      "file": "npcs/wugachug.json",
+      "zone": "Wugachug",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 72240,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 72243,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "giver: Locale 72240 is the intro dialog spoken by Oxalis (\"Oxalis says you're an amazing chef...\"), so it is not evidence that Cook Yumtumlot is the giver. The giver claim rests on the Chef guide's trainer t",
+    "objectives[0]: The objective is a score-threshold cook task with no server target id. The text matches locale 72245 (no FLAG) and the dish name matches locale 38660 'Rainleaf Wrapped Dumpling', so the text is suppor",
+    "line: Chain links verified: 3050026 title is locale 72537 (The Food Reviewer, sourced from chef.json L1379-1428) with prerequisite 3050025, so the next link holds. Chugawhat (72105, 72107) points to Yumtuml",
+    "live: Lookups on 72240, 72241, 72242, 72243, 72245, 72247, 72249 and 38660 show no not_live/placeholder FLAG. The adjacent placeholder line 47636 ('Mimic: Cooking Rainleaf Wrapped Dumpling [Placeholder]') i",
+    "line: The band placement (main series, levels 10 to 15, row M7) rests only on the Chef guide note. I did not re-verify the guide row. The chain link to Food Reviewer is supported by chef.json (3050026 prere",
+    "objectives[0]: Text 72245 and target 38660 are correct, but the objective kind 'other' is vague. The score threshold (20,000) is in the text, not a structured field, and no count-based cooking target id is known. Ac"
+   ]
+  },
+  {
+   "quest_id": 3050026,
+   "record": "quest-lines/quests.json q3050026",
+   "quest_file": "chef.json",
+   "title": "Chef: The Food Reviewer",
+   "live": "yes",
+   "giver": {
+    "name": "Cook Yumtumlot",
+    "npc_id": "9000000061",
+    "locale_id": 41248
+   },
+   "resolved_giver": {
+    "npc_id": 9000000061,
+    "name": "Cook Yumtumlot",
+    "file": "npcs/wugachug.json",
+    "zone": "Wugachug",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Visit Chef Lucca De'Flor in Snowhill. The line is intro dialog, not a quest_objective line, so treat it as unconfirmed.",
+     "text_locale_id": 72536,
+     "target": "Lucca De'Flor",
+     "target_locale_id": 23788,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000133,
+      "name": "Lucca De'Flor",
+      "file": "npcs/snowhill.json",
+      "zone": "Snowhill",
+      "placed": false,
+      "placement": "unanchored",
+      "confidence": "low"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": 72538,
+    "progress": null,
+    "complete": null
+   },
+   "critic_problems": [
+    "objectives[0]: The only objective is intro quest_dialog 72536 (tagged Snowhill), not a quest_objective line. The answer labels it 'go' and flags it as unconfirmed. The text does say 'Pay him a visit in Snowhill' and",
+    "giver / zone: Giver is Cook Yumtumlot (41248 verified, npc 9000000061 Wugachug) and the description 72538 is tagged Snowhill/Cook Yumtumlot. The zone conflict (Wugachug giver vs Snowhill dialog) is disclosed but no",
+    "dialog.complete / rewards: complete is null and rewards empty. Both are honestly flagged as unknown. The untagged end text 72539 might be Lucca's completion line, but it is unattributed.",
+    "chain: Chain verified: prerequisite 3050025 (Surprise Me!, M7, Chef.md:126) and next 3050027 (Double Dog Dare, M9, Chef.md:128; title 25003 and giver Lucca at Snowhill in snowhill.json) are consistent with t",
+    "objectives[0]: The only objective is taken from intro dialog 72536 (quest_dialog, not quest_objective). The answer says so, but a builder would be wiring a dialog line as an objective. The target 'Lucca De'Flor' (23",
+    "evidence / chain: The Double Dog Dare claim (locale:25003) checks out: its text is 'If you bested Cook Yumtumlot...' and it names Fried Starnut Stick, which fits Lucca as giver. The 'Lucca is the giver of the next ques"
+   ]
+  }
+ ],
+ "still_blocked": [
+  {
+   "quest_id": 3040020,
+   "record": "quest-lines/quests.json q3040020",
+   "quest_file": "card_duelist.json",
+   "title": "Card Duelist: Squash the Shuffler",
+   "live": "yes",
+   "giver": {
+    "name": "Sasparilla Brewmaster Wugawump",
+    "npc_id": null,
+    "locale_id": 41237
+   },
+   "resolved_giver": {
+    "npc_id": 9000000191,
+    "name": "Sasparilla Brewmaster Wugawump",
+    "file": "npcs/wugachug.json",
+    "zone": "Wugachug",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak to Sasparilla Brewmaster Wugawump",
+     "text_locale_id": 104227,
+     "target": "Sasparilla Brewmaster Wugawump",
+     "target_locale_id": 41237,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000191,
+      "name": "Sasparilla Brewmaster Wugawump",
+      "file": "npcs/wugachug.json",
+      "zone": "Wugachug",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    },
+    {
+     "kind": "minigame",
+     "text": "Challenge Shifty the Shuffler to a match using his Tournament Deck.",
+     "text_locale_id": 104225,
+     "target": "Shifty the Shuffler",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Let the Brewmaster know that you've beaten Shifty the Shuffler!",
+     "text_locale_id": 104228,
+     "target": "Sasparilla Brewmaster Wugawump",
+     "target_locale_id": 41237,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000191,
+      "name": "Sasparilla Brewmaster Wugawump",
+      "file": "npcs/wugachug.json",
+      "zone": "Wugachug",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unknown. The offer text says Shifty's cards may be won, but no reward item, coin or XP is sourced.",
+     "source": "locale:104229"
+    }
+   ],
+   "rewards_missing": false,
+   "dialog": {
+    "offer": {
+     "locale_id": 104229,
+     "speaker": "Sasparilla Brewmaster Wugawump"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 104232,
+     "speaker": "Sasparilla Brewmaster Wugawump"
+    }
+   },
+   "critic_problems": [
+    "objectives[1].target_locale_id: Left null, but Shifty the Shuffler's name is in the client as locale 74095 (unflagged, 'Shifty the Shuffler'). The answer's claim that the name id was not found is wrong.",
+    "rewards: Reward is 'unknown'. The client has a Tournament Deck duel row (locale 92771) saying the win gives 'one of Shifty's Hero cards'. That row may belong to the TCG duel table rather than this quest, so it",
+    "line: The chain Misplaced Deck -> Squash the Shuffler -> Parcel Recovery holds. 104203 ties Misplaced Deck to Shifty, and 104241 (Parcel Recovery completion, Shifty 'won't be pulling any more tricks') fits ",
+    "objectives[0..2]: The three-step order (speak to Wugawump, beat Shifty, report back) is inferred. The answer says so, but the objectives list reads as a sourced sequence. Only the texts themselves are sourced.",
+    "objectives[1].target_locale_id: Shifty the Shuffler's NPC name locale id is null. This is honest, but a builder cannot resolve the target without it.",
+    "rewards: Rewards are unknown, and the record has no rewards and enabled:false. The answer is honest about this, but the quest is not buildable as stated."
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Shifty the Shuffler)"
+   ]
+  },
+  {
+   "quest_id": 3130021,
+   "record": "quest-lines/quests.json q3130021",
+   "quest_file": "postman.json",
+   "title": "Postman: Sorting It Out",
+   "live": "yes",
+   "giver": {
+    "name": "Postchug Runalug",
+    "npc_id": "9000000172",
+    "locale_id": null
+   },
+   "resolved_giver": {
+    "npc_id": 9000000172,
+    "name": "Postchug Runalug",
+    "file": "npcs/wugachug.json",
+    "zone": "Wugachug",
+    "placed": true,
+    "placement": "legacy_data",
+    "confidence": "high"
+   },
+   "objectives": [
+    {
+     "kind": "minigame",
+     "text": "Complete the Wugachug Mail Sorting minigame",
+     "text_locale_id": 130227,
+     "target": "Wugachug Mail Sorting (Postbox)",
+     "target_locale_id": 102036,
+     "count": null,
+     "resolved_npc": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Sort at least 120 blue envelopes.",
+     "text_locale_id": 130228,
+     "target": "blue envelopes",
+     "target_locale_id": 130228,
+     "count": 120,
+     "resolved_npc": null
+    },
+    {
+     "kind": "talk",
+     "text": "Sort the mail for Postchug Runalug in Wugachug.",
+     "text_locale_id": 130221,
+     "target": "Postchug Runalug",
+     "target_locale_id": null,
+     "count": null,
+     "resolved_npc": {
+      "npc_id": 9000000172,
+      "name": "Postchug Runalug",
+      "file": "npcs/wugachug.json",
+      "zone": "Wugachug",
+      "placed": true,
+      "placement": "legacy_data",
+      "confidence": "high"
+     }
+    }
+   ],
+   "rewards": [],
+   "rewards_missing": true,
+   "dialog": {
+    "offer": {
+     "locale_id": 130219,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 130222,
+     "speaker": null
+    }
+   },
+   "critic_problems": [
+    "objectives[2]: Locale 130221 ('Sort the mail for Postchug Runalug in Wugachug.') is a sorting description, not a talk-to objective. Kind 'talk' with target 'Postchug Runalug' (target_locale_id null) is an inference ",
+    "objectives[0].target: Target string 'Wugachug Mail Sorting (Postbox)' is a composed label. Only locale 102036 'Wugachug Mail Sorting' is verified; 'Postbox' comes from the guide (Postman.md row 18), not from the client tex",
+    "line.previous: Previous 'Postman: Jug Clean Up' and next 'Postman: Achieve Level 15' rest only on the guide's band-table row order (rows 17/19), which the answer itself admits is not a confirmed prerequisite. The ch",
+    "giver.locale_id: Null locale id is acceptable and honestly flagged, but the NPC name is confirmed only via client 130221 text, not via a name id.",
+    "objectives[1]: The target is given as the string 'blue envelopes' with target_locale_id 130228, which is the objective's own sentence ('Sort at least 120 blue envelopes.'), not a target ID. Objective 1 and objective",
+    "objectives[0]: The target 'Wugachug Mail Sorting (Postbox)' is a minigame name (locale 102036, title-tagged) plus a location from the guide's 'sits at the Postbox' note. The 'Postbox' part is not in the client text "
+   ],
+   "blocked_by": [
+    "needs mechanic: minigame (Wugachug Mail Sorting (Postbox))",
+    "needs mechanic: minigame (blue envelopes)"
+   ]
+  }
+ ]
+}

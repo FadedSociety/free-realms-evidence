@@ -1,0 +1,610 @@
+{
+ "zone": "Stillwater Crossing",
+ "quests": [
+  {
+   "quest_id": 3000022,
+   "record": "quest-lines/quests.json q3000022",
+   "title": "Introduce Yourself",
+   "giver": {
+    "name": "Valerie",
+    "npc_id": "9000000227",
+    "locale_id": 116458
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Introduce yourself to Francis Panic in Stillwater Crossing.",
+     "text_locale_id": 116637,
+     "target": "Francis Panic",
+     "target_locale_id": 116518,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "coins",
+     "value": "5",
+     "source": "wiki: Quest:Introduce Yourself (coin amount 5); not verified against client"
+    }
+   ],
+   "line": {
+    "name": "Stillwater Crossing quest series (wiki Quest:Introduce Yourself)",
+    "previous": [],
+    "next": [
+     "Power Problems"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030015,
+   "record": "quest-lines/quests.json q3030015",
+   "title": "Brawler: Graveyard Grumble",
+   "giver": {
+    "name": "Caitlyn Gravefog",
+    "npc_id": "9000000038",
+    "locale_id": 116520
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Have you talked to Caitlyn Gravefog about her wraith problem? Remember, she's to the north.",
+     "text_locale_id": 116795,
+     "target": "Caitlyn Gravefog",
+     "target_locale_id": 116520,
+     "count": null
+    },
+    {
+     "kind": "go",
+     "text": "Click on the gate to the Cursed Graveyard",
+     "text_locale_id": 116930,
+     "target": "Cursed Graveyard!",
+     "target_locale_id": 115822,
+     "count": null
+    },
+    {
+     "kind": "defeat",
+     "text": "Defeat the graveyard wraith!",
+     "text_locale_id": 115968,
+     "target": "Graveyard Wraith",
+     "target_locale_id": 115827,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "You've defeated the wraith! Head back to Caitlyn and let her know it's safe to enter the graveyard again.",
+     "text_locale_id": 116935,
+     "target": "Caitlyn Gravefog",
+     "target_locale_id": 116520,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Unlocks the Brawler job (no coin, item or XP amount found)",
+     "source": "locale:140317 ('Let me teach you the brawler job so you can get started.'); repo:notes/Build Guides/Content/Jobs/Brawler.md:111"
+    }
+   ],
+   "line": {
+    "name": "Brawler job quest line, Starting line 3 (Stillwater Crossing)",
+    "previous": [],
+    "next": [
+     "Brawler: Get McGrobie!"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 116484,
+     "speaker": "Caitlyn Gravefog"
+    },
+    "progress": {
+     "locale_id": 116488,
+     "speaker": "Caitlyn Gravefog"
+    },
+    "complete": {
+     "locale_id": 116487,
+     "speaker": "Caitlyn Gravefog"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3030016,
+   "record": "quest-lines/quests.json q3030016",
+   "title": "Brawler: Get McGrobie!",
+   "giver": {
+    "name": "Caitlyn Gravefog",
+    "npc_id": "9000000038",
+    "locale_id": 116520
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Seth McGrobie somewhere southeast of Stillwater Crossing and make him give Caitlyn her money back.",
+     "text_locale_id": 116956,
+     "target": "Seth McGrobie",
+     "target_locale_id": 116525,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "none recorded",
+     "source": "no reward text in client or repo record"
+    }
+   ],
+   "line": {
+    "name": "Brawler job quest line (Stillwater Crossing: Caitlyn Gravefog / Seth McGrobie)",
+    "previous": [
+     "Brawler: Graveyard Grumble"
+    ],
+    "next": [
+     "Brawler: Stolen Merchandise"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3030017,
+   "record": "quest-lines/quests.json q3030017",
+   "title": "Brawler: Stolen Merchandise",
+   "giver": {
+    "name": "Seth McGrobie",
+    "npc_id": "9000000196",
+    "locale_id": 116525
+   },
+   "objectives": [
+    {
+     "kind": "defeat",
+     "text": "As a brawler, defeat Robgoblin Pondblasters to the east of Seth McGrobie's camp, outside of Stillwater Crossing.",
+     "text_locale_id": 116663,
+     "target": "Robgoblin Pondblasters",
+     "target_locale_id": 95047,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Knock out a few Robgoblin Pondblasters to the east and bring Seth back the rest of his merchandise (dialog wording; no separate client objective string names a delivery step).",
+     "text_locale_id": 116811,
+     "target": "Seth McGrobie",
+     "target_locale_id": 116525,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Brawler job line, Stillwater Crossing chain (guide-derived order, starting line 3)",
+    "previous": [
+     "Brawler: Get McGrobie!"
+    ],
+    "next": [
+     "Brawler: Rightful Owner"
+    ]
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": false
+  },
+  {
+   "quest_id": 3050015,
+   "record": "quest-lines/quests.json q3050015",
+   "title": "Chef: Stillwater Inn",
+   "giver": {
+    "name": "Helena",
+    "npc_id": "9000000103",
+    "locale_id": 116519
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Click on the Cooking Table in front of Helena to start cooking up some Spiralmint Steak.",
+     "text_locale_id": 116919,
+     "target": "Cooking Table",
+     "target_locale_id": 2061,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Return to Helena",
+     "text_locale_id": 116922,
+     "target": "Helena",
+     "target_locale_id": 116519,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "repo:notes/Build Guides/Content/Jobs/Chef.md:101 (rewards listed as unknown; build gap, not a verified 'no reward')"
+    }
+   ],
+   "line": {
+    "name": "Trainer Series: Stillwater Crossing (Chef job line)",
+    "previous": [],
+    "next": [
+     "Chef: Gavin Gone Missing"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": {
+     "locale_id": 116476,
+     "speaker": "Helena"
+    },
+    "progress": {
+     "locale_id": 116921,
+     "speaker": "Helena"
+    },
+    "complete": {
+     "locale_id": 116923,
+     "speaker": "Helena"
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3050016,
+   "record": "quest-lines/quests.json q3050016",
+   "title": "Chef: Gavin Gone Missing",
+   "giver": {
+    "name": "Helena",
+    "npc_id": "9000000103",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find Gavin Greenpetal on the road heading south out of Stillwater Crossing.",
+     "text_locale_id": 116494,
+     "target": "Gavin Greenpetal",
+     "target_locale_id": 116522,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Chef trainer series: Stillwater Crossing (Helena)",
+    "previous": [
+     "Chef: Stillwater Inn"
+    ],
+    "next": [
+     "Chef: Harvest Hiccup!"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 116492,
+     "speaker": "Helena"
+    },
+    "progress": {
+     "locale_id": 116801,
+     "speaker": "Helena"
+    },
+    "complete": {
+     "locale_id": 116495,
+     "speaker": "Gavin Greenpetal"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3050017,
+   "record": "quest-lines/quests.json q3050017",
+   "title": "Chef: Harvest Hiccup!",
+   "giver": {
+    "name": "Gavin Greenpetal",
+    "npc_id": "9000000096",
+    "locale_id": 116522
+   },
+   "objectives": [
+    {
+     "kind": "use",
+     "text": "Click on the Basket of Ingredients next to Gavin to start collecting his scattered ingredients.",
+     "text_locale_id": 116948,
+     "target": "Basket of Ingredients",
+     "target_locale_id": 116871,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Robgoblin fishers have thrown Gavin's ingredients all over the nearby area! Collect all five Bundles of Ingredients before the time runs out!",
+     "text_locale_id": 116983,
+     "target": "Bundles of Ingredients",
+     "target_locale_id": 116971,
+     "count": 5
+    },
+    {
+     "kind": "deliver",
+     "text": "Take the ingredients back to Gavin Greenpetal so that he can finally return to Stillwater Crossing.",
+     "text_locale_id": 139403,
+     "target": "Gavin Greenpetal",
+     "target_locale_id": 116522,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown: no reward source found",
+     "source": "notes/Build Guides/Content/Jobs/Chef.md:103 (reward cell 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Chef trainer series 3: Stillwater Crossing (Helena), S3",
+    "previous": [
+     "Chef: Gavin Gone Missing"
+    ],
+    "next": [
+     "Chef: Queensfields"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 116950,
+     "speaker": "Gavin Greenpetal"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 116499,
+     "speaker": "Gavin Greenpetal"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060018,
+   "record": "quest-lines/quests.json q3060018",
+   "title": "Demo Derby: Defeating Diggs",
+   "giver": {
+    "name": "Kanan",
+    "npc_id": "9000000124",
+    "locale_id": 116843
+   },
+   "objectives": [],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (Paws 'n Claws / Frost Ridge arena series, per the Demolition Derby Driver guide; grouping only)",
+    "previous": [],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3060024,
+   "record": "quest-lines/quests.json q3060024",
+   "title": "Demo Derby: Think of the Kittens",
+   "giver": {
+    "name": "Kanan",
+    "npc_id": "9000000124",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Pass out some fliers around Stillwater Crossing to promote a charity demolition derby event.",
+     "text_locale_id": 395567,
+     "target": "Stillwater Crossing (zone)",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Demo Derby (Demolition Derby Driver job), Series 3: Paws 'n Claws and the Frost Ridge arena",
+    "previous": [
+     "Demo Derby: Taking on the Tank"
+    ],
+    "next": [
+     "Demo Derby: Paws 'n Claws Smash-a-thon"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 393392,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 394301,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3070001,
+   "record": "quest-lines/quests.json q3070001",
+   "title": "Become a Fisherman",
+   "giver": {
+    "name": null,
+    "npc_id": null,
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Learn how to be a fisherman by finding Reed Stillwater.",
+     "text_locale_id": 412491,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Fisherman job unlock; no coin or item reward confirmed",
+     "source": "wiki page: Fisherman"
+    }
+   ],
+   "line": {
+    "name": "Fisherman job quest line",
+    "previous": [],
+    "next": [
+     "Being a Better Fisherman (locale:442279; record 3070002, prerequisite 3070001)",
+     "Learn to Fish! (locale:417055; record 3070003, job 137, giver 9000000181, no prerequisite)"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070002,
+   "record": "quest-lines/quests.json q3070002",
+   "title": "Being a Better Fisherman",
+   "giver": {
+    "name": "Message Board",
+    "npc_id": "9000000149",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Learn how to advance your skill as a Fisherman by speaking with Reed Stillwater in Stillwater Crossing",
+     "text_locale_id": 442249,
+     "target": "Reed Stillwater",
+     "target_locale_id": 388950,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown",
+     "source": "repo:notes/Build Guides/Content/Jobs/Fisherman.md:55 (rewards cell 'unknown')"
+    }
+   ],
+   "line": {
+    "name": "Fisherman job quest line, Entry and tutorial (Fisherman.md row E2); sibling 'Being a Better <Job>' titles locale:442268-442282",
+    "previous": [
+     "Become a Fisherman"
+    ],
+    "next": []
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3070010,
+   "record": "quest-lines/quests.json q3070010",
+   "title": "Much Bigger Bait",
+   "giver": {
+    "name": "Jonah Relicreel",
+    "npc_id": "9000000117",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Jonah can't keep bait on his hook! Something bigger might be better. He thinks a few butter flyfish should do the trick.",
+     "text_locale_id": 409698,
+     "target": "Butter Flyfish",
+     "target_locale_id": 99925,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Jonah Relicreel bait chain (Fisherman job, Cluster B)",
+    "previous": [
+     "Itty Bitty Bait"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 409696,
+     "speaker": null
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3120001,
+   "record": "quest-lines/quests.json q3120001",
+   "title": "Become a Pet Trainer",
+   "giver": {
+    "name": "Zachery",
+    "npc_id": "9000000235",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Obtain the Pet Trainer job",
+     "text_locale_id": 117807,
+     "target": null,
+     "target_locale_id": null,
+     "count": 1
+    },
+    {
+     "kind": "talk",
+     "text": "Speak to Zachery in Stillwater Crossing, or Speak to Majorie in Cobblestone Village, or Speak to Mercy Merrywings in Highroad Junction (one any-of talk step; any one completes it)",
+     "text_locale_id": 415150,
+     "target": "Zachery (9000000235) / Majorie (9000000139) / Mercy Merrywings (9000000145)",
+     "target_locale_id": null,
+     "count": 1
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown (none evidenced)",
+     "source": "repo:notes/Build Guides/Content/Jobs/Pet Trainer.md:69 (reward cell reads unknown)"
+    }
+   ],
+   "line": {
+    "name": "Pet Trainer job entry (Entry quests E1), then the Pet Tutorial series",
+    "previous": [],
+    "next": [
+     "Pet Tutorial: Basics"
+    ]
+   },
+   "live": "unsure",
+   "dialog": {
+    "offer": null,
+    "progress": null,
+    "complete": null
+   },
+   "wireable": true
+  }
+ ]
+}

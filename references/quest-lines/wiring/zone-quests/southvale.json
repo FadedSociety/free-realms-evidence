@@ -1,0 +1,663 @@
+{
+ "zone": "Southvale",
+ "quests": [
+  {
+   "quest_id": 3020014,
+   "record": "quest-lines/quests.json q3020014",
+   "title": "Blacksmith: Do Work!",
+   "giver": {
+    "name": "Supply Master Leo",
+    "npc_id": "9000000479",
+    "locale_id": 73956
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Mili Ironcall, the camp's director.",
+     "text_locale_id": 94419,
+     "target": "Mili Ironcall (npc 9000000405)",
+     "target_locale_id": 77427,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith line (Derp Axemaker's Supply Delivery, then Mili Ironcall's Focus Fire Bows)",
+    "previous": [
+     "Blacksmith: Supply Delivery"
+    ],
+    "next": [
+     "Blacksmith: Bolstering the Bows"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 94417,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": null,
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020015,
+   "record": "quest-lines/quests.json q3020015",
+   "title": "Blacksmith: Bolstering the Bows",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": 94417
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "As a Blacksmith, forge Focus Fire Bows for Mili Ironcall in Southvale.",
+     "text_locale_id": 94440,
+     "target": "Focus Fire Bows",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "use",
+     "text": "Craft Focus Fire Bows for Mili Ironcall",
+     "text_locale_id": 94442,
+     "target": "Focus Fire Bows",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the Bows to Mili Ironcall",
+     "text_locale_id": 94443,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Talk to Mili Ironcall and give her the Bows you crafted",
+     "text_locale_id": 94444,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Not evidenced in the pack (Lugabow pays only after a perfect order, per 94431; amount unknown)",
+     "source": "locale:94431"
+    }
+   ],
+   "line": {
+    "name": "Blacksmith quest line (Band 3: Southvale, levels 10-15)",
+    "previous": [
+     "Blacksmith: Do Work!"
+    ],
+    "next": [
+     "Blacksmith: Chivalrous Carlos"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 94431,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": {
+     "locale_id": 94450,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 94434,
+     "speaker": null
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3020016,
+   "record": "quest-lines/quests.json q3020016",
+   "title": "Hammer of Courage",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": 77427
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "As a Blacksmith, craft a Chivalrous Guardian Hammer for Mili Ironcall in Southvale.",
+     "text_locale_id": 94473,
+     "target": "Chivalrous Guardian Hammer",
+     "target_locale_id": 102183,
+     "count": 1
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the Chivalrous Guardian Hammer to Mili Ironcall",
+     "text_locale_id": 94476,
+     "target": "Mili Ironcall",
+     "target_locale_id": 77427,
+     "count": 1
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith quest line (Band 3: Southvale)",
+    "previous": [
+     "Bolstering the Bows"
+    ],
+    "next": [
+     "Local Bonesaw Shortage"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 94482,
+     "speaker": null
+    },
+    "complete": {
+     "locale_id": 94463,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3020017,
+   "record": "quest-lines/quests.json q3020017",
+   "title": "Blacksmith: Local Bonesaw Shortage",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Mili",
+     "text_locale_id": 94521,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "As a Blacksmith, craft Anguish Aid Bonesaws for Mili Ironcall in Southvale.",
+     "text_locale_id": 94514,
+     "target": "Anguish Aid Bonesaw",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "deliver",
+     "text": "Give the Bonesaws to Mili Ironcall",
+     "text_locale_id": 94517,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Blacksmith quest line (Band 3: Southvale, levels 10-15, Mili Ironcall / Supply Master Leo)",
+    "previous": [
+     "Blacksmith: Chivalrous Carlos"
+    ],
+    "next": [
+     "Blacksmith: Breaking Bank"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 94507,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": {
+     "locale_id": 94523,
+     "speaker": "Mili Ironcall"
+    },
+    "complete": {
+     "locale_id": 94510,
+     "speaker": "Mili Ironcall"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100013,
+   "record": "quest-lines/quests.json q3100013",
+   "title": "Miner: Finding Southvale",
+   "giver": {
+    "name": "Derp Axemaker",
+    "npc_id": "9000000069",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Travel to the Southvale Outpost and speak with Mili Ironcall, the camp's foreman.",
+     "text_locale_id": 77424,
+     "target": "Mili Ironcall",
+     "target_locale_id": 77427,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner (Derp Axemaker gate quests, Blacksmith and Miner level 10 gate)",
+    "previous": [
+     "Miner: Reach Level 10"
+    ],
+    "next": [
+     "Miner: Gems For Good Luck"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77415,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 77422,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100014,
+   "record": "quest-lines/quests.json q3100014",
+   "title": "Miner: Gems For Good Luck",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": 77427
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Mine tourmaline gems from the iron nodes at Southvale Outpost.",
+     "text_locale_id": 77443,
+     "target": "tourmaline gems",
+     "target_locale_id": null,
+     "count": 20
+    },
+    {
+     "kind": "deliver",
+     "text": "Let MIli look through your gems so she can pick one that looks lucky.",
+     "text_locale_id": 77447,
+     "target": "Mili Ironcall",
+     "target_locale_id": 77427,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner line (Southvale Quarry band, levels 10-15)",
+    "previous": [
+     "Miner: Finding Southvale"
+    ],
+    "next": [
+     "Miner: Marriage Proposal"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77428,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77431,
+     "speaker": "Mili Ironcall"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100015,
+   "record": "quest-lines/quests.json q3100015",
+   "title": "Miner: Marriage Proposal",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "As a miner, mine some iron ore and tourmaline for Mili Ironcall at the Southvale Outpost.",
+     "text_locale_id": 77496,
+     "target": "Southvale Outpost",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Mine iron ore",
+     "text_locale_id": 77497,
+     "target": "Iron ore",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Mine tourmaline for the engagement ring from iron deposits.",
+     "text_locale_id": 77500,
+     "target": "Tourmaline",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "collect",
+     "text": "Bonus: Collect 2 Malachite!",
+     "text_locale_id": 77510,
+     "target": "Malachite",
+     "target_locale_id": null,
+     "count": 2
+    },
+    {
+     "kind": "deliver",
+     "text": "Hand Mili the iron ore and tourmaline you collected for the engagement ring.",
+     "text_locale_id": 77502,
+     "target": "Mili Ironcall",
+     "target_locale_id": null,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "Reward collected from Mili (\"Collect a reward from Mili!\")",
+     "source": "locale:77509"
+    },
+    {
+     "kind": "coins",
+     "value": "Additional coins for the bonus gems",
+     "source": "locale:77511"
+    },
+    {
+     "kind": "other",
+     "value": "A collectable for the bonus gems",
+     "source": "locale:77511"
+    },
+    {
+     "kind": "item",
+     "value": "An item for the bonus gems",
+     "source": "locale:77511"
+    }
+   ],
+   "line": {
+    "name": "Miner quest line, Band 3: Southvale Quarry (level 10 to 15), row 14",
+    "previous": [
+     "Miner: Gems For Good Luck"
+    ],
+    "next": [
+     "Miner: Checking the Chug"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77480,
+     "speaker": "Mili Ironcall"
+    },
+    "progress": {
+     "locale_id": 77505,
+     "speaker": "Mili Ironcall"
+    },
+    "complete": {
+     "locale_id": 77483,
+     "speaker": "Mili Ironcall"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100016,
+   "record": "quest-lines/quests.json q3100016",
+   "title": "Miner: Checking the Chug",
+   "giver": {
+    "name": "Mili Ironcall",
+    "npc_id": "9000000405",
+    "locale_id": null
+   },
+   "objectives": [
+    {
+     "kind": "go",
+     "text": "Find out what Grumpore is doing in Southvale.",
+     "text_locale_id": 77525,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Have you spoken to Grumpore yet? She's inside the mine here in Southvale.",
+     "text_locale_id": 141246,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null
+    }
+   ],
+   "rewards": [
+    {
+     "kind": "other",
+     "value": "unknown; no reward text found for this quest",
+     "source": "repo:notes/Build Guides/Content/Jobs/Miner.md:125"
+    }
+   ],
+   "line": {
+    "name": "Miner quest line, Band 3: Southvale Quarry (level 10 to 15), guide row 15",
+    "previous": [
+     "Miner: Marriage Proposal"
+    ],
+    "next": [
+     "Miner: Grumpore's Challenge"
+    ]
+   },
+   "live": "unsure",
+   "dialog": null,
+   "wireable": true
+  },
+  {
+   "quest_id": 3100017,
+   "record": "quest-lines/quests.json q3100017",
+   "title": "Miner: Grumpore's Challenge",
+   "giver": {
+    "name": "Grumpore",
+    "npc_id": "9000000337",
+    "locale_id": 77570
+   },
+   "objectives": [
+    {
+     "kind": "talk",
+     "text": "Speak with Grumpore",
+     "text_locale_id": 77524,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat Grumpore's record for Iron ore collection. Rare nodes will give you more ore!",
+     "text_locale_id": 77527,
+     "target": "Iron mining game",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "minigame",
+     "text": "Beat the mining game and return to Grumpore in under eight minutes!",
+     "text_locale_id": 77533,
+     "target": "Iron mining game",
+     "target_locale_id": null,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Return to Grumpore",
+     "text_locale_id": 77530,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null
+    },
+    {
+     "kind": "talk",
+     "text": "Gloat about your success to Grumpore!",
+     "text_locale_id": 77531,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null
+    },
+    {
+     "kind": "other",
+     "text": "Elite: Eliminate 5 blocker tiles! (optional/bonus, per the 'Elite:' prefix)",
+     "text_locale_id": 77528,
+     "target": "blocker tiles",
+     "target_locale_id": null,
+     "count": 5
+    },
+    {
+     "kind": "other",
+     "text": "Bonus: Use 6 Dynamite ability tiles! (optional/bonus, per the 'Bonus:' prefix)",
+     "text_locale_id": 77520,
+     "target": "Dynamite ability tiles",
+     "target_locale_id": null,
+     "count": 6
+    },
+    {
+     "kind": "collect",
+     "text": "Bonus: Collect 2 Topaz! (optional/bonus, per the 'Bonus:' prefix)",
+     "text_locale_id": 77560,
+     "target": "Topaz",
+     "target_locale_id": null,
+     "count": 2
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner (Southvale Quarry band, level 10 to 15)",
+    "previous": [
+     "Miner: Checking the Chug"
+    ],
+    "next": [
+     "Miner: Arrowheads for Lugabow"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77548,
+     "speaker": "Grumpore"
+    },
+    "progress": null,
+    "complete": {
+     "locale_id": 77551,
+     "speaker": "Grumpore"
+    }
+   },
+   "wireable": false
+  },
+  {
+   "quest_id": 3100018,
+   "record": "quest-lines/quests.json q3100018",
+   "title": "Miner: Arrowheads for Lugabow",
+   "giver": {
+    "name": "Grumpore",
+    "npc_id": "9000000337",
+    "locale_id": 77570
+   },
+   "objectives": [
+    {
+     "kind": "collect",
+     "text": "Mine enough Iron Ore to make 300 arrowheads. Each ore is enough to make 20 arrowheads.",
+     "text_locale_id": 77604,
+     "target": "Iron Ore",
+     "target_locale_id": 21939,
+     "count": 15
+    },
+    {
+     "kind": "deliver",
+     "text": "Hand the iron ore to Grumpore.",
+     "text_locale_id": 77606,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner (Grumpore chain, Miner guide Band 3: Southvale Quarry, rows 16-19)",
+    "previous": [
+     "Miner: Grumpore's Challenge"
+    ],
+    "next": []
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": {
+     "locale_id": 77596,
+     "speaker": null
+    },
+    "progress": {
+     "locale_id": 77611,
+     "speaker": null
+    },
+    "complete": null
+   },
+   "wireable": true
+  },
+  {
+   "quest_id": 3100019,
+   "record": "quest-lines/quests.json q3100019",
+   "title": "Miner: Reach Level 15",
+   "giver": {
+    "name": "Grumpore",
+    "npc_id": "9000000337",
+    "locale_id": 77570
+   },
+   "objectives": [
+    {
+     "kind": "other",
+     "text": "Reach Level 15 as a Miner, then return to Grumpore.",
+     "text_locale_id": 387518,
+     "target": "Grumpore",
+     "target_locale_id": 77570,
+     "count": null
+    }
+   ],
+   "rewards": [],
+   "line": {
+    "name": "Miner career, Grumpore band (Southvale Quarry, level 10 to 15)",
+    "previous": [],
+    "next": [
+     "Miner: See For Yourself"
+    ]
+   },
+   "live": "yes",
+   "dialog": {
+    "offer": null,
+    "progress": {
+     "locale_id": 387460,
+     "speaker": "Grumpore"
+    },
+    "complete": {
+     "locale_id": 387461,
+     "speaker": null
+    }
+   },
+   "wireable": true
+  }
+ ]
+}

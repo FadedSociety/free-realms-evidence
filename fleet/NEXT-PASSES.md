@@ -10,7 +10,9 @@ Lesson (memory fleet-pack-joins): pre-join every candidate into the packs with a
    / field_enemies.json rows (actor_kind_id, level, current max_health (R)), the video frames that name it, and the
    damage numbers and bars visible around them. Output: a cited health estimate per enemy and level; a builder brief
    then updates enemies.json (values stay tunable data, marked (R) where estimated).
-2. **needs_spawn objects** (94 objectives, objective-specs-fixed.json): local resolver over the reference spawn
+2. **DONE 2026-10-26** (`quests/spawn_objects.py`, job spawnobj-infer, $0.10): 23 resolved -> needs_placement in
+   objective-specs-fixed.json + brief place-needs-spawn-objective-targets; 63 not in the FabledRealms.lua spawn lists
+   (zone/instance scripts or client zone files next), 3 ambiguous (q3090024 privates). **needs_spawn objects** (94 objectives, objective-specs-fixed.json): local resolver over the reference spawn
    tables by object or model name, then Haiku for the ambiguous ones.
 3. **"No evidence yet" objectives** (244): Jev screens wiki, articles and video for each target and count; Haiku
    only on the promising ones.

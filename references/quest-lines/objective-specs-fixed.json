@@ -5136,7 +5136,7 @@
      "npc_id": null
     },
     "text_string_id": 77068,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text: 'Carve your name into the tree stump' (Greenwood Forest, Tree Stump)",
@@ -5149,9 +5149,26 @@
      {
       "claim": "Searched repo and refs for a stump actor/NPC row; only item rows (Hollowed Out Tree Stump 16860, Petrified Tree Soldier Stump 3297) and unrelated 'Bergram Stumpfinger' hits. No stump actor id or spawn position.",
       "source": "pack: candidates.items; repo search 'stump'"
+     },
+     {
+      "claim": "The objective is carving a name into a 'tree stump', which is a click on a world prop, so interact_npc fits. The large stump model farming_obstacles_tree_large_stump_01.adr is the direct model match for 'tree stump' and the count is 1. Note: the small stump (ref 10587, farming_obstacles_tree_small_stump_01.adr) sits at the same spot and is the alternate if the large one is wrong. Both are about 1000 m from the Hilforn/Lugabow anchors, not at the lake camp the earlier note expected, so the location is a concern even though the model match is strong.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Carving is a click on a world object, so it is interact_npc on the stump actor. No actor candidate exists: the builder must place a stump actor at the Greenwood Forest lake camp (northern end) and fill npc_id. Do not use client_reported: the candidate search found no look_at GUID or client id. Count 1 (single stump)."
+    "note": "Carving is a click on a world object, so it is interact_npc on the stump actor. No actor candidate exists: the builder must place a stump actor at the Greenwood Forest lake camp (northern end) and fill npc_id. Do not use client_reported: the candidate search found no look_at GUID or client id. Count 1 (single stump).",
+    "reference_spawns": [
+     {
+      "ref_id": 10586,
+      "name": null,
+      "model": "farming_obstacles_tree_large_stump_01.adr",
+      "position": [
+       -2588.76,
+       0.04000002,
+       -451.354
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3680"
+     }
+    ]
    },
    {
     "index": 0,
@@ -9530,7 +9547,7 @@
     "kind": "interact_npc",
     "fields": {},
     "text_string_id": 439777,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Text says use the anvil to forge the boots",
@@ -9539,9 +9556,26 @@
      {
       "claim": "Anvil rows exist only as generic spawns (sg_anvil_stump_01 'Anvil', gw_anvil_01 'Spectrum Anvil'); none is tied to Sunstone Valley Red's forge",
       "source": "repo:prototype/osfr-tools/data/content/npc_spawns_extra.json:37193, 40251; crafting_stations.json:27,33"
+     },
+     {
+      "claim": "The objective says to use the anvil, and the only anvil in the pack is the Spectrum Anvil (gw_anvil_01.adr), 1.0 m from the Red Stonehammer anchor. 'Motorsmith Boots' is the item being forged, not the thing to click, so the anvil is the target.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Needs the Sunstone Valley anvil actor as npc_id. Forging itself is index 2. Do not wire until the anvil spawn is confirmed."
+    "note": "Needs the Sunstone Valley anvil actor as npc_id. Forging itself is index 2. Do not wire until the anvil spawn is confirmed.",
+    "reference_spawns": [
+     {
+      "ref_id": 3853,
+      "name": "Spectrum Anvil",
+      "model": "gw_anvil_01.adr",
+      "position": [
+       579.9434,
+       88.88337,
+       1974.708
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2520"
+     }
+    ]
    },
    {
     "index": 4,
@@ -13062,7 +13096,7 @@
      "radius": null
     },
     "text_string_id": 103706,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text says Poe's cards are hidden in one of the yellow potted plants around Sanctuary; no single plant is named",
@@ -13075,9 +13109,26 @@
      {
       "claim": "Repo search for potted/Poe finds no pot coordinates",
       "source": "repo: notes/Build Guides/Content/Jobs/Card Duelist.md:70 (cites no position)"
+     },
+     {
+      "claim": "The objective asks for one of the potted plants around Sanctuary, and the spawn named \"Planter\" is the only plant-type prop listed near Poe Tatters (7.1 m away); the nearer of the two Planter spawns is taken because the objective needs only one. The model is sg_rock_01.adr and the yellow colour cannot be confirmed from the spawn list, so this is a best match, not a certain one.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Cannot pick a position without inventing one. Needs the actual yellow pot position(s) in Sanctuary from the client decompile or a video frame. Do not use Poe's position (that would be a guess). Once a position is found, visit_position{zone_id 0, position [x,y,z], radius} or, if the pot is a placed object, interact_npc on that actor."
+    "note": "Cannot pick a position without inventing one. Needs the actual yellow pot position(s) in Sanctuary from the client decompile or a video frame. Do not use Poe's position (that would be a guess). Once a position is found, visit_position{zone_id 0, position [x,y,z], radius} or, if the pot is a placed object, interact_npc on that actor.",
+    "reference_spawns": [
+     {
+      "ref_id": 33354,
+      "name": "Planter",
+      "model": "sg_rock_01.adr",
+      "position": [
+       -1289.7819,
+       -14.417419,
+       351.62646
+      ],
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3584"
+     }
+    ]
    },
    {
     "index": 1,
@@ -13087,7 +13138,7 @@
      "npc_id": null
     },
     "text_string_id": 103669,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective asks the player to search the yellow potted plants in Sanctuary",
@@ -13100,9 +13151,37 @@
      {
       "claim": "No pot actor row exists in our NPC/spawn data; only item rows are present",
       "source": "pack: candidates.items"
+     },
+     {
+      "claim": "The text asks the player to search the yellow potted plants in Sanctuary, and the two 'Planter' props are the only spawns whose client name fits a potted plant; the first is 7.1 m from Poe Tatters and the second 29.6 m away. The model is sg_rock_01.adr, which is a rock, not a pot, and the pack gives no count, so the plural 'plants' was read as both planters; this is a moderate-confidence match, and the 'yellow' colour cannot be verified from the spawn data.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Searching a pot is a world-object click, so the server objective should be interact_npc on the pot actor, not client_reported. Needs a placed pot actor id (npc_id) for the yellow pot in Sanctuary. Do not use the client_reported trigger without a verified client id."
+    "note": "Searching a pot is a world-object click, so the server objective should be interact_npc on the pot actor, not client_reported. Needs a placed pot actor id (npc_id) for the yellow pot in Sanctuary. Do not use the client_reported trigger without a verified client id.",
+    "reference_spawns": [
+     {
+      "ref_id": 33354,
+      "name": "Planter",
+      "model": "sg_rock_01.adr",
+      "position": [
+       -1289.7819,
+       -14.417419,
+       351.62646
+      ],
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3584"
+     },
+     {
+      "ref_id": 33421,
+      "name": "Planter",
+      "model": "sg_rock_01.adr",
+      "position": [
+       -1264.6971,
+       -14.652455,
+       330.19955
+      ],
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3645"
+     }
+    ]
    },
    {
     "index": 2,
@@ -13867,7 +13946,7 @@
      "npc_id": 9500000993
     },
     "text_string_id": 104202,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text 'Speak to Oggy' is tagged to this quest.",
@@ -13880,9 +13959,26 @@
      {
       "claim": "Oggy is the Sasparilla-candy maker by the Brewery cauldrons in Wugachug.",
       "source": "repo: notes/Build Guides/Content/NPCs/NPCs - Wugachug.md:40"
+     },
+     {
+      "claim": "The objective is 'Speak to Oggy' and spawn ref 1658 is a client actor named exactly Oggy at FabledRealms.lua:424, sitting at the Oggy anchor position in Wugachug. Its npc_id in the pack (9500000993) is not confirmed against this row, so the builder should still check that id before wiring.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Downgraded from settled. The id is not a verified placed row. Keep it as the starting point; the builder must confirm a live Oggy NPC row or spawn in Wugachug before wiring. No dialog line of this quest is attributed to Oggy, so step order is unknown."
+    "note": "Downgraded from settled. The id is not a verified placed row. Keep it as the starting point; the builder must confirm a live Oggy NPC row or spawn in Wugachug before wiring. No dialog line of this quest is attributed to Oggy, so step order is unknown.",
+    "reference_spawns": [
+     {
+      "ref_id": 1658,
+      "name": "Oggy",
+      "model": "chugawug_m_02.adr",
+      "position": [
+       102.8962,
+       34.00596,
+       -380.5884
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:424"
+     }
+    ]
    },
    {
     "index": 2,
@@ -15140,7 +15236,7 @@
      "npc_id": 100000002732
     },
     "text_string_id": 413808,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text: Edwin Goldstory in Briarwood wants you to dig up the final artifact at Sir Wellington's dig site (single target, no split)",
@@ -15157,9 +15253,26 @@
      {
       "claim": "No server NPC row/placement for guid 100000002732 exists in the repo; the only hit is the extra spawn file line",
       "source": "repo search for 100000002732 / Wellington (only npc_spawns_extra.json:23066 and unresolved-npc notes)"
+     },
+     {
+      "claim": "The objective asks the player to dig at Sir Wellington's dig site, and the spawn named \"Wellington's Dig Site\" with model sg_archaeologist_tool_node_01.adr sits 0 m from Sir Wellington's anchor position, the only prop in the pack that fits a dig site. Earlier notes said the spawn is missing from the server, so it still needs placing.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "The dig object is the spawn only in npc_spawns_extra.json; the builder must place it on the server before interact_npc can fire. Used the spawn guid as npc_id per the critique's fix; the legacy NPC id is 2732 (Npcs.json Id=2732). visit_position removed. The radius 8.0 had no evidence and was dropped (not used by interact_npc). zone_id not verified for this spawn; the builder must confirm the zone when placing it. Status is needs_spawn, not settled."
+    "note": "The dig object is the spawn only in npc_spawns_extra.json; the builder must place it on the server before interact_npc can fire. Used the spawn guid as npc_id per the critique's fix; the legacy NPC id is 2732 (Npcs.json Id=2732). visit_position removed. The radius 8.0 had no evidence and was dropped (not used by interact_npc). zone_id not verified for this spawn; the builder must confirm the zone when placing it. Status is needs_spawn, not settled.",
+    "reference_spawns": [
+     {
+      "ref_id": 2732,
+      "name": "Wellington's Dig Site",
+      "model": "sg_archaeologist_tool_node_01.adr",
+      "position": [
+       -791.7317,
+       -65.48631,
+       2309.354
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1475"
+     }
+    ]
    }
   ],
   "open": [
@@ -15574,7 +15687,7 @@
      "npc_id": 9000000136
     },
     "text_string_id": 439701,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "locale:439701 'Madam Zelda wants you to meet her in Blackspore.' is the talk objective tagged to Madam Zelda and this quest.",
@@ -15587,9 +15700,26 @@
      {
       "claim": "The row is reconstructed_from_job_reference (reference_ids 9000000136, 9000000392), presence 'listed', capture_match null: no verified startup AddNpc spawn.",
       "source": "pack: candidates / critique"
+     },
+     {
+      "claim": "The objective says to meet Madam Zelda, and the target is her NPC; spawn 1466 is named Madam Zelda, uses human_f_gypsy.agr, and sits at the exact anchor position (0.0 m), so it is the NPC to place for talk_to_npc with npc_id 9000000136.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Keep npc_id 9000000136 (also giver_npc_id in card_duelist.json). Builder must add or verify a startup spawn for Zelda in Blackspore before this objective is live. Count 1 implicit for talk."
+    "note": "Keep npc_id 9000000136 (also giver_npc_id in card_duelist.json). Builder must add or verify a startup spawn for Zelda in Blackspore before this objective is live. Count 1 implicit for talk.",
+    "reference_spawns": [
+     {
+      "ref_id": 1466,
+      "name": "Madam Zelda",
+      "model": "human_f_gypsy.agr",
+      "position": [
+       -2401.651,
+       -29.95279,
+       1068.157
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:233"
+     }
+    ]
    },
    {
     "index": 1,
@@ -22965,7 +23095,7 @@
     "kind": "visit_position",
     "fields": {},
     "text_string_id": 410182,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective 'Murphy says your suite is located in Snowhill at 1 Way Back Way.'",
@@ -22978,9 +23108,26 @@
      {
       "claim": "Searches of POIs, client area XML, spawn rows, refs and wiki found no position for 1 Way Back Way",
       "source": "pack: client_id_candidate; search of refs and lookup of client/wiki"
+     },
+     {
+      "claim": "The objective asks the player to reach the suite at 1 Way Back Way in Snowhill, and the reference has a spawn named exactly \"1 Way Back Way\" with model sg_mailbox_01.adr (a postbox marking the suite's address) at [287.1, 23.8, 341.7], which is the only direct match. The earlier note said no coordinates existed, but this spawn supplies them; it is not Murphy's position.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "No cited position exists, so no visit_position coordinates are set. Builder must supply the suite's [x,y,z] and radius, or a suite/house POI id if one exists. Do not use Murphy's position as a substitute. Minigames 269 and 301 are unrelated (Biting Back) and are not used."
+    "note": "No cited position exists, so no visit_position coordinates are set. Builder must supply the suite's [x,y,z] and radius, or a suite/house POI id if one exists. Do not use Murphy's position as a substitute. Minigames 269 and 301 are unrelated (Biting Back) and are not used.",
+    "reference_spawns": [
+     {
+      "ref_id": 33692,
+      "name": "1 Way Back Way",
+      "model": "sg_mailbox_01.adr",
+      "position": [
+       287.1002,
+       23.8283,
+       341.68228
+      ],
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3906"
+     }
+    ]
    }
   ],
   "open": [
@@ -23483,7 +23630,7 @@
      "npc_id": null
     },
     "text_string_id": 412199,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "412199 is this quest's objective: 'Talk to Helena in the Wintery Basin to learn more about the sunken treasure.'",
@@ -23500,9 +23647,26 @@
      {
       "claim": "No placed Helena NPC in the Wintery Basin was found in repo search; refs search returned no Wintery Helena spawn.",
       "source": "search repo 'Helena'; search refs 'Helena'"
+     },
+     {
+      "claim": "The objective says to talk to Helena in Wintery Basin, and ref 2948 is a direct name match (client name Helena, model fairy_f_helena.agr) placed at the anchor position (0 m). The earlier note's unverified batch keys 9000000348 and 9000000103 are not used; this reference spawn is the NPC to place.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Talk objective, so talk_to_npc is right. npc_id left null: 9000000348 is an unresolved combined Hilbert/Helena batch key, not a placed NPC, and 9000000103 is the Stillwater chef (wrong). The builder must create or place the Wintery Basin Helena and then set npc_id. Unverified candidate key only: 9000000348."
+    "note": "Talk objective, so talk_to_npc is right. npc_id left null: 9000000348 is an unresolved combined Hilbert/Helena batch key, not a placed NPC, and 9000000103 is the Stillwater chef (wrong). The builder must create or place the Wintery Basin Helena and then set npc_id. Unverified candidate key only: 9000000348.",
+    "reference_spawns": [
+     {
+      "ref_id": 2948,
+      "name": "Helena",
+      "model": "fairy_f_helena.agr",
+      "position": [
+       -1256.22,
+       -59.15348,
+       865.3889
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1691"
+     }
+    ]
    }
   ],
   "open": [
@@ -23529,7 +23693,7 @@
     "kind": "visit_position",
     "fields": {},
     "text_string_id": 412295,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text 'Find the treasure chest'; the chest is hidden, and no transform for the chest or its tree is recovered.",
@@ -23538,9 +23702,26 @@
      {
       "claim": "Clue names Matron Murgla's camp, so the search area is near her, but this is not a position.",
       "source": "locale:412306"
+     },
+     {
+      "claim": "The objective text is 'Find the treasure chest', and the only direct match is ref 33333, a prop named 'Treasure Chest' with model sg_treasure_chest_01.adr. It sits at distance 0 from the chest anchor, and no other chest-like prop is nearby. Murgla/Ernest McScuttle's position is not used, per the earlier note.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Needs a recorded chest position (visit_position [x,y,z] + radius) or a chest actor for interact_npc. Do not use Murgla's position: it would miss the requested object. Zone is the open world (zone_id 0) if a position is recorded."
+    "note": "Needs a recorded chest position (visit_position [x,y,z] + radius) or a chest actor for interact_npc. Do not use Murgla's position: it would miss the requested object. Zone is the open world (zone_id 0) if a position is recorded.",
+    "reference_spawns": [
+     {
+      "ref_id": 33333,
+      "name": "Treasure Chest",
+      "model": "sg_treasure_chest_01.adr",
+      "position": [
+       -1305.7137,
+       -34.889507,
+       308.661
+      ],
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3563"
+     }
+    ]
    },
    {
     "index": 1,
@@ -23548,7 +23729,7 @@
     "kind": "visit_position",
     "fields": {},
     "text_string_id": 412296,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text says to remember Ernest's clue and find the treasure, with no separate target.",
@@ -23557,9 +23738,26 @@
      {
       "claim": "Clue text points to a lake with a rainbow, south of it, and to Murgla's camp.",
       "source": "locale:412302, 412306"
+     },
+     {
+      "claim": "The text asks the player to find the treasure Ernest described, and the only spawn that fits is the Treasure Chest prop (sg_treasure_chest_01.adr), 0 m from the treasure chest anchor and about 1 m from Ernest's named position is not close, so it is matched on name and model alone. Its position is the visit point.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Same hidden-object geometry as objective 0. Duplicate of the search step; the builder should merge it with objective 0 unless the chest position is split out separately."
+    "note": "Same hidden-object geometry as objective 0. Duplicate of the search step; the builder should merge it with objective 0 unless the chest position is split out separately.",
+    "reference_spawns": [
+     {
+      "ref_id": 33333,
+      "name": "Treasure Chest",
+      "model": "sg_treasure_chest_01.adr",
+      "position": [
+       -1305.7137,
+       -34.889507,
+       308.661
+      ],
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3563"
+     }
+    ]
    },
    {
     "index": 2,
@@ -23836,7 +24034,7 @@
      "npc_id": 9000000181
     },
     "text_string_id": 409068,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Reed Stillwater (9000000181) is the delivery target of the Reed objective, and he guides sacred_grove_shallows.",
@@ -23845,9 +24043,26 @@
      {
       "claim": "The NPC row is presence 'listed' with a text location (the fishing job center boat), no coordinates.",
       "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:10128-10160"
+     },
+     {
+      "claim": "The objective says to take the flyfish to Reed Stillwater, and the only direct match is ref 2968, named Reed Stillwater, a human_m_capn_sigmundr.agr character at 0 m from the anchor. The earlier note's concern about placement does not apply because this spawn is already in the reference list at the fishing job center.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "The id is correct; placement is not. Needs a placed spawn at the fishing job center before wiring. Delivery follows the Anna delivery; the client does not state the order."
+    "note": "The id is correct; placement is not. Needs a placed spawn at the fishing job center before wiring. Delivery follows the Anna delivery; the client does not state the order.",
+    "reference_spawns": [
+     {
+      "ref_id": 2968,
+      "name": "Reed Stillwater",
+      "model": "human_m_capn_sigmundr.agr",
+      "position": [
+       -1319.765,
+       -65.62,
+       898.9357
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1711"
+     }
+    ]
    }
   ],
   "open": [
@@ -24823,14 +25038,31 @@
      "npc_id": null
     },
     "text_string_id": 394625,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Clickable 'Fireworks Cart' objective with hint 394614",
       "source": "locale:394625; locale:394614"
+     },
+     {
+      "claim": "The objective says \"Click on the fireworks cart\", and spawn 4059 is the only prop whose model is evnt_anniversary_fireworks_wagon_01.adr, a fireworks wagon, placed 2.4 m from the Squee anchor. No other spawn in the pack fits the target.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Needs a placed Fireworks Cart actor; no repo spawn found. Not client_reported."
+    "note": "Needs a placed Fireworks Cart actor; no repo spawn found. Not client_reported.",
+    "reference_spawns": [
+     {
+      "ref_id": 4059,
+      "name": null,
+      "model": "evnt_anniversary_fireworks_wagon_01.adr",
+      "position": [
+       -490.266,
+       9.608817,
+       775.985
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2725"
+     }
+    ]
    },
    {
     "index": 3,
@@ -27826,7 +28058,7 @@
      "npc_id": 9000000488
     },
     "text_string_id": null,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Medic record names 9000000488 as giver_npc_id for quest 3090010.",
@@ -27843,9 +28075,26 @@
      {
       "claim": "Reference spawn 9000000214 could not be found in refs, so it is not cited.",
       "source": "search refs 9000000214 (no match)"
+     },
+     {
+      "claim": "The objective text is empty, but the quest's return step reads \"Return to Terrence\" and Terrence is the quest's NPC at The Roadhouse. Spawn 3333 is named Terrence and sits exactly on the anchor position, so it is the only plausible placement for a talk-to target.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Index moved to 2 so the recover step sits before the return. Keep npc_id 9000000488. Needs a placed spawn with a verified position at The Roadhouse before the objective can run. Progress line 72468 is not bound (no quest tag). The objfixs notes say the Terrence=9000000488 link was never verified, so treat it as unconfirmed."
+    "note": "Index moved to 2 so the recover step sits before the return. Keep npc_id 9000000488. Needs a placed spawn with a verified position at The Roadhouse before the objective can run. Progress line 72468 is not bound (no quest tag). The objfixs notes say the Terrence=9000000488 link was never verified, so treat it as unconfirmed.",
+    "reference_spawns": [
+     {
+      "ref_id": 3333,
+      "name": "Terrence",
+      "model": "human_m_treasurehunter.agr",
+      "position": [
+       -397.6479,
+       16.71633,
+       -265.833
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2076"
+     }
+    ]
    }
   ],
   "open": [
@@ -31503,7 +31752,7 @@
      "npc_id": 9000000470
     },
     "text_string_id": 78305,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "NPC row 9000000470 is Snorg",
@@ -31512,9 +31761,26 @@
      {
       "claim": "Objective text 'Give the moonstone to Snorg'",
       "source": "locale:78305"
+     },
+     {
+      "claim": "The objective text asks the player to give the moonstone to Snorg, and spawn ref 2740 is client-named Snorg with a greenwood soldier chugawug model, located at the same position as the Snorg anchor (0 m). The giver conflict in the earlier note concerns NPC 9000000470 as this quest's giver and does not affect this target.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Delivery is approximated as talk_to_npc because the server has no give-item kind. Gate on objective 0. No placed Snorg spawn is in the repo, so a Mother Lode/Briarwood spawn is needed. Giver conflict: miner.json:1626 and :1674 bind 9000000470 to 3100028 (Rare Rock Collection), while 3100027 has giver 9000000169 (Pinkelug) at miner.json:1574. Do not use 9000000470 as this quest's giver."
+    "note": "Delivery is approximated as talk_to_npc because the server has no give-item kind. Gate on objective 0. No placed Snorg spawn is in the repo, so a Mother Lode/Briarwood spawn is needed. Giver conflict: miner.json:1626 and :1674 bind 9000000470 to 3100028 (Rare Rock Collection), while 3100027 has giver 9000000169 (Pinkelug) at miner.json:1574. Do not use 9000000470 as this quest's giver.",
+    "reference_spawns": [
+     {
+      "ref_id": 2740,
+      "name": "Snorg",
+      "model": "chugawug_m_greenwood_soldier.adr",
+      "position": [
+       -773.3423,
+       -69.8597,
+       2361.465
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1483"
+     }
+    ]
    }
   ],
   "open": [
@@ -32594,7 +32860,7 @@
      "npc_id": 9000000223
     },
     "text_string_id": 387223,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective 'Achieve level 10, then return to Ty.' names Ty as the turn-in",
@@ -32615,9 +32881,26 @@
      {
       "claim": "Ty is reported at the Lakeshore bridge, about (-730, 9, 950), in research notes only",
       "source": "notes/Research/World Object Catalogue.md:17"
+     },
+     {
+      "claim": "The objective text says to return to Ty, and the only spawn named Ty (ref 3081, model human_m_ty_downtrodden.agr) sits at the anchor position, with a direct source row in FabledRealms-Legacy. The W110 disablement noted in the earlier note concerns quest availability, not the spawn, so it does not change the target.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Ty's id is correct as the giver and turn-in, but the spawn is unverified and the quest is W110-disabled for this target. Not settled until a directly sourced spawn row exists. The earlier 'settled' status and the 'placed in lakeshore.json' claim were overstated."
+    "note": "Ty's id is correct as the giver and turn-in, but the spawn is unverified and the quest is W110-disabled for this target. Not settled until a directly sourced spawn row exists. The earlier 'settled' status and the 'placed in lakeshore.json' claim were overstated.",
+    "reference_spawns": [
+     {
+      "ref_id": 3081,
+      "name": "Ty",
+      "model": "human_m_ty_downtrodden.agr",
+      "position": [
+       -798.9908,
+       -4.9022,
+       703.8625
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1824"
+     }
+    ]
    }
   ],
   "open": [
@@ -33669,7 +33952,7 @@
      "npc_id": 9000000184
     },
     "text_string_id": 90028,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text 'Find Roscoe the Pet Trainer in Sanctuary.' is locale 90028, tagged quest_objective to the Sanctuary quest.",
@@ -33690,9 +33973,26 @@
      {
       "claim": "The reconstructed POI offset [-1417.506849, -27.631, 355.650487] is marked by the pack as a reconstructed offset, not a captured transform, so it is not used.",
       "source": "pack: candidates.client_id_candidate.why_not"
+     },
+     {
+      "claim": "The objective text asks the player to find Roscoe the Pet Trainer in Sanctuary, and spawn ref 33116 is named exactly 'Roscoe' with a humanoid model (human_m_freestyle_01.agr), the only direct match in the pack. The earlier note's concern that the trigger is unconfirmed remains open, but the spawn itself is the correct target.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Keep npc_id 9000000184 (verified row). No verified position exists, so the row cannot be placed yet; the builder must place Roscoe in Sanctuary from a verified transform before this is served. Trigger (talk to Roscoe) is unconfirmed. Not a visit_position: the objective names an NPC and the row exists."
+    "note": "Keep npc_id 9000000184 (verified row). No verified position exists, so the row cannot be placed yet; the builder must place Roscoe in Sanctuary from a verified transform before this is served. Trigger (talk to Roscoe) is unconfirmed. Not a visit_position: the objective names an NPC and the row exists.",
+    "reference_spawns": [
+     {
+      "ref_id": 33116,
+      "name": "Roscoe",
+      "model": "human_m_freestyle_01.agr",
+      "position": [
+       -1386.3351,
+       -30.39162,
+       242.65764
+      ],
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3407"
+     }
+    ]
    }
   ],
   "open": [
@@ -34754,7 +35054,7 @@
      "count": 1
     },
     "text_string_id": 103840,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text 'Click the mailboxes to deliver the mail.' is locale 103840",
@@ -34767,9 +35067,26 @@
      {
       "claim": "The client names the mailboxes as the delivery targets, so a world-object click is interact_npc, not client_reported",
       "source": "locale:103840; postman guide Postman.md:162"
+     },
+     {
+      "claim": "The objective says to click the mailboxes, and the only spawn named as postboxes is 'Sanctuary Postboxes' (sg_mailbox_group_01.adr), 4.0 m from Felipe, which fits the plural 'mailboxes' better than any single box. The single sg_mailbox_01.adr boxes (33398 at 25.7 m, 33419 at 32.1 m, 33374 at 46.5 m) were not chosen because the group actor is the nearest postbox object and the count is 1; the count of 1 is a chosen value, so confirm that clicking one group actor is what the server should require.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "No Sanctuary mailbox actor id is placed in our NPC data, so npc_id stays null. Builder must place the Sanctuary mailboxes (model sg_mailbox_01.adr) and set npc_id. Count 1 is a chosen value (R): the text says plural 'mailboxes', so set the count to the number the server must require if every box is needed. Postboxes may be nodes (Postman.md:162) rather than actors; confirm before placing."
+    "note": "No Sanctuary mailbox actor id is placed in our NPC data, so npc_id stays null. Builder must place the Sanctuary mailboxes (model sg_mailbox_01.adr) and set npc_id. Count 1 is a chosen value (R): the text says plural 'mailboxes', so set the count to the number the server must require if every box is needed. Postboxes may be nodes (Postman.md:162) rather than actors; confirm before placing.",
+    "reference_spawns": [
+     {
+      "ref_id": 33389,
+      "name": "Sanctuary Postboxes",
+      "model": "sg_mailbox_group_01.adr",
+      "position": [
+       -1278.2301,
+       -14.471383,
+       299.26227
+      ],
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3613"
+     }
+    ]
    }
   ],
   "open": [
@@ -35309,7 +35626,7 @@
      "npc_id": 9000000086
     },
     "text_string_id": 387932,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "NPC 9000000086 is Felipe (reconstructed_from_job_reference), Sanctuary",
@@ -35322,9 +35639,26 @@
      {
       "claim": "Quest W110 disabled because giver/talk target 9000000086 is unspawned",
       "source": "repo:prototype/osfr-tools/data/content/quests/postman.json:569"
+     },
+     {
+      "claim": "The objective says to return to Felipe after reaching level 5, and the reference has a spawn named Felipe (fairy_m_courier_01.agr, a courier model) at distance 0.0 m from the Felipe anchor position. The spawn is the same NPC the pack's npc_id 9000000086 refers to, so it is the talk target the server is missing.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Turn-in to Felipe after reaching level 5. The row exists but is not drawn, so the quest is blocked until Felipe is spawned (or a drawn talk target is chosen with citation). Keep npc_id 9000000086 unless the spawn check shows a different row."
+    "note": "Turn-in to Felipe after reaching level 5. The row exists but is not drawn, so the quest is blocked until Felipe is spawned (or a drawn talk target is chosen with citation). Keep npc_id 9000000086 unless the spawn check shows a different row.",
+    "reference_spawns": [
+     {
+      "ref_id": 33390,
+      "name": "Felipe",
+      "model": "fairy_m_courier_01.agr",
+      "position": [
+       -1276.9783,
+       -14.72255,
+       303.08456
+      ],
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3614"
+     }
+    ]
    }
   ],
   "open": [
@@ -36466,7 +36800,7 @@
      "npc_id": 9000000031
     },
     "text_string_id": 130311,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "130311 'Talk to Brin Galeglow in Shrouded Glade' is the talk objective.",
@@ -36483,9 +36817,26 @@
      {
       "claim": "The row's quests_given list shows Beware of Dogs (3130028), not Summit. No Summit hand-in is evidenced.",
       "source": "repo:prototype/osfr-tools/data/content/npcs/shrouded_glade.json:3976-3980"
+     },
+     {
+      "claim": "The objective says to talk to Brin Galeglow in Shrouded Glade, and reference spawn 1428 carries the exact client name \"Brin Galeglow\" (fairy_druid_f.adr) at the same position as the NPC anchor, so it is the talk target.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "The NPC is not placed and no reference_spawn candidate was supplied in the pack, so needs_spawn rather than needs_placement. 9000000032 is a reference id only, not used. The talk-to target is the NPC row, not a verified spawn."
+    "note": "The NPC is not placed and no reference_spawn candidate was supplied in the pack, so needs_spawn rather than needs_placement. 9000000032 is a reference id only, not used. The talk-to target is the NPC row, not a verified spawn.",
+    "reference_spawns": [
+     {
+      "ref_id": 1428,
+      "name": "Brin Galeglow",
+      "model": "fairy_druid_f.adr",
+      "position": [
+       72.20549,
+       62.00041,
+       1200.908
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:195"
+     }
+    ]
    }
   ],
   "open": [
@@ -38869,7 +39220,7 @@
      "radius": 8.0
     },
     "text_string_id": 71037,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text names Braldan Stoneaxe in Merry Vale as the place to get the tools back.",
@@ -38878,9 +39229,26 @@
      {
       "claim": "Braldan's NPC row 9000000030 is in Merry Vale, zone_id 9, with location evidence 'Braldan Stoneaxe can be found in Merry Vale' and no coordinates.",
       "source": "repo:prototype/osfr-tools/data/content/npcs/merry_vale.json:1758-1790"
+     },
+     {
+      "claim": "The objective names Braldan Stoneaxe, and the only spawn with that client name is ref 2192 (dwarf_miner_m.adr) at the exact coordinates the earlier note said were missing, so the position is now available in the reference. This overlaps objective 1, which already has him as a talk target, so the duplicate step may be redundant rather than wrong.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "Not wireable as written: no cited world position for Braldan exists in the pack or repo. Either supply his coordinates (then keep this step) or drop it, since objective 1 already talks to him. The draft's npc_anchor field is not a server field and was removed."
+    "note": "Not wireable as written: no cited world position for Braldan exists in the pack or repo. Either supply his coordinates (then keep this step) or drop it, since objective 1 already talks to him. The draft's npc_anchor field is not a server field and was removed.",
+    "reference_spawns": [
+     {
+      "ref_id": 2192,
+      "name": "Braldan Stoneaxe",
+      "model": "dwarf_miner_m.adr",
+      "position": [
+       -1105.081,
+       -40.36923,
+       -482.7571
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:944"
+     }
+    ]
    },
    {
     "index": 1,
@@ -40549,7 +40917,7 @@
      "npc_id": 9000000154
     },
     "text_string_id": 74865,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "NPC row 9000000154 is Morgulg in Snowhill",
@@ -40558,9 +40926,26 @@
      {
       "claim": "Objective text: Talk to Morgulg in Snowhill",
       "source": "locale:74865"
+     },
+     {
+      "claim": "The objective is to talk to Morgulg, and the only direct match is the reference NPC named Morgulg (chugawug_m_02.adr, ref 3576) at [518.2869, 57.4627, 459.0463]; no other spawn in the pack carries that name or a fitting model. The wiki's note that his location varies with progress is not checked here, since the pack lists only this one stage spawn.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "npc_id kept. No placement position is cited, and the wiki says Morgulg's location varies with progress. Builder must choose a stage spawn. Legacy Npcs.json id 3576 is a reference candidate only. The earlier citation locale:2936840065 does not exist and is removed."
+    "note": "npc_id kept. No placement position is cited, and the wiki says Morgulg's location varies with progress. Builder must choose a stage spawn. Legacy Npcs.json id 3576 is a reference candidate only. The earlier citation locale:2936840065 does not exist and is removed.",
+    "reference_spawns": [
+     {
+      "ref_id": 3576,
+      "name": "Morgulg",
+      "model": "chugawug_m_02.adr",
+      "position": [
+       518.2869,
+       57.4627,
+       459.0463
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2319"
+     }
+    ]
    }
   ],
   "open": [
@@ -41218,7 +41603,7 @@
      "npc_id": 9000000108
     },
     "text_string_id": 74973,
-    "status": "needs_spawn",
+    "status": "needs_placement",
     "evidence": [
      {
       "claim": "Objective text 'Take the transfiguring crystals to Iliya in Blackspore.' is quest_objective locale 74973, tagged to this quest; single target, no count",
@@ -41243,9 +41628,26 @@
      {
       "claim": "9000000108 is the giver of the following quests 3160022 and 3160023, not of 3160021",
       "source": "repo:prototype/osfr-tools/data/content/quests/wizard.json:1205,1257"
+     },
+     {
+      "claim": "The only spawn named Iliya in the reference is ref 1549 (human_f_iliya.agr, name_id 45777), an exact name and model match for the talk target. Caveat: it sits about 800 m from the Sandbur anchor, and the earlier note places Iliya in Mire's Edge rather than Blackspore, so the zone should be checked before wiring, though the name match is exact and no other candidate exists.",
+      "source": "spawnobj-infer (Haiku, lead spot-checked 2026-10-26); wiring/spawn-objects.json"
      }
     ],
-    "note": "npc_id 9000000108 is the Iliya row, but it is not placed in any live zone (presence 'listed', no position) and its id is reconstructed. Builder must add a spawn for Iliya (Mire's Edge per client lines 115615/115616/117046/2588075768; the quest text says Blackspore) before this talk objective can be wired. No reference_spawn candidate was supplied in the pack for this id. Count is 1 (single talk target, no count in text)."
+    "note": "npc_id 9000000108 is the Iliya row, but it is not placed in any live zone (presence 'listed', no position) and its id is reconstructed. Builder must add a spawn for Iliya (Mire's Edge per client lines 115615/115616/117046/2588075768; the quest text says Blackspore) before this talk objective can be wired. No reference_spawn candidate was supplied in the pack for this id. Count is 1 (single talk target, no count in text).",
+    "reference_spawns": [
+     {
+      "ref_id": 1549,
+      "name": "Iliya",
+      "model": "human_f_iliya.agr",
+      "position": [
+       -2030.257,
+       -32.64438,
+       1178.806
+      ],
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:316"
+     }
+    ]
    }
   ],
   "open": [

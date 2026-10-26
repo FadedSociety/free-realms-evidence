@@ -1,0 +1,1001 @@
+[
+ {
+  "id": "q3000004-o2",
+  "status": "not_in_reference",
+  "target": "first globe",
+  "spawns": [],
+  "kind_check": "client_reported: keep. The objective is a look_at on a placed globe guid, and the server-side client_id is unassigned, so it needs a builder-registered id before it can be enabled.",
+  "reason": "The objective asks the player to look at the first globe, but no spawn in direct_matches or nearby_spawns (all within 60 m of Pappy Farnum) has a globe name or model; the nearby entries are Pappy Farnum, Maple Sugarleaf, Riley, Tamara, Aunt Daisy, a chicken, a battle-pets table, farmhands, and harvestable bushes and roots."
+ },
+ {
+  "id": "q3000004-o3",
+  "status": "not_in_reference",
+  "target": "second globe",
+  "spawns": [],
+  "kind_check": "client_reported: keep (look_at trigger with no guid, offset or range in fields, so the client reports it and the server has nothing to place)",
+  "reason": "The objective asks the player to look at 'the second globe', but direct_matches is empty and no spawn within 60 m of Pappy Farnum has a globe name or model (the nearby list is Pappy Farnum, Maple Sugarleaf, Riley, a battlepets table, Tamara, a chicken, Aunt Daisy, farmhands and harvestable bushes/roots). The earlier note only refers back to index 2, which I do not have, so no spawn can be picked for it."
+ },
+ {
+  "id": "q3000004-o4",
+  "status": "not_in_reference",
+  "target": "third globe",
+  "spawns": [],
+  "kind_check": "client_reported: keep. A 'look at' trigger is not a server-placed actor, so this objective should stay client-reported.",
+  "reason": "The objective asks the player to look at the third globe, but none of the 60 m spawns around Pappy Farnum has a globe name or model (the nearby names are Maple Sugarleaf, Riley, Tamara, Aunt Daisy, a battle-pet table, a chicken, and harvestable bushes and roots). The earlier note points to index 2, which has no reference spawn either, so no spawn is chosen."
+ },
+ {
+  "id": "q3000012-o0",
+  "status": "not_in_reference",
+  "target": "Gloam Artifact",
+  "spawns": [],
+  "kind_check": "interact_npc: keep. The artifacts are clickable objects that need placing, and the builder must supply npc_id(s); the pack's earlier note already says so.",
+  "reason": "No direct match exists, and none of the 60 m nearby spawns around Bartle is an artifact: they are Bartle (chugawug_m_02.adr), Sheila (horse_f.adr), rabbits, a squirrel, a butterfly and a fairychild. None of these plausibly fits 'Gloam Artifact', so the artifacts were never in these spawn lists and no spawn should be picked."
+ },
+ {
+  "id": "q3000023-o2",
+  "status": "not_in_reference",
+  "target": "Wilbur",
+  "spawns": [],
+  "kind_check": "visit_position: keep, but no position can be written from the reference data",
+  "reason": "The pack lists no direct_matches and no nearby_spawns, and it has no anchor NPCs, so no spawn with a name or model matching Wilbur (the pig actor) exists in the supplied FabledRealms.lua spawn lists. The position stays unset rather than guessed."
+ },
+ {
+  "id": "q3000023-o3",
+  "status": "not_in_reference",
+  "target": "Farmer Chug",
+  "spawns": [],
+  "kind_check": "talk_to_npc: keep. The deliver step is a talk to Farmer Chug, but no spawn for him is present in this pack.",
+  "reason": "The pack has no direct_matches, no anchors and no nearby_spawns, so no reference spawn named or modeled as Farmer Chug was found near the Sacred Glade pig pen. The earlier note's Wilds Farm Farmer Chug is a different place and cannot be used, so no spawn is chosen."
+ },
+ {
+  "id": "q3000031-o1",
+  "status": "not_in_reference",
+  "target": "Guard Glibbin",
+  "spawns": [],
+  "kind_check": "visit_position: keep, but no reference position exists for it",
+  "reason": "The objective asks the player to find Guard Glibbin (locale 91091), and no spawn in the pack is named Glibbin or has a model that identifies him. The nearby unnamed fairy_royalguard_m.adr spawns (ref 2383, 2384) and the named guards (Captain Sunspark, Commander Kiggle) could be guards, but none can be tied to Glibbin, so I did not pick any of them."
+ },
+ {
+  "id": "q3000031-o2",
+  "status": "not_in_reference",
+  "target": "Guard Forbi",
+  "spawns": [],
+  "kind_check": "visit_position: keep, but no reference spawn marks the place to reach",
+  "reason": "No spawn in the pack is named Guard Forbi (the locale text 91093 confirms the name), and direct_matches is empty. The nearby guard models near General Glowlight (fairy_royalguard_m.adr at ref 2383, 2384, and 2386 Commander Kiggle) carry no name that fits Forbi, so picking one would be a guess based on distance and model alone."
+ },
+ {
+  "id": "q3000031-o3",
+  "status": "not_in_reference",
+  "target": "Guard Nibbs",
+  "spawns": [],
+  "kind_check": "visit_position: keep, but no reference spawn marks Nibbs's position. The locale table confirms the name (91101: Guard Nibbs), yet no spawn in the pack carries that name.",
+  "reason": "No spawn in the pack is named Nibbs, and no direct match exists. The only nearby guard-like spawns are unnamed fairy_royalguard_m.adr props at (-1170.518, 4.812815, 214.9203) and (-1171.71, 4.893106, 212.722), plus the named Captain Sunspark and Commander Kiggle. Their model and name do not identify Nibbs, so choosing one would be a guess."
+ },
+ {
+  "id": "q3000031-o4",
+  "status": "not_in_reference",
+  "target": "Guard Verbi",
+  "spawns": [],
+  "kind_check": "visit_position: keep as visit_position, but no reference spawn marks the place to reach",
+  "reason": "No spawn is named Guard Verbi and no model in the pack fits a guard for this text. direct_matches is empty. The only anchor is the low-confidence POI at [-1488.38, -35.05, 405.19], which the earlier note removed, and the spawns within 60 m of it are harvestable plants (Gummyfruit, Honeytwig, Bumbleberry, Bixie Bud, Rainleaf), a warp caster, a warpstone, a honey keg and a farming node. The fairy_royalguard models sit around General Glowlight near (-1170, 5, 215), about 300 m away, so they are not Verbi's spawn."
+ },
+ {
+  "id": "q3000054-o1",
+  "status": "not_in_reference",
+  "target": "pail of water",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as an interact on a world prop only if a pail actor is added later; no spawn in the reference lists can be used",
+  "reason": "No direct match exists, and none of the 60 m spawns around Guard Reli is a pail: the nearby ones are sg_warpstone_01.adr (Briarheart Warpstone), chugawug_captainchugug_m.adr (Captain Chugug) and fairy_darkthorne_f.adr (Darkthorne). The earlier note's rejected Black Cat Pail items are inventory items and Sandscale Water-seeker is unrelated, so no spawn is chosen."
+ },
+ {
+  "id": "q3000055-o1",
+  "status": "not_in_reference",
+  "target": "Lucky's golden pot",
+  "spawns": [],
+  "kind_check": "client_reported: keep or say what it should be. The pot is a world object hidden by the hat with no actor row in these spawn lists, so the server cannot place it as an interact_npc target.",
+  "reason": "The objective asks the player to search Sacred Grove for one of Lucky's golden pots, and the locale confirms it is a pot (\"Lucky's Golden Pot O' Coins\"). None of the 13 nearby spawns within 60 m of Lucky Chance McXander is a pot: they are Merry Vale Warpstones, fairies, sprites, a squirrel, and a Spot the Difference prop, none with a pot model or name. The pots were never in these spawn lists."
+ },
+ {
+  "id": "q3000056-o0",
+  "status": "not_in_reference",
+  "target": "Lucky's gold pot",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as the earlier note suggests (a clickable golden pot prop), but no actor exists in the reference to place",
+  "reason": "direct_matches is empty, and none of the 12 nearby_spawns within 60 m of Lucky Chance McXander is a pot or similar prop: they are Merry Vale Warpstone (sg_warpstone_01.adr), the NPCs Madison, Giggles, Dee, Luella, Arel, Fenwink and unnamed fairy/sprite actors, a squirrel.adr, and Spot the Difference (sg_spot_the_difference_01.adr). Picking any of these would be a guess, so no spawn is chosen."
+ },
+ {
+  "id": "q3000057-o0",
+  "status": "not_in_reference",
+  "target": "Lucky's golden pot",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as the click-on-world-object kind (not visit_position), but no spawn exists to place it; npc_id stays null until a pot actor is added",
+  "reason": "No direct match exists, and none of the 12 reference spawns within 60 m of Lucky Chance McXander is a golden pot or any pot-like prop; the nearby list holds only warpstones, NPCs (Madison, Giggles, Dee, Luella, Arel, Fenwink), a squirrel and a Spot the Difference board. The hat-visibility condition is a server/client rule and cannot be placed as a spawn."
+ },
+ {
+  "id": "q3000058-o0",
+  "status": "not_in_reference",
+  "target": "Lucky's golden pot",
+  "spawns": [],
+  "kind_check": "interact_npc (keep as the intended kind, but no npc_id can be set because no pot actor exists in the reference)",
+  "reason": "The objective asks the player to find one of Lucky's golden pots in Sacred Grove, but none of the 12 reference spawns within 60 m of Lucky Chance McXander (anchor at -1180.79, -34.88, -432.90) is named or modelled as a pot: they are Merry Vale Warpstone (sg_warpstone_01.adr), Madison, Giggles, Dee, Luella, Arel, Fenwink, unnamed sprites/freestyle fairies, a squirrel, and Spot the Difference (sg_spot_the_difference_01.adr). direct_matches is empty, and the earlier note confirms the pot's actor id and spawn are missing, so nothing in the pack can be chosen as the target."
+ },
+ {
+  "id": "q3010006-o0",
+  "status": "resolved",
+  "target": "tree stump",
+  "spawns": [
+   {
+    "ref_id": 10586,
+    "name": null,
+    "model": "farming_obstacles_tree_large_stump_01.adr",
+    "position": [
+     -2588.76,
+     0.04000002,
+     -451.354
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3680"
+   }
+  ],
+  "kind_check": "interact_npc",
+  "reason": "The objective is carving a name into a 'tree stump', which is a click on a world prop, so interact_npc fits. The large stump model farming_obstacles_tree_large_stump_01.adr is the direct model match for 'tree stump' and the count is 1. Note: the small stump (ref 10587, farming_obstacles_tree_small_stump_01.adr) sits at the same spot and is the alternate if the large one is wrong. Both are about 1000 m from the Hilforn/Lugabow anchors, not at the lake camp the earlier note expected, so the location is a concern even though the model match is strong."
+ },
+ {
+  "id": "q3010008-o0",
+  "status": "not_in_reference",
+  "target": "Robgoblin Pondblasters",
+  "spawns": [],
+  "kind_check": "interact_npc: keep for the sap collection vat part of the objective. The explosives part needs a pondblaster NPC, which would be talk/interact-free combat or loot, so it should be reviewed separately.",
+  "reason": "No spawn in the pack has a pondblaster name or model, and no sap collection vat appears in direct_matches or the 60 m list around Hilforn. The only robgoblin spawns (robgoblin_m_bruiser, refs 33548 and 33717) sit roughly 1,500 m and 2,000 m away from Hilforn, so they cannot be the pondblasters near the lake to the north. The earlier note's vat location (115391) is not in these spawn lists, so I am not placing it."
+ },
+ {
+  "id": "q3020036-o3",
+  "status": "resolved",
+  "target": "Motorsmith Boots",
+  "spawns": [
+   {
+    "ref_id": 3853,
+    "name": "Spectrum Anvil",
+    "model": "gw_anvil_01.adr",
+    "position": [
+     579.9434,
+     88.88337,
+     1974.708
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2520"
+   }
+  ],
+  "kind_check": "interact_npc: keep. The player uses the anvil prop to forge, so the anvil spawn is the npc_id to wire.",
+  "reason": "The objective says to use the anvil, and the only anvil in the pack is the Spectrum Anvil (gw_anvil_01.adr), 1.0 m from the Red Stonehammer anchor. 'Motorsmith Boots' is the item being forged, not the thing to click, so the anvil is the target."
+ },
+ {
+  "id": "q3030002-o2",
+  "status": "not_in_reference",
+  "target": "gate near Ashley",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as is (the player clicks the gate, which needs an npc_id once the object is placed)",
+  "reason": "The pack has no direct_matches, no anchors and no nearby_spawns, so no spawn in the reference lists has a name or model that fits a gate near Ashley in Sacred Glade. Without a reference spawn there is nothing to place, so no spawn is chosen."
+ },
+ {
+  "id": "q3030015-o1",
+  "status": "not_in_reference",
+  "target": "Cursed Graveyard gate",
+  "spawns": [],
+  "kind_check": "interact_npc: keep. The text asks the player to click the gate, so this is a click on an object, not a talk or visit.",
+  "reason": "The objective asks the player to click the gate to the Cursed Graveyard, but direct_matches is empty and none of the 60 m nearby_spawns around Caitlyn Gravefog or the Graveyard Wraith has a gate name or gate model (the list holds only Caitlyn, Glenda, Kimble, a warpstone, a squirrel, Valerie, Francis Panic, and the Roxie/Kanan/Jillian/Minnie/Pavel group with a boombox). The gate was never in these spawn lists, so no spawn can be chosen; the earlier note's model 116930 is not in the pack and cannot be used."
+ },
+ {
+  "id": "q3040007-o0",
+  "status": "not_in_reference",
+  "target": "Bulletin Board",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (clicking a world object), but no spawn can be assigned",
+  "reason": "The text asks for the bulletin board next to Sam Potts (9000000187 / 33340 at (-1290.07, -14.91, 291.80)), but none of the nearby spawns is a board: the closest props are the Card Table (sh_table_battlepets_01.adr), Planter (sg_rock_01.adr), Checkers & Chess table (sg_gametable_01.adr), Sanctuary Postboxes (sg_mailbox_group_01.adr) and Spot the Difference (sg_spot_the_difference_01.adr), and none plausibly matches a bulletin board. The earlier note's Board Shorts and Diving Board candidates were already rejected, so no spawn is chosen."
+ },
+ {
+  "id": "q3040010-o0",
+  "status": "resolved",
+  "target": "yellow potted plants",
+  "spawns": [
+   {
+    "ref_id": 33354,
+    "name": "Planter",
+    "model": "sg_rock_01.adr",
+    "position": [
+     -1289.7819,
+     -14.417419,
+     351.62646
+    ],
+    "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3584"
+   }
+  ],
+  "kind_check": "visit_position: keep. The pack's zone-0 visit_position with this spawn as the place to reach is the right form, since the objective is to find the cards in one of the plants, not to click a specific placed object.",
+  "reason": "The objective asks for one of the potted plants around Sanctuary, and the spawn named \"Planter\" is the only plant-type prop listed near Poe Tatters (7.1 m away); the nearer of the two Planter spawns is taken because the objective needs only one. The model is sg_rock_01.adr and the yellow colour cannot be confirmed from the spawn list, so this is a best match, not a certain one."
+ },
+ {
+  "id": "q3040010-o1",
+  "status": "resolved",
+  "target": "yellow potted plant",
+  "spawns": [
+   {
+    "ref_id": 33354,
+    "name": "Planter",
+    "model": "sg_rock_01.adr",
+    "position": [
+     -1289.7819,
+     -14.417419,
+     351.62646
+    ],
+    "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3584"
+   },
+   {
+    "ref_id": 33421,
+    "name": "Planter",
+    "model": "sg_rock_01.adr",
+    "position": [
+     -1264.6971,
+     -14.652455,
+     330.19955
+    ],
+    "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3645"
+   }
+  ],
+  "kind_check": "interact_npc",
+  "reason": "The text asks the player to search the yellow potted plants in Sanctuary, and the two 'Planter' props are the only spawns whose client name fits a potted plant; the first is 7.1 m from Poe Tatters and the second 29.6 m away. The model is sg_rock_01.adr, which is a rock, not a pot, and the pack gives no count, so the plural 'plants' was read as both planters; this is a moderate-confidence match, and the 'yellow' colour cannot be verified from the spawn data."
+ },
+ {
+  "id": "q3040016-o1",
+  "status": "not_in_reference",
+  "target": "Puggles the Pig",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as an actor the player catches. No spawn in the pack is a pig, so the server-side actor cannot be placed from these lists.",
+  "reason": "The objective asks the player to catch Puggles the Pig, but no direct match exists, and none of the 60 m nearby spawns around Garrison Gold or Perry has a pig name or model. The nearest farm animals are Perry's cow (cow.adr, ref 33880) and Perry's Mama Hen (chicken.adr, ref 33881), and neither fits a pig, so I am not picking either."
+ },
+ {
+  "id": "q3040019-o0",
+  "status": "not_in_reference",
+  "target": "cards",
+  "spawns": [],
+  "kind_check": "interact_npc is the intended kind for a world pickup, but no card pickup actor exists in the reference spawns, so it cannot be wired. The count is not in the client text and would need a designer choice (R).",
+  "reason": "The objective asks the player to pick up cards along the main path, but no direct match exists and none of the 60 m nearby spawns (Shifty the Shuffler, Oggy, Grollgroll, barrels, harvestables, musical props, the Elite Exploration Coin env_icon) is a card-like model or name. Nothing in the pack can honestly be chosen as the card target."
+ },
+ {
+  "id": "q3040019-o1",
+  "status": "resolved",
+  "target": "Oggy",
+  "spawns": [
+   {
+    "ref_id": 1658,
+    "name": "Oggy",
+    "model": "chugawug_m_02.adr",
+    "position": [
+     102.8962,
+     34.00596,
+     -380.5884
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:424"
+   }
+  ],
+  "kind_check": "talk_to_npc",
+  "reason": "The objective is 'Speak to Oggy' and spawn ref 1658 is a client actor named exactly Oggy at FabledRealms.lua:424, sitting at the Oggy anchor position in Wugachug. Its npc_id in the pack (9500000993) is not confirmed against this row, so the builder should still check that id before wiring."
+ },
+ {
+  "id": "q3040041-o0",
+  "status": "resolved",
+  "target": "Sir Wellington's dig site",
+  "spawns": [
+   {
+    "ref_id": 2732,
+    "name": "Wellington's Dig Site",
+    "model": "sg_archaeologist_tool_node_01.adr",
+    "position": [
+     -791.7317,
+     -65.48631,
+     2309.354
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1475"
+   }
+  ],
+  "kind_check": "interact_npc: keep. The dig site is a clickable archaeologist tool node, so the player must interact with it. The earlier note's npc_id 100000002732 is the guid form; the reference spawn is ref_id 2732, so the builder should confirm which id the server expects.",
+  "reason": "The objective asks the player to dig at Sir Wellington's dig site, and the spawn named \"Wellington's Dig Site\" with model sg_archaeologist_tool_node_01.adr sits 0 m from Sir Wellington's anchor position, the only prop in the pack that fits a dig site. Earlier notes said the spawn is missing from the server, so it still needs placing."
+ },
+ {
+  "id": "q3040053-o0",
+  "status": "resolved",
+  "target": "Madam Zelda",
+  "spawns": [
+   {
+    "ref_id": 1466,
+    "name": "Madam Zelda",
+    "model": "human_f_gypsy.agr",
+    "position": [
+     -2401.651,
+     -29.95279,
+     1068.157
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:233"
+   }
+  ],
+  "kind_check": "talk_to_npc",
+  "reason": "The objective says to meet Madam Zelda, and the target is her NPC; spawn 1466 is named Madam Zelda, uses human_f_gypsy.agr, and sits at the exact anchor position (0.0 m), so it is the NPC to place for talk_to_npc with npc_id 9000000136."
+ },
+ {
+  "id": "q3040056-o5",
+  "status": "not_in_reference",
+  "target": "Bud Grimyfoot",
+  "spawns": [],
+  "kind_check": "talk_to_npc: keep. Bud is an NPC (npc_id 9500000969) that the server must place in Wugachug, not a prop the player clicks.",
+  "reason": "No reference spawn is named or modeled as Bud Grimyfoot: direct_matches is empty and no nearby spawn carries his name. The closest candidates (Wugachug Warpstone sg_warpstone_01.adr, Sleeping Postchug chugawug_m_01.adr, Rare Exploration Coin env_icon_chugawug.adr) are different objects with different names, so none is plausibly Bud."
+ },
+ {
+  "id": "q3050002-o0",
+  "status": "not_in_reference",
+  "target": "Hay Pile",
+  "spawns": [],
+  "kind_check": "interact_npc: keep. The text asks for a click on the Hay Pile prop, so interact_npc fits. client_reported is not supported by the pack.",
+  "reason": "Neither direct_matches nor nearby_spawns contains a Hay Pile, hay or pile-like prop, and the pack has no anchors (Cookie and his wagon are not present in the reference spawns). No spawn in the reference lists can be chosen as the target."
+ },
+ {
+  "id": "q3050014-o0",
+  "status": "not_in_reference",
+  "target": "Harvesting Tools",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as interact_npc, with npc_id left null (not 0), since no reference spawn supplies an id for the Harvesting Tools actor",
+  "reason": "The pack has no anchors, no direct_matches and no nearby_spawns, so no reference spawn named or modelled as Harvesting Tools exists within 60 m of Perry or any other anchor, and nothing in the listed spawns can be chosen. The zone is also unresolved, so the search cannot be widened from this pack."
+ },
+ {
+  "id": "q3050014-o1",
+  "status": "not_in_reference",
+  "target": "Harvesting Tools",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (the player clicks a stack of Harvesting Tools, so this is a clickable prop, not an NPC; the pack gives npc_id null and the objective is an interact on a prop)",
+  "reason": "The pack lists no direct matches and no nearby_spawns, with no anchors, so no spawn in the reference lists has a client name or model that fits 'Harvesting Tools' behind Perry. The objective is therefore not placeable from these spawn lists, and I have not guessed a spawn."
+ },
+ {
+  "id": "q3050015-o0",
+  "status": "not_in_reference",
+  "target": "Cooking Table",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (a click on a world object is the required action; the server must place the table, but no reference spawn of it is in front of Helena)",
+  "reason": "The objective asks for the Cooking Table in front of Helena (ref 2948, at about (-1256, -59, 865)), but no cooking table spawn lies within 60 m of her; the nearest table (ref 2417 at about (-1244, -14, 405)) is about 460 m away and the rest are farther still. The spawn lists contain sg_cooking_table_nodes_01.adr tables in other places, so the table in front of Helena was never recorded here and no spawn can be chosen without guessing."
+ },
+ {
+  "id": "q3050017-o0",
+  "status": "not_in_reference",
+  "target": "Basket of Ingredients",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as a world click that starts the activity (not client_reported). Binding stays blocked until a basket actor row exists.",
+  "reason": "The pack has no spawn named or modelled as a Basket of Ingredients. Within 60 m of Gavin Greenpetal the only reference spawn is Gavin himself (ref 2982, fairy_m_chef_01.agr, 0 m), so the basket was never placed in these spawn lists. The pack's item candidates (31271, 76822) are not actors and were not used."
+ },
+ {
+  "id": "q3060041-o0",
+  "status": "not_in_reference",
+  "target": "Vehicles outside the Tangletrack track",
+  "spawns": [],
+  "kind_check": "interact_npc: keep only if the server places car actors; the reference has none, so this objective cannot be wired from these spawn lists.",
+  "reason": "The objective asks the player to inspect an unspecified set of cars outside the track, and the count is unknown. No direct match exists, and no nearby spawn is a vehicle: the nearby entries are NPCs (Rip Ringa, Click, Clack, Cale Yardbird and others), generic human/fairy/seaside models, and turtle_01.adr 'Jon's Turtle' props. human_m_merchant_kart.agr is the NPC Clack, not a car, so I did not place it."
+ },
+ {
+  "id": "q3060041-o1",
+  "status": "not_in_reference",
+  "target": "Tangletrack Speedway Booby Trapped Kart",
+  "spawns": [],
+  "kind_check": "interact_npc: the kart is a vehicle prop the player clicks for its tailpipe, so it should be a placed kart actor. No such actor is in the reference, so this objective cannot be placed from these spawn lists.",
+  "reason": "No spawn in the pack has a kart prop or .adr model matching a booby-trapped kart. The only kart-named model nearby is human_m_merchant_kart.agr (ref 2683, 'Clack', 16.9 m from Jackson Spinner), which is a character model, not the kart, so I did not select it."
+ },
+ {
+  "id": "q3070007-o1",
+  "status": "not_in_reference",
+  "target": "Bitter Beta",
+  "spawns": [],
+  "kind_check": "talk_to_npc: keep. Ernest is the NPC the player talks to after catching the fish, and his own spawn is still missing from the pack.",
+  "reason": "The locale shows \"Bitter Beta\" is a fish the player reels in at fishing spots (\"Reel in three bitter beta\", \"Catch bitter beta\"), so it is an item, not a placed actor. None of the nearby spawns (Reed Stillwater, a merchant archer, a toad, two humanchild models) matches it, and direct_matches is empty. Ernest's own spawn is also not in the pack, so the objective cannot be placed from these lists."
+ },
+ {
+  "id": "q3070008-o2",
+  "status": "not_in_reference",
+  "target": "tackle box",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as interact_npc only if a tackle box actor is later sourced; the pack gives no npc_id (fields.npc_id is null), and the earlier note says not to use 57012.",
+  "reason": "No direct match exists, and none of the four reference spawns within 60 m of Anna Mudskipper or Muggup (Reed Stillwater human_m_capn_sigmundr.agr, human_f_merchant_archer_asian.agr, toad.adr, humanchild_f_skirtandtunic.adr) has a name or model that fits a tackle box, so I chose no spawn."
+ },
+ {
+  "id": "q3070012-o2",
+  "status": "not_in_reference",
+  "target": "Jonah Relicreel",
+  "spawns": [],
+  "kind_check": "talk_to_npc: keep. The objective is to talk to Jonah Relicreel, but no spawn for him is in the reference lists, so the server cannot place him.",
+  "reason": "No direct match exists for 'Jonah Relicreel' in the pack, and none of the nearby spawns carry that name or a fitting model. The closest spawn, Reed Stillwater (human_m_capn_sigmundr.agr, 8.7 m from the anchor), is a different named NPC, so I did not use it. The anchor position has no matching reference spawn to cite, so this cannot be placed."
+ },
+ {
+  "id": "q3070019-o2",
+  "status": "not_in_reference",
+  "target": "Bag of Spices",
+  "spawns": [],
+  "kind_check": "client_reported: keep as client_reported. The bag is a world pickup with no spawn in the reference lists, so this cannot be placed as interact_npc.",
+  "reason": "The objective 'Find the spices' targets a 'Bag of Spices', but no direct match exists and none of the 6 reference spawns within 60 m of Gunther (Ted, Darrel, Oakheart, Ruberto, Roberto, Ribberto) is a bag or prop; they are all creatures (toad.adr, chugawug_m_02.adr, treesoldier.adr), so no spawn in the pack plausibly matches the bag."
+ },
+ {
+  "id": "q3070028-o0",
+  "status": "not_in_reference",
+  "target": "Darklit Lagoon",
+  "spawns": [],
+  "kind_check": "visit_position: the objective is a zone visit (zone_id 560) with an 8 m radius, so the spawn that marks the arrival point must come from a listed reference spawn. None is listed. Keep as visit_position only if the builder supplies a verified arrival point.",
+  "reason": "No spawn in the pack is named or modelled as Darklit Lagoon, and direct_matches is empty. The only candidate is the [200,0,200] fishing-spot placeholder, which is not a listed spawn with a ref_id and which the earlier note says is not a verified arrival point. The nearby spawns are all around Dooba and Estelle LaFrell in Briarwood and do not mark the lagoon."
+ },
+ {
+  "id": "q3070037-o1",
+  "status": "resolved",
+  "target": "1 Way Back Way",
+  "spawns": [
+   {
+    "ref_id": 33692,
+    "name": "1 Way Back Way",
+    "model": "sg_mailbox_01.adr",
+    "position": [
+     287.1002,
+     23.8283,
+     341.68228
+    ],
+    "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3906"
+   }
+  ],
+  "kind_check": "visit_position",
+  "reason": "The objective asks the player to reach the suite at 1 Way Back Way in Snowhill, and the reference has a spawn named exactly \"1 Way Back Way\" with model sg_mailbox_01.adr (a postbox marking the suite's address) at [287.1, 23.8, 341.7], which is the only direct match. The earlier note said no coordinates existed, but this spawn supplies them; it is not Murphy's position."
+ },
+ {
+  "id": "q3070045-o0",
+  "status": "resolved",
+  "target": "Helena",
+  "spawns": [
+   {
+    "ref_id": 2948,
+    "name": "Helena",
+    "model": "fairy_f_helena.agr",
+    "position": [
+     -1256.22,
+     -59.15348,
+     865.3889
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1691"
+   }
+  ],
+  "kind_check": "talk_to_npc",
+  "reason": "The objective says to talk to Helena in Wintery Basin, and ref 2948 is a direct name match (client name Helena, model fairy_f_helena.agr) placed at the anchor position (0 m). The earlier note's unverified batch keys 9000000348 and 9000000103 are not used; this reference spawn is the NPC to place."
+ },
+ {
+  "id": "q3070046-o0",
+  "status": "resolved",
+  "target": "Treasure Chest",
+  "spawns": [
+   {
+    "ref_id": 33333,
+    "name": "Treasure Chest",
+    "model": "sg_treasure_chest_01.adr",
+    "position": [
+     -1305.7137,
+     -34.889507,
+     308.661
+    ],
+    "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3563"
+   }
+  ],
+  "kind_check": "visit_position: keep. The chest is a prop the server does not place, so the spawn marks the position the player must reach.",
+  "reason": "The objective text is 'Find the treasure chest', and the only direct match is ref 33333, a prop named 'Treasure Chest' with model sg_treasure_chest_01.adr. It sits at distance 0 from the chest anchor, and no other chest-like prop is nearby. Murgla/Ernest McScuttle's position is not used, per the earlier note."
+ },
+ {
+  "id": "q3070046-o1",
+  "status": "resolved",
+  "target": "treasure chest (hidden treasure Ernest mentions)",
+  "spawns": [
+   {
+    "ref_id": 33333,
+    "name": "Treasure Chest",
+    "model": "sg_treasure_chest_01.adr",
+    "position": [
+     -1305.7137,
+     -34.889507,
+     308.661
+    ],
+    "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3563"
+   }
+  ],
+  "kind_check": "visit_position: keep. The spawn marks the chest the player must reach; it is the same place as objective 0's search step, so the builder may merge the two.",
+  "reason": "The text asks the player to find the treasure Ernest described, and the only spawn that fits is the Treasure Chest prop (sg_treasure_chest_01.adr), 0 m from the treasure chest anchor and about 1 m from Ernest's named position is not close, so it is matched on name and model alone. Its position is the visit point."
+ },
+ {
+  "id": "q3070050-o1",
+  "status": "not_in_reference",
+  "target": "Anna Mudskipper",
+  "spawns": [],
+  "kind_check": "talk_to_npc: keep (the player must talk to Anna Mudskipper, npc_id 9000000010, but no reference spawn places her)",
+  "reason": "No direct_matches and no nearby_spawns carry the name or a fitting model for Anna Mudskipper; the only named spawn at her position is Reed Stillwater (ref 2968, human_m_capn_sigmundr.agr), who is a different NPC, and the other nearby spawns are unnamed townsfolk or animals. Her position appears only as an anchor, not as a listed spawn, so I am not claiming any spawn for this objective."
+ },
+ {
+  "id": "q3070050-o2",
+  "status": "resolved",
+  "target": "Reed Stillwater",
+  "spawns": [
+   {
+    "ref_id": 2968,
+    "name": "Reed Stillwater",
+    "model": "human_m_capn_sigmundr.agr",
+    "position": [
+     -1319.765,
+     -65.62,
+     898.9357
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1711"
+   }
+  ],
+  "kind_check": "talk_to_npc",
+  "reason": "The objective says to take the flyfish to Reed Stillwater, and the only direct match is ref 2968, named Reed Stillwater, a human_m_capn_sigmundr.agr character at 0 m from the anchor. The earlier note's concern about placement does not apply because this spawn is already in the reference list at the fishing job center."
+ },
+ {
+  "id": "q3080005-o1",
+  "status": "not_in_reference",
+  "target": "toolbox",
+  "spawns": [],
+  "kind_check": "interact_npc: keep. Clicking a world prop is interact_npc on that actor, and the builder must place the toolbox and supply its npc id.",
+  "reason": "No direct match exists, and none of the 30 reference spawns within 60 m of Verve McNichols (ref 3012) has a name or model that fits a toolbox. The nearest props are sg_car_crystals_01.adr (Crystal Collection, ref 3014, 17.6 m) and the unnamed chugawug/freestyle actors, none of which is a toolbox. The spawn lists do not contain this object."
+ },
+ {
+  "id": "q3080013-o2",
+  "status": "resolved",
+  "target": "Fireworks Cart",
+  "spawns": [
+   {
+    "ref_id": 4059,
+    "name": null,
+    "model": "evnt_anniversary_fireworks_wagon_01.adr",
+    "position": [
+     -490.266,
+     9.608817,
+     775.985
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2725"
+   }
+  ],
+  "kind_check": "interact_npc: keep. The player clicks the cart prop, so the placed actor is the clickable target.",
+  "reason": "The objective says \"Click on the fireworks cart\", and spawn 4059 is the only prop whose model is evnt_anniversary_fireworks_wagon_01.adr, a fireworks wagon, placed 2.4 m from the Squee anchor. No other spawn in the pack fits the target."
+ },
+ {
+  "id": "q3080015-o0",
+  "status": "not_in_reference",
+  "target": "shady looking pixie",
+  "spawns": [],
+  "kind_check": "talk_to_npc: keep. The objective is to talk to the pixie NPC, but the server does not place it, and the reference spawn lists have no matching actor.",
+  "reason": "The pack has no direct matches and no nearby_spawns within 60 m, and it lists no anchors. Nothing in the reference lists has a client name or model that fits 'shady looking pixie' near Frost Ridge Speedway, so no spawn can be chosen."
+ },
+ {
+  "id": "q3080015-o5",
+  "status": "not_in_reference",
+  "target": "Sparks' Toolbox",
+  "spawns": [],
+  "kind_check": "interact_npc: keep, but the spawn that should be clicked is a world prop (toolbox), not an NPC; it cannot be placed from these lists",
+  "reason": "The pack has no direct_matches, no anchors and no nearby_spawns, so no reference spawn has a name or model that fits 'Sparks' Toolbox'. The earlier note also records no actor candidate, so I can't honestly pick a spawn."
+ },
+ {
+  "id": "q3080027-o0",
+  "status": "not_in_reference",
+  "target": "Linx Redline's kart",
+  "spawns": [],
+  "kind_check": "visit_position: the target is a kart the player must reach, but no kart spawn exists in the reference near Linx Redline to mark it, so the position cannot be set from these spawn lists.",
+  "reason": "No spawn near Linx Redline (anchors at [-2256.3, -16.4, 572.4] and [-992.9, -6.5, 443.8]) has a kart name or model; the nearby props there are fairies, NPCs, sg_car_crystals_01 and pegasus_m. The only car-like prop, sg_broken_racecar_01.adr (ref 3046, about 44.5 m from Chase Wheeler and far from Linx), sits by Chase Wheeler, not by Linx, so I did not use it."
+ },
+ {
+  "id": "q3080027-o1",
+  "status": "not_in_reference",
+  "target": "Linx Redline's kart",
+  "spawns": [],
+  "kind_check": "interact_npc: keep. The kart is a world object, so the builder still needs a spawn to click on, but none exists in the reference data.",
+  "reason": "No spawn near Linx Redline (ref 3015, about 0 m from his anchor) or the other anchors is a kart prop. The nearby props are sg_car_crystals_01 (Crystal Collection), and the nearest car-like props sg_derby_car_crusher_01 and sg_broken_racecar_01 sit about 39-44 m away near Chase Wheeler, not by Linx. human_m_merchant_kart.agr (Clack, ref 3040) is a character model near Chase Wheeler, not Linx's kart. Nothing here plausibly matches, so I am not guessing a spawn."
+ },
+ {
+  "id": "q3080038-o1",
+  "status": "not_in_reference",
+  "target": "Keys",
+  "spawns": [],
+  "kind_check": "interact_npc: keep only if a key object actor is later found in the reference lists; otherwise client_reported",
+  "reason": "The objective is 'Click on the Keys', but none of the nearby spawns is named or modelled as a key (the nearby names are Clack, Jackson Spinner, Cale Yardbird, Rip Ringa, Antonio Taurino, Click, Kade Carmichael, Jon's Turtle, Andrea Motorspark, Crankle, and the rest are unnamed human, fairy or creature models), and no direct match exists, so no spawn in the pack can be the Keys."
+ },
+ {
+  "id": "q3080038-o2",
+  "status": "not_in_reference",
+  "target": "Mirana's lost keys",
+  "spawns": [],
+  "kind_check": "client_reported: keep interact_npc only if the client supplies the keys object; the reference spawn lists have no keys actor to place",
+  "reason": "No direct match and no nearby spawn is named or modelled as keys: the spawns within 60 m of Mirana Vega are NPCs (Clack, Jackson Spinner, Cale Yardbird, Rip Ringa, Antonio Taurino, Click, Kade Carmichael), unnamed human/fairy freestyle and seaside models, turtles, a goblin, and a fairy_sanctuary_m_01.adr prop that does not fit a set of keys. The earlier note says the keys are a key-object actor shared with objective 1, but that actor is also absent from the pack, so no spawn is chosen."
+ },
+ {
+  "id": "q3080042-o0",
+  "status": "not_in_reference",
+  "target": "racing turnstile",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as the intended kind, but no placed actor exists in the reference spawns to wire it to",
+  "reason": "direct_matches is empty, and none of the 30 nearby_spawns within 60 m of Shamus Sootbender has a name or model that fits a turnstile. The closest candidates are kart NPCs (Clack, human_m_merchant_kart.agr), freestyle characters, and Jon's Turtle props, none of which are turnstiles, so no spawn is chosen."
+ },
+ {
+  "id": "q3090010-o2",
+  "status": "resolved",
+  "target": "Terrence (return step: \"Return to Terrence\", locale 73394)",
+  "spawns": [
+   {
+    "ref_id": 3333,
+    "name": "Terrence",
+    "model": "human_m_treasurehunter.agr",
+    "position": [
+     -397.6479,
+     16.71633,
+     -265.833
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2076"
+   }
+  ],
+  "kind_check": "talk_to_npc: keep. The objective's target is Terrence at The Roadhouse, and the spawn is the only Terrence in the reference list. The Terrence=9000000488 npc_id link is still unverified, so confirm it before relying on this spawn.",
+  "reason": "The objective text is empty, but the quest's return step reads \"Return to Terrence\" and Terrence is the quest's NPC at The Roadhouse. Spawn 3333 is named Terrence and sits exactly on the anchor position, so it is the only plausible placement for a talk-to target."
+ },
+ {
+  "id": "q3090024-o1",
+  "status": "not_in_reference",
+  "target": "Private Wurble",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as a placeholder only; the rescue target is an NPC that the reference lists do not contain",
+  "reason": "No spawn in the pack is named Private Wurble (locale id 130646), and no direct match exists. The nearby chugawug soldiers (ref 2736, 2740, 2741, 2742, 2746, 2733) are unnamed generic greenwood_soldier models, so they cannot be picked as the patrol member without guessing; 'Wumperwug' (ref 2735) is a different name."
+ },
+ {
+  "id": "q3090024-o2",
+  "status": "not_in_reference",
+  "target": "Private Derp",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as an NPC rescue target, but no reference spawn exists for it",
+  "reason": "No spawn in the pack is named Private Derp or uses a matching model; the only named spawns near Docaloc are Plunkawug, Wumperwug, Jack the Nibbler, Snorg, Smoggo, Cortez, Smapplebap, Keller and Murdunk, and the unnamed chugawug soldiers and miners do not fit the name. The locale table confirms 'Private Derp' only appears in the objective text (74732), and the other Derp strings refer to Derp Axemaker, the Dartmoor blacksmith."
+ },
+ {
+  "id": "q3090024-o3",
+  "status": "not_in_reference",
+  "target": "Private Zurpee",
+  "spawns": [],
+  "kind_check": "interact_npc: keep. Zurpee is a rescuable NPC, so the player should interact with him, but the server spawn is missing.",
+  "reason": "The locale confirms the name 'Private Zurpee' (130667), yet no spawn in the pack is named Zurpee and none matches by model. The nearby chugawug_m_greenwood_soldier.adr entries (2736, 2742, 2733) are unnamed generic soldiers, and the named soldiers Snorg and Smoggo are other characters, so distance alone does not justify picking one."
+ },
+ {
+  "id": "q3090024-o4",
+  "status": "ambiguous",
+  "target": "Private Tubtom",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (rescue an NPC; the target is a person, so interact_npc fits)",
+  "reason": "No spawn in the pack is named Tubtom and no direct match exists. The only plausible candidates are unnamed chugawug soldiers near Docaloc, such as ref 2736 (chugawug_m_greenwood_soldier.adr, 7.2 m) and ref 2742 (chugawug_f_greenwood_soldier.adr, 12.4 m), and the text ('Private', a patrol) cannot tell them apart, so I am not choosing one."
+ },
+ {
+  "id": "q3090024-o5",
+  "status": "ambiguous",
+  "target": "Private Goloboo",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (rescue an NPC by clicking/talking to him)",
+  "reason": "No spawn is named Goloboo and no model is specific to him. The only plausible fit is a chugawug_m_greenwood_soldier.adr (a soldier for 'Private'), but there are several unnamed or unrelated greenwood soldiers near Docaloc (ref 2736 at 7.2 m, 2740 Snorg, 2741 Smoggo, 2742 female at 12.4 m, 2746 Murdunk, 2733 at 42.8 m), and the text does not decide between them, so I did not pick one."
+ },
+ {
+  "id": "q3090024-o6",
+  "status": "ambiguous",
+  "target": "Private Moblop",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (rescue an NPC by talking/interacting with him)",
+  "reason": "No spawn in the pack is named Private Moblop (the locale confirms the name only as NPC string 130653), and no direct match exists. The only soldier-like candidates are unnamed chugawug_m_greenwood_soldier.adr spawns (ref 2736 at 7.2 m, ref 2733 at 42.8 m) and the chugawug_f_greenwood_soldier.adr (ref 2742 at 12.4 m), plus the named Snorg, Smoggo and Murdunk; the text does not say which one is Moblop, so I cannot pick one honestly."
+ },
+ {
+  "id": "q3090024-o7",
+  "status": "not_in_reference",
+  "target": "Private Flubtum",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (rescuing a named NPC; a talk or interact on the Private, not a prop)",
+  "reason": "The objective text (74744) names Private Flubtum (130655), but no nearby spawn carries that name or a Flubtum model; the named spawns near Docaloc (Plunkawug, Wumperwug, Snorg, Smoggo, Murdunk, Cortez, Keller, Smapplebap, Jack the Nibbler) are other characters, and the unnamed chugawug_m_greenwood_soldier.adr entries (ref 2736, 2733, 2740, 2741, 2746) are generic models that cannot be told apart as Flubtum, so none is chosen."
+ },
+ {
+  "id": "q3090025-o0",
+  "status": "not_in_reference",
+  "target": "Darvon's Descent",
+  "spawns": [],
+  "kind_check": "client_reported: keep visit_position only if the server gets a zone position or POI for Darvon's Descent; otherwise the entrance is a clickable barrier actor and the objective should be interact_npc on that actor, which is not in these spawn lists",
+  "reason": "No direct match exists, and none of the nearby spawns around Clover (Clover, Shephard, Doctor Gordon, Nurse Naia, Maximus Axegrinder, Message Board, duck_f_01.adr) has a name or model that fits a Darvon's Descent entrance or barrier. The earlier note's draft position has no source and was withdrawn, so no spawn is chosen."
+ },
+ {
+  "id": "q3090032-o2",
+  "status": "not_in_reference",
+  "target": "Stolen Weapons",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as a world-object click on a crate actor, but no crate actor exists in the reference, so it cannot be placed",
+  "reason": "The target 'Stolen Weapons' (crates) has no matching spawn: direct_matches is empty and none of the 60 m nearby_spawns names or models a crate, weapon or stash (the nearby props are medic students, soldiers, a gametable, mailbox, troll scouts, exploration coins and similar). Picking any of them would be a guess, so no spawn is chosen."
+ },
+ {
+  "id": "q3100027-o1",
+  "status": "resolved",
+  "target": "Snorg",
+  "spawns": [
+   {
+    "ref_id": 2740,
+    "name": "Snorg",
+    "model": "chugawug_m_greenwood_soldier.adr",
+    "position": [
+     -773.3423,
+     -69.8597,
+     2361.465
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1483"
+   }
+  ],
+  "kind_check": "talk_to_npc: keep. This is the approximation the earlier note describes, since the server has no give-item kind; the item handover itself (moonstone) is not represented by a spawn.",
+  "reason": "The objective text asks the player to give the moonstone to Snorg, and spawn ref 2740 is client-named Snorg with a greenwood soldier chugawug model, located at the same position as the Snorg anchor (0 m). The giver conflict in the earlier note concerns NPC 9000000470 as this quest's giver and does not affect this target."
+ },
+ {
+  "id": "q3110006-o1",
+  "status": "not_in_reference",
+  "target": "Chloe's Bag",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as recorded, but the bag has no spawn in the reference lists, so it cannot be placed from this data.",
+  "reason": "The objective asks the player to collect Chloe's bags, but no direct match exists and none of the 60 m nearby_spawns is a bag or sack prop; the nearby entries are only Chloe, her NPC neighbours (Oliver, Farnsworth, miners, druids) and other characters, tables and creatures. The earlier note also records that no bag actor exists in the data."
+ },
+ {
+  "id": "q3110013-o1",
+  "status": "resolved",
+  "target": "Ty (npc_id 9000000223)",
+  "spawns": [
+   {
+    "ref_id": 3081,
+    "name": "Ty",
+    "model": "human_m_ty_downtrodden.agr",
+    "position": [
+     -798.9908,
+     -4.9022,
+     703.8625
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1824"
+   }
+  ],
+  "kind_check": "talk_to_npc",
+  "reason": "The objective text says to return to Ty, and the only spawn named Ty (ref 3081, model human_m_ty_downtrodden.agr) sits at the anchor position, with a direct source row in FabledRealms-Legacy. The W110 disablement noted in the earlier note concerns quest availability, not the spawn, so it does not change the target."
+ },
+ {
+  "id": "q3120001-o1",
+  "status": "not_in_reference",
+  "target": "Zachery / Majorie / Mercy Merrywings",
+  "spawns": [],
+  "kind_check": "talk_to_npc: keep. The objective is to speak to an NPC (npc_id 9000000235), so this kind is correct; the server must place the NPC itself.",
+  "reason": "direct_matches is empty and no spawn named Zachery appears in the reference lists, even though his anchor position is known (-1261.6, -49.0, 783.0). The nearby spawns are a warp stone, Valerie, Kimble, Kanan and pets near that position, none of which is a trainer. Zachery's NPC placement therefore has to come from elsewhere, and I did not pick a substitute spawn."
+ },
+ {
+  "id": "q3120006-o0",
+  "status": "resolved",
+  "target": "Roscoe",
+  "spawns": [
+   {
+    "ref_id": 33116,
+    "name": "Roscoe",
+    "model": "human_m_freestyle_01.agr",
+    "position": [
+     -1386.3351,
+     -30.39162,
+     242.65764
+    ],
+    "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3407"
+   }
+  ],
+  "kind_check": "talk_to_npc: keep. The objective names an NPC (Roscoe the Pet Trainer) and the npc_id row 9000000184 is already verified; the spawn is the exact client-name match for Roscoe at the anchor position.",
+  "reason": "The objective text asks the player to find Roscoe the Pet Trainer in Sanctuary, and spawn ref 33116 is named exactly 'Roscoe' with a humanoid model (human_m_freestyle_01.agr), the only direct match in the pack. The earlier note's concern that the trigger is unconfirmed remains open, but the spawn itself is the correct target."
+ },
+ {
+  "id": "q3120022-o0",
+  "status": "not_in_reference",
+  "target": "Moanna",
+  "spawns": [],
+  "kind_check": "talk_to_npc: keep. Moanna (npc_id 9000000153) is the talk target, but no spawn needs to be chosen from this pack.",
+  "reason": "No direct match exists for Moanna the Pet Trainer. The 60 m window around the anchor Verill Shiverwings (Highroad Junction, not Seaside) holds only warpstones, Cillian, Bowawow, Assistant Archy, Harold, Merigold, Alaric, clouds, blocks and similar props, none of which is named or modelled as Moanna or a pet trainer. The Seaside spawn for Moanna is therefore absent from both reference spawn lists and must be created in the Seaside zone near the Pet Adoption Center."
+ },
+ {
+  "id": "q3130003-o1",
+  "status": "resolved",
+  "target": "mailboxes",
+  "spawns": [
+   {
+    "ref_id": 33389,
+    "name": "Sanctuary Postboxes",
+    "model": "sg_mailbox_group_01.adr",
+    "position": [
+     -1278.2301,
+     -14.471383,
+     299.26227
+    ],
+    "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3613"
+   }
+  ],
+  "kind_check": "interact_npc: keep (the player clicks a mailbox prop, not an NPC; the server needs an interactable prop actor for this objective). The chosen spawn is the Sanctuary postbox group actor sitting 4 m from the courier Felipe.",
+  "reason": "The objective says to click the mailboxes, and the only spawn named as postboxes is 'Sanctuary Postboxes' (sg_mailbox_group_01.adr), 4.0 m from Felipe, which fits the plural 'mailboxes' better than any single box. The single sg_mailbox_01.adr boxes (33398 at 25.7 m, 33419 at 32.1 m, 33374 at 46.5 m) were not chosen because the group actor is the nearest postbox object and the count is 1; the count of 1 is a chosen value, so confirm that clicking one group actor is what the server should require."
+ },
+ {
+  "id": "q3130005-o5",
+  "status": "not_in_reference",
+  "target": "Dropped Mail",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as the client-reported click target, but no spawn in the pack represents it",
+  "reason": "The objective asks the player to click Dropped Mail bundles, but direct_matches is empty and no nearby spawn is named or modeled as mail bundles; the closest candidates (Sanctuary Postboxes sg_mailbox_group_01.adr, 1 Sunrise St. sg_mailbox_01.adr) are mailboxes, not dropped mail, so I am not choosing them."
+ },
+ {
+  "id": "q3130006-o0",
+  "status": "not_in_reference",
+  "target": "Dropped Mail",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (clicking a world object is interact_npc on its actor), but no actor for it exists in the reference spawn lists, so the builder cannot fill npc_id from these sources.",
+  "reason": "No direct match and no nearby spawn is named or modelled as Dropped Mail. The closest candidates are mailboxes (sg_mailbox_group_01.adr ref 2375 near Flitter, and the sg_mailbox_01.adr and sg_mailbox_group_01.adr postboxes in the Sanctuary inner circle), but these are fixed postboxes, not the dropped mail object Flitter asks for, so I did not use them. Objective 1's Scattered Mail minigame is not duplicated here."
+ },
+ {
+  "id": "q3130010-o1",
+  "status": "resolved",
+  "target": "Felipe (npc_id 9000000086)",
+  "spawns": [
+   {
+    "ref_id": 33390,
+    "name": "Felipe",
+    "model": "fairy_m_courier_01.agr",
+    "position": [
+     -1276.9783,
+     -14.72255,
+     303.08456
+    ],
+    "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3614"
+   }
+  ],
+  "kind_check": "talk_to_npc: keep",
+  "reason": "The objective says to return to Felipe after reaching level 5, and the reference has a spawn named Felipe (fairy_m_courier_01.agr, a courier model) at distance 0.0 m from the Felipe anchor position. The spawn is the same NPC the pack's npc_id 9000000086 refers to, so it is the talk target the server is missing."
+ },
+ {
+  "id": "q3130026-o0",
+  "status": "not_in_reference",
+  "target": "PCA Tricksters",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (the locale text says to click/interact with the PCA Tricksters while in wolf form), but no spawn in the reference lists supplies the Trickster actor",
+  "reason": "The locale names the target 'PCA Trickster' (ids 130764, 130747), but no direct match exists and none of the 60 m nearby spawns around Loryn is a Trickster by name or model; the Post Office set (Yoink, Milus Featherfeet, Post Office Controller, Dog, Reba, Snowhill Postboxes, Chugawug, etc.) are all unrelated to the attackers, so no spawn is chosen."
+ },
+ {
+  "id": "q3130027-o1",
+  "status": "resolved",
+  "target": "Brin Galeglow",
+  "spawns": [
+   {
+    "ref_id": 1428,
+    "name": "Brin Galeglow",
+    "model": "fairy_druid_f.adr",
+    "position": [
+     72.20549,
+     62.00041,
+     1200.908
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:195"
+   }
+  ],
+  "kind_check": "talk_to_npc: keep",
+  "reason": "The objective says to talk to Brin Galeglow in Shrouded Glade, and reference spawn 1428 carries the exact client name \"Brin Galeglow\" (fairy_druid_f.adr) at the same position as the NPC anchor, so it is the talk target."
+ },
+ {
+  "id": "q3140006-o1",
+  "status": "not_in_reference",
+  "target": "mascot (energetic and friendly animal, unnamed in pack)",
+  "spawns": [],
+  "kind_check": "client_reported: keep as client_reported (look_at on the mascot actor is the likely trigger, but no mascot actor exists in the reference spawns)",
+  "reason": "The objective is to pick a mascot, but none of the reference spawns within 60 m of Coach Eddie or Manager Landon is a mascot-like actor; the only animal entries are a Cow (cow.adr) and Perry's Mama Hen (chicken.adr), which are farm animals, and the rest are plants, farmers and locators. The animal park where the mascot would be is unresolved and outside these anchors, so no spawn can be honestly chosen."
+ },
+ {
+  "id": "q3140013-o0",
+  "status": "not_in_reference",
+  "target": "Highroad Hijinx (hooligan leader, Mac or Cal)",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as the intended kind (the prank is performed on the hooligan leader NPC), but no placed spawn exists for it, so it cannot be placed from these lists.",
+  "reason": "The objective asks the player to prank the hooligan leader in Highroad Hijinx; the earlier note identifies that leader as Mac or Cal, but neither name nor model appears in direct_matches or nearby_spawns. The nearby spawns are Henry's farm NPCs and props (Rocky, Papa Salt, Garden Defense tables, Mae Farnum, etc.), none of which fit a hooligan leader, and the note's dungeon-entry fence is not a listed spawn, so no spawn in the pack can be the target."
+ },
+ {
+  "id": "q3140013-o1",
+  "status": "not_in_reference",
+  "target": "Cal's tent",
+  "spawns": [],
+  "kind_check": "interact_npc: keep as the objective kind, but the clickable radio on Cal's tent has no actor in the reference spawn lists, so it cannot be placed from these sources.",
+  "reason": "The objective asks the player to turn on the radio on Cal's tent in the hooligan camp, but no spawn in the pack is a tent or radio. The hooligan camp spawns near the anchors are brawlers, archers, a spawner, a treasure chest (Billie's Trunk), and a squirrel, none of which fit the target. Earlier note also confirms no actor candidate exists."
+ },
+ {
+  "id": "q3140022-o2",
+  "status": "not_in_reference",
+  "target": "Robgoblin Troublemaker",
+  "spawns": [],
+  "kind_check": "client_reported: the target is a stunned Robgoblin enemy that the 'Something Shiny' ability distracts, not a clickable NPC. It should stay client_reported, or be handled as a server-side enemy spawn if one exists.",
+  "reason": "Neither direct_matches nor nearby_spawns contain any goblin, Robgoblin, or Troublemaker entry; the 60 m list around Coach Eddie and Manager Landon holds only farm props (Spiralmint, Stainberry, Starnut, Snowberry plants), farmers, a cow, a chicken, and Perry. Per the earlier note, the Troublemaker label is not in the locale and the only candidate (Robgoblin Soccer Hooligan 406614) has no NPC row, so no spawn can be chosen."
+ },
+ {
+  "id": "q3140027-o1",
+  "status": "not_in_reference",
+  "target": "Lika",
+  "spawns": [],
+  "kind_check": "client_reported: the pack's interact_npc classification does not fit. 'Pour ants on Lika' is a world-target action (the earlier note agrees), so keep it client_reported unless a Lika actor is confirmed.",
+  "reason": "No spawn in direct_matches or nearby_spawns is named Lika, and none has a model that plausibly represents her. The nearby entries are Rocken (dwarf_rocken_m.adr), Tinklycrown (sprite_tinklycrown_m.adr) and Quills (fairy_sanctuary_f.adr), which are other characters or creatures. The only candidate, an unnamed human_f_diana.adr at ref 2439 about 17.5 m from Coach Eddie, is just a generic female human model with no name, so picking it would be a guess based on distance and gender."
+ },
+ {
+  "id": "q3140027-o2",
+  "status": "not_in_reference",
+  "target": "Kronk",
+  "spawns": [],
+  "kind_check": "interact_npc: keep, but no reference actor exists for Kronk to place",
+  "reason": "The objective asks the player to pour ants on Kronk, but no spawn in the pack is named Kronk and direct_matches is empty. The nearby spawns within 60 m of Coach \"Golden Leg\" Eddie are unnamed or differently named (human_f_diana.adr at ref 2439, Rocken at 2440, Tinklycrown at 2438, Quills at 2352), and none plausibly models Kronk, so I did not pick any of them."
+ },
+ {
+  "id": "q3140027-o3",
+  "status": "not_in_reference",
+  "target": "Grick",
+  "spawns": [],
+  "kind_check": "interact_npc: keep (the player pours ants on Grick, so Grick must be a clickable NPC actor)",
+  "reason": "No spawn named Grick or with a Grick model appears in direct_matches, and none of the 60 m nearby_spawns around Coach \"Golden Leg\" Eddie carries that name. The nearest candidates (Diana, Rocken, Tinklycrown, Quills) are unrelated NPCs or creatures, so I cannot place Grick from these lists."
+ },
+ {
+  "id": "q3150008-o0",
+  "status": "resolved",
+  "target": "Braldan Stoneaxe",
+  "spawns": [
+   {
+    "ref_id": 2192,
+    "name": "Braldan Stoneaxe",
+    "model": "dwarf_miner_m.adr",
+    "position": [
+     -1105.081,
+     -40.36923,
+     -482.7571
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:944"
+   }
+  ],
+  "kind_check": "visit_position: keep, with the spawn marking the place to reach Braldan (or talk_to_npc if the server treats him as the talk target; the text says to get the tools back from him, so talk_to_npc is the closer fit to the action)",
+  "reason": "The objective names Braldan Stoneaxe, and the only spawn with that client name is ref 2192 (dwarf_miner_m.adr) at the exact coordinates the earlier note said were missing, so the position is now available in the reference. This overlaps objective 1, which already has him as a talk target, so the duplicate step may be redundant rather than wrong."
+ },
+ {
+  "id": "q3160012-o2",
+  "status": "resolved",
+  "target": "Morgulg",
+  "spawns": [
+   {
+    "ref_id": 3576,
+    "name": "Morgulg",
+    "model": "chugawug_m_02.adr",
+    "position": [
+     518.2869,
+     57.4627,
+     459.0463
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2319"
+   }
+  ],
+  "kind_check": "talk_to_npc",
+  "reason": "The objective is to talk to Morgulg, and the only direct match is the reference NPC named Morgulg (chugawug_m_02.adr, ref 3576) at [518.2869, 57.4627, 459.0463]; no other spawn in the pack carries that name or a fitting model. The wiki's note that his location varies with progress is not checked here, since the pack lists only this one stage spawn."
+ },
+ {
+  "id": "q3160021-o0",
+  "status": "resolved",
+  "target": "Iliya",
+  "spawns": [
+   {
+    "ref_id": 1549,
+    "name": "Iliya",
+    "model": "human_f_iliya.agr",
+    "position": [
+     -2030.257,
+     -32.64438,
+     1178.806
+    ],
+    "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:316"
+   }
+  ],
+  "kind_check": "talk_to_npc",
+  "reason": "The only spawn named Iliya in the reference is ref 1549 (human_f_iliya.agr, name_id 45777), an exact name and model match for the talk target. Caveat: it sits about 800 m from the Sandbur anchor, and the earlier note places Iliya in Mire's Edge rather than Blackspore, so the zone should be checked before wiring, though the name match is exact and no other candidate exists."
+ },
+ {
+  "id": "q3160032-o0",
+  "status": "not_in_reference",
+  "target": "Foreman Ironfist (talk) / Haunted Mines (Blackspore Swamp)",
+  "spawns": [],
+  "kind_check": "talk_to_npc: keep the talk to Foreman Ironfist (npc_id 9500000027). The Haunted Mines travel leg has no reference spawn, so it cannot be placed as a visit_position.",
+  "reason": "No reference spawn is named or modelled as Foreman Ironfist, and no spawn marks the Haunted Mines. The nearby spawns around his anchor (position -2587.7, -19.1, 1021.5) are generic ghostdwarf_m_miner_01, necrowartzombie_03, blackwidow_01 and human_blackspore_miner_m props and creatures, which do not fit a named foreman, so picking one would be a guess."
+ }
+]

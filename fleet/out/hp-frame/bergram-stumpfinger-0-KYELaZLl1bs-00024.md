@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-0-KYELaZLl1bs-00024 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3158, 4, 962] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger KYELaZLl1bs 24s
+
+{"screen": "combat", "target": {"name": "Bergram Stumpfinger", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Boss Bergram Stumpfinger is on screen with its name over a ghostly figure and a boss bar at top reading full; a dialog line 'You dare disturb my bones?' is shown; the player is in a blue-effect attack near it. Level and exact bar fraction over the name are not clearly legible."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-2-BJy3sgpdqpw-00172 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3153, 4, 1125] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 172s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.35}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "Health bar (about 35% green) sits over an unnamed creature; no legible 'Ocean Cray Defender' name is above it. Large 'Ocean Cray...ound' text is the zone banner, not the enemy. Floating yellow numbers are illegible, so none reported."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-roughguard-1-xYD0YcUvyzI-00376 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2765, 4, 1070] model=claude-haiku-5-5 -->
+# Troll Roughguard xYD0YcUvyzI 376s
+
+{"screen": "combat", "target": {"name": "Troll Roughguard", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 158, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Cyliena Velnarin", "level": 17, "job": "Medic", "health_fraction": null}, "target_defeated": false, "notes": "Troll Roughguard is shown at right with a sparkle ring and no visible health bar; the -158 yellow hit lands on a creature at left, not clearly the target. Target level and health are not legible."}

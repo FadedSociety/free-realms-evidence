@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=counselor-tyra-0-L27vxozHOls-00096 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2743, 4, 1035] model=claude-haiku-5-5 -->
+# Counselor Tyra L27vxozHOls 96s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 1.0}], "damage_numbers": [{"value": -2290, "on": "player", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Keith Silvernight", "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Counselor Tyra appears only as a subtitle line (\"If you're going after Bigfoot I've got your back!\") during a fight with unnamed bears in Bigfoot's Lair; no Tyra nameplate or health bar is visible, so the picked enemy cannot be measured in this frame."}

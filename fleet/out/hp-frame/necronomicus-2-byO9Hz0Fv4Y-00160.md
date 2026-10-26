@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-2-byO9Hz0Fv4Y-00160 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 2744, 4, 1256] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 160s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Zombie Portal", "health_fraction": null}], "damage_numbers": [{"value": 2739, "on": "other", "color": "yellow"}, {"value": 255, "on": "other", "color": "yellow"}], "attackers_visible": 2, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Necronomicus Unleashed instance; players attack a Zombie Portal, Necronomicus itself is not legibly on screen (only the 'Defeat Necronomicus' goal panel)."}

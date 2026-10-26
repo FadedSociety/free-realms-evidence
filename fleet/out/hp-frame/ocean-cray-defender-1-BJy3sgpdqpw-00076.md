@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-1-BJy3sgpdqpw-00076 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 954] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 76s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Defender", "level": null, "health_fraction": 0.75, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 151, "on": "target", "color": "red"}, {"value": 123, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player (Ninja) attacks Ocean Cray Defender; its green/red health bar is about three-quarters full after red 151 and yellow -123 hits; a second red number overlaps and is not legible."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hooligan-wolf-0-aAwG5ZoXaeY-00032 status=nothing_found turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2920, 4, 918] model=claude-haiku-5-5 -->
+# Hooligan Wolf aAwG5ZoXaeY 32s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": 1.0, "health_text": "2000/2000"}, "target_defeated": false, "notes": "Player is piloting a red jet-style vehicle (Exo label above it, 'Demo Derby Driver' bar at top left); no Hooligan Wolf name or health bar is legible in this frame. A creature with an explosion is partly visible at the far left edge but its name is unreadable, and a quest tracker shows a distance of about 129m."}

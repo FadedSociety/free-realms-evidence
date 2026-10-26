@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=the-pumpkin-prince-0-0LoQe5VZ0PY-00098 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2752, 4, 725] model=claude-haiku-5-5 -->
+# The Pumpkin Prince 0LoQe5VZ0PY 98s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Blizzardus Snow", "level": 20, "job": "Brawler", "health_fraction": 1.0}, "target_defeated": false, "notes": "'The Pumpkin Prince' appears only in the top-center name banner and chat, and 'Goal Complete: Defeat the Pumpkin Prince' is shown; no health bar or creature name is legible above an enemy, and no falling or fading enemy is shown, so the target fields are null."}

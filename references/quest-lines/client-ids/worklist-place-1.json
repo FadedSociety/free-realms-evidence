@@ -1,0 +1,562 @@
+[
+ {
+  "quest_id": 3000003,
+  "quest": "q3000003",
+  "title": "Hero's Journal",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 5100520,
+  "text": "Enter Briarwood Caverns",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 5100520
+  },
+  "gap": "objective 0: place 'Briarwood Caverns' has no position in our data"
+ },
+ {
+  "quest_id": 3000003,
+  "quest": "q3000003",
+  "title": "Hero's Journal",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 4419598,
+  "text": "Find the Hero's Journal",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 4419598
+  },
+  "gap": "objective 1: place \"Hero's Journal\" has no position in our data"
+ },
+ {
+  "quest_id": 3000004,
+  "quest": "q3000004",
+  "title": "The Last Best Hope",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 4419568,
+  "text": "Look at the first globe",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 4419568
+  },
+  "gap": "objective 2: place None has no position in our data"
+ },
+ {
+  "quest_id": 3000004,
+  "quest": "q3000004",
+  "title": "The Last Best Hope",
+  "objective": 3,
+  "kind": "visit_position",
+  "text_string_id": 4419570,
+  "text": "Look at the second globe",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 4419570
+  },
+  "gap": "objective 3: place None has no position in our data"
+ },
+ {
+  "quest_id": 3000004,
+  "quest": "q3000004",
+  "title": "The Last Best Hope",
+  "objective": 4,
+  "kind": "visit_position",
+  "text_string_id": 4419572,
+  "text": "Look at the third globe",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 4419572
+  },
+  "gap": "objective 4: place None has no position in our data"
+ },
+ {
+  "quest_id": 3000004,
+  "quest": "q3000004",
+  "title": "The Last Best Hope",
+  "objective": 5,
+  "kind": "visit_position",
+  "text_string_id": 4419576,
+  "text": "Move past the first barrier",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 4419576
+  },
+  "gap": "objective 5: place None has no position in our data"
+ },
+ {
+  "quest_id": 3000004,
+  "quest": "q3000004",
+  "title": "The Last Best Hope",
+  "objective": 6,
+  "kind": "visit_position",
+  "text_string_id": 4419578,
+  "text": "Move past the second barrier",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 4419578
+  },
+  "gap": "objective 6: place None has no position in our data"
+ },
+ {
+  "quest_id": 3000004,
+  "quest": "q3000004",
+  "title": "The Last Best Hope",
+  "objective": 7,
+  "kind": "visit_position",
+  "text_string_id": 4419580,
+  "text": "Move past the third barrier",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 4419580
+  },
+  "gap": "objective 7: place None has no position in our data"
+ },
+ {
+  "quest_id": 3000014,
+  "quest": "q3000014",
+  "title": "Off to the Queen",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 4420119,
+  "text": "Enter the Royal Palace",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 4420119
+  },
+  "gap": "objective 0: place 'Royal Palace' has no position in our data"
+ },
+ {
+  "quest_id": 3000018,
+  "quest": "q3000018",
+  "title": "Peep's Missing Bowl",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 37703,
+  "text": "Search the Farmstead for Peep's Dog Bowl.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 37703
+  },
+  "gap": "objective 0: place \"Peep's Dog Bowl\" has no position in our data"
+ },
+ {
+  "quest_id": 3000023,
+  "quest": "q3000023",
+  "title": "Wilbur's Trouble",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 45861,
+  "text": "Make sure Wilbur is okay",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 45861
+  },
+  "gap": "objective 2: place 'Wilbur' has no position in our data"
+ },
+ {
+  "quest_id": 3000031,
+  "quest": "q3000031",
+  "title": "Chapter 1: Good Help is Hard to Find",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 90692,
+  "text": "Find Guard Glibbin",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90692
+  },
+  "gap": "objective 1: place 'Guard Glibbin' has no position in our data"
+ },
+ {
+  "quest_id": 3000031,
+  "quest": "q3000031",
+  "title": "Chapter 1: Good Help is Hard to Find",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 90694,
+  "text": "Find Guard Forbi",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90694
+  },
+  "gap": "objective 2: place 'Guard Forbi' has no position in our data"
+ },
+ {
+  "quest_id": 3000031,
+  "quest": "q3000031",
+  "title": "Chapter 1: Good Help is Hard to Find",
+  "objective": 3,
+  "kind": "visit_position",
+  "text_string_id": 90696,
+  "text": "Find Guard Nibbs",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90696
+  },
+  "gap": "objective 3: place 'Guard Nibbs' has no position in our data"
+ },
+ {
+  "quest_id": 3000031,
+  "quest": "q3000031",
+  "title": "Chapter 1: Good Help is Hard to Find",
+  "objective": 4,
+  "kind": "visit_position",
+  "text_string_id": 90698,
+  "text": "Find Guard Verbi",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90698
+  },
+  "gap": "objective 4: place 'Guard Verbi' has no position in our data"
+ },
+ {
+  "quest_id": 3000033,
+  "quest": "q3000033",
+  "title": "Chapter 1: Rumors of Briarwood",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 90740,
+  "text": "Scout the entrance of the Hedge Maze",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90740
+  },
+  "gap": "objective 0: place 'Hedge Maze entrance' has no position in our data"
+ },
+ {
+  "quest_id": 3000033,
+  "quest": "q3000033",
+  "title": "Chapter 1: Rumors of Briarwood",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 90748,
+  "text": "Scout the east exit of the Hedge Maze",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90748
+  },
+  "gap": "objective 2: place 'Hedge Maze east exit' has no position in our data"
+ },
+ {
+  "quest_id": 3000033,
+  "quest": "q3000033",
+  "title": "Chapter 1: Rumors of Briarwood",
+  "objective": 4,
+  "kind": "visit_position",
+  "text_string_id": 90752,
+  "text": "Scout the northeast exit of the Hedge Maze",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90752
+  },
+  "gap": "objective 4: place 'Hedge Maze northeast exit' has no position in our data"
+ },
+ {
+  "quest_id": 3000034,
+  "quest": "q3000034",
+  "title": "Chapter 1: Shrouded History",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 90777,
+  "text": "Find information about Darkthorne in Shrouded Glade.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90777
+  },
+  "gap": "objective 0: place 'Shrouded Glade' has no position in our data"
+ },
+ {
+  "quest_id": 3000036,
+  "quest": "q3000036",
+  "title": "Chapter 1: Find The Caravan!",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 90823,
+  "text": "Locate the merchant caravan that left for Briarwood.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90823
+  },
+  "gap": "objective 0: place 'merchant caravan' has no position in our data"
+ },
+ {
+  "quest_id": 3000037,
+  "quest": "q3000037",
+  "title": "Chapter 1: The Weapon Shipment",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 90836,
+  "text": "Venture into Briarwood to find the stolen weapon shipment.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90836
+  },
+  "gap": "objective 0: place 'Briarwood' has no position in our data"
+ },
+ {
+  "quest_id": 3000048,
+  "quest": "q3000048",
+  "title": "Chapter 1: Haunted by the Past",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 90949,
+  "text": "Search for Eggert the Mad in the graveyard in southern Blackspore.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90949
+  },
+  "gap": "objective 0: place 'Blackspore graveyard' has no position in our data"
+ },
+ {
+  "quest_id": 3000050,
+  "quest": "q3000050",
+  "title": "Chapter 1: The Queen's Last Hope",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 90976,
+  "text": "Hurry back to the Royal Palace",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90976
+  },
+  "gap": "objective 1: place 'Royal Palace' has no position in our data"
+ },
+ {
+  "quest_id": 3000051,
+  "quest": "q3000051",
+  "title": "Belated Bonny",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 391221,
+  "text": "Find Bonny near the water around Sanctuary.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 391221
+  },
+  "gap": "objective 0: place 'Bonny' has no position in our data"
+ },
+ {
+  "quest_id": 3000057,
+  "quest": "q3000057",
+  "title": "To Coin a Phrase",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 5100421,
+  "text": "Lucky needs your help to find his lucky coin. While wearing his lucky hat search Sacred Grove for one of his golden pots.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 5100421
+  },
+  "gap": "objective 0: place \"Lucky's golden pot\" has no position in our data"
+ },
+ {
+  "quest_id": 3000320,
+  "quest": "q3000320",
+  "title": "Welcome to Seaside",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 93294,
+  "text": "Take a look at the view",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 93294
+  },
+  "gap": "objective 0: place 'Overlook' has no position in our data"
+ },
+ {
+  "quest_id": 3000322,
+  "quest": "q3000322",
+  "title": "Touring Seaside",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 93427,
+  "text": "Find The Boardwalk",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 93427
+  },
+  "gap": "objective 1: place 'Boardwalk' has no position in our data"
+ },
+ {
+  "quest_id": 3010012,
+  "quest": "q3010012",
+  "title": "Archer: Archer Departure",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 77598,
+  "text": "Hilforn wants you to travel to Farnum Farmstead to see if you can find Vicki, another archer recruit.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 77598
+  },
+  "gap": "objective 0: place 'Farnum Farmstead' has no position in our data"
+ },
+ {
+  "quest_id": 3010013,
+  "quest": "q3010013",
+  "title": "Archer: No Arrows, No Work!",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 93257,
+  "text": "Head into Sheep Watch to retrieve Vicki's arrows.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 93257
+  },
+  "gap": "objective 0: place 'Sheep Watch' has no position in our data"
+ },
+ {
+  "quest_id": 3010014,
+  "quest": "q3010014",
+  "title": "Archer: No Bow, No Work!",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 115487,
+  "text": "As an archer, enter Highroad Hijinx and get back Vicki's bow. While you're in there, defeat a few Hooligan Archers!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 115487
+  },
+  "gap": "objective 0: place 'Highroad Hijinx' has no position in our data"
+ },
+ {
+  "quest_id": 3010021,
+  "quest": "q3010021",
+  "title": "Archer: Suspicious Smugglers",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 77823,
+  "text": "Bowman Bilter has seen some suspicious beings loading up crates and transporting animals in cages to the mountains in the east. He would like for you to see what they are up to.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 77823
+  },
+  "gap": "objective 0: place 'Briarwood' has no position in our data"
+ },
+ {
+  "quest_id": 3010022,
+  "quest": "q3010022",
+  "title": "Archer: Animal Investigation",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 77828,
+  "text": "Travel to the Durango Zoo and speak with Mr. Miles to see if he has any information about the smugglers.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 77828
+  },
+  "gap": "objective 0: place 'Durango Zoo' has no position in our data"
+ },
+ {
+  "quest_id": 3010027,
+  "quest": "q3010027",
+  "title": "Archer: Finding Vicki",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 78444,
+  "text": "Orson wants you to search around Briarwood to see if Vicki is here to collect more toads to smuggle. Return to Orson if you find her.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 78444
+  },
+  "gap": "objective 0: place 'Vicki' has no position in our data"
+ },
+ {
+  "quest_id": 3010027,
+  "quest": "q3010027",
+  "title": "Archer: Finding Vicki",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 78452,
+  "text": "You must find Vicki! Reports indicate that she was last seen near the border to Nettleseed.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 78452
+  },
+  "gap": "objective 1: place 'Nettleseed border' has no position in our data"
+ },
+ {
+  "quest_id": 3010031,
+  "quest": "q3010031",
+  "title": "Contract: That'll Teach 'Em",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 388489,
+  "text": "Smugglers can be found wandering throughout the northern section of Briarwood.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 388489
+  },
+  "gap": "objective 1: place 'northern Briarwood' has no position in our data"
+ },
+ {
+  "quest_id": 3010031,
+  "quest": "q3010031",
+  "title": "Contract: That'll Teach 'Em",
+  "objective": 3,
+  "kind": "visit_position",
+  "text_string_id": 388491,
+  "text": "Trappers can be found in the Croaking Vale.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 388491
+  },
+  "gap": "objective 3: place 'Croaking Vale' has no position in our data"
+ },
+ {
+  "quest_id": 3020013,
+  "quest": "q3020013",
+  "title": "Blacksmith: Supply Delivery",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 94377,
+  "text": "Locate Supply Master Leo in Southvale, and give him the scalpels. Southvale is far to the south, by the path leading to Lavender Coast.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 94377
+  },
+  "gap": "objective 2: place 'Southvale' has no position in our data"
+ },
+ {
+  "quest_id": 3020026,
+  "quest": "q3020026",
+  "title": "Blacksmith: Lady of the Lake",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 100282,
+  "text": "Locate the lost sword, Summersaber, at its final dwelling place somewhere in Blackspore.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 100282
+  },
+  "gap": "objective 0: place 'Blackspore' has no position in our data"
+ },
+ {
+  "quest_id": 3030002,
+  "quest": "q3030002",
+  "title": "The \"Hands On\" Method",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 45316,
+  "text": "Enter the Picnic Yard",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 45316
+  },
+  "gap": "objective 1: place 'Picnic Yard' has no position in our data"
+ },
+ {
+  "quest_id": 3030011,
+  "quest": "q3030011",
+  "title": "Brawler: Restless Rumors",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 104147,
+  "text": "Harold's twin brother Gerold is having some trouble with wolves south of Snowhill. Find him and see what you can do to help!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 104147
+  },
+  "gap": "objective 0: place 'Gerold' has no position in our data"
+ }
+]

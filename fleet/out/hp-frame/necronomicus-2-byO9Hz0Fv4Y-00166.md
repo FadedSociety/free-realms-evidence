@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-2-byO9Hz0Fv4Y-00166 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2744, 4, 901] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 166s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Zombie Portal", "health_fraction": 0.95}], "damage_numbers": [{"value": 283, "on": "other", "color": "orange"}, {"value": 255, "on": "other", "color": "orange"}], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Necronomicus Unleashed event fight; the large dark tentacled boss is in view but no name label or health bar is shown above it, so the picked enemy cannot be read here. The visible labelled bar is Zombie Portal."}

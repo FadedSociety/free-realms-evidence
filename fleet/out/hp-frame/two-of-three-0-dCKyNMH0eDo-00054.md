@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=two-of-three-0-dCKyNMH0eDo-00054 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2734, 4, 1090] model=claude-haiku-5-5 -->
+# Two of Three dCKyNMH0eDo 54s
+
+{"screen": "combat", "target": {"name": "Two of Three", "level": 20, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.75}, "target_defeated": false, "notes": "Two of Three (level 20) stands on grass with a green health bar above its name; a 'Press X or mouse' interact prompt is shown over it. Player's HP bar reads 6532/8540 (the player's, not the target's). Yellow system text says not enough energy for abilities. Target bar is small, so the fraction is approximate."}

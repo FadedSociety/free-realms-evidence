@@ -1,0 +1,34 @@
+[
+ {
+  "npc_id": 9500000244,
+  "name": "Aunt Daisy",
+  "zone": "Cobblestone Village",
+  "position": [
+   -2183.565,
+   -31.23667,
+   341.9566
+  ],
+  "heading": -1.947352,
+  "model": "human_f_aunt_daisy.agr",
+  "model_id": 491,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1959",
+  "near_zone": "Farnum Farmstead",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000253,
+  "name": "One of Three",
+  "zone": "Cobblestone Village",
+  "position": [
+   -2020.201,
+   -33.10506,
+   550.6256
+  ],
+  "heading": -2.629269,
+  "model": "human_m_wraith_white.agr",
+  "model_id": 4564,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2833",
+  "near_zone": null,
+  "quests_waiting": []
+ }
+]

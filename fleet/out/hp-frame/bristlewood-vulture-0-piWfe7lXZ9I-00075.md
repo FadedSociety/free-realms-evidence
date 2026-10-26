@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bristlewood-vulture-0-piWfe7lXZ9I-00075 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3153, 4, 660] model=claude-haiku-5-5 -->
+# Bristlewood Vulture piWfe7lXZ9I 75s
+
+{"screen": "world", "target": {"name": "Bristlewood Vulture", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Meagan Wolfchampion", "level": 20, "job": "Card Duelist", "health_fraction": null}, "target_defeated": false, "notes": "Player rides a purple dragon mount over a blue swamp area. Bristlewood Vulture appears only as a tracker label with a distance and red arrow marker, with no health bar. Nearby labels (Private Driple 20m, Mary 58m) are also trackers. Player is typing in chat."}

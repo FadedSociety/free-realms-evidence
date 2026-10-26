@@ -1,0 +1,642 @@
+[
+ {
+  "quest_id": 3000001,
+  "quest": "q3000001",
+  "title": "Basic Combat Tutorial",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 4419586,
+  "text": "Defeat gloam minions",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 4419586,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Gloam minions' has no model_id in our data"
+ },
+ {
+  "quest_id": 3000004,
+  "quest": "q3000004",
+  "title": "The Last Best Hope",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 4419610,
+  "text": "Defend Darkthorne from the Gloam",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 4419610,
+   "model_id": null,
+   "count": 3
+  },
+  "gap": "objective 0: defeat target 'Gloam' has no model_id in our data"
+ },
+ {
+  "quest_id": 3000019,
+  "quest": "q3000019",
+  "title": "Portal Remnants",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 5101948,
+  "text": "Defeat Gloamlings",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 5101948,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target None has no model_id in our data"
+ },
+ {
+  "quest_id": 3000024,
+  "quest": "q3000024",
+  "title": "Local Hero",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 389192,
+  "text": "Defeat the Thugawug Thug in south Greenwood Forest.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 389192,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Thugawug Thug' has no model_id in our data"
+ },
+ {
+  "quest_id": 3000032,
+  "quest": "q3000032",
+  "title": "Chapter 1: Thugamug's Thievery",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 90715,
+  "text": "Defeat Thugamug and his two Hands",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 90715,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Thugamug' has no model_id in our data"
+ },
+ {
+  "quest_id": 3000040,
+  "quest": "q3000040",
+  "title": "Chapter 1: There's Fungus Among Us!",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 90877,
+  "text": "Defeat Fungus Golems in the Mushroom Cavern.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 90877,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Fungus Golem' has no model_id in our data"
+ },
+ {
+  "quest_id": 3000041,
+  "quest": "q3000041",
+  "title": "Chapter 1: It's Business Time",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 90896,
+  "text": "Defeat the floren inside of Bristlewood Glade.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 90896,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Grumpy Amaranthus' has no model_id in our data"
+ },
+ {
+  "quest_id": 3000049,
+  "quest": "q3000049",
+  "title": "Chapter 1: The Alchemy of Betrayal",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 90958,
+  "text": "Defeat Vittorio, Randall, and Dimitri and take back the plant they stole from you.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 90958,
+   "model_id": null,
+   "count": 3
+  },
+  "gap": "objective 0: defeat target 'Vittorio, Randall, Dimitri' has no model_id in our data"
+ },
+ {
+  "quest_id": 3000049,
+  "quest": "q3000049",
+  "title": "Chapter 1: The Alchemy of Betrayal",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 90962,
+  "text": "Defeat the mercenaries before they escape the Blackspore graveyard.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 90962,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target None has no model_id in our data"
+ },
+ {
+  "quest_id": 3000050,
+  "quest": "q3000050",
+  "title": "Chapter 1: The Queen's Last Hope",
+  "objective": 3,
+  "kind": "defeat",
+  "text_string_id": 90980,
+  "text": "Defeat Geoffrey to protect the Queen",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 90980,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 3: defeat target 'Geoffrey' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010005,
+  "quest": "q3010005",
+  "title": "Archer: Taking Aim",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 76957,
+  "text": "Defeat Thugawug Fumblers in Greenwood Forest as an archer.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 76957,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Thugawug Fumblers' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010018,
+  "quest": "q3010018",
+  "title": "Contract: Bowman for Hire",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 388262,
+  "text": "As an archer, defeat Thugawug Sneaks that wander the wilderness, and some Shadow Talon Apprentices in Danger Peaks. Return to Eddie when done.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388262,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Thugawug Sneak; Shadow Talon Apprentice' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010018,
+  "quest": "q3010018",
+  "title": "Contract: Bowman for Hire",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 388263,
+  "text": "Defeat Shadow Talon Apprentices",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388263,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Shadow Talon Apprentice' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010018,
+  "quest": "q3010018",
+  "title": "Contract: Bowman for Hire",
+  "objective": 2,
+  "kind": "defeat",
+  "text_string_id": 388267,
+  "text": "Defeat Unruly Warriors",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388267,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: defeat target 'Unruly Warrior' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010018,
+  "quest": "q3010018",
+  "title": "Contract: Bowman for Hire",
+  "objective": 3,
+  "kind": "defeat",
+  "text_string_id": 388269,
+  "text": "Defeat Unruly Mages",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388269,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 3: defeat target 'Unruly Mage' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010025,
+  "quest": "q3010025",
+  "title": "Contract: No Boundaries on Bounties",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 388342,
+  "text": "Defeat Vicious Vinewolves",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388342,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Vicious Vinewolf' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010025,
+  "quest": "q3010025",
+  "title": "Contract: No Boundaries on Bounties",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 388338,
+  "text": "Defeat Maze Vipers",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388338,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Maze Viper' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010025,
+  "quest": "q3010025",
+  "title": "Contract: No Boundaries on Bounties",
+  "objective": 2,
+  "kind": "defeat",
+  "text_string_id": 388340,
+  "text": "Defeat Hedge Guardians",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388340,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: defeat target 'Hedge Guardian' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010028,
+  "quest": "q3010028",
+  "title": "Archer: Remain Vigilant",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 78449,
+  "text": "Orson would like for you to travel to the Croaking Vale in Briarwood and defeat the bosses of the smuggling operation.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 78449,
+   "model_id": null,
+   "count": 2
+  },
+  "gap": "objective 0: defeat target 'Smuggler Han and Smuggler Hannah' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010031,
+  "quest": "q3010031",
+  "title": "Contract: That'll Teach 'Em",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 388488,
+  "text": "Defeat Smugglers",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388488,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Smugglers' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010031,
+  "quest": "q3010031",
+  "title": "Contract: That'll Teach 'Em",
+  "objective": 2,
+  "kind": "defeat",
+  "text_string_id": 388490,
+  "text": "Defeat Trappers",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388490,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: defeat target 'Trappers' has no model_id in our data"
+ },
+ {
+  "quest_id": 3010033,
+  "quest": "q3010033",
+  "title": "Archer: Can You Hit a Bullseye?",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 78486,
+  "text": "Bullseye wants you to defeat him in one on one combat to prove that you are capable of being the new protector of the Sacred Glade.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 78486,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Bullseye' has no model_id in our data"
+ },
+ {
+  "quest_id": 3020035,
+  "quest": "q3020035",
+  "title": "Blacksmith: Crackin’ Skullz",
+  "objective": 3,
+  "kind": "defeat",
+  "text_string_id": 439763,
+  "text": "Collect Tin Ore, Manguana Tribal Necklaces and defeat Skullz Brawlers.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 439763,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 3: defeat target 'Skullz Brawler' has no model_id in our data"
+ },
+ {
+  "quest_id": 3030004,
+  "quest": "q3030004",
+  "title": "Brawler: Bringing Back Brazenfist",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 94586,
+  "text": "Defeat Mongo in the brawling ring",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 94586,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Mongo' has no model_id in our data"
+ },
+ {
+  "quest_id": 3030012,
+  "quest": "q3030012",
+  "title": "Brawler: Growler Encroachment",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 104149,
+  "text": "Frostfang wolves are dangerous! They've wandered too far from their lair, and I need to push them back.<BR><BR>Will you help me by <font color='#D9781A'>defeating</font> a few <font color='#D9781A'>Frostfang Growlers</font>?",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 104149,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Frostfang Growlers' has no model_id in our data"
+ },
+ {
+  "quest_id": 3030038,
+  "quest": "q3030038",
+  "title": "Brawler: Confronting the Crook",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 100320,
+  "text": "Defeat Sampson Idlefist in battle!",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 100320,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Sampson Idlefist' has no model_id in our data"
+ },
+ {
+  "quest_id": 3040061,
+  "quest": "q3040061",
+  "title": "Card Duelist: Quizzical Yucca",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 5100243,
+  "text": "Defeat Quizzical Yucca's Trick Deck",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 5100243,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target \"Quizzical Yucca's Trick Deck\" has no model_id in our data"
+ },
+ {
+  "quest_id": 3040061,
+  "quest": "q3040061",
+  "title": "Card Duelist: Quizzical Yucca",
+  "objective": 2,
+  "kind": "defeat",
+  "text_string_id": 5100241,
+  "text": "Defeat Quizzical Yucca's Resource Deck",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 5100241,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: defeat target \"Quizzical Yucca's Resource Deck\" has no model_id in our data"
+ },
+ {
+  "quest_id": 3040061,
+  "quest": "q3040061",
+  "title": "Card Duelist: Quizzical Yucca",
+  "objective": 3,
+  "kind": "defeat",
+  "text_string_id": 5100245,
+  "text": "Defeat Quizzical Yucca's Creature Deck",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 5100245,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 3: defeat target \"Quizzical Yucca's Creature Deck\" has no model_id in our data"
+ },
+ {
+  "quest_id": 3040061,
+  "quest": "q3040061",
+  "title": "Card Duelist: Quizzical Yucca",
+  "objective": 4,
+  "kind": "defeat",
+  "text_string_id": 5100247,
+  "text": "Defeat Quizzical Yucca's Tournament Deck",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 5100247,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 4: defeat target \"Quizzical Yucca's Tournament Deck\" has no model_id in our data"
+ },
+ {
+  "quest_id": 3040062,
+  "quest": "q3040062",
+  "title": "Card Duelist: Ironteeth",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 5100255,
+  "text": "Defeat Ironteeth's Resource Desk",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 5100255,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target \"Ironteeth's Resource Deck\" has no model_id in our data"
+ },
+ {
+  "quest_id": 3040062,
+  "quest": "q3040062",
+  "title": "Card Duelist: Ironteeth",
+  "objective": 2,
+  "kind": "defeat",
+  "text_string_id": 5100257,
+  "text": "Defeat Ironteeth's Trick Deck",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 5100257,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: defeat target \"Ironteeth's Trick Deck\" has no model_id in our data"
+ },
+ {
+  "quest_id": 3040062,
+  "quest": "q3040062",
+  "title": "Card Duelist: Ironteeth",
+  "objective": 3,
+  "kind": "defeat",
+  "text_string_id": 5100259,
+  "text": "Defeat Ironteeth's Creature Deck",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 5100259,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 3: defeat target \"Ironteeth's Creature Deck\" has no model_id in our data"
+ },
+ {
+  "quest_id": 3040062,
+  "quest": "q3040062",
+  "title": "Card Duelist: Ironteeth",
+  "objective": 4,
+  "kind": "defeat",
+  "text_string_id": 5100261,
+  "text": "Defeat Ironteeth's Tournament Deck",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 5100261,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 4: defeat target \"Ironteeth's Tournament Deck\" has no model_id in our data"
+ },
+ {
+  "quest_id": 3060010,
+  "quest": "q3060010",
+  "title": "Demo Derby: Spare Parts",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 395062,
+  "text": "Knock out Willow Slamdash 2 times",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 395062,
+   "model_id": null,
+   "count": 2
+  },
+  "gap": "objective 1: defeat target 'Willow Slamdash' has no model_id in our data"
+ },
+ {
+  "quest_id": 3060015,
+  "quest": "q3060015",
+  "title": "Demo Derby: Arena Revenge",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 395064,
+  "text": "Knock out Nash Wright",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 395064,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Nash Wright' has no model_id in our data"
+ },
+ {
+  "quest_id": 3060015,
+  "quest": "q3060015",
+  "title": "Demo Derby: Arena Revenge",
+  "objective": 2,
+  "kind": "defeat",
+  "text_string_id": 401630,
+  "text": "Knock out Samuel L. Bunker",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 401630,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: defeat target 'Samuel L. Bunker' has no model_id in our data"
+ },
+ {
+  "quest_id": 3060015,
+  "quest": "q3060015",
+  "title": "Demo Derby: Arena Revenge",
+  "objective": 3,
+  "kind": "defeat",
+  "text_string_id": 394465,
+  "text": "Teach Nash and his crew a lesson by knocking out every one of their cars.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 394465,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 3: defeat target 'Nash and his crew' has no model_id in our data"
+ },
+ {
+  "quest_id": 3060023,
+  "quest": "q3060023",
+  "title": "Demo Derby: Taking on the Tank",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 394034,
+  "text": "Defeat Claudio DeMarco and his trouble-causing minions in a Frost Ridge demo derby!",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 394034,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Claudio DeMarco and minions' has no model_id in our data"
+ },
+ {
+  "quest_id": 3060023,
+  "quest": "q3060023",
+  "title": "Demo Derby: Taking on the Tank",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 400904,
+  "text": "Knock out Claudio 'The Tank' DeMarco",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 400904,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Claudio DeMarco' has no model_id in our data"
+ }
+]

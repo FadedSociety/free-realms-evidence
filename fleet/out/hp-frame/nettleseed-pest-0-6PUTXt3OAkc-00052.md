@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-pest-0-6PUTXt3OAkc-00052 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2749, 4, 604] model=claude-haiku-5-5 -->
+# Nettleseed Pest 6PUTXt3OAkc 52s
+
+{"screen": "dialog_or_menu", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "A pet-selection menu (Bat, Big Dakota, Chicken, etc.) covers the top of the screen; a pink tentacled creature sits behind it with no legible name or health bar. The only name visible is the player 'Jason Shadowz <Eclipse Werewolf Pack>' in yellow, which is a player, not Nettleseed Pest."}

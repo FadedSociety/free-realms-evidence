@@ -1,0 +1,17 @@
+<!-- fleet job=testaudit-infer id=piece_042-v1 status=done turns=2 usd=0.0030 tokens(read,write,in,out)=[8982, 15375, 6, 2032] model=claude-haiku-5-5 -->
+# tests/piece_042.rs
+
+{"file": "tests/piece_042.rs",
+ "tests": [
+  {"name": "job_identity_matches_the_recovered_locale_and_profile_rows", "verdict": "keep", "covered_by": null, "reason": "Only test that drives job_progression() for profiles 4 and 52 and asserts name/name_id/hint/profile_type. No other test file includes src/restoration/piece_042.rs. piece_031 carries a similar locale table but never calls job_progression."},
+  {"name": "locale_validation_passes_on_the_recovered_locale_and_fails_on_drift", "verdict": "keep", "covered_by": null, "reason": "Drift and missing-string refusal checks for validate_locale. These are refusal checks with no equivalent elsewhere, so they stay."},
+  {"name": "level_milestones_keep_their_recovered_levels_and_ids", "verdict": "keep", "covered_by": null, "reason": "Asserts the Postman and Soccer milestone levels, ids and milestone_reached boundaries. Unique to this module."},
+  {"name": "postman_training_gates_name_the_recovered_trainers", "verdict": "keep", "covered_by": null, "reason": "Checks trainer names and the level_gate/unlocked_level_gates query. piece_042 is the only test of this helper. postman_trainer.rs exercises a different, live trainer path (T407), not this table."},
+  {"name": "soccer_tutorial_pages_and_pickups_keep_the_client_mapping", "verdict": "keep", "covered_by": null, "reason": "Pins the SoccerTut0001..0007 key-to-string mapping and pickup icon ids against the client's CodeStringMappings. Unique recovery fact; the soccer.rs file covers a codec and reducer, not these pages."},
+  {"name": "soccer_tutorial_advance_reproduces_the_client_transition_table", "verdict": "keep", "covered_by": null, "reason": "Twelve-row transition table plus out-of-range refusals for soccer_tutorial_advance, taken from ScriptsBase.lua. Only test of this helper; a refusal and canary-style check, so keep."},
+  {"name": "progression_does_not_invent_experience_or_unlock_quest_ids", "verdict": "keep", "covered_by": null, "reason": "Explicit canary that XP curve and unlock quest ids remain Missing/unrecovered and that the level caps are 20 and 4. Must not be removed."},
+  {"name": "creation_kits_and_questline_stay_on_their_recovered_classes", "verdict": "keep", "covered_by": null, "reason": "Checks class ids 3 and 134 for creation kits, questline name ids and validate(). Unique to this module's data; no other file covers these tables."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "Every test drives the piece_042 module's own recovery tables and two pure helpers, and no other test file includes that module. Overlap exists only at the locale-string level with piece_031 (Postman 3237 / Soccer Star 4650 names), which is data-level and not the same path. The similar files (piece_033, piece_032, piece_047, piece_040, piece_093) are sibling work items on other jobs or modules, so they do not supersede any test here. The file is a self-contained #[path] include, so it is the only binary exercising these constants. Some assertions only pin recovered constants and could go stale if the recovery is redone, but that is not a redundancy finding. Confidence is 0.8 rather than higher because I did not read piece_031.rs or the similar files' bodies in depth."}

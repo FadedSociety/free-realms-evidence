@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=taka-the-shadow-0-NtjR5zpRDoQ-00192 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3155, 4, 910] model=claude-haiku-5-5 -->
+# Taka the Shadow NtjR5zpRDoQ 192s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Grayson Stonyhammer <Erosion>", "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.95}, "target_defeated": false, "notes": "Player stands in water near a cliff; Taka the Shadow is not on screen. Only Grayson Stonyhammer (NPC-style name, full green bar) is visible; the Taka the Shadow quest goal appears only in the quest panel with no distance marker."}

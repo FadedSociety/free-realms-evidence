@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-1-byO9Hz0Fv4Y-00112 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2744, 4, 1038] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 112s
+
+{"screen": "combat", "target": {"name": "Necronomicus", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Epic Cabalist Mage (green-named ally or enemy above center, not the target)", "health_fraction": null}], "damage_numbers": [], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Combat near a dark cave; red-named Necronomicus is on the right with a short health bar that is too small to read reliably; the 'not enough energy' message is shown; level and bar fill not legible, so left null."}

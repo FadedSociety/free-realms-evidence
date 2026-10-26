@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-2-b4a3fPvP-M4-00082 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2740, 4, 629] model=claude-haiku-5-5 -->
+# Tormented Spirit b4a3fPvP_M4 82s
+
+{"screen": "world", "target": {"name": "Tormented Spirit", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Only a quest-tracker label for Tormented Spirit (42m, red arrow) is visible; no health bar on a creature. A large green creature is in the center with no legible name, and the yellow centre text is a system message. Other labels (Anvil, Jalok Battlerock, Silver Mining, Burke) are trackers only."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-2-MS41sNV77OI-00192 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 2743, 4, 1369] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother MS41sNV77OI 192s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 0.9, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1779, "on": "target", "color": "yellow"}, {"value": 1186, "on": "target", "color": "yellow"}, {"value": 1186, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Seth Fierybolt", "level": 20, "job": "Warrior", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player Warrior fighting Ocean Cray Brood Mother in Cray Caves; name is partly covered by damage numbers, bar is mostly green with a small red loss, level not shown; health text 7629/7528 for the player is not fully legible."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=jake-blackforest-2-TT05C-mF3m4-00048 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2877, 4, 852] model=claude-haiku-5-5 -->
+# Jake Blackforest TT05C_mF3m4 48s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Grayson Stonyhammer", "level": 20, "job": "Archer", "health_fraction": null}, "target_defeated": false, "notes": "Player stands at a glowing door (Erosion portal, 'Press X to Exit'), with the system message 'You don't have enough energy for that ability!'. 'Jake Blackforest' appears only as a centered banner label at top, with no creature, distance marker or health bar on screen, so the enemy is not visibly present."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00312 status=done turns=1 usd=0.0011 tokens(read,write,in,out)=[0, 3159, 4, 1374] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 312s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}, {"value": 888, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 5, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Combat burst with large yellow damage numbers (2490, 888) and a +537 green number over a purple explosion; the name 'Ocean Cray Brood Mother' appears in a faded banner and in a 'Press X' interaction prompt, not as a clear nameplate over a health bar, so the target's health and level are unreadable."}

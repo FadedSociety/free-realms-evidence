@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-1-bXM3-p0eCk-00392 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2735, 4, 1057] model=claude-haiku-5-5 -->
+# Queen Verda -bXM3-p0eCk 392s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Queen's Guard", "health_fraction": null}, {"name": "Queen's Guard", "health_fraction": null}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Trent Falconorb", "level": 20, "job": "Archer", "health_fraction": 0.5}, "target_defeated": false, "notes": "Queen Verda is not legible as a creature on screen; only the Goals panel names her. Two Queen's Guard health bars are visible at right, fill level unreadable; 'You receive 40 coins' messages, not damage."}

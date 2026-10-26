@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-0-OawnLys6j-o-00196 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 992] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 196s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1004, "on": "player", "color": "green"}, {"value": 2490, "on": "other", "color": "yellow"}, {"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Red line at bottom is NPC dialog from Elder Mugwort, not a health bar; no legible name or health bar above any enemy, so the picked enemy's bar cannot be read. Job name in the bar is illegible; player level 20 read from the circle near the portrait."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00298 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 925] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 298s
+
+{"screen":"combat","target":{"name":"Ocean Cray Brood Mother","level":null,"health_fraction":null,"health_text":null,"is_tracker_only":false},"other_enemy_bars":[],"damage_numbers":[{"value":2821,"on":"other","color":"yellow"},{"value":2490,"on":"other","color":"yellow"},{"value":2490,"on":"other","color":"yellow"}],"attackers_visible":0,"player":{"name":"Freddy Spoondypants","level":20,"job":"Ninja","health_fraction":null},"target_defeated":false,"notes":"Interact prompt 'Press X' names the Ocean Cray Brood Mother over a cave fight; no legible health bar on the target, so its health is not measured here."}

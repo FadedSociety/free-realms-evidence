@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-nibbler-1-KLx739bZjNs-00036 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2750, 4, 806] model=claude-haiku-5-5 -->
+# Nettleseed Nibbler KLx739bZjNs 36s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player stands in a mushroom swamp with no enemy creature or health bar on screen. 'Nettleseed Nibblers' appears only as a quest objective heading at top center ('Knock out Nettleseed Nibblers - 1/9') and in chat (2/9), with no creature name, distance or arrow; no fight is visible."}

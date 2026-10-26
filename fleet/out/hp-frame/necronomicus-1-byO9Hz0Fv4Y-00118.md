@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-1-byO9Hz0Fv4Y-00118 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2744, 4, 1140] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 118s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2739, "on": "other", "color": "white"}], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.95}, "target_defeated": false, "notes": "Combat in a purple cave; the red name over the mob reads as a zombie-type name, not Necronomicus, so the picked enemy is not legibly on screen. Goals tracker shows 'Defeat Necronomicus'. Large 2739 number is ambiguous as to target."}

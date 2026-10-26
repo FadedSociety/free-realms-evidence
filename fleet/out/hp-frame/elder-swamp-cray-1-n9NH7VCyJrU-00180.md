@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-swamp-cray-1-n9NH7VCyJrU-00180 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3153, 4, 1111] model=claude-haiku-5-5 -->
+# Elder Swamp Cray n9NH7VCyJrU 180s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Cracked Claw", "health_fraction": 0.3}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Assurecowl", "level": 2, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Combat with Cracked Claw (Cracked Claw Caverns); Elder Swamp Cray is not visibly on screen at this moment, so no target bar is read. Yellow damage numbers are present but not all digits are legible, so none are reported."}

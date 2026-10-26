@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-2-MS41sNV77OI-00162 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2743, 4, 914] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother MS41sNV77OI 162s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1779, "on": "target", "color": "yellow"}, {"value": 1186, "on": "target", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Seth Fierybolt", "level": 20, "job": "Warrior", "health_fraction": 1.0}, "target_defeated": false, "notes": "Name and a red-only health bar float above the Brood Mother while yellow hit numbers (-1779, -1186) show; the bar's green fill is not visible, so its fraction is left null, and the enemy level is not shown."}

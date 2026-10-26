@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00288 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 957] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 288s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Name is shown under a tracker-style label with a red arrow marker and distance (~41m) near the Brood Mother name; no health bar sits over a creature for it. Large faded name text across the top and a yellow damage number (partly legible) appear in combat; the bar at top center is not tied to a named enemy."}

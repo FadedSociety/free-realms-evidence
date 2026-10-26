@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-2-MS41sNV77OI-00174 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2743, 4, 958] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother MS41sNV77OI 174s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 237, "on": "target", "color": "yellow"}, {"value": 237, "on": "target", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Seth Fierybolt", "level": 20, "job": "Warrior", "health_fraction": 1.0}, "target_defeated": false, "notes": "Warrior attacks the Ocean Cray Brood Mother in Cray Caves (two -237 hits); the 'not enough energy' message shows an ability failed; target bar looks nearly full."}

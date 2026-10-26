@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-1-BJy3sgpdqpw-00088 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3153, 4, 1236] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 88s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Defender", "level": null, "health_fraction": 0.3, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 821, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "Enemy health bar floats above a large faded zone banner that partly covers the name ('Ocean Cr... fender'); bar read is approximate and the 2490 number overlapping it is not reliable, so only 821 is reported; enemy level not legible."}

@@ -1,0 +1,7 @@
+<!-- fleet job=testaudit-infer id=medic_entry_content-v1 status=done turns=3 usd=0.0023 tokens(read,write,in,out)=[14188, 10855, 8, 1519] model=claude-haiku-5-5 -->
+# tests/medic_entry_content.rs
+
+{"file": "tests/medic_entry_content.rs",
+ "tests": [{"name": "enabled_medic_chapter_records_are_complete_and_others_stay_disabled", "verdict": "duplicate", "covered_by": "tests/medic_entry_chain.rs::enabled_medic_chapter_records_are_complete_and_others_stay_disabled", "reason": "Both tests have the same body: one call to support/medic_entry.rs::assert_enabled_medic_chapter_records(), which reads content/quests/medic.json and content/npcs/*.json and checks the enabled set, giver bindings, titles, job, provenance, rewards and Medic XP. The chain copy also carries the packet-flow tests, so no assertion is lost by dropping this target."}],
+ "whole_file_removable": true, "confidence": 0.85,
+ "notes": "The file is a 16-line wrapper and adds no assertions of its own; its doc says it exists to run the check without the packet flow, but the check reads only JSON content and needs no packet flow to run. The same pattern is in archer_entry_content.rs (F217) versus archer_entry_chain.rs, which I did not audit. Before deleting, confirm the integrator's pinning of the chain test name (F262 notes say the chain target is pinned) is not tied to this file being present. The shared helper stays, since medic_entry_chain.rs uses it."}

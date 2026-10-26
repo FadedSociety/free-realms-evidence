@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=jake-blackforest-2-TT05C-mF3m4-00044 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2877, 4, 1097] model=claude-haiku-5-5 -->
+# Jake Blackforest TT05C_mF3m4 44s
+
+{"screen": "combat", "target": {"name": "Jake Blackforest", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 6450, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Grayson Bunyhammer", "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Jake Blackforest is named in red above a figure in the fight zone, but its health bar is not legible; a 6450 yellow hit sits over the fight, and a 'Goal Complete' banner (Defeat the werewolves) shows. Level and bar fraction are not readable, so both are null."}

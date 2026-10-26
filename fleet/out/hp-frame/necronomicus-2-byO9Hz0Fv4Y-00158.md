@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-2-byO9Hz0Fv4Y-00158 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 2744, 4, 1220] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 158s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Zombie Portal", "health_fraction": 0.5}], "damage_numbers": [{"value": 255, "on": "other", "color": "yellow"}, {"value": 2739, "on": "other", "color": "yellow"}, {"value": 5478, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": null}, "target_defeated": false, "notes": "Necronomicus is not shown as a nameplate here; only his speech bubble 'Necronomicus: Not so fast!' and a Zombie Portal bar with a large -5478 hit. Player characters Troy Azureshield and Ivy5 Lightning are fighting nearby."}

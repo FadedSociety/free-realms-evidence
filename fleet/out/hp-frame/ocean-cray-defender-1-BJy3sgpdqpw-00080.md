@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-1-BJy3sgpdqpw-00080 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 918] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 80s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "Large faded 'Ocean Cray Defen...' text is a screen banner, not a nameplate; a green health bar with ~249 damage numbers is shown mid-screen but no enemy name is attached to it, so the target bar cannot be confidently assigned. Player health 8081/8540."}

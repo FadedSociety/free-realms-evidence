@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=counselor-edmond-1-s4q4D-xmPoU-00060 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3160, 4, 1033] model=claude-haiku-5-5 -->
+# Counselor Edmond s4q4D_xmPoU 60s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 488, "on": "other", "color": "yellow"}, {"value": 732, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Monica Wintervale", "level": 8, "job": "Warrior", "health_fraction": 0.5}, "target_defeated": false, "notes": "Large orange 'Counselor Edmond' title is a video caption overlay, not an enemy nameplate; no legible enemy health bar for Edmond in this frame, and the crowd of combatants near center is too blurred to attribute to a target."}

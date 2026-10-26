@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-0-FiWCkh0St38-00444 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3148, 4, 1189] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 444s
+
+{"screen":"combat","target":{"name":"Queen Verda","level":null,"health_fraction":0.25,"health_text":null,"is_tracker_only":false},"other_enemy_bars":[{"name":"Troll Roughguard","health_fraction":0.45}],"damage_numbers":[{"value":431,"on":"other","color":"white"}],"attackers_visible":0,"player":{"name":"Freddy Speedypants","level":20,"job":"Ninja","health_fraction":0.77},"target_defeated":false,"notes":"Boss bar at top shows Queen Verda with a low red fill (approx. 25%, read from the top bar, no creature nameplate for her on screen). Player fights a Troll Roughguard nearby; -431 damage number sits over that troll, not clearly over Verda."}

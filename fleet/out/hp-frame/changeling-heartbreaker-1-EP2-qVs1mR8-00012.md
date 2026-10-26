@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=changeling-heartbreaker-1-EP2-qVs1mR8-00012 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2891, 4, 1079] model=claude-haiku-5-5 -->
+# Changeling Heartbreaker EP2-qVs1mR8 12s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Crayon Storyhammer", "level": 20, "job": "Archer", "health_fraction": null}, "target_defeated": false, "notes": "Open field with a few distant small purple figures, none with a legible name or health bar. Quest tracker 'Goals (1): Defeat the heartbreaker' is shown with no distance marker, so no target bar can be read. Player's health numbers are too blurry to read."}

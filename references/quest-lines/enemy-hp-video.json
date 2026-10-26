@@ -1,0 +1,4883 @@
+{
+ "enemies": [
+  {
+   "name": "Bergram Stumpfinger",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_bergram_stumpfinger",
+     "name": "Bergram Stumpfinger",
+     "level": null,
+     "max_health": 540,
+     "damage": 30
+    }
+   ],
+   "windows": [
+    {
+     "video": "KYELaZLl1bs",
+     "seconds": [
+      22,
+      22
+     ],
+     "frames_read": 12,
+     "frames_on_target": 12,
+     "fractions": [
+      [
+       20,
+       1.0
+      ],
+      [
+       22,
+       1.0
+      ],
+      [
+       24,
+       1.0
+      ],
+      [
+       26,
+       0.9
+      ],
+      [
+       30,
+       0.8
+      ],
+      [
+       36,
+       1.0
+      ],
+      [
+       38,
+       1.0
+      ],
+      [
+       40,
+       1.0
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [
+      5
+     ],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 3,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "qll29Uexu1k",
+     "seconds": [
+      16,
+      16
+     ],
+     "frames_read": 14,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Bristlewood Vulture",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "bristlewood_vulture",
+     "name": "Bristlewood Vulture",
+     "level": null,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "piWfe7lXZ9I",
+     "seconds": [
+      72,
+      90
+     ],
+     "frames_read": 15,
+     "frames_on_target": 3,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Card Duelist"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "rBdcmKcwVI0",
+     "seconds": [
+      576,
+      576
+     ],
+     "frames_read": 12,
+     "frames_on_target": 7,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      4
+     ],
+     "player_jobs": [
+      "Card Duelist"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Cakenstein",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_cakenstein",
+     "name": "Cakenstein",
+     "level": null,
+     "max_health": 540,
+     "damage": 30
+    }
+   ],
+   "windows": [
+    {
+     "video": "pJzcZTI1Pgk",
+     "seconds": [
+      26,
+      26
+     ],
+     "frames_read": 12,
+     "frames_on_target": 4,
+     "fractions": [
+      [
+       40,
+       1.0
+      ],
+      [
+       42,
+       1.0
+      ],
+      [
+       44,
+       1.0
+      ],
+      [
+       46,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      4981,
+      168
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      16
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Changeling Heartbreaker",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_changeling_heartbreaker_l13_enemy",
+     "name": "Changeling Heartbreaker",
+     "level": 13,
+     "max_health": 340,
+     "damage": 31
+    }
+   ],
+   "windows": [
+    {
+     "video": "p5sDafXSQtQ",
+     "seconds": [
+      64,
+      74
+     ],
+     "frames_read": 16,
+     "frames_on_target": 3,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "EP2-qVs1mR8",
+     "seconds": [
+      2,
+      2
+     ],
+     "frames_read": 12,
+     "frames_on_target": 3,
+     "fractions": [
+      [
+       22,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      3560
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Adventurer",
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Counselor Edmond",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_counselor_edmond_l5_enemy",
+     "name": "Counselor Edmond",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "s4q4D_xmPoU",
+     "seconds": [
+      196,
+      222
+     ],
+     "frames_read": 13,
+     "frames_on_target": 3,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      8
+     ],
+     "player_jobs": [
+      "Warrior"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "s4q4D_xmPoU",
+     "seconds": [
+      30,
+      40
+     ],
+     "frames_read": 13,
+     "frames_on_target": 5,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      8
+     ],
+     "player_jobs": [
+      "Warrior"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "L27vxozHOls",
+     "seconds": [
+      222,
+      226
+     ],
+     "frames_read": 9,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Counselor Kaela",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_counselor_kaela_l5_enemy",
+     "name": "Counselor Kaela",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "r3jxLZdlBWI",
+     "seconds": [
+      442,
+      442
+     ],
+     "frames_read": 12,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Counselor Tyra",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_counselor_tyra_l5_enemy",
+     "name": "Counselor Tyra",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "L27vxozHOls",
+     "seconds": [
+      82,
+      92
+     ],
+     "frames_read": 19,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      10,
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Cray Marauder",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_cray_marauder",
+     "name": "Cray Marauder",
+     "level": null,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "SUgDAmJpyVs",
+     "seconds": [
+      26,
+      66
+     ],
+     "frames_read": 20,
+     "frames_on_target": 13,
+     "fractions": [
+      [
+       26,
+       0.35
+      ],
+      [
+       44,
+       1.0
+      ],
+      [
+       46,
+       0.5
+      ],
+      [
+       48,
+       0.55
+      ],
+      [
+       56,
+       1.0
+      ],
+      [
+       58,
+       0.45
+      ],
+      [
+       64,
+       1.0
+      ],
+      [
+       66,
+       0.65
+      ]
+     ],
+     "damage_on_target": [
+      79,
+      98,
+      98,
+      -110
+     ],
+     "health_texts": [],
+     "levels_read": [
+      3
+     ],
+     "player_levels": [
+      4
+     ],
+     "player_jobs": [
+      "Brawler"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 25.5,
+     "fights": [
+      {
+       "from": 44,
+       "to": 52,
+       "fraction_lost": 0.5,
+       "hits": [
+        98
+       ],
+       "max_health": 196
+      }
+     ],
+     "estimate_max_health": 196
+    },
+    {
+     "video": "DwDg70PfPq0",
+     "seconds": [
+      256,
+      260
+     ],
+     "frames_read": 14,
+     "frames_on_target": 8,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "SUgDAmJpyVs",
+     "seconds": [
+      182,
+      184
+     ],
+     "frames_read": 15,
+     "frames_on_target": 14,
+     "fractions": [
+      [
+       176,
+       0.95
+      ],
+      [
+       178,
+       0.5
+      ],
+      [
+       180,
+       0.25
+      ],
+      [
+       182,
+       0.4
+      ],
+      [
+       194,
+       1.0
+      ],
+      [
+       196,
+       1.0
+      ],
+      [
+       198,
+       1.0
+      ],
+      [
+       200,
+       0.5
+      ]
+     ],
+     "damage_on_target": [
+      79,
+      73,
+      -79,
+      73,
+      -79,
+      73,
+      79
+     ],
+     "health_texts": [],
+     "levels_read": [
+      2
+     ],
+     "player_levels": [
+      4
+     ],
+     "player_jobs": [
+      "Brawler"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 12.0,
+     "fights": [
+      {
+       "from": 176,
+       "to": 180,
+       "fraction_lost": 0.7,
+       "hits": [
+        73,
+        79
+       ],
+       "max_health": 217
+      },
+      {
+       "from": 194,
+       "to": 202,
+       "fraction_lost": 0.5,
+       "hits": [
+        73,
+        79
+       ],
+       "max_health": 304
+      }
+     ],
+     "estimate_max_health": 304
+    }
+   ],
+   "estimate_max_health": 304,
+   "health_texts": []
+  },
+  {
+   "name": "Cray Snapper",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_cray_snapper_l5_enemy",
+     "name": "Cray Snapper",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "nDX88pgHwSg",
+     "seconds": [
+      30,
+      68
+     ],
+     "frames_read": 20,
+     "frames_on_target": 9,
+     "fractions": [
+      [
+       30,
+       1.0
+      ],
+      [
+       62,
+       1.0
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      7
+     ],
+     "player_jobs": [
+      "Warrior"
+     ],
+     "attackers_max": 1,
+     "defeated": true,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Ed Sullenfangs",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_ed_sullenfangs",
+     "name": "Ed Sullenfangs",
+     "level": null,
+     "max_health": 540,
+     "damage": 30
+    }
+   ],
+   "windows": [
+    {
+     "video": "gCZBu52vh0I",
+     "seconds": [
+      50,
+      56
+     ],
+     "frames_read": 12,
+     "frames_on_target": 6,
+     "fractions": [
+      [
+       54,
+       1.0
+      ],
+      [
+       58,
+       0.9
+      ]
+     ],
+     "damage_on_target": [
+      2999,
+      2999,
+      2999,
+      2999,
+      2999
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Medic"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "wGhGnTihqpU",
+     "seconds": [
+      58,
+      66
+     ],
+     "frames_read": 14,
+     "frames_on_target": 6,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "Bcja1dF01z4",
+     "seconds": [
+      1980,
+      1982
+     ],
+     "frames_read": 15,
+     "frames_on_target": 7,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Elder Mugwort",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "elder_mugwort",
+     "name": "Elder Mugwort",
+     "level": null,
+     "max_health": 540,
+     "damage": 30
+    }
+   ],
+   "windows": [
+    {
+     "video": "OawnLys6j-o",
+     "seconds": [
+      190,
+      220
+     ],
+     "frames_read": 20,
+     "frames_on_target": 6,
+     "fractions": [
+      [
+       216,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      113,
+      113,
+      2490,
+      821,
+      2490,
+      2490,
+      2490,
+      2490,
+      2490,
+      2490
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "OawnLys6j-o",
+     "seconds": [
+      384,
+      438
+     ],
+     "frames_read": 20,
+     "frames_on_target": 9,
+     "fractions": [
+      [
+       402,
+       1.0
+      ],
+      [
+       404,
+       0.85
+      ],
+      [
+       406,
+       0.75
+      ],
+      [
+       408,
+       0.7
+      ],
+      [
+       420,
+       0.25
+      ],
+      [
+       422,
+       0.2
+      ]
+     ],
+     "damage_on_target": [
+      3735,
+      253,
+      249,
+      2490,
+      2490,
+      2490,
+      2490,
+      3735,
+      2490,
+      1231,
+      2490,
+      2490,
+      2490
+     ],
+     "health_texts": [],
+     "levels_read": [
+      5
+     ],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 25.0,
+     "fights": [
+      {
+       "from": 400,
+       "to": 422,
+       "fraction_lost": 0.8,
+       "hits": [
+        253,
+        3735,
+        249,
+        2490,
+        3735,
+        1231,
+        2490
+       ],
+       "max_health": 17729
+      }
+     ],
+     "estimate_max_health": 17729
+    },
+    {
+     "video": "OawnLys6j-o",
+     "seconds": [
+      62,
+      62
+     ],
+     "frames_read": 12,
+     "frames_on_target": 7,
+     "fractions": [
+      [
+       62,
+       1.0
+      ],
+      [
+       64,
+       1.0
+      ],
+      [
+       66,
+       0.5
+      ],
+      [
+       82,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      2490,
+      -2490,
+      2490,
+      2490
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 8.0,
+     "fights": [
+      {
+       "from": 62,
+       "to": 74,
+       "fraction_lost": 0.5,
+       "hits": [
+        2490,
+        2490
+       ],
+       "max_health": 9960
+      }
+     ],
+     "estimate_max_health": 9960
+    }
+   ],
+   "estimate_max_health": 17729,
+   "health_texts": []
+  },
+  {
+   "name": "Elder Swamp Cray",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "elder_swamp_cray",
+     "name": "Elder Swamp Cray",
+     "level": null,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "-5UUuwaVXnM",
+     "seconds": [
+      330,
+      332
+     ],
+     "frames_read": 13,
+     "frames_on_target": 6,
+     "fractions": [
+      [
+       324,
+       1.0
+      ],
+      [
+       326,
+       1.0
+      ],
+      [
+       328,
+       0.9
+      ],
+      [
+       330,
+       0.8
+      ],
+      [
+       332,
+       0.8
+      ],
+      [
+       334,
+       0.4
+      ]
+     ],
+     "damage_on_target": [
+      254,
+      254,
+      254,
+      381,
+      254,
+      254,
+      254,
+      254,
+      -254,
+      254,
+      254
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      2,
+      3
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 16.7,
+     "fights": [
+      {
+       "from": 324,
+       "to": 334,
+       "fraction_lost": 0.6,
+       "hits": [
+        254,
+        381
+       ],
+       "max_health": 1058
+      }
+     ],
+     "estimate_max_health": 1058
+    },
+    {
+     "video": "n9NH7VCyJrU",
+     "seconds": [
+      156,
+      160
+     ],
+     "frames_read": 14,
+     "frames_on_target": 5,
+     "fractions": [
+      [
+       150,
+       0.5
+      ],
+      [
+       152,
+       0.1
+      ],
+      [
+       154,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      -254,
+      -254,
+      254,
+      254,
+      381,
+      254,
+      381
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      1,
+      2
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [
+      {
+       "from": 150,
+       "to": 152,
+       "fraction_lost": 0.4,
+       "hits": [
+        254
+       ],
+       "max_health": 635
+      }
+     ],
+     "estimate_max_health": 635
+    },
+    {
+     "video": "8-n-7P6VAHQ",
+     "seconds": [
+      122,
+      122
+     ],
+     "frames_read": 12,
+     "frames_on_target": 3,
+     "fractions": [
+      [
+       120,
+       1.0
+      ],
+      [
+       122,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      2849
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      12,
+      15
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": 1058,
+   "health_texts": []
+  },
+  {
+   "name": "Fairy Cultist",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_fairy_cultist_l3_enemy",
+     "name": "Fairy Cultist",
+     "level": 3,
+     "max_health": 140,
+     "damage": 11
+    }
+   ],
+   "windows": [
+    {
+     "video": "p5sDafXSQtQ",
+     "seconds": [
+      56,
+      84
+     ],
+     "frames_read": 20,
+     "frames_on_target": 4,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "CXeswcNcDTM",
+     "seconds": [
+      52,
+      68
+     ],
+     "frames_read": 20,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      8,
+      9
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "9rPMuvwc728",
+     "seconds": [
+      144,
+      174
+     ],
+     "frames_read": 20,
+     "frames_on_target": 3,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      19
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Foreman Ironfist",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "foreman_ironfist",
+     "name": "Foreman Ironfist",
+     "level": 13,
+     "max_health": 1020,
+     "damage": 62
+    }
+   ],
+   "windows": [
+    {
+     "video": "X6zfuEFRcQk",
+     "seconds": [
+      192,
+      192
+     ],
+     "frames_read": 14,
+     "frames_on_target": 14,
+     "fractions": [
+      [
+       186,
+       0.45
+      ],
+      [
+       188,
+       1.0
+      ],
+      [
+       190,
+       0.4
+      ],
+      [
+       194,
+       0.3
+      ],
+      [
+       198,
+       0.25
+      ],
+      [
+       200,
+       0.25
+      ],
+      [
+       202,
+       0.25
+      ],
+      [
+       204,
+       0.2
+      ],
+      [
+       206,
+       0.2
+      ],
+      [
+       208,
+       0.2
+      ],
+      [
+       210,
+       0.1
+      ]
+     ],
+     "damage_on_target": [
+      -280,
+      -3237,
+      -3237,
+      -3237,
+      -3237,
+      821,
+      151,
+      280,
+      3237,
+      14569,
+      32821,
+      -3237,
+      451,
+      3237
+     ],
+     "health_texts": [],
+     "levels_read": [
+      5
+     ],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 2,
+     "defeated": false,
+     "seconds_full_bar": 24.4,
+     "fights": [
+      {
+       "from": 188,
+       "to": 212,
+       "fraction_lost": 0.9,
+       "hits": [
+        151,
+        821,
+        280,
+        3237,
+        14569,
+        32821,
+        451,
+        3237
+       ],
+       "max_health": 61741
+      }
+     ],
+     "estimate_max_health": 61741
+    }
+   ],
+   "estimate_max_health": 61741,
+   "health_texts": []
+  },
+  {
+   "name": "Frostfang Growler",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "frostfang_growler",
+     "name": "Frostfang Growler",
+     "level": 9,
+     "max_health": 260,
+     "damage": 23
+    }
+   ],
+   "windows": [
+    {
+     "video": "WjpJl2U5OK0",
+     "seconds": [
+      2,
+      48
+     ],
+     "frames_read": 20,
+     "frames_on_target": 6,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      13
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "kVJBEK5sVBQ",
+     "seconds": [
+      50,
+      64
+     ],
+     "frames_read": 18,
+     "frames_on_target": 3,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      3
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "gWaKXoYB92Q",
+     "seconds": [
+      132,
+      154
+     ],
+     "frames_read": 13,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      1
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Frostfang Snarler",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "frostfang_snarler",
+     "name": "Frostfang Snarler",
+     "level": 13,
+     "max_health": 340,
+     "damage": 31
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 5064655448674664464,
+     "name": "Frostfang Snarler",
+     "level": 13,
+     "max_health": 200,
+     "damage": 10
+    }
+   ],
+   "windows": [
+    {
+     "video": "5-IM2pBh2yY",
+     "seconds": [
+      1048,
+      1068
+     ],
+     "frames_read": 20,
+     "frames_on_target": 17,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "LLHvbK-bdXs",
+     "seconds": [
+      72,
+      78
+     ],
+     "frames_read": 15,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      3
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "V_S6ArXQ28E",
+     "seconds": [
+      42,
+      44
+     ],
+     "frames_read": 12,
+     "frames_on_target": 3,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      8
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Fungus Golem",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "fungus_golem",
+     "name": "Fungus Golem",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 5064655448674664457,
+     "name": "Fungus Golem",
+     "level": 5,
+     "max_health": 180,
+     "damage": 8
+    }
+   ],
+   "windows": [
+    {
+     "video": "OrfNBeSJByM",
+     "seconds": [
+      260,
+      276
+     ],
+     "frames_read": 17,
+     "frames_on_target": 7,
+     "fractions": [
+      [
+       254,
+       0.95
+      ],
+      [
+       256,
+       0.75
+      ],
+      [
+       258,
+       0.7
+      ],
+      [
+       260,
+       0.45
+      ]
+     ],
+     "damage_on_target": [
+      2490,
+      3735,
+      2490
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 12.0,
+     "fights": [
+      {
+       "from": 254,
+       "to": 276,
+       "fraction_lost": 0.5,
+       "hits": [
+        2490,
+        3735,
+        2490
+       ],
+       "max_health": 17430
+      }
+     ],
+     "estimate_max_health": 17430
+    }
+   ],
+   "estimate_max_health": 17430,
+   "health_texts": []
+  },
+  {
+   "name": "Grave Elemental",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_grave_elemental_l5_enemy",
+     "name": "Grave Elemental",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "rBdcmKcwVI0",
+     "seconds": [
+      236,
+      290
+     ],
+     "frames_read": 20,
+     "frames_on_target": 6,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "TjpDl22Lwpk",
+     "seconds": [
+      9,
+      36
+     ],
+     "frames_read": 9,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      16
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "APmoVBnJt98",
+     "seconds": [
+      172,
+      186
+     ],
+     "frames_read": 13,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      4
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Hedge Guardian",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "hedge_guardian",
+     "name": "Hedge Guardian",
+     "level": 7,
+     "max_health": 220,
+     "damage": 19
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 5064655448674664459,
+     "name": "Hedge Guardian",
+     "level": 7,
+     "max_health": 180,
+     "damage": 8
+    }
+   ],
+   "windows": [
+    {
+     "video": "8COnkBTNgfw",
+     "seconds": [
+      76,
+      76
+     ],
+     "frames_read": 13,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Hewey the Bear",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "hewey_the_bear",
+     "name": "Hewey the Bear",
+     "level": 5,
+     "max_health": 540,
+     "damage": 30
+    }
+   ],
+   "windows": [
+    {
+     "video": "Tq071So28ao",
+     "seconds": [
+      376,
+      390
+     ],
+     "frames_read": 15,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      1
+     ],
+     "player_jobs": [
+      "Archer",
+      "Brawler"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "_PEkuJgkSDw",
+     "seconds": [
+      184,
+      184
+     ],
+     "frames_read": 14,
+     "frames_on_target": 14,
+     "fractions": [
+      [
+       178,
+       1.0
+      ],
+      [
+       180,
+       1.0
+      ],
+      [
+       182,
+       1.0
+      ],
+      [
+       184,
+       1.0
+      ],
+      [
+       188,
+       1.0
+      ],
+      [
+       190,
+       0.85
+      ],
+      [
+       192,
+       0.8
+      ],
+      [
+       196,
+       0.75
+      ],
+      [
+       198,
+       0.75
+      ],
+      [
+       200,
+       0.5
+      ],
+      [
+       202,
+       0.6
+      ]
+     ],
+     "damage_on_target": [
+      254,
+      1333,
+      254,
+      254
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      1,
+      5
+     ],
+     "player_jobs": [
+      "Brawler"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 44.0,
+     "fights": [
+      {
+       "from": 178,
+       "to": 204,
+       "fraction_lost": 0.5,
+       "hits": [
+        254,
+        1333,
+        254,
+        254
+       ],
+       "max_health": 4190
+      }
+     ],
+     "estimate_max_health": 4190
+    },
+    {
+     "video": "fktAs_GRrjM",
+     "seconds": [
+      424,
+      424
+     ],
+     "frames_read": 10,
+     "frames_on_target": 10,
+     "fractions": [
+      [
+       420,
+       0.9
+      ],
+      [
+       422,
+       0.85
+      ],
+      [
+       424,
+       0.9
+      ],
+      [
+       426,
+       0.85
+      ],
+      [
+       430,
+       0.85
+      ],
+      [
+       432,
+       0.75
+      ],
+      [
+       434,
+       0.85
+      ],
+      [
+       436,
+       0.75
+      ],
+      [
+       438,
+       0.75
+      ]
+     ],
+     "damage_on_target": [
+      279
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      5
+     ],
+     "player_jobs": [],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": 4190,
+   "health_texts": []
+  },
+  {
+   "name": "Hooligan Wolf",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "hooligan_wolf",
+     "name": "Hooligan Wolf",
+     "level": null,
+     "max_health": 180,
+     "damage": 25
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102001,
+     "name": "Hooligan Wolf",
+     "level": 1,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102002,
+     "name": "Hooligan Wolf",
+     "level": 1,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102003,
+     "name": "Hooligan Wolf",
+     "level": 1,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102013,
+     "name": "Hooligan Wolf",
+     "level": 5,
+     "max_health": 180,
+     "damage": 8
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102014,
+     "name": "Hooligan Wolf",
+     "level": 5,
+     "max_health": 180,
+     "damage": 8
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102021,
+     "name": "Hooligan Wolf",
+     "level": 11,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102022,
+     "name": "Hooligan Wolf",
+     "level": 12,
+     "max_health": 100,
+     "damage": 7
+    }
+   ],
+   "windows": [
+    {
+     "video": "aAwG5ZoXaeY",
+     "seconds": [
+      20,
+      22
+     ],
+     "frames_read": 14,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      17
+     ],
+     "player_jobs": [
+      "Demo Derby Driver"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "aAwG5ZoXaeY",
+     "seconds": [
+      68,
+      68
+     ],
+     "frames_read": 7,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      17
+     ],
+     "player_jobs": [
+      "Demo Derby Driver"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Jake Blackforest",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_jake_blackforest",
+     "name": "Jake Blackforest",
+     "level": null,
+     "max_health": 540,
+     "damage": 30
+    }
+   ],
+   "windows": [
+    {
+     "video": "Bcja1dF01z4",
+     "seconds": [
+      1916,
+      1930
+     ],
+     "frames_read": 13,
+     "frames_on_target": 8,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "Bcja1dF01z4",
+     "seconds": [
+      3090,
+      3090
+     ],
+     "frames_read": 11,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "TT05C_mF3m4",
+     "seconds": [
+      42,
+      42
+     ],
+     "frames_read": 9,
+     "frames_on_target": 5,
+     "fractions": [
+      [
+       40,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      6450,
+      59,
+      35,
+      6450,
+      6450
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Lazy Swooper",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_lazy_swooper_l5_enemy",
+     "name": "Lazy Swooper",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "wA9BqwA5lr4",
+     "seconds": [
+      66,
+      66
+     ],
+     "frames_read": 11,
+     "frames_on_target": 2,
+     "fractions": [
+      [
+       86,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      109
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      8,
+      18
+     ],
+     "player_jobs": [
+      "Medic"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Necronomicus",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_necronomicus_l13_boss",
+     "name": "Necronomicus",
+     "level": 13,
+     "max_health": 1020,
+     "damage": 62
+    }
+   ],
+   "windows": [
+    {
+     "video": "G2tF5uF5cBE",
+     "seconds": [
+      628,
+      630
+     ],
+     "frames_read": 15,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "byO9Hz0Fv4Y",
+     "seconds": [
+      102,
+      104
+     ],
+     "frames_read": 12,
+     "frames_on_target": 6,
+     "fractions": [
+      [
+       108,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      2739
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "byO9Hz0Fv4Y",
+     "seconds": [
+      152,
+      154
+     ],
+     "frames_read": 9,
+     "frames_on_target": 4,
+     "fractions": [
+      [
+       168,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      2739
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Nettleseed Nibbler",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_nettleseed_nibbler_l5_enemy",
+     "name": "Nettleseed Nibbler",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "piWfe7lXZ9I",
+     "seconds": [
+      381,
+      468
+     ],
+     "frames_read": 20,
+     "frames_on_target": 8,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Card Duelist"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "KLx739bZjNs",
+     "seconds": [
+      30,
+      30
+     ],
+     "frames_read": 13,
+     "frames_on_target": 5,
+     "fractions": [
+      [
+       30,
+       0.8
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "rBdcmKcwVI0",
+     "seconds": [
+      912,
+      912
+     ],
+     "frames_read": 12,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      4
+     ],
+     "player_jobs": [
+      "Card Duelist"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Nettleseed Pest",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_nettleseed_pest_l13_enemy",
+     "name": "Nettleseed Pest",
+     "level": 13,
+     "max_health": 340,
+     "damage": 31
+    }
+   ],
+   "windows": [
+    {
+     "video": "6PUTXt3OAkc",
+     "seconds": [
+      6,
+      74
+     ],
+     "frames_read": 20,
+     "frames_on_target": 4,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      13,
+      17
+     ],
+     "player_jobs": [
+      "Card Duelist"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "rGDMrxdsxWU",
+     "seconds": [
+      34,
+      46
+     ],
+     "frames_read": 18,
+     "frames_on_target": 4,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "OWvui60zJQw",
+     "seconds": [
+      138,
+      152
+     ],
+     "frames_read": 20,
+     "frames_on_target": 11,
+     "fractions": [
+      [
+       146,
+       0.95
+      ],
+      [
+       148,
+       0.95
+      ],
+      [
+       152,
+       0.5
+      ],
+      [
+       158,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      207,
+      315,
+      207,
+      1245,
+      124,
+      1867,
+      207,
+      207,
+      -821
+     ],
+     "health_texts": [],
+     "levels_read": [
+      14
+     ],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [
+      {
+       "from": 134,
+       "to": 154,
+       "fraction_lost": 0.45,
+       "hits": [
+        207,
+        315,
+        1245,
+        124,
+        1867
+       ],
+       "max_health": 8351
+      }
+     ],
+     "estimate_max_health": 8351
+    }
+   ],
+   "estimate_max_health": 8351,
+   "health_texts": []
+  },
+  {
+   "name": "Ocean Cray Brood Mother",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "ocean_cray_brood_mother",
+     "name": "Ocean Cray Brood Mother",
+     "level": null,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "BJy3sgpdqpw",
+     "seconds": [
+      288,
+      310
+     ],
+     "frames_read": 20,
+     "frames_on_target": 15,
+     "fractions": [
+      [
+       294,
+       0.15
+      ],
+      [
+       306,
+       1.0
+      ],
+      [
+       308,
+       0.9
+      ],
+      [
+       310,
+       0.75
+      ],
+      [
+       314,
+       0.15
+      ],
+      [
+       318,
+       0.0
+      ]
+     ],
+     "damage_on_target": [
+      3735,
+      2490,
+      2490,
+      2490,
+      2490,
+      -216,
+      2490
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      5,
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 2,
+     "defeated": false,
+     "seconds_full_bar": 12.0,
+     "fights": [
+      {
+       "from": 306,
+       "to": 318,
+       "fraction_lost": 1.0,
+       "hits": [
+        2490,
+        2490
+       ],
+       "max_health": 4980
+      }
+     ],
+     "estimate_max_health": 4980
+    },
+    {
+     "video": "BJy3sgpdqpw",
+     "seconds": [
+      402,
+      408
+     ],
+     "frames_read": 16,
+     "frames_on_target": 11,
+     "fractions": [
+      [
+       400,
+       1.0
+      ],
+      [
+       402,
+       1.0
+      ],
+      [
+       404,
+       0.9
+      ],
+      [
+       408,
+       0.9
+      ],
+      [
+       410,
+       0.85
+      ],
+      [
+       412,
+       0.8
+      ],
+      [
+       418,
+       0.75
+      ],
+      [
+       428,
+       0.65
+      ]
+     ],
+     "damage_on_target": [
+      2490,
+      -3735,
+      3735,
+      2490,
+      2490,
+      2490,
+      130,
+      2490,
+      216
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 80.0,
+     "fights": [
+      {
+       "from": 400,
+       "to": 428,
+       "fraction_lost": 0.35,
+       "hits": [
+        2490,
+        2490,
+        3735,
+        130,
+        216,
+        2490
+       ],
+       "max_health": 33003
+      }
+     ],
+     "estimate_max_health": 33003
+    },
+    {
+     "video": "MS41sNV77OI",
+     "seconds": [
+      166,
+      204
+     ],
+     "frames_read": 19,
+     "frames_on_target": 14,
+     "fractions": [
+      [
+       164,
+       1.0
+      ],
+      [
+       166,
+       1.0
+      ],
+      [
+       172,
+       1.0
+      ],
+      [
+       174,
+       1.0
+      ],
+      [
+       190,
+       1.0
+      ],
+      [
+       192,
+       0.9
+      ],
+      [
+       194,
+       0.8
+      ]
+     ],
+     "damage_on_target": [
+      1779,
+      1186,
+      161,
+      2372,
+      237,
+      237,
+      1779,
+      1779,
+      1186,
+      1186,
+      1186,
+      1186
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Warrior"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": 33003,
+   "health_texts": []
+  },
+  {
+   "name": "Ocean Cray Defender",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "ocean_cray_defender",
+     "name": "Ocean Cray Defender",
+     "level": null,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "7rPcgr6KOfk",
+     "seconds": [
+      148,
+      150
+     ],
+     "frames_read": 12,
+     "frames_on_target": 6,
+     "fractions": [
+      [
+       142,
+       0.65
+      ]
+     ],
+     "damage_on_target": [
+      127
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [
+      "Medic"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "BJy3sgpdqpw",
+     "seconds": [
+      82,
+      86
+     ],
+     "frames_read": 13,
+     "frames_on_target": 6,
+     "fractions": [
+      [
+       76,
+       0.75
+      ],
+      [
+       84,
+       0.45
+      ],
+      [
+       88,
+       0.3
+      ],
+      [
+       92,
+       0.2
+      ]
+     ],
+     "damage_on_target": [
+      151,
+      123,
+      2490,
+      821,
+      2490
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 29.1,
+     "fights": [
+      {
+       "from": 76,
+       "to": 102,
+       "fraction_lost": 0.55,
+       "hits": [
+        123,
+        151,
+        2490,
+        821,
+        2490
+       ],
+       "max_health": 11045
+      }
+     ],
+     "estimate_max_health": 11045
+    },
+    {
+     "video": "BJy3sgpdqpw",
+     "seconds": [
+      168,
+      190
+     ],
+     "frames_read": 19,
+     "frames_on_target": 7,
+     "fractions": [
+      [
+       162,
+       0.75
+      ],
+      [
+       164,
+       0.55
+      ],
+      [
+       166,
+       0.5
+      ],
+      [
+       176,
+       0.3
+      ],
+      [
+       178,
+       0.25
+      ]
+     ],
+     "damage_on_target": [
+      2490,
+      -451,
+      -2490,
+      2490,
+      3735
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": 32.0,
+     "fights": [
+      {
+       "from": 162,
+       "to": 188,
+       "fraction_lost": 0.5,
+       "hits": [
+        2490,
+        2490,
+        3735
+       ],
+       "max_health": 17430
+      }
+     ],
+     "estimate_max_health": 17430
+    }
+   ],
+   "estimate_max_health": 17430,
+   "health_texts": []
+  },
+  {
+   "name": "One of Three",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_one_of_three",
+     "name": "One of Three",
+     "level": null,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "dCKyNMH0eDo",
+     "seconds": [
+      0,
+      134
+     ],
+     "frames_read": 20,
+     "frames_on_target": 1,
+     "fractions": [
+      [
+       34,
+       1.0
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "iHNH46qGvYw",
+     "seconds": [
+      100,
+      222
+     ],
+     "frames_read": 20,
+     "frames_on_target": 2,
+     "fractions": [
+      [
+       132,
+       1.0
+      ],
+      [
+       136,
+       0.9
+      ]
+     ],
+     "damage_on_target": [
+      1091
+     ],
+     "health_texts": [],
+     "levels_read": [
+      20
+     ],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "uMQMQNSxVLs",
+     "seconds": [
+      312,
+      322
+     ],
+     "frames_read": 19,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      17,
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Queen Arachnia",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "queen_arachnia",
+     "name": "Queen Arachnia",
+     "level": 13,
+     "max_health": 1020,
+     "damage": 62
+    }
+   ],
+   "windows": [
+    {
+     "video": "VzVmk-5fKmQ",
+     "seconds": [
+      212,
+      212
+     ],
+     "frames_read": 10,
+     "frames_on_target": 4,
+     "fractions": [],
+     "damage_on_target": [
+      16,
+      16
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      8
+     ],
+     "player_jobs": [],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Queen Verda",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_queen_verda",
+     "name": "Queen Verda",
+     "level": null,
+     "max_health": 540,
+     "damage": 30
+    }
+   ],
+   "windows": [
+    {
+     "video": "FiWCkh0St38",
+     "seconds": [
+      434,
+      464
+     ],
+     "frames_read": 20,
+     "frames_on_target": 14,
+     "fractions": [
+      [
+       428,
+       1.0
+      ],
+      [
+       442,
+       0.25
+      ],
+      [
+       444,
+       0.25
+      ],
+      [
+       446,
+       0.2
+      ],
+      [
+       448,
+       0.2
+      ],
+      [
+       450,
+       0.2
+      ],
+      [
+       454,
+       0.1
+      ],
+      [
+       458,
+       0.05
+      ]
+     ],
+     "damage_on_target": [
+      -1867,
+      11245,
+      1867,
+      1867,
+      821
+     ],
+     "health_texts": [],
+     "levels_read": [
+      5
+     ],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 2,
+     "defeated": false,
+     "seconds_full_bar": 31.6,
+     "fights": [
+      {
+       "from": 428,
+       "to": 468,
+       "fraction_lost": 0.95,
+       "hits": [
+        11245,
+        1867,
+        821
+       ],
+       "max_health": 14666
+      }
+     ],
+     "estimate_max_health": 14666
+    },
+    {
+     "video": "-bXM3-p0eCk",
+     "seconds": [
+      372,
+      374
+     ],
+     "frames_read": 12,
+     "frames_on_target": 2,
+     "fractions": [
+      [
+       380,
+       0.85
+      ]
+     ],
+     "damage_on_target": [
+      6450,
+      6450,
+      6450,
+      6450
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "FiWCkh0St38",
+     "seconds": [
+      368,
+      368
+     ],
+     "frames_read": 11,
+     "frames_on_target": 11,
+     "fractions": [
+      [
+       362,
+       1.0
+      ],
+      [
+       364,
+       1.0
+      ],
+      [
+       366,
+       0.9
+      ],
+      [
+       368,
+       0.85
+      ],
+      [
+       370,
+       0.85
+      ],
+      [
+       372,
+       0.85
+      ],
+      [
+       374,
+       0.8
+      ],
+      [
+       378,
+       0.75
+      ],
+      [
+       380,
+       0.75
+      ],
+      [
+       384,
+       0.75
+      ]
+     ],
+     "damage_on_target": [
+      1867
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 2,
+     "defeated": false,
+     "seconds_full_bar": 64.0,
+     "fights": [
+      {
+       "from": 362,
+       "to": 384,
+       "fraction_lost": 0.25,
+       "hits": [
+        1867
+       ],
+       "max_health": 7468
+      }
+     ],
+     "estimate_max_health": 7468
+    }
+   ],
+   "estimate_max_health": 14666,
+   "health_texts": []
+  },
+  {
+   "name": "Robgoblin",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "robgoblin",
+     "name": "Robgoblin",
+     "level": null,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "7EhhTD76xog",
+     "seconds": [
+      40,
+      40
+     ],
+     "frames_read": 14,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "NxCRMj7CYrM",
+     "seconds": [
+      74,
+      74
+     ],
+     "frames_read": 13,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      3
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Robgoblin Initiate",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "robgoblin_initiate",
+     "name": "Robgoblin Initiate",
+     "level": 9,
+     "max_health": 260,
+     "damage": 23
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 5064655448674664456,
+     "name": "Robgoblin Initiate",
+     "level": 9,
+     "max_health": 180,
+     "damage": 8
+    }
+   ],
+   "windows": [
+    {
+     "video": "Ih74NMrp7F0",
+     "seconds": [
+      1148,
+      1148
+     ],
+     "frames_read": 14,
+     "frames_on_target": 3,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      1
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Robgoblin Pondblasters",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "robgoblin_pondblaster",
+     "name": "Robgoblin Pondblasters",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 5064655448674664455,
+     "name": "Robgoblin Pondblasters",
+     "level": 5,
+     "max_health": 100,
+     "damage": 8
+    }
+   ],
+   "windows": [
+    {
+     "video": "NxCRMj7CYrM",
+     "seconds": [
+      34,
+      48
+     ],
+     "frames_read": 11,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      3,
+      5
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "D2kwVKfYErU",
+     "seconds": [
+      1100,
+      1112
+     ],
+     "frames_read": 14,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      3,
+      5
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "7EhhTD76xog",
+     "seconds": [
+      42,
+      42
+     ],
+     "frames_read": 14,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Sandscale Scavenger",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_sandscale_scavenger_l3_enemy",
+     "name": "Sandscale Scavenger",
+     "level": 3,
+     "max_health": 140,
+     "damage": 11
+    }
+   ],
+   "windows": [
+    {
+     "video": "rWTxDOHv-eY",
+     "seconds": [
+      66,
+      66
+     ],
+     "frames_read": 14,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      13
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Shady Smuggler",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_shady_smuggler_l9_enemy",
+     "name": "Shady Smuggler",
+     "level": 9,
+     "max_health": 260,
+     "damage": 23
+    }
+   ],
+   "windows": [
+    {
+     "video": "piWfe7lXZ9I",
+     "seconds": [
+      390,
+      465
+     ],
+     "frames_read": 20,
+     "frames_on_target": 7,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Card Duelist"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "piWfe7lXZ9I",
+     "seconds": [
+      162,
+      177
+     ],
+     "frames_read": 12,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Card Duelist"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "piWfe7lXZ9I",
+     "seconds": [
+      351,
+      354
+     ],
+     "frames_read": 8,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Card Duelist"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Smuggler Hannah",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "smuggler_hannah",
+     "name": "Smuggler Hannah",
+     "level": 9,
+     "max_health": 780,
+     "damage": 46
+    }
+   ],
+   "windows": [
+    {
+     "video": "ebt4UDSbD20",
+     "seconds": [
+      108,
+      108
+     ],
+     "frames_read": 10,
+     "frames_on_target": 3,
+     "fractions": [
+      [
+       102,
+       0.1
+      ]
+     ],
+     "damage_on_target": [
+      10808,
+      3113
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Stealthy Despoiler",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_stealthy_despoiler_l9_enemy",
+     "name": "Stealthy Despoiler",
+     "level": 9,
+     "max_health": 260,
+     "damage": 23
+    }
+   ],
+   "windows": [
+    {
+     "video": "i7ZWB-fF9x4",
+     "seconds": [
+      45,
+      78
+     ],
+     "frames_read": 17,
+     "frames_on_target": 7,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      4,
+      5
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "uhM3h5OTPNk",
+     "seconds": [
+      14,
+      28
+     ],
+     "frames_read": 20,
+     "frames_on_target": 2,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      8
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "4kAFL0X0KkA",
+     "seconds": [
+      660,
+      666
+     ],
+     "frames_read": 15,
+     "frames_on_target": 4,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      4
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Stone Heart",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_stone_heart_l13_boss",
+     "name": "Stone Heart",
+     "level": 13,
+     "max_health": 1020,
+     "damage": 62
+    }
+   ],
+   "windows": [
+    {
+     "video": "4p_o96F9oig",
+     "seconds": [
+      40,
+      96
+     ],
+     "frames_read": 20,
+     "frames_on_target": 14,
+     "fractions": [
+      [
+       38,
+       1.0
+      ],
+      [
+       44,
+       1.0
+      ],
+      [
+       48,
+       1.0
+      ],
+      [
+       50,
+       1.0
+      ],
+      [
+       52,
+       0.9
+      ],
+      [
+       64,
+       0.8
+      ],
+      [
+       66,
+       0.9
+      ],
+      [
+       68,
+       0.85
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      16
+     ],
+     "player_jobs": [
+      "Warrior"
+     ],
+     "attackers_max": 2,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "WAWU_4ZDmkE",
+     "seconds": [
+      72,
+      102
+     ],
+     "frames_read": 20,
+     "frames_on_target": 12,
+     "fractions": [
+      [
+       70,
+       1.0
+      ],
+      [
+       72,
+       0.9
+      ],
+      [
+       82,
+       0.75
+      ],
+      [
+       92,
+       0.8
+      ],
+      [
+       94,
+       0.75
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 2,
+     "defeated": false,
+     "seconds_full_bar": 48.0,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "k0ZtpApTOn8",
+     "seconds": [
+      724,
+      730
+     ],
+     "frames_read": 9,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Surfmonger Arthur",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_surfmonger_arthur_l9_boss",
+     "name": "Surfmonger Arthur",
+     "level": 9,
+     "max_health": 780,
+     "damage": 46
+    }
+   ],
+   "windows": [
+    {
+     "video": "z4ndzULrtQg",
+     "seconds": [
+      668,
+      692
+     ],
+     "frames_read": 20,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      4
+     ],
+     "player_jobs": [
+      "Card Duelist"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "4kAFL0X0KkA",
+     "seconds": [
+      692,
+      700
+     ],
+     "frames_read": 18,
+     "frames_on_target": 5,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      4
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "8cD0z10mMBk",
+     "seconds": [
+      374,
+      374
+     ],
+     "frames_read": 12,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Taka the Shadow",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_taka_the_shadow",
+     "name": "Taka the Shadow",
+     "level": null,
+     "max_health": 540,
+     "damage": 30
+    }
+   ],
+   "windows": [
+    {
+     "video": "NtjR5zpRDoQ",
+     "seconds": [
+      190,
+      232
+     ],
+     "frames_read": 20,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "NtjR5zpRDoQ",
+     "seconds": [
+      384,
+      400
+     ],
+     "frames_read": 16,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "The Pumpkin Prince",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_the_pumpkin_prince_l5_boss",
+     "name": "The Pumpkin Prince",
+     "level": 5,
+     "max_health": 540,
+     "damage": 30
+    }
+   ],
+   "windows": [
+    {
+     "video": "0LoQe5VZ0PY",
+     "seconds": [
+      98,
+      104
+     ],
+     "frames_read": 9,
+     "frames_on_target": 4,
+     "fractions": [
+      [
+       92,
+       0.2
+      ],
+      [
+       94,
+       0.2
+      ],
+      [
+       96,
+       0.2
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Brawler"
+     ],
+     "attackers_max": 0,
+     "defeated": true,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "kO914_fEkR4",
+     "seconds": [
+      174,
+      178
+     ],
+     "frames_read": 11,
+     "frames_on_target": 7,
+     "fractions": [
+      [
+       168,
+       0.1
+      ],
+      [
+       176,
+       0.05
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [
+      5
+     ],
+     "player_levels": [
+      10
+     ],
+     "player_jobs": [
+      "Warrior"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "_bVlS3zFvos",
+     "seconds": [
+      132,
+      132
+     ],
+     "frames_read": 4,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [
+      "Warrior"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Thugawug Bumbler!",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "thugawug_bumbler",
+     "name": "Thugawug Bumbler!",
+     "level": 9,
+     "max_health": 260,
+     "damage": 23
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 5064655448674664454,
+     "name": "Thugawug Bumbler!",
+     "level": 9,
+     "max_health": 180,
+     "damage": 8
+    }
+   ],
+   "windows": [
+    {
+     "video": "D2kwVKfYErU",
+     "seconds": [
+      646,
+      658
+     ],
+     "frames_read": 8,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      2,
+      5
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "D2kwVKfYErU",
+     "seconds": [
+      572,
+      572
+     ],
+     "frames_read": 8,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      1,
+      5
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Thugawug Thug!",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "thugawug_thug",
+     "name": "Thugawug Thug!",
+     "level": 5,
+     "max_health": 180,
+     "damage": 15
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 5064655448674664451,
+     "name": "Thugawug Thug!",
+     "level": 5,
+     "max_health": 100,
+     "damage": 8
+    }
+   ],
+   "windows": [
+    {
+     "video": "EScx8bXeExk",
+     "seconds": [
+      742,
+      742
+     ],
+     "frames_read": 2,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "PYY8FrnOH9U",
+     "seconds": [
+      138,
+      138
+     ],
+     "frames_read": 2,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "pvBqJO3H0gM",
+     "seconds": [
+      26,
+      26
+     ],
+     "frames_read": 8,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Tormented Spirit",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_tormented_spirit",
+     "name": "Tormented Spirit",
+     "level": null,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "NtXTmB-wPW0",
+     "seconds": [
+      28,
+      54
+     ],
+     "frames_read": 20,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      10
+     ],
+     "player_jobs": [
+      "Brawler"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "yv37TmrcE-M",
+     "seconds": [
+      156,
+      170
+     ],
+     "frames_read": 19,
+     "frames_on_target": 7,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      12
+     ],
+     "player_jobs": [
+      "Adventurer"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "b4a3fPvP_M4",
+     "seconds": [
+      60,
+      64
+     ],
+     "frames_read": 16,
+     "frames_on_target": 3,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Troll Bone Shaman",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58_troll_bone_shaman_l1_enemy",
+     "name": "Troll Bone Shaman",
+     "level": 1,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102010,
+     "name": "Troll Bone Shaman",
+     "level": 1,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102011,
+     "name": "Troll Bone Shaman",
+     "level": 1,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102012,
+     "name": "Troll Bone Shaman",
+     "level": 1,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102017,
+     "name": "Troll Bone Shaman",
+     "level": 9,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102018,
+     "name": "Troll Bone Shaman",
+     "level": 9,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102023,
+     "name": "Troll Bone Shaman",
+     "level": 13,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102024,
+     "name": "Troll Bone Shaman",
+     "level": 14,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102031,
+     "name": "Troll Bone Shaman",
+     "level": 15,
+     "max_health": 100,
+     "damage": 7
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 131000102032,
+     "name": "Troll Bone Shaman",
+     "level": 16,
+     "max_health": 100,
+     "damage": 7
+    }
+   ],
+   "windows": [
+    {
+     "video": "bIXHKm8tK78",
+     "seconds": [
+      456,
+      456
+     ],
+     "frames_read": 14,
+     "frames_on_target": 1,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [],
+     "player_jobs": [],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Troll Roughguard",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "troll_roughguard",
+     "name": "Troll Roughguard",
+     "level": 9,
+     "max_health": 260,
+     "damage": 23
+    },
+    {
+     "source": "field_enemies.json",
+     "id": 5064655448674664461,
+     "name": "Troll Roughguard",
+     "level": 9,
+     "max_health": 180,
+     "damage": 8
+    }
+   ],
+   "windows": [
+    {
+     "video": "FiWCkh0St38",
+     "seconds": [
+      90,
+      90
+     ],
+     "frames_read": 12,
+     "frames_on_target": 5,
+     "fractions": [
+      [
+       108,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      1245,
+      1245,
+      1245,
+      1867
+     ],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Ninja"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "xYD0YcUvyzI",
+     "seconds": [
+      374,
+      374
+     ],
+     "frames_read": 11,
+     "frames_on_target": 4,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      17
+     ],
+     "player_jobs": [
+      "Medic"
+     ],
+     "attackers_max": 1,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Two of Three",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "w58b_two_of_three",
+     "name": "Two of Three",
+     "level": null,
+     "max_health": 180,
+     "damage": 15
+    }
+   ],
+   "windows": [
+    {
+     "video": "dCKyNMH0eDo",
+     "seconds": [
+      54,
+      96
+     ],
+     "frames_read": 19,
+     "frames_on_target": 14,
+     "fractions": [
+      [
+       54,
+       1.0
+      ],
+      [
+       58,
+       1.0
+      ]
+     ],
+     "damage_on_target": [
+      474,
+      10808,
+      3113,
+      6226,
+      -5404,
+      464
+     ],
+     "health_texts": [],
+     "levels_read": [
+      20
+     ],
+     "player_levels": [
+      20
+     ],
+     "player_jobs": [
+      "Archer"
+     ],
+     "attackers_max": 2,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  },
+  {
+   "name": "Willow Slamdash",
+   "rows": [
+    {
+     "source": "enemies.json",
+     "id": "willow_slamdash",
+     "name": "Willow Slamdash",
+     "level": 13,
+     "max_health": 340,
+     "damage": 31
+    }
+   ],
+   "windows": [
+    {
+     "video": "A2kA_ji8PFs",
+     "seconds": [
+      80,
+      82
+     ],
+     "frames_read": 15,
+     "frames_on_target": 0,
+     "fractions": [],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      7
+     ],
+     "player_jobs": [
+      "Demo Derby Driver"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "A2kA_ji8PFs",
+     "seconds": [
+      176,
+      202
+     ],
+     "frames_read": 20,
+     "frames_on_target": 2,
+     "fractions": [
+      [
+       194,
+       0.35
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      7
+     ],
+     "player_jobs": [
+      "Demo Derby Driver"
+     ],
+     "attackers_max": 0,
+     "defeated": false,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    },
+    {
+     "video": "A2kA_ji8PFs",
+     "seconds": [
+      32,
+      32
+     ],
+     "frames_read": 14,
+     "frames_on_target": 1,
+     "fractions": [
+      [
+       32,
+       0.0
+      ]
+     ],
+     "damage_on_target": [],
+     "health_texts": [],
+     "levels_read": [],
+     "player_levels": [
+      7
+     ],
+     "player_jobs": [
+      "Demo Derby Driver"
+     ],
+     "attackers_max": 0,
+     "defeated": true,
+     "seconds_full_bar": null,
+     "fights": [],
+     "estimate_max_health": null
+    }
+   ],
+   "estimate_max_health": null,
+   "health_texts": []
+  }
+ ],
+ "not_in_video": [
+  "Alpha Wolf",
+  "Banshee",
+  "Bats",
+  "Bear",
+  "Bigfoot",
+  "Bixie Battlemage",
+  "Bixie Soldier",
+  "Black Widow",
+  "Bone Bog Skeleton",
+  "Brutus the Brute",
+  "Cakeling",
+  "Chugawump",
+  "Collin",
+  "Counselor Jake",
+  "Cray",
+  "Cruel Fairy Cultist",
+  "Evil Postman",
+  "Floren",
+  "Ghost Dwarf",
+  "Ghost Miner",
+  "Giant Bat",
+  "Giant Toad",
+  "Gloam Creature",
+  "Gloam Overlord",
+  "Gloamling",
+  "Hogosh",
+  "Hooligan",
+  "Hooligan Archer",
+  "Ice Troll",
+  "Jarvus",
+  "Mac",
+  "Man-Eating Plant",
+  "Mudshell",
+  "Mushroom Gigas",
+  "Ozymandias",
+  "Raven",
+  "Robgoblin Mage",
+  "Sandscale Hunter",
+  "Sandscale Water-seeker",
+  "Scavenger Swooper",
+  "Shambler Miner",
+  "Skullz Brawler",
+  "Smuggler Boss",
+  "Smuggler Han",
+  "Snake",
+  "Stompenmugg",
+  "Thugawug Fumbler",
+  "Thugawug Sneak!",
+  "Troll",
+  "Troll Naturalist",
+  "Troll Spider Trainer",
+  "Vicious Vinewolf",
+  "Warthog",
+  "Wolf",
+  "Wraith",
+  "Yeti",
+  "Zandro Rageracer"
+ ]
+}

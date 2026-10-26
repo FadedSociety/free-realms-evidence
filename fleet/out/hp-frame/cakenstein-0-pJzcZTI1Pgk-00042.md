@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=cakenstein-0-pJzcZTI1Pgk-00042 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2736, 4, 866] model=claude-haiku-5-5 -->
+# Cakenstein pJzcZTI1Pgk 42s
+
+{"screen": "combat", "target": {"name": "Cakenstein", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Scruffy Hentingstun", "level": 16, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Cakenstein boss bar at top reads full red with no visible loss; the creature is the large pink cake figure top-left, its name above it is not legible, and no damage numbers are legible. The player is attacking with a yellow effect. The enemy level is not shown."}

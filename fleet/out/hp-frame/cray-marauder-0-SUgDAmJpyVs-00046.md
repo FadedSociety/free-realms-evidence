@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=cray-marauder-0-SUgDAmJpyVs-00046 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2737, 4, 973] model=claude-haiku-5-5 -->
+# Cray Marauder SUgDAmJpyVs 46s
+
+{"screen": "combat", "target": {"name": "Cray Marauder", "level": null, "health_fraction": 0.5, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -98, "on": "other", "color": "yellow"}, {"value": -79, "on": "other", "color": "yellow"}, {"value": -73, "on": "other", "color": "red"}], "attackers_visible": 1, "player": {"name": "Cyliena Velnarin", "level": 4, "job": "Brawler", "health_fraction": 0.91}, "target_defeated": false, "notes": "Player fights a Cray Marauder (overhead bar about half green, name level not legible); damage numbers float in the scene, attribution to target uncertain."}

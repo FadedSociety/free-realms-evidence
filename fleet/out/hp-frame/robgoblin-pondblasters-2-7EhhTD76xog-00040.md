@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=robgoblin-pondblasters-2-7EhhTD76xog-00040 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2772, 4, 593] model=claude-haiku-5-5 -->
+# Robgoblin Pondblasters 7EhhTD76xog 40s
+
+{"screen": "world", "target": {"name": "Robgoblin Pondblaster", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Brad Viperorder", "level": 20, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Only the quest tracker label 'Robgoblin Pondblaster' (distance ~32m) is visible under the 'Active Quest! Private Gorglemain' entry; no enemy health bar or combat on screen, player stands in water with a fire-cowl ninja-guild nameplate on another character."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ed-sullenfangs-1-wGhGnTihqpU-00078 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2742, 4, 610] model=claude-haiku-5-5 -->
+# Ed Sullenfangs wGhGnTihqpU 78s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Night exploration view with no combat; the only name over a character is the yellow player nameplate 'Mia Icemeadows <Werewolf Vampire Husky School>'. No Ed Sullenfangs enemy, health bar, or tracker label is visible, and the Honey Safeguard quest log does not name him."}

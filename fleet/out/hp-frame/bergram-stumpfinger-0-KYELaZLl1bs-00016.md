@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-0-KYELaZLl1bs-00016 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3158, 4, 787] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger KYELaZLl1bs 16s
+
+{"screen": "world", "target": {"name": "Bergram Stumpfinger", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player is exploring a dark swamp area; a faint name label with a small bar sits above a distant glowing blue object, too small and blurry to read level or bar fill. Goal tracker reads 'Defeat Bergram Stumpfinger' with no distance shown. No fight visible."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=one-of-three-2-uMQMQNSxVLs-00336 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2733, 4, 874] model=claude-haiku-5-5 -->
+# One of Three uMQMQNSxVLs 336s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -61, "on": "other", "color": "white"}], "attackers_visible": 0, "player": {"name": "Jason Shadowz", "level": 20, "job": "Archer", "health_fraction": 0.7}, "target_defeated": false, "notes": "No 'One of Three' creature is visible; the only label is the player's 'Jason Shadowz <Eclipse Werewolf Pack>' title with a -61 number, and the Final Stretch race quest panel is shown with no tracker or enemy bar for the picked target."}

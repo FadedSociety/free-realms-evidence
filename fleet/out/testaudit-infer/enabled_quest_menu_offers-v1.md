@@ -1,0 +1,16 @@
+<!-- fleet job=testaudit-infer id=enabled_quest_menu_offers-v1 status=done turns=4 usd=0.0051 tokens(read,write,in,out)=[51312, 24742, 10, 2912] model=claude-haiku-5-5 -->
+# tests/enabled_quest_menu_offers.rs
+
+{"file": "tests/enabled_quest_menu_offers.rs",
+ "tests": [
+  {"name": "every_enabled_quest_is_offered_by_its_own_giver", "verdict": "keep", "covered_by": null, "reason": "Only test that walks the real 26/8 to 26/10 to 26/6 menu for every enabled quest and asserts each is offered exactly once by its own giver with the authored title. Similar files check giver binding and drawable givers statically, not the offer path."},
+  {"name": "a_disabled_quest_is_never_offered", "verdict": "keep", "covered_by": null, "reason": "Refusal check: disabled quests must never appear in any menu. Walks every giver of disabled records with objectives. No equally strong menu-level test found elsewhere."},
+  {"name": "an_out_of_range_or_wrong_giver_click_offers_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal check: out-of-range, wrong-zone, wrong-giver, truncated and bad-flag clicks must offer nothing and change no state or save. Includes a control walk. Keep as security/refusal coverage."},
+  {"name": "the_offer_survives_a_real_reload_and_is_per_character", "verdict": "keep", "covered_by": null, "reason": "Persistence and per-character isolation: pending offer survives a save/load cycle and a second character cannot accept the first's offer. Persistence checks are not removable without an equal test."},
+  {"name": "the_offer_menu_does_not_consume_the_quest_or_the_actor", "verdict": "keep", "covered_by": null, "reason": "Checks that Goodbye and declining an offer change neither state nor save bytes. Refusal/no-side-effect check; keep."},
+  {"name": "the_gate_uses_no_dev_commands", "verdict": "keep", "covered_by": null, "reason": "Guard that the gate only sends ordinary client menu requests (no 15/x dev chat). Canary-style check on the harness. A same-named test exists in tests/quest_item_reward.rs but for a different chapter, so it is not a duplicate of this one's content; keep."},
+  {"name": "the_enabled_set_is_the_shipped_one", "verdict": "keep", "covered_by": null, "reason": "Canary: fails if enabled content count drops below 50 and checks that every enabled quest is in a jobs.json union and has a placed giver. The giver half may overlap tests/enabled_quest_reachability.rs::every_enabled_quest_has_a_drawable_giver, which was not read in full, so this is kept conservatively."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.7,
+ "notes": "All seven tests are the sole menu-level or canary checks in this file, and the similar files (npc_interaction.rs, quest_giver_rows.rs, enabled_quest_reachability.rs) cover static binding or drawability rather than the full offer path. The only plausible overlap is the last test's giver check versus enabled_quest_reachability.rs, which was not opened. No obsolescence found: nothing in the file pins behaviour replaced by a later task, although the file was last changed by T465 for exclusive-quest layers. Confidence is moderate because I read the similar files only by name and test list, not by body."}

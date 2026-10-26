@@ -1,0 +1,17 @@
+<!-- fleet job=testaudit-infer id=mount_stats-v1 status=done turns=4 usd=0.0046 tokens(read,write,in,out)=[48204, 21897, 10, 2808] model=claude-haiku-5-5 -->
+# tests/mount_stats.rs
+
+{"file": "tests/mount_stats.rs",
+ "tests": [
+  {"name": "boarding_sends_the_ride_stat_block_to_the_owner_only", "verdict": "keep", "covered_by": null, "reason": "Only test that checks the 38/7 stat block on boarding (speed, glide block, GlideEnabled, GlideAccel, JumpHeight) and that observers get none. Also contains a refused-board check that changes nothing and a re-board check. mount_wired.rs checks removal/summon/board via has()/removes_ride, not stat payloads."},
+  {"name": "the_fire_hawk_glides_and_the_pogo_stick_jumps", "verdict": "keep", "covered_by": null, "reason": "Only assertion of the Fire Hawk glide values and Pogo Stick jump value in the 38/7 block; no other file pins these stat values."},
+  {"name": "every_ride_end_restores_the_on_foot_stats", "verdict": "keep", "covered_by": null, "reason": "Only test that the on-foot restore (speed 8, GlideEnabled 0, JumpHeight 0) is sent on every ride end (put-away, zoning, knockout, battle, item traded, never-boarded). mount_wired.rs::a_knockout_... checks ride removal only, not the stat restore. Covers refusal-style 'sends nothing on repeat' checks too."},
+  {"name": "summoning_while_mounted_restores_then_replaces", "verdict": "keep", "covered_by": null, "reason": "PR #106 canary by its doc line; asserts the restore-then-replace ordering and that the old glide does not persist into the new ride. Keep as a canary."},
+  {"name": "on_foot_speed_matches_the_captured_snapshot", "verdict": "keep", "covered_by": null, "reason": "Checks the restored on-foot speed against the captured startup snapshot bits; a data-grounded check not duplicated elsewhere in the pack."},
+  {"name": "an_upgradable_ride_glides_only_when_trained", "verdict": "keep", "covered_by": null, "reason": "Only test of the is_upgraded/trained glide branch via catalogue edits; a refusal-like gate (untrained ride must not glide)."},
+  {"name": "mount_stats_bounds_are_enforced", "verdict": "keep", "covered_by": null, "reason": "Hostile-input bounds test (negative/high jump, infinite, NaN, unknown key, inverted glide, unsourced trained glide). tests/mounts.rs has catalogue tests but no stat-bound or NaN checks, so nothing equivalent was found. Keep."},
+  {"name": "mounted_allowance_uses_the_ride_speed", "verdict": "keep", "covered_by": null, "reason": "Only test of the riding mount_multiplier (1.25 for Wolf, 1.0 for Lawn Chair/on foot) and the gateway's one-second movement clamp on and off a ride. Not found in mount_wired.rs or mounts.rs. Keep, though the gateway movement half could later be moved to a movement-focused file."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.7,
+ "notes": "Checked the rest of the file (lines 230-642), mounts.rs and mount_wired.rs by name and grep. No stat-bound, 38/7 payload, or mounted-speed assertions were found elsewhere, so no test is marked superseded or duplicate. mount_wired.rs covers ride summon/board/removal and knockout/battle/zoning removal, which overlaps only the ride-removal part of every_ride_end_restores_the_on_foot_stats. The file is up to date (last changed by T483, which added the T482 roster-row fixtures). I did not read mount_routing.rs or the other similar files in full, so the gateway allowance overlap is unchecked."}

@@ -1,0 +1,23 @@
+<!-- fleet job=testaudit-infer id=piece_058-v1 status=done turns=2 usd=0.0031 tokens(read,write,in,out)=[11349, 14336, 6, 2471] model=claude-haiku-5-5 -->
+# tests/piece_058.rs
+
+{"file": "tests/piece_058.rs",
+ "tests": [
+  {"name": "respawn_window_packet_uses_the_encounter_family_and_two_trailing_fields", "verdict": "keep", "covered_by": null, "reason": "Only check of the 41/125 wire body (family header plus two i32 fields, order id/instance/timer/cost) in this suite; the other files do not encode this packet."},
+  {"name": "respawn_window_zero_timer_keeps_the_client_default", "verdict": "keep", "covered_by": null, "reason": "Pins the zero-timer edge case the native display handler relies on; no equivalent found elsewhere."},
+  {"name": "respawn_window_decode_rejects_other_packets_and_short_bodies", "verdict": "keep", "covered_by": null, "reason": "Hostile/short-input refusal check for the decoder; keep under the refusal rule."},
+  {"name": "respawn_hide_packet_is_the_bare_family_header", "verdict": "keep", "covered_by": null, "reason": "Wire-shape check for 41/126 hide packet; unique to this module."},
+  {"name": "safe_teleport_request_is_a_bare_122", "verdict": "keep", "covered_by": null, "reason": "Checks the opcode-122 empty body and refusal of extra bytes and wrong opcode; the warpstone file's safe-teleport tests exercise server behaviour, not this decoder."},
+  {"name": "first_knockout_emits_one_window_and_repeats_are_refused", "verdict": "keep", "covered_by": null, "reason": "Once-only KO arbiter refusal check on the reconstructed arbiter; the free_revive world-level tests drive a different path (world/gateway), so not the same path."},
+  {"name": "knockout_offer_reports_the_knockout_only_once_per_call", "verdict": "keep", "covered_by": null, "reason": "Refusal check that damage while knocked out cannot re-arm the offer; distinct from the first-KO test (no damage-after-KO assertion there)."},
+  {"name": "safe_revive_is_free_relocates_and_restores_full_health", "verdict": "keep", "covered_by": null, "reason": "Pins the free safe revive body (38/12 relocation, hide 41/126, full health). Overlaps conceptually with free_revive.rs::free_revive_returns_to_the_checkpoint_at_full_health_with_grace but drives the world path with a different checkpoint model, so not provably the same path."},
+  {"name": "paid_revive_charges_the_cost_once_and_keeps_the_spot", "verdict": "keep", "covered_by": null, "reason": "Unit-level paid-revive charge and replay refusal. free_revive.rs::paid_revive_charges_the_price_once_and_revives_in_place covers the same behaviour at world level through a different path; kept as the only arbiter-level check."},
+  {"name": "paid_revive_below_cost_changes_nothing", "verdict": "keep", "covered_by": null, "reason": "Insufficient-coins refusal that changes nothing; refusal check. Analogous to free_revive.rs::paid_revive_below_the_price_changes_nothing at world level, different path."},
+  {"name": "safe_revive_requires_a_finite_destination", "verdict": "keep", "covered_by": null, "reason": "NaN-position hostile input refusal; keep."},
+  {"name": "revive_without_a_knockout_is_refused", "verdict": "keep", "covered_by": null, "reason": "Refusal check that a revive without a KO changes no coins or health."},
+  {"name": "terminal_ledger_settles_each_instance_once_and_never_rewards_a_loss", "verdict": "keep", "covered_by": null, "reason": "Replay and loss-reward security canary for the terminal ledger; no equally strong test found elsewhere."},
+  {"name": "revive_ledger_survives_a_second_knockout_in_the_same_instance", "verdict": "keep", "covered_by": null, "reason": "Anti-exploit canary for repeated terminal messages across a second KO; unique in this suite."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "All 14 tests drive the piece_058 module's unit arbiter, wire encoders and ledger directly, so none is a same-path duplicate of another file. The closest overlap is conceptual: free_revive.rs (free revive, paid revive, paid below price) tests the same player-facing rules at world/gateway level, and the similar-file list gave only names, not bodies, so I did not verify their assertions line by line. If a later pass confirms those assertions are equal or stronger, paid_revive_charges_the_cost_once_and_keeps_the_spot and paid_revive_below_cost_changes_nothing are the candidates to mark superseded. No obsolete tests were found: the file's header cites original client evidence and does not reference a later task that replaces it. The file header says the module is included by path until the lead registers it in src/lib.rs, which may be a reason to revisit once registration lands."}

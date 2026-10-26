@@ -1,0 +1,22 @@
+<!-- fleet job=testaudit-infer id=investigate_the_wolves-v1 status=done turns=3 usd=0.0037 tokens(read,write,in,out)=[23107, 14838, 8, 3162] model=claude-haiku-5-5 -->
+# tests/investigate_the_wolves.rs
+
+{"file": "tests/investigate_the_wolves.rs",
+ "tests": [
+  {"name": "anne_offers_investigate_the_wolves_and_accepts_it", "verdict": "keep", "covered_by": null, "reason": "Only check of the Anne offer/accept path for quest 3000061 with the recovered text ids; the job_level_quest and miner suites use different quests and NPCs."},
+  {"name": "winning_sheep_watch_completes_the_objective_and_returns_to_anne", "verdict": "keep", "covered_by": null, "reason": "Drives the full marker -> Go -> win -> Close -> Talk chain through the NPC giver. sheep_watch_dungeon.rs covers the portal run for the same battle 12350 but not the Anne turn-in and end-screen payout; not clearly duplicated. Could be reduced if that file is confirmed to assert the same reward and end text."},
+  {"name": "a_cancel_credits_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal-style check that a cancel through the 41/109 leave path credits nothing; no equivalent found in the similar files."},
+  {"name": "a_loss_credits_nothing_and_the_free_revive_restores_the_player", "verdict": "keep", "covered_by": null, "reason": "Loss path and free 41/122 revive are a distinct behaviour; keep."},
+  {"name": "premature_and_forged_turnins_change_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal and hostile-input check (premature, forged, replayed requests); never removable without an equally strong named test. sheep_watch_dungeon::refusals_change_nothing covers a different quest's refusals."},
+  {"name": "the_quest_and_reward_survive_a_reload", "verdict": "keep", "covered_by": null, "reason": "Persistence check across reconnect before and after the win; keep. job_level_quest::the_progress_and_reward_survive_a_reload is a similar persistence test on another quest, not the same path."},
+  {"name": "a_second_player_cannot_use_the_first_players_win", "verdict": "keep", "covered_by": null, "reason": "Cross-character isolation check; security-type, keep. Similar isolation tests exist in other files for other quests."},
+  {"name": "a_live_change_before_the_turn_in_survives", "verdict": "keep", "covered_by": null, "reason": "Canary for the live-inventory payout. job_level_quest.rs::a_live_change_before_the_turn_in_survives tests a coin-only grant on another quest; this test adds an item grant and a 26/8 end-screen path, so it is not an exact duplicate. Keep."},
+  {"name": "a_vendor_purchase_before_the_turn_in_survives", "verdict": "keep", "covered_by": null, "reason": "Real merchant transaction (26/10 Shop -> 66/43 buy) between win and turn-in; no other named test drives the vendor path here. Keep."},
+  {"name": "an_over_cap_turn_in_is_refused_and_stays_pending", "verdict": "keep", "covered_by": null, "reason": "Atomic refusal at the wallet cap with retry; job_level_quest::a_near_cap_wallet_refuses_the_turn_in_atomically is the closest analogue on another quest. Refusal check, keep."},
+  {"name": "a_mining_movie_refuses_the_talk_until_it_closes", "verdict": "keep", "covered_by": null, "reason": "Busy-rule refusal with a canary (same Talk works after movie cancel). Keep."},
+  {"name": "the_quest_record_text_giver_and_battle_resolve", "verdict": "keep", "covered_by": null, "reason": "Loader/encoder resolution check for the authored record, giver binding and battle; not a request-path test but not clearly covered by sheep_watch_dungeon::the_row_is_inside_the_loader_and_reward_bounds. Keep, though it is a candidate for consolidation with that test."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "Low-effort pass: I read the bodies of only three tests (the live-change pair and the vendor/mining/cancel signatures) plus the sheep_watch_dungeon and job_level_quest test lists. Overlap is real in shape (battle 12350 win path overlaps sheep_watch_dungeon.rs; the live-change canary mirrors job_level_quest.rs), but each test here drives a distinct Anne/quest-3000061 chain or an extra grant, so I kept all. Possible consolidation candidates, not removed: the loader test versus sheep_watch_dungeon::the_row_is_inside_the_loader_and_reward_bounds, and the win-path test versus sheep_watch_dungeon's run tests. Verify those bodies before removing anything."}
+</result>

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00406 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3147, 4, 1150] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 406s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": 0.75, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Warthog Charger", "health_fraction": 0.65}], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player fights a Warthog Charger; Elder Mugwort appears only in the top boss health bar (red fill about three-quarters), not as a creature above a head in this frame."}

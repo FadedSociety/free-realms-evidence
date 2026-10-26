@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-2-BJy3sgpdqpw-00208 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3153, 4, 830] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 208s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Fight with spell effects in a dark area; a yellow -2490 hit shows, but no Ocean Cray Defender name or health bar is legible above any creature. Goals panel lists Kelp Knight and Tidemover, not the picked enemy."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=foreman-ironfist-0-X6zfuEFRcQk-00194 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3153, 4, 895] model=claude-haiku-5-5 -->
+# Foreman Ironfist X6zfuEFRcQk 194s
+
+{"screen": "combat", "target": {"name": "Foreman Ironfist", "level": null, "health_fraction": 0.3, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 280, "on": "target", "color": "red"}, {"value": 3237, "on": "target", "color": "yellow"}, {"value": 14569, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "The Ferluxia", "level": 20, "job": "Ninja", "health_fraction": 0.48}, "target_defeated": false, "notes": "Ninja player attacking Foreman Ironfist in Haunted Mines; boss bar about 30% filled; 'not enough energy' message shown; 'Defeat Foreman Ironfist' goal active."}

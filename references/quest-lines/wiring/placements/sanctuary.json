@@ -1,0 +1,842 @@
+[
+ {
+  "npc_id": 9500000442,
+  "name": "Banter",
+  "zone": "Sanctuary",
+  "position": [
+   -1554.0695,
+   -37.08123,
+   323.9954
+  ],
+  "heading": -1.99139,
+  "model": "fairy_m_farmer_01.adr",
+  "model_id": 32,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3377",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000444,
+  "name": "Barton",
+  "zone": "Sanctuary",
+  "position": [
+   -1288.0,
+   -14.99535,
+   336.0
+  ],
+  "heading": -2.94020008,
+  "model": "human_m_burton_01.agr",
+  "model_id": 365,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3580",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000445,
+  "name": "Baxi Sparkletoes",
+  "zone": "Sanctuary",
+  "position": [
+   -1272.5175,
+   -14.195691,
+   212.49059
+  ],
+  "heading": 1.389184,
+  "model": "fairy_sanctuary_f.adr",
+  "model_id": 384,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3650",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000446,
+  "name": "Bella",
+  "zone": "Sanctuary",
+  "position": [
+   -1372.4197,
+   -28.62082,
+   185.58435
+  ],
+  "heading": -0.488419997,
+  "model": "fairy_sanctuary_f.adr",
+  "model_id": 384,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3398",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000448,
+  "name": "Bellis",
+  "zone": "Sanctuary",
+  "position": [
+   -1271.1044,
+   -14.23458,
+   195.22244
+  ],
+  "heading": 0.668550012,
+  "model": "fairy_seaside_f_01.adr",
+  "model_id": 401,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3655",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000023,
+  "name": "Beth Callahan",
+  "zone": "Sanctuary",
+  "position": [
+   -1379.9756,
+   -24.526918,
+   419.66104
+  ],
+  "heading": -1.838184,
+  "model": "human_f_medicstudent.agr",
+  "model_id": 824,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3587",
+  "near_zone": "Sanctuary",
+  "quests_waiting": [
+   "q3090027 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000450,
+  "name": "Bezzle",
+  "zone": "Sanctuary",
+  "position": [
+   -1285.1818,
+   -14.385261,
+   341.38376
+  ],
+  "heading": 2.52264593,
+  "model": "robgoblin_m_banker.adr",
+  "model_id": 4106,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3579",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000454,
+  "name": "Brent",
+  "zone": "Sanctuary",
+  "position": [
+   -1398.4119,
+   -29.4235,
+   279.55112
+  ],
+  "heading": -0.863035,
+  "model": "human_m_freestyle_11.agr",
+  "model_id": 557,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3539",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000455,
+  "name": "Bruce",
+  "zone": "Sanctuary",
+  "position": [
+   -1405.09,
+   -34.49589,
+   496.5363
+  ],
+  "heading": -0.568856,
+  "model": "human_rockstar_m.adr",
+  "model_id": 20,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2292",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000458,
+  "name": "Cadie",
+  "zone": "Sanctuary",
+  "position": [
+   -1256.5768,
+   -14.196147,
+   229.7627
+  ],
+  "heading": -1.93813001,
+  "model": "fairy_seaside_f_01.adr",
+  "model_id": 401,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3651",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000464,
+  "name": "Coin Farmer Dang Dang",
+  "zone": "Sanctuary",
+  "position": [
+   -1295.7673,
+   -14.00394,
+   318.4211
+  ],
+  "heading": 2.43222998,
+  "model": "chugawug_farmer_m.adr",
+  "model_id": 488,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3572",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000466,
+  "name": "Crofti",
+  "zone": "Sanctuary",
+  "position": [
+   -1264.3824,
+   -14.225539,
+   276.819
+  ],
+  "heading": -1.81506396,
+  "model": "fairy_m_blacksmith_01.agr",
+  "model_id": 574,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3640",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000471,
+  "name": "Dusti Rodez",
+  "zone": "Sanctuary",
+  "position": [
+   -1390.8529,
+   -26.98959,
+   349.9977
+  ],
+  "heading": -2.43903208,
+  "model": "fairy_farmer_f.adr",
+  "model_id": 377,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3552",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000473,
+  "name": "Edwin",
+  "zone": "Sanctuary",
+  "position": [
+   -1250.3472,
+   -14.225539,
+   219.84692
+  ],
+  "heading": -2.00274491,
+  "model": "human_m_edwin.agr",
+  "model_id": 4748,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3657",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000475,
+  "name": "Farmer Wug",
+  "zone": "Sanctuary",
+  "position": [
+   -1443.4198,
+   -35.901257,
+   315.6108
+  ],
+  "heading": 0.118100999,
+  "model": "chugawug_farmer_m.adr",
+  "model_id": 488,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3452",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000086,
+  "name": "Felipe",
+  "zone": "Sanctuary",
+  "position": [
+   -1276.9783,
+   -14.72255,
+   303.08456
+  ],
+  "heading": -0.771869999,
+  "model": "fairy_m_courier_01.agr",
+  "model_id": 442,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3614",
+  "near_zone": "Sanctuary",
+  "quests_waiting": [
+   "q3130001 objective 0",
+   "q3130004 objective 2",
+   "q3130005 objective 3",
+   "q3130005 objective 4",
+   "q3130009 objective 2"
+  ]
+ },
+ {
+  "npc_id": 9500000478,
+  "name": "Finklestein",
+  "zone": "Sanctuary",
+  "position": [
+   -1282.0,
+   -14.34194,
+   367.0
+  ],
+  "heading": 1.67903996,
+  "model": "human_m_costume_finklestein.agr",
+  "model_id": 1713,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3600",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000482,
+  "name": "Florina",
+  "zone": "Sanctuary",
+  "position": [
+   -1399.3837,
+   -29.449934,
+   278.26196
+  ],
+  "heading": -0.901700003,
+  "model": "fairy_sanctuary_f.adr",
+  "model_id": 384,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3538",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000483,
+  "name": "Flurti",
+  "zone": "Sanctuary",
+  "position": [
+   -1267.7494,
+   -14.28769,
+   331.39166
+  ],
+  "heading": -1.52144003,
+  "model": "fairy_sanctuary_m_01.adr",
+  "model_id": 398,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3623",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000485,
+  "name": "Ghost Hunter",
+  "zone": "Sanctuary",
+  "position": [
+   -1303.5355,
+   -14.222798,
+   298.76352
+  ],
+  "heading": -0.167109002,
+  "model": "human_m_andrew.agr",
+  "model_id": 438,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3568",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000486,
+  "name": "Glitter",
+  "zone": "Sanctuary",
+  "position": [
+   -1380.6334,
+   -24.553,
+   422.01578
+  ],
+  "heading": -2.2177999,
+  "model": "fairy_f_freestyle_glitter_01.agr",
+  "model_id": 362,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3588",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000489,
+  "name": "Guard Banee",
+  "zone": "Sanctuary",
+  "position": [
+   -1216.3442,
+   3.7568169,
+   312.30713
+  ],
+  "heading": -0.894525974,
+  "model": "fairy_royalguard_m.adr",
+  "model_id": 345,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3676",
+  "near_zone": "Sanctuary",
+  "quests_waiting": [
+   "q3040008 objective 3"
+  ]
+ },
+ {
+  "npc_id": 9500000490,
+  "name": "Guard Snapdragon",
+  "zone": "Sanctuary",
+  "position": [
+   -1293.969,
+   -14.54378,
+   325.96902
+  ],
+  "heading": 1.99407995,
+  "model": "fairy_royalguard_m.adr",
+  "model_id": 345,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3578",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000492,
+  "name": "Gulsh",
+  "zone": "Sanctuary",
+  "position": [
+   -1317.8207,
+   -37.87405,
+   309.27405
+  ],
+  "heading": -1.62969995,
+  "model": "troll_peasant_02.adr",
+  "model_id": 167,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3560",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000495,
+  "name": "Helga Humbleloaf",
+  "zone": "Sanctuary",
+  "position": [
+   -1292.5607,
+   -14.222776,
+   278.35022
+  ],
+  "heading": 0.557256955,
+  "model": "human_f_chef_01.agr",
+  "model_id": 359,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3564",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000496,
+  "name": "Ikee",
+  "zone": "Sanctuary",
+  "position": [
+   -1269.0454,
+   -14.28768,
+   339.73743
+  ],
+  "heading": -1.45788002,
+  "model": "fairy_sanctuary_m_01.adr",
+  "model_id": 398,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3624",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000498,
+  "name": "Jeni Shortfuse",
+  "zone": "Sanctuary",
+  "position": [
+   370.6606,
+   115.225,
+   -8.103738
+  ],
+  "heading": -0.220287,
+  "model": "human_f_freestyle_06.agr",
+  "model_id": 548,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2378",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3030032 objective 1",
+   "q3030032 objective 3"
+  ]
+ },
+ {
+  "npc_id": 9500000499,
+  "name": "Jestin",
+  "zone": "Sanctuary",
+  "position": [
+   -1266.5746,
+   -14.34303,
+   294.57748
+  ],
+  "heading": -0.742749979,
+  "model": "fairy_m_freestyle_jestin_01.agr",
+  "model_id": 361,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3616",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000501,
+  "name": "Kara Loft",
+  "zone": "Sanctuary",
+  "position": [
+   -1360.5583,
+   -30.573048,
+   267.5858
+  ],
+  "heading": 0.923382988,
+  "model": "human_f_kara_loft.agr",
+  "model_id": 4606,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3545",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000502,
+  "name": "Kellin Warpwatcher",
+  "zone": "Sanctuary",
+  "position": [
+   -1424.6484,
+   -28.323662,
+   346.41522
+  ],
+  "heading": 2.82232961,
+  "model": "fairy_druid_m.adr",
+  "model_id": 468,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3459",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000376,
+  "name": "Lavarius Sparksizzle",
+  "zone": "Sanctuary",
+  "position": [
+   -1240.8615,
+   -14.19615,
+   196.12605
+  ],
+  "heading": -2.00905992,
+  "model": "fairy_m_gilly.adr",
+  "model_id": 762,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3665",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000506,
+  "name": "Morninglory",
+  "zone": "Sanctuary",
+  "position": [
+   261.79507,
+   48.96282,
+   211.63281
+  ],
+  "heading": 0.349949977,
+  "model": "fairy_f_morninglory.agr",
+  "model_id": 731,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3929",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000507,
+  "name": "Napoleon",
+  "zone": "Sanctuary",
+  "position": [
+   -1268.7357,
+   -14.196147,
+   272.35593
+  ],
+  "heading": -0.244037996,
+  "model": "fairy_m_old_01.adr",
+  "model_id": 30,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3630",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000508,
+  "name": "Necronomicus",
+  "zone": "Sanctuary",
+  "position": [
+   -840.8241,
+   -49.89272,
+   -696.3012
+  ],
+  "heading": 1.952378,
+  "model": "necronomicus_m.adr",
+  "model_id": 4220,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2026",
+  "near_zone": "Merry Vale",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000510,
+  "name": "One of Three",
+  "zone": "Sanctuary",
+  "position": [
+   -2020.201,
+   -33.10506,
+   550.6256
+  ],
+  "heading": -2.629269,
+  "model": "human_m_wraith_white.agr",
+  "model_id": 4564,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2833",
+  "near_zone": null,
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000511,
+  "name": "Orchid",
+  "zone": "Sanctuary",
+  "position": [
+   -1265.861,
+   -14.19592,
+   191.88835
+  ],
+  "heading": 1.22878099,
+  "model": "fairy_sanctuary_f.adr",
+  "model_id": 384,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3658",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000164,
+  "name": "Osgood",
+  "zone": "Sanctuary",
+  "position": [
+   -1238.1771,
+   -14.19615,
+   190.59244
+  ],
+  "heading": -1.83369003,
+  "model": "fairy_m_osgood.adr",
+  "model_id": 764,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3670",
+  "near_zone": "Sanctuary",
+  "quests_waiting": [
+   "q3160016 objective 0",
+   "q3160017 objective 1",
+   "q3160024 objective 1",
+   "q3160034 objective 0",
+   "q3160034 objective 2"
+  ]
+ },
+ {
+  "npc_id": 9500000513,
+  "name": "Posey",
+  "zone": "Sanctuary",
+  "position": [
+   -1288.7145,
+   -14.6931,
+   295.96365
+  ],
+  "heading": -1.88986005,
+  "model": "fairychild_f_pigtailsdress.adr",
+  "model_id": 241,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3569",
+  "near_zone": "Sanctuary",
+  "quests_waiting": [
+   "q3040008 objective 1"
+  ]
+ },
+ {
+  "npc_id": 9500000514,
+  "name": "Preston Daly",
+  "zone": "Sanctuary",
+  "position": [
+   -1391.5509,
+   -27.172358,
+   334.9232
+  ],
+  "heading": -1.16716897,
+  "model": "human_m_manager_landon.agr",
+  "model_id": 1457,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3551",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000523,
+  "name": "Rio Cloudjumps",
+  "zone": "Sanctuary",
+  "position": [
+   -1353.3813,
+   -24.40232,
+   326.98505
+  ],
+  "heading": 0.945779966,
+  "model": "human_m_wizard_rio.agr",
+  "model_id": 525,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3557",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000184,
+  "name": "Roscoe",
+  "zone": "Sanctuary",
+  "position": [
+   -1386.3351,
+   -30.39162,
+   242.65764
+  ],
+  "heading": -0.376160001,
+  "model": "human_m_freestyle_01.agr",
+  "model_id": 184,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3407",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000525,
+  "name": "Rose",
+  "zone": "Sanctuary",
+  "position": [
+   -1275.1486,
+   -14.33461,
+   390.1828
+  ],
+  "heading": 1.85735,
+  "model": "fairy_sanctuary_f.adr",
+  "model_id": 384,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3664",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000527,
+  "name": "Ruby",
+  "zone": "Sanctuary",
+  "position": [
+   -1274.8175,
+   -14.195748,
+   218.83417
+  ],
+  "heading": 1.10833202,
+  "model": "fairy_sanctuary_f.adr",
+  "model_id": 384,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3646",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000190,
+  "name": "Sandbur",
+  "zone": "Sanctuary",
+  "position": [
+   -1231.0,
+   4.94757,
+   349.0
+  ],
+  "heading": 1.86758008,
+  "model": "changeling_m.adr",
+  "model_id": 179,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3673",
+  "near_zone": "Sanctuary",
+  "quests_waiting": [
+   "q3160019 objective 0",
+   "q3160023 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000532,
+  "name": "Sergeant Larkspur",
+  "zone": "Sanctuary",
+  "position": [
+   -1479.0936,
+   -33.065235,
+   338.74832
+  ],
+  "heading": -2.26485398,
+  "model": "fairy_royalguard_m.adr",
+  "model_id": 345,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3434",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000534,
+  "name": "Skelly",
+  "zone": "Sanctuary",
+  "position": [
+   -1263.0421,
+   -13.7635,
+   370.0121
+  ],
+  "heading": -1.24565005,
+  "model": "fairy_m_costume_skelly.agr",
+  "model_id": 1708,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3662",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000535,
+  "name": "Speedy",
+  "zone": "Sanctuary",
+  "position": [
+   -1414.1581,
+   -30.63569,
+   287.13123
+  ],
+  "heading": 1.02903392,
+  "model": "fairy_m_freestyle_speedy_01.agr",
+  "model_id": 363,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3456",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000537,
+  "name": "Sunstone Jones",
+  "zone": "Sanctuary",
+  "position": [
+   -1231.4524,
+   5.534741,
+   327.4739
+  ],
+  "heading": 2.40545105,
+  "model": "human_m_sunstone_jones.agr",
+  "model_id": 4605,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3669",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000540,
+  "name": "Tiger the Party Animal",
+  "zone": "Sanctuary",
+  "position": [
+   309.24753,
+   27.300243,
+   464.9833
+  ],
+  "heading": 0.23715501,
+  "model": "human_m_tiger_the_party_animal_holiday.agr",
+  "model_id": 1963,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3974",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000543,
+  "name": "Wake",
+  "zone": "Sanctuary",
+  "position": [
+   -1266.9845,
+   -14.225539,
+   290.2942
+  ],
+  "heading": -1.237623,
+  "model": "human_f_merchant_postman_african.agr",
+  "model_id": 4545,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3617",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500001008,
+  "name": "Hasti",
+  "zone": "Sanctuary",
+  "position": [
+   -2252.73,
+   -15.94524,
+   564.0553
+  ],
+  "heading": -0.250152,
+  "model": "fairychild_m_mohawkshorts.adr",
+  "model_id": 242,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1759",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ }
+]

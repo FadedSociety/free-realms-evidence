@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=piece_057-v1-evidence-r1 status=done turns=1 usd=0.0018 tokens(read,write,in,out)=[0, 11192, 4, 793] model=claude-haiku-5-5 -->
+# tests/piece_057.rs
+
+{"pass": true, "wireable": true, "score": 9, "problems": [], "notes": "The audit marks all 11 tests as keep and does not mark any test superseded, duplicate or obsolete, so no removal verdict needs a covering test. Whole-file removal is correctly false. The refusal, security/eligibility, once-only grant and invalid-table tests are all kept, which matches the lens. The keep reasons contain some uncited 'no other test covers X' claims, but those only support keeping, so they do not change the outcome. The empty removal list can be handed to a builder as it stands. Minor gap: the audit did not cite a covering test for any of the claimed uniqueness, so if a removal is later proposed, that evidence would need to be produced."}

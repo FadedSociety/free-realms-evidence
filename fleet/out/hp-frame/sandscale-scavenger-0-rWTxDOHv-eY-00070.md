@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=sandscale-scavenger-0-rWTxDOHv-eY-00070 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3164, 4, 958] model=claude-haiku-5-5 -->
+# Sandscale Scavenger rWTxDOHv-eY 70s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 167, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": null, "level": 13, "job": "Archer", "health_fraction": 0.9, "health_text": "2737/3082"}, "target_defeated": false, "notes": "No Sandscale Scavenger name or health bar is legible in this frame; the goals panel shows Cactus Jabe and Cactus Bandits quests. A -167 red number floats over a character labelled Tauish Foxshield <Optic Realms>, and a dark creature is partly visible at the left edge with its name unreadable."}

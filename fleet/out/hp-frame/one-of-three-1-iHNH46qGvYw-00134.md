@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=one-of-three-1-iHNH46qGvYw-00134 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2732, 4, 998] model=claude-haiku-5-5 -->
+# One of Three iHNH46qGvYw 134s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 10808, "on": "target", "color": "yellow"}, {"value": 3113, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.9}, "target_defeated": false, "notes": "Archer player attacking a creature near screen centre with large yellow hit numbers (-10808, -3113); the picked enemy's name and bar are not legible at this frame, and an energy warning is shown."}

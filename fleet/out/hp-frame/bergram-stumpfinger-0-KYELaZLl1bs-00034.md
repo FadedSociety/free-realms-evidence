@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-0-KYELaZLl1bs-00034 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3158, 4, 1286] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger KYELaZLl1bs 34s
+
+{"screen": "combat", "target": {"name": "Bergram Stumpfinger", "level": 5, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Bric Bonga", "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 3, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "Boss target frame shows Bergram Stumpfinger (level 5 marker) with a red bar at top, but no legible green health bar over the creature; several player characters fight near a ghostly enemy in a dark cave, and a green-barred Bric Bonga is nearby."}

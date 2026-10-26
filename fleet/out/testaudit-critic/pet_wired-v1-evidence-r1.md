@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=pet_wired-v1-evidence-r1 status=done turns=1 usd=0.0019 tokens(read,write,in,out)=[0, 11773, 4, 950] model=claude-haiku-5-5 -->
+# tests/pet_wired.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "All five tests in tests/pet_wired.rs are marked keep, and whole_file_removable is false. The lens asks for backing on removal verdicts, so there is no removal for me to check. Keeping every test is the conservative choice, and the list can be wired as an empty removal set. The audit's comparisons against tests/pet_routing.rs were not checked beyond its first 200 lines, and they are not needed for a keep. The audit's own caveat stands: the file's header says it does not compile until apply_shared_patch.py has run. That is a question for the owner about whether the file is temporary, not a reason to remove any test. Confidence in the audit is moderate; no problems affect the keep list."}

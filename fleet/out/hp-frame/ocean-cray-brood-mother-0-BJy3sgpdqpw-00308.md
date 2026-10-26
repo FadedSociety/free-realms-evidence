@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00308 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 1078] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 308s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 0.9, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}, {"value": 2490, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player fights the Ocean Cray Brood Mother with fire and blue attack effects; large yellow 2490 hit numbers over the target's mostly green bar; target still alive."}

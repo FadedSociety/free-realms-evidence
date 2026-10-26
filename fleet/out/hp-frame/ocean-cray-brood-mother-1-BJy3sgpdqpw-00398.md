@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00398 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 938] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 398s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Underwater Gray Caves; 'You don't have enough energy for that ability!' message. A blue spotted creature is tumbling on the right, but no legible name or health bar is shown above it. The only readable label is the Jordan Roughtower quest tracker (20m), which is not the picked enemy."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=fungus-golem-0-OrfNBeSJByM-00296 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3176, 4, 834] model=claude-haiku-5-5 -->
+# Fungus Golem OrfNBeSJByM 296s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -152, "on": "other", "color": "orange"}, {"value": -233, "on": "other", "color": "orange"}, {"value": -2490, "on": "other", "color": "orange"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Heavy fire and explosion effects with large orange damage numbers; no legible Fungus Golem name or health bar could be tied to the picked enemy, so its target fields are left null."}

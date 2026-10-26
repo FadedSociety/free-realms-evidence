@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=lazy-swooper-0-wA9BqwA5lr4-00068 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2747, 4, 1199] model=claude-haiku-5-5 -->
+# Lazy Swooper wA9BqwA5lr4 68s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Scavenger Swooper", "health_fraction": null}], "damage_numbers": [{"value": 109, "on": "other", "color": "yellow"}, {"value": 72, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": "Cyliena Velnarin", "level": 18, "job": "Medic", "health_fraction": 0.75}, "target_defeated": false, "notes": "The picked Lazy Swooper is not on screen; the only creature fought is a Scavenger Swooper (bird) being hit by the Medic player, with its bar unreadable. No Lazy Swooper bar is legible, so no health data can be taken from this frame."}

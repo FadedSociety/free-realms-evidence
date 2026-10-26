@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=sandscale-scavenger-0-rWTxDOHv-eY-00062 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3164, 4, 875] model=claude-haiku-5-5 -->
+# Sandscale Scavenger rWTxDOHv-eY 62s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 13, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Combat at dusk with several creatures with red-tinted bars, but no enemy name is legible above any of them, so the picked Sandscale Scavenger cannot be identified; quest tracker shows Defeat Cactus Jabs and Bandits 0/10. Player is a level 13 Archer with a full health bar; the blurred 3082/3082 text is not confirmed."}

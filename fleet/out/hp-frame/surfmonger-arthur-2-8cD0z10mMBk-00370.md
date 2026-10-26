@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=surfmonger-arthur-2-8cD0z10mMBk-00370 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2749, 4, 449] model=claude-haiku-5-5 -->
+# Surfmonger Arthur 8cD0z10mMBk 370s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Katt <The Filmers>", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Frame at 370 s shows a third-person blue-clothed character on a grassy field with a water strip behind; this is not Free Realms HUD (no level circle, job bar, or enemy health bars). No Surfmonger Arthur is visible, so no health reading is possible."}

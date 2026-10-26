@@ -1,0 +1,730 @@
+[
+  {
+    "quest_id": 3000001,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 4201,
+      "count": 4
+    },
+    "evidence": [
+      "locale:4419586: 'Defeat gloam minions'",
+      "notes/Build Guides/Content/Jobs/Adventurer.md:66: tutorial tracker 'Defeat gloam minions - 0/4'",
+      "Resources/Models.txt:3383: 4201^gloamling_m_default.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "The nearby client tutorial dialog identifies the minions as Gloamlings, and our enemy definitions use model 4201. Count 4 is from the guide tracker; the same guide saw 2/4 on screen, so the exact setup is not native-verified."
+  },
+  {
+    "quest_id": 3000004,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 3956,
+      "count": 3
+    },
+    "evidence": [
+      "locale:4419610: 'Defend Darkthorne from the Gloam'",
+      "notes/Build Guides/Content/Jobs/Adventurer.md:69: tracker 'Defend Darkthorne from the Gloam - 0/3'; identifies the red boss line as Gloam Overlord",
+      "Resources/Models.txt:3138: 3956^gloam_m_boss.adr",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/opening_cave.json:1085: Gloam Overlord model_id 3956",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "The guide ties the boss line to Gloam Overlord, but the objective text says only 'the Gloam'. Count 3 is the guide tracker value and may represent defend progress rather than three Overlord kills."
+  },
+  {
+    "quest_id": 3000019,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 4201,
+      "count": 1
+    },
+    "evidence": [
+      "locale:5101948: 'Defeat Gloamlings'",
+      "locale:5101947: Gloamlings came through Darkthorne's portal to Farnum Farmstead",
+      "Resources/Models.txt:3383: 4201^gloamling_m_default.adr",
+      "autopilot-int/prototype/osfr-tools/data/content/enemies.json:98: Gloamling model_id 4201, name_string_id 441457",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "Exact enemy name and model. The client gives a plural target but no numeric count, so count 1 is retained from the draft/default rule."
+  },
+  {
+    "quest_id": 3000024,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 199,
+      "count": 1
+    },
+    "evidence": [
+      "locale:389193: 'Defeat the Thugawug Thug'",
+      "Resources/Npcs.json:16313-16317: 'Thugawug Thug!', model 199, chugawug_m_bandit_01.adr",
+      "Resources/Models.txt:200: 199^chugawug_m_bandit_01.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact named reference row and exact model-table row. The objective is singular but gives no numeric count in client text, so count 1 is retained."
+  },
+  {
+    "quest_id": 3000032,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 199,
+        "count": 1
+      },
+      {
+        "model_id": 199,
+        "count": 2
+      }
+    ],
+    "evidence": [
+      "locale:90715: 'Defeat Thugamug and his two Hands'",
+      "autopilot-int/prototype/osfr-tools/data/content/field_battles.json:428-430: Thugamug model 199",
+      "autopilot-int/prototype/osfr-tools/data/content/field_battles.json:444-446: first Thugamug Henchman model 199",
+      "autopilot-int/prototype/osfr-tools/data/content/field_battles.json:460-462: second Thugamug Henchman model 199",
+      "Resources/Models.txt:200: 199^chugawug_m_bandit_01.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "The two objects represent the leader and his two Hands, which share model 199 in our reconstructed battle roster. The text supplies the 1+2 split; the original actor ids and roster are not recovered."
+  },
+  {
+    "quest_id": 3000040,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 235,
+      "count": 1
+    },
+    "evidence": [
+      "locale:4477: 'Fungus Golem'",
+      "locale:90877: 'Defeat Fungus Golems in the Mushroom Cavern.'",
+      "Resources/Models.txt:236: 235^bear_vinegolem_fungus.adr, description 'Vingolem Bear - Fungus variant'",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "Best matching fungus-golem body, but no exact Fungus Golem actor-to-model row was recovered. Model 186 is a separate wolf-shaped fungus vine-golem variant, so the exact runtime body remains unproven. The plural text has no numeric count; count 1 is the draft default."
+  },
+  {
+    "quest_id": 3000041,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 134,
+      "count": 1
+    },
+    "evidence": [
+      "locale:90896: 'Defeat the floren inside of Bristlewood Glade.'",
+      "autopilot-int/notes/Build Guides/Content/Dungeons/Bristlewood Glade.md:44: Grumpy Amaranthus is a Floren boss",
+      "Resources/Models.txt:135: 134^floren.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "Grumpy Amaranthus is explicitly a Floren; model 134 is the client's base Floren body. No Amaranthus-specific model filename was found, so this is a race-level join rather than a captured actor tuple."
+  },
+  {
+    "quest_id": 3000049,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 840,
+        "count": 1
+      },
+      {
+        "model_id": 821,
+        "count": 1
+      },
+      {
+        "model_id": 832,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:91261: 'Vittorio'; locale:91259: 'Randall'; locale:91260: 'Dimitri'",
+      "Resources/Models.txt:841: 840^human_m_vittorio.agr",
+      "Resources/Models.txt:822: 821^fairy_m_randall.agr",
+      "Resources/Models.txt:833: 832^human_m_dimitri.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "Three exact named character model filenames and one explicit Count each. No Sanctuary Npcs.json row supplied a direct NameId join, so these are filename-level rather than captured actor joins."
+  },
+  {
+    "quest_id": 3000049,
+    "objective": 1,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 840,
+        "count": 1
+      },
+      {
+        "model_id": 821,
+        "count": 1
+      },
+      {
+        "model_id": 832,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:90962: 'Defeat the mercenaries before they escape the Blackspore graveyard.'",
+      "locale:90958: adjacent objective names Vittorio, Randall, and Dimitri",
+      "Resources/Models.txt:841: 840^human_m_vittorio.agr",
+      "Resources/Models.txt:822: 821^fairy_m_randall.agr",
+      "Resources/Models.txt:833: 832^human_m_dimitri.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "The target text says only 'mercenaries'; the adjacent objective names the same three characters from the preceding objective. Count 1 per character is inferred from the three names."
+  },
+  {
+    "quest_id": 3000050,
+    "objective": 3,
+    "kind": "defeat",
+    "found": {
+      "model_id": 415,
+      "count": 1
+    },
+    "evidence": [
+      "locale:90980: 'Defeat Geoffrey to protect the Queen'; locale:70318: 'Geoffrey'",
+      "autopilot-int/prototype/osfr-tools/data/content/npc_spawns_extra.json:39-41: Geoffrey model_id 415, fairy_m_geoffrey.adr",
+      "Resources/Models.txt:416: 415^fairy_m_geoffrey.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact name/model row and a singular objective; count 1."
+  },
+  {
+    "quest_id": 3010005,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 199,
+      "count": 1
+    },
+    "evidence": [
+      "locale:76957: 'Defeat Thugawug Fumblers in Greenwood Forest as an archer.'",
+      "locale:76955: dialog spells the target 'Thugawug Bumblers'",
+      "Resources/Models.txt:200: 199^chugawug_m_bandit_01.adr",
+      "Resources/Models.txt:201: 200^chugawug_f_bandit_01.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "Model 199 is the best match for the generic Thugawug bandit type; model 200 is the female variant. No exact Fumbler/Bumbler actor-to-model row was found, and 'a few' supplies no numeric count, so count 1 is the draft default."
+  },
+  {
+    "quest_id": 3010018,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 199,
+        "count": 1
+      },
+      {
+        "model_id": 538,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:388262: 'defeat Thugawug Sneaks that wander the wilderness, and some Shadow Talon Apprentices'",
+      "Resources/Models.txt:200: 199^chugawug_m_bandit_01.adr",
+      "Resources/Models.txt:539: 538^human_m_ninja_shadowtalon_trainee_01.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "Two enemy families are named. The Sneak mapping uses the generic male Thugawug bandit body and the Apprentice mapping uses the Shadow Talon trainee body; neither is an exact captured NameId-to-model join. The text gives no numeric counts, so each count is 1."
+  },
+  {
+    "quest_id": 3010018,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 538,
+      "count": 1
+    },
+    "evidence": [
+      "locale:388263: 'Defeat Shadow Talon Apprentices'",
+      "locale:38291: 'Shadow Talon Apprentice'",
+      "Resources/Models.txt:539: 538^human_m_ninja_shadowtalon_trainee_01.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "Exact family and semantic rank match to the trainee body. No exact named NPC-to-model row was found; the plural text has no numeric count, so count 1 is retained."
+  },
+  {
+    "quest_id": 3010018,
+    "objective": 2,
+    "kind": "defeat",
+    "found": {
+      "model_id": 220,
+      "count": 1
+    },
+    "evidence": [
+      "locale:388267: 'Defeat Unruly Warriors'; locale:16348: 'Unruly Warrior'",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/bixie_hive.json:428: the Unruly group is in the Bixie Hive",
+      "Resources/Models.txt:221: 220^bixie_m_warrior.adr, description 'Bixie Male Warrior'",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact Bixie Warrior family model. The plural text supplies no number, so count 1 is retained from the draft/default rule."
+  },
+  {
+    "quest_id": 3010018,
+    "objective": 3,
+    "kind": "defeat",
+    "found": {
+      "model_id": 211,
+      "count": 1
+    },
+    "evidence": [
+      "locale:388269: 'Defeat Unruly Mages'; locale:16347: 'Unruly Mage'",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/bixie_hive.json:428: the Unruly group is in the Bixie Hive",
+      "Resources/Models.txt:212: 211^bixie_f_mage.adr, description 'Bixie Female Mage'",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact Bixie Mage family model. The plural text supplies no number, so count 1 is retained from the draft/default rule."
+  },
+  {
+    "quest_id": 3010025,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 142,
+      "count": 1
+    },
+    "evidence": [
+      "locale:103401: 'Vicious Vinewolf'",
+      "Resources/Models.txt:143: 142^wolf_vinegolum.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact Vinewolf family body and model-table entry. The plural text supplies no number, so count 1 is retained."
+  },
+  {
+    "quest_id": 3010025,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 180,
+      "count": 1
+    },
+    "evidence": [
+      "locale:4230: 'Maze Viper'",
+      "Resources/Models.txt:181: 180^snake.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "Best matching combat snake body. No Maze Viper-specific model row was found; the plural text has no numeric count, so count 1 is the draft default."
+  },
+  {
+    "quest_id": 3010025,
+    "objective": 2,
+    "kind": "defeat",
+    "found": {
+      "model_id": 74,
+      "count": 1
+    },
+    "evidence": [
+      "locale:4084: 'Hedge Guardian'",
+      "Resources/Models.txt:75: 74^treesoldier.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "The hedge/guardian name best matches the tree-soldier combat body, but the dungeon data says the exact species is unsettled. Count is not stated, so 1 is the draft default."
+  },
+  {
+    "quest_id": 3010028,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 669,
+        "count": 1
+      },
+      {
+        "model_id": 685,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:78449: 'defeat the bosses of the smuggling operation'",
+      "locale:77317: 'Smuggler Han'; locale:77319: 'Smuggler Hannah'; locale:20472: 'Defeat Han and Hannah in the Croaking Vale!'",
+      "Resources/Npcs.json:9047-9049: Shady Smuggler model 669, human_blackspore_thief_m.adr",
+      "Resources/Models.txt:670: 669^human_blackspore_thief_m.adr",
+      "Resources/Models.txt:686: 685^human_blackspore_thief_f.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "The text and tracker identify two bosses. Models 669 and 685 are the male and female Blackspore smuggler/thief bodies, but no exact Han/Hannah actor-to-model row was recovered. Each boss count is 1."
+  },
+  {
+    "quest_id": 3010031,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 669,
+      "count": 1
+    },
+    "evidence": [
+      "locale:388488: 'Defeat Smugglers'; locale:91865: 'Smuggler'",
+      "Resources/Npcs.json:9047-9049: Shady Smuggler model 669, human_blackspore_thief_m.adr",
+      "Resources/Models.txt:670: 669^human_blackspore_thief_m.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "Exact Shady Smuggler family model; the quest's generic plural does not select a sex or a numeric count, so count 1 is retained from the draft."
+  },
+  {
+    "quest_id": 3010031,
+    "objective": 2,
+    "kind": "defeat",
+    "found": {},
+    "evidence": [
+      "locale:388490: 'Defeat Trappers'; locale:77226: 'Trapper'",
+      "Resources/Npcs.json: no Trapper NameId row",
+      "Resources/Models.txt: 670 and 686 are human Blackspore thief bodies, but no Trapper-specific filename or description exists",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "Looked for an exact Trapper NPC/model join, all Models.txt rows, and the nearby Croaking Vale and Nettleseed references. No Trapper-specific model was recovered; choosing either generic thief body would invent the actor/model association."
+  },
+  {
+    "quest_id": 3010033,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 425,
+      "count": 1
+    },
+    "evidence": [
+      "locale:78486: 'Bullseye wants you to defeat him in one on one combat'",
+      "Resources/Models.txt:426: 425^fairy_m_bullseye.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact named model filename and singular one-on-one objective; count 1."
+  },
+  {
+    "quest_id": 3020035,
+    "objective": 3,
+    "kind": "defeat",
+    "found": {
+      "model_id": 4011,
+      "count": 1
+    },
+    "evidence": [
+      "locale:439761: 'Skullz Brawler'; locale:439763: 'defeat Skullz Brawlers'",
+      "Resources/Models.txt:3193: 4011^dwarf_m_bikerthug_skullz.adr",
+      "Resources/Npcs.json: Skullz Thug, Hooligan, and Commander rows all use model 4011",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact Skullz biker family model. The combined summary line supplies no numeric count, so count 1 is retained."
+  },
+  {
+    "quest_id": 3030004,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 168,
+      "count": 1
+    },
+    "evidence": [
+      "locale:94586: 'Defeat Mongo in the brawling ring'",
+      "autopilot-int/prototype/osfr-tools/data/content/field_battles.json:1441-1443: Mongo model_id 168",
+      "Resources/Models.txt:169: 168^troll_shaman.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "Our Mongo battle directly binds model 168, but that battle is reconstructed and the enemy audit records an unresolved name/zone/model conflict. The quest is singular, so count 1."
+  },
+  {
+    "quest_id": 3030012,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 3284,
+      "count": 1
+    },
+    "evidence": [
+      "locale:104067: 'Frostfang Growler'",
+      "locale:104149: 'defeating a few Frostfang Growlers'",
+      "Resources/Models.txt:2470: 3284^wolf_generic.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "No Frostfang-specific actor row was found. Model 3284 is the generic combat wolf body; its tint/variant is unrecovered, and 'a few' gives no count, so count 1 is the draft default."
+  },
+  {
+    "quest_id": 3030038,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 836,
+      "count": 1
+    },
+    "evidence": [
+      "locale:100320: 'Defeat Sampson Idlefist in battle!'",
+      "locale:22804: 'Sampson Idlefist'",
+      "Resources/Models.txt:837: 836^human_m_sampson_idlefist.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact named model filename and singular objective; count 1."
+  },
+  {
+    "quest_id": 3040061,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 3976,
+      "count": 1
+    },
+    "evidence": [
+      "locale:5100243: \"Defeat Quizzical Yucca's Trick Deck\"; locale:442195: 'Quizzical Yucca'",
+      "lab/references/quest-lines/npc-state.json: n9000000176 appearance describes Quizzical Yucca as a feathered Drake card-game NPC",
+      "Resources/Models.txt:3158: 3976^feathereddrake_m_basic.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "No Quizzical-specific model filename exists. Model 3976 is the basic feathered-drake body; the deck objective itself is one card-duel completion, so count 1."
+  },
+  {
+    "quest_id": 3040061,
+    "objective": 2,
+    "kind": "defeat",
+    "found": {
+      "model_id": 3976,
+      "count": 1
+    },
+    "evidence": [
+      "locale:5100241: \"Defeat Quizzical Yucca's Resource Deck\"; locale:442195: 'Quizzical Yucca'",
+      "lab/references/quest-lines/npc-state.json: n9000000176 appearance describes Quizzical Yucca as a feathered Drake card-game NPC",
+      "Resources/Models.txt:3158: 3976^feathereddrake_m_basic.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "No Quizzical-specific model filename exists. Model 3976 is the basic feathered-drake body; the deck objective itself is one card-duel completion, so count 1."
+  },
+  {
+    "quest_id": 3040061,
+    "objective": 3,
+    "kind": "defeat",
+    "found": {
+      "model_id": 3976,
+      "count": 1
+    },
+    "evidence": [
+      "locale:5100245: \"Defeat Quizzical Yucca's Creature Deck\"; locale:442195: 'Quizzical Yucca'",
+      "lab/references/quest-lines/npc-state.json: n9000000176 appearance describes Quizzical Yucca as a feathered Drake card-game NPC",
+      "Resources/Models.txt:3158: 3976^feathereddrake_m_basic.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "No Quizzical-specific model filename exists. Model 3976 is the basic feathered-drake body; the deck objective itself is one card-duel completion, so count 1."
+  },
+  {
+    "quest_id": 3040061,
+    "objective": 4,
+    "kind": "defeat",
+    "found": {
+      "model_id": 3976,
+      "count": 1
+    },
+    "evidence": [
+      "locale:5100247: \"Defeat Quizzical Yucca's Tournament Deck\"; locale:442195: 'Quizzical Yucca'",
+      "lab/references/quest-lines/npc-state.json: n9000000176 appearance describes Quizzical Yucca as a feathered Drake card-game NPC",
+      "Resources/Models.txt:3158: 3976^feathereddrake_m_basic.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "No Quizzical-specific model filename exists. Model 3976 is the basic feathered-drake body; the deck objective itself is one card-duel completion, so count 1."
+  },
+  {
+    "quest_id": 3040062,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 4206,
+      "count": 1
+    },
+    "evidence": [
+      "locale:5100255: \"Defeat Ironteeth's Resource Desk\"; locale:442196: 'Ironteeth'",
+      "Resources/Models.txt:3388: 4206^dwarf_m_ironteeth.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact named model filename. The deck objective itself is one card-duel completion, so count 1."
+  },
+  {
+    "quest_id": 3040062,
+    "objective": 2,
+    "kind": "defeat",
+    "found": {
+      "model_id": 4206,
+      "count": 1
+    },
+    "evidence": [
+      "locale:5100257: \"Defeat Ironteeth's Trick Deck\"; locale:442196: 'Ironteeth'",
+      "Resources/Models.txt:3388: 4206^dwarf_m_ironteeth.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact named model filename. The deck objective itself is one card-duel completion, so count 1."
+  },
+  {
+    "quest_id": 3040062,
+    "objective": 3,
+    "kind": "defeat",
+    "found": {
+      "model_id": 4206,
+      "count": 1
+    },
+    "evidence": [
+      "locale:5100259: \"Defeat Ironteeth's Creature Deck\"; locale:442196: 'Ironteeth'",
+      "Resources/Models.txt:3388: 4206^dwarf_m_ironteeth.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact named model filename. The deck objective itself is one card-duel completion, so count 1."
+  },
+  {
+    "quest_id": 3040062,
+    "objective": 4,
+    "kind": "defeat",
+    "found": {
+      "model_id": 4206,
+      "count": 1
+    },
+    "evidence": [
+      "locale:5100261: \"Defeat Ironteeth's Tournament Deck\"; locale:442196: 'Ironteeth'",
+      "Resources/Models.txt:3388: 4206^dwarf_m_ironteeth.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact named model filename. The deck objective itself is one card-duel completion, so count 1."
+  },
+  {
+    "quest_id": 3060010,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1297,
+      "count": 2
+    },
+    "evidence": [
+      "locale:395062: 'Knock out Willow Slamdash 2 times'",
+      "Resources/Npcs.json:10487-10489: Willow Slamdash standing model 1296",
+      "Resources/Models.txt:1298: 1297^fairy_f_willow_slamdash_incar.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "Explicit count 2. The in-car variant is selected because the objective is a demolition-derby knockout; Npcs.json proves the named standing model, not the runtime derby variant."
+  },
+  {
+    "quest_id": 3060015,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1326,
+      "count": 1
+    },
+    "evidence": [
+      "locale:395064: 'Knock out Nash Wright'; locale:394250: 'Nash Wright'",
+      "Resources/Models.txt:1327: 1326^human_m_nash_wright_incar.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "Exact named in-car model filename and singular arena objective; the standing variant is model 1325."
+  },
+  {
+    "quest_id": 3060015,
+    "objective": 2,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1331,
+      "count": 1
+    },
+    "evidence": [
+      "locale:401630: 'Knock out Samuel L. Bunker'; locale:394511: 'Samuel L. Bunker'",
+      "Resources/Models.txt:1332: 1331^human_m_samuel_bunker_incar.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "medium",
+    "notes": "Exact named in-car model filename and singular arena objective; the standing variant is model 1330 and model 1081 is the separate named kart asset."
+  },
+  {
+    "quest_id": 3060015,
+    "objective": 3,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 1326,
+        "count": 1
+      },
+      {
+        "model_id": 1331,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:394465: 'Teach Nash and his crew a lesson by knocking out every one of their cars.'",
+      "locale:395064: adjacent objective names Nash Wright; locale:401630: adjacent objective names Samuel L. Bunker",
+      "Resources/Models.txt:1327: 1326^human_m_nash_wright_incar.agr",
+      "Resources/Models.txt:1332: 1331^human_m_samuel_bunker_incar.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "The plural objective does not enumerate the crew. The two objects are the two named crew targets in the immediately following/adjacent objective strings; any additional unnamed cars remain unresolved. Count 1 each is the draft default."
+  },
+  {
+    "quest_id": 3060023,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 1320,
+        "count": 1
+      },
+      {
+        "model_id": 906,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:394034: 'Defeat Claudio DeMarco and his trouble-causing minions in a Frost Ridge demo derby!'",
+      "Resources/Models.txt:1321: 1320^human_m_claudio_demarco_incar.agr",
+      "Resources/Models.txt:907: 906^sg_derby_car_01.adr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "low",
+    "notes": "Claudio's in-car model is named, but 'minions' is not enumerated. Model 906 is the generic derby-car body; the number and exact variants of the minions are unknown, so count 1 each is only the draft default."
+  },
+  {
+    "quest_id": 3060023,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1320,
+      "count": 1
+    },
+    "evidence": [
+      "locale:400904: \"Knock out Claudio 'The Tank' DeMarco\"",
+      "autopilot-int/prototype/osfr-tools/data/content/npc_spawns_extra.json:15311: Claudio derby spawn model_id 1320, human_m_claudio_demarco_incar.agr",
+      "Resources/Models.txt:1321: 1320^human_m_claudio_demarco_incar.agr",
+      "IDA 0x007291c0: sub_7291C0 constructs '%sModels.txt' and initializes the model table"
+    ],
+    "confidence": "high",
+    "notes": "Exact named in-car model and an explicit derby spawn row; singular objective, count 1."
+  }
+]

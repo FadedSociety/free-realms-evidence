@@ -1,0 +1,198 @@
+[
+ {
+  "quest_id": 3000022,
+  "title": "Introduce Yourself",
+  "record": "quest-lines/quests.json q3000022",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000786
+    },
+    "text_string_id": 116637,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 'Introduce yourself to Francis Panic in Stillwater Crossing.' is locale 116637 (quest_objective, Stillwater Crossing, Francis Panic).",
+      "source": "locale:116637"
+     },
+     {
+      "claim": "Target name Francis Panic is locale 116518 (npc_name).",
+      "source": "locale:116518"
+     },
+     {
+      "claim": "Our NPC row npc_id 9500000786 exists: name Francis Panic, name_string_id 116518, zone Stillwater Crossing (zone_id 14), presence 'listed'.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:2692"
+     },
+     {
+      "claim": "Legacy reference row Id=2949 (ModelFileName human_m_francis_panic.agr, NameId 116518) matches the target.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:2835 (cites FreeRealms-Legacy Npcs.json Id=2949)"
+     },
+     {
+      "claim": "Quest-line 116462 'Introduce yourself to the famous racer, Francis Panic.' is a second wording of the same talk objective; 116878 'Talk to Francis Panic' is another.",
+      "source": "locale:116462, locale:116878"
+     }
+    ],
+    "note": "Talk to Francis Panic (npc_id 9500000786). Row exists in our data but presence is 'listed', so it is not confirmed as placed/spawned in the world; the builder must place it at Stillwater Crossing before this objective can run. The pack carried no reference_spawn position, so no spawn source line is given. Count 1 (single target, not a counted objective)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3030016,
+  "title": "Brawler: Get McGrobie!",
+  "record": "quest-lines/quests.json q3030016",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000196
+    },
+    "text_string_id": 116956,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 116956 is 'Find Seth McGrobie somewhere southeast of Stillwater Crossing and make him give Caitlyn her money back.' (quest_objective, hint Seth McGrobie)",
+      "source": "locale:116956"
+     },
+     {
+      "claim": "NPC row Seth McGrobie is npc_id 9000000196, name_string_id 116525 ('Seth McGrobie'), zone 14 Stillwater Crossing, roles quest_giver and vendor",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:10737-10766"
+     },
+     {
+      "claim": "Seth's npc_id 9000000196 is also the giver of the follow-on Brawler quests in brawler.json",
+      "source": "repo:prototype/osfr-tools/data/content/quests/brawler.json:1053, 1109"
+     },
+     {
+      "claim": "Model 970 human_m_seth_mcgrobie.agr and NameId 116525 match Seth in the FreeRealms-Legacy Npcs.json reference (Id=1459)",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:11004"
+     }
+    ],
+    "note": "Row exists but its presence is 'listed' (no placed spawn position in the row), so the builder must place it before talk_to_npc can fire. Pack carried no reference_spawn candidate list for this NPC; the placement source line is not confirmed here. Keep npc_id 9000000196, not the 9000000038 Caitlyn id used by the earlier draft's quest giver. Count is not applicable (single talk)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3050016,
+  "title": "Chef: Gavin Gone Missing",
+  "record": "quest-lines/quests.json q3050016",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "visit_position",
+    "fields": {
+     "zone_id": 14,
+     "position": null,
+     "radius": 8.0,
+     "npc_id": 9000000096
+    },
+    "text_string_id": 116494,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text: search for Gavin Greenpetal on the road heading south out of Stillwater Crossing.",
+      "source": "locale:116494"
+     },
+     {
+      "claim": "Gavin Greenpetal is NPC row 9000000096, name_string_id 116522, zone Stillwater Crossing, zone_id 14, presence 'listed' (not placed; no position on the row).",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:3119-3149"
+     },
+     {
+      "claim": "Only a numeric spawn candidate exists: FreeRealms-Legacy spawnNpcWithGuid(2982, ..., -1453.592, -59.91661, 798.7102, 1.243788), ModelId 971, NameId 116522 per the repo note.",
+      "source": "refs:FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1725"
+     },
+     {
+      "claim": "The legacy spawn sits in FabledRealms.lua, a zone script that does not mention Stillwater; it is not verified as the Stillwater road south, so it is not used.",
+      "source": "refs:FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua (no Stillwater reference)"
+     }
+    ],
+    "note": "Target is the road south of Stillwater Crossing (zone_id 14). No verified position [x,y,z] was found for that road, so position is left null rather than guessed. The draft npc_anchor 9000000096 is not a position. Builder needs a road position for zone 14 south of town (e.g. from a client spawn or a Stillwater walk-through), then set position and radius 8.0. Alternatively, once Gavin is placed as an NPC row with coordinates, this can become talk_to_npc{npc_id: 9000000096} with the row placed."
+   }
+  ]
+ },
+ {
+  "quest_id": 3070001,
+  "title": "Become a Fisherman",
+  "record": "quest-lines/quests.json q3070001",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000181
+    },
+    "text_string_id": 412491,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Learn how to be a fisherman by finding Reed Stillwater.' is tagged to this quest (quest_objective)",
+      "source": "locale:412491"
+     },
+     {
+      "claim": "Reed Stillwater is NPC 9000000181, a Stillwater Crossing row in the server data",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:10128"
+     },
+     {
+      "claim": "Same NPC is the job trainer for the fisherman job and the giver of sibling quest 3070003",
+      "source": "repo:prototype/osfr-tools/data/content/job_trainers.json:19; repo:prototype/osfr-tools/data/content/quests/fisherman.json:103-109"
+     },
+     {
+      "claim": "Public articles name Reed Stillwater as the person at the Sacred Grove Shallows entrance who gives the Fisherman job",
+      "source": "articles/facts.json:36880"
+     }
+    ],
+    "note": "Draft npc_id kept. The NPC row is marked reconstructed_from_job_reference in the server data, so the placement is not confirmed in-world. Client-tagged text is the only quest-specific objective line; the offer, progress and complete dialog for 3070001 were not found and are left empty."
+   }
+  ]
+ },
+ {
+  "quest_id": 3070002,
+  "title": "Being a Better Fisherman",
+  "record": "quest-lines/quests.json q3070002",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000181
+    },
+    "text_string_id": 442249,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text: learn to advance Fisherman skill by speaking with Reed Stillwater in Stillwater Crossing",
+      "source": "locale:442249"
+     },
+     {
+      "claim": "Reed Stillwater is NPC 9000000181 (name_string_id 388950); the row is id_kind 'reconstructed_from_job_reference', not a confirmed in-world placement",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:10128-10145"
+     },
+     {
+      "claim": "NPC 9000000181 is the job trainer for Fisherman",
+      "source": "repo:prototype/osfr-tools/data/content/job_trainers.json:19"
+     },
+     {
+      "claim": "Quest 3070002 record has objectives: [] and title locale 442279",
+      "source": "repo:prototype/osfr-tools/data/content/quests/fisherman.json:53-59"
+     },
+     {
+      "claim": "Reed's NPC row binds quests 3070003 (and 3070004) rather than 3070002; fisherman.json lists giver 9000000181 on 3070003",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:10164, 10249; fisherman.json:103, 185"
+     }
+    ],
+    "note": "Placement is reconstructed, not video-confirmed (critique fix applied: downgraded from settled). Keep npc 9000000181 as the target since locale 442249 names Reed Stillwater in Stillwater Crossing. Conflict: Reed's row binds 3070003 'Learn to Fish!', not 3070002; confirm 3070002's talk target before wiring. Count 1 (text says one trainer), no (R) needed."
+   }
+  ]
+ }
+]

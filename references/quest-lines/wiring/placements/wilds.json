@@ -1,0 +1,164 @@
+[
+ {
+  "npc_id": 9500000884,
+  "name": "Burt 'Wrecking' Crewe",
+  "zone": "Wilds",
+  "position": [
+   -237.3089,
+   1.186775,
+   -61.32073
+  ],
+  "heading": -1.210766,
+  "model": "human_m_burt_crewe.agr",
+  "model_id": 829,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1731",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000886,
+  "name": "Chad Fastflutter",
+  "zone": "Wilds",
+  "position": [
+   -249.1389,
+   1.095783,
+   -60.34922
+  ],
+  "heading": -0.314485,
+  "model": "fairy_m_freestyle_01.agr",
+  "model_id": 443,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1732",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000892,
+  "name": "Derp Axemaker",
+  "zone": "Wilds",
+  "position": [
+   -519.457,
+   10.24161,
+   -34.68288
+  ],
+  "heading": -1.869727,
+  "model": "fairy_m_blacksmith_01.agr",
+  "model_id": 574,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2029",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000906,
+  "name": "Gulsh",
+  "zone": "Wilds",
+  "position": [
+   -1317.8207,
+   -37.87405,
+   309.27405
+  ],
+  "heading": -1.62969995,
+  "model": "troll_peasant_02.adr",
+  "model_id": 167,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3560",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000912,
+  "name": "Kade Carmichael",
+  "zone": "Wilds",
+  "position": [
+   -295.7332,
+   -60.97827,
+   1949.605
+  ],
+  "heading": 0.158672,
+  "model": "human_m_kade_carmichael.agr",
+  "model_id": 833,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1422",
+  "near_zone": "Briarwood",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000916,
+  "name": "Linx Redline",
+  "zone": "Wilds",
+  "position": [
+   -2256.326,
+   -16.37272,
+   572.4272
+  ],
+  "heading": 2.544222,
+  "model": "fairy_m_linx_redline.agr",
+  "model_id": 1300,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1758",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000923,
+  "name": "Mustang Alli",
+  "zone": "Wilds",
+  "position": [
+   -237.1163,
+   1.185014,
+   -46.70612
+  ],
+  "heading": -1.987494,
+  "model": "fairy_f_mustang_alli.agr",
+  "model_id": 820,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1729",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000930,
+  "name": "Petal Oceanmist",
+  "zone": "Wilds",
+  "position": [
+   -241.1461,
+   1.178117,
+   -62.66587
+  ],
+  "heading": -0.091501,
+  "model": "fairy_f_valinda.adr",
+  "model_id": 36,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1733",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000937,
+  "name": "Sakka",
+  "zone": "Wilds",
+  "position": [
+   -295.2761,
+   1.902695,
+   -717.1608
+  ],
+  "heading": 0.555055,
+  "model": "fairy_m_sakka.agr",
+  "model_id": 428,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2128",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000942,
+  "name": "Shimmer Shinyaxe",
+  "zone": "Wilds",
+  "position": [
+   -506.4454,
+   10.03743,
+   -34.96611
+  ],
+  "heading": -1.272076,
+  "model": "fairy_m_miner_01.adr",
+  "model_id": 33,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2032",
+  "near_zone": "Wilds",
+  "quests_waiting": [
+   "q3100008 objective 1"
+  ]
+ }
+]

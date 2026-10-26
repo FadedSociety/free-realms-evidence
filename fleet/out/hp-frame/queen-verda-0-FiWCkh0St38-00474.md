@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-0-FiWCkh0St38-00474 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3148, 4, 1030] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 474s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -207, "on": "target", "color": "red"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.75}, "target_defeated": false, "notes": "Player fights a brown troll-type creature in a grassy area; no legible name or health bar above it, so the picked enemy's identity and health are unconfirmed. Goals panel lists 'Defeat Verda, Queen of the Trolls' but it is not a distance tracker label."}

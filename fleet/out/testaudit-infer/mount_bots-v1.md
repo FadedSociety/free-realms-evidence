@@ -1,0 +1,11 @@
+<!-- fleet job=testaudit-infer id=mount_bots-v1 status=done turns=4 usd=0.0039 tokens(read,write,in,out)=[30685, 20037, 10, 2245] model=claude-haiku-5-5 -->
+# tests/mount_bots.rs
+
+{"file": "tests/mount_bots.rs",
+ "tests": [
+  {"name": "riders_are_seen_by_neighbours_and_late_arrivals_and_a_mounted_emote_is_dropped", "verdict": "keep", "covered_by": null, "reason": "Socket-level end-to-end run (gateway + bots) of summon, refusal of an unowned ride, boarding seen by a neighbour, mounted emote drop, late arrival seeing the ride, dismount removing it for all, and removal on leave. tests/mount_routing.rs covers the same rules at unit level (an_owned_ride_is_summoned_boarded_and_put_away, a_ride_the_player_does_not_own_is_refused, a_mounted_rider_cannot_emote, a_second_player_in_range_sees_the_ride_and_its_removal), but none of them exercises the wire, the gateway debounce or a late joiner. Only partial overlap, so kept."},
+  {"name": "the_ride_moves_with_its_rider_and_a_late_arrival_gets_the_native_mount_tail", "verdict": "keep", "covered_by": null, "reason": "Only socket-level check that a ride follows its rider's moves and that a late arrival's AddPc carries the native mount block (guid, seat, queue position, lift) and then the ride actor. mount_routing.rs has a_seated_rider_carries_the_mount_tail_and_the_ride_copies_its_moves at unit level, which is the closest equivalent; the wire-byte assertions here are not shown to be duplicated. Kept, with the caveat that the unit test may cover the same tail bytes."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "The file has only two #[test] functions (lines 613 and 715). Both are end-to-end and mostly exercise paths that mount_routing.rs tests in-process, so the overlap is partial rather than a duplicate. I did not read mount_routing.rs past line 300 or mount_stats.rs, so I did not confirm whether mount_routing's tail/move test asserts the same bytes. The rig is copied from bot_acceptance_1016.rs (shared rig code, not duplicate tests). Both tests take about 20 s of socket time each; if suite time matters, the first one's unowned-refusal and emote-drop checks could be moved to mount_routing, but that would lose the wire coverage, so I did not recommend removal."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-2-OawnLys6j-o-00082 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 996] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 82s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player stands near a dark creature with a thin full-looking health bar and a blurred name plate; the name is only partly legible, level and exact bar fraction are not readable, and no damage numbers are shown. Goal text reads 'Defeat the druid, Mugwort!'."}

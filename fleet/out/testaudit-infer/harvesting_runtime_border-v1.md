@@ -1,0 +1,11 @@
+<!-- fleet job=testaudit-infer id=harvesting_runtime_border-v1 status=done turns=3 usd=0.0027 tokens(read,write,in,out)=[20617, 13037, 8, 1736] model=claude-haiku-5-5 -->
+# tests/harvesting_runtime_border.rs
+
+{"file": "tests/harvesting_runtime_border.rs",
+ "tests": [
+  {"name": "unpadded_eight_kind_export_is_refused_without_mutation", "verdict": "keep", "covered_by": null, "reason": "Only test in the pack that checks the index-0 border refusal (row-0 and column-0 playable cells, unpadded 10x10 export) and that a refused load leaves the tree byte-identical. tests/harvesting_runtime_tiles.rs::malformed_persisted_harvesting_configs_are_refused_without_mutation checks tile-registration refusals (message contains \"tile\"), a different gate, so it does not cover this path. Refusal and no-mutation check: keep."},
+  {"name": "padded_content_mining_and_legacy_stay_permissive", "verdict": "superseded", "covered_by": "tests/harvesting_runtime_tiles.rs::valid_four_kind_content_loads", "reason": "Its first block (harvesting::write_content then Gameplay::load succeeds and state().harvesting is_some) is the same path and assertions as valid_four_kind_content_loads, which also asserts the four-kind tile count. Its legacy (no harvesting.json loads, harvesting is none) and mining (loads, mining is some, harvesting is none) blocks duplicate tests/harvesting_runtime_tiles.rs::missing_content_legacy_and_mining_stay_permissive. Nothing unique remains; removing this test loses no coverage of the border gate, since the padded writer output is still loaded by valid_four_kind_content_loads."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "Only the first test is unique. Recommended action: delete the second test and keep the file for the border refusal. The second test's padded-load assertion is only partly redundant: it asserts the border gate accepts the writer output, but valid_four_kind_content_loads loads the same output through the same gate, so the border gate's permissiveness is still exercised. Neither similar file tests the border gate. The file header says RED baseline; if the border gate is already live, that wording is stale but the test is not obsolete."}

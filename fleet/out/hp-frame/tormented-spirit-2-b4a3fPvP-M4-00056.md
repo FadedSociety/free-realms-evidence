@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-2-b4a3fPvP-M4-00056 status=done turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2740, 4, 598] model=claude-haiku-5-5 -->
+# Tormented Spirit b4a3fPvP_M4 56s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Night outdoor scene with no combat; no Tormented Spirit name or health bar is visible. Only quest trackers (Vrock Gravelfist 57m, Balok Battlerock 54m, Silver Mining 36m, Haunted Mines 55m) and a yellow chat-style line 'Starry7 <---Don't fall asleep--->' are shown. Player portrait and level are not visible."}

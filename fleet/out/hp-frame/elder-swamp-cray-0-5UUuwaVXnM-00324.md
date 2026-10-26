@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-swamp-cray-0-5UUuwaVXnM-00324 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2739, 4, 1059] model=claude-haiku-5-5 -->
+# Elder Swamp Cray -5UUuwaVXnM 324s
+
+{"screen": "combat", "target": {"name": "Elder Swamp Cray", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 254, "on": "target", "color": "yellow"}, {"value": 254, "on": "target", "color": "yellow"}, {"value": 254, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Christina Wolfdruid1", "level": 2, "job": "Ninja", "health_fraction": 0.85}, "target_defeated": false, "notes": "Player attacks Elder Swamp Cray in Cracked Claw Caverns; target bar appears full green while three 254 damage numbers show; the Goals panel says to defeat the ancient cray."}

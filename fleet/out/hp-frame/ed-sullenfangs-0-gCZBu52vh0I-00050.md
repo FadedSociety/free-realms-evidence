@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ed-sullenfangs-0-gCZBu52vh0I-00050 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 2880, 4, 1260] model=claude-haiku-5-5 -->
+# Ed Sullenfangs gCZBu52vh0I 50s
+
+{"screen": "combat", "target": {"name": "Ed Sullenfangs", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2999, "on": "target", "color": "yellow"}, {"value": 2999, "on": "target", "color": "yellow"}, {"value": 2999, "on": "target", "color": "yellow"}, {"value": 2999, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Grayson Ironhammer", "level": 20, "job": "Medic", "health_fraction": null}, "target_defeated": false, "notes": "Ed Sullenfangs' name bar is shown at top of screen (bar appears empty/red, fraction not reliably readable); four -2999 yellow hits and a 'Goal Complete!' banner; he is not clearly shown falling."}

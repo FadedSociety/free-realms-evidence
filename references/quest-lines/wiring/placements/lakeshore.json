@@ -1,0 +1,321 @@
+[
+ {
+  "npc_id": 9500000339,
+  "name": "Alexander",
+  "zone": "Lakeshore",
+  "position": [
+   -759.3783,
+   0.020418,
+   859.9176
+  ],
+  "heading": -1.99780999,
+  "model": "fairy_m_merchant_warrior_caucasian_fire.agr",
+  "model_id": 4562,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3757",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000341,
+  "name": "Big Mike",
+  "zone": "Lakeshore",
+  "position": [
+   -589.0522,
+   -0.579432,
+   954.71844
+  ],
+  "heading": 1.10142006,
+  "model": "human_m_freestyle_07.agr",
+  "model_id": 553,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3690",
+  "near_zone": "Wilds",
+  "quests_waiting": [
+   "q3040012 objective 1"
+  ]
+ },
+ {
+  "npc_id": 9000000027,
+  "name": "Bluerose",
+  "zone": "Lakeshore",
+  "position": [
+   -808.26825,
+   1.521399,
+   844.8542
+  ],
+  "heading": -3.14122605,
+  "model": "fairy_sanctuary_f.adr",
+  "model_id": 384,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3701",
+  "near_zone": "Lakeshore",
+  "quests_waiting": [
+   "q3070030 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9000000043,
+  "name": "Chaz Strongarm",
+  "zone": "Lakeshore",
+  "position": [
+   -752.6455,
+   -0.037248,
+   841.50726
+  ],
+  "heading": -0.052078003,
+  "model": "fairy_m_chaz_strongarm.agr",
+  "model_id": 732,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3688",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000342,
+  "name": "Clark",
+  "zone": "Lakeshore",
+  "position": [
+   -1372.6626,
+   -27.367382,
+   302.5252
+  ],
+  "heading": -1.17433299,
+  "model": "human_m_freestyle_05.agr",
+  "model_id": 558,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3547",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000343,
+  "name": "Dori Tendersole",
+  "zone": null,
+  "position": [
+   -763.651,
+   -0.379606,
+   861.4495
+  ],
+  "heading": -1.84007705,
+  "model": "fairy_f_freestyle_03.agr",
+  "model_id": 366,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3687",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000344,
+  "name": "Grasberg",
+  "zone": "Lakeshore",
+  "position": [
+   -784.2302,
+   5.083301,
+   896.4583
+  ],
+  "heading": 1.73828101,
+  "model": "human_m_merchant_miner_african.agr",
+  "model_id": 4596,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3728",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000348,
+  "name": "Kimi",
+  "zone": "Lakeshore",
+  "position": [
+   -774.88715,
+   0.230093,
+   861.7282
+  ],
+  "heading": 2.34716702,
+  "model": "fairy_f_merchant_archer_caucasian_forest.agr",
+  "model_id": 4489,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3700",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000349,
+  "name": "Kristane",
+  "zone": "Lakeshore",
+  "position": [
+   -763.6466,
+   0.075717,
+   836.9289
+  ],
+  "heading": -0.780399958,
+  "model": "fairy_f_merchant_brawler_caucasian_skygoddess.agr",
+  "model_id": 4509,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3755",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000351,
+  "name": "Lan Spryleaf",
+  "zone": "Lakeshore",
+  "position": [
+   -762.4121,
+   3.577816,
+   885.152
+  ],
+  "heading": 1.78634404,
+  "model": "fairy_f_warrior_01.agr",
+  "model_id": 385,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3764",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000352,
+  "name": "Len Tyril",
+  "zone": "Lakeshore",
+  "position": [
+   -610.0557,
+   -0.29669,
+   976.0766
+  ],
+  "heading": -2.22600006,
+  "model": "fairy_m_warrior_01.agr",
+  "model_id": 391,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3691",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000354,
+  "name": "Lorraine",
+  "zone": "Lakeshore",
+  "position": [
+   -816.7909,
+   2.009025,
+   839.6132
+  ],
+  "heading": 0.83435801,
+  "model": "human_f_merchant_chef_african.agr",
+  "model_id": 4572,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3698",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000355,
+  "name": "Masa",
+  "zone": "Lakeshore",
+  "position": [
+   -782.4307,
+   5.557206,
+   892.12964
+  ],
+  "heading": 0.731347972,
+  "model": "fairy_m_merchant_blacksmith_asian_magma.agr",
+  "model_id": 4497,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3699",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000146,
+  "name": "Merri De'Flor",
+  "zone": "Lakeshore",
+  "position": [
+   -755.6111,
+   0.463986,
+   851.4252
+  ],
+  "heading": -2.40588683,
+  "model": "fairy_sanctuary_f.adr",
+  "model_id": 384,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3760",
+  "near_zone": "Lakeshore",
+  "quests_waiting": [
+   "q3060011 objective 0",
+   "q3070030 objective 2",
+   "q3070031 objective 2",
+   "q3070034 objective 4"
+  ]
+ },
+ {
+  "npc_id": 9500000358,
+  "name": "Mister Nooklings",
+  "zone": "Lakeshore",
+  "position": [
+   -724.5998,
+   10.11478,
+   910.71655
+  ],
+  "heading": -0.352139988,
+  "model": "human_m_freestyle_01.agr",
+  "model_id": 184,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3778",
+  "near_zone": "Lakeshore",
+  "quests_waiting": [
+   "q3070034 objective 2"
+  ]
+ },
+ {
+  "npc_id": 9500000359,
+  "name": "Mort McFly",
+  "zone": null,
+  "position": [
+   -674.4438,
+   0.0039357557,
+   1019.27356
+  ],
+  "heading": -1.64757836,
+  "model": "fairy_m_warrior_01.agr",
+  "model_id": 391,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3793",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000360,
+  "name": "Natali",
+  "zone": null,
+  "position": [
+   -721.9529,
+   9.966442,
+   885.3096
+  ],
+  "heading": -0.604641049,
+  "model": "fairy_petulia_f.adr",
+  "model_id": 485,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3767",
+  "near_zone": "Lakeshore",
+  "quests_waiting": [
+   "q3160010 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9000000185,
+  "name": "Rourke Ironfist",
+  "zone": "Lakeshore",
+  "position": [
+   -758.4285,
+   0.199004,
+   841.9175
+  ],
+  "heading": -0.0979499985,
+  "model": "human_m_hooligan_brawler_03.agr",
+  "model_id": 519,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3756",
+  "near_zone": "Lakeshore",
+  "quests_waiting": [
+   "q3030041 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000367,
+  "name": "Tyn Redwing",
+  "zone": "Lakeshore",
+  "position": [
+   -588.3918,
+   0.27487227,
+   948.9176
+  ],
+  "heading": -0.702262902,
+  "model": "fairy_f_warrior_01.agr",
+  "model_id": 385,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3800",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=sandscale-scavenger-0-rWTxDOHv-eY-00064 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3164, 4, 719] model=claude-haiku-5-5 -->
+# Sandscale Scavenger rWTxDOHv-eY 64s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1566, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": null, "level": 13, "job": "Archer", "health_fraction": 0.91}, "target_defeated": false, "notes": "Blurred combat with a large red -1566 hit over a dark creature; no Sandscale Scavenger name or health bar is legible. A other player, Tavish Foxshield <Optic Realms>, is shown in blue. Goals panel lists Defeat Cactus John and Bandits 0/10, not the scavenger."}

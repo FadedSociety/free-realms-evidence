@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=piece_094-v1-evidence-r1 status=done turns=2 usd=0.0024 tokens(read,write,in,out)=[10960, 14434, 6, 973] model=claude-haiku-5-5 -->
+# tests/piece_094.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "All five verdicts are keep and whole_file_removable is false, so no removal is made on the basis of a covering test. The lens requirement (backed removals) is therefore trivially met. Spot check: TransportStress is used only in tests/piece_094.rs (five call sites), which supports the 'no other test file drives it' claim. The auditor did not open soe_send.rs or soe_transport.rs, so the 'partial overlap' statements for the rollover and retry-limit tests are unverified. They do not change the outcome because every verdict is keep. The auditor's own note that the module is not yet registered in src/lib.rs is a lead-owned registration gate, not a redundancy finding, and it does not block the keep list."}

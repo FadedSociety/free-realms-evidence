@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-0-NtXTmB-wPW0-00042 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2648, 4, 807] model=claude-haiku-5-5 -->
+# Tormented Spirit NtXTmB-wPW0 42s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Confetti", "level": 10, "job": "Brawler", "health_fraction": 1.0}, "target_defeated": false, "notes": "Picked enemy Tormented Spirit is not legible on screen; large red partial label reads 'p Cray' (likely Cracked Claw, not the target), and a faint '-162!!' floating number is partly obscured so it is not reported. Player shows 'You receive 15 coins' message; HP bar reads 1297/1297."}

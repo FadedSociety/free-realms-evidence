@@ -1,0 +1,18 @@
+<!-- fleet job=testaudit-infer id=piece_069-v1 status=done turns=2 usd=0.0036 tokens(read,write,in,out)=[12078, 19466, 6, 2160] model=claude-haiku-5-5 -->
+# tests/piece_069.rs
+
+{"file": "tests/piece_069.rs",
+ "tests": [
+  {"name": "recovered_packet_constants_match_the_decompiled_quest_family", "verdict": "keep", "covered_by": null, "reason": "Canary pinning packet ids to the decompiled enum; no other test in the repo references the piece_069 module or these constants."},
+  {"name": "a_completed_turn_in_applies_once_then_replays_without_a_second_grant", "verdict": "keep", "covered_by": null, "reason": "Only check of the exactly-once grant path in the ledger; the repeat-request and fresh-request-id replay assertions are the refusal side of the same guarantee. Nothing elsewhere drives TurnInLedger."},
+  {"name": "a_crash_between_intent_and_snapshot_replays_exactly_once", "verdict": "keep", "covered_by": null, "reason": "Persistence/crash-recovery check unique to this write-ahead ledger; no equivalent elsewhere."},
+  {"name": "a_crash_after_the_snapshot_but_before_the_applied_record_settles_without_a_grant", "verdict": "keep", "covered_by": null, "reason": "Crash-recovery no-double-grant check; the only one that covers the settle-without-grant branch."},
+  {"name": "stale_and_invalid_requests_are_rejected_without_touching_the_journal", "verdict": "keep", "covered_by": null, "reason": "Refusal test with hostile/stale inputs and a byte-identical journal assertion; security-relevant and unique. Its final replay loop partly repeats the replay checks of the first test, but the rejection matrix is not covered elsewhere."},
+  {"name": "a_rewarded_quest_without_a_receipt_is_refused_rather_than_replayed", "verdict": "keep", "covered_by": null, "reason": "Refusal check for pre-ledger rewarded quests (anti-double-grant); unique."},
+  {"name": "a_new_attempt_on_a_recorded_quest_is_refused_until_repeat_semantics_are_recovered", "verdict": "keep", "covered_by": null, "reason": "Deliberate refusal guard against a second bundle for the same quest id. It is current behaviour, not obsolete, and overlaps only partly with the stale-attempt case in the rejection matrix."},
+  {"name": "malformed_or_unbounded_journals_are_refused", "verdict": "keep", "covered_by": null, "reason": "Hostile-input and size-bound refusal test for journal parsing; unique to this module."},
+  {"name": "staged_turn_ins_are_typed_to_the_quest_that_produced_them", "verdict": "keep", "covered_by": null, "reason": "Checks that staging is idempotent (no second record) and that receipts are typed by quest id; unique behaviour, no duplicate found."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "No other test file in the repo references piece_069, TurnInLedger or its constants (searched for TurnInLedger|piece_069|turn-in in *.rs; the hits were other quest-chain tests that do not touch this module), so nothing is superseded or duplicated across files. The only overlap is internal: the replay loop at the end of stale_and_invalid_requests_... repeats checks from a_completed_turn_in_applies_once_..., which is minor and not worth removing given the rejection matrix it also carries. The file pulls in src/restoration/piece_069.rs via #[path], and the module is not registered in src/lib.rs, so the file is the module's only exerciser. Its doc comments say the module is reconstructed, not historical, so the tests pin a self-authored schema. That is a reason to revisit them once the lead registers the module, not a reason to remove them. Created_by and last_changed_by are null in the pack, so the obsolete check against a later task could not be run."}

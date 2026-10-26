@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-0-FiWCkh0St38-00456 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3148, 4, 1035] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 456s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Troll Roughgaut", "health_fraction": null}], "damage_numbers": [{"value": 1205, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.99}, "target_defeated": false, "notes": "Target panel at top reads Queen Verda, but no legible Verda overhead bar; a Troll Roughgaut bar is shown mid-screen with a 1205 yellow hit number, so Verda's health cannot be read from this frame."}

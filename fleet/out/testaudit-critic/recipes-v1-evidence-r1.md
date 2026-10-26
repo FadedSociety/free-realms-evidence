@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=recipes-v1-evidence-r1 status=done turns=1 usd=0.0018 tokens(read,write,in,out)=[0, 10958, 4, 790] model=claude-haiku-5-5 -->
+# tests/recipes.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "All nine tests carry a keep verdict and whole_file_removable is false, so there are no removal verdicts to back with a covering test. Keeping everything is the conservative outcome the lens prefers over removing a sole check. The automatic id check returned no issues. I did not open the covering candidates in tests/station_cash.rs, coin_store_siblings.rs, recipes_wire.rs, piece_040.rs or boombox_catalogue.rs. That check is only needed if the auditor later proposes removals. Minor: the reason for shipped_recipes_load_and_all_item_references_exist calls its overlap with every_loaded_recipe_item_exists_in_runtime_item_catalogue 'in spirit'. That is accurate enough to keep both, since they read different item sources."}

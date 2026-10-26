@@ -1,0 +1,26 @@
+<!-- fleet job=testaudit-infer id=piece_030-v1 status=done turns=3 usd=0.0039 tokens(read,write,in,out)=[28217, 18661, 8, 2622] model=claude-haiku-5-5 -->
+# tests/piece_030.rs
+
+{"file": "tests/piece_030.rs", "tests": [
+{"name": "acceptance_wire_table_lists_the_recovered_members", "verdict": "keep", "covered_by": null, "reason": "Only test pinning the acceptance wire table (opcodes, packet names, directions) against the recovered client constructors; no other file exercises piece_030's ACCEPTANCE_WIRE."},
+{"name": "every_verb_requires_recovered_opcodes", "verdict": "keep", "covered_by": null, "reason": "Unique structural check that every AcceptanceVerb maps only to recovered opcodes; not covered by any similar file."},
+{"name": "local_replay_passes_all_six_gates", "verdict": "keep", "covered_by": null, "reason": "Canary for the reconstructed replay passing all six gates and for the LocalReplay origin never counting as native evidence; no equivalent elsewhere."},
+{"name": "restart_round_trip_persists_the_moved_fixture_and_the_removal", "verdict": "keep", "covered_by": null, "reason": "Persistence check on the replay's own snapshot via piece_030::Housing. housing.rs has similar restart tests (saved_fixtures_survive_a_serialized_restart) but on a different harness and fixture; not clearly the same path, so kept conservatively."},
+{"name": "native_capture_origin_is_the_only_route_to_complete_evidence", "verdict": "keep", "covered_by": null, "reason": "Refusal-style guard that only NativeCapture yields native completeness; unique to this gate report."},
+{"name": "restart_gate_is_unproven_without_instance_data", "verdict": "keep", "covered_by": null, "reason": "Gate-negative test for missing evidence; unique to evaluate_transcript."},
+{"name": "visit_gate_is_unproven_without_the_guest_enter", "verdict": "keep", "covered_by": null, "reason": "Gate-negative test for the visit verb; unique."},
+{"name": "visit_gate_fails_when_an_unpermitted_actor_edits_successfully", "verdict": "keep", "covered_by": null, "reason": "Security check: an unpermitted actor's successful edit must fail the gate and name the actor. Never removable."},
+{"name": "visit_gate_is_unproven_while_an_unauthorised_edit_is_unanswered", "verdict": "keep", "covered_by": null, "reason": "Refusal check: an unanswered denial keeps the gate unproven. Unique."},
+{"name": "move_gate_is_unproven_without_movement_evidence", "verdict": "keep", "covered_by": null, "reason": "Gate-negative test for move evidence; unique."},
+{"name": "move_gate_fails_on_a_repeated_transform", "verdict": "keep", "covered_by": null, "reason": "Hostile-input check that a move must change the transform; unique."},
+{"name": "move_gate_fails_when_the_moved_guid_was_never_placed", "verdict": "keep", "covered_by": null, "reason": "Refusal check that an unknown fixture cannot move; unique."},
+{"name": "remove_gate_requires_the_pickup_request_and_response", "verdict": "keep", "covered_by": null, "reason": "Gate-negative test for the remove verb; unique."},
+{"name": "restart_gate_fails_when_a_removed_fixture_reappears", "verdict": "keep", "covered_by": null, "reason": "Persistence/refusal check that a picked-up fixture never returns after restart; unique to the gate."},
+{"name": "restart_gate_fails_when_a_moved_fixture_is_restored_at_the_old_transform", "verdict": "keep", "covered_by": null, "reason": "Check that restart carries the moved transform; unique to the gate."},
+{"name": "row_opcode_must_match_its_body", "verdict": "keep", "covered_by": null, "reason": "Hostile-input rejection of a mismatched opcode/body; unique to evaluate_transcript."},
+{"name": "rows_must_be_strictly_ordered", "verdict": "keep", "covered_by": null, "reason": "Rejection of out-of-order transcript rows; unique."},
+{"name": "evidence_for_another_house_is_rejected", "verdict": "keep", "covered_by": null, "reason": "Security/refusal check that foreign-house evidence is rejected; unique."},
+{"name": "acceptance_property_uses_the_recovered_row_one_bounds", "verdict": "keep", "covered_by": null, "reason": "Pins the acceptance lot constants (Houses.json row 1); small but not covered elsewhere in the similar files."},
+{"name": "exports_the_replay_evidence_for_the_lead", "verdict": "keep", "covered_by": null, "reason": "Ignored, env-gated export tool; not a behavioural check and not duplicated. Kept as the evidence-generation path."}
+],
+"whole_file_removable": false, "confidence": 0.7, "notes": "Every test drives piece_030's own acceptance evaluator (evaluate_transcript / replay_reconstructed_session / AcceptanceVerb), which none of the five similar files (kart_service, housing_service, piece_029, housing, piece_065) exercise. Housing persistence overlaps conceptually with housing.rs restart tests but via a different API, so no test is marked superseded. The file is a self-contained gate harness; nothing here looks redundant. Note that the header claims the file includes src/housing.rs via #[path] while the tests only use piece_030::Housing; I did not verify the module wiring. Excerpt was truncated at the top; I read the full body (lines 200-595) directly and the first 200 lines via the pack excerpt."}

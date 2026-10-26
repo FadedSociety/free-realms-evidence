@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-2-FiWCkh0St38-00378 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3148, 4, 1092] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 378s
+
+{"screen": "combat", "target": {"name": "Queen Verda", "level": null, "health_fraction": 0.75, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Troll Roughguard", "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.8}, "target_defeated": false, "notes": "Queen Verda's boss bar is shown at top (fill read roughly 3/4, not exact); her creature label is not clearly legible above the model. Troll Roughguard overlay with a near-full bar; the player is fighting trolls with no other player characters visible. Level and damage numbers not legible."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-2-OawnLys6j-o-00058 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3147, 4, 771] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 58s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 153, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "Elder Mugwort appears only as red NPC dialog text ('You should leave this place now!'); no creature or health bar visible. Goals panel lists 'Defeat the druid, Mugwort!' with no distance marker. Floating red 153 is unattributed."}

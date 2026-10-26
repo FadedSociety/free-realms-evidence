@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hedge-guardian-0-8COnkBTNgfw-00094 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3179, 4, 915] model=claude-haiku-5-5 -->
+# Hedge Guardian 8COnkBTNgfw 94s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1245, "on": "other", "color": "yellow"}, {"value": 821, "on": "other", "color": "yellow"}, {"value": 821, "on": "other", "color": "blue"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Heavy combat in a purple fog area with several damage numbers, but the Hedge Guardian name and its health bar are not legible at this resolution, so the target fields are left null."}

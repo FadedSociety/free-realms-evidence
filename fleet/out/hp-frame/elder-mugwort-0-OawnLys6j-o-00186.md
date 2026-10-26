@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-0-OawnLys6j-o-00186 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3147, 4, 833] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 186s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "World view of Mugwort's hideout; the only name label on screen is the player's own (Freddy Speedypants, Warrior of Winter Clan). Elder Mugwort is not legibly shown as a creature with a health bar; the Goals panel reads 'Defeat the druid, Mugwort!'. A faint label near the top center is unreadable."}

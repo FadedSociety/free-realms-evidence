@@ -1,0 +1,8 @@
+<!-- fleet job=testaudit-infer id=content_npc_ambient-v1 status=done turns=5 usd=0.0038 tokens(read,write,in,out)=[51377, 19794, 12, 1529] model=claude-haiku-5-5 -->
+# tests/content_npc_ambient.rs
+
+{"file": "tests/content_npc_ambient.rs",
+ "tests": [{"name": "ambient_rows_name_client_slots_and_models", "verdict": "keep", "covered_by": null, "reason": "The only test that checks the ambient NPC table (npc_ambient.json): slot ids against AnimationTypes.xml, model ids against Models.txt, interval bounds and the per-viewer cap. No other test in the repo references npc_ambient, NpcAmbient or max_packets_per_viewer_per_tick, and the similar files (pets, station_cash, social_chat, piece_075, piece_057) cover different content. It is also a content-integrity check that guards against hostile or drifted data, so it is not removable as redundant."}],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "Blocking concern, not a redundancy: prototype/osfr-tools/data/content/npc_ambient.json does not exist in the repo (the read tool returns 'not a file', and no file in the repo mentions npc_ambient). The test's first real read would panic, so it probably fails today. Either the data file was never committed or it lives elsewhere; the owner should confirm before this test is trusted. The doc comment says 'the gateway test drives' the chugawug row, but no test in the repo references this row (the only chugawug hits are in bandit_hideout_dungeon.rs, which tests different rows), so that cross-reference is also unverified. The test has an empty doc line. Verdict is keep; the file is not redundant."}

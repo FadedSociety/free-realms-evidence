@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00428 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 1018] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 428s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 0.65, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Large faded enemy name overlays the fight at center; the enemy health bar above it is about 65% green. A yellow damage number is partly visible but not fully legible, so it is not reported. The target level is not shown."}

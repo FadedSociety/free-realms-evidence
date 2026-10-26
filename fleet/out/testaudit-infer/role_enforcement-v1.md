@@ -1,0 +1,12 @@
+<!-- fleet job=testaudit-infer id=role_enforcement-v1 status=done turns=3 usd=0.0031 tokens(read,write,in,out)=[20441, 15609, 8, 1882] model=claude-haiku-5-5 -->
+# tests/role_enforcement.rs
+
+{"file": "tests/role_enforcement.rs",
+ "tests": [
+  {"name": "verified_owner_roles_persist_and_online_demotion_is_immediate", "verdict": "keep", "covered_by": null, "reason": "Security/persistence test: role saved to the account store survives reload, online demotion removes authority at once, the store lock fails closed (no role write while busy), and removing the trusted store denies commands. Nothing similar in tests/roles.rs (which only checks the policy table and schema loading) or tests/bot_acceptance_1016.rs (which checks only player refusal via the broker, not demotion or lock behaviour)."},
+  {"name": "player_and_builder_refusals_cover_every_tool_route", "verdict": "keep", "covered_by": null, "reason": "Refusal check: for Player and Builder roles, sixteen realm tool commands (including admin-only ones and an unknown one) must reply 'Cannot do that' and leave game state unchanged. tests/roles.rs::roles_allow_only_the_documented_commands covers the static policy table only, not the in-world handler, and bot_acceptance_1016.rs::builder_realm_command_runs_without_dev_tools_and_player_is_refused covers one command end to end. Partial overlap with roles.rs in policy terms, but the state-unchanged assertion is not covered elsewhere."},
+  {"name": "builder_tools_admin_cheats_and_feature_switch_are_independent", "verdict": "keep", "covered_by": null, "reason": "Authorisation matrix over role x dev-tools switch: builder tools allowed for Builder and Admin, admin cheats (god) only for Admin, and everything denied when dev tools are off. The policy part overlaps tests/roles.rs (table-level), but the dev-tools switch interaction and the in-world reply checks are not covered there. Kept conservatively."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "No test is clearly removable. The main overlap is with tests/roles.rs::roles_allow_only_the_documented_commands, which checks the same role-to-command policy at the unit level; the file's in-world checks go further than that. A possible cleanup is to drop the duplicated policy-table assertions from tests/role_enforcement.rs, but that is not required. I did not read tests/dev_teleport.rs or tests/account.rs in depth, so the dev-tools-off and role-persistence paths might have further overlap that I did not check."}

@@ -1,0 +1,15 @@
+<!-- fleet job=testaudit-infer id=self_quest_journal-v1 status=done turns=3 usd=0.0046 tokens(read,write,in,out)=[33012, 25416, 8, 2153] model=claude-haiku-5-5 -->
+# tests/self_quest_journal.rs
+
+{"file": "tests/self_quest_journal.rs",
+ "tests": [
+  {"name": "the_capture_is_the_inherited_25_quest_journal", "verdict": "keep", "covered_by": null, "reason": "Canary on the captured 0007-login.bin: 25 inherited quests, 1617 present, tail (241, 2513, 1, 10, 30). Nothing else in the suite asserts the captured quest block's count and tail. game_rules.rs::captured_self_account_flags_round_trip checks account flags only, and it is ignored."},
+  {"name": "fresh_opening_character_sends_the_empty_journal", "verdict": "keep", "covered_by": null, "reason": "Regression guard for the T623 bug (new characters inheriting 25 quests). It drives the real Gateway login with opening content and asserts an empty list and the empty tail. It overlaps in assertion shape with reference_only_session_sends_the_empty_journal but goes through a different load path, so it is not a duplicate."},
+  {"name": "an_accepted_opening_stage_is_the_only_quest_listed", "verdict": "keep", "covered_by": null, "reason": "Checks that a saved accepted opening stage (910001) is the only journal entry, including its title dword and objective count. Not found elsewhere in this form."},
+  {"name": "local_quest_journal_keeps_only_1617_with_its_bound_counter", "verdict": "keep", "covered_by": null, "reason": "Checks the bound counter at span offset 4112 moves with the saved count, and that a rewarded quest leaves the list. Related quests.rs tests cover the engine counters, not the self-data bytes, so this is the only byte-level check."},
+  {"name": "reference_only_session_sends_the_empty_journal", "verdict": "keep", "covered_by": null, "reason": "Covers the Gateway::load path with no content directory, which is different from the opening-content path. Asserts the same empty result, so it is the weakest of the keeps. Removing it would only lose the no-content path; leaning keep under the conservative rule."},
+  {"name": "a_saved_split_quest_comes_back_once_by_49_3_not_in_the_self_data", "verdict": "keep", "covered_by": null, "reason": "Asserts the split quest is absent from the self span and is re-added exactly once by a 49/3 packet after login. Similar 49/3 checks exist (w74_quest_runtime.rs, ninja_stealth_chain.rs, quest_engine.rs) but drive different quests and paths and do not check the self-data absence, so none is a clear equivalent."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.75,
+ "notes": "All six tests are the only byte-level checks of the login quest block for this T623 fix. Only reference_only_session overlaps in assertion shape with fresh_opening; both are kept for distinct load paths. The similar files (quest_engine, npc_interaction, kart_service, housing_service, coin_store_siblings) were judged by test names only, not by reading their bodies, so the non-duplication calls are name-level and moderate confidence."}

@@ -1,0 +1,16 @@
+<!-- fleet job=testaudit-infer id=vendor_stock_coverage-v1 status=done turns=4 usd=0.0046 tokens(read,write,in,out)=[43072, 21069, 10, 3031] model=claude-haiku-5-5 -->
+# tests/vendor_stock_coverage.rs
+
+{"file": "tests/vendor_stock_coverage.rs",
+ "tests": [
+  {"name": "the_selected_hub_vendors_have_nonempty_grantable_stock", "verdict": "keep", "covered_by": null, "reason": "Only whole-set audit of the 59 selected-hub vendor rows (30 stocked / 1 resolved-empty / 28 unresolved, with per-NPC exception evidence). Content-completeness canary; no other file enumerates these vendors."},
+  {"name": "at_least_twenty_more_selected_hub_vendors_are_fully_grantable", "verdict": "keep", "covered_by": null, "reason": "Ignored target test that records the unmet T108 completion requirement (49 stocked / 39 spawned). Not run by default; it documents the open target and should not be removed."},
+  {"name": "at_least_twenty_more_vendor_rows_are_fully_grantable", "verdict": "keep", "covered_by": null, "reason": "Row-level content canary: grantable-row floor, 96-vendor floor, runtime item_ids must equal grantable rows, and only the two T230-emptied ride vendors may be empty. Unique to this file; guards silent stock loss."},
+  {"name": "no_vendor_stock_row_uses_a_fuzzy_or_family_substitute", "verdict": "keep", "covered_by": null, "reason": "Provenance check on the 22 T108-added rows (exact source name, reciprocal gender-variant pairing, locale text). Not a duplicate of any runtime test; content-integrity guard."},
+  {"name": "unresolved_vendor_names_keep_the_exact_utf8_evidence", "verdict": "keep", "covered_by": null, "reason": "Mojibake canary on vendors_unresolved.json evidence names (curly apostrophe). Cheap, unique, and guards against encoding regression; keep under conservative rule."},
+  {"name": "vendor_buy_wire_matches_the_client_reader_layout", "verdict": "keep", "covered_by": null, "reason": "Wire-layout canary for 66/43 buy and 66/44 result (40-byte request, 56-byte response, field offset 48). Builds packets via the gateway_vendor helper, so it is not a pure duplicate of npc_interaction's 66/43 parsing test; kept as the only layout-level check in this file. Possible overlap with npc_interaction::merchant_buy_66_43_is_parsed_only_for_an_open_vendor_session and vendor_buy_sell_gateway request_bodies_match_the_client_writers, not verified line by line."},
+  {"name": "representative_new_stock_buys_once_and_refuses_atomically", "verdict": "keep", "covered_by": null, "reason": "Protected name; thin wrapper over common/vendor_purchase.rs, which is the purchase/refusal proof also driven by vendor_buy_sell_gateway. Refusal/atomicity check; not removed."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "This is a content-coverage suite with no obvious duplicates in other files: no other test enumerates the selected-hub vendor set, spawn counts, or the stock provenance. Constants were updated by T230, T275, T372 and T470 and are consistent with the tests (baseline 1,041 + 20 = 1,061; 48 spawned = 30 stocked + 18 unstocked). Nothing is obsolete. The only overlap candidate is the 66/43 wire test against npc_interaction and vendor_buy_sell_gateway; I did not read those bodies, so it is kept. The ignored target test and the protected-name tests are retained as required."}

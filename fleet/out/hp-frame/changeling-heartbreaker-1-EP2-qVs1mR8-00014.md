@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=changeling-heartbreaker-1-EP2-qVs1mR8-00014 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2891, 4, 1117] model=claude-haiku-5-5 -->
+# Changeling Heartbreaker EP2-qVs1mR8 14s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 3560, "on": "other", "color": "yellow"}, {"value": 3560, "on": "other", "color": "yellow"}, {"value": 3560, "on": "other", "color": "yellow"}, {"value": 7121, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Grayson Stonehammer", "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Combat with heart-shaped Changeling creatures being hit for 3560 damage each; the picked enemy's name is not legible above any bar and no enemy health bar is readable, and the Goals tracker is only a quest label."}

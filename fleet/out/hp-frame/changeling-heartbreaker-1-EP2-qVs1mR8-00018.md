@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=changeling-heartbreaker-1-EP2-qVs1mR8-00018 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2891, 4, 984] model=claude-haiku-5-5 -->
+# Changeling Heartbreaker EP2-qVs1mR8 18s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 7121, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": 1.0, "health_text": "7116/7116"}, "target_defeated": false, "notes": "Combat frame with a large yellow -7121 hit and a purple impact effect, but no legible Changeling Heartbreaker name or health bar above any creature; the only overhead name is a different, unrelated label, so the picked enemy cannot be identified here."}

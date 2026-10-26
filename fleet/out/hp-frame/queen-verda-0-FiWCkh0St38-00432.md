@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-0-FiWCkh0St38-00432 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3148, 4, 899] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 432s
+
+{"screen": "combat", "target": {"name": "Queen Verda", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Troll Roughguard", "health_fraction": 0.5}], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.85}, "target_defeated": false, "notes": "Verda's name is in the top target frame, but her bar there is all red with no readable green fill, so no fraction; her creature is not clearly separated from the troll crowd. Player is casting a blue effect near the fight."}

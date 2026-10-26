@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-nibbler-1-KLx739bZjNs-00042 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2750, 4, 1151] model=claude-haiku-5-5 -->
+# Nettleseed Nibbler KLx739bZjNs 42s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -147, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Cyllena Valmarin", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player swings a sword at a pink-orange creature in a teal field; no legible health bar or name over the creature, only a partly hidden 'Nibbler' fragment near the player's title; chat shows Nettleseed Nibbler knock-out goal at 1/9-type progress."}

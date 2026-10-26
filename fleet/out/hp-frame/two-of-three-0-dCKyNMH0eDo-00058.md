@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=two-of-three-0-dCKyNMH0eDo-00058 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2734, 4, 773] model=claude-haiku-5-5 -->
+# Two of Three dCKyNMH0eDo 58s
+
+{"screen": "combat", "target": {"name": "Two of Three", "level": 20, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.75}, "target_defeated": false, "notes": "Two of Three (level 20) is shown stunned with a near-full green bar while fire effects hit it; the player's abilities are blocked by 'not enough energy' and 'stunned' messages. The player's bar reads 6443/8540 (about 0.75). The target bar is small, so its fraction is approximate."}

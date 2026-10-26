@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=stone-heart-0-4p-o96F9oig-00054 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2741, 4, 720] model=claude-haiku-5-5 -->
+# Stone Heart 4p_o96F9oig 54s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Monica Wintervale", "level": 16, "job": "Warrior", "health_fraction": null}, "target_defeated": false, "notes": "Red system line reads 'Stone Heart: Another love potion destroyed! Hahaha!' (chat text, not a health bar); a large dark creature is in the centre with no legible name label or health bar over it, so the Stone Heart bar cannot be read in this frame. 'Daniela Owlclaws <The vamp family of free realms>' is a player name label, not the target."}

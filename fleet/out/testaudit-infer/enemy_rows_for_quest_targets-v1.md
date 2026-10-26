@@ -1,0 +1,13 @@
+<!-- fleet job=testaudit-infer id=enemy_rows_for_quest_targets-v1 status=done turns=4 usd=0.0030 tokens(read,write,in,out)=[35908, 13073, 10, 1980] model=claude-haiku-5-5 -->
+# tests/enemy_rows_for_quest_targets.rs
+
+{"file": "tests/enemy_rows_for_quest_targets.rs",
+ "tests": [
+  {"name": "the_new_rows_load_with_unique_actor_kinds_and_client_names_and_models", "verdict": "keep", "covered_by": null, "reason": "Data canary for the T699 catalogue rows: strict EnemyEngine::load, unique actor_kind/definition ids, locale name resolution, Models.txt binding and worklist citation. Nothing in the similar files checks these 22 rows against the client tables; enemies.rs only uses a synthetic actor_kind 7."},
+  {"name": "every_new_field_spawn_is_present_only_with_its_quest_and_live_in_the_field", "verdict": "keep", "covered_by": null, "reason": "Pins the 16 field spawns, their GUID convention, levels, quest_ids and non-boss flag in field_enemies.json. It is the only check of these shipped spawn rows; the quest-presence gating is a refusal-style property not seen in the similar files."},
+  {"name": "a_defeat_of_a_new_spawn_reports_its_actor_kind_to_the_quest_event", "verdict": "keep", "covered_by": null, "reason": "Drives the real encounter kill path to KillActorKind for a new row. Similar kill-to-quest tests (quest_engine.rs, client_objectives.rs, enemies.rs) use synthetic kinds 7, 8, 9, 20 and do not use these rows, so this is not clearly covered elsewhere. Possible overlap with shared_field_kill_quest_credit.rs, which was not inspected in full."},
+  {"name": "a_refused_new_row_leaves_the_live_field_unchanged", "verdict": "keep", "covered_by": null, "reason": "Refusal check (a refused spawn changes nothing). Per the rule for refusal tests, kept without an equivalent elsewhere being named."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.3,
+ "notes": "Limits: the file is not present at prototype/osfr-tools/tests/enemy_rows_for_quest_targets.rs in the repo tip (rg reports no such file and no test name matches), and the read tool reported 'not a file' for the same path. The excerpt also stops mid-way through the second test and does not include the bodies of tests 3 and 4. Verdicts are therefore conservative defaults based on the pack's doc lines, excerpt and similar-file test names, not a full assertion-by-assertion comparison. Re-run the audit against the committed file before acting on any verdict. Similar-file scan: no test in power_up_drops.rs, shared_field_interest.rs, players.rs, housing.rs or station_cash.rs appears to check enemy-row catalogue data or the T699 spawns."}

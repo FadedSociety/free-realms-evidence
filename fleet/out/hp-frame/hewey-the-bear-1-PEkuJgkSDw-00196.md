@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hewey-the-bear-1-PEkuJgkSDw-00196 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2737, 4, 987] model=claude-haiku-5-5 -->
+# Hewey the Bear _PEkuJgkSDw 196s
+
+{"screen": "combat", "target": {"name": "Hewey the Bear", "level": null, "health_fraction": 0.75, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Paul Ponytrader", "level": null, "job": null, "health_fraction": 0.35, "health_text": "174/500"}, "target_defeated": false, "notes": "Hewey the Bear's bar is mostly green with a red lost segment above the figure in the centre; the player is stunned and a tutorial power-up box is open. Bar fraction is estimated from pixels, and the level and job are not legible."}

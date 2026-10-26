@@ -1,0 +1,642 @@
+[
+ {
+  "quest_id": 3000030,
+  "quest": "q3000030",
+  "title": "Chapter 1: Helping the Healers",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 90669,
+  "text": "Gather Ammi Lilies from the countryside around Sanctuary.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 90669,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'Ammi Lily' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3000038,
+  "quest": "q3000038",
+  "title": "Chapter 1: The Armor Shipment",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 90855,
+  "text": "Retrieve the armor shipment from Quartermaster Bargangle in Briarwood.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 90855,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'armor shipment' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3000042,
+  "quest": "q3000042",
+  "title": "Chapter 1: Pampered Pets",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 91468,
+  "text": "Pick up gifts for Darkthorne's pets from vendors around Sacred Grove.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 91468,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'vendors around Sacred Grove (names not given in text)' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3000042,
+  "quest": "q3000042",
+  "title": "Chapter 1: Pampered Pets",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 91469,
+  "text": "Pick up a gift from Florina in Sanctuary",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 91469,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target 'Florina' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3000042,
+  "quest": "q3000042",
+  "title": "Chapter 1: Pampered Pets",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 91471,
+  "text": "Pick up a gift from Jennifer in Cobblestone Village",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 91471,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'Jennifer' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3000042,
+  "quest": "q3000042",
+  "title": "Chapter 1: Pampered Pets",
+  "objective": 3,
+  "kind": "gather_resource",
+  "text_string_id": 91473,
+  "text": "Pick up a gift from Bowawow at Highroad Junction",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 91473,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 3: gather_resource target 'Bowawow' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3000042,
+  "quest": "q3000042",
+  "title": "Chapter 1: Pampered Pets",
+  "objective": 4,
+  "kind": "gather_resource",
+  "text_string_id": 91475,
+  "text": "Pick up a gift from Twiggi Truespirit in Shrouded Glade",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 91475,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 4: gather_resource target 'Twiggi Truespirit' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3010008,
+  "quest": "q3010008",
+  "title": "Archer: Explosive Expedition",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 77082,
+  "text": "You will need to collect six explosives from robgoblin pondblasters that wander near the small lake to the north of Hilforn and six sap samples from sap collection vats in the nearby forest.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 77082,
+   "resource_id": null,
+   "quantity": 6
+  },
+  "gap": "objective 0: gather_resource target 'Robgoblin Pondblasters' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3010008,
+  "quest": "q3010008",
+  "title": "Archer: Explosive Expedition",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 93147,
+  "text": "Collect samples from sap collection vats",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 93147,
+   "resource_id": null,
+   "quantity": 6
+  },
+  "gap": "objective 1: gather_resource target 'Sap Collection Vat' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3010019,
+  "quest": "q3010019",
+  "title": "Archer: Paralyzing Poison",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 77740,
+  "text": "Collect pink azaleas",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 77740,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'Pink Azalea' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3010023,
+  "quest": "q3010023",
+  "title": "Archer: Prevention First",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 78410,
+  "text": "Harvest bundles of rainleaf",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 78410,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'Rainleaf' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3010023,
+  "quest": "q3010023",
+  "title": "Archer: Prevention First",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 78417,
+  "text": "Harvest bundles of punkin",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 78417,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target 'Punkin' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3010023,
+  "quest": "q3010023",
+  "title": "Archer: Prevention First",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 78419,
+  "text": "Harvest bundles of sunleaf",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 78419,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'Sunleaf' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3010032,
+  "quest": "q3010032",
+  "title": "Archer: Building a Better Bow",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 130873,
+  "text": "As an archer, collect ruthenium clusters from Briarheart Caverns, buy some bow strings from Bullseye, and then speak to Bullseye.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 130873,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'Ruthenium Cluster' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3020009,
+  "quest": "q3020009",
+  "title": "Blacksmith: Impressing the Axemaker",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 91393,
+  "text": "Find Derp Axemaker's recipe pages",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 91393,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'recipe pages' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3020026,
+  "quest": "q3020026",
+  "title": "Blacksmith: Lady of the Lake",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 100284,
+  "text": "Find the Summersaber",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 100284,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target 'Summersaber' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3020026,
+  "quest": "q3020026",
+  "title": "Blacksmith: Lady of the Lake",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 100285,
+  "text": "If it still exists, find the Summersaber somewhere in Blackspore.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 100285,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'Summersaber' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3020033,
+  "quest": "q3020033",
+  "title": "Blacksmith: Grunt Work",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 439750,
+  "text": "Collect Sunstones from Sunstone Copper Veins.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 439750,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target 'Sunstone' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3020035,
+  "quest": "q3020035",
+  "title": "Blacksmith: Crackin’ Skullz",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 439769,
+  "text": "Collect Skullz armor samples from the Skullz Brawlers in the Manguana region of Sunstone Valley.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 439769,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'Skullz Armor Sample' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3020037,
+  "quest": "q3020037",
+  "title": "Blacksmith: Scrap Surfin'",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 439787,
+  "text": "Collect Sunstones from Mining Veins in Sunstone Valley.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 439787,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'Sunstone' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3030020,
+  "quest": "q3030020",
+  "title": "Brawler: Prey on the Cray",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 100505,
+  "text": "As a brawler, retrieve radiant gems from inside the Cracked Claw Caverns of Blackspore.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 100505,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'radiant gems' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3030023,
+  "quest": "q3030023",
+  "title": "Brawler: Splendid Silver!",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 72497,
+  "text": "Petra would like for you to collect some silver dust from tormented spirits that wander around Blackspore.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 72497,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'silver dust' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3030025,
+  "quest": "q3030025",
+  "title": "Brawler: Missing Wallet",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 95084,
+  "text": "Find Andrew's wallet amongst the Bristlewood Arachnids.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 95084,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target \"Andrew's wallet\" has no resource_id in our data"
+ },
+ {
+  "quest_id": 3040005,
+  "quest": "q3040005",
+  "title": "Card Duelist: 52 Card Pick-Up",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 103201,
+  "text": "Pick up Sam's cards",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 103201,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target \"Sam's cards\" has no resource_id in our data"
+ },
+ {
+  "quest_id": 3040016,
+  "quest": "q3040016",
+  "title": "Card Duelist: Serious Business",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 103946,
+  "text": "Catch Puggles the Pig",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 103946,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target 'Puggles the Pig' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3040019,
+  "quest": "q3040019",
+  "title": "Card Duelist: Misplaced Deck",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 104201,
+  "text": "Pick up cards along the main path in Wugachug.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 104201,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'cards' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050002,
+  "quest": "q3050002",
+  "title": "Stewing to Success",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 42200,
+  "text": "You need to harvest bundles of Rainleaf and Gummyfruit before Cookie can make a batch of Strong Arm Stew.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 42200,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target 'Bundle of Rainleaf' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050002,
+  "quest": "q3050002",
+  "title": "Stewing to Success",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 42200,
+  "text": "You need to harvest bundles of Rainleaf and Gummyfruit before Cookie can make a batch of Strong Arm Stew.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 42200,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'Bundle of Gummyfruit' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050005,
+  "quest": "q3050005",
+  "title": "Farming 101",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": null,
+  "text": "Collect a Bundle of Rainleaf",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": null,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target 'Bundle of Rainleaf' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050005,
+  "quest": "q3050005",
+  "title": "Farming 101",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": null,
+  "text": "Collect a Bundle of Gummy Fruit",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": null,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'Bundle of Gummyfruit' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050012,
+  "quest": "q3050012",
+  "title": "Chef: Fireworks Frenzy!",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 115751,
+  "text": "Collect all five Piles of Fireworks before time runs out!",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 115751,
+   "resource_id": null,
+   "quantity": 5
+  },
+  "gap": "objective 2: gather_resource target 'Pile of Fireworks' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050014,
+  "quest": "q3050014",
+  "title": "Chef: Snowy Treats",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 139232,
+  "text": "Gather some Snowberry",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 139232,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'Snowberry' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050014,
+  "quest": "q3050014",
+  "title": "Chef: Snowy Treats",
+  "objective": 3,
+  "kind": "gather_resource",
+  "text_string_id": 139233,
+  "text": "Perry can't seem to harvest the Snowberry she needs, help her by harvesting some!",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 139233,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 3: gather_resource target 'Snowberry' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050014,
+  "quest": "q3050014",
+  "title": "Chef: Snowy Treats",
+  "objective": 4,
+  "kind": "gather_resource",
+  "text_string_id": 139212,
+  "text": "Perry needs your help collecting some Snowberry and Starnut from her farm!",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 139212,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 4: gather_resource target 'Starnut' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050017,
+  "quest": "q3050017",
+  "title": "Chef: Harvest Hiccup!",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 116983,
+  "text": "Robgoblin fishers have thrown Gavin's ingredients all over the nearby area! Collect all five Bundles of Ingredients before the time runs out!",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 116983,
+   "resource_id": null,
+   "quantity": 5
+  },
+  "gap": "objective 1: gather_resource target 'Bundles of Ingredients' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3050022,
+  "quest": "q3050022",
+  "title": "Chef: Roasted Mysteries",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 24035,
+  "text": "Harvest some ingredients from Queensfields and Farnum's Farmstead, then take them to Chef Jarvie in Merry Vale.",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 24035,
+   "resource_id": null,
+   "quantity": 2
+  },
+  "gap": "objective 0: gather_resource target 'Stainberry, Gummyfruit' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3060033,
+  "quest": "q3060033",
+  "title": "Demo Derby: Hurtin' Crewe Act II",
+  "objective": 0,
+  "kind": "gather_resource",
+  "text_string_id": 394042,
+  "text": "Help Sydney Spellmerg film the final frames of 'Hurtin' Crewe' by collecting power-ups in Wildwood and going Ultimate!",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 394042,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 0: gather_resource target 'power-ups' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3070008,
+  "quest": "q3070008",
+  "title": "Fisherman: Stronger Equipment",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 408691,
+  "text": "Find the fishing pole",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 408691,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target 'fishing pole' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3070008,
+  "quest": "q3070008",
+  "title": "Fisherman: Stronger Equipment",
+  "objective": 2,
+  "kind": "gather_resource",
+  "text_string_id": 408693,
+  "text": "Find the tackle box",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 408693,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 2: gather_resource target 'tackle box' has no resource_id in our data"
+ },
+ {
+  "quest_id": 3070018,
+  "quest": "q3070018",
+  "title": "Fisherman: Fresh Fish Special",
+  "objective": 1,
+  "kind": "gather_resource",
+  "text_string_id": 410343,
+  "text": "Harvest some Spiralmint",
+  "draft": {
+   "kind": "gather_resource",
+   "text_string_id": 410343,
+   "resource_id": null,
+   "quantity": 1
+  },
+  "gap": "objective 1: gather_resource target 'Spiralmint' has no resource_id in our data"
+ }
+]

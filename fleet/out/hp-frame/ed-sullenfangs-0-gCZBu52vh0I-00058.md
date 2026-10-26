@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ed-sullenfangs-0-gCZBu52vh0I-00058 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2880, 4, 1109] model=claude-haiku-5-5 -->
+# Ed Sullenfangs gCZBu52vh0I 58s
+
+{"screen": "combat", "target": {"name": "Ed Sullenfangs", "level": null, "health_fraction": 0.9, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2999, "on": "target", "color": "yellow"}, {"value": 2999, "on": "other", "color": "yellow"}, {"value": 2999, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Grayson Stonyhammer", "level": 20, "job": null, "health_fraction": 1.0, "health_text": "8085/8120"}, "target_defeated": false, "notes": "Player fights vampire Ed Sullenfangs with several large -2999 hits; the 'not enough energy' message is shown. Overhead bar fraction is approximate; the level is not shown."}

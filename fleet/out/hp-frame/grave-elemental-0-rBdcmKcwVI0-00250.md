@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=grave-elemental-0-rBdcmKcwVI0-00250 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2745, 4, 904] model=claude-haiku-5-5 -->
+# Grave Elemental rBdcmKcwVI0 250s
+
+{"screen": "world", "target": {"name": "Grave Elemental", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [{"name": "Tormented Spirit", "health_fraction": null}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Adventurer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Exploring a graveyard path; 'Grave Elemental' appears only as a name with 25m distance at top of screen, with no visible health bar or creature in combat. Tormented Spirit is a tracker marker at 20m; a Pet Wolf and Burke are nearby but not enemies."}

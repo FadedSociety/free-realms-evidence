@@ -1,0 +1,562 @@
+[
+ {
+  "quest_id": 3030026,
+  "quest": "q3030026",
+  "title": "Brawler: Missing Money",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 95158,
+  "text": "As a brawler, find Andrew's money in Arachnia's Lair, at the edge of Briarwood Forest.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 95158
+  },
+  "gap": "objective 0: place \"Arachnia's Lair\" has no position in our data"
+ },
+ {
+  "quest_id": 3030028,
+  "quest": "q3030028",
+  "title": "Brawler: One Man's Junk...",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 141019,
+  "text": "As a brawler, collect the stolen goods from the Robgoblin Troublemakers that lair to the north of the Robgoblin Camp and return to Nurble when done.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 141019
+  },
+  "gap": "objective 0: place 'Robgoblin Camp' has no position in our data"
+ },
+ {
+  "quest_id": 3030032,
+  "quest": "q3030032",
+  "title": "Brawler: An Honest Mistake",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 141085,
+  "text": "Help the troubled Brawler, Jeni Shortfuse, who's on Ice Troll duty outside of Howling HIlls.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 141085
+  },
+  "gap": "objective 0: place 'Howling Hills' has no position in our data"
+ },
+ {
+  "quest_id": 3040006,
+  "quest": "q3040006",
+  "title": "Card Duelist: So Over Archery",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 103529,
+  "text": "Quills can be found at the Town Hall in Sanctuary.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 103529
+  },
+  "gap": "objective 1: place 'Town Hall, Sanctuary' has no position in our data"
+ },
+ {
+  "quest_id": 3040010,
+  "quest": "q3040010",
+  "title": "Card Duelist: Poe's Planted Cards",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 103706,
+  "text": "Find Poe's cards, hidden in one of the yellow potted plants around Sanctuary.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 103706
+  },
+  "gap": "objective 0: place 'yellow potted plants' has no position in our data"
+ },
+ {
+  "quest_id": 3040018,
+  "quest": "q3040018",
+  "title": "Card Duelist: Shifty Dealings",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 104184,
+  "text": "Garrison says Shifty the Shuffler is in Wugachug, which is west of Snowhill.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 104184
+  },
+  "gap": "objective 1: place 'Wugachug' has no position in our data"
+ },
+ {
+  "quest_id": 3040018,
+  "quest": "q3040018",
+  "title": "Card Duelist: Shifty Dealings",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 104182,
+  "text": "See Shifty's cards for yourself by heading to Wugachug and playing him a game.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 104182
+  },
+  "gap": "objective 2: place 'Wugachug' has no position in our data"
+ },
+ {
+  "quest_id": 3040021,
+  "quest": "q3040021",
+  "title": "Card Duelist: Parcel Recovery",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 104245,
+  "text": "Postchug Runalug can be found within Wugachug.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 104245
+  },
+  "gap": "objective 1: place 'Wugachug' has no position in our data"
+ },
+ {
+  "quest_id": 3040021,
+  "quest": "q3040021",
+  "title": "Card Duelist: Parcel Recovery",
+  "objective": 3,
+  "kind": "visit_position",
+  "text_string_id": 104247,
+  "text": "Jammie Swiftsong can be found in Seaside near the Ocean Treasures Cafe.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 104247
+  },
+  "gap": "objective 3: place 'Seaside' has no position in our data"
+ },
+ {
+  "quest_id": 3040038,
+  "quest": "q3040038",
+  "title": "Card Duelist: Scattered Artifacts",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 413825,
+  "text": "Speak to Ramirez and Tyrone Shadowshard in Blackspore.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 413825
+  },
+  "gap": "objective 1: place 'Blackspore' has no position in our data"
+ },
+ {
+  "quest_id": 3040051,
+  "quest": "q3040051",
+  "title": "Card Duelist: Confronting The Baron",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 2585,
+  "text": "The dwarf you seek calls himself <font color='#D9781A'>Baron von Darkcheat</font>, and he seems dangerous!<BR><BR>If you have the courage to confront him travel north, towards the Crystal Barrier.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 2585
+  },
+  "gap": "objective 0: place 'Crystal Barrier' has no position in our data"
+ },
+ {
+  "quest_id": 3040053,
+  "quest": "q3040053",
+  "title": "Card Duelist: Zelda's Warning",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 439672,
+  "text": "Madam Zelda has warned you that the future of Sacred Grove is in great danger. Meet her in Blackspore to learn more.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 439672
+  },
+  "gap": "objective 1: place 'Blackspore' has no position in our data"
+ },
+ {
+  "quest_id": 3040054,
+  "quest": "q3040054",
+  "title": "Card Duelist: Heart of Darkness",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 26461,
+  "text": "Find Clancy Blackheart in Bristlewood",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 26461
+  },
+  "gap": "objective 0: place 'Clancy Blackheart' has no position in our data"
+ },
+ {
+  "quest_id": 3040055,
+  "quest": "q3040055",
+  "title": "Card Duelist: Slow and Steady",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 26475,
+  "text": "Find Freddy Slowhands in Merry Vale",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 26475
+  },
+  "gap": "objective 0: place 'Freddy Slowhands' has no position in our data"
+ },
+ {
+  "quest_id": 3040056,
+  "quest": "q3040056",
+  "title": "Card Duelist: Stinky Feet",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 7957,
+  "text": "I've heard of this <font color='#D9781A'>Bud Grimyfoot</font>. He’s in <font color='D9781A'>Wugachug</font>. I wonder if the Baron is there too! Go there and make Bud talk.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 7957
+  },
+  "gap": "objective 0: place 'Bud Grimyfoot' has no position in our data"
+ },
+ {
+  "quest_id": 3050009,
+  "quest": "q3050009",
+  "title": "Chef: Queensfields",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 100549,
+  "text": "Find Honey at the Queensfields Farm, south of Sanctuary, and learn about harvesting.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 100549
+  },
+  "gap": "objective 0: place 'Honey' has no position in our data"
+ },
+ {
+  "quest_id": 3050013,
+  "quest": "q3050013",
+  "title": "Chef: Perry's Pastures",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 104143,
+  "text": "Find Perry at Perry's Pastures, north of Highroad Junction, and learn about harvesting.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 104143
+  },
+  "gap": "objective 0: place \"Perry's Pastures\" has no position in our data"
+ },
+ {
+  "quest_id": 3050018,
+  "quest": "q3050018",
+  "title": "Chef: Queensfields",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 116659,
+  "text": "As a chef, find Honey at the Queensfields, southwest of Stillwater Crossing.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 116659
+  },
+  "gap": "objective 0: place 'Honey' has no position in our data"
+ },
+ {
+  "quest_id": 3050019,
+  "quest": "q3050019",
+  "title": "Chef: Meet the Reputable Bordon Cloo",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 139285,
+  "text": "Find Vaelen near the Snowhill warpstone, northeast of Perry. With the help of a fellow researcher, he's managed to develop a spell that can teleport anyone to any warpstone in the world!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 139285
+  },
+  "gap": "objective 0: place 'Vaelen Warpwatcher' has no position in our data"
+ },
+ {
+  "quest_id": 3050024,
+  "quest": "q3050024",
+  "title": "Chef: Chugawhat?",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 72107,
+  "text": "Travel to Wugachug and learn more about cooking from Cook Yumtumlot,",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 72107
+  },
+  "gap": "objective 0: place 'Wugachug' has no position in our data"
+ },
+ {
+  "quest_id": 3060011,
+  "quest": "q3060011",
+  "title": "Demo Derby: So Long, Betty!",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 394022,
+  "text": "Pay a visit to Crash's sponsor in Lakeshore to help secure funding for a new car.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 394022
+  },
+  "gap": "objective 0: place \"Merri De'Flor\" has no position in our data"
+ },
+ {
+  "quest_id": 3060014,
+  "quest": "q3060014",
+  "title": "Demo Derby: Curious Crash",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 394025,
+  "text": "Investigate the crash site outside of Thunder Falls and recover any evidence.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 394025
+  },
+  "gap": "objective 0: place 'crash site outside Thunder Falls' has no position in our data"
+ },
+ {
+  "quest_id": 3060022,
+  "quest": "q3060022",
+  "title": "Demo Derby: Getting Scrappy",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 394030,
+  "text": "Make your way into The Tank's camp outside of Frost Ridge and retrieve some scrap metal.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 394030
+  },
+  "gap": "objective 0: place \"The Tank's camp outside Frost Ridge\" has no position in our data"
+ },
+ {
+  "quest_id": 3060024,
+  "quest": "q3060024",
+  "title": "Demo Derby: Think of the Kittens",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 395567,
+  "text": "Pass out some fliers around Stillwater Crossing to promote a charity demolition derby event.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 395567
+  },
+  "gap": "objective 0: place 'Stillwater Crossing' has no position in our data"
+ },
+ {
+  "quest_id": 3060034,
+  "quest": "q3060034",
+  "title": "Demo Derby: Pixiewood Premiere",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 394044,
+  "text": "Attend the 'Hurtin' Crewe' premiere in Pixiewood!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 394044
+  },
+  "gap": "objective 0: place 'Pixiewood' has no position in our data"
+ },
+ {
+  "quest_id": 3060038,
+  "quest": "q3060038",
+  "title": "Demo Derby: Copy Cat",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 394046,
+  "text": "Make the trek to Tangletrack in Bristlewood and investigate the rumors.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 394046
+  },
+  "gap": "objective 0: place 'Tangletrack' has no position in our data"
+ },
+ {
+  "quest_id": 3060041,
+  "quest": "q3060041",
+  "title": "Demo Derby: Booby Trapped!",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 393365,
+  "text": "You may have run some of the troublemakers out of the arena, but now it looks like they've taken to booby trapping some of the vehicles outside of the track! Jackson Spinner hopes that you'll be willing to inspect the cars for safety.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 393365
+  },
+  "gap": "objective 0: place 'Vehicles outside the Tangletrack track' has no position in our data"
+ },
+ {
+  "quest_id": 3070011,
+  "quest": "q3070011",
+  "title": "Fisherman: Bigger is Better",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 419160,
+  "text": "Catch a bigger creeping cod than Ernest in Darklit Lagoon.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 419160
+  },
+  "gap": "objective 0: place 'Darklit Lagoon' has no position in our data"
+ },
+ {
+  "quest_id": 3070023,
+  "quest": "q3070023",
+  "title": "Fisherman: Undercover",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 409471,
+  "text": "While under the illusion, sneak up on the other fishermen in Brambleback Bayou and find out what they are up to.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 409471
+  },
+  "gap": "objective 2: place 'Other Fishermen' has no position in our data"
+ },
+ {
+  "quest_id": 3070028,
+  "quest": "q3070028",
+  "title": "Fisherman: Taking the Bait",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 409252,
+  "text": "Head to Darklit Lagoon and reel in a large purplenosed shark.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 409252
+  },
+  "gap": "objective 0: place 'Darklit Lagoon' has no position in our data"
+ },
+ {
+  "quest_id": 3070034,
+  "quest": "q3070034",
+  "title": "Fisherman: McScuttle Family Farm",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 409998,
+  "text": "It's time to put a stop to Ernest's badmouthing. Head to the McScuttle family farm at Rainbow Lake to find out where Ernest is.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 409998
+  },
+  "gap": "objective 0: place 'McScuttle Family Farm' has no position in our data"
+ },
+ {
+  "quest_id": 3070034,
+  "quest": "q3070034",
+  "title": "Fisherman: McScuttle Family Farm",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 410001,
+  "text": "Head to the McScuttle Family Farm at Rainbow Lake to see if you can find Ernest.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 410001
+  },
+  "gap": "objective 1: place 'McScuttle Family Farm' has no position in our data"
+ },
+ {
+  "quest_id": 3070037,
+  "quest": "q3070037",
+  "title": "Fisherman: Snowhill Getaway",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 410182,
+  "text": "Murphy says your suite is located in Snowhill at 1 Way Back Way.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 410182
+  },
+  "gap": "objective 1: place '1 Way Back Way' has no position in our data"
+ },
+ {
+  "quest_id": 3070039,
+  "quest": "q3070039",
+  "title": "Fisherman: Partner Up",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 412150,
+  "text": "Hilbert can be found in the Wintery Basin.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 412150
+  },
+  "gap": "objective 2: place 'Wintery Basin' has no position in our data"
+ },
+ {
+  "quest_id": 3070046,
+  "quest": "q3070046",
+  "title": "Fisherman: Buried Treasure",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 412295,
+  "text": "Find the treasure chest",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 412295
+  },
+  "gap": "objective 0: place 'Treasure Chest' has no position in our data"
+ },
+ {
+  "quest_id": 3070046,
+  "quest": "q3070046",
+  "title": "Fisherman: Buried Treasure",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 412296,
+  "text": "Remember what Ernest said and see if you can find the treasure!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 412296
+  },
+  "gap": "objective 1: place None has no position in our data"
+ },
+ {
+  "quest_id": 3080015,
+  "quest": "q3080015",
+  "title": "Kart Driver: Stopping the Sabotage",
+  "objective": 4,
+  "kind": "visit_position",
+  "text_string_id": 402667,
+  "text": "Find all the Robgoblin Saboteurs before time runs out.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 402667
+  },
+  "gap": "objective 4: place 'Robgoblin Saboteurs' has no position in our data"
+ },
+ {
+  "quest_id": 3080024,
+  "quest": "q3080024",
+  "title": "Kart Driver: Age Before Beauty",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 395131,
+  "text": "Please hurry and talk to <font color='#d9781a'>Ace O'Mally</font> at the <font color='#d9781a'>Thunder Falls Speedway</font>.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 395131
+  },
+  "gap": "objective 0: place 'Thunder Falls Speedway' has no position in our data"
+ },
+ {
+  "quest_id": 3080027,
+  "quest": "q3080027",
+  "title": "Kart Driver: Making Amends",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 395233,
+  "text": "Get Chase Wheeler's parts back from Linx Redline near Thunder Falls Speedway.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 395233
+  },
+  "gap": "objective 0: place \"Linx Redline's kart\" has no position in our data"
+ },
+ {
+  "quest_id": 3080027,
+  "quest": "q3080027",
+  "title": "Kart Driver: Making Amends",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 395752,
+  "text": "Linx Redline went to a lot of trouble hiding his kart out here, but you found it! Now you just need to get Chase Wheeler's parts back before his pit crew notices.<BR><BR>If a Pit Crew Member manages to steal the parts from you while making your escape, just toss a wrench at them to get the parts back!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 395752
+  },
+  "gap": "objective 1: place \"Linx Redline's kart\" has no position in our data"
+ }
+]

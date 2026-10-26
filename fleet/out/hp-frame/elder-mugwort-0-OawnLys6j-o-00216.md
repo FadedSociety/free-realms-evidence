@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-0-OawnLys6j-o-00216 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3147, 4, 1171] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 216s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}, {"value": 821, "on": "target", "color": "yellow"}, {"value": 2490, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypents", "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Elder Mugwort is being hit by many yellow damage numbers (-2490, -821) while the green bar above its name reads as nearly full; the dialog line 'Not only do the animals obey me, so do their spirits!' is on screen. Bar fraction and job name are hard to read, so they are approximate."}

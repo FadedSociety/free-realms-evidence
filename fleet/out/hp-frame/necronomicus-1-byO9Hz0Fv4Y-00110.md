@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-1-byO9Hz0Fv4Y-00110 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2744, 4, 1002] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 110s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -17434, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": null}, "target_defeated": false, "notes": "Combat with a crowd of enemies under orange fire effects; the 'Necronomicus Unleashed' banner is on screen, but no legible name or health bar sits over a specific Necronomicus, so the target's health cannot be read. The yellow -17434 number is near the crosshair and its target is unclear."}

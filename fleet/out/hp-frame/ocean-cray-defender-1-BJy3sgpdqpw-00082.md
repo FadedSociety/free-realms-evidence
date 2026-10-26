@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-1-BJy3sgpdqpw-00082 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 1083] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 82s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 821, "on": "other", "color": "yellow"}, {"value": 921, "on": "other", "color": "yellow"}, {"value": 55, "on": "player", "color": "green"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "Large zone banner 'Ocean Cray Defen...' is across the screen, not a creature name; no named enemy health bar is readable above a creature, so the picked enemy has no legible bar in this frame. A green/red bar at top centre is unlabelled and not attributed to any name."}

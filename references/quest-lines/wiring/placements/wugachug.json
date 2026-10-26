@@ -1,0 +1,18 @@
+[
+ {
+  "npc_id": 9500000977,
+  "name": "General Wugashima",
+  "zone": "Wugachug",
+  "position": [
+   -78.52924,
+   69.5702,
+   -322.4223
+  ],
+  "heading": -0.941312,
+  "model": "chugawug_m_ninjawug_bixie_rider_general_01.adr",
+  "model_id": 4468,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2909",
+  "near_zone": "Wugachug",
+  "quests_waiting": []
+ }
+]

@@ -1,0 +1,887 @@
+[
+ {
+  "quest_id": 3000039,
+  "title": "Chapter 1: The Small Wooden Box",
+  "record": "quest-lines/quests.json q3000039",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000163
+    },
+    "text_string_id": 90862,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Text 90862 says find the Briarwood fort guard who has the box; the target is Lieutenant Snibug.",
+      "source": "locale:90862; locale:90866"
+     },
+     {
+      "claim": "NPC row 9500000163 'Lieutenant Snibug' exists in the Briarwood NPC data.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/briarwood.json:39009-39012"
+     },
+     {
+      "claim": "The draft visit_position had no zone_id or position, only npc_anchor, so it cannot be built as written. No coordinates for the fort are in the pack.",
+      "source": "pack: objectives[0].draft"
+     }
+    ],
+    "note": "Draft visit_position replaced: the server's visit_position needs zone_id and a position [x,y,z], and none is sourced. Snibug is the same NPC as objective 1, so this part is the locate step as talk_to_npc. Placement: the reference spawn is 'in front of the Tanglewood Fort in Nettleseed' (client 2735144727, repo notes 'Tanglewood Fort.md' line 94), but no placed spawn coordinates were verified. Builder needs to place 9500000163 at the fort, or supply a position for a visit_position. Zone conflict: client tags the lines Briarwood, the fort is in Nettleseed."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000163
+    },
+    "text_string_id": 90869,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Text 90869 'Find Lieutenant Snibug' is the talk step.",
+      "source": "locale:90869"
+     },
+     {
+      "claim": "Snibug's answer 90863 is the reply after the talk.",
+      "source": "locale:90863"
+     }
+    ],
+    "note": "Same NPC and placement gap as index 0. The talk kind and npc_id are correct; only placement is open."
+   }
+  ]
+ },
+ {
+  "quest_id": 3020031,
+  "title": "Blacksmith: The Royal Smithy",
+  "record": "quest-lines/quests.json q3020031",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000207
+    },
+    "text_string_id": 101646,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 'Find Steelbloom at the smithy in Sanctuary and speak to him.' is locale 101646, quest_objective tagged to The Royal Smithy (Sanctuary).",
+      "source": "locale:101646"
+     },
+     {
+      "claim": "NPC row 9000000207 'Steelbloom' is listed in Sanctuary, but its id_kind is 'reconstructed_from_job_reference' and its name rests on name_string_id 10074 (a bare name fragment), so it is not a verified placed spawn.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:56248-56270"
+     },
+     {
+      "claim": "Quest record 3020031 has giver_npc_id 9000000007, not 9000000207. Record 3020032 (Band 6 Steelbloom, repeatable) has giver_npc_id 9000000207.",
+      "source": "repo:prototype/osfr-tools/data/content/quests/blacksmith.json:1622-1624, 1667-1669"
+     },
+     {
+      "claim": "The earlier citation blacksmith.json:7 belongs to record 3020001, not 3020031, and locale 46166 belongs to a different quest; both are dropped.",
+      "source": "repo:prototype/osfr-tools/data/content/quests/blacksmith.json:7"
+     }
+    ],
+    "note": "Single talk objective, no count. Keep npc_id 9000000207 as the Steelbloom candidate, but it needs a placed Sanctuary spawn (smithy position) before it is wireable. The quest's giver (9000000007, Anata Caliburn) is not used here."
+   }
+  ]
+ },
+ {
+  "quest_id": 3040003,
+  "title": "Card Duelist: Sam I Am",
+  "record": "quest-lines/quests.json q3040003",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "visit_position",
+    "fields": {
+     "zone_id": 10,
+     "position": [
+      -1290.0687,
+      -14.91131,
+      291.80383
+     ],
+     "radius": 8.0,
+     "npc_id": 9000000187
+    },
+    "text_string_id": 103515,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 'Find Sam Potts' is locale 103515, quest_objective tagged to Card Duelist: Sam I Am in Sanctuary.",
+      "source": "locale:103515"
+     },
+     {
+      "claim": "Sam Potts is NPC row 9000000187 (name_string_id 74093, zone Sanctuary, zone_id 10, roles quest_giver and trainer), with no placed position in our data.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:51234-51264"
+     },
+     {
+      "claim": "Legacy reference spawn for Sam Potts (PointOfInterests Id 104, NameId 74093) at Position [-1290.0687, -14.91131, 291.80383].",
+      "source": "refs:FreeRealms-Legacy/src/Resources/PointOfInterests.json:1386-1391"
+     },
+     {
+      "claim": "The NPC row is linked to this quest as giver (quest 3040003 in the quest record's source evidence).",
+      "source": "repo:prototype/osfr-tools/data/content/quests/card_duelist.json:109-118"
+     }
+    ],
+    "note": "The objective is a find-the-NPC step, so it is visit_position at the reference spawn, radius 8. The reference position comes from the FreeRealms-Legacy POI whose atlas is 'sacredgrove', while our row says zone Sanctuary (zone_id 10). The builder must confirm the zone_id and position in the Sanctuary placement before settling. Texts 103512 ('Find Sam Potts to continue your card duelist training...') and 103516 ('Sam is easily distracted...') are alternate wordings of this same single find step, so they are not separate objectives and are only listed in open."
+   }
+  ]
+ },
+ {
+  "quest_id": 3040004,
+  "title": "Practice Makes Perfect",
+  "record": "quest-lines/quests.json q3040004",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000187
+    },
+    "text_string_id": 103244,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 'Speak with Sam' is locale 103244, the quest's own talk objective.",
+      "source": "locale:103244"
+     },
+     {
+      "claim": "Quest 3040004 names giver_npc_id 9000000187; that row is Sam Potts (name_string_id 74093).",
+      "source": "repo:prototype/osfr-tools/data/content/quests/card_duelist.json:161; repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:51240-51242"
+     },
+     {
+      "claim": "Sam Potts is listed as quest giver/trainer in Sanctuary; the NPC row has presence 'listed' and no placed spawn.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:51256-51263"
+     },
+     {
+      "claim": "Reference spawn for Sam at Sanctuary (ref 33340, model human_f_tcg_sam_potts.agr, position [-1290.0687, -14.91131, 291.80383]).",
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3570"
+     }
+    ],
+    "note": "Keep npc_id 9000000187. Not yet placed: the builder must place this NPC at the Sanctuary reference position (ref 33340, FabledRealms.lua:3570; tournament board area). Reference spawn is unique and matches by model."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 500,
+     "count": 1
+    },
+    "text_string_id": 103248,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text \"Play and beat Sam's Trick Deck.\" is locale 103248.",
+      "source": "locale:103248"
+     },
+     {
+      "claim": "Draft minigame_id 500 was resolved against the pack's minigame candidates; count 1 is the text's single match.",
+      "source": "pack: objectives[1].draft"
+     }
+    ],
+    "note": "Single match against Sam's Trick Deck. The 'Sam Potts Deck A' (103239) label is a placeholder and not used."
+   }
+  ]
+ },
+ {
+  "quest_id": 3040009,
+  "title": "Card Duelist: Half a Deck",
+  "record": "quest-lines/quests.json q3040009",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 504,
+     "count": 1
+    },
+    "text_string_id": 103650,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Client MiniGameData row 504 is '504^16^92724^92756^...', i.e. name string 92724 and description 92756.",
+      "source": "client:Resources/MiniGameData.txt:424"
+     },
+     {
+      "claim": "locale 92724 = \"Poe's Trick Deck\"",
+      "source": "locale:92724"
+     },
+     {
+      "claim": "locale 92756 = \"Battle Master Card Duelist Poe Tatters and his Trick Deck. Be the first to score 12 points to win the match...\", so minigame 504 is the Poe Tatters trick-deck duel that the objective names.",
+      "source": "locale:92756"
+     },
+     {
+      "claim": "Objective text 'Beat Poe Tatters' Trick Deck to win one of his cards!' is the quest objective, tagged to this quest; the count is one match.",
+      "source": "locale:103650; quest_lines locale:103642, 103643"
+     },
+     {
+      "claim": "Quest key and title match the repo quest record (quest_id 3040009, title_string_id 103649, Sanctuary giver Poe Tatters).",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:42780-42784"
+     }
+    ],
+    "note": "Count 1 is read from the text ('Beat ... Trick Deck', one match), not chosen. The pack's draft minigame_id 504 was checked against client MiniGameData and locale 92724/92756 and holds. Client row 504 is type 16; the pack's 'resolved' flag is confirmed by the name string."
+   }
+  ]
+ },
+ {
+  "quest_id": 3040011,
+  "title": "Card Duelist: Poe's Best Deck",
+  "record": "quest-lines/quests.json q3040011",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 507,
+     "count": 1
+    },
+    "text_string_id": 103738,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "MiniGameData row 507 is type 16, name_id 92727 (\"Poe's Tournament Deck\"), description_id 92759 (Poe Tatters duel: first to 12 points wins one of Poe's Hero cards).",
+      "source": "client: Resources/MiniGameData.txt:427 (507^16^92727^92759^7533^1^...)"
+     },
+     {
+      "claim": "Objective text 'Play and defeat Poe's Tournament Deck.' is locale 103738, the quest objective line for this quest.",
+      "source": "locale:103738 (quest_objective, Poe's Best Deck); locale:92727 (item name Poe's Tournament Deck)"
+     },
+     {
+      "claim": "Count 1: the objective is one duel against one opponent deck.",
+      "source": "locale:103738 text; locale:92759 describes a single match"
+     }
+    ],
+    "note": "Draft kept as-is; minigame id verified against the client MiniGameData row, not only the pack's resolved flag."
+   }
+  ]
+ },
+ {
+  "quest_id": 3050018,
+  "title": "Chef: Queensfields",
+  "record": "quest-lines/quests.json q3050018",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "reach_poi",
+    "fields": {
+     "poi_id": 24
+    },
+    "text_string_id": 116659,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 116659 is 'As a chef, find Honey at the Queensfields, southwest of Stillwater Crossing.' The place named is Queensfields.",
+      "source": "locale:116659 (verified via pack)"
+     },
+     {
+      "claim": "Queensfields is point of interest 24 ('Queensfields'), recorded with breadcrumb original id 1805.",
+      "source": "repo:prototype/osfr-tools/data/content/breadcrumb_quests.json:105-107 (poi_ids [24], poi_name Queensfields); legacy PointOfInterests.json POI 24 per the same row"
+     },
+     {
+      "claim": "Honey's NPC row is npc_id 9000000107, zone Sanctuary, name_string_id 901526272, presence 'listed'. No spawn or placement row for 9000000107 exists in the repo data, so Honey is not yet placed.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:31602-31610"
+     },
+     {
+      "claim": "The wiki places Honey in Queensfields, located in Sanctuary, and the Sanctuary notes list the Queensfields farm as her spot.",
+      "source": "lookup wiki page Honey; notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:47"
+     }
+    ],
+    "note": "Replaces the draft visit_position on anchor 9000000107 with radius 8. The draft had no coordinates in the pack, and the anchor is an NPC id, not a position. Using the POI keeps the zone-wide 'find' as a place check. The Honey hand-off (talk_to_npc 9000000107) is a separate step that needs her placed first (see open). Placement text conflicts: S4 says 'southwest of Stillwater Crossing', C4 says 'south of Sanctuary'. POI 24 is the Sanctuary Queensfields area."
+   }
+  ]
+ },
+ {
+  "quest_id": 3050020,
+  "title": "Chef: Reach Level 5",
+  "record": "quest-lines/quests.json q3050020",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "job_level",
+    "fields": {
+     "profile_id": 45,
+     "level": 5
+    },
+    "text_string_id": 387248,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text says the player must reach level 5 as a Chef, then return to Bordon Cloo",
+      "source": "locale:387248"
+     },
+     {
+      "claim": "Chef gate uses profile 45, required level 5, quest_id 387247 (title 'Chef: Reach Level 5')",
+      "source": "repo:prototype/osfr-tools/tests/pieces/test_piece_040.py:175"
+     }
+    ],
+    "note": "Gate on Chef profile 45 at level 5. The numeric quest id 387247 is the client title string id; the server key in the pack is 3050020 (batch key, see open)."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000028
+    },
+    "text_string_id": 387248,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Bordon Cloo is npc_id 9000000028 and is the quest giver for 3050020 in the Sanctuary NPC data",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:8023"
+     },
+     {
+      "claim": "Bordon Cloo npc_id 9000000028 is present as a placed vendor NPC",
+      "source": "repo:prototype/osfr-tools/data/content/vendors.json:47113"
+     },
+     {
+      "claim": "Return-to-NPC wording in the objective text",
+      "source": "locale:387248"
+     }
+    ],
+    "note": "Return to Bordon Cloo after reaching level 5. Greeting/progress line 387246 and completion line 387249 are both spoken by him per the pack."
+   }
+  ]
+ },
+ {
+  "quest_id": 3070026,
+  "title": "Fisherman: Dooba's Secret",
+  "record": "quest-lines/quests.json q3070026",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000308,
+     "count": 1
+    },
+    "text_string_id": 409232,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Locale 409232 reads \"Visit Dooba in Nettleseed and see if he'll let you have some of his bait.\" (quest_objective, tagged to Dooba's Secret); one named target, count 1.",
+      "source": "locale:409232"
+     },
+     {
+      "claim": "NPC row 9000000308 is named Dooba in the repo.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/briarwood.json:21557-21563"
+     },
+     {
+      "claim": "The row is reconstructed_from_job_reference with zone Briarwood (zone_id 2) and location 'Nettleseed fishing hole'; the guide also places Dooba at the Nettleseed fishing hole.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/briarwood.json:21557-21589; notes/Build Guides/Content/NPCs/NPCs - Briarwood.md:162"
+     },
+     {
+      "claim": "The row's quests_given lists 3070027 (Fisherman: Live Bait!), not 3070026. The Dooba-to-this-quest link comes from the objective text, not the row.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/briarwood.json:21590 onward; repo:prototype/osfr-tools/data/content/quests/fisherman.json:1342"
+     }
+    ],
+    "note": "Target Dooba (npc 9000000308) kept from the draft; the id is real in the repo. Not settled: the row is reconstructed, its zone (Briarwood) differs from the Nettleseed text, and no spawn candidate was resolved from reference_spawn. Builder must place a Nettleseed spawn for 9000000308 (fishing hole, per NPCs - Briarwood.md:162) before wiring. Locale 37569 was not usable as evidence (flagged fragment); the name 'Dooba' rests on the repo row."
+   }
+  ]
+ },
+ {
+  "quest_id": 3120010,
+  "title": "Pet Trainer: Mosey On Up",
+  "record": "quest-lines/quests.json q3120010",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000231
+    },
+    "text_string_id": 90040,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "locale:90040 is the quest objective 'Find Vidor Stormshroud the Pet Trainer in Shrouded Glade.' (quest_objective, hint Mosey On Up)",
+      "source": "locale:90040"
+     },
+     {
+      "claim": "NPC row 9000000231 (Vidor Stormshroud) is placed in the Shrouded Glade NPC data, so the talk target is drawn by the server",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/shrouded_glade.json:34942"
+     },
+     {
+      "claim": "The same NPC id is used as the talk target for this objective in the quest data draft",
+      "source": "repo:prototype/osfr-tools/data/content/quests/pet_trainer.json:454"
+     },
+     {
+      "claim": "Vidor Stormshroud's name is confirmed in the client text table as a ucdt/ugdt name, and the Shrouded Glade guide places him next to the Pet Park",
+      "source": "notes/Build Guides/Content/NPCs/NPCs - Shrouded Glade.md (Vidor row); locale:2201455295"
+     }
+    ],
+    "note": "Single talk objective, count not applicable. Placement was previously flagged as blocked by a W110 note about Roscoe 9000000184; that blocker concerns Roscoe, not Vidor. Vidor's row 9000000231 is placed, so no spawn work is needed for this objective."
+   }
+  ]
+ },
+ {
+  "quest_id": 3130001,
+  "title": "Become a Postman",
+  "record": "quest-lines/quests.json q3130001",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000086
+    },
+    "text_string_id": 412451,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Client objective 412451 'Speak to Felipe' is the quest's talk objective.",
+      "source": "locale:412451"
+     },
+     {
+      "claim": "NPC row 9000000086 Felipe, Sanctuary, placed:false, placement poi_anchor (not drawn).",
+      "source": "pack: candidates.npc_row"
+     },
+     {
+      "claim": "Reference spawn for Felipe in Sanctuary at [-1276.9783, -14.72255, 303.08456], heading -0.771869999, model fairy_m_courier_01.agr, name_id 21276, unique name match.",
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3614"
+     },
+     {
+      "claim": "The quest data already lists 9000000086 as giver and talk target of quest 3130001.",
+      "source": "repo:prototype/osfr-tools/data/content/quests/postman.json:7"
+     },
+     {
+      "claim": "Notes say Felipe and Loryn are poi_anchor, not drawn; the entry quest is Sanctuary.",
+      "source": "repo:notes/Autopilot/T407.md:37"
+     }
+    ],
+    "note": "Keep npc_id 9000000086. Needs placement: draw Felipe in Sanctuary at the reference position above (ref source FabledRealms.lua:3614). Until placed, the talk objective cannot be completed in game. Quest key uses the batch id 3130001; no separate numeric server id is recorded."
+   }
+  ]
+ },
+ {
+  "quest_id": 3130007,
+  "title": "Postman: Sort of a Mess",
+  "record": "quest-lines/quests.json q3130007",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 376,
+     "count": 1
+    },
+    "text_string_id": 141814,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Help Flitter clean up the mail clutter by completing the Sanctuary Mail Sorting minigame.' is quest_objective for this quest",
+      "source": "locale:141814"
+     },
+     {
+      "claim": "Minigame id 376 carried by the pack draft as the Sanctuary Mail Sorting minigame; the client lookup confirms the minigame name 'Sanctuary Mail Sorting' (locale:102030)",
+      "source": "pack: objectives[0].draft.minigame_id; locale:102030"
+     }
+    ],
+    "note": "Count 1 is the text's single minigame run. Minigame 376 was not re-read from a repo minigame table in this pass; it rests on the pack's resolved candidate."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 376,
+     "count": 1
+    },
+    "text_string_id": 141815,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "'Complete the Sanctuary Mail Sorting minigame' is quest_objective for this quest",
+      "source": "locale:141815"
+     }
+    ],
+    "note": "Second step of the same minigame; kept as its own objective, as in the draft."
+   },
+   {
+    "index": 2,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000091
+    },
+    "text_string_id": 141817,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Flitter is NPC 9000000091 and is placed in Sanctuary",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:22724"
+     },
+     {
+      "claim": "Flitter is the quest giver for the Postman quest line row 4 (Sort of a Mess)",
+      "source": "repo:prototype/osfr-tools/data/content/quests/postman.json:310"
+     },
+     {
+      "claim": "Objective text 'Speak to Flitter'",
+      "source": "locale:141817"
+     }
+    ],
+    "note": ""
+   }
+  ]
+ },
+ {
+  "quest_id": 3150014,
+  "title": "Warrior: General Concerns",
+  "record": "quest-lines/quests.json q3150014",
+  "source": "draft complete (no final fix/check answer)",
+  "objectives": [
+   {
+    "kind": "visit_position",
+    "text_string_id": 71355,
+    "from": "objective 0: Help General Glowlight resolve the changeling problem in the Forgotten Caves below Sanctuary.",
+    "zone_id": 0,
+    "position": [
+     -912.1867,
+     -63.6597,
+     399.10583
+    ],
+    "radius": 8.0,
+    "client_evidence": [
+     "locale:71355: objective sends the player to the Forgotten Caves below Sanctuary.",
+     "Resources/PointOfInterests.json:842-846: POI 63 is 'Forgotten Caves' at [-912.1867,-63.6597,399.10583]."
+    ],
+    "resolved": true
+   }
+  ]
+ },
+ {
+  "quest_id": 3150015,
+  "title": "Warrior: Finding Facts About Fastvi",
+  "record": "quest-lines/quests.json q3150015",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "reach_poi",
+    "fields": {
+     "poi_id": 90
+    },
+    "text_string_id": 45369,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: retrieve the book from the highest peak of Misty Mountain (Arestol's request).",
+      "source": "locale:45369"
+     },
+     {
+      "claim": "Quest title is 'Warrior: Finding Facts About Fastvi'.",
+      "source": "locale:45368"
+     },
+     {
+      "claim": "POI 90 is 'Misty Mountain' (NameId 71773, Position [158.58415, 44.722233, 1075.0023]).",
+      "source": "repo:Sanctuary/src/Resources/PointOfInterests.json:1207 (also FreeRealms-Legacy and Lxzxrus copies at the same line)"
+     },
+     {
+      "claim": "Target 'Misty Mountain' exact text id is 71773 (30419 has a trailing space).",
+      "source": "locale search (pack)"
+     }
+    ],
+    "note": "A place with a point of interest is reach_poi. POI 90 is the Misty Mountain point, so the draft visit_position with radius 8.0 is replaced by reach_poi{poi_id:90}; no radius needed. The draft position was sourced to this POI, but the POI is not confirmed as the highest peak. The book pickup at the peak is not covered: no verified item id, so no collect_item. Previous rejection of the draft coordinate as unsourced was wrong; the critiques are correct on this point."
+   }
+  ]
+ },
+ {
+  "quest_id": 3150016,
+  "title": "Warrior: Achieve Level 15",
+  "record": "quest-lines/quests.json q3150016",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "job_level",
+    "fields": {
+     "profile_id": 32,
+     "level": 15
+    },
+    "text_string_id": 387587,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Level up to 15 as a warrior.' gives the level 15 gate",
+      "source": "locale:387587"
+     },
+     {
+      "claim": "Profile 32 is the Warrior profile (critique cites attacks.json:35-36)",
+      "source": "pack: critiques[1].notes; not independently re-read here"
+     }
+    ],
+    "note": "Level gate goes first, matching 387585 'Reach level 15 as a warrior, then return to Sir Whittington.' Server evaluation order is unverified; keep this order."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000205
+    },
+    "text_string_id": 387585,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text names Sir Whittington as the return target",
+      "source": "locale:387585 (re-verified by id)"
+     },
+     {
+      "claim": "giver_npc_id 9000000205 on quest record 3150016",
+      "source": "repo:prototype/osfr-tools/data/content/quests/warrior.json:897"
+     },
+     {
+      "claim": "Sir Whittington placed beside the Bixie tower-defense table in Sanctuary (client 1966120509); name id 2315569188 in the notes differs from locale 7652 in the pack",
+      "source": "notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:33, :214; notes/Build Guides/Content/Jobs/Warrior.md:52"
+     }
+    ],
+    "note": "Row 9000000205 is not confirmed as placed. Reference spawn is Sanctuary (tower-defense table), but the client tags this quest to Snowhill, and the Warrior wiki names Snowhill as the line's zone. Builder must choose the placement zone before wiring; the Sanctuary spawn is the only documented one."
+   }
+  ]
+ },
+ {
+  "quest_id": 3160016,
+  "title": "Wizard: Osgood as it Gets",
+  "record": "quest-lines/quests.json q3160016",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000164
+    },
+    "text_string_id": 74949,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 'Speak with Osgood' is quest_objective for this quest (Sanctuary).",
+      "source": "locale:74949"
+     },
+     {
+      "claim": "Target Osgood is NPC row 9000000164, zone Sanctuary, currently unanchored (placed:false), and matches by name uniquely.",
+      "source": "pack: candidates.npc_row, candidates.reference_spawn"
+     },
+     {
+      "claim": "Reference spawn for Osgood: ref_id 33446 at [-1238.1771, -14.19615, 190.59244], heading -1.83369, model fairy_m_osgood.adr (model_id 764), name_id 45555, Sanctuary.",
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3670"
+     },
+     {
+      "claim": "Quest offer is given by Yaren Sunstare and names Osgood in Sanctuary as the wand-maker.",
+      "source": "locale:74937 (dialog.offer)"
+     }
+    ],
+    "note": "Keep npc_id 9000000164 and place it at Sanctuary position [-1238.1771, -14.19615, 190.59244], heading -1.83369 (reference spawn source: lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3670). Until that placement exists, the talk objective cannot be drawn."
+   }
+  ]
+ },
+ {
+  "quest_id": 3160017,
+  "title": "Wizard: Reach Level 10",
+  "record": "quest-lines/quests.json q3160017",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "job_level",
+    "fields": {
+     "profile_id": 12,
+     "level": 10
+    },
+    "text_string_id": 387688,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "locale 387688 reads 'Reach level 10 as a wizard'",
+      "source": "locale:387688"
+     },
+     {
+      "claim": "locale 387689 reads 'Level up to 10 as a wizard.' (confirms level 10)",
+      "source": "locale:387689"
+     },
+     {
+      "claim": "profile 12 is the wizard job per the pack's job resolver (resolved: true)",
+      "source": "pack: objectives[1].draft.profile_id"
+     },
+     {
+      "claim": "validate_definition requires job_level to be objective #0 for ordered split-catalogue quests",
+      "source": "repo:notes/Autopilot/F576.md:34-38"
+     }
+    ],
+    "note": "Moved from index 1 to index 0 per the critique; the ordered quest requires job_level first. Text order (level 10, then return to Osgood) agrees with this sequencing. Count 10 is stated by the text, not chosen."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000164
+    },
+    "text_string_id": 387685,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "locale 387685 reads 'Reach level 10 as a wizard, then return to Osgood.'",
+      "source": "locale:387685"
+     },
+     {
+      "claim": "NPC row 9000000164 is Osgood, Sanctuary, currently unplaced",
+      "source": "pack: objectives[0].candidates.npc_row"
+     },
+     {
+      "claim": "Reference spawn: zone:spawnNpcWithGuid(33446, 100000033446, -1238.1771, -14.19615, 190.59244, -1.83369003) for Osgood (fairy_m_osgood.adr, name_id 45555)",
+      "source": "refs:lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3670"
+     }
+    ],
+    "note": "Chosen placement: Sanctuary at [-1238.1771, -14.19615, 190.59244], heading -1.83369003, from ref 33446 (FabledRealms.lua:3670). Builder must anchor NPC row 9000000164 there before this objective can run. Status stays needs_placement until then."
+   }
+  ]
+ },
+ {
+  "quest_id": 3160019,
+  "title": "Wizard: Helping a Friend",
+  "record": "quest-lines/quests.json q3160019",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000190
+    },
+    "text_string_id": 37312,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 'Speak with Sandbur in Sanctuary's Inner Circle.' is locale:37312, tagged to this quest",
+      "source": "locale:37312"
+     },
+     {
+      "claim": "Sandbur's NPC row is 9000000190, named Sandbur, zone Sanctuary, not placed",
+      "source": "pack: candidates.npc_row; repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:52592"
+     },
+     {
+      "claim": "Reference spawn for Sandbur is ref_id 33449 at [-1231.0, 4.94757, 349.0], model changeling_m.adr, name_id 10090",
+      "source": "pack: candidates.reference_spawn; lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3673"
+     },
+     {
+      "claim": "Quest id 3160019 is the server quest row; Sandbur 9000000190 is listed as a talk target and an unspawned target that causes the quest to be disabled",
+      "source": "repo:prototype/osfr-tools/data/content/quests/wizard.json:1034-1093"
+     }
+    ],
+    "note": "Keep npc_id 9000000190. Needs placement at ref 33449 position [-1231.0, 4.94757, 349.0] (Sanctuary, FabledRealms.lua:3673) before the quest can be enabled; wizard.json:1093 notes the quest is disabled while this target is unspawned."
+   }
+  ]
+ },
+ {
+  "quest_id": 3160024,
+  "title": "Wizard: Reach Level 15",
+  "record": "quest-lines/quests.json q3160024",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "job_level",
+    "fields": {
+     "profile_id": 12,
+     "level": 15
+    },
+    "text_string_id": 387693,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Level up to 15 as a wizard.'",
+      "source": "locale:387693"
+     },
+     {
+      "claim": "Wizard is job profile 12",
+      "source": "repo:prototype/osfr-tools/data/content/jobs.json:1482"
+     }
+    ],
+    "note": "Level 15 is stated in the text, so no count is chosen. The level-15 gate is enforced by the job_level kind."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000164
+    },
+    "text_string_id": 387691,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 'Reach level 15 as a wizard, then return to Osgood.'",
+      "source": "locale:387691"
+     },
+     {
+      "claim": "Osgood NPC row 9000000164 exists but is unplaced",
+      "source": "pack: candidates.npc_row"
+     },
+     {
+      "claim": "Reference spawn for Osgood at Sanctuary, position [-1238.1771, -14.19615, 190.59244], model fairy_m_osgood.adr",
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3670 (ref_id 33446)"
+     }
+    ],
+    "note": "Place NPC row 9000000164 at the reference spawn, FabledRealms.lua:3670 (ref_id 33446, Sanctuary, unique name match). Talk is the return to Osgood after objective 0."
+   }
+  ]
+ },
+ {
+  "quest_id": 3160033,
+  "title": "Wizard: Rescue Mission",
+  "record": "quest-lines/quests.json q3160033",
+  "source": "draft complete (no final fix/check answer)",
+  "objectives": [
+   {
+    "kind": "visit_position",
+    "text_string_id": 76440,
+    "from": "objective 0: Go to Briarwood and rescue Sven in the Briarheart Caverns.",
+    "zone_id": 0,
+    "position": [
+     -39.80192,
+     -0.00425,
+     2904.154
+    ],
+    "radius": 8.0,
+    "client_evidence": [
+     "locale:76440: objective sends the player to rescue Sven in Briarheart Caverns.",
+     "Resources/PointOfInterests.json:884-888: POI 66 is 'Briarheart Caverns' at [-39.80192,-0.00425,2904.154]."
+    ],
+    "resolved": true
+   }
+  ]
+ }
+]

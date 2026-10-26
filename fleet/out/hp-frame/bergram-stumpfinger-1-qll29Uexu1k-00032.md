@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-1-qll29Uexu1k-00032 status=done turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 3157, 4, 449] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger qll29Uexu1k 32s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Night riverside scene seen from behind a character with no HUD visible; only the floating label 'Dragon Fruits' is shown, no Bergram Stumpfinger name or health bar on screen. Distant orange creature in background is unnamed and not legible as the target."}

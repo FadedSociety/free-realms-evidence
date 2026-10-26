@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-bone-shaman-0-bIXHKm8tK78-00452 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2984, 4, 850] model=claude-haiku-5-5 -->
+# Troll Bone Shaman bIXHKm8tK78 452s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player runs on a forest path; a small grey-blue troll-like creature stands left near a pink marker, but its name label is too small to read and no health bar is clearly over it. A full green bar floats above a rock at top center, not clearly tied to any named enemy."}

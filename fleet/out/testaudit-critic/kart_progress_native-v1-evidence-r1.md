@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=kart_progress_native-v1-evidence-r1 status=done turns=1 usd=0.0019 tokens(read,write,in,out)=[0, 11922, 4, 728] model=claude-haiku-5-5 -->
+# tests/kart_progress_native.rs
+
+{"pass": true, "wireable": true, "score": 7, "problems": [], "notes": "The audit marks all 10 tests keep and whole_file_removable false, so no removal verdict needs a covering test. Keeping every test is the conservative outcome the lens prefers. The keep reasons are thinner than ideal: several 'unique' and 'no other file exercises X' claims rest on grep-level checks, and the auditor says it did not open kart_review.rs or kart_racing.rs. That does not change the outcome, because a missed overlap would only mean a redundant test is kept. The auditor's own notes flag the partial check. The file header's evidence references are not verified here. Nothing in the removal list is at risk."}

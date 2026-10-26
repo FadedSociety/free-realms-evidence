@@ -1,0 +1,500 @@
+[
+  {
+    "quest_id": 3060029,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 906,
+      "count": 1
+    },
+    "evidence": [
+      "locale:394038 'knocking out a few karts in the Wildwood arena'",
+      "Resources/Models.txt:907: model 906 = sg_derby_car_01.adr (generic derby car)",
+      "Resources/MiniGameData.txt:535: encounter 623 uses title 393326 and description 394478",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "low",
+    "notes": "Best generic demolition-derby car model. The text gives no numeric count and no actor-level model binding; count 1 is retained from the supplied draft. Models 903-905 are specialized wreck variants, so 906 is the conservative generic choice."
+  },
+  {
+    "quest_id": 3060030,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 906,
+      "count": 1
+    },
+    "evidence": [
+      "locale:394472 'Knock out a bunch of cars'",
+      "Resources/Models.txt:907: model 906 = sg_derby_car_01.adr (generic derby car)",
+      "Resources/MiniGameData.txt:530: encounter 618 uses title 393316 and description 394473",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "low",
+    "notes": "Best generic demolition-derby car model. The text gives no numeric count and no actor-level model binding; count 1 is retained from the supplied draft."
+  },
+  {
+    "quest_id": 3060035,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1308,
+      "count": 1
+    },
+    "evidence": [
+      "locale:394045 'Head into the Wildwood arena and remove Sir Horace!'",
+      "Resources/Models.txt:1309: model 1308 = fairy_m_sir_horace_incar.agr",
+      "locale:393362: Sir Horace drove his kart into the arena",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "high",
+    "notes": "The in-car Sir Horace model matches the arena objective. Models 1306 and 1307 are his standing and formal variants."
+  },
+  {
+    "quest_id": 3060035,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1308,
+      "count": 3
+    },
+    "evidence": [
+      "locale:395075 'Knock out Sir Horace 3 times'",
+      "Resources/Models.txt:1309: model 1308 = fairy_m_sir_horace_incar.agr",
+      "locale:393362: Sir Horace drove his kart into the arena",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "high",
+    "notes": "Explicit count of 3. The in-car model is selected because this is the arena/derby form."
+  },
+  {
+    "quest_id": 3080026,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1300,
+      "count": 1
+    },
+    "evidence": [
+      "locale:395225 'Beat Linx Redline in the \"Settling the Score\" race'",
+      "Resources/Npcs.json:10192: Linx Redline uses model 1300",
+      "Resources/Models.txt:1301: model 1300 = fairy_m_linx_redline.agr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "Exact named-NPC model join. The objective is a race win rather than a combat kill, and model 1301 is the in-car variant if the runtime uses the racing representation."
+  },
+  {
+    "quest_id": 3080035,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 828,
+      "count": 1
+    },
+    "evidence": [
+      "locale:395642 'Beat Antonio Taurino in the \"Burning Up the Track\" race'",
+      "Resources/Npcs.json:8139: Antonio Taurino uses model 828",
+      "Resources/Models.txt:829: model 828 = human_m_antonio_taurino.agr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "Exact named-NPC model join. The objective is a race win rather than a combat kill, and model 872 is the in-car variant if the runtime uses the racing representation."
+  },
+  {
+    "quest_id": 3090007,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 220,
+      "count": 1
+    },
+    "evidence": [
+      "locale:388277 'Defeat Bixie Warriors'",
+      "Resources/Models.txt:221: model 220 = bixie_m_warrior.adr, 'Bixie Male Warrior'",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "high",
+    "notes": "Exact Bixie Warrior family model. The plural text supplies no number; count 1 is retained from the supplied draft."
+  },
+  {
+    "quest_id": 3090008,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 220,
+      "count": 1
+    },
+    "evidence": [
+      "locale:76749 'Defeat the wandering Bixie Warriors found west of Queensfields'",
+      "Resources/Models.txt:221: model 220 = bixie_m_warrior.adr, 'Bixie Male Warrior'",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "high",
+    "notes": "Exact Bixie Warrior family model. The plural text supplies no number; count 1 is retained from the supplied draft."
+  },
+  {
+    "quest_id": 3090008,
+    "objective": 4,
+    "kind": "defeat",
+    "found": {
+      "model_id": 398,
+      "count": 1
+    },
+    "evidence": [
+      "locale:76759 'Knock Clover out!'",
+      "Resources/Npcs.json:6148: Clover uses model 398",
+      "Resources/Models.txt:399: model 398 = fairy_sanctuary_m_01.adr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "high",
+    "notes": "Exact named-NPC model join. TextureAlias sanctuary-m-03 is recorded beside the NPC row."
+  },
+  {
+    "quest_id": 3090022,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 239,
+        "count": 1
+      },
+      {
+        "model_id": 234,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:388325: defeat the changelings in the Forgotten Caves",
+      "dungeons_unresolved.json: Forgotten Caves lists Changeling Berserker and Changeling Arcanus",
+      "Resources/Models.txt:240: model 239 = changeling_fighter_m.adr",
+      "Resources/Models.txt:235: model 234 = changeling_m_mage.adr, 'Changeling Male Mage'",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "low",
+    "notes": "The generic plural does not name the two Forgotten Caves variants or a count. The list encodes fighter and mage candidates, each with the draft count 1; no exact actor-kind-to-model join was found."
+  },
+  {
+    "quest_id": 3100017,
+    "objective": 5,
+    "kind": "defeat",
+    "found": {},
+    "evidence": [
+      "locale:77528 'Elite: Eliminate 5 blocker tiles!'",
+      "Resources/Models.txt:2235-2236: only hsg_hedgemaze_blocker_01/02 housing props contain Blocker",
+      "Resources/MiniGameData.txt: header describes minigame data, not actor definitions"
+    ],
+    "confidence": "high",
+    "notes": "Unsettled by design: a blocker tile is an in-game tile, not an enemy actor. The Models.txt blocker rows are housing props and must not be used as a combat model."
+  },
+  {
+    "quest_id": 3110003,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 4547,
+      "count": 1
+    },
+    "evidence": [
+      "locale:78846: defeat foes at Hot Springs Haven",
+      "locale:6815: 'Defeat noisy yetis inside of the Hot Springs Haven in Snowhill'",
+      "Resources/Models.txt:3529: model 4547 = sh_standard_yeti_01.adr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "The supplied objective text names only a location; nearby Hot Springs Haven objective 6815 identifies the foes as yetis. The original text supplies no numeric count, so count 1 is retained from the draft."
+  },
+  {
+    "quest_id": 3110005,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 471,
+      "count": 1
+    },
+    "evidence": [
+      "locale:78854: defeat the denizens of Cracked Claw Caverns",
+      "locale:76116: 'Defeat the cray in Cracked Claw Caverns'",
+      "Resources/Models.txt:472: model 471 = cray_arctic_swamp.adr",
+      "Resources/Npcs.json:2161: Cray Marauder uses model 471",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "The supplied text is location-only; nearby Cracked Claw objectives identify cray as the inhabitants. The generic count is not stated, so count 1 is retained from the draft."
+  },
+  {
+    "quest_id": 3110008,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 3284,
+        "count": 1
+      },
+      {
+        "model_id": 4547,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:388401: defeat wolves and yetis in Snowhill",
+      "locale:388399: wolves and the worse snarlers, plus yetis",
+      "Resources/Models.txt:2470: model 3284 = wolf_generic.adr",
+      "Resources/Models.txt:3529: model 4547 = sh_standard_yeti_01.adr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "low",
+    "notes": "Two enemy families are named. No numeric per-family count is supplied, so each count is retained as 1 from the draft. The wolf choice is the generic combat wolf body, not model 1938, which Models.txt labels as a spawner."
+  },
+  {
+    "quest_id": 3110014,
+    "objective": 1,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 471,
+        "count": 1
+      },
+      {
+        "model_id": 240,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:388405: defeat Cray Marauders and Fleetfoot Ninjas",
+      "Resources/Models.txt:472: model 471 = cray_arctic_swamp.adr",
+      "Resources/Npcs.json:2161: Cray Marauder uses model 471",
+      "Resources/Models.txt:241: model 240 = changeling_ninja_m.adr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "low",
+    "notes": "Cray Marauder has an exact NPC/model join. Fleetfoot Ninja has no exact NPC/model row; model 240 is the matching changeling-ninja body family. No numeric per-family count is supplied, so each count is 1 from the draft."
+  },
+  {
+    "quest_id": 3110015,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {},
+    "evidence": [
+      "locale:78878 'defeat Tavil, in the Deep Mines of Snowhill'",
+      "locale:130708: 'Tavil' is an npc_name",
+      "Resources/Npcs.json: no NameId 130708 row",
+      "Resources/Models.txt: no Tavil-specific filename or description; Shadow Talon ninja bodies 393-397 and 537 are generic candidates",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "Unsettled: no exact model binding for Tavil was found. Returning one of the generic Shadow Talon bodies would invent an actor/model association."
+  },
+  {
+    "quest_id": 3140012,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1417,
+      "count": 15
+    },
+    "evidence": [
+      "locale:406382 'Tackle Fabio \"Fancy Feet\" 15 times'",
+      "Resources/Models.txt:1418: model 1417 = fairy_m_fabio_fancyfeet.agr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "high",
+    "notes": "Exact character model filename and explicit count."
+  },
+  {
+    "quest_id": 3140024,
+    "objective": 2,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1423,
+      "count": 15
+    },
+    "evidence": [
+      "locale:406623 'Knock down Francesca \"The Invincible\" 15 times'",
+      "Resources/Models.txt:1424: model 1423 = human_f_francesca_theinvincible.agr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "high",
+    "notes": "Exact character model filename and explicit count."
+  },
+  {
+    "quest_id": 3150002,
+    "objective": 0,
+    "kind": "defeat",
+    "found": {
+      "model_id": 1938,
+      "count": 1
+    },
+    "evidence": [
+      "locale:100580: defeat the Frostfang Snarlers southeast of Snowhill",
+      "Resources/Npcs.json:13662: Frostfang Snarler uses model 1938",
+      "Resources/Models.txt:1912: model 1938 = sg_spawner_wolf_01.adr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "Exact named-NPC binding. Models.txt describes 1938 as a wolf spawner rather than a wolf body, so this is the recovered NPC model identity, not proof of the spawned creature body."
+  },
+  {
+    "quest_id": 3150012,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 199,
+        "count": 1
+      },
+      {
+        "model_id": 200,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:71264: Thugawug Sneaks and a Thugawug Bumbler",
+      "locale:75449: 'Thugawug Sneak!' npc_name",
+      "locale:75453: 'Thugawug Bumbler!' npc_name",
+      "Resources/Models.txt:200: model 199 = chugawug_m_bandit_01.adr",
+      "Resources/Models.txt:201: model 200 = chugawug_f_bandit_01.adr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "low",
+    "notes": "The dialog names the pair but Npcs.json has no exact NameId rows for 75449/75453. Models 199 and 200 are the male and female Thugawug bandit bodies; the per-variant assignment and the plural Sneak count are not proven."
+  },
+  {
+    "quest_id": 3150020,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 177,
+      "count": 1
+    },
+    "evidence": [
+      "locale:71499: defeat Chillblaine in Frostfang Caverns",
+      "locale:7071: Chillblaine is described as a gigantic wolf",
+      "Resources/Models.txt:178: model 177 = wolf_evil.adr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "low",
+    "notes": "Best matching evil wolf body from the client model table. No exact Chillblaine name-to-model row was present in Npcs.json, so the boss-specific actor binding remains unproven."
+  },
+  {
+    "quest_id": 3150023,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 100,
+        "count": 1
+      },
+      {
+        "model_id": 4547,
+        "count": 1
+      },
+      {
+        "model_id": 140,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:388370: defeat ice trolls, yetis, and snowmen",
+      "Resources/Models.txt:101: model 100 = troll_ice.adr",
+      "Resources/Models.txt:3529: model 4547 = sh_standard_yeti_01.adr",
+      "Resources/Models.txt:141: model 140 = snowman.adr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "Three named enemy families map to species-level combat models. No numeric per-family count is supplied, so each count is 1 from the draft."
+  },
+  {
+    "quest_id": 3160018,
+    "objective": 0,
+    "kind": "defeat",
+    "found": [
+      {
+        "model_id": 28,
+        "count": 1
+      },
+      {
+        "model_id": 29,
+        "count": 1
+      }
+    ],
+    "evidence": [
+      "locale:388289 names opponents in Deep Mines and Bat Cave",
+      "locale:388287 names Elder Deep Bats and Swarming Shriekers at Bat Caves",
+      "Resources/Models.txt:29: model 28 = bat_01.adr, Combat NPC",
+      "Resources/Models.txt:30: model 29 = screecher_01.adr, Combat NPC",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "The nearby dialog supplies the two Bat Cave enemy types. The Deep Mines portion of locale:388287 is truncated in the client string, so any additional Deep Mines model remains unknown. Counts default to 1 each."
+  },
+  {
+    "quest_id": 3160028,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 75,
+      "count": 1
+    },
+    "evidence": [
+      "locale:22357 'Defeat Treeleaf Hedge'",
+      "Resources/Models.txt:76: model 75 = forestgiantboss.adr, 'Combat NPC: Forest Giant Boss'",
+      "wiki page 2897: Treeleaf Hedge is the difficulty-4 boss of Treeleaf's Retreat",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "low",
+    "notes": "Best boss-body match: a unique treant boss using the forest giant boss combat model. No exact Treeleaf Hedge name-to-model row was recovered."
+  },
+  {
+    "quest_id": 3160029,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 53,
+      "count": 1
+    },
+    "evidence": [
+      "locale:76322 'Defeat Queen Arachnia'",
+      "Resources/Models.txt:54: model 53 = blackwidowqueen.adr, Combat NPC",
+      "wiki page 102: Queen Arachnia is the boss of Arachnia's Lair",
+      "ida 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "The model filename and boss role identify a black widow queen. No exact Queen Arachnia name-to-model row was present in Npcs.json."
+  },
+  {
+    "quest_id": 3160031,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 139,
+      "count": 1
+    },
+    "evidence": [
+      "locale:388393 'Defeat Battle Warthogs'",
+      "locale:388394: groups are found at Mugwort's Hollow",
+      "Resources/Models.txt:140: model 139 = warthog.adr",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "Species-level match to the normal warthog combat body, not the unrelated ghost-warthog model 266. No exact Battle Warthog name-to-model row was recovered."
+  },
+  {
+    "quest_id": 3160032,
+    "objective": 1,
+    "kind": "defeat",
+    "found": {
+      "model_id": 10,
+      "count": 1
+    },
+    "evidence": [
+      "locale:76349 'Defeat Foreman Ironfist'",
+      "locale:71199: 'Foreman Ironfist' npc_name",
+      "Resources/Models.txt:11: model 10 = ghostdwarf_m_miner_01.adr, Combat NPC",
+      "wiki page 1325: Foreman Ironfist is a Haunted Mines boss among Ghost Dwarves",
+      "IDA 0x007291c0: loads and initializes the client Models.txt table"
+    ],
+    "confidence": "medium",
+    "notes": "Exact ghost-dwarf miner body used by the Haunted Mines enemy family. No exact Foreman Ironfist NameId-to-model row was recovered."
+  }
+]

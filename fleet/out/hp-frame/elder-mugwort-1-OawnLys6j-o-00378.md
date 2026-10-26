@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00378 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3147, 4, 1252] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 378s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Elder Mugwort is not legibly shown above any creature here; only the name 'Mugwort' appears in the top event bar and the Goals panel ('Defeat the druid, Mugwort!'). A 'Toad Bouncer' with a fully red bar is nearby, but its fill level is not legible enough to report."}

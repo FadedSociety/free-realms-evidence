@@ -1,0 +1,17 @@
+<!-- fleet job=testaudit-infer id=zone_quests_sanctuary-v1 status=done turns=5 usd=0.0035 tokens(read,write,in,out)=[41356, 13056, 12, 2996] model=claude-haiku-5-5 -->
+# tests/zone_quests_sanctuary.rs
+
+{"file": "tests/zone_quests_sanctuary.rs",
+ "tests": [
+  {"name": "nomis_little_brother_through_the_extra_spawn", "verdict": "keep", "covered_by": null, "reason": "Only test of Nomi's Little Brother (3000301) and of the Hasti extra-spawn content_key binding (100000003016 -> row 9500001008); asserts speaker bytes 12..20 and the 49/13 reward path."},
+  {"name": "lavender_then_reliable_source", "verdict": "keep", "covered_by": null, "reason": "Only chain test for Looking for Lavender (3000310) followed by A Reliable Source (3000311) with payout checks and a duplicate 49/14 refusal; the seaside/wilds chains use different quest data."},
+  {"name": "reliable_source_waits_for_lavender", "verdict": "keep", "covered_by": null, "reason": "Ordering and refusal test (forged 49/2 refused before and mid-quest, Suni no giver) for this chain; refusal checks are kept by policy."},
+  {"name": "early_and_wrong_turn_ins_are_refused", "verdict": "keep", "covered_by": null, "reason": "Refusal test for Lavender's ordered goals and never-accepted 49/14. Name matches tests/zone_quests_wilds.rs and the structure resembles tests/zone_quests_seaside.rs::early_turn_in_is_refused, but this one drives Feldman/Honey/Nomi on sanctuary data; not an equal-strength duplicate. Refusal: keep."},
+  {"name": "hasti_dani_and_honey_are_drawn_with_client_names", "verdict": "keep", "covered_by": null, "reason": "Unique NpcVisibility check of Hasti's extra spawn transform/model/name id and Dani/Honey legacy spawn name ids; no comparable test in the similar files."},
+  {"name": "progress_survives_reconnect", "verdict": "keep", "covered_by": null, "reason": "Persistence test. Same shape as tests/zone_quests_seaside.rs::progress_survives_reconnect but drives this file's Lavender/Little Brother data via the reload fixture; persistence tests are kept unless an equal test names the same data."},
+  {"name": "xp_goes_to_adventurer_with_another_job_active", "verdict": "keep", "covered_by": null, "reason": "Canary for XP attribution with a non-adventurer job active; also present in other zone_quests files on their own data. Kept as a cross-zone canary, not a true duplicate of identical data."},
+  {"name": "two_players_are_independent", "verdict": "keep", "covered_by": null, "reason": "Isolation check between two players; same template as the other zone_quests files but on this file's quests. Kept conservatively."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Five of eight tests are template-shaped copies of tests in zone_quests_seaside.rs and zone_quests_wilds.rs (progress_survives_reconnect, xp_goes_to_adventurer_with_another_job_active, two_players_are_independent, early_and_wrong_turn_ins_are_refused). They drive different quest data here, so I did not mark them superseded. Could not read the file body past the excerpt (read and search of the file returned no content beyond the pack excerpt), and the wilds file was not found under tests/zone_quests_wilds.rs in the repo, so the comparisons rely on the pack's test names and the seaside file. A reviewer with the full file could consider merging the four template tests into a shared helper, but none is removable on this evidence."}

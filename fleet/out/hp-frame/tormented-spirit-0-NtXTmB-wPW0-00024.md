@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-0-NtXTmB-wPW0-00024 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2648, 4, 827] model=claude-haiku-5-5 -->
+# Tormented Spirit NtXTmB-wPW0 24s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -1032, "on": "other", "color": "yellow"}, {"value": -1032, "on": "other", "color": "yellow"}, {"value": -2064, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": null, "level": 10, "job": "Brawler", "health_fraction": 1.0}, "target_defeated": false, "notes": "Brawler in combat with blue-aura effects and large yellow hits (-1032, -2064); no 'Tormented Spirit' name or enemy health bar is legible in this frame, and the goals panel names Cracked Claw, not the picked enemy."}

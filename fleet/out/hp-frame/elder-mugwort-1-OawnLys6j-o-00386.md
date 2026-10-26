@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00386 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3147, 4, 899] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 386s
+
+{"screen": "dialog_or_menu", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Elder Mugwort appears only as a dialogue subtitle ('Not only do the animals obey me...'); no nameplate or health bar for him is visible. Top bar reads 'Mugwort's H...' with a timer, but no fraction is legible. Player is casting yellow and green spirit effects on the grass."}

@@ -1,0 +1,441 @@
+[
+ {
+  "quest_id": 3030035,
+  "title": "Brawler: Achieve Level 15",
+  "record": "quest-lines/quests.json q3030035",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "job_level",
+    "fields": {
+     "profile_id": 43,
+     "level": 15
+    },
+    "text_string_id": 387398,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: reach level 15 as a brawler, then return to Jeni Shortfuse.",
+      "source": "locale:387398"
+     },
+     {
+      "claim": "Brawler is profile_id 43, max_level 20.",
+      "source": "repo:prototype/osfr-tools/data/content/jobs.json:303-304"
+     },
+     {
+      "claim": "Level-15 gate stated in the Jeni lines.",
+      "source": "locale:387403, locale:387392"
+     }
+    ],
+    "note": "Level 15 as Brawler (profile 43). No count applies. Part 1 carries the return to Jeni."
+   },
+   {
+    "index": 0,
+    "part": 1,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000115
+    },
+    "text_string_id": 387398,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Return-to-Jeni half of the objective text.",
+      "source": "locale:387398"
+     },
+     {
+      "claim": "Progress line: return to Jeni Shortfuse at level 15.",
+      "source": "locale:387376"
+     },
+     {
+      "claim": "NPC row 9000000115 is named Jeni Shortfuse with name_string_id 3295904826 (ucdt), id_kind reconstructed_from_job_reference.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/snowhill.json:20138-20149"
+     },
+     {
+      "claim": "A second Jeni row, 9500000498, is in Sanctuary but has role 'ambient' and no name string; not used as the trainer.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:33131-33150"
+     }
+    ],
+    "note": "Chosen row 9000000115 by name string match and job reference. Zone unresolved: wiki says Snowhill, client says Howling Hills (3882321755) and Queensfields (2893356683, 490127261). The ref 9000000363 (npcs_unresolved.json:2650) is a separate unmapped Jeni ref. Builder must confirm the row and place it before wiring. Level-gate is text-only; no min_level field."
+   }
+  ]
+ },
+ {
+  "quest_id": 3060002,
+  "title": "Advanced Demolition Derby Tutorial",
+  "record": "quest-lines/quests.json q3060002",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 290,
+     "count": 1
+    },
+    "text_string_id": 130348,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Complete the advanced demolition derby tutorial.' is locale 130348, tagged Demolition Derby, with one target and no count word, so count is 1",
+      "source": "locale:130348 via lookup (client)"
+     },
+     {
+      "claim": "MiniGameData.txt rows 289/290 are the Demolition Derby Tutorial and Advanced Demolition Derby Tutorial (290 = advanced); the draft minigame_id 290 matches",
+      "source": "notes/Build Guides/Gameplay/Demo Derby.md:96"
+     },
+     {
+      "claim": "Quest title locale 117326 matches quest record 3060002",
+      "source": "locale:117326 via lookup (client)"
+     }
+    ],
+    "note": "Minigame id 290 is from the existing draft and the derby guide's MiniGameData mapping; the raw MiniGameData row was not re-read in this pass. Count 1 is from the text, not chosen."
+   }
+  ]
+ },
+ {
+  "quest_id": 3060007,
+  "title": "Demo Derby: Routine Maintenance",
+  "record": "quest-lines/quests.json q3060007",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 100000003061
+    },
+    "text_string_id": 394020,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Client objective 394020 reads 'Talk to Duncan Slickshoes and follow his advice to keep your kart in good shape.' (hint Duncan Slickshoes, Thunder Falls)",
+      "source": "locale:394020"
+     },
+     {
+      "claim": "Duncan Slickshoes NPC name is locale:401319; a placed spawn with spawn_guid 100000003061, legacy_npc_id 3061, name_string_id 401319 sits at [-874.13, -39.90, 1170.11] in the extra spawn table",
+      "source": "repo:prototype/osfr-tools/data/content/npc_spawns_extra.json:27800"
+     },
+     {
+      "claim": "Pack draft npc_id 100000003061 matches that placed spawn guid",
+      "source": "pack: objectives[0].draft.npc_id"
+     }
+    ],
+    "note": "Single talk objective, one target (Duncan Slickshoes), count not applicable. Conflict: the quest file repo:prototype/osfr-tools/data/content/quests/demo_derby_driver.json:380 lists giver_npc_id 9000000313, which is the unresolved 'Duncan Slickshoes (mechanic)' row in npcs_unresolved.json:2338. The placed spawn 100000003061 is the one used here because it is the placed, named row; the builder should confirm which id the server draws before shipping."
+   }
+  ]
+ },
+ {
+  "quest_id": 3060025,
+  "title": "Demo Derby: Paws 'n Claws Smash-a-thon",
+  "record": "quest-lines/quests.json q3060025",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "count": 1,
+     "minigame_id": 616
+    },
+    "text_string_id": 394036,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Come out the big winner during the Paws 'n Claws Smash-a-thon derby in Frost Ridge!' is locale 394036 (client string 2946896420 in en_us_data.dat).",
+      "source": "locale:394036"
+     },
+     {
+      "claim": "Derby encounter 3434857648 is the client key for 'Paws 'n Claws Smash-a-thon [Encounter]' (ucdt), an encounter NAME entry, not a minigame id and not a verified server encounter_id.",
+      "source": "repo:notes/Build Guides/Content/Jobs/Demolition Derby Driver.md:105; refs: FreeRealmsLocaleTools/test/.../en_us_data.dat:90875 (3434857648 ucdt)"
+     },
+     {
+      "claim": "No Smash-a-thon minigame id exists in repo MiniGameData notes or content JSON. 616 (draft) is only a starter item id and 39 is 'Wildwood Demo Derby'.",
+      "source": "repo:scripts/fixtures/starter_items.json:9; repo:prototype/osfr-tools/data/content/quests/demo_derby_driver.json:242"
+     }
+    ],
+    "note": "(lead check) draft minigame_id 616 is named 'paws n claws smash a thon', matching target 'Paws 'n Claws Smash-a-thon'. Not wired: no verified minigame_id. Do not use 616 or 39. 3434857648 is a name-table key, so it is not proven to be a minigame or server encounter id; complete_dungeon would need a server-side encounter_id proven first. 'Big winner' = first place in the derby, a server-judged placement, so it is also needs_server once the id is known. The 393393 rule (most damage, first place) conflicts with top 3 at index 1."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "count": 1,
+     "minigame_id": 616
+    },
+    "text_string_id": 401606,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Place in the top 3 of the Smash-a-thon.' is locale 401606 (client string 549169484).",
+      "source": "locale:401606"
+     },
+     {
+      "claim": "Rules text 393393 (client string 2505008439) says most damage and first place, which conflicts with top 3.",
+      "source": "locale:393393"
+     }
+    ],
+    "note": "(lead check) draft minigame_id 616 is named 'paws n claws smash a thon', matching target 'Paws 'n Claws Smash-a-thon'. Same missing minigame id as index 0. Placement (top 3) is judged by the server from derby results; the builder must decide first place (393393) or top 3 (401606) before settling."
+   }
+  ]
+ },
+ {
+  "quest_id": 3070020,
+  "title": "Fisherman: Fishy Fungus",
+  "record": "quest-lines/quests.json q3070020",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "gather_resource",
+    "fields": {
+     "resource_id": 68000,
+     "count": 1
+    },
+    "text_string_id": 409307,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Client text 'Reel in some fungus' names no count; 409308 says 'some clumps of funky fungus' with no number, so count 1 is an (R) choice",
+      "source": "locale:409307; locale:409308"
+     },
+     {
+      "claim": "Item 68000 has NameId 407586, confirmed in the client table as 'Clump of Fungus' (client name matches the 'clumps of fungus' wording)",
+      "source": "locale:407586 (verified); pack: client_evidence (Resources/ClientItemDefinitions.json:1156678, item-catalogue bytes 4..8). I could not re-open the ClientItemDefinitions file directly (path not readable here), so the row citation rests on the pack"
+     },
+     {
+      "claim": "The earlier rejection of 68000 is not supported: no client text contradicts the id, and the draft's client_evidence is the citation",
+      "source": "pack: objectives[0].draft.client_evidence"
+     }
+    ],
+    "note": "(R) count 1: 'some' gives no number. Kind gather_resource follows the draft (resource_id 68000). The item name is 'Clump of Fungus', not 'Funky Fungus Clump'."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000339
+    },
+    "text_string_id": 409310,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Gunther is the placed Brambleback's Bayou NPC row 9000000339 (name 409300 Gunther)",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/briarwood.json:30728; repo:prototype/osfr-tools/data/content/npc_spawns_extra.json:73068; locale:409300"
+     },
+     {
+      "claim": "Quest giver field is 9000000100 on six fisherman.json records and 9000000339 on one; the offer giver is separate from this destination objective",
+      "source": "repo:prototype/osfr-tools/data/content/quests/fisherman.json:968, :1202; repo:prototype/osfr-tools/data/content/npcs_unresolved.json:786"
+     }
+    ],
+    "note": "Moved to index 1: the client sequence is reel fungus (409307/409308), return to Gunther (409309/409310), then speak to Reed (409311/409312). 9000000339 is a (R) pick: the Native Checklist calls it a weak pick (notes/Reviews/Native Checklist 2026-10-16.md:609). Builder must reconcile the giver id."
+   },
+   {
+    "index": 2,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000181
+    },
+    "text_string_id": 409312,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Reed Stillwater row 9000000181 in the Stillwater Crossing NPC file",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:10128; locale:409312"
+     },
+     {
+      "claim": "Reed is the guide and trainer in other data",
+      "source": "repo:prototype/osfr-tools/data/content/fishing_spots.json:37; repo:prototype/osfr-tools/data/content/job_trainers.json:19"
+     }
+    ],
+    "note": "(R) talk_to_npc used for the delivery in 409312 (the server has no deliver-to-NPC kind). Alternative is 409311 'Speak to Reed Stillwater', same NPC. Row is reconstructed with no confirmed spawn position, so needs_placement."
+   }
+  ]
+ },
+ {
+  "quest_id": 3100021,
+  "title": "Miner: Minor Mix-Up",
+  "record": "quest-lines/quests.json q3100021",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000059
+    },
+    "text_string_id": 77751,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective 77751 'Talk to Ramberry at Quagmire Quarry to learn more about the problem.'",
+      "source": "locale:77751"
+     },
+     {
+      "claim": "Ramberry npc_id 9500000059 is placed in the repo NPC data (blackspore_swamp.json row at line 27962)",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/blackspore_swamp.json:27962"
+     }
+    ],
+    "note": "Draft npc_id confirmed by the placed row; the pack's open-item saying Ramberry's id was unconfirmed is superseded."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000059
+    },
+    "text_string_id": 77753,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective 77753 'Find out from Ramberry what his letter of complaint was about.' is the same NPC conversation, the complaint dialog 77759 is Ramberry's",
+      "source": "locale:77753, locale:77759"
+     }
+    ],
+    "note": "Same target as objective 0; kept as a separate step because the client lists it as one."
+   },
+   {
+    "index": 2,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000203
+    },
+    "text_string_id": 77754,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective 77754 'Return to Silverray at Quagmire Quarry'",
+      "source": "locale:77754"
+     },
+     {
+      "claim": "Silverray npc_id 9000000203 is placed in the repo NPC data (blackspore_swamp.json line 31213) and is the giver in miner.json",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/blackspore_swamp.json:31213"
+     }
+    ],
+    "note": "Return step; the client has no thank-you/turn-in line for this quest, so the completion trigger is server-judged from this talk."
+   }
+  ]
+ },
+ {
+  "quest_id": 3110018,
+  "title": "Ninja: Achieve Level 15",
+  "record": "quest-lines/quests.json q3110018",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000766
+    },
+    "text_string_id": 387229,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Text 'Achieve level 15, then return to Sakka.' names Sakka as the return target",
+      "source": "locale:387229"
+     },
+     {
+      "claim": "Our NPC row 9500000766 'Sakka' (Snowhill, placement poi_anchor) is not placed",
+      "source": "pack: candidates.npc_row"
+     },
+     {
+      "claim": "Reference spawn 9500000937 'Sakka' (Wilds) at [-295.2761, 1.902695, -717.1608], ref_id 3385, model fairy_m_sakka.agr",
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2128"
+     }
+    ],
+    "note": "Keep row npc_id 9500000766 per placement rule. Placement needs a decision: the row says Snowhill, the only reference spawn says Wilds. The quest text names no zone, so the builder must pick the zone before placing. Reference npc_id 9500000937 is a different row and is not used here."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "job_level",
+    "fields": {
+     "profile_id": 2,
+     "level": 15
+    },
+    "text_string_id": 387231,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Text 'Go out into the world and achieve Ninja level 15.' gives level 15 with no stated count",
+      "source": "locale:387231"
+     },
+     {
+      "claim": "Draft profile_id 2 and level 15 resolved by the pack",
+      "source": "pack: objectives[1]"
+     }
+    ],
+    "note": "Level 15 comes from the text, not a chosen count."
+   },
+   {
+    "index": 2,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000766
+    },
+    "text_string_id": 387233,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Text 'Return to Sakka for further instructions and training.' is an objective, not dialog",
+      "source": "locale:387233"
+     },
+     {
+      "claim": "Same Sakka row and reference candidate as objective 0",
+      "source": "pack: candidates.npc_row, candidates.reference_spawn"
+     }
+    ],
+    "note": "Same placement decision as objective 0 (Snowhill row vs Wilds reference)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3140009,
+  "title": "Soccer Star: Goal Stopper",
+  "record": "quest-lines/quests.json q3140009",
+  "source": "draft complete (no final fix/check answer)",
+  "objectives": [
+   {
+    "kind": "finish_minigame",
+    "text_string_id": 402842,
+    "from": "objective 0: Beat the Goalbusters",
+    "minigame_id": 323,
+    "count": 1,
+    "client_evidence": [
+     "Resources/MiniGameData.txt:316: ID=323 TYPE=12 NAME_ID=402586 'Goal Stopper'",
+     "locale:402586 = 'Goal Stopper'; locale:402842 = 'Beat the Goalbusters'",
+     "MiniGameGroupLinks.txt:466 places game 323 in soccer group 12"
+    ],
+    "resolved": true
+   },
+   {
+    "kind": "finish_minigame",
+    "text_string_id": 402851,
+    "from": "objective 1: Don't let the Goalbusters score 5 goals",
+    "minigame_id": 323,
+    "count": 1,
+    "client_evidence": [
+     "Resources/MiniGameData.txt:316: ID=323 TYPE=12 NAME_ID=402586 'Goal Stopper'",
+     "locale:402851 = 'Don''t let the Goalbusters score 5 goals' and belongs to the same Goal Stopper sequence",
+     "MiniGameGroupLinks.txt:466 places game 323 in soccer group 12"
+    ],
+    "resolved": true
+   }
+  ]
+ }
+]

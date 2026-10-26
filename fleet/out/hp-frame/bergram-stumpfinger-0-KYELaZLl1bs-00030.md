@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-0-KYELaZLl1bs-00030 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3158, 4, 1129] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger KYELaZLl1bs 30s
+
+{"screen":"combat","target":{"name":"Bergram Stumpfinger","level":5,"health_fraction":0.8,"health_text":null,"is_tracker_only":false},"other_enemy_bars":[{"name":null,"health_fraction":0.5}],"damage_numbers":[{"value":966,"on":"other","color":"red"}],"attackers_visible":1,"player":{"name":"Freddy Speedypants","level":20,"job":"Ninja","health_fraction":0.55},"target_defeated":false,"notes":"Player fights Bergram Stumpfinger (top boss bar, level star 5, bar about 80% red-filled); a large red -966 hit is over a nearby enemy label reading '...am's Bones', so it is unclear whether it lands on the target."}

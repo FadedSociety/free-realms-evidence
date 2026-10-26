@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hedge-guardian-0-8COnkBTNgfw-00072 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3179, 4, 791] model=claude-haiku-5-5 -->
+# Hedge Guardian 8COnkBTNgfw 72s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Large tree-like Hedge creature fills the center; its name is only faintly readable (\"Hedge ... \") and no enemy health bar is legible, so target stats are left null. Player is in the blue-effect fight near the creature; Goals panel shows Defeat Nugg the Cruel and Hedge Knights 0/3."}

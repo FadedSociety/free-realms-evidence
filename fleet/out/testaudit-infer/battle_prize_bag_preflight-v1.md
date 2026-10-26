@@ -1,0 +1,15 @@
+<!-- fleet job=testaudit-infer id=battle_prize_bag_preflight-v1 status=done turns=3 usd=0.0042 tokens(read,write,in,out)=[29621, 23125, 8, 1988] model=claude-haiku-5-5 -->
+# tests/battle_prize_bag_preflight.rs
+
+{"file": "tests/battle_prize_bag_preflight.rs",
+ "tests": [
+  {"name": "the_whole_previewed_bundle_must_fit_before_the_battle_starts", "verdict": "keep", "covered_by": null, "reason": "Only test that proves the combined previewed bundle (two full stacks, one free slot) is refused at the portal start while every single row passes. It also checks no encounter, no wire output beyond the refusal line, and byte-identical saved state. field_battle_roster refusal checks (lines ~739-767, 1114-1253) use the refusal line but not this combined-capacity bundle, so not clearly superseded."},
+  {"name": "duplicate_prizes_are_counted_together", "verdict": "keep", "covered_by": null, "reason": "Distinct case: the same bounded item twice against a partial stack and a full bag. It pins that duplicate rows are summed, a refusal path with state checks. Not found elsewhere in the suite under this path."},
+  {"name": "a_bundle_that_fits_still_starts_and_pays", "verdict": "keep", "covered_by": null, "reason": "Positive control for the capacity gate plus exact single-payout and no-double-pay checks through close. Win/payout tests in field_battle_roster may overlap in part, but the bounded-bundle start path is specific here. Low-confidence overlap; kept conservatively."},
+  {"name": "an_invalid_bundle_is_refused_without_a_panic", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal check (zero/negative/malformed/unknown definitions, zero and overflow quantities, over-16 rows, valid row after invalid ones). Security/refusal category; must keep."},
+  {"name": "a_refused_preflight_changes_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal check that a refused start changes no saved state, replays refuse identically, and a second player's refusal leaves the first untouched. Explicitly a refusal/persistence check."},
+  {"name": "the_preflight_answers_like_the_payout_path", "verdict": "keep", "covered_by": null, "reason": "Consistency canary tying accepts_reward_bundle to grant_bundle across accept/refuse cases, so a rule change in one reaches the other. Not duplicated by the other tests in this file, which check the start screen rather than the equivalence to grant_bundle."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Audit was shallow: I read this file fully but only grepped the similar files (field_battle_roster, battle_catalogue_audit) for the refusal wording and did not read their bodies. No test was marked removable. The main overlap risk is test 3 (win payout) against field_battle_roster's payout tests and test 1/5 against field_battle_roster's refusal tests; a body-level comparison of those would be needed before trimming. No obsolete markers were found; the file's header cites T243 and its last change is F681, but I did not verify whether a later task replaced the refusal wording."}

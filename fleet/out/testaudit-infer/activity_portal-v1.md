@@ -1,0 +1,27 @@
+<!-- fleet job=testaudit-infer id=activity_portal-v1 status=done turns=3 usd=0.0047 tokens(read,write,in,out)=[30392, 19020, 8, 3946] model=claude-haiku-5-5 -->
+# tests/activity_portal.rs
+
+{"file": "tests/activity_portal.rs",
+ "tests": [
+  {"name": "list_matches_the_client_reader_for_every_row", "verdict": "keep", "covered_by": null, "reason": "Byte-exact client-reader canary over every field of every row. tests/activity_portal_route.rs checks only the first row's id, join flag and category through the gameplay wiring, so it does not cover this."},
+  {"name": "empty_catalogue_publishes_an_empty_list", "verdict": "keep", "covered_by": null, "reason": "Pins the exact 12-byte empty list packet. No other test in the pack checks it."},
+  {"name": "can_join_is_per_player", "verdict": "keep", "covered_by": null, "reason": "Per-viewer join flags across level and job. The route test checks only the first row for a non-combat job and a combat job, so it does not cover the level-gated case."},
+  {"name": "refresh_and_play_decode_exactly", "verdict": "keep", "covered_by": null, "reason": "Exact parse of Refresh and Play, including that the client clock dword is ignored."},
+  {"name": "malformed_lengths_are_errors_not_panics", "verdict": "keep", "covered_by": null, "reason": "Canary: every wrong length of the same sub-op is refused. Security/refusal check."},
+  {"name": "other_traffic_is_not_ours", "verdict": "keep", "covered_by": null, "reason": "Refusal check that unrelated families and sub-ops pass through untouched."},
+  {"name": "every_short_or_garbled_input_is_handled", "verdict": "keep", "covered_by": null, "reason": "Deterministic fuzz for no-panic on hostile input. Security check with no equivalent elsewhere in the pack."},
+  {"name": "admission_follows_the_rules_in_order", "verdict": "keep", "covered_by": null, "reason": "Canary: each admission refusal (Unknown, Busy, NotCombatJob, LevelTooLow) flips with exactly one change. Route test covers only some of these at the gameplay level."},
+  {"name": "forged_ids_never_admit_and_reveal_nothing", "verdict": "keep", "covered_by": null, "reason": "Forged-id refusal with no information leak, checked at unit level across busy states. tests/activity_portal_route.rs::forged_and_unlisted_ids_neither_zone_nor_change_anything is a route-level analogue, but it is not as strong at unit level, so the unit test is kept."},
+  {"name": "refusals_have_player_text", "verdict": "keep", "covered_by": null, "reason": "Small check that every refusal has non-empty player text. Cheap and not duplicated in the pack."},
+  {"name": "catalogue_validation", "verdict": "keep", "covered_by": null, "reason": "Rejects zero and duplicate ids and enforces the 64-row cap. Refusal check."},
+  {"name": "loads_the_battle_file_shape", "verdict": "keep", "covered_by": null, "reason": "Pins the field mapping from the battle JSON file to Activity, including icon default and unknown-field tolerance."},
+  {"name": "bad_files_are_refused", "verdict": "keep", "covered_by": null, "reason": "Refusal check for missing, malformed, duplicate and oversized content files."},
+  {"name": "shipped_battle_content_publishes_every_battle", "verdict": "keep", "covered_by": null, "reason": "Loads the shipped data/content file and checks the published list length. tests/activity_portal_route.rs::world_entry_lists_every_battle_under_battles overlaps, but it needs external lab content and does not check the in-repo file, so it is not an equal check. Kept conservatively."},
+  {"name": "chess_rows_follow_battles_and_open_without_a_combat_job", "verdict": "keep", "covered_by": null, "reason": "Chess row layout, ordering, no-job admission, Busy refusal, and the battle-id and zero-id collision refusals. The route test only checks that chess rows persist on reload."},
+  {"name": "card_rows_match_the_client_reader", "verdict": "keep", "covered_by": null, "reason": "Named in the pack (T504, Kind::CardGame byte-exact reader check) but NOT present in the repository file at the current tip. Cannot be verified as removable, so kept. tests/activity_portal_route.rs::world_entry_lists_the_card_game_rows is related but not equivalent."},
+  {"name": "card_rows_are_refused_in_order_unknown_busy_closed", "verdict": "keep", "covered_by": null, "reason": "Named in the pack but NOT present in the repository file. Refusal-order check, kept. Possible overlap with tests/activity_portal_route.rs::playing_a_card_row_says_unavailable_and_changes_nothing, which was not read."},
+  {"name": "assembly_refuses_collisions_and_too_many_rows", "verdict": "keep", "covered_by": null, "reason": "Named in the pack but NOT present in the repository file. Refusal check, kept."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.7,
+ "notes": "The pack reports 555 lines and 18 tests, but the repository file at the current tip has 445 lines and 15 tests. The three card tests (card_rows_match_the_client_reader, card_rows_are_refused_in_order_unknown_busy_closed, assembly_refuses_collisions_and_too_many_rows) do not exist in the repo, so the pack and the tree disagree. I did not read the rest of tests/activity_portal_route.rs (lines 200-269), so card-row overlap is unverified. Nearly every test here is a canary, refusal, or security/hostile-input check, and the unit-level assertions are stronger than the route-level ones in activity_portal_route.rs, so I found no removable test. No duplicate or obsolete verdicts were given."}

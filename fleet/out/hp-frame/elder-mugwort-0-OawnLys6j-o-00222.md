@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-0-OawnLys6j-o-00222 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3147, 4, 879] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 222s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}, {"value": 1538, "on": "player", "color": "green"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Elder Mugwort is named over a fight with heavy yellow hits (2490) and a green heal; its health bar above the name is not clearly readable, so fraction and level are left null."}

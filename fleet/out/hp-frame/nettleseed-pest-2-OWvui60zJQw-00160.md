@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-pest-2-OWvui60zJQw-00160 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3160, 4, 898] model=claude-haiku-5-5 -->
+# Nettleseed Pest OWvui60zJQw 160s
+
+{"screen": "combat", "target": {"name": "Nettleseed Pest", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Nettleseed Pest", "health_fraction": null}], "damage_numbers": [{"value": 207, "on": "target", "color": "orange"}, {"value": 268, "on": "other", "color": "white"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Player fights several pests in a purple mushroom area; the name over the picked pest is partly hidden behind the damage number, so 'Nettleseed Pest' is read from the partial '...eed Pest' labels; its bar fraction and level are not legible."}

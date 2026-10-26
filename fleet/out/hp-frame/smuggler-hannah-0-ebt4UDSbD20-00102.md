@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=smuggler-hannah-0-ebt4UDSbD20-00102 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2738, 4, 942] model=claude-haiku-5-5 -->
+# Smuggler Hannah ebt4UDSbD20 102s
+
+{"screen": "combat", "target": {"name": "Smuggler Hannah", "level": null, "health_fraction": 0.1, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.81}, "target_defeated": false, "notes": "Top target frame shows Smuggler Hannah with a small red health fill (about 0.1, approximate); no health numbers legible, no creature with a name bar visible over the player's character, and no attacks on her visible. Player at level 20 Archer, HP about 57947/71116 (approximate), MP 100/100."}

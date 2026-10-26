@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=jake-blackforest-2-TT05C-mF3m4-00036 status=nothing_found turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2877, 4, 851] model=claude-haiku-5-5 -->
+# Jake Blackforest TT05C_mF3m4 36s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Grayson Stonyhammer", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Outdoor swamp/water area with player Grayson Stonyhammer glowing green; a nearby NPC labeled 'Celebrity Grayson Stonyhammer <Session>' is shown, not Jake Blackforest. Quest goal 'Defeat the werewolf' is listed, but no Jake Blackforest name, bar, or tracker is visible in this frame."}

@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=opening_world-v1-evidence-r1 status=done turns=2 usd=0.0019 tokens(read,write,in,out)=[7316, 11862, 6, 600] model=claude-haiku-5-5 -->
+# tests/opening_world.rs
+
+{"pass": true, "wireable": true, "score": 9, "problems": [], "notes": "The file has one test and the auditor kept it, so there are no removal verdicts to back. whole_file_removable is false, which is correct. Checked the sole-coverage claim with a repo search: OpeningWorld is used only in src/opening_world.rs, src/gameplay.rs (load at line 686, menu at line 4291) and this test. The only other test-file hits are notes and the fixture, so no other test drives the OpeningWorld spawn, menu or initialization writers. The keep reason holds. The auditor's note that the doc is empty is accurate and harmless. No removal list is produced, so nothing needs wiring."}

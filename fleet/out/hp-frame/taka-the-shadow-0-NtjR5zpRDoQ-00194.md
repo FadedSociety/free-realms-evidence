@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=taka-the-shadow-0-NtjR5zpRDoQ-00194 status=nothing_found turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3155, 4, 884] model=claude-haiku-5-5 -->
+# Taka the Shadow NtjR5zpRDoQ 194s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Taka the Shadow is not on screen. The only name-plate with a health bar is 'Grayson Stonyhammer <Erosion>', a player character, not the picked enemy. 'Taka the Shadow' appears only in the quest log text on the right; the tracker shows 'Danger Peaks 111m', not Taka. A faint 'Wild Eagle' label is on the left, with no legible bar."}

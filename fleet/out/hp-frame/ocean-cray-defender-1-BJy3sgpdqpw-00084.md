@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-1-BJy3sgpdqpw-00084 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 1056] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 84s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Defender", "level": null, "health_fraction": 0.45, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Target's name and bar are shown over a Cray-forest underwater area; bar is about 45% green with the rest dark red. A 2490 damage number sits under the name, and a green +380 floats nearby, probably healing and not clearly on the target. No player is clearly attacking the target."}

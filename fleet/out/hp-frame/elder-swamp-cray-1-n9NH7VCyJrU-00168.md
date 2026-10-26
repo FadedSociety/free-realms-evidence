@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-swamp-cray-1-n9NH7VCyJrU-00168 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 1074] model=claude-haiku-5-5 -->
+# Elder Swamp Cray n9NH7VCyJrU 168s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Cracked Claw", "health_fraction": 1.0}], "damage_numbers": [{"value": 381, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Azurecowl", "level": 1, "job": "Ninja", "health_fraction": 0.8}, "target_defeated": false, "notes": "Elder Swamp Cray is not on screen; the only enemy bar shown is Cracked Claw (full red bar) with a 381 yellow hit over the central creature, and a 'not enough energy' message is displayed."}

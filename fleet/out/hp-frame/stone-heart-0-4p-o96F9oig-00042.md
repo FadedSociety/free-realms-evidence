@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=stone-heart-0-4p-o96F9oig-00042 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2741, 4, 634] model=claude-haiku-5-5 -->
+# Stone Heart 4p_o96F9oig 42s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Monica Wintervale", "level": 16, "job": "Warrior", "health_fraction": null}, "target_defeated": false, "notes": "Stone Heart appears only in red chat lines (\"A love potion! ... I'll destroy them all!\"); no Stone Heart name or health bar is drawn above any creature. The large brown love-potion object is in front of the player, who is swinging a weapon at it; no Stone Heart health bar is legible, so this frame gives no health reading."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00402 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3159, 4, 1171] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 402s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -3735, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player fighting the Ocean Cray Brood Mother in Cray Caves; full green bar over the name, a large yellow -3735 hit on the creature, and a Jordan Roughtower tracker (9m) lower down."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=foreman-ironfist-0-X6zfuEFRcQk-00206 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 956] model=claude-haiku-5-5 -->
+# Foreman Ironfist X6zfuEFRcQk 206s
+
+{"screen": "combat", "target": {"name": "Foreman Ironfist", "level": 5, "health_fraction": 0.2, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -3237, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "The Ferluxia", "level": 20, "job": "Ninja", "health_fraction": 0.6}, "target_defeated": false, "notes": "Player (Ninja, Rampage title) strikes Foreman Ironfist; boss bar at top shows a low red health fill and a -3237 hit. Level badge 5 beside the boss bar is read as the target level, which conflicts with the server row's level 13; the creature itself is not clearly visible."}

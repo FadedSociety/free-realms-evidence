@@ -1,0 +1,562 @@
+[
+ {
+  "quest_id": 3080035,
+  "quest": "q3080035",
+  "title": "Kart Driver: Burning Up the Track",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 398674,
+  "text": "Head to Tangletrack and race Antonio Taurino. Good luck out there!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 398674
+  },
+  "gap": "objective 0: place 'Tangletrack Speedway' has no position in our data"
+ },
+ {
+  "quest_id": 3090010,
+  "quest": "q3090010",
+  "title": "Medic: Medic on a Mission",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 73494,
+  "text": "Terrence is stressed about the medical supplies stolen from his inn and sends you to Sweetwater Climb to take them back!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 73494
+  },
+  "gap": "objective 0: place 'Sweetwater Climb' has no position in our data"
+ },
+ {
+  "quest_id": 3090018,
+  "quest": "q3090018",
+  "title": "Medic: Into the Bristlewood",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 74069,
+  "text": "Help out the chugawugs in Bristlewood on behalf of Mayor Crystalline.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 74069
+  },
+  "gap": "objective 0: place 'Bristlewood' has no position in our data"
+ },
+ {
+  "quest_id": 3090019,
+  "quest": "q3090019",
+  "title": "Medic: Virtuous Venom",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 74077,
+  "text": "Head to Arachnia's Lair in Briarwood and collect samples of spider venom.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 74077
+  },
+  "gap": "objective 0: place \"Arachnia's Lair\" has no position in our data"
+ },
+ {
+  "quest_id": 3090024,
+  "quest": "q3090024",
+  "title": "Medic: The Missing Patrol",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 74729,
+  "text": "Look for the missing patrol in the Vale of the Ancients.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 74729
+  },
+  "gap": "objective 0: place 'Vale of the Ancients' has no position in our data"
+ },
+ {
+  "quest_id": 3090025,
+  "quest": "q3090025",
+  "title": "Medic: Shocking Developments",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 74773,
+  "text": "Head into Darvon's Descent and find the missing shock paddles!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 74773
+  },
+  "gap": "objective 0: place \"Darvon's Descent\" has no position in our data"
+ },
+ {
+  "quest_id": 3090029,
+  "quest": "q3090029",
+  "title": "Medic: No Pain, No Gain",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 74803,
+  "text": "Prove you're in top shape by running around Seaside.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 74803
+  },
+  "gap": "objective 0: place 'Seaside' has no position in our data"
+ },
+ {
+  "quest_id": 3090030,
+  "quest": "q3090030",
+  "title": "Medic: Risky Research",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 74843,
+  "text": "Escort Acade Vulgari through the Cray Caves.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 74843
+  },
+  "gap": "objective 1: place 'Cray Caves' has no position in our data"
+ },
+ {
+  "quest_id": 3090031,
+  "quest": "q3090031",
+  "title": "Medic: A Frosty Remedy",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 76048,
+  "text": "Go to Snowy Canyon and collect some ice lotus to help some sick residents of Seaside.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 76048
+  },
+  "gap": "objective 1: place 'Snowy Canyon' has no position in our data"
+ },
+ {
+  "quest_id": 3100015,
+  "quest": "q3100015",
+  "title": "Miner: Marriage Proposal",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 77496,
+  "text": "As a miner, mine some iron ore and tourmaline for Mili Ironcall at the Southvale Outpost.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 77496
+  },
+  "gap": "objective 0: place 'Southvale Outpost' has no position in our data"
+ },
+ {
+  "quest_id": 3100024,
+  "quest": "q3100024",
+  "title": "Miner: Growing Up So Quickly",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 78177,
+  "text": "Visit Pinkelug at the Mother Lode quarry in Briarwood.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 78177
+  },
+  "gap": "objective 0: place 'Mother Lode Quarry, Briarwood' has no position in our data"
+ },
+ {
+  "quest_id": 3100028,
+  "quest": "q3100028",
+  "title": "Miner: Rare Rock Collection",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 78317,
+  "text": "As a miner, locate and mine many rare gems for Snorg at the Mother Lode quarry.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 78317
+  },
+  "gap": "objective 0: place 'Mother Lode Quarry' has no position in our data"
+ },
+ {
+  "quest_id": 3110006,
+  "quest": "q3110006",
+  "title": "Ninja: Handle with Care",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 90455,
+  "text": "Find the bags that Chloe has hidden around Mire's Edge. Handle them with care, and don't look inside!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90455
+  },
+  "gap": "objective 0: place \"Mire's Edge\" has no position in our data"
+ },
+ {
+  "quest_id": 3110009,
+  "quest": "q3110009",
+  "title": "Ninja: Nothing to Sneeze At",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 78862,
+  "text": "Chloe in Blackspore has asked you to collect pollen from the bixies in the Bixie Hive in the Queensfields.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 78862
+  },
+  "gap": "objective 0: place 'Bixie Hive' has no position in our data"
+ },
+ {
+  "quest_id": 3110011,
+  "quest": "q3110011",
+  "title": "Ninja: Troubled Waters",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 78870,
+  "text": "The Shadow Talon kidnappers have taken their captives to an undisclosed location in Snowhill.  Find them and save them!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 78870
+  },
+  "gap": "objective 0: place 'Shadow Talon captives' has no position in our data"
+ },
+ {
+  "quest_id": 3110017,
+  "quest": "q3110017",
+  "title": "Ninja: Idol Conversation",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 78890,
+  "text": "Sakka in the Pixie Nursery has asked you to investigate the idol in the Floren Forest as a Ninja.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 78890
+  },
+  "gap": "objective 0: place 'stone idol' has no position in our data"
+ },
+ {
+  "quest_id": 3110021,
+  "quest": "q3110021",
+  "title": "Ninja: Real Ultimate Power",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 78894,
+  "text": "Michi in Snowhill has her suspicions about what is going on, but needs you to use your Ninja skills to get a copy of &quot;Ancient Evils: A User-Friendly Guide to Evil Artifacts&quot; from a crazy hermit in the Misty Mountains so she can confirm them.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 78894
+  },
+  "gap": "objective 0: place 'Misty Mountains' has no position in our data"
+ },
+ {
+  "quest_id": 3110023,
+  "quest": "q3110023",
+  "title": "Ninja: Ice Troll Rampage",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 78906,
+  "text": "Michi was ambushed by ice trolls while speaking to her friend, Patterwings.  Head into the Howling Hills to retrieve the stolen medicine.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 78906
+  },
+  "gap": "objective 0: place 'Howling Hills' has no position in our data"
+ },
+ {
+  "quest_id": 3120006,
+  "quest": "q3120006",
+  "title": "Pet Trainer: To Sanctuary!",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 90028,
+  "text": "Find Roscoe the Pet Trainer in Sanctuary.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 90028
+  },
+  "gap": "objective 0: place 'Roscoe' has no position in our data"
+ },
+ {
+  "quest_id": 3130005,
+  "quest": "q3130005",
+  "title": "Postman: Beware of Ankle Biters",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 104234,
+  "text": "Deliver the mail in Sanctuary, avoid the dogs along the way and then return to Felipe.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 104234
+  },
+  "gap": "objective 2: place 'Sanctuary' has no position in our data"
+ },
+ {
+  "quest_id": 3130019,
+  "quest": "q3130019",
+  "title": "Postman: Where's the Sasparilla?",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 130194,
+  "text": "Find what happened to the Sweetwater Sasparilla.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 130194
+  },
+  "gap": "objective 0: place 'Wugachug' has no position in our data"
+ },
+ {
+  "quest_id": 3130027,
+  "quest": "q3130027",
+  "title": "Postman: Summit in Shrouded Glade",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 130310,
+  "text": "Head to Shrouded Glade for the postmaster meeting.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 130310
+  },
+  "gap": "objective 0: place 'Shrouded Glade' has no position in our data"
+ },
+ {
+  "quest_id": 3140001,
+  "quest": "q3140001",
+  "title": "Become a Soccer Star",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 412464,
+  "text": "Learn how to be a soccer star by finding Manager Landon in Snowhill.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 412464
+  },
+  "gap": "objective 1: place 'Snowhill Soccer Field' has no position in our data"
+ },
+ {
+  "quest_id": 3140006,
+  "quest": "q3140006",
+  "title": "Soccer Star: The Perfect Mascot",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 414964,
+  "text": "Coach &quot;Golden Leg&quot; Eddie wants you to pick out a team mascot. ",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 414964
+  },
+  "gap": "objective 0: place 'animal park (text hint only, no place id)' has no position in our data"
+ },
+ {
+  "quest_id": 3140013,
+  "quest": "q3140013",
+  "title": "Punked",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 19111,
+  "text": "Play a prank on the leader of the hooligans in Highroad Hijinx.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 19111
+  },
+  "gap": "objective 0: place 'Highroad Hijinx' has no position in our data"
+ },
+ {
+  "quest_id": 3140013,
+  "quest": "q3140013",
+  "title": "Punked",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 19123,
+  "text": "Go into the hooligan camp in Highroad Hijinx and sneak up on their leader, Cal's tent and turn on his radio. Let's see how he likes to be woken up.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 19123
+  },
+  "gap": "objective 1: place \"Cal's tent\" has no position in our data"
+ },
+ {
+  "quest_id": 3140022,
+  "quest": "q3140022",
+  "title": "Soccer Star: Returning The Trophy",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 402999,
+  "text": "Go to the Cheetahs' camp",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 402999
+  },
+  "gap": "objective 1: place \"Cheetahs' camp\" has no position in our data"
+ },
+ {
+  "quest_id": 3150014,
+  "quest": "q3150014",
+  "title": "Warrior: General Concerns",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 71355,
+  "text": "Help General Glowlight resolve the changeling problem in the Forgotten Caves below Sanctuary.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 71355
+  },
+  "gap": "objective 0: place 'Forgotten Caves' has no position in our data"
+ },
+ {
+  "quest_id": 3150015,
+  "quest": "q3150015",
+  "title": "Warrior: Finding Facts About Fastvi",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 45369,
+  "text": "Arestol believes if you can retrieve a book he once saw about Fastvi Frostflutter, that he may be able to learn more about how to summon Fastvi's essence. Retrieve the book from the highest peak of Misty Mountain.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 45369
+  },
+  "gap": "objective 0: place 'Misty Mountain' has no position in our data"
+ },
+ {
+  "quest_id": 3160004,
+  "quest": "q3160004",
+  "title": "Wizard: I Can't Read This!",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 103129,
+  "text": "Find Fizzlesticks' glasses in the Robgoblin Camp.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 103129
+  },
+  "gap": "objective 0: place 'Robgoblin Camp junkpile' has no position in our data"
+ },
+ {
+  "quest_id": 3160009,
+  "quest": "q3160009",
+  "title": "Wizard: Student Profits",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 74854,
+  "text": "Fizzlesticks is interested in how Yaren's student is doing. Go to Snowhill and talk to him.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 74854
+  },
+  "gap": "objective 0: place 'Snowhill' has no position in our data"
+ },
+ {
+  "quest_id": 3160012,
+  "quest": "q3160012",
+  "title": "Wizard: An Icy Mistake",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 74864,
+  "text": "Free Yaren from his icy prison in Hot Springs Haven!",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 74864
+  },
+  "gap": "objective 0: place 'Hot Springs Haven' has no position in our data"
+ },
+ {
+  "quest_id": 3160013,
+  "quest": "q3160013",
+  "title": "Wizard: Merry Magical Story",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 384160,
+  "text": "Head to Merry Vale and speak with Talespinner Yvelle.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 384160
+  },
+  "gap": "objective 1: place 'Merry Vale' has no position in our data"
+ },
+ {
+  "quest_id": 3160015,
+  "quest": "q3160015",
+  "title": "Wizard: Lost Student",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 74924,
+  "text": "Look for Morgulg near the Snowhill Warpstone",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 74924
+  },
+  "gap": "objective 0: place 'Snowhill Warpstone' has no position in our data"
+ },
+ {
+  "quest_id": 3160015,
+  "quest": "q3160015",
+  "title": "Wizard: Lost Student",
+  "objective": 1,
+  "kind": "visit_position",
+  "text_string_id": 103845,
+  "text": "As a wizard, find Morgulg's wand in Floren Forest",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 103845
+  },
+  "gap": "objective 1: place 'Floren Forest' has no position in our data"
+ },
+ {
+  "quest_id": 3160026,
+  "quest": "q3160026",
+  "title": "Wizard: Missing Student Sven",
+  "objective": 2,
+  "kind": "visit_position",
+  "text_string_id": 24561,
+  "text": "Search for Sven at the Tangletrack Speedway",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 24561
+  },
+  "gap": "objective 2: place 'Tangletrack Speedway' has no position in our data"
+ },
+ {
+  "quest_id": 3160027,
+  "quest": "q3160027",
+  "title": "Wizard: Sven's Job Offer",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 22324,
+  "text": "As a wizard, enter the Briar Patch in Briarwood and retrieve a summoning crystal from Azure.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 22324
+  },
+  "gap": "objective 0: place 'Briar Patch' has no position in our data"
+ },
+ {
+  "quest_id": 3160028,
+  "quest": "q3160028",
+  "title": "Wizard: A Twig From Treeleaf",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 115828,
+  "text": "As a wizard, enter Treeleaf's Retreat in Briarwood and take a twig from Treeleaf.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 115828
+  },
+  "gap": "objective 0: place \"Treeleaf's Retreat\" has no position in our data"
+ },
+ {
+  "quest_id": 3160032,
+  "quest": "q3160032",
+  "title": "Wizard: Two Gems Are Better Than One",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 116240,
+  "text": "Go to Blackspore and get a crystal from Foreman Ironfist in the Haunted Mines.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 116240
+  },
+  "gap": "objective 0: place 'Haunted Mines (Blackspore Swamp)' has no position in our data"
+ },
+ {
+  "quest_id": 3160033,
+  "quest": "q3160033",
+  "title": "Wizard: Rescue Mission",
+  "objective": 0,
+  "kind": "visit_position",
+  "text_string_id": 76440,
+  "text": "Go to Briarwood and rescue Sven in the Briarheart Caverns.",
+  "draft": {
+   "kind": "visit_position",
+   "text_string_id": 76440
+  },
+  "gap": "objective 0: place 'Briarheart Caverns' has no position in our data"
+ }
+]

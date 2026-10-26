@@ -1,0 +1,25 @@
+<!-- fleet job=testaudit-infer id=piece_032-v1 status=done turns=3 usd=0.0042 tokens(read,write,in,out)=[26486, 20313, 8, 2801] model=claude-haiku-5-5 -->
+# tests/piece_032.rs
+
+{"file": "tests/piece_032.rs",
+ "tests": [
+  {"name": "shipped_profile_row_parses_into_the_recovered_shape", "verdict": "keep", "covered_by": null, "reason": "Only test of the ProfileRow serde shape for the Brawler row (id 43, name 2873, type 2, DefaultItems). No other test file imports piece_032 or its ProfileRow."},
+  {"name": "class_table_parses_and_rejects_a_wrong_header", "verdict": "keep", "covered_by": null, "reason": "Only check of parse_item_class_table, including the fail-closed HeaderMismatch path. Similar files test other modules (piece_031 catalogue, piece_040 recipes), not this parser."},
+  {"name": "requirement_table_keeps_only_check_rank_rows_as_gates", "verdict": "keep", "covered_by": null, "reason": "Only test that non-CheckRankLastProfileByType rows are filtered out of RankGate. Unique to this module."},
+  {"name": "gate_comparators_are_inclusive_at_the_boundary", "verdict": "keep", "covered_by": null, "reason": "Boundary semantics of AtLeast/AtMost and cross-type refusal (another job type must not satisfy a combat gate). Refusal-style check with no equivalent elsewhere."},
+  {"name": "development_rows_are_reported_separately_from_the_live_rank_boundaries", "verdict": "keep", "covered_by": null, "reason": "Pins the development-vs-live distinction that the work item's first revision failed on; a canary-style regression check with no equivalent elsewhere."},
+  {"name": "unlock_curve_is_monotone_over_the_recovered_rank_axis", "verdict": "keep", "covered_by": null, "reason": "Only monotonicity check of the unlock curve over MAX_JOB_RANK; not duplicated in other files."},
+  {"name": "equipment_above_the_recovered_rank_ceiling_is_a_violation", "verdict": "keep", "covered_by": null, "reason": "Hostile/out-of-range input refusal: a rank-21 row must be a violation and must not create a live boundary. Security-style refusal check; keep."},
+  {"name": "equipment_from_another_jobs_class_is_not_attributed_to_this_job", "verdict": "keep", "covered_by": null, "reason": "Attribution refusal check (class 15 belongs to another profile). Unique to this module; keep."},
+  {"name": "declared_community_levels_are_cross_checks_against_the_original_rows", "verdict": "keep", "covered_by": null, "reason": "Exercises cross_check_declared_ranks missing/unexpected/development_only sets; the only test of that function."},
+  {"name": "the_creation_kit_is_within_the_profile_classes_and_rank_floor", "verdict": "keep", "covered_by": null, "reason": "Only test of creation_kit filtering by class and rank floor."},
+  {"name": "combat_rank_windows_pair_the_recovered_gate_rows", "verdict": "keep", "covered_by": null, "reason": "Only test of RankWindow::for_sets pairing and contains() bounds."},
+  {"name": "gate_rows_for_a_different_profile_type_do_not_form_a_window", "verdict": "keep", "covered_by": null, "reason": "Refusal check: mixed profile-type AND groups are rejected with MixedGateTypes. Keep."},
+  {"name": "profile_identity_is_confirmed_by_the_client_filter_option_row", "verdict": "keep", "covered_by": null, "reason": "Only test of parse_item_filter_options binding name 2873 to profile 43. piece_031 does not parse ItemFilterOptions."},
+  {"name": "id_pair_tables_parse_and_reject_unknown_headers", "verdict": "keep", "covered_by": null, "reason": "Only test of parse_id_pairs, including the unknown-header refusal path."},
+  {"name": "recovered_constants_keep_original_and_community_labels_apart", "verdict": "keep", "covered_by": null, "reason": "Pins recovered constants and separates the community wiki trait ranks from original ids. Canary-like; not duplicated elsewhere."},
+  {"name": "private_brawler_tables_match_the_preserved_lab_inputs", "verdict": "keep", "covered_by": null, "reason": "Ignored lab gate against private preserved tables; the only end-to-end check against original inputs. Not removable without equivalent; it is #[ignore] and runs only with env vars set."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.85,
+ "notes": "The file is the only Rust test that includes src/restoration/piece_032.rs (checked by searching for piece_032, RankWindow, cross_check_declared_ranks and parse_item_class_table across tests/). The similar files (piece_031, 039, 040, 041, 046) test different job and module surfaces with similar naming, so their overlap is structural, not the same path with the same assertions. No test is superseded or duplicate. Only the 'excerpt' was cut off at equipment_from_another_jobs_class...; I read lines 235-534 of the file, so the last few assertions (lines 514-537, the remainder of the private lab gate) were not read in full. Those are inside the ignored lab gate and do not change the verdicts. The Python checker scripts/pieces/piece_032.py is a separate language and does not count toward Rust redundancy."}

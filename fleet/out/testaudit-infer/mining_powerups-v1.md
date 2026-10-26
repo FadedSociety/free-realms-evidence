@@ -1,0 +1,32 @@
+<!-- fleet job=testaudit-infer id=mining_powerups-v1 status=done turns=6 usd=0.0077 tokens(read,write,in,out)=[115255, 32447, 14, 5019] model=claude-haiku-5-5 -->
+# tests/mining_powerups.rs
+
+{"file": "tests/mining_powerups.rs",
+ "tests": [
+  {"name": "default_powerup_percent_matches_the_old_engine_byte_for_byte", "verdict": "keep", "covered_by": null, "reason": "Only check that an absent powerup key leaves the engine identical to an empty definition list. Its RED comment is stale (the authoring surface exists now), but the assertion is still valid."},
+  {"name": "authored_powerups_advertise_and_replace_selectable_tiles", "verdict": "keep", "covered_by": null, "reason": "Only test pinning the OnPowerupInitMsg advertisement and the powerup-pool board fill. No other test file in the repo references OnPowerupInitMsg."},
+  {"name": "default_writer_bytes_carry_no_powerup_key", "verdict": "keep", "covered_by": null, "reason": "Writer canary: default content must not gain the new key. Nothing else checks this."},
+  {"name": "configured_collected_powerups_are_refused", "verdict": "keep", "covered_by": null, "reason": "Refusal check for 900..=949 values; validate_powerup_definitions in src/mining.rs:1092 is the path. Only test of this case."},
+  {"name": "malformed_definitions_are_refused", "verdict": "keep", "covered_by": null, "reason": "Refusal checks for power, value, duplicate and empty-list cases in validate_powerup_definitions. Keep; the 'not implemented' string match for 940 is brittle but matches src/mining.rs:1094."},
+  {"name": "dynamite_shatters_the_recovered_neighbourhood", "verdict": "keep", "covered_by": null, "reason": "Only dynamite-effect test. Its assertion is weak (only the pressed tile is checked gone), so it is partly subsumed by dynamite_neighbour_order_is_down_up_right_left within this file, but not removable."},
+  {"name": "dynamite_neighbour_order_is_down_up_right_left", "verdict": "keep", "covered_by": null, "reason": "Only test of the recovered neighbour order plus the atomic refusal of a wrong order."},
+  {"name": "wildtile_action_requires_and_applies_the_named_tiles", "verdict": "keep", "covered_by": null, "reason": "Only positive wildtile effect test plus a mixed-tile refusal."},
+  {"name": "wildtile_refuses_overflowing_and_duplicate_lists", "verdict": "keep", "covered_by": null, "reason": "Refusal check for over-cap and duplicate lists. Its atomicity overlaps forged_short_lists, but the refusals are distinct."},
+  {"name": "destruct_action_clears_the_named_tiles", "verdict": "keep", "covered_by": null, "reason": "Only destruct-effect test. Assertions are loose (>= selectable_before - 1) because gravity refills, so it is weak but unique."},
+  {"name": "shuffle_action_rotates_tiles_and_stays_in_bounds", "verdict": "keep", "covered_by": null, "reason": "Only shuffle-action effect test on the single-pair path; runtime_shuffle_places_drawn_tiles_at_the_recovered_positions covers the multi-tile case."},
+  {"name": "runtime_shuffle_places_drawn_tiles_at_the_recovered_positions", "verdict": "keep", "covered_by": null, "reason": "Only end-to-end shuffle placement test with recovered positions and value conservation."},
+  {"name": "runtime_shuffle_folds_equal_neighbours_the_as2_way", "verdict": "keep", "covered_by": null, "reason": "Equal-neighbour fold behaviour; unique to this file. Not in the pack excerpt, so reasoning is limited to the name."},
+  {"name": "shuffle_placement_walk_matches_the_as2_targets", "verdict": "keep", "covered_by": null, "reason": "Calls mining::shuffle_placements directly. The second half recomputes the expected values inside the test, so it is partly tautological, but the first assertion checks the real function. Keep; consider tightening."},
+  {"name": "shuffle_rejects_a_list_that_does_not_match_the_draw_order", "verdict": "keep", "covered_by": null, "reason": "Refusal check for out-of-draw-order shuffle lists with state-equality rollback."},
+  {"name": "forged_short_lists_are_refused_for_every_clickable_action", "verdict": "keep", "covered_by": null, "reason": "Refusal canary across all four clickable actions plus the genuinely-short positive case. Contains dead code (cells.clear() after use) that should be cleaned up."},
+  {"name": "action_draw_refills_in_consumed_order_until_the_minimum", "verdict": "keep", "covered_by": null, "reason": "Only test of the repeated 20-batch refill order for powerup actions."},
+  {"name": "every_clickable_action_consumes_one_draw_per_named_tile", "verdict": "keep", "covered_by": null, "reason": "Cross-action draw-consumption check. Overlaps the per-action tests but asserts a distinct property (one draw per named tile for every action)."},
+  {"name": "action_failures_are_atomic_and_replay_is_inert", "verdict": "keep", "covered_by": null, "reason": "Atomicity and replay refusal check for a forged and a replayed action. Security/refusal, keep."},
+  {"name": "forged_powerup_views_and_actions_are_refused", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal across forged server-to-client messages and unserviced action values. Keep."},
+  {"name": "paused_and_stale_actions_are_inert", "verdict": "keep", "covered_by": null, "reason": "Pause and stale-instance guard refusal check. Keep."},
+  {"name": "a_lone_clickable_powerup_keeps_the_board_alive", "verdict": "keep", "covered_by": null, "reason": "HasMove check for a clickable powerup. Not verified against tests/mining_move_detection.rs or mining_dead_board.rs; they may overlap, so check there before removal. Keep under the conservative rule."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.7,
+ "notes": "The pack's five most similar files (kart_service, housing_service, coin_store_siblings, npc_interaction, station_cash) are unrelated to Mining, so they yielded no overlap. Searching the repo showed no other test file that names OnPowerupInitMsg, TILE_POWERUP_* or the OnActionMsg powerup path. gathering_payout.rs:683 sends one t951 OnActionMsg, but it is a different gathering-payout path and not a duplicate. Other Type8Engine test files (mining.rs, mining_dead_board.rs, mining_move_detection.rs, mining_tile_rendering.rs) were not fully read; the lone-powerup HasMove test and the DEFAULT/no-key tests may overlap them. Within-file overlaps (dynamite, destruct and wildtile refusals) are noted but kept under the conservative rule. Stale comments: the RED comment on default_powerup_percent_matches... and the 'RED' on configured_collected_powerups... describe an earlier state."
+}

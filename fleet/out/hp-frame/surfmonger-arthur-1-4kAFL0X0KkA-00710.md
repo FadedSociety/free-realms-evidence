@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=surfmonger-arthur-1-4kAFL0X0KkA-00710 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3210, 4, 611] model=claude-haiku-5-5 -->
+# Surfmonger Arthur 4kAFL0X0KkA 710s
+
+{"screen": "world", "target": {"name": "Surfmonger Arthur", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Ricky Rainspice", "level": 4, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Exploring open field; Surfmonger Arthur appears only as a distant quest-tracker label (red arrow, distance under name), no health bar or combat visible. Other labels (Sundancer, Prince of Low Tide, Checkers & Chess, Bacala) are also trackers."}

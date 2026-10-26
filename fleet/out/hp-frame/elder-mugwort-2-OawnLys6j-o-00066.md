@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-2-OawnLys6j-o-00066 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 1107] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 66s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": 0.5, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 1.0}], "damage_numbers": [{"value": -821, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Elder Mugwort's bar is about half full (green left, red lost) above the name; the player is fighting nearby, and a second enemy bar (name obscured by Warthog Charge text) is full. The level of Elder Mugwort is not shown."}

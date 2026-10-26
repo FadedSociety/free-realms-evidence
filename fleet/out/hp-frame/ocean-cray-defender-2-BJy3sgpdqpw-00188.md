@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-2-BJy3sgpdqpw-00188 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3153, 4, 758] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 188s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Defender", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Name 'Ocean Cray Defender' is drawn large over a red bar, with a faded 'You receive 30 coins' notice below it; the bar shows no legible green fill, so its health is unreadable. No damage numbers or attacking party members are clearly visible."}

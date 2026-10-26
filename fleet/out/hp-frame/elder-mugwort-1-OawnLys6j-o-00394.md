@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00394 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 1062] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 394s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Toad Bouncer", "health_fraction": 0.05}], "damage_numbers": [{"value": 11207, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Player's fire attack hits a Toad Bouncer (-11207, nearly dead); Elder Mugwort is not visible as a creature here, only the Goals panel entry 'Defeat the druid, Mugwort!'."}

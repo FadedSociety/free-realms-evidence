@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=willow-slamdash-1-A2kA-ji8PFs-00194 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3150, 4, 882] model=claude-haiku-5-5 -->
+# Willow Slamdash A2kA_ji8PFs 194s
+
+{"screen": "minigame", "target": {"name": "Willow Slamdash", "level": null, "health_fraction": 0.35, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Brady Stormbreath1", "health_fraction": 0.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 7, "job": "Demo Derby Driver", "health_fraction": null}, "target_defeated": false, "notes": "Wildwood Demo Derby kart race; Willow Slamdash's bar shows a partial green fill over a red loss, approximate. Brady Stormbreath1 was knocked out per the on-screen message. Enemy level not printed, so null."}

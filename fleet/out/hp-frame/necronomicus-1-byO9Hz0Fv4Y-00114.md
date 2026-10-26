@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-1-byO9Hz0Fv4Y-00114 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2744, 4, 932] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 114s
+
+{"screen": "combat", "target": {"name": "Epoch Necronomicus", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2739, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Boss fight; a large yellow -2739 hit lands on the boss name text (name only partly legible). Its health bar and level are not legible, so they are null. Quest goal 'Defeat Necronomicus' is shown; the 'not enough energy' message is on screen."}

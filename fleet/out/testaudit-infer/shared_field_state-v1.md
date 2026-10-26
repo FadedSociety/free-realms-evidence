@@ -1,0 +1,18 @@
+<!-- fleet job=testaudit-infer id=shared_field_state-v1 status=done turns=4 usd=0.0045 tokens(read,write,in,out)=[38831, 20440, 10, 3042] model=claude-haiku-5-5 -->
+# tests/shared_field_state.rs
+
+{"file": "tests/shared_field_state.rs",
+ "tests": [
+  {"name": "two_players_share_hp_and_keep_independent_cooldowns", "verdict": "keep", "covered_by": null, "reason": "Only check that two engines strike one shared field HP pool with independent cooldowns; includes a local-copy canary (OSFR_W116_LOCAL_COPY_CANARY) and no-hit-emission assertions. Canary-type test, keep."},
+  {"name": "two_players_do_not_accelerate_motion_or_enemy_attack_clock", "verdict": "keep", "covered_by": null, "reason": "Pins that extra players do not speed up enemy motion or attack clock on the shared field; no equivalent found in the similar files. Not clearly covered elsewhere."},
+  {"name": "malformed_and_unknown_targets_do_not_mutate_or_consume_swing", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal test: truncated/trailing/bad-kind packets, unknown and NaN targets must change nothing and must not consume the swing. Refusal check, keep."},
+  {"name": "world_refuses_unready_unknown_or_other_instance_field_access", "verdict": "keep", "covered_by": null, "reason": "Refusal test for World field access (unready, unknown zone, other instance, leaving the field). Shared_field_interest tests cover membership and visibility, not this refusal matrix. Keep."},
+  {"name": "area_and_dot_damage_share_hp_and_never_deliver_personal_credit", "verdict": "keep", "covered_by": null, "reason": "Covers area damage and DoT on shared HP, with T256 caster-defeat credit and no T240 reward payout assertions. Credit semantics overlap shared_field_kill_quest_credit.rs in theme but drive a different path (area/DoT). Keep."},
+  {"name": "caster_buff_is_personal_and_target_debuff_is_shared_until_expiry", "verdict": "keep", "covered_by": null, "reason": "Pins personal caster buffs versus shared target debuffs and their expiry timing across two engines. Unique to this file in the pack. Keep."},
+  {"name": "refused_shared_ability_leaves_skill_effects_untouched", "verdict": "keep", "covered_by": null, "reason": "Refusal test: NaN position error and unavailable-ability 286 refusal must leave both skill maps intact. Refusal check, keep."},
+  {"name": "canonical_run_id_is_sent_and_survives_solo_validation", "verdict": "keep", "covered_by": null, "reason": "Checks the run id is sent in zone-ready packets and persists through state reload (next_instance_id). No other test in the pack asserts this; not clearly covered elsewhere. Keep (conservative)."},
+  {"name": "two_bot_socket_shared_hp_route", "verdict": "keep", "covered_by": null, "reason": "End-to-end socket route for shared HP across two bots. Overlaps in spirit with shared_field_interest.rs two-bot tests, but drives the real gateway socket path and is #[ignore]d (needs private OSFR_PLAY_PACKAGE). Kept conservatively; a candidate for review only if the socket path is covered by multiplayer.rs."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "Based on the pack plus targeted reads of tests 128-575 and 990-1060 only; the two-bot socket test body and the 175-263 region were not fully read. Every test is a refusal, canary, or unique shared-field path, so none is marked removable. The closest overlaps are shared_field_interest.rs (two-bot shared death, membership refusal) and shared_field_kill_quest_credit.rs (credit semantics); neither was verified line-by-line against these tests. The file is 1227 lines and the excerpt was truncated, so a full read could change individual verdicts, though unlikely to make the whole file removable."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=thugawug-bumbler-1-D2kwVKfYErU-00586 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2769, 4, 737] model=claude-haiku-5-5 -->
+# Thugawug Bumbler! D2kwVKfYErU 586s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Third-person view of a brown-clad figure and a green-clad character on grass; a faint label with a red crossed-swords icon sits above, but the name is not legible and no health bar is visible. Chat shows the Archer quest 'Update: Defeat Thugawug Fumblers 8/9'. Nothing readable for the target, so fields are null."}

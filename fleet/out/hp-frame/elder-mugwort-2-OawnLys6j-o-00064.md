@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-2-OawnLys6j-o-00064 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 1087] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 64s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}, {"value": -2490, "on": "target", "color": "yellow"}, {"value": 113, "on": "player", "color": "red"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "Player (Ninja) strikes Elder Mugwort, whose bar still reads near full; large yellow hit numbers over the target. Level of the enemy is not printed."}

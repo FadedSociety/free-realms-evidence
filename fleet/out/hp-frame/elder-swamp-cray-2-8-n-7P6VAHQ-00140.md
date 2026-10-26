@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-swamp-cray-2-8-n-7P6VAHQ-00140 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2741, 4, 966] model=claude-haiku-5-5 -->
+# Elder Swamp Cray 8-n-7P6VAHQ 140s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -1424, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Jet Blackheart", "level": 12, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player Jet Blackheart fights a red unnamed creature in a cavern; no name or health bar legible above it. Goals panel reads 'Defeat the ancient cray, Cracked Claw'. Yellow -1424 hit shown near the red creature; target identity uncertain, so the Elder Swamp Cray is not confirmed on screen."}

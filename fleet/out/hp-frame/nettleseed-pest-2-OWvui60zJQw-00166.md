@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-pest-2-OWvui60zJQw-00166 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3160, 4, 854] model=claude-haiku-5-5 -->
+# Nettleseed Pest OWvui60zJQw 166s
+
+{"screen": "combat", "target": {"name": "Nettle...", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1245, "on": "other", "color": "yellow"}, {"value": 1281, "on": "other", "color": "green"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Dense yellow damage numbers (1245) over a faint, partly obscured 'Nettle...' name near screen center; no enemy health bar is legible, so the target's health cannot be read from this frame."}

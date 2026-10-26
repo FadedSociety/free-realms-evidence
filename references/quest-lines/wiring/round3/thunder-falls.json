@@ -1,0 +1,369 @@
+[
+ {
+  "quest_id": 3060011,
+  "title": "Demo Derby: So Long, Betty!",
+  "record": "quest-lines/quests.json q3060011",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000146
+    },
+    "text_string_id": 394022,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text names Crash's sponsor in Lakeshore; the target is Merri De'Flor, whose NPC row is npc 9000000146 (not placed, placement poi_anchor).",
+      "source": "locale:394022; pack: candidates.npc_row"
+     },
+     {
+      "claim": "Reference spawn for Merri De'Flor in Lakeshore at position [-755.6111, 0.463986, 851.4252], ref_id 33538, model fairy_sanctuary_f.adr, unique name match.",
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3760"
+     },
+     {
+      "claim": "Progress line asks whether the player has spoken to Merri De'Flor, so the objective is completed by talking to her.",
+      "source": "locale:394288"
+     }
+    ],
+    "note": "Chose talk_to_npc over visit_position because the progress line says 'spoken to' and the text is a visit to a named person. If the builder wants a walk-to instead, use visit_position zone_id 0, position [-755.6111, 0.463986, 851.4252], radius 8.0 (reference spawn; the client candidate [-733.719079, 9.09, 943.318988] is low confidence). Place npc 9000000146 at FabledRealms.lua:3760 position before this works."
+   }
+  ]
+ },
+ {
+  "quest_id": 3060013,
+  "title": "Demo Derby: Tucker's Troubles",
+  "record": "quest-lines/quests.json q3060013",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000495
+    },
+    "text_string_id": 394016,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 'See what the hold up is with Tucker Thunderjolt outside of Thunder Falls.' is a single talk step with one target, Tucker Thunderjolt (npc_name locale:19365).",
+      "source": "locale:394016; locale:19365"
+     },
+     {
+      "claim": "Our NPC row npc_id 9000000495 is named Tucker Thunderjolt, name_string_id 19365, zone Wilds (zone_id 16), with location evidence 'Outside of Thunder Falls' from video nameplates.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/wilds.json:43589-43605; :43620"
+     },
+     {
+      "claim": "Reference ref_id 9000000221 (Tucker Thunderjolt) joins npc_id 9000000495 via Legacy Npcs.json Id=3093 (ModelId 1330, human_m_samuel_bunker.agr, NameId 19365).",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/wilds.json:43754; notes/Research/NPC Placement.md:143"
+     },
+     {
+      "claim": "The NPC row is a reconstructed package key with no actor id captured for this regional row, so no confirmed world spawn position is recorded.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/wilds.json:43746"
+     }
+    ],
+    "note": "Keep npc_id 9000000495. Status needs_placement: the row exists but has no captured actor placement; the builder must place Tucker outside Thunder Falls (Wilds, zone_id 16) using the 9000000221 reference (Legacy Npcs.json Id=3093). The Legacy join is a reconstruction and the Stillwater Crossing context in the reference was not used for placement. Count 1 (single talk)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3060016,
+  "title": "Demo Derby: Seeking a Sponsor",
+  "record": "quest-lines/quests.json q3060016",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 611,
+     "count": 1
+    },
+    "text_string_id": 394466,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Prove yourself to Kanan by scoring points during a Thunder Falls derby.' is locale 394466, tagged quest_objective, zone Thunder Falls.",
+      "source": "locale:394466"
+     },
+     {
+      "claim": "Client MiniGameData row 611 is type 11 with name 393304 and description 394466, the same derby text, so minigame 611 is the Thunder Falls derby the objective names.",
+      "source": "client Resources/MiniGameData.txt:523 ('611^11^393304^394466^...')"
+     },
+     {
+      "claim": "Count 1: the text names one derby ('a Thunder Falls derby').",
+      "source": "locale:394466"
+     }
+    ],
+    "note": "Minigame 611 is verified in the client. Repo demo_derby_driver.json:242 uses game id 39 ('Wildwood Demo Derby') for a different derby; do not mix them up."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000124
+    },
+    "text_string_id": 394080,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective 'Speak to Kanan at Stillwater Crossing' is locale 394080.",
+      "source": "locale:394080"
+     },
+     {
+      "claim": "NPC 9000000124 (Kanan) is placed in the Stillwater Crossing NPC data.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:7334"
+     },
+     {
+      "claim": "Kanan 9000000124 is listed as giver_npc_id for this quest's records.",
+      "source": "repo:prototype/osfr-tools/data/content/quests/demo_derby_driver.json:778"
+     }
+    ],
+    "note": "Draft confirmed; no change."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080026,
+  "title": "Kart Driver: Settling the Score",
+  "record": "quest-lines/quests.json q3080026",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 643,
+     "count": 1
+    },
+    "text_string_id": 395225,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text names the race 'Settling the Score' at Thunder Falls Speedway, so the objective is winning a race, not defeating an enemy.",
+      "source": "locale:395225"
+     },
+     {
+      "claim": "Minigame 643 is named 'Settling the Score' (name_id 3337, type 10), and locale:3337 reads 'Settling the Score'.",
+      "source": "repo:notes/Research/original-activity-coverage.json:12094-12100; locale:3337"
+     },
+     {
+      "claim": "Quest row 24 in the Kart Driver job list is Settling the Score, rival Linx Redline, Thunder Falls Speedway.",
+      "source": "repo:notes/Build Guides/Content/Jobs/Kart Driver.md:89"
+     },
+     {
+      "claim": "Pack draft used kill model 1300 (Linx's model). Rejected: the text is a race win, and minigames 629 and 636 belong to other quests (Ready to Redline, Redline Returns).",
+      "source": "pack: objectives[0].draft; repo:notes/Research/original-activity-coverage.json:11814-11819"
+     }
+    ],
+    "note": "Replaces the draft defeat/kill_actor_kind. Count 1 = one race win, from the single-objective text."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080029,
+  "title": "Kart Driver: Sweetwater Sasparilla Sponsorship",
+  "record": "quest-lines/quests.json q3080029",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000943
+    },
+    "text_string_id": 394711,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Client text 394711 names Shooblemoot at Thunder Falls as the sponsor target.",
+      "source": "locale:394711; pack: objectives[0]"
+     },
+     {
+      "claim": "Content NPC row 9500000943 is named Shooblemoot with name_string_id 394913, but id_kind is reconstructed_content_key and no reference_ids are attached.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/wilds.json:37751-37756"
+     },
+     {
+      "claim": "Sprint quest 3080030 uses giver 9000000461 for Shooblemoot, so the sponsorship row should not borrow that id.",
+      "source": "repo:prototype/osfr-tools/data/content/quests/kart_driver.json:1519; quest-lines/wiring/zone-quests/thunder-falls.json:695"
+     }
+    ],
+    "note": "Keep npc_id 9500000943 (the only content row carrying the name Shooblemoot). It is a reconstructed key and is not confirmed placed in a zone. Legacy id 3045 (FreeRealms-Legacy) is unvalidated and not used. Builder must confirm the row is placed at Thunder Falls before wiring."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 567,
+     "count": 3
+    },
+    "text_string_id": 395264,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Client text 395264 asks for 'a few more first place victories' at Thunder Falls before Shooblemoot commits.",
+      "source": "locale:395264"
+     },
+     {
+      "claim": "Draft minigame_id 567 was carried in the pack as resolved (Thunder Falls Speedway race).",
+      "source": "pack: objectives[1].draft.minigame_id"
+     }
+    ],
+    "note": "(lead check) draft minigame_id 567 is named 'thunder falls speedway', matching target 'Thunder Falls Speedway'. Count 3 (R): the text says 'a few', so 3 is a chosen value, not a sourced one. Minigame 567 is taken from the pack draft and I did not re-verify it against a minigame record. Do not use the 'Win three races' count from 395272, which belongs to the Dominating quest."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080030,
+  "title": "Kart Driver: Thunder Falls Sprint Challenge",
+  "record": "quest-lines/quests.json q3080030",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 645,
+     "count": 1
+    },
+    "text_string_id": 394849,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Client objective text reads 'Win the \"Thunder Falls Sprint Challenge\" race'; a win means one race finished, so count 1 is from the text, not chosen.",
+      "source": "locale:394849"
+     },
+     {
+      "claim": "Race name locale 3339 is 'Thunder Falls Sprint Challenge' (pack quest_lines and draft agree).",
+      "source": "locale:3339 (pack: quest_lines)"
+     },
+     {
+      "claim": "Quest row 3080030 (title_string_id 394740, giver 9000000461, description 394741) matches the Thunder Falls Sprint Challenge entry in the job guide, Tier 3 row 28.",
+      "source": "repo:prototype/osfr-tools/data/content/quests/kart_driver.json:1516-1561; notes/Build Guides/Content/Jobs/Kart Driver.md"
+     },
+     {
+      "claim": "minigame_id 645 is the draft value the pack resolved for this race; my repo search found no separate minigame table row for 645, so it rests on the pack's resolution.",
+      "source": "pack: objectives[0].draft.minigame_id (resolved=true)"
+     }
+    ],
+    "note": "Only objective in this quest. Race win is a finish_minigame, not reach_poi or kill. Lap-time step has no trackable target (394873 is a placeholder) and is not included."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080033,
+  "title": "Kart Driver: Dominating and Thunder Falls",
+  "record": "quest-lines/quests.json q3080033",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 567,
+     "count": 3
+    },
+    "text_string_id": 395272,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Client MiniGameData row '567^10^3606^3244^9870^1' names minigame 567 with locale 3606 = 'Thunder Falls Speedway' (type 10 kart race entry, the generic speedway race).",
+      "source": "client: Resources/MiniGameData.txt:481; locale:3606"
+     },
+     {
+      "claim": "Objective text 'Win three races at Thunder Falls Speedway.' names the speedway, not a single race, so the generic speedway race entry fits; count 3 is written in the text.",
+      "source": "locale:395272"
+     }
+    ],
+    "note": "Draft minigame 567 verified against the client row. Count 3 from the word 'three'."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 647,
+     "count": 3
+    },
+    "text_string_id": 395275,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Client MiniGameData row '647^10^3341^3438^20990^2' names minigame 647 with locale 3341 = 'Dominating at Thunder Falls' (type 10 kart race).",
+      "source": "client: Resources/MiniGameData.txt:559; lookup client locale:3341"
+     },
+     {
+      "claim": "Objective text 'Win the \"Dominating at Thunder Falls\" race three times' names this race and count 3.",
+      "source": "locale:395275"
+     }
+    ],
+    "note": "Draft minigame 647 verified. Count 3 from the text 'three times'."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080047,
+  "title": "Kart Driver: SG Tour 400: Thunder Falls",
+  "record": "quest-lines/quests.json q3080047",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 567,
+     "count": 1
+    },
+    "text_string_id": 398088,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "MiniGameData row 567 is type 10, name locale 3606 'Thunder Falls Speedway' (kart race type; demo derby rows are type 11 per the derby notes)",
+      "source": "client: Resources/MiniGameData.txt:481 '567^10^3606^3244^9870^1^0^^0^0^0^^0^'; locale:3606"
+     },
+     {
+      "claim": "Client text 'Beat Kade Carmichael in a race at Thunder Falls Speedway.' asks for a single race",
+      "source": "locale:398088"
+     }
+    ],
+    "note": "Count 1 is from the text ('a race'), not chosen. minigame 567 is now checked against the MiniGameData row, not only the pack draft."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000153
+    },
+    "text_string_id": 398093,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Client text 'Return to Kade outside Thunder Falls' names Kade Carmichael",
+      "source": "locale:398093"
+     },
+     {
+      "claim": "Our NPC row 9500000153 'Kade Carmichael' exists, unplaced (poi_anchor, Briarwood)",
+      "source": "pack: objectives[1].candidates.npc_row"
+     },
+     {
+      "claim": "Reference spawn ref 2679 at [-295.7332, -60.97827, 1949.605] heading 0.158672, model human_m_kade_carmichael.agr, tagged near_zone Briarwood",
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1422"
+     }
+    ],
+    "note": "Keep npc_id 9500000153; placement not settled. Ref 2679 is tagged Briarwood, not Thunder Falls, so it is not confirmed as the 'outside Thunder Falls' position. Builder must pick a Thunder Falls Speedway position (the Kade/Chase Wheeler area is at the Speedway gate per wiki) and cite it before wiring. Donor id 9500000912 is not the row to use."
+   }
+  ]
+ }
+]

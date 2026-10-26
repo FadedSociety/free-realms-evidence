@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hedge-guardian-0-8COnkBTNgfw-00080 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3179, 4, 799] model=claude-haiku-5-5 -->
+# Hedge Guardian 8COnkBTNgfw 80s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "No enemy name or health bar for Hedge Guardian is legible in this frame; a green creature sits right of centre with no readable label. A blurred yellow floating number near centre (about -1245) is not clear enough to record. Goals panel lists Nogg the Crud and Hedge Knights."}

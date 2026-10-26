@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-0-7rPcgr6KOfk-00150 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 2740, 4, 1294] model=claude-haiku-5-5 -->
+# Ocean Cray Defender 7rPcgr6KOfk 150s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Defender", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Ocean Cray Marauder", "health_fraction": 0.55}], "damage_numbers": [{"value": -127, "on": "other", "color": "white"}], "attackers_visible": 1, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Combat near a cave with several Ocean Cray enemies; the Defender label is visible but no clear health bar is attached to it, and the only visible bar sits over Ocean Cray Marauder."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=surfmonger-arthur-1-4kAFL0X0KkA-00718 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3210, 4, 648] model=claude-haiku-5-5 -->
+# Surfmonger Arthur 4kAFL0X0KkA 718s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Ricky Rainspice", "level": 4, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Open dirt path in world view with no combat; Surfmonger Arthur is not legibly labelled or shown with a health bar. Only quest trackers (Prince of Low Tide, Checkers & Chess, Sundancer 42m, Bacala 38m) are visible, plus an illegible name tag on a distant figure up the path."}

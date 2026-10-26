@@ -1,0 +1,3360 @@
+[
+ {
+  "quest": "q3000002",
+  "title": "Advanced Combat Tutorial",
+  "objective": 1,
+  "part": 0,
+  "client_text": "",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Count 1 is from the text 'a tough minion' (singular). No enemy_actor_kinds row in the pack; the enemies directory was not present in the repo. Builder needs the Gloamling enemy row (model id and reference_npc_id candidates from FreeRealms-Legacy Npcs.json) before this can be set.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000002",
+  "title": "Advanced Combat Tutorial",
+  "objective": 2,
+  "part": 0,
+  "client_text": "",
+  "count": 4,
+  "model_ids": [],
+  "fixer_note": "Count 4 is from the guide's HUD reading (R-free, sourced), conflicting with 2/4 on screen; builder should confirm. Enemy row missing as above.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000023",
+  "title": "Wilbur's Trouble",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Chase away the robgoblins",
+  "count": 1,
+  "model_ids": [
+   4
+  ],
+  "fixer_note": "Model id 4 (draft) needs an enemy row. Builder should create the Robgoblin enemy definition, using the FreeRealms-Legacy Npcs.json definition whose name matches 'Robgoblin' as reference_npc_id (not verified here). Count 1 (R): the text does not give a number. The text also says 'robgoblins' (plural), so the count may need to be higher.",
+  "reference_definitions": [
+   {
+    "id": 1294,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:80",
+      "position": [
+       -524.9218,
+       1.09766,
+       620.9789
+      ],
+      "heading": 2.992548
+     }
+    ]
+   },
+   {
+    "id": 1474,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:241",
+      "position": [
+       -1723.147,
+       -30.28921,
+       838.4714
+      ],
+      "heading": -1.171042
+     }
+    ]
+   },
+   {
+    "id": 1475,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:242",
+      "position": [
+       -1723.753,
+       -30.0068,
+       835.9451
+      ],
+      "heading": -0.783139
+     }
+    ]
+   },
+   {
+    "id": 1527,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:294",
+      "position": [
+       -2108.675,
+       -32.35285,
+       1072.708
+      ],
+      "heading": 1.471879
+     }
+    ]
+   },
+   {
+    "id": 1827,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Grekel",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:587",
+      "position": [
+       -370.4939,
+       -24.76648,
+       -1231.484
+      ],
+      "heading": 0.430705
+     }
+    ]
+   },
+   {
+    "id": 1861,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:620",
+      "position": [
+       -394.886,
+       -45.47798,
+       -1290.876
+      ],
+      "heading": 3.134885
+     }
+    ]
+   },
+   {
+    "id": 1932,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:690",
+      "position": [
+       -270.0328,
+       -21.43401,
+       -1157.775
+      ],
+      "heading": -1.429826
+     }
+    ]
+   },
+   {
+    "id": 1939,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Wemo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:697",
+      "position": [
+       -577.1794,
+       -19.62035,
+       -1191.786
+      ],
+      "heading": -3.02921
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930065,
+    "name": "Robgoblin",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3000024",
+  "title": "Local Hero",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat the Thugawug Thug in south Greenwood Forest.",
+  "count": 1,
+  "model_ids": [
+   199
+  ],
+  "fixer_note": "needs_enemy_row. Model id 199 (chugawug_m_bandit_01.adr). Reference_npc_id candidates from FreeRealms-Legacy Npcs.json, all model 199: 1555, 1638, 1639, 1763 (Muggy Wuggle), 2645 (Nuggino the Swift), 3460 (Bandit Patrolman). None is named 'Thugawug Thug', so no name match. Builder should start from 1555, the entry the FabledRealms.lua quest script places, and create an enemy row. Count 1 is from the singular text, not invented. The draft's model 930050 and count 5 are not used: 930050 is an unproven generic Hooligan model and the count is not in the client text.",
+  "reference_definitions": [
+   {
+    "id": 1555,
+    "model": "chugawug_m_bandit_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:322",
+      "position": [
+       -2045.076,
+       -28.82353,
+       1119.243
+      ],
+      "heading": -0.18
+     }
+    ]
+   },
+   {
+    "id": 1638,
+    "model": "chugawug_m_bandit_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:405",
+      "position": [
+       60.05896,
+       24.74841,
+       -461.3186
+      ],
+      "heading": -2.957728
+     }
+    ]
+   },
+   {
+    "id": 1639,
+    "model": "chugawug_m_bandit_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:406",
+      "position": [
+       55.08064,
+       24.74841,
+       -463.7793
+      ],
+      "heading": -1.798183
+     }
+    ]
+   },
+   {
+    "id": 1763,
+    "model": "chugawug_m_bandit_01.adr",
+    "name": "Muggy Wuggle",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:525",
+      "position": [
+       -370.1186,
+       -7.022299,
+       -1167.761
+      ],
+      "heading": 0.731031
+     }
+    ]
+   },
+   {
+    "id": 2645,
+    "model": "chugawug_m_bandit_01.adr",
+    "name": "Nuggino the Swift",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1388",
+      "position": [
+       -611.3519,
+       -61.12108,
+       2052.886
+      ],
+      "heading": 2.076404
+     }
+    ]
+   },
+   {
+    "id": 3460,
+    "model": "chugawug_m_bandit_01.adr",
+    "name": "Bandit Patrolman",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2203",
+      "position": [
+       -1878.527,
+       -29.66577,
+       -636.7942
+      ],
+      "heading": -1.375243
+     }
+    ]
+   },
+   {
+    "id": 3487,
+    "model": "chugawug_m_bandit_01.adr",
+    "name": "Bandit Patrolman",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2230",
+      "position": [
+       -1790.975,
+       -33.96019,
+       -496.0452
+      ],
+      "heading": -1.096068
+     }
+    ]
+   },
+   {
+    "id": 3488,
+    "model": "chugawug_m_bandit_01.adr",
+    "name": "Bandit Patrolman",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2231",
+      "position": [
+       -1798.873,
+       -33.61094,
+       -508.4154
+      ],
+      "heading": -0.746991
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000032",
+  "title": "Chapter 1: Thugamug's Thievery",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat Thugamug and his two Hands",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Needs an enemy definition row (actor_kind_id) for Thugamug. Model id 199 known only; not usable as actor_kind_id. Count 1 for the leader. NPC row 9500000322 is a placement anchor, not a kill target. Leave actor_kind_id unset until an enemy row exists.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000032",
+  "title": "Chapter 1: Thugamug's Thievery",
+  "objective": 0,
+  "part": 1,
+  "client_text": "Defeat Thugamug and his two Hands",
+  "count": 2,
+  "model_ids": [],
+  "fixer_note": "Needs an enemy definition row for the Hands. Model id 199 known only, so status needs_enemy_row. Count 2 comes from the text (not chosen by me).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000040",
+  "title": "Chapter 1: There's Fungus Among Us!",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat Fungus Golems in the Mushroom Cavern.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "needs_enemy_row. Model id 235 (bear_vinegolem_fungus.adr). Reference_npc_id candidates sharing it: 2660, 2661, 2663, 2664, 2665, 2666 (FreeRealms-Legacy Npcs.json, all named 'Ursine Vine', none named Fungus Golem); the builder's starting point is 2660. The builder must confirm the actor is the Fungus Golem before creating a row. Count 1 is a (R) default; the plural text gives no number. actor_kind_id left null on purpose.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000041",
+  "title": "Chapter 1: It's Business Time",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat the floren inside of Bristlewood Glade.",
+  "count": 1,
+  "model_ids": [
+   134
+  ],
+  "fixer_note": "Needs_enemy_row: create an enemy definition for Grumpy Amaranthus (boss, Bristlewood Glade) before wiring; the model id for the boss is not verified in the pack (134 is the shared generic floren model, not confirmed for Amaranthus). Builder's starting point: NPC row 9500000084 (name Amaranthus, Briarwood) and the Legacy floren rows only if the model is confirmed. Do not use 930058 (generic Floren). Count 1 is inferred from the singular 'the floren' (R). Shared-kill question with Briarwood Eviction Notice (locale 419093/419095) remains open.",
+  "reference_definitions": [
+   {
+    "id": 1482,
+    "model": "floren.adr",
+    "name": "Silverray",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:249",
+      "position": [
+       -2506.732,
+       -12.9771,
+       994.2785
+      ],
+      "heading": -0.600796
+     }
+    ]
+   },
+   {
+    "id": 2424,
+    "model": "floren.adr",
+    "name": "Jacque",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1167",
+      "position": [
+       -1212.878,
+       -13.95695,
+       463.8414
+      ],
+      "heading": -1.306295
+     }
+    ]
+   },
+   {
+    "id": 3361,
+    "model": "floren.adr",
+    "name": "Floren Leafling",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2104",
+      "position": [
+       -607.2797,
+       -2.847572,
+       -690.2411
+      ],
+      "heading": -2.317126
+     }
+    ]
+   },
+   {
+    "id": 3362,
+    "model": "floren.adr",
+    "name": "Floren Leafling",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2105",
+      "position": [
+       -605.5338,
+       -2.706234,
+       -695.7222
+      ],
+      "heading": -1.080949
+     }
+    ]
+   },
+   {
+    "id": 3363,
+    "model": "floren.adr",
+    "name": "Floren Defender",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2106",
+      "position": [
+       -611.2849,
+       -2.706007,
+       -688.165
+      ],
+      "heading": 2.301473
+     }
+    ]
+   },
+   {
+    "id": 3367,
+    "model": "floren.adr",
+    "name": "Floren Leafling",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2110",
+      "position": [
+       -503.429,
+       3.918915,
+       -726.3229
+      ],
+      "heading": -3.023394
+     }
+    ]
+   },
+   {
+    "id": 3368,
+    "model": "floren.adr",
+    "name": "Floren Defender",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2111",
+      "position": [
+       -515.328,
+       3.245467,
+       -724.9243
+      ],
+      "heading": 1.156532
+     }
+    ]
+   },
+   {
+    "id": 3369,
+    "model": "floren.adr",
+    "name": "Floren Leafling",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2112",
+      "position": [
+       -510.9237,
+       3.990416,
+       -738.548
+      ],
+      "heading": 0.178948
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930058,
+    "name": "Floren",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3000049",
+  "title": "Chapter 1: The Alchemy of Betrayal",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat Vittorio, Randall, and Dimitri and take back the plant they stole from you.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "No enemy_actor_kinds row supplied for model 840 and none found in the pack. reference_npc_id not verified (refs search for model 840 in Npc json returned nothing). Builder: create enemy row for model 840 (Vittorio); the NPC row 9000000232 is the name match. Count 1 per named character (R: read from the three names).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000049",
+  "title": "Chapter 1: The Alchemy of Betrayal",
+  "objective": 0,
+  "part": 1,
+  "client_text": "Defeat Vittorio, Randall, and Dimitri and take back the plant they stole from you.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Model 821. No enemy row or verified reference_npc_id in pack; no Randall NPC row in pack. Builder must create the enemy row. Count 1 (R).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000049",
+  "title": "Chapter 1: The Alchemy of Betrayal",
+  "objective": 0,
+  "part": 2,
+  "client_text": "Defeat Vittorio, Randall, and Dimitri and take back the plant they stole from you.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Model 832. No enemy row or verified reference_npc_id in pack. Count 1 (R).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000049",
+  "title": "Chapter 1: The Alchemy of Betrayal",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat the mercenaries before they escape the Blackspore graveyard.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Probably a duplicate of index 0 parts 0-2 (same group, same models 840/821/832). Builder should decide whether to keep it as a separate objective or drop it; not split further. Count 1 (R).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3000050",
+  "title": "Chapter 1: The Queen's Last Hope",
+  "objective": 3,
+  "part": 0,
+  "client_text": "Defeat Geoffrey to protect the Queen",
+  "count": 1,
+  "model_ids": [
+   415
+  ],
+  "fixer_note": "Needs a new enemy row for Geoffrey's fight. model_id 415 (fairy_m_geoffrey.adr). reference_npc_id: 9000000330 (sanctuary.json:25516) is the only Geoffrey row found; no legacy Npcs.json definition exists. Do not use 930045. Count 1 comes from the singular text.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010005",
+  "title": "Archer: Taking Aim",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat Thugawug Fumblers in Greenwood Forest as an archer.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "actor_kind_id cannot be settled: create an enemy row named Thugawug Fumbler on model 199 (chugawug_m_bandit_01.adr). Starting-point reference_npc_id candidates (FreeRealms-Legacy Npcs.json, all model 199, equal on the evidence): 1555, 1638, 1639 (unnamed), 1763 (Muggy Wuggle, NameId 45797), 2645 (Nuggino the Swift, NameId 45892), 3460 (Bandit Patrolman, NameId 440716). None is named Fumbler. Count 1 is a chosen placeholder (R): 'a few' in locale:76955 gives no number. The 'as an archer' condition (locale:76957) has no field in kill_actor_kind: needs_server, the server must check the bow/archer class on the kill; it is not dropped.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010008",
+  "title": "Archer: Explosive Expedition",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Recover dynamite (explosives) from the Robgoblin Pondblasters near the small lake north of Hilforn (six). Drop-vs-defeat",
+  "count": 6,
+  "model_ids": [],
+  "fixer_note": "Needs enemy definition row for Robgoblin Pondblasters (model id not found in pack; builder should take the starting point from FreeRealms-Legacy Npcs.json Robgoblin Pondblaster definition, not verified here). The text says COLLECT explosives (drop), not a kill count: count 6 is from the text but a kill_actor_kind counts kills. If the server must count drops this is needs_server. Explosive item id unresolved: nine 'Volatile Explosive' definitions, none chosen.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010010",
+  "title": "Contract: All Around Win",
+  "objective": 0,
+  "part": 1,
+  "client_text": "As an archer, defeat Hooligan Delinquents that wander the wilderness, and some Unruly Bixies in the Bixie Hive. Return t",
+  "count": 1,
+  "model_ids": [
+   203
+  ],
+  "fixer_note": "No actor_kind_id and no verified model id exists for Unruly Bixies. Builder must create the enemy row (name from client text) and choose open-world vs Bixie Hive scope. Count 1 is (R): 'some' gives no number.",
+  "reference_definitions": [
+   {
+    "id": 1925,
+    "model": "human_m_hooligan_brawler_01.agr",
+    "name": "Heddy Heathcliff",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:683",
+      "position": [
+       -252.1792,
+       -25.81582,
+       -1155.707
+      ],
+      "heading": -3.01833
+     }
+    ]
+   },
+   {
+    "id": 3025,
+    "model": "human_m_hooligan_brawler_01.agr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1768",
+      "position": [
+       -2235.267,
+       -15.02902,
+       675.2252
+      ],
+      "heading": -2.847506
+     }
+    ]
+   },
+   {
+    "id": 3075,
+    "model": "human_m_hooligan_brawler_01.agr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1818",
+      "position": [
+       -816.8621,
+       -7.201702,
+       791.7089
+      ],
+      "heading": 2.017619
+     }
+    ]
+   },
+   {
+    "id": 3777,
+    "model": "human_m_hooligan_brawler_01.agr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2456",
+      "position": [
+       -2204.951,
+       -26.47937,
+       135.5402
+      ],
+      "heading": 1.224609
+     }
+    ]
+   },
+   {
+    "id": 4154,
+    "model": "human_m_hooligan_brawler_01.agr",
+    "name": "Hooligan",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2820",
+      "position": [
+       -1971.408,
+       -34.51335,
+       539.8358
+      ],
+      "heading": -0.782529
+     }
+    ]
+   },
+   {
+    "id": 4159,
+    "model": "human_m_hooligan_brawler_01.agr",
+    "name": "Hooligan",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2825",
+      "position": [
+       -1779.455,
+       -28.78084,
+       562.8329
+      ],
+      "heading": -1.315156
+     }
+    ]
+   },
+   {
+    "id": 4674,
+    "model": "human_m_hooligan_brawler_01.agr",
+    "name": "Hooligan",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3308",
+      "position": [
+       -2100.192,
+       -25.62606,
+       703.478
+      ],
+      "heading": 2.385957
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930060,
+    "name": "Hooligan",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3010011",
+  "title": "Archer: Pondblaster Payback",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Take out the remaining Robgoblin Pondblasters to the north of Hilforn.",
+  "count": 1,
+  "model_ids": [
+   4
+  ],
+  "fixer_note": "Model id 4 (from draft, not verified against Models.txt here). Builder must add an enemy row in data/content/enemies.json for Robgoblin Pondblaster (model 4). reference_npc_id candidates: none found in FreeRealms-Legacy or refs. Count 1 is a (R) choice: the text says 'the remaining' pondblasters with no number.",
+  "reference_definitions": [
+   {
+    "id": 1294,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:80",
+      "position": [
+       -524.9218,
+       1.09766,
+       620.9789
+      ],
+      "heading": 2.992548
+     }
+    ]
+   },
+   {
+    "id": 1474,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:241",
+      "position": [
+       -1723.147,
+       -30.28921,
+       838.4714
+      ],
+      "heading": -1.171042
+     }
+    ]
+   },
+   {
+    "id": 1475,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:242",
+      "position": [
+       -1723.753,
+       -30.0068,
+       835.9451
+      ],
+      "heading": -0.783139
+     }
+    ]
+   },
+   {
+    "id": 1527,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:294",
+      "position": [
+       -2108.675,
+       -32.35285,
+       1072.708
+      ],
+      "heading": 1.471879
+     }
+    ]
+   },
+   {
+    "id": 1827,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Grekel",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:587",
+      "position": [
+       -370.4939,
+       -24.76648,
+       -1231.484
+      ],
+      "heading": 0.430705
+     }
+    ]
+   },
+   {
+    "id": 1861,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:620",
+      "position": [
+       -394.886,
+       -45.47798,
+       -1290.876
+      ],
+      "heading": 3.134885
+     }
+    ]
+   },
+   {
+    "id": 1932,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:690",
+      "position": [
+       -270.0328,
+       -21.43401,
+       -1157.775
+      ],
+      "heading": -1.429826
+     }
+    ]
+   },
+   {
+    "id": 1939,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Wemo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:697",
+      "position": [
+       -577.1794,
+       -19.62035,
+       -1191.786
+      ],
+      "heading": -3.02921
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930065,
+    "name": "Robgoblin",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3010018",
+  "title": "Contract: Bowman for Hire",
+  "objective": 0,
+  "part": 0,
+  "client_text": "As an archer, defeat Thugawug Sneaks that wander the wilderness, and some Shadow Talon Apprentices in Danger Peaks. Retu",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Builder must create an enemy row for the wandering Thugawug Sneak (not the node battle), then set actor_kind_id. Count 1 is not in the text: count 1 (R).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010018",
+  "title": "Contract: Bowman for Hire",
+  "objective": 0,
+  "part": 1,
+  "client_text": "As an archer, defeat Thugawug Sneaks that wander the wilderness, and some Shadow Talon Apprentices in Danger Peaks. Retu",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Builder must create the Shadow Talon Apprentice enemy row (model 538). Count 1 (R).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010018",
+  "title": "Contract: Bowman for Hire",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Shadow Talon Apprentices",
+  "count": 1,
+  "model_ids": [
+   538
+  ],
+  "fixer_note": "Kept as its own kill step, as critique 1 asks, because the client does not show it is the same step as 388262 part 1. Same enemy row as index 0 part 1 (model 538, needs row). Count 1 (R). If the client shows it is a duplicate, drop this objective.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010025",
+  "title": "Contract: No Boundaries on Bounties",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat Vicious Vinewolves",
+  "count": 1,
+  "model_ids": [
+   142
+  ],
+  "fixer_note": "needs_enemy_row: create enemy row for model_id 142 (wolf_vinegolum.adr). reference_npc_id candidates: 2872 (unnamed, same model) or 3745 (unnamed); 2662 is 'Snapwolf Fungus' and does not match the target name. Count 1 is a default (R): text is plural with no number.",
+  "reference_definitions": [
+   {
+    "id": 2662,
+    "model": "wolf_vinegolum.adr",
+    "name": "Snapwolf Fungus",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1405",
+      "position": [
+       -498.7512,
+       -68.87695,
+       1969.578
+      ],
+      "heading": -2.573861
+     }
+    ]
+   },
+   {
+    "id": 2872,
+    "model": "wolf_vinegolum.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1615",
+      "position": [
+       -709.0309,
+       -49.96,
+       1759.59
+      ],
+      "heading": -2.657655
+     }
+    ]
+   },
+   {
+    "id": 3745,
+    "model": "wolf_vinegolum.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2424",
+      "position": [
+       -384.036,
+       -62.01795,
+       1853.991
+      ],
+      "heading": -0.261957
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010025",
+  "title": "Contract: No Boundaries on Bounties",
+  "objective": 2,
+  "part": 0,
+  "client_text": "Defeat Hedge Guardians",
+  "count": 1,
+  "model_ids": [
+   74
+  ],
+  "fixer_note": "needs_enemy_row: create enemy row for model_id 74 (treesoldier.adr). reference_npc_id: 2644 (Oakheart) as the starting point; no candidate's name matches 'Hedge Guardian'. The species is still unsettled per the pack. Count 1 is a default (R).",
+  "reference_definitions": [
+   {
+    "id": 2644,
+    "model": "treesoldier.adr",
+    "name": "Oakheart",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1387",
+      "position": [
+       -531.8245,
+       -69.41573,
+       2059.387
+      ],
+      "heading": -0.227283
+     }
+    ]
+   },
+   {
+    "id": 2827,
+    "model": "treesoldier.adr",
+    "name": "Old Corky",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1570",
+      "position": [
+       -404.0957,
+       -81.27648,
+       2501.699
+      ],
+      "heading": 3.074634
+     }
+    ]
+   },
+   {
+    "id": 2837,
+    "model": "treesoldier.adr",
+    "name": "Old Creaky",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1580",
+      "position": [
+       -250.1275,
+       -86.76542,
+       2199.453
+      ],
+      "heading": 1.838919
+     }
+    ]
+   },
+   {
+    "id": 2838,
+    "model": "treesoldier.adr",
+    "name": "Old Cranky",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1581",
+      "position": [
+       -239.3703,
+       -87.16264,
+       2195.35
+      ],
+      "heading": -1.175622
+     }
+    ]
+   },
+   {
+    "id": 4549,
+    "model": "treesoldier.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3185",
+      "position": [
+       -389.5006,
+       -52.8112,
+       2109.986
+      ],
+      "heading": -2.614456
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010028",
+  "title": "Archer: Remain Vigilant",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Orson would like for you to travel to the Croaking Vale in Briarwood and defeat the bosses of the smuggling operation.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Smuggler Han has no enemy definition row. Previous answer 930068 ('Smuggler Boss') is REJECTED: it is a generic Shady Smuggler-family row (model 669, shared with 930020) with no source tying it to Han; it is not bound here. Candidate model 669 is unverified for Han. Builder needs: an enemy row for Han, starting from the FreeRealms-Legacy Npcs.json definition named 'Smuggler Han' (model 669 candidate); reference_npc_id not recovered in this pass. Count 1 (R) from the two named bosses, one each.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010028",
+  "title": "Archer: Remain Vigilant",
+  "objective": 0,
+  "part": 1,
+  "client_text": "Orson would like for you to travel to the Croaking Vale in Briarwood and defeat the bosses of the smuggling operation.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "No enemy definition row for Hannah. Builder needs: enemy row built from FreeRealms-Legacy Npcs.json definition named 'Smuggler Hannah' (model 685 candidate); reference_npc_id not recovered. Count 1 (R).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010031",
+  "title": "Contract: That'll Teach 'Em",
+  "objective": 2,
+  "part": 0,
+  "client_text": "Defeat Trappers",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "No Trapper model_id recovered, so no actor_kind_id is chosen and no reference_npc_id candidate was identified. count 1 is a chosen value (R). Builder needs a client Models.txt model id for Trapper, then an enemy row.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3010033",
+  "title": "Archer: Can You Hit a Bullseye?",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Bullseye wants you to defeat him in one on one combat to prove that you are capable of being the new protector of the Sa",
+  "count": 1,
+  "model_ids": [
+   425
+  ],
+  "fixer_note": "Bullseye is a named NPC trainer, not a generic enemy. Model 425 is not usable as actor_kind_id. Builder must create or pick an enemy definition for Bullseye (model 425) and then set actor_kind_id. Reference NPC candidate: none found by name in FreeRealms-Legacy. Because the fight is a scripted one-on-one duel the server must judge the outcome, so the builder may need needs_server handling instead of plain kill_actor_kind. Item candidates 831 (Bullseye's Tempered Circle Shard) and 48321 (Bullseye's Blasting Bow) are rewards or loot, not the target, and are not used.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3020035",
+  "title": "Blacksmith: Crackin’ Skullz",
+  "objective": 3,
+  "part": 0,
+  "client_text": "Collect Tin Ore, Manguana Tribal Necklaces and defeat Skullz Brawlers. (combined summary line)",
+  "count": 1,
+  "model_ids": [
+   4011
+  ],
+  "fixer_note": "Needs enemy row for model 4011. reference_npc_id candidates: 3738, 3739, 3740, 3741, 3742, 3743, 3744 (no NameId) and 3965, 3966, 3967 (NameId 439217 = Skullz Thug). No candidate name matches 'Skullz Brawler' exactly; start from 3738 and confirm the name. Count 1 (R): text gives no number.",
+  "reference_definitions": [
+   {
+    "id": 3738,
+    "model": "dwarf_m_bikerthug_skullz.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2417",
+      "position": [
+       420.519,
+       71.59222,
+       1842.59
+      ],
+      "heading": 2.165628
+     }
+    ]
+   },
+   {
+    "id": 3739,
+    "model": "dwarf_m_bikerthug_skullz.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2418",
+      "position": [
+       421.9204,
+       71.76929,
+       1856.331
+      ],
+      "heading": -0.913256
+     }
+    ]
+   },
+   {
+    "id": 3740,
+    "model": "dwarf_m_bikerthug_skullz.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2419",
+      "position": [
+       410.5096,
+       71.82837,
+       1850.757
+      ],
+      "heading": 0.15971
+     }
+    ]
+   },
+   {
+    "id": 3741,
+    "model": "dwarf_m_bikerthug_skullz.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2420",
+      "position": [
+       414.5294,
+       71.83289,
+       1861.548
+      ],
+      "heading": 2.448386
+     }
+    ]
+   },
+   {
+    "id": 3742,
+    "model": "dwarf_m_bikerthug_skullz.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2421",
+      "position": [
+       417.8266,
+       71.81367,
+       1863.371
+      ],
+      "heading": -0.865608
+     }
+    ]
+   },
+   {
+    "id": 3743,
+    "model": "dwarf_m_bikerthug_skullz.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2422",
+      "position": [
+       414.7179,
+       71.82611,
+       1858.047
+      ],
+      "heading": 0.102345
+     }
+    ]
+   },
+   {
+    "id": 3744,
+    "model": "dwarf_m_bikerthug_skullz.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2423",
+      "position": [
+       405.1557,
+       71.84968,
+       1863.586
+      ],
+      "heading": 2.023217
+     }
+    ]
+   },
+   {
+    "id": 3965,
+    "model": "dwarf_m_bikerthug_skullz.adr",
+    "name": "Skullz Thug",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2632",
+      "position": [
+       497.5524,
+       3.552023,
+       2173.647
+      ],
+      "heading": 1.038882
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930040,
+    "name": "Zandro Rageracer",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3030010",
+  "title": "Brawler: Hewey's Escape!",
+  "objective": 2,
+  "part": 0,
+  "client_text": "Knock out Hewey the Bear!",
+  "count": 1,
+  "model_ids": [
+   91
+  ],
+  "fixer_note": "No enemy_actor_kinds row for Hewey was in the pack and none was found in repo search. Model id 91 is not an actor_kind_id. Builder must add the enemy row for model 91; reference_npc_id candidates were not supplied by the pack (needed: FreeRealms-Legacy Npcs.json row named 'Hewey the Bear' with model 91). Count 1 is a (R) choice: the text gives no number. Note the draft kind 'defeat' is not a server kind; this is kill_actor_kind.",
+  "reference_definitions": [
+   {
+    "id": 1237,
+    "model": "bear_normal.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:36",
+      "position": [
+       -599.5329,
+       0.3716653,
+       483.9016
+      ],
+      "heading": 0.775306
+     }
+    ]
+   },
+   {
+    "id": 1238,
+    "model": "bear_normal.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:37",
+      "position": [
+       -589.6648,
+       0.7836866,
+       465.2735
+      ],
+      "heading": -0.708548
+     }
+    ]
+   },
+   {
+    "id": 1297,
+    "model": "bear_normal.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:83",
+      "position": [
+       -610.649,
+       -0.8184795,
+       450.8794
+      ],
+      "heading": 3.074943
+     }
+    ]
+   },
+   {
+    "id": 3753,
+    "model": "bear_normal.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2432",
+      "position": [
+       -442.0626,
+       0.09175166,
+       336.8437
+      ],
+      "heading": -2.310634
+     }
+    ]
+   },
+   {
+    "id": 4075,
+    "model": "bear_normal.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2741",
+      "position": [
+       -601.0883,
+       6.211188,
+       449.9224
+      ],
+      "heading": -0.47689
+     }
+    ]
+   },
+   {
+    "id": 4077,
+    "model": "bear_normal.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2743",
+      "position": [
+       -587.8975,
+       10.96802,
+       466.8262
+      ],
+      "heading": 0.958399
+     }
+    ]
+   },
+   {
+    "id": 4297,
+    "model": "bear_normal.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2963",
+      "position": [
+       56.70023,
+       24.74841,
+       -451.1254
+      ],
+      "heading": 2.922621
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930051,
+    "name": "Bear",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3030012",
+  "title": "Brawler: Growler Encroachment",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat a few Frostfang Growlers (intro wording; no count in client)",
+  "count": 3,
+  "model_ids": [],
+  "fixer_note": "needs_enemy_row. Model id 3284 (wolf_generic.adr). reference_npc_id candidates: 3096 (name Alpha Wolf, the nearest name match), 1377, 2529. Count 3 is chosen for 'a few' (R). Frostfang Caverns POI 59 at [92.8, 66.3, 554.9] is the lair, not the fields, so it is not used as reach_poi. Do not use the generic actor_kind 930071 or 3156 without a design decision.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3030038",
+  "title": "Brawler: Confronting the Crook",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Sampson Idlefist in battle!",
+  "count": 1,
+  "model_ids": [
+   836
+  ],
+  "fixer_note": "needs_enemy_row. Model id 836. reference_npc_id candidates sharing the Sampson name: 9500000530 (Sanctuary, repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:52097; preferred, it is this quest's talk NPC) and 9500000767 (Snowhill, repo:prototype/osfr-tools/data/content/npcs/snowhill.json:33126). Builder should create an enemy row from one of these, then use its actor_kind_id. Location: 72816 says confront him outside of Snowhill.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3030040",
+  "title": "Brawler: Fight for Your Right",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Now that you know the rules of Brawler Club, you will need to prove you can fight before Rourke will let you join. Defea",
+  "count": 5,
+  "model_ids": [
+   77
+  ],
+  "fixer_note": "No enemy definition for Troll Roughguard exists in data/content/enemies, so actor_kind_id stays null. Builder should add a Troll Roughguard enemy row (model 77, troll_forest.adr, name locale 36237), using reference_npc_id 3115 or 3135 (unnamed, model 77) as the starting point after inspecting them; do not ship 930070. Count 5 is sourced from the video tracker (0/5), not from client text.",
+  "reference_definitions": [
+   {
+    "id": 3115,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1858",
+      "position": [
+       -469.5099,
+       1.134247,
+       1221.431
+      ],
+      "heading": 2.655006
+     }
+    ]
+   },
+   {
+    "id": 3129,
+    "model": "troll_forest.adr",
+    "name": "Chugogo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1872",
+      "position": [
+       -574.4438,
+       1.062607,
+       1303.118
+      ],
+      "heading": -0.422095
+     }
+    ]
+   },
+   {
+    "id": 3135,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1878",
+      "position": [
+       -500.4824,
+       1.019878,
+       1302.095
+      ],
+      "heading": -2.142427
+     }
+    ]
+   },
+   {
+    "id": 3139,
+    "model": "troll_forest.adr",
+    "name": "Bluz",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1882",
+      "position": [
+       -455.5248,
+       1.283616,
+       1308.167
+      ],
+      "heading": 0.804633
+     }
+    ]
+   },
+   {
+    "id": 3142,
+    "model": "troll_forest.adr",
+    "name": "Laggosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1885",
+      "position": [
+       -425.95,
+       0.3919204,
+       1320.979
+      ],
+      "heading": -3.093163
+     }
+    ]
+   },
+   {
+    "id": 3145,
+    "model": "troll_forest.adr",
+    "name": "Vergosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1888",
+      "position": [
+       -434.4243,
+       0.5734655,
+       1316.552
+      ],
+      "heading": -2.665835
+     }
+    ]
+   },
+   {
+    "id": 3148,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1891",
+      "position": [
+       -376.5034,
+       3.259202,
+       1245.693
+      ],
+      "heading": -0.890737
+     }
+    ]
+   },
+   {
+    "id": 3153,
+    "model": "troll_forest.adr",
+    "name": "Troll Guard",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1896",
+      "position": [
+       -182.4589,
+       3.173702,
+       1135.552
+      ],
+      "heading": -1.6047
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930070,
+    "name": "Troll",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3060010",
+  "title": "Demo Derby: Spare Parts",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Knock out Willow Slamdash 2 times",
+  "count": 2,
+  "model_ids": [
+   1297
+  ],
+  "fixer_note": "needs_enemy_row. Model id 1296. reference_npc_id candidate 3066 (name matches: Willow Slamdash). The builder should create an enemy definition from that NPC definition, then set actor_kind_id. Count 2 is from the text. Caveats: 395062 sits in the 'Wildwood Demo Derby Base [Encounter]' group (locale 395056-395067), so its link to this quest is unverified; and a derby knock-out may need server judgement (needs_server) instead of a plain kill.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3060015",
+  "title": "Demo Derby: Arena Revenge",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Knock out Nash Wright",
+  "count": 1,
+  "model_ids": [
+   1326
+  ],
+  "fixer_note": "Draft kind 'defeat' is not a server kind; it is kill_actor_kind. No enemy_actor_kinds row was supplied for model 1326 and no Npcs.json reference_npc_id candidate was checked. Builder needs a row for Nash Wright's car model 1326 (reference_npc_id: not found in this pass).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3060015",
+  "title": "Demo Derby: Arena Revenge",
+  "objective": 2,
+  "part": 0,
+  "client_text": "Knock out Samuel L. Bunker",
+  "count": 1,
+  "model_ids": [
+   1331
+  ],
+  "fixer_note": "Same gap as index 1: no enemy definition id for model 1331 in the pack; reference_npc_id not checked.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3060023",
+  "title": "Demo Derby: Taking on the Tank",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat Claudio DeMarco and his trouble-causing minions in a Frost Ridge demo derby!",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Builder must create an enemy definition for model 1320 with reference_npc_id 2327, then set actor_kind_id. Count 1 is from the text ('Claudio' singular target).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3060023",
+  "title": "Demo Derby: Taking on the Tank",
+  "objective": 0,
+  "part": 1,
+  "client_text": "Defeat Claudio DeMarco and his trouble-causing minions in a Frost Ridge demo derby!",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "(R) count 1 is a chosen default; the minion count is unknown. Model 906 (sg_derby_car_01.adr, a generic derby car body) is NOT confirmed as a minion and is not used. Builder must find the minion enemy definition and count.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3060029",
+  "title": "Demo Derby: Not One, But a Few",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Prove you're the right one for the mysterious job by knocking out a few karts in the Wildwood arena!",
+  "count": 3,
+  "model_ids": [],
+  "fixer_note": "Needs an enemy definition row for the arena kart enemy before kill_actor_kind can be set. Model 906 is unverified (low confidence) and no reference_npc_id was found for it in the refs. The builder should create the enemy row for the Wildwood arena kart model (confirm the model in Models.txt) and then set actor_kind_id. Count 3 is a choice for 'a few' (R). Do not use the POI or minigame here. The 'Wildwood arena' is the target location; a reach_poi on POI 31 is not the objective.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3060030",
+  "title": "Demo Derby: Stunt Double",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Jace Whildwheel wants to see what you can do in the arena. Knock out a bunch of cars for him.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Needs an enemy definition row for derby car model 906 before a kill_actor_kind can be set. The pack gives no reference_npc_id candidates for model 906, so the builder has no starting point yet. count 1 is a placeholder (R): the text says 'a bunch' with no number. Alternative if no enemy row can be made: finish_minigame on Wildwood Demo Derby (minigame_id 39, 566, 568 or 570; the pack does not say which is the arena one), or reach_poi 31 (Wildwood Speedway). Choosing among these is a design decision.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3060035",
+  "title": "Demo Derby: Sir Horace the Horrible",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Head into the Wildwood arena and remove Sir Horace!",
+  "count": 1,
+  "model_ids": [
+   1308
+  ],
+  "fixer_note": "Needs an enemy row (data/content/enemies) for Sir Horace's kart model 1308 before actor_kind_id can be set. The builder's starting point is NPC row 9500000944 (name matches). No Legacy reference_npc_id sharing model 1308 was found.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3060035",
+  "title": "Demo Derby: Sir Horace the Horrible",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Knock out Sir Horace 3 times",
+  "count": 3,
+  "model_ids": [
+   1308
+  ],
+  "fixer_note": "Same blocker as index 0: needs the enemy row for model 1308. Count 3 is from the text, not chosen.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3090007",
+  "title": "Contract: Local Problems",
+  "objective": 0,
+  "part": 0,
+  "client_text": "As a Medic, defeat bixies near Queensfield and Robgoblin Pondblasters near Stillwater Crossing!",
+  "count": 1,
+  "model_ids": [
+   4
+  ],
+  "fixer_note": "Target row not settled. 'Bixies' does not name a single enemy row. 930053 (Bixie Soldier) and 930052 (Battlemage) are candidates only, so actor_kind_id is left null. Count 1 is chosen (R), since the text gives no number. Zone Queensfield is not tied to a verified spawn; the NPC notes place Queensfields as the bixie area, but no spawn is cited. Builder must pick the row and placement.",
+  "reference_definitions": [
+   {
+    "id": 1294,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:80",
+      "position": [
+       -524.9218,
+       1.09766,
+       620.9789
+      ],
+      "heading": 2.992548
+     }
+    ]
+   },
+   {
+    "id": 1474,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:241",
+      "position": [
+       -1723.147,
+       -30.28921,
+       838.4714
+      ],
+      "heading": -1.171042
+     }
+    ]
+   },
+   {
+    "id": 1475,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:242",
+      "position": [
+       -1723.753,
+       -30.0068,
+       835.9451
+      ],
+      "heading": -0.783139
+     }
+    ]
+   },
+   {
+    "id": 1527,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:294",
+      "position": [
+       -2108.675,
+       -32.35285,
+       1072.708
+      ],
+      "heading": 1.471879
+     }
+    ]
+   },
+   {
+    "id": 1827,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Grekel",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:587",
+      "position": [
+       -370.4939,
+       -24.76648,
+       -1231.484
+      ],
+      "heading": 0.430705
+     }
+    ]
+   },
+   {
+    "id": 1861,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:620",
+      "position": [
+       -394.886,
+       -45.47798,
+       -1290.876
+      ],
+      "heading": 3.134885
+     }
+    ]
+   },
+   {
+    "id": 1932,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:690",
+      "position": [
+       -270.0328,
+       -21.43401,
+       -1157.775
+      ],
+      "heading": -1.429826
+     }
+    ]
+   },
+   {
+    "id": 1939,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Wemo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:697",
+      "position": [
+       -577.1794,
+       -19.62035,
+       -1191.786
+      ],
+      "heading": -3.02921
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930065,
+    "name": "Robgoblin",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3090007",
+  "title": "Contract: Local Problems",
+  "objective": 0,
+  "part": 1,
+  "client_text": "As a Medic, defeat bixies near Queensfield and Robgoblin Pondblasters near Stillwater Crossing!",
+  "count": 1,
+  "model_ids": [
+   4
+  ],
+  "fixer_note": "No Pondblaster enemy row exists in the data. Create one. Model id 4 (robgoblin_m_basic.adr). Starting point reference_npc_id 1294 (no name match; the builder picks the row). Robgoblin row 930065 is generic and not used. Count 1 is chosen (R). Stillwater Crossing spawn is not verified; the Stillwater notes place Pondblasters east of Seth McGrobie's camp, which is not cited as a spawn.",
+  "reference_definitions": [
+   {
+    "id": 1294,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:80",
+      "position": [
+       -524.9218,
+       1.09766,
+       620.9789
+      ],
+      "heading": 2.992548
+     }
+    ]
+   },
+   {
+    "id": 1474,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:241",
+      "position": [
+       -1723.147,
+       -30.28921,
+       838.4714
+      ],
+      "heading": -1.171042
+     }
+    ]
+   },
+   {
+    "id": 1475,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:242",
+      "position": [
+       -1723.753,
+       -30.0068,
+       835.9451
+      ],
+      "heading": -0.783139
+     }
+    ]
+   },
+   {
+    "id": 1527,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:294",
+      "position": [
+       -2108.675,
+       -32.35285,
+       1072.708
+      ],
+      "heading": 1.471879
+     }
+    ]
+   },
+   {
+    "id": 1827,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Grekel",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:587",
+      "position": [
+       -370.4939,
+       -24.76648,
+       -1231.484
+      ],
+      "heading": 0.430705
+     }
+    ]
+   },
+   {
+    "id": 1861,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:620",
+      "position": [
+       -394.886,
+       -45.47798,
+       -1290.876
+      ],
+      "heading": 3.134885
+     }
+    ]
+   },
+   {
+    "id": 1932,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:690",
+      "position": [
+       -270.0328,
+       -21.43401,
+       -1157.775
+      ],
+      "heading": -1.429826
+     }
+    ]
+   },
+   {
+    "id": 1939,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Wemo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:697",
+      "position": [
+       -577.1794,
+       -19.62035,
+       -1191.786
+      ],
+      "heading": -3.02921
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930065,
+    "name": "Robgoblin",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3090007",
+  "title": "Contract: Local Problems",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Bixie Warriors",
+  "count": 1,
+  "model_ids": [
+   220
+  ],
+  "fixer_note": "No 'Bixie Warrior' row exists. 930053 (model 220) matches only by model guess and is not used. Probable duplicate of index 0 part 0 (same Bixie target); kept separate because the client gives it as its own objective line. Builder decides merge. Count 1 is chosen (R).",
+  "reference_definitions": [],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930053,
+    "name": "Bixie Soldier",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3090022",
+  "title": "Contract: Forgotten Favor",
+  "objective": 0,
+  "part": 0,
+  "client_text": "As a Medic, defeat the changelings in the Forgotten Caves!",
+  "count": 5,
+  "model_ids": [],
+  "fixer_note": "Blocked: no enemy definition row exists for the Forgotten Caves changelings. Do not use 930002. Candidate kinds to add as new enemy rows are Changeling Marauder (locale:15996), Changeling Berserker (locale:15997) and Changeling Arcanus (locale:24736). The model ids for them and their reference_npc_id are not verified. Count 5 is a chosen value (R): the text says 'numerous' with no number. If the builder splits the target into three kinds, each part needs its own count, which the text does not give.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3110002",
+  "title": "Ninja: Stolen Away",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat the Troll Summoner",
+  "count": 1,
+  "model_ids": [
+   77
+  ],
+  "fixer_note": "Needs an enemy row for definition 930096 (model 168, name 'Troll Summoner') before kill_actor_kind can be filled. actor_kind_id left null rather than using 930070 (model 77). Reference NPC candidate for the builder: reference_npc_id 33457 (Sanctuary-main Npcs.json, name matches). Count 1 from the objective's singular 'Defeat the Troll Summoner' and the draft; field_battles lists a single summoner spawner.",
+  "reference_definitions": [
+   {
+    "id": 3115,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1858",
+      "position": [
+       -469.5099,
+       1.134247,
+       1221.431
+      ],
+      "heading": 2.655006
+     }
+    ]
+   },
+   {
+    "id": 3129,
+    "model": "troll_forest.adr",
+    "name": "Chugogo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1872",
+      "position": [
+       -574.4438,
+       1.062607,
+       1303.118
+      ],
+      "heading": -0.422095
+     }
+    ]
+   },
+   {
+    "id": 3135,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1878",
+      "position": [
+       -500.4824,
+       1.019878,
+       1302.095
+      ],
+      "heading": -2.142427
+     }
+    ]
+   },
+   {
+    "id": 3139,
+    "model": "troll_forest.adr",
+    "name": "Bluz",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1882",
+      "position": [
+       -455.5248,
+       1.283616,
+       1308.167
+      ],
+      "heading": 0.804633
+     }
+    ]
+   },
+   {
+    "id": 3142,
+    "model": "troll_forest.adr",
+    "name": "Laggosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1885",
+      "position": [
+       -425.95,
+       0.3919204,
+       1320.979
+      ],
+      "heading": -3.093163
+     }
+    ]
+   },
+   {
+    "id": 3145,
+    "model": "troll_forest.adr",
+    "name": "Vergosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1888",
+      "position": [
+       -434.4243,
+       0.5734655,
+       1316.552
+      ],
+      "heading": -2.665835
+     }
+    ]
+   },
+   {
+    "id": 3148,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1891",
+      "position": [
+       -376.5034,
+       3.259202,
+       1245.693
+      ],
+      "heading": -0.890737
+     }
+    ]
+   },
+   {
+    "id": 3153,
+    "model": "troll_forest.adr",
+    "name": "Troll Guard",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1896",
+      "position": [
+       -182.4589,
+       3.173702,
+       1135.552
+      ],
+      "heading": -1.6047
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930070,
+    "name": "Troll",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3110010",
+  "title": "Ninja: That's the Spirit",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Chloe has directed you to hone your skills on the tormented spirits wandering Blackspore.",
+  "count": 1,
+  "model_ids": [
+   10
+  ],
+  "fixer_note": "count 1 is (R): a chosen value; no client text gives a defeat count. actor_kind_id 930044 is a reconstructed local id (w58b_tormented_spirit), so it cannot be settled until a retail enemy id is confirmed or a server-side enemy row is accepted by the builder. Spawn/zone for Tormented Spirits in Blackspore is not verified; the Npcs.json rows at FreeRealms-Legacy lines 2146-2234 are candidates but their zones were not checked. Model 10 is not used as the actor_kind_id.",
+  "reference_definitions": [
+   {
+    "id": 1495,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:262",
+      "position": [
+       -2602.795,
+       -5.901349,
+       1033.888
+      ],
+      "heading": -0.613554
+     }
+    ]
+   },
+   {
+    "id": 1496,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:263",
+      "position": [
+       -2596.219,
+       -6.335258,
+       1016.656
+      ],
+      "heading": 3.073844
+     }
+    ]
+   },
+   {
+    "id": 1497,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:264",
+      "position": [
+       -2608.003,
+       -5.209119,
+       1012.16
+      ],
+      "heading": -2.085425
+     }
+    ]
+   },
+   {
+    "id": 1498,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:265",
+      "position": [
+       -2595.438,
+       -6.758137,
+       999.7724
+      ],
+      "heading": 0.628118
+     }
+    ]
+   },
+   {
+    "id": 1499,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:266",
+      "position": [
+       -2593.598,
+       -7.084825,
+       1008.158
+      ],
+      "heading": 0.602808
+     }
+    ]
+   },
+   {
+    "id": 1500,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:267",
+      "position": [
+       -2566.975,
+       -11.21213,
+       1022.469
+      ],
+      "heading": 0.203895
+     }
+    ]
+   },
+   {
+    "id": 1501,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:268",
+      "position": [
+       -2556.717,
+       -11.5356,
+       996.369
+      ],
+      "heading": -0.372997
+     }
+    ]
+   },
+   {
+    "id": 1502,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:269",
+      "position": [
+       -2570.158,
+       -10.79445,
+       977.9017
+      ],
+      "heading": 0.400443
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930032,
+    "name": "Ghost Dwarf",
+    "file": "enemies.json"
+   },
+   {
+    "actor_kind_id": 930033,
+    "name": "Ghost Miner",
+    "file": "enemies.json"
+   },
+   {
+    "actor_kind_id": 930034,
+    "name": "Shambler Miner",
+    "file": "enemies.json"
+   },
+   {
+    "actor_kind_id": 930044,
+    "name": "Tormented Spirit",
+    "file": "enemies.json"
+   },
+   {
+    "actor_kind_id": 930049,
+    "name": "Bergram Stumpfinger",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3110014",
+  "title": "Contract: Sharp Claws and Sharper Swords",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Fleetfoot Ninjas",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "needs_enemy_row: actor_kind_id left blank. Model id not verified (candidate 240 unconfirmed). reference_npc_id candidates: none verified in the pack; the builder should check FreeRealms-Legacy Npcs.json for a 'Fleetfoot Ninja' row before creating the enemy row. Count 1 (R) because the text gives no number.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3110015",
+  "title": "Ninja: Shadows in the Snow",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Ty has directed you to defeat Tavil, in the Deep Mines of Snowhill.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "No enemy_actor_kinds row and no model id for Tavil; the pack's DeepSeek candidate was rejected and I found no binding either. Do not reuse a generic Shadow Talon body. Builder needs: the Tavil model id (from the Deep Mines spawn data or a client Models.txt lookup) and then a new enemy row (or a reference_npc_id from FreeRealms-Legacy Npcs.json named Tavil). Count 1 is from the text ('defeat Tavil'), not chosen.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3110025",
+  "title": "Contract: Spirits and Spider Trainers",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Spider Trainers in Grexan's Camp.",
+  "count": 1,
+  "model_ids": [
+   77
+  ],
+  "fixer_note": "Needs a dedicated enemy row for 'Troll Spider Trainer'. Model 77 (troll_forest.adr). Starting point: reference_npc_id 3115 (unnamed, model 77) as the closest unnamed row; none of the named model-77 references matches the target name. Do not use 930070 as the final actor: it is shared with other troll content. Until the row exists, 930070 is a placeholder only.",
+  "reference_definitions": [
+   {
+    "id": 3115,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1858",
+      "position": [
+       -469.5099,
+       1.134247,
+       1221.431
+      ],
+      "heading": 2.655006
+     }
+    ]
+   },
+   {
+    "id": 3129,
+    "model": "troll_forest.adr",
+    "name": "Chugogo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1872",
+      "position": [
+       -574.4438,
+       1.062607,
+       1303.118
+      ],
+      "heading": -0.422095
+     }
+    ]
+   },
+   {
+    "id": 3135,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1878",
+      "position": [
+       -500.4824,
+       1.019878,
+       1302.095
+      ],
+      "heading": -2.142427
+     }
+    ]
+   },
+   {
+    "id": 3139,
+    "model": "troll_forest.adr",
+    "name": "Bluz",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1882",
+      "position": [
+       -455.5248,
+       1.283616,
+       1308.167
+      ],
+      "heading": 0.804633
+     }
+    ]
+   },
+   {
+    "id": 3142,
+    "model": "troll_forest.adr",
+    "name": "Laggosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1885",
+      "position": [
+       -425.95,
+       0.3919204,
+       1320.979
+      ],
+      "heading": -3.093163
+     }
+    ]
+   },
+   {
+    "id": 3145,
+    "model": "troll_forest.adr",
+    "name": "Vergosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1888",
+      "position": [
+       -434.4243,
+       0.5734655,
+       1316.552
+      ],
+      "heading": -2.665835
+     }
+    ]
+   },
+   {
+    "id": 3148,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1891",
+      "position": [
+       -376.5034,
+       3.259202,
+       1245.693
+      ],
+      "heading": -0.890737
+     }
+    ]
+   },
+   {
+    "id": 3153,
+    "model": "troll_forest.adr",
+    "name": "Troll Guard",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1896",
+      "position": [
+       -182.4589,
+       3.173702,
+       1135.552
+      ],
+      "heading": -1.6047
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930070,
+    "name": "Troll",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3110025",
+  "title": "Contract: Spirits and Spider Trainers",
+  "objective": 2,
+  "part": 0,
+  "client_text": "Defeat Troll Naturalists in Grexan's Camp.",
+  "count": 1,
+  "model_ids": [
+   77
+  ],
+  "fixer_note": "count 1 (R): no count in text. Needs a dedicated enemy row for 'Troll Naturalist' (model 77). Starting point: reference_npc_id 3135 (unnamed, model 77), with 3115 as the alternative; no named model-77 reference matches. Do not treat 930070 as settled.",
+  "reference_definitions": [
+   {
+    "id": 3115,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1858",
+      "position": [
+       -469.5099,
+       1.134247,
+       1221.431
+      ],
+      "heading": 2.655006
+     }
+    ]
+   },
+   {
+    "id": 3129,
+    "model": "troll_forest.adr",
+    "name": "Chugogo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1872",
+      "position": [
+       -574.4438,
+       1.062607,
+       1303.118
+      ],
+      "heading": -0.422095
+     }
+    ]
+   },
+   {
+    "id": 3135,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1878",
+      "position": [
+       -500.4824,
+       1.019878,
+       1302.095
+      ],
+      "heading": -2.142427
+     }
+    ]
+   },
+   {
+    "id": 3139,
+    "model": "troll_forest.adr",
+    "name": "Bluz",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1882",
+      "position": [
+       -455.5248,
+       1.283616,
+       1308.167
+      ],
+      "heading": 0.804633
+     }
+    ]
+   },
+   {
+    "id": 3142,
+    "model": "troll_forest.adr",
+    "name": "Laggosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1885",
+      "position": [
+       -425.95,
+       0.3919204,
+       1320.979
+      ],
+      "heading": -3.093163
+     }
+    ]
+   },
+   {
+    "id": 3145,
+    "model": "troll_forest.adr",
+    "name": "Vergosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1888",
+      "position": [
+       -434.4243,
+       0.5734655,
+       1316.552
+      ],
+      "heading": -2.665835
+     }
+    ]
+   },
+   {
+    "id": 3148,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1891",
+      "position": [
+       -376.5034,
+       3.259202,
+       1245.693
+      ],
+      "heading": -0.890737
+     }
+    ]
+   },
+   {
+    "id": 3153,
+    "model": "troll_forest.adr",
+    "name": "Troll Guard",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1896",
+      "position": [
+       -182.4589,
+       3.173702,
+       1135.552
+      ],
+      "heading": -1.6047
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930070,
+    "name": "Troll",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3150002",
+  "title": "Warrior: Warrior Warm-up",
+  "objective": 0,
+  "part": 0,
+  "client_text": "As a Warrior, defeat the Frostfang Snarlers wandering the mountains south-east of Snowhill. (PROVISIONAL: not linked to ",
+  "count": 1,
+  "model_ids": [
+   1938
+  ],
+  "fixer_note": "Draft kind 'defeat' is not a server kind; the server kind is kill_actor_kind. actor_kind_id cannot be set: no enemy row exists. Builder should create an enemy definition from reference_npc_id 3592 (model 1938, sg_spawner_wolf_01.adr, name Frostfang Snarler, FreeRealms-Legacy Npcs.json), then use that id here. Count: text says plural 'Snarlers' with no number; count 1 is a placeholder (R), not a text count. Use the real count once the source is checked (the wiki says 'all Snarlers'). The text is not tagged to this quest in the client (pack quest_lines), so it may belong to a different quest's flow.",
+  "reference_definitions": [
+   {
+    "id": 3592,
+    "model": "sg_spawner_wolf_01.adr",
+    "name": "Frostfang Snarler",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2335",
+      "position": [
+       458.109,
+       42.04036,
+       447.6769
+      ],
+      "heading": -1.24983
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3150012",
+  "title": "Warrior: Knocking Some Sense In",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Defeat some of the thugawugs, so Aster can get through. She's promised to deliver the shipment of weapons to Snowhill if",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Target 'Thugawug Sneak' (the plural form in 71264). Needs an enemy row. Model candidates: 199 -> reference_npc_id 4115 ('Thugawug Thug!', name closest to the target among the candidates); 200 -> reference_npc_id 3491 ('Thugawug Stomper'). Neither reference name matches 'Sneak' exactly, so the per-variant mapping is unproven. Count 1 (R): the text says 'some'.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3150012",
+  "title": "Warrior: Knocking Some Sense In",
+  "objective": 0,
+  "part": 1,
+  "client_text": "Defeat some of the thugawugs, so Aster can get through. She's promised to deliver the shipment of weapons to Snowhill if",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Target 'Thugawug Bumbler'. No enemy row or Npcs.json NameId row found for Bumbler. Same model candidates as part 0 (199 -> reference 4115; 200 -> reference 3491) but neither is confirmed as the Bumbler body. Count 1 (R).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3150020",
+  "title": "Warrior: Steele is Useful",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Collect all the pieces of Fastvi's broken weapon and defeat Chillblaine in Frostfang Caverns (described step, taken from",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "No actor_kind_id exists for Chillblaine in the repo, so this is not settled. Model id candidate 177 (low confidence, evil wolf body). reference_npc_id candidates: none supplied in the pack and no exact FreeRealms-Legacy match found in our data; the builder should check FreeRealms-Legacy Npcs.json for a wolf boss with name Chillblaine and create the enemy row. Do not use model 177 without that check. Alternative if the server runs the boss as a dungeon encounter: complete_dungeon with the Frostfang encounter_id, which was not found.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3150023",
+  "title": "Contract: Defending Snowhill",
+  "objective": 0,
+  "part": 2,
+  "client_text": "Caleb needs all able-bodied warriors to help defend the recruit camp in Snowhill from ice trolls, yetis, and snowmen.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Enemy row needed for model 140 (snowman). reference_npc_id candidate: 33599 ('Toppled Snowman'), but its name suggests a decoration, so combat behaviour is unconfirmed; the builder must confirm before creating the row. Count 1 is chosen (R). Do not substitute Abominable Snowman or the Snowmen on the Loose minigame (216).",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3160006",
+  "title": "Wizard: Lightning Bolt!",
+  "objective": 0,
+  "part": 0,
+  "client_text": "As a wizard, defeat a Robgoblin Initiate band in the wilds near the Robgoblin Camp!",
+  "count": 1,
+  "model_ids": [
+   4
+  ],
+  "fixer_note": "needs_enemy_row. Model id 4. reference_npc_id candidates (FreeRealms-Legacy Npcs.json, model 4): 1294, 1474, 1475, 1527, 1827 (named Grekel). None is named Robgoblin Initiate; builder should pick one as the starting point for a new 'Robgoblin Initiate' enemy row. Provisional existing row: actor_kind_id 930065 'Robgoblin' (model 4), a generic Robgoblin also used by other content, so it is not confirmed as the Initiate. Count 1 (R): the text says 'a band' and gives no number. Quest link of 103218 to this quest is by wording and title only (also cited for quest 16 in repo notes Wizard.md:101).",
+  "reference_definitions": [
+   {
+    "id": 1294,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:80",
+      "position": [
+       -524.9218,
+       1.09766,
+       620.9789
+      ],
+      "heading": 2.992548
+     }
+    ]
+   },
+   {
+    "id": 1474,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:241",
+      "position": [
+       -1723.147,
+       -30.28921,
+       838.4714
+      ],
+      "heading": -1.171042
+     }
+    ]
+   },
+   {
+    "id": 1475,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:242",
+      "position": [
+       -1723.753,
+       -30.0068,
+       835.9451
+      ],
+      "heading": -0.783139
+     }
+    ]
+   },
+   {
+    "id": 1527,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:294",
+      "position": [
+       -2108.675,
+       -32.35285,
+       1072.708
+      ],
+      "heading": 1.471879
+     }
+    ]
+   },
+   {
+    "id": 1827,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Grekel",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:587",
+      "position": [
+       -370.4939,
+       -24.76648,
+       -1231.484
+      ],
+      "heading": 0.430705
+     }
+    ]
+   },
+   {
+    "id": 1861,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:620",
+      "position": [
+       -394.886,
+       -45.47798,
+       -1290.876
+      ],
+      "heading": 3.134885
+     }
+    ]
+   },
+   {
+    "id": 1932,
+    "model": "robgoblin_m_basic.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:690",
+      "position": [
+       -270.0328,
+       -21.43401,
+       -1157.775
+      ],
+      "heading": -1.429826
+     }
+    ]
+   },
+   {
+    "id": 1939,
+    "model": "robgoblin_m_basic.adr",
+    "name": "Wemo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:697",
+      "position": [
+       -577.1794,
+       -19.62035,
+       -1191.786
+      ],
+      "heading": -3.02921
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930065,
+    "name": "Robgoblin",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3160011",
+  "title": "Contract: Troll Magic",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Troll Summoners (same intro text).",
+  "count": 1,
+  "model_ids": [
+   77
+  ],
+  "fixer_note": "No actor_kind_id: no row in data/content/enemies is named Troll Summoner. Model id 168 (troll_shaman.adr). Reference NPC rows sharing model 168 (FreeRealms-Legacy Npcs.json): 1653 Grandpa Snarfs, 3097 Voggun, 3133 Chugamug, 3146 Gozunga, 3149 Troll Bone Shaman. None is named Troll Summoner; the builder must add a new enemy row, choosing the base row. Kill id 930096 is a field-battle actor, not an enemies row, so do not use it unless the builder confirms. Count 1 is a placeholder (R). The draft model 77 was wrong.",
+  "reference_definitions": [
+   {
+    "id": 3115,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1858",
+      "position": [
+       -469.5099,
+       1.134247,
+       1221.431
+      ],
+      "heading": 2.655006
+     }
+    ]
+   },
+   {
+    "id": 3129,
+    "model": "troll_forest.adr",
+    "name": "Chugogo",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1872",
+      "position": [
+       -574.4438,
+       1.062607,
+       1303.118
+      ],
+      "heading": -0.422095
+     }
+    ]
+   },
+   {
+    "id": 3135,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1878",
+      "position": [
+       -500.4824,
+       1.019878,
+       1302.095
+      ],
+      "heading": -2.142427
+     }
+    ]
+   },
+   {
+    "id": 3139,
+    "model": "troll_forest.adr",
+    "name": "Bluz",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1882",
+      "position": [
+       -455.5248,
+       1.283616,
+       1308.167
+      ],
+      "heading": 0.804633
+     }
+    ]
+   },
+   {
+    "id": 3142,
+    "model": "troll_forest.adr",
+    "name": "Laggosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1885",
+      "position": [
+       -425.95,
+       0.3919204,
+       1320.979
+      ],
+      "heading": -3.093163
+     }
+    ]
+   },
+   {
+    "id": 3145,
+    "model": "troll_forest.adr",
+    "name": "Vergosh",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1888",
+      "position": [
+       -434.4243,
+       0.5734655,
+       1316.552
+      ],
+      "heading": -2.665835
+     }
+    ]
+   },
+   {
+    "id": 3148,
+    "model": "troll_forest.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1891",
+      "position": [
+       -376.5034,
+       3.259202,
+       1245.693
+      ],
+      "heading": -0.890737
+     }
+    ]
+   },
+   {
+    "id": 3153,
+    "model": "troll_forest.adr",
+    "name": "Troll Guard",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1896",
+      "position": [
+       -182.4589,
+       3.173702,
+       1135.552
+      ],
+      "heading": -1.6047
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930070,
+    "name": "Troll",
+    "file": "enemies.json"
+   }
+  ]
+ },
+ {
+  "quest": "q3160014",
+  "title": "Wizard: Feeding the Storyteller",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Get some mushroom soup from Chef Jarvie in Merry Vale.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Count 1 from 'him' (R). Mushroom Gigas 930063 is not the adept. Builder must create the enemy row; model id and reference_npc_id not found in available data. Other adept lines (20862, 116708, 41955) belong to other quests, so the link is by the mushroom text only.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3160018",
+  "title": "Contract: Robgoblin Magic",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Natali wants a wizard to defeat opponents in the Deep Mines and Bat Cave at Snowhill.",
+  "count": 3,
+  "model_ids": [],
+  "fixer_note": "No enemy definition id exists in our data. Count 3 (R) from the guide's 'Three of them'; the offer says only 'some'. Do not use model ids 28/29.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3160018",
+  "title": "Contract: Robgoblin Magic",
+  "objective": 0,
+  "part": 1,
+  "client_text": "Natali wants a wizard to defeat opponents in the Deep Mines and Bat Cave at Snowhill.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Needs an enemy row for Swarming Shrieker. Count 1 (R): the text says 'some'. No reference_npc_id candidate was verified in the refs.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3160020",
+  "title": "Wizard: Searching for the Past",
+  "objective": 0,
+  "part": 0,
+  "client_text": "Help Sandbur with his research by collecting Transfiguring Crystals from the Changeling Arcanus in the Forgotten Caves.",
+  "count": 1,
+  "model_ids": [],
+  "fixer_note": "Re-kinded from gather_resource to kill_actor_kind because the client says the crystals drop when Arcanus are defeated. actor_kind_id is null: status needs_enemy_row. Builder must create the Changeling Arcanus enemy row (the model id and reference_npc_id candidates were not in the pack; check Models.txt and FreeRealms-Legacy Npcs.json for a name match). The drop-to-item rule (crystal item id and drop chance) is not a kill_actor_kind field and needs a server decision: status needs_server for the drop. Count 1 (R): the text names no number; 22362 ('a crystal from each Arcanus') belongs to 'I Had a Dream', not this quest.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3160025",
+  "title": "Contract: Secret Magic",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Bring ice shards from the Elemental Guardians on Misty Mountain (travel via Shrouded Glade).",
+  "count": null,
+  "model_ids": [],
+  "fixer_note": "Ice shards are a drop from Elemental Guardians, not a verified item. The builder needs an enemy definition row for Elemental Guardian (client loc 1079243857 / 3019122702); no reference_npc_id was verified. Count is not stated in the text. Drop-to-item mapping is unresolved, so this may need a server rule (needs_server) rather than a kill objective.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3160028",
+  "title": "Wizard: A Twig From Treeleaf",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Treeleaf Hedge",
+  "count": 1,
+  "model_ids": [
+   75
+  ],
+  "fixer_note": "No enemy definition id and no verified model id exist for Treeleaf Hedge. The pack's model_id 75 (forest giant boss model) was rejected as low confidence and is not used. Reference_npc_id: none found; FreeRealms-Legacy has no Npcs row named Treeleaf Hedge (only the PointOfInterests row for the retreat). Builder must create the enemy row, then set actor_kind_id. Count 1 is from the text (one defeat), not chosen.",
+  "reference_definitions": [],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3160029",
+  "title": "Wizard: One Thing to Bind Them",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Queen Arachnia",
+  "count": 1,
+  "model_ids": [
+   53
+  ],
+  "fixer_note": "Model id 53. reference_npc_id candidate: 2714 (FreeRealms-Legacy Npcs.json; name matches the boss by model and file; NameId 16111 did not resolve in the locale table, so the name match is by model only). Builder must create the enemy row before this can be bound.",
+  "reference_definitions": [
+   {
+    "id": 2714,
+    "model": "blackwidowqueen.adr",
+    "name": "Spinnerette",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1457",
+      "position": [
+       -682.8856,
+       -67.83374,
+       2009.731
+      ],
+      "heading": 3.007997
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3160031",
+  "title": "Contract: Life and Death Magic",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Battle Warthogs",
+  "count": 1,
+  "model_ids": [
+   139
+  ],
+  "fixer_note": "Needs a new enemy row for model_id 139. reference_npc_id candidates from FreeRealms-Legacy Npcs.json: 2700 (name 'ol' Snaggletooth', does not match 'Battle Warthog') and 4857 (no name). Neither name matches, so the builder must pick the starting point. Count 1 (R): the text gives no count.",
+  "reference_definitions": [
+   {
+    "id": 2700,
+    "model": "warthog.adr",
+    "name": "ol' Snaggletooth",
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1443",
+      "position": [
+       -443.9728,
+       -57.32862,
+       2063.351
+      ],
+      "heading": 2.976472
+     }
+    ]
+   },
+   {
+    "id": 4857,
+    "model": "warthog.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3424",
+      "position": [
+       -329.7278,
+       -79.72085,
+       2413.552
+      ],
+      "heading": -2.575285
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": []
+ },
+ {
+  "quest": "q3160032",
+  "title": "Wizard: Two Gems Are Better Than One",
+  "objective": 1,
+  "part": 0,
+  "client_text": "Defeat Foreman Ironfist",
+  "count": 1,
+  "model_ids": [
+   10
+  ],
+  "fixer_note": "Builder must create an enemy row for Foreman Ironfist. Model 10 (ghostdwarf_m_miner_01.adr) is not verified as his model, and reference_npc_id 1599 ('Tormented Spirit') and 3761 are not verified and are not Ironfist's definition. Count 1 is from the text. The defeat step may be the same step as the talk (not settled by the client); 116392 is an unconfirmed alternate wording.",
+  "reference_definitions": [
+   {
+    "id": 1495,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:262",
+      "position": [
+       -2602.795,
+       -5.901349,
+       1033.888
+      ],
+      "heading": -0.613554
+     }
+    ]
+   },
+   {
+    "id": 1496,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:263",
+      "position": [
+       -2596.219,
+       -6.335258,
+       1016.656
+      ],
+      "heading": 3.073844
+     }
+    ]
+   },
+   {
+    "id": 1497,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:264",
+      "position": [
+       -2608.003,
+       -5.209119,
+       1012.16
+      ],
+      "heading": -2.085425
+     }
+    ]
+   },
+   {
+    "id": 1498,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:265",
+      "position": [
+       -2595.438,
+       -6.758137,
+       999.7724
+      ],
+      "heading": 0.628118
+     }
+    ]
+   },
+   {
+    "id": 1499,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:266",
+      "position": [
+       -2593.598,
+       -7.084825,
+       1008.158
+      ],
+      "heading": 0.602808
+     }
+    ]
+   },
+   {
+    "id": 1500,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:267",
+      "position": [
+       -2566.975,
+       -11.21213,
+       1022.469
+      ],
+      "heading": 0.203895
+     }
+    ]
+   },
+   {
+    "id": 1501,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:268",
+      "position": [
+       -2556.717,
+       -11.5356,
+       996.369
+      ],
+      "heading": -0.372997
+     }
+    ]
+   },
+   {
+    "id": 1502,
+    "model": "ghostdwarf_m_miner_01.adr",
+    "name": null,
+    "spawns": [
+     {
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:269",
+      "position": [
+       -2570.158,
+       -10.79445,
+       977.9017
+      ],
+      "heading": 0.400443
+     }
+    ]
+   }
+  ],
+  "our_rows_with_model": [
+   {
+    "actor_kind_id": 930032,
+    "name": "Ghost Dwarf",
+    "file": "enemies.json"
+   },
+   {
+    "actor_kind_id": 930033,
+    "name": "Ghost Miner",
+    "file": "enemies.json"
+   },
+   {
+    "actor_kind_id": 930034,
+    "name": "Shambler Miner",
+    "file": "enemies.json"
+   },
+   {
+    "actor_kind_id": 930044,
+    "name": "Tormented Spirit",
+    "file": "enemies.json"
+   },
+   {
+    "actor_kind_id": 930049,
+    "name": "Bergram Stumpfinger",
+    "file": "enemies.json"
+   }
+  ]
+ }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=frostfang-snarler-0-5-IM2pBh2yY-01058 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2771, 4, 803] model=claude-haiku-5-5 -->
+# Frostfang Snarler 5-IM2pBh2yY 1058s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Player stands on a wooden ramp in snowy Icebreadows; an interact prompt labeled 'Frostfang Snarler' (Press X or mouse) appears, but no enemy with a health bar is drawn on screen. Zone banner 'Icebreadows' and 'Werewolf Vampire Husky School' are location text, not enemy bars."}

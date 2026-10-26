@@ -1,0 +1,12 @@
+<!-- fleet job=testaudit-infer id=inventory_v2_fixes-v2 status=done turns=3 usd=0.0027 tokens(read,write,in,out)=[21067, 13256, 8, 1741] model=claude-haiku-5-5 -->
+# tests/inventory_v2_fixes.rs
+
+{"file": "tests/inventory_v2_fixes.rs",
+ "tests": [
+  {"name": "catalogue_encoder_rejects_owned_ids_missing_from_35_37", "verdict": "keep", "covered_by": null, "reason": "Refusal check: encode_definition_batch_v2 must return MissingDefinitions(vec![20]) when an owned id is absent from the catalogue. tests/inventory.rs::startup_withholds_three_owned_items_missing_from_catalogue tests withholding at Inventory level, not this encoder error. The local current_definition_encoder mirror asserts nothing about production code."},
+  {"name": "complete_catalogue_keeps_35_37_byte_length_and_definition_count", "verdict": "superseded", "covered_by": "tests/inventory.rs::definitions_catalog_matches_original_community_payload_framing", "reason": "Same framing checks (35/37 prefix, payload length = len-8, count 2, sorted record order). The inventory test drives Inventory.definitions_packet, which calls encode_definition_batch_v2, and compares whole packets against community vectors, so it is at least as strong."},
+  {"name": "item_update_uses_stored_count_and_last_cast_not_ability_or_rental_fields", "verdict": "keep", "covered_by": null, "reason": "Only direct check of encode_item_update_v2 with a nonzero high dword (0x1122_3344_5566_7788) and stored_count 3 distinct from ability count. tests/inventory.rs::existing_reward_38_3_uses_stored_count_and_last_cast_not_ability_or_rental_fields only checks the 64-bit tail as i64::from(i32::MAX) (high dword 0), and save_schema/partial-rental tests do not write this 64-bit layout through 38/3. Removing would lose the full-width assertion. Could be superseded if that high-dword assertion were moved into tests/inventory.rs first."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "Previous audit's superseded verdict for the 38/3 test was not backed: the covering inventory test never exercises a nonzero high dword in the last-cast field, so it was reverted to keep. The local mirror helpers current_definition_encoder and current_item_update are scaffolding only and can be dropped with the 'old vs fixed' assertions without losing coverage. The file cannot be removed whole because the MissingDefinitions refusal test is unique."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=changeling-heartbreaker-1-EP2-qVs1mR8-00016 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2891, 4, 952] model=claude-haiku-5-5 -->
+# Changeling Heartbreaker EP2-qVs1mR8 16s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 3560, "on": "other", "color": "yellow"}, {"value": 3560, "on": "other", "color": "yellow"}, {"value": 3560, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Open green field combat with many small purple creatures; three yellow -3560 hits, but no legible Changeling Heartbreaker name or health bar above a picked enemy in this frame."}

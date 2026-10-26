@@ -1,0 +1,18 @@
+<!-- fleet job=testaudit-infer id=zone_quests_wilds-v1 status=done turns=5 usd=0.0035 tokens(read,write,in,out)=[38623, 12125, 12, 3116] model=claude-haiku-5-5 -->
+# tests/zone_quests_wilds.rs
+
+{"file": "tests/zone_quests_wilds.rs",
+ "tests": [
+  {"name": "pixie_nursery_chain_pays_once", "verdict": "keep", "covered_by": null, "reason": "Only test driving the Pixie Nursery chain (3000332/3000333) through the production offer/accept/turn-in path, asserting single payment (7 coins, 50 XP) and the duplicate 49/14 refusal. No equivalent elsewhere in the similar files."},
+  {"name": "lazy_trolls_then_the_quarry", "verdict": "keep", "covered_by": null, "reason": "Sole coverage of the Lazy Trolls -> Quarry hand-off (Burglz as end target, 60 coins / 45 XP) and the duplicate-49/14 refusal for this chain."},
+  {"name": "burglz_is_drawn_as_the_troll", "verdict": "keep", "covered_by": null, "reason": "Checks the new Burglz spawn position, AddNpc model/name ids and content key through NpcVisibility. Unique to this slice's data row; a visibility/canary check."},
+  {"name": "quarry_waits_for_lazy_trolls", "verdict": "keep", "covered_by": null, "reason": "Ordering gate: refused forged 49/2 and no offer before Lazy Trolls completes. Refusal check, not covered by other files."},
+  {"name": "repeated_oxalis_steps", "verdict": "keep", "covered_by": null, "reason": "Pins that one Oxalis click credits exactly one of two same-NPC goals (no end screen on the first); specific to Who Done It? goal layout."},
+  {"name": "early_and_wrong_turn_ins_are_refused", "verdict": "keep", "covered_by": null, "reason": "Refusal test. Same name exists in zone_quests_sanctuary.rs (per the similar-file list) and an analogous early_turn_in_is_refused exists in zone_quests_seaside.rs, but the bodies could not be compared here (sanctuary file not readable in this repo), and the refusal class is kept conservatively. Candidate for later dedupe if bodies match."},
+  {"name": "progress_survives_reconnect", "verdict": "keep", "covered_by": null, "reason": "Persistence check via reload_serialized on the Wilds quest chain. Same name in sanctuary and seaside files, but those drive different quests; persistence tests are not removed without an equal test for this path."},
+  {"name": "xp_goes_to_adventurer_with_another_job_active", "verdict": "keep", "covered_by": null, "reason": "Asserts XP goes to the ADVENTURER profile while the character has another job active. Same pattern as zone_quests_seaside.rs::xp_goes_to_adventurer_with_another_job_active but on a Wilds quest; the payout-profile rule is a separate assertion for this data."},
+  {"name": "two_players_are_independent", "verdict": "keep", "covered_by": null, "reason": "Isolation check between two characters on the Wilds chain; not a duplicate of the other files' versions because it drives this file's quests and fixtures."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Every test here is either unique Wilds data coverage or a refusal/persistence/isolation check, so nothing is clearly removable. The four generic tests (early_and_wrong_turn_ins_are_refused, progress_survives_reconnect, xp_goes_to_adventurer_with_another_job_active, two_players_are_independent) share names with tests in zone_quests_sanctuary.rs and zone_quests_seaside.rs. The sanctuary file was not readable from the repo root in this pass, so the bodies could not be diffed; confidence is low on those four. Seaside's versions drive different quests, so they are not equivalent. Recommend a body-level diff against zone_quests_sanctuary.rs before deciding on those four."}

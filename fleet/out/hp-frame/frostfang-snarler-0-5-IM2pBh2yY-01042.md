@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=frostfang-snarler-0-5-IM2pBh2yY-01042 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2771, 4, 887] model=claude-haiku-5-5 -->
+# Frostfang Snarler 5-IM2pBh2yY 1042s
+
+{"screen": "world", "target": {"name": "Frostfang Snarler", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Mia Icemeadows", "level": null, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Player stands by a wooden cabin in snowy terrain, not in combat. Red name 'Frostfang Snarler' with crossed-swords icon sits above a green light beam, but no health bar is visible; a 'Press X' interact prompt also reads Frostfang Snarler. Level and job are not legible."}

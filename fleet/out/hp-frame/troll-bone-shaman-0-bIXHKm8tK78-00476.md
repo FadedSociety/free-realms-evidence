@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-bone-shaman-0-bIXHKm8tK78-00476 status=done turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2984, 4, 494] model=claude-haiku-5-5 -->
+# Troll Bone Shaman bIXHKm8tK78 476s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player character walks on a forest path; a lone green health bar floats mid-background at top center with no legible name, and no Troll Bone Shaman is identifiable on screen. No combat or damage visible; the portrait, name, level and job text are too small to read."}

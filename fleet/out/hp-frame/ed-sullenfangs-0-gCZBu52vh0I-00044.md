@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ed-sullenfangs-0-gCZBu52vh0I-00044 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2880, 4, 953] model=claude-haiku-5-5 -->
+# Ed Sullenfangs gCZBu52vh0I 44s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 4499, "on": "other", "color": "yellow"}, {"value": 2999, "on": "other", "color": "yellow"}, {"value": 35, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": "Grayson Stonyhammer", "level": 20, "job": "Medic", "health_fraction": 0.89}, "target_defeated": false, "notes": "Combat with red winged vampire-like enemies in a cave; the picked enemy's name and health bar are not legible, and the Ed Sullenfangs label does not appear in this frame. The 'You don't have enough energy for that ability!' message is shown. Goals panel reads 'Defeat the vampires!'."}

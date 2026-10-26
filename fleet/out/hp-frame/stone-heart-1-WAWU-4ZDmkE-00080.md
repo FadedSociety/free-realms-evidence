@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=stone-heart-1-WAWU-4ZDmkE-00080 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2743, 4, 767] model=claude-haiku-5-5 -->
+# Stone Heart WAWU_4ZDmkE 80s
+
+{"screen": "world", "target": {"name": "Stone Heart", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Heartbreaker", "health_fraction": null}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Large 'Stone Heart' name text across the top and an interaction prompt ('Press X or') labelled Stone Heart at bottom centre; no health bar over a creature is legible, so no health value and no level can be read. Player portrait level and job are too small to read."}

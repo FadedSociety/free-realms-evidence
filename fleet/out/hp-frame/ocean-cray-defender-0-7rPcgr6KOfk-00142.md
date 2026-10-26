@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-0-7rPcgr6KOfk-00142 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2740, 4, 1038] model=claude-haiku-5-5 -->
+# Ocean Cray Defender 7rPcgr6KOfk 142s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Defender", "level": null, "health_fraction": 0.65, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Ocean Cray Defender", "health_fraction": 0.3}], "damage_numbers": [{"value": 127, "on": "target", "color": "yellow"}, {"value": 69, "on": "other", "color": "red"}], "attackers_visible": 1, "player": {"name": "Cylena Velnarin", "level": null, "job": null, "health_fraction": 0.55}, "target_defeated": false, "notes": "Player in combat near two Ocean Cray Defenders; the picked one shows a -127 hit and a partly depleted bar. Level and job are not legible, and the bar fractions are estimates."}

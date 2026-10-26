@@ -1,0 +1,15 @@
+<!-- fleet job=testaudit-infer id=bot_smoke-v2 status=done turns=3 usd=0.0035 tokens(read,write,in,out)=[28152, 17375, 8, 2033] model=claude-haiku-5-5 -->
+# tests/bot_smoke.rs
+
+{"file": "tests/bot_smoke.rs",
+ "tests": [
+  {"name": "script_parser_accepts_every_step", "verdict": "keep", "covered_by": null, "reason": "Only check of bot::parse_script: every step kind, rejection of unknown verbs (\"fly\"), and the expect/ability step fields. The 24-byte ability_request layout it also asserts overlaps with tests/s6_characterization.rs::ability_request_is_the_clients_24_byte_mode_zero_form, but the parser checks are not covered elsewhere, so keep."},
+  {"name": "bot_logs_in_to_single_save_gateway_and_chats", "verdict": "keep", "covered_by": null, "reason": "Previous 'superseded' verdict is not sound. tests/playtest_gateway_smoke.rs::a_normal_player_logs_in_enters_moves_chats_and_relogs drives the in-process Server with its own client, not the osfr-bot script engine (bot::run). This test is the only check that runs the osfr-bot script path (chat spam gate wait, expect, move, attack) against a single-save gateway. Weak assertion, but it is the bot-harness canary; keep."},
+  {"name": "bot_fails_cleanly_on_unmet_expectation", "verdict": "keep", "covered_by": null, "reason": "Failure-path check of the bot harness: an unmet expect must return an error naming the step. No other test asserts this."},
+  {"name": "two_bots_share_an_account_store_gateway", "verdict": "keep", "covered_by": null, "reason": "Previous 'superseded' verdict cited tests/multiplayer.rs::audit_two_bots_deliver_say_and_tell_with_content, which does not exist anywhere in the repo (no 'audit_two_bots' or 'two_bots' function in multiplayer.rs). tests/guild_routing.rs::two_bots_create_invite_accept_and_chat is a guild path, not a say/receive delivery through osfr-bot on an account-store gateway. No verified equal replacement, so keep."},
+  {"name": "bot_runs_dev_command_against_real_content", "verdict": "keep", "covered_by": null, "reason": "Ignored test needing lab content; the only end-to-end check of a realm dev command answered through the bot. No named replacement."},
+  {"name": "bot_zones_into_battle_arena_and_wins", "verdict": "keep", "covered_by": null, "reason": "Ignored test needing lab content; covers the battle-cheat zoning handshake (ready/loaded re-send) through the bot. No named replacement."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "Corrected the previous answer: both removal verdicts (bot_logs_in... and two_bots...) cited a replacement that does not exist (multiplayer audit_two_bots test) or a different path (playtest client, not osfr-bot). No test in this file is a verified duplicate, so all six are kept. The file also serves as the osfr-bot harness canary and holds the account-store/reference fixture builders; whole file is not removable. Minor overlap: the ability_request 24-byte assertion duplicates s6_characterization; a partial trim could be considered but is not a removal."}

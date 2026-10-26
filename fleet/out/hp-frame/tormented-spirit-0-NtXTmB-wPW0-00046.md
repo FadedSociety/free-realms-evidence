@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-0-NtXTmB-wPW0-00046 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2648, 4, 829] model=claude-haiku-5-5 -->
+# Tormented Spirit NtXTmB-wPW0 46s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -17, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": null, "level": 10, "job": "Brawler", "health_fraction": 0.69, "health_text": "1248/1797"}, "target_defeated": false, "notes": "Red system line reads 'The bones crumble and a tormented spirit materializes!' above a 'Lost Explorer' label and a 'Lost Explorer Bones' interact prompt; no Tormented Spirit name or health bar is legible in this frame."}

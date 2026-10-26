@@ -1,0 +1,132 @@
+[
+ {
+  "npc_id": 9500000547,
+  "name": "Admiral Fishfinder",
+  "zone": null,
+  "position": [
+   -474.5913,
+   -89.65859,
+   2389.419
+  ],
+  "heading": -0.309304,
+  "model": "fairy_f_pirate_01.agr",
+  "model_id": 2116,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1595",
+  "near_zone": "Briarwood",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000556,
+  "name": "Baron von Darkcheat",
+  "zone": "Seaside",
+  "position": [
+   578.1666,
+   49.00199,
+   478.8249
+  ],
+  "heading": -2.996206,
+  "model": "dwarf_darkcheat.adr",
+  "model_id": 3883,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2322",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000565,
+  "name": "Captain Sunspark",
+  "zone": "Seaside",
+  "position": [
+   -1164.294,
+   5.642769,
+   227.7217
+  ],
+  "heading": -0.842952,
+  "model": "fairy_royalguard_m.adr",
+  "model_id": 345,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1121",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000566,
+  "name": "Chip Numbwing",
+  "zone": "Seaside",
+  "position": [
+   130.76355,
+   25.065687,
+   392.58667
+  ],
+  "heading": 3.07680798,
+  "model": "fairy_m_chip_numbwing.agr",
+  "model_id": 1585,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3868",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000569,
+  "name": "Cragara",
+  "zone": "Seaside",
+  "position": [
+   130.87897,
+   28.729305,
+   290.85706
+  ],
+  "heading": -0.0971219953,
+  "model": "sogg_f_vendor.adr",
+  "model_id": 4103,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000574,
+  "name": "Doctor Gordon",
+  "zone": null,
+  "position": [
+   -1166.028,
+   6.622923,
+   373.1792
+  ],
+  "heading": -3.029897,
+  "model": "human_m_doctor_gordon.agr",
+  "model_id": 506,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1083",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000613,
+  "name": "Petal Oceanmist",
+  "zone": null,
+  "position": [
+   -241.1461,
+   1.178117,
+   -62.66587
+  ],
+  "heading": -0.091501,
+  "model": "fairy_f_valinda.adr",
+  "model_id": 36,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1733",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3080019 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000641,
+  "name": "Ty",
+  "zone": "Seaside",
+  "position": [
+   -798.9908,
+   -4.9022,
+   703.8625
+  ],
+  "heading": 0.067937,
+  "model": "human_m_ty_downtrodden.agr",
+  "model_id": 907,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1824",
+  "near_zone": "Lakeshore",
+  "quests_waiting": []
+ }
+]

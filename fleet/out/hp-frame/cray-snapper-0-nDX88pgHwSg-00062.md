@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=cray-snapper-0-nDX88pgHwSg-00062 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2743, 4, 977] model=claude-haiku-5-5 -->
+# Cray Snapper nDX88pgHwSg 62s
+
+{"screen": "combat", "target": {"name": "Cray Snapper", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Cray Snapper", "health_fraction": 1.0}], "damage_numbers": [{"value": 15, "on": "other", "color": "red"}], "attackers_visible": 1, "player": {"name": "Cylena Volnaris", "level": null, "job": "Warrior", "health_fraction": null}, "target_defeated": false, "notes": "Player fights two Cray Snappers at night; the right one shows a thin green bar that looks nearly full, the left one has no visible bar, and a small -15 number floats mid-screen. The bar is too thin to read exactly, so the fraction is approximate."}

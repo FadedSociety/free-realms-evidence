@@ -1,0 +1,15 @@
+<!-- fleet job=testaudit-infer id=shop_sale_safety-v1 status=done turns=6 usd=0.0044 tokens(read,write,in,out)=[69209, 17730, 14, 2972] model=claude-haiku-5-5 -->
+# tests/shop_sale_safety.rs
+
+{"file": "tests/shop_sale_safety.rs",
+ "tests": [
+  {"name": "an_unbound_pet_item_is_refused_through_the_real_165_4_buy", "verdict": "keep", "covered_by": null, "reason": "Refusal check: hostile/unbound input must change neither snapshot, inventory nor buy-back ledger. Pins the T529 type-2 gate through the real 165/4 path. No equivalent refusal test found elsewhere (vendor_buy_sell_gateway.rs covers generic refused sells, not this pets-binding gate)."},
+  {"name": "an_unbound_pet_item_is_refused_through_the_real_66_43_buy", "verdict": "keep", "covered_by": null, "reason": "Refusal check on the 66/43 vendor-buy entry for the same gate; a separate entry point, so it is not a duplicate of the 165/4 test."},
+  {"name": "a_pet_item_bound_by_pets_content_is_sold", "verdict": "keep", "covered_by": null, "reason": "Positive counterpart of the refusal gate (bound pet item is sellable). Only check of this specific binding path seen in the pack; not verified against other files."},
+  {"name": "rides_and_house_lots_are_refused_while_furniture_is_sold", "verdict": "keep", "covered_by": null, "reason": "Type-policy canary: rides (type 19) and deeds (type 16) refused while furniture (type 29) stays on sale. Guards against a policy regression; related ride checks exist in vendor_sell_worth.rs::rides_no_sale_rows_and_worn_items_are_refused_without_change but that test does not check the house-lot or furniture sides, so it is not an equally strong substitute."},
+  {"name": "every_shipped_vendor_item_is_sellable_or_reviewed_unsellable", "verdict": "keep", "covered_by": null, "reason": "Shipped-content gate that fails in both directions against vendors.json and REVIEWED_UNSELLABLE; no other test in the pack performs this whole-catalogue reconciliation."},
+  {"name": "a_priced_item_with_an_unreadable_definition_is_refused_and_not_advertised", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal: truncated definition must be refused with RESULT_INVALID_ITEM and not advertised. Related coverage exists (coin_shop.rs:166/421 check RESULT_INVALID_ITEM for unknown items) but those do not cover the truncated-before-Type case, so keep."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.3,
+ "notes": "Low confidence: the file was not present at prototype/osfr-tools/tests/shop_sale_safety.rs in the repo root I could search (read returned 'not a file' and name searches found no matches), so I could only judge from the pack excerpt and the similar files. The shipped-content gate and the refusal tests all look like the sole checks of the T529 type-2/16/19 policy. Every verdict defaults to keep under the conservative rule. Worth re-running with the file present: the 165/4 and 66/43 refusal tests could overlap vendor_buy_sell_gateway.rs and coin_store_siblings.rs if those check the same refusal with the same asserts."}

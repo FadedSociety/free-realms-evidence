@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00422 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 1001] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 422s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}, {"value": 2498, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Gray Caves combat in a blurry frame. The picked enemy's name is not legible here, and the only readable name is the Jordan Roughtower tracker (24m), which is not the target. Large damage numbers (about -2490) float over the fight, but they cannot be tied to the Ocean Cray Brood Mother, so no health value is reported."}

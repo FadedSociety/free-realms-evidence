@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=willow-slamdash-2-A2kA-ji8PFs-00026 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3150, 4, 708] model=claude-haiku-5-5 -->
+# Willow Slamdash A2kA_ji8PFs 26s
+
+{"screen": "minigame", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Nina the Wrecker", "health_fraction": 0.3}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 7, "job": "Demo Derby Driver", "health_fraction": null}, "target_defeated": false, "notes": "Wildwood Demo Derby minigame at 3:43; no Willow Slamdash visible in this frame, only Nina the Wrecker's bar (about 30% green). The DAMAGE and BOOST bars are vehicle meters, not health, so the player health is null."}

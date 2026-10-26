@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-0-NtXTmB-wPW0-00022 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2648, 4, 710] model=claude-haiku-5-5 -->
+# Tormented Spirit NtXTmB-wPW0 22s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Confetti", "level": 10, "job": "Brawler", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player stands in a blue-lightning buff circle in a cave area; no Tormented Spirit name or health bar is visible, only the quest tracker (Goats (2): Defeat the ancient crazy Cracked Claw) and an 'Explorer Bones' label. Green creatures at lower right have no readable names."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=surfmonger-arthur-1-4kAFL0X0KkA-00690 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3210, 4, 776] model=claude-haiku-5-5 -->
+# Surfmonger Arthur 4kAFL0X0KkA 690s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Ricky Rainspice", "level": 4, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Exploration, no combat. Only a quest-tracker label 'Surfmonge...' (partly hidden by the minimap area) at 16m with a red arrow marker; no health bar, no creature in view. Other tracker labels (Checkers & Chew, Stealthy Despoiler, Miguel) show no bars either."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=surfmonger-arthur-1-4kAFL0X0KkA-00720 status=nothing_found turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3210, 4, 849] model=claude-haiku-5-5 -->
+# Surfmonger Arthur 4kAFL0X0KkA 720s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Ricky Rainspice", "level": 4, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Open hillside path; a blue-clad figure mid-screen has an unreadable faint label above it, so it cannot be confirmed as Surfmonger Arthur and no health bar is legible. Quest-tracker labels (Prince of Low Tide, Checkers & Chess) and green name labels (Sundancer, Bacala) are not the target."}

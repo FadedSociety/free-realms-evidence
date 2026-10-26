@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00402 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3147, 4, 1226] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 402s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Warrior Charger", "health_fraction": 1.0}], "damage_numbers": [{"value": 3735, "on": "target", "color": "yellow"}, {"value": 253, "on": "target", "color": "red"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypents", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "Boss bar for Elder Mugwort shown nearly full at top; large yellow -3735 and red -253 hits over the fight; Warrior Charger also nearby; level not legible on the boss bar."}

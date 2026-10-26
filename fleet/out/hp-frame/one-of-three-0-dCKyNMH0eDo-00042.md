@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=one-of-three-0-dCKyNMH0eDo-00042 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2733, 4, 1081] model=claude-haiku-5-5 -->
+# One of Three dCKyNMH0eDo 42s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1091, "on": "target", "color": "red"}, {"value": 5113, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.45}, "target_defeated": false, "notes": "Archer fighting a grey stone-armored creature near center; its name is not legible above it, and 'Two of Three' appears only on the ability bar, so the picked 'One of Three' cannot be confirmed."}

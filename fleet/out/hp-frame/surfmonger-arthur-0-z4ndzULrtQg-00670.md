@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=surfmonger-arthur-0-z4ndzULrtQg-00670 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2748, 4, 1018] model=claude-haiku-5-5 -->
+# Surfmonger Arthur z4ndzULrtQg 670s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 4, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Open beach world view; Surfmonger Arthur is not visible as a creature, only quest trackers (Feeling the Beat! 23m, Inni Ki 45m, Pirate's Plunder 19m). A pet labeled Dakota is nearby. Player at 800/800 HP and 100/100 MP. A nameless green bar sits mid-screen, with no legible name."}

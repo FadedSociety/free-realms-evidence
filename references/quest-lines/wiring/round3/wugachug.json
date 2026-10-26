@@ -1,0 +1,110 @@
+[
+ {
+  "quest_id": 3040001,
+  "title": "Pick a Card, any Card",
+  "record": "quest-lines/quests.json q3040001",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000187
+    },
+    "text_string_id": 383071,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "locale:383071 is the go-objective: 'Shifty has sent you to see Sam Potts in Sanctuary to become a card duelist.'",
+      "source": "locale:383071; pack objectives[0]"
+     },
+     {
+      "claim": "Sam Potts's server NPC row is 9000000187, the giver/trainer id used by the card duelist quest data.",
+      "source": "repo:prototype/osfr-tools/data/content/quests/card_duelist.json:161; repo:prototype/osfr-tools/data/content/job_trainers.json:111"
+     },
+     {
+      "claim": "The NPC row exists in the content DB with name_string_id 74093 (locale:74093 'Sam Potts'), zone Sanctuary, roles quest_giver and trainer.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:51234-51263"
+     },
+     {
+      "claim": "The row has no placed coordinates in sanctuary.json; its location is only given as text ('By the tournament board in Sanctuary'). The coordinates (-1290.0687, -14.91131, 291.80383), heading 1.08519005, are recorded in the T467 autopilot notes, cross-matched to POI 104 'Comment: Sam Potts'.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:51265-51267; repo:notes/Autopilot/T467.md:34"
+     },
+     {
+      "claim": "The draft visit_position is replaced: the objective is to talk to the trainer.",
+      "source": "pack objectives[0].draft"
+     }
+    ],
+    "note": "Sanctuary row 9000000187 (name 74093) is defined in sanctuary.json but has no placed coordinates there; the builder should place it at the T467 position (-1290.0687, -14.91131, 291.80383, heading 1.08519005) before this talk_to_npc resolves. The 679446827 citation from the earlier answer is dropped: it is not a client locale id and only appears as prose in location_evidence. Pack target 74093 is the name string id, not the npc_id, and is not used as a field."
+   }
+  ]
+ },
+ {
+  "quest_id": 3050026,
+  "title": "Chef: The Food Reviewer",
+  "record": "quest-lines/quests.json q3050026",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000133
+    },
+    "text_string_id": 72536,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "72536 (quest_dialog, tagged to Chef: The Food Reviewer) says: 'Now it's time for you to speak with Chef Lucca De'Flor... Pay him a visit in Snowhill.'",
+      "source": "locale:72536"
+     },
+     {
+      "claim": "Lucca De'Flor is the Snowhill NPC row with npc_id 9000000133 (reference_ids 9000000133, 9000000384; name_string_ids ucdt 3003409196, ugdt 2805294244).",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/snowhill.json:23071-23090"
+     },
+     {
+      "claim": "Chef.md row M8 names Cook Yumtumlot as giver and Lucca De'Flor (Snowhill) as the next stop.",
+      "source": "notes/Build Guides/Content/Jobs/Chef.md:127"
+     }
+    ],
+    "note": "Row is reconstructed_from_job_reference and the NPC is not placed (snowhill.json reports no matched AddNpc row), so the builder needs a spawn for Lucca's Cafe, 2 Icecrest Ct, Snowhill (wiki). No reference_spawn candidate was in the pack. The text is the handoff line, not a counted task; count is not applicable."
+   }
+  ]
+ },
+ {
+  "quest_id": 3130022,
+  "title": "Postman: Achieve Level 15",
+  "record": "quest-lines/quests.json q3130022",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "job_level",
+    "fields": {
+     "profile_id": 4,
+     "level": 15
+    },
+    "text_string_id": 387962,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Reach level 15 as a postman.' is locale 387962, tagged quest_objective to this quest",
+      "source": "locale:387962; pack: quest_lines"
+     },
+     {
+      "claim": "Postman is profile_id 4 in the job table (id 'postman', max_level 20)",
+      "source": "repo:prototype/osfr-tools/data/content/jobs.json:1238-1242"
+     },
+     {
+      "claim": "Offer, progress and complete lines frame this as a level-15 check with Postchug Runalug (npc 9000000172) as giver; no reward recorded",
+      "source": "pack: dialog.evidence (locale:387938, 387940, 387941)"
+     }
+    ],
+    "note": "Level gate as a job_level objective. Sibling objectives at 387957 (level 10) and 387969 (level 20) are separate quests/parts and are not merged here. Server should judge the level; no count applies."
+   }
+  ]
+ }
+]

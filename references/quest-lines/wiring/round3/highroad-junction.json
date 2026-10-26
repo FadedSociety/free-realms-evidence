@@ -1,0 +1,102 @@
+[
+ {
+  "quest_id": 3050011,
+  "title": "Chef: Ranger Requisition",
+  "record": "quest-lines/quests.json q3050011",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000178
+    },
+    "text_string_id": 104135,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "104135 is the quest's single objective: 'Talk to Ranger Ricardo at the Ranger Station in Highroad Junction'.",
+      "source": "locale:104135"
+     },
+     {
+      "claim": "npc 9000000178 is Ranger Ricardo in the Highroad NPC data (npc_id 9000000178 and the Ricardo line-104137 association).",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/highroad_junction.json:7893; repo:notes/Autopilot/T315.md:90"
+     },
+     {
+      "claim": "The quest record names 9000000178 as giver and in a dialog entry, so the NPC row is the one the quest already uses.",
+      "source": "repo:prototype/osfr-tools/data/content/quests/chef.json:594,672"
+     }
+    ],
+    "note": "Draft spec verified with no change. Count not applicable. The NPC row is placed in highroad_junction.json. Repo notes also tie 9000000178 to the Fireworks Frenzy giver (quest 3050012) in chef.json, so the builder should confirm the server quest-to-NPC mapping for this quest key rather than the giver field. Do not wire a direction. Locale 115344 was not re-read because my anchored lookup returned no match; the pack's text was used."
+   }
+  ]
+ },
+ {
+  "quest_id": 3050013,
+  "title": "Chef: Perry's Pastures",
+  "record": "quest-lines/quests.json q3050013",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "reach_poi",
+    "fields": {
+     "poi_id": 20
+    },
+    "text_string_id": 104143,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 104143 names 'Perry's Pastures, north of Highroad Junction' as the place to reach; the POI is the place, so reach_poi is used instead of the draft visit_position.",
+      "source": "locale:104143"
+     },
+     {
+      "claim": "POI 20 is named \"Perry's Pasture\" and its breadcrumb quest maps to regional quest 3050013 'Chef: Perry's Pastures'.",
+      "source": "repo:prototype/osfr-tools/data/content/breadcrumb_quests.json:165-172 (legacy-data: lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json, BreadcrumbQuestId=1808 on POI 20)"
+     },
+     {
+      "claim": "The client has a 'Perry's Pastures' locale string 31324 and the minigame 'Perry's Pastures Harvesting' (100836), consistent with the place name.",
+      "source": "locale:31324, locale:100836"
+     }
+    ],
+    "note": "Reach POI 20 (Perry's Pasture). Location conflict remains: 104143 and 115592 say north of Highroad Junction, while 139840/401248 say south of Snowhill; the POI coordinates were not verified here, so the draft position [-71.964, 11.04, 226.4] is not used. Perry (ucdt 900174448) is placed only by reconstructed POI anchor (npcs/snowhill.json:23798, low confidence), so talk_to_npc is not used for this objective."
+   }
+  ]
+ },
+ {
+  "quest_id": 3120020,
+  "title": "Pet Trainer: Achieve Level 20",
+  "record": "quest-lines/quests.json q3120020",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "job_level",
+    "fields": {
+     "profile_id": 121,
+     "level": 20
+    },
+    "text_string_id": 34194,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Client objective text 'Reach Level 20 as a Pet Trainer.' is locale:34194; quest title is locale:117897 'Achieve Level 20 as a Pet Trainer'.",
+      "source": "locale:34194, locale:117897"
+     },
+     {
+      "claim": "Pet Trainer job profile id is 121 (job id list, client resource ids).",
+      "source": "repo:notes/Build Guides/Gameplay/Character and Customization.md:130"
+     },
+     {
+      "claim": "Server quest row 3120020 exists with empty objectives, giver 9000000228 (Verill Shiverwings per wiki band 3, row G20); job_level is the server kind for 'reach level N as a job' (warrior.json W5 precedent).",
+      "source": "repo:prototype/osfr-tools/data/content/quests/pet_trainer.json:978-1010; repo:prototype/osfr-tools/data/content/quests/warrior.json:295-307"
+     }
+    ],
+    "note": "Single job_level objective; the server judges completion from Profiles::rank, no Talk needed. Not a counted collect/kill, so no count (the level 20 is the target). Profile 121 is from the notes, not re-read from a client table."
+   }
+  ]
+ }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=content_enemies-v1-evidence-r1 status=done turns=1 usd=0.0015 tokens(read,write,in,out)=[0, 8752, 4, 760] model=claude-haiku-5-5 -->
+# tests/content_enemies.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "Both tests are verdicted keep and whole_file_removable is false, so there are no removal verdicts that need a covering test. Nothing in the file is removed, so the lens's replacement requirements do not apply. The keep verdicts are the conservative direction. The audit admits it only grepped the similar files for data file names and did not open enemy_rows_for_quest_targets.rs or power_up_drops.rs. That gap would matter only if a removal were proposed, so it does not change this result. The auditor's point that both tests read lab/ outputs and can break on data regeneration is a maintenance note, not a redundancy finding. Cross notes against quest answers are empty and the automatic id check is clean."}

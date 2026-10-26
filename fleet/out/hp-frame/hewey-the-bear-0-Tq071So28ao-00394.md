@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hewey-the-bear-0-Tq071So28ao-00394 status=done turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2734, 4, 609] model=claude-haiku-5-5 -->
+# Hewey the Bear Tq071So28ao 394s
+
+{"screen": "dialog_or_menu", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Avenger Icestorm", "level": 1, "job": "Archer", "health_fraction": null}, "target_defeated": false, "notes": "Tutorial overlay ('You can click on characters or objects with icons over their heads... Click on the gate to start the battle!') over Highroad Junction; a 'Hewey's Escape' minigame prompt (Press X or mouse) is shown. No Hewey the Bear name or health bar is legible on screen, so no health reading is possible."}

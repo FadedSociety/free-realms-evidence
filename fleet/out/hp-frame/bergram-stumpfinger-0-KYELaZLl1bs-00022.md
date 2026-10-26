@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-0-KYELaZLl1bs-00022 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3158, 4, 1030] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger KYELaZLl1bs 22s
+
+{"screen": "combat", "target": {"name": "Bergram Stumpfinger", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.75, "health_text": "6592/8540"}, "target_defeated": false, "notes": "Bergram Stumpfinger's name is over a mostly full green bar at the top of the frame while a dialogue line plays; the player is attacking with a blue energy effect, and the top target frame also shows his name. Level is not printed; the overhead bar is only partly visible, so the 1.0 is approximate."}

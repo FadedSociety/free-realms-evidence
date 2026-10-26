@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=counselor-tyra-0-L27vxozHOls-00080 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2743, 4, 1106] model=claude-haiku-5-5 -->
+# Counselor Tyra L27vxozHOls 80s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}, {"value": 2490, "on": "other", "color": "yellow"}, {"value": 144, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Keith Silvernight", "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Counselor Tyra is not on screen as a creature; her name appears only in a chat line ('Counselor Tyra: Help!!!'). The player fights two bears (Bigfoot-type, no names or health bars legible) with large yellow damage numbers; Counselor Edmond is a friendly NPC label."}

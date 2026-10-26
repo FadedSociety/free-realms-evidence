@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=one-of-three-0-dCKyNMH0eDo-00020 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2733, 4, 660] model=claude-haiku-5-5 -->
+# One of Three dCKyNMH0eDo 20s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player walks across a grassy hill in the open world; no legible 'One of Three' name, no enemy health bar tied to a name, and no combat. Chat log shows Blizzardus Snow's warp directions. The thin green bar near screen centre has no readable name, so it is not attributed to the target."}

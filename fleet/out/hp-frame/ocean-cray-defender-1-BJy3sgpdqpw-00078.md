@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-1-BJy3sgpdqpw-00078 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3153, 4, 657] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 78s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.7}], "damage_numbers": [{"value": 451, "on": "other", "color": "red"}, {"value": 90, "on": "player", "color": "green"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "'Ocean Cray Defe...' is a large faded zone/event banner in the centre, not an overhead enemy name; no Ocean Cray Defender is legibly shown with a health bar. Only a top-centre boss-style bar (about 70% green) is visible, with no readable name."}

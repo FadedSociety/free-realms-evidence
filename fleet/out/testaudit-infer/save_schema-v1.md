@@ -1,0 +1,15 @@
+<!-- fleet job=testaudit-infer id=save_schema-v1 status=done turns=3 usd=0.0039 tokens(read,write,in,out)=[25159, 19774, 8, 2274] model=claude-haiku-5-5 -->
+# tests/save_schema.rs
+
+{"file": "tests/save_schema.rs",
+ "tests": [
+  {"name": "legacy_character_save_reads_and_next_write_uses_schema_version", "verdict": "keep", "covered_by": null, "reason": "Reads a version-1 character envelope and checks the next write becomes schema_version 2 with no leftover `version` key. Possibly overlaps tests/character_store.rs (which asserts schema_version 2 on save), but I did not read that file's legacy-read path, so it is kept as not clearly covered."},
+  {"name": "current_game_save_migrates_envelope_and_preserves_all_instance_counters", "verdict": "keep", "covered_by": null, "reason": "Migrates the current v2 fixture to GAMEPLAY_SCHEMA_VERSION and asserts all next_instance_id counters survive, plus a no-rewrite-on-load check. No other file I checked drives this file-level envelope migration with counter preservation."},
+  {"name": "schema_three_inventory_migrates_stored_count_and_preserves_64_bit_last_cast", "verdict": "keep", "covered_by": null, "reason": "File-level schema 3 migration with a 64-bit last_cast_time round trip. tests/inventory.rs::legacy_item_snapshot_defaults_stored_count_and_keeps_64_bit_last_cast covers the same defaulting at the inventory-snapshot layer, not through game_store's load/save path, so it is only partially overlapping."},
+  {"name": "schema_four_migrates_housing_in_the_canonical_envelope_and_preserves_counters", "verdict": "keep", "covered_by": null, "reason": "Schema 4 housing carried into the canonical envelope, with counters and save_housing_state replacement checked. tests/piece_028.rs legacy snapshot tests cover housing snapshot migration, a different layer; not a duplicate."},
+  {"name": "schema_five_migrates_pet_roster_and_preserves_housing_and_counters", "verdict": "keep", "covered_by": null, "reason": "Schema 5 pet roster migration plus the None-keeps-disk-roster rule, which is a persistence behaviour. tests/game_store.rs::one_save_writes_character_and_roster_and_none_keeps_the_disk_roster appears to cover the same None rule at the unit level; that overlap is partial, so kept."},
+  {"name": "a_pre_s17_pet_save_loads_the_same_roster_and_resaves_identically", "verdict": "keep", "covered_by": null, "reason": "Compatibility canary: a fixture written in the pre-S17 shape must load and re-save byte-identically. Nothing else in the pack is a fixture-byte round trip of this shape. Not obsolete, since the older shape must still load."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Limited verification: I read the file's tests and grepped for overlapping names, but did not open tests/character_store.rs, tests/game_store.rs bodies, or tests/inventory.rs bodies to compare assertions line by line. Verdicts are conservative keeps; the likeliest candidate for removal is the first test (legacy version-1 character read) if character_store.rs proves to cover it."}

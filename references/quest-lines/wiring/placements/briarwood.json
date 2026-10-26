@@ -1,0 +1,103 @@
+[
+ {
+  "npc_id": 9500000083,
+  "name": "Admiral Fishfinder",
+  "zone": "Briarwood",
+  "position": [
+   -474.5913,
+   -89.65859,
+   2389.419
+  ],
+  "heading": -0.309304,
+  "model": "fairy_f_pirate_01.agr",
+  "model_id": 2116,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1595",
+  "near_zone": "Briarwood",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000113,
+  "name": "Cragara",
+  "zone": "Briarwood",
+  "position": [
+   130.87897,
+   28.729305,
+   290.85706
+  ],
+  "heading": -0.0971219953,
+  "model": "sogg_f_vendor.adr",
+  "model_id": 4103,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000153,
+  "name": "Kade Carmichael",
+  "zone": "Briarwood",
+  "position": [
+   -295.7332,
+   -60.97827,
+   1949.605
+  ],
+  "heading": 0.158672,
+  "model": "human_m_kade_carmichael.agr",
+  "model_id": 833,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1422",
+  "near_zone": "Briarwood",
+  "quests_waiting": [
+   "q3080047 objective 1",
+   "q3080048 objective 1"
+  ]
+ },
+ {
+  "npc_id": 9500000164,
+  "name": "Linx Redline",
+  "zone": "Briarwood",
+  "position": [
+   -2256.326,
+   -16.37272,
+   572.4272
+  ],
+  "heading": 2.544222,
+  "model": "fairy_m_linx_redline.agr",
+  "model_id": 1300,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1758",
+  "near_zone": "Wilds",
+  "quests_waiting": [
+   "q3080006 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000207,
+  "name": "Sera / Bella",
+  "zone": null,
+  "position": [
+   84.59488,
+   69.00154,
+   1265.582
+  ],
+  "heading": -2.270749,
+  "model": "fairy_druid_f.adr",
+  "model_id": 456,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:213",
+  "near_zone": "Shrouded Glade",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000229,
+  "name": "Vicki",
+  "zone": "Briarwood",
+  "position": [
+   -2159.124,
+   -47.03806,
+   152.1265
+  ],
+  "heading": 0.138117,
+  "model": "human_f_freestyle_10.agr",
+  "model_id": 551,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2454",
+  "near_zone": "Farnum Farmstead",
+  "quests_waiting": []
+ }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=minigame-v1-evidence-r1 status=no_submit turns=3 usd=0.0025 tokens(read,write,in,out)=[24374, 13739, 8, 1080] model=claude-haiku-5-5 -->
+# tests/minigame.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "The one removal verdict holds. reward_api_duplicate_key_is_inert calls apply_grant twice with the same key and checks that the retry returns no packets and that coins stay at 15. rewards.rs::retry_with_same_key_returns_same_state_and_no_packets does the same: a repeated key returns empty messages, and inventory state, profiles and applied_grant_keys all equal the committed state. Inventory state includes coins, so the coin check is covered. The other seven tests are kept with no covering test named, which is the safe direction. whole_file_removable=false is correct because seven tests remain. I did not re-verify each keep's 'no equivalent elsewhere' claim, so the keep side is only lightly audited."}

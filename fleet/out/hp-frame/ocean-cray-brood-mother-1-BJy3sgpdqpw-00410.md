@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00410 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 1029] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 410s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 0.85, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 130, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Ninja player's purple skill effect hits the Brood Mother; its bar is mostly green with an orange-red loss at the right end. Other damage digits are partly covered and not legible."}

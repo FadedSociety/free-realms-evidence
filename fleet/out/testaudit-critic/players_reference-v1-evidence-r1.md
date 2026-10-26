@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=players_reference-v1-evidence-r1 status=done turns=3 usd=0.0020 tokens(read,write,in,out)=[19712, 11092, 8, 755] model=claude-haiku-5-5 -->
+# tests/players_reference.rs
+
+{"pass": true, "wireable": true, "score": 9, "problems": [], "notes": "The audit is correct. tests/players_reference.rs has no #[test] functions, so there are no per-test removal verdicts to back and no covering tests to check. whole_file_removable=false is right. I confirmed with repo search that the file is pulled in as a module via #[path = \"players_reference.rs\"] by tests/players_differential.rs (line 2) and tests/load_players.rs (line 60), so deleting it would break those binaries. The similar-file overlap list is name-based only and gives no basis for removal. The empty removal list can be handed to a builder as it stands. Any redundancy question belongs to the two binaries that include this file, not to this file."}

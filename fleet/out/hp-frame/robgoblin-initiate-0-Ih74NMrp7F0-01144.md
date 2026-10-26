@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=robgoblin-initiate-0-Ih74NMrp7F0-01144 status=done turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2773, 4, 583] model=claude-haiku-5-5 -->
+# Robgoblin Initiate Ih74NMrp7F0 1144s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Herbert Powerfeet", "level": 1, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Free-roam grass field; only the quest tracker 'Robgoblin Initiate' at 9m is shown with a quest marker. A green goblin-like figure stands at left with no readable name or health bar, so no enemy health can be read. Player level 1 is read from the circle, not the level 9 in the server rows."}

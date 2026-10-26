@@ -1,0 +1,544 @@
+[
+  {
+    "quest_id": 3010004,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 74, "count": 1},
+    "evidence": [
+      "Resources/MiniGameData.txt:75: ID 74, TYPE 1, NAME_ID 22102, DESC_ID 22103",
+      "locale:22103: exact objective text, 'Touch all of the target dummies within the time alloted to pass this test!'",
+      "Resources/MiniGameGroupLinks.txt:5: group 1 links minigame 74"
+    ],
+    "confidence": "high",
+    "notes": "Exact description-id match. The ten target dummies are objects touched within one minigame, not ten minigame completions, so count is 1."
+  },
+  {
+    "quest_id": 3020011,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 726, "count": 1},
+    "evidence": [
+      "Resources/MiniGameData.txt:636: ID 726 is 'Blacksmith: Hammer Quality' (NAME_ID 93813, DESC_ID 93814)",
+      "locale:430787: 'Complete the Hammer Quality minigame'",
+      "Resources/MiniGameGroupLinks.txt:98: group 1 links minigame 726"
+    ],
+    "confidence": "high",
+    "notes": "The table display name identifies the target directly. The objective asks for one completion."
+  },
+  {
+    "quest_id": 3040002,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {},
+    "evidence": [
+      "locale:103272: 'Beat the Card Duelist Practice Deck.'",
+      "Resources/MiniGameData.txt:419: ID 499 is the Trading Card Game lobby",
+      "Resources/MiniGameData.txt:420: ID 500 is Sam's Trick Deck, not a Practice Deck",
+      "Resources/MiniGameData.txt:457: ID 537 is the Trading Card Game Tutorial",
+      "Resources/MiniGameData.txt:703: ID 1036 is Kai's Challenge",
+      "IDA 0x018d7520: string 'practice deck'; the referencing code constructs/logs a deck and does not supply a MiniGameData id"
+    ],
+    "confidence": "low",
+    "notes": "Looked at all TCG rows around the lobby/tutorial/Sam/Kai entries, the TCG Lua start paths, and the IDA 'practice deck' references. No table row or launch path binds the Card Duelist Practice Deck to a MiniGameData id; aliasing it to Kai's Challenge or the TCG Tutorial would be unsupported."
+  },
+  {
+    "quest_id": 3040007,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 533, "count": 1},
+    "evidence": [
+      "locale:103549: 'As a Card Duelist; Challenge Jili at Jacque's Cafe'",
+      "Resources/MiniGameData.txt:453: ID 533 is \"Jili's Best Deck\" and is the only Jili-specific TCG row",
+      "Resources/MiniGameGroupLinks.txt:566: group 16 links minigame 533"
+    ],
+    "confidence": "medium",
+    "notes": "This is the approach/challenge step for the same Jili duel identified explicitly by the next objective. The table has only one Jili duel."
+  },
+  {
+    "quest_id": 3040007,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 533, "count": 1},
+    "evidence": [
+      "locale:92819: exact objective text",
+      "Resources/MiniGameData.txt:453: ID 533, DESC_ID 92819, \"Jili's Best Deck\"",
+      "Resources/MiniGameGroupLinks.txt:566: group 16 links minigame 533"
+    ],
+    "confidence": "high",
+    "notes": "Exact description-id match; one match completion."
+  },
+  {
+    "quest_id": 3040009,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 504, "count": 1},
+    "evidence": [
+      "locale:103650: \"Beat Poe Tatters' Trick Deck to win one of his cards!\"",
+      "Resources/MiniGameData.txt:424: ID 504 is \"Poe's Trick Deck\"",
+      "locale:92756: table description identifies Poe Tatters and his Trick Deck",
+      "Resources/MiniGameGroupLinks.txt:537: group 16 links minigame 504"
+    ],
+    "confidence": "high",
+    "notes": "Unique NPC-and-deck match; one match completion."
+  },
+  {
+    "quest_id": 3040015,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {},
+    "evidence": [
+      "locale:103935: 'Bry wants you to head to Snowhill and play a match against that pigheaded Garrison Gold.'",
+      "Resources/MiniGameData.txt:432: ID 512, Garrison's Trick Deck",
+      "Resources/MiniGameData.txt:433: ID 513, Garrison's Creature Deck",
+      "Resources/MiniGameData.txt:434: ID 514, Garrison's Resource Deck",
+      "Resources/MiniGameData.txt:435: ID 515, Garrison's Tournament Deck"
+    ],
+    "confidence": "low",
+    "notes": "The objective names Garrison but not a deck. Four Garrison rows match equally; picking one by row order would be a guess."
+  },
+  {
+    "quest_id": 3040016,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {},
+    "evidence": [
+      "locale:103942: 'Do whatever it takes to get a match with Garrison Gold.'",
+      "locale:103945: 'See if Perry will give you a pig at the farm just outside of Snowhill.'",
+      "locale:103946: 'Catch Puggles the Pig'",
+      "Resources/MiniGameData.txt:432-435: four distinct Garrison deck rows"
+    ],
+    "confidence": "low",
+    "notes": "This row describes obtaining a match by fetching the pig, not a particular card mini-game. The four Garrison deck ids remain ambiguous and the objective may be misclassified as finish_minigame."
+  },
+  {
+    "quest_id": 3040026,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 534, "count": 1},
+    "evidence": [
+      "locale:104307: 'As a Card Duelist; Defeat Herme Fickleleaf'",
+      "Resources/MiniGameData.txt:454: ID 534 is \"Herme's Favorite Deck\"",
+      "locale:92820: table description names Card Duelist Herme",
+      "Resources/MiniGameGroupLinks.txt:567: group 16 links minigame 534"
+    ],
+    "confidence": "high",
+    "notes": "Unique Herme-specific table row; one match completion."
+  },
+  {
+    "quest_id": 3040031,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 668, "count": 1},
+    "evidence": [
+      "locale:413776: 'Play a few games of cards with Esther in Briarwood while you wait for Dominic to return.'",
+      "Resources/MiniGameData.txt:580: ID 668 is \"Esther's Friendly Deck\"",
+      "Resources/MiniGameData.txt:600: ID 688 is a later \"Esther's First Deck\" candidate",
+      "Resources/MiniGameGroupLinks.txt:574: group 16 links minigame 668"
+    ],
+    "confidence": "medium",
+    "notes": "The table has several Esther decks. The casual Break Time step fits the Friendly Deck and precedes her Challenge/special-card deck in the preserved quest sequence. This is a sequence-based assignment, not an exact quest-to-deck link."
+  },
+  {
+    "quest_id": 3040036,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 697, "count": 1},
+    "evidence": [
+      "locale:413772: Sir Wellington wants to play another game of cards",
+      "Resources/MiniGameData.txt:608: ID 696 is \"Sir Wellington's First Deck\"",
+      "Resources/MiniGameData.txt:609: ID 697 is \"Sir Wellington's Second Deck\"",
+      "Resources/MiniGameGroupLinks.txt:589: group 16 links minigame 697"
+    ],
+    "confidence": "medium",
+    "notes": "The word 'another' and the preserved quest order place this after Wellington's First Deck, selecting the Second Deck. The table does not encode a direct quest-id link."
+  },
+  {
+    "quest_id": 3040040,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 699, "count": 1},
+    "evidence": [
+      "locale:413812: Sir Wellington's cardie partay objective",
+      "Resources/MiniGameData.txt:611: ID 699 is \"Sir Wellington's Celebration Deck\"",
+      "locale:415662: description identifies Sir Wellington's hero/challenge deck",
+      "Resources/MiniGameGroupLinks.txt:591: group 16 links minigame 699"
+    ],
+    "confidence": "medium",
+    "notes": "Celebration Deck is the unique Wellington deck matching the partay step. The link is semantic rather than an explicit quest-to-deck id in the table."
+  },
+  {
+    "quest_id": 3040042,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 391, "count": 1},
+    "evidence": [
+      "locale:436539: Mayor Crystalline wants to play a few games of cards",
+      "Resources/MiniGameData.txt:375: ID 391 is \"Crystalline's First Round\"",
+      "Resources/MiniGameData.txt:376-378: IDs 392-394 are the remaining Crystalline decks"
+    ],
+    "confidence": "low",
+    "notes": "The objective does not name a deck. First Round is selected as the first deck in the matching Crystalline series; IDs 392-394 remain possible if multiple games are required."
+  },
+  {
+    "quest_id": 3040044,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {},
+    "evidence": [
+      "locale:436483: \"Beat Tyrone's First Deck\"",
+      "Resources/MiniGameData.txt:371: ID 387 is \"Tyrone's First Round\"",
+      "Resources/MiniGameData.txt:604: ID 692 is also \"Tyrone's First Round\" from the later Tyrone Shadowshard deck set",
+      "Resources/MiniGameGroupLinks.txt:584: group 16 links minigame 692"
+    ],
+    "confidence": "low",
+    "notes": "The exact text is ambiguous between two duplicate Tyrone first-round table entries. Neither the title nor table data establishes which era is used by this objective."
+  },
+  {
+    "quest_id": 3040046,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 395, "count": 1},
+    "evidence": [
+      "locale:436543: Jonathon Forkpath wants to play a few games of cards",
+      "Resources/MiniGameData.txt:379: ID 395 is \"Jonathon's First Round\"",
+      "Resources/MiniGameData.txt:380-382: IDs 396-398 are the remaining Jonathon decks"
+    ],
+    "confidence": "low",
+    "notes": "The objective is generic. First Round is the only defensible per-NPC starting choice; multiple games could instead require later decks."
+  },
+  {
+    "quest_id": 3040050,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 403, "count": 1},
+    "evidence": [
+      "locale:436551: Senari wants to play a few games of cards",
+      "Resources/MiniGameData.txt:387: ID 403 is \"Senari's First Round\"",
+      "Resources/MiniGameData.txt:388-390: IDs 404-406 are the remaining Senari decks"
+    ],
+    "confidence": "low",
+    "notes": "The objective is generic. First Round is the starting Senari deck; the table does not bind the quest to one deck."
+  },
+  {
+    "quest_id": 3040054,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 411, "count": 1},
+    "evidence": [
+      "locale:26464: Clancy Blackheart Resource Deck objective with Snarling Hedges reward",
+      "Resources/MiniGameData.txt:395: ID 411, Blackheart's First Round, DESC_ID 13341",
+      "locale:13341: table description names Blackheart's Resource deck and Snarling Hedges"
+    ],
+    "confidence": "high",
+    "notes": "Unique NPC, deck type, and reward match; one match completion."
+  },
+  {
+    "quest_id": 3040054,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 412, "count": 1},
+    "evidence": [
+      "locale:26466: Clancy Blackheart Trick Deck objective with Icy Arrow",
+      "Resources/MiniGameData.txt:396: ID 412, Blackheart's Second Round, DESC_ID 13344",
+      "locale:13344: table description names Blackheart's Trick deck and Icy Arrow"
+    ],
+    "confidence": "high",
+    "notes": "Unique NPC, deck type, and reward match; one match completion."
+  },
+  {
+    "quest_id": 3040054,
+    "objective": 3,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 413, "count": 1},
+    "evidence": [
+      "locale:26468: Clancy Blackheart Creature Deck objective with Nettleseed Pest",
+      "Resources/MiniGameData.txt:397: ID 413, Blackheart's Third Round, DESC_ID 13347",
+      "locale:13347: table description names Blackheart's Creature deck and Nettleseed Pest"
+    ],
+    "confidence": "high",
+    "notes": "Unique NPC, deck type, and reward match; one match completion."
+  },
+  {
+    "quest_id": 3040054,
+    "objective": 4,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 414, "count": 1},
+    "evidence": [
+      "locale:26470: Clancy Blackheart Tournament Deck objective with the hero card",
+      "Resources/MiniGameData.txt:398: ID 414, Blackheart's Fourth Round, DESC_ID 13350",
+      "locale:13350: table description names Blackheart's Tournament deck and hero card"
+    ],
+    "confidence": "high",
+    "notes": "Unique NPC, deck type, and reward match; one match completion."
+  },
+  {
+    "quest_id": 3040055,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 415, "count": 1},
+    "evidence": [
+      "locale:26477: Beat Freddy's Resource Deck",
+      "Resources/MiniGameData.txt:399: ID 415 is Slowhands' First Round",
+      "locale:13353: table description names Slowhands' Resource deck and its Chaos reward"
+    ],
+    "confidence": "high",
+    "notes": "Unique deck-type match for Freddy Slowhands; one match completion."
+  },
+  {
+    "quest_id": 3040055,
+    "objective": 3,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 416, "count": 1},
+    "evidence": [
+      "locale:26479: Beat Freddy's Trick Deck",
+      "Resources/MiniGameData.txt:400: ID 416 is Slowhands' Second Round",
+      "locale:13356: table description names Slowhands' Trick deck and Roundhouse Kick"
+    ],
+    "confidence": "high",
+    "notes": "Unique deck-type match for Freddy Slowhands; one match completion."
+  },
+  {
+    "quest_id": 3040055,
+    "objective": 4,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 417, "count": 1},
+    "evidence": [
+      "locale:26481: Beat Freddy's Creature Deck",
+      "Resources/MiniGameData.txt:401: ID 417 is Slowhands' Third Round",
+      "locale:13359: table description names Slowhands' Creature deck and Armored Robgoblin"
+    ],
+    "confidence": "high",
+    "notes": "Unique deck-type match for Freddy Slowhands; one match completion."
+  },
+  {
+    "quest_id": 3040055,
+    "objective": 5,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 418, "count": 1},
+    "evidence": [
+      "locale:26483: Beat Freddy's Tournament Deck",
+      "Resources/MiniGameData.txt:402: ID 418 is Slowhands' Fourth Round",
+      "locale:13362: table description names Slowhands' Tournament deck and hero card"
+    ],
+    "confidence": "high",
+    "notes": "Unique deck-type match for Freddy Slowhands; one match completion."
+  },
+  {
+    "quest_id": 3040056,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 419, "count": 1},
+    "evidence": [
+      "locale:26492: Bud Grimyfoot Resource Deck objective with the Bone Bog Cemetery reward",
+      "Resources/MiniGameData.txt:403: ID 419 is Grimyfoot's First Round",
+      "locale:13365: table description names Grimyfoot's Resource deck and Bone Bog Cemetery"
+    ],
+    "confidence": "high",
+    "notes": "Unique NPC, deck type, and reward match. Despite the draft count of 4, the text asks to battle one Resource Deck, so count is 1."
+  },
+  {
+    "quest_id": 3040057,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 423, "count": 1},
+    "evidence": [
+      "locale:7961: go to Seaside and play Baron von Darkcheat for a few games",
+      "Resources/MiniGameData.txt:407: ID 423 is Darkcheat's First Round",
+      "Resources/MiniGameData.txt:408-410: IDs 424-426 are the later Darkcheat deck set",
+      "Resources/MiniGameData.txt:391-394: IDs 407-410 are an earlier duplicate Darkcheat set"
+    ],
+    "confidence": "low",
+    "notes": "Meet the Boss belongs to the later Baron sequence, whose first deck is 423. The objective does not name a deck and eight Darkcheat rows exist across two sets, so this assignment is not definitive."
+  },
+  {
+    "quest_id": 3050008,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 538, "count": 1},
+    "evidence": [
+      "locale:100540: 'Beat the Package Recovery! minigame'",
+      "Resources/MiniGameData.txt:458: ID 538 is 'Chef: Package Recovery!'",
+      "locale:101660: 'Recover all five Stolen Packages before time runs out!'",
+      "Resources/MiniGameGroupLinks.txt:188: group 2 links minigame 538"
+    ],
+    "confidence": "high",
+    "notes": "The five packages are internal objectives of one minigame; the quest asks for one completion."
+  },
+  {
+    "quest_id": 3050012,
+    "objective": 3,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 539, "count": 1},
+    "evidence": [
+      "locale:115589: 'Beat the Fireworks Frenzy! minigame'",
+      "Resources/MiniGameData.txt:459: ID 539 is 'Chef: Fireworks Frenzy!'",
+      "locale:115776: table description names Ranger Ricardo and the fireworks search",
+      "Resources/MiniGameGroupLinks.txt:189: group 2 links minigame 539"
+    ],
+    "confidence": "high",
+    "notes": "Exact named minigame match; one completion."
+  },
+  {
+    "quest_id": 3060008,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 604, "count": 1},
+    "evidence": [
+      "locale:394459: exact objective text",
+      "Resources/MiniGameData.txt:516: ID 604 is \"Break 'er In\" with DESC_ID 394459",
+      "Resources/MiniGameGroupLinks.txt:434: group 11 links minigame 604"
+    ],
+    "confidence": "high",
+    "notes": "Exact description-id match; one derby completion."
+  },
+  {
+    "quest_id": 3060016,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 611, "count": 1},
+    "evidence": [
+      "locale:394466: exact objective text",
+      "Resources/MiniGameData.txt:523: ID 611 is 'Seeking a Sponsor' with DESC_ID 394466",
+      "Resources/MiniGameGroupLinks.txt:441: group 11 links minigame 611"
+    ],
+    "confidence": "high",
+    "notes": "Exact description-id match; one derby completion."
+  },
+  {
+    "quest_id": 3060021,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 607, "count": 1},
+    "evidence": [
+      "locale:393349: J. P. Screecher's survive-the-derby objective",
+      "Resources/MiniGameData.txt:519: ID 607 is 'Wear and Tear', the row matching this quest title",
+      "locale:394021: table description for ID 607 covers the health-power-up objective from the same derby",
+      "Resources/MiniGameGroupLinks.txt:437: group 11 links minigame 607"
+    ],
+    "confidence": "medium",
+    "notes": "The row description is another objective from the same Wear and Tear quest; the exact quest-title-to-row name match selects ID 607. One derby completion."
+  },
+  {
+    "quest_id": 3060023,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 615, "count": 1},
+    "evidence": [
+      "locale:394032: take first place against Claudio's minions in Frost Ridge",
+      "Resources/MiniGameData.txt:527: ID 615 is 'Taking on the Tank'",
+      "locale:394470: table description for ID 615 names the Frost Ridge tank and his minions",
+      "Resources/MiniGameGroupLinks.txt:445: group 11 links minigame 615"
+    ],
+    "confidence": "medium",
+    "notes": "The objective is one of the steps in Taking on the Tank; the table description names the same opponents and venue. One derby completion."
+  },
+  {
+    "quest_id": 3060032,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 619, "count": 1},
+    "evidence": [
+      "locale:394474: exact objective text",
+      "Resources/MiniGameData.txt:531: ID 619 is 'Action!' with DESC_ID 394474",
+      "Resources/MiniGameGroupLinks.txt:449: group 11 links minigame 619"
+    ],
+    "confidence": "high",
+    "notes": "Exact description-id match; one derby completion."
+  },
+  {
+    "quest_id": 3070006,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 599, "count": 1},
+    "evidence": [
+      "locale:408634: 'Catch a big flutterfish'",
+      "locale:408637: 'Take the flutterfish back to Muggup at Sacred Grove Shallows.'",
+      "Resources/MiniGameData.txt:511: ID 599 is the Sacred Grove Shallows fishing game",
+      "Resources/MiniGameGroupLinks.txt:607: group 21 links minigame 599"
+    ],
+    "confidence": "medium",
+    "notes": "The objective asks for one big Flutterfish. The butterfly/flutterfish region wording places the catch in Sacred Grove Shallows; the fish can also appear at Rainbow Lake, but this quest row points to Muggup in the Shallows."
+  },
+  {
+    "quest_id": 3070007,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 596, "count": 1},
+    "evidence": [
+      "locale:419160: catch a bigger creeping cod than Ernest in Darklit Lagoon",
+      "Resources/MiniGameData.txt:508: ID 596 is the Darklit Lagoon fishing game",
+      "Resources/MiniGameGroupLinks.txt:604: group 21 links minigame 596"
+    ],
+    "confidence": "high",
+    "notes": "Explicit location match. The objective asks for one qualified catch."
+  },
+  {
+    "quest_id": 3070007,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 596, "count": 3},
+    "evidence": [
+      "locale:409217: catch three bitter beta in Darklit Lagoon",
+      "locale:409219: 'Reel in three bitter beta before Ernest does'",
+      "Resources/MiniGameData.txt:508: ID 596 is the Darklit Lagoon fishing game",
+      "Resources/MiniGameGroupLinks.txt:604: group 21 links minigame 596"
+    ],
+    "confidence": "high",
+    "notes": "Explicit location and explicit count of three catches."
+  },
+  {
+    "quest_id": 3070010,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 599, "count": 6},
+    "evidence": [
+      "locale:409698: Jonah needs a few butter flyfish for bait",
+      "locale:409880: 'You can catch butter flyfish at Sacred Grove Shallows.'",
+      "locale:412544: 'Be sure you have at least six of them before you return to me!'",
+      "Resources/MiniGameData.txt:511: ID 599 is the Sacred Grove Shallows fishing game"
+    ],
+    "confidence": "high",
+    "notes": "The count-bearing client objective specifies at least six fish. The location objective names Sacred Grove Shallows."
+  },
+  {
+    "quest_id": 3070011,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 596, "count": 1},
+    "evidence": [
+      "locale:419161: 'Catch a large creeping cod'",
+      "locale:419160: the same quest places the competition in Darklit Lagoon",
+      "Resources/MiniGameData.txt:508: ID 596 is the Darklit Lagoon fishing game"
+    ],
+    "confidence": "high",
+    "notes": "One large Creeping Cod is requested at the explicitly named Darklit Lagoon."
+  },
+  {
+    "quest_id": 3070012,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 599, "count": 10},
+    "evidence": [
+      "locale:409912: 'Catch some large baconfish to help Jonah make better bait.'",
+      "locale:409914: 'Big baconfish can be found at Sacred Grove Shallows.'",
+      "locale:412546: 'Be sure you have at least ten of them before you return to me.'",
+      "Resources/MiniGameData.txt:511: ID 599 is the Sacred Grove Shallows fishing game"
+    ],
+    "confidence": "high",
+    "notes": "The related count-bearing client objective specifies at least ten large Baconfish; location is explicit."
+  },
+  {
+    "quest_id": 3070012,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {"minigame_id": 599, "count": 10},
+    "evidence": [
+      "locale:409913: 'Reel in large Baconfish'",
+      "locale:409914: 'Big baconfish can be found at Sacred Grove Shallows.'",
+      "locale:412546: 'Be sure you have at least ten of them before you return to me.'",
+      "Resources/MiniGameData.txt:511: ID 599 is the Sacred Grove Shallows fishing game"
+    ],
+    "confidence": "high",
+    "notes": "Duplicate objective wording in the same quest; the count-bearing client line requires ten."
+  }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=jake-blackforest-2-TT05C-mF3m4-00038 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2877, 4, 1080] model=claude-haiku-5-5 -->
+# Jake Blackforest TT05C_mF3m4 38s
+
+{"screen": "combat", "target": {"name": "Jake Blackforest", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Grayson Stonyhammer", "level": null, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Jake Blackforest's name sits on a fully red bar at top centre, with no green health visible, and he is speaking a line in red chat; the nearby grey werewolf is not labelled with his name. 'Goal Completed' banner shown; no damage numbers or attackers on Jake."}

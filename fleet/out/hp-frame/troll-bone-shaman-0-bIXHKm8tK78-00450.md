@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-bone-shaman-0-bIXHKm8tK78-00450 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2984, 4, 785] model=claude-haiku-5-5 -->
+# Troll Bone Shaman bIXHKm8tK78 450s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player rides a hover scooter across a grassy field; a small full green health bar floats mid-distance at top center with no legible name, and a distant figure sits on the right. No Troll Bone Shaman name or bar is legible in this frame, so the target cannot be confirmed here."}

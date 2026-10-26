@@ -1,0 +1,195 @@
+[
+ {
+  "quest_id": 3080004,
+  "title": "Kart Driver: Target Acquired",
+  "record": "quest-lines/quests.json q3080004",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 628,
+     "count": 1
+    },
+    "text_string_id": 394327,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: 'Beat Verve McNichols in the \"Target Acquired\" race at Wildwood Speedway.'",
+      "source": "locale:394327"
+     },
+     {
+      "claim": "Minigame id 628 is named 'Target Acquired' (name_id 3296, description_id 3433, type 10, native-declared, restoration_status code/test-candidate)",
+      "source": "notes/Research/original-activity-coverage.json:11794-11804"
+     },
+     {
+      "claim": "Quest line 394321 confirms a single race outcome: the player outraced Verve McNichols at Wildwood Speedway",
+      "source": "locale:394321"
+     }
+    ],
+    "note": "Count 1 is the text's single race win (not chosen by me). Minigame id was verified against the coverage record, not just the pack draft. Race is run at Wildwood Speedway; the Wildwood Speedway turnstile (locale:394324) is a separate clickable step and is not part of this objective."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080007,
+  "title": "Kart Driver: Challenging T.R.",
+  "record": "quest-lines/quests.json q3080007",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000950
+    },
+    "text_string_id": 101185,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Challenge T.R. Walker Jr to a race.' is locale:101185 (quest_objective, Wildwood, T.R. Walker Jr.).",
+      "source": "locale:101185"
+     },
+     {
+      "claim": "NPC row npc_id 9500000950 is T.R. Walker Jr. in our placed NPC data.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/wilds.json:41301-41304"
+     },
+     {
+      "claim": "The offer 101178 tells the player to go challenge T.R. there, so the target is T.R., not Linx.",
+      "source": "locale:101178"
+     }
+    ],
+    "note": "Talk-to-T.R. starts the challenge. The race itself is not modelled as a separate objective here; the pack gives no race minigame id, and the text names no count, so one target (count not applicable)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080009,
+  "title": "Kart Driver: Exploder's League Sponsorship",
+  "record": "quest-lines/quests.json q3080009",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000872
+    },
+    "text_string_id": 394490,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text is 'Talk to Blammo at the Wildwood Speedway.'",
+      "source": "locale:394490"
+     },
+     {
+      "claim": "NPC row 9500000872 is named Blammo (name_string_id 394488) and is placed in the Wildwood data",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/wilds.json:2473"
+     },
+     {
+      "claim": "Blammo is the quest offer speaker (394486 is his pitch)",
+      "source": "pack: dialog.offer"
+     }
+    ],
+    "note": "Single talk objective, count not applicable. Draft npc_id confirmed against the repo NPC row; no change needed."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080011,
+  "title": "Kart Driver: Wildwood Endurance Challenge",
+  "record": "quest-lines/quests.json q3080011",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 100000003022
+    },
+    "text_string_id": 394576,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Client objective 394576 'See Big Paulie before the next race.' names Big Paulie (npc_name locale:401323 'Big Paulie').",
+      "source": "locale:394576, locale:401323"
+     },
+     {
+      "claim": "Reference spawn spawn_guid 100000003022, legacy_npc_id 3022, name 'Big Paulie', name_string_id 401323, model 534 (fairy_m_mechanic_crofti_01.agr), position [-2233.92, -15.03775, 627.2598].",
+      "source": "repo:prototype/osfr-tools/data/content/npc_spawns_extra.json:27140"
+     }
+    ],
+    "note": "Keep npc_id 100000003022 (the reference spawn guid, which matches the draft). The NPC row is not placed in our data; needs_placement using the candidate above (name and string id match). Builder must confirm the placed row before wiring."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 632,
+     "count": 1
+    },
+    "text_string_id": 394582,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Resources/MiniGameData.txt row '632^10^3320^400926^9870' = minigame 632, type 10, name string 3320.",
+      "source": "client:Resources/MiniGameData.txt:544"
+     },
+     {
+      "claim": "locale:3320 = 'Wildwood Endurance Challenge'.",
+      "source": "locale:3320"
+     },
+     {
+      "claim": "goal text locale:400926 'Complete three laps in under 2:47' (one race, so count 1).",
+      "source": "locale:400926"
+     }
+    ],
+    "note": "Count 1 is the one race named in the text. The objective is the race itself, not the time limit."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080012,
+  "title": "Kart Driver: Dominating at Wildwood",
+  "record": "quest-lines/quests.json q3080012",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 633,
+     "count": 3
+    },
+    "text_string_id": 394597,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Client MiniGameData row 633 is TYPE 10, NAME_ID 3321 = 'Dominating at Wildwood' (the race named in the objective text)",
+      "source": "client:Resources/MiniGameData.txt:545 (633^10^3321^3438^9870...)"
+     },
+     {
+      "claim": "Objective text 'Win the \"Dominating at Wildwood\" race three times' with count 3",
+      "source": "locale:394597"
+     },
+     {
+      "claim": "Quest record 3080012 is the Dominating at Wildwood quest (quest_id 3080012, title locale 3509, giver Blammo)",
+      "source": "refs:quest-lines/wiring/zone-quests/wildwood.json:781-786"
+     },
+     {
+      "claim": "Broader wording 'Win three races at the Wildwood Speedway' (locale 394594) describes the same three wins; merged here because the server counts one minigame",
+      "source": "locale:394594; refs:quest-lines/wiring/zone-quests/wildwood.json:792-796"
+     }
+    ],
+    "note": "Merged the former duplicate index 1 into this single objective (same minigame 633, count 3). Count 3 is stated in the text (394597 and 394594). The old index 1 duplicate is dropped. Minigame 633 is confirmed in the client data; the earlier 'no row found' concern is resolved."
+   }
+  ]
+ }
+]

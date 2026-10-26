@@ -1,0 +1,14 @@
+<!-- fleet job=testaudit-infer id=players_differential-v1 status=done turns=3 usd=0.0028 tokens(read,write,in,out)=[19314, 14053, 8, 1777] model=claude-haiku-5-5 -->
+# tests/players_differential.rs
+
+{"file": "tests/players_differential.rs",
+ "tests": [
+  {"name": "randomized_ordered_messages_match_pre_grid_algorithm", "verdict": "keep", "covered_by": null, "reason": "Only differential check of the spatial-grid PlayerRegistry against the frozen pre-grid oracle (tests/players_reference.rs) over randomized join/leave/pose/state sequences, varied radius/cap, clone independence. Canary-style equivalence check; no other test in the suite drives this comparison."},
+  {"name": "neighbourhood_canary_and_extreme_finite_coordinates_match", "verdict": "keep", "covered_by": null, "reason": "Boundary canary for inclusive radius, f32 extremes and cross-cell neighbourhood; the reference comparison is unique. The cross-cell assertion is an explicit canary against a grid restricted to its own cell."},
+  {"name": "rejected_poses_and_identities_do_not_poison_the_grid", "verdict": "keep", "covered_by": null, "reason": "Refusal/hostile-input check: NaN/inf poses and bad account/character identities must return InvalidPose or be rejected without touching the index. Security-relevant; no equally strong test is named, so kept. tests/players.rs covers InvalidPose only in isolation, not as grid-poisoning differential."},
+  {"name": "dense_randomized_ordered_messages_match_reference", "verdict": "keep", "covered_by": null, "reason": "Dense/coincident-crowd differential against the reference oracle at cap 0/1/64/128 with zero-seed coincident crowds; the crowded-cell canary is not covered elsewhere (load_players.rs is #[ignore]d timing measurement with no assertion on the same breadth). Keep."},
+  {"name": "cutoff_crossing_and_tie_canary_matches_reference", "verdict": "keep", "covered_by": null, "reason": "Canary for selected-mover cutoff re-ranking (documented in tests/load_players.rs header as the id-79 x=0.5 mutation check); guards the W106 regression. Not covered by any other file's assertions."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.7,
+ "notes": "All five tests are differential/canary/refusal checks and the file is the only live equivalence test between the grid and players_reference.rs oracle, so nothing is removable. Similar-file scores (soccer, piece_*) are unrelated by content. Overlapping but weaker checks exist in tests/players.rs (update_pose_with_state at lines ~610-632) and tests/load_players.rs (ignored timing run that asserts equal outputs at N up to 1000 only); those do not drive the same breadth of randomized/tie/extreme-coordinate inputs, so no verdict of superseded was given. Only the last ~40 lines of the dense test body were not visible in the excerpt; verdict is based on its name and the file header."}

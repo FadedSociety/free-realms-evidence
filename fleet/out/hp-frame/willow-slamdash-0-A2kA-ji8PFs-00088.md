@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=willow-slamdash-0-A2kA-ji8PFs-00088 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3150, 4, 734] model=claude-haiku-5-5 -->
+# Willow Slamdash A2kA_ji8PFs 88s
+
+{"screen": "minigame", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Morgan Slipdrifter", "health_fraction": 0.8}, {"name": "Mikko Ragerunner", "health_fraction": 0.9}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 7, "job": "Demo Derby Driver", "health_fraction": null}, "target_defeated": false, "notes": "Wildwood Demo Derby minigame (cars, timer 2:41, 5th of 8); Willow Slamdash is not on screen; kill feed shows Nina the Wrecker knocked out Tucker Thunderjolt."}

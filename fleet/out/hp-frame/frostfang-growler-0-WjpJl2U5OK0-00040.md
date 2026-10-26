@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=frostfang-growler-0-WjpJl2U5OK0-00040 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3151, 4, 975] model=claude-haiku-5-5 -->
+# Frostfang Growler WjpJl2U5OK0 40s
+
+{"screen": "world", "target": {"name": "Frostfang Growler", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 13, "job": "Adventurer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Open world with no enemy in view; 'Frostfang Growler' appears only as a map/tracker label near the minimap, with its distance text overlapped. The large green-barred nameplate 'Tavish Foxshield <Tavish Foxshield's Guild>' is another player, not the target."}

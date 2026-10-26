@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=two-of-three-0-dCKyNMH0eDo-00110 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2734, 4, 1046] model=claude-haiku-5-5 -->
+# Two of Three dCKyNMH0eDo 110s
+
+{"screen": "combat", "target": {"name": "Two of Three", "level": 20, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.85}], "damage_numbers": [], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.9}, "target_defeated": false, "notes": "Two of Three (level 20) is shown with a name plate and a red-tinted bar, but the bar fill is too unclear to read reliably; a 'Press X' interaction prompt sits under it. The player's fire attack hits the armored figure. Player HP reads 7663/8540, energy 4/100. Some system messages about stun and energy are on screen."}

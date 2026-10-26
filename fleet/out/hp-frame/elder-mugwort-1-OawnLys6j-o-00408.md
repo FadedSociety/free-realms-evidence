@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00408 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 1055] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 408s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": 0.7, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}, {"value": 2490, "on": "target", "color": "yellow"}, {"value": 2490, "on": "target", "color": "yellow"}, {"value": 2490, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": 0.3, "health_text": null}, "target_defeated": false, "notes": "Boss bar for Elder Mugwort at top is partly drained while the player hits it for repeated 2490 yellow damage; a red -3?7!! number is also shown and not fully legible."}

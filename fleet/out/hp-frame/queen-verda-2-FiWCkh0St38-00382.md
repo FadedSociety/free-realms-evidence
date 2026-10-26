@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-2-FiWCkh0St38-00382 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3148, 4, 1062] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 382s
+
+{"screen": "combat", "target": {"name": "Queen Verda", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Troll Roughguard", "health_fraction": 0.6}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.9}, "target_defeated": false, "notes": "Queen Verda appears only in the top boss-style bar (red fill, no clear green/lost split and no level); her creature is not clearly visible; the Troll Roughguard bar is the one drawn over a creature, and Shadow Ninja labels are over nearby figures."}

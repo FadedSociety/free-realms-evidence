@@ -1,0 +1,21 @@
+<!-- fleet job=testaudit-infer id=piece_020-v1 status=done turns=3 usd=0.0047 tokens(read,write,in,out)=[33802, 25368, 8, 2363] model=claude-haiku-5-5 -->
+# tests/piece_020.rs
+
+{"file": "tests/piece_020.rs",
+ "tests": [
+  {"name": "original_capture_frames_decode_with_the_recovered_family_widths", "verdict": "keep", "covered_by": null, "reason": "Only test that decodes the four original retail capture frames (byte vectors and sha-pinned evidence) through parse_family_header. No other test in the repo drives the 175/141/167/39 family header from these captures."},
+  {"name": "malformed_frames_are_rejected_instead_of_guessed", "verdict": "keep", "covered_by": null, "reason": "Hostile/malformed-input refusal check (truncated frame, wrong outer byte, wrong length, truncated 4-byte sub-opcode). Refusal tests are kept; no equivalent elsewhere in the repo."},
+  {"name": "activity_launch_sub_opcodes_match_the_recovered_class_table", "verdict": "keep", "covered_by": null, "reason": "Pins the full 20-entry sub-opcode-to-class table recovered from the client binary, plus the 8/9 disagreement with the community enum. Unique to this piece; no other test references ClientActivityLaunch sub-opcodes."},
+  {"name": "activity_launch_frames_use_a_four_byte_sub_opcode_and_stay_opaque", "verdict": "keep", "covered_by": null, "reason": "Asserts the 4-byte sub-opcode width and that the payload stays opaque (a documented gap). Unique to the 175 family; not covered elsewhere."},
+  {"name": "owner_invites_accepts_readies_and_launches_one_instance", "verdict": "keep", "covered_by": null, "reason": "Happy-path lifecycle of the activity group registry. The similar piece_060 entry/zone-ready tests cover a different instance registry, not this group/invite state machine."},
+  {"name": "duplicate_and_non_member_requests_are_rejected", "verdict": "keep", "covered_by": null, "reason": "Refusal check: duplicate invites and every non-member operation return typed errors and leave state unchanged. Refusal test, kept."},
+  {"name": "launch_requires_every_accepted_member_to_be_ready", "verdict": "keep", "covered_by": null, "reason": "Gating policy check (NotReady blocks launch, phase stays Forming). Unique to the group registry."},
+  {"name": "quit_kick_and_capacity_keep_the_member_list_exact", "verdict": "keep", "covered_by": null, "reason": "Capacity limit, quit and kick membership exactness. Unique to this registry."},
+  {"name": "member_disconnect_leaves_the_group_and_the_instance", "verdict": "keep", "covered_by": null, "reason": "Disconnect-cleanup behaviour, including instance closure on last member. Unique to this registry; the piece_060 disconnect tests concern a different instance type."},
+  {"name": "owner_disconnect_cancels_a_group_that_has_not_launched", "verdict": "keep", "covered_by": null, "reason": "Cancel-on-owner-disconnect behaviour for a non-launched group. Unique to this registry."},
+  {"name": "membership_mutation_after_launch_is_rejected", "verdict": "keep", "covered_by": null, "reason": "Refusal check that membership changes after launch return AlreadyLaunched. Kept as a refusal check."},
+  {"name": "group_state_snapshot_reports_members_and_instances", "verdict": "keep", "covered_by": null, "reason": "Snapshot/state-report shape check for the group registry. Largely overlaps launched_registry setup, but no other test asserts this JSON shape; kept conservatively."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "The five most similar files (piece_060, matchmaking, housing, kart_service, housing_service) share surface vocabulary (instances, membership, refusals) but drive different families and registries; none references piece_020, ActivityGroupRegistry, parse_family_header or the 175 activity-launch family (repo-wide search confirmed). Full read of the file was done for lines 300-563; lines 1-300 were judged from the pack excerpt and the search hits on src/restoration/piece_020.rs. No test is superseded, duplicate or obsolete. The file is an include of src/restoration/piece_020.rs and is the only coverage of that module, so it should be kept until the lead registers the module and may then be re-checked."}

@@ -1,0 +1,13 @@
+<!-- fleet job=testaudit-infer id=session-v1 status=done turns=5 usd=0.0037 tokens(read,write,in,out)=[43701, 14892, 12, 2836] model=claude-haiku-5-5 -->
+# tests/session.rs
+
+{"file": "tests/session.rs",
+ "tests": [
+  {"name": "shared_session_matches_compiled_fixture_and_real_client_crc_length", "verdict": "keep", "covered_by": null, "reason": "Only test that asserts SessionRequest::response() byte-equals the compiled fixture and that crc_length 3 is echoed at response[10]. tests/transport_fuzz.rs::t1_session_handshake_rejects_every_truncation_bad_magic_crc_and_buffer_boundary covers the same truncation loop (lines 59-64) and CRC acceptance, but never checks the response bytes, so the response assertion is not redundant. The truncation loop alone is a partial duplicate of transport_fuzz t1."},
+  {"name": "cooked_multi_packet_children_have_no_individual_crc_headers", "verdict": "keep", "covered_by": null, "reason": "Asserts exact decoded children for a cooked Multi bundle and the bad-tail and empty-bundle refusals. transport_fuzz::t2_control_bundles_reject_excess_depth_and_child_count_atomically covers nesting depth and child count, not this exact framing or the bad-tail case. Refusal checks are kept conservatively."},
+  {"name": "multi_child_length_stays_one_byte_at_255", "verdict": "keep", "covered_by": null, "reason": "Canary pinning that Multi (opcode 3) reads a single length byte at 255, verified against the client dispatcher. The Group 0x19 'FF hi lo' form is tested in gateway.rs::group_child_lengths_follow_the_client_variable_length and login.rs::group_child_lengths_follow_the_client_variable_length, but those exercise a different opcode path. No other test checks Multi at 255."},
+  {"name": "clock_reflection_preserves_peer_fields_and_supplies_server_counts", "verdict": "keep", "covered_by": null, "reason": "Direct unit test of clock_reflect's field layout and its None on a 37-byte payload. gateway.rs::time_response_uses_current_seconds_and_original_packet_shape exercises the same reflection only through the gateway, and does not check the short-payload refusal or the peer-field preservation at this level. Not clearly covered elsewhere."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "No test in this file is a clear duplicate or obsolete. The overlap is partial: the truncation loop in test 1 repeats transport_fuzz::t1, and the bundle-depth/count checks overlap transport_fuzz::t2. Trimming the truncation loop from test 1 would be the only low-risk cleanup, and that is optional. The file's Multi-framing assertions are unique within the suite."}

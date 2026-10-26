@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=willow-slamdash-0-A2kA-ji8PFs-00084 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3150, 4, 623] model=claude-haiku-5-5 -->
+# Willow Slamdash A2kA_ji8PFs 84s
+
+{"screen": "minigame", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 7, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Wildwood Demo Derby kart race (not a combat frame). Willow Slamdash appears only as a faded kill-feed line ('Nina the Wrecker has knocked out Willow Slamdash'); no creature or health bar for it is on screen. The DAMAGE bar is the kart's damage meter, not an enemy health bar."}

@@ -1,0 +1,581 @@
+[
+  {
+    "quest_id": 3000001,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:4419584: 'Save the chugawug guards'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Adventurer.md:66: guide records this stage followed by the Gloamling defeat count, but gives no 45/7 objective id",
+      "IDA 0x009be130: family-45 dispatch only registers LookAt, UIEvent, FirstMovement and HousingFixtureMove; no matching event is evident for this stage",
+      "autopilot-int/notes/Build Guides/Gameplay/Quests and Objectives.md:140: the shipped client has no quest or objective definition table",
+      "autopilot-int/prototype/osfr-tools/src/quest_engine.rs:143-151,2964-2967: client_id is explicit data and is matched by equality, not derived from the quest or objective index"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the exact locale, the opening guide row, every ScriptsBase.lua Ui.OnObjectiveEvent site, the family-45 dispatcher, and the 25-record legacy self packet. No 45 registration or client event was found for 'Save the chugawug guards'; it is more likely server-observed combat/script progression. The original client id is not present, so found remains empty."
+  },
+  {
+    "quest_id": 3000003,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:4419602: 'Interact with the Hero's Journal'",
+      "ScriptsBase.lua:14674-14710: the StoryBook show/populate path raises no Ui.OnObjectiveEvent",
+      "ScriptsBase.lua:14716-14722: the only journal objective event is onStoryBookClose, and only in NPX tutorial mode",
+      "lab/working/OSFR.Server/OSFR Server/Customize/PacketSendSelfToClient.json:74022-74086: the available legacy Hero's Journal record contains only objective text ids 5100520 and 4419598, not 4419602",
+      "IDA 0x00c437a0: 45/10 stores a supplied event string; IDA 0x00cf3900 compares it for exact equality",
+      "IDA 0x00cffba0: a matching UIEvent sends 45/7 with the stored objective id"
+    ],
+    "confidence": "low",
+    "notes": "The open/interact step is not one of the seven Ui.OnObjectiveEvent names in the client; only closing the journal emits onStoryBookClose. This should be treated as a normal interaction or left unresolved unless an original registration packet supplies its id. No id was invented."
+  },
+  {
+    "quest_id": 3000003,
+    "objective": 3,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:4419604: 'Close the Hero's Journal'",
+      "ScriptsBase.lua:14716-14722: StoryBook:Hide calls Ui.OnObjectiveEvent('onStoryBookClose') only when Ui.IsInNPXTutorial() is true",
+      "lab/working/OSFR.Server/OSFR Server/Customize/PacketSendSelfToClient.json:74022-74086: the available legacy Hero's Journal record does not contain objective text id 4419604",
+      "IDA 0x00c437a0: 45/10 UIEvent registration carries an arbitrary objective id, i32 byte length, and event string",
+      "IDA 0x00cf3900: UIEvent matching calls 0x00cffba0, which sends 45/7 with the stored id",
+      "IDA 0x00cff7d0: ObjectiveClientCompletePacket stores the supplied id and uses family 45/subtype 7",
+      "autopilot-int/notes/Build Guides/Gameplay/Quests and Objectives.md:140: no client quest/objective definition table supplies the id"
+    ],
+    "confidence": "low",
+    "notes": "The trigger is recovered exactly as ui_event {'event':'onStoryBookClose'}, including the NPX-tutorial guard. The historical 45/7 client_id is not encoded in the client and is absent from the available legacy self packet. The guide's 4127344669 is a client locale id, not a 45/7 id; it is not reused as one."
+  },
+  {
+    "quest_id": 3000012,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:4420102: 'Destroy the Gloam Artifacts to weaken the blockade.'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Adventurer.md:77: guide describes approaching and interacting with three Gloam artifacts",
+      "IDA 0x008b6bc0: ordinary world-object interaction is command 26/8 carrying a target and trailing byte",
+      "autopilot-int/prototype/osfr-tools/src/npc_interaction.rs:1009-1035: the 13-byte 26/8 request is [26,0,8,0], u64 target, u8 flag",
+      "IDA 0x009be130: family 45 has no generic object-interaction completion subtype"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the guide row, locale text, family-45 dispatcher and the ordinary 26/8 interaction path. This is not evidenced as one 45/7 objective; it is likely per-artifact interact_actor progression (or a repeated interaction count), and the three actor GUIDs and historical client id are missing. No id was synthesized."
+  },
+  {
+    "quest_id": 3000038,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90867: 'Complete the armor testing for Quartermaster Bargangle'",
+      "autopilot-int/notes/Build Guides/Content/NPCs/NPCs - Briarwood.md:171: identifies Bargangle and armor testing but supplies no 45/7 id",
+      "IDA 0x009be130: family-45 registrations cover only LookAt, UIEvent, FirstMovement and HousingFixtureMove",
+      "autopilot-int/notes/Build Guides/Gameplay/Quests and Objectives.md:140: the client ships no quest/objective definitions"
+    ],
+    "confidence": "low",
+    "notes": "Searched the exact text, Build Guides, ScriptsBase.lua objective events, and the family-45 dispatcher. Armor testing is more likely a minigame/interaction or server-owned staged goal. Neither its original 45/7 id nor a concrete 45 trigger was found."
+  },
+  {
+    "quest_id": 3000046,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90927: 'Get the contents of the box back for Geoffrey.'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Adventurer.md:141: guide row confirms the quest but not a 45 trigger for this text",
+      "IDA 0x009be130: no generic collect/recover client-objective registration exists in family 45",
+      "autopilot-int/notes/Build Guides/Gameplay/Quests and Objectives.md:140: quest and objective records are server-supplied"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the locale, the Chapter 1 guide row, all ScriptsBase.lua Ui.OnObjectiveEvent sites, and the 45 dispatcher. The wording fits item collection/ordinary interaction, not one of the four 45 client-trigger classes. No objective id was available, so none was invented."
+  },
+  {
+    "quest_id": 3000050,
+    "objective": 4,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90982: 'Administer the antidote to Queen Valerian'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Adventurer.md:145: guide row identifies the antidote action and the fight but gives no 45/7 id",
+      "IDA 0x009be130: no generic use-item-on-actor trigger exists in family 45",
+      "autopilot-int/prototype/osfr-tools/src/content.rs:160-260: the authorable ContentGoal enum has no use_item variant",
+      "autopilot-int/prototype/osfr-tools/src/quest_engine.rs:668-671,2909-2915: UseItem is a normal authoritative QuestEvent separate from ClientReported"
+    ],
+    "confidence": "low",
+    "notes": "The action fits authoritative item-use/actor-target progression, not ClientReported. The server has a UseItem objective/event, but its content enum has no use_item goal and needs an exact item/target binding. The original packet-to-quest binding and historical 45 id are absent; no id was invented."
+  },
+  {
+    "quest_id": 3000054,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:389992: 'Click the pail of water next to Guard Reli'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Adventurer.md:156: after clicking the pail, the next stage is the Royally Thirsty Mushrooms minigame",
+      "IDA 0x008b6bc0: ordinary clickable-world-object request is 26/8 carrying the target",
+      "IDA 0x009be130: no generic click trigger exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the guide, locale, interaction packets and family-45 trigger classes. This is a 26/8 world interaction that starts a minigame, not a recovered client-reported 45 goal. The pail actor GUID and original client id are unavailable."
+  },
+  {
+    "quest_id": 3000054,
+    "objective": 3,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:389987: 'Water the potted mushrooms around Briarheart before time runs out!'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Adventurer.md:156: the quest explicitly starts the Royally Thirsty Mushrooms minigame",
+      "IDA 0x009be130: family 45/1-4 is minigame-goal traffic, distinct from 45/6-12 client registrations",
+      "autopilot-int/notes/Build Guides/Gameplay/Quests and Objectives.md:106-115: minigame goals and client-evaluated objectives are separate systems"
+    ],
+    "confidence": "low",
+    "notes": "This text describes progress inside the Royally Thirsty Mushrooms minigame, so it should not use ClientReported. It needs a finish_minigame or minigame-progress binding; no 45 client id or suitable 45 trigger was found."
+  },
+  {
+    "quest_id": 3000055,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:5100428: 'While wearing Lucky's hat search Sacred Grove for one of his golden pots.'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Adventurer.md:164: guide identifies golden pots and the required hat but gives no 45/7 id",
+      "IDA 0x008b6bc0: world-object interaction is 26/8 with the target and trailing byte",
+      "IDA 0x009be130: no generic search/click trigger exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the guide, locale, interaction packet and client-objective dispatcher. This is an ordinary pot interaction gated by the hat, not one of the four 45 trigger classes. The pot actor GUID and original client id remain unknown."
+  },
+  {
+    "quest_id": 3000056,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:5100417: Lucky's hat/golden-pot objective text",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Adventurer.md:164-166: day-two Lucky quests reuse the golden-pot interaction",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic search/pickup registration exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Lucky guide rows, locale text, interaction packet and family-45 trigger types. This appears to be a hat-gated pot interaction; the target GUID and original client id are not available, so found is empty."
+  },
+  {
+    "quest_id": 3000058,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:5100425: Lucky's hat/golden-pot objective text",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Adventurer.md:164-167: final Lucky quest repeats the golden-pot search",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic search/pickup registration exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the final Lucky guide row, locale, interaction packet and client-objective dispatcher. The evidence supports a normal pot interaction gated by the hat, not a 45 client trigger. The pot GUID and original client id remain unknown."
+  },
+  {
+    "quest_id": 3000323,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:93454: 'Answer Brenna's questions correctly'",
+      "autopilot-int/notes/Build Guides/Content/NPCs/NPCs - Seaside.md:28: identifies Brenna's two-question tour quiz",
+      "Resources/QuizDefinitions.txt:1 and Resources/QuizResults.txt:1: shipped files contain headers only",
+      "IDA 0x009be130: no quiz event is registered by the family-45 dispatcher",
+      "ScriptsBase.lua: only seven Ui.OnObjectiveEvent names exist; none is a quiz-result event"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the guide, locale, both shipped Quiz tables, all Lua objective-event sites, and the family-45 dispatcher. The quiz likely requires a server-side/dialog result path; no 45 trigger or original client id was found."
+  },
+  {
+    "quest_id": 3010006,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:77068: 'Carve your name into the tree stump'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Archer.md:79: guide locates the stump and interaction but gives no 45/7 id",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 with target and trailing byte",
+      "IDA 0x009be130: no generic object-click completion subtype exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Archer guide, locale, interaction packet and objective dispatcher. This is an ordinary stump interaction, not a recovered 45 client objective. The stump actor GUID and original client id remain unknown."
+  },
+  {
+    "quest_id": 3010011,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:383181: 'Use your Explosive Arrows on the Robgoblin Pondblasters to the north...'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Archer.md:94: identifies this as an Explosive Arrows combat action",
+      "IDA 0x009be130: family 45 has no ability-hit or generic combat-action registration",
+      "autopilot-int/prototype/osfr-tools/src/content.rs:160-260: the authorable ContentGoal enum has no use_ability variant",
+      "autopilot-int/prototype/osfr-tools/src/quest_engine.rs:2948-2952: UseAbility is a separate authoritative QuestEvent"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the guide, locale, family-45 dispatcher, and the existing UseAbility route. This objective should be an ability-used-on-target event, not ClientReported. The server needs use_ability content exposure plus exact ability/target bindings; the historical 45 id is absent."
+  },
+  {
+    "quest_id": 3010022,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:77844: 'Catch a smuggler in the act at Durango Zoo'",
+      "autopilot-int/notes/Build Guides/Content/NPCs/NPCs - Durango Zoo.md:79: guide describes the zoo incident but no 45/7 id",
+      "IDA 0x009be130: no matching family-45 registration type is evident",
+      "ScriptsBase.lua: no Ui.OnObjectiveEvent call corresponds to this incident"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the guide, locale, all Lua objective-event call sites, and the family-45 dispatcher. This is likely a server script/proximity/cutscene trigger, but the exact client packet and original id were not recovered."
+  },
+  {
+    "quest_id": 3020011,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:430786: 'Interact with the Practice Dummy'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Blacksmith.md:49: confirms the practice dummy and following Hammer Quality minigame",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic interact-with-object trigger exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Blacksmith guide, locale, interaction packet and objective dispatcher. The action is a practice-dummy interaction that opens a minigame, not a recovered 45 client objective. The dummy GUID and original client id remain unknown."
+  },
+  {
+    "quest_id": 3020030,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:101604: 'As a Blacksmith, find an anvil and forge the legendary blade, Summersaber...'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Blacksmith.md:137: guide identifies anvil/crafting and return stages but no 45/7 id",
+      "IDA 0x009be130: family 45 has no generic craft or object-use subtype",
+      "autopilot-int/prototype/osfr-tools/src/content.rs:216-221: CraftRecipe is a separate authoritative objective kind"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the Blacksmith guide, locale, family-45 dispatcher and the server's CraftRecipe objective kind. This should be a craft/forge objective, not ClientReported. The recipe, anvil target and historical 45 id were not recovered."
+  },
+  {
+    "quest_id": 3030002,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:45320: 'Click the gate near Ashley to start the fight'",
+      "IDA 0x008b6bc0: ordinary gate/world-object interaction is 26/8 with target and trailing byte",
+      "autopilot-int/prototype/osfr-tools/src/npc_interaction.rs:1009-1035: exact 26/8 field layout",
+      "IDA 0x009be130: no generic gate-click client-objective subtype exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the locale, interaction packet path and family-45 dispatcher. This is a gate interaction that starts an encounter, not a recovered 45 client objective. The gate actor GUID and original client id are missing."
+  },
+  {
+    "quest_id": 3030010,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:115551: 'Click on the gate to Hewey's Escape that's east of Harold to start the battle!'",
+      "autopilot-int/notes/Build Guides/Content/Dungeons/Hewey's Escape.md:21: confirms this is a gate interaction prompt",
+      "IDA 0x008b6bc0: ordinary gate/world-object interaction is 26/8",
+      "IDA 0x009be130: no generic gate-click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Searched the dungeon guide, locale, 26/8 interaction path and family-45 registrations. The client click starts an encounter through ordinary interaction; the gate GUID and historical 45 id are not recovered."
+  },
+  {
+    "quest_id": 3030015,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:116930: 'Click on the gate to the Cursed Graveyard'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Brawler.md:111: confirms the Cursed Graveyard gate starts the battle",
+      "IDA 0x008b6bc0: ordinary gate/world-object interaction is 26/8",
+      "IDA 0x009be130: no generic gate-click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the Brawler and dungeon guide text, locale, interaction packet and objective dispatcher. This is a normal gate interaction, not a 45 client objective. The gate GUID and original client id remain unknown."
+  },
+  {
+    "quest_id": 3040007,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:103548: 'Check the bulletin board next to Sam Potts...'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Card Duelist.md:67: confirms the bulletin-board objective",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic board-click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Card Duelist guide, locale, interaction path and family-45 dispatcher. This is an ordinary bulletin-board interaction, not a recovered client-reported 45 goal. The board GUID and historical id were not found."
+  },
+  {
+    "quest_id": 3040010,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:103669: 'Search the yellow potted plants in Sanctuary to find Poe's hidden cards.'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Card Duelist.md:70: confirms the potted-plant search",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic search/click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the guide, locale, interaction packet and objective dispatcher. The evidence supports ordinary pot interactions, not one recovered 45 client trigger. Plant GUIDs and the historical id are unavailable."
+  },
+  {
+    "quest_id": 3050002,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:42180: 'Click on the Hay Pile next to Cookie's wagon to start harvesting!'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Chef.md:69: ties the quest to harvesting and the cooking table",
+      "IDA 0x008b6bc0: ordinary gathering-node interaction is 26/8",
+      "autopilot-int/prototype/osfr-tools/src/gameplay.rs:2372-2392: a click on a node actor starts the gathering game"
+    ],
+    "confidence": "low",
+    "notes": "Search of the guide exact wording did not find a 45 registration. The locale and native interaction path identify this as a normal harvesting-node click, not ClientReported. The node GUID and original client id remain unknown."
+  },
+  {
+    "quest_id": 3050004,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:430999: 'Interact with the Cooking Table'",
+      "data/content/quests/chef.json:162-195: the shipped record models this as a local visit_position step, not ClientReported",
+      "IDA 0x008b6bc0: ordinary station interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic interact-with-object trigger exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Chef guide, locale, server content, interaction path and family-45 dispatcher. This step should be an interaction/visit or minigame start, not a 45/7 client objective. No client_id exists for it in the shipped record or recovered client data."
+  },
+  {
+    "quest_id": 3050004,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {
+      "client_id": 30500041,
+      "trigger": {
+        "type": "first_movement",
+        "mouse": false
+      }
+    },
+    "evidence": [
+      "locale:424800: 'Use arrow keys to move around.'",
+      "IDA 0x00c43870: 45/11 registration logs 'Adding FirstMovement objective %d - isMouse %d'",
+      "IDA 0x009b5970 and 0x009b28f0: 45/11 reads an i32 objective id and one byte of input mode",
+      "IDA 0x00cf39e0: FirstMovement completion compares the stored mode and calls 0x00cffba0 only on a match",
+      "IDA 0x00cffba0 -> 0x00cff7d0 -> 0x00cffa70: 45/7 sends the stored objective id",
+      "data/content/quests/chef.json:189-204: the shipped quest already binds 30500041 to first_movement mouse=false",
+      "autopilot-int/notes/Autopilot/F124.md:85-90: 30500041 is expressly a local reconstructed id, not a recovered historical id"
+    ],
+    "confidence": "medium",
+    "notes": "The trigger and packet behavior are recovered and this id is already deployed in our server, so the pair is actionable. It must not be treated as evidence of a historical id rule: the client accepts 30500041 as opaque data, and the shipped source labels it reconstructed. This is the only complete mapping retained."
+  },
+  {
+    "quest_id": 3050008,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:100539: 'Click on Jonelle's Mailbag...'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Chef.md:80: confirms the mailbag starts the recovery activity",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic bag-click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the Chef guide, locale, interaction packet and objective dispatcher. This is an ordinary mailbag interaction that starts the activity, not ClientReported. The bag GUID and historical id are unavailable."
+  },
+  {
+    "quest_id": 3050012,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:115584: crate-of-fireworks start text",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Chef.md:43: confirms Fireworks Frenzy and Ranger Ricardo's crate",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic crate-click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Chef guide, locale, interaction packet and family-45 dispatcher. This is a normal crate interaction that starts the fireworks activity, not a recovered 45 client goal. The crate GUID and original client id were not found."
+  },
+  {
+    "quest_id": 3050014,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:139230: 'Click on the Harvesting Tools'",
+      "autopilot-int/notes/Build Guides/Content/NPCs/NPCs - Snowhill.md:122: identifies Perry and the harvesting tools",
+      "IDA 0x008b6bc0: ordinary gathering-node interaction is 26/8",
+      "autopilot-int/prototype/osfr-tools/src/gameplay.rs:2372-2392: a clicked node starts the harvesting game"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the Snowhill guide, locale, gathering-node packet path and family-45 dispatcher. This is an ordinary harvesting-node interaction, not ClientReported. The node GUID and original client id remain unknown."
+  },
+  {
+    "quest_id": 3050014,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:139231: 'Click on any of the stacks of Harvesting Tools behind Perry to start harvesting.'",
+      "autopilot-int/notes/Build Guides/Content/NPCs/NPCs - Snowhill.md:122: identifies Perry and the harvesting tools",
+      "IDA 0x008b6bc0: ordinary gathering-node interaction is 26/8",
+      "autopilot-int/prototype/osfr-tools/src/gameplay.rs:2372-2392: a clicked node starts the harvesting game"
+    ],
+    "confidence": "low",
+    "notes": "Searched the guide, locale, gathering-node packet path and family-45 dispatcher. This is another ordinary harvesting-node click, not a recovered 45 client goal. The node GUID and original client id are unavailable."
+  },
+  {
+    "quest_id": 3050015,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:116919: 'Click on the Cooking Table in front of Helena to start cooking up some Spiralmint Steak.'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Chef.md:101: confirms the Helena cooking-table start",
+      "IDA 0x008b6bc0: ordinary station interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic station-click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the Chef guide, locale, interaction packet and objective dispatcher. The table starts a cooking activity through normal interaction; no 45 registration or historical id was found."
+  },
+  {
+    "quest_id": 3050017,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:116948: basket-of-ingredients start text",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Chef.md:103: confirms Gavin's basket starts the ingredient activity",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic basket-click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Chef guide, locale, interaction packet and family-45 dispatcher. This is a normal basket interaction that starts a collection activity, not a recovered 45 client objective. The basket GUID and original client id remain unknown."
+  },
+  {
+    "quest_id": 3050027,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:72564: 'Better ingredients make better eats! At least once while making Fried Starnut Stick, smash a fruit perfectly!'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Chef.md:128: guide describes the fried-food quest but gives no 45/7 id",
+      "IDA 0x009be130: no perfect-hit or minigame-score registration exists in family 45",
+      "autopilot-int/notes/Build Guides/Gameplay/Quests and Objectives.md:106-115: minigame goals and client-evaluated objectives are separate systems"
+    ],
+    "confidence": "low",
+    "notes": "Searched the exact locale, Chef guide, MiniGameData rows, ScriptsBase.lua events and family-45 dispatcher. Perfect fruit smashes are internal cooking-minigame outcomes, so this needs a minigame progress/result binding, not ClientReported. No matching mini-game id or 45 client id was established."
+  },
+  {
+    "quest_id": 3070006,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:408632: 'Buy a lure from Guppie'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Fisherman.md:64: identifies the intended lure purchase from Guppie",
+      "IDA 0x009be130: family 45 has no purchase/commerce completion subtype",
+      "IDA 0x008b6bc0: Guppie/vendor access starts through ordinary 26/8 interaction"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the Fisherman guide, locale, vendor interaction path and family-45 dispatcher. This is a commerce/purchase result, not a client-reported 45 goal. The exact vendor result packet and historical client id were not recovered."
+  },
+  {
+    "quest_id": 3070021,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:409336: 'Pour the ink into Brambleback's Bayou'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Fisherman.md:100: identifies the ink and bayou turn-in context",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic pour/use-object trigger exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Fisherman guide, locale, interaction packet and objective dispatcher. This likely requires a target interaction or item-use event, not ClientReported. The target GUID/item-use binding and original client id remain unknown."
+  },
+  {
+    "quest_id": 3070023,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:409470: 'Listen for information'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Fisherman.md:102: guide describes the disguise/information stage but not a 45/7 id",
+      "IDA 0x009be130: no listen/proximity client-objective subtype exists in family 45",
+      "ScriptsBase.lua: no Ui.OnObjectiveEvent call corresponds to this action"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the Fisherman guide, locale, all Lua objective-event call sites and the family-45 dispatcher. This is likely a server script, proximity, dialog, or stealth-state trigger; its exact packet and original id were not recovered."
+  },
+  {
+    "quest_id": 3080005,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:394229: 'Scare off Linx's pit crew with their own bombs'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Kart Driver.md:58: ties this stage to the Even the Odds minigame",
+      "IDA 0x009be130: family 45 has no bomb/minigame-action registration",
+      "autopilot-int/notes/Build Guides/Gameplay/Quests and Objectives.md:106-115: minigame goals are separate from client-evaluated objectives"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Kart Driver guide, locale, family-45 dispatcher and minigame/client-objective distinction. This is an internal minigame outcome, not a 45 client trigger. The relevant mini-game mapping and historical client id are absent."
+  },
+  {
+    "quest_id": 3080005,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:394372: 'Click on the toolbox'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Kart Driver.md:58: places the toolbox stage before the Even the Odds minigame",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic toolbox-click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the Kart Driver guide, locale, interaction packet and objective dispatcher. This is an ordinary toolbox interaction used to start the minigame, not ClientReported. The toolbox GUID and historical client id remain unknown."
+  },
+  {
+    "quest_id": 3080008,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:394403: 'Click on the Crystal Collection'",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic collection-click type exists in family 45",
+      "autopilot-int/notes/Build Guides/Gameplay/Quests and Objectives.md:140: quest/objective records arrive from the server"
+    ],
+    "confidence": "low",
+    "notes": "Searched the Kart Driver guide, locale, interaction packet and family-45 dispatcher. This is a normal object interaction that starts Crystal Hunting, not a recovered 45 client goal. The collection GUID and original client id are unavailable."
+  },
+  {
+    "quest_id": 3080013,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:394625: 'Click on the fireworks cart to start looking for fireworks.'",
+      "autopilot-int/notes/Build Guides/Content/Jobs/Kart Driver.md:66: confirms the fireworks-cart and Guest of Honor minigame context",
+      "IDA 0x008b6bc0: ordinary world-object interaction is 26/8 carrying the target",
+      "IDA 0x009be130: no generic cart-click type exists in family 45"
+    ],
+    "confidence": "low",
+    "notes": "Looked at the Kart Driver guide, locale, interaction packet and objective dispatcher. This is a normal fireworks-cart interaction that starts the minigame, not a recovered 45 client goal. The cart GUID and original client id remain unknown."
+  }
+]

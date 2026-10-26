@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-bone-shaman-0-bIXHKm8tK78-00456 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2984, 4, 749] model=claude-haiku-5-5 -->
+# Troll Bone Shaman bIXHKm8tK78 456s
+
+{"screen": "world", "target": {"name": "Troll Bone Shaman", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.9}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Troll Bone Shaman is drawn at lower right with its name, but no health bar is attached to it; the green bar at top center floats over distant terrain and is not clearly tied to the troll. Player is not in a fight, and the level and job text are not legible."}

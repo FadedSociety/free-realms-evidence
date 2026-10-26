@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-swamp-cray-0-5UUuwaVXnM-00326 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2739, 4, 909] model=claude-haiku-5-5 -->
+# Elder Swamp Cray -5UUuwaVXnM 326s
+
+{"screen": "combat", "target": {"name": "Elder Swamp Cray", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 381, "on": "target", "color": "yellow"}, {"value": 254, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Christina Wolfdruid!", "level": 2, "job": "Ninja", "health_fraction": 0.72}, "target_defeated": false, "notes": "Player (Ninja, 412/575 HP) strikes the Elder Swamp Cray with fire effects; two yellow hit numbers (-381 and 254) over the target, whose bar still reads near full, which is inconsistent with a 180 max_health row. The name is partly covered by damage text; enemy level not legible."}

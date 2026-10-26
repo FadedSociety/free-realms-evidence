@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=changeling-heartbreaker-1-EP2-qVs1mR8-00022 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2891, 4, 1014] model=claude-haiku-5-5 -->
+# Changeling Heartbreaker EP2-qVs1mR8 22s
+
+{"screen": "combat", "target": {"name": "Changeling Heartbreaker", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 3560, "on": "target", "color": "yellow"}, {"value": 3560, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Grayson Storyhammer", "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player fights Changeling Heartbreaker in a grassy field; two -3560 yellow hits shown, target bar still appears full; level not printed on the name, so null."}

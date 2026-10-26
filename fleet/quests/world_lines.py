@@ -25,6 +25,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))  # -I leaves the script's own folder off sys.path
 from quest_lines import CONTENT, FLEET, LAB, OUT, norm, records, rounds  # noqa: E402
+from objfix import objfix_packs  # noqa: E402
+from test_audit import testaudit_packs  # noqa: E402
 
 LENSES = ("evidence", "world")
 WIKI_DB = LAB / "references" / "freerealms-wiki" / "harvest" / "harvest.sqlite"
@@ -378,7 +380,7 @@ def cross_notes(domain):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("step", choices=["prepare", "run", "report"])
-    ap.add_argument("--domain", choices=["npc", "enemy", "dialog", "event", "item", "line", "citem", "schedule"],
+    ap.add_argument("--domain", choices=["npc", "enemy", "dialog", "event", "item", "line", "citem", "schedule", "objfix", "objcheck", "testaudit"],
                     required=True)
     ap.add_argument("--rounds", type=int, default=8)
     ap.add_argument("--start", type=int, default=1)
@@ -390,14 +392,17 @@ def main():
     packs_path, state_path = OUT / f"{d}-packs.json", OUT / f"{d}-state.json"
     if args.step == "prepare":
         packs = {"npc": npc_packs, "enemy": enemy_packs, "dialog": dialog_packs, "item": item_packs,
-                 "line": line_packs, "citem": citem_packs, "schedule": schedule_packs}[d](Evidence())
+                 "line": line_packs, "citem": citem_packs, "schedule": schedule_packs, "objfix": objfix_packs,
+                 "objcheck": lambda ev: objfix_packs(ev, complete=True),
+                 "testaudit": testaudit_packs}[d](Evidence())
         packs_path.write_text(json.dumps(packs, indent=1, ensure_ascii=False), encoding="utf-8")
         print(json.dumps({"domain": d, "packs": len(packs)}))
         return
     if args.step == "run":
         state_path = rounds({"packs": packs_path, "state": state_path, "infer": f"{d}-infer", "critic": f"{d}-critic",
                              "lenses": {"dialog": ("evidence",), "line": ("evidence",), "event": ("evidence", "calendar"),
-                                        "schedule": ("evidence", "calendar")}.get(d, LENSES),
+                                        "schedule": ("evidence", "calendar"),
+                                        "objfix": ("evidence",), "objcheck": ("evidence",), "testaudit": ("evidence",)}.get(d, LENSES),
                              "notes": cross_notes(d) if d in ("npc", "enemy") else (lambda state: {}),
                              "notes_label": "Cross notes against the quest answers"}, args)
     state = json.load(open(state_path, encoding="utf-8"))

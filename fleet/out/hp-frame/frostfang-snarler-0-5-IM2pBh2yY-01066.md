@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=frostfang-snarler-0-5-IM2pBh2yY-01066 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2771, 4, 1004] model=claude-haiku-5-5 -->
+# Frostfang Snarler 5-IM2pBh2yY 1066s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Mia Icemeadows", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player stands in snowy village by a werewolf/vampire husky school building. 'Frostfang Snarler' appears only as faded red text under the top HUD bar with a green beam above the building; no creature health bar is visible. Quest tracker shows 'Defeat the Frostfang Snarlers 0/3' with no distance, so no enemy is in combat in this frame."}

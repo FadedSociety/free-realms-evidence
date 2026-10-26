@@ -1,0 +1,562 @@
+[
+ {
+  "quest_id": 3080015,
+  "quest": "q3080015",
+  "title": "Kart Driver: Stopping the Sabotage",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 401058,
+  "text": "Use the magic potion Sparks gave you to transform into something scary enough to make the Robgoblin Saboteurs run away!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 401058
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3080015,
+  "quest": "q3080015",
+  "title": "Kart Driver: Stopping the Sabotage",
+  "objective": 3,
+  "kind": "client_reported",
+  "text_string_id": 401057,
+  "text": "Scare off the Robgoblin Saboteurs",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 401057
+  },
+  "gap": "objective 3: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3080017,
+  "quest": "q3080017",
+  "title": "Kart Driver: Self Promotion",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 399601,
+  "text": "Promote the race between you and Amber Violet so that there is enough hype to justify her racing against you.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 399601
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3080027,
+  "quest": "q3080027",
+  "title": "Kart Driver: Making Amends",
+  "objective": 4,
+  "kind": "client_reported",
+  "text_string_id": 398267,
+  "text": "Don't lose any parts to Linx's pit crew",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 398267
+  },
+  "gap": "objective 4: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3080038,
+  "quest": "q3080038",
+  "title": "Kart Driver: The Keys to Victory",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 395453,
+  "text": "Click on the Keys",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 395453
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3080042,
+  "quest": "q3080042",
+  "title": "Kart Driver: Tangletrack Endurance Challenge",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 395327,
+  "text": "Click on the racing turnstile at Tangletrack Speedway",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 395327
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090001,
+  "quest": "q3090001",
+  "title": "So You Want to be a Medic?",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 23051,
+  "text": "Take Nurse Naia's test to see if you're ready to become a medic.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 23051
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090001,
+  "quest": "q3090001",
+  "title": "So You Want to be a Medic?",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 23052,
+  "text": "Answer question one correctly.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 23052
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090001,
+  "quest": "q3090001",
+  "title": "So You Want to be a Medic?",
+  "objective": 3,
+  "kind": "client_reported",
+  "text_string_id": 23080,
+  "text": "Answer question two correctly. ",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 23080
+  },
+  "gap": "objective 3: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090001,
+  "quest": "q3090001",
+  "title": "So You Want to be a Medic?",
+  "objective": 4,
+  "kind": "client_reported",
+  "text_string_id": 23086,
+  "text": "Answer question three correctly.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 23086
+  },
+  "gap": "objective 4: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090002,
+  "quest": "q3090002",
+  "title": "Medic: Operation: Revival",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 15586,
+  "text": "You are to go into the Bixie Hive and revive twelve wounded bixies. I cannot go, I must stay at the hospital. Now hurry up and help those bixies!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 15586
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090008,
+  "quest": "q3090008",
+  "title": "Medic: Surgical Precision",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 76753,
+  "text": "Hit Clover with Target Vitals",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 76753
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090008,
+  "quest": "q3090008",
+  "title": "Medic: Surgical Precision",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 76755,
+  "text": "Use First Aid on Clover",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 76755
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090008,
+  "quest": "q3090008",
+  "title": "Medic: Surgical Precision",
+  "objective": 3,
+  "kind": "client_reported",
+  "text_string_id": 76757,
+  "text": "Use Vitamins",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 76757
+  },
+  "gap": "objective 3: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090011,
+  "quest": "q3090011",
+  "title": "Medic: Tummies in Turmoil",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 73764,
+  "text": "Cure the sour tummies in Sanctuary before the time runs out!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 73764
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090011,
+  "quest": "q3090011",
+  "title": "Medic: Tummies in Turmoil",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 115724,
+  "text": "Administer medicine to the sick residents of Sanctuary!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 115724
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090016,
+  "quest": "q3090016",
+  "title": "Medic: Flu Season",
+  "objective": 4,
+  "kind": "client_reported",
+  "text_string_id": 73838,
+  "text": "As a medic, administer the Flu Medicine before time runs out!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 73838
+  },
+  "gap": "objective 4: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090023,
+  "quest": "q3090023",
+  "title": "Medic: Shock Paddles and You",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 93159,
+  "text": "Follow Docaloc's instructions on how to use Shock Paddles.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 93159
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090024,
+  "quest": "q3090024",
+  "title": "Medic: The Missing Patrol",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 74730,
+  "text": "As a medic, rescue Private Wurble!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 74730
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090024,
+  "quest": "q3090024",
+  "title": "Medic: The Missing Patrol",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 74732,
+  "text": "As a medic, rescue Private Derp!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 74732
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090024,
+  "quest": "q3090024",
+  "title": "Medic: The Missing Patrol",
+  "objective": 3,
+  "kind": "client_reported",
+  "text_string_id": 74734,
+  "text": "As a medic, rescue Private Zurpee!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 74734
+  },
+  "gap": "objective 3: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090024,
+  "quest": "q3090024",
+  "title": "Medic: The Missing Patrol",
+  "objective": 4,
+  "kind": "client_reported",
+  "text_string_id": 74736,
+  "text": "As a medic, rescue Private Tubtom!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 74736
+  },
+  "gap": "objective 4: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090024,
+  "quest": "q3090024",
+  "title": "Medic: The Missing Patrol",
+  "objective": 5,
+  "kind": "client_reported",
+  "text_string_id": 74740,
+  "text": "As a medic, rescue Private Goloboo!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 74740
+  },
+  "gap": "objective 5: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090024,
+  "quest": "q3090024",
+  "title": "Medic: The Missing Patrol",
+  "objective": 6,
+  "kind": "client_reported",
+  "text_string_id": 74742,
+  "text": "As a medic, rescue Private Moblop!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 74742
+  },
+  "gap": "objective 6: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090024,
+  "quest": "q3090024",
+  "title": "Medic: The Missing Patrol",
+  "objective": 7,
+  "kind": "client_reported",
+  "text_string_id": 74744,
+  "text": "As a medic, rescue Private Flubtum!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 74744
+  },
+  "gap": "objective 7: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090030,
+  "quest": "q3090030",
+  "title": "Medic: Risky Research",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 74849,
+  "text": "As a medic, guide and protect Acade while he collects Cray eggs for his research",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 74849
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090032,
+  "quest": "q3090032",
+  "title": "Medic: Just What the Doctor Ordered",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 76179,
+  "text": "As a medic, heal the wounded chugawugs",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 76179
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3090033,
+  "quest": "q3090033",
+  "title": "Medic: Paying Your Student Debts",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 76285,
+  "text": "Who knew school was so expensive? Select the merchant option on Doctor Callahan to pay off your debt.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 76285
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3100017,
+  "quest": "q3100017",
+  "title": "Miner: Grumpore's Challenge",
+  "objective": 6,
+  "kind": "client_reported",
+  "text_string_id": 77520,
+  "text": "Bonus: Use 6 Dynamite ability tiles!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 77520
+  },
+  "gap": "objective 6: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120003,
+  "quest": "q3120003",
+  "title": "Pet Tutorial: Happiness",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 141496,
+  "text": "Complete the Happiness pet tutorial given by Majorie in Cobblestone Village.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 141496
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120004,
+  "quest": "q3120004",
+  "title": "Pet Tutorial: Training",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 141526,
+  "text": "Follow the on-screen instructions to complete the Training pet tutorial.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 141526
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120007,
+  "quest": "q3120007",
+  "title": "Pet Trainer: Sit Up and Take Notice",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90032,
+  "text": "Use the trick game to train your dog to do the trick &quot;Sit Up&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90032
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120008,
+  "quest": "q3120008",
+  "title": "Pet Trainer: Jump High!",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90036,
+  "text": "Use the trick game to train your cat to do the trick &quot;Jump&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90036
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120011,
+  "quest": "q3120011",
+  "title": "Pet Trainer: Peek-A-Who?",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 90554,
+  "text": "Make sure you have the &quot;Peek-a-Boo&quot; trick equipped under your pet's play menu, then return to the world and click the paw icon next to your pet's name. Click the &quot;Peek-a-Boo&quot; trick icon and you are ready to start the trick game!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90554
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120012,
+  "quest": "q3120012",
+  "title": "Pet Trainer: A Rolling Good Time",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90048,
+  "text": "Use the trick game to train your dog to do the trick &quot;Roll Over&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90048
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120013,
+  "quest": "q3120013",
+  "title": "Pet Trainer: Go with the Punches",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90052,
+  "text": "Use the trick game to train your cat to do the trick &quot;Box&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90052
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120014,
+  "quest": "q3120014",
+  "title": "Pet Trainer: Making a Champ",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90056,
+  "text": "Train Scrump's cat Tuffy to become really good at &quot;Box&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90056
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120017,
+  "quest": "q3120017",
+  "title": "Pet Trainer: Can You Give Me a Hand... stand?",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90064,
+  "text": "Use the trick game to train your pet to do the trick &quot;Handstand&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90064
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120018,
+  "quest": "q3120018",
+  "title": "Pet Trainer: Spinning Tails",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90068,
+  "text": "Use the trick game to train your cat to do the trick &quot;Spin&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90068
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120019,
+  "quest": "q3120019",
+  "title": "Pet Trainer: Skills for Stars",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90076,
+  "text": "Have your pet max out the pet trick &quot;Handstand&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90076
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ }
+]

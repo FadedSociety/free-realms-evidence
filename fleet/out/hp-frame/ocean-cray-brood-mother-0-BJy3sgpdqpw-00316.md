@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00316 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 1090] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 316s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Spookypants", "level": 20, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Name 'Ocea...Mother' is partly hidden behind large overlapping yellow damage numbers (not reliably readable) and a 'Press X or' interaction prompt names the creature; no clear health bar or level is legible, so those are null."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=foreman-ironfist-0-X6zfuEFRcQk-00212 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3153, 4, 1127] model=claude-haiku-5-5 -->
+# Foreman Ironfist X6zfuEFRcQk 212s
+
+{"screen": "combat", "target": {"name": "Foreman Ironfist", "level": 5, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 3237, "on": "target", "color": "yellow"}], "attackers_visible": 2, "player": {"name": "The Feriuxia", "level": 20, "job": "Ninja", "health_fraction": 0.6}, "target_defeated": false, "notes": "Ninja player fighting Foreman Ironfist in Haunted Mines with a second Renegade player nearby; a -3237 hit lands on the target, but its health bar is not legible in this frame. Level 5 is read from the target badge, which conflicts with the server row (level 13)."}

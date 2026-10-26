@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=two-of-three-0-dCKyNMH0eDo-00066 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 2734, 4, 1381] model=claude-haiku-5-5 -->
+# Two of Three dCKyNMH0eDo 66s
+
+{"screen": "combat", "target": {"name": "Two of Three", "level": 20, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 3113, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.74}, "target_defeated": false, "notes": "Two of Three (level 20, red name tag) is in combat with a fire effect on it; a 'You can't use ... you are stunned!' message is shown. Its health bar is too small to read reliably, so no fraction is given. Player HP reads 6340/8540. The 3113 number's target is ambiguous."}

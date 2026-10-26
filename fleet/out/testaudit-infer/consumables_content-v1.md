@@ -1,0 +1,8 @@
+<!-- fleet job=testaudit-infer id=consumables_content-v1 status=done turns=6 usd=0.0026 tokens(read,write,in,out)=[44878, 10269, 14, 1764] model=claude-haiku-5-5 -->
+# tests/consumables_content.rs
+
+{"file": "tests/consumables_content.rs",
+ "tests": [{"name": "the_shipped_rows_load_through_the_real_loader_with_their_client_checked_values", "verdict": "keep", "covered_by": null, "reason": "Only test that pins the exact shipped consumables.json values: the two potion rows, the 2982 aura and 4042 transform rows (ids, icons, durations, name/description ids), the 2/23/69 heal/aura/transform split, the excluded-definition list, and per-row Sanctuary/Legacy provenance. A grep of tests/ finds no other test that loads the shipped consumables.json with these assertions. item_bar.rs covers the loader with fixtures (Effects::load at ~l.641-654) and the Small Potion, not the shipped content. The pack names item_bar tests 'the_shipped_rows_all_fit_the_effect_stack' and 'schema_two_rows_load_within_sanity_bounds', which may overlap the bounds check here, but I could not find them under the repo at the given paths, so I could not confirm the overlap. Kept under the conservative rule."}],
+ "whole_file_removable": false,
+ "confidence": 0.7,
+ "notes": "Single-test file, created and last changed by T511. Its value is in the content pins (exact row values, exclusions, provenance), which would be lost if the file were removed. Possible partial overlap with item_bar.rs's shipped-rows bounds check could not be verified because the named tests were not found in the repo; if confirmed, only the row-count bound (90..=100) would be redundant, and the test would still be kept for its other assertions."}

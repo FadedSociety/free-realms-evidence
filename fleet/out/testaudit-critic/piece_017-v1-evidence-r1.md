@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=piece_017-v1-evidence-r1 status=done turns=2 usd=0.0023 tokens(read,write,in,out)=[11191, 14472, 6, 763] model=claude-haiku-5-5 -->
+# tests/piece_017.rs
+
+{"pass": true, "wireable": true, "score": 9, "problems": [], "notes": "The auditor marked all nine tests keep and whole_file_removable false. No removal verdict exists, so there is no superseded, duplicate or obsolete claim to back, and the lens check is satisfied by the conservative default. I confirmed with a repo search that no Rust test other than tests/piece_017.rs calls restoration::piece_017::audit_recovery or audit_conservation. The Python twin tests/pieces/test_piece_017.py exercises scripts/pieces/piece_017.py, a different implementation, so it is not a removal basis. Two ignored lab canaries remain as the only real-data checks. Minor: the reasons say 'only check' and 'not covered elsewhere' without listing a Rust search, but this does not change any verdict."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00290 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3159, 4, 1177] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 290s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}, {"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Combat in a cave; the Brood Mother name banner is shown at bottom with 'Brady Stormbreath' beneath, but no health bar is clearly attached to it. A green/red bar at top is not clearly tied to this enemy, so health is left null."}

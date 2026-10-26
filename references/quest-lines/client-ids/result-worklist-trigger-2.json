@@ -1,0 +1,645 @@
+[
+  {
+    "quest_id": 3080015,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:401058: \"Use the magic potion Sparks gave you to transform into something scary enough to make the Robgoblin Saboteurs run away!\"",
+      "autopilot-int/prototype/osfr-tools/src/quest_engine.rs:349-370: the server's ClientTrigger has only look_at, ui_event and first_movement; IDA 0x00c43940 additionally shows the client's 45/12 HousingFixtureMove condition, which the server does not model.",
+      "autopilot-int/prototype/osfr-tools/src/gameplay/npc.rs:216-231: the gateway maps an exact 45/7 ClientComplete payload to QuestEvent::ClientReported and advances only an open, owned client objective.",
+      "IDA 0x00cffba0: ClientComplete reads an already-stored id from object+0x20; IDA 0x00cff9f0 writes that i32 without deriving it from a quest or objective index.",
+      "IDA 0x009be130: 45/6, 45/10 and 45/11 registrations take an explicit id from the inbound packet.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: client id 30500041 is explicitly marked (R) as a local binding, not a recovered historical id.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17: recovered original quest 6 uses objective id 345; :58-65: quest 92 uses 663; :74: another objective is 17666, refuting quest*10+n as a general client rule.",
+      "lab/fleet/quests/objective_specs.py:31-38: client_reported is an LLM text-classification category; lab/work/D07/tree/scripts/quest_audit.py:4-6 says such text classifications are hypotheses, not recovered server objectives."
+    ],
+    "confidence": "high",
+    "notes": "No historical client_id recovered. The text describes using a potion/item. The 45 client-objective conditions readable in IDA do not observe item use, and none of the seven Lua Ui.OnObjectiveEvent literals matches this action. A server-observed item-use event is the plausible model, but the item id and authoritative use packet were not established here. The worklist's quest*10+n comment is not a client rule; do not turn it into an id."
+  },
+  {
+    "quest_id": 3080015,
+    "objective": 3,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:401057: \"Scare off the Robgoblin Saboteurs\"",
+      "IDA 0x00cffba0: the 45/7 writer reads the incoming object's stored id and performs no quest/objective arithmetic; IDA 0x00cff9f0 appends only that i32.",
+      "IDA 0x009be130: registration ids come from explicit 45/6, 45/10 or 45/11 payload fields.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is labelled (R) and described as a local binding, not a recovered id.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original objective ids are arbitrary values such as 345, 663 and 17666.",
+      "lab/fleet/quests/client_id_worklists.py:4 contains the quest*10+n assertion only as an author comment in the worklist generator."
+    ],
+    "confidence": "high",
+    "notes": "No historical client_id recovered. This is the downstream result of the potion transformation/scripted scare, not an independently evidenced 45/6 look, 45/10 UI event or 45/11 movement. It should be driven by the server-observed script/minigame outcome unless a quest capture proves otherwise."
+  },
+  {
+    "quest_id": 3080017,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:399601: \"Promote the race between you and Amber Violet so that there is enough hype to justify her racing against you.\"",
+      "IDA 0x00cffba0: 45/7 is only an opaque id report; IDA 0x00cff9f0 writes just that i32 after the header.",
+      "IDA 0x009be130: the client accepts the objective id from the explicit registration payload rather than deriving it from quest 3080017 and objective 1.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:191-204: the only current client_reported example is 30500041 and is explicitly (R), a local binding.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: recovered original objective ids are arbitrary.",
+      "lab/fleet/quests/objective_specs.py:31-38: the worklist kind came from model classification of objective text."
+    ],
+    "confidence": "medium",
+    "notes": "No client_id recovered. \"Promote\" does not identify a concrete UI event, target, item or movement condition, and none of the seven Ui.OnObjectiveEvent literals is a promotion event. The quest text is insufficient to choose a 45 trigger; an original quest packet or explicit promotion action is needed."
+  },
+  {
+    "quest_id": 3080027,
+    "objective": 4,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:398267: \"Don't lose any parts to Linx's pit crew\"",
+      "IDA 0x00cffba0: 45/7 reports one stored objective id and carries no state or count.",
+      "IDA 0x009be130: 45/6 look-at, 45/10 UI-event and 45/11 first-movement registrations require an explicit id and trigger parameters supplied by the server.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the only local client id is marked (R), not historical.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: observed objective ids are arbitrary values, not quest*10+n.",
+      "lab/work/D07/tree/scripts/quest_audit.py:4-6: text-derived objective kinds are hypotheses, not recovered behavior."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. This is a state constraint (parts were not lost), not an instantaneous client-judged event. Completion should be validated from server inventory/state at the delivery boundary. No 45/7 trigger can prove that the player did not lose parts."
+  },
+  {
+    "quest_id": 3080038,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:395453: \"Click on the Keys\"",
+      "IDA 0x00c435c0 / 0x00c436b0: LookAt accepts an actor GUID or world position plus offset, range and angle; it tests camera alignment, not a click.",
+      "IDA 0x009aaf50 has one xref in the client database, 0x00c1f136, the Ui.OnObjectiveEvent Lua bridge; ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812 are the seven event literals and none is a click event.",
+      "IDA 0x00cffba0: all four completion-condition paths end in the same opaque-id 45/7 report.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the quest*10+n-looking example is explicitly reconstructed.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: recovered original objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. A clickable quest object is not represented by the available LookAt/UIEvent/FirstMovement conditions: LookAt observes where the camera points and the seven UI literals contain no generic click. The object GUID and click/interaction packet were not recovered. This should likely be an interact_actor objective or a server event, not a guessed client_reported id."
+  },
+  {
+    "quest_id": 3080042,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:395327: \"Click on the racing turnstile at Tangletrack Speedway\"",
+      "IDA 0x00c435c0 / 0x00c436b0: the client objective LookAt condition observes an actor GUID or world position and camera range/angle, not a click.",
+      "IDA 0x009aaf50 xref 0x00c1f136: UI objective events originate through the Lua bridge; the full ScriptsBase event set has no click-to-object literal.",
+      "IDA 0x00cffba0 and 0x00cff9f0: completion contains only the opaque objective id already stored on the objective object.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: its 30500041 binding is (R), not recovered.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-65,74: original objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. This is a clickable world object. LookAt would complete by aiming at the turnstile even without the click, so it is not a faithful trigger; the available Lua UI-event names also do not represent object clicks. Recover the turnstile actor GUID and interaction/click packet before binding it, likely as interact_actor."
+  },
+  {
+    "quest_id": 3090001,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:23051: \"Take Nurse Naia's test to see if you're ready to become a medic.\"",
+      "IDA 0x00cffba0: 45/7 sends only a stored i32 objective id.",
+      "IDA 0x009be130: the only client-objective registrations are 45/6 LookAt, 45/10 UIEvent, 45/11 FirstMovement and 45/12 HousingFixtureMove.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812 contain the seven Ui.OnObjectiveEvent literals; none identifies starting a medical test.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the apparent numeric pattern is a local reconstruction, not recovered evidence.",
+      "lab/fleet/quests/objective_specs.py:31-38: client_reported was inferred from objective text."
+    ],
+    "confidence": "medium",
+    "notes": "No client_id recovered. Starting a test is probably an NPC dialogue or minigame transition, not one of the observed client-objective conditions. The test/minigame result packet was not located, and quest 3090001/objective 1 cannot be converted to an id."
+  },
+  {
+    "quest_id": 3090001,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:23052: \"Answer question one correctly.\"",
+      "IDA 0x00cffba0: 45/7 carries no answer, question id or correctness flag; only the registered objective id.",
+      "IDA 0x009be130: no quiz/answer condition exists among client objective types 45/6,45/10,45/11,45/12.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: none of the seven UI objective event literals is a quiz or question event.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the numeric-looking example is explicitly local.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original objective ids are not formulaic."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Correctness is judged by the quiz/test subsystem, not by the client-objective completion mechanism. The likely source is a server or dialogue/minigame result, but its packet and question key were not recovered; do not bind an invented client id."
+  },
+  {
+    "quest_id": 3090001,
+    "objective": 3,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:23080: \"Answer question two correctly.\"",
+      "IDA 0x00cffba0: 45/7 carries only an opaque objective id.",
+      "IDA 0x009be130: client objective registration types do not include quiz answers or correctness.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: the seven UI objective event literals contain no question-answer event.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the apparent number pattern is a local binding.",
+      "lab/fleet/quests/objective_specs.py:31-38: this kind is a classifier hypothesis."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. The client does not report answer correctness through any of the four traced 45 objective condition classes. A quiz/minigame result packet is required, but it was not identified here."
+  },
+  {
+    "quest_id": 3090001,
+    "objective": 4,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:23086: \"Answer question three correctly.\"",
+      "IDA 0x00cffba0: completion is an opaque id report with no correctness value.",
+      "IDA 0x009be130: no answer/quiz client objective type is dispatched.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no question event among the seven UI literals.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is an explicitly reconstructed local id.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original ids demonstrate arbitrary assignment."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. As with the other two quiz steps, correctness belongs to a test/minigame result path; no 45/7 trigger or exact packet was recovered."
+  },
+  {
+    "quest_id": 3090002,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:15586: \"You are to go into the Bixie Hive and revive twelve wounded bixies. I cannot go, I must stay at the hospital. Now hurry up and help those bixies!\"",
+      "IDA 0x00cffba0: 45/7 contains one objective id and no target, ability or count.",
+      "IDA 0x009be130: client objective types are LookAt, UIEvent, FirstMovement and HousingFixtureMove; none observes an ability used on twelve NPC targets.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: the seven Lua objective events do not include revive/ability use.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the only local 45 id is explicitly (R).",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: recovered original objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Reviving twelve actors is a counted server-authoritative gameplay action. The traced 45 client-objective system cannot count ability use on targets; the relevant action-result packet and target set were not recovered."
+  },
+  {
+    "quest_id": 3090008,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:76753: \"Hit Clover with Target Vitals\"",
+      "IDA 0x00cffba0: 45/7 has no ability id or target guid.",
+      "IDA 0x009be130: no ability-use-on-target condition exists in the four client-objective classes.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no ability-use event among the seven Ui.OnObjectiveEvent literals.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the numeric-looking example is explicitly reconstructed.",
+      "lab/fleet/quests/objective_specs.py:31-38: client_reported is text-derived."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. This is an ability-use result against Clover and should be server-observed, not a 45/7 client judgment. The ability id and Clover actor GUID were not established in this pass."
+  },
+  {
+    "quest_id": 3090008,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:76755: \"Use First Aid on Clover\"",
+      "IDA 0x00cffba0: the 45/7 claim contains no target or ability information.",
+      "IDA 0x009be130: none of the registered client-objective conditions observes ability use.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: the UI objective literals do not include First Aid.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is a local (R) binding.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. First Aid on Clover needs a server-authoritative ability/target event. The existing client-objective packet cannot identify either the ability or the target."
+  },
+  {
+    "quest_id": 3090008,
+    "objective": 3,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:76757: \"Use Vitamins\"",
+      "IDA 0x00cffba0: client completion sends only the objective id.",
+      "IDA 0x009be130: no item- or ability-use condition is registered by the 45 client-objective dispatcher.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no Vitamins/item event among the seven UI literals.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the single numeric example is explicitly local, not original.",
+      "lab/fleet/quests/objective_specs.py:31-38: this worklist class came from model inference."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Using Vitamins is a server-observed action. No exact item id or use-result packet was recovered, and the 45 client-objective conditions do not observe it."
+  },
+  {
+    "quest_id": 3090011,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:73764: \"Cure the sour tummies in Sanctuary before the time runs out!\"",
+      "IDA 0x00cffba0: 45/7 reports only a prebound objective id.",
+      "IDA 0x009be130: the four client-objective types do not test a timed healing/cure outcome.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: the seven UI event literals do not identify curing patients.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is explicitly (R) local.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. This is a timed, counted gameplay outcome, not one of the client-objective conditions. It needs a server timer/action-result trigger; the producing packet and exact patient/action ids were not recovered."
+  },
+  {
+    "quest_id": 3090011,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:115724: \"Administer medicine to the sick residents of Sanctuary!\"",
+      "IDA 0x00cffba0: the completion packet has no item, patient or count field.",
+      "IDA 0x009be130: no medicine-administration condition exists among client objective registrations.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no generic use/administer event among the seven literals.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the only client id is a reconstructed local binding.",
+      "lab/work/D07/tree/scripts/quest_audit.py:4-6: objective kinds derived from text remain hypotheses."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Administering medicine is an item/ability action on residents and requires a server gameplay event. There is no evidence that the client-objective 45/7 path can validate this action."
+  },
+  {
+    "quest_id": 3090016,
+    "objective": 4,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:73838: \"As a medic, administer the Flu Medicine before time runs out!\"",
+      "IDA 0x00cffba0: 45/7 sends no medicine id or target.",
+      "IDA 0x009be130: no timed medicine-use condition exists in the registered client-objective classes.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: the seven objective event literals contain no medicine action.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the numeric-looking example is local (R), not evidence for a formula.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: observed original ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Flu Medicine use and the time limit belong to a server-authoritative gameplay flow; no matching client-objective condition or use-result packet was recovered."
+  },
+  {
+    "quest_id": 3090023,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:93159: \"Follow Docaloc's instructions on how to use Shock Paddles.\"",
+      "IDA 0x00cffba0: 45/7 contains only an objective id.",
+      "IDA 0x009be130: no tutorial-instruction condition is registered under the four client-objective classes.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: none of the seven Ui.OnObjectiveEvent literals is shock-paddle or instruction completion.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is marked local, not recovered.",
+      "lab/fleet/quests/objective_specs.py:31-38: the worklist kind is text inference."
+    ],
+    "confidence": "medium",
+    "notes": "No client_id recovered. This is instructional/tutorial progression, probably scripted or minigame-driven. The exact event and packet were not found; none of the observed 45 client conditions directly represents it."
+  },
+  {
+    "quest_id": 3090024,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:74730: \"As a medic, rescue Private Wurble!\"",
+      "IDA 0x00cffba0: 45/7 carries no target actor or ability id.",
+      "IDA 0x009be130: no rescue/revive condition exists among the four registered client-objective types.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no rescue event among the seven UI literals.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the example id is an explicitly local binding.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: recovered original ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Rescue of Private Wurble is an action against a specific actor and must be credited server-side. The actor and exact ability/result packet were not established here."
+  },
+  {
+    "quest_id": 3090024,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:74732: \"As a medic, rescue Private Derp!\"",
+      "IDA 0x00cffba0: the 45/7 completion body contains only an i32 objective id.",
+      "IDA 0x009be130: client-objective registration cannot encode a rescue action/result.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no rescue event literal exists among the seven UI events.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is a local (R) binding.",
+      "lab/work/D07/tree/scripts/quest_audit.py:4-6: objective kinds inferred from text are hypotheses."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. This target-specific rescue belongs to the server's actor/ability event path, not the traced 45/7 client-objective path."
+  },
+  {
+    "quest_id": 3090024,
+    "objective": 3,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:74734: \"As a medic, rescue Private Zurpee!\"",
+      "IDA 0x00cffba0: 45/7 has no actor target or success semantics beyond the id.",
+      "IDA 0x009be130: no rescue/revive condition is among the client objective registrations.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: the seven UI objective events do not include rescue.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the only concrete id is local, not historical.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: real objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Rescue Private Zurpee requires a server-observed actor outcome; the actor and result packet are unresolved."
+  },
+  {
+    "quest_id": 3090024,
+    "objective": 4,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:74736: \"As a medic, rescue Private Tubtom!\"",
+      "IDA 0x00cffba0: 45/7 reports only a stored objective id.",
+      "IDA 0x009be130: the client-objective condition types do not observe a rescue.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no rescue UI event literal.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the numeric-looking example is explicitly reconstructed.",
+      "lab/fleet/quests/objective_specs.py:31-38: the client_reported label is model-produced."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. This is another server-authoritative rescue target, not evidence for a 45/7 trigger. The exact rescue packet was not recovered."
+  },
+  {
+    "quest_id": 3090024,
+    "objective": 5,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:74740: \"As a medic, rescue Private Goloboo!\"",
+      "IDA 0x00cffba0: completion contains only the objective id.",
+      "IDA 0x009be130: no rescue condition in the four registered client-objective classes.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: none of the seven UI events represents rescue.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is local (R).",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original ids do not follow a visible formula."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Rescue Private Goloboo is a target-specific server action; neither the actor binding nor its result packet is established."
+  },
+  {
+    "quest_id": 3090024,
+    "objective": 6,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:74742: \"As a medic, rescue Private Moblop!\"",
+      "IDA 0x00cffba0: 45/7 sends no target information.",
+      "IDA 0x009be130: rescue is not one of the client objective conditions.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: the seven UI event literals contain no rescue.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the apparent quest*10+n example is a local binding.",
+      "lab/work/D07/tree/scripts/quest_audit.py:4-6: text classifications are hypotheses."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. This rescue needs a server actor/ability result; no corresponding 45/7 registration or client emission was found."
+  },
+  {
+    "quest_id": 3090024,
+    "objective": 7,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:74744: \"As a medic, rescue Private Flubtum!\"",
+      "IDA 0x00cffba0: the completion packet contains only the objective id.",
+      "IDA 0x009be130: no target-rescue condition exists in client objective dispatch.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no rescue UI event literal.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the only concrete id is local (R).",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Private Flubtum's rescue is a server-observed action against a specific actor; the actor and relevant result packet remain unresolved."
+  },
+  {
+    "quest_id": 3090030,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:74849: \"As a medic, guide and protect Acade while he collects Cray eggs for his research\"",
+      "IDA 0x00cffba0: 45/7 has no companion-state, protection or collection outcome.",
+      "IDA 0x009be130: no escort/protection condition exists in the four client-objective types.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no escort/protection event among the seven UI literals.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is a local reconstructed binding.",
+      "lab/fleet/quests/objective_specs.py:31-38: client_reported was inferred from text."
+    ],
+    "confidence": "medium",
+    "notes": "No client_id recovered. Escort/protection is a compound server-authoritative challenge, not a single traced client judgment. The accompanying collection/protection packet and completion rules were not recovered."
+  },
+  {
+    "quest_id": 3090032,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:76179: \"As a medic, heal the wounded chugawugs\"",
+      "IDA 0x00cffba0: 45/7 cannot carry a heal action or its targets.",
+      "IDA 0x009be130: no heal-on-target condition among client objective registrations.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no healing event among the seven UI literals.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the only client id example is explicitly (R) local.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Healing the chugawugs is a server-authoritative multiplayer action; neither the healing result packet nor the target set was recovered here."
+  },
+  {
+    "quest_id": 3090033,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:76285: \"Who knew school was so expensive? Select the merchant option on Doctor Callahan to pay off your debt.\"",
+      "ScriptsBase.lua:18364-18365 and 49826-49827: opening MarketplaceHandler calls Ui.OnObjectiveEvent(\"onMarketplaceOpen\").",
+      "IDA 0x00c3900: registered UIEvent objectives compare an event string and call 0x00cffba0 on a match.",
+      "IDA 0x00c437a0: 45/10 registers an explicit objective id and event string.",
+      "IDA 0x00cffba0: 45/7 then reports the stored objective id only.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is explicitly a local binding, so the numeric example does not prove this row's id.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original ids are arbitrary."
+    ],
+    "confidence": "medium",
+    "notes": "No client_id recovered, so found is left empty. The trigger itself has strong evidence: {type:\"ui_event\",event:\"onMarketplaceOpen\"} would complete when the Doctor Callahan merchant option opens the marketplace. The missing historical objective id still blocks a valid binding; the worklist's quest*10+n convention is an unverified generator comment."
+  },
+  {
+    "quest_id": 3100017,
+    "objective": 6,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:77520: \"Bonus: Use 6 Dynamite ability tiles!\"",
+      "Resources/MiniGameData.txt:96: minigame 95 is the type-8 Miner game referenced by this quest.",
+      "IDA 0x009be130: 45/1-45/5 are separate server-to-client minigame goal states; 45/7 is only a client-to-server opaque completion claim.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no generic dynamite/tile-use objective event exists.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is a local (R) binding.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. This is a counted bonus inside the mining minigame, not a plausible 45/7 quest client objective. Use the minigame goal/result path (45/1-45/5 and game result) or a server event; the original quest id is not inferable."
+  },
+  {
+    "quest_id": 3120003,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:141496: \"Complete the Happiness pet tutorial given by Majorie in Cobblestone Village.\"",
+      "IDA 0x00cffba0: 45/7 reports only an objective id.",
+      "IDA 0x009be130: tutorial/pet completion is not an explicit client objective condition.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: none of the seven UI objective event literals represents the pet Happiness tutorial.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the only current numeric example is a local binding.",
+      "lab/fleet/quests/objective_specs.py:31-38: client_reported is a text-classifier label."
+    ],
+    "confidence": "medium",
+    "notes": "No client_id recovered. Tutorial completion likely comes from scripted tutorial or pet-state packets, but no exact emitter or 45/7 registration was found. Treat the worklist kind as unproven."
+  },
+  {
+    "quest_id": 3120004,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:141526: \"Follow the on-screen instructions to complete the Training pet tutorial.\"",
+      "IDA 0x00cffba0: 45/7 has no tutorial step or state beyond the id.",
+      "IDA 0x009be130: no tutorial-completion condition among the four client-objective classes.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no pet-training tutorial event literal among the seven UI events.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is local (R).",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original objective ids do not follow the apparent decimal formula."
+    ],
+    "confidence": "medium",
+    "notes": "No client_id recovered. This is a scripted tutorial completion. The exact tutorial callback and packet were not recovered, and none of the observed client-objective conditions directly models it."
+  },
+  {
+    "quest_id": 3120007,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90032: \"Use the trick game to train your dog to do the trick \\\"Sit Up\\\".\"",
+      "IDA 0x00b5e6f0: pet trick result handling dispatches PetsHandler:TrickSuccessResult to Lua; this site does not call 0x00cffba0.",
+      "IDA 0x00cffba0: the only traced 45/7 completion writer reads an opaque objective id.",
+      "IDA 0x009be130: no pet-trick or trick-rank condition exists among 45/6,45/10,45/11,45/12.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the numeric-looking example is explicitly reconstructed.",
+      "lab/work/D07/tree/scripts/quest_audit.py:4-6: text-derived objective types are hypotheses."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. The pet-trick result path is distinct from the 45 client-objective completion path and reports a trick result to PetsHandler. This should be a server-authorized pet-trick event/rank, not a guessed client_reported trigger."
+  },
+  {
+    "quest_id": 3120008,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90036: \"Use the trick game to train your cat to do the trick \\\"Jump\\\".\"",
+      "IDA 0x00b5e6f0: PetsHandler:TrickSuccessResult is dispatched from the pet trick-result flow without a call to 0x00cffba0.",
+      "IDA 0x00cffba0: 45/7 is an opaque client objective id report.",
+      "IDA 0x009be130: no trick/rank condition among the four registered client-objective classes.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is a local (R) binding.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Train cat Jump is a pet-trick outcome; the observed trick-result dispatch does not send 45/7. A server pet-trick event/rank trigger is required, and its exact packet is not established."
+  },
+  {
+    "quest_id": 3120011,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90554: instructs the player to equip Peek-a-Boo, click the paw icon, then select the trick icon.",
+      "IDA 0x00b5e6f0: pet trick action/result handling dispatches PetsHandler:TrickSuccessResult; no 0x00cffba0 call is present at that site.",
+      "IDA 0x009aaf50 has sole xref 0x00c1f136, so the UIEvent string comparator is driven through Ui.OnObjectiveEvent.",
+      "ScriptsBase.lua:14722,15331,18365,34099,35150,47273,55812: no pet-trick/paw event among the seven objective event literals.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the apparent id pattern is explicitly local.",
+      "lab/fleet/quests/objective_specs.py:31-38: this worklist kind came from text classification."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. The paw/trick interaction is handled by the pet-trick system, not one of the seven Ui.OnObjectiveEvent names. It should be a server pet-trick result event; no corresponding 45/7 trigger was found."
+  },
+  {
+    "quest_id": 3120012,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90048: \"Use the trick game to train your dog to do the trick \\\"Roll Over\\\".\"",
+      "IDA 0x00b5e6f0: PetsHandler:TrickSuccessResult is the observed pet trick-result dispatch and does not call 0x00cffba0.",
+      "IDA 0x00cffba0: 45/7 only reports a prebound objective id.",
+      "IDA 0x009be130: no pet trick condition exists among client objective registrations.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is local (R), not recovered.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original ids refute a general decimal convention."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Roll Over is a pet-trick result and belongs to the pet gameplay event path, not the traced 45/7 client-objective path."
+  },
+  {
+    "quest_id": 3120013,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90052: \"Use the trick game to train your cat to do the trick \\\"Box\\\".\"",
+      "IDA 0x00b5e6f0: pet trick result dispatch for PetsHandler:TrickSuccessResult does not call 0x00cffba0.",
+      "IDA 0x00cffba0: 45/7 contains only the stored objective id.",
+      "IDA 0x009be130: no trick result condition among the client objective registrations.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is an explicit (R) local binding.",
+      "lab/fleet/quests/objective_specs.py:31-38: the client_reported kind is classifier output."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Box is a server pet-trick outcome. The client trick-result path was located, but no quest-completion packet or historical objective id was recovered."
+  },
+  {
+    "quest_id": 3120014,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90056: \"Train Scrump's cat Tuffy to become really good at \\\"Box\\\".\"",
+      "IDA 0x00b5e6f0: pet trick success is dispatched to PetsHandler:TrickSuccessResult; no call to 0x00cffba0 occurs there.",
+      "IDA 0x00cffba0: 45/7 is just the registered objective id.",
+      "IDA 0x009be130: no trick-rank condition exists in the four client-objective classes.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the numeric example is explicitly local.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Tuffy's skill-up is a pet-trick state/result, not a client objective report. The exact rank/progress packet and quest objective id remain unresolved."
+  },
+  {
+    "quest_id": 3120017,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90064: \"Use the trick game to train your pet to do the trick \\\"Handstand\\\".\"",
+      "IDA 0x00b5e6f0: PetsHandler:TrickSuccessResult dispatch is separate and does not call 0x00cffba0.",
+      "IDA 0x00cffba0: 45/7 reports only an existing objective id.",
+      "IDA 0x009be130: no pet-trick condition among 45/6,45/10,45/11,45/12.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the only current id is local (R).",
+      "lab/work/D07/tree/scripts/quest_audit.py:4-6: text classifications are hypotheses."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Handstand is a pet-trick result. Use a server-authoritative pet trick event/rank; there is no evidence for a 45/7 client condition."
+  },
+  {
+    "quest_id": 3120018,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90068: \"Use the trick game to train your cat to do the trick \\\"Spin\\\".\"",
+      "IDA 0x00b5e6f0: pet trick result handling dispatches PetsHandler:TrickSuccessResult without invoking 0x00cffba0.",
+      "IDA 0x00cffba0: 45/7 only names an opaque objective.",
+      "IDA 0x009be130: client-objective dispatch has no trick/rank result condition.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: 30500041 is a local reconstructed binding.",
+      "lab/reports/native-20261024T0455Z-new/content/quest-inventory.json:3-17,58-74: original objective ids are arbitrary."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Spin is a pet-trick result handled separately from quest client objectives; a server pet-trick event is required."
+  },
+  {
+    "quest_id": 3120019,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90076: \"Have your pet max out the pet trick \\\"Handstand\\\".\"",
+      "IDA 0x00b5e6f0: observed pet-trick result dispatch reports PetsHandler:TrickSuccessResult and does not call 0x00cffba0.",
+      "IDA 0x00cffba0: 45/7 carries no trick rank or pet identity.",
+      "IDA 0x009be130: no pet-trick-rank condition exists among client objective registrations.",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/chef.json:204: the numeric-looking example is explicit (R) local evidence.",
+      "lab/fleet/quests/objective_specs.py:31-38: client_reported is a text-classifier label."
+    ],
+    "confidence": "high",
+    "notes": "No client_id recovered. Maxing Handstand is a pet-trick rank/state condition, not a 45/7 client judgment. The authoritative trick rank packet and historical quest objective id remain unresolved."
+  }
+]

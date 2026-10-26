@@ -1,0 +1,66 @@
+[
+ {
+  "npc_id": 9500000012,
+  "name": "Ceard Bauchlog",
+  "zone": null,
+  "position": [
+   20.16929,
+   61.1441,
+   1230.149
+  ],
+  "heading": 1.513423,
+  "model": "fairy_druid_m.adr",
+  "model_id": 468,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:203",
+  "near_zone": "Shrouded Glade",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000014,
+  "name": "Cragara",
+  "zone": "Blackspore Swamp",
+  "position": [
+   130.87897,
+   28.729305,
+   290.85706
+  ],
+  "heading": -0.0971219953,
+  "model": "sogg_f_vendor.adr",
+  "model_id": 4103,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000026,
+  "name": "Finn",
+  "zone": null,
+  "position": [
+   -1379.1588,
+   -27.138494,
+   320.17468
+  ],
+  "heading": -2.97621297,
+  "model": "human_m_hooligan_brawler_01.agr",
+  "model_id": 203,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3548",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000069,
+  "name": "Tiger the Party Animal",
+  "zone": "Blackspore Swamp",
+  "position": [
+   309.24753,
+   27.300243,
+   464.9833
+  ],
+  "heading": 0.23715501,
+  "model": "human_m_tiger_the_party_animal_holiday.agr",
+  "model_id": 1963,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3974",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ }
+]

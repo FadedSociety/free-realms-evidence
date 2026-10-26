@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-nibbler-0-piWfe7lXZ9I-00423 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3166, 4, 781] model=claude-haiku-5-5 -->
+# Nettleseed Nibbler piWfe7lXZ9I 423s
+
+{"screen": "world", "target": {"name": "Nettleseed Nibbler", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [{"name": "Shady Smuggler", "health_fraction": null}, {"name": "Johnny", "health_fraction": null}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Meagan Wolfchampion", "level": 20, "job": "Card Duelist", "health_fraction": null}, "target_defeated": false, "notes": "Nettleseed Nibbler appears only as a partly hidden name with a distance marker (about 73m) and a red arrow tracker behind the friends panel; no health bar, no fight visible."}

@@ -1,0 +1,121 @@
+[
+ {
+  "quest_id": 3070016,
+  "title": "Fisherman: What Is It?!",
+  "record": "quest-lines/quests.json q3070016",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000181
+    },
+    "text_string_id": 409096,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text names Reed Stillwater as the one to ask about the catch; single target, so one talk_to_npc.",
+      "source": "locale:409096"
+     },
+     {
+      "claim": "Reed Stillwater is npc_id 9000000181 and is placed at Stillwater Crossing.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/stillwater_crossing.json:10128"
+     },
+     {
+      "claim": "Reed's own idle line 409097 is the in-world line for this NPC; no count applies to a talk objective.",
+      "source": "locale:409097"
+     }
+    ],
+    "note": "No count: talk to one NPC. Reward and completion lines are not sourced, so the quest's completion handling is unresolved. Quest liveness is unconfirmed."
+   }
+  ]
+ },
+ {
+  "quest_id": 3070042,
+  "title": "Fisherman: Fishing Frenzy",
+  "record": "quest-lines/quests.json q3070042",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "gather_resource",
+    "fields": {
+     "resource_id": 68047,
+     "count": 1
+    },
+    "text_string_id": 410114,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Item definition Id 68047 has Comment 'Large Finless Fish' and NameId 407645",
+      "source": "refs:Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json:1157413-1157416 (same entry in FreeRealms-Legacy ClientItemDefinitions.json:1157413)"
+     },
+     {
+      "claim": "NameId 407645 = 'Large Finless Fish'",
+      "source": "locale:407645"
+     },
+     {
+      "claim": "Objective text 'Reel in a large Finless Fish' (count 1)",
+      "source": "locale:410114"
+     }
+    ],
+    "note": "Replaces the rejected draft 3058 (store item, not a fish). Count 1 from 'a large'. The client table confirms the id, so the earlier spot-table inference is no longer needed. The first-to-finish race is a separate server rule (see open)."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "gather_resource",
+    "fields": {
+     "resource_id": 68059,
+     "count": 1
+    },
+    "text_string_id": 410117,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Item definition Id 68059 has Comment 'Large Calico Catfish' and NameId 407658",
+      "source": "refs:Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json:1157605-1157608"
+     },
+     {
+      "claim": "NameId 407658 = 'Large Calico Catfish'",
+      "source": "locale:407658"
+     },
+     {
+      "claim": "Objective text 'Reel in a large Calico Catfish' (count 1)",
+      "source": "locale:410117"
+     }
+    ],
+    "note": "Replaces the rejected draft 2149 (10-coin store item). Count 1 from 'a large'."
+   },
+   {
+    "index": 2,
+    "part": 0,
+    "kind": "gather_resource",
+    "fields": {
+     "resource_id": 68066,
+     "count": 1
+    },
+    "text_string_id": 410119,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Item definition Id 68066 has Comment 'Medium Toothy Tetra' and NameId 407665",
+      "source": "refs:Lxzxrus-Free-Realms-Server/src/Resources/ClientItemDefinitions.json:1157718-1157721"
+     },
+     {
+      "claim": "NameId 407665 = 'Medium Toothy Tetra'",
+      "source": "locale:407665"
+     },
+     {
+      "claim": "Objective text 'Reel in a medium Toothy Tetra' (count 1)",
+      "source": "locale:410119"
+     }
+    ],
+    "note": "Draft 68066 kept and now confirmed by the item-definition row. Count 1 from 'a medium'."
+   }
+  ]
+ }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=counselor-edmond-0-s4q4D-xmPoU-00196 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3160, 4, 1113] model=claude-haiku-5-5 -->
+# Counselor Edmond s4q4D_xmPoU 196s
+
+{"screen": "world", "target": {"name": "Counselor Edmond", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Monica Wintervale", "level": 8, "job": "Warrior", "health_fraction": 0.35}, "target_defeated": false, "notes": "Dialog scene, not combat: Robbie says 'Ow ow ow! I give up!' and Counselor Edmond replies 'Robbie!? You were Bigfoot!?'. A faint name label reads Counselor Edmond above the Robbie character, with no health bar visible. Quest goal 'Defeat Bigfoot!' is checked off."}

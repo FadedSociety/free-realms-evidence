@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=fungus-golem-0-OrfNBeSJByM-00254 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3176, 4, 992] model=claude-haiku-5-5 -->
+# Fungus Golem OrfNBeSJByM 254s
+
+{"screen": "combat", "target": {"name": "Fungus Golem", "level": null, "health_fraction": 0.95, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "green"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Fungus Golem nameplate with a nearly full green health bar, partly hidden by a lava-rock object in the foreground; no player attacker clearly visible; the 2490 number is over the golem and only partly legible."}

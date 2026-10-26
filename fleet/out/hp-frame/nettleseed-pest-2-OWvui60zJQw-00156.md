@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-pest-2-OWvui60zJQw-00156 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3160, 4, 1195] model=claude-haiku-5-5 -->
+# Nettleseed Pest OWvui60zJQw 156s
+
+{"screen": "combat", "target": {"name": "Nettleseed", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1867, "on": "target", "color": "yellow"}, {"value": 1245, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Player fights Nettleseed at close range; the target bar is drawn entirely orange-red with no green visible, so its fraction is not reliably readable. The full name 'Nettleseed Pest' is not visible, only 'Nettleseed'. The 1245 number is partly hidden behind the name, so only 1867 is treated as fully legible."}

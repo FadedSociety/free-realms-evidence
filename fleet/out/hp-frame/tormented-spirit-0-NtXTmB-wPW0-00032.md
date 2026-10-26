@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-0-NtXTmB-wPW0-00032 status=done turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2648, 4, 510] model=claude-haiku-5-5 -->
+# Tormented Spirit NtXTmB-wPW0 32s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Confetti <Mystic Mayhem>", "level": 10, "job": "Brawler", "health_fraction": 1.0}, "target_defeated": false, "notes": "Red system line reads 'The bones crumble and a tormented spirit materializes!' but no Tormented Spirit creature or health bar is visible; the player stands idle in a cavern, and the Goals panel shows the spirit-release objective with no distance marker."}

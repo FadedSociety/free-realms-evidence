@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=field_reload_atomicity-v1-evidence-r1 status=done turns=1 usd=0.0018 tokens(read,write,in,out)=[0, 11493, 4, 754] model=claude-haiku-5-5 -->
+# tests/field_reload_atomicity.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "Every test in tests/field_reload_atomicity.rs is marked keep, with no superseded, duplicate or obsolete verdicts, so no removal needs a covering test. whole_file_removable is false, which matches. The keep verdicts are the safe direction under the lens. The auditor's coverage claims for keeps (field_battle_roster.rs marker collision checks only spawners and state; power_up_drops.rs bad-reload covers pickup tables, not walk or attack state) are plausible from the evidence pack but were not re-read from the similar files. That gap does not change the outcome, because nothing is removed. Confidence in the result is moderate-high."}

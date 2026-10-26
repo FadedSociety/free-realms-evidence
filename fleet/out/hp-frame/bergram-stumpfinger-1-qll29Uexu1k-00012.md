@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-1-qll29Uexu1k-00012 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3157, 4, 663] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger qll29Uexu1k 12s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Exploration view of a dark forest; the only label near the far marker is a tiny, illegible tracker-style name with a red arrow marker and no health bar. Floating text reads 'Dragon Fruits' (a gathering label, not an enemy). No combat, no legible Bergram Stumpfinger name, no HUD visible."}

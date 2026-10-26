@@ -1,0 +1,438 @@
+[
+ {
+  "quest_id": 3000321,
+  "title": "The Oldest Building",
+  "record": "quest-lines/quests.json q3000321",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000623
+    },
+    "text_string_id": 93405,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Talk to Seaspray' (detail 93406: 'Pay a visit to the Seaspray Inn and speak with Seaspray.')",
+      "source": "locale:93405, locale:93406"
+     },
+     {
+      "claim": "Seaspray NPC row 9500000623 is placed in the Seaside NPC file",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:37657"
+     },
+     {
+      "claim": "Goal 1 target is Seaspray (TargetGuid 100000001756, NameId 21301 = 'Seaspray' npc_name)",
+      "source": "repo:prototype/osfr-tools/data/content/quests/zone_seaside.json:105-111; locale:21301"
+     }
+    ],
+    "note": "Talk to Seaspray at the Seaspray Inn. Progress dialog 93409 is the innkeeper's line; its speaker attribution is inferred (see open)."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000567
+    },
+    "text_string_id": 93407,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Return to Cole' (detail 93408: 'Return to Cole at the Seaside Information Center.')",
+      "source": "locale:93407, locale:93408"
+     },
+     {
+      "claim": "Cole NPC row 9500000567 is placed in the Seaside NPC file and is the quest giver",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:9341; repo:prototype/osfr-tools/data/content/quests/zone_seaside.json:97 (giver_npc_id), :118-123 (goal 2 npc_id)"
+     },
+     {
+      "claim": "Goal 2 target is Cole (TargetGuid 100000001748)",
+      "source": "repo:prototype/osfr-tools/data/content/quests/zone_seaside.json:123"
+     }
+    ],
+    "note": "Return to Cole. Complete dialog 93401 is attributed to Cole from the goal target; inferred, not from an NPC answer."
+   }
+  ]
+ },
+ {
+  "quest_id": 3000360,
+  "title": "Feminine Touch",
+  "record": "quest-lines/quests.json q3000360",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000633
+    },
+    "text_string_id": 101402,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "101402 reads 'Ask Tazinna about her favorite food' (Seaside, Feminine Touch)",
+      "source": "locale:101402"
+     },
+     {
+      "claim": "Tazinna NPC row 9500000633 is placed in seaside.json",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:42254"
+     },
+     {
+      "claim": "Legacy quest goal 1 is talk Tazinna, NameId 101402",
+      "source": "repo:prototype/osfr-tools/data/content/quests/zone_seaside.json:351"
+     }
+    ],
+    "note": "Talk objective, no count. Pack's 101412 speaker is null, but the legacy notes attribute the chocolate reply to Tazinna; this does not change the objective."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000580
+    },
+    "text_string_id": 101404,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "101404 reads 'Ask Emuzz about her most valuable possession'",
+      "source": "locale:101404"
+     },
+     {
+      "claim": "Emuzz NPC row 9500000580 is placed in seaside.json",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:16143"
+     },
+     {
+      "claim": "Legacy quest goal 2 is talk Emuzz, NameId 101404",
+      "source": "repo:prototype/osfr-tools/data/content/quests/zone_seaside.json:364"
+     }
+    ],
+    "note": "Talk objective, no count. The possible duplicate objective 2778161287 is not used."
+   },
+   {
+    "index": 2,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000645
+    },
+    "text_string_id": 101406,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "101406 reads 'Return to Yancy'",
+      "source": "locale:101406"
+     },
+     {
+      "claim": "Yancy Gilbert NPC row 9500000645 is placed in seaside.json and is the quest giver",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:48016; repo:prototype/osfr-tools/data/content/quests/zone_seaside.json:345"
+     }
+    ],
+    "note": "Return-to-giver talk objective, no count."
+   }
+  ]
+ },
+ {
+  "quest_id": 3040023,
+  "title": "Card Duelist: Just One More!",
+  "record": "quest-lines/quests.json q3040023",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 523,
+     "count": 1
+    },
+    "text_string_id": 115410,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Resources/MiniGameData.txt row 523 is '523^16^92743^92775^...': TYPE 16 (the NPC-duel type) with name id 92743, which is the locale text \"Jammie's Tournament Deck\"",
+      "source": "client: Resources/MiniGameData.txt:443; locale:92743 (lookup: item - Jammie's Tournament Deck)"
+     },
+     {
+      "claim": "Objective text is \"Play and Beat Jammie's Tournament Deck.\" (one win against Jammie's Tournament Deck)",
+      "source": "locale:115410"
+     },
+     {
+      "claim": "Count 1: the text and the offer line 115412 say 'play and win just one more game', so one win",
+      "source": "locale:115412; locale:115416"
+     },
+     {
+      "claim": "Row 92775 description: 'Battle Master Card Duelist Jammie Swiftsong and her Tournament Deck. Be the first to score 12 points to win the match...'",
+      "source": "locale:92775"
+     }
+    ],
+    "note": "Match type and deck target are fixed by minigame row 523. The 12-point win condition is in the description, not a field of this kind. Not a talk_to_npc: completion comes from winning the match."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080023,
+  "title": "Kart Driver: The Price of Fame",
+  "record": "quest-lines/quests.json q3080023",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000620
+    },
+    "text_string_id": 394680,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text: 'As part of your sponsorship deal with the Seaside Board of Tourism, you have an autograph signing to attend in Seaside. Find Roxy to get the event started.'",
+      "source": "locale:394680 (quest_objective, Seaside | Roxy); locale:394678 says the same"
+     },
+     {
+      "claim": "Legacy NPC definition Id 1741 is named Roxy (NameId 395119)",
+      "source": "refs: FreeRealms-Legacy/src/Resources/Npcs.json:2991 (Id 1741); repo:prototype/osfr-tools/data/content/npcs/seaside.json:36326-36332"
+     },
+     {
+      "claim": "Legacy spawn for Id 1741 at (-613.5074, 15.98605, -1030.868), heading 1.148421, via spawnNpcWithGuid",
+      "source": "refs: FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:503"
+     },
+     {
+      "claim": "Server row npc_id 9500000620 is id_kind reconstructed_content_key with empty reference_ids, so it is not a verified server id",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:36327-36329"
+     }
+    ],
+    "note": "Keep the row's npc_id 9500000620 as the builder's row key, but it is a reconstructed key, not a verified server id. Legacy Id 1741 is the only attested Roxy id, with spawn (-613.5, 16.0, -1030.9). Not settled: the legacy spawn file FabledRealms.lua does not name Seaside, so the zone of that spawn is unverified. The barrel at npc_spawns_extra.json:7295 (Roxy's Barrel, legacy 1742) is a prop, not Roxy's spawn, and is not used. Placement must be confirmed before this talk objective is wireable."
+   }
+  ]
+ },
+ {
+  "quest_id": 3090026,
+  "title": "Medic: Omitted Admission",
+  "record": "quest-lines/quests.json q3090026",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000072
+    },
+    "text_string_id": 74787,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 74787 'Take a letter of recommendation to Dr. Callahan in Seaside.' names Doctor Callahan as the target",
+      "source": "locale:74787"
+     },
+     {
+      "claim": "npc 9000000072 is named Doctor Callahan (name_string_id 74790), Seaside, quest_giver/trainer, not placed (presence 'listed')",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:12632-12661"
+     },
+     {
+      "claim": "Quest 3090026 is in the medic batch; its record has no giver or objective fields",
+      "source": "repo:prototype/osfr-tools/data/content/quests/medic.json:1517"
+     }
+    ],
+    "note": "NPC row exists but has no spawn in seaside.json. Reference ids 9000000072 and 9000000306 are listed (seaside.json:12634-12637); the school is 'the first building to the left' down the road (2685065908). Place the NPC at the Seaside School of Combat Medicine before use. No count."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000072
+    },
+    "text_string_id": 74788,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 74788 'Speak to Doctor Callahan'",
+      "source": "locale:74788"
+     },
+     {
+      "claim": "npc_name 74790 'Doctor Callahan' is the same NPC row 9000000072",
+      "source": "locale:74790; repo:prototype/osfr-tools/data/content/npcs/seaside.json:12632-12641"
+     }
+    ],
+    "note": "Same NPC and placement gap as index 0. The two objectives are both talk steps to Callahan; the 74785 hand-in reply is attributed to Callahan by inference only."
+   }
+  ]
+ },
+ {
+  "quest_id": 3090027,
+  "title": "Medic: Achieve Level 20",
+  "record": "quest-lines/quests.json q3090027",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000023
+    },
+    "text_string_id": 387592,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Client text 'Speak to Beth Callahan' is objective string 387592 for this quest.",
+      "source": "locale:387592 (quest_objective, Seaside, Medic: Achieve Level 20)"
+     },
+     {
+      "claim": "NPC row 9000000023 'Beth Callahan' (Sanctuary) exists but is not placed.",
+      "source": "pack: candidates.npc_row"
+     },
+     {
+      "claim": "Reference spawn ref_id 33357 at [-1379.9756, -24.526918, 419.66104], Sanctuary, model human_f_medicstudent.agr, name_id 388395, unique name match.",
+      "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3587"
+     }
+    ],
+    "note": "Keep npc_id 9000000023. Placement needed: spawn Beth Callahan at the reference position above (Sanctuary), heading -1.838184. The draft's null npc_id is replaced by the row id. The pack's open note that the id 'conflicts' is not supported by the candidates: the row, the reference spawn and the name all agree."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "job_level",
+    "fields": {
+     "profile_id": 11,
+     "level": 20
+    },
+    "text_string_id": 387591,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Reach level 20 as a medic and return to Doctor Callahan.' is locale 387591.",
+      "source": "locale:387591"
+     },
+     {
+      "claim": "Profile 11 is Medic.",
+      "source": "repo:scripts/extract_job_outfits.py:27 (JOBS = {... 11: \"Medic\" ...})"
+     }
+    ],
+    "note": "Return-to-Doctor-Callahan is the turn-in dialog (387579), not a separate objective kind. No NPC field is set on this objective."
+   }
+  ]
+ },
+ {
+  "quest_id": 3090029,
+  "title": "Medic: No Pain, No Gain",
+  "record": "quest-lines/quests.json q3090029",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "visit_position",
+    "fields": {
+     "zone_id": 0,
+     "position": [
+      -636.96,
+      9.31,
+      -1041.615
+     ],
+     "radius": 8.0
+    },
+    "text_string_id": 74803,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: \"Prove you're in top shape by running around Seaside.\"",
+      "source": "locale:74803"
+     },
+     {
+      "claim": "Draft visit_position in the open world (zone_id 0 = every outdoor zone) with the draft position and radius; the text names no single point, so this is the Seaside run area from the draft.",
+      "source": "pack: objectives[0].draft; server_objective_kinds.visit_position (src/bin/osfr_gateway/admin_move.rs:10)"
+     }
+    ],
+    "note": "Position taken from the draft as resolved in the pack. The text names no specific point, so the 8.0 radius is the draft's choice, not a client value."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 551,
+     "count": 1
+    },
+    "text_string_id": 74804,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: \"As a medic, complete the run before time expires!\"",
+      "source": "locale:74804"
+     },
+     {
+      "claim": "Draft finish_minigame with minigame_id 551, count 1; pack marks it resolved.",
+      "source": "pack: objectives[1].draft"
+     }
+    ],
+    "note": "count 1 because the text names one run. Minigame 551 was taken from the pack's resolved draft; a repo search for 551 did not surface its minigame definition in this pass, so the id rests on the pack."
+   }
+  ]
+ },
+ {
+  "quest_id": 3090033,
+  "title": "Medic: Paying Your Student Debts",
+  "record": "quest-lines/quests.json q3090033",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 2,
+    "part": 0,
+    "kind": "interact_npc",
+    "fields": {
+     "npc_id": 9000000072
+    },
+    "text_string_id": 76285,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text says to select the merchant option on Doctor Callahan to pay off the debt, so the action is a click on Callahan's NPC actor, not a UI event.",
+      "source": "locale:76285"
+     },
+     {
+      "claim": "Doctor Callahan is NPC row 9000000072, placed in Seaside (legacy_data), and is the giver of this quest (offer and progress lines).",
+      "source": "pack: candidates.npc_row; dialog.offer (locale:76264), dialog.progress (locale:76266)"
+     },
+     {
+      "claim": "The client_reported/ui_event onMarketplaceOpen trigger was dropped because that event is generic and not scoped to Callahan.",
+      "source": "pack: critiques[0].problems[0]; ScriptsBase.lua:18365, :49827"
+     }
+    ],
+    "note": "No count: the text names no coin amount or payment count, and interact_npc takes none. Settled on the pack's legacy_data placement of npc 9000000072. The builder should confirm that row is in the server NPC table before wiring. The locale:815669441 reference is removed entirely (it does not exist in the client)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3130019,
+  "title": "Postman: Where's the Sasparilla?",
+  "record": "quest-lines/quests.json q3130019",
+  "source": "draft complete (no final fix/check answer)",
+  "objectives": [
+   {
+    "kind": "visit_position",
+    "text_string_id": 130194,
+    "from": "objective 0: Find what happened to the Sweetwater Sasparilla.",
+    "zone_id": 0,
+    "position": [
+     -70.419,
+     38.789,
+     -445.165
+    ],
+    "radius": 8.0,
+    "client_evidence": [
+     "locale:130194: 'Find what happened to the Sweetwater Sasparilla.'",
+     "Resources/PointOfInterests.json:144-148: POI 12 is 'Wugachug' at [-70.419,38.789,-445.165]."
+    ],
+    "resolved": true
+   }
+  ]
+ }
+]

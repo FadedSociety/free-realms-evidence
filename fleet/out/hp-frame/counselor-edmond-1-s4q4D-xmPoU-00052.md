@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=counselor-edmond-1-s4q4D-xmPoU-00052 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3160, 4, 899] model=claude-haiku-5-5 -->
+# Counselor Edmond s4q4D_xmPoU 52s
+
+{"screen":"combat","target":{"name":"Counselor Edmond","level":null,"health_fraction":null,"health_text":null,"is_tracker_only":false},"other_enemy_bars":[],"damage_numbers":[],"attackers_visible":0,"player":{"name":"Monica Wintervale","level":8,"job":"Warrior","health_fraction":0.8},"target_defeated":false,"notes":"Name label 'Counselor Edmond' is faint white text over a dark creature in the middle of the frame; no legible health bar or level for it, and the large orange 'Counselor Edmond' text at top left is a video caption, not in-game. Player is near dark bear-like creatures on the Bigfoot's Lair quest (Goal: Defeat Bigfoot!)."}

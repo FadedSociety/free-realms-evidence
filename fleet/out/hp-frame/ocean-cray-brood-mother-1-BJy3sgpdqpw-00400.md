@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00400 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3159, 4, 1270] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 400s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Large faded name over a full green bar with a -2490 yellow hit above the blue cray; a system line says not enough energy for the ability. Target level not legible; the bar fill is read from the image, so treat it as approximate."}

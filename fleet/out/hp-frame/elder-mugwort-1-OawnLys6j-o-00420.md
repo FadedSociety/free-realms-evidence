@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00420 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 1006] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 420s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": 5, "health_fraction": 0.25, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Elder Mugwort's top-bar health is low (red fill about a quarter of the bar) while a ninja player attacks; a -2490 hit is shown over the fight. Target level 5 is read from the starburst beside its bar and is less certain."}

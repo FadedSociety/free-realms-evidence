@@ -1,0 +1,743 @@
+[
+  {
+    "quest_id": 3030026,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -790.88934,
+        -71.68879,
+        2153.0903
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:95158: objective names Arachnia's Lair at the edge of Briarwood Forest.",
+      "Resources/PointOfInterests.json:689: PoI 52 'Arachnia's Lair' has Position [-790.88934,-71.68879,2153.0903]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named client map POI. The POI stores no radius, so used the required 8.0 fallback."
+  },
+  {
+    "quest_id": 3030028,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -537.5324,
+        26.03942,
+        772.46216
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:141019: objective places the Robgoblin Troublemakers' lair north of Robgoblin Camp.",
+      "Resources/PointOfInterests.json:800: PoI 60 'Robgoblin Treasure Trove' has Position [-537.5324,26.03942,772.46216]."
+    ],
+    "confidence": "medium",
+    "notes": "Used the named Robgoblin Treasure Trove POI as the concrete lair, not Nurble's camp position. No area radius was attached to this POI, so used 8.0."
+  },
+  {
+    "quest_id": 3030032,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        387.37256,
+        117.92403,
+        -16.92501
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:141085: objective says Jeni Shortfuse is on Ice Troll duty outside Howling Hills.",
+      "Resources/PointOfInterests.json:982: PoI 73 'Howling Hills' has Position [387.37256,117.92403,-16.92501]."
+    ],
+    "confidence": "medium",
+    "notes": "Used the exact Howling Hills client marker for the outside-of-town objective. The marker has no radius; used 8.0. The broad HowlingHills_Bed area sphere was not used because it is an environmental zone, not an objective anchor."
+  },
+  {
+    "quest_id": 3040006,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -975.5724,
+        6.277015,
+        414.5226
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:103529: objective places Quills at the Town Hall in Sanctuary.",
+      "data/content/npcs/sanctuary.json:46551: Quills position is [-975.5724,6.277015,414.5226]; name is at line 46510.",
+      "data/content/npcs/sanctuary.json:46510: Quills, placement legacy_data, confidence high, location evidence 'Town Hall, outside the Royal Palace'."
+    ],
+    "confidence": "high",
+    "notes": "Exact named NPC anchor with a recovered legacy-data spawn. No area radius applies; used 8.0."
+  },
+  {
+    "quest_id": 3040010,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:103706: objective names 'yellow potted plants around Sanctuary'."
+    ],
+    "confidence": "low",
+    "notes": "Searched PointOfInterests.json, FabledRealmsAreas.xml, the NPC/spawn content, locale text, and IDA strings. No client record identifies which yellow potted plant carries Poe's cards; choosing a generic plant or Poe's own position would be a guess."
+  },
+  {
+    "quest_id": 3040018,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        104.5838,
+        34.01256,
+        -369.0049
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:104184: objective places Shifty the Shuffler in Wugachug.",
+      "data/content/npcs/wugachug.json:15234: Shifty the Shuffler position is [104.5838,34.01256,-369.0049]; name is at line 15096.",
+      "data/content/npcs/wugachug.json:15096: placement legacy_data, confidence high."
+    ],
+    "confidence": "high",
+    "notes": "Exact named NPC position in the open world. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3040018,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        104.5838,
+        34.01256,
+        -369.0049
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:104182: objective directs the player to Wugachug to play Shifty's card game.",
+      "data/content/npcs/wugachug.json:15234: Shifty the Shuffler position is [104.5838,34.01256,-369.0049]; name is at line 15096.",
+      "data/content/npcs/wugachug.json:15096: placement legacy_data, confidence high."
+    ],
+    "confidence": "high",
+    "notes": "Resolved to Shifty himself rather than the broader Wugachug marker. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3040021,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        20.40014,
+        24.74612,
+        -387.9332
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:104245: objective places Postchug Runalug within Wugachug.",
+      "data/content/npcs/wugachug.json:12224: Postchug Runalug position is [20.40014,24.74612,-387.9332]; name is at line 11919.",
+      "data/content/npcs/wugachug.json:11919: placement legacy_data, confidence high."
+    ],
+    "confidence": "high",
+    "notes": "Exact named NPC position. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3040021,
+    "objective": 3,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -375.2506,
+        -24.75602,
+        -1228.012
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:104247: objective places Jammie Swiftsong in Seaside near Ocean Treasures Cafe.",
+      "data/content/npcs/seaside.json:21952: Jammie Swiftsong position is [-375.2506,-24.75602,-1228.012]; name is at line 21773.",
+      "data/content/npcs/seaside.json:21773: placement legacy_data, confidence high."
+    ],
+    "confidence": "high",
+    "notes": "Exact named NPC position. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3040038,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:413825: objective names both Ramirez and Tyrone Shadowshard in Blackspore.",
+      "data/content/npcs/blackspore_swamp.json:28350: Ramirez is at [-2435.849,-30.05334,1011.536].",
+      "data/content/npcs/blackspore_swamp.json:37655: Tyrone Shadowshard is at [-2285.716,-33.08498,1115.706]."
+    ],
+    "confidence": "low",
+    "notes": "Both named NPCs have positions, but they are about 177 world units apart and the row requests one visit_position. No single client marker or area radius covers both, so no midpoint was invented."
+  },
+  {
+    "quest_id": 3040051,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        631.0,
+        45.0,
+        447.0
+      ],
+      "radius": 96.0
+    },
+    "evidence": [
+      "locale:2585: objective directs the player north toward the Crystal Barrier in Snowhill.",
+      "extracted/named/Assets_000/Assets_000/FabledRealmsAreas.xml:54: area 'Snowhill_crystal_wall' is a sphere at x=631,y=45,z=447 with radius=96."
+    ],
+    "confidence": "medium",
+    "notes": "Used the explicitly named Crystal Barrier client area and carried its defined radius. The area proves where the barrier is, not the exact Baron confrontation trigger."
+  },
+  {
+    "quest_id": 3040053,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -2401.651,
+        -29.95279,
+        1068.157
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:439672: objective tells the player to meet Madam Zelda in Blackspore.",
+      "data/content/npcs/blackspore_swamp.json:20092: Madam Zelda position is [-2401.651,-29.95279,1068.157]; name is at line 19722.",
+      "data/content/npcs/blackspore_swamp.json:19722: placement legacy_data, confidence high, location evidence 'Zelda's camp'."
+    ],
+    "confidence": "high",
+    "notes": "Exact named NPC position. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3040054,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -529.432612,
+        -66.509,
+        2215.68993
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:26461: objective places Clancy Blackheart in Bristlewood.",
+      "data/content/npcs/briarwood.json:11884: Clancy Blackheart position is [-529.432612,-66.509,2215.68993]; name is at line 11843."
+    ],
+    "confidence": "medium",
+    "notes": "Used the named NPC row in our content. Its position is a reconstructed POI-name anchor, not a captured client transform. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3040055,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -1184.00724,
+        -34.879,
+        -431.028239
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:26475: objective places Freddy Slowhands in Merry Vale.",
+      "data/content/npcs/merry_vale.json:9896: Freddy Slowhands position is [-1184.00724,-34.879,-431.028239]; name is at line 9851."
+    ],
+    "confidence": "medium",
+    "notes": "Used the named NPC row in our content. Its position is a reconstructed POI-name anchor, not a captured client transform. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3040056,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -67.477612,
+        38.789,
+        -447.03607
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:7957: objective places Bud Grimyfoot in Wugachug.",
+      "data/content/npcs/wugachug.json:1271: Bud Grimyfoot position is [-67.477612,38.789,-447.03607]; name is at line 1226."
+    ],
+    "confidence": "medium",
+    "notes": "Used the named NPC row in our content. Its position is a reconstructed POI-name anchor, not a captured client transform. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3050009,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -1490.254,
+        -35.049,
+        409.188
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:100549: objective places Honey at Queensfields Farm south of Sanctuary.",
+      "Resources/PointOfInterests.json:316: PoI 24 'Queensfields' has Position [-1490.254,-35.049,409.188]."
+    ],
+    "confidence": "high",
+    "notes": "Used the exact Queensfields client marker; Honey's server row is only 1.7 world units from it. The POI has no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3050013,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -71.964,
+        11.04,
+        226.4
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:104143: objective places Perry at Perry's Pastures north of Highroad Junction.",
+      "Resources/PointOfInterests.json:256: PoI 20 \"Perry's Pasture\" has Position [-71.964,11.04,226.4]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named client map POI. No POI radius is stored; used 8.0."
+  },
+  {
+    "quest_id": 3050018,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -1490.254,
+        -35.049,
+        409.188
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:116659: objective places Honey at Queensfields, southwest of Stillwater Crossing.",
+      "Resources/PointOfInterests.json:316: PoI 24 'Queensfields' has Position [-1490.254,-35.049,409.188]."
+    ],
+    "confidence": "high",
+    "notes": "Same exact Queensfields client marker as the preceding Honey objective. No POI radius; used 8.0."
+  },
+  {
+    "quest_id": 3050019,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        53.736103,
+        30.987,
+        372.231962
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:139285: objective places Vaelen near the Snowhill warpstone, northeast of Perry.",
+      "data/content/npcs/snowhill.json:44997: Vaelen Warpwatcher position is [53.736103,30.987,372.231962]; name is at line 44956."
+    ],
+    "confidence": "medium",
+    "notes": "Used the named NPC row. Its position is a reconstructed POI anchor near the Snowhill marker, not a captured spawn. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3050024,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        92.72021,
+        33.4964,
+        -358.7385
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:72107: objective sends the player to Cook Yumtumlot in Wugachug.",
+      "data/content/npcs/wugachug.json:3129: Cook Yumtumlot position is [92.72021,33.4964,-358.7385]; name is at line 2995.",
+      "data/content/npcs/wugachug.json:2995: placement legacy_data, confidence high."
+    ],
+    "confidence": "high",
+    "notes": "Exact named NPC position. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3060011,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -733.719079,
+        9.09,
+        943.318988
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:394022: objective directs the player to Crash's sponsor in Lakeshore.",
+      "data/content/npcs/lakeshore.json:9332: Merri De'Flor position is [-733.719079,9.09,943.318988]; name is at line 9161.",
+      "data/content/npcs/lakeshore.json:9161: Merri De'Flor location evidence says she is in Lakeshore Fishing Village."
+    ],
+    "confidence": "low",
+    "notes": "Merri is the sponsor identified by the quest data, but her server position is a reconstructed POI anchor and its placement confidence is low. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3060014,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:394025: objective says to investigate the crash site outside Thunder Falls.",
+      "Resources/PointOfInterests.json:389: only the Thunder Falls Speedway marker is available at [-915.60803,-39.1328,1203.7272].",
+      "data/content/npcs/wilds.json:51: quest giver Tucker Thunderjolt is at [-934.4947,-39.08796,1197.13], also only an outside-Thunder-Falls anchor."
+    ],
+    "confidence": "low",
+    "notes": "Searched client area XML, POIs, models, NPC/spawn rows, locale text, and IDA strings. No crash-site transform was found; neither the speedway marker nor Tucker's position identifies the wreck or helmet."
+  },
+  {
+    "quest_id": 3060022,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:394030: objective requires entering The Tank's camp outside Frost Ridge and retrieving scrap metal.",
+      "Resources/PointOfInterests.json:404: PoI 33 'Frost Ridge Speedway' is at [-233.04828,1.18629,-50.43592].",
+      "data/content/npcs/wilds.json:23118: Frost Ridge quest giver J. P. Screecher is at [-266.4713,-0.01632091,-20.47676]."
+    ],
+    "confidence": "low",
+    "notes": "The arena/speedway and quest giver are known, but no client or server row identifies The Tank's camp or the scrap-metal interaction point. The speedway marker was not substituted for the camp."
+  },
+  {
+    "quest_id": 3060024,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -1264.574,
+        -49.042,
+        784.906
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:395567: objective says to pass out fliers around Stillwater Crossing.",
+      "Resources/PointOfInterests.json:240: PoI 18 'Stillwater Crossing' has Position [-1264.574,-49.042,784.906]."
+    ],
+    "confidence": "medium",
+    "notes": "Used the exact town marker as the only available Stillwater Crossing locator. The language implies multiple stops, but no individual flier positions were found; marker radius is absent so used 8.0."
+  },
+  {
+    "quest_id": 3060034,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:394044: objective says to attend the Hurtin' Crewe premiere in Pixiewood.",
+      "extracted/named/Assets_000/Assets_000/FabledRealmsAreas.xml:3156: Halloween_Pixiewood_1 is at [-1207,-14,131], radius 40, but AreaEnabled=0.",
+      "extracted/named/Assets_000/Assets_000/FabledRealmsAreas.xml:3174: a separate Pixiewood sphere is at [-1229,-14,453], radius 40, but also AreaEnabled=0."
+    ],
+    "confidence": "low",
+    "notes": "Pixiewood spans multiple event-area spheres and PointOfInterests has no Pixiewood marker. No client record identifies the premiere venue or which sphere the visit should use, so no area center was guessed."
+  },
+  {
+    "quest_id": 3060038,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -273.78687,
+        -58.82937,
+        1951.8916
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:394046: objective sends the player to Tangletrack in Bristlewood.",
+      "Resources/PointOfInterests.json:419: PoI 34 'Tangletrack Speedway' has Position [-273.78687,-58.82937,1951.8916]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named client map POI. No POI radius is stored; used 8.0."
+  },
+  {
+    "quest_id": 3060041,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:393365: objective says to inspect booby-trapped vehicles outside the Tangletrack track.",
+      "Resources/PointOfInterests.json:419: PoI 34 'Tangletrack Speedway' is at [-273.78687,-58.82937,1951.8916]."
+    ],
+    "confidence": "low",
+    "notes": "Found the track marker but no individual vehicle transforms. Using the track center would not identify the requested cars, so the row remains unresolved."
+  },
+  {
+    "quest_id": 3070011,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 560,
+      "position": [
+        200.0,
+        0.0,
+        200.0
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:419160: objective says to catch a bigger creeping cod in Darklit Lagoon.",
+      "data/content/fishing_spots.json:94: Darklit Lagoon maps to scene bw_fishing_medpond.",
+      "data/content/fishing_spots.json:101: Darklit Lagoon scene zone_id is 560.",
+      "data/content/fishing_spots.json:102: Darklit Lagoon spawn_position is [200,0,200].",
+      "Resources/MiniGameData.txt:508: MiniGameData 596 names Global.Text 408604, Darklit Lagoon."
+    ],
+    "confidence": "medium",
+    "notes": "Used the fishing scene's non-zero zone and spawn, not the open-world boat marker. The scene mapping/spawn is reconstructed server content; its source records a client MiniGameData pairing. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3070023,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 561,
+      "position": [
+        226.38,
+        -2.04,
+        227.88
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:409471: objective places the other fishermen in Brambleback Bayou.",
+      "data/content/fishing_spots.json:122: Brambleback's Bayou maps to scene bw_fishing_stream.",
+      "data/content/fishing_spots.json:129: Brambleback's Bayou scene zone_id is 561.",
+      "data/content/fishing_spots.json:130: Brambleback's Bayou spawn_position is [226.38,-2.04,227.88].",
+      "Resources/MiniGameData.txt:509: MiniGameData 597 names Global.Text 408599, Brambleback's Bayou."
+    ],
+    "confidence": "medium",
+    "notes": "Used the fishing scene spawn for the plural-fisherman search area. The individual fishermen have no recovered transforms; this is a scene anchor, not a claim that one fisherman stands exactly there. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3070028,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 560,
+      "position": [
+        200.0,
+        0.0,
+        200.0
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:409252: objective says to head to Darklit Lagoon and reel in a large purplenosed shark.",
+      "data/content/fishing_spots.json:94: Darklit Lagoon maps to scene bw_fishing_medpond.",
+      "data/content/fishing_spots.json:101: Darklit Lagoon scene zone_id is 560.",
+      "data/content/fishing_spots.json:102: Darklit Lagoon spawn_position is [200,0,200].",
+      "Resources/MiniGameData.txt:508: MiniGameData 596 names Global.Text 408604, Darklit Lagoon."
+    ],
+    "confidence": "medium",
+    "notes": "Same reconstructed fishing-scene zone/spawn as the other Darklit Lagoon visit. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3070034,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -719.835929,
+        -6.88701,
+        786.624588
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:409998: objective sends the player to the McScuttle family farm at Rainbow Lake.",
+      "data/content/npcs/lakeshore.json:5426: Kim McScuttle position is [-719.835929,-6.88701,786.624588]; name is at line 5383.",
+      "data/content/npcs/lakeshore.json:5383: Kim McScuttle's location evidence says 'Near the farm at Rainbow Lake'.",
+      "Resources/PointOfInterests.json:1616: Rainbow Lake world marker is [-718.06885,-6.88701,789.2786]."
+    ],
+    "confidence": "medium",
+    "notes": "Used the named McScuttle family member at the farm as the anchor; the row is a reconstructed POI placement near the exact Rainbow Lake marker. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3070034,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -719.835929,
+        -6.88701,
+        786.624588
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:410001: objective repeats the visit to the McScuttle Family Farm at Rainbow Lake.",
+      "data/content/npcs/lakeshore.json:5426: Kim McScuttle position is [-719.835929,-6.88701,786.624588]; name is at line 5383.",
+      "data/content/npcs/lakeshore.json:5383: Kim McScuttle's location evidence says 'Near the farm at Rainbow Lake'.",
+      "Resources/PointOfInterests.json:1616: Rainbow Lake world marker is [-718.06885,-6.88701,789.2786]."
+    ],
+    "confidence": "medium",
+    "notes": "Same farm/family anchor as objective 0. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3070037,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:410182: objective names the suite at 1 Way Back Way in Snowhill.",
+      "data/content/npcs/snowhill.json:28341: Murphy's location evidence gives 'Snowhill Hot Springs' and the suite address.",
+      "data/content/npcs/snowhill.json:28286: Murphy mentions 1 Way Back Way but his row is a medium-confidence POI anchor in Snowhill."
+    ],
+    "confidence": "low",
+    "notes": "Searched POIs, client area XML, NPC/spawn rows, and locale text. No record contains a house transform for 1 Way Back Way; Snowhill or Murphy's town-center anchor would not locate the suite."
+  },
+  {
+    "quest_id": 3070039,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 564,
+      "position": [
+        202.42,
+        5.74,
+        290.33
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:412150: objective says Hilbert can be found in the Wintery Basin.",
+      "data/content/fishing_spots.json:150: Wintery Basin maps to scene sh_fishing_medpond.",
+      "data/content/fishing_spots.json:157: Wintery Basin scene zone_id is 564.",
+      "data/content/fishing_spots.json:158: Wintery Basin spawn_position is [202.42,5.74,290.33].",
+      "Resources/MiniGameData.txt:512: MiniGameData 600 names Global.Text 408622, Wintery Basin."
+    ],
+    "confidence": "medium",
+    "notes": "Hilbert has no separate NPC transform in our data, so used the exact Wintery Basin scene zone and spawn anchor. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3070046,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:412295: objective says 'Find the treasure chest'.",
+      "locale:412289: the treasure map says the chest lies at a tree west of the robgoblin matron's camper.",
+      "locale:412306: the hint names Matron Murgla.",
+      "data/content/npcs/greenwood_forest.json:17173: Matron Murgla's recovered spawn is [-1276.801,-34.21721,-814.2968]."
+    ],
+    "confidence": "low",
+    "notes": "The clue now resolves the camp to Matron Murgla, but neither the tree west of the camper nor the chest has a recovered transform. Using Murgla's position would miss the requested object, so the row remains unresolved."
+  },
+  {
+    "quest_id": 3070046,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:412296: objective repeats the treasure clue but supplies no coordinate.",
+      "locale:412289: map clue names a tree west of the robgoblin matron's camper.",
+      "locale:412306: hint identifies Matron Murgla.",
+      "data/content/npcs/greenwood_forest.json:17173: Matron Murgla's recovered spawn is [-1276.801,-34.21721,-814.2968]."
+    ],
+    "confidence": "low",
+    "notes": "Same unresolved hidden-object geometry as objective 0. The camp is known; the specific tree and chest transform are not."
+  },
+  {
+    "quest_id": 3080015,
+    "objective": 4,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:402667: objective says to find all Robgoblin Saboteurs before time runs out.",
+      "IDA 0x01911dc8: client string 'Robgoblin'; its only xref is 0x01517e67, which exposes no objective coordinates."
+    ],
+    "confidence": "low",
+    "notes": "Searched client area XML, POIs, NPC/spawn rows, MiniGameData, locale text, and IDA strings. This is a multi-actor timed search; no canonical group position was found, and the Frost Ridge track center would not identify the Saboteurs."
+  },
+  {
+    "quest_id": 3080024,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -934.4947,
+        -39.08796,
+        1197.13
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:395131: objective says to hurry and talk to Ace O'Mally at Thunder Falls Speedway.",
+      "data/content/npcs/wilds.json:51: Ace O'Mally position is [-934.4947,-39.08796,1197.13]; name is at line 10.",
+      "data/content/npcs/wilds.json:10: placement legacy_data, confidence high.",
+      "Resources/PointOfInterests.json:389: PoI 32 'Thunder Falls Speedway' corroborates the location."
+    ],
+    "confidence": "high",
+    "notes": "Exact named NPC position at the speedway. No area radius; used 8.0."
+  },
+  {
+    "quest_id": 3080027,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:395233: objective says to get Chase Wheeler's parts back from Linx Redline near Thunder Falls Speedway.",
+      "locale:394703: objective context says to search around Thunder Falls Speedway for Linx's kart.",
+      "Resources/Models.txt:1080: model 1079 is 'Linx Redline's Kart'.",
+      "Resources/PointOfInterests.json:389: only the Thunder Falls Speedway marker is available at [-915.60803,-39.1328,1203.7272]."
+    ],
+    "confidence": "low",
+    "notes": "The object model is identified, but no spawn or interaction transform for Linx's kart was found. The broad speedway marker is not a safe substitute for the hidden kart."
+  },
+  {
+    "quest_id": 3080027,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:395752: objective confirms the player has found the hidden kart but supplies no coordinates.",
+      "Resources/Models.txt:1080: model 1079 is 'Linx Redline's Kart'.",
+      "Resources/PointOfInterests.json:389: only the Thunder Falls Speedway marker is available at [-915.60803,-39.1328,1203.7272]."
+    ],
+    "confidence": "low",
+    "notes": "The same hidden kart target remains unresolved. No model placement, actor record, or map marker for the kart was located."
+  }
+]

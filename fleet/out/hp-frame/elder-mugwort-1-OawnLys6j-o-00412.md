@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00412 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3147, 4, 1253] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 412s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Warthog Charger", "health_fraction": 1.0}], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}, {"value": 2490, "on": "other", "color": "yellow"}, {"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.87}, "target_defeated": false, "notes": "Top HUD boss bar reads Elder Mugwort (full red bar), but no creature under that name is drawn in the frame; the player is fighting a Warthog Charger with yellow -2490 hits."}

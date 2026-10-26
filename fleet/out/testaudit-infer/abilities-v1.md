@@ -1,0 +1,19 @@
+<!-- fleet job=testaudit-infer id=abilities-v1 status=done turns=2 usd=0.0033 tokens(read,write,in,out)=[11371, 17336, 6, 2077] model=claude-haiku-5-5 -->
+# tests/abilities.rs
+
+{"file": "tests/abilities.rs",
+ "tests": [
+  {"name": "job_effect_bounds_reject_zero_timers_unbounded_targets_and_nonfinite_numbers", "verdict": "keep", "covered_by": null, "reason": "Hostile-input and bounds validation of JobEffect (zero interval, oversize duration, NaN/inf, unknown fields). No equivalent bounds test found in the similar files; the encounter_job_skills tests exercise gameplay, not these validators."},
+  {"name": "medic_fixture_loads_with_source_tags_and_client_profile", "verdict": "keep", "covered_by": null, "reason": "Checks the shipped Medic fixture loads via both from_json and load(path) and that every field carries a source tag. Provenance check with no obvious duplicate in the similar files."},
+  {"name": "damage_cast_updates_energy_health_and_emits_exact_reader_bytes", "verdict": "keep", "covered_by": null, "reason": "Only byte-exact check of the cast/attack/health/energy packet sequence for a damage ability in this file. encounter_job_skills tests assert gameplay outcomes, not these wire bytes. Not verified line by line, so confidence is moderate."},
+  {"name": "healing_emits_hitpoint_delta_and_health_energy_updates", "verdict": "keep", "covered_by": null, "reason": "Asserts the heal delta packet (35/35) and HP/energy updates with exact bytes. Heal clamping in encounter_job_skills (self_heal_clamps...) covers a different path, so this is not a clear duplicate."},
+  {"name": "first_aid_can_select_the_caster_as_its_target", "verdict": "keep", "covered_by": null, "reason": "Covers the AbilityTarget::SelfTarget branch, which no other test here exercises. Possible overlap with piece_037 first-aid tests, which were not compared in detail."},
+  {"name": "every_validation_failure_returns_client_code_without_mutation", "verdict": "keep", "covered_by": null, "reason": "Refusal check covering all failure codes with no state mutation. Explicitly a refusal test, so kept."},
+  {"name": "cooldown_is_rejected_until_the_exact_expiry_time", "verdict": "keep", "covered_by": null, "reason": "Boundary check at 199 vs 200 ms. The cooldown code 287 appears in the validation test, but the exact-expiry boundary is only asserted here. Could be partly covered by piece_067 or warpstone cooldown tests, which were not read."},
+  {"name": "lethal_damage_emits_knockout_health_and_respawn_sequence", "verdict": "keep", "covered_by": null, "reason": "Only exact-byte check of the knockout state flag and respawn (41/125) packet sequence. encounter_job_skills has knockout_clears_skill_effects, which checks effect clearing, not this packet sequence."},
+  {"name": "applied_effect_expires_once_with_remove_tag_message", "verdict": "keep", "covered_by": null, "reason": "Checks the apply-effect packet bytes plus exact expiry and a single remove message (38/17). piece_056 has tick_expires_the_row_exactly_once, which is related but tests a different module's status-row path. Not a confirmed duplicate."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Pack-level evidence only. I read the file in full but did not open the similar files' test bodies, so the superseded/duplicate calls rest on name similarity. The closest overlap is encounter_job_skills.rs (damage, DoT, stun, buff, knockout), which appears to exercise skill effects through a different API. Confirming that would require comparing its assertions to this file's byte-exact packet checks. Nothing was marked removable, given the refusal and byte-exact canary checks. The most likely future candidates, if overlap is confirmed, are damage_cast, healing and lethal_damage against encounter_job_skills."
+}

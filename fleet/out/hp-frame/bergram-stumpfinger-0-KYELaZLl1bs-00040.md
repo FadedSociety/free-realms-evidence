@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-0-KYELaZLl1bs-00040 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3158, 4, 1100] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger KYELaZLl1bs 40s
+
+{"screen": "combat", "target": {"name": "Bergram Stumpfinger", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Target bar at top shows Bergram Stumpfinger with a fully filled red bar; the floating 'Bergram's Bones: Rise from your graves!' text and a purple/blue effect are around the player, and the Goals panel tracks 'Defeat Bergram Stumpfinger'. The creature itself is not clearly visible as a fight."}

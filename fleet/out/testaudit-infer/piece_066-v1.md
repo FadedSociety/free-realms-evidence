@@ -1,0 +1,20 @@
+<!-- fleet job=testaudit-infer id=piece_066-v1 status=done turns=2 usd=0.0027 tokens(read,write,in,out)=[9797, 13199, 6, 1889] model=claude-haiku-5-5 -->
+# tests/piece_066.rs
+
+{"file": "tests/piece_066.rs",
+ "tests": [
+  {"name": "catalogue_reports_the_recovered_corpus_totals", "verdict": "keep", "covered_by": null, "reason": "Only Rust check of the piece_066 catalogue totals (25 supplied records, 42 objectives, 13 hub, 6 stickers, 52-page wiki total, 17 local stages). No other tests/*.rs file loads QuestCatalogue; the Python sibling tests/pieces/test_piece_066.py is a different suite and does not count toward the Rust run."},
+  {"name": "supplied_records_expose_title_objective_and_reward_sources", "verdict": "keep", "covered_by": null, "reason": "Only check that supplied record 1617 resolves title, objective, required count and reward item 1843 through the typed accessor. Nothing else in the suite drives this module."},
+  {"name": "wiki_pages_carry_pinned_revision_prerequisite_and_start_npc", "verdict": "keep", "covered_by": null, "reason": "Pins revision ids, prev/next chain and start NPC for two Farnum's Farm wiki pages. Unique to this module; the similar quests.rs tests exercise game runtime quests, not the wiki catalogue."},
+  {"name": "community_journal_rows_keep_unrecovered_fields_explicit", "verdict": "keep", "covered_by": null, "reason": "Guards the 'no fabricated title/objective/reward' boundary for the 13 hub registrations and the sticker ids. This is a canary against invented data and has no equivalent elsewhere."},
+  {"name": "local_stages_keep_original_bindings_explicit", "verdict": "keep", "covered_by": null, "reason": "Refusal-style check that all 17 reserved 910xxx local stages keep original_quest_id null, plus the 12/5 implementation-state split. Security-type boundary; keep."},
+  {"name": "validator_reports_gaps_without_fabricating_errors", "verdict": "keep", "covered_by": null, "reason": "Asserts zero validator errors on the real corpus and that the expected gap warnings are present. Canary for the validator; not covered elsewhere."},
+  {"name": "blocked_claim_1617_stays_disabled", "verdict": "keep", "covered_by": null, "reason": "Refusal check that the blocked claim for quest 1617 remains disabled. Explicitly protected by the keep rule. (Related to quests.rs::unrecovered_original_target_is_explicitly_disabled, but that tests game runtime, a different path, so it is not an equivalent check.)"},
+  {"name": "objective_and_reward_rows_aggregate_with_source_labels", "verdict": "keep", "covered_by": null, "reason": "Checks source labelling on aggregated objective and reward rows. Only test of this aggregation in the suite."},
+  {"name": "validator_rejects_a_fabricated_original_binding", "verdict": "keep", "covered_by": null, "reason": "Synthetic negative test: a mutated catalogue claiming an original binding for a local stage must be rejected. Security/refusal check; no equal test elsewhere."},
+  {"name": "validator_rejects_duplicate_quest_ids", "verdict": "keep", "covered_by": null, "reason": "Synthetic negative test that duplicate quest ids are rejected. Integrity refusal check; keep."},
+  {"name": "prerequisite_links_expose_the_wiki_chain", "verdict": "keep", "covered_by": null, "reason": "Checks prerequisite_links expose the wiki chain. Only test of this accessor; overlaps conceptually with the wiki prev/next assertions but drives a separate accessor."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "The similar files (kart_service, kart_racing, quests, piece_062, piece_039) cover different modules, so none supersedes these tests. No test in the Rust suite duplicates the piece_066 catalogue. The file includes src/restoration/piece_066.rs via #[path] because the module is not yet registered in lib.rs; once the lead registers it, the include should be dropped, which is a maintenance note, not a removal reason. The Python test_piece_066.py is a separate language suite and was not compared as a duplicate."}

@@ -24,6 +24,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))  # -I leaves the script's own folder off sys.path
 from locale_index import NO_FLAG, ask_jev  # noqa: E402
 from npc_match import norm, npc_index, resolve  # noqa: E402
+import client_ids  # noqa: E402
 from wiring_lists import CONTENT, LAB, OUT  # noqa: E402
 
 KINDS = ("talk_to_npc", "visit_position", "defeat", "gather_resource", "craft_recipe", "complete_dungeon",
@@ -211,6 +212,7 @@ def count_of(text, jev_count):
 def resolve_all(con):
     by_name, by_sid, names = npc_index()
     maps = name_maps()
+    ids = client_ids.overlay()
     tags = {k: (kind, c, t, j, lv) for k, kind, c, t, j, lv in con.execute("SELECT key, kind, count, target, job, level FROM jev")}
     quests, stats, missing = [], Counter(), Counter()
     for r in final_quests():
@@ -248,6 +250,12 @@ def resolve_all(con):
                 gap = None if spec["profile_id"] else f"job {job or target!r} not in jobs.json"
             elif kind == "client_reported":
                 gap = "client_reported trigger needs a client id from the decompile"
+            hit = ids.get((r["key"], i))  # DeepSeek client-id results, checked by client_ids.py
+            if gap and hit and hit["accepted"]:
+                spec.update(hit["fields"], client_evidence=hit["evidence"])
+                gap = None
+            elif gap and hit:
+                spec["candidate"] = {"fields": hit["fields"], "why_not": hit["why"], "notes": hit["notes"]}
             if gap:
                 gaps.append(f"objective {i}: {gap}")
                 missing[gap.split(" ")[0] + " " + kind] += 1

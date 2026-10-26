@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=content-v1-evidence-r1 status=done turns=1 usd=0.0016 tokens(read,write,in,out)=[0, 9843, 4, 740] model=claude-haiku-5-5 -->
+# tests/content.rs
+
+{"pass": true, "wireable": true, "score": 7, "problems": [], "notes": "All eight tests are marked keep, and whole_file_removable is false, so no removal verdict needs backing. The evidence lens is satisfied because nothing is removed. The keep decisions are the safe direction. Weaknesses: the audit's uniqueness claims are not verified. It says sibling content_*.rs files do not assert the validated-set counts, and that only this file matches the ContentError variants, but it admits it did not read content_npcs.rs, content_jobs.rs, content_dungeons.rs, quest_content_goals.rs or quest_save_tolerance.rs. A builder can act on the keep-all list as it stands. Before any future removal of validated_content_set_loads, those sibling files should be read to confirm the count coverage."}

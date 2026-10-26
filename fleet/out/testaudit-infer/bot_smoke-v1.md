@@ -1,0 +1,15 @@
+<!-- fleet job=testaudit-infer id=bot_smoke-v1 status=done turns=3 usd=0.0042 tokens(read,write,in,out)=[27101, 20948, 8, 2594] model=claude-haiku-5-5 -->
+# tests/bot_smoke.rs
+
+{"file": "tests/bot_smoke.rs",
+ "tests": [
+  {"name": "script_parser_accepts_every_step", "verdict": "keep", "covered_by": null, "reason": "Only test of bot::parse_script (every step kind, rejection of unknown verbs). The ability_request 24-byte layout it also checks is separately pinned by tests/s6_characterization.rs::ability_request_is_the_clients_24_byte_mode_zero_form, so that sub-assertion is a duplicate, but the parser checks are not covered elsewhere."},
+  {"name": "bot_logs_in_to_single_save_gateway_and_chats", "verdict": "superseded", "covered_by": "tests/playtest_gateway_smoke.rs::a_normal_player_logs_in_enters_moves_chats_and_relogs", "reason": "Same path (login to a single-save gateway, say chat, move, attack) with a weaker assertion: it only checks that a family-12 login stream arrived. The playtest smoke asserts login, entry, movement, chat and relog. Low-cost to keep as harness canary, but the behaviour is covered by a stronger test."},
+  {"name": "bot_fails_cleanly_on_unmet_expectation", "verdict": "keep", "covered_by": null, "reason": "Checks the bot harness's failure path (an unmet expect returns an error naming the step). It is a refusal-style check of the harness itself and no other test asserts it."},
+  {"name": "two_bots_share_an_account_store_gateway", "verdict": "superseded", "covered_by": "tests/multiplayer.rs::audit_two_bots_deliver_say_and_tell_with_content", "reason": "Two bots on an account-store gateway exchanging chat is the same path as the multiplayer two-bot say/tell test, which asserts delivery. Not fully verified line by line, so confidence is moderate."},
+  {"name": "bot_runs_dev_command_against_real_content", "verdict": "keep", "covered_by": null, "reason": "Ignored test that needs lab content; it is the only end-to-end check of a dev command through the bot against real content. Kept conservatively since it does not cost suite time when ignored."},
+  {"name": "bot_zones_into_battle_arena_and_wins", "verdict": "keep", "covered_by": null, "reason": "Ignored test that needs lab content; it drives the bot through the battle-cheat zoning and ready/loaded re-send. Battle start and win are covered by battle_catalogue_audit and bandit_hideout_dungeon through the server directly, not via the bot's zoning handshake, so it is not clearly covered."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Two of the six tests are ignored and need lab content. The non-ignored tests are a parser test, a harness failure test, a bot login/chat smoke and a two-bot test. Only the login/chat smoke and the two-bot test look redundant, and the two-bot verdict is not fully verified. The file also holds the shared bot harness (RunningGateway, create_account_store, create_reference), which other files use via the same path-include pattern, so the file as a whole should stay. Other files compile osfr-bot.rs by path, so removing this file would not remove that compile coverage."}

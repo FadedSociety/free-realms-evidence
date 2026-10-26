@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=fungus-golem-0-OrfNBeSJByM-00288 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3176, 4, 703] model=claude-haiku-5-5 -->
+# Fungus Golem OrfNBeSJByM 288s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Dark cave (Dark Spore D). No Fungus Golem name or health bar is legible in this frame; only player nameplates (VIP Freddy Speedypants, a red-robed figure with a name above it that is not legible) and the Lexi Bloomland goal panel appear. No enemy data can be read."}

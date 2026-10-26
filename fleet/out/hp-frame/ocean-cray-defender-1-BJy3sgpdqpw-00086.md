@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-1-BJy3sgpdqpw-00086 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3153, 4, 907] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 86s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 3735, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "A large faded 'Ocean Cray Defender' banner sits mid-screen over a green cray creature with a yellow -3735 hit number; the green/red bar above the banner is not clearly tied to a named creature, so target fields are left null."}

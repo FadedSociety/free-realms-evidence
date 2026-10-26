@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-pest-2-OWvui60zJQw-00150 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3160, 4, 1144] model=claude-haiku-5-5 -->
+# Nettleseed Pest OWvui60zJQw 150s
+
+{"screen": "combat", "target": {"name": "Nettleseed P", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Nettleseed P", "health_fraction": null}], "damage_numbers": [{"value": 8476, "on": "other", "color": "yellow"}, {"value": 1281, "on": "other", "color": "green"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Two Nettleseed enemies are shown in combat with large yellow hit numbers (-8476) and a green heal number; bar fills are obscured by damage text and the names are cut off at the edge, so the picked enemy's bar cannot be read reliably."}

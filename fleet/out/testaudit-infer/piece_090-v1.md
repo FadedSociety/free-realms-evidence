@@ -1,0 +1,18 @@
+<!-- fleet job=testaudit-infer id=piece_090-v1 status=done turns=3 usd=0.0039 tokens(read,write,in,out)=[29814, 20724, 8, 2119] model=claude-haiku-5-5 -->
+# tests/piece_090.rs
+
+{"file": "tests/piece_090.rs",
+ "tests": [
+  {"name": "sub_opcode_table_matches_the_original_enum", "verdict": "keep", "covered_by": null, "reason": "Only check of the restoration piece_090 sub-opcode table (ids 129/131 and the name lookups). guild_routing.rs drives osfr_tools::guilds, a different implementation, so it does not cover this table."},
+  {"name": "create_invite_and_role_requests_parse_with_the_recovered_layout", "verdict": "keep", "covered_by": null, "reason": "Pins the recovered client-request layout for create/invite/promote/demote/remove in src/restoration/piece_090.rs. The parser is not exercised by any other test file; guild_routing.rs tests a separate parser."},
+  {"name": "quit_accept_decline_timeout_rename_and_paid_rename_parse", "verdict": "keep", "covered_by": null, "reason": "Sole parse check for quit, accept/decline/timeout, rename (with the non-China flag) and paid-rename request bodies in this module."},
+  {"name": "malformed_requests_are_refused", "verdict": "keep", "covered_by": null, "reason": "Refusal check: every truncation, trailing bytes, bad main opcode, unknown and server-bound subtypes, unrecovered bodies and oversize strings are rejected. Refusals are never removed without an equal test elsewhere, and none exists for this parser."},
+  {"name": "location_request_keeps_a_body_the_community_class_does_not_model", "verdict": "keep", "covered_by": null, "reason": "Pins that an unmodelled trailing body is retained rather than dropped; unique to this module."},
+  {"name": "replies_encode_the_recovered_field_order", "verdict": "keep", "covered_by": null, "reason": "Byte-exact encoder checks for error, can-create, player status, name update, paid-rename reply and member status. Unique to the restoration encoder; the other guild tests use a different encoder."},
+  {"name": "guild_lifecycle_creates_invites_and_changes_roles", "verdict": "keep", "covered_by": null, "reason": "Exercises the bounded GuildStore create/invite/promote/demote rules and their refusals (name taken, no-promote-to-leader, at-min-rank). Only test of this store; guild_routing.rs covers osfr_tools::guilds."},
+  {"name": "capacity_removal_and_leader_succession_are_enforced", "verdict": "keep", "covered_by": null, "reason": "Capacity limit, leader succession, removal refusals and guid non-reuse on disband. Refusal and persistence-adjacent behaviour with no equivalent test in this module or elsewhere."},
+  {"name": "rename_is_leader_only_and_state_survives_a_round_trip", "verdict": "keep", "covered_by": null, "reason": "Leader-only rename refusal, name bounds and JSON round-trip persistence for the restoration store. Persistence and refusal checks are kept."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "The file is the only consumer of src/restoration/piece_090.rs (the #[path] include); a grep found no other test including it. Its guild behaviour overlaps conceptually with tests/guild_routing.rs and tests/piece_087.rs, but those drive osfr_tools::guilds / social modules, not this model, so no test is strictly superseded or duplicate. Nothing is marked removable. Note the file's own header says it is a pre-registration include; if the lead later registers pub mod piece_090 and it is the same code as osfr_tools::guilds, the overlap should be re-audited against guild_routing.rs. Confidence is moderate because I did not read the restoration source or the other guild tests in full."}

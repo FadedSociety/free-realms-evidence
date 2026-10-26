@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-pest-2-OWvui60zJQw-00146 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3160, 4, 912] model=claude-haiku-5-5 -->
+# Nettleseed Pest OWvui60zJQw 146s
+
+{"screen": "combat", "target": {"name": "Nettleseed Pest", "level": 14, "health_fraction": 0.95, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Nettleseed Pest", "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.92}, "target_defeated": false, "notes": "Two Nettleseed Pest bars on screen; the right one carries a clear level-14 name label and is about 95% full. The left one is partly hidden and reads full. No attacks or damage numbers are visible, and the 'Defeat all the pests' goal is shown in the HUD."}

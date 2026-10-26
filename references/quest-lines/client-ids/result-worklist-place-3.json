@@ -1,0 +1,668 @@
+[
+  {
+    "quest_id": 3080035,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-273.78687, -58.82937, 1951.8916],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:398674: 'Head to Tangletrack and race Antonio Taurino. Good luck out there!'",
+      "Resources/PointOfInterests.json:419-423: POI 34 is 'Tangletrack Speedway' at [-273.78687,-58.82937,1951.8916]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used the requested 8.0 fallback."
+  },
+  {
+    "quest_id": 3090010,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [145.90443, 37.941364, -469.97418],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:73494: 'Terrence is stressed about the medical supplies stolen from his inn and sends you to Sweetwater Climb to take them back!'",
+      "Resources/PointOfInterests.json:1094-1098: POI 82 is 'Sweetwater Climb' at [145.90443,37.941364,-469.97418]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3090018,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-532.374, -66.509, 2217.561],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:74069: 'Help out the chugawugs in Bristlewood on behalf of Mayor Crystalline.'",
+      "Resources/PointOfInterests.json:1220-1224: POI 93 is the exact label 'Bristlewood' at [-532.374,-66.509,2217.561]."
+    ],
+    "confidence": "high",
+    "notes": "Used the exact 'Bristlewood' POI, not the separate 'Bristlewood Glade' POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3090019,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-790.88934, -71.68879, 2153.0903],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:74077: 'Head to Arachnia's Lair in Briarwood and collect samples of spider venom.'",
+      "Resources/PointOfInterests.json:689-693: POI 52 is 'Arachnia's Lair' at [-790.88934,-71.68879,2153.0903]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named POI for the open-world lair marker. No marker radius; used 8.0."
+  },
+  {
+    "quest_id": 3090024,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-850.7995, -61.67808, 2307.195],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:74729: 'Look for the missing patrol in the Vale of the Ancients.'",
+      "Resources/PointOfInterests.json:1038-1042: POI 77 is 'Vale of the Ancients' at [-850.7995,-61.67808,2307.195]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3090025,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-903.47687, -47.86855, 239.3372],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:74773: 'Head into Darvon's Descent and find the missing shock paddles!'",
+      "Resources/PointOfInterests.json:1080-1084: POI 80 is 'Darvon's Descent' at [-903.47687,-47.86855,239.3372]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3090029,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-636.96, 9.31, -1041.615],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:74803: 'Prove you're in top shape by running around Seaside.'",
+      "Resources/PointOfInterests.json:160-164: POI 13 is 'Seaside' at [-636.96,9.31,-1041.615]."
+    ],
+    "confidence": "high",
+    "notes": "Used the Seaside world marker. The marker defines no radius; the objective describes movement around the town, but no route-specific anchor was supplied, so used 8.0."
+  },
+  {
+    "quest_id": 3090030,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-45.17574, -31.04914, -1172.1061],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:74843: 'Escort Acade Vulgari through the Cray Caves.'",
+      "Resources/PointOfInterests.json:1122-1126: POI 84 is 'Cray Caves' at [-45.17574,-31.04914,-1172.1061]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named Cray Caves POI in world coordinates. This is the entrance/world anchor, not an interior instance coordinate. No marker radius; used 8.0."
+  },
+  {
+    "quest_id": 3090031,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [421.3285, 84.54652, 643.1281],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:76048: 'Go to Snowy Canyon and collect some ice lotus to help some sick residents of Seaside.'",
+      "Resources/PointOfInterests.json:758-762: POI 57 is 'Snowy Canyon' at [421.3285,84.54652,643.1281]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3100015,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-1960.339, -34.07773, -427.2068],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:77496: objective sends the player to Mili Ironcall at the Southvale Outpost.",
+      "data/content/npcs/greenwood_forest.json:17480: Mili Ironcall record.",
+      "data/content/npcs/greenwood_forest.json:17506: location evidence says 'Southvale Outpost, down by the path to Lavender Coast'.",
+      "data/content/npcs/greenwood_forest.json:17895-17898: Mili Ironcall position is [-1960.339,-34.07773,-427.2068]; placement is legacy_data."
+    ],
+    "confidence": "high",
+    "notes": "Used the exact named NPC at the outpost. The record is an exact legacy-data spawn; no area radius applies, so used 8.0."
+  },
+  {
+    "quest_id": 3100024,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-880.8658, -82.09491, 2473.277],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:78177: 'Visit Pinkelug at the Mother Lode quarry in Briarwood.'",
+      "data/content/npcs/briarwood.json:50883: Pinkelug record.",
+      "data/content/npcs/briarwood.json:51051-51054: Pinkelug position is [-880.8658,-82.09491,2473.277]; placement is legacy_data."
+    ],
+    "confidence": "high",
+    "notes": "Used the exact named NPC at Mother Lode. No area radius applies; used 8.0."
+  },
+  {
+    "quest_id": 3100028,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-773.3423, -69.8597, 2361.465],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:78317: objective sends the player to Snorg at the Mother Lode quarry.",
+      "data/content/npcs/briarwood.json:62201: Snorg record.",
+      "data/content/npcs/briarwood.json:62326-62329: Snorg position is [-773.3423,-69.8597,2361.465]; placement is legacy_data."
+    ],
+    "confidence": "high",
+    "notes": "Used the exact named NPC at Mother Lode. No area radius applies; used 8.0."
+  },
+  {
+    "quest_id": 3110006,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-2031.187, -32.42247, 1087.172],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:90455: objective names bags hidden around Mire's Edge.",
+      "data/content/npcs/blackspore_swamp.json:5309: Chloe record.",
+      "data/content/npcs/blackspore_swamp.json:5335: location evidence is 'Mire's Edge, at a red tent with a green quest marker'.",
+      "data/content/npcs/blackspore_swamp.json:5589-5592: Chloe position is [-2031.187,-32.42247,1087.172]; placement is legacy_data."
+    ],
+    "confidence": "high",
+    "notes": "Used Chloe's exact legacy-data spawn as the Mire's Edge anchor. No area radius applies; used 8.0."
+  },
+  {
+    "quest_id": 3110009,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-1445.6755, -38.34243, 49.8923],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:78862: objective names the Bixie Hive in the Queensfields.",
+      "Resources/PointOfInterests.json:828-832: POI 62 is 'Bixie Hive' at [-1445.6755,-38.34243,49.8923]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3110011,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [496.56793, 47.07198, 357.09985],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:78870: the Snowhill objective says the Shadow Talon captives are at an undisclosed location.",
+      "locale:90492: 'Rescue the missing travelers from the Bat Cave'; locale:90493 adds 'Find the missing travelers and rescue them!'",
+      "locale:93962: 'went quickly to the Bat Cave and rescued several captives held by the nefarious Shadow Talon ninjas.'",
+      "Resources/PointOfInterests.json:772-776: POI 58 is 'The Bat Cave!' at [496.56793,47.07198,357.09985]."
+    ],
+    "confidence": "medium",
+    "notes": "The client objective and completion strings identify the Bat Cave as the captive location, but that link is across separate Snowhill locale records rather than one bound quest row. Used the open-world Bat Cave marker; no marker radius, so 8.0."
+  },
+  {
+    "quest_id": 3110017,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-223.1258, 3.543965, -804.55],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:78890: objective says to investigate the idol in Floren Forest.",
+      "locale:93968: completion text names Ozymandias, 'the grinning artifact'.",
+      "Resources/PointOfInterests.json:926-930: POI 69 is 'Floren Forest' at [-223.1258,3.543965,-804.55]."
+    ],
+    "confidence": "medium",
+    "notes": "The client identifies Ozymandias as the stone idol but supplies no separate idol coordinate. Used the exact Floren Forest POI as the dungeon/world anchor; no marker radius, so 8.0."
+  },
+  {
+    "quest_id": 3110021,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [158.58415, 44.722233, 1075.0023],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:78894: objective names the crazy hermit in the Misty Mountains.",
+      "Resources/PointOfInterests.json:1206-1210: POI 90 is the singular 'Misty Mountain' at [158.58415,44.722233,1075.0023]."
+    ],
+    "confidence": "high",
+    "notes": "The objective pluralizes the name while the client POI uses the singular; this is the exact mountain marker. No marker radius; used 8.0."
+  },
+  {
+    "quest_id": 3110023,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [387.37256, 117.92403, -16.92501],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:78906: objective sends the player into Howling Hills to retrieve stolen medicine.",
+      "Resources/PointOfInterests.json:982-986: POI 73 is 'Howling Hills' at [387.37256,117.92403,-16.92501]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3120006,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-1417.506849, -27.631, 355.650487],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:90028: 'Find Roscoe the Pet Trainer in Sanctuary.'",
+      "data/content/npcs/sanctuary.json:48477: Roscoe record.",
+      "data/content/npcs/sanctuary.json:48503: location evidence is the pet park beside the Pet Adoption Center, just outside Sanctuary.",
+      "data/content/npcs/sanctuary.json:48690-48704: position [-1417.506849,-27.631,355.650487], placement poi_anchor, placement_confidence medium, using Sanctuary POI 5 plus reconstructed offset."
+    ],
+    "confidence": "medium",
+    "notes": "Exact named NPC, but the data explicitly marks the xyz as a reconstructed POI offset rather than a captured transform. No area radius applies; used 8.0."
+  },
+  {
+    "quest_id": 3130005,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-1414.636, -27.631, 351.567],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:104234: objective says to deliver mail in Sanctuary, avoid dogs, and return to Felipe.",
+      "Resources/PointOfInterests.json:35-39: POI 5 is 'Sanctuary' at [-1414.636,-27.631,351.567]."
+    ],
+    "confidence": "high",
+    "notes": "Used the exact Sanctuary world marker for this town-wide delivery step. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3130019,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-70.419, 38.789, -445.165],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:130194: 'Find what happened to the Sweetwater Sasparilla.'",
+      "Resources/PointOfInterests.json:144-148: POI 12 is 'Wugachug' at [-70.419,38.789,-445.165]."
+    ],
+    "confidence": "high",
+    "notes": "Used the exact Wugachug world marker for the inferred town destination. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3130027,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [1.167, 41.038, 1114.959],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:130310: 'Head to Shrouded Glade for the postmaster meeting.'",
+      "Resources/PointOfInterests.json:82-86: POI 8 is 'Shrouded Glade' at [1.167,41.038,1114.959]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The broader Shrouded_Glade environmental area has a radius, but this selected objective marker defines none, so used 8.0."
+  },
+  {
+    "quest_id": 3140001,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-145.95377, -6.12704, 259.3836],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:412464: 'Learn how to be a soccer star by finding Manager Landon in Snowhill.'",
+      "Resources/PointOfInterests.json:1473-1477: POI 117 is 'Snowhill Soccer Field' at [-145.95377,-6.12704,259.3836]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3140006,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:414930: quest dialog says 'Check out the animal park.'",
+      "index.sqlite strings id=93730: exact place name 'Cobblestone Village Animal Park', type='place', zone='Cobblestone Village'.",
+      "Resources/PointOfInterests.json:67-71: the only Cobblestone marker is the town POI and no POI has NameId 93730.",
+      "Assets_000/Assets_000/FabledRealmsAreas.xml:1-3568: full scan found no AreaDefinition named Animal Park.",
+      "data/content/npcs/cobblestone_village.json:2441-2466: Gloria is at the Pet Adoption Center, but no client or content record equates that center with the named animal park.",
+      "data/content/collection_catalogue.json:19403-19440: 93730 is a collection entry, not a coordinate-bearing place record.",
+      "lab/content/startup-snapshot/startup.json:1-68290: exact-string search found no animal park or 93730 binding.",
+      "IDA find 'Cobblestone Village Animal Park': no matches."
+    ],
+    "confidence": "low",
+    "notes": "Unresolved. The locale index proves the destination's full name and zone, but no searched client area, POI NameId, NPC record, startup object, or IDA string supplies a coordinate. The Pet Adoption Center and Cobblestone town center were not substituted because their equivalence to the animal park is unproven."
+  },
+  {
+    "quest_id": 3140013,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-2182.3503, -36.54442, 141.07704],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:19111: objective says to prank the hooligan leader in Highroad Hijinx.",
+      "Resources/PointOfInterests.json:912-916: POI 68 is 'Highroad Hijinx' at [-2182.3503,-36.54442,141.07704]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI for the camp/dungeon entrance. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3140013,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-2182.3503, -36.54442, 141.07704],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:19123: objective says to enter the hooligan camp in Highroad Hijinx and reach Cal's tent.",
+      "locale:18043: the place name 'Cal's Tent' exists, but it is not present in PointOfInterests.json.",
+      "Resources/PointOfInterests.json:912-916: POI 68 is the exact Highroad Hijinx camp marker at [-2182.3503,-36.54442,141.07704].",
+      "data/content/npcs/wilds.json:7550,7606,7632: the Cal NPC position is explicitly unanchored and reconstructed from zone centers, so it was not used."
+    ],
+    "confidence": "medium",
+    "notes": "Used the Highroad Hijinx camp marker because the tent itself has a client place name but no coordinate and the only Cal transform is explicitly unanchored. This anchors the approach, not the radio inside the tent. No marker radius; used 8.0."
+  },
+  {
+    "quest_id": 3140022,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-1350.1166667, -36.41581, -592.1404],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:402999: 'Go to the Cheetahs' camp'.",
+      "locale:402593: the camp is described as south of Merry Vale.",
+      "data/content/npc_spawns_extra.json:18305-18310: exact Cheetahs Rightwing spawn [-1354.383,-36.40314,-601.119].",
+      "data/content/npc_spawns_extra.json:18327-18332: exact Cheetahs Leftwing spawn [-1352.854,-36.63135,-586.0515].",
+      "data/content/npc_spawns_extra.json:18349-18354: exact Cheetahs Goalie spawn [-1343.113,-36.21294,-589.2507]."
+    ],
+    "confidence": "medium",
+    "notes": "The found xyz is the arithmetic centroid of the three exact legacy-data Cheetahs spawns; this is a derived camp anchor, not a client camp object. No area radius applies, so used 8.0."
+  },
+  {
+    "quest_id": 3150014,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-912.1867, -63.6597, 399.10583],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:71355: objective sends the player to the Forgotten Caves below Sanctuary.",
+      "Resources/PointOfInterests.json:842-846: POI 63 is 'Forgotten Caves' at [-912.1867,-63.6597,399.10583]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI for the cave entrance. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3150015,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [158.58415, 44.722233, 1075.0023],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:45369: objective says to retrieve the book from the highest peak of Misty Mountain.",
+      "Resources/PointOfInterests.json:1206-1210: POI 90 is 'Misty Mountain' at [158.58415,44.722233,1075.0023]."
+    ],
+    "confidence": "medium",
+    "notes": "Used the exact mountain POI. It does not encode a separate peak height, so this is the mountain anchor rather than a proven summit coordinate; no marker radius, so 8.0."
+  },
+  {
+    "quest_id": 3160004,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-475.6702, 9.8823, 781.8755],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:103129: objective says to find Fizzlesticks' glasses in the Robgoblin Camp.",
+      "data/content/npcs/wilds.json:30533: Nurble record.",
+      "data/content/npcs/wilds.json:30559: location evidence says Nurble can be found at the Robgoblin Camp.",
+      "data/content/npcs/wilds.json:30662-30669: Nurble's service is 'Junk pile.' and position is [-475.6702,9.8823,781.8755]; placement is legacy_data.",
+      "data/content/quests/wizard.json:165-174: the current server draft independently binds the same world position as visit_position."
+    ],
+    "confidence": "high",
+    "notes": "Used Nurble's exact junk-pile spawn in the Robgoblin Camp. No area radius applies; used the requested 8.0 fallback."
+  },
+  {
+    "quest_id": 3160009,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [51.391, 30.987, 363.156],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:74854: objective sends the player to Snowhill to speak to Yaren's student.",
+      "Resources/PointOfInterests.json:3-7: POI 3 is 'Snowhill' at [51.391,30.987,363.156]."
+    ],
+    "confidence": "high",
+    "notes": "Exact Snowhill world marker. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3160012,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [264.56537, 50.78422, 169.9138],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:74864: objective sends the player to free Yaren in Hot Springs Haven.",
+      "Resources/PointOfInterests.json:703-707: POI 53 is 'Hot Springs Haven' at [264.56537,50.78422,169.9138]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI for the encounter entrance. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3160013,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-1139.917, -28.26003, -365.9323],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:384160: objective says to head to Merry Vale and speak with Talespinner Yvelle.",
+      "data/content/npcs/merry_vale.json:29114: Talespinner Yvelle record.",
+      "data/content/npcs/merry_vale.json:29203-29206: Talespinner Yvelle position is [-1139.917,-28.26003,-365.9323]; placement is legacy_data."
+    ],
+    "confidence": "high",
+    "notes": "Resolved to the exact named NPC rather than the broader Merry Vale marker. No area radius applies; used 8.0."
+  },
+  {
+    "quest_id": 3160015,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [518.2869, 57.4627, 459.0463],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:74924: 'Look for Morgulg near the Snowhill Warpstone'.",
+      "data/content/npcs/snowhill.json:26880: Morgulg record.",
+      "data/content/npcs/snowhill.json:26919-26933: Morgulg position is [518.2869,57.4627,459.0463]; placement is legacy_data with high confidence.",
+      "Resources/Npcs.json:20899: reference record confirms the 'Snowhill Warpstone' object name."
+    ],
+    "confidence": "high",
+    "notes": "Resolved to Morgulg, the exact NPC named by the objective, because no coordinate is present for the warpstone object record. No area radius applies; used 8.0."
+  },
+  {
+    "quest_id": 3160015,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-223.1258, 3.543965, -804.55],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:103845: objective says to find Morgulg's wand in Floren Forest.",
+      "Resources/PointOfInterests.json:926-930: POI 69 is 'Floren Forest' at [-223.1258,3.543965,-804.55]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI for the forest entrance. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3160026,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-273.78687, -58.82937, 1951.8916],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:24561: 'Search for Sven at the Tangletrack Speedway'.",
+      "Resources/PointOfInterests.json:419-423: POI 34 is 'Tangletrack Speedway' at [-273.78687,-58.82937,1951.8916]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3160027,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-407.724, -54.931015, 2097.3948],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:22324: objective says to enter the Briar Patch in Briarwood and retrieve a crystal from Azure.",
+      "locale:5078: the place name is 'Briar Patch'.",
+      "Resources/PointOfInterests.json:954-958: POI 71 has NameId 5078, stale display text 'Bri Patch', and position [-407.724,-54.931015,2097.3948].",
+      "data/content/npcs/briarwood.json:3119-3155: Azure is placed from POI 71, confirming the intended marker."
+    ],
+    "confidence": "high",
+    "notes": "The POI comment is misspelled, but its NameId exactly matches locale place 5078. Used that named world marker; no marker radius, so 8.0."
+  },
+  {
+    "quest_id": 3160028,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-712.79144, -49.828957, 1752.5306],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:115828: objective says to enter Treeleaf's Retreat in Briarwood.",
+      "Resources/PointOfInterests.json:1052-1056: POI 78 is 'Treeleaf's Retreat' at [-712.79144,-49.828957,1752.5306]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3160032,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-2587.9473, -19.11012, 1024.189],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:116240: objective names the Haunted Mines in Blackspore.",
+      "Resources/PointOfInterests.json:1178-1182: POI 88 is 'Haunted Mines' at [-2587.9473,-19.11012,1024.189]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI for the Blackspore dungeon entrance. The marker defines no radius, so used 8.0."
+  },
+  {
+    "quest_id": 3160033,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [-39.80192, -0.00425, 2904.154],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:76440: objective sends the player to rescue Sven in Briarheart Caverns.",
+      "Resources/PointOfInterests.json:884-888: POI 66 is 'Briarheart Caverns' at [-39.80192,-0.00425,2904.154]."
+    ],
+    "confidence": "high",
+    "notes": "Exact named world POI for the cavern entrance. The marker defines no radius, so used 8.0."
+  }
+]

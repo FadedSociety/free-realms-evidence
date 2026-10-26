@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-2-BJy3sgpdqpw-00192 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 960] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 192s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Defe", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Faded name 'Ocean Cray Defe' (cut off) above a bar that looks entirely red with no green left, but the name is too faint to confirm a fight or defeat; no fraction, level, or attackers can be read reliably. Quest tracker 'Jordan Roughtower 16m' is separate and not the target."}

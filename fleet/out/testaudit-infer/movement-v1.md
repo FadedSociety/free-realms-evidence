@@ -1,0 +1,20 @@
+<!-- fleet job=testaudit-infer id=movement-v1 status=done turns=3 usd=0.0047 tokens(read,write,in,out)=[30855, 22299, 8, 3161] model=claude-haiku-5-5 -->
+# tests/movement.rs
+
+{"file": "tests/movement.rs",
+ "tests": [
+  {"name": "ordinary_motion_clamps_soft_overage_and_rejects_gross_speed_hacks", "verdict": "keep", "covered_by": null, "reason": "Covers accept, soft clamp and gross-speed rejection with snap-back in one place; the speed-hack refusal is a security check and no other file drives the movement validator with these assertions."},
+  {"name": "unauthorized_teleport_hack_is_rejected", "verdict": "keep", "covered_by": null, "reason": "Hostile teleport refusal (no token, large jump). Overlaps the gross-overspeed branch of the test above, but it is a distinct security check and was kept conservatively."},
+  {"name": "server_issued_zone_and_developer_teleport_tokens_authorize_only_their_target", "verdict": "keep", "covered_by": null, "reason": "Security check that tokens authorize only the named target and zone; the wrong-target Ignore path is not asserted elsewhere."},
+  {"name": "stale_teleport_reports_are_ignored_then_matching_target_resumes_validation", "verdict": "keep", "covered_by": null, "reason": "Unique synthetic check of the stale-report ignore then resume behaviour; the real-trace test below uses a different input."},
+  {"name": "post_teleport_suppression_expires_and_does_not_authorize_a_hack", "verdict": "keep", "covered_by": null, "reason": "Refusal check that suppression expires and does not open a hack window; no equivalent elsewhere."},
+  {"name": "native_slow_speed_flag_reduces_horizontal_tolerance", "verdict": "keep", "covered_by": null, "reason": "Only check of the native slow-speed flag reducing tolerance (6.0 clamp)."},
+  {"name": "invalid_positions_and_unexpected_zone_changes_snap_back", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal (NaN, infinity, out-of-bounds, non-finite direction, unmatched zone change); keep as the security check."},
+  {"name": "mount_and_buff_policy_does_not_stack_and_vertical_motion_has_wide_tolerance", "verdict": "keep", "covered_by": null, "reason": "Only check that mount and buff multipliers do not stack and that vertical tolerance is wide while vertical hacks are still rejected."},
+  {"name": "replay_all_recorded_native_baselines_without_rejecting_legitimate_positions", "verdict": "keep", "covered_by": null, "reason": "Canary over the recorded capture corpus with coverage floors (>=50 runs, >=10,000 updates) and zero false rejects; not reproducible by synthetic tests."},
+  {"name": "real_developer_teleport_ignores_the_15ms_stale_position", "verdict": "keep", "covered_by": null, "reason": "Pins a real captured developer-teleport trace (stale delay and distance); the only check against real capture data for this path, though it partly overlaps the synthetic stale-report test."},
+  {"name": "a_ride_scales_the_allowance_within_the_mount_range", "verdict": "keep", "covered_by": null, "reason": "Unit check of SpeedModifiers::riding including the 64.0 cap and the base of 10. tests/mount_stats.rs::mounted_allowance_uses_the_ride_speed checks the 1.25 and 1.0 cases through the gameplay path but not the cap, so it is not a superseding test."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "The similar-file list (kart_service, player_trade, npc_interaction, encounter_job_skills, warpstone_travel) is not about movement validation, so it gave little comparison. The closest overlap is tests/mount_stats.rs::mounted_allowance_uses_the_ride_speed, which partly overlaps the last test, and tests/piece_053.rs::one_step_is_clamped_to_the_reconstructed_speed, which is about NPC pursuit, not player movement. I did not read the helper section (about lines 700-960) or the full replay_run body beyond line 684, and I did not compare the zone_transition or teleport-token tests in other files in depth. No test shows obsolete behaviour, and the security and canary tests cannot be removed without an equal test elsewhere."}

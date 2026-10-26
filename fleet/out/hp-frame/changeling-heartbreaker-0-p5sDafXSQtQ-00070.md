@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=changeling-heartbreaker-0-p5sDafXSQtQ-00070 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3166, 4, 696] model=claude-haiku-5-5 -->
+# Changeling Heartbreaker p5sDafXSQtQ 70s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Julie Happymind1", "level": 20, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Changeling Heartbreaker appears only as a tracker label (17m, red arrow) near the top left; no enemy health bar is on screen. Fairy Cultist (48m) and Ratsplat (69m) are also tracker labels only. Player is riding a mount in a flower field, not in combat."}

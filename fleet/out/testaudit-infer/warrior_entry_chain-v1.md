@@ -1,0 +1,20 @@
+<!-- fleet job=testaudit-infer id=warrior_entry_chain-v1 status=no_submit turns=3 usd=0.0058 tokens(read,write,in,out)=[38684, 30068, 8, 3311] model=claude-haiku-5-5 -->
+# tests/warrior_entry_chain.rs
+
+```json
+{"file": "tests/warrior_entry_chain.rs",
+ "tests": [
+  {"name": "dewey_offers_becoming_a_warrior_only_to_warriors", "verdict": "keep", "covered_by": null, "reason": "Covers the job gate (inactive and learned-but-inactive Warrior get no offer), the trainer Learn path, and replayed-offer no-change. The refusal checks are not matched by any other file's W1 test."},
+  {"name": "the_battle_cry_talk_completes_w1_and_pays_warrior_xp", "verdict": "keep", "covered_by": null, "reason": "Only test that pins the W1 talk completion, the held 49/13 end screen, the reward delta, and that a mid-chapter job switch routes XP to the explicit Warrior profile. Repeated 49/14 pays nothing."},
+  {"name": "morninglory_offers_w4_after_w1_and_steele_completes_it", "verdict": "keep", "covered_by": null, "reason": "Only test for the W1->W4 prerequisite chain, the giver-does-not-complete rule, and the Steele report completing W4 with two rewards. Checks the chapter's new spawns in play."},
+  {"name": "refusals_and_replay_change_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal and replay test: wrong NPC, forged accepts, wrong-NPC talk, replayed turn-ins, out-of-range 26/8, and unknown actor, each asserting no byte changes. Same-named tests in other chapter files use different content, so none is a duplicate."},
+  {"name": "the_two_spawns_and_quests_load_with_real_targets", "verdict": "keep", "covered_by": null, "reason": "Pins the Warrior record table (W1/W4/W5 enabled, W2/W3 hollow, W5 level-gate shape), provenance, and the spawn rows against the locale, model and catalog data. Not clearly covered by job_level_quest, which covers only the W5 gate behaviour."},
+  {"name": "progress_survives_a_reload", "verdict": "keep", "covered_by": null, "reason": "Persistence test: a held 49/13 survives save and load and is re-sent on relog, and completed W1 and its XP survive the reload. Persistence tests are not removable without an equal replacement."},
+  {"name": "the_new_spawns_are_visible_to_a_second_session", "verdict": "keep", "covered_by": null, "reason": "Its only substantive check is that the second session draws Morninglory and Steele with the right name ids and that its character id binds. The drawn-NPC assertions overlap the two-spawns test, but the multi-session view is a distinct path. Conservatively kept; it is the weakest candidate for removal."},
+  {"name": "a_refused_turn_in_for_one_player_does_not_stop_the_other", "verdict": "keep", "covered_by": null, "reason": "Per-player refusal and isolation test: a forged 49/14 is refused without an error or a save change, and the other player is paid once. Multi-player isolation is not covered in this file elsewhere."},
+  {"name": "a_malformed_warrior_record_fails_at_load", "verdict": "keep", "covered_by": null, "reason": "Load-refusal canary: zero and negative ids, empty objective source, over-cap objectives, out-of-range reward, and unknown job profile are each refused, with a control record that must load. job_level_quest::a_malformed_job_level_goal_is_a_load_error covers only the job-level goal shape."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.75,
+ "notes": "Every test drives the production in-world router, and the file is built on Warrior-specific content (W1, W4, the Morninglory/Steele spawns, profile 32). No test is a clear duplicate of another file, and same-named tests in brawler_mongo_chain, medic_entry_chain, miner_first_ore, and scavenger_hunt_quest exercise different content, so they are not duplicates. I read the file's body from line 200 onward and the top 200 lines only through the excerpt, so the verdicts rest on that. I did not diff the malformed-record cases against the loader unit tests in src/, which could hold overlapping load-validation checks. Nothing here is clearly obsolete: the W5 gate in T361 is pinned rather than replaced."}
+```

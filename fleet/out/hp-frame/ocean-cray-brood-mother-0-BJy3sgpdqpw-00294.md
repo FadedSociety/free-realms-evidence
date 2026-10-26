@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00294 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3159, 4, 1120] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 294s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 0.15, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}, {"value": 216, "on": "player", "color": "red"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Brood Mother under heavy hits from several -2490 yellow numbers; its top bar is nearly empty; Brady Stormbreath is named on the nameplate below it; the bar fraction and the job name are approximate."}

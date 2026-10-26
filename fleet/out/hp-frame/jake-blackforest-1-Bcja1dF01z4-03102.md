@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=jake-blackforest-1-Bcja1dF01z4-03102 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2742, 4, 734] model=claude-haiku-5-5 -->
+# Jake Blackforest Bcja1dF01z4 3102s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "No Jake Blackforest name or health bar is legible. The large name above the werewolf-costumed figure reads 'Mia Icemeadows <Werewolf Vampire Husky School>', which is a player-style label, not the picked enemy. A skeletal spider creature is nearby with an illegible name and no readable bar. No combat is visible."}

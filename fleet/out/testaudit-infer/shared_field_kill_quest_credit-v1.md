@@ -1,0 +1,29 @@
+<!-- fleet job=testaudit-infer id=shared_field_kill_quest_credit-v1 status=done turns=3 usd=0.0049 tokens(read,write,in,out)=[27833, 23150, 8, 3474] model=claude-haiku-5-5 -->
+# tests/shared_field_kill_quest_credit.rs
+
+{"file": "tests/shared_field_kill_quest_credit.rs",
+ "tests": [
+  {"name": "a_shared_field_kill_credits_the_killer_quest_once", "verdict": "keep", "covered_by": null, "reason": "Only test that drives the full 5-kill 3000009 objective through handle_shared_field with 49/9, 49/10, 49/8 and 38/14 assertions on the killer; field_kill_rewards covers coin/XP only."},
+  {"name": "the_other_player_in_the_same_field_is_not_credited", "verdict": "keep", "covered_by": null, "reason": "Negative/refusal check that a non-contributor in the same field gets no quest event or state change; not found elsewhere in this granularity."},
+  {"name": "a_second_tick_or_close_does_not_double_credit", "verdict": "keep", "covered_by": null, "reason": "Replay/idempotence check (replayed ability, select 103, repeated ticks) asserting the save is unchanged; a persistence-style canary for double credit."},
+  {"name": "a_solo_arena_kill_still_credits_and_is_unchanged", "verdict": "keep", "covered_by": null, "reason": "Solo non-shared strike path regression check; not verified as duplicated elsewhere, so kept conservatively."},
+  {"name": "the_credit_survives_a_reconnect", "verdict": "keep", "covered_by": null, "reason": "Persistence check through the reconnect bind; similar names exist in soccer_quest_credit.rs and field_kill_rewards.rs but for different event paths. Kept."},
+  {"name": "a_malformed_or_zero_definition_is_ignored", "verdict": "keep", "covered_by": null, "reason": "Hostile/malformed input check (zero, negative, non-target definition); refusal behaviour, keep."},
+  {"name": "a_failing_quest_event_for_one_player_does_not_stop_the_other", "verdict": "keep", "covered_by": null, "reason": "Isolation check: stale catalogue bind and invalid position for A while B still credits. Same-named test in soccer_quest_credit.rs covers a different event route."},
+  {"name": "the_existing_field_and_arena_suites_stay_green", "verdict": "keep", "covered_by": null, "reason": "Only pins 35/8 swing animation and 32/7 attack result bytes; the file's own comment says these are gated in shared_field_state.rs, but that was not verified line-by-line, so kept conservatively. Candidate for superseded if shared_field_state.rs asserts the same 35/8 and 32/7 values."},
+  {"name": "a_contributors_own_quest_advances_once_from_a_shared_field_kill", "verdict": "keep", "covered_by": null, "reason": "Contributor tick credit with retain_casters prune and exactly-once check; unique to this file."},
+  {"name": "the_credit_pays_the_contributor_reward_and_quest_event_once", "verdict": "keep", "covered_by": null, "reason": "Pays reward and quest event once for a contributor; overlaps conceptually with field_kill_rewards::a_shared_kill_pays_each_credited_player_once but adds the quest event, so not a true duplicate."},
+  {"name": "an_expired_or_left_field_credit_advances_nothing", "verdict": "keep", "covered_by": null, "reason": "Expiry/departure refusal check; forfeiting the quest event is a required behaviour."},
+  {"name": "a_zero_reward_event_credits_a_contributor_quest", "verdict": "keep", "covered_by": null, "reason": "Specific zero-reward-table case from T302; unique."},
+  {"name": "a_zero_or_invalid_definition_is_ignored_without_an_error", "verdict": "keep", "covered_by": null, "reason": "Overlaps a_malformed_or_zero_definition_is_ignored in this file (same hostile-input path, no error). Not a removable duplicate because it targets the contributor tick path; consider merging with the malformed test."},
+  {"name": "a_full_credit_list_drops_the_oldest_and_other_players_continue", "verdict": "keep", "covered_by": null, "reason": "Bounded-list canary; unique."},
+  {"name": "a_group_member_who_never_hit_or_engaged_gets_no_credit", "verdict": "keep", "covered_by": null, "reason": "Negative eligibility check; same concern as the_other_player_in_the_same_field_is_not_credited but for group members, kept."},
+  {"name": "a_player_outside_the_field_instance_gets_no_credit", "verdict": "keep", "covered_by": null, "reason": "Instance-isolation refusal check; kept."},
+  {"name": "a_contributors_opening_defeat_goal_advances_once", "verdict": "keep", "covered_by": null, "reason": "Opening defeat-goal exactly-once check for contributors; unique to this file."},
+  {"name": "the_killer_and_two_contributors_each_advance_once", "verdict": "keep", "covered_by": null, "reason": "Three-participant exactly-once check; kept."},
+  {"name": "a_failing_quest_event_for_one_contributor_does_not_change_or_stop_the_other", "verdict": "keep", "covered_by": null, "reason": "Isolation/refusal check for a contributor; kept."},
+  {"name": "a_reward_bearing_credit_advances_a_reconnected_contributor_once", "verdict": "keep", "covered_by": null, "reason": "Reconnect plus reward plus quest exactly-once canary; kept."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Based on the pack, the excerpt and read of roughly lines 1-800 of 1401 plus the head of field_kill_rewards.rs; the back half (800-1401) was not read. The file's quest-credit focus is largely distinct from field_kill_rewards.rs (coin/XP) and multiplayer.rs (full-stack shared kill). Possible trims: the_existing_field_and_arena_suites_stay_green could be superseded by tests/shared_field_state.rs if it pins the same 35/8 and 32/7 values; a_zero_or_invalid_definition_is_ignored_without_an_error overlaps a_malformed_or_zero_definition_is_ignored. Neither was verified, so both are kept. Wording overlap with soccer_quest_credit.rs and field_kill_rewards.rs test names is by name only, not by assertion."}

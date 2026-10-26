@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-2-FiWCkh0St38-00364 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3148, 4, 881] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 364s
+
+{"screen": "combat", "target": {"name": "Queen Verda", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.89, "health_text": null}, "target_defeated": false, "notes": "Boss bar 'Queen Verda' at top is fully filled; Freddy (Ninja) fights a group of troll enemies among overlapping damage numbers that are not cleanly legible. Verda's own level is not shown and her creature name is not clearly legible above a head."}

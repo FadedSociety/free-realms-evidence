@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-0-7rPcgr6KOfk-00144 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2740, 4, 964] model=claude-haiku-5-5 -->
+# Ocean Cray Defender 7rPcgr6KOfk 144s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Defender", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Ocean Cray Defender", "health_fraction": null}, {"name": "Ocean Cray Marauder", "health_fraction": null}], "damage_numbers": [{"value": 427, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Cylena Valnaris", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Crowd of Ocean Cray enemies in a cave fight with a bright pink attack burst; the target's health bar is not legible at this resolution, and the player's level and job are unreadable."}

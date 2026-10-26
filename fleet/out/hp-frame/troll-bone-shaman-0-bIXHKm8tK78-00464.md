@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-bone-shaman-0-bIXHKm8tK78-00464 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2984, 4, 675] model=claude-haiku-5-5 -->
+# Troll Bone Shaman bIXHKm8tK78 464s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player character in purple outfit stands on grass beside a cliff with a blue teleport/portal effect at their feet. A small green-topped label near (680,135) is too blurred to read as Troll Bone Shaman, and no troll or health bar is legible, so no enemy data is recorded."}

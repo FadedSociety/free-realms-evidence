@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=w74_quest_runtime-v1-evidence-r1 status=done turns=1 usd=0.0013 tokens(read,write,in,out)=[0, 8244, 4, 633] model=claude-haiku-5-5 -->
+# tests/w74_quest_runtime.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "The audit has one test and keeps it. There are no removal verdicts, so the evidence lens has no covering test to check. The only claim that could mislead is the keep rationale's partial overlap with npc_interaction.rs; that is a reason to keep, so it does not change the outcome. whole_file_removable=false matches the single keep. The auditor's own notes say the overlap judgement is moderate-confidence and that the test is #[ignore]d for private references. Those are worth a follow-up but do not affect the verdict. Score is docked slightly for the unverified overlap claim and the admitted reliance on test names rather than bodies."}

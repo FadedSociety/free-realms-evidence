@@ -1,0 +1,642 @@
+[
+ {
+  "quest_id": 3070014,
+  "quest": "q3070014",
+  "title": "Fisherman: Picky Palettes",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 419014,
+  "text": "Reel in some cheery salmon in Sacred Grove Shallows for Vick to feed to his campers.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 419014,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Cheery Salmon' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070015,
+  "quest": "q3070015",
+  "title": "Fisherman: Beware of Sharks!",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 409087,
+  "text": "Reel in the shark that's terrorizing campers in the Sacred Grove Shallows.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 409087,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'shark' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070028,
+  "quest": "q3070028",
+  "title": "Fisherman: Taking the Bait",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 409251,
+  "text": "Reel in a large purplenosed shark",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 409251,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Purplenosed Shark' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070031,
+  "quest": "q3070031",
+  "title": "Fisherman: Fish Fry",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 409901,
+  "text": "Reel in some Peachy Perch from Rainbow Lake for Merri De'Flor.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 409901,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Peachy Perch' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070049,
+  "quest": "q3070049",
+  "title": "Fisherman: Showing Off Your Skills",
+  "objective": 3,
+  "kind": "finish_minigame",
+  "text_string_id": 410233,
+  "text": "Show Melvin a thing or two about fishing at the Frostbitten Banks.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 410233,
+   "minigame_id": null,
+   "count": 2
+  },
+  "gap": "objective 3: finish_minigame target 'Fishing' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070049,
+  "quest": "q3070049",
+  "title": "Fisherman: Showing Off Your Skills",
+  "objective": 4,
+  "kind": "finish_minigame",
+  "text_string_id": 410234,
+  "text": "Get some perfect casts",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 410234,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 4: finish_minigame target 'Fishing Perfect Cast Skill' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080003,
+  "quest": "q3080003",
+  "title": "Challenge Verve McNichols",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 394323,
+  "text": "Beat Verve McNichols in a kart race at the Wildwood Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394323,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Verve McNichols' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080008,
+  "quest": "q3080008",
+  "title": "Kart Driver: You Want to Go Fast?",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 394405,
+  "text": "Beat the &quot;Crystal Hunting&quot; minigame",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394405,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target 'Crystal Hunting' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080008,
+  "quest": "q3080008",
+  "title": "Kart Driver: You Want to Go Fast?",
+  "objective": 4,
+  "kind": "finish_minigame",
+  "text_string_id": 394446,
+  "text": "Beat T.R. Walker Jr. in a kart race at the Wildwood Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394446,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 4: finish_minigame target 'T.R. Walker Jr.' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080010,
+  "quest": "q3080010",
+  "title": "Kart Driver: Wildwood Sprint Challenge",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 394507,
+  "text": "Complete a lap in under 60 seconds at the Wildwood Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394507,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Wildwood Speedway' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080012,
+  "quest": "q3080012",
+  "title": "Kart Driver: Dominating at Wildwood",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 394594,
+  "text": "Win three races at the Wildwood Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394594,
+   "minigame_id": null,
+   "count": 3
+  },
+  "gap": "objective 0: finish_minigame target 'Wildwood Speedway' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080014,
+  "quest": "q3080014",
+  "title": "Kart Driver: A Treacherous Track",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 394722,
+  "text": "Beat Sparks Blitzwing in the &quot;Treacherous Track&quot; race at Frost Ridge Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394722,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Sparks Blitzwing' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080016,
+  "quest": "q3080016",
+  "title": "Kart Driver: Redline Returns",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 394811,
+  "text": "Beat Linx Redline in the &quot;Redline Returns&quot; race at Frost Ridge Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394811,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Linx Redline' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080018,
+  "quest": "q3080018",
+  "title": "Kart Driver: Icy Perfection",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 394893,
+  "text": "Beat Amber Violet in the &quot;Icy Perfection&quot; race at Frost Ridge Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394893,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Amber Violet' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080020,
+  "quest": "q3080020",
+  "title": "Kart Driver: Frost Ridge Sprint Challenge",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 394925,
+  "text": "Complete a lap in 28 seconds or less at the Frost Ridge Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394925,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Frost Ridge Speedway' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080022,
+  "quest": "q3080022",
+  "title": "Kart Driver: Dominating at Frost Ridge",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 395116,
+  "text": "Win three races at Frost Ridge Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 395116,
+   "minigame_id": null,
+   "count": 3
+  },
+  "gap": "objective 0: finish_minigame target 'Frost Ridge Speedway' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080024,
+  "quest": "q3080024",
+  "title": "Kart Driver: Age Before Beauty",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 395162,
+  "text": "Beat Ace O'Mally in the &quot;Age Before Beauty&quot; race at Thunder Falls Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 395162,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target \"Ace O'Mally\" has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080028,
+  "quest": "q3080028",
+  "title": "Kart Driver: High Speed Chase",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 395247,
+  "text": "Beat Chase Wheeler in the &quot;High Speed Chase&quot; race at Thunder Falls Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 395247,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Chase Wheeler' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080040,
+  "quest": "q3080040",
+  "title": "Kart Driver: Miner's Guild Sponsorship",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 395499,
+  "text": "Win a race at Tangletrack Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 395499,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Tangletrack Speedway' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080045,
+  "quest": "q3080045",
+  "title": "SG Tour 400: Wildwood",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 397998,
+  "text": "Beat Kade Carmichael in a race at Wildwood Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 397998,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Wildwood Speedway' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080046,
+  "quest": "q3080046",
+  "title": "Kart Driver: SG Tour 400: Frost Ridge",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 398074,
+  "text": "Beat Kade Carmichael in a race at Frost Ridge Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 398074,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Frost Ridge Speedway' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3080048,
+  "quest": "q3080048",
+  "title": "Kart Driver: SG Tour 400: Tangletrack",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 398215,
+  "text": "Beat Kade Carmichael in a race at Tangletrack Speedway.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 398215,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Tangletrack Speedway' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3090029,
+  "quest": "q3090029",
+  "title": "Medic: No Pain, No Gain",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 74804,
+  "text": "As a medic, complete the run before time expires!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 74804,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target None has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3110016,
+  "quest": "q3110016",
+  "title": "Ninja: Burst of Speed",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 78882,
+  "text": "Ty in Lakeshore has challenged you to demonstrate your speed in a fast-paced foot race.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 78882,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target \"Ty's foot race\" has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3120005,
+  "quest": "q3120005",
+  "title": "Pet Trainer: Speak Up!",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 90020,
+  "text": "Use the trick game to train your pet to do the trick &quot;Speak&quot;.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 90020,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Speak' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3120011,
+  "quest": "q3120011",
+  "title": "Pet Trainer: Peek-A-Who?",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 90044,
+  "text": "Use the trick game to train your dog to do the trick &quot;Peek-a-Boo&quot;.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 90044,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Peek-a-Boo' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3120021,
+  "quest": "q3120021",
+  "title": "Pet Trainer: Amaze Me",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 90089,
+  "text": "Get an &quot;Amazing!&quot; score on a pet trick.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 90089,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'pet trick game (no target id in client)' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3130021,
+  "quest": "q3130021",
+  "title": "Postman: Sorting It Out",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 130228,
+  "text": "Sort at least 120 blue envelopes.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 130228,
+   "minigame_id": null,
+   "count": 120
+  },
+  "gap": "objective 1: finish_minigame target 'blue envelopes' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140008,
+  "quest": "q3140008",
+  "title": "Soccer Star: Slowing The Snowspurs",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 402607,
+  "text": "Coach Eddie wants you to beat the Snowhill Snowspurs again. This time, it's not a practice round. Watch out for &quot;Iron Foot&quot; Ronnie. He'll be out to get you!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 402607,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Snowhill Snowspurs' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140009,
+  "quest": "q3140009",
+  "title": "Soccer Star: Goal Stopper",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 402842,
+  "text": "Beat the Goalbusters",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 402842,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Goalbusters' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140009,
+  "quest": "q3140009",
+  "title": "Soccer Star: Goal Stopper",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 402851,
+  "text": "Don't let the Goalbusters score 5 goals",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 402851,
+   "minigame_id": null,
+   "count": 5
+  },
+  "gap": "objective 1: finish_minigame target 'Goalbusters' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140010,
+  "quest": "q3140010",
+  "title": "Soccer Star: Power Game",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 414973,
+  "text": "Steal the ball 5 times ",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 414973,
+   "minigame_id": null,
+   "count": 5
+  },
+  "gap": "objective 1: finish_minigame target 'Goalbusters' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140012,
+  "quest": "q3140012",
+  "title": "Soccer Star: Briarwood's Fancy Feet",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 402931,
+  "text": "Beat the Black Widows",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 402931,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target 'Briarwood Black Widows' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140016,
+  "quest": "q3140016",
+  "title": "Soccer Star: Cheetahs Double Challenge",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 414956,
+  "text": "The Cheetahs have requested that the Sidekicks participate in their Double Challenge. Coach &quot;Golden Leg&quot; Eddie wants you to run them down two times! Maybe this will show them that the final game of the season will be just as brutal.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 414956,
+   "minigame_id": null,
+   "count": 2
+  },
+  "gap": "objective 0: finish_minigame target 'Cheetahs' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140024,
+  "quest": "q3140024",
+  "title": "Soccer Star: Making The Finals",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 402995,
+  "text": "Beat the Twinkletoes",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 402995,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Twinkletoes' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140024,
+  "quest": "q3140024",
+  "title": "Soccer Star: Making The Finals",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 406621,
+  "text": "Complete dodge maneuvers 10 times",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 406621,
+   "minigame_id": null,
+   "count": 10
+  },
+  "gap": "objective 1: finish_minigame target 'Twinkletoes match' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140025,
+  "quest": "q3140025",
+  "title": "Soccer Star: Twinkle Toes",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 414952,
+  "text": "The finals are just around the corner. In order to make sure you're fully prepared, Coach &quot;Golden Leg&quot; Eddie has scheduled a scrimmage against those Twinkletoes of Sanctuary. Beat them in a friendly game of soccer. ",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 414952,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Sanctuary Twinkletoes' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3140030,
+  "quest": "q3140030",
+  "title": "Soccer Star: Tournament Champion",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 402818,
+  "text": "Coach &quot;Golden Leg&quot; Eddie wants you to beat the Cheetahs in the final game of the season.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 402818,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Cheetahs' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3150004,
+  "quest": "q3150004",
+  "title": "Warrior: One With Your Weapon",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 22581,
+  "text": "Play the sword testing minigame.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 22581,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Sword Testing' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3150018,
+  "quest": "q3150018",
+  "title": "Warrior: Legend of Fastvi Frostflutter",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 100757,
+  "text": "Use the game table near Sir Whittington and beat the &quot;Weed Killing!&quot; tower defense minigame.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 100757,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Weed Killing!' has no minigame_id in our data"
+ }
+]

@@ -1,0 +1,234 @@
+[
+ {
+  "quest_id": 3000008,
+  "title": "Your First Weapon",
+  "record": "quest-lines/quests.json q3000008",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "craft_recipe",
+    "fields": {
+     "recipe_id": 11,
+     "count": 1
+    },
+    "text_string_id": 4420071,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Forge a Spunky Scrapper Hammer' is locale 4420071 (quest_objective, this quest's line group).",
+      "source": "locale:4420071"
+     },
+     {
+      "claim": "Server test binds CraftRecipe recipe_id 11 to the Spunky Scrapper Hammer forge objective.",
+      "source": "repo:prototype/osfr-tools/src/gameplay/w104_quest_tests.rs:387"
+     },
+     {
+      "claim": "Recovered recipe pattern 'Spunky Scrapper Hammer Recipe' has param1 11.",
+      "source": "repo:tests/pieces/test_piece_014.py:48"
+     }
+    ],
+    "note": "Spelling follows client 'Spunky' (102173), not the wiki's 'Funky'. Count 1 is the text's single hammer. Starting materials (10 Copper Bars, 5 Turquoise, 5 Wooden Planks, 5 Thorny Fasteners) are wiki-only and not part of this objective."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000050
+    },
+    "text_string_id": null,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Cleetus Farnum is NPC 9000000050 (client name locale 46925).",
+      "source": "locale:46925; repo:notes/Autopilot/T241.md:75"
+     },
+     {
+      "claim": "Talk-back objective 'Return to Cleetus Farnum' exists in client text, but only under other quests' ids (5100119, 5100123, 5100133, 5100209), not verified for this quest.",
+      "source": "locale:5100119, 5100123, 5100133, 5100209"
+     }
+    ],
+    "note": "NPC row is the giver; the pack's reference spawn for placement was not confirmed in this pass. text_string_id left null because no locale id is verified for this quest's 'Return to Cleetus Farnum' line."
+   }
+  ]
+ },
+ {
+  "quest_id": 3000010,
+  "title": "One More Gloam",
+  "record": "quest-lines/quests.json q3000010",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "kill_actor_kind",
+    "fields": {
+     "actor_kind_id": 920001,
+     "count": 1
+    },
+    "text_string_id": 4420083,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Locale 4420083 is the One More Gloam objective: defeat one last Gloam Creature for Pappy before leaving for the Queen. 'one last' gives count 1.",
+      "source": "locale:4420083 (quest_objective | One More Gloam); pack: objectives[0].client_text"
+     },
+     {
+      "claim": "Enemy definition 920001 'Gloam Creature' uses model 3933, the same model as the draft's target.",
+      "source": "pack: candidates.enemy_actor_kinds[0] (data/content/enemies)"
+     }
+    ],
+    "note": "Count 1 comes from the text ('one last Gloam Creature'), not chosen by me. The pack lists 920001 twice from data/content/enemies; it is one definition. Do not use 920110 'Gloam Overlord' (model 3956)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3000011,
+  "title": "Where's the Help?",
+  "record": "quest-lines/quests.json q3000011",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000021
+    },
+    "text_string_id": 4420095,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Talk to Bartle' is locale 4420095, tagged quest_objective with hint Bartle",
+      "source": "locale:4420095 (pack: quest_lines)"
+     },
+     {
+      "claim": "NPC 9000000021 is Bartle, placed in the Cobblestone Village NPC file",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/cobblestone_village.json:760"
+     },
+     {
+      "claim": "Bartle's NPC answer for 9000000021 is locale 4420092, the quest completion line for this quest, so the talk target is the same NPC that answers the quest",
+      "source": "repo:prototype/osfr-tools/tests/npc_greetings_starting_road.rs:146; notes/Research/NPC Greetings.md:5"
+     },
+     {
+      "claim": "Objective text 'Expected help ... Talk to Bartle' (4420091) and the Adventurer guide row A11 name Bartle as the single target",
+      "source": "notes/Build Guides/Content/Jobs/Adventurer.md:76"
+     }
+    ],
+    "note": "Single talk objective, count 1 implied by the single NPC talk. Draft is confirmed; no change. The Pappy offer (4420089) is not an objective and is not a server objective here."
+   }
+  ]
+ },
+ {
+  "quest_id": 3000017,
+  "title": "Forging for Reinforcements",
+  "record": "quest-lines/quests.json q3000017",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 139,
+     "count": 1
+    },
+    "text_string_id": 5100488,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Forge another Spunky Scrapper Hammer for Cleetus Farnum.' is locale 5100488 and belongs to this quest (quest_dialog 5100486 offer, 5100489 complete).",
+      "source": "locale:5100488; locale:5100486; locale:5100489"
+     },
+     {
+      "claim": "Forging is the MatchThree minigame bound as const GAME = 139 in forging.rs; row 139 is 'Forging: Spunky Scrapper Hammer'.",
+      "source": "prototype/osfr-tools/src/forging.rs (const GAME = 139); notes/Research/original-activity-coverage.json:589-590"
+     },
+     {
+      "claim": "A native run of this forging minigame produced a GameWon result and Cleetus turn-in for the hammer.",
+      "source": "notes/Research/original-activity-coverage.json:945; MODLOG.md (Native181715)"
+     },
+     {
+      "claim": "The draft craft_recipe recipe 11 was wrong: recipe 11 is the Your First Weapon recipe chain (notes/Research/Starting Quest Chains.md:14), and the repeat forge is a minigame, not a recipe craft.",
+      "source": "notes/Research/Starting Quest Chains.md:14, :23"
+     }
+    ],
+    "note": "Count 1 from 'another' (one more hammer). Replaces draft craft_recipe{recipe_id 11}. Requires the server's repeatable forge to accept a second run (unverified, see open)."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000050
+    },
+    "text_string_id": 5100506,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "'Return to Cleetus' is locale 5100506, this quest's turn-in objective.",
+      "source": "locale:5100506"
+     },
+     {
+      "claim": "Cleetus Farnum is npc_id 9000000050, placed in the farmstead NPC file, and is the giver of 3000017 per the Starting Quest Chains table.",
+      "source": "prototype/osfr-tools/data/content/npcs/farnum_farmstead.json:1126; notes/Research/Starting Quest Chains.md:23"
+     }
+    ],
+    "note": "Turn-in to the giver after the hammer is forged."
+   }
+  ]
+ },
+ {
+  "quest_id": 3010014,
+  "title": "Archer: No Bow, No Work!",
+  "record": "quest-lines/quests.json q3010014",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "reach_poi",
+    "fields": {
+     "poi_id": 68
+    },
+    "text_string_id": 115487,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "POI 68 'Highroad Hijinx' (NameId 5710, LocationId 2046) has Position [-2182.3503,-36.54442,141.07704], matching the draft position.",
+      "source": "refs: Sanctuary/src/Resources/PointOfInterests.json:911-924 (same row in FreeRealms-Legacy, Lxzxrus, TCG-Files at line 912)"
+     },
+     {
+      "claim": "Objective text names entering Highroad Hijinx.",
+      "source": "locale:115487"
+     }
+    ],
+    "note": "Replaces the earlier visit_position draft: the place has a point of interest, so reach_poi applies. The visit_position zone 0 and radius 8.0 draft is dropped."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "kill_actor_kind",
+    "fields": {
+     "actor_kind_id": 930012,
+     "count": 3
+    },
+    "text_string_id": 115487,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Enemy definition 'Hooligan Archer' actor_kind_id 930012, model 520, exists in server enemy data.",
+      "source": "pack: candidates.enemy_actor_kinds; data/content/enemies.json:459-461"
+     },
+     {
+      "claim": "Text says 'defeat a few Hooligan Archers'.",
+      "source": "locale:115487"
+     }
+    ],
+    "note": "Count 3 is a builder choice for 'a few' (R). Kill target is enemy kind 930012 inside Highroad Hijinx; decorative NPC rows 4157/4158/4670/4672/4675 and NPC row 100000004157 are not the target."
+   }
+  ]
+ }
+]

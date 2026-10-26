@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-1-bXM3-p0eCk-00380 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2735, 4, 1038] model=claude-haiku-5-5 -->
+# Queen Verda -bXM3-p0eCk 380s
+
+{"screen": "combat", "target": {"name": "Queen Verda", "level": null, "health_fraction": 0.85, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 6450, "on": "target", "color": "yellow"}, {"value": 6450, "on": "target", "color": "yellow"}, {"value": 6450, "on": "target", "color": "yellow"}, {"value": 6450, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Trent Falconorb", "level": 20, "job": "Archer", "health_fraction": 0.99}, "target_defeated": false, "notes": "Queen Verda (name partly hidden behind a damage number, shown as 'Queen ... rd') is being hit by repeated 6450 damage numbers; health bar about 85% green. Energy warning on screen."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hooligan-wolf-1-aAwG5ZoXaeY-00070 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2920, 4, 911] model=claude-haiku-5-5 -->
+# Hooligan Wolf aAwG5ZoXaeY 70s
+
+{"screen": "dialog_or_menu", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Demo Derby Driver", "level": 17, "job": "Demo Derby Driver", "health_fraction": 1.0}, "target_defeated": false, "notes": "Chat quick-phrase menu open over a world view; a quest tracker fragment reading 'Active Q...' with a partly legible 'olligan' label and distance is visible at the bottom right of the chat box. No Hooligan Wolf health bar is legible on screen; the player rides a red kart near other characters."}

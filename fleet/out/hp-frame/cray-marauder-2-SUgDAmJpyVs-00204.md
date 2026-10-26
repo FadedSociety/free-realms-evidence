@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=cray-marauder-2-SUgDAmJpyVs-00204 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2737, 4, 783] model=claude-haiku-5-5 -->
+# Cray Marauder SUgDAmJpyVs 204s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 110, "on": "player", "color": "red"}], "attackers_visible": 0, "player": {"name": "Cyliena Velnarin", "level": 4, "job": "Brawler", "health_fraction": 0.34}, "target_defeated": false, "notes": "Player takes a -110 hit in a dark swamp; no Cray Marauder name or health bar is legible above any creature. Only the Goals panel mentions Cray Marauders, with no distance marker, so no enemy health reading is possible."}

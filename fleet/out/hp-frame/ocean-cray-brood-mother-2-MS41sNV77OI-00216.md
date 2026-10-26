@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-2-MS41sNV77OI-00216 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2743, 4, 1037] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother MS41sNV77OI 216s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Tideweaver Oceana", "health_fraction": null}], "damage_numbers": [{"value": 1186, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Seth Fierybolt", "level": 20, "job": "Warrior", "health_fraction": 0.8}, "target_defeated": false, "notes": "Faint grey 'Ocean Cray...' label at right is only partly legible with no health bar; the large fight in center is Tideweaver Oceana, so the Brood Mother is not confirmed on screen at this frame."}

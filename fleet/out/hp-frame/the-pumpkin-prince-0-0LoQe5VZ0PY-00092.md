@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=the-pumpkin-prince-0-0LoQe5VZ0PY-00092 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2752, 4, 963] model=claude-haiku-5-5 -->
+# The Pumpkin Prince 0LoQe5VZ0PY 92s
+
+{"screen": "combat", "target": {"name": "The Pumpkin Prince", "level": null, "health_fraction": 0.2, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Blizzardus Snow", "level": 20, "job": "Brawler", "health_fraction": 1.0}, "target_defeated": false, "notes": "Boss bar for The Pumpkin Prince at top center is mostly empty (red fill ~20%); the boss's own figure is partly hidden behind the Lucinda message, and no level or numbers are legible. Player is at full health (9821/9821) in a blue effect near the boss."}

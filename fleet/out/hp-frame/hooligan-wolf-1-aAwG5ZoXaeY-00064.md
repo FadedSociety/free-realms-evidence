@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hooligan-wolf-1-aAwG5ZoXaeY-00064 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2920, 4, 754] model=claude-haiku-5-5 -->
+# Hooligan Wolf aAwG5ZoXaeY 64s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": 1.0, "health_text": "2000/2000"}, "target_defeated": false, "notes": "Player flies a red glider over a green valley; only the quest tracker 'Active Quest / Hooligan Wo... 1349m' is visible, with no Hooligan Wolf creature or health bar on screen. Player HP bar reads 2000/2000 and the player's own name and level are not legible."}

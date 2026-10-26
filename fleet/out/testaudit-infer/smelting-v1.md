@@ -1,0 +1,21 @@
+<!-- fleet job=testaudit-infer id=smelting-v1 status=done turns=3 usd=0.0047 tokens(read,write,in,out)=[34957, 24136, 8, 2684] model=claude-haiku-5-5 -->
+# tests/smelting.rs
+
+{"file": "tests/smelting.rs",
+ "tests": [
+  {"name": "shared_native_go_sentinel_is_bound_to_offered_smelting_instance", "verdict": "keep", "covered_by": null, "reason": "Refusal check for wrong instance/GameId sentinels on the native GO path in src/smelting.rs; the cooking.rs analogue drives Cooking, a separate state machine, so it does not cover this path."},
+  {"name": "native_results_ack_never_closes_or_repeats_recipe", "verdict": "keep", "covered_by": null, "reason": "Hostile/replayed ack and terminal-state persistence checks specific to Smelting; no equivalent drives Smelting's ack handling."},
+  {"name": "shared_original_stat_suffix_is_narrow_and_never_completes_a_recipe", "verdict": "keep", "covered_by": null, "reason": "Malformed-suffix refusal and no-completion canary for Smelting's stat parser. cooking.rs::actual_native_stat_suffix_is_numeric_only_* is the same shape but exercises Cooking, not Smelting."},
+  {"name": "native_payload_info_and_game_over_equal_compiled_community_vectors", "verdict": "keep", "covered_by": null, "reason": "Byte-exact compiled-vector check of Smelting's info/start/payload/won replies; only the Smelting module's vectors are asserted here."},
+  {"name": "four_round_win_is_single_server_recipe_intent_and_survives_restart", "verdict": "keep", "covered_by": null, "reason": "Recipe grant/consume transaction plus restart persistence; persistence check with no equal test in another file for Smelting."},
+  {"name": "malformed_stale_and_early_victory_do_not_commit", "verdict": "keep", "covered_by": null, "reason": "Hostile/truncated packets and early-victory refusal that must not commit; security-type check."},
+  {"name": "cancelling_or_losing_never_grants_and_does_not_reuse_instance", "verdict": "keep", "covered_by": null, "reason": "No-grant-on-loss/cancel and instance non-reuse canary."},
+  {"name": "staged_completion_can_roll_back_and_duplicate_data_does_not_reset_stopwatch", "verdict": "keep", "covered_by": null, "reason": "Rollback of staged completion and duplicate-data stopwatch persistence; unique to Smelting's timer semantics."},
+  {"name": "unsafe_content_and_corrupt_state_are_rejected_without_reset", "verdict": "keep", "covered_by": null, "reason": "Fail-closed content and corrupt-state validation; security-type refusal."},
+  {"name": "private_original_movie_metadata_and_recipe_load", "verdict": "keep", "covered_by": null, "reason": "Ignored private-config test; cannot be removed without losing the only check against the original Smelting77 metadata (length 299, id 386068)."},
+  {"name": "every_miner_catalog_recipe_uses_exact_transaction_once", "verdict": "keep", "covered_by": null, "reason": "Iterates every miner catalog recipe to check exact transaction-once; the only such sweep for Smelting. mining.rs / other catalog tests are not confirmed to drive the same Smelting path."},
+  {"name": "smelting_recipe_rejections_leave_state_unchanged", "verdict": "keep", "covered_by": null, "reason": "Recipe-rejection no-change refusal check; not clearly covered by another test for Smelting."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "The file is a structural clone of tests/cooking.rs and tests/forging.rs (same fixture, same test names with 'shared_native_go_sentinel', 'stat_suffix', 'every_*_catalog_recipe'). But the pack's similarity is at the test-shape level: src/smelting.rs (Smelting, line 132; payload_packet line 652) is a separate module from src/cooking.rs and src/forging.rs, so the cooking/forging tests drive different code paths and cannot be called superseded or duplicate under the rules. Mining also has its own payload_packet. Every test is therefore kept. Consolidating the three near-identical files into a shared harness would reduce maintenance, but that is a refactor, not a removal. Not verified: whether the ignored private test and the catalog sweep are exercised by any other file for smelting specifically; I did not read the full similar-file tests beyond cooking.rs lines 1-300."}

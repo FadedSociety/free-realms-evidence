@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=cray-snapper-0-nDX88pgHwSg-00024 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2743, 4, 582] model=claude-haiku-5-5 -->
+# Cray Snapper nDX88pgHwSg 24s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Cyllena Volnaris", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Open field at night with a teleport/portal effect and a small character circle; no enemy name or health bar is legible. The quest tracker shows only a goal line (Endure the Croc, Snappers), with no Cray Snapper name or distance, so no target can be read from this frame."}

@@ -1,0 +1,50 @@
+[
+ {
+  "npc_id": 9500000294,
+  "name": "Chatty",
+  "zone": "Greenwood Forest",
+  "position": [
+   -1556.533,
+   -40.64807,
+   -625.8194
+  ],
+  "heading": 0.355156,
+  "model": "chatdy.adr",
+  "model_id": 277,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3264",
+  "near_zone": "Greenwood Forest",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000317,
+  "name": "One of Three",
+  "zone": "Greenwood Forest",
+  "position": [
+   -2020.201,
+   -33.10506,
+   550.6256
+  ],
+  "heading": -2.629269,
+  "model": "human_m_wraith_white.agr",
+  "model_id": 4564,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2833",
+  "near_zone": null,
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000318,
+  "name": "Robbie",
+  "zone": "Greenwood Forest",
+  "position": [
+   -1562.003,
+   -42.86308,
+   -452.6263
+  ],
+  "heading": -2.024974,
+  "model": "robgoblin_m_bobgoblin.adr",
+  "model_id": 1027,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3257",
+  "near_zone": "Greenwood Forest",
+  "quests_waiting": []
+ }
+]

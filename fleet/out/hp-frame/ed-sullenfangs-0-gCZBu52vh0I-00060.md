@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ed-sullenfangs-0-gCZBu52vh0I-00060 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2880, 4, 1022] model=claude-haiku-5-5 -->
+# Ed Sullenfangs gCZBu52vh0I 60s
+
+{"screen": "combat", "target": {"name": "Ed Sullenfangs", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 59, "on": "other", "color": "red"}], "attackers_visible": 1, "player": {"name": "Grayson Stonyhammer", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Red name 'Ed Sullenfangs' drawn low on screen with no health bar visible above it; a red -59 hit number at left and a 'not enough energy' message; the top-center target box shows the same name but no bar."}

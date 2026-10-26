@@ -1,0 +1,18 @@
+[
+ {
+  "npc_id": 9500000795,
+  "name": "Two of Three",
+  "zone": "Stillwater Crossing",
+  "position": [
+   -245.2278,
+   3.118001,
+   578.0795
+  ],
+  "heading": -0.578828,
+  "model": "human_m_wraith_gray.agr",
+  "model_id": 4565,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2834",
+  "near_zone": "Durango Zoo",
+  "quests_waiting": []
+ }
+]

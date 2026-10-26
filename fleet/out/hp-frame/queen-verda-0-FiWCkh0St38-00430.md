@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-0-FiWCkh0St38-00430 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3148, 4, 888] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 430s
+
+{"screen": "combat", "target": {"name": "Queen Verda", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Troll Roughguard", "health_fraction": null}], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.85}, "target_defeated": false, "notes": "Queen Verda is named in the top boss bar (fully red, fraction not reliable); her own overhead bar is not clearly legible. A large yellow number near center is not fully legible, so no damage value is reported."}

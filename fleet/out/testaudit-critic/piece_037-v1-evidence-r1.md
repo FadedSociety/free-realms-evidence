@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=piece_037-v1-evidence-r1 status=done turns=2 usd=0.0023 tokens(read,write,in,out)=[12370, 14816, 6, 747] model=claude-haiku-5-5 -->
+# tests/piece_037.rs
+
+{"pass": true, "wireable": true, "score": 9, "problems": [], "notes": "All 15 tests carry a keep verdict and whole_file_removable is false, so there are no superseded, duplicate or obsolete removal verdicts to back. The lens check therefore has nothing to fail. I confirmed the audit's key factual claim with a repo search: no Rust test file other than tests/piece_037.rs includes src/restoration/piece_037.rs. The other hits are notes, the Python checker, and piece_086 references. The audit's similarity judgements (piece_058 revive ledger vs. this file's revive rules) were made by name only, which the auditor disclosed. That matters only if someone later proposes removing tests here, and no such removal is proposed. Keeping all 15 is the safe outcome."}

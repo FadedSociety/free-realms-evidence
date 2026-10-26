@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-swamp-cray-1-n9NH7VCyJrU-00152 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3153, 4, 1134] model=claude-haiku-5-5 -->
+# Elder Swamp Cray n9NH7VCyJrU 152s
+
+{"screen": "combat", "target": {"name": "Elder Swamp Cray", "level": null, "health_fraction": 0.1, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 254, "on": "target", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Asurecowl", "level": 2, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Cray in combat with its health bar mostly depleted and a 254 hit rising above it; the 'not enough energy' message shows on screen. Player's own character is not clearly visible in the attack effects."}

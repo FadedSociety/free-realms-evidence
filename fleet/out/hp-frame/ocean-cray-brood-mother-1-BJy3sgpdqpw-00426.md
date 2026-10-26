@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00426 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 948] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 426s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.74}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Faded zone banner 'Ocean Cray Brood M...' sits over the scene; a faint small name under it may be the target, but no clear health bar is attached to it. The green/red bar near top center is not clearly tied to a creature, so target health is left null. Tracker 'Jordan Roughtower 25m' is not the target."}

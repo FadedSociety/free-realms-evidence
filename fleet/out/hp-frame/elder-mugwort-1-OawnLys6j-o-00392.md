@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00392 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 1080] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 392s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Toad Bouncer", "health_fraction": 0.65}], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player fights a Toad Bouncer in a swamp area; Elder Mugwort is not shown as a creature above a health bar in this frame, only in the dialog subtitle and the Goals panel ('Defeat the druid, Mugwort!')."}

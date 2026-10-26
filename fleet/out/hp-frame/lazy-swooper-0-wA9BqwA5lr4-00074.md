@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=lazy-swooper-0-wA9BqwA5lr4-00074 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2747, 4, 1071] model=claude-haiku-5-5 -->
+# Lazy Swooper wA9BqwA5lr4 74s
+
+{"screen": "combat", "target": {"name": "Lazy Swooper", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 109, "on": "target", "color": "yellow"}, {"value": 108, "on": "player", "color": "red"}], "attackers_visible": 1, "player": {"name": "Cyliena Velnarin", "level": 18, "job": "Medic", "health_fraction": 0.6}, "target_defeated": false, "notes": "Player (Medic) fighting a bird-like swooper; the name label above the enemy is faint and its health bar is not legible, so no fraction or level is recorded. Red -108 is on the player, yellow -109 is over the enemy."}

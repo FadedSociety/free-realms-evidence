@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-2-BJy3sgpdqpw-00162 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3153, 4, 1144] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 162s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Defender", "level": null, "health_fraction": 0.75, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "target", "color": "white"}, {"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player Ninja fights Ocean Cray Defender (green/red bar about three-quarters full) amid Ocean Cray Brood Mother; 2490 hits shown, one further number illegible."}

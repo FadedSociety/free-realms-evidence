@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=stone-heart-1-WAWU-4ZDmkE-00098 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2743, 4, 876] model=claude-haiku-5-5 -->
+# Stone Heart WAWU_4ZDmkE 98s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Large red Stone-Heart-like creature under a bar at top, but its overhead name is garbled by overlapping chat/floating text and the bar fill is not reliably readable; 'Stone Heart' appears only in the bottom UI prompt box, not as the enemy's label. Attacker count not reliably determinable."}

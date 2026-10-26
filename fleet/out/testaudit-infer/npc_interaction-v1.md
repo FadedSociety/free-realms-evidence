@@ -1,0 +1,41 @@
+<!-- fleet job=testaudit-infer id=npc_interaction-v1 status=done turns=4 usd=0.0063 tokens(read,write,in,out)=[50609, 25650, 10, 5086] model=claude-haiku-5-5 -->
+# tests/npc_interaction.rs
+
+{"file": "tests/npc_interaction.rs",
+ "tests": [
+  {"name": "vendor_menu_shop_buy_sell_and_close_use_coin_shop_validation", "verdict": "keep", "covered_by": null, "reason": "Drives the NPC vendor menu, 165/4 buy, 165/5 sell, 66/46 close and the NoOpenShop refusal end to end through NpcInteraction::handle_coin_store. vendor_sell.rs and vendor_buy_sell_gateway.rs cover sells and buys through the gateway, not this exact service path with the 26/9 menu bytes. Overlap is partial, so keep."},
+  {"name": "quest_giver_talk_candidate_uses_quest_engine_eligibility", "verdict": "keep", "covered_by": null, "reason": "Only check that a talk option is offered from QuestEngine eligibility for a synthetic giver. Not found elsewhere by name."},
+  {"name": "interaction_rejects_out_of_range_npc", "verdict": "keep", "covered_by": null, "reason": "Range refusal, a refusal check. Not verified against other files."},
+  {"name": "interaction_rejects_unknown_npc", "verdict": "keep", "covered_by": null, "reason": "Unknown-target refusal, a refusal check. Not verified against other files."},
+  {"name": "typed_quest_giver_id_fills_an_unlisted_regional_npc_offer", "verdict": "keep", "covered_by": null, "reason": "Specific regional-NPC offer path, not found duplicated in the similar files."},
+  {"name": "npc_interact_26_8_decodes_and_reencodes_captured_request", "verdict": "keep", "covered_by": null, "reason": "Captured-packet codec canary for 26/8."},
+  {"name": "zone_less_legacy_vendor_uses_open_world_range_and_shop_options", "verdict": "keep", "covered_by": null, "reason": "Legacy zone-less vendor range rule. tests/world.rs has a related zone-less regional NPC spawn test, but it checks spawning, not vendor range and shop options. Keep."},
+  {"name": "dialogue_26_3_synthetic_fixture_round_trips_exact_native_field_order", "verdict": "keep", "covered_by": null, "reason": "Byte-order canary for the 26/3 writer and reader. Many other files use decode_dialogue_26_3 but for consumption, not exact field order. Keep."},
+  {"name": "quest_offer_49_1_matches_captured_empty_reward_packet", "verdict": "keep", "covered_by": null, "reason": "Captured-packet canary for the 49/1 offer with an empty reward. Keep."},
+  {"name": "dialogue_uses_a_greeting_locale_id_instead_of_the_npc_name", "verdict": "keep", "covered_by": null, "reason": "Specific greeting-id behaviour. Keep."},
+  {"name": "merchant_list_66_42_matches_the_client_reader_layout", "verdict": "keep", "covered_by": null, "reason": "Layout canary for 66/42 with a round trip and length refusals. vendor_sell.rs::gateway_shop_list_is_the_client_readable_66_42 checks the gateway path, not the codec's extended and truncated refusals. Keep."},
+  {"name": "coin_merchant_list_165_10_matches_the_same_row_reader_layout", "verdict": "keep", "covered_by": null, "reason": "Layout canary for 165/10 with truncation and wrong-family refusals. Many files decode 165/10 but do not check these refusals. Keep."},
+  {"name": "merchant_buy_66_43_is_parsed_only_for_an_open_vendor_session", "verdict": "keep", "covered_by": null, "reason": "Session-binding refusal for 66/43. Keep."},
+  {"name": "a_vendor_mapping_without_the_content_role_is_refused", "verdict": "keep", "covered_by": null, "reason": "Security refusal: a sale must not be authorized by a role-less mapping. Doc cites the F307 review. Never remove without an equal test."},
+  {"name": "dialogue_includes_goodbye_action_and_native_close_bytes", "verdict": "keep", "covered_by": null, "reason": "Pins the goodbye choice and the 26/4 close bytes. enabled_quest_menu_offers.rs uses goodbye_dialogue_choice but does not check the close bytes. Keep."},
+  {"name": "dialogue_close_releases_talk_but_keeps_an_open_shop", "verdict": "keep", "covered_by": null, "reason": "State-interaction check: closing dialogue must not close an open shop. Keep."},
+  {"name": "quest_reply_49_2_reads_the_client_id_and_accept_flag", "verdict": "keep", "covered_by": null, "reason": "Reader canary for 49/2 client id and accept flag. Keep."},
+  {"name": "quest_end_reply_49_14_uses_six_byte_header_and_quest_id", "verdict": "keep", "covered_by": null, "reason": "Header canary for 49/14, with malformed-length refusals. Several files build 49/14 via helpers but do not assert the header. Keep."},
+  {"name": "named_target_npc_matches_active_quest_content_and_starts_turnin", "verdict": "keep", "covered_by": null, "reason": "Quest content and turn-in routing for a named target. Keep."},
+  {"name": "dialogue_26_6_choice_still_opens_the_quest_offer", "verdict": "keep", "covered_by": null, "reason": "Routing check for 26/6 to 49/1. Related to enabled_quest_menu_offers.rs and fisherman_entry_chain.rs, which exercise the same chain through richer flows. Not the same assertions. Keep, conservatively."},
+  {"name": "dialogue_close_26_4_consumes_only_that_menu", "verdict": "keep", "covered_by": null, "reason": "Refusal and state check: 26/4 consumes only its own menu and the NPC reopens afterwards. Keep."},
+  {"name": "client_reported_45_7_only_advances_an_open_goal", "verdict": "keep", "covered_by": null, "reason": "Refusal check: 45/7 only moves an open goal of the character's own active quest. Keep."},
+  {"name": "journal_49_15_unlisted_id_is_refused_with_one_line", "verdict": "keep", "covered_by": null, "reason": "Refusal check: an unlisted id gets one chat line and no change. Doc points to tests/quest_journ... for related coverage, but this test is the 49/15 refusal itself. Keep."},
+  {"name": "quest_accept_49_2_and_turn_in_49_14_still_route", "verdict": "keep", "covered_by": null, "reason": "Routing check for accept and turn-in families with a captured run reference. Keep."},
+  {"name": "a_real_client_eight_byte_abandon_is_decoded_and_removes_the_quest", "verdict": "keep", "covered_by": null, "reason": "Canary for the real 8-byte 26/23 client body with save round trip. Keep."},
+  {"name": "the_old_ten_byte_abandon_and_other_lengths_are_refused_without_mutation", "verdict": "keep", "covered_by": null, "reason": "Hostile-length refusal test with no mutation and the open menu intact. The 10-byte shape is not a client shape, but this test checks refusal of it, not that the shape is accepted, so it is not obsolete. Keep."},
+  {"name": "an_unknown_completed_or_other_characters_quest_is_refused_without_mutation", "verdict": "keep", "covered_by": null, "reason": "Security refusal: forged, completed and other-character ids change nothing. Keep."},
+  {"name": "a_replayed_abandon_changes_nothing", "verdict": "keep", "covered_by": null, "reason": "Replay refusal, checked before and after a save round trip. Keep."},
+  {"name": "interact_and_select_26_8_26_10_still_route", "verdict": "keep", "covered_by": null, "reason": "Routing for 26/8 and 26/10, with unknown-target and malformed refusals. Keep."},
+  {"name": "vendor_165_4_and_66_43_still_route", "verdict": "keep", "covered_by": null, "reason": "Routing plus shop-binding refusal that leaves the shop and inventory untouched. Keep."},
+  {"name": "a_two_session_refusal_does_not_change_the_other_players_state", "verdict": "keep", "covered_by": null, "reason": "Two-session isolation security check. Keep."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Low-confidence audit. I read the 8-byte abandon and the 26/23 refusal tests in full, and grepped each test's decoder and family names across tests/. I did not read the file's other sections (about lines 1-1100 and 1230-1396) or the similar files' test bodies, so I could not compare assertions line by line. Every test is marked keep because each is a refusal, canary or routing check, and none has a named equally strong duplicate. The closest overlaps are vendor_sell.rs and vendor_buy_sell_gateway.rs (vendor buy and sell, and the 66/42 and 165/10 readers), enabled_quest_menu_offers.rs and fisherman_entry_chain.rs (26/3, 26/6, 49/1 chain), and tests/world.rs (zone-less spawn). A second pass with full reads of those files could mark some vendor-path or 26/6 routing tests as superseded. The file is clearly not removable as a whole."}
+</result>

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=counselor-tyra-0-L27vxozHOls-00112 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2743, 4, 833] model=claude-haiku-5-5 -->
+# Counselor Tyra L27vxozHOls 112s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Keith Silvernight", "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player stands in Bigtoot's Lair with two brown Bigfoot-type creatures nearby; no Counselor Tyra name or health bar is legible, and the goal tracker reads 'Defeat Bigfoot'. Player level read as 20 from the unlabelled number by the job bar; the badge reading 10 is ambiguous."}

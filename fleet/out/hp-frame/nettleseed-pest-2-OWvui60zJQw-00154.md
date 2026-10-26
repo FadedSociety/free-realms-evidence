@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-pest-2-OWvui60zJQw-00154 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3160, 4, 850] model=claude-haiku-5-5 -->
+# Nettleseed Pest OWvui60zJQw 154s
+
+{"screen": "combat", "target": {"name": "Nettleseed Pest", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1867, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Player is fighting among plant enemies in a purple-flowered area; the Nettleseed Pest name is faded and its health bar is partly hidden by damage numbers, so its level and fraction are not legible. The yellow -1867 is only partly visible and is not a confirmed value."}

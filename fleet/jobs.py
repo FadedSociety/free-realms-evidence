@@ -223,6 +223,13 @@ def round_items(job):
     return json.load(open(path, encoding="utf-8")) if path.exists() else []
 
 
+def hp_frame_items():
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent / "quests"))
+    import enemy_hp_video
+    return enemy_hp_video.frame_items()
+
+
 QUEST_TOOLS = ("lookup", "locale", "search", "read", "submit")
 
 JOBS = {
@@ -244,6 +251,21 @@ JOBS = {
                           tools=QUEST_TOOLS),
     "schedule-critic": Job("schedule-critic", "schedule-critic", "low", 0.05, lambda: round_items("schedule-critic"),
                            tools=QUEST_TOOLS),
+    "objfix-infer": Job("objfix-infer", "objfix-infer", "low", 0.06, lambda: round_items("objfix-infer"),
+                        tools=QUEST_TOOLS),
+    "objfix-critic": Job("objfix-critic", "objfix-critic", "low", 0.05, lambda: round_items("objfix-critic"),
+                         tools=QUEST_TOOLS),
+    "testaudit-infer": Job("testaudit-infer", "testaudit-infer", "low", 0.06, lambda: round_items("testaudit-infer"),
+                           tools=QUEST_TOOLS),
+    "testaudit-critic": Job("testaudit-critic", "testaudit-critic", "low", 0.05, lambda: round_items("testaudit-critic"),
+                            tools=QUEST_TOOLS),
+    # The same fix prompts over the drafts that already resolved (counts, splits, actor kinds).
+    "objcheck-infer": Job("objcheck-infer", "objfix-infer", "low", 0.06, lambda: round_items("objcheck-infer"),
+                          tools=QUEST_TOOLS),
+    "objcheck-critic": Job("objcheck-critic", "objfix-critic", "low", 0.05, lambda: round_items("objcheck-critic"),
+                           tools=QUEST_TOOLS),
+    # One gameplay-video frame around an enemy sighting (quests/enemy_hp_video.py picks them).
+    "hp-frame": Job("hp-frame", "hp-frame", "low", 0.02, hp_frame_items, tools=("submit",)),
     "line-infer": Job("line-infer", "line-infer", "low", 0.06, lambda: round_items("line-infer"), tools=QUEST_TOOLS),
     "line-critic": Job("line-critic", "line-critic", "low", 0.05, lambda: round_items("line-critic"),
                        tools=QUEST_TOOLS),

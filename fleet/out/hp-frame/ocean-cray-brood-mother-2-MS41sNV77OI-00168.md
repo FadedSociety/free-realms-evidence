@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-2-MS41sNV77OI-00168 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2743, 4, 1114] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother MS41sNV77OI 168s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 161, "on": "target", "color": "red"}, {"value": 2372, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Seth Fierybolt", "level": 20, "job": "Warrior", "health_fraction": 0.98}, "target_defeated": false, "notes": "Player in combat with Ocean Cray Brood Mother; enemy name shown over creature, bar too obscured by damage text to read a reliable fraction, level not legible; 'You don't have enough energy' message on screen."}

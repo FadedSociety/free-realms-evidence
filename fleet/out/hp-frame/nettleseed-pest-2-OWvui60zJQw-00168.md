@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-pest-2-OWvui60zJQw-00168 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3160, 4, 910] model=claude-haiku-5-5 -->
+# Nettleseed Pest OWvui60zJQw 168s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 207, "on": "other", "color": "red"}, {"value": 821, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": 0.8}, "target_defeated": false, "notes": "Crowded combat with overlapping damage numbers; the Nettleseed Pest name is only partly legible behind the numbers and its health bar is obscured, so the target is not read."}

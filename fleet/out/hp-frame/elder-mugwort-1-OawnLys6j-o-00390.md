@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00390 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3147, 4, 1184] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 390s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Toad Bonacer", "health_fraction": 0.95}], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.85}, "target_defeated": false, "notes": "Elder Mugwort is not shown as a creature here; only his name appears in the dialog subtitle and the Goals panel. The visible fight is with Toad Bonacer, and the yellow 2490 is over that enemy."}

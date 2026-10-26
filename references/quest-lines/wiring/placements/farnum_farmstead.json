@@ -1,0 +1,34 @@
+[
+ {
+  "npc_id": 9500000267,
+  "name": "Aunt Daisy",
+  "zone": "Farnum Farmstead",
+  "position": [
+   -2183.565,
+   -31.23667,
+   341.9566
+  ],
+  "heading": -1.947352,
+  "model": "human_f_aunt_daisy.agr",
+  "model_id": 491,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1959",
+  "near_zone": "Farnum Farmstead",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000230,
+  "name": "Vicki",
+  "zone": "Farnum Farmstead",
+  "position": [
+   -2159.124,
+   -47.03806,
+   152.1265
+  ],
+  "heading": 0.138117,
+  "model": "human_f_freestyle_10.agr",
+  "model_id": 551,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2454",
+  "near_zone": "Farnum Farmstead",
+  "quests_waiting": []
+ }
+]

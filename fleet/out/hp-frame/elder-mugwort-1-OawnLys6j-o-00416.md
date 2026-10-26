@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00416 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 1019] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 416s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1231, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Freddy fights Elder Mugwort in a forest clearing; the top boss bar reads as solid red with no separate green fill I can measure, so its fraction is left null. Upper damage number is partly obscured and not recorded."}

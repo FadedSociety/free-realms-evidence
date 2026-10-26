@@ -1,0 +1,34 @@
+[
+ {
+  "npc_id": 9500000376,
+  "name": "Cragara",
+  "zone": "Merry Vale",
+  "position": [
+   130.87897,
+   28.729305,
+   290.85706
+  ],
+  "heading": -0.0971219953,
+  "model": "sogg_f_vendor.adr",
+  "model_id": 4103,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000413,
+  "name": "Necronomicus",
+  "zone": "Merry Vale",
+  "position": [
+   -840.8241,
+   -49.89272,
+   -696.3012
+  ],
+  "heading": 1.952378,
+  "model": "necronomicus_m.adr",
+  "model_id": 4220,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2026",
+  "near_zone": "Merry Vale",
+  "quests_waiting": []
+ }
+]

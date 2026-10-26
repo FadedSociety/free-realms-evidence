@@ -1,0 +1,32 @@
+<!-- fleet job=testaudit-infer id=login-v1 status=done turns=3 usd=0.0042 tokens(read,write,in,out)=[26707, 16986, 8, 3711] model=claude-haiku-5-5 -->
+# tests/login.rs
+
+{"file": "tests/login.rs",
+ "tests": [
+  {"name": "packets_equal_independent_community_serializers", "verdict": "keep", "covered_by": null, "reason": "Byte-equality canary against community fixture vectors for login, creation, selection, and server list packets; no other file pins these vectors together."},
+  {"name": "native_creation_selection_reconnect_and_name_check_preserve_identity", "verdict": "keep", "covered_by": null, "reason": "End-to-end native flow (login, select, name check, create, duplicate create refusal, reconnect) asserting identity persistence; not found as a same-path duplicate in the similar files."},
+  {"name": "account_login_creates_lists_selects_and_deletes_two_characters", "verdict": "keep", "covered_by": null, "reason": "Lifecycle over two characters; tests/account.rs::one_account_owns_two_characters_and_reload_keeps_both overlaps in part but this drives the login service path and delete, so it is not clearly the same assertions."},
+  {"name": "ban_blocks_login_until_expiry", "verdict": "keep", "covered_by": null, "reason": "Refusal check for banned login with expiry; tests/login_broker.rs::ban_and_unban_apply_while_login_runs covers a different angle (live ban changes), so not removable."},
+  {"name": "account_login_rejects_a_character_owned_by_another_account", "verdict": "keep", "covered_by": null, "reason": "Ownership refusal/security check; keep per policy. tests/account.rs::session_cannot_bind_another_accounts_character_and_delete_checks_owner is a similar named check but was not compared assertion-by-assertion here."},
+  {"name": "login_reply_carries_account_membership_in_the_byte_the_client_reads", "verdict": "keep", "covered_by": null, "reason": "Pins the membership byte the client reads; not found duplicated elsewhere."},
+  {"name": "new_accounts_are_members_and_the_operator_sets_one_accounts_membership", "verdict": "keep", "covered_by": null, "reason": "Operator/membership behaviour and changes-exactly-one-account check; keep."},
+  {"name": "current_character_save_and_identity_migrate_without_rewriting_sources", "verdict": "keep", "covered_by": null, "reason": "Persistence/migration no-rewrite check; keep per policy. tests/account.rs::migration_adopts_a_legacy_character_save_without_rewriting_it is related but not verified identical."},
+  {"name": "account_name_check_and_create_share_global_uniqueness", "verdict": "keep", "covered_by": null, "reason": "Uniqueness refusal; tests/account.rs::name_check_and_create_return_client_status_codes and moderation_and_uniqueness_share_the_folded_words are close but not verified as the same assertions. Keep."},
+  {"name": "picker_names_pass_check_name_and_create_through_the_login_service", "verdict": "keep", "covered_by": null, "reason": "Drives the picker name path through the login service; tests/account.rs::the_longest_names_the_creator_picker_offers_pass_check_name_and_create overlaps in intent, not verified identical."},
+  {"name": "two_sessions_on_one_store_both_keep_the_characters_they_create", "verdict": "keep", "covered_by": null, "reason": "Concurrency/persistence check across two sessions; keep."},
+  {"name": "a_name_another_session_created_is_refused_and_nothing_is_written", "verdict": "keep", "covered_by": null, "reason": "Refusal that changes nothing; keep per policy."},
+  {"name": "delete_checks_ownership_on_the_file_and_keeps_characters_saved_since", "verdict": "keep", "covered_by": null, "reason": "Ownership security check on delete; keep."},
+  {"name": "create_and_delete_refuse_when_the_file_maps_the_account_to_another_login", "verdict": "keep", "covered_by": null, "reason": "Security refusal; keep."},
+  {"name": "split_variants_of_a_taken_name_are_taken", "verdict": "keep", "covered_by": null, "reason": "Moderation/uniqueness security check (split-word name evasion); tests/account.rs::accented_and_cased_look_alikes_of_a_saved_name_are_taken is related but different input; keep."},
+  {"name": "only_saves_wait_for_the_store_lock", "verdict": "keep", "covered_by": null, "reason": "Locking behaviour check (only saves block on writer lock); not found duplicated; keep."},
+  {"name": "malformed_creation_and_invalid_appearance_do_not_save", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal that changes nothing; keep."},
+  {"name": "native_default_server_zero_uses_only_local_realm_and_preserves_identity", "verdict": "keep", "covered_by": null, "reason": "Realm routing and identity preservation; keep."},
+  {"name": "gateway_crypto_handoff_rejects_invalid_native_key_length", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal for handoff key length; keep."},
+  {"name": "rc4_stream_zero_escape_and_group_framing", "verdict": "keep", "covered_by": null, "reason": "RC4 stream and framing canary; not located as a duplicate in the searched files; keep."},
+  {"name": "group_child_lengths_follow_the_client_variable_length", "verdict": "superseded", "covered_by": "tests/gateway.rs::group_child_lengths_follow_the_client_variable_length", "reason": "Same client GetVariableValue framing rule (FF hi lo vs FF FF FF u32) through the equivalent group parser. gateway.rs version covers the 255/254/300 sizes plus a 70,000-byte u32 case and more malformed inputs, so this copy asserts a subset (login::ciphertext_messages vs gateway ordered_messages)."},
+  {"name": "self_identity_patch_preserves_unowned_tail_and_updates_nested_lengths", "verdict": "keep", "covered_by": null, "reason": "Patch preserves unowned tail bytes and nested lengths; a persistence/byte-preservation check; keep."},
+  {"name": "private_self_patch_equals_supplied_compiled_serializer", "verdict": "keep", "covered_by": null, "reason": "Equality canary between private patch and compiled serializer; keep."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Only one clear redundancy found (group_child_lengths, superseded by gateway.rs). Most verdicts are keep by policy: the file is mostly security, refusal, persistence and canary checks. I did not read tests/account.rs, login_broker.rs or the rest of login.rs in full, so the account-related overlaps (account.rs names) are flagged as related but unverified and not marked removable. Confidence is low because assertion-level comparison against tests/account.rs was not done."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=foreman-ironfist-0-X6zfuEFRcQk-00188 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3153, 4, 1143] model=claude-haiku-5-5 -->
+# Foreman Ironfist X6zfuEFRcQk 188s
+
+{"screen": "combat", "target": {"name": "Foreman Ironfist", "level": 5, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 151, "on": "player", "color": "red"}], "attackers_visible": 1, "player": {"name": "The Ferluxia", "level": 20, "job": "Ninja", "health_fraction": 0.7}, "target_defeated": false, "notes": "Top target frame shows Foreman Ironfist with a full red bar and a level badge reading 5 (server row says 13, so the badge may not be the enemy level); the player takes a -151 hit while fighting nearby Hulking enemies. The enemy's overhead bar is not clearly visible."}

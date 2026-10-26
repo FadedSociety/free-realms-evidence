@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hedge-guardian-0-8COnkBTNgfw-00090 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3179, 4, 865] model=claude-haiku-5-5 -->
+# Hedge Guardian 8COnkBTNgfw 90s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Large mossy hedge-creature with a face is on screen, but no legible enemy name or health bar sits above it; the only label nearby is a player tag (<Warrior Cat> Waterus) and the quest goals panel lists Nogg the Cruel and Hedge Knights, so no health reading is possible."}

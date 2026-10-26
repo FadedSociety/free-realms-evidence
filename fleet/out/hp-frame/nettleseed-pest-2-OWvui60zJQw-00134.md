@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-pest-2-OWvui60zJQw-00134 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3160, 4, 972] model=claude-haiku-5-5 -->
+# Nettleseed Pest OWvui60zJQw 134s
+
+{"screen": "combat", "target": {"name": "Nettleseed Pest", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 207, "on": "target", "color": "red"}, {"value": 315, "on": "target", "color": "red"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.85}, "target_defeated": false, "notes": "Nettleseed Pest name is shown over a bar that is entirely orange-red with no visible green fill, so the remaining health cannot be read reliably; hits of 207 and -315 land on the pest. Its level is not printed on screen."}

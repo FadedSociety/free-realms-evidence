@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=changeling-heartbreaker-0-p5sDafXSQtQ-00086 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 3166, 4, 315] model=claude-haiku-5-5 -->
+# Changeling Heartbreaker p5sDafXSQtQ 86s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Julie Happymind1", "level": 20, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Chat-driven world scene in Merry Vale with a player shown as 'Julie Happymind1 <Modern Gate>'; no Changeling Heartbreaker visible, only quest tracker labels (Love Potion, Ratspl..., Verna 77m) and a chat line mentioning Heartbreakers."}

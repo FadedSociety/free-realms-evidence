@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=two-of-three-0-dCKyNMH0eDo-00114 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2734, 4, 1141] model=claude-haiku-5-5 -->
+# Two of Three dCKyNMH0eDo 114s
+
+{"screen": "combat", "target": {"name": "Two of Three", "level": 20, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 464, "on": "target", "color": "red"}], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.75}, "target_defeated": false, "notes": "Two of Three is named with level 20 under a red 464 hit in a yellow-lit ability effect; its health bar is hidden by the damage number. A 'Press X or mouse' prompt for Two of Three also shows, and the energy-shortage warning appears."}

@@ -1,0 +1,25 @@
+<!-- fleet job=testaudit-infer id=piece_048-v1 status=done turns=3 usd=0.0050 tokens(read,write,in,out)=[34011, 24797, 8, 3198] model=claude-haiku-5-5 -->
+# tests/piece_048.rs
+
+{"file": "tests/piece_048.rs",
+ "tests": [
+  {"name": "assign_request_matches_the_recovered_twelve_byte_form", "verdict": "keep", "covered_by": null, "reason": "Pins the 12-byte assign wire form and the dock/unassign (item id 0) parse. tests/piece_046.rs::assign_request_is_the_exact_recovered_twelve_byte_form overlaps the form, but it exercises a different module (src/restoration/piece_046.rs), so it is not the same path. Not clearly redundant."},
+  {"name": "assign_request_rejects_lengths_and_families_outside_the_original_form", "verdict": "keep", "covered_by": null, "reason": "Refusal check: short, long, wrong-family and truncated requests must fail, and other sub-opcodes must not parse as assigns. Hostile-input check; no equal test found elsewhere."},
+  {"name": "by_record_sub_opcode_is_reported_and_never_guessed", "verdict": "keep", "covered_by": null, "reason": "Refusal check: sub 9 must be reported as unrecovered and must not mutate state. Security-style guard, keep."},
+  {"name": "slot_layout_covers_every_recovered_field_exactly_once", "verdict": "keep", "covered_by": null, "reason": "Structural layout canary: field offsets and widths sum to 51 bytes and the 63-byte update frame. Only layout check in this file; piece_046 covers layout differently."},
+  {"name": "slot_renderer_writes_each_recovered_field_at_its_recovered_offset", "verdict": "keep", "covered_by": null, "reason": "Checks every field's byte value at its offset and round-trips the slot. Unique field-level encoding check."},
+  {"name": "captured_reference_slots_round_trip_through_the_layout", "verdict": "keep", "covered_by": null, "reason": "Decodes captured reference slots and asserts exact field values and byte round trip. Captured-vector canary; keep."},
+  {"name": "slot_decoder_rejects_nan_targeting_and_wrong_lengths", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal (NaN float and wrong lengths). piece_046::slot_parser_fails_closed_on_wrong_header_or_length covers lengths only, not NaN, so keep."},
+  {"name": "slot_update_matches_the_captured_reference_packet_frame", "verdict": "keep", "covered_by": null, "reason": "Byte-level 38/25 frame check including bounds refusal for out-of-range bars and slots. Keep."},
+  {"name": "bind_uses_the_owned_instance_presentation_and_quantity", "verdict": "keep", "covered_by": null, "reason": "Behaviour test for bind presentation fields and idempotent repeat. Unique to this module copy."},
+  {"name": "unassign_emits_the_empty_slot_and_clears_the_binding", "verdict": "keep", "covered_by": null, "reason": "Unassign clears binding and emits the captured empty slot; repeat-unassign is a no-change check. Keep."},
+  {"name": "unowned_and_unavailable_items_are_rejected_without_state_change", "verdict": "keep", "covered_by": null, "reason": "Refusal test: unknown and zero-count items change nothing and stale bindings are pruned. Keep."},
+  {"name": "slot_bounds_are_enforced_on_both_the_request_and_the_reply", "verdict": "keep", "covered_by": null, "reason": "Out-of-range slot refusal with no state change (hostile input). Keep."},
+  {"name": "persisted_bindings_keep_only_owned_available_actions", "verdict": "keep", "covered_by": null, "reason": "Persistence and reconcile test: save/reload, definition drift and stale-stack pruning. Persistence test, keep."},
+  {"name": "persisted_state_rejects_tampering", "verdict": "keep", "covered_by": null, "reason": "Tamper refusal: duplicate slot, out-of-range slot, zero instance, unknown version and unknown field. Security-style, keep."},
+  {"name": "reconnect_updates_follow_the_live_inventory", "verdict": "keep", "covered_by": null, "reason": "Reconnect rebuild of slot updates from live inventory, including stale-binding no-update. Unique persistence check, keep."},
+  {"name": "the_item_bar_is_not_the_combat_bar", "verdict": "keep", "covered_by": null, "reason": "Constant pins plus tint fallback and empty-request refusal. Constants overlap tests/piece_046.rs::recovered_opcodes_and_lengths_match_the_pinned_sources, but the tint rule and empty-input refusal are unique. Keep, low-value constant checks could be trimmed later."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "Each test is a per-module check against src/restoration/piece_048.rs, and the file has no duplicate of any test in the pack. The closest overlap is tests/piece_046.rs (the same 38/25, 42/6 and 12-byte forms, and the same 'action bar' family), but piece_046 includes its own copy of a different module. Treating those as the same path would be a stretch, so everything is kept. The weakest candidate is the constant-pin test the_item_bar_is_not_the_combat_bar, which could be trimmed if the team wants to remove constant-only checks. I did not read the other similar files (housing_service, kart_service, inventory, coin_store_siblings) in depth; they are about different features and were not needed for these verdicts."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-0-FiWCkh0St38-00446 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3148, 4, 978] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 446s
+
+{"screen":"combat","target":{"name":"Queen Verda","level":null,"health_fraction":0.2,"health_text":null,"is_tracker_only":false},"other_enemy_bars":[{"name":"Troll Rock Lizard","health_fraction":null}],"damage_numbers":[{"value":1867,"on":"target","color":"yellow"},{"value":1867,"on":"target","color":"yellow"},{"value":1249,"on":"other","color":"yellow"}],"attackers_visible":1,"player":{"name":"Freddy Speedypants","level":20,"job":"Ninja","health_fraction":0.74},"target_defeated":false,"notes":"Boss HUD bar for Queen Verda is mostly empty (about 20% red left) while the player fights a troll crowd; the overhead name is not clearly legible, so the fraction comes from the top boss bar only."}

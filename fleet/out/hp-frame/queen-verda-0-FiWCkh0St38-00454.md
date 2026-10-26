@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-0-FiWCkh0St38-00454 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3148, 4, 1079] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 454s
+
+{"screen": "combat", "target": {"name": "Queen Verda", "level": null, "health_fraction": 0.1, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Troll Rougeguard", "health_fraction": null}], "damage_numbers": [{"value": -1867, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.4}, "target_defeated": false, "notes": "Freddy fights trolls in a forest; Queen Verda's target bar at top shows a small red fill. Level and exact bar fraction are not clearly legible; the -1867 number is less certain as to which enemy it belongs to."}

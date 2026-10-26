@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00292 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 1104] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 292s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [{"value": 330, "on": "other", "color": "red"}, {"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.95}, "target_defeated": false, "notes": "Ocean Cray Brood Mother appears only as a quest-tracker label (32m marker) with no legible health bar; the player is in a crowded underwater cave fight with many overlapping damage numbers, none attributable to the picked enemy."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=frostfang-snarler-0-5-IM2pBh2yY-01054 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2771, 4, 901] model=claude-haiku-5-5 -->
+# Frostfang Snarler 5-IM2pBh2yY 1054s
+
+{"screen": "combat", "target": {"name": "Frostfang Snarler", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Red 'Frostfang' name is partly hidden behind the player's character on a snowy hill; no legible health bar or level. Another player's nameplate (Mia Icemeadows, guild tag) sits above. A 'Press X' interaction prompt names Frostfang Snarler at bottom. No attacks or damage numbers visible."}

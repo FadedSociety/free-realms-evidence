@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=kart_lobby_native-v1-evidence-r1 status=done turns=2 usd=0.0025 tokens(read,write,in,out)=[11398, 15385, 6, 876] model=claude-haiku-5-5 -->
+# tests/kart_lobby_native.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "All 11 verdicts are keep and whole_file_removable is false, so no removal needs an equivalent replacement and the lens's backing requirement is met trivially. The auditor's 'no other test covers this' claims were checked only loosely. A repo search found production use of kart_lobby_native::encode_inner at src/gameplay.rs:1062 and a JSON-body caller in tests/bundle_activity_content.rs:182. The notes say kart_lobby_gameplay.rs has 0 non-ignored tests, which lends some support to the 'only check' claims, though that file was not inspected directly. Because the audit removes nothing, these gaps do not change the result. The auditor's own 0.8 confidence is reasonable."}

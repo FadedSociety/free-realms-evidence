@@ -1,0 +1,276 @@
+[
+ {
+  "quest_id": 3000013,
+  "title": "Cobblestone Showdown",
+  "record": "quest-lines/quests.json q3000013",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "kill_actor_kind",
+    "fields": {
+     "actor_kind_id": 920002,
+     "count": 1
+    },
+    "text_string_id": 5100372,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Defeat Mac' is locale 5100372 (quest_objective, Cobblestone Showdown); one target, count 1 by the text.",
+      "source": "locale:5100372"
+     },
+     {
+      "claim": "Enemy definition 920002 is Mac, model 3897, in the enemy table.",
+      "source": "prototype/osfr-tools/data/content/enemies.json:70 (pack: candidates.enemy_actor_kinds[0])"
+     },
+     {
+      "claim": "Opening content binds Mac as definition 920002 for the defeat goal.",
+      "source": "scripts/prepare-opening-content.py:143 (goal 4420111 'defeat', definition_id=920002)"
+     }
+    ],
+    "note": "Kill objective only; no NPC placement needed. The NPC row 9500000043 (Mac, unplaced) is not used by this kind. Enemy row exists, so no needs_enemy_row. The opening script uses text 4420111 for the same goal; 5100372 is the text this quest's record carries, so keep 5100372 unless the builder re-keys to 4420111."
+   }
+  ]
+ },
+ {
+  "quest_id": 3000021,
+  "title": "Introduce Yourself",
+  "record": "quest-lines/quests.json q3000021",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000254
+    },
+    "text_string_id": 94248,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Introduce yourself to Ricky Danger in Cobblestone Village.' is locale:94248 (quest_objective, Cobblestone Village, Ricky Danger); title is locale:94247.",
+      "source": "locale:94248 / locale:94247"
+     },
+     {
+      "claim": "NPC row npc_id 9500000254 is named 'Ricky Danger' in our Cobblestone Village NPC data (NameId 94007 -> 'Ricky Danger').",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/cobblestone_village.json:7178-7181"
+     },
+     {
+      "claim": "Client NPC name locale:94007 = 'Ricky Danger'.",
+      "source": "locale:94007"
+     },
+     {
+      "claim": "Single talk objective; no count applies.",
+      "source": "pack: objectives[0] (draft kind talk_to_npc, no multi-target split)"
+     }
+    ],
+    "note": "Talk to Ricky Danger (9500000254). The objective is one talk, so no count. The NPC row is placed in the repo, so no placement is needed. Ricky's own bubble 94246 is the only other line and is not used as a dialog slot."
+   }
+  ]
+ },
+ {
+  "quest_id": 3000059,
+  "title": "Call the Crew!",
+  "record": "quest-lines/quests.json q3000059",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000941
+    },
+    "text_string_id": 100080,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: 'Convince Shakey at the Wildwood Speedway to send the rest of Ricky's pit crew.'",
+      "source": "pack: quest_lines (locale:100080, quest_objective, Wildwood Speedway, Shakey)"
+     },
+     {
+      "claim": "Shakey, NPC 9500000941, is placed in the wilds zone at the row's spawn.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/wilds.json:36983"
+     },
+     {
+      "claim": "Starting quest chain lists 3000059 step 1 as talk_to_npc npc_id 9500000941.",
+      "source": "repo:notes/Research/Starting Quest Chains.md:30"
+     }
+    ],
+    "note": "Single target (Shakey). Talk step; no count."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000254
+    },
+    "text_string_id": 384143,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: 'Let Ricky know that Shakey and his pit crew are on the way to help him out.'",
+      "source": "pack: quest_lines (locale:384143, quest_objective, Wildwood Speedway, Ricky Danger)"
+     },
+     {
+      "claim": "Ricky Danger, NPC 9500000254, is placed in Cobblestone Village.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/cobblestone_village.json:7178"
+     },
+     {
+      "claim": "Starting quest chain lists 3000059 step 2 as talk_to_npc npc_id 9500000254.",
+      "source": "repo:notes/Research/Starting Quest Chains.md:30"
+     }
+    ],
+    "note": "Return talk to Ricky Danger after Shakey. Single target; no count."
+   }
+  ]
+ },
+ {
+  "quest_id": 3000060,
+  "title": "Back for More",
+  "record": "quest-lines/quests.json q3000060",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000189
+    },
+    "text_string_id": 94264,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: 'Find out what Samantha in Cobblestone Village wanted to talk to you about.'",
+      "source": "locale:94264 (quest_objective, Cobblestone Village, Back for More)"
+     },
+     {
+      "claim": "Samantha is NPC 9000000189, placed in the Cobblestone Village NPC table as a quest giver/talk target.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/cobblestone_village.json:8035"
+     },
+     {
+      "claim": "Quest 3000060 'Back for More' has talk_to_npc objective with npc_id 9000000189 and prerequisite 3000059.",
+      "source": "repo:notes/Research/Starting Quest Chains.md:31"
+     },
+     {
+      "claim": "Samantha is the Cobblestone Village NPC named in the client objective text.",
+      "source": "lookup: locale:94264; wiki page Samantha"
+     }
+    ],
+    "note": "Single talk target; no count applies. Confirmed the draft npc_id is the placed Samantha row. Not a racing-leg objective (94259/94260 are NOT LIVE and excluded)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3030007,
+  "title": "Brawler: Delinquent Dilemma",
+  "record": "quest-lines/quests.json q3030007",
+  "source": "draft complete (no final fix/check answer)",
+  "objectives": [
+   {
+    "kind": "defeat",
+    "text_string_id": 94304,
+    "from": "objective 0: Defeat the Hooligan Delinquents south of Jones to recover the artifacts they stole from him.",
+    "model_id": 203,
+    "count": 1,
+    "resolved": true
+   }
+  ]
+ },
+ {
+  "quest_id": 3050008,
+  "title": "Chef: Package Recovery!",
+  "record": "quest-lines/quests.json q3050008",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "interact_npc",
+    "fields": {
+     "npc_id": 100000004095
+    },
+    "text_string_id": 100539,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Jonelle's Mailbag is a placed extra spawn: spawn_guid 100000004095, legacy_npc_id 4095, name_string_id 100552, model bw_sack_02.adr, position [-1720.4, -31.36, 417.92]",
+      "source": "repo:prototype/osfr-tools/data/content/npc_spawns_extra.json:44450"
+     },
+     {
+      "claim": "Objective text says to click the mailbag next to Jonelle",
+      "source": "locale:100539"
+     },
+     {
+      "claim": "The draft client_reported had no client id; the step is a clickable world object, so interact_npc on its actor is the server kind",
+      "source": "pack: objectives[1].client_id_candidate (not found) and server_objective_kinds"
+     }
+    ],
+    "note": "Clickable object, so interact_npc not client_reported. Count is implicit (one bag)."
+   },
+   {
+    "index": 2,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 538,
+     "count": 1
+    },
+    "text_string_id": 100540,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective: Beat the Package Recovery! minigame",
+      "source": "locale:100540"
+     },
+     {
+      "claim": "minigame_id 538 resolved in pack as the Package Recovery! minigame",
+      "source": "pack: objectives[2].draft (resolved true)"
+     }
+    ],
+    "note": "Count 1 means one completion of the minigame."
+   }
+  ]
+ },
+ {
+  "quest_id": 3050009,
+  "title": "Chef: Queensfields",
+  "record": "quest-lines/quests.json q3050009",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000107
+    },
+    "text_string_id": 100549,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 100549 says 'Find Honey at the Queensfields Farm, south of Sanctuary'; 100550 says 'Find a pixie named Honey', so the target is the NPC Honey, not a position.",
+      "source": "locale:100549, locale:100550"
+     },
+     {
+      "claim": "Honey's NPC row is 9000000107, already used as the talk target of the Postman quest ('Meet up with Honey in the Queensfield south of Sanctuary').",
+      "source": "repo:prototype/osfr-tools/data/content/quests/postman.json:516-520"
+     },
+     {
+      "claim": "The row is flagged as unspawned in the repo, so it needs placement.",
+      "source": "repo:prototype/osfr-tools/data/content/quests/postman.json:569"
+     },
+     {
+      "claim": "Honey's farm location is Queensfields south of Sanctuary; the Sanctuary page lists Honey at the Queensfields farm with client refs 841702301, 2418103113.",
+      "source": "notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:47"
+     }
+    ],
+    "note": "Replaces the draft visit_position (npc_anchor 9000000107, radius 8). No position is cited, so talk_to_npc is used. Needs a placed Honey row at the Queensfields farm before the server can draw her. Reference spawn coordinates were not found in the pack. Also, 100551 gives a line from Honey and the objective says to learn about harvesting, which is the same visit."
+   }
+  ]
+ }
+]

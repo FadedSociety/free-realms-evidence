@@ -1,0 +1,20 @@
+<!-- fleet job=testaudit-infer id=combat_scale-v1 status=done turns=4 usd=0.0042 tokens(read,write,in,out)=[46133, 17978, 10, 2949] model=claude-haiku-5-5 -->
+# tests/combat_scale.rs
+
+{"file": "tests/combat_scale.rs",
+ "tests": [
+  {"name": "a_level_eight_medic_hits_for_the_live_tier_three_basic", "verdict": "keep", "covered_by": null, "reason": "Pins one absolute live damage number (854) on the data-file scale. Its level-8 case is also in tiers_open_at_levels_1_4_8_12_16, so it is a near-duplicate, but the absolute value is the only check of the live number; kept conservatively."},
+  {"name": "tiers_open_at_levels_1_4_8_12_16", "verdict": "keep", "covered_by": null, "reason": "Only test that checks the exact tier boundaries (levels 1,3,4,5,7,8,11,12,15,16,20). Not clearly covered elsewhere in the sampled similar files; they use combat_scale helpers rather than asserting the ladder."},
+  {"name": "damage_steps_by_the_tier_ratio_and_health_follows_the_curve", "verdict": "keep", "covered_by": null, "reason": "Its tier-ratio steps overlap tiers_open_at_levels_1_4_8_12_16 in the same file, but it also checks the player health curve across levels 1-20 (not tested by the other tests here). Overlap noted; kept."},
+  {"name": "a_level_one_player_has_the_base_health", "verdict": "keep", "covered_by": null, "reason": "Pins base health 500 at level 1 for Medic and Warrior. encounter.rs uses combat_scale::base_health() as an expectation but does not assert the 500 value itself, so this is not an exact duplicate."},
+  {"name": "a_saved_player_above_the_new_maximum_is_clamped", "verdict": "keep", "covered_by": null, "reason": "Persistence/clamp check for a saved over-maximum health after a scale change; a restore-safety check, not covered by the sampled files."},
+  {"name": "heals_follow_the_tier_ladder", "verdict": "keep", "covered_by": null, "reason": "Only check that heal amounts scale by tier_factor across levels; encounter_job_skills.rs uses tier_factor for damage, not for heals."},
+  {"name": "a_field_enemy_keeps_its_hits_to_kill_and_hits_to_die", "verdict": "keep", "covered_by": null, "reason": "Gameplay balance canary (hits to kill about 3, hits to die about 36) across the whole field loop; not covered by the sampled files."},
+  {"name": "enemy_rows_are_scaled_once_where_they_load", "verdict": "keep", "covered_by": null, "reason": "Guards against double scaling of enemy health at load (670 for authored 180) and checks the health sent to the client. Regression guard; kept."},
+  {"name": "the_data_file_tunes_the_scale_without_code", "verdict": "keep", "covered_by": null, "reason": "Checks that editing combat_scale.json alone moves tiers. This is the configurability contract; kept."},
+  {"name": "an_invalid_scale_file_refuses_the_load", "verdict": "keep", "covered_by": null, "reason": "Refusal test with 16 hostile inputs plus a canary that the shipped file loads. Explicitly protected; kept."},
+  {"name": "saved_enemy_health_survives_a_scale_retune_in_both_directions", "verdict": "keep", "covered_by": null, "reason": "Listed in the pack but not present in the file as provided (file is 321 lines; no such fn found by search). Cannot assess; kept by default. Verify the pack is current."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Little overlap with the five similar files: they use combat_scale helpers as expectations (encounter.rs, encounter_job_skills.rs, bandit_hideout_dungeon.rs, brawler_mongo_chain.rs, battle_catalogue_audit.rs) but do not pin the tier ladder, base health or invalid-file refusals. I did not read those files in full, so superseded/duplicate claims are not confirmed. Discrepancies: the pack says 372 lines and lists saved_enemy_health_survives_a_scale_retune_in_both_directions, but the file on disk is 321 lines and that test does not exist; the pack may be stale. The internal overlap (a_level_eight_medic vs tiers_open; damage_steps ratio checks vs tiers_open) is the only candidate for trimming, and I kept those conservatively."}

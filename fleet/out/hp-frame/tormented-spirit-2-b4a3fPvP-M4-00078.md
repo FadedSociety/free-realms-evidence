@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-2-b4a3fPvP-M4-00078 status=nothing_found turns=1 usd=0.0006 tokens(read,write,in,out)=[0, 2740, 4, 592] model=claude-haiku-5-5 -->
+# Tormented Spirit b4a3fPvP_M4 78s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player rides a striped mount through a blue watery cave; yellow overhead text reads 'Starry7 <----Don't fall asleep---->' (a player's chat/sign, not an enemy). No Tormented Spirit name, bar, or tracker is legible; only a 'Burke' 90m and a 'Mining' 199m tracker-style label at the left edge, neither is Tormented Spirit."}

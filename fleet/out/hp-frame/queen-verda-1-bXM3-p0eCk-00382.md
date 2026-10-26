@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-1-bXM3-p0eCk-00382 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2735, 4, 1085] model=claude-haiku-5-5 -->
+# Queen Verda -bXM3-p0eCk 382s
+
+{"screen": "combat", "target": {"name": "Queen's Cave", "level": null, "health_fraction": 0.65, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 3560, "on": "target", "color": "red"}], "attackers_visible": 1, "player": {"name": "Trent Falconorb", "level": 20, "job": "Archer", "health_fraction": 0.95}, "target_defeated": false, "notes": "Player is attacking a boss-style enemy in Forest Troll Fort; the name over its bar is partly covered by a red -3560 damage number and reads as roughly 'Queen's Cave' (possibly Queen Verda), so the name is uncertain. Bar is about 65% green; level not shown. A system line says 'You don't have enough energy for that ability!'"}

@@ -1,0 +1,6 @@
+<!-- fleet job=testaudit-infer id=harvest_nodes-v1 status=done turns=4 usd=0.0023 tokens(read,write,in,out)=[23483, 11686, 10, 1162] model=claude-haiku-5-5 -->
+# tests/harvest_nodes.rs
+
+{"file": "tests/harvest_nodes.rs",
+ "tests": [{"name": "loaded_harvest_nodes_have_valid_references_and_finite_spawns", "verdict": "keep", "covered_by": null, "reason": "The only test that loads the shipped data/content/harvest_nodes.json through HarvestNodesContent::load_from and checks it against the client item definitions and Models.txt. It also pins the 2 types / 2 pools / 76 spawns counts, key and spawn-id uniqueness, zone agreement between spawn and pool, and finite positions and headings. No other test in the repo runs these cross-reference checks; tests/gathering_nodes.rs, collection_coin_pickup.rs and quest_content_goals.rs use GatheringNodes and bundle_activity_content.rs only checks that the file is listed, so none of them does this validation."}],
+ "whole_file_removable": false, "confidence": 0.8, "notes": "Single-test file. The exact count asserts (2/2/76) will need updating whenever the content file changes, which is a maintenance cost rather than a reason to remove it. The grep found no equivalent test, but I did not read gathering_nodes.rs in full, so a partial overlap there is possible."}

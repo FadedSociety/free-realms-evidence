@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hewey-the-bear-1-PEkuJgkSDw-00190 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2737, 4, 899] model=claude-haiku-5-5 -->
+# Hewey the Bear _PEkuJgkSDw 190s
+
+{"screen": "combat", "target": {"name": "Hewey the Bear", "level": null, "health_fraction": 0.85, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1333, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Paul Ponytrader", "level": null, "job": "Brawler", "health_fraction": null}, "target_defeated": false, "notes": "Hewey the Bear is being hit for -1333 by Paul Ponytrader while Harold shouts encouragement; the overhead bar is mostly green with a red loss segment at the right. Level and player HP are not legible."}

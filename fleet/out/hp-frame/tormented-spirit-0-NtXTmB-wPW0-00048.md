@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-0-NtXTmB-wPW0-00048 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2648, 4, 934] model=claude-haiku-5-5 -->
+# Tormented Spirit NtXTmB-wPW0 48s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 17, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": null, "level": 10, "job": "Brawler", "health_fraction": null}, "target_defeated": false, "notes": "System message reads 'The bones crumble and a tormented spirit materializes!'; a green spirit creature is in the center with the label 'Confetti <Mystic Mayhem>' (not a legible Tormented Spirit name or health bar); the player is attacking it with a yellow whip effect, but the target is not confirmed."}

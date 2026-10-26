@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=foreman-ironfist-0-X6zfuEFRcQk-00196 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3153, 4, 1187] model=claude-haiku-5-5 -->
+# Foreman Ironfist X6zfuEFRcQk 196s
+
+{"screen": "combat", "target": {"name": "Foreman Ironfist", "level": 5, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.3}], "damage_numbers": [{"value": -1351, "on": "other", "color": "orange"}], "attackers_visible": 0, "player": {"name": "The Ferluxia", "level": 20, "job": "Ninja", "health_fraction": 0.48}, "target_defeated": false, "notes": "Haunted Mines; Foreman Ironfist shown in the top target frame with a red bar that does not clearly read as a health fraction, and no creature with this name is clearly drawn above its head; a -1351 hit lands near a Lake Granitewave enemy; a 'not enough energy' message is shown."}

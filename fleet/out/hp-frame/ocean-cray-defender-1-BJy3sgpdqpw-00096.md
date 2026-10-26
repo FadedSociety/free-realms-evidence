@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-1-BJy3sgpdqpw-00096 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 942] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 96s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Large faded 'Ocean Cray Defen...' banner sits mid-screen, not clearly over a creature; a red bar and -2490 damage are visible near top right but cannot be tied to the Defender. Goals list shows Kelp Knight and Tidesweeper, not the Defender."}

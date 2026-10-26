@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=taka-the-shadow-1-NtjR5zpRDoQ-00392 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3155, 4, 1105] model=claude-haiku-5-5 -->
+# Taka the Shadow NtjR5zpRDoQ 392s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Grayson Stonyhammer <Erosion>", "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Open world, no fight. Taka the Shadow is not on screen; only a yellow-named NPC (Grayson Stonyhammer <Erosion>) stands in view, and the quest tracker text mentions defeating Taka the Shadow without a distance label. Player HP bar reads roughly 7828/7928 (digits blurry)."}

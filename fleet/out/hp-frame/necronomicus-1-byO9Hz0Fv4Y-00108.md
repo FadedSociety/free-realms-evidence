@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-1-byO9Hz0Fv4Y-00108 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2744, 4, 1084] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 108s
+
+{"screen": "combat", "target": {"name": "Necronomicus", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Zombie Portal", "health_fraction": 0.65}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Necronomicus label (Citadel Lord of Necromancy) sits near the green-clad player at the bottom centre with a small bar that looks full; the level is not printed and the bar is small, so these readings are approximate. The Zombie Portal bar is partly green. No damage numbers or clear attacks are visible."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00286 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3159, 4, 1308] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 286s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [{"value": 2173, "on": "other", "color": "green"}, {"value": 90, "on": "other", "color": "green"}, {"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Ocean Cray Brood Mother appears only as a quest-tracker label (with 41m distance and arrow) plus a large faded banner name; the top-centre green/red bar is not clearly attached to a named creature, so no target fraction is given. Several damage numbers are visible in combat."}

@@ -1,0 +1,17 @@
+<!-- fleet job=testaudit-infer id=opening_journal-v1 status=done turns=4 usd=0.0041 tokens(read,write,in,out)=[45108, 21858, 10, 1925] model=claude-haiku-5-5 -->
+# tests/opening_journal.rs
+
+{"file": "tests/opening_journal.rs",
+ "tests": [
+  {"name": "optional_text_changes_only_label_fields_in_full_and_add_records", "verdict": "keep", "covered_by": null, "reason": "Only test of the optional label-text path in OpeningJournal (full patch_self and updates Add records). Also asserts that only the two text IDs change and that counter-only updates match the original, which nothing else checks. No other test file references OpeningJournal."},
+  {"name": "optional_text_rejects_wrong_content_objective_ids_locale_and_conflicting_strings", "verdict": "keep", "covered_by": null, "reason": "Hostile-input/refusal check over 10 malformed presentation cases plus an incomplete mapping. Refusals are security-relevant and no equivalent test exists elsewhere."},
+  {"name": "fresh_self_removes_inherited_quests_preserves_other_fields_and_native_current_counter", "verdict": "keep", "covered_by": null, "reason": "Sole check that a fresh campaign strips inherited quests while preserving other bytes, length prefixes and the native current counter. Also asserts that patching twice is refused."},
+  {"name": "empty_campaign_has_no_quests_or_inherited_selection", "verdict": "keep", "covered_by": null, "reason": "Unique check of the empty-campaign encoding (no quests, selection -1). Small, but not covered by any other file."},
+  {"name": "acceptance_counter_completion_and_turnin_use_native_runtime_objective_keys", "verdict": "keep", "covered_by": null, "reason": "Pins the full lifecycle packet sequence (subtypes 3, 9, 10, 4, 12) and the native runtime key normalisation. Unique to this module; no other test drives OpeningJournal updates."},
+  {"name": "invalid_reference_packet_and_regressive_state_are_rejected", "verdict": "keep", "covered_by": null, "reason": "Refusal test covering corrupt or trailing reference packets, tampered message bytes, regressive counts, changed objective IDs, duplicates and reward-without-completion. Security/refusal check with no equivalent elsewhere."},
+  {"name": "private_captured_journal_loads_and_only_the_proven_span_changes", "verdict": "keep", "covered_by": null, "reason": "Canary against captured native reference data; ignored by default and requires private paths. Cannot be removed without losing the only byte-span check against real capture."},
+  {"name": "private_all_51_goal_labels_map_without_changing_definitions_progress_or_live_keys", "verdict": "keep", "covered_by": null, "reason": "Canary for all 51 goal labels against private original and mapped content and the native checkpoint. Ignored by default; unique coverage of the label mapping invariants."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "The crate's OpeningJournal (src/opening_journal.rs) is exercised by no other test file; the similar-file list (npc_interaction, quest_engine, opening, inventory) covers quest engine and opening logic, not this journal packet writer. Two tests are #[ignore] and need private captured content, so they are not run in the default suite. Nothing is superseded or duplicated. Note: the test helpers use a Reference fixture that writes to temp dirs; the Drop cleanup is guarded but this is not a test-verdict issue."}

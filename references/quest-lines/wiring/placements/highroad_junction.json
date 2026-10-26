@@ -1,0 +1,50 @@
+[
+ {
+  "npc_id": 9500000330,
+  "name": "Chatty",
+  "zone": null,
+  "position": [
+   -1556.533,
+   -40.64807,
+   -625.8194
+  ],
+  "heading": 0.355156,
+  "model": "chatdy.adr",
+  "model_id": 277,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3264",
+  "near_zone": "Greenwood Forest",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000336,
+  "name": "Raven",
+  "zone": "Highroad Junction",
+  "position": [
+   245.53345,
+   28.44608,
+   489.7193
+  ],
+  "heading": -1.91985999,
+  "model": "birds_raven.adr",
+  "model_id": 198,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3965",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000338,
+  "name": "Two of Three",
+  "zone": "Highroad Junction",
+  "position": [
+   -245.2278,
+   3.118001,
+   578.0795
+  ],
+  "heading": -0.578828,
+  "model": "human_m_wraith_gray.agr",
+  "model_id": 4565,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2834",
+  "near_zone": "Durango Zoo",
+  "quests_waiting": []
+ }
+]

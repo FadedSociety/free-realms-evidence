@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=surfmonger-arthur-0-z4ndzULrtQg-00698 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2748, 4, 849] model=claude-haiku-5-5 -->
+# Surfmonger Arthur z4ndzULrtQg 698s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 4, "job": null, "health_fraction": 1.0}, "target_defeated": false, "notes": "Town/world view with a bridge; Surfmonger Arthur is not visible on screen, only quest-tracker labels (Mystic Glint 27m, Quinton Coco 27m, Inni 17m, Feeling the Beat! 25m) and a fight-like cluster in the middle with no legible enemy name or health bar. Player HP 800/800, MP 100/100."}

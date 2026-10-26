@@ -1,0 +1,32 @@
+<!-- fleet job=testaudit-infer id=opening_abilities-v1 status=no_submit turns=3 usd=0.0047 tokens(read,write,in,out)=[28578, 19395, 8, 4005] model=claude-haiku-5-5 -->
+# tests/opening_abilities.rs
+
+```json
+{"file": "tests/opening_abilities.rs",
+ "tests": [
+  {"name": "scratch_warrior_level_five_bot_reads_kick_and_spinning_blade_bar", "verdict": "keep", "covered_by": null, "reason": "Live gateway check (#[ignore], needs W101 scratch gateway). It is the only end-to-end wire read of the Warrior 5 toolbar by the bot client, so nothing else covers it."},
+  {"name": "every_job_bar_has_exactly_the_unlocked_ladder_at_every_level", "verdict": "keep", "covered_by": null, "reason": "Strongest shipped-content test: all six combat profiles, levels 1-20, checks bar contents, row limits, blank-button rule, and the full wire toolbar against the model. It is the main coverage for the shipped ladders."},
+  {"name": "shipped_job_roster_unlocks_each_skill_at_its_declared_ladder", "verdict": "superseded", "covered_by": "tests/opening_abilities.rs::every_job_bar_has_exactly_the_unlocked_ladder_at_every_level", "reason": "Same shipped roster and ladders. every_job_bar checks every row at every level 1-20 for both the model and the wire, which includes the minimum-1 and minimum checks made here. The only extra here is the explicit min_level equality, which is a weaker signal. Could be removed, but it is in the same file, so the gain is small."},
+  {"name": "full_roster_preserves_campaigns_with_only_some_basic_attacks", "verdict": "keep", "covered_by": null, "reason": "Checks that a roster with only a Brawler basic keeps the other profiles' bars and the basic-only bar shape (zeroed 32-byte tail). The campaign-preservation intent is not covered by the full-roster tests."},
+  {"name": "shipped_job_abilities_file_loads_through_the_real_loader", "verdict": "keep", "covered_by": null, "reason": "Canary for the shipped pretty-printed file against the real loader and its size cap (regression after W125 grew it past 64 KiB). Nothing else loads the shipped file via load_job_abilities."},
+  {"name": "medic_level_boundaries", "verdict": "keep", "covered_by": null, "reason": "Per-profile boundary sweep using a synthetic ladder, which also checks unlocks_between at each boundary. The shipped-roster test does not check unlocks_between. Overlaps the shipped roster tests, but the wrappers are cheap and not clearly redundant."},
+  {"name": "ninja_level_boundaries", "verdict": "keep", "covered_by": null, "reason": "Same as medic_level_boundaries for profile 2; unlocks_between boundaries and the synthetic-gate sweep are not covered elsewhere."},
+  {"name": "warrior_level_boundaries", "verdict": "keep", "covered_by": null, "reason": "Same as medic_level_boundaries for profile 32."},
+  {"name": "wizard_level_boundaries", "verdict": "keep", "covered_by": null, "reason": "Same as medic_level_boundaries for profile 12."},
+  {"name": "brawler_level_boundaries", "verdict": "keep", "covered_by": null, "reason": "Same as medic_level_boundaries for profile 43."},
+  {"name": "archer_level_boundaries", "verdict": "keep", "covered_by": null, "reason": "Same as medic_level_boundaries for profile 35."},
+  {"name": "job_rows_past_the_fourth_button_or_doubled_are_refused", "verdict": "keep", "covered_by": null, "reason": "Refusal test: out-of-range slot, slot 0, and a duplicate (row, level) must fail and leave the loaded bar unchanged."},
+  {"name": "unavailable_skills_leave_their_row_to_the_skill_below", "verdict": "keep", "covered_by": null, "reason": "Checks that unavailable skills are never placed and do not unlock. Only test of the unavailable flag in this file. Not clearly covered elsewhere."},
+  {"name": "missing_level_lock_is_rejected_instead_of_unlocking_at_level_one", "verdict": "keep", "covered_by": null, "reason": "Refusal test: a missing min_level must not default to level 1."},
+  {"name": "invalid_level_locks_are_rejected", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal test covering 0, 21, negative, fractional, null, string and bool locks."},
+  {"name": "basic_definition_and_toolbar_equal_independent_community_serializers", "verdict": "keep", "covered_by": null, "reason": "Byte-exact check against independent community vectors for the basic definition and toolbar. Only synthetic-vector check of the basic packet."},
+  {"name": "noncombat_class_clears_all_eight_slots_and_invalid_profile_fails", "verdict": "keep", "covered_by": null, "reason": "Byte-exact empty toolbar vector for a noncombat profile, plus refusal of profiles 0 and -1."},
+  {"name": "loaded_metadata_rejects_invalid_fields_duplicates_and_oversized_content", "verdict": "keep", "covered_by": null, "reason": "Refusal and hostile-input test: bad fields, negative weapon id, duplicate basics, wrong schema version, oversized file. Security-relevant; no equal test elsewhere."},
+  {"name": "frozen_basic_rows_inherit_the_canonical_starter_weapon", "verdict": "keep", "covered_by": null, "reason": "Only check that a missing weapon_definition_id falls back to the canonical starter weapon (75030)."},
+  {"name": "returned_packets_and_clones_do_not_mutate_shared_metadata", "verdict": "keep", "covered_by": null, "reason": "Isolation check: mutating a returned packet or a clone must not change shared metadata. Only test of that property."},
+  {"name": "private_opening_hotbars_equal_compiled_community_packets", "verdict": "keep", "covered_by": null, "reason": "Ignored test that needs private compiled oracle fixtures. It is the only check against the compiled serializer, so it must be kept even though it does not run by default."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.7,
+ "notes": "No similar file in the pack covers opening abilities (the most similar files are inventory, kart, login, housing and encounter tests, which share only framing or refusal style), so no cross-file superseded or duplicate verdicts apply. The only in-file redundancy is shipped_job_roster_unlocks_each_skill_at_its_declared_ladder, which every_job_bar_has_exactly_the_unlocked_ladder_at_every_level subsumes. The six *_level_boundaries wrappers share one helper and overlap the shipped roster tests, but each covers a per-profile synthetic gate with unlocks_between, so I kept them under the conservative rule. I did not read the similar files' bodies or the job_abilities.json content, so the no-overlap findings rest on test names and doc lines."}
+```

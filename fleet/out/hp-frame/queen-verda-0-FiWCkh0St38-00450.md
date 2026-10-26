@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-0-FiWCkh0St38-00450 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3148, 4, 1096] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 450s
+
+{"screen": "combat", "target": {"name": "Queen Verda", "level": null, "health_fraction": 0.2, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Troll Roughguard", "health_fraction": 0.75}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.75}, "target_defeated": false, "notes": "Queen Verda's boss bar at top shows low red health (about 0.2 filled); Verda herself is not clearly above a visible creature, the overhead bar and name belong to Troll Roughguard. Player health reads 6462/8540, about 0.75."}

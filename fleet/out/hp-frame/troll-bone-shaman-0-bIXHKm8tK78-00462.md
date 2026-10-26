@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-bone-shaman-0-bIXHKm8tK78-00462 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2984, 4, 709] model=claude-haiku-5-5 -->
+# Troll Bone Shaman bIXHKm8tK78 462s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 1.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Player stands on a blue warp/teleport pad in open terrain. A creature figure is visible at right-center (around x=795, y=295) with no legible name or health bar above it. A green bar floats above empty ground near (630, 153) with no legible name. No attacks or damage numbers are visible, and the player's level and job are not legible."}

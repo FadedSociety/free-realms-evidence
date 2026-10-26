@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00416 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3159, 4, 1112] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 416s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 170, "on": "target", "color": "red"}, {"value": 377, "on": "target", "color": "red"}, {"value": 216, "on": "target", "color": "red"}, {"value": 204, "on": "target", "color": "green"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Heavy combat; the picked enemy's name is only faintly readable ('...ood Mother') behind the damage numbers and no clear health bar over it, so its level and health are left null."}

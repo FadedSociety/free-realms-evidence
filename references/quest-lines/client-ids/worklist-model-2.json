@@ -1,0 +1,434 @@
+[
+ {
+  "quest_id": 3060029,
+  "quest": "q3060029",
+  "title": "Demo Derby: Not One, But a Few",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 394038,
+  "text": "Prove you're the right one for the mysterious job by knocking out a few karts in the Wildwood arena!",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 394038,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Wildwood arena karts' has no model_id in our data"
+ },
+ {
+  "quest_id": 3060030,
+  "quest": "q3060030",
+  "title": "Demo Derby: Stunt Double",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 394472,
+  "text": "Jace Whildwheel wants to see what you can do in the arena. Knock out a bunch of cars for him.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 394472,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'derby cars in the Wildwood arena' has no model_id in our data"
+ },
+ {
+  "quest_id": 3060035,
+  "quest": "q3060035",
+  "title": "Demo Derby: Sir Horace the Horrible",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 394045,
+  "text": "Head into the Wildwood arena and remove Sir Horace!",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 394045,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Sir Horace' has no model_id in our data"
+ },
+ {
+  "quest_id": 3060035,
+  "quest": "q3060035",
+  "title": "Demo Derby: Sir Horace the Horrible",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 395075,
+  "text": "Knock out Sir Horace 3 times",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 395075,
+   "model_id": null,
+   "count": 3
+  },
+  "gap": "objective 1: defeat target 'Sir Horace' has no model_id in our data"
+ },
+ {
+  "quest_id": 3080026,
+  "quest": "q3080026",
+  "title": "Kart Driver: Settling the Score",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 395225,
+  "text": "Beat Linx Redline in the &quot;Settling the Score&quot; race at Thunder Falls Speedway.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 395225,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Linx Redline' has no model_id in our data"
+ },
+ {
+  "quest_id": 3080035,
+  "quest": "q3080035",
+  "title": "Kart Driver: Burning Up the Track",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 395642,
+  "text": "Beat Antonio Taurino in the &quot;Burning Up the Track&quot; race at Tangletrack Speedway.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 395642,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Antonio Taurino' has no model_id in our data"
+ },
+ {
+  "quest_id": 3090007,
+  "quest": "q3090007",
+  "title": "Contract: Local Problems",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 388277,
+  "text": "Defeat Bixie Warriors",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388277,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Bixie Warriors' has no model_id in our data"
+ },
+ {
+  "quest_id": 3090008,
+  "quest": "q3090008",
+  "title": "Medic: Surgical Precision",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 76749,
+  "text": "Defeat the wandering Bixie Warriors found west of Queensfields.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 76749,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Bixie Warriors' has no model_id in our data"
+ },
+ {
+  "quest_id": 3090008,
+  "quest": "q3090008",
+  "title": "Medic: Surgical Precision",
+  "objective": 4,
+  "kind": "defeat",
+  "text_string_id": 76759,
+  "text": "Knock Clover out!",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 76759,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 4: defeat target 'Clover' has no model_id in our data"
+ },
+ {
+  "quest_id": 3090022,
+  "quest": "q3090022",
+  "title": "Contract: Forgotten Favor",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 388325,
+  "text": "As a Medic, defeat the changelings in the Forgotten Caves!",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388325,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Changelings' has no model_id in our data"
+ },
+ {
+  "quest_id": 3100017,
+  "quest": "q3100017",
+  "title": "Miner: Grumpore's Challenge",
+  "objective": 5,
+  "kind": "defeat",
+  "text_string_id": 77528,
+  "text": "Elite: Eliminate 5 blocker tiles!",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 77528,
+   "model_id": null,
+   "count": 5
+  },
+  "gap": "objective 5: defeat target 'Blocker Tiles' has no model_id in our data"
+ },
+ {
+  "quest_id": 3110003,
+  "quest": "q3110003",
+  "title": "Ninja: Super Star",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 78846,
+  "text": "Defeat your foes at the Hot Springs Haven in Snowhill.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 78846,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Hot Springs Haven' has no model_id in our data"
+ },
+ {
+  "quest_id": 3110005,
+  "quest": "q3110005",
+  "title": "Ninja: Strike from the Shadows",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 78854,
+  "text": "As part of your ninja training, Chloe has asked you to defeat the denizens of the Cracked Claw Caverns of Blackspore.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 78854,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target None has no model_id in our data"
+ },
+ {
+  "quest_id": 3110008,
+  "quest": "q3110008",
+  "title": "Contract: Trouble in Snowhill",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 388401,
+  "text": "Ree Peatpants has asked you to defeat wolves and yetis in Snowhill.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388401,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'wolves and yetis' has no model_id in our data"
+ },
+ {
+  "quest_id": 3110014,
+  "quest": "q3110014",
+  "title": "Contract: Sharp Claws and Sharper Swords",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 388405,
+  "text": "Ree Peatpants has asked you to defeat Cray Marauders and Fleetfoot Ninjas.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388405,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Fleetfoot Ninjas' has no model_id in our data"
+ },
+ {
+  "quest_id": 3110015,
+  "quest": "q3110015",
+  "title": "Ninja: Shadows in the Snow",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 78878,
+  "text": "Ty has directed you to defeat Tavil, in the Deep Mines of Snowhill.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 78878,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Tavil' has no model_id in our data"
+ },
+ {
+  "quest_id": 3140012,
+  "quest": "q3140012",
+  "title": "Soccer Star: Briarwood's Fancy Feet",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 406382,
+  "text": "Tackle Fabio &quot;Fancy Feet&quot; 15 times",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 406382,
+   "model_id": null,
+   "count": 15
+  },
+  "gap": "objective 1: defeat target 'Fabio \"Fancy Feet\"' has no model_id in our data"
+ },
+ {
+  "quest_id": 3140024,
+  "quest": "q3140024",
+  "title": "Soccer Star: Making The Finals",
+  "objective": 2,
+  "kind": "defeat",
+  "text_string_id": 406623,
+  "text": "Knock down Francesca &quot;The Invincible&quot; 15 times",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 406623,
+   "model_id": null,
+   "count": 15
+  },
+  "gap": "objective 2: defeat target 'Francesca \"The Invincible\"' has no model_id in our data"
+ },
+ {
+  "quest_id": 3150002,
+  "quest": "q3150002",
+  "title": "Warrior: Warrior Warm-up",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 100580,
+  "text": "As a Warrior, defeat the Frostfang Snarlers wandering the mountains south-east of Snowhill.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 100580,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Frostfang Snarler' has no model_id in our data"
+ },
+ {
+  "quest_id": 3150012,
+  "quest": "q3150012",
+  "title": "Warrior: Knocking Some Sense In",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 71266,
+  "text": "Defeat some of the thugawugs, so Aster can get through. She's promised to deliver the shipment of weapons to Snowhill if you help her.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 71266,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Thugawug Sneak and Thugawug Bumbler' has no model_id in our data"
+ },
+ {
+  "quest_id": 3150020,
+  "quest": "q3150020",
+  "title": "Warrior: Steele is Useful",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 71499,
+  "text": "Legends say that if a warrior were to collect all the pieces of Fastvi's broken weapon and defeat Chillblaine in Frostfang Caverns, Fastvi's spirit will appear. Let's hope this works!",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 71499,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Chillblaine' has no model_id in our data"
+ },
+ {
+  "quest_id": 3150023,
+  "quest": "q3150023",
+  "title": "Contract: Defending Snowhill",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 388370,
+  "text": "Caleb needs all able-bodied warriors to help defend the recruit camp in Snowhill from ice trolls, yetis, and snowmen.",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388370,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'ice trolls, yetis, snowmen' has no model_id in our data"
+ },
+ {
+  "quest_id": 3160018,
+  "quest": "q3160018",
+  "title": "Contract: Robgoblin Magic",
+  "objective": 0,
+  "kind": "defeat",
+  "text_string_id": 388289,
+  "text": "Natali wants a wizard to defeat opponents in the Deep Mines and Bat Cave at Snowhill. ",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388289,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: defeat target 'Deep Mines and Bat Cave' has no model_id in our data"
+ },
+ {
+  "quest_id": 3160028,
+  "quest": "q3160028",
+  "title": "Wizard: A Twig From Treeleaf",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 22357,
+  "text": "Defeat Treeleaf Hedge",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 22357,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Treeleaf Hedge' has no model_id in our data"
+ },
+ {
+  "quest_id": 3160029,
+  "quest": "q3160029",
+  "title": "Wizard: One Thing to Bind Them",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 76322,
+  "text": "Defeat Queen Arachnia",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 76322,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Queen Arachnia' has no model_id in our data"
+ },
+ {
+  "quest_id": 3160031,
+  "quest": "q3160031",
+  "title": "Contract: Life and Death Magic",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 388393,
+  "text": "Defeat Battle Warthogs",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 388393,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Battle Warthog' has no model_id in our data"
+ },
+ {
+  "quest_id": 3160032,
+  "quest": "q3160032",
+  "title": "Wizard: Two Gems Are Better Than One",
+  "objective": 1,
+  "kind": "defeat",
+  "text_string_id": 76349,
+  "text": "Defeat Foreman Ironfist",
+  "draft": {
+   "kind": "defeat",
+   "text_string_id": 76349,
+   "model_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: defeat target 'Foreman Ironfist' has no model_id in our data"
+ }
+]

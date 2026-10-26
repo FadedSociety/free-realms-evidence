@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-2-byO9Hz0Fv4Y-00154 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2744, 4, 1182] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 154s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Zombie Portal", "health_fraction": 0.75}, {"name": "Zombie Portal", "health_fraction": 0.5}], "damage_numbers": [{"value": 2739, "on": "other", "color": "white"}], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": null}, "target_defeated": false, "notes": "Necronomicus is only named in the Goals panel (Defeat Necronomicus); no legible Necronomicus name or health bar sits over a creature in this frame. Zombie Portals are being fought nearby."}

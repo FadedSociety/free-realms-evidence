@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=fairy-cultist-0-p5sDafXSQtQ-00068 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3160, 4, 624] model=claude-haiku-5-5 -->
+# Fairy Cultist p5sDafXSQtQ 68s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Julie Happymind1", "level": 20, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Only a Fairy Cultist quest-tracker label (48m, red arrow) is visible; no creature with a health bar is on screen. The frame shows a Sims-style social game (chat, Modern Gates, Sunny Harvest, spider-like pet/avatar), not Free Realms combat, so it gives no health data for this enemy."}

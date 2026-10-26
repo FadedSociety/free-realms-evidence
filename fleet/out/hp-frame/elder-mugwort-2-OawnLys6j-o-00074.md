@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-2-OawnLys6j-o-00074 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 1058] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 74s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Warthog Charger", "health_fraction": null}], "damage_numbers": [{"value": 2490, "on": "target", "color": "yellow"}, {"value": 1967, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.94}, "target_defeated": false, "notes": "Player in melee near Elder Mugwort and a Warthog Charger; a 2490 hit sits over Mugwort's name, but its own health bar is hidden behind the text, so no fraction is read."}

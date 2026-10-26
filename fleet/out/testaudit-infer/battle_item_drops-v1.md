@@ -1,0 +1,17 @@
+<!-- fleet job=testaudit-infer id=battle_item_drops-v1 status=done turns=4 usd=0.0038 tokens(read,write,in,out)=[43480, 16830, 10, 2494] model=claude-haiku-5-5 -->
+# tests/battle_item_drops.rs
+
+{"file": "tests/battle_item_drops.rs",
+ "tests": [
+  {"name": "a_forced_drop_lands_with_the_win_and_the_prize_stays_one", "verdict": "keep", "covered_by": null, "reason": "Positive drop path through the production melee route (marker -> Go -> kills -> results); asserts the drop lands and the prize/XP payout stays intact. Not shown to be matched elsewhere; kept conservatively."},
+  {"name": "a_zero_chance_drops_nothing_and_the_win_pays_as_before", "verdict": "keep", "covered_by": null, "reason": "Negative control for the chance mechanism (chance 0 never drops) with payout assertions; no equivalent seen in the similar files."},
+  {"name": "a_battle_without_a_drop_row_awards_nothing_new", "verdict": "keep", "covered_by": null, "reason": "Checks that a battle with no drop row mints nothing; a canary for the no-row path. Kept conservatively."},
+  {"name": "a_bag_with_no_slot_loses_only_the_drop", "verdict": "keep", "covered_by": null, "reason": "Pins a deliberate UX decision (full bag loses only the drop, no system line) and the prize-merge behaviour. Unique to this file as far as the pack shows."},
+  {"name": "the_dev_win_never_grants_the_chance_drop", "verdict": "keep", "covered_by": null, "reason": "Refusal-style guard: the developer shortcut must not mint the chance drop (T658 review item 1/2). Other 'realm win' tests (battle_prize_bag_preflight.rs, field_kill_rewards.rs, bandit_hideout_dungeon.rs) pay prizes but do not assert the absence of a chance drop, so not superseded."},
+  {"name": "a_capped_win_refuses_the_drop_with_the_rest_and_changes_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal check at the coin cap (T658 review item 8): asserts no inventory byte changes. Security/refusal test; kept."},
+  {"name": "a_forced_drop_survives_the_results_close_and_a_reconnect", "verdict": "keep", "covered_by": null, "reason": "Persistence check: drop survives results Close and reconnect through game_store. Persistence tests are never removable without an equal test elsewhere."},
+  {"name": "the_shipped_rows_are_data_driven_and_grantable", "verdict": "keep", "covered_by": null, "reason": "Content check that shipped drop rows are grantable. Possibly overlapping with content audits (e.g. battle_catalogue_audit.rs) but the bodies were not readable, so kept."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.3,
+ "notes": "Low confidence. The file tests/battle_item_drops.rs does not exist at the repo tip (read reported 'not a file'; the search for its test names found nothing), so I could only classify from the pack excerpt and doc lines, not from test bodies. Lines 250-466 were unreadable. No test was shown to be a duplicate or superseded by the similar files: the similar files (battle_prize_bag_preflight.rs, field_kill_rewards.rs, bandit_hideout_dungeon.rs, investigate_the_wolves.rs) use 'realm win' to pay prizes but none in what I saw asserts the chance-drop, full-bag, or zero-chance behaviour. The file's sibling battle_prize_bag_preflight.rs covers full-bag prize paths and should be compared against 'a_bag_with_no_slot_loses_only_the_drop' before any removal. The fishing_entry.rs / kart_service.rs / power_up_drops.rs matches are shared-helper or name-similarity hits, not behavioural overlap."}

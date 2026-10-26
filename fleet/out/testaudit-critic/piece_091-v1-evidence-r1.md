@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=piece_091-v1-evidence-r1 status=done turns=1 usd=0.0019 tokens(read,write,in,out)=[0, 12524, 4, 680] model=claude-haiku-5-5 -->
+# tests/piece_091.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "Every test in tests/piece_091.rs is marked keep, and whole_file_removable is false. The evidence lens checks removal verdicts, so with no removals there is no removal to back, and the audit's conclusion is safe. Keeping redundant tests is acceptable under the brief. The removal list is empty, so it can be wired as keep-all. Weakness, not a blocker: the no-overlap claims for the adjacent pet tests (tests/pet_routing.rs, tests/piece_011.rs, pet_wired.rs, pet_bots.rs) rest on names and partial reads, as the auditor admits. That could mean some keeps are redundant, but that is the cheap error direction. A later pass could confirm overlap by reading those files in full before any test is removed."}

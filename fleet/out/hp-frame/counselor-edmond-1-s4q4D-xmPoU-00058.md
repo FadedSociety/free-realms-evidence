@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=counselor-edmond-1-s4q4D-xmPoU-00058 status=nothing_found turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3160, 4, 873] model=claude-haiku-5-5 -->
+# Counselor Edmond s4q4D_xmPoU 58s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 488, "on": "other", "color": "yellow"}, {"value": 488, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Monica Wintervale", "level": 8, "job": "Warrior", "health_fraction": 0.7}, "target_defeated": false, "notes": "Player fights Bigfoot creatures (Goals: Defeat Bigfoot!); 'Counselor Edmond' appears only as the video's orange caption overlay, not as an in-game name over any enemy, so the picked enemy is not identifiable in this frame."}

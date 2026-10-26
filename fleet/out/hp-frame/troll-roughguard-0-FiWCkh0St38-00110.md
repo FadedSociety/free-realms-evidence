@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-roughguard-0-FiWCkh0St38-00110 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3178, 4, 1178] model=claude-haiku-5-5 -->
+# Troll Roughguard FiWCkh0St38 110s
+
+{"screen": "combat", "target": {"name": "Troll Roughguard", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1245, "on": "target", "color": "yellow"}, {"value": 1867, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.5}, "target_defeated": false, "notes": "Troll name is partly hidden under heavy overlapping yellow damage numbers; its health bar is obscured so no fraction or level is read. Player health 4546/9540 read as about half."}

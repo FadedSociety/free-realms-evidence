@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=sandscale-scavenger-0-rWTxDOHv-eY-00068 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3164, 4, 709] model=claude-haiku-5-5 -->
+# Sandscale Scavenger rWTxDOHv-eY 68s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 13, "job": "Archer", "health_fraction": 0.92}, "target_defeated": false, "notes": "Yellow system message 'You don't have enough energy for that ability!'. A red-tinted name is partly visible over a blue figure near 'Tavish Foothold' but is too garbled to confirm as Sandscale Scavenger; no clear health bar readable, so target fields are null. Player health reads about 2826/3082 (approx. 0.92)."}

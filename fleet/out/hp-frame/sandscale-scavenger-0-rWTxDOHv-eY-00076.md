@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=sandscale-scavenger-0-rWTxDOHv-eY-00076 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3164, 4, 1117] model=claude-haiku-5-5 -->
+# Sandscale Scavenger rWTxDOHv-eY 76s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1566, "on": "other", "color": "yellow"}, {"value": 1566, "on": "other", "color": "yellow"}, {"value": 1566, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Tavish Foxshield", "level": 13, "job": "Archer", "health_fraction": 0.9}, "target_defeated": false, "notes": "Crowded combat with many dark creatures and fire/explosion effects; no 'Sandscale Scavenger' name or health bar legible on screen, so the picked enemy cannot be identified in this frame."}

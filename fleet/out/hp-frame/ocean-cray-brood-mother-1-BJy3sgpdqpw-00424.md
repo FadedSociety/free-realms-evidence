@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00424 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3159, 4, 1116] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 424s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -24, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Name 'Ocean Cray Brood Mother' is small and faint over a tiny bar near center-left; bar fill not legible enough to measure, level not shown. Large banner text 'Ocean Cray Brood M...' is a zone/boss title, not a health bar. Player is in a fire-effect fight in Cray Caves; the tracker 'Jordan Roughtower 25m' is a quest label only."}

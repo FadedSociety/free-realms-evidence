@@ -1,0 +1,926 @@
+[
+ {
+  "npc_id": 9500000725,
+  "name": "Annabelle",
+  "zone": "Snowhill",
+  "position": [
+   245.12933,
+   24.82404,
+   470.14413
+  ],
+  "heading": 2.67620994,
+  "model": "human_f_mary.agr",
+  "model_id": 439,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3949",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3110022 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000726,
+  "name": "Arci Joan",
+  "zone": "Snowhill",
+  "position": [
+   293.91885,
+   25.35067,
+   355.42157
+  ],
+  "heading": -0.0215909989,
+  "model": "fairy_f_03.adr",
+  "model_id": 43,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3923",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000016,
+  "name": "Assistant Chef Edward",
+  "zone": "Snowhill",
+  "position": [
+   193.70468,
+   22.740154,
+   363.95743
+  ],
+  "heading": 0.508053002,
+  "model": "fairy_m_02.adr",
+  "model_id": 49,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3851",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000020,
+  "name": "Baron von Darkcheat",
+  "zone": "Snowhill",
+  "position": [
+   578.1666,
+   49.00199,
+   478.8249
+  ],
+  "heading": -2.996206,
+  "model": "dwarf_darkcheat.adr",
+  "model_id": 3883,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2322",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000727,
+  "name": "Bert",
+  "zone": "Snowhill",
+  "position": [
+   221.56438,
+   27.782915,
+   433.13718
+  ],
+  "heading": -1.88184107,
+  "model": "penguin_bert.adr",
+  "model_id": 21,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3902",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000024,
+  "name": "Big J",
+  "zone": "Snowhill",
+  "position": [
+   146.60031,
+   23.5477,
+   386.07446
+  ],
+  "heading": 3.09366989,
+  "model": "fairy_m_02.adr",
+  "model_id": 49,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3872",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000729,
+  "name": "Bruce",
+  "zone": "Snowhill",
+  "position": [
+   -1405.09,
+   -34.49589,
+   496.5363
+  ],
+  "heading": -0.568856,
+  "model": "human_rockstar_m.adr",
+  "model_id": 20,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2292",
+  "near_zone": "Sanctuary",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000732,
+  "name": "Calvin Coldcastle",
+  "zone": "Snowhill",
+  "position": [
+   120.38808,
+   22.07155,
+   378.245
+  ],
+  "heading": 2.25076006,
+  "model": "human_m_snowhill.adr",
+  "model_id": 837,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3836",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000736,
+  "name": "Chip Numbwing",
+  "zone": "Snowhill",
+  "position": [
+   130.76355,
+   25.065687,
+   392.58667
+  ],
+  "heading": 3.07680798,
+  "model": "fairy_m_chip_numbwing.agr",
+  "model_id": 1585,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3868",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000737,
+  "name": "Cinn",
+  "zone": "Snowhill",
+  "position": [
+   283.14688,
+   27.71902,
+   426.77893
+  ],
+  "heading": -1.915841,
+  "model": "fairy_m_farmer_01.adr",
+  "model_id": 32,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3941",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000738,
+  "name": "Clara Chatterhag",
+  "zone": "Snowhill",
+  "position": [
+   274.12158,
+   26.39462,
+   458.62057
+  ],
+  "heading": -2.28326987,
+  "model": "fairy_f_02.adr",
+  "model_id": 42,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3957",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000739,
+  "name": "Cragara",
+  "zone": "Snowhill",
+  "position": [
+   130.87897,
+   28.729305,
+   290.85706
+  ],
+  "heading": -0.0971219953,
+  "model": "sogg_f_vendor.adr",
+  "model_id": 4103,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000741,
+  "name": "Dempsy",
+  "zone": "Snowhill",
+  "position": [
+   237.1437,
+   26.234308,
+   436.1044
+  ],
+  "heading": 1.38882005,
+  "model": "human_m_merchant_brawler_african.agr",
+  "model_id": 4500,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3926",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000069,
+  "name": "Derp Axemaker",
+  "zone": "Snowhill",
+  "position": [
+   -519.457,
+   10.24161,
+   -34.68288
+  ],
+  "heading": -1.869727,
+  "model": "fairy_m_blacksmith_01.agr",
+  "model_id": 574,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2029",
+  "near_zone": "Wilds",
+  "quests_waiting": [
+   "q3020007 objective 0",
+   "q3020010 objective 1",
+   "q3020010 objective 0",
+   "q3100010 objective 0",
+   "q3100010 objective 2"
+  ]
+ },
+ {
+  "npc_id": 9500000742,
+  "name": "Dizzy Toad",
+  "zone": "Snowhill",
+  "position": [
+   -33.279736,
+   10.13236,
+   259.21094
+  ],
+  "heading": -1.07136001,
+  "model": "fairy_m_merchant_ninja_cauasian_disney.agr",
+  "model_id": 4530,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4003",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000743,
+  "name": "Downey",
+  "zone": "Snowhill",
+  "position": [
+   228.3293,
+   23.97881,
+   371.45712
+  ],
+  "heading": -0.0269199998,
+  "model": "fairy_f_freestyle_11.agr",
+  "model_id": 573,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3867",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000076,
+  "name": "Drill Sergeant Dewey",
+  "zone": "Snowhill",
+  "position": [
+   317.7469,
+   26.46915,
+   424.5907
+  ],
+  "heading": -1.12853004,
+  "model": "fairy_royalguard_m.adr",
+  "model_id": 345,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3968",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000744,
+  "name": "Ernie",
+  "zone": "Snowhill",
+  "position": [
+   226.00937,
+   26.844666,
+   431.26334
+  ],
+  "heading": 0.782830048,
+  "model": "penguin_ernie.adr",
+  "model_id": 31,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3913",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000745,
+  "name": "Everett",
+  "zone": "Snowhill",
+  "position": [
+   322.78738,
+   25.583282,
+   378.4836
+  ],
+  "heading": -1.86024798,
+  "model": "human_m_miner_01.adr",
+  "model_id": 38,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3958",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000746,
+  "name": "Fladnag",
+  "zone": "Snowhill",
+  "position": [
+   230.88478,
+   25.246117,
+   430.04623
+  ],
+  "heading": -3.07482004,
+  "model": "fairy_m_merchant_wizard_caucasian_volcano.agr",
+  "model_id": 4587,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3912",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000092,
+  "name": "Fred Futbol",
+  "zone": "Snowhill",
+  "position": [
+   -166.81015,
+   -5.494034,
+   251.50894
+  ],
+  "heading": 1.089162,
+  "model": "human_m_soccerred.agr",
+  "model_id": 1085,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4122",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000749,
+  "name": "Fritti Bluebelle",
+  "zone": "Snowhill",
+  "position": [
+   286.7907,
+   27.49383,
+   406.30832
+  ],
+  "heading": -1.059289,
+  "model": "fairy_f_freestyle_11.agr",
+  "model_id": 573,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3939",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000093,
+  "name": "Frostpetal",
+  "zone": "Snowhill",
+  "position": [
+   72.91805,
+   20.55249,
+   331.20828
+  ],
+  "heading": -2.29090002,
+  "model": "fairy_f_valinda.adr",
+  "model_id": 36,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3830",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000098,
+  "name": "Gerold",
+  "zone": "Snowhill",
+  "position": [
+   -207.1201,
+   -19.14542,
+   290.6031
+  ],
+  "heading": -1.39930999,
+  "model": "human_m_gerold.agr",
+  "model_id": 966,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4163",
+  "near_zone": "Wilds",
+  "quests_waiting": [
+   "q3030012 objective 1"
+  ]
+ },
+ {
+  "npc_id": 9000000115,
+  "name": "Jeni Shortfuse",
+  "zone": "Snowhill",
+  "position": [
+   370.6606,
+   115.225,
+   -8.103738
+  ],
+  "heading": -0.220287,
+  "model": "human_f_freestyle_06.agr",
+  "model_id": 548,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2378",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3030035 objective 0",
+   "q3030039 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000753,
+  "name": "Jonathon Forkpath",
+  "zone": "Snowhill",
+  "position": [
+   224.36874,
+   23.615072,
+   405.206
+  ],
+  "heading": 0.13566596,
+  "model": "fairy_m_old_01.adr",
+  "model_id": 30,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3887",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000754,
+  "name": "Kiel",
+  "zone": "Snowhill",
+  "position": [
+   139.7237,
+   23.588022,
+   393.91772
+  ],
+  "heading": -1.71889496,
+  "model": "fairychild_m_pointyhair.adr",
+  "model_id": 12,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3869",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000755,
+  "name": "Lealin",
+  "zone": "Snowhill",
+  "position": [
+   258.30026,
+   22.13371,
+   261.57437
+  ],
+  "heading": 2.46031999,
+  "model": "fairy_m_01.adr",
+  "model_id": 48,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3890",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000132,
+  "name": "Loryn",
+  "zone": "Snowhill",
+  "position": [
+   198.0,
+   28.99752,
+   429.0
+  ],
+  "heading": 1.56097996,
+  "model": "fairy_m_01.adr",
+  "model_id": 48,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3881",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3130024 objective 2",
+   "q3130026 objective 4"
+  ]
+ },
+ {
+  "npc_id": 9000000133,
+  "name": "Lucca De'Flor",
+  "zone": "Snowhill",
+  "position": [
+   200.15443,
+   23.023718,
+   352.0755
+  ],
+  "heading": -0.266582996,
+  "model": "fairy_m_farmer_01.adr",
+  "model_id": 32,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3853",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3050026 objective 0",
+   "q3070018 objective 2"
+  ]
+ },
+ {
+  "npc_id": 9000000140,
+  "name": "Manager Landon",
+  "zone": "Snowhill",
+  "position": [
+   -144.09995,
+   -8.816657,
+   278.41183
+  ],
+  "heading": 0.470826012,
+  "model": "human_m_manager_landon.agr",
+  "model_id": 1457,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4112",
+  "near_zone": "Wilds",
+  "quests_waiting": [
+   "q3140001 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9000000143,
+  "name": "Mayor Crystalline",
+  "zone": "Snowhill",
+  "position": [
+   299.41,
+   27.40738,
+   409.01
+  ],
+  "heading": -1.1774953,
+  "model": "fairy_f_lorina.adr",
+  "model_id": 34,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3946",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3030029 objective 0",
+   "q3030030 objective 0",
+   "q3030037 objective 0",
+   "q3030038 objective 2",
+   "q3040045 objective 0",
+   "q3090016 objective 1",
+   "q3090016 objective 2",
+   "q3090016 objective 5",
+   "q3090017 objective 1"
+  ]
+ },
+ {
+  "npc_id": 9500000757,
+  "name": "Momma Meepster",
+  "zone": "Snowhill",
+  "position": [
+   127.7159,
+   22.608934,
+   423.17685
+  ],
+  "heading": -2.37502192,
+  "model": "penguin_baby_8bit_01.adr",
+  "model_id": 4552,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3844",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000155,
+  "name": "Morninglory",
+  "zone": "Snowhill",
+  "position": [
+   261.79507,
+   48.96282,
+   211.63281
+  ],
+  "heading": 0.349949977,
+  "model": "fairy_f_morninglory.agr",
+  "model_id": 731,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3929",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000758,
+  "name": "Mr. Twinkle",
+  "zone": "Snowhill",
+  "position": [
+   151.57108,
+   23.40974,
+   386.2754
+  ],
+  "heading": 3.10415006,
+  "model": "fairy_m_01.adr",
+  "model_id": 48,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3871",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000158,
+  "name": "Murphy",
+  "zone": "Snowhill",
+  "position": [
+   263.157,
+   24.16891,
+   243.43916
+  ],
+  "heading": -0.391319999,
+  "model": "fairy_m_02.adr",
+  "model_id": 49,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3888",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3070037 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9000000422,
+  "name": "Perry",
+  "zone": "Snowhill",
+  "position": [
+   -73.08731,
+   11.02224,
+   242.89047
+  ],
+  "heading": -0.108579995,
+  "model": "human_f_gardener.adr",
+  "model_id": 44,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4038",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3040016 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000763,
+  "name": "Reba",
+  "zone": "Snowhill",
+  "position": [
+   215.32555,
+   28.237514,
+   441.73898
+  ],
+  "heading": -2.74149799,
+  "model": "human_f_merchant_postman_caucasian.agr",
+  "model_id": 4549,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3908",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000180,
+  "name": "Ree Peatpants",
+  "zone": "Snowhill",
+  "position": [
+   -54.12951,
+   5.171237,
+   332.04172
+  ],
+  "heading": 1.33056104,
+  "model": "fairy_m_sakka.agr",
+  "model_id": 428,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3996",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000764,
+  "name": "Roland Sporeling",
+  "zone": "Snowhill",
+  "position": [
+   -0.607118,
+   102.32443,
+   472.90552
+  ],
+  "heading": -0.266676996,
+  "model": "human_m_roland_spore.agr",
+  "model_id": 565,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3988",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000766,
+  "name": "Sakka",
+  "zone": "Snowhill",
+  "position": [
+   -295.2761,
+   1.902695,
+   -717.1608
+  ],
+  "heading": 0.555055,
+  "model": "fairy_m_sakka.agr",
+  "model_id": 428,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2128",
+  "near_zone": "Wilds",
+  "quests_waiting": [
+   "q3110018 objective 0",
+   "q3110018 objective 2"
+  ]
+ },
+ {
+  "npc_id": 9000000195,
+  "name": "Senari",
+  "zone": "Snowhill",
+  "position": [
+   302.2244,
+   26.45855,
+   396.3599
+  ],
+  "heading": -1.94461002,
+  "model": "human_f_explorer_caucasian01.agr",
+  "model_id": 181,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3945",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000201,
+  "name": "Shimmer Shinyaxe",
+  "zone": "Snowhill",
+  "position": [
+   -506.4454,
+   10.03743,
+   -34.96611
+  ],
+  "heading": -1.272076,
+  "model": "fairy_m_miner_01.adr",
+  "model_id": 33,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2032",
+  "near_zone": "Wilds",
+  "quests_waiting": [
+   "q3100007 objective 2"
+  ]
+ },
+ {
+  "npc_id": 9500000769,
+  "name": "Skye",
+  "zone": "Snowhill",
+  "position": [
+   203.77641,
+   23.083303,
+   352.81158
+  ],
+  "heading": -0.237981002,
+  "model": "fairy_f_merchant_chef_asian_phoenix.agr",
+  "model_id": 4578,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3860",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000771,
+  "name": "Sonja",
+  "zone": "Snowhill",
+  "position": [
+   233.37015,
+   23.61321,
+   387.91855
+  ],
+  "heading": 1.08215001,
+  "model": "human_f_merchant_warrior_caucasian.agr",
+  "model_id": 4559,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3883",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000772,
+  "name": "Spratt",
+  "zone": "Snowhill",
+  "position": [
+   228.21536,
+   23.48963,
+   385.24973
+  ],
+  "heading": -1.24267901,
+  "model": "fairy_f_merchant_medic_asian_cupid.agr",
+  "model_id": 4521,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3884",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000208,
+  "name": "Steele",
+  "zone": "Snowhill",
+  "position": [
+   319.51495,
+   26.05179,
+   430.15677
+  ],
+  "heading": -0.890770018,
+  "model": "fairy_m_warrior_01.agr",
+  "model_id": 391,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3970",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000773,
+  "name": "Tad Slopeslider",
+  "zone": "Snowhill",
+  "position": [
+   230.13184,
+   21.062761,
+   322.42804
+  ],
+  "heading": 0.840897975,
+  "model": "human_m_freestyle_06.agr",
+  "model_id": 559,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3864",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000215,
+  "name": "Tevin",
+  "zone": "Snowhill",
+  "position": [
+   303.51282,
+   27.23725,
+   410.2941
+  ],
+  "heading": -1.07071997,
+  "model": "fairy_m_freestyle_08.agr",
+  "model_id": 657,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3950",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3030013 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000774,
+  "name": "Tiger the Party Animal",
+  "zone": "Snowhill",
+  "position": [
+   309.24753,
+   27.300243,
+   464.9833
+  ],
+  "heading": 0.23715501,
+  "model": "human_m_tiger_the_party_animal_holiday.agr",
+  "model_id": 1963,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3974",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000775,
+  "name": "Tommy",
+  "zone": "Snowhill",
+  "position": [
+   235.03586,
+   23.664875,
+   384.34042
+  ],
+  "heading": 0.56215605,
+  "model": "human_m_merchant_archer_asian.agr",
+  "model_id": 4476,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3885",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000776,
+  "name": "Tommy Crackletoe",
+  "zone": "Snowhill",
+  "position": [
+   -144.0924,
+   -5.572653,
+   255.03143
+  ],
+  "heading": -0.810944,
+  "model": "human_m_soccerblue.agr",
+  "model_id": 1084,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4111",
+  "near_zone": "Wilds",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000778,
+  "name": "Vaelen Warpwatcher",
+  "zone": "Snowhill",
+  "position": [
+   56.24998,
+   31.53844,
+   374.89914
+  ],
+  "heading": 2.65564989,
+  "model": "fairy_druid_m.adr",
+  "model_id": 468,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3823",
+  "near_zone": "Snowhill",
+  "quests_waiting": [
+   "q3050019 objective 0"
+  ]
+ },
+ {
+  "npc_id": 9500000781,
+  "name": "Willie",
+  "zone": "Snowhill",
+  "position": [
+   290.09042,
+   27.68708,
+   294.96246
+  ],
+  "heading": 0.914959985,
+  "model": "human_m_snowhill.adr",
+  "model_id": 837,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3905",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000782,
+  "name": "Wintara",
+  "zone": "Snowhill",
+  "position": [
+   98.93682,
+   61.759792,
+   541.33356
+  ],
+  "heading": -3.06333709,
+  "model": "fairychild_f_sleevesandshorts.adr",
+  "model_id": 11,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3982",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ }
+]

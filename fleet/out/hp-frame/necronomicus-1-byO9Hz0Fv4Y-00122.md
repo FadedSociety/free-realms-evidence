@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-1-byO9Hz0Fv4Y-00122 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2744, 4, 923] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 122s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.5}, {"name": null, "health_fraction": 0.6}], "damage_numbers": [], "attackers_visible": 2, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": null}, "target_defeated": false, "notes": "Combat near a dark blue hall; the picked enemy's name above its bar is not legible at this resolution, so target fields are null. 'Necronomicus Unleashed' appears only as the event banner at top, and a Defeat Necronomicus goal shows in the side panel."}

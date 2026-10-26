@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-0-KYELaZLl1bs-00018 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3158, 4, 875] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger KYELaZLl1bs 18s
+
+{"screen": "combat", "target": {"name": "Bergram Stumpfinger", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Boss Bergram Stumpfinger speaks a taunt line in a misty graveyard; his name shows over his head and in the top bar, but his small health bar is obscured by the smoke effect, so no fraction or level is legible. Goals tracker reads Defeat Bergram Stumpfinger."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-roughguard-0-FiWCkh0St38-00084 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3178, 4, 910] model=claude-haiku-5-5 -->
+# Troll Roughguard FiWCkh0St38 84s
+
+{"screen": "combat", "target": {"name": "Troll Roughguard", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1245, "on": "target", "color": "yellow"}, {"value": 1245, "on": "target", "color": "red"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.6}, "target_defeated": false, "notes": "Freddy (Ninja) fights a Troll Roughguard in the Forest Troll area; the target's health bar is shown fully red with no green visible, so its remaining fraction is not readable; damage numbers around 1245 are visible."}

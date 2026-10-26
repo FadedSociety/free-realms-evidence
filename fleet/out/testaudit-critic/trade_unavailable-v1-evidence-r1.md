@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=trade_unavailable-v1-evidence-r1 status=done turns=1 usd=0.0018 tokens(read,write,in,out)=[0, 11659, 4, 745] model=claude-haiku-5-5 -->
+# tests/trade_unavailable.rs
+
+{"pass": true, "wireable": true, "score": 9, "problems": [], "notes": "All 11 tests carry a keep verdict and none is marked superseded, duplicate or obsolete, so there are no removal verdicts for the evidence lens to back. Keeping a test is always the safe direction, and whole_file_removable=false is consistent with that. The audit's 'sole check' and 'only consumer of unavailable_replies' claims were not independently verified, but they only justify keeping, so they do not affect the outcome. The one soft spot is that the replays and wrong-length tests are described as partly overlapping; the auditor kept both, which is acceptable. No removal list is produced, so nothing needs to be wired to a builder."}

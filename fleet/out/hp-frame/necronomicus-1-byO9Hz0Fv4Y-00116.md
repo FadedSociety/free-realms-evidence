@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=necronomicus-1-byO9Hz0Fv4Y-00116 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2744, 4, 927] model=claude-haiku-5-5 -->
+# Necronomicus byO9Hz0Fv4Y 116s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Zombie Portal", "health_fraction": null}], "damage_numbers": [{"value": 5478, "on": "other", "color": "yellow"}, {"value": 2739, "on": "other", "color": "yellow"}, {"value": 2739, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Combat near a Zombie Portal with large yellow damage numbers; no legible Necronomicus name plate or health bar in this frame, so the picked enemy cannot be measured here."}

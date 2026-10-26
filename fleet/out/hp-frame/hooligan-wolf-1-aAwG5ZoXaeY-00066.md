@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hooligan-wolf-1-aAwG5ZoXaeY-00066 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2920, 4, 1115] model=claude-haiku-5-5 -->
+# Hooligan Wolf aAwG5ZoXaeY 66s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": 1.0, "health_text": "2000/2000", "health_fraction_note": "bottom red bar, read as health"}, "target_defeated": false, "notes": "Player rides a red hoverbike/glider over a city district with the chat log open. No Hooligan Wolf is shown as a creature. Only a partial minimap label 'Active Hooliga...' with '1323m' is visible, which is probably a tracker entry and is not legible as 'Hooligan Wolf'. The 'Exo' label above the glider is a player name, not the picked enemy."}

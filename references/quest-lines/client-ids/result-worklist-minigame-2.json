@@ -1,0 +1,651 @@
+[
+  {
+    "quest_id": 3070014,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 599,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:511: ID=599 TYPE=21 NAME_ID=408591 'Sacred Grove Shallows'",
+      "locale:408591 = 'Sacred Grove Shallows'; locale:419014 names Sacred Grove Shallows and Cheery Salmon",
+      "server-content/fishing.json:99-108 puts cheery_salmon in the sacred_grove_shallows roster",
+      "server-content/fishing_spots.json:37-60 binds sacred_grove_shallows to game_id 599",
+      "IDA 0x009b8f90: ClientMiniGameManager loads MiniGameData/group/type rows and keys game rows by the parsed MiniGameData id"
+    ],
+    "confidence": "medium",
+    "notes": "The client catalogue has a lake-level game, not a Cheery Salmon row. 599 is the Sacred Grove Shallows run id used by the server's FinishMinigame event. The species condition is not encoded in that event, so this settles the game id but not species-level validation. One unnumbered catch is treated as one play."
+  },
+  {
+    "quest_id": 3070015,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 599,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:511: ID=599 TYPE=21 NAME_ID=408591 'Sacred Grove Shallows'",
+      "locale:408591 = 'Sacred Grove Shallows'; locale:409087 names the shark in Sacred Grove Shallows",
+      "server-content/fishing_spots.json:37-60 binds sacred_grove_shallows to game_id 599",
+      "IDA 0x009b8f90: ClientMiniGameManager uses the parsed MiniGameData id as its game-record key"
+    ],
+    "confidence": "medium",
+    "notes": "599 is the only Sacred Grove Shallows fishing game and therefore the catalogue id emitted for a catch there. The table has no row named Shark; target-species filtering is outside the FinishMinigame id/count contract. Count is one catch/play because no larger count is stated."
+  },
+  {
+    "quest_id": 3070028,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 596,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:508: ID=596 TYPE=21 NAME_ID=408604 'Darklit Lagoon'",
+      "locale:408604 = 'Darklit Lagoon'; locale:409252 = 'Head to Darklit Lagoon and reel in a large purplenosed shark.'; locale:409251 is the supplied objective text",
+      "server-content/fishing.json:154-159 places purplenosed_shark in Darklit Lagoon",
+      "server-content/fishing_spots.json:92-116 binds darklit_lagoon to game_id 596",
+      "IDA 0x009b8f90: ClientMiniGameManager uses the parsed MiniGameData id as its game-record key"
+    ],
+    "confidence": "medium",
+    "notes": "The objective text alone omits the lake, but the preceding objective names Darklit Lagoon and the fish roster contains the target species. 596 is the lake-level minigame id; 'large' is a size threshold not represented by this goal. Count is one catch/play."
+  },
+  {
+    "quest_id": 3070031,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 598,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:510: ID=598 TYPE=21 NAME_ID=93710 'Rainbow Lake'",
+      "locale:93710 = 'Rainbow Lake'; locale:409901 names Peachy Perch from Rainbow Lake",
+      "server-content/fishing.json:180-187 places peachy_perch in Rainbow Lake",
+      "server-content/fishing_spots.json:64-90 binds rainbow_lake to game_id 598",
+      "IDA 0x009b8f90: ClientMiniGameManager uses the parsed MiniGameData id as its game-record key"
+    ],
+    "confidence": "medium",
+    "notes": "598 is the Rainbow Lake fishing game. No Peachy Perch-specific catalogue row exists, so species filtering is outside the minigame id. Count is one catch/play; 'some' gives no larger numeric count."
+  },
+  {
+    "quest_id": 3070049,
+    "objective": 3,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 601,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:513: ID=601 TYPE=21 NAME_ID=408640 'Frostbitten Banks'",
+      "locale:408640 = 'Frostbitten Banks'; locale:410233 places the fishing demonstration at Frostbitten Banks",
+      "server-content/fishing_spots.json:176-202 binds frostbitten_banks to game_id 601",
+      "server-data/quests/fisherman.json:193-207 already uses spot game ids for FinishMinigame",
+      "IDA 0x009b8f90: ClientMiniGameManager uses the parsed MiniGameData id as its game-record key"
+    ],
+    "confidence": "medium",
+    "notes": "601 is the Frostbitten Banks run id. The text asks for one demonstration at that location; 'a thing or two' is idiom, not two plays. Those catches are protected by later collect objectives."
+  },
+  {
+    "quest_id": 3070049,
+    "objective": 4,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 601,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:513: ID=601 TYPE=21 NAME_ID=408640 'Frostbitten Banks'",
+      "locale:408640 = 'Frostbitten Banks'; locale:410234 is 'Get some perfect casts' in the same Frostbitten Banks fishing sequence",
+      "server-content/fishing_spots.json:176-202 binds frostbitten_banks to game_id 601",
+      "IDA 0x009b8f90: ClientMiniGameManager uses the parsed MiniGameData id as its game-record key"
+    ],
+    "confidence": "medium",
+    "notes": "The perfect-cast action uses the same Frostbitten Banks fishing run; there is no separate perfect-cast MiniGameData row. Count is one run. The number of perfect casts is an in-run score condition, not a count of runs."
+  },
+  {
+    "quest_id": 3080003,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {},
+    "evidence": [
+      "locale:394323 = 'Beat Verve McNichols in a kart race at the Wildwood Speedway.' and does not name a race",
+      "Resources/MiniGameData.txt:540: ID=628 'Target Acquired' has description 'Be sure to place higher than Verve McNichols on the Wildwood speedway!'",
+      "Resources/MiniGameData.txt:29: ID=28 is the generic TYPE=10 'Wildwood Kart Racing' row",
+      "quests.json:63898-63903 records that locale 394323 is generic and could fit Target Acquired, while Target Acquired is also the next quest"
+    ],
+    "confidence": "low",
+    "notes": "Not settled. Row 628 is the only Verve-specific Wildwood race, but it is named Target Acquired, the following quest, and the supplied objective never names that race. Row 28 is the generic Wildwood race, but evidence does not tie this quest record to it. I did not invent either binding."
+  },
+  {
+    "quest_id": 3080008,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 311,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:308: ID=311 TYPE=1 NAME_ID=394633 'Crystal Collection'",
+      "locale:394633 = 'Crystal Collection'; locale:394634 = 'Collect enough Power Crystals so that TR can race!'",
+      "locale:394405 = 'Beat the \"Crystal Hunting\" minigame'; the preceding Crystal Collection objective names locale:394633 and TR",
+      "IDA 0x009b8f90: ClientMiniGameManager uses the parsed MiniGameData id as its game-record key"
+    ],
+    "confidence": "high",
+    "notes": "The objective uses the display name 'Crystal Hunting', while the shipped row is 'Crystal Collection'. The preceding quest objective names Crystal Collection and TR, so row 311 is the same activity. Count is one completion."
+  },
+  {
+    "quest_id": 3080008,
+    "objective": 4,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 630,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:542: ID=630 TYPE=10 NAME_ID=3298 'You Want To Go Fast?'",
+      "locale:3298 = 'You Want To Go Fast?'; locale:3435 = 'Be sure to place higher than T. R. Walker Jr. on the Wildwood speedway!'",
+      "locale:394446 = 'Beat T.R. Walker Jr. in a kart race at the Wildwood Speedway.'"
+    ],
+    "confidence": "high",
+    "notes": "The only kart row matching T.R. Walker Jr. at Wildwood is 630. Count is one win."
+  },
+  {
+    "quest_id": 3080010,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 631,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:543: ID=631 TYPE=10 NAME_ID=3319 'Wildwood Sprint Challenge'",
+      "locale:3319 = 'Wildwood Sprint Challenge'; locale:394507 = 'Complete a lap in under 60 seconds at the Wildwood Speedway.'",
+      "MiniGameData row 631 description id is 394507, an exact objective/table match"
+    ],
+    "confidence": "high",
+    "notes": "Exact description-id match. Count is one race/lap challenge; the 60-second threshold is a score condition, not a repeat count."
+  },
+  {
+    "quest_id": 3080012,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 633,
+      "count": 3
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:545: ID=633 TYPE=10 NAME_ID=3321 'Dominating at Wildwood'",
+      "locale:3321 = 'Dominating at Wildwood'; locale:394594 = 'Win three races at the Wildwood Speedway.'",
+      "locale:394597 = 'Win the \"Dominating at Wildwood\" race three times'"
+    ],
+    "confidence": "high",
+    "notes": "The quest text explicitly asks for three wins, so count is 3."
+  },
+  {
+    "quest_id": 3080014,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 635,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:547: ID=635 TYPE=10 NAME_ID=3322 'A Treacherous Track'",
+      "locale:3322 = 'A Treacherous Track'; locale:3439 = 'Be sure to place higher than Sparks Blitzwing on the Frost Ridge speedway!'",
+      "locale:394722 names Sparks Blitzwing, Treacherous Track, and Frost Ridge Speedway"
+    ],
+    "confidence": "high",
+    "notes": "Exact race name and opponent. Count is one win."
+  },
+  {
+    "quest_id": 3080016,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 636,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:548: ID=636 TYPE=10 NAME_ID=3323 'Redline Returns'",
+      "locale:3323 = 'Redline Returns'; locale:3440 = 'Be sure to place higher than Linx Redline on the Frost Ridge speedway!'",
+      "locale:394811 names Linx Redline, Redline Returns, and Frost Ridge Speedway"
+    ],
+    "confidence": "high",
+    "notes": "Exact race name and opponent. Count is one win."
+  },
+  {
+    "quest_id": 3080018,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 637,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:549: ID=637 TYPE=10 NAME_ID=3324 'Icy Perfection'",
+      "locale:3324 = 'Icy Perfection'; locale:3443 = 'Be sure to place higher than Amber Violet on the Frost Ridge speedway!'",
+      "locale:394893 names Amber Violet, Icy Perfection, and Frost Ridge Speedway"
+    ],
+    "confidence": "high",
+    "notes": "Exact race name and opponent. Count is one win."
+  },
+  {
+    "quest_id": 3080020,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 638,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:550: ID=638 TYPE=10 NAME_ID=3325 'Frost Ridge Sprint Challenge'",
+      "locale:3325 = 'Frost Ridge Sprint Challenge'; locale:394925 = 'Complete a lap in 28 seconds or less at the Frost Ridge Speedway.'",
+      "MiniGameData row 638 description id is 394925, an exact objective/table match"
+    ],
+    "confidence": "high",
+    "notes": "Exact description-id match. Count is one race/lap challenge; 28 seconds is a score threshold."
+  },
+  {
+    "quest_id": 3080022,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 640,
+      "count": 3
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:552: ID=640 TYPE=10 NAME_ID=3328 'Dominating at Frost Ridge'",
+      "locale:3328 = 'Dominating at Frost Ridge'; locale:395116 = 'Win three races at Frost Ridge Speedway.'"
+    ],
+    "confidence": "high",
+    "notes": "The quest text explicitly asks for three wins, so count is 3."
+  },
+  {
+    "quest_id": 3080024,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 642,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:554: ID=642 TYPE=10 NAME_ID=3329 'Age Before Beauty'",
+      "locale:3329 = 'Age Before Beauty'; locale:3447 = 'Be sure to place higher than Ace O''Mally on the Thunder Falls speedway!'",
+      "locale:395162 names Ace O'Mally, Age Before Beauty, and Thunder Falls Speedway"
+    ],
+    "confidence": "high",
+    "notes": "Exact race name and opponent. Count is one win."
+  },
+  {
+    "quest_id": 3080028,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 644,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:556: ID=644 TYPE=10 NAME_ID=3338 'High Speed Chase'",
+      "locale:3338 = 'High Speed Chase'; locale:3449 = 'Be sure to place higher than Chase Wheeler on the Thunder Falls speedway!'",
+      "locale:395247 names Chase Wheeler, High Speed Chase, and Thunder Falls Speedway"
+    ],
+    "confidence": "high",
+    "notes": "Exact race name and opponent. Count is one win."
+  },
+  {
+    "quest_id": 3080040,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 38,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:39: ID=38 TYPE=10 NAME_ID=37934 'Tangletrack Kart Racing'",
+      "locale:37934 = 'Tangletrack Kart Racing'; locale:37937 = 'Kart racing in Briarwood!'",
+      "locale:395499 = 'Win a race at Tangletrack Speedway.'",
+      "notes/Build Guides/Content/Jobs/Kart Driver.md:108: the Miner's Guild Sponsorship step is a generic Tangletrack win"
+    ],
+    "confidence": "medium",
+    "notes": "The objective names no special race, so the base Tangletrack Kart Racing row is the best catalogue match. This is a generic any-race requirement; if the server later models a specific race id, this binding should be revisited."
+  },
+  {
+    "quest_id": 3080045,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 634,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:546: ID=634 TYPE=10 NAME_ID=3425 'SG Tour 400: Wildwood'",
+      "locale:3425 = 'SG Tour 400: Wildwood'; locale:3438 = 'Win the race!'",
+      "locale:397998 names Kade Carmichael and Wildwood Speedway"
+    ],
+    "confidence": "high",
+    "notes": "Exact championship round and track. Count is one win."
+  },
+  {
+    "quest_id": 3080046,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 641,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:553: ID=641 TYPE=10 NAME_ID=3426 'SG Tour 400: Frost Ridge'",
+      "locale:3426 = 'SG Tour 400: Frost Ridge'; locale:3438 = 'Win the race!'",
+      "locale:398074 names Kade Carmichael and Frost Ridge Speedway"
+    ],
+    "confidence": "high",
+    "notes": "Exact championship round and track. Count is one win."
+  },
+  {
+    "quest_id": 3080048,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 655,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:567: ID=655 TYPE=10 NAME_ID=3432 'SG Tour 400: Tangletrack'",
+      "locale:3432 = 'SG Tour 400: Tangletrack'; locale:3438 = 'Win the race!'",
+      "locale:398215 names Kade Carmichael and Tangletrack Speedway"
+    ],
+    "confidence": "high",
+    "notes": "Exact championship round and track. Count is one win."
+  },
+  {
+    "quest_id": 3090029,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 551,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:471: ID=551 TYPE=1 NAME_ID=74799 'Medic: No Pain, No Gain'",
+      "locale:74799 = 'Medic: No Pain, No Gain'; locale:141659 = 'Take a lap around Seaside and prove that you're in top physical condition!'",
+      "locale:74804 = 'As a medic, complete the run before time expires!'"
+    ],
+    "confidence": "high",
+    "notes": "The quest title and run description identify row 551. Count is one completed run."
+  },
+  {
+    "quest_id": 3110016,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 235,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:236: ID=235 TYPE=1 NAME_ID=78881 'Ninja: Burst of Speed'",
+      "locale:78881 = 'Ninja: Burst of Speed'; locale:78882 exactly equals the supplied Ty/Lakeshore foot-race objective",
+      "MiniGameGroupLinks.txt:26 places game 235 in group 1"
+    ],
+    "confidence": "high",
+    "notes": "Exact name and description match. Count is one completed race."
+  },
+  {
+    "quest_id": 3120005,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {},
+    "evidence": [
+      "locale:90020 = 'Use the trick game to train your pet to do the trick \"Speak\".'",
+      "Resources/PetTrickGestureSettings.txt:1-18 defines a gesture scoring mini-experience with draw effects, hit distance, timeout, and result strings",
+      "Resources/PetTrickGesturePoints.txt:1-148 stores PET_TRICK_ID gesture sequences",
+      "ScriptsBase.lua:11583-11602 handles pet-trick ready/go/done messages; it does not launch a MiniGameData row",
+      "Full scan of MiniGameData names/descriptions found no Speak trick row"
+    ],
+    "confidence": "low",
+    "notes": "No MiniGameData id exists for the live pet trick gesture game. The only trick-related catalogue row is MiniGameData.txt:474 'NOT LIVE - Show Off! - DNT', which is an unrelated four-trick activity and cannot be used. This objective needs a pet-trick event target, not a fabricated minigame id."
+  },
+  {
+    "quest_id": 3120011,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {},
+    "evidence": [
+      "locale:90044 = 'Use the trick game to train your dog to do the trick \"Peek-a-Boo\".'",
+      "Resources/PetTrickGestureSettings.txt:1-18 is the local gesture-game configuration; Resources/PetTrickGesturePoints.txt:1-148 stores trick gesture sequences",
+      "ScriptsBase.lua:11583-11602 handles pet-trick ready/go/done UI messages, not a MiniGameData launch",
+      "Full scan of MiniGameData names/descriptions found no Peek-a-Boo or generic live pet-trick row"
+    ],
+    "confidence": "low",
+    "notes": "The target is a pet trick id inside the gesture system, not a MiniGameData game id. MiniGameData.txt:474 is a NOT LIVE four-trick activity and is not this quest. Left unresolved rather than borrowing it."
+  },
+  {
+    "quest_id": 3120021,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {},
+    "evidence": [
+      "locale:90089 asks for an 'Amazing!' score on a pet trick",
+      "Resources/PetTrickGestureSettings.txt:14 binds RESULT_GREAT_STRING to locale id 90163",
+      "locale:90163 = 'Amazing!!'",
+      "ScriptsBase.lua:11597-11602 routes pet-trick completion through NotifyPetTrickDone",
+      "Full scan of MiniGameData names/descriptions found no pet-trick gesture game row"
+    ],
+    "confidence": "low",
+    "notes": "This is a score from the pet gesture system, not a MiniGameData completion. There is no catalogue id to assign; the objective needs PetTrickDone plus score handling instead."
+  },
+  {
+    "quest_id": 3130021,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 378,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:362: ID=378 TYPE=8 NAME_ID=102036 'Wugachug Mail Sorting'",
+      "locale:102036 = 'Wugachug Mail Sorting'; locale:130227 = 'Complete the Wugachug Mail Sorting minigame'",
+      "locale:130228 = 'Sort at least 120 blue envelopes.'",
+      "quests.json:93868-93882 binds this quest to the Wugachug Mail Sorting activity and the 120-envelope threshold"
+    ],
+    "confidence": "high",
+    "notes": "The 120 is the required in-run envelope score, not 120 separate games. The FinishMinigame event is emitted once when one sorting game completes, so count is 1; the 120-envelope condition still needs score validation outside this id/count pair."
+  },
+  {
+    "quest_id": 3140008,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 326,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:319: ID=326 TYPE=12 NAME_ID=402606 'Slowing The Snowspurs'",
+      "locale:402606 = 'Slowing The Snowspurs'; locale:402607 names the Snowhill Snowspurs rematch",
+      "MiniGameGroupLinks.txt:469 places game 326 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "The quest title and opposing team exactly select the dedicated Snowspurs match. Count is one match win."
+  },
+  {
+    "quest_id": 3140009,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 323,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:316: ID=323 TYPE=12 NAME_ID=402586 'Goal Stopper'",
+      "locale:402586 = 'Goal Stopper'; locale:402842 = 'Beat the Goalbusters'",
+      "MiniGameGroupLinks.txt:466 places game 323 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "The quest title and opponent select the dedicated Goal Stopper match. Count is one match win."
+  },
+  {
+    "quest_id": 3140009,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 323,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:316: ID=323 TYPE=12 NAME_ID=402586 'Goal Stopper'",
+      "locale:402851 = 'Don''t let the Goalbusters score 5 goals' and belongs to the same Goal Stopper sequence",
+      "MiniGameGroupLinks.txt:466 places game 323 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "Same Goal Stopper match. The five-goal value is an in-match failure threshold, not five games; count remains 1. The current FinishMinigame goal cannot enforce that threshold by itself."
+  },
+  {
+    "quest_id": 3140010,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 329,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:322: ID=329 TYPE=12 NAME_ID=414908 'Power Game'",
+      "locale:414908 = 'Power Game'; locale:414968 names the Goalbusters in a Power Game",
+      "locale:414973 = 'Steal the ball 5 times '",
+      "MiniGameGroupLinks.txt:472 places game 329 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "The steal objective occurs inside the one Power Game match. Count is 1; five steals is an in-match score requirement, not five matches."
+  },
+  {
+    "quest_id": 3140012,
+    "objective": 2,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 324,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:317: ID=324 TYPE=12 NAME_ID=402590 'Briarwood''s Fancy Feet'",
+      "locale:402590 = 'Briarwood''s Fancy Feet'; locale:402931 = 'Beat the Black Widows'",
+      "locale:402589 names the Briarwood Black Widows",
+      "MiniGameGroupLinks.txt:467 places game 324 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "The quest title and opponent select row 324. Count is one match win."
+  },
+  {
+    "quest_id": 3140016,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 333,
+      "count": 2
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:326: ID=333 TYPE=12 NAME_ID=414912 'Cheetahs Double Challenge'",
+      "locale:414912 = 'Cheetahs Double Challenge'; locale:414956 names the Cheetahs, the Double Challenge, and says to run them down two times",
+      "MiniGameGroupLinks.txt:476 places game 333 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "The dedicated Double Challenge row is 333. The text explicitly asks for two successful run-downs/plays, so count is 2."
+  },
+  {
+    "quest_id": 3140024,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 327,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:320: ID=327 TYPE=12 NAME_ID=402610 'Making The Finals'",
+      "locale:402610 = 'Making The Finals'; locale:402995 = 'Beat the Twinkletoes'",
+      "MiniGameGroupLinks.txt:470 places game 327 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "The quest title and Twinkletoes opponent select row 327. Count is one match win."
+  },
+  {
+    "quest_id": 3140024,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 327,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:320: ID=327 TYPE=12 NAME_ID=402610 'Making The Finals'",
+      "locale:406621 = 'Complete dodge maneuvers 10 times' occurs in the same Making The Finals match sequence",
+      "MiniGameGroupLinks.txt:470 places game 327 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "The dodge counter occurs inside one Making The Finals match. Count is 1; ten dodges is an in-match score requirement, not ten independent games."
+  },
+  {
+    "quest_id": 3140025,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 332,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:325: ID=332 TYPE=12 NAME_ID=414911 'Twinkle Toes'",
+      "locale:414911 = 'Twinkle Toes'; locale:414952 requests a friendly scrimmage and win against the Sanctuary Twinkletoes",
+      "MiniGameGroupLinks.txt:475 places game 332 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "Dedicated Twinkletoes scrimmage row. Count is one match win."
+  },
+  {
+    "quest_id": 3140030,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 328,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:321: ID=328 TYPE=12 NAME_ID=402618 'Tournament Champion'",
+      "locale:402618 = 'Tournament Champion'; locale:402818 requests beating the Cheetahs in the final game",
+      "MiniGameGroupLinks.txt:471 places game 328 in soccer group 12"
+    ],
+    "confidence": "high",
+    "notes": "The dedicated final-match row is 328. Count is one match win."
+  },
+  {
+    "quest_id": 3150004,
+    "objective": 1,
+    "kind": "finish_minigame",
+    "found": {
+      "minigame_id": 79,
+      "count": 1
+    },
+    "evidence": [
+      "Resources/MiniGameData.txt:80: ID=79 TYPE=9 NAME_ID=35612 'Hack ''n'' Slash'",
+      "locale:35612 = 'Hack ''n'' Slash'; locale:35598 = 'Test your might and your sword by slashing, slicing and smashing apart a suit of armor!'",
+      "locale:22581 = 'Play the sword testing minigame.'",
+      "IDA 0x009b8f90: parsed MiniGameData id is the map key for the game record"
+    ],
+    "confidence": "medium",
+    "notes": "Row 79 is the only sword-testing game in MiniGameData and its description matches the objective. The quest evidence does not directly bind 22581 to 79, so this remains an identity inference rather than a recovered quest-to-game link. Count is one completion."
+  },
+  {
+    "quest_id": 3150018,
+    "objective": 0,
+    "kind": "finish_minigame",
+    "found": {},
+    "evidence": [
+      "locale:100757 names Sir Whittington and the 'Weed Killing!' tower defense minigame; locale:15135 is the unprefixed 'Weed Killing!' table name",
+      "Resources/MiniGameData.txt:341: ID=353 'Weed Killing! - Easy'",
+      "Resources/MiniGameData.txt:254: ID=253 'Weed Killing! - Medium'",
+      "Resources/MiniGameData.txt:154: ID=153 'Weed Killing! - Hard'",
+      "MiniGameGroupLinks.txt:488,500,512 place all three rows in group 14; MiniGameGroupData.txt:15 defines no preselected stage",
+      "quests.json:103660 and 103717-103718 explicitly record that difficulty is unsettled"
+    ],
+    "confidence": "low",
+    "notes": "Not settled. The objective names only the unprefixed table/game 'Weed Killing!' and the group contains Easy, Medium, and Hard rows with no evidenced default. Choosing 353, 253, or 153 would invent a difficulty selection."
+  }
+]

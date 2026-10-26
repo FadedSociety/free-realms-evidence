@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=nettleseed-nibbler-0-piWfe7lXZ9I-00414 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3166, 4, 986] model=claude-haiku-5-5 -->
+# Nettleseed Nibbler piWfe7lXZ9I 414s
+
+{"screen": "world", "target": {"name": "Nettleseed Nibbler", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Meagan Wolfchampion", "level": 20, "job": "Card Duelist", "health_fraction": null}, "target_defeated": false, "notes": "Open world, no combat. 'Nettleseed Nibbl...' label is partly hidden at top near the timer with no legible distance or health bar, so it reads as a tracker-style label only; 'Rich Gold Mining 50m' and 'Shady Smuggler 7.2m' are also tracker labels."}

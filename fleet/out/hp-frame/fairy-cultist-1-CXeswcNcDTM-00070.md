@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=fairy-cultist-1-CXeswcNcDTM-00070 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3159, 4, 699] model=claude-haiku-5-5 -->
+# Fairy Cultist CXeswcNcDTM 70s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Heather Earthwhisper", "level": 9, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Peaceful exploration in a sunflower area; only a partly hidden 'Fairy Cultist' tracker label (distance unreadable, behind the quest banner) is at top centre, with no creature or health bar on screen. Other labels (Spiralmint Plant, Verma, Sous-Chef Elden, Ratsplat) are trackers only."}

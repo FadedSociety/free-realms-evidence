@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-0-7rPcgr6KOfk-00154 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2740, 4, 968] model=claude-haiku-5-5 -->
+# Ocean Cray Defender 7rPcgr6KOfk 154s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Ocean Cray Marauder", "health_fraction": null}], "damage_numbers": [{"value": 69, "on": "other", "color": "orange"}, {"value": 127, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Cylena Volnarin", "level": null, "job": "Medic", "health_fraction": null}, "target_defeated": false, "notes": "Combat with Ocean Cray Marauder enemies under a bright spell effect; the picked Ocean Cray Defender name is not legible in this frame, so its bar cannot be read."}

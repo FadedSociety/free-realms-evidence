@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=stealthy-despoiler-0-i7ZWB-fF9x4-00078 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2752, 4, 744] model=claude-haiku-5-5 -->
+# Stealthy Despoiler i7ZWB-fF9x4 78s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Adam Thunderblade13", "level": 4, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Only a quest tracker label 'Stealthy Despoiler 125m' (red arrow, no health bar) is visible at top; no creature in combat. Other labels (Audrye Jean, Sommer Trails, Lava Tiger, Bacala) are also tracker-style with no bars. Player stands idle in a grassy area, chat open."}

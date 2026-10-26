@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=shady-smuggler-0-piWfe7lXZ9I-00432 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3160, 4, 655] model=claude-haiku-5-5 -->
+# Shady Smuggler piWfe7lXZ9I 432s
+
+{"screen": "world", "target": {"name": "Shady Smuggler", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Meagan Wolfchampion", "level": 20, "job": "Card Duelist", "health_fraction": null}, "target_defeated": false, "notes": "Only the quest-tracker label 'Shady Smugg...' at 71m (top right) is visible; no enemy with a health bar is on screen, and no combat is happening. Other labels (Johnny, Rich Gold Mining, Nettleseed Nibbler) are also tracker-style distance labels."}

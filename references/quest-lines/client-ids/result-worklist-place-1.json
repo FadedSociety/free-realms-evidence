@@ -1,0 +1,672 @@
+[
+  {
+    "quest_id": 3000003,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -39.80192,
+        -0.00425,
+        2904.154
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:884: POI 66 is 'Briarheart Caverns'",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:888: Position [-39.80192, -0.00425, 2904.154]",
+      "locale:5100520: Enter Briarwood Caverns"
+    ],
+    "confidence": "medium",
+    "notes": "The POI calls the cave 'Briarheart Caverns' while the quest string says 'Briarwood Caverns'; treated as the same cave entrance. The POI defines no radius, so 8.0 is the requested default. This is an open-world entrance marker, hence zone 0."
+  },
+  {
+    "quest_id": 3000003,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:4419598: Find the Hero's Journal",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/opening_cave.json:184: instance scene sg_npx_cavern_01",
+      "lab/extracted/named/Assets_002/Assets_002/sg_npx_cavern_01Areas.xml:1: only room and effect areas were present"
+    ],
+    "confidence": "low",
+    "notes": "Searched the opening-cave config, its area XML, and the tagged locale record. The journal is an item/UI interaction and no world coordinate was found; the cave spawn would not establish where the journal exists."
+  },
+  {
+    "quest_id": 3000004,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:4419568: Look at the first globe",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/opening_cave.json:981: zone 411 config",
+      "lab/extracted/named/Assets_002/Assets_002/sg_npx_cavern_01Areas.xml:1: room/effect areas, no globe marker"
+    ],
+    "confidence": "low",
+    "notes": "Searched opening_cave.json and sg_npx_cavern_01Areas.xml. Actor and encounter positions exist, but no coordinate identifies the first globe."
+  },
+  {
+    "quest_id": 3000004,
+    "objective": 3,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:4419570: Look at the second globe",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/opening_cave.json:981: zone 411 config",
+      "lab/extracted/named/Assets_002/Assets_002/sg_npx_cavern_01Areas.xml:1: room/effect areas, no globe marker"
+    ],
+    "confidence": "low",
+    "notes": "Searched opening_cave.json and sg_npx_cavern_01Areas.xml. No coordinate identifies the second globe."
+  },
+  {
+    "quest_id": 3000004,
+    "objective": 4,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:4419572: Look at the third globe",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/opening_cave.json:981: zone 411 config",
+      "lab/extracted/named/Assets_002/Assets_002/sg_npx_cavern_01Areas.xml:1: room/effect areas, no globe marker"
+    ],
+    "confidence": "low",
+    "notes": "Searched opening_cave.json and sg_npx_cavern_01Areas.xml. No coordinate identifies the third globe."
+  },
+  {
+    "quest_id": 3000004,
+    "objective": 5,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:4419576: Move past the first barrier",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/opening_cave.json:981: zone 411 config",
+      "lab/extracted/named/Assets_002/Assets_002/sg_npx_cavern_01Areas.xml:1: room/effect areas, no barrier marker"
+    ],
+    "confidence": "low",
+    "notes": "Searched opening_cave.json and sg_npx_cavern_01Areas.xml. No coordinate identifies the first barrier."
+  },
+  {
+    "quest_id": 3000004,
+    "objective": 6,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:4419578: Move past the second barrier",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/opening_cave.json:981: zone 411 config",
+      "lab/extracted/named/Assets_002/Assets_002/sg_npx_cavern_01Areas.xml:1: room/effect areas, no barrier marker"
+    ],
+    "confidence": "low",
+    "notes": "Searched opening_cave.json and sg_npx_cavern_01Areas.xml. No coordinate identifies the second barrier."
+  },
+  {
+    "quest_id": 3000004,
+    "objective": 7,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:4419580: Move past the third barrier",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/opening_cave.json:981: zone 411 config",
+      "lab/extracted/named/Assets_002/Assets_002/sg_npx_cavern_01Areas.xml:1: room/effect areas, no barrier marker"
+    ],
+    "confidence": "low",
+    "notes": "Searched opening_cave.json and sg_npx_cavern_01Areas.xml. No coordinate identifies the third barrier."
+  },
+  {
+    "quest_id": 3000014,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -1185.0,
+        3.0,
+        305.0
+      ],
+      "radius": 66.0
+    },
+    "evidence": [
+      "lab/extracted/named/Assets_000/Assets_000/FabledRealmsAreas.xml:256: Sanctuary_AyaniPalace_1 center [-1185, 3, 305], radius 66",
+      "locale:4420119: Enter the Royal Palace"
+    ],
+    "confidence": "medium",
+    "notes": "The client area identifies the palace subregion rather than a doorway marker. The area supplies the radius; coordinates are in open-world space, so zone 0."
+  },
+  {
+    "quest_id": 3000018,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -2159.589874,
+        -31.96,
+        367.823649
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/farnum_farmstead.json:6392: Peep position",
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/farnum_farmstead.json:6406: placement_confidence low, reconstructed POI anchor",
+      "locale:37703: Search the Farmstead for Peep's Dog Bowl"
+    ],
+    "confidence": "low",
+    "notes": "Used Peep's NPC position as a proxy for the bowl search area. The NPC position is a reconstructed Farnum POI anchor, not a recovered bowl transform. No area radius was selected, so 8.0 is the default."
+  },
+  {
+    "quest_id": 3000023,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:45861: Make sure Wilbur is okay"
+    ],
+    "confidence": "low",
+    "notes": "Searched all records under data/content/npcs and the reference NPC catalogue. Wilbur has no located NPC or object position, so no coordinate is claimed."
+  },
+  {
+    "quest_id": 3000031,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:90692: Find Guard Glibbin"
+    ],
+    "confidence": "low",
+    "notes": "Searched all current NPC JSON and the reference NPC catalogue. No Guard Glibbin record with a position was found."
+  },
+  {
+    "quest_id": 3000031,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:90694: Find Guard Forbi"
+    ],
+    "confidence": "low",
+    "notes": "Searched all current NPC JSON and the reference NPC catalogue. No Guard Forbi record with a position was found."
+  },
+  {
+    "quest_id": 3000031,
+    "objective": 3,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:90696: Find Guard Nibbs"
+    ],
+    "confidence": "low",
+    "notes": "Searched all current NPC JSON and the reference NPC catalogue. No Guard Nibbs record with a position was found."
+  },
+  {
+    "quest_id": 3000031,
+    "objective": 4,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -1488.383874,
+        -35.049,
+        405.191649
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/sanctuary.json:29385: Guard Verbi position",
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/sanctuary.json:29399: placement_confidence low, reconstructed POI anchor",
+      "locale:90698: Find Guard Verbi"
+    ],
+    "confidence": "low",
+    "notes": "Guard Verbi is present, but the position is a low-confidence reconstructed Queensfields POI anchor rather than a captured NPC transform. The NPC record defines no radius, so 8.0 is the default."
+  },
+  {
+    "quest_id": 3000033,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:90740: Scout the entrance of the Hedge Maze",
+      "lab/extracted/named/Assets_005/Assets_005/bw_hedgemazeAreas.xml:1: only HedgeMaze_Bed at local coords [164, 6, 234], radius 273",
+      "lab/extracted/named/Assets_007/Assets_007/bw_hedgemaze_returnAreas.xml:1: only TreeLeafsRetreat_Bed at local coords [132, 6, 253], radius 230",
+      "lab/extracted/named/Assets_000/Assets_000/FabledRealmsAreas.xml:342: only broad Brairwood_Maze_1/2 beds"
+    ],
+    "confidence": "low",
+    "notes": "The dedicated maze files contain broad beds, not a labelled entrance. The open-world area definitions also lack a unique entrance marker, and the instance-local coordinates have no recovered zone ID."
+  },
+  {
+    "quest_id": 3000033,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:90748: Scout the east exit of the Hedge Maze",
+      "lab/extracted/named/Assets_005/Assets_005/bw_hedgemazeAreas.xml:1: only HedgeMaze_Bed",
+      "lab/extracted/named/Assets_007/Assets_007/bw_hedgemaze_returnAreas.xml:1: only TreeLeafsRetreat_Bed",
+      "lab/extracted/named/Assets_000/Assets_000/FabledRealmsAreas.xml:342: broad Brairwood_Maze_1/2 beds"
+    ],
+    "confidence": "low",
+    "notes": "No east-exit marker or directional transition was found in the dedicated maze areas or the open-world maze beds. A bed centre would not identify the exit."
+  },
+  {
+    "quest_id": 3000033,
+    "objective": 4,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:90752: Scout the northeast exit of the Hedge Maze",
+      "lab/extracted/named/Assets_005/Assets_005/bw_hedgemazeAreas.xml:1: only HedgeMaze_Bed",
+      "lab/extracted/named/Assets_007/Assets_007/bw_hedgemaze_returnAreas.xml:1: only TreeLeafsRetreat_Bed",
+      "lab/extracted/named/Assets_000/Assets_000/FabledRealmsAreas.xml:342: broad Brairwood_Maze_1/2 beds"
+    ],
+    "confidence": "low",
+    "notes": "No northeast-exit marker or directional transition was found. The two open-world maze beds do not encode compass exits, so no point is claimed."
+  },
+  {
+    "quest_id": 3000034,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        1.167,
+        41.038,
+        1114.959
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:82: POI 8 is 'Shrouded Glade'",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:86: Position [1.167, 41.038, 1114.959]",
+      "locale:90777: Find information about Darkthorne in Shrouded Glade"
+    ],
+    "confidence": "high",
+    "notes": "Exact POI name and world-space position. The POI defines no radius, so 8.0 is the requested default."
+  },
+  {
+    "quest_id": 3000036,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:90823: Locate the merchant caravan that left for Briarwood"
+    ],
+    "confidence": "low",
+    "notes": "Searched the POI and client area tables. No merchant-caravan marker or static NPC/object position was found; the generic Briarwood entrance would be misleading."
+  },
+  {
+    "quest_id": 3000037,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -808.386,
+        -21.029,
+        1631.789
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:19: POI 4 is 'Briarwood'",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:23: Position [-808.386, -21.029, 1631.789]",
+      "locale:90836: Venture into Briarwood to find the stolen weapon shipment"
+    ],
+    "confidence": "high",
+    "notes": "Used the exact Briarwood region marker for the objective's explicit 'venture into Briarwood' step. The POI defines no radius, so 8.0 is the default."
+  },
+  {
+    "quest_id": 3000048,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -2058.871,
+        -29.96425,
+        1128.159
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/blackspore_swamp.json:9937: Eggert the Mad position [-2058.871, -29.96425, 1128.159]",
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/blackspore_swamp.json:10063: placement is legacy built-content spawn",
+      "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:306: spawnNpcWithGuid(1539, ... same coordinates)",
+      "locale:90949: Search for Eggert the Mad in the graveyard in southern Blackspore"
+    ],
+    "confidence": "high",
+    "notes": "The objective names Eggert directly; his high-confidence legacy spawn is in southern Blackspore. NPC position has no area radius, so 8.0 is the default. Runtime zone is open-world 0."
+  },
+  {
+    "quest_id": 3000050,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -1185.0,
+        3.0,
+        305.0
+      ],
+      "radius": 66.0
+    },
+    "evidence": [
+      "lab/extracted/named/Assets_000/Assets_000/FabledRealmsAreas.xml:256: Sanctuary_AyaniPalace_1 center [-1185, 3, 305], radius 66",
+      "locale:90976: Hurry back to the Royal Palace"
+    ],
+    "confidence": "medium",
+    "notes": "Same client palace subregion used for 'Enter the Royal Palace'. The area supplies the radius; world-space zone is 0."
+  },
+  {
+    "quest_id": 3000051,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:391221: Find Bonny near the water around Sanctuary"
+    ],
+    "confidence": "low",
+    "notes": "Searched all current NPC JSON and the reference NPC catalogue. Bonny has no located NPC record; Sanctuary's regional marker is too broad for the stated waterside location."
+  },
+  {
+    "quest_id": 3000057,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:5100421: search Sacred Grove for one of his golden pots"
+    ],
+    "confidence": "low",
+    "notes": "Searched POIs, world events, collection data, and client area definitions. Sacred Grove Shallows has a POI, but the text describes multiple hidden pots and no pot coordinate was found."
+  },
+  {
+    "quest_id": 3000320,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -690.38,
+        2.3,
+        -1060.25
+      ],
+      "radius": 15.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/quests/zone_seaside.json:16: zone_id 0 is open world",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/zone_seaside.json:18: position [-690.38, 2.3, -1060.25]",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/zone_seaside.json:22: radius 15.0",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/zone_seaside.json:27: sourced from legacy Quests.json Type 1 ReachPosition",
+      "locale:93294: Take a look at the view"
+    ],
+    "confidence": "high",
+    "notes": "The worklist is stale for this row: current server content already has the exact Seaside overlook goal, including its radius and source provenance."
+  },
+  {
+    "quest_id": 3000322,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -426.24,
+        -18.72,
+        -1223.69
+      ],
+      "radius": 20.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/quests/zone_seaside.json:176: zone_id 0 is open world",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/zone_seaside.json:196: position [-426.24, -18.72, -1223.69]",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/zone_seaside.json:200: radius 20.0",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/zone_seaside.json:205: sourced from legacy Quests.json Type 1 ReachPosition",
+      "locale:93427: Find The Boardwalk"
+    ],
+    "confidence": "high",
+    "notes": "The worklist is stale for this row: current server content already has the exact Boardwalk goal, including its radius and source provenance."
+  },
+  {
+    "quest_id": 3010012,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -2161.46,
+        -31.96,
+        371.82
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:301: POI 23 is Farnum's Farm",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:305: Position [-2161.46, -31.96, 371.82]",
+      "locale:77598: travel to Farnum Farmstead"
+    ],
+    "confidence": "high",
+    "notes": "Exact location with a minor naming variant, Farnum's Farm versus Farnum Farmstead. The POI defines no radius, so 8.0 is the default."
+  },
+  {
+    "quest_id": 3010013,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -2114.0537,
+        -57.04427,
+        279.46436
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:1164: POI 87 is 'Sheep Watch'",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:1168: Position [-2114.0537, -57.04427, 279.46436]",
+      "locale:93257: Head into Sheep Watch"
+    ],
+    "confidence": "high",
+    "notes": "Exact POI name and world-space entrance position. The POI defines no radius, so 8.0 is the default."
+  },
+  {
+    "quest_id": 3010014,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -2182.3503,
+        -36.54442,
+        141.07704
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:912: POI 68 is 'Highroad Hijinx'",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:916: Position [-2182.3503, -36.54442, 141.07704]",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/highroad_hijinx.json: entry describes the fence in the south-west Wilds near Farnum's Farm"
+    ],
+    "confidence": "high",
+    "notes": "Exact POI name and world-space entrance position. The POI defines no radius, so 8.0 is the default."
+  },
+  {
+    "quest_id": 3010021,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -808.386,
+        -21.029,
+        1631.789
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "locale:77823: objective names the mountains in the east; tagged zone is Briarwood",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:19: POI 4 is 'Briarwood'",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:23: Position [-808.386, -21.029, 1631.789]"
+    ],
+    "confidence": "medium",
+    "notes": "The prose does not itself name Briarwood, but its locale zone does. Used the Briarwood entrance marker as the only defensible region-level point. The POI has no radius, so 8.0 is the default."
+  },
+  {
+    "quest_id": 3010022,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -517.9431,
+        -0.4583573,
+        610.2614
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/durango_zoo.json:1099: Mr. Miles position [-517.9431, -0.4583573, 610.2614]",
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/durango_zoo.json:1111: placement is legacy_data with high confidence",
+      "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:64: spawnNpcWithGuid(1274, ... same coordinates)",
+      "locale:77828: Travel to the Durango Zoo and speak with Mr. Miles"
+    ],
+    "confidence": "high",
+    "notes": "The objective explicitly targets Mr. Miles, so his high-confidence legacy spawn supplies the position inside Durango Zoo. This is an NPC point, not a separately recovered zoo centroid. Default radius is 8.0."
+  },
+  {
+    "quest_id": 3010027,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -529.316845,
+        -66.509,
+        2222.896143
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/briarwood.json:68543: Vicki position [-529.316845, -66.509, 2222.896143]",
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/briarwood.json:68557: placement_confidence medium, reconstructed POI anchor",
+      "locale:78444: search around Briarwood to see if Vicki is here"
+    ],
+    "confidence": "medium",
+    "notes": "Vicki is present in our Briarwood data, but this position is a reconstructed Bristlewood POI anchor, not a captured transform. Default radius is 8.0."
+  },
+  {
+    "quest_id": 3010027,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -529.316845,
+        -66.509,
+        2222.896143
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/briarwood.json:68543: Vicki position [-529.316845, -66.509, 2222.896143]",
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/briarwood.json:68557: placement_confidence medium, reconstructed Bristlewood POI anchor",
+      "locale:78452: last seen near the border to Nettleseed"
+    ],
+    "confidence": "low",
+    "notes": "This is the only located Vicki outside Farnum, but the data places it from Bristlewood POI 93 rather than at a recovered Nettleseed-border point. Use as a low-confidence proxy only. Default radius is 8.0."
+  },
+  {
+    "quest_id": 3010031,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:388489: Smugglers can be found wandering throughout the northern section of Briarwood"
+    ],
+    "confidence": "low",
+    "notes": "The objective describes roaming enemies across northern Briarwood, not one landmark. The generic Briarwood entrance and broad region beds would not encode that northern distribution, so no point is claimed."
+  },
+  {
+    "quest_id": 3010031,
+    "objective": 3,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -319.8196,
+        -102.04988,
+        2593.831
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:968: POI 72 is 'Croaking Vale'",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:972: Position [-319.8196, -102.04988, 2593.831]",
+      "autopilot-int/prototype/osfr-tools/data/content/dungeons/croaking_vale.json: entrance is the barrier in Nettleseed, Briarwood",
+      "locale:388491: Trappers can be found in the Croaking Vale"
+    ],
+    "confidence": "high",
+    "notes": "Exact POI name and world-space entrance position. The POI defines no radius, so 8.0 is the default."
+  },
+  {
+    "quest_id": 3020013,
+    "objective": 2,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        -1963.906,
+        -34.14787,
+        -434.78
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/greenwood_forest.json:22433: Supply Master Leo position [-1963.906, -34.14787, -434.78]",
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/greenwood_forest.json:22445: placement is legacy_data with high confidence",
+      "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2171: spawnNpcWithGuid(3428, ... same coordinates)",
+      "locale:94377: Locate Supply Master Leo in Southvale"
+    ],
+    "confidence": "high",
+    "notes": "The objective explicitly targets Supply Master Leo, whose high-confidence legacy spawn is from the Southvale Outpost row. The package's regional zone label is Greenwood Forest, but the coordinate is world-space zone 0. Default radius is 8.0."
+  },
+  {
+    "quest_id": 3020026,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:100282: Locate the lost sword, Summersaber, at its final dwelling place somewhere in Blackspore",
+      "lab/references/FreeRealms-Legacy/src/Resources/PointOfInterests.json:424: Blackspore is only a broad region POI"
+    ],
+    "confidence": "low",
+    "notes": "The Blackspore POI exists, but it identifies the region entrance, not the sword or its final dwelling place. No Summersaber object coordinate was found, so the broad marker is not substituted."
+  },
+  {
+    "quest_id": 3030002,
+    "objective": 1,
+    "kind": "visit_position",
+    "found": {},
+    "evidence": [
+      "locale:45316: Enter the Picnic Yard"
+    ],
+    "confidence": "low",
+    "notes": "No Picnic Yard match was found in the inspected POI table, open-world area table, or current NPC records. A related Ashley Lightwings/Flanders position was not present, so no coordinate is claimed."
+  },
+  {
+    "quest_id": 3030011,
+    "objective": 0,
+    "kind": "visit_position",
+    "found": {
+      "zone_id": 0,
+      "position": [
+        55.221953,
+        30.987,
+        364.555058
+      ],
+      "radius": 8.0
+    },
+    "evidence": [
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/snowhill.json:18511: Gerold position [55.221953, 30.987, 364.555058]",
+      "autopilot-int/prototype/osfr-tools/data/content/npcs/snowhill.json:18525: placement_confidence medium, reconstructed POI anchor",
+      "locale:104147: Find Gerold south of Snowhill"
+    ],
+    "confidence": "medium",
+    "notes": "Gerold is present, but the position is a medium-confidence reconstructed Snowhill POI anchor rather than a captured transform. Default radius is 8.0."
+  }
+]

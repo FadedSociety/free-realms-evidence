@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00284 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3159, 4, 1159] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 284s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [{"value": 416, "on": "other", "color": "red"}, {"value": 49, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": null, "health_fraction": 0.97}, "target_defeated": false, "notes": "Dense combat with cray creatures and many floating damage numbers; the picked name sits on a quest-tracker banner ('Brady Stormbreath!', distance marker) with no legible health bar over the creature, so no fraction is read."}

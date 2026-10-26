@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=taka-the-shadow-0-NtjR5zpRDoQ-00216 status=nothing_found turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 3155, 4, 692] model=claude-haiku-5-5 -->
+# Taka the Shadow NtjR5zpRDoQ 216s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "No Taka the Shadow on screen; only the NPC Grayson Stonyhammer <Erosion> is labeled, the quest tracker shows Danger Peaks 189m, and the quest panel lists the goal Defeat Taka the Shadow. The player is level 20 Archer with 2116/2116 health, and no combat is visible."}

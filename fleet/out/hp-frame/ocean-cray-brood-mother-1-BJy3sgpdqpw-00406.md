@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00406 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3159, 4, 814] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 406s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Moth", "level": null, "health_fraction": 0.85, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Floating name (cut off at frame edge, likely 'Brood Mother') over a mostly green health bar with red lost portion; the player's blue-glow attack is on the creature. Jordan Roughtower is a tracker at 24m, not in the fight. Target level and damage numbers are not legible."}

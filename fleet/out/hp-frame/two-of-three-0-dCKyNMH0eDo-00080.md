@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=two-of-three-0-dCKyNMH0eDo-00080 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2734, 4, 961] model=claude-haiku-5-5 -->
+# Two of Three dCKyNMH0eDo 80s
+
+{"screen": "combat", "target": {"name": "Two of Three", "level": 20, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.5}], "damage_numbers": [{"value": 3113, "on": "target", "color": "yellow"}, {"value": 6226, "on": "target", "color": "yellow"}], "attackers_visible": 2, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": 0.68}, "target_defeated": false, "notes": "Archer fighting Two of Three with a second character beside them; large damage numbers over the target; target health bar is obscured by the damage text and label, so its fraction is not readable."}

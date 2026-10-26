@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=smuggler-hannah-0-ebt4UDSbD20-00106 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2738, 4, 1120] model=claude-haiku-5-5 -->
+# Smuggler Hannah ebt4UDSbD20 106s
+
+{"screen": "combat", "target": {"name": "Smuggler Hannah", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Gray... (yellow name, partly obscured)", "health_fraction": null}], "damage_numbers": [], "attackers_visible": 1, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": null}, "target_defeated": false, "notes": "Smuggler Hannah shown in red above a red bar over her name while a blue ability effect plays; system message says not enough energy for that ability. Her bar fill is not reliably readable through the effects, so no fraction is given."}

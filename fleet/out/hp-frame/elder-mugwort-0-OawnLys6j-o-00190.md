@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-0-OawnLys6j-o-00190 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 984] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 190s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.9}, "target_defeated": false, "notes": "Player fights a Snake (named above it, overlapped by a -2490 yellow damage number); no Elder Mugwort health bar or name is legible. Quest goal 'Defeat the druid, Mugwort!' and Mugwort's NPC dialog line are shown, but Mugwort is not visibly on screen as a targeted creature."}

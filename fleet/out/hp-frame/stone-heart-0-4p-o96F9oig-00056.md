@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=stone-heart-0-4p-o96F9oig-00056 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2741, 4, 818] model=claude-haiku-5-5 -->
+# Stone Heart 4p_o96F9oig 56s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Monica Wintervale", "level": 16, "job": "Warrior", "health_fraction": null}, "target_defeated": false, "notes": "Large dark red Stone Heart mass at top center, but no legible name label or health bar over it; the 'Stone Heart' text is a red shout line in the chat area. Two characters in the foreground, not clearly attacking the target. Server row says level 13, so no level read from this frame."}

@@ -1,0 +1,529 @@
+[
+  {
+    "quest_id": 3070019,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:409384 [item] 'Bag of Spices'",
+      "locale:409380 'Find the spices'",
+      "locale:409383 'Take the spice bags back to Gunther in Brambleback's Bayou.'",
+      "item-catalogue.json: no definition has serialized bytes 4..8 equal to locale id 409384"
+    ],
+    "confidence": "high",
+    "notes": "Checked the full item catalogue and Sanctuary ClientItemDefinitions: 'Bag of Spices' is a client item label, but neither table has an item definition for name id 409384. Do not substitute the unrelated generic Spice item (2900). The next objective is delivery to Gunther; this pickup needs a quest-object or multi-step representation."
+  },
+  {
+    "quest_id": 3070020,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 68000,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:409307 'Reel in some fungus'",
+      "locale:409308 'reeling in some clumps of funky fungus from the Bayou's waters'",
+      "locale:407586 [item] 'Clump of Fungus'",
+      "Resources/ClientItemDefinitions.json:1156678: item id 68000, NameId 407586",
+      "item-catalogue.json: definition 68000 has serialized bytes 4..8 = 407586"
+    ],
+    "confidence": "high",
+    "notes": "Exact semantic match: the objective asks for funky fungus clumps and the item definition is Clump of Fungus. The text gives no numeric count; quantity 1 is the single-catch interpretation."
+  },
+  {
+    "quest_id": 3070023,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:409466 'Reel in some Bitter Beta'",
+      "locale:99935 [item] 'Bitter Betta'",
+      "Resources/ClientItemDefinitions.json:1158201: item id 68096, NameId 407695, Small Bitter Betta",
+      "Resources/ClientItemDefinitions.json:1158217: item id 68097, NameId 407696, Medium Bitter Betta",
+      "item-catalogue.json: no definition has name id 99935",
+      "autopilot-int/prototype/osfr-tools/src/quest_engine.rs:53: GatherResource stores one resource_id"
+    ],
+    "confidence": "high",
+    "notes": "The generic locale name exists, but there is no generic item definition. The catalogue has only Small Bitter Betta (68096) and Medium Bitter Betta (68097), and the objective does not specify size. Note the client quest text spells 'Beta' while the item names spell 'Betta'. An arbitrary size would be invented; this needs a fish-family/set match or multiple accepted ids."
+  },
+  {
+    "quest_id": 3070040,
+    "objective": 3,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:409052 'Reel in a cheery salmon from the Sacred Grove Shallows.'",
+      "locale:99927 [item] 'Cheery Salmon'",
+      "Resources/ClientItemDefinitions.json:1157655: item id 68062, NameId 407661, Small Cheery Salmon",
+      "Resources/ClientItemDefinitions.json:1157671: item id 68063, NameId 407662, Medium Cheery Salmon",
+      "Resources/ClientItemDefinitions.json:1157687: item id 68064, NameId 407663, Large Cheery Salmon",
+      "item-catalogue.json: no definition has name id 99927"
+    ],
+    "confidence": "high",
+    "notes": "The client asks for a Cheery Salmon without a size, while the item catalogue has three size-specific definitions: 68062, 68063, and 68064. No generic item definition exists, so a single resource_id cannot be recovered without changing the objective to accept a set."
+  },
+  {
+    "quest_id": 3070041,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:410255 'Reel in some Blue Thornfin from the Frostbitten Banks for Valinda.'",
+      "locale:99949 [item] 'Blue Thornfin'",
+      "Resources/ClientItemDefinitions.json:1156886: item id 68014, NameId 407612, Medium Blue Thornfin",
+      "Resources/ClientItemDefinitions.json:1156902: item id 68015, NameId 407613, Large Blue Thornfin",
+      "Resources/ClientItemDefinitions.json:1156918: item id 68016, NameId 407614, Extra Large Blue Thornfin",
+      "item-catalogue.json: no definition has name id 99949"
+    ],
+    "confidence": "high",
+    "notes": "The objective does not specify a size. Only size-specific item definitions exist: 68014, 68015, and 68016; there is no generic Blue Thornfin definition. A single id would narrow the original any-size catch."
+  },
+  {
+    "quest_id": 3070042,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 68066,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:410119 'Reel in a medium Toothy Tetra'",
+      "locale:407665 [item] 'Medium Toothy Tetra'",
+      "Resources/ClientItemDefinitions.json:1157719: item id 68066, NameId 407665",
+      "item-catalogue.json: definition 68066 has serialized bytes 4..8 = 407665"
+    ],
+    "confidence": "high",
+    "notes": "Exact size-qualified match. Quantity 1 is from the singular 'a medium Toothy Tetra'; the client sentence gives no numeric counter."
+  },
+  {
+    "quest_id": 3070049,
+    "objective": 6,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:410238 'Catch a platypus'",
+      "locale:99953 [item] 'Plattypus'",
+      "locale:407631 [item] 'Large Plattypus'",
+      "locale:407632 [item] 'Extra Large Plattypus'",
+      "Resources/ClientItemDefinitions.json:1157190: item id 68033, NameId 407631",
+      "Resources/ClientItemDefinitions.json:1157206: item id 68034, NameId 407632",
+      "item-catalogue.json: no definition has name id 99953"
+    ],
+    "confidence": "medium",
+    "notes": "The fish is spelled Plattypus in the item table. The objective gives no size, and only Large (68033) and Extra Large (68034) definitions exist; the generic name id 99953 has no item definition. A single id would invent a size."
+  },
+  {
+    "quest_id": 3080013,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:398273: scattered Fireworks must be recovered and brought to Squee",
+      "locale:399368 'Basic click objective to recover fireworks.'",
+      "locale:394627 'Beat the \\\"Guest of Honor\\\" minigame'",
+      "locale:7616 [item] 'Fireworks'",
+      "item-catalogue.json: no definition has name id 7616",
+      "locale:394790 [item] 'Fireworks Crate': unrelated placeable consumable (definitions 15915 and 57013)"
+    ],
+    "confidence": "high",
+    "notes": "Checked generic Fireworks, Party Fireworks, Fireworks Crate, and Fireworks Box. The quest is a click/recover minigame using world objects, not one catalogue Fireworks item. Do not bind the unrelated Fireworks Crate item."
+  },
+  {
+    "quest_id": 3080027,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:395756 'Take Chase Wheeler's parts all the way back to his kart'",
+      "locale:395755 'Return Chase Wheeler's parts to his kart'",
+      "locale:395182 'Click on Chase Wheeler's kart'",
+      "item-catalogue.json: no Chase Wheeler's parts item definition"
+    ],
+    "confidence": "high",
+    "notes": "This row is a delivery/transport interaction back to Chase Wheeler's kart, not a resource gather. The client also supplies an explicit click-on-kart objective. Model it as delivery/use/visit_position rather than gather_resource."
+  },
+  {
+    "quest_id": 3080038,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:395450 'Help Mirana Vega find her lost keys near Tangletrack Speedway.'",
+      "locale:395649 'Click on the Lost Keys to pick them up. Collect enough to complete the goal.'",
+      "locale:399066 'Find more Lost Keys'",
+      "locale:399068 'Find even more Lost Keys'",
+      "item-catalogue.json: no Lost Keys item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked Lost Keys item/title strings and the full item catalogue. This is a timed clickable-object collection (The Keys to Victory minigame), not a single item-definition resource. The same conclusion applies to objective 3."
+  },
+  {
+    "quest_id": 3080038,
+    "objective": 3,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:395269 'Find Mirana's lost keys before time runs out!'",
+      "locale:395649 'Click on the Lost Keys to pick them up. Collect enough to complete the goal.'",
+      "locale:399068 'Find even more Lost Keys'",
+      "item-catalogue.json: no Lost Keys item definition"
+    ],
+    "confidence": "high",
+    "notes": "This is the timer/minigame objective for the same clickable Lost Keys objects. There is no item definition to use as resource_id, and this should not be represented as a normal gather resource."
+  },
+  {
+    "quest_id": 3090004,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:76397 'Collect the fruits and vegetables Doctor Gordon has requested.'",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/medic.json:260: client source says ten of each requested type",
+      "autopilot-int/prototype/osfr-tools/data/content/quests/medic.json:268: current content uses visit_position and explicitly uses no gather_resource"
+    ],
+    "confidence": "high",
+    "notes": "Checked the multi-item harvest objective and current quest content. It is not a single item and harvesting is Chef-only in the current server, so the existing record intentionally uses a visit_position stand-in. If separately reconstructed, it needs ten of each type, not one resource_id."
+  },
+  {
+    "quest_id": 3090009,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:73371 'As a medic, get the Medical Supplies from the hooligans!'",
+      "locale:130636 [item] 'Medical Supplies'",
+      "locale:73368: Terrence describes the supplies as a shipment stored in the cellar",
+      "item-catalogue.json: no definition has name id 130636"
+    ],
+    "confidence": "high",
+    "notes": "Checked the Medical Supplies item label, quest text, and full catalogue. This is a quest-object shipment recovered from the cellar, but there is no item definition for name id 130636. It is collectable, not a talk or delivery at this step."
+  },
+  {
+    "quest_id": 3090017,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:74034 'As a medic, find the scattered Medical Records'",
+      "locale:74025: Snowhill Medical Records scattered around town",
+      "locale:74036 'Bring the pages to Mayor Crystalline'",
+      "item-catalogue.json: no Medical Records item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked object/title/item strings and the catalogue. The records are scattered quest pickups followed by a delivery to the mayor; there is no item id or numeric count to bind."
+  },
+  {
+    "quest_id": 3090019,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:74077 'Head to Arachnia's Lair in Briarwood and collect samples of spider venom.'",
+      "locale:74078 'As a medic, collect samples of venom'",
+      "item-catalogue.json: no Spider Venom item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked Spider Venom and general venom item names. The objective is a kill/collect event from spiders, but no item definition or count exists. Do not substitute Anti-Venom or unrelated Venom equipment."
+  },
+  {
+    "quest_id": 3090025,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:74774 'As a medic, collect boxes of stolen shock paddles'",
+      "locale:130672 [item] 'Box of Shock Paddles'",
+      "item-catalogue.json: no definition has name id 130672"
+    ],
+    "confidence": "high",
+    "notes": "Checked Box of Shock Paddles, Shock Paddles, and the catalogue. The noun is a quest-object box, not an inventory definition; no resource_id or count is recoverable. The client locale tag alone is not proof of an item definition."
+  },
+  {
+    "quest_id": 3090031,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:76128 'As a medic, collect samples of Ice Lotus'",
+      "locale:76127 'Collect Ice Lotus from the hills of Snowy Canyon, in Snowhill.'",
+      "item-catalogue.json: no Ice Lotus item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked Ice Lotus variants and the full catalogue. The quest describes harvesting sample nodes in Snowy Canyon, but no item definition or count exists; a harvest-node or interaction objective is required."
+  },
+  {
+    "quest_id": 3090032,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:76181 'As a medic, recover the Stolen Weapons'",
+      "locale:76193: quest text describes the stolen weapon crates",
+      "item-catalogue.json: no Stolen Weapons or weapon-crate quest item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked the Stolen Weapons wording and catalogue. The target is multiple quest weapon crates in the Trail of Betrayal; there is no single item definition or count, so this is an interaction/collectible objective."
+  },
+  {
+    "quest_id": 3110006,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:91928 'Collect Chloe's bags'",
+      "locale:91902 [item] 'Chloe's Bag'",
+      "locale:91937 'Bring the bags back to Chloe.'",
+      "item-catalogue.json: no definition has name id 91902"
+    ],
+    "confidence": "high",
+    "notes": "Checked Chloe's Bag and Chloe's Bag Starter. The bags are placement/pickup objects followed by a delivery to Chloe, but there is no item definition for name id 91902."
+  },
+  {
+    "quest_id": 3110009,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:90459 'Collect pollen from the bixie inhabitants of Bixie Hive.'",
+      "locale:90458 is a quest title: 'Collect harvested pollen!'",
+      "item-catalogue.json: no bixie-pollen or harvested-pollen item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked bixie pollen, harvested pollen, and the catalogue. The target has no standalone locale name id and no item definition; this is a Bixie Hive kill/harvest collection without a numeric count."
+  },
+  {
+    "quest_id": 3110021,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:91333 'Retrieve Ancient Evils: A User-Friendly Guide to Evil Artifacts from the crazy hermit.'",
+      "locale:139328: the book name is tagged quest_title, not item",
+      "item-catalogue.json: no Ancient Evils item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked the book text and catalogue. It is a one-off quest object retrieved through the hermit encounter, but the name id is a quest title and no item definition exists; do not treat the title id as an item id."
+  },
+  {
+    "quest_id": 3130005,
+    "objective": 5,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:104214 'Click on even more Dropped Mail bundles to pick them up.'",
+      "locale:21419: 'Dropped Mail' is a quest_title",
+      "item-catalogue.json: no Dropped Mail item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked Dropped Mail and Snowhill Dropped Mail. This is a clickable bundle collection in the mail-route minigame, not a catalogue item; no count is stated in this string."
+  },
+  {
+    "quest_id": 3130012,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:117067 'Collect the packages scattered around Merry Vale.'",
+      "locale:117068 'Complete the Merry Vale Package Pickup minigame'",
+      "item-catalogue.json: no generic package matching this quest; Gift Package and Fragile Package are unrelated"
+    ],
+    "confidence": "high",
+    "notes": "Checked the package strings and catalogue. The client makes this a package-pickup minigame followed by delivery; there is no single package item id or count. Do not substitute Gift Package (3762) or Fragile Package (3766)."
+  },
+  {
+    "quest_id": 3130028,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:130315 'Collect the mail from Shrouded Glade.'",
+      "locale:130319 'Complete the Beware of Dogs minigame'",
+      "item-catalogue.json: no Shrouded Glade Mail item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked Shrouded Glade mail and the catalogue. The collection is the Beware of Dogs minigame, with no item definition or numeric count."
+  },
+  {
+    "quest_id": 3130028,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:130318 'Collect the mail in Shrouded Glade, but watch out for those pesky pooches.'",
+      "locale:130319 'Complete the Beware of Dogs minigame'",
+      "item-catalogue.json: no Shrouded Glade Mail item definition"
+    ],
+    "confidence": "high",
+    "notes": "This is another wording of the same Shrouded Glade minigame collection. No mail item definition exists; model the minigame or object collection rather than gather_resource."
+  },
+  {
+    "quest_id": 3150024,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:94104 'Obtain a spirit container from the Haunted Mines in Blackspore'",
+      "locale:95007 [item] 'A Spirit Container'",
+      "item-catalogue.json: no definition has name id 95007"
+    ],
+    "confidence": "high",
+    "notes": "Checked A Spirit Container and the catalogue. The locale carries a quest-item label, but no item definition exists; it is an instance pickup/interaction and the text gives quantity 1."
+  },
+  {
+    "quest_id": 3150024,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:94106 'Collect magic sigils from Forest Troll Ritualists in the Forest Troll Fort near Forest Troll Village'",
+      "locale:94110: 'two magic sigils'",
+      "item-catalogue.json: no Magic Sigil item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked magic sigil variants and the catalogue. No item definition or standalone target-name id exists. Unlike the draft quantity, the client dialog explicitly says two magic sigils, so use quantity 2 if this is later bound."
+  },
+  {
+    "quest_id": 3160007,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:74821: Fizzlesticks asks the player to recover 'a few grenades' from Robgoblin Pondblasters",
+      "locale:391687 [item] 'Flabbergast Grenade' (definition 55849)",
+      "locale:37410 [item] 'Flabbergast Grenade 1' (definitions 3075 and 29943)",
+      "locale:391689 [item] 'Frost Grenade' (definition 55850)"
+    ],
+    "confidence": "medium",
+    "notes": "Checked all grenade definitions. The text says only 'grenades' and 'a few'; it neither names Flabbergast Grenade nor gives a count, and Frost Grenade is also defined. Binding 55849 would be a guess, so this needs a quest-object or explicit item/count source."
+  },
+  {
+    "quest_id": 3160008,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2880,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:74840 'Help restock Fizzlesticks' potion shop by harvesting ingredients.'",
+      "locale:23290 [item] 'Bundle of Sunleaf'",
+      "Resources/ClientItemDefinitions.json:53511: item id 2880, NameId 23290",
+      "item-catalogue.json: definition 2880 has serialized bytes 4..8 = 23290"
+    ],
+    "confidence": "high",
+    "notes": "Exact target supplied by the worklist and exact item definition. All three Market Wizards rows share the generic client sentence; the client does not state counts, so quantity 1 is the one-bundle-per-row interpretation."
+  },
+  {
+    "quest_id": 3160008,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2884,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:74840 'Help restock Fizzlesticks' potion shop by harvesting ingredients.'",
+      "locale:23294 [item] 'Bundle of Rainleaf'",
+      "Resources/ClientItemDefinitions.json:53575: item id 2884, NameId 23294",
+      "item-catalogue.json: definition 2884 has serialized bytes 4..8 = 23294"
+    ],
+    "confidence": "high",
+    "notes": "Exact target supplied by the worklist and exact item definition. The objective text is shared and gives no numeric count; quantity 1 is the one-bundle interpretation."
+  },
+  {
+    "quest_id": 3160008,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2882,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:74840 'Help restock Fizzlesticks' potion shop by harvesting ingredients.'",
+      "locale:23292 [item] 'Bundle of Punkin'",
+      "Resources/ClientItemDefinitions.json:53543: item id 2882, NameId 23292",
+      "item-catalogue.json: definition 2882 has serialized bytes 4..8 = 23292"
+    ],
+    "confidence": "high",
+    "notes": "Exact target supplied by the worklist and exact item definition. The objective text is shared and gives no numeric count; quantity 1 is the one-bundle interpretation."
+  },
+  {
+    "quest_id": 3160014,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:141679 'Get some mushroom soup from Chef Jarvie in Merry Vale.'",
+      "locale:141676 'Give the mushroom soup to Talespinner Yvelle'",
+      "item-catalogue.json: no Mushroom Soup item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked mushroom soup and the catalogue. This is an NPC fetch/talk interaction followed by delivery to Yvelle, not an item-definition gather; there is no soup item id."
+  },
+  {
+    "quest_id": 3160020,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:22365: collect Transfiguring Crystals from Changeling Arcanus in the Forgotten Caves",
+      "locale:24737: the Changeling Arcanus carry the transfiguring crystals and must be defeated",
+      "item-catalogue.json: no Transfiguring Crystal item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked Transfiguring Crystals, related quest text, and the catalogue. This is a kill/drop collection, but no item definition or count exists. It should not be wired to an arbitrary crystal item."
+  },
+  {
+    "quest_id": 3160025,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:388291: collect Poisondart Polliwog poison from toads in Blackspore Swamp",
+      "locale:383215 [npc_name] 'Poisondart Polliwog'",
+      "item-catalogue.json: no Poisondart Polliwog poison item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked Poisondart Polliwog, poison/toad item names, and the catalogue. The named Polliwog is the creature, not an item, and no poison item definition or count exists."
+  },
+  {
+    "quest_id": 3160025,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:388291: bring ice shards from Elemental Guardians on Misty Mountain",
+      "item-catalogue.json: no Ice Shard item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked Ice Shards, elemental drops, and the catalogue. No item definition or numeric count exists; this is a kill/drop objective."
+  },
+  {
+    "quest_id": 3160027,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:22325 'Retrieve the crystal from Azure's staff'",
+      "locale:22324: enter the Briar Patch and retrieve a summoning crystal from Azure",
+      "item-catalogue.json: no Summoning Crystal item definition"
+    ],
+    "confidence": "high",
+    "notes": "Checked Summoning Crystal and the catalogue. This is a boss-defeat/retrieval interaction from Azure's staff, not an item definition; no resource_id can be assigned."
+  },
+  {
+    "quest_id": 3160029,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:115840 'As a wizard, get some spider web from Arachnia in Arachnia's Lair.'",
+      "locale:103279 'Spider Web' is tagged other, not item",
+      "locale:76322 'Defeat Queen Arachnia'",
+      "item-catalogue.json: only the unrelated Spider Web Stand-Up item (17750) exists"
+    ],
+    "confidence": "high",
+    "notes": "Checked Spider Web, Mammoth Spider Web, Spider Web Stand-Up, and the catalogue. The quest is a boss drop/interaction from Arachnia; no quest Spider Web item definition exists. Do not bind the furniture item Spider Web Stand-Up."
+  }
+]

@@ -1,0 +1,562 @@
+[
+ {
+  "quest_id": 3000001,
+  "quest": "q3000001",
+  "title": "Basic Combat Tutorial",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 4419584,
+  "text": "Save the chugawug guards",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 4419584
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000003,
+  "quest": "q3000003",
+  "title": "Hero's Journal",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 4419602,
+  "text": "Interact with the Hero's Journal",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 4419602
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000003,
+  "quest": "q3000003",
+  "title": "Hero's Journal",
+  "objective": 3,
+  "kind": "client_reported",
+  "text_string_id": 4419604,
+  "text": "Close the Hero's Journal",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 4419604
+  },
+  "gap": "objective 3: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000012,
+  "quest": "q3000012",
+  "title": "Pull the Plug",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 4420102,
+  "text": "Destroy the Gloam Artifacts to weaken the blockade.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 4420102
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000038,
+  "quest": "q3000038",
+  "title": "Chapter 1: The Armor Shipment",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 90867,
+  "text": "Complete the armor testing for Quartermaster Bargangle",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90867
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000046,
+  "quest": "q3000046",
+  "title": "Chapter 1: Failure is Not an Option",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90927,
+  "text": "Get the contents of the box back for Geoffrey.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90927
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000050,
+  "quest": "q3000050",
+  "title": "Chapter 1: The Queen's Last Hope",
+  "objective": 4,
+  "kind": "client_reported",
+  "text_string_id": 90982,
+  "text": "Administer the antidote to Queen Valerian",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90982
+  },
+  "gap": "objective 4: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000054,
+  "quest": "q3000054",
+  "title": "Royally Thirsty Mushrooms",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 389992,
+  "text": "Click the pail of water next to Guard Reli",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 389992
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000054,
+  "quest": "q3000054",
+  "title": "Royally Thirsty Mushrooms",
+  "objective": 3,
+  "kind": "client_reported",
+  "text_string_id": 389987,
+  "text": "Water the potted mushrooms around Briarheart before time runs out!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 389987
+  },
+  "gap": "objective 3: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000055,
+  "quest": "q3000055",
+  "title": "Lucky's Lost Coin",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 5100428,
+  "text": "While wearing Lucky's hat search Sacred Grove for one of his golden pots.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 5100428
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000056,
+  "quest": "q3000056",
+  "title": "Another Day Another Coin",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 5100417,
+  "text": "Lucky needs your help to find his lucky coin. While wearing his lucky hat search Sacred Grove for one of his golden pots.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 5100417
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000058,
+  "quest": "q3000058",
+  "title": "Lucky's Last Chance",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 5100425,
+  "text": "Lucky needs your help to find his lucky coin. While wearing his lucky hat search Sacred Grove for one of his golden pots.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 5100425
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3000323,
+  "quest": "q3000323",
+  "title": "Testing the Tour",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 93454,
+  "text": "Answer Brenna's questions correctly",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 93454
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3010006,
+  "quest": "q3010006",
+  "title": "Archer: Oath of Honor",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 77068,
+  "text": "Carve your name into the tree stump",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 77068
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3010011,
+  "quest": "q3010011",
+  "title": "Archer: Pondblaster Payback",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 383181,
+  "text": "Use your Explosive Arrows on the Robgoblin Pondblasters to the north. That will teach them!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 383181
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3010022,
+  "quest": "q3010022",
+  "title": "Archer: Animal Investigation",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 77844,
+  "text": "Catch a smuggler in the act at Durango Zoo",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 77844
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3020011,
+  "quest": "q3020011",
+  "title": "Blacksmith: Hammer Quality",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 430786,
+  "text": "Interact with the Practice Dummy",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 430786
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3020030,
+  "quest": "q3020030",
+  "title": "Blacksmith: Legendary Summersaber",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 101604,
+  "text": "As a Blacksmith, find an anvil and forge the legendary blade, Summersaber. Then show your work to Anata.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 101604
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3030002,
+  "quest": "q3030002",
+  "title": "The \"Hands On\" Method",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 45320,
+  "text": "Click the gate near Ashley to start the fight",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 45320
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3030010,
+  "quest": "q3030010",
+  "title": "Brawler: Hewey's Escape!",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 115551,
+  "text": "Click on the gate to Hewey's Escape that's east of Harold to start the battle!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 115551
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3030015,
+  "quest": "q3030015",
+  "title": "Brawler: Graveyard Grumble",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 116930,
+  "text": "Click on the gate to the Cursed Graveyard",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 116930
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3040007,
+  "quest": "q3040007",
+  "title": "Card Duelist: Cardie 4 Life",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 103548,
+  "text": "Check the bulletin board next to Sam Potts to see who she was supposed to play in the tournament.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 103548
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3040010,
+  "quest": "q3040010",
+  "title": "Card Duelist: Poe's Planted Cards",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 103669,
+  "text": "Search the yellow potted plants in Sanctuary to find Poe's hidden cards.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 103669
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050002,
+  "quest": "q3050002",
+  "title": "Stewing to Success",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 42180,
+  "text": "Click on the Hay Pile next to Cookie's wagon to start harvesting!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 42180
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050004,
+  "quest": "q3050004",
+  "title": "Cooking 101",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 430999,
+  "text": "Interact with the Cooking Table",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 430999
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050004,
+  "quest": "q3050004",
+  "title": "Cooking 101",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 424800,
+  "text": "Use arrow keys to move around.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 424800
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050008,
+  "quest": "q3050008",
+  "title": "Chef: Package Recovery!",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 100539,
+  "text": "Click on Jonelle's Mailbag next to Jonelle to start recovering her stolen packages.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 100539
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050012,
+  "quest": "q3050012",
+  "title": "Chef: Fireworks Frenzy!",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 115584,
+  "text": "Click on the Crate of Fireworks next to Ranger Ricardo to start collecting the piles of fireworks that have been scattered around Highroad Junction.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 115584
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050014,
+  "quest": "q3050014",
+  "title": "Chef: Snowy Treats",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 139230,
+  "text": "Click on the Harvesting Tools",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 139230
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050014,
+  "quest": "q3050014",
+  "title": "Chef: Snowy Treats",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 139231,
+  "text": "Click on any of the stacks of Harvesting Tools behind Perry to start harvesting.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 139231
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050015,
+  "quest": "q3050015",
+  "title": "Chef: Stillwater Inn",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 116919,
+  "text": "Click on the Cooking Table in front of Helena to start cooking up some Spiralmint Steak.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 116919
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050017,
+  "quest": "q3050017",
+  "title": "Chef: Harvest Hiccup!",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 116948,
+  "text": "Click on the Basket of Ingredients next to Gavin to start collecting his scattered ingredients.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 116948
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3050027,
+  "quest": "q3050027",
+  "title": "Chef: Double Dog Dare",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 72564,
+  "text": "Better ingredients make better eats! At least once while making Fried Starnut Stick, smash a fruit perfectly!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 72564
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3070006,
+  "quest": "q3070006",
+  "title": "Fisherman: So A-Luring",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 408632,
+  "text": "Buy a lure from Guppie",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 408632
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3070021,
+  "quest": "q3070021",
+  "title": "Fisherman: Ink Cod Ink",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 409336,
+  "text": "Pour the ink into Brambleback's Bayou",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 409336
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3070023,
+  "quest": "q3070023",
+  "title": "Fisherman: Undercover",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 409470,
+  "text": "Listen for information",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 409470
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3080005,
+  "quest": "q3080005",
+  "title": "Kart Driver: Even the Odds",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 394229,
+  "text": "Scare off Linx's pit crew with their own bombs",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 394229
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3080005,
+  "quest": "q3080005",
+  "title": "Kart Driver: Even the Odds",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 394372,
+  "text": "Click on the toolbox",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 394372
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3080008,
+  "quest": "q3080008",
+  "title": "Kart Driver: You Want to Go Fast?",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 394403,
+  "text": "Click on the Crystal Collection",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 394403
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3080013,
+  "quest": "q3080013",
+  "title": "Kart Driver: Guest of Honor",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 394625,
+  "text": "Click on the fireworks cart",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 394625
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ }
+]

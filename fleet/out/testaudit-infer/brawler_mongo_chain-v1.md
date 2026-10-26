@@ -1,0 +1,21 @@
+<!-- fleet job=testaudit-infer id=brawler_mongo_chain-v1 status=done turns=6 usd=0.0055 tokens(read,write,in,out)=[76587, 21848, 14, 4094] model=claude-haiku-5-5 -->
+# tests/brawler_mongo_chain.rs
+
+{"file": "tests/brawler_mongo_chain.rs",
+ "tests": [
+  {"name": "carlos_offers_bringing_back_brazenfist_only_to_brawlers", "verdict": "keep", "covered_by": null, "reason": "Class-gated quest offer for the Brawler content; only check of Carlos's brawler-only offer. Similar warrior test covers a different NPC and quest line."},
+  {"name": "the_brawling_ring_gate_starts_the_mongo_battle", "verdict": "keep", "covered_by": null, "reason": "Only check that gate 26/8 opens battle 12400 (41/114, 41/107, battle id) for this content; no other file drives this gate."},
+  {"name": "the_mongo_win_completes_bringing_back_brazenfist_once", "verdict": "keep", "covered_by": null, "reason": "Battle-win quest completion and single payout for C1; unique to this battle and quest pair."},
+  {"name": "honor_lost_requires_the_first_quest_and_reuses_the_fight", "verdict": "keep", "covered_by": null, "reason": "Prerequisite gating for the second quest and reuse of the same battle; unique content path."},
+  {"name": "refusals_and_replay_change_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal/replay check (forged accepts, wrong NPC, out-of-range gate, replayed turn-in, non-Brawler session) asserting byte-identical saves. Same template as warrior_entry_chain.rs::refusals_and_replay_change_nothing but over different NPCs, gate and quests; refusal tests are not removed without an equal named match."},
+  {"name": "the_battle_and_quest_content_load_with_real_targets", "verdict": "keep", "covered_by": null, "reason": "Content-binding check of battle 12400, quest records and spawn rows against real locale/model tables; the warrior analogue checks different rows."},
+  {"name": "the_fight_survives_a_reconnect_mid_battle", "verdict": "keep", "covered_by": null, "reason": "Persistence check across reconnect during the Mongo battle; not shown elsewhere for this battle."},
+  {"name": "the_gate_spawner_is_visible_to_a_second_session", "verdict": "keep", "covered_by": null, "reason": "Checks the gate AddNpc is identical for two sessions (no per-player state). Resembles warrior_entry_chain.rs::the_new_spawns_are_visible_to_a_second_session but asserts the gate's 35/2 body and identity, not the same actors; not clearly duplicate."},
+  {"name": "a_failed_quest_event_for_one_player_does_not_stop_the_other", "verdict": "keep", "covered_by": null, "reason": "Isolation check across two players. shared_field_kill_quest_credit.rs has a similarly named test but drives a field-kill credit path, not this battle-win path."},
+  {"name": "a_loss_or_retry_does_not_credit_the_completion", "verdict": "keep", "covered_by": null, "reason": "Negative credit check (loss/retry pays nothing) for this battle; a refusal-type canary for payout."},
+  {"name": "two_players_win_separately_and_credit_only_themselves", "verdict": "keep", "covered_by": null, "reason": "Per-player credit isolation for this battle win; not shown elsewhere for this content."},
+  {"name": "a_replayed_close_or_results_packet_does_not_double_count", "verdict": "keep", "covered_by": null, "reason": "Replay/double-count guard on results close for this battle; security-type check, kept."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "Based on the excerpt, the test list, and direct reads of brawler refusals/second-session tests versus warrior_entry_chain.rs (T257 sibling built from the same template). Structure is shared with warrior_entry_chain.rs, so some helper-level overlap exists, but the battle path (field battle 12400, gate 35/2, results close, loss/retry) is not exercised by the similar files I was given (shared_field_kill_quest_credit.rs covers field kills, bandit_hideout_dungeon.rs covers a different dungeon). I did not read every test body (only refusals, the content-load prefix, and the second-session test), so the per-test verdicts for the battle tests rest on names and the excerpt. Candidate for a later pass: a shared-template helper consolidation between brawler_mongo_chain.rs and warrior_entry_chain.rs rather than removal."}

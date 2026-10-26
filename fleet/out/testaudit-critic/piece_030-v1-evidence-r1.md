@@ -1,0 +1,4 @@
+<!-- fleet job=testaudit-critic id=piece_030-v1-evidence-r1 status=done turns=1 usd=0.0022 tokens(read,write,in,out)=[0, 13304, 4, 1084] model=claude-haiku-5-5 -->
+# tests/piece_030.rs
+
+{"pass": true, "wireable": true, "score": 8, "problems": [], "notes": "The audit issues no removal verdicts. All 20 tests in the pack are marked keep, and the audit covers all 20 names, so no removal needs a covering test. whole_file_removable=false is correct. Keeping is the safe direction under the lens, so the audit passes. The restart_round_trip keep rationale is hedged ('not clearly the same path'), but keeping it costs nothing. Minor gap: the audit's uniqueness claims for the gate-negative tests were not checked against other files, but they only matter if a removal is proposed, and none is. The #[path] wiring claim was not verified. That does not affect the verdicts."}

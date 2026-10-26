@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=willow-slamdash-1-A2kA-ji8PFs-00176 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3150, 4, 1046] model=claude-haiku-5-5 -->
+# Willow Slamdash A2kA_ji8PFs 176s
+
+{"screen": "minigame", "target": {"name": "Willow Slamdash", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 7, "job": "Demo Derby Driver", "health_fraction": null}, "target_defeated": false, "notes": "Wildwood Demo Derby kart race (1:13 left, 2nd of 8). Willow Slamdash's name is partly visible at left above a bar, but the bar is overlapped and its fill cannot be read reliably, and the level is not shown; these values are left null. Top-right DAMAGE/BOOST bars are vehicle gauges, not the target's health. Nina the Wrecker knocked out Mikko Kagemitter in the feed."}

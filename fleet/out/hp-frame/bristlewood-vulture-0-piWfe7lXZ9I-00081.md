@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bristlewood-vulture-0-piWfe7lXZ9I-00081 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3153, 4, 840] model=claude-haiku-5-5 -->
+# Bristlewood Vulture piWfe7lXZ9I 81s
+
+{"screen": "dialog_or_menu", "target": {"name": "Bristlewood Vulture", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": true}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Meagan Wolfchampion", "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Frame does not look like Free Realms: it shows a different game UI (friends list, chat-option bubble, 'Card Duelist' title, dragon mount) with a chat being typed. 'Bristlewood Vulture' appears only as a faint name with a red marker and distance, likely a tracker label; no health bar is legible."}

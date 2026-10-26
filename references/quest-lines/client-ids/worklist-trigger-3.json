@@ -1,0 +1,380 @@
+[
+ {
+  "quest_id": 3120023,
+  "quest": "q3120023",
+  "title": "Pet Trainer: Shake Your Groove Thing",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90099,
+  "text": "Use the trick game to train your pet to do the trick &quot;Dance&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90099
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120025,
+  "quest": "q3120025",
+  "title": "Pet Trainer: Nearly Departed",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90107,
+  "text": "Use the trick game to train your pet to do the trick &quot;Play Dead&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90107
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3120026,
+  "quest": "q3120026",
+  "title": "Pet Trainer: Show Off!",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 90111,
+  "text": "Have your pet perform the following tricks: &quot;Speak&quot;, &quot;Handstand&quot;, &quot;Play Dead&quot;, and &quot;Dance&quot;.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 90111
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130003,
+  "quest": "q3130003",
+  "title": "Can You Deliver?",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 103840,
+  "text": "Click the mailboxes to deliver the mail.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 103840
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130004,
+  "quest": "q3130004",
+  "title": "Postman: Mail Marksman",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 103921,
+  "text": "Deliver the mail in Sanctuary using your mail toss ability.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 103921
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130006,
+  "quest": "q3130006",
+  "title": "Postman: It's a Postal Disaster!",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 431105,
+  "text": "Interact with the Dropped Mail in the inner circle of sanctuary to pick it up for Flitter.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 431105
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130009,
+  "quest": "q3130009",
+  "title": "Postman: Special Delivery",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 115055,
+  "text": "Use your Bust-A-Move ability to deliver dancing telegrams.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 115055
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130009,
+  "quest": "q3130009",
+  "title": "Postman: Special Delivery",
+  "objective": 3,
+  "kind": "client_reported",
+  "text_string_id": 115053,
+  "text": "Deliver dancing telegrams.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 115053
+  },
+  "gap": "objective 3: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130014,
+  "quest": "q3130014",
+  "title": "Postman: And the Winner Is...",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 117174,
+  "text": "Pick a winner for the contest in Merry Vale.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 117174
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130014,
+  "quest": "q3130014",
+  "title": "Postman: And the Winner Is...",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 117175,
+  "text": "Pick a winning entry from the box",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 117175
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130024,
+  "quest": "q3130024",
+  "title": "Postman: What a Mess!",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 130269,
+  "text": "Help Loryn clean up the mail mess in Snowhill.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 130269
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130025,
+  "quest": "q3130025",
+  "title": "Postman: A Plea for Help",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 130287,
+  "text": "Sort the mail for Loryn in Snowhill.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 130287
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130026,
+  "quest": "q3130026",
+  "title": "Postman: Biting Back",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 130747,
+  "text": "Use your Mail-Morph ability to turn into a wolf and then click on the PCA Tricksters when you're close enough.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 130747
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130026,
+  "quest": "q3130026",
+  "title": "Postman: Biting Back",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 130746,
+  "text": "Terrorize the Tricksters",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 130746
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130026,
+  "quest": "q3130026",
+  "title": "Postman: Biting Back",
+  "objective": 3,
+  "kind": "client_reported",
+  "text_string_id": 130299,
+  "text": "Bite those PCA postman and get the Snowhill mail through!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 130299
+  },
+  "gap": "objective 3: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3130029,
+  "quest": "q3130029",
+  "title": "Postman: Mile High Mail",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 130389,
+  "text": "Sort the ever growing stack of mail in Shrouded Glade.",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 130389
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140006,
+  "quest": "q3140006",
+  "title": "Soccer Star: The Perfect Mascot",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 414965,
+  "text": "Pick out an energetic and friendly mascot",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 414965
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140014,
+  "quest": "q3140014",
+  "title": "Soccer Star: Mascot Madness",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 406977,
+  "text": "Use your &quot;Mascot Madness&quot; ability to dress up as your team's mascot, a husky, and deliver some fliers to some fans in Snowhill!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 406977
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140022,
+  "quest": "q3140022",
+  "title": "Soccer Star: Returning The Trophy",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 406615,
+  "text": "Distract the Robgoblins with your &quot;Something Shiny&quot; ability so you can retrieve the tournament trophy!",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 406615
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140027,
+  "quest": "q3140027",
+  "title": "Soccer Star: Ants In The Pants",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 402792,
+  "text": "Find something to distract the Cheetahs",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 402792
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140027,
+  "quest": "q3140027",
+  "title": "Soccer Star: Ants In The Pants",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 403001,
+  "text": "Pour ants on Lika",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 403001
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140027,
+  "quest": "q3140027",
+  "title": "Soccer Star: Ants In The Pants",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 407369,
+  "text": "Pour ants on Kronk",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 407369
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140027,
+  "quest": "q3140027",
+  "title": "Soccer Star: Ants In The Pants",
+  "objective": 3,
+  "kind": "client_reported",
+  "text_string_id": 407371,
+  "text": "Pour ants on Grick",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 407371
+  },
+  "gap": "objective 3: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140028,
+  "quest": "q3140028",
+  "title": "Soccer Star: Robgoblin Troublemakers",
+  "objective": 0,
+  "kind": "client_reported",
+  "text_string_id": 402826,
+  "text": "Use the taunt emote on Lika",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 402826
+  },
+  "gap": "objective 0: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140028,
+  "quest": "q3140028",
+  "title": "Soccer Star: Robgoblin Troublemakers",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 403034,
+  "text": "Use the taunt emote on Kronk",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 403034
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3140028,
+  "quest": "q3140028",
+  "title": "Soccer Star: Robgoblin Troublemakers",
+  "objective": 2,
+  "kind": "client_reported",
+  "text_string_id": 403036,
+  "text": "Use the taunt emote on Grick",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 403036
+  },
+  "gap": "objective 2: client_reported trigger needs a client id from the decompile"
+ },
+ {
+  "quest_id": 3160012,
+  "quest": "q3160012",
+  "title": "Wizard: An Icy Mistake",
+  "objective": 1,
+  "kind": "client_reported",
+  "text_string_id": 74858,
+  "text": "Why are you still here? You're gonna stand around and let poor Yaren freeze to death?<BR><BR>Here, this Flame Orb should melt that ice.  Now, shoo... shoo...",
+  "draft": {
+   "kind": "client_reported",
+   "text_string_id": 74858
+  },
+  "gap": "objective 1: client_reported trigger needs a client id from the decompile"
+ }
+]

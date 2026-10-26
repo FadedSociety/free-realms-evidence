@@ -1,0 +1,18 @@
+<!-- fleet job=testaudit-infer id=game_rules-v1 status=done turns=3 usd=0.0038 tokens(read,write,in,out)=[26243, 17230, 8, 2803] model=claude-haiku-5-5 -->
+# tests/game_rules.rs
+
+{"file": "tests/game_rules.rs",
+ "tests": [
+  {"name": "default_policy_is_member_and_permissive_until_configured", "verdict": "keep", "covered_by": null, "reason": "Pins the default permissive policy for every member feature and global gate; no similar test in the compared files drives GameRuleSet::default()."},
+  {"name": "nonmember_and_expired_member_are_denied_membership_gates", "verdict": "keep", "covered_by": null, "reason": "Refusal check: nonmembers and expired members are denied every member feature, with the exact expiry boundary at 100. Nothing in the compared files covers this boundary."},
+  {"name": "configured_global_toggles_trials_and_quest_limits_are_applied", "verdict": "keep", "covered_by": null, "reason": "Asserts configured toggles, trial cooldowns, quest limits and card-trade flags together. It is the only check of these gate combinations in the compared files."},
+  {"name": "typed_chat_uses_account_flags_and_the_configured_environment_exception", "verdict": "keep", "covered_by": null, "reason": "Covers the underage/open-chat account flags and the china_environment exception, which is a refusal and policy check with no equivalent elsewhere in the compared files."},
+  {"name": "account_info_values_encode_member_and_nonmember_records", "verdict": "keep", "covered_by": null, "reason": "Pins the OnAccountInfo callback bytes for member, nonmember and expired records. login.rs uses a different layer (login reply byte 6 and max characters) and does not check these callback values directly, so it is not a duplicate."},
+  {"name": "membership_wire_messages_match_native_reader_layouts", "verdict": "keep", "covered_by": null, "reason": "Byte-exact wire canary for the membership activation encoder, tied to the native reader layout. No other compared file tests encode_membership_activation."},
+  {"name": "membership_subscription_info_matches_the_native_reader", "verdict": "keep", "covered_by": null, "reason": "Byte-exact wire canary for encode_membership_subscription_info, covering all four bool combinations. The L048 notes show it catches a regression. Not covered elsewhere."},
+  {"name": "card_trade_flag_tree_encodes_both_native_integer_modes", "verdict": "keep", "covered_by": null, "reason": "Byte-exact encoding check for both Compact and NetworkByteOrder integer modes. No equivalent in the compared files."},
+  {"name": "captured_self_account_flags_round_trip_without_disclosing_identity", "verdict": "keep", "covered_by": null, "reason": "Ignored private-capture test that round-trips the account flags through parse_self/build_self. Its build_self equality is probably also asserted by startup_selfdata::private_self_capture_rebuilds_identically, which I did not fully read, so this could be superseded. Kept under the conservative rule."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "No test is clearly redundant. Two points to check: (1) The pack excerpt calls encode_membership_activation(true) with one argument, but the repo file at lines 184-195 calls encode_membership_activation(0x1234, true/false) with two. The excerpt looks stale, and I judged the repo version. Also src/game_rules.rs:294 takes (kind: i16, is_member). (2) captured_self_account_flags_round_trip... overlaps in part with startup_selfdata::private_self_capture_rebuilds_identically; the full body of that test was not read. Login.rs covers the login-reply membership byte, not the encoder bytes, so it is not a duplicate."}

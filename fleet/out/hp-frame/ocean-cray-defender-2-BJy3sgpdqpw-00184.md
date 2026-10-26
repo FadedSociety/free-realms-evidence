@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-2-BJy3sgpdqpw-00184 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 1110] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 184s
+
+{"screen": "combat", "target": {"name": "Cray Defender", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2735, "on": "target", "color": "yellow"}, {"value": 216, "on": "target", "color": "red"}, {"value": 20, "on": "target", "color": "orange"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Combat in Cray Caves; the name 'Cray Defender' is only partly legible behind the top banner and no enemy health bar is readable, so the target's health and level are null."}

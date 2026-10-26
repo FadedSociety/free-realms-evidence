@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-verda-0-FiWCkh0St38-00428 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3148, 4, 1033] model=claude-haiku-5-5 -->
+# Queen Verda FiWCkh0St38 428s
+
+{"screen": "combat", "target": {"name": "Queen Verda", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -1867, "on": "target", "color": "yellow"}, {"value": 11245, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Queen Verda's boss bar at top is full red; yellow damage numbers (-1867, 11245) over the melee with the player and nearby characters. Level and exact bar values are not legible."}

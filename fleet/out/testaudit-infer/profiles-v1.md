@@ -1,0 +1,18 @@
+<!-- fleet job=testaudit-infer id=profiles-v1 status=done turns=2 usd=0.0034 tokens(read,write,in,out)=[11123, 18924, 6, 1926] model=claude-haiku-5-5 -->
+# tests/profiles.rs
+
+{"file": "tests/profiles.rs",
+ "tests": [
+  {"name": "class_unlock_selection_activation_and_restart_retain_equipment", "verdict": "keep", "covered_by": null, "reason": "Only test driving unlock, select-refusal-when-locked, activation packet bytes and restart restore of equipment for profiles. Neighbouring files (inventory.rs, login.rs) cover inventory and identity, not class selection."},
+  {"name": "experience_updates_only_selected_class_and_overflow_does_not_change_state", "verdict": "keep", "covered_by": null, "reason": "Pins that XP lands only on the selected class, that upgrade-star field is not raw XP, and that overflow refuses without changing state. Overflow-refusal is a refusal check; no equivalent elsewhere in the repo (kart_rewards.rs experience tests concern other job paths)."},
+  {"name": "snapshot_rejects_unknown_locked_or_unsupported_classes", "verdict": "keep", "covered_by": null, "reason": "Hostile-input refusal on snapshot load (unknown, locked, XP on locked class, bad version). Refusal check with no equally strong duplicate found."},
+  {"name": "native_experience_updates_have_exact_fields_and_rank_notification_precedes_update", "verdict": "keep", "covered_by": null, "reason": "Exact byte layout of native XP update packets and ordering of the rank notification before the update; only test of this packet shape in the repo."},
+  {"name": "profile_proofs_and_field_bounds_reject_corruption", "verdict": "keep", "covered_by": null, "reason": "Corruption/proof refusal: out-of-bounds offsets and bad sha256 must fail load. Security-style refusal check; not duplicated elsewhere."},
+  {"name": "gender_and_class_splices_preserve_unowned_bytes_and_reject_unproved_input", "verdict": "keep", "covered_by": null, "reason": "Asserts unowned bytes are preserved across gender/class splices and that unproved input is refused. Refusal plus byte-preservation; keep."},
+  {"name": "private_all_opening_starters_and_fresh_identity_survive_activation_and_restore", "verdict": "keep", "covered_by": null, "reason": "Ignored private-content test (needs OSFR_OPENING_CONTENT). Exercises the full starter/activation/restore/identity-refusal chain across all opening classes; opening_gateway.rs private test covers gateway flow, not this profile-level chain. Keep; not verifiable as duplicate without private files."},
+  {"name": "class_selection_without_class_content_is_refused_and_keeps_the_save", "verdict": "keep", "covered_by": null, "reason": "Regression guard for a panic (c90ed46 review blocker 3) on a contentless pack; asserts silent refusal and unchanged snapshot. Canary/refusal check; nothing equivalent found elsewhere."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.75,
+ "notes": "Every test here is a profile-specific check (class unlock/select, XP overflow and packet layout, snapshot refusal, proof corruption, gender/class splice byte preservation, a private-content chain, and a contentless-pack regression guard). Searching the repo for the same functions (add_experience, patch_self on profiles, stage_job_selection, class selection) found only the other profile-adjacent files (kart_rewards.rs, l052_staff_jobs.rs, opening_journal.rs, quests.rs) that exercise different engines (kart rewards, staff jobs, journal, quest templates), not profile selection or XP packets. The five similar files (housing_service, piece_032, npc_interaction, inventory, login) share vocabulary but not these paths. Nothing removable; the one ignored private test depends on OSFR_OPENING_CONTENT and was not run here."
+}

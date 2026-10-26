@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=willow-slamdash-0-A2kA-ji8PFs-00076 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3150, 4, 751] model=claude-haiku-5-5 -->
+# Willow Slamdash A2kA_ji8PFs 76s
+
+{"screen": "minigame", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 7, "job": "Demo Derby Driver", "health_fraction": null}, "target_defeated": false, "notes": "Wildwood Demo Derby racing minigame (2:53 left, 5th of 8). Kill feed reads 'Nina the Wrecker has knocked out Willow Slamdash', but no car is labelled Willow Slamdash on screen, so no health bar can be read for the picked enemy. The top-right DAMAGE meter is the car's damage gauge, not an enemy health bar."}

@@ -1,0 +1,8 @@
+<!-- fleet job=testaudit-infer id=client_overlay-v1 status=done turns=2 usd=0.0017 tokens(read,write,in,out)=[4402, 8540, 6, 1181] model=claude-haiku-5-5 -->
+# tests/client_overlay.rs
+
+{"file": "tests/client_overlay.rs",
+ "tests": [{"name": "python_client_overlay_is_pinned_and_byte_identical", "verdict": "keep", "covered_by": null, "reason": "Thin wrapper that runs the Python suite tests/test_client_overlay.py (2 tests) as the only cargo-run path for the L024 client overlay (scripts/bundle/client_overlay.py) pin and byte-identical install check. It is a canary target (T444 notes name client_overlay.py edits as canary A). The nearest overlap, launcher/tests/patch.rs::client_overlay_lands_byte_identical, is #[ignore]d and needs the lab cache, so it does not cover this path on every merge. Its pin/install assertions are not duplicated by bundle_client_overlay.rs, which exercises make_bundle.copy_client_overlay (a different path: bundle, not the harness install), or by creator_allow_list.rs, which only calls install and checks the login allow-list."}],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "Same wrapper pattern as tests/bundle_client_overlay.rs (T575), which runs test_bundle_client_overlay.py; the two cover different Python files and paths. Unverified: test_client_overlay.py may pass vacuously if it lacks the lab-cache skip that test_bundle_client_overlay.py has (skipUnless on client_overlay.CACHE). I did not read it, so this wrapper's strength depends on that. Consider checking that file before any change. Nothing here is a redundancy to remove."}

@@ -1,0 +1,82 @@
+[
+ {
+  "npc_id": 9500000811,
+  "name": "Cragara",
+  "zone": "Sunstone Valley",
+  "position": [
+   130.87897,
+   28.729305,
+   290.85706
+  ],
+  "heading": -0.0971219953,
+  "model": "sogg_f_vendor.adr",
+  "model_id": 4103,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+  "near_zone": "Snowhill",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000821,
+  "name": "Golmie Greasebeard",
+  "zone": "Sunstone Valley",
+  "position": [
+   473.0612,
+   65.21813,
+   1743.415
+  ],
+  "heading": 0.024154,
+  "model": "dwarf_engineer.adr",
+  "model_id": 3954,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2509",
+  "near_zone": "Shrouded Glade",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000844,
+  "name": "Quetzalcoatl",
+  "zone": "Sunstone Valley",
+  "position": [
+   670.818,
+   86.87835,
+   2241.3074
+  ],
+  "heading": -1.17306138,
+  "model": "drake_m_boss.adr",
+  "model_id": 3994,
+  "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4252",
+  "near_zone": "Sunstone Valley",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9000000186,
+  "name": "Rumble King Don",
+  "zone": "Sunstone Valley",
+  "position": [
+   414.9147,
+   74.74953,
+   1822.205
+  ],
+  "heading": 2.656586,
+  "model": "dwarf_m_rumblekingdon.adr",
+  "model_id": 4219,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3365",
+  "near_zone": "Shrouded Glade",
+  "quests_waiting": []
+ },
+ {
+  "npc_id": 9500000858,
+  "name": "Starlight",
+  "zone": null,
+  "position": [
+   986.8932,
+   17.69587,
+   1251.908
+  ],
+  "heading": -1.615667,
+  "model": "horse_m.adr",
+  "model_id": 2099,
+  "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2685",
+  "near_zone": null,
+  "quests_waiting": []
+ }
+]

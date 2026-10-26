@@ -1,0 +1,22 @@
+<!-- fleet job=testaudit-infer id=trade-v1 status=no_submit turns=3 usd=0.0046 tokens(read,write,in,out)=[29382, 20454, 8, 3435] model=claude-haiku-5-5 -->
+# tests/trade.rs
+
+```json
+{"file": "tests/trade.rs",
+ "tests": [
+  {"name": "items_and_coins_swap_exactly_and_close_both_windows", "verdict": "keep", "covered_by": null, "reason": "Only test that checks exact item and coin deltas on both sides, the settlement record, and the closing status bytes together. player_trade.rs::item_for_coins_settlement_has_exact_deltas is similar but I did not confirm it asserts the same wire statuses."},
+  {"name": "builders_match_native_trade_reader_layouts", "verdict": "keep", "covered_by": null, "reason": "Pins byte layouts of the outgoing trade packets (lengths, sub-opcodes, field offsets). Not covered by the piece_085.rs wire tests, which exercise a separate restoration module (src/restoration/piece_085.rs) and are not registered in the crate."},
+  {"name": "offer_change_after_lock_clears_locks_and_prior_acceptance", "verdict": "superseded", "covered_by": "tests/player_trade.rs::a_changed_offer_resets_both_locks_and_both_accepts", "reason": "Same path: changing an offer after lock clears both locks and acceptances. trade.rs additionally checks AcceptTooEarly and NotBothLocked, so the superseded verdict is moderate confidence; the player_trade test was not read in full."},
+  {"name": "untradable_unowned_and_over_quantity_items_are_rejected", "verdict": "keep", "covered_by": null, "reason": "Refusal check for no-trade, equipped, unowned and over-quantity items, with no mutation. No exact counterpart found in the similar files."},
+  {"name": "full_bag_rejects_exchange_without_mutating_either_inventory", "verdict": "superseded", "covered_by": "tests/player_trade.rs::a_full_bag_or_an_overfull_stack_cancels_before_any_settlement", "reason": "Same path: a full bag blocks settlement and leaves inventories unchanged. Moderate confidence, since the player_trade test was not read in full."},
+  {"name": "cancel_and_disconnect_close_without_changing_inventories", "verdict": "superseded", "covered_by": "tests/player_trade.rs::a_client_cancel_closes_both_windows_and_a_replay_does_nothing", "reason": "Cancel and disconnect close both windows with no inventory change. player_trade.rs::leaving_the_game_cancels_for_the_partner covers the disconnect side. Moderate confidence."},
+  {"name": "ignored_target_cannot_be_invited", "verdict": "superseded", "covered_by": "tests/player_trade.rs::invites_are_refused_for_busy_ignored_absent_and_far_players", "reason": "Same refusal path: an ignored target cannot be invited. The player_trade test covers ignored among other refusals."},
+  {"name": "decline_notifies_inviter_and_releases_both_players", "verdict": "superseded", "covered_by": "tests/player_trade.rs::declining_or_a_duplicate_reply_releases_both_and_changes_nothing_more", "reason": "Same path: decline releases both players. Moderate confidence."},
+  {"name": "duplicate_accept_cannot_settle_twice", "verdict": "keep", "covered_by": null, "reason": "Replay/security check that a second accept cannot settle again and leaves inventories unchanged. Kept under the replay rule, although player_trade.rs::one_accept_cannot_be_replayed_into_a_settlement is a close match and could be a duplicate."},
+  {"name": "timeout_closes_active_trade_without_settlement", "verdict": "keep", "covered_by": null, "reason": "Checks the timeout close path, status 1 and no inventory change. player_trade.rs::expiry_closes_stale_invites_and_sessions covers expiry of stale sessions rather than a timed-out active trade, so it is not clearly the same."},
+  {"name": "instanced_zone_exit_sends_viewer_relative_statuses_and_end", "verdict": "superseded", "covered_by": "tests/player_trade.rs::entering_an_instanced_zone_reports_viewer_relative_statuses", "reason": "Same path: viewer-relative statuses on instanced zone change. Moderate confidence; the player_trade test was not read in full."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.4,
+ "notes": "Verdicts for the superseded entries rest on test names in player_trade.rs, which I did not read in full, so they are moderate confidence. piece_085.rs drives a separate restoration module that is not registered in src/lib.rs, so it is not a true overlap with trade.rs and was not used as cover. Most of this file is kept because it pins exact wire layouts and settlement byte outputs that the other files do not check."}
+```

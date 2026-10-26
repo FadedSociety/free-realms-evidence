@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=queen-arachnia-0-VzVmk-5fKmQ-00206 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2738, 4, 1166] model=claude-haiku-5-5 -->
+# Queen Arachnia VzVmk-5fKmQ 206s
+
+{"screen": "combat", "target": {"name": "Queen Arachnia", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 16, "on": "target", "color": "red"}, {"value": 16, "on": "target", "color": "red"}], "attackers_visible": 1, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Giant Queen Arachnia spider fills the right side of the frame; boss name shown in red at top right and in the boss bar header, with a -16 hit number near it while a player character (Annie Hawl <Insiders) fights at center. Boss bar fill is not legible enough to read."}

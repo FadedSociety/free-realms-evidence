@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=frostfang-growler-2-gWaKXoYB92Q-00136 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2736, 4, 791] model=claude-haiku-5-5 -->
+# Frostfang Growler gWaKXoYB92Q 136s
+
+{"screen": "world", "target": {"name": "Frostfang Growler", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Caitlin Chillwheels", "level": 1, "job": "Adventurer", "health_fraction": null}, "target_defeated": false, "notes": "Frostfang Growler (dark wolf-like creature, left) is on screen with its name in faded blue under a red/white crossed-swords marker, but no health bar is visible and no fight is under way. Copper Vein and Offside Oscar labels are resource/tracker markers only."}

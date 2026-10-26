@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-0-BJy3sgpdqpw-00300 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 971] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 300s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": null}, "target_defeated": false, "notes": "Heavy skill effects in Cray Caves; the enemy name at top is faded and only partly legible ('...Cray Br...'), no clear health bar over the target, and the large yellow damage numbers are too overlapped to read reliably, so the target fields are left null."}

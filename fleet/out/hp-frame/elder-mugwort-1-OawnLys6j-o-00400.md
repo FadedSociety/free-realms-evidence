@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-mugwort-1-OawnLys6j-o-00400 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3147, 4, 1111] model=claude-haiku-5-5 -->
+# Elder Mugwort OawnLys6j-o 400s
+
+{"screen": "combat", "target": {"name": "Elder Mugwort", "level": 5, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 2490, "on": "other", "color": "yellow"}, {"value": 2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypents", "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Elder Mugwort is named in the top target frame with a fully red bar (no green health visible, so no fraction read); two yellow -2490 numbers over the central melee, target not clearly identified as their recipient."}

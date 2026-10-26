@@ -1,0 +1,16 @@
+<!-- fleet job=testaudit-infer id=derby_chapter-v1 status=done turns=2 usd=0.0031 tokens(read,write,in,out)=[10546, 16621, 6, 1833] model=claude-haiku-5-5 -->
+# tests/derby_chapter.rs
+
+{"file": "tests/derby_chapter.rs",
+ "tests": [
+  {"name": "the_chapter_plays_and_credits_one_finished_derby_exactly_once", "verdict": "keep", "covered_by": null, "reason": "Only test driving the derby Results path to a FinishMinigame{39} credit through the real NPC menu, 39/16 offer, 34/16 contacts and 26/42 close. Other FinishMinigame tests (quest_engine, mining_lifecycle, fishing_service, soccer_quest_credit) use other minigame sources and ids."},
+  {"name": "a_cancelled_license_match_credits_and_pays_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal/negative check (cancel must not credit or pay). The derby-specific cancel path is not exercised elsewhere; kart_npc_entry has a similar cancel-pays-nothing test but for the kart race, a different path."},
+  {"name": "a_refused_completion_payout_still_credits_the_finish_and_keeps_the_session", "verdict": "keep", "covered_by": null, "reason": "Asserts the quest credit is independent of a refused payout and the session survives; a specific ordering guarantee with no equivalent in the other files."},
+  {"name": "a_zero_reward_package_still_credits_the_finish_once", "verdict": "keep", "covered_by": null, "reason": "Boundary check that the quest credit does not depend on the flat payout amount (0 coins/0 XP). Similar in spirit to shared_field_kill_quest_credit::a_zero_reward_event_credits_a_contributor_quest but a different system and path; not a duplicate."},
+  {"name": "the_chapter_survives_the_three_reload_points", "verdict": "keep", "covered_by": null, "reason": "Persistence check through real game_store save/reload at three points. Reload coverage in brawler_job_chain (progress_survives_a_reload) targets a different chapter, so not equivalent."},
+  {"name": "two_players_finish_their_own_matches_independently", "verdict": "keep", "covered_by": null, "reason": "Isolation check between two characters' derby matches; no derby equivalent elsewhere. brawler_job_chain::two_brawlers_progress_independently is the same idea on a different chain, so it is a pattern match, not a duplicate."},
+  {"name": "forged_requests_and_gated_refusals_change_nothing", "verdict": "keep", "covered_by": null, "reason": "Security/refusal check (forged 39/18 or gated requests must change nothing). Required to keep per the brief; no derby-specific equivalent found in the similar files."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "Reviewed the file's test list, the excerpt, and a search for FinishMinigame emitters and test names across tests/. The similar-file list (kart_service, vendor_sell, kart_npc_entry, brawler_job_chain, station_cash) covers other minigames or shops; none drives the derby 39/16 to 34/16 results path. I did not read the full bodies of every test (only lines 300-560, which include the first test), so the duplicate check against brawler_job_chain's reload and independence tests is by name and shape only. Given the effort budget, a deeper assertion-by-assertion comparison was not done. Everything is kept by default under the conservative rule."}

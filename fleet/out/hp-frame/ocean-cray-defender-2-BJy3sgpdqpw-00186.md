@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-defender-2-BJy3sgpdqpw-00186 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3153, 4, 748] model=claude-haiku-5-5 -->
+# Ocean Cray Defender BJy3sgpdqpw 186s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -330, "on": "other", "color": "orange"}], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 1.0}, "target_defeated": false, "notes": "Underwater cave scene with a large 'Ocean Cray Defe...' zone banner; the picked enemy has no legible name or health bar above a creature, only player names (V.I.P. Jedao Roo) and a floating -330 damage number at centre."}

@@ -1,0 +1,574 @@
+[
+  {
+    "quest_id": 3000030,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:90669 'Gather Ammi Lilies from the countryside around Sanctuary.'",
+      "locale:91053 is tagged npc_name and contains only the display text 'Ammi Lily'; it is not an item-definition name row.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no definition has NameId 91053, so the current item catalogue supplies no Ammi Lily resource_id."
+    ],
+    "confidence": "medium",
+    "notes": "No safe inventory id. The text describes a world gather, but Ammi Lily is absent from the current item definitions. Treating it as gather_resource would require either a missing item definition or a different world-interaction objective kind."
+  },
+  {
+    "quest_id": 3000038,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:90856 'Find Quartermaster Bargangle'",
+      "locale:90867 'Complete the armor testing for Quartermaster Bargangle'",
+      "locale:90855 'Retrieve the armor shipment from Quartermaster Bargangle in Briarwood.'",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no definition has the display name 'Armor Shipment'."
+    ],
+    "confidence": "high",
+    "notes": "This is an NPC retrieval/hand-in step after finding and testing the armor, not a demonstrated item-count gather. Armor Shipment has no client item definition; keep it as a talk/delivery or client-reported objective."
+  },
+  {
+    "quest_id": 3000042,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:91468 'Pick up gifts for Darkthorne's pets from vendors around Sacred Grove.'",
+      "locale:91469, locale:91471, locale:91473 and locale:91475 split the work into four named vendor stops.",
+      "locale:94225, locale:94229, locale:94231 and locale:94241 name four possible pet-gift handovers: Pink Paws Bowl, Party Conditioner, Super Pet Food and Massage Brush."
+    ],
+    "confidence": "high",
+    "notes": "This row is an umbrella summary over four stops, not one item. A single resource_id or quantity would be invented; model the four objectives separately."
+  },
+  {
+    "quest_id": 3000042,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:91469 'Pick up a gift from Florina in Sanctuary'",
+      "locale:94225 says 'One Pink Paws Bowl, already gift-wrapped!'",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 25 decodes serialized_hex bytes 4..8 to NameId 2266, 'Pink Paws Bowl'.",
+      "No source directly binds locale:94225 to Florina; the four gift lines have no NPC hint."
+    ],
+    "confidence": "medium",
+    "notes": "This is an NPC handover rather than a demonstrated inventory gather. Pink Paws Bowl (25) is a plausible candidate from the ordered gift cluster, but the Florina-to-item link is not proven, so found is left empty."
+  },
+  {
+    "quest_id": 3000042,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:91471 'Pick up a gift from Jennifer in Cobblestone Village'",
+      "locale:94229 says 'Here's some Party Conditioner, already packaged for delivery!'",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 37039 decodes serialized_hex bytes 4..8 to NameId 116302, 'Party Conditioner'.",
+      "No source directly binds locale:94229 to Jennifer; the four gift lines have no NPC hint."
+    ],
+    "confidence": "medium",
+    "notes": "This is an NPC handover. Party Conditioner (37039) is a plausible candidate by sequence in the four-item gift cluster, but the Jennifer-to-item link is inferred, not recovered, so found is empty."
+  },
+  {
+    "quest_id": 3000042,
+    "objective": 3,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:91473 'Pick up a gift from Bowawow at Highroad Junction'",
+      "locale:94231 says 'One bag of Super Pet Food, boxed up and ready to go!'",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 37062 decodes serialized_hex bytes 4..8 to NameId 116325, 'Super Pet Food'.",
+      "No source directly binds locale:94231 to Bowawow; the four gift lines have no NPC hint."
+    ],
+    "confidence": "medium",
+    "notes": "This is an NPC handover. Super Pet Food (37062) is a plausible candidate by sequence in the four-item gift cluster, but the Bowawow-to-item link is inferred, not recovered."
+  },
+  {
+    "quest_id": 3000042,
+    "objective": 4,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:91475 'Pick up a gift from Twiggi Truespirit in Shrouded Glade'",
+      "locale:94241 says 'Here's the Massage Brush that was ordered...'",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 37016 decodes serialized_hex bytes 4..8 to NameId 116279, 'Massage Brush'.",
+      "No source directly binds locale:94241 to Twiggi Truespirit; the four gift lines have no NPC hint."
+    ],
+    "confidence": "medium",
+    "notes": "This is an NPC handover. Massage Brush (37016) is a plausible candidate by sequence in the four-item gift cluster, but the Twiggi-to-item link is inferred, not recovered."
+  },
+  {
+    "quest_id": 3010008,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:77082 names six explosives taken from Robgoblin Pondblasters and six sap samples from vats.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: nine definitions 35649-35657 all have NameId 99748 'Volatile Explosive', class 37.",
+      "No loot, quest binding or client text selects one of definitions 35649-35657 for this objective."
+    ],
+    "confidence": "medium",
+    "notes": "Volatile Explosive is the only close item-name match, but there are nine identically named definitions and the text identifies a mob source, not an item id. Choosing 35649 or any other variant would be arbitrary; this row may need a defeat/drop rule rather than gather_resource."
+  },
+  {
+    "quest_id": 3010008,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:93147 'Collect samples from sap collection vats'",
+      "locale:93155 'Sap Collection Vat'",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition has NameId 93155 or the name 'Sap Sample'."
+    ],
+    "confidence": "medium",
+    "notes": "The named object is a collection vat, and no Sap Sample item definition exists in the current catalogue. This is likely a world interaction/minigame count, not a single inventory resource."
+  },
+  {
+    "quest_id": 3010019,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:77740 'Collect pink azaleas'",
+      "locale:77735 says the azaleas grow at the base of trees in Blackspore.",
+      "locale:77719 is tagged item, but native-20261024T0455Z-new/content/item-catalogue.json:1 has no definition with NameId 77719."
+    ],
+    "confidence": "medium",
+    "notes": "Pink Azalea has client display text but no current item-definition row. Do not use locale id 77719 as the resource id; the evidence supports a world-node pickup whose item mapping is absent."
+  },
+  {
+    "quest_id": 3010023,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2884,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:78410 'Harvest bundles of rainleaf'",
+      "Resources/ClientItemDefinitions.json:53574-53577: Comment 'Bundle of Rainleaf', Id 2884, NameId 23294.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2884 decodes serialized_hex bytes 4..8 to NameId 23294.",
+      "locale:23294 is '{n}Bundle of Rainleaf{pl=\"Bundles of Rainleaf\"}'."
+    ],
+    "confidence": "high",
+    "notes": "Direct bundle-to-item mapping. The client text gives no numeric count; quantity 1 is retained from the worklist draft."
+  },
+  {
+    "quest_id": 3010023,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2882,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:78417 'Harvest bundles of punkin'",
+      "Resources/ClientItemDefinitions.json:53542-53545: Comment 'Bundle of Punkin', Id 2882, NameId 23292.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2882 decodes serialized_hex bytes 4..8 to NameId 23292.",
+      "locale:23292 is '{n}Bundle of Punkin{pl=\"Bundles of Punkin\"}'."
+    ],
+    "confidence": "high",
+    "notes": "Direct bundle-to-item mapping. The client text gives no numeric count; quantity 1 is retained from the worklist draft."
+  },
+  {
+    "quest_id": 3010023,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2880,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:78419 'Harvest bundles of sunleaf'",
+      "Resources/ClientItemDefinitions.json:53510-53513: Comment 'Bundle of Sunleaf', Id 2880, NameId 23290.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2880 decodes serialized_hex bytes 4..8 to NameId 23290.",
+      "locale:23290 is '{n}Bundle of Sunleaf{pl=\"Bundles of Sunleaf\"}'."
+    ],
+    "confidence": "high",
+    "notes": "Direct bundle-to-item mapping. The client text gives no numeric count; quantity 1 is retained from the worklist draft."
+  },
+  {
+    "quest_id": 3010032,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:78467 describes obtaining ruthenium clusters for Bullseye.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition name contains 'ruthenium'."
+    ],
+    "confidence": "medium",
+    "notes": "Ruthenium Cluster is described as a mined world resource but has no current item definition. The locale id for the display text must not be reused as a definition id."
+  },
+  {
+    "quest_id": 3020009,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:91393 \"Find Derp Axemaker's recipe pages\"",
+      "locale:91485 contains the generic item text 'Recipe Page', but native-20261024T0455Z-new/content/item-catalogue.json:1 has no definition with NameId 91485 or the target name.",
+      "IDA strings query for 'Derp Axemaker' and 'recipe pages' found no client string address to resolve."
+    ],
+    "confidence": "medium",
+    "notes": "The target is plural and no matching item definition exists. A generic Recipe Page locale id is not an item definition id and was not substituted."
+  },
+  {
+    "quest_id": 3020026,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 29922,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:100282 identifies the target as the lost sword Summersaber in Blackspore.",
+      "locale:100284 'Find the Summersaber'",
+      "Resources/ClientItemDefinitions.json:617161-617164: Comment 'Lost Summersaber', Id 29922, NameId 100275.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 29922 decodes serialized_hex bytes 4..8 to NameId 100275.",
+      "locale:100275 'Lost Summersaber'; locale:100308 describes the lost blade of Brenden Caliburn."
+    ],
+    "confidence": "medium",
+    "notes": "The quest-item definition and quest wording agree on the lost blade. Confidence is medium rather than high because no direct quest-to-definition row was recovered and the later forged 'Sturdy' or 'Champion's' Summersaber items are distinct."
+  },
+  {
+    "quest_id": 3020026,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 29922,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:100285 says 'If it still exists, find the Summersaber somewhere in Blackspore.'",
+      "Resources/ClientItemDefinitions.json:617161-617164: Comment 'Lost Summersaber', Id 29922, NameId 100275.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 29922 decodes serialized_hex bytes 4..8 to NameId 100275.",
+      "locale:100308 describes the lost blade of Brenden Caliburn."
+    ],
+    "confidence": "medium",
+    "notes": "Duplicate wording variant of the same Blackspore search. It maps to the Lost Summersaber quest item, not the separately defined Sturdy or Champion's Summersaber rewards; retain only one live goal if these are duplicate objective text variants."
+  },
+  {
+    "quest_id": 3020033,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:439750 'Collect Sunstones from Sunstone Copper Veins.'",
+      "locale:847 is the item display text 'Sunstone'; locale:848 says it is a Blacksmithing crafting supply.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no definition has NameId 847. Definition id 847 is instead the Tangy Tumtumnip Mishmash Recipe with NameId 1514."
+    ],
+    "confidence": "medium",
+    "notes": "The display-text id 847 must not be used as the item-definition id. The current catalogue has no usable Sunstone definition, so this row remains unresolved."
+  },
+  {
+    "quest_id": 3020035,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:439769 'Collect Skullz armor samples from the Skullz Brawlers in the Manguana region of Sunstone Valley.'",
+      "locale:439768 names the reward 'Empowered Skullz Armor Samples', but gives no definition id.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition name contains 'Skullz armor'."
+    ],
+    "confidence": "medium",
+    "notes": "The pickup is source-bound to Skullz Brawlers and the only named nearby item is a reward variant. No exact item definition proves which item the collect step counts."
+  },
+  {
+    "quest_id": 3020037,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:439787 'Collect Sunstones from Mining Veins in Sunstone Valley.'",
+      "locale:847 is the item display text 'Sunstone'; locale:848 describes the Blacksmithing supply.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no definition has NameId 847. Definition id 847 is instead the Tangy Tumtumnip Mishmash Recipe."
+    ],
+    "confidence": "medium",
+    "notes": "Same missing Sunstone item definition as quest 3020033. Locale 847 is display text, not an item id; the objective is a mining-node resource with unresolved item identity."
+  },
+  {
+    "quest_id": 3030020,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:72485 describes fighting swamp cray in Cracked Claw Caverns and bringing back radiant gems.",
+      "locale:94644 'Collect radiant gems'; locale:100505 repeats the cavern objective.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition name contains 'radiant gem' or 'radiant'."
+    ],
+    "confidence": "medium",
+    "notes": "Radiant gems are obtained from defeated creatures, but no matching item definition was recovered. This may be an enemy-drop or encounter counter rather than an inventory resource."
+  },
+  {
+    "quest_id": 3030023,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:72495 explicitly says to defeat the tormented spirits and bring back pouches of silver dust.",
+      "locale:72497 is the quest objective; locale:94649 asks for a dozen silver dust samples.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition name contains 'silver dust'."
+    ],
+    "confidence": "medium",
+    "notes": "The source is a defeat/drop step and the current item catalogue has no Silver Dust definition. A unique definition id cannot be recovered from the display text alone."
+  },
+  {
+    "quest_id": 3030025,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:95084 \"Find Andrew's wallet amongst the Bristlewood Arachnids.\"",
+      "locale:72534 explains that Andrew lost the wallet when the arachnids frightened him.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition name contains 'wallet'."
+    ],
+    "confidence": "medium",
+    "notes": "This is a specific world pickup/recovery, but no Andrew's Wallet item definition exists in the current catalogue. It may be a world-object objective rather than an inventory resource."
+  },
+  {
+    "quest_id": 3040005,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:103200 and locale:103201 identify the target as Sam Potts' scattered cards.",
+      "locale:103219 'Scattered Duelist Cards' is tagged quest_title, not an item definition name.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 77720 is named 'Duelist', not cards; no item definition name contains \"Sam's card\"."
+    ],
+    "confidence": "high",
+    "notes": "Do not use 77720 despite the existing draft: that definition is the generic Duelist class token. The recovered text supports a world pickup objective, not a demonstrated inventory item."
+  },
+  {
+    "quest_id": 3040016,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:103946 'Catch Puggles the Pig'",
+      "locale:103960 repeats the name 'Puggles the Pig'.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no definition has NameId or display text for Puggles; the generic Pig definitions are not Puggles."
+    ],
+    "confidence": "high",
+    "notes": "This is an NPC/animal interaction or catch step, not an inventory gather. The generic Pig item ids were deliberately not substituted for the named quest animal."
+  },
+  {
+    "quest_id": 3040019,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:104200 'Collect cards along the path'; locale:104201 'Pick up cards along the main path in Wugachug.'",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition has NameId 104200 or 104201; the existing candidate 77720 is named 'Duelist', not cards."
+    ],
+    "confidence": "medium",
+    "notes": "The card objective has no matching inventory item definition. It is likely a world pickup/count objective; the generic Duelist class definition is not valid evidence."
+  },
+  {
+    "quest_id": 3050002,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2884,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:42200 says to harvest bundles of Rainleaf and Gummyfruit.",
+      "Resources/ClientItemDefinitions.json:53574-53577: Comment 'Bundle of Rainleaf', Id 2884, NameId 23294.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2884 decodes serialized_hex bytes 4..8 to NameId 23294.",
+      "locale:23294 is '{n}Bundle of Rainleaf{pl=\"Bundles of Rainleaf\"}'."
+    ],
+    "confidence": "high",
+    "notes": "Maps the Rainleaf half identified by the worklist gap. The shared UI text names two items; the second row covers Gummyfruit. No numeric count is stated, so quantity 1 is retained."
+  },
+  {
+    "quest_id": 3050002,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2875,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:42200 says to harvest bundles of Rainleaf and Gummyfruit.",
+      "Resources/ClientItemDefinitions.json:53430-53433: Comment 'Bundle of Gummyfruit', Id 2875, NameId 23285.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2875 decodes serialized_hex bytes 4..8 to NameId 23285.",
+      "locale:23285 is '{n}Bundle of Gummyfruit{pl=\"Bundles of Gummyfruit\"}'."
+    ],
+    "confidence": "high",
+    "notes": "Maps the Gummyfruit half identified by the worklist gap. No numeric count is stated, so quantity 1 is retained."
+  },
+  {
+    "quest_id": 3050005,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2884,
+      "quantity": 1
+    },
+    "evidence": [
+      "The worklist objective text is 'Collect a Bundle of Rainleaf'.",
+      "Resources/ClientItemDefinitions.json:53574-53577: Comment 'Bundle of Rainleaf', Id 2884, NameId 23294.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2884 decodes serialized_hex bytes 4..8 to NameId 23294.",
+      "locale:23294 is '{n}Bundle of Rainleaf{pl=\"Bundles of Rainleaf\"}'."
+    ],
+    "confidence": "high",
+    "notes": "Direct singular bundle mapping."
+  },
+  {
+    "quest_id": 3050005,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2875,
+      "quantity": 1
+    },
+    "evidence": [
+      "The worklist objective text is 'Collect a Bundle of Gummy Fruit'.",
+      "Resources/ClientItemDefinitions.json:53430-53433: Comment 'Bundle of Gummyfruit', Id 2875, NameId 23285.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2875 decodes serialized_hex bytes 4..8 to NameId 23285.",
+      "locale:23285 is '{n}Bundle of Gummyfruit{pl=\"Bundles of Gummyfruit\"}'."
+    ],
+    "confidence": "high",
+    "notes": "The split spelling 'Gummy Fruit' resolves to the same Bundle of Gummyfruit definition."
+  },
+  {
+    "quest_id": 3050012,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:115749 'Pile of Fireworks'",
+      "locale:115752, locale:115754, locale:115756, locale:115758 and locale:115760 enumerate five separate pile pickups.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no definition has NameId 115749; the recovered Fireworks Crate and individual firework items are different objects."
+    ],
+    "confidence": "medium",
+    "notes": "The five piles are world/minigame pickups. No Pile of Fireworks item definition exists, and substituting the crate or one individual firework would change the objective."
+  },
+  {
+    "quest_id": 3050014,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2876,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:139232 'Gather some Snowberry'",
+      "Resources/ClientItemDefinitions.json:53446-53449: Comment 'Bundle of Snowberry', Id 2876, NameId 23286.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2876 decodes serialized_hex bytes 4..8 to NameId 23286.",
+      "locale:23286 is '{n}Bundle of Snowberry{pl=\"Bundles of Snowberry\"}'."
+    ],
+    "confidence": "high",
+    "notes": "The harvest currency is the Bundle of Snowberry. No numeric count is stated; quantity 1 is retained."
+  },
+  {
+    "quest_id": 3050014,
+    "objective": 3,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2876,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:139233 says Perry cannot harvest the Snowberry she needs and asks the player to harvest some.",
+      "Resources/ClientItemDefinitions.json:53446-53449: Comment 'Bundle of Snowberry', Id 2876, NameId 23286.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2876 decodes serialized_hex bytes 4..8 to NameId 23286.",
+      "locale:23286 is '{n}Bundle of Snowberry{pl=\"Bundles of Snowberry\"}'."
+    ],
+    "confidence": "high",
+    "notes": "Duplicate Snowberry wording maps to the same resource. If objectives 2 and 3 are alternate text for one live step, retain only one counter."
+  },
+  {
+    "quest_id": 3050014,
+    "objective": 4,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:139212 asks the player to collect 'some Snowberry and Starnut' from Perry's farm.",
+      "Resources/ClientItemDefinitions.json:53446-53449 and :53606-53609 define Bundle of Snowberry id 2876 and Bundle of Starnut id 2886.",
+      "The server gather_resource goal supports only one resource_id, while this text names two resources."
+    ],
+    "confidence": "medium",
+    "notes": "Composite objective. Either split it into Snowberry 2876 and Starnut 2886 goals or identify the live counter; choosing only Starnut would silently drop Snowberry."
+  },
+  {
+    "quest_id": 3050017,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:116971 'Collect five Bundles of Ingredients'",
+      "locale:116983 describes a timed pickup of five bundles scattered by Robgoblin fishers.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition has NameId 116971 or the name 'Bundles of Ingredients'."
+    ],
+    "confidence": "medium",
+    "notes": "This is a timed minigame/world-pickup count. The text has no matching inventory item definition, so a resource id cannot be supplied safely."
+  },
+  {
+    "quest_id": 3050022,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:24035 asks the player to harvest ingredients from Queensfields and Farnum's Farmstead, then take them to Chef Jarvie.",
+      "locale:24888 and locale:71783 identify stainberries and gummyfruits.",
+      "Resources/ClientItemDefinitions.json:53430-53433 and :53622-53625 define Bundle of Gummyfruit id 2875 and Bundle of Stainberry id 2887."
+    ],
+    "confidence": "medium",
+    "notes": "Composite two-item objective. The server goal has one resource_id, so found is empty rather than dropping either Stainberry (2887) or Gummyfruit (2875). Split this into two goals or use a composite/client-reported objective."
+  },
+  {
+    "quest_id": 3060033,
+    "objective": 0,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:394042 says to collect power-ups in Wildwood and go Ultimate.",
+      "locale:394110 is the shorter objective 'Collect power-ups'.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition name contains 'power-up' or 'power up'."
+    ],
+    "confidence": "high",
+    "notes": "Power-ups are demolition-derby minigame state, not inventory items. This objective is misclassified as gather_resource."
+  },
+  {
+    "quest_id": 3070008,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:408691 'Find the fishing pole'",
+      "locale:408688 says to retrieve Anna's fishing supplies from Muggup.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition name contains 'fishing pole'."
+    ],
+    "confidence": "medium",
+    "notes": "The objective is a world-object find/interaction. A display-text id exists, but no matching item definition supplies an inventory resource_id."
+  },
+  {
+    "quest_id": 3070008,
+    "objective": 2,
+    "kind": "gather_resource",
+    "found": {},
+    "evidence": [
+      "locale:408693 'Find the tackle box'",
+      "locale:408688 groups the pole, tackle box and bait as Anna's fishing supplies.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: no item definition name contains 'tackle box'."
+    ],
+    "confidence": "medium",
+    "notes": "This is a world-object find/interaction. The separate Bait item used by the next objective is not evidence for the tackle box."
+  },
+  {
+    "quest_id": 3070018,
+    "objective": 1,
+    "kind": "gather_resource",
+    "found": {
+      "resource_id": 2877,
+      "quantity": 1
+    },
+    "evidence": [
+      "locale:410343 'Harvest some Spiralmint'",
+      "Resources/ClientItemDefinitions.json:53462-53465: Comment 'Bundle of Spiralmint', Id 2877, NameId 23287.",
+      "native-20261024T0455Z-new/content/item-catalogue.json:1: definition 2877 decodes serialized_hex bytes 4..8 to NameId 23287.",
+      "locale:23287 is '{n}Bundle of Spiralmint{pl=\"Bundles of Spiralmint\"}'."
+    ],
+    "confidence": "high",
+    "notes": "The harvest currency is the Bundle of Spiralmint. The current catalogue also contains duplicate definition 30574 with the same name; 2877 is the established ingredient id used by recipes. No count is stated, so quantity 1 is retained."
+  }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=two-of-three-0-dCKyNMH0eDo-00064 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2734, 4, 1166] model=claude-haiku-5-5 -->
+# Two of Three dCKyNMH0eDo 64s
+
+{"screen": "combat", "target": {"name": "Two of Three", "level": 20, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 474, "on": "target", "color": "red"}, {"value": -3113, "on": "player", "color": "yellow"}], "attackers_visible": 2, "player": {"name": null, "level": 20, "job": "Archer", "health_fraction": null}, "target_defeated": false, "notes": "Two of Three nameplate with level 20 badge under a large red 474 hit; a small bar sits above the name but is too small to read reliably; 'You can't use abilities when you are stunned' message; a 'Press X' interact prompt sits under the name."}

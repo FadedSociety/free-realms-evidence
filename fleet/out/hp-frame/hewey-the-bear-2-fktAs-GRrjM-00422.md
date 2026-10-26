@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=hewey-the-bear-2-fktAs-GRrjM-00422 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2736, 4, 907] model=claude-haiku-5-5 -->
+# Hewey the Bear fktAs_GRrjM 422s
+
+{"screen": "combat", "target": {"name": "Hewey the Bear", "level": null, "health_fraction": 0.85, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Gianna Kittychaser", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Hewey the Bear is over-head with a mostly green bar (about 85%, red at the far end); no player visibly attacking it. Chat shows 'You can't use abilities when you are stunned!' and Harold's dialog. Level and job digits are not legible at this resolution."}

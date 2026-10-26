@@ -1,0 +1,27 @@
+<!-- fleet job=testaudit-infer id=piece_056-v1 status=done turns=3 usd=0.0050 tokens(read,write,in,out)=[33001, 24137, 8, 3217] model=claude-haiku-5-5 -->
+# tests/piece_056.rs
+
+{"file": "tests/piece_056.rs",
+ "tests": [
+  {"name": "recovered_packet_ids_and_sizes", "verdict": "keep", "covered_by": null, "reason": "Pins the recovered opcodes and packet lengths for the 38/16, 38/17 and 35/41, 42, 20 families. Only the length and opcode constants are checked here; no other test file asserts these constants directly."},
+  {"name": "captured_retail_coin_boost_round_trips_byte_for_byte", "verdict": "keep", "covered_by": null, "reason": "Round-trip of the captured retail coin-boost row with field-level assertions. Unique to this file's codec; the startup_catalogues.rs 38/16 test only checks framing, not field values."},
+  {"name": "captured_profile_row_matches_the_recovered_self_payload_shape", "verdict": "keep", "covered_by": null, "reason": "Pins the count-then-(TagId, ClientEffectTag) self-payload layout, which no other file checks."},
+  {"name": "captured_startup_tags_match_the_codec_and_the_startup_writer", "verdict": "keep", "covered_by": null, "reason": "Cross-checks the piece_056 codec against startup_catalogues::build_effect_tag on two captured reference packets. It is the only test tying the two writers together byte for byte, so it is not a duplicate of startup_catalogues.rs:139, which only checks the opcode prefix."},
+  {"name": "world_effect_packets_round_trip", "verdict": "keep", "covered_by": null, "reason": "Round-trip and opcode check for the 35/41 and 35/42 composite-effect packets. No other file exercises these encoders."},
+  {"name": "play_effect_and_graceful_removal_follow_their_client_readers", "verdict": "keep", "covered_by": null, "reason": "Byte-exact layout check for the 35/16 play-effect and 35/3 graceful removal, including the effect-0 31-byte removal that encounter.rs sends. Unique, and it guards a wire format."},
+  {"name": "character_state_flags_carry_the_recorded_bits", "verdict": "keep", "covered_by": null, "reason": "Pins the recorded character-state bit per status kind and the 35/20 encoding. Unique to this file."},
+  {"name": "immunity_kinds_match_their_original_locale_ids", "verdict": "keep", "covered_by": null, "reason": "Pins locale ids for immunity categories. Data-level check with no equivalent elsewhere."},
+  {"name": "a_status_row_is_sent_with_the_recovered_buff_fields", "verdict": "keep", "covered_by": null, "reason": "Checks the buff row fields (duration, icon, name) through StatusLedger::apply. Unique to the ledger."},
+  {"name": "a_zero_icon_effect_keeps_state_without_a_buff_row", "verdict": "keep", "covered_by": null, "reason": "Pins that a zero-icon effect yields only the world packet and still keeps state, matching the client's AddAbilityEffect early return. Unique behaviour."},
+  {"name": "tick_expires_the_row_exactly_once", "verdict": "keep", "covered_by": null, "reason": "Expiry timing and single-fire behaviour of the ledger. Unique; not in other files."},
+  {"name": "an_immune_effect_is_refused_without_spending_a_tag_id", "verdict": "keep", "covered_by": null, "reason": "Refusal check: immune effects are rejected and no tag id is consumed. Must be kept as a refusal test."},
+  {"name": "the_same_definition_and_source_refresh_one_row", "verdict": "keep", "covered_by": null, "reason": "Refresh-on-same stacking rule. This is a reconstructed policy, and it is the only test of it."},
+  {"name": "a_different_source_stacks_an_independent_row", "verdict": "keep", "covered_by": null, "reason": "Independent stacking by source and removal of one row, with the unknown-tag refusal. Unique."},
+  {"name": "restart_restores_live_rows_and_drops_elapsed_ones", "verdict": "keep", "covered_by": null, "reason": "Persistence/restore check: live rows are restored with reduced time, elapsed rows are dropped, and new ids continue above restored ones. Persistence tests are kept."},
+  {"name": "a_disconnect_without_persistence_clears_every_row", "verdict": "keep", "covered_by": null, "reason": "Clears every row on disconnect and emits the expected removal packets. Unique."},
+  {"name": "malformed_and_invalid_requests_are_rejected", "verdict": "keep", "covered_by": null, "reason": "Hostile and malformed input refusals: bad length, bad opcode, invalid duration, unnamed buff. Refusal tests are kept."},
+  {"name": "reference_effects_keep_their_original_fields", "verdict": "keep", "covered_by": null, "reason": "Weak test: the final assertion compares two encodes of the same value and is trivially true. Only the remaining_seconds checks add anything, and those are not duplicated elsewhere. Kept conservatively; it could be trimmed to the remaining_seconds assertions."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.8,
+ "notes": "The five similar files are unrelated features (kart, housing, station cash, piece_091, piece_048) and share no effect-tag path. The only other touchpoints are startup_catalogues.rs:139 (38/16 opcode prefix only) and power_up_use.rs:791/833 (38/16 prefix only); neither drives the piece_056 codec or ledger with the same field assertions, so no test is clearly superseded. The file was recently changed by T472 (unknown_1 set to tag id) and T458 (play/removal layouts), and its assertions match those changes, so none is obsolete. Only candidate for trimming is the trivial final assertion in reference_effects_keep_their_original_fields."}

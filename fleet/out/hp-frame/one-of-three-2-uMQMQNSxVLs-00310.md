@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=one-of-three-2-uMQMQNSxVLs-00310 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2733, 4, 728] model=claude-haiku-5-5 -->
+# One of Three uMQMQNSxVLs 310s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Jason Shadowz", "level": 20, "job": "Archer", "health_fraction": 0.8}, "target_defeated": false, "notes": "Exploring a town path; no enemy named One of Three is visible. The only labeled character is the player Jason Shadowz (Eclipse Werewolf Pack) with Doc Dakota nearby, and the purple creatures in the background have no readable names. No combat or health bars for the target."}

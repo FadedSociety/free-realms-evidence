@@ -1,0 +1,453 @@
+[
+  {
+    "quest_id": 3120023,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90099: 'Use the trick game to train your pet to do the trick \"Dance\".'",
+      "IDA 0x00b5ff50 (constructor 0x00b50a10): PetPerformTrick sends family 53 subtype 7 with one u32 trick id when the gesture round starts.",
+      "IDA 0x00b5ffe0 (constructor 0x00b50c20): PetTrickGestureResult sends family 53 subtype 8 with the same u32 trick id when the round finishes.",
+      "Resources/PetTrickGesturePoints.txt:1: the schema is PET_TRICK_ID, SEQUENCE_ID, X, Y and has no trick-name column.",
+      "Build Guides/Gameplay/Pets.md:74-78: the client opens the trick gesture round and sends the trick id; no local grade is sent.",
+      "quest_engine.rs:343-345 and 1236-1243: a 45/7 client id is a separately supplied, catalogue-unique wire key, not a quest/objective arithmetic field.",
+      "chef.json:191,204: the 30500041 example is explicitly a reconstructed local binding.",
+      "quests/pet_trainer.json:1163: 3120023 is a reconstructed batch key, not an original server quest id."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. The native pet path is 53/7 then 53/8 with a trick id; Resources/PetTrickGesturePoints.txt lists gesture ids but gives no name-to-id mapping, so the Dance trick id is unresolved. The server has no pet_trick trigger; use a trick-id event (or 53/8 after 53/7) if that mapping is recovered."
+  },
+  {
+    "quest_id": 3120025,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90107: 'Use the trick game to train your pet to do the trick \"Play Dead\".'",
+      "IDA 0x00b5ff50 (constructor 0x00b50a10): PetPerformTrick is family 53 subtype 7 with a u32 trick id.",
+      "IDA 0x00b5ffe0 (constructor 0x00b50c20): PetTrickGestureResult is family 53 subtype 8 with the same trick id.",
+      "Resources/PetTrickGesturePoints.txt:1: the table is keyed by PET_TRICK_ID and contains no trick-name column.",
+      "Build Guides/Gameplay/Pets.md:74-78: the trick id is the only useful server claim; the client grades locally but does not send the grade.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit content bindings, not derivable from quest id/objective index.",
+      "quests/pet_trainer.json:1283: 3120025 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. The client reports Play Dead through the native pet trick packets, but the Play Dead numeric trick id is not exposed by a client name table. No authoritative client_id can be assigned; a server pet_trick trigger is missing."
+  },
+  {
+    "quest_id": 3120026,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:90111: perform the four tricks Speak, Handstand, Play Dead, and Dance.",
+      "IDA 0x00b5ff50 (constructor 0x00b50a10): PetPerformTrick is family 53 subtype 7 with one trick id.",
+      "IDA 0x00b5ffe0 (constructor 0x00b50c20): PetTrickGestureResult is family 53 subtype 8 with the same trick id.",
+      "Resources/PetTrickGesturePoints.txt:1: rows hold PET_TRICK_ID, sequence, X and Y but no trick-name field.",
+      "Build Guides/Gameplay/Pets.md:74-78: the client emits the round-start and round-result trick packets, not a four-trick completion index.",
+      "quest_engine.rs:343-345: a 45/7 id names one registered key and has no arithmetic relation to a quest objective.",
+      "quests/pet_trainer.json:1333: 3120026 is a reconstructed batch key."
+    ],
+    "confidence": "medium",
+    "notes": "Not a 45/7 callback. Implement this as an accumulated set of four distinct 53/8 trick ids (or four subgoals); the client provides the trick id but no names-to-ids mapping. Server trigger pet_trick_set is absent."
+  },
+  {
+    "quest_id": 3130003,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:103840: 'Click the mailboxes to deliver the mail.'",
+      "locale:103839: the sibling objective explicitly says 'Complete the Can You Deliver? minigame.'",
+      "Resources/MiniGameData.txt:239: minigame 238, TYPE 2, name id 93381 'Can You Deliver?'.",
+      "Build Guides/Gameplay/Minigame Framework.md:20: TYPE 2 delivery games have no client-side game code and are server-run.",
+      "IDA 0x008b6bc0: constructor for family 26 subtype 8, storing an eight-byte target and a flag; sender path at 0x0092f218.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit content keys, not derivable from quest id/objective index.",
+      "quests/postman.json:119: 3130003 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. The client's mailbox click is the 26/8 interaction request carrying the target GUID and a flag. The existing finish_minigame kind can use minigame 238, or the server can gate on the exact mailbox target inside that TYPE 2 run. No authoritative client_id was found."
+  },
+  {
+    "quest_id": 3130004,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:103921: deliver mail using the Mail Toss ability.",
+      "locale:103922: the sibling objective explicitly says 'Complete the Mail Marksman minigame.'",
+      "Resources/MiniGameData.txt:240: minigame 239, TYPE 2, name id 93757 'Mail Marksman'.",
+      "IDA 0x00a35150: AbilityProcessor builds and sends the action-bar request; writer 0x00a342e0 emits family 36 subtype 10.",
+      "Combat and Abilities.md:61,207,263: 36/10 body is bar type, slot, target mode, then u64 GUID (24 bytes) or four f32 values (32 bytes).",
+      "quest_engine.rs:343-345: 45/7 ids are independent content keys.",
+      "quests/postman.json:175: 3130004 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. Mail Toss activation is 36/10; the server must resolve bar/slot to the Mail Toss ability and validate the target. QuestEvent::UseAbility exists, but no producer for this job ability was found. The minigame can instead be completed as finish_minigame 239. No authoritative client_id was found."
+  },
+  {
+    "quest_id": 3130006,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:431105: interact with Dropped Mail in the inner circle of Sanctuary.",
+      "Resources/MiniGameData.txt:242: minigame 241, TYPE 1, name id 21424 'Scattered Mail'.",
+      "IDA 0x008b6bc0: family 26 subtype 8 constructs an actor interaction request with an eight-byte target and flag; send path starts at 0x0092f218.",
+      "npc_interaction.rs:1009-1025: the server decodes 26/8 as exactly u64 target plus u8 flag.",
+      "quest_engine.rs:1236-1243: client objective ids must be unique but are not computed from quests.",
+      "quests/postman.json:275: 3130006 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. Dropped Mail is selected through 26/8 with its runtime actor GUID; TYPE 1 is server-run. The target GUID is not present in the client resource data, and no authoritative client_id was found. Use an object/actor interaction trigger or finish_minigame 241."
+  },
+  {
+    "quest_id": 3130009,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:115055: use the Bust-A-Move ability to deliver dancing telegrams.",
+      "locale:115054: the sibling objective says 'Complete the It's A Dancing Telegram! minigame.'",
+      "Resources/MiniGameData.txt:299: minigame 302, TYPE 1, name id 139404.",
+      "IDA 0x00a35150 and writer 0x00a342e0: ability/item-bar activation is family 36 subtype 10.",
+      "Build Guides/Gameplay/Minigame Framework.md:20: TYPE 1 games are server-run; no client-side completion code exists.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit keys.",
+      "quests/postman.json:425: 3130009 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. Bust-A-Move is a 36/10 activation; the TYPE 1 minigame supplies the other server-observed steps. The exact ability id is not in client text, and no authoritative client_id was found."
+  },
+  {
+    "quest_id": 3130009,
+    "objective": 3,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:115053: 'Deliver dancing telegrams.'",
+      "Resources/MiniGameData.txt:299: minigame 302, TYPE 1, name id 139404 'It's a Dancing Telegram!'.",
+      "Build Guides/Gameplay/Minigame Framework.md:20,60-69: TYPE 1 games are server-run; the client sends 39/5 start and 39/7 acknowledgement, while terminal state is server-driven.",
+      "IDA 0x008b6bc0: clickable actors are reported through 26/8 with target GUID and flag.",
+      "quest_engine.rs:343-345: 45/7 ids are independently authored.",
+      "quests/postman.json:425: 3130009 is a reconstructed batch key."
+    ],
+    "confidence": "medium",
+    "notes": "Not a 45/7 callback. Delivery progress belongs to the server-run Dancing Telegram minigame (302); individual delivery targets, if clicked, arrive as 26/8. The exact count/targets and client_id are not in the client data, so found is empty."
+  },
+  {
+    "quest_id": 3130014,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:117174: 'Pick a winner for the contest in Merry Vale.'",
+      "locale:141819: the sibling objective explicitly says 'Complete the Merry Vale Mail Sorting minigame.'",
+      "Resources/MiniGameData.txt:365: minigame 381, TYPE 8, name id 21585 'Merry Vale Mail Sorting'.",
+      "Build Guides/Gameplay/Minigame Framework.md:75-76: TYPE 8 movie input is sent as family 39 subtype 14; completion strings include FRServer_GameOver.",
+      "IDA 0x009be6b0: MiniGame:SendPayload; constructor 0x009b09d0 writes subtype 14 on base 0x008a4420 which sets family 39.",
+      "quest_engine.rs:343-345: 45/7 ids are content-supplied.",
+      "quests/postman.json:699: 3130014 is a reconstructed batch key."
+    ],
+    "confidence": "medium",
+    "notes": "Not a 45/7 callback. The winner-selection step is inside or immediately around Merry Vale Mail Sorting (381); TYPE 8 reports game events through 39/14 and the server decides completion. No exact winner-choice event or client_id is exposed, so found is empty."
+  },
+  {
+    "quest_id": 3130014,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:117175: 'Pick a winning entry from the box'.",
+      "locale:141819: 'Complete the Merry Vale Mail Sorting minigame.'",
+      "Resources/MiniGameData.txt:365: minigame 381, TYPE 8, name id 21585.",
+      "Build Guides/Gameplay/Minigame Framework.md:75-76: TYPE 8 uses 39/14 movie messages; the client does not report a generic objective completion.",
+      "IDA 0x009be6b0 (subtype constructor 0x009b09d0): MiniGame payload send path.",
+      "quest_engine.rs:343-345: no quest-id/objective-index encoding rule for client_id.",
+      "quests/postman.json:699: 3130014 is a reconstructed batch key."
+    ],
+    "confidence": "medium",
+    "notes": "Not a 45/7 callback. The box/entry choice is a Merry Vale Mail Sorting (381) subgoal; TYPE 8 sends 39/14 messages and the server owns the result. The exact chosen-entry protocol and authoritative client_id are unresolved."
+  },
+  {
+    "quest_id": 3130024,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:130269: 'Help Loryn clean up the mail mess in Snowhill.'",
+      "Resources/MiniGameData.txt:15: minigame 14, TYPE 2, name id 115976 'What a Mess!'.",
+      "Build Guides/Gameplay/Minigame Framework.md:20: TYPE 2 delivery games have no client-side game code and are server-run.",
+      "IDA 0x008b6bc0: clickable targets arrive via 26/8 with target GUID and flag.",
+      "quest_engine.rs:1236-1243: client ids are arbitrary, unique content keys.",
+      "quests/postman.json:1215: 3130024 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. Use finish_minigame 14 for the quest's cleanup goal, or an exact 26/8 target trigger for individual cleanup objects. No target list or client_id was recovered from the client."
+  },
+  {
+    "quest_id": 3130025,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:130287: 'Sort the mail for Loryn in Snowhill.'",
+      "locale:130290: 'Complete the Snowhill Mail Sorting minigame.'",
+      "Resources/MiniGameData.txt:363: minigame 379, TYPE 8, name id 31336 'Snowhill Mail Sorting'.",
+      "Build Guides/Gameplay/Minigame Framework.md:75-76: TYPE 8 client messages use 39/14.",
+      "IDA 0x009be6b0 (subtype constructor 0x009b09d0): MiniGame payload send path.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit content keys.",
+      "quests/postman.json:1265: 3130025 is a reconstructed batch key."
+    ],
+    "confidence": "medium",
+    "notes": "Not a 45/7 callback. The action maps to Snowhill Mail Sorting (379), a TYPE 8 server-owned board; the client reports movie messages through 39/14. The exact progress event and client_id are not exposed. Use finish_minigame 379."
+  },
+  {
+    "quest_id": 3130026,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:130747: use Mail-Morph to become a wolf and click the PCA Tricksters when close.",
+      "Resources/MiniGameData.txt:298: minigame 301, TYPE 1, name id 130298 'Biting Back'.",
+      "IDA 0x00a35150 and writer 0x00a342e0: ability activation is 36/10 with target mode and target GUID/position.",
+      "IDA 0x008b6bc0: subsequent actor clicks are 26/8 with target GUID and flag.",
+      "Build Guides/Gameplay/Minigame Framework.md:20: TYPE 1 is server-run.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit content keys, not derived from quest id/objective.",
+      "quests/postman.json:1315: 3130026 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. The client sends Mail-Morph as a 36/10 action and Trickster interaction as 26/8. The server must validate form plus target inside Biting Back (301). The Mail-Morph ability id, Trickster GUIDs, and client_id are not recovered."
+  },
+  {
+    "quest_id": 3130026,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:130746: 'Terrorize the Tricksters'.",
+      "Resources/MiniGameData.txt:298: minigame 301, TYPE 1, name id 130298 'Biting Back'.",
+      "IDA 0x008b6bc0: target interactions use family 26 subtype 8 (u64 target + u8 flag).",
+      "IDA 0x00a35150 and writer 0x00a342e0: action-bar ability path is 36/10.",
+      "Build Guides/Gameplay/Minigame Framework.md:20: TYPE 1 is server-run.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit content bindings.",
+      "quests/postman.json:1315: 3130026 is a reconstructed batch key."
+    ],
+    "confidence": "medium",
+    "notes": "Not a 45/7 callback. 'Terrorize' is progress inside Biting Back (301), observed through the ability and 26/8 target interactions. The exact completion rule and targets are server content that was not recovered; no client_id was found."
+  },
+  {
+    "quest_id": 3130026,
+    "objective": 3,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:130299: 'Bite those PCA postman and get the Snowhill mail through!'",
+      "Resources/MiniGameData.txt:298: minigame 301, TYPE 1, name id 130298 'Biting Back'.",
+      "Build Guides/Gameplay/Minigame Framework.md:20: TYPE 1 is server-run.",
+      "IDA 0x00a35150: targeted ability/action requests are 36/10.",
+      "IDA 0x008b6bc0: actor clicks are 26/8 with target GUID and flag.",
+      "quest_engine.rs:1236-1243: client IDs are arbitrary and must only be unique.",
+      "quests/postman.json:1315: 3130026 is a reconstructed batch key."
+    ],
+    "confidence": "medium",
+    "notes": "Not a 45/7 callback. Mail delivery is the aggregate result of the server-run Biting Back activity (301). The client sends actions/click targets through 36/10 and 26/8, not a completed 45 objective. No authoritative client_id was found."
+  },
+  {
+    "quest_id": 3130029,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:130389: 'Sort the ever growing stack of mail in Shrouded Glade.'",
+      "locale:130390: 'Complete the Shrouded Glade Mail Sorting minigame.'",
+      "Resources/MiniGameData.txt:364: minigame 380, TYPE 8, name id 102038.",
+      "Build Guides/Gameplay/Minigame Framework.md:75-76: TYPE 8 sends 39/14 movie messages.",
+      "IDA 0x009be6b0 (subtype constructor 0x009b09d0): MiniGame payload send path.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit content keys.",
+      "quests/postman.json:1465: 3130029 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. Use finish_minigame 380 for Shrouded Glade Mail Sorting. The client reports the TYPE 8 game through 39/14, not through an id that can be encoded from quest 3130029 and objective 1."
+  },
+  {
+    "quest_id": 3140006,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:414965: 'Pick out an energetic and friendly mascot'.",
+      "IDA 0x008b6bc0: family 26 subtype 8 is the client's actor-interaction request, storing an eight-byte target and a flag; caller path at 0x0092f218.",
+      "npc_interaction.rs:1009-1025: the server parses exactly u64 target plus u8 flag.",
+      "quest_engine.rs:343-345: a 45/7 id is an explicit server-supplied key, not a quest/objective formula.",
+      "chef.json:191,204: 30500041 is a reconstructed local example.",
+      "quests/soccer_star.json:289: 3140006 is a reconstructed batch key."
+    ],
+    "confidence": "medium",
+    "notes": "No matching 45/6, 45/10, or 45/11 event exists for picking a mascot. The observable client action is likely a 26/8 actor interaction, but the client data does not identify the mascot actor GUID or a completion id. No MiniGameData row matches this objective. found is empty."
+  },
+  {
+    "quest_id": 3140014,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:406977 is also the MiniGameData description: use the Mascot Madness ability to dress as the husky and deliver fliers.",
+      "locale:402963: 'Play the \"Mascot Madness\" game'.",
+      "Resources/MiniGameData.txt:576: minigame 664, TYPE 1, name id 402602 'Mascot Madness', description id 406977.",
+      "IDA 0x00a35150 and writer 0x00a342e0: ability activation is 36/10.",
+      "Build Guides/Gameplay/Minigame Framework.md:20: TYPE 1 is server-run; flier delivery targets use ordinary world interactions.",
+      "quest_engine.rs:343-345: 45/7 ids are independent content keys.",
+      "quests/soccer_star.json:633: 3140014 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. Mascot Madness is minigame 664, a server-run TYPE 1 game. The client activates the ability through 36/10 and may select fans through 26/8, but the ability id, fan GUIDs, and client_id are not in the recovered data."
+  },
+  {
+    "quest_id": 3140022,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:406615: distract the Robgoblins with the Something Shiny ability.",
+      "IDA 0x00a35150: ability activation path; writer 0x00a342e0 emits family 36 subtype 10.",
+      "Combat and Abilities.md:61,207,263: 36/10 carries bar, slot, target mode, then target GUID (24 bytes) or position/facing (32 bytes).",
+      "IDA 0x008b6bc0: subsequent actor interactions use 26/8 with target GUID and flag.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit content keys, not derived from quest id/objective.",
+      "quests/soccer_star.json:994: 3140022 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. Something Shiny is a targeted action-bar ability and arrives as 36/10; the server must validate the Robgoblin target and then retrieve/interact. No Something Shiny ability id or authoritative client_id was recovered."
+  },
+  {
+    "quest_id": 3140027,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:402792: 'Find something to distract the Cheetahs'.",
+      "locale:406633: the client refers to putting a jar of ants on the jerseys; no item name/id exists in the locale table.",
+      "IDA 0x008b6bc0: world-object/actor selection is 26/8 with target GUID and flag.",
+      "IDA 0x00a35150 and writer 0x00a342e0: item/ability activation is 36/10; bar type 2 denotes the item bar.",
+      "quest_engine.rs:343-345: a 45/7 id is a separate server-supplied key.",
+      "quests/soccer_star.json:1208: 3140027 is a reconstructed batch key."
+    ],
+    "confidence": "low",
+    "notes": "Not a 45/7 callback. The first step is plausibly a 26/8 object/actor pick or a 36/10 item action, but the target, jar item id, and exact path are not recovered. No authoritative client_id was found."
+  },
+  {
+    "quest_id": 3140027,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:403001: 'Pour ants on Lika'.",
+      "locale:406633 confirms a jar-of-ants action but gives no item id.",
+      "IDA 0x00a35150 and writer 0x00a342e0: targeted item/ability activation is 36/10, including a u64 target in mode 0.",
+      "IDA 0x008b6bc0: a direct click is 26/8 with target GUID and flag.",
+      "quest_engine.rs:343-345: client objective ids are explicit content keys.",
+      "quests/soccer_star.json:1208: 3140027 is a reconstructed batch key."
+    ],
+    "confidence": "low",
+    "notes": "Not a 45/7 callback. Pouring ants is a server-observable targeted action (36/10) and possibly a prior 26/8 selection, but Lika's runtime GUID and the ant item/ability id are not recovered. found is empty."
+  },
+  {
+    "quest_id": 3140027,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:407369: 'Pour ants on Kronk'.",
+      "locale:406633 confirms a jar-of-ants action but gives no item id.",
+      "IDA 0x00a35150 and writer 0x00a342e0: targeted item/ability activation is 36/10.",
+      "IDA 0x008b6bc0: a direct click is 26/8 with target GUID and flag.",
+      "quest_engine.rs:343-345: 45/7 ids are not derived from quest id/objective.",
+      "quests/soccer_star.json:1208: 3140027 is a reconstructed batch key."
+    ],
+    "confidence": "low",
+    "notes": "Not a 45/7 callback. The likely client path is 36/10 with Kronk as target, or 26/8 selection followed by that item action. The runtime GUID, item/ability id, and client_id are unresolved."
+  },
+  {
+    "quest_id": 3140027,
+    "objective": 3,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:407371: 'Pour ants on Grick'.",
+      "locale:406633 confirms a jar-of-ants action but gives no item id.",
+      "IDA 0x00a35150 and writer 0x00a342e0: targeted item/ability activation is 36/10.",
+      "IDA 0x008b6bc0: a direct click is 26/8 with target GUID and flag.",
+      "quest_engine.rs:343-345: 45/7 ids are arbitrary content keys.",
+      "quests/soccer_star.json:1208: 3140027 is a reconstructed batch key."
+    ],
+    "confidence": "low",
+    "notes": "Not a 45/7 callback. The likely client path is 36/10 with Grick as target, or 26/8 selection followed by that item action. The runtime GUID, item/ability id, and client_id are unresolved."
+  },
+  {
+    "quest_id": 3140028,
+    "objective": 0,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:402826: 'Use the taunt emote on Lika'.",
+      "ScriptsBase.lua:42033,42047: /taunt maps to quick-chat row 177 and calls Ui.ProcessQuickChatCommand(177).",
+      "Resources/QuickChats.json:177: Id 177, MenuText 23454 ('Taunt'), AnimationId 3330.",
+      "IDA 0x00b8ad10 sets base family 67; 0x00b90a10 constructs subtype 3 QuickChatSendChatToChannelPacket.",
+      "social_chat.rs:493-541: 67/3 carries phrase_id, sender identity, channel, reserved value, and guild GUID; it carries no target GUID.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit content keys.",
+      "quests/soccer_star.json:1247: 3140028 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. The client sends quick-chat 67/3 with row 177 (Taunt), not an objective id. The packet has no target actor, so a new server emote trigger must infer Lika from proximity/camera/selection and record (emote_id=177, target=Lika). No authoritative client_id exists."
+  },
+  {
+    "quest_id": 3140028,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:403034: 'Use the taunt emote on Kronk'.",
+      "ScriptsBase.lua:42033,42047: /taunt maps to quick-chat row 177.",
+      "Resources/QuickChats.json:177: Id 177, MenuText 23454 ('Taunt'), AnimationId 3330.",
+      "IDA 0x00b8ad10 sets family 67; 0x00b90a10 is the subtype 3 constructor.",
+      "social_chat.rs:493-541: 67/3 has phrase_id and channel but no target GUID.",
+      "quest_engine.rs:1236-1243: client ids are unique content keys only.",
+      "quests/soccer_star.json:1247: 3140028 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. The client reports Taunt as quick-chat 67/3 row 177; Kronk is not in the packet. A missing server emote trigger must resolve the nearby target and count (177, Kronk). No authoritative client_id exists."
+  },
+  {
+    "quest_id": 3140028,
+    "objective": 2,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:403036: 'Use the taunt emote on Grick'.",
+      "ScriptsBase.lua:42033,42047: /taunt maps to quick-chat row 177.",
+      "Resources/QuickChats.json:177: Id 177, MenuText 23454 ('Taunt'), AnimationId 3330.",
+      "IDA 0x00b8ad10 sets family 67; 0x00b90a10 is the subtype 3 constructor.",
+      "social_chat.rs:493-541: 67/3 has phrase_id and channel but no target GUID.",
+      "quest_engine.rs:343-345: 45/7 ids are separately supplied.",
+      "quests/soccer_star.json:1247: 3140028 is a reconstructed batch key."
+    ],
+    "confidence": "high",
+    "notes": "Not a 45/7 callback. The client reports Taunt as quick-chat 67/3 row 177; Grick is not in the packet. A missing server emote trigger must resolve the nearby target and count (177, Grick). No authoritative client_id exists."
+  },
+  {
+    "quest_id": 3160012,
+    "objective": 1,
+    "kind": "client_reported",
+    "found": {},
+    "evidence": [
+      "locale:74858: Fizzlesticks hands over the Flame Orb and tells the player to melt the ice.",
+      "dialog-packs.json:106360-106361: no client trigger fixes the objective order, and the Flame Orb item id was not found in client text.",
+      "IDA 0x00a35150 and writer 0x00a342e0: action-bar item/ability use is 36/10; bar type 2 is the item bar.",
+      "IDA 0x00c109f0 (base 0x00a10400): family 42 subtype 16 checks immediate item activation; 0x00c10940 constructs subtype 15 to use it.",
+      "IDA 0x008b6bc0: family 26 subtype 8 is an actor interaction with target GUID and flag.",
+      "quest_engine.rs:343-345: 45/7 ids are explicit catalogue keys.",
+      "quests/wizard.json:691: 3160012 is a reconstructed batch key."
+    ],
+    "confidence": "low",
+    "notes": "Not a 45/7 callback. The Flame Orb name has no client item id, so the path could be action-bar item use (36/10 bar 2), confirmed immediate use (42/16 then 42/15), or an interaction (26/8), but it cannot be settled from the shipped client. found is empty."
+  }
+]

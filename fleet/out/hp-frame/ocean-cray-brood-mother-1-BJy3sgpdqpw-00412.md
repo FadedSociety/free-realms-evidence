@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-1-BJy3sgpdqpw-00412 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3159, 4, 910] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother BJy3sgpdqpw 412s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 0.8, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.98}, "target_defeated": false, "notes": "Faded name 'Ocean Cray Brood Mother' with a green/red bar above a crowd of cray creatures in Cray Caves; the bar is about 80% green. Level is not legible. The large yellow damage numbers overlap and are not readable, so none are reported. Attacker count is uncertain, so it is set to 0."}

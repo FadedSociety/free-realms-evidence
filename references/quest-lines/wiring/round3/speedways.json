@@ -1,0 +1,345 @@
+[
+ {
+  "quest_id": 3060001,
+  "title": "Demolition Derby Tutorial",
+  "record": "quest-lines/quests.json q3060001",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 39,
+     "count": 1
+    },
+    "text_string_id": 139429,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text 'Complete the demolition derby tutorial' is locale:139429 (quest_objective); count 1 for one tutorial",
+      "source": "locale:139429"
+     },
+     {
+      "claim": "Derby minigame id is 39: Resources/MiniGameData.txt row '39^11^37938' is TYPE 11 'Wildwood Demo Derby'; derby_entry.json game_id 39 is the id DerbyGateway::game_id credits to finish_minigame",
+      "source": "notes/Autopilot/T369.md:104-105; repo:prototype/osfr-tools/data/content/quests/demo_derby_driver.json:232 (3060005 objective uses minigame_id 39)"
+     },
+     {
+      "claim": "Minigame 289 is rejected: it was a test constant (CRASH = 9_000_000_289) and not a derby id; no derby row carries 289",
+      "source": "pack previous_answer; prototype/osfr-tools/tests/minigame_entry_npcs.rs:41"
+     },
+     {
+      "claim": "Locale 130346 has the same wording but is the Driver-tutorial objective (hint 'Demolition Derby'); 139429 is this quest's own objective line per the pack",
+      "source": "locale:130346; pack dialog.other_lines"
+     }
+    ],
+    "note": "Replaces the unverified minigame_id 289 with 39. The repo record 3060001 currently has objectives: [] (repo:prototype/osfr-tools/data/content/quests/demo_derby_driver.json:9), so this is the first wiring. Tutorial vs. later derby quest sharing game 39 is a design question for the builder; the derby quest 3060005 uses the same id."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080014,
+  "title": "Kart Driver: A Treacherous Track",
+  "record": "quest-lines/quests.json q3080014",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 635,
+     "count": 1
+    },
+    "text_string_id": 394722,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "MiniGameData row ID=635, TYPE=10, NAME_ID=3322 ('A Treacherous Track'), BRIEF/DESC 3439 'Be sure to place higher than Sparks Blitzwing on the Frost Ridge speedway!'",
+      "source": "client: Resources/MiniGameData.txt:547"
+     },
+     {
+      "claim": "locale:3322 = 'A Treacherous Track'",
+      "source": "locale:3322 (re-read)"
+     },
+     {
+      "claim": "Objective text: beat Sparks Blitzwing in the \"Treacherous Track\" race at Frost Ridge Speedway, count 1",
+      "source": "locale:394722 (re-read)"
+     },
+     {
+      "claim": "Same race worded 'Win the \"Treacherous Track\" race'",
+      "source": "locale:394721 (re-read)"
+     },
+     {
+      "claim": "Sparks Blitzwing NPC row npc_id 9500000948 at Frost Ridge Speedway, named as the race target by the build guide",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/wilds.json:39565-39598; repo:notes/Build Guides/Content/NPCs/NPCs - Wilds.md:164"
+     }
+    ],
+    "note": "Restored 635 after re-verification: the client MiniGameData row links NAME_ID 3322 to 'A Treacherous Track' and the objective text names the same race at Frost Ridge. Count 1 from the text ('a race', one win). Sparks (npc 9500000948) is the opponent, not a talk target, so no npc_id is set here. He has no verified spawn coordinates; placement is an open item, not a blocker for the race objective itself. Rejected: speedway 31 (Wildwood) and ucdt 3011735458 (name-string id)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080019,
+  "title": "Kart Driver: Seaside Board of Tourism Sponsorship",
+  "record": "quest-lines/quests.json q3080019",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000613
+    },
+    "text_string_id": 394664,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text 394664 tells the player to talk to Petal Oceanmist at Frost Ridge Speedway, so the target is one NPC.",
+      "source": "locale:394664"
+     },
+     {
+      "claim": "Our NPC row 9500000613 is named Petal Oceanmist (name_string_id 2342248259) but has zone and zone_id null, so it is not placed.",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/seaside.json:33306"
+     },
+     {
+      "claim": "Reference spawn for the same name is npc 9500000930 at [-241.1461, 1.178117, -62.66587] (model fairy_f_valinda.adr), tagged near_zone Snowhill in the Wilds, from the FreeRealms-Legacy FabledRealms script.",
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1733 (pack: candidates.reference_spawn)"
+     },
+     {
+      "claim": "Placement note 1733 lists Petal Oceanmist under both unknown zone (9500000613) and Wilds (9500000930).",
+      "source": "repo:notes/Research/NPC Placement.md:72"
+     }
+    ],
+    "note": "Keep npc_id 9500000613 (the row the quest uses). It needs a placement at Frost Ridge Speedway (POI 33 per the dialog evidence). The only reference position (FabledRealms.lua:1733, [-241.15, 1.18, -62.67]) is tagged Snowhill, not Frost Ridge Speedway, so do not copy it blindly; the builder must confirm the Frost Ridge Speedway coordinates before placing. Also 9500000930 is a different row id for the same name in wilds.json:32608."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080022,
+  "title": "Kart Driver: Dominating at Frost Ridge",
+  "record": "quest-lines/quests.json q3080022",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 640,
+     "count": 3
+    },
+    "text_string_id": 395116,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "MiniGameData row ID=640, TYPE=10, NAME_ID=3328 = 'Dominating at Frost Ridge'",
+      "source": "client: Resources/MiniGameData.txt:552 (640^10^3328^3438^9872...)"
+     },
+     {
+      "claim": "locale:3328 = 'Dominating at Frost Ridge'",
+      "source": "locale:3328"
+     },
+     {
+      "claim": "Objective text 'Win three races at Frost Ridge Speedway.' (count 3)",
+      "source": "locale:395116 (quest_objective, hint Frost Ridge Invitational)"
+     },
+     {
+      "claim": "Quest title locale:3525 'Kart Driver: Dominating at Frost Ridge'; server record q3080022 (title_string_id 3525)",
+      "source": "locale:3525; prototype/osfr-tools/data/content/quests/kart_driver.json:1155-1156"
+     }
+    ],
+    "note": "Win 3 races = finish_minigame 640 count 3. Same minigame as index 1."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 640,
+     "count": 3
+    },
+    "text_string_id": 398603,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective 'Win the \"Dominating at Frost Ridge\" race three times' names minigame 3328 race and count 3",
+      "source": "locale:398603; locale:3328; client Resources/MiniGameData.txt:552"
+     },
+     {
+      "claim": "Critique: restates the same three-win condition as index 0",
+      "source": "quest-lines/wiring/zone-quests-matched/speedways.json:510"
+     }
+    ],
+    "note": "DUPLICATE of index 0 (same condition, same minigame 640, count 3). Builder should keep only one of index 0/1 to avoid counting three wins twice; kept here so the client's two lines both map."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080036,
+  "title": "Kart Driver: Burnt Rubber",
+  "record": "quest-lines/quests.json q3080036",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000114
+    },
+    "text_string_id": 395391,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Text 'Talk to Crankle at Tangletrack Speedway to see what's wrong with Antonio's kart.' is the first step of the Antonio's Kart fire chain; Crankle is the NPC (name line locale:395388).",
+      "source": "locale:395391; locale:395388; pack: draft npc_id 9500000114 resolved"
+     }
+    ],
+    "note": "Crankle is the pit boss at Tangletrack Speedway. The NPC row is taken from the pack; I did not confirm its placement in repo data."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 593,
+     "count": 1
+    },
+    "text_string_id": 395396,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Text 'Beat the Burnt Rubber minigame' asks for one win of a single minigame; 'Burnt Rubber' is also an item name (locale:3805), but the objective is the minigame.",
+      "source": "locale:395396; pack: draft minigame_id 593 resolved"
+     }
+    ],
+    "note": "Count 1 comes from the single-minigame wording. minigame_id 593 is taken from the pack; I did not independently verify it in repo data."
+   },
+   {
+    "index": 2,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000114
+    },
+    "text_string_id": 395398,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "'Return to Crankle' is the turn-in step, and it names the same NPC as the first step.",
+      "source": "locale:395398; pack: draft npc_id 9500000114"
+     }
+    ],
+    "note": "Same NPC as objective 0, as the text requires. The reward and completion for this turn-in are not in the pack."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080037,
+  "title": "Kart Driver: The Showdown",
+  "record": "quest-lines/quests.json q3080037",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 650,
+     "count": 1
+    },
+    "text_string_id": 395425,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "locale:395425 reads 'Beat Linx Redline in \"The Showdown\" race at Tangletrack Speedway.' (quest_objective, Tangletrack Speedway, The Showdown); one race win, so count 1 is taken from the text.",
+      "source": "locale:395425"
+     },
+     {
+      "claim": "Linx Redline is the NPC row locale:394366 (npc_name), which is the race opponent; it is not a talk target in this objective.",
+      "source": "locale:394366"
+     },
+     {
+      "claim": "The draft minigame_id 650 could not be verified: a repo search for 650 near race/kart/minigame returned no match, and the client lookup returned no minigame table row for it.",
+      "source": "search repo (minigame_id 650) - no match"
+     }
+    ],
+    "note": "(lead check) draft minigame_id 650 is named 'the showdown', matching target 'The Showdown'. Draft minigame_id 650 is unverified and left null. The builder must find the server minigame id for the Tangletrack 'The Showdown' race (the same race the turnstile entry, locale:395422, opens) before this objective can be settled. Do not use 650 without that check. Separate objectives not in this pack: 'Click on the Tangletrack Speedway turnstile' (locale:395422, interact_npc on the turnstile, needs_spawn if no actor) and 'Talk to Linx' (locale:395426, talk_to_npc on Linx, npc row 394366 needs placement check)."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080039,
+  "title": "Kart Driver: The Right Stuff",
+  "record": "quest-lines/quests.json q3080039",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 651,
+     "count": 1
+    },
+    "text_string_id": 395478,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: 'Beat Mirana Vega in \"The Right Stuff\" race at Tangletrack Speedway.' names one race, so count is 1",
+      "source": "locale:395478"
+     },
+     {
+      "claim": "Same race restated as 'Win \"The Right Stuff\" race'; not split out",
+      "source": "locale:395477"
+     },
+     {
+      "claim": "Minigame id 651 is named 'The Right Stuff' (type 10, name_id 3356, description_id 3466, restoration_status code/test-candidate)",
+      "source": "repo:notes/Research/original-activity-coverage.json:12254-12264"
+     },
+     {
+      "claim": "Quest title 'Kart Driver: The Right Stuff'",
+      "source": "locale:3583 (per pack dialog.evidence)"
+     }
+    ],
+    "note": "minigame 651 is now confirmed by a repo row (the prior pack draft was unsourced; the critique's concern is resolved). The row's restoration_status is code/test-candidate, so the builder should still smoke-test the race itself. Not an NPC or object objective. Talk to Mirana (locale:395479) is a separate step and is not in this pack's objective list."
+   }
+  ]
+ },
+ {
+  "quest_id": 3080043,
+  "title": "Kart Driver: Dominating at Tangletrack",
+  "record": "quest-lines/quests.json q3080043",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "count": 3,
+     "minigame_id": 654
+    },
+    "text_string_id": 395658,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "locale:395658 is the quest_objective 'Win the \"Dominating at Tangletrack\" race three times', tagged to this quest; count 3 is stated in the text",
+      "source": "locale:395658 / lookup client"
+     },
+     {
+      "claim": "locale:395655 'Win three races at Tangletrack Speedway.' is a sibling objective with count 3",
+      "source": "locale:395655"
+     },
+     {
+      "claim": "No MiniGameData row for Tangletrack or this race was found: client search for 'Tangletrack' hits only locale, asset manifest and image entries; search for 'Kart Racing|Speedway' in MiniGameData files returned nothing; repo search for '654' gives no MiniGameData row. The pack's draft minigame_id 654 is not backed by any tool result.",
+      "source": "search client 'Tangletrack' / search client MiniGameData glob / search repo '654'"
+     }
+    ],
+    "note": "(lead check) draft minigame_id 654 is named 'dominating at tangletrack', matching target 'Dominating at Tangletrack'. minigame_id left null. Do not ship 654 from the draft. To settle: find the MiniGameData row (TYPE 10/11/13/19/20 kart race) whose name matches 'Dominating at Tangletrack' or Tangletrack Speedway, cite its row, then set minigame_id. Count 3 is from the text, not chosen."
+   }
+  ]
+ }
+]

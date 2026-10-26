@@ -1,0 +1,24 @@
+<!-- fleet job=testaudit-infer id=tracked_target-v1 status=done turns=3 usd=0.0046 tokens(read,write,in,out)=[28652, 19733, 8, 3670] model=claude-haiku-5-5 -->
+# tests/tracked_target.rs
+
+{"file": "tests/tracked_target.rs",
+ "tests": [
+  {"name": "active_pin_has_the_recovered_47_14_layout", "verdict": "keep", "covered_by": null, "reason": "Pure encoder canary for the recovered 47/14 byte layout. The w64 end-to-end test checks the same bytes for one talk pin, but this is the only check of the encoder's field offsets with a synthetic pin, so it stays."},
+  {"name": "no_pin_is_the_four_byte_clear", "verdict": "keep", "covered_by": null, "reason": "Clear packet canary. src/gameplay/w64_regional_quest_tests.rs::take_me_there_pin_follows_the_selected_quest also asserts [47,0,14,0] on zone exit, but only through gameplay; the bare encoder check is kept."},
+  {"name": "talk_and_interact_objectives_point_at_the_npc", "verdict": "keep", "covered_by": null, "reason": "Interact branch is not covered elsewhere; the talk branch alone is covered by w64 take_me_there_pin_follows_the_selected_quest, so the test is not fully redundant."},
+  {"name": "kill_objectives_point_at_the_field_enemies_home", "verdict": "superseded", "covered_by": "src/gameplay/w64_regional_quest_tests.rs::kill_objective_pins_its_field_enemy", "reason": "Same path (KillActorKind to field home guid and position) asserted end to end against field_enemies.json, with the same guid and position assertions."},
+  {"name": "reach_poi_and_visit_position_use_their_own_geometry", "verdict": "keep", "covered_by": null, "reason": "ReachPoi and VisitPosition geometry are not exercised by any other file found."},
+  {"name": "dungeon_objectives_point_at_their_battle_marker", "verdict": "keep", "covered_by": null, "reason": "CompleteDungeon to battle marker is not covered by the w64 tests found."},
+  {"name": "a_battle_only_kill_points_at_its_battle_marker", "verdict": "superseded", "covered_by": "src/gameplay/w64_regional_quest_tests.rs::a_battle_only_kill_objective_pins_its_battle_marker", "reason": "Same kind 930096 to battle-96 marker path, with the same guid, position and zone 0 assertions."},
+  {"name": "a_field_enemy_still_wins_over_a_battle_marker", "verdict": "superseded", "covered_by": "src/gameplay/w64_regional_quest_tests.rs::kill_objective_pins_its_field_enemy", "reason": "The w64 test asserts that kind 930050 pins its field home guid rather than the battle marker, which is the same precedence check through the full path."},
+  {"name": "unknown_battles_and_battle_kinds_pin_nothing", "verdict": "keep", "covered_by": null, "reason": "Negative lookup check for unknown encounter and kind ids; not covered elsewhere."},
+  {"name": "objectives_without_a_known_place_locate_nothing", "verdict": "keep", "covered_by": null, "reason": "Broad table of kinds that must not guess a place. w64 an_objective_without_a_known_place_sends_no_pin covers only one gather step, so this is not redundant."},
+  {"name": "a_position_that_is_not_finite_is_never_sent", "verdict": "keep", "covered_by": null, "reason": "Hostile-input check (NaN and infinity never sent). Keep."},
+  {"name": "only_the_selected_quests_open_objectives_are_tracked", "verdict": "keep", "covered_by": null, "reason": "Unit-level selection gating and first-located-wins rule for tracked_pin. The w64 forged-id test only partly overlaps it. Keep."},
+  {"name": "a_place_in_another_zone_is_not_pinned", "verdict": "keep", "covered_by": null, "reason": "Zone filter at the tracked_pin level; the w64 zone-exit test checks clearing via gameplay, not the zone filter itself. Keep."},
+  {"name": "the_tracker_sends_changes_clears_and_nothing_else", "verdict": "keep", "covered_by": null, "reason": "Sole check of Tracker change-only sending, replacement, clear-once and re-send. w64 covers only repeat-selection and zone exit. Keep."},
+  {"name": "a_new_session_sends_the_pin_again", "verdict": "keep", "covered_by": null, "reason": "Weak test (a fresh Tracker sends again), but it is the only check of the non-persistence rule. Low value; kept conservatively."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "Only the five most similar files were given, and none exercise quest_journal; they are unrelated (power-up drops, NPC interaction, trade, piece_010, kart). The relevant overlap is src/gameplay/w64_regional_quest_tests.rs (a unit-test module inside src, not a tests/ file), which drives the same locate/tracker path end to end. Three tests are marked superseded on that basis, and only the kill-home and battle-only kill checks are clearly same-assertion matches. Those three files are not in the batch's similar set, so the overlap was found by search, not by the pack. Not checked: other tests/ files outside the similar set that could cover the same path."}

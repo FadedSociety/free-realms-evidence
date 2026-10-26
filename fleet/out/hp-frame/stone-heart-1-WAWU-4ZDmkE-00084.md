@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=stone-heart-1-WAWU-4ZDmkE-00084 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2743, 4, 848] model=claude-haiku-5-5 -->
+# Stone Heart WAWU_4ZDmkE 84s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.0}], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Large pink/red heart-shaped creatures fill the view; the name above the red-tinted bar near the top (reads roughly 'Ti'ld Rar / ... Abrunde') is not legible as Stone Heart, so the picked enemy cannot be confirmed. A 'Horse Heart' label near the bottom is an item/buff tooltip, not the target. Health fraction and player details are not legible."}

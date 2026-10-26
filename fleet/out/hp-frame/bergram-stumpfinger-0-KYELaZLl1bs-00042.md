@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=bergram-stumpfinger-0-KYELaZLl1bs-00042 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 3158, 4, 1302] model=claude-haiku-5-5 -->
+# Bergram Stumpfinger KYELaZLl1bs 42s
+
+{"screen": "combat", "target": {"name": "Bergram Stumpfinger", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Bergram's Bones", "health_fraction": 0.4}], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Freddy Speedypants", "level": 20, "job": "Ninja", "health_fraction": 0.10}, "target_defeated": false, "notes": "Player fights Bergram's Bones summons while Bergram Stumpfinger is the picked target in the top target frame; its bar is red and not clearly readable, and the yellow numbers overlapping the bones are too blurred to read."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=cray-snapper-0-nDX88pgHwSg-00048 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2743, 4, 978] model=claude-haiku-5-5 -->
+# Cray Snapper nDX88pgHwSg 48s
+
+{"screen": "combat", "target": {"name": "Cray Snapper", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Cylena Velnaris", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Night combat; Cray Snapper name and small health bar shown over a creature near the player, but bar fill and level are too small to read exactly. Top-left target panel shows Cray Snapper. Partial yellow floating number near the target is not fully legible, so not reported."}

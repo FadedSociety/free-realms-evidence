@@ -1,0 +1,24 @@
+<!-- fleet job=testaudit-infer id=thugamug_battle-v1 status=done turns=3 usd=0.0046 tokens(read,write,in,out)=[28276, 19144, 8, 3907] model=claude-haiku-5-5 -->
+# tests/thugamug_battle.rs
+
+{"file": "tests/thugamug_battle.rs",
+ "tests": [
+  {"name": "the_battle_loads_and_is_published_with_the_expected_values", "verdict": "keep", "covered_by": null, "reason": "Pins the 12340 row values and the marker actor, which is the only file asserting the full published row. Other files (battle_catalogue_audit, bandit_hideout_dungeon line ~1501) only partly overlap. Some of it could be trimmed later, but keep for now."},
+  {"name": "the_marker_is_on_the_ground_and_clear", "verdict": "keep", "covered_by": null, "reason": "Placement/clearance check for this marker's 5 m disc against terrain and nearby spawners. bandit_hideout_dungeon::the_marker_is_on_the_ground_and_clear checks a different marker with the same rules, so it is not the same path and assertions."},
+  {"name": "a_level_five_character_can_start_and_win_it_once", "verdict": "keep", "covered_by": null, "reason": "End-to-end win path with exact payout (25 coins, prize, 50 job XP) paid once. Not found to be an exact duplicate of another file."},
+  {"name": "a_level_four_or_non_combat_job_is_refused_and_changes_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal check that changes no state; refusals are always kept."},
+  {"name": "the_battle_prize_preflight_and_full_bag_refuse", "verdict": "keep", "covered_by": null, "reason": "Full-bag refusal and four-free-stack success for this battle's prize pool. battle_prize_bag_preflight.rs covers the preflight generally, but for battle 12310, so this is kept as a refusal check."},
+  {"name": "reconnect_and_duplicate_win_do_not_pay_twice", "verdict": "keep", "covered_by": null, "reason": "Persistence and no-double-pay canary across reconnect."},
+  {"name": "the_pre_existing_battles_stay_unchanged", "verdict": "keep", "covered_by": null, "reason": "Regression guard that older rows are unchanged. field_battle_roster.rs and brawler_mongo_chain.rs touch the same file, but no exact match was confirmed, so keep."},
+  {"name": "a_second_player_can_run_its_own_instance", "verdict": "keep", "covered_by": null, "reason": "Isolation and hostile-input check (malformed request from one player). bandit_hideout_dungeon::a_second_player_runs_its_own_instance_and_is_paid_once is similar, but this test also covers the malformed request, so it is not a strict subset."},
+  {"name": "geoffrey_offers_thugamugs_thievery_after_the_missing_sisters", "verdict": "keep", "covered_by": null, "reason": "Quest 3000032 offer gating and text ids are unique to this chapter."},
+  {"name": "winning_the_bridge_battle_completes_the_chapter_and_pays_once", "verdict": "keep", "covered_by": null, "reason": "Chapter completion and single payment for quest 3000032. Unique to this chapter."},
+  {"name": "the_reward_goes_to_profile_1_after_a_job_switch", "verdict": "keep", "covered_by": null, "reason": "Reward-profile routing after a job switch for this quest. miner_first_ore::the_reward_goes_to_profile_14_after_a_job_switch is the same pattern on a different quest, so it is not a duplicate."},
+  {"name": "a_premature_wrong_or_forged_turn_in_changes_nothing", "verdict": "keep", "covered_by": null, "reason": "Refusal and forgery checks, plus a no-server-error coin-cap case. Refusals are kept."},
+  {"name": "progress_survives_a_reload_and_a_replay_pays_nothing", "verdict": "keep", "covered_by": null, "reason": "Persistence and replay-pays-nothing check for this quest. brawler_job_chain::progress_survives_a_reload and miner_first_ore::progress_survives_a_reload are similar patterns on other quests, so they are not duplicates."},
+  {"name": "two_adventurers_do_not_share_the_chapter", "verdict": "keep", "covered_by": null, "reason": "Two-player isolation for this chapter's state, instance and reward."},
+  {"name": "the_chapter_text_giver_battle_and_reward_resolve", "verdict": "keep", "covered_by": null, "reason": "Resolves the record, text ids, Geoffrey spawn, battle row and reward profile for quest 3000032. miner_first_ore::the_record_and_both_npcs_resolve is the analogous check on another quest."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.5,
+ "notes": "Triage used only the test names, doc lines, the pack's similar-file list and targeted grep. Bodies of the similar tests were not read, so the verdicts are conservative and nearly all keep. Possible trims to check later: test 1 vs battle_catalogue_audit / bandit_hideout_dungeon (12340 row pin); test 7 vs field_battle_roster (pre-existing rows); test 8 vs bandit_hideout_dungeon::a_second_player_runs_its_own_instance_and_is_paid_once. Tests 9-15 cover the T330 quest 3000032 chapter, which appears to be unique to this file. The file is not removable as a whole."}

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-2-MS41sNV77OI-00164 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2743, 4, 913] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother MS41sNV77OI 164s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": 1.0, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Seth Fierybolt", "level": 20, "job": "Warrior", "health_fraction": 1.0}, "target_defeated": false, "notes": "Cray Caves, Seth Fierybolt in the water; the Ocean Cray Brood Mother name and a short, fully green bar sit above a distant blue coral-like creature, with no hits or damage numbers visible and the player apparently not engaging it."}

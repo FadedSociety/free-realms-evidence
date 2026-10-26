@@ -1,0 +1,14 @@
+<!-- fleet job=testaudit-infer id=pet_wired-v1 status=done turns=2 usd=0.0027 tokens(read,write,in,out)=[10896, 14146, 6, 1685] model=claude-haiku-5-5 -->
+# tests/pet_wired.rs
+
+{"file": "tests/pet_wired.rs",
+ "tests": [
+  {"name": "an_owned_saved_pet_is_listed_summoned_seen_nearby_and_dismissed", "verdict": "keep", "covered_by": null, "reason": "Drives the full Gameplay path (roster at world entry, summon, nearby actor packet, dismiss with removal) through adopt_pets/handle_in_world. tests/pet_routing.rs::an_owned_pet_summons_one_server_actor_and_the_serializer_dismiss_removes_it covers the same summon/dismiss at PetService level only, not the Gameplay wiring or nearby broadcast, so it is not an equal check."},
+  {"name": "foreign_pet_and_unowned_item_requests_leave_gameplay_unchanged", "verdict": "keep", "covered_by": null, "reason": "Refusal check: foreign pet id and unowned item must change nothing and compare full gameplay state. pet_routing::unowned_pet_item_and_malformed_refusals_each_change_nothing is a service-level analogue without the Gameplay state comparison, so this stays as the only whole-state refusal check."},
+  {"name": "zoning_dismisses_without_persisting_the_actor_and_reload_keeps_roster", "verdict": "keep", "covered_by": null, "reason": "Persistence and zoning behaviour (actor cleared on settle, roster survives reload). pet_routing::roster_reload_preserves_ownership_and_the_client_list_reports_no_active_actor overlaps the reload part at service level, but the settle_pets/zoning path is only exercised here."},
+  {"name": "an_accepted_name_is_written_to_the_top_level_pet_payload", "verdict": "keep", "covered_by": null, "reason": "Persistence canary: asserts the accepted name lands in the top-level save JSON. pet_routing::a_selected_name_updates_only_the_active_pet_and_refusals_change_nothing checks the in-memory name only, not the written document."},
+  {"name": "the_gateway_exposes_the_saved_pet_roster_and_clears_the_actor_on_zoning", "verdict": "keep", "covered_by": null, "reason": "Only test that goes through Gateway (gateway.pet_view, handle_at login/world-enter sequence, settle_pets state flags). No other listed file drives the gateway pet path."}
+ ],
+ "whole_file_removable": false,
+ "confidence": 0.6,
+ "notes": "Small, mostly Gameplay/Gateway-level integration tests whose service-level counterparts in tests/pet_routing.rs cover the PetService logic but not the Gameplay/Gateway wiring, save-document write, or zoning settle path. The file's doc says it is a W177 patch proof that does not compile before apply_shared_patch.py, so it may be intended as temporary; that is a question for the owner, not a redundancy finding. I only read the first 200 lines of pet_routing.rs, so the unowned-item and rename overlaps were judged from test names and that excerpt. Confidence is moderate for that reason."}

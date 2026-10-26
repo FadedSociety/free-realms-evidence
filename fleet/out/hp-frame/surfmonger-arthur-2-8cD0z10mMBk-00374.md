@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=surfmonger-arthur-2-8cD0z10mMBk-00374 status=done turns=1 usd=0.0007 tokens(read,write,in,out)=[0, 2749, 4, 706] model=claude-haiku-5-5 -->
+# Surfmonger Arthur 8cD0z10mMBk 374s
+
+{"screen": "world", "target": {"name": "Surfmonger Arthur", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Calm town scene by the water: Surfmonger Arthur appears only as a plain nameplate on a blue-clad NPC with no health bar and no fight. A chat bubble reads 'arthur' and the yellow label 'Kätt <The Filmers>' is shown; the player's own HUD is not visible, so the level and job are unknown."}

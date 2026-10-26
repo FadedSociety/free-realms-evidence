@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-swamp-cray-1-n9NH7VCyJrU-00150 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3153, 4, 1095] model=claude-haiku-5-5 -->
+# Elder Swamp Cray n9NH7VCyJrU 150s
+
+{"screen": "combat", "target": {"name": "Elder Swamp Cray", "level": null, "health_fraction": 0.5, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -254, "on": "target", "color": "yellow"}, {"value": -254, "on": "target", "color": "yellow"}, {"value": 254, "on": "target", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Freddy Azurecowl", "level": 2, "job": "Ninja", "health_fraction": 0.97}, "target_defeated": false, "notes": "Player (Ninja) fights Elder Swamp Cray with fire-style attacks; target bar about half green; 'not enough energy' message shown. Player level read from the starburst badge, moderate confidence."}

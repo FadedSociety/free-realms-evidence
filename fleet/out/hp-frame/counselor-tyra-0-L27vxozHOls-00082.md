@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=counselor-tyra-0-L27vxozHOls-00082 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2743, 4, 891] model=claude-haiku-5-5 -->
+# Counselor Tyra L27vxozHOls 82s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -2490, "on": "other", "color": "yellow"}, {"value": -2490, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Keith Silvernight", "level": 20, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player fights two Bigfoot creatures marked Stunned with -2490 hits; 'Counselor Tyra' appears only as a chat line ('Help! Help!!!') and no picked-enemy creature with a health bar is legible in this frame."}

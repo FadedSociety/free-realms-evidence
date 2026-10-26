@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=troll-roughguard-1-xYD0YcUvyzI-00374 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 2765, 4, 1287] model=claude-haiku-5-5 -->
+# Troll Roughguard xYD0YcUvyzI 374s
+
+{"screen": "combat", "target": {"name": "Troll Roughguard", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 1, "player": {"name": "Cylena Velvaris", "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Green troll on left with 'You no beat me!' speech bubble over its name (name partly hidden); its health bar is not legible. A second Troll Roughguard lies knocked down on the right, which may be the defeated one; the picked enemy is taken as the left troll."}

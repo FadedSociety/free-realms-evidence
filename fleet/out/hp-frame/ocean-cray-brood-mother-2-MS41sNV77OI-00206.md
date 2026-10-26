@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ocean-cray-brood-mother-2-MS41sNV77OI-00206 status=done turns=1 usd=0.0010 tokens(read,write,in,out)=[0, 2743, 4, 1257] model=claude-haiku-5-5 -->
+# Ocean Cray Brood Mother MS41sNV77OI 206s
+
+{"screen": "combat", "target": {"name": "Ocean Cray Brood Mother", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": "Kelp Knight Overlord", "health_fraction": null}], "damage_numbers": [{"value": 161, "on": "other", "color": "red"}, {"value": 237, "on": "other", "color": "yellow"}], "attackers_visible": 1, "player": {"name": "Seth Fierybolt", "level": 20, "job": "Warrior", "health_fraction": 1.0}, "target_defeated": false, "notes": "Player fights among Cray monsters in Cray Caves; the Brood Mother name is faint at top-center above a bar, too small to read its fill reliably, so no health value given. 'You don't have enough energy' message is shown."}

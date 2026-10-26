@@ -1,0 +1,7317 @@
+{
+ "rows": [
+  {
+   "npc_id": 9500000004,
+   "name": "Black Widow, Frostfang Bat, Necrowart Zombie",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "unanchored",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 2808,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1551",
+     "position": [
+      -526.7878,
+      -79.27337,
+      2375.884
+     ],
+     "heading": 2.332662,
+     "model": "necrowartzombie_01.adr",
+     "model_id": 71,
+     "name_id": 435682,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 2813,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1556",
+     "position": [
+      -539.639,
+      -81.27294,
+      2348.67
+     ],
+     "heading": -2.093208,
+     "model": "necrowartzombie_01.adr",
+     "model_id": 71,
+     "name_id": 46015,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 2814,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1557",
+     "position": [
+      -560.9069,
+      -83.12202,
+      2332.465
+     ],
+     "heading": -0.4058,
+     "model": "necrowartzombie_01.adr",
+     "model_id": 71,
+     "name_id": 46015,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 2815,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1558",
+     "position": [
+      -583.0389,
+      -78.67696,
+      2349.433
+     ],
+     "heading": 1.041425,
+     "model": "necrowartzombie_01.adr",
+     "model_id": 71,
+     "name_id": 46015,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 2816,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1559",
+     "position": [
+      -587.3937,
+      -77.74922,
+      2351.492
+     ],
+     "heading": 0.533224,
+     "model": "necrowartzombie_01.adr",
+     "model_id": 71,
+     "name_id": 46015,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 2818,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1561",
+     "position": [
+      -602.4512,
+      -65.77786,
+      2418.177
+     ],
+     "heading": -2.472218,
+     "model": "necrowartzombie_01.adr",
+     "model_id": 71,
+     "name_id": 46015,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 2819,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1562",
+     "position": [
+      -607.9981,
+      -58.67644,
+      2477.097
+     ],
+     "heading": -3.100541,
+     "model": "necrowartzombie_01.adr",
+     "model_id": 71,
+     "name_id": 46015,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 2820,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1563",
+     "position": [
+      -613.5771,
+      -65.45231,
+      2433.42
+     ],
+     "heading": -3.134965,
+     "model": "necrowartzombie_01.adr",
+     "model_id": 71,
+     "name_id": 46015,
+     "near_zone": "Briarwood"
+    }
+   ],
+   "more": 23
+  },
+  {
+   "npc_id": 9500000012,
+   "name": "Ceard Bauchlog",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": null,
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 1436,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:203",
+     "position": [
+      20.16929,
+      61.1441,
+      1230.149
+     ],
+     "heading": 1.513423,
+     "model": "fairy_druid_m.adr",
+     "model_id": 468,
+     "name_id": 45356,
+     "near_zone": "Shrouded Glade"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000014,
+   "name": "Cragara",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33624,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+     "position": [
+      130.87897,
+      28.729305,
+      290.85706
+     ],
+     "heading": -0.0971219953,
+     "model": "sogg_f_vendor.adr",
+     "model_id": 4103,
+     "name_id": 440941,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000026,
+   "name": "Finn",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": null,
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33317,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3548",
+     "position": [
+      -1379.1588,
+      -27.138494,
+      320.17468
+     ],
+     "heading": -2.97621297,
+     "model": "human_m_hooligan_brawler_01.agr",
+     "model_id": 203,
+     "name_id": 15904,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000028,
+   "name": "Ghost Dwarf",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "poi_anchor",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1495,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:262",
+     "position": [
+      -2602.795,
+      -5.901349,
+      1033.888
+     ],
+     "heading": -0.613554,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1496,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:263",
+     "position": [
+      -2596.219,
+      -6.335258,
+      1016.656
+     ],
+     "heading": 3.073844,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1497,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:264",
+     "position": [
+      -2608.003,
+      -5.209119,
+      1012.16
+     ],
+     "heading": -2.085425,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1498,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:265",
+     "position": [
+      -2595.438,
+      -6.758137,
+      999.7724
+     ],
+     "heading": 0.628118,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1499,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:266",
+     "position": [
+      -2593.598,
+      -7.084825,
+      1008.158
+     ],
+     "heading": 0.602808,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1500,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:267",
+     "position": [
+      -2566.975,
+      -11.21213,
+      1022.469
+     ],
+     "heading": 0.203895,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1501,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:268",
+     "position": [
+      -2556.717,
+      -11.5356,
+      996.369
+     ],
+     "heading": -0.372997,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1502,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:269",
+     "position": [
+      -2570.158,
+      -10.79445,
+      977.9017
+     ],
+     "heading": 0.400443,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    }
+   ],
+   "more": 6
+  },
+  {
+   "npc_id": 9500000031,
+   "name": "Grave Elemental",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1598,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:365",
+     "position": [
+      -2410.785,
+      -31.72892,
+      1166.84
+     ],
+     "heading": -0.342754,
+     "model": "graveelemental_m_skullwgraves.adr",
+     "model_id": 767,
+     "name_id": 115851,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1600,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:367",
+     "position": [
+      -2331.957,
+      -33.21231,
+      1264.54
+     ],
+     "heading": 0.038812,
+     "model": "graveelemental_m_skullwgraves.adr",
+     "model_id": 767,
+     "name_id": 115851,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1601,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:368",
+     "position": [
+      -2351.319,
+      -31.62947,
+      1335.161
+     ],
+     "heading": 1.947657,
+     "model": "graveelemental_m_skullwgraves.adr",
+     "model_id": 767,
+     "name_id": 115851,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 6269,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3466",
+     "position": [
+      -1964.728,
+      -29.1638,
+      1362.979
+     ],
+     "heading": 2.361309,
+     "model": "graveelemental_m_skullwgraves.adr",
+     "model_id": 767,
+     "name_id": 115851,
+     "near_zone": "Merry Vale"
+    },
+    {
+     "ref_id": 6491,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3527",
+     "position": [
+      -2003.164,
+      -26.91214,
+      1354.11
+     ],
+     "heading": -0.687727,
+     "model": "graveelemental_m_skullwgraves.adr",
+     "model_id": 767,
+     "name_id": 115851,
+     "near_zone": "Merry Vale"
+    },
+    {
+     "ref_id": 6492,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3528",
+     "position": [
+      -1991.092,
+      -25.53575,
+      1391.893
+     ],
+     "heading": -0.184733,
+     "model": "graveelemental_m_skullwgraves.adr",
+     "model_id": 767,
+     "name_id": 115851,
+     "near_zone": "Merry Vale"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000048,
+   "name": "Mucklewhump",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1477,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:244",
+     "position": [
+      -1868.771,
+      -30.77075,
+      1017.258
+     ],
+     "heading": -1.536313,
+     "model": "humanelder_m_peacoat.adr",
+     "model_id": 25,
+     "name_id": 45287,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 6483,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3523",
+     "position": [
+      -1921.144,
+      -29.9998,
+      1326.902
+     ],
+     "heading": -0.201926,
+     "model": "humanelder_m_peacoat.adr",
+     "model_id": 25,
+     "name_id": 45287,
+     "near_zone": "Merry Vale"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000428,
+   "name": "Petra",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1465,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:232",
+     "position": [
+      -2011.982,
+      -31.86402,
+      882.155
+     ],
+     "heading": 0.710098,
+     "model": "fairy_f_freestyle_01.agr",
+     "model_id": 356,
+     "name_id": 72450,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 6312,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3479",
+     "position": [
+      -1889.097,
+      -22.72067,
+      1333.628
+     ],
+     "heading": 0.312393,
+     "model": "human_f_gloam_agent.agr",
+     "model_id": 733,
+     "name_id": 72450,
+     "near_zone": "Merry Vale"
+    },
+    {
+     "ref_id": 6471,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3518",
+     "position": [
+      -1930.748,
+      -28.57894,
+      1369.943
+     ],
+     "heading": -2.855895,
+     "model": "human_f_gloam_agent.agr",
+     "model_id": 733,
+     "name_id": 72450,
+     "near_zone": "Merry Vale"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000057,
+   "name": "Pumpkin Prince",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "poi_anchor",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1233,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:32",
+     "position": [
+      -378.7684,
+      -89.99183,
+      2354.657
+     ],
+     "heading": 0.907319,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 4494,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3158",
+     "position": [
+      -567.3053,
+      -46.55141,
+      -1273.019
+     ],
+     "heading": -0.088464,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 4581,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3216",
+     "position": [
+      -2630.044,
+      0.04002605,
+      -231.2343
+     ],
+     "heading": 3.086061,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 4878,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3445",
+     "position": [
+      -1984.427,
+      -31.99463,
+      929.7799
+     ],
+     "heading": 1.180217,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 4879,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3446",
+     "position": [
+      -1984.427,
+      -31.99463,
+      929.7799
+     ],
+     "heading": 1.180217,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 18550,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3974",
+     "position": [
+      -2660.422,
+      0.03999999,
+      -276.555
+     ],
+     "heading": 2.833199,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 30221,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4182",
+     "position": [
+      -558.7584,
+      -45.52362,
+      -1258.766
+     ],
+     "heading": -1.933234,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 30222,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4183",
+     "position": [
+      -558.7584,
+      -45.52362,
+      -1258.766
+     ],
+     "heading": -1.933234,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Seaside"
+    }
+   ],
+   "more": 1
+  },
+  {
+   "npc_id": 9500000069,
+   "name": "Tiger the Party Animal",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33790,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3974",
+     "position": [
+      309.24753,
+      27.300243,
+      464.9833
+     ],
+     "heading": 0.23715501,
+     "model": "human_m_tiger_the_party_animal_holiday.agr",
+     "model_id": 1963,
+     "name_id": 420171,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000073,
+   "name": "Tormented Spirit",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1590,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:357",
+     "position": [
+      -2303.239,
+      -30.33503,
+      1078.982
+     ],
+     "heading": -0.243176,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": 76190,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1591,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:358",
+     "position": [
+      -2506.668,
+      -21.0174,
+      1121.119
+     ],
+     "heading": 1.650492,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": 76190,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1592,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:359",
+     "position": [
+      -2524.228,
+      -14.94545,
+      1166.656
+     ],
+     "heading": -2.324454,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": 76190,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1599,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:366",
+     "position": [
+      -2361.116,
+      -31.8949,
+      1141.722
+     ],
+     "heading": 0.50589,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": 76190,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 1604,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:371",
+     "position": [
+      -1772.077,
+      -31.57855,
+      1009.609
+     ],
+     "heading": 1.4764,
+     "model": "ghostdwarf_m_miner_01.adr",
+     "model_id": 10,
+     "name_id": 76190,
+     "near_zone": "Blackspore Swamp"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000075,
+   "name": "Troll bone shaman",
+   "file": "npcs/blackspore_swamp.json",
+   "zone": "Blackspore Swamp",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 3149,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1892",
+     "position": [
+      -343.084,
+      1.436595,
+      1180.348
+     ],
+     "heading": 2.37082,
+     "model": "troll_shaman.adr",
+     "model_id": 168,
+     "name_id": 72269,
+     "near_zone": "Wilds"
+    },
+    {
+     "ref_id": 3150,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1893",
+     "position": [
+      -259.1032,
+      0.5111136,
+      1120.674
+     ],
+     "heading": 0.315386,
+     "model": "troll_shaman.adr",
+     "model_id": 168,
+     "name_id": 72269,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000083,
+   "name": "Admiral Fishfinder",
+   "file": "npcs/briarwood.json",
+   "zone": "Briarwood",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2852,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1595",
+     "position": [
+      -474.5913,
+      -89.65859,
+      2389.419
+     ],
+     "heading": -0.309304,
+     "model": "fairy_f_pirate_01.agr",
+     "model_id": 2116,
+     "name_id": 427718,
+     "near_zone": "Briarwood"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000048,
+   "name": "Clack",
+   "file": "npcs/briarwood.json",
+   "zone": "Briarwood",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1981,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:738",
+     "position": [
+      10.7603,
+      -15.1347,
+      -1200.131
+     ],
+     "heading": 2.971979,
+     "model": "human_m_merchant_kart.agr",
+     "model_id": 4615,
+     "name_id": 5102704,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 2683,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1426",
+     "position": [
+      -268.8113,
+      -58.81412,
+      1960.01
+     ],
+     "heading": -0.992332,
+     "model": "human_m_merchant_kart.agr",
+     "model_id": 4615,
+     "name_id": 5102704,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 3008,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1751",
+     "position": [
+      -263.3755,
+      -0.1753449,
+      -33.16072
+     ],
+     "heading": 1.378953,
+     "model": "human_m_merchant_kart.agr",
+     "model_id": 4615,
+     "name_id": 5102704,
+     "near_zone": "Wilds"
+    },
+    {
+     "ref_id": 3024,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1767",
+     "position": [
+      -2255.84,
+      -15.0807,
+      666.7856
+     ],
+     "heading": 2.466891,
+     "model": "human_m_merchant_kart.agr",
+     "model_id": 4615,
+     "name_id": 5102704,
+     "near_zone": "Wilds"
+    },
+    {
+     "ref_id": 3040,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1783",
+     "position": [
+      -932.1126,
+      -38.54583,
+      1207.782
+     ],
+     "heading": -2.626411,
+     "model": "human_m_merchant_kart.agr",
+     "model_id": 4615,
+     "name_id": 5102704,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000113,
+   "name": "Cragara",
+   "file": "npcs/briarwood.json",
+   "zone": "Briarwood",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33624,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+     "position": [
+      130.87897,
+      28.729305,
+      290.85706
+     ],
+     "heading": -0.0971219953,
+     "model": "sogg_f_vendor.adr",
+     "model_id": 4103,
+     "name_id": 440941,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000067,
+   "name": "Darkthorne",
+   "file": "npcs/briarwood.json",
+   "zone": "Briarwood",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 6445,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3507",
+     "position": [
+      -1937.508,
+      -28.38262,
+      1376.731
+     ],
+     "heading": 2.995849,
+     "model": "fairy_darkthorne_f.adr",
+     "model_id": 353,
+     "name_id": 441292,
+     "near_zone": "Merry Vale"
+    },
+    {
+     "ref_id": 31601,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4216",
+     "position": [
+      53.51334,
+      -30.27514,
+      2824.951
+     ],
+     "heading": -2.03051,
+     "model": "fairy_darkthorne_f.adr",
+     "model_id": 353,
+     "name_id": 91522,
+     "near_zone": "Briarwood"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000153,
+   "name": "Kade Carmichael",
+   "file": "npcs/briarwood.json",
+   "zone": "Briarwood",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2679,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1422",
+     "position": [
+      -295.7332,
+      -60.97827,
+      1949.605
+     ],
+     "heading": 0.158672,
+     "model": "human_m_kade_carmichael.agr",
+     "model_id": 833,
+     "name_id": 101924,
+     "near_zone": "Briarwood"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000164,
+   "name": "Linx Redline",
+   "file": "npcs/briarwood.json",
+   "zone": "Briarwood",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3015,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1758",
+     "position": [
+      -2256.326,
+      -16.37272,
+      572.4272
+     ],
+     "heading": 2.544222,
+     "model": "fairy_m_linx_redline.agr",
+     "model_id": 1300,
+     "name_id": 394366,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000409,
+   "name": "Mirana Vega",
+   "file": "npcs/briarwood.json",
+   "zone": "Briarwood",
+   "placement": "poi_anchor",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 2690,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1433",
+     "position": [
+      -264.8383,
+      -58.79239,
+      1939.726
+     ],
+     "heading": 0.648712,
+     "model": "human_f_mirana_vega.agr",
+     "model_id": 825,
+     "name_id": null,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 3055,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1798",
+     "position": [
+      -901.8871,
+      -37.95869,
+      1228.794
+     ],
+     "heading": -2.520704,
+     "model": "human_f_mirana_vega.agr",
+     "model_id": 825,
+     "name_id": null,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000207,
+   "name": "Sera / Bella",
+   "file": "npcs/briarwood.json",
+   "zone": null,
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 1446,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:213",
+     "position": [
+      84.59488,
+      69.00154,
+      1265.582
+     ],
+     "heading": -2.270749,
+     "model": "fairy_druid_f.adr",
+     "model_id": 456,
+     "name_id": 45397,
+     "near_zone": "Shrouded Glade"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000229,
+   "name": "Vicki",
+   "file": "npcs/briarwood.json",
+   "zone": "Briarwood",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3775,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2454",
+     "position": [
+      -2159.124,
+      -47.03806,
+      152.1265
+     ],
+     "heading": 0.138117,
+     "model": "human_f_freestyle_10.agr",
+     "model_id": 551,
+     "name_id": 77630,
+     "near_zone": "Farnum Farmstead"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000244,
+   "name": "Aunt Daisy",
+   "file": "npcs/cobblestone_village.json",
+   "zone": "Cobblestone Village",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3216,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1959",
+     "position": [
+      -2183.565,
+      -31.23667,
+      341.9566
+     ],
+     "heading": -1.947352,
+     "model": "human_f_aunt_daisy.agr",
+     "model_id": 491,
+     "name_id": 41222,
+     "near_zone": "Farnum Farmstead"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000042,
+   "name": "Carlos Brazenfist",
+   "file": "npcs/cobblestone_village.json",
+   "zone": "Cobblestone Village",
+   "placement": "poi_anchor",
+   "match": "model",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2950,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1693",
+     "position": [
+      -1218.761,
+      -56.75885,
+      941.8796
+     ],
+     "heading": -2.799906,
+     "model": "human_m_carlos_brazenfist.agr",
+     "model_id": 964,
+     "name_id": 388481,
+     "near_zone": null
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000253,
+   "name": "One of Three",
+   "file": "npcs/cobblestone_village.json",
+   "zone": "Cobblestone Village",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4167,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2833",
+     "position": [
+      -2020.201,
+      -33.10506,
+      550.6256
+     ],
+     "heading": -2.629269,
+     "model": "human_m_wraith_white.agr",
+     "model_id": 4564,
+     "name_id": 5102446,
+     "near_zone": null
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000002048,
+   "name": "Racer Repair Guy",
+   "file": "npcs/cobblestone_village.json",
+   "zone": "Cobblestone Village",
+   "placement": "unanchored",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1989,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:746",
+     "position": [
+      9.070527,
+      -14.3751,
+      -1186.624
+     ],
+     "heading": 2.328677,
+     "model": "human_m_racer_repair_guy.agr",
+     "model_id": 968,
+     "name_id": null,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 2048,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:804",
+     "position": [
+      -1915.755,
+      -45.05808,
+      458.5376
+     ],
+     "heading": 0.70704,
+     "model": "human_m_racer_repair_guy.agr",
+     "model_id": 968,
+     "name_id": null,
+     "near_zone": "Cobblestone Village"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000267,
+   "name": "Aunt Daisy",
+   "file": "npcs/farnum_farmstead.json",
+   "zone": "Farnum Farmstead",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3216,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1959",
+     "position": [
+      -2183.565,
+      -31.23667,
+      341.9566
+     ],
+     "heading": -1.947352,
+     "model": "human_f_aunt_daisy.agr",
+     "model_id": 491,
+     "name_id": 41222,
+     "near_zone": "Farnum Farmstead"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000230,
+   "name": "Vicki",
+   "file": "npcs/farnum_farmstead.json",
+   "zone": "Farnum Farmstead",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3775,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2454",
+     "position": [
+      -2159.124,
+      -47.03806,
+      152.1265
+     ],
+     "heading": 0.138117,
+     "model": "human_f_freestyle_10.agr",
+     "model_id": 551,
+     "name_id": 77630,
+     "near_zone": "Farnum Farmstead"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000282,
+   "name": "Wompugg",
+   "file": "npcs/farnum_farmstead.json",
+   "zone": "Farnum Farmstead",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1625,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:392",
+     "position": [
+      52.63826,
+      24.74841,
+      -400.792
+     ],
+     "heading": -2.356695,
+     "model": "chugawug_f_01.adr",
+     "model_id": 13,
+     "name_id": 37719,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 3238,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1981",
+     "position": [
+      -2000.76,
+      -34.67512,
+      123.3521
+     ],
+     "heading": 1.873599,
+     "model": "chugawug_m_greenwood_archer_01.adr",
+     "model_id": 214,
+     "name_id": 37719,
+     "near_zone": "Farnum Farmstead"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000283,
+   "name": "Archer on Patrol",
+   "file": "npcs/greenwood_forest.json",
+   "zone": "Greenwood Forest",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 3457,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2200",
+     "position": [
+      -1929.629,
+      -37.86325,
+      -531.8728
+     ],
+     "heading": -0.401057,
+     "model": "chugawug_m_greenwood_archer_01.adr",
+     "model_id": 214,
+     "name_id": 78684,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 3484,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2227",
+     "position": [
+      -1997.063,
+      -38.14137,
+      -587.9037
+     ],
+     "heading": -2.30231,
+     "model": "chugawug_m_greenwood_archer_01.adr",
+     "model_id": 214,
+     "name_id": 78684,
+     "near_zone": "Greenwood Forest"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000294,
+   "name": "Chatty",
+   "file": "npcs/greenwood_forest.json",
+   "zone": "Greenwood Forest",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4630,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3264",
+     "position": [
+      -1556.533,
+      -40.64807,
+      -625.8194
+     ],
+     "heading": 0.355156,
+     "model": "chatdy.adr",
+     "model_id": 277,
+     "name_id": 5102985,
+     "near_zone": "Greenwood Forest"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000317,
+   "name": "One of Three",
+   "file": "npcs/greenwood_forest.json",
+   "zone": "Greenwood Forest",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4167,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2833",
+     "position": [
+      -2020.201,
+      -33.10506,
+      550.6256
+     ],
+     "heading": -2.629269,
+     "model": "human_m_wraith_white.agr",
+     "model_id": 4564,
+     "name_id": 5102446,
+     "near_zone": null
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000318,
+   "name": "Robbie",
+   "file": "npcs/greenwood_forest.json",
+   "zone": "Greenwood Forest",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4623,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3257",
+     "position": [
+      -1562.003,
+      -42.86308,
+      -452.6263
+     ],
+     "heading": -2.024974,
+     "model": "robgoblin_m_bobgoblin.adr",
+     "model_id": 1027,
+     "name_id": 429024,
+     "near_zone": "Greenwood Forest"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000326,
+   "name": "Bixie Guardian",
+   "file": "npcs/highroad_junction.json",
+   "zone": "Highroad Junction",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 2914,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1657",
+     "position": [
+      -636.2331,
+      2.502077,
+      260.9699
+     ],
+     "heading": 0.738397,
+     "model": "bixie_m_elite_guard_gloamed.adr",
+     "model_id": 4474,
+     "name_id": 442610,
+     "near_zone": "Highroad Junction"
+    },
+    {
+     "ref_id": 2915,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1658",
+     "position": [
+      -633.0662,
+      3.111485,
+      268.7455
+     ],
+     "heading": 2.832572,
+     "model": "bixie_m_elite_guard_gloamed.adr",
+     "model_id": 4474,
+     "name_id": 442610,
+     "near_zone": "Highroad Junction"
+    },
+    {
+     "ref_id": 2920,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1663",
+     "position": [
+      -672.7616,
+      2.510802,
+      299.6082
+     ],
+     "heading": -3.080756,
+     "model": "bixie_m_elite_guard_gloamed.adr",
+     "model_id": 4474,
+     "name_id": 442610,
+     "near_zone": "Sanctuary"
+    },
+    {
+     "ref_id": 2921,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1664",
+     "position": [
+      -706.0433,
+      4.311526,
+      287.9895
+     ],
+     "heading": 2.115529,
+     "model": "bixie_m_elite_guard_gloamed.adr",
+     "model_id": 4474,
+     "name_id": 442610,
+     "near_zone": "Sanctuary"
+    },
+    {
+     "ref_id": 2923,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1666",
+     "position": [
+      -709.8387,
+      3.901181,
+      278.6041
+     ],
+     "heading": 1.715717,
+     "model": "bixie_m_elite_guard_gloamed.adr",
+     "model_id": 4474,
+     "name_id": 442610,
+     "near_zone": "Sanctuary"
+    },
+    {
+     "ref_id": 2927,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1670",
+     "position": [
+      -703.343,
+      2.445144,
+      247.82
+     ],
+     "heading": 1.529741,
+     "model": "bixie_m_elite_guard_gloamed.adr",
+     "model_id": 4474,
+     "name_id": 442610,
+     "near_zone": "Sanctuary"
+    },
+    {
+     "ref_id": 2928,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1671",
+     "position": [
+      -694.8404,
+      3.506648,
+      281.8789
+     ],
+     "heading": -0.88239,
+     "model": "bixie_m_elite_guard_gloamed.adr",
+     "model_id": 4474,
+     "name_id": 442610,
+     "near_zone": "Sanctuary"
+    },
+    {
+     "ref_id": 2929,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1672",
+     "position": [
+      -680.5417,
+      3.164319,
+      296.1528
+     ],
+     "heading": 1.777988,
+     "model": "bixie_m_elite_guard_gloamed.adr",
+     "model_id": 4474,
+     "name_id": 442610,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 4
+  },
+  {
+   "npc_id": 9500000327,
+   "name": "Bixie Magus",
+   "file": "npcs/highroad_junction.json",
+   "zone": "Highroad Junction",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 2916,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1659",
+     "position": [
+      -638.3171,
+      2.662244,
+      265.7742
+     ],
+     "heading": 1.498136,
+     "model": "bixie_f_mage_gloamed.adr",
+     "model_id": 4473,
+     "name_id": 442609,
+     "near_zone": "Highroad Junction"
+    },
+    {
+     "ref_id": 2917,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1660",
+     "position": [
+      -634.6506,
+      3.206398,
+      273.135
+     ],
+     "heading": -3.050156,
+     "model": "bixie_f_mage_gloamed.adr",
+     "model_id": 4473,
+     "name_id": 442609,
+     "near_zone": "Highroad Junction"
+    },
+    {
+     "ref_id": 2918,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1661",
+     "position": [
+      -648.7844,
+      2.523717,
+      270.2076
+     ],
+     "heading": -0.956169,
+     "model": "bixie_f_mage_gloamed.adr",
+     "model_id": 4473,
+     "name_id": 442609,
+     "near_zone": "Highroad Junction"
+    },
+    {
+     "ref_id": 2919,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1662",
+     "position": [
+      -654.4032,
+      2.446656,
+      268.1571
+     ],
+     "heading": -0.03879,
+     "model": "bixie_f_mage_gloamed.adr",
+     "model_id": 4473,
+     "name_id": 442609,
+     "near_zone": "Highroad Junction"
+    },
+    {
+     "ref_id": 2922,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1665",
+     "position": [
+      -703.2348,
+      4.528131,
+      291.4861
+     ],
+     "heading": -2.924533,
+     "model": "bixie_f_mage_gloamed.adr",
+     "model_id": 4473,
+     "name_id": 442609,
+     "near_zone": "Sanctuary"
+    },
+    {
+     "ref_id": 2924,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1667",
+     "position": [
+      -648.1683,
+      2.445307,
+      254.2067
+     ],
+     "heading": -2.053536,
+     "model": "bixie_f_mage_gloamed.adr",
+     "model_id": 4473,
+     "name_id": 442609,
+     "near_zone": "Highroad Junction"
+    },
+    {
+     "ref_id": 2925,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1668",
+     "position": [
+      -649.5526,
+      2.44508,
+      247.5556
+     ],
+     "heading": 0.587134,
+     "model": "bixie_f_mage_gloamed.adr",
+     "model_id": 4473,
+     "name_id": 442609,
+     "near_zone": "Highroad Junction"
+    },
+    {
+     "ref_id": 2926,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1669",
+     "position": [
+      -676.7479,
+      2.445076,
+      246.9903
+     ],
+     "heading": 1.280542,
+     "model": "bixie_f_mage_gloamed.adr",
+     "model_id": 4473,
+     "name_id": 442609,
+     "near_zone": "Highroad Junction"
+    }
+   ],
+   "more": 3
+  },
+  {
+   "npc_id": 9500000329,
+   "name": "Bugawug Queen",
+   "file": "npcs/highroad_junction.json",
+   "zone": "Highroad Junction",
+   "placement": "poi_anchor",
+   "match": "model",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2913,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1656",
+     "position": [
+      -635.7705,
+      2.445744,
+      247.195
+     ],
+     "heading": 1.501029,
+     "model": "bixie_f_bugawugqueen.adr",
+     "model_id": 4472,
+     "name_id": null,
+     "near_zone": "Highroad Junction"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000330,
+   "name": "Chatty",
+   "file": "npcs/highroad_junction.json",
+   "zone": null,
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4630,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3264",
+     "position": [
+      -1556.533,
+      -40.64807,
+      -625.8194
+     ],
+     "heading": 0.355156,
+     "model": "chatdy.adr",
+     "model_id": 277,
+     "name_id": 5102985,
+     "near_zone": "Greenwood Forest"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000336,
+   "name": "Raven",
+   "file": "npcs/highroad_junction.json",
+   "zone": "Highroad Junction",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33770,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3965",
+     "position": [
+      245.53345,
+      28.44608,
+      489.7193
+     ],
+     "heading": -1.91985999,
+     "model": "birds_raven.adr",
+     "model_id": 198,
+     "name_id": 5159,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000338,
+   "name": "Two of Three",
+   "file": "npcs/highroad_junction.json",
+   "zone": "Highroad Junction",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4168,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2834",
+     "position": [
+      -245.2278,
+      3.118001,
+      578.0795
+     ],
+     "heading": -0.578828,
+     "model": "human_m_wraith_gray.agr",
+     "model_id": 4565,
+     "name_id": 5102447,
+     "near_zone": "Durango Zoo"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000339,
+   "name": "Alexander",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33535,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3757",
+     "position": [
+      -759.3783,
+      0.020418,
+      859.9176
+     ],
+     "heading": -1.99780999,
+     "model": "fairy_m_merchant_warrior_caucasian_fire.agr",
+     "model_id": 4562,
+     "name_id": 5102438,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000341,
+   "name": "Big Mike",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33468,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3690",
+     "position": [
+      -589.0522,
+      -0.579432,
+      954.71844
+     ],
+     "heading": 1.10142006,
+     "model": "human_m_freestyle_07.agr",
+     "model_id": 553,
+     "name_id": 103818,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000027,
+   "name": "Bluerose",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33479,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3701",
+     "position": [
+      -808.26825,
+      1.521399,
+      844.8542
+     ],
+     "heading": -3.14122605,
+     "model": "fairy_sanctuary_f.adr",
+     "model_id": 384,
+     "name_id": 19676,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000043,
+   "name": "Chaz Strongarm",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33466,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3688",
+     "position": [
+      -752.6455,
+      -0.037248,
+      841.50726
+     ],
+     "heading": -0.052078003,
+     "model": "fairy_m_chaz_strongarm.agr",
+     "model_id": 732,
+     "name_id": 117044,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000342,
+   "name": "Clark",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33315,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3547",
+     "position": [
+      -1372.6626,
+      -27.367382,
+      302.5252
+     ],
+     "heading": -1.17433299,
+     "model": "human_m_freestyle_05.agr",
+     "model_id": 558,
+     "name_id": 409940,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000343,
+   "name": "Dori Tendersole",
+   "file": "npcs/lakeshore.json",
+   "zone": null,
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33465,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3687",
+     "position": [
+      -763.651,
+      -0.379606,
+      861.4495
+     ],
+     "heading": -1.84007705,
+     "model": "fairy_f_freestyle_03.agr",
+     "model_id": 366,
+     "name_id": 36468,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000344,
+   "name": "Grasberg",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33506,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3728",
+     "position": [
+      -784.2302,
+      5.083301,
+      896.4583
+     ],
+     "heading": 1.73828101,
+     "model": "human_m_merchant_miner_african.agr",
+     "model_id": 4596,
+     "name_id": 5102559,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000348,
+   "name": "Kimi",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33478,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3700",
+     "position": [
+      -774.88715,
+      0.230093,
+      861.7282
+     ],
+     "heading": 2.34716702,
+     "model": "fairy_f_merchant_archer_caucasian_forest.agr",
+     "model_id": 4489,
+     "name_id": 5101986,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000349,
+   "name": "Kristane",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33533,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3755",
+     "position": [
+      -763.6466,
+      0.075717,
+      836.9289
+     ],
+     "heading": -0.780399958,
+     "model": "fairy_f_merchant_brawler_caucasian_skygoddess.agr",
+     "model_id": 4509,
+     "name_id": 5102201,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000351,
+   "name": "Lan Spryleaf",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33542,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3764",
+     "position": [
+      -762.4121,
+      3.577816,
+      885.152
+     ],
+     "heading": 1.78634404,
+     "model": "fairy_f_warrior_01.agr",
+     "model_id": 385,
+     "name_id": 76029,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000352,
+   "name": "Len Tyril",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33469,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3691",
+     "position": [
+      -610.0557,
+      -0.29669,
+      976.0766
+     ],
+     "heading": -2.22600006,
+     "model": "fairy_m_warrior_01.agr",
+     "model_id": 391,
+     "name_id": 76038,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000354,
+   "name": "Lorraine",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33476,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3698",
+     "position": [
+      -816.7909,
+      2.009025,
+      839.6132
+     ],
+     "heading": 0.83435801,
+     "model": "human_f_merchant_chef_african.agr",
+     "model_id": 4572,
+     "name_id": 5102506,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000355,
+   "name": "Masa",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33477,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3699",
+     "position": [
+      -782.4307,
+      5.557206,
+      892.12964
+     ],
+     "heading": 0.731347972,
+     "model": "fairy_m_merchant_blacksmith_asian_magma.agr",
+     "model_id": 4497,
+     "name_id": 5102119,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000146,
+   "name": "Merri De'Flor",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33538,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3760",
+     "position": [
+      -755.6111,
+      0.463986,
+      851.4252
+     ],
+     "heading": -2.40588683,
+     "model": "fairy_sanctuary_f.adr",
+     "model_id": 384,
+     "name_id": 19671,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000358,
+   "name": "Mister Nooklings",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33556,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3778",
+     "position": [
+      -724.5998,
+      10.11478,
+      910.71655
+     ],
+     "heading": -0.352139988,
+     "model": "human_m_freestyle_01.agr",
+     "model_id": 184,
+     "name_id": 19682,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000359,
+   "name": "Mort McFly",
+   "file": "npcs/lakeshore.json",
+   "zone": null,
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33571,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3793",
+     "position": [
+      -674.4438,
+      0.0039357557,
+      1019.27356
+     ],
+     "heading": -1.64757836,
+     "model": "fairy_m_warrior_01.agr",
+     "model_id": 391,
+     "name_id": 76040,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000360,
+   "name": "Natali",
+   "file": "npcs/lakeshore.json",
+   "zone": null,
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33545,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3767",
+     "position": [
+      -721.9529,
+      9.966442,
+      885.3096
+     ],
+     "heading": -0.604641049,
+     "model": "fairy_petulia_f.adr",
+     "model_id": 485,
+     "name_id": 388323,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000185,
+   "name": "Rourke Ironfist",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33534,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3756",
+     "position": [
+      -758.4285,
+      0.199004,
+      841.9175
+     ],
+     "heading": -0.0979499985,
+     "model": "human_m_hooligan_brawler_03.agr",
+     "model_id": 519,
+     "name_id": 22805,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000367,
+   "name": "Tyn Redwing",
+   "file": "npcs/lakeshore.json",
+   "zone": "Lakeshore",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33578,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3800",
+     "position": [
+      -588.3918,
+      0.27487227,
+      948.9176
+     ],
+     "heading": -0.702262902,
+     "model": "fairy_f_warrior_01.agr",
+     "model_id": 385,
+     "name_id": 76041,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000376,
+   "name": "Cragara",
+   "file": "npcs/merry_vale.json",
+   "zone": "Merry Vale",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33624,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+     "position": [
+      130.87897,
+      28.729305,
+      290.85706
+     ],
+     "heading": -0.0971219953,
+     "model": "sogg_f_vendor.adr",
+     "model_id": 4103,
+     "name_id": 440941,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000413,
+   "name": "Necronomicus",
+   "file": "npcs/merry_vale.json",
+   "zone": "Merry Vale",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3283,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2026",
+     "position": [
+      -840.8241,
+      -49.89272,
+      -696.3012
+     ],
+     "heading": 1.952378,
+     "model": "necronomicus_m.adr",
+     "model_id": 4220,
+     "name_id": 440729,
+     "near_zone": "Merry Vale"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000423,
+   "name": "Sammy",
+   "file": "npcs/merry_vale.json",
+   "zone": "Merry Vale",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 6470,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3517",
+     "position": [
+      -1925.786,
+      -29.49566,
+      1371.25
+     ],
+     "heading": -0.708575,
+     "model": "fairy_f_merchant_brawler_caucasian_skygoddess.agr",
+     "model_id": 4509,
+     "name_id": 74360,
+     "near_zone": "Merry Vale"
+    },
+    {
+     "ref_id": 6494,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3530",
+     "position": [
+      -1887.871,
+      -21.84596,
+      1331.965
+     ],
+     "heading": 0.106669,
+     "model": "fairy_f_merchant_brawler_caucasian_skygoddess.agr",
+     "model_id": 4509,
+     "name_id": 74360,
+     "near_zone": "Merry Vale"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000442,
+   "name": "Banter",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33086,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3377",
+     "position": [
+      -1554.0695,
+      -37.08123,
+      323.9954
+     ],
+     "heading": -1.99139,
+     "model": "fairy_m_farmer_01.adr",
+     "model_id": 32,
+     "name_id": 7581,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000444,
+   "name": "Barton",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33350,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3580",
+     "position": [
+      -1288.0,
+      -14.99535,
+      336.0
+     ],
+     "heading": -2.94020008,
+     "model": "human_m_burton_01.agr",
+     "model_id": 365,
+     "name_id": 10095,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000445,
+   "name": "Baxi Sparkletoes",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33426,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3650",
+     "position": [
+      -1272.5175,
+      -14.195691,
+      212.49059
+     ],
+     "heading": 1.389184,
+     "model": "fairy_sanctuary_f.adr",
+     "model_id": 384,
+     "name_id": 382902,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000446,
+   "name": "Bella",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33107,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3398",
+     "position": [
+      -1372.4197,
+      -28.62082,
+      185.58435
+     ],
+     "heading": -0.488419997,
+     "model": "fairy_sanctuary_f.adr",
+     "model_id": 384,
+     "name_id": 37189,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000448,
+   "name": "Bellis",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33431,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3655",
+     "position": [
+      -1271.1044,
+      -14.23458,
+      195.22244
+     ],
+     "heading": 0.668550012,
+     "model": "fairy_seaside_f_01.adr",
+     "model_id": 401,
+     "name_id": 70739,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000023,
+   "name": "Beth Callahan",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33357,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3587",
+     "position": [
+      -1379.9756,
+      -24.526918,
+      419.66104
+     ],
+     "heading": -1.838184,
+     "model": "human_f_medicstudent.agr",
+     "model_id": 824,
+     "name_id": 388395,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000450,
+   "name": "Bezzle",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33349,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3579",
+     "position": [
+      -1285.1818,
+      -14.385261,
+      341.38376
+     ],
+     "heading": 2.52264593,
+     "model": "robgoblin_m_banker.adr",
+     "model_id": 4106,
+     "name_id": 441072,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000454,
+   "name": "Brent",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33307,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3539",
+     "position": [
+      -1398.4119,
+      -29.4235,
+      279.55112
+     ],
+     "heading": -0.863035,
+     "model": "human_m_freestyle_11.agr",
+     "model_id": 557,
+     "name_id": 116863,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000455,
+   "name": "Bruce",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3549,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2292",
+     "position": [
+      -1405.09,
+      -34.49589,
+      496.5363
+     ],
+     "heading": -0.568856,
+     "model": "human_rockstar_m.adr",
+     "model_id": 20,
+     "name_id": 201,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000458,
+   "name": "Cadie",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33427,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3651",
+     "position": [
+      -1256.5768,
+      -14.196147,
+      229.7627
+     ],
+     "heading": -1.93813001,
+     "model": "fairy_seaside_f_01.adr",
+     "model_id": 401,
+     "name_id": 10094,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000464,
+   "name": "Coin Farmer Dang Dang",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33342,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3572",
+     "position": [
+      -1295.7673,
+      -14.00394,
+      318.4211
+     ],
+     "heading": 2.43222998,
+     "model": "chugawug_farmer_m.adr",
+     "model_id": 488,
+     "name_id": 429145,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000466,
+   "name": "Crofti",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33416,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3640",
+     "position": [
+      -1264.3824,
+      -14.225539,
+      276.819
+     ],
+     "heading": -1.81506396,
+     "model": "fairy_m_blacksmith_01.agr",
+     "model_id": 574,
+     "name_id": 10175,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000471,
+   "name": "Dusti Rodez",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33321,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3552",
+     "position": [
+      -1390.8529,
+      -26.98959,
+      349.9977
+     ],
+     "heading": -2.43903208,
+     "model": "fairy_farmer_f.adr",
+     "model_id": 377,
+     "name_id": 427443,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000473,
+   "name": "Edwin",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33433,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3657",
+     "position": [
+      -1250.3472,
+      -14.225539,
+      219.84692
+     ],
+     "heading": -2.00274491,
+     "model": "human_m_edwin.agr",
+     "model_id": 4748,
+     "name_id": 5102997,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000475,
+   "name": "Farmer Wug",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33161,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3452",
+     "position": [
+      -1443.4198,
+      -35.901257,
+      315.6108
+     ],
+     "heading": 0.118100999,
+     "model": "chugawug_farmer_m.adr",
+     "model_id": 488,
+     "name_id": 434638,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000086,
+   "name": "Felipe",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33390,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3614",
+     "position": [
+      -1276.9783,
+      -14.72255,
+      303.08456
+     ],
+     "heading": -0.771869999,
+     "model": "fairy_m_courier_01.agr",
+     "model_id": 442,
+     "name_id": 21276,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000478,
+   "name": "Finklestein",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33376,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3600",
+     "position": [
+      -1282.0,
+      -14.34194,
+      367.0
+     ],
+     "heading": 1.67903996,
+     "model": "human_m_costume_finklestein.agr",
+     "model_id": 1713,
+     "name_id": 415613,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000482,
+   "name": "Florina",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33306,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3538",
+     "position": [
+      -1399.3837,
+      -29.449934,
+      278.26196
+     ],
+     "heading": -0.901700003,
+     "model": "fairy_sanctuary_f.adr",
+     "model_id": 384,
+     "name_id": 45951,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000483,
+   "name": "Flurti",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33399,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3623",
+     "position": [
+      -1267.7494,
+      -14.28769,
+      331.39166
+     ],
+     "heading": -1.52144003,
+     "model": "fairy_sanctuary_m_01.adr",
+     "model_id": 398,
+     "name_id": 10088,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000485,
+   "name": "Ghost Hunter",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33338,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3568",
+     "position": [
+      -1303.5355,
+      -14.222798,
+      298.76352
+     ],
+     "heading": -0.167109002,
+     "model": "human_m_andrew.agr",
+     "model_id": 438,
+     "name_id": 416777,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000486,
+   "name": "Glitter",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33358,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3588",
+     "position": [
+      -1380.6334,
+      -24.553,
+      422.01578
+     ],
+     "heading": -2.2177999,
+     "model": "fairy_f_freestyle_glitter_01.agr",
+     "model_id": 362,
+     "name_id": 7609,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000489,
+   "name": "Guard Banee",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33453,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3676",
+     "position": [
+      -1216.3442,
+      3.7568169,
+      312.30713
+     ],
+     "heading": -0.894525974,
+     "model": "fairy_royalguard_m.adr",
+     "model_id": 345,
+     "name_id": 10079,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000490,
+   "name": "Guard Snapdragon",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33348,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3578",
+     "position": [
+      -1293.969,
+      -14.54378,
+      325.96902
+     ],
+     "heading": 1.99407995,
+     "model": "fairy_royalguard_m.adr",
+     "model_id": 345,
+     "name_id": 10100,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000492,
+   "name": "Gulsh",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33330,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3560",
+     "position": [
+      -1317.8207,
+      -37.87405,
+      309.27405
+     ],
+     "heading": -1.62969995,
+     "model": "troll_peasant_02.adr",
+     "model_id": 167,
+     "name_id": 10087,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000495,
+   "name": "Helga Humbleloaf",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33334,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3564",
+     "position": [
+      -1292.5607,
+      -14.222776,
+      278.35022
+     ],
+     "heading": 0.557256955,
+     "model": "human_f_chef_01.agr",
+     "model_id": 359,
+     "name_id": 23792,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000496,
+   "name": "Ikee",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33400,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3624",
+     "position": [
+      -1269.0454,
+      -14.28768,
+      339.73743
+     ],
+     "heading": -1.45788002,
+     "model": "fairy_sanctuary_m_01.adr",
+     "model_id": 398,
+     "name_id": 14699,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000498,
+   "name": "Jeni Shortfuse",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3698,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2378",
+     "position": [
+      370.6606,
+      115.225,
+      -8.103738
+     ],
+     "heading": -0.220287,
+     "model": "human_f_freestyle_06.agr",
+     "model_id": 548,
+     "name_id": 22808,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000499,
+   "name": "Jestin",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33392,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3616",
+     "position": [
+      -1266.5746,
+      -14.34303,
+      294.57748
+     ],
+     "heading": -0.742749979,
+     "model": "fairy_m_freestyle_jestin_01.agr",
+     "model_id": 361,
+     "name_id": 7606,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000501,
+   "name": "Kara Loft",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33313,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3545",
+     "position": [
+      -1360.5583,
+      -30.573048,
+      267.5858
+     ],
+     "heading": 0.923382988,
+     "model": "human_f_kara_loft.agr",
+     "model_id": 4606,
+     "name_id": 5102585,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000502,
+   "name": "Kellin Warpwatcher",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33168,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3459",
+     "position": [
+      -1424.6484,
+      -28.323662,
+      346.41522
+     ],
+     "heading": 2.82232961,
+     "model": "fairy_druid_m.adr",
+     "model_id": 468,
+     "name_id": 384749,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000376,
+   "name": "Lavarius Sparksizzle",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33441,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3665",
+     "position": [
+      -1240.8615,
+      -14.19615,
+      196.12605
+     ],
+     "heading": -2.00905992,
+     "model": "fairy_m_gilly.adr",
+     "model_id": 762,
+     "name_id": 79014,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000506,
+   "name": "Morninglory",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33718,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3929",
+     "position": [
+      261.79507,
+      48.96282,
+      211.63281
+     ],
+     "heading": 0.349949977,
+     "model": "fairy_f_morninglory.agr",
+     "model_id": 731,
+     "name_id": 16826,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000507,
+   "name": "Napoleon",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33406,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3630",
+     "position": [
+      -1268.7357,
+      -14.196147,
+      272.35593
+     ],
+     "heading": -0.244037996,
+     "model": "fairy_m_old_01.adr",
+     "model_id": 30,
+     "name_id": 391444,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000508,
+   "name": "Necronomicus",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3283,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2026",
+     "position": [
+      -840.8241,
+      -49.89272,
+      -696.3012
+     ],
+     "heading": 1.952378,
+     "model": "necronomicus_m.adr",
+     "model_id": 4220,
+     "name_id": 440729,
+     "near_zone": "Merry Vale"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000510,
+   "name": "One of Three",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4167,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2833",
+     "position": [
+      -2020.201,
+      -33.10506,
+      550.6256
+     ],
+     "heading": -2.629269,
+     "model": "human_m_wraith_white.agr",
+     "model_id": 4564,
+     "name_id": 5102446,
+     "near_zone": null
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000511,
+   "name": "Orchid",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33434,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3658",
+     "position": [
+      -1265.861,
+      -14.19592,
+      191.88835
+     ],
+     "heading": 1.22878099,
+     "model": "fairy_sanctuary_f.adr",
+     "model_id": 384,
+     "name_id": 14700,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000164,
+   "name": "Osgood",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33446,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3670",
+     "position": [
+      -1238.1771,
+      -14.19615,
+      190.59244
+     ],
+     "heading": -1.83369003,
+     "model": "fairy_m_osgood.adr",
+     "model_id": 764,
+     "name_id": 45555,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000513,
+   "name": "Posey",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33339,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3569",
+     "position": [
+      -1288.7145,
+      -14.6931,
+      295.96365
+     ],
+     "heading": -1.88986005,
+     "model": "fairychild_f_pigtailsdress.adr",
+     "model_id": 241,
+     "name_id": 10089,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000514,
+   "name": "Preston Daly",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33320,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3551",
+     "position": [
+      -1391.5509,
+      -27.172358,
+      334.9232
+     ],
+     "heading": -1.16716897,
+     "model": "human_m_manager_landon.agr",
+     "model_id": 1457,
+     "name_id": 422709,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000516,
+   "name": "Pumpkin Prince",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1233,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:32",
+     "position": [
+      -378.7684,
+      -89.99183,
+      2354.657
+     ],
+     "heading": 0.907319,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 4494,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3158",
+     "position": [
+      -567.3053,
+      -46.55141,
+      -1273.019
+     ],
+     "heading": -0.088464,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 4581,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3216",
+     "position": [
+      -2630.044,
+      0.04002605,
+      -231.2343
+     ],
+     "heading": 3.086061,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 4878,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3445",
+     "position": [
+      -1984.427,
+      -31.99463,
+      929.7799
+     ],
+     "heading": 1.180217,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 4879,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3446",
+     "position": [
+      -1984.427,
+      -31.99463,
+      929.7799
+     ],
+     "heading": 1.180217,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 18550,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3974",
+     "position": [
+      -2660.422,
+      0.03999999,
+      -276.555
+     ],
+     "heading": 2.833199,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 30221,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4182",
+     "position": [
+      -558.7584,
+      -45.52362,
+      -1258.766
+     ],
+     "heading": -1.933234,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 30222,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4183",
+     "position": [
+      -558.7584,
+      -45.52362,
+      -1258.766
+     ],
+     "heading": -1.933234,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Seaside"
+    }
+   ],
+   "more": 1
+  },
+  {
+   "npc_id": 9500000519,
+   "name": "Queen Valerian",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 6424,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3500",
+     "position": [
+      -1926.797,
+      -29.87762,
+      1380.797
+     ],
+     "heading": -2.80582,
+     "model": "fairy_queenvalerian.adr",
+     "model_id": 400,
+     "name_id": 130547,
+     "near_zone": "Merry Vale"
+    },
+    {
+     "ref_id": 31331,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4184",
+     "position": [
+      -1054.135,
+      4.629629,
+      305.7209
+     ],
+     "heading": -1.496669,
+     "model": "fairy_queenvalerian.adr",
+     "model_id": 400,
+     "name_id": 130547,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000523,
+   "name": "Rio Cloudjumps",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33326,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3557",
+     "position": [
+      -1353.3813,
+      -24.40232,
+      326.98505
+     ],
+     "heading": 0.945779966,
+     "model": "human_m_wizard_rio.agr",
+     "model_id": 525,
+     "name_id": 430047,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000184,
+   "name": "Roscoe",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33116,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3407",
+     "position": [
+      -1386.3351,
+      -30.39162,
+      242.65764
+     ],
+     "heading": -0.376160001,
+     "model": "human_m_freestyle_01.agr",
+     "model_id": 184,
+     "name_id": 78660,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000525,
+   "name": "Rose",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33440,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3664",
+     "position": [
+      -1275.1486,
+      -14.33461,
+      390.1828
+     ],
+     "heading": 1.85735,
+     "model": "fairy_sanctuary_f.adr",
+     "model_id": 384,
+     "name_id": 10073,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000527,
+   "name": "Ruby",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33422,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3646",
+     "position": [
+      -1274.8175,
+      -14.195748,
+      218.83417
+     ],
+     "heading": 1.10833202,
+     "model": "fairy_sanctuary_f.adr",
+     "model_id": 384,
+     "name_id": 15413,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000190,
+   "name": "Sandbur",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33449,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3673",
+     "position": [
+      -1231.0,
+      4.94757,
+      349.0
+     ],
+     "heading": 1.86758008,
+     "model": "changeling_m.adr",
+     "model_id": 179,
+     "name_id": 10090,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000532,
+   "name": "Sergeant Larkspur",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33143,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3434",
+     "position": [
+      -1479.0936,
+      -33.065235,
+      338.74832
+     ],
+     "heading": -2.26485398,
+     "model": "fairy_royalguard_m.adr",
+     "model_id": 345,
+     "name_id": 441907,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000534,
+   "name": "Skelly",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33438,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3662",
+     "position": [
+      -1263.0421,
+      -13.7635,
+      370.0121
+     ],
+     "heading": -1.24565005,
+     "model": "fairy_m_costume_skelly.agr",
+     "model_id": 1708,
+     "name_id": 415500,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000535,
+   "name": "Speedy",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33165,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3456",
+     "position": [
+      -1414.1581,
+      -30.63569,
+      287.13123
+     ],
+     "heading": 1.02903392,
+     "model": "fairy_m_freestyle_speedy_01.agr",
+     "model_id": 363,
+     "name_id": 7608,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000537,
+   "name": "Sunstone Jones",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33445,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3669",
+     "position": [
+      -1231.4524,
+      5.534741,
+      327.4739
+     ],
+     "heading": 2.40545105,
+     "model": "human_m_sunstone_jones.agr",
+     "model_id": 4605,
+     "name_id": 5102577,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000540,
+   "name": "Tiger the Party Animal",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33790,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3974",
+     "position": [
+      309.24753,
+      27.300243,
+      464.9833
+     ],
+     "heading": 0.23715501,
+     "model": "human_m_tiger_the_party_animal_holiday.agr",
+     "model_id": 1963,
+     "name_id": 420171,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000543,
+   "name": "Wake",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33393,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3617",
+     "position": [
+      -1266.9845,
+      -14.225539,
+      290.2942
+     ],
+     "heading": -1.237623,
+     "model": "human_f_merchant_postman_african.agr",
+     "model_id": 4545,
+     "name_id": 5102400,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500001008,
+   "name": "Hasti",
+   "file": "npcs/sanctuary.json",
+   "zone": "Sanctuary",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3016,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1759",
+     "position": [
+      -2252.73,
+      -15.94524,
+      564.0553
+     ],
+     "heading": -0.250152,
+     "model": "fairychild_m_mohawkshorts.adr",
+     "model_id": 242,
+     "name_id": 46273,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000546,
+   "name": "Acade Vulgari",
+   "file": "npcs/seaside.json",
+   "zone": "Seaside",
+   "placement": "poi_anchor",
+   "match": "model",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 1818,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:578",
+     "position": [
+      -889.0414,
+      -31.02455,
+      -1139.41
+     ],
+     "heading": -1.52467,
+     "model": "human_m_acade_vulgari.agr",
+     "model_id": 771,
+     "name_id": null,
+     "near_zone": "Seaside"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000547,
+   "name": "Admiral Fishfinder",
+   "file": "npcs/seaside.json",
+   "zone": null,
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2852,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1595",
+     "position": [
+      -474.5913,
+      -89.65859,
+      2389.419
+     ],
+     "heading": -0.309304,
+     "model": "fairy_f_pirate_01.agr",
+     "model_id": 2116,
+     "name_id": 427718,
+     "near_zone": "Briarwood"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000556,
+   "name": "Baron von Darkcheat",
+   "file": "npcs/seaside.json",
+   "zone": "Seaside",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3579,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2322",
+     "position": [
+      578.1666,
+      49.00199,
+      478.8249
+     ],
+     "heading": -2.996206,
+     "model": "dwarf_darkcheat.adr",
+     "model_id": 3883,
+     "name_id": 294,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000563,
+   "name": "Burglz",
+   "file": "npcs/seaside.json",
+   "zone": "Seaside",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1880,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:638",
+     "position": [
+      -402.0145,
+      10.66704,
+      -1143.474
+     ],
+     "heading": -1.193559,
+     "model": "robgoblin_m_banker.adr",
+     "model_id": 4106,
+     "name_id": 441415,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 3120,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1863",
+     "position": [
+      -540.8602,
+      0.08854178,
+      1358.897
+     ],
+     "heading": 2.590048,
+     "model": "troll_peasant_02.adr",
+     "model_id": 167,
+     "name_id": 441415,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000565,
+   "name": "Captain Sunspark",
+   "file": "npcs/seaside.json",
+   "zone": "Seaside",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2378,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1121",
+     "position": [
+      -1164.294,
+      5.642769,
+      227.7217
+     ],
+     "heading": -0.842952,
+     "model": "fairy_royalguard_m.adr",
+     "model_id": 345,
+     "name_id": 437145,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000566,
+   "name": "Chip Numbwing",
+   "file": "npcs/seaside.json",
+   "zone": "Seaside",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33649,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3868",
+     "position": [
+      130.76355,
+      25.065687,
+      392.58667
+     ],
+     "heading": 3.07680798,
+     "model": "fairy_m_chip_numbwing.agr",
+     "model_id": 1585,
+     "name_id": 408638,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000569,
+   "name": "Cragara",
+   "file": "npcs/seaside.json",
+   "zone": "Seaside",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33624,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+     "position": [
+      130.87897,
+      28.729305,
+      290.85706
+     ],
+     "heading": -0.0971219953,
+     "model": "sogg_f_vendor.adr",
+     "model_id": 4103,
+     "name_id": 440941,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000574,
+   "name": "Doctor Gordon",
+   "file": "npcs/seaside.json",
+   "zone": null,
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2339,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1083",
+     "position": [
+      -1166.028,
+      6.622923,
+      373.1792
+     ],
+     "heading": -3.029897,
+     "model": "human_m_doctor_gordon.agr",
+     "model_id": 506,
+     "name_id": 7610,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000613,
+   "name": "Petal Oceanmist",
+   "file": "npcs/seaside.json",
+   "zone": null,
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2990,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1733",
+     "position": [
+      -241.1461,
+      1.178117,
+      -62.66587
+     ],
+     "heading": -0.091501,
+     "model": "fairy_f_valinda.adr",
+     "model_id": 36,
+     "name_id": 394904,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000641,
+   "name": "Ty",
+   "file": "npcs/seaside.json",
+   "zone": "Seaside",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3081,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1824",
+     "position": [
+      -798.9908,
+      -4.9022,
+      703.8625
+     ],
+     "heading": 0.067937,
+     "model": "human_m_ty_downtrodden.agr",
+     "model_id": 907,
+     "name_id": 5101579,
+     "near_zone": "Lakeshore"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000001989,
+   "name": "Racer Repair Guy",
+   "file": "npcs/seaside.json",
+   "zone": "Seaside",
+   "placement": "unanchored",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1989,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:746",
+     "position": [
+      9.070527,
+      -14.3751,
+      -1186.624
+     ],
+     "heading": 2.328677,
+     "model": "human_m_racer_repair_guy.agr",
+     "model_id": 968,
+     "name_id": null,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 2048,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:804",
+     "position": [
+      -1915.755,
+      -45.05808,
+      458.5376
+     ],
+     "heading": 0.70704,
+     "model": "human_m_racer_repair_guy.agr",
+     "model_id": 968,
+     "name_id": null,
+     "near_zone": "Cobblestone Village"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000657,
+   "name": "Captain Sunspark",
+   "file": "npcs/shrouded_glade.json",
+   "zone": "Shrouded Glade",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2378,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1121",
+     "position": [
+      -1164.294,
+      5.642769,
+      227.7217
+     ],
+     "heading": -0.842952,
+     "model": "fairy_royalguard_m.adr",
+     "model_id": 345,
+     "name_id": 437145,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000658,
+   "name": "Ceard Bauchlog",
+   "file": "npcs/shrouded_glade.json",
+   "zone": "Shrouded Glade",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 1436,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:203",
+     "position": [
+      20.16929,
+      61.1441,
+      1230.149
+     ],
+     "heading": 1.513423,
+     "model": "fairy_druid_m.adr",
+     "model_id": 468,
+     "name_id": 45356,
+     "near_zone": "Shrouded Glade"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000686,
+   "name": "Golmie Greasebeard",
+   "file": "npcs/shrouded_glade.json",
+   "zone": "Shrouded Glade",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3842,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2509",
+     "position": [
+      473.0612,
+      65.21813,
+      1743.415
+     ],
+     "heading": 0.024154,
+     "model": "dwarf_engineer.adr",
+     "model_id": 3954,
+     "name_id": 439687,
+     "near_zone": "Shrouded Glade"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000690,
+   "name": "Headmaster Merk",
+   "file": "npcs/shrouded_glade.json",
+   "zone": "Shrouded Glade",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 3841,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2508",
+     "position": [
+      482.1476,
+      65.42416,
+      1747.054
+     ],
+     "heading": -1.705207,
+     "model": "fairy_druid_m_factionleader.adr",
+     "model_id": 3952,
+     "name_id": 45386,
+     "near_zone": "Shrouded Glade"
+    },
+    {
+     "ref_id": 6447,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3509",
+     "position": [
+      -1933.319,
+      -29.62409,
+      1383.19
+     ],
+     "heading": -2.90778,
+     "model": "fairy_druid_m_factionleader.adr",
+     "model_id": 3952,
+     "name_id": 45386,
+     "near_zone": "Merry Vale"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000699,
+   "name": "Little J",
+   "file": "npcs/shrouded_glade.json",
+   "zone": "Shrouded Glade",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33621,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3842",
+     "position": [
+      117.473656,
+      22.357075,
+      431.42136
+     ],
+     "heading": 2.93926597,
+     "model": "fairychild_m_pointyhair.adr",
+     "model_id": 12,
+     "name_id": 5449,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000710,
+   "name": "Queen Valerian",
+   "file": "npcs/shrouded_glade.json",
+   "zone": "Shrouded Glade",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 6424,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3500",
+     "position": [
+      -1926.797,
+      -29.87762,
+      1380.797
+     ],
+     "heading": -2.80582,
+     "model": "fairy_queenvalerian.adr",
+     "model_id": 400,
+     "name_id": 130547,
+     "near_zone": "Merry Vale"
+    },
+    {
+     "ref_id": 31331,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4184",
+     "position": [
+      -1054.135,
+      4.629629,
+      305.7209
+     ],
+     "heading": -1.496669,
+     "model": "fairy_queenvalerian.adr",
+     "model_id": 400,
+     "name_id": 130547,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000712,
+   "name": "Sera Bella",
+   "file": "npcs/shrouded_glade.json",
+   "zone": "Shrouded Glade",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 1446,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:213",
+     "position": [
+      84.59488,
+      69.00154,
+      1265.582
+     ],
+     "heading": -2.270749,
+     "model": "fairy_druid_f.adr",
+     "model_id": 456,
+     "name_id": 45397,
+     "near_zone": "Shrouded Glade"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000725,
+   "name": "Annabelle",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33740,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3949",
+     "position": [
+      245.12933,
+      24.82404,
+      470.14413
+     ],
+     "heading": 2.67620994,
+     "model": "human_f_mary.agr",
+     "model_id": 439,
+     "name_id": 21849,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000726,
+   "name": "Arci Joan",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33709,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3923",
+     "position": [
+      293.91885,
+      25.35067,
+      355.42157
+     ],
+     "heading": -0.0215909989,
+     "model": "fairy_f_03.adr",
+     "model_id": 43,
+     "name_id": 391188,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000016,
+   "name": "Assistant Chef Edward",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33632,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3851",
+     "position": [
+      193.70468,
+      22.740154,
+      363.95743
+     ],
+     "heading": 0.508053002,
+     "model": "fairy_m_02.adr",
+     "model_id": 49,
+     "name_id": 90184,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000020,
+   "name": "Baron von Darkcheat",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3579,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2322",
+     "position": [
+      578.1666,
+      49.00199,
+      478.8249
+     ],
+     "heading": -2.996206,
+     "model": "dwarf_darkcheat.adr",
+     "model_id": 3883,
+     "name_id": 294,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000727,
+   "name": "Bert",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33688,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3902",
+     "position": [
+      221.56438,
+      27.782915,
+      433.13718
+     ],
+     "heading": -1.88184107,
+     "model": "penguin_bert.adr",
+     "model_id": 21,
+     "name_id": 177,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000024,
+   "name": "Big J",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33653,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3872",
+     "position": [
+      146.60031,
+      23.5477,
+      386.07446
+     ],
+     "heading": 3.09366989,
+     "model": "fairy_m_02.adr",
+     "model_id": 49,
+     "name_id": 6375,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000729,
+   "name": "Bruce",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3549,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2292",
+     "position": [
+      -1405.09,
+      -34.49589,
+      496.5363
+     ],
+     "heading": -0.568856,
+     "model": "human_rockstar_m.adr",
+     "model_id": 20,
+     "name_id": 201,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000732,
+   "name": "Calvin Coldcastle",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33615,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3836",
+     "position": [
+      120.38808,
+      22.07155,
+      378.245
+     ],
+     "heading": 2.25076006,
+     "model": "human_m_snowhill.adr",
+     "model_id": 837,
+     "name_id": 420397,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000736,
+   "name": "Chip Numbwing",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33649,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3868",
+     "position": [
+      130.76355,
+      25.065687,
+      392.58667
+     ],
+     "heading": 3.07680798,
+     "model": "fairy_m_chip_numbwing.agr",
+     "model_id": 1585,
+     "name_id": 408638,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000737,
+   "name": "Cinn",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33732,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3941",
+     "position": [
+      283.14688,
+      27.71902,
+      426.77893
+     ],
+     "heading": -1.915841,
+     "model": "fairy_m_farmer_01.adr",
+     "model_id": 32,
+     "name_id": 4554,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000738,
+   "name": "Clara Chatterhag",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33762,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3957",
+     "position": [
+      274.12158,
+      26.39462,
+      458.62057
+     ],
+     "heading": -2.28326987,
+     "model": "fairy_f_02.adr",
+     "model_id": 42,
+     "name_id": 36808,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000739,
+   "name": "Cragara",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33624,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+     "position": [
+      130.87897,
+      28.729305,
+      290.85706
+     ],
+     "heading": -0.0971219953,
+     "model": "sogg_f_vendor.adr",
+     "model_id": 4103,
+     "name_id": 440941,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000740,
+   "name": "Cronyn",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 2317,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1062",
+     "position": [
+      -2790.219,
+      0.0400164,
+      -120.9131
+     ],
+     "heading": 0.429322,
+     "model": "dwarf_m_miner_01.adr",
+     "model_id": 37,
+     "name_id": 74913,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 3679,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2359",
+     "position": [
+      468.5032,
+      47.11174,
+      226.5818
+     ],
+     "heading": 1.124133,
+     "model": "dwarf_miner_m.adr",
+     "model_id": 382,
+     "name_id": 74913,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000741,
+   "name": "Dempsy",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33715,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3926",
+     "position": [
+      237.1437,
+      26.234308,
+      436.1044
+     ],
+     "heading": 1.38882005,
+     "model": "human_m_merchant_brawler_african.agr",
+     "model_id": 4500,
+     "name_id": 5102200,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000069,
+   "name": "Derp Axemaker",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3286,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2029",
+     "position": [
+      -519.457,
+      10.24161,
+      -34.68288
+     ],
+     "heading": -1.869727,
+     "model": "fairy_m_blacksmith_01.agr",
+     "model_id": 574,
+     "name_id": 77270,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000742,
+   "name": "Dizzy Toad",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33842,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4003",
+     "position": [
+      -33.279736,
+      10.13236,
+      259.21094
+     ],
+     "heading": -1.07136001,
+     "model": "fairy_m_merchant_ninja_cauasian_disney.agr",
+     "model_id": 4530,
+     "name_id": 5102377,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000743,
+   "name": "Downey",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33648,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3867",
+     "position": [
+      228.3293,
+      23.97881,
+      371.45712
+     ],
+     "heading": -0.0269199998,
+     "model": "fairy_f_freestyle_11.agr",
+     "model_id": 573,
+     "name_id": 90117,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000076,
+   "name": "Drill Sergeant Dewey",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33773,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3968",
+     "position": [
+      317.7469,
+      26.46915,
+      424.5907
+     ],
+     "heading": -1.12853004,
+     "model": "fairy_royalguard_m.adr",
+     "model_id": 345,
+     "name_id": 22435,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000744,
+   "name": "Ernie",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33699,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3913",
+     "position": [
+      226.00937,
+      26.844666,
+      431.26334
+     ],
+     "heading": 0.782830048,
+     "model": "penguin_ernie.adr",
+     "model_id": 31,
+     "name_id": 179,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000745,
+   "name": "Everett",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33763,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3958",
+     "position": [
+      322.78738,
+      25.583282,
+      378.4836
+     ],
+     "heading": -1.86024798,
+     "model": "human_m_miner_01.adr",
+     "model_id": 38,
+     "name_id": 420809,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000746,
+   "name": "Fladnag",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33698,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3912",
+     "position": [
+      230.88478,
+      25.246117,
+      430.04623
+     ],
+     "heading": -3.07482004,
+     "model": "fairy_m_merchant_wizard_caucasian_volcano.agr",
+     "model_id": 4587,
+     "name_id": 5102517,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000092,
+   "name": "Fred Futbol",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33964,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4122",
+     "position": [
+      -166.81015,
+      -5.494034,
+      251.50894
+     ],
+     "heading": 1.089162,
+     "model": "human_m_soccerred.agr",
+     "model_id": 1085,
+     "name_id": 410136,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000749,
+   "name": "Fritti Bluebelle",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33730,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3939",
+     "position": [
+      286.7907,
+      27.49383,
+      406.30832
+     ],
+     "heading": -1.059289,
+     "model": "fairy_f_freestyle_11.agr",
+     "model_id": 573,
+     "name_id": 90186,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000093,
+   "name": "Frostpetal",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33609,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3830",
+     "position": [
+      72.91805,
+      20.55249,
+      331.20828
+     ],
+     "heading": -2.29090002,
+     "model": "fairy_f_valinda.adr",
+     "model_id": 36,
+     "name_id": 5448,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000098,
+   "name": "Gerold",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 34006,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4163",
+     "position": [
+      -207.1201,
+      -19.14542,
+      290.6031
+     ],
+     "heading": -1.39930999,
+     "model": "human_m_gerold.agr",
+     "model_id": 966,
+     "name_id": 104054,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000115,
+   "name": "Jeni Shortfuse",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3698,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2378",
+     "position": [
+      370.6606,
+      115.225,
+      -8.103738
+     ],
+     "heading": -0.220287,
+     "model": "human_f_freestyle_06.agr",
+     "model_id": 548,
+     "name_id": 22808,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000753,
+   "name": "Jonathon Forkpath",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33669,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3887",
+     "position": [
+      224.36874,
+      23.615072,
+      405.206
+     ],
+     "heading": 0.13566596,
+     "model": "fairy_m_old_01.adr",
+     "model_id": 30,
+     "name_id": 92578,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000754,
+   "name": "Kiel",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33650,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3869",
+     "position": [
+      139.7237,
+      23.588022,
+      393.91772
+     ],
+     "heading": -1.71889496,
+     "model": "fairychild_m_pointyhair.adr",
+     "model_id": 12,
+     "name_id": 6156,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000755,
+   "name": "Lealin",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33672,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3890",
+     "position": [
+      258.30026,
+      22.13371,
+      261.57437
+     ],
+     "heading": 2.46031999,
+     "model": "fairy_m_01.adr",
+     "model_id": 48,
+     "name_id": 5454,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000132,
+   "name": "Loryn",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33663,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3881",
+     "position": [
+      198.0,
+      28.99752,
+      429.0
+     ],
+     "heading": 1.56097996,
+     "model": "fairy_m_01.adr",
+     "model_id": 48,
+     "name_id": 178,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000133,
+   "name": "Lucca De'Flor",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33634,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3853",
+     "position": [
+      200.15443,
+      23.023718,
+      352.0755
+     ],
+     "heading": -0.266582996,
+     "model": "fairy_m_farmer_01.adr",
+     "model_id": 32,
+     "name_id": 23788,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000140,
+   "name": "Manager Landon",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33954,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4112",
+     "position": [
+      -144.09995,
+      -8.816657,
+      278.41183
+     ],
+     "heading": 0.470826012,
+     "model": "human_m_manager_landon.agr",
+     "model_id": 1457,
+     "name_id": 401744,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000143,
+   "name": "Mayor Crystalline",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33737,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3946",
+     "position": [
+      299.41,
+      27.40738,
+      409.01
+     ],
+     "heading": -1.1774953,
+     "model": "fairy_f_lorina.adr",
+     "model_id": 34,
+     "name_id": 182,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000757,
+   "name": "Momma Meepster",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33623,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3844",
+     "position": [
+      127.7159,
+      22.608934,
+      423.17685
+     ],
+     "heading": -2.37502192,
+     "model": "penguin_baby_8bit_01.adr",
+     "model_id": 4552,
+     "name_id": 5102405,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000155,
+   "name": "Morninglory",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33718,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3929",
+     "position": [
+      261.79507,
+      48.96282,
+      211.63281
+     ],
+     "heading": 0.349949977,
+     "model": "fairy_f_morninglory.agr",
+     "model_id": 731,
+     "name_id": 16826,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000758,
+   "name": "Mr. Twinkle",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33652,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3871",
+     "position": [
+      151.57108,
+      23.40974,
+      386.2754
+     ],
+     "heading": 3.10415006,
+     "model": "fairy_m_01.adr",
+     "model_id": 48,
+     "name_id": 3070,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000158,
+   "name": "Murphy",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33670,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3888",
+     "position": [
+      263.157,
+      24.16891,
+      243.43916
+     ],
+     "heading": -0.391319999,
+     "model": "fairy_m_02.adr",
+     "model_id": 49,
+     "name_id": 3063,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000422,
+   "name": "Perry",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33879,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4038",
+     "position": [
+      -73.08731,
+      11.02224,
+      242.89047
+     ],
+     "heading": -0.108579995,
+     "model": "human_f_gardener.adr",
+     "model_id": 44,
+     "name_id": 3059,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000763,
+   "name": "Reba",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33694,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3908",
+     "position": [
+      215.32555,
+      28.237514,
+      441.73898
+     ],
+     "heading": -2.74149799,
+     "model": "human_f_merchant_postman_caucasian.agr",
+     "model_id": 4549,
+     "name_id": 5102420,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000180,
+   "name": "Ree Peatpants",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33834,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3996",
+     "position": [
+      -54.12951,
+      5.171237,
+      332.04172
+     ],
+     "heading": 1.33056104,
+     "model": "fairy_m_sakka.agr",
+     "model_id": 428,
+     "name_id": 388454,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000764,
+   "name": "Roland Sporeling",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33824,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3988",
+     "position": [
+      -0.607118,
+      102.32443,
+      472.90552
+     ],
+     "heading": -0.266676996,
+     "model": "human_m_roland_spore.agr",
+     "model_id": 565,
+     "name_id": 432170,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000766,
+   "name": "Sakka",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3385,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2128",
+     "position": [
+      -295.2761,
+      1.902695,
+      -717.1608
+     ],
+     "heading": 0.555055,
+     "model": "fairy_m_sakka.agr",
+     "model_id": 428,
+     "name_id": 21964,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000195,
+   "name": "Senari",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33736,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3945",
+     "position": [
+      302.2244,
+      26.45855,
+      396.3599
+     ],
+     "heading": -1.94461002,
+     "model": "human_f_explorer_caucasian01.agr",
+     "model_id": 181,
+     "name_id": 4726,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000201,
+   "name": "Shimmer Shinyaxe",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3289,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2032",
+     "position": [
+      -506.4454,
+      10.03743,
+      -34.96611
+     ],
+     "heading": -1.272076,
+     "model": "fairy_m_miner_01.adr",
+     "model_id": 33,
+     "name_id": 76995,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000769,
+   "name": "Skye",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33641,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3860",
+     "position": [
+      203.77641,
+      23.083303,
+      352.81158
+     ],
+     "heading": -0.237981002,
+     "model": "fairy_f_merchant_chef_asian_phoenix.agr",
+     "model_id": 4578,
+     "name_id": 5102505,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000771,
+   "name": "Sonja",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33665,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3883",
+     "position": [
+      233.37015,
+      23.61321,
+      387.91855
+     ],
+     "heading": 1.08215001,
+     "model": "human_f_merchant_warrior_caucasian.agr",
+     "model_id": 4559,
+     "name_id": 5102437,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000472,
+   "name": "Sorin",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1203,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:7",
+     "position": [
+      -956.3854,
+      -44.78024,
+      -1171.817
+     ],
+     "heading": 2.285554,
+     "model": "dwarf_m_miner_01.adr",
+     "model_id": 37,
+     "name_id": 5456,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 2315,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1060",
+     "position": [
+      -2790.389,
+      0.04001658,
+      -121.2841
+     ],
+     "heading": 0.43622,
+     "model": "dwarf_m_miner_01.adr",
+     "model_id": 37,
+     "name_id": 5456,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 2316,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1061",
+     "position": [
+      -2790.219,
+      0.0400164,
+      -120.9131
+     ],
+     "heading": 0.429322,
+     "model": "dwarf_m_miner_01.adr",
+     "model_id": 37,
+     "name_id": 5456,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 3607,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2349",
+     "position": [
+      468.0244,
+      47.11174,
+      341.206
+     ],
+     "heading": -0.24,
+     "model": "dwarf_miner_m.adr",
+     "model_id": 382,
+     "name_id": 5456,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000772,
+   "name": "Spratt",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33666,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3884",
+     "position": [
+      228.21536,
+      23.48963,
+      385.24973
+     ],
+     "heading": -1.24267901,
+     "model": "fairy_f_merchant_medic_asian_cupid.agr",
+     "model_id": 4521,
+     "name_id": 5102292,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000208,
+   "name": "Steele",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33776,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3970",
+     "position": [
+      319.51495,
+      26.05179,
+      430.15677
+     ],
+     "heading": -0.890770018,
+     "model": "fairy_m_warrior_01.agr",
+     "model_id": 391,
+     "name_id": 47830,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000773,
+   "name": "Tad Slopeslider",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33645,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3864",
+     "position": [
+      230.13184,
+      21.062761,
+      322.42804
+     ],
+     "heading": 0.840897975,
+     "model": "human_m_freestyle_06.agr",
+     "model_id": 559,
+     "name_id": 117257,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000215,
+   "name": "Tevin",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33741,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3950",
+     "position": [
+      303.51282,
+      27.23725,
+      410.2941
+     ],
+     "heading": -1.07071997,
+     "model": "fairy_m_freestyle_08.agr",
+     "model_id": 657,
+     "name_id": 79022,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000217,
+   "name": "Therin",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1201,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:5",
+     "position": [
+      -955.8561,
+      -44.62718,
+      -1170.239
+     ],
+     "heading": 2.3732,
+     "model": "dwarf_m_therin.adr",
+     "model_id": 46,
+     "name_id": 185,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 1202,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:6",
+     "position": [
+      -955.8561,
+      -44.62718,
+      -1170.239
+     ],
+     "heading": 2.3732,
+     "model": "dwarf_m_therin.adr",
+     "model_id": 46,
+     "name_id": 185,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 1697,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:463",
+     "position": [
+      354.3519,
+      27.33214,
+      436.669
+     ],
+     "heading": -2.222082,
+     "model": "dwarf_m_therin.adr",
+     "model_id": 46,
+     "name_id": 185,
+     "near_zone": "Snowhill"
+    },
+    {
+     "ref_id": 1698,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:464",
+     "position": [
+      354.3519,
+      27.33214,
+      436.669
+     ],
+     "heading": -2.222082,
+     "model": "dwarf_m_therin.adr",
+     "model_id": 46,
+     "name_id": 185,
+     "near_zone": "Snowhill"
+    },
+    {
+     "ref_id": 3602,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2344",
+     "position": [
+      457.1169,
+      47.11174,
+      335.0591
+     ],
+     "heading": -1.385129,
+     "model": "dwarf_therin_m.adr",
+     "model_id": 381,
+     "name_id": 185,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000774,
+   "name": "Tiger the Party Animal",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33790,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3974",
+     "position": [
+      309.24753,
+      27.300243,
+      464.9833
+     ],
+     "heading": 0.23715501,
+     "model": "human_m_tiger_the_party_animal_holiday.agr",
+     "model_id": 1963,
+     "name_id": 420171,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000775,
+   "name": "Tommy",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33667,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3885",
+     "position": [
+      235.03586,
+      23.664875,
+      384.34042
+     ],
+     "heading": 0.56215605,
+     "model": "human_m_merchant_archer_asian.agr",
+     "model_id": 4476,
+     "name_id": 5101985,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000776,
+   "name": "Tommy Crackletoe",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33953,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4111",
+     "position": [
+      -144.0924,
+      -5.572653,
+      255.03143
+     ],
+     "heading": -0.810944,
+     "model": "human_m_soccerblue.agr",
+     "model_id": 1084,
+     "name_id": 410139,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000778,
+   "name": "Vaelen Warpwatcher",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33601,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3823",
+     "position": [
+      56.24998,
+      31.53844,
+      374.89914
+     ],
+     "heading": 2.65564989,
+     "model": "fairy_druid_m.adr",
+     "model_id": 468,
+     "name_id": 130731,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000781,
+   "name": "Willie",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33691,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3905",
+     "position": [
+      290.09042,
+      27.68708,
+      294.96246
+     ],
+     "heading": 0.914959985,
+     "model": "human_m_snowhill.adr",
+     "model_id": 837,
+     "name_id": 36827,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000782,
+   "name": "Wintara",
+   "file": "npcs/snowhill.json",
+   "zone": "Snowhill",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33813,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3982",
+     "position": [
+      98.93682,
+      61.759792,
+      541.33356
+     ],
+     "heading": -3.06333709,
+     "model": "fairychild_f_sleevesandshorts.adr",
+     "model_id": 11,
+     "name_id": 7053,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000794,
+   "name": "Pumpkin Prince",
+   "file": "npcs/stillwater_crossing.json",
+   "zone": "Stillwater Crossing",
+   "placement": "poi_anchor",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 1233,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:32",
+     "position": [
+      -378.7684,
+      -89.99183,
+      2354.657
+     ],
+     "heading": 0.907319,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 4494,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3158",
+     "position": [
+      -567.3053,
+      -46.55141,
+      -1273.019
+     ],
+     "heading": -0.088464,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 4581,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3216",
+     "position": [
+      -2630.044,
+      0.04002605,
+      -231.2343
+     ],
+     "heading": 3.086061,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 4878,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3445",
+     "position": [
+      -1984.427,
+      -31.99463,
+      929.7799
+     ],
+     "heading": 1.180217,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 4879,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3446",
+     "position": [
+      -1984.427,
+      -31.99463,
+      929.7799
+     ],
+     "heading": 1.180217,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 18550,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3974",
+     "position": [
+      -2660.422,
+      0.03999999,
+      -276.555
+     ],
+     "heading": 2.833199,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Greenwood Forest"
+    },
+    {
+     "ref_id": 30221,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4182",
+     "position": [
+      -558.7584,
+      -45.52362,
+      -1258.766
+     ],
+     "heading": -1.933234,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Seaside"
+    },
+    {
+     "ref_id": 30222,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4183",
+     "position": [
+      -558.7584,
+      -45.52362,
+      -1258.766
+     ],
+     "heading": -1.933234,
+     "model": "pumpkinprince_m.adr",
+     "model_id": 1701,
+     "name_id": null,
+     "near_zone": "Seaside"
+    }
+   ],
+   "more": 1
+  },
+  {
+   "npc_id": 9500000795,
+   "name": "Two of Three",
+   "file": "npcs/stillwater_crossing.json",
+   "zone": "Stillwater Crossing",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4168,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2834",
+     "position": [
+      -245.2278,
+      3.118001,
+      578.0795
+     ],
+     "heading": -0.578828,
+     "model": "human_m_wraith_gray.agr",
+     "model_id": 4565,
+     "name_id": 5102447,
+     "near_zone": "Durango Zoo"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000811,
+   "name": "Cragara",
+   "file": "npcs/sunstone_valley.json",
+   "zone": "Sunstone Valley",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33624,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3845",
+     "position": [
+      130.87897,
+      28.729305,
+      290.85706
+     ],
+     "heading": -0.0971219953,
+     "model": "sogg_f_vendor.adr",
+     "model_id": 4103,
+     "name_id": 440941,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000821,
+   "name": "Golmie Greasebeard",
+   "file": "npcs/sunstone_valley.json",
+   "zone": "Sunstone Valley",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3842,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2509",
+     "position": [
+      473.0612,
+      65.21813,
+      1743.415
+     ],
+     "heading": 0.024154,
+     "model": "dwarf_engineer.adr",
+     "model_id": 3954,
+     "name_id": 439687,
+     "near_zone": "Shrouded Glade"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000844,
+   "name": "Quetzalcoatl",
+   "file": "npcs/sunstone_valley.json",
+   "zone": "Sunstone Valley",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 36198,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:4252",
+     "position": [
+      670.818,
+      86.87835,
+      2241.3074
+     ],
+     "heading": -1.17306138,
+     "model": "drake_m_boss.adr",
+     "model_id": 3994,
+     "name_id": 439215,
+     "near_zone": "Sunstone Valley"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9000000186,
+   "name": "Rumble King Don",
+   "file": "npcs/sunstone_valley.json",
+   "zone": "Sunstone Valley",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4798,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:3365",
+     "position": [
+      414.9147,
+      74.74953,
+      1822.205
+     ],
+     "heading": 2.656586,
+     "model": "dwarf_m_rumblekingdon.adr",
+     "model_id": 4219,
+     "name_id": 442192,
+     "near_zone": "Shrouded Glade"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000858,
+   "name": "Starlight",
+   "file": "npcs/sunstone_valley.json",
+   "zone": null,
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4018,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2685",
+     "position": [
+      986.8932,
+      17.69587,
+      1251.908
+     ],
+     "heading": -1.615667,
+     "model": "horse_m.adr",
+     "model_id": 2099,
+     "name_id": 413056,
+     "near_zone": null
+    },
+    {
+     "ref_id": 4019,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2686",
+     "position": [
+      986.3389,
+      17.72995,
+      1253.409
+     ],
+     "heading": -1.971311,
+     "model": "horse_pegasus_nosaddle.adr",
+     "model_id": 4760,
+     "name_id": 413056,
+     "near_zone": null
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000884,
+   "name": "Burt 'Wrecking' Crewe",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2988,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1731",
+     "position": [
+      -237.3089,
+      1.186775,
+      -61.32073
+     ],
+     "heading": -1.210766,
+     "model": "human_m_burt_crewe.agr",
+     "model_id": 829,
+     "name_id": 100244,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000886,
+   "name": "Chad Fastflutter",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2989,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1732",
+     "position": [
+      -249.1389,
+      1.095783,
+      -60.34922
+     ],
+     "heading": -0.314485,
+     "model": "fairy_m_freestyle_01.agr",
+     "model_id": 443,
+     "name_id": 104056,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000887,
+   "name": "Claudio DeMarco",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "unanchored",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 2327,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1072",
+     "position": [
+      -2572.367,
+      -0.3173321,
+      167.3628
+     ],
+     "heading": -2.118365,
+     "model": "human_m_claudio_demarco_incar.agr",
+     "model_id": 1320,
+     "name_id": null,
+     "near_zone": "Farnum Farmstead"
+    },
+    {
+     "ref_id": 2328,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1073",
+     "position": [
+      -2572.367,
+      -0.3173321,
+      167.3628
+     ],
+     "heading": -2.118365,
+     "model": "human_m_claudio_demarco_incar.agr",
+     "model_id": 1320,
+     "name_id": null,
+     "near_zone": "Farnum Farmstead"
+    },
+    {
+     "ref_id": 2329,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1074",
+     "position": [
+      -2572.367,
+      -0.3173321,
+      167.3628
+     ],
+     "heading": -2.118365,
+     "model": "human_m_claudio_demarco_incar.agr",
+     "model_id": 1320,
+     "name_id": null,
+     "near_zone": "Farnum Farmstead"
+    },
+    {
+     "ref_id": 3094,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1837",
+     "position": [
+      -926.5197,
+      -41.59223,
+      1162.88
+     ],
+     "heading": 0.361224,
+     "model": "human_m_claudio_demarco.agr",
+     "model_id": 1319,
+     "name_id": 19368,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000892,
+   "name": "Derp Axemaker",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3286,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2029",
+     "position": [
+      -519.457,
+      10.24161,
+      -34.68288
+     ],
+     "heading": -1.869727,
+     "model": "fairy_m_blacksmith_01.agr",
+     "model_id": 574,
+     "name_id": 77270,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000906,
+   "name": "Gulsh",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33330,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3560",
+     "position": [
+      -1317.8207,
+      -37.87405,
+      309.27405
+     ],
+     "heading": -1.62969995,
+     "model": "troll_peasant_02.adr",
+     "model_id": 167,
+     "name_id": 10087,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000912,
+   "name": "Kade Carmichael",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2679,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1422",
+     "position": [
+      -295.7332,
+      -60.97827,
+      1949.605
+     ],
+     "heading": 0.158672,
+     "model": "human_m_kade_carmichael.agr",
+     "model_id": 833,
+     "name_id": 101924,
+     "near_zone": "Briarwood"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000916,
+   "name": "Linx Redline",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "unanchored",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3015,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1758",
+     "position": [
+      -2256.326,
+      -16.37272,
+      572.4272
+     ],
+     "heading": 2.544222,
+     "model": "fairy_m_linx_redline.agr",
+     "model_id": 1300,
+     "name_id": 394366,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000923,
+   "name": "Mustang Alli",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2986,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1729",
+     "position": [
+      -237.1163,
+      1.185014,
+      -46.70612
+     ],
+     "heading": -1.987494,
+     "model": "fairy_f_mustang_alli.agr",
+     "model_id": 820,
+     "name_id": 100843,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000927,
+   "name": "Ozymandias",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 2647,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1390",
+     "position": [
+      -595.4767,
+      -70.14835,
+      1986.722
+     ],
+     "heading": -1.100429,
+     "model": "tikihead_m_ozymandias.adr",
+     "model_id": 39,
+     "name_id": 16245,
+     "near_zone": null
+    },
+    {
+     "ref_id": 2817,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1560",
+     "position": [
+      -619.3571,
+      -69.65884,
+      2394.391
+     ],
+     "heading": 2.027552,
+     "model": "tikihead_m_ozymandias.adr",
+     "model_id": 39,
+     "name_id": 46387,
+     "near_zone": "Briarwood"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000930,
+   "name": "Petal Oceanmist",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 2990,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1733",
+     "position": [
+      -241.1461,
+      1.178117,
+      -62.66587
+     ],
+     "heading": -0.091501,
+     "model": "fairy_f_valinda.adr",
+     "model_id": 36,
+     "name_id": 394904,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000933,
+   "name": "Queen Verda",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "unanchored",
+   "match": "model",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 1928,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:686",
+     "position": [
+      -217.8093,
+      -24.48394,
+      -1145.23
+     ],
+     "heading": 2.014412,
+     "model": "troll_queenverda_f.adr",
+     "model_id": 408,
+     "name_id": 45569,
+     "near_zone": "Seaside"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000937,
+   "name": "Sakka",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3385,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2128",
+     "position": [
+      -295.2761,
+      1.902695,
+      -717.1608
+     ],
+     "heading": 0.555055,
+     "model": "fairy_m_sakka.agr",
+     "model_id": 428,
+     "name_id": 21964,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000942,
+   "name": "Shimmer Shinyaxe",
+   "file": "npcs/wilds.json",
+   "zone": "Wilds",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 3289,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2032",
+     "position": [
+      -506.4454,
+      10.03743,
+      -34.96611
+     ],
+     "heading": -1.272076,
+     "model": "fairy_m_miner_01.adr",
+     "model_id": 33,
+     "name_id": 76995,
+     "near_zone": "Wilds"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000977,
+   "name": "General Wugashima",
+   "file": "npcs/wugachug.json",
+   "zone": "Wugachug",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 4243,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2909",
+     "position": [
+      -78.52924,
+      69.5702,
+      -322.4223
+     ],
+     "heading": -0.941312,
+     "model": "chugawug_m_ninjawug_bixie_rider_general_01.adr",
+     "model_id": 4468,
+     "name_id": 442916,
+     "near_zone": "Wugachug"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000989,
+   "name": "Ninjawug Archer",
+   "file": "npcs/wugachug.json",
+   "zone": "Wugachug",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 3320,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2063",
+     "position": [
+      -257.532,
+      4.730441,
+      -192.4436
+     ],
+     "heading": 3.02016,
+     "model": "chugawug_m_ninja_archer_01.adr",
+     "model_id": 4464,
+     "name_id": 442612,
+     "near_zone": "Snowhill"
+    },
+    {
+     "ref_id": 3330,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2073",
+     "position": [
+      -205.5801,
+      -0.8260459,
+      -285.1899
+     ],
+     "heading": -1.344265,
+     "model": "chugawug_m_ninja_archer_01.adr",
+     "model_id": 4464,
+     "name_id": 442612,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 4246,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2912",
+     "position": [
+      -127.6745,
+      48.93138,
+      -228.3257
+     ],
+     "heading": -2.486846,
+     "model": "chugawug_m_ninja_archer_01.adr",
+     "model_id": 4464,
+     "name_id": 442612,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 23628,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4157",
+     "position": [
+      -145.3717,
+      28.81517,
+      -369.0696
+     ],
+     "heading": -2.344793,
+     "model": "chugawug_m_ninja_archer_01.adr",
+     "model_id": 4464,
+     "name_id": 442612,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 23633,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4162",
+     "position": [
+      -151.1115,
+      33.81749,
+      -303.8457
+     ],
+     "heading": -3.121692,
+     "model": "chugawug_m_ninja_archer_01.adr",
+     "model_id": 4464,
+     "name_id": 442612,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 23635,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4164",
+     "position": [
+      -158.1339,
+      42.40422,
+      -250.4832
+     ],
+     "heading": 2.439301,
+     "model": "chugawug_m_ninja_archer_01.adr",
+     "model_id": 4464,
+     "name_id": 442612,
+     "near_zone": "Wugachug"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000990,
+   "name": "Ninjawug Bixie-rider",
+   "file": "npcs/wugachug.json",
+   "zone": "Wugachug",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 3325,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2068",
+     "position": [
+      -249.167,
+      6.63044,
+      -246.3505
+     ],
+     "heading": -3.086232,
+     "model": "chugawug_m_ninjawug_bixie_rider_01.adr",
+     "model_id": 4467,
+     "name_id": 442613,
+     "near_zone": "Wilds"
+    },
+    {
+     "ref_id": 3328,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2071",
+     "position": [
+      -234.6381,
+      0.5446191,
+      -277.4557
+     ],
+     "heading": 2.205793,
+     "model": "chugawug_m_ninjawug_bixie_rider_01.adr",
+     "model_id": 4467,
+     "name_id": 442613,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 4245,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2911",
+     "position": [
+      -123.2029,
+      58.04847,
+      -286.7506
+     ],
+     "heading": -0.664844,
+     "model": "chugawug_m_ninjawug_bixie_rider_01.adr",
+     "model_id": 4467,
+     "name_id": 442613,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 23634,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4163",
+     "position": [
+      -157.6176,
+      39.54205,
+      -279.6747
+     ],
+     "heading": 2.970861,
+     "model": "chugawug_m_ninjawug_bixie_rider_01.adr",
+     "model_id": 4467,
+     "name_id": 442613,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 23636,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4165",
+     "position": [
+      -143.3405,
+      44.76715,
+      -231.5795
+     ],
+     "heading": -2.556295,
+     "model": "chugawug_m_ninjawug_bixie_rider_01.adr",
+     "model_id": 4467,
+     "name_id": 442613,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 23637,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4166",
+     "position": [
+      -134.9091,
+      53.95711,
+      -255.716
+     ],
+     "heading": 0.109958,
+     "model": "chugawug_m_ninjawug_bixie_rider_01.adr",
+     "model_id": 4467,
+     "name_id": 442613,
+     "near_zone": "Wugachug"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "npc_id": 9500000991,
+   "name": "Ninjawug Blademaster",
+   "file": "npcs/wugachug.json",
+   "zone": "Wugachug",
+   "placement": "poi_anchor",
+   "match": "name",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 3318,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2061",
+     "position": [
+      -260.855,
+      5.462192,
+      -186.6246
+     ],
+     "heading": -1.15365,
+     "model": "chugawug_m_ninja_blademaster_01.adr",
+     "model_id": 4465,
+     "name_id": 442611,
+     "near_zone": "Snowhill"
+    },
+    {
+     "ref_id": 3319,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2062",
+     "position": [
+      -260.8611,
+      4.339173,
+      -202.2171
+     ],
+     "heading": -3.091064,
+     "model": "chugawug_m_ninja_blademaster_01.adr",
+     "model_id": 4465,
+     "name_id": 442611,
+     "near_zone": "Wilds"
+    },
+    {
+     "ref_id": 3323,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2066",
+     "position": [
+      -241.893,
+      5.162203,
+      -255.2143
+     ],
+     "heading": 1.776947,
+     "model": "chugawug_m_ninja_blademaster_01.adr",
+     "model_id": 4465,
+     "name_id": 442611,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 3326,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2069",
+     "position": [
+      -211.2556,
+      -0.4137664,
+      -295.6631
+     ],
+     "heading": -0.388506,
+     "model": "chugawug_m_ninja_blademaster_01.adr",
+     "model_id": 4465,
+     "name_id": 442611,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 3327,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2070",
+     "position": [
+      -239.2503,
+      1.624175,
+      -287.9105
+     ],
+     "heading": 0.429771,
+     "model": "chugawug_m_ninja_blademaster_01.adr",
+     "model_id": 4465,
+     "name_id": 442611,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 3329,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2072",
+     "position": [
+      -222.021,
+      0.2900084,
+      -272.7487
+     ],
+     "heading": -2.040134,
+     "model": "chugawug_m_ninja_blademaster_01.adr",
+     "model_id": 4465,
+     "name_id": 442611,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 4244,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2910",
+     "position": [
+      -137.4916,
+      55.93052,
+      -267.1948
+     ],
+     "heading": 0.389062,
+     "model": "chugawug_m_ninja_blademaster_01.adr",
+     "model_id": 4465,
+     "name_id": 442611,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 23629,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:4158",
+     "position": [
+      -150.1709,
+      28.8187,
+      -355.196
+     ],
+     "heading": -0.271857,
+     "model": "chugawug_m_ninja_blademaster_01.adr",
+     "model_id": 4465,
+     "name_id": 442611,
+     "near_zone": "Wugachug"
+    }
+   ],
+   "more": 3
+  }
+ ],
+ "no_row_targets": [
+  {
+   "name": "Michael Tallstrider",
+   "quest": "q3000023",
+   "match": null
+  },
+  {
+   "name": "Farmer Chug",
+   "quest": "q3000023",
+   "match": null
+  },
+  {
+   "name": "residents of Sanctuary",
+   "quest": "q3000035",
+   "match": null
+  },
+  {
+   "name": "Frolic Steadywings",
+   "quest": "q3000051",
+   "match": null
+  },
+  {
+   "name": "Bullseye",
+   "quest": "q3010015",
+   "match": null
+  },
+  {
+   "name": "Master Archer Bullseye",
+   "quest": "q3010029",
+   "match": null
+  },
+  {
+   "name": "Robgoblin Scrapsmith",
+   "quest": "q3020037",
+   "match": null
+  },
+  {
+   "name": "Flanders",
+   "quest": "q3030001",
+   "match": null
+  },
+  {
+   "name": "Ashley Lightwings",
+   "quest": "q3030002",
+   "match": null
+  },
+  {
+   "name": "Assistant Mayor Tevin",
+   "quest": "q3030013",
+   "match": null
+  },
+  {
+   "name": "Briarwood treasure hunter",
+   "quest": "q3030024",
+   "match": "model",
+   "unique": false,
+   "candidates": [
+    {
+     "ref_id": 2027,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:783",
+     "position": [
+      -2072.626,
+      -30.3239,
+      1116.276
+     ],
+     "heading": 0.098735,
+     "model": "human_m_treasurehunter.agr",
+     "model_id": 496,
+     "name_id": null,
+     "near_zone": "Blackspore Swamp"
+    },
+    {
+     "ref_id": 2186,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:938",
+     "position": [
+      -1081.72,
+      -38.57011,
+      -433.9027
+     ],
+     "heading": 0.917502,
+     "model": "human_m_treasurehunter.agr",
+     "model_id": 496,
+     "name_id": null,
+     "near_zone": "Merry Vale"
+    },
+    {
+     "ref_id": 2555,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1298",
+     "position": [
+      -818.8882,
+      -23.01198,
+      1642.587
+     ],
+     "heading": -2.744026,
+     "model": "human_m_treasurehunter.agr",
+     "model_id": 496,
+     "name_id": 429543,
+     "near_zone": "Briarwood"
+    },
+    {
+     "ref_id": 3333,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2076",
+     "position": [
+      -397.6479,
+      16.71633,
+      -265.833
+     ],
+     "heading": 2.335237,
+     "model": "human_m_treasurehunter.agr",
+     "model_id": 496,
+     "name_id": 71252,
+     "near_zone": "Wilds"
+    },
+    {
+     "ref_id": 4298,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2964",
+     "position": [
+      64.96494,
+      24.74874,
+      -463.258
+     ],
+     "heading": 2.191884,
+     "model": "human_m_treasurehunter.agr",
+     "model_id": 496,
+     "name_id": null,
+     "near_zone": "Wugachug"
+    },
+    {
+     "ref_id": 4317,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:2983",
+     "position": [
+      -1641.446,
+      -37.71963,
+      -460.4052
+     ],
+     "heading": -0.079786,
+     "model": "human_m_treasurehunter.agr",
+     "model_id": 496,
+     "name_id": 70355,
+     "near_zone": null
+    }
+   ],
+   "more": 0
+  },
+  {
+   "name": "Sam",
+   "quest": "q3040004",
+   "match": "model",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33340,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3570",
+     "position": [
+      -1290.0687,
+      -14.91131,
+      291.80383
+     ],
+     "heading": 1.08519005,
+     "model": "human_f_tcg_sam_potts.agr",
+     "model_id": 646,
+     "name_id": 74093,
+     "near_zone": "Sanctuary"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "name": "Herme the Hermit",
+   "quest": "q3040026",
+   "match": null
+  },
+  {
+   "name": "Cookie",
+   "quest": "q3050001",
+   "match": "model",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 1864,
+     "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:623",
+     "position": [
+      -2684.376,
+      0.03999996,
+      -80.48913
+     ],
+     "heading": -1.46317,
+     "model": "human_f_cookie.agr",
+     "model_id": 507,
+     "name_id": null,
+     "near_zone": "Greenwood Forest"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "name": "Nash Wright",
+   "quest": "q3060015",
+   "match": null
+  },
+  {
+   "name": "Carter's colleague",
+   "quest": "q3060028",
+   "match": null
+  },
+  {
+   "name": "Karl Kippersun",
+   "quest": "q3070011",
+   "match": null
+  },
+  {
+   "name": "Hilbert",
+   "quest": "q3070039",
+   "match": null
+  },
+  {
+   "name": "Melvin",
+   "quest": "q3070049",
+   "match": null
+  },
+  {
+   "name": "shady looking pixie",
+   "quest": "q3080015",
+   "match": null
+  },
+  {
+   "name": "Tanda T. Toes",
+   "quest": "q3110004",
+   "match": "name",
+   "unique": true,
+   "candidates": [
+    {
+     "ref_id": 33714,
+     "source": "lab/references/Sanctuary-main-20261019/src/Scripts/Zone/FabledRealms.lua:3925",
+     "position": [
+      225.8077,
+      26.643396,
+      446.6625
+     ],
+     "heading": -0.000384000004,
+     "model": "human_f_freestyle_06.agr",
+     "model_id": 548,
+     "name_id": 91660,
+     "near_zone": "Snowhill"
+    }
+   ],
+   "more": 0
+  },
+  {
+   "name": "Zachery / Majorie / Mercy Merrywings",
+   "quest": "q3120001",
+   "match": null
+  },
+  {
+   "name": "people in Seaside",
+   "quest": "q3130018",
+   "match": null
+  },
+  {
+   "name": "Snowhill fans",
+   "quest": "q3140014",
+   "match": null
+  },
+  {
+   "name": "Sven (Briar Patch, Briarwood)",
+   "quest": "q3160032",
+   "match": null
+  }
+ ],
+ "stats": {
+  "row poi_anchor miss": 239,
+  "row unanchored miss": 161,
+  "row unanchored hit": 54,
+  "row poi_anchor hit": 159,
+  "no-row target miss": 21,
+  "no-row target hit": 4
+ }
+}

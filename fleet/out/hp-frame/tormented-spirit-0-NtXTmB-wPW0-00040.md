@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=tormented-spirit-0-NtXTmB-wPW0-00040 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2648, 4, 1071] model=claude-haiku-5-5 -->
+# Tormented Spirit NtXTmB-wPW0 40s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [{"name": null, "health_fraction": 0.45}], "damage_numbers": [{"value": -1955, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": null, "level": 10, "job": "Brawler", "health_fraction": 1.0}, "target_defeated": false, "notes": "Large red overlay reads 'Elder Swamp Cray' (partly covered) over a boss-style bar with -1955 yellow hit; no Tormented Spirit name or bar is visible in this frame. Bottom bar shows 1797/1797 for the player."}

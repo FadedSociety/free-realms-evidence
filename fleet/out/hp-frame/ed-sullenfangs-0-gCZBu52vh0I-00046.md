@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=ed-sullenfangs-0-gCZBu52vh0I-00046 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2880, 4, 849] model=claude-haiku-5-5 -->
+# Ed Sullenfangs gCZBu52vh0I 46s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -2999, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Grayson Stonyhammer", "level": 20, "job": "Medic", "health_fraction": null}, "target_defeated": false, "notes": "Dark night forest; player in Medic job with no enemy health bar or Ed Sullenfangs name visible. Only a Goals panel reading 'Defeat the vampires!' and a yellow -2999 number on the left, not clearly tied to any enemy."}

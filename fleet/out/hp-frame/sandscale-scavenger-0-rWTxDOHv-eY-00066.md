@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=sandscale-scavenger-0-rWTxDOHv-eY-00066 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3164, 4, 928] model=claude-haiku-5-5 -->
+# Sandscale Scavenger rWTxDOHv-eY 66s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 167, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": null, "level": 13, "job": "Archer", "health_fraction": 0.9, "health_text": "2820/3082"}, "target_defeated": false, "notes": "Large red 'Sandscale Scavenger' overlay text at bottom centre, no health bar over a creature; 'not enough energy for that ability' message; red 167 damage number over the fight, target unclear."}

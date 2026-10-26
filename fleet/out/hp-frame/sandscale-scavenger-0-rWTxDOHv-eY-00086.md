@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=sandscale-scavenger-0-rWTxDOHv-eY-00086 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 3164, 4, 1007] model=claude-haiku-5-5 -->
+# Sandscale Scavenger rWTxDOHv-eY 86s
+
+{"screen": "combat", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": 1566, "on": "other", "color": "yellow"}, {"value": -24, "on": "other", "color": "red"}], "attackers_visible": 0, "player": {"name": null, "level": 13, "job": "Archer", "health_fraction": 0.70}, "target_defeated": false, "notes": "Picked enemy Sandscale Scavenger is not on screen; the red name over the green-glow fight reads 'Sandscale Hunter' (a different enemy, bar not legible). Goals panel shows Defeat Cactus John. Player HP 2157/3082, MP 84/100."}

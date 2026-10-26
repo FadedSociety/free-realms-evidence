@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=frostfang-snarler-0-5-IM2pBh2yY-01050 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 2771, 4, 813] model=claude-haiku-5-5 -->
+# Frostfang Snarler 5-IM2pBh2yY 1050s
+
+{"screen": "world", "target": {"name": "Frostfang Snarler", "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": null, "level": null, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Snow village scene with a Frostfang Snarler label and a 'Press X' interaction prompt over a spot near the player; no health bar, no combat, no damage numbers. The player's name is not legible on the portrait; the floating name above the character is Mia Icemeadows <Werewolf Vampire Husky School>."}

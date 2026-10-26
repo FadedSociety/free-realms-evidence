@@ -1,0 +1,337 @@
+[
+ {
+  "quest_id": 3000043,
+  "title": "Chapter 1: Report to Captain Chugug",
+  "record": "quest-lines/quests.json q3000043",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000268
+    },
+    "text_string_id": 90909,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: 'Speak with Captain Chugug in Briarheart, beyond Tanglewood Fort.'",
+      "source": "locale:90909"
+     },
+     {
+      "claim": "NPC name Captain Chugug (npc_name)",
+      "source": "locale:17794"
+     },
+     {
+      "claim": "npc_id 9000000268 is placed in the Briarwood NPC data as Captain Chugug",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/briarwood.json:8100"
+     },
+     {
+      "claim": "Quest giver record for this quest points to 9000000268",
+      "source": "repo:prototype/osfr-tools/data/content/quests/adventurer.json:3448"
+     },
+     {
+      "claim": "Short-form objective 'Speak with Captain Chugug' is also tagged to this chapter",
+      "source": "locale:90910"
+     }
+    ],
+    "note": "Single talk target; no count. Complete dialog 90906 is spoken by Captain Chugug (hint-based attribution, not script-confirmed). Quest giver 9000000513 at adventurer.json:3392 is a separate record and was not used for this objective.",
+    "confidence_note": "settled"
+   }
+  ]
+ },
+ {
+  "quest_id": 3000045,
+  "title": "Chapter 1: Bearer of Bad News",
+  "record": "quest-lines/quests.json q3000045",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000330
+    },
+    "text_string_id": 90914,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "locale:90914 is the quest objective 'Break the bad news to Geoffrey in Sanctuary.' tagged to this quest",
+      "source": "pack: objectives[0] / quest_lines; locale:90914"
+     },
+     {
+      "claim": "NPC 9000000330 is Geoffrey (npc_name locale:70318 'Geoffrey'), a Sanctuary/Royal Palace NPC row in npcs/sanctuary.json",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/sanctuary.json:25516; repo:prototype/osfr-tools/data/content/npc_spawns_extra.json:36 (placed spawn); client:locale:70318"
+     },
+     {
+      "claim": "9000000330 is already used as the giver/turn-in NPC for other Chapter quests in adventurer.json, consistent with Geoffrey's role",
+      "source": "repo:prototype/osfr-tools/data/content/quests/adventurer.json:2348, 2409"
+     }
+    ],
+    "note": "Single go-objective. The NPC is placed (not needs_placement). Geoffrey's Royal Palace position is recorded in npc_spawns_extra.json."
+   }
+  ]
+ },
+ {
+  "quest_id": 3010026,
+  "title": "Archer: Cutting Out the Buyers",
+  "record": "quest-lines/quests.json q3010026",
+  "source": "draft complete (no final fix/check answer)",
+  "objectives": [
+   {
+    "kind": "defeat",
+    "text_string_id": 78437,
+    "from": "objective 0: Bowman Bilter wants you to take out a few Troll Spider Trainers in hopes of disrupting their buying of illegal animals.",
+    "model_id": 77,
+    "count": 1,
+    "resolved": true
+   }
+  ]
+ },
+ {
+  "quest_id": 3030027,
+  "title": "Brawler: IOU!",
+  "record": "quest-lines/quests.json q3030027",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9000000415
+    },
+    "text_string_id": 141002,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text is 'Talk to Nurble at the Robgoblin Camp.' (single target, no count)",
+      "source": "locale:141002 (quest_objective); locale:140996"
+     },
+     {
+      "claim": "npc 9000000415 is Nurble (legacy_data, zone 16, Wilds, Robgoblin Camp junkpile)",
+      "source": "repo:prototype/osfr-tools/data/content/npcs/wilds.json:30510; notes/Autopilot/T242.md:58"
+     },
+     {
+      "claim": "Nurble's name is in the FreeRealms-Legacy NPC table",
+      "source": "refs: FreeRealms-Legacy/src/Resources/Npcs.json:567"
+     }
+    ],
+    "note": "Talk to the existing Nurble row. No count. Progress/offer lines are 140994 and 141005 (Andrew's speech). The repo's brawler.json giver 9000000415 entries belong to quest 3030028 (One Man's Junk), not this quest."
+   }
+  ]
+ },
+ {
+  "quest_id": 3040033,
+  "title": "Card Duelist: Esther's Special Card",
+  "record": "quest-lines/quests.json q3040033",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 669,
+     "count": 1
+    },
+    "text_string_id": 407053,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text is \"Play and beat 'Esther's Challenge Deck'\"; a single deck, so count 1",
+      "source": "locale:407053"
+     },
+     {
+      "claim": "Minigame id 669 is named \"Esther's Challenge Deck\" with name_id 407124 and description_id 407120 (first to 12 points, Mustang Alli prize)",
+      "source": "notes/Research/original-activity-coverage.json:12614-12620"
+     },
+     {
+      "claim": "Name string 407124 resolves to \"Esther's Challenge Deck\"",
+      "source": "locale:407124"
+     }
+    ],
+    "note": "Id verified against the research coverage file, not the server. That file lists restoration_status \"missing-implementation\" for minigame 669, so the id is correct but the server may not be able to run the match yet. This is a server-side gap, not a spec error. Count 1 is from the text, not chosen."
+   }
+  ]
+ },
+ {
+  "quest_id": 3040036,
+  "title": "Card Duelist: Alleged Thievery",
+  "record": "quest-lines/quests.json q3040036",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 697,
+     "count": 1
+    },
+    "text_string_id": 413772,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: play another game of cards with Sir Wellington in Briarwood; singular 'another game' gives count 1.",
+      "source": "locale:413772"
+     },
+     {
+      "claim": "Re-check: repo-wide search for 'Alleged', 'Thievery' and '697' found no quest-to-minigame link for this quest; client and video lookup returned only locale:413772.",
+      "source": "search root=repo; lookup client/video/wiki"
+     },
+     {
+      "claim": "Sir Wellington NPC row npc_id 9500000211 is defined but not placed; reference spawn candidate FreeRealms-Legacy Npcs.json Id=2728 is cited in the pack but not re-confirmed here.",
+      "source": "pack: previous_answer.objectives[0].evidence; repo:prototype/osfr-tools/data/content/npcs/briarwood.json:60116-60130"
+     }
+    ],
+    "note": "(lead check) draft minigame_id 697 is named 'sir wellington second deck', matching target 'Sir Wellington'. minigame_id left null. Candidate Wellington duel rows (697 Second Deck from research file, plus First Deck, plain Deck and Celebration Deck rows at client 413865/414009, 413869/414010, 413874, 413949/414012) are not tied to this quest by any source checked, so no id is set. Choose the duel row before wiring. Sir Wellington (npc 9500000211) must be placed in Briarwood before the duel can start; the pack notes client text 420650 and 431897 say the Wellington card game needs the 'Sir Wellington's Quest Pack' item, which is unverified here. Not wireable yet."
+   }
+  ]
+ },
+ {
+  "quest_id": 3060040,
+  "title": "Demo Derby: Tangletrack Trio",
+  "record": "quest-lines/quests.json q3060040",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 624,
+     "count": 1
+    },
+    "text_string_id": 395026,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Encounter name 'Tangletrack Trio [Encounter]' is locale 395026 (quest_title type)",
+      "source": "locale:395026 (confirmed by locale lookup)"
+     },
+     {
+      "claim": "Quest title 'Demo Derby: Tangletrack Trio' is the quest's own title and is tied to giver 9000000111 with quest id 3060040 in the batch",
+      "source": "repo:prototype/osfr-tools/data/content/quests/demo_derby_driver.json:1684-1687"
+     },
+     {
+      "claim": "Derby match credits finish_minigame once per match at Results, keyed by derby.game_id() (a runtime value, not a fixed table)",
+      "source": "repo:prototype/osfr-tools/src/derby.rs:12, 922-924"
+     },
+     {
+      "claim": "The draft's minigame_id 624 appears in no derby, encounter or Tangletrack source in the repo (only unrelated hits: collection_catalogue.json:6851, stores.json:301)",
+      "source": "repo search for \\b624\\b under prototype/osfr-tools"
+     }
+    ],
+    "note": "(lead check) draft minigame_id 624 is named 'tangletrack trio', matching target 'Tangletrack Trio'. Draft minigame_id 624 is unverified and is not tied to Tangletrack Trio; set to null. Needs the derby encounter/game id for 'Tangletrack Trio' from the server's encounter table. Finishing the match is judged by the server (derby_session completion), so once the id is known this is a needs_server outcome: the match result must be judged by the server, not the client."
+   }
+  ]
+ },
+ {
+  "quest_id": 3070024,
+  "title": "Fisherman: Reel Riches",
+  "record": "quest-lines/quests.json q3070024",
+  "source": "draft complete (no final fix/check answer)",
+  "objectives": [
+   {
+    "kind": "gather_resource",
+    "text_string_id": 409597,
+    "from": "objective 1: Reel in a Golden Scaled Nettler",
+    "resource_id": 68009,
+    "quantity": 1,
+    "resolved": true
+   }
+  ]
+ },
+ {
+  "quest_id": 3080048,
+  "title": "Kart Driver: SG Tour 400: Tangletrack",
+  "record": "quest-lines/quests.json q3080048",
+  "source": "objfix (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 0,
+    "part": 0,
+    "kind": "finish_minigame",
+    "fields": {
+     "minigame_id": 655,
+     "count": 1
+    },
+    "text_string_id": 398215,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: 'Beat Kade Carmichael in a race at Tangletrack Speedway.' names one race, so count is 1.",
+      "source": "locale:398215 (quest_objective)"
+     },
+     {
+      "claim": "Minigame 655 was resolved by the earlier pass for this objective.",
+      "source": "pack: objectives[0].draft.minigame_id, resolved=true, gap=null"
+     }
+    ],
+    "note": "Win-count conflict (5 races in locale 20070, three races in 101489 and 395655) concerns the wider series/reward, not this single-race objective, so it is not applied here."
+   },
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "talk_to_npc",
+    "fields": {
+     "npc_id": 9500000153
+    },
+    "text_string_id": 398220,
+    "status": "needs_placement",
+    "evidence": [
+     {
+      "claim": "Objective text: 'Return to Kade outside of Tangletrack' (talk target Kade Carmichael).",
+      "source": "locale:398220 (quest_objective)"
+     },
+     {
+      "claim": "Our NPC row for Kade Carmichael is npc_id 9500000153, zone Briarwood, not placed (poi_anchor).",
+      "source": "pack: objectives[1].candidates.npc_row"
+     },
+     {
+      "claim": "Reference spawn for Kade Carmichael near Briarwood: ref_id 2679 at (-295.7332, -60.97827, 1949.605), heading 0.158672, model human_m_kade_carmichael.agr, name_id 101924.",
+      "source": "lab/references/FreeRealms-Legacy/src/Scripts/Zone/FabledRealms.lua:1422"
+     }
+    ],
+    "note": "Keep the row's npc_id 9500000153 and place it at the reference spawn: FreeRealms-Legacy FabledRealms.lua:1422 (ref 2679, Briarwood). The reference row 9500000912 is the same name in Wilds and is not used because the quest text names Briarwood."
+   }
+  ]
+ },
+ {
+  "quest_id": 3100025,
+  "title": "Miner: Biggest is Best",
+  "record": "quest-lines/quests.json q3100025",
+  "source": "objcheck (Haiku, critic-passed)",
+  "objectives": [
+   {
+    "index": 1,
+    "part": 0,
+    "kind": "gather_resource",
+    "fields": {
+     "resource_id": 2743,
+     "count": 40
+    },
+    "text_string_id": 23659,
+    "status": "settled",
+    "evidence": [
+     {
+      "claim": "Objective text: 'Pinkelug has challenged you to beat her mining record in Gold mining. Mine 40 gold ore at the Mother Lode quarry.' The count 40 is stated in the text.",
+      "source": "locale:23659"
+     },
+     {
+      "claim": "Objective title line 'Out mine Pinkelug's gold ore collection record.' confirms the gold ore target for this quest.",
+      "source": "locale:23657"
+     },
+     {
+      "claim": "Item definition 2743 is used as the Gold Bar recipe ingredient (count 5) alongside 883, consistent with it being the Gold Ore item; the pack marked the draft resolved.",
+      "source": "repo:prototype/osfr-tools/data/content/recipes.json:3653 (miner.gold_bar ingredient)"
+     }
+    ],
+    "note": "Gold Ore is the mined resource; 'Mother Lode quarry' is the location flavour, not a separate POI objective, so gather_resource is used rather than reach_poi. Item 2743 is inferred from the recipe ingredient rather than read directly from an item-name row; a builder should confirm 2743 is the Gold Ore definition in game data."
+   }
+  ]
+ }
+]

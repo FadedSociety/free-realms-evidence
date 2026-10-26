@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=elder-swamp-cray-2-8-n-7P6VAHQ-00134 status=done turns=1 usd=0.0009 tokens(read,write,in,out)=[0, 2741, 4, 1065] model=claude-haiku-5-5 -->
+# Elder Swamp Cray 8-n-7P6VAHQ 134s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [{"value": -1424, "on": "other", "color": "yellow"}, {"value": -1424, "on": "other", "color": "yellow"}], "attackers_visible": 0, "player": {"name": "Jet Blackheart", "level": 12, "job": "Archer", "health_fraction": 1.0}, "target_defeated": false, "notes": "Cracked Claw Caverns; 'Elder Swamp Cray' is not legible above any creature. Only the Goals entry 'Defeat the ancient cray, Cracked Claw!' and a banner 'Cracked Claw' appear. Yellow -1424 damage numbers float over unnamed foes; 'You receive 77 coins' shown. Player HP 2326/2326, 24/100 energy."}

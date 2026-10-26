@@ -1,0 +1,642 @@
+[
+ {
+  "quest_id": 3010004,
+  "quest": "q3010004",
+  "title": "Archer: Test of Agility",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 22103,
+  "text": "Touch all of the target dummies within the time alloted to pass this test!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 22103,
+   "minigame_id": null,
+   "count": 10
+  },
+  "gap": "objective 0: finish_minigame target 'Target Dummy' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3020011,
+  "quest": "q3020011",
+  "title": "Blacksmith: Hammer Quality",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 430787,
+  "text": "Complete the Hammer Quality minigame",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 430787,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target 'Hammer Quality' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040002,
+  "quest": "q3040002",
+  "title": "Card Duelist: Enter the Champion",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 103272,
+  "text": "Beat the Card Duelist Practice Deck.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 103272,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Card Duelist Practice Deck' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040007,
+  "quest": "q3040007",
+  "title": "Card Duelist: Cardie 4 Life",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 103549,
+  "text": "As a Card Duelist; Challenge Jili at Jacque's Cafe",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 103549,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Jili' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040007,
+  "quest": "q3040007",
+  "title": "Card Duelist: Cardie 4 Life",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 92819,
+  "text": "Battle Card Duelist Jili while she uses her best deck. Be the first to score 12 points to win the match.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 92819,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target 'Jili' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040009,
+  "quest": "q3040009",
+  "title": "Card Duelist: Half a Deck",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 103650,
+  "text": "Beat Poe Tatters' Trick Deck to win one of his cards!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 103650,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target \"Poe Tatters' Trick Deck\" has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040015,
+  "quest": "q3040015",
+  "title": "Card Duelist: Garrisoning Garrison",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 103935,
+  "text": "Bry wants you to head to Snowhill and play a match against that pigheaded Garrison Gold.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 103935,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Garrison Gold' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040016,
+  "quest": "q3040016",
+  "title": "Card Duelist: Serious Business",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 103942,
+  "text": "Do whatever it takes to get a match with Garrison Gold.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 103942,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target 'Garrison Gold' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040026,
+  "quest": "q3040026",
+  "title": "Card Duelist: Herme the Hermit",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 104307,
+  "text": "As a Card Duelist; Defeat Herme Fickleleaf",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 104307,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target 'Herme Fickleleaf' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040031,
+  "quest": "q3040031",
+  "title": "Card Duelist: Break Time",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 413776,
+  "text": "Play a few games of cards with Esther in Briarwood while you wait for Dominic to return.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 413776,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Esther' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040036,
+  "quest": "q3040036",
+  "title": "Card Duelist: Alleged Thievery",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 413772,
+  "text": "Sir Wellington in Briarwood wants to play another game of cards with you. Then, he should really get back to work!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 413772,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Sir Wellington' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040040,
+  "quest": "q3040040",
+  "title": "Card Duelist: Cardie Partay",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 413812,
+  "text": "Sir Wellington wants you to participate in his cardie partay by playing a game of cards with him.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 413812,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Sir Wellington' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040042,
+  "quest": "q3040042",
+  "title": "Card Duelist: Snowhill is Melting",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 436539,
+  "text": "Mayor Crystalline in Snowhill wants you to play a few games of cards.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 436539,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Mayor Crystalline' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040044,
+  "quest": "q3040044",
+  "title": "Card Duelist: Dark Deal",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 436483,
+  "text": "Beat Tyrone's First Deck",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 436483,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Tyrone Shadowshard' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040046,
+  "quest": "q3040046",
+  "title": "Card Duelist: Suspicious Sneak",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 436543,
+  "text": "Jonathon Forkpath in Snowhill wants you to play a few games of cards.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 436543,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Jonathon Forkpath' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040050,
+  "quest": "q3040050",
+  "title": "Card Duelist: Master Explorer",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 436551,
+  "text": "Senari in Snowhill wants you to play a few games of cards. ",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 436551,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Senari' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040054,
+  "quest": "q3040054",
+  "title": "Card Duelist: Heart of Darkness",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 26464,
+  "text": "Battle Clancy Blackheart and his Resource Deck. Be the first to score 12 points to win the match and the Snarling Hedges Nature resource card!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 26464,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Clancy Blackheart' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040054,
+  "quest": "q3040054",
+  "title": "Card Duelist: Heart of Darkness",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 26466,
+  "text": "Battle Clancy Blackheart and his Trick Deck. Be the first to score 12 points to win the match and the Icy Arrow Nature trick card!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 26466,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target 'Clancy Blackheart' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040054,
+  "quest": "q3040054",
+  "title": "Card Duelist: Heart of Darkness",
+  "objective": 3,
+  "kind": "finish_minigame",
+  "text_string_id": 26468,
+  "text": "Battle Clancy Blackheart and his Creature Deck. Be the first to score 12 points to win the match and the Nettleseed Pest Nature creature card!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 26468,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 3: finish_minigame target 'Clancy Blackheart' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040054,
+  "quest": "q3040054",
+  "title": "Card Duelist: Heart of Darkness",
+  "objective": 4,
+  "kind": "finish_minigame",
+  "text_string_id": 26470,
+  "text": "Battle Clancy Blackheart and his Tournament Deck. Be the first to score 12 points to win the match and the Clancy Blackheart hero card!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 26470,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 4: finish_minigame target 'Clancy Blackheart' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040055,
+  "quest": "q3040055",
+  "title": "Card Duelist: Slow and Steady",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 26477,
+  "text": "Beat Freddy’s Resource Deck",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 26477,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target 'Freddy Slowhands' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040055,
+  "quest": "q3040055",
+  "title": "Card Duelist: Slow and Steady",
+  "objective": 3,
+  "kind": "finish_minigame",
+  "text_string_id": 26479,
+  "text": "Beat Freddy’s Trick Deck",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 26479,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 3: finish_minigame target 'Freddy Slowhands' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040055,
+  "quest": "q3040055",
+  "title": "Card Duelist: Slow and Steady",
+  "objective": 4,
+  "kind": "finish_minigame",
+  "text_string_id": 26481,
+  "text": "Beat Freddy’s Creature Deck",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 26481,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 4: finish_minigame target 'Freddy Slowhands' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040055,
+  "quest": "q3040055",
+  "title": "Card Duelist: Slow and Steady",
+  "objective": 5,
+  "kind": "finish_minigame",
+  "text_string_id": 26483,
+  "text": "Beat Freddy’s Tournament Deck",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 26483,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 5: finish_minigame target 'Freddy Slowhands' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040056,
+  "quest": "q3040056",
+  "title": "Card Duelist: Stinky Feet",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 26492,
+  "text": "Battle Bud Grimyfoot and his Resource Deck. Be the first to score 12 points to win the match and the Bone Bog Cemetery Order resource card!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 26492,
+   "minigame_id": null,
+   "count": 4
+  },
+  "gap": "objective 1: finish_minigame target 'Bud Grimyfoot' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3040057,
+  "quest": "q3040057",
+  "title": "Card Duelist: Meet the Boss",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 7961,
+  "text": "The Realmkeepers need more time!<BR><BR><font color='#D9781A'>Go to Seaside</font> and <font color='D9781A'>play Baron von Darkcheat</font> for a few games. Keep him distracted while the Realmkeepers get into position. Once you’ve beaten him at cards, the Realmkeepers will be able to strike!",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 7961,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Baron von Darkcheat' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3050008,
+  "quest": "q3050008",
+  "title": "Chef: Package Recovery!",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 100540,
+  "text": "Beat the Package Recovery! minigame",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 100540,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target 'Package Recovery!' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3050012,
+  "quest": "q3050012",
+  "title": "Chef: Fireworks Frenzy!",
+  "objective": 3,
+  "kind": "finish_minigame",
+  "text_string_id": 115589,
+  "text": "Beat the Fireworks Frenzy! minigame",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 115589,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 3: finish_minigame target 'Fireworks Frenzy!' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3060008,
+  "quest": "q3060008",
+  "title": "Demo Derby: Break 'er In",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 394459,
+  "text": "Break in the new kart by knocking out a few cars while competing in a Thunder Falls demolition derby.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394459,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Thunder Falls demolition derby' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3060016,
+  "quest": "q3060016",
+  "title": "Demo Derby: Seeking a Sponsor",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 394466,
+  "text": "Prove yourself to Kanan by scoring points during a Thunder Falls derby.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394466,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Thunder Falls derby' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3060021,
+  "quest": "q3060021",
+  "title": "Demo Derby: Wear and Tear",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 393349,
+  "text": "J. P. Screecher is worried about the condition of your car. He's asked you to try and complete a derby without getting knocked out.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 393349,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Frost Ridge derby' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3060023,
+  "quest": "q3060023",
+  "title": "Demo Derby: Taking on the Tank",
+  "objective": 2,
+  "kind": "finish_minigame",
+  "text_string_id": 394032,
+  "text": "Take first place against Claudio's minions in Frost Ridge without getting knocked out.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394032,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 2: finish_minigame target \"Claudio's minions\" has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3060032,
+  "quest": "q3060032",
+  "title": "Demo Derby: Action!",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 394474,
+  "text": "Deal a lot of damage and get a high score in the arena so that Sydney Spellmerg can film his scene.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 394474,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'derby encounter 264416407 (guide row 29; not mapped to a server target)' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070006,
+  "quest": "q3070006",
+  "title": "Fisherman: So A-Luring",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 408634,
+  "text": "Catch a big flutterfish",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 408634,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Flutterfish' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070007,
+  "quest": "q3070007",
+  "title": "Fisherman: Find Your Own Spot!",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 419160,
+  "text": "Catch a bigger creeping cod than Ernest in Darklit Lagoon.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 419160,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Creeping Cod' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070007,
+  "quest": "q3070007",
+  "title": "Fisherman: Find Your Own Spot!",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 409217,
+  "text": "Catch three bitter beta in Darklit Lagoon before Ernest does! ",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 409217,
+   "minigame_id": null,
+   "count": 3
+  },
+  "gap": "objective 1: finish_minigame target 'Bitter Beta' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070010,
+  "quest": "q3070010",
+  "title": "Much Bigger Bait",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 409698,
+  "text": "Jonah can't keep bait on his hook! Something bigger might be better. He thinks a few butter flyfish should do the trick.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 409698,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Butter Flyfish' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070011,
+  "quest": "q3070011",
+  "title": "Fisherman: Bigger is Better",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 419161,
+  "text": "Catch a large creeping cod",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 419161,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Large Creeping Cod' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070012,
+  "quest": "q3070012",
+  "title": "Better Bacon Bait",
+  "objective": 0,
+  "kind": "finish_minigame",
+  "text_string_id": 409912,
+  "text": "Catch some large baconfish to help Jonah make better bait.",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 409912,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 0: finish_minigame target 'Large Baconfish' has no minigame_id in our data"
+ },
+ {
+  "quest_id": 3070012,
+  "quest": "q3070012",
+  "title": "Better Bacon Bait",
+  "objective": 1,
+  "kind": "finish_minigame",
+  "text_string_id": 409913,
+  "text": "Reel in large Baconfish",
+  "draft": {
+   "kind": "finish_minigame",
+   "text_string_id": 409913,
+   "minigame_id": null,
+   "count": 1
+  },
+  "gap": "objective 1: finish_minigame target 'Large Baconfish' has no minigame_id in our data"
+ }
+]

@@ -1,0 +1,4 @@
+<!-- fleet job=hp-frame id=taka-the-shadow-1-NtjR5zpRDoQ-00420 status=done turns=1 usd=0.0008 tokens(read,write,in,out)=[0, 3155, 4, 870] model=claude-haiku-5-5 -->
+# Taka the Shadow NtjR5zpRDoQ 420s
+
+{"screen": "world", "target": {"name": null, "level": null, "health_fraction": null, "health_text": null, "is_tracker_only": false}, "other_enemy_bars": [], "damage_numbers": [], "attackers_visible": 0, "player": {"name": "Jojo", "level": 20, "job": null, "health_fraction": null}, "target_defeated": false, "notes": "Peaceful town-area scene with no enemies on screen. Taka the Shadow is not visible; the only tracker is 'Active Quest! Ninja Citadel 420m'. Nearby names (Bridget Roseknight, Grayson Stonyhammer) are player characters with guild tags, not enemies. The Dojo Mojo quest panel is open."}

@@ -269,6 +269,9 @@ JOBS = {
     # A reference spawn for each needs_spawn objective (quests/spawn_objects.py writes the packs).
     "spawnobj-infer": Job("spawnobj-infer", "spawnobj-infer", "low", 0.05, lambda: round_items("spawnobj-infer"),
                           tools=("locale", "submit")),
+    # Unknown objectives with every id filled: settled with (R) values, or keep (quests/objpromote.py).
+    "objpromote-judge": Job("objpromote-judge", "objpromote-judge", "low", 0.02, lambda: round_items("objpromote-judge"),
+                            tools=("submit",)),
     "line-infer": Job("line-infer", "line-infer", "low", 0.06, lambda: round_items("line-infer"), tools=QUEST_TOOLS),
     "line-critic": Job("line-critic", "line-critic", "low", 0.05, lambda: round_items("line-critic"),
                        tools=QUEST_TOOLS),

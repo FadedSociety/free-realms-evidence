@@ -14,7 +14,10 @@ Lesson (memory fleet-pack-joins): pre-join every candidate into the packs with a
    objective-specs-fixed.json + brief place-needs-spawn-objective-targets; 63 not in the FabledRealms.lua spawn lists
    (zone/instance scripts or client zone files next), 3 ambiguous (q3090024 privates). **needs_spawn objects** (94 objectives, objective-specs-fixed.json): local resolver over the reference spawn
    tables by object or model name, then Haiku for the ambiguous ones.
-3. **"No evidence yet" objectives** (244): Jev screens wiki, articles and video for each target and count; Haiku
+3. **PARTLY DONE 2026-10-26** (`quests/objpromote.py`, job objpromote-judge, $0.05): of the 118 unknowns whose ids are
+   all filled, 11 -> settled_r (only an (R) count left, ids checked locally); 100 keep a real doubt (candidate ids,
+   proxy positions, quest links). Jev pre-screen skipped: Haiku 5.5 costs about the same. Left: the 126 with an id
+   missing (gather resource items, recipe rows, minigame ids, positions). **"No evidence yet" objectives** (244): Jev screens wiki, articles and video for each target and count; Haiku
    only on the promising ones.
 4. **The 45 test files the audit left unresolved or unanswered** (`world_lines.py run --domain testaudit`, then hand
    them to T733).

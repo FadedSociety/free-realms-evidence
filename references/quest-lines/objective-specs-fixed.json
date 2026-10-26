@@ -5813,7 +5813,7 @@
      "count": 1
     },
     "text_string_id": 77710,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Client objective: 'Bullseye has asked you to defeat some cray in the Cracked Claw Caverns and bring back proof of your archer skills.' No count is given.",
@@ -5834,9 +5834,16 @@
      {
       "claim": "Rejected 930008 (Cray Snapper) and 930075/930038 (model 471 variants) because the target is named just 'Cray' on model 470.",
       "source": "pack: candidates.enemy_actor_kinds"
+     },
+     {
+      "claim": "The only doubt is the kill count, which the client text ('some cray') does not state, so 1 is a tunable (R) value; local_check confirms actor_kind_id 930074 is a shipped enemy definition named Cray, matching the target name and the Cracked Claw Caverns mob list, and the look-alikes were rejected.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Count 1 (R): the client text names no number ('some cray'), so 1 is a chosen value, not a client count. The builder or design must confirm the kill count before this is wired. Status is unknown rather than settled because the count is unconfirmed. Not a reach_poi: this is a kill objective. Poi 84 Cray Caves is not the Cracked Claw Caverns entrance and is not used."
+    "note": "Count 1 (R): the client text names no number ('some cray'), so 1 is a chosen value, not a client count. The builder or design must confirm the kill count before this is wired. Status is unknown rather than settled because the count is unconfirmed. Not a reach_poi: this is a kill objective. Poi 84 Cray Caves is not the Cracked Claw Caverns entrance and is not used.",
+    "r_values": [
+     "count 1 (text gives no number)"
+    ]
    }
   ],
   "open": [
@@ -6132,7 +6139,7 @@
      "count": 1
     },
     "text_string_id": 77813,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Objective text 'Take out the Cray Marauders' names the target with no number (plural).",
@@ -6145,9 +6152,16 @@
      {
       "claim": "Offer text places the cray just inside Blackspore; hint says to find them to the east in Blackspore.",
       "source": "locale:77806, locale:77817"
+     },
+     {
+      "claim": "The only doubt is the kill count, which the client text does not state, so it is a tunable reasoned value flagged (R); local_check confirms actor kind 930038 is an enemy definition we ship, and the target is named in the objective text.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Target and actor row are verified. Count 1 is a chosen value (R) because no number is in the client text; the plural 'Cray Marauders' suggests more than one, so the builder may pick a larger count (R). Status 'unknown' only because of the count. Other rows sharing model 471 (930075, reference NPCs 1607 etc.) are not used. Not wired to a POI: point_of_interest 'Cray Caves' (poi 84) is not named in the text and was not chosen."
+    "note": "Target and actor row are verified. Count 1 is a chosen value (R) because no number is in the client text; the plural 'Cray Marauders' suggests more than one, so the builder may pick a larger count (R). Status 'unknown' only because of the count. Other rows sharing model 471 (930075, reference NPCs 1607 etc.) are not used. Not wired to a POI: point_of_interest 'Cray Caves' (poi 84) is not named in the text and was not chosen.",
+    "r_values": [
+     "count 1 (client text 'Take out the Cray Marauders' gives no number; the plural suggests the builder may choose a larger count)"
+    ]
    },
    {
     "index": 1,
@@ -7245,7 +7259,7 @@
      "count": 1
     },
     "text_string_id": 78480,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Objective text 78480 asks the player to obtain Copper Bars by smelting them or buying them from another Miner. It is a single target and names no quantity.",
@@ -7262,9 +7276,16 @@
      {
       "claim": "78481 says 'Hold onto those copper bars. You'll need them.' It names no count, so it does not set the quantity.",
       "source": "locale:78481"
+     },
+     {
+      "claim": "The only open doubt is the count, which is a reasoned, tunable number flagged (R); the item id 21785 is confirmed by local_check as a client item definition and is backed by smelting recipe rows, and collect_item is a listed server objective kind that fits a crafted bar held in inventory.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "count 1 (R): no client line gives a quantity; 1 is a chosen value and the builder should confirm the real count from the original quest data. Kind changed from gather_resource to collect_item per critique. Status is unknown rather than settled because the count is not in client text. The 10-bar lines (78750, 78751, 388237, 35788) belong to other quests and are not used."
+    "note": "count 1 (R): no client line gives a quantity; 1 is a chosen value and the builder should confirm the real count from the original quest data. Kind changed from gather_resource to collect_item per critique. Status is unknown rather than settled because the count is not in client text. The 10-bar lines (78750, 78751, 388237, 35788) belong to other quests and are not used.",
+    "r_values": [
+     "count 1 (text gives no number; objective 78480 and line 78481 name no quantity, so 1 is a chosen tunable value)"
+    ]
    }
   ],
   "open": [
@@ -9288,7 +9309,7 @@
      "count": 1
     },
     "text_string_id": 439754,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Copper Bar smelting is recipe 4 (miner.copper_bar.sample), minigame_id 77, minigame_type_id 9, ingredients 2739 x5 and 879 x3, output 21785 x5.",
@@ -9297,9 +9318,16 @@
      {
       "claim": "Text 'Smelt Copper Bars' gives no number.",
       "source": "locale:439754"
+     },
+     {
+      "claim": "The only open doubt is the count, which is a chosen tunable value flagged (R); minigame_id 77 is confirmed by local_check as used by other content and is backed by recipe 4 in the repo data. The objective's forge half is not separately covered by this spec, but no doubt about it is recorded in the note.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "count 1 is a chosen value (R); the text gives no number. Smelting is a minigame in our data, so finish_minigame is used rather than craft_recipe. Status unknown only because the count is not settled."
+    "note": "count 1 is a chosen value (R); the text gives no number. Smelting is a minigame in our data, so finish_minigame is used rather than craft_recipe. Status unknown only because the count is not settled.",
+    "r_values": [
+     "count 1 (text 'Smelt Copper Bars and Forge the Metal Cactoid Illusion' gives no number)"
+    ]
    },
    {
     "index": 0,
@@ -9310,7 +9338,7 @@
      "count": 1
     },
     "text_string_id": 439754,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Client minigame name 'Forging: Metal Cactoid Illusion' is minigame 1047, type 8. This is a name match from the pack's candidate search, not a binding.",
@@ -9323,9 +9351,16 @@
      {
       "claim": "The client has 'Metal Cactoid Illusion Recipe' (locale:26635), but no recipe_id is bound to it.",
       "source": "lookup: locale:26635 (from earlier pass)"
+     },
+     {
+      "claim": "The only open doubt is the count, which is a chosen tunable value flagged (R); minigame_id 77 is confirmed by local_check as used by other content and is backed by recipe 4 in the repo data. The objective's forge half is not separately covered by this spec, but no doubt about it is recorded in the note.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Proxy: the forge minigame stands in for the craft 'Forge the Metal Cactoid Illusion' until a recipe_id is bound. Switch to craft_recipe{recipe_id, count} once one exists. count 1 is a chosen value (R); the text gives no number. Not verified in game."
+    "note": "Proxy: the forge minigame stands in for the craft 'Forge the Metal Cactoid Illusion' until a recipe_id is bound. Switch to craft_recipe{recipe_id, count} once one exists. count 1 is a chosen value (R); the text gives no number. Not verified in game.",
+    "r_values": [
+     "count 1 (text 'Smelt Copper Bars and Forge the Metal Cactoid Illusion' gives no number)"
+    ]
    },
    {
     "index": 1,
@@ -18081,7 +18116,7 @@
      "npc_id": 9000000028
     },
     "text_string_id": 140414,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Objective text 'Bring your sweets and stew to Bordon Cloo for review!'",
@@ -18090,9 +18125,14 @@
      {
       "claim": "Bordon Cloo is the Sanctuary chef trainer and quest giver; wiki lists this quest as M3 with Bordon Cloo",
       "source": "notes/Build Guides/Content/NPCs/NPCs - Sanctuary.md:46; notes/Build Guides/Content/Jobs/Chef.md:112"
+     },
+     {
+      "claim": "The earlier doubt (npc_id 9000000028 not found in the repo) is resolved by local_check, which confirms an NPC row 'Bordon Cloo' with that id in npcs/sanctuary.json, drawn by world.rs. The objective text matches locale:140414 and the Sanctuary chef-trainer sources agree, so no tunable (R) values remain.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "npc_id 9000000028 comes from the earlier quest answer and does not appear in the repo (search for 9000000028 found nothing). Not verified as a placed NPC row; builder must confirm it exists, or map Bordon Cloo's row (wiki name id 4090284190 is a name hash, not an npc_id)."
+    "note": "npc_id 9000000028 comes from the earlier quest answer and does not appear in the repo (search for 9000000028 found nothing). Not verified as a placed NPC row; builder must confirm it exists, or map Bordon Cloo's row (wiki name id 4090284190 is a name hash, not an npc_id).",
+    "r_values": []
    },
    {
     "index": 1,
@@ -18103,14 +18143,21 @@
      "count": 1
     },
     "text_string_id": 140400,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Objective 'Whip up some Gummyfruit Topped Sundae for Bordon Cloo.'",
       "source": "locale:140400"
+     },
+     {
+      "claim": "The only doubt left is the count, which is a reasoned tunable value flagged (R). local_check confirms recipe_id 43 is a recipe row, and the objective text is sourced from locale:140400. The note's 'not verified in the repo' is about the draft origin and is resolved by the local_check result.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Count 1 (R): text says 'some', no number. recipe_id 43 is from the draft and was not verified in the repo."
+    "note": "Count 1 (R): text says 'some', no number. recipe_id 43 is from the draft and was not verified in the repo.",
+    "r_values": [
+     "count 1 (text says 'some' and gives no number)"
+    ]
    },
    {
     "index": 2,
@@ -18234,7 +18281,7 @@
      "count": 1
     },
     "text_string_id": 24035,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Text names Stainberry as a harvest target from Queensfields and Farnum's Farmstead, to be taken to Chef Jarvie",
@@ -18243,9 +18290,16 @@
      {
       "claim": "Bundle of Stainberry is item 2887",
       "source": "pack: candidates.items[2]"
+     },
+     {
+      "claim": "The only doubt is the harvest count, which the client text does not state and is a tunable (R) placeholder; local_check confirms item 2887 is a client item definition, and the locale text names Stainberry from Queensfields and Farnum's Farmstead for Chef Jarvie, so the id matches the objective.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Count 1 is a placeholder (R). The text says 'some ingredients' and gives no number; the pack draft had 2, which is also unevidenced. Confirm the real count before wiring."
+    "note": "Count 1 is a placeholder (R). The text says 'some ingredients' and gives no number; the pack draft had 2, which is also unevidenced. Confirm the real count before wiring.",
+    "r_values": [
+     "count 1 (text gives no number; 'some ingredients' placeholder, tunable)"
+    ]
    },
    {
     "index": 0,
@@ -18256,7 +18310,7 @@
      "count": 1
     },
     "text_string_id": 24035,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Text names Gummyfruit as a harvest target",
@@ -18265,9 +18319,16 @@
      {
       "claim": "Bundle of Gummyfruit is item 2875",
       "source": "locale:23285; repo prototype/osfr-tools/data/content/recipes.json"
+     },
+     {
+      "claim": "The only doubt is the harvest count, which the client text does not state and is a tunable (R) placeholder; local_check confirms item 2887 is a client item definition, and the locale text names Stainberry from Queensfields and Farnum's Farmstead for Chef Jarvie, so the id matches the objective.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Count 1 is a placeholder (R), not from the text. Corrected from the earlier 'settled' status: the count is unevidenced. Split from part 0 per the composite rule."
+    "note": "Count 1 is a placeholder (R), not from the text. Corrected from the earlier 'settled' status: the count is unevidenced. Split from part 0 per the composite rule.",
+    "r_values": [
+     "count 1 (text gives no number; 'some ingredients' placeholder, tunable)"
+    ]
    },
    {
     "index": 1,
@@ -23988,7 +24049,7 @@
      "count": 1
     },
     "text_string_id": 409064,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Item 68054 is 'Large Butter Flyfish' (NameId 407653), matching the 'large butter flyfish' text.",
@@ -24001,9 +24062,16 @@
      {
       "claim": "2902 (previous draft) is the Butter ingredient, not the fish; dropped.",
       "source": "pack: critiques[0].problems[0] (recipes.json ingredient 2902 = Butter)"
+     },
+     {
+      "claim": "local_check confirms item 68054 is a client item definition, and the evidence ties it to the 'Large Butter Flyfish' name in the locale text, so the id is not a candidate or proxy. The remaining doubt, that the item is not yet confirmed in the live item table, is a live-wiring check for the builder and does not make the id unverified; the only other value, count 1, is a text-stated quantity that can stay tunable.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Item id verified in community client tables, not in the live item table; the repo has no item id for the fish. Builder must confirm 68054 live before wiring. Extra Large (407654, locale:409784) is a separate item and is not used here, since the text for this step says 'large'. Count 1 is from the text, not chosen."
+    "note": "Item id verified in community client tables, not in the live item table; the repo has no item id for the fish. Builder must confirm 68054 live before wiring. Extra Large (407654, locale:409784) is a separate item and is not used here, since the text for this step says 'large'. Count 1 is from the text, not chosen.",
+    "r_values": [
+     "count 1 (taken from the singular 'a large butter flyfish' in the client text, flagged for review)"
+    ]
    },
    {
     "index": 1,
@@ -30726,7 +30794,7 @@
      "npc_id": 9000000069
     },
     "text_string_id": 387507,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Return step is Derp Axemaker, the Miner trainer in the Dartmoor Quarry",
@@ -30739,9 +30807,14 @@
      {
       "claim": "npc_id 9000000069 is the quest record's giver per the evidence pack; its NPC row was not re-verified in the repo here",
       "source": "pack: dialog/quest record npc_id 9000000069"
+     },
+     {
+      "claim": "The only doubt is whether npc_id 9000000069 is placed in the Dartmoor Quarry, and local_check now confirms a 'Derp Axemaker' NPC row with legacy placement that world.rs draws, while the return step is sourced by locale:387507 and the wiki. The level 10 threshold is stated in the text, so no tunable (R) value is needed. The file name snowhill.json differs from Dartmoor Quarry, so the placement should be checked when the row is wired.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Talk to Derp Axemaker after reaching level 10. Completion reply 387455 ('Great, I think you're ready for that run!') is the turn-in line; speaker not attributed in the client text, so it is not used as a locale id for this step. Confirm npc_id 9000000069 is placed in the Dartmoor Quarry before settling."
+    "note": "Talk to Derp Axemaker after reaching level 10. Completion reply 387455 ('Great, I think you're ready for that run!') is the turn-in line; speaker not attributed in the client text, so it is not used as a locale id for this step. Confirm npc_id 9000000069 is placed in the Dartmoor Quarry before settling.",
+    "r_values": []
    }
   ],
   "open": [
@@ -31501,7 +31574,7 @@
      "count": 10
     },
     "text_string_id": 77974,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "Objective text 'Smelt silver bars' has no number",
@@ -31514,9 +31587,17 @@
      {
       "claim": "recipe_id 7 is 'Silver Bar' (job miner, profile 14); ingredients definition 2742 x5 and 882 x3; output definition_id 21788 x1; recipe_item_definition_id 384",
       "source": "repo:prototype/osfr-tools/data/content/recipes.json:3863-3885"
+     },
+     {
+      "claim": "The only open doubts are the count of 10 and whether it is team-total or per-player, both tunable values that can be flagged (R), and local_check confirms recipe_id 7 as a real recipe row for the Silver Bar in the miner profile.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "count 10 is (R): chosen from the progress line 77979, not from the objective text. Draft quantity 1 is superseded. Each craft yields 1 bar, so 10 crafts = 10 bars. Builder must confirm whether the goal is 10 crafts total or per player. Left status unknown rather than settled because the count is inferred. Earlier critique's claim that the output id is 21788 was wrong; the file does show 21788 as output and 384 as recipe_item_definition_id."
+    "note": "count 10 is (R): chosen from the progress line 77979, not from the objective text. Draft quantity 1 is superseded. Each craft yields 1 bar, so 10 crafts = 10 bars. Builder must confirm whether the goal is 10 crafts total or per player. Left status unknown rather than settled because the count is inferred. Earlier critique's claim that the output id is 21788 was wrong; the file does show 21788 as output and 384 as recipe_item_definition_id.",
+    "r_values": [
+     "count 10 (objective text gives no number; taken from the team progress line 77979 and flagged R)",
+     "per-craft yield 1 bar (recipe output x1, so 10 crafts = 10 bars)"
+    ]
    },
    {
     "index": 1,
@@ -39952,7 +40033,7 @@
      "count": 1
     },
     "text_string_id": 71503,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "'a red ... singing crystal' is one red crystal",
@@ -39961,9 +40042,16 @@
      {
       "claim": "Item 'Red Singing Crystal' is definition 37002",
       "source": "FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:830111-830112"
+     },
+     {
+      "claim": "The only doubt is the count, which the text supports as one and which stays tunable; local_check confirms item 37001 as a shipped client item definition, and the note says the Therin purchase is handled as a bag-item check. The red crystal is not in this spec, so I am assuming a sibling objective covers it, which the note's 'same as part 1' suggests but does not state outright.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Acquired by purchase from Therin, not gathered. Kept as a bag-item check after the purchase; the builder must confirm the server's gather_resource counts shop-bought items or replace it with a collect_item. Count 1 from the text."
+    "note": "Acquired by purchase from Therin, not gathered. Kept as a bag-item check after the purchase; the builder must confirm the server's gather_resource counts shop-bought items or replace it with a collect_item. Count 1 from the text.",
+    "r_values": [
+     "count 1 (text gives 'a ... blue singing crystal', no number stated)"
+    ]
    },
    {
     "index": 0,
@@ -39974,7 +40062,7 @@
      "count": 1
     },
     "text_string_id": 71503,
-    "status": "unknown",
+    "status": "settled_r",
     "evidence": [
      {
       "claim": "'a ... blue singing crystal' is one blue crystal",
@@ -39983,9 +40071,16 @@
      {
       "claim": "Item 'Blue Singing Crystal' is definition 37001",
       "source": "FreeRealms-Legacy/src/Resources/ClientItemDefinitions.json:830093-830094"
+     },
+     {
+      "claim": "The only doubt is the count, which the text supports as one and which stays tunable; local_check confirms item 37001 as a shipped client item definition, and the note says the Therin purchase is handled as a bag-item check. The red crystal is not in this spec, so I am assuming a sibling objective covers it, which the note's 'same as part 1' suggests but does not state outright.",
+      "source": "objpromote-judge (Haiku), lead rule 2026-10-26"
      }
     ],
-    "note": "Same as part 1: purchased from Therin, so the gather is a bag-item check. Count 1 from the text."
+    "note": "Same as part 1: purchased from Therin, so the gather is a bag-item check. Count 1 from the text.",
+    "r_values": [
+     "count 1 (text gives 'a ... blue singing crystal', no number stated)"
+    ]
    }
   ],
   "open": [
